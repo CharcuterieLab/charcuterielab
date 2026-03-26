@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section style="background:var(--bark);min-height:90vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:80px 60px;">
+  <div style="position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(200,150,12,.12) 0%,transparent 65%);top:-200px;right:-100px;pointer-events:none;"></div>
+  <div style="position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(160,82,45,.15) 0%,transparent 65%);bottom:-100px;left:80px;pointer-events:none;"></div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;position:relative;z-index:1;max-width:1100px;width:100%;">
+
+    <div>
+      <div class="eyebrow anim d1" style="color:var(--gold);">Coming Soon</div>
+      <h1 class="anim d2" style="color:var(--white);margin-bottom:16px;">The Charcuterie Lab<br><em style="color:var(--gold-lt);">Board Book</em></h1>
+      <p class="anim d3" style="font-family:'Playfair Display',serif;font-style:italic;color:var(--gold-lt);font-size:1.15rem;margin-bottom:28px;">50 Boards. Every Occasion. The Science Behind Each One.</p>
+      <p class="anim d4" style="color:rgba(253,246,227,.65);font-size:.97rem;line-height:1.8;margin-bottom:36px;">
+        The first book from Charcuterie Lab brings together 50 complete board designs — each with the food science, ingredient rationale, shopping lists, and step-by-step assembly guide that makes Charcuterie Lab different from every other charcuterie resource.
+      </p>
+
+      <div class="anim d4" style="display:flex;flex-direction:column;gap:12px;margin-bottom:40px;">
+        {{ $features := slice "50 board designs for every budget, occasion, and season" "The pairing science behind every ingredient choice — explained" "Full shopping lists for every board" "International and fusion boards from 15 food cultures" "The complete charcuterie ingredient deep dive index" "Flavor maps, pairing charts, and visual reference guides" }}
+        {{ range $features }}
+        <div style="display:flex;align-items:flex-start;gap:12px;">
+          <span style="color:var(--gold);font-size:.9rem;flex-shrink:0;margin-top:1px;">✦</span>
+          <span style="color:rgba(253,246,227,.72);font-size:.88rem;line-height:1.6;">{{ . }}</span>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="anim d5">
+        <p style="font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(253,246,227,.45);margin-bottom:14px;">Get notified at launch — early subscribers get the best price</p>
+        <div style="display:flex;gap:0;max-width:420px;">
+          <input type="email" placeholder="Your email address" style="flex:1;padding:15px 18px;background:rgba(253,246,227,.08);border:1.5px solid rgba(253,246,227,.18);border-right:none;color:white;font-family:'Raleway',sans-serif;font-size:.85rem;outline:none;">
+          <button type="button" class="btn btn-gold" style="white-space:nowrap;" onclick="if(this.previousElementSibling.value.includes('@')){this.textContent='✓ You\'re on the list!';this.style.background='#3A7D44';}">Notify Me at Launch</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book visual -->
+    <div class="anim d3" style="display:flex;justify-content:center;">
+      <div style="width:340px;background:linear-gradient(145deg,var(--cream-dk) 0%,var(--parchment) 100%);box-shadow:24px 24px 80px rgba(0,0,0,.5),-8px -8px 0 var(--saddle);padding:52px 44px;position:relative;transform:rotate(-1.5deg);">
+        <div style="position:absolute;top:0;left:0;right:0;height:6px;background:var(--gold);"></div>
+        <div style="font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:18px;">Charcuterie Lab</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:900;color:var(--bark);line-height:1.15;margin-bottom:8px;">The<br>Charcuterie Lab<br>Board Book</div>
+        <div style="font-family:'Playfair Display',serif;font-style:italic;font-size:.88rem;color:var(--sienna);margin-bottom:28px;">Where Science Meets Flavor</div>
+        <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:32px;">
+          {{ range (slice "50 complete boards" "Food science explained" "Shopping lists included" "Every budget & occasion") }}
+          <div style="font-size:.74rem;color:var(--smoke);display:flex;align-items:center;gap:8px;"><span style="color:var(--gold);">•</span> {{ . }}</div>
+          {{ end }}
+        </div>
+        <div style="border-top:1px solid var(--parchment);padding-top:18px;display:flex;justify-content:space-between;align-items:center;">
+          <div style="font-family:'Playfair Display SC',serif;font-size:.75rem;color:var(--smoke);">CharcuterieLab.com</div>
+          <div style="font-size:1.5rem;opacity:.5;">🧪</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<style>
+@media(max-width:900px){
+  section>div{grid-template-columns:1fr!important;gap:48px!important;}
+}
+</style>
+
+{{ end }}

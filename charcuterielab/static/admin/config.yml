@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        options:
+          - "Pairing Science"
+          - "Ingredient Deep Dives"
+          - "Board Ideas"
+          - "Food History"
+          - "Myth Busting"
+          - "Tips & Tricks"
+          - "Seasonal Boards"
+          - "International Boards"
+          - "Budget Boards"
+          - "Luxury Boards"
+      - {label: "Read Time", name: "readtime", widget: "string", default: "5 min"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "guides"
+    label: "Guides & Products"
+    folder: "content/guides"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Type", name: "type", widget: "select", options: ["Free Guide", "Printable", "Ebook", "Bundle"]}
+      - {label: "Price", name: "price", widget: "string", default: "Free"}
+      - {label: "Gumroad URL", name: "gumroad_url", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

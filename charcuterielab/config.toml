@@ -1,0 +1,18 @@
+baseURL = "https://charcuterielab.com/"
+languageCode = "en-us"
+title = "Charcuterie Lab"
+paginate = 9
+
+[params]
+  tagline = "Where Science Meets Flavor"
+  description = "Deep-dive ingredient science, pairing chemistry, and board-building technique for home entertainers who want to know the why behind every bite."
+  author = "Charcuterie Lab"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
