@@ -1,12 +1,13 @@
-<section class="newsletter-section" id="newsletter">
-  <div class="newsletter-inner">
+<section class="nl-section" id="newsletter">
+  <div class="nl-inner">
     <div class="eyebrow center">Free Weekly Newsletter</div>
     <h2>The Lab Report</h2>
-    <p>One charcuterie science fact, one pairing you haven't tried, and one board idea — every week. No fluff. Just flavor.</p>
+    <p>One science fact, one pairing to try, one board idea — every week. No fluff. Just flavor.</p>
     <div class="nl-form">
-      <input type="email" id="nl-email-main" placeholder="Your email address">
-      <button type="button" onclick="window.open('https://charcuterie-lab-report.beehiiv.com/subscribe?email='+encodeURIComponent(document.getElementById('nl-email-main').value),'_blank')">Subscribe Free</button>
+      <input type="email" id="nl-email-{{ now.UnixNano }}" placeholder="Your email address">
+      <button type="button" onclick="(function(btn){var inp=btn.previousElementSibling;if(inp.value.includes('@')){window.open('https://charcuterie-lab-report.beehiiv.com/subscribe?email='+encodeURIComponent(inp.value),'_blank');btn.textContent='✓ Redirecting...';setTimeout(()=>btn.textContent='Subscribe Free',3000);}else{inp.style.borderColor='#C4862A';setTimeout(()=>inp.style.borderColor='',2000);}})(this)">Subscribe Free</button>
     </div>
-    <p class="nl-fine">No spam. One email per week. Unsubscribe any time. &nbsp;·&nbsp; <a href="https://charcuterie-lab-report.beehiiv.com/" target="_blank" style="color:rgba(253,246,227,.45);text-decoration:underline;">View past issues</a></p>
+    <p class="nl-fine">No spam. One email per week. Unsubscribe any time.</p>
+    <p class="nl-archive"><a href="https://charcuterie-lab-report.beehiiv.com/" target="_blank" rel="noopener">View past issues →</a></p>
   </div>
 </section>

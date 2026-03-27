@@ -1,5 +1,5 @@
 ---
 title: "Guides & Products"
-description: "Free printable guides, pairing cheat sheets, ebooks, and shopping lists — everything you need to build better boards."
+description: "Pairing science guides, board blueprints, and wine-cheese references that turn any home entertainer into the most knowledgeable person at the table."
 layout: "single"
 ---

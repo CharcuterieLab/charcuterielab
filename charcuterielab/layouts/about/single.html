@@ -1,73 +1,39 @@
 {{ define "main" }}
-
 <div class="page-hero">
   <div class="page-hero-inner">
     <div class="eyebrow">About</div>
-    <h1>Where Science<br><em style="color:var(--gold-lt);">Meets Flavor</em></h1>
+    <h1 style="color:var(--white);">Where Science Meets <em style="color:var(--amber-pale);">Flavor</em></h1>
     <p>The story behind Charcuterie Lab — and why understanding the why behind a pairing changes everything about how you build a board.</p>
   </div>
 </div>
-
 <section class="section bg-white">
-  <div class="about-layout">
+  <div class="about-grid">
     <div class="about-visual">
-      <div class="about-quote">The best charcuterie boards aren't built from recipes. They're built from understanding.</div>
-      <cite>— Charcuterie Lab</cite>
+      <div class="about-quote">The best boards aren't built from recipes. They're built from understanding.</div>
+      <div class="about-cite">— Charcuterie Lab</div>
     </div>
-    <div class="about-content">
+    <div>
       <div class="eyebrow">Our Mission</div>
       <h2>Charcuterie Education for <em>Home Entertainers</em></h2>
-      <p>Charcuterie Lab exists to answer one question that most food content never bothers to ask: <em>why does this work?</em></p>
-      <p>Why does blue cheese and honey trigger a dopamine response? Why does the region where prosciutto is made count as an ingredient? Why does cold cheese taste like nothing, and why does that matter?</p>
-      <p>The pairing science, food chemistry, and ingredient history behind great charcuterie is genuinely fascinating — and almost nobody talks about it. We talk about almost nothing else.</p>
-      <p>Our goal is to make you the most knowledgeable person in the room at any party — not because you memorized a list, but because you understand the underlying science and can apply it to anything.</p>
-
-      <div class="about-values">
-        <div class="value-item">
-          <strong>🔬 Science-First</strong>
-          <span>Every pairing recommendation is backed by food chemistry, not just tradition or taste preference.</span>
-        </div>
-        <div class="value-item">
-          <strong>🎓 Approachable Expertise</strong>
-          <span>Deep knowledge doesn't have to be intimidating. We explain the science in plain language.</span>
-        </div>
-        <div class="value-item">
-          <strong>💰 Every Budget</strong>
-          <span>A great board doesn't require expensive ingredients. It requires intentional ones.</span>
-        </div>
-        <div class="value-item">
-          <strong>🌍 Global Perspective</strong>
-          <span>Every food culture has a sharing board tradition. We explore all of them.</span>
-        </div>
+      <p style="color:var(--mist);font-size:.92rem;line-height:1.78;margin-bottom:16px;">Charcuterie Lab exists to answer one question most food content never bothers to ask: <em>why does this work?</em></p>
+      <p style="color:var(--mist);font-size:.92rem;line-height:1.78;margin-bottom:16px;">Why does blue cheese and honey trigger a dopamine response? Why does the region where prosciutto is made count as an ingredient? Why does cold cheese taste like nothing?</p>
+      <p style="color:var(--mist);font-size:.92rem;line-height:1.78;margin-bottom:24px;">The pairing science behind great charcuterie is genuinely fascinating — and almost nobody talks about it. We talk about almost nothing else.</p>
+      <div class="value-grid">
+        <div class="value-item"><strong>🔬 Science-First</strong><span>Every recommendation backed by food chemistry, not just tradition.</span></div>
+        <div class="value-item"><strong>🎓 Approachable</strong><span>Deep knowledge explained in plain language. No intimidation.</span></div>
+        <div class="value-item"><strong>💰 Every Budget</strong><span>Great boards need intentional ingredients, not expensive ones.</span></div>
+        <div class="value-item"><strong>🌍 Global</strong><span>Every food culture has a sharing board. We explore all of them.</span></div>
       </div>
     </div>
   </div>
 </section>
-
 <div class="science-strip">
-  <div class="science-quote">
-    <blockquote>Boards aren't food. They're an experience — and chemistry is how you engineer a good one.</blockquote>
-    <cite>— Charcuterie Lab</cite>
-  </div>
+  <div class="science-quote"><blockquote>Boards aren't food. They're an experience — chemistry is how you engineer a good one.</blockquote><cite>— Charcuterie Lab</cite></div>
   <div class="science-facts">
-    <div class="science-fact">
-      <div class="fact-num">100+</div>
-      <div class="fact-label">Ingredients Covered</div>
-      <div class="fact-desc">Deep-dive content on every major charcuterie ingredient — the science, history, and board potential of each one.</div>
-    </div>
-    <div class="science-fact">
-      <div class="fact-num">200+</div>
-      <div class="fact-label">Pairing Combinations</div>
-      <div class="fact-desc">Documented pairing combinations with the flavor chemistry explanation behind why each one works.</div>
-    </div>
-    <div class="science-fact">
-      <div class="fact-num">Weekly</div>
-      <div class="fact-label">Newsletter</div>
-      <div class="fact-desc">The Lab Report — one science fact, one pairing, one board idea. Every week. Free forever.</div>
-    </div>
+    <div class="science-fact"><div class="fact-num">100+</div><div class="fact-label">Ingredients Covered</div><div class="fact-desc">Deep-dive content on every major charcuterie ingredient — science, history, and board potential.</div></div>
+    <div class="science-fact"><div class="fact-num">200+</div><div class="fact-label">Pairing Combinations</div><div class="fact-desc">Documented pairings with the flavor chemistry behind why each one works.</div></div>
+    <div class="science-fact"><div class="fact-num">Weekly</div><div class="fact-label">Newsletter</div><div class="fact-desc">One science fact, one pairing, one board idea. Every week. Free forever.</div></div>
   </div>
 </div>
-
 {{ partial "newsletter.html" . }}
-
 {{ end }}
