@@ -165,13 +165,75 @@ a {
   min-height: 330px;
   display: grid;
   place-items: end center;
+  perspective: 1200px;
+}
+
+.book-tilt {
+  position: relative;
+  z-index: 2;
+  transform: rotateY(-11deg) rotateZ(1deg);
+  transform-style: preserve-3d;
+}
+
+.book-object {
+  position: relative;
+  width: min(320px, 78vw);
+  border-radius: 2px 10px 10px 2px;
+  box-shadow:
+    22px 22px 34px rgba(0, 0, 0, 0.34),
+    2px 0 0 rgba(255, 255, 255, 0.18) inset,
+    -10px 0 18px rgba(0, 0, 0, 0.28) inset;
+  transform-style: preserve-3d;
+}
+
+.book-object::before {
+  content: "";
+  position: absolute;
+  top: 2.5%;
+  bottom: 2.5%;
+  left: -15px;
+  width: 22px;
+  border-radius: 8px 0 0 8px;
+  background:
+    linear-gradient(90deg, #130c08, #4a2415 42%, #8d4325 72%, #1a0d08),
+    linear-gradient(#000, #000);
+  box-shadow:
+    inset -4px 0 8px rgba(255, 214, 142, 0.22),
+    inset 5px 0 9px rgba(0, 0, 0, 0.44);
+  transform: translateZ(-13px) rotateY(-82deg);
+  transform-origin: right center;
+}
+
+.book-object::after {
+  content: "";
+  position: absolute;
+  top: 3%;
+  right: -18px;
+  bottom: 3%;
+  width: 22px;
+  border-radius: 0 7px 7px 0;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #f6efe1 0,
+      #f6efe1 3px,
+      #d7c8aa 4px,
+      #f4ead8 6px
+    );
+  box-shadow: 8px 5px 15px rgba(0, 0, 0, 0.28);
+  transform: translateZ(-14px) rotateY(78deg);
+  transform-origin: left center;
 }
 
 .book {
   position: relative;
   z-index: 2;
-  width: min(320px, 78vw);
-  filter: drop-shadow(18px 16px 24px rgba(0, 0, 0, 0.36));
+  width: 100%;
+  border-radius: 2px 8px 8px 2px;
+  outline: 1px solid rgba(255, 230, 178, 0.36);
+  box-shadow:
+    inset 14px 0 18px rgba(0, 0, 0, 0.24),
+    inset -3px 0 8px rgba(255, 255, 255, 0.16);
 }
 
 .plinth {
@@ -632,6 +694,10 @@ a {
 
   .hero-art {
     min-height: 280px;
+  }
+
+  .book-object {
+    width: min(270px, 72vw);
   }
 
   .grid.three,
