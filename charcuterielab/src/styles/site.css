@@ -214,6 +214,24 @@ a {
   text-align: center;
 }
 
+.section-link {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.text-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-bottom: 2px solid var(--gold);
+  color: var(--green-deep);
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .grid {
   display: grid;
   gap: 26px;
@@ -352,6 +370,42 @@ a {
 
 .post-main {
   background: var(--paper);
+}
+
+.archive-main {
+  background: var(--paper);
+}
+
+.archive-hero {
+  padding: 58px 0 44px;
+  color: #fff9eb;
+  background: linear-gradient(135deg, var(--green-deep), #17472f);
+}
+
+.archive-hero-inner {
+  width: min(850px, calc(100% - 32px));
+  margin: 0 auto;
+  text-align: center;
+}
+
+.archive-hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 6vw, 64px);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.archive-hero p:last-child {
+  max-width: 660px;
+  margin: 16px auto 0;
+  color: #f6ead2;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.archive-grid {
+  align-items: start;
 }
 
 .post-hero {

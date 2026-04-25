@@ -79,7 +79,7 @@ function layout({ title, description, body }) {
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
-        <a href="/#blog">Blog</a>
+        <a href="/blog/">Blog</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
@@ -131,6 +131,9 @@ function homePage(posts, products) {
       <div class="grid three">
         ${featuredPosts.map((post) => articleCard(post)).join("\n")}
       </div>
+      <div class="section-link">
+        <a class="text-link" href="/blog/">View all blog posts</a>
+      </div>
     </div>
   </section>
 
@@ -179,6 +182,29 @@ function productCard(product) {
 </article>`;
 }
 
+function blogPage(posts) {
+  return layout({
+    title: "Blog | Charcuterie Lab",
+    description: "Read every Charcuterie Lab post about pairing science, board building, ingredients, and printable guides.",
+    body: `<main class="archive-main">
+  <section class="archive-hero">
+    <div class="archive-hero-inner">
+      <p class="section-kicker">Daily Lab Report</p>
+      <h1>All Blog Posts</h1>
+      <p>Pairing science, ingredient deep dives, budget boards, and the little details that make a board work.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-inner">
+      <div class="grid three archive-grid">
+        ${posts.map((post) => articleCard(post)).join("\n")}
+      </div>
+    </div>
+  </section>
+</main>`
+  });
+}
+
 function postPage(post) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
@@ -217,6 +243,8 @@ async function build() {
   ]);
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
+  await mkdir(join(dist, "blog"), { recursive: true });
+  await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
 
   await Promise.all(
     posts.map(async (post) => {
