@@ -1,4 +1,0 @@
-{{ define "main" }}
-<div class="page-hero"><div class="page-hero-inner"><h1 style="color:var(--white);">{{ .Title }}</h1>{{ with .Description }}<p>{{ . }}</p>{{ end }}</div></div>
-<section class="section"><div class="posts-grid posts-grid-3">{{ range .Pages }}<a href="{{ .Permalink }}" class="post-card"><div class="post-card-inner"><h3>{{ .Title }}</h3><p class="post-card-excerpt">{{ .Description }}</p><div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div></div></a>{{ end }}</div></section>
-{{ end }}

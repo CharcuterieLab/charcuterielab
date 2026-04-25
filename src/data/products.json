@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Wine Pairing Cheat Sheets",
+    "description": "Digital download: wine pairing cheat sheets for fast board planning.",
+    "price": "$14.00",
+    "image": "/images/printable-wine-pairing.jpg",
+    "url": "#shop"
+  },
+  {
+    "title": "Seasonal Board Guides",
+    "description": "Digital download: seasonal board guides for spring, summer, fall, and winter.",
+    "price": "$13.00",
+    "image": "/images/printable-seasonal-guides.jpg",
+    "url": "#shop"
+  },
+  {
+    "title": "Ingredient Deep Dive Pack",
+    "description": "Digital download: flavor notes, pairings, and ingredient substitutions.",
+    "price": "$13.00",
+    "image": "/images/printable-ingredient-pack.jpg",
+    "url": "#shop"
+  },
+  {
+    "title": "Board Builder Templates",
+    "description": "Digital download: printable templates for balanced, beautiful boards.",
+    "price": "$13.00",
+    "image": "/images/printable-board-builder.jpg",
+    "url": "#shop"
+  }
+]
