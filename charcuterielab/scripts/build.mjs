@@ -113,7 +113,13 @@ function markdownToHtml(markdown) {
       paragraph.push(lines[i].trim());
       i += 1;
     }
-    html.push(`<p>${inline(paragraph.join(" "))}</p>`);
+    const paragraphText = paragraph.join(" ");
+    const callout = paragraphText.match(/^\*\*(.+?)\*\*\s*$/);
+    if (callout) {
+      html.push(`<p class="post-callout">${inline(callout[1])}</p>`);
+    } else {
+      html.push(`<p>${inline(paragraphText)}</p>`);
+    }
   }
 
   return html.join("\n");
