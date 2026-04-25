@@ -215,7 +215,7 @@ a {
 }
 
 .section-link {
-  margin-top: 30px;
+  margin-top: 78px;
   text-align: center;
 }
 
@@ -385,6 +385,12 @@ a {
 .archive-hero-inner {
   width: min(850px, calc(100% - 32px));
   margin: 0 auto;
+  text-align: center;
+}
+
+.archive-hero .section-kicker,
+.archive-hero h1,
+.archive-hero p {
   text-align: center;
 }
 
