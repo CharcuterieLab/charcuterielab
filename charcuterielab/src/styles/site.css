@@ -458,6 +458,91 @@ a {
   margin: 0 0 24px;
 }
 
+.post-body h1,
+.post-body h2,
+.post-body h3 {
+  margin: 44px 0 16px;
+  color: var(--green-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.post-body h1 {
+  font-size: 38px;
+}
+
+.post-body h2 {
+  font-size: 32px;
+}
+
+.post-body h3 {
+  font-size: 25px;
+}
+
+.post-body ul {
+  margin: -10px 0 28px;
+  padding-left: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.58;
+}
+
+.post-body li {
+  margin: 8px 0;
+}
+
+.post-body strong {
+  color: var(--green-deep);
+}
+
+.post-body hr {
+  width: 90px;
+  height: 2px;
+  margin: 42px 0;
+  border: 0;
+  background: var(--gold);
+}
+
+.table-wrap {
+  max-width: 100%;
+  margin: 18px 0 34px;
+  overflow-x: auto;
+  border: 1px solid rgba(17, 58, 39, 0.14);
+  border-radius: 8px;
+}
+
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.post-body th,
+.post-body td {
+  padding: 13px 15px;
+  border-bottom: 1px solid rgba(17, 58, 39, 0.12);
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-body th {
+  color: #fff9eb;
+  background: var(--green);
+}
+
+.post-body tr:last-child td {
+  border-bottom: 0;
+}
+
+.post-inline-image {
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
 @media (max-width: 820px) {
   .nav {
     grid-template-columns: 1fr;

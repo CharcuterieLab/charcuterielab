@@ -38,11 +38,85 @@ function parseMarkdown(source) {
 }
 
 function markdownToHtml(markdown) {
-  return markdown
-    .trim()
-    .split(/\n{2,}/)
-    .map((block) => `<p>${escapeHtml(block.trim()).replaceAll("\n", "<br>")}</p>`)
-    .join("\n");
+  const lines = markdown.trim().split(/\r?\n/);
+  const html = [];
+  let i = 0;
+
+  const inline = (value = "") =>
+    escapeHtml(value)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+  const isBlockStart = (line = "") =>
+    /^(#{1,3}\s|-\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
+
+  while (i < lines.length) {
+    const line = lines[i].trim();
+
+    if (!line) {
+      i += 1;
+      continue;
+    }
+
+    if (/^---+$/.test(line)) {
+      html.push("<hr>");
+      i += 1;
+      continue;
+    }
+
+    const heading = line.match(/^(#{1,3})\s+(.+)$/);
+    if (heading) {
+      const level = heading[1].length;
+      html.push(`<h${level}>${inline(heading[2])}</h${level}>`);
+      i += 1;
+      continue;
+    }
+
+    const image = line.match(/^!\[(.*?)\]\((.+?)\)$/);
+    if (image) {
+      html.push(`<img class="post-inline-image" src="${escapeHtml(image[2])}" alt="${escapeHtml(image[1])}">`);
+      i += 1;
+      continue;
+    }
+
+    if (line.startsWith("- ")) {
+      const items = [];
+      while (i < lines.length && lines[i].trim().startsWith("- ")) {
+        items.push(`<li>${inline(lines[i].trim().slice(2))}</li>`);
+        i += 1;
+      }
+      html.push(`<ul>\n${items.join("\n")}\n</ul>`);
+      continue;
+    }
+
+    if (line.startsWith("|") && line.endsWith("|")) {
+      const tableLines = [];
+      while (i < lines.length && lines[i].trim().startsWith("|") && lines[i].trim().endsWith("|")) {
+        tableLines.push(lines[i].trim());
+        i += 1;
+      }
+
+      if (tableLines.length >= 2 && /^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$/.test(tableLines[1])) {
+        const cells = (row) => row.slice(1, -1).split("|").map((cell) => inline(cell.trim()));
+        const header = cells(tableLines[0]).map((cell) => `<th>${cell}</th>`).join("");
+        const rows = tableLines.slice(2).map((row) => `<tr>${cells(row).map((cell) => `<td>${cell}</td>`).join("")}</tr>`);
+        html.push(`<div class="table-wrap"><table><thead><tr>${header}</tr></thead><tbody>${rows.join("\n")}</tbody></table></div>`);
+      } else {
+        html.push(`<p>${inline(tableLines.join("<br>"))}</p>`);
+      }
+      continue;
+    }
+
+    const paragraph = [line];
+    i += 1;
+    while (i < lines.length && lines[i].trim() && !isBlockStart(lines[i])) {
+      paragraph.push(lines[i].trim());
+      i += 1;
+    }
+    html.push(`<p>${inline(paragraph.join(" "))}</p>`);
+  }
+
+  return html.join("\n");
 }
 
 async function loadPosts() {
