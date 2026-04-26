@@ -140,12 +140,18 @@ def docx_to_markdown(path):
 
 
 def matching_image(files, publish_date, raw_name):
-    prefix = publish_date.strftime("%d%m%Y") + "_"
     raw_slug = slugify(raw_name)
+    image_prefix_slug = slugify(f"Image_{raw_name}")
     candidates = []
     for file in files:
         if file.suffix.lower() not in IMAGE_EXTS:
             continue
+
+        file_slug = slugify(file.stem)
+        if file_slug == image_prefix_slug:
+            candidates.append(file)
+            continue
+
         parsed = parse_queue_name(file)
         if not parsed:
             continue
