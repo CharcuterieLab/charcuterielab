@@ -9,6 +9,10 @@ import zipfile
 from datetime import date
 from pathlib import Path
 from xml.etree import ElementTree as ET
+try:
+    import winreg
+except ImportError:
+    winreg = None
 
 INBOX = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAABlogPosts")
 REPO = Path(__file__).resolve().parents[1]
@@ -162,7 +166,10 @@ def stage_post(post_path, all_files):
 
     slug = slugify(raw_name)
     if post_path.suffix.lower() == ".docx":
-        markdown = docx_to_markdown(post_path)
+        try:
+            markdown = docx_to_markdown(post_path)
+        except (KeyError, zipfile.BadZipFile) as exc:
+            return None, f"Skipped {post_path.name}: could not read DOCX content ({exc})"
     else:
         markdown = post_path.read_text(encoding="utf-8-sig")
 
@@ -189,13 +196,29 @@ def push_changes():
         return "No Git changes to publish."
 
     run(["git", "commit", "-m", "Publish queued blog posts"])
-    token = os.environ.get("CHARCUTERIE_GITHUB_TOKEN")
+    token = get_github_token()
     if not token:
         raise RuntimeError("CHARCUTERIE_GITHUB_TOKEN is not set.")
 
     auth = base64.b64encode(f"x-access-token:{token}".encode("ascii")).decode("ascii")
     run(["git", "-c", f"http.extraheader=AUTHORIZATION: Basic {auth}", "push", "origin", "main"])
     return "Pushed queued blog posts to GitHub."
+
+
+def get_github_token():
+    token = os.environ.get("CHARCUTERIE_GITHUB_TOKEN")
+    if token:
+        return token
+
+    if winreg is None:
+        return None
+
+    try:
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as key:
+            value, _ = winreg.QueryValueEx(key, "CHARCUTERIE_GITHUB_TOKEN")
+            return value
+    except OSError:
+        return None
 
 
 def main():
