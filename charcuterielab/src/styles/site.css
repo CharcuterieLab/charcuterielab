@@ -319,6 +319,16 @@ a {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
+.card img.blog-preview-image {
+  aspect-ratio: 4 / 3 !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  padding: 10px;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(202, 166, 82, 0.22), transparent 34%),
+    linear-gradient(135deg, #fffaf0, #ead9c8);
+}
+
 .card h3 {
   margin: 14px 0 7px;
   font-family: Georgia, "Times New Roman", serif;
