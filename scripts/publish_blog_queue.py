@@ -204,7 +204,10 @@ def push_changes():
     run(["git", "commit", "-m", "Publish queued blog posts"])
     token = get_github_token()
     if not token:
-        raise RuntimeError("CHARCUTERIE_GITHUB_TOKEN is not set.")
+        raise RuntimeError(
+            "CHARCUTERIE_GITHUB_TOKEN is not set to a real GitHub token. "
+            "Create a fine-grained token with Contents read/write and store it with setx."
+        )
 
     auth = base64.b64encode(f"x-access-token:{token}".encode("ascii")).decode("ascii")
     run(["git", "-c", f"http.extraheader=AUTHORIZATION: Basic {auth}", "push", "origin", "main"])
@@ -213,7 +216,7 @@ def push_changes():
 
 def get_github_token():
     token = os.environ.get("CHARCUTERIE_GITHUB_TOKEN")
-    if token:
+    if token and token != "PASTE_TOKEN_HERE":
         return token
 
     if winreg is None:
@@ -222,7 +225,9 @@ def get_github_token():
     try:
         with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as key:
             value, _ = winreg.QueryValueEx(key, "CHARCUTERIE_GITHUB_TOKEN")
-            return value
+            if value and value != "PASTE_TOKEN_HERE":
+                return value
+            return None
     except OSError:
         return None
 
