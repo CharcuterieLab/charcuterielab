@@ -22,14 +22,15 @@ const escapeHtml = (value = "") =>
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
 function parseMarkdown(source) {
-  const match = source.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const normalized = source.replace(/^\uFEFF/, "");
+  const match = normalized.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
   const data = {};
-  let body = source;
+  let body = normalized;
 
   if (match) {
     body = match[2];
-    for (const line of match[1].split("\n")) {
-      const pair = line.match(/^([A-Za-z0-9_-]+):\s*"?(.+?)"?$/);
+    for (const line of match[1].split(/\r?\n/)) {
+      const pair = line.trim().match(/^([A-Za-z0-9_-]+):\s*"?(.+?)"?$/);
       if (pair) data[pair[1]] = pair[2];
     }
   }
@@ -44,11 +45,12 @@ function markdownToHtml(markdown) {
 
   const inline = (value = "") =>
     escapeHtml(value)
+      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
   const isBlockStart = (line = "") =>
-    /^(#{1,3}\s|-\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
+    /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
 
   while (i < lines.length) {
     const line = lines[i].trim();
@@ -86,6 +88,23 @@ function markdownToHtml(markdown) {
         i += 1;
       }
       html.push(`<ul>\n${items.join("\n")}\n</ul>`);
+      continue;
+    }
+
+    if (line.startsWith("> ")) {
+      const quoteLines = [];
+      while (i < lines.length && lines[i].trim().startsWith("> ")) {
+        quoteLines.push(lines[i].trim().slice(2));
+        i += 1;
+      }
+      const quote = quoteLines.join(" ");
+      if (/subscribe|newsletter/i.test(quote) && /https?:\/\//i.test(quote)) {
+        const url = quote.match(/https?:\/\/[^\s)]+/i)?.[0] ?? "https://charcuterielab.beehiiv.com/subscribe";
+        const label = quote.replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, "$1");
+        html.push(`<aside class="post-cta"><p>${inline(label)}</p><a class="button primary post-cta-button" href="${escapeHtml(url)}" target="_blank" rel="noopener">Subscribe to the newsletter</a></aside>`);
+      } else {
+        html.push(`<blockquote><p>${inline(quote)}</p></blockquote>`);
+      }
       continue;
     }
 
@@ -144,6 +163,16 @@ async function loadPosts() {
   return posts.sort((a, b) => b.date.localeCompare(a.date));
 }
 
+function socialIcon(name) {
+  if (name === "facebook") {
+    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 8.1h2.1V4.6c-.4-.1-1.7-.2-3.2-.2-3.2 0-5.4 2-5.4 5.6v3.1H4.3V17h3.5v7h4.2v-7h3.5l.6-3.9H12v-2.7c0-1.1.3-2.3 2.3-2.3Z"/></svg>';
+  }
+  if (name === "instagram") {
+    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm4.2 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm0 2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Zm5.2-2.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg>';
+  }
+  return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.2 2C6.6 2 3 5.7 3 10.5c0 3.4 1.9 5.3 3 5.3.5 0 .8-1.4.8-1.8 0-.5-1.3-1.6-1.3-3.6 0-4.1 3.1-7 7.3-7 3.5 0 6.1 2 6.1 5.7 0 2.8-1.1 8-4.8 8-1.3 0-2.5-1-2.1-2.4.4-1.7 1.3-3.5 1.3-4.7 0-2.7-3.9-2.2-3.9 1.3 0 1.1.4 1.8.4 1.8s-1.4 5.8-1.6 6.8c-.2 1 0 2.3 0 2.4 0 .1.2.1.3 0 .4-.5 1.5-1.8 2-2.9.2-.6.9-3.3.9-3.3.4.8 1.7 1.5 3 1.5 4 0 6.6-3.6 6.6-8.4C21 5.2 17.6 2 12.2 2Z"/></svg>';
+}
+
 function layout({ title, description, body }) {
   return `<!doctype html>
 <html lang="en">
@@ -153,6 +182,15 @@ function layout({ title, description, body }) {
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="/assets/site.css">
+  <style>
+    .card img.blog-preview-image{aspect-ratio:1.45/1;object-fit:cover;object-position:center 34%;background:#ead9c8;}
+    .socials a{width:2.55rem;height:2.55rem;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(55,35,25,.18);background:rgba(255,255,255,.66);color:inherit;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;}
+    .socials a:hover{transform:translateY(-2px);background:#fff;box-shadow:0 12px 24px rgba(55,35,25,.12);}
+    .socials svg{width:1.15rem;height:1.15rem;fill:currentColor;display:block;}
+    .post-cta{margin:2.5rem 0;padding:1.6rem;border:1px solid rgba(128,67,46,.22);border-radius:1.4rem;background:linear-gradient(135deg,#fff7ec,#f3dfc4);box-shadow:0 18px 42px rgba(55,35,25,.08);}
+    .post-cta p{margin:0 0 1rem;font-weight:700;color:#4f281c;}
+    .post-cta-button{display:inline-flex;width:auto;}
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -170,9 +208,9 @@ function layout({ title, description, body }) {
     <div class="footer-inner">
       <div class="footer-brand">Charcuterie Lab</div>
       <div class="socials" aria-label="Social links">
-        <a href="#" aria-label="Facebook">f</a>
-        <a href="#" aria-label="Instagram">ig</a>
-        <a href="#" aria-label="YouTube">yt</a>
+        <a href="https://www.facebook.com/profile.php?id=61586809154604" target="_blank" rel="noopener" aria-label="Facebook">${socialIcon("facebook")}</a>
+        <a href="https://www.instagram.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Instagram">${socialIcon("instagram")}</a>
+        <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
     </div>
@@ -251,7 +289,7 @@ function homePage(posts, products) {
 
 function articleCard(post) {
   return `<article class="card">
-  <a href="/blog/${post.slug}/"><img src="${post.image}" alt=""></a>
+  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${post.image}" alt=""></a>
   <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
   <p>${escapeHtml(post.excerpt)}</p>
 </article>`;
