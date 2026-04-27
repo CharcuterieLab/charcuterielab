@@ -183,7 +183,7 @@ function layout({ title, description, body }) {
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="/assets/site.css">
   <style>
-    .card img.blog-preview-image{aspect-ratio:1.45/1;object-fit:cover;object-position:center 34%;background:#ead9c8;}
+    .card img.blog-preview-image{height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center center!important;padding:0!important;background:transparent!important;}
     .socials a{width:2.55rem;height:2.55rem;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(55,35,25,.18);background:rgba(255,255,255,.66);color:inherit;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;}
     .socials a:hover{transform:translateY(-2px);background:#fff;box-shadow:0 12px 24px rgba(55,35,25,.12);}
     .socials svg{width:1.15rem;height:1.15rem;fill:currentColor;display:block;}
