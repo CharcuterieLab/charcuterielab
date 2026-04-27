@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
+const siteUrl = "https://charcuterielab.com";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -353,6 +354,30 @@ function postPage(post) {
   });
 }
 
+function sitemap(posts) {
+  const urls = [
+    { loc: "/", priority: "1.0" },
+    { loc: "/blog/", priority: "0.8" },
+    ...posts.map((post) => ({
+      loc: `/blog/${post.slug}/`,
+      lastmod: post.date,
+      priority: "0.7"
+    }))
+  ];
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+  .map((url) => `  <url>
+    <loc>${siteUrl}${url.loc}</loc>${url.lastmod ? `
+    <lastmod>${url.lastmod}</lastmod>` : ""}
+    <priority>${url.priority}</priority>
+  </url>`)
+  .join("\n")}
+</urlset>
+`;
+}
+
 async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(join(dist, "assets"), { recursive: true });
@@ -365,6 +390,7 @@ async function build() {
   ]);
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts));
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
 
