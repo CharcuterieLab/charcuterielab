@@ -22,6 +22,19 @@ IMAGE_DIR = SITE / "public" / "images"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
 
+def is_post_file(path):
+    name = path.name.lower()
+    return (
+        path.suffix.lower() in {".md", ".markdown", ".docx"}
+        or name.endswith(".md.txt")
+        or name.endswith(".md.md")
+    )
+
+
+def no_git_mode():
+    return os.environ.get("CHARCUTERIE_NO_GIT", "").strip().lower() in {"1", "true", "yes", "on"}
+
+
 def run(args, *, cwd=REPO, check=True, capture=True):
     result = subprocess.run(
         args,
@@ -54,6 +67,7 @@ def parse_queue_name(path):
         return None
 
     day, month, year, raw_name = match.groups()
+    raw_name = re.sub(r"(\.md|\.markdown|\.docx|\.txt)$", "", raw_name, flags=re.IGNORECASE)
     try:
       publish_date = date(int(year), int(month), int(day))
     except ValueError:
@@ -73,6 +87,44 @@ def frontmatter(markdown):
             if pair:
                 data[pair.group(1)] = pair.group(2)
     return data, body
+
+
+def normalize_body(body):
+    lines = [line.rstrip() for line in body.splitlines()]
+    if not lines:
+        return body.strip()
+
+    has_markdown = any(
+        line.lstrip().startswith(("#", "-", "*", "1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9."))
+        for line in lines
+    )
+    if has_markdown:
+        return body.strip()
+
+    normalized = []
+    first_title_done = False
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            normalized.append("")
+            continue
+        if not first_title_done:
+            normalized.append(f"# {stripped}")
+            first_title_done = True
+            continue
+        if stripped.endswith(":") and len(stripped) < 80:
+            normalized.append(f"## {stripped[:-1]}")
+            continue
+        if stripped.startswith("///"):
+            normalized.append("")
+            continue
+        bullet_match = re.match(r"^[â€¢●•-]\s*(.+)$", stripped)
+        if bullet_match:
+            normalized.append(f"- {bullet_match.group(1)}")
+            continue
+        normalized.append(stripped)
+
+    return "\n\n".join(part for part in normalized if part is not None).strip()
 
 
 def write_frontmatter(data, body):
@@ -180,6 +232,7 @@ def stage_post(post_path, all_files):
         markdown = post_path.read_text(encoding="utf-8-sig")
 
     data, body = frontmatter(markdown)
+    body = normalize_body(body)
     data.setdefault("title", title_from_slug(raw_name))
     data["date"] = publish_date.isoformat()
     data.setdefault("excerpt", excerpt_from_body(body))
@@ -196,6 +249,18 @@ def stage_post(post_path, all_files):
 
 
 def push_changes():
+    if no_git_mode():
+        return "Skipped Git publish steps because CHARCUTERIE_NO_GIT is enabled."
+
+    branch_status = run(["git", "status", "--short", "--branch"]).strip().splitlines()
+    if branch_status and "[ahead " in branch_status[0]:
+        token = get_github_token()
+        if not token:
+            return "Skipped Git push: CHARCUTERIE_GITHUB_TOKEN is not set."
+        auth = base64.b64encode(f"x-access-token:{token}".encode("ascii")).decode("ascii")
+        run(["git", "-c", f"http.extraheader=AUTHORIZATION: Basic {auth}", "push", "origin", "main"])
+        return "Pushed existing local Git commit to GitHub."
+
     run(["git", "add", "charcuterielab/content/blog", "charcuterielab/public/images"])
     status = run(["git", "status", "--short"]).strip()
     if not status:
@@ -239,12 +304,24 @@ def main():
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
-    run(["git", "pull", "--ff-only", "origin", "main"])
+    messages = []
+    if no_git_mode():
+        messages.append("Local mode enabled: skipping git pull, commit, and push.")
+    else:
+        try:
+            run(["git", "pull", "--ff-only", "origin", "main"])
+        except RuntimeError as exc:
+            message = str(exc)
+            if ".git/FETCH_HEAD" in message and "Permission denied" in message:
+                messages.append(
+                    "Warning: skipped git pull because .git/FETCH_HEAD is not writable; continuing with local queue files."
+                )
+            else:
+                raise
 
     files = [path for path in INBOX.iterdir() if path.is_file()]
-    post_files = [path for path in files if path.suffix.lower() in {".md", ".markdown", ".docx"}]
+    post_files = [path for path in files if is_post_file(path)]
 
-    messages = []
     staged = []
     for post in sorted(post_files):
         target, message = stage_post(post, files)
