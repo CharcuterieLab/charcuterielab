@@ -1,6 +1,7 @@
 ---
 title: "Wine Is the Only Drink for a Cheese Board — Busted"
 date: "2026-04-27"
+image: "/images/blog-wine-only.png"
 excerpt: "Wine Is the Only Drink for a Cheese Board — Busted"
 description: "Wine pairs well with cheese, but it's far from the only drink that works — and for some cheeses, it's not even the best option. Here's the science behind which drinks actually pair best."
 slug: "wine-only"
