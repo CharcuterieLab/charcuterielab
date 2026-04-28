@@ -70,3 +70,42 @@ python scripts\publish_pinterest_queue.py --dry-run
 ```
 
 Successful pins move into `_posted` so they do not publish twice.
+
+## Manual Buffer Planner
+
+The preferred workflow is now the manual Buffer planner app:
+
+```powershell
+.\scripts\run_pinterest_buffer_planner.ps1
+```
+
+It previews every queued Pinterest file in:
+
+```text
+C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAAPinterestPosts
+```
+
+Then, after you type `YES`, it sends them to Buffer and schedules each post for the date in the filename. Files can be future-dated.
+
+Example:
+
+```text
+02052026_pinterest1_salami.md
+Image_Salami1.png
+```
+
+That file will be scheduled in Buffer for May 2, 2026. If multiple pins have the same date, the app spaces them into daily slots.
+
+Default daily time slots are:
+
+```text
+8:00 AM, 10:00 AM, 12:00 PM, 2:00 PM, 4:00 PM, 6:00 PM, 8:00 PM, 9:00 AM, 11:00 AM, 1:00 PM
+```
+
+To customize the slots:
+
+```powershell
+setx BUFFER_PINTEREST_TIME_SLOTS "08:00,10:00,12:00,14:00,16:00,18:00,20:00"
+```
+
+Successful Buffer-scheduled files move into `_posted`.

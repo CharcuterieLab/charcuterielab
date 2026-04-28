@@ -10,8 +10,9 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from datetime import date
+from datetime import date, datetime, time as datetime_time
 from pathlib import Path
+from zoneinfo import ZoneInfo
 try:
     import winreg
 except ImportError:
@@ -29,6 +30,19 @@ BUFFER_API_BASE = "https://api.buffer.com"
 SITE_URL = "https://charcuterielab.com"
 DEFAULT_BUFFER_PINTEREST_CHANNEL_ID = "69b884027be9f8b171626461"
 DEFAULT_BUFFER_PINTEREST_BOARD_SERVICE_ID = "1083538060288692914"
+DEFAULT_TIMEZONE = "America/Chicago"
+DEFAULT_BUFFER_TIME_SLOTS = [
+    "08:00",
+    "10:00",
+    "12:00",
+    "14:00",
+    "16:00",
+    "18:00",
+    "20:00",
+    "09:00",
+    "11:00",
+    "13:00",
+]
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 DEFAULT_DAILY_LIMIT = 10
 
@@ -381,7 +395,29 @@ def buffer_image_url(item, data):
     return f"{SITE_URL}/images/social/{public_image_name(item)}"
 
 
-def create_buffer_post(item, channel_id, token):
+def buffer_time_slots():
+    raw = get_user_env("BUFFER_PINTEREST_TIME_SLOTS")
+    if not raw:
+        return DEFAULT_BUFFER_TIME_SLOTS
+
+    slots = []
+    for value in raw.split(","):
+        value = value.strip()
+        if re.match(r"^\d{1,2}:\d{2}$", value):
+            slots.append(value)
+    return slots or DEFAULT_BUFFER_TIME_SLOTS
+
+
+def buffer_due_at(item, index_for_date):
+    slots = buffer_time_slots()
+    slot = slots[index_for_date % len(slots)]
+    hour, minute = [int(part) for part in slot.split(":", 1)]
+    tz = ZoneInfo(get_user_env("BUFFER_PINTEREST_TIMEZONE") or DEFAULT_TIMEZONE)
+    local_dt = datetime.combine(item["date"], datetime_time(hour, minute), tzinfo=tz)
+    return local_dt.astimezone(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z")
+
+
+def create_buffer_post(item, channel_id, token, due_at=None):
     data = load_pin_data(item, require_board=False)
     image_url = buffer_image_url(item, data)
     text = buffer_text(data)
@@ -406,7 +442,7 @@ def create_buffer_post(item, channel_id, token):
             "text": text,
             "channelId": channel_id,
             "schedulingType": "automatic",
-            "mode": "addToQueue",
+            "mode": "customScheduled" if due_at else "addToQueue",
             "assets": {
                 "images": [
                     {"url": image_url}
@@ -425,6 +461,9 @@ def create_buffer_post(item, channel_id, token):
             },
         }
     }
+    if due_at:
+        variables["input"]["dueAt"] = due_at
+
     result = graphql_request(mutation, token, variables)
     response = result.get("createPost") or {}
     if response.get("message"):
@@ -461,10 +500,15 @@ def move_completed(item):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Publish due Pinterest pins from a local queue folder.")
+    parser = argparse.ArgumentParser(description="Publish or schedule Pinterest pins from a local queue folder.")
     parser.add_argument("--dry-run", action="store_true", help="Show due pins without publishing.")
     parser.add_argument("--list-boards", action="store_true", help="Print Pinterest board IDs for the token.")
     parser.add_argument("--buffer", action="store_true", help="Send due pins to the Buffer Pinterest queue.")
+    parser.add_argument(
+        "--schedule-all",
+        action="store_true",
+        help="With --buffer, schedule every queued file for the date in its filename, including future dates.",
+    )
     parser.add_argument("--limit", type=int, default=None, help="Maximum pins to publish in this run.")
     args = parser.parse_args()
 
@@ -480,16 +524,16 @@ def main():
         list_boards(token)
         return
 
-    due = []
+    queue = []
     messages = []
     for item in discover_queue_items():
-        if item["date"] > date.today():
+        if not args.schedule_all and item["date"] > date.today():
             messages.append(f"Waiting {item['path'].name}: publish date is {item['date'].isoformat()}")
             continue
-        due.append(item)
+        queue.append(item)
 
-    if not due:
-        messages.append("No due Pinterest pins found.")
+    if not queue:
+        messages.append("No Pinterest pins found to process.")
         print("\n".join(messages))
         return
 
@@ -499,23 +543,35 @@ def main():
     if not args.buffer and not token and not args.dry_run:
         raise RuntimeError("PINTEREST_ACCESS_TOKEN is not set.")
 
-    to_publish = due[:daily_limit]
+    to_publish = queue[: args.limit] if args.limit else queue
+    if not args.schedule_all and args.limit is None:
+        to_publish = queue[:daily_limit]
+
     if args.buffer and not args.dry_run:
         messages.append(stage_public_images(to_publish))
 
     published = 0
+    scheduled_counts = {}
     for item in to_publish:
         if args.buffer:
             data = load_pin_data(item, require_board=False)
+            due_at = None
+            if args.schedule_all:
+                index_for_date = scheduled_counts.get(item["date"], 0)
+                scheduled_counts[item["date"]] = index_for_date + 1
+                due_at = buffer_due_at(item, index_for_date)
+
             if args.dry_run:
+                schedule_note = f" for {due_at}" if due_at else ""
                 messages.append(
-                    f"Due {item['path'].name}: {data['title']} -> Buffer channel {buffer_channel_id}"
+                    f"Buffer{schedule_note}: {item['path'].name}: {data['title']} -> channel {buffer_channel_id}"
                 )
                 continue
 
-            post_id = create_buffer_post(item, buffer_channel_id, buffer_token)
+            post_id = create_buffer_post(item, buffer_channel_id, buffer_token, due_at)
             published += 1
-            messages.append(f"Queued {item['path'].name} in Buffer: post {post_id}")
+            schedule_note = f" for {due_at}" if due_at else ""
+            messages.append(f"Queued {item['path'].name} in Buffer{schedule_note}: post {post_id}")
             move_completed(item)
             time.sleep(2)
             continue
@@ -531,7 +587,7 @@ def main():
         move_completed(item)
         time.sleep(2)
 
-    skipped = max(0, len(due) - daily_limit)
+    skipped = max(0, len(queue) - len(to_publish))
     if skipped:
         messages.append(f"Skipped {skipped} due pin(s) because daily limit is {daily_limit}.")
 
