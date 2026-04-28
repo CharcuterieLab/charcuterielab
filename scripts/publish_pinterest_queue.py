@@ -28,6 +28,7 @@ API_BASE = "https://api.pinterest.com/v5"
 BUFFER_API_BASE = "https://api.buffer.com"
 SITE_URL = "https://charcuterielab.com"
 DEFAULT_BUFFER_PINTEREST_CHANNEL_ID = "69b884027be9f8b171626461"
+DEFAULT_BUFFER_PINTEREST_BOARD_SERVICE_ID = "1083538060288692914"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 DEFAULT_DAILY_LIMIT = 10
 
@@ -181,8 +182,13 @@ def find_image(paths, raw_name):
     pin_match = re.match(r"^pinterest(\d+)_(.+)$", raw_name, re.I)
     if pin_match:
         pin_number, topic = pin_match.groups()
+        topic_first = re.split(r"[-_\s]+", topic)[0]
         candidate_slugs.add(slugify(f"{topic}{pin_number}"))
         candidate_slugs.add(slugify(f"Image_{topic}{pin_number}"))
+        candidate_slugs.add(slugify(f"Pinterest{pin_number}_{topic}"))
+        candidate_slugs.add(slugify(f"Image_Pinterest{pin_number}_{topic}"))
+        candidate_slugs.add(slugify(f"Pinterest{pin_number}_{topic_first}"))
+        candidate_slugs.add(slugify(f"Image_Pinterest{pin_number}_{topic_first}"))
 
     for image in sorted(image_paths):
         image_slug = slugify(image.stem)
@@ -363,18 +369,10 @@ def stage_public_images(items):
 
 def buffer_text(data):
     limit = 500
-    title = data["title"].strip()
-    link = data["link"].strip()
-    reserved = len(title) + (len(link) if link else 0) + (4 if link else 2)
-    description_limit = max(0, limit - reserved)
     description = data["description"].strip()
-    if len(description) > description_limit:
-        description = description[: max(0, description_limit - 3)].rstrip() + "..."
-
-    pieces = [title, description]
-    if link:
-        pieces.append(link)
-    return "\n\n".join(piece for piece in pieces if piece).strip()[:limit]
+    if len(description) > limit:
+        description = description[: limit - 3].rstrip() + "..."
+    return description
 
 
 def buffer_image_url(item, data):
@@ -413,6 +411,17 @@ def create_buffer_post(item, channel_id, token):
                 "images": [
                     {"url": image_url}
                 ]
+            },
+            "metadata": {
+                "pinterest": {
+                    "title": data["title"][:100],
+                    "url": data["link"] or SITE_URL,
+                    "boardServiceId": (
+                        get_user_env("BUFFER_PINTEREST_BOARD_SERVICE_ID")
+                        or data["board_id"]
+                        or DEFAULT_BUFFER_PINTEREST_BOARD_SERVICE_ID
+                    ),
+                }
             },
         }
     }
