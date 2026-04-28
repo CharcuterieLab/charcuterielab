@@ -61,6 +61,10 @@ def title_from_slug(value):
     return " ".join(part.capitalize() for part in re.split(r"[-_\s]+", value) if part)
 
 
+def content_slug(raw_name):
+    return re.sub(r"^(blog|post|article)[-_]+", "", raw_name, flags=re.IGNORECASE)
+
+
 def parse_queue_name(path):
     match = re.match(r"^(\d{2})(\d{2})(\d{4})_(.+)$", path.stem)
     if not match:
@@ -228,7 +232,7 @@ def stage_post(post_path, all_files):
     if publish_date > date.today():
         return None, f"Waiting {post_path.name}: publish date is {publish_date.isoformat()}"
 
-    slug = slugify(raw_name)
+    slug = slugify(content_slug(raw_name))
     if post_path.suffix.lower() == ".docx":
         try:
             markdown = docx_to_markdown(post_path)
@@ -239,7 +243,7 @@ def stage_post(post_path, all_files):
 
     data, body = frontmatter(markdown)
     body = normalize_body(body)
-    data.setdefault("title", title_from_slug(raw_name))
+    data.setdefault("title", title_from_slug(content_slug(raw_name)))
     data["date"] = publish_date.isoformat()
     data.setdefault("excerpt", excerpt_from_body(body))
 
