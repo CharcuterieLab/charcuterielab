@@ -191,7 +191,13 @@ def docx_to_markdown(path):
     return "\n\n".join(blocks).strip()
 
 
-def matching_image(files, publish_date, raw_name):
+def matching_image(files, publish_date, raw_name, content_stem=None):
+    if content_stem:
+        exact_slug = slugify(f"Image_{content_stem}")
+        for file in sorted(files):
+            if file.suffix.lower() in IMAGE_EXTS and slugify(file.stem) == exact_slug:
+                return file
+
     raw_slug = slugify(raw_name)
     image_prefix_slug = slugify(f"Image_{raw_name}")
     candidates = []
@@ -237,7 +243,7 @@ def stage_post(post_path, all_files):
     data["date"] = publish_date.isoformat()
     data.setdefault("excerpt", excerpt_from_body(body))
 
-    image = matching_image(all_files, publish_date, raw_name)
+    image = matching_image(all_files, publish_date, raw_name, post_path.stem)
     if image:
         target_image_name = f"{slug}{image.suffix.lower()}"
         shutil.copy2(image, IMAGE_DIR / target_image_name)
