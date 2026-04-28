@@ -119,7 +119,7 @@ def load_text(path, fallback_title):
 
     for line in lines:
         clean = line.strip()
-        heading = re.match(r"^#{1,3}\s*(PIN TITLE|PIN DESCRIPTION|LINK|ALT TEXT)\s*$", clean, re.I)
+        heading = re.match(r"^#{1,3}\s*(PIN TITLE|PIN DESCRIPTION|LINK|ALT TEXT)\b.*$", clean, re.I)
         if heading:
             label = heading.group(1).lower().replace("pin ", "").replace(" ", "_")
             section = label
@@ -192,9 +192,10 @@ def find_image(paths, raw_name, content_stem=None):
         return None
 
     if content_stem:
-        exact_slug = slugify(f"Image_{content_stem}")
+        exact_slugs = {slugify(f"Image_{content_stem}")}
+        exact_slugs.add(slugify(f"Image_{re.sub(r'^(\d{8})_', r'\1', content_stem)}"))
         for image in sorted(image_paths):
-            if slugify(image.stem) == exact_slug:
+            if slugify(image.stem) in exact_slugs:
                 return image
 
     target_slug = slugify(raw_name)
