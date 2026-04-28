@@ -27,6 +27,28 @@ Use this `pin.json` format:
 
 The script also supports simple `.txt` files. The first option is more reliable because Pinterest needs a title, description, image, board, and optional link.
 
+It also supports Markdown files like this, so generated Pinterest briefs can be dropped in directly:
+
+```text
+27042026pinterest1_manchego.md
+Image_Manchego1.png
+```
+
+The Markdown can use these headings:
+
+```markdown
+## PIN TITLE
+Manchego Cheese on a Charcuterie Board
+
+## PIN DESCRIPTION
+Manchego is one of the most versatile cheeses for a charcuterie board...
+
+## LINK
+https://charcuterielab.com/blog/manchego/
+```
+
+For multiple pins from the same content, use `pinterest1_manchego`, `pinterest2_manchego`, etc. Matching images can be named `Image_Manchego1.png`, `Image_Manchego2.png`, and so on.
+
 Required computer settings:
 
 ```powershell

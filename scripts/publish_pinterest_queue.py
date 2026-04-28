@@ -45,7 +45,7 @@ def get_user_env(name):
 
 
 def parse_date_prefix(name):
-    match = re.match(r"^(\d{2})(\d{2})(\d{4})_(.+)$", name)
+    match = re.match(r"^(\d{2})(\d{2})(\d{4})_?(.+)$", name)
     if not match:
         return None
 
@@ -79,9 +79,25 @@ def load_text(path, fallback_title):
     lines = path.read_text(encoding="utf-8-sig").splitlines()
     data = {"title": fallback_title, "description": ""}
     body = []
+    section = None
+    section_lines = {"title": [], "description": [], "link": [], "alt_text": []}
 
     for line in lines:
         clean = line.strip()
+        heading = re.match(r"^#{1,3}\s*(PIN TITLE|PIN DESCRIPTION|LINK|ALT TEXT)\s*$", clean, re.I)
+        if heading:
+            label = heading.group(1).lower().replace("pin ", "").replace(" ", "_")
+            section = label
+            continue
+
+        if clean == "---":
+            section = None
+            continue
+
+        if section:
+            section_lines[section].append(line)
+            continue
+
         if not clean:
             body.append("")
             continue
@@ -95,6 +111,11 @@ def load_text(path, fallback_title):
     if body and not data.get("description"):
         data["description"] = "\n".join(body).strip()
 
+    for key, values in section_lines.items():
+        value = "\n".join(values).strip()
+        if value:
+            data[key] = value
+
     return data
 
 
@@ -104,9 +125,16 @@ def find_image(paths, raw_name):
         return None
 
     target_slug = slugify(raw_name)
+    candidate_slugs = {target_slug, slugify(f"Image_{raw_name}")}
+    pin_match = re.match(r"^pinterest(\d+)_(.+)$", raw_name, re.I)
+    if pin_match:
+        pin_number, topic = pin_match.groups()
+        candidate_slugs.add(slugify(f"{topic}{pin_number}"))
+        candidate_slugs.add(slugify(f"Image_{topic}{pin_number}"))
+
     for image in sorted(image_paths):
         image_slug = slugify(image.stem)
-        if image_slug in {target_slug, slugify(f"Image_{raw_name}")}:
+        if image_slug in candidate_slugs:
             return image
 
     return sorted(image_paths)[0]
@@ -148,7 +176,7 @@ def discover_queue_items():
             files = [child for child in path.iterdir() if child.is_file()]
             content_file = next((file for file in files if file.name.lower() == "pin.json"), None)
             content_file = content_file or next((file for file in files if file.suffix.lower() == ".json"), None)
-            content_file = content_file or next((file for file in files if file.suffix.lower() == ".txt"), None)
+            content_file = content_file or next((file for file in files if file.suffix.lower() in {".md", ".markdown", ".txt"}), None)
             image = find_image(files, raw_name)
             items.append({
                 "kind": "folder",
@@ -160,7 +188,7 @@ def discover_queue_items():
             })
             continue
 
-        if path.suffix.lower() not in {".json", ".txt"}:
+        if path.suffix.lower() not in {".json", ".md", ".markdown", ".txt"}:
             continue
 
         parsed = parse_date_prefix(path.stem)
