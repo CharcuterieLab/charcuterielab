@@ -5,6 +5,7 @@ import mimetypes
 import os
 import re
 import shutil
+import subprocess
 import sys
 import time
 import urllib.error
@@ -18,11 +19,30 @@ except ImportError:
 
 
 INBOX = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAAPinterestPosts")
+REPO = Path(__file__).resolve().parents[1]
+SITE = REPO / "charcuterielab"
+SOCIAL_IMAGE_DIR = SITE / "public" / "images" / "social"
 POSTED_DIR = INBOX / "_posted"
 FAILED_DIR = INBOX / "_failed"
 API_BASE = "https://api.pinterest.com/v5"
+BUFFER_API_BASE = "https://api.buffer.com"
+SITE_URL = "https://charcuterielab.com"
+DEFAULT_BUFFER_PINTEREST_CHANNEL_ID = "69b884027be9f8b171626461"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 DEFAULT_DAILY_LIMIT = 10
+
+
+def run(args, *, cwd=REPO, check=True):
+    result = subprocess.run(
+        args,
+        cwd=cwd,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    if check and result.returncode != 0:
+        raise RuntimeError(f"Command failed: {' '.join(args)}\n{result.stdout}")
+    return result.stdout or ""
 
 
 def get_user_env(name):
@@ -119,6 +139,38 @@ def load_text(path, fallback_title):
     return data
 
 
+def load_pin_data(item, default_board_id="", require_board=True):
+    fallback_title = title_from_name(item["raw_name"])
+    content_file = item["content_file"]
+    if content_file is None:
+        data = {"title": fallback_title, "description": fallback_title}
+    elif content_file.suffix.lower() == ".json":
+        data = load_json(content_file)
+    else:
+        data = load_text(content_file, fallback_title)
+
+    title = str(data.get("title") or fallback_title).strip()
+    description = str(data.get("description") or data.get("caption") or title).strip()
+    board_id = str(data.get("board_id") or default_board_id or "").strip()
+    link = str(data.get("link") or "").strip()
+    alt_text = str(data.get("alt_text") or "").strip()
+    image_url = str(data.get("image_url") or "").strip()
+
+    if require_board and not board_id:
+        raise RuntimeError(f"{item['path'].name}: missing board_id and PINTEREST_BOARD_ID is not set.")
+    if not image_url and item["image"] is None:
+        raise RuntimeError(f"{item['path'].name}: missing image file or image_url.")
+
+    return {
+        "title": title,
+        "description": description,
+        "board_id": board_id,
+        "link": link,
+        "alt_text": alt_text,
+        "image_url": image_url,
+    }
+
+
 def find_image(paths, raw_name):
     image_paths = [path for path in paths if path.suffix.lower() in IMAGE_EXTS]
     if not image_paths:
@@ -210,37 +262,18 @@ def discover_queue_items():
 
 
 def normalize_pin(item, default_board_id):
-    fallback_title = title_from_name(item["raw_name"])
-    content_file = item["content_file"]
-    if content_file is None:
-        data = {"title": fallback_title, "description": fallback_title}
-    elif content_file.suffix.lower() == ".json":
-        data = load_json(content_file)
-    else:
-        data = load_text(content_file, fallback_title)
-
-    title = str(data.get("title") or fallback_title).strip()
-    description = str(data.get("description") or data.get("caption") or title).strip()
-    board_id = str(data.get("board_id") or default_board_id or "").strip()
-    link = str(data.get("link") or "").strip()
-    alt_text = str(data.get("alt_text") or "").strip()
-    image_url = str(data.get("image_url") or "").strip()
-
-    if not board_id:
-        raise RuntimeError(f"{item['path'].name}: missing board_id and PINTEREST_BOARD_ID is not set.")
-    if not image_url and item["image"] is None:
-        raise RuntimeError(f"{item['path'].name}: missing image file or image_url.")
+    data = load_pin_data(item, default_board_id, require_board=True)
 
     pin = {
-        "board_id": board_id,
-        "title": title[:100],
-        "description": description[:800],
-        "media_source": media_source_from_image(item["image"], image_url),
+        "board_id": data["board_id"],
+        "title": data["title"][:100],
+        "description": data["description"][:800],
+        "media_source": media_source_from_image(item["image"], data["image_url"]),
     }
-    if link:
-        pin["link"] = link
-    if alt_text:
-        pin["alt_text"] = alt_text[:500]
+    if data["link"]:
+        pin["link"] = data["link"]
+    if data["alt_text"]:
+        pin["alt_text"] = data["alt_text"][:500]
 
     return pin
 
@@ -267,6 +300,128 @@ def pinterest_request(method, endpoint, token, payload=None):
     except urllib.error.HTTPError as exc:
         details = exc.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"Pinterest API error {exc.code}: {details}") from exc
+
+
+def graphql_request(query, token, variables=None):
+    payload = {"query": query}
+    if variables:
+        payload["variables"] = variables
+    request = urllib.request.Request(
+        BUFFER_API_BASE,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "CharcuterieLabBufferAutomation/1.0",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            result = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        details = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Buffer API error {exc.code}: {details}") from exc
+
+    if result.get("errors"):
+        raise RuntimeError(f"Buffer API error: {json.dumps(result['errors'])}")
+    return result.get("data") or {}
+
+
+def public_image_name(item):
+    source = item["image"]
+    if not source:
+        return ""
+    stem = slugify(item["path"].stem)
+    return f"{stem}{source.suffix.lower()}"
+
+
+def stage_public_images(items):
+    SOCIAL_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+    staged = []
+    for item in items:
+        if not item["image"]:
+            continue
+        destination = SOCIAL_IMAGE_DIR / public_image_name(item)
+        shutil.copy2(item["image"], destination)
+        staged.append(destination)
+
+    if not staged:
+        return "No local images needed public hosting."
+
+    run(["git", "pull", "--ff-only", "origin", "main"])
+    run(["git", "add", "charcuterielab/public/images/social"])
+    status = run(["git", "status", "--short", "--", "charcuterielab/public/images/social"]).strip()
+    if not status:
+        return "Public social images already up to date."
+
+    run(["git", "commit", "-m", "Publish social images for Buffer"])
+    run(["git", "push", "origin", "main"])
+    return f"Published {len(staged)} social image(s) to GitHub."
+
+
+def buffer_text(data):
+    limit = 500
+    title = data["title"].strip()
+    link = data["link"].strip()
+    reserved = len(title) + (len(link) if link else 0) + (4 if link else 2)
+    description_limit = max(0, limit - reserved)
+    description = data["description"].strip()
+    if len(description) > description_limit:
+        description = description[: max(0, description_limit - 3)].rstrip() + "..."
+
+    pieces = [title, description]
+    if link:
+        pieces.append(link)
+    return "\n\n".join(piece for piece in pieces if piece).strip()[:limit]
+
+
+def buffer_image_url(item, data):
+    if data["image_url"]:
+        return data["image_url"]
+    return f"{SITE_URL}/images/social/{public_image_name(item)}"
+
+
+def create_buffer_post(item, channel_id, token):
+    data = load_pin_data(item, require_board=False)
+    image_url = buffer_image_url(item, data)
+    text = buffer_text(data)
+    mutation = """
+    mutation CreatePinterestPost($input: CreatePostInput!) {
+      createPost(input: $input) {
+        ... on PostActionSuccess {
+          post {
+            id
+            text
+            dueAt
+          }
+        }
+        ... on MutationError {
+          message
+        }
+      }
+    }
+    """
+    variables = {
+        "input": {
+            "text": text,
+            "channelId": channel_id,
+            "schedulingType": "automatic",
+            "mode": "addToQueue",
+            "assets": {
+                "images": [
+                    {"url": image_url}
+                ]
+            },
+        }
+    }
+    result = graphql_request(mutation, token, variables)
+    response = result.get("createPost") or {}
+    if response.get("message"):
+        raise RuntimeError(response["message"])
+    post = response.get("post") or {}
+    return post.get("id", "created")
 
 
 def list_boards(token):
@@ -300,11 +455,14 @@ def main():
     parser = argparse.ArgumentParser(description="Publish due Pinterest pins from a local queue folder.")
     parser.add_argument("--dry-run", action="store_true", help="Show due pins without publishing.")
     parser.add_argument("--list-boards", action="store_true", help="Print Pinterest board IDs for the token.")
+    parser.add_argument("--buffer", action="store_true", help="Send due pins to the Buffer Pinterest queue.")
     parser.add_argument("--limit", type=int, default=None, help="Maximum pins to publish in this run.")
     args = parser.parse_args()
 
     token = get_user_env("PINTEREST_ACCESS_TOKEN")
     default_board_id = get_user_env("PINTEREST_BOARD_ID")
+    buffer_token = get_user_env("BUFFER_API_KEY")
+    buffer_channel_id = get_user_env("BUFFER_PINTEREST_CHANNEL_ID") or DEFAULT_BUFFER_PINTEREST_CHANNEL_ID
     daily_limit = args.limit or int(get_user_env("PINTEREST_DAILY_LIMIT") or DEFAULT_DAILY_LIMIT)
 
     if args.list_boards:
@@ -326,11 +484,33 @@ def main():
         print("\n".join(messages))
         return
 
-    if not token and not args.dry_run:
+    if args.buffer and not buffer_token and not args.dry_run:
+        raise RuntimeError("BUFFER_API_KEY is not set.")
+
+    if not args.buffer and not token and not args.dry_run:
         raise RuntimeError("PINTEREST_ACCESS_TOKEN is not set.")
 
+    to_publish = due[:daily_limit]
+    if args.buffer and not args.dry_run:
+        messages.append(stage_public_images(to_publish))
+
     published = 0
-    for item in due[:daily_limit]:
+    for item in to_publish:
+        if args.buffer:
+            data = load_pin_data(item, require_board=False)
+            if args.dry_run:
+                messages.append(
+                    f"Due {item['path'].name}: {data['title']} -> Buffer channel {buffer_channel_id}"
+                )
+                continue
+
+            post_id = create_buffer_post(item, buffer_channel_id, buffer_token)
+            published += 1
+            messages.append(f"Queued {item['path'].name} in Buffer: post {post_id}")
+            move_completed(item)
+            time.sleep(2)
+            continue
+
         pin = normalize_pin(item, default_board_id)
         if args.dry_run:
             messages.append(f"Due {item['path'].name}: {pin['title']} -> board {pin['board_id']}")
@@ -347,7 +527,8 @@ def main():
         messages.append(f"Skipped {skipped} due pin(s) because daily limit is {daily_limit}.")
 
     if published:
-        messages.append(f"Published {published} Pinterest pin(s).")
+        target = "Buffer Pinterest post(s)" if args.buffer else "Pinterest pin(s)"
+        messages.append(f"Published {published} {target}.")
 
     print("\n".join(messages))
 
