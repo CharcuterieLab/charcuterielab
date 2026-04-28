@@ -186,10 +186,16 @@ def load_pin_data(item, default_board_id="", require_board=True):
     }
 
 
-def find_image(paths, raw_name):
+def find_image(paths, raw_name, content_stem=None):
     image_paths = [path for path in paths if path.suffix.lower() in IMAGE_EXTS]
     if not image_paths:
         return None
+
+    if content_stem:
+        exact_slug = slugify(f"Image_{content_stem}")
+        for image in sorted(image_paths):
+            if slugify(image.stem) == exact_slug:
+                return image
 
     target_slug = slugify(raw_name)
     candidate_slugs = {target_slug, slugify(f"Image_{raw_name}")}
@@ -249,7 +255,7 @@ def discover_queue_items():
             content_file = next((file for file in files if file.name.lower() == "pin.json"), None)
             content_file = content_file or next((file for file in files if file.suffix.lower() == ".json"), None)
             content_file = content_file or next((file for file in files if file.suffix.lower() in {".md", ".markdown", ".txt"}), None)
-            image = find_image(files, raw_name)
+            image = find_image(files, raw_name, path.name)
             items.append({
                 "kind": "folder",
                 "path": path,
@@ -268,7 +274,7 @@ def discover_queue_items():
             continue
         publish_date, raw_name = parsed
         siblings = [child for child in INBOX.iterdir() if child.is_file() and child != path]
-        image = find_image(siblings, raw_name)
+        image = find_image(siblings, raw_name, path.stem)
         items.append({
             "kind": "file",
             "path": path,

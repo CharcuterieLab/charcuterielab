@@ -91,10 +91,19 @@ Example:
 
 ```text
 02052026_pinterest1_salami.md
-Image_Salami1.png
+Image_02052026_pinterest1_salami.png
 ```
 
 That file will be scheduled in Buffer for May 2, 2026. If multiple pins have the same date, the app spaces them into daily slots.
+
+The preferred image naming format is an exact mirror of the Markdown filename with `Image_` in front:
+
+```text
+02052026_pinterest1_salami.md
+Image_02052026_pinterest1_salami.png
+```
+
+This is the first match the app looks for. Older image names like `Image_Salami1.png` are still supported as a fallback.
 
 Default daily time slots are:
 
