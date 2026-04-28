@@ -167,7 +167,7 @@ def load_pin_data(item, default_board_id="", require_board=True):
     title = str(data.get("title") or fallback_title).strip()
     description = str(data.get("description") or data.get("caption") or title).strip()
     board_id = str(data.get("board_id") or default_board_id or "").strip()
-    link = str(data.get("link") or "").strip()
+    link = normalize_charcuterie_link(str(data.get("link") or "").strip())
     alt_text = str(data.get("alt_text") or "").strip()
     image_url = str(data.get("image_url") or "").strip()
 
@@ -184,6 +184,23 @@ def load_pin_data(item, default_board_id="", require_board=True):
         "alt_text": alt_text,
         "image_url": image_url,
     }
+
+
+def normalize_charcuterie_link(link):
+    if not link:
+        return link
+    if not re.match(r"^https://charcuterielab\.com/?", link, re.I):
+        return link
+
+    match = re.match(r"^(https://charcuterielab\.com)(/.*)?$", link, re.I)
+    if not match:
+        return link
+
+    base, path = match.groups()
+    path = path or "/"
+    if path == "/" or path.lower().startswith("/blog/"):
+        return link
+    return f"{base}/blog{path}"
 
 
 def find_image(paths, raw_name, content_stem=None):
