@@ -419,6 +419,44 @@ def buffer_image_url(item, data):
     return f"{SITE_URL}/images/social/{public_image_name(item)}"
 
 
+def public_image_ready(url):
+    request = urllib.request.Request(
+        url,
+        method="HEAD",
+        headers={"User-Agent": "CharcuterieLabBufferPlanner/1.0"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            return 200 <= response.status < 300
+    except Exception:
+        return False
+
+
+def wait_for_public_images(items, messages, timeout_seconds=180):
+    pending = {}
+    for item in items:
+        data = load_pin_data(item, require_board=False)
+        if data["image_url"]:
+            continue
+        pending[item["path"].name] = buffer_image_url(item, data)
+
+    if not pending:
+        return
+
+    deadline = time.time() + timeout_seconds
+    while pending and time.time() < deadline:
+        for name, url in list(pending.items()):
+            if public_image_ready(url):
+                messages.append(f"Image is live for {name}: {url}")
+                del pending[name]
+        if pending:
+            time.sleep(10)
+
+    if pending:
+        missing = ", ".join(f"{name} ({url})" for name, url in pending.items())
+        raise RuntimeError(f"Timed out waiting for public image URL(s): {missing}")
+
+
 def buffer_time_slots():
     raw = get_user_env("BUFFER_PINTEREST_TIME_SLOTS")
     if not raw:
@@ -573,6 +611,7 @@ def main():
 
     if args.buffer and not args.dry_run:
         messages.append(stage_public_images(to_publish))
+        wait_for_public_images(to_publish, messages)
 
     published = 0
     scheduled_counts = {}
