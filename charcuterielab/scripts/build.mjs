@@ -246,7 +246,6 @@ function homePage(posts, products) {
         <p>The ultimate guide to perfect pairings and board building.</p>
         <div class="actions">
           <a class="button primary" href="https://www.amazon.com/" rel="noopener">Buy on Amazon</a>
-          <a class="button" href="#shop">Shop Printables</a>
         </div>
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">
