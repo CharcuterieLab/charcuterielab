@@ -99,11 +99,8 @@ function markdownToHtml(markdown) {
         i += 1;
       }
       const quote = quoteLines.join(" ");
-      if (/subscribe|newsletter/i.test(quote) && /https?:\/\//i.test(quote)) {
-        const url = quote.match(/https?:\/\/[^\s)]+/i)?.[0] ?? "https://charcuterielab.beehiiv.com/subscribe";
-        const label = quote.replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, "$1");
-        html.push(`<aside class="post-cta"><p>${inline(label)}</p><a class="button primary post-cta-button" href="${escapeHtml(url)}" target="_blank" rel="noopener">Subscribe to the newsletter</a></aside>`);
-      } else {
+      const isFooterPromo = /charcuterie lab book|50 boards built by science|newsletter|lab report/i.test(quote) && /https?:\/\//i.test(quote);
+      if (!isFooterPromo) {
         html.push(`<blockquote><p>${inline(quote)}</p></blockquote>`);
       }
       continue;
@@ -350,6 +347,25 @@ function postPage(post) {
   <article class="post-body">
     ${post.html}
   </article>
+  <section class="post-footer-promo" aria-label="Charcuterie Lab book and newsletter">
+    <div class="post-promo-panel post-promo-book">
+      <p class="eyebrow">Build Better Boards</p>
+      <h2>Charcuterie Lab: 50 Boards, Built by Science</h2>
+      <p>Get the complete board collection with pairings, shopping lists, and step-by-step build notes.</p>
+      <a class="button primary" href="https://www.amazon.com/" target="_blank" rel="noopener">Buy the book</a>
+    </div>
+    <div class="post-promo-panel post-promo-newsletter">
+      <p class="eyebrow">Daily Lab Report</p>
+      <h2>Get the next pairing idea in your inbox</h2>
+      <p>Short cheese notes, printable launches, and board-building ideas from Charcuterie Lab.</p>
+      <form name="newsletter" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="newsletter">
+        <label class="sr-only" for="post-email">Email</label>
+        <input id="post-email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
+        <button class="button secondary" type="submit">Join</button>
+      </form>
+    </div>
+  </section>
 </main>`
   });
 }

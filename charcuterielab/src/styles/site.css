@@ -674,6 +674,75 @@ a {
   box-shadow: var(--shadow);
 }
 
+.post-footer-promo {
+  width: min(980px, calc(100% - 32px));
+  margin: 0 auto 82px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 22px;
+}
+
+.post-promo-panel {
+  min-width: 0;
+  padding: 28px;
+  border: 1px solid rgba(17, 58, 39, 0.12);
+  border-radius: 8px;
+  background: #fffaf0;
+  box-shadow: 0 18px 42px rgba(17, 58, 39, 0.1);
+}
+
+.post-promo-book {
+  color: #fff9eb;
+  border-color: rgba(215, 189, 115, 0.32);
+  background:
+    linear-gradient(135deg, rgba(17, 58, 39, 0.94), rgba(35, 92, 59, 0.92)),
+    url("/images/book-cover.jpg") center/cover;
+}
+
+.post-promo-panel .eyebrow {
+  margin: 0 0 10px;
+  color: var(--gold-dark);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.post-promo-book .eyebrow {
+  color: var(--gold);
+}
+
+.post-promo-panel h2 {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.post-promo-panel p {
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.post-promo-newsletter form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+
+.post-promo-newsletter input {
+  width: 100%;
+  min-width: 0;
+  height: 46px;
+  padding: 0 14px;
+  border: 1px solid rgba(17, 58, 39, 0.18);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+}
+
 @media (max-width: 820px) {
   .nav {
     grid-template-columns: 1fr;
@@ -714,6 +783,10 @@ a {
   .grid.four {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .post-footer-promo {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 560px) {
@@ -742,6 +815,22 @@ a {
   .post-body td {
     min-width: 170px;
     padding: 13px 14px;
+  }
+
+  .post-footer-promo {
+    margin-bottom: 60px;
+  }
+
+  .post-promo-panel {
+    padding: 22px;
+  }
+
+  .post-promo-panel h2 {
+    font-size: 26px;
+  }
+
+  .post-promo-newsletter form {
+    grid-template-columns: 1fr;
   }
 
   .grid.three,
