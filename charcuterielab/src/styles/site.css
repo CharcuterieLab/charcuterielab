@@ -175,6 +175,10 @@ a {
   transform-style: preserve-3d;
 }
 
+.book-tilt:has(.book-mockup) {
+  transform: none;
+}
+
 .book-object {
   position: relative;
   width: min(320px, 78vw);
@@ -184,6 +188,13 @@ a {
     2px 0 0 rgba(255, 255, 255, 0.18) inset,
     -10px 0 18px rgba(0, 0, 0, 0.28) inset;
   transform-style: preserve-3d;
+}
+
+.book-mockup {
+  width: min(500px, 86vw);
+  border-radius: 8px;
+  box-shadow: 0 28px 48px rgba(0, 0, 0, 0.34);
+  transform: none;
 }
 
 .book-object::before {
@@ -225,6 +236,11 @@ a {
   transform-origin: left center;
 }
 
+.book-mockup::before,
+.book-mockup::after {
+  display: none;
+}
+
 .book {
   position: relative;
   z-index: 2;
@@ -234,6 +250,13 @@ a {
   box-shadow:
     inset 14px 0 18px rgba(0, 0, 0, 0.24),
     inset -3px 0 8px rgba(255, 255, 255, 0.16);
+}
+
+.book-mockup .book {
+  display: block;
+  border-radius: 8px;
+  outline: 0;
+  box-shadow: none;
 }
 
 .plinth {

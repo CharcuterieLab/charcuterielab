@@ -251,11 +251,10 @@ function homePage(posts, products) {
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">
         <div class="book-tilt">
-          <div class="book-object">
-            <img class="book" src="/images/book-cover.jpg" alt="Charcuterie Lab book cover">
+          <div class="book-object book-mockup">
+            <img class="book" src="/images/book-3d-mockup.png" alt="Charcuterie Lab paperback book mockup">
           </div>
         </div>
-        <div class="plinth" aria-hidden="true"></div>
       </div>
     </div>
   </section>
