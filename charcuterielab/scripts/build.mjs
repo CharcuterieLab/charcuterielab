@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
+const publishTimeZone = "America/Chicago";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -21,6 +22,21 @@ const escapeHtml = (value = "") =>
     .replaceAll('"', "&quot;");
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
+
+function todayInPublishZone() {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: publishTimeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function isPublishedPost(post, today = todayInPublishZone()) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(post.date) && post.date <= today;
+}
 
 function parseMarkdown(source) {
   const normalized = source.replace(/^\uFEFF/, "");
@@ -400,10 +416,11 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [posts, products] = await Promise.all([
+  const [allPosts, products] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse)
   ]);
+  const posts = allPosts.filter((post) => isPublishedPost(post));
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
   await writeFile(join(dist, "sitemap.xml"), sitemap(posts));
