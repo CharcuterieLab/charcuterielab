@@ -164,10 +164,39 @@ a {
   border: 1px solid rgba(223, 197, 118, 0.22);
   border-radius: 8px;
   color: #fff8e9;
-  background: rgba(6, 24, 17, 0.34);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.12), rgba(6, 24, 17, 0.32));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
   font-size: 14px;
   font-weight: 800;
   text-align: center;
+}
+
+.hero-offer {
+  width: min(420px, 100%);
+  margin: 2px 0 34px;
+  padding: 15px 18px;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  color: #fff8e9;
+  background: rgba(10, 30, 22, 0.48);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16);
+}
+
+.hero-offer strong,
+.hero-offer span {
+  display: block;
+}
+
+.hero-offer strong {
+  margin-bottom: 4px;
+  color: #f6df9d;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.hero-offer span {
+  font-size: 16px;
 }
 
 .actions {

@@ -250,6 +250,10 @@ function homePage(posts, products) {
           <span>Shopping lists</span>
           <span>Pairing science</span>
         </div>
+        <div class="hero-offer">
+          <strong>Digital PDF download</strong>
+          <span>Start building better boards today.</span>
+        </div>
         <div class="actions">
           <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
         </div>
