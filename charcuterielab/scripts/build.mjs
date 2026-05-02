@@ -373,10 +373,10 @@ function postPage(post) {
   </article>
   <section class="post-footer-promo" aria-label="Charcuterie Lab book and newsletter">
     <div class="post-promo-panel post-promo-book">
-      <p class="eyebrow">Build Better Boards</p>
-      <h2>Charcuterie Lab: 50 Boards, Built by Science</h2>
-      <p>Get the complete board collection with pairings, shopping lists, and step-by-step build notes.</p>
-      <a class="button primary" href="https://www.amazon.com/" target="_blank" rel="noopener">Buy the book</a>
+      <p class="eyebrow">Instant Ebook</p>
+      <h2>Build 50 better boards with the full guide</h2>
+      <p>Download Charcuterie Lab with complete board plans, shopping lists, pairing science, substitutions, and step-by-step build notes.</p>
+      <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
     </div>
     <div class="post-promo-panel post-promo-newsletter">
       <p class="eyebrow">Daily Lab Report</p>
