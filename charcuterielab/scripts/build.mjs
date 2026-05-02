@@ -237,15 +237,21 @@ function homePage(posts, products) {
   const featuredPosts = posts.slice(0, 3);
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
-    description: "Buy the Charcuterie Lab book, shop printable board guides, and read the daily lab report.",
+    description: "Download the Charcuterie Lab ebook with 50 science-backed charcuterie board blueprints.",
     body: `<main>
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <h1>Charcuterie Lab: 50 Boards, Built by Science</h1>
-        <p>The ultimate guide to perfect pairings and board building.</p>
+        <p class="hero-kicker">Instant Digital Ebook</p>
+        <h1>50 Charcuterie Boards, Built by Science</h1>
+        <p>Download the complete Charcuterie Lab guide with shopping lists, pairing logic, substitutions, and step-by-step board blueprints.</p>
+        <div class="hero-points" aria-label="What is included">
+          <span>50 board plans</span>
+          <span>Shopping lists</span>
+          <span>Pairing science</span>
+        </div>
         <div class="actions">
-          <a class="button primary" href="https://www.amazon.com/" rel="noopener">Buy on Amazon</a>
+          <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
         </div>
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">

@@ -116,6 +116,20 @@ a {
   z-index: 2;
 }
 
+.hero-kicker {
+  width: fit-content;
+  margin: 0 0 16px;
+  padding: 8px 13px;
+  border: 1px solid rgba(223, 197, 118, 0.45);
+  border-radius: 6px;
+  color: #f6df9d;
+  background: rgba(255, 250, 240, 0.08);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .hero h1 {
   max-width: 690px;
   margin: 0;
@@ -131,6 +145,29 @@ a {
   color: #fff8e9;
   font-size: 18px;
   line-height: 1.45;
+}
+
+.hero-points {
+  max-width: 590px;
+  margin: 0 0 26px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.hero-points span {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border: 1px solid rgba(223, 197, 118, 0.22);
+  border-radius: 8px;
+  color: #fff8e9;
+  background: rgba(6, 24, 17, 0.34);
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
 }
 
 .actions {
@@ -163,10 +200,11 @@ a {
 }
 
 .hero .button.primary {
-  min-height: 58px;
-  min-width: 260px;
+  min-height: 64px;
+  min-width: 300px;
   padding: 0 36px;
-  font-size: 17px;
+  font-size: 18px;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28);
 }
 
 .hero-art {
@@ -827,6 +865,10 @@ a {
     min-height: auto;
     gap: 28px;
     padding-top: 42px;
+  }
+
+  .hero-points {
+    grid-template-columns: 1fr;
   }
 
   .hero-art {
