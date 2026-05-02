@@ -368,6 +368,13 @@ function postPage(post) {
     </div>
     <img class="post-image" src="${post.image}" alt="">
   </section>
+  <aside class="post-top-promo" aria-label="Charcuterie Lab ebook">
+    <div>
+      <p class="eyebrow">Charcuterie Lab Ebook</p>
+      <p>Get the full 50-board system with shopping lists, pairing logic, substitutions, and step-by-step build notes.</p>
+    </div>
+    <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
+  </aside>
   <article class="post-body">
     ${post.html}
   </article>
