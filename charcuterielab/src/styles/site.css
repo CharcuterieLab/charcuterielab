@@ -631,18 +631,42 @@ a {
 }
 
 .post-top-promo {
-  width: min(900px, calc(100% - 32px));
-  margin: 34px auto 0;
-  padding: 18px 20px;
+  position: relative;
+  width: min(720px, calc(100% - 32px));
+  margin: 46px auto 8px;
+  padding: 24px 28px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 20px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 16px;
   align-items: center;
-  border: 1px solid rgba(128, 67, 46, 0.18);
+  border: 1px solid rgba(128, 67, 46, 0.22);
   border-radius: 8px;
   color: #3b2518;
-  background: linear-gradient(135deg, #fff7e8, #f4e1bf);
-  box-shadow: 0 14px 32px rgba(17, 58, 39, 0.1);
+  background:
+    linear-gradient(135deg, rgba(255, 250, 240, 0.96), rgba(244, 225, 191, 0.96)),
+    radial-gradient(circle at 50% 0, rgba(202, 166, 82, 0.18), transparent 58%);
+  box-shadow: 0 18px 38px rgba(17, 58, 39, 0.12);
+  text-align: center;
+}
+
+.post-top-promo::before,
+.post-top-promo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: min(860px, calc(100vw - 48px));
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(202, 166, 82, 0.78), transparent);
+}
+
+.post-top-promo::before {
+  top: -22px;
+}
+
+.post-top-promo::after {
+  bottom: -22px;
 }
 
 .post-top-promo .eyebrow {
@@ -656,12 +680,15 @@ a {
 
 .post-top-promo p {
   margin: 0;
+  max-width: 610px;
   font-size: 16px;
   line-height: 1.45;
 }
 
 .post-top-promo .button {
+  min-width: 210px;
   white-space: nowrap;
+  box-shadow: 0 12px 22px rgba(55, 35, 25, 0.16);
 }
 
 .post-body {
