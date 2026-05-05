@@ -938,7 +938,6 @@ a {
   overflow: hidden;
   color: #fff9eb;
   background:
-    radial-gradient(circle at 50% 100%, rgba(223, 197, 118, 0.18), transparent 34%),
     linear-gradient(180deg, rgba(10, 38, 26, 0.96), rgba(10, 38, 26, 0.88) 58%, rgba(47, 30, 21, 0.94)),
     linear-gradient(135deg, var(--green-deep), #1d4c34 54%, #321d13);
 }
@@ -1046,26 +1045,15 @@ a {
 }
 
 .ebook-hero-product {
-  width: min(570px, 100%);
-  margin-top: 42px;
-  position: relative;
-}
-
-.ebook-hero-product::before {
-  content: "";
-  position: absolute;
-  inset: 13% -8% -7%;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(223, 197, 118, 0.28), rgba(223, 197, 118, 0));
-  filter: blur(10px);
+  width: min(390px, 86vw);
+  margin-top: 38px;
 }
 
 .ebook-hero-product img {
-  position: relative;
   width: 100%;
   display: block;
   border-radius: 8px;
-  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.46);
+  box-shadow: 0 22px 46px rgba(0, 0, 0, 0.38);
 }
 
 .ebook-strip {
@@ -1430,7 +1418,6 @@ a {
 
   .ebook-hero {
     background:
-      radial-gradient(circle at 50% 100%, rgba(223, 197, 118, 0.16), transparent 40%),
       linear-gradient(180deg, rgba(10, 38, 26, 0.98), rgba(10, 38, 26, 0.86)),
       linear-gradient(135deg, var(--green-deep), #321d13);
   }

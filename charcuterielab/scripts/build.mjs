@@ -418,6 +418,26 @@ function ebookPage() {
           <h3>The Holiday Hosting Board</h3>
           <p>A fuller, celebration-style board with warm colors, richer cheeses, seasonal fruit, nuts, spreads, and easy substitutions for different guest lists.</p>
         </article>
+        <article>
+          <span>Board 07</span>
+          <h3>The Brunch Board</h3>
+          <p>A morning-friendly spread with soft cheese, fruit, pastry crunch, jam, prosciutto, and bright accents that feel special without heavy prep.</p>
+        </article>
+        <article>
+          <span>Board 21</span>
+          <h3>The Game Day Board</h3>
+          <p>Bold, snackable, and easy to graze from, with spicy salami, sturdy cheeses, pickles, crunchy crackers, and dips that hold up for a crowd.</p>
+        </article>
+        <article>
+          <span>Board 35</span>
+          <h3>The Mediterranean Board</h3>
+          <p>Feta, olives, hummus, roasted peppers, cucumbers, pita, herbs, and cured meats arranged around salty, creamy, fresh, and acidic balance.</p>
+        </article>
+        <article>
+          <span>Board 48</span>
+          <h3>The Dessert Cheese Board</h3>
+          <p>A sweeter finish with brie, blue cheese, chocolate, dried fruit, honey, nuts, and crisp cookies that still follows real pairing logic.</p>
+        </article>
       </div>
     </div>
   </section>
