@@ -330,6 +330,9 @@ function ebookPage() {
         <span><strong>250+</strong> pages</span>
         <span><strong>0</strong> guesswork</span>
       </div>
+      <div class="ebook-hero-product">
+        <img src="/images/book-3d-mockup.png" alt="Charcuterie Lab ebook cover mockup">
+      </div>
     </div>
   </section>
 
@@ -384,6 +387,36 @@ function ebookPage() {
         <article>
           <h3>Hosting Upgrades</h3>
           <p>Use simple elevation ideas to make boards feel more intentional, premium, and memorable.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-section ebook-samples">
+    <div class="ebook-section-inner">
+      <p class="section-kicker">Sample Boards Inside</p>
+      <h2>Real boards you can shop for, build, and serve.</h2>
+      <p>Each blueprint gives you the ingredients, pairing logic, substitutions, and build notes that turn a grocery list into a board that feels intentional.</p>
+      <div class="ebook-sample-grid">
+        <article>
+          <span>Board 01</span>
+          <h3>The Classic American Starter</h3>
+          <p>A reliable crowd-pleaser with cheddar, salami, grapes, pickles, crackers, mustard, and honey arranged around salty, sweet, sharp, and crunchy contrasts.</p>
+        </article>
+        <article>
+          <span>Board 13</span>
+          <h3>The $25 Budget Board</h3>
+          <p>Designed to look generous without overspending, using smart store-bought choices, repeat ingredients, and one or two visual anchors.</p>
+        </article>
+        <article>
+          <span>Board 28</span>
+          <h3>The Wine Night Board</h3>
+          <p>Built around cheese textures, cured meat salt, fruit acidity, and briny accents so each bite supports the glass instead of fighting it.</p>
+        </article>
+        <article>
+          <span>Board 42</span>
+          <h3>The Holiday Hosting Board</h3>
+          <p>A fuller, celebration-style board with warm colors, richer cheeses, seasonal fruit, nuts, spreads, and easy substitutions for different guest lists.</p>
         </article>
       </div>
     </div>
