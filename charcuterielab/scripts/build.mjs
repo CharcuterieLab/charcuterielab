@@ -6,6 +6,7 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
+const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -211,6 +212,7 @@ function layout({ title, description, body }) {
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
+        <a href="/ebook/">Ebook</a>
         <a href="/blog/">Blog</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
@@ -255,7 +257,7 @@ function homePage(posts, products) {
           <span>Start building better boards today.</span>
         </div>
         <div class="actions">
-          <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
+          <a class="button primary" href="${ebookUrl}" target="_blank" rel="noopener">Get the Ebook</a>
         </div>
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">
@@ -303,6 +305,129 @@ function homePage(posts, products) {
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
         <button class="button primary" type="submit">Join</button>
       </form>
+    </div>
+  </section>
+</main>`
+  });
+}
+
+function ebookPage() {
+  return layout({
+    title: "Charcuterie Lab Ebook | 50 Boards Built by Science",
+    description: "Download Charcuterie Lab, the digital guide with 50 science-backed charcuterie board plans, shopping lists, pairing logic, substitutions, and build notes.",
+    body: `<main class="ebook-page">
+  <section class="ebook-hero">
+    <div class="ebook-hero-inner">
+      <p class="ebook-kicker">Instant Digital Ebook</p>
+      <h1>Build charcuterie boards that look beautiful because they make sense.</h1>
+      <p>Charcuterie Lab gives you 50 complete board blueprints with shopping lists, pairing logic, substitutions, and step-by-step build notes so you can host with confidence instead of guessing.</p>
+      <div class="ebook-hero-actions">
+        <a class="button primary ebook-primary" href="${ebookUrl}" target="_blank" rel="noopener">Download the Ebook</a>
+        <span>PDF download. Start today.</span>
+      </div>
+      <div class="ebook-metrics" aria-label="Ebook highlights">
+        <span><strong>50</strong> board plans</span>
+        <span><strong>250+</strong> pages</span>
+        <span><strong>0</strong> guesswork</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-strip" aria-label="Who it is for">
+    <span>Dinner parties</span>
+    <span>Wine nights</span>
+    <span>Holidays</span>
+    <span>Game day</span>
+    <span>Date nights</span>
+  </section>
+
+  <section class="ebook-section">
+    <div class="ebook-section-inner ebook-two-col">
+      <div>
+        <p class="section-kicker">The Problem</p>
+        <h2>Pretty boards are easy to admire. They are harder to repeat.</h2>
+        <p>Most charcuterie advice gives you a photo and a pile of ingredients. Charcuterie Lab gives you a system: what to buy, why it belongs, where it goes, and how to swap ingredients without breaking the board.</p>
+      </div>
+      <div class="ebook-checklist">
+        <div><strong>No more random grocery runs.</strong><span>Each board includes a focused shopping list.</span></div>
+        <div><strong>No more flavor clashes.</strong><span>Pairings are built around contrast, fat, salt, acid, crunch, and sweetness.</span></div>
+        <div><strong>No more blank-board panic.</strong><span>Every board has a build plan you can follow.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-section ebook-contents">
+    <div class="ebook-section-inner">
+      <p class="section-kicker">What You Get</p>
+      <h2>Inside the digital guide</h2>
+      <div class="ebook-grid">
+        <article>
+          <h3>50 Complete Board Blueprints</h3>
+          <p>Classic boards, seasonal boards, budget boards, wine-night boards, party boards, and premium entertaining boards.</p>
+        </article>
+        <article>
+          <h3>Shopping Lists</h3>
+          <p>Know what to buy before you walk into the store, with enough structure to stay focused and enough flexibility to substitute.</p>
+        </article>
+        <article>
+          <h3>Pairing Logic</h3>
+          <p>Understand why cheeses, meats, fruits, spreads, crunch, and briny elements work together.</p>
+        </article>
+        <article>
+          <h3>Substitutions</h3>
+          <p>Swap ingredients confidently when something is expensive, unavailable, or not right for your guests.</p>
+        </article>
+        <article>
+          <h3>Step-by-Step Builds</h3>
+          <p>Follow a repeatable order that makes boards easier to assemble and better to look at.</p>
+        </article>
+        <article>
+          <h3>Hosting Upgrades</h3>
+          <p>Use simple elevation ideas to make boards feel more intentional, premium, and memorable.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-section ebook-preview">
+    <div class="ebook-section-inner ebook-two-col">
+      <img src="/images/book-3d-mockup.png" alt="Charcuterie Lab ebook cover mockup">
+      <div>
+        <p class="section-kicker">The Offer</p>
+        <h2>Download once. Use it every time you host.</h2>
+        <p>Use the ebook as a planning tool before shopping and as a quick reference while building. It is designed for real hosting moments: clear, practical, and easy to come back to.</p>
+        <a class="button primary ebook-primary" href="${ebookUrl}" target="_blank" rel="noopener">Get the Ebook</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-section ebook-faq">
+    <div class="ebook-section-inner">
+      <p class="section-kicker">Questions</p>
+      <h2>Before you download</h2>
+      <div class="ebook-faq-list">
+        <details open>
+          <summary>Is this a physical book?</summary>
+          <p>No. This is the instant digital ebook version, delivered as a PDF download through Gumroad.</p>
+        </details>
+        <details>
+          <summary>Is it beginner-friendly?</summary>
+          <p>Yes. The book is built around repeatable board formulas, shopping lists, substitutions, and clear steps.</p>
+        </details>
+        <details>
+          <summary>Can I use this for parties and holidays?</summary>
+          <p>Yes. The 50 board plans cover everyday hosting, seasonal events, wine nights, game day, budget boards, and more polished entertaining.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-final-cta">
+    <div>
+      <p class="ebook-kicker">Charcuterie Lab</p>
+      <h2>Start building better boards today.</h2>
+      <p>Get the complete digital guide and turn your next board into something planned, balanced, and beautiful.</p>
+      <a class="button primary ebook-primary" href="${ebookUrl}" target="_blank" rel="noopener">Download the Ebook</a>
     </div>
   </section>
 </main>`
@@ -373,7 +498,7 @@ function postPage(post) {
       <p class="eyebrow">Charcuterie Lab Ebook</p>
       <p>Get the full 50-board system with shopping lists, pairing logic, substitutions, and step-by-step build notes.</p>
     </div>
-    <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
+    <a class="button primary" href="${ebookUrl}" target="_blank" rel="noopener">Get the Ebook</a>
   </aside>
   <article class="post-body">
     ${post.html}
@@ -383,7 +508,7 @@ function postPage(post) {
       <p class="eyebrow">Instant Ebook</p>
       <h2>Build 50 better boards with the full guide</h2>
       <p>Download Charcuterie Lab with complete board plans, shopping lists, pairing science, substitutions, and step-by-step build notes.</p>
-      <a class="button primary" href="https://charcuterieflavor.gumroad.com/l/tabajj" target="_blank" rel="noopener">Get the Ebook</a>
+      <a class="button primary" href="${ebookUrl}" target="_blank" rel="noopener">Get the Ebook</a>
     </div>
     <div class="post-promo-panel post-promo-newsletter">
       <p class="eyebrow">Daily Lab Report</p>
@@ -404,6 +529,7 @@ function postPage(post) {
 function sitemap(posts) {
   const urls = [
     { loc: "/", priority: "1.0" },
+    { loc: "/ebook/", priority: "0.9" },
     { loc: "/blog/", priority: "0.8" },
     ...posts.map((post) => ({
       loc: `/blog/${post.slug}/`,
@@ -439,6 +565,8 @@ async function build() {
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
   await writeFile(join(dist, "sitemap.xml"), sitemap(posts));
+  await mkdir(join(dist, "ebook"), { recursive: true });
+  await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
 
