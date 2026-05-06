@@ -15,6 +15,7 @@ except ImportError:
     winreg = None
 
 INBOX = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAABlogPosts")
+PUBLISHED_DIR = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAABlogPostsPublished")
 REPO = Path(__file__).resolve().parents[1]
 SITE = REPO / "charcuterielab"
 BLOG_DIR = SITE / "content" / "blog"
@@ -223,21 +224,47 @@ def matching_image(files, publish_date, raw_name, content_stem=None):
     return sorted(candidates)[0] if candidates else None
 
 
+def unique_destination(directory, name):
+    destination = directory / name
+    if not destination.exists():
+        return destination
+
+    stem = destination.stem
+    suffix = destination.suffix
+    counter = 2
+    while True:
+        candidate = directory / f"{stem}-{counter}{suffix}"
+        if not candidate.exists():
+            return candidate
+        counter += 1
+
+
+def archive_completed(files):
+    PUBLISHED_DIR.mkdir(parents=True, exist_ok=True)
+    moved = []
+    for path in files:
+        if path.exists():
+            destination = unique_destination(PUBLISHED_DIR, path.name)
+            shutil.move(str(path), str(destination))
+            moved.append(destination.name)
+    return moved
+
+
 def stage_post(post_path, all_files):
     parsed = parse_queue_name(post_path)
     if not parsed:
-        return None, f"Skipped {post_path.name}: filename must start DDMMYYYY_"
+        return None, f"Skipped {post_path.name}: filename must start DDMMYYYY_", []
 
     publish_date, raw_name = parsed
     if publish_date > date.today():
-        return None, f"Waiting {post_path.name}: publish date is {publish_date.isoformat()}"
+        return None, f"Waiting {post_path.name}: publish date is {publish_date.isoformat()}", []
 
     slug = slugify(content_slug(raw_name))
     if post_path.suffix.lower() == ".docx":
         try:
             markdown = docx_to_markdown(post_path)
         except (KeyError, zipfile.BadZipFile) as exc:
-            return None, f"Skipped {post_path.name}: could not read DOCX content ({exc})"
+            return None, f"Skipped {post_path.name}: could not read DOCX content ({exc})", []
     else:
         markdown = post_path.read_text(encoding="utf-8-sig")
 
@@ -248,14 +275,16 @@ def stage_post(post_path, all_files):
     data.setdefault("excerpt", excerpt_from_body(body))
 
     image = matching_image(all_files, publish_date, raw_name, post_path.stem)
+    completed_files = [post_path]
     if image:
         target_image_name = f"{slug}{image.suffix.lower()}"
         shutil.copy2(image, IMAGE_DIR / target_image_name)
         data["image"] = f"/images/{target_image_name}"
+        completed_files.append(image)
 
     target = BLOG_DIR / f"{slug}.md"
     target.write_text(write_frontmatter(data, body), encoding="utf-8")
-    return target, f"Staged {target.relative_to(REPO)}"
+    return target, f"Staged {target.relative_to(REPO)}", completed_files
 
 
 def push_changes():
@@ -271,7 +300,7 @@ def push_changes():
         run(["git", "-c", f"http.extraheader=AUTHORIZATION: Basic {auth}", "push", "origin", "main"])
         return "Pushed existing local Git commit to GitHub."
 
-    run(["git", "add", "charcuterielab/content/blog", "charcuterielab/public/images"])
+    run(["git", "add", "charcuterielab/content/blog", "charcuterielab/public/images", "scripts/publish_blog_queue.py"])
     status = run(["git", "status", "--short"]).strip()
     if not status:
         return "No Git changes to publish."
@@ -333,14 +362,19 @@ def main():
     post_files = [path for path in files if is_post_file(path)]
 
     staged = []
+    completed_files = []
     for post in sorted(post_files):
-        target, message = stage_post(post, files)
+        target, message, used_files = stage_post(post, files)
         messages.append(message)
         if target:
             staged.append(target)
+            completed_files.extend(used_files)
 
     if staged:
         messages.append(push_changes())
+        moved = archive_completed(completed_files)
+        if moved:
+            messages.append(f"Moved completed queue files to {PUBLISHED_DIR}: {', '.join(moved)}")
     else:
         messages.append("No due posts found.")
 
