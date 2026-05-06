@@ -7,6 +7,7 @@ const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
 const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
+const assetVersion = "20260505-blog-preview-grid";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -295,7 +296,7 @@ function layout({ title, description, body }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
   <style>
     .socials a{width:2.55rem;height:2.55rem;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(55,35,25,.18);background:rgba(255,255,255,.66);color:inherit;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;}
     .socials a:hover{transform:translateY(-2px);background:#fff;box-shadow:0 12px 24px rgba(55,35,25,.12);}
