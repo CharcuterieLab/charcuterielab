@@ -7,7 +7,7 @@ const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
 const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
-const assetVersion = "20260505-blog-preview-grid";
+const assetVersion = "20260505-compact-card-grids";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -386,7 +386,7 @@ function homePage(posts, products) {
     <div class="section-inner">
       <p class="section-kicker">Printables Shop</p>
       <h2 class="section-title">Enhance Your Boards</h2>
-      <div class="grid four">
+      <div class="grid four printables-grid">
         ${products.map((product) => productCard(product)).join("\n")}
       </div>
     </div>

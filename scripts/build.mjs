@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
+const assetVersion = "20260505-compact-card-grids";
 
 const paths = {
   blog: join(root, "content", "blog"),
@@ -72,7 +73,7 @@ function layout({ title, description, body }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
 </head>
 <body>
   <header class="site-header">
@@ -128,7 +129,7 @@ function homePage(posts, products) {
     <div class="section-inner">
       <p class="section-kicker">Daily Lab Report</p>
       <h2 class="section-title">Latest from the Lab</h2>
-      <div class="grid three">
+      <div class="grid three blog-preview-grid">
         ${featuredPosts.map((post) => articleCard(post)).join("\n")}
       </div>
     </div>
@@ -138,7 +139,7 @@ function homePage(posts, products) {
     <div class="section-inner">
       <p class="section-kicker">Printables Shop</p>
       <h2 class="section-title">Enhance Your Boards</h2>
-      <div class="grid four">
+      <div class="grid four printables-grid">
         ${products.map((product) => productCard(product)).join("\n")}
       </div>
     </div>

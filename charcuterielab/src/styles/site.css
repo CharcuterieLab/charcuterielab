@@ -1619,7 +1619,6 @@ a {
   .related-card strong {
     grid-column: auto;
   }
-  }
 
   .post-promo-panel {
     padding: 22px;
@@ -1667,6 +1666,11 @@ a {
   gap: 22px;
 }
 
+.grid.four.printables-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 22px;
+}
+
 .grid.three.blog-preview-grid .card img.blog-preview-image,
 .grid.three.archive-grid .card img.blog-preview-image {
   height: 155px;
@@ -1674,6 +1678,12 @@ a {
   object-fit: cover !important;
   padding: 0;
   background: #f7ead1;
+}
+
+.grid.four.printables-grid .product img {
+  height: 150px;
+  aspect-ratio: auto;
+  object-fit: cover;
 }
 
 .grid.three.blog-preview-grid .card h3,
@@ -1693,18 +1703,29 @@ a {
     gap: 14px;
   }
 
+  .grid.four.printables-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 14px;
+  }
+
   .grid.three.blog-preview-grid .card img.blog-preview-image,
   .grid.three.archive-grid .card img.blog-preview-image {
     height: 108px;
   }
 
+  .grid.four.printables-grid .product img {
+    height: 104px;
+  }
+
   .grid.three.blog-preview-grid .card h3,
-  .grid.three.archive-grid .card h3 {
+  .grid.three.archive-grid .card h3,
+  .grid.four.printables-grid .product h3 {
     font-size: 17px;
   }
 
   .grid.three.blog-preview-grid .card p,
-  .grid.three.archive-grid .card p {
+  .grid.three.archive-grid .card p,
+  .grid.four.printables-grid .product p {
     font-size: 13px;
     line-height: 1.25;
   }
@@ -1717,10 +1738,19 @@ a {
     gap: 10px;
   }
 
+  .grid.four.printables-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px;
+  }
+
   .grid.three.blog-preview-grid .card img.blog-preview-image,
   .grid.three.archive-grid .card img.blog-preview-image {
     height: 70px;
     border-radius: 6px;
+  }
+
+  .grid.four.printables-grid .product img {
+    height: 112px;
   }
 
   .grid.three.blog-preview-grid .card h3,
@@ -1732,6 +1762,14 @@ a {
 
   .grid.three.blog-preview-grid .card p,
   .grid.three.archive-grid .card p {
+    display: none;
+  }
+
+  .grid.four.printables-grid .product h3 {
+    font-size: 15px;
+  }
+
+  .grid.four.printables-grid .product p {
     display: none;
   }
 }
