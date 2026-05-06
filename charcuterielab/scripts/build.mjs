@@ -372,7 +372,7 @@ function homePage(posts, products) {
     <div class="section-inner">
       <p class="section-kicker">Daily Lab Report</p>
       <h2 class="section-title">Latest from the Lab</h2>
-      <div class="grid three">
+      <div class="grid three blog-preview-grid">
         ${featuredPosts.map((post) => articleCard(post)).join("\n")}
       </div>
       <div class="section-link">
@@ -616,7 +616,7 @@ function blogPage(posts) {
   </section>
   <section class="section">
     <div class="section-inner">
-      <div class="grid three archive-grid">
+      <div class="grid three blog-preview-grid archive-grid">
         ${posts.map((post) => articleCard(post)).join("\n")}
       </div>
     </div>
