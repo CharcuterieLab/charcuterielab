@@ -24,6 +24,12 @@ const escapeHtml = (value = "") =>
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
+const stopWords = new Set([
+  "about", "after", "also", "and", "are", "because", "been", "best", "board", "boards", "build",
+  "charcuterie", "cheese", "for", "from", "guide", "have", "into", "that", "the", "this", "what",
+  "when", "where", "which", "with", "your"
+]);
+
 function todayInPublishZone() {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: publishTimeZone,
@@ -54,6 +60,92 @@ function parseMarkdown(source) {
   }
 
   return { data, body };
+}
+
+function parseListField(value = "") {
+  const cleaned = String(value)
+    .trim()
+    .replace(/^['"]|['"]$/g, "");
+
+  if (!cleaned) return [];
+
+  if (cleaned.startsWith("[") && cleaned.endsWith("]")) {
+    try {
+      const parsed = JSON.parse(cleaned);
+      if (Array.isArray(parsed)) return parsed.map(String).map((item) => item.trim()).filter(Boolean);
+    } catch {
+      // Fall through to the forgiving splitter for publisher-generated frontmatter.
+    }
+  }
+
+  return cleaned
+    .replace(/^\[|\]$/g, "")
+    .split(/[,|]/)
+    .map((item) => item.trim().replace(/^['"]|['"]$/g, ""))
+    .filter(Boolean);
+}
+
+function tokenize(value = "") {
+  return String(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/[\s-]+/)
+    .filter((word) => word.length > 3 && !stopWords.has(word));
+}
+
+function topicTerms(post) {
+  return new Set([
+    ...tokenize(post.slug),
+    ...tokenize(post.title),
+    ...tokenize(post.excerpt),
+    ...post.tags.flatMap((tag) => tokenize(tag))
+  ]);
+}
+
+function selectRelatedPosts(post, posts, limit = 3) {
+  const related = [];
+  const used = new Set([post.slug]);
+
+  for (const slug of post.relatedSlugs) {
+    const match = posts.find((candidate) => candidate.slug === slug && !used.has(candidate.slug));
+    if (match) {
+      related.push(match);
+      used.add(match.slug);
+    }
+    if (related.length >= limit) return related;
+  }
+
+  const currentTerms = topicTerms(post);
+  const scored = posts
+    .filter((candidate) => !used.has(candidate.slug))
+    .map((candidate) => {
+      const candidateTerms = topicTerms(candidate);
+      let score = 0;
+      for (const term of currentTerms) {
+        if (candidateTerms.has(term)) score += 1;
+      }
+      const tagOverlap = post.tags.filter((tag) => candidate.tags.includes(tag)).length;
+      score += tagOverlap * 5;
+      return { candidate, score };
+    })
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score || b.candidate.date.localeCompare(a.candidate.date));
+
+  for (const { candidate } of scored) {
+    related.push(candidate);
+    used.add(candidate.slug);
+    if (related.length >= limit) break;
+  }
+
+  for (const candidate of posts) {
+    if (related.length >= limit) break;
+    if (!used.has(candidate.slug)) {
+      related.push(candidate);
+      used.add(candidate.slug);
+    }
+  }
+
+  return related;
 }
 
 function markdownToHtml(markdown) {
@@ -170,6 +262,8 @@ async function loadPosts() {
         date: data.date ?? "2026-01-01",
         image: data.image ?? "/images/layout-reference.jpg",
         excerpt: data.excerpt ?? "",
+        tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
+        relatedSlugs: parseListField(data.related).map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, "")),
         html: markdownToHtml(body)
       };
     })
@@ -527,7 +621,22 @@ function blogPage(posts) {
   });
 }
 
-function postPage(post) {
+function relatedReading(relatedPosts) {
+  if (!relatedPosts.length) return "";
+
+  return `<aside class="related-reading" aria-label="Related reading">
+    <p class="eyebrow">Related Reading</p>
+    <h2>Keep building the board</h2>
+    <div class="related-grid">
+      ${relatedPosts.map((related) => `<a class="related-card" href="/blog/${related.slug}/">
+        <span>${escapeHtml(related.title)}</span>
+        <small>${escapeHtml(related.excerpt || "More pairing science from Charcuterie Lab.")}</small>
+      </a>`).join("\n")}
+    </div>
+  </aside>`;
+}
+
+function postPage(post, relatedPosts = []) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
     day: "numeric",
@@ -556,6 +665,7 @@ function postPage(post) {
   <article class="post-body">
     ${post.html}
   </article>
+  ${relatedReading(relatedPosts)}
   <section class="post-footer-promo" aria-label="Charcuterie Lab book and newsletter">
     <div class="post-promo-panel post-promo-book">
       <p class="eyebrow">Instant Ebook</p>
@@ -627,7 +737,7 @@ async function build() {
     posts.map(async (post) => {
       const dir = join(dist, "blog", post.slug);
       await mkdir(dir, { recursive: true });
-      await writeFile(join(dir, "index.html"), postPage(post));
+      await writeFile(join(dir, "index.html"), postPage(post, selectRelatedPosts(post, posts)));
     })
   );
 
