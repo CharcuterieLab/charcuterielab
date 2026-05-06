@@ -162,6 +162,11 @@ function markdownToHtml(markdown) {
   const isBlockStart = (line = "") =>
     /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
 
+  const isTableSeparator = (row = "") => {
+    const cells = row.slice(1, -1).split("|").map((cell) => cell.trim());
+    return cells.length > 1 && cells.every((cell) => /^:?-{1,}:?$/.test(cell));
+  };
+
   while (i < lines.length) {
     const line = lines[i].trim();
 
@@ -222,7 +227,7 @@ function markdownToHtml(markdown) {
         i += 1;
       }
 
-      if (tableLines.length >= 2 && /^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$/.test(tableLines[1])) {
+      if (tableLines.length >= 2 && isTableSeparator(tableLines[1])) {
         const cells = (row) => row.slice(1, -1).split("|").map((cell) => inline(cell.trim()));
         const header = cells(tableLines[0]).map((cell) => `<th>${cell}</th>`).join("");
         const rows = tableLines.slice(2).map((row) => `<tr>${cells(row).map((cell) => `<td>${cell}</td>`).join("")}</tr>`);
@@ -629,8 +634,10 @@ function relatedReading(relatedPosts) {
     <h2>Keep building the board</h2>
     <div class="related-grid">
       ${relatedPosts.map((related) => `<a class="related-card" href="/blog/${related.slug}/">
+        <img src="${escapeHtml(related.image)}" alt="">
         <span>${escapeHtml(related.title)}</span>
         <small>${escapeHtml(related.excerpt || "More pairing science from Charcuterie Lab.")}</small>
+        <strong>Read next</strong>
       </a>`).join("\n")}
     </div>
   </aside>`;
