@@ -7,13 +7,6 @@ excerpt: "Taleggio on a Charcuterie Board"
 
 # Taleggio on a Charcuterie Board
 
-**Template:** 3A Starring Ingredient Deep Dive  
-**Slug:** taleggio  
-**Target URL:** charcuterielab.com/taleggio  
-**Word count:** ~1,700  
-
----
-
 Taleggio has a reputation problem. Its smell stops people before they ever taste it — an assertive, barnyard, almost aggressive aroma that signals intensity and warns off the cautious. Those people miss one of the most interesting disconnects in the cheese world: Taleggio smells like it means business, and then turns out to be mild, buttery, and almost sweet on the palate.
 
 Understanding why requires understanding what a washed rind actually does — and what it doesn't do.
