@@ -86,6 +86,59 @@ function parseListField(value = "") {
     .filter(Boolean);
 }
 
+function parseFaqField(value = "") {
+  const cleaned = String(value).trim().replace(/^['"]|['"]$/g, "");
+  if (!cleaned) return [];
+
+  if (cleaned.startsWith("[") && cleaned.endsWith("]")) {
+    try {
+      const parsed = JSON.parse(cleaned);
+      if (Array.isArray(parsed)) {
+        return parsed
+          .map((item) => ({
+            question: String(item.question ?? "").trim(),
+            answer: String(item.answer ?? "").trim()
+          }))
+          .filter((item) => item.question && item.answer);
+      }
+    } catch {
+      // Fall through to the compact "Question => Answer | Question => Answer" format.
+    }
+  }
+
+  return cleaned
+    .split("|")
+    .map((item) => item.split(/\s*=>\s*/))
+    .map(([question, answer]) => ({
+      question: String(question ?? "").trim(),
+      answer: String(answer ?? "").trim()
+    }))
+    .filter((item) => item.question && item.answer);
+}
+
+function jsonForScript(value) {
+  return JSON.stringify(value).replaceAll("<", "\\u003c");
+}
+
+function faqSchema(post) {
+  if (!post.faq?.length) return "";
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
+
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
 function tokenize(value = "") {
   return String(value)
     .toLowerCase()
@@ -270,6 +323,7 @@ async function loadPosts() {
         excerpt: data.excerpt ?? "",
         tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
         relatedSlugs: parseListField(data.related).map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, "")),
+        faq: parseFaqField(data.faq),
         html: markdownToHtml(body)
       };
     })
@@ -288,7 +342,7 @@ function socialIcon(name) {
   return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.2 2C6.6 2 3 5.7 3 10.5c0 3.4 1.9 5.3 3 5.3.5 0 .8-1.4.8-1.8 0-.5-1.3-1.6-1.3-3.6 0-4.1 3.1-7 7.3-7 3.5 0 6.1 2 6.1 5.7 0 2.8-1.1 8-4.8 8-1.3 0-2.5-1-2.1-2.4.4-1.7 1.3-3.5 1.3-4.7 0-2.7-3.9-2.2-3.9 1.3 0 1.1.4 1.8.4 1.8s-1.4 5.8-1.6 6.8c-.2 1 0 2.3 0 2.4 0 .1.2.1.3 0 .4-.5 1.5-1.8 2-2.9.2-.6.9-3.3.9-3.3.4.8 1.7 1.5 3 1.5 4 0 6.6-3.6 6.6-8.4C21 5.2 17.6 2 12.2 2Z"/></svg>';
 }
 
-function layout({ title, description, body }) {
+function layout({ title, description, body, head = "" }) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -305,6 +359,7 @@ function layout({ title, description, body }) {
     .post-cta p{margin:0 0 1rem;font-weight:700;color:#4f281c;}
     .post-cta-button{display:inline-flex;width:auto;}
   </style>
+${head}
 </head>
 <body>
   <header class="site-header">
@@ -654,6 +709,7 @@ function postPage(post, relatedPosts = []) {
   return layout({
     title: `${post.title} | Charcuterie Lab`,
     description: post.excerpt,
+    head: faqSchema(post),
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">

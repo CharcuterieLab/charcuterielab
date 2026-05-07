@@ -22,6 +22,59 @@ const escapeHtml = (value = "") =>
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
+function parseFaqField(value = "") {
+  const cleaned = String(value).trim().replace(/^['"]|['"]$/g, "");
+  if (!cleaned) return [];
+
+  if (cleaned.startsWith("[") && cleaned.endsWith("]")) {
+    try {
+      const parsed = JSON.parse(cleaned);
+      if (Array.isArray(parsed)) {
+        return parsed
+          .map((item) => ({
+            question: String(item.question ?? "").trim(),
+            answer: String(item.answer ?? "").trim()
+          }))
+          .filter((item) => item.question && item.answer);
+      }
+    } catch {
+      // Fall through to the compact "Question => Answer | Question => Answer" format.
+    }
+  }
+
+  return cleaned
+    .split("|")
+    .map((item) => item.split(/\s*=>\s*/))
+    .map(([question, answer]) => ({
+      question: String(question ?? "").trim(),
+      answer: String(answer ?? "").trim()
+    }))
+    .filter((item) => item.question && item.answer);
+}
+
+function jsonForScript(value) {
+  return JSON.stringify(value).replaceAll("<", "\\u003c");
+}
+
+function faqSchema(post) {
+  if (!post.faq?.length) return "";
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
+
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
 function parseMarkdown(source) {
   const match = source.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   const data = {};
@@ -57,6 +110,7 @@ async function loadPosts() {
         date: data.date ?? "2026-01-01",
         image: data.image ?? "/images/layout-reference.jpg",
         excerpt: data.excerpt ?? "",
+        faq: parseFaqField(data.faq),
         html: markdownToHtml(body)
       };
     })
@@ -65,7 +119,7 @@ async function loadPosts() {
   return posts.sort((a, b) => b.date.localeCompare(a.date));
 }
 
-function layout({ title, description, body }) {
+function layout({ title, description, body, head = "" }) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -74,6 +128,7 @@ function layout({ title, description, body }) {
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
+${head}
 </head>
 <body>
   <header class="site-header">
@@ -191,6 +246,7 @@ function postPage(post) {
   return layout({
     title: `${post.title} | Charcuterie Lab`,
     description: post.excerpt,
+    head: faqSchema(post),
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
