@@ -1,4 +1,3 @@
-$env:CHARCUTERIE_NO_GIT = "1"
 $Python = "C:\Users\thill\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
 $Script = Join-Path $PSScriptRoot "publish_blog_queue.py"
 
