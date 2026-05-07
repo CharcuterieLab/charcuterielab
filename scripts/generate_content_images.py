@@ -20,7 +20,8 @@ except ImportError:
 
 MAIN_FOLDER = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab")
 LOGO_PATH = MAIN_FOLDER / "Logo.png"
-IMAGE_MODEL = "gpt-image-1"
+OPENAI_IMAGE_MODEL = "gpt-image-1"
+GEMINI_IMAGE_MODEL = "gemini-2.5-flash-image"
 SUPPORTED_TEXT_EXTS = {".md", ".markdown", ".txt"}
 
 
@@ -166,6 +167,7 @@ def brief_from_file(path):
 
     return {
         "path": path,
+        "source_text": clean_text(text),
         "platform": platform,
         "pin_number": pin_number,
         "topic": topic,
@@ -223,7 +225,7 @@ def output_name(brief):
     return settings["output"].format(stem=brief["path"].stem)
 
 
-def build_prompt(brief):
+def build_prompt(brief, include_full_content=False):
     size_note = {
         "blog": "wide editorial blog hero image",
         "pinterest": "vertical Pinterest pin image, premium food magazine styling",
@@ -237,7 +239,7 @@ def build_prompt(brief):
     if brief["overlay"]:
         no_text = "Leave clean negative space for a later text banner. Do not render readable text yourself."
 
-    return textwrap.dedent(
+    prompt = textwrap.dedent(
         f"""
         Create a polished Charcuterie Lab image for: {brief['title']}.
 
@@ -255,10 +257,15 @@ def build_prompt(brief):
         """
     ).strip()
 
+    if include_full_content:
+        prompt = f"{prompt}\n\nUse this full blog post as the creative brief:\n\n{brief['source_text']}"
 
-def generate_image(prompt, size, api_key):
+    return prompt
+
+
+def generate_openai_image(prompt, size, api_key):
     payload = {
-        "model": IMAGE_MODEL,
+        "model": OPENAI_IMAGE_MODEL,
         "prompt": prompt,
         "size": size,
         "quality": "high",
@@ -289,6 +296,79 @@ def generate_image(prompt, size, api_key):
             return response.read()
 
     raise RuntimeError("Image API response did not include image data.")
+
+
+def generate_gemini_image(prompt, api_key):
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt}
+                ]
+            }
+        ],
+        "generationConfig": {
+            "responseModalities": ["TEXT", "IMAGE"]
+        },
+    }
+    request = urllib.request.Request(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_IMAGE_MODEL}:generateContent?key={api_key}",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=240) as response:
+            result = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        details = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini image API error {exc.code}: {details}") from exc
+
+    for candidate in result.get("candidates", []):
+        for part in candidate.get("content", {}).get("parts", []):
+            inline_data = part.get("inlineData") or part.get("inline_data")
+            if inline_data and inline_data.get("data"):
+                return base64.b64decode(inline_data["data"])
+
+    raise RuntimeError("Gemini image API response did not include image data.")
+
+
+def generate_image(prompt, size, provider):
+    provider = provider.lower()
+    if provider == "openai":
+        api_key = get_user_env("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY is not set.")
+        return generate_openai_image(prompt, size, api_key)
+    if provider == "gemini":
+        api_key = get_user_env("GEMINI_API_KEY") or get_user_env("GOOGLE_API_KEY")
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY is not set.")
+        return generate_gemini_image(prompt, api_key)
+    raise RuntimeError(f"Unsupported provider: {provider}")
+
+
+def fit_image_to_size(image, size):
+    match = re.match(r"^(\d+)x(\d+)$", size)
+    if not match:
+        return image
+
+    target_width, target_height = int(match.group(1)), int(match.group(2))
+    image = image.convert("RGB")
+    source_ratio = image.width / image.height
+    target_ratio = target_width / target_height
+
+    if source_ratio > target_ratio:
+        new_height = target_height
+        new_width = int(new_height * source_ratio)
+    else:
+        new_width = target_width
+        new_height = int(new_width / source_ratio)
+
+    image = image.resize((new_width, new_height), Image.LANCZOS)
+    left = (new_width - target_width) // 2
+    top = (new_height - target_height) // 2
+    return image.crop((left, top, left + target_width, top + target_height))
 
 
 def load_font(size, bold=False):
@@ -375,7 +455,7 @@ def stamp_logo(image):
     return image
 
 
-def process_file(path, overwrite=False, dry_run=False):
+def process_file(path, overwrite=False, dry_run=False, provider="openai"):
     if path.name.lower().startswith("readme"):
         return "Skipped README."
     if path.suffix.lower() not in SUPPORTED_TEXT_EXTS:
@@ -387,19 +467,16 @@ def process_file(path, overwrite=False, dry_run=False):
     if target.exists() and not overwrite:
         return f"Skipped existing image: {target.name}"
 
-    prompt = build_prompt(brief)
+    prompt = build_prompt(brief, include_full_content=(provider.lower() == "gemini"))
     if dry_run:
-        return f"Would create {target.name} from {path.name}\nPrompt: {prompt[:500]}..."
+        return f"Would create {target.name} from {path.name} with {provider}\nPrompt: {prompt[:900]}..."
 
-    api_key = get_user_env("OPENAI_API_KEY")
-    if not api_key:
-        raise RuntimeError("OPENAI_API_KEY is not set.")
-
-    image_bytes = generate_image(prompt, settings["size"], api_key)
+    image_bytes = generate_image(prompt, settings["size"], provider)
     raw_target = target.with_name(f"{target.stem}_raw_{datetime.now().strftime('%Y%m%d%H%M%S')}.png")
     raw_target.write_bytes(image_bytes)
 
     image = Image.open(raw_target)
+    image = fit_image_to_size(image, settings["size"])
     if settings.get("overlay") and brief["overlay"]:
         image = add_overlay(image, brief["overlay"])
     image = stamp_logo(image)
@@ -412,12 +489,22 @@ def process_file(path, overwrite=False, dry_run=False):
 def main():
     parser = argparse.ArgumentParser(description="Generate branded images for Charcuterie Lab content folders.")
     parser.add_argument("--folder", help="Folder path or name under the Charcuterie Lab main folder.")
+    parser.add_argument("--file", help="Process one specific content file.")
+    parser.add_argument("--provider", choices=["openai", "gemini"], default="openai", help="Image provider to use.")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be generated without calling the image API.")
     parser.add_argument("--overwrite", action="store_true", help="Replace existing generated images.")
     parser.add_argument("--limit", type=int, default=None, help="Maximum files to process.")
     args = parser.parse_args()
 
-    if args.folder:
+    if args.file:
+        single_file = Path(args.file.strip('"'))
+        if not single_file.is_absolute():
+            single_file = MAIN_FOLDER / args.file
+        if not single_file.exists() or not single_file.is_file():
+            raise RuntimeError(f"File does not exist: {single_file}")
+        files = [single_file]
+        folder = single_file.parent
+    elif args.folder:
         folder = Path(args.folder.strip('"'))
         if not folder.is_absolute():
             folder = MAIN_FOLDER / args.folder
@@ -427,26 +514,27 @@ def main():
     if not folder.exists() or not folder.is_dir():
         raise RuntimeError(f"Folder does not exist: {folder}")
 
-    files = [
-        file for file in sorted(folder.iterdir())
-        if file.is_file()
-        and file.suffix.lower() in SUPPORTED_TEXT_EXTS
-        and not file.name.lower().startswith("readme")
-    ]
-    if args.limit:
-        files = files[:args.limit]
+        files = [
+            file for file in sorted(folder.iterdir())
+            if file.is_file()
+            and file.suffix.lower() in SUPPORTED_TEXT_EXTS
+            and not file.name.lower().startswith("readme")
+        ]
+        if args.limit:
+            files = files[:args.limit]
 
     if not files:
         print(f"No content files found in {folder}")
         return
 
     print(f"Selected folder: {folder}")
+    print(f"Provider: {args.provider}")
     print(f"Processing {len(files)} file(s).\n")
 
     messages = []
     for file in files:
         try:
-            messages.append(process_file(file, overwrite=args.overwrite, dry_run=args.dry_run))
+            messages.append(process_file(file, overwrite=args.overwrite, dry_run=args.dry_run, provider=args.provider))
         except Exception as exc:
             messages.append(f"ERROR {file.name}: {exc}")
 
