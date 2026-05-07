@@ -22,6 +22,18 @@ const escapeHtml = (value = "") =>
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
+function todayUtcDate() {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = String(now.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(now.getUTCDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function isPublishedPost(post, today = todayUtcDate()) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(post.date) && post.date <= today;
+}
+
 function parseFaqField(value = "") {
   const cleaned = String(value).trim().replace(/^['"]|['"]$/g, "");
   if (!cleaned) return [];
@@ -268,10 +280,11 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [posts, products] = await Promise.all([
+  const [allPosts, products] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse)
   ]);
+  const posts = allPosts.filter((post) => isPublishedPost(post));
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
 

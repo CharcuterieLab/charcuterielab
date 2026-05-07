@@ -256,9 +256,6 @@ def stage_post(post_path, all_files):
         return None, f"Skipped {post_path.name}: filename must start DDMMYYYY_", []
 
     publish_date, raw_name = parsed
-    if publish_date > date.today():
-        return None, f"Waiting {post_path.name}: publish date is {publish_date.isoformat()}", []
-
     slug = slugify(content_slug(raw_name))
     if post_path.suffix.lower() == ".docx":
         try:
@@ -284,7 +281,11 @@ def stage_post(post_path, all_files):
 
     target = BLOG_DIR / f"{slug}.md"
     target.write_text(write_frontmatter(data, body), encoding="utf-8")
-    return target, f"Staged {target.relative_to(REPO)}", completed_files
+    if publish_date > date.today():
+        status = f"Staged future post {target.relative_to(REPO)} for {publish_date.isoformat()}"
+    else:
+        status = f"Staged {target.relative_to(REPO)}"
+    return target, status, completed_files
 
 
 def push_changes():
@@ -376,7 +377,7 @@ def main():
         if moved:
             messages.append(f"Moved completed queue files to {PUBLISHED_DIR}: {', '.join(moved)}")
     else:
-        messages.append("No due posts found.")
+        messages.append("No queue posts found.")
 
     print("\n".join(messages))
 
