@@ -137,7 +137,7 @@ def load_text(path, fallback_title):
             body.append("")
             continue
 
-        pair = re.match(r"^(title|description|link|board_id|alt_text):\s*(.+)$", clean, re.I)
+        pair = re.match(r"^(title|description|link|board_id|alt_text|image_url):\s*(.+)$", clean, re.I)
         if pair:
             data[pair.group(1).lower()] = pair.group(2).strip()
         else:
