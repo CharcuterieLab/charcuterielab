@@ -23,6 +23,7 @@ INBOX = Path(r"C:\Users\thill\OneDrive\Desktop\Charcuterie Lab\AAAPinterestPosts
 REPO = Path(__file__).resolve().parents[1]
 SITE = REPO / "charcuterielab"
 SOCIAL_IMAGE_DIR = SITE / "public" / "images" / "social"
+ROOT_SOCIAL_IMAGE_DIR = REPO / "public" / "images" / "social"
 POSTED_DIR = INBOX / "_posted"
 FAILED_DIR = INBOX / "_failed"
 API_BASE = "https://api.pinterest.com/v5"
@@ -383,20 +384,22 @@ def public_image_name(item):
 
 def stage_public_images(items):
     SOCIAL_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+    ROOT_SOCIAL_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     staged = []
     for item in items:
         if not item["image"]:
             continue
-        destination = SOCIAL_IMAGE_DIR / public_image_name(item)
-        shutil.copy2(item["image"], destination)
-        staged.append(destination)
+        for directory in (SOCIAL_IMAGE_DIR, ROOT_SOCIAL_IMAGE_DIR):
+            destination = directory / public_image_name(item)
+            shutil.copy2(item["image"], destination)
+            staged.append(destination)
 
     if not staged:
         return "No local images needed public hosting."
 
     run(["git", "pull", "--ff-only", "origin", "main"])
-    run(["git", "add", "charcuterielab/public/images/social"])
-    status = run(["git", "status", "--short", "--", "charcuterielab/public/images/social"]).strip()
+    run(["git", "add", "charcuterielab/public/images/social", "public/images/social"])
+    status = run(["git", "status", "--short", "--", "charcuterielab/public/images/social", "public/images/social"]).strip()
     if not status:
         return "Public social images already up to date."
 
@@ -416,7 +419,7 @@ def buffer_text(data):
 def buffer_image_url(item, data):
     if data["image_url"]:
         return data["image_url"]
-    return f"{SITE_URL}/images/social/{public_image_name(item)}"
+    return f"https://raw.githubusercontent.com/CharcuterieLab/charcuterielab/main/public/images/social/{public_image_name(item)}"
 
 
 def public_image_ready(url):
