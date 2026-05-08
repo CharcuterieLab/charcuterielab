@@ -89,9 +89,7 @@ A great charcuterie board isn't only a collection of good ingredients. It's a de
 
 When these elements are present and positioned thoughtfully, the board becomes greater than the sum of its parts. Every bite combination a guest discovers on their own is a small moment of delight that they'll associate with the host who built it.
 
-> **Charcuterie Lab is built around the science of why these combinations work.**
-> The book — *50 Boards Built by Science* — applies these principles to 50 complete board recipes. [Link to pre-sale page.]
-> Get weekly pairing science and board guides in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
+Charcuterie Lab is built around the science of why these combinations work. If you want more practical examples, the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com) sends pairing science and board-building ideas you can use on your next spread.
 
 
 ## Related Reading

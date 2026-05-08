@@ -775,6 +775,20 @@ a {
   text-transform: uppercase;
 }
 
+.post-inline-related {
+  margin: 34px 0 30px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(202, 166, 82, 0.45);
+  color: var(--green-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.62;
+}
+
+.post-inline-related strong {
+  color: var(--green-deep);
+}
+
 .post-body hr {
   width: 90px;
   height: 2px;

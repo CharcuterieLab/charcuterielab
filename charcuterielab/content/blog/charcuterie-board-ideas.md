@@ -165,7 +165,7 @@ Any board concept above can be scaled (multiply the quantities), simplified (dro
 
 ---
 
-*For more: see our [how many cheeses guide]([TO ADD]) and [wine and charcuterie pairing post]([TO ADD]). Sign up for the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly board ideas and technique breakdowns.*
+For more structure, use the [how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/) alongside the [wine and charcuterie pairing guide](https://charcuterielab.com/blog/wine-charcuterie-pairing/). For weekly board ideas and technique breakdowns, join the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com).
 
 
 ## Related Reading

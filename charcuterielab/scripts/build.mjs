@@ -207,11 +207,29 @@ function markdownToHtml(markdown) {
   const html = [];
   let i = 0;
 
+  const normalizeLink = (href = "") => {
+    if (!/^https:\/\/charcuterielab\.com\/(?!blog\/?)/i.test(href)) return href;
+    return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
+  };
+
   const inline = (value = "") =>
     escapeHtml(value)
-      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, (_, text, href) => `<a href="${normalizeLink(href)}" target="_blank" rel="noopener">${text}</a>`)
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+  const relatedSentence = (items) => {
+    const links = items
+      .map((item) => item.match(/^\[(.+?)\]\((https?:\/\/[^\s)]+)\)$/))
+      .filter(Boolean)
+      .map((match) => `<a href="${normalizeLink(match[2])}" target="_blank" rel="noopener">${inline(match[1])}</a>`);
+
+    if (!links.length) return "";
+    const joined = links.length === 1
+      ? links[0]
+      : `${links.slice(0, -1).join(", ")}${links.length > 2 ? "," : ""} and ${links.at(-1)}`;
+    return `<p class="post-inline-related"><strong>Keep going:</strong> ${joined} are useful next reads if you want to turn this idea into a better board.</p>`;
+  };
 
   const isBlockStart = (line = "") =>
     /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
@@ -238,6 +256,18 @@ function markdownToHtml(markdown) {
     const heading = line.match(/^(#{1,3})\s+(.+)$/);
     if (heading) {
       const level = heading[1].length;
+      if (level === 2 && /^related reading$/i.test(heading[2].trim())) {
+        i += 1;
+        while (i < lines.length && !lines[i].trim()) i += 1;
+        const items = [];
+        while (i < lines.length && lines[i].trim().startsWith("- ")) {
+          items.push(lines[i].trim().slice(2));
+          i += 1;
+        }
+        const sentence = relatedSentence(items);
+        if (sentence) html.push(sentence);
+        continue;
+      }
       html.push(`<h${level}>${inline(heading[2])}</h${level}>`);
       i += 1;
       continue;
