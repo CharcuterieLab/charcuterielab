@@ -8,6 +8,7 @@ $ScriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PinterestScript = Join-Path $ScriptRoot "run_pinterest_buffer_planner.ps1"
 $InstagramScript = Join-Path $ScriptRoot "run_instagram_buffer_planner.ps1"
 $FacebookScript = Join-Path $ScriptRoot "run_facebook_buffer_planner.ps1"
+$RedditScript = Join-Path $ScriptRoot "run_reddit_daily_review.ps1"
 
 if (-not (Test-Path -LiteralPath $PinterestScript)) {
     throw "Pinterest planner script not found: $PinterestScript"
@@ -17,6 +18,9 @@ if (-not (Test-Path -LiteralPath $InstagramScript)) {
 }
 if (-not (Test-Path -LiteralPath $FacebookScript)) {
     throw "Facebook planner script not found: $FacebookScript"
+}
+if (-not (Test-Path -LiteralPath $RedditScript)) {
+    throw "Reddit report script not found: $RedditScript"
 }
 
 if ($SmokeTest) {
@@ -32,8 +36,8 @@ Add-Type -AssemblyName System.Drawing
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "Charcuterie Lab Social Scheduler"
 $form.StartPosition = "CenterScreen"
-$form.Size = New-Object System.Drawing.Size(430, 310)
-$form.MinimumSize = New-Object System.Drawing.Size(430, 310)
+$form.Size = New-Object System.Drawing.Size(430, 366)
+$form.MinimumSize = New-Object System.Drawing.Size(430, 366)
 $form.BackColor = [System.Drawing.Color]::FromArgb(255, 247, 236)
 $form.Font = New-Object System.Drawing.Font("Segoe UI", 10)
 
@@ -46,7 +50,7 @@ $title.Location = New-Object System.Drawing.Point(24, 22)
 $form.Controls.Add($title)
 
 $subtitle = New-Object System.Windows.Forms.Label
-$subtitle.Text = "Choose a channel to preview and schedule queued posts."
+$subtitle.Text = "Choose a channel to schedule posts or run a daily report."
 $subtitle.ForeColor = [System.Drawing.Color]::FromArgb(70, 58, 45)
 $subtitle.AutoSize = $true
 $subtitle.Location = New-Object System.Drawing.Point(27, 58)
@@ -91,10 +95,16 @@ $facebookButton.Add_Click({
 })
 $form.Controls.Add($facebookButton)
 
+$redditButton = New-Button "Reddit 24-Hour Report" 254
+$redditButton.Add_Click({
+    Start-Planner $RedditScript
+})
+$form.Controls.Add($redditButton)
+
 $closeButton = New-Object System.Windows.Forms.Button
 $closeButton.Text = "Close"
 $closeButton.Size = New-Object System.Drawing.Size(90, 30)
-$closeButton.Location = New-Object System.Drawing.Point(298, 244)
+$closeButton.Location = New-Object System.Drawing.Point(298, 300)
 $closeButton.Add_Click({ $form.Close() })
 $form.Controls.Add($closeButton)
 
