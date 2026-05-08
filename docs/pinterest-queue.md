@@ -94,7 +94,8 @@ Example:
 Image_02052026_pinterest1_salami.png
 ```
 
-That file will be scheduled in Buffer for May 2, 2026. If multiple pins have the same date, the app spaces them into daily slots.
+That file will be scheduled in Buffer for May 2, 2026. If multiple pins have the same date, the app spaces them into hourly daily slots.
+The app also keeps a small local schedule log, so if you schedule another pin for a date that already has an 8:00 AM script-scheduled pin, the next pin starts at the next open hourly slot.
 
 The preferred image naming format is an exact mirror of the Markdown filename with `Image_` in front:
 
@@ -105,16 +106,16 @@ Image_02052026_pinterest1_salami.png
 
 This is the first match the app looks for. Older image names like `Image_Salami1.png` are still supported as a fallback.
 
-Default daily time slots are:
+Default daily time slots are hourly, starting at 8:00 AM:
 
 ```text
-8:00 AM, 10:00 AM, 12:00 PM, 2:00 PM, 4:00 PM, 6:00 PM, 8:00 PM, 9:00 AM, 11:00 AM, 1:00 PM
+8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM, 4:00 PM, 5:00 PM
 ```
 
 To customize the slots:
 
 ```powershell
-setx BUFFER_PINTEREST_TIME_SLOTS "08:00,10:00,12:00,14:00,16:00,18:00,20:00"
+setx BUFFER_PINTEREST_TIME_SLOTS "08:00,09:00,10:00,11:00,12:00,13:00"
 ```
 
 Successful Buffer-scheduled files move into `_posted`.

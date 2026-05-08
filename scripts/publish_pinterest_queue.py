@@ -26,6 +26,7 @@ SOCIAL_IMAGE_DIR = SITE / "public" / "images" / "social"
 ROOT_SOCIAL_IMAGE_DIR = REPO / "public" / "images" / "social"
 POSTED_DIR = INBOX / "_posted"
 FAILED_DIR = INBOX / "_failed"
+BUFFER_SCHEDULE_LOG = INBOX / "_buffer_schedule_log.json"
 API_BASE = "https://api.pinterest.com/v5"
 BUFFER_API_BASE = "https://api.buffer.com"
 SITE_URL = "https://charcuterielab.com"
@@ -34,15 +35,15 @@ DEFAULT_BUFFER_PINTEREST_BOARD_SERVICE_ID = "1083538060288692914"
 DEFAULT_TIMEZONE = "America/Chicago"
 DEFAULT_BUFFER_TIME_SLOTS = [
     "08:00",
-    "10:00",
-    "12:00",
-    "14:00",
-    "16:00",
-    "18:00",
-    "20:00",
     "09:00",
+    "10:00",
     "11:00",
+    "12:00",
     "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
 ]
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 DEFAULT_DAILY_LIMIT = 10
@@ -475,11 +476,56 @@ def buffer_time_slots():
 
 def buffer_due_at(item, index_for_date):
     slots = buffer_time_slots()
-    slot = slots[index_for_date % len(slots)]
+    if index_for_date < len(slots):
+        slot = slots[index_for_date]
+    else:
+        last_hour, last_minute = [int(part) for part in slots[-1].split(":", 1)]
+        overflow_hour = min(23, last_hour + (index_for_date - len(slots) + 1))
+        slot = f"{overflow_hour:02d}:{last_minute:02d}"
     hour, minute = [int(part) for part in slot.split(":", 1)]
     tz = ZoneInfo(get_user_env("BUFFER_PINTEREST_TIMEZONE") or DEFAULT_TIMEZONE)
     local_dt = datetime.combine(item["date"], datetime_time(hour, minute), tzinfo=tz)
     return local_dt.astimezone(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z")
+
+
+def load_buffer_schedule_log():
+    if not BUFFER_SCHEDULE_LOG.exists():
+        return {}
+    try:
+        with BUFFER_SCHEDULE_LOG.open("r", encoding="utf-8-sig") as handle:
+            data = json.load(handle)
+            return data if isinstance(data, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_buffer_schedule_log(log):
+    BUFFER_SCHEDULE_LOG.parent.mkdir(parents=True, exist_ok=True)
+    with BUFFER_SCHEDULE_LOG.open("w", encoding="utf-8") as handle:
+        json.dump(log, handle, indent=2, sort_keys=True)
+
+
+def logged_schedule_count(log, publish_date):
+    entries = log.get(publish_date.isoformat(), [])
+    if isinstance(entries, list):
+        return len(entries)
+    if isinstance(entries, dict):
+        return 1
+    return 0
+
+
+def record_buffer_schedule(log, item, due_at, post_id):
+    key = item["date"].isoformat()
+    entries = log.setdefault(key, [])
+    if not isinstance(entries, list):
+        entries = []
+        log[key] = entries
+    entries.append({
+        "file": item["path"].name,
+        "due_at": due_at,
+        "post_id": post_id,
+        "recorded_at": datetime.now(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z"),
+    })
 
 
 def create_buffer_post(item, channel_id, token, due_at=None):
@@ -617,14 +663,16 @@ def main():
         wait_for_public_images(to_publish, messages)
 
     published = 0
+    buffer_schedule_log = load_buffer_schedule_log()
     scheduled_counts = {}
     for item in to_publish:
         if args.buffer:
             data = load_pin_data(item, require_board=False)
             due_at = None
             if args.schedule_all:
-                index_for_date = scheduled_counts.get(item["date"], 0)
-                scheduled_counts[item["date"]] = index_for_date + 1
+                current_run_count = scheduled_counts.get(item["date"], 0)
+                index_for_date = logged_schedule_count(buffer_schedule_log, item["date"]) + current_run_count
+                scheduled_counts[item["date"]] = current_run_count + 1
                 due_at = buffer_due_at(item, index_for_date)
 
             if args.dry_run:
@@ -635,6 +683,8 @@ def main():
                 continue
 
             post_id = create_buffer_post(item, buffer_channel_id, buffer_token, due_at)
+            if due_at:
+                record_buffer_schedule(buffer_schedule_log, item, due_at, post_id)
             published += 1
             schedule_note = f" for {due_at}" if due_at else ""
             messages.append(f"Queued {item['path'].name} in Buffer{schedule_note}: post {post_id}")
@@ -652,6 +702,9 @@ def main():
         messages.append(f"Published {item['path'].name}: pin {result.get('id', 'created')}")
         move_completed(item)
         time.sleep(2)
+
+    if args.buffer and not args.dry_run and scheduled_counts:
+        save_buffer_schedule_log(buffer_schedule_log)
 
     skipped = max(0, len(queue) - len(to_publish))
     if skipped:
