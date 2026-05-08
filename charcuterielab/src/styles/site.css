@@ -935,13 +935,6 @@ a {
   line-height: 1.12;
 }
 
-.related-card small {
-  padding: 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.42;
-}
-
 .related-card strong {
   padding: 0 8px 0 0;
   color: var(--gold-dark);

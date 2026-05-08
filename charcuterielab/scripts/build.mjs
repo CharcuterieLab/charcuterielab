@@ -721,7 +721,6 @@ function relatedReading(relatedPosts) {
       ${relatedPosts.map((related) => `<a class="related-card" href="/blog/${related.slug}/">
         <img src="${escapeHtml(related.image)}" alt="">
         <span>${escapeHtml(related.title)}</span>
-        <small>${escapeHtml(related.excerpt || "More pairing science from Charcuterie Lab.")}</small>
         <strong>Read next</strong>
       </a>`).join("\n")}
     </div>
