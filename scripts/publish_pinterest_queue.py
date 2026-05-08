@@ -505,13 +505,33 @@ def save_buffer_schedule_log(log):
         json.dump(log, handle, indent=2, sort_keys=True)
 
 
-def logged_schedule_count(log, publish_date):
-    entries = log.get(publish_date.isoformat(), [])
-    if isinstance(entries, list):
-        return len(entries)
-    if isinstance(entries, dict):
-        return 1
-    return 0
+def slot_from_due_at(due_at, timezone_name=None):
+    if not due_at:
+        return None, None
+    tz = ZoneInfo(timezone_name or get_user_env("BUFFER_PINTEREST_TIMEZONE") or DEFAULT_TIMEZONE)
+    try:
+        scheduled = datetime.fromisoformat(due_at.replace("Z", "+00:00")).astimezone(tz)
+    except ValueError:
+        return None, None
+    return scheduled.date().isoformat(), f"{scheduled.hour:02d}:{scheduled.minute:02d}"
+
+
+def logged_schedule_slots(log):
+    slots = {}
+    for key, entries in log.items():
+        if isinstance(entries, dict):
+            entries = [entries]
+        if not isinstance(entries, list):
+            continue
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            date_key, slot = slot_from_due_at(entry.get("due_at"))
+            if date_key and slot:
+                slots.setdefault(date_key, set()).add(slot)
+            elif key:
+                slots.setdefault(key, set())
+    return slots
 
 
 def record_buffer_schedule(log, item, due_at, post_id):
@@ -526,6 +546,123 @@ def record_buffer_schedule(log, item, due_at, post_id):
         "post_id": post_id,
         "recorded_at": datetime.now(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z"),
     })
+
+
+def buffer_organization_id(token):
+    configured = get_user_env("BUFFER_ORGANIZATION_ID")
+    if configured:
+        return configured
+
+    query = """
+    query GetOrganizations {
+      account {
+        organizations {
+          id
+          name
+        }
+      }
+    }
+    """
+    result = graphql_request(query, token)
+    organizations = ((result.get("account") or {}).get("organizations") or [])
+    if not organizations:
+        raise RuntimeError("Buffer account did not return any organizations. Set BUFFER_ORGANIZATION_ID manually.")
+    return organizations[0]["id"]
+
+
+def buffer_existing_scheduled_slots(channel_id, token):
+    organization_id = buffer_organization_id(token)
+    query = """
+    query GetScheduledPosts($organizationId: OrganizationId!, $channelId: ChannelId!, $after: String) {
+      posts(
+        first: 100,
+        after: $after,
+        input: {
+          organizationId: $organizationId,
+          sort: [{ field: dueAt, direction: asc }, { field: createdAt, direction: desc }],
+          filter: { status: [scheduled], channelIds: [$channelId] }
+        }
+      ) {
+        edges {
+          node {
+            id
+            dueAt
+            channelId
+          }
+        }
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+      }
+    }
+    """
+    tz = ZoneInfo(get_user_env("BUFFER_PINTEREST_TIMEZONE") or DEFAULT_TIMEZONE)
+    slots = {}
+    after = None
+
+    while True:
+        result = graphql_request(query, token, {
+            "organizationId": organization_id,
+            "channelId": channel_id,
+            "after": after,
+        })
+        posts = result.get("posts") or {}
+        for edge in posts.get("edges") or []:
+            node = edge.get("node") or {}
+            due_at = node.get("dueAt")
+            if not due_at:
+                continue
+            key, slot = slot_from_due_at(due_at, str(tz))
+            if key and slot:
+                slots.setdefault(key, set()).add(slot)
+
+        page_info = posts.get("pageInfo") or {}
+        if not page_info.get("hasNextPage"):
+            break
+        after = page_info.get("endCursor")
+        if not after:
+            break
+
+    return slots
+
+
+def next_buffer_due_at(item, occupied_slots):
+    slots = buffer_time_slots()
+    date_key = item["date"].isoformat()
+    occupied = occupied_slots.setdefault(date_key, set())
+
+    chosen = None
+    if occupied:
+        latest = max(occupied)
+        latest_hour, latest_minute = [int(part) for part in latest.split(":", 1)]
+        for hour in range(latest_hour + 1, 24):
+            candidate = f"{hour:02d}:{latest_minute:02d}"
+            if candidate not in occupied:
+                chosen = candidate
+                break
+    else:
+        for slot in slots:
+            if slot not in occupied:
+                chosen = slot
+                break
+
+    if chosen is None:
+        last_hour, last_minute = [int(part) for part in slots[-1].split(":", 1)]
+        for hour in range(last_hour + 1, 24):
+            candidate = f"{hour:02d}:{last_minute:02d}"
+            if candidate not in occupied:
+                chosen = candidate
+                break
+
+    if chosen is None:
+        chosen = slots[-1]
+
+    occupied.add(chosen)
+    hour, minute = [int(part) for part in chosen.split(":", 1)]
+    tz = ZoneInfo(get_user_env("BUFFER_PINTEREST_TIMEZONE") or DEFAULT_TIMEZONE)
+    local_dt = datetime.combine(item["date"], datetime_time(hour, minute), tzinfo=tz)
+    return local_dt.astimezone(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z")
 
 
 def create_buffer_post(item, channel_id, token, due_at=None):
@@ -664,16 +801,25 @@ def main():
 
     published = 0
     buffer_schedule_log = load_buffer_schedule_log()
-    scheduled_counts = {}
+    buffer_occupied_slots = {}
+    if args.buffer and args.schedule_all and buffer_token and buffer_channel_id:
+        try:
+            buffer_occupied_slots = buffer_existing_scheduled_slots(buffer_channel_id, buffer_token)
+            existing_total = sum(len(value) for value in buffer_occupied_slots.values())
+            if existing_total:
+                messages.append(f"Found {existing_total} occupied Pinterest time slot(s) in Buffer; appending one hour after the latest post on each day.")
+        except Exception as exc:
+            messages.append(f"Warning: could not read existing Buffer schedule; using local schedule log only. {exc}")
+            buffer_occupied_slots = logged_schedule_slots(buffer_schedule_log)
+
+    scheduled_any = False
     for item in to_publish:
         if args.buffer:
             data = load_pin_data(item, require_board=False)
             due_at = None
             if args.schedule_all:
-                current_run_count = scheduled_counts.get(item["date"], 0)
-                index_for_date = logged_schedule_count(buffer_schedule_log, item["date"]) + current_run_count
-                scheduled_counts[item["date"]] = current_run_count + 1
-                due_at = buffer_due_at(item, index_for_date)
+                due_at = next_buffer_due_at(item, buffer_occupied_slots)
+                scheduled_any = True
 
             if args.dry_run:
                 schedule_note = f" for {due_at}" if due_at else ""
@@ -703,7 +849,7 @@ def main():
         move_completed(item)
         time.sleep(2)
 
-    if args.buffer and not args.dry_run and scheduled_counts:
+    if args.buffer and not args.dry_run and scheduled_any:
         save_buffer_schedule_log(buffer_schedule_log)
 
     skipped = max(0, len(queue) - len(to_publish))

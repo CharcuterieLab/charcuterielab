@@ -95,7 +95,7 @@ Image_02052026_pinterest1_salami.png
 ```
 
 That file will be scheduled in Buffer for May 2, 2026. If multiple pins have the same date, the app spaces them into hourly daily slots.
-The app also keeps a small local schedule log, so if you schedule another pin for a date that already has an 8:00 AM script-scheduled pin, the next pin starts at the next open hourly slot.
+The app checks the existing Buffer schedule first. If that date already has Pinterest posts scheduled, new pins are appended one hour after the latest scheduled post for that day.
 
 The preferred image naming format is an exact mirror of the Markdown filename with `Image_` in front:
 
