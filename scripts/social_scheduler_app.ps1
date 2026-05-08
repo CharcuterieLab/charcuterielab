@@ -6,9 +6,17 @@ $ErrorActionPreference = "Stop"
 
 $ScriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PinterestScript = Join-Path $ScriptRoot "run_pinterest_buffer_planner.ps1"
+$InstagramScript = Join-Path $ScriptRoot "run_instagram_buffer_planner.ps1"
+$FacebookScript = Join-Path $ScriptRoot "run_facebook_buffer_planner.ps1"
 
 if (-not (Test-Path -LiteralPath $PinterestScript)) {
     throw "Pinterest planner script not found: $PinterestScript"
+}
+if (-not (Test-Path -LiteralPath $InstagramScript)) {
+    throw "Instagram planner script not found: $InstagramScript"
+}
+if (-not (Test-Path -LiteralPath $FacebookScript)) {
+    throw "Facebook planner script not found: $FacebookScript"
 }
 
 if ($SmokeTest) {
@@ -44,42 +52,43 @@ $subtitle.AutoSize = $true
 $subtitle.Location = New-Object System.Drawing.Point(27, 58)
 $form.Controls.Add($subtitle)
 
-function New-Button($text, $top, $enabled = $true) {
+function New-Button($text, $top) {
     $button = New-Object System.Windows.Forms.Button
     $button.Text = $text
     $button.Size = New-Object System.Drawing.Size(360, 42)
     $button.Location = New-Object System.Drawing.Point(28, $top)
-    $button.Enabled = $enabled
     $button.FlatStyle = "Flat"
-    $button.BackColor = if ($enabled) {
-        [System.Drawing.Color]::FromArgb(20, 61, 43)
-    } else {
-        [System.Drawing.Color]::FromArgb(210, 204, 194)
-    }
-    $button.ForeColor = if ($enabled) {
-        [System.Drawing.Color]::White
-    } else {
-        [System.Drawing.Color]::FromArgb(90, 84, 78)
-    }
+    $button.BackColor = [System.Drawing.Color]::FromArgb(20, 61, 43)
+    $button.ForeColor = [System.Drawing.Color]::White
     $button.Font = New-Object System.Drawing.Font("Segoe UI", 10, [System.Drawing.FontStyle]::Bold)
     return $button
 }
 
-$pinterestButton = New-Button "Pinterest -> Buffer Scheduler" 98 $true
-$pinterestButton.Add_Click({
+function Start-Planner($PlannerScript) {
     Start-Process powershell.exe -ArgumentList @(
         "-NoProfile",
         "-ExecutionPolicy", "Bypass",
         "-NoExit",
-        "-File", "`"$PinterestScript`""
+        "-File", "`"$PlannerScript`""
     ) -WorkingDirectory $ScriptRoot
+}
+
+$pinterestButton = New-Button "Pinterest -> Buffer Scheduler" 98
+$pinterestButton.Add_Click({
+    Start-Planner $PinterestScript
 })
 $form.Controls.Add($pinterestButton)
 
-$instagramButton = New-Button "Instagram Scheduler - coming soon" 150 $false
+$instagramButton = New-Button "Instagram -> Buffer Scheduler" 150
+$instagramButton.Add_Click({
+    Start-Planner $InstagramScript
+})
 $form.Controls.Add($instagramButton)
 
-$facebookButton = New-Button "Facebook Scheduler - coming soon" 202 $false
+$facebookButton = New-Button "Facebook -> Buffer Scheduler" 202
+$facebookButton.Add_Click({
+    Start-Planner $FacebookScript
+})
 $form.Controls.Add($facebookButton)
 
 $closeButton = New-Object System.Windows.Forms.Button
