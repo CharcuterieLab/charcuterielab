@@ -109,9 +109,9 @@ Divide total quantity roughly equally across the meats you've selected — more 
 
 ## Related Reading
 
-- [Prosciutto: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/prosciutto)
-- [Salami: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/salami)
-- [Ibérico Ham on a Charcuterie Board: Bellota, Acorn Fat, and Why It Melts Differently](https://charcuterielab.com/iberico)
+- [How to Make a Prosciutto Rose](https://charcuterielab.com/blog/prosciutto-rose/)
+- [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
+- [Bresaola: The Lean Beef That Brings Elegance to Any Board](https://charcuterielab.com/blog/bresaola/)
 
 ## FAQ
 

@@ -95,7 +95,7 @@ Charcuterie Lab is built around the science of why these combinations work. If y
 ## Related Reading
 
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/what-goes-on-charcuterie-board)
-- [Fermentation Science in Salami: Why the pH Drop Is the Safety Mechanism](https://charcuterielab.com/fermentation-salami)
+- [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
 - [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
 
 ## FAQ

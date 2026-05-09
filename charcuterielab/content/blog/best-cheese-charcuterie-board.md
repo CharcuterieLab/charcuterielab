@@ -98,9 +98,9 @@ Blue or otherwise bold cheese is not essential, but it provides the most flavor 
 
 ## Related Reading
 
-- [Brie: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/brie)
-- [Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)](https://charcuterielab.com/aged-cheddar)
-- [Manchego: The Sheep's Milk Cheese That Explains Why Milk Source Matters](https://charcuterielab.com/manchego)
+- [How Many Cheeses Should Be on a Charcuterie Board?](https://charcuterielab.com/blog/how-many-cheeses/)
+- [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
+- [Manchego: Spain's Most Board-Ready Cheese](https://charcuterielab.com/blog/manchego/)
 
 ## FAQ
 

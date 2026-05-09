@@ -80,7 +80,7 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/best-cheese-charcuterie-board)
 - [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
-- [Why Texture Contrast Matters on a Charcuterie Board: Sensory-Specific Satiety and the Crunch-Cream-Firm Framework](https://charcuterielab.com/texture-contrast)
+- [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 
 ## FAQ
 

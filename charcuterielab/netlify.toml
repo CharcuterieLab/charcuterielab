@@ -125,6 +125,91 @@
   to = "/blog/charcuterie-board-ideas/"
   status = 301
 
+[[redirects]]
+  from = "/aged-cheddar"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/aged-cheddar"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/brie"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/brie"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/fermentation-salami"
+  to = "/blog/salami-vs-pepperoni/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/fermentation-salami"
+  to = "/blog/salami-vs-pepperoni/"
+  status = 301
+
+[[redirects]]
+  from = "/iberico"
+  to = "/blog/best-meats-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/iberico"
+  to = "/blog/best-meats-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/prosciutto"
+  to = "/blog/prosciutto-rose/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/prosciutto"
+  to = "/blog/prosciutto-rose/"
+  status = 301
+
+[[redirects]]
+  from = "/salami"
+  to = "/blog/salami-vs-pepperoni/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/salami"
+  to = "/blog/salami-vs-pepperoni/"
+  status = 301
+
+[[redirects]]
+  from = "/texture-contrast"
+  to = "/blog/what-goes-on-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/texture-contrast"
+  to = "/blog/what-goes-on-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/wine-charcuterie-pairing"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wine-charcuterie-pairing"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wine-charcuterie-pairing/"
+  to = "/blog/wine-only/"
+  status = 301
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
