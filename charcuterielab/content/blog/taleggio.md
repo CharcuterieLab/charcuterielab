@@ -2,7 +2,7 @@
 title: "Taleggio"
 date: "2026-05-06"
 image: "/images/taleggio.png"
-excerpt: "Taleggio on a Charcuterie Board"
+excerpt: "Learn how to serve Taleggio on a charcuterie board, including the best meats, fruits, breads, and wines to balance its washed-rind aroma."
 faq: [{"question":"What is Taleggio cheese?","answer":"Taleggio is a soft Italian washed-rind cheese with a pungent rind and a mild, buttery paste."},{"question":"Do you eat the rind on Taleggio?","answer":"The rind is edible, but it is strong; for mixed boards, serve some pieces with the rind trimmed."},{"question":"What pairs well with Taleggio on a charcuterie board?","answer":"Prosciutto, bresaola, pear, dark honey, grissini, and lower-tannin reds like Dolcetto all work well with Taleggio."}]
 ---
 
