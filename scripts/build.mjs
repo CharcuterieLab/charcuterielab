@@ -139,6 +139,7 @@ function layout({ title, description, body, head = "" }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
+  <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
 ${head}
 </head>

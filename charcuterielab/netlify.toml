@@ -5,6 +5,126 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "/best-cheese-charcuterie-board"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/best-cheese-charcuterie-board/"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/best-meats-charcuterie-board"
+  to = "/blog/best-meats-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/best-meats-charcuterie-board/"
+  to = "/blog/best-meats-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/how-many-cheeses"
+  to = "/blog/how-many-cheeses/"
+  status = 301
+
+[[redirects]]
+  from = "/how-many-cheeses/"
+  to = "/blog/how-many-cheeses/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-for-two"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-for-two"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-for-two/"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/temperature-guide"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/temperature-guide"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/temperature-guide/"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/grazing-table"
+  to = "/blog/charcuterie-board-serving-size/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/grazing-table"
+  to = "/blog/charcuterie-board-serving-size/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/grazing-table/"
+  to = "/blog/charcuterie-board-serving-size/"
+  status = 301
+
+[[redirects]]
+  from = "/build-sequence"
+  to = "/blog/easy-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/build-sequence"
+  to = "/blog/easy-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/build-sequence/"
+  to = "/blog/easy-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/wine-cheese-board"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wine-cheese-board"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wine-cheese-board/"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/board-shapes"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/board-shapes"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/board-shapes/"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
