@@ -202,7 +202,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
   return related;
 }
 
-function markdownToHtml(markdown) {
+function markdownToHtml(markdown, publishedSlugs = new Set()) {
   const lines = markdown.trim().split(/\r?\n/);
   const html = [];
   let i = 0;
@@ -210,6 +210,18 @@ function markdownToHtml(markdown) {
   const normalizeLink = (href = "") => {
     if (!/^https:\/\/charcuterielab\.com\/(?!blog\/?)/i.test(href)) return href;
     return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
+  };
+
+  const blogSlugFromHref = (href = "") => {
+    const normalized = normalizeLink(href);
+    const match = normalized.match(/^https:\/\/charcuterielab\.com\/blog\/([^/?#]+)\/?/i);
+    return match ? match[1] : "";
+  };
+
+  const isPublishedInternalLink = (href = "") => {
+    if (!/^https:\/\/charcuterielab\.com\//i.test(href)) return true;
+    const slug = blogSlugFromHref(href);
+    return Boolean(slug && publishedSlugs.has(slug));
   };
 
   const inline = (value = "") =>
@@ -222,6 +234,7 @@ function markdownToHtml(markdown) {
     const links = items
       .map((item) => item.match(/^\[(.+?)\]\((https?:\/\/[^\s)]+)\)$/))
       .filter(Boolean)
+      .filter((match) => isPublishedInternalLink(match[2]))
       .map((match) => `<a href="${normalizeLink(match[2])}" target="_blank" rel="noopener">${inline(match[1])}</a>`);
 
     if (!links.length) return "";
@@ -354,7 +367,7 @@ async function loadPosts() {
         tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
         relatedSlugs: parseListField(data.related).map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, "")),
         faq: parseFaqField(data.faq),
-        html: markdownToHtml(body)
+        body
       };
     })
   );
@@ -818,6 +831,10 @@ async function build() {
     readFile(paths.products, "utf8").then(JSON.parse)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
+  const publishedSlugs = new Set(posts.map((post) => post.slug));
+  posts.forEach((post) => {
+    post.html = markdownToHtml(post.body, publishedSlugs);
+  });
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
   await writeFile(join(dist, "sitemap.xml"), sitemap(posts));
