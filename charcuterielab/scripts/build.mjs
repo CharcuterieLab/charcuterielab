@@ -31,6 +31,15 @@ const stopWords = new Set([
   "when", "where", "which", "with", "your"
 ]);
 
+const evergreenInlineRelated = [
+  ["What Goes on a Charcuterie Board?", "https://charcuterielab.com/blog/what-goes-on-charcuterie-board/"],
+  ["How Many Cheeses Should Be on a Charcuterie Board?", "https://charcuterielab.com/blog/how-many-cheeses/"],
+  ["The Best Cheese for a Charcuterie Board", "https://charcuterielab.com/blog/best-cheese-charcuterie-board/"],
+  ["The Best Meats for a Charcuterie Board", "https://charcuterielab.com/blog/best-meats-charcuterie-board/"],
+  ["How Much Charcuterie Per Person", "https://charcuterielab.com/blog/how-much-charcuterie-per-person/"],
+  ["Easy Charcuterie Board", "https://charcuterielab.com/blog/easy-charcuterie-board/"]
+];
+
 function todayInPublishZone() {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: publishTimeZone,
@@ -202,7 +211,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
   return related;
 }
 
-function markdownToHtml(markdown, publishedSlugs = new Set()) {
+function markdownToHtml(markdown, publishedSlugs = new Set(), currentSlug = "") {
   const lines = markdown.trim().split(/\r?\n/);
   const html = [];
   let i = 0;
@@ -231,11 +240,26 @@ function markdownToHtml(markdown, publishedSlugs = new Set()) {
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
   const relatedSentence = (items) => {
+    const usedSlugs = new Set([currentSlug].filter(Boolean));
     const links = items
       .map((item) => item.match(/^\[(.+?)\]\((https?:\/\/[^\s)]+)\)$/))
       .filter(Boolean)
       .filter((match) => isPublishedInternalLink(match[2]))
+      .filter((match) => {
+        const slug = blogSlugFromHref(match[2]);
+        if (slug && usedSlugs.has(slug)) return false;
+        if (slug) usedSlugs.add(slug);
+        return true;
+      })
       .map((match) => `<a href="${normalizeLink(match[2])}" target="_blank" rel="noopener">${inline(match[1])}</a>`);
+
+    for (const [text, href] of evergreenInlineRelated) {
+      if (links.length >= 2) break;
+      const slug = blogSlugFromHref(href);
+      if (!publishedSlugs.has(slug) || usedSlugs.has(slug)) continue;
+      usedSlugs.add(slug);
+      links.push(`<a href="${normalizeLink(href)}" target="_blank" rel="noopener">${inline(text)}</a>`);
+    }
 
     if (!links.length) return "";
     const joined = links.length === 1
@@ -833,7 +857,7 @@ async function build() {
   const posts = allPosts.filter((post) => isPublishedPost(post));
   const publishedSlugs = new Set(posts.map((post) => post.slug));
   posts.forEach((post) => {
-    post.html = markdownToHtml(post.body, publishedSlugs);
+    post.html = markdownToHtml(post.body, publishedSlugs, post.slug);
   });
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
