@@ -31,15 +31,6 @@ const stopWords = new Set([
   "when", "where", "which", "with", "your"
 ]);
 
-const evergreenInlineRelated = [
-  ["What Goes on a Charcuterie Board?", "https://charcuterielab.com/blog/what-goes-on-charcuterie-board/"],
-  ["How Many Cheeses Should Be on a Charcuterie Board?", "https://charcuterielab.com/blog/how-many-cheeses/"],
-  ["The Best Cheese for a Charcuterie Board", "https://charcuterielab.com/blog/best-cheese-charcuterie-board/"],
-  ["The Best Meats for a Charcuterie Board", "https://charcuterielab.com/blog/best-meats-charcuterie-board/"],
-  ["How Much Charcuterie Per Person", "https://charcuterielab.com/blog/how-much-charcuterie-per-person/"],
-  ["Easy Charcuterie Board", "https://charcuterielab.com/blog/easy-charcuterie-board/"]
-];
-
 function todayInPublishZone() {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: publishTimeZone,
@@ -211,7 +202,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
   return related;
 }
 
-function markdownToHtml(markdown, publishedSlugs = new Set(), currentSlug = "") {
+function markdownToHtml(markdown) {
   const lines = markdown.trim().split(/\r?\n/);
   const html = [];
   let i = 0;
@@ -221,52 +212,11 @@ function markdownToHtml(markdown, publishedSlugs = new Set(), currentSlug = "") 
     return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
   };
 
-  const blogSlugFromHref = (href = "") => {
-    const normalized = normalizeLink(href);
-    const match = normalized.match(/^https:\/\/charcuterielab\.com\/blog\/([^/?#]+)\/?/i);
-    return match ? match[1] : "";
-  };
-
-  const isPublishedInternalLink = (href = "") => {
-    if (!/^https:\/\/charcuterielab\.com\//i.test(href)) return true;
-    const slug = blogSlugFromHref(href);
-    return Boolean(slug && publishedSlugs.has(slug));
-  };
-
   const inline = (value = "") =>
     escapeHtml(value)
       .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, (_, text, href) => `<a href="${normalizeLink(href)}" target="_blank" rel="noopener">${text}</a>`)
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
-
-  const relatedSentence = (items) => {
-    const usedSlugs = new Set([currentSlug].filter(Boolean));
-    const links = items
-      .map((item) => item.match(/^\[(.+?)\]\((https?:\/\/[^\s)]+)\)$/))
-      .filter(Boolean)
-      .filter((match) => isPublishedInternalLink(match[2]))
-      .filter((match) => {
-        const slug = blogSlugFromHref(match[2]);
-        if (slug && usedSlugs.has(slug)) return false;
-        if (slug) usedSlugs.add(slug);
-        return true;
-      })
-      .map((match) => `<a href="${normalizeLink(match[2])}" target="_blank" rel="noopener">${inline(match[1])}</a>`);
-
-    for (const [text, href] of evergreenInlineRelated) {
-      if (links.length >= 2) break;
-      const slug = blogSlugFromHref(href);
-      if (!publishedSlugs.has(slug) || usedSlugs.has(slug)) continue;
-      usedSlugs.add(slug);
-      links.push(`<a href="${normalizeLink(href)}" target="_blank" rel="noopener">${inline(text)}</a>`);
-    }
-
-    if (!links.length) return "";
-    const joined = links.length === 1
-      ? links[0]
-      : `${links.slice(0, -1).join(", ")}${links.length > 2 ? "," : ""} and ${links.at(-1)}`;
-    return `<p class="post-inline-related"><strong>Keep going:</strong> ${joined} are useful next reads if you want to turn this idea into a better board.</p>`;
-  };
 
   const isBlockStart = (line = "") =>
     /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
@@ -296,13 +246,9 @@ function markdownToHtml(markdown, publishedSlugs = new Set(), currentSlug = "") 
       if (level === 2 && /^related reading$/i.test(heading[2].trim())) {
         i += 1;
         while (i < lines.length && !lines[i].trim()) i += 1;
-        const items = [];
         while (i < lines.length && lines[i].trim().startsWith("- ")) {
-          items.push(lines[i].trim().slice(2));
           i += 1;
         }
-        const sentence = relatedSentence(items);
-        if (sentence) html.push(sentence);
         continue;
       }
       html.push(`<h${level}>${inline(heading[2])}</h${level}>`);
@@ -855,9 +801,8 @@ async function build() {
     readFile(paths.products, "utf8").then(JSON.parse)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
-  const publishedSlugs = new Set(posts.map((post) => post.slug));
   posts.forEach((post) => {
-    post.html = markdownToHtml(post.body, publishedSlugs, post.slug);
+    post.html = markdownToHtml(post.body);
   });
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
