@@ -94,16 +94,16 @@ Yes — prep hard cheeses, cured meats, condiments, nuts, and dried fruit the ni
 ---
 
 > **Planning a large gathering?**
-> The charcuterie quantity guide at [How Much Charcuterie Per Person](https://charcuterielab.com/how-much-charcuterie-per-person/) covers exactly how much to buy for 4 to 30+ guests.
+> The charcuterie quantity guide at [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/) covers exactly how much to buy for 4 to 30+ guests.
 >
 > Get weekly board-building science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 
 ## Related Reading
 
-- [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board)
-- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide)
-- [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control)
+- [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)
+- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)
+- [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)
 
 ## FAQ
 

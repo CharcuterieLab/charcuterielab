@@ -138,14 +138,14 @@ When in doubt: buy a little more than you think. The shame is in running out.
 
 ---
 
-*For more on what to buy, see our [what cheese goes on a charcuterie board guide]([TO ADD]) and [board ideas with exact ingredient lists]([TO ADD]). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly board guides.*
+*For more on what to buy, see our [what cheese goes on a charcuterie board guide](https://charcuterielab.com/blog/what-cheese-goes-on-charcuterie-board/) and [board ideas with exact ingredient lists](https://charcuterielab.com/blog/charcuterie-board-ideas/). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly board guides.*
 
 
 ## Related Reading
 
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
-- [How to Build a Grazing Table for 20+ Guests: Quantities, Layout, and Replenishment](https://charcuterielab.com/grazing-table)
-- [How to Make a Charcuterie Board for Two](https://charcuterielab.com/charcuterie-board-for-two)
+- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
+- [How to Build a Grazing Table for 20+ Guests: Quantities, Layout, and Replenishment](https://charcuterielab.com/blog/grazing-table/)
+- [How to Make a Charcuterie Board for Two](https://charcuterielab.com/blog/charcuterie-board-for-two/)
 
 ## FAQ
 

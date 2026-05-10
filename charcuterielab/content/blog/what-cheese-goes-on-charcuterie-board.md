@@ -141,14 +141,14 @@ Cold cheese mutes flavor. The aromatic compounds in Comté that make it smell li
 
 ---
 
-*For more: see our full [how many cheeses guide]([TO ADD]) and [board building sequence]([TO ADD]). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly cheese and pairing guides.*
+*For more: see our full [how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/) and [board building sequence](https://charcuterielab.com/blog/build-sequence/). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly cheese and pairing guides.*
 
 
 ## Related Reading
 
-- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/best-cheese-charcuterie-board)
-- [Brie: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/brie)
-- [Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)](https://charcuterielab.com/aged-cheddar)
+- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
+- [Brie: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/blog/brie/)
+- [Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)](https://charcuterielab.com/blog/aged-cheddar/)
 
 ## FAQ
 

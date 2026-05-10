@@ -132,6 +132,34 @@ def normalize_body(body):
     return "\n\n".join(part for part in normalized if part is not None).strip()
 
 
+def clean_internal_links(body):
+    replacements = {
+        "[how many cheeses guide]([TO ADD])": "[how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/)",
+        "[board building sequence]([TO ADD])": "[board building sequence](https://charcuterielab.com/blog/build-sequence/)",
+        "[what cheese goes on a charcuterie board guide]([TO ADD])": "[what cheese goes on a charcuterie board guide](https://charcuterielab.com/blog/what-cheese-goes-on-charcuterie-board/)",
+        "[board ideas with exact ingredient lists]([TO ADD])": "[board ideas with exact ingredient lists](https://charcuterielab.com/blog/charcuterie-board-ideas/)",
+    }
+    for old, new in replacements.items():
+        body = body.replace(old, new)
+
+    def normalize_charcuterie_url(match):
+        url = match.group(0)
+        if "." in Path(url).suffix:
+            return url
+
+        prefix = "https://charcuterielab.com/"
+        path = url[len(prefix):].strip("/")
+        if path.startswith(("blog/", "images/")) or not path:
+            return url if url.endswith("/") else f"{url}/"
+
+        if "/" not in path and (BLOG_DIR / f"{path}.md").exists():
+            return f"{prefix}blog/{path}/"
+
+        return url if url.endswith("/") else f"{url}/"
+
+    return re.sub(r"https://charcuterielab\.com/[^\s)\]]+", normalize_charcuterie_url, body)
+
+
 def write_frontmatter(data, body):
     order = ["title", "date", "image", "excerpt"]
     lines = ["---"]
@@ -269,6 +297,7 @@ def stage_post(post_path, all_files):
     body = normalize_body(body)
     data.setdefault("title", title_from_slug(content_slug(raw_name)))
     data["date"] = publish_date.isoformat()
+    body = clean_internal_links(body)
     data.setdefault("excerpt", excerpt_from_body(body))
 
     image = matching_image(all_files, publish_date, raw_name, post_path.stem)

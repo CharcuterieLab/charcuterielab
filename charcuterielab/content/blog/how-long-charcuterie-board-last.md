@@ -95,9 +95,9 @@ Yes — with a clear distinction between what to prep and what to hold.
 
 ## Related Reading
 
-- [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board)
-- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide)
-- [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control)
+- [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)
+- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)
+- [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)
 
 ## FAQ
 

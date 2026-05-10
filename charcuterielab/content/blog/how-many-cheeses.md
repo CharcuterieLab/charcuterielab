@@ -78,8 +78,8 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 
 ## Related Reading
 
-- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/best-cheese-charcuterie-board)
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
+- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
+- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence/)
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 
 ## FAQ

@@ -114,7 +114,7 @@ For a standard 4–6 person board:
 - **Nuts:** 1 handful (1–2 oz) scattered or in a small bowl
 - **Olives:** 2–3 oz in a small ramekin
 
-> See the full quantity guide for groups of 4 to 30+ at [How Much Charcuterie Per Person](https://charcuterielab.com/how-much-charcuterie-per-person/).
+> See the full quantity guide for groups of 4 to 30+ at [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/).
 
 ---
 

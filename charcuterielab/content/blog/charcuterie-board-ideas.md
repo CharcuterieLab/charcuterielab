@@ -170,9 +170,9 @@ For more structure, use the [how many cheeses guide](https://charcuterielab.com/
 
 ## Related Reading
 
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
-- [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/board-shapes)
-- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/best-cheese-charcuterie-board)
+- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
+- [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/blog/board-shapes/)
+- [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 
 ## FAQ
 

@@ -94,9 +94,9 @@ Charcuterie Lab is built around the science of why these combinations work. If y
 
 ## Related Reading
 
-- [What Goes on a Charcuterie Board?](https://charcuterielab.com/what-goes-on-charcuterie-board)
+- [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 - [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence)
+- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence/)
 
 ## FAQ
 

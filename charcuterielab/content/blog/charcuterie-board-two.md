@@ -131,9 +131,9 @@ The visual principle at small scale: every element should touch or nearly touch 
 
 ## Related Reading
 
-- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide)
-- [How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly](https://charcuterielab.com/wine-cheese-board)
-- [How to Make a Charcuterie Board for Two](https://charcuterielab.com/charcuterie-board-for-two)
+- [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)
+- [How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly](https://charcuterielab.com/wine-cheese-board/)
+- [How to Make a Charcuterie Board for Two](https://charcuterielab.com/charcuterie-board-for-two/)
 
 ## FAQ
 
