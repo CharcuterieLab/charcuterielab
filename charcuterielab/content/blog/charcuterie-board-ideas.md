@@ -170,7 +170,7 @@ For more structure, use the [how many cheeses guide](https://charcuterielab.com/
 
 ## Related Reading
 
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
+- [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/blog/board-shapes/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 

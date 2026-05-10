@@ -143,7 +143,7 @@ When in doubt: buy a little more than you think. The shame is in running out.
 
 ## Related Reading
 
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
+- [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [How to Build a Grazing Table for 20+ Guests: Quantities, Layout, and Replenishment](https://charcuterielab.com/blog/grazing-table/)
 - [How to Make a Charcuterie Board for Two](https://charcuterielab.com/blog/charcuterie-board-for-two/)
 

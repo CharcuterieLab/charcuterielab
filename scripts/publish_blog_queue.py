@@ -135,7 +135,7 @@ def normalize_body(body):
 def clean_internal_links(body):
     replacements = {
         "[how many cheeses guide]([TO ADD])": "[how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/)",
-        "[board building sequence]([TO ADD])": "[board building sequence](https://charcuterielab.com/blog/build-sequence/)",
+        "[board building sequence]([TO ADD])": "[easy board-building guide](https://charcuterielab.com/blog/easy-charcuterie-board/)",
         "[what cheese goes on a charcuterie board guide]([TO ADD])": "[what cheese goes on a charcuterie board guide](https://charcuterielab.com/blog/what-cheese-goes-on-charcuterie-board/)",
         "[board ideas with exact ingredient lists]([TO ADD])": "[board ideas with exact ingredient lists](https://charcuterielab.com/blog/charcuterie-board-ideas/)",
     }

@@ -96,7 +96,7 @@ Charcuterie Lab is built around the science of why these combinations work. If y
 
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 - [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/build-sequence/)
+- [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
 
 ## FAQ
 

@@ -141,7 +141,7 @@ Cold cheese mutes flavor. The aromatic compounds in Comté that make it smell li
 
 ---
 
-*For more: see our full [how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/) and [board building sequence](https://charcuterielab.com/blog/build-sequence/). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly cheese and pairing guides.*
+*For more: see our full [how many cheeses guide](https://charcuterielab.com/blog/how-many-cheeses/) and [easy board-building guide](https://charcuterielab.com/blog/easy-charcuterie-board/). Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly cheese and pairing guides.*
 
 
 ## Related Reading
