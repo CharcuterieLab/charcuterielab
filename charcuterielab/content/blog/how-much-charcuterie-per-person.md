@@ -82,4 +82,4 @@ Over-ordering cheese and under-ordering crackers. Cheese is expensive and has a 
 Build the foundation with the formula. Fill out the board generously with crackers, fruit, and nuts. Replenish from the refrigerator rather than putting everything out at once for long parties.
 
 > **Planning a larger gathering?**
-> The Charcuterie Lab Report newsletter includes seasonal board planning guides with quantity calculators. [Subscribe here: https://charcuterie-lab-report.beehiiv.com]
+> The Charcuterie Lab Report newsletter includes seasonal board planning guides with quantity calculators. [Subscribe here](https://charcuterie-lab-report.beehiiv.com).

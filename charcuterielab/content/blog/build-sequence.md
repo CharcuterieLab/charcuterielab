@@ -130,7 +130,7 @@ The sequence isn't complicated. But following it means every decision you make h
 
 ---
 
-*Want to go deeper? See our guides on [charcuterie folding techniques]([TO ADD]) and [temperature guide for cheese and charcuterie]([TO ADD]). Sign up for the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly technique breakdowns.*
+*Want to go deeper? See our guides on [how to make a prosciutto rose](https://charcuterielab.com/blog/prosciutto-rose/), [how to build a salami river](https://charcuterielab.com/blog/salami-river/), and the [temperature guide for cheese and charcuterie](https://charcuterielab.com/blog/temperature-guide/). Sign up for the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly technique breakdowns.*
 
 
 ## Related Reading

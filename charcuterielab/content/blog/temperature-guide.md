@@ -129,7 +129,7 @@ Sometimes the pull time isn't available. A few workarounds:
 
 ---
 
-*Pair this guide with our [board build sequence]([TO ADD]) to have everything assembled and at temperature simultaneously. Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly technique breakdowns.*
+*Pair this guide with our [board build sequence](https://charcuterielab.com/blog/build-sequence/) to have everything assembled and at temperature simultaneously. Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly technique breakdowns.*
 
 
 ## Related Reading
