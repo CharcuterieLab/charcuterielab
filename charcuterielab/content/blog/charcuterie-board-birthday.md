@@ -131,4 +131,4 @@ A birthday charcuterie board is a crowd management problem as much as a food pro
 
 *Want more charcuterie science delivered weekly? Subscribe to [The Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) — we dig into the food science behind every ingredient on your board.*
 
-*See also: [How to Scale a Charcuterie Board for Any Crowd] [TO ADD] | [Brie: The Board Cheese That Always Delivers] [TO ADD] | [Board Longevity: What Holds and What Doesn't] [TO ADD]*
+*For more: see [charcuterie board serving sizes](https://charcuterielab.com/blog/charcuterie-board-serving-size/) and [how long a charcuterie board can sit out](https://charcuterielab.com/blog/how-long-charcuterie-board-last/).*

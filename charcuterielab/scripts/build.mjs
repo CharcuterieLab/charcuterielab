@@ -208,7 +208,13 @@ function markdownToHtml(markdown) {
   let i = 0;
 
   const normalizeLink = (href = "") => {
-    if (!/^https:\/\/charcuterielab\.com\/(?!blog\/?)/i.test(href)) return href;
+    const match = href.match(/^https:\/\/charcuterielab\.com\/([^?#]*)/i);
+    if (!match) return href;
+
+    const path = match[1].replace(/^\/+|\/+$/g, "");
+    if (!path || path.startsWith("blog/") || path.startsWith("ebook") || path.startsWith("images/")) {
+      return href;
+    }
     return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
   };
 
