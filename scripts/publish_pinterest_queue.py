@@ -126,6 +126,9 @@ def load_text(path, fallback_title):
             label = heading.group(1).lower().replace("pin ", "").replace(" ", "_")
             section = label
             continue
+        if re.match(r"^#{1,6}\s+\S+", clean):
+            section = None
+            continue
 
         if clean == "---":
             section = None
@@ -156,6 +159,24 @@ def load_text(path, fallback_title):
     return data
 
 
+def clean_pin_description(description):
+    lines = []
+    for raw_line in str(description or "").splitlines():
+        line = raw_line.strip()
+        if not line:
+            if lines and lines[-1]:
+                lines.append("")
+            continue
+        if line.startswith("#"):
+            continue
+        line = re.sub(r"\s*//\s*https?://\S+", "", line).strip()
+        line = re.sub(r"https?://\S+", "", line).strip()
+        line = re.sub(r"(?:^|\s)#[A-Za-z0-9_]+", "", line).strip()
+        if line:
+            lines.append(line)
+    return "\n".join(lines).strip()
+
+
 def load_pin_data(item, default_board_id="", require_board=True):
     fallback_title = title_from_name(item["raw_name"])
     content_file = item["content_file"]
@@ -167,7 +188,7 @@ def load_pin_data(item, default_board_id="", require_board=True):
         data = load_text(content_file, fallback_title)
 
     title = str(data.get("title") or fallback_title).strip()
-    description = str(data.get("description") or data.get("caption") or title).strip()
+    description = clean_pin_description(data.get("description") or data.get("caption") or title)
     board_id = str(data.get("board_id") or default_board_id or "").strip()
     link = normalize_charcuterie_link(str(data.get("link") or "").strip())
     alt_text = str(data.get("alt_text") or "").strip()
@@ -191,18 +212,22 @@ def load_pin_data(item, default_board_id="", require_board=True):
 def normalize_charcuterie_link(link):
     if not link:
         return link
+    url_match = re.search(r"https?://[^\s#<>)]+", link)
+    if url_match:
+        link = url_match.group(0).rstrip(".,;:")
     if not re.match(r"^https://charcuterielab\.com/?", link, re.I):
         return link
 
-    match = re.match(r"^(https://charcuterielab\.com)(/.*)?$", link, re.I)
+    match = re.match(r"^(https://charcuterielab\.com)(/[^#?\s]*)?([?#][^\s]*)?$", link, re.I)
     if not match:
         return link
 
-    base, path = match.groups()
+    base, path, suffix = match.groups()
     path = path or "/"
+    suffix = suffix or ""
     if path == "/" or path.lower().startswith("/blog/"):
         return link
-    return f"{base}/blog{path}"
+    return f"{base}/blog{path}{suffix}"
 
 
 def find_image(paths, raw_name, content_stem=None):
@@ -824,7 +849,7 @@ def main():
             if args.dry_run:
                 schedule_note = f" for {due_at}" if due_at else ""
                 messages.append(
-                    f"Buffer{schedule_note}: {item['path'].name}: {data['title']} -> channel {buffer_channel_id}"
+                    f"Buffer{schedule_note}: {item['path'].name}: {data['title']} -> {data['link'] or SITE_URL} -> channel {buffer_channel_id}"
                 )
                 continue
 
@@ -840,7 +865,7 @@ def main():
 
         pin = normalize_pin(item, default_board_id)
         if args.dry_run:
-            messages.append(f"Due {item['path'].name}: {pin['title']} -> board {pin['board_id']}")
+            messages.append(f"Due {item['path'].name}: {pin['title']} -> {pin.get('link') or SITE_URL} -> board {pin['board_id']}")
             continue
 
         result = pinterest_request("POST", "/pins", token, pin)

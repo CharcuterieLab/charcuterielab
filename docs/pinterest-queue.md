@@ -47,6 +47,8 @@ Manchego is one of the most versatile cheeses for a charcuterie board...
 https://charcuterielab.com/blog/manchego/
 ```
 
+Keep the destination URL in `## LINK`, not inside the description. For Buffer, the description should be clean text only: no raw URL and no hashtag block unless you are intentionally testing hashtags.
+
 For multiple pins from the same content, use `pinterest1_manchego`, `pinterest2_manchego`, etc. Matching images can be named `Image_Manchego1.png`, `Image_Manchego2.png`, and so on.
 
 Required computer settings:

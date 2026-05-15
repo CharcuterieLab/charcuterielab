@@ -5,12 +5,13 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const assetVersion = "20260505-compact-card-grids";
+const siteRoot = join(root, "charcuterielab");
 
 const paths = {
-  blog: join(root, "content", "blog"),
-  products: join(root, "src", "data", "products.json"),
-  public: join(root, "public"),
-  styles: join(root, "src", "styles", "site.css")
+  blog: [join(root, "content", "blog"), join(siteRoot, "content", "blog")],
+  products: join(siteRoot, "src", "data", "products.json"),
+  public: [join(siteRoot, "public"), join(root, "public")],
+  styles: join(siteRoot, "src", "styles", "site.css")
 };
 
 const escapeHtml = (value = "") =>
@@ -19,6 +20,16 @@ const escapeHtml = (value = "") =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+
+function inlineMarkdown(value = "") {
+  return escapeHtml(value)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    .replace(
+      /\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)/g,
+      (_match, label, href) => `<a href="${href}">${label}</a>`
+    );
+}
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
@@ -104,18 +115,65 @@ function parseMarkdown(source) {
 }
 
 function markdownToHtml(markdown) {
-  return markdown
-    .trim()
-    .split(/\n{2,}/)
-    .map((block) => `<p>${escapeHtml(block.trim()).replaceAll("\n", "<br>")}</p>`)
+  const blocks = markdown.trim().split(/\n{2,}/);
+
+  return blocks
+    .map((block) => {
+      const trimmed = block.trim();
+      const lines = trimmed.split("\n");
+
+      const heading = trimmed.match(/^(#{1,6})\s+(.+)$/);
+      if (heading) {
+        const level = Math.min(6, heading[1].length + 1);
+        return `<h${level}>${inlineMarkdown(heading[2])}</h${level}>`;
+      }
+
+      if (lines.length >= 2 && lines[0].trim().startsWith("|") && lines[1].includes("---")) {
+        const rows = lines
+          .filter((line) => line.trim().startsWith("|"))
+          .map((line) => line.trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()));
+        const [header, _divider, ...bodyRows] = rows;
+        return `<table>
+  <thead><tr>${header.map((cell) => `<th>${inlineMarkdown(cell)}</th>`).join("")}</tr></thead>
+  <tbody>
+${bodyRows.map((row) => `    <tr>${row.map((cell) => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("\n")}
+  </tbody>
+</table>`;
+      }
+
+      if (lines.every((line) => /^-\s+/.test(line.trim()))) {
+        return `<ul>
+${lines.map((line) => `  <li>${inlineMarkdown(line.trim().replace(/^-\s+/, ""))}</li>`).join("\n")}
+</ul>`;
+      }
+
+      if (lines.every((line) => /^\d+\.\s+/.test(line.trim()))) {
+        return `<ol>
+${lines.map((line) => `  <li>${inlineMarkdown(line.trim().replace(/^\d+\.\s+/, ""))}</li>`).join("\n")}
+</ol>`;
+      }
+
+      if (trimmed.startsWith(">")) {
+        return `<blockquote>${inlineMarkdown(trimmed.replace(/^>\s?/, ""))}</blockquote>`;
+      }
+
+      return `<p>${lines.map((line) => inlineMarkdown(line.trim())).join("<br>")}</p>`;
+    })
     .join("\n");
 }
 
 async function loadPosts() {
-  const files = (await readdir(paths.blog)).filter((file) => file.endsWith(".md"));
+  const sourceByFile = new Map();
+  for (const blogPath of paths.blog) {
+    const files = (await readdir(blogPath)).filter((file) => file.endsWith(".md"));
+    for (const file of files) {
+      sourceByFile.set(file, blogPath);
+    }
+  }
+
   const posts = await Promise.all(
-    files.map(async (file) => {
-      const { data, body } = parseMarkdown(await readFile(join(paths.blog, file), "utf8"));
+    [...sourceByFile.entries()].map(async ([file, blogPath]) => {
+      const { data, body } = parseMarkdown(await readFile(join(blogPath, file), "utf8"));
       return {
         slug: slugFromFile(file),
         title: data.title ?? "Untitled Post",
@@ -278,7 +336,9 @@ function postPage(post) {
 async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(join(dist, "assets"), { recursive: true });
-  await cp(paths.public, dist, { recursive: true });
+  for (const publicPath of paths.public) {
+    await cp(publicPath, dist, { recursive: true });
+  }
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
   const [allPosts, products] = await Promise.all([
