@@ -228,12 +228,25 @@ a {
   background: linear-gradient(180deg, #dfc576, var(--gold));
 }
 
+.button.secondary {
+  color: #fff9eb;
+  border-color: rgba(255, 249, 235, 0.34);
+  background: rgba(255, 249, 235, 0.12);
+}
+
 .hero .button.primary {
   min-height: 64px;
   min-width: 300px;
   padding: 0 36px;
   font-size: 18px;
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28);
+}
+
+.hero .button.secondary {
+  min-height: 54px;
+  min-width: 220px;
+  padding: 0 28px;
+  font-size: 15px;
 }
 
 .hero-art {
@@ -468,6 +481,15 @@ a {
   display: block;
   margin-top: 10px;
   font-weight: 700;
+}
+
+.product-button {
+  width: 100%;
+  margin-top: 14px;
+  box-shadow: none;
+  color: #fff9eb;
+  border-color: rgba(17, 58, 39, 0.14);
+  background: var(--green-deep);
 }
 
 .newsletter {
@@ -858,6 +880,45 @@ a {
   margin: 30px 0;
   border-radius: 8px;
   box-shadow: var(--shadow);
+}
+
+.post-inline-promo {
+  margin: 38px 0;
+  padding: 28px;
+  border: 1px solid rgba(128, 67, 46, 0.22);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, #fffaf0, #f3dfc4);
+  box-shadow: 0 18px 38px rgba(17, 58, 39, 0.1);
+}
+
+.post-inline-promo .eyebrow {
+  margin: 0 0 8px;
+  color: var(--gold-dark);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.post-inline-promo h2 {
+  margin: 0 0 10px;
+  color: var(--green-deep);
+  font-size: 31px;
+}
+
+.post-inline-promo h2::before {
+  content: none;
+}
+
+.post-inline-promo p {
+  margin: 0 0 18px;
+  color: #3b2518;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .related-reading {
