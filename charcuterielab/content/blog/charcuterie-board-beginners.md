@@ -1,7 +1,7 @@
 ---
 title: "Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)"
 date: "2026-04-29"
-image: "/images/charcuterie-board-beginners.png"
+image: "/images/charcuterie-board-beginners.webp"
 excerpt: "Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)"
 description: "You don't need 12 cheeses, imported meats, or specialty tools to build a good charcuterie board. Here's the beginner minimum — 3 cheeses, 2 meats — and the mistakes that trip up first-time builders."
 slug: "charcuterie-board-beginners"

@@ -1,7 +1,7 @@
 ---
 title: "Manchego: Spain's Most Board-Ready Cheese (And Why It Works So Well)"
 date: "2026-04-27"
-image: "/images/manchego.png"
+image: "/images/manchego.webp"
 excerpt: "Manchego: Spain's Most BoardReady Cheese (And Why It Works So Well)"
 description: "Manchego is one of the most versatile and crowd-pleasing cheeses on any charcuterie board. Here's the science of what makes it unique, which age to choose, and exactly how to pair it."
 slug: "manchego"

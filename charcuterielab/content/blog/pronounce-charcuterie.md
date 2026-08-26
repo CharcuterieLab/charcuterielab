@@ -1,7 +1,7 @@
 ---
 title: "How Do You Pronounce Charcuterie? (The Right Way, Finally)"
 date: "2026-04-26"
-image: "/images/pronounce-charcuterie.png"
+image: "/images/pronounce-charcuterie.webp"
 excerpt: "How Do You Pronounce Charcuterie? (The Right Way, Finally)"
 description: "Charcuterie is pronounced shar-KOO-tuh-ree. Learn the phonetic breakdown, what the word means, and where it comes from — in under 5 minutes."
 slug: "pronounce-charcuterie"

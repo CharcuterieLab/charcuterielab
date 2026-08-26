@@ -1,7 +1,7 @@
 ---
 title: "How to Make a Prosciutto Rose: The Step-by-Step Technique"
 date: "2026-04-28"
-image: "/images/prosciutto-rose.png"
+image: "/images/prosciutto-rose.webp"
 excerpt: "How to Make a Prosciutto Rose: The StepbyStep Technique"
 description: "A prosciutto rose is the single most impactful technique on a charcuterie board. Here's exactly how to fold one — and how to use it for maximum visual effect."
 slug: "prosciutto-rose"

@@ -1,7 +1,7 @@
 ---
 title: "Dessert Charcuterie Board: How to Build a Sweet Board That Actually Works"
 date: "2026-05-15"
-image: "/images/dessert-board.png"
+image: "/images/dessert-board.webp"
 excerpt: "Build a dessert charcuterie board with chocolate, fruit, cookies, creamy dips, salty accents, and a layout that keeps the board balanced instead of sugary."
 description: "A practical dessert charcuterie board guide with exact categories, quantities, layout order, make-ahead tips, and pairing ideas for parties."
 faq: "[{\"question\":\"What goes on a dessert charcuterie board?\",\"answer\":\"A good dessert board needs five categories: chocolate, fruit, cookies or pastries, a creamy dip or spread, and one salty or crunchy accent. The salty element keeps the board from tasting flat and makes the sweet items more interesting.\"},{\"question\":\"How much dessert board food do I need per person?\",\"answer\":\"For a dessert board after a meal, plan 3 to 5 small bites per person. For a dessert board as the main sweet course, plan 6 to 8 bites per person, including at least one fresh fruit item and one richer chocolate or pastry item.\"},{\"question\":\"Can I make a dessert charcuterie board ahead of time?\",\"answer\":\"You can prep most items ahead, but assemble in stages. Cookies, chocolates, nuts, and bowls of dip can be placed early. Cut fruit, berries, whipped dips, and powdered sugar finishes should be added close to serving so the board stays fresh.\"}]"

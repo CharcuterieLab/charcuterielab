@@ -1,7 +1,7 @@
 ---
 title: "Stilton: The Science Behind the Blue Veins (And Why It Pairs With Port)"
 date: "2026-05-04"
-image: "/images/stilton.png"
+image: "/images/stilton.webp"
 excerpt: "Stilton: The Science Behind the Blue Veins (And Why It Pairs With Port)"
 description: "Stilton is one of only three cheeses in the world with PDO protection in the UK. The blue veins aren't mold spreading randomly — they're the result of a specific needling technique that controls airflow. Here's the science of how Stilton works and how to use it on a board."
 slug: "stilton"

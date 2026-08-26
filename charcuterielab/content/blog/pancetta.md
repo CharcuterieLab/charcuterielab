@@ -1,7 +1,7 @@
 ---
 title: "Pancetta: Italian Cured Pork Belly — Not Bacon"
 date: "2026-05-05"
-image: "/images/pancetta.png"
+image: "/images/pancetta.webp"
 excerpt: "Pancetta: Italian Cured Pork Belly — Not Bacon"
 description: "Pancetta and American bacon start from the same cut — pork belly — but diverge in every subsequent step. One is dry-cured and air-dried; one is smoked. The difference matters for flavor, texture, and how you use it on a board."
 slug: "pancetta"

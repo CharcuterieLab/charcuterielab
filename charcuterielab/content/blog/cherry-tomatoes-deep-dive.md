@@ -1,7 +1,7 @@
 ---
 title: "Cherry Tomatoes: The Ultimate Ingredient Deep Dive + Pairing Guide"
 date: "2026-04-25"
-image: "/images/cherrytomatoes.png"
+image: "/images/cherrytomatoes.webp"
 excerpt: "Bright, juicy cherry tomatoes bring acidity, color, and freshness to rich charcuterie boards."
 ---
 

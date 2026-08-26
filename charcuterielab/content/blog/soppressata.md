@@ -1,7 +1,7 @@
 ---
 title: "Soppressata: The Boldest Italian Salami on Your Charcuterie Board"
 date: "2026-04-29"
-image: "/images/soppressata.png"
+image: "/images/soppressata.webp"
 excerpt: "Soppressata: The Boldest Italian Salami on Your Charcuterie Board"
 description: "Soppressata is the most assertive and flavorful Italian cured meat for a charcuterie board. Here's what makes it different from regular salami, the science of its cure, and exactly how to use it."
 slug: "soppressata"

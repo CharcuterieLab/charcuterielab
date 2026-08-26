@@ -1,7 +1,7 @@
 ---
 title: "Salami vs. Pepperoni: What's the Actual Difference?"
 date: "2026-05-05"
-image: "/images/salami-vs-pepperoni.png"
+image: "/images/salami-vs-pepperoni.webp"
 excerpt: "Salami vs. Pepperoni: What's the Actual Difference?"
 description: "Salami and pepperoni are both cured pork sausages, but they're made differently, taste differently, and serve different roles on a charcuterie board. Here's the breakdown."
 slug: "salami-vs-pepperoni"

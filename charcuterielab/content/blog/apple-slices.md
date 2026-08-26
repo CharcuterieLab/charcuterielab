@@ -1,7 +1,7 @@
 ---
 title: "Apple Slices"
 date: "2026-04-25"
-image: "/images/apple-slices.png"
+image: "/images/apple-slices.webp"
 excerpt: "Apple slices add crunch, sweetness, and acidity to charcuterie boards. Learn which apples to use, how to prevent browning, and what they pair with."
 ---
 

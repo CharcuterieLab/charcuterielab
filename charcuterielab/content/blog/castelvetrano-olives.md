@@ -1,7 +1,7 @@
 ---
 title: "Castelvetrano Olives"
 date: "2026-04-25"
-image: "/images/castelvetrano-olives.png"
+image: "/images/castelvetrano-olives.webp"
 excerpt: "Castelvetrano Olives: The Ultimate Ingredient Deep Dive + Pairing Guide"
 ---
 
