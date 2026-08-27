@@ -27,6 +27,39 @@ const escapeHtml = (value = "") =>
 
 const slugFromFile = (file) => file.replace(/\.md$/i, "");
 
+const absoluteUrl = (path = "/") =>
+  /^https?:\/\//.test(path) ? path : `${siteUrl}${path.startsWith("/") ? path : `/${path}`}`;
+
+const stripMarkdown = (value = "") =>
+  String(value)
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/[*_`>#|]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const clampText = (value, limit) =>
+  value.length > limit ? `${value.slice(0, limit - 3).trimEnd()}...` : value;
+
+// Search engines and social cards both read this. Priority: the description
+// the author actually wrote, then the excerpt (but only when it is not just a
+// copy of the title), then the first real paragraph of the post.
+function metaDescription(post) {
+  const written = stripMarkdown(post.description);
+  if (written) return clampText(written, 300);
+
+  const excerpt = stripMarkdown(post.excerpt);
+  if (excerpt && excerpt.toLowerCase() !== String(post.title).trim().toLowerCase()) {
+    return clampText(excerpt, 300);
+  }
+
+  for (const block of String(post.body ?? "").split(/\n\s*\n/)) {
+    const clean = stripMarkdown(block.replace(/^#+\s*/, "").replace(/^Quick Answer:\s*/i, ""));
+    if (clean.length > 60) return clampText(clean, 300);
+  }
+  return "Pairing science, board building, and ingredient guides from Charcuterie Lab.";
+}
+
 function withTracking(url, campaign) {
   if (!url.startsWith("http")) return url;
   const separator = url.includes("?") ? "&" : "?";
@@ -126,6 +159,46 @@ function parseFaqField(value = "") {
 
 function jsonForScript(value) {
   return JSON.stringify(value).replaceAll("<", "\\u003c");
+}
+
+function articleSchema(post, description) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description,
+    image: [absoluteUrl(post.image)],
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl },
+    publisher: {
+      "@type": "Organization",
+      name: "Charcuterie Lab",
+      url: siteUrl,
+      logo: { "@type": "ImageObject", url: absoluteUrl("/images/book-cover.jpg") }
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(`/blog/${post.slug}/`) },
+    keywords: post.tags.join(", ")
+  };
+
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
+function siteSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Charcuterie Lab",
+    url: siteUrl,
+    logo: absoluteUrl("/images/book-cover.jpg"),
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=61586809154604",
+      "https://www.instagram.com/charcuterielabflavor/",
+      "https://www.pinterest.com/charcuterielabflavor/"
+    ]
+  };
+
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
 }
 
 function faqSchema(post) {
@@ -348,6 +421,7 @@ async function loadPosts() {
         date: data.date ?? "2026-01-01",
         image: data.image ?? "/images/layout-reference.jpg",
         excerpt: data.excerpt ?? "",
+        description: data.description ?? "",
         tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
         relatedSlugs: parseListField(data.related).map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, "")),
         faq: parseFaqField(data.faq),
@@ -369,7 +443,25 @@ function socialIcon(name) {
   return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.2 2C6.6 2 3 5.7 3 10.5c0 3.4 1.9 5.3 3 5.3.5 0 .8-1.4.8-1.8 0-.5-1.3-1.6-1.3-3.6 0-4.1 3.1-7 7.3-7 3.5 0 6.1 2 6.1 5.7 0 2.8-1.1 8-4.8 8-1.3 0-2.5-1-2.1-2.4.4-1.7 1.3-3.5 1.3-4.7 0-2.7-3.9-2.2-3.9 1.3 0 1.1.4 1.8.4 1.8s-1.4 5.8-1.6 6.8c-.2 1 0 2.3 0 2.4 0 .1.2.1.3 0 .4-.5 1.5-1.8 2-2.9.2-.6.9-3.3.9-3.3.4.8 1.7 1.5 3 1.5 4 0 6.6-3.6 6.6-8.4C21 5.2 17.6 2 12.2 2Z"/></svg>';
 }
 
-function layout({ title, description, body, head = "" }) {
+function layout({
+  title,
+  description,
+  body,
+  head = "",
+  canonical = "/",
+  image = "/images/book-cover.jpg",
+  type = "website",
+  published = "",
+  modified = ""
+}) {
+  const pageUrl = absoluteUrl(canonical);
+  const imageUrl = absoluteUrl(image);
+  const shareTitle = title.replace(/\s*\|\s*Charcuterie Lab\s*$/, "");
+  const articleTimes = type === "article"
+    ? `  <meta property="article:published_time" content="${escapeHtml(published)}">
+  <meta property="article:modified_time" content="${escapeHtml(modified || published)}">
+`
+    : "";
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -377,6 +469,19 @@ function layout({ title, description, body, head = "" }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
+  <link rel="canonical" href="${pageUrl}">
+  <meta property="og:site_name" content="Charcuterie Lab">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="${type}">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:title" content="${escapeHtml(shareTitle)}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:image" content="${imageUrl}">
+  <meta property="og:image:alt" content="${escapeHtml(shareTitle)}">
+${articleTimes}  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(shareTitle)}">
+  <meta name="twitter:description" content="${escapeHtml(description)}">
+  <meta name="twitter:image" content="${imageUrl}">
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
   <style>
@@ -422,6 +527,8 @@ function homePage(posts, products) {
   const trackedEbookUrl = withTracking(ebookUrl, "home_hero");
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
+    canonical: "/",
+    head: siteSchema(),
     description: "Download the Charcuterie Lab ebook with 50 science-backed charcuterie board blueprints.",
     body: `<main>
   <section class="hero">
@@ -499,6 +606,7 @@ function ebookPage() {
   const trackedEbookUrl = withTracking(ebookUrl, "ebook_page");
   return layout({
     title: "Charcuterie Lab Ebook | 50 Boards Built by Science",
+    canonical: "/ebook/",
     description: "Download Charcuterie Lab, the digital guide with 50 science-backed charcuterie board plans, shopping lists, pairing logic, substitutions, and build notes.",
     body: `<main class="ebook-page">
   <section class="ebook-hero">
@@ -676,7 +784,7 @@ function articleCard(post) {
   return `<article class="card">
   <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${post.image}" alt=""></a>
   <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
-  <p>${escapeHtml(post.excerpt)}</p>
+  <p>${escapeHtml(clampText(metaDescription(post), 155))}</p>
 </article>`;
 }
 
@@ -711,6 +819,7 @@ function addInlinePromo(html, post) {
 function blogPage(posts) {
   return layout({
     title: "Blog | Charcuterie Lab",
+    canonical: "/blog/",
     description: "Read every Charcuterie Lab post about pairing science, board building, ingredients, and printable guides.",
     body: `<main class="archive-main">
   <section class="archive-hero">
@@ -757,10 +866,17 @@ function postPage(post, relatedPosts = []) {
 
   const postHtml = addInlinePromo(post.html, post);
 
+  const description = metaDescription(post);
+
   return layout({
     title: `${post.title} | Charcuterie Lab`,
-    description: post.excerpt,
-    head: faqSchema(post),
+    description,
+    canonical: `/blog/${post.slug}/`,
+    image: post.image,
+    type: "article",
+    published: post.date,
+    modified: post.date,
+    head: `${articleSchema(post, description)}\n${faqSchema(post)}`,
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
