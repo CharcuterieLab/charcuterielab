@@ -6,6 +6,10 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
+// The paperback is the promoted product. The Gumroad PDF still exists and is
+// still buyable, it just is not advertised on the site any more.
+const bookUrl = "https://www.amazon.com/dp/B0H2Y39R41";
+const bookTitle = "Charcuterie Lab: 50 Boards Built by Science";
 const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
 const ebookPageUrl = "/ebook/";
 const ebookPrice = "$14.99";
@@ -532,7 +536,7 @@ ${head}
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
-        <a href="/ebook/">Ebook</a>
+        <a href="/ebook/">The Book</a>
         <a href="/blog/">Blog</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
@@ -557,31 +561,31 @@ ${head}
 
 function homePage(posts, products) {
   const featuredPosts = posts.slice(0, 3);
-  const trackedEbookUrl = withTracking(ebookUrl, "home_hero");
+  const heroBookUrl = `${ebookPageUrl}?utm_source=charcuterielab&utm_medium=site&utm_campaign=home_hero`;
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
     head: siteSchema(),
-    description: "Download the Charcuterie Lab ebook with 50 science-backed charcuterie board blueprints.",
+    description: "Charcuterie Lab: 50 board blueprints built by science — shopping lists, pairing logic and build order, in a full-colour paperback. Plus daily pairing science on the blog.",
     body: `<main>
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <p class="hero-kicker">Instant Digital Ebook</p>
+        <p class="hero-kicker">The Book</p>
         <h1>50 Charcuterie Boards, Built by Science</h1>
-        <p>Download the complete Charcuterie Lab guide with shopping lists, pairing logic, substitutions, and step-by-step board blueprints.</p>
+        <p>A full-colour paperback with shopping lists, pairing logic, substitutions, and a build order for every board — so you can repeat them, not just admire them.</p>
         <div class="hero-points" aria-label="What is included">
           <span>50 board plans</span>
           <span>Shopping lists</span>
           <span>Pairing science</span>
         </div>
         <div class="hero-offer">
-          <strong>Digital PDF download</strong>
-          <span>Start building better boards today.</span>
+          <strong>Paperback · 259 pages · full colour</strong>
+          <span>On Amazon, printed and shipped by them.</span>
         </div>
         <div class="actions">
-          <a class="button primary" href="${trackedEbookUrl}" target="_blank" rel="noopener">Get the Ebook for ${ebookPrice}</a>
-          <a class="button secondary" href="${ebookPageUrl}">See What's Inside</a>
+          <a class="button primary" href="${heroBookUrl}">See the Book</a>
+          <a class="button secondary" href="${bookUrl}" target="_blank" rel="noopener">Buy on Amazon</a>
         </div>
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">
@@ -635,28 +639,31 @@ function homePage(posts, products) {
 }
 
 function ebookPage() {
-  const trackedEbookUrl = withTracking(ebookUrl, "ebook_page");
+  const buy = (label) =>
+    `<a class="button primary ebook-primary" href="${bookUrl}" target="_blank" rel="noopener">${label}</a>`;
+
   return layout({
-    title: "Charcuterie Lab Ebook | 50 Boards Built by Science",
+    title: "Charcuterie Lab | 50 Boards Built by Science",
     canonical: "/ebook/",
-    description: "Download Charcuterie Lab, the digital guide with 50 science-backed charcuterie board plans, shopping lists, pairing logic, substitutions, and build notes.",
+    image: "/images/book-cover.jpg",
+    description: "Charcuterie Lab: 50 complete board blueprints with shopping lists, pairing logic, substitutions and build notes. A full-colour paperback, 259 pages, on Amazon.",
     body: `<main class="ebook-page">
   <section class="ebook-hero">
     <div class="ebook-hero-inner">
-      <p class="ebook-kicker">Instant Digital Ebook</p>
+      <p class="ebook-kicker">The Book</p>
       <h1>Build charcuterie boards that look beautiful because they make sense.</h1>
       <p>Charcuterie Lab gives you 50 complete board blueprints with shopping lists, pairing logic, substitutions, and step-by-step build notes so you can host with confidence instead of guessing.</p>
       <div class="ebook-hero-actions">
-        <a class="button primary ebook-primary" href="${trackedEbookUrl}" target="_blank" rel="noopener">Download the Ebook for ${ebookPrice}</a>
-        <span>PDF download. Start today.</span>
+        ${buy("Buy on Amazon")}
+        <span>Paperback. Printed and shipped by Amazon.</span>
       </div>
-      <div class="ebook-metrics" aria-label="Ebook highlights">
+      <div class="ebook-metrics" aria-label="Book highlights">
         <span><strong>50</strong> board plans</span>
-        <span><strong>250+</strong> pages</span>
-        <span><strong>0</strong> guesswork</span>
+        <span><strong>259</strong> pages</span>
+        <span><strong>8.5&Prime;&times;11&Prime;</strong> full colour</span>
       </div>
       <div class="ebook-hero-product">
-        <img src="/images/book-3d-mockup.png" alt="Charcuterie Lab ebook cover mockup">
+        <img src="/images/book-3d-mockup.webp" alt="${bookTitle} paperback">
       </div>
     </div>
   </section>
@@ -687,7 +694,7 @@ function ebookPage() {
   <section class="ebook-section ebook-contents">
     <div class="ebook-section-inner">
       <p class="section-kicker">What You Get</p>
-      <h2>Inside the digital guide</h2>
+      <h2>Inside the book</h2>
       <div class="ebook-grid">
         <article>
           <h3>50 Complete Board Blueprints</h3>
@@ -769,12 +776,12 @@ function ebookPage() {
 
   <section class="ebook-section ebook-preview">
     <div class="ebook-section-inner ebook-two-col">
-      <img src="/images/book-3d-mockup.png" alt="Charcuterie Lab ebook cover mockup">
+      <img src="/images/book-3d-mockup.webp" alt="${bookTitle} paperback">
       <div>
-        <p class="section-kicker">The Offer</p>
-        <h2>Download once. Use it every time you host.</h2>
-        <p>Use the ebook as a planning tool before shopping and as a quick reference while building. It is designed for real hosting moments: clear, practical, and easy to come back to.</p>
-        <a class="button primary ebook-primary" href="${trackedEbookUrl}" target="_blank" rel="noopener">Get the Ebook for ${ebookPrice}</a>
+        <p class="section-kicker">Why Print</p>
+        <h2>It opens flat on the counter and stays there.</h2>
+        <p>At 8.5 by 11 inches it lies open while your hands are busy, and the boards are printed large enough to actually read the layout. No phone locking itself mid-build, no pinching to zoom a PDF with cheese on your fingers.</p>
+        ${buy("Buy on Amazon")}
       </div>
     </div>
   </section>
@@ -782,11 +789,11 @@ function ebookPage() {
   <section class="ebook-section ebook-faq">
     <div class="ebook-section-inner">
       <p class="section-kicker">Questions</p>
-      <h2>Before you download</h2>
+      <h2>Before you buy</h2>
       <div class="ebook-faq-list">
         <details open>
           <summary>Is this a physical book?</summary>
-          <p>No. This is the instant digital ebook version, delivered as a PDF download through Gumroad.</p>
+          <p>Yes — a full-colour paperback, 259 pages, printed and shipped by Amazon. Payment, delivery and returns are all handled on their side.</p>
         </details>
         <details>
           <summary>Is it beginner-friendly?</summary>
@@ -796,6 +803,10 @@ function ebookPage() {
           <summary>Can I use this for parties and holidays?</summary>
           <p>Yes. The 50 board plans cover everyday hosting, seasonal events, wine nights, game day, budget boards, and more polished entertaining.</p>
         </details>
+        <details>
+          <summary>Is there a digital version?</summary>
+          <p>There is a PDF edition on <a href="${ebookUrl}" target="_blank" rel="noopener">Gumroad</a>. The paperback is the edition we recommend.</p>
+        </details>
       </div>
     </div>
   </section>
@@ -804,8 +815,8 @@ function ebookPage() {
     <div>
       <p class="ebook-kicker">Charcuterie Lab</p>
       <h2>Start building better boards today.</h2>
-      <p>Get the complete digital guide and turn your next board into something planned, balanced, and beautiful.</p>
-      <a class="button primary ebook-primary" href="${trackedEbookUrl}" target="_blank" rel="noopener">Download the Ebook for ${ebookPrice}</a>
+      <p>Fifty boards, every one of them explained — so your next board is planned, balanced, and repeatable.</p>
+      ${buy("Buy on Amazon")}
     </div>
   </section>
 </main>`
@@ -832,11 +843,11 @@ function productCard(product) {
 }
 
 function postInlinePromo(post) {
-  return `<aside class="post-inline-promo" aria-label="Charcuterie Lab ebook preview">
+  return `<aside class="post-inline-promo" aria-label="The Charcuterie Lab book">
     <p class="eyebrow">Want the full board plan?</p>
     <h2>Turn this idea into a shopping list and build sequence.</h2>
-    <p>The Charcuterie Lab ebook includes 50 complete board blueprints with exact ingredients, pairing logic, substitutions, and step-by-step layouts.</p>
-    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=inline_${post.slug}">See the Ebook Preview</a>
+    <p>The Charcuterie Lab book has 50 complete board blueprints — exact ingredients, pairing logic, substitutions, and the order to build them in.</p>
+    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=inline_${post.slug}">See the Book</a>
   </aside>`;
 }
 
@@ -917,12 +928,12 @@ function postPage(post, relatedPosts = []) {
     </div>
     <img class="post-image" src="${post.image}" alt="">
   </section>
-  <aside class="post-top-promo" aria-label="Charcuterie Lab ebook">
+  <aside class="post-top-promo" aria-label="The Charcuterie Lab book">
     <div>
-      <p class="eyebrow">Charcuterie Lab Ebook</p>
-      <p>See the full 50-board system with shopping lists, pairing logic, substitutions, and step-by-step build notes.</p>
+      <p class="eyebrow">The Charcuterie Lab Book</p>
+      <p>All 50 boards in one full-colour paperback — shopping lists, pairing logic, substitutions and build notes.</p>
     </div>
-    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=top_${post.slug}">Preview the Ebook</a>
+    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=top_${post.slug}">See the Book</a>
   </aside>
   <article class="post-body">
     ${postHtml}
@@ -930,10 +941,10 @@ function postPage(post, relatedPosts = []) {
   ${relatedReading(relatedPosts)}
   <section class="post-footer-promo" aria-label="Charcuterie Lab book and newsletter">
     <div class="post-promo-panel post-promo-book">
-      <p class="eyebrow">Instant Ebook</p>
-      <h2>Build 50 better boards with the full guide</h2>
-      <p>Download Charcuterie Lab with complete board plans, shopping lists, pairing science, substitutions, and step-by-step build notes.</p>
-      <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=footer_${post.slug}">See the Ebook Preview</a>
+      <p class="eyebrow">The Book</p>
+      <h2>Build 50 better boards</h2>
+      <p>Charcuterie Lab collects all 50 boards with complete plans, shopping lists, pairing science and substitutions. Paperback, on Amazon.</p>
+      <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=footer_${post.slug}">See the Book</a>
     </div>
     <div class="post-promo-panel post-promo-newsletter">
       <p class="eyebrow">Daily Lab Report</p>
