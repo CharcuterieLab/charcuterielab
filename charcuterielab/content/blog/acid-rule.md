@@ -82,8 +82,6 @@ Placement determines how guests use acid elements — whether they treat them as
 
 **Don't over-acid.** A board where every element is acidic — pickles, fruit, mustard, fermented olives — becomes fatiguing in a different direction. Acid works as a reset because it's in contrast to richness. If there's no richness, there's nothing to reset.
 
-> **The acid rule is one of the pairing principles built into every board in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 

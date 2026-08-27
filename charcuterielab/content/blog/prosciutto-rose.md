@@ -85,6 +85,4 @@ Surround the rose with complementary elements: a small dish of fig jam or honey 
 
 For the most visual impact: place the prosciutto rose as the first element on the board, then build everything else around it. It will anchor the entire composition.
 
-> **The prosciutto rose is one of the presentation techniques covered in the Charcuterie Lab book — *50 Boards Built by Science*.**
-> Every board includes a visual guide to plating and presentation. [Link to pre-sale page.]
 > Or get weekly techniques and pairing guides in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

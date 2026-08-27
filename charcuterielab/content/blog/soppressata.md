@@ -131,6 +131,4 @@ Soppressata earns its spot on any board that needs a backbone — something with
 
 If you're building a board where everything is mild and approachable, soppressata is the element that prevents it from being forgettable.
 
-> **Soppressata features in multiple meat-forward boards in the Charcuterie Lab book — *50 Boards Built by Science*.**
-> Pre-order here: [Link to pre-sale page.]
 > Weekly ingredient guides in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

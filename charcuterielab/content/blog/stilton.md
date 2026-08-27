@@ -124,6 +124,4 @@ The sugar in Port also provides sweetness that buffers the sharpness of the blue
 
 ---
 
-> **Stilton appears in the British and autumn boards in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

@@ -129,6 +129,4 @@ Manchego belongs in the middle of the hard cheese spectrum on a board — more c
 
 The zigzag rind pattern is visually recognizable to most guests — lean into it by keeping some of the rind visible in your presentation even if you're trimming it from what guests will eat.
 
-> **Manchego is a central ingredient in multiple Spanish-influenced boards in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

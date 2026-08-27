@@ -109,6 +109,4 @@ Bresaola is the most elegant thing you can put next to a rich hard cheese. Its c
 
 If you have space for a small dressed element (arugula with lemon and olive oil), placing it adjacent to bresaola on the board recreates the Northern Italian antipasto tradition and elevates the entire board.
 
-> **Bresaola features in the Italian and wine-paired boards in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

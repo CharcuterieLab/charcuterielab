@@ -91,6 +91,4 @@ The salami river works as either the **dominant organizing structure** of the bo
 
 Beyond aesthetics, the salami river solves a practical problem: thin-sliced salami laid flat in stacks becomes greasy and difficult to pick up cleanly, especially as it warms. The folded, standing presentation keeps each slice partially upright and distinct, making it easy for guests to take individual pieces without disturbing the whole arrangement. The river also stays looking good longer — flat stacks compress and pool oil; rivers maintain their form.
 
-> **The salami river and other presentation techniques are built into the board photography guides in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly techniques in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

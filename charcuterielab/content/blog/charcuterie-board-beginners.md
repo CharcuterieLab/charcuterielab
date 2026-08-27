@@ -181,6 +181,4 @@ This order ensures the anchor elements are placed first and the fill elements su
 
 ---
 
-> **The beginner boards and complete shopping guides appear in the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly board-building tips in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

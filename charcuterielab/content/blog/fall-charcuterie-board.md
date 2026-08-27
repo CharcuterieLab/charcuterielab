@@ -141,8 +141,6 @@ The fall board's amber and dark zones should be dominant — more warm and deep 
 
 ---
 
-> **The fall seasonal board appears in the Charcuterie Lab book as a complete build with all quantities.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly board science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 

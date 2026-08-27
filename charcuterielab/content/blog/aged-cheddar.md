@@ -153,6 +153,4 @@ Aged cheddar earns its place at the center or near the sweet anchor of any board
 
 If you're building a board for guests unfamiliar with aged cheese, start with sharp (1–2 year) and let the honey do the teaching — one bite of aged cheddar with raw honey converts more skeptics than any explanation could.
 
-> **Aged cheddar appears in multiple boards in the Charcuterie Lab book — *50 Boards Built by Science*.**
-> Every board in the book includes ingredient selection rationale and pairing science. [Link to pre-sale page.]
 > Get weekly pairing guides in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

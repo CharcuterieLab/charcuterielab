@@ -94,6 +94,4 @@ Instead of defaulting to wine, ask: what are the dominant flavor compounds in th
 
 ---
 
-> **Drink pairing builds are featured throughout the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

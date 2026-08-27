@@ -167,6 +167,4 @@ The elements are the same; the quantity and proportion change. A board for two a
 
 ---
 
-> **Small-format and date-night boards appear throughout the Charcuterie Lab book.**
-> Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly board tips in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
