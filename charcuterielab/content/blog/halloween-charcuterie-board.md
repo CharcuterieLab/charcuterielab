@@ -83,7 +83,7 @@ A Halloween charcuterie board works when the food is genuinely excellent and the
 ## Related Reading
 
 - [Aged Cheddar on a Charcuterie Board](https://charcuterielab.com/aged-cheddar-charcuterie-board/)
-- [Charcuterie Board Presentation: Six Steps to a Better Build](https://charcuterielab.com/charcuterie-board-presentation/)
+- [Charcuterie Board Presentation: Six Steps to a Better Build](https://charcuterielab.com/blog/charcuterie-board-presentation/)
 - [Dark Chocolate and Cheese: The Pairing Science](https://charcuterielab.com/fat-tannin/)
 
 ## FAQ
