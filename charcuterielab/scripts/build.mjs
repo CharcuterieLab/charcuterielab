@@ -9,6 +9,7 @@ const publishTimeZone = "America/Chicago";
 const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
 const ebookPageUrl = "/ebook/";
 const ebookPrice = "$14.99";
+const newsletterUrl = "https://charcuterie-lab-report.beehiiv.com/subscribe";
 const assetVersion = "20260505-compact-card-grids";
 
 const paths = {
@@ -367,7 +368,10 @@ function markdownToHtml(markdown) {
         i += 1;
       }
       const quote = quoteLines.join(" ");
-      const isFooterPromo = /charcuterie lab book|50 boards built by science|newsletter|lab report/i.test(quote) && /https?:\/\//i.test(quote);
+      // Strips hand-written ebook promos that would duplicate the templated
+      // CTAs. Newsletter mentions are deliberately NOT stripped - the site has
+      // no other beehiiv link, so removing them cost real subscribers.
+      const isFooterPromo = /charcuterie lab book|50 boards built by science/i.test(quote) && /https?:\/\//i.test(quote);
       if (!isFooterPromo) {
         html.push(`<blockquote><p>${inline(quote)}</p></blockquote>`);
       }
@@ -587,14 +591,13 @@ function homePage(posts, products) {
   <section class="section newsletter" id="newsletter">
     <div class="newsletter-row">
       <div>
-        <h2>Get the daily lab report</h2>
-        <p>Short pairing notes, printable launches, and board-building ideas sent whenever you publish.</p>
+        <h2>Get the Charcuterie Lab Report</h2>
+        <p>One pairing that works and why, a board worth stealing, and new printables the day they land. Free, and you can leave any time.</p>
       </div>
-      <form name="newsletter" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="newsletter">
-        <label class="sr-only" for="email">Email</label>
+      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
+        <label class="sr-only" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <button class="button primary" type="submit">Join</button>
+        <button class="button primary" type="submit">Subscribe</button>
       </form>
     </div>
   </section>
@@ -906,12 +909,11 @@ function postPage(post, relatedPosts = []) {
     <div class="post-promo-panel post-promo-newsletter">
       <p class="eyebrow">Daily Lab Report</p>
       <h2>Get the next pairing idea in your inbox</h2>
-      <p>Short cheese notes, printable launches, and board-building ideas from Charcuterie Lab.</p>
-      <form name="newsletter" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="newsletter">
-        <label class="sr-only" for="post-email">Email</label>
+      <p>One pairing that works and why, a board worth stealing, and new printables the day they land.</p>
+      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
+        <label class="sr-only" for="post-email">Email address</label>
         <input id="post-email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <button class="button secondary" type="submit">Join</button>
+        <button class="button secondary" type="submit">Subscribe</button>
       </form>
     </div>
   </section>
