@@ -238,6 +238,31 @@ function topicTerms(post) {
   ]);
 }
 
+// Every post ends with a hand-written "## Related Reading" list. The build
+// removes that section and shows generated cards instead, so the author's own
+// choices were being thrown away. Read them here and feed them to
+// selectRelatedPosts, which already prefers explicit slugs and silently skips
+// any that aren't published yet - so a link to a queued post costs nothing
+// today and starts working by itself the day that post goes live.
+function relatedFromBody(body = "") {
+  const section = body.match(/^##\s*Related Reading\s*$([\s\S]*?)(?=^##\s|\Z)/mi);
+  if (!section) return [];
+
+  const slugs = [];
+  for (const line of section[1].split(/\r?\n/)) {
+    if (!line.trim().startsWith("- ")) continue;
+    const href = line.match(/\]\(\s*([^)\s]+)/);
+    if (!href) continue;
+    const path = href[1]
+      .replace(/^https?:\/\/charcuterielab\.com/i, "")
+      .split(/[#?]/)[0]
+      .replace(/^\/?blog\//, "")
+      .replace(/^\/+|\/+$/g, "");
+    if (path && !slugs.includes(path)) slugs.push(path);
+  }
+  return slugs;
+}
+
 function selectRelatedPosts(post, posts, limit = 3) {
   const related = [];
   const used = new Set([post.slug]);
@@ -427,7 +452,11 @@ async function loadPosts() {
         excerpt: data.excerpt ?? "",
         description: data.description ?? "",
         tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
-        relatedSlugs: parseListField(data.related).map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, "")),
+        relatedSlugs: (() => {
+          const declared = parseListField(data.related)
+            .map((slug) => slug.replace(/^\/?blog\//, "").replace(/\/$/, ""));
+          return declared.length ? declared : relatedFromBody(body);
+        })(),
         faq: parseFaqField(data.faq),
         body
       };
