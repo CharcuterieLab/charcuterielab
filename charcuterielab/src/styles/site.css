@@ -1841,3 +1841,47 @@ a {
     display: none;
   }
 }
+
+
+.footer-links {
+  display: flex;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.9rem 0 0.2rem;
+}
+
+.footer-links a {
+  color: inherit;
+  opacity: 0.72;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+.legal-prose {
+  max-width: 68ch;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.legal-prose h1 {
+  margin-bottom: 1.2rem;
+}
+
+.legal-prose h2 {
+  margin: 2.4rem 0 0.7rem;
+  font-size: 1.35rem;
+}
+
+.legal-prose p {
+  margin: 0 0 1rem;
+  line-height: 1.7;
+}

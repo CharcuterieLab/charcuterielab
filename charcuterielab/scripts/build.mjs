@@ -16,6 +16,13 @@ const ebookPrice = "$14.99";
 const newsletterUrl = "https://charcuterie-lab-report.beehiiv.com/subscribe";
 const assetVersion = "20260505-compact-card-grids";
 
+// Statcounter. Both values come from your project's Install Code page. They
+// are not secrets - they appear in the page source of every site that uses
+// Statcounter - so they belong in the repo. Leave them blank and no tracking
+// code is emitted at all, which keeps local builds and previews clean.
+const statcounterProject = "13352476";
+const statcounterSecurity = "37c3f389";
+
 const paths = {
   blog: join(root, "content", "blog"),
   products: join(root, "src", "data", "products.json"),
@@ -480,6 +487,23 @@ function socialIcon(name) {
   return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.2 2C6.6 2 3 5.7 3 10.5c0 3.4 1.9 5.3 3 5.3.5 0 .8-1.4.8-1.8 0-.5-1.3-1.6-1.3-3.6 0-4.1 3.1-7 7.3-7 3.5 0 6.1 2 6.1 5.7 0 2.8-1.1 8-4.8 8-1.3 0-2.5-1-2.1-2.4.4-1.7 1.3-3.5 1.3-4.7 0-2.7-3.9-2.2-3.9 1.3 0 1.1.4 1.8.4 1.8s-1.4 5.8-1.6 6.8c-.2 1 0 2.3 0 2.4 0 .1.2.1.3 0 .4-.5 1.5-1.8 2-2.9.2-.6.9-3.3.9-3.3.4.8 1.7 1.5 3 1.5 4 0 6.6-3.6 6.6-8.4C21 5.2 17.6 2 12.2 2Z"/></svg>';
 }
 
+function statcounterTag() {
+  if (!statcounterProject || !statcounterSecurity) return "";
+
+  // sc_invisible=1 keeps the visible hit-counter badge off the page.
+  // The noscript pixel matters more than usual here: Pinterest's in-app
+  // browser is the channel we care about and it is not always kind to JS.
+  return `  <script>
+    var sc_project=${statcounterProject};
+    var sc_invisible=1;
+    var sc_security="${statcounterSecurity}";
+  </script>
+  <script src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><img class="statcounter"
+    src="https://c.statcounter.com/${statcounterProject}/0/${statcounterSecurity}/1/"
+    alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></div></noscript>`;
+}
+
 function layout({
   title,
   description,
@@ -552,9 +576,15 @@ ${head}
         <a href="https://www.instagram.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Instagram">${socialIcon("instagram")}</a>
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
+      <div class="footer-links">
+        <a href="/blog/">Blog</a>
+        <a href="/ebook/">The Book</a>
+        <a href="/privacy/">Privacy</a>
+      </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
     </div>
   </footer>
+${statcounterTag()}
 </body>
 </html>`;
 }
@@ -859,6 +889,47 @@ function addInlinePromo(html, post) {
   return `${html}\n${promo}`;
 }
 
+function privacyPage() {
+  return layout({
+    title: "Privacy | Charcuterie Lab",
+    canonical: "/privacy/",
+    description: "What Charcuterie Lab collects, why, and how to opt out. Analytics, the newsletter, and links to Amazon and Gumroad.",
+    body: `<main class="ebook-page">
+  <section class="ebook-section">
+    <div class="ebook-section-inner">
+      <div class="legal-prose">
+        <p class="section-kicker">Privacy</p>
+        <h1>What this site collects</h1>
+        <p>Charcuterie Lab is a food blog run by one person. This page describes, in plain language, what happens to information when you visit.</p>
+
+        <h2>Analytics</h2>
+        <p>This site uses Statcounter to count visits and see which pages people read and where they arrived from. It records things like the page you viewed, the time, the site or search that referred you, your browser and device type, your approximate location, and your IP address. It is used to understand which articles are useful — not to identify you personally, and it is never sold or shared.</p>
+        <p>Statcounter sets a cookie to tell a returning visit from a new one. You can block it with your browser's cookie settings, with any ad or tracker blocker, or through <a href="https://statcounter.com/about/legal/#optout" target="_blank" rel="noopener">Statcounter's own opt-out</a>. Nothing on this site stops working if you do.</p>
+        <p>The site is hosted on Netlify, which keeps its own basic server logs and aggregate traffic counts as part of hosting.</p>
+
+        <h2>The newsletter</h2>
+        <p>If you subscribe, your email address goes to beehiiv, which sends the newsletter and records opens and clicks so I can tell which issues were worth reading. Your address is used for the newsletter and nothing else — never sold, never rented, never passed on. Every email has an unsubscribe link, and it works immediately.</p>
+
+        <h2>Links to other places</h2>
+        <p>Some links lead to Amazon, where the book is sold, and to Gumroad, where the printables are sold. Purchases happen entirely on those sites under their own privacy policies and payment handling — no payment details ever reach this site, because there is nothing here to pay for. Links may carry a tracking tag so I can tell which article sent someone; that tag identifies the article, not you.</p>
+
+        <h2>Children</h2>
+        <p>This site is meant for adults and is not directed at children under 13.</p>
+
+        <h2>Your choices</h2>
+        <p>You can block cookies and trackers in your browser, unsubscribe from the newsletter at any time, or write to me to ask what has been collected about you or to have it deleted. If you are in the EU or UK, GDPR gives you those rights explicitly; I will honour them regardless of where you live.</p>
+
+        <h2>Changes</h2>
+        <p>If what the site collects changes, this page changes with it.</p>
+
+        <p><em>Last updated: August 2026.</em></p>
+      </div>
+    </div>
+  </section>
+</main>`
+  });
+}
+
 function blogPage(posts) {
   return layout({
     title: "Blog | Charcuterie Lab",
@@ -966,6 +1037,7 @@ function sitemap(posts) {
     { loc: "/", priority: "1.0" },
     { loc: "/ebook/", priority: "0.9" },
     { loc: "/blog/", priority: "0.8" },
+    { loc: "/privacy/", priority: "0.2" },
     ...posts.map((post) => ({
       loc: `/blog/${post.slug}/`,
       lastmod: post.date,
@@ -1007,6 +1079,8 @@ async function build() {
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
+  await mkdir(join(dist, "privacy"), { recursive: true });
+  await writeFile(join(dist, "privacy", "index.html"), privacyPage());
 
   await Promise.all(
     posts.map(async (post) => {
