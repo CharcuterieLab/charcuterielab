@@ -1,6 +1,6 @@
 ---
 title: "50 Charcuterie Board Ideas for Every Occasion"
-date: "2026-09-04"
+date: "2026-09-03"
 image: "/images/50-boards-01-classic-american-starter.webp"
 excerpt: "Fifty complete board concepts — regional classics, holidays, dietary boards, budget builds and showstoppers — each one designed around a specific occasion, guest count and budget."
 description: "50 charcuterie board ideas organised by occasion, budget and guest count. Every board includes what it costs, how long it takes and the one detail that makes it work."
