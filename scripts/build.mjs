@@ -25,6 +25,13 @@ function inlineMarkdown(value = "") {
   return escapeHtml(value)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    // images first — ![alt](src) contains [alt](src), so the link rule below
+    // would otherwise swallow it and leave a stray "!" in the output
+    .replace(
+      /!\[([^\]]*)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)/g,
+      (_match, alt, src) =>
+        `<img class="body-image" src="${src}" alt="${alt}" loading="lazy" decoding="async">`
+    )
     .replace(
       /\[([^\]]+)\]\((https?:\/\/[^)\s]+|\/[^)\s]+)\)/g,
       (_match, label, href) => `<a href="${href}">${label}</a>`

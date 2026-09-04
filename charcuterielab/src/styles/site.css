@@ -1885,3 +1885,11 @@ a {
   margin: 0 0 1rem;
   line-height: 1.7;
 }
+
+/* images placed inside a post body via markdown */
+.post-body .body-image {
+  width: 100%;
+  margin: 30px 0 34px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
