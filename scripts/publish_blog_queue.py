@@ -331,9 +331,14 @@ def push_changes():
         return "Pushed existing local Git commit to GitHub."
 
     run(["git", "add", "charcuterielab/content/blog", "charcuterielab/public/images", "scripts/publish_blog_queue.py"])
-    status = run(["git", "status", "--short"]).strip()
-    if not status:
-        return "No Git changes to publish."
+    # Ask git what is actually STAGED, not what is merely dirty. The working
+    # tree usually has unrelated edits in it, and "git status --short" sees
+    # those too — which made a re-run of already-published posts stage nothing,
+    # then fail on "no changes added to commit".
+    staged = run(["git", "diff", "--cached", "--name-only"]).strip()
+    if not staged:
+        return ("Nothing new to publish - these posts are already committed. "
+                "The queue files can be moved to AAABlogPostsPublished.")
 
     run(["git", "commit", "-m", "Publish queued blog posts"])
     token = get_github_token()
