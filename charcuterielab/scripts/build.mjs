@@ -25,6 +25,7 @@ const statcounterSecurity = "37c3f389";
 
 const paths = {
   blog: join(root, "content", "blog"),
+  ingredients: [join(root, "content", "ingredients"), join(dirname(root), "content", "ingredients")],
   products: join(root, "src", "data", "products.json"),
   public: join(root, "public"),
   styles: join(root, "src", "styles", "site.css")
@@ -504,6 +505,283 @@ function statcounterTag() {
     alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></div></noscript>`;
 }
 
+const CATEGORY_ORDER = [
+  "Cheese",
+  "Cured Meat & Seafood",
+  "Crackers & Breads",
+  "Fruit",
+  "Nuts & Seeds",
+  "Spreads, Jams & Honey",
+  "Pickles, Olives & Briny",
+  "Finishing Touches"
+];
+
+const slugify = (value = "") =>
+  String(value)
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+// frontmatter arrays arrive as the literal string '["a", "b"]'
+
+const FREE_FROM = [
+  { key: "dairy-free", label: "Dairy-free", blocks: ["dairy"] },
+  { key: "gluten-free", label: "Gluten-free", blocks: ["gluten", "wheat", "rye", "oats"] },
+  { key: "nut-free", label: "Nut-free", blocks: ["tree nuts", "peanuts"] },
+  { key: "shellfish-free", label: "Shellfish-free", blocks: ["shellfish"] }
+];
+
+function freeFromFor(allergens = []) {
+  const lower = allergens.map((a) => a.toLowerCase());
+  return FREE_FROM.filter((f) => !f.blocks.some((b) => lower.includes(b))).map((f) => f.key);
+}
+
+async function loadIngredients() {
+  const sourceByFile = new Map();
+  for (const dir of paths.ingredients) {
+    let files = [];
+    try {
+      files = (await readdir(dir)).filter((file) => file.endsWith(".md"));
+    } catch {
+      continue; // directory is optional
+    }
+    for (const file of files) sourceByFile.set(file, dir);
+  }
+
+  const items = await Promise.all(
+    [...sourceByFile.entries()].map(async ([file, dir]) => {
+      const { data, body } = parseMarkdown(await readFile(join(dir, file), "utf8"));
+      const allergens = parseListField(data.allergens);
+      return {
+        slug: slugFromFile(file),
+        title: data.title ?? "Untitled",
+        category: data.category ?? "Other",
+        categorySlug: slugify(data.category ?? "Other"),
+        boardRole: data.board_role ?? "",
+        roleGroup: data.role_group ?? "",
+        excerpt: data.excerpt ?? "",
+        priceTier: data.price_tier ?? "",
+        serving: data.serving_per_person ?? "",
+        prepTime: data.prep_time ?? "",
+        allergens,
+        freeFrom: freeFromFor(allergens),
+        tags: parseListField(data.tags),
+        pairsWith: parseListField(data.pairs_with),
+        boardPost: data.board_post ?? "",
+        image: data.image ?? "",
+        faq: parseFaqField(data.faq),
+        html: markdownToHtml(body)
+      };
+    })
+  );
+
+  return items.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+
+function ingredientCard(item) {
+  return `      <li class="ing-card" data-name="${escapeHtml(item.title.toLowerCase())}" data-cat="${item.categorySlug}" data-role="${escapeHtml(item.roleGroup.toLowerCase())}" data-price="${escapeHtml(item.priceTier)}" data-free="${item.freeFrom.join(" ")}" data-search="${escapeHtml([item.title, item.category, item.boardRole, item.excerpt, ...item.tags, item.roleGroup].join(" ").toLowerCase())}">
+        <a href="/ingredients/${item.slug}/">
+          <span class="ing-card-cat">${escapeHtml(item.category)}</span>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p class="ing-card-role">${escapeHtml(item.boardRole)}${item.priceTier ? ` &middot; <span class="ing-price">${escapeHtml(item.priceTier)}</span>` : ""}</p>
+          <p class="ing-card-note">${escapeHtml(item.excerpt)}</p>
+        </a>
+      </li>`;
+}
+
+function ingredientsFinder(items, { heading, intro, showCategoryFilter = true }) {
+  const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
+  const roles = [...new Set(items.map((i) => i.roleGroup).filter(Boolean))].sort();
+  const prices = [...new Set(items.map((i) => i.priceTier).filter(Boolean))].sort();
+
+  const chip = (group, value, label) =>
+    `<button type="button" class="ing-chip" data-group="${group}" data-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`;
+
+  return `<section class="ing-finder">
+  <div class="section-inner">
+    <h1>${escapeHtml(heading)}</h1>
+    <p class="ing-intro">${escapeHtml(intro)}</p>
+
+    <div class="ing-controls">
+      <label class="ing-search-label" for="ing-search">Search ingredients</label>
+      <input id="ing-search" class="ing-search" type="search" placeholder="Search 130 ingredients — brie, gluten free, blue cheese&hellip;" autocomplete="off">
+
+      <div class="ing-facets">
+        ${showCategoryFilter && categories.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Category</span><div class="ing-chips">${categories.map((c) => chip("cat", slugify(c), c)).join("")}</div></div>` : ""}
+        <div class="ing-facet"><span class="ing-facet-label">Type</span><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></div>
+        ${prices.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Price</span><div class="ing-chips">${prices.map((p) => chip("price", p, p)).join("")}</div></div>` : ""}
+        <div class="ing-facet"><span class="ing-facet-label">Free from</span><div class="ing-chips">${FREE_FROM.map((f) => chip("free", f.key, f.label)).join("")}</div></div>
+      </div>
+
+      <p class="ing-count" role="status" aria-live="polite"><span id="ing-count">${items.length}</span> ingredients</p>
+      <button type="button" id="ing-reset" class="ing-reset" hidden>Clear filters</button>
+    </div>
+
+    <ul class="ing-grid" id="ing-grid">
+${items.map(ingredientCard).join("\n")}
+    </ul>
+    <p class="ing-empty" id="ing-empty" hidden>No ingredients match those filters. <button type="button" class="ing-linkbtn" id="ing-empty-reset">Clear them</button>.</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  var grid = document.getElementById("ing-grid");
+  if (!grid) return;
+  var cards = Array.prototype.slice.call(grid.children);
+  var search = document.getElementById("ing-search");
+  var countEl = document.getElementById("ing-count");
+  var emptyEl = document.getElementById("ing-empty");
+  var resetEl = document.getElementById("ing-reset");
+  var active = { cat: [], role: [], price: [], free: [] };
+
+  function apply() {
+    var q = (search.value || "").trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (card) {
+      var ok = true;
+      if (q && card.dataset.search.indexOf(q) === -1) ok = false;
+      if (ok && active.cat.length && active.cat.indexOf(card.dataset.cat) === -1) ok = false;
+      if (ok && active.role.length && active.role.indexOf(card.dataset.role) === -1) ok = false;
+      if (ok && active.price.length && active.price.indexOf(card.dataset.price) === -1) ok = false;
+      if (ok && active.free.length) {
+        var has = (card.dataset.free || "").split(" ");
+        for (var i = 0; i < active.free.length; i++) {
+          if (has.indexOf(active.free[i]) === -1) { ok = false; break; }
+        }
+      }
+      card.hidden = !ok;
+      if (ok) shown++;
+    });
+    countEl.textContent = shown;
+    emptyEl.hidden = shown !== 0;
+    var any = q || active.cat.length || active.role.length || active.price.length || active.free.length;
+    resetEl.hidden = !any;
+  }
+
+  search.addEventListener("input", apply);
+
+  Array.prototype.forEach.call(document.querySelectorAll(".ing-chip"), function (btn) {
+    btn.addEventListener("click", function () {
+      var g = btn.dataset.group, v = btn.dataset.value;
+      var i = active[g].indexOf(v);
+      if (i === -1) { active[g].push(v); btn.classList.add("is-on"); btn.setAttribute("aria-pressed", "true"); }
+      else { active[g].splice(i, 1); btn.classList.remove("is-on"); btn.setAttribute("aria-pressed", "false"); }
+      apply();
+    });
+    btn.setAttribute("aria-pressed", "false");
+  });
+
+  function reset() {
+    search.value = "";
+    active = { cat: [], role: [], price: [], free: [] };
+    Array.prototype.forEach.call(document.querySelectorAll(".ing-chip"), function (b) {
+      b.classList.remove("is-on"); b.setAttribute("aria-pressed", "false");
+    });
+    apply();
+  }
+  resetEl.addEventListener("click", reset);
+  document.getElementById("ing-empty-reset").addEventListener("click", reset);
+})();
+</script>`;
+}
+
+function ingredientsHub(items) {
+  const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
+  return layout({
+    canonical: "/ingredients/",
+    title: "Ingredients | Charcuterie Lab",
+    description:
+      "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
+    body: `<main class="ing-main">
+${ingredientsFinder(items, {
+  heading: "Ingredients",
+  intro:
+    "Every ingredient a board can hold, one page each. What it is, what it pairs with and why, how to prep it, and exactly what to buy."
+})}
+  <section class="section alt">
+    <div class="section-inner">
+      <p class="section-kicker">Browse by category</p>
+      <ul class="ing-catlist">
+${categories
+  .map(
+    (c) =>
+      `        <li><a href="/ingredients/${slugify(c)}/"><strong>${escapeHtml(c)}</strong><span>${items.filter((i) => i.category === c).length} ingredients</span></a></li>`
+  )
+  .join("\n")}
+      </ul>
+    </div>
+  </section>
+</main>`
+  });
+}
+
+function ingredientCategoryPage(category, items) {
+  return layout({
+    canonical: `/ingredients/${slugify(category)}/`,
+    title: `${category} | Ingredients | Charcuterie Lab`,
+    description: `Every ${category.toLowerCase()} ingredient for a charcuterie board — pairings, prep and what to buy, one page each.`,
+    body: `<main class="ing-main">
+  <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> ${escapeHtml(category)}</p>
+${ingredientsFinder(items, {
+  heading: category,
+  intro: `${items.length} ${category.toLowerCase()} ingredients, each with pairings, prep and what to buy.`,
+  showCategoryFilter: false
+})}
+</main>`
+  });
+}
+
+function ingredientPage(item, bySlug) {
+  const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
+  const meta = [
+    item.boardRole && ["Board role", item.boardRole],
+    item.priceTier && ["Price", item.priceTier],
+    item.serving && ["Per person", item.serving],
+    item.prepTime && ["Prep", item.prepTime],
+    item.allergens.length && ["Allergens", item.allergens.join(", ")]
+  ].filter(Boolean);
+
+  return layout({
+    canonical: `/ingredients/${item.slug}/`,
+    modified: item.updated || item.date,
+    title: `${item.title} | Ingredients | Charcuterie Lab`,
+    description: item.excerpt,
+    head: faqSchema(item),
+    body: `<main class="ing-main ing-detail">
+  <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> <a href="/ingredients/${item.categorySlug}/">${escapeHtml(item.category)}</a> <span aria-hidden="true">/</span> ${escapeHtml(item.title)}</p>
+  <article class="ing-article">
+    <header class="ing-header">
+      <h1>${escapeHtml(item.title)}</h1>
+      <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
+      ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async">` : ""}
+      <dl class="ing-meta">
+${meta.map(([k, v]) => `        <div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join("\n")}
+      </dl>
+    </header>
+    <div class="post-body ing-body">
+      ${item.html}
+    </div>
+    ${
+      related.length
+        ? `<section class="ing-related">
+      <h2>Pairs well with</h2>
+      <ul class="ing-related-list">
+${related.map((r) => `        <li><a href="/ingredients/${r.slug}/"><strong>${escapeHtml(r.title)}</strong><span>${escapeHtml(r.boardRole)}</span></a></li>`).join("\n")}
+      </ul>
+    </section>`
+        : ""
+    }
+    ${item.boardPost ? `<p class="ing-boardpost">Building a whole board around it? <a href="${escapeHtml(item.boardPost)}">See board ideas &rarr;</a></p>` : ""}
+    <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
+  </article>
+</main>`
+  });
+}
+
+
 function layout({
   title,
   description,
@@ -562,6 +840,7 @@ ${head}
       <div class="nav-links">
         <a href="/ebook/">The Book</a>
         <a href="/blog/">Blog</a>
+        <a href="/ingredients/">Ingredients</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
@@ -1032,12 +1311,25 @@ function postPage(post, relatedPosts = []) {
   });
 }
 
-function sitemap(posts) {
+function sitemap(posts, ingredients = []) {
+  const ingredientCategories = CATEGORY_ORDER.filter((c) =>
+    ingredients.some((i) => i.category === c)
+  );
   const urls = [
     { loc: "/", priority: "1.0" },
     { loc: "/ebook/", priority: "0.9" },
     { loc: "/blog/", priority: "0.8" },
     { loc: "/privacy/", priority: "0.2" },
+    ...(ingredients.length ? [{ loc: "/ingredients/", priority: "0.8" }] : []),
+    ...ingredientCategories.map((category) => ({
+      loc: `/ingredients/${slugify(category)}/`,
+      priority: "0.7"
+    })),
+    ...ingredients.map((item) => ({
+      loc: `/ingredients/${item.slug}/`,
+      lastmod: item.updated || item.date,
+      priority: "0.6"
+    })),
     ...posts.map((post) => ({
       loc: `/blog/${post.slug}/`,
       lastmod: post.date,
@@ -1064,9 +1356,10 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, products] = await Promise.all([
+  const [allPosts, products, ingredients] = await Promise.all([
     loadPosts(),
-    readFile(paths.products, "utf8").then(JSON.parse)
+    readFile(paths.products, "utf8").then(JSON.parse),
+    loadIngredients()
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
   posts.forEach((post) => {
@@ -1074,7 +1367,7 @@ async function build() {
   });
 
   await writeFile(join(dist, "index.html"), homePage(posts, products));
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -1089,6 +1382,32 @@ async function build() {
       await writeFile(join(dir, "index.html"), postPage(post, selectRelatedPosts(post, posts)));
     })
   );
+
+  if (ingredients.length) {
+    const bySlug = new Map(ingredients.map((item) => [item.slug, item]));
+    await mkdir(join(dist, "ingredients"), { recursive: true });
+    await writeFile(join(dist, "ingredients", "index.html"), ingredientsHub(ingredients));
+
+    const categories = CATEGORY_ORDER.filter((c) => ingredients.some((i) => i.category === c));
+    await Promise.all(
+      categories.map(async (category) => {
+        const dir = join(dist, "ingredients", slugify(category));
+        await mkdir(dir, { recursive: true });
+        await writeFile(
+          join(dir, "index.html"),
+          ingredientCategoryPage(category, ingredients.filter((i) => i.category === category))
+        );
+      })
+    );
+
+    await Promise.all(
+      ingredients.map(async (item) => {
+        const dir = join(dist, "ingredients", item.slug);
+        await mkdir(dir, { recursive: true });
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug));
+      })
+    );
+  }
 
   const feed = posts
     .map((post) => `- ${post.date} ${post.title} /blog/${post.slug}/`)
