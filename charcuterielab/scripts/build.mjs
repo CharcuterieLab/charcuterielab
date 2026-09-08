@@ -571,7 +571,7 @@ async function loadIngredients() {
         boardPost: data.board_post ?? "",
         image: data.image ?? "",
         faq: parseFaqField(data.faq),
-        html: markdownToHtml(body)
+        html: sensoryBlock(markdownToHtml(body))
       };
     })
   );
@@ -585,8 +585,7 @@ function ingredientCard(item) {
         <a href="/ingredients/${item.slug}/">
           <span class="ing-card-cat">${escapeHtml(item.category)}</span>
           <h3>${escapeHtml(item.title)}</h3>
-          <p class="ing-card-role">${escapeHtml(item.boardRole)}${item.priceTier ? ` &middot; <span class="ing-price">${escapeHtml(item.priceTier)}</span>` : ""}</p>
-          <p class="ing-card-note">${escapeHtml(item.excerpt)}</p>
+          <p class="ing-card-role">${escapeHtml(item.boardRole)}${item.priceTier ? `<span class="ing-price">${escapeHtml(item.priceTier)}</span>` : ""}</p>
         </a>
       </li>`;
 }
@@ -606,11 +605,11 @@ function ingredientsFinder(items, { heading, intro, showCategoryFilter = true })
 
     <div class="ing-controls">
       <label class="ing-search-label" for="ing-search">Search ingredients</label>
-      <input id="ing-search" class="ing-search" type="search" placeholder="Search 130 ingredients — brie, gluten free, blue cheese&hellip;" autocomplete="off">
+      <input id="ing-search" class="ing-search" type="search" placeholder="Search ${items.length} ingredients &mdash; brie, gluten free, blue cheese&hellip;" autocomplete="off">
 
       <div class="ing-facets">
         ${showCategoryFilter && categories.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Category</span><div class="ing-chips">${categories.map((c) => chip("cat", slugify(c), c)).join("")}</div></div>` : ""}
-        <div class="ing-facet"><span class="ing-facet-label">Type</span><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></div>
+        <details class="ing-facet ing-facet-more"><summary><span class="ing-facet-label">Type</span><span class="ing-facet-hint">${roles.length} options</span></summary><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></details>
         ${prices.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Price</span><div class="ing-chips">${prices.map((p) => chip("price", p, p)).join("")}</div></div>` : ""}
         <div class="ing-facet"><span class="ing-facet-label">Free from</span><div class="ing-chips">${FREE_FROM.map((f) => chip("free", f.key, f.label)).join("")}</div></div>
       </div>
@@ -731,6 +730,21 @@ ${ingredientsFinder(items, {
   showCategoryFilter: false
 })}
 </main>`
+  });
+}
+
+function sensoryBlock(html) {
+  return html.replace(/<p>(<strong>[^<]+:<\/strong>[\s\S]*?)<\/p>/g, (match, inner) => {
+    const parts = inner.split(/(?=<strong>[^<]+:<\/strong>)/).filter((part) => part.trim());
+    if (parts.length < 2) return match;
+    if (!parts.every((part) => /^<strong>[^<]+:<\/strong>/.test(part.trim()))) return match;
+    const rows = parts
+      .map((part) => {
+        const m = part.trim().match(/^<strong>([^<]+):<\/strong>\s*([\s\S]*)$/);
+        return `<div><dt>${m[1]}</dt><dd>${m[2].trim()}</dd></div>`;
+      })
+      .join("");
+    return `<dl class="ing-sensory">${rows}</dl>`;
   });
 }
 
