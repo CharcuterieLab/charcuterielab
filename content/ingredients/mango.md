@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "tropical", "budget", "fusion"]
-pairs_with: ["prosciutto-di-parma", "fresh-chevre", "manchego", "feta", "coppa"]
+pairs_with: ["prosciutto-di-parma", "fresh-chevre", "manchego", "feta", "coppa", "dragon-fruit"]
 avoid_with: []
 faq: "[{"question": "Which mango is best for a charcuterie board?", "answer": "Ataulfo — small, yellow, kidney-shaped, sold as honey or champagne mango. No fibre, so it slices cleanly."}, {"question": "How do I tell if a mango is ripe?", "answer": "By squeeze and smell, not colour. It should give slightly and smell sweet at the stem."}, {"question": "How do I cut a mango?", "answer": "Slice down either side of the flat central pit, then either score and invert the skin, or peel and cut ribbons."}, {"question": "What cheese goes with mango?", "answer": "Fresh goat cheese, feta, and manchego. Skip blue cheese unless there's chilli involved."}, {"question": "Why is my mango stringy?", "answer": "Tommy Atkins and similar large red varieties are fibrous. Buy Ataulfo instead."}]"
 ---

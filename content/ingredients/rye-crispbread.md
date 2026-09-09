@@ -13,7 +13,7 @@ serving_per_person: "2–3 pieces"
 prep_time: "2 minutes"
 allergens: ["rye", "gluten", "wheat"]
 tags: ["crackers", "scandinavian", "hearty", "smoked fish"]
-pairs_with: ["whole-wheat-crackers", "seeded-crackers", "water-crackers", "brie", "burrata", "cream-cheese", "lefse", "smoked-salmon"]
+pairs_with: ["whole-wheat-crackers", "seeded-crackers", "water-crackers", "brie", "burrata", "cream-cheese", "lefse", "smoked-salmon", "pickled-beets", "tinned-mackerel"]
 avoid_with: ["delicate-fresh-cheese", "mild-brie"]
 image_alt: "Broken shards of dark rye crispbread beside smoked salmon, dill and butter"
 faq: "[{"question": "Is rye crispbread the same as a rye cracker?", "answer": "Close, but crispbread is bigger, drier and made mostly of rye. A rye cracker is usually wheat with rye flavoring."}, {"question": "How many pieces per person?", "answer": "2–3 shards. They're much larger than a cracker."}, {"question": "Does it go stale?", "answer": "Barely. It's baked dry, so it keeps for months and holds up on a board longer than anything else."}, {"question": "Is it gluten-free?", "answer": "No. Rye contains gluten, and most brands also contain wheat."}, {"question": "What if my guests don't like rye?", "answer": "Put out Wasa Multi Grain instead of the sourdough or hearty rye. It's much milder and reads as a seeded cracker."}]"

@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "2 minutes"
 allergens: ["gluten"]
 tags: ["crackers", "dessert", "holiday", "budget", "seasonal"]
-pairs_with: ["gorgonzola", "aged-gouda", "apple-butter", "fresh-chevre", "cranberry-sauce"]
+pairs_with: ["gorgonzola", "aged-gouda", "apple-butter", "fresh-chevre", "cranberry-sauce", "candied-ginger"]
 avoid_with: []
 faq: "[{"question": "Do gingersnaps go with cheese?", "answer": "Yes, and better than most sweet biscuits. Blue cheese and aged gouda especially — the spice stands up where plain sweetness wouldn't."}, {"question": "Hard or chewy gingersnaps?", "answer": "Hard. The snap is what lets them carry a wedge of cheese."}, {"question": "What's the difference between gingersnaps and speculoos?", "answer": "Gingersnaps lead with ginger and molasses; speculoos leads with cinnamon and caramelised sugar."}, {"question": "Are they only for holiday boards?", "answer": "They fit best there, but blue cheese and gingersnaps work any time of year."}, {"question": "How many per person?", "answer": "Two or three, about three-quarters of an ounce."}]"
 ---

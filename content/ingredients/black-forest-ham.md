@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "german", "smoked", "ham"]
-pairs_with: ["speck", "landjager", "emmental", "rye-crispbread", "cocktail-rye", "apple-butter", "honey-mustard", "cranberry-sauce", "bread-and-butter-pickles"]
+pairs_with: ["speck", "landjager", "emmental", "rye-crispbread", "cocktail-rye", "apple-butter", "honey-mustard", "cranberry-sauce", "bread-and-butter-pickles", "jarlsberg"]
 avoid_with: ["smoked-gouda", "delicate-fresh-cheese"]
 faq: "[{"question": "Is American Black Forest ham the real thing?", "answer": "Usually not. Most US deli Black Forest ham is wet-cured and cooked. The German PGI product is dry-cured and cold-smoked, and eaten like prosciutto."}, {"question": "Why is the outside black?", "answer": "Weeks of cold smoking over fir and pine brush, plus the spice rub."}, {"question": "Is it raw?", "answer": "The dry-cured German version is uncooked but fully cured, like prosciutto. The American deli version is cooked."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "What's the closest alternative?", "answer": "Speck — Italian, juniper-spiced and cold-smoked. Very similar in role."}]"
 ---

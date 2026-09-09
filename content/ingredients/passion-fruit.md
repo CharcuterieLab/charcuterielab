@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["fruit", "tropical", "unique", "luxury"]
-pairs_with: ["burrata", "ricotta", "fresh-chevre", "mascarpone", "fresh-mozzarella"]
+pairs_with: ["burrata", "ricotta", "fresh-chevre", "mascarpone", "fresh-mozzarella", "dragon-fruit"]
 avoid_with: []
 faq: "[{"question": "Do you eat passion fruit seeds?", "answer": "Yes. They're crunchy, edible, and provide the texture. Straining them out leaves a thin juice."}, {"question": "How do I know when passion fruit is ripe?", "answer": "The skin should be deeply wrinkled. Smooth means underripe."}, {"question": "How do I serve passion fruit on a board?", "answer": "Halve it and set the halves out as cups with a small spoon, or scoop the pulp into a dish and spoon it over fresh cheese."}, {"question": "What does passion fruit go with?", "answer": "Cream cheeses — burrata, ricotta, mascarpone, fresh goat cheese. It overwhelms cured meat and aged cheese."}, {"question": "Is frozen pulp as good?", "answer": "For spooning over cheese, close enough, and much cheaper. The halved shells are better presentation."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "2–3 sticks"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "italian", "styling", "aperitivo"]
-pairs_with: ["baguette", "water-crackers", "crostini", "burrata", "parmigiano-reggiano", "coppa", "mortadella"]
+pairs_with: ["baguette", "water-crackers", "crostini", "burrata", "parmigiano-reggiano", "coppa", "mortadella", "prosciutto-cotto"]
 avoid_with: ["thick-dips"]
 image_alt: "Thin Italian breadsticks standing in a glass, two wrapped in spirals of prosciutto"
 faq: "[{"question": "How do I wrap grissini in prosciutto?", "answer": "Halve a slice lengthwise, spiral it loosely down two-thirds of the stick, leave the top bare as a handle. Do it within an hour of serving."}, {"question": "How many breadsticks per person?", "answer": "2–3, or one wrapped and one plain."}, {"question": "Rubatà or stirati — does it matter?", "answer": "For taste, barely. For photographs, a lot. The knobbly hand-rolled kind looks handmade because it is."}, {"question": "Can I make them ahead?", "answer": "Wrapped, no — an hour at most. Plain, they keep for weeks in a sealed bag."}, {"question": "Why did mine go soft on the board?", "answer": "Moisture, usually from the prosciutto or from sitting next to cut fruit. Wrap late and place them away from anything wet."}]"

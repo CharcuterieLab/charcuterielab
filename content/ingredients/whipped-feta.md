@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["dip", "greek", "make-ahead", "crowd-pleaser", "vegetarian"]
-pairs_with: ["pita-chips", "mixed-marinated-olives", "roasted-red-peppers", "hot-honey", "pepperoncini"]
+pairs_with: ["pita-chips", "mixed-marinated-olives", "roasted-red-peppers", "hot-honey", "pepperoncini", "harissa", "everything-bagel-seasoning", "aleppo-pepper"]
 avoid_with: []
 faq: "[{"question": "How do I make whipped feta?", "answer": "Blend 8 oz block feta with 1/2 cup Greek yoghurt, 2 tbsp olive oil and lemon juice for two full minutes until light and fluffy."}, {"question": "Why is my whipped feta grainy?", "answer": "Either you used pre-crumbled feta, or you didn't blend long enough. Use block feta in brine and give it two minutes."}, {"question": "What do you serve with whipped feta?", "answer": "Pita chips, warm flatbread, cucumber and raw vegetables, with hot honey or pistachios on top."}, {"question": "Can I make it ahead?", "answer": "Yes — three days in the fridge. Bring it back to room temperature and re-swirl before serving."}, {"question": "How much per person?", "answer": "About an ounce. People eat more of this than any other spread on the board."}]"
 ---

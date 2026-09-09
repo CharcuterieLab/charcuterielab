@@ -13,7 +13,7 @@ serving_per_person: "4–5 chips"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["chips", "sturdy", "dips", "brunch"]
-pairs_with: ["pita-chips", "everything-crackers", "pretzel-crisps", "brie", "burrata", "cream-cheese", "smoked-salmon"]
+pairs_with: ["pita-chips", "everything-crackers", "pretzel-crisps", "brie", "burrata", "cream-cheese", "smoked-salmon", "everything-bagel-seasoning"]
 avoid_with: ["delicate-fresh-cheese", "caviar"]
 faq: "[{"question": "Bagel chips or pita chips?", "answer": "Bagel chips are denser and hold up longer; pita chips are lighter and fit a Mediterranean board better. For a hot dip, bagel chips."}, {"question": "Can I make them from real bagels?", "answer": "Yes, and it's the best version. Day-old bagels sliced thin, brushed with oil, 350°F for 12–15 minutes."}, {"question": "How many per person?", "answer": "4–5, or more if the board is dip-focused."}, {"question": "Do they belong on a cheese board?", "answer": "Only the plain ones, and only on a casual board. They overpower delicate cheeses."}]"
 ---

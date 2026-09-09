@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "aged", "spanish", "sheep"]
 pairs_with: ["idiazabal", "roncal", "rosemary-crackers", "olive-oil-crackers", "jamon-serrano", "marcona-almonds", "spiced-nut-mix", "persimmon", "fresh-apricots", "kiwi", "fig-jam", "honey", "membrillo", "apricot-jam", "romesco", "castelvetrano-olives", "kalamata-olives", "mixed-marinated-olives", "caperberries", "roasted-red-peppers", "rosemary-sprigs"]
 avoid_with: ["delicate-fresh-cheese"]
-board_post: "/blog/manchego-charcuterie-board/"
+board_post: "/blog/manchego/"
 faq: "[{"question": "Is Manchego cow's milk or sheep?", "answer": "Sheep — Manchega sheep specifically, from La Mancha. Cow's-milk imitations exist but can't legally use the name."}, {"question": "What's the zigzag pattern on the rind?", "answer": "An imprint from the woven esparto grass mold the cheese was traditionally pressed in. It's now a mark of authenticity."}, {"question": "Can you eat the rind?", "answer": "No. Trim it off."}, {"question": "Which age should I buy?", "answer": "Six months for general board use, twelve or more if the cheese is the point."}, {"question": "What's the single best pairing?", "answer": "Membrillo — Spanish quince paste. It's the traditional pairing for a reason."}]"
 ---
 

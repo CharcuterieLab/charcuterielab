@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "aged", "dutch", "crowd-pleaser"]
 pairs_with: ["aged-cheddar", "smoked-gouda", "whole-wheat-crackers", "rye-crispbread", "truffle-cheese", "smoked-almonds", "hazelnuts", "spiced-nut-mix", "plums", "kumquats", "prunes", "apricot-jam", "bacon-jam", "dark-chocolate", "chocolate-covered-almonds", "gingersnaps", "speculoos"]
 avoid_with: ["delicate-fresh-cheese"]
-board_post: "/blog/gouda-charcuterie-board/"
+board_post: "/blog/aged-gouda/"
 faq: "[{"question": "Why does aged gouda taste sweet?", "answer": "Its curd is washed during making, which removes lactic acid. With less acid to sour it, the remaining milk sugars concentrate and caramelize as it ages."}, {"question": "What are the crunchy crystals?", "answer": "Tyrosine, the same amino acid crystals found in aged cheddar and parmesan. A sign of long aging."}, {"question": "How old should it be?", "answer": "Eighteen months minimum. Two years and up is where the butterscotch really arrives."}, {"question": "Aged gouda or aged cheddar?", "answer": "Gouda is sweet and caramel; cheddar is sharp and tangy. Put both on and let people compare."}, {"question": "Can you eat the rind?", "answer": "No. Gouda's wax and dry rind aren't edible — trim them off."}]"
 ---
 

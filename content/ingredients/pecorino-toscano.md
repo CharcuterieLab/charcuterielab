@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "sheep", "mild"]
-pairs_with: ["pecorino-romano", "ossau-iraty", "manchego", "taralli", "truffle-cheese", "finocchiona", "prosciutto-di-parma"]
+pairs_with: ["pecorino-romano", "ossau-iraty", "manchego", "taralli", "truffle-cheese", "finocchiona", "prosciutto-di-parma", "pesto"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is Pecorino Toscano the same as Pecorino Romano?", "answer": "No. Same milk, completely different cheeses. Romano is hard, dry and very salty. Toscano is mild, buttery and much softer."}, {"question": "Which grade should I buy?", "answer": "Stagionato — aged four months or more — for a board."}, {"question": "Can you eat the rind?", "answer": "No. Trim it, especially on wheels rubbed with tomato or ash."}, {"question": "Is it a good beginner sheep cheese?", "answer": "Yes, probably the best. It's approachable in a way Romano isn't."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

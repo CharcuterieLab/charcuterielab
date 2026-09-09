@@ -516,6 +516,61 @@ const CATEGORY_ORDER = [
   "Finishing Touches"
 ];
 
+// Each category gets an accent colour and a line glyph. The glyph fills the
+// card thumbnail until a real photograph exists at /images/ingredients/<slug>.jpg,
+// so the grid reads as pictures rather than as a list of links from day one.
+const CATEGORY_ART = {
+  "Cheese": {
+    tint: "#b8862b",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.4 20.3 6.1a.6.6 0 0 1 .9.5v10.8a.6.6 0 0 1-.6.6H3.6a.6.6 0 0 1-.6-.6Z"/><circle cx="16.2" cy="13.4" r="1.25"/><circle cx="11.3" cy="15.3" r=".95"/></svg>`
+  },
+  "Cured Meat & Seafood": {
+    tint: "#a5453c",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><circle cx="9.3" cy="9.9" r="1.15"/><circle cx="14.7" cy="10.6" r="1"/><circle cx="11.9" cy="14.8" r="1.25"/></svg>`
+  },
+  "Crackers & Breads": {
+    tint: "#9c7440",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.6" y="3.6" width="16.8" height="16.8" rx="3.4"/><circle cx="9" cy="9" r=".7"/><circle cx="15" cy="9" r=".7"/><circle cx="9" cy="15" r=".7"/><circle cx="15" cy="15" r=".7"/><circle cx="12" cy="12" r=".7"/></svg>`
+  },
+  "Fruit": {
+    tint: "#9b3f5c",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.6c-3.3 0-5.9-2.7-5.9-6.3 0-3.7 2.6-6.5 5.9-6.5s5.9 2.8 5.9 6.5c0 3.6-2.6 6.3-5.9 6.3Z"/><path d="M12 7.8V4.4"/><path d="M12.3 6.4c.2-1.8 1.7-3 3.4-2.9.1 1.8-1.2 3.2-3 3.3"/></svg>`
+  },
+  "Nuts & Seeds": {
+    tint: "#7b5233",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4c3.7 2.7 5.7 5.9 5.7 9.3 0 4.4-2.5 7.9-5.7 7.9s-5.7-3.5-5.7-7.9c0-3.4 2-6.6 5.7-9.3Z"/><path d="M12 7.2v10.4"/></svg>`
+  },
+  "Spreads, Jams & Honey": {
+    tint: "#c2911f",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 4.2h11.2v3.4H6.4z"/><path d="M7.4 7.6h9.2v11a1.8 1.8 0 0 1-1.8 1.8H9.2a1.8 1.8 0 0 1-1.8-1.8Z"/><path d="M10 12.4h4"/></svg>`
+  },
+  "Pickles, Olives & Briny": {
+    tint: "#4e6b33",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="13.2" rx="5.7" ry="7.4"/><circle cx="12" cy="11" r="1.7"/><path d="M12 5.9c1.3-1.6 3.2-2.1 4.8-1.8"/></svg>`
+  },
+  "Finishing Touches": {
+    tint: "#3d6a56",
+    glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V8.2"/><path d="M12 13.4c0-3.1 1.9-5.2 4.9-5.6.2 3.2-1.7 5.6-4.9 5.6Z"/><path d="M12 13.4c0-3.1-1.9-5.2-4.9-5.6-.2 3.2 1.7 5.6 4.9 5.6Z"/><path d="M12 8.4c0-2.4 1.5-4 3.8-4.3.2 2.4-1.3 4.3-3.8 4.3Z"/></svg>`
+  }
+};
+
+const DEFAULT_ART = {
+  tint: "#8f6d2e",
+  glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="2.6"/></svg>`
+};
+
+function categoryArt(category) {
+  return CATEGORY_ART[category] || DEFAULT_ART;
+}
+
+const SPEC_ICONS = {
+  role: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="2.9"/></svg>`,
+  price: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 12.7 12.6 20.3a1.6 1.6 0 0 1-2.3 0L4 14V4h10l6.2 6.3a1.6 1.6 0 0 1 0 2.4Z"/><circle cx="8.4" cy="8.4" r="1.25"/></svg>`,
+  serving: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.4 20.2a6.6 6.6 0 0 1 13.2 0"/></svg>`,
+  prep: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.2V12l3.2 2"/></svg>`,
+  allergens: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6 21.2 19.8H2.8Z"/><path d="M12 10v4.1"/><path d="M12 17.2h.01"/></svg>`
+};
+
 const slugify = (value = "") =>
   String(value)
     .toLowerCase()
@@ -537,7 +592,26 @@ function freeFromFor(allergens = []) {
   return FREE_FROM.filter((f) => !f.blocks.some((b) => lower.includes(b))).map((f) => f.key);
 }
 
+// Drop a photo at public/images/ingredients/<slug>.jpg (or .png/.webp) and the
+// card and detail page pick it up on the next build - no frontmatter edit needed.
+// An explicit image: in the frontmatter still wins.
+async function ingredientPhotos() {
+  const byslug = new Map();
+  try {
+    for (const file of await readdir(join(paths.public, "images", "ingredients"))) {
+      const m = file.match(/^(.+)\.(jpe?g|png|webp|avif)$/i);
+      if (m && !byslug.has(m[1].toLowerCase())) {
+        byslug.set(m[1].toLowerCase(), `/images/ingredients/${file}`);
+      }
+    }
+  } catch {
+    // no photo directory yet
+  }
+  return byslug;
+}
+
 async function loadIngredients() {
+  const photos = await ingredientPhotos();
   const sourceByFile = new Map();
   for (const dir of paths.ingredients) {
     let files = [];
@@ -553,8 +627,9 @@ async function loadIngredients() {
     [...sourceByFile.entries()].map(async ([file, dir]) => {
       const { data, body } = parseMarkdown(await readFile(join(dir, file), "utf8"));
       const allergens = parseListField(data.allergens);
+      const slug = slugFromFile(file);
       return {
-        slug: slugFromFile(file),
+        slug,
         title: data.title ?? "Untitled",
         category: data.category ?? "Other",
         categorySlug: slugify(data.category ?? "Other"),
@@ -569,7 +644,7 @@ async function loadIngredients() {
         tags: parseListField(data.tags),
         pairsWith: parseListField(data.pairs_with),
         boardPost: data.board_post ?? "",
-        image: data.image ?? "",
+        image: data.image || photos.get(slug) || "",
         faq: parseFaqField(data.faq),
         html: sensoryBlock(markdownToHtml(body))
       };
@@ -580,12 +655,28 @@ async function loadIngredients() {
 }
 
 
+function ingredientThumb(item, art) {
+  if (item.image) {
+    return `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">`;
+  }
+  return `<span class="ing-thumb-art">${art.glyph}</span>`;
+}
+
 function ingredientCard(item) {
-  return `      <li class="ing-card" data-name="${escapeHtml(item.title.toLowerCase())}" data-cat="${item.categorySlug}" data-role="${escapeHtml(item.roleGroup.toLowerCase())}" data-price="${escapeHtml(item.priceTier)}" data-free="${item.freeFrom.join(" ")}" data-search="${escapeHtml([item.title, item.category, item.boardRole, item.excerpt, ...item.tags, item.roleGroup].join(" ").toLowerCase())}">
+  const art = categoryArt(item.category);
+  const facts = [
+    item.priceTier ? `<span><b>${escapeHtml(item.priceTier)}</b></span>` : "",
+    item.serving ? `<span>${escapeHtml(item.serving)} per person</span>` : ""
+  ].filter(Boolean);
+
+  return `      <li class="ing-card" style="--ing-tint:${art.tint}" data-name="${escapeHtml(item.title.toLowerCase())}" data-cat="${item.categorySlug}" data-role="${escapeHtml(item.roleGroup.toLowerCase())}" data-price="${escapeHtml(item.priceTier)}" data-free="${item.freeFrom.join(" ")}" data-search="${escapeHtml([item.title, item.category, item.boardRole, item.excerpt, ...item.tags, item.roleGroup].join(" ").toLowerCase())}">
         <a href="/ingredients/${item.slug}/">
-          <span class="ing-card-cat">${escapeHtml(item.category)}</span>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p class="ing-card-role">${escapeHtml(item.boardRole)}${item.priceTier ? `<span class="ing-price">${escapeHtml(item.priceTier)}</span>` : ""}</p>
+          <span class="ing-thumb">${ingredientThumb(item, art)}<span class="ing-thumb-cat">${escapeHtml(item.category)}</span></span>
+          <div class="ing-card-body">
+            <h3>${escapeHtml(item.title)}</h3>
+            <span class="ing-card-role">${escapeHtml(item.boardRole)}</span>
+            ${facts.length ? `<span class="ing-card-facts">${facts.join("")}</span>` : ""}
+          </div>
         </a>
       </li>`;
 }
@@ -596,7 +687,7 @@ function ingredientsFinder(items, { heading, intro, showCategoryFilter = true })
   const prices = [...new Set(items.map((i) => i.priceTier).filter(Boolean))].sort();
 
   const chip = (group, value, label) =>
-    `<button type="button" class="ing-chip" data-group="${group}" data-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`;
+    `<button type="button" class="ing-chip" data-group="${group}" data-value="${escapeHtml(value)}" data-label="${escapeHtml(label)}" aria-pressed="false">${escapeHtml(label)}</button>`;
 
   return `<section class="ing-finder">
   <div class="section-inner">
@@ -609,13 +700,18 @@ function ingredientsFinder(items, { heading, intro, showCategoryFilter = true })
 
       <div class="ing-facets">
         ${showCategoryFilter && categories.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Category</span><div class="ing-chips">${categories.map((c) => chip("cat", slugify(c), c)).join("")}</div></div>` : ""}
-        <details class="ing-facet ing-facet-more"><summary><span class="ing-facet-label">Type</span><span class="ing-facet-hint">${roles.length} options</span></summary><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></details>
+        <details class="ing-facet ing-facet-more"><summary><span class="ing-facet-label">Type</span><span class="ing-facet-hint">${roles.length} options</span><span class="ing-facet-count" hidden></span></summary><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></details>
         ${prices.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Price</span><div class="ing-chips">${prices.map((p) => chip("price", p, p)).join("")}</div></div>` : ""}
         <div class="ing-facet"><span class="ing-facet-label">Free from</span><div class="ing-chips">${FREE_FROM.map((f) => chip("free", f.key, f.label)).join("")}</div></div>
       </div>
 
+      <div class="ing-active" id="ing-active" hidden>
+        <span class="ing-active-label">Filtering by</span>
+        <div class="ing-active-pills" id="ing-active-pills"></div>
+        <button type="button" id="ing-reset" class="ing-reset">Clear all filters</button>
+      </div>
+
       <p class="ing-count" role="status" aria-live="polite"><span id="ing-count">${items.length}</span> ingredients</p>
-      <button type="button" id="ing-reset" class="ing-reset" hidden>Clear filters</button>
     </div>
 
     <ul class="ing-grid" id="ing-grid">
@@ -634,7 +730,63 @@ ${items.map(ingredientCard).join("\n")}
   var countEl = document.getElementById("ing-count");
   var emptyEl = document.getElementById("ing-empty");
   var resetEl = document.getElementById("ing-reset");
+  var bar = document.getElementById("ing-active");
+  var pillbox = document.getElementById("ing-active-pills");
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".ing-chip"));
+  var groups = ["cat", "role", "price", "free"];
   var active = { cat: [], role: [], price: [], free: [] };
+
+  function paintChips() {
+    chips.forEach(function (b) {
+      var on = active[b.dataset.group].indexOf(b.dataset.value) !== -1;
+      b.classList.toggle("is-on", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".ing-facet-more"), function (d) {
+      var n = d.querySelectorAll(".ing-chip.is-on").length;
+      var badge = d.querySelector(".ing-facet-count");
+      if (badge) {
+        badge.textContent = n ? n + " selected" : "";
+        badge.hidden = !n;
+      }
+      d.classList.toggle("has-active", n > 0);
+      if (n > 0) d.open = true;
+    });
+  }
+
+  function paintBar() {
+    var list = [];
+    groups.forEach(function (g) {
+      active[g].forEach(function (v) {
+        var match = null;
+        for (var i = 0; i < chips.length; i++) {
+          if (chips[i].dataset.group === g && chips[i].dataset.value === v) { match = chips[i]; break; }
+        }
+        list.push({ g: g, v: v, label: match ? match.dataset.label : v });
+      });
+    });
+    pillbox.innerHTML = "";
+    list.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "ing-pill";
+      b.setAttribute("aria-label", "Remove filter " + f.label);
+      var t = document.createElement("span");
+      t.textContent = f.label;
+      var x = document.createElement("span");
+      x.className = "ing-pill-x";
+      x.setAttribute("aria-hidden", "true");
+      x.textContent = "×";
+      b.appendChild(t);
+      b.appendChild(x);
+      b.addEventListener("click", function () { toggle(f.g, f.v); });
+      pillbox.appendChild(b);
+    });
+    var q = (search.value || "").trim();
+    bar.hidden = list.length === 0 && !q;
+    pillbox.hidden = list.length === 0;
+    document.querySelector(".ing-active-label").hidden = list.length === 0;
+  }
 
   function apply() {
     var q = (search.value || "").trim().toLowerCase();
@@ -656,33 +808,31 @@ ${items.map(ingredientCard).join("\n")}
     });
     countEl.textContent = shown;
     emptyEl.hidden = shown !== 0;
-    var any = q || active.cat.length || active.role.length || active.price.length || active.free.length;
-    resetEl.hidden = !any;
+    paintChips();
+    paintBar();
+  }
+
+  function toggle(g, v) {
+    var i = active[g].indexOf(v);
+    if (i === -1) active[g].push(v); else active[g].splice(i, 1);
+    apply();
   }
 
   search.addEventListener("input", apply);
 
-  Array.prototype.forEach.call(document.querySelectorAll(".ing-chip"), function (btn) {
-    btn.addEventListener("click", function () {
-      var g = btn.dataset.group, v = btn.dataset.value;
-      var i = active[g].indexOf(v);
-      if (i === -1) { active[g].push(v); btn.classList.add("is-on"); btn.setAttribute("aria-pressed", "true"); }
-      else { active[g].splice(i, 1); btn.classList.remove("is-on"); btn.setAttribute("aria-pressed", "false"); }
-      apply();
-    });
-    btn.setAttribute("aria-pressed", "false");
+  chips.forEach(function (btn) {
+    btn.addEventListener("click", function () { toggle(btn.dataset.group, btn.dataset.value); });
   });
 
   function reset() {
     search.value = "";
     active = { cat: [], role: [], price: [], free: [] };
-    Array.prototype.forEach.call(document.querySelectorAll(".ing-chip"), function (b) {
-      b.classList.remove("is-on"); b.setAttribute("aria-pressed", "false");
-    });
     apply();
   }
   resetEl.addEventListener("click", reset);
   document.getElementById("ing-empty-reset").addEventListener("click", reset);
+
+  apply();
 })();
 </script>`;
 }
@@ -707,7 +857,7 @@ ${ingredientsFinder(items, {
 ${categories
   .map(
     (c) =>
-      `        <li><a href="/ingredients/${slugify(c)}/"><strong>${escapeHtml(c)}</strong><span>${items.filter((i) => i.category === c).length} ingredients</span></a></li>`
+      `        <li style="--ing-tint:${categoryArt(c).tint}"><a href="/ingredients/${slugify(c)}/"><span class="ing-catlist-art" aria-hidden="true">${categoryArt(c).glyph}</span><span><strong>${escapeHtml(c)}</strong><span class="ing-catlist-count">${items.filter((i) => i.category === c).length} ingredients</span></span></a></li>`
   )
   .join("\n")}
       </ul>
@@ -748,14 +898,24 @@ function sensoryBlock(html) {
   });
 }
 
-function ingredientPage(item, bySlug) {
+// a board_post that points at a post which does not exist yet would ship a 404,
+// so the link only renders once the target is actually in the build
+function boardPostLink(item, blogSlugs) {
+  if (!item.boardPost) return "";
+  const slug = item.boardPost.replace(/^\/blog\//, "").replace(/\/$/, "");
+  if (blogSlugs && !blogSlugs.has(slug)) return "";
+  return `<p class="ing-boardpost">Building a whole board around it? <a href="${escapeHtml(item.boardPost)}">See board ideas &rarr;</a></p>`;
+}
+
+function ingredientPage(item, bySlug, blogSlugs = null) {
+  const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
-  const meta = [
-    item.boardRole && ["Board role", item.boardRole],
-    item.priceTier && ["Price", item.priceTier],
-    item.serving && ["Per person", item.serving],
-    item.prepTime && ["Prep", item.prepTime],
-    item.allergens.length && ["Allergens", item.allergens.join(", ")]
+  const spec = [
+    item.boardRole && ["role", "Board role", item.boardRole],
+    item.priceTier && ["price", "Price", item.priceTier],
+    item.serving && ["serving", "Per person", item.serving],
+    item.prepTime && ["prep", "Prep time", item.prepTime],
+    item.allergens.length && ["allergens", "Allergens", item.allergens.join(", ")]
   ].filter(Boolean);
 
   return layout({
@@ -766,14 +926,27 @@ function ingredientPage(item, bySlug) {
     head: faqSchema(item),
     body: `<main class="ing-main ing-detail">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> <a href="/ingredients/${item.categorySlug}/">${escapeHtml(item.category)}</a> <span aria-hidden="true">/</span> ${escapeHtml(item.title)}</p>
-  <article class="ing-article">
+  <article class="ing-article" style="--ing-tint:${art.tint}">
     <header class="ing-header">
+      <a class="ing-eyebrow" href="/ingredients/${item.categorySlug}/">${art.glyph}${escapeHtml(item.category)}</a>
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
-      ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async">` : ""}
-      <dl class="ing-meta">
-${meta.map(([k, v]) => `        <div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join("\n")}
-      </dl>
+      ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">` : ""}
+      ${
+        spec.length
+          ? `<div class="ing-spec">
+        <span class="ing-spec-rule" aria-hidden="true"></span>
+        <div class="ing-spec-grid">
+${spec
+  .map(
+    ([icon, label, value]) =>
+      `          <div class="ing-spec-item"><span class="ing-spec-icon" aria-hidden="true">${SPEC_ICONS[icon]}</span><div><span class="ing-spec-label">${escapeHtml(label)}</span><span class="ing-spec-value">${escapeHtml(value)}</span></div></div>`
+  )
+  .join("\n")}
+        </div>
+      </div>`
+          : ""
+      }
     </header>
     <div class="post-body ing-body">
       ${item.html}
@@ -782,13 +955,19 @@ ${meta.map(([k, v]) => `        <div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v
       related.length
         ? `<section class="ing-related">
       <h2>Pairs well with</h2>
+      <p class="ing-related-note">${related.length} ingredient${related.length === 1 ? "" : "s"} that earn their place next to ${escapeHtml(item.title.toLowerCase())} on the board.</p>
       <ul class="ing-related-list">
-${related.map((r) => `        <li><a href="/ingredients/${r.slug}/"><strong>${escapeHtml(r.title)}</strong><span>${escapeHtml(r.boardRole)}</span></a></li>`).join("\n")}
+${related
+  .map((r) => {
+    const rart = categoryArt(r.category);
+    return `        <li style="--ing-tint:${rart.tint}"><a href="/ingredients/${r.slug}/"><span class="ing-rel-thumb">${ingredientThumb(r, rart)}</span><span class="ing-rel-text"><strong>${escapeHtml(r.title)}</strong><span class="ing-rel-role">${escapeHtml(r.boardRole || r.category)}</span></span></a></li>`;
+  })
+  .join("\n")}
       </ul>
     </section>`
         : ""
     }
-    ${item.boardPost ? `<p class="ing-boardpost">Building a whole board around it? <a href="${escapeHtml(item.boardPost)}">See board ideas &rarr;</a></p>` : ""}
+    ${boardPostLink(item, blogSlugs)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>
 </main>`
@@ -1399,6 +1578,7 @@ async function build() {
 
   if (ingredients.length) {
     const bySlug = new Map(ingredients.map((item) => [item.slug, item]));
+    const blogSlugs = new Set(posts.map((post) => post.slug));
     await mkdir(join(dist, "ingredients"), { recursive: true });
     await writeFile(join(dist, "ingredients", "index.html"), ingredientsHub(ingredients));
 
@@ -1418,7 +1598,7 @@ async function build() {
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs));
       })
     );
   }

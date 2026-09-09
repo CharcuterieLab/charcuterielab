@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["condiment", "spicy", "southern", "budget", "crowd-pleaser"]
-pairs_with: ["cream-cheese", "aged-cheddar", "fresh-chevre", "water-crackers", "pimento-cheese"]
+pairs_with: ["cream-cheese", "aged-cheddar", "fresh-chevre", "water-crackers", "pimento-cheese", "pepper-jack"]
 avoid_with: []
 faq: "[{"question": "What do you eat pepper jelly with?", "answer": "Cream cheese is the classic — pour the jar over a block and serve with crackers. It also works with cheddar and goat cheese."}, {"question": "Is pepper jelly spicy?", "answer": "Mildly, usually. Habanero versions are genuinely hot. Heat varies a lot by brand, so taste before serving."}, {"question": "Red or green pepper jelly?", "answer": "Red is usually milder and sweeter; green (jalapeño) is brighter and often hotter. Both work."}, {"question": "How do I serve it on a board?", "answer": "Either over a block of cream cheese with crackers, or broken up with a fork in a small bowl."}, {"question": "How much per person?", "answer": "About half an ounce."}]"
 ---

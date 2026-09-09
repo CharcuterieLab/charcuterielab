@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["briny", "italian", "vegetarian", "antipasto", "mediterranean"]
-pairs_with: ["burrata", "prosciutto-di-parma", "manchego", "roasted-red-peppers", "baguette"]
+pairs_with: ["burrata", "prosciutto-di-parma", "manchego", "roasted-red-peppers", "baguette", "preserved-lemons", "boquerones", "tinned-octopus"]
 avoid_with: []
 faq: "[{"question": "Are marinated artichokes good on a charcuterie board?", "answer": "Yes — they're one of the few vegetables substantial enough to eat as a component rather than a garnish."}, {"question": "Jarred or canned?", "answer": "Jarred in oil, or from an olive bar. Canned artichokes in water are watery and bland."}, {"question": "Why do artichokes make wine taste strange?", "answer": "Cynarin, a compound in artichokes, temporarily blocks sweet receptors, which can make wine taste metallic or oddly sweet."}, {"question": "What cheese goes with marinated artichokes?", "answer": "Burrata above all, plus manchego and hard sheep cheeses."}, {"question": "How much per person?", "answer": "About an ounce — two or three quarters."}]"
 ---

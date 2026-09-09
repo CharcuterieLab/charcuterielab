@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["briny", "italian", "umami", "antipasto", "vegetarian"]
-pairs_with: ["fresh-chevre", "fresh-mozzarella", "manchego", "prosciutto-di-parma", "baguette", "fresh-basil"]
+pairs_with: ["fresh-chevre", "fresh-mozzarella", "manchego", "prosciutto-di-parma", "baguette", "fresh-basil", "pesto"]
 avoid_with: []
 faq: "[{"question": "Oil-packed or dry sun-dried tomatoes?", "answer": "Oil-packed for a board — they're soft and ready to eat. Dry ones need soaking and stay leathery."}, {"question": "What are semi-dried tomatoes?", "answer": "Also sold as sunblush. Dried less far, so they're juicier and milder. Often better on a board than fully dried."}, {"question": "What cheese goes with sun-dried tomatoes?", "answer": "Fresh goat cheese above all, plus fresh mozzarella and manchego."}, {"question": "Can I use the oil?", "answer": "Yes — it's infused with tomato and herbs and is worth drizzling over bread or cheese."}, {"question": "How much per person?", "answer": "About half an ounce. They're very concentrated."}]"
 ---

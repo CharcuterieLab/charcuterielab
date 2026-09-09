@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "blue", "italian", "beginner"]
 pairs_with: ["stilton", "roquefort", "cambozola", "walnut-raisin-bread", "candied-pecans", "roasted-chestnuts", "plums", "kumquats", "candied-citrus", "fig-jam", "honey", "dark-chocolate", "shortbread", "gingersnaps", "chocolate-wafers"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
-board_post: "/blog/blue-cheese-charcuterie-board/"
+board_post: "/blog/gorgonzola-fig-jam-pairing/"
 faq: "[{"question": "Gorgonzola dolce or piccante?", "answer": "Dolce for a mixed crowd — soft, sweet and gentle. Piccante if the board is for people who already like blue cheese."}, {"question": "Why does blue cheese have veins?", "answer": "The wheels are pierced with needles so oxygen reaches the interior, letting the Penicillium mold grow. The veins follow the needle tracks."}, {"question": "What's the one pairing to get right?", "answer": "Honey. Then walnut raisin bread. Both work on the same sweet-against-salt principle."}, {"question": "How much per person?", "answer": "About 1 oz. Blue is rich."}, {"question": "Why does it need its own knife?", "answer": "Blue mold transfers to whatever the blade touches next, and it will end up on the brie."}]"
 ---
 

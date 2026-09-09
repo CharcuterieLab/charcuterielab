@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "italian", "sicilian", "beginner", "crowd-pleaser"]
-pairs_with: ["manchego", "burrata", "prosciutto-di-parma", "marcona-almonds", "fresh-mozzarella"]
+pairs_with: ["manchego", "burrata", "prosciutto-di-parma", "marcona-almonds", "fresh-mozzarella", "preserved-lemons", "boquerones"]
 avoid_with: []
 faq: "[{"question": "Why are Castelvetrano olives so green?", "answer": "They're cured briefly in mild brine rather than aged, which preserves the natural green colour and the firm texture."}, {"question": "Are Castelvetrano olives salty?", "answer": "Much less than most. They're buttery and mild, which is why they suit people who usually avoid olives."}, {"question": "Should I buy them pitted?", "answer": "No, if you can avoid it. Pitted versions are softer and less flavourful. Put out a bowl for pits instead."}, {"question": "What cheese goes with Castelvetrano olives?", "answer": "Burrata and fresh mozzarella, manchego, and aged pecorino."}, {"question": "How much per person?", "answer": "About an ounce — four or five olives."}]"
 ---

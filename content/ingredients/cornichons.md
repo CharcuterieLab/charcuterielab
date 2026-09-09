@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["pickles", "french", "budget", "beginner", "year-round"]
-pairs_with: ["pate-de-campagne", "rillettes", "saucisson-sec", "dijon-mustard", "comte"]
+pairs_with: ["pate-de-campagne", "rillettes", "saucisson-sec", "dijon-mustard", "comte", "tinned-mackerel"]
 avoid_with: []
 faq: "[{"question": "What are cornichons?", "answer": "Tiny French pickled gherkins, sharply sour and crunchy, usually flavoured with tarragon and mustard seed."}, {"question": "Are cornichons the same as gherkins?", "answer": "They're the same cucumber, but cornichons are picked smaller and pickled sour in the French style. Many gherkins are sweetened."}, {"question": "What do you eat cornichons with?", "answer": "Pâté, terrines, rillettes and dry salami — anything rich and fatty that needs acid to cut it."}, {"question": "Why does a charcuterie board need pickles?", "answer": "Acid. A board of cured meat and cheese is fat and salt, and pickles are the cheapest way to cut through both."}, {"question": "How many per person?", "answer": "Three or four — about half an ounce."}]"
 ---

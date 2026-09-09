@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: ["sesame"]
 tags: ["dip", "middle-eastern", "vegan", "budget", "crowd-pleaser"]
-pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "roasted-red-peppers", "lavash", "kalamata-olives", "chili-flakes", "za-atar"]
+pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "roasted-red-peppers", "lavash", "kalamata-olives", "chili-flakes", "za-atar", "harissa", "labneh", "preserved-lemons", "tortilla-chips"]
 avoid_with: []
 faq: "[{"question": "How do I make hummus look good on a board?", "answer": "Spread it in a shallow bowl, swirl a hollow into it with a spoon, pool olive oil in the middle, and top with paprika, za'atar or toasted nuts."}, {"question": "Is hummus vegan?", "answer": "Yes — chickpeas, tahini, lemon, garlic, oil. It's usually the safest thing on a mixed board for vegan guests."}, {"question": "Does hummus contain allergens?", "answer": "Sesame, from the tahini. That's a declared allergen in most countries and worth mentioning."}, {"question": "How much hummus per person?", "answer": "About an ounce — more than any other spread, because people eat it in quantity."}, {"question": "Why is my hummus stiff?", "answer": "It's cold, or under-thinned. Bring it to room temperature and beat in a spoonful of cold water or lemon juice."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "cypriot", "warm", "grilled"]
-pairs_with: ["feta", "queso-fresco", "pita-chips", "sesame-crackers"]
+pairs_with: ["feta", "queso-fresco", "pita-chips", "sesame-crackers", "harissa", "ajvar", "aleppo-pepper"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why doesn't halloumi melt?", "answer": "Its curd is heated to a high temperature during making, which sets the protein structure before it's ever shaped. Heat browns it rather than collapsing it."}, {"question": "Do I need oil in the pan?", "answer": "No. It has enough fat of its own, and added oil mostly spatters."}, {"question": "Can I serve it cold?", "answer": "You can, but it's squeaky and very salty. Searing is the point."}, {"question": "How much per person?", "answer": "1–2 oz, cooked in batches so it stays hot."}, {"question": "What if it goes rubbery?", "answer": "Back in the pan for thirty seconds. It recovers once. Cook less at a time instead."}]"
 ---

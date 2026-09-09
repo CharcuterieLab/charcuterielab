@@ -13,7 +13,7 @@ serving_per_person: "2–3 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "fresh", "summer", "classic"]
-pairs_with: ["grapes", "figs", "prosciutto-di-parma", "jamon-serrano", "burrata"]
+pairs_with: ["grapes", "figs", "prosciutto-di-parma", "jamon-serrano", "burrata", "fresh-mint", "prosciutto-cotto"]
 avoid_with: []
 faq: "[{"question": "Which melon goes with prosciutto?", "answer": "Cantaloupe, traditionally. Honeydew works and is milder."}, {"question": "Does it have to be cold?", "answer": "Yes. Warm melon tastes flat and oddly perfumed."}, {"question": "How do I pick a ripe one?", "answer": "Smell the stem end — it should be fragrant. It should feel heavy and give slightly at the blossom end."}, {"question": "How much per person?", "answer": "2–3 oz, cut into pieces a ham slice can wrap."}, {"question": "Why does melon and ham work?", "answer": "Melon is water and sugar with no salt; prosciutto is salt and fat with no water. Each supplies what the other lacks."}]"
 ---

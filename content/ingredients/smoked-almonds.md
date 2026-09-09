@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "smoked", "budget", "vegetarian"]
-pairs_with: ["aged-cheddar", "aged-gouda", "brie", "apples", "gorgonzola"]
+pairs_with: ["aged-cheddar", "aged-gouda", "brie", "apples", "gorgonzola", "wasabi-peas"]
 avoid_with: ["burrata", "ricotta"]
 faq: "[{"question": "Are smoked almonds actually smoked?", "answer": "Usually not — most mass-market versions use smoke flavouring. Cold-smoked almonds from specialty producers are the real thing and taste cleaner."}, {"question": "Why put smoked almonds on a board?", "answer": "They add smoke and savoury depth, which is what a vegetarian board is otherwise missing."}, {"question": "What cheese goes with smoked almonds?", "answer": "Aged cheddar, aged gouda, brie, and blue cheese. Avoid fresh cheeses like burrata and ricotta."}, {"question": "Should they go in a bowl?", "answer": "Yes. The smoky coating rubs off onto crackers and cheese and leaves brown dust."}, {"question": "How much per person?", "answer": "Half to one ounce — less than plain almonds, since they're much stronger."}]"
 ---

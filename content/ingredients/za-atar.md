@@ -13,7 +13,7 @@ serving_per_person: "a pinch"
 prep_time: "0 minutes"
 allergens: ["sesame"]
 tags: ["finishing", "spice", "middle-eastern", "budget", "vegan"]
-pairs_with: ["whipped-feta", "hummus", "olive-oil", "fresh-chevre", "pita-chips"]
+pairs_with: ["whipped-feta", "hummus", "olive-oil", "fresh-chevre", "pita-chips", "labneh"]
 avoid_with: []
 faq: "[{"question": "What is za'atar?", "answer": "A Levantine blend of dried thyme, toasted sesame seeds, sumac and salt. Herbal, nutty and sour."}, {"question": "Is za'atar spicy?", "answer": "No. It's herbal and tart, not hot."}, {"question": "How do I use za'atar on a board?", "answer": "Stir it into a dish of olive oil for dipping, or scatter it over feta, hummus or a goat cheese log."}, {"question": "What is sumac?", "answer": "A dried, ground sour berry that provides za'atar's tartness. It's how the blend delivers acid without any liquid."}, {"question": "Does za'atar contain allergens?", "answer": "Sesame, which is a declared allergen in most countries. Worth mentioning when you put it out."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "15 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "mexican", "aged", "budget"]
-pairs_with: ["queso-fresco", "feta", "tostada-rounds", "plantain-chips"]
+pairs_with: ["queso-fresco", "feta", "tostada-rounds", "plantain-chips", "pickled-jalapenos", "tortilla-chips"]
 avoid_with: ["pecorino-romano", "delicate-fresh-cheese"]
 faq: "[{"question": "Is cotija like parmesan?", "answer": "Similar role — hard, salty, crumbled over things — but cotija is saltier and less complex. It's a seasoning cheese rather than a savory-depth one."}, {"question": "Cotija or queso fresco?", "answer": "Cotija is aged, hard and very salty. Queso fresco is fresh, soft and mild. Cotija seasons a bite; queso fresco cools one."}, {"question": "Does it melt?", "answer": "No. It softens slightly and holds its shape."}, {"question": "How much per person?", "answer": "Under an ounce. It's very salty."}, {"question": "Block or crumbles?", "answer": "Block. Pre-crumbled is drier and often coated to stop clumping."}]"
 ---

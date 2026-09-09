@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "greek", "budget", "beginner", "mediterranean"]
-pairs_with: ["feta", "manchego", "hummus", "aged-cheddar", "pita-chips"]
+pairs_with: ["feta", "manchego", "hummus", "aged-cheddar", "pita-chips", "labneh"]
 avoid_with: []
 faq: "[{"question": "What's the difference between Kalamata and black olives?", "answer": "Kalamatas are a Greek variety brine-cured with wine vinegar — winey and sharp. Canned black olives are lye-cured and oxidised, and much milder."}, {"question": "Are Kalamata olives salty?", "answer": "Yes, noticeably. Rinse them briefly and dress with olive oil if they're too much."}, {"question": "Pitted or with pits?", "answer": "With pits. Pitted Kalamatas absorb more brine and go soft."}, {"question": "What cheese goes with Kalamata olives?", "answer": "Feta above all, plus manchego, hard sheep cheeses, and aged cheddar."}, {"question": "How much per person?", "answer": "About an ounce — four or five olives."}]"
 ---

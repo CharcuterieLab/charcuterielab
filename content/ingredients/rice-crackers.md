@@ -13,7 +13,7 @@ serving_per_person: "5–6 crackers"
 prep_time: "1 minute"
 allergens: ["soy"]
 tags: ["gluten-free", "japanese", "savory", "fusion"]
-pairs_with: ["nut-thins", "cassava-crackers", "sesame-crackers", "triple-creme", "cream-cheese", "aged-gouda", "smoked-salmon"]
+pairs_with: ["nut-thins", "cassava-crackers", "sesame-crackers", "triple-creme", "cream-cheese", "aged-gouda", "smoked-salmon", "kimchi", "wasabi-peas"]
 avoid_with: ["fruit-jam", "rich-european-cheese"]
 faq: "[{"question": "Are rice crackers gluten-free?", "answer": "Often, but not reliably. The soy glaze usually contains wheat. Check for a gluten-free label rather than assuming."}, {"question": "What cheese goes with rice crackers?", "answer": "Cream cheese and aged gouda. Skip the rich European cheeses."}, {"question": "How many per person?", "answer": "5–6. They're small and light."}, {"question": "Why did the seaweed ones go soft?", "answer": "Nori is hygroscopic — it pulls moisture from the air fast. Open that bag last."}, {"question": "Are senbei and arare the same thing?", "answer": "Same family, different size. Senbei are the large flat ones; arare are the small bite-size pieces."}]"
 ---

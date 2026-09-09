@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "beginner"]
 pairs_with: ["water-crackers", "baguette", "camembert", "triple-creme", "macadamia-nuts", "candied-pecans", "mandarins", "fig-jam", "honeycomb", "apricot-jam", "cranberry-sauce", "marinated-mushrooms", "fresh-thyme", "graham-crackers", "speculoos"]
 avoid_with: ["everything-crackers", "pretzel-crisps"]
-board_post: "/blog/brie-charcuterie-board/"
+board_post: "/blog/brie/"
 faq: "[{"question": "Do you eat the rind on brie?", "answer": "Yes. It's edible and it carries most of the flavor. Cutting it off leaves you with plain butterfat."}, {"question": "Brie or Camembert — what's the difference?", "answer": "Camembert is smaller, stronger and more mushroomy; brie is larger, milder and more buttery. Camembert is the one to buy if brie has ever bored you."}, {"question": "How long before serving should I take it out?", "answer": "45 to 60 minutes. It matters more than anything else you do."}, {"question": "How much brie per person?", "answer": "1–2 oz as one of three cheeses. An 8 oz wheel serves six to eight."}, {"question": "How do I cut it?", "answer": "Wedges from the center out, like a pie, so every piece has rind and center."}]"
 ---
 

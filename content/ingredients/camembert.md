@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "earthy"]
 pairs_with: ["brie", "baguette", "water-crackers", "triple-creme", "pont-leveque", "smoked-salmon"]
 avoid_with: ["everything-crackers", "delicate-toppings"]
-board_post: "/blog/camembert-charcuterie-board/"
+board_post: "/blog/camembert/"
 faq: "[{"question": "Is Camembert just stronger brie?", "answer": "Effectively, yes — same mold, smaller wheel, more rind per ounce, so more flavor. Earthier and more mushroomy."}, {"question": "Can you eat the rind?", "answer": "Yes, and here you especially should. The rind is where the mushroom character comes from."}, {"question": "Why does it come in a wooden box?", "answer": "The box lets the cheese breathe while holding its shape as it softens. It's also oven-safe, which is why baked Camembert is served in it."}, {"question": "How do I know if it's gone off?", "answer": "A strong, persistent ammonia smell. A faint whiff on opening that fades is normal ripeness."}, {"question": "How much per person?", "answer": "1–2 oz. One small wheel serves four to six on a mixed board."}]"
 ---
 

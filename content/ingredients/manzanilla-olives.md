@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "spanish", "budget", "beginner", "year-round"]
-pairs_with: ["manchego", "jamon-serrano", "marcona-almonds", "idiazabal", "chorizo"]
+pairs_with: ["manchego", "jamon-serrano", "marcona-almonds", "idiazabal", "chorizo", "tinned-octopus"]
 avoid_with: []
 faq: "[{"question": "Are Manzanilla olives the same as cocktail olives?", "answer": "Usually yes — Manzanilla is the variety used for pimento-stuffed cocktail olives. Better-quality jars from the deli section are a step up."}, {"question": "Should I buy them stuffed?", "answer": "Anchovy-stuffed is a real upgrade for a board. Pimento is fine and looks good."}, {"question": "Are they salty?", "answer": "Yes, and slightly tangy from fermentation. They're bar snacks, and they suit fatty food."}, {"question": "What cheese goes with Manzanilla olives?", "answer": "Manchego above all, plus Idiazábal and other Spanish sheep cheeses."}, {"question": "How much per person?", "answer": "About an ounce — five or six olives."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["spread", "honey", "beginner", "crowd-pleaser", "year-round"]
-pairs_with: ["gorgonzola", "manchego", "ricotta", "aged-cheddar", "walnuts"]
+pairs_with: ["gorgonzola", "manchego", "ricotta", "aged-cheddar", "walnuts", "pepper-jack"]
 avoid_with: []
 faq: "[{"question": "What honey is best for a cheese board?", "answer": "A raw varietal honey — chestnut for blue cheese, orange blossom for fresh cheese, wildflower as a general upgrade over clover."}, {"question": "Why does honey go with blue cheese?", "answer": "Sugar suppresses the perception of salt, so the honey softens the blue's aggression without covering its flavour."}, {"question": "My honey crystallised — is it bad?", "answer": "No. Crystallisation is normal in raw honey. Warm the jar in hot water for a few minutes."}, {"question": "How much honey per person?", "answer": "About half an ounce. A small pot serves a whole board."}, {"question": "Should honey go directly on crackers?", "answer": "No — it soaks in and softens them. Drizzle it over cheese instead."}]"
 ---

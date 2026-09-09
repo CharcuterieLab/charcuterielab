@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "3 minutes"
 allergens: ["dairy", "soy"]
 tags: ["finishing", "chocolate", "dessert", "crowd-pleaser", "year-round"]
-pairs_with: ["gorgonzola", "dried-cherries", "candied-citrus", "aged-gouda", "hazelnuts"]
+pairs_with: ["gorgonzola", "dried-cherries", "candied-citrus", "aged-gouda", "hazelnuts", "cocoa-nibs", "physalis", "nut-brittle"]
 avoid_with: []
 faq: "[{"question": "What percentage dark chocolate is best for a cheese board?", "answer": "70% — bitter enough to work with cheese, approachable enough that guests will eat it."}, {"question": "Why does chocolate go with blue cheese?", "answer": "Cocoa's bitterness clears the fat and the sugar softens the salt and funk, while the cocoa butter carries it all."}, {"question": "What's the white film on my chocolate?", "answer": "Cocoa butter bloom, caused by temperature change. Harmless, and the chocolate is fine to eat."}, {"question": "Should chocolate be served cold?", "answer": "No — room temperature. Cold chocolate is muted and doesn't melt properly on the tongue."}, {"question": "How much per person?", "answer": "About half an ounce — two or three shards."}]"
 ---

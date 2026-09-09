@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "american", "mild", "budget"]
-pairs_with: ["havarti", "queso-fresco", "edam", "tostada-rounds", "chorizo"]
+pairs_with: ["havarti", "queso-fresco", "edam", "tostada-rounds", "chorizo", "pickled-jalapenos"]
 avoid_with: ["blue-cheese", "pecorino-romano"]
 faq: "[{"question": "What is Dry Jack?", "answer": "Monterey Jack aged seven months to two years, with the rind rubbed in cocoa, pepper and oil. Hard, nutty and genuinely excellent."}, {"question": "Is Monterey Jack worth putting on a cheese board?", "answer": "Young Jack, only as a mild filler on a casual board. Dry Jack, absolutely."}, {"question": "Is Pepper Jack the same cheese?", "answer": "Yes, young Monterey Jack with chili peppers added."}, {"question": "Can you eat the Dry Jack rind?", "answer": "No. The cocoa and pepper rub is a protective coating."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

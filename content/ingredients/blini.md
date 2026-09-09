@@ -13,7 +13,7 @@ serving_per_person: "3–4 blini"
 prep_time: "10 minutes"
 allergens: ["wheat", "gluten", "dairy", "eggs"]
 tags: ["russian", "caviar", "warm", "elegant"]
-pairs_with: ["brioche-toast-points", "pumpernickel", "melba-toast", "parmigiano-reggiano", "smoked-salmon", "genoa-salami"]
+pairs_with: ["brioche-toast-points", "pumpernickel", "melba-toast", "parmigiano-reggiano", "smoked-salmon", "genoa-salami", "caviar"]
 avoid_with: ["aged-hard-cheese", "cured-meat"]
 faq: "[{"question": "What are blini?", "answer": "Small yeast-raised Russian pancakes, traditionally made with buckwheat flour. The classic base for caviar."}, {"question": "Do I have to serve them warm?", "answer": "Effectively yes. Cold blini lose the contrast that makes the pairing work."}, {"question": "How many per person?", "answer": "3–4. They're about two inches across."}, {"question": "Where do I buy them?", "answer": "Check the freezer section near the smoked salmon, or an Eastern European grocery. Availability is inconsistent in mainstream supermarkets."}, {"question": "What if I can't find them?", "answer": "Brioche toast points or melba toast rounds. Both are used in caviar service and both are easier to buy."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "15 min to temper"
 allergens: ["fish"]
 tags: ["seafood", "scandinavian", "cured", "make-it-yourself"]
-pairs_with: ["smoked-salmon", "smoked-trout", "rye-crispbread", "pumpernickel", "cream-cheese"]
+pairs_with: ["smoked-salmon", "smoked-trout", "rye-crispbread", "pumpernickel", "cream-cheese", "pink-peppercorns", "pickled-beets"]
 avoid_with: ["strong-cured-meat", "blue-cheese"]
 faq: "[{"question": "Is gravlax smoked?", "answer": "No. That's the entire difference from smoked salmon — gravlax is cured in salt, sugar and dill only."}, {"question": "Is it raw?", "answer": "Cured rather than cooked. Salt and sugar firm the flesh and preserve it. Use previously-frozen fish if you're curing at home."}, {"question": "Can I make it?", "answer": "Yes, easily. Equal salt and sugar, lots of dill, weighted in the fridge for two to three days."}, {"question": "What's the sauce?", "answer": "Hovmästarsås — a sweet mustard and dill sauce. It's the traditional partner and worth making."}, {"question": "How much per person?", "answer": "1–1.5 oz."}]"
 ---

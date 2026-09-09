@@ -13,7 +13,7 @@ serving_per_person: "garnish"
 prep_time: "5 minutes"
 allergens: []
 tags: ["finishing", "garnish", "luxury", "spring", "unique"]
-pairs_with: ["fresh-chevre", "burrata", "berries", "honey", "ricotta"]
+pairs_with: ["fresh-chevre", "burrata", "berries", "honey", "ricotta", "pink-peppercorns"]
 avoid_with: []
 faq: "[{"question": "Are all flowers edible?", "answer": "No — many are toxic. Only use flowers sold specifically as food-grade, or ones you grew yourself without pesticides and have positively identified."}, {"question": "Do edible flowers taste of anything?", "answer": "Mostly very little. Nasturtiums are genuinely peppery and chive flowers are oniony; pansies and violas are nearly neutral."}, {"question": "Can I use flowers from a florist?", "answer": "No. Florist flowers are treated with pesticides and preservatives that aren't food safe."}, {"question": "How long do they last?", "answer": "A day or two refrigerated in their clamshell, and about an hour on a board before they wilt."}, {"question": "How many should I use?", "answer": "Three to five on a standard board. Restraint is what makes them look considered."}]"
 ---

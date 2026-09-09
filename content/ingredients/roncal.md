@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "spanish", "sheep", "underrated"]
-pairs_with: ["manchego", "idiazabal", "ossau-iraty", "olive-oil-crackers", "chorizo", "jamon-serrano"]
+pairs_with: ["manchego", "idiazabal", "ossau-iraty", "olive-oil-crackers", "chorizo", "jamon-serrano", "piquillo-peppers"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Roncal or Manchego?", "answer": "Roncal is raw milk from a single valley — nuttier, saltier and more particular. Manchego is broader and more consistent. Roncal is the more interesting buy at a similar price."}, {"question": "Is it a strong cheese?", "answer": "Firm and savory with a faint gamey edge, but not pungent. Comparable to a good aged Manchego."}, {"question": "Can you eat the rind?", "answer": "No, trim it."}, {"question": "Was it really Spain's first protected cheese?", "answer": "Yes — it received Denominación de Origen status in 1981, ahead of Manchego."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

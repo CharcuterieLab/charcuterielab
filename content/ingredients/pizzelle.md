@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: ["gluten", "egg", "dairy"]
 tags: ["crackers", "dessert", "italian", "unique", "holiday"]
-pairs_with: ["mascarpone", "ricotta", "berries", "dark-chocolate", "brandied-cherries"]
+pairs_with: ["mascarpone", "ricotta", "berries", "dark-chocolate", "brandied-cherries", "lemon-curd", "chocolate-hazelnut-spread"]
 avoid_with: []
 faq: "[{"question": "What are pizzelle?", "answer": "Thin Italian wafers pressed in a patterned iron, flavoured with anise or vanilla. Crisp, fragile, and highly decorative."}, {"question": "Can you put cheese on a pizzelle?", "answer": "Not really — they're too thin and fragile. Use them to scoop soft cheese, or lean them upright as a visual element."}, {"question": "Why anise?", "answer": "It's the traditional Abruzzese flavouring. Vanilla and lemon versions are widely available if anise isn't for you."}, {"question": "How do I keep them crisp?", "answer": "Leave them in the tin until the moment you serve, and don't put them next to anything wet."}, {"question": "How many per person?", "answer": "One or two, about half an ounce."}]"
 ---

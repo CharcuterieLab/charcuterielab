@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["cured meat", "polish", "smoked", "budget"]
-pairs_with: ["landjager", "andouille", "black-forest-ham", "cocktail-rye", "aged-cheddar", "honey-mustard", "dill-pickles"]
+pairs_with: ["landjager", "andouille", "black-forest-ham", "cocktail-rye", "aged-cheddar", "honey-mustard", "dill-pickles", "ajvar"]
 avoid_with: ["delicate-fresh-cheese", "smoked-gouda"]
 faq: "[{"question": "What does kielbasa mean?", "answer": "Just 'sausage' in Polish. It's a category, not a single product — which is why the styles vary so much."}, {"question": "Which kind goes on a board?", "answer": "Krakowska for slicing cold, or kabanosy sticks. The fresh horseshoe ring is better seared."}, {"question": "Do I have to cook it?", "answer": "Dry and semi-dry styles, no. The fresh smoked ring is fully cooked but much better warm."}, {"question": "How much per person?", "answer": "1–1.5 oz."}, {"question": "What's the flavour I can't place?", "answer": "Marjoram. It's the Polish signature and it's what distinguishes kielbasa from German smoked sausage."}]"
 ---

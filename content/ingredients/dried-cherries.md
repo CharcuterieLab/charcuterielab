@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "0 minutes"
 allergens: []
 tags: ["fruit", "dried", "tart", "year-round"]
-pairs_with: ["stilton", "aged-cheddar", "fresh-chevre", "walnuts", "duck-prosciutto", "dark-chocolate"]
+pairs_with: ["stilton", "aged-cheddar", "fresh-chevre", "walnuts", "duck-prosciutto", "dark-chocolate", "cocoa-nibs"]
 avoid_with: []
 faq: "[{"question": "Tart or sweet dried cherries?", "answer": "Tart Montmorency. The sweet Bing kind adds little a raisin wouldn't."}, {"question": "How do I serve dried cherries on a board?", "answer": "Scatter them into gaps between cheeses and crackers rather than arranging them in a pile."}, {"question": "What cheese goes with dried cherries?", "answer": "Aged cheddar, stilton and blue cheeses, and fresh goat cheese."}, {"question": "How much per person?", "answer": "About half an ounce. They're concentrated and sharp."}, {"question": "Can I soften hard dried cherries?", "answer": "Soak in warm water or port for ten minutes and pat dry thoroughly before they go on the board."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "2–3 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "everyday", "beginner"]
-pairs_with: ["berries", "apples", "pears", "brie", "manchego"]
+pairs_with: ["berries", "apples", "pears", "brie", "manchego", "champagne-grapes"]
 avoid_with: []
 faq: "[{"question": "How do I stop grapes rolling everywhere?", "answer": "Snip the bunch into small clusters with kitchen scissors. Never put loose grapes on a board."}, {"question": "Red or green?", "answer": "Red and black look better and taste sweeter on a board. Green are tarter and work well with very rich cheeses."}, {"question": "How much per person?", "answer": "2–3 oz — roughly one small cluster each."}, {"question": "Should they be cold?", "answer": "Yes. Unlike cheese, fruit is better straight from the fridge."}, {"question": "What are champagne grapes?", "answer": "Tiny seedless grapes in dense clusters, also called Zante currants. The most striking grape you can put on a board."}]"
 ---

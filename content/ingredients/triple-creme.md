@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "luxury"]
-pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami"]
+pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami", "pink-peppercorns", "champagne-grapes"]
 avoid_with: ["butter-crackers", "cured-meat"]
 faq: "[{"question": "What makes a cheese triple-crème?", "answer": "Extra cream added to the milk before culturing, bringing it to at least 75% butterfat in the dry matter."}, {"question": "Is it just very rich brie?", "answer": "Related but different. Brie gets its character from rind ripening; triple-crème gets it from added cream. Triple-crème is denser and less mushroomy."}, {"question": "How much per person?", "answer": "About 1 oz — half a normal cheese portion. It's extremely rich."}, {"question": "What wine goes with it?", "answer": "Champagne or any dry sparkling. Acid and bubbles are what make a second bite as good as the first."}, {"question": "Can you eat the rind?", "answer": "Yes, on the bloomy-rind versions. It's thinner and milder than brie's."}]"
 ---

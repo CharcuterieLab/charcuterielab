@@ -15,7 +15,6 @@ allergens: ["dairy"]
 tags: ["cheese", "fresh", "goat", "tangy"]
 pairs_with: ["bucheron", "boursin", "seeded-crackers", "fruit-and-nut-crisps", "pumpkin-seeds", "sunflower-seeds", "fresh-apricots", "mango", "pomegranate", "tomato-jam", "tapenade", "muhammara", "nicoise-olives", "pickled-red-onions", "peppadew", "roasted-red-peppers", "sun-dried-tomatoes", "chili-flakes", "fresh-thyme", "edible-flowers"]
 avoid_with: ["blue-cheese", "everything-crackers"]
-board_post: "/blog/goat-cheese-charcuterie-board/"
 faq: "[{"question": "What's the difference between chèvre and goat cheese?", "answer": "Chèvre is French for goat. In practice, a US cheese case uses it to mean the fresh, unaged log — as opposed to aged goat cheeses like Bucheron or Humboldt Fog."}, {"question": "Why does goat cheese taste tangy?", "answer": "Goat's milk has a different fatty acid profile than cow's milk, and the fresh cheese is high in lactic acid."}, {"question": "How do I slice it without smearing?", "answer": "Dental floss or thin wire. A knife drags."}, {"question": "How much per person?", "answer": "1–2 oz. A 4 oz log serves three to four."}, {"question": "What's the single best pairing?", "answer": "Honey, with cracked pepper. It takes thirty seconds and it's the most reliable bite on a board."}]"
 ---
 

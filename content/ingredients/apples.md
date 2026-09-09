@@ -13,7 +13,7 @@ serving_per_person: "3–4 slices"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "autumn", "everyday"]
-pairs_with: ["pears", "grapes", "aged-cheddar", "aged-gouda", "walnuts"]
+pairs_with: ["pears", "grapes", "aged-cheddar", "aged-gouda", "walnuts", "jarlsberg", "pepper-jack"]
 avoid_with: []
 faq: "[{"question": "How do I stop apple slices browning?", "answer": "Soak them for three minutes in salt water — half a teaspoon per cup — then drain and pat dry. It works better than lemon and doesn't change the flavour."}, {"question": "Which variety is best for a cheese board?", "answer": "Honeycrisp for balance, Granny Smith for tartness, Pink Lady for density. Avoid Red Delicious."}, {"question": "Do I peel them?", "answer": "No. The skin is the colour."}, {"question": "How much per person?", "answer": "3–4 thin slices."}, {"question": "Why do apple and cheddar work?", "answer": "Malic acid and sugar against lactic acid, salt and fat. The apple resets your palate while adding the sweetness cheddar doesn't have."}]"
 ---

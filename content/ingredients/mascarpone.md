@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "20 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "fresh", "italian", "dessert boards"]
-pairs_with: ["ricotta", "cream-cheese", "brioche-toast-points", "passion-fruit", "candied-citrus", "biscotti", "amaretti", "shortbread", "speculoos", "pizzelle", "chocolate-wafers"]
+pairs_with: ["ricotta", "cream-cheese", "brioche-toast-points", "passion-fruit", "candied-citrus", "biscotti", "amaretti", "shortbread", "speculoos", "pizzelle", "chocolate-wafers", "physalis"]
 pairs_with_planned: ["shortbread", "biscotti"]
 avoid_with: ["cured-meat", "blue-cheese"]
 faq: "[{"question": "Is mascarpone the same as cream cheese?", "answer": "No. Cream cheese is cultured and tangy; mascarpone is acid-set and sweet. They're not interchangeable on a board."}, {"question": "Can I use it on a savory board?", "answer": "It won't hold up. Use cream cheese, boursin or labneh instead."}, {"question": "How much per person?", "answer": "About 1 oz. It's mostly butterfat."}, {"question": "How long does it keep once open?", "answer": "Under a week refrigerated, and it goes sour rather than moldy."}, {"question": "What's the easiest thing to do with it on a board?", "answer": "Whip it, spread it in a bowl, pool honey in the middle, and put berries and shortbread beside it."}]"

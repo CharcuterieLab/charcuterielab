@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "smoked", "dutch", "crowd-pleaser"]
-pairs_with: ["aged-gouda", "idiazabal", "aged-cheddar", "whole-wheat-crackers", "summer-sausage", "genoa-salami", "smoked-almonds", "dill-pickles"]
+pairs_with: ["aged-gouda", "idiazabal", "aged-cheddar", "whole-wheat-crackers", "summer-sausage", "genoa-salami", "smoked-almonds", "dill-pickles", "kimchi", "wasabi-peas"]
 avoid_with: ["idiazabal", "delicate-fresh-cheese"]
 faq: "[{"question": "Is most smoked gouda actually smoked?", "answer": "No. Most supermarket versions are coated with an edible casing containing liquid smoke rather than cold-smoked over wood."}, {"question": "How can I tell the difference?", "answer": "Look at the cut edge. Real smoke fades gradually inward; a coating leaves a sharp, uniform brown line."}, {"question": "Is the brown rind edible?", "answer": "The artificial casing is edible but waxy. Most people trim it."}, {"question": "What's a better smoked cheese?", "answer": "Idiazábal — naturally smoked Basque sheep's milk, and a genuinely fine cheese."}, {"question": "How much per person?", "answer": "1–2 oz. It's mild and popular."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "10 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "american", "southern", "year-round"]
-pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "dried-cranberries", "apples", "sea-salt-caramels"]
+pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "dried-cranberries", "apples", "sea-salt-caramels", "nut-brittle"]
 avoid_with: []
 faq: "[{"question": "Pecans or walnuts on a cheese board?", "answer": "Walnuts if you want bitterness and contrast; pecans if you want richness and sweetness. Pecans are the easier crowd-pleaser."}, {"question": "Should I toast pecans?", "answer": "Yes — 350°F for 7–8 minutes. They burn faster than walnuts, so watch them."}, {"question": "What cheese goes with pecans?", "answer": "Aged cheddar, stilton and other blues, and fresh goat cheese."}, {"question": "How do I store pecans?", "answer": "In the freezer. They're high in oil and go rancid quickly at room temperature."}, {"question": "Halves or pieces?", "answer": "Halves for the board. Pieces only for coating a cheese log."}]"
 ---

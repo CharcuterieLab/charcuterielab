@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "fresh", "italian", "centerpiece"]
 pairs_with: ["stracciatella", "fresh-mozzarella", "olive-oil-crackers", "ciabatta", "prosciutto-di-parma", "dukkah", "peaches", "blood-oranges", "grapefruit", "passion-fruit", "hot-honey", "tapenade", "castelvetrano-olives", "cerignola-olives", "pickled-red-onions", "capers", "marinated-artichokes", "roasted-red-peppers", "flaky-sea-salt", "olive-oil", "balsamic-glaze", "chili-oil", "cracked-black-pepper", "chili-flakes", "fresh-basil"]
 avoid_with: ["blue-cheese", "everything-crackers"]
-board_post: "/blog/burrata-charcuterie-board/"
+board_post: "/blog/burrata/"
 faq: "[{"question": "What's inside burrata?", "answer": "Stracciatella — shredded mozzarella curd mixed with cream — inside a fresh mozzarella skin."}, {"question": "How long does it keep?", "answer": "Two to four days at best. Buy it the day you serve it."}, {"question": "Burrata or fresh mozzarella?", "answer": "Burrata for a centerpiece moment; mozzarella when you need something that slices and holds."}, {"question": "Do I season it?", "answer": "Yes. Olive oil, flaky salt and pepper after cutting. Unseasoned burrata tastes flat."}, {"question": "How much per person?", "answer": "1–2 oz. A 4 oz ball serves two to four on a mixed board."}]"
 ---
 

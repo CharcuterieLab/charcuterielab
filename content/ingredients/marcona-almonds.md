@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "spanish", "luxury", "crowd-pleaser"]
-pairs_with: ["manchego", "jamon-serrano", "grapes", "dried-apricots", "gorgonzola", "membrillo", "romesco", "manzanilla-olives", "rosemary-sprigs"]
+pairs_with: ["manchego", "jamon-serrano", "grapes", "dried-apricots", "gorgonzola", "membrillo", "romesco", "manzanilla-olives", "rosemary-sprigs", "aleppo-pepper", "champagne-grapes"]
 avoid_with: []
 faq: "[{"question": "What's the difference between marcona and regular almonds?", "answer": "Marconas are a Spanish variety — rounder, flatter, softer, sweeter, and higher in fat. They're usually fried in olive oil and salted."}, {"question": "Are marcona almonds worth the price?", "answer": "On a board, yes. They're the upgrade people notice most for the least effort."}, {"question": "Do they need any preparation?", "answer": "No. Serve them in a small bowl so the oil doesn't transfer to crackers."}, {"question": "What goes with marcona almonds?", "answer": "Manchego, jamón serrano, grapes, dried apricots, and blue cheese."}, {"question": "How do I store them?", "answer": "Sealed, in the fridge after opening. The oil goes rancid faster than in dry roasted nuts."}]"
 ---

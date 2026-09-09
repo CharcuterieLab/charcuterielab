@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "2 minutes"
 allergens: ["gluten", "dairy"]
 tags: ["crackers", "dessert", "scottish", "make-ahead", "crowd-pleaser"]
-pairs_with: ["mascarpone", "brie", "gorgonzola", "berries", "brandied-cherries"]
+pairs_with: ["mascarpone", "brie", "gorgonzola", "berries", "brandied-cherries", "lemon-curd", "candied-ginger"]
 avoid_with: []
 faq: "[{"question": "Does shortbread go with cheese?", "answer": "Yes — particularly blue cheese, brie and mascarpone. The butter and sugar do what a fruit jam does, with texture added."}, {"question": "Why is it called shortbread?", "answer": "\"Short\" describes the crumbly texture created when fat coats the flour and stops gluten forming."}, {"question": "Thick or thin shortbread for a board?", "answer": "Thick fingers. Thin rounds break under a wedge of cheese."}, {"question": "Can I make it myself?", "answer": "Yes — flour, butter and sugar in a 3:2:1 ratio. It's one of the simplest bakes there is."}, {"question": "How much per person?", "answer": "One or two pieces, about an ounce."}]"
 ---

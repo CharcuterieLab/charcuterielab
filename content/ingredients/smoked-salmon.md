@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "15 min to temper"
 allergens: ["fish"]
 tags: ["seafood", "smoked", "brunch", "elegant"]
-pairs_with: ["gravlax", "smoked-trout", "cream-cheese", "blini", "pumpernickel", "pickled-red-onions", "capers"]
+pairs_with: ["gravlax", "smoked-trout", "cream-cheese", "blini", "pumpernickel", "pickled-red-onions", "capers", "everything-bagel-seasoning", "caviar"]
 avoid_with: ["strong-cured-meat", "blue-cheese"]
 faq: "[{"question": "What's the difference between lox and smoked salmon?", "answer": "True lox is salt-cured and not smoked at all. 'Nova lox' is lightly brined and cold-smoked. In everyday American usage the words have blurred."}, {"question": "Cold-smoked or hot-smoked?", "answer": "Cold-smoked for silky slices on a board. Hot-smoked when you want flakes for a dip or a salad."}, {"question": "Is cold-smoked salmon raw?", "answer": "Technically uncooked, but cured with salt and smoked. It's safe to eat as sold."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich and expensive."}, {"question": "What are the three things to serve with it?", "answer": "Lemon, capers and dill. Then dark bread and something creamy."}]"
 ---

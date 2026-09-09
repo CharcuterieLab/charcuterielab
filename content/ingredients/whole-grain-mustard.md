@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "2 minutes"
 allergens: ["mustard"]
 tags: ["condiment", "mustard", "budget", "beginner", "french"]
-pairs_with: ["saucisson-sec", "cornichons", "prosciutto-di-parma", "aged-cheddar", "rillettes"]
+pairs_with: ["saucisson-sec", "cornichons", "prosciutto-di-parma", "aged-cheddar", "rillettes", "jarlsberg"]
 avoid_with: []
 faq: "[{"question": "What mustard goes on a charcuterie board?", "answer": "Whole grain is the default, with Dijon as the smooth alternative. Put out both if the board is meat-heavy."}, {"question": "Why does a board need mustard?", "answer": "Acid. A board of cheese and cured meat is fat and salt, and mustard's vinegar is what cuts through it."}, {"question": "How much mustard per person?", "answer": "About a quarter-ounce. People use very little of it."}, {"question": "Does mustard go off?", "answer": "It doesn't spoil, but it loses heat over months. Buy a fresh jar for a board."}, {"question": "Whole grain or Dijon?", "answer": "Whole grain adds texture and is milder. Dijon is smoother, sharper, and better for spreading thin."}]"
 ---

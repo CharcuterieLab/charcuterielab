@@ -13,7 +13,7 @@ serving_per_person: "2–3 points"
 prep_time: "15 minutes"
 allergens: ["wheat", "gluten", "dairy", "eggs"]
 tags: ["bread", "french", "luxe", "make-ahead"]
-pairs_with: ["melba-toast", "crostini", "baguette", "triple-creme", "parmigiano-reggiano", "smoked-salmon", "prosciutto-di-parma"]
+pairs_with: ["melba-toast", "crostini", "baguette", "triple-creme", "parmigiano-reggiano", "smoked-salmon", "prosciutto-di-parma", "chocolate-hazelnut-spread", "caviar"]
 avoid_with: ["cured-meat", "aged-hard-cheese"]
 faq: "[{"question": "What are toast points, exactly?", "answer": "Bread with the crusts removed, toasted, and cut diagonally into triangles. Brioche is the rich version; melba toast is the lean one."}, {"question": "Can I make them ahead?", "answer": "A few hours, kept airtight at room temperature. Don't refrigerate."}, {"question": "How many per person?", "answer": "2–3. They're rich enough that people take fewer than you'd expect."}, {"question": "Brioche or melba toast for pâté?", "answer": "Brioche if you want richness and the pâté is the centerpiece. Melba toast if you want the pâté to taste lighter and cleaner."}, {"question": "Can I use challah instead?", "answer": "Yes. Slightly less buttery, otherwise the same job."}]"
 ---

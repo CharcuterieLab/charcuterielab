@@ -13,7 +13,7 @@ serving_per_person: "2–3 fillets"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["seafood", "spanish", "cured", "umami"]
-pairs_with: ["sardines", "bottarga", "smoked-trout", "olive-oil-crackers", "pane-carasau", "nicoise-olives", "capers", "caperberries"]
+pairs_with: ["sardines", "bottarga", "smoked-trout", "olive-oil-crackers", "pane-carasau", "nicoise-olives", "capers", "caperberries", "piquillo-peppers", "boquerones"]
 avoid_with: ["delicate-fresh-cheese", "blue-cheese"]
 faq: "[{"question": "Why are Cantabrian anchovies so expensive?", "answer": "Larger fish, six months to two years in salt, and hand filleting. They're a different product from mass-market tins."}, {"question": "What are boquerones?", "answer": "Fresh anchovies cured in vinegar rather than salt. White, firm, bright and mild."}, {"question": "I hate anchovies. Should I try again?", "answer": "Probably. Most people's experience is cheap tinned fillets on pizza. A good Cantabrian fillet on buttered bread is a different food."}, {"question": "How much per person?", "answer": "Two to three fillets. They're intense."}, {"question": "What's a gilda?", "answer": "A Basque pintxo — green olive, pickled guindilla pepper and an anchovy on a stick. The best two-minute thing on this page."}]"
 ---

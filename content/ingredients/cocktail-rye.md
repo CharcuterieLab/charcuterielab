@@ -13,7 +13,7 @@ serving_per_person: "2–3 slices"
 prep_time: "2 minutes"
 allergens: ["rye", "wheat", "gluten"]
 tags: ["bread", "party", "open-faced", "retro"]
-pairs_with: ["pumpernickel", "rye-crispbread", "melba-toast", "cream-cheese", "aged-cheddar", "lefse", "liverwurst", "smoked-salmon", "pastrami"]
+pairs_with: ["pumpernickel", "rye-crispbread", "melba-toast", "cream-cheese", "aged-cheddar", "lefse", "liverwurst", "smoked-salmon", "pastrami", "jarlsberg"]
 avoid_with: ["wet-dips"]
 faq: "[{"question": "Where do I find cocktail rye in the store?", "answer": "It hides. Check the bread aisle, the refrigerated deli case, and the freezer — different stores shelve it in all three."}, {"question": "How many slices per person?", "answer": "2–3. A 16 oz loaf holds around 30 slices."}, {"question": "How do I keep it from drying out?", "answer": "Serve it late, keep the reserve covered with a damp towel, and put out only what will be eaten in the first hour."}, {"question": "Can I toast it?", "answer": "Yes — 5 minutes at 350°F. It becomes a sturdy cracker-like base, which is a good rescue if the party is long."}, {"question": "Rye or pumpernickel?", "answer": "Both. They look good alternated and they pair slightly differently — rye is sharper, pumpernickel sweeter."}]"
 ---

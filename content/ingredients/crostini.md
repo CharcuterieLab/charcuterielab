@@ -13,7 +13,7 @@ serving_per_person: "3–4 pieces"
 prep_time: "15 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "make-ahead", "toasted", "classic"]
-pairs_with: ["baguette", "sourdough", "water-crackers", "burrata", "ricotta", "fresh-chevre", "prosciutto-di-parma", "pate-de-campagne"]
+pairs_with: ["baguette", "sourdough", "water-crackers", "burrata", "ricotta", "fresh-chevre", "prosciutto-di-parma", "pate-de-campagne", "boquerones", "tinned-octopus"]
 avoid_with: []
 image_alt: "Golden toasted crostini rounds overlapping, one topped with whipped ricotta and honey"
 faq: "[{"question": "How far ahead can I make crostini?", "answer": "Three days, stored airtight at room temperature. This is the best make-ahead item on a board."}, {"question": "Crostini vs. bruschetta — what's the difference?", "answer": "Crostini are thin, oven-toasted and small. Bruschetta is thick, grilled and rubbed with garlic. Bruschetta is a bigger, messier bite."}, {"question": "How many per person?", "answer": "3–4. One baguette makes enough for six to eight people."}, {"question": "Can I use sourdough instead of baguette?", "answer": "Yes, and it's excellent — just cut the slices in half so the pieces stay bite-sized."}, {"question": "Why did mine go soft?", "answer": "Either they cooled in the pan, or they weren't baked dry through. Golden on the outside isn't the same as dry in the middle."}]"

@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "10 minutes"
 allergens: ["fish"]
 tags: ["seafood", "smoked", "value", "underrated"]
-pairs_with: ["smoked-salmon", "gravlax", "sardines", "rye-crispbread", "cream-cheese"]
+pairs_with: ["smoked-salmon", "gravlax", "sardines", "rye-crispbread", "cream-cheese", "pickled-beets"]
 avoid_with: ["strong-cured-meat", "blue-cheese"]
 faq: "[{"question": "Smoked trout or smoked salmon?", "answer": "Trout is milder, flakier, less oily and about half the price. Salmon is richer and silkier. Trout is the better value and the better dip."}, {"question": "Is it cooked?", "answer": "Hot-smoked trout is fully cooked. Cold-smoked trout is not, and slices like salmon."}, {"question": "What's the best thing to do with it?", "answer": "Flake it into cream cheese with lemon, horseradish and chives. Ten minutes, and it's the item people finish first."}, {"question": "How much per person?", "answer": "1–1.5 oz, or one fillet for every three or four people if you're making dip."}, {"question": "Do I remove the skin?", "answer": "Yes — peel it off and check for pin bones before flaking."}]"
 ---

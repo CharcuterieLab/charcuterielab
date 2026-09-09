@@ -13,7 +13,7 @@ serving_per_person: "2–3 cubes"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "italian", "rich", "warm"]
-pairs_with: ["ciabatta", "olive-oil-crackers", "baguette", "burrata", "fresh-mozzarella", "stracciatella", "mortadella", "prosciutto-di-parma"]
+pairs_with: ["ciabatta", "olive-oil-crackers", "baguette", "burrata", "fresh-mozzarella", "stracciatella", "mortadella", "prosciutto-di-parma", "pesto", "prosciutto-cotto"]
 avoid_with: ["blue-cheese", "dessert-boards"]
 faq: "[{"question": "Focaccia or ciabatta for a charcuterie board?", "answer": "Focaccia if the board leans rich and soft (burrata, mozzarella, prosciutto). Ciabatta if you want something drier that tears well."}, {"question": "How much per person?", "answer": "2–3 one-inch cubes. It's filling."}, {"question": "Should I serve it warm?", "answer": "Yes. Five minutes at 350°F makes a large difference and costs nothing."}, {"question": "Can I buy it the day before?", "answer": "You can, but it won't be the same. If you must, revive it in a hot dry pan rather than the oven."}, {"question": "Why is mine greasy rather than rich?", "answer": "It's cold. Focaccia's oil firms up at room temperature and reads as greasy; warming it fixes the impression entirely."}]"
 ---

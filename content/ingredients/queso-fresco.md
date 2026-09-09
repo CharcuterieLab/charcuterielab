@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "15 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "mexican", "fresh", "budget"]
-pairs_with: ["cotija", "feta", "tostada-rounds", "plantain-chips", "chorizo"]
+pairs_with: ["cotija", "feta", "tostada-rounds", "plantain-chips", "chorizo", "tortilla-chips"]
 avoid_with: ["blue-cheese", "strong-aged-cheese"]
 faq: "[{"question": "Does queso fresco melt?", "answer": "No. It softens and warms but holds its shape, which is why it's crumbled on top of hot food rather than into it."}, {"question": "Queso fresco or cotija?", "answer": "Queso fresco is fresh, mild and moist. Cotija is aged, hard and very salty. Fresco cools a bite; cotija seasons it."}, {"question": "Is it like feta?", "answer": "Milder and less tangy. Feta is brine-aged and sharp; queso fresco is fresh and gentle."}, {"question": "How much per person?", "answer": "1–2 oz. A 10 oz round serves six to eight."}, {"question": "Does it need seasoning?", "answer": "Yes. Lime, chili and cilantro at minimum. Plain, it's deliberately neutral."}]"
 ---

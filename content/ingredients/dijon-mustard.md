@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "2 minutes"
 allergens: ["mustard"]
 tags: ["condiment", "mustard", "french", "budget", "beginner"]
-pairs_with: ["pate-de-campagne", "cornichons", "saucisson-sec", "gruyere", "black-forest-ham"]
+pairs_with: ["pate-de-campagne", "cornichons", "saucisson-sec", "gruyere", "black-forest-ham", "tinned-mackerel"]
 avoid_with: []
 faq: "[{"question": "What's the difference between Dijon and whole grain mustard?", "answer": "Dijon is smooth, sharper and hotter, made with wine. Whole grain has intact seeds that add texture and is milder."}, {"question": "Is Dijon mustard actually from Dijon?", "answer": "Usually not. It's a style, not a protected origin — most jars are made elsewhere."}, {"question": "Why does my mustard taste weak?", "answer": "It's old. Mustard's heat is volatile and fades within months of opening."}, {"question": "What goes with Dijon on a board?", "answer": "Pâté and terrines above all, plus cured salami, cornichons, gruyère, and ham."}, {"question": "How much per person?", "answer": "About a quarter-ounce, spread thin rather than spooned."}]"
 ---

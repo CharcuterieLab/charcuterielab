@@ -13,7 +13,7 @@ serving_per_person: "2–3 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "fresh", "colour", "summer"]
-pairs_with: ["grapes", "cherries", "figs", "triple-creme", "mascarpone", "edible-flowers", "shortbread", "pizzelle", "chocolate-wafers"]
+pairs_with: ["grapes", "cherries", "figs", "triple-creme", "mascarpone", "edible-flowers", "shortbread", "pizzelle", "chocolate-wafers", "fresh-mint", "physalis"]
 avoid_with: []
 faq: "[{"question": "When should I wash berries?", "answer": "Right before serving, then dry them thoroughly on a towel. Washing early makes them mould."}, {"question": "Which berries are best for a cheese board?", "answer": "Blackberries and raspberries for tartness and colour, strawberries for size, blueberries for durability. A mix of two looks better than all four."}, {"question": "Do I halve strawberries?", "answer": "Yes — lengthwise, with the green top left on."}, {"question": "How much per person?", "answer": "2–3 oz across all types."}, {"question": "How do I stop them bleeding onto the cheese?", "answer": "Dry them properly, and give them their own small dish or a clear space rather than nestling them against soft cheese."}]"
 ---

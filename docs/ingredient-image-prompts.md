@@ -1,6 +1,6 @@
 # Charcuterie Lab — Ingredient Image Prompt Sheet
 
-**295 images, one per ingredient page.** Every prompt was written from that page's own `**Look:**` line and its prep instructions, so the image matches what the page actually describes.
+**325 images, one per ingredient page.** Every prompt was written from that page's own `**Look:**` line and its prep instructions, so the image matches what the page actually describes.
 
 ---
 
@@ -43,7 +43,7 @@ done
 
 ## House style
 
-Every prompt ends with the same lighting and framing block so the 295 images read as one series:
+Every prompt ends with the same lighting and framing block so the 325 images read as one series:
 
 > Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
 
@@ -66,7 +66,7 @@ Surfaces vary by category so the set doesn't look monotonous:
 
 ## Priority order
 
-If you're not doing all 295 at once, these are the pages worth having images on first — they're the highest-traffic search terms and the ones most likely to be shared:
+If you're not doing all 325 at once, these are the pages worth having images on first — they're the highest-traffic search terms and the ones most likely to be shared:
 
 | # | Filename | Page |
 |---|---|---|
@@ -3173,6 +3173,346 @@ Close-up editorial food photograph of flaky sea salt — white pyramid flakes, t
 
 ```
 Close-up editorial food photograph of za'atar — dusty green-red, flecked with pale sesame. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: a small dish of green-red blend beside a shallow dish of olive oil. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+---
+
+## The prompts — September 2026 additions
+
+**30 new ingredient pages.** Same house style and same filename convention as everything above, so these slot straight into the existing folder.
+
+---
+
+## Dips & spreads
+
+### Ajvar
+
+**File:** `ajvar.jpg`  
+**Frontmatter:** `image: "/images/ingredients/ajvar.jpg"`  
+**Alt text:** Ajvar styled on a charcuterie board
+
+```
+Close-up editorial food photograph of ajvar — deep orange-red, matte, holds its shape. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: spread thick in a shallow bowl, swirled and glossy with oil. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Labneh
+
+**File:** `labneh.jpg`  
+**Frontmatter:** `image: "/images/ingredients/labneh.jpg"`  
+**Alt text:** Labneh styled on a charcuterie board
+
+```
+Close-up editorial food photograph of labneh — bright white, glossy where the oil pools. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: spread in a shallow bowl, dented with the back of a spoon and flooded with olive oil. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Pesto
+
+**File:** `pesto.jpg`  
+**Frontmatter:** `image: "/images/ingredients/pesto.jpg"`  
+**Alt text:** Pesto styled on a charcuterie board
+
+```
+Close-up editorial food photograph of pesto — deep green, glossy, flecked. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: a spoonful in a small bowl, bright green with a film of oil across the top. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Savoury condiments
+
+### Harissa
+
+**File:** `harissa.jpg`  
+**Frontmatter:** `image: "/images/ingredients/harissa.jpg"`  
+**Alt text:** Harissa styled on a charcuterie board
+
+```
+Close-up editorial food photograph of harissa — deep brick red, matte. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: a small dish of thick brick-red paste with a spoon and a pool of oil. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Sweet preserves
+
+### Chocolate Hazelnut Spread
+
+**File:** `chocolate-hazelnut-spread.jpg`  
+**Frontmatter:** `image: "/images/ingredients/chocolate-hazelnut-spread.jpg"`  
+**Alt text:** Chocolate Hazelnut Spread styled on a charcuterie board
+
+```
+Close-up editorial food photograph of chocolate hazelnut spread — matte mid-brown. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: a small bowl of dark spread with a knife resting in it and whole hazelnuts beside. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Lemon Curd
+
+**File:** `lemon-curd.jpg`  
+**Frontmatter:** `image: "/images/ingredients/lemon-curd.jpg"`  
+**Alt text:** Lemon Curd styled on a charcuterie board
+
+```
+Close-up editorial food photograph of lemon curd — opaque pale yellow, glossy. Presented on a small footed ceramic bowl on a pale marble surface, with a small wooden spreader resting across the rim. Styled as it would be served on a charcuterie board: spooned into a small bowl, pale yellow and glossy, with lemon zest over the top. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Salt & spice
+
+### Aleppo Pepper
+
+**File:** `aleppo-pepper.jpg`  
+**Frontmatter:** `image: "/images/ingredients/aleppo-pepper.jpg"`  
+**Alt text:** Aleppo Pepper styled on a charcuterie board
+
+```
+Close-up editorial food photograph of aleppo pepper — deep brick red, slightly damp-looking. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: a small heap of coarse damp red flakes with a pinch scattered beside it. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Everything Bagel Seasoning
+
+**File:** `everything-bagel-seasoning.jpg`  
+**Frontmatter:** `image: "/images/ingredients/everything-bagel-seasoning.jpg"`  
+**Alt text:** Everything Bagel Seasoning styled on a charcuterie board
+
+```
+Close-up editorial food photograph of everything bagel seasoning — black, white and beige speckle. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: scattered generously over a bowl of plain white cream cheese. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Pink Peppercorns
+
+**File:** `pink-peppercorns.jpg`  
+**Frontmatter:** `image: "/images/ingredients/pink-peppercorns.jpg"`  
+**Alt text:** Pink Peppercorns styled on a charcuterie board
+
+```
+Close-up editorial food photograph of pink peppercorns — matte rose-pink spheres, sometimes with paler flecks. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: a small scatter of rose-pink berries, two or three crushed. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Chocolate & sweets
+
+### Candied Ginger
+
+**File:** `candied-ginger.jpg`  
+**Frontmatter:** `image: "/images/ingredients/candied-ginger.jpg"`  
+**Alt text:** Candied Ginger styled on a charcuterie board
+
+```
+Close-up editorial food photograph of candied ginger — translucent pale gold, sugar-frosted. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: translucent sugar-frosted pieces, a few sliced thin. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Cocoa Nibs
+
+**File:** `cocoa-nibs.jpg`  
+**Frontmatter:** `image: "/images/ingredients/cocoa-nibs.jpg"`  
+**Alt text:** Cocoa Nibs styled on a charcuterie board
+
+```
+Close-up editorial food photograph of cocoa nibs — dark red-brown irregular chips. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: a loose scatter of dark chips rather than a pile. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Fresh herbs & garnish
+
+### Fresh Mint
+
+**File:** `fresh-mint.jpg`  
+**Frontmatter:** `image: "/images/ingredients/fresh-mint.jpg"`  
+**Alt text:** Fresh Mint styled on a charcuterie board
+
+```
+Close-up editorial food photograph of fresh mint — bright mid-green, slightly crinkled. Presented on a pale marble surface, with generous negative space around it. Styled as it would be served on a charcuterie board: whole sprigs and torn leaves scattered beside cut melon. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Pickles
+
+### Kimchi
+
+**File:** `kimchi.jpg`  
+**Frontmatter:** `image: "/images/ingredients/kimchi.jpg"`  
+**Alt text:** Kimchi styled on a charcuterie board
+
+```
+Close-up editorial food photograph of kimchi — deep red-orange, glossy, wet. Presented on a small shallow glazed dish on weathered grey wood, with two or three pieces scattered beside the dish. Styled as it would be served on a charcuterie board: a small bowl of drained red-orange cabbage cut into bite-size lengths. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Pickled Beets
+
+**File:** `pickled-beets.jpg`  
+**Frontmatter:** `image: "/images/ingredients/pickled-beets.jpg"`  
+**Alt text:** Pickled Beets styled on a charcuterie board
+
+```
+Close-up editorial food photograph of pickled beets — deep magenta, glossy, dyeing everything nearby. Presented on a small shallow glazed dish on weathered grey wood, with two or three pieces scattered beside the dish. Styled as it would be served on a charcuterie board: deep magenta wedges in a small dish with dill over the top. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Preserved Lemons
+
+**File:** `preserved-lemons.jpg`  
+**Frontmatter:** `image: "/images/ingredients/preserved-lemons.jpg"`  
+**Alt text:** Preserved Lemons styled on a charcuterie board
+
+```
+Close-up editorial food photograph of preserved lemons — translucent yellow, slumped, sitting in cloudy brine. Presented on a small shallow glazed dish on weathered grey wood, with two or three pieces scattered beside the dish. Styled as it would be served on a charcuterie board: translucent yellow rind sliced very thin, with a whole salted quarter beside it. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Peppers & briny
+
+### Pickled Jalapeños
+
+**File:** `pickled-jalapenos.jpg`  
+**Frontmatter:** `image: "/images/ingredients/pickled-jalapenos.jpg"`  
+**Alt text:** Pickled Jalapeños styled on a charcuterie board
+
+```
+Close-up editorial food photograph of pickled jalapeños — olive-green rings, sometimes with orange carrot alongside. Presented on a small shallow glazed dish on weathered grey wood, with two or three pieces scattered beside the dish. Styled as it would be served on a charcuterie board: a small bowl of drained green rings with a few slices of pickled carrot. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Piquillo Peppers
+
+**File:** `piquillo-peppers.jpg`  
+**Frontmatter:** `image: "/images/ingredients/piquillo-peppers.jpg"`  
+**Alt text:** Piquillo Peppers styled on a charcuterie board
+
+```
+Close-up editorial food photograph of piquillo peppers — dark glossy red, small, pointed. Presented on a small shallow glazed dish on weathered grey wood, with two or three pieces scattered beside the dish. Styled as it would be served on a charcuterie board: whole small dark red peppers fanned on a plate, glossy with oil. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Smoked & tinned fish
+
+### Boquerones
+
+**File:** `boquerones.jpg`  
+**Frontmatter:** `image: "/images/ingredients/boquerones.jpg"`  
+**Alt text:** Boquerones styled on a charcuterie board
+
+```
+Close-up editorial food photograph of boquerones — pearl white fillets with a silver stripe, often flecked with parsley. Presented on a dark walnut serving board, with a folded natural linen cloth at the edge of frame. Styled as it would be served on a charcuterie board: white fillets laid flat and slightly overlapping, silver side up, flecked with parsley. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Caviar
+
+**File:** `caviar.jpg`  
+**Frontmatter:** `image: "/images/ingredients/caviar.jpg"`  
+**Alt text:** Caviar styled on a charcuterie board
+
+```
+Close-up editorial food photograph of caviar — glossy grey to olive-black spheres, uniform. Presented on a dark walnut serving board, with a folded natural linen cloth at the edge of frame. Styled as it would be served on a charcuterie board: an open tin nested in crushed ice with a mother-of-pearl spoon. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Tinned Mackerel
+
+**File:** `tinned-mackerel.jpg`  
+**Frontmatter:** `image: "/images/ingredients/tinned-mackerel.jpg"`  
+**Alt text:** Tinned Mackerel styled on a charcuterie board
+
+```
+Close-up editorial food photograph of tinned mackerel — pale grey-brown fillets, sometimes with dark silver skin. Presented on a dark walnut serving board, with a folded natural linen cloth at the edge of frame. Styled as it would be served on a charcuterie board: fillets lifted from an open tin onto a small plate with a lemon wedge. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Tinned Octopus
+
+**File:** `tinned-octopus.jpg`  
+**Frontmatter:** `image: "/images/ingredients/tinned-octopus.jpg"`  
+**Alt text:** Tinned Octopus styled on a charcuterie board
+
+```
+Close-up editorial food photograph of tinned octopus — pale rounds with a purple-pink rim and visible suckers. Presented on a dark walnut serving board, with a folded natural linen cloth at the edge of frame. Styled as it would be served on a charcuterie board: pale rounds fanned on a plate and dusted with smoked paprika. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Cooked sausage & deli
+
+### Prosciutto Cotto
+
+**File:** `prosciutto-cotto.jpg`  
+**Frontmatter:** `image: "/images/ingredients/prosciutto-cotto.jpg"`  
+**Alt text:** Prosciutto Cotto styled on a charcuterie board
+
+```
+Close-up editorial food photograph of prosciutto cotto — pale rose-pink with a fine white fat edge. Presented on a dark walnut serving board, with a folded natural linen cloth at the edge of frame. Styled as it would be served on a charcuterie board: thin slices folded into loose ruffles. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Fresh fruit
+
+### Champagne Grapes
+
+**File:** `champagne-grapes.jpg`  
+**Frontmatter:** `image: "/images/ingredients/champagne-grapes.jpg"`  
+**Alt text:** Champagne Grapes styled on a charcuterie board
+
+```
+Close-up editorial food photograph of champagne grapes — deep purple-black miniature bunches on fine stems. Presented on a matte cream ceramic plate, with one or two loose pieces set just off the plate. Styled as it would be served on a charcuterie board: one small dense bunch draped over the edge of the plate. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Physalis
+
+**File:** `physalis.jpg`  
+**Frontmatter:** `image: "/images/ingredients/physalis.jpg"`  
+**Alt text:** Physalis styled on a charcuterie board
+
+```
+Close-up editorial food photograph of physalis — glossy amber-orange berry inside a straw-coloured paper husk. Presented on a matte cream ceramic plate, with one or two loose pieces set just off the plate. Styled as it would be served on a charcuterie board: berries with the papery husk peeled back into petals, standing upright. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Tropical fruit
+
+### Dragon Fruit
+
+**File:** `dragon-fruit.jpg`  
+**Frontmatter:** `image: "/images/ingredients/dragon-fruit.jpg"`  
+**Alt text:** Dragon Fruit styled on a charcuterie board
+
+```
+Close-up editorial food photograph of dragon fruit — white or magenta flesh with fine black seeds, in a hot-pink shell. Presented on a matte cream ceramic plate, with one or two loose pieces set just off the plate. Styled as it would be served on a charcuterie board: cubed white flesh served in its own magenta half-shell. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Seeds & blends
+
+### Wasabi Peas
+
+**File:** `wasabi-peas.jpg`  
+**Frontmatter:** `image: "/images/ingredients/wasabi-peas.jpg"`  
+**Alt text:** Wasabi Peas styled on a charcuterie board
+
+```
+Close-up editorial food photograph of wasabi peas — pale green spheres with a matte dusty finish. Presented on a small unglazed stoneware bowl on oatmeal linen, with a scattering of a few pieces beside the bowl. Styled as it would be served on a charcuterie board: a small bowl of pale green spheres with a few scattered beside it. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Candied & spiced nuts
+
+### Nut Brittle
+
+**File:** `nut-brittle.jpg`  
+**Frontmatter:** `image: "/images/ingredients/nut-brittle.jpg"`  
+**Alt text:** Nut Brittle styled on a charcuterie board
+
+```
+Close-up editorial food photograph of nut brittle — amber sheets or irregular shards with nuts suspended in them. Presented on a small unglazed stoneware bowl on oatmeal linen, with a scattering of a few pieces beside the bowl. Styled as it would be served on a charcuterie board: irregular amber shards, two or three standing upright. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Semi-soft
+
+### Jarlsberg
+
+**File:** `jarlsberg.jpg`  
+**Frontmatter:** `image: "/images/ingredients/jarlsberg.jpg"`  
+**Alt text:** Jarlsberg styled on a charcuterie board
+
+```
+Close-up editorial food photograph of jarlsberg — pale yellow with large round holes, sold rindless. Presented on a pale grey-veined marble slab, with a small bone-handled cheese knife resting alongside. Styled as it would be served on a charcuterie board: thick batons cut straight through the holes. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+### Pepper Jack
+
+**File:** `pepper-jack.jpg`  
+**Frontmatter:** `image: "/images/ingredients/pepper-jack.jpg"`  
+**Alt text:** Pepper Jack styled on a charcuterie board
+
+```
+Close-up editorial food photograph of pepper jack — ivory paste flecked with green and red. Presented on a pale grey-veined marble slab, with a small bone-handled cheese knife resting alongside. Styled as it would be served on a charcuterie board: cubes cut to show the green and red flecks. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
+```
+
+## Sturdy scoop
+
+### Tortilla Chips
+
+**File:** `tortilla-chips.jpg`  
+**Frontmatter:** `image: "/images/ingredients/tortilla-chips.jpg"`  
+**Alt text:** Tortilla Chips styled on a charcuterie board
+
+```
+Close-up editorial food photograph of tortilla chips — pale gold triangles or rounds, sometimes blue or with visible corn flecks. Presented on a light oak board over oatmeal linen, with a few loose crumbs scattered naturally. Styled as it would be served on a charcuterie board: thick triangles fanned in a shallow bowl. Soft diffused natural window light from the upper left, gentle shadows, shallow depth of field, muted warm editorial palette, 3:2 landscape, food-magazine styling, photorealistic. No text, no logos, no hands, no people.
 ```
 
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "15 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "italian", "piedmont", "year-round"]
-pairs_with: ["aged-gouda", "gruyere", "comte", "pears", "gorgonzola", "dark-chocolate"]
+pairs_with: ["aged-gouda", "gruyere", "comte", "pears", "gorgonzola", "dark-chocolate", "chocolate-hazelnut-spread"]
 avoid_with: []
 faq: "[{"question": "Do I have to toast hazelnuts?", "answer": "Yes. Raw hazelnuts are hard, bitter and closed-off. Toasting is what creates the flavour people recognise."}, {"question": "How do I remove hazelnut skins?", "answer": "Toast at 350°F for 12–15 minutes, then rub the hot nuts hard in a kitchen towel. Most of the skin comes off; some will stay, and that's fine."}, {"question": "Are filberts the same as hazelnuts?", "answer": "Yes — different names for the same nut."}, {"question": "What cheese goes with hazelnuts?", "answer": "Gruyère, comté and aged gouda especially. Also blue cheese and pears."}, {"question": "How should I store them?", "answer": "In the freezer. Hazelnuts are high in oil and go rancid fast."}]"
 ---

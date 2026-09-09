@@ -13,7 +13,7 @@ serving_per_person: "2–3 biscuits"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten", "dairy"]
 tags: ["british", "sweet-savory", "cheddar", "unexpected"]
-pairs_with: ["oatcakes", "cream-crackers", "butter-crackers", "cream-cheese", "aged-cheddar", "aged-gouda", "bath-olivers", "prosciutto-di-parma", "genoa-salami"]
+pairs_with: ["oatcakes", "cream-crackers", "butter-crackers", "cream-cheese", "aged-cheddar", "aged-gouda", "bath-olivers", "prosciutto-di-parma", "genoa-salami", "lemon-curd"]
 avoid_with: ["cured-meat", "delicate-fresh-cheese"]
 faq: "[{"question": "Do British people really eat cheese on digestive biscuits?", "answer": "Yes, routinely, and have for generations. Sharp cheddar is the standard."}, {"question": "Why does sweet biscuit work with cheese?", "answer": "Same reason fig jam and honey do. The sugar balances the cheese's salt and acid — it's just baked in rather than spooned on."}, {"question": "Are digestives actually good for digestion?", "answer": "No. The name came from an 1830s marketing claim about baking soda. It was never true."}, {"question": "How many per person?", "answer": "2–3. They're substantial."}, {"question": "Where do I find them in the US?", "answer": "The international aisle at most grocery stores, plus Target, World Market and Amazon."}]"
 ---

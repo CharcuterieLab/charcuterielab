@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["peppers", "spanish", "budget", "vegetarian", "antipasto"]
-pairs_with: ["fresh-chevre", "manchego", "burrata", "hummus", "romesco"]
+pairs_with: ["fresh-chevre", "manchego", "burrata", "hummus", "romesco", "ajvar", "piquillo-peppers"]
 avoid_with: []
 faq: "[{"question": "Are jarred roasted red peppers as good as homemade?", "answer": "Close, and for a board they're fine. Piquillo peppers in a jar are better than most people's home-roasted bell peppers."}, {"question": "What are piquillo peppers?", "answer": "Small Spanish peppers roasted over wood fire, then peeled and jarred. Sweeter and deeper than roasted bell peppers."}, {"question": "What cheese goes with roasted red peppers?", "answer": "Fresh goat cheese above all, plus manchego and burrata. Not blue cheese."}, {"question": "How do I roast peppers at home?", "answer": "Char them whole over a gas flame or under a broiler until the skin is black, then steam in a covered bowl for ten minutes and peel."}, {"question": "How much per person?", "answer": "About three-quarters of an ounce."}]"
 ---

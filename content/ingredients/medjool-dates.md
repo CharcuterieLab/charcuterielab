@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "dried", "middle-eastern", "crowd-pleaser"]
-pairs_with: ["gorgonzola", "fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "chocolate-covered-almonds", "sea-salt-caramels"]
+pairs_with: ["gorgonzola", "fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "chocolate-covered-almonds", "sea-salt-caramels", "cocoa-nibs", "fresh-mint", "nut-brittle"]
 avoid_with: []
 faq: "[{"question": "Which dates are best for a charcuterie board?", "answer": "Medjool — large, soft, and sturdy enough to split and stuff."}, {"question": "How do I pit a date?", "answer": "Split it lengthwise along one side and lift the pit out. Don't cut all the way through."}, {"question": "What do you stuff dates with?", "answer": "Goat cheese, blue cheese, or mascarpone, usually topped with a pistachio or almond and sometimes wrapped in prosciutto."}, {"question": "How many per person?", "answer": "One or two. They're very sweet and very rich."}, {"question": "My dates are hard — can I fix them?", "answer": "Steam them for two minutes or soak in warm water for ten, then pat dry."}]"
 ---

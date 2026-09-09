@@ -13,7 +13,7 @@ serving_per_person: "3–4 slices"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "autumn", "blue cheese"]
-pairs_with: ["apples", "figs", "grapes", "gorgonzola", "parmigiano-reggiano"]
+pairs_with: ["apples", "figs", "grapes", "gorgonzola", "parmigiano-reggiano", "candied-ginger", "nut-brittle"]
 avoid_with: []
 faq: "[{"question": "How do I tell when a pear is ripe?", "answer": "Press the neck just below the stem. It should give slightly. Don't press the belly — by the time that's soft, the core is mush."}, {"question": "Which pear is best for a board?", "answer": "Bosc. It's firm enough to slice cleanly and holds its shape."}, {"question": "Pear or apple with blue cheese?", "answer": "Pear. It's softer and more floral, and it suits blue better than apple's sharpness."}, {"question": "Do I peel them?", "answer": "No — the skin adds colour and it's thin enough to eat."}, {"question": "How much per person?", "answer": "3–4 thin slices."}]"
 ---

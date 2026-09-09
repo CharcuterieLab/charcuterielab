@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "5 minutes"
 allergens: ["tree nuts"]
 tags: ["dip", "spanish", "catalan", "vegetarian", "unique"]
-pairs_with: ["manchego", "jamon-serrano", "marcona-almonds", "roasted-red-peppers", "baguette"]
+pairs_with: ["manchego", "jamon-serrano", "marcona-almonds", "roasted-red-peppers", "baguette", "piquillo-peppers"]
 avoid_with: []
 faq: "[{"question": "What is romesco?", "answer": "A Catalan sauce of roasted red peppers, tomato, almonds, bread, garlic and smoked paprika, blended thick."}, {"question": "What goes with romesco on a board?", "answer": "Manchego, jamón serrano, marcona almonds, grilled vegetables and crusty bread."}, {"question": "Does romesco contain nuts?", "answer": "Yes — almonds, sometimes hazelnuts. It's a tree nut allergen and worth flagging."}, {"question": "Can I make romesco at home?", "answer": "Yes. Blend jarred roasted peppers, toasted almonds, stale bread, garlic, smoked paprika and sherry vinegar. Keep it coarse."}, {"question": "Is it spicy?", "answer": "Not usually. It's smoky and sweet rather than hot, though some versions add chilli."}]"
 ---

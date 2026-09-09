@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "aged", "swiss", "alpine"]
 pairs_with: ["comte", "emmental", "beaufort", "baguette", "raclette", "speck", "hazelnuts", "roasted-chestnuts", "dijon-mustard", "onion-jam", "marinated-mushrooms"]
 avoid_with: ["delicate-fresh-cheese"]
-board_post: "/blog/gruyere-charcuterie-board/"
+board_post: "/blog/gruyere-ham-cornichon-dijon-pairing/"
 faq: "[{"question": "Does Gruyère have holes?", "answer": "Swiss Gruyère AOP has very few or none. French Gruyère does. If you're seeing lots of holes, you're probably looking at Emmental."}, {"question": "Gruyère or Comté?", "answer": "Gruyère is saltier and more directly savory; Comté is fruitier and more varied. Both are excellent — put them side by side."}, {"question": "Can you eat the rind?", "answer": "Trim it. It's natural but tough."}, {"question": "Why is it in every fondue recipe?", "answer": "Cooked curd gives it a tight protein structure that melts smoothly instead of splitting."}, {"question": "How much per person?", "answer": "1–2 oz as one of three cheeses."}]"
 ---
 

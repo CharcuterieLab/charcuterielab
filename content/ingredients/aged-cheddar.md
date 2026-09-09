@@ -15,7 +15,7 @@ allergens: ["dairy"]
 tags: ["cheese", "aged", "english", "crowd-pleaser"]
 pairs_with: ["aged-gouda", "red-leicester", "whole-wheat-crackers", "oatcakes", "smoked-almonds", "brazil-nuts", "spiced-nut-mix", "honey-roasted-peanuts", "kiwi", "dried-cherries", "orange-marmalade", "apple-butter", "tomato-jam", "onion-jam", "bacon-jam", "mango-chutney", "pimento-cheese", "dill-pickles", "bread-and-butter-pickles", "pickled-green-beans", "sea-salt-caramels"]
 avoid_with: ["delicate-fresh-cheese"]
-board_post: "/blog/aged-cheddar-charcuterie-board/"
+board_post: "/blog/aged-cheddar/"
 faq: "[{"question": "What are the crunchy bits in aged cheddar?", "answer": "Tyrosine crystals — clusters of an amino acid released as proteins break down during aging. A sign of a well-aged cheese, not salt and not a fault."}, {"question": "How aged is aged?", "answer": "Twelve months is a floor. Eighteen months to two years is where most of the character shows up."}, {"question": "Why does thin slicing make it taste sharper?", "answer": "More surface area hits the tongue at once. Thick pieces taste rounder and nuttier."}, {"question": "How much per person?", "answer": "1–2 oz as one of three cheeses."}, {"question": "White or orange?", "answer": "Identical apart from annatto coloring. White if you're choosing."}]"
 ---
 

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "tropical", "budget", "year-round"]
-pairs_with: ["aged-cheddar", "manchego", "fresh-chevre", "aged-gouda", "prosciutto-di-parma"]
+pairs_with: ["aged-cheddar", "manchego", "fresh-chevre", "aged-gouda", "prosciutto-di-parma", "dragon-fruit"]
 avoid_with: ["burrata", "fresh-mozzarella"]
 faq: "[{"question": "Do I peel kiwi?", "answer": "Yes, for a board — a vegetable peeler is fastest. The skin is edible but fuzzy and nobody expects it."}, {"question": "Why does kiwi make my mouth tingle?", "answer": "Actinidin, an enzyme that breaks down protein — the same effect as pineapple."}, {"question": "Green or gold kiwi?", "answer": "Green is tarter and more striking. Gold is sweeter and works better next to mild cheeses."}, {"question": "How do I slice kiwi for a board?", "answer": "Crosswise into 1/4-inch wheels, so the seed ring shows."}, {"question": "Will kiwi ruin soft cheese?", "answer": "If it sits against it, yes — the enzyme degrades the protein and the cheese goes slack. Plate it separately and late."}]"
 ---
