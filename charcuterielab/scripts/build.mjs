@@ -1,4 +1,5 @@
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -14,7 +15,6 @@ const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
 const ebookPageUrl = "/ebook/";
 const ebookPrice = "$14.99";
 const newsletterUrl = "https://charcuterie-lab-report.beehiiv.com/subscribe";
-const assetVersion = "20260505-compact-card-grids";
 
 // Statcounter. Both values come from your project's Install Code page. They
 // are not secrets - they appear in the page source of every site that uses
@@ -30,6 +30,16 @@ const paths = {
   public: join(root, "public"),
   styles: join(root, "src", "styles", "site.css")
 };
+
+// Cache-buster for the stylesheet. Netlify serves /assets/site.css with a
+// one-year immutable cache header, so this query string is the ONLY thing that
+// tells a returning browser to fetch a new stylesheet. It used to be a
+// hand-edited constant, which meant a redesign could ship to a browser that
+// kept using the old CSS. Hashing the file means it can never go stale again.
+const assetVersion = createHash("sha1")
+  .update(await readFile(paths.styles))
+  .digest("hex")
+  .slice(0, 12);
 
 const escapeHtml = (value = "") =>
   String(value)
