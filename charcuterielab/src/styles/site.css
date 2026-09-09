@@ -2713,6 +2713,62 @@ a {
   border-bottom-color: var(--gold-dark);
 }
 
+/* numbered steps — a numeral, the action on its own line, the detail beneath */
+
+.ing-body ol {
+  counter-reset: ing-step;
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+  border-top: 1px solid rgba(17, 58, 39, 0.12);
+}
+
+.ing-body ol > li {
+  counter-increment: ing-step;
+  position: relative;
+  margin: 0;
+  padding: 14px 0 14px 50px;
+  border-bottom: 1px solid rgba(17, 58, 39, 0.12);
+}
+
+.ing-body ol > li::before {
+  content: counter(ing-step);
+  position: absolute;
+  left: 0;
+  top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--ing-tint);
+  background: color-mix(in srgb, var(--ing-tint) 10%, #fffdf7);
+  border: 1px solid color-mix(in srgb, var(--ing-tint) 24%, transparent);
+  border-radius: 999px;
+}
+
+/* Blog posts get the same list fix without the step chrome. Ingredient pages
+   carry BOTH classes (post-body ing-body), so this must exclude them or it
+   overrides the step styling above. */
+
+.post-body:not(.ing-body) ol {
+  margin: 0 0 24px;
+  padding-left: 24px;
+}
+
+.post-body:not(.ing-body) ol > li {
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+
+.post-body:not(.ing-body) ol > li::marker {
+  color: var(--gold-dark);
+  font-weight: 700;
+}
+
 /* taste / texture / look */
 
 .ing-sensory {

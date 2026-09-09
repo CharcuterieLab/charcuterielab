@@ -353,8 +353,12 @@ function markdownToHtml(markdown) {
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
+  const orderedItem = /^(\d+)\.\s+(.*)$/;
+
   const isBlockStart = (line = "") =>
-    /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) || /^!\[.*?\]\(.+?\)$/.test(line.trim());
+    /^(#{1,3}\s|-\s|>\s|\|.+\||---+$)/.test(line.trim()) ||
+    orderedItem.test(line.trim()) ||
+    /^!\[.*?\]\(.+?\)$/.test(line.trim());
 
   const isTableSeparator = (row = "") => {
     const cells = row.slice(1, -1).split("|").map((cell) => cell.trim());
@@ -401,10 +405,38 @@ function markdownToHtml(markdown) {
     if (line.startsWith("- ")) {
       const items = [];
       while (i < lines.length && lines[i].trim().startsWith("- ")) {
-        items.push(`<li>${inline(lines[i].trim().slice(2))}</li>`);
+        let text = lines[i].trim().slice(2);
         i += 1;
+        while (i < lines.length && lines[i].trim() && !isBlockStart(lines[i])) {
+          text += ` ${lines[i].trim()}`;
+          i += 1;
+        }
+        items.push(`<li>${inline(text)}</li>`);
       }
       html.push(`<ul>\n${items.join("\n")}\n</ul>`);
+      continue;
+    }
+
+    if (orderedItem.test(line)) {
+      // Numbered steps, with wrapped continuation lines folded back into their
+      // own step. Without this the whole list collapses into one paragraph with
+      // literal "1." "2." runs through it.
+      const items = [];
+      while (i < lines.length && orderedItem.test(lines[i].trim())) {
+        let text = lines[i].trim().match(orderedItem)[2];
+        i += 1;
+        while (i < lines.length && lines[i].trim() && !isBlockStart(lines[i])) {
+          text += ` ${lines[i].trim()}`;
+          i += 1;
+        }
+        items.push(`<li>${inline(text)}</li>`);
+        // Several posts put a blank line between numbered items. That is still
+        // one list - splitting it would restart the numbering at 1 each time.
+        let next = i;
+        while (next < lines.length && !lines[next].trim()) next += 1;
+        if (next < lines.length && orderedItem.test(lines[next].trim())) i = next;
+      }
+      html.push(`<ol>\n${items.join("\n")}\n</ol>`);
       continue;
     }
 
