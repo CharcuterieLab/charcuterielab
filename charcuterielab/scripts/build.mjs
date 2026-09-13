@@ -943,23 +943,31 @@ const AUTOLINK_SKIP = new Set([
   "plums", "melon", "figs", "olive oil", "sea salt", "cream cheese"
 ]);
 
+// One combined regex, longest title first, so a single pass over each text
+// segment can never re-scan the markup it just inserted. The previous version
+// looped over the index mutating the same string, which let a later, shorter
+// title match inside an href written by an earlier one - that produced
+// <a href="/ingredients/marcona-<a href="/ingredients/almonds/">almonds</a>/">
+// on nine live pages.
 function buildAutolinkIndex(ingredients) {
-  return ingredients
+  const items = ingredients
     .filter((i) => i.title && !AUTOLINK_SKIP.has(i.title.toLowerCase()))
-    .map((i) => ({
-      slug: i.slug,
-      title: i.title,
-      // word-boundary, case-insensitive, optional trailing "s" on single words
-      re: new RegExp(
-        `\\b${i.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`,
-        "i"
-      )
-    }))
     .sort((a, b) => b.title.length - a.title.length);
+  if (!items.length) return null;
+
+  const bySlug = new Map();
+  const alternatives = [];
+  for (const item of items) {
+    const key = item.title.toLowerCase();
+    if (bySlug.has(key)) continue;
+    bySlug.set(key, item.slug);
+    alternatives.push(item.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  }
+  return { bySlug, re: new RegExp(`\\b(?:${alternatives.join("|")})\\b`, "gi") };
 }
 
 function autolinkIngredients(html, index, selfSlug) {
-  if (!index.length) return html;
+  if (!index) return html;
   const used = new Set();
   let linked = 0;
 
@@ -979,20 +987,15 @@ function autolinkIngredients(html, index, selfSlug) {
     }
     if (skipDepth > 0 || !part.trim()) continue;
 
-    let text = part;
-    for (const item of index) {
-      if (linked >= AUTOLINK_MAX_PER_POST) break;
-      if (used.has(item.slug) || item.slug === selfSlug) continue;
-      const hit = item.re.exec(text);
-      if (!hit) continue;
-      text =
-        text.slice(0, hit.index) +
-        `<a href="/ingredients/${item.slug}/">${hit[0]}</a>` +
-        text.slice(hit.index + hit[0].length);
-      used.add(item.slug);
+    index.re.lastIndex = 0;
+    parts[i] = part.replace(index.re, (match) => {
+      if (linked >= AUTOLINK_MAX_PER_POST) return match;
+      const slug = index.bySlug.get(match.toLowerCase());
+      if (!slug || slug === selfSlug || used.has(slug)) return match;
+      used.add(slug);
       linked += 1;
-    }
-    parts[i] = text;
+      return `<a href="/ingredients/${slug}/">${match}</a>`;
+    });
   }
   return parts.join("");
 }
@@ -1089,6 +1092,26 @@ ${related
 }
 
 
+// Google shows roughly 60 characters of a title. When the headline already
+// fills that on its own, the " | Charcuterie Lab" suffix is truncated away
+// anyway - dropping it buys back 19 characters of the words that matter.
+function pageTitle(title) {
+  const t = String(title).trim();
+  return t.length >= 55 ? t : `${t} | Charcuterie Lab`;
+}
+
+// Search results cut the description at about 160 characters. Trim at the last
+// sentence or word boundary before that rather than mid-word.
+function metaSnippet(text, limit = 158) {
+  const t = String(text).trim();
+  if (t.length <= limit) return t;
+  const head = t.slice(0, limit);
+  const sentence = Math.max(head.lastIndexOf(". "), head.lastIndexOf("? "), head.lastIndexOf("! "));
+  if (sentence > limit * 0.55) return head.slice(0, sentence + 1);
+  const word = head.lastIndexOf(" ");
+  return `${head.slice(0, word > 0 ? word : limit).trimEnd()}...`;
+}
+
 function layout({
   title,
   description,
@@ -1113,7 +1136,7 @@ function layout({
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="${escapeHtml(description)}">
+  <meta name="description" content="${escapeHtml(metaSnippet(description))}">
   <title>${escapeHtml(title)}</title>
   <link rel="canonical" href="${pageUrl}">
   <meta property="og:site_name" content="Charcuterie Lab">
@@ -1556,6 +1579,14 @@ function relatedReading(relatedPosts) {
   </aside>`;
 }
 
+function demoteBodyHeadings(html, title) {
+  const plain = (v) => String(v).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+  let out = html.replace(/^\s*<h1[^>]*>([\s\S]*?)<\/h1>\s*/i, (match, inner) =>
+    plain(inner) === plain(title) ? "" : match
+  );
+  return out.replace(/<(\/?)h1\b([^>]*)>/gi, "<$1h2$2>");
+}
+
 function postPage(post, relatedPosts = [], autolinkIndex = []) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
@@ -1564,12 +1595,19 @@ function postPage(post, relatedPosts = [], autolinkIndex = []) {
     timeZone: "UTC"
   }).format(new Date(`${post.date}T00:00:00Z`));
 
-  const postHtml = addInlinePromo(autolinkIngredients(post.html, autolinkIndex, post.slug), post);
+  // The hero already prints the title as the page's H1. Markdown posts open
+  // with "# Title" too, which put two H1s on 102 pages - visible to readers,
+  // not just to crawlers. Drop a leading H1 that repeats the title, and demote
+  // any others (50-charcuterie-board-ideas used H1 for all eleven sections).
+  const postHtml = demoteBodyHeadings(
+    addInlinePromo(autolinkIngredients(post.html, autolinkIndex, post.slug), post),
+    post.title
+  );
 
   const description = metaDescription(post);
 
   return layout({
-    title: `${post.title} | Charcuterie Lab`,
+    title: pageTitle(post.title),
     description,
     canonical: `/blog/${post.slug}/`,
     image: post.image,
