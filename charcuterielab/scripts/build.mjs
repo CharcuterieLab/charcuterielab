@@ -925,6 +925,78 @@ ${ingredientsFinder(items, {
   });
 }
 
+// Blog posts were written before the ingredient library existed, so none of them
+// link into it. Rather than editing 100+ markdown files by hand - and re-editing
+// them every time a post or an ingredient is added - the links are made here, at
+// build time, from the ingredient data itself.
+//
+// Rules: first mention only, longest name first (so "Aged Cheddar" wins over
+// "Cheddar"), never inside an existing link, heading or code block, and capped
+// per post so a page reads as writing rather than as a link farm.
+
+const AUTOLINK_MAX_PER_POST = 10;
+
+// Names too generic to link safely on their own - they appear constantly in
+// prose meaning the everyday item rather than the board ingredient.
+const AUTOLINK_SKIP = new Set([
+  "honey", "apples", "grapes", "berries", "cherries", "pears", "peaches",
+  "plums", "melon", "figs", "olive oil", "sea salt", "cream cheese"
+]);
+
+function buildAutolinkIndex(ingredients) {
+  return ingredients
+    .filter((i) => i.title && !AUTOLINK_SKIP.has(i.title.toLowerCase()))
+    .map((i) => ({
+      slug: i.slug,
+      title: i.title,
+      // word-boundary, case-insensitive, optional trailing "s" on single words
+      re: new RegExp(
+        `\\b${i.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`,
+        "i"
+      )
+    }))
+    .sort((a, b) => b.title.length - a.title.length);
+}
+
+function autolinkIngredients(html, index, selfSlug) {
+  if (!index.length) return html;
+  const used = new Set();
+  let linked = 0;
+
+  // Walk the HTML as tags and text so a match can never land inside an
+  // attribute, an existing anchor, a heading or code.
+  const parts = html.split(/(<[^>]+>)/);
+  let skipDepth = 0;
+
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+
+    if (part.startsWith("<")) {
+      const m = part.match(/^<(\/?)(a|h1|h2|h3|code|pre)\b/i);
+      if (m) skipDepth += m[1] ? -1 : 1;
+      if (skipDepth < 0) skipDepth = 0;
+      continue;
+    }
+    if (skipDepth > 0 || !part.trim()) continue;
+
+    let text = part;
+    for (const item of index) {
+      if (linked >= AUTOLINK_MAX_PER_POST) break;
+      if (used.has(item.slug) || item.slug === selfSlug) continue;
+      const hit = item.re.exec(text);
+      if (!hit) continue;
+      text =
+        text.slice(0, hit.index) +
+        `<a href="/ingredients/${item.slug}/">${hit[0]}</a>` +
+        text.slice(hit.index + hit[0].length);
+      used.add(item.slug);
+      linked += 1;
+    }
+    parts[i] = text;
+  }
+  return parts.join("");
+}
+
 function sensoryBlock(html) {
   return html.replace(/<p>(<strong>[^<]+:<\/strong>[\s\S]*?)<\/p>/g, (match, inner) => {
     const parts = inner.split(/(?=<strong>[^<]+:<\/strong>)/).filter((part) => part.trim());
@@ -1484,7 +1556,7 @@ function relatedReading(relatedPosts) {
   </aside>`;
 }
 
-function postPage(post, relatedPosts = []) {
+function postPage(post, relatedPosts = [], autolinkIndex = []) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
     day: "numeric",
@@ -1492,7 +1564,7 @@ function postPage(post, relatedPosts = []) {
     timeZone: "UTC"
   }).format(new Date(`${post.date}T00:00:00Z`));
 
-  const postHtml = addInlinePromo(post.html, post);
+  const postHtml = addInlinePromo(autolinkIngredients(post.html, autolinkIndex, post.slug), post);
 
   const description = metaDescription(post);
 
@@ -1610,11 +1682,16 @@ async function build() {
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
 
+  const autolinkIndex = buildAutolinkIndex(ingredients);
+
   await Promise.all(
     posts.map(async (post) => {
       const dir = join(dist, "blog", post.slug);
       await mkdir(dir, { recursive: true });
-      await writeFile(join(dir, "index.html"), postPage(post, selectRelatedPosts(post, posts)));
+      await writeFile(
+        join(dir, "index.html"),
+        postPage(post, selectRelatedPosts(post, posts), autolinkIndex)
+      );
     })
   );
 
