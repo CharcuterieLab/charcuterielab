@@ -3071,3 +3071,44 @@ a {
     font-size: 1.04rem;
   }
 }
+
+/* Six nav links don't fit beside the centred brand until the screen is very
+   wide, so below 1440px the header stacks (brand over links) the way it
+   already did on phones, and links never break mid-label. */
+@media (max-width: 1439px) {
+  .nav {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 8px;
+    padding: 12px 0;
+  }
+
+  .brand {
+    grid-column: auto;
+  }
+
+  .nav-links {
+    justify-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 22px;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav {
+    width: min(1360px, calc(100% - 32px));
+  }
+
+  .nav-links {
+    gap: 22px;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+  }
+}

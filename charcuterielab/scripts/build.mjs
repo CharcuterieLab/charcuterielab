@@ -2,6 +2,7 @@ import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -685,6 +686,7 @@ async function loadIngredients() {
         freeFrom: freeFromFor(allergens),
         tags: parseListField(data.tags),
         pairsWith: parseListField(data.pairs_with),
+        avoidWith: parseListField(data.avoid_with),
         boardPost: data.board_post ?? "",
         image: data.image || photos.get(slug) || "",
         faq: parseFaqField(data.faq),
@@ -1171,6 +1173,7 @@ ${head}
         <a href="/ebook/">The Book</a>
         <a href="/blog/">Blog</a>
         <a href="/ingredients/">Ingredients</a>
+        <a href="/board-builder/">Build a Board</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
@@ -1664,6 +1667,7 @@ function sitemap(posts, ingredients = []) {
     { loc: "/", priority: "1.0" },
     { loc: "/ebook/", priority: "0.9" },
     { loc: "/blog/", priority: "0.8" },
+    ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/privacy/", priority: "0.2" },
     ...(ingredients.length ? [{ loc: "/ingredients/", priority: "0.8" }] : []),
     ...ingredientCategories.map((category) => ({
@@ -1758,6 +1762,38 @@ async function build() {
         await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs));
       })
     );
+
+    // Board Builder: data + script + styles are separate files so the page
+    // itself stays small and each part caches on its own content hash.
+    const builder = boardBuilderData(ingredients, { categoryArt });
+    const builderSrc = join(root, "src", "board-builder");
+    const builderLogic = await readFile(join(builderSrc, "board-logic.js"), "utf8");
+    const builderStyles = await readFile(join(builderSrc, "board-builder.css"), "utf8");
+    const hash = (value) => createHash("sha1").update(value).digest("hex").slice(0, 12);
+    // /assets/ is cached forever, so the page script imports the logic module
+    // by its content hash too
+    const builderScript = (await readFile(join(builderSrc, "board-builder.js"), "utf8"))
+      .replace('from "./board-logic.js"', `from "./board-logic.js?v=${hash(builderLogic)}"`);
+    await writeFile(join(dist, "assets", "board-builder-data.json"), builder.json);
+    await writeFile(join(dist, "assets", "board-builder-prep.json"), builder.prepJson);
+    await writeFile(join(dist, "assets", "board-logic.js"), builderLogic);
+    await writeFile(join(dist, "assets", "board-builder.js"), builderScript);
+    await writeFile(join(dist, "assets", "board-builder.css"), builderStyles);
+    await mkdir(join(dist, "board-builder"), { recursive: true });
+    await writeFile(
+      join(dist, "board-builder", "index.html"),
+      boardBuilderPage({
+        layout,
+        escapeHtml,
+        newsletterUrl,
+        itemCount: builder.stats.items,
+        dataVersion: builder.version,
+        prepVersion: builder.prepVersion,
+        scriptVersion: hash(builderScript),
+        styleVersion: hash(builderStyles)
+      })
+    );
+    console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }
 
   const feed = posts
