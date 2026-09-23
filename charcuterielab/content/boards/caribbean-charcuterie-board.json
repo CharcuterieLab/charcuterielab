@@ -1,0 +1,173 @@
+{
+ "number": "WB-16",
+ "book": "world",
+ "slug": "caribbean-charcuterie-board",
+ "title": "The Caribbean Island Board",
+ "h1": "Caribbean Charcuterie Board",
+ "seo_title": "Caribbean Charcuterie Board: Jerk Chicken & Tropical Fruit",
+ "description": "A Caribbean charcuterie board with jerk chicken, smoked pork, aged cheddar, mango, pineapple, plantain chips and Scotch bonnet sauce. Serves 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-16.webp",
+ "hook": "Jerk spice, sweet tropical fruit and a little Scotch bonnet heat, with plenty of cooling coconut and lime on the side. It's an easy board for beginners.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "20 min",
+ "cost": "$45–$75",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Jerk chicken strips",
+     "slug": null
+    },
+    {
+     "name": "Smoked pork tenderloin",
+     "slug": null
+    },
+    {
+     "name": "Salami",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Gouda",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Tropical fruit",
+   "items": [
+    {
+     "name": "Mango",
+     "slug": "mango"
+    },
+    {
+     "name": "Pineapple",
+     "slug": "pineapple"
+    },
+    {
+     "name": "Papaya",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces & dips",
+   "items": [
+    {
+     "name": "Mango-habanero jam",
+     "slug": null
+    },
+    {
+     "name": "Scotch bonnet hot sauce",
+     "slug": null
+    },
+    {
+     "name": "Coconut cream dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Chips & crackers",
+   "items": [
+    {
+     "name": "Plantain chips",
+     "slug": "plantain-chips"
+    },
+    {
+     "name": "Cassava crackers",
+     "slug": "cassava-crackers"
+    },
+    {
+     "name": "Toasted coconut flakes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Nuts & garnish",
+   "items": [
+    {
+     "name": "Salted cashews",
+     "slug": "cashews"
+    },
+    {
+     "name": "Dried pineapple",
+     "slug": null
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Jerk seasoning pairs Scotch bonnet heat with warm allspice, and the rest of the board is built to balance it. Mango, pineapple and papaya bring sweetness and juice, while sharp aged cheddar and mild Gouda hold up next to spicy jam. Both cheeses are popular across the Caribbean.",
+  "The heat in chiles dissolves in fat, so rich coconut cream dip and cream cheese sit right beside the hot sauces. Plantain chips and cassava crackers are sturdy scoops, and lime and fresh mint keep every bite bright."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Cook the jerk chicken strips and slice the pork."
+  },
+  {
+   "when": "12 min before",
+   "what": "Toast the coconut flakes and stir together the coconut cream dip."
+  },
+  {
+   "when": "8 min before",
+   "what": "Slice the fruit; place the cheeses and meats."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add the fruit, chips, crackers, sauces and lime wedges."
+  },
+  {
+   "when": "Serving",
+   "what": "Garnish with mint and a final scatter of toasted coconut."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Scotch bonnet sauce and jerk seasoning?",
+   "a": "Most supermarkets stock jarred jerk seasoning and Caribbean hot sauces in the international aisle, and Caribbean or West Indian grocers carry more. Habanero sauce is a close match for Scotch bonnet."
+  },
+  {
+   "q": "How do I keep the board from being too spicy?",
+   "a": "Keep the Scotch bonnet sauce in a small labeled dish and let guests add it. Cream cheese, coconut dip, mango and plantain chips are all mild."
+  },
+  {
+   "q": "What should I drink with a Caribbean board?",
+   "a": "A dark rum punch fits the island theme. Ginger beer is a great nonalcoholic pick; its spice matches the jerk."
+  },
+  {
+   "q": "Can I prep the fruit ahead?",
+   "a": "Cut pineapple and mango up to a day ahead and keep them covered in the fridge. Slice papaya close to serving, as it softens quickly."
+  }
+ ],
+ "blog": []
+}

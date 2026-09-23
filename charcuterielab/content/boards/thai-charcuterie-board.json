@@ -1,0 +1,181 @@
+{
+ "number": "WB-09",
+ "book": "world",
+ "slug": "thai-charcuterie-board",
+ "title": "The Thai Spice Board",
+ "h1": "Thai Charcuterie Board",
+ "seo_title": "Thai Charcuterie Board: Larb, Satay & Shopping List",
+ "description": "A Thai charcuterie board with larb chicken, satay, crispy pork belly, peanut and chili dips, fresh herbs and mango. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-09.webp",
+ "hook": "Instead of salami and brie, this board builds on Thai street-market snacks: herby larb, satay with peanut sauce and crackly pork belly, with plenty of fresh herbs and lime to keep it bright.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "45 min",
+ "cost": "$45–$70",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Protein",
+   "items": [
+    {
+     "name": "Larb chicken",
+     "slug": null
+    },
+    {
+     "name": "Satay skewers",
+     "slug": null
+    },
+    {
+     "name": "Crispy pork belly bites",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese & spreads",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Cashew butter",
+     "slug": null
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Peanut sauce",
+     "slug": null
+    },
+    {
+     "name": "Sweet chili sauce",
+     "slug": null
+    },
+    {
+     "name": "Nam prik pao (roasted chili paste)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh produce",
+   "items": [
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Mango",
+     "slug": "mango"
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Herbs",
+   "items": [
+    {
+     "name": "Lemongrass",
+     "slug": null
+    },
+    {
+     "name": "Makrut lime leaves",
+     "slug": null
+    },
+    {
+     "name": "Thai basil",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
+    }
+   ]
+  },
+  {
+   "name": "Crunch",
+   "items": [
+    {
+     "name": "Prawn crackers",
+     "slug": "prawn-crackers"
+    },
+    {
+     "name": "Sesame rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Roasted cashews",
+     "slug": "cashews"
+    },
+    {
+     "name": "Toasted coconut",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Thai food is about balance: salty, sour, sweet and hot in the same bite. The proteins bring the savory side (lime-and-herb larb with its nutty toasted-rice crunch, satay and rich pork belly), and three dips let each guest choose their heat, from creamy peanut sauce and mild sweet chili to smoky, sweet nam prik pao.",
+  "Everything else is there to cool and refresh. Ripe mango and cucumber tame the chili, lime wedges sharpen each bite, and Thai basil, mint, lemongrass and makrut lime leaves make the board smell like a Bangkok market. Cashews, coconut and aged Gouda add a nutty, toasty note that echoes the peanut sauce, while prawn and rice crackers act as light scoops."
+ ],
+ "timeline": [
+  {
+   "when": "25 min before",
+   "what": "Cook the larb chicken and pork belly; let them rest."
+  },
+  {
+   "when": "15 min before",
+   "what": "Make the peanut sauce; slice the mango and cucumber."
+  },
+  {
+   "when": "8 min before",
+   "what": "Grill the satay; place the proteins and sauce bowls."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add herbs, produce and crackers."
+  },
+  {
+   "when": "Serving time",
+   "what": "Finish with toasted coconut, cashews and lime wedges."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy makrut lime leaves and nam prik pao?",
+   "a": "Look in the produce section and condiment aisle of an Asian grocery store. Makrut (sometimes labeled kaffir) lime leaves are often sold frozen and keep well in the freezer. Nam prik pao comes in jars, sometimes labeled 'chili paste in soybean oil.' Online retailers carry both."
+  },
+  {
+   "q": "Can I make a Thai charcuterie board ahead of time?",
+   "a": "Make the peanut sauce and larb a few hours ahead and chill them; larb is traditionally served at room temperature. Grill the satay and crisp the pork belly close to serving, and add herbs and crackers last so they stay fresh and crunchy."
+  },
+  {
+   "q": "What drinks go with a Thai board?",
+   "a": "An off-dry Riesling balances the chili heat, and Thai iced tea or a crisp lager works too. Anything a little sweet or bubbly is a safe bet with spicy food."
+  },
+  {
+   "q": "Is this board OK for guests with nut allergies?",
+   "a": "Not as written: peanut sauce, cashews and cashew butter are central. For a nut-free version, use a sunflower seed butter dip, skip the cashews and add extra toasted coconut and rice crackers."
+  }
+ ],
+ "blog": []
+}

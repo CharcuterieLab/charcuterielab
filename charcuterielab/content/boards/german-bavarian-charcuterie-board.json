@@ -1,0 +1,160 @@
+{
+ "number": "WB-01",
+ "book": "world",
+ "slug": "german-bavarian-charcuterie-board",
+ "title": "The German Bavarian Board",
+ "h1": "German Bavarian Charcuterie Board",
+ "seo_title": "German Charcuterie Board: Oktoberfest Shopping List",
+ "description": "A Bavarian beer-hall board for 8–10: warm Weisswurst, Obatzda, smoked cheese, Landjäger, soft pretzels and sweet mustard. What to buy and how to serve it.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-01.webp",
+ "hook": "An Oktoberfest spread built the way Munich beer gardens do it: warm sausage, soft pretzels, a bowl of Obatzda and two kinds of mustard.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "20–25 min",
+ "cost": "$45–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Räucherkäse (Bavarian smoked cheese)",
+     "slug": null
+    },
+    {
+     "name": "Obatzda (Bavarian cheese spread)",
+     "slug": null
+    },
+    {
+     "name": "Aged Emmentaler",
+     "slug": "emmental"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Weisswurst (white sausage)",
+     "slug": null
+    },
+    {
+     "name": "Landjäger",
+     "slug": "landjager"
+    },
+    {
+     "name": "Black Forest ham",
+     "slug": "black-forest-ham"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Bavarian sweet mustard",
+     "slug": null
+    },
+    {
+     "name": "Spicy brown mustard",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Soft pretzel bites",
+     "slug": null
+    },
+    {
+     "name": "Dark rye bread",
+     "slug": null
+    },
+    {
+     "name": "Pumpernickel",
+     "slug": "pumpernickel"
+    },
+    {
+     "name": "Pretzel sticks",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh chives",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Bavarian beer-hall food is all about salt, fat and something sharp to cut it. Weisswurst is a mild, fresh veal-and-pork sausage that is poached and served warm, so it gets its own bowl of hot water and a pot of sweet mustard beside it. Landjäger and Black Forest ham bring smoke and chew, and the spicy brown mustard is there for them.",
+  "The cheeses cover three textures: firm, smoky Räucherkäse, nutty Emmentaler and creamy Obatzda, a paprika-spiked Camembert spread made for pretzels. Cornichons and peppery radishes, a Bavarian beer snack in their own right, cut the richness, and green grapes add a sweet, fresh bite."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Take the cheeses and cured meats out of the fridge."
+  },
+  {
+   "when": "15 min before",
+   "what": "Slice the Emmentaler, radishes and grapes."
+  },
+  {
+   "when": "10 min before",
+   "what": "Poach the Weisswurst and warm the pretzel bites."
+  },
+  {
+   "when": "5 min before",
+   "what": "Fill ramekins with Obatzda, mustards and honey."
+  },
+  {
+   "when": "Serving time",
+   "what": "Arrange the board, add the Weisswurst in hot water, and scatter chives."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy Weisswurst and Obatzda?",
+   "a": "German delis and butchers often carry fresh Weisswurst, and some large grocery stores stock it near the bratwurst. Obatzda is easy to make: mash ripe Camembert with soft butter, sweet paprika, finely chopped onion and a splash of beer."
+  },
+  {
+   "q": "Do you eat Weisswurst cold?",
+   "a": "No. Weisswurst is a fresh sausage that is gently poached and served warm. Guests peel off the casing and eat it with sweet mustard and a pretzel."
+  },
+  {
+   "q": "What beer goes with a Bavarian board?",
+   "a": "A Märzen or Oktoberfest lager is the classic choice. Weissbier suits the Weisswurst and pretzels, and a dark Dunkel works well with the smoked cheese."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the Obatzda up to a day ahead and keep it covered in the fridge. Slice the cheese and prep the radishes a few hours before, but poach the Weisswurst and warm the pretzels right before serving."
+  }
+ ],
+ "blog": []
+}

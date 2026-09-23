@@ -1,0 +1,181 @@
+{
+ "number": "WB-10",
+ "book": "world",
+ "slug": "vietnamese-charcuterie-board",
+ "title": "The Vietnamese Street Board",
+ "h1": "Vietnamese Charcuterie Board",
+ "seo_title": "Vietnamese Charcuterie Board: Bánh Mì Style Shopping List",
+ "description": "A Vietnamese charcuterie board with chả lụa, pâté, lemongrass chicken, pickled daikon and carrot, fresh herbs and nước chấm. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-10.webp",
+ "hook": "Think of this as a deconstructed bánh mì: pork roll, pâté and lemongrass chicken with crusty baguette, bright pickles and a big pile of fresh herbs.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "45 min",
+ "cost": "$40–$65",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Protein",
+   "items": [
+    {
+     "name": "Chả lụa (Vietnamese pork roll)",
+     "slug": null
+    },
+    {
+     "name": "Bánh mì pork slices",
+     "slug": null
+    },
+    {
+     "name": "Grilled lemongrass chicken",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & cheese",
+   "items": [
+    {
+     "name": "Liver pâté",
+     "slug": null
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Sriracha mayo",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pickles",
+   "items": [
+    {
+     "name": "Pickled daikon and carrot (đồ chua)",
+     "slug": null
+    },
+    {
+     "name": "Pickled cucumber",
+     "slug": null
+    },
+    {
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
+    }
+   ]
+  },
+  {
+   "name": "Herbs & produce",
+   "items": [
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Cilantro",
+     "slug": null
+    },
+    {
+     "name": "Thai basil",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Bean sprouts",
+     "slug": null
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Nước chấm",
+     "slug": null
+    },
+    {
+     "name": "Hoisin sauce",
+     "slug": null
+    },
+    {
+     "name": "Sambal oelek",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Vietnamese-style baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Wonton crisps",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A good bánh mì works because of contrast, and so does this board. Rich pâté and savory pork (the mild, springy chả lụa and the bánh mì pork) are balanced by đồ chua, the sweet-tangy daikon and carrot pickle, plus pickled cucumber and jalapeños that cut through the fat.",
+  "The herbs are what make it Vietnamese. Mint, cilantro and anise-scented Thai basil are meant to be torn into each bite, and cucumber and bean sprouts add cool crunch. Nước chấm, a dipping sauce of fish sauce, lime, sugar, garlic and chili, ties it all together, especially with the grilled lemongrass chicken."
+ ],
+ "timeline": [
+  {
+   "when": "25 min before",
+   "what": "Cook the lemongrass chicken; let it rest, then slice."
+  },
+  {
+   "when": "15 min before",
+   "what": "Make the nước chấm and drain the pickles."
+  },
+  {
+   "when": "8 min before",
+   "what": "Arrange the pork, pâté, chicken and spreads."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add pickles, sauces, bread and crackers."
+  },
+  {
+   "when": "Serving time",
+   "what": "Add herb bundles, bean sprouts and lime wedges."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I buy chả lụa?",
+   "a": "Vietnamese and larger Asian grocery stores sell chả lụa (also labeled giò lụa or Vietnamese pork roll) in the refrigerated section, often wrapped in banana leaves. Vietnamese bakeries and bánh mì shops sometimes sell it too. Thin-sliced mortadella is the closest easy substitute."
+  },
+  {
+   "q": "Can I make the pickled daikon and carrot myself?",
+   "a": "Yes. Cut daikon and carrot into matchsticks, then cover with warm water, rice vinegar, sugar and a pinch of salt. They're pleasantly tangy after about an hour and better the next day, so make them a day ahead."
+  },
+  {
+   "q": "What should I drink with a Vietnamese board?",
+   "a": "Vietnamese iced coffee with sweetened condensed milk is the classic, and a light, cold lager suits the salty, herby flavors. For wine, try a dry Riesling or a crisp rosé."
+  },
+  {
+   "q": "How far ahead can I prep this board?",
+   "a": "Make the nước chấm and pickles a day ahead, and marinate the chicken the night before. Slice the pork roll and arrange the board within an hour of serving, and add the herbs and bean sprouts last so they don't wilt."
+  }
+ ],
+ "blog": []
+}

@@ -1,0 +1,169 @@
+{
+ "number": "WB-13",
+ "book": "world",
+ "slug": "brazilian-churrasco-board",
+ "title": "The Brazilian Churrasco Board",
+ "h1": "Brazilian Churrasco Charcuterie Board",
+ "seo_title": "Brazilian Churrasco Board: Picanha, Coalho & Chimichurri",
+ "description": "A Brazilian churrasco board with grilled picanha, linguiça, queijo coalho, pão de queijo, grilled pineapple and farofa. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-13.webp",
+ "hook": "A steakhouse-style spread built around grilled picanha and squeaky grilled cheese. It needs a grill, but everything else comes together in half an hour.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "20–22 inch",
+ "prep_time": "30 min",
+ "cost": "$65–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Picanha (top sirloin cap)",
+     "slug": null
+    },
+    {
+     "name": "Linguiça sausage",
+     "slug": null
+    },
+    {
+     "name": "Carne seca (dried beef)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Queijo coalho (grilling cheese)",
+     "slug": null
+    },
+    {
+     "name": "Pão de queijo",
+     "slug": "pao-de-queijo"
+    },
+    {
+     "name": "Requeijão (Brazilian cream cheese)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Grilled pineapple",
+     "slug": "pineapple"
+    },
+    {
+     "name": "Roasted bell peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Hearts of palm",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces & toppings",
+   "items": [
+    {
+     "name": "Chimichurri",
+     "slug": null
+    },
+    {
+     "name": "Farofa (toasted manioc flour)",
+     "slug": null
+    },
+    {
+     "name": "Molho à campanha (vinaigrette salsa)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crunch",
+   "items": [
+    {
+     "name": "Pão de alho (garlic bread)",
+     "slug": null
+    },
+    {
+     "name": "Cassava chips",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit, nuts & herbs",
+   "items": [
+    {
+     "name": "Passion fruit",
+     "slug": "passion-fruit"
+    },
+    {
+     "name": "Brazil nuts",
+     "slug": "brazil-nuts"
+    },
+    {
+     "name": "Salted cashews",
+     "slug": "cashews"
+    },
+    {
+     "name": "Fresh cilantro",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Churrasco is about beef and fire, so picanha sits at the center with its fat cap grilled crisp, joined by garlicky linguiça and salty carne seca. Queijo coalho is a firm cheese made for the grill: it browns and softens without melting, and pão de queijo and creamy requeijão give the cheese side two softer textures.",
+  "Everything else is there to cut the richness. Chimichurri and molho à campanha bring vinegar and fresh herbs, grilled pineapple adds sweet-tart juice (a churrascaria classic), and passion fruit and lime keep things bright. Farofa, cassava chips and Brazil nuts add crunch."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Grill the picanha and linguiça, rest 5 minutes, then slice thin."
+  },
+  {
+   "when": "20 min before",
+   "what": "Grill the coalho and pineapple slices."
+  },
+  {
+   "when": "10 min before",
+   "what": "Make the chimichurri and warm the garlic bread."
+  },
+  {
+   "when": "5 min before",
+   "what": "Arrange the meats and cheeses on the board."
+  },
+  {
+   "when": "Serving",
+   "what": "Add the sauces, farofa and fruit; garnish with cilantro and lime."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy picanha and queijo coalho?",
+   "a": "Ask a butcher for top sirloin cap with the fat left on; some call it coulotte or rump cap. Queijo coalho and requeijão are sold at Brazilian and Latin markets and online. Halloumi is the easiest stand-in for coalho."
+  },
+  {
+   "q": "What is farofa?",
+   "a": "Toasted manioc (cassava) flour, often cooked in butter with onion or bacon. Brazilians sprinkle it over grilled meat for crunch. Buttered toasted breadcrumbs work in a pinch."
+  },
+  {
+   "q": "What should I drink with a churrasco board?",
+   "a": "A caipirinha, made with cachaça, lime and sugar, is the classic. For wine, a juicy red like Malbec stands up to the grilled beef."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the chimichurri and vinaigrette a day ahead and chill them. Grill the meat and cheese just before serving; coalho firms up as it cools, so serve it warm."
+  }
+ ],
+ "blog": []
+}

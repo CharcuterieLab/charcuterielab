@@ -1,0 +1,173 @@
+{
+ "number": "WB-06",
+ "book": "world",
+ "slug": "turkish-meze-board",
+ "title": "The Turkish Meze Board",
+ "h1": "Turkish Meze Charcuterie Board",
+ "seo_title": "Turkish Meze Board: Sucuk, Pastırma & Dips for 8–10",
+ "description": "A Turkish meze board with grilled sucuk, pastırma, beyaz peynir, kaşar, four dips, simit and warm pide. The full shopping list for 8–10 guests.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-06.webp",
+ "hook": "A meyhane-style spread: warm sucuk and pide, a ring of dips and plenty of white cheese. Generous portions are the point.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "22–28 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Beyaz peynir (Turkish white cheese)",
+     "slug": null
+    },
+    {
+     "name": "Aged kaşar",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Sucuk (Turkish beef sausage)",
+     "slug": null
+    },
+    {
+     "name": "Pastırma",
+     "slug": null
+    },
+    {
+     "name": "Turkish beef salami",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Haydari (yogurt-herb dip)",
+     "slug": null
+    },
+    {
+     "name": "Muhammara",
+     "slug": "muhammara"
+    },
+    {
+     "name": "Ezme (spicy tomato relish)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Pide",
+     "slug": null
+    },
+    {
+     "name": "Simit",
+     "slug": null
+    },
+    {
+     "name": "Lavash crackers",
+     "slug": "lavash"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Stuffed grape leaves (yaprak sarma)",
+     "slug": null
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Black and green olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  },
+  {
+   "name": "Garnish",
+   "items": [
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Fresh parsley",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Two cured beef meats set the tone. Sucuk is a garlicky, cumin-spiced sausage that crisps in a pan, and pastırma is air-dried beef in a fenugreek and pepper crust. Mild beef salami gives cautious guests somewhere to start, and brined beyaz peynir, with its clean saltiness, resets the palate between rich bites.",
+  "The dips do the balancing. Earthy hummus, cooling haydari, sweet-smoky muhammara and hot ezme each pair with something different, while cucumber, mint, parsley and pomegranate add fresh, tart crunch. Warm pide and sesame-crusted simit carry it all."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Grill the sucuk slices and warm the pide briefly."
+  },
+  {
+   "when": "15 min before",
+   "what": "Fill the dip bowls and drizzle olive oil over each."
+  },
+  {
+   "when": "10 min before",
+   "what": "Arrange the cheeses and slice the pastırma thin."
+  },
+  {
+   "when": "5 min before",
+   "what": "Add the olives, grape leaves, breads and produce."
+  },
+  {
+   "when": "At serving",
+   "what": "Add the warm meats and scatter pomegranate seeds."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy sucuk and pastırma?",
+   "a": "Turkish, Middle Eastern and Armenian markets carry both, often spelled sujuk and basturma. Some halal butchers and online specialty shops sell them too."
+  },
+  {
+   "q": "What can I use instead of beyaz peynir?",
+   "a": "Bulgarian white brined cheese is the closest match. A mild feta also works; soak it in cold water for 10 minutes if it's very salty."
+  },
+  {
+   "q": "What do you drink with Turkish meze?",
+   "a": "Rakı, the anise spirit, mixed with cold water is the traditional choice. For no alcohol, serve cold ayran, a salty yogurt drink."
+  },
+  {
+   "q": "Can I prepare it ahead?",
+   "a": "The dips, cheeses and grape leaves can be set out ahead. Grill the sucuk and warm the pide just before serving, since both are best warm."
+  }
+ ],
+ "blog": []
+}

@@ -1,0 +1,169 @@
+{
+ "number": "WB-07",
+ "book": "world",
+ "slug": "moroccan-charcuterie-board",
+ "title": "The Moroccan Spice Board",
+ "h1": "Moroccan Charcuterie Board",
+ "seo_title": "Moroccan Charcuterie Board: Merguez, Labneh & Dates",
+ "description": "A Moroccan charcuterie board with grilled merguez, kefta, labneh, harissa, preserved lemon, dates, apricots and khobz. What to buy for 8–10 guests.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-07.webp",
+ "hook": "Warm spice, sweet fruit and salty preserved lemon, the three flavors that run through Moroccan cooking. Grilled meats sit next to cool yogurt and dates.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "40–45 min",
+ "cost": "$55–$85",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese & spreads",
+   "items": [
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Labneh",
+     "slug": "labneh"
+    },
+    {
+     "name": "Za'atar-marinated feta",
+     "slug": "feta"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Merguez sausage",
+     "slug": null
+    },
+    {
+     "name": "Kefta meatballs",
+     "slug": null
+    },
+    {
+     "name": "Spiced lamb strips",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Harissa",
+     "slug": "harissa"
+    },
+    {
+     "name": "Chermoula",
+     "slug": null
+    },
+    {
+     "name": "Preserved lemons",
+     "slug": "preserved-lemons"
+    }
+   ]
+  },
+  {
+   "name": "Vegetables & olives",
+   "items": [
+    {
+     "name": "Mixed marinated olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Cumin-roasted carrots",
+     "slug": null
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Pistachios",
+     "slug": "pistachios"
+    },
+    {
+     "name": "Blanched almonds",
+     "slug": "almonds"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Khobz",
+     "slug": null
+    },
+    {
+     "name": "Sesame crackers",
+     "slug": "sesame-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The heat comes from merguez, kefta and harissa, and everything else is placed to answer it. Cool, tangy labneh and salty feta calm the chili, preserved lemon adds a mellow, salty citrus hit, and chermoula brings fresh herbs and garlic.",
+  "Sweet with savory is the Moroccan signature, so dates, dried apricots, pistachios and almonds sit right next to the spiced meats. Cumin on the roasted carrots repeats the spice in the sausages, and a finish of argan oil, rose petals and cinnamon gives the board its aroma."
+ ],
+ "timeline": [
+  {
+   "when": "25 min before",
+   "what": "Grill the merguez, cook the kefta and roast the carrots with cumin."
+  },
+  {
+   "when": "15 min before",
+   "what": "Marinate the feta in za'atar and olive oil; fill the dip bowls."
+  },
+  {
+   "when": "8 min before",
+   "what": "Slice the merguez and place the labneh and cheeses."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add the meats, dips, vegetables and bread."
+  },
+  {
+   "when": "At serving",
+   "what": "Fill gaps with fruit and nuts; scatter rose petals."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find merguez and preserved lemons?",
+   "a": "Merguez is sold at halal butchers, Middle Eastern markets and many well-stocked supermarkets. Preserved lemons come in jars near the olives or in specialty aisles, and they're easy to make with lemons and salt if you have a few weeks."
+  },
+  {
+   "q": "What can I swap for harissa if my guests don't like heat?",
+   "a": "Use roasted red pepper purée with a pinch of cumin and smoked paprika. You get the color and warmth without much burn."
+  },
+  {
+   "q": "What drink goes with a Moroccan board?",
+   "a": "Sweet mint tea is the traditional choice. For wine, a fruity Grenache or rosé handles the spice well."
+  },
+  {
+   "q": "Can I make parts ahead?",
+   "a": "Kefta, roasted carrots and marinated feta can be made a day ahead. Grill the merguez close to serving and bring everything else to room temperature."
+  }
+ ],
+ "blog": []
+}

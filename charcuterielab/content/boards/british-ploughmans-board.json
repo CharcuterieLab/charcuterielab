@@ -1,0 +1,164 @@
+{
+ "number": "WB-02",
+ "book": "world",
+ "slug": "british-ploughmans-board",
+ "title": "The British Ploughman's Board",
+ "h1": "British Ploughman's Board",
+ "seo_title": "Ploughman's Lunch Board: British Pub Shopping List",
+ "description": "A British ploughman's board for 6–8: mature Cheddar, Stilton, Red Leicester, pork pies, ham, Branston pickle and pickled onions. Full shopping list.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-02.webp",
+ "hook": "The English pub lunch turned into a board: good cheese, pork pie, crusty bread and a row of sharp pickles.",
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "14–16 inch",
+ "prep_time": "15–20 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Mature Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Blue Stilton",
+     "slug": "stilton"
+    },
+    {
+     "name": "Red Leicester",
+     "slug": "red-leicester"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Honey-glazed ham",
+     "slug": null
+    },
+    {
+     "name": "Mini pork pies",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Branston pickle",
+     "slug": null
+    },
+    {
+     "name": "Caramelized onion chutney",
+     "slug": null
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Butter",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Crusty white roll",
+     "slug": null
+    },
+    {
+     "name": "Oatcakes",
+     "slug": "oatcakes"
+    },
+    {
+     "name": "Water biscuits",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Pickled onions",
+     "slug": null
+    },
+    {
+     "name": "Pickled gherkins",
+     "slug": null
+    },
+    {
+     "name": "Apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Watercress",
+     "slug": null
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A ploughman's is built on contrast: rich cheese and pastry against sharp, vinegary pickles. Mature Cheddar is the center of it all, and Branston pickle, sweet, tangy and chunky, is its classic partner. Blue Stilton brings salt and tang, and Red Leicester is the mellow, nutty one for guests who want something gentler.",
+  "Pork pie and thick-cut ham need mustard and chutney to cut the fat, so those sit right beside them. Malt-vinegar pickled onions, gherkins, crisp apple and celery refresh the palate between bites, and walnuts are the traditional match for Stilton."
+ ],
+ "timeline": [
+  {
+   "when": "15 min before",
+   "what": "Take out the cheeses and cut the Cheddar into wedges."
+  },
+  {
+   "when": "10 min before",
+   "what": "Slice the apple and drain the pickled onions and gherkins."
+  },
+  {
+   "when": "8 min before",
+   "what": "Fill ramekins with pickle, chutney, mustard and butter."
+  },
+  {
+   "when": "5 min before",
+   "what": "Arrange the bread, oatcakes and water biscuits."
+  },
+  {
+   "when": "Serving time",
+   "what": "Add the ham and pork pies, tuck in watercress and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy Branston pickle and pork pies in the US?",
+   "a": "Branston pickle is sold in the international aisle of many large grocery stores, at British import shops and online. Mini pork pies are harder to find; try a British shop or bakery, or use halved Scotch eggs instead."
+  },
+  {
+   "q": "What is a ploughman's lunch?",
+   "a": "A British pub plate of cheese, bread, pickle and usually ham or pork pie. Farmworkers ate bread and cheese for centuries, but the name itself was popularized by cheese marketing in the 1950s and '60s."
+  },
+  {
+   "q": "What should I drink with it?",
+   "a": "An English bitter or pale ale is the pub choice, and dry cider works well too. Pour a small glass of tawny port for the Stilton."
+  },
+  {
+   "q": "Can I use a different blue cheese instead of Stilton?",
+   "a": "Yes. Gorgonzola Dolce is milder and creamier, which suits guests who are new to blue cheese."
+  }
+ ],
+ "blog": []
+}

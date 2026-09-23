@@ -1,0 +1,181 @@
+{
+ "number": "WB-11",
+ "book": "world",
+ "slug": "dim-sum-charcuterie-board",
+ "title": "The Chinese Dim Sum Board",
+ "h1": "Dim Sum Charcuterie Board",
+ "seo_title": "Dim Sum Charcuterie Board: Char Siu, Dumplings & More",
+ "description": "A dim sum charcuterie board with char siu, siu mai, har gow, turnip cake, sesame balls and egg tarts, plus dipping sauces. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-11.webp",
+ "hook": "A yum cha spread moved onto a board: glossy char siu, steamed dumplings, crisp turnip cake and a few sweet bites, with three dipping sauces and plenty of tea.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "20–22 inch",
+ "prep_time": "30 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Protein",
+   "items": [
+    {
+     "name": "Char siu (Cantonese barbecue pork)",
+     "slug": null
+    },
+    {
+     "name": "Siu mai (pork and shrimp dumplings)",
+     "slug": null
+    },
+    {
+     "name": "Har gow (shrimp dumplings)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese & spreads",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Gouda, thin-sliced",
+     "slug": null
+    },
+    {
+     "name": "Soy-sesame cream cheese",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Hoisin sauce",
+     "slug": null
+    },
+    {
+     "name": "Chili oil",
+     "slug": "chili-oil"
+    },
+    {
+     "name": "Soy-ginger dipping sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dim sum extras",
+   "items": [
+    {
+     "name": "Sesame balls (jin deui)",
+     "slug": null
+    },
+    {
+     "name": "Mini egg tarts",
+     "slug": null
+    },
+    {
+     "name": "Turnip cake (lo bak go)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh produce",
+   "items": [
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Pickled ginger",
+     "slug": null
+    },
+    {
+     "name": "Shelled edamame",
+     "slug": null
+    },
+    {
+     "name": "Scallions",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crunch & accents",
+   "items": [
+    {
+     "name": "Sesame rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Wonton crisps",
+     "slug": null
+    },
+    {
+     "name": "Toasted sesame seeds",
+     "slug": null
+    },
+    {
+     "name": "Five-spice almonds",
+     "slug": null
+    },
+    {
+     "name": "Mandarin oranges",
+     "slug": "mandarins"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Dim sum is built on variety, so this board mixes textures: sticky, sweet-salty char siu, soft steamed dumplings, crisp pan-fried turnip cake and a sweet corner of sesame balls and egg tarts. Hoisin suits the pork, soy-ginger suits the dumplings, and chili oil adds heat for anyone who wants it.",
+  "The fresh side keeps it from feeling heavy. Cucumber and pickled ginger refresh the palate between rich bites, mandarin segments add juicy brightness, and five-spice almonds echo the warm spices in char siu. Wonton crisps and rice crackers bring the crunch that steamed food lacks."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Steam the dumplings and pan-fry the turnip cake."
+  },
+  {
+   "when": "20 min before",
+   "what": "Slice the char siu and mix the dipping sauces."
+  },
+  {
+   "when": "10 min before",
+   "what": "Place the dumplings, char siu and spreads."
+  },
+  {
+   "when": "5 min before",
+   "what": "Add produce, crackers and scallions."
+  },
+  {
+   "when": "Serving time",
+   "what": "Add the sweets; finish with sesame seeds and chili oil."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy dim sum for a board?",
+   "a": "Asian grocery stores stock frozen siu mai, har gow, sesame balls and turnip cake, and they steam or pan-fry in minutes. Chinese bakeries and barbecue shops sell char siu and egg tarts ready to go."
+  },
+  {
+   "q": "How do I keep the dumplings warm?",
+   "a": "Serve them in a small bamboo steamer set on the board, and steam them in batches so you can refill with hot ones. Turnip cake and char siu are fine at room temperature."
+  },
+  {
+   "q": "What drinks go with dim sum?",
+   "a": "Tea is traditional: pu-erh or oolong helps cut the richness. For wine, an off-dry Riesling pairs well with the sweet-salty char siu and chili oil."
+  },
+  {
+   "q": "Can I make a vegetarian dim sum board?",
+   "a": "Yes. Swap in vegetable crystal dumplings for the har gow, vegetable or mushroom dumplings for the siu mai, and glazed tofu for the char siu. Most turnip cake contains dried shrimp or Chinese sausage, so check labels."
+  }
+ ],
+ "blog": []
+}

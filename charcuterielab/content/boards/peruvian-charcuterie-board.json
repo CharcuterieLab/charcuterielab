@@ -1,0 +1,173 @@
+{
+ "number": "WB-15",
+ "book": "world",
+ "slug": "peruvian-charcuterie-board",
+ "title": "The Peruvian Fusion Board",
+ "h1": "Peruvian Charcuterie Board",
+ "seo_title": "Peruvian Charcuterie Board: Anticuchos, Ají & Huancaína",
+ "description": "A Peruvian charcuterie board with lomo saltado, anticuchos, queso fresco, huancaína sauce, cancha and passion fruit. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-15.webp",
+ "hook": "A Peruvian-inspired board that mixes Andean staples like corn and potatoes with street-food skewers and three ají sauces, from mild to fiery.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "18–20 inch",
+ "prep_time": "25 min",
+ "cost": "$50–$80",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Lomo saltado beef strips",
+     "slug": null
+    },
+    {
+     "name": "Anticuchos (beef heart skewers)",
+     "slug": null
+    },
+    {
+     "name": "Chicharrón (fried pork)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese & spreads",
+   "items": [
+    {
+     "name": "Queso fresco",
+     "slug": "queso-fresco"
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Aged Manchego",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Ají amarillo paste",
+     "slug": null
+    },
+    {
+     "name": "Huancaína sauce",
+     "slug": null
+    },
+    {
+     "name": "Rocoto salsa",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Corn & potatoes",
+   "items": [
+    {
+     "name": "Choclo (Peruvian corn)",
+     "slug": null
+    },
+    {
+     "name": "Yellow potato crisps",
+     "slug": null
+    },
+    {
+     "name": "Cancha (toasted corn nuts)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Avocado",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers, fruit & nuts",
+   "items": [
+    {
+     "name": "Soda crackers",
+     "slug": "saltines"
+    },
+    {
+     "name": "Passion fruit",
+     "slug": "passion-fruit"
+    },
+    {
+     "name": "Lúcuma caramel",
+     "slug": null
+    },
+    {
+     "name": "Brazil nuts",
+     "slug": "brazil-nuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The heat on this board comes in three steps: fruity ají amarillo, creamy huancaína sauce that tames it with cheese and milk, and fiery rocoto. Mild queso fresco, avocado and cream cheese sit nearby to cool things down, and aged Manchego adds a nutty, salty note for the fusion side.",
+  "Soy-seasoned lomo saltado and ají-marinated anticuchos bring savory, grilled flavor, and chicharrón adds crackling crunch. Corn and potatoes, both native to the Andes, show up as chewy choclo, crunchy cancha and potato crisps, while passion fruit and a drizzle of caramel-like lúcuma give a sweet finish."
+ ],
+ "timeline": [
+  {
+   "when": "25 min before",
+   "what": "Grill the anticuchos, rest them, then slice or leave on skewers."
+  },
+  {
+   "when": "15 min before",
+   "what": "Cook the lomo saltado and blend the huancaína sauce."
+  },
+  {
+   "when": "8 min before",
+   "what": "Place the cheeses, spreads and sauce bowls."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add the meats, produce, corn, crisps and crackers."
+  },
+  {
+   "when": "Serving",
+   "what": "Top with passion fruit halves and a drizzle of lúcuma."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy ají amarillo, cancha and choclo?",
+   "a": "Latin American markets carry ají amarillo paste in jars, bags of cancha (also sold as corn nuts), and frozen choclo. All three are easy to order online as well."
+  },
+  {
+   "q": "Do I have to use beef heart for anticuchos?",
+   "a": "No. Beef heart is traditional and tastes like lean steak, but sirloin cubes in the same ají-vinegar marinade are an easy swap."
+  },
+  {
+   "q": "What do you drink with Peruvian food?",
+   "a": "A pisco sour is the classic. For a nonalcoholic option, serve chicha morada, a spiced purple corn drink."
+  },
+  {
+   "q": "Can I make huancaína sauce ahead?",
+   "a": "Yes. Blend it up to a day ahead and chill it. It thickens in the fridge, so stir in a splash of milk before serving."
+  }
+ ],
+ "blog": []
+}

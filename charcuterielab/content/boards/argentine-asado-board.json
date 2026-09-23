@@ -1,0 +1,173 @@
+{
+ "number": "WB-14",
+ "book": "world",
+ "slug": "argentine-asado-board",
+ "title": "The Argentine Asado Board",
+ "h1": "Argentine Asado Charcuterie Board",
+ "seo_title": "Argentine Asado Board: Chorizo, Provoleta & Chimichurri",
+ "description": "An Argentine asado board with grilled chorizo, morcilla, skirt steak, provoleta, sardo and chimichurri. Full shopping list for 8–10 guests.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-14.webp",
+ "hook": "The first round of an Argentine cookout on one board: grilled sausages, melting provoleta and a big bowl of chimichurri, with bread to mop it all up.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "20–22 inch",
+ "prep_time": "30 min",
+ "cost": "$60–$80",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Chorizo criollo",
+     "slug": null
+    },
+    {
+     "name": "Morcilla (blood sausage)",
+     "slug": "morcilla"
+    },
+    {
+     "name": "Entraña (skirt steak)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Queso sardo",
+     "slug": null
+    },
+    {
+     "name": "Provoleta (grilled provolone)",
+     "slug": null
+    },
+    {
+     "name": "Ricotta",
+     "slug": "ricotta"
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Chimichurri",
+     "slug": null
+    },
+    {
+     "name": "Salsa criolla",
+     "slug": null
+    },
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Grilled vegetables",
+   "items": [
+    {
+     "name": "Grilled scallions",
+     "slug": null
+    },
+    {
+     "name": "Roasted garlic",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": null
+    },
+    {
+     "name": "Caperberries",
+     "slug": "caperberries"
+    },
+    {
+     "name": "Pickled peppers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crunch",
+   "items": [
+    {
+     "name": "Pan francés",
+     "slug": null
+    },
+    {
+     "name": "Plain crackers",
+     "slug": null
+    },
+    {
+     "name": "Salted almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "An asado usually opens with the sausages and provoleta while the bigger cuts cook, and this board follows that order. Juicy chorizo criollo, soft morcilla and thin slices of skirt steak share the center with provoleta, a grilled cheese with a crisp crust and stretchy middle, plus sharp sardo and mild ricotta.",
+  "Chimichurri does the heavy lifting: its vinegar, garlic and parsley cut through grilled fat. Salsa criolla adds fresh onion, the olives, caperberries and pickled peppers give salty resets between bites, and crusty pan francés soaks up the juices."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Roast the garlic in foil and grill the chorizo and morcilla."
+  },
+  {
+   "when": "20 min before",
+   "what": "Grill the skirt steak, provoleta and scallions."
+  },
+  {
+   "when": "10 min before",
+   "what": "Rest and slice the steak; fill the sauce bowls."
+  },
+  {
+   "when": "5 min before",
+   "what": "Arrange the meats and cheeses on the board."
+  },
+  {
+   "when": "Serving",
+   "what": "Add the bread, vegetables and briny bits; finish with chimichurri."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find chorizo criollo, morcilla and provoleta?",
+   "a": "Latin American butchers and markets carry Argentine-style fresh chorizo and morcilla, and many sell provoleta rounds. Otherwise use fresh Italian sausage and a thick slice of provolone grilled in a cast-iron pan."
+  },
+  {
+   "q": "Is Argentine chorizo the same as Spanish chorizo?",
+   "a": "No. Argentine chorizo is a fresh sausage that must be cooked, while Spanish chorizo is cured and ready to slice. Cooked Spanish chorizo will work, but it's firmer and smokier."
+  },
+  {
+   "q": "What wine goes with an asado board?",
+   "a": "Malbec is the classic match for grilled beef. For a white, try Torrontés, Argentina's floral, dry signature grape."
+  },
+  {
+   "q": "Can I make chimichurri ahead?",
+   "a": "Yes. It tastes better after a few hours as the garlic and herbs soak into the vinegar and oil. Make it the day before and bring it to room temperature before serving."
+  }
+ ],
+ "blog": []
+}

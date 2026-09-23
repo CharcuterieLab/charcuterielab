@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
-import { BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards } from "./boards.mjs";
+import { BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1884,6 +1884,7 @@ function sitemap(posts, ingredients = [], boards = []) {
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/privacy/", priority: "0.2" },
     ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
+    ...(boards.some((b) => b.book === "world") ? [{ loc: "/around-the-world/", priority: "0.9" }] : []),
     ...BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug)).map((c) => ({
       loc: `/boards/${c.slug}/`,
       priority: "0.7"
@@ -1938,7 +1939,7 @@ async function build() {
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle };
+  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign) };
   // blog post -> the board plan it overlaps (first board that lists it)
   const boardForPost = new Map();
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
@@ -1946,7 +1947,7 @@ async function build() {
   const boardsUsing = new Map();
   boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
 
-  await writeFile(join(dist, "index.html"), homePage(posts, products, boardsStrip(boardHelpers, boards)));
+  await writeFile(join(dist, "index.html"), homePage(posts, products, (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
   await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
@@ -2031,7 +2032,15 @@ async function build() {
       const { notes } = JSON.parse(builder.json);
       const blogTitles = new Map(posts.map((post) => [post.slug, post.title]));
       await mkdir(join(dist, "boards"), { recursive: true });
+      await mkdir(join(dist, "images", "boards"), { recursive: true });
+      for (const b of boards.filter((x) => x.placeholder)) {
+        await writeFile(join(dist, "images", "boards", `${b.slug}.svg`), placeholderSvg(b));
+      }
       await writeFile(join(dist, "boards", "index.html"), boardsHub(boardHelpers, boards));
+      if (boards.some((b) => b.book === "world")) {
+        await mkdir(join(dist, "around-the-world"), { recursive: true });
+        await writeFile(join(dist, "around-the-world", "index.html"), worldBookPage(boardHelpers, boards));
+      }
       for (const cat of BOARD_CATEGORIES) {
         const inCat = boards.filter((b) => b.category === cat.slug);
         if (!inCat.length) continue;

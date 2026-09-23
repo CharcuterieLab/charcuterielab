@@ -3737,3 +3737,12 @@ a {
 }
 .bl-main .section-kicker { text-align: left; color: var(--gold-dark); font-weight: 700; letter-spacing: 0.1em; }
 .bl-strip .section-kicker, .bl-strip .section-title { text-align: center; }
+.bl-banner{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:18px 0 0;padding:14px 18px;border-radius:12px;background:var(--green);color:#fff9eb;text-decoration:none;box-shadow:0 10px 26px rgba(10,38,26,.18)}
+.bl-banner:hover{background:var(--green-deep)}
+.bl-banner-k{padding:3px 10px;border-radius:999px;background:var(--gold);color:var(--green-deep);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.bl-banner strong{font-family:Georgia,"Times New Roman",serif;font-size:1.15rem}
+.bl-banner span:last-child{font-size:14px;opacity:.9}
+main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
+.bl-world{align-items:flex-start}
+.bl-world > div{max-width:62ch}
+.bl-wib{margin:0;padding-left:20px;line-height:1.8;font-size:1.02rem}

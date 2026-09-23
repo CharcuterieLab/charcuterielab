@@ -1,0 +1,164 @@
+{
+ "number": "WB-04",
+ "book": "world",
+ "slug": "portuguese-petiscos-board",
+ "title": "The Portuguese Petiscos Board",
+ "h1": "Portuguese Petiscos Board",
+ "seo_title": "Portuguese Charcuterie Board: Petiscos Shopping List",
+ "description": "A Portuguese petiscos board for 8–10: spoonable Serra da Estrela, São Jorge, chouriço, presunto, lupini beans, quince paste and broa. What to buy.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-04.webp",
+ "hook": "Lisbon tavern snacks on one board: a soft Serra da Estrela to spoon, smoky chouriço, salty lupini beans and a chilled bottle of Vinho Verde.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "20–25 min",
+ "cost": "$45–$65",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Serra da Estrela",
+     "slug": null
+    },
+    {
+     "name": "Aged Queijo São Jorge",
+     "slug": null
+    },
+    {
+     "name": "Queijo de Évora",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Chouriço (Portuguese smoked sausage)",
+     "slug": null
+    },
+    {
+     "name": "Paio (smoked pork loin sausage)",
+     "slug": null
+    },
+    {
+     "name": "Presunto (Portuguese ham)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Eucalyptus honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Doce de tomate (tomato jam)",
+     "slug": "tomato-jam"
+    },
+    {
+     "name": "Dijon or whole-grain mustard",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Quince paste (marmelada)",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Piri-piri oil",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Broa (Portuguese corn bread)",
+     "slug": null
+    },
+    {
+     "name": "Torradas (thin dry toast)",
+     "slug": null
+    },
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Cured black olives",
+     "slug": null
+    },
+    {
+     "name": "Lupini beans (tremoços)",
+     "slug": null
+    },
+    {
+     "name": "Pickled cauliflower",
+     "slug": null
+    },
+    {
+     "name": "Fresh thyme",
+     "slug": "fresh-thyme"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Serra da Estrela is the centerpiece: a sheep's milk cheese set with thistle, so soft when ripe that you cut off the top and scoop it. Honey and crisp torradas sit right next to it. Firm, peppery São Jorge and salty Queijo de Évora get the sweet partners Portugal serves with cheese, quince paste and tomato jam.",
+  "Smoky, garlicky chouriço, paio and presunto bring salt and fat, and broa, a dense cornbread, stands up to them. Salty lupini beans, olives and pickled cauliflower keep guests nibbling between bites, and a drizzle of piri-piri oil adds heat for anyone who wants it."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Take out the Serra da Estrela so it softens."
+  },
+  {
+   "when": "15 min before",
+   "what": "Slice the chouriço and paio and fan the presunto."
+  },
+  {
+   "when": "10 min before",
+   "what": "Fill ramekins and arrange the bread and crackers."
+  },
+  {
+   "when": "5 min before",
+   "what": "Add olives, lupini beans and pickles."
+  },
+  {
+   "when": "Serving time",
+   "what": "Cut the top off the Serra and drizzle on the piri-piri oil."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy Portuguese cheese and chouriço?",
+   "a": "Portuguese and Brazilian markets are the best bet, especially in New England, New Jersey and California. Some cheese shops carry Serra da Estrela and São Jorge, and both ship from online cheese retailers."
+  },
+  {
+   "q": "How do you serve Serra da Estrela?",
+   "a": "Let it sit out so the center softens, then slice off the top rind like a lid and scoop the cheese with a spoon or bread."
+  },
+  {
+   "q": "What are lupini beans and where do I find them?",
+   "a": "They are large, salty brined beans eaten as a bar snack; squeeze the skin and pop the bean out. Look for jars in the Italian or Mediterranean aisle."
+  },
+  {
+   "q": "What should I drink with petiscos?",
+   "a": "Chilled Vinho Verde is the classic, light and slightly spritzy. A Douro red or a cold lager also works with the smoky meats."
+  }
+ ],
+ "blog": []
+}

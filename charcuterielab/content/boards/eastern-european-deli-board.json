@@ -1,0 +1,173 @@
+{
+ "number": "WB-05",
+ "book": "world",
+ "slug": "eastern-european-deli-board",
+ "title": "The Eastern European Deli Board",
+ "h1": "Eastern European Deli Charcuterie Board",
+ "seo_title": "Eastern European Charcuterie Board: Polish Deli Plan",
+ "description": "An Eastern European deli board with kielbasa, Hungarian salami, twaróg, smoked Gouda, Polish dill pickles, ćwikła and dark rye. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-05.webp",
+ "hook": "A Polish-deli spread built on smoke, salt and sour: sausages, farmer's cheese, fermented pickles and dense rye. It's hearty food that has kept people fed through long winters.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "35–40 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Smoked Gouda",
+     "slug": "smoked-gouda"
+    },
+    {
+     "name": "Polish twaróg (farmer's cheese)",
+     "slug": null
+    },
+    {
+     "name": "Kashkaval",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Smoked kielbasa",
+     "slug": "kielbasa"
+    },
+    {
+     "name": "Krakauer sausage",
+     "slug": null
+    },
+    {
+     "name": "Hungarian salami",
+     "slug": null
+    },
+    {
+     "name": "Smalec (lard spread)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Horseradish cream",
+     "slug": null
+    },
+    {
+     "name": "Spicy brown mustard",
+     "slug": null
+    },
+    {
+     "name": "Ćwikła (beet-horseradish relish)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pickles & ferments",
+   "items": [
+    {
+     "name": "Polish dill pickles",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Pickled beets",
+     "slug": "pickled-beets"
+    },
+    {
+     "name": "Sauerkraut",
+     "slug": null
+    },
+    {
+     "name": "Marinated mushrooms",
+     "slug": "marinated-mushrooms"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Dried prunes",
+     "slug": "prunes"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Dark rye bread",
+     "slug": null
+    },
+    {
+     "name": "Pumpernickel rounds",
+     "slug": "pumpernickel"
+    },
+    {
+     "name": "Poppy seed roll (makowiec)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Everything here comes from a cold-climate tradition of smoking, curing and fermenting, so the flavors are bold and they match. Smoky kielbasa and krakauer, mellow Hungarian salami and a bowl of smalec for spreading on rye need something sharp next to them, and horseradish, spicy mustard and ćwikła supply it.",
+  "The sour side of the board does the rest. Brine-fermented dill pickles, sauerkraut, pickled beets and marinated mushrooms cut through the fat, while soft twaróg, smoked Gouda and salty kashkaval give three different cheese textures. Prunes, walnuts and a sweet slice of poppy seed roll round it off."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Take the cheeses out of the fridge and spoon the smalec into a bowl."
+  },
+  {
+   "when": "12 min before",
+   "what": "Slice the sausages, drain the pickles and place the cheeses."
+  },
+  {
+   "when": "8 min before",
+   "what": "Fold the meats onto the board and set out the condiment bowls."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add the pickles, spreads and bread."
+  },
+  {
+   "when": "At serving",
+   "what": "Garnish with fresh dill and scatter walnuts and prunes."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I buy twaróg, smalec and ćwikła?",
+   "a": "Polish and Eastern European delis carry all three, and many large supermarkets stock twaróg as farmer's cheese. If you can't find ćwikła, mix grated pickled beets with prepared horseradish."
+  },
+  {
+   "q": "What can I use instead of smalec?",
+   "a": "Schmaltz (rendered chicken fat) is the closest swap and is common in Jewish delis. Soft butter with smoked paprika also works for guests who'd rather skip lard."
+  },
+  {
+   "q": "What should I drink with an Eastern European deli board?",
+   "a": "A crisp pilsner is the easy choice. Chilled rye vodka is traditional with pickles and smoked sausage, and kvass is a good low-alcohol option."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Slice the sausages and portion the pickles and condiments up to a day ahead and keep them covered in the fridge. Put the bread out last so it doesn't dry."
+  }
+ ],
+ "blog": []
+}

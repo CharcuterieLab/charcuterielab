@@ -1,0 +1,169 @@
+{
+ "number": "WB-12",
+ "book": "world",
+ "slug": "korean-bbq-charcuterie-board",
+ "title": "The Korean BBQ Board",
+ "h1": "Korean BBQ Charcuterie Board",
+ "seo_title": "Korean BBQ Charcuterie Board: Bulgogi, Banchan & Ssam",
+ "description": "A Korean BBQ charcuterie board with bulgogi, spicy pork, fried chicken, kimchi and banchan, lettuce and perilla wraps and ssamjang. What to buy for 8–10.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-12.webp",
+ "hook": "Korean barbecue is already a sharing meal, so it moves naturally onto a board: marinated meats, a row of banchan and a wrap station of lettuce, perilla and ssamjang.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "25–30 min",
+ "cost": "$50–$75",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Low-moisture mozzarella",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Bulgogi beef",
+     "slug": null
+    },
+    {
+     "name": "Spicy pork (jeyuk bokkeum)",
+     "slug": null
+    },
+    {
+     "name": "Korean fried chicken",
+     "slug": null
+    },
+    {
+     "name": "Thin-sliced beef tongue",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Gochujang",
+     "slug": null
+    },
+    {
+     "name": "Doenjang",
+     "slug": null
+    },
+    {
+     "name": "Sesame oil dipping sauce",
+     "slug": null
+    },
+    {
+     "name": "Ssamjang",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Wraps",
+   "items": [
+    {
+     "name": "Perilla leaves (kkaennip)",
+     "slug": null
+    },
+    {
+     "name": "Butter lettuce",
+     "slug": null
+    },
+    {
+     "name": "Roasted seaweed sheets",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Banchan",
+   "items": [
+    {
+     "name": "Kimchi",
+     "slug": "kimchi"
+    },
+    {
+     "name": "Yellow pickled radish (danmuji)",
+     "slug": null
+    },
+    {
+     "name": "Seasoned bean sprouts",
+     "slug": null
+    },
+    {
+     "name": "Cucumber kimchi",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Korean rice balls (jumeokbap)",
+     "slug": null
+    },
+    {
+     "name": "Toasted sesame seeds",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The heart of this board is ssam: guests wrap a piece of meat in lettuce or a perilla leaf with a dab of ssamjang. Sweet-savory bulgogi, spicy gochujang pork, crunchy fried chicken and grilled beef tongue give four very different bites, and the sesame-oil-and-salt dip is the classic partner for the tongue.",
+  "Banchan do the balancing. Sour kimchi and cucumber kimchi cut through the fatty meats, sweet-sour yellow radish adds crunch, and mild bean sprouts and rice balls give the palate a rest. A little mozzarella melted over the spicy pork, a favorite in Korean restaurants, softens the chili heat."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Drain the marinated meats and set out the banchan."
+  },
+  {
+   "when": "20 min before",
+   "what": "Cook the bulgogi, pork and tongue; reheat the chicken."
+  },
+  {
+   "when": "15 min before",
+   "what": "Rest the meats; wash and dry the lettuce and perilla."
+  },
+  {
+   "when": "5 min before",
+   "what": "Arrange the banchan and fill the sauce bowls."
+  },
+  {
+   "when": "Serving time",
+   "what": "Add the warm meats and scatter sesame seeds."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find perilla leaves and ssamjang?",
+   "a": "Korean grocery stores such as H Mart carry fresh perilla leaves (kkaennip) in the produce section and ssamjang in tubs next to the gochujang. If you can't find perilla, use extra lettuce with a few mint and basil leaves."
+  },
+  {
+   "q": "Can I buy the meats already marinated?",
+   "a": "Yes. Korean markets sell bulgogi and spicy pork marinated and ready to cook, and thin-sliced beef tongue in the freezer section. Cook them in a hot skillet in batches so they brown instead of steaming."
+  },
+  {
+   "q": "What should I drink with Korean BBQ?",
+   "a": "Makgeolli, a lightly fizzy, tangy Korean rice wine, is a great match, as are soju and a cold lager. For wine, try an off-dry Riesling or a fruity Gamay."
+  },
+  {
+   "q": "Can I make this board less spicy?",
+   "a": "Keep the gochujang and spicy pork in one corner and lean on bulgogi, fried chicken and the sesame oil dip. Mild banchan like bean sprouts and yellow radish give guests plenty of heat-free options."
+  }
+ ],
+ "blog": []
+}

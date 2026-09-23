@@ -1,0 +1,176 @@
+{
+ "number": "WB-03",
+ "book": "world",
+ "slug": "swiss-alpine-charcuterie-board",
+ "title": "The Swiss Alpine Board",
+ "h1": "Swiss Alpine Charcuterie Board",
+ "seo_title": "Swiss Charcuterie Board: Alpine Cheese Shopping List",
+ "description": "A Swiss Alpine board for 8–10 with Gruyère, Emmental, Appenzeller, Raclette, Bündnerfleisch and Landjäger, plus apricot, rye and Biberli. What to buy.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-03.webp",
+ "hook": "Four Swiss mountain cheeses side by side, with air-dried beef, rye bread and a few sweet things to balance the salt.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "35–40 min",
+ "cost": "$65–$105",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Gruyère AOP",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Emmental",
+     "slug": "emmental"
+    },
+    {
+     "name": "Appenzeller",
+     "slug": null
+    },
+    {
+     "name": "Raclette",
+     "slug": "raclette"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Bündnerfleisch (air-dried beef)",
+     "slug": "bundnerfleisch"
+    },
+    {
+     "name": "Landjäger",
+     "slug": "landjager"
+    },
+    {
+     "name": "Swiss air-dried ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Apricot preserve",
+     "slug": "apricot-jam"
+    },
+    {
+     "name": "Alpine flower honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Caraway seeds",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Rye bread",
+     "slug": null
+    },
+    {
+     "name": "Biberli (Appenzell gingerbread)",
+     "slug": null
+    },
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Pickled onions",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Hazelnuts",
+     "slug": "hazelnuts"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This board is a tasting of Swiss mountain cheese. Gruyère is dense, nutty and savory, Emmental is mild and sweet, Appenzeller is spicy and herbal from the brine it is washed in, and Raclette is soft and creamy. Serving them side by side lets guests taste how different they are.",
+  "Everything else plays to that nuttiness. Lean Bündnerfleisch and smoky Landjäger add salt and chew, apricot preserve and apple bring sweetness and acid, and mustard, cornichons and pickled onions cut the richness. Hazelnuts, walnuts and spiced Biberli round it out."
+ ],
+ "timeline": [
+  {
+   "when": "20 min before",
+   "what": "Take out the cheeses; slice the Gruyère and Emmental."
+  },
+  {
+   "when": "12 min before",
+   "what": "Set out condiment bowls and place the four cheeses."
+  },
+  {
+   "when": "8 min before",
+   "what": "Fold the meats and fan the rye bread and crackers."
+  },
+  {
+   "when": "4 min before",
+   "what": "Add pickles, radishes, apple, apricots and nuts."
+  },
+  {
+   "when": "Serving time",
+   "what": "Tuck in fresh herbs and set out the honey."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Bündnerfleisch and Appenzeller?",
+   "a": "Appenzeller is sold at many cheese counters and specialty grocers. Bündnerfleisch is harder to find in the US; look at specialty delis or online, or use Italian bresaola, its close cousin."
+  },
+  {
+   "q": "What is the difference between Gruyère and Emmental?",
+   "a": "Emmental is the mild, sweet cheese with big holes. Gruyère is denser, with few or no holes, and has a stronger nutty, savory flavor."
+  },
+  {
+   "q": "What wine goes with a Swiss cheese board?",
+   "a": "Chasselas, Switzerland's classic white, is the natural pick. Any crisp, dry white or a light lager also works with nutty Alpine cheese."
+  },
+  {
+   "q": "Can I turn this into a fondue night?",
+   "a": "Yes. Melt Gruyère and Emmental with dry white wine, garlic and a little cornstarch, and serve the bread, apple and meats for dipping."
+  }
+ ],
+ "blog": []
+}

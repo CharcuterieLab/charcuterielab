@@ -1,0 +1,169 @@
+{
+ "number": "WB-08",
+ "book": "world",
+ "slug": "indian-charcuterie-board",
+ "title": "The Indian Spice Board",
+ "h1": "Indian Charcuterie Board",
+ "seo_title": "Indian Charcuterie Board: Paneer, Tikka & Chutneys",
+ "description": "An Indian charcuterie board with seared paneer, chicken tikka, seekh kebab, four chutneys, naan and papadums. The full shopping list for 8–10 guests.",
+ "category": "around-the-world",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/world-08.webp",
+ "hook": "Warm tikka and kebab, cool raita, sweet-sour chutneys and crisp papadums. It's a board built on contrast: hot and cold, fiery and cooling.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–18 inch",
+ "prep_time": "25–30 min",
+ "cost": "$50–$70",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Paneer",
+     "slug": null
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meat & seafood",
+   "items": [
+    {
+     "name": "Chicken tikka bites",
+     "slug": null
+    },
+    {
+     "name": "Seekh kebab",
+     "slug": null
+    },
+    {
+     "name": "Tandoori shrimp",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Chutneys & dips",
+   "items": [
+    {
+     "name": "Mint-cilantro chutney",
+     "slug": null
+    },
+    {
+     "name": "Tamarind-date chutney",
+     "slug": null
+    },
+    {
+     "name": "Mango pickle (achaar)",
+     "slug": null
+    },
+    {
+     "name": "Raita",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Mini naan",
+     "slug": "mini-naan"
+    },
+    {
+     "name": "Papadums",
+     "slug": "papadum"
+    },
+    {
+     "name": "Roti",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Mango",
+     "slug": "mango"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Red onion",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Garnish",
+   "items": [
+    {
+     "name": "Fresh cilantro",
+     "slug": null
+    },
+    {
+     "name": "Chaat masala",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Indian cooking balances sweet, sour, salty and hot in the same meal, and this board sets that up in four bowls: fresh mint-cilantro chutney, sweet-sour tamarind, fiery mango pickle and cooling raita. Every protein on the board has at least one partner there.",
+  "Paneer, seared golden in ghee, holds its shape because it's acid-set, not rennet-set, and it gives guests a mild, milky bite between the tikka and kebab. Mango, cucumber and pomegranate cool things down, raw onion with chaat masala cuts the richness of the grilled meats, and warm naan and crisp papadums do the scooping."
+ ],
+ "timeline": [
+  {
+   "when": "25 min before",
+   "what": "Sear the paneer in ghee and warm the tikka bites."
+  },
+  {
+   "when": "20 min before",
+   "what": "Grill or warm the seekh kebab; warm the naan."
+  },
+  {
+   "when": "15 min before",
+   "what": "Fill the chutney and raita bowls."
+  },
+  {
+   "when": "5 min before",
+   "what": "Arrange the papadums; slice the cucumber and onion."
+  },
+  {
+   "when": "At serving",
+   "what": "Add the warm proteins and scatter pomegranate seeds."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I buy paneer, seekh kebab and mango pickle?",
+   "a": "Indian grocery stores stock all three, and many supermarkets now carry paneer and frozen kebabs. For the least work, order tikka and seekh kebab from a local Indian restaurant."
+  },
+  {
+   "q": "How do I keep the board from being too spicy?",
+   "a": "Keep the heat in the mango pickle and label it. Put the raita and mango near the tikka so guests can cool down, since dairy soothes chili heat better than water."
+  },
+  {
+   "q": "What drink goes with an Indian charcuterie board?",
+   "a": "A cold lager or an off-dry Riesling handles the spice. For no alcohol, serve mango lassi or masala chai."
+  },
+  {
+   "q": "Can I make it vegetarian?",
+   "a": "Yes. Swap the chicken for tandoori cauliflower, drop the shrimp and kebab, and add extra paneer or samosas."
+  }
+ ],
+ "blog": []
+}
