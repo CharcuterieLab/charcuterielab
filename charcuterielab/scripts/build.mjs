@@ -8,13 +8,16 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
-// The paperback is the promoted product. The Gumroad PDF still exists and is
-// still buyable, it just is not advertised on the site any more.
-const bookUrl = "https://www.amazon.com/dp/B0H2Y39R41";
+// The book is sold in two editions and every book CTA on the site offers both:
+// the ebook (PDF) on Gumroad and the paperback on Amazon. Prices are shown on
+// the buttons, so update them here if either listing changes.
+// Checked against the live listings 23 Sep 2026.
 const bookTitle = "Charcuterie Lab: 50 Boards Built by Science";
 const ebookUrl = "https://charcuterieflavor.gumroad.com/l/tabajj";
+const ebookPrice = "$14";
+const paperbackUrl = "https://www.amazon.com/dp/B0H2Y39R41";
+const paperbackPrice = "$25.99";
 const ebookPageUrl = "/ebook/";
-const ebookPrice = "$14.99";
 const newsletterUrl = "https://charcuterie-lab-report.beehiiv.com/subscribe";
 
 // Statcounter. Both values come from your project's Install Code page. They
@@ -342,7 +345,10 @@ function markdownToHtml(markdown) {
     if (!match) return href;
 
     const path = match[1].replace(/^\/+|\/+$/g, "");
-    if (!path || path.startsWith("blog/") || path.startsWith("ebook") || path.startsWith("images/")) {
+    // Old posts linked to charcuterielab.com/<slug>/ from before the blog moved
+    // under /blog/, so bare slugs are rewritten. Real top-level sections must be
+    // left alone - rewriting /ingredients/ to /blog/ingredients/ broke 13 links.
+    if (!path || /^(blog|ebook|images|ingredients|board-builder|privacy|assets)(\/|$)/.test(path)) {
       return href;
     }
     return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
@@ -350,7 +356,14 @@ function markdownToHtml(markdown) {
 
   const inline = (value = "") =>
     escapeHtml(value)
-      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+)\)/g, (_, text, href) => `<a href="${normalizeLink(href)}" target="_blank" rel="noopener">${text}</a>`)
+      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)/g, (_, text, href) => {
+        const url = href.startsWith("/") ? `https://charcuterielab.com${href}` : normalizeLink(href);
+        // Links to our own pages open in the same tab; only other sites get a new one.
+        const internal = /^https:\/\/charcuterielab\.com\//i.test(url);
+        return internal
+          ? `<a href="${url.replace(/^https:\/\/charcuterielab\.com/i, "")}">${text}</a>`
+          : `<a href="${url}" target="_blank" rel="noopener">${text}</a>`;
+      })
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
 
@@ -889,6 +902,7 @@ function ingredientsHub(items) {
     description:
       "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
     body: `<main class="ing-main">
+${bookBar("ingredients_hub_top")}
 ${ingredientsFinder(items, {
   heading: "Ingredients",
   intro:
@@ -907,6 +921,7 @@ ${categories
       </ul>
     </div>
   </section>
+${labNext("ingredients_hub", { skip: ["ingredients"] })}
 </main>`
   });
 }
@@ -923,6 +938,7 @@ ${ingredientsFinder(items, {
   intro: `${items.length} ${category.toLowerCase()} ingredients, each with pairings, prep and what to buy.`,
   showCategoryFilter: false
 })}
+${labNext(`ingredients_${slugify(category)}`, { skip: ["ingredients"] })}
 </main>`
   });
 }
@@ -1026,6 +1042,22 @@ function boardPostLink(item, blogSlugs) {
   return `<p class="ing-boardpost">Building a whole board around it? <a href="${escapeHtml(item.boardPost)}">See board ideas &rarr;</a></p>`;
 }
 
+// Eleven ingredient files end with an italic "Building a whole board around it?"
+// line pointing at /blog/<x>-charcuterie-board/ posts that were never published.
+// boardPostLink() below already prints that line, checked against real posts,
+// so the markdown copy is dropped; any other link to a missing post is unlinked.
+function ingredientBodyHtml(html, blogSlugs) {
+  let out = html
+    .replace(/<p><em>Building a whole board around it\?[\s\S]*?<\/em><\/p>\s*/gi, "")
+    .replace(/\s*<hr[^>]*>\s*$/i, "");
+  if (blogSlugs) {
+    out = out.replace(/<a href="\/blog\/([^"/]+)\/?"[^>]*>([\s\S]*?)<\/a>/g, (m, slug, text) =>
+      blogSlugs.has(slug) ? m : text
+    );
+  }
+  return out;
+}
+
 function ingredientPage(item, bySlug, blogSlugs = null) {
   const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
@@ -1068,8 +1100,9 @@ ${spec
       }
     </header>
     <div class="post-body ing-body">
-      ${item.html}
+      ${ingredientBodyHtml(item.html, blogSlugs)}
     </div>
+    ${bookBar(`ingredient_${item.slug}`, `Put ${item.title.toLowerCase()} on a full board`)}
     ${
       related.length
         ? `<section class="ing-related">
@@ -1089,6 +1122,8 @@ ${related
     ${boardPostLink(item, blogSlugs)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>
+${labNext(`ingredient_${item.slug}_next`, { skip: ["book"], heading: "Plan the rest of the board" })}
+${newsletterPanel("ing-email", `ingredient_${item.slug}`)}
 </main>`
   });
 }
@@ -1170,10 +1205,10 @@ ${head}
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
-        <a href="/ebook/">The Book</a>
-        <a href="/blog/">Blog</a>
-        <a href="/ingredients/">Ingredients</a>
+        <a class="nav-book" href="/ebook/">The Book</a>
         <a href="/board-builder/">Build a Board</a>
+        <a href="/ingredients/">Ingredients</a>
+        <a href="/blog/">Blog</a>
         <a href="/#shop">Shop</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
@@ -1189,8 +1224,12 @@ ${head}
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="footer-links">
-        <a href="/blog/">Blog</a>
         <a href="/ebook/">The Book</a>
+        <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
+        <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
+        <a href="/board-builder/">Board Builder</a>
+        <a href="/ingredients/">Ingredients</a>
+        <a href="/blog/">Blog</a>
         <a href="/privacy/">Privacy</a>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
@@ -1201,41 +1240,157 @@ ${statcounterTag()}
 </html>`;
 }
 
+// ---------------------------------------------------------------------------
+// Promotion order, site-wide: 1. the book (ebook on Gumroad, paperback on
+// Amazon), 2. the Board Builder, 3. the Ingredients library. Every page uses
+// these helpers so the order and the prices can only ever be changed in one
+// place.
+// ---------------------------------------------------------------------------
+
+const ebookHref = (campaign) => withTracking(ebookUrl, campaign);
+
+function bookButtons(campaign, { size = "" } = {}) {
+  const cls = size ? ` book-buy-${size}` : "";
+  return `<div class="book-buy${cls}">
+      <a class="button primary book-buy-ebook" href="${ebookHref(campaign)}" target="_blank" rel="noopener">Get the ebook · ${ebookPrice}</a>
+      <a class="button book-buy-print" href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${paperbackPrice}</a>
+    </div>`;
+}
+
+const bookFormatsLine = `Instant PDF download on Gumroad, or a full-colour paperback from Amazon.`;
+
+// Slim banner for the top of a page: the book, both editions, nothing else.
+function bookBar(campaign, label = "The Charcuterie Lab book") {
+  return `<aside class="book-bar" aria-label="The Charcuterie Lab book">
+    <img class="book-bar-cover" src="/images/book-cover.jpg" alt="" width="64" height="83" loading="lazy" decoding="async">
+    <div class="book-bar-copy">
+      <p class="eyebrow">${escapeHtml(label)}</p>
+      <p>50 complete boards with shopping lists, pairing logic and build order. ${bookFormatsLine}</p>
+    </div>
+    ${bookButtons(campaign, { size: "sm" })}
+  </aside>`;
+}
+
+const builderPitch = {
+  eyebrow: "Free tool",
+  title: "Build your own board",
+  text: "Pick what you like, get pairing advice as you go, then a shopping list, prep steps and a layout sized to your guest count.",
+  href: "/board-builder/",
+  cta: "Open the Board Builder"
+};
+
+const ingredientsPitch = {
+  eyebrow: "Ingredient library",
+  title: "Look up any ingredient",
+  text: "Hundreds of cheeses, meats, fruits, spreads and crackers — what each one pairs with and why, how to prep it, and what to buy.",
+  href: "/ingredients/",
+  cta: "Browse the ingredients"
+};
+
+function pitchCard(p, rank) {
+  return `<article class="lab-next-card lab-next-${rank}">
+      <p class="eyebrow">${p.eyebrow}</p>
+      <h3>${p.title}</h3>
+      <p>${p.text}</p>
+      <a class="button secondary-dark" href="${p.href}">${p.cta}</a>
+    </article>`;
+}
+
+// The three-step block that closes a page: book, then Board Builder, then
+// Ingredients. Pass skip to leave out the page the reader is already on.
+function labNext(campaign, { skip = [], heading = "Keep going" } = {}) {
+  const cards = [];
+  if (!skip.includes("builder")) cards.push(pitchCard(builderPitch, "builder"));
+  if (!skip.includes("ingredients")) cards.push(pitchCard(ingredientsPitch, "ingredients"));
+  const book = skip.includes("book")
+    ? ""
+    : `<div class="lab-next-book">
+      <img src="/images/book-3d-mockup.webp" alt="${bookTitle}" width="320" height="320" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow">The Book</p>
+        <h2>50 boards, built by science</h2>
+        <p>Every board comes with a shopping list, the pairing logic behind it, substitutions and the order to build it in. ${bookFormatsLine}</p>
+        ${bookButtons(campaign)}
+      </div>
+    </div>`;
+  return `<section class="lab-next" aria-label="${escapeHtml(heading)}">
+    <div class="lab-next-inner">
+    ${book}
+    ${cards.length ? `<div class="lab-next-cards">${cards.join("\n")}</div>` : ""}
+    </div>
+  </section>`;
+}
+
+function newsletterPanel(id, campaign) {
+  return `<section class="lab-news" aria-label="Newsletter">
+    <div class="lab-news-inner">
+      <div>
+        <p class="eyebrow">Daily Lab Report</p>
+        <h2>Get the next pairing idea in your inbox</h2>
+        <p>One pairing that works and why, a board worth stealing, and new printables the day they land.</p>
+      </div>
+      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
+        <label class="sr-only" for="${id}">Email address</label>
+        <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
+        <input type="hidden" name="utm_source" value="charcuterielab">
+        <input type="hidden" name="utm_medium" value="site">
+        <input type="hidden" name="utm_campaign" value="${escapeHtml(campaign)}">
+        <button class="button primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>`;
+}
+
 function homePage(posts, products) {
   const featuredPosts = posts.slice(0, 3);
-  const heroBookUrl = `${ebookPageUrl}?utm_source=charcuterielab&utm_medium=site&utm_campaign=home_hero`;
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
     head: siteSchema(),
-    description: "Charcuterie Lab: 50 board blueprints built by science — shopping lists, pairing logic and build order, in a full-colour paperback. Plus daily pairing science on the blog.",
+    description: `Charcuterie Lab: 50 board blueprints built by science. Ebook ${ebookPrice} on Gumroad, paperback ${paperbackPrice} on Amazon. Plus a free Board Builder and ingredient library.`,
     body: `<main>
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
         <p class="hero-kicker">The Book</p>
         <h1>50 Charcuterie Boards, Built by Science</h1>
-        <p>A full-colour paperback with shopping lists, pairing logic, substitutions, and a build order for every board — so you can repeat them, not just admire them.</p>
-        <div class="hero-points" aria-label="What is included">
-          <span>50 board plans</span>
-          <span>Shopping lists</span>
-          <span>Pairing science</span>
+        <p>Shopping lists, pairing logic, substitutions and a build order for every board, so you can repeat them, not just admire them.</p>
+        <ul class="hero-points" aria-label="What is included">
+          <li>50 board plans</li>
+          <li>Shopping lists</li>
+          <li>Pairing science</li>
+        </ul>
+        <div class="hero-editions">
+          <a class="hero-edition hero-edition-ebook" href="${ebookHref("home_hero")}" target="_blank" rel="noopener">
+            <span class="hero-edition-label">Ebook</span>
+            <strong>${ebookPrice}</strong>
+            <span>Instant PDF download · Gumroad</span>
+          </a>
+          <a class="hero-edition hero-edition-print" href="${paperbackUrl}" target="_blank" rel="noopener">
+            <span class="hero-edition-label">Paperback</span>
+            <strong>${paperbackPrice}</strong>
+            <span>259 pages, full colour · Amazon</span>
+          </a>
         </div>
-        <div class="hero-offer">
-          <strong>Paperback · 259 pages · full colour</strong>
-          <span>On Amazon, printed and shipped by them.</span>
-        </div>
-        <div class="actions">
-          <a class="button primary" href="${heroBookUrl}">See the Book</a>
-          <a class="button secondary" href="${bookUrl}" target="_blank" rel="noopener">Buy on Amazon</a>
-        </div>
+        <p class="hero-more"><a href="${ebookPageUrl}">See what's inside the book &rarr;</a></p>
       </div>
       <div class="hero-art" aria-label="Charcuterie Lab book">
         <div class="book-tilt">
           <div class="book-object book-mockup">
-            <img class="book" src="/images/book-3d-mockup.png" alt="Charcuterie Lab paperback book mockup">
+            <img class="book" src="/images/book-3d-mockup.webp" alt="Charcuterie Lab book mockup" width="640" height="640" fetchpriority="high">
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section lab-free" aria-label="Free from the Lab">
+    <div class="section-inner">
+      <p class="section-kicker">Free from the Lab</p>
+      <h2 class="section-title">Plan your next board</h2>
+      <div class="lab-next-cards">
+        ${pitchCard(builderPitch, "builder")}
+        ${pitchCard(ingredientsPitch, "ingredients")}
       </div>
     </div>
   </section>
@@ -1255,8 +1410,16 @@ function homePage(posts, products) {
 
   <section class="section alt" id="shop">
     <div class="section-inner">
-      <p class="section-kicker">Printables Shop</p>
-      <h2 class="section-title">Enhance Your Boards</h2>
+      <p class="section-kicker">Shop</p>
+      <h2 class="section-title">The book and the printables</h2>
+      <div class="shop-book">
+        <img src="/images/book-cover.jpg" alt="${bookTitle} cover" width="180" height="233" loading="lazy" decoding="async">
+        <div>
+          <h3>${bookTitle}</h3>
+          <p>All 50 boards with shopping lists, pairing logic, substitutions and build notes. ${bookFormatsLine}</p>
+          ${bookButtons("home_shop")}
+        </div>
+      </div>
       <div class="grid four printables-grid">
         ${products.map((product) => productCard(product)).join("\n")}
       </div>
@@ -1280,15 +1443,39 @@ function homePage(posts, products) {
   });
 }
 
+function bookSchema() {
+  const offer = (url, price, format) => ({
+    "@type": "Offer",
+    url,
+    price: price.replace("$", ""),
+    priceCurrency: "USD",
+    availability: "https://schema.org/InStock",
+    itemOffered: { "@type": "Book", name: bookTitle, bookFormat: format }
+  });
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    name: bookTitle,
+    url: absoluteUrl(ebookPageUrl),
+    image: absoluteUrl("/images/book-cover.jpg"),
+    numberOfPages: 259,
+    offers: [
+      offer(ebookUrl, ebookPrice, "https://schema.org/EBook"),
+      offer(paperbackUrl, paperbackPrice, "https://schema.org/Paperback")
+    ]
+  };
+  return `<script type="application/ld+json">${JSON.stringify(data).replaceAll("<", "\\u003c")}</script>`;
+}
+
 function ebookPage() {
-  const buy = (label) =>
-    `<a class="button primary ebook-primary" href="${bookUrl}" target="_blank" rel="noopener">${label}</a>`;
+  const buy = (campaign) => bookButtons(`ebook_page_${campaign}`, { size: "lg" });
 
   return layout({
     title: "Charcuterie Lab | 50 Boards Built by Science",
     canonical: "/ebook/",
     image: "/images/book-cover.jpg",
-    description: "Charcuterie Lab: 50 complete board blueprints with shopping lists, pairing logic, substitutions and build notes. A full-colour paperback, 259 pages, on Amazon.",
+    description: `Charcuterie Lab: 50 board blueprints with shopping lists, pairing logic, substitutions and build notes. Ebook ${ebookPrice} on Gumroad or paperback ${paperbackPrice} on Amazon.`,
+    head: bookSchema(),
     body: `<main class="ebook-page">
   <section class="ebook-hero">
     <div class="ebook-hero-inner">
@@ -1296,16 +1483,45 @@ function ebookPage() {
       <h1>Build charcuterie boards that look beautiful because they make sense.</h1>
       <p>Charcuterie Lab gives you 50 complete board blueprints with shopping lists, pairing logic, substitutions, and step-by-step build notes so you can host with confidence instead of guessing.</p>
       <div class="ebook-hero-actions">
-        ${buy("Buy on Amazon")}
-        <span>Paperback. Printed and shipped by Amazon.</span>
+        ${buy("hero")}
+        <span>Ebook: instant PDF download from Gumroad. Paperback: printed and shipped by Amazon.</span>
       </div>
       <div class="ebook-metrics" aria-label="Book highlights">
         <span><strong>50</strong> board plans</span>
         <span><strong>259</strong> pages</span>
-        <span><strong>8.5&Prime;&times;11&Prime;</strong> full colour</span>
+        <span><strong>2</strong> editions</span>
       </div>
       <div class="ebook-hero-product">
-        <img src="/images/book-3d-mockup.webp" alt="${bookTitle} paperback">
+        <img src="/images/book-3d-mockup.webp" alt="${bookTitle}" width="640" height="640">
+      </div>
+    </div>
+  </section>
+
+  <section class="ebook-section ebook-editions" id="editions">
+    <div class="ebook-section-inner">
+      <p class="section-kicker">Choose your edition</p>
+      <h2>Same 50 boards, two ways to own them</h2>
+      <div class="edition-grid">
+        <article class="edition-card edition-ebook">
+          <p class="edition-tag">Ebook</p>
+          <p class="edition-price">${ebookPrice}</p>
+          <ul>
+            <li>Instant PDF download</li>
+            <li>Read it on your phone, tablet or laptop</li>
+            <li>Print just the boards you need</li>
+          </ul>
+          <a class="button primary" href="${ebookHref("ebook_page_editions")}" target="_blank" rel="noopener">Get the ebook on Gumroad</a>
+        </article>
+        <article class="edition-card edition-print">
+          <p class="edition-tag">Paperback</p>
+          <p class="edition-price">${paperbackPrice}</p>
+          <ul>
+            <li>259 pages, full colour, 8.5&Prime; &times; 11&Prime;</li>
+            <li>Lies open on the counter while you build</li>
+            <li>Printed and shipped by Amazon</li>
+          </ul>
+          <a class="button primary" href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
+        </article>
       </div>
     </div>
   </section>
@@ -1418,12 +1634,12 @@ function ebookPage() {
 
   <section class="ebook-section ebook-preview">
     <div class="ebook-section-inner ebook-two-col">
-      <img src="/images/book-3d-mockup.webp" alt="${bookTitle} paperback">
+      <img src="/images/book-3d-mockup.webp" alt="${bookTitle}" width="640" height="640" loading="lazy" decoding="async">
       <div>
-        <p class="section-kicker">Why Print</p>
-        <h2>It opens flat on the counter and stays there.</h2>
-        <p>At 8.5 by 11 inches it lies open while your hands are busy, and the boards are printed large enough to actually read the layout. No phone locking itself mid-build, no pinching to zoom a PDF with cheese on your fingers.</p>
-        ${buy("Buy on Amazon")}
+        <p class="section-kicker">Which edition?</p>
+        <h2>Ebook for tonight, paperback for the kitchen shelf.</h2>
+        <p>The ebook lands in your inbox the moment you buy it, so you can shop for a board this afternoon. The paperback is 8.5 by 11 inches and lies open while your hands are busy, with every layout printed large enough to read mid-build.</p>
+        ${buy("why")}
       </div>
     </div>
   </section>
@@ -1434,8 +1650,8 @@ function ebookPage() {
       <h2>Before you buy</h2>
       <div class="ebook-faq-list">
         <details open>
-          <summary>Is this a physical book?</summary>
-          <p>Yes — a full-colour paperback, 259 pages, printed and shipped by Amazon. Payment, delivery and returns are all handled on their side.</p>
+          <summary>What's the difference between the ebook and the paperback?</summary>
+          <p>Nothing in the content: the same 50 boards, shopping lists, pairing logic and build notes. The ebook (${ebookPrice}) is a PDF you download instantly from Gumroad. The paperback (${paperbackPrice}) is 259 full-colour pages, printed and shipped by Amazon.</p>
         </details>
         <details>
           <summary>Is it beginner-friendly?</summary>
@@ -1446,8 +1662,8 @@ function ebookPage() {
           <p>Yes. The 50 board plans cover everyday hosting, seasonal events, wine nights, game day, budget boards, and more polished entertaining.</p>
         </details>
         <details>
-          <summary>Is there a digital version?</summary>
-          <p>There is a PDF edition on <a href="${ebookUrl}" target="_blank" rel="noopener">Gumroad</a>. The paperback is the edition we recommend.</p>
+          <summary>How do I get the ebook after buying?</summary>
+          <p>Gumroad emails you a download link straight away, and the PDF stays in your Gumroad library if you need it again. <a href="${ebookHref("ebook_page_faq")}" target="_blank" rel="noopener">Get the ebook on Gumroad</a>.</p>
         </details>
       </div>
     </div>
@@ -1458,9 +1674,10 @@ function ebookPage() {
       <p class="ebook-kicker">Charcuterie Lab</p>
       <h2>Start building better boards today.</h2>
       <p>Fifty boards, every one of them explained — so your next board is planned, balanced, and repeatable.</p>
-      ${buy("Buy on Amazon")}
+      ${buy("final")}
     </div>
   </section>
+${labNext("ebook_page_next", { skip: ["book"], heading: "Free from the Lab" })}
 </main>`
   });
 }
@@ -1480,16 +1697,19 @@ function productCard(product) {
   <h3><a href="${trackedUrl}" target="_blank" rel="noopener">${escapeHtml(product.title)}</a></h3>
   <p>${escapeHtml(product.description)}</p>
   <span class="price">${escapeHtml(product.price)}</span>
-  <a class="button product-button" href="${trackedUrl}" target="_blank" rel="noopener">View on Gumroad</a>
+  <a class="button product-button" href="${trackedUrl}" target="_blank" rel="noopener">Get it on Gumroad</a>
 </article>`;
 }
 
+// Mid-article promo. The book already leads the page (top banner) and closes
+// it (footer), so the middle slot goes to the second priority, the Board
+// Builder, instead of a third identical book button.
 function postInlinePromo(post) {
-  return `<aside class="post-inline-promo" aria-label="The Charcuterie Lab book">
-    <p class="eyebrow">Want the full board plan?</p>
-    <h2>Turn this idea into a shopping list and build sequence.</h2>
-    <p>The Charcuterie Lab book has 50 complete board blueprints — exact ingredients, pairing logic, substitutions, and the order to build them in.</p>
-    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=inline_${post.slug}">See the Book</a>
+  return `<aside class="post-inline-promo" aria-label="Board Builder">
+    <p class="eyebrow">Free tool</p>
+    <h2>Turn this idea into your own board.</h2>
+    <p>Pick the ingredients you like and the Board Builder suggests what pairs with them, then gives you a shopping list, prep steps and a layout for your guest count.</p>
+    <a class="button primary" href="/board-builder/?utm_source=charcuterielab&utm_medium=blog&utm_campaign=inline_${post.slug}">Open the Board Builder</a>
   </aside>`;
 }
 
@@ -1523,7 +1743,7 @@ function privacyPage() {
         <p>If you subscribe, your email address goes to beehiiv, which sends the newsletter and records opens and clicks so I can tell which issues were worth reading. Your address is used for the newsletter and nothing else — never sold, never rented, never passed on. Every email has an unsubscribe link, and it works immediately.</p>
 
         <h2>Links to other places</h2>
-        <p>Some links lead to Amazon, where the book is sold, and to Gumroad, where the printables are sold. Purchases happen entirely on those sites under their own privacy policies and payment handling — no payment details ever reach this site, because there is nothing here to pay for. Links may carry a tracking tag so I can tell which article sent someone; that tag identifies the article, not you.</p>
+        <p>Some links lead to Gumroad, where the ebook and the printables are sold, and to Amazon, where the paperback is sold. Purchases happen entirely on those sites under their own privacy policies and payment handling — no payment details ever reach this site, because there is nothing here to pay for. Links may carry a tracking tag so I can tell which article sent someone; that tag identifies the article, not you.</p>
 
         <h2>Children</h2>
         <p>This site is meant for adults and is not directed at children under 13.</p>
@@ -1555,6 +1775,7 @@ function blogPage(posts) {
       <p>Pairing science, ingredient deep dives, budget boards, and the little details that make a board work.</p>
     </div>
   </section>
+  ${bookBar("blog_index_top")}
   <section class="section">
     <div class="section-inner">
       <div class="grid three blog-preview-grid archive-grid">
@@ -1562,6 +1783,7 @@ function blogPage(posts) {
       </div>
     </div>
   </section>
+${labNext("blog_index")}
 </main>`
   });
 }
@@ -1626,35 +1848,13 @@ function postPage(post, relatedPosts = [], autolinkIndex = []) {
     </div>
     <img class="post-image" src="${post.image}" alt="">
   </section>
-  <aside class="post-top-promo" aria-label="The Charcuterie Lab book">
-    <div>
-      <p class="eyebrow">The Charcuterie Lab Book</p>
-      <p>All 50 boards in one full-colour paperback — shopping lists, pairing logic, substitutions and build notes.</p>
-    </div>
-    <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=top_${post.slug}">See the Book</a>
-  </aside>
+  ${bookBar(`top_${post.slug}`)}
   <article class="post-body">
     ${postHtml}
   </article>
   ${relatedReading(relatedPosts)}
-  <section class="post-footer-promo" aria-label="Charcuterie Lab book and newsletter">
-    <div class="post-promo-panel post-promo-book">
-      <p class="eyebrow">The Book</p>
-      <h2>Build 50 better boards</h2>
-      <p>Charcuterie Lab collects all 50 boards with complete plans, shopping lists, pairing science and substitutions. Paperback, on Amazon.</p>
-      <a class="button primary" href="${ebookPageUrl}?utm_source=charcuterielab&utm_medium=blog&utm_campaign=footer_${post.slug}">See the Book</a>
-    </div>
-    <div class="post-promo-panel post-promo-newsletter">
-      <p class="eyebrow">Daily Lab Report</p>
-      <h2>Get the next pairing idea in your inbox</h2>
-      <p>One pairing that works and why, a board worth stealing, and new printables the day they land.</p>
-      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
-        <label class="sr-only" for="post-email">Email address</label>
-        <input id="post-email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <button class="button secondary" type="submit">Subscribe</button>
-      </form>
-    </div>
-  </section>
+  ${labNext(`footer_${post.slug}`)}
+  ${newsletterPanel("post-email", `blog_${post.slug}`)}
 </main>`
   });
 }
@@ -1785,6 +1985,9 @@ async function build() {
       boardBuilderPage({
         layout,
         escapeHtml,
+        bookBar,
+        labNext,
+        book: { ebookUrl: ebookHref("board_builder_results"), ebookPrice, paperbackUrl, paperbackPrice },
         newsletterUrl,
         itemCount: builder.stats.items,
         dataVersion: builder.version,

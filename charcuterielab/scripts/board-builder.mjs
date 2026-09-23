@@ -176,7 +176,7 @@ export function boardBuilderData(ingredients, { categoryArt }) {
   };
 }
 
-export function boardBuilderPage({ layout, escapeHtml, dataVersion, prepVersion, scriptVersion, styleVersion, newsletterUrl, itemCount }) {
+export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, dataVersion, prepVersion, scriptVersion, styleVersion, newsletterUrl, itemCount }) {
   const description =
     "Build your own charcuterie board one ingredient at a time. Get pairing ideas and advice as you go, then a free shopping list with prep and presentation steps for your guest count.";
   return layout({
@@ -195,7 +195,8 @@ export function boardBuilderPage({ layout, escapeHtml, dataVersion, prepVersion,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     description
   }).replaceAll("<", "\\u003c")}</script>`,
-    body: `<main class="bb-main" id="bb" data-src="/assets/board-builder-data.json?v=${dataVersion}" data-prep="/assets/board-builder-prep.json?v=${prepVersion}" data-newsletter="${escapeHtml(newsletterUrl)}">
+    body: `<main class="bb-main" id="bb" data-src="/assets/board-builder-data.json?v=${dataVersion}" data-prep="/assets/board-builder-prep.json?v=${prepVersion}" data-newsletter="${escapeHtml(newsletterUrl)}" data-ebook="${escapeHtml(book.ebookUrl)}" data-ebook-price="${escapeHtml(book.ebookPrice)}" data-paperback="${escapeHtml(book.paperbackUrl)}" data-paperback-price="${escapeHtml(book.paperbackPrice)}">
+  ${bookBar("board_builder_top", "Want 50 boards already planned?")}
   <section class="bb-intro">
     <div class="bb-wrap">
       <p class="bb-kicker">Board Builder</p>
@@ -210,6 +211,7 @@ export function boardBuilderPage({ layout, escapeHtml, dataVersion, prepVersion,
   </div>
   <div class="bb-bar" id="bb-bar" hidden></div>
   <dialog class="bb-picker" id="bb-picker" aria-labelledby="bb-picker-title"></dialog>
+  ${labNext("board_builder_next", { skip: ["builder"] })}
 </main>
 <script type="module" src="/assets/board-builder.js?v=${scriptVersion}"></script>`
   });

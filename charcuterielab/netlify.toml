@@ -210,6 +210,27 @@
   to = "/blog/wine-only/"
   status = 301
 
+# Common guesses that used to 404.
+[[redirects]]
+  from = "/shop"
+  to = "/#shop"
+  status = 301
+
+[[redirects]]
+  from = "/shop/"
+  to = "/#shop"
+  status = 301
+
+[[redirects]]
+  from = "/book"
+  to = "/ebook/"
+  status = 301
+
+[[redirects]]
+  from = "/book/"
+  to = "/ebook/"
+  status = 301
+
 [[headers]]
   for = "/assets/*"
   [headers.values]

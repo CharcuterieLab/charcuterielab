@@ -451,6 +451,26 @@ function shareUrl() {
   return `${base}?b=${encodeURIComponent(state.picks.join(","))}&g=${state.guests}&m=${state.mode}`;
 }
 
+// The book is the site's first product, so the finished shopping list offers
+// it before the newsletter: the reader has just planned one board, the book
+// has fifty. URLs and prices come from the page (set in build.mjs).
+function bookCard() {
+  const d = root.dataset;
+  if (!d.ebook || !d.paperback) return "";
+  return `<aside class="bb-book" aria-labelledby="bb-book-title">
+    <img class="bb-book-cover" src="/images/book-cover.jpg" alt="" width="96" height="124" loading="lazy" decoding="async">
+    <div class="bb-book-copy">
+      <p class="bb-news-kicker">The Charcuterie Lab book</p>
+      <h3 id="bb-book-title">Liked planning this one? Here are 50 more, already done.</h3>
+      <p>Every board comes with its shopping list, pairing logic, substitutions and build order.</p>
+      <div class="bb-book-actions">
+        <a class="bb-btn primary" href="${h(d.ebook)}" target="_blank" rel="noopener">Get the ebook · ${h(d.ebookPrice)}</a>
+        <a class="bb-btn" href="${h(d.paperback)}" target="_blank" rel="noopener">Paperback on Amazon · ${h(d.paperbackPrice)}</a>
+      </div>
+    </div>
+  </aside>`;
+}
+
 function shareSection() {
   const url = shareUrl();
   const text = `The charcuterie board I built for ${peopleText(state.guests)} on Charcuterie Lab`;
@@ -527,6 +547,7 @@ function resultsHtml() {
       <ul class="bb-whys">${whys.map((w) => `<li><strong>${h(w.a)} + ${h(w.b)}</strong><span>${h(w.text || "A pairing our ingredient pages recommend.")}</span></li>`).join("")}</ul>
     </section>` : ""}
 
+    ${bookCard()}
     ${newsCard("bottom")}
     ${shareSection()}
 
