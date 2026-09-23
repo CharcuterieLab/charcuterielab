@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
-import { BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1219,6 +1219,7 @@ ${head}
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
+        <a href="/shop/">Shop</a>
       </div>
     </nav>
   </header>
@@ -1239,7 +1240,7 @@ ${head}
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
-        <a href="/#shop">Shop</a>
+        <a href="/shop/">Shop</a>
         <a href="/#newsletter">Newsletter</a>
         <a href="/privacy/">Privacy</a>
       </div>
@@ -1703,6 +1704,88 @@ function articleCard(post) {
 </article>`;
 }
 
+// /shop/ : books first, then printables, then the free tools. Few words on
+// purpose: covers, titles, prices, buttons.
+function shopPage(products) {
+  const W = WORLD_BOOK;
+  const worldLive = W.status === "live" && W.paperbackUrl;
+  const books = [
+    {
+      cover: "/images/book-cover.jpg", w: 687, h: 1024, tag: "Bestseller", title: "50 Boards Built by Science",
+      line: "50 complete board blueprints for every occasion.",
+      buttons: [[`Ebook · ${ebookPrice}`, ebookHref("shop_book1"), true], [`Paperback · ${paperbackPrice}`, paperbackUrl, false]],
+      more: ["What's inside", ebookPageUrl]
+    },
+    {
+      cover: W.cover, w: 600, h: 776, tag: worldLive ? "New" : `Coming ${W.launch.replace(/, \d{4}$/, "")}`, title: "Around the World in 16 Boards",
+      line: "16 international boards, from Bavaria to Korea to Peru.",
+      buttons: worldLive
+        ? [...(W.ebookUrl ? [[`Ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}`, W.ebookUrl, true]] : []), [`Paperback${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}`, W.paperbackUrl, !W.ebookUrl]]
+        : [["Tell me on launch day", withTracking(newsletterUrl, "shop_world_notify"), true]],
+      more: ["See the 16 boards", "/around-the-world/"]
+    },
+    {
+      cover: "/images/books/plant-based-cover.webp", w: 600, h: 794, tag: "Plant-based", title: "15 Show-Stopping Plant-Based Boards",
+      line: "No meat, no dairy, same pairing science.",
+      buttons: [[`Kindle · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, true], [`Paperback · ${PLANT_BOOK.paperbackPrice}`, PLANT_BOOK.kindleUrl, false]],
+      more: ["Plant-based boards", "/boards/plant-based/"]
+    }
+  ];
+  const ext = (href) => /^https?:/.test(href) ? ' target="_blank" rel="noopener"' : "";
+  const bookCard = (b) => `<article class="shop-book-card">
+      <div class="shop-cover"><img src="${b.cover}" alt="${escapeHtml(b.title)} cover" width="${b.w}" height="${b.h}" loading="lazy" decoding="async"><span class="shop-tag">${escapeHtml(b.tag)}</span></div>
+      <h3>${escapeHtml(b.title)}</h3>
+      <p>${escapeHtml(b.line)}</p>
+      <div class="shop-buttons">${b.buttons.map(([label, href, primary]) => `<a class="button${primary ? " primary" : ""}" href="${escapeHtml(href)}"${ext(href)}>${escapeHtml(label)}</a>`).join("")}</div>
+      <a class="shop-more" href="${b.more[1]}">${escapeHtml(b.more[0])} &rarr;</a>
+    </article>`;
+  const printCard = (p) => {
+    const url = withTracking(p.url, "shop_printables");
+    return `<a class="shop-print" href="${url}" target="_blank" rel="noopener">
+      <img src="${p.image}" alt="" loading="lazy" decoding="async">
+      <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.price)}</span></span>
+    </a>`;
+  };
+  return layout({
+    title: "Shop: Charcuterie Books & Printables | Charcuterie Lab",
+    canonical: "/shop/",
+    image: "/images/book-cover.jpg",
+    description: `Charcuterie Lab books and printables: 50 Boards Built by Science (ebook ${ebookPrice}, paperback ${paperbackPrice}), the plant-based edition, Around the World in 16 Boards, and printable pairing guides.`,
+    head: `  <script type="application/ld+json">${jsonForScript({
+      "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab shop", url: absoluteUrl("/shop/"),
+      itemListElement: [...books.map((b) => b.title), ...products.map((p) => p.title)].map((name, i) => ({ "@type": "ListItem", position: i + 1, name }))
+    })}</script>`,
+    body: `<main class="shop-main">
+  <header class="shop-hero">
+    <p class="section-kicker">Shop</p>
+    <h1>Build better boards</h1>
+    <p>Books and printables from the Lab.</p>
+  </header>
+  <section class="shop-section" aria-labelledby="shop-books">
+    <h2 id="shop-books">Books</h2>
+    <div class="shop-books">
+    ${books.map(bookCard).join("\n    ")}
+    </div>
+  </section>
+  <section class="shop-section" aria-labelledby="shop-printables">
+    <h2 id="shop-printables">Printables</h2>
+    <p class="shop-sub">Instant PDF downloads.</p>
+    <div class="shop-prints">
+    ${products.map(printCard).join("\n    ")}
+    </div>
+  </section>
+  <section class="shop-section shop-free" aria-labelledby="shop-free">
+    <h2 id="shop-free">Free</h2>
+    <div class="shop-free-links">
+      <a href="/board-builder/"><strong>Board Builder</strong><span>Shopping list for your guest count</span></a>
+      <a href="/boards/"><strong>Board Library</strong><span>Plans for every occasion</span></a>
+      <a href="/ingredients/"><strong>Ingredients</strong><span>325 pairing guides</span></a>
+    </div>
+  </section>
+</main>`
+  });
+}
+
 function productCard(product) {
   const trackedUrl = withTracking(product.url, "home_shop");
   return `<article class="card product">
@@ -1882,6 +1965,7 @@ function sitemap(posts, ingredients = [], boards = []) {
     { loc: "/ebook/", priority: "0.9" },
     { loc: "/blog/", priority: "0.8" },
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
+    { loc: "/shop/", priority: "0.8" },
     { loc: "/privacy/", priority: "0.2" },
     ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
     ...(boards.some((b) => b.book === "world") ? [{ loc: "/around-the-world/", priority: "0.9" }] : []),
@@ -1953,6 +2037,8 @@ async function build() {
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
+  await mkdir(join(dist, "shop"), { recursive: true });
+  await writeFile(join(dist, "shop", "index.html"), shopPage(products));
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
 

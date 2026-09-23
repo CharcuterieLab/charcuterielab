@@ -26,10 +26,10 @@ export const WORLD_BOOK = {
   ebookPrice: "",
   paperbackUrl: "",
   paperbackPrice: "",
-  cover: "/images/books/around-the-world-cover.jpg"
+  cover: "/images/books/around-the-world-cover.svg"
 };
 
-const PLANT_BOOK = {
+export const PLANT_BOOK = {
   title: "Charcuterie Lab: 15 Show-Stopping Plant-Based Boards",
   kindleUrl: "https://www.amazon.com/dp/B0H32HT617",
   kindlePrice: "$9.99",

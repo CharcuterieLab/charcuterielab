@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 776" width="600" height="776">
+<rect width="600" height="776" fill="#14231a"/>
+<rect x="0" y="0" width="600" height="250" fill="#10200f"/>
+<rect x="0" y="248" width="600" height="6" fill="#d9711f"/>
+<text x="300" y="92" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="46" letter-spacing="3" fill="#f5ecd9">CHARCUTERIE <tspan fill="#d8b25a">LAB</tspan></text>
+<text x="300" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="30" fill="#f3a35a">AROUND THE WORLD</text>
+<text x="300" y="186" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="30" fill="#f3a35a">IN 16 BOARDS</text>
+<text x="300" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#e5dccb">International Boards with Step-by-Step Blueprints</text>
+<g font-family="Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="2" fill="#f3d58f" text-anchor="middle">
+<text x="150" y="330">GERMANY</text><text x="450" y="330">KOREA</text>
+<text x="300" y="390">TURKEY</text>
+<text x="150" y="450">THAILAND</text><text x="450" y="450">ARGENTINA</text>
+<text x="300" y="510">PORTUGAL</text>
+<text x="150" y="570">INDIA</text><text x="450" y="570">PERU</text>
+<text x="300" y="630">VIETNAM</text>
+</g>
+<circle cx="300" cy="450" r="150" fill="none" stroke="#d8b25a" stroke-width="2" stroke-dasharray="4 8" opacity=".6"/>
+<text x="300" y="728" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#b9c4a8">+ 7 MORE COUNTRIES</text>
+</svg>

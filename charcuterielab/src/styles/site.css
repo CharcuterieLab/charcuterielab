@@ -3746,3 +3746,48 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .bl-world{align-items:flex-start}
 .bl-world > div{max-width:62ch}
 .bl-wib{margin:0;padding-left:20px;line-height:1.8;font-size:1.02rem}
+
+/* =====================================================================
+   Shop (/shop/)
+   ===================================================================== */
+.shop-main{background:var(--paper);color:var(--ink);padding:0 0 72px}
+.shop-hero{width:min(1100px,calc(100% - 32px));margin:0 auto;padding:56px 0 8px;text-align:center}
+.shop-hero .section-kicker{color:var(--gold-dark);font-weight:700;letter-spacing:.12em}
+.shop-hero h1{margin:6px 0 8px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.05;color:var(--green-deep)}
+.shop-hero p{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;color:var(--muted)}
+.shop-section{width:min(1100px,calc(100% - 32px));margin:0 auto;padding-top:48px}
+.shop-section h2{margin:0 0 20px;font-family:Georgia,"Times New Roman",serif;font-size:1.7rem;color:var(--green-deep);display:flex;align-items:center;gap:16px}
+.shop-section h2::after{content:"";flex:1;height:1px;background:rgba(17,58,39,.16)}
+.shop-sub{margin:-12px 0 20px;color:var(--muted);font-size:14px}
+.shop-books{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.shop-book-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:26px 22px 22px;background:#fff;border:1px solid rgba(17,58,39,.12);border-radius:16px;box-shadow:0 12px 30px rgba(55,35,25,.07)}
+.shop-cover{position:relative;width:min(210px,70%);margin-bottom:18px}
+.shop-cover img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;display:block;border-radius:4px 8px 8px 4px;box-shadow:0 18px 34px rgba(0,0,0,.26),inset 3px 0 0 rgba(255,255,255,.15)}
+.shop-tag{position:absolute;top:10px;left:-10px;padding:4px 10px;border-radius:999px;background:var(--gold);color:var(--green-deep);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+.shop-book-card h3{margin:0 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:1.3rem;line-height:1.2;color:var(--green-deep)}
+.shop-book-card p{margin:0 0 16px;color:var(--muted);font-size:15px;line-height:1.5}
+.shop-buttons{display:flex;flex-direction:column;gap:8px;width:100%;margin-top:auto}
+.shop-buttons .button{width:100%}
+.shop-more{margin-top:12px;font-size:14px;font-weight:700;color:var(--green);text-decoration:none}
+.shop-more:hover{text-decoration:underline}
+.shop-prints{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.shop-print{display:flex;flex-direction:column;overflow:hidden;background:#fff;border:1px solid rgba(17,58,39,.12);border-radius:14px;color:inherit;text-decoration:none;box-shadow:0 10px 24px rgba(55,35,25,.06);transition:transform .15s ease,box-shadow .15s ease}
+.shop-print:hover{transform:translateY(-3px);box-shadow:0 16px 32px rgba(55,35,25,.13)}
+.shop-print img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:var(--cream)}
+.shop-print-body{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:12px 14px 14px}
+.shop-print strong{font-family:Georgia,"Times New Roman",serif;font-size:1.02rem;line-height:1.25;color:var(--green-deep)}
+.shop-price{flex:none;font-weight:700;color:var(--gold-dark)}
+.shop-free-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.shop-free-links a{display:flex;flex-direction:column;gap:4px;padding:18px 20px;border-radius:12px;background:var(--green);color:#fff9eb;text-decoration:none}
+.shop-free-links a:hover{background:var(--green-deep)}
+.shop-free-links strong{font-family:Georgia,"Times New Roman",serif;font-size:1.15rem}
+.shop-free-links span{font-size:14px;opacity:.85}
+@media (max-width:900px){.shop-books{grid-template-columns:1fr 1fr}.shop-prints{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.shop-books,.shop-free-links{grid-template-columns:1fr}.shop-hero{padding-top:36px}}
+.shop-cover{width:auto;height:280px;display:flex;justify-content:center}
+.shop-cover img{width:auto;height:100%;aspect-ratio:auto;object-fit:contain}
+.shop-tag{top:auto;bottom:-10px;left:50%;transform:translateX(-50%);white-space:nowrap}
+.shop-cover{margin-bottom:26px}
+.shop-print img{aspect-ratio:1/1}
+@media (max-width:600px){.shop-cover{height:240px}}
+@media (max-width:600px){.shop-print-body{flex-direction:column;gap:2px}}
