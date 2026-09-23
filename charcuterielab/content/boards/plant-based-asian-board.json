@@ -1,0 +1,83 @@
+{
+ "slug": "plant-based-asian-board",
+ "number": "PB-06",
+ "book": "plant",
+ "title": "The Asian-Inspired Plant Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-06.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Green Tea or Junmai",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "White miso dip (miso + sesame oil + lemon)",
+     "slug": null
+    },
+    {
+     "name": "Edamame hummus",
+     "slug": "hummus"
+    }
+   ]
+  },
+  {
+   "name": "Plant Proteins",
+   "items": [
+    {
+     "name": "Shelled edamame, salted",
+     "slug": null
+    },
+    {
+     "name": "Nori chips (store-bought)",
+     "slug": null
+    },
+    {
+     "name": "Wasabi peas",
+     "slug": "wasabi-peas"
+    }
+   ]
+  },
+  {
+   "name": "Condiments & Extras",
+   "items": [
+    {
+     "name": "Soy sauce or tamari (ramekin)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Persian cucumber, ribboned",
+     "slug": null
+    },
+    {
+     "name": "Watermelon radish, thinly sliced",
+     "slug": null
+    },
+    {
+     "name": "Fresh scallions, sliced",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

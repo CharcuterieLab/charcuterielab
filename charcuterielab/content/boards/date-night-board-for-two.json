@@ -1,0 +1,119 @@
+{
+ "slug": "date-night-board-for-two",
+ "number": "B1-18",
+ "book": "main",
+ "title": "Date Night Board for Two",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-18-date-night-board-for-two.webp",
+ "blog": [
+  "date-night-charcuterie-board",
+  "charcuterie-board-two"
+ ],
+ "serves": "2",
+ "guests": 2,
+ "board_size": "10\"–12\" board",
+ "prep_time": "15–20 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Chèvre (goat cheese log)",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Honeycomb (small piece) 1.5",
+     "slug": "honeycomb"
+    }
+   ]
+  },
+  {
+   "name": "Romantic Elements",
+   "items": [
+    {
+     "name": "Fresh Figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Dark Chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Medjool Dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Red Grapes (small cluster)",
+     "slug": "grapes"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Truffle Honey (or raw honey)",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Cornichons 5–6 pieces",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Bread & Crackers",
+   "items": [
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

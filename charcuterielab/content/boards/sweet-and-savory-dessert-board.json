@@ -1,0 +1,137 @@
+{
+ "slug": "sweet-and-savory-dessert-board",
+ "number": "B1-12",
+ "book": "main",
+ "title": "Sweet & Savory Dessert Board",
+ "category": "pairings-sweet",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-12-sweet-and-savory-dessert.webp",
+ "blog": [
+  "dessert-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$90",
+ "difficulty": "Beginner–Mid",
+ "groups": [
+  {
+   "name": "Dessert Cheeses",
+   "items": [
+    {
+     "name": "Aged Gouda (caramel notes)",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Gorgonzola Dolce (sweet blue)",
+     "slug": "gorgonzola"
+    },
+    {
+     "name": "Mascarpone",
+     "slug": "mascarpone"
+    }
+   ]
+  },
+  {
+   "name": "Savory Counterpoints",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Marcona Almonds (salted)",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Sea Salt Flakes (Maldon) pinch",
+     "slug": null
+    },
+    {
+     "name": "Fresh Strawberries (whole)",
+     "slug": null
+    },
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh Figs (halved, if in season) 4–6",
+     "slug": "figs"
+    },
+    {
+     "name": "Blackberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet Elements",
+   "items": [
+    {
+     "name": "Dark Chocolate (70%+)",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Milk Chocolate",
+     "slug": null
+    },
+    {
+     "name": "Honeycomb (raw)",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Medjool Dates (halved) 8–10 pieces",
+     "slug": "medjool-dates"
+    }
+   ]
+  },
+  {
+   "name": "Bases & Spreads",
+   "items": [
+    {
+     "name": "Dried Figs 6–8 pieces",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Chocolate Graham Crackers",
+     "slug": "graham-crackers"
+    },
+    {
+     "name": "Dried Apricots 8–10 pieces",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Honey Walnut Crackers",
+     "slug": "honey"
+    },
+    {
+     "name": "Candied Walnuts/Pecans",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Biscotti (chocolate or almond) 6–8 pie",
+     "slug": "biscotti"
+    },
+    {
+     "name": "Raspberry Preserves",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

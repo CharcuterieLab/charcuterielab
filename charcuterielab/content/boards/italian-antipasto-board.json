@@ -1,0 +1,132 @@
+{
+ "slug": "italian-antipasto-board",
+ "number": "B1-02",
+ "book": "main",
+ "title": "Italian Antipasto Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-02-italian-antipasto.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "20\"–26\" board nnnnn",
+ "prep_time": "30–35 min",
+ "cost": "$65–$110",
+ "difficulty": "Beginner–Mid",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Fresh Mozzarella",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Provolone",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Grissini",
+     "slug": "grissini"
+    },
+    {
+     "name": "Focaccia",
+     "slug": "focaccia"
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Mortadella",
+     "slug": "mortadella"
+    },
+    {
+     "name": "Coppa / Capicola",
+     "slug": "coppa"
+    },
+    {
+     "name": "Fresh basil",
+     "slug": "fresh-basil"
+    }
+   ]
+  },
+  {
+   "name": "Condiments, Oils & Garnish",
+   "items": [
+    {
+     "name": "Extra virgin olive oil",
+     "slug": "olive-oil"
+    },
+    {
+     "name": "Aged balsamic glaze 1 small",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Wildflower honey 1 small",
+     "slug": "honey"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Vegetables, Olives & Pickles",
+   "items": [
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marinated artichoke hearts 4–5 pieces",
+     "slug": null
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Pepperoncini 8–10 pieces",
+     "slug": "pepperoncini"
+    },
+    {
+     "name": "Sun-dried tomatoes in oil",
+     "slug": "sun-dried-tomatoes"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

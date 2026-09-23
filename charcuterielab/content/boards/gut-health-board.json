@@ -1,0 +1,83 @@
+{
+ "slug": "gut-health-board",
+ "number": "PB-08",
+ "book": "plant",
+ "title": "The Gut-Health Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-08.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Kombucha or Kefir",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Miso dip (white miso + sesame oil)",
+     "slug": null
+    },
+    {
+     "name": "Cashew kefir dip (store-bought or cultured)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Kimchi",
+     "slug": "kimchi"
+    },
+    {
+     "name": "Pickled cucumber slices (half-sour)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Plant Proteins",
+   "items": [
+    {
+     "name": "Smoked tempeh, sliced",
+     "slug": null
+    },
+    {
+     "name": "Sourdough bread, sliced",
+     "slug": "sourdough"
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Persian cucumber, sliced",
+     "slug": null
+    },
+    {
+     "name": "Fresh dill sprigs",
+     "slug": null
+    },
+    {
+     "name": "Microgreens",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

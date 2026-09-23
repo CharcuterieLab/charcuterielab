@@ -1,0 +1,78 @@
+{
+ "slug": "plant-based-date-night-board",
+ "number": "PB-12",
+ "book": "plant",
+ "title": "The Date Night Plant Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-12.webp",
+ "blog": [],
+ "serves": "2–4",
+ "guests": 4,
+ "board_size": "Champagne or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Aged cashew brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Macadamia truffle cream (or truffle cashew)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Champagne grapes (tiny clusters)",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Sliced pear, Bosc or Bartlett",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate arils",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Fresh edible flowers (nasturtium, viola)",
+     "slug": "edible-flowers"
+    },
+    {
+     "name": "Dried rose petals (edible)",
+     "slug": null
+    },
+    {
+     "name": "Fleur de sel",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Nuts & Seeds",
+   "items": [
+    {
+     "name": "Truffle honey or agave with truffle oil",
+     "slug": "truffle-honey"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

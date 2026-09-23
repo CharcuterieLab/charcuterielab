@@ -1,0 +1,117 @@
+{
+ "slug": "summer-backyard-board",
+ "number": "B1-07",
+ "book": "main",
+ "title": "Summer Backyard Board",
+ "category": "seasonal-holiday",
+ "wave": 4,
+ "status": "draft",
+ "image": "/images/50-boards-07-summer-backyard.webp",
+ "blog": [
+  "summer-charcuterie-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$45–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Fresh Mozzarella (ciliegine balls)",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Aged Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Havarti",
+     "slug": "havarti"
+    },
+    {
+     "name": "Cantaloupe (cubed)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Fruits",
+   "items": [
+    {
+     "name": "Strawberries (whole, halved)",
+     "slug": null
+    },
+    {
+     "name": "Red & Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Watermelon (cubed)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Blackberries",
+     "slug": null
+    },
+    {
+     "name": "Salami (Genoa)",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Peach slices (fresh) 1 peach",
+     "slug": null
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Extras",
+   "items": [
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Pita Chips 1 bag",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Honey (raw local)",
+     "slug": "honey"
+    },
+    {
+     "name": "Fresh Basil Leaves 8–10 leaves",
+     "slug": "fresh-basil"
+    },
+    {
+     "name": "Mint Sprigs",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto (optional garnish)",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

@@ -1,0 +1,78 @@
+{
+ "slug": "plant-based-french-bistro-board",
+ "number": "PB-04",
+ "book": "plant",
+ "title": "The French Bistro Plant-Based Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-04.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Sparkling Water or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Cashew brie (aged-style)",
+     "slug": "brie"
+    },
+    {
+     "name": "Cashew camembert or aged cashew",
+     "slug": "camembert"
+    },
+    {
+     "name": "Vegan walnut pâté",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Walnut halves",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Red grapes, whole cluster",
+     "slug": "grapes"
+    },
+    {
+     "name": "Radishes, sliced thin",
+     "slug": null
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Fresh chives, chopped",
+     "slug": null
+    },
+    {
+     "name": "Dried figs, halved",
+     "slug": "dried-figs"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

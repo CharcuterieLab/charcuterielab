@@ -1,0 +1,116 @@
+{
+ "slug": "st-patricks-day-charcuterie-board",
+ "number": "B1-23",
+ "book": "main",
+ "title": "St. Patrick's Day Board",
+ "category": "seasonal-holiday",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/50-boards-23-st-patricks-day.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$45–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Irish Cheddar",
+     "slug": null
+    },
+    {
+     "name": "Kerrygold Gouda",
+     "slug": null
+    },
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Green Apple slices",
+     "slug": null
+    },
+    {
+     "name": "Kiwi slices 2 kiwis",
+     "slug": "kiwi"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Corned Beef",
+     "slug": null
+    },
+    {
+     "name": "Irish Banger slices (cooked)",
+     "slug": null
+    },
+    {
+     "name": "Genoa Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pistachios",
+     "slug": "pistachios"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Irish Whiskey Jam",
+     "slug": null
+    },
+    {
+     "name": "Dill Pickles",
+     "slug": "dill-pickles"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Soda Bread slices",
+     "slug": null
+    },
+    {
+     "name": "Wheat Crackers",
+     "slug": null
+    },
+    {
+     "name": "Pumpernickel Rounds",
+     "slug": "pumpernickel"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

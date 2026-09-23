@@ -1,0 +1,119 @@
+{
+ "slug": "french-brasserie-board",
+ "number": "B1-04",
+ "book": "main",
+ "title": "French Brasserie Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-04-french-brasserie.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$60–$95",
+ "difficulty": "Beginner–Mid",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie de Meaux",
+     "slug": "brie"
+    },
+    {
+     "name": "Comté (18 mo aged)",
+     "slug": "comte"
+    },
+    {
+     "name": "Roquefort",
+     "slug": "roquefort"
+    },
+    {
+     "name": "Chèvre (fresh goat)",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "French Baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Levain/Sourdough",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Butter Crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Dijon Mustard (whole grain)",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Cornichons 12–15 pieces",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Honey (raw)",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Saucisson Sec",
+     "slug": "saucisson-sec"
+    },
+    {
+     "name": "Jambon de Paris (ham)",
+     "slug": null
+    },
+    {
+     "name": "Pâté de Campagne",
+     "slug": "pate-de-campagne"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Extras",
+   "items": [
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Walnuts (toasted)",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Unsalted Butter (softened)",
+     "slug": null
+    },
+    {
+     "name": "Fresh Thyme",
+     "slug": "fresh-thyme"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

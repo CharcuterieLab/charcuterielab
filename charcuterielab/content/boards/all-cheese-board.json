@@ -1,0 +1,114 @@
+{
+ "slug": "all-cheese-board",
+ "number": "B1-42",
+ "book": "main",
+ "title": "All-Cheese Connoisseur Board",
+ "category": "classic-budget-luxury",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-42-all-cheese-connoisseur.webp",
+ "blog": [
+  "best-cheese-charcuterie-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$60–$100",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Soft Cheeses",
+   "items": [
+    {
+     "name": "Triple-Crème Brie (Brillat-Savar",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Chèvre",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Rustic Baguette slices",
+     "slug": "baguette"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Plain Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Walnut Raisin Crisps",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Semi-Soft Cheeses",
+   "items": [
+    {
+     "name": "Taleggio (washed-rind)",
+     "slug": "taleggio"
+    },
+    {
+     "name": "Fontina Val d'Aosta",
+     "slug": "fontina"
+    },
+    {
+     "name": "Quince Paste (Membrillo)",
+     "slug": "membrillo"
+    }
+   ]
+  },
+  {
+   "name": "Accompaniments",
+   "items": [
+    {
+     "name": "Raw Honeycomb",
+     "slug": "honeycomb"
+    }
+   ]
+  },
+  {
+   "name": "Hard Cheeses",
+   "items": [
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Aged Manchego (12-month)",
+     "slug": "manchego"
+    },
+    {
+     "name": "Fresh & Dried Figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Champagne Grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Aged Balsamic (25-year)",
+     "slug": "balsamic-glaze"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

@@ -1,0 +1,120 @@
+{
+ "slug": "truffle-charcuterie-board",
+ "number": "B1-44",
+ "book": "main",
+ "title": "Truffle Luxury Board",
+ "category": "classic-budget-luxury",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-44-truffle-and-luxury.webp",
+ "blog": [],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$100–$180",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Comté (24-month)",
+     "slug": "comte"
+    },
+    {
+     "name": "Truffle Pecorino",
+     "slug": null
+    },
+    {
+     "name": "Époisses (washed-rind)",
+     "slug": "epoisses"
+    },
+    {
+     "name": "Triple-Crème Brie (Brillat-Savarin)",
+     "slug": "triple-creme"
+    }
+   ]
+  },
+  {
+   "name": "Luxury Accompaniments",
+   "items": [
+    {
+     "name": "Truffle Honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Aged Balsamic (25-year+)",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Edible Gold Leaf (optional)",
+     "slug": null
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Jamón Ibérico de Bellota (pata",
+     "slug": "jamon-iberico"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Dried Black Figs",
+     "slug": "figs"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Garnish",
+   "items": [
+    {
+     "name": "Black Truffle (shaved, fresh or jar",
+     "slug": null
+    },
+    {
+     "name": "Champagne Grapes or Muscat",
+     "slug": "champagne-grapes"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Microgreens small",
+     "slug": null
+    },
+    {
+     "name": "Pain de Campagne (country bread sli",
+     "slug": null
+    },
+    {
+     "name": "Water Crackers (plain)",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Truffle Flatbreads (if available)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

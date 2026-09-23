@@ -1,0 +1,86 @@
+{
+ "slug": "plant-based-summer-board",
+ "number": "PB-14",
+ "book": "plant",
+ "title": "The Summer Fresh Board",
+ "category": "plant-based",
+ "wave": 4,
+ "status": "draft",
+ "image": "/images/boards/pb-14.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Sparkling Mint",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Whipped avocado dip (avocado + lemon + garlic)",
+     "slug": null
+    },
+    {
+     "name": "Vegan tzatziki (coconut yogurt + cucumber + dill)",
+     "slug": "tzatziki"
+    },
+    {
+     "name": "Fresh herb white bean dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Cherry tomatoes, mixed colors",
+     "slug": null
+    },
+    {
+     "name": "Lemon wedges",
+     "slug": null
+    },
+    {
+     "name": "Basil oil (olive oil blended with basil)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Watermelon, cubed (1-inch)",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Radishes, halved",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint sprigs",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Fresh basil leaves",
+     "slug": "fresh-basil"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

@@ -1,0 +1,120 @@
+{
+ "slug": "midwest-charcuterie-board",
+ "number": "B1-35",
+ "book": "main",
+ "title": "Midwest Comfort Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-35-midwest-comfort.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Colby Jack",
+     "slug": null
+    },
+    {
+     "name": "Smoky Cheddar",
+     "slug": null
+    },
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Dill Pickles (sliced)",
+     "slug": "dill-pickles"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Apple slices (Fuji)",
+     "slug": "apples"
+    },
+    {
+     "name": "Grapes (red)",
+     "slug": "grapes"
+    },
+    {
+     "name": "Baby Carrots",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Summer Sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Beef Stick (snack-size)",
+     "slug": null
+    },
+    {
+     "name": "Bologna",
+     "slug": null
+    },
+    {
+     "name": "Wheat Thins (bonus cracker)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Yellow Mustard",
+     "slug": null
+    },
+    {
+     "name": "Horseradish Sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Beef Jerky bites",
+     "slug": null
+    },
+    {
+     "name": "Club Crackers",
+     "slug": null
+    },
+    {
+     "name": "Ritz Crackers",
+     "slug": null
+    },
+    {
+     "name": "White Bread mini-toasts",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

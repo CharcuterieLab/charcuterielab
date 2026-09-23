@@ -1,0 +1,99 @@
+{
+ "slug": "camping-charcuterie-board",
+ "number": "B1-27",
+ "book": "main",
+ "title": "Camping Outdoor Board",
+ "category": "occasions-parties",
+ "wave": 4,
+ "status": "draft",
+ "image": "/images/50-boards-27-camping-and-outdoor.webp",
+ "blog": [],
+ "serves": "4–8",
+ "guests": 8,
+ "board_size": "12\"–14\" board",
+ "prep_time": "10–15 min",
+ "cost": "$30–$50",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Pita Bread 2 pitas",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Triscuits (whole wheat) 1 box",
+     "slug": null
+    },
+    {
+     "name": "Rye Crispbread",
+     "slug": "rye-crispbread"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Summer Sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Smoked Beef Jerky",
+     "slug": null
+    },
+    {
+     "name": "Mixed Nuts (trail mix style)",
+     "slug": null
+    },
+    {
+     "name": "Dark Chocolate bar",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Hot Sauce (small bottle) to taste",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Extras",
+   "items": [
+    {
+     "name": "Dried Mango strips",
+     "slug": "dried-mango"
+    },
+    {
+     "name": "Dried Apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

@@ -1,0 +1,120 @@
+{
+ "slug": "seafood-charcuterie-board",
+ "number": "B1-34",
+ "book": "main",
+ "title": "Seafood & Smoke Board",
+ "category": "classic-budget-luxury",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-34-seafood-and-smoke.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Boursin (herbed)",
+     "slug": "boursin"
+    },
+    {
+     "name": "Cucumber rounds",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Capers (small jar)",
+     "slug": "capers"
+    },
+    {
+     "name": "Red Onion (thin sliced)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Seafood",
+   "items": [
+    {
+     "name": "Lemon wedges 1 lemon",
+     "slug": null
+    },
+    {
+     "name": "Smoked Salmon (lox-style)",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Smoked Trout Fillet",
+     "slug": "smoked-trout"
+    },
+    {
+     "name": "Shrimp Cocktail (cooked)",
+     "slug": null
+    },
+    {
+     "name": "Dill Cream Sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Dijon Mustard",
+     "slug": "dijon-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Fresh Dill sprigs small",
+     "slug": null
+    },
+    {
+     "name": "Everything Bagel Chips 1 bag",
+     "slug": "bagel-chips"
+    },
+    {
+     "name": "Everything Bagel Seasoning",
+     "slug": "everything-bagel-seasoning"
+    },
+    {
+     "name": "Water Crackers (plain)",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Pumpernickel Rounds",
+     "slug": "pumpernickel"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

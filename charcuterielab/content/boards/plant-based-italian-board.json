@@ -1,0 +1,78 @@
+{
+ "slug": "plant-based-italian-board",
+ "number": "PB-03",
+ "book": "plant",
+ "title": "The Italian Plant-Based Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-03.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "San Pellegrino",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Cashew mozzarella (fresh-style)",
+     "slug": null
+    },
+    {
+     "name": "Cashew parmesan (shredded)",
+     "slug": null
+    },
+    {
+     "name": "White bean bruschetta dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Sun-dried tomatoes in oil",
+     "slug": "sun-dried-tomatoes"
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Marinated artichoke hearts",
+     "slug": null
+    },
+    {
+     "name": "Roasted red peppers, sliced",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Fresh basil leaves",
+     "slug": "fresh-basil"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Flaky sea salt",
+     "slug": "flaky-sea-salt"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

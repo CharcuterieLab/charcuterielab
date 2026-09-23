@@ -1,0 +1,119 @@
+{
+ "slug": "tex-mex-charcuterie-board",
+ "number": "B1-38",
+ "book": "main",
+ "title": "Tex-Mex Fiesta Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-38-tex-mex-fiesta.webp",
+ "blog": [],
+ "serves": "8–14",
+ "guests": 14,
+ "board_size": "18\"–22\" board",
+ "prep_time": "20–25 min",
+ "cost": "$40–$65",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Pepper Jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Queso Fresco",
+     "slug": "queso-fresco"
+    },
+    {
+     "name": "Cotija",
+     "slug": "cotija"
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Mango slices",
+     "slug": "mango"
+    },
+    {
+     "name": "Jalapeños (fresh & pickled) ¼ cup each",
+     "slug": null
+    },
+    {
+     "name": "Jicama sticks",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Lime wedges 2 limes",
+     "slug": null
+    },
+    {
+     "name": "Chorizo (cooked, sliced)",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Carne Seca or Beef Jerky (Mex",
+     "slug": null
+    },
+    {
+     "name": "Guacamole",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Dippers",
+   "items": [
+    {
+     "name": "Salsa Roja",
+     "slug": null
+    },
+    {
+     "name": "Tortilla Chips",
+     "slug": "tortilla-chips"
+    },
+    {
+     "name": "Tajín Seasoning",
+     "slug": null
+    },
+    {
+     "name": "Corn Tortillas (mini, toasted)",
+     "slug": null
+    },
+    {
+     "name": "Cilantro (fresh) small",
+     "slug": null
+    },
+    {
+     "name": "Plantain Chips",
+     "slug": "plantain-chips"
+    },
+    {
+     "name": "Cotija for sprinkling",
+     "slug": "cotija"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

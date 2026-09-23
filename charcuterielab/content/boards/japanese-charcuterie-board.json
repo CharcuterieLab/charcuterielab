@@ -1,0 +1,124 @@
+{
+ "slug": "japanese-charcuterie-board",
+ "number": "B1-39",
+ "book": "main",
+ "title": "Japanese-Inspired Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-39-japanese-inspired.webp",
+ "blog": [],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Smoked Gouda (Japanese-style",
+     "slug": "smoked-gouda"
+    },
+    {
+     "name": "Brie (small wheel)",
+     "slug": "brie"
+    },
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Dried Mango",
+     "slug": "dried-mango"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Fuyu Persimmons (sliced) or Asian P",
+     "slug": null
+    },
+    {
+     "name": "Edamame (shelled)",
+     "slug": null
+    },
+    {
+     "name": "Cucumber (thin-sliced) ½ cucumber",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Proteins",
+   "items": [
+    {
+     "name": "Wagyu Beef Charcuterie or Bre",
+     "slug": null
+    },
+    {
+     "name": "Smoked Salmon or Ikura Roe",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Teriyaki Beef Jerky",
+     "slug": null
+    },
+    {
+     "name": "Wasabi Cream (diluted)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips & Extras",
+   "items": [
+    {
+     "name": "Miso Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Soy-Glazed Nuts (cashews or a",
+     "slug": "cashews"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Dippers",
+   "items": [
+    {
+     "name": "Pickled Ginger",
+     "slug": null
+    },
+    {
+     "name": "Rice Crackers (arare)",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Sesame Seeds (toasted)",
+     "slug": null
+    },
+    {
+     "name": "Sesame Flatbread",
+     "slug": null
+    },
+    {
+     "name": "Nori Sheets (cut to cracker si",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

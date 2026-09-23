@@ -1,0 +1,154 @@
+{
+ "number": "B1-01",
+ "book": "main",
+ "title": "The Classic American Starter Board",
+ "h1": "Classic American Charcuterie Board",
+ "seo_title": "Classic Charcuterie Board for Beginners: Shopping List & Plan for 8–12",
+ "description": "A first charcuterie board anyone can build: cheddar, salami, grapes, pickles and honey. What to buy, why it works and a 20-minute plan for 8–12 people.",
+ "category": "classic-budget-luxury",
+ "image": "/images/50-boards-01-classic-american-starter.webp",
+ "hook": "The board to make first. Supermarket ingredients, no hunting, and every bite still has something sweet, something sharp and something salty to push against.",
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$40–$65",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Colby Jack",
+     "slug": null
+    },
+    {
+     "name": "Whipped cream cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Baguette",
+     "slug": "baguette"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & veg",
+   "items": [
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Honeycrisp apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Dill pickle slices",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Three cheeses that cover the range most guests already like: a sharp one, a mild melty one, and a soft spread. Three salamis that are all salt and fat, which is exactly why the rest of the board is built to cut through them.",
+  "Apple and grapes bring the acid and cold sweetness that make cheddar taste brighter. Dill pickles and whole-grain mustard do the same job for the meats: vinegar slices through fat, so each bite of salami tastes clean instead of heavy. Honey goes next to the cheddar, where sweet against sharp is the whole point."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cheeses and meats out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the cheddar and apple; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses first; spoon in the mustard and honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fan the meats, then add fruit, crackers and almonds."
+  },
+  {
+   "when": "T–0",
+   "what": "Guests arrive. Refill crackers every 20 minutes."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this board serve?",
+   "a": "8 to 12 people as an appetizer, on a 16–20 inch board."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Slice the hard cheese and meats up to a day ahead and keep them wrapped. Cut the apple and put out the crackers just before serving so nothing goes soft or brown."
+  },
+  {
+   "q": "What's the easiest swap if someone can't have pork?",
+   "a": "Swap the three pork salamis for beef summer sausage and thin-sliced smoked turkey."
+  }
+ ],
+ "blog": [
+  "easy-charcuterie-board"
+ ],
+ "slug": "classic-american-starter-board",
+ "status": "published",
+ "wave": 1
+}

@@ -1,0 +1,120 @@
+{
+ "slug": "pacific-northwest-charcuterie-board",
+ "number": "B1-36",
+ "book": "main",
+ "title": "Pacific Northwest Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-36-pacific-northwest.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Tillamook Aged Cheddar (Oregon)",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Beecher's Flagship (Washington)",
+     "slug": null
+    },
+    {
+     "name": "Chèvre (Pacific NW goat)",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Marionberries or Blackberries",
+     "slug": null
+    },
+    {
+     "name": "Fresh Figs (or dried) 4 figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Apple slices (Honeycrisp)",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Seafood & Meats",
+   "items": [
+    {
+     "name": "Wild Smoked Salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Smoked Dungeness Crab Dip",
+     "slug": null
+    },
+    {
+     "name": "Sopressata or Salami",
+     "slug": null
+    },
+    {
+     "name": "Hazelnuts (roasted)",
+     "slug": "hazelnuts"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Hazelnut Honey (Oregon)",
+     "slug": "honey"
+    },
+    {
+     "name": "Capers",
+     "slug": "capers"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Pinot Noir Jam (Oregon)",
+     "slug": null
+    },
+    {
+     "name": "Raincoast Crisps (fig & olive)",
+     "slug": null
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Sourdough slices (local) 4–6 slices",
+     "slug": "sourdough"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

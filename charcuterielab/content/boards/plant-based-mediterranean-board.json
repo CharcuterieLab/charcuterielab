@@ -1,0 +1,87 @@
+{
+ "slug": "plant-based-mediterranean-board",
+ "number": "PB-02",
+ "book": "plant",
+ "title": "The Mediterranean Plant-Based Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-02.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Mint Lemonade or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Hummus, classic",
+     "slug": "hummus"
+    },
+    {
+     "name": "Baba ghanoush",
+     "slug": null
+    },
+    {
+     "name": "Vegan tzatziki (coconut yogurt)",
+     "slug": "tzatziki"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Za'atar olive oil (olive oil + za'atar)",
+     "slug": "olive-oil"
+    }
+   ]
+  },
+  {
+   "name": "Plant Proteins",
+   "items": [
+    {
+     "name": "Falafel bites (store-bought/frozen)",
+     "slug": null
+    },
+    {
+     "name": "Stuffed grape leaves (canned)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Cherry tomatoes, halved",
+     "slug": null
+    },
+    {
+     "name": "Persian cucumber, sliced",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint sprigs",
+     "slug": "fresh-mint"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

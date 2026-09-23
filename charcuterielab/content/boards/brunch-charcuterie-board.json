@@ -1,0 +1,132 @@
+{
+ "slug": "brunch-charcuterie-board",
+ "number": "B1-11",
+ "book": "main",
+ "title": "Breakfast & Brunch Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-11-breakfast-and-brunch.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Cream Cheese (plain + flavored) 8 oz",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Boursin (herbed)",
+     "slug": "boursin"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Fresh Strawberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet Elements",
+   "items": [
+    {
+     "name": "Honey (raw local)",
+     "slug": "honey"
+    },
+    {
+     "name": "Strawberry Jam / Preserves",
+     "slug": null
+    },
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Morning Proteins",
+   "items": [
+    {
+     "name": "Blueberries",
+     "slug": null
+    },
+    {
+     "name": "Smoked Salmon (Lox)",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Sliced Peaches or Melon",
+     "slug": "peaches"
+    },
+    {
+     "name": "Mini Salami/Turkey Salami",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Breads & Bases",
+   "items": [
+    {
+     "name": "Bagel chips or mini bagels 1 cup/6 mini",
+     "slug": "bagel-chips"
+    },
+    {
+     "name": "Crostini (baguette rounds) 12–15 pieces",
+     "slug": "crostini"
+    },
+    {
+     "name": "Croissants (mini)",
+     "slug": null
+    },
+    {
+     "name": "Graham Crackers (honey)",
+     "slug": "graham-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Savory Extras",
+   "items": [
+    {
+     "name": "Capers",
+     "slug": "capers"
+    },
+    {
+     "name": "Cucumber Slices ½ cucumber",
+     "slug": null
+    },
+    {
+     "name": "Everything Bagel Seasoning",
+     "slug": "everything-bagel-seasoning"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

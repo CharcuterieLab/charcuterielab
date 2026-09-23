@@ -1,0 +1,124 @@
+{
+ "slug": "greek-mediterranean-board",
+ "number": "B1-05",
+ "book": "main",
+ "title": "Greek Mediterranean Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-05-greek-mediterranean.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Feta (block in brine)",
+     "slug": "feta"
+    },
+    {
+     "name": "Halloumi",
+     "slug": "halloumi"
+    },
+    {
+     "name": "Kasseri",
+     "slug": null
+    },
+    {
+     "name": "Roasted Red Peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Vegetables & Olives",
+   "items": [
+    {
+     "name": "Kalamata Olives (pitted)",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Pepperoncini 8–10 pieces",
+     "slug": "pepperoncini"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Greek Salami (Loukanika)",
+     "slug": null
+    },
+    {
+     "name": "Cucumber Slices ½ cucumber",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto or Parma Ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & Crackers",
+   "items": [
+    {
+     "name": "Pita Bread",
+     "slug": null
+    },
+    {
+     "name": "Pita Chips 1 bag",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Tzatziki (store-bought or homema",
+     "slug": "tzatziki"
+    },
+    {
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Extra Virgin Olive Oil",
+     "slug": "olive-oil"
+    },
+    {
+     "name": "Dried Oregano & Kalamata drizzle pinch",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

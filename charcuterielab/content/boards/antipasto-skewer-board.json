@@ -1,0 +1,124 @@
+{
+ "slug": "antipasto-skewer-board",
+ "number": "B1-45",
+ "book": "main",
+ "title": "Antipasto Skewer Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-45-antipasto-skewer.webp",
+ "blog": [],
+ "serves": "10–16",
+ "guests": 16,
+ "board_size": "16\"–20\" board",
+ "prep_time": "30–35 min",
+ "cost": "$45–$75",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses For Skewers",
+   "items": [
+    {
+     "name": "Fresh Mozzarella",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Aged Provolone",
+     "slug": "aged-provolone"
+    },
+    {
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Rosemary Focaccia cubes 8–10 cubes",
+     "slug": "focaccia"
+    },
+    {
+     "name": "Breadsticks",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats For Skewers",
+   "items": [
+    {
+     "name": "Salami Genoa",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Sopressata",
+     "slug": null
+    },
+    {
+     "name": "Dried Oregano & Basil",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Extra Virgin Olive Oil + Herbs",
+     "slug": "olive-oil"
+    },
+    {
+     "name": "Balsamic Glaze",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Vegetables For Skewers",
+   "items": [
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Roasted Red Peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Marinated Artichoke Hearts (sm",
+     "slug": null
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Basil leaves 20 leaves",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

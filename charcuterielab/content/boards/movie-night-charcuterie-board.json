@@ -1,0 +1,108 @@
+{
+ "slug": "movie-night-charcuterie-board",
+ "number": "B1-28",
+ "book": "main",
+ "title": "Movie Night Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-28-movie-night.webp",
+ "blog": [],
+ "serves": "4–8",
+ "guests": 8,
+ "board_size": "14\"–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Sharp Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper Jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Baby Carrots",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Spicy Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Dips & Extras",
+   "items": [
+    {
+     "name": "Ranch Dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Snacks",
+   "items": [
+    {
+     "name": "Dark Chocolate chips",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Butter Crackers (Ritz-style)",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Gummy Bears (fun extra)",
+     "slug": null
+    },
+    {
+     "name": "Pretzels (mini)",
+     "slug": null
+    },
+    {
+     "name": "Popcorn (plain or lightly salted)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

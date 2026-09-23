@@ -1,0 +1,164 @@
+{
+ "number": "B1-08",
+ "book": "main",
+ "title": "Game Day Party Board",
+ "h1": "Game Day Charcuterie Board",
+ "seo_title": "Game Day Charcuterie Board for 12–16: Shopping List & Plan",
+ "description": "A game day charcuterie board built for grazing through four quarters: sharp cheddar, pepper jack, salami, pretzels and dips. What to buy for 12–16.",
+ "category": "occasions-parties",
+ "image": "/images/50-boards-08-game-day-party.webp",
+ "hook": "A board for people who are watching the TV, not the board. Everything is bold, sturdy and picks up with one hand.",
+ "serves": "12–16",
+ "guests": 16,
+ "board_size": "24–30\" board",
+ "prep_time": "30–35 min",
+ "cost": "$60–$95",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp cheddar, cubed",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Smoked Gouda",
+     "slug": "smoked-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Genoa or hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Beef jerky",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips & sauces",
+   "items": [
+    {
+     "name": "Queso or jalapeño cheese dip",
+     "slug": null
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Thick BBQ sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crunch",
+   "items": [
+    {
+     "name": "Pretzels",
+     "slug": null
+    },
+    {
+     "name": "Tortilla chips",
+     "slug": "tortilla-chips"
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Dill pickle slices",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Banana peppers",
+     "slug": "pepperoncini"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Spiced almonds",
+     "slug": "spiced-nut-mix"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Game day food gets eaten in bursts over three hours, so this board skips anything delicate. Cubed cheddar, pepper jack and smoked Gouda hold their shape at room temperature, and the meats (pepperoni, summer sausage, hard salami and jerky) are all firm, dry-cured or smoked, so none of them dry out or go limp.",
+  "Heat and smoke are the theme: pepper jack, smoked Gouda, BBQ sauce and spiced almonds. Pickles, banana peppers and grapes are there to cool and reset the mouth between handfuls, and mustard gives the salami a sharp edge."
+ ],
+ "timeline": [
+  {
+   "when": "T–35 min",
+   "what": "Take the cheeses and meats out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Cube the cheddar, slice the other cheeses, fill the dip bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and dips, then the meats."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fill the gaps with crackers, chips, pretzels and extras."
+  },
+  {
+   "when": "T–0",
+   "what": "Kickoff. Refill chips and crackers at half-time."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this board serve?",
+   "a": "12 to 16 people grazing through a game, on a 24–30 inch board."
+  },
+  {
+   "q": "How do I keep it from looking picked over by the third quarter?",
+   "a": "Keep half the crackers, chips and pretzels in the kitchen and refill at half-time. The cheeses and meats last; the crunch goes first."
+  },
+  {
+   "q": "Can I make it spicier?",
+   "a": "Add pickled jalapeños next to the pepper jack and a hot honey drizzle over the cheddar."
+  }
+ ],
+ "blog": [],
+ "slug": "game-day-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

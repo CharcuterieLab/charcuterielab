@@ -1,0 +1,182 @@
+{
+ "number": "B1-22",
+ "book": "main",
+ "title": "New Year's Eve Board",
+ "h1": "New Year's Eve Charcuterie Board",
+ "seo_title": "New Year's Eve Charcuterie Board for 10–15: Shopping List & Plan",
+ "description": "A New Year's Eve charcuterie board built for Champagne: brie, Gruyère, Stilton, prosciutto, honeycomb, truffle honey and Champagne grapes, for 10–15 people.",
+ "category": "seasonal-holiday",
+ "image": "/images/50-boards-22-new-years-eve.webp",
+ "hook": "A board built around the bottle. Everything on it is chosen to taste better with something sparkling, and to still look good at midnight.",
+ "serves": "10–15",
+ "guests": 15,
+ "board_size": "22–28\" board",
+ "prep_time": "35–45 min",
+ "cost": "$90–$145",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Brie (whole wheel)",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Stilton or Gorgonzola",
+     "slug": "stilton"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "White aged cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    }
+   ]
+  },
+  {
+   "name": "Gold & luxury",
+   "items": [
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Aged balsamic or glaze",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & extras",
+   "items": [
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Bread & crackers",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Sourdough baguette",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Seeded flatbreads",
+     "slug": "fruit-and-nut-crisps"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Sparkling wine is acidic and its bubbles scrub fat off the tongue, which makes rich, salty food taste lighter. That's why this board leans on brie, Gruyère and Manchego, and on salty cured meats: each sip resets the palate for the next bite.",
+  "The gold elements do double duty. Honeycomb and truffle honey look like the night, and their sweetness balances the Stilton's salt. Champagne grapes are the visual centrepiece, and dried apricots bring more gold to the board."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take all the cheeses out; put the Champagne on ice."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Build the whole board; keep the bottles cold."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Drizzle the truffle honey; light the candles."
+  },
+  {
+   "when": "T–0",
+   "what": "Countdown."
+  },
+  {
+   "when": "T+30 min",
+   "what": "Refill the crackers. The board becomes the midnight snack."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this New Year's Eve board serve?",
+   "a": "10 to 15 people through the evening, on a 22–28 inch board."
+  },
+  {
+   "q": "What cheese goes best with Champagne?",
+   "a": "Rich, salty cheeses: brie, aged Gruyère and Manchego. The bubbles and acidity cut straight through the fat."
+  },
+  {
+   "q": "Can I build it early in the evening?",
+   "a": "Yes. Build it about 30 minutes before guests arrive and hold back half the crackers to refill after midnight."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-new-years-eve"
+ ],
+ "slug": "new-years-eve-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

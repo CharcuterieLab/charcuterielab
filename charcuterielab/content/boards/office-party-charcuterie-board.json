@@ -1,0 +1,162 @@
+{
+ "number": "B1-30",
+ "book": "main",
+ "title": "Office Party Board",
+ "h1": "Office Party Charcuterie Board",
+ "seo_title": "Office Party Charcuterie Board for 15–25: Shopping List & Plan",
+ "description": "An office party charcuterie board for 15–25: crowd-pleasing, allergy-aware and zero fuss. Cheddar, turkey, salami, grapes, a gluten-free cracker option and no peanuts.",
+ "category": "occasions-parties",
+ "image": "/images/50-boards-30-office-party.webp",
+ "hook": "Twenty people, a conference table and nobody's dietary needs written down. This board plays it safe on purpose: familiar food, labeled options, no peanuts.",
+ "serves": "15–25",
+ "guests": 25,
+ "board_size": "22–26\" board or a table runner",
+ "prep_time": "25–30 min",
+ "cost": "$60–$100",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp cheddar, cubed",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Colby Jack",
+     "slug": null
+    },
+    {
+     "name": "Whipped cream cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Deli-thin turkey breast",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Round butter crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Gluten-free crackers",
+     "slug": null
+    },
+    {
+     "name": "Pretzel crisps",
+     "slug": "pretzel-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & veg",
+   "items": [
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Baby carrots",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Ranch dip",
+     "slug": null
+    },
+    {
+     "name": "Mixed nuts, no peanuts",
+     "slug": "spiced-nut-mix"
+    },
+    {
+     "name": "Dill pickles",
+     "slug": "dill-pickles"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "At work you don't know who eats what, so every choice is the one most people are happy with. Cubed cheddar and turkey are the safest picks for a mixed crowd, and pepperoni and salami cover the rest.",
+  "It's built to be allergy-aware. The gluten-free crackers sit on their own, away from the others, the nuts contain no peanuts, and the carrots, tomatoes and grapes give everyone something to eat. A bowl of ranch makes the vegetables disappear."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Set up the board or table surface."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Cube the cheese; open all the packages."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses, dips and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add meats and fruit; crackers go on last."
+  },
+  {
+   "when": "T–0",
+   "what": "The board is open."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much charcuterie do I need for 20 people at work?",
+   "a": "About 28 oz of cheese and 20 oz of meat for 15–25 people as a snack, plus crackers, fruit and vegetables."
+  },
+  {
+   "q": "How do I make an office board allergy-friendly?",
+   "a": "Keep gluten-free crackers on their own section of the board, leave peanuts off, and put a small label by anything with nuts."
+  },
+  {
+   "q": "Can I set it up the night before?",
+   "a": "Cube the cheese and slice the meat the night before and keep them sealed in the fridge. Assemble the board an hour before the party."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-large-group"
+ ],
+ "slug": "office-party-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

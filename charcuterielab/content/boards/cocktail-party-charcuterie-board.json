@@ -1,0 +1,162 @@
+{
+ "number": "B1-33",
+ "book": "main",
+ "title": "Cocktail Party Board",
+ "h1": "Cocktail Party Charcuterie Board",
+ "seo_title": "Cocktail Party Charcuterie Board for 12–20: Shopping List & Plan",
+ "description": "An elegant cocktail party board for 12–20: Gruyère, Manchego, triple-crème, Gorgonzola dolce, prosciutto, bresaola, Champagne grapes and dark chocolate.",
+ "category": "occasions-parties",
+ "image": "/images/50-boards-33-cocktail-party.webp",
+ "hook": "Small bites for people holding a drink in one hand. Every piece is one-bite sized, and every flavour is picked to stand up to spirits.",
+ "serves": "12–20",
+ "guests": 20,
+ "board_size": "18–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$65–$100",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Manchego, 6-month",
+     "slug": "manchego"
+    },
+    {
+     "name": "Triple-crème brie",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Gorgonzola dolce",
+     "slug": "gorgonzola"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Plain water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Small crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Seeded flatbreads",
+     "slug": "fruit-and-nut-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & briny",
+   "items": [
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Dark chocolate, 85%",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Cocktails are strong, so the food has to be too. Salty Manchego and nutty Gruyère stand up to whiskey and gin, the triple-crème softens a bitter drink, and Gorgonzola with truffle honey holds its own against anything stirred.",
+  "Everything is sized for one bite and one free hand: folded prosciutto, small crostini, olives without pits. Dark chocolate and dried apricots cover the sweet side for the dessert drinkers, and cornichons and Dijon keep the meats sharp."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take all the cheeses out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Drain the olives and cornichons; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the honey and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Drape the meats; add fruit and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Cocktail hour starts."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this cocktail party board serve?",
+   "a": "12 to 20 people over a two-hour cocktail party, on an 18–22 inch board."
+  },
+  {
+   "q": "What cheeses go with cocktails?",
+   "a": "Firm, salty cheeses like Manchego and Gruyère for spirit-forward drinks; a triple-crème for bitter ones like a Negroni."
+  },
+  {
+   "q": "How do I make everything one-bite?",
+   "a": "Cut the cheese into small triangles, fold the meats in quarters and use crostini instead of a whole baguette."
+  }
+ ],
+ "blog": [
+  "cocktail-party-board"
+ ],
+ "slug": "cocktail-party-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

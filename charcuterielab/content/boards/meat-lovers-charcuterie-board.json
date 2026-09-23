@@ -1,0 +1,125 @@
+{
+ "slug": "meat-lovers-charcuterie-board",
+ "number": "B1-43",
+ "book": "main",
+ "title": "Meat Lover's Carnivore Board",
+ "category": "classic-budget-luxury",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-43-meat-lovers-carnivore.webp",
+ "blog": [
+  "best-meats-charcuterie-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "The Six Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Bresaola (air-dried beef)",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Speck (smoked prosciutto)",
+     "slug": "speck"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Coppa (cured pork neck)",
+     "slug": "coppa"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Aged Balsamic or Balsamic Glaze",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Arugula (fresh)",
+     "slug": null
+    },
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged Parmesan",
+     "slug": null
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Carriers & Crackers",
+   "items": [
+    {
+     "name": "Dried Apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Water Crackers (plain)",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Breadsticks (plain)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

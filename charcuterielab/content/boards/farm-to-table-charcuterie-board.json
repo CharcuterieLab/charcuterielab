@@ -1,0 +1,116 @@
+{
+ "slug": "farm-to-table-charcuterie-board",
+ "number": "B1-48",
+ "book": "main",
+ "title": "Farm-to-Table Local Board",
+ "category": "classic-budget-luxury",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-48-farm-to-table-local.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16\"–20\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$95",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Local Cheeses",
+   "items": [
+    {
+     "name": "Local Farmstead Cheddar",
+     "slug": null
+    },
+    {
+     "name": "Artisan Chèvre (local goat)",
+     "slug": null
+    },
+    {
+     "name": "Local Blue or Washed-Rind",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Breads & Crackers",
+   "items": [
+    {
+     "name": "Artisan Sourdough (local bakery) 4–6",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Local Multigrain Crackers",
+     "slug": null
+    },
+    {
+     "name": "Rye Crispbread",
+     "slug": "rye-crispbread"
+    }
+   ]
+  },
+  {
+   "name": "Local Meats",
+   "items": [
+    {
+     "name": "Artisan Salami (local producer)",
+     "slug": null
+    },
+    {
+     "name": "Local Cured Ham or Prosciutto-St",
+     "slug": null
+    },
+    {
+     "name": "Edible Herbs (fresh, from garde",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Local Nuts (walnuts, pecans, ha",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Local Pickles or Ferments",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Local Produce",
+   "items": [
+    {
+     "name": "Local Mustard or Aioli",
+     "slug": null
+    },
+    {
+     "name": "Seasonal Fruit (whatever is peak)",
+     "slug": null
+    },
+    {
+     "name": "Seasonal Vegetables (radishes,",
+     "slug": null
+    },
+    {
+     "name": "Local Honey (raw, from the mar",
+     "slug": "honey"
+    },
+    {
+     "name": "Seasonal Jam (local producer)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

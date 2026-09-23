@@ -1,0 +1,142 @@
+{
+ "number": "B1-13",
+ "book": "main",
+ "title": "The $25 Budget Board",
+ "h1": "$25 Budget Charcuterie Board",
+ "seo_title": "$25 Charcuterie Board for 6–8: Budget Shopping List & Plan",
+ "description": "A charcuterie board for 6–8 people on $20–$25: store-brand cheddar, pepperoni, summer sausage, grapes and pantry extras, arranged to look like it cost three times more.",
+ "category": "classic-budget-luxury",
+ "image": "/images/50-boards-13-25-budget.webp",
+ "hook": "Twenty to twenty-five dollars, six to eight people, and a board that doesn't look cheap. The trick is where the money goes, and how the food is cut.",
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "12–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$20–$25",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp cheddar block",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Colby Jack block",
+     "slug": null
+    },
+    {
+     "name": "Whipped cream cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Butter crackers (store brand)",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Half a baguette",
+     "slug": "baguette"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & veg",
+   "items": [
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "One apple, sliced",
+     "slug": "apples"
+    },
+    {
+     "name": "Baby carrots",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "From the pantry",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Yellow or Dijon mustard",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Peanut butter",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Block cheese costs far less per ounce than pre-cut, and breaking it into rough shards makes it look hand-cut and expensive. Pepperoni and summer sausage give the most meat per dollar and keep for weeks, so nothing is wasted.",
+  "The pantry does the rest. A drizzle of honey over the cheddar and a small bowl of mustard cost almost nothing but make the board look planned. Apple and grapes give the sweet and sour contrast every good board needs, and baby carrots add the one bright colour."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cheeses out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Break the cheddar into shards; slice the apple."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; spoon out the mustard and honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add meats, crackers, fruit and carrots."
+  },
+  {
+   "when": "T–0",
+   "what": "Guests arrive."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you really make a charcuterie board for $25?",
+   "a": "Yes, for 6 to 8 people, by buying block cheese instead of pre-cut, using pepperoni and summer sausage, and taking honey and mustard from the pantry."
+  },
+  {
+   "q": "What makes a cheap board look expensive?",
+   "a": "Rough-cut cheese instead of neat cubes, meats folded instead of laid flat, and no empty space on the board."
+  },
+  {
+   "q": "Where does an extra $10 go furthest?",
+   "a": "A small wedge of aged Gouda or Manchego. One good cheese lifts the whole board."
+  }
+ ],
+ "blog": [
+  "budget-charcuterie-board"
+ ],
+ "slug": "25-dollar-budget-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

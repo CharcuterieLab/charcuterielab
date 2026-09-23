@@ -1,0 +1,139 @@
+{
+ "slug": "dessert-charcuterie-board",
+ "number": "B1-47",
+ "book": "main",
+ "title": "Sweet Dessert Charcuterie Board",
+ "category": "pairings-sweet",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-47-sweet-dessert-charcuterie.webp",
+ "blog": [
+  "dessert-board",
+  "charcuterie-board-chocolate"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "14\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$35–$60",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Chocolates",
+   "items": [
+    {
+     "name": "Dark Chocolate (70%)",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Milk Chocolate",
+     "slug": null
+    },
+    {
+     "name": "White Chocolate",
+     "slug": null
+    },
+    {
+     "name": "Shortbread Cookies",
+     "slug": "shortbread"
+    }
+   ]
+  },
+  {
+   "name": "Dippers & Vehicles",
+   "items": [
+    {
+     "name": "Graham Crackers",
+     "slug": "graham-crackers"
+    },
+    {
+     "name": "Pretzels (mini)",
+     "slug": null
+    },
+    {
+     "name": "Wafer Cookies",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet Dips & Spreads",
+   "items": [
+    {
+     "name": "Nutella or Chocolate Hazelnut S",
+     "slug": null
+    },
+    {
+     "name": "Caramel Sauce",
+     "slug": null
+    },
+    {
+     "name": "Strawberry Jam",
+     "slug": null
+    },
+    {
+     "name": "Peanut Butter (creamy)",
+     "slug": null
+    },
+    {
+     "name": "Chocolate Chips (mixed)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras & Garnish",
+   "items": [
+    {
+     "name": "Mini Marshmallows",
+     "slug": null
+    },
+    {
+     "name": "Candied Pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Sprinkles or Edible Glitter",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits",
+   "items": [
+    {
+     "name": "Fresh Mint small",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Strawberries (whole & halved)",
+     "slug": null
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "Banana slices 1 banana",
+     "slug": null
+    },
+    {
+     "name": "Dried Mango strips",
+     "slug": "dried-mango"
+    },
+    {
+     "name": "Dried Apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

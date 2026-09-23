@@ -1,0 +1,126 @@
+{
+ "slug": "baby-shower-charcuterie-board",
+ "number": "B1-31",
+ "book": "main",
+ "title": "Baby Shower Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-31-baby-shower.webp",
+ "blog": [
+  "charcuterie-board-baby-shower"
+ ],
+ "serves": "10–16",
+ "guests": 16,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Havarti",
+     "slug": "havarti"
+    },
+    {
+     "name": "Baby Gouda wheels",
+     "slug": null
+    },
+    {
+     "name": "Cream Cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Mild Cheddar Stars (cut)",
+     "slug": null
+    },
+    {
+     "name": "Champagne Grapes",
+     "slug": "champagne-grapes"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Sweets",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "White Chocolate chips",
+     "slug": null
+    },
+    {
+     "name": "Macarons (pastel)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Prosciutto Cotto (cooked)",
+     "slug": "prosciutto-cotto"
+    },
+    {
+     "name": "Turkey Breast",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Dips & Extras",
+   "items": [
+    {
+     "name": "Strawberry Jam",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Candied Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Butter Crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Edible Flowers",
+     "slug": "edible-flowers"
+    },
+    {
+     "name": "Rice Crackers (mild)",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Soft Breadsticks",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

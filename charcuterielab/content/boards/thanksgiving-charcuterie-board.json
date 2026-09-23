@@ -1,0 +1,186 @@
+{
+ "number": "B1-20",
+ "book": "main",
+ "title": "Thanksgiving Board",
+ "h1": "Thanksgiving Charcuterie Board",
+ "seo_title": "Thanksgiving Charcuterie Board for 10–15: Shopping List & Plan",
+ "description": "A Thanksgiving charcuterie board for 10–15: aged cheddar, Gouda, brie, apple butter, cranberry, pears and candied pecans. What to buy and a 45-minute plan.",
+ "category": "seasonal-holiday",
+ "image": "/images/50-boards-20-thanksgiving.webp",
+ "hook": "The board that keeps everyone out of the kitchen while the turkey finishes. It tastes like the meal that's coming without filling anyone up before it.",
+ "serves": "10–15",
+ "guests": 15,
+ "board_size": "22–28\" board",
+ "prep_time": "30–40 min",
+ "cost": "$70–$110",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Gorgonzola",
+     "slug": "gorgonzola"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    }
+   ]
+  },
+  {
+   "name": "Sweet",
+   "items": [
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Apple butter",
+     "slug": "apple-butter"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Cranberry preserves",
+     "slug": "cranberry-sauce"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    }
+   ]
+  },
+  {
+   "name": "Fresh fruit",
+   "items": [
+    {
+     "name": "Honeycrisp and Granny Smith apples",
+     "slug": "apples"
+    },
+    {
+     "name": "Bosc or Bartlett pears",
+     "slug": "pears"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    }
+   ]
+  },
+  {
+   "name": "Nuts & bread",
+   "items": [
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Toasted walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Sourdough baguette",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Seeded crackers",
+     "slug": "seeded-crackers"
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Rosemary sprigs",
+     "slug": "rosemary-sprigs"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Every cheese is paired with a Thanksgiving flavour sitting right next to it. Apple butter goes by the cheddar, cranberry by the brie, fig jam by the Gouda, and honeycomb by the Gorgonzola. Guests find the pairings without being told.",
+  "Two kinds of apple, sweet and tart, are fanned side by side so people can taste the difference against the cheddar. Pear and prosciutto go next to the brie, the most elegant bite on the board. Rosemary tucked through the gaps makes the whole thing smell like the kitchen."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take all the cheeses out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Slice the apples and pears; fill the jam and butter bowls."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Place the cheeses, each with its sweet partner."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Add meats, nuts, fruit and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Tuck in rosemary and scatter dried cranberries."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does a Thanksgiving charcuterie board serve?",
+   "a": "This one serves 10 to 15 people as a pre-dinner board, on a 22–28 inch board."
+  },
+  {
+   "q": "How do I keep it from spoiling appetites before dinner?",
+   "a": "Serve it 60 to 90 minutes before the meal and plan on 1 to 1.5 oz each of cheese and meat per person, not the usual 2–3 oz."
+  },
+  {
+   "q": "How do I stop the apples and pears going brown?",
+   "a": "Slice them last and toss the slices in a little lemon juice or lemon-lime soda."
+  }
+ ],
+ "blog": [
+  "thanksgiving-charcuterie-board"
+ ],
+ "slug": "thanksgiving-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

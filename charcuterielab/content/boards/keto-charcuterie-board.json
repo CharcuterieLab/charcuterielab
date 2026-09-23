@@ -1,0 +1,125 @@
+{
+ "slug": "keto-charcuterie-board",
+ "number": "B1-46",
+ "book": "main",
+ "title": "Low-Carb Keto Board",
+ "category": "dietary-kids",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-46-low-carb-keto.webp",
+ "blog": [
+  "keto-charcuterie-board"
+ ],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$45–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gouda (aged)",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Brie (small wheel)",
+     "slug": "brie"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Fruits",
+   "items": [
+    {
+     "name": "Blackberries",
+     "slug": null
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "Strawberry halves",
+     "slug": null
+    },
+    {
+     "name": "Herbed Cream Cheese (block)",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Guacamole (fresh)",
+     "slug": null
+    },
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Pepperoncini",
+     "slug": "pepperoncini"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Salami Genoa",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Keto Vehicles",
+   "items": [
+    {
+     "name": "Endive leaves (as scoops) 8–10 leaves",
+     "slug": null
+    },
+    {
+     "name": "Celery sticks 4–6 stalks",
+     "slug": null
+    },
+    {
+     "name": "Bacon Crisps (baked)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

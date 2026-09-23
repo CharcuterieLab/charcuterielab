@@ -1,0 +1,120 @@
+{
+ "slug": "scandinavian-charcuterie-board",
+ "number": "B1-41",
+ "book": "main",
+ "title": "Scandinavian Nordic Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-41-scandinavian-nordic.webp",
+ "blog": [],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–18\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$85",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Jarlsberg (Norwegian)",
+     "slug": "jarlsberg"
+    },
+    {
+     "name": "Danish Havarti",
+     "slug": "havarti"
+    },
+    {
+     "name": "Cucumber (sliced thin) ½ cucumber",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Lingonberry Jam",
+     "slug": null
+    },
+    {
+     "name": "Dill (fresh bunches)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Seafood & Meat",
+   "items": [
+    {
+     "name": "Radishes (sliced) 4 radishes",
+     "slug": null
+    },
+    {
+     "name": "Gravlax (cured salmon)",
+     "slug": "gravlax"
+    },
+    {
+     "name": "Smoked Herring or Rollmops",
+     "slug": null
+    },
+    {
+     "name": "Swedish Meatballs (cooked, r",
+     "slug": null
+    },
+    {
+     "name": "Crème Fraîche",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments & Extras",
+   "items": [
+    {
+     "name": "Gravlax Mustard Sauce (Swedi",
+     "slug": "gravlax"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Capers",
+     "slug": "capers"
+    },
+    {
+     "name": "Finn Crisps (rye)",
+     "slug": null
+    },
+    {
+     "name": "Pickled Beets",
+     "slug": "pickled-beets"
+    },
+    {
+     "name": "Wasa Crispbread",
+     "slug": null
+    },
+    {
+     "name": "Lingonberries",
+     "slug": null
+    },
+    {
+     "name": "Dark Rye Bread slices 4–6 slices",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

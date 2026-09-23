@@ -1,0 +1,156 @@
+{
+ "number": "PB-15",
+ "book": "plant",
+ "title": "The Holiday Entertaining Plant Board",
+ "h1": "Plant-Based Holiday Board",
+ "seo_title": "Vegan Holiday Charcuterie Board for 10–14: Shopping List & Plan",
+ "description": "A plant-based holiday board for 10–14: herbed cashew cheese, vegan brie, cranberry walnut spread, pears, figs, pomegranate and roasted chestnuts.",
+ "category": "plant-based",
+ "image": "/images/boards/pb-15.webp",
+ "hook": "A full holiday spread for a mixed crowd, with nothing on it that a vegan guest has to avoid.",
+ "serves": "10–14",
+ "guests": 14,
+ "board_size": "20–24\" board",
+ "prep_time": "30–35 min",
+ "cost": "$55–$75",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Nut cheeses & spreads",
+   "items": [
+    {
+     "name": "Herbed cashew cream cheese",
+     "slug": "vegan-cream-cheese"
+    },
+    {
+     "name": "Cranberry walnut spread",
+     "slug": null
+    },
+    {
+     "name": "Vegan brie with rosemary",
+     "slug": "vegan-brie"
+    }
+   ]
+  },
+  {
+   "name": "Fresh produce",
+   "items": [
+    {
+     "name": "Bosc or red Anjou pears",
+     "slug": "pears"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Rosemary sprigs",
+     "slug": "rosemary-sprigs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Rosemary crackers",
+     "slug": "rosemary-crackers"
+    },
+    {
+     "name": "Thin-sliced sourdough",
+     "slug": "sourdough"
+    }
+   ]
+  },
+  {
+   "name": "Nuts",
+   "items": [
+    {
+     "name": "Candied walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Spiced pecans",
+     "slug": "spiced-nut-mix"
+    },
+    {
+     "name": "Roasted chestnuts",
+     "slug": "roasted-chestnuts"
+    }
+   ]
+  },
+  {
+   "name": "Dried fruit & condiments",
+   "items": [
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Cranberry or fig jam",
+     "slug": "cranberry-sauce"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Pomegranate molasses",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Holiday boards are about abundance and colour, and both are easy without dairy or meat. Pomegranate, cranberries and red pears against green rosemary give the red-and-green look, and roasted chestnuts are the one ingredient everyone connects with December.",
+  "Three nut cheeses cover the textures a dairy board would: a spreadable herbed one, a sweet cranberry-walnut one, and a vegan brie. Whole-grain mustard and a thread of pomegranate molasses bring the acid that keeps the rich spreads from getting heavy."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the nut cheeses and let them rest."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the pears, halve the figs, fill the bowls."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Build the cracker structure; cluster the nuts."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Add the dried fruit and chestnuts."
+  },
+  {
+   "when": "T–0",
+   "what": "Rosemary, pomegranate and a drizzle of molasses."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this holiday board fully vegan?",
+   "a": "Yes. Every item is plant-based. Check labels on crackers and candied nuts, which can contain butter or honey."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "10 to 14 people as an appetizer, on a 20–24 inch board."
+  },
+  {
+   "q": "Can non-vegan guests share it?",
+   "a": "That's the point: it's a full holiday board that happens to be plant-based, so it works for the whole table."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-holiday-board",
+ "status": "published",
+ "wave": 1
+}

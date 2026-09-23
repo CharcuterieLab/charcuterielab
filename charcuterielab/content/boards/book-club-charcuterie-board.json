@@ -1,0 +1,111 @@
+{
+ "slug": "book-club-charcuterie-board",
+ "number": "B1-29",
+ "book": "main",
+ "title": "Book Club Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-29-book-club-afternoon.webp",
+ "blog": [],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$50–$80",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Triple-Crème Brie (Brillat-Savar",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Blue Cheese (Gorgonzola Dolce)",
+     "slug": null
+    },
+    {
+     "name": "Aged White Cheddar",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Champagne Grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Fresh Figs (halved) or Dried 4 figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Pear",
+     "slug": null
+    },
+    {
+     "name": "Truffle Honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Quince Paste (Membrillo)",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Speck (smoked prosciutto)",
+     "slug": "speck"
+    },
+    {
+     "name": "Dark Chocolate (85%)",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Walnut Rosemary Crisps",
+     "slug": null
+    },
+    {
+     "name": "Thin Baguette slices",
+     "slug": "baguette"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

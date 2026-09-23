@@ -1,0 +1,182 @@
+{
+ "slug": "50th-birthday-charcuterie-board",
+ "number": "B1-50",
+ "book": "main",
+ "title": "The Ultimate 50th Celebration Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-50-ultimate-50th-celebration.webp",
+ "blog": [
+  "charcuterie-board-birthday"
+ ],
+ "serves": null,
+ "guests": 8,
+ "board_size": "40\"–60\" table or multiple boards",
+ "prep_time": "60–90 min",
+ "cost": "$175–$300",
+ "difficulty": "Master",
+ "groups": [
+  {
+   "name": "The Best Cheeses",
+   "items": [
+    {
+     "name": "Parmigiano-Reggiano DOP",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Jamón Ibérico de Bellota",
+     "slug": "jamon-iberico"
+    },
+    {
+     "name": "Époisses (washed-rind)",
+     "slug": "epoisses"
+    },
+    {
+     "name": "Aged Comté (24-month)",
+     "slug": "comte"
+    },
+    {
+     "name": "Truffle Pecorino",
+     "slug": null
+    },
+    {
+     "name": "Brillat-Savarin Triple-Crème",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Manchego DO (12-month)",
+     "slug": "manchego"
+    },
+    {
+     "name": "Gorgonzola Naturale",
+     "slug": "gorgonzola"
+    }
+   ]
+  },
+  {
+   "name": "The Best Fruits & Accompaniments",
+   "items": [
+    {
+     "name": "Fresh Figs (in season)",
+     "slug": "figs"
+    },
+    {
+     "name": "Champagne Grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Quince Paste (Membrillo)",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Dried Apricots (Turkish)",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "The Best Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma 24-month",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola (premium)",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Speck Alto Adige",
+     "slug": "speck"
+    },
+    {
+     "name": "Coppa di Testa (or standard)",
+     "slug": "coppa"
+    },
+    {
+     "name": "Soppressata Calabrese",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Salami Genoa (artisan)",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "The Best Luxury Condiments",
+   "items": [
+    {
+     "name": "Truffle Honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Aged Balsamic (25-year)",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Dijon Mustard (Fallot)",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Edible Gold Leaf (optional)",
+     "slug": null
+    },
+    {
+     "name": "Micro-greens or Fresh Herbs s",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "The Best Breads & Crackers",
+   "items": [
+    {
+     "name": "Pain de Campagne",
+     "slug": null
+    },
+    {
+     "name": "Walnut Raisin Crisps",
+     "slug": null
+    },
+    {
+     "name": "Raincoast Crisps",
+     "slug": null
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

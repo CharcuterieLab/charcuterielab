@@ -1,0 +1,168 @@
+{
+ "slug": "wedding-shower-charcuterie-board",
+ "number": "B1-19",
+ "book": "main",
+ "title": "Wedding & Shower Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-19-wedding-and-shower.webp",
+ "blog": [],
+ "serves": "20–30",
+ "guests": 30,
+ "board_size": "36\"–48\" marble table",
+ "prep_time": "60–75 min",
+ "cost": "$175–$275",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Premium Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Cheddar (clothbound)",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Gorgonzola Dolce",
+     "slug": "gorgonzola"
+    },
+    {
+     "name": "Chèvre log (herb-rolled)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Salami Roses × 12 pre-rolled",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet Elements",
+   "items": [
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Fresh Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Red & White Grapes (clusters)",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh Figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Dried Apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Medjool Dates 12–15 pieces",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Pomegranate Seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Savory Elements",
+   "items": [
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Walnuts (candied)",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Rosemary sprigs × 8",
+     "slug": "rosemary-sprigs"
+    },
+    {
+     "name": "Cornichons 20–24",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Fig Jam (×2 ramekins)",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Breads & Crackers",
+   "items": [
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Sourdough Baguettes",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Seeded Flatbreads",
+     "slug": null
+    },
+    {
+     "name": "Grissini",
+     "slug": "grissini"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

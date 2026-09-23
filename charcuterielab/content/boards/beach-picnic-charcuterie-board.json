@@ -1,0 +1,101 @@
+{
+ "slug": "beach-picnic-charcuterie-board",
+ "number": "B1-25",
+ "book": "main",
+ "title": "Summer Beach Picnic Board",
+ "category": "seasonal-holiday",
+ "wave": 4,
+ "status": "draft",
+ "image": "/images/50-boards-25-summer-beach-picnic.webp",
+ "blog": [
+  "summer-charcuterie-board"
+ ],
+ "serves": "6–10",
+ "guests": 10,
+ "board_size": "14\"–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Sharp Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pretzel Crisps 1 bag",
+     "slug": "pretzel-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Triscuits (whole wheat) 1 box",
+     "slug": null
+    },
+    {
+     "name": "Pita Chips 1 bag",
+     "slug": "pita-chips"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Hard Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Dried Pineapple rings",
+     "slug": "pineapple"
+    },
+    {
+     "name": "Dried Cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Macadamia Nuts",
+     "slug": "macadamia-nuts"
+    },
+    {
+     "name": "Salsa",
+     "slug": null
+    },
+    {
+     "name": "Dark Chocolate pieces",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Extras",
+   "items": [
+    {
+     "name": "Mango slices (fresh or packaged)",
+     "slug": "mango"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

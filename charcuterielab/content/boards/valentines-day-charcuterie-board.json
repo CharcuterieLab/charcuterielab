@@ -1,0 +1,132 @@
+{
+ "slug": "valentines-day-charcuterie-board",
+ "number": "B1-21",
+ "book": "main",
+ "title": "Valentine's Day Board",
+ "category": "seasonal-holiday",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/50-boards-21-valentines-day.webp",
+ "blog": [],
+ "serves": "4–6",
+ "guests": 6,
+ "board_size": "14–18” board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Romantic Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gouda (caramel notes)",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Chèvre",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Red Grapes (small cluster)",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Red & Pink Palette",
+   "items": [
+    {
+     "name": "Strawberries (whole with stems)",
+     "slug": null
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate Seeds",
+     "slug": "pomegranate"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Dried Cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Maraschino Cherries (optional garn",
+     "slug": "cherries"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Red Rose Petals (edible, organic) 6–8",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Chocolate Elements",
+   "items": [
+    {
+     "name": "Dark Chocolate (70%+)",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Dark Choc-Covered Strawberries × 4",
+     "slug": null
+    },
+    {
+     "name": "Chocolate Truffles × 4 4 pieces",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments & Bases",
+   "items": [
+    {
+     "name": "Truffle Honey or Fig Jam",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Raspberry Jam",
+     "slug": null
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Chocolate Graham Crackers",
+     "slug": "graham-crackers"
+    },
+    {
+     "name": "Crostini (6–8 pieces) 6–8",
+     "slug": "crostini"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

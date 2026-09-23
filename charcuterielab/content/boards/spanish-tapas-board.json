@@ -1,0 +1,124 @@
+{
+ "slug": "spanish-tapas-board",
+ "number": "B1-03",
+ "book": "main",
+ "title": "Spanish Tapas Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-03-spanish-tapas.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$90",
+ "difficulty": "Beginner–Mid",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Manchego (aged 6 mo)",
+     "slug": "manchego"
+    },
+    {
+     "name": "Mahón",
+     "slug": "mahon"
+    },
+    {
+     "name": "Ibérico Cheese",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread & Crackers",
+   "items": [
+    {
+     "name": "Pan con Tomate (toasted",
+     "slug": null
+    },
+    {
+     "name": "Picos (Spanish breadsticks)",
+     "slug": null
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Serrano Ham",
+     "slug": null
+    },
+    {
+     "name": "Spanish Chorizo (cured)",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Lomo (cured pork loin)",
+     "slug": "lomo"
+    },
+    {
+     "name": "Fuet",
+     "slug": "fuet"
+    }
+   ]
+  },
+  {
+   "name": "Olives & Vegetables",
+   "items": [
+    {
+     "name": "Manzanilla Olives (stuffed)",
+     "slug": "manzanilla-olives"
+    },
+    {
+     "name": "Piquillo Peppers",
+     "slug": "piquillo-peppers"
+    },
+    {
+     "name": "Marcona Almonds (salted)",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Roasted Red Peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Quince Paste (Membrillo) 3–4 oz",
+     "slug": null
+    },
+    {
+     "name": "Extra Virgin Olive Oil 2 tbsp drizzle",
+     "slug": "olive-oil"
+    },
+    {
+     "name": "Smoked Paprika (garnish) pinch",
+     "slug": null
+    },
+    {
+     "name": "Grapes (red, seedless)",
+     "slug": "grapes"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

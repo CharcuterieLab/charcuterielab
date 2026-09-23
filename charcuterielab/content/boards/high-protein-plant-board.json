@@ -1,0 +1,87 @@
+{
+ "slug": "high-protein-plant-board",
+ "number": "PB-09",
+ "book": "plant",
+ "title": "The High-Protein Plant Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-09.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Cold-Brew Coffee or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Plant Proteins",
+   "items": [
+    {
+     "name": "Shelled edamame, salted",
+     "slug": null
+    },
+    {
+     "name": "Smoked tempeh, sliced",
+     "slug": null
+    },
+    {
+     "name": "Lupini beans (jarred)",
+     "slug": null
+    },
+    {
+     "name": "Roasted chickpeas, spiced",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Pumpkin seeds (pepitas)",
+     "slug": "pumpkin-seeds"
+    },
+    {
+     "name": "Tahini drizzle",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Chickpea hummus, classic",
+     "slug": "hummus"
+    },
+    {
+     "name": "High-protein edamame dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Celery sticks",
+     "slug": null
+    },
+    {
+     "name": "Bell pepper strips (mixed colors)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

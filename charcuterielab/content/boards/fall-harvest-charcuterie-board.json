@@ -1,0 +1,158 @@
+{
+ "number": "B1-26",
+ "book": "main",
+ "title": "Fall Harvest Board",
+ "h1": "Fall Harvest Charcuterie Board",
+ "seo_title": "Fall Charcuterie Board for 8–12: Shopping List & Plan",
+ "description": "A fall harvest charcuterie board for 8–12: aged Gouda, Manchego, brie, prosciutto, apples, pears, pumpkin butter and candied pecans, on a $50–$75 budget.",
+ "category": "seasonal-holiday",
+ "image": "/images/50-boards-26-fall-harvest.webp",
+ "hook": "Warm, rustic and easy: the board for every weekend from September to Thanksgiving, built from what the store has on display in the fall.",
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "16–20\" board",
+ "prep_time": "25–30 min",
+ "cost": "$50–$75",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Small brie wheel",
+     "slug": "brie"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Thin smoked turkey",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Multigrain crackers",
+     "slug": "whole-wheat-crackers"
+    },
+    {
+     "name": "Rosemary crisps",
+     "slug": "rosemary-crackers"
+    },
+    {
+     "name": "Walnut bread",
+     "slug": "walnut-raisin-bread"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Honeycrisp apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Pear",
+     "slug": "pears"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Pumpkin butter",
+     "slug": null
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Raw honey",
+     "slug": "honey"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Aged Gouda is the anchor: its butterscotch sweetness is the flavour of fall in a cheese. Manchego brings a nutty, firmer bite, and a small brie gives the one soft, creamy option.",
+  "Apples and pears are at their best in autumn, and their acid cuts the fat of the cheeses and prosciutto. Pumpkin butter and fig jam give two different sweet notes, and candied pecans echo the Gouda's caramel with crunch. It's a beginner board: nothing needs cooking."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Take the cheeses out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the apple and pear; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; add the jams."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fan the meats; place crackers and fruit."
+  },
+  {
+   "when": "T–0",
+   "what": "Finish with the nuts. Guests arrive."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this fall board serve?",
+   "a": "8 to 12 people as an appetizer, on a 16–20 inch board."
+  },
+  {
+   "q": "What cheeses are best for a fall board?",
+   "a": "Aged Gouda for caramel sweetness, Manchego for nuttiness, and a small brie for something soft."
+  },
+  {
+   "q": "What if I can't find pumpkin butter?",
+   "a": "Use apple butter. It does the same job next to the cheese."
+  }
+ ],
+ "blog": [
+  "fall-charcuterie-board"
+ ],
+ "slug": "fall-harvest-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

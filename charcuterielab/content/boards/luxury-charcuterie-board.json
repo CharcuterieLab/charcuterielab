@@ -1,0 +1,182 @@
+{
+ "number": "B1-14",
+ "book": "main",
+ "title": "The Luxury Splurge Board",
+ "h1": "Luxury Charcuterie Board",
+ "seo_title": "Luxury Charcuterie Board: Shopping List & Plan for 8–12",
+ "description": "The no-compromise charcuterie board for 8–12: Parmigiano-Reggiano, Époisses, Humboldt Fog, Stilton, jamón ibérico, truffle honey and honeycomb.",
+ "category": "classic-budget-luxury",
+ "image": "/images/50-boards-14-luxury-splurge.webp",
+ "hook": "The board for the night that deserves it. Every ingredient is the best of its kind, and the plan makes sure each one gets tasted properly.",
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "24–30\" marble or slate",
+ "prep_time": "40–50 min",
+ "cost": "$150–$250",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Parmigiano-Reggiano, 24-month",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Époisses",
+     "slug": "epoisses"
+    },
+    {
+     "name": "Humboldt Fog",
+     "slug": "humboldt-fog"
+    },
+    {
+     "name": "Stilton",
+     "slug": "stilton"
+    },
+    {
+     "name": "Aged Gouda, 18-month",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Jamón ibérico de bellota",
+     "slug": "jamon-iberico"
+    },
+    {
+     "name": "Prosciutto di Parma, 24-month",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "'Nduja",
+     "slug": "nduja"
+    },
+    {
+     "name": "Duck prosciutto",
+     "slug": "duck-prosciutto"
+    }
+   ]
+  },
+  {
+   "name": "Accompaniments",
+   "items": [
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Aged balsamic",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Quince paste",
+     "slug": "membrillo"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    }
+   ]
+  },
+  {
+   "name": "Breads",
+   "items": [
+    {
+     "name": "Bakery sourdough",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Seeded rye crispbread",
+     "slug": "rye-crispbread"
+    },
+    {
+     "name": "Grissini",
+     "slug": "grissini"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Five cheeses, five styles: a hard grana, a washed rind, an ash-lined goat, a blue and an aged Gouda. Each one shows a different thing aging can do, so the board works as a tasting from mild to strong.",
+  "The accompaniments are matched, not scattered. Truffle honey goes on the Parmigiano, quince paste beside the aged Gouda, honeycomb next to the Stilton. Jamón ibérico needs nothing at all: serve it at room temperature so its fat turns glossy."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take every cheese out. Room temperature is not optional here."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Set out the marble, slate or wooden board."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Place the cheeses, then lay the jamón on its own."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Add the accompaniments; truffle honey goes on last."
+  },
+  {
+   "when": "T–0",
+   "what": "A drop of aged balsamic on the Parmigiano; guests arrive."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this board serve?",
+   "a": "8 to 12 people as an appetizer, on a 24–30 inch marble or slate board."
+  },
+  {
+   "q": "Which luxury items matter most?",
+   "a": "Jamón ibérico and a properly aged Parmigiano-Reggiano. If you cut one thing for budget, cut the duck prosciutto."
+  },
+  {
+   "q": "Why take the cheese out an hour ahead?",
+   "a": "Cold mutes aroma and makes soft cheeses firm. Époisses and Humboldt Fog need the full hour to become spoonable."
+  }
+ ],
+ "blog": [
+  "expensive-board"
+ ],
+ "slug": "luxury-charcuterie-board",
+ "status": "published",
+ "wave": 1
+}

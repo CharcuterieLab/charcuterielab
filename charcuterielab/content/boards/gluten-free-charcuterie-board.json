@@ -1,0 +1,140 @@
+{
+ "slug": "gluten-free-charcuterie-board",
+ "number": "B1-17",
+ "book": "main",
+ "title": "Gluten-Free Board",
+ "category": "dietary-kids",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-17-gluten-free.webp",
+ "blog": [],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Potato Chips (plain, GF)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Gluten-Free Crackers & Bases",
+   "items": [
+    {
+     "name": "GF Rice Crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "GF Seed Crackers (Jilz or similar) 1 pack",
+     "slug": null
+    },
+    {
+     "name": "Corn Tortilla Chips (GF)",
+     "slug": "tortilla-chips"
+    },
+    {
+     "name": "Mary's Gone Crackers (GF)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma (GF certified) 4–5 oz",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni (GF verified)",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    },
+    {
+     "name": "Cucumber slices ½ cucumber",
+     "slug": null
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Vegetables",
+   "items": [
+    {
+     "name": "Red & Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Honey (raw)",
+     "slug": "honey"
+    },
+    {
+     "name": "Fig Jam (check label)",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Whole Grain Mustard (GF)",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Cornichons (check label) 10–12",
+     "slug": "cornichons"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

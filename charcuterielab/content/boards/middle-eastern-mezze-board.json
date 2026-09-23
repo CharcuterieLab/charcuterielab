@@ -1,0 +1,119 @@
+{
+ "slug": "middle-eastern-mezze-board",
+ "number": "B1-40",
+ "book": "main",
+ "title": "Middle Eastern Mezze Board",
+ "category": "around-the-world",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-40-middle-eastern-mezze.webp",
+ "blog": [],
+ "serves": "8–14",
+ "guests": 14,
+ "board_size": "18\"–22\" board",
+ "prep_time": "20–25 min",
+ "cost": "$40–$65",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Halloumi",
+     "slug": "halloumi"
+    },
+    {
+     "name": "Feta",
+     "slug": "feta"
+    },
+    {
+     "name": "Tzatziki",
+     "slug": "tzatziki"
+    }
+   ]
+  },
+  {
+   "name": "Dips & Spreads",
+   "items": [
+    {
+     "name": "Hummus (original)",
+     "slug": "hummus"
+    },
+    {
+     "name": "Baba Ganoush",
+     "slug": "baba-ganoush"
+    }
+   ]
+  },
+  {
+   "name": "Proteins",
+   "items": [
+    {
+     "name": "Muhammara (red pepper walnut)",
+     "slug": "muhammara"
+    },
+    {
+     "name": "Spiced Lamb Meatballs (cook",
+     "slug": null
+    },
+    {
+     "name": "Merguez Sausage (cooked, slic",
+     "slug": null
+    },
+    {
+     "name": "Kalamata Olives",
+     "slug": "kalamata-olives"
+    }
+   ]
+  },
+  {
+   "name": "Dippers",
+   "items": [
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Pita Bread",
+     "slug": null
+    },
+    {
+     "name": "Roasted Red Peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Pita Chips 1 bag",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Medjool Dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Cucumber rounds 1 cucumber",
+     "slug": null
+    },
+    {
+     "name": "Za'atar Seasoning",
+     "slug": "za-atar"
+    },
+    {
+     "name": "Pomegranate Arils",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Pine Nuts (toasted)",
+     "slug": "pine-nuts"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

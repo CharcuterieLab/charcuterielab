@@ -1,0 +1,73 @@
+{
+ "slug": "plant-based-starter-board",
+ "number": "PB-01",
+ "book": "plant",
+ "title": "The Classic Plant-Based Starter Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-01.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Sparkling Water w/",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Cashew brie (store-bought)",
+     "slug": "brie"
+    },
+    {
+     "name": "Classic hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Almond ricotta",
+     "slug": "almond-ricotta"
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "English cucumber, sliced",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Marinated mixed olives",
+     "slug": null
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

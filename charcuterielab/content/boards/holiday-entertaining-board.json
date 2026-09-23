@@ -1,0 +1,183 @@
+{
+ "number": "B1-06",
+ "book": "main",
+ "title": "Holiday Entertaining Board",
+ "h1": "Holiday Charcuterie Board",
+ "seo_title": "Holiday Charcuterie Board for 12–16: Shopping List & Plan",
+ "description": "A red-and-green holiday charcuterie board for 12–16: five cheeses, four cured meats, honeycomb, figs and pomegranate. What to buy and how to plan it.",
+ "category": "seasonal-holiday",
+ "image": "/images/50-boards-06-holiday-entertaining.webp",
+ "hook": "The big December board: five cheeses, four meats and every red-and-green ingredient that makes a table look like the holidays without a single ornament.",
+ "serves": "12–16",
+ "guests": 16,
+ "board_size": "24–30\" board",
+ "prep_time": "35–45 min",
+ "cost": "$85–$140",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Aged cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Brie (whole wheel)",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Gorgonzola dolce",
+     "slug": "gorgonzola"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Sweet",
+   "items": [
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    }
+   ]
+  },
+  {
+   "name": "Savory",
+   "items": [
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Rosemary sprigs",
+     "slug": "rosemary-sprigs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Sourdough baguette",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Seeded flatbread",
+     "slug": "fruit-and-nut-crisps"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Five cheeses, each a different texture: crumbly aged cheddar, soft brie, crystalline Gouda, creamy blue and firm sheep's-milk Manchego. With that spread, no two bites on the board taste the same, which matters when people graze for two hours.",
+  "The colour does the decorating. Pomegranate, cranberries and red meats against bright green Castelvetrano olives and rosemary give you red and green without anything artificial. The honeycomb sits beside the Gorgonzola, and walnuts go next to it too: sweet and bitter-nutty are the two things blue cheese needs."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take all five cheeses out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Fill the small bowls: fig jam, olives, cornichons."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Place the cheeses and the honeycomb."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fold in the meats; add fruit, nuts and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Finish with rosemary and pomegranate seeds."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many people does this board serve?",
+   "a": "12 to 16 people as an appetizer, on a 24–30 inch board."
+  },
+  {
+   "q": "How far ahead can I build it?",
+   "a": "Assemble up to two hours ahead, cover with plastic wrap and keep it cool. Add the crackers and pomegranate seeds at the last minute."
+  },
+  {
+   "q": "What's the most expensive item, and what can I swap?",
+   "a": "Honeycomb and Bresaola cost the most. Swap honeycomb for a small pot of honey and Bresaola for a second salami."
+  }
+ ],
+ "blog": [
+  "holiday-board",
+  "christmas-charcuterie-board"
+ ],
+ "slug": "holiday-entertaining-board",
+ "status": "published",
+ "wave": 1
+}

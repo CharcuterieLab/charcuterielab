@@ -1,0 +1,73 @@
+{
+ "slug": "plant-based-brunch-board",
+ "number": "PB-10",
+ "book": "plant",
+ "title": "The Breakfast & Brunch Plant Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-10.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Cold Brew Coffee or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Almond butter",
+     "slug": null
+    },
+    {
+     "name": "Vegan cream cheese (cashew)",
+     "slug": "vegan-cream-cheese"
+    },
+    {
+     "name": "Vegan lemon curd",
+     "slug": "lemon-curd"
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Sliced avocado (2 avocados)",
+     "slug": null
+    },
+    {
+     "name": "Fresh strawberries, halved",
+     "slug": null
+    },
+    {
+     "name": "Blueberries",
+     "slug": null
+    },
+    {
+     "name": "Banana, sliced in coins",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint sprigs",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Cinnamon (for dusting)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

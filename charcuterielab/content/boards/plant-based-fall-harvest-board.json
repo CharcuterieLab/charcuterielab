@@ -1,0 +1,148 @@
+{
+ "number": "PB-13",
+ "book": "plant",
+ "title": "The Fall Harvest Plant Board",
+ "h1": "Plant-Based Fall Harvest Board",
+ "seo_title": "Vegan Fall Charcuterie Board for 6–8: Shopping List & Plan",
+ "description": "A plant-based fall harvest board for 6–8: aged cashew cheese, pumpkin seed dip, roasted delicata squash, apples, figs and candied pecans. 100% vegan.",
+ "category": "plant-based",
+ "image": "/images/boards/pb-13.webp",
+ "hook": "Every autumn flavour on a board with no dairy and no meat, and nobody at the table notices what's missing.",
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "16–18\" board",
+ "prep_time": "25–30 min",
+ "cost": "$35–$50",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Nut cheeses & dips",
+   "items": [
+    {
+     "name": "Aged cashew cheese, Gouda-style",
+     "slug": "cashew-cheese"
+    },
+    {
+     "name": "Pumpkin seed dip",
+     "slug": null
+    },
+    {
+     "name": "Vegan labneh with cinnamon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh produce",
+   "items": [
+    {
+     "name": "Honeycrisp apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Roasted delicata squash rings",
+     "slug": null
+    },
+    {
+     "name": "Rosemary sprigs",
+     "slug": "rosemary-sprigs"
+    },
+    {
+     "name": "Thyme sprigs",
+     "slug": "fresh-thyme"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Multigrain crackers",
+     "slug": "whole-wheat-crackers"
+    },
+    {
+     "name": "Seeded rye crisps",
+     "slug": "rye-crispbread"
+    }
+   ]
+  },
+  {
+   "name": "Nuts & dried fruit",
+   "items": [
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Toasted pumpkin seeds",
+     "slug": "pumpkin-seeds"
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Fall flavour is mostly caramel, spice and earthy sweetness, and none of that needs meat or dairy. Roasting the delicata squash browns its sugars, and an aged, Gouda-style cashew cheese gives the same savoury depth an aged dairy cheese would.",
+  "Pumpkin seeds show up twice, blended into the dip and toasted whole, for creaminess and crunch from one ingredient. Apple and whole-grain mustard bring the acid, and fig jam and candied pecans the sweetness."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Roast the squash rings at 400°F for 20 minutes."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the cashew cheese; make the pumpkin seed dip."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the apple; fill the bowls; let the squash cool."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Arrange the crackers; add the dried fruit."
+  },
+  {
+   "when": "T–0",
+   "what": "Add rosemary and thyme; serve the squash warm."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes. Every item is plant-based. Check labels on the crackers and candied pecans, which sometimes contain butter or honey."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 16–18 inch board."
+  },
+  {
+   "q": "Where do I find aged cashew cheese?",
+   "a": "Well-stocked grocery stores carry cultured cashew cheeses near the specialty cheese. A cashew brie also works."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-fall-harvest-board",
+ "status": "published",
+ "wave": 1
+}

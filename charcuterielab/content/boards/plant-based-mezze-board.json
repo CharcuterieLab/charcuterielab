@@ -1,0 +1,88 @@
+{
+ "slug": "plant-based-mezze-board",
+ "number": "PB-05",
+ "book": "plant",
+ "title": "The Middle Eastern Mezze Board",
+ "category": "plant-based",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/boards/pb-05.webp",
+ "blog": [],
+ "serves": "6–8",
+ "guests": 8,
+ "board_size": "Pomegranate Juice or",
+ "prep_time": null,
+ "cost": null,
+ "difficulty": null,
+ "groups": [
+  {
+   "name": "Nut Cheeses & Dips",
+   "items": [
+    {
+     "name": "Muhammara (walnut-red pepper spread)",
+     "slug": "muhammara"
+    },
+    {
+     "name": "Vegan labneh (strained coconut yogurt)",
+     "slug": "labneh"
+    },
+    {
+     "name": "Classic hummus",
+     "slug": "hummus"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Pistachios, shelled",
+     "slug": "pistachios"
+    }
+   ]
+  },
+  {
+   "name": "Plant Proteins",
+   "items": [
+    {
+     "name": "Falafel bites",
+     "slug": null
+    },
+    {
+     "name": "Dolmas (stuffed grape leaves)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh Produce",
+   "items": [
+    {
+     "name": "Mini cucumber, sliced",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Condiments & Extras",
+   "items": [
+    {
+     "name": "Sumac (for dusting)",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

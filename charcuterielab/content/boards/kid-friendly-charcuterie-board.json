@@ -1,0 +1,121 @@
+{
+ "slug": "kid-friendly-charcuterie-board",
+ "number": "B1-15",
+ "book": "main",
+ "title": "Kid-Friendly Board",
+ "category": "dietary-kids",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-15-kid-friendly.webp",
+ "blog": [
+  "charcuterie-board-for-kids"
+ ],
+ "serves": null,
+ "guests": 8,
+ "board_size": "16\"–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$35–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Mild Cheeses",
+   "items": [
+    {
+     "name": "Mild Cheddar",
+     "slug": null
+    },
+    {
+     "name": "String Cheese",
+     "slug": null
+    },
+    {
+     "name": "Cream Cheese (plain)",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Blueberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Red & Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Apple slices (Honeycrisp)",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Kid-Friendly Meats",
+   "items": [
+    {
+     "name": "Mandarin Oranges",
+     "slug": null
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Turkey/Ham lunchmeat",
+     "slug": null
+    },
+    {
+     "name": "Peanut Butter or Sunflower Butter",
+     "slug": null
+    },
+    {
+     "name": "Strawberry Jam",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Ranch Dressing (small)",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crunchy Elements",
+   "items": [
+    {
+     "name": "Butter Crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Pretzels (mini)",
+     "slug": null
+    },
+    {
+     "name": "Goldfish Crackers",
+     "slug": null
+    },
+    {
+     "name": "Graham Crackers",
+     "slug": "graham-crackers"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

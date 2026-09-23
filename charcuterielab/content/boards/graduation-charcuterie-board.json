@@ -1,0 +1,124 @@
+{
+ "slug": "graduation-charcuterie-board",
+ "number": "B1-32",
+ "book": "main",
+ "title": "Graduation Celebration Board",
+ "category": "occasions-parties",
+ "wave": 4,
+ "status": "draft",
+ "image": "/images/50-boards-32-graduation-celebration.webp",
+ "blog": [],
+ "serves": "12–20",
+ "guests": 20,
+ "board_size": "22\"–28\" board",
+ "prep_time": "30–35 min",
+ "cost": "$65–$100",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Sharp Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper Jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Colby Jack",
+     "slug": null
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Red & Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Baby Carrots",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Hard Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Turkey Breast",
+     "slug": null
+    },
+    {
+     "name": "Graduation Cap Picks (toothpic",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Honey Mustard",
+     "slug": "honey-mustard"
+    },
+    {
+     "name": "Ranch Dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Candied Pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Club Crackers 1 large box",
+     "slug": null
+    },
+    {
+     "name": "Chocolate Covered Pretzels",
+     "slug": null
+    },
+    {
+     "name": "Wheat Crackers",
+     "slug": null
+    },
+    {
+     "name": "Pita Chips 1 bag",
+     "slug": "pita-chips"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

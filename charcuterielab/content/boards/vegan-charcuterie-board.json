@@ -1,0 +1,139 @@
+{
+ "slug": "vegan-charcuterie-board",
+ "number": "B1-16",
+ "book": "main",
+ "title": "Vegan Plant-Based Board",
+ "category": "dietary-kids",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-16-vegan-plant-based.webp",
+ "blog": [
+  "dairy-free-charcuterie-board",
+  "vegetarian-charcuterie-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$45–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Vegan Cheeses",
+   "items": [
+    {
+     "name": "Cashew Brie (store or homemade)",
+     "slug": "brie"
+    },
+    {
+     "name": "Vegan Sharp Cheddar (block)",
+     "slug": null
+    },
+    {
+     "name": "Herb Cashew Cheese (spreadable)",
+     "slug": "cashew-cheese"
+    },
+    {
+     "name": "Olive Tapenade",
+     "slug": "tapenade"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Dips",
+   "items": [
+    {
+     "name": "Hummus (classic + roasted red p",
+     "slug": "hummus"
+    },
+    {
+     "name": "Baba Ganoush",
+     "slug": "baba-ganoush"
+    },
+    {
+     "name": "Fig Jam (vegan)",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Plant-Based Proteins",
+   "items": [
+    {
+     "name": "Marinated Tempeh slices",
+     "slug": null
+    },
+    {
+     "name": "Smoked Tofu",
+     "slug": null
+    },
+    {
+     "name": "Roasted Chickpeas (spiced)",
+     "slug": null
+    },
+    {
+     "name": "Cucumber slices ½ cucumber",
+     "slug": null
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Roasted Red Peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Vegetables",
+   "items": [
+    {
+     "name": "Red & Green Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Nuts",
+   "items": [
+    {
+     "name": "Water Crackers (vegan)",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Whole Grain Crackers",
+     "slug": null
+    },
+    {
+     "name": "Pita Bread (vegan) 2 rounds",
+     "slug": null
+    },
+    {
+     "name": "Marcona Almonds (salted)",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Medjool Dates 6–8",
+     "slug": "medjool-dates"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

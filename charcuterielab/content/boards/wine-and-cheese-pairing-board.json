@@ -1,0 +1,123 @@
+{
+ "slug": "wine-and-cheese-pairing-board",
+ "number": "B1-09",
+ "book": "main",
+ "title": "Wine & Cheese Pairing Board",
+ "category": "pairings-sweet",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-09-wine-and-cheese-pairing.webp",
+ "blog": [
+  "charcuterie-board-wine-and-cheese",
+  "wine-cheese-board"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "20\"–24\" board",
+ "prep_time": "30–35 min",
+ "cost": "$70–$110",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses By Wine Pairing",
+   "items": [
+    {
+     "name": "Fresh Chèvre",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Aged Manchego (Rioja/Tempranillo) 6 oz",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Saucisson Sec",
+     "slug": "saucisson-sec"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Sweet",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Red & Green Grapes (clusters)",
+     "slug": "grapes"
+    },
+    {
+     "name": "Stilton Blue (Port/Sauternes)",
+     "slug": "stilton"
+    },
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Dried Figs 6–8 pieces",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Walnuts (toasted)",
+     "slug": "walnuts"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Quince Paste (Membrillo)",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Bread & Crackers",
+   "items": [
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "French Baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Seeded Flatbread",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

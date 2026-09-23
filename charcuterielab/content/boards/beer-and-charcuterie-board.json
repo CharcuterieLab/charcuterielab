@@ -1,0 +1,134 @@
+{
+ "slug": "beer-and-charcuterie-board",
+ "number": "B1-10",
+ "book": "main",
+ "title": "Beer & Charcuterie Board",
+ "category": "pairings-sweet",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-10-beer-and-charcuterie.webp",
+ "blog": [
+  "beer-pairing"
+ ],
+ "serves": "8–12",
+ "guests": 12,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$55–$85",
+ "difficulty": "Beginner–Mid",
+ "groups": [
+  {
+   "name": "Cheeses By Beer Pairing",
+   "items": [
+    {
+     "name": "Sharp Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Smoked Gouda",
+     "slug": "smoked-gouda"
+    },
+    {
+     "name": "Pepper Jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Mustard (whole grain + yellow) 3 tbsp",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Beer Snack Elements",
+   "items": [
+    {
+     "name": "Pretzels (mini salted)",
+     "slug": null
+    },
+    {
+     "name": "Spiced Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Pickled Jalapeños 8–10 slices",
+     "slug": "pickled-jalapenos"
+    },
+    {
+     "name": "Dill Pickle Chips",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Summer Sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Smoked Brisket/BBQ Beef slices",
+     "slug": null
+    },
+    {
+     "name": "Hard Salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Sourdough baguette",
+     "slug": "sourdough"
+    }
+   ]
+  },
+  {
+   "name": "Bread & Crackers",
+   "items": [
+    {
+     "name": "Butter Crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Pumpernickel slices (small) 6–8 slices",
+     "slug": "pumpernickel"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Cherry Tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Cornichons 10–12",
+     "slug": "cornichons"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

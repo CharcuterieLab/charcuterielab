@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
+import { BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1058,7 +1059,7 @@ function ingredientBodyHtml(html, blogSlugs) {
   return out;
 }
 
-function ingredientPage(item, bySlug, blogSlugs = null) {
+function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = []) {
   const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
   const spec = [
@@ -1116,6 +1117,14 @@ ${related
   })
   .join("\n")}
       </ul>
+    </section>`
+        : ""
+    }
+    ${
+      boardsUsing.length
+        ? `<section class="ing-boards">
+      <h2>Boards that use ${escapeHtml(item.title.toLowerCase())}</h2>
+      <ul>${boardsUsing.slice(0, 6).map((b) => `<li><a href="/boards/${b.slug}/">${escapeHtml(b.h1)}</a></li>`).join("")}</ul>
     </section>`
         : ""
     }
@@ -1206,11 +1215,10 @@ ${head}
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
         <a class="nav-book" href="/ebook/">The Book</a>
+        <a href="/boards/">Boards</a>
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
-        <a href="/#shop">Shop</a>
-        <a href="/#newsletter">Newsletter</a>
       </div>
     </nav>
   </header>
@@ -1227,9 +1235,12 @@ ${head}
         <a href="/ebook/">The Book</a>
         <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
         <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
+        <a href="/boards/">Board Library</a>
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
+        <a href="/#shop">Shop</a>
+        <a href="/#newsletter">Newsletter</a>
         <a href="/privacy/">Privacy</a>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
@@ -1341,7 +1352,7 @@ function newsletterPanel(id, campaign) {
   </section>`;
 }
 
-function homePage(posts, products) {
+function homePage(posts, products, boardStrip = "") {
   const featuredPosts = posts.slice(0, 3);
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
@@ -1383,6 +1394,8 @@ function homePage(posts, products) {
       </div>
     </div>
   </section>
+
+  ${boardStrip}
 
   <section class="section lab-free" aria-label="Free from the Lab">
     <div class="section-inner">
@@ -1812,7 +1825,7 @@ function demoteBodyHeadings(html, title) {
   return out.replace(/<(\/?)h1\b([^>]*)>/gi, "<$1h2$2>");
 }
 
-function postPage(post, relatedPosts = [], autolinkIndex = []) {
+function postPage(post, relatedPosts = [], autolinkIndex = [], board = null) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
     day: "numeric",
@@ -1852,6 +1865,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = []) {
   <article class="post-body">
     ${postHtml}
   </article>
+  ${board ? `<aside class="post-cta bl-post-link"><p>Want the full plan? See the ${escapeHtml(board.h1)}: what to buy, why it works and a timeline, plus a one-tap shopping list for your guest count.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board plan</a></aside>` : ""}
   ${relatedReading(relatedPosts)}
   ${labNext(`footer_${post.slug}`)}
   ${newsletterPanel("post-email", `blog_${post.slug}`)}
@@ -1859,7 +1873,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = []) {
   });
 }
 
-function sitemap(posts, ingredients = []) {
+function sitemap(posts, ingredients = [], boards = []) {
   const ingredientCategories = CATEGORY_ORDER.filter((c) =>
     ingredients.some((i) => i.category === c)
   );
@@ -1869,6 +1883,12 @@ function sitemap(posts, ingredients = []) {
     { loc: "/blog/", priority: "0.8" },
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/privacy/", priority: "0.2" },
+    ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
+    ...BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug)).map((c) => ({
+      loc: `/boards/${c.slug}/`,
+      priority: "0.7"
+    })),
+    ...boards.map((b) => ({ loc: `/boards/${b.slug}/`, lastmod: b.updated, priority: "0.8" })),
     ...(ingredients.length ? [{ loc: "/ingredients/", priority: "0.8" }] : []),
     ...ingredientCategories.map((category) => ({
       loc: `/ingredients/${slugify(category)}/`,
@@ -1905,18 +1925,29 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, products, ingredients] = await Promise.all([
+  const [allPosts, products, ingredients, boards] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse),
-    loadIngredients()
+    loadIngredients(),
+    loadBoards(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
   posts.forEach((post) => {
     post.html = markdownToHtml(post.body);
   });
 
-  await writeFile(join(dist, "index.html"), homePage(posts, products));
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients));
+  // Board Library helpers: boards.mjs gets the site's shared page parts so
+  // every board page promotes in the same order as the rest of the site.
+  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle };
+  // blog post -> the board plan it overlaps (first board that lists it)
+  const boardForPost = new Map();
+  boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
+  // ingredient -> boards that use it
+  const boardsUsing = new Map();
+  boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
+
+  await writeFile(join(dist, "index.html"), homePage(posts, products, boardsStrip(boardHelpers, boards)));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -1932,7 +1963,7 @@ async function build() {
       await mkdir(dir, { recursive: true });
       await writeFile(
         join(dir, "index.html"),
-        postPage(post, selectRelatedPosts(post, posts), autolinkIndex)
+        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null)
       );
     })
   );
@@ -1959,7 +1990,7 @@ async function build() {
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || []));
       })
     );
 
@@ -1996,6 +2027,23 @@ async function build() {
         styleVersion: hash(builderStyles)
       })
     );
+    if (boards.length) {
+      const { notes } = JSON.parse(builder.json);
+      const blogTitles = new Map(posts.map((post) => [post.slug, post.title]));
+      await mkdir(join(dist, "boards"), { recursive: true });
+      await writeFile(join(dist, "boards", "index.html"), boardsHub(boardHelpers, boards));
+      for (const cat of BOARD_CATEGORIES) {
+        const inCat = boards.filter((b) => b.category === cat.slug);
+        if (!inCat.length) continue;
+        await mkdir(join(dist, "boards", cat.slug), { recursive: true });
+        await writeFile(join(dist, "boards", cat.slug, "index.html"), boardCategoryPage(boardHelpers, cat, inCat));
+      }
+      for (const b of boards) {
+        await mkdir(join(dist, "boards", b.slug), { recursive: true });
+        await writeFile(join(dist, "boards", b.slug, "index.html"), boardPage(boardHelpers, b, { all: boards, bySlug, notes, blogTitles }));
+      }
+      console.log(`Board Library: ${boards.length} published boards`);
+    }
     console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }
 

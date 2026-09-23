@@ -1,0 +1,124 @@
+{
+ "slug": "easter-charcuterie-board",
+ "number": "B1-24",
+ "book": "main",
+ "title": "Easter Spring Board",
+ "category": "seasonal-holiday",
+ "wave": 3,
+ "status": "draft",
+ "image": "/images/50-boards-24-easter-spring.webp",
+ "blog": [],
+ "serves": "10–16",
+ "guests": 16,
+ "board_size": "18\"–22\" board",
+ "prep_time": "25–30 min",
+ "cost": "$50–$80",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Goat Cheese",
+     "slug": null
+    },
+    {
+     "name": "Havarti",
+     "slug": "havarti"
+    },
+    {
+     "name": "Baby Babybel",
+     "slug": null
+    },
+    {
+     "name": "Snap Peas",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruits & Veggies",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Raspberries",
+     "slug": null
+    },
+    {
+     "name": "Blueberries",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cured Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Honey Ham",
+     "slug": "honey"
+    },
+    {
+     "name": "Lemon Curd",
+     "slug": "lemon-curd"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Candied Walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Butter Crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Mini Chocolate Eggs",
+     "slug": null
+    },
+    {
+     "name": "Rice Crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}

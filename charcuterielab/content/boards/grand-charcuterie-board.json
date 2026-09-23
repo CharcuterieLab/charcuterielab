@@ -1,0 +1,187 @@
+{
+ "slug": "grand-charcuterie-board",
+ "number": "B1-49",
+ "book": "main",
+ "title": "Showstopper Grand Board",
+ "category": "occasions-parties",
+ "wave": 2,
+ "status": "draft",
+ "image": "/images/50-boards-49-showstopper-grand.webp",
+ "blog": [
+  "grazing-table",
+  "charcuterie-board-for-large-group"
+ ],
+ "serves": "20–30",
+ "guests": 30,
+ "board_size": "36\"–48\" board or table",
+ "prep_time": "45–60 min",
+ "cost": "$120–$200",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Gorgonzola Dolce",
+     "slug": "gorgonzola"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Fruits",
+   "items": [
+    {
+     "name": "Red Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Champagne Grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": null
+    },
+    {
+     "name": "Fresh Figs (or dried) 6–8",
+     "slug": "figs"
+    },
+    {
+     "name": "Dried Apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Salami Genoa",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & Extras",
+   "items": [
+    {
+     "name": "Truffle Honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Fig Jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Quince Paste",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Whole Grain Mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Marcona Almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Castelvetrano Olives",
+     "slug": "castelvetrano-olives"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & Bread",
+   "items": [
+    {
+     "name": "Candied Pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Water Crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Walnut Raisin Crisps",
+     "slug": null
+    },
+    {
+     "name": "Dark Chocolate pieces",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Baguette slices",
+     "slug": "baguette"
+    },
+    {
+     "name": "Rosemary Flatbreads",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "h1": null,
+ "seo_title": null,
+ "description": null,
+ "hook": null,
+ "why": [],
+ "timeline": [],
+ "faq": [],
+ "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+}
