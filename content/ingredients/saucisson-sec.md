@@ -5,9 +5,9 @@ section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "French dry salami"
 role_group: "Salami"
-excerpt: "France's everyday dry sausage, dusted white with edible mould. Tangier than Italian salami, and the white bloom is a feature — leave it on."
+excerpt: "Saucisson sec means dry sausage: France's everyday cured salami, dusted white with edible mould. Tangier than Italian salami, and the white bloom is a feature. Leave it on."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-24
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
@@ -15,7 +15,7 @@ allergens: []
 tags: ["cured meat", "french", "salami", "classic"]
 pairs_with: ["rosette-de-lyon", "fuet", "genoa-salami", "comte", "baguette", "whole-grain-mustard", "cornichons"]
 avoid_with: ["delicate-fresh-cheese"]
-faq: "[{"question": "Can I eat the white powder on the outside?", "answer": "Yes. It's an edible cultivated mould that protects the sausage and adds flavour. Leave it on."}, {"question": "Saucisson or salami?", "answer": "Saucisson is French, tangier, drier and usually coarser. Italian salami is often softer and sweeter. Same family, different accent."}, {"question": "Do I peel the casing?", "answer": "Natural casing with the mould can be eaten, though many people peel it. Plastic casing must come off."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "How do the French serve it?", "answer": "Whole, on a board, with a knife, bread, butter and cornichons."}]"
+faq: "[{"question": "What is saucisson sec in English?", "answer": "Dry sausage. Saucisson sec is a French dry-cured pork salami, usually coated in a white edible mould, eaten in thick slices with bread and cornichons."}, {"question": "Can I eat the white powder on the outside?", "answer": "Yes. It's an edible cultivated mould that protects the sausage and adds flavour. Leave it on."}, {"question": "Saucisson or salami?", "answer": "Saucisson is French, tangier, drier and usually coarser. Italian salami is often softer and sweeter. Same family, different accent."}, {"question": "Do I peel the casing?", "answer": "Natural casing with the mould can be eaten, though many people peel it. Plastic casing must come off."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "How do the French serve it?", "answer": "Whole, on a board, with a knife, bread, butter and cornichons."}]"
 ---
 
 ## The short version

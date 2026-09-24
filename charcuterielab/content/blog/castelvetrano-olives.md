@@ -3,6 +3,8 @@ title: "Castelvetrano Olives"
 date: "2026-04-25"
 image: "/images/castelvetrano-olives.webp"
 excerpt: "Castelvetrano Olives: The Ultimate Ingredient Deep Dive + Pairing Guide"
+seo_title: "Castelvetrano Olives: What They Are & Why They're Buttery"
+updated: "2026-09-24"
 ---
 
 # Castelvetrano Olives: The Ultimate Ingredient Deep Dive + Pairing Guide

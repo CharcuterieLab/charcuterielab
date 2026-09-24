@@ -3,9 +3,12 @@ title: "Soppressata: The Boldest Italian Salami on Your Charcuterie Board"
 date: "2026-04-29"
 image: "/images/soppressata.webp"
 excerpt: "Soppressata: The Boldest Italian Salami on Your Charcuterie Board"
-description: "Soppressata is the most assertive and flavorful Italian cured meat for a charcuterie board. Here's what makes it different from regular salami, the science of its cure, and exactly how to use it."
+description: "Soppressata is a coarse, dry-cured Italian salami, sweet or hot, and the boldest salami for a charcuterie board. Here's how it's made, the types, and how to serve and pair it."
 slug: "soppressata"
 tags: "["soppressata", "Italian cured meat", "salami", "charcuterie meat", "charcuterie pairings"]"
+seo_title: "What Is Soppressata? Taste, Types & How to Serve It"
+updated: "2026-09-24"
+faq: "[{"question":"What is soppressata?","answer":"Soppressata is a coarse, dry-cured Italian salami from southern Italy, made from pork and seasoned with black pepper and garlic (sweet) or Calabrian chili (hot)."},{"question":"Is soppressata spicy?","answer":"It depends on the label. Hot or piccante soppressata uses Calabrian chili; sweet or dolce soppressata is mild and peppery."},{"question":"What is the difference between soppressata and salami?","answer":"Soppressata is a type of salami. It is coarser and more rustic than Genoa salami, often pressed flat, and usually bolder in flavor."},{"question":"How do you serve soppressata on a charcuterie board?","answer":"Slice it thin, fold it in half, and put it next to something cool and creamy like fresh mozzarella or burrata, with a drizzle of hot honey."}]"
 ---
 
 # Soppressata: The Boldest Italian Salami on Your Charcuterie Board

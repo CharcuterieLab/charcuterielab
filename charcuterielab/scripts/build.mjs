@@ -199,7 +199,7 @@ function articleSchema(post, description) {
     description,
     image: [absoluteUrl(post.image)],
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated || post.date,
     author: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl },
     publisher: {
       "@type": "Organization",
@@ -518,7 +518,11 @@ async function loadPosts() {
       return {
         slug: slugFromFile(file),
         title: data.title ?? "Untitled Post",
+        // Optional: the <title> Google shows, when it should differ from the H1
+        seoTitle: data.seo_title ?? "",
         date: data.date ?? "2026-01-01",
+        // Optional: when the post was last meaningfully revised
+        updated: data.updated ?? "",
         image: data.image ?? "/images/layout-reference.jpg",
         excerpt: data.excerpt ?? "",
         description: data.description ?? "",
@@ -902,7 +906,7 @@ function ingredientsHub(items) {
   const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
   return layout({
     canonical: "/ingredients/",
-    title: "Ingredients | Charcuterie Lab",
+    title: `Charcuterie Ingredients: ${items.length} Cheeses, Meats & More`,
     description:
       "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
     body: `<main class="ing-main">
@@ -933,7 +937,7 @@ ${labNext("ingredients_hub", { skip: ["ingredients"] })}
 function ingredientCategoryPage(category, items) {
   return layout({
     canonical: `/ingredients/${slugify(category)}/`,
-    title: `${category} | Ingredients | Charcuterie Lab`,
+    title: pageTitle(`${category} for Charcuterie: ${items.length} Types Explained`),
     description: `Every ${category.toLowerCase()} ingredient for a charcuterie board — pairings, prep and what to buy, one page each.`,
     body: `<main class="ing-main">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> ${escapeHtml(category)}</p>
@@ -1062,6 +1066,15 @@ function ingredientBodyHtml(html, blogSlugs) {
   return out;
 }
 
+// "What Is Saucisson Sec?" matches how people search for an unfamiliar
+// ingredient far better than "Saucisson Sec | Ingredients". Plural titles
+// ("Walnuts") read "What Are"; a few singular names end in s.
+const SINGULAR_S = new Set(["Cabrales", "Candied Citrus", "Époisses", "Hummus", "Langres", "Physalis", "Speculoos", "Tinned Octopus", "Wensleydale with Cranberries"]);
+function ingredientSeoTitle(item) {
+  const verb = /s$/.test(item.title) && !SINGULAR_S.has(item.title) ? "Are" : "Is";
+  return `What ${verb} ${item.title}? How to Serve & Pair It`;
+}
+
 function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "") {
   const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
@@ -1076,7 +1089,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
   return layout({
     canonical: `/ingredients/${item.slug}/`,
     modified: item.updated || item.date,
-    title: `${item.title} | Ingredients | Charcuterie Lab`,
+    title: pageTitle(ingredientSeoTitle(item)),
     description: item.excerpt,
     head: faqSchema(item),
     body: `<main class="ing-main ing-detail">
@@ -1936,21 +1949,21 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   const description = metaDescription(post);
 
   return layout({
-    title: pageTitle(post.title),
+    title: pageTitle(post.seoTitle || post.title),
     description,
     canonical: `/blog/${post.slug}/`,
     image: post.image,
     type: "article",
     published: post.date,
-    modified: post.date,
+    modified: post.updated || post.date,
     head: `${articleSchema(post, description)}\n${faqSchema(post)}`,
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
-      <p class="post-date">${date}</p>
+      <p class="post-date">${date}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
       <h1>${escapeHtml(post.title)}</h1>
     </div>
-    <img class="post-image" src="${post.image}" alt="">
+    <img class="post-image" src="${post.image}" alt="${escapeHtml(post.title)}">
   </section>
   ${bookBar(`top_${post.slug}`)}
   ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}

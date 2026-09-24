@@ -5,9 +5,9 @@ section: "ingredients"
 category: "Finishing Touches"
 board_role: "Structural garnish"
 role_group: "Fresh herbs & garnish"
-excerpt: "Not really for eating — rosemary is what fills the gaps and gives a board its scent. Three sprigs cost a dollar and change how the whole thing reads."
+excerpt: "A sprig of rosemary is a single cut stem, usually 2 to 4 inches long, lined with needle-like leaves. On a board it's garnish and scent more than food, and three sprigs change how the whole thing reads."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-24
 price_tier: "$"
 serving_per_person: "garnish"
 prep_time: "2 minutes"
@@ -15,7 +15,7 @@ allergens: []
 tags: ["finishing", "herbs", "garnish", "budget", "essential"]
 pairs_with: ["manchego", "marcona-almonds", "aged-gouda", "spiced-nut-mix", "baguette"]
 avoid_with: []
-faq: "[{"question": "Can you eat rosemary sprigs on a charcuterie board?", "answer": "You can, but they're tough and resinous raw. On a board they're a garnish and an aromatic, not something to eat."}, {"question": "How many sprigs do I need?", "answer": "Two or three on a standard board. Enough to fill gaps, not enough to look like landscaping."}, {"question": "How do I make the board smell of rosemary?", "answer": "Run your fingers firmly along the needles before laying the sprig down. Bruising releases the oils."}, {"question": "Where do I put them?", "answer": "In the gaps between piles, and tucked under the edge of a cheese wedge so they look placed."}, {"question": "How long does fresh rosemary keep?", "answer": "About two weeks in the fridge in its clamshell, or indefinitely on a plant."}]"
+faq: "[{"question": "What is a sprig of rosemary?", "answer": "A sprig is one cut stem of the rosemary plant, usually 2 to 4 inches long, with the needle-like leaves still attached. When a recipe calls for one sprig, strip the leaves from a stem that size."}, {"question": "Can you eat rosemary sprigs on a charcuterie board?", "answer": "You can, but they're tough and resinous raw. On a board they're a garnish and an aromatic, not something to eat."}, {"question": "How many sprigs do I need?", "answer": "Two or three on a standard board. Enough to fill gaps, not enough to look like landscaping."}, {"question": "How do I make the board smell of rosemary?", "answer": "Run your fingers firmly along the needles before laying the sprig down. Bruising releases the oils."}, {"question": "Where do I put them?", "answer": "In the gaps between piles, and tucked under the edge of a cheese wedge so they look placed."}, {"question": "How long does fresh rosemary keep?", "answer": "About two weeks in the fridge in its clamshell, or indefinitely on a plant."}]"
 ---
 
 ## The short version

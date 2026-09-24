@@ -6,6 +6,8 @@ excerpt: "How Much Charcuterie Per Person? (The Formula Party Hosts Actually Nee
 description: "The exact formula for how much cheese, meat, and extras to buy for a charcuterie board — by board size and occasion. Answer first, full breakdown below."
 slug: "how-much-charcuterie-per-person"
 tags: "["charcuterie per person", "how much charcuterie", "charcuterie board planning", "party food quantities", "charcuterie food safety"]"
+seo_title: "How Much Charcuterie Per Person? Chart for 4 to 30+ Guests"
+updated: "2026-09-24"
 ---
 
 # How Much Charcuterie Per Person? (The Formula Party Hosts Actually Need)

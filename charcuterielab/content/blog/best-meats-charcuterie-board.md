@@ -1,15 +1,17 @@
 ---
-title: "The Best Meats for a Charcuterie Board"
+title: "The Best Meats for a Charcuterie Board (Charcuterie Meats List)"
 date: "2026-05-09"
 image: "/images/best-meats-charcuterie-board.webp"
-excerpt: "The Best Meats for a Charcuterie Board Quick Answer"
-description: "The best meats for a charcuterie board are prosciutto di Parma, Genoa salami, soppressata, coppa, and bresaola. A well-built board uses at least one whole-..."
+excerpt: "The best charcuterie meats, and a list of 20 to know: what each tastes like and how to serve it."
+description: "The best meats for a charcuterie board: prosciutto, Genoa salami, soppressata, coppa and bresaola, plus a list of 20 charcuterie meats with what each tastes like and how to serve it."
 faq: "[{"question":"What is the best meat for a charcuterie board?","answer":"Prosciutto is the most versatile and universally loved charcuterie meat — its delicate, sweet-salty flavor and silky fat make it accessible to nearly every palate. Salami (genoa or hard salami) is the second essential, providing bolder, spiced flavor and a firmer texture. Together, prosciutto and salami cover the two core meat registers: delicate and bold."},{"question":"How many types of meat should be on a charcuterie board?","answer":"Two to three meats is ideal for most boards. One fatty, one lean or delicate, and optionally one specialty cut. Prosciutto (fatty, delicate) + salami (spiced, firm) covers most boards perfectly. Adding bresaola (lean, mineral-forward) or soppressata introduces a third distinct flavor. Beyond three meats, the distinctions become hard for guests to perceive while grazing."},{"question":"What is the difference between prosciutto and salami?","answer":"Prosciutto is a dry-cured whole leg of pork, sliced paper-thin, with a delicate sweet-salty flavor and soft, silky fat. Salami is a cured, fermented sausage made from ground pork (and sometimes beef), seasoned with garlic, pepper, and other spices, and sliced into rounds. Prosciutto is the most delicate charcuterie meat; salami is among the bolder options."},{"question":"What is the leanest charcuterie meat?","answer":"Bresaola (air-dried, cured beef) is the leanest common charcuterie option — it's almost entirely lean muscle with virtually no visible fat. Turkey bresaola and coppa (pork neck) can also be lean depending on the specific product. For guests watching fat intake, bresaola is the ideal meat on a charcuterie board."},{"question":"How much meat per person for a charcuterie board?","answer":"Plan 2 oz of cured meat per person for a cocktail-style board, 3 oz per person if the board is the primary food. With two types of meat, buy 1–1.5 oz of each per person. Prosciutto is sold in 3 oz packs typically — one pack feeds 2–3 people as part of a larger spread."}]"
 slug: "best-meats-charcuterie-board"
 tags: "["best meats charcuterie board", "charcuterie board", "charcuterie"]"
+seo_title: "Charcuterie Meats List: 20 Best Meats for Your Board"
+updated: "2026-09-24"
 ---
 
-# The Best Meats for a Charcuterie Board
+# The Best Meats for a Charcuterie Board (Charcuterie Meats List)
 ## Quick Answer
 
 The best meats for a charcuterie board are prosciutto di Parma, Genoa salami, soppressata, coppa, and bresaola. A well-built board uses at least one whole-muscle meat (prosciutto, bresaola, coppa) and one fermented sausage (salami, soppressata) for variety. For a simple starter board, prosciutto and Genoa salami cover both categories with the widest appeal.
@@ -19,6 +21,35 @@ The best meats for a charcuterie board are prosciutto di Parma, Genoa salami, so
 The real question isn't which meats are "best" in isolation — it's which meats work together on the same board. Variety is the goal: different production methods, different fat levels, different textures, different flavor profiles. A board with four different salamis has less variety than a board with prosciutto, salami, and bresaola, even though the latter has fewer total products.
 
 This guide covers the two main categories, what distinguishes them, the specific meats that perform best on boards, and how to build variety without overlap.
+
+## Charcuterie meats list: 20 to know
+
+The meats below cover almost every charcuterie board. Mix one or two from the whole-muscle rows with one or two sausages.
+
+| Meat | Type | What it tastes like | Best way to serve it |
+|---|---|---|---|
+| [Prosciutto di Parma](/ingredients/prosciutto-di-parma/) | Whole-muscle, Italy | Sweet, salty, silky | Loose folds or roses; pair with melon or burrata |
+| [Jamón serrano](/ingredients/jamon-serrano/) | Whole-muscle, Spain | Drier and nuttier than prosciutto | Thin ribbons with Manchego |
+| [Jamón ibérico](/ingredients/jamon-iberico/) | Whole-muscle, Spain | Rich, nutty, melting fat | The splurge; serve at room temperature |
+| [Speck](/ingredients/speck/) | Whole-muscle, smoked, Alpine | Smoky, juniper, lightly sweet | With rye, pickles and Alpine cheese |
+| [Bresaola](/ingredients/bresaola/) | Whole-muscle beef, Italy | Lean, savory, dark red | Drizzle with olive oil and lemon |
+| [Coppa](/ingredients/coppa/) | Whole-muscle, Italy | Marbled, spiced, tender | Thin slices, folded in half |
+| [Lomo](/ingredients/lomo/) | Whole-muscle, Spain | Lean pork loin, paprika | With olives and almonds |
+| [Culatello](/ingredients/culatello/) | Whole-muscle, Italy | The most delicate Italian ham | Alone, with a little Parmigiano |
+| [Genoa salami](/ingredients/genoa-salami/) | Salami, Italy | Mild, garlicky | The easy crowd-pleaser; fold into a salami river |
+| [Soppressata](/blog/soppressata/) | Salami, Italy | Coarse, peppery, sweet or hot | With fresh mozzarella and hot honey |
+| [Finocchiona](/ingredients/finocchiona/) | Salami, Tuscany | Fennel and black pepper | With pears and Pecorino |
+| [Chorizo](/ingredients/chorizo/) | Cured sausage, Spain | Smoky paprika, garlic | With Manchego and membrillo |
+| [Saucisson sec](/ingredients/saucisson-sec/) | Salami, France | Tangy, firm, white-bloomed | Thick coins with cornichons and mustard |
+| [Fuet](/ingredients/fuet/) | Thin salami, Catalonia | Mild, dry, peppery | Sliced into coins; great for kids |
+| [Mortadella](/ingredients/mortadella/) | Cooked sausage, Bologna | Silky, mild, pistachio-studded | Folded thin or cubed with pistachios |
+| [Pepperoni](/ingredients/pepperoni/) | Salami, American | Paprika-red and spicy | On casual and game-day boards ([vs. salami](/blog/salami-vs-pepperoni/)) |
+| ['Nduja](/ingredients/nduja/) | Spreadable salami, Calabria | Fiery, spreadable | A small pot with bread and honey |
+| [Salchichón](/ingredients/salchichon/) | Salami, Spain | Black pepper, no paprika | Next to chorizo for contrast |
+| [Pâté de campagne](/ingredients/pate-de-campagne/) | Pâté, France | Rustic, herby pork | With baguette, cornichons and mustard |
+| [Duck prosciutto](/ingredients/duck-prosciutto/) | Whole-muscle duck | Rich, gamey, sweet fat | With cherries or fig jam |
+
+See all 50 in our [cured meats guide](/ingredients/cured-meat-and-seafood/), or use the [Pairing Finder](/pairings/) to see what goes with any of them.
 
 ## The Two Categories: Whole-Muscle vs. Fermented Sausage
 
@@ -110,7 +141,7 @@ Divide total quantity roughly equally across the meats you've selected — more 
 ## Related Reading
 
 - [How to Make a Prosciutto Rose](https://charcuterielab.com/blog/prosciutto-rose/)
-- [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
+- [Salami vs. Pepperoni: Is Pepperoni Salami?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
 - [Bresaola: The Lean Beef That Brings Elegance to Any Board](https://charcuterielab.com/blog/bresaola/)
 
 ## FAQ
