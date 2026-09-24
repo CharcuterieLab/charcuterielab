@@ -15,6 +15,8 @@ A wine and cheese board done well is one of the most refined entertaining format
 
 This guide applies the fat-tannin and acid-reset principles to actual board construction.
 
+**The complete guide:** this page covers one angle. For every bottle and what to serve with it, see our [wine and charcuterie pairing guide](/blog/wine-charcuterie-pairing/), the [wine pairings by bottle](/pairings/wine/) and the printable [wine and cheese pairing chart](/pairings/wine-and-cheese-chart/).
+
 ---
 
 ## The Pairing Framework Before You Shop

@@ -13,6 +13,8 @@ tags: "["wine and charcuterie board", "wine pairing", "charcuterie board"]"
 
 > **Quick Answer:** The best wine for a charcuterie board depends on what's on it, but sparkling wine works with almost everything. Light reds (Pinot Noir, Gamay) suit mild cured meats and soft cheeses. Crisp whites (Albariño, dry Riesling) complement delicate meats. Avoid high-tannin reds unless the board is built around aged hard cheeses that can hold up to them.
 
+**The complete guide:** this page covers one angle. For every bottle and what to serve with it, see our [wine and charcuterie pairing guide](/blog/wine-charcuterie-pairing/), the [wine pairings by bottle](/pairings/wine/) and the printable [wine and cheese pairing chart](/pairings/wine-and-cheese-chart/).
+
 ## Why Wine and Charcuterie Work Together
 
 The pairing logic comes down to fat and salt. Cured meats are high in both — and wine's acidity, tannins, and carbonation each interact with fat and salt in distinct ways.

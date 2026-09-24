@@ -16,6 +16,8 @@ The best wine for a charcuterie board is dry rosé — it has the acidity to cut
 
 For specific pairings: Fino sherry with jamón ibérico, Pinot Noir with bresaola, white Burgundy with aged Comté, Barolo or Barbaresco with coppa or prosciutto.
 
+**Pairing by bottle:** see the best cheeses, meats and snacks for [Pinot Noir](/pairings/wine/pinot-noir/), [Champagne and Prosecco](/pairings/wine/champagne-prosecco/), [rosé](/pairings/wine/rose/), [Cabernet](/pairings/wine/cabernet-sauvignon/) and [eight more wines](/pairings/wine/), or use the [Pairing Finder](/pairings/) for any cheese or meat.
+
 ---
 
 Wine and charcuterie work together through the same underlying mechanisms as all food pairing — fat buffering tannins, acid refreshing the palate, aromatic compound echoes between food and wine. Understanding these mechanisms makes specific pairing choices obvious rather than arbitrary.

@@ -13,6 +13,8 @@ tags: "["charcuterie board wine", "wine pairing", "charcuterie board"]"
 
 > **Quick Answer:** Champagne or sparkling wine is the most versatile charcuterie board wine — carbonic acid cuts fat, and the acidity bridges cheese and cured meat equally. For still wine, a medium-bodied Pinot Noir is the safest red; a dry Chenin Blanc or Vermentino handles lighter boards. Match the wine's weight to the board's dominant flavor intensity.
 
+**The complete guide:** this page covers one angle. For every bottle and what to serve with it, see our [wine and charcuterie pairing guide](/blog/wine-charcuterie-pairing/), the [wine pairings by bottle](/pairings/wine/) and the printable [wine and cheese pairing chart](/pairings/wine-and-cheese-chart/).
+
 ## The Three Axes of Charcuterie Board Wine Pairing
 
 Pairing wine with a charcuterie board is not about finding one wine that works with everything — it's about understanding the three flavor axes the board presents:

@@ -13,6 +13,8 @@ tags: "["charcuterie board wine and cheese", "wine pairing", "charcuterie board"
 
 > **Quick Answer:** Build the charcuterie board around the wine, not the other way around. Choose your wine first, then select cheese and meat that work with it. Light red (Pinot Noir) → aged gouda, manchego, mild salami. Sparkling → triple-crème, prosciutto, Parmigiano. Crisp white → Gruyère, coppa, fresh chèvre. Full red → aged hard cheese only. The wine-first approach integrates the board before you start shopping.
 
+**The complete guide:** this page covers one angle. For every bottle and what to serve with it, see our [wine and charcuterie pairing guide](/blog/wine-charcuterie-pairing/), the [wine pairings by bottle](/pairings/wine/) and the printable [wine and cheese pairing chart](/pairings/wine-and-cheese-chart/).
+
 ## The Wine-First Principle
 
 The single most important decision in building a wine and cheese charcuterie board is choosing the wine before buying any food.
