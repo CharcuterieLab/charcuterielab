@@ -338,34 +338,46 @@ function selectRelatedPosts(post, posts, limit = 3) {
   return related;
 }
 
+// Internal links in post bodies. Posts are written weeks ahead and link to
+// each other by bare slug (/rind-science, charcuterielab.com/brie/) or by
+// /blog/<slug>/. Resolve those against the posts that are live today: a live
+// post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
+// anything else renders as plain text so readers never hit a 404. The link
+// switches on by itself the day its post publishes.
+const SITE_SECTIONS = /^(ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const linkIndex = { live: null, redirects: new Set(), held: new Map() };
+
+function resolveSiteLink(href = "") {
+  const m = href.match(/^(?:https?:\/\/(?:www\.)?charcuterielab\.com)?(\/[^?#]*)?([?#].*)?$/i);
+  if (!m || (!href.startsWith("/") && !/^https?:\/\/(www\.)?charcuterielab\.com/i.test(href))) return "";
+  const pathname = m[1] || "/";
+  const tail = m[2] || "";
+  const path = pathname.replace(/^\/+|\/+$/g, "");
+  if (!path) return "/" + tail;
+  if (SITE_SECTIONS.test(path)) return pathname + tail;
+  const slug = path.replace(/^blog\//, "");
+  if (path === "blog" ) return "/blog/" + tail;
+  if (!linkIndex.live) return `/blog/${slug}/` + tail; // index not ready (ingredient pages): old behaviour
+  if (linkIndex.live.has(slug)) return `/blog/${slug}/` + tail;
+  const bare = "/" + path;
+  if (linkIndex.redirects.has(bare) || linkIndex.redirects.has(bare + "/")) return bare + tail;
+  linkIndex.held.set(slug, (linkIndex.held.get(slug) || 0) + 1);
+  return null;
+}
+
 function markdownToHtml(markdown) {
   const lines = markdown.trim().split(/\r?\n/);
   const html = [];
   let i = 0;
 
-  const normalizeLink = (href = "") => {
-    const match = href.match(/^https:\/\/charcuterielab\.com\/([^?#]*)/i);
-    if (!match) return href;
-
-    const path = match[1].replace(/^\/+|\/+$/g, "");
-    // Old posts linked to charcuterielab.com/<slug>/ from before the blog moved
-    // under /blog/, so bare slugs are rewritten. Real top-level sections must be
-    // left alone - rewriting /ingredients/ to /blog/ingredients/ broke 13 links.
-    if (!path || /^(blog|ebook|images|ingredients|board-builder|privacy|assets)(\/|$)/.test(path)) {
-      return href;
-    }
-    return href.replace(/^https:\/\/charcuterielab\.com\/?/i, "https://charcuterielab.com/blog/");
-  };
-
   const inline = (value = "") =>
     escapeHtml(value)
       .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)/g, (_, text, href) => {
-        const url = href.startsWith("/") ? `https://charcuterielab.com${href}` : normalizeLink(href);
-        // Links to our own pages open in the same tab; only other sites get a new one.
-        const internal = /^https:\/\/charcuterielab\.com\//i.test(url);
-        return internal
-          ? `<a href="${url.replace(/^https:\/\/charcuterielab\.com/i, "")}">${text}</a>`
-          : `<a href="${url}" target="_blank" rel="noopener">${text}</a>`;
+        const local = resolveSiteLink(href);
+        if (local === null) return text; // a post that isn't live yet: plain text until it is
+        if (local) return `<a href="${local}">${text}</a>`;
+        // Only other sites open in a new tab.
+        return `<a href="${href}" target="_blank" rel="noopener">${text}</a>`;
       })
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*(.+?)\*/g, "<em>$1</em>");
@@ -2028,6 +2040,17 @@ ${urls
 `;
 }
 
+async function loadRedirectSources() {
+  const set = new Set();
+  for (const file of [join(root, "..", "netlify.toml"), join(root, "netlify.toml")]) {
+    try {
+      const text = await readFile(file, "utf8");
+      for (const m of text.matchAll(/^\s*from\s*=\s*"([^"]+)"/gm)) set.add(m[1]);
+    } catch {}
+  }
+  return set;
+}
+
 async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(join(dist, "assets"), { recursive: true });
@@ -2043,9 +2066,15 @@ async function build() {
     loadPairings(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
+  linkIndex.live = new Set(posts.map((post) => post.slug));
+  linkIndex.redirects = await loadRedirectSources();
   posts.forEach((post) => {
     post.html = markdownToHtml(post.body);
   });
+  if (linkIndex.held.size) {
+    const list = [...linkIndex.held].map(([slug, n]) => `${slug}${n > 1 ? ` x${n}` : ""}`).join(", ");
+    console.log(`Blog links shown as plain text until their post is live (${linkIndex.held.size}): ${list}`);
+  }
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
