@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
+import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -1216,6 +1217,7 @@ ${head}
       <div class="nav-links">
         <a class="nav-book" href="/ebook/">The Book</a>
         <a href="/boards/">Boards</a>
+        <a href="/holidays/">Holidays</a>
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
@@ -1237,6 +1239,7 @@ ${head}
         <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
         <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
         <a href="/boards/">Board Library</a>
+        <a href="/holidays/">Holiday Hub</a>
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/blog/">Blog</a>
@@ -1908,7 +1911,7 @@ function demoteBodyHeadings(html, title) {
   return out.replace(/<(\/?)h1\b([^>]*)>/gi, "<$1h2$2>");
 }
 
-function postPage(post, relatedPosts = [], autolinkIndex = [], board = null) {
+function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
     day: "numeric",
@@ -1945,6 +1948,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null) {
     <img class="post-image" src="${post.image}" alt="">
   </section>
   ${bookBar(`top_${post.slug}`)}
+  ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   <article class="post-body">
     ${postHtml}
   </article>
@@ -1956,7 +1960,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null) {
   });
 }
 
-function sitemap(posts, ingredients = [], boards = []) {
+function sitemap(posts, ingredients = [], boards = [], holidays = []) {
   const ingredientCategories = CATEGORY_ORDER.filter((c) =>
     ingredients.some((i) => i.category === c)
   );
@@ -1969,6 +1973,7 @@ function sitemap(posts, ingredients = [], boards = []) {
     { loc: "/privacy/", priority: "0.2" },
     ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
     ...(boards.some((b) => b.book === "world") ? [{ loc: "/around-the-world/", priority: "0.9" }] : []),
+    ...(holidays.length ? [{ loc: "/holidays/", priority: "0.9" }, ...holidays.map((x) => ({ loc: `/holidays/${x.slug}/`, priority: "0.9" }))] : []),
     ...BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug)).map((c) => ({
       loc: `/boards/${c.slug}/`,
       priority: "0.7"
@@ -2010,11 +2015,12 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, products, ingredients, boards] = await Promise.all([
+  const [allPosts, products, ingredients, boards, holidays] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse),
     loadIngredients(),
-    loadBoards(root)
+    loadBoards(root),
+    loadHolidays(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
   posts.forEach((post) => {
@@ -2025,14 +2031,16 @@ async function build() {
   // every board page promotes in the same order as the rest of the site.
   const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign) };
   // blog post -> the board plan it overlaps (first board that lists it)
+  const holidayForPost = new Map();
+  holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
   const boardForPost = new Map();
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
   // ingredient -> boards that use it
   const boardsUsing = new Map();
   boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
 
-  await writeFile(join(dist, "index.html"), homePage(posts, products, (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards));
+  await writeFile(join(dist, "index.html"), homePage(posts, products, (holidays.length ? `<div class="bl-inner">${holidayBanner(boardHelpers, holidays)}</div>${countdownJs()}` : "") + (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -2050,7 +2058,7 @@ async function build() {
       await mkdir(dir, { recursive: true });
       await writeFile(
         join(dir, "index.html"),
-        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null)
+        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null, holidayForPost.get(post.slug) || null)
       );
     })
   );
@@ -2138,6 +2146,18 @@ async function build() {
         await writeFile(join(dist, "boards", b.slug, "index.html"), boardPage(boardHelpers, b, { all: boards, bySlug, notes, blogTitles }));
       }
       console.log(`Board Library: ${boards.length} published boards`);
+    }
+    if (holidays.length) {
+      const boardsBySlug = new Map(boards.map((b) => [b.slug, b]));
+      const ingTitles = new Map(ingredients.map((i) => [i.slug, i.title]));
+      const blogTitles2 = new Map(posts.map((post) => [post.slug, post.title]));
+      await mkdir(join(dist, "holidays"), { recursive: true });
+      await writeFile(join(dist, "holidays", "index.html"), holidaysHub(boardHelpers, holidays));
+      for (const hol of holidays) {
+        await mkdir(join(dist, "holidays", hol.slug), { recursive: true });
+        await writeFile(join(dist, "holidays", hol.slug, "index.html"), holidayPage(boardHelpers, hol, { boardsBySlug, known: ingTitles, blogTitles: blogTitles2, holidays }));
+      }
+      console.log(`Holiday Hub: ${holidays.length} holiday pages`);
     }
     console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }

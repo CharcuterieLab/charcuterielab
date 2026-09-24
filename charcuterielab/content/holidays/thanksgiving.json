@@ -1,0 +1,59 @@
+{
+  "slug": "thanksgiving",
+  "name": "Thanksgiving",
+  "order": 2,
+  "dates": ["2026-11-26", "2027-11-25"],
+  "season": "Fall",
+  "status": "published",
+  "h1": "Thanksgiving Charcuterie Board Ideas",
+  "seo_title": "Thanksgiving Charcuterie Board Ideas (Easy + Turkey Board)",
+  "description": "Thanksgiving charcuterie board ideas: a turkey-shaped board, an easy board under $40, Friendsgiving and pre-dinner boards, plus how much to buy for 6 to 20 guests.",
+  "image": "/images/50-boards-20-thanksgiving.webp",
+  "answer": "A Thanksgiving charcuterie board should hold guests over, not fill them up: keep it light before dinner, lean on fall flavors (sharp cheddar, apple, pear, cranberry, pecans, maple) and serve it about an hour before the turkey. For a crowd, build the turkey-shaped board; for a small table, an easy board for under $40 does the job.",
+  "ideas": [
+    {
+      "title": "The Turkey-Shaped Board",
+      "for": "The showstopper · 12 guests",
+      "text": "A fan of crackers, salami and sliced cheese makes the tail; a round of Brie or a pear makes the body; a candied pecan and a pretzel make the face. Kids love it and it photographs well.",
+      "items": ["brie", "aged-cheddar", "genoa-salami", "prosciutto-di-parma", "pears", "apples", "candied-pecans", "water-crackers", "pretzel-crisps", "cranberry-sauce"],
+      "guests": 12
+    },
+    {
+      "title": "The Easy Board Under $40",
+      "for": "Small table · 6 guests",
+      "text": "One sharp cheddar, one soft cheese, one salami, apples and grapes, a sleeve of crackers and a jar of fig jam. Five minutes to build.",
+      "items": ["aged-cheddar", "brie", "genoa-salami", "apples", "grapes", "butter-crackers", "fig-jam", "pecans"],
+      "guests": 6
+    },
+    {
+      "title": "The Friendsgiving Potluck Anchor",
+      "for": "Friendsgiving · 16 guests",
+      "text": "A big board that goes on the table first so guests have something while the dishes arrive: two cheeses, two meats, roasted nuts, apple butter and plenty of crackers.",
+      "items": ["smoked-gouda", "cranberry-goat-cheese", "prosciutto-di-parma", "soppressata", "apple-butter", "spiced-nut-mix", "dried-cranberries", "pears", "rosemary-crackers", "baguette"],
+      "guests": 16
+    }
+  ],
+  "boards": ["thanksgiving-charcuterie-board", "fall-harvest-charcuterie-board", "plant-based-fall-harvest-board", "25-dollar-budget-charcuterie-board"],
+  "shapes": [
+    {"name": "Turkey Board", "shape": "turkey", "steps": ["Place a round of Brie or a halved pear low in the center as the body.", "Fan rows of crackers, salami, cheese slices and apple slices above it in a half circle for the tail.", "Give it a face: a candied pecan beak and two pretzel or olive eyes."]},
+    {"name": "Cornucopia Board", "shape": "cornucopia", "steps": ["Lay a curved line of breadsticks or a folded tortilla horn at one corner.", "Spill grapes, figs, apples and nuts out of the open end across the board.", "Tuck cheese and meat into the flow so it looks like a harvest spilling out."]},
+    {"name": "Leaf Garland Board", "shape": "garland", "steps": ["Run a diagonal line of cheese cut with a leaf-shaped cookie cutter across the board.", "Line both sides with folded salami and prosciutto.", "Fill the corners with pears, pecans and crackers."]}
+  ],
+  "plan": [
+    {"when": "1 week before", "what": "Order specialty cheese, and buy nuts, jams and crackers (they keep)."},
+    {"when": "2 days before", "what": "Buy fresh fruit, cheese and meat. Make or buy the dips."},
+    {"when": "Thanksgiving morning", "what": "Slice hard cheeses and fold meats; cover and chill. The oven belongs to the turkey, so do anything warm (baked Brie) now."},
+    {"when": "90 minutes before dinner", "what": "Take cheese out of the fridge. Build the board."},
+    {"when": "1 hour before dinner", "what": "Put the board out. Take it away when the turkey comes out so nobody fills up."}
+  ],
+  "builder": {"items": ["aged-cheddar", "brie", "smoked-gouda", "prosciutto-di-parma", "genoa-salami", "pears", "apples", "candied-pecans", "fig-jam", "water-crackers"], "guests": 12},
+  "book": "main",
+  "blog": ["thanksgiving-charcuterie-board", "fall-charcuterie-board"],
+  "faq": [
+    {"q": "Should you serve charcuterie before Thanksgiving dinner?", "a": "Yes, but keep it small: about 1 oz of cheese and 1 oz of meat per guest, set out an hour before dinner, so it holds people over without spoiling the meal."},
+    {"q": "How do you make a turkey-shaped charcuterie board?", "a": "Place a round of Brie or a pear low in the center as the body, fan crackers, salami and cheese above it as the tail, and use a pecan and two pretzels for the face."},
+    {"q": "What cheeses go best on a Thanksgiving board?", "a": "A sharp aged cheddar, a creamy Brie and one wildcard like smoked Gouda or a cranberry goat cheese. They all pair with apples, pears and cranberry."},
+    {"q": "Can I make a Thanksgiving charcuterie board the day before?", "a": "Prep the day before, build on the day. Slice hard cheeses and fold meats the night before, keep them covered in the fridge, and assemble on the board the day of."},
+    {"q": "What goes on a Friendsgiving charcuterie board?", "a": "Two cheeses, two meats, roasted nuts, apple butter or fig jam, fruit and lots of crackers. Make it big enough for 16 so it feeds people while the potluck dishes arrive."}
+  ]
+}

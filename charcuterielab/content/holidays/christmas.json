@@ -1,0 +1,59 @@
+{
+  "slug": "christmas",
+  "name": "Christmas",
+  "order": 3,
+  "dates": ["2026-12-25", "2027-12-25"],
+  "season": "Winter",
+  "status": "published",
+  "h1": "Christmas Charcuterie Board Ideas",
+  "seo_title": "Christmas Charcuterie Board Ideas (Wreath, Tree + Party)",
+  "description": "Christmas charcuterie board ideas: wreath, tree and candy cane boards, a Christmas Eve board, a holiday party board for 16, charcuterie cups, and how much to buy.",
+  "image": "/images/50-boards-06-holiday-entertaining.webp",
+  "answer": "The Christmas charcuterie boards people remember are shaped: a wreath of rosemary, salami and cheese around a bowl, or a tree built in rows on a rectangle. Use red and green on purpose (pomegranate, rosemary, cranberries, green olives), add one luxury cheese, and plan about 2 oz each of cheese and meat per guest.",
+  "ideas": [
+    {
+      "title": "The Christmas Wreath Board",
+      "for": "The showstopper · 12 guests",
+      "text": "A ring of rosemary sprigs, folded salami, cubed cheese, green grapes and pomegranate around a bowl of whipped feta or cranberry sauce. Every photo of it gets shared.",
+      "items": ["aged-cheddar", "manchego", "genoa-salami", "prosciutto-di-parma", "rosemary-sprigs", "pomegranate", "grapes", "castelvetrano-olives", "whipped-feta", "rosemary-crackers"],
+      "guests": 12
+    },
+    {
+      "title": "The Christmas Eve Board",
+      "for": "Family night · 8 guests",
+      "text": "A cozy board to graze through the evening: a baked Brie with cranberry, Stilton and port, prosciutto, pears and gingersnaps.",
+      "items": ["brie", "stilton", "prosciutto-di-parma", "pears", "cranberry-sauce", "walnuts", "gingersnaps", "baguette", "honey"],
+      "guests": 8
+    },
+    {
+      "title": "Christmas Charcuterie Cups",
+      "for": "Party on the move · 24 cups",
+      "text": "A rosemary-and-salami skewer, cheddar and Manchego cubes, three crackers and a few cranberries in a clear cup. Tie a red ribbon around each one.",
+      "items": ["genoa-salami", "aged-cheddar", "manchego", "rosemary-sprigs", "dried-cranberries", "water-crackers", "grissini"],
+      "guests": 24
+    }
+  ],
+  "boards": ["holiday-entertaining-board", "plant-based-holiday-board", "luxury-charcuterie-board", "office-party-charcuterie-board", "cocktail-party-charcuterie-board"],
+  "shapes": [
+    {"name": "Wreath Board", "shape": "wreath", "steps": ["Put a small bowl in the middle of a round board and lay a ring of rosemary sprigs around it.", "Build the ring out with folded salami, cheese cubes, grapes and green olives, alternating colors.", "Dot pomegranate seeds and cranberries on top, and tie a ribbon bow at the bottom."]},
+    {"name": "Christmas Tree Board", "shape": "tree", "steps": ["On a rectangle, lay a pretzel rod or cheese block as the trunk at the bottom.", "Build rows that get shorter as you go up: crackers, salami, cheese cubes, grapes, rosemary between each row.", "Top with a star cut from a slice of cheddar."]},
+    {"name": "Candy Cane Board", "shape": "candycane", "steps": ["Draw a J shape on a long board with a line of crackers.", "Fill it with alternating stripes of white (Brie, mozzarella) and red (salami, strawberries, red peppers).", "Frame it with rosemary and green grapes."]}
+  ],
+  "plan": [
+    {"when": "2 weeks before", "what": "Order specialty cheese and buy boards, cups, picks and ribbon."},
+    {"when": "1 week before", "what": "Buy crackers, nuts, jams and dried fruit. They keep."},
+    {"when": "2 days before", "what": "Buy cheese, meat and fresh fruit. Pick rosemary."},
+    {"when": "The morning of", "what": "Cut cheese, fold meats, make skewers. Cover and chill."},
+    {"when": "1 hour before", "what": "Take cheese out of the fridge and build the board: bowls, cheese, meat, then fruit, rosemary and the garnish."}
+  ],
+  "builder": {"items": ["aged-cheddar", "manchego", "brie", "stilton", "genoa-salami", "prosciutto-di-parma", "pomegranate", "grapes", "rosemary-crackers", "fig-jam"], "guests": 16},
+  "book": "world",
+  "blog": ["christmas-charcuterie-board", "holiday-board", "winter-charcuterie-board", "charcuterie-board-new-years-eve"],
+  "faq": [
+    {"q": "How do you make a charcuterie wreath?", "a": "Put a small bowl in the center of a round board, lay a ring of rosemary around it, then build the ring out with folded salami, cheese cubes, grapes and olives. Finish with pomegranate seeds and a ribbon bow."},
+    {"q": "How much charcuterie do I need for a Christmas party?", "a": "As an appetizer, about 2 oz of cheese and 2 oz of meat per guest, plus 5 to 6 crackers. For a party where the board is dinner, double it."},
+    {"q": "How far ahead can I make a Christmas charcuterie board?", "a": "Build it up to 4 hours ahead, cover it tightly and keep it in the fridge; add crackers just before serving. Cheese tastes best after 30 to 60 minutes out of the fridge."},
+    {"q": "What are the best Christmas cheeses?", "a": "Stilton with port is the English classic, Brie baked with cranberry is the crowd favorite, and an aged cheddar or Manchego is the easy all-rounder."},
+    {"q": "Can a charcuterie board be a Christmas gift?", "a": "Yes: a wooden board, a hard cheese that travels well, a salami, a jar of fig jam and crackers make a great hostess gift. Skip soft cheeses if it won't be opened the same day."}
+  ]
+}

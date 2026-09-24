@@ -3791,3 +3791,53 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .shop-print img{aspect-ratio:1/1}
 @media (max-width:600px){.shop-cover{height:240px}}
 @media (max-width:600px){.shop-print-body{flex-direction:column;gap:2px}}
+
+/* =====================================================================
+   Holiday Hub (/holidays/)
+   ===================================================================== */
+.hol-inner{padding:32px 0 24px}
+.hol-hero{display:grid;grid-template-columns:1.05fr 1fr;gap:32px;align-items:center}
+.hol-hero h1{margin:4px 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.1rem,4.6vw,3.2rem);line-height:1.08;color:var(--green-deep)}
+.hol-count{display:inline-block;margin:6px 0 12px;padding:5px 12px;border-radius:999px;background:var(--gold);color:var(--green-deep);font-weight:700;font-size:14px}
+.hol-count:empty{display:none}
+.hol-answer{font-family:Georgia,"Times New Roman",serif;font-size:1.12rem;line-height:1.65;color:var(--ink);margin:0 0 18px}
+.hol-photo{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:16px;box-shadow:0 18px 40px rgba(55,35,25,.16)}
+.hol-jump{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0 0}
+.hol-jump a{padding:7px 14px;border-radius:999px;border:1px solid rgba(17,58,39,.2);background:#fff;color:var(--green-deep);font-size:14px;font-weight:700;text-decoration:none}
+.hol-jump a:hover{background:var(--cream)}
+.hol-ideas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.hol-idea{display:flex;flex-direction:column;padding:20px;border-radius:14px;background:#fff;border:1px solid rgba(17,58,39,.12);box-shadow:0 10px 24px rgba(55,35,25,.06)}
+.hol-for{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark)}
+.hol-idea h3{margin:0 0 8px;font-family:Georgia,"Times New Roman",serif;font-size:1.25rem;color:var(--green-deep)}
+.hol-idea p{margin:0 0 10px;line-height:1.55}
+.hol-items{font-size:14px;color:var(--muted)}
+.hol-items a{color:var(--green);font-weight:700}
+.hol-idea .text-link{margin-top:auto;font-weight:700;color:var(--green)}
+.hol-shapes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.hol-shape{padding:16px;border-radius:14px;background:#fff;border:1px solid rgba(17,58,39,.12)}
+.hol-shape svg{width:100%;height:auto;display:block;margin-bottom:10px}
+.hol-shape h3{margin:0 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;color:var(--green-deep)}
+.hol-shape ol{margin:0;padding-left:20px;line-height:1.55;font-size:15px}
+.hol-plan li{border-radius:8px;padding-left:8px;padding-right:8px}
+.hol-plan li.is-now{background:#fdf3d6;border-bottom-color:transparent}
+.hol-plan li.is-now b::after{content:" · you are here";color:var(--gold-dark);font-weight:700;font-size:13px}
+.hol-amounts{width:100%;max-width:640px;border-collapse:collapse;margin-top:10px}
+.hol-amounts th,.hol-amounts td{padding:10px 12px;text-align:left;border-bottom:1px solid rgba(17,58,39,.14)}
+.hol-amounts th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark)}
+.hol-amounts a{color:var(--green);font-weight:700}
+.hol-next{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:6px 0 10px}
+.hol-next-card{display:flex;flex-direction:column;overflow:hidden;border-radius:14px;background:#fff;border:1px solid rgba(17,58,39,.12);text-decoration:none;color:inherit;box-shadow:0 10px 24px rgba(55,35,25,.07)}
+.hol-next-card img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.hol-next-body{display:flex;flex-direction:column;gap:4px;padding:14px 16px 16px}
+.hol-next-date{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark)}
+.hol-next-body strong{font-family:Georgia,"Times New Roman",serif;font-size:1.25rem;color:var(--green-deep)}
+.hol-next-body .hol-count{align-self:flex-start;margin:4px 0 0}
+.hol-cal{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.hol-cal li{display:flex;flex-direction:column;padding:12px 14px;border-radius:10px;background:#fff;border:1px solid rgba(17,58,39,.1)}
+.hol-cal a{font-weight:700;color:var(--green);font-size:1.05rem}
+.hol-cal span{font-weight:700;color:var(--muted)}
+.hol-cal em{font-style:normal;font-size:12px;color:var(--gold-dark);font-weight:700}
+.hol-cal small{color:var(--muted)}
+.hol-banner span [data-countdown]{font-weight:700}
+.post-main .hol-post-link{width:min(760px,calc(100% - 32px));margin:18px auto 0}
+@media (max-width:860px){.hol-hero{grid-template-columns:1fr}.hol-ideas,.hol-shapes,.hol-next{grid-template-columns:1fr}}

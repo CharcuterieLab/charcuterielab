@@ -72,7 +72,7 @@ export function builderLink(board, known) {
   return `/board-builder/?b=${slugs.join(",")}&g=${board.guests}&m=app&utm_source=charcuterielab&utm_medium=site&utm_campaign=board_${board.slug}`;
 }
 
-function card(b, h) {
+export function card(b, h) {
   const cat = catOf(b);
   const badges = [b.book === "plant" ? "Plant-based" : "", b.difficulty || ""].filter(Boolean);
   return `<li class="bl-card" data-cat="${b.category}" data-plant="${b.book === "plant" ? 1 : 0}" data-guests="${b.guests}">
@@ -190,7 +190,7 @@ ${h.labNext(`boards_${cat.slug}`, { skip: ["book"], heading: "Plan your own" })}
   });
 }
 
-function worldOffer(h, campaign, { heading = "Get the full blueprint", lead = "" } = {}) {
+export function worldOffer(h, campaign, { heading = "Get the full blueprint", lead = "" } = {}) {
   const W = WORLD_BOOK;
   const buy = W.status === "live" && W.paperbackUrl;
   return `<section class="bl-book bl-world" aria-labelledby="bl-book-title">

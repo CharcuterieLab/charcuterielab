@@ -1,0 +1,59 @@
+{
+  "slug": "halloween",
+  "name": "Halloween",
+  "order": 1,
+  "dates": ["2026-10-31", "2027-10-31"],
+  "season": "Fall",
+  "status": "published",
+  "h1": "Halloween Charcuterie Board Ideas",
+  "seo_title": "Halloween Charcuterie Board Ideas (Adults, Kids + Cups)",
+  "description": "Halloween charcuterie board ideas for adults and kids: a spooky grown-up board, a kids' board, charcuterie cups, pumpkin and spiderweb shapes, and how much to buy.",
+  "image": "/images/halloween-charcuterie-board.png",
+  "answer": "The best Halloween charcuterie board keeps the food good and lets the color do the spooky work: orange cheddar, black olives and blackberries, dark crackers and blood-red salami. Make a grown-up board with a sharp cheese and a bold drink, a kids' board with mild cheese and candy, or portable charcuterie cups for a party that moves around.",
+  "ideas": [
+    {
+      "title": "The Grown-Up Spooky Board",
+      "for": "Adults' party · 10 guests",
+      "text": "Aged cheddar and bright-orange Mimolette, spicy soppressata and chorizo, blood oranges, black grapes and dark charcoal crackers. Serve with a smoky mezcal or a dark stout.",
+      "items": ["aged-cheddar", "mimolette", "soppressata", "chorizo", "blood-oranges", "grapes", "charcoal-crackers", "kalamata-olives", "fig-jam", "dark-chocolate"],
+      "guests": 10
+    },
+    {
+      "title": "The Kids' Monster Board",
+      "for": "Kids' party · 12 kids",
+      "text": "Mild cheddar and pepper-free salami cut with Halloween cookie cutters, pretzels as broomsticks, apples, grapes and a little candy corn for the final touch.",
+      "items": ["edam", "monterey-jack", "pepperoni", "pretzel-crisps", "apples", "grapes", "butter-crackers", "chocolate-covered-almonds"],
+      "guests": 12
+    },
+    {
+      "title": "Halloween Charcuterie Cups",
+      "for": "Party on the move · 20 cups",
+      "text": "A skewer of salami and cheese, three crackers and a few olives or grapes in a 9 oz clear cup. Wrap the cup in orange or black paper or draw a jack-o'-lantern face on it.",
+      "items": ["genoa-salami", "aged-cheddar", "water-crackers", "castelvetrano-olives", "grapes", "grissini"],
+      "guests": 20
+    }
+  ],
+  "boards": ["game-day-charcuterie-board", "cocktail-party-charcuterie-board", "25-dollar-budget-charcuterie-board"],
+  "shapes": [
+    {"name": "Jack-o'-Lantern Board", "shape": "pumpkin", "steps": ["Use a round board. Fill the whole circle with orange: cheddar cubes, dried apricots and mandarin segments.", "Make the eyes and mouth with black olives, blackberries or dark crackers.", "Add a stem of rosemary or a green pepper at the top."]},
+    {"name": "Spiderweb Board", "shape": "web", "steps": ["Pipe or spoon a web of sour cream or labneh over a round dip, or lay pretzel sticks as the web lines.", "Fill the spaces between the lines with salami, cheese and crackers.", "Finish with one 'spider' made of a black olive and pretzel legs."]},
+    {"name": "Cauldron Board", "shape": "cauldron", "steps": ["Set a small black pot or bowl of dip in the center: pimento cheese or a green herb dip.", "Circle it with dippers: crackers, pretzels and breadsticks.", "Surround the circle with meat, cheese and grapes, like fire under the pot."]}
+  ],
+  "plan": [
+    {"when": "1 week before", "what": "Pick your board and buy cups, cookie cutters and any decorations."},
+    {"when": "2 days before", "what": "Shop for cheese, meat, crackers and fruit. Buy crackers in sealed sleeves so they stay crisp."},
+    {"when": "The morning of", "what": "Cut cheese shapes and fold meats. Keep them covered in the fridge."},
+    {"when": "1 hour before", "what": "Take cheese out to lose its chill. Assemble cups now; they hold 2 hours."},
+    {"when": "30 minutes before", "what": "Build the board: bowls first, then cheese, meat, crackers, fruit, then the spooky details."}
+  ],
+  "builder": {"items": ["aged-cheddar", "mimolette", "soppressata", "genoa-salami", "grapes", "blood-oranges", "charcoal-crackers", "pretzel-crisps", "kalamata-olives", "dark-chocolate"], "guests": 12},
+  "book": "main",
+  "blog": ["halloween-charcuterie-board", "fall-charcuterie-board"],
+  "faq": [
+    {"q": "How do you make a charcuterie board spooky without ruining the food?", "a": "Let color do the work: orange cheeses and fruit, black olives, blackberries and charcoal crackers, and one or two shapes cut with a cookie cutter. Skip food dye and fake props that touch the food."},
+    {"q": "How much charcuterie do I need for a Halloween party?", "a": "As an appetizer, plan about 2 oz of cheese and 2 oz of meat per guest, plus 5 to 6 crackers. If the board is the main food, double it."},
+    {"q": "How far ahead can I make charcuterie cups?", "a": "Up to 2 hours ahead at room temperature, or the morning of if you keep them covered in the fridge. Add crackers last so they stay crisp."},
+    {"q": "What cheese is naturally orange?", "a": "Orange cheddar, Mimolette and Red Leicester. All three are colored with annatto, a natural seed extract, and all three look right on a Halloween board."},
+    {"q": "What should I serve with a Halloween charcuterie board?", "a": "For adults, a dark beer, a smoky mezcal cocktail or apple cider. For kids, sparkling apple cider or orange soda in clear cups."}
+  ]
+}
