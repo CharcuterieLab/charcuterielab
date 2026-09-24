@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "aged", "italian", "sheep"]
-pairs_with: ["pecorino-toscano", "parmigiano-reggiano", "taralli", "friselle", "truffle-honey", "cherry-preserves", "oil-cured-olives", "cracked-black-pepper"]
+pairs_with: ["pecorino-toscano", "parmigiano-reggiano", "taralli", "friselle", "truffle-honey", "cherry-preserves", "oil-cured-olives", "cracked-black-pepper", "honey"]
 avoid_with: ["feta", "delicate-fresh-cheese"]
 faq: "[{"question": "Why is pecorino so much saltier than parmesan?", "answer": "It's dry-salted repeatedly over weeks rather than brined once, and sheep's milk carries salt differently than cow's milk."}, {"question": "Pecorino Romano vs. Pecorino Toscano?", "answer": "Romano is hard, dry and very salty. Toscano is softer, milder and much more approachable on a board."}, {"question": "How much per person?", "answer": "Under an ounce. It's very intense."}, {"question": "What's the one thing to serve with it?", "answer": "Honey. It's the traditional Roman pairing and it makes the cheese work on a board."}, {"question": "Can I use it instead of parmesan?", "answer": "For grating, often yes — but reduce the salt elsewhere in the dish. On a board they're genuinely different cheeses."}]"
 ---

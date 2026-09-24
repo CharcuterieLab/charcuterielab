@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "aged", "french", "alpine"]
-pairs_with: ["gruyere", "beaufort", "emmental", "baguette", "jambon-de-bayonne", "hazelnuts", "roasted-chestnuts", "onion-jam", "nicoise-olives", "cornichons", "marinated-mushrooms"]
+pairs_with: ["gruyere", "beaufort", "emmental", "baguette", "jambon-de-bayonne", "hazelnuts", "roasted-chestnuts", "onion-jam", "nicoise-olives", "cornichons", "marinated-mushrooms", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Comté or Gruyère?", "answer": "Comté is fruitier and more varied; Gruyère is saltier and more direct. Comté is usually the better value."}, {"question": "Why do two pieces taste different?", "answer": "Summer milk from mountain pasture versus winter hay-fed milk. The seasonal difference is real and visible in the color."}, {"question": "Can you eat the rind?", "answer": "Technically yes, but it's tough and unpleasant. Trim it."}, {"question": "What does the green band mean?", "answer": "The wheel scored above 14 out of 20 in the mandatory jury tasting."}, {"question": "How much per person?", "answer": "1–2 oz as one of three cheeses."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "garnish"
 prep_time: "2 minutes"
 allergens: []
 tags: ["finishing", "herbs", "italian", "garnish", "summer"]
-pairs_with: ["burrata", "fresh-mozzarella", "sun-dried-tomatoes", "olive-oil", "balsamic-glaze"]
+pairs_with: ["burrata", "fresh-mozzarella", "sun-dried-tomatoes", "olive-oil", "balsamic-glaze", "prosciutto-di-parma"]
 avoid_with: []
 faq: "[{"question": "Should I tear or chop basil?", "answer": "Tear it. Chopping bruises the leaves and turns the cut edges black within minutes."}, {"question": "Why does my basil go black?", "answer": "Cold, mostly. Basil should never go in the fridge — keep it stem-down in a glass of water on the counter."}, {"question": "When do I add basil to a board?", "answer": "Last, right before serving. It wilts and darkens quickly once it's on cheese."}, {"question": "What goes with fresh basil?", "answer": "Burrata and fresh mozzarella above all, plus sun-dried tomatoes, olive oil and balsamic glaze."}, {"question": "Is a basil plant better than cut basil?", "answer": "Yes — it stays fresh for weeks rather than days, and it costs about the same as two bunches."}]"
 ---

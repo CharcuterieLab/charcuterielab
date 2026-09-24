@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "paprika", "budget"]
-pairs_with: ["salchichon", "fuet", "manchego", "mahon", "olive-oil-crackers", "manzanilla-olives", "pickled-jalapenos", "pepper-jack"]
+pairs_with: ["salchichon", "fuet", "manchego", "mahon", "olive-oil-crackers", "manzanilla-olives", "pickled-jalapenos", "pepper-jack", "marcona-almonds", "membrillo"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What's the difference between Spanish and Mexican chorizo?", "answer": "Spanish chorizo is cured, firm and sliceable, flavoured with smoked paprika. Mexican chorizo is raw, soft and made with fresh chilies and vinegar — it has to be cooked."}, {"question": "Dulce or picante?", "answer": "Dulce is sweet-smoky and mild; picante has hot pimentón. Dulce is the safer board choice."}, {"question": "Why is the fat orange?", "answer": "Paprika is fat-soluble, so the colour leaches into the fat during curing."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but tough. Most people peel it."}]"
 ---

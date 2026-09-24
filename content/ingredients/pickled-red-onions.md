@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "15 minutes"
 allergens: []
 tags: ["pickles", "budget", "make-ahead", "mexican", "vegetarian"]
-pairs_with: ["fresh-chevre", "burrata", "prosciutto-di-parma", "hummus", "aged-cheddar", "tinned-mackerel"]
+pairs_with: ["fresh-chevre", "burrata", "prosciutto-di-parma", "hummus", "aged-cheddar", "tinned-mackerel", "capers", "cream-cheese"]
 avoid_with: []
 faq: "[{"question": "How do you make pickled red onions?", "answer": "Slice one red onion thin, cover with 1/2 cup vinegar, 1/2 cup hot water, 1 tbsp sugar and 1.5 tsp salt. Ready in 20 minutes."}, {"question": "Why do they turn pink?", "answer": "The vinegar's acid reacts with anthocyanin pigments in the onion skin, shifting the colour from purple to bright magenta."}, {"question": "How long do they keep?", "answer": "Two to three weeks in the fridge, best in the first few days."}, {"question": "What do they go with?", "answer": "Fresh goat cheese, burrata, cured meat, hummus and smoked salmon."}, {"question": "Do I need a mandoline?", "answer": "It helps. Thin slices pickle faster, taste milder and turn a better colour."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1.5–2 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["italian", "ham", "mild", "kids", "crowd-pleaser"]
-pairs_with: ["fontina", "fresh-mozzarella", "focaccia", "grissini", "dijon-mustard", "melon"]
+pairs_with: ["fontina", "fresh-mozzarella", "focaccia", "grissini", "dijon-mustard", "melon", "cornichons", "gruyere"]
 avoid_with: []
 faq: "[{"question": "What is the difference between prosciutto cotto and prosciutto crudo?", "answer": "Cotto is cooked ham — mild, moist and pale pink. Crudo is the dry-cured ham most people mean by prosciutto, and is salty and intense."}, {"question": "Is prosciutto cotto just deli ham?", "answer": "It is better made. A whole muscle is brined and slowly steamed rather than pressed from trimmings, so it slices cleanly and tastes of pork."}, {"question": "Is it good for a kids' board?", "answer": "It is the single best meat for one. Mild, sweet, familiar and not salty."}, {"question": "What cheese goes with it?", "answer": "Fontina above all, then fresh mozzarella. Mild with mild, which is the point."}, {"question": "How much per person?", "answer": "An ounce and a half to two ounces. People eat more of it than they do of cured ham."}]"
 ---

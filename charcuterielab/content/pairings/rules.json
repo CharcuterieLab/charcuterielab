@@ -1,0 +1,8 @@
+[
+  {"id": "fat-tannin", "name": "Fat tames tannin", "line": "Tannin grips your tongue; fat and protein give it something softer to grab, so a firm red tastes smoother next to aged cheese or salami.", "posts": ["fat-tannin", "wine-charcuterie-pairing"]},
+  {"id": "acid", "name": "Acid cuts richness", "line": "Bright acid in wine, fruit or pickles rinses butterfat off your palate, so the next bite of a creamy cheese tastes as good as the first.", "posts": ["acid-rule", "acid-contrast"]},
+  {"id": "salt-sweet", "name": "Salt loves sweet", "line": "Salt makes sweetness taste rounder and sweetness makes salt taste less harsh, which is why ham and melon or blue cheese and honey work.", "posts": ["salt-sweet-principle", "pairing-by-contrast"]},
+  {"id": "weight", "name": "Match the weight", "line": "Light with light, bold with bold. A delicate cheese disappears next to a heavy red; a pungent one flattens a crisp white.", "posts": ["wine-charcuterie-pairing", "pairing-by-contrast"]},
+  {"id": "place", "name": "What grows together goes together", "line": "Foods and drinks from the same region grew up on the same tables, so Manchego and Rioja or Parmigiano and Lambrusco rarely miss.", "posts": ["chorizo-manchego-pairing", "wine-charcuterie-pairing"]},
+  {"id": "texture", "name": "Contrast the texture", "line": "Crisp against creamy and chewy against crunchy keeps every bite interesting; bubbles do the same job in a glass.", "posts": ["texture-contrast", "color-and-flavor"]}
+]

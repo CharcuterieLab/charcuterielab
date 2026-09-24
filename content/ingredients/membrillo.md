@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["spread", "spanish", "preserve", "crowd-pleaser", "year-round"]
-pairs_with: ["manchego", "idiazabal", "marcona-almonds", "jamon-serrano", "aged-gouda"]
+pairs_with: ["manchego", "idiazabal", "marcona-almonds", "jamon-serrano", "aged-gouda", "chorizo"]
 avoid_with: []
 faq: "[{"question": "What is membrillo?", "answer": "Quince paste — quince cooked with sugar until it sets firm enough to slice. A Spanish cheese-board staple."}, {"question": "What cheese goes with membrillo?", "answer": "Manchego above all, plus other aged sheep cheeses, aged gouda, and blue cheese."}, {"question": "How do I cut membrillo?", "answer": "Into thin slices or batons with a hot dry knife, wiped between cuts."}, {"question": "Is membrillo the same as quince jelly?", "answer": "No — jelly is spoonable, membrillo is firm enough to slice and eat by hand."}, {"question": "How long does it keep?", "answer": "Months in the fridge, wrapped. It's a preserve, and a very stable one."}]"
 ---

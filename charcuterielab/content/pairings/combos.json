@@ -1,0 +1,314 @@
+{
+ "pairs": [
+  {
+   "foods": [
+    "brie",
+    "fig-jam"
+   ],
+   "name": "Brie + Fig Jam",
+   "why": "Sweet, dense jam against mild, salty cream. The pairing most people try first, for good reason.",
+   "rule": "salt-sweet",
+   "post": "brie-fig-jam-walnut-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "manchego",
+    "membrillo"
+   ],
+   "name": "Manchego + Membrillo",
+   "why": "Spain's nutty sheep's cheese with its own quince paste. Firm and sweet, salty and floral.",
+   "rule": "place",
+   "post": "manchego-membrillo-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "prosciutto-di-parma",
+    "melon"
+   ],
+   "name": "Prosciutto + Melon",
+   "why": "Salt makes the melon sweeter; the melon's water makes the ham taste silkier.",
+   "rule": "salt-sweet",
+   "post": "prosciutto-melon-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "parmigiano-reggiano",
+    "balsamic-glaze"
+   ],
+   "name": "Parmigiano + Balsamic",
+   "why": "Two products of Emilia-Romagna: salty crystals and sweet-tart glaze.",
+   "rule": "place",
+   "post": "",
+   "featured": false
+  },
+  {
+   "foods": [
+    "gorgonzola",
+    "fig-jam"
+   ],
+   "name": "Gorgonzola + Fig Jam",
+   "why": "Sweet jam rounds off blue cheese's sharp, salty edge.",
+   "rule": "salt-sweet",
+   "post": "gorgonzola-fig-jam-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "stilton",
+    "walnuts"
+   ],
+   "name": "Stilton + Walnuts",
+   "why": "Crunchy, slightly bitter walnuts against rich, crumbly blue.",
+   "rule": "texture",
+   "post": "stilton-port-walnut-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "apples"
+   ],
+   "name": "Aged Cheddar + Apple",
+   "why": "Crisp, tart apple cuts the fat of a sharp cheddar and resets your palate.",
+   "rule": "acid",
+   "post": "aged-cheddar-apple-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "burrata",
+    "prosciutto-di-parma"
+   ],
+   "name": "Burrata + Prosciutto",
+   "why": "Cool, milky cream against salty, silky ham.",
+   "rule": "texture",
+   "post": "burrata-prosciutto-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "chorizo",
+    "manchego"
+   ],
+   "name": "Chorizo + Manchego",
+   "why": "The Spanish tapas pair: smoky paprika pork and nutty sheep's cheese.",
+   "rule": "place",
+   "post": "chorizo-manchego-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey"
+   ],
+   "name": "Goat Cheese + Honey",
+   "why": "Honey softens chèvre's tang; the tang keeps honey from tasting cloying.",
+   "rule": "salt-sweet",
+   "post": "chevre-honey-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "mortadella",
+    "pistachios"
+   ],
+   "name": "Mortadella + Pistachios",
+   "why": "Bologna's silky sausage already has pistachios inside. Serve extra on the side.",
+   "rule": "place",
+   "post": "",
+   "featured": false
+  },
+  {
+   "foods": [
+    "pecorino-romano",
+    "honey"
+   ],
+   "name": "Pecorino + Honey",
+   "why": "Sharp, salty sheep's cheese with a drizzle of honey. A Roman after-dinner classic.",
+   "rule": "salt-sweet",
+   "post": "pecorino-honey-pairing",
+   "featured": false
+  }
+ ],
+ "trios": [
+  {
+   "foods": [
+    "brie",
+    "fig-jam",
+    "walnuts"
+   ],
+   "name": "Brie + Fig Jam + Walnuts",
+   "why": "Creamy, sweet and crunchy in one bite. The walnut adds the texture brie lacks.",
+   "rule": "texture",
+   "post": "brie-fig-jam-walnut-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "gorgonzola",
+    "pears",
+    "walnuts"
+   ],
+   "name": "Gorgonzola + Pear + Walnuts",
+   "why": "Juicy pear cools the blue, walnuts add crunch and a bitter edge.",
+   "rule": "salt-sweet",
+   "post": "blue-cheese-pear-walnut-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "prosciutto-di-parma",
+    "melon",
+    "fresh-mint"
+   ],
+   "name": "Prosciutto + Melon + Mint",
+   "why": "Mint adds a cool, bright top note to the salt-sweet classic.",
+   "rule": "salt-sweet",
+   "post": "prosciutto-melon-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "smoked-salmon",
+    "cream-cheese",
+    "capers"
+   ],
+   "name": "Smoked Salmon + Cream Cheese + Capers",
+   "why": "Smoke, cream and brine: the bagel-shop trio.",
+   "rule": "acid",
+   "post": "smoked-salmon-cream-cheese-capers-lemon-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "comte",
+    "pears",
+    "walnuts"
+   ],
+   "name": "Comté + Pear + Walnuts",
+   "why": "Nutty cheese, nutty walnut, and pear to keep it fresh.",
+   "rule": "weight",
+   "post": "comte-pear-walnut-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "manchego",
+    "chorizo",
+    "marcona-almonds"
+   ],
+   "name": "Manchego + Chorizo + Marcona Almonds",
+   "why": "A tapas bar in three bites: nutty, smoky and salty-crunchy.",
+   "rule": "place",
+   "post": "",
+   "featured": true
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey",
+    "pistachios"
+   ],
+   "name": "Goat Cheese + Honey + Pistachios",
+   "why": "Tangy, sweet and crunchy, with a green-and-gold look that photographs well.",
+   "rule": "texture",
+   "post": "chevre-honey-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "aged-gouda",
+    "dark-chocolate",
+    "flaky-sea-salt"
+   ],
+   "name": "Aged Gouda + Dark Chocolate + Sea Salt",
+   "why": "Caramel crystals, bitter cocoa and a pinch of salt: a dessert board in one bite.",
+   "rule": "salt-sweet",
+   "post": "aged-gouda-dark-chocolate-sea-salt-pairing",
+   "featured": false
+  }
+ ],
+ "quartets": [
+  {
+   "foods": [
+    "burrata",
+    "prosciutto-di-parma",
+    "fresh-basil",
+    "olive-oil"
+   ],
+   "name": "Burrata + Prosciutto + Basil + Olive Oil",
+   "why": "An Italian summer plate: cream, salt, herb and a peppery finish.",
+   "rule": "texture",
+   "post": "prosciutto-burrata-basil-olive-oil-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "manchego",
+    "chorizo",
+    "membrillo",
+    "marcona-almonds"
+   ],
+   "name": "The Spanish Four",
+   "why": "Nutty cheese, smoky pork, sweet quince and salty almonds. Every Spanish tapas flavor on one cracker.",
+   "rule": "place",
+   "post": "",
+   "featured": true
+  },
+  {
+   "foods": [
+    "smoked-salmon",
+    "cream-cheese",
+    "capers",
+    "pickled-red-onions"
+   ],
+   "name": "The Bagel Board Four",
+   "why": "Smoke, cream, brine and sharp pickled onion. Put it on a bagel chip.",
+   "rule": "acid",
+   "post": "smoked-salmon-cream-cheese-capers-lemon-pairing",
+   "featured": false
+  },
+  {
+   "foods": [
+    "brie",
+    "pears",
+    "honey",
+    "walnuts"
+   ],
+   "name": "Brie + Pear + Honey + Walnuts",
+   "why": "Soft, juicy, sweet and crunchy: four textures that make mild brie taste bigger.",
+   "rule": "texture",
+   "post": "brie-pear-honey-walnut-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "gruyere",
+    "prosciutto-cotto",
+    "cornichons",
+    "dijon-mustard"
+   ],
+   "name": "The French Ham & Cheese",
+   "why": "Nutty Gruyère, sweet ham, sour cornichons and sharp Dijon: a croque-monsieur without the bread.",
+   "rule": "acid",
+   "post": "gruyere-ham-cornichon-dijon-pairing",
+   "featured": true
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey",
+    "figs",
+    "pistachios"
+   ],
+   "name": "Goat Cheese + Fig + Honey + Pistachio",
+   "why": "Tangy, jammy, sweet and crunchy. The prettiest bite on a fall board.",
+   "rule": "salt-sweet",
+   "post": "",
+   "featured": false
+  }
+ ]
+}

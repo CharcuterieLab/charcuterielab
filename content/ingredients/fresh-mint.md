@@ -13,7 +13,7 @@ serving_per_person: "a sprig"
 prep_time: "2 minutes"
 allergens: []
 tags: ["herb", "garnish", "fresh", "vegan", "budget"]
-pairs_with: ["melon", "berries", "feta", "labneh", "medjool-dates", "fresh-mozzarella"]
+pairs_with: ["melon", "berries", "feta", "labneh", "medjool-dates", "fresh-mozzarella", "prosciutto-di-parma"]
 avoid_with: []
 faq: "[{"question": "Does mint belong on a charcuterie board?", "answer": "On the fruit and mezze parts of one, yes. Beside cured meat and aged cheese, rosemary or thyme is the better herb."}, {"question": "Which mint should I buy?", "answer": "Spearmint is the standard sweet mint and the one to use. Peppermint is sharper and more medicinal."}, {"question": "How do I keep it from wilting?", "answer": "Stand the bunch in a glass of water like flowers, and put whole sprigs on the board rather than picked leaves."}, {"question": "What does mint go with on a board?", "answer": "Melon, berries, feta, labneh and dates. Anything sweet, watery or dairy."}, {"question": "How much per person?", "answer": "A sprig. It is a garnish and an aroma."}]"
 ---

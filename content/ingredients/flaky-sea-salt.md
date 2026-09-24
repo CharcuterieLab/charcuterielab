@@ -13,7 +13,7 @@ serving_per_person: "a pinch"
 prep_time: "0 minutes"
 allergens: []
 tags: ["finishing", "salt", "beginner", "essential", "year-round"]
-pairs_with: ["burrata", "honey", "dark-chocolate", "olive-oil", "fresh-mozzarella"]
+pairs_with: ["burrata", "honey", "dark-chocolate", "olive-oil", "fresh-mozzarella", "aged-gouda"]
 avoid_with: []
 faq: "[{"question": "Why use flaky salt instead of regular salt?", "answer": "The flakes dissolve slowly, so you get a distinct burst of salt and a crunch rather than uniform saltiness. That contrast is what makes it a finishing salt."}, {"question": "What do you put flaky salt on?", "answer": "Burrata, honey-drizzled cheese, dark chocolate, olive oil, and fresh fruit."}, {"question": "Is Maldon worth it?", "answer": "Yes. It's a few dollars a box, lasts a year, and it's the most noticeable cheap upgrade you can make to a board."}, {"question": "Should I grind it?", "answer": "No — grinding destroys the flakes and the whole point of the product."}, {"question": "How do I store it?", "answer": "Somewhere dry, with the lid on. Humidity turns flakes into a solid block."}]"
 ---

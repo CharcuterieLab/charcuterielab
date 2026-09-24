@@ -4,6 +4,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
+import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls } from "./pairings.mjs";
 import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -705,6 +706,7 @@ async function loadIngredients() {
         boardPost: data.board_post ?? "",
         image: data.image || photos.get(slug) || "",
         faq: parseFaqField(data.faq),
+        body,
         html: sensoryBlock(markdownToHtml(body))
       };
     })
@@ -1060,7 +1062,7 @@ function ingredientBodyHtml(html, blogSlugs) {
   return out;
 }
 
-function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = []) {
+function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "") {
   const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
   const spec = [
@@ -1121,6 +1123,7 @@ ${related
     </section>`
         : ""
     }
+    ${pairingBlock}
     ${
       boardsUsing.length
         ? `<section class="ing-boards">
@@ -1220,6 +1223,7 @@ ${head}
         <a href="/holidays/">Holidays</a>
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
+        <a href="/pairings/">Pairings</a>
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
       </div>
@@ -1242,6 +1246,7 @@ ${head}
         <a href="/holidays/">Holiday Hub</a>
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
+        <a href="/pairings/">Pairings Hub</a>
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
         <a href="/#newsletter">Newsletter</a>
@@ -1960,7 +1965,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   });
 }
 
-function sitemap(posts, ingredients = [], boards = [], holidays = []) {
+function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []) {
   const ingredientCategories = CATEGORY_ORDER.filter((c) =>
     ingredients.some((i) => i.category === c)
   );
@@ -1993,7 +1998,8 @@ function sitemap(posts, ingredients = [], boards = [], holidays = []) {
       loc: `/blog/${post.slug}/`,
       lastmod: post.date,
       priority: "0.7"
-    }))
+    })),
+    ...extra
   ];
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -2015,12 +2021,13 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, products, ingredients, boards, holidays] = await Promise.all([
+  const [allPosts, products, ingredients, boards, holidays, pairingData] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse),
     loadIngredients(),
     loadBoards(root),
-    loadHolidays(root)
+    loadHolidays(root),
+    loadPairings(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
   posts.forEach((post) => {
@@ -2040,7 +2047,10 @@ async function build() {
   boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
 
   await writeFile(join(dist, "index.html"), homePage(posts, products, (holidays.length ? `<div class="bl-inner">${holidayBanner(boardHelpers, holidays)}</div>${countdownJs()}` : "") + (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays));
+  // Pairings Hub index: built before any page so ingredient and holiday pages
+  // can link into it. Throws if the pairing data disagrees with itself.
+  const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, pairingUrls(pairIdx)));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -2085,7 +2095,7 @@ async function build() {
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || []));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item)));
       })
     );
 
@@ -2155,9 +2165,37 @@ async function build() {
       await writeFile(join(dist, "holidays", "index.html"), holidaysHub(boardHelpers, holidays));
       for (const hol of holidays) {
         await mkdir(join(dist, "holidays", hol.slug), { recursive: true });
-        await writeFile(join(dist, "holidays", hol.slug, "index.html"), holidayPage(boardHelpers, hol, { boardsBySlug, known: ingTitles, blogTitles: blogTitles2, holidays }));
+        const pour = holidayPourBlock(boardHelpers, pairIdx, hol.slug);
+        let holHtml = holidayPage(boardHelpers, hol, { boardsBySlug, known: ingTitles, blogTitles: blogTitles2, holidays });
+        if (pour) {
+          holHtml = holHtml
+            .replace('<a href="#faq">Questions</a>', '<a href="#pour">What to pour</a><a href="#faq">Questions</a>')
+            .replace('<section class="bl-section" id="faq"', `${pour}\n\n    <section class="bl-section" id="faq"`);
+        }
+        await writeFile(join(dist, "holidays", hol.slug, "index.html"), holHtml);
       }
       console.log(`Holiday Hub: ${holidays.length} holiday pages`);
+    }
+    if (pairIdx) {
+      const pairSrc = join(root, "src", "pairings", "pairings.js");
+      const pairScript = await readFile(pairSrc, "utf8");
+      const pairJson = pairingsClientData(pairIdx, categoryArt, CATEGORY_ORDER);
+      await writeFile(join(dist, "assets", "pairings.js"), pairScript);
+      await writeFile(join(dist, "assets", "pairings-data.json"), pairJson);
+      const pages = pairingPages(boardHelpers, pairIdx, {
+        categoryArt,
+        categories: CATEGORY_ORDER,
+        boardsUsing,
+        boardsBySlug: new Map(boards.map((b) => [b.slug, b])),
+        scriptSrc: `/assets/pairings.js?v=${hash(pairScript)}`,
+        dataSrc: `/assets/pairings-data.json?v=${hash(pairJson)}`,
+        photos: new Set(await readdir(join(paths.public, "images", "pairings")).catch(() => []))
+      });
+      for (const pg of pages) {
+        await mkdir(join(dist, dirname(pg.path)), { recursive: true });
+        await writeFile(join(dist, pg.path), pg.html);
+      }
+      console.log(`Pairings Hub: ${pages.length} pages, ${pairIdx.drinks.length} drinks, ${pairIdx.foods.length} food guides, ${pairIdx.combos.length} combos, ${pairIdx.reasons.size} reasons`);
     }
     console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }

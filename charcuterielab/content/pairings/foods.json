@@ -1,0 +1,477 @@
+[
+ {
+  "slug": "brie",
+  "top": [
+   "fig-jam",
+   "pears",
+   "walnuts"
+  ],
+  "answer": "Brie goes best with fig jam, pears, honey and walnuts, on a plain baguette or water cracker. Sweet, juicy and crunchy partners give a mild, creamy cheese the contrast it's missing.",
+  "faq": [
+   {
+    "q": "What fruit goes with brie?",
+    "a": "Pears, apples, grapes, figs and apricots. Juicy fruit cuts the butterfat."
+   },
+   {
+    "q": "What wine goes with brie?",
+    "a": "Champagne or sparkling wine first, then oaked Chardonnay or a light red like Pinot Noir or Beaujolais."
+   }
+  ]
+ },
+ {
+  "slug": "camembert",
+  "top": [
+   "baguette",
+   "brie",
+   "smoked-salmon"
+  ],
+  "answer": "Camembert goes best with baguette, apples, dry cider and other bloomy-rind cheeses. It's stronger and more mushroomy than brie, so pair it with crisp, fresh partners.",
+  "faq": [
+   {
+    "q": "Camembert or brie?",
+    "a": "Camembert is smaller, stronger and earthier. Choose it if brie tastes bland to you."
+   },
+   {
+    "q": "What drink goes with Camembert?",
+    "a": "Dry Normandy cider is the classic; Chardonnay and Beaujolais work too."
+   }
+  ]
+ },
+ {
+  "slug": "aged-cheddar",
+  "top": [
+   "apples",
+   "whole-grain-mustard",
+   "mango-chutney"
+  ],
+  "answer": "Aged cheddar goes best with crisp apples, chutney, whole-grain mustard, pickles and honey. Sharp, salty cheddar needs sweet or tart partners to balance it.",
+  "faq": [
+   {
+    "q": "What fruit goes with sharp cheddar?",
+    "a": "Apples above all, plus pears, grapes and dried cranberries."
+   },
+   {
+    "q": "What drink goes with aged cheddar?",
+    "a": "Cabernet Sauvignon, dry cider, IPA or stout. Cheddar is one of the most drink-friendly cheeses."
+   }
+  ]
+ },
+ {
+  "slug": "aged-gouda",
+  "top": [
+   "dark-chocolate",
+   "apples",
+   "smoked-almonds"
+  ],
+  "answer": "Aged Gouda goes best with dark chocolate, apples, smoked almonds and dried fruit. Its caramel, butterscotch flavor and crunchy crystals suit sweet and toasty partners.",
+  "faq": [
+   {
+    "q": "Why is aged Gouda crunchy?",
+    "a": "Those crystals are amino acids that form as the cheese ages. They mean flavor, not a flaw."
+   },
+   {
+    "q": "What wine goes with aged Gouda?",
+    "a": "Cabernet, Merlot or tawny port. Its caramel notes also love stout and Belgian dubbel."
+   }
+  ]
+ },
+ {
+  "slug": "manchego",
+  "top": [
+   "membrillo",
+   "chorizo",
+   "marcona-almonds"
+  ],
+  "answer": "Manchego goes best with membrillo (quince paste), chorizo, Marcona almonds, olives and jamón. Spain's nutty sheep's cheese loves the salty, sweet and smoky foods it grew up beside.",
+  "faq": [
+   {
+    "q": "What is membrillo?",
+    "a": "A firm, sweet quince paste from Spain, sliced thin and laid on Manchego."
+   },
+   {
+    "q": "What wine goes with Manchego?",
+    "a": "Spanish reds like Rioja or Tempranillo, dry rosé, or fino sherry."
+   }
+  ]
+ },
+ {
+  "slug": "gruyere",
+  "top": [
+   "cornichons",
+   "dijon-mustard",
+   "prosciutto-cotto"
+  ],
+  "answer": "Gruyère goes best with cornichons, Dijon mustard, ham, hazelnuts and roasted chestnuts. Nutty, sweet-savory Alpine cheese needs sour, sharp or toasty partners.",
+  "faq": [
+   {
+    "q": "What meat goes with Gruyère?",
+    "a": "Cooked ham, speck and dried beef like Bündnerfleisch."
+   },
+   {
+    "q": "What wine goes with Gruyère?",
+    "a": "Pinot Noir, Chardonnay or a dry Alpine white. Lager and dry cider work too."
+   }
+  ]
+ },
+ {
+  "slug": "comte",
+  "top": [
+   "walnuts",
+   "pears",
+   "saucisson-sec"
+  ],
+  "answer": "Comté goes best with walnuts, pears, hazelnuts, saucisson sec and baguette. Its brown-butter, nutty flavor pairs with more nuts and fresh fruit.",
+  "faq": [
+   {
+    "q": "Comté or Gruyère?",
+    "a": "Very similar mountain cheeses. Comté is a little sweeter and fruitier; Gruyère is a little saltier."
+   },
+   {
+    "q": "What wine goes with Comté?",
+    "a": "Chardonnay, Champagne, Pinot Noir or Beaujolais."
+   }
+  ]
+ },
+ {
+  "slug": "parmigiano-reggiano",
+  "top": [
+   "balsamic-glaze",
+   "pears",
+   "prosciutto-di-parma"
+  ],
+  "answer": "Parmigiano-Reggiano goes best with balsamic glaze, pears, dried figs, prosciutto and honey. Salty, savory crystals love sweet and tart partners from the same Italian region.",
+  "faq": [
+   {
+    "q": "How do you serve Parmigiano on a board?",
+    "a": "Break it into rough chunks with a short knife rather than slicing. The crystals show better."
+   },
+   {
+    "q": "What wine goes with Parmigiano-Reggiano?",
+    "a": "Chianti, Lambrusco or Champagne."
+   }
+  ]
+ },
+ {
+  "slug": "pecorino-romano",
+  "top": [
+   "honey",
+   "cracked-black-pepper",
+   "cherry-preserves"
+  ],
+  "answer": "Pecorino Romano goes best with honey, black pepper, cherry preserves, olives and cured pork. It's very salty and sharp, so small pieces with sweet partners work best.",
+  "faq": [
+   {
+    "q": "Is Pecorino Romano too salty for a board?",
+    "a": "Not in small pieces. Serve it with honey or fruit preserves to balance the salt."
+   },
+   {
+    "q": "What wine goes with Pecorino?",
+    "a": "Chianti, Sangiovese or a light Italian white."
+   }
+  ]
+ },
+ {
+  "slug": "gorgonzola",
+  "top": [
+   "pears",
+   "honey",
+   "walnuts"
+  ],
+  "answer": "Gorgonzola goes best with pears, honey, walnuts, figs and dark chocolate. Sweet, juicy and crunchy partners tame blue cheese's salt and sharpness.",
+  "faq": [
+   {
+    "q": "Dolce or piccante Gorgonzola?",
+    "a": "Dolce is soft and mild, easier for guests; piccante is firmer and sharper."
+   },
+   {
+    "q": "What wine goes with Gorgonzola?",
+    "a": "Port or a sweet dessert wine. Among dry wines, try an Italian red with some fruit."
+   }
+  ]
+ },
+ {
+  "slug": "stilton",
+  "top": [
+   "walnuts",
+   "honey",
+   "oatcakes"
+  ],
+  "answer": "Stilton goes best with walnuts, honey, oatcakes, dried fruit and port. Its crumbly, salty richness needs sweetness and crunch.",
+  "faq": [
+   {
+    "q": "What drink goes with Stilton?",
+    "a": "Port is the classic. Stout and sweet dessert wine work too."
+   },
+   {
+    "q": "Is Stilton a strong blue?",
+    "a": "Medium. It's creamier and milder than Roquefort, stronger than Cambozola."
+   }
+  ]
+ },
+ {
+  "slug": "fresh-chevre",
+  "top": [
+   "honey",
+   "figs",
+   "pistachios"
+  ],
+  "answer": "Fresh goat cheese goes best with honey, figs, pistachios, fresh berries and herbs. Sweet and crunchy partners soften its bright tang.",
+  "faq": [
+   {
+    "q": "What wine goes with goat cheese?",
+    "a": "Sauvignon Blanc, especially from the Loire. Dry rosé and sparkling wine work too."
+   },
+   {
+    "q": "How do you serve chèvre on a board?",
+    "a": "Roll a log in herbs, nuts or pepper, or drizzle it with honey."
+   }
+  ]
+ },
+ {
+  "slug": "burrata",
+  "top": [
+   "prosciutto-di-parma",
+   "fresh-basil",
+   "olive-oil"
+  ],
+  "answer": "Burrata goes best with prosciutto, basil, good olive oil, ripe tomatoes, peaches and flaky salt. Its cool, milky center needs salt, acid and a little crunch.",
+  "faq": [
+   {
+    "q": "How long can burrata sit out?",
+    "a": "Serve it cold and set out no more than about an hour before eating; it's a fresh cheese."
+   },
+   {
+    "q": "What wine goes with burrata?",
+    "a": "Dry rosé, Sauvignon Blanc or Prosecco."
+   }
+  ]
+ },
+ {
+  "slug": "taleggio",
+  "top": [
+   "prosciutto-di-parma",
+   "speck",
+   "crostini"
+  ],
+  "answer": "Taleggio goes best with prosciutto, speck, crusty bread, pears and Riesling or Belgian ale. Its funky rind and mild, buttery center suit cured ham and fruity drinks.",
+  "faq": [
+   {
+    "q": "Does Taleggio smell strong?",
+    "a": "The rind does; the inside is mild and buttery. Let it breathe on the board."
+   },
+   {
+    "q": "What drink goes with Taleggio?",
+    "a": "Off-dry Riesling, Belgian ale or Pinot Noir."
+   }
+  ]
+ },
+ {
+  "slug": "fresh-mozzarella",
+  "top": [
+   "fresh-basil",
+   "olive-oil",
+   "prosciutto-di-parma"
+  ],
+  "answer": "Fresh mozzarella goes best with basil, olive oil, tomatoes, prosciutto and balsamic glaze. It's mild and milky, so bright, salty and herbal partners do the talking.",
+  "faq": [
+   {
+    "q": "Mozzarella or burrata?",
+    "a": "Burrata is mozzarella with a creamy center. Use mozzarella for skewers, burrata for a centerpiece."
+   },
+   {
+    "q": "What wine goes with mozzarella?",
+    "a": "Light, crisp whites and dry rosé."
+   }
+  ]
+ },
+ {
+  "slug": "prosciutto-di-parma",
+  "top": [
+   "melon",
+   "fig-jam",
+   "burrata"
+  ],
+  "answer": "Prosciutto goes best with melon, figs, fig jam, burrata, Parmigiano and pears. Sweet fruit and creamy cheese balance its silky saltiness.",
+  "faq": [
+   {
+    "q": "How do you arrange prosciutto on a board?",
+    "a": "Loose folds or ribbons, never flat sheets. Separate the slices so guests can pick one up."
+   },
+   {
+    "q": "What wine goes with prosciutto?",
+    "a": "Prosecco, dry rosé, Pinot Noir or Chianti."
+   }
+  ]
+ },
+ {
+  "slug": "genoa-salami",
+  "top": [
+   "pepperoni",
+   "soppressata",
+   "pretzel-crisps"
+  ],
+  "answer": "Genoa salami goes best with provolone, pickles, olives, mustard and crackers. Mild, garlicky salami is a team player that works with nearly every cheese.",
+  "faq": [
+   {
+    "q": "What cheese goes with Genoa salami?",
+    "a": "Provolone, mild cheddar, Gouda and triple-crème."
+   },
+   {
+    "q": "How do you fold salami for a board?",
+    "a": "Fold rounds in half, then in half again, and line them up in a 'river'."
+   }
+  ]
+ },
+ {
+  "slug": "soppressata",
+  "top": [
+   "fresh-mozzarella",
+   "hot-honey",
+   "giardiniera"
+  ],
+  "answer": "Soppressata goes best with fresh mozzarella, hot honey, giardiniera, provolone and olives. Its coarse, peppery fat loves cool cheese and tangy pickles.",
+  "faq": [
+   {
+    "q": "Is soppressata spicy?",
+    "a": "Calabrese soppressata is; Veneto-style is mild. Check the label."
+   },
+   {
+    "q": "What wine goes with soppressata?",
+    "a": "Chianti, Malbec or Cabernet."
+   }
+  ]
+ },
+ {
+  "slug": "chorizo",
+  "top": [
+   "manchego",
+   "membrillo",
+   "marcona-almonds"
+  ],
+  "answer": "Spanish chorizo goes best with Manchego, membrillo, Marcona almonds, olives and roasted peppers. Smoky paprika pork belongs with Spanish cheese and salty snacks.",
+  "faq": [
+   {
+    "q": "Spanish or Mexican chorizo for a board?",
+    "a": "Spanish: it's cured and sliceable. Mexican chorizo is raw and must be cooked."
+   },
+   {
+    "q": "What wine goes with chorizo?",
+    "a": "Rioja, Malbec or dry rosé."
+   }
+  ]
+ },
+ {
+  "slug": "mortadella",
+  "top": [
+   "pistachios",
+   "burrata",
+   "focaccia"
+  ],
+  "answer": "Mortadella goes best with pistachios, burrata, focaccia, giardiniera and Grana Padano. Silky, mild pork needs crunch, creaminess and a tangy pickle.",
+  "faq": [
+   {
+    "q": "How do you serve mortadella on a board?",
+    "a": "Thin slices, folded, or thick cubes on picks with pistachios."
+   },
+   {
+    "q": "What wine goes with mortadella?",
+    "a": "Lambrusco, Prosecco or Chianti."
+   }
+  ]
+ },
+ {
+  "slug": "smoked-salmon",
+  "top": [
+   "cream-cheese",
+   "capers",
+   "pickled-red-onions"
+  ],
+  "answer": "Smoked salmon goes best with cream cheese, capers, pickled red onions, dill and rye or blini. Creamy and briny partners balance its rich smoke.",
+  "faq": [
+   {
+    "q": "Is smoked salmon safe on a board?",
+    "a": "Keep it cold and set it out last. Serve within about two hours."
+   },
+   {
+    "q": "What wine goes with smoked salmon?",
+    "a": "Champagne, Sauvignon Blanc or unoaked Chardonnay."
+   }
+  ]
+ },
+ {
+  "slug": "fig-jam",
+  "top": [
+   "brie",
+   "manchego",
+   "prosciutto-di-parma"
+  ],
+  "answer": "Fig jam goes best with brie, Manchego, blue cheese, prosciutto and walnuts. Its dense sweetness balances salty cheese and cured ham.",
+  "faq": [
+   {
+    "q": "What cheese goes with fig jam?",
+    "a": "Brie, Manchego, goat cheese and blue cheese."
+   },
+   {
+    "q": "How much fig jam for a board?",
+    "a": "One small bowl, about 1/4 cup per 6 guests."
+   }
+  ]
+ },
+ {
+  "slug": "honey",
+  "top": [
+   "gorgonzola",
+   "fresh-chevre",
+   "pecorino-romano"
+  ],
+  "answer": "Honey goes best with blue cheese, goat cheese, Pecorino, aged cheddar and walnuts. Sweetness softens salty and tangy cheeses.",
+  "faq": [
+   {
+    "q": "Which cheeses need honey?",
+    "a": "Salty or sharp ones: blue cheese, Pecorino and fresh goat cheese."
+   },
+   {
+    "q": "Honeycomb or honey?",
+    "a": "Honeycomb looks better and doesn't run; a honey dipper works in a small jar."
+   }
+  ]
+ },
+ {
+  "slug": "apples",
+  "top": [
+   "aged-cheddar",
+   "aged-gouda",
+   "walnuts"
+  ],
+  "answer": "Apples go best with aged cheddar, aged Gouda, Gruyère, pecans and walnuts. Crisp, tart apple cuts fat and resets your palate between bites.",
+  "faq": [
+   {
+    "q": "How do you stop apples browning on a board?",
+    "a": "Toss slices in a little lemon juice or cut them last."
+   },
+   {
+    "q": "Which apple is best for cheese?",
+    "a": "Crisp, tart apples like Honeycrisp, Pink Lady or Granny Smith."
+   }
+  ]
+ },
+ {
+  "slug": "dark-chocolate",
+  "top": [
+   "aged-gouda",
+   "flaky-sea-salt",
+   "hazelnuts"
+  ],
+  "answer": "Dark chocolate goes best with aged Gouda, blue cheese, hazelnuts, dried cherries and sea salt. Bitter cacao loves caramel, salt and toasted nuts.",
+  "faq": [
+   {
+    "q": "What cheese goes with dark chocolate?",
+    "a": "Aged Gouda first, then blue cheese and aged cheddar."
+   },
+   {
+    "q": "What drink goes with dark chocolate?",
+    "a": "Port, Cabernet, Malbec or stout."
+   }
+  ]
+ }
+]

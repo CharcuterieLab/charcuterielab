@@ -13,7 +13,7 @@ serving_per_person: "1–2 figs"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "seasonal", "luxury"]
-pairs_with: ["dried-figs", "grapes", "pears", "prosciutto-di-parma", "gorgonzola", "balsamic-glaze"]
+pairs_with: ["dried-figs", "grapes", "pears", "prosciutto-di-parma", "gorgonzola", "balsamic-glaze", "honey", "fresh-chevre", "pistachios"]
 avoid_with: []
 faq: "[{"question": "When are figs in season?", "answer": "Roughly June through September in the US, with a short early crop and a longer main one."}, {"question": "Do figs ripen after picking?", "answer": "No. Buy them ripe or roast them — a hard fig stays hard."}, {"question": "Do I peel them?", "answer": "No. The skin is edible and it's what makes the halved fig look striking."}, {"question": "How much per person?", "answer": "One to two figs, halved."}, {"question": "What if it isn't fig season?", "answer": "Dried figs or fig jam do the same job on a board, year-round."}]"
 ---

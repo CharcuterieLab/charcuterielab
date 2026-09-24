@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "10 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "budget", "french", "year-round"]
-pairs_with: ["gorgonzola", "roquefort", "stilton", "pears", "dried-figs", "honey", "pickled-beets", "candied-ginger"]
+pairs_with: ["gorgonzola", "roquefort", "stilton", "pears", "dried-figs", "honey", "pickled-beets", "candied-ginger", "fig-jam", "brie", "comte"]
 avoid_with: []
 faq: "[{"question": "Should I toast walnuts for a charcuterie board?", "answer": "Yes. 350°F for 8–10 minutes. Untoasted walnuts taste flat and slightly stale."}, {"question": "Why are my walnuts bitter?", "answer": "The papery skin carries tannins. Rub the skins off in a towel after toasting, or blanch briefly, to soften the bitterness."}, {"question": "What cheese goes with walnuts?", "answer": "Blue cheeses above all — roquefort, gorgonzola, stilton — plus aged goat cheese."}, {"question": "How do I stop walnuts going rancid?", "answer": "Buy small quantities and keep them in the freezer. Walnuts spoil faster than any other common nut."}, {"question": "Halves or pieces?", "answer": "Halves. Pieces look like an ingredient rather than a serving."}]"
 ---

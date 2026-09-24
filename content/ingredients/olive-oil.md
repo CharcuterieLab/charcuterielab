@@ -13,7 +13,7 @@ serving_per_person: "a drizzle"
 prep_time: "0 minutes"
 allergens: []
 tags: ["finishing", "oil", "italian", "essential", "mediterranean"]
-pairs_with: ["burrata", "baguette", "flaky-sea-salt", "fresh-mozzarella", "ricotta"]
+pairs_with: ["burrata", "baguette", "flaky-sea-salt", "fresh-mozzarella", "ricotta", "prosciutto-di-parma"]
 avoid_with: []
 faq: "[{"question": "What's a finishing olive oil?", "answer": "An extra virgin oil used cold, poured over food rather than cooked with. Grassier, more peppery, and more expensive than cooking oil."}, {"question": "Why does good olive oil burn my throat?", "answer": "Oleocanthal, a compound in fresh oil. The peppery catch is a sign of quality, not a fault."}, {"question": "How do I know if olive oil is fresh?", "answer": "Look for a harvest date on the label. Olive oil is at its best within a year of pressing."}, {"question": "What do I drizzle it on?", "answer": "Burrata, fresh mozzarella, ricotta, bread, and hard aged cheese. Always with flaky salt."}, {"question": "Should I cook with my finishing oil?", "answer": "No — heat destroys the compounds you're paying for. Keep a cheaper oil for the pan."}]"
 ---

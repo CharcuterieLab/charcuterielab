@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "middle-eastern", "sicilian", "crowd-pleaser"]
-pairs_with: ["fresh-chevre", "manchego", "medjool-dates", "blood-oranges", "mortadella"]
+pairs_with: ["fresh-chevre", "manchego", "medjool-dates", "blood-oranges", "mortadella", "figs", "honey"]
 avoid_with: []
 faq: "[{"question": "Shelled or in-shell pistachios for a board?", "answer": "In-shell look better and cost less, but guests need a bowl for the shells. Shelled are essential if you're scattering or coating anything."}, {"question": "Why are some pistachios greener?", "answer": "Variety and origin. Sicilian Bronte and Iranian pistachios are much greener than Californian."}, {"question": "What goes with pistachios?", "answer": "Fresh goat cheese, dates, blood oranges, mortadella, and manchego."}, {"question": "Are red pistachios different?", "answer": "Only in dye. It's an old practice to mask shell staining, and the colour comes off on your fingers."}, {"question": "How much per person?", "answer": "About an ounce shelled, more in-shell since half the weight is shell."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "ham", "classic"]
-pairs_with: ["prosciutto-san-daniele", "culatello", "parmigiano-reggiano", "grissini", "burrata", "persimmon", "melon", "fig-jam", "cerignola-olives", "mixed-marinated-olives", "peppadew", "marinated-artichokes"]
+pairs_with: ["prosciutto-san-daniele", "culatello", "parmigiano-reggiano", "grissini", "burrata", "persimmon", "melon", "fig-jam", "cerignola-olives", "mixed-marinated-olives", "peppadew", "marinated-artichokes", "fresh-mint", "olive-oil", "fresh-basil"]
 avoid_with: ["everything-crackers", "smoked-cheese"]
 faq: "[{"question": "What's the difference between prosciutto and prosciutto di Parma?", "answer": "Prosciutto just means ham in Italian. Prosciutto di Parma is the protected one — a defined region, a minimum twelve months, and only pork and salt."}, {"question": "Should I trim the fat?", "answer": "No. The fat carries most of the flavor and melts on the tongue."}, {"question": "How thin should it be sliced?", "answer": "Thin enough to see light through. Ask the counter to slice it to order."}, {"question": "How much per person?", "answer": "1–2 oz as one of two or three meats."}, {"question": "Is it raw?", "answer": "It's uncooked but cured — salt and twelve-plus months of drying make it safe to eat as is."}]"
 ---

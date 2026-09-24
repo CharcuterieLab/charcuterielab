@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["briny", "italian", "mediterranean", "garnish", "sicilian"]
-pairs_with: ["smoked-salmon", "cream-cheese", "burrata", "tapenade", "anchovies"]
+pairs_with: ["smoked-salmon", "cream-cheese", "burrata", "tapenade", "anchovies", "pickled-red-onions"]
 avoid_with: []
 faq: "[{"question": "Salt-packed or brined capers?", "answer": "Salt-packed taste more of the caper itself. They need thorough rinsing. Brined are more convenient and taste more of vinegar."}, {"question": "What are nonpareil capers?", "answer": "The smallest size grade, and generally the most prized — firmer and more concentrated than larger capers."}, {"question": "How do I use capers on a board?", "answer": "Scatter them over burrata, smoked salmon or fresh mozzarella. They're a garnish, not a serving."}, {"question": "Can I fry capers?", "answer": "Yes, and it's worth doing. Drain, dry, and fry in hot oil for 30 seconds until they burst open and crisp."}, {"question": "How much per person?", "answer": "About a quarter-ounce — a scatter, not a spoonful."}]"
 ---

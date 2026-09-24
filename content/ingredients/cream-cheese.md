@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "fresh", "budget", "spread"]
-pairs_with: ["boursin", "mascarpone", "everything-crackers", "bagel-chips", "smoked-salmon", "smoked-trout", "pepper-jelly", "peppadew", "capers", "chili-oil", "graham-crackers", "kimchi"]
+pairs_with: ["boursin", "mascarpone", "everything-crackers", "bagel-chips", "smoked-salmon", "smoked-trout", "pepper-jelly", "peppadew", "capers", "chili-oil", "graham-crackers", "kimchi", "pickled-red-onions"]
 avoid_with: ["triple-creme", "delicate-aged-cheese"]
 faq: "[{"question": "Can I put plain cream cheese on a charcuterie board?", "answer": "You can, but don't. Two minutes of seasoning is the difference between an item nobody touches and one that disappears."}, {"question": "Cream cheese or mascarpone?", "answer": "Cream cheese for savory, mascarpone for sweet. Cream cheese is cultured and tangy; mascarpone is acid-set and sweet."}, {"question": "How much per person?", "answer": "1–2 oz. An 8 oz block serves six to eight."}, {"question": "Block or tub?", "answer": "Block if you're mixing or whipping. Tub if you want it spreadable straight away."}, {"question": "What's the fastest upgrade?", "answer": "Whip it, spread it in a bowl, and pour hot pepper jelly over the top."}]"
 ---
