@@ -4207,3 +4207,5 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .ing-article .fx-print h2 { margin: 0 0 6px; padding-top: 0; font-size: 1.25rem; }
 .ing-article .fx-print a { border-bottom: 0; }
 .ing-article .fx-print p { font-size: 1rem; margin: 0 0 12px; }
+.pr-drink-hero:has(.pr-drink-photo){grid-template-columns:300px 1fr}
+@media (max-width:860px){.pr-drink-hero:has(.pr-drink-photo){grid-template-columns:1fr}}
