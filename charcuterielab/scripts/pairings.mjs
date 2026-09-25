@@ -421,6 +421,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
     </section>
 
     ${h.bookBar("pairings_hub", "Every board in the book comes with its pairing science")}
+    ${h.printCard ? h.printCard("complete-board-builder-bundle", "pairings_hub_print") : ""}
 
     <section class="bl-section" id="faq" aria-labelledby="faq-h">
       <h2 id="faq-h">Pairing questions</h2>
@@ -507,7 +508,8 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <h2 id="faq-h">${B(d.name)} pairing questions</h2>
       ${faqHtml(h, d.faq)}
     </section>
-    ${h.bookBar(`pairings_${d.slug}`, "50 boards, each with a drink pairing")}`
+    ${h.bookBar(`pairings_${d.slug}`, "50 boards, each with a drink pairing")}
+    ${h.printCard ? h.printCard("wine-cheese-pairing-guide", `pairings_print_${d.slug}`) : ""}`
     });
   };
   for (const d of idx.drinks) add(`${d.url.slice(1)}index.html`, drinkPage(d));
@@ -689,7 +691,8 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <h2 id="faq-h">${B(it.title)} pairing questions</h2>
       ${faqHtml(h, f.faq)}
     </section>
-    ${h.bookBar(`pairings_food_${f.slug}`, `Put ${it.title.toLowerCase()} on a full board`)}`
+    ${h.bookBar(`pairings_food_${f.slug}`, `Put ${it.title.toLowerCase()} on a full board`)}
+    ${h.printCard ? h.printCard(it.category === "Cheese" ? "cheese-pairing-science-card" : "complete-board-builder-bundle", `pairings_print_food_${f.slug}`, { item: it }) : ""}`
     });
   };
   for (const f of idx.foods) add(`pairings/food/${f.slug}/index.html`, foodPageHtml(f));
@@ -804,6 +807,7 @@ ${idx.combos.filter((c) => c.kind === k.key).map((c) => comboCard(h, idx, art, c
       </table>
     </div>
     <p class="bl-note">Tap a wine or a cheese to highlight its matches. Hover a dot to read why, or open the wine's page for the full reasons.</p>
+    ${h.printCard ? h.printCard("wine-cheese-pairing-guide", "pairings_chart_print", { lead: "The free chart shows which wines match. The 3-page guide adds 20 wine styles, the cheeses to avoid with each, serving temperatures and a craft beer section. Designed to print." }) : ""}
     <section class="bl-section" aria-labelledby="how-h">
       <h2 id="how-h">How to read it</h2>
       <p>Light, fresh cheeses sit best with crisp whites and sparkling wine; nutty, firm cheeses with light reds and Chardonnay; hard, aged cheeses with bigger reds; blue cheese with sweet port. The <a href="/pairings/how-pairing-works/">six pairing rules</a> explain why.</p>

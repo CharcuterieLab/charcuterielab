@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls } from "./pairings.mjs";
+import { bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -545,6 +546,8 @@ async function loadPosts() {
           return declared.length ? declared : relatedFromBody(body);
         })(),
         faq: parseFaqField(data.faq),
+        // Optional: the board number in 50 Boards Built by Science this post matches
+        bookBoard: data.book_board ?? "",
         body
       };
     })
@@ -1132,6 +1135,7 @@ ${spec
       ${ingredientBodyHtml(item.html, blogSlugs)}
     </div>
     ${bookBar(`ingredient_${item.slug}`, `Put ${item.title.toLowerCase()} on a full board`)}
+    ${PRINTABLES.card(printableFor({ kind: "ingredient", slug: item.slug, title: item.title, category: item.category }), `ingredient_print_${item.slug}`, { item })}
     ${
       related.length
         ? `<section class="ing-related">
@@ -1516,6 +1520,7 @@ function bookSchema() {
 
 function ebookPage() {
   const buy = (campaign) => bookButtons(`ebook_page_${campaign}`, { size: "lg" });
+  const X = ebookSections({ escapeHtml }, BOOK_BOARDS, FUNNEL);
 
   return layout({
     title: "Charcuterie Lab | 50 Boards Built by Science",
@@ -1531,12 +1536,13 @@ function ebookPage() {
       <p>Charcuterie Lab gives you 50 complete board blueprints with shopping lists, pairing logic, substitutions, and step-by-step build notes so you can host with confidence instead of guessing.</p>
       <div class="ebook-hero-actions">
         ${buy("hero")}
-        <span>Ebook: instant PDF download from Gumroad. Paperback: printed and shipped by Amazon.</span>
+        <span>Ebook: instant PDF download from Gumroad. Paperback: printed and shipped by Amazon. <a href="#sample">Read board 01 free</a> or <a href="#look-inside">look inside</a>.</span>
       </div>
       <div class="ebook-metrics" aria-label="Book highlights">
         <span><strong>50</strong> board plans</span>
         <span><strong>259</strong> pages</span>
         <span><strong>2</strong> editions</span>
+        <span><strong>${FUNNEL.perBoard}</strong> a board</span>
       </div>
       <div class="ebook-hero-product">
         <img src="/images/book-3d-mockup.webp" alt="${bookTitle}" width="640" height="640">
@@ -1629,55 +1635,11 @@ function ebookPage() {
     </div>
   </section>
 
-  <section class="ebook-section ebook-samples">
-    <div class="ebook-section-inner">
-      <p class="section-kicker">Sample Boards Inside</p>
-      <h2>Real boards you can shop for, build, and serve.</h2>
-      <p>Each blueprint gives you the ingredients, pairing logic, substitutions, and build notes that turn a grocery list into a board that feels intentional.</p>
-      <div class="ebook-sample-grid">
-        <article>
-          <span>Board 01</span>
-          <h3>The Classic American Starter</h3>
-          <p>A reliable crowd-pleaser with cheddar, salami, grapes, pickles, crackers, mustard, and honey arranged around salty, sweet, sharp, and crunchy contrasts.</p>
-        </article>
-        <article>
-          <span>Board 13</span>
-          <h3>The $25 Budget Board</h3>
-          <p>Designed to look generous without overspending, using smart store-bought choices, repeat ingredients, and one or two visual anchors.</p>
-        </article>
-        <article>
-          <span>Board 28</span>
-          <h3>The Wine Night Board</h3>
-          <p>Built around cheese textures, cured meat salt, fruit acidity, and briny accents so each bite supports the glass instead of fighting it.</p>
-        </article>
-        <article>
-          <span>Board 42</span>
-          <h3>The Holiday Hosting Board</h3>
-          <p>A fuller, celebration-style board with warm colors, richer cheeses, seasonal fruit, nuts, spreads, and easy substitutions for different guest lists.</p>
-        </article>
-        <article>
-          <span>Board 07</span>
-          <h3>The Brunch Board</h3>
-          <p>A morning-friendly spread with soft cheese, fruit, pastry crunch, jam, prosciutto, and bright accents that feel special without heavy prep.</p>
-        </article>
-        <article>
-          <span>Board 21</span>
-          <h3>The Game Day Board</h3>
-          <p>Bold, snackable, and easy to graze from, with spicy salami, sturdy cheeses, pickles, crunchy crackers, and dips that hold up for a crowd.</p>
-        </article>
-        <article>
-          <span>Board 35</span>
-          <h3>The Mediterranean Board</h3>
-          <p>Feta, olives, hummus, roasted peppers, cucumbers, pita, herbs, and cured meats arranged around salty, creamy, fresh, and acidic balance.</p>
-        </article>
-        <article>
-          <span>Board 48</span>
-          <h3>The Dessert Cheese Board</h3>
-          <p>A sweeter finish with brie, blue cheese, chocolate, dried fruit, honey, nuts, and crisp cookies that still follows real pairing logic.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+${X.samples}
+
+${X.look}
+
+${X.sample}
 
   <section class="ebook-section ebook-preview">
     <div class="ebook-section-inner ebook-two-col">
@@ -1691,6 +1653,8 @@ function ebookPage() {
     </div>
   </section>
 
+${X.list}
+
   <section class="ebook-section ebook-faq">
     <div class="ebook-section-inner">
       <p class="section-kicker">Questions</p>
@@ -1699,6 +1663,10 @@ function ebookPage() {
         <details open>
           <summary>What's the difference between the ebook and the paperback?</summary>
           <p>Nothing in the content: the same 50 boards, shopping lists, pairing logic and build notes. The ebook (${ebookPrice}) is a PDF you download instantly from Gumroad. The paperback (${paperbackPrice}) is 259 full-colour pages, printed and shipped by Amazon.</p>
+        </details>
+        <details>
+          <summary>Can I see inside before I buy?</summary>
+          <p>Yes. <a href="#look-inside">Look inside</a> shows real pages, and <a href="#sample">board 01 is free</a>: the introduction, the contents and the full five-page Classic American Starter Board as an 11-page PDF.</p>
         </details>
         <details>
           <summary>Is it beginner-friendly?</summary>
@@ -1773,8 +1741,8 @@ function shopPage(products) {
       <a class="shop-more" href="${b.more[1]}">${escapeHtml(b.more[0])} &rarr;</a>
     </article>`;
   const printCard = (p) => {
-    const url = withTracking(p.url, "shop_printables");
-    return `<a class="shop-print" href="${url}" target="_blank" rel="noopener">
+    const url = `/printables/${p.slug}/`;
+    return `<a class="shop-print" href="${url}">
       <img src="${p.image}" alt="" loading="lazy" decoding="async">
       <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.price)}</span></span>
     </a>`;
@@ -1802,7 +1770,7 @@ function shopPage(products) {
   </section>
   <section class="shop-section" aria-labelledby="shop-printables">
     <h2 id="shop-printables">Printables</h2>
-    <p class="shop-sub">Instant PDF downloads.</p>
+    <p class="shop-sub">Instant PDF downloads. <a href="/printables/">See every printable, including the free ones &rarr;</a></p>
     <div class="shop-prints">
     ${products.map(printCard).join("\n    ")}
     </div>
@@ -1822,8 +1790,8 @@ function shopPage(products) {
 function productCard(product) {
   const trackedUrl = withTracking(product.url, "home_shop");
   return `<article class="card product">
-  <a href="${trackedUrl}" target="_blank" rel="noopener"><img src="${product.image}" alt=""></a>
-  <h3><a href="${trackedUrl}" target="_blank" rel="noopener">${escapeHtml(product.title)}</a></h3>
+  <a href="/printables/${product.slug}/"><img src="${product.image}" alt=""></a>
+  <h3><a href="/printables/${product.slug}/">${escapeHtml(product.title)}</a></h3>
   <p>${escapeHtml(product.description)}</p>
   <span class="price">${escapeHtml(product.price)}</span>
   <a class="button product-button" href="${trackedUrl}" target="_blank" rel="noopener">Get it on Gumroad</a>
@@ -1941,6 +1909,32 @@ function demoteBodyHeadings(html, title) {
   return out.replace(/<(\/?)h1\b([^>]*)>/gi, "<$1h2$2>");
 }
 
+// Set once per build, in build(): the book's 50 boards, the funnel blocks and
+// the printables catalogue (scripts/funnel.mjs).
+let BOOK_BOARDS = new Map();
+let FUNNEL = null;
+let PRINTABLES = null;
+
+// Blog post body: the matched book card goes after the first section (the
+// reader gets the answer first), the Board Builder promo moves to the middle,
+// and the matched printable sits before the questions at the end.
+function funnelPostBody(html, post, bookBoard) {
+  const parts = html.split(/(?=<h2)/);
+  const card = FUNNEL.bookCard(bookBoard, `post_card_${post.slug}`);
+  const promo = postInlinePromo(post);
+  const print = PRINTABLES.card(printableFor({ kind: "post", slug: post.slug, title: post.title }), `post_print_${post.slug}`);
+  // parts[0] = intro, parts[1] = first section
+  if (parts.length >= 3) parts.splice(2, 0, card);
+  else parts.push(card);
+  const h2s = parts.map((x, i) => (x.startsWith("<h2") ? i : -1)).filter((i) => i >= 0);
+  if (h2s.length >= 4) parts.splice(h2s[3], 0, promo);
+  else parts.push(promo);
+  const faqIdx = parts.findIndex((x) => /^<h2[^>]*>\s*(common questions|faq|frequently asked|questions)/i.test(x));
+  if (faqIdx > 0) parts.splice(faqIdx, 0, print);
+  else parts.push(print);
+  return parts.join("");
+}
+
 function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null) {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
@@ -1953,8 +1947,9 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   // with "# Title" too, which put two H1s on 102 pages - visible to readers,
   // not just to crawlers. Drop a leading H1 that repeats the title, and demote
   // any others (50-charcuterie-board-ideas used H1 for all eleven sections).
+  const bookBoard = bookBoardFor(post, BOOK_BOARDS, board);
   const postHtml = demoteBodyHeadings(
-    addInlinePromo(autolinkIngredients(post.html, autolinkIndex, post.slug), post),
+    funnelPostBody(autolinkIngredients(post.html, autolinkIndex, post.slug), post, bookBoard),
     post.title
   );
 
@@ -1977,7 +1972,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     </div>
     <img class="post-image" src="${post.image}" alt="${escapeHtml(post.title)}">
   </section>
-  ${bookBar(`top_${post.slug}`)}
+  ${FUNNEL.bookStrip(`top_${post.slug}`, bookBoard)}
   ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   <article class="post-body">
     ${postHtml}
@@ -1986,6 +1981,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   ${relatedReading(relatedPosts)}
   ${labNext(`footer_${post.slug}`)}
   ${newsletterPanel("post-email", `blog_${post.slug}`)}
+  ${FUNNEL.stickyBar(`sticky_${post.slug}`, bookBoard)}
 </main>`
   });
 }
@@ -2076,9 +2072,14 @@ async function build() {
     console.log(`Blog links shown as plain text until their post is live (${linkIndex.held.size}): ${list}`);
   }
 
+  BOOK_BOARDS = await loadBookBoards(root);
+  FUNNEL = makeFunnel({ escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
+  PRINTABLES = makePrintables({ layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm }, products);
+  console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
+
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign) };
+  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -2092,13 +2093,19 @@ async function build() {
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, pairingUrls(pairIdx)));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), { loc: "/printables/", priority: "0.8" }, ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
   await mkdir(join(dist, "shop"), { recursive: true });
   await writeFile(join(dist, "shop", "index.html"), shopPage(products));
+  await mkdir(join(dist, "printables"), { recursive: true });
+  await writeFile(join(dist, "printables", "index.html"), PRINTABLES.landing(BOOK_BOARDS));
+  for (const product of products) {
+    await mkdir(join(dist, "printables", product.slug), { recursive: true });
+    await writeFile(join(dist, "printables", product.slug, "index.html"), PRINTABLES.productPage(product));
+  }
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
 

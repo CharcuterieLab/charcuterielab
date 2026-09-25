@@ -4,27 +4,148 @@
     "description": "Digital download: 3-in-1 bundle with cheese pairings, wine guide, and board blueprint.",
     "price": "$15.00",
     "image": "/images/board-builder-bundle.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/labgk"
+    "url": "https://charcuterieflavor.gumroad.com/l/labgk",
+    "slug": "complete-board-builder-bundle",
+    "priceShort": "$15",
+    "pagesLabel": "3 PDFs",
+    "format": "Letter size (8.5 × 11 in), landscape and portrait",
+    "hook": "All three printables in one download: the Cheese Pairing Science Card, the Wine & Cheese Pairing Guide and the Classic Entertaining Board Blueprint. $6 less than buying them separately.",
+    "includes": [
+      "The Cheese Pairing Science Card: 15 cheeses and their best pairings in 7 categories (2 pages)",
+      "The Wine & Cheese Pairing Guide: 20 wine styles matched to cheeses, plus cheeses to avoid (3 pages)",
+      "The Classic Entertaining Board Blueprint: a complete board for 8 to 12 people with shopping list and 8-step build (5 pages)",
+      "Printable as many times as you like"
+    ],
+    "who": "Hosts who want the pairing reference and a complete board plan on the counter while they shop and build.",
+    "seoTitle": "Charcuterie Board Printables Bundle: Pairing Card, Wine Guide & Board Plan",
+    "metaDescription": "Three printable charcuterie PDFs in one: a cheese pairing card, a wine and cheese pairing guide and a complete board blueprint for 8 to 12 people. $15.",
+    "contains": [
+      "cheese-pairing-science-card",
+      "wine-cheese-pairing-guide",
+      "classic-entertaining-board-blueprint"
+    ],
+    "free": [
+      [
+        "Board Builder: a shopping list for your guest count",
+        "/board-builder/"
+      ],
+      [
+        "Wine and cheese pairing chart",
+        "/pairings/wine-and-cheese-chart/"
+      ],
+      [
+        "Pairings Hub",
+        "/pairings/"
+      ]
+    ]
   },
   {
     "title": "Wine & Cheese Pairing Guide",
     "description": "Digital download: wine styles, pairing science, legendary pairings, and what to avoid.",
     "price": "$7.00",
     "image": "/images/wine-cheese-pairing-guide.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/vixwsr"
+    "url": "https://charcuterieflavor.gumroad.com/l/vixwsr",
+    "slug": "wine-cheese-pairing-guide",
+    "priceShort": "$7",
+    "pagesLabel": "3 pages",
+    "format": "Letter size, landscape",
+    "hook": "20 wine styles matched to the cheeses that suit them, the cheeses to avoid with each, and serving temperatures. Prop it by the bottles.",
+    "includes": [
+      "20 wine styles: bold reds, light and medium reds, crisp whites, rich whites, sparkling, rosé, dessert and fortified",
+      "The cheeses that suit each style, and the ones to avoid",
+      "Why each pairing works: tannin, acidity, sweetness and bubbles",
+      "Serving temperature guide",
+      "Six pairing rules that work for any combination",
+      "Bonus craft beer section"
+    ],
+    "who": "Anyone hosting a wine and cheese night, or standing in the wine aisle wondering what goes with the cheese they already bought.",
+    "seoTitle": "Printable Wine and Cheese Pairing Guide (PDF)",
+    "metaDescription": "A printable wine and cheese pairing guide: 20 wine styles, the cheeses that suit each and the ones to avoid, serving temperatures and a craft beer bonus. $7 PDF.",
+    "free": [
+      [
+        "Wine and cheese pairing chart",
+        "/pairings/wine-and-cheese-chart/"
+      ],
+      [
+        "Wine pairing guides",
+        "/pairings/wine/"
+      ],
+      [
+        "Beer and cider pairings",
+        "/pairings/beer/"
+      ]
+    ]
   },
   {
     "title": "Classic Entertaining Board Blueprint",
     "description": "Digital download: exact shopping list, flavor zone map, and hosting blueprint.",
     "price": "$7.00",
     "image": "/images/classic-entertaining-board-blueprint.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/irsmc"
+    "url": "https://charcuterieflavor.gumroad.com/l/irsmc",
+    "slug": "classic-entertaining-board-blueprint",
+    "priceShort": "$7",
+    "pagesLabel": "5 pages",
+    "format": "Letter size, portrait",
+    "hook": "One complete board for 8 to 12 people: the shopping list with quantities and costs at three budgets, an 8-step build and why each placement works.",
+    "includes": [
+      "Shopping list with per-person quantities and estimated costs",
+      "A budget guide across three tiers",
+      "8-step building blueprint: where each item goes and why",
+      "Flavor zone map: Rich + Sweet, Sharp + Savory, Tangy + Bright",
+      "Non-spicy swaps for every heat element",
+      "Five optional upgrades"
+    ],
+    "who": "First-time hosts, and anyone who wants one reliable board for 8 to 12 people they can repeat for every party.",
+    "seoTitle": "Printable Charcuterie Board Shopping List & Blueprint for 8–12",
+    "metaDescription": "A printable charcuterie board plan for 8 to 12 people: shopping list with quantities and costs, an 8-step build, a flavor zone map and swaps. 5-page PDF, $7.",
+    "free": [
+      [
+        "How to make a charcuterie board",
+        "/blog/how-to-make-charcuterie-board/"
+      ],
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Board Builder",
+        "/board-builder/"
+      ]
+    ]
   },
   {
     "title": "Cheese Pairing Science Card",
     "description": "Digital download: 15 cheeses, every perfect pairing, and the science behind it.",
     "price": "$7.00",
     "image": "/images/cheese-pairing-science-card.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/lfnse"
+    "url": "https://charcuterieflavor.gumroad.com/l/lfnse",
+    "slug": "cheese-pairing-science-card",
+    "priceShort": "$7",
+    "pagesLabel": "2 pages",
+    "format": "Letter size, landscape (11 × 8.5 in)",
+    "hook": "15 cheeses on one card, each with its best fruits, meats, crackers, condiments and drinks, plus the six pairing rules behind them.",
+    "includes": [
+      "15 cheeses: brie, aged cheddar, aged Gouda, Manchego, Parmesan, Gorgonzola, Stilton, goat cheese, feta, Muenster, smoked Gouda, Brie de Meaux, Gruyère, Camembert and Comté",
+      "For each: flavor, category, best fruits, meats, crackers, condiments and drinks",
+      "Six pairing rules: fat and acid, salt and sweet, umami stacking, texture contrast, aroma, fermentation",
+      "Color-coded by cheese type"
+    ],
+    "who": "Anyone who buys cheese first and figures out the rest of the board after. Keep it on the fridge.",
+    "seoTitle": "Printable Cheese Pairing Chart: 15 Cheeses and What Goes With Them",
+    "metaDescription": "A printable cheese pairing card: 15 popular cheeses with their best fruits, meats, crackers, condiments and drinks, plus six pairing rules. 2-page PDF, $7.",
+    "free": [
+      [
+        "What goes with brie",
+        "/pairings/food/brie/"
+      ],
+      [
+        "Ingredient library",
+        "/ingredients/cheese/"
+      ],
+      [
+        "Pairings Hub",
+        "/pairings/"
+      ]
+    ]
   }
 ]

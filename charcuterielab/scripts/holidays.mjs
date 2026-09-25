@@ -95,8 +95,15 @@ function countdownJs() {
 const amounts = [6, 12, 20].map((g) => ({ g, cheese: (g * 2) / 16, meat: (g * 2) / 16, crackers: g * 6 }));
 const lb = (x) => (x < 1 ? `${Math.round(x * 16)} oz` : `${(Math.round(x * 4) / 4).toString().replace(/\.25$/, "¼").replace(/\.5$/, "½").replace(/\.75$/, "¾")} lb`);
 
+// Holiday -> its board in 50 Boards Built by Science
+const HOLIDAY_BOOK_BOARD = { thanksgiving: 20, christmas: 6, "new-years-eve": 22, "valentines-day": 21, "st-patricks-day": 23, easter: 24 };
+
 function bookBox(h, hol) {
   if (hol.book === "world") return worldOffer(h, `holiday_${hol.slug}`, { heading: "The gift for the host who has everything", lead: `<em>Around the World in 16 Boards</em> blueprints sixteen international boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists, prep countdowns and pairing science.` });
+  const bb = h.bookBoards && HOLIDAY_BOOK_BOARD[hol.slug] ? h.bookBoards.get(HOLIDAY_BOOK_BOARD[hol.slug]) : null;
+  if (bb && h.bookCard) {
+    return h.bookCard(bb, `holiday_${hol.slug}`, { lead: `Everything on this page, plus the full plan: the exact shopping list with amounts and prices, a timed build, where every item goes and why, and a swap for every ingredient. With New Year's Eve, Game Day and 47 more boards.` });
+  }
   return `<section class="bl-book" aria-labelledby="hol-book">
       <img src="/images/book-cover.jpg" alt="" width="160" height="207" loading="lazy" decoding="async">
       <div>
@@ -210,6 +217,7 @@ ${boards.map((b) => card(b, h)).join("\n")}
     </section>
   </div>
 ${h.newsletterPanel("hol-email", `holiday_${hol.slug}`)}
+${h.stickyBar ? h.stickyBar(`sticky_holiday_${hol.slug}`, h.bookBoards && HOLIDAY_BOOK_BOARD[hol.slug] ? h.bookBoards.get(HOLIDAY_BOOK_BOARD[hol.slug]) : null) : ""}
 </main>
 ${countdownJs()}`
   });

@@ -206,6 +206,12 @@ export function worldOffer(h, campaign, { heading = "Get the full blueprint", le
     </section>`;
 }
 
+// The book-1 board behind a Board Library page (number "B1-20" is board #20).
+function bookBoardOf(h, board) {
+  if (!h.bookBoards || board.book !== "main" || !/^B1-\d\d$/.test(board.number || "")) return null;
+  return h.bookBoards.get(Number(board.number.slice(3))) || null;
+}
+
 function bookOffer(h, board) {
   if (board.book === "world") return worldOffer(h, `board_${board.slug}`, { heading: "Build it exactly, with the new book" });
   if (board.book === "plant") {
@@ -221,6 +227,10 @@ function bookOffer(h, board) {
         </div>
       </div>
     </section>`;
+  }
+  const bb = bookBoardOf(h, board);
+  if (bb && h.bookCard) {
+    return h.bookCard(bb, `board_${board.slug}`, { lead: `This page is the free preview. The book has the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` });
   }
   return `<section class="bl-book" aria-labelledby="bl-book-title">
       <img src="/images/book-cover.jpg" alt="" width="160" height="207" loading="lazy" decoding="async">
@@ -353,6 +363,7 @@ ${[...related, ...fill].map((x) => card(x, h)).join("\n")}
     </section>
   </div>
 ${h.newsletterPanel("board-email", `board_${b.slug}`)}
+${bookBoardOf(h, b) && h.stickyBar ? h.stickyBar(`sticky_board_${b.slug}`, bookBoardOf(h, b)) : ""}
 </main>`
   });
 }
