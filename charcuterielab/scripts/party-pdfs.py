@@ -2,6 +2,7 @@
 
   python3 scripts/party-pdfs.py            # 12 free shopping lists (public/downloads/party-planner/)
   python3 scripts/party-pdfs.py planner    # the paid Grazing Table Planner (out/ folder, not published)
+  python3 scripts/party-pdfs.py cheatsheet # free Charcuterie Cheat Sheet (public/downloads/)
 
 Numbers come from scripts/party-export.mjs, i.e. the same plan() the web pages
 use, so the PDFs and the site can never disagree.
@@ -361,9 +362,140 @@ def planner():
     return path
 
 
+# ------------------------------------------------ free Charcuterie Cheat Sheet
+# The site-wide email offer on blog and ingredient pages. Page 1 is how much to
+# buy (same plan() numbers as the Party Planner); page 2 is the build order,
+# fridge timing, pairing rules and food safety, all taken from the site's own
+# posts (build-sequence, temperature-guide, pairing-by-contrast).
+
+CHEAT_PDF = os.path.join(ROOT, "public", "downloads", "charcuterie-cheat-sheet.pdf")
+
+
+def cheat_sheet():
+    c = canvas.Canvas(CHEAT_PDF, pagesize=letter)
+    c.setTitle("The Charcuterie Cheat Sheet"); c.setAuthor("Charcuterie Lab")
+    # ---- page 1: how much to buy
+    header(c, "The Charcuterie Cheat Sheet", "How much to buy for any party, on one page.", 1, 2, kicker="FREE PRINTABLE")
+    y = H - 128
+    y = section(c, y, "Per guest")
+    xs = [M, M + 190, M + 300, M + 410]
+    c.setFillColor(CREAM); c.rect(M - 6, y - 6, W - 2 * M + 12, 20, stroke=0, fill=1)
+    c.setFillColor(GREEN); c.setFont("PopB", 8.5)
+    heads = ["", "BEFORE A MEAL", "THE PARTY FOOD", "THE MEAL"]
+    for x, t in zip(xs, heads):
+        c.drawString(x + (0 if x == M else 0), y, t)
+    y -= 24
+    m = MODES
+    rows = [("Cured meat", [f"{m[k]['meat']} oz" for k in ("app", "main", "meal")]),
+            ("Cheese", [f"{m[k]['cheese']} oz" for k in ("app", "main", "meal")]),
+            ("Crackers and bread", [f"{m[k]['crackers'][0]}–{m[k]['crackers'][1]} pieces" for k in ("app", "main", "meal")]),
+            ("Fruit", [f"{m[k]['fruit']} oz" for k in ("app", "main", "meal")]),
+            ("Nuts", [f"{m[k]['nuts']:g} oz" for k in ("app", "main", "meal")]),
+            ("Olives and pickles", [f"{m[k]['briny']:g} oz" for k in ("app", "main", "meal")])]
+    for label, vals in rows:
+        c.setFillColor(INK); c.setFont("PopB", 10); c.drawString(xs[0], y, label)
+        c.setFont("Pop", 10)
+        for x, v in zip(xs[1:], vals):
+            c.drawString(x, y, v)
+        c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.5); c.line(M - 6, y - 8, W - M + 6, y - 8)
+        y -= 23
+    c.setFillColor(MUTED); c.setFont("Pop", 8.5)
+    c.drawString(M, y + 2, "From 20 guests, add 10%. Round cheese up to the half pound, the way it's sold.")
+    y -= 34
+    y = section(c, y, "Totals before a meal (appetizer)")
+    counts = ["4", "8", "12", "20", "30", "50"]
+    colx = [M] + [M + 150 + i * 62 for i in range(len(counts))]
+    c.setFillColor(CREAM); c.rect(M - 6, y - 6, W - 2 * M + 12, 20, stroke=0, fill=1)
+    c.setFillColor(GREEN); c.setFont("PopB", 8.5); c.drawString(M, y, "GUESTS")
+    for x, n in zip(colx[1:], counts):
+        c.drawString(x, y, n)
+    y -= 24
+    for label, key in [("Cured meat", "meat"), ("Cheese", "cheese"), ("Crackers", "crackers"), ("Cheeses / meats", "var"), ("Board", "setup")]:
+        c.setFillColor(INK); c.setFont("PopB", 9.5); c.drawString(M, y, label)
+        c.setFont("Pop", 9)
+        for x, n in zip(colx[1:], counts):
+            p = DATA["counts"][n]["plans"]["app"]
+            if key == "crackers":
+                v = f"{p['crackers'][0]}–{p['crackers'][1]}"
+            elif key == "var":
+                v = f"{p['cheeses']} / {p['meats']}"
+            elif key == "setup":
+                v = ""
+            else:
+                v = p[key]
+            c.drawString(x, y, str(v))
+        c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.5); c.line(M - 6, y - 8, W - M + 6, y - 8)
+        y -= 22
+    y += 22  # the "Board" row is written as a list below instead
+    c.setFillColor(HexColor("#ffffff")); c.rect(M - 6, y - 10, W - 2 * M + 12, 22, stroke=0, fill=1)
+    y -= 4
+    y = section(c, y, "Board size")
+    c.setFillColor(INK); c.setFont("Pop", 9.5)
+    for n in counts:
+        p = DATA["counts"][n]["plans"]["app"]
+        c.setFont("PopB", 9.5); c.drawString(M, y, f"{n} guests"); c.setFont("Pop", 9.5); c.drawString(M + 70, y, p["setup"])
+        y -= 15
+    y -= 16
+    c.setFillColor(HexColor("#fbeedb")); c.roundRect(M, y - 52, W - 2 * M, 62, 10, stroke=0, fill=1)
+    c.setFillColor(DEEP); c.setFont("Serif", 12.5); c.drawString(M + 16, y - 12, "Any other guest count?")
+    c.setFillColor(INK); c.setFont("Pop", 9.5)
+    wrap(c, "The free Party Planner works it out for 4 to 100 guests, with cost and a prep timeline: charcuterielab.com/party-planner", M + 16, y - 30, W - 2 * M - 32, 13)
+    c.showPage()
+    # ---- page 2: build, timing, pairing, safety
+    header(c, "Build it, time it, pair it", "The rules that make a board taste better, not just look better.", 2, 2, kicker="FREE PRINTABLE")
+    y = H - 128
+    y = section(c, y, "Build order")
+    steps = [("Bowls first", "Place jars and small bowls for honey, jam, mustard and olives. They anchor the layout."),
+             ("Cheeses", "Spread them out, far apart, so every side of the board has one."),
+             ("Cured meats", "Fold, ribbon or river them next to the cheeses they pair with."),
+             ("Fruit and produce", "Fill the medium gaps with grapes, figs, apple or pear slices."),
+             ("Nuts and small things", "Fill every small gap so no board shows through."),
+             ("Crackers", "Add them within 30 minutes of serving so they stay crisp."),
+             ("Garnish and check", "Herb sprigs last, then check that nothing is still fridge-cold.")]
+    for i, (t, d) in enumerate(steps, 1):
+        c.setFillColor(GOLD); c.circle(M + 8, y + 3, 8, stroke=0, fill=1)
+        c.setFillColor(DEEP); c.setFont("PopB", 8.5); c.drawCentredString(M + 8, y, str(i))
+        c.setFillColor(INK); c.setFont("PopB", 10); c.drawString(M + 24, y, t)
+        c.setFont("Pop", 9.5); c.setFillColor(MUTED); c.drawString(M + 150, y, d)
+        y -= 21
+    y -= 14
+    y = section(c, y, "Take it out of the fridge")
+    timing = [("Aged hard cheese", "45–60 min"), ("Semi-firm cheese", "30–45 min"), ("Soft cheese (brie, camembert)", "20–30 min"),
+              ("Fresh cheese (mozzarella, chèvre)", "15–20 min"), ("Cured meats", "15–20 min")]
+    for t, v in timing:
+        c.setFillColor(INK); c.setFont("Pop", 10); c.drawString(M, y, t)
+        c.setFont("PopB", 10); c.drawString(M + 250, y, v)
+        c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.5); c.line(M - 6, y - 7, M + 330, y - 7)
+        y -= 19
+    y -= 14
+    y = section(c, y, "Pair by contrast")
+    pairs = [("Salty + sweet", "aged cheddar or Parmigiano with honey, fig jam or dried apricot"),
+             ("Rich + acidic", "brie or salami with cornichons, green apple or mustard"),
+             ("Creamy + crunchy", "soft cheese with nuts, crisp crackers or toasted baguette"),
+             ("Mild + bold", "one gentle cheese, one sharp, one blue, so every bite differs")]
+    for t, d in pairs:
+        c.setFillColor(GREEN); c.setFont("PopB", 10); c.drawString(M, y, t)
+        c.setFillColor(INK); c.setFont("Pop", 9.5); c.drawString(M + 120, y, d)
+        y -= 19
+    y -= 14
+    y = section(c, y, "Food safety")
+    c.setFillColor(INK); c.setFont("Pop", 9.5)
+    y = wrap(c, "Perishable food should sit out no more than 2 hours, or 1 hour above 90°F (USDA). For a long party, put out half and refill from the fridge instead of leaving it all out.", M, y, W - 2 * M, 14)
+    y -= 18
+    c.setFillColor(HexColor("#fbeedb")); c.roundRect(M, y - 60, W - 2 * M, 70, 10, stroke=0, fill=1)
+    c.setFillColor(DEEP); c.setFont("Serif", 12.5); c.drawString(M + 16, y - 14, "Want the whole board planned for you?")
+    c.setFillColor(INK); c.setFont("Pop", 9.5)
+    wrap(c, "50 Boards Built by Science has 50 complete boards, each with a shopping list, amounts and prices, and a timed build. charcuterielab.com/ebook", M + 16, y - 34, W - 2 * M - 32, 13)
+    c.showPage()
+    c.save()
+    return CHEAT_PDF
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "planner":
         print(planner())
+    elif len(sys.argv) > 1 and sys.argv[1] == "cheatsheet":
+        print(cheat_sheet())
     else:
         for n in [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 100]:
             print(shopping_list(n))

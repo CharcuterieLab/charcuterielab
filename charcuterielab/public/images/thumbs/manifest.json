@@ -648,6 +648,10 @@
 1024,
 687
 ],
+"/images/charcuterie-cheat-sheet.webp": [
+480,
+621
+],
 "/images/charcuterie-difficult.png": [
 1024,
 687
@@ -2419,6 +2423,10 @@
 "/images/thumbs/charcuterie-board-wine-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/charcuterie-cheat-sheet-webp-s.webp": [
+240,
+310
 ],
 "/images/thumbs/charcuterie-difficult-png-m.webp": [
 640,
@@ -4218,6 +4226,9 @@
 "/images/charcuterie-board-wine.png": {
 "m": "/images/thumbs/charcuterie-board-wine-png-m.webp",
 "s": "/images/thumbs/charcuterie-board-wine-png-s.webp"
+},
+"/images/charcuterie-cheat-sheet.webp": {
+"s": "/images/thumbs/charcuterie-cheat-sheet-webp-s.webp"
 },
 "/images/charcuterie-difficult.png": {
 "m": "/images/thumbs/charcuterie-difficult-png-m.webp",

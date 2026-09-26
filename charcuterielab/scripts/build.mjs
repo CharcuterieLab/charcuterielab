@@ -1167,6 +1167,7 @@ ${spec
     <div class="post-body ing-body">
       ${ingredientBodyHtml(item.html, blogSlugs)}
     </div>
+    ${FUNNEL.leadBox("ing-lead", `cheat_ing_${item.slug}`, { title: `Serving ${item.title}? Get the free cheat sheet` })}
     ${bookBar(`ingredient_${item.slug}`, `Put ${item.title.toLowerCase()} on a full board`)}
     ${PRINTABLES.card(printableFor({ kind: "ingredient", slug: item.slug, title: item.title, category: item.category }), `ingredient_print_${item.slug}`, { item })}
     ${
@@ -1406,22 +1407,20 @@ function labNext(campaign, { skip = [], heading = "Keep going" } = {}) {
   </section>`;
 }
 
+// The newsletter box at the foot of most pages. It offers the free Cheat
+// Sheet for the email, which converts far better than "subscribe".
 function newsletterPanel(id, campaign) {
-  return `<section class="lab-news" aria-label="Newsletter">
+  return `<section class="lab-news" aria-label="Free cheat sheet and newsletter">
     <div class="lab-news-inner">
-      <div>
-        <p class="eyebrow">Daily Lab Report</p>
-        <h2>Get the next pairing idea in your inbox</h2>
-        <p>One pairing that works and why, a board worth stealing, and new printables the day they land.</p>
+      <div class="lab-news-offer">
+        <img src="/images/charcuterie-cheat-sheet.webp" alt="" width="480" height="621" loading="lazy" decoding="async">
+        <div>
+          <p class="eyebrow">Free printable</p>
+          <h2>Get the Charcuterie Cheat Sheet</h2>
+          <p>How much to buy for any guest count, the build order, fridge timing and pairing rules on two printable pages. Plus the Lab Report: one pairing that works and why, and new printables the day they land.</p>
+        </div>
       </div>
-      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
-        <label class="sr-only" for="${id}">Email address</label>
-        <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <input type="hidden" name="utm_source" value="charcuterielab">
-        <input type="hidden" name="utm_medium" value="site">
-        <input type="hidden" name="utm_campaign" value="${escapeHtml(campaign)}">
-        <button class="button primary" type="submit">Subscribe</button>
-      </form>
+      ${FUNNEL.cheatForm(id, `cheat_${campaign}`)}
     </div>
   </section>`;
 }
@@ -1957,7 +1956,9 @@ let PRINTABLES = null;
 function funnelPostBody(html, post, bookBoard) {
   const parts = html.split(/(?=<h2)/);
   const card = FUNNEL.bookCard(bookBoard, `post_card_${post.slug}`);
-  const promo = postInlinePromo(post);
+  // Middle slot: the free Cheat Sheet for an email. The Board Builder is still
+  // offered in the "Lab next" block at the end of every post.
+  const promo = FUNNEL.leadBox("post-lead", `cheat_post_${post.slug}`);
   const print = PRINTABLES.card(printableFor({ kind: "post", slug: post.slug, title: post.title }), `post_print_${post.slug}`);
   // parts[0] = intro, parts[1] = first section
   if (parts.length >= 3) parts.splice(2, 0, card);
