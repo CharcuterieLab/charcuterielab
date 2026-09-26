@@ -250,7 +250,7 @@ function faqHtml(h, faq, id = "faq") {
 
 function schema(h, { name, url, description, crumbs, faq, list }) {
   const out = [
-    { "@context": "https://schema.org", "@type": "Article", headline: name, description, url: h.absoluteUrl(url), dateModified: UPDATED, datePublished: UPDATED, author: { "@type": "Organization", name: "Charcuterie Lab" }, publisher: { "@type": "Organization", name: "Charcuterie Lab" } },
+    { "@context": "https://schema.org", "@type": "Article", headline: name, description, url: h.absoluteUrl(url), dateModified: UPDATED, datePublished: UPDATED, author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab" }, publisher: { "@type": "Organization", name: "Charcuterie Lab" } },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: h.absoluteUrl(u) })) }
   ];
   if (faq?.length) out.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) });

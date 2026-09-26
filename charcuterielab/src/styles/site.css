@@ -4307,3 +4307,10 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .post-body .fx-lead ul, .fx-lead ul { margin: 6px 0 4px; padding: 0 0 0 1.15em; border: 0; border-radius: 0; background: none; font-size: 16px; line-height: 1.45; }
 .post-body .fx-lead li, .fx-lead li { margin: 0 0 4px; }
 .post-body .fx-lead h2 { margin-top: 0; }
+
+/* Author byline and About page */
+.byline a { color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.ing-byline, .bl-byline { margin: 6px 0 12px; font-size: 14px; color: var(--muted); }
+.about-page .about-lede { font-size: 1.15em; }
+.about-books li { margin-bottom: 8px; }
+.about-page .legal-prose li { margin-bottom: 10px; line-height: 1.55; }

@@ -252,7 +252,7 @@ function recipeSchema(h, b) {
     name: b.h1,
     description: b.description,
     ...(b.placeholder ? {} : { image: [h.absoluteUrl(b.image)] }),
-    author: { "@type": "Organization", name: "Charcuterie Lab", url: h.absoluteUrl("/") },
+    author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab", url: h.absoluteUrl("/") },
     recipeCategory: "Appetizer",
     recipeYield: `${b.serves} people`,
     ...(minutes ? { prepTime: `PT${minutes}M`, totalTime: `PT${minutes}M` } : {}),
@@ -309,6 +309,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       <p class="section-kicker">${h.escapeHtml(cat.name)}${b.book === "plant" && cat.slug !== "plant-based" ? " · 100% plant-based" : ""}</p>
       <h1>${h.escapeHtml(b.h1)}</h1>
       <p class="bl-lede">${h.escapeHtml(b.hook)}</p>
+      ${h.byline ? `<p class="bl-byline">${h.byline()}</p>` : ""}
       <img class="bl-photo" src="${h.escapeHtml(b.image)}" alt="${h.escapeHtml(b.h1)}: the finished board" width="1200" height="800" fetchpriority="high">
       <dl class="bl-glance">
         ${glance.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${h.escapeHtml(v)}</dd></div>`).join("\n        ")}
@@ -418,7 +419,7 @@ export function worldBookPage(h, boards) {
     image: world.find((b) => !b.placeholder)?.image,
     description: `16 international charcuterie boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists, step-by-step blueprints and pairing science. ${live ? "Out now." : `Coming ${W.launch}.`}`,
     head: `  <script type="application/ld+json">${h.jsonForScript({
-      "@context": "https://schema.org", "@type": "Book", name: W.title, author: { "@type": "Organization", name: "Charcuterie Lab" },
+      "@context": "https://schema.org", "@type": "Book", name: W.title, author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab" },
       bookFormat: "https://schema.org/Paperback", numberOfPages: 88, inLanguage: "en", datePublished: W.launchIso,
       url: h.absoluteUrl("/around-the-world/"), about: "International charcuterie boards"
     })}</script>`,

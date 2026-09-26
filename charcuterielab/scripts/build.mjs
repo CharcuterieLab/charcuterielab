@@ -24,6 +24,11 @@ const paperbackUrl = "https://www.amazon.com/dp/B0H2Y39R41";
 const paperbackPrice = "$25.99";
 const ebookPageUrl = "/ebook/";
 const newsletterUrl = "https://charcuterie-lab-report.beehiiv.com/subscribe";
+// Author of the site and the books. Every post, ingredient page and board
+// names him (visible byline + Person schema); /about/ is his page.
+const AUTHOR_NAME = "Jimmy Wilson";
+const authorRef = { "@type": "Person", "@id": "https://charcuterielab.com/about/#jimmy-wilson", name: "Jimmy Wilson", url: "https://charcuterielab.com/about/" };
+const byline = (extra = "") => `<span class="byline">By <a href="/about/">${AUTHOR_NAME}</a>${extra}</span>`;
 
 // Statcounter. Both values come from your project's Install Code page. They
 // are not secrets - they appear in the page source of every site that uses
@@ -234,7 +239,7 @@ function articleSchema(post, description) {
     image: [absoluteUrl(post.image)],
     datePublished: post.date,
     dateModified: post.updated || post.date,
-    author: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl },
+    author: authorRef,
     publisher: {
       "@type": "Organization",
       name: "Charcuterie Lab",
@@ -378,7 +383,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const SITE_SECTIONS = /^(about|ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
 const linkIndex = { live: null, redirects: new Set(), held: new Map() };
 
 function resolveSiteLink(href = "") {
@@ -1147,6 +1152,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <a class="ing-eyebrow" href="/ingredients/${item.categorySlug}/">${art.glyph}${escapeHtml(item.category)}</a>
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
+      <p class="ing-byline">${byline()}</p>
       ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">` : ""}
       ${
         spec.length
@@ -1316,6 +1322,7 @@ ${head}
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
         <a href="/#newsletter">Newsletter</a>
+        <a href="/about/">About</a>
         <a href="/privacy/">Privacy</a>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
@@ -1542,6 +1549,7 @@ function bookSchema() {
     "@context": "https://schema.org",
     "@type": "Book",
     name: bookTitle,
+    author: authorRef,
     url: absoluteUrl(ebookPageUrl),
     image: absoluteUrl("/images/book-cover.jpg"),
     numberOfPages: 259,
@@ -1894,6 +1902,74 @@ function privacyPage() {
   });
 }
 
+// About: who writes the site and the books, and how the content is made.
+// Kept to facts Chris has confirmed; add personal story lines here.
+function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
+  const person = {
+    "@context": "https://schema.org",
+    ...authorRef,
+    jobTitle: "Author",
+    description: "Author of the Charcuterie Lab books and writer of charcuterielab.com.",
+    worksFor: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl },
+    knowsAbout: ["Charcuterie boards", "Cheese pairing", "Cured meats", "Entertaining"]
+  };
+  const page = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About Charcuterie Lab",
+    url: absoluteUrl("/about/"),
+    mainEntity: { "@id": authorRef["@id"] },
+    publisher: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl }
+  };
+  const round = (n) => (n >= 100 ? `${Math.floor(n / 10) * 10}+` : String(n));
+  return layout({
+    title: "About Charcuterie Lab and Jimmy Wilson",
+    canonical: "/about/",
+    description: `Charcuterie Lab is written by Jimmy Wilson, author of the Charcuterie Lab books. How the boards, amounts and pairings on this site are put together.`,
+    head: `  <script type="application/ld+json">${jsonForScript(person)}</script>
+  <script type="application/ld+json">${jsonForScript(page)}</script>`,
+    body: `<main class="ebook-page about-page">
+  <section class="ebook-section">
+    <div class="ebook-section-inner">
+      <div class="legal-prose">
+        <p class="section-kicker">About</p>
+        <h1>About Charcuterie Lab</h1>
+        <p class="about-lede">Charcuterie Lab is about building charcuterie boards on purpose: what to buy, how much of it, the order to put it down in, and why the pairings work. It's written by ${AUTHOR_NAME}, author of the Charcuterie Lab books.</p>
+
+        <h2 id="jimmy-wilson">${AUTHOR_NAME}</h2>
+        <p>${AUTHOR_NAME} writes this site and the Charcuterie Lab books. Every board he publishes follows the same format: a shopping list with amounts, a build order, and the reason each pairing works, so you can repeat a good board instead of guessing at it.</p>
+        <ul class="about-books">
+          <li><a href="/ebook/"><strong>${bookTitle}</strong></a>: 50 complete boards, as an ebook and a ${paperbackPrice} paperback.</li>
+          <li><a href="${escapeHtml(PLANT_BOOK.kindleUrl)}" target="_blank" rel="noopener"><strong>${escapeHtml(PLANT_BOOK.title)}</strong></a>: 15 plant-based boards.</li>
+          <li><a href="/around-the-world/"><strong>${escapeHtml(WORLD_BOOK.title)}</strong></a>: 16 international boards${WORLD_BOOK.status === "live" ? "" : `, out ${escapeHtml(WORLD_BOOK.launch)}`}.</li>
+        </ul>
+
+        <h2>What's on the site</h2>
+        <ul>
+          <li><a href="/blog/">${round(posts)} articles</a> on pairing science, board ideas and ingredients</li>
+          <li><a href="/ingredients/">${round(ingredients)} ingredient guides</a>: what each one is, how much to buy and what it pairs with</li>
+          <li><a href="/boards/">${boards} complete boards</a> with shopping lists and build steps</li>
+          <li>Free tools: the <a href="/party-planner/">Party Planner</a> for amounts by guest count, the <a href="/board-builder/">Board Builder</a> and the <a href="/pairings/">Pairings Hub</a></li>
+        </ul>
+
+        <h2>How the content is made</h2>
+        <ul>
+          <li><strong>One set of amounts.</strong> Every page uses the same standard: 2 oz each of meat and cheese per guest before a meal, 3 oz when the board is the party food, 4 oz when it's the meal, plus 10% from 20 guests up. The Party Planner, the Board Builder and the articles all agree.</li>
+          <li><strong>Food safety from the source.</strong> How long a board can sit out follows <a href="https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out" target="_blank" rel="noopener">USDA guidance</a>: no more than 2 hours, or 1 hour above 90°F.</li>
+          <li><strong>Dates you can see.</strong> Articles show when they were published and when they were last updated.</li>
+          <li><strong>Our own products only.</strong> Links to books and printables go to Charcuterie Lab's own titles on Gumroad and Amazon.</li>
+        </ul>
+
+        <h2>Get in touch</h2>
+        <p>Spotted a mistake, or have a board you want worked out? Reply to any issue of the Lab Report newsletter and it reaches ${AUTHOR_NAME}.</p>
+      </div>
+    </div>
+  </section>
+${newsletterPanel("about-email", "about")}
+</main>`
+  });
+}
+
 function blogPage(posts) {
   return layout({
     title: "Blog | Charcuterie Lab",
@@ -2004,7 +2080,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
-      <p class="post-date">${date}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
+      <p class="post-date">${date} · ${byline()}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
       <h1>${escapeHtml(post.title)}</h1>
     </div>
     ${heroImg(post.image, escapeHtml(post.title), "post-image")}
@@ -2033,6 +2109,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
     { loc: "/blog/", priority: "0.8" },
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/shop/", priority: "0.8" },
+    { loc: "/about/", priority: "0.5" },
     { loc: "/privacy/", priority: "0.2" },
     ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
     ...(boards.some((b) => b.book === "world") ? [{ loc: "/around-the-world/", priority: "0.9" }] : []),
@@ -2118,7 +2195,7 @@ async function build() {
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { thumb, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
+  const boardHelpers = { authorRef, byline, thumb, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -2147,6 +2224,8 @@ async function build() {
   }
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
+  await mkdir(join(dist, "about"), { recursive: true });
+  await writeFile(join(dist, "about", "index.html"), aboutPage({ posts: posts.length, ingredients: ingredients.length, boards: boards.length }));
 
   const autolinkIndex = buildAutolinkIndex(ingredients);
 
