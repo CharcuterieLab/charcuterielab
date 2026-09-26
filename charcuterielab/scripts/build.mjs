@@ -40,6 +40,38 @@ const paths = {
   styles: join(root, "src", "styles", "site.css")
 };
 
+// Small copies of every image, made by scripts/make-thumbs.py. Cards and
+// related-post tiles show images at 60-400 px, so they get the 640 px (or
+// 240 px) WebP instead of the 150-350 KB original; the hero photo gets a
+// srcset so phones download the 1100 px copy. An image with no thumbnail yet
+// falls back to the original and is listed at the end of the build.
+const imageManifest = await readFile(join(paths.public, "images", "thumbs", "manifest.json"), "utf8")
+  .then((t) => JSON.parse(t))
+  .catch(() => ({ size: {}, thumbs: {} }));
+const missingThumbs = new Set();
+function thumb(src = "", size = "m") {
+  if (!src || !src.startsWith("/images/") || src.endsWith(".svg")) return src;
+  const t = imageManifest.thumbs[src];
+  if (!t) {
+    const [w] = imageManifest.size[src] || [];
+    if (!w || w > 760) missingThumbs.add(src);
+    return src;
+  }
+  return t[size] || t.m || t.s || src;
+}
+function imageSize(src = "") {
+  const d = imageManifest.size[src];
+  return d ? ` width="${d[0]}" height="${d[1]}"` : "";
+}
+function heroImg(src, alt, cls) {
+  const t = imageManifest.thumbs[src] || {};
+  const [w] = imageManifest.size[src] || [];
+  const set = [t.m && `${t.m} 640w`, t.l && `${t.l} 1100w`, w && (t.m || t.l) && `${src} ${w}w`].filter(Boolean);
+  const srcset = set.length > 1 ? ` srcset="${set.join(", ")}" sizes="(max-width: 792px) calc(100vw - 32px), 760px"` : "";
+  if (!t.m && w > 760) missingThumbs.add(src);
+  return `<img class="${cls}" src="${src}"${srcset} alt="${alt}"${imageSize(src)} fetchpriority="high" decoding="async">`;
+}
+
 // Cache-buster for the stylesheet. Netlify serves /assets/site.css with a
 // one-year immutable cache header, so this query string is the ONLY thing that
 // tells a returning browser to fetch a new stylesheet. It used to be a
@@ -428,7 +460,7 @@ function markdownToHtml(markdown) {
 
     const image = line.match(/^!\[(.*?)\]\((.+?)\)$/);
     if (image) {
-      html.push(`<img class="post-inline-image" src="${escapeHtml(image[2])}" alt="${escapeHtml(image[1])}">`);
+      html.push(`<img class="post-inline-image" src="${escapeHtml(thumb(image[2], "l"))}" alt="${escapeHtml(image[1])}"${imageSize(thumb(image[2], "l"))} loading="lazy" decoding="async">`);
       i += 1;
       continue;
     }
@@ -738,7 +770,7 @@ async function loadIngredients() {
 
 function ingredientThumb(item, art) {
   if (item.image) {
-    return `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">`;
+    return `<img src="${escapeHtml(thumb(item.image))}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">`;
   }
   return `<span class="ing-thumb-art">${art.glyph}</span>`;
 }
@@ -1232,6 +1264,7 @@ ${articleTimes}  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="${escapeHtml(description)}">
   <meta name="twitter:image" content="${imageUrl}">
   <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
   <style>
     .socials a{width:2.55rem;height:2.55rem;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(55,35,25,.18);background:rgba(255,255,255,.66);color:inherit;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;}
@@ -1314,7 +1347,7 @@ const bookFormatsLine = `Instant PDF download on Gumroad, or a full-colour paper
 // Slim banner for the top of a page: the book, both editions, nothing else.
 function bookBar(campaign, label = "The Charcuterie Lab book") {
   return `<aside class="book-bar" aria-label="The Charcuterie Lab book">
-    <img class="book-bar-cover" src="/images/book-cover.jpg" alt="" width="64" height="83" loading="lazy" decoding="async">
+    <img class="book-bar-cover" src="${thumb("/images/book-cover.jpg", "s")}" alt="" width="64" height="83" loading="lazy" decoding="async">
     <div class="book-bar-copy">
       <p class="eyebrow">${escapeHtml(label)}</p>
       <p>50 complete boards with shopping lists, pairing logic and build order. ${bookFormatsLine}</p>
@@ -1357,7 +1390,7 @@ function labNext(campaign, { skip = [], heading = "Keep going" } = {}) {
   const book = skip.includes("book")
     ? ""
     : `<div class="lab-next-book">
-      <img src="/images/book-3d-mockup.webp" alt="${bookTitle}" width="320" height="320" loading="lazy" decoding="async">
+      <img src="${thumb("/images/book-3d-mockup.webp")}" alt="${bookTitle}" width="320" height="320" loading="lazy" decoding="async">
       <div>
         <p class="eyebrow">The Book</p>
         <h2>50 boards, built by science</h2>
@@ -1467,7 +1500,7 @@ function homePage(posts, products, boardStrip = "") {
       <p class="section-kicker">Shop</p>
       <h2 class="section-title">The book and the printables</h2>
       <div class="shop-book">
-        <img src="/images/book-cover.jpg" alt="${bookTitle} cover" width="180" height="233" loading="lazy" decoding="async">
+        <img src="${thumb("/images/book-cover.jpg")}" alt="${bookTitle} cover" width="180" height="233" loading="lazy" decoding="async">
         <div>
           <h3>${bookTitle}</h3>
           <p>All 50 boards with shopping lists, pairing logic, substitutions and build notes. ${bookFormatsLine}</p>
@@ -1702,7 +1735,7 @@ ${labNext("ebook_page_next", { skip: ["book"], heading: "Free from the Lab" })}
 
 function articleCard(post) {
   return `<article class="card">
-  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${post.image}" alt=""></a>
+  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${thumb(post.image)}" alt="" loading="lazy" decoding="async"></a>
   <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
   <p>${escapeHtml(clampText(metaDescription(post), 155))}</p>
 </article>`;
@@ -1737,7 +1770,7 @@ function shopPage(products) {
   ];
   const ext = (href) => /^https?:/.test(href) ? ' target="_blank" rel="noopener"' : "";
   const bookCard = (b) => `<article class="shop-book-card">
-      <div class="shop-cover"><img src="${b.cover}" alt="${escapeHtml(b.title)} cover" width="${b.w}" height="${b.h}" loading="lazy" decoding="async"><span class="shop-tag">${escapeHtml(b.tag)}</span></div>
+      <div class="shop-cover"><img src="${thumb(b.cover)}" alt="${escapeHtml(b.title)} cover" width="${b.w}" height="${b.h}" loading="lazy" decoding="async"><span class="shop-tag">${escapeHtml(b.tag)}</span></div>
       <h3>${escapeHtml(b.title)}</h3>
       <p>${escapeHtml(b.line)}</p>
       <div class="shop-buttons">${b.buttons.map(([label, href, primary]) => `<a class="button${primary ? " primary" : ""}" href="${escapeHtml(href)}"${ext(href)}>${escapeHtml(label)}</a>`).join("")}</div>
@@ -1746,7 +1779,7 @@ function shopPage(products) {
   const printCard = (p) => {
     const url = `/printables/${p.slug}/`;
     return `<a class="shop-print" href="${url}">
-      <img src="${p.image}" alt="" loading="lazy" decoding="async">
+      <img src="${thumb(p.image)}" alt="" loading="lazy" decoding="async">
       <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.price)}</span></span>
     </a>`;
   };
@@ -1793,7 +1826,7 @@ function shopPage(products) {
 function productCard(product) {
   const trackedUrl = withTracking(product.url, "home_shop");
   return `<article class="card product">
-  <a href="/printables/${product.slug}/"><img src="${product.image}" alt=""></a>
+  <a href="/printables/${product.slug}/"><img src="${thumb(product.image)}" alt="" loading="lazy" decoding="async"></a>
   <h3><a href="/printables/${product.slug}/">${escapeHtml(product.title)}</a></h3>
   <p>${escapeHtml(product.description)}</p>
   <span class="price">${escapeHtml(product.price)}</span>
@@ -1896,7 +1929,7 @@ function relatedReading(relatedPosts) {
     <h2>Keep building the board</h2>
     <div class="related-grid">
       ${relatedPosts.map((related) => `<a class="related-card" href="/blog/${related.slug}/">
-        <img src="${escapeHtml(related.image)}" alt="">
+        <img src="${escapeHtml(thumb(related.image, "s"))}"${thumb(related.image, "s") !== related.image ? ` srcset="${thumb(related.image, "s")} 240w, ${thumb(related.image, "m")} 640w" sizes="(max-width: 560px) calc(100vw - 64px), 116px"` : ""} alt="" loading="lazy" decoding="async">
         <span>${escapeHtml(related.title)}</span>
         <strong>Read next</strong>
       </a>`).join("\n")}
@@ -1973,7 +2006,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
       <p class="post-date">${date}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
       <h1>${escapeHtml(post.title)}</h1>
     </div>
-    <img class="post-image" src="${post.image}" alt="${escapeHtml(post.title)}">
+    ${heroImg(post.image, escapeHtml(post.title), "post-image")}
   </section>
   ${FUNNEL.bookStrip(`top_${post.slug}`, bookBoard)}
   ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
@@ -2078,13 +2111,13 @@ async function build() {
   }
 
   BOOK_BOARDS = await loadBookBoards(root);
-  FUNNEL = makeFunnel({ escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
-  PRINTABLES = makePrintables({ layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm }, products);
+  FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
+  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
+  const boardHelpers = { thumb, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -2273,4 +2306,5 @@ async function build() {
 }
 
 await build();
+if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");

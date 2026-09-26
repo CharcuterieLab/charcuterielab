@@ -105,7 +105,7 @@ function bookBox(h, hol) {
     return h.bookCard(bb, `holiday_${hol.slug}`, { lead: `Everything on this page, plus the full plan: the exact shopping list with amounts and prices, a timed build, where every item goes and why, and a swap for every ingredient. With New Year's Eve, Game Day and 47 more boards.` });
   }
   return `<section class="bl-book" aria-labelledby="hol-book">
-      <img src="/images/book-cover.jpg" alt="" width="160" height="207" loading="lazy" decoding="async">
+      <img src="${(h.thumb || ((x) => x))("/images/book-cover.jpg", "s")}" alt="" width="160" height="207" loading="lazy" decoding="async">
       <div>
         <p class="eyebrow">Plan every board this season</p>
         <h2 id="hol-book">50 boards, fully planned</h2>
@@ -246,7 +246,7 @@ export function holidaysHub(h, holidays) {
       <p class="bl-intro">Board ideas, shapes, a countdown plan and exact amounts for every holiday of the year.</p>
       <div class="hol-next">
         ${upcoming.map((c) => `<a class="hol-next-card" href="/holidays/${c.slug}/">
-          <img src="${h.escapeHtml(c.page.image)}" alt="" loading="lazy" decoding="async">
+          <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt="" loading="lazy" decoding="async">
           <span class="hol-next-body"><span class="hol-next-date">${h.escapeHtml(pretty(c.next))}</span><strong>${h.escapeHtml(c.name)}</strong><span class="hol-count" data-countdown='${JSON.stringify(c.dates)}'></span></span>
         </a>`).join("\n        ")}
       </div>

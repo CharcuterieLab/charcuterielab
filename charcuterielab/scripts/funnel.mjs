@@ -125,7 +125,7 @@ export function makeFunnel(h) {
     const H = `h${headingLevel}`;
     if (!board) {
       return `<aside class="fx-book fx-book-general" aria-label="The Charcuterie Lab book">
-    <a class="fx-book-photo" href="/ebook/"><img src="/images/book-3d-mockup.webp" alt="Charcuterie Lab: 50 Boards Built by Science" width="220" height="220" loading="lazy" decoding="async"></a>
+    <a class="fx-book-photo" href="/ebook/"><img src="${(h.thumb || ((x) => x))("/images/book-3d-mockup.webp")}" alt="Charcuterie Lab: 50 Boards Built by Science" width="220" height="220" loading="lazy" decoding="async"></a>
     <div class="fx-book-copy">
       <p class="eyebrow">The Charcuterie Lab book</p>
       <${H}>50 boards, every one fully planned</${H}>
@@ -137,7 +137,7 @@ export function makeFunnel(h) {
     }
     const facts = [board.serves && `Serves ${board.serves}`, board.cost, board.prep && `${board.prep} prep`].filter(Boolean).join(" · ");
     return `<aside class="fx-book" aria-label="Board ${board.nn} in the book">
-    <a class="fx-book-photo" href="/ebook/#board-${board.nn}"><img src="${esc(board.image)}" alt="${esc(board.name)}, board ${board.nn} in Charcuterie Lab" width="300" height="164" loading="lazy" decoding="async"><span class="fx-num">#${board.nn}</span></a>
+    <a class="fx-book-photo" href="/ebook/#board-${board.nn}"><img src="${esc((h.thumb || ((x) => x))(board.image))}" alt="${esc(board.name)}, board ${board.nn} in Charcuterie Lab" width="300" height="164" loading="lazy" decoding="async"><span class="fx-num">#${board.nn}</span></a>
     <div class="fx-book-copy">
       <p class="eyebrow">Board #${board.nn} in the book</p>
       <${H}>${esc(board.name)}, fully planned</${H}>
@@ -153,7 +153,7 @@ export function makeFunnel(h) {
   // reader came for the answer, so the answer comes first.
   function bookStrip(campaign, board = null) {
     const text = board ? `${esc(board.name)} is board #${board.nn} in <em>50 Boards Built by Science</em>` : `<em>50 Boards Built by Science</em>: every board fully planned`;
-    return `<aside class="fx-strip" aria-label="The Charcuterie Lab book"><img src="/images/book-cover.jpg" alt="" width="28" height="36" loading="lazy" decoding="async"><span>${text}</span><a href="${ebookHref(campaign)}" target="_blank" rel="noopener">Ebook ${ebookPrice} &rarr;</a></aside>`;
+    return `<aside class="fx-strip" aria-label="The Charcuterie Lab book"><img src="${(h.thumb || ((x) => x))("/images/book-cover.jpg", "s")}" alt="" width="28" height="36" loading="lazy" decoding="async"><span>${text}</span><a href="${ebookHref(campaign)}" target="_blank" rel="noopener">Ebook ${ebookPrice} &rarr;</a></aside>`;
   }
 
   // Mobile-only bottom bar. Appears after the reader is a third of the way
@@ -191,7 +191,7 @@ export function ebookSections(h, bookBoards, F) {
   const esc = h.escapeHtml;
   const picks = [1, 20, 6, 9, 13, 8, 18, 49].map((n) => bookBoards.get(n)).filter(Boolean);
   const card = (b) => `<article id="sample-${b.nn}">
-          <a href="${b.published ? `/boards/${b.slug}/` : `#board-${b.nn}`}"><img src="${esc(b.image)}" alt="${esc(b.name)}" width="400" height="218" loading="lazy" decoding="async"></a>
+          <a href="${b.published ? `/boards/${b.slug}/` : `#board-${b.nn}`}"><img src="${esc((h.thumb || ((x) => x))(b.image))}" alt="${esc(b.name)}" width="400" height="218" loading="lazy" decoding="async"></a>
           <span>Board ${b.nn}</span>
           <h3>${esc(b.name)}</h3>
           <p>${esc([b.serves && `Serves ${b.serves}`, b.cost, b.level].filter(Boolean).join(" · "))}</p>
@@ -286,7 +286,7 @@ export function makePrintables(h, products) {
       line = `${item.title} is one of the 15 cheeses on the card: its best fruits, meats, crackers, condiments and drinks on one printable page.`;
     }
     return `<aside class="fx-print" aria-label="Printable: ${esc(p.title)}">
-    <a class="fx-print-img" href="/printables/${p.slug}/"><img src="${esc(p.image)}" alt="${esc(p.title)} preview" width="240" height="240" loading="lazy" decoding="async"></a>
+    <a class="fx-print-img" href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="240" height="240" loading="lazy" decoding="async"></a>
     <div>
       <p class="eyebrow">Printable · ${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
       <h2>${esc(p.title)}</h2>
@@ -398,7 +398,7 @@ export function makePrintables(h, products) {
     <h2 id="fx-paid">Printable PDFs</h2>
     <div class="fx-p-grid">
       ${products.map((p) => `<article class="fx-p-card">
-        <a href="/printables/${p.slug}/"><img src="${esc(p.image)}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
+        <a href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
         <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
         <h3><a href="/printables/${p.slug}/">${esc(p.title)}</a></h3>
         <p>${esc(p.hook)}</p>

@@ -313,7 +313,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     for (const s of slugs) for (const b of boardsUsing.get(s) || []) score.set(b.slug, (score.get(b.slug) || 0) + 1);
     return [...score].filter(([, v]) => v >= 2).sort((a, b) => b[1] - a[1]).slice(0, n).map(([s]) => boardsBySlug.get(s)).filter(Boolean);
   };
-  const boardList = (bs) => (bs.length ? `<ul class="pr-boards">${bs.map((b) => `<li><a href="/boards/${b.slug}/"><img src="${B(b.image)}" alt="" width="600" height="400" loading="lazy" decoding="async"><span>${B(b.h1 || b.title)}</span></a></li>`).join("")}</ul>` : "");
+  const boardList = (bs) => (bs.length ? `<ul class="pr-boards">${bs.map((b) => `<li><a href="/boards/${b.slug}/"><img src="${B((h.thumb || ((x) => x))(b.image))}" alt="" width="600" height="400" loading="lazy" decoding="async"><span>${B(b.h1 || b.title)}</span></a></li>`).join("")}</ul>` : "");
 
   // ------------------------------------------------------------ the hub ---
   const hubFaq = [

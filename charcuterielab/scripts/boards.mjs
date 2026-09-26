@@ -77,7 +77,7 @@ export function card(b, h) {
   const badges = [b.book === "plant" ? "Plant-based" : "", b.difficulty || ""].filter(Boolean);
   return `<li class="bl-card" data-cat="${b.category}" data-plant="${b.book === "plant" ? 1 : 0}" data-guests="${b.guests}">
     <a href="/boards/${b.slug}/">
-      <img src="${h.escapeHtml(b.image)}" alt="${h.escapeHtml(b.h1 || b.title)}" width="600" height="400" loading="lazy" decoding="async">
+      <img src="${h.escapeHtml((h.thumb || ((x) => x))(b.image))}" alt="${h.escapeHtml(b.h1 || b.title)}" width="600" height="400" loading="lazy" decoding="async">
       <span class="bl-card-body">
         <span class="bl-card-cat">${h.escapeHtml(cat.name)}</span>
         <strong>${h.escapeHtml(b.h1 || b.title)}</strong>
@@ -216,7 +216,7 @@ function bookOffer(h, board) {
   if (board.book === "world") return worldOffer(h, `board_${board.slug}`, { heading: "Build it exactly, with the new book" });
   if (board.book === "plant") {
     return `<section class="bl-book" aria-labelledby="bl-book-title">
-      <img src="${h.escapeHtml(board.image)}" alt="" width="220" height="146" loading="lazy" decoding="async">
+      <img src="${h.escapeHtml((h.thumb || ((x) => x))(board.image))}" alt="" width="220" height="146" loading="lazy" decoding="async">
       <div>
         <p class="eyebrow">The full blueprint</p>
         <h2 id="bl-book-title">Build it exactly, with the plant-based book</h2>
@@ -233,7 +233,7 @@ function bookOffer(h, board) {
     return h.bookCard(bb, `board_${board.slug}`, { lead: `This page is the free preview. The book has the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` });
   }
   return `<section class="bl-book" aria-labelledby="bl-book-title">
-      <img src="/images/book-cover.jpg" alt="" width="160" height="207" loading="lazy" decoding="async">
+      <img src="${(h.thumb || ((x) => x))("/images/book-cover.jpg", "s")}" alt="" width="160" height="207" loading="lazy" decoding="async">
       <div>
         <p class="eyebrow">The full blueprint</p>
         <h2 id="bl-book-title">Build it exactly, with the book</h2>
