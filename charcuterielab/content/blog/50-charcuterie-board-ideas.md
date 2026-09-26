@@ -7,6 +7,8 @@ description: "50 charcuterie board ideas organised by occasion, budget and guest
 slug: "50-charcuterie-board-ideas"
 ---
 
+> **Quick Answer:** Fifty complete boards, sorted by occasion, budget and guest count. Each one lists how many it serves, what it costs, how long it takes and the skill level, plus the one detail that makes it work, from a $40–$65 supermarket starter board for 8–12 people to holiday, date-night and game-day boards.
+
 Search "charcuterie board ideas" and you get photographs. Beautiful ones. What you rarely get is the reasoning: why *those* five things, in *that* arrangement, for *that* particular Tuesday.
 
 A board is not a still life. It is a small piece of engineering with a job to do, and the job changes completely depending on who is standing in front of it. A board that holds twelve people for three hours at a holiday party has almost nothing structurally in common with a board for two people on a Friday night, even if the photographs look similar. One needs redundancy and refresh cycles. The other needs restraint and a single genuinely good cheese.

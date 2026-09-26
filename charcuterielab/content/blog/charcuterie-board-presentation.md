@@ -12,6 +12,8 @@ tags: "["charcuterie board presentation", "charcuterie board", "board building"]
 
 # Charcuterie Board Presentation: How to Make a Board Look as Good as It Tastes
 
+> **Quick Answer:** Build in order: cheese anchors first, then condiment bowls, meats, fillers, garnish, and crackers last. Fold meat loosely instead of rolling it tight, repeat each color in several spots, add height with standing crackers and ramekins, and choose a board small enough that the food fills it.
+
 A charcuterie board's visual appeal is functional, not decorative. A board that looks abundant and inviting gets grazed more actively than one that looks picked over or randomly assembled — which means the flavor logic you've built into the pairings actually gets discovered by guests. Presentation is part of how the board works.
 
 ## The Assembly Sequence

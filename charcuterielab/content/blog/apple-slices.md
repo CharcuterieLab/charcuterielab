@@ -7,6 +7,8 @@ excerpt: "Apple slices add crunch, sweetness, and acidity to charcuterie boards.
 
 # Apple Slices: Deep Dive
 
+> **Quick Answer:** Apple slices add crunch, sweetness and malic acid that cuts through rich cheese and salty meat. Use a firm, crisp apple such as Honeycrisp or Granny Smith, slice it about ¼ inch thick within 1–2 hours of serving, dip it in lemon water to stop browning, and set it next to aged cheddar, brie or prosciutto.
+
 Fresh, crisp apple slices are one of the most underrated heroes of the charcuterie board. They bring brightness, natural sweetness, and palate-cleansing acidity that cuts through rich cheeses and fatty meats. But most people treat apples as an afterthought — a filler ingredient rather than a strategic pairing tool.
 
 In this deep dive, we'll explore why apple variety matters, how to prep them so they don't turn brown, and how to use them to create balance on your board.

@@ -11,6 +11,8 @@ tags: "["manchego", "manchego cheese", "Spanish cheese", "charcuterie cheese", "
 
 # Manchego: Spain's Most Board-Ready Cheese (And Why It Works So Well)
 
+> **Quick Answer:** Manchego is a PDO sheep's milk cheese from La Mancha in central Spain. For a board, choose semicurado or curado for a firm, nutty, slightly tangy cheese. Cut it into thin triangles and serve it with quince paste (membrillo), the classic Spanish pairing, or with honey and Marcona almonds.
+
 Walk through the cheese section of any well-stocked grocery store and you'll find Manchego. It's one of the few cheeses from outside France that has achieved genuine mainstream recognition in the United States — and for good reason. Manchego is firm, flavorful, visually distinctive with its characteristic zigzag rind pattern, and cooperative on a board in a way that some more assertive cheeses aren't.
 
 But most people using it don't know why it tastes the way it does, which age to choose, or what it actually pairs with best. The answers to those questions turn a good cheese into a great board element.

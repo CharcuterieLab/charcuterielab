@@ -11,6 +11,8 @@ tags: "["what cheese goes on charcuterie board", "charcuterie board", "charcuter
 ---
 
 # What Cheese Goes on a Charcuterie Board? (The Complete Answer)
+
+> **Quick Answer:** Choose three cheeses from different texture groups: one soft (brie, chèvre), one semi-firm (manchego, Gruyère) and one aged hard (aged cheddar, Parmigiano). Add a blue as a fourth if your guests like it. Plan about 2 oz of cheese per person before a meal.
 ## The 3-Cheese Framework
 
 The goal of cheese selection is range, not repetition. Three cheeses covering different texture categories ensure every guest finds something they like and every bite tells a different story.

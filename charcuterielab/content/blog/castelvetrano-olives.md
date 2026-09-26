@@ -9,6 +9,8 @@ updated: "2026-09-24"
 
 # Castelvetrano Olives: The Ultimate Ingredient Deep Dive + Pairing Guide
 
+> **Quick Answer:** Castelvetrano olives are bright green, buttery, mild olives from Sicily's Belice Valley, picked young so they have almost no bitterness. They're the olive for people who say they don't like olives. Drain them, let them warm up for 15–20 minutes, and serve them in a small dish near fresh mozzarella, manchego or prosciutto.
+
 Castelvetrano olives are the gateway olives - bright green, buttery, and mild enough to convert even olive skeptics. Unlike the briny, bitter olives many people grew up avoiding, Castelvetranos are sweet, meaty, and surprisingly approachable. They come from a single town in Sicily and have a flavor profile that's completely unique in the olive world.
 
 In this deep dive, we'll explore what makes Castelvetrano olives special, how to pair them, and how to use them to build boards that feel fresh, vibrant, and irresistible.

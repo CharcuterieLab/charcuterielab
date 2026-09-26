@@ -10,6 +10,8 @@ tags: "["charcuterie how-to", "prosciutto", "charcuterie techniques", "board bui
 
 # How to Make a Prosciutto Rose: The Step-by-Step Technique
 
+> **Quick Answer:** Use 3–4 thin slices per rose. Drape them around the rim of a wine glass, overlapping each slice like petals and saving your best slices for the outside, then turn the glass over onto the board and lift it away. One or two roses per board is plenty.
+
 A well-built charcuterie board has a hundred small decisions behind it — which cheeses to choose, how to balance flavors, where to place the condiments. But if there's one technique that transforms a good board into one that stops people in their tracks, it's the prosciutto rose.
 
 It looks complicated. It isn't. Once you've made three or four of them, the folding becomes automatic — and the effect it creates is disproportionate to the effort required. This is the technique that earns you the comment "did you make this yourself?" every time.

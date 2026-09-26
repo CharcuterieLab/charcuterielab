@@ -12,6 +12,8 @@ updated: "2026-09-24"
 
 # Stilton: The Science Behind the Blue Veins (And Why It Pairs With Port)
 
+> **Quick Answer:** Stilton is a PDO blue cheese that can only be made in Derbyshire, Leicestershire and Nottinghamshire. Take it out of the fridge 30–40 minutes before serving so it turns creamy, and pair it with Tawny Port, walnuts, pears or honey. Its dried-fruit and caramel notes match the Port's.
+
 Of all the cheeses that appear on a charcuterie board, blue cheese generates the most divided response. Half the table reaches for it immediately; the other half avoids it entirely. Most of that divide comes from encounters with aggressive, poorly made blue cheeses — or from serving blue cheese the wrong way. Stilton, when served correctly and in the right context, is one of the most complex and board-worthy cheeses in the world. The science behind it explains why.
 
 ---

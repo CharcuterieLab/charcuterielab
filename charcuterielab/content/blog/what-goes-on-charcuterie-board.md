@@ -10,6 +10,8 @@ tags: "["charcuterie board", "what goes on charcuterie board", "charcuterie ingr
 
 # What Goes on a Charcuterie Board?
 
+> **Quick Answer:** Five categories: cheese (2–4 kinds), cured meats (2–3), crackers or bread, fresh and dried fruit, and condiments like honey and jam. Then add nuts, olives or pickles for crunch and contrast. For 4–6 people that's 3 cheeses, 2–3 meats, 2 kinds of crackers, grapes plus one other fruit, and a honey or jam.
+
 A charcuterie board typically includes five categories of elements: cheese, cured meats, crackers or bread, fresh and dried fruit, and condiments. Beyond those five, there's a supporting cast of optional elements — nuts, olives, pickles, fresh vegetables — that add variety, flavor contrast, and visual interest. Everything on a well-built board is there for a reason.
 
 Here's the complete breakdown.

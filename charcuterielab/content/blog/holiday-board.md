@@ -10,6 +10,8 @@ tags: "["holiday board", "charcuterie how to", "charcuterie board tips", "charcu
 ---
 
 # How to Make a Holiday Charcuterie Board
+
+> **Quick Answer:** A holiday board feeds more people for longer, often 10–16 guests grazing for two hours or more. Plan 4–5 cheeses with a whole brie as the centerpiece, 3–4 cured meats, tart red accents like cranberry and pomegranate, and green herbs. If it's the main food, plan about 3 oz each of meat and cheese per person, and refill instead of setting it all out at once.
 A holiday charcuterie board isn't only a larger board with some rosemary thrown on top. It's a different problem to solve — bigger crowd, longer grazing window, visual centerpiece expectations, and seasonal flavors that need to actually cohere rather than just look festive. This guide covers the full build: scale, ingredient selection, color logic, and the assembly sequence that keeps everything looking intentional rather than chaotic.
 
 ## Why Holiday Boards Are a Different Category

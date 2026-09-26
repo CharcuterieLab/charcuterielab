@@ -12,6 +12,8 @@ tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcute
 
 # Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board
 
+> **Quick Answer:** Coppa is whole-muscle cured pork neck and shoulder, heavily marbled, so every slice shows a red-and-white pattern. Buy sweet (dolce) for most boards or spicy (piccante) for heat, slice it 1.5–2 mm thin, and run it in a river across the board with dried figs or melon nearby.
+
 Ask most people to name Italian cured meats and they'll say prosciutto, salami, maybe soppressata. Coppa — also known as capicola, capocollo, or capicola depending on the region — tends to come later, if at all. This is a mistake. Coppa is visually one of the most striking meats on any board (the fat marbling is extraordinary), its flavor is more complex than most salami, and its versatility as a board element — pairing well with everything from mild cheeses to sharp blues — is exceptional.
 
 ---

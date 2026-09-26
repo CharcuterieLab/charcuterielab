@@ -12,6 +12,8 @@ tags: "["burrata charcuterie", "burrata on charcuterie board", "burrata vs mozza
 
 # Burrata: Why It's Not Mozzarella (And How to Serve It on a Board)
 
+> **Quick Answer:** Burrata is a thin shell of mozzarella wrapped around stracciatella, shreds of curd soaked in cream. Put it on the board whole and cut it open at the table, never ahead. Pair it with bright, fresh contrast: ripe tomatoes, basil, good olive oil and crusty bread to scoop up the center.
+
 Burrata is frequently described as "a type of fresh mozzarella." This is technically accurate but practically misleading — like calling a soufflé a type of egg dish. Burrata and mozzarella share an outer shell of pulled pasta filata curd, but everything inside the shell is different, the structural behavior is completely different, and the rules for serving it on a board are different as a result.
 
 Understanding what burrata actually is makes it easier to use it correctly, and using it correctly makes it one of the most visually impressive and texturally distinctive elements on any cheese board.

@@ -10,6 +10,8 @@ tags: "["charcuterie drinks", "cheese pairings", "wine and cheese", "beer and ch
 
 # Wine Is the Only Drink for a Cheese Board — Busted
 
+> **Quick Answer:** Wine is one good option, not the only one. Beer's carbonation scrubs fat the way acidity does, aged spirits share flavors with aged cheese, and dry cider is one of the most versatile board drinks. Match the drink to the cheese: amber ale or bourbon with caramel-and-nut cheeses like aged Gouda or aged cheddar.
+
 Wine pairs well with cheese. Nobody's disputing that. But the idea that wine is the only appropriate drink — or even always the best drink — for a charcuterie board is a convention, not a scientific fact.
 
 The pairing science points in a more interesting direction: the compounds that create successful pairings (fat buffering tannin, acidity resetting the palate, shared aromatic compounds, complementary sweetness) are present in multiple beverages beyond wine. And for several specific cheeses, beer or spirits are chemically closer matches than wine.

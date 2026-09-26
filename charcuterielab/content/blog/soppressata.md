@@ -13,6 +13,8 @@ faq: "[{"question":"What is soppressata?","answer":"Soppressata is a coarse, dry
 
 # Soppressata: The Boldest Italian Salami on Your Charcuterie Board
 
+> **Quick Answer:** Soppressata is a coarse-ground, dry-cured Italian salami with more fat, spice and presence than Genoa, sold sweet or hot. Slice it on a bias to show the fat pattern, and pair it with a dairy buffer like provolone or fresh mozzarella, plus dried apricots or honey for sweetness.
+
 Most charcuterie boards that include salami reach for Genoa — mild, accessible, familiar. Soppressata is the version of Italian cured meat that assumes you want more: more spice, more fat, more presence. It's the salami that changes the character of a board rather than simply contributing to it.
 
 If you've been building boards with only mild cured meats and want to add a more assertive element without reaching for 'nduja or a heavily spiced product, soppressata is the right answer. Here's everything you need to know to use it well.

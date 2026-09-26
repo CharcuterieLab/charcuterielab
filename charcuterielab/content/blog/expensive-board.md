@@ -10,6 +10,8 @@ tags: "["expensive board", "charcuterie myths", "charcuterie tips", "charcuterie
 ---
 
 # The Myth of the Expensive Charcuterie Board
+
+> **Quick Answer:** A great board for 4–6 people costs about $35–50 when you spend strategically. Buy one excellent anchor (real Parmigiano-Reggiano, aged Comté or DOP prosciutto) and make everything else good but ordinary. Remember that deli prices are per pound, and a small board needs ounces, not pounds.
 **The myth:** A great charcuterie board requires spending $80–100+ on ingredients.
 
 **The reality:** A board that looks and tastes excellent for 4–6 people costs $35–50 when you spend strategically — and the strategic choices are learnable.

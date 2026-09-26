@@ -10,6 +10,8 @@ tags: "["charcuterie how-to", "salami river", "charcuterie presentation", "board
 
 # How to Make a Salami River on Your Charcuterie Board
 
+> **Quick Answer:** Use salami sliced 2–3 mm thick. Fold each slice in half, or in half again, and stand the folds in a curving line that snakes across the board, overlapping as you go. Build the river first, then place the cheeses and fruit along its banks.
+
 The salami river is one of those techniques that looks like it requires training but takes about five minutes to learn. Once you've done it once, you'll do it on every board — because it solves three problems simultaneously: it makes cured meats look visually dynamic instead of flat, it fills space efficiently, and it creates a natural winding path that guides the eye across the board.
 
 It also photographs extraordinarily well. If you're posting your boards anywhere, this is the technique to know.

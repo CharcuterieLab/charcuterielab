@@ -12,6 +12,8 @@ tags: "["camembert", "camembert cheese", "soft cheese", "charcuterie cheese", "F
 
 # Camembert: Brie's More Interesting Cousin (And How to Use It on a Board)
 
+> **Quick Answer:** Camembert is a small whole-wheel soft cheese from Normandy with an earthier, more mushroomy flavor than brie. Serve it as a whole wheel and let guests cut in, with apple slices and honey beside it and prosciutto or coppa nearby. If you can find PDO Camembert de Normandie, it's the one worth buying.
+
 Camembert and brie occupy the same section at most grocery cheese counters, look nearly identical in format, and get confused regularly. On a board, this confusion matters: they are different cheeses with different flavor profiles, different structural properties, and different ideal pairings. Knowing the distinction isn't pedantry — it's the difference between putting the right cheese in the right position on your board and using the wrong one.
 
 ---

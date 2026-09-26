@@ -1083,6 +1083,65 @@ function buildAutolinkIndex(ingredients) {
   return { bySlug, re: new RegExp(`\\b(?:${alternatives.join("|")})\\b`, "gi") };
 }
 
+// Which blog posts talk about each ingredient, most relevant first: the post
+// title naming it counts most, then how often the body mentions it. Ingredient
+// pages list the top few as "Read more", so the 300+ ingredient pages send
+// readers (and link equity) into the blog instead of dead-ending.
+function ingredientMentions(posts, index) {
+  const out = new Map();
+  if (!index) return out;
+  for (const post of posts) {
+    const text = String(post.html || "").replace(/<[^>]+>/g, " ");
+    const counts = new Map();
+    index.re.lastIndex = 0;
+    for (const m of text.matchAll(index.re)) {
+      const slug = index.bySlug.get(m[0].toLowerCase());
+      if (slug) counts.set(slug, (counts.get(slug) || 0) + 1);
+    }
+    const title = `${post.title} ${post.slug.replace(/-/g, " ")}`.toLowerCase();
+    for (const [slug, n] of counts) {
+      const name = [...index.bySlug].find(([, s]) => s === slug)?.[0] || "";
+      const inTitle = name && title.includes(name);
+      const score = (inTitle ? 100 : 0) + n;
+      if (!out.has(slug)) out.set(slug, []);
+      out.get(slug).push({ post, score });
+    }
+  }
+  for (const list of out.values()) list.sort((a, b) => b.score - a.score || String(b.post.date).localeCompare(String(a.post.date)));
+  return out;
+}
+
+// Category guides fill in when an ingredient is rarely mentioned by name.
+const CATEGORY_GUIDES = {
+  "Cheese": ["best-cheese-charcuterie-board", "what-cheese-goes-on-charcuterie-board"],
+  "Cured Meat & Seafood": ["best-meats-charcuterie-board", "what-goes-on-charcuterie-board"],
+  "Crackers & Breads": ["what-bread-for-charcuterie-board", "charcuterie-board-crackers"],
+  "Fruit": ["charcuterie-board-fruit", "acid-contrast"],
+  "Nuts & Seeds": ["charcuterie-board-nuts", "what-goes-on-charcuterie-board"],
+  "Pickles, Olives & Briny": ["charcuterie-board-olives", "acid-contrast"],
+  "Spreads, Jams & Honey": ["charcuterie-board-condiments", "charcuterie-board-dips"],
+  "Finishing Touches": ["charcuterie-board-presentation", "color-and-flavor"]
+};
+let POSTS_BY_SLUG = new Map();
+
+function ingredientReadMore(item, mentions) {
+  const skip = item.boardPost?.replace(/^\/?blog\//, "").replace(/\/$/, "");
+  const list = (mentions?.get(item.slug) || []).filter(({ post }) => post.slug !== skip).slice(0, 4);
+  for (const slug of CATEGORY_GUIDES[item.category] || []) {
+    if (list.length >= 3) break;
+    const post = POSTS_BY_SLUG.get(slug);
+    if (post && post.slug !== skip && !list.some((x) => x.post.slug === slug)) list.push({ post, score: 0 });
+  }
+  if (!list.length) return "";
+  return `<section class="ing-read">
+      <h2>Read more about ${escapeHtml(item.title.toLowerCase())}</h2>
+      <div class="ing-read-grid">${list.map(({ post }) => `<a class="ing-read-card" href="/blog/${post.slug}/">
+        <img src="${escapeHtml(thumb(post.image, "s"))}" alt="" width="240" height="135" loading="lazy" decoding="async">
+        <span>${escapeHtml(post.title)}</span>
+      </a>`).join("")}</div>
+    </section>`;
+}
+
 function autolinkIngredients(html, index, selfSlug) {
   if (!index) return html;
   const used = new Set();
@@ -1166,7 +1225,7 @@ function ingredientSeoTitle(item) {
   return `What ${verb} ${item.title}? How to Serve & Pair It`;
 }
 
-function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "") {
+function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "", mentions = null) {
   const art = categoryArt(item.category);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
   const spec = [
@@ -1240,6 +1299,7 @@ ${related
         : ""
     }
     ${boardPostLink(item, blogSlugs)}
+    ${ingredientReadMore(item, mentions)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>
 ${labNext(`ingredient_${item.slug}_next`, { skip: ["book"], heading: "Plan the rest of the board" })}
@@ -2292,6 +2352,8 @@ async function build() {
   if (ingredients.length) {
     const bySlug = new Map(ingredients.map((item) => [item.slug, item]));
     const blogSlugs = new Set(posts.map((post) => post.slug));
+    const mentions = ingredientMentions(posts, autolinkIndex);
+    POSTS_BY_SLUG = new Map(posts.map((p) => [p.slug, p]));
     await mkdir(join(dist, "ingredients"), { recursive: true });
     await writeFile(join(dist, "ingredients", "index.html"), ingredientsHub(ingredients));
 
@@ -2311,7 +2373,7 @@ async function build() {
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item)));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item), mentions));
       })
     );
 

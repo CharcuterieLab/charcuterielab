@@ -11,6 +11,8 @@ type: "ingredient"
 
 # Pancetta: Italian Cured Pork Belly — Not Bacon
 
+> **Quick Answer:** Pancetta is Italian pork belly that's salt-cured, spiced and air-dried rather than smoked, so it tastes cleaner and sweeter than bacon. On a board, drape thin slices of flat pancetta so the fat stripes show. It sits between prosciutto's delicacy and salami's intensity.
+
 "Italian bacon" is the most common description of pancetta, and it's accurate in the same way that "Italian sparkling wine" describes both Lambrusco and Franciacorta — technically correct, meaningfully incomplete.
 
 Pancetta and American bacon are both cured pork belly. After that, they diverge in process, flavor, and purpose in ways that matter both in cooking and on a board.

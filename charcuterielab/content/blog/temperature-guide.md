@@ -12,6 +12,8 @@ updated: "2026-09-24"
 ---
 
 # The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)
+
+> **Quick Answer:** Take food out before serving so the flavor comes through: aged hard cheese 45–60 minutes, semi-firm cheese 30–45, soft cheese like brie 20–30, fresh cheese 15–20, and cured meats about 20. Put the crackers out last.
 ## Why Temperature Matters: The Science
 
 Two mechanisms explain why cold food tastes different from food served at the right temperature.

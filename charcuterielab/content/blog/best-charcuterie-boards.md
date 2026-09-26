@@ -12,6 +12,8 @@ tags: "["charcuterie boards", "charcuterie tools", "charcuterie board materials"
 
 # Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?
 
+> **Quick Answer:** If you buy one board, buy wood: a walnut or maple hardwood board, 16×20 inches or larger, works for every occasion. Slate gives the strongest color contrast for parties and photos. Marble stays cooler than the room, which helps soft cheese on a warm day.
+
 The board itself is the one piece of equipment that every charcuterie setup requires — and it's also the one most people either overthink (buying expensive marble they rarely use) or underthink (grabbing whatever cutting board is handy). Getting this right doesn't require spending a lot of money. It requires understanding what each material actually does, and choosing based on how you build.
 
 Here's the honest breakdown.

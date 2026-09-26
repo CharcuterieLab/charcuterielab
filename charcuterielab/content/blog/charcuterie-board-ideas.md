@@ -10,6 +10,8 @@ tags: "["charcuterie board ideas", "charcuterie board", "charcuterie"]"
 ---
 
 # 8 Charcuterie Board Ideas (With Exact Ingredient Lists)
+
+> **Quick Answer:** Every board here follows one formula: 2–3 cheeses of different textures, 2–3 meats with different fat and flavor, 2–3 condiments covering sweet, savory and acidic, fresh and dried fruit, and two kinds of crackers. The eight ideas include an Italian classic, a Spanish board, a summer fruit board, a winter holiday board and a date-night board for two.
 ## 1. The Italian Classic
 
 **The concept:** The board that defines the category. Every element has a role. Nothing is there for decoration only.

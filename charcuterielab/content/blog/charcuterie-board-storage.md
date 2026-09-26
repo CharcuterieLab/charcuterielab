@@ -11,6 +11,8 @@ tags: "["charcuterie board storage", "leftover charcuterie", "charcuterie board"
 
 # How to Store Charcuterie Board Leftovers
 
+> **Quick Answer:** Save the cheese, cured meats, nuts and condiments; throw out anything perishable that sat out more than 2 hours. Wrap each cheese in parchment, then loosely in plastic. Keep meats in separate airtight containers, crackers at room temperature in a sealed bag (never in the fridge), and condiments back in their jars.
+
 ## What to Save and What to Discard
 
 Not everything on a charcuterie board is worth saving. The first decision after a board is deciding what to carry forward.

@@ -12,6 +12,8 @@ tags: "["capicola", "capicola cheese board", "charcuterie board", "charcuterie p
 
 # Capicola on a Charcuterie Board: What It Is, How to Use It, and What to Pair It With
 
+> **Quick Answer:** Capicola (also called coppa or gabagool) is whole-muscle cured pork neck and shoulder: richer than prosciutto, less assertive than salami. Slice it as thin as you can, let it come to room temperature, and fold it loosely beside provolone or aged cheddar with a small dish of hot honey.
+
 ## What Is Capicola?
 
 Capicola — also called capocollo, coppa, or gabagool in Italian-American dialect — is a whole-muscle cured meat made from the neck and shoulder of the pig. The name comes from the Italian capo (head) and collo (neck), describing the anatomical location of the cut. It occupies an interesting position in the charcuterie landscape: richer than prosciutto, more refined than salami, and more accessible than bresaola or culatello.

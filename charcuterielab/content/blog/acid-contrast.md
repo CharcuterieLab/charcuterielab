@@ -10,6 +10,8 @@ tags: "["acid contrast", "charcuterie science", "pairing science", "charcuterie 
 ---
 
 # Why Acidic Elements Reset the Palate on a Charcuterie Board
+
+> **Quick Answer:** Rich cheese and cured meat coat your palate with fat and salt, so each bite tastes a little duller than the last. Acidic foods like cornichons, grapes and tart fruit make you salivate and wash that coating away. Spread them around the board instead of in one bowl, so every guest gets the reset.
 The cornichon is the most underestimated element on a charcuterie board. Most people think of it as garnish — something briny and small that fills the gaps. It is actually doing physiological work that makes every subsequent bite of cheese and meat taste better than it would without the interruption.
 
 The mechanism is palate reset, and understanding it explains why every well-built board needs an acidic element distributed throughout — not clustered in a corner.

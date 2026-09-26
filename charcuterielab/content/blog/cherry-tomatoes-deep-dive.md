@@ -6,6 +6,8 @@ image: "/images/cherrytomatoes.webp"
 excerpt: "Bright, juicy cherry tomatoes bring acidity, color, and freshness to rich charcuterie boards."
 ---
 
+> **Quick Answer:** Cherry tomatoes add bright acidity, juice and color that reset the palate between rich bites. Keep them at room temperature (fridge-cold tomatoes taste flat), pat them dry, and cluster 3–5 near fresh mozzarella, feta, olives and basil, away from the crackers so nothing gets soggy.
+
 ## Introduction
 
 Cherry tomatoes are the unsung heroes of the charcuterie board. These little bursts of freshness bring something no cheese or cured meat can: bright acidity, juicy texture, and a pop of color that makes your board feel fresh in seconds.

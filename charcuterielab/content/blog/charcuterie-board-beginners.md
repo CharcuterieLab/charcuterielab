@@ -11,6 +11,8 @@ tags: "["charcuterie board for beginners", "beginner charcuterie board", "easy c
 
 # Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)
 
+> **Quick Answer:** Start with 3 cheeses (one soft, one semi-firm, one aged) and 2 meats (one whole-muscle like prosciutto, one salami), plus two kinds of crackers, a fruit and a sweet condiment like honey or fig jam. Take the cheese out of the fridge before serving and keep it simple: five well-chosen things beat fifteen.
+
 The most common thing first-time charcuterie board builders get wrong is trying to do too much. A well-built board with five elements is better than a crowded board with fifteen. The goal isn't volume — it's contrast, balance, and intentional pairing.
 
 This guide covers the minimum viable charcuterie board, the most common beginner mistakes, and a shopping list that works reliably.

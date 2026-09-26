@@ -12,6 +12,8 @@ tags: "["castelvetrano", "charcuterie board", "charcuterie pairings", "ingredien
 
 # Castelvetrano Olives: The Board Olive That Converts Non-Olive People
 
+> **Quick Answer:** Castelvetrano olives are picked young in western Sicily, which keeps them bright green, buttery and mild. On a board they're a gentle palate reset between rich bites. Serve one small bowl at room temperature, near semi-firm and aged cheeses like manchego, fontina, provolone or Gruyère.
+
 ## What Is Castelvetrano?
 
 Castelvetrano olives come from the Belice Valley in western Sicily, where the Nocellara del Belice cultivar has been grown for centuries. What separates them from virtually every other table olive is the harvest timing and curing method: they're picked young, before full ripening, which preserves their natural chlorophyll and keeps them bright green. Most commercial olives undergo lye curing, which strips bitterness quickly but also flattens flavor. Castelvetrano olives are brine-cured, a slower process that maintains their delicate sweetness and produces the characteristic buttery texture that makes them so versatile.

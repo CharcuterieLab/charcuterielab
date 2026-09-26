@@ -12,6 +12,8 @@ tags: "["cocktail party charcuterie board", "charcuterie board", "how to", "char
 
 # How to Build a Cocktail Party Charcuterie Board: The One-Handed Format
 
+> **Quick Answer:** Guests are standing with a drink in one hand, so everything must be eaten one-handed: firm cheese cut into ¾-inch cubes, meats pre-folded, bites on picks, nothing that needs a knife. Set the board at counter height and keep a second board ready to swap in once the first looks picked over.
+
 ## What Makes a Cocktail Party Board Different
 
 A cocktail party board has one constraint that a standard entertaining board doesn't: guests are standing, holding a drink in one hand, and have limited coordination for assembly. They can't pick up a knife, spread cheese on a cracker, fold a piece of prosciutto, and manage a glass simultaneously. Everything that requires two hands, a plate, or a seated position fails in a cocktail context.

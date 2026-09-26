@@ -13,6 +13,8 @@ type: "myth"
 
 # Is Charcuterie Unhealthy? The Serving Size and Food Science Reality
 
+> **Quick Answer:** At normal portions, a charcuterie board is a moderate-calorie appetizer rather than a health problem on its own. The real concern is sodium: cured meats are salty. Keep meat to a couple of ounces per person, add fruit, vegetables and nuts, and treat it as an occasional spread rather than a daily meal.
+
 The conversation about charcuterie and health usually goes one of two ways. Either someone dismisses it as indulgent and inherently bad, or someone over-defends it as basically health food. Both miss what the food science actually says.
 
 The real answer is more specific: charcuterie in appropriate serving sizes, served as designed — an appetizer with a range of foods — is not a nutritional concern for most people. And several of its components have measurable fermentation-derived benefits. Here's what the research actually shows.

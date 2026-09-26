@@ -11,6 +11,8 @@ tags: "["color and flavor", "charcuterie science", "pairing science", "charcuter
 ---
 
 # The Color Science of a Charcuterie Board (Why Garnish Isn't Decorative)
+
+> **Quick Answer:** Color sets flavor expectations before anyone takes a bite: green reads as fresh and tart, red as sweet or tangy, cream as mild and rich, amber as aged and savory. Garnishes like rosemary, grapes and cornichons do real work, so spread each color across the board instead of grouping it in one place.
 ## The Science: Vision Precedes Taste
 
 The visual cortex processes incoming information in roughly 150 milliseconds — faster than any other sensory system. When you see food, color information goes to the brain's object-recognition system, which has been trained since infancy to associate specific colors with specific flavor properties:
