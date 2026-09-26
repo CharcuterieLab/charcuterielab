@@ -4314,3 +4314,7 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .about-page .about-lede { font-size: 1.15em; }
 .about-books li { margin-bottom: 8px; }
 .about-page .legal-prose li { margin-bottom: 10px; line-height: 1.55; }
+.about-quote { margin: 18px 0 22px; padding: 18px 22px; border-left: 4px solid var(--gold, #caa652); border-radius: 0 8px 8px 0; background: #fbf6ea; }
+.about-quote p { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.12em; line-height: 1.5; }
+.about-quote .about-quote-by { margin-top: 8px; font-family: inherit; font-size: 0.9em; font-weight: 700; color: var(--muted); }
+.about-quote .about-quote-by::before { content: "\2014\00a0"; }

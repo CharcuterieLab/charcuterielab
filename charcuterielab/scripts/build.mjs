@@ -1909,9 +1909,9 @@ function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
     "@context": "https://schema.org",
     ...authorRef,
     jobTitle: "Author",
-    description: "Author of the Charcuterie Lab books and writer of charcuterielab.com.",
+    description: "Author of the Charcuterie Lab books and writer of charcuterielab.com. Runs a local charcuterie catering business.",
     worksFor: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl },
-    knowsAbout: ["Charcuterie boards", "Cheese pairing", "Cured meats", "Entertaining"]
+    knowsAbout: ["Charcuterie boards", "Charcuterie catering", "Cheese pairing", "Cured meats", "Entertaining"]
   };
   const page = {
     "@context": "https://schema.org",
@@ -1937,7 +1937,8 @@ function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
         <p class="about-lede">Charcuterie Lab is about building charcuterie boards on purpose: what to buy, how much of it, the order to put it down in, and why the pairings work. It's written by ${AUTHOR_NAME}, author of the Charcuterie Lab books.</p>
 
         <h2 id="jimmy-wilson">${AUTHOR_NAME}</h2>
-        <p>${AUTHOR_NAME} writes this site and the Charcuterie Lab books. Every board he publishes follows the same format: a shopping list with amounts, a build order, and the reason each pairing works, so you can repeat a good board instead of guessing at it.</p>
+        <blockquote class="about-quote"><p>"I have always had a fondness for charcuterie. I still run my own local charcuterie catering business. Charcuterie Lab was started to dive into all the ingredients, pairings and boards, and take the charcuterie experience to the next level."</p><p class="about-quote-by">${AUTHOR_NAME}</p></blockquote>
+        <p>${AUTHOR_NAME} writes this site and the Charcuterie Lab books, alongside running a local charcuterie catering business. Every board he publishes follows the same format: a shopping list with amounts, a build order, and the reason each pairing works, so you can repeat a good board instead of guessing at it.</p>
         <ul class="about-books">
           <li><a href="/ebook/"><strong>${bookTitle}</strong></a>: 50 complete boards, as an ebook and a ${paperbackPrice} paperback.</li>
           <li><a href="${escapeHtml(PLANT_BOOK.kindleUrl)}" target="_blank" rel="noopener"><strong>${escapeHtml(PLANT_BOOK.title)}</strong></a>: 15 plant-based boards.</li>
