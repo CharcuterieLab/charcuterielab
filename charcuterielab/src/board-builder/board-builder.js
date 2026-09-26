@@ -413,7 +413,7 @@ function totalsLine() {
   const list = picks();
   const t = B.totals(list, state.guests, state.mode);
   const parts = [t.cheese && `${t.cheese} of cheese`, t.meat && `${t.meat} of meat`].filter(Boolean);
-  return `${list.length} ingredients, ${state.mode === "main" ? "as the meal" : "as an appetizer"}${parts.length ? `: about ${parts.join(" and ")} in total` : ""}.`;
+  return `${list.length} ingredients, ${state.mode === "meal" ? "as the meal" : state.mode === "main" ? "as the party food" : "as an appetizer"}${parts.length ? `: about ${parts.join(" and ")} in total` : ""}.`;
 }
 
 function subscribed() {
@@ -575,8 +575,9 @@ function viewFinish() {
         <div class="bb-field">
           <span class="bb-label">How is it being served?</span>
           <div class="bb-options">
-            <button type="button" class="bb-option${state.mode === "app" ? " is-on" : ""}" data-mode="app" aria-pressed="${state.mode === "app"}"><strong>Before a meal</strong><span>About 2–3 oz each of cheese and meat per person.</span></button>
-            <button type="button" class="bb-option${state.mode === "main" ? " is-on" : ""}" data-mode="main" aria-pressed="${state.mode === "main"}"><strong>It's the meal</strong><span>Grazing, or a party with no dinner. About 3–4 oz of each.</span></button>
+            <button type="button" class="bb-option${state.mode === "app" ? " is-on" : ""}" data-mode="app" aria-pressed="${state.mode === "app"}"><strong>Before a meal</strong><span>About 2 oz each of cheese and meat per person.</span></button>
+            <button type="button" class="bb-option${state.mode === "main" ? " is-on" : ""}" data-mode="main" aria-pressed="${state.mode === "main"}"><strong>It's the party food</strong><span>A party with no dinner. About 3 oz of each.</span></button>
+            <button type="button" class="bb-option${state.mode === "meal" ? " is-on" : ""}" data-mode="meal" aria-pressed="${state.mode === "meal"}"><strong>It's the meal</strong><span>The board is dinner. About 4 oz of each.</span></button>
           </div>
         </div>
       </div>
@@ -957,13 +958,22 @@ window.addEventListener("popstate", (e) => {
 function fromLink() {
   // shared links reopen a board: ?b=slug,slug&g=12&m=main
   const params = new URLSearchParams(location.search);
-  if (!params.has("b")) return false;
+  const MODES = ["app", "main", "meal"];
+  if (!params.has("b")) {
+    // Party Planner links: ?g=20&m=main opens an empty board sized for 20
+    const g0 = parseInt(params.get("g"), 10);
+    if (!(g0 > 0 && g0 <= 200)) return false;
+    state = Object.assign(fresh(), load() || {}, { guests: g0 });
+    if (MODES.includes(params.get("m"))) state.mode = params.get("m");
+    save();
+    return false;
+  }
   const slugs = params.get("b").split(",").map((s) => s.trim()).filter((s) => B.bySlug.has(s));
   if (!slugs.length) return false;
   state = Object.assign(fresh(), load() || {}, { picks: [...new Set(slugs)], view: "build" });
   const g = parseInt(params.get("g"), 10);
   if (g > 0 && g <= 200) state.guests = g;
-  if (params.get("m") === "main" || params.get("m") === "app") state.mode = params.get("m");
+  if (MODES.includes(params.get("m"))) state.mode = params.get("m");
   save();
   return true;
 }

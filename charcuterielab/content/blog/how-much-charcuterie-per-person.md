@@ -12,7 +12,9 @@ updated: "2026-09-24"
 
 # How Much Charcuterie Per Person? (The Formula Party Hosts Actually Need)
 
-**The short answer:** Plan for **2 oz of meat and 2 oz of cheese per person** as a cocktail-style appetizer board. If the charcuterie board is the main food of the evening, double it to 4 oz each.
+**The short answer:** Plan for **2 oz of meat and 2 oz of cheese per person** as a cocktail-style appetizer board. If it's the party food with no meal, plan 3 oz of each; if the board is dinner, 4 oz of each. From 20 guests, add 10%.
+
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
 
 That's the formula. Everything below explains why it works and how to apply it.
 
@@ -22,23 +24,25 @@ That's the formula. Everything below explains why it works and how to apply it.
 
 | Occasion | Meat Per Person | Cheese Per Person |
 |---|---|---|
-| Appetizer / cocktail hour | 2 oz | 2 oz |
-| Main spread (party without dinner) | 3–4 oz | 3–4 oz |
-| Light dinner or meal board | 4–5 oz | 4–5 oz |
-| Grazing table (3+ hours) | 5–6 oz | 5–6 oz |
+| Appetizer / cocktail hour (a meal follows) | 2 oz | 2 oz |
+| Party spread (no meal) | 3 oz | 3 oz |
+| Meal board (the board is dinner) | 4 oz | 4 oz |
+| Grazing table (3+ hours) | 3 oz, plus a refill tray | 3 oz, plus a refill tray |
 
 ---
 
 ## By Headcount
 
-| Guests | Meat (appetizer) | Cheese (appetizer) | Meat (main) | Cheese (main) |
+| Guests | Meat (appetizer) | Cheese (appetizer) | Meat (party spread) | Cheese (party spread) |
 |---|---|---|---|---|
-| 4 | 0.5 lb | 0.5 lb | 1 lb | 1 lb |
-| 6 | 0.75 lb | 0.75 lb | 1.5 lb | 1.5 lb |
-| 8 | 1 lb | 1 lb | 2 lb | 2 lb |
-| 12 | 1.5 lb | 1.5 lb | 3 lb | 3 lb |
-| 20 | 2.5 lb | 2.5 lb | 5 lb | 5 lb |
-| 30 | 3.75 lb | 3.75 lb | 7.5 lb | 7.5 lb |
+| 4 | 8 oz | 8 oz | 12 oz | 1 lb |
+| 6 | 12 oz | 1 lb | 1¼ lb | 1½ lb |
+| 8 | 1 lb | 1 lb | 1½ lb | 1½ lb |
+| 12 | 1½ lb | 1½ lb | 2¼ lb | 2½ lb |
+| 20 | 2¾ lb | 3 lb | 4¼ lb | 4½ lb |
+| 30 | 4¼ lb | 4½ lb | 6¼ lb | 6½ lb |
+
+Cheese is rounded up to the nearest half pound, the way it's sold. From 20 guests the amounts include a 10% buffer. Full plans: [for 8](/party-planner/charcuterie-board-for-8-people/), [for 12](/party-planner/charcuterie-board-for-12-people/), [for 20](/party-planner/charcuterie-board-for-20-people/), [for 30](/party-planner/charcuterie-board-for-30-people/).
 
 ---
 
@@ -46,9 +50,9 @@ That's the formula. Everything below explains why it works and how to apply it.
 
 For a typical party board, plan **2–3 meat varieties and 2–3 cheese varieties**. More variety means smaller portions of each, which is actually preferable — it gives guests more to explore and prevents anyone from eating one thing to the exclusion of everything else.
 
-**For 4–6 guests:** 2 meats + 2 cheeses, about 2–3 oz of each variety total
-**For 8–12 guests:** 2–3 meats + 3 cheeses, about 3–4 oz per variety
-**For 15–25 guests:** 3 meats + 3–4 cheeses, about 4–6 oz per variety
+**For 4–6 guests:** 2 meats + 2 cheeses, about 4–6 oz of each variety
+**For 8–12 guests:** 2–3 meats + 3 cheeses, about 5–8 oz per variety
+**For 15–25 guests:** 3 meats + 3–4 cheeses, about 8–14 oz per variety
 **For 30+ guests (grazing table):** 4–5 meats + 4–5 cheeses, divide the formula quantity across varieties
 
 ---
@@ -58,8 +62,8 @@ For a typical party board, plan **2–3 meat varieties and 2–3 cheese varietie
 Meat and cheese are the foundation — but the fillers and accompaniments are what make a board look full and give guests variety. These can be bought in bulk and cost far less per serving than cheese.
 
 **Plan roughly:**
-- Crackers and bread: 8–12 pieces per person
-- Fruit (fresh or dried): 1–2 oz per person
+- Crackers and bread: 6–8 pieces per person (10–12 if it's the party food)
+- Fruit (fresh or dried): 2 oz per person (3 oz if it's the party food)
 - Nuts: 0.5–1 oz per person
 - Condiments (honey, jam): 1 tablespoon per person is usually sufficient
 

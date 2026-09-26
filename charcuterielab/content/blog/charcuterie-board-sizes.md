@@ -13,6 +13,8 @@ tags: "["charcuterie board sizes", "charcuterie board", "board building"]"
 
 > **Quick Answer:** For 2 people, use an 8–10 inch board. For 4–6, a 12–14 inch board. For 8–10 people, use a 16–18 inch board or two medium boards. The 80% coverage rule: food should cover most of the board surface with natural gaps — not stacked high. When in doubt, go one size larger.
 
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
+
 ## Why Board Size Matters
 
 A board that's too small forces stacking — cheese slices layered on top of each other, meats wedged in at angles. This makes individual elements hard to identify and harder to take. Guests can't see what's available, can't access the back half of the board, and the visual logic of the build disappears.

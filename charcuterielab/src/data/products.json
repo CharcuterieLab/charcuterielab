@@ -147,5 +147,42 @@
         "/pairings/"
       ]
     ]
+  },
+  {
+    "title": "The Grazing Table Planner",
+    "description": "Digital download: quantities, stations, table map, countdown and refill plan for 25 to 150 guests.",
+    "price": "$9.00",
+    "image": "/images/grazing-table-planner.jpg",
+    "url": "",
+    "slug": "grazing-table-planner",
+    "priceShort": "$9",
+    "pagesLabel": "7 pages",
+    "format": "Letter size, portrait",
+    "hook": "Everything for a charcuterie spread that feeds 25 to 150: how much to buy, how many stations, a table map, a two-week countdown and a refill plan that keeps food safe.",
+    "includes": [
+      "Quantities for 25, 50, 75, 100 and 150 guests, as a party spread or before a meal",
+      "How many stations for your guest count, and a map of one station",
+      "Shopping checklist with space for your picks and amounts",
+      "Two-week countdown to serving",
+      "Refill plan and log that keep every tray within the 2-hour rule",
+      "Budget worksheet with rough totals at three levels"
+    ],
+    "who": "Anyone feeding a crowd with a grazing table: weddings, showers, graduations, office parties and open houses.",
+    "seoTitle": "Printable Grazing Table Planner: Quantities for 25 to 150 Guests",
+    "metaDescription": "A printable grazing table planner: how much charcuterie for 25 to 150 guests, station plan and table map, countdown, refill plan and budget. 7-page PDF, $9.",
+    "free": [
+      [
+        "Party Planner: how much for your guest count",
+        "/party-planner/"
+      ],
+      [
+        "Charcuterie board for 50 people",
+        "/party-planner/charcuterie-board-for-50-people/"
+      ],
+      [
+        "How to build a grazing table",
+        "/blog/grazing-table/"
+      ]
+    ]
   }
 ]

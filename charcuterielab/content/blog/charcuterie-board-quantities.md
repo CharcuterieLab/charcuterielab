@@ -4,28 +4,30 @@ date: "2026-08-26"
 image: "/images/charcuterie-board-quantities.png"
 excerpt: "Charcuterie Board Quantities: How Much to Buy"
 description: "Charcuterie board quantities by guest count — exact amounts of meat, cheese, crackers, and fruit so you buy the right amount without over- or under-ordering."
-faq: "[{"question":"How much meat per person for a charcuterie board?","answer":"Plan 2–3 oz of cured meat per person for an appetizer or starter board. For a board that serves as the main meal or at a cocktail party without dinner, scale to 3–4 oz per person. Across two to three meat varieties, that's 1–1.5 oz of each per person — enough for three to four bites of each type."},{"question":"How much cheese per person for a charcuterie board?","answer":"2–3 oz of cheese per person across three varieties works for an appetizer board. For a main event board, 3–4 oz per person. Divide equally across the three cheese types: roughly 1 oz of each per person. A 200g block of cheese serves 6–8 people as one of three board cheeses."},{"question":"How much cheese for 10 people on a charcuterie board?","answer":"For 10 people at an appetizer ratio: roughly 1.5–2 lbs of cheese total across three varieties, or 500–600g of each cheese. For a main event or cocktail party without dinner: 2–2.5 lbs total. Buy slightly more than your calculation — cheese is the most frequently underestimated item on charcuterie boards."},{"question":"How many crackers per person for a charcuterie board?","answer":"Plan 6–8 crackers per person for an appetizer board. For a main event board, 10–12 per person. One standard box of crackers (about 200g) typically contains 30–40 crackers — enough for 4–6 people at appetizer ratio. Buy two types and allocate roughly half of each box per type."},{"question":"How do you scale a charcuterie board for a large group?","answer":"Use the per-person ratios as a baseline and scale linearly, then add 10–15% buffer for a large group. For 30+ guests, the buffer matters because consumption becomes less predictable. At very large guest counts (50+), consider a grazing board format rather than a traditional charcuterie board — the abundance model scales better."}]"
+faq: "[{"question":"How much meat per person for a charcuterie board?","answer":"Plan 2 oz of cured meat per person for an appetizer before a meal, 3 oz if the board is the party food, and 4 oz if it's dinner. Across two or three meat varieties, that's about 1 oz of each per person."},{"question":"How much cheese per person for a charcuterie board?","answer":"2 oz of cheese per person works for an appetizer board, 3 oz if the board is the party food, and 4 oz if it's dinner. Divide it across three cheeses: an 8 oz wedge covers about 12 people as one of three cheeses at appetizer amounts."},{"question":"How much cheese for 10 people on a charcuterie board?","answer":"For 10 people as an appetizer: about 1½ lb of cheese in total, 7–8 oz of each of three cheeses. If it's the party food with no dinner: about 2 lb in total. See the full [plan for 10](/party-planner/charcuterie-board-for-10-people/). Buy slightly more than your calculation — cheese is the most frequently underestimated item on charcuterie boards."},{"question":"How many crackers per person for a charcuterie board?","answer":"Plan 6–8 crackers per person for an appetizer board. If the board is the party food, 10–12 per person. One standard box of crackers (about 200g) typically contains 30–40 crackers — enough for 4–6 people at appetizer ratio. Buy two types and allocate roughly half of each box per type."},{"question":"How do you scale a charcuterie board for a large group?","answer":"Use the per-person ratios as a baseline and scale linearly, then add 10% from 20 guests up. For large groups the buffer matters because consumption becomes less predictable. At very large guest counts (50+), consider a grazing board format rather than a traditional charcuterie board — the abundance model scales better."}]"
 slug: "charcuterie-board-quantities"
 tags: "["charcuterie board quantities", "charcuterie board", "how much food"]"
 ---
 
 # Charcuterie Board Quantities: How Much to Buy
 
-> **Quick Answer:** The baseline ratio for a charcuterie board appetizer is 2–3 oz of meat and 2–3 oz of cheese per person, plus 6–8 crackers, one handful of fruit, and 2–3 condiments total. For a main-event board, scale to 3–4 oz each. Add 10–15% buffer for larger groups. Cheese and crackers are the most consistently underestimated items — always buy more.
+> **Quick Answer:** The baseline for a charcuterie board appetizer is 2 oz of meat and 2 oz of cheese per person, plus 6–8 crackers, about 2 oz of fruit, and 2–3 condiments total. If the board is the party food with no meal, plan 3 oz of each; if it's dinner, 4 oz. Add 10% from 20 guests up. Cheese and crackers are the most consistently underestimated items — always buy more.
+
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
 
 ## The Core Ratio
 
 Every charcuterie board quantity calculation starts from the same per-person baseline:
 
-| Category | Appetizer (per person) | Main event (per person) |
+| Category | Appetizer (per person) | Party food, no meal (per person) |
 |---|---|---|
-| Cured meat | 2–3 oz | 3–4 oz |
-| Cheese | 2–3 oz | 3–4 oz |
+| Cured meat | 2 oz | 3 oz |
+| Cheese | 2 oz | 3 oz |
 | Crackers | 6–8 pieces | 10–12 pieces |
-| Fruit | 1 small handful | 1.5 handfuls |
+| Fruit | 2 oz | 3 oz |
 | Condiments | 2–3 total (not per person) | 3–4 total |
 
-"Appetizer" means guests will eat a main course afterward. "Main event" means the board is the meal — cocktail parties, late-night boards, boards served without dinner.
+"Appetizer" means guests will eat a main course afterward. "Party food" means the board is what guests eat all evening: cocktail parties, late-night boards, parties without dinner. If the board is dinner itself, plan 4 oz each of meat and cheese.
 
 ## Quantities by Guest Count
 
@@ -33,29 +35,31 @@ Every charcuterie board quantity calculation starts from the same per-person bas
 
 Buying cured meat in packages: prosciutto and salami typically come in 3 oz packages. Two packages of two different meats covers 4 people at appetizer ratio. Scale from there.
 
-| Guests | Meat total (appetizer) | Meat total (main event) |
+| Guests | Meat total (appetizer) | Meat total (party food) |
 |---|---|---|
-| 4 | 8–12 oz (2 packages) | 12–16 oz |
-| 8 | 1–1.5 lb | 1.5–2 lb |
-| 12 | 1.5–2 lb | 2–3 lb |
-| 20 | 2.5–3.75 lb | 3.75–5 lb |
-| 30 | 3.75–5.5 lb | 5.5–7.5 lb |
+| 4 | 8 oz | 12 oz |
+| 8 | 1 lb | 1½ lb |
+| 12 | 1½ lb | 2¼ lb |
+| 20 | 2¾ lb | 4¼ lb |
+| 30 | 4¼ lb | 6¼ lb |
 
 Distribute total meat weight across two to three varieties. For 8 guests at appetizer ratio (1 lb total): two 8oz packages (or two 6oz + one 4oz) works.
 
 ### Cheese quantities
 
-| Guests | Cheese total (appetizer) | Cheese total (main event) |
+| Guests | Cheese total (appetizer) | Cheese total (party food) |
 |---|---|---|
-| 4 | 8–12 oz | 12–16 oz |
-| 8 | 1–1.5 lb | 1.5–2 lb |
-| 12 | 1.5–2 lb | 2–3 lb |
-| 20 | 2.5–3.75 lb | 3.75–5 lb |
-| 30 | 3.75–5.5 lb | 5.5–7.5 lb |
+| 4 | 8 oz | 1 lb |
+| 8 | 1 lb | 1½ lb |
+| 12 | 1½ lb | 2½ lb |
+| 20 | 3 lb | 4½ lb |
+| 30 | 4½ lb | 6½ lb |
 
-Divide total cheese across three varieties. For 8 guests at 1–1.5 lb total: roughly 150–200g of each of three cheeses. One standard wedge or small block of each type covers this range.
+From 20 guests these include a 10% buffer. For other guest counts, see the [Party Planner](/party-planner/).
 
-**The underestimation problem:** More guests consistently consume more cheese per person than the calculation suggests. For groups over 12, add 15% to your cheese calculation and you will almost always be right.
+Divide total cheese across three varieties. For 8 guests at 1 lb total: about 5 oz of each of three cheeses. One standard wedge or small block of each type covers this range.
+
+**The underestimation problem:** More guests consistently consume more cheese per person than the calculation suggests. From 20 guests up, add 10% to your totals and you will almost always be right.
 
 ### Crackers
 
@@ -83,13 +87,13 @@ Condiments are board-level quantities, not per-person:
 
 The key is having enough variety (2–3 condiments), not large quantities of each.
 
-## The 10–15% Buffer Rule
+## The 10% Buffer Rule
 
-For groups of 12 or more, add 10–15% to your meat and cheese calculations. Here's why:
+From 20 guests up, add 10% to your meat and cheese calculations. Here's why:
 
-Consumption becomes less predictable at larger group sizes. Some guests eat very little; others eat far more than the per-person average. The variance increases with group size. A 15% buffer is cheap insurance against running out of the most-valued elements on the board — cheese in particular.
+Consumption becomes less predictable at larger group sizes. Some guests eat very little; others eat far more than the per-person average. The variance increases with group size. A 10% buffer is cheap insurance against running out of the most-valued elements on the board — cheese in particular.
 
-For groups under 10, the buffer matters less — consumption is more predictable and running slightly short is easy to notice and supplement.
+For smaller groups, the buffer matters less — consumption is more predictable and running slightly short is easy to notice and supplement.
 
 ## Common Quantity Mistakes
 
@@ -99,13 +103,13 @@ For groups under 10, the buffer matters less — consumption is more predictable
 
 **Overbuying condiments.** Condiments are board-level, not per-person. One jar of each condiment is enough for any board up to 20–30 guests.
 
-**Not accounting for meat variety.** Buying three varieties at 1 oz per person each (3 oz total) is the right approach. Buying one variety at 3 oz per person leaves the board one-dimensional.
+**Not accounting for meat variety.** Splitting the total across two or three varieties is the right approach. Buying one variety at 3 oz per person leaves the board one-dimensional.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) includes quantity tables and shopping lists for boards from 4 to 50+ guests.
 
 ## The Charcuterie Lab Takeaway
 
-The per-person math is: 2–3 oz meat, 2–3 oz cheese, 6–8 crackers, 1 handful fruit, 2–3 condiments total. Scale linearly by guest count. Add 15% buffer for groups over 12. Cheese and crackers are consistently underestimated — build in more of both.
+The per-person math is: 2 oz meat, 2 oz cheese, 6–8 crackers, 2 oz fruit, 2–3 condiments total (3 oz each of meat and cheese if the board is the party food). Scale by guest count. Add 10% from 20 guests up. Cheese and crackers are consistently underestimated — build in more of both.
 
 ## Related Reading
 
@@ -116,16 +120,16 @@ The per-person math is: 2–3 oz meat, 2–3 oz cheese, 6–8 crackers, 1 handfu
 ## FAQ
 
 **How much meat per person for a charcuterie board?**
-Plan 2–3 oz of cured meat per person for an appetizer or starter board. For a board that serves as the main meal or at a cocktail party without dinner, scale to 3–4 oz per person. Across two to three meat varieties, that's 1–1.5 oz of each per person — enough for three to four bites of each type.
+Plan 2 oz of cured meat per person for an appetizer before a meal, 3 oz if the board is the party food, and 4 oz if it's dinner. Across two or three meat varieties, that's about 1 oz of each per person.
 
 **How much cheese per person for a charcuterie board?**
-2–3 oz of cheese per person across three varieties works for an appetizer board. For a main event board, 3–4 oz per person. Divide equally across the three cheese types: roughly 1 oz of each per person. A 200g block of cheese serves 6–8 people as one of three board cheeses.
+2 oz of cheese per person works for an appetizer board, 3 oz if the board is the party food, and 4 oz if it's dinner. Divide it across three cheeses: an 8 oz wedge covers about 12 people as one of three cheeses at appetizer amounts.
 
 **How much cheese for 10 people on a charcuterie board?**
-For 10 people at an appetizer ratio: roughly 1.5–2 lbs of cheese total across three varieties, or 500–600g of each cheese. For a main event or cocktail party without dinner: 2–2.5 lbs total. Buy slightly more than your calculation — cheese is the most frequently underestimated item on charcuterie boards.
+For 10 people as an appetizer: about 1½ lb of cheese in total, 7–8 oz of each of three cheeses. If it's the party food with no dinner: about 2 lb in total. See the full [plan for 10](/party-planner/charcuterie-board-for-10-people/). Buy slightly more than your calculation — cheese is the most frequently underestimated item on charcuterie boards.
 
 **How many crackers per person for a charcuterie board?**
-Plan 6–8 crackers per person for an appetizer board. For a main event board, 10–12 per person. One standard box of crackers (about 200g) typically contains 30–40 crackers — enough for 4–6 people at appetizer ratio. Buy two types and allocate roughly half of each box per type.
+Plan 6–8 crackers per person for an appetizer board. If the board is the party food, 10–12 per person. One standard box of crackers (about 200g) typically contains 30–40 crackers — enough for 4–6 people at appetizer ratio. Buy two types and allocate roughly half of each box per type.
 
 **How do you scale a charcuterie board for a large group?**
-Use the per-person ratios as a baseline and scale linearly, then add 10–15% buffer for a large group. For 30+ guests, the buffer matters because consumption becomes less predictable. At very large guest counts (50+), consider a grazing board format rather than a traditional charcuterie board — the abundance model scales better.
+Use the per-person ratios as a baseline and scale linearly, then add 10% from 20 guests up. For large groups the buffer matters because consumption becomes less predictable. At very large guest counts (50+), consider a grazing board format rather than a traditional charcuterie board — the abundance model scales better.

@@ -267,17 +267,23 @@ export function createBoard(data) {
   ];
 
   // Returns { amount, note } for one item.
+  // The site-wide quantity standard (same as the Party Planner, scripts/party.mjs):
+  // meat and cheese per guest 2 oz before a meal, 3 oz as the party food, 4 oz
+  // as the meal; +10% from 20 guests, because crowds eat the favourites first.
+  const PER_GUEST = { app: 2, main: 3, meal: 4 };
+  const CRACKERS = { app: 7, main: 11, meal: 13 };
+  const buffer = (g) => (g >= 20 ? 1.1 : 1);
+
   function amount(item, picks, guests, mode) {
     const g = guests;
-    const main = mode === "main";
+    const main = mode === "main" || mode === "meal";
     const key = catOf(item).key;
     const n = Math.max(1, inCat(picks, item.c).length);
     const serve = parseServe(item.v);
     const per = serve ? (main ? serve.hi : serve.lo) : 0;
 
     if (key === "cheese" || key === "meat") {
-      let total = g * (main ? 3.5 : 2.5);
-      if (g > 12) total *= key === "cheese" ? 1.15 : 1.1;
+      const total = g * (PER_GUEST[mode] || 2) * buffer(g);
       const oz = total / n;
       let extra = "";
       if (key === "meat" && /Dry-cured ham|Salami|Air-dried/.test(item.r)) {
@@ -286,14 +292,14 @@ export function createBoard(data) {
       return { amount: fmtOz(oz), note: extra };
     }
     if (key === "crackers") {
-      const pieces = Math.ceil((g * (main ? 11 : 7)) / n);
+      const pieces = Math.ceil((g * (CRACKERS[mode] || 7)) / n);
       if (/baguette|ciabatta|sourdough|focaccia|bread|pumpernickel/.test(item.s)) {
         return { amount: "about " + pieces + " slices", note: plural(Math.max(1, Math.ceil(pieces / 24)), "loaf", "loaves") };
       }
       return { amount: "about " + pieces + " pieces", note: plural(Math.max(1, Math.ceil(pieces / 35)), "box or bag", "boxes or bags") };
     }
     if (key === "fruit") {
-      if (!serve || serve.unit === "oz") return { amount: fmtOz(Math.max(4, (g * (main ? 3 : 2)) / n)), note: "" };
+      if (!serve || serve.unit === "oz") return { amount: fmtOz(Math.max(4, (g * (PER_GUEST[mode] || 2) * buffer(g)) / n)), note: "" };
       return { amount: "about " + Math.ceil(g * per) + " " + serve.unit, note: "" };
     }
     if (serve && serve.unit === "oz") {
@@ -307,13 +313,10 @@ export function createBoard(data) {
   }
 
   function totals(picks, guests, mode) {
-    const main = mode === "main";
     const out = {};
     ["cheese", "meat"].forEach((key, idx) => {
       if (!inCat(picks, idx).length) return;
-      let total = guests * (main ? 3.5 : 2.5);
-      if (guests > 12) total *= key === "cheese" ? 1.15 : 1.1;
-      out[key] = fmtOz(total);
+      out[key] = fmtOz(guests * (PER_GUEST[mode] || 2) * buffer(guests));
     });
     return out;
   }

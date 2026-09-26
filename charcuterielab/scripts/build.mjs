@@ -5,8 +5,9 @@ import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls } from "./pairings.mjs";
+import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
-import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1250,6 +1251,7 @@ ${head}
         <a class="nav-book" href="/ebook/">The Book</a>
         <a href="/boards/">Boards</a>
         <a href="/holidays/">Holidays</a>
+        <a href="/party-planner/">Party Planner</a>
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/pairings/">Pairings</a>
@@ -1273,6 +1275,7 @@ ${head}
         <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
         <a href="/boards/">Board Library</a>
         <a href="/holidays/">Holiday Hub</a>
+        <a href="/party-planner/">Party Planner</a>
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/pairings/">Pairings Hub</a>
@@ -2053,7 +2056,7 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, products, ingredients, boards, holidays, pairingData] = await Promise.all([
+  const [allPosts, allProducts, ingredients, boards, holidays, pairingData] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse),
     loadIngredients(),
@@ -2062,6 +2065,8 @@ async function build() {
     loadPairings(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
+  // A printable goes live on the site once its Gumroad URL is filled in.
+  const products = allProducts.filter((p) => p.url);
   linkIndex.live = new Set(posts.map((post) => post.slug));
   linkIndex.redirects = await loadRedirectSources();
   posts.forEach((post) => {
@@ -2093,7 +2098,7 @@ async function build() {
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), { loc: "/printables/", priority: "0.8" }, ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), { loc: "/printables/", priority: "0.8" }, { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -2205,6 +2210,18 @@ async function build() {
         await writeFile(join(dist, "boards", b.slug, "index.html"), boardPage(boardHelpers, b, { all: boards, bySlug, notes, blogTitles }));
       }
       console.log(`Board Library: ${boards.length} published boards`);
+    }
+    {
+      // Party Planner: /party-planner/ + one page per guest count
+      const libraryByNumber = new Map(boards.filter((b) => b.book === "main" && /^B1-\d\d$/.test(b.number || "")).map((b) => [Number(b.number.slice(3)), b]));
+      const partyH = { ...boardHelpers, newsletterUrl };
+      await mkdir(join(dist, "party-planner"), { recursive: true });
+      await writeFile(join(dist, "party-planner", "index.html"), partyHub(partyH, { bookBoards: BOOK_BOARDS }));
+      for (const n of PARTY_COUNTS) {
+        await mkdir(join(dist, partyUrl(n).slice(1)), { recursive: true });
+        await writeFile(join(dist, partyUrl(n).slice(1), "index.html"), partyPage(partyH, n, { bookBoards: BOOK_BOARDS, libraryByNumber, known: bySlug, builderLink }));
+      }
+      console.log(`Party Planner: hub + ${PARTY_COUNTS.length} guest-count pages`);
     }
     if (holidays.length) {
       const boardsBySlug = new Map(boards.map((b) => [b.slug, b]));
