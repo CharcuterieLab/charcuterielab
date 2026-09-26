@@ -1,5 +1,6 @@
 ---
 title: "Winter Charcuterie Board: Flavors, Ingredients, and How to Build It"
+seo_title: "Winter Charcuterie Board: Flavors and How to Build It"
 date: "2026-08-28"
 image: "/images/winter-charcuterie-board.png"
 excerpt: "Winter Charcuterie Board: Flavors, Ingredients, and How to Build It"

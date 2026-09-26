@@ -1,5 +1,6 @@
 ---
 title: "Mini Charcuterie Board: How to Build a Perfect Board for One or Two"
+seo_title: "Mini Charcuterie Board: A Small Board for One or Two"
 date: "2026-09-09"
 image: "/images/mini-charcuterie-board.png"
 excerpt: "Mini Charcuterie Board: How to Build a Perfect Board for One or Two"

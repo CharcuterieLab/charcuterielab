@@ -1,5 +1,6 @@
 ---
 title: "What to Serve with a Charcuterie Board: Drinks, Sides, Bread, and When to Add Each"
+seo_title: "What to Serve with a Charcuterie Board: Drinks and Sides"
 date: "2026-09-10"
 image: "/images/what-to-serve-with-charcuterie-board.png"
 excerpt: "What to Serve with a Charcuterie Board: Drinks, Sides, Bread, and When to Add Each"

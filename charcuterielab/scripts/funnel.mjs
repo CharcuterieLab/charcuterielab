@@ -403,7 +403,7 @@ export function makePrintables(h, products) {
       ["How do I download them?", "Checkout is on Gumroad. The download link arrives by email straight away."]
     ];
     return h.layout({
-      title: "Printable Charcuterie Board Shopping Lists, Charts & Templates | Charcuterie Lab",
+      title: "Printable Charcuterie Shopping Lists, Charts & Templates",
       canonical: "/printables/",
       image: products[0].image,
       description: "Printable charcuterie board shopping lists, a wine and cheese pairing chart, a cheese pairing card and board blueprints. Free board 01 sample plus instant PDFs from $7.",

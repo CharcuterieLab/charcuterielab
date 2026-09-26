@@ -6,7 +6,7 @@ excerpt: "Stilton: The Science Behind the Blue Veins (And Why It Pairs With Port
 description: "Stilton is England's protected blue cheese, made only in Derbyshire, Leicestershire and Nottinghamshire. Here's how its blue veins form, how it tastes, and what to pair it with."
 slug: "stilton"
 tags: "["stilton", "stilton charcuterie", "blue cheese board", "stilton pairing", "stilton port pairing", "blue cheese charcuterie", "British cheese", "cured meat"]"
-seo_title: "What Is Stilton? The Blue Cheese Guide (and Why It Loves Port)"
+seo_title: "What Is Stilton? Blue Cheese Guide (and Why It Loves Port)"
 updated: "2026-09-24"
 ---
 

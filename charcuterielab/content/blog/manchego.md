@@ -1,5 +1,6 @@
 ---
-title: "Manchego: Spain's Most Board-Ready Cheese (And Why It Works So Well)"
+title: "Manchego: Spain's Most Board-Ready Cheese (And Why It Works So Well)"
+seo_title: "Manchego on a Charcuterie Board: Spain's Best Board Cheese"
 date: "2026-04-27"
 image: "/images/manchego.webp"
 excerpt: "Manchego: Spain's Most BoardReady Cheese (And Why It Works So Well)"

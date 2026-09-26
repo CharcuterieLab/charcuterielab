@@ -1,5 +1,6 @@
 ---
 title: "How Much Cheese for a Charcuterie Board: The Formula by Guest Count"
+seo_title: "How Much Cheese for a Charcuterie Board, by Guest Count"
 date: "2026-09-01"
 image: "/images/how-much-cheese-charcuterie-board.png"
 excerpt: "How Much Cheese for a Charcuterie Board: The Formula by Guest Count"

@@ -1,5 +1,6 @@
 ---
 title: "How to Build a $25 Charcuterie Board That Looks Like It Cost $75"
+seo_title: "$25 Charcuterie Board That Looks Like It Cost $75"
 date: "2026-08-31"
 image: "/images/budget-charcuterie-board.png"
 excerpt: "How to Build a $25 Charcuterie Board That Looks Like It Cost $75"

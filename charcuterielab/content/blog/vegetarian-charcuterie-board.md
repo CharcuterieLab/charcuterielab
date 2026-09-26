@@ -1,5 +1,6 @@
 ---
-title: "Vegetarian Charcuterie Board: A Cheese-Forward Build That Actually Satisfies"
+title: "Vegetarian Charcuterie Board: A Cheese-Forward Build That Actually Satisfies"
+seo_title: "Vegetarian Charcuterie Board: A Cheese-Forward Build"
 date: "2026-05-15"
 image: "/images/vegetarian-charcuterie-board.webp"
 excerpt: "Vegetarian Charcuterie Board: A CheeseForward Build That Actually Satisfies"

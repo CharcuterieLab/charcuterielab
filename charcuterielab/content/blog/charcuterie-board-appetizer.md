@@ -1,5 +1,6 @@
 ---
 title: "How to Serve a Charcuterie Board as an Appetizer: Quantities, Timing, and What to Scale Back"
+seo_title: "Charcuterie Board as an Appetizer: Amounts and Timing"
 date: "2026-09-07"
 image: "/images/charcuterie-board-appetizer.png"
 excerpt: "How to Serve a Charcuterie Board as an Appetizer: Quantities, Timing, and What to Scale Back"

@@ -1,5 +1,6 @@
 ---
 title: "Charcuterie Board for a Large Group: How to Scale Without the Chaos"
+seo_title: "Charcuterie Board for a Large Group: How to Scale It"
 date: "2026-08-30"
 image: "/images/charcuterie-board-for-large-group.png"
 excerpt: "Charcuterie Board for a Large Group: How to Scale Without the Chaos"

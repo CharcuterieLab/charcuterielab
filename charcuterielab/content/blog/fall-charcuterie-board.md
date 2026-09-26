@@ -1,5 +1,6 @@
 ---
-title: "Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Together"
+title: "Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Together"
+seo_title: "Fall Charcuterie Board: Seasonal Ingredients That Work"
 date: "2026-05-19"
 image: "/images/fall-charcuterie-board.webp"
 excerpt: "Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Together"

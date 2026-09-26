@@ -1,5 +1,6 @@
 ---
-title: "What Cheese Goes on a Charcuterie Board? (The Complete Answer)"
+title: "What Cheese Goes on a Charcuterie Board? (The Complete Answer)"
+seo_title: "What Cheese Goes on a Charcuterie Board?"
 date: "2026-05-10"
 image: "/images/what-cheese-goes-on-charcuterie-board.webp"
 excerpt: "What Cheese Goes on a Charcuterie Board? (The Complete Answer) The 3Cheese Framework"

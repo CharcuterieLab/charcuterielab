@@ -1,5 +1,6 @@
 ---
-title: "Birthday Charcuterie Board: How to Scale, Crowd-Please, and Still Make It Interesting"
+title: "Birthday Charcuterie Board: How to Scale, Crowd-Please, and Still Make It Interesting"
+seo_title: "Birthday Charcuterie Board: Ideas That Please a Crowd"
 date: "2026-05-14"
 image: "/images/charcuterie-board-birthday.webp"
 excerpt: "Birthday Charcuterie Board: How to Scale, CrowdPlease, and Still Make It Interesting"

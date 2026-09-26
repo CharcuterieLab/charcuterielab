@@ -1,5 +1,6 @@
 ---
-title: "Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35"
+title: "Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35"
+seo_title: "Easy Charcuterie Board: 15 Minutes, Under $35"
 date: "2026-05-08"
 image: "/images/easy-charcuterie-board.webp"
 excerpt: "Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35"

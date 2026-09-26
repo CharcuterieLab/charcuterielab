@@ -1,5 +1,6 @@
 ---
 title: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
+seo_title: "Coppa on a Charcuterie Board: The Showpiece Cured Meat"
 date: "2026-09-10"
 image: "/images/coppa.png"
 excerpt: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"

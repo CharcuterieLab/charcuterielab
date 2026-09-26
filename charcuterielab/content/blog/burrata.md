@@ -1,5 +1,6 @@
 ---
 title: "Burrata: Why It's Not Mozzarella (And How to Serve It on a Board)"
+seo_title: "Burrata on a Charcuterie Board: How to Serve It"
 date: "2026-09-01"
 image: "/images/burrata.png"
 excerpt: "Burrata: Why It's Not Mozzarella (And How to Serve It on a Board)"

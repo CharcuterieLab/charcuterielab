@@ -1,5 +1,6 @@
 ---
 title: "Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?"
+seo_title: "Wood vs Slate vs Marble: Which Charcuterie Board to Buy"
 date: "2026-09-10"
 image: "/images/best-charcuterie-boards.png"
 excerpt: "Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?"

@@ -1,5 +1,6 @@
 ---
 title: "The Color Science of a Charcuterie Board (Why Garnish Isn't Decorative)"
+seo_title: "The Color Science of a Charcuterie Board"
 date: "2026-09-07"
 image: "/images/color-and-flavor.png"
 excerpt: "The Color Science of a Charcuterie Board (Why Garnish Isn't Decorative) The Science: Vision Precedes Taste"

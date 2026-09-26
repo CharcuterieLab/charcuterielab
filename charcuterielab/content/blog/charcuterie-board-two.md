@@ -1,5 +1,6 @@
 ---
-title: "Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale"
+title: "Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale"
+seo_title: "Charcuterie Board for Two: What to Buy and How to Build"
 date: "2026-05-08"
 image: "/images/charcuterie-board-two.webp"
 excerpt: "Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale"

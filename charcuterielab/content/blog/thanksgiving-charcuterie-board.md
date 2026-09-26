@@ -1,5 +1,6 @@
 ---
 title: "Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide"
+seo_title: "Thanksgiving Charcuterie Board: Amounts and Fall Flavors"
 date: "2026-08-29"
 image: "/images/thanksgiving-charcuterie-board.png"
 excerpt: "Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide"

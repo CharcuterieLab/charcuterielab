@@ -1,5 +1,6 @@
 ---
 title: "Aged Gouda: The Caramel Cheese That Changes How Your Board Tastes"
+seo_title: "Aged Gouda: The Caramel Cheese for Charcuterie Boards"
 date: "2026-08-28"
 image: "/images/aged-gouda.png"
 excerpt: "Aged Gouda: The Caramel Cheese That Changes How Your Board Tastes"

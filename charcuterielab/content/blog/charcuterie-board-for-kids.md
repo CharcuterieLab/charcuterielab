@@ -1,5 +1,6 @@
 ---
-title: "Charcuterie Board for Kids: What to Include and How to Make It Fun"
+title: "Charcuterie Board for Kids: What to Include and How to Make It Fun"
+seo_title: "Charcuterie Board for Kids: What to Include"
 date: "2026-05-13"
 image: "/images/charcuterie-board-for-kids.webp"
 excerpt: "Charcuterie Board for Kids: What to Include and How to Make It Fun"

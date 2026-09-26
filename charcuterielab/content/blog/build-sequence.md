@@ -1,5 +1,6 @@
 ---
-title: "The Right Order to Build a Charcuterie Board (And Why It Matters)"
+title: "The Right Order to Build a Charcuterie Board (And Why It Matters)"
+seo_title: "How to Build a Charcuterie Board: The Right Order"
 date: "2026-05-11"
 image: "/images/build-sequence.webp"
 excerpt: "The Right Order to Build a Charcuterie Board (And Why It Matters) Why Sequence Matters"

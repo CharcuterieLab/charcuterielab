@@ -1,5 +1,6 @@
 ---
-title: "Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)"
+title: "Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)"
+seo_title: "Charcuterie Board for Beginners: What You Need"
 date: "2026-04-29"
 image: "/images/charcuterie-board-beginners.webp"
 excerpt: "Charcuterie Board for Beginners: The Minimum You Need (And the Mistakes to Skip)"

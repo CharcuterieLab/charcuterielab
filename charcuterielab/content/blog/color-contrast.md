@@ -1,5 +1,6 @@
 ---
-title: "Color Contrast on a Charcuterie Board: Why Visual Design Affects Perceived Flavor"
+title: "Color Contrast on a Charcuterie Board: Why Visual Design Affects Perceived Flavor"
+seo_title: "Color Contrast on a Charcuterie Board: Why It Matters"
 date: "2026-09-25"
 image: "/images/color-contrast.png"
 excerpt: "Color Contrast on a Charcuterie Board: Why Visual Design Affects Perceived Flavor"

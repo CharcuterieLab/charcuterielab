@@ -414,7 +414,7 @@ export function worldBookPage(h, boards) {
   const byNum = new Map(world.map((b) => [b.number.slice(3), b]));
   const live = W.status === "live" && W.paperbackUrl;
   return h.layout({
-    title: live ? `${W.title} | Charcuterie Lab` : `${W.title}: Coming ${W.launch} | Charcuterie Lab`,
+    title: live ? `${W.title} | Charcuterie Lab` : `Around the World in 16 Boards: Coming ${W.launch}`,
     canonical: "/around-the-world/",
     image: world.find((b) => !b.placeholder)?.image,
     description: `16 international charcuterie boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists, step-by-step blueprints and pairing science. ${live ? "Out now." : `Coming ${W.launch}.`}`,

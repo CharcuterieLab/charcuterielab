@@ -1,5 +1,6 @@
 ---
-title: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"
+title: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"
+seo_title: "Nduja on a Charcuterie Board: The Spreadable Salami"
 date: "2026-05-12"
 image: "/images/nduja-charcuterie-board.webp"
 excerpt: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"

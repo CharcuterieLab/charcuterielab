@@ -1,5 +1,6 @@
 ---
 title: "Camembert: Brie's More Interesting Cousin (And How to Use It on a Board)"
+seo_title: "Camembert on a Charcuterie Board: Brie's Bolder Cousin"
 date: "2026-09-02"
 image: "/images/camembert.png"
 excerpt: "Camembert: Brie's More Interesting Cousin (And How to Use It on a Board)"

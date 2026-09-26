@@ -1,5 +1,6 @@
 ---
 title: "Comté on a Charcuterie Board: Copper Vats, Alpine Milk, and the Most Complex Cheese in France"
+seo_title: "Comté on a Charcuterie Board: Pairings and What to Buy"
 date: "2026-09-09"
 image: "/images/comte.png"
 excerpt: "Comté on a Charcuterie Board: Copper Vats, Alpine Milk, and the Most Complex Cheese in France"

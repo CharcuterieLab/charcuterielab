@@ -1,5 +1,6 @@
 ---
 title: "Christmas Charcuterie Board: How to Build a Festive Board for the Holidays"
+seo_title: "Christmas Charcuterie Board: How to Build a Festive One"
 date: "2026-09-02"
 image: "/images/christmas-charcuterie-board.png"
 excerpt: "Christmas Charcuterie Board: How to Build a Festive Board for the Holidays"

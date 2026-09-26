@@ -1,5 +1,6 @@
 ---
-title: "The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites"
+title: "The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites"
+seo_title: "The Acid Rule: Why Acidic Foods Reset Your Palate"
 date: "2026-08-26"
 image: "/images/acid-rule.png"
 excerpt: "The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites"

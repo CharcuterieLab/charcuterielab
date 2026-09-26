@@ -241,7 +241,7 @@ export function partyHub(h, { bookBoards }) {
   const chart = COUNTS.map((n) => ({ n, p: plan(n, defaultMode(n)), a: plan(n, "app") }));
   const data = JSON.stringify({ modes: MODES, counts: COUNTS });
   return h.layout({
-    title: "How Much Charcuterie Do I Need? Party Planner for 4 to 100 Guests | Charcuterie Lab",
+    title: "How Much Charcuterie Do I Need? Party Planner, 4–100 Guests",
     canonical: "/party-planner/",
     image: "/images/how-much-charcuterie-per-person.webp",
     description: `How much charcuterie you need: ${MODES.app.meat} oz each of meat and cheese per guest before a meal, ${MODES.main.meat} oz as the party food. Plans for 4 to 100 guests.`,

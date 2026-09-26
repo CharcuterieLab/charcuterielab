@@ -1,5 +1,6 @@
 ---
-title: "Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)"
+title: "Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)"
+seo_title: "Aged Cheddar on a Charcuterie Board: Why It's So Sharp"
 date: "2026-08-27"
 image: "/images/aged-cheddar.png"
 excerpt: "Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)"

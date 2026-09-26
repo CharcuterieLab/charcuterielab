@@ -1,5 +1,6 @@
 ---
 title: "Castelvetrano Olives: The Board Olive That Converts Non-Olive People"
+seo_title: "Castelvetrano Olives: The Olive for Non-Olive People"
 date: "2026-09-04"
 image: "/images/castelvetrano.png"
 excerpt: "Castelvetrano Olives: The Board Olive That Converts NonOlive People"

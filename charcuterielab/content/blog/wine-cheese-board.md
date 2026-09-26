@@ -1,5 +1,6 @@
 ---
 title: "How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly"
+seo_title: "How to Build a Wine and Cheese Board"
 date: "2026-09-06"
 image: "/images/wine-cheese-board.png"
 excerpt: "How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly"

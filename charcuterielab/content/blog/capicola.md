@@ -1,5 +1,6 @@
 ---
 title: "Capicola on a Charcuterie Board: What It Is, How to Use It, and What to Pair It With"
+seo_title: "Capicola on a Charcuterie Board: What It Is and Pairings"
 date: "2026-09-03"
 image: "/images/capicola.png"
 excerpt: "Capicola on a Charcuterie Board: What It Is, How to Use It, and What to Pair It With"

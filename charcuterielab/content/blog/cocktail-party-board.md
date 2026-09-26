@@ -1,5 +1,6 @@
 ---
 title: "How to Build a Cocktail Party Charcuterie Board: The One-Handed Format"
+seo_title: "Cocktail Party Charcuterie Board: The One-Handed Format"
 date: "2026-09-04"
 image: "/images/cocktail-party-board.png"
 excerpt: "How to Build a Cocktail Party Charcuterie Board: The OneHanded Format"

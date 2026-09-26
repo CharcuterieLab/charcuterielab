@@ -1,5 +1,6 @@
 ---
 title: "Is Charcuterie Unhealthy? The Serving Size and Food Science Reality"
+seo_title: "Is Charcuterie Unhealthy? Serving Sizes and the Science"
 date: "2026-09-06"
 image: "/images/charcuterie-unhealthy.png"
 excerpt: "Is Charcuterie Unhealthy? The Serving Size and Food Science Reality"

@@ -1,5 +1,6 @@
 ---
-title: "Types of Cheese for a Charcuterie Board: The Four-Texture Framework"
+title: "Types of Cheese for a Charcuterie Board: The Four-Texture Framework"
+seo_title: "Types of Cheese for a Charcuterie Board: 4 Textures"
 date: "2026-08-25"
 image: "/images/charcuterie-board-cheese-types.png"
 excerpt: "Types of Cheese for a Charcuterie Board: The FourTexture Framework"

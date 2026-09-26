@@ -1,5 +1,6 @@
 ---
 title: "Charcuterie Board Condiments: What to Use and Where to Put Them"
+seo_title: "Charcuterie Board Condiments: What to Use and Where"
 date: "2026-08-29"
 image: "/images/charcuterie-board-condiments.png"
 excerpt: "Charcuterie Board Condiments: What to Use and Where to Put Them"

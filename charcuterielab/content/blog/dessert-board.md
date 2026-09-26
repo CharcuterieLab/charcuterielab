@@ -1,5 +1,6 @@
 ---
-title: "Dessert Charcuterie Board: How to Build a Sweet Board That Actually Works"
+title: "Dessert Charcuterie Board: How to Build a Sweet Board That Actually Works"
+seo_title: "Dessert Charcuterie Board: How to Build a Sweet Board"
 date: "2026-05-15"
 image: "/images/dessert-board.webp"
 excerpt: "Build a dessert charcuterie board with chocolate, fruit, cookies, creamy dips, salty accents, and a layout that keeps the board balanced instead of sugary."

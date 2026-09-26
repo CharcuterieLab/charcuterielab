@@ -270,6 +270,39 @@ function siteSchema() {
   return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
 }
 
+// BreadcrumbList for search results: [[name, path], ...] from Home down.
+function breadcrumbSchema(items) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map(([name, path], i) => ({ "@type": "ListItem", position: i + 1, name, item: absoluteUrl(path) }))
+  };
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
+const longDate = (d) => {
+  const t = new Date(`${String(d).slice(0, 10)}T00:00:00Z`);
+  return Number.isNaN(t.getTime()) ? "" : new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(t);
+};
+
+// Ingredient pages were FAQ-only in structured data. This gives them an
+// author, publish and update dates, like the blog posts.
+function ingredientArticleSchema(item) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: ingredientSeoTitle(item),
+    description: item.excerpt,
+    ...(item.image ? { image: [absoluteUrl(item.image)] } : {}),
+    ...(item.date ? { datePublished: String(item.date).slice(0, 10) } : {}),
+    ...(item.updated || item.date ? { dateModified: String(item.updated || item.date).slice(0, 10) } : {}),
+    author: authorRef,
+    publisher: { "@type": "Organization", name: "Charcuterie Lab", url: siteUrl, logo: { "@type": "ImageObject", url: absoluteUrl("/images/book-cover.jpg") } },
+    mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(`/ingredients/${item.slug}/`) }
+  };
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
 function faqSchema(post) {
   if (!post.faq?.length) return "";
 
@@ -752,6 +785,10 @@ async function loadIngredients() {
         boardRole: data.board_role ?? "",
         roleGroup: data.role_group ?? "",
         excerpt: data.excerpt ?? "",
+        // Publish / last-revised dates: used for the byline, Article schema,
+        // article:modified_time and the sitemap lastmod.
+        date: data.date ? String(data.date).slice(0, 10) : "",
+        updated: data.updated ? String(data.updated).slice(0, 10) : "",
         priceTier: data.price_tier ?? "",
         serving: data.serving_per_person ?? "",
         prepTime: data.prep_time ?? "",
@@ -992,6 +1029,7 @@ function ingredientCategoryPage(category, items) {
     canonical: `/ingredients/${slugify(category)}/`,
     title: pageTitle(`${category} for Charcuterie: ${items.length} Types Explained`),
     description: `Every ${category.toLowerCase()} ingredient for a charcuterie board — pairings, prep and what to buy, one page each.`,
+    head: breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"], [category, `/ingredients/${slugify(category)}/`]]),
     body: `<main class="ing-main">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> ${escapeHtml(category)}</p>
 ${ingredientsFinder(items, {
@@ -1144,7 +1182,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
     modified: item.updated || item.date,
     title: pageTitle(ingredientSeoTitle(item)),
     description: item.excerpt,
-    head: faqSchema(item),
+    head: [faqSchema(item), ingredientArticleSchema(item), breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"], [item.category, `/ingredients/${item.categorySlug}/`], [item.title, `/ingredients/${item.slug}/`]])].filter(Boolean).join("\n"),
     body: `<main class="ing-main ing-detail">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> <a href="/ingredients/${item.categorySlug}/">${escapeHtml(item.category)}</a> <span aria-hidden="true">/</span> ${escapeHtml(item.title)}</p>
   <article class="ing-article" style="--ing-tint:${art.tint}">
@@ -1152,7 +1190,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <a class="ing-eyebrow" href="/ingredients/${item.categorySlug}/">${art.glyph}${escapeHtml(item.category)}</a>
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
-      <p class="ing-byline">${byline()}</p>
+      <p class="ing-byline">${byline(longDate(item.updated || item.date) ? ` · Updated ${longDate(item.updated || item.date)}` : "")}</p>
       ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">` : ""}
       ${
         spec.length
@@ -1214,9 +1252,18 @@ ${newsletterPanel("ing-email", `ingredient_${item.slug}`)}
 // Google shows roughly 60 characters of a title. When the headline already
 // fills that on its own, the " | Charcuterie Lab" suffix is truncated away
 // anyway - dropping it buys back 19 characters of the words that matter.
+// Google shows about 60 characters of a title. The brand suffix is added only
+// when the whole title still fits; layout() also strips it from any title that
+// comes in already suffixed and too long.
+const TITLE_MAX = 60;
+const TITLE_SUFFIX = " | Charcuterie Lab";
 function pageTitle(title) {
   const t = String(title).trim();
-  return t.length >= 55 ? t : `${t} | Charcuterie Lab`;
+  return (t + TITLE_SUFFIX).length <= TITLE_MAX ? t + TITLE_SUFFIX : t;
+}
+function fitTitle(title) {
+  const t = String(title).trim();
+  return t.length > TITLE_MAX && t.endsWith(TITLE_SUFFIX) ? t.slice(0, -TITLE_SUFFIX.length) : t;
 }
 
 // Search results cut the description at about 160 characters. Trim at the last
@@ -1242,6 +1289,7 @@ function layout({
   published = "",
   modified = ""
 }) {
+  title = fitTitle(title);
   const pageUrl = absoluteUrl(canonical);
   const imageUrl = absoluteUrl(image);
   const shareTitle = title.replace(/\s*\|\s*Charcuterie Lab\s*$/, "");
@@ -2077,7 +2125,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     type: "article",
     published: post.date,
     modified: post.updated || post.date,
-    head: `${articleSchema(post, description)}\n${faqSchema(post)}`,
+    head: `${articleSchema(post, description)}\n${faqSchema(post)}\n${breadcrumbSchema([["Home", "/"], ["Blog", "/blog/"], [post.title, `/blog/${post.slug}/`]])}`,
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">

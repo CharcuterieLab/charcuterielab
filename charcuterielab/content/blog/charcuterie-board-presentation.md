@@ -1,5 +1,6 @@
 ---
-title: "Charcuterie Board Presentation: How to Make a Board Look as Good as It Tastes"
+title: "Charcuterie Board Presentation: How to Make a Board Look as Good as It Tastes"
+seo_title: "Charcuterie Board Presentation: Make It Look Its Best"
 date: "2026-08-26"
 image: "/images/charcuterie-board-presentation.png"
 excerpt: "Charcuterie Board Presentation: How to Make a Board Look as Good as It Tastes"

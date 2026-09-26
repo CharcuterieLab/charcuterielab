@@ -1,5 +1,6 @@
 ---
 title: "New Year's Eve Charcuterie Board: How to Build a Midnight Board That Pairs with Champagne"
+seo_title: "New Year's Eve Charcuterie Board to Pair with Champagne"
 date: "2026-09-06"
 image: "/images/charcuterie-board-new-years-eve.png"
 excerpt: "New Year's Eve Charcuterie Board: How to Build a Midnight Board That Pairs with Champagne"

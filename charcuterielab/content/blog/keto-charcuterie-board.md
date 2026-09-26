@@ -1,5 +1,6 @@
 ---
-title: "Keto Charcuterie Board: How to Build One That Stays Under Carbs"
+title: "Keto Charcuterie Board: How to Build One That Stays Under Carbs"
+seo_title: "Keto Charcuterie Board: A Low-Carb Build That Works"
 date: "2026-05-12"
 image: "/images/keto-charcuterie-board.webp"
 excerpt: "Keto Charcuterie Board: How to Build One That Stays Under Carbs"
