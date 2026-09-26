@@ -63,7 +63,7 @@ Manchego comes in three primary aging categories, each with meaningfully differe
 
 **Temperature:** Like all hard cheeses, Manchego expresses its full flavor at room temperature. Remove from refrigeration 30–45 minutes before serving.
 
-**Quantity:** 2–3 oz per person as part of a multi-cheese board.
+**Quantity:** About 1 oz per person when Manchego is one of two or three cheeses, within the usual 2 oz of cheese per person before a meal (3 oz as the party food).
 
 ---
 

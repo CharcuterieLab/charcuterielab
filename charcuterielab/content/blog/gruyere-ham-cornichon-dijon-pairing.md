@@ -61,7 +61,7 @@ Allyl isothiocyanate is also a fat-phase compound at sufficient concentration �
 
 ## How to Serve
 
-**Gruyère:** Sliced 3–4mm. Room temperature 45–60 minutes. 1–1.5oz per person.
+**Gruyère:** Sliced 3–4mm. Room temperature 30–45 minutes. 1–1.5oz per person.
 
 **Ham:** Thin slices of jambon de Paris, folded or draped near the Gruyère. 1 slice per person.
 

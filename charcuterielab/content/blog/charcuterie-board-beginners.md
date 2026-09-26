@@ -69,14 +69,14 @@ Beyond the 3 cheeses and 2 meats, a functional beginner board needs:
 One of the most common beginner mistakes is buying too little of everything, resulting in a board that looks sparse, or too much, resulting in significant waste.
 
 **As a starter vs. light meal:**
-- Cheese: 1–1.5 oz per person per cheese type
-- Meat: 1–1.5 oz per person per meat type
-- Crackers: 4–6 crackers per person
+- Cheese: 2 oz per person in total, split across your cheeses (3 oz if the board is the party food)
+- Meat: 2 oz per person in total, split across your meats (3 oz as the party food)
+- Crackers: 6–8 crackers per person
 - Fruit: 3–4 grapes or 2 apple slices per person
 
 **Example for 6 people:**
-- 3 cheeses × 6–9 oz each = 18–27 oz total cheese
-- 2 meats × 6–9 oz each = 12–18 oz total meat
+- 3 cheeses × 4–5 oz each = about 1 lb total cheese
+- 2 meats × 6 oz each = 12 oz total meat
 - 1 bunch of grapes
 - 1 sleeve plain crackers + 1 sleeve specialty crackers
 - 1 small jar of honey
@@ -130,13 +130,13 @@ A board where every cheese is mild — mild white cheddar, mild Gouda, mild Hava
 For a board serving 6 as an appetizer:
 
 **Cheeses:**
-- 6–8 oz Brie or Camembert (soft)
-- 6–8 oz Manchego or Gruyère (semi-firm)
-- 6–8 oz aged cheddar or Parmigiano-Reggiano (aged/bold)
+- 4–5 oz Brie or Camembert (soft)
+- 4–5 oz Manchego or Gruyère (semi-firm)
+- 4–5 oz aged cheddar or Parmigiano-Reggiano (aged/bold)
 
 **Meats:**
-- 3–4 oz prosciutto (whole-muscle)
-- 3–4 oz salami (sliced rounds)
+- 6 oz prosciutto (whole-muscle)
+- 6 oz salami (sliced rounds)
 
 **Crackers:**
 - 1 sleeve Carr's Table Water Crackers

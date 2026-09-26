@@ -4,7 +4,7 @@ date: "2026-08-27"
 image: "/images/holiday-board.png"
 excerpt: "How to Make a Holiday Charcuterie Board A holiday charcuterie board isn't only a larger board with some rosemary thrown on top. It's a different problem to s..."
 description: "A holiday charcuterie board isn't only a larger board with some rosemary thrown on top. It's a different problem to solve — bigger crowd, longer grazing wi..."
-faq: "[{"question":"What makes a charcuterie board look festive for the holidays?","answer":"Color is the most powerful lever: red (pomegranate arils, cranberries, red grapes), green (rosemary sprigs, pistachios, green grapes, fresh herbs), and white (brie, fresh mozzarella, white cheddar). These colors read as festive without requiring any non-food elements. Shape matters too — arrange elements in a wreath, Christmas tree, or star pattern for social media impact."},{"question":"What cheeses are best for a holiday charcuterie board?","answer":"Crowd-pleasing cheeses are the priority for holiday gatherings: aged cheddar (sharp, familiar), brie (indulgent, crowd-friendly), and Gruyère (nutty, melts well). For elegance, add Stilton or Gorgonzola. Avoid obscure or intensely pungent cheeses at large holiday gatherings where not all guests are adventurous eaters."},{"question":"What seasonal ingredients belong on a holiday board?","answer":"Winter-specific: pomegranate arils, cranberry jam, dried cranberries, red and green grapes, clementine sections, persimmon slices, fig jam, sugared pecans, and rosemary sprigs for garnish. These seasonal elements are both visually festive and complement traditional charcuterie flavors."},{"question":"How do you make a charcuterie board for Christmas dinner as opposed to a cocktail party?","answer":"Dinner-adjacent boards serve smaller portions and function as an appetizer before the main course. Scale down quantity — 1.5–2 oz cheese and 1.5 oz meat per person, with lighter accompaniments. Cocktail party boards serve as the primary food, requiring double the portions and greater variety to sustain guests for 2–3 hours."},{"question":"How do you keep a holiday charcuterie board fresh at a long party?","answer":"Prepare two batches of perishables. Place the first batch at party start, then refresh the board at the halfway point by replenishing meats, soft cheeses, and fresh fruit. This keeps the board looking abundant and ensures food safety. Hard cheeses, nuts, and crackers hold well without replenishment."}]"
+faq: "[{"question":"What makes a charcuterie board look festive for the holidays?","answer":"Color is the most powerful lever: red (pomegranate arils, cranberries, red grapes), green (rosemary sprigs, pistachios, green grapes, fresh herbs), and white (brie, fresh mozzarella, white cheddar). These colors read as festive without requiring any non-food elements. Shape matters too — arrange elements in a wreath, Christmas tree, or star pattern for social media impact."},{"question":"What cheeses are best for a holiday charcuterie board?","answer":"Crowd-pleasing cheeses are the priority for holiday gatherings: aged cheddar (sharp, familiar), brie (indulgent, crowd-friendly), and Gruyère (nutty, melts well). For elegance, add Stilton or Gorgonzola. Avoid obscure or intensely pungent cheeses at large holiday gatherings where not all guests are adventurous eaters."},{"question":"What seasonal ingredients belong on a holiday board?","answer":"Winter-specific: pomegranate arils, cranberry jam, dried cranberries, red and green grapes, clementine sections, persimmon slices, fig jam, sugared pecans, and rosemary sprigs for garnish. These seasonal elements are both visually festive and complement traditional charcuterie flavors."},{"question":"How do you make a charcuterie board for Christmas dinner as opposed to a cocktail party?","answer":"Dinner-adjacent boards serve smaller portions and function as an appetizer before the main course. Plan 2 oz each of cheese and meat per person, with lighter accompaniments. Cocktail party boards serve as the primary food, requiring 3 oz of each and more of the portions and greater variety to sustain guests for 2–3 hours."},{"question":"How do you keep a holiday charcuterie board fresh at a long party?","answer":"Prepare two batches of perishables. Place the first batch at party start, then refresh the board at the halfway point by replenishing meats, soft cheeses, and fresh fruit. This keeps the board looking abundant and ensures food safety. Hard cheeses, nuts, and crackers hold well without replenishment."}]"
 slug: "holiday-board"
 tags: "["holiday board", "charcuterie how to", "charcuterie board tips", "charcuterie"]"
 ---
@@ -37,18 +37,18 @@ When you're building color intentionally, you're also building flavor contrast i
 ## Scale: Quantities for Holiday Boards
 
 For a **grazing board** (standalone meal or multi-hour cocktail event):
-- Cheese: 3–4 oz per person
-- Charcuterie: 2.5–3 oz per person
+- Cheese: 3 oz per person
+- Charcuterie: 3 oz per person
 - Crackers/bread: 8–12 pieces per person
 - Condiments: 2–3 tablespoons per person across all bowls
 - Fruit: 1–1.5 cups total per 4 people
 
 For a **pre-dinner appetizer board** (30–60 minutes before a larger meal):
-- Cheese: 1.5–2 oz per person
-- Charcuterie: 1–1.5 oz per person
+- Cheese: 2 oz per person
+- Charcuterie: 2 oz per person
 - Scale condiments and crackers proportionally
 
-For 12 people at a **grazing event**, that means roughly: 2–2.5 lbs of cheese total, 1.5–2 lbs of charcuterie, 2–3 boxes of crackers, 3–4 condiment bowls, and significant fruit coverage.
+For 12 people at a **grazing event**, that means roughly: 2¼ lb of cheese and 2¼ lb of charcuterie, 2–3 boxes of crackers, 3–4 condiment bowls, and significant fruit coverage.
 
 Plan for a **replenishment round** halfway through. Crackers go stale and fruit weeps; having backup portions wrapped in the fridge means the board stays fresh-looking without requiring a full rebuild.
 
@@ -138,7 +138,7 @@ Crowd-pleasing cheeses are the priority for holiday gatherings: aged cheddar (sh
 Winter-specific: pomegranate arils, cranberry jam, dried cranberries, red and green grapes, clementine sections, persimmon slices, fig jam, sugared pecans, and rosemary sprigs for garnish. These seasonal elements are both visually festive and complement traditional charcuterie flavors.
 
 **How do you make a charcuterie board for Christmas dinner as opposed to a cocktail party?**
-Dinner-adjacent boards serve smaller portions and function as an appetizer before the main course. Scale down quantity — 1.5–2 oz cheese and 1.5 oz meat per person, with lighter accompaniments. Cocktail party boards serve as the primary food, requiring double the portions and greater variety to sustain guests for 2–3 hours.
+Dinner-adjacent boards serve smaller portions and function as an appetizer before the main course. Plan 2 oz each of cheese and meat per person, with lighter accompaniments. Cocktail party boards serve as the primary food, requiring 3 oz of each and more of the portions and greater variety to sustain guests for 2–3 hours.
 
 **How do you keep a holiday charcuterie board fresh at a long party?**
 Prepare two batches of perishables. Place the first batch at party start, then refresh the board at the halfway point by replenishing meats, soft cheeses, and fresh fruit. This keeps the board looking abundant and ensures food safety. Hard cheeses, nuts, and crackers hold well without replenishment.

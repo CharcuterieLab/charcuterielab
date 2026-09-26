@@ -16,7 +16,7 @@ tags: "["expensive board", "charcuterie myths", "charcuterie tips", "charcuterie
 
 **The reality:** A board that looks and tastes excellent for 4–6 people costs $35–50 when you spend strategically — and the strategic choices are learnable.
 
-The expensive-board belief persists because most people price boards incorrectly. They calculate by scanning every element (specialty cheese at $15/lb, prosciutto at $22/lb, plus jam, crackers, fruit, olives...) and arrive at a number that feels prohibitive. What they miss is that those prices are per pound — and a board for 4–6 people needs 12–16 oz of cheese and 6–8 oz of charcuterie, not a pound of each.
+The expensive-board belief persists because most people price boards incorrectly. They calculate by scanning every element (specialty cheese at $15/lb, prosciutto at $22/lb, plus jam, crackers, fruit, olives...) and arrive at a number that feels prohibitive. What they miss is that those prices are per pound — and a board for 4–6 people before a meal needs 8–12 oz each of cheese and charcuterie, not a pound of each.
 
 The other thing they miss: visual impact and flavor impact are not the same as ingredient cost, and the techniques that produce the most visual impact are free.
 

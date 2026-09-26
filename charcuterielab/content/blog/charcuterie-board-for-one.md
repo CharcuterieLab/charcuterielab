@@ -4,14 +4,14 @@ date: "2026-05-18"
 image: "/images/charcuterie-board-for-one.webp"
 excerpt: "Charcuterie Board for One"
 description: "How to build a charcuterie board for one — scaled quantities, single-serving portions, and which ingredients to buy so nothing goes to waste."
-faq: "[{"question":"How much food do you need for a charcuterie board for one?","answer":"Plan 3–4 oz of meat and 3–4 oz of cheese total. For a solo board, you can scale up from the standard per-person starter ratio because you're building the board as a meal or a full snacking session rather than an appetizer. Six to eight crackers and a handful of fruit complete it."},{"question":"What cheese should you buy for a solo charcuterie board?","answer":"Pre-cut specialty cheese sections (100–150g pieces from the deli counter) are the most practical for a solo board — you get one piece of each variety without committing to a full block. Choose one soft (brie wedge), one semi-firm (manchego or aged gouda), and one with character (blue or sharp aged cheddar). Three types, small quantities."},{"question":"How do you avoid waste when making a charcuterie board for one?","answer":"Buy from the deli counter or specialty cheese section where you can purchase small quantities by weight. Use pre-portioned single-serve packages where available. Store leftover cheese wrapped tightly in parchment (not plastic) in the fridge. Cured meats keep well refrigerated for 5–7 days once opened if tightly sealed."},{"question":"Can you make a charcuterie board for one look impressive?","answer":"Yes — presentation doesn't scale down with portion size. Use a small wooden board, a slate tile, or a large dinner plate. Apply the same presentation principles: fan the cheese, fold the meat, leave intentional gaps. A small well-assembled board photographs and presents just as well as a large one."},{"question":"What is a good single-serve charcuterie board for a solo dinner?","answer":"3 oz prosciutto or salami, 2 oz brie wedge, 2 oz aged cheddar or manchego, 6–8 crackers, a small cluster of grapes, and a tablespoon each of honey and grainy mustard. This builds a complete board with full flavor range in under 15 minutes, no cooking required, and works as a full light dinner."}]"
+faq: "[{"question":"How much food do you need for a charcuterie board for one?","answer":"Plan 4 oz of meat and 4 oz of cheese when the board is your dinner, or 2 oz of each as a snack before a meal. Six to eight crackers and a handful of fruit complete it."},{"question":"What cheese should you buy for a solo charcuterie board?","answer":"Pre-cut specialty cheese sections (100–150g pieces from the deli counter) are the most practical for a solo board — you get one piece of each variety without committing to a full block. Choose one soft (brie wedge), one semi-firm (manchego or aged gouda), and one with character (blue or sharp aged cheddar). Three types, small quantities."},{"question":"How do you avoid waste when making a charcuterie board for one?","answer":"Buy from the deli counter or specialty cheese section where you can purchase small quantities by weight. Use pre-portioned single-serve packages where available. Store leftover cheese wrapped tightly in parchment (not plastic) in the fridge. Cured meats keep well refrigerated for 5–7 days once opened if tightly sealed."},{"question":"Can you make a charcuterie board for one look impressive?","answer":"Yes — presentation doesn't scale down with portion size. Use a small wooden board, a slate tile, or a large dinner plate. Apply the same presentation principles: fan the cheese, fold the meat, leave intentional gaps. A small well-assembled board photographs and presents just as well as a large one."},{"question":"What is a good single-serve charcuterie board for a solo dinner?","answer":"3 oz prosciutto or salami, 2 oz brie wedge, 2 oz aged cheddar or manchego, 6–8 crackers, a small cluster of grapes, and a tablespoon each of honey and grainy mustard. This builds a complete board with full flavor range in under 15 minutes, no cooking required, and works as a full light dinner."}]"
 slug: "charcuterie-board-for-one"
 tags: "["charcuterie board for one", "charcuterie board", "single serving"]"
 ---
 
 # Charcuterie Board for One
 
-> **Quick Answer:** A charcuterie board for one uses the same structure as any board — soft cheese, semi-firm cheese, one bold selection, cured meat, crackers, fruit, and one or two condiments. Scale to 3–4 oz of meat and 3–4 oz of cheese total. Buy from the deli counter by weight to avoid waste. The board takes under 15 minutes and works as a full light meal.
+> **Quick Answer:** A charcuterie board for one uses the same structure as any board — soft cheese, semi-firm cheese, one bold selection, cured meat, crackers, fruit, and one or two condiments. Plan 4 oz of meat and 4 oz of cheese when it's dinner, 2 oz of each as a snack. Buy from the deli counter by weight to avoid waste. The board takes under 15 minutes and works as a full light meal.
 
 ## Why a Solo Board Makes Sense
 
@@ -23,9 +23,9 @@ The main adjustment is shopping strategy. Buying a full block of three cheeses a
 
 ## Quantities for One
 
-**Meat:** 3–4 oz total. For a solo board as a meal, 3–4 oz (vs. the standard 2–3 oz starter ratio) is appropriate because you're not following it with a main course. Two varieties at 1.5–2 oz each is better than one variety at 3–4 oz — the contrast is part of the point.
+**Meat:** 4 oz total when the board is dinner (2 oz if a meal follows), because you're not following it with a main course. Two varieties at 2 oz each is better than one variety at 4 oz — the contrast is part of the point.
 
-**Cheese:** 3–4 oz total across three types. This sounds like a lot of types for a small quantity, but 100–150g total can cover three cheeses easily when you buy them as small wedges or deli-cut portions.
+**Cheese:** 4 oz total across three types when it's dinner. This sounds like a lot of types for a small quantity, but about 115g can cover three cheeses easily when you buy them as small wedges or deli-cut portions.
 
 **Crackers:** 6–10 crackers. Two small boxes from a mixed cracker variety pack, or a handful pulled from a full box stored in an airtight container.
 
@@ -82,7 +82,7 @@ A charcuterie board for one works exactly like a board for twelve, scaled down. 
 ## FAQ
 
 **How much food do you need for a charcuterie board for one?**
-Plan 3–4 oz of meat and 3–4 oz of cheese total. For a solo board, you can scale up from the standard per-person starter ratio because you're building the board as a meal or a full snacking session rather than an appetizer. Six to eight crackers and a handful of fruit complete it.
+Plan 4 oz of meat and 4 oz of cheese when the board is your dinner, or 2 oz of each as a snack before a meal. Six to eight crackers and a handful of fruit complete it.
 
 **What cheese should you buy for a solo charcuterie board?**
 Pre-cut specialty cheese sections (100–150g pieces from the deli counter) are the most practical for a solo board — you get one piece of each variety without committing to a full block. Choose one soft (brie wedge), one semi-firm (manchego or aged gouda), and one with character (blue or sharp aged cheddar). Three types, small quantities.

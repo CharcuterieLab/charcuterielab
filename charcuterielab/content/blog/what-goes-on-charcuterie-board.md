@@ -30,7 +30,7 @@ Cheese is the anchor of a charcuterie board. Most boards include 2–4 varieties
 
 **Blue or funky (optional):** Gorgonzola, Stilton, Roquefort. These are strong and polarizing — not essential, but valuable for adventurous guests and for boards with bold flavors.
 
-The standard quantity: 1–2 oz of cheese per person as part of a larger spread; 2–3 oz if cheese is the focus.
+The standard quantity: 2 oz of cheese per person when a meal follows, 3 oz when the board is the party food, 4 oz when it's dinner.
 
 ---
 
@@ -44,7 +44,7 @@ Cured meats are the charcuterie in charcuterie boards. Two to three varieties pr
 
 **A third option:** Spreadable (nduja), smoked (smoked salmon on lighter boards), or something regional and unexpected (mortadella, lardo, 'nduja).
 
-The standard quantity: 1–2 oz of cured meat per person.
+The standard quantity: the same as the cheese, 2 oz of cured meat per person before a meal, 3 oz as the party food, 4 oz as dinner.
 
 ---
 
@@ -108,7 +108,7 @@ Condiments are served in small bowls and provide concentrated flavor accents for
 
 For a standard 4–6 person board:
 - **Cheese:** 3 varieties (1 soft, 1 semi-firm, 1 hard), 3–4 oz each
-- **Meat:** 2–3 varieties, 2–3 oz each
+- **Meat:** 2–3 varieties, 3–4 oz each
 - **Crackers/bread:** 2 types, total ~15–20 pieces
 - **Fresh fruit:** 1 cluster grapes + 1 other fruit
 - **Dried fruit:** 1 type in a small bowl

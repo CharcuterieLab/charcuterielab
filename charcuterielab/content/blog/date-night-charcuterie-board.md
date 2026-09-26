@@ -25,7 +25,7 @@ The other distinction is the occasion. A date night board is often paired with w
 
 **Triple-crème:** The anchor of a date night board. Brillat-Savarin, Pierre Robert, or Délice de Bourgogne — these are cow's milk cheeses with cream added during production to bring fat content to 75% or above in dry matter. The result is extraordinarily lush, borderline decadent, with a bloomy rind that contributes earthy contrast to the rich interior. This is the cheese that makes the board feel special.
 
-Remove from the refrigerator 45–60 minutes before serving. Triple-crème served cold is almost flavorless — the fat needs to soften for the flavor to emerge. At room temperature, the interior should be yielding and beginning to ooze at the cut face.
+Remove from the refrigerator 20–30 minutes before serving. Triple-crème served cold is almost flavorless — the fat needs to soften for the flavor to emerge. At room temperature, the interior should be yielding and beginning to ooze at the cut face.
 
 **One aged crystalline cheese:** Aged gouda (18+ months), Parmigiano-Reggiano, or a long-aged cheddar. The crystalline texture (tyrosine deposits) and concentrated savory flavor provide direct contrast to the buttery triple-crème. One bite of Parmigiano followed by a spread of triple-crème on a cracker is a complete eating experience on its own.
 

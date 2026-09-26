@@ -23,17 +23,17 @@ This guide covers the specific adjustments that make a two-person board work as 
 
 ## Quantities for Two
 
-The starting framework: 2 oz cheese per person per type, 1.5 oz meat per person per type, as an appetizer. At that scale:
+The starting framework: 2 oz of cheese and 2 oz of meat per person in total as an appetizer, or 4 oz of each if the board is dinner. At appetizer scale:
 
 **For a board that works as an appetizer or light grazing:**
-- 2 cheeses × 4 oz each = 8 oz total cheese (half a pound)
-- 2 meats × 3 oz each = 6 oz total meat
+- 2 cheeses × 2 oz each = 4 oz total cheese
+- 2 meats × 2 oz each = 4 oz total meat
 - Crackers: one sleeve (or about a third of a sleeve, plus a small amount of bread)
 - 1 fruit element: half a bunch of grapes, or 2 fresh figs, or 1 apple
 - 1 condiment: 1 tablespoon of honey or a small ramekin of jam
 
 **For a board that replaces a meal:**
-Scale up by roughly 50%: 3 cheeses at 3–4 oz each, 2 meats at 3–4 oz each, full cracker sleeve, more substantial fruit.
+Double it: 8 oz of cheese (3 cheeses at 2–3 oz each) and 8 oz of meat (2 meats at 4 oz each), full cracker sleeve, more substantial fruit.
 
 The important quantity implication: buying standard supermarket packages means buying too much of everything. A standard package of prosciutto (3 oz) is almost exactly right for two. A standard wedge of Brie (8 oz) is more than right — plan to use the rest within a few days. A large salami link (12 oz) produces significant waste for two people.
 

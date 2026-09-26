@@ -64,7 +64,7 @@ Aged hard cheeses are dense, granular, and intensely flavored. They have the hig
 
 **How to serve:** Break into irregular chunks rather than uniform slices — the craggy texture shows the aged quality and looks more premium. Serve near honey (drizzle directly) and marcona almonds. Allow 45–60 minutes at room temperature before serving.
 
-**Quantity:** Smallest portion of the three — the intense flavor means guests take smaller pieces. 1–1.5 oz per person is usually sufficient.
+**Quantity:** Smallest portion of the three — the intense flavor means guests take smaller pieces. About ½ oz per person is usually sufficient.
 
 ---
 
@@ -81,7 +81,7 @@ Blue cheese is optional — not every board needs one, and not every guest will 
 
 **Position on the board:** In its own corner, away from mild cheeses. The volatile aromatic compounds from blue cheese will overpower delicate neighbors.
 
-**Quantity:** 1–1.5 oz per person; blue is a small-portion cheese.
+**Quantity:** ¼–½ oz per person; blue is a small-portion cheese.
 
 ---
 
@@ -101,21 +101,21 @@ Blue cheese is optional — not every board needs one, and not every guest will 
 ## How Much Cheese to Buy
 
 **Per person — appetizer board (30–60 min before dinner):**
-- Soft cheese: 0.75–1 oz
-- Semi-firm: 1–1.5 oz
-- Aged hard: 0.75–1 oz
-- Blue (if using): 0.5–0.75 oz
-- **Total: 2–3 oz per person**
+- Soft cheese: about ¾ oz
+- Semi-firm: about ¾ oz
+- Aged hard: about ½ oz
+- Blue (if using): take ¼–½ oz from the others
+- **Total: 2 oz per person** (3 oz if the board is the party food)
 
 **Per person — meal or main event board (2+ hours, no other food):**
-- Total: 4–5 oz per person
+- Total: 4 oz per person
 
 **Practical purchase guide by headcount:**
 | Guests | Soft cheese | Semi-firm | Aged hard |
 |---|---|---|---|
-| 2–4 | 4 oz | 6 oz | 4 oz |
-| 6–8 | 8 oz | 12 oz | 6 oz |
-| 10–12 | 12 oz | 16 oz | 8 oz |
+| 2–4 | 3 oz | 3 oz | 2 oz |
+| 6–8 | 6 oz | 6 oz | 4 oz |
+| 10–12 | 9 oz | 9 oz | 6 oz |
 
 **Always buy slightly more than you need.** A generous board looks better than a sparse one, and leftovers keep (cheese wrapped in parchment, 3–5 days for most types).
 

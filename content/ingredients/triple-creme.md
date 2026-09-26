@@ -10,7 +10,7 @@ date: 2026-09-07
 updated: 2026-09-07
 price_tier: "$$$"
 serving_per_person: "1 oz"
-prep_time: "45 min to temper"
+prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "luxury"]
 pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami", "pink-peppercorns", "champagne-grapes"]
@@ -60,7 +60,7 @@ skip serving two triple-crèmes on one board.
 
 ## How to prep it for the board
 
-1. **Temper 45 minutes.** It should be spoonably soft, not chilled and firm.
+1. **Temper 20–30 minutes.** It should be spoonably soft, not chilled and firm.
 2. **Serve 1 oz per person** — half what you'd serve of a firmer cheese. It's
    very rich and people take small amounts.
 3. **Cut wedges from the center out**, and expect the paste to slump. That's

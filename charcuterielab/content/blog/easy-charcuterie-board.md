@@ -119,7 +119,7 @@ You're done.
 
 ## Tips That Actually Matter
 
-**Temperature is more important than arrangement.** Pull your Brie 30 minutes early. The most beautifully arranged board with cold Brie will taste less impressive than an average-looking board with room-temperature cheese.
+**Temperature is more important than arrangement.** Pull your Brie 20–30 minutes early. The most beautifully arranged board with cold Brie will taste less impressive than an average-looking board with room-temperature cheese.
 
 **Don't pre-slice everything.** Leave the cheddar in large chunks guests can break themselves, and leave grape clusters intact rather than removing individual grapes. Full clusters fill space better and look more abundant.
 

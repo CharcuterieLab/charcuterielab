@@ -4,7 +4,7 @@ date: "2026-08-28"
 image: "/images/how-to-make-charcuterie-board.png"
 excerpt: "How to Make a Charcuterie Board"
 description: "Step-by-step guide to making a charcuterie board — shopping list, assembly sequence, and the layout logic that makes any board look professional."
-faq: "[{"question":"How do you start building a charcuterie board?","answer":"Start with your cheese anchors — place the largest cheese elements first, spaced apart across the board. Then add cured meats near each cheese. Fill in with crackers, then fruit, then condiments in small dishes. The sequence (cheese first, crackers last) prevents the crackers from going stale while you build and gives you a structure to fill around."},{"question":"How many people does a charcuterie board serve?","answer":"Plan on 2–3 oz of meat and 2–3 oz of cheese per person as a starter or appetizer. For 8 people, that's roughly 1–1.5 lb each of meat and cheese total. For a grazing board at a long event, increase by 50% — continuous access means more consumption than a defined serving."},{"question":"What board or surface should you use?","answer":"Hardwood boards (walnut, maple, cherry) are the most practical — they're food-safe, durable, and visually warm. Slate boards add a graphic contrast element. Marble stays cool, which is useful for soft cheese in warm conditions. A clean cutting board or sheet of parchment on a baking sheet works equally well for the food."},{"question":"How do you make a charcuterie board look professional?","answer":"Three techniques: use odd numbers of items in each cluster (3 or 5, not 4 or 6), leave intentional negative space between elements, and vary the presentation shape of each item — fan the cheese, fold or ruffle the meat, pile the fruit. Symmetry looks planned; variation looks considered."},{"question":"How far in advance can you make a charcuterie board?","answer":"You can prep components up to 24 hours ahead — slice cheese, portion crackers, prep fruit. Assemble the board 1–2 hours before serving, but add crackers last (30 minutes before serving) to keep them crisp. Don't add cut fruit more than 2 hours ahead — it browns and weeps."}]"
+faq: "[{"question":"How do you start building a charcuterie board?","answer":"Start with your cheese anchors — place the largest cheese elements first, spaced apart across the board. Then add cured meats near each cheese. Fill in with crackers, then fruit, then condiments in small dishes. The sequence (cheese first, crackers last) prevents the crackers from going stale while you build and gives you a structure to fill around."},{"question":"How many people does a charcuterie board serve?","answer":"Plan on 2 oz of meat and 2 oz of cheese per person as a starter or appetizer, 3 oz of each if the board is the party food. For 8 people as an appetizer, that's about 1 lb each of meat and cheese. For a grazing board at a long event, increase by 50% — continuous access means more consumption than a defined serving."},{"question":"What board or surface should you use?","answer":"Hardwood boards (walnut, maple, cherry) are the most practical — they're food-safe, durable, and visually warm. Slate boards add a graphic contrast element. Marble stays cool, which is useful for soft cheese in warm conditions. A clean cutting board or sheet of parchment on a baking sheet works equally well for the food."},{"question":"How do you make a charcuterie board look professional?","answer":"Three techniques: use odd numbers of items in each cluster (3 or 5, not 4 or 6), leave intentional negative space between elements, and vary the presentation shape of each item — fan the cheese, fold or ruffle the meat, pile the fruit. Symmetry looks planned; variation looks considered."},{"question":"How far in advance can you make a charcuterie board?","answer":"You can prep components up to 24 hours ahead — slice cheese, portion crackers, prep fruit. Assemble the board 1–2 hours before serving, but add crackers last (30 minutes before serving) to keep them crisp. Don't add cut fruit more than 2 hours ahead — it browns and weeps."}]"
 slug: "how-to-make-charcuterie-board"
 tags: "["how to make a charcuterie board", "charcuterie board", "board building"]"
 ---
@@ -30,8 +30,8 @@ No dedicated board? A clean wooden cutting board, a large ceramic platter, or pa
 ## Step 2: Shop with a Ratio in Mind
 
 The per-person ratio that works for a starter or appetizer charcuterie board:
-- **Meat:** 2–3 oz per person, 2–3 varieties
-- **Cheese:** 2–3 oz per person, 3 varieties (soft + semi-firm + aged)
+- **Meat:** 2 oz per person (3 oz as the party food), 2–3 varieties
+- **Cheese:** 2 oz per person (3 oz as the party food), 3 varieties (soft + semi-firm + aged)
 - **Crackers:** 6–8 per person, 2 types
 - **Fruit:** 1 small handful per person (grapes + 1 other)
 - **Condiments:** 2–3 total for the board (not per person)
@@ -102,7 +102,7 @@ This is where most charcuterie boards go wrong — people put crackers on first,
 
 ## The Charcuterie Lab Takeaway
 
-The sequence is the skill: cheese anchors first, meats next, condiments and fruit in the gaps, crackers last. The ratio is the foundation: 2–3 oz each of meat and cheese per person. And temperature is the ingredient: cheese at room temperature is a different product than cheese from the fridge.
+The sequence is the skill: cheese anchors first, meats next, condiments and fruit in the gaps, crackers last. The ratio is the foundation: 2 oz each of meat and cheese per person before a meal, 3 oz as the party food. And temperature is the ingredient: cheese at room temperature is a different product than cheese from the fridge.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards with exact shopping lists, quantities, and assembly logic for every occasion.
 
@@ -118,7 +118,7 @@ The sequence is the skill: cheese anchors first, meats next, condiments and frui
 Start with your cheese anchors — place the largest cheese elements first, spaced apart across the board. Then add cured meats near each cheese. Fill in with crackers, then fruit, then condiments in small dishes. The sequence (cheese first, crackers last) prevents the crackers from going stale while you build and gives you a structure to fill around.
 
 **How many people does a charcuterie board serve?**
-Plan on 2–3 oz of meat and 2–3 oz of cheese per person as a starter or appetizer. For 8 people, that's roughly 1–1.5 lb each of meat and cheese total. For a grazing board at a long event, increase by 50% — continuous access means more consumption than a defined serving.
+Plan on 2 oz of meat and 2 oz of cheese per person as a starter or appetizer, 3 oz of each if the board is the party food. For 8 people as an appetizer, that's about 1 lb each of meat and cheese. For a grazing board at a long event, increase by 50% — continuous access means more consumption than a defined serving.
 
 **What board or surface should you use?**
 Hardwood boards (walnut, maple, cherry) are the most practical — they're food-safe, durable, and visually warm. Slate boards add a graphic contrast element. Marble stays cool, which is useful for soft cheese in warm conditions. A clean cutting board or sheet of parchment on a baking sheet works equally well for the food.

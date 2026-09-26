@@ -67,8 +67,8 @@ export function timeline(n) {
     [big ? "1 week before" : "2–3 days before", big ? "Order large pieces from the deli or warehouse store, and borrow extra boards or platters." : "Buy crackers, nuts, jams and anything shelf-stable."],
     [big ? "2 days before" : "The day before", big ? "Buy the cheese, meat and fruit. Buy crackers and nuts too." : "Buy the cheese, meat and fruit."],
     ["The night before", big ? "Cut the firm cheeses and portion everything into containers, one set per station and one set for the refill. Cover and chill." : "Cut the firm cheeses, cover and chill. Wash the grapes."],
-    ["1 hour before", "Take the cheese out so it can warm up. Soft cheese takes the full hour."],
-    ["30–45 minutes before", big ? "Build the stations: cheese first, then meat, then bowls, crackers and fruit." : "Build the board: cheese first, then meat, then bowls, crackers and fruit."],
+    ["1 hour before", "Take the aged and firm cheeses out so they can warm up. Leave soft cheese like brie in the fridge for now."],
+    ["30–45 minutes before", big ? "Take out soft cheese like brie (it needs only 20–30 minutes), then build the stations: cheese first, then meat, then bowls, crackers and fruit." : "Take out soft cheese like brie (it needs only 20–30 minutes), then build the board: cheese first, then meat, then bowls, crackers and fruit."],
     ["While it's out", big ? "Swap in the fresh, fridge-cold refill before any tray has been out 2 hours." : "Keep it out no longer than 2 hours, then refrigerate what's left."]
   ];
 }

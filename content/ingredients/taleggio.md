@@ -10,7 +10,7 @@ date: 2026-09-07
 updated: 2026-09-07
 price_tier: "$$"
 serving_per_person: "1–1.5 oz"
-prep_time: "45 min to temper"
+prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "washed-rind", "funky"]
 pairs_with: ["fontina", "epoisses", "reblochon", "crostini", "red-hawk", "speck", "prosciutto-di-parma"]
@@ -60,7 +60,7 @@ across a board and lands on whatever's beside it. Give it space.
 
 ## How to prep it for the board
 
-1. **Temper 45 minutes.** Cold Taleggio is firm and closed; warm, it becomes
+1. **Temper 20–30 minutes.** Cold Taleggio is firm and closed; warm, it becomes
    soft and fruity. Under-tempered is the most common mistake here.
 2. **Cut into rectangular slabs** from the square block, keeping some rind on
    each piece.

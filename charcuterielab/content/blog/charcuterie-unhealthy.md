@@ -26,8 +26,8 @@ The real answer is more specific: charcuterie in appropriate serving sizes, serv
 Almost all nutrition criticism of charcuterie boards ignores serving context entirely.
 
 A properly built appetizer board for 8 guests contains roughly:
-- **2–3 oz cured meat per person** (a typical 1–2 oz serving of prosciutto = ~70–100 calories)
-- **2–3 oz cheese per person** (a 1 oz serving of aged cheddar = ~110 calories)
+- **2 oz cured meat per person before a meal, 3 oz as the party food** (a typical 1–2 oz serving of prosciutto = ~70–100 calories)
+- **2 oz cheese per person before a meal, 3 oz as the party food** (a 1 oz serving of aged cheddar = ~110 calories)
 - **Crackers, fruit, nuts, accoutrements** contributing additional volume
 
 A reasonable appetizer portion from a well-built board totals approximately **400–600 calories per person** — comparable to a moderate restaurant appetizer or small shared plate. This is not a caloric crisis.
@@ -120,7 +120,7 @@ The practical mitigation: treat cured meat as a flavoring and accent rather than
 
 Charcuterie boards are not health food in the sense of being nutrient-dense meal replacements. They are:
 
-- **Moderate-calorie appetizers** when served at standard portions (2–3 oz meat + 2–3 oz cheese per person)
+- **Moderate-calorie appetizers** when served at standard portions (2 oz each of meat and cheese per person before a meal, 3 oz as the party food)
 - **Fermented products** with demonstrable LAB activity, bioactive peptides, and butyrate in the cheeses
 - **High-sodium** in the meat components — a genuine consideration for sodium-sensitive individuals
 - **High-saturated-fat** in a food matrix context that some research suggests behaves differently than isolated saturated fat sources

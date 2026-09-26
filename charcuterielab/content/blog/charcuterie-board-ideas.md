@@ -118,7 +118,7 @@ tags: "["charcuterie board ideas", "charcuterie board", "charcuterie"]"
 
 **Why it works:** Two meats that contrast each other (fatty/silky vs. lean/mineral). Two cheeses that contrast (soft-creamy vs. firm-savory). One sweet condiment (honey on Manchego). Every element earns its place because there's no room for anything that doesn't add value. This is curation over coverage.
 
-**Board tip:** Per-serving math: 1.5–2 oz cheese per person, 1–1.5 oz meat per person. Don't scale up — the whole point is restraint. Use a beautiful 10-inch round board and leave intentional small gaps rather than overfilling.
+**Board tip:** Per-serving math: 2 oz each of cheese and meat per person. Don't scale up — the whole point is restraint. Use a beautiful 10-inch round board and leave intentional small gaps rather than overfilling.
 
 ---
 

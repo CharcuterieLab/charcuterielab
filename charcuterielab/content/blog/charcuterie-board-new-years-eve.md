@@ -5,14 +5,14 @@ date: "2026-09-06"
 image: "/images/charcuterie-board-new-years-eve.png"
 excerpt: "New Year's Eve Charcuterie Board: How to Build a Midnight Board That Pairs with Champagne"
 description: "Build a New Year's Eve charcuterie board that pairs with sparkling wine — the right ingredients, elegant styling, and exact quantities for the midnight countdown."
-faq: "[{"question":"What do you put on a New Year's Eve charcuterie board?","answer":"A New Year's Eve board skews elegant and celebratory: aged Gruy\u00e8re, aged cheddar, brie, prosciutto di Parma, truffle salami, smoked salmon, caviar or roe if budget allows, champagne grapes, marcona almonds, and dark chocolate. The flavor profile should pair with sparkling wine \u2014 lean toward umami-rich, fatty, and lightly acidic elements that make Champagne or Prosecco taste better."},{"question":"What food pairs with Champagne on a New Year's Eve board?","answer":"Champagne pairs best with salty, umami-rich, and fatty foods. On a board: aged Parmigiano-Reggiano or Gruy\u00e8re, prosciutto di Parma, smoked salmon with cream cheese, oyster crackers, salty roasted nuts, and aged cheddar. The high acidity in Champagne cuts through fat and salt, refreshing the palate \u2014 which is precisely what makes the pairing work. Avoid sweet elements that fight the wine's acidity."},{"question":"What is a good New Year's Eve charcuterie board for two?","answer":"For two people, scale to one cheese per type (soft, semi-firm, aged), 2\u20133 oz meat total, and a focused selection of accompaniments \u2014 champagne grapes, marcona almonds, dark chocolate, and fig jam. Use a smaller 10\u201312\" board. The two-person format is an opportunity to use one higher-quality ingredient (a proper Parmigiano aged 24+ months, or real prosciutto di Parma) that you might not buy in quantity for a crowd."},{"question":"How do I make a New Year's Eve board look elegant?","answer":"Elegance on a board comes from restraint: fewer ingredients at higher quality, more deliberate spacing, and a monochromatic or two-color palette. Gold and dark accents (aged cheese, dark grapes, dark chocolate, gold-foil chocolates) read as celebratory. Use a slate or marble board rather than wood for a formal aesthetic. Label cheeses with small cards."},{"question":"Can I make a New Year's Eve charcuterie board the night before?","answer":"Partially. Assemble hard components (nuts, chocolate, crackers) the night before. Prep cheese and meats the night before and store wrapped. Assemble the full board 1\u20132 hours before midnight, cover loosely, and refrigerate. Remove 30\u201345 minutes before serving. Add fresh grapes and any delicate garnishes at the last moment."}]"
+faq: "[{"question":"What do you put on a New Year's Eve charcuterie board?","answer":"A New Year's Eve board skews elegant and celebratory: aged Gruy\u00e8re, aged cheddar, brie, prosciutto di Parma, truffle salami, smoked salmon, caviar or roe if budget allows, champagne grapes, marcona almonds, and dark chocolate. The flavor profile should pair with sparkling wine \u2014 lean toward umami-rich, fatty, and lightly acidic elements that make Champagne or Prosecco taste better."},{"question":"What food pairs with Champagne on a New Year's Eve board?","answer":"Champagne pairs best with salty, umami-rich, and fatty foods. On a board: aged Parmigiano-Reggiano or Gruy\u00e8re, prosciutto di Parma, smoked salmon with cream cheese, oyster crackers, salty roasted nuts, and aged cheddar. The high acidity in Champagne cuts through fat and salt, refreshing the palate \u2014 which is precisely what makes the pairing work. Avoid sweet elements that fight the wine's acidity."},{"question":"What is a good New Year's Eve charcuterie board for two?","answer":"For two people, scale to one cheese per type (soft, semi-firm, aged), about 6 oz of meat total, and a focused selection of accompaniments \u2014 champagne grapes, marcona almonds, dark chocolate, and fig jam. Use a smaller 10\u201312\" board. The two-person format is an opportunity to use one higher-quality ingredient (a proper Parmigiano aged 24+ months, or real prosciutto di Parma) that you might not buy in quantity for a crowd."},{"question":"How do I make a New Year's Eve board look elegant?","answer":"Elegance on a board comes from restraint: fewer ingredients at higher quality, more deliberate spacing, and a monochromatic or two-color palette. Gold and dark accents (aged cheese, dark grapes, dark chocolate, gold-foil chocolates) read as celebratory. Use a slate or marble board rather than wood for a formal aesthetic. Label cheeses with small cards."},{"question":"Can I make a New Year's Eve charcuterie board the night before?","answer":"Partially. Assemble hard components (nuts, chocolate, crackers) the night before. Prep cheese and meats the night before and store wrapped. Assemble the full board 1\u20132 hours before midnight, cover loosely, and refrigerate. Remove 30\u201345 minutes before serving. Add fresh grapes and any delicate garnishes at the last moment."}]"
 slug: "charcuterie-board-new-years-eve"
 tags: "["charcuterie board new years eve", "new years eve charcuterie board", "charcuterie board", "champagne charcuterie pairing"]"
 ---
 
 # New Year's Eve Charcuterie Board: How to Build a Midnight Board That Pairs with Champagne
 
-> **Quick Answer:** A New Year's Eve charcuterie board should be built to pair with sparkling wine — lean toward salty, umami-rich, and fatty elements that make Champagne taste better. Aged Gruyère, prosciutto di Parma, smoked salmon, Parmigiano-Reggiano, marcona almonds, dark chocolate, and champagne grapes are the core. Plan 2–2.5 oz cheese and 1.5–2 oz meat per person; a midnight board is lighter than a dinner board but needs to sustain guests for 2–3 hours of grazing.
+> **Quick Answer:** A New Year's Eve charcuterie board should be built to pair with sparkling wine — lean toward salty, umami-rich, and fatty elements that make Champagne taste better. Aged Gruyère, prosciutto di Parma, smoked salmon, Parmigiano-Reggiano, marcona almonds, dark chocolate, and champagne grapes are the core. Plan 3 oz each of cheese and meat per person, since a midnight board is the party food for 2–3 hours of grazing.
 
 ## Building the Board Around Sparkling Wine
 
@@ -30,15 +30,15 @@ Sparkling wine works well with salty, fatty, umami-rich, and lightly acidic food
 
 For 6–8 people at a New Year's Eve gathering:
 
-**Cheese (10–14 oz total):**
-- Parmigiano-Reggiano or aged Gruyère: 4–5 oz
-- Aged cheddar or smoked Gouda: 3–4 oz
-- Brie or Camembert: one small wheel (4–5 oz)
+**Cheese (about 1½ lb total, 3 oz per person):**
+- Parmigiano-Reggiano or aged Gruyère: 7–8 oz
+- Aged cheddar or smoked Gouda: 6–8 oz
+- Brie or Camembert: one 8 oz wheel
 
-**Meat (8–10 oz total):**
-- Prosciutto di Parma: 3–4 oz (the best you can find for a celebratory occasion)
-- Truffle salami or finocchiona: 3 oz
-- Speck or bresaola: 2–3 oz for variety
+**Meat (about 1½ lb total, 3 oz per person):**
+- Prosciutto di Parma: 6–8 oz (the best you can find for a celebratory occasion)
+- Truffle salami or finocchiona: 6–8 oz
+- Speck or bresaola: 6–8 oz for variety
 
 **Accompaniments:**
 - Smoked salmon with cream cheese and capers (serves as a lox-style element)
@@ -94,7 +94,7 @@ A New Year's Eve board skews elegant and celebratory: aged Gruyère, aged chedda
 Champagne pairs best with salty, umami-rich, and fatty foods. On a board: aged Parmigiano-Reggiano or Gruyère, prosciutto di Parma, smoked salmon with cream cheese, oyster crackers, salty roasted nuts, and aged cheddar. The high acidity in Champagne cuts through fat and salt, refreshing the palate — which is precisely what makes the pairing work. Avoid sweet elements that fight the wine's acidity.
 
 **What is a good New Year's Eve charcuterie board for two?**
-For two people, scale to one cheese per type (soft, semi-firm, aged), 2–3 oz meat total, and a focused selection of accompaniments — champagne grapes, marcona almonds, dark chocolate, and fig jam. Use a smaller 10–12" board. The two-person format is an opportunity to use one higher-quality ingredient (a proper Parmigiano aged 24+ months, or real prosciutto di Parma) that you might not buy in quantity for a crowd.
+For two people, scale to one cheese per type (soft, semi-firm, aged), about 6 oz of meat total, and a focused selection of accompaniments — champagne grapes, marcona almonds, dark chocolate, and fig jam. Use a smaller 10–12" board. The two-person format is an opportunity to use one higher-quality ingredient (a proper Parmigiano aged 24+ months, or real prosciutto di Parma) that you might not buy in quantity for a crowd.
 
 **How do I make a New Year's Eve board look elegant?**
 Elegance on a board comes from restraint: fewer ingredients at higher quality, more deliberate spacing, and a monochromatic or two-color palette. Gold and dark accents (aged cheese, dark grapes, dark chocolate, gold-foil chocolates) read as celebratory. Use a slate or marble board rather than wood for a formal aesthetic. Label cheeses with small cards.

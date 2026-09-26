@@ -10,7 +10,7 @@ date: 2026-09-07
 updated: 2026-09-07
 price_tier: "$$"
 serving_per_person: "1–2 oz"
-prep_time: "60 min to temper"
+prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "earthy"]
 pairs_with: ["brie", "baguette", "water-crackers", "triple-creme", "pont-leveque", "smoked-salmon"]
@@ -60,7 +60,7 @@ flavor than people expect from a white-rinded cheese.
 
 ## How to prep it for the board
 
-1. **Temper for 45–60 minutes.** Same rule as brie, same reason, and even more
+1. **Temper for 20–30 minutes.** Same rule as brie, same reason, and even more
    payoff — the aromatics here are worth releasing.
 2. **Cut wedges from the center out.** Small wheels mean small wedges; six to
    eight per wheel is right.

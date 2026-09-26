@@ -64,8 +64,8 @@ A grazing board is the right choice when:
 ## Building Each Format
 
 **Charcuterie board build:**
-1. Cheese anchors (3 types at 2–3oz per person)
-2. Meat sections (2–3 types at 2oz per person)
+1. Cheese anchors (3 types, 3 oz per person in total as the party food)
+2. Meat sections (2–3 types, 3 oz per person in total)
 3. Condiment bowls (honey, mustard, jam)
 4. Fruit (2–3 types, placed near pairing cheeses)
 5. Crackers (2 types, along board edges)

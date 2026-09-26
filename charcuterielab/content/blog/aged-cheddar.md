@@ -62,7 +62,7 @@ For milder aged cheddar that slices cleanly, thin rectangular slices fanned on o
 
 **Temperature:** Remove aged cheddar from the refrigerator 30–45 minutes before serving. Cold temperature mutes flavor compounds — the fatty acids and amino acids responsible for cheddar's sharpness and complexity are most expressive at room temperature (around 65–70°F / 18–21°C). A cold piece of sharp cheddar tastes noticeably less sharp and less interesting than the same piece allowed to come up to temperature.
 
-**Quantity:** For a starring cheese on the board, plan 2–3 oz per person as part of a multi-cheese board. If cheddar is the only hard cheese, increase to 3–4 oz per person.
+**Quantity:** Plan about 1 oz per person when aged cheddar is one of two or three cheeses, within the usual total of 2 oz of cheese per person before a meal (3 oz as the party food). If it's the only cheese, buy the full 2–3 oz per person.
 
 ---
 

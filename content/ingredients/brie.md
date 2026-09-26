@@ -10,13 +10,13 @@ date: 2026-09-07
 updated: 2026-09-07
 price_tier: "$$"
 serving_per_person: "1–2 oz"
-prep_time: "60 min to temper"
+prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "beginner"]
 pairs_with: ["water-crackers", "baguette", "camembert", "triple-creme", "macadamia-nuts", "candied-pecans", "mandarins", "fig-jam", "honeycomb", "apricot-jam", "cranberry-sauce", "marinated-mushrooms", "fresh-thyme", "graham-crackers", "speculoos", "honey", "walnuts", "pears"]
 avoid_with: ["everything-crackers", "pretzel-crisps"]
 board_post: "/blog/brie/"
-faq: "[{"question": "Do you eat the rind on brie?", "answer": "Yes. It's edible and it carries most of the flavor. Cutting it off leaves you with plain butterfat."}, {"question": "Brie or Camembert — what's the difference?", "answer": "Camembert is smaller, stronger and more mushroomy; brie is larger, milder and more buttery. Camembert is the one to buy if brie has ever bored you."}, {"question": "How long before serving should I take it out?", "answer": "45 to 60 minutes. It matters more than anything else you do."}, {"question": "How much brie per person?", "answer": "1–2 oz as one of three cheeses. An 8 oz wheel serves six to eight."}, {"question": "How do I cut it?", "answer": "Wedges from the center out, like a pie, so every piece has rind and center."}]"
+faq: "[{"question": "Do you eat the rind on brie?", "answer": "Yes. It's edible and it carries most of the flavor. Cutting it off leaves you with plain butterfat."}, {"question": "Brie or Camembert — what's the difference?", "answer": "Camembert is smaller, stronger and more mushroomy; brie is larger, milder and more buttery. Camembert is the one to buy if brie has ever bored you."}, {"question": "How long before serving should I take it out?", "answer": "20 to 30 minutes. It matters more than anything else you do."}, {"question": "How much brie per person?", "answer": "1–2 oz as one of three cheeses. An 8 oz wheel serves six to eight."}, {"question": "How do I cut it?", "answer": "Wedges from the center out, like a pie, so every piece has rind and center."}]"
 ---
 
 ## The short version
@@ -62,7 +62,7 @@ to a strong blue on the board — put something between them.
 
 ## How to prep it for the board
 
-1. **Take it out of the fridge 45–60 minutes before serving.** This is the
+1. **Take it out of the fridge 20–30 minutes before serving.** This is the
    whole page. A cold wheel is a wasted wheel.
 2. **Cut wedges from the center out, like a pie**, so every guest gets both
    rind and center. Cutting the tip off is the one cheese-board faux pas people
@@ -107,7 +107,7 @@ Camembert is smaller, stronger and more mushroomy; brie is larger, milder and
 more buttery. Camembert is the one to buy if brie has ever bored you.
 
 **How long before serving should I take it out?**
-45 to 60 minutes. It matters more than anything else you do.
+20 to 30 minutes. It matters more than anything else you do.
 
 **How much brie per person?**
 1–2 oz as one of three cheeses. An 8 oz wheel serves six to eight.

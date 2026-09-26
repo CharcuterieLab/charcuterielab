@@ -77,7 +77,7 @@ Meat and cheese are the foundation — but the fillers and accompaniments are wh
 
 **Hot weather or outdoor party:** Reduce soft cheese quantities slightly — brie and fresh mozzarella soften and become less appealing in heat. Stick to harder cheeses for outdoor summer boards, or plan to replenish from the refrigerator every 60–90 minutes.
 
-**Budget-conscious build:** Stretch the formula by increasing crackers, nuts, and fruit — these cost a fraction of cheese and fill out the board visually. 1.5 oz of cheese per person with generous accompaniments reads as abundant.
+**Budget-conscious build:** Stretch the formula by increasing crackers, nuts, and fruit — these cost a fraction of cheese and fill out the board visually. 2 oz of cheese per person with generous accompaniments reads as abundant.
 
 ---
 

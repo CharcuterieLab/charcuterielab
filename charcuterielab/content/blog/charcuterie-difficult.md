@@ -63,7 +63,7 @@ Done. A board following this framework will satisfy any group of guests.
 You don't need to. Ask at the cheese counter: "I need one soft, one semi-firm, and one aged cheese for a board for six people." Most specialty grocers and Whole Foods-style stores have staff who will do the selection for you. Alternatively, buy by description: if it says "soft-ripened" on the label, that's your soft cheese.
 
 **"The quantities and portions seem complicated."**
-They're not. Plan 2-3 oz of cheese per person and 2-3 oz of cured meat per person for a standalone board. For six people: approximately 12-18 oz total cheese and the same of meat. One round of Brie (8 oz), a small Manchego wedge (6 oz), and a piece of Parmigiano (4-5 oz) covers the cheese for six. Two packages of pre-sliced prosciutto and one package of salami covers the meat.
+They're not. Plan 3 oz each of cheese and cured meat per person when the board is the party food, or 2 oz each if a meal follows. For six people as the party food: about 1¼ lb of meat and 1½ lb of cheese. One round of Brie (8 oz), a small Manchego wedge (6 oz), and a piece of Parmigiano (4-5 oz) covers the cheese for six. Two packages of pre-sliced prosciutto and one package of salami covers the meat.
 
 **"It won't look as nice as boards I've seen on social media."**
 Board photography heavily favors abundance, perfect light, and post-processing. A real board at a real table doesn't need to look like that. Guests care about taste and generosity, not magazine-perfect arrangement. And presentation improves immediately and automatically with practice — you'll build a better board the second time just from having done it once.

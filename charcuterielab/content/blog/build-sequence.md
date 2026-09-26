@@ -56,7 +56,7 @@ The sequence below works for boards ranging from a small slate for two to a full
 - **Bresaola:** Ribbon or loose cascade. Fold into a gentle S-curve and lean against cheese or the board edge.
 - **Salami:** Quarter-moon (fold in half, then half again) or directly coin slices laid in a fan or shingled line.
 
-**Quantity guide:** For a standard board, 3–4 oz of charcuterie per person. Three types is enough for variety without crowding.
+**Quantity guide:** 2 oz of charcuterie per person when a meal follows, 3 oz when the board is the party food. Three types is enough for variety without crowding.
 
 **What goes wrong if you skip this step's folding:** Flat, unstacked slices look like deli packaging. Volume and dimension signal care and quality. A rosette from the same prosciutto looks like it belongs in a restaurant; a flat drape looks like it came straight from the bag.
 
