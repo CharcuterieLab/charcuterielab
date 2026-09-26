@@ -321,26 +321,30 @@ def push_changes():
     if no_git_mode():
         return "Skipped Git publish steps because CHARCUTERIE_NO_GIT is enabled."
 
-    branch_status = run(["git", "status", "--short", "--branch"]).strip().splitlines()
-    if branch_status and "[ahead " in branch_status[0]:
-        token = get_github_token()
-        if not token:
-            return "Skipped Git push: CHARCUTERIE_GITHUB_TOKEN is not set."
-        auth = base64.b64encode(f"x-access-token:{token}".encode("ascii")).decode("ascii")
-        run(["git", "-c", f"http.extraheader=AUTHORIZATION: Basic {auth}", "push", "origin", "main"])
-        return "Pushed existing local Git commit to GitHub."
-
+    # Always commit the new posts first. This used to return early when local
+    # main was already ahead of GitHub ("push the existing commit"), which
+    # pushed the older commit and left the posts it had just copied in
+    # uncommitted - so they never reached the site (26 Sep 2026: aged cheddar
+    # board and color contrast). The push below sends every local commit.
+    make_thumbs = SITE / "scripts" / "make-thumbs.py"
+    if make_thumbs.exists():
+        try:
+            run([sys.executable, str(make_thumbs)], cwd=SITE)
+        except RuntimeError as exc:
+            print(f"Warning: thumbnails not updated ({exc}); the posts still publish.")
     run(["git", "add", "charcuterielab/content/blog", "charcuterielab/public/images", "scripts/publish_blog_queue.py"])
     # Ask git what is actually STAGED, not what is merely dirty. The working
     # tree usually has unrelated edits in it, and "git status --short" sees
     # those too — which made a re-run of already-published posts stage nothing,
     # then fail on "no changes added to commit".
     staged = run(["git", "diff", "--cached", "--name-only"]).strip()
-    if not staged:
+    ahead = "[ahead " in (run(["git", "status", "--short", "--branch"]).strip().splitlines() or [""])[0]
+    if not staged and not ahead:
         return ("Nothing new to publish - these posts are already committed. "
                 "The queue files can be moved to AAABlogPostsPublished.")
 
-    run(["git", "commit", "-m", "Publish queued blog posts"])
+    if staged:
+        run(["git", "commit", "-m", "Publish queued blog posts"])
     token = get_github_token()
     if not token:
         raise RuntimeError(
