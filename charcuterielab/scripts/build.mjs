@@ -1241,6 +1241,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
 
   return layout({
     canonical: `/ingredients/${item.slug}/`,
+    ...(item.image ? { image: item.image } : {}),
     modified: item.updated || item.date,
     title: pageTitle(ingredientSeoTitle(item)),
     description: item.excerpt,
