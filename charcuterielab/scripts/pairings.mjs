@@ -850,3 +850,56 @@ export function pairingUrls(idx) {
     ...idx.foods.map((f) => ({ loc: f.url, lastmod: UPDATED, priority: "0.8" }))
   ];
 }
+
+// ------------------------------------------------------ blog post links ---
+// Up to `max` Pairings Hub pages that fit one blog post: a topic guide when the
+// post is about wine, beer, cocktails or pairing, the "What goes with X" page
+// for ingredients the post talks about most, and the page for any drink the
+// post names. Every post gets at least one link (the hub itself as fallback).
+// `mentions` is a Map ingredient slug -> times the post mentions it.
+const HUB_TOPICS = [
+  [/wine/i, "/pairings/wine/", "Wine and cheese pairing guide", "pairings-wine.webp"],
+  [/wine|chart/i, "/pairings/wine-and-cheese-chart/", "Wine and cheese pairing chart", "pairings-chart.webp"],
+  [/beer|cider|oktoberfest/i, "/pairings/beer/", "Beer and cheese pairing guide", "pairings-beer.webp"],
+  [/cocktail|spirit|whiske?y|bourbon|gin\b|martini/i, "/pairings/cocktails/", "Cocktails for a charcuterie board", "pairings-cocktails.webp"],
+  [/mocktail|non.?alcoholic|zero.?proof|kids|baby shower/i, "/pairings/zero-proof/", "Non-alcoholic drinks for charcuterie", "pairings-zero-proof.webp"],
+  [/drink/i, "/pairings/drinks/", "Drink pairings for charcuterie", "pairings-wine.webp"],
+  [/pair|combination|combo|flavor|science|contrast|bridge/i, "/pairings/how-pairing-works/", "How food and wine pairing works", "pairings-hero.webp"],
+  [/pair|combination|combo/i, "/pairings/classics/", "Best charcuterie combinations", "pairings-hero.webp"]
+];
+
+export function postPairingLinks(idx, { title, text, mentions }, max = 4) {
+  if (!idx) return [];
+  const out = [];
+  const seen = new Set();
+  const add = (x) => { if (x && !seen.has(x.url) && out.length < max) { seen.add(x.url); out.push(x); } };
+  const hub = (u, label, img) => ({ url: u, label, kicker: "Pairing guide", image: `/images/pairings/${img}` });
+  const t = String(title);
+  const hubs = HUB_TOPICS.filter(([re]) => re.test(t)).map(([, u, label, img]) => hub(u, label, img));
+  const titleLow = t.toLowerCase();
+  const foods = [...mentions]
+    .filter(([s]) => idx.foodPage.has(s))
+    .map(([s, n]) => ({ s, n: n + (titleLow.includes(idx.bySlug.get(s).title.toLowerCase()) ? 100 : 0) }))
+    .sort((a, b) => b.n - a.n || a.s.localeCompare(b.s))
+    .map(({ s }) => {
+      const it = idx.bySlug.get(s);
+      return { url: `/pairings/food/${s}/`, label: `What goes with ${it.title}`, kicker: "Food pairing", image: it.image || "" };
+    });
+  const drinkCount = new Map();
+  for (const [re, slug] of DRINK_WORDS) {
+    const n = (String(text).match(new RegExp(re.source, "gi")) || []).length + (re.test(t) ? 100 : 0);
+    if (n) drinkCount.set(slug, (drinkCount.get(slug) || 0) + n);
+  }
+  const drinks = [...drinkCount]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([slug]) => idx.drinkBySlug.get(slug))
+    .filter(Boolean)
+    .map((d) => ({ url: d.url, label: `${d.name} and cheese`, kicker: d.familyLabel === "Wine" ? "Wine pairing" : "Beer pairing", image: `/images/pairings/pairings-${d.url.split("/")[2]}-${d.slug}.webp` }));
+  hubs.slice(0, 2).forEach(add);
+  foods.slice(0, 2).forEach(add);
+  drinks.slice(0, 1).forEach(add);
+  [...foods.slice(2), ...drinks.slice(1)].forEach(add);
+  if (out.length < 2) add(hub("/pairings/", "The Charcuterie Pairings Hub", "pairings-hero.webp"));
+  if (out.length < 2) add(hub("/pairings/classics/", "Best charcuterie combinations", "pairings-hero.webp"));
+  return out;
+}

@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
-import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls } from "./pairings.mjs";
+import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
@@ -2115,6 +2115,111 @@ ${labNext("blog_index")}
   });
 }
 
+// "Pair it, plate it": every post links to the Pairings Hub pages and board
+// plans that fit what it talks about (pairings.mjs postPairingLinks, and
+// boardsForPost below). Before this, 92% of posts linked to no pairing page
+// and 90% to no board.
+const BOARD_STOP = new Set(["charcuterie", "board", "boards", "the", "a", "an", "and", "for", "of", "with", "ideas", "idea", "plan", "how", "to", "what", "your", "best", "easy", "make", "guide", "on", "in", "s", "cheese", "meat"]);
+const tokens = (s) => String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").split(/[^a-z0-9]+/).filter((w) => w.length > 2 && !BOARD_STOP.has(w));
+
+function postMentionCounts(post, index) {
+  const counts = new Map();
+  if (!index) return counts;
+  const text = String(post.html || "").replace(/<[^>]+>/g, " ");
+  index.re.lastIndex = 0;
+  for (const m of text.matchAll(index.re)) {
+    const slug = index.bySlug.get(m[0].toLowerCase());
+    if (slug) counts.set(slug, (counts.get(slug) || 0) + 1);
+  }
+  return counts;
+}
+
+// Words a post title might use for each board's occasion, beyond the words
+// already in the board's own name.
+const BOARD_TOPICS = {
+  "classic-american-starter-board": "beginner easy simple first basic starter classic american",
+  "holiday-entertaining-board": "holiday holidays christmas winter festive december entertaining",
+  "game-day-charcuterie-board": "game football super bowl tailgate tailgating sports",
+  "25-dollar-budget-charcuterie-board": "budget cheap affordable under dollar save money",
+  "luxury-charcuterie-board": "luxury expensive fancy premium splurge upscale",
+  "thanksgiving-charcuterie-board": "thanksgiving friendsgiving turkey november",
+  "new-years-eve-charcuterie-board": "new year years eve nye champagne",
+  "fall-harvest-charcuterie-board": "fall autumn harvest pumpkin apple october halloween",
+  "office-party-charcuterie-board": "office work large group crowd corporate party",
+  "cocktail-party-charcuterie-board": "cocktail cocktails party appetizer",
+  "plant-based-fall-harvest-board": "vegan vegetarian plant based dairy free",
+  "plant-based-holiday-board": "vegan vegetarian plant based dairy free",
+  "german-bavarian-charcuterie-board": "german bavarian oktoberfest pretzel beer",
+  "british-ploughmans-board": "british english ploughman ploughmans pub",
+  "swiss-alpine-charcuterie-board": "swiss alpine alps fondue raclette",
+  "portuguese-petiscos-board": "portuguese portugal",
+  "eastern-european-deli-board": "eastern european polish deli",
+  "turkish-meze-board": "turkish meze mezze middle eastern",
+  "moroccan-charcuterie-board": "moroccan morocco north african",
+  "indian-charcuterie-board": "indian india",
+  "thai-charcuterie-board": "thai thailand",
+  "vietnamese-charcuterie-board": "vietnamese vietnam",
+  "dim-sum-charcuterie-board": "dim sum chinese",
+  "korean-bbq-charcuterie-board": "korean korea bbq",
+  "brazilian-churrasco-board": "brazilian brazil churrasco",
+  "argentine-asado-board": "argentine argentina asado",
+  "peruvian-charcuterie-board": "peruvian peru",
+  "caribbean-charcuterie-board": "caribbean tropical island"
+};
+const SEASONAL = /holiday|thanksgiving|new-years|fall|plant-based/;
+
+// Board plans that fit a post: its title naming the board's occasion counts
+// most, then shared ingredients (scaled by board size so the 24-item boards
+// don't win every post). Occasion boards need a topic match or a strong
+// overlap. `used` spreads links across all boards instead of the same two.
+function boardsForPost(post, boards, mentions, exclude, used, max = 2) {
+  const words = new Set(tokens(`${post.title} ${post.slug}`));
+  const picked = boards
+    .filter((b) => b !== exclude)
+    .map((b) => {
+      const topic = new Set(tokens(`${b.slug} ${b.h1} ${BOARD_TOPICS[b.slug] || ""}`).filter((w) => words.has(w))).size;
+      const items = boardSlugsFor(b);
+      const shared = items.filter((s) => mentions.has(s)).length;
+      let fit = items.length ? shared / Math.sqrt(items.length) : 0;
+      if (!topic && (SEASONAL.test(b.slug) || b.category === "around-the-world")) fit *= 0.5;
+      const spread = 1 / (1 + (used.get(b.slug) || 0) / 12);
+      return { b, score: topic * 10 + fit * spread };
+    })
+    .filter((x) => x.score > 0.25)
+    .sort((a, b) => b.score - a.score || a.b.slug.localeCompare(b.b.slug))
+    .slice(0, max)
+    .map((x) => x.b);
+  // No clear fit: the least-linked everyday board, so every post offers a plan.
+  if (!picked.length) {
+    const everyday = boards.filter((b) => b !== exclude && /classic-budget-luxury|occasions-parties/.test(b.category));
+    everyday.sort((a, b) => (used.get(a.slug) || 0) - (used.get(b.slug) || 0) || a.slug.localeCompare(b.slug));
+    if (everyday[0]) picked.push(everyday[0]);
+  }
+  picked.forEach((b) => used.set(b.slug, (used.get(b.slug) || 0) + 1));
+  return picked;
+}
+
+function pairAndPlate(pairLinks, boardLinks) {
+  if (!pairLinks.length && !boardLinks.length) return "";
+  const tile = (href, img, kicker, label, sub = "") => `<a class="pp-tile" href="${href}">
+        ${img ? `<img src="${escapeHtml(thumb(img, "s"))}" alt="" width="72" height="54" loading="lazy" decoding="async">` : `<span class="pp-tile-art" aria-hidden="true"></span>`}
+        <span><small>${escapeHtml(kicker)}</small><strong>${escapeHtml(label)}</strong>${sub ? `<em>${escapeHtml(sub)}</em>` : ""}</span>
+      </a>`;
+  const col = (title, more, items) => items.length ? `<div class="pp-col">
+      <h3>${title}</h3>
+      ${items.join("\n      ")}
+      ${more}
+    </div>` : "";
+  return `<aside class="pair-plate" aria-label="Pairings and board plans">
+    <p class="eyebrow">Pair it, plate it</p>
+    <h2>What to pour and what to build</h2>
+    <div class="pp-grid">
+    ${col("Pairings", `<a class="pp-more" href="/pairings/">All pairings &rarr;</a>`, pairLinks.map((x) => tile(x.url, x.image, x.kicker, x.label)))}
+    ${col("Board plans", `<a class="pp-more" href="/boards/">All board plans &rarr;</a>`, boardLinks.map((b) => tile(`/boards/${b.slug}/`, b.image, "Board plan", b.h1, [b.serves && `Serves ${b.serves}`, b.cost].filter(Boolean).join(" · "))))}
+    </div>
+  </aside>`;
+}
+
 function relatedReading(relatedPosts) {
   if (!relatedPosts.length) return "";
 
@@ -2203,7 +2308,7 @@ function funnelPostBody(html, post, bookBoard) {
   return parts.join("");
 }
 
-function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null) {
+function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null, pairPlate = "") {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
     day: "numeric",
@@ -2246,6 +2351,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     ${postHtml}
   </article>
   ${board ? `<aside class="post-cta bl-post-link"><p>Want the full plan? See the ${escapeHtml(board.h1)}: what to buy, why it works and a timeline, plus a one-tap shopping list for your guest count.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board plan</a></aside>` : ""}
+  ${pairPlate}
   ${relatedReading(relatedPosts)}
   ${labNext(`footer_${post.slug}`)}
   ${newsletterPanel("post-email", `blog_${post.slug}`)}
@@ -2383,14 +2489,25 @@ async function build() {
   await writeFile(join(dist, "about", "index.html"), aboutPage({ posts: posts.length, ingredients: ingredients.length, boards: boards.length }));
 
   const autolinkIndex = buildAutolinkIndex(ingredients);
+  const boardUse = new Map();
+  const pairPlateFor = (post) => {
+    const mentions = postMentionCounts(post, autolinkIndex);
+    const text = String(post.html || "").replace(/<[^>]+>/g, " ");
+    return pairAndPlate(
+      postPairingLinks(pairIdx, { title: `${post.title} ${post.slug.replace(/-/g, " ")}`, text, mentions }, 4),
+      boardsForPost(post, boards, mentions, boardForPost.get(post.slug) || null, boardUse, 2)
+    );
+  };
 
+  // oldest post first, so the spread of board links doesn't depend on write order
+  const plates = new Map([...posts].sort((a, b) => String(a.date).localeCompare(String(b.date)) || a.slug.localeCompare(b.slug)).map((p) => [p.slug, pairPlateFor(p)]));
   await Promise.all(
     posts.map(async (post) => {
       const dir = join(dist, "blog", post.slug);
       await mkdir(dir, { recursive: true });
       await writeFile(
         join(dir, "index.html"),
-        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null, holidayForPost.get(post.slug) || null)
+        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null, holidayForPost.get(post.slug) || null, plates.get(post.slug))
       );
     })
   );

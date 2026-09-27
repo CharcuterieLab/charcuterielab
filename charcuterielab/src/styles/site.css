@@ -4352,3 +4352,28 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .search-results span:last-child { color: var(--muted); font-size: 14px; line-height: 1.45; }
 .search-kind { font: 700 11px/1 Arial, Helvetica, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-dark, #8f6d2e); }
 .bl-print { margin-top: 10px; margin-bottom: 30px; }
+
+/* Pair it, plate it: pairing pages and board plans at the end of each post */
+.pair-plate {
+  width: min(820px, calc(100% - 32px));
+  margin: -20px auto 44px;
+  padding: 28px;
+  border: 1px solid rgba(17, 58, 39, 0.12);
+  border-left: 4px solid var(--green-deep);
+  border-radius: 8px;
+  background: #fffdf7;
+  box-shadow: 0 18px 38px rgba(17, 58, 39, 0.06);
+}
+.pair-plate .eyebrow { margin: 0 0 8px; color: var(--gold-dark); font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.pair-plate h2 { margin: 0 0 18px; color: var(--green-deep); font-family: Georgia, "Times New Roman", serif; font-size: 28px; font-weight: 500; }
+.pp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.pp-col { display: grid; gap: 10px; align-content: start; }
+.pp-col h3 { margin: 0; color: var(--ink); font-size: 13px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.pp-tile { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; align-items: center; padding: 8px; border: 1px solid rgba(17, 58, 39, 0.12); border-radius: 8px; color: var(--ink); background: #fff; text-decoration: none; transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.pp-tile:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(17, 58, 39, 0.1); }
+.pp-tile img, .pp-tile-art { width: 72px; height: 54px; object-fit: cover; border-radius: 5px; background: #f7ead1; }
+.pp-tile small { display: block; color: var(--gold-dark); font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.pp-tile strong { display: block; color: var(--green-deep); font-family: Georgia, "Times New Roman", serif; font-size: 18px; font-weight: 500; line-height: 1.15; }
+.pp-tile em { display: block; margin-top: 2px; color: #6b5a4a; font-size: 13px; font-style: normal; }
+.pp-more { justify-self: start; color: var(--green-deep); font-size: 14px; font-weight: 700; }
+@media (max-width: 560px) { .pair-plate { padding: 20px; } .pair-plate h2 { font-size: 24px; } }
