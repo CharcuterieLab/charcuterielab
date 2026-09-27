@@ -1253,7 +1253,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
       <p class="ing-byline">${byline(longDate(item.updated || item.date) ? ` · Updated ${longDate(item.updated || item.date)}` : "")}</p>
-      ${item.image ? `<img class="ing-hero" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">` : ""}
+      ${item.image ? heroImg(escapeHtml(item.image), escapeHtml(item.title), "ing-hero") : ""}
       ${
         spec.length
           ? `<div class="ing-spec">
