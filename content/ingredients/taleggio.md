@@ -114,3 +114,8 @@ smells, and serve it with honey.
 
 *Building a whole board around it? See [Taleggio charcuterie board
 ideas](/blog/taleggio-charcuterie-board/).*
+
+## Sources
+
+- [Consorzio Tutela Taleggio](https://www.taleggio.it/en/)
+

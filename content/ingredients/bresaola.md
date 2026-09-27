@@ -108,3 +108,8 @@ fifteen minutes.
 **Is it healthier than other charcuterie?**
 Much leaner and lower in fat, though still high in salt. It's the light option
 on a heavy board.
+
+## Sources
+
+- [Consorzio di Tutela Bresaola della Valtellina](https://www.bresaolavaltellina.it/en/)
+

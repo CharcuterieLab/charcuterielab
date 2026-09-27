@@ -107,3 +107,8 @@ It's edible but unpleasantly hard. Save it for soups and stocks instead.
 
 **How much per person?**
 About 1 oz. It's intense, and people take small shards.
+
+## Sources
+
+- [Consorzio del Formaggio Parmigiano Reggiano](https://www.parmigianoreggiano.com/)
+

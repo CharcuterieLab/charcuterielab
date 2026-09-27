@@ -61,7 +61,7 @@ Brie, saucisson, pâté, Dijon, cornichons — the standing order at any brasser
 
 **8–12 people · $50–$80 · 25–30 minutes · beginner**
 
-Kalamatas taste different from every other olive on the shelf because they are lye-cured rather than brine-cured, a process that strips bitterness in a way brine never quite manages. Built around feta and tzatziki with dolmades and cucumber, this is the lightest board on the list and the one that holds up best in heat. 
+Kalamatas taste different from the mild black olives most people know because they are cured slowly in brine, often with red wine vinegar, instead of the quick lye cure used for canned olives, which leaves them winey, sharp and fruity. Built around feta and tzatziki with dolmades and cucumber, this is the lightest board on the list and the one that holds up best in heat. 
 
 # Boards Built Around the Drink
 

@@ -265,7 +265,7 @@ function crumbHtml(h, crumbs) {
 }
 
 function hubNav(current) {
-  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Pairs & Trios"], ["/pairings/wine-and-cheese-chart/", "Chart"], ["/pairings/how-pairing-works/", "The Rules"]];
+  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/drinks/", "All Drinks"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Pairs & Trios"], ["/pairings/wine-and-cheese-chart/", "Chart"], ["/pairings/how-pairing-works/", "The Rules"]];
   return `<nav class="pr-subnav" aria-label="Pairings sections">${links.map(([u, l]) => `<a href="${u}"${u === current ? ' aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
 }
 

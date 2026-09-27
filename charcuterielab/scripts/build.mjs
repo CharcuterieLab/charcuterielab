@@ -13,6 +13,9 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
 const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
+// Today in Chicago; the sitemap's lastmod for pages with no content date
+// (hubs, tools, category pages), which are rebuilt from live data each deploy.
+const BUILD_DATE = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 // The book is sold in two editions and every book CTA on the site offers both:
 // the ebook (PDF) on Gumroad and the paperback on Amazon. Prices are shown on
 // the buttons, so update them here if either listing changes.
@@ -416,7 +419,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(about|ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const SITE_SECTIONS = /^(search|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
 const linkIndex = { live: null, redirects: new Set(), held: new Map() };
 
 function resolveSiteLink(href = "") {
@@ -1405,6 +1408,7 @@ ${head}
         <a href="/pairings/">Pairings</a>
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
+        <a class="nav-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="nav-search-label">Search</span></a>
       </div>
     </nav>
   </header>
@@ -2090,6 +2094,11 @@ function blogPage(posts) {
       <p class="section-kicker">Daily Lab Report</p>
       <h1>All Blog Posts</h1>
       <p>Pairing science, ingredient deep dives, budget boards, and the little details that make a board work.</p>
+      <form class="search-form search-inline" role="search" action="/search/" method="get">
+        <label class="sr-only" for="blog-q">Search articles</label>
+        <input id="blog-q" name="q" type="search" placeholder="Search articles, ingredients and boards" autocomplete="off">
+        <button class="button primary" type="submit">Search</button>
+      </form>
     </div>
   </section>
   ${bookBar("blog_index_top")}
@@ -2119,6 +2128,42 @@ function relatedReading(relatedPosts) {
       </a>`).join("\n")}
     </div>
   </aside>`;
+}
+
+// "In this article" list for long posts. Gives every article H2 an id (the
+// funnel boxes are <aside>s and are skipped) and inserts a jump list after
+// the quick answer. Only for posts with 4+ sections and 900+ words.
+function addTableOfContents(html, words) {
+  const items = [];
+  const used = new Set();
+  let asideDepth = 0;
+  const parts = html.split(/(<\/?aside\b[^>]*>|<h2\b[^>]*>[\s\S]*?<\/h2>)/i);
+  for (let i = 0; i < parts.length; i++) {
+    const p = parts[i];
+    if (/^<aside\b/i.test(p)) { asideDepth += 1; continue; }
+    if (/^<\/aside>/i.test(p)) { asideDepth = Math.max(0, asideDepth - 1); continue; }
+    const m = p.match(/^<h2\b([^>]*)>([\s\S]*?)<\/h2>$/i);
+    if (!m || asideDepth > 0) continue;
+    const text = m[2].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    if (!text || /^(related reading|faq|frequently asked questions)$/i.test(text)) continue;
+    let id = slugify(text).slice(0, 60) || `section-${items.length + 1}`;
+    while (used.has(id)) id += "-2";
+    used.add(id);
+    parts[i] = /\bid=/.test(m[1]) ? p : `<h2 id="${id}"${m[1]}>${m[2]}</h2>`;
+    items.push([id, text]);
+  }
+  const out = parts.join("");
+  if (items.length < 4 || words < 900) return out;
+  const nav = `<nav class="post-toc" aria-label="In this article">
+  <details open><summary>In this article <span>${items.length} sections</span></summary>
+  <ol>${items.map(([id, t]) => `<li><a href="#${id}">${escapeHtml(t)}</a></li>`).join("")}</ol>
+  </details>
+</nav>`;
+  // After the quick answer if there is one, otherwise before the first section.
+  const qa = out.match(/<blockquote>[\s\S]*?(Quick Answer|short answer)[\s\S]*?<\/blockquote>/i);
+  if (qa && qa.index < out.search(/<h2\b/i)) return out.slice(0, qa.index + qa[0].length) + nav + out.slice(qa.index + qa[0].length);
+  const h = out.search(/<h2\b/i);
+  return h >= 0 ? out.slice(0, h) + nav + out.slice(h) : out;
 }
 
 function demoteBodyHeadings(html, title) {
@@ -2170,10 +2215,10 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   // not just to crawlers. Drop a leading H1 that repeats the title, and demote
   // any others (50-charcuterie-board-ideas used H1 for all eleven sections).
   const bookBoard = bookBoardFor(post, BOOK_BOARDS, board);
-  const postHtml = demoteBodyHeadings(
+  const postHtml = addTableOfContents(demoteBodyHeadings(
     funnelPostBody(autolinkIngredients(post.html, autolinkIndex, post.slug), post, bookBoard),
     post.title
-  );
+  ), String(post.body || "").split(/\s+/).length);
 
   const description = metaDescription(post);
 
@@ -2240,7 +2285,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
     })),
     ...posts.map((post) => ({
       loc: `/blog/${post.slug}/`,
-      lastmod: post.date,
+      lastmod: post.updated || post.date,
       priority: "0.7"
     })),
     ...extra
@@ -2250,8 +2295,8 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
   .map((url) => `  <url>
-    <loc>${siteUrl}${url.loc}</loc>${url.lastmod ? `
-    <lastmod>${url.lastmod}</lastmod>` : ""}
+    <loc>${siteUrl}${url.loc}</loc>
+    <lastmod>${String(url.lastmod || BUILD_DATE).slice(0, 10)}</lastmod>
     <priority>${url.priority}</priority>
   </url>`)
   .join("\n")}
@@ -2496,6 +2541,120 @@ async function build() {
   await writeFile(join(dist, "blog-feed.txt"), `${feed}\n`);
 }
 
+// Site search. After everything is written, read every page's title,
+// description and section from dist/ into one small JSON file that /search/
+// filters in the browser. No server, no third-party search.
+async function buildSearch() {
+  const pages = [];
+  const SECTION = { blog: "Article", ingredients: "Ingredient", boards: "Board", pairings: "Pairing", "party-planner": "Party Planner", holidays: "Holiday", printables: "Printable", "board-builder": "Tool", ebook: "Book", "around-the-world": "Book", shop: "Shop", about: "About" };
+  async function walk(dir, rel) {
+    for (const e of await readdir(dir, { withFileTypes: true })) {
+      if (e.isDirectory()) {
+        if (["assets", "images", "downloads", "search", "privacy"].includes(e.name) && !rel) continue;
+        await walk(join(dir, e.name), rel ? `${rel}/${e.name}` : e.name);
+      } else if (e.name === "index.html" && rel) {
+        const html = await readFile(join(dir, e.name), "utf8");
+        const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || "";
+        const h1 = ((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]+>/g, "").trim();
+        const d = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "";
+        const top = rel.split("/")[0];
+        const kind = SECTION[top] || "Page";
+        const hub = !rel.includes("/");
+        pages.push({ u: `/${rel}/`, t: (h1 || title).replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), d: d.replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), k: hub && top !== "board-builder" && top !== "about" && top !== "ebook" && top !== "shop" ? `${kind} hub` : kind });
+      }
+    }
+  }
+  await walk(dist, "");
+  await writeFile(join(dist, "assets", "search-index.json"), JSON.stringify(pages));
+  await writeFile(join(dist, "llms.txt"), llmsTxt(pages));
+  await mkdir(join(dist, "search"), { recursive: true });
+  await writeFile(join(dist, "search", "index.html"), searchPage(pages.length));
+  return pages.length;
+}
+
+// llms.txt (llmstxt.org): a plain-text map of the site for AI assistants,
+// with the house standards stated once so answers quote them correctly.
+function llmsTxt(pages) {
+  const by = (u) => pages.find((p) => p.u === u);
+  const line = (u, note = "") => { const p = by(u); return p ? `- [${p.t}](${siteUrl}${u})${note || (p.d ? `: ${p.d}` : "")}` : ""; };
+  const guides = ["/blog/how-much-charcuterie-per-person/", "/blog/how-to-make-charcuterie-board/", "/blog/what-goes-on-charcuterie-board/", "/blog/what-cheese-goes-on-charcuterie-board/", "/blog/best-cheese-charcuterie-board/", "/blog/best-meats-charcuterie-board/", "/blog/what-bread-for-charcuterie-board/", "/blog/build-sequence/", "/blog/temperature-guide/", "/blog/how-long-charcuterie-board-last/", "/blog/make-charcuterie-board-night-before/", "/blog/grazing-table/", "/blog/charcuterie-board-for-large-group/", "/blog/salami-vs-pepperoni/", "/blog/pairing-by-contrast/"];
+  return [
+    "# Charcuterie Lab",
+    "",
+    `> Charcuterie boards built on purpose: what to buy, how much, the order to build it in, and why the pairings work. Written by ${AUTHOR_NAME}, author of the Charcuterie Lab books, who also runs a local charcuterie catering business.`,
+    "",
+    "House standards used on every page:",
+    "- Amounts per guest, meat and cheese each: 2 oz before a meal, 3 oz when the board is the party food, 4 oz when it is dinner. Add 10% from 20 guests up.",
+    "- Take cheese out before serving: aged hard 45-60 min, semi-firm 30-45 min, soft (brie, camembert) 20-30 min, fresh 15-20 min; cured meats about 20 min.",
+    "- Food safety: perishable food out no more than 2 hours, 1 hour above 90°F (USDA).",
+    "",
+    "## Tools",
+    line("/party-planner/"), line("/board-builder/"), line("/pairings/"), `- [Site search](${siteUrl}/search/): search every article, ingredient, board and pairing`,
+    "",
+    "## Core guides",
+    ...guides.map((u) => line(u)).filter(Boolean),
+    "",
+    "## Sections",
+    line("/ingredients/"), line("/boards/"), line("/holidays/"), line("/blog/"), line("/printables/"),
+    "",
+    "## Books",
+    line("/ebook/"), line("/around-the-world/"),
+    "",
+    "## About",
+    line("/about/"),
+    ""
+  ].filter((x) => x !== undefined).join("\n");
+}
+
+function searchPage(count) {
+  return layout({
+    title: "Search Charcuterie Lab",
+    canonical: "/search/",
+    description: "Search every Charcuterie Lab article, ingredient, board, pairing and printable.",
+    head: `  <meta name="robots" content="noindex, follow">`,
+    body: `<main class="search-main">
+  <section class="search-hero">
+    <p class="section-kicker">Search</p>
+    <h1>Find a board, ingredient or answer</h1>
+    <form class="search-form" role="search" action="/search/" method="get" data-search-form>
+      <label class="sr-only" for="q">Search the site</label>
+      <input id="q" name="q" type="search" placeholder="Try brie, 20 people, prosciutto, wine&hellip;" autocomplete="off" autofocus>
+      <button class="button primary" type="submit">Search</button>
+    </form>
+    <p class="search-count" data-search-count>${count} pages: articles, ingredients, boards, pairings and printables.</p>
+  </section>
+  <ol class="search-results" data-search-results></ol>
+</main>
+<script>
+(function(){
+  var input=document.getElementById("q"),list=document.querySelector("[data-search-results]"),count=document.querySelector("[data-search-count]"),data=null;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function norm(s){return String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+  function run(){
+    var q=norm(input.value.trim());
+    if(!data||!q){list.innerHTML="";return}
+    var words=q.split(/\\s+/).filter(Boolean),out=[];
+    data.forEach(function(p){
+      var t=norm(p.t),d=norm(p.d),score=0,ok=true;
+      words.forEach(function(w){var wt=t.indexOf(w),wd=d.indexOf(w);if(wt<0&&wd<0){ok=false;return}score+=(wt>=0?10:0)+(wd>=0?2:0)+(wt===0?5:0)});
+      if(!ok)return;
+      if(/hub$/.test(p.k))score+=4;if(p.k==="Party Planner"||p.k==="Board")score+=2;
+      out.push([score,p]);
+    });
+    out.sort(function(a,b){return b[0]-a[0]});
+    count.textContent=out.length?out.length+" result"+(out.length===1?"":"s")+" for \u201c"+input.value.trim()+"\u201d":"No results for \u201c"+input.value.trim()+"\u201d. Try a single ingredient or a guest count.";
+    list.innerHTML=out.slice(0,40).map(function(r){var p=r[1];return '<li><a href="'+p.u+'"><span class="search-kind">'+esc(p.k)+'</span><strong>'+esc(p.t)+'</strong><span>'+esc(p.d)+'</span></a></li>'}).join("");
+  }
+  try{var q0=new URLSearchParams(location.search).get("q");if(q0)input.value=q0}catch(e){}
+  fetch("/assets/search-index.json").then(function(r){return r.json()}).then(function(j){data=j;run()});
+  input.addEventListener("input",function(){run();try{history.replaceState(null,"","/search/"+(input.value.trim()?"?q="+encodeURIComponent(input.value.trim()):""))}catch(e){}});
+  document.querySelector("[data-search-form]").addEventListener("submit",function(e){e.preventDefault();run()});
+})();
+</script>`
+  });
+}
+
 await build();
+console.log(`Search index: ${await buildSearch()} pages`);
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");

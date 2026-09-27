@@ -110,3 +110,8 @@ mixed in. A different product.
 
 **How much per person?**
 About 1 oz.
+
+## Sources
+
+- [Stilton Cheesemakers' Association](https://www.stiltoncheese.co.uk/)
+

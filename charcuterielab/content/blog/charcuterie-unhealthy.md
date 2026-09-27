@@ -133,6 +133,11 @@ The myth that charcuterie is inherently unhealthy dissolves once you apply actua
 *Science-first takes on food every week. Subscribe to [The Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com).*
 
 
+## Sources
+
+- [World Health Organization: Carcinogenicity of red and processed meat](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)
+- [FDA: Sodium in your diet](https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet)
+
 ## Related Reading
 
 - [Fermentation Science in Salami: Why the pH Drop Is the Safety Mechanism](https://charcuterielab.com/fermentation-salami/)

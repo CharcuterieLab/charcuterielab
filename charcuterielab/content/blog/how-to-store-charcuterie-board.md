@@ -83,6 +83,12 @@ Making a charcuterie board ahead of time is entirely possible with a component-b
 
 Store leftovers in separate components — never the assembled board. Cheese in parchment (not plastic). Cured meats sealed tightly. Crackers in an airtight container. For make-ahead prep: 24 hours ahead for slicing and portioning, 2 hours before guests for assembly, 30 minutes before for crackers. The components are more durable than the assembled board — treat them accordingly.
 
+## Sources
+
+- [USDA FSIS: Leftovers and food safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety)
+- [FoodSafety.gov: FoodKeeper app (USDA storage times)](https://www.foodsafety.gov/keep-food-safe/foodkeeper-app)
+- [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)
+
 ## Related Reading
 
 - [How Long Can a Charcuterie Board Sit Out?](https://charcuterielab.com/how-long-can-charcuterie-board-sit-out/)

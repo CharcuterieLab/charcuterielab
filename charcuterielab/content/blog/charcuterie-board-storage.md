@@ -114,6 +114,12 @@ The best leftovers from a board have a natural second life:
 
 Most charcuterie board leftovers are worth saving, but only if stored correctly immediately after the board is cleared. Cheese in parchment, meats in separate airtight containers, crackers at room temperature, condiments back in their jars. Hard cheeses last nearly a week; fresh cheeses need to be used the next day. The leftovers from a good board are worth the 10 minutes of proper storage — they'll produce at least one strong weekday meal.
 
+## Sources
+
+- [USDA FSIS: Leftovers and food safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety)
+- [FoodSafety.gov: FoodKeeper app (USDA storage times)](https://www.foodsafety.gov/keep-food-safe/foodkeeper-app)
+- [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)
+
 ## Related Reading
 
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)

@@ -133,3 +133,8 @@ Manchego belongs in the middle of the hard cheese spectrum on a board — more c
 The zigzag rind pattern is visually recognizable to most guests — lean into it by keeping some of the rind visible in your presentation even if you're trimming it from what guests will eat.
 
 > Weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
+
+## Sources
+
+- [Consejo Regulador, Queso Manchego PDO](https://www.quesomanchego.es/en/)
+

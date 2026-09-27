@@ -108,3 +108,8 @@ The wheel scored above 14 out of 20 in the mandatory jury tasting.
 
 **How much per person?**
 1–2 oz as one of three cheeses.
+
+## Sources
+
+- [Comité Interprofessionnel de Gestion du Comté (CIGC)](https://www.comte.com/)
+

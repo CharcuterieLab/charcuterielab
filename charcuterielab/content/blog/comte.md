@@ -95,6 +95,10 @@ Both are excellent board cheeses; on a board with space for one, Comté's broade
 > Weekly cheese science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 
+## Sources
+
+- [Comité Interprofessionnel de Gestion du Comté (CIGC)](https://www.comte.com/)
+
 ## Related Reading
 
 - [Proteolysis: How Protein Breakdown Builds the Flavor of Aged Cheese](https://charcuterielab.com/proteolysis/)

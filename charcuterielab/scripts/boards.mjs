@@ -36,6 +36,16 @@ export const PLANT_BOOK = {
   paperbackPrice: "$18.99"
 };
 
+// A matched printable on every board page: the Grazing Table Planner for
+// boards that serve 20+, the Classic Board Blueprint otherwise. Plant-based
+// boards get none (the printables use meat and dairy).
+function boardPrintable(h, b) {
+  if (!h.printCard || b.book === "plant" || /plant-based|vegan/.test(b.slug)) return "";
+  const most = Math.max(...String(b.serves || "").match(/\d+/g)?.map(Number) || [0]);
+  const slug = most >= 20 ? "grazing-table-planner" : "classic-entertaining-board-blueprint";
+  return `<div class="bl-inner bl-print">${h.printCard(slug, `board_print_${b.slug}`)}</div>`;
+}
+
 export async function loadBoards(root) {
   const dir = join(root, "content", "boards");
   let files = [];
@@ -363,6 +373,7 @@ ${[...related, ...fill].map((x) => card(x, h)).join("\n")}
       <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
     </section>
   </div>
+${boardPrintable(h, b)}
 ${h.newsletterPanel("board-email", `board_${b.slug}`)}
 ${bookBoardOf(h, b) && h.stickyBar ? h.stickyBar(`sticky_board_${b.slug}`, bookBoardOf(h, b)) : ""}
 </main>`

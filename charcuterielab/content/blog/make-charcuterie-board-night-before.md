@@ -105,6 +105,11 @@ Better practice: store components in separate containers and assemble the day of
 > Get weekly board-building science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 
+## Sources
+
+- [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)
+- [USDA FSIS: Leftovers and food safety](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety)
+
 ## Related Reading
 
 - [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)

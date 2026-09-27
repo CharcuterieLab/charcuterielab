@@ -80,3 +80,8 @@ For guests who need more nudging: spread a small amount of the paste (rind remov
 
 *More ingredient deep dives: [charcuterielab.com](https://charcuterielab.com)*  
 *Subscribe to the Charcuterie Lab Report: [charcuterie-lab-report.beehiiv.com](https://charcuterie-lab-report.beehiiv.com)*
+
+## Sources
+
+- [Consorzio Tutela Taleggio](https://www.taleggio.it/en/)
+

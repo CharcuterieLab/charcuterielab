@@ -110,3 +110,8 @@ Membrillo — Spanish quince paste. It's the traditional pairing for a reason.
 
 *Building a whole board around it? See [Manchego charcuterie board
 ideas](/blog/manchego-charcuterie-board/).*
+
+## Sources
+
+- [Consejo Regulador, Queso Manchego PDO](https://www.quesomanchego.es/en/)
+

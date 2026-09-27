@@ -53,6 +53,11 @@ A dessert board works well at a shower, either on its own or after a lighter sav
 
 > **Planning the spread?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) includes 50 boards for every occasion, including party and gathering formats with exact ingredient lists and portion math.
 
+## Sources
+
+- [CDC: Preventing Listeria infection](https://www.cdc.gov/listeria/prevention/index.html)
+- [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)
+
 ## FAQ
 
 **What should go on a baby shower charcuterie board?**

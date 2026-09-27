@@ -129,3 +129,8 @@ The sugar in Port also provides sweetness that buffers the sharpness of the blue
 ---
 
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
+
+## Sources
+
+- [Stilton Cheesemakers' Association](https://www.stiltoncheese.co.uk/)
+
