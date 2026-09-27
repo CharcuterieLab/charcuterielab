@@ -35,8 +35,7 @@ US benchmark since.
 
 **Taste:** bright and lemony at the core, buttery and mushroomy near the rind
 **Texture:** dense chalky center, soft runny ring beneath the rind
-**Look:** white round with a black ash line through the middle and an
-ash-dusted rind
+**Look:** white round with a black ash line through the middle and an ash-dusted rind
 
 Ripening from the outside in is the mechanism, exactly as in Bucheron — but
 Humboldt Fog is made in a wheel rather than a log, so the creamline forms a

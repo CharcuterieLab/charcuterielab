@@ -36,6 +36,7 @@ good ones are firm, slightly concave, and taste of very little.
 **Mini sweet peppers:** sweet, sturdy, halve into perfect cups
 **Celery:** classic, stringy, best cut short
 **Jicama:** crisp, sweet, stays rigid a long time
+**Look:** pale green endive boats, cucumber rounds and red, orange and yellow mini pepper halves
 
 Water is the mechanism, and it works both directions. The high water content is
 why these feel refreshing next to salty cured meat and rich cheese — and it's

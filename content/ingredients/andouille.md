@@ -35,6 +35,7 @@ cayenne and black pepper, double-smoked over pecan or sugarcane.
 
 **French:** pungent, offaly, smoky, firm and rubbery — concentric ringed slices
 **Louisiana:** smoky, garlicky, peppery, coarse and meaty — deep red-brown
+**Look:** French: pale grey slices with concentric rings. Louisiana: thick, deep red-brown smoked links, coarse-cut inside
 
 Shared ancestry and divergent ingredients are the mechanism, and the reason for
 the confusion. Both are smoked pork sausages named andouille; only one is made

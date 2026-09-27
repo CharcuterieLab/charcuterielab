@@ -44,7 +44,7 @@ In mozzarella, the entire cheese is pasta filata curd. In burrata, only the thin
 
 **Why burrata is so rich:**
 
-Fresh mozzarella has a fat content of roughly 17–22% (by weight). Burrata's overall fat content is significantly higher — typically 30–40% — because of the heavy cream incorporated into the stracciatella filling. This higher fat content is why burrata is richer, more luxurious in mouthfeel, and faster to overwhelm the palate than regular mozzarella. It's also why pairings that provide acidity and freshness are particularly effective: the acid cuts the fat richness in the same way it cuts any high-fat dairy.
+Burrata is richer than fresh mozzarella because of the cream worked into its stracciatella filling. This higher fat content is why burrata is richer, more luxurious in mouthfeel, and faster to overwhelm the palate than regular mozzarella. It's also why pairings that provide acidity and freshness are particularly effective: the acid cuts the fat richness in the same way it cuts any high-fat dairy.
 
 **The structural implication:** The pasta filata shell maintains shape when intact but is thin and weak relative to the volume of the filling. This means:
 - Burrata cannot be pre-sliced like other cheeses — once cut, the filling flows out immediately
@@ -58,7 +58,7 @@ Fresh mozzarella has a fat content of roughly 17–22% (by weight). Burrata's ov
 | | Burrata | Fresh Mozzarella |
 |---|---|---|
 | Structure | Pasta filata shell + stracciatella cream filling | Solid pasta filata throughout |
-| Fat content | ~30–40% | ~17–22% |
+| Richness | Higher (cream-filled center) | Lower |
 | Flavor | Rich, milky, cream-forward | Mild, fresh, slightly tangy |
 | Texture | Two-part: slight chew then cream release | Uniform: slight chew throughout |
 | Board behavior | Must be served whole; filling releases on cut | Can be sliced, cubed, or torn |
@@ -119,7 +119,7 @@ Burrata with ripe heirloom tomatoes, fresh basil, and a drizzle of good extra-vi
 |---|---|
 | Structure | Pasta filata shell + stracciatella-and-cream filling |
 | Origin | Puglia, Italy |
-| Fat content | ~30–40% (significantly richer than mozzarella) |
+| Richness | Richer than mozzarella (cream-filled center) |
 | Texture | Shell: slight chew. Interior: cream + shredded curd, flows on cut |
 | Flavor | Rich, milky, cream-forward; mild fresh dairy tang |
 | Board role | Centerpiece visual element; opened at the table |

@@ -34,8 +34,7 @@ ash added deliberately, but the two-layer structure is real and visible.
 
 **Taste:** mild, creamy, nutty, faintly barnyard from the rind
 **Texture:** semi-soft, supple, slightly elastic
-**Look:** pale ivory paste split by a distinct black horizontal line, orange
-washed rind
+**Look:** pale ivory paste split by a thin black horizontal ash line, orange-beige washed rind
 
 The visible seam is the mechanism on a board, and it's the rare case where a
 cheese's history is legible in the slice. Every other cheese here looks like a

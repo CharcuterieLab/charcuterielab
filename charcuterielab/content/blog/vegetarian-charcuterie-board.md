@@ -114,7 +114,7 @@ These are the items that replace the visual, textural, and flavor role of charcu
 
 Castelvetrano olives (bright green, buttery, mild) and Kalamata olives (purple-black, briny, assertive) together cover the same spectrum as a mild and a bold meat. Both are cured, both are high in fat (oleic acid), both are salty.
 
-Castelvetrano's high oleic acid content (~60–70% of fat) gives them a buttery, almost sweet richness that visually and texturally mimics the delicate fat of prosciutto. Place them in a small bowl — olives with pits look more natural and stay juicier.
+Castelvetranos' oleic-acid-rich fat, the same fat as olive oil, gives them a buttery, almost sweet richness that visually and texturally mimics the delicate fat of prosciutto. Place them in a small bowl — olives with pits look more natural and stay juicier.
 
 ### Sun-Dried Tomatoes: Concentrated Umami
 

@@ -35,7 +35,7 @@ Traditionally wrapped in sycamore or maple leaves.
 
 **Taste:** extremely sharp, salty, spicy, acidic, long finish
 **Texture:** moist, crumbly, sticky, sometimes almost spreadable
-**Look:** ivory to grey paste, heavily veined blue-green, no rind
+**Look:** ivory paste heavily veined blue-green, thin sticky natural rind in grey and ochre
 
 Wild mold in a saturated cave is the mechanism. Commercial blues are inoculated
 with a selected *P. roqueforti* strain and aged in controlled conditions.

@@ -34,7 +34,7 @@ is made only in summer, from a single herd grazing high mountain pasture.
 
 **Taste:** fruity, floral, nutty, rich, savory
 **Texture:** dense and supple, smooth, almost no holes
-**Look:** deep golden paste, concave-sided wheel, natural rind
+**Look:** ivory to pale yellow paste (deeper in summer wheels), concave-sided wheel, brushed natural rind
 
 Milk fat is the mechanism, and it's why Beaufort eats richer than its alpine
 neighbors. Beaufort is made from whole milk with no skimming — unusual for a

@@ -25,7 +25,7 @@ Nuts perform three distinct functions that no other board element replicates:
 
 ## Marcona Almonds: The Board Standard
 
-Marcona almonds are a Spanish variety of almond with a rounder, flatter shape and a distinctly different fat profile than California almonds. Their dominant fatty acid is oleic acid — the same monounsaturated fat that makes up the majority of sheep's milk fat and the primary fat in olive oil.
+Marcona almonds are a Spanish variety of almond with a rounder, flatter shape and a distinctly different fat profile than California almonds. Their dominant fatty acid is oleic acid — the same monounsaturated fat that is the primary fat in olive oil.
 
 This shared lipid profile is why Marcona almonds pair so specifically with Manchego and other sheep's milk cheeses: the fat molecules reinforce rather than contrast, creating a smooth, integrated finish. Marcona almonds with Manchego tastes integrated; other almonds with Manchego tastes approximate.
 

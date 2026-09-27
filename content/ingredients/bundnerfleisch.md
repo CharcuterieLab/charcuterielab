@@ -33,7 +33,7 @@ brick and drives out moisture evenly.
 
 **Taste:** concentrated beef, mineral, herbal, moderately salty
 **Texture:** very dry and firm, almost brittle at the edge
-**Look:** dark red-brown rectangular block, marbled with fine white sinew lines
+**Look:** deep burgundy-red pressed rectangular block, very lean, almost no visible fat
 
 Altitude and cold are the mechanism. Grisons valleys sit high, dry and cold,
 which draws moisture out slowly without ever letting the meat warm enough to

@@ -85,7 +85,7 @@ to a strong blue on the board — put something between them.
 | **Président Brie** | Nearly every grocery store | The reliable default. Mild, consistent, cheap. |
 | **Ile de France Brie** | Grocery cheese case | A step up in flavor for a dollar or two more. |
 | **Brie de Meaux** | Cheese counters, Whole Foods, Murray's | The real French raw-milk original where legal to import. Dramatically better. |
-| **Fromager d'Affinois** | Cheese counter, Whole Foods | Technically not brie, but softer and richer. Most people prefer it in a blind taste. |
+| **Fromager d'Affinois** | Cheese counter, Whole Foods | Technically not brie, but softer and richer. Many people like it better. |
 | **Trader Joe's Double Crème Brie** | Trader Joe's | Best value in the category. |
 | **Costco Kirkland Brie** | Costco | Large format, good price for a big board. |
 

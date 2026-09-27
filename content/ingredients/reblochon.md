@@ -35,8 +35,7 @@ so what's available here is a pasteurized version or a Reblochon-style cheese.
 
 **Taste:** nutty, buttery, faintly barnyard, savory, mildly sweet
 **Texture:** soft and supple, yielding but not runny
-**Look:** flat disc, pale ivory paste, thin washed orange-pink rind with a
-white bloom
+**Look:** flat disc, pale ivory paste, thin washed orange-pink rind with a white bloom
 
 Second-milking fat is the mechanism and it's still true today. The higher fat
 content gives Reblochon its supple, buttery texture and blunts the sharpness a

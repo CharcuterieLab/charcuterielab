@@ -15,7 +15,7 @@ tags: "["burrata prosciutto pairing", "burrata and prosciutto", "charcuterie boa
 
 ## Why Fat-on-Fat Works Here
 
-Pairing two high-fat ingredients usually risks richness fatigue — the palate gets coated and dulled quickly, and the combination feels heavy rather than satisfying. Burrata (35% cream fat) and prosciutto (significant intramuscular fat throughout) should have this problem. They don't, because prosciutto's salt manages the pairing at every stage.
+Pairing two high-fat ingredients usually risks richness fatigue — the palate gets coated and dulled quickly, and the combination feels heavy rather than satisfying. Burrata (cream-filled) and prosciutto (significant intramuscular fat throughout) should have this problem. They don't, because prosciutto's salt manages the pairing at every stage.
 
 ## The Lab Section: Why These Pairings Work
 

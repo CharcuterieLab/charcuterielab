@@ -29,7 +29,7 @@ butter. Belongs on the dessert half of a board, not the savory half.
 
 Mascarpone comes from Lombardy and is made by heating cream and adding an acid
 — tartaric or citric — until it thickens. That's the whole process. There's no
-fermentation, so there's no tang, and the fat content sits around 60–75%.
+fermentation, so there's no tang, and it is richer than cream cheese.
 
 **Taste:** sweet, buttery, milky, almost no salt or tang
 **Texture:** dense, smooth, spoonable, silkier than cream cheese

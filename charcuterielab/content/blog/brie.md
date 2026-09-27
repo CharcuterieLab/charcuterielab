@@ -54,7 +54,7 @@ The one science fact that surprises most people: **the rind is meant to be eaten
 The Penicillium mold on brie's rind produces geosmin and 1-octen-3-ol during ripening — the same aromatic compounds responsible for the smell of forest soil and fresh mushrooms. This is why a properly ripened brie smells earthy and complex rather than directly milky. On a board, this earthiness makes brie an excellent anchor for both sweet and herbaceous accompaniments.
 
 **The Fat Richness**
-Brie contains 60–75% fat in dry matter, which gives it its characteristic luxurious mouthfeel. Fat carries and extends fat-soluble flavor compounds, meaning brie lingers on the palate longer than almost any other board cheese. This is both its strength and its pairing challenge — anything that pairs with it needs to cut through that richness or complement it directly.
+Brie is a rich, high-fat cheese, which gives it its characteristic luxurious mouthfeel. Fat carries and extends fat-soluble flavor compounds, meaning brie lingers on the palate longer than almost any other board cheese. This is both its strength and its pairing challenge — anything that pairs with it needs to cut through that richness or complement it directly.
 
 **The Mild Baseline**
 Unlike sharp cheddar or aged parmesan, brie's flavor baseline is gentle. It doesn't compete — it accommodates. This makes it one of the most versatile cheeses on a board, but also the easiest to overwhelm with pairings that are too aggressive.

@@ -57,7 +57,7 @@ For a styled charcuterie board, cold-smoked is the right choice. For a casual bo
 
 **+ Cucumber:** Cucumber provides water-based palate refresh alongside the acid reset of capers — a neutral structural element that lengthens the board's eating window.
 
-**Elevated version — smoked salmon + crème fraîche + caviar:** Crème fraîche is higher fat than cream cheese (30%+ vs 33% similar, but richer perceived fat) and its slightly tangier lactic profile creates a more complex base. Caviar's briny, mineral notes extend the salt register into a third dimension.
+**Elevated version — smoked salmon + crème fraîche + caviar:** Crème fraîche is looser and tangier than cream cheese, and that lactic tang creates a more complex base. Caviar's briny, mineral notes extend the salt register into a third dimension.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards — each with exact quantities, shopping lists, and the science behind every pairing.
 

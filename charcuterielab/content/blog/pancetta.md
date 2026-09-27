@@ -43,10 +43,7 @@ Pancetta comes in two main forms:
 
 Pork belly fat is stratified in layers — alternating bands of fat and lean muscle running through the belly. Unlike guanciale (which is nearly all fat) or bresaola (which is nearly all lean), pancetta is inherently a balanced meat-fat product.
 
-The fat in pancetta's belly is primarily:
-- Saturated (palmitic acid C16, stearic acid C18): ~40–42%
-- Monounsaturated (oleic acid C18:1): ~43–46%
-- Polyunsaturated: ~12–14%
+The largest share of pork belly fat is monounsaturated oleic acid, the same fat as olive oil, with saturated fat (palmitic and stearic acid) close behind and a smaller share of polyunsaturated fat.
 
 The slightly lower monounsaturated content compared to jowl fat (guanciale) means pancetta's fat is firmer at room temperature and melts slightly less readily on the palate. This gives it a more structured, chewy quality compared to guanciale's dissolving silkiness.
 

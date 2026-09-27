@@ -53,7 +53,7 @@ Manchego's crystalline crunch is tyrosine — clusters of free amino acid that f
 
 **8–12 people · $60–$95 · 25–30 minutes · beginner to intermediate**
 
-Brie, saucisson, pâté, Dijon, cornichons — the standing order at any brasserie in France, and the pâté is the piece most home boards leave off. Its liver content makes it extraordinarily high in inosinic acid, which bridges the mild cheese and the cured meat and pulls the whole board together. De Gaulle famously complained about governing a country with 246 cheeses. The current count is over 1,200.
+Brie, saucisson, pâté, Dijon, cornichons — the standing order at any brasserie in France, and the pâté is the piece most home boards leave off. Its liver content makes it rich in inosinic acid, which bridges the mild cheese and the cured meat and pulls the whole board together. De Gaulle famously complained about governing a country with 246 cheeses.
 
 ## 5. The Greek Mediterranean Board
 
@@ -89,7 +89,7 @@ Carbonation clears fat off the palate mechanically, which makes beer a more effe
 
 **12–20 people · $65–$100 · 25–30 minutes · intermediate**
 
-Every guest has one hand occupied by a glass, so anything requiring a knife will sit untouched all night. This board is designed entirely around the free hand: firm cheese cubed, meats pre-folded, nothing that needs assembly. Bresaola earns its place as the cocktail meat because its lean, faintly iron note sits well beside whisky and gin where a fattier salami would not. The cocktail party itself was invented in St. Louis in 1917, specifically to dodge formal dinner protocol.
+Every guest has one hand occupied by a glass, so anything requiring a knife will sit untouched all night. This board is designed entirely around the free hand: firm cheese cubed, meats pre-folded, nothing that needs assembly. Bresaola earns its place as the cocktail meat because its lean, faintly iron note sits well beside whisky and gin where a fattier salami would not. The cocktail party itself is usually credited to a St. Louis hostess in 1917, who wanted to skip formal dinner protocol.
 
 ## 9. The New Year's Eve Board
 
@@ -97,7 +97,7 @@ Every guest has one hand occupied by a glass, so anything requiring a knife will
 
 **10–15 people · $90–$145 · 35–45 minutes · intermediate**
 
-Champagne's yeast ageing produces nucleotides that meet aged Gruyère's glutamate, and the combination measures as more savoury than either part. Add truffle honey and you get a three-way synergy that is genuinely more than the sum of its parts. Build it late in the evening rather than early — this is a board with a deadline. Roughly 300 million bottles of Champagne are opened in December, and the corks leave at about 25 mph, so mind the angle.
+Champagne's yeast ageing produces nucleotides that meet aged Gruyère's glutamate, and the combination measures as more savoury than either part. Add truffle honey and you get a three-way synergy that is genuinely more than the sum of its parts. Build it late in the evening rather than early — this is a board with a deadline. And point the Champagne cork away from the board when you open it.
 
 *Each of these has its full pairing chart and pour order in [the book](https://www.amazon.com/dp/B0H2Y39R41).*
 
@@ -111,7 +111,7 @@ Six boards pinned to specific dates. The constraint is never the ingredients —
 
 **12–16 people · $85–$140 · 35–45 minutes · intermediate**
 
-Five cheeses covering sharp, soft, aged, blue and semi-firm means every guest finds something without you having to know their preferences in advance — which, at a party this size, you don't. The honeycomb is the single highest-impact visual element you can put on a board; nothing else generates the same reaction. George Washington's personal eggnog recipe called for rye, rum and sherry, and he made it by the gallon.
+Five cheeses covering sharp, soft, aged, blue and semi-firm means every guest finds something without you having to know their preferences in advance — which, at a party this size, you don't. The honeycomb is the single highest-impact visual element you can put on a board; nothing else generates the same reaction. An eggnog recipe credited to George Washington calls for rye, rum and sherry, made by the bowlful.
 
 ## 11. The Thanksgiving Board
 
@@ -119,7 +119,7 @@ Five cheeses covering sharp, soft, aged, blue and semi-firm means every guest fi
 
 **10–15 people · $70–$110 · 30–40 minutes · intermediate**
 
-The board's job on Thanksgiving is to hold people *without* competing with dinner, which means smaller portions than instinct suggests. Aged Gouda carries pyrazine compounds from the Maillard reaction — the same aromatic family as roasted nuts and browned butter — which is why it reads as autumn beside apple and pear. The Pilgrims' 1621 feast almost certainly had no pie; they had run out of sugar.
+The board's job on Thanksgiving is to hold people *without* competing with dinner, which means smaller portions than instinct suggests. Aged Gouda carries pyrazine compounds from the Maillard reaction — the same aromatic family as roasted nuts and browned butter — which is why it reads as autumn beside apple and pear. The Pilgrims' 1621 feast almost certainly had no pumpkin pie.
 
 ## 12. The Valentine's Day Board
 
@@ -143,7 +143,7 @@ Irish grass-fed cheddar has a rich, buttery character you can taste before you h
 
 **10–16 people · $50–$80 · 25–30 minutes · beginner**
 
-Brie hits peak creaminess between 65 and 68°F — genuinely a different cheese from the one that comes out of the fridge — and this board is timed around getting it there. Prosciutto's fat melts at body temperature and coats the palate, which is what makes the brie taste richer than it is. Decorating eggs for spring predates Easter by three thousand years; the Persians were doing it at Nowruz.
+Brie hits peak creaminess between 65 and 68°F — genuinely a different cheese from the one that comes out of the fridge — and this board is timed around getting it there. Prosciutto's fat melts at body temperature and coats the palate, which is what makes the brie taste richer than it is. Decorating eggs for spring is far older than Easter; Persian families still do it for Nowruz.
 
 ## 15. The Fall Harvest Board
 
@@ -187,7 +187,7 @@ Vacuum-packed aged cheddar needs no refrigeration at all, and summer sausage fer
 
 **8–14 people · $45–$70 · 25–30 minutes · beginner**
 
-Pimento cheese is the centrepiece and the reason the board works: mayo, sharp cheddar and pimento build a base that carries smoke better than any straight cheese would. The pulled pork bark supplies the pyrazines that read as barbecue before you have identified anything specific. Vinegar-based sauce predates tomato-based by roughly two centuries, and the Carolinas have not stopped mentioning it.
+Pimento cheese is the centrepiece and the reason the board works: mayo, sharp cheddar and pimento build a base that carries smoke better than any straight cheese would. The pulled pork bark supplies the pyrazines that read as barbecue before you have identified anything specific. Vinegar-based sauce is the older style, and the Carolinas have not stopped mentioning it.
 
 ## 20. The Game Day Party Board
 
@@ -195,7 +195,7 @@ Pimento cheese is the centrepiece and the reason the board works: mayo, sharp ch
 
 **12–16 people · $60–$95 · 30–35 minutes · intermediate**
 
-People graze this board standing up, half-watching a screen, so every element has to be finishable in one or two bites with no utensil and no decision-making. Three dips rather than one is not indulgence: variety keeps people coming back to the bowls. Americans get through 120 million pounds of guacamole on Super Bowl Sunday, which is roughly the weight of 40,000 cars.
+People graze this board standing up, half-watching a screen, so every element has to be finishable in one or two bites with no utensil and no decision-making. Three dips rather than one is not indulgence: variety keeps people coming back to the bowls.
 
 *The book gives each of these its own timing chart — what to build the night before, and what has to wait.*
 
@@ -209,7 +209,7 @@ Two of these cost less than a takeaway. One costs more than a decent dinner out.
 
 **6–8 people · $20–$25 · 15–20 minutes · beginner**
 
-The interesting finding behind this board is that most people cannot reliably tell store-brand cheddar from premium in a blind tasting. Flavour differences in cheese track age and fat content, not the price on the label. What does change perception is presentation: fanning identical items rather than piling them makes the same amount look like more. This board spends its money on the right things and its effort on the rest.
+The idea behind this board is that flavour in cheese tracks age and style more than the price on the label, so a well-aged store-brand cheddar can carry it. What does change perception is presentation: fanning identical items rather than piling them makes the same amount look like more. This board spends its money on the right things and its effort on the rest.
 
 ## 22. The Luxury Splurge Board
 
@@ -217,7 +217,7 @@ The interesting finding behind this board is that most people cannot reliably te
 
 **8–12 people · $150–$250 · 40–50 minutes · advanced**
 
-The counter-intuitive rule for expensive boards is to leave space. Empty surface around premium items makes them look more special — crowd them and they read as ordinary. Époisses is washed in Marc de Bourgogne during ageing, which is what produces that orange rind and the smell that gets it banned from French public transport. A single leg of jamón ibérico de bellota can run past $4,500, and Spanish law specifies the acreage of oak forest each pig must have.
+The counter-intuitive rule for expensive boards is to leave space. Empty surface around premium items makes them look more special — crowd them and they read as ordinary. Époisses is washed in Marc de Bourgogne during ageing, which is what produces that orange rind and its famously strong smell. Jamón ibérico de bellota comes from pigs that finish on acorns in open oak forest, and Spanish rules set how much forest each pig needs.
 
 ## 23. The Truffle & Luxury Board
 
@@ -237,7 +237,7 @@ The guest list changes the board more than the occasion does. Nine boards built 
 
 **8–10 people (families) · $35–$55 · 20–25 minutes · beginner**
 
-Food neophobia — the wariness of unfamiliar food — peaks between ages two and six, so this board leads with recognisable shapes and colours and hides nothing. Children also respond to five or six distinct colours on a plate rather than fewer, because visible variety lowers the sense of risk. Goldfish crackers, invented in Switzerland in 1958 as a birthday present, now run to about 70 billion a year.
+Food neophobia — the wariness of unfamiliar food — peaks between ages two and six, so this board leads with recognisable shapes and colours and hides nothing. Children also respond to five or six distinct colours on a plate rather than fewer, because visible variety lowers the sense of risk. Goldfish crackers started in Switzerland in 1958.
 
 ## 25. The Date Night Board for Two
 
@@ -245,7 +245,7 @@ Food neophobia — the wariness of unfamiliar food — peaks between ages two an
 
 **2 people · $35–$55 · 15–20 minutes · beginner**
 
-Half portions, one good cheese, and a board small enough that both people have to reach into the same space — shared reach activates mirror neuron systems in a way that two separate plates do not. Candlelight is doing real work too: warm 2700K light shifts white cheese toward creamier and more appealing. The oyster's aphrodisiac reputation turns out to have a basis in zinc and D-aspartic acid.
+Half portions, one good cheese, and a board small enough that both people have to reach into the same space, which feels more shared than two separate plates. Candlelight does real work too: warm light flatters a white cheese.
 
 ## 26. The Movie Night Board
 
@@ -269,7 +269,7 @@ Sequenced deliberately from mild to intense, because a board that guides people 
 
 **15–25 people · $60–$100 · 25–30 minutes · beginner**
 
-An office contains the widest palate range you will ever cater to, and no way to survey it in advance, so this board anchors hard on familiar cheeses and keeps allergens separated and legible. Plan 2 oz each of cheese and meat per person if lunch follows, or 3 oz each if the board is the lunch. People tend to eat more from a shared spread than from individual portions, so don't trim the amounts.
+An office contains the widest palate range you will ever cater to, and no way to survey it in advance, so this board anchors hard on familiar cheeses and keeps allergens separated and legible. Plan 2 oz each of cheese and meat per person if lunch follows, or 3 oz each if the board is the lunch. Don't trim the amounts: a shared spread tends to go faster than you expect.
 
 ## 29. The Baby Shower Board
 
@@ -277,7 +277,7 @@ An office contains the widest palate range you will ever cater to, and no way to
 
 **10–16 people · $55–$85 · 25–30 minutes · beginner to intermediate**
 
-Every cheese on this board is pasteurised, which removes the listeria question entirely rather than leaving the guest of honour to work it out from labels. The pink, white and soft yellow palette is not incidental — those colours reliably trigger a tenderness response in viewers. Community food gifts to new mothers are ancient; in Rome, friends organised thirty days of provisions.
+Every cheese on this board is pasteurised, following the CDC's advice for pregnancy, so the guest of honour doesn't have to work it out from labels. The pink, white and soft yellow palette sets the mood before anyone takes a bite.
 
 ## 30. The Graduation Celebration Board
 
@@ -293,7 +293,7 @@ Built to be colour-matched to a school, this is a board people photograph. As th
 
 **20–30 people · $175–$275 · 60–75 minutes · advanced**
 
-Large grazing tables fail for a reason nobody anticipates: if guests can only approach from one side, most of the eating happens in the strip they can reach. Access dictates the layout before aesthetics do. Salami roses are the highest perceived-effort item you can put on a board at about 45 seconds each, which is a good return. Across independent surveys, a cheese and charcuterie spread beats plated entrées and even the cake for guest satisfaction.
+Large grazing tables fail for a reason nobody anticipates: if guests can only approach from one side, most of the eating happens in the strip they can reach. Access dictates the layout before aesthetics do. Salami roses are the highest perceived-effort item you can put on a board at about 45 seconds each, which is a good return.
 
 ## 32. The Breakfast & Brunch Board
 
@@ -301,7 +301,7 @@ Large grazing tables fail for a reason nobody anticipates: if guests can only ap
 
 **8–12 people · $50–$80 · 25–30 minutes · beginner**
 
-Smoked salmon and capers is a pairing with actual chemistry behind it: the capric acid in capers cleaves the salmon's long-chain omega-3 fats, which is why the combination tastes cleaner than salmon alone. Everything bagel seasoning is doing more than decoration too — sesame contributes sesaminol, which carries its own bitter-sweet complexity. The croissant, for the record, is Austrian.
+Smoked salmon and capers is a pairing with actual chemistry behind it: the capric acid in capers cleaves the salmon's long-chain omega-3 fats, which is why the combination tastes cleaner than salmon alone. Everything bagel seasoning is doing more than decoration too — sesame contributes sesaminol, which carries its own bitter-sweet complexity. The croissant, for the record, descends from the Austrian kipferl.
 
 *Guest counts, shopping quantities and make-ahead timings for all fifty are worked out in [the book](https://www.amazon.com/dp/B0H2Y39R41) so you are not doing the arithmetic at the shop.*
 
@@ -315,7 +315,7 @@ None of these are the standard board with things removed. Each one is designed f
 
 **8–12 people · $45–$70 · 25–30 minutes · intermediate**
 
-Cashew cheese works because cashews are dominated by oleic acid — the same monounsaturated fat that gives dairy cheese its mouthfeel — so the texture is not an approximation, it is the same mechanism arrived at differently. Tempeh's *Rhizopus* fermentation adds a savoury depth that plain tofu never has. Every cashew you have eaten was hand-shelled; the shell oil is chemically related to poison ivy.
+Cashew cheese works because cashews are dominated by oleic acid — the same monounsaturated fat that gives dairy cheese its mouthfeel — so the texture is not an approximation, it is the same mechanism arrived at differently. Tempeh's *Rhizopus* fermentation adds a savoury depth that plain tofu never has. Cashews are always sold shelled for a reason: the shell oil is chemically related to poison ivy.
 
 ## 34. The Gluten-Free Board
 
@@ -323,7 +323,7 @@ Cashew cheese works because cashews are dominated by oleic acid — the same mon
 
 **8–12 people · $50–$80 · 25–30 minutes · beginner**
 
-Naturally aged cheese contains no gluten at all — casein and whey have no gluten peptides — so the board's risk sits entirely in the crackers and in cross-contact. That matters more than most hosts realise: coeliac disease can be triggered by as little as 10mg, about a sixty-fourth of a slice of bread. Gluten-free flatbread is also ancient rather than modern; Egyptians were making teff and sorghum versions by 3000 BC.
+Naturally aged cheese contains no gluten at all — casein and whey have no gluten peptides — so the board's risk sits entirely in the crackers and in cross-contact. That matters more than most hosts realise: for someone with coeliac disease, a few crumbs from a shared knife are enough to cause a reaction.
 
 ## 35. The Low-Carb / Keto Board
 
@@ -331,7 +331,7 @@ Naturally aged cheese contains no gluten at all — casein and whey have no glut
 
 **6–10 people · $45–$70 · 20–25 minutes · beginner**
 
-Remove the crackers and the cheese has nowhere to hide, so this board runs four distinct cheeses covering all four texture categories and lets them carry the whole thing. Guests engage with the flavours more directly than they would with a vehicle in between. The ketogenic diet was developed in the 1920s to treat childhood epilepsy and spent about seventy years as a purely clinical tool before anyone marketed it.
+Remove the crackers and the cheese has nowhere to hide, so this board runs four distinct cheeses covering all four texture categories and lets them carry the whole thing. Guests engage with the flavours more directly than they would with a vehicle in between. The ketogenic diet was developed in the 1920s to treat childhood epilepsy, decades before anyone marketed it for weight loss.
 
 # A Sense of Place
 
@@ -343,7 +343,7 @@ Eight boards that belong somewhere specific — four American regions, four trad
 
 **8–12 people · $35–$55 · 20–25 minutes · beginner**
 
-Colby Jack was invented in Wisconsin in 1885, which makes anchoring the board with it a genuine regional statement rather than a default. Summer sausage fermented to pH 4.6–4.8 brings the umami intensity that keeps a board of mild cheeses from going flat. Velveeta, invented in 1918 to rescue broken Swiss wheels, was so unusual that the FDA had to invent the category "processed cheese food" to classify it.
+Colby Jack was invented in Wisconsin in 1885, which makes anchoring the board with it a genuine regional statement rather than a default. Summer sausage fermented to pH 4.6–4.8 brings the umami intensity that keeps a board of mild cheeses from going flat. Velveeta dates to 1918, when a New York cheesemaker found a use for broken Swiss wheels.
 
 ## 37. The Pacific Northwest Board
 
@@ -351,7 +351,7 @@ Colby Jack was invented in Wisconsin in 1885, which makes anchoring the board wi
 
 **8–12 people · $55–$85 · 20–25 minutes · intermediate**
 
-Beecher's Flagship is raw milk aged fifteen months and stands up against European farmhouse cheese without apology. Wild Pacific salmon carries roughly twice the omega-3 of farmed Atlantic, which shows up as a richer mouthfeel rather than as anything you would name. Oregon's Willamette Valley grows nearly all of America's hazelnuts, harvested by machines that shake the trunk until the nuts fall.
+Beecher's Flagship is raw milk aged fifteen months and stands up against European farmhouse cheese without apology. Oregon's Willamette Valley grows nearly all of America's hazelnuts, harvested by machines that shake the trunk until the nuts fall.
 
 ## 38. The Tex-Mex Fiesta Board
 
@@ -359,7 +359,7 @@ Beecher's Flagship is raw milk aged fifteen months and stands up against Europea
 
 **8–14 people · $40–$65 · 20–25 minutes · beginner**
 
-Pepper jack's capsaicin primes the palate at the first bite and sets expectations for everything after it — the board is sequenced deliberately around that. Mexican chorizo brings ancho and guajillo capsinoids, which trigger heat perception through a slightly different route than raw chile does, so the warmth builds rather than spikes. NASA flew jalapeños in 1982, and astronauts reported spice tasting sharper in orbit.
+Pepper jack's capsaicin primes the palate at the first bite and sets expectations for everything after it — the board is sequenced deliberately around that. Mexican chorizo brings ancho and guajillo capsinoids, which trigger heat perception through a slightly different route than raw chile does, so the warmth builds rather than spikes. NASA flew jalapeños on the Space Shuttle in 1982; food tastes muted in orbit, so astronauts ask for heat.
 
 ## 39. The Japanese-Inspired Board
 
@@ -367,7 +367,7 @@ Pepper jack's capsaicin primes the palate at the first bite and sets expectation
 
 **6–10 people · $55–$85 · 20–25 minutes · intermediate**
 
-Japanese cooking has the most developed working understanding of umami of any tradition, and structuring a board around that idea rather than around cheese produces something genuinely unlike the rest of this list. Wagyu at BMS 8–12 carries roughly three times the linoleic acid of standard beef, which is why so little of it goes so far. Elegant, restrained, and the board most likely to surprise a guest.
+Japanese cooking has the most developed working understanding of umami of any tradition, and structuring a board around that idea rather than around cheese produces something genuinely unlike the rest of this list. Wagyu's heavy marbling is rich in oleic acid, the same fat as olive oil, which is why so little of it goes so far. Elegant, restrained, and the board most likely to surprise a guest.
 
 ## 40. The Middle Eastern Mezze Board
 
@@ -383,7 +383,7 @@ Four dips covering four distinct profiles — earthy, smoky, dairy-cool and swee
 
 **6–10 people · $55–$85 · 25–30 minutes · intermediate**
 
-Nordic food is built on the interplay of salt, acid, fat and smoke, and this board puts all four in plain sight. Gravlax cured in dill, salt and sugar takes on linalool terpenes from the dill, which is why it tastes distinctly different from cold-smoked salmon despite starting as the same fish. *Hygge* was Oxford's word of the year in 2016; a proper hygge spread nearly always includes something pickled and something smoked.
+Nordic food is built on the interplay of salt, acid, fat and smoke, and this board puts all four in plain sight. Gravlax cured in dill, salt and sugar takes on linalool terpenes from the dill, which is why it tastes distinctly different from cold-smoked salmon despite starting as the same fish. *Hygge* was shortlisted for Oxford's word of the year in 2016; a proper hygge spread nearly always includes something pickled and something smoked.
 
 ## 42. The Seafood & Smoke Board
 
@@ -391,7 +391,7 @@ Nordic food is built on the interplay of salt, acid, fat and smoke, and this boa
 
 **8–12 people · $55–$85 · 20–25 minutes · intermediate**
 
-Smoked salmon carries both glutamate and inosinate, which makes it the single highest natural umami concentration you can put on a board. Smoked trout sits alongside as the bridge — lighter smoke, milder flesh — connecting the salmon to the cream cheese instead of leaving a gap between them. Pacific Northwest communities were smoking salmon as food and trade currency for at least 10,000 years.
+Smoked salmon carries both glutamate and inosinate, which makes it the single highest natural umami concentration you can put on a board. Smoked trout sits alongside as the bridge — lighter smoke, milder flesh — connecting the salmon to the cream cheese instead of leaving a gap between them. Pacific Northwest communities have smoked salmon for food and trade for thousands of years.
 
 ## 43. The Farm-to-Table Local Board
 
@@ -399,7 +399,7 @@ Smoked salmon carries both glutamate and inosinate, which makes it the single hi
 
 **8–12 people · $55–$95 · 25–30 minutes · intermediate**
 
-Knowing where a food came from changes how people experience it, so the sourcing on this board is part of the flavour, not just sentiment. A farmstead cheddar aged on site carries genuine terroir from the grass, water and local microflora. The average supermarket ingredient has travelled over 1,500 miles by the time it reaches a plate.
+Knowing where a food came from changes how people experience it, so the sourcing on this board is part of the flavour, not just sentiment. A farmstead cheddar aged on site carries genuine terroir from the grass, water and local microflora.
 
 *Regional boards live or die on sourcing. The book lists what to ask for at the counter when your shop does not stock the obvious answer.*
 
@@ -413,7 +413,7 @@ Five boards that pick a single subject and commit to it completely.
 
 **8–12 people · $60–$100 · 20–25 minutes · intermediate**
 
-Six cheeses arranged as a flight, mild to pungent, with no meat to hide behind. Structuring a cheese board as a sequence rather than a spread gets more out of identical ingredients, purely from the order. Crackers are matched to intensity — neutral water crackers at the mild end, robust seeded ones at the far end. The world's most expensive cheese is Serbian donkey-milk Pule at roughly $1,700 a kilo.
+Six cheeses arranged as a flight, mild to pungent, with no meat to hide behind. Structuring a cheese board as a sequence rather than a spread gets more out of identical ingredients, purely from the order. Crackers are matched to intensity — neutral water crackers at the mild end, robust seeded ones at the far end. The world's most expensive cheese is often said to be Pule, a Serbian donkey-milk cheese.
 
 ## 45. The Meat Lover's Carnivore Board
 
@@ -437,7 +437,7 @@ Every skewer is a complete four-element bite — meat, cheese, vegetable, herb �
 
 **8–12 people · $55–$90 · 25–30 minutes · intermediate**
 
-Cheese as dessert, which is standard in France and still faintly radical everywhere else. Aged Gouda's caramel notes come from tyrosine converting during long ageing, and they meet dark chocolate on genuinely common ground: Swiss chocolatiers noticed in the 1800s that chocolate and aged cheese develop complexity through the same fermentation processes, which turned the pairing from accident into method.
+Cheese as dessert, which is standard in France and still faintly radical everywhere else. Aged Gouda's caramel notes come from tyrosine converting during long ageing, and they meet dark chocolate on genuinely common ground: both get their depth from long, slow transformation, fermentation for the cacao and ageing for the cheese.
 
 ## 48. The Sweet Dessert Charcuterie Board
 
@@ -445,7 +445,7 @@ Cheese as dessert, which is standard in France and still faintly radical everywh
 
 **8–12 people · $35–$60 · 20–25 minutes · beginner**
 
-No cheese, no meat, no pretence — chocolate, fruit and sweets arranged with the same structural logic as everything else here. The dark-to-milk-to-white progression from 70% down to 30% cocoa follows the brain's own sugar-sensitivity curve, so the board gets sweeter as your palate adapts. The oldest written recipe in existence is for beer; the second oldest is a honey cake.
+No cheese, no meat, no pretence — chocolate, fruit and sweets arranged with the same structural logic as everything else here. The dark-to-milk-to-white progression, from 70% down to 30% cocoa, runs bitter to sweet, so each piece tastes like a step up instead of the sweetest one flattening everything after it.
 
 # The Showstoppers
 

@@ -20,9 +20,9 @@ Two mechanisms explain why cold food tastes different from food served at the ri
 
 **Aromatic volatility:** The flavor compounds we perceive as aroma (and therefore as flavor — most of what we taste is actually smell) are volatile organic compounds. They need to evaporate from the food surface to reach olfactory receptors. At cold temperatures, evaporation slows dramatically. The compounds stay in the food rather than reaching your nose. A cold Comté doesn't smell like hazelnuts and caramel — it smells like very little. The same Comté at 65°F fills the space around it with the aromatics that make it worth $25/lb.
 
-**Fat melting points:** The texture of cheese and charcuterie is heavily dependent on fat behavior. The fat in prosciutto di Parma is approximately 60% oleic acid (a monounsaturated fat), with a melting point around 56–68°F (13–20°C). At refrigerator temperature (38°F/3°C), that fat is firm. It doesn't melt on the tongue. You don't get the silky, dissolving quality that makes prosciutto special — you get a slightly waxy, chewier texture. At room temperature, the fat behaves as designed: it melts on contact with body heat, releasing flavor compounds as it does.
+**Fat melting points:** The texture of cheese and charcuterie is heavily dependent on fat behavior. The fat in prosciutto di Parma is mostly oleic acid, a monounsaturated fat that softens well below body temperature. At refrigerator temperature (38°F/3°C), that fat is firm. It doesn't melt on the tongue. You don't get the silky, dissolving quality that makes prosciutto special — you get a slightly waxy, chewier texture. At room temperature, the fat behaves as designed: it melts on contact with body heat, releasing flavor compounds as it does.
 
-Ibérico fat is even more oleic-acid-dominant (~55–60% oleic acid), with a melting point close to body temperature. This is why jamón ibérico seems to almost liquefy on the tongue when served correctly — the fat genuinely starts to melt as you eat it. Served cold, this quality disappears entirely.
+Ibérico fat is even richer in oleic acid, so it softens even more readily. This is why jamón ibérico seems to almost liquefy on the tongue when served correctly — the fat genuinely starts to melt as you eat it. Served cold, this quality disappears entirely.
 
 ---
 
@@ -129,7 +129,7 @@ Sometimes the pull time isn't available. A few workarounds:
 
 **Remove from packaging earlier than the fridge.** If you take cheese out of the refrigerator and leave it on the counter in packaging (still wrapped), it warms more slowly than unwrapped. Always unwrap to maximize surface area contact with ambient air.
 
-**Accept that flavor is compromised.** Sometimes the schedule doesn't cooperate. A great board at 60% temperature is still better than no board. But knowing the ideal targets means you can make the tradeoffs intentionally rather than serving cold cheese by accident.
+**Accept that flavor is compromised.** Sometimes the schedule doesn't cooperate. A great board served a little too cold is still better than no board. But knowing the ideal targets means you can make the tradeoffs intentionally rather than serving cold cheese by accident.
 
 ---
 

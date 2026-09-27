@@ -21,7 +21,7 @@ faq: "[{"question": "Are American Muenster and French Munster the same cheese?",
 ## The short version
 
 Two unrelated cheeses. American Muenster is soft, mild and edged in orange
-paprika — a sandwich cheese. French Munster d'Alsace is a genuinely pungent
+annatto — a sandwich cheese. French Munster d'Alsace is a genuinely pungent
 washed-rind that will fill a room. Know which one you're buying.
 
 ## What it is
@@ -34,8 +34,7 @@ annatto dusted on the outside for color.
 
 **American:** mild, milky, soft, springy, orange-dusted edge
 **French:** pungent, meaty, savory, soft to runny, sticky orange rind
-**Look:** both are pale with orange exteriors, which is where the confusion
-begins and ends
+**Look:** American: pale ivory paste, bright orange annatto edge. French: pale paste, sticky orange washed rind
 
 Name drift is the mechanism, and it's worth understanding because the two
 cheeses do opposite jobs on a board. American Muenster is the item nobody

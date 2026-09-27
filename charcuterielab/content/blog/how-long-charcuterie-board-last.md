@@ -87,7 +87,7 @@ Yes — with a clear distinction between what to prep and what to hold.
 
 **Sit-down dinner as appetizer (45–60 minutes):** Standard room-temperature window is fine for all elements.
 
-**Outdoor summer event:** Reduce all safe times by 30–50% in temperatures above 80°F. Keep a cooler nearby for soft cheeses and fresh meats, bringing them to the table in small quantities.
+**Outdoor summer event:** Above 90°F, the USDA limit drops from 2 hours to 1 hour. Keep a cooler nearby for soft cheeses and fresh meats, bringing them to the table in small quantities.
 
 **Wedding or large party (4+ hours of service):** Use a grazing table approach — start with hard cheeses and cured salamis (most stable), and replenish soft cheeses and fresh items every 60–90 minutes from refrigerated reserve portions.
 
