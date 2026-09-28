@@ -406,7 +406,7 @@ export function makePrintables(h, products) {
       title: "Printable Charcuterie Shopping Lists, Charts & Templates",
       canonical: "/printables/",
       image: products[0].image,
-      description: "Printable charcuterie board shopping lists, a wine and cheese pairing chart, a cheese pairing card and board blueprints. Free board 01 sample plus instant PDFs from $7.",
+      description: "Printable charcuterie board shopping lists, a wine and cheese pairing chart, a cheese pairing card and board blueprints. Free board 01 sample plus instant PDFs from $4.",
       head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab printables", itemListElement: products.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/printables/${p.slug}/`), name: p.title })) })}</script>
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
       body: `<main class="fx-printables">
