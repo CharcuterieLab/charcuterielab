@@ -253,6 +253,10 @@ function bookOffer(h, board) {
     </section>`;
 }
 
+// Board pages went live 23 Sep; a board file can override with "date" / "updated".
+const BOARD_PUBLISHED = "2026-09-23";
+const BOARD_UPDATED = "2026-09-26";
+
 function recipeSchema(h, b) {
   const ingredients = b.groups.flatMap((g) => g.items.map((i) => i.name));
   const minutes = Number((b.prep_time || "").match(/(\d+)(?=\s*min)/)?.[1] || 0);
@@ -263,6 +267,8 @@ function recipeSchema(h, b) {
     description: b.description,
     ...(b.placeholder ? {} : { image: [h.absoluteUrl(b.image)] }),
     author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab", url: h.absoluteUrl("/") },
+    datePublished: b.date || BOARD_PUBLISHED,
+    dateModified: b.updated || BOARD_UPDATED,
     recipeCategory: "Appetizer",
     recipeYield: `${b.serves} people`,
     ...(minutes ? { prepTime: `PT${minutes}M`, totalTime: `PT${minutes}M` } : {}),
@@ -319,7 +325,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       <p class="section-kicker">${h.escapeHtml(cat.name)}${b.book === "plant" && cat.slug !== "plant-based" ? " · 100% plant-based" : ""}</p>
       <h1>${h.escapeHtml(b.h1)}</h1>
       <p class="bl-lede">${h.escapeHtml(b.hook)}</p>
-      ${h.byline ? `<p class="bl-byline">${h.byline()}</p>` : ""}
+      ${h.byline ? `<p class="bl-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(b.updated || BOARD_UPDATED)}` : "")}</p>` : ""}
       <img class="bl-photo" src="${h.escapeHtml(b.image)}" alt="${h.escapeHtml(b.h1)}: the finished board" width="1200" height="800" fetchpriority="high">
       <dl class="bl-glance">
         ${glance.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${h.escapeHtml(v)}</dd></div>`).join("\n        ")}

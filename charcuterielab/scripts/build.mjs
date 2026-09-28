@@ -815,7 +815,7 @@ async function loadIngredients() {
 
 function ingredientThumb(item, art) {
   if (item.image) {
-    return `<img src="${escapeHtml(thumb(item.image))}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">`;
+    return `<img src="${escapeHtml(thumb(item.image))}" alt="${escapeHtml(item.title)}"${imageSize(thumb(item.image))} loading="lazy" decoding="async">`;
   }
   return `<span class="ing-thumb-art">${art.glyph}</span>`;
 }
@@ -1855,7 +1855,7 @@ ${labNext("ebook_page_next", { skip: ["book"], heading: "Free from the Lab" })}
 
 function articleCard(post) {
   return `<article class="card">
-  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${thumb(post.image)}" alt="" loading="lazy" decoding="async"></a>
+  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${thumb(post.image)}" alt=""${imageSize(thumb(post.image))} loading="lazy" decoding="async"></a>
   <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
   <p>${escapeHtml(clampText(metaDescription(post), 155))}</p>
 </article>`;
@@ -1899,7 +1899,7 @@ function shopPage(products) {
   const printCard = (p) => {
     const url = `/printables/${p.slug}/`;
     return `<a class="shop-print" href="${url}">
-      <img src="${thumb(p.image)}" alt="" loading="lazy" decoding="async">
+      <img src="${thumb(p.image)}" alt=""${imageSize(thumb(p.image))} loading="lazy" decoding="async">
       <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.price)}</span></span>
     </a>`;
   };
@@ -1946,7 +1946,7 @@ function shopPage(products) {
 function productCard(product) {
   const trackedUrl = withTracking(product.url, "home_shop");
   return `<article class="card product">
-  <a href="/printables/${product.slug}/"><img src="${thumb(product.image)}" alt="" loading="lazy" decoding="async"></a>
+  <a href="/printables/${product.slug}/"><img src="${thumb(product.image)}" alt=""${imageSize(thumb(product.image))} loading="lazy" decoding="async"></a>
   <h3><a href="/printables/${product.slug}/">${escapeHtml(product.title)}</a></h3>
   <p>${escapeHtml(product.description)}</p>
   <span class="price">${escapeHtml(product.price)}</span>
@@ -2228,7 +2228,7 @@ function relatedReading(relatedPosts) {
     <h2>Keep building the board</h2>
     <div class="related-grid">
       ${relatedPosts.map((related) => `<a class="related-card" href="/blog/${related.slug}/">
-        <img src="${escapeHtml(thumb(related.image, "s"))}"${thumb(related.image, "s") !== related.image ? ` srcset="${thumb(related.image, "s")} 240w, ${thumb(related.image, "m")} 640w" sizes="(max-width: 560px) calc(100vw - 64px), 116px"` : ""} alt="" loading="lazy" decoding="async">
+        <img src="${escapeHtml(thumb(related.image, "s"))}"${thumb(related.image, "s") !== related.image ? ` srcset="${thumb(related.image, "s")} 240w, ${thumb(related.image, "m")} 640w" sizes="(max-width: 560px) calc(100vw - 64px), 116px"` : ""} alt=""${imageSize(thumb(related.image, "s"))} loading="lazy" decoding="async">
         <span>${escapeHtml(related.title)}</span>
         <strong>Read next</strong>
       </a>`).join("\n")}
@@ -2340,6 +2340,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
+      <p class="ing-crumb post-crumb"><a href="/blog/">Blog</a> <span aria-hidden="true">/</span> ${escapeHtml(post.title)}</p>
       <p class="post-date">${date} · ${byline()}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
       <h1>${escapeHtml(post.title)}</h1>
     </div>
@@ -2456,7 +2457,7 @@ async function build() {
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { authorRef, byline, thumb, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
+  const boardHelpers = { authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -2501,13 +2502,39 @@ async function build() {
 
   // oldest post first, so the spread of board links doesn't depend on write order
   const plates = new Map([...posts].sort((a, b) => String(a.date).localeCompare(String(b.date)) || a.slug.localeCompare(b.slug)).map((p) => [p.slug, pairPlateFor(p)]));
+  // Related Reading for every post. A post that few others list would have
+  // almost no links in (grazing-vs-charcuterie had 1 with 830 impressions), so
+  // each post is added as an extra card (up to 5 per list) to its closest
+  // matches until 3 posts point at it.
+  const relatedFor = new Map(posts.map((p) => [p.slug, selectRelatedPosts(p, posts)]));
+  const listedBy = new Map(posts.map((p) => [p.slug, 0]));
+  for (const list of relatedFor.values()) for (const r of list) listedBy.set(r.slug, (listedBy.get(r.slug) || 0) + 1);
+  for (const post of [...posts].sort((a, b) => listedBy.get(a.slug) - listedBy.get(b.slug) || a.slug.localeCompare(b.slug))) {
+    if (listedBy.get(post.slug) >= 3) continue;
+    const terms = topicTerms(post);
+    const hosts = posts
+      .filter((h) => h.slug !== post.slug && !relatedFor.get(h.slug).some((r) => r.slug === post.slug) && relatedFor.get(h.slug).length < 5)
+      .map((h) => {
+        const ht = topicTerms(h);
+        let score = 0;
+        for (const t of terms) if (ht.has(t)) score += 1;
+        score += post.tags.filter((t) => h.tags.includes(t)).length * 5;
+        return { h, score };
+      })
+      .sort((a, b) => b.score - a.score || a.h.slug.localeCompare(b.h.slug));
+    for (const { h } of hosts) {
+      if (listedBy.get(post.slug) >= 3) break;
+      relatedFor.get(h.slug).push(post);
+      listedBy.set(post.slug, listedBy.get(post.slug) + 1);
+    }
+  }
   await Promise.all(
     posts.map(async (post) => {
       const dir = join(dist, "blog", post.slug);
       await mkdir(dir, { recursive: true });
       await writeFile(
         join(dir, "index.html"),
-        postPage(post, selectRelatedPosts(post, posts), autolinkIndex, boardForPost.get(post.slug) || null, holidayForPost.get(post.slug) || null, plates.get(post.slug))
+        postPage(post, relatedFor.get(post.slug), autolinkIndex, boardForPost.get(post.slug) || null, holidayForPost.get(post.slug) || null, plates.get(post.slug))
       );
     })
   );

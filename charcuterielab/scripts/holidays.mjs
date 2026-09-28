@@ -115,7 +115,12 @@ function bookBox(h, hol) {
     </section>`;
 }
 
+// Dates for the byline and schema; a holiday file can override with "date" / "updated".
+const HOL_PUBLISHED = "2026-09-23";
+const HOL_UPDATED = "2026-09-26";
+
 export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays }) {
+  const updated = hol.updated || HOL_UPDATED;
   const boards = hol.boards.map((s) => boardsBySlug.get(s)).filter(Boolean);
   const blogs = (hol.blog || []).filter((s) => blogTitles.has(s));
   const next = nextDate(hol.dates);
@@ -123,7 +128,7 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
   const others = holidays.filter((x) => x.slug !== hol.slug);
   const schema = [
     {
-      "@context": "https://schema.org", "@type": "CollectionPage", name: hol.h1, url: h.absoluteUrl(`/holidays/${hol.slug}/`), description: hol.description,
+      "@context": "https://schema.org", "@type": "CollectionPage", name: hol.h1, url: h.absoluteUrl(`/holidays/${hol.slug}/`), description: hol.description, ...(h.authorRef ? { author: h.authorRef } : {}), datePublished: hol.date || HOL_PUBLISHED, dateModified: updated,
       mainEntity: { "@type": "ItemList", itemListElement: [...hol.ideas.map((i) => i.title), ...boards.map((b) => b.h1)].map((name, i) => ({ "@type": "ListItem", position: i + 1, name })) }
     },
     { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: hol.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
@@ -144,6 +149,7 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
         <h1>${h.escapeHtml(hol.h1)}</h1>
         <p class="hol-count" data-countdown='${JSON.stringify(hol.dates)}' data-plan="hol-plan"></p>
         <p class="hol-answer">${h.escapeHtml(hol.answer)}</p>
+        ${h.byline ? `<p class="bl-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(updated)}` : "")}</p>` : ""}
         <p class="bl-cta-row"><a class="button primary" href="${builderPreset(hol.builder.items, hol.builder.guests, `holiday_${hol.slug}`)}">Plan a ${h.escapeHtml(hol.name)} board for your guest count</a></p>
       </div>
       <img class="hol-photo" src="${h.escapeHtml(hol.image)}" alt="${h.escapeHtml(hol.name)} charcuterie board" width="1200" height="800" fetchpriority="high">
@@ -246,7 +252,7 @@ export function holidaysHub(h, holidays) {
       <p class="bl-intro">Board ideas, shapes, a countdown plan and exact amounts for every holiday of the year.</p>
       <div class="hol-next">
         ${upcoming.map((c) => `<a class="hol-next-card" href="/holidays/${c.slug}/">
-          <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt="" loading="lazy" decoding="async">
+          <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt=""${h.imageSize ? h.imageSize((h.thumb || ((x) => x))(c.page.image)) : ""} loading="lazy" decoding="async">
           <span class="hol-next-body"><span class="hol-next-date">${h.escapeHtml(pretty(c.next))}</span><strong>${h.escapeHtml(c.name)}</strong><span class="hol-count" data-countdown='${JSON.stringify(c.dates)}'></span></span>
         </a>`).join("\n        ")}
       </div>

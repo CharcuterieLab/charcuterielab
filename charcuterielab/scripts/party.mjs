@@ -6,6 +6,11 @@
 // plus 10% from 20 guests up. Every number on every page comes from plan()
 // below, so changing the standard is a one-line change.
 
+// Dates for the byline and schema. Bump UPDATED when the amounts or plans change.
+export const PUBLISHED = "2026-09-25";
+export const UPDATED = "2026-09-26";
+const dated = (h) => (h.authorRef ? { author: h.authorRef, datePublished: PUBLISHED, dateModified: UPDATED } : {});
+const bylineHtml = (h) => (h.byline ? `<p class="pp-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(UPDATED)}` : "")}</p>` : "");
 export const COUNTS = [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 100];
 
 export const MODES = {
@@ -161,13 +166,14 @@ export function partyPage(h, n, { bookBoards, libraryByNumber, known, builderLin
     description: `For ${n} people: about ${d.meat} of meat, ${d.cheese} of cheese, ${d.crackers[0]}–${d.crackers[1]} crackers and ${d.spreads} spreads. Full shopping list, cost, board size and timeline.`.slice(0, 158),
     head: `${faqSchema(h, Q)}
 ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}
-  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "HowTo", name: `How to plan a charcuterie board for ${n} people`, step: T.map(([when, what], k) => ({ "@type": "HowToStep", position: k + 1, name: when, text: what })) })}</script>`,
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "HowTo", name: `How to plan a charcuterie board for ${n} people`, ...dated(h), step: T.map(([when, what], k) => ({ "@type": "HowToStep", position: k + 1, name: when, text: what })) })}</script>`,
     body: `<main class="pp-main">
   <nav class="fx-crumbs" aria-label="Breadcrumb"><a href="/party-planner/">Party Planner</a> / ${n} people</nav>
   <header class="pp-hero">
     <p class="section-kicker">Party Planner</p>
     <h1>Charcuterie board for ${n} people</h1>
     <p class="pp-answer">${h.escapeHtml(answer)}</p>
+    ${bylineHtml(h)}
   </header>
 
   <section class="pp-section" aria-labelledby="pp-list">
@@ -246,12 +252,13 @@ export function partyHub(h, { bookBoards }) {
     image: "/images/how-much-charcuterie-per-person.webp",
     description: `How much charcuterie you need: ${MODES.app.meat} oz each of meat and cheese per guest before a meal, ${MODES.main.meat} oz as the party food. Plans for 4 to 100 guests.`,
     head: `${faqSchema(h, hubFaq)}
-  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie board plans by guest count", itemListElement: COUNTS.map((n, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(urlFor(n)), name: `Charcuterie board for ${n} people` })) })}</script>`,
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie board plans by guest count", ...dated(h), itemListElement: COUNTS.map((n, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(urlFor(n)), name: `Charcuterie board for ${n} people` })) })}</script>`,
     body: `<main class="pp-main">
   <header class="pp-hero">
     <p class="section-kicker">Party Planner</p>
     <h1>How much charcuterie do I need?</h1>
     <p class="pp-answer">Plan about ${MODES.app.meat} oz of cured meat and ${MODES.app.cheese} oz of cheese per guest when a meal follows, ${MODES.main.meat} oz of each when the board is the party food, and ${MODES.meal.meat} oz of each when it's dinner. Add 10% from 20 guests up.</p>
+    ${bylineHtml(h)}
   </header>
 
   <section class="pp-section pp-picker" aria-labelledby="pp-pick">

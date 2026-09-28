@@ -200,7 +200,7 @@ function thumb(h, item, art, size = "") {
   if (!item) return "";
   const a = art(item.category);
   return item.image
-    ? `<span class="pr-thumb${size}" style="--t:${a.tint}"><img src="${h.escapeHtml(item.image)}" alt="${h.escapeHtml(item.title)}" loading="lazy" decoding="async"></span>`
+    ? `<span class="pr-thumb${size}" style="--t:${a.tint}"><img src="${h.escapeHtml(h.thumb ? h.thumb(item.image, "s") : item.image)}" alt="${h.escapeHtml(item.title)}"${h.imageSize ? h.imageSize(h.thumb ? h.thumb(item.image, "s") : item.image) : ""} loading="lazy" decoding="async"></span>`
     : `<span class="pr-thumb${size} pr-thumb-art" style="--t:${a.tint}" role="img" aria-label="${h.escapeHtml(item.title)}">${a.glyph}</span>`;
 }
 
