@@ -116,10 +116,12 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
     return { slug: i.slug, re: new RegExp(`\\b(${[...forms].filter((f) => f.length > 2).map((f) => f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`, "i") };
   });
   const reasons = new Map();
+  const explainedBy = new Set(); // "a>b": a's own page explains why b goes with it
   for (const i of ingredients) {
     for (const row of pairsTable(i.body)) {
       for (const mt of matchers) {
         if (mt.slug === i.slug || !graph.get(i.slug).has(mt.slug)) continue;
+        if (mt.re.test(row.label)) explainedBy.add(`${i.slug}>${mt.slug}`);
         if (mt.re.test(row.label) && !reasons.has(key(i.slug, mt.slug))) reasons.set(key(i.slug, mt.slug), row.why);
       }
       for (const [re, ds] of DRINK_WORDS) {
@@ -140,7 +142,7 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   const rules = data.rules.map((r) => ({ ...r, post: r.posts.find((p) => blogSlugs.has(p)) || "" }));
   const ruleById = new Map(rules.map((r) => [r.id, r]));
 
-  const idx = { data, bySlug, graph, drinks, extras, drinkBySlug, drinksFor, reasons, foods, foodPage, combos, rules, ruleById, blogSlugs };
+  const idx = { data, bySlug, graph, drinks, extras, drinkBySlug, drinksFor, reasons, explainedBy, foods, foodPage, combos, rules, ruleById, blogSlugs };
   validate(idx);
   return idx;
 }
@@ -627,16 +629,61 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
   }));
 
   // -------------------------------------------------------- food pages ---
+  // Pairings are ranked (how strong the evidence is) and grouped by the job
+  // they do on the plate, so a visitor sees "the best sweet thing, the best
+  // crunchy thing..." instead of one long alphabetical wall of 50+ items.
   const foodCats = categories.filter((c) => [...idx.bySlug.values()].some((i) => i.category === c));
+  const ROLE_GROUPS = [
+    { id: "sweet", label: "Something sweet", hint: "Fruit, jam and honey balance salt and richness.", cats: ["Fruit", "Spreads, Jams & Honey"] },
+    { id: "crunch", label: "Something crunchy", hint: "Crackers, bread and nuts carry it and add texture.", cats: ["Crackers & Breads", "Nuts & Seeds"] },
+    { id: "salty", label: "Something salty or briny", hint: "Cured meat, olives and pickles bring salt and acid.", cats: ["Cured Meat & Seafood", "Pickles, Olives & Briny"] },
+    { id: "cheese", label: "Another cheese", hint: "Cheeses that sit well next to it on the same board.", cats: ["Cheese"] },
+    { id: "finish", label: "Finishing touches", hint: "Small extras that lift the bite.", cats: ["Finishing Touches"] }
+  ];
+  const TIERS = [
+    { min: 100, stars: 3, label: "Top pick" },
+    { min: 40, stars: 3, label: "Excellent" },
+    { min: 22, stars: 2, label: "Great" },
+    { min: 0, stars: 1, label: "Good" }
+  ];
+  const pairScore = (f, p) => {
+    const it = f.item;
+    let s = 0;
+    const top = f.top.indexOf(p.slug);
+    if (top >= 0) s += 100 - top;
+    if (idx.explainedBy.has(`${f.slug}>${p.slug}`)) s += 30; // this food's own page explains it
+    if (idx.explainedBy.has(`${p.slug}>${f.slug}`)) s += 15; // the partner's page explains it
+    if (it.pairsWith.includes(p.slug) && p.pairsWith.includes(f.slug)) s += 20; // both pages list each other
+    if (idx.combos.some((c) => c.foods.includes(f.slug) && c.foods.includes(p.slug))) s += 15; // a named combo
+    if (idx.reasons.has(key(f.slug, p.slug))) s += 8;
+    if (idx.foodPage.has(p.slug)) s += 4; // a staple with its own guide
+    return s;
+  };
+  const tierOf = (s) => TIERS.find((t) => s >= t.min);
+  const stars = (n) => `<span class="pr-stars" aria-label="${n} out of 3">${[1, 2, 3].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`;
+  const whyOf = (f, p) => idx.reasons.get(key(f.slug, p.slug)) || "";
+
   const foodPageHtml = (f) => {
     const it = f.item;
     const all = [...idx.graph.get(f.slug)].map((s) => idx.bySlug.get(s)).filter(Boolean);
-    const withWhy = all.filter((p) => idx.reasons.has(key(f.slug, p.slug)) && !f.top.includes(p.slug));
-    const tableRows = [...f.top.map((s) => idx.bySlug.get(s)), ...withWhy].slice(0, 12);
+    const ranked = all
+      .map((p) => ({ p, score: pairScore(f, p) }))
+      .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
+      .map((r) => ({ ...r, tier: tierOf(r.score), why: whyOf(f, r.p) }));
+    const topPicks = f.top.map((s) => ranked.find((r) => r.p.slug === s)).filter(Boolean);
+    const groups = ROLE_GROUPS.map((g) => ({ ...g, items: ranked.filter((r) => g.cats.includes(r.p.category)) })).filter((g) => g.items.length);
+    const other = ranked.filter((r) => !ROLE_GROUPS.some((g) => g.cats.includes(r.p.category)));
+    if (other.length) groups.push({ id: "other", label: "More ideas", hint: "", items: other });
     const drinks = (idx.drinksFor.get(f.slug) || []);
+    // one best pick per job: the "perfect bite"
+    const pick = (id) => groups.find((g) => g.id === id)?.items[0]?.p;
+    const plate = ["sweet", "crunch", "salty"].map((id) => ({ id, p: pick(id), g: ROLE_GROUPS.find((g) => g.id === id) })).filter((x) => x.p);
     const combos = idx.combos.filter((c) => c.foods.includes(f.slug));
     const boards = (boardsUsing.get(f.slug) || []).slice(0, 3);
     const title = `What Goes With ${it.title}? ${all.length} Pairings & Drinks`;
+    const SHOW = 4;
+    const row = (r, n) => `<li class="pr-rank-row"><span class="pr-rank-n">${n}</span>${thumb(h, r.p, art, " pr-thumb-sm")}<div class="pr-rank-body"><p class="pr-rank-name">${pairLink(h, idx, r.p.slug)} ${stars(r.tier.stars)}<span class="pr-tier">${r.tier.label}</span></p>${r.why ? `<p class="pr-rank-why">${B(r.why)}</p>` : ""}</div></li>`;
+    const chip = (r) => `<li><a href="${idx.foodPage.has(r.p.slug) ? `/pairings/food/${r.p.slug}/` : `/ingredients/${r.p.slug}/`}">${thumb(h, r.p, art, " pr-thumb-xs")}<span>${B(r.p.title)}</span>${stars(r.tier.stars)}</a></li>`;
     return page(h, {
       url: f.url,
       title: title.length > 60 ? `What Goes With ${it.title}? Best Pairings` : title,
@@ -644,7 +691,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       description: f.answer,
       crumbs: [["Pairings", "/pairings/"], ["Food", "/pairings/food/"], [it.title, f.url]],
       faq: f.faq,
-      list: tableRows.map((p) => [p.title, `/ingredients/${p.slug}/`]),
+      list: ranked.slice(0, 12).map((r) => [r.p.title, `/ingredients/${r.p.slug}/`]),
       script,
       body: `
     <header class="pr-food-hero">
@@ -652,34 +699,43 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="section-kicker">${B(it.category)} pairing guide</p>
       <h1>What goes with ${B(it.title)}?</h1>
       <p class="pr-answer">${B(f.answer)}</p>
-      <p class="bl-cta-row"><a class="button primary" href="${builderPreset([f.slug, ...f.top, ...withWhy.slice(0, 3).map((p) => p.slug)], 6, `pairings_food_${f.slug}`)}">Build a board around ${B(it.title)}</a> <a class="button" href="/ingredients/${f.slug}/">Everything about ${B(it.title)}</a></p>
+      <p class="bl-cta-row"><a class="button primary" href="${builderPreset([f.slug, ...f.top, ...plate.map((x) => x.p.slug)], 6, `pairings_food_${f.slug}`)}">Build a board around ${B(it.title)}</a> <a class="button" href="/ingredients/${f.slug}/">Everything about ${B(it.title)}</a></p>
+      <nav class="pr-jump" aria-label="On this page"><a href="#top-h">Top 3</a><a href="#bite-h">The perfect bite</a><a href="#all-h">All ${all.length}, ranked</a>${drinks.length ? `<a href="#drinks-h">Drinks</a>` : ""}${it.avoidWith.length ? `<a href="#skip-h">Skip these</a>` : ""}</nav>
     </header>
 
-    <section class="bl-section" aria-labelledby="best-h">
-      <h2 id="best-h">The best pairings for ${B(it.title)}, and why</h2>
-      <table class="pr-table">
-        <thead><tr><th>Pair it with</th><th>Why it works</th></tr></thead>
-        <tbody>
-        ${tableRows.map((p) => `<tr><td>${thumb(h, p, art, " pr-thumb-sm")}${pairLink(h, idx, p.slug)}<span class="pr-cat">${B(p.category)}</span></td><td>${B(idx.reasons.get(key(f.slug, p.slug)) || `${p.boardRole ? `${p.boardRole}. ` : ""}A proven match on our ${it.title} page.`)}</td></tr>`).join("\n        ")}
-        </tbody>
-      </table>
+    <section class="bl-section" aria-labelledby="top-h">
+      <h2 id="top-h">The 3 best pairings for ${B(it.title)}</h2>
+      <ol class="pr-podium">
+        ${topPicks.map((r, i) => `<li class="pr-podium-card"><span class="pr-podium-n">#${i + 1}</span>${thumb(h, r.p, art, " pr-thumb-big")}<h3>${pairLink(h, idx, r.p.slug)}</h3><p class="pr-cat">${B(r.p.category)}</p>${r.why ? `<p>${B(r.why)}</p>` : ""}</li>`).join("\n        ")}
+      </ol>
+    </section>
+
+    ${plate.length >= 2 ? `<section class="bl-section" aria-labelledby="bite-h">
+      <h2 id="bite-h">The perfect ${B(it.title)} bite</h2>
+      <p class="pr-sub">One from each job on the board: ${plate.map((x) => B(x.g.label.toLowerCase())).join(", ")}${drinks[0] ? ", and a drink" : ""}.</p>
+      <div class="pr-bite">
+        <span class="pr-bite-item">${thumb(h, it, art, " pr-thumb-big")}<strong>${B(it.title)}</strong></span>
+        ${plate.map((x) => `<span class="pr-plus" aria-hidden="true">+</span><span class="pr-bite-item">${thumb(h, x.p, art, " pr-thumb-big")}<strong>${pairLink(h, idx, x.p.slug)}</strong><em>${B(x.g.label.replace("Something ", ""))}</em></span>`).join("")}
+        ${drinks[0] ? `<span class="pr-plus" aria-hidden="true">+</span><span class="pr-bite-item pr-bite-drink" style="--d:${drinks[0].d.color}"><span class="pr-drink-swatch pr-bite-swatch" aria-hidden="true"></span><strong><a href="${drinks[0].d.url}">${B(drinks[0].d.name)}</a></strong><em>To drink</em></span>` : ""}
+      </div>
+    </section>` : ""}
+
+    <section class="bl-section" aria-labelledby="all-h">
+      <h2 id="all-h">All ${all.length} pairings, ranked by type</h2>
+      <p class="pr-sub">${stars(3)} excellent &nbsp; ${stars(2)} great &nbsp; ${stars(1)} good. Each list starts with the strongest matches. Stars show how well backed a pairing is: a named top pick, explained on both ingredient pages, or part of a proven combination.</p>
+      <p class="pr-jump pr-jump-groups">${groups.map((g) => `<a href="#g-${g.id}">${B(g.label)} (${g.items.length})</a>`).join("")}</p>
+      ${groups.map((g) => `<div class="pr-group" id="g-${g.id}">
+        <h3>${B(g.label)} <span class="pr-count">${g.items.length}</span></h3>
+        ${g.hint ? `<p class="pr-group-hint">${B(g.hint)}</p>` : ""}
+        <ol class="pr-rank">${g.items.slice(0, SHOW).map((r, i) => row(r, i + 1)).join("")}</ol>
+        ${g.items.length > SHOW ? `<details class="pr-more-box"><summary>${g.items.length - SHOW} more ${B(g.label.replace("Something ", "").replace("Another ", "").toLowerCase())} ${g.items.length - SHOW === 1 ? "option" : "options"}</summary><ul class="pr-chipgrid">${g.items.slice(SHOW).map(chip).join("")}</ul></details>` : ""}
+      </div>`).join("\n      ")}
     </section>
 
     ${drinks.length ? `<section class="bl-section" aria-labelledby="drinks-h">
       <h2 id="drinks-h">Drinks that go with ${B(it.title)}</h2>
       <ul class="pr-drinklist">${drinks.map((x) => `<li style="--d:${x.d.color}"><a href="${x.d.url}"><span class="pr-drink-swatch" aria-hidden="true"></span><strong>${B(x.d.name)}</strong><span>${B(x.why)}</span></a></li>`).join("")}</ul>
     </section>` : ""}
-
-    <section class="bl-section" aria-labelledby="all-h">
-      <h2 id="all-h">Everything that goes with ${B(it.title)} (${all.length})</h2>
-      <div class="pr-filter" role="group" aria-label="Filter by category">
-        <button type="button" class="pr-chip" aria-pressed="true" data-cfilter="all">All</button>
-        ${foodCats.filter((c) => all.some((p) => p.category === c)).map((c) => `<button type="button" class="pr-chip" aria-pressed="false" data-cfilter="${slugify(c)}">${B(c)} (${all.filter((p) => p.category === c).length})</button>`).join("")}
-      </div>
-      <ul class="pr-grid">
-        ${all.sort((a, b) => foodCats.indexOf(a.category) - foodCats.indexOf(b.category) || a.title.localeCompare(b.title)).map((p) => `<li data-cat="${slugify(p.category)}"><a href="${idx.foodPage.has(p.slug) ? `/pairings/food/${p.slug}/` : `/ingredients/${p.slug}/`}">${thumb(h, p, art)}<span>${B(p.title)}</span></a></li>`).join("\n        ")}
-      </ul>
-    </section>
 
     ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2><p>${it.avoidWith.map((s) => ingLink(h, idx, s)).join(" · ")}</p></section>` : ""}
 
