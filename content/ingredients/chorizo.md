@@ -88,6 +88,8 @@ the ingredients and a firm, dry sausage — not a soft refrigerated tube.
 **Skip:** Mexican chorizo for a board, and any "chorizo-style" sausage that
 lists paprika rather than pimentón. The smoke is the point.
 
+**Ranked picks:** our top-rated Spanish chorizo is **Palacios Chorizo (mild or hot)** (4.3 out of 5), and the best value is **Columbus Spanish Style Chorizo Salame**. See [the full ranking of the best Spanish chorizo](/blog/best-spanish-chorizo/).
+
 ## Quick FAQ
 
 **What's the difference between Spanish and Mexican chorizo?**

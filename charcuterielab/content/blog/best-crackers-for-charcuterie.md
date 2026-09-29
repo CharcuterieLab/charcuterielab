@@ -43,7 +43,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 
 **★★★★½ 4.5 out of 5** · Best overall · Best for: The neutral base · $$ mid-range
 
-The benchmark plain cracker. It lets a delicate cheese taste like itself and appears on nearly every expert list of crackers for cheese.
+The benchmark plain cracker. It lets a delicate cheese taste like itself and appears on nearly every expert list of crackers for cheese. (Source: [Carr's Table Water Crackers ingredient label (Kellogg SmartLabel)](https://smartlabel.kelloggs.com/Product/Index/10059290573302), [Cheapism](https://www.aol.com/board-basics-15-best-crackers-203000992.html), [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Neutral. Everywhere.
 - **Keep in mind:** Thin, so not for thick dips.
@@ -53,7 +53,7 @@ The benchmark plain cracker. It lets a delicate cheese taste like itself and app
 
 **★★★★☆ 4.2 out of 5** · Best value · Best for: Hearty cheeses on a budget · $ budget
 
-A sturdy multigrain cracker with a toasty, seedy flavor. Cheapism picked it to stand up to cheddar and smoked gouda.
+A sturdy multigrain cracker with a toasty, seedy flavor. [Cheapism](https://www.aol.com/board-basics-15-best-crackers-203000992.html) picked it to stand up to cheddar and smoked gouda.
 
 - **Why we like it:** Great value. Sturdy enough for dips.
 - **Keep in mind:** Stronger flavor than a base cracker.
@@ -63,7 +63,7 @@ A sturdy multigrain cracker with a toasty, seedy flavor. Cheapism picked it to s
 
 **★★★★☆ 4.1 out of 5** · Best for: Soft cheese and cured meat · $$ mid-range
 
-Crisp, thin Italian-style flatbread crackers. Both Cheapism and Striped Spatula include them for their light crunch under soft cheese and cured meat.
+Crisp, thin Italian-style flatbread crackers. Both [Cheapism](https://www.aol.com/board-basics-15-best-crackers-203000992.html) and [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/) include them for their light crunch under soft cheese and cured meat.
 
 - **Why we like it:** Thin and crisp. Looks elegant fanned on a board.
 - **Keep in mind:** Larger pieces need breaking.
@@ -73,7 +73,7 @@ Crisp, thin Italian-style flatbread crackers. Both Cheapism and Striped Spatula 
 
 **★★★½☆ 3.7 out of 5** · Best splurge · Best for: The show-off cracker · $$$ premium
 
-Thin crisps packed with dried fruit, nuts and seeds. They turn a plain wedge of goat cheese or blue into a complete bite.
+Thin crisps packed with dried fruit, nuts and seeds. They turn a plain wedge of goat cheese or blue into a complete bite. (Source: [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Real fruit and nuts. Beautiful on a board.
 - **Keep in mind:** Expensive. Contains nuts.
@@ -83,7 +83,7 @@ Thin crisps packed with dried fruit, nuts and seeds. They turn a plain wedge of 
 
 **★★★½☆ 3.5 out of 5** · Best for: Dips and spreads · $$ mid-range
 
-Sturdy flatbread-style strips topped with flaky sea salt. They hold up to whipped feta and thick spreads without snapping.
+Sturdy flatbread-style strips topped with flaky sea salt. They hold up to whipped feta and thick spreads without snapping. (Source: [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Very sturdy. Flaky salt top.
 - **Keep in mind:** Harder to find.
@@ -93,7 +93,7 @@ Sturdy flatbread-style strips topped with flaky sea salt. They hold up to whippe
 
 **★★★½☆ 3.4 out of 5** · Best for: Budget all-rounder · $ budget
 
-Thin, flaky whole-wheat rounds with a mild, nutty flavor. A dependable everyday cracker.
+Thin, flaky whole-wheat rounds with a mild, nutty flavor. A dependable everyday cracker. (Source: [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Cheap and everywhere.
 - **Keep in mind:** Not as neutral as a water cracker.
@@ -103,7 +103,7 @@ Thin, flaky whole-wheat rounds with a mild, nutty flavor. A dependable everyday 
 
 **★★★☆☆ 3.1 out of 5** · Best for: A special occasion · $$$ premium
 
-Handmade sourdough flatbreads in flavors like sweet onion with crème fraîche. Excellent, but priced and stocked like a treat.
+Handmade sourdough flatbreads in flavors like sweet onion with crème fraîche. Excellent, but priced and stocked like a treat. (Source: [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Handmade. Interesting flavors.
 - **Keep in mind:** Expensive. Hard to find.

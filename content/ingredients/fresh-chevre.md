@@ -90,6 +90,8 @@ cracked log has been sitting.
 — on a savory board. There's a page for cranberry goat cheese; it's a different
 job.
 
+**Ranked picks:** our top-rated goat cheese is **Laura Chenel Original Fresh Goat Cheese** (4.7 out of 5), and the best value is **Trader Joe's Chèvre**. See [the full ranking of the best goat cheese](/blog/best-goat-cheese-brands/).
+
 ## Quick FAQ
 
 **What's the difference between chèvre and goat cheese?**

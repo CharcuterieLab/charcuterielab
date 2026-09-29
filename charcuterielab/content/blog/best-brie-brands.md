@@ -42,7 +42,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 
 **★★★★½ 4.4 out of 5** · Best overall · Best for: The crowd-pleaser · $$ mid-range
 
-Tasting Table's top grocery brie, with the most complex flavor and exceptional creaminess. Technically it is not brie: the milk is ultrafiltered, which makes it richer and faster to make.
+[Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/)'s top grocery brie, with the most complex flavor and exceptional creaminess. Technically it is not brie: the milk is ultrafiltered, which makes it richer and faster to make. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Fromager_d'Affinois).)
 
 - **Why we like it:** Extremely creamy. Top-ranked.
 - **Keep in mind:** Very soft, so it spreads when warm.
@@ -52,7 +52,7 @@ Tasting Table's top grocery brie, with the most complex flavor and exceptional c
 
 **★★★★☆ 4.2 out of 5** · Best for: Reliable everyday brie · $ budget
 
-Slightly more mushroomy than most grocery brie, and Sporked's pick for baked brie because it melts beautifully.
+Slightly more mushroomy than most grocery brie, and [Sporked](https://sporked.com/article/best-brie/)'s pick for baked brie because it melts beautifully. (Source: [Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/).)
 
 - **Why we like it:** Everywhere. Consistent.
 - **Keep in mind:** Texture not the creamiest.
@@ -62,7 +62,7 @@ Slightly more mushroomy than most grocery brie, and Sporked's pick for baked bri
 
 **★★★★☆ 4.0 out of 5** · Best for: Small-wheel boards · $$ mid-range
 
-A small triple-crème brie from the country's oldest cheese company, founded in 1865. It won a bronze medal at the 2025 World Cheese Awards.
+A small triple-crème brie from the country's oldest cheese company, founded in 1865. It won a bronze medal at the 2025 World Cheese Awards. (Source: [California Dairy Magazine](https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/).)
 
 - **Why we like it:** American, award-winning. Board-sized wheels.
 - **Keep in mind:** Less common in the East.
@@ -72,7 +72,7 @@ A small triple-crème brie from the country's oldest cheese company, founded in 
 
 **★★★★☆ 4.0 out of 5** · Best for: Rich and mild · $$ mid-range
 
-An American-made brie from Savencia that Tasting Table ranked fourth for its ultra-fresh, mild flavor and ultra-rich texture.
+An American-made brie from Savencia that [Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/) ranked fourth for its ultra-fresh, mild flavor and ultra-rich texture. (Source: [Savencia Cheese USA](https://www.savenciacheeseusa.com/2019/05/23/savencia-cheese-usa-launches-supreme-brie/).)
 
 - **Why we like it:** Very creamy. Mild.
 - **Keep in mind:** Less complex than French options.
@@ -82,7 +82,7 @@ An American-made brie from Savencia that Tasting Table ranked fourth for its ult
 
 **★★★★☆ 3.8 out of 5** · Best value · Best for: Budget brie · $ budget
 
-Reviews split by product: Sporked scored the Brie Log 10 out of 10, while Tasting Table ranked the Double Cream Brie last as mild and less creamy. The price is hard to beat.
+Reviews split by product: [Sporked](https://sporked.com/article/best-brie/) scored the Brie Log 10 out of 10, while [Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/) ranked the Double Cream Brie last as mild and less creamy. The price is hard to beat.
 
 - **Why we like it:** Very cheap.
 - **Keep in mind:** Mixed reviews.
@@ -92,7 +92,7 @@ Reviews split by product: Sporked scored the Brie Log 10 out of 10, while Tastin
 
 **★★★★☆ 3.8 out of 5** · Best for: Mini wheels · $ budget
 
-A dependable French brie; Sporked praised its minis as gooey and funky.
+A dependable French brie; [Sporked](https://sporked.com/article/best-brie/) praised its minis as gooey and funky.
 
 - **Why we like it:** Good value.
 - **Keep in mind:** Fewer standout reviews.
@@ -102,7 +102,7 @@ A dependable French brie; Sporked praised its minis as gooey and funky.
 
 **★★★½☆ 3.7 out of 5** · Best for: Triple-crème lovers · $$ mid-range
 
-Tasting Table's runner-up, described as ridiculously creamy with a tangy complexity near the rind.
+[Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/)'s runner-up, described as ridiculously creamy with a tangy complexity near the rind.
 
 - **Why we like it:** Very rich.
 - **Keep in mind:** Triple crème, so richer than classic brie.

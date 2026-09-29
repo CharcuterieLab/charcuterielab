@@ -42,7 +42,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 
 **★★★★½ 4.6 out of 5** · Best overall · Best for: Everyday honey · $ budget
 
-The Kitchn's top pick in its 2026 honey test, praised as silky smooth with subtle vanilla and cinnamon notes.
+[The Kitchn](https://www.thekitchn.com/best-honey-23738242)'s top pick in its 2026 honey test, praised as silky smooth with subtle vanilla and cinnamon notes.
 
 - **Why we like it:** Top-ranked. Easy to find.
 - **Keep in mind:** A blend, not a single flower.
@@ -52,7 +52,7 @@ The Kitchn's top pick in its 2026 honey test, praised as silky smooth with subtl
 
 **★★★★☆ 4.2 out of 5** · Best value · Best for: Thick and spoonable · $ budget
 
-The Kitchn's runner-up, described as incredibly thick and luscious, which makes it easy to spoon over cheese.
+[The Kitchn](https://www.thekitchn.com/best-honey-23738242)'s runner-up, described as incredibly thick and luscious, which makes it easy to spoon over cheese.
 
 - **Why we like it:** Organic, raw. Cheap.
 - **Keep in mind:** Only at Whole Foods.
@@ -62,7 +62,7 @@ The Kitchn's runner-up, described as incredibly thick and luscious, which makes 
 
 **★★★½☆ 3.7 out of 5** · Best for: Budget honey · $ budget
 
-The Kitchn's budget pick, with a delicate citrusy flavor at the lowest price in its test.
+[The Kitchn](https://www.thekitchn.com/best-honey-23738242)'s budget pick, with a delicate citrusy flavor at the lowest price in its test.
 
 - **Why we like it:** Cheap. Pleasant flavor.
 - **Keep in mind:** Bear bottle belongs in a bowl.
@@ -72,7 +72,7 @@ The Kitchn's budget pick, with a delicate citrusy flavor at the lowest price in 
 
 **★★★½☆ 3.5 out of 5** · Best splurge · Best for: Blue cheese · $$$ premium
 
-Dark, bitter and almost savory, chestnut honey is the classic partner for blue cheese. This organic Italian version is one of the easiest to buy.
+Dark, bitter and almost savory, chestnut honey is the classic partner for blue cheese. This organic Italian version is one of the easiest to buy. (Source: [Eataly](https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz).)
 
 - **Why we like it:** The right style for blue cheese. Organic.
 - **Keep in mind:** Strong flavor. Few published reviews.
@@ -82,7 +82,7 @@ Dark, bitter and almost savory, chestnut honey is the classic partner for blue c
 
 **★★★½☆ 3.5 out of 5** · Best for: Gift-worthy varietals · $$$ premium
 
-Single-varietal honeys and a published cheese-pairing guide. Its hot honey ranked fifth in Tasting Table's test.
+Single-varietal honeys and a published cheese-pairing guide. Its hot honey ranked fifth in [Tasting Table](https://www.tastingtable.com/1868923/hot-honey-brands-ranked-worst-best/)'s test. (Source: [Savannah Bee Company](https://savannahbee.com/blogs/the-latest-buzz/how-to-pair-honey-and-cheese).)
 
 - **Why we like it:** Varietal choice. Nice jars.
 - **Keep in mind:** Expensive.
@@ -92,7 +92,7 @@ Single-varietal honeys and a published cheese-pairing guide. Its hot honey ranke
 
 **★★★½☆ 3.4 out of 5** · Best for: Fresh and soft cheese · $$ mid-range
 
-Very mild and slow to crystallize, acacia is a good all-round honey for goat cheese and ricotta.
+Very mild and slow to crystallize, acacia is a good all-round honey for goat cheese and ricotta. (Source: [Eataly](https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz).)
 
 - **Why we like it:** Mild. Stays liquid.
 - **Keep in mind:** Few published reviews.

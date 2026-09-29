@@ -81,6 +81,8 @@ significant added sugar unless you want honey mustard.
 **Skip:** yellow ballpark mustard on a charcuterie board. Different product,
 different job.
 
+**Ranked picks:** our top-rated mustard is **Maille Old Style Whole Grain Mustard** (4.8 out of 5), and the best value is **Grey Poupon Harvest Coarse Ground**. See [the full ranking of the best mustard](/blog/best-mustard-for-charcuterie/).
+
 ## Quick FAQ
 
 **What mustard goes on a charcuterie board?**

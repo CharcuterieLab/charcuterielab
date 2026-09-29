@@ -40,7 +40,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 
 **★★★★½ 4.4 out of 5** · Best overall · Best for: The board standard · $$ mid-range
 
-Made in Croatia with Dalmatian figs. Sporked called it the best fig jam for charcuterie, praising the seeds for texture, and the brand won a Sofi gold in 2010.
+Made in Croatia with Dalmatian figs. [Sporked](https://sporked.com/article/best-jams-for-charcuterie-board/) called it the best fig jam for charcuterie, praising the seeds for texture, and the brand won a Sofi gold in 2010. (Source: [Dalmatia Fig Spread product page](https://figspread.com/products/fig-spread).)
 
 - **Why we like it:** Thick and seedy. Widely stocked.
 - **Keep in mind:** Sweeter than Italian fig jams.
@@ -50,7 +50,7 @@ Made in Croatia with Dalmatian figs. Sporked called it the best fig jam for char
 
 **★★★★☆ 4.0 out of 5** · Best splurge · Best for: Blue and aged cheese · $$$ premium
 
-Sporked's number one jam for charcuterie, scoring 10 out of 10 for its big chunks of fig and candied ginger. Especially good with Stilton.
+[Sporked](https://sporked.com/article/best-jams-for-charcuterie-board/)'s number one jam for charcuterie, scoring 10 out of 10 for its big chunks of fig and candied ginger. Especially good with Stilton.
 
 - **Why we like it:** Top-ranked. Bright flavor.
 - **Keep in mind:** Ginger makes it less versatile.
@@ -60,7 +60,7 @@ Sporked's number one jam for charcuterie, scoring 10 out of 10 for its big chunk
 
 **★★★★☆ 3.9 out of 5** · Best value · Best for: Easy to find · $$ mid-range
 
-White figs are the first ingredient, with no high fructose corn syrup. A reliable, widely stocked choice.
+White figs are the first ingredient, with no high fructose corn syrup. A reliable, widely stocked choice. (Source: [Bonne Maman Fig Preserves product page](https://bonnemaman.us/products/fig-preserves).)
 
 - **Why we like it:** Figs first. Everywhere.
 - **Keep in mind:** A looser preserve, not a thick spread.
@@ -70,7 +70,7 @@ White figs are the first ingredient, with no high fructose corn syrup. A reliabl
 
 **★★★½☆ 3.3 out of 5** · Best for: Budget and smooth · $ budget
 
-Smooth and spreadable, and Tasting Table compared it to a Fig Newton. Cheap and pleasant, though thinner on a board.
+Smooth and spreadable, and [Tasting Table](https://www.tastingtable.com/1622425/trader-joes-fruit-spreads-ranked/) compared it to a Fig Newton. Cheap and pleasant, though thinner on a board.
 
 - **Why we like it:** Very cheap. Spreads easily.
 - **Keep in mind:** Smooth, so less texture.

@@ -87,6 +87,8 @@ cayenne linger and flatten anything subtle after them.
 **Skip:** thin pre-sliced pizza pepperoni for a board. It's engineered to melt,
 not to eat cold.
 
+**Ranked picks:** our top-rated pepperoni is **Boar's Head Pepperoni** (4.5 out of 5), and the best value is **Trader Joe's Ciao Pizza Prima Pepperoni**. See [the full ranking of the best pepperoni](/blog/best-pepperoni-brands/).
+
 ## Quick FAQ
 
 **Is pepperoni Italian?**

@@ -84,6 +84,8 @@ the ingredients. Whole mustard seed visible in the slice is a good sign.
 **Skip:** the sweetened honey-glazed versions on a savoury board. They belong
 with cheese and crackers at a gift-basket level, not on a composed board.
 
+**Ranked picks:** our top-rated summer sausage is **Cloverdale Original Tangy Summer Sausage** (4.4 out of 5), and the best value is **Trader Joe's Natural Turkey Summer Sausage**. See [the full ranking of the best summer sausage](/blog/best-summer-sausage/).
+
 ## Quick FAQ
 
 **Why is it called summer sausage?**

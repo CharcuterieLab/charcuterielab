@@ -29,7 +29,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 
 | Product | Rating | Best for |
 |---|---|---|
-| 1. **Appleton Farms Prosciutto** ($) | ★★★★☆ 4.2 | Best value |
+| 1. **Appleton Farms Prosciutto** ($) | ★★★★☆ 4.2 | Aldi shoppers |
 | 2. **Creminelli Prosciutto** ($$$) | ★★★★☆ 4.0 | Thin, delicate slices |
 | 3. **La Quercia Prosciutto Americano** ($$$) | ★★★★☆ 4.0 | American craft prosciutto |
 | 4. **Trader Joe's Sliced Prosciutto** ($) | ★★★★☆ 3.8 | Budget boards |
@@ -41,9 +41,9 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 
 ### 1. Appleton Farms Prosciutto
 
-**★★★★☆ 4.2 out of 5** · Best overall · Best for: Best value · $ budget
+**★★★★☆ 4.2 out of 5** · Best overall · Best for: Aldi shoppers · $ budget
 
-Aldi's store brand scored a perfect 10 at Sporked, which called it practically as good as freshly sliced prosciutto that costs much more.
+Aldi's store brand scored a perfect 10 at [Sporked](https://sporked.com/article/best-prosciutto/), which called it practically as good as freshly sliced prosciutto that costs much more.
 
 - **Why we like it:** Top taste-test score. Very cheap.
 - **Keep in mind:** Only at Aldi.
@@ -53,7 +53,7 @@ Aldi's store brand scored a perfect 10 at Sporked, which called it practically a
 
 **★★★★☆ 4.0 out of 5** · Best splurge · Best for: Thin, delicate slices · $$$ premium
 
-Sporked scored it 9 out of 10 for its extremely thin cut and flavor crystals. American-made from humanely raised pork.
+[Sporked](https://sporked.com/article/best-prosciutto/) scored it 9 out of 10 for its extremely thin cut and flavor crystals. American-made from humanely raised pork.
 
 - **Why we like it:** Very thin. Excellent texture.
 - **Keep in mind:** Expensive.
@@ -63,7 +63,7 @@ Sporked scored it 9 out of 10 for its extremely thin cut and flavor crystals. Am
 
 **★★★★☆ 4.0 out of 5** · Best for: American craft prosciutto · $$$ premium
 
-Made by Herb and Kathy Eckhouse from pork raised humanely on family farms in Iowa and Missouri. La Quercia has won multiple Good Food Awards.
+Made by Herb and Kathy Eckhouse from pork raised humanely on family farms in Iowa and Missouri. La Quercia has won multiple Good Food Awards. (Source: [Deli Market News](https://www.delimarketnews.com/meat/la-quercia-wins-4th-good-food-award-speck-americano/christofer-oberst/wed-02032016-1123/2807).)
 
 - **Why we like it:** Craft-made. Humanely raised pork.
 - **Keep in mind:** Expensive. Limited stores.
@@ -73,7 +73,7 @@ Made by Herb and Kathy Eckhouse from pork raised humanely on family farms in Iow
 
 **★★★★☆ 3.8 out of 5** · Best value · Best for: Budget boards · $ budget
 
-Mild, tender and versatile, and one of the cheapest packs you can buy. Sporked scored it 8 out of 10.
+Mild, tender and versatile, and one of the cheapest packs you can buy. [Sporked](https://sporked.com/article/best-prosciutto/) scored it 8 out of 10.
 
 - **Why we like it:** Very cheap.
 - **Keep in mind:** Milder, less complex.
@@ -83,7 +83,7 @@ Mild, tender and versatile, and one of the cheapest packs you can buy. Sporked s
 
 **★★★½☆ 3.7 out of 5** · Best for: Heritage pork · $$ mid-range
 
-Made from heritage-breed pork raised crate-free on family farms. Sporked scored it 9.5 out of 10.
+Made from heritage-breed pork raised crate-free on family farms. [Sporked](https://sporked.com/article/best-prosciutto/) scored it 9.5 out of 10.
 
 - **Why we like it:** Strong sourcing. High score.
 - **Keep in mind:** Not everywhere.
@@ -93,7 +93,7 @@ Made from heritage-breed pork raised crate-free on family farms. Sporked scored 
 
 **★★★½☆ 3.7 out of 5** · Best for: Draping on a board · $$ mid-range
 
-Sporked called its stretchy, soft texture ideal for charcuterie boards with mild cheese.
+[Sporked](https://sporked.com/article/best-prosciutto/) called its stretchy, soft texture ideal for charcuterie boards with mild cheese.
 
 - **Why we like it:** Organic. Drapes well.
 - **Keep in mind:** Milder flavor.
@@ -103,7 +103,7 @@ Sporked called its stretchy, soft texture ideal for charcuterie boards with mild
 
 **★★★½☆ 3.3 out of 5** · Best for: Real Parma in bulk · $ budget
 
-Genuine DOP Prosciutto di Parma at a low price per ounce, but The Takeout rated it among the worst deli meats at Costco for chewy fat and flat flavor.
+Genuine DOP Prosciutto di Parma at a low price per ounce, but [The Takeout](https://www.thetakeout.com/2188869/best-worst-costco-deli-meat/) rated it among the worst deli meats at Costco for chewy fat and flat flavor.
 
 - **Why we like it:** Real DOP. Low price per ounce.
 - **Keep in mind:** Poor published review.

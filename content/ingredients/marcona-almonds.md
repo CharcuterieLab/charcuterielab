@@ -83,6 +83,8 @@ buy from somewhere with turnover. Rancid marconas are a real risk.
 
 **Skip:** anything labelled "marcona-style". That's a Californian almond.
 
+**Ranked picks:** our top-rated Marcona almonds is **Trader Joe's Roasted & Salted Rosemary Marcona Almonds** (4.5 out of 5), and the best value is **Kirkland Signature Marcona Almonds**. See [the full ranking of the best Marcona almonds](/blog/best-marcona-almonds/).
+
 ## Quick FAQ
 
 **What's the difference between marcona and regular almonds?**

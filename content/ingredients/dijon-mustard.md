@@ -83,6 +83,8 @@ than distilled vinegar alone. Buy the smallest jar you'll use.
 **Skip:** anything that's been open for months. Mustard doesn't spoil, but flat
 mustard is pointless.
 
+**Ranked picks:** our top-rated mustard is **Maille Old Style Whole Grain Mustard** (4.8 out of 5), and the best value is **Grey Poupon Harvest Coarse Ground**. See [the full ranking of the best mustard](/blog/best-mustard-for-charcuterie/).
+
 ## Quick FAQ
 
 **What's the difference between Dijon and whole grain mustard?**

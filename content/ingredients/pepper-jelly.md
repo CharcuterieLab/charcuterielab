@@ -80,6 +80,8 @@ cheap jars are apple jelly with pepper flavour and food colouring.
 
 **Skip:** anything with artificial colour listed.
 
+**Ranked picks:** our top-rated pepper jelly is **Braswell's Jalapeño Pepper Jelly** (4.8 out of 5), and the best value is **Tabasco Spicy Pepper Jelly**. See [the full ranking of the best pepper jelly](/blog/best-pepper-jelly/).
+
 ## Quick FAQ
 
 **What do you eat pepper jelly with?**

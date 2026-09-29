@@ -30,8 +30,8 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 | Product | Rating | Best for |
 |---|---|---|
 | 1. **Kerrygold Reserve Cheddar** ($$) | ★★★★★ 4.8 | Best all-round board cheddar |
-| 2. **Trader Joe's Unexpected Cheddar** ($) | ★★★★½ 4.7 | Best value |
-| 3. **Cabot Clothbound Cheddar** ($$$) | ★★★★☆ 4.2 | The splurge |
+| 2. **Trader Joe's Unexpected Cheddar** ($) | ★★★★½ 4.7 | Crystals on a budget |
+| 3. **Cabot Clothbound Cheddar** ($$$) | ★★★★☆ 4.2 | Special occasions |
 | 4. **Cathedral City Extra Mature** ($$) | ★★★★☆ 4.0 | English-style cheddar |
 | 5. **Old Croc Sharp Cheddar** ($$) | ★★★★☆ 4.0 | Big flavor |
 | 6. **Tillamook Extra Sharp White** ($) | ★★★★☆ 4.0 | Everyday cheddar |
@@ -43,7 +43,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 
 **★★★★★ 4.8 out of 5** · Best overall · Best for: Best all-round board cheddar · $$ mid-range
 
-Aged two years. Sporked named it the best cheddar for a cheese board, and Tasting Table ranked it third for its sharpness and creaminess.
+Aged two years. [Sporked](https://sporked.com/article/best-cheddar-cheese/) named it the best cheddar for a cheese board, and [Tasting Table](https://www.tastingtable.com/1872114/store-bought-cheddar-cheese-ranked/) ranked it third for its sharpness and creaminess.
 
 - **Why we like it:** Easy to find. Aged two years.
 - **Keep in mind:** Less crumbly than English cheddars.
@@ -51,9 +51,9 @@ Aged two years. Sporked named it the best cheddar for a cheese board, and Tastin
 
 ### 2. Trader Joe's Unexpected Cheddar
 
-**★★★★½ 4.7 out of 5** · Best value · Best for: Best value · $ budget
+**★★★★½ 4.7 out of 5** · Best value · Best for: Crystals on a budget · $ budget
 
-Tasting Table's number one cheddar, with crunchy crystals and a rich, complex flavor. Sporked scored it 9.5 out of 10.
+[Tasting Table](https://www.tastingtable.com/1872114/store-bought-cheddar-cheese-ranked/)'s number one cheddar, with crunchy crystals and a rich, complex flavor. [Sporked](https://sporked.com/article/best-cheddar-cheese/) scored it 9.5 out of 10.
 
 - **Why we like it:** Top-ranked. Cheap.
 - **Keep in mind:** Only at Trader Joe's.
@@ -61,9 +61,9 @@ Tasting Table's number one cheddar, with crunchy crystals and a rich, complex fl
 
 ### 3. Cabot Clothbound Cheddar
 
-**★★★★☆ 4.2 out of 5** · Best splurge · Best for: The splurge · $$$ premium
+**★★★★☆ 4.2 out of 5** · Best splurge · Best for: Special occasions · $$$ premium
 
-Made by Cabot and aged 9 to 14 months at Jasper Hill Farm in Vermont. It won Best in Show at the 2006 American Cheese Society awards.
+Made by Cabot and aged 9 to 14 months at [Jasper Hill Farm](https://www.jasperhillfarm.com/clothbound) in Vermont. It won Best in Show at the 2006 American Cheese Society awards.
 
 - **Why we like it:** Award-winning. Complex and crumbly.
 - **Keep in mind:** Expensive.
@@ -73,7 +73,7 @@ Made by Cabot and aged 9 to 14 months at Jasper Hill Farm in Vermont. It won Bes
 
 **★★★★☆ 4.0 out of 5** · Best for: English-style cheddar · $$ mid-range
 
-Aged two years, with nutty, earthy notes. Tasting Table ranked it second for balancing crumble with enough body for a board.
+Aged two years, with nutty, earthy notes. [Tasting Table](https://www.tastingtable.com/1872114/store-bought-cheddar-cheese-ranked/) ranked it second for balancing crumble with enough body for a board.
 
 - **Why we like it:** Classic English style.
 - **Keep in mind:** Not in every store.
@@ -83,7 +83,7 @@ Aged two years, with nutty, earthy notes. Tasting Table ranked it second for bal
 
 **★★★★☆ 4.0 out of 5** · Best for: Big flavor · $$ mid-range
 
-Sporked's best overall cheddar, scoring 10 out of 10 for its intense flavor and crystals.
+[Sporked](https://sporked.com/article/best-cheddar-cheese/)'s best overall cheddar, scoring 10 out of 10 for its intense flavor and crystals.
 
 - **Why we like it:** Intense. Crystals.
 - **Keep in mind:** Can overpower delicate pairings.
@@ -93,7 +93,7 @@ Sporked's best overall cheddar, scoring 10 out of 10 for its intense flavor and 
 
 **★★★★☆ 4.0 out of 5** · Best for: Everyday cheddar · $ budget
 
-Creamy and very flavorful; Sporked's top pick for grilled cheese. Less crumbly than the aged cheddars above, so better for cubing than crumbling.
+Creamy and very flavorful; [Sporked](https://sporked.com/article/best-cheddar-cheese/)'s top pick for grilled cheese. Less crumbly than the aged cheddars above, so better for cubing than crumbling.
 
 - **Why we like it:** Cheap and everywhere.
 - **Keep in mind:** Creamier, less complex.
@@ -103,7 +103,7 @@ Creamy and very flavorful; Sporked's top pick for grilled cheese. Less crumbly t
 
 **★★★★☆ 3.9 out of 5** · Best for: Nutty and less acidic · $$$ premium
 
-A nutty, savory American cheddar that Sporked scored 9.5 out of 10.
+A nutty, savory American cheddar that [Sporked](https://sporked.com/article/best-cheddar-cheese/) scored 9.5 out of 10.
 
 - **Why we like it:** Complex flavor.
 - **Keep in mind:** Pricier.

@@ -91,6 +91,8 @@ young rubbery kind and a completely different cheese.
 **Skip:** young gouda if you want this flavor, and the red-wax supermarket
 wheels. Those are the mild version.
 
+**Ranked picks:** our top-rated Gouda is **Trader Joe's 1000 Day Gouda** (4.7 out of 5), and the best value is **Trader Joe's Goat Milk Gouda**. See [the full ranking of the best Gouda](/blog/best-gouda-brands/).
+
 ## Quick FAQ
 
 **Why does aged gouda taste sweet?**

@@ -87,6 +87,8 @@ style" without the mark is usually a cow's-milk cheese from elsewhere.
 **Skip:** pre-sliced Manchego. The rind edge dries and the wedges lose their
 shape, which is half the visual appeal.
 
+**Ranked picks:** our top-rated Manchego is **Kirkland Signature Manchego DOP (6 months)** (4.5 out of 5), and the best value is **Trader Joe's Manchego**. See [the full ranking of the best Manchego](/blog/best-manchego-brands/).
+
 ## Quick FAQ
 
 **Is Manchego cow's milk or sheep?**

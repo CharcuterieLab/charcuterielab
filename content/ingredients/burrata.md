@@ -91,6 +91,8 @@ on its life.
 **Skip:** anything with a long shelf date. Burrata engineered to last two weeks
 has been stabilized, and it eats like firm mozzarella.
 
+**Ranked picks:** our top-rated burrata is **BelGioioso Burrata** (4.7 out of 5), and the best value is **Specially Selected Traditional Burrata (Aldi)**. See [the full ranking of the best burrata](/blog/best-burrata/).
+
 ## Quick FAQ
 
 **What's inside burrata?**

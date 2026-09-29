@@ -83,6 +83,8 @@ sickly.
 
 **Skip:** anything where sugar or corn syrup outranks honey.
 
+**Ranked picks:** our top-rated hot honey is **Mike's Hot Honey** (4.5 out of 5), and the best value is **Nature Nate's Hot Honey**. See [the full ranking of the best hot honey](/blog/best-hot-honey/).
+
 ## Quick FAQ
 
 **What is hot honey?**

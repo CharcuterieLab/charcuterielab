@@ -90,6 +90,8 @@ cheese.
 **Skip:** low-moisture mozzarella, pre-shredded mozzarella, and anything sold
 in a solid block at room temperature. Different product entirely.
 
+**Ranked picks:** our top-rated fresh mozzarella is **Primo Taglio Fresh Mozzarella** (4.5 out of 5), and the best value is **Trader Joe's Fresh Mozzarella**. See [the full ranking of the best fresh mozzarella](/blog/best-fresh-mozzarella/).
+
 ## Quick FAQ
 
 **Fresh mozzarella vs. buffalo mozzarella?**

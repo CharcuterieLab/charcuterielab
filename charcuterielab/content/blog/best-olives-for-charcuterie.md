@@ -33,7 +33,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 | 2. **Partanna Castelvetrano Olives** ($$) | ★★★★½ 4.4 | Best flavor |
 | 3. **Jeff's Garden Castelvetrano Olives** ($) | ★★★★☆ 4.2 | Budget Castelvetrano |
 | 4. **Trader Joe's Organic Conversation Olive Trio** ($) | ★★★★☆ 3.8 | A ready-made mix |
-| 5. **Kosterina Green Olives** ($$$) | ★★★½☆ 3.6 | The splurge |
+| 5. **Kosterina Green Olives** ($$$) | ★★★½☆ 3.6 | Raw, tangy olives |
 | 6. **Barbiero Bella di Cerignola** ($$$) | ★★★½☆ 3.3 | Showpiece olives |
 
 ![Ranked list of the best olives for a charcuterie board, scored out of 5](/images/best-olives-for-charcuterie-ranking.webp)
@@ -42,7 +42,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 
 **★★★★½ 4.7 out of 5** · Best overall · Best for: Everyday pick · $ budget
 
-Tasting Table ranked them third for buttery flesh and oversized olives it called perfect for charcuterie boards.
+[Tasting Table](https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/) ranked them third for buttery flesh and oversized olives it called perfect for charcuterie boards.
 
 - **Why we like it:** Easy to find. Buttery and mild.
 - **Keep in mind:** Pitted versions are softer.
@@ -52,7 +52,7 @@ Tasting Table ranked them third for buttery flesh and oversized olives it called
 
 **★★★★½ 4.4 out of 5** · Best for: Best flavor · $$ mid-range
 
-Ranked second of 22 brands at Tasting Table for bright, nutty flavor and creamy flesh in a generous jar.
+Ranked second of 22 brands at [Tasting Table](https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/) for bright, nutty flavor and creamy flesh in a generous jar.
 
 - **Why we like it:** Top-ranked. Good value jar.
 - **Keep in mind:** Not in every store.
@@ -62,7 +62,7 @@ Ranked second of 22 brands at Tasting Table for bright, nutty flavor and creamy 
 
 **★★★★☆ 4.2 out of 5** · Best for: Budget Castelvetrano · $ budget
 
-Sporked scored them 9 out of 10, calling them buttery, meaty and ideal for charcuterie boards.
+[Sporked](https://sporked.com/article/best-green-olives/) scored them 9 out of 10, calling them buttery, meaty and ideal for charcuterie boards.
 
 - **Why we like it:** Great for boards.
 - **Keep in mind:** Harder to find.
@@ -72,7 +72,7 @@ Sporked scored them 9 out of 10, calling them buttery, meaty and ideal for charc
 
 **★★★★☆ 3.8 out of 5** · Best value · Best for: A ready-made mix · $ budget
 
-Three Italian varieties in one jar, rich and chewy. An easy way to put more than one olive on the board.
+Three Italian varieties in one jar, rich and chewy. An easy way to put more than one olive on the board. (Source: [Tasting Table](https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/).)
 
 - **Why we like it:** Three olives in one jar. Cheap.
 - **Keep in mind:** Only at Trader Joe's.
@@ -80,9 +80,9 @@ Three Italian varieties in one jar, rich and chewy. An easy way to put more than
 
 ### 5. Kosterina Green Olives
 
-**★★★½☆ 3.6 out of 5** · Best splurge · Best for: The splurge · $$$ premium
+**★★★½☆ 3.6 out of 5** · Best splurge · Best for: Raw, tangy olives · $$$ premium
 
-Tasting Table's number one jarred olive: raw, unpasteurized and tangy, with a fresher flavor than the rest.
+[Tasting Table](https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/)'s number one jarred olive: raw, unpasteurized and tangy, with a fresher flavor than the rest.
 
 - **Why we like it:** Top-ranked. Fresh taste.
 - **Keep in mind:** Expensive. Hard to find.
@@ -92,7 +92,7 @@ Tasting Table's number one jarred olive: raw, unpasteurized and tangy, with a fr
 
 **★★★½☆ 3.3 out of 5** · Best for: Showpiece olives · $$$ premium
 
-Huge, bright chartreuse olives from Puglia with rich, tender flesh. They look spectacular in a bowl.
+Huge, bright chartreuse olives from Puglia with rich, tender flesh. They look spectacular in a bowl. (Source: [Tasting Table](https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/).)
 
 - **Why we like it:** Striking look.
 - **Keep in mind:** Hard to find.

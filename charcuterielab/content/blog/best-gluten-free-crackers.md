@@ -42,7 +42,7 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 
 **★★★★½ 4.7 out of 5** · Best overall · Best for: Most boards · $ budget
 
-Rice and seed crackers with a big crunch. The Roasted Garlic version scored 10 out of 10 at Sporked, and Daily Meal praised how the plain version lets toppings shine.
+Rice and seed crackers with a big crunch. The Roasted Garlic version scored 10 out of 10 at [Sporked](https://sporked.com/article/best-gluten-free-crackers/), and [Daily Meal](https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/) praised how the plain version lets toppings shine.
 
 - **Why we like it:** Very crunchy. Great value, huge Costco bags.
 - **Keep in mind:** Can shatter under very firm cheese.
@@ -52,7 +52,7 @@ Rice and seed crackers with a big crunch. The Roasted Garlic version scored 10 o
 
 **★★★★☆ 4.2 out of 5** · Best value · Best for: Crunchy and sturdy · $ budget
 
-Almond and rice crackers that are crunchy and sturdy without being hard to bite. Ranked second at Daily Meal, and the pecan version scored 9 out of 10 at Sporked.
+Almond and rice crackers that are crunchy and sturdy without being hard to bite. Ranked second at [Daily Meal](https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/), and the pecan version scored 9 out of 10 at [Sporked](https://sporked.com/article/best-gluten-free-crackers/). (Source: [Cheapism](https://www.aol.com/board-basics-15-best-crackers-203000992.html).)
 
 - **Why we like it:** Sturdy. Easy to find.
 - **Keep in mind:** Contains almonds or pecans: keep away from nut allergies.
@@ -62,7 +62,7 @@ Almond and rice crackers that are crunchy and sturdy without being hard to bite.
 
 **★★★★☆ 4.0 out of 5** · Best for: Savory, seedy flavor · $$ mid-range
 
-Brown rice, quinoa and seeds, with a savory, umami-rich flavor. Very crunchy, though less suited to scooping dips.
+Brown rice, quinoa and seeds, with a savory, umami-rich flavor. Very crunchy, though less suited to scooping dips. (Source: [Daily Meal](https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/).)
 
 - **Why we like it:** Whole-food ingredient list. Big flavor.
 - **Keep in mind:** Hard crunch is polarizing.
@@ -72,7 +72,7 @@ Brown rice, quinoa and seeds, with a savory, umami-rich flavor. Very crunchy, th
 
 **★★★½☆ 3.7 out of 5** · Best splurge · Best for: Clean ingredients · $$$ premium
 
-Grain-free crackers with ingredients like shallot, rosemary and chia. Sporked scored them 8.5 out of 10.
+Grain-free crackers with ingredients like shallot, rosemary and chia. [Sporked](https://sporked.com/article/best-gluten-free-crackers/) scored them 8.5 out of 10.
 
 - **Why we like it:** Short, recognizable ingredient list.
 - **Keep in mind:** Pricey.
@@ -82,7 +82,7 @@ Grain-free crackers with ingredients like shallot, rosemary and chia. Sporked sc
 
 **★★★½☆ 3.5 out of 5** · Best for: Grain-free guests · $$ mid-range
 
-The most widely stocked grain-free cracker. Reviews are split: Daily Meal ranked it last for texture, but it remains a common choice when guests avoid grains.
+The most widely stocked grain-free cracker. Reviews are split: [Daily Meal](https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/) ranked it last for texture, but it remains a common choice when guests avoid grains.
 
 - **Why we like it:** Easy to find. Grain-free.
 - **Keep in mind:** Mixed reviews on texture. Contains almonds.
@@ -92,7 +92,7 @@ The most widely stocked grain-free cracker. Reviews are split: Daily Meal ranked
 
 **★★★½☆ 3.4 out of 5** · Best for: Closest to a regular cracker · $$$ premium
 
-The winner of Daily Meal's gluten-free test, with a good crunch and a buttery flavor. It costs around a dollar an ounce.
+The winner of [Daily Meal](https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/)'s gluten-free test, with a good crunch and a buttery flavor. It costs around a dollar an ounce.
 
 - **Why we like it:** Tastes like a regular cracker.
 - **Keep in mind:** Expensive per ounce.

@@ -90,6 +90,8 @@ is legally something else.
 **Skip:** pre-grated parmesan in a shaker, and anything labeled just "parmesan"
 for board use. Different product, different price for a reason.
 
+**Ranked picks:** our top-rated Parmesan is **Boar's Head Parmigiano-Reggiano** (4.5 out of 5), and the best value is **Kirkland Signature Parmigiano-Reggiano**. See [the full ranking of the best Parmesan](/blog/best-parmesan-brands/).
+
 ## Quick FAQ
 
 **Parmesan vs. Parmigiano-Reggiano — is there a difference?**

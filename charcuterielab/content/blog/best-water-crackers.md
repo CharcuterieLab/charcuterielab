@@ -42,7 +42,7 @@ A water cracker has one job: carry the cheese without getting in its way. That m
 
 **★★★★½ 4.5 out of 5** · Best overall · Best for: Every board · $$ mid-range
 
-The default for good reason. The label is short (wheat flour, palm oil, salt, plus added vitamins), the cracker is thin and crisp, and it shows up on nearly every published list of the best crackers for cheese.
+The default for good reason. The label is short (wheat flour, palm oil, salt, plus added vitamins), the cracker is thin and crisp, and it shows up on nearly every published list of the best crackers for cheese. (Source: [Carr's Table Water Crackers ingredient label (Kellogg SmartLabel)](https://smartlabel.kelloggs.com/Product/Index/10059290573302), [Cheapism](https://www.aol.com/board-basics-15-best-crackers-203000992.html), [Striped Spatula](https://stripedspatula.com/best-crackers-for-cheese/).)
 
 - **Why we like it:** Neutral, lightly toasty flavor. Thin but holds a slice of hard cheese. Sold almost everywhere.
 - **Keep in mind:** Small box for the price. Breaks under very firm spreads.
@@ -82,7 +82,7 @@ Target's store brand makes a plain water cracker that fills the same role for le
 
 **★★★½☆ 3.3 out of 5** · Best for: Variety on a budget · $ budget
 
-Trader Joe's water crackers come in a four-cracker assortment box. Tasting Table called them very plain, which it noted makes them a good crunchy base for pretty much anything.
+Trader Joe's water crackers come in a four-cracker assortment box. [Tasting Table](https://www.tastingtable.com/2040326/trader-joes-crackers-ranked-worst-best/) called them very plain, which it noted makes them a good crunchy base for pretty much anything.
 
 - **Why we like it:** Four crackers in one box. Low price.
 - **Keep in mind:** Only part of the box is water crackers.

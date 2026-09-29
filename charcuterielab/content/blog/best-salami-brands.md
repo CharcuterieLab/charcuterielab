@@ -32,7 +32,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 | 1. **Olli Salumeria** ($$) | ★★★★½ 4.5 | An easy mixed platter |
 | 2. **Volpi Genoa Salame** ($$) | ★★★★½ 4.3 | The classic Genoa |
 | 3. **Columbus Salame** ($$) | ★★★★☆ 4.2 | Widely available quality |
-| 4. **Fra' Mani** ($$$) | ★★★★☆ 3.8 | The splurge |
+| 4. **Fra' Mani** ($$$) | ★★★★☆ 3.8 | Heavily awarded |
 | 5. **Creminelli Fine Meats** ($$$) | ★★★½☆ 3.7 | Premium flavors |
 | 6. **Boar's Head Hard Salami** ($$) | ★★★½☆ 3.5 | Sliced to order |
 | 7. **Applegate Naturals Uncured Genoa** ($$) | ★★★½☆ 3.5 | Uncured option |
@@ -43,7 +43,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 
 **★★★★½ 4.5 out of 5** · Best overall · Best for: An easy mixed platter · $$ mid-range
 
-Olli's Antipasto pack puts four salami varieties in one package and won Sporked's Best Selection. Olli says it uses vegetarian-fed, antibiotic-free pork, and its Salamini line won a 2023 Mindful Award.
+Olli's Antipasto pack puts four salami varieties in one package and won [Sporked](https://sporked.com/article/best-salami/)'s Best Selection. Olli says it uses vegetarian-fed, antibiotic-free pork, and its Salamini line won a 2023 Mindful Award. (Source: [The National Provisioner](https://www.provisioneronline.com/articles/115249-olli-salumerias-new-salamini-line-wins-2023-mindful-award-for-overall-food-product-of-the-year).)
 
 - **Why we like it:** Four styles in one pack. Well-reviewed.
 - **Keep in mind:** Pricier than basic brands.
@@ -53,7 +53,7 @@ Olli's Antipasto pack puts four salami varieties in one package and won Sporked'
 
 **★★★★½ 4.3 out of 5** · Best value · Best for: The classic Genoa · $$ mid-range
 
-A family business making salami in St. Louis since 1902. Its Genoa is mild, garlicky and easy to fold into a salami river.
+A family business making salami in St. Louis since 1902. Its Genoa is mild, garlicky and easy to fold into a salami river. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Volpi_Foods).)
 
 - **Why we like it:** Classic flavor. Reasonable price.
 - **Keep in mind:** Not as widely stocked as mass brands.
@@ -63,7 +63,7 @@ A family business making salami in St. Louis since 1902. Its Genoa is mild, garl
 
 **★★★★☆ 4.2 out of 5** · Best for: Widely available quality · $$ mid-range
 
-Columbus Calabrese ranked second in Tasting Table's salami test for its nuanced pepper heat, and Sporked named Columbus Italian Dry its best Italian salami.
+Columbus Calabrese ranked second in [Tasting Table](https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/)'s salami test for its nuanced pepper heat, and [Sporked](https://sporked.com/article/best-salami/) named Columbus Italian Dry its best Italian salami.
 
 - **Why we like it:** Easy to find. Several styles.
 - **Keep in mind:** Some varieties are spicy.
@@ -71,9 +71,9 @@ Columbus Calabrese ranked second in Tasting Table's salami test for its nuanced 
 
 ### 4. Fra' Mani
 
-**★★★★☆ 3.8 out of 5** · Best splurge · Best for: The splurge · $$$ premium
+**★★★★☆ 3.8 out of 5** · Best splurge · Best for: Heavily awarded · $$$ premium
 
-Founded by chef Paul Bertolli. Fra' Mani has won 12 Good Food Awards, and its Toscano took Best in Class at the 2023 World Charcuterie Awards.
+Founded by chef Paul Bertolli. Fra' Mani has won 12 Good Food Awards, and its Toscano took Best in Class at the 2023 World Charcuterie Awards. (Source: [The National Provisioner](https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods).)
 
 - **Why we like it:** Heavily awarded. Traditional methods.
 - **Keep in mind:** Hard to find. Expensive.
@@ -83,7 +83,7 @@ Founded by chef Paul Bertolli. Fra' Mani has won 12 Good Food Awards, and its To
 
 **★★★½☆ 3.7 out of 5** · Best for: Premium flavors · $$$ premium
 
-A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle.
+A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Creminelli_Fine_Meats).)
 
 - **Why we like it:** Distinctive flavors. Good ingredients.
 - **Keep in mind:** Expensive. Smaller packs.
@@ -93,7 +93,7 @@ A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a famil
 
 **★★★½☆ 3.5 out of 5** · Best for: Sliced to order · $$ mid-range
 
-Sporked's best hard salami, with strong pork flavor and good fat content. Buying it sliced at the counter means fresher edges than a tray.
+[Sporked](https://sporked.com/article/best-salami/)'s best hard salami, with strong pork flavor and good fat content. Buying it sliced at the counter means fresher edges than a tray.
 
 - **Why we like it:** Sliced fresh. Everywhere.
 - **Keep in mind:** Hard salami is less nuanced than Genoa.
@@ -103,7 +103,7 @@ Sporked's best hard salami, with strong pork flavor and good fat content. Buying
 
 **★★★½☆ 3.5 out of 5** · Best for: Uncured option · $$ mid-range
 
-Reviews split: Sporked named it the best Genoa, while Tasting Table ranked it near the bottom as fatty and chewy. A fair pick if you want uncured.
+Reviews split: [Sporked](https://sporked.com/article/best-salami/) named it the best Genoa, while [Tasting Table](https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/) ranked it near the bottom as fatty and chewy. A fair pick if you want uncured.
 
 - **Why we like it:** Uncured. Easy to find.
 - **Keep in mind:** Mixed reviews.
