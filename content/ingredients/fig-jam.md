@@ -84,6 +84,8 @@ A jar where sugar leads will be sweet and thin.
 
 **Skip:** fig-flavoured jelly with no visible seeds — the seeds are half the point.
 
+**Ranked picks:** our top-rated fig jam is **Dalmatia Original Fig Spread** (4.4 out of 5), and the best value is **Bonne Maman Fig Preserves**. See [the full ranking of the best fig jam](/blog/best-fig-jam/).
+
 ## Quick FAQ
 
 **What cheese goes with fig jam?**

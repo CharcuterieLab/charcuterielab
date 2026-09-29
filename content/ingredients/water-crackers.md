@@ -97,6 +97,8 @@ name, and it will mute whatever you put on it.
 They're good crackers, but they stop being neutral, which was the whole reason
 to buy a water cracker.
 
+**Ranked picks:** our top-rated water crackers is **Carr's Table Water Crackers, Original** (4.5 out of 5), and the best value is **365 by Whole Foods Market Organic Water Crackers**. See [the full ranking of the best water crackers](/blog/best-water-crackers/).
+
 ## Quick FAQ
 
 **Are "table water crackers" different from water crackers?**

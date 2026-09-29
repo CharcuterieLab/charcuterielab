@@ -91,6 +91,8 @@ a DOP mark. The ingredient list should read pork and salt.
 **Skip:** anything labeled just "prosciutto" without an origin. It's usually a
 fast-cured domestic ham — fine in cooking, flat on a board.
 
+**Ranked picks:** our top-rated prosciutto is **Appleton Farms Prosciutto** (4.2 out of 5), and the best value is **Trader Joe's Sliced Prosciutto**. See [the full ranking of the best prosciutto](/blog/best-prosciutto-brands/).
+
 ## Quick FAQ
 
 **What's the difference between prosciutto and prosciutto di Parma?**

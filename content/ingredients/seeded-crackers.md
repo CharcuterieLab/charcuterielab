@@ -92,6 +92,8 @@ on the list. Visible seeds mean crunch; ground seeds only mean color.
 **Skip:** "veggie" crackers made with vegetable powders. They read as seeded on
 the box and taste faintly sweet on the board.
 
+**Ranked picks:** our top-rated crackers is **Carr's Table Water Crackers** (4.5 out of 5), and the best value is **Milton's Craft Bakers Original Multi-Grain**. See [the full ranking of the best crackers](/blog/best-crackers-for-charcuterie/).
+
 ## Quick FAQ
 
 **Are seeded crackers gluten-free?**

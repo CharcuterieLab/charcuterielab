@@ -88,6 +88,8 @@ tamari, an explicit gluten-free mark, or a plain unglazed cracker.
 **Skip:** the heavily seasoned snack mixes with peanuts and dried peas. Fine
 snacks, wrong shape and flavor for a board base.
 
+**Ranked picks:** our top-rated gluten-free crackers is **Crunchmaster Multi-Seed Crackers** (4.7 out of 5), and the best value is **Blue Diamond Nut-Thins**. See [the full ranking of the best gluten-free crackers](/blog/best-gluten-free-crackers/).
+
 ## Quick FAQ
 
 **Are rice crackers gluten-free?**

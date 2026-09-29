@@ -91,6 +91,8 @@ most of these use vegetable oil. Pepperidge Farm Golden Butter lists butter.
 **Skip:** reduced-fat versions. The fat is the entire reason to use this
 cracker. Without it you have a worse saltine.
 
+**Ranked picks:** our top-rated crackers is **Carr's Table Water Crackers** (4.5 out of 5), and the best value is **Milton's Craft Bakers Original Multi-Grain**. See [the full ranking of the best crackers](/blog/best-crackers-for-charcuterie/).
+
 ## Quick FAQ
 
 **Are Ritz crackers okay for a charcuterie board?**

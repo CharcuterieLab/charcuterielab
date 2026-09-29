@@ -84,6 +84,8 @@ they've been sitting or are a different variety sold under the name.
 **Skip:** anything labelled "green olives" generically — a Castelvetrano is worth
 paying for by name.
 
+**Ranked picks:** our top-rated olives is **Mezzetta Castelvetrano Olives** (4.7 out of 5), and the best value is **Trader Joe's Organic Conversation Olive Trio**. See [the full ranking of the best olives](/blog/best-olives-for-charcuterie/).
+
 ## Quick FAQ
 
 **Why are Castelvetrano olives so green?**

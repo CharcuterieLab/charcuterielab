@@ -83,6 +83,8 @@ rather than water, and that they're not all one variety dyed different colours.
 **Skip:** any mix where every olive is the same size and shape — that's one olive
 sold as four.
 
+**Ranked picks:** our top-rated olives is **Mezzetta Castelvetrano Olives** (4.7 out of 5), and the best value is **Trader Joe's Organic Conversation Olive Trio**. See [the full ranking of the best olives](/blog/best-olives-for-charcuterie/).
+
 ## Quick FAQ
 
 **What olives should I mix for a board?**

@@ -81,6 +81,8 @@ vinegar. PDO Kalamata from Greece is the real thing.
 
 **Skip:** canned California black olives. Different product, and much blander.
 
+**Ranked picks:** our top-rated olives is **Mezzetta Castelvetrano Olives** (4.7 out of 5), and the best value is **Trader Joe's Organic Conversation Olive Trio**. See [the full ranking of the best olives](/blog/best-olives-for-charcuterie/).
+
 ## Quick FAQ
 
 **What's the difference between Kalamata and black olives?**

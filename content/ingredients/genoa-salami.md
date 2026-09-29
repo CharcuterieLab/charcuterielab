@@ -86,6 +86,8 @@ avoiding.
 **Skip:** pre-sliced salami that's been sitting in a tray — the edges dry and
 curl. Buy a chub and slice it, or buy from the counter.
 
+**Ranked picks:** our top-rated salami is **Olli Salumeria** (4.5 out of 5), and the best value is **Volpi Genoa Salame**. See [the full ranking of the best salami](/blog/best-salami-brands/).
+
 ## Quick FAQ
 
 **Is Genoa salami actually from Genoa?**

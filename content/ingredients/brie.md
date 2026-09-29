@@ -96,6 +96,8 @@ and not shrunken away from the paste.
 **Skip:** pre-cut brie wedges sold in plastic. They dry at the cut faces and
 they've usually been sitting. Buy a small wheel instead.
 
+**Ranked picks:** our top-rated brie is **Fromager d'Affinois** (4.4 out of 5), and the best value is **Trader Joe's Brie**. See [the full ranking of the best brie](/blog/best-brie-brands/).
+
 ## Quick FAQ
 
 **Do you eat the rind on brie?**

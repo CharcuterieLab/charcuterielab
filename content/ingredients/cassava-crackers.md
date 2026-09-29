@@ -88,6 +88,8 @@ if a guest has a nut allergy — several grain-free brands blend them in.
 **Skip:** anything labeled grain-free that turns out to be mostly almond flour.
 That defeats the reason you bought cassava.
 
+**Ranked picks:** our top-rated gluten-free crackers is **Crunchmaster Multi-Seed Crackers** (4.7 out of 5), and the best value is **Blue Diamond Nut-Thins**. See [the full ranking of the best gluten-free crackers](/blog/best-gluten-free-crackers/).
+
 ## Quick FAQ
 
 **Is cassava gluten-free?**

@@ -89,6 +89,8 @@ blander.
 **Skip:** the cheese-flavored versions if there's real cheese on the board.
 You already have the flavor.
 
+**Ranked picks:** our top-rated gluten-free crackers is **Crunchmaster Multi-Seed Crackers** (4.7 out of 5), and the best value is **Blue Diamond Nut-Thins**. See [the full ranking of the best gluten-free crackers](/blog/best-gluten-free-crackers/).
+
 ## Quick FAQ
 
 **Are almond flour crackers gluten-free?**

@@ -85,6 +85,8 @@ and a named producer, and prefer raw.
 **Skip:** honey in a squeeze bear on a cheese board. It works, it just undoes the
 effort.
 
+**Ranked picks:** our top-rated honey is **Nature Nate's Raw & Unfiltered Honey** (4.6 out of 5), and the best value is **365 by Whole Foods Market Organic Raw Wildflower Honey**. See [the full ranking of the best honey](/blog/best-honey-for-cheese/).
+
 ## Quick FAQ
 
 **What honey is best for a cheese board?**

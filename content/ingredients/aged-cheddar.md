@@ -92,6 +92,8 @@ means a drier, more complex cheese.
 **Skip:** pre-sliced or pre-shredded cheddar for a board, and orange cheddar if
 you have a choice. The color is annatto and adds nothing.
 
+**Ranked picks:** our top-rated cheddar is **Kerrygold Reserve Cheddar** (4.8 out of 5), and the best value is **Trader Joe's Unexpected Cheddar**. See [the full ranking of the best cheddar](/blog/best-cheddar-brands/).
+
 ## Quick FAQ
 
 **What are the crunchy bits in aged cheddar?**
