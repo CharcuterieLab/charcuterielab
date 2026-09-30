@@ -576,6 +576,10 @@
 935,
 1210
 ],
+"/images/books/around-the-world-cover.webp": [
+600,
+776
+],
 "/images/books/plant-based-cover.webp": [
 600,
 794
@@ -2847,6 +2851,10 @@
 "/images/thumbs/book__look-thanksgiving-swaps-webp-s.webp": [
 240,
 311
+],
+"/images/thumbs/books__around-the-world-cover-webp-s.webp": [
+240,
+310
 ],
 "/images/thumbs/books__plant-based-cover-webp-s.webp": [
 240,
@@ -6024,6 +6032,9 @@
 "/images/book/look-thanksgiving-swaps.webp": {
 "m": "/images/thumbs/book__look-thanksgiving-swaps-webp-m.webp",
 "s": "/images/thumbs/book__look-thanksgiving-swaps-webp-s.webp"
+},
+"/images/books/around-the-world-cover.webp": {
+"s": "/images/thumbs/books__around-the-world-cover-webp-s.webp"
 },
 "/images/books/plant-based-cover.webp": {
 "s": "/images/thumbs/books__plant-based-cover-webp-s.webp"

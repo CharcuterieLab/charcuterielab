@@ -7,7 +7,7 @@ import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } fr
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
-import { PLANT_BOOK, WORLD_BOOK, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { PLANT_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1865,7 +1865,7 @@ function articleCard(post) {
 // purpose: covers, titles, prices, buttons.
 function shopPage(products) {
   const W = WORLD_BOOK;
-  const worldLive = W.status === "live" && W.paperbackUrl;
+  const worldLive = worldIsLive(W);
   const books = [
     {
       cover: "/images/book-cover.jpg", w: 687, h: 1024, tag: "Bestseller", title: "50 Boards Built by Science",
@@ -1877,7 +1877,7 @@ function shopPage(products) {
       cover: W.cover, w: 600, h: 776, tag: worldLive ? "New" : `Coming ${W.launch.replace(/, \d{4}$/, "")}`, title: "Around the World in 16 Boards",
       line: "16 international boards, from Bavaria to Korea to Peru.",
       buttons: worldLive
-        ? [...(W.ebookUrl ? [[`Ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}`, W.ebookUrl, true]] : []), [`Paperback${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}`, W.paperbackUrl, !W.ebookUrl]]
+        ? [...(W.ebookUrl ? [[`Ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}`, W.ebookUrl, true]] : []), ...(W.paperbackUrl ? [[`Paperback${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}`, W.paperbackUrl, !W.ebookUrl]] : [])]
         : [["Tell me on launch day", withTracking(newsletterUrl, "shop_world_notify"), true]],
       more: ["See the 16 boards", "/around-the-world/"]
     },
@@ -2055,7 +2055,7 @@ function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
         <ul class="about-books">
           <li><a href="/ebook/"><strong>${bookTitle}</strong></a>: 50 complete boards, as an ebook and a ${paperbackPrice} paperback.</li>
           <li><a href="${escapeHtml(PLANT_BOOK.kindleUrl)}" target="_blank" rel="noopener"><strong>${escapeHtml(PLANT_BOOK.title)}</strong></a>: 15 plant-based boards.</li>
-          <li><a href="/around-the-world/"><strong>${escapeHtml(WORLD_BOOK.title)}</strong></a>: 16 international boards${WORLD_BOOK.status === "live" ? "" : `, out ${escapeHtml(WORLD_BOOK.launch)}`}.</li>
+          <li><a href="/around-the-world/"><strong>${escapeHtml(WORLD_BOOK.title)}</strong></a>: 16 international boards${worldIsLive() ? "" : `, out ${escapeHtml(WORLD_BOOK.launch)}`}.</li>
         </ul>
 
         <h2>What's on the site</h2>

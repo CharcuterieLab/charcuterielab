@@ -19,15 +19,19 @@ export const BOARD_CATEGORIES = [
 // two URLs and prices, set status to "live", rebuild, push.
 export const WORLD_BOOK = {
   title: "Charcuterie Lab: Around the World in 16 Boards",
-  status: "coming",
+  status: "live",
   launch: "October 1, 2026",
   launchIso: "2026-10-01",
-  ebookUrl: "",
-  ebookPrice: "",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/hulgi",
+  ebookPrice: "$9.99",
   paperbackUrl: "",
-  paperbackPrice: "",
-  cover: "/images/books/around-the-world-cover.svg"
+  paperbackPrice: "$16.99",
+  cover: "/images/books/around-the-world-cover.webp"
 };
+
+// Live once either edition has a link: the ebook can go out before Amazon
+// finishes review, and the paperback button appears when its URL is filled.
+export const worldIsLive = (W = WORLD_BOOK) => W.status === "live" && Boolean(W.paperbackUrl || W.ebookUrl);
 
 export const PLANT_BOOK = {
   title: "Charcuterie Lab: 15 Show-Stopping Plant-Based Boards",
@@ -202,14 +206,14 @@ ${h.labNext(`boards_${cat.slug}`, { skip: ["book"], heading: "Plan your own" })}
 
 export function worldOffer(h, campaign, { heading = "Get the full blueprint", lead = "" } = {}) {
   const W = WORLD_BOOK;
-  const buy = W.status === "live" && W.paperbackUrl;
+  const buy = worldIsLive(W);
   return `<section class="bl-book bl-world" aria-labelledby="bl-book-title">
       <div>
         <p class="eyebrow">${buy ? "New book" : `Coming ${h.escapeHtml(W.launch)}`}</p>
         <h2 id="bl-book-title">${h.escapeHtml(heading)}</h2>
         <p>${lead || `This board's exact shopping list with amounts and prices, the prep countdown, all seven placement steps, five swaps and five upgrades are in <em>${h.escapeHtml(W.title)}</em>, with 15 more international boards.`}</p>
         ${buy
-          ? `<div class="book-buy">${W.ebookUrl ? `<a class="button primary" href="${h.escapeHtml(W.ebookUrl)}" target="_blank" rel="noopener">Get the ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}</a>` : ""}<a class="button book-buy-print" href="${h.escapeHtml(W.paperbackUrl)}" target="_blank" rel="noopener">Paperback on Amazon${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}</a></div>`
+          ? `<div class="book-buy">${W.ebookUrl ? `<a class="button primary" href="${h.escapeHtml(W.ebookUrl)}" target="_blank" rel="noopener">Get the ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}</a>` : ""}${W.paperbackUrl ? `<a class="button book-buy-print" href="${h.escapeHtml(W.paperbackUrl)}" target="_blank" rel="noopener">Paperback on Amazon${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}</a>` : `<span class="bl-note">Paperback on Amazon coming soon.</span>`}</div>`
           : `<div class="book-buy"><a class="button primary" href="${h.newsletterHref(campaign)}" target="_blank" rel="noopener">Tell me on launch day</a><a class="button book-buy-print" href="/around-the-world/">See what's inside</a></div>
         <p class="bl-note">Free newsletter signup. One email when the book is out, plus the weekly Lab Report.</p>`}
       </div>
@@ -429,7 +433,7 @@ export function worldBookPage(h, boards) {
   const world = boards.filter((b) => b.book === "world");
   const regions = [["Europe", ["01", "02", "03", "04", "05"]], ["The Mediterranean & North Africa", ["06", "07"]], ["Asia", ["08", "09", "10", "11", "12"]], ["The Americas & Caribbean", ["13", "14", "15", "16"]]];
   const byNum = new Map(world.map((b) => [b.number.slice(3), b]));
-  const live = W.status === "live" && W.paperbackUrl;
+  const live = worldIsLive(W);
   return h.layout({
     title: live ? `${W.title} | Charcuterie Lab` : `Around the World in 16 Boards: Coming ${W.launch}`,
     canonical: "/around-the-world/",
@@ -446,7 +450,7 @@ export function worldBookPage(h, boards) {
       <p class="section-kicker">${live ? "The new book" : `Coming ${h.escapeHtml(W.launch)}`}</p>
       <h1>Around the World in 16 Boards</h1>
       <p class="bl-intro">Tapas, meze, petiscos, banchan, the Brotzeit plate: every food culture has its own board. The third Charcuterie Lab book blueprints sixteen of them, with the same shopping lists, prep countdowns, placement steps and pairing science as <a href="/ebook/">50 Boards Built by Science</a>.</p>
-      ${worldOffer(h, "world_book_page", { heading: live ? "Get the book" : "Be first to know on launch day", lead: live ? "Paperback on Amazon, or the ebook as an instant download." : "Sign up and we'll email you the day the paperback and ebook go live. You can already see every board's plan below." })}
+      ${worldOffer(h, "world_book_page", { heading: live ? "Get the book" : "Be first to know on launch day", lead: live ? (W.paperbackUrl ? "Paperback on Amazon, or the ebook as an instant download." : "The ebook is out now as an instant PDF download. The paperback follows on Amazon.") : "Sign up and we'll email you the day the paperback and ebook go live. You can already see every board's plan below." })}
       <div class="bl-section">
         <h2>What's in every board</h2>
         <ul class="bl-wib">
@@ -467,6 +471,6 @@ ${h.newsletterPanel("world-email", "world_book_page")}
 
 export function worldBanner(h) {
   const W = WORLD_BOOK;
-  const live = W.status === "live" && W.paperbackUrl;
+  const live = worldIsLive(W);
   return `<a class="bl-banner" href="/around-the-world/"><span class="bl-banner-k">${live ? "New book" : `Coming ${h.escapeHtml(W.launch)}`}</span> <strong>Around the World in 16 Boards</strong> <span>Germany to Korea, Turkey to Peru. See the boards &rarr;</span></a>`;
 }
