@@ -24,7 +24,7 @@ export const WORLD_BOOK = {
   launchIso: "2026-10-01",
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/hulgi",
   ebookPrice: "$9.99",
-  paperbackUrl: "",
+  paperbackUrl: "https://www.amazon.com/dp/B0HLKC56MG",
   paperbackPrice: "$16.99",
   cover: "/images/books/around-the-world-cover.webp"
 };
