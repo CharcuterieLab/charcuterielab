@@ -20,6 +20,8 @@ The key insight: meat on a traditional board serves specific roles — saltiness
 
 > **Quick Answer:** A vegetarian charcuterie board replaces cured meats with high-umami plant elements: marinated olives, sun-dried tomatoes, roasted peppers, mushroom or lentil pâté, and tapenade. Pair with a full cheese selection, nuts, fresh and dried fruit, hummus, and quality crackers. The same contrast principles apply — salt, sweet, fat, acid, and crunch — achieved through plant-based sources instead of meat.
 
+> **Check the cheese:** Parmigiano-Reggiano, Pecorino Romano, Gruyère and Gorgonzola are usually made with animal rennet, and some tapenades contain anchovies. Our [vegetarian guide](/dietary/vegetarian/) sorts every cheese by rennet.
+
 ---
 
 ## The Quick Answer

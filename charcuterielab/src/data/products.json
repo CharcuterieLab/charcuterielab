@@ -184,5 +184,150 @@
         "/blog/grazing-table/"
       ]
     ]
+  },
+  {
+    "title": "The Mixed-Diet Party Planner",
+    "description": "Digital download: plan one charcuterie spread for guests with different diets.",
+    "price": "$9.00",
+    "image": "/images/mixed-diet-party-planner.jpg",
+    "url": "",
+    "slug": "mixed-diet-party-planner",
+    "priceShort": "$9",
+    "pagesLabel": "12 pages",
+    "format": "Letter size, portrait",
+    "hook": "One spread for the gluten-free, nut-free, vegetarian and vegan guests at the same party: guest diet cards, a station planner, the conflict chart and a list of what passes every diet.",
+    "includes": [
+      "Guest diet cards to tuck into invitations",
+      "A tally sheet and the strictest-first planning rule",
+      "Station planner and two table maps, including a safe plate",
+      "Where diets collide: 8 common conflicts and the fix for each",
+      "What passes all five diets, from 325 board ingredients",
+      "Split shopping list, setup timeline and 12 table tent cards"
+    ],
+    "who": "Hosts with guests who are gluten-free, nut-allergic, vegetarian or vegan at the same party, from Thanksgiving to office parties.",
+    "seoTitle": "Mixed-Diet Party Planner: Printable Charcuterie Guide",
+    "metaDescription": "Plan one charcuterie spread for gluten-free, nut-free, vegetarian and vegan guests: diet cards, station planner, conflict chart and labels. 12-page PDF, $9.",
+    "free": [
+      [
+        "Diet Checker: every ingredient, every diet",
+        "/dietary/"
+      ],
+      [
+        "One board or two? Mixed diets",
+        "/dietary/mixed-diets/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ]
+  },
+  {
+    "title": "The Gluten-Free Board Kit",
+    "description": "Digital download: three gluten-free boards, the shopping filter and a crumb-free setup.",
+    "price": "$7.00",
+    "image": "/images/gluten-free-board-kit.jpg",
+    "url": "",
+    "slug": "gluten-free-board-kit",
+    "priceShort": "$7",
+    "pagesLabel": "12 pages",
+    "format": "Letter size, portrait",
+    "hook": "Three complete gluten-free boards with amounts for 6, 12 and 20, the shopping filter for 325 ingredients and a setup a guest with celiac disease can trust.",
+    "includes": [
+      "Safe, check-the-label and skip for 325 board ingredients",
+      "What to read on salami, mustard and cracker labels",
+      "3 boards with shopping lists for 6, 12 and 20 guests",
+      "Cracker swap chart and a crumb-free setup",
+      "12 table tent cards to print and fold"
+    ],
+    "who": "Hosts with a gluten-free or celiac guest who want a normal-looking board without the guesswork.",
+    "seoTitle": "Gluten-Free Charcuterie Board Kit: Printable Plans",
+    "metaDescription": "Printable gluten-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, safe-and-check lists for 325 ingredients and a celiac-safe setup. $7.",
+    "free": [
+      [
+        "Gluten-free charcuterie guide",
+        "/dietary/gluten-free/"
+      ],
+      [
+        "Is salami gluten-free?",
+        "/dietary/questions/is-salami-gluten-free/"
+      ],
+      [
+        "Diet Checker",
+        "/dietary/"
+      ]
+    ]
+  },
+  {
+    "title": "The Nut-Free Board Kit",
+    "description": "Digital download: three nut-free boards, the shopping filter and an allergy-safe setup.",
+    "price": "$7.00",
+    "image": "/images/nut-free-allergy-board-kit.jpg",
+    "url": "",
+    "slug": "nut-free-allergy-board-kit",
+    "priceShort": "$7",
+    "pagesLabel": "13 pages",
+    "format": "Letter size, portrait",
+    "hook": "Three complete nut-free boards with amounts for 6, 12 and 20, the shopping filter for 325 ingredients and where nuts hide on a board.",
+    "includes": [
+      "Safe, check-the-label and skip for 325 board ingredients",
+      "Where nuts hide: pesto, mortadella, nut cheeses, pink peppercorns",
+      "3 boards with shopping lists for 6, 12 and 20 guests, including a kids' table",
+      "Swap chart and an allergy-safe setup",
+      "12 table tent cards to print and fold"
+    ],
+    "who": "Hosts with a guest who has a tree nut or peanut allergy, and parents planning school-safe boards.",
+    "seoTitle": "Nut-Free Charcuterie Board Kit: Printable Plans",
+    "metaDescription": "Printable nut-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, where nuts hide and an allergy-safe setup. 13-page PDF, $7.",
+    "free": [
+      [
+        "Nut-free charcuterie guide",
+        "/dietary/nut-free/"
+      ],
+      [
+        "Does mortadella have nuts?",
+        "/dietary/questions/does-mortadella-have-nuts/"
+      ],
+      [
+        "Diet Checker",
+        "/dietary/"
+      ]
+    ]
+  },
+  {
+    "title": "The Vegetarian & Vegan Board Kit",
+    "description": "Digital download: meat-free boards, the rennet check and vegan swaps.",
+    "price": "$7.00",
+    "image": "/images/vegetarian-vegan-board-kit.jpg",
+    "url": "",
+    "slug": "vegetarian-vegan-board-kit",
+    "priceShort": "$7",
+    "pagesLabel": "13 pages",
+    "format": "Letter size, portrait",
+    "hook": "Meat-free boards that look full, the rennet check for every cheese, and vegan swaps for dairy and honey, with amounts for 6, 12 and 20.",
+    "includes": [
+      "Safe, check-the-label and skip for 325 ingredients, vegetarian and vegan",
+      "The rennet check: which cheeses usually aren't vegetarian",
+      "1 vegetarian and 2 vegan boards with shopping lists for 6, 12 and 20",
+      "Swap chart for meat, cheese and honey",
+      "12 table tent cards to print and fold"
+    ],
+    "who": "Hosts with vegetarian or vegan guests, and vegetarians who want a board that doesn't look like something's missing.",
+    "seoTitle": "Vegetarian & Vegan Charcuterie Board Kit: Printable",
+    "metaDescription": "Printable vegetarian and vegan charcuterie board kit: the rennet check for every cheese, 3 meat-free boards with shopping lists and vegan swaps. $7.",
+    "free": [
+      [
+        "Vegetarian charcuterie guide",
+        "/dietary/vegetarian/"
+      ],
+      [
+        "Vegan charcuterie guide",
+        "/dietary/vegan/"
+      ],
+      [
+        "Is Parmesan vegetarian?",
+        "/dietary/questions/is-parmesan-vegetarian/"
+      ]
+    ]
   }
 ]

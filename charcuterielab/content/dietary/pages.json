@@ -1,0 +1,814 @@
+{
+  "updated": "2026-10-01",
+  "sources": {
+    "fda-gf": {
+      "name": "FDA: Questions and Answers on the Gluten-Free Food Labeling Final Rule",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/questions-and-answers-gluten-free-food-labeling-final-rule"
+    },
+    "nca-meat": {
+      "name": "National Celiac Association: Gluten-free meats",
+      "url": "https://nationalceliac.org/celiac-disease-questions/gf-meats/"
+    },
+    "fda-faster": {
+      "name": "FDA: The FASTER Act and sesame, the ninth major food allergen",
+      "url": "https://www.fda.gov/food/food-allergies/faster-act-sesame-ninth-major-food-allergen"
+    },
+    "fda-label": {
+      "name": "FDA: Have food allergies? Read the label",
+      "url": "https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label"
+    },
+    "vegsoc-cheese": {
+      "name": "Vegetarian Society: Which cheeses are suitable for vegetarians?",
+      "url": "https://vegsoc.org/news/vegetarian-cheese/"
+    },
+    "parm-calf": {
+      "name": "Parmesan (Parmigiano-Reggiano production rules)",
+      "url": "https://en.wikipedia.org/wiki/Parmesan"
+    },
+    "vegan-honey": {
+      "name": "The Vegan Society: Why honey is not vegan",
+      "url": "https://www.vegansociety.com/go-vegan/why-honey-not-vegan"
+    },
+    "pink-pepper": {
+      "name": "Pink peppercorn (cashew family and tree nut allergy)",
+      "url": "https://en.wikipedia.org/wiki/Pink_peppercorn"
+    },
+    "tapenade": {
+      "name": "Tapenade (traditional ingredients)",
+      "url": "https://en.wikipedia.org/wiki/Tapenade"
+    },
+    "mortadella": {
+      "name": "Mortadella (pistachio versions)",
+      "url": "https://en.wikipedia.org/wiki/Mortadella"
+    }
+  },
+  "diets": [
+    {
+      "slug": "gluten-free",
+      "key": "gluten-free",
+      "name": "Gluten-free",
+      "color": "#b5762a",
+      "keyword": "gluten free charcuterie board",
+      "h1": "Gluten-Free Charcuterie Board: What's Safe and What to Swap",
+      "title": "Gluten-Free Charcuterie Board: Safe Foods & Swaps",
+      "description": "Which cheeses, meats, crackers and spreads are gluten-free, which to check on the label, and how to set up a board a guest with celiac disease can eat from.",
+      "answer": "Most of a board is naturally gluten-free: plain cheese, whole cured ham, fruit, olives and nuts. The gluten is in the crackers and bread, and sometimes in salami. Swap the crackers and give them their own plate.",
+      "intro": [
+        "A gluten-free board isn't a different board. Keep the cheeses, the prosciutto, the fruit and the olives. Change three things: the crackers, the salami check, and where everything sits.",
+        "Gluten-free on a US label means the food has less than 20 parts per million of gluten, the FDA's limit. Naturally gluten-free foods like cheese and fruit can carry the claim too. For a guest with celiac disease, the setup matters as much as the shopping: one crumb of baguette on the brie is enough.",
+        "For specific brands, see [the best gluten-free crackers, ranked](/blog/best-gluten-free-crackers/)."
+      ],
+      "swaps": [
+        {
+          "from": "water-crackers",
+          "to": [
+            "rice-crackers",
+            "cassava-crackers"
+          ],
+          "note": "Same neutral job. Buy boxes labeled gluten-free."
+        },
+        {
+          "from": "baguette",
+          "to": [
+            "gluten-free-bread",
+            "vegetable-bases"
+          ],
+          "note": "Toast gluten-free bread thin, or use cucumber and radish rounds."
+        },
+        {
+          "from": "pita-chips",
+          "to": [
+            "plantain-chips",
+            "tortilla-chips"
+          ],
+          "note": "Sturdy enough for hummus and dips."
+        },
+        {
+          "from": "pretzel-crisps",
+          "to": [
+            "root-vegetable-chips",
+            "parmesan-crisps"
+          ],
+          "note": "Salty crunch without wheat."
+        },
+        {
+          "from": "grissini",
+          "to": [
+            "cheddar-crisps",
+            "vegetable-bases"
+          ],
+          "note": "Celery and carrot sticks stand up in a jar the same way."
+        },
+        {
+          "from": "gingersnaps",
+          "to": [
+            "dark-chocolate",
+            "medjool-dates"
+          ],
+          "note": "For the sweet corner. Check the chocolate for barley malt."
+        }
+      ],
+      "labels": [
+        "Look for \"gluten-free\" on every box of crackers and bread. Naturally wheat-free crackers can still share a line with wheat.",
+        "On salami, chorizo and other sausages, read the whole ingredient list for wheat, barley, rye or malt. Meat is regulated by the USDA, and not every meat label has a \"Contains\" line, so the ingredient list is what to trust.",
+        "On mustard, chutney and pickles, look for malt vinegar. It's made from barley.",
+        "Oats are only safe when the package says gluten-free.",
+        "Flavored cheeses and nut mixes: check the coating and seasoning."
+      ],
+      "setup": [
+        {
+          "lead": "Build the gluten-free part first.",
+          "text": "Wash your hands, use a clean board and knife, and plate the gluten-free crackers before any bread is opened."
+        },
+        {
+          "lead": "Give the crackers their own plate.",
+          "text": "Put gluten-free crackers on a separate small plate, not loose on the board where crumbs from regular crackers fall."
+        },
+        {
+          "lead": "One knife per cheese.",
+          "text": "A knife that spread brie onto a wheat cracker carries crumbs back. Put a knife in every cheese and every spread."
+        },
+        {
+          "lead": "Label it.",
+          "text": "A small \"Gluten-free\" card stops guests from mixing the plates."
+        },
+        {
+          "lead": "For celiac disease, plate first.",
+          "text": "Make your guest a small plate from the board before anyone else starts. It's the one setup with no crumbs at all."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is cheese gluten-free?",
+          "a": "Plain cheese is naturally gluten-free. Check flavored cheeses for added ingredients, and keep cheese away from crackers and bread on the board."
+        },
+        {
+          "q": "Is salami gluten-free?",
+          "a": "Most salami is, but some brands add wheat-based binders or seasonings. Read the full ingredient list on the package."
+        },
+        {
+          "q": "Is prosciutto gluten-free?",
+          "a": "Yes. Prosciutto is pork leg, salt and time. Whole-muscle cured meats like prosciutto, bresaola, coppa and jamón are naturally gluten-free."
+        },
+        {
+          "q": "What crackers are gluten-free?",
+          "a": "Rice crackers, cassava crackers, chickpea crackers, seed crackers labeled gluten-free, plantain chips and cheese crisps. Buy boxes labeled gluten-free."
+        },
+        {
+          "q": "Can a celiac guest eat from a shared board?",
+          "a": "Only with care. Give gluten-free crackers their own plate, use a knife per cheese, build their part first and make them a plate before others start."
+        }
+      ],
+      "sources": [
+        "fda-gf",
+        "nca-meat"
+      ],
+      "kit": "gluten-free-board-kit"
+    },
+    {
+      "slug": "nut-free",
+      "key": "nut-free",
+      "name": "Nut-free",
+      "color": "#7a5a2e",
+      "keyword": "nut free charcuterie board",
+      "h1": "Nut-Free Charcuterie Board: Safe Swaps for Nut Allergies",
+      "title": "Nut-Free Charcuterie Board: Allergy-Safe Swaps",
+      "description": "What to remove for a nut allergy, what to check on the label, the seeds that replace nuts, and how to set up a board safely for an allergic guest.",
+      "answer": "Drop the nuts, nut crackers, nut cheeses and pesto, and check mortadella for pistachios. Roasted pumpkin and sunflower seeds give the same crunch. For a real allergy, read every \"may contain\" line and keep nuts off the table.",
+      "intro": [
+        "Nuts hide in more places on a board than the nut bowl: almond-flour crackers, Nut-Thins, cashew cheese, pesto, romesco, muhammara, candied pecans and some mortadella. Our ingredient data flags all of them below.",
+        "Tree nuts and peanuts are two of the FDA's nine major allergens, so packaged foods must name them, and name which nut. A \"may contain\" line is voluntary, though: a missing warning doesn't prove a shared line wasn't used."
+      ],
+      "swaps": [
+        {
+          "from": "marcona-almonds",
+          "to": [
+            "pumpkin-seeds",
+            "sunflower-seeds"
+          ],
+          "note": "Roast them with a little salt and smoked paprika."
+        },
+        {
+          "from": "nut-thins",
+          "to": [
+            "rice-crackers",
+            "cassava-crackers"
+          ],
+          "note": "The same light, neutral base without the nuts."
+        },
+        {
+          "from": "fruit-and-nut-crisps",
+          "to": [
+            "rosemary-crackers",
+            "dried-cranberries"
+          ],
+          "note": "Plain crackers plus dried fruit on the side."
+        },
+        {
+          "from": "pesto",
+          "to": [
+            "sun-dried-tomatoes",
+            "roasted-red-peppers"
+          ],
+          "note": "Bright, savory and nut-free."
+        },
+        {
+          "from": "mortadella",
+          "to": [
+            "prosciutto-cotto",
+            "genoa-salami"
+          ],
+          "note": "Unless the label shows no pistachios."
+        },
+        {
+          "from": "candied-pecans",
+          "to": [
+            "dried-cherries",
+            "pumpkin-seeds"
+          ],
+          "note": "Toss seeds with honey and salt for a candied version."
+        }
+      ],
+      "labels": [
+        "Read the \"Contains\" line and the ingredient list on every package. US labels must name the nut: almonds, pecans, walnuts and so on.",
+        "Read the \"may contain\" or \"made in a facility\" line. It's voluntary, so call the maker if a label is silent and the allergy is severe.",
+        "Seeds, chocolate, granola and baked sweets are often made on lines shared with nuts.",
+        "Pink peppercorns are in the cashew family. Guests allergic to cashews or pistachios can react to them.",
+        "Hummus and tahini contain sesame, another major allergen. Ask if the guest has more than one allergy."
+      ],
+      "setup": [
+        {
+          "lead": "Leave nuts off the table.",
+          "text": "For a guest with a nut allergy, the safest board has no nuts on it at all, not a nut bowl in the corner."
+        },
+        {
+          "lead": "Shop and prep nut-free first.",
+          "text": "Cut cheese and fruit on a clean board before anything with nuts is opened in the kitchen."
+        },
+        {
+          "lead": "Keep the packaging.",
+          "text": "Put boxes and wrappers in a bag by the board so a parent or guest can read the labels."
+        },
+        {
+          "lead": "Label every item.",
+          "text": "Use \"Contains nuts\" and \"Nut-free\" cards. A wrong guess costs more than a card."
+        },
+        {
+          "lead": "Ask about the plan.",
+          "text": "If the guest carries epinephrine, know where it is. Their own plan beats any board advice."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What can replace nuts on a charcuterie board?",
+          "a": "Roasted pumpkin seeds and sunflower seeds give the same crunch. Buy bags made in a nut-free facility."
+        },
+        {
+          "q": "Does mortadella have nuts?",
+          "a": "Many brands add pistachios, and some don't. Check the label, or use prosciutto cotto instead."
+        },
+        {
+          "q": "Are vegan cheeses nut-free?",
+          "a": "Usually not. Most vegan cheeses are made from cashews or almonds, so they don't work for a nut allergy."
+        },
+        {
+          "q": "Are pink peppercorns safe for a nut allergy?",
+          "a": "Pink peppercorns are in the cashew family, and people allergic to cashews or pistachios can react. Leave them off a nut-free board."
+        }
+      ],
+      "sources": [
+        "fda-faster",
+        "fda-label",
+        "pink-pepper",
+        "mortadella"
+      ],
+      "kit": "nut-free-allergy-board-kit"
+    },
+    {
+      "slug": "vegetarian",
+      "key": "vegetarian",
+      "name": "Vegetarian",
+      "color": "#4f7a2a",
+      "keyword": "charcuterie board without meat",
+      "h1": "Charcuterie Board Without Meat: Vegetarian Swaps and the Rennet Check",
+      "title": "Charcuterie Board Without Meat: Swaps & Rennet Check",
+      "description": "How to build a charcuterie board without meat: vegetarian swaps for cured meat, which cheeses are made with animal rennet, and what to check on the label.",
+      "answer": "Swap the cured meat for marinated vegetables, olives and extra cheese, then check the cheese. Parmigiano-Reggiano, Pecorino Romano, Gruyère and Gorgonzola are usually made with animal rennet. Look for \"vegetarian\" or \"microbial rennet\".",
+      "intro": [
+        "Taking the meat off a board is easy. The trap is the cheese. Rennet, the enzyme that sets most cheese, traditionally comes from a calf's or lamb's stomach. The official recipe for Parmigiano-Reggiano requires calf rennet, and the Vegetarian Society lists Camembert, Gorgonzola, Manchego, Gruyère, Pecorino Romano, Emmental, Raclette and Roquefort as usually not vegetarian.",
+        "Many makers now offer vegetarian versions of almost any cheese, so the label decides. Fresh cheeses set with acid, like ricotta, mascarpone and cream cheese, are usually vegetarian.",
+        "Want a full vegetarian board plan? Our [vegetarian charcuterie board](/blog/vegetarian-charcuterie-board/) builds one step by step. This page is the reference: every ingredient, checked."
+      ],
+      "swaps": [
+        {
+          "from": "prosciutto-di-parma",
+          "to": [
+            "marinated-mushrooms",
+            "roasted-red-peppers"
+          ],
+          "note": "Fold them like ribbons of ham."
+        },
+        {
+          "from": "genoa-salami",
+          "to": [
+            "marinated-artichokes",
+            "piquillo-peppers"
+          ],
+          "note": "Salty, oily and savory, the jobs salami does."
+        },
+        {
+          "from": "parmigiano-reggiano",
+          "to": [
+            "aged-gouda",
+            "aged-cheddar"
+          ],
+          "note": "Crystalline and nutty. Check for vegetarian rennet."
+        },
+        {
+          "from": "gorgonzola",
+          "to": [
+            "danish-blue",
+            "cambozola"
+          ],
+          "note": "Check the label; many brands use microbial rennet."
+        },
+        {
+          "from": "tapenade",
+          "to": [
+            "kalamata-olives",
+            "sun-dried-tomatoes"
+          ],
+          "note": "Or buy a tapenade without anchovies."
+        },
+        {
+          "from": "smoked-salmon",
+          "to": [
+            "labneh",
+            "pickled-red-onions"
+          ],
+          "note": "Keeps the brunch-board flavors."
+        }
+      ],
+      "labels": [
+        "On cheese, look for \"vegetarian\", \"microbial rennet\", \"vegetable rennet\" or \"non-animal rennet\". \"Enzymes\" alone doesn't tell you.",
+        "Skip cheeses with protected names whose rules call for animal rennet, like Parmigiano-Reggiano, and look for a vegetarian \"Italian hard cheese\" instead.",
+        "Pesto is usually made with Parmigiano-Reggiano or Pecorino. Check the jar.",
+        "Tapenade and kimchi can contain anchovies, fish sauce or shrimp.",
+        "Some salami-style vegetarian products contain egg or dairy, which matters if your guest is also vegan."
+      ],
+      "setup": [
+        {
+          "lead": "Keep the meat on its own side.",
+          "text": "If the board has meat for other guests, give it one end and the vegetarian items the other, with separate tongs."
+        },
+        {
+          "lead": "Make the swaps generous.",
+          "text": "Marinated vegetables and olives fill the space meat would have. Plan about the same weight."
+        },
+        {
+          "lead": "Add one more cheese.",
+          "text": "A board without meat looks full with four cheeses instead of three."
+        },
+        {
+          "lead": "Label the cheeses.",
+          "text": "A \"Vegetarian\" card on each cheese saves your guest from asking about every one."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Parmesan vegetarian?",
+          "a": "Parmigiano-Reggiano isn't. Its official recipe requires calf rennet. Some cheeses sold as \"parmesan\" or \"Italian hard cheese\" use microbial rennet and are labeled vegetarian."
+        },
+        {
+          "q": "Which cheeses are usually vegetarian?",
+          "a": "The Vegetarian Society lists paneer, ricotta, cottage cheese, cream cheese and mascarpone as usually vegetarian. For anything else, including cheddar, check the label for vegetarian or microbial rennet."
+        },
+        {
+          "q": "What replaces meat on a charcuterie board?",
+          "a": "Marinated mushrooms, artichokes, roasted peppers, olives and an extra cheese. They do the salty, savory job the meat does."
+        },
+        {
+          "q": "Is a charcuterie board without meat still charcuterie?",
+          "a": "Strictly, charcuterie means cured meat. Most people now use the word for the whole board style, with or without meat."
+        }
+      ],
+      "sources": [
+        "vegsoc-cheese",
+        "parm-calf",
+        "tapenade"
+      ],
+      "kit": "vegetarian-vegan-board-kit"
+    },
+    {
+      "slug": "vegan",
+      "key": "vegan",
+      "name": "Vegan & dairy-free",
+      "color": "#2f6b4a",
+      "keyword": "vegan charcuterie board",
+      "h1": "Vegan Charcuterie Board: Dairy-Free Swaps That Work",
+      "title": "Vegan Charcuterie Board: Dairy-Free Swaps",
+      "description": "Vegan and dairy-free charcuterie board ideas: plant cheeses, meat swaps, which crackers and spreads hide butter or honey, and what to check on the label.",
+      "answer": "Use cashew or almond cheeses, dips like hummus and baba ganoush, marinated vegetables, olives, fruit and crackers without butter. Swap honey for fig jam. For dairy-free only, also check salami for milk powder.",
+      "intro": [
+        "A vegan board is mostly a vegetable and fruit board with plant cheese at the center. The hidden animal ingredients are butter or milk powder in crackers, honey in spreads and graham crackers, and anchovies in tapenade.",
+        "Dairy-free is a smaller change: keep the meat, drop the cheese and butter, and check salami and cooked sausages, which sometimes use milk powder as a binder. Both columns are in the table below.",
+        "Looking for complete plans? Browse the [plant-based boards](/boards/plant-based/) in our library, or the [dairy-free board](/blog/dairy-free-charcuterie-board/) if your guest still eats meat."
+      ],
+      "swaps": [
+        {
+          "from": "brie",
+          "to": [
+            "vegan-brie",
+            "cashew-cheese"
+          ],
+          "note": "Most are nut-based, so not for a nut allergy."
+        },
+        {
+          "from": "cream-cheese",
+          "to": [
+            "vegan-cream-cheese",
+            "hummus"
+          ],
+          "note": "Spreadable and mild."
+        },
+        {
+          "from": "honey",
+          "to": [
+            "fig-jam",
+            "membrillo"
+          ],
+          "note": "The sweet note next to the salty items."
+        },
+        {
+          "from": "prosciutto-di-parma",
+          "to": [
+            "marinated-mushrooms",
+            "piquillo-peppers"
+          ],
+          "note": "Savory and folded like ham."
+        },
+        {
+          "from": "butter-crackers",
+          "to": [
+            "water-crackers",
+            "rice-crackers"
+          ],
+          "note": "Check the label for butter or whey."
+        },
+        {
+          "from": "dark-chocolate",
+          "to": [
+            "cocoa-nibs",
+            "medjool-dates"
+          ],
+          "note": "Or a dark chocolate with no milk listed."
+        }
+      ],
+      "labels": [
+        "On crackers and bread, look for butter, milk, whey, casein, egg and honey.",
+        "On dark chocolate, check for milk. Many bars contain it.",
+        "On salami and cooked sausages (for dairy-free guests), look for milk powder or lactose.",
+        "On tapenade and kimchi, look for anchovies, fish sauce or shrimp.",
+        "Plant cheeses are usually made from cashews or almonds. That matters if anyone has a nut allergy."
+      ],
+      "setup": [
+        {
+          "lead": "Center the board on the plant cheese.",
+          "text": "Two plant cheeses and two dips give the board the anchor that cheese usually does."
+        },
+        {
+          "lead": "Keep dairy on its own plate.",
+          "text": "If the board also has dairy cheese, serve it on a separate plate with its own knives."
+        },
+        {
+          "lead": "Fill with color.",
+          "text": "Fruit, pickled vegetables and olives fill the gaps meat would."
+        },
+        {
+          "lead": "Label the plant cheese.",
+          "text": "Plant cheese looks like dairy cheese. Label both \"Vegan\" and \"Contains nuts\"."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cheese is vegan?",
+          "a": "Plant cheeses made from cashews, almonds or other plants. Vegan brie, cashew cheese and vegan cream cheese are the easiest to find."
+        },
+        {
+          "q": "Is honey vegan?",
+          "a": "No. The Vegan Society doesn't consider honey vegan. Use fig jam, membrillo or another fruit preserve instead."
+        },
+        {
+          "q": "Are crackers vegan?",
+          "a": "Many are, but some contain butter, milk powder, whey or honey. Water crackers and rice crackers are usually vegan; check the label."
+        },
+        {
+          "q": "What's the difference between vegan and dairy-free?",
+          "a": "Dairy-free removes milk. Vegan also removes meat, fish, eggs and honey. A dairy-free guest can still eat prosciutto."
+        }
+      ],
+      "sources": [
+        "vegan-honey",
+        "tapenade"
+      ],
+      "kit": "vegetarian-vegan-board-kit"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "is-salami-gluten-free",
+      "diet": "gluten-free",
+      "q": "Is salami gluten-free?",
+      "title": "Is Salami Gluten-Free? What to Check on the Label",
+      "description": "Most salami is gluten-free, but some brands add wheat-based binders or seasonings. Here's what to read on the label before it goes on a gluten-free board.",
+      "verdict": "Usually, but check",
+      "answer": "Most salami is gluten-free: pork, salt, spices and a starter culture. Some brands add wheat-based binders, fillers or seasonings, so read the full ingredient list before serving it to a guest with celiac disease.",
+      "body": [
+        "Traditional dry salami is made from ground meat, fat, salt, spices and a curing culture. None of those contain gluten. The risk is in what some producers add: binders, fillers or seasoning blends that can contain wheat or barley.",
+        "Salami is a meat product, regulated by the USDA rather than the FDA. The National Celiac Association advises reading labels on any processed meat, like sausages and pre-seasoned meats, and asking deli staff about cross-contact. Not every meat label has a \"Contains\" line, so read the whole ingredient list."
+      ],
+      "check": [
+        "wheat, barley, rye or malt in the ingredient list",
+        "a \"gluten-free\" claim on the package",
+        "deli slicing: ask for a clean slicer and fresh gloves"
+      ],
+      "swap": {
+        "text": "If you can't read a label, use a whole-muscle cured meat instead. They're just meat, salt and time.",
+        "slugs": [
+          "prosciutto-di-parma",
+          "bresaola",
+          "coppa"
+        ]
+      },
+      "ingredients": [
+        "genoa-salami",
+        "soppressata",
+        "chorizo",
+        "finocchiona",
+        "saucisson-sec"
+      ],
+      "sources": [
+        "nca-meat",
+        "fda-gf"
+      ]
+    },
+    {
+      "slug": "is-prosciutto-gluten-free",
+      "diet": "gluten-free",
+      "q": "Is prosciutto gluten-free?",
+      "title": "Is Prosciutto Gluten-Free? Yes, and Here's Why",
+      "description": "Prosciutto is naturally gluten-free: pork leg, salt and time. Here's the one setup mistake that can put gluten on it anyway.",
+      "verdict": "Yes",
+      "answer": "Yes. Prosciutto is a whole pork leg cured with salt and air-dried. There's no wheat in it. The gluten risk on a board comes from crackers and bread touching it, not the ham.",
+      "body": [
+        "Whole-muscle cured meats are the safest meats on a gluten-free board. Prosciutto di Parma, prosciutto San Daniele, jamón serrano, bresaola and coppa are all made from a single cut of meat, salt and time.",
+        "The problem is the board. Prosciutto is often draped across crackers or wrapped around breadsticks. Keep it on its own section, use tongs, and give gluten-free crackers their own plate."
+      ],
+      "check": [
+        "pre-sliced packs: a glaze or seasoning is rare but possible",
+        "deli slicing: ask for a clean slicer",
+        "the board: no crackers or breadsticks touching it"
+      ],
+      "swap": {
+        "text": "Other cured meats that are naturally gluten-free:",
+        "slugs": [
+          "bresaola",
+          "jamon-serrano",
+          "coppa",
+          "speck"
+        ]
+      },
+      "ingredients": [
+        "prosciutto-di-parma",
+        "prosciutto-san-daniele",
+        "jamon-serrano",
+        "bresaola",
+        "coppa"
+      ],
+      "sources": [
+        "nca-meat"
+      ]
+    },
+    {
+      "slug": "are-gluten-free-crackers-safe-for-celiac",
+      "diet": "gluten-free",
+      "q": "Which crackers are safe for a guest with celiac disease?",
+      "title": "Gluten-Free Crackers for Charcuterie: What's Safe for Celiac",
+      "description": "Which crackers work on a gluten-free charcuterie board, why the gluten-free label matters even on rice crackers, and how to serve them without crumbs from wheat.",
+      "verdict": "Labeled gluten-free only",
+      "answer": "Use crackers labeled gluten-free: rice, cassava, chickpea or seed crackers, plantain chips or cheese crisps. A wheat-free recipe isn't enough on its own, because some share a production line with wheat.",
+      "body": [
+        "In the US, a \"gluten-free\" label means the food tested under 20 parts per million of gluten, the FDA's limit. That's the number that matters for celiac disease, and a rice cracker without the label hasn't promised it.",
+        "Then serve them on their own plate. A gluten-free cracker that sits in the crumbs of a baguette isn't gluten-free anymore.",
+        "For brand picks, see [the best gluten-free crackers for a charcuterie board, ranked](/blog/best-gluten-free-crackers/)."
+      ],
+      "check": [
+        "\"gluten-free\" on the box",
+        "oats: only with a gluten-free label",
+        "nuts: Nut-Thins and almond-flour crackers aren't nut-free"
+      ],
+      "swap": {
+        "text": "Gluten-free crackers and scoops from our ingredient library:",
+        "slugs": [
+          "rice-crackers",
+          "cassava-crackers",
+          "chickpea-crackers",
+          "plantain-chips",
+          "parmesan-crisps",
+          "vegetable-bases"
+        ]
+      },
+      "ingredients": [
+        "rice-crackers",
+        "cassava-crackers",
+        "nut-thins",
+        "almond-flour-crackers",
+        "flaxseed-crackers"
+      ],
+      "sources": [
+        "fda-gf"
+      ]
+    },
+    {
+      "slug": "is-parmesan-vegetarian",
+      "diet": "vegetarian",
+      "q": "Is Parmesan vegetarian?",
+      "title": "Is Parmesan Vegetarian? The Rennet Answer",
+      "description": "Parmigiano-Reggiano isn't vegetarian because its official recipe requires calf rennet. Here's what to buy instead for a vegetarian board.",
+      "verdict": "No (Parmigiano-Reggiano)",
+      "answer": "Parmigiano-Reggiano isn't vegetarian. Its official recipe requires calf rennet. Some cheeses sold as \"parmesan-style\" or \"Italian hard cheese\" use microbial rennet and say vegetarian on the label.",
+      "body": [
+        "Rennet is the enzyme that turns milk into curd. Traditionally it comes from the stomach of a young calf. Protected cheeses like Parmigiano-Reggiano have to follow their official recipe, and that recipe calls for calf rennet, so no genuine Parmigiano-Reggiano is vegetarian.",
+        "Grana Padano and Pecorino Romano are in the same position. The Vegetarian Society also lists Gruyère, Gorgonzola, Manchego, Emmental, Camembert, Raclette and Roquefort as usually not vegetarian."
+      ],
+      "check": [
+        "\"vegetarian\" on the package",
+        "\"microbial\", \"vegetable\" or \"non-animal\" rennet",
+        "pesto and cheese crisps, which often use Parmigiano-Reggiano"
+      ],
+      "swap": {
+        "text": "For the same nutty, crystalline bite, use an aged cheese labeled vegetarian:",
+        "slugs": [
+          "aged-gouda",
+          "aged-cheddar",
+          "mimolette"
+        ]
+      },
+      "ingredients": [
+        "parmigiano-reggiano",
+        "grana-padano",
+        "pecorino-romano",
+        "parmesan-crisps",
+        "pesto"
+      ],
+      "sources": [
+        "parm-calf",
+        "vegsoc-cheese"
+      ]
+    },
+    {
+      "slug": "which-cheeses-are-vegetarian",
+      "diet": "vegetarian",
+      "q": "Which cheeses are vegetarian?",
+      "title": "Which Cheeses Are Vegetarian? A Board-Builder's List",
+      "description": "Which cheeses are usually vegetarian, which usually aren't because of animal rennet, and how to read the label before you build a vegetarian board.",
+      "verdict": "It depends on the rennet",
+      "answer": "Fresh cheeses set with acid, like ricotta, mascarpone and cream cheese, are usually vegetarian. Parmigiano-Reggiano, Pecorino Romano, Gruyère, Gorgonzola and Roquefort usually aren't. For everything else, the label decides.",
+      "body": [
+        "Cheese is vegetarian when the rennet that sets it is microbial or plant-based, or when it's set with acid and no rennet at all. Many cheesemakers now make vegetarian versions of almost every style, so the same cheese can go either way depending on the brand.",
+        "The table below sorts all the cheeses in our ingredient library into usually vegetarian, check the label, and usually not vegetarian, with the reason for each."
+      ],
+      "check": [
+        "\"vegetarian\" on the label",
+        "\"microbial\", \"vegetable\" or \"non-animal\" rennet",
+        "protected names like Parmigiano-Reggiano, whose rules require animal rennet"
+      ],
+      "swap": {
+        "text": "Plant cheeses are always vegetarian (and vegan):",
+        "slugs": [
+          "vegan-brie",
+          "cashew-cheese",
+          "vegan-cream-cheese"
+        ]
+      },
+      "ingredientsFromCategory": "Cheese",
+      "ingredients": [],
+      "sources": [
+        "vegsoc-cheese",
+        "parm-calf"
+      ]
+    },
+    {
+      "slug": "are-pink-peppercorns-safe-for-nut-allergies",
+      "diet": "nut-free",
+      "q": "Are pink peppercorns safe for a nut allergy?",
+      "title": "Pink Peppercorns and Nut Allergies: Leave Them Off",
+      "description": "Pink peppercorns are in the cashew family, and people allergic to cashews or pistachios can react to them. Here's what to use on a nut-free board instead.",
+      "verdict": "Leave them off",
+      "answer": "Pink peppercorns aren't true pepper. They come from a plant in the cashew family, and people allergic to cashews or pistachios can react to them. Leave them off a nut-free board.",
+      "body": [
+        "Pink peppercorns are a popular garnish because they're pretty and fruity. Botanically they belong to the Anacardiaceae, the same family as cashews and pistachios, and allergic reactions, including anaphylaxis, have been reported in people with tree nut allergies.",
+        "They usually aren't labeled as a nut, because legally they aren't one. That's what makes them easy to miss."
+      ],
+      "check": [
+        "spice blends and peppercorn mixes",
+        "garnishes on store-bought cheese",
+        "the guest's own advice: ask which nuts they react to"
+      ],
+      "swap": {
+        "text": "For color and a little heat without the risk:",
+        "slugs": [
+          "chili-flakes",
+          "cracked-black-pepper",
+          "pomegranate"
+        ]
+      },
+      "ingredients": [
+        "pink-peppercorns"
+      ],
+      "sources": [
+        "pink-pepper"
+      ]
+    },
+    {
+      "slug": "does-mortadella-have-nuts",
+      "diet": "nut-free",
+      "q": "Does mortadella have nuts?",
+      "title": "Does Mortadella Have Nuts? Pistachios and Allergies",
+      "description": "Many mortadellas contain pistachios, and some don't. How to tell, and what to serve instead for a guest with a nut allergy.",
+      "verdict": "Often (pistachios)",
+      "answer": "Often. Many mortadellas are studded with pistachios, and some are plain. Read the label every time, and for a serious tree nut allergy, use prosciutto cotto or salami instead.",
+      "body": [
+        "Mortadella is traditionally flavored with peppercorns, and many modern versions add pistachios. They're visible as green dots in the slice, but pre-sliced packs and deli slicers make it easy to miss, and a plain mortadella sliced on a shared machine can pick up traces.",
+        "US labels must name the tree nut, so a pistachio mortadella will say pistachios in the ingredients or a \"Contains\" line."
+      ],
+      "check": [
+        "\"pistachios\" in the ingredient list",
+        "green flecks in the slice",
+        "deli slicers shared with pistachio mortadella"
+      ],
+      "swap": {
+        "text": "Mild, sliceable meats that don't use nuts:",
+        "slugs": [
+          "prosciutto-cotto",
+          "genoa-salami",
+          "prosciutto-di-parma"
+        ]
+      },
+      "ingredients": [
+        "mortadella"
+      ],
+      "sources": [
+        "mortadella",
+        "fda-label"
+      ]
+    },
+    {
+      "slug": "is-honey-vegan",
+      "diet": "vegan",
+      "q": "Is honey vegan?",
+      "title": "Is Honey Vegan? What to Use on a Vegan Board",
+      "description": "Honey isn't vegan by the Vegan Society's definition. Here's what to use instead on a vegan charcuterie board, and the other places honey hides.",
+      "verdict": "No",
+      "answer": "No. Honey is made by bees, and the Vegan Society doesn't consider it vegan. On a vegan board, use fig jam, membrillo or another fruit preserve for the sweet note.",
+      "body": [
+        "Honey is one of the most common additions to a cheese board, which makes it easy to forget on a vegan one. It also hides in hot honey, honey mustard, honey-roasted nuts and many graham crackers.",
+        "Some vegetarians eat honey and some vegans debate it, but the Vegan Society's position is clear, and it's the safe default when you're hosting someone else."
+      ],
+      "check": [
+        "hot honey and truffle honey",
+        "honey mustard and honey-roasted nuts",
+        "graham crackers and some granola"
+      ],
+      "swap": {
+        "text": "Sweet spreads that are vegan:",
+        "slugs": [
+          "fig-jam",
+          "membrillo",
+          "apricot-jam",
+          "cherry-preserves"
+        ]
+      },
+      "ingredients": [
+        "honey",
+        "hot-honey",
+        "honeycomb",
+        "honey-mustard",
+        "graham-crackers"
+      ],
+      "sources": [
+        "vegan-honey"
+      ]
+    }
+  ],
+  "classify": {
+    "title": "How We Classify Ingredients for Each Diet",
+    "description": "How Charcuterie Lab decides whether an ingredient is safe, needs a label check, or should be skipped for gluten-free, nut-free, vegetarian, vegan and dairy-free boards.",
+    "intro": "Every ingredient in our library gets one of three verdicts for each diet. They're a starting point for shopping, not a substitute for reading the label in your hand."
+  },
+  "mixed": {
+    "title": "Charcuterie for Mixed Diets: One Board or Two?",
+    "description": "How to plan one charcuterie spread for guests who are gluten-free, nut-free, vegetarian and vegan at the same time, including the conflicts to watch for.",
+    "answer": "Plan for the strictest needs first. Allergies and celiac disease need separation: their own plate, built first. Vegetarian and vegan guests need labels. Most parties work as one board plus a small safe plate."
+  }
+}

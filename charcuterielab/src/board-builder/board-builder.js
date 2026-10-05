@@ -448,7 +448,7 @@ function newsCard(where) {
 
 function shareUrl() {
   const base = location.origin && location.origin !== "null" ? location.origin + location.pathname : "https://charcuterielab.com/board-builder/";
-  return `${base}?b=${encodeURIComponent(state.picks.join(","))}&g=${state.guests}&m=${state.mode}`;
+  return `${base}?b=${encodeURIComponent(state.picks.join(","))}&g=${state.guests}&m=${state.mode}${state.diets.length ? `&d=${state.diets.join(",")}` : ""}`;
 }
 
 // The book is the site's first product, so the finished shopping list offers
@@ -959,6 +959,16 @@ function fromLink() {
   // shared links reopen a board: ?b=slug,slug&g=12&m=main
   const params = new URLSearchParams(location.search);
   const MODES = ["app", "main", "meal"];
+  // Dietary Hub links: ?d=gluten-free,vegan (with or without a board)
+  const linkDiets = (params.get("d") || "").split(",").map((s) => s.trim()).filter((k) => DIETS.some((d) => d.key === k));
+  if (!params.has("b") && linkDiets.length) {
+    state = Object.assign(fresh(), load() || {}, { diets: [...new Set(linkDiets)] });
+    const gd = parseInt(params.get("g"), 10);
+    if (gd > 0 && gd <= 200) state.guests = gd;
+    if (MODES.includes(params.get("m"))) state.mode = params.get("m");
+    save();
+    return false;
+  }
   if (!params.has("b")) {
     // Party Planner links: ?g=20&m=main opens an empty board sized for 20
     const g0 = parseInt(params.get("g"), 10);
@@ -971,6 +981,7 @@ function fromLink() {
   const slugs = params.get("b").split(",").map((s) => s.trim()).filter((s) => B.bySlug.has(s));
   if (!slugs.length) return false;
   state = Object.assign(fresh(), load() || {}, { picks: [...new Set(slugs)], view: "build" });
+  if (linkDiets.length) state.diets = [...new Set(linkDiets)];
   const g = parseInt(params.get("g"), 10);
   if (g > 0 && g <= 200) state.guests = g;
   if (MODES.includes(params.get("m"))) state.mode = params.get("m");

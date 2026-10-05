@@ -13,6 +13,8 @@ slug: "best-gluten-free-crackers"
 
 > **Quick Answer:** Our top pick for gluten-free crackers on a charcuterie board is Crunchmaster Multi-Seed Crackers (4.7 out of 5). Best value: Blue Diamond Nut-Thins. Splurge: Hu Grain-Free Crackers. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
 
+> **Serving a guest with celiac disease?** Buy boxes labeled gluten-free and give them their own plate. Nut-Thins contain almonds, so they don't work for a nut allergy. See the [gluten-free board guide](/dietary/gluten-free/).
+
 A good gluten-free cracker has to be sturdy, not crumbly, and taste like a cracker rather than a rice cake. These held up best in published taste tests.
 
 *How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked September 2026.*

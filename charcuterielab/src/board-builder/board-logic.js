@@ -5,10 +5,14 @@
 
 export const DIETS = [
   { key: "vegetarian", label: "Vegetarian" },
+  { key: "vegan", label: "Vegan" },
   { key: "dairy-free", label: "Dairy-free" },
   { key: "gluten-free", label: "Gluten-free" },
   { key: "nut-free", label: "Nut-free" }
 ];
+// Order of the verdict codes in item.d (built from content/dietary/ingredient-diets.json):
+// 0 = safe, 1 = check the label, 2 = skip. See /dietary/how-we-classify/.
+export const DIET_ORDER = ["gluten-free", "nut-free", "vegetarian", "vegan", "dairy-free"];
 
 // avoid_with values on the ingredient pages are either an ingredient slug or
 // one of these broader groups.
@@ -56,7 +60,11 @@ export function createBoard(data) {
   }
 
   function allowed(item, diets) {
+    // Dietary Hub verdicts win when present: "skip" is out, "check" stays in
+    // (the shopping list tells people to read the label).
+    if (item.d) return diets.every((k) => { const at = DIET_ORDER.indexOf(k); return at === -1 || item.d[at] !== 2; });
     const has = (words) => words.some((w) => item.a.indexOf(w) !== -1);
+    if (diets.indexOf("vegan") !== -1 && (item.c === 0 || item.c === 1 || has(["dairy", "egg", "eggs", "fish", "shellfish"]) || /honey/.test(item.s))) return false;
     if (diets.indexOf("vegetarian") !== -1 && (item.c === 1 || MEATY.test(item.s) || has(["fish", "shellfish"]))) return false;
     if (diets.indexOf("dairy-free") !== -1 && has(["dairy"])) return false;
     if (diets.indexOf("gluten-free") !== -1 && has(["gluten", "wheat", "rye", "oats"])) return false;
@@ -227,6 +235,8 @@ export function createBoard(data) {
     });
     const notDiet = diets.length ? picks.filter((p) => !allowed(p, diets)) : [];
     if (notDiet.length) out.push({ level: "todo", text: `${list(notDiet.map((p) => p.t))} ${notDiet.length > 1 ? "don't" : "doesn't"} fit the dietary needs you set.` });
+    const toCheck = diets.length ? picks.filter((p) => p.d && allowed(p, diets) && diets.some((k) => { const at = DIET_ORDER.indexOf(k); return at !== -1 && p.d[at] === 1; })) : [];
+    if (toCheck.length) out.push({ level: "tip", text: `Check the label on ${list(toCheck.map((p) => p.t))}: ${toCheck.length > 1 ? "they vary" : "it varies"} by brand for the diets you set. See the Dietary Hub for what to look for.` });
     if (picks.length > 16) out.push({ level: "tip", text: "That's a big board, best for a crowd of 15 or more." });
 
     const order = { todo: 0, tip: 1, good: 2 };

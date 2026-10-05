@@ -17,7 +17,10 @@ export const SAMPLE_PDF = "/downloads/charcuterie-lab-free-board-01.pdf";
 // `python3 scripts/party-pdfs.py cheatsheet`.
 export const CHEAT_PDF = "/downloads/charcuterie-cheat-sheet.pdf";
 export const CHEAT_IMG = "/images/charcuterie-cheat-sheet.webp";
-const revealJs = `<script>(function(){document.querySelectorAll("[data-fx-sample]").forEach(function(f){if(f.dataset.bound)return;f.dataset.bound=1;f.addEventListener("submit",function(){var d=f.querySelector(".fx-sample-done");setTimeout(function(){d.hidden=false},200)})})})();</script>`;
+// beehiiv embedded subscribe form for the cheat sheet (created 2 Oct 2026).
+export const BEEHIIV_LOADER = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+export const CHEAT_FORM_ID = "caa8cdee-ee7d-4936-b95f-3e7f9a1f24b1";
+export const CHEAT_THANKS = "/thanks/cheat-sheet/";
 
 // The book's own table of contents groups (pages 5-6 of the book).
 export const BOOK_SECTIONS = [
@@ -187,20 +190,16 @@ export function makeFunnel(h) {
     <script>(function(){document.querySelectorAll("[data-fx-sample]").forEach(function(f){if(f.dataset.bound)return;f.dataset.bound=1;f.addEventListener("submit",function(){var d=f.querySelector(".fx-sample-done");setTimeout(function(){d.hidden=false},200)})})})();</script>`;
   }
 
-  // Free Cheat Sheet for an email. Same pattern as the sample form: the email
-  // goes to the newsletter in a new tab and the download link appears here.
-  // "inline" sits inside an article; "panel" replaces the plain newsletter box.
-  function cheatForm(id, campaign, label = "Email me the cheat sheet") {
-    return `<form class="fx-sample-form fx-lead-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener" data-fx-sample>
-        <label class="sr-only" for="${id}">Email address</label>
-        <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <input type="hidden" name="utm_source" value="charcuterielab">
-        <input type="hidden" name="utm_medium" value="site">
-        <input type="hidden" name="utm_campaign" value="${esc(campaign)}">
-        <button class="button primary" type="submit">${esc(label)}</button>
-        <p class="fx-sample-done" hidden>Your cheat sheet is ready: <a class="button" href="${CHEAT_PDF}" download>Download the PDF (2 pages)</a><span>You're also on the Lab Report. Confirm in the tab that just opened.</span></p>
-      </form>
-      ${revealJs}`;
+  // Free Cheat Sheet for an email. beehiiv's embedded form (one step, on the
+  // page). After signup beehiiv sends the reader to /thanks/cheat-sheet/, where
+  // the download is. The form, its button text and the redirect live in
+  // beehiiv (Subscribers > Subscribe forms > "Cheat sheet"). Without
+  // JavaScript the reader gets a plain link to the beehiiv signup page instead.
+  function cheatForm(id, campaign) {
+    return `<div class="fx-bh-form" id="${esc(id)}" data-campaign="${esc(campaign)}">
+        <script async src="${BEEHIIV_LOADER}" data-beehiiv-form="${CHEAT_FORM_ID}"></script>
+        <noscript><a class="button primary" href="${newsletterUrl}">Get the cheat sheet</a></noscript>
+      </div>`;
   }
 
   function leadBox(id, campaign, { title = "The Charcuterie Cheat Sheet", intro = "" } = {}) {

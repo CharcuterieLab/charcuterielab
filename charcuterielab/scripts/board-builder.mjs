@@ -149,7 +149,9 @@ export function boardBuilderData(ingredients, { categoryArt }) {
     g: item.tags,
     w: item.pairsWith.filter((s) => bySlug.has(s)),
     x: item.avoidWith || [],
-    i: item.image || ""
+    i: item.image || "",
+    // diet verdicts [gluten-free, nut-free, vegetarian, vegan, dairy-free]: 0 safe, 1 check, 2 skip
+    ...(item.diets ? { d: item.diets } : {})
   }));
 
   const data = {

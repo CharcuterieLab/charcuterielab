@@ -5,8 +5,9 @@ import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
+import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientDietBlock, loadDietary } from "./dietary.mjs";
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
-import { bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
+import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { PLANT_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -419,8 +420,8 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(search|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
-const linkIndex = { live: null, redirects: new Set(), held: new Map() };
+const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const linkIndex = { live: null, redirects: new Set(), held: new Map(), merged: {} };
 
 function resolveSiteLink(href = "") {
   const m = href.match(/^(?:https?:\/\/(?:www\.)?charcuterielab\.com)?(\/[^?#]*)?([?#].*)?$/i);
@@ -431,6 +432,8 @@ function resolveSiteLink(href = "") {
   if (!path) return "/" + tail;
   if (SITE_SECTIONS.test(path)) return pathname + tail;
   const slug = path.replace(/^blog\//, "");
+  // Posts merged into another post (content/merged/redirects.json): link straight to the survivor.
+  if (linkIndex.merged[slug]) return `/blog/${linkIndex.merged[slug]}/` + tail;
   if (path === "blog" ) return "/blog/" + tail;
   if (!linkIndex.live) return `/blog/${slug}/` + tail; // index not ready (ingredient pages): old behaviour
   if (linkIndex.live.has(slug)) return `/blog/${slug}/` + tail;
@@ -1407,6 +1410,7 @@ ${head}
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/pairings/">Pairings</a>
+        <a href="/dietary/">Dietary</a>
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
         <a class="nav-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="nav-search-label">Search</span></a>
@@ -1432,6 +1436,7 @@ ${head}
         <a href="/board-builder/">Board Builder</a>
         <a href="/ingredients/">Ingredients</a>
         <a href="/pairings/">Pairings Hub</a>
+        <a href="/dietary/">Dietary Hub</a>
         <a href="/blog/">Blog</a>
         <a href="/shop/">Shop</a>
         <a href="/#newsletter">Newsletter</a>
@@ -2429,19 +2434,21 @@ async function build() {
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
 
-  const [allPosts, allProducts, ingredients, boards, holidays, pairingData] = await Promise.all([
+  const [allPosts, allProducts, ingredients, boards, holidays, pairingData, dietData] = await Promise.all([
     loadPosts(),
     readFile(paths.products, "utf8").then(JSON.parse),
     loadIngredients(),
     loadBoards(root),
     loadHolidays(root),
-    loadPairings(root)
+    loadPairings(root),
+    loadDietary(root)
   ]);
   const posts = allPosts.filter((post) => isPublishedPost(post));
   // A printable goes live on the site once its Gumroad URL is filled in.
   const products = allProducts.filter((p) => p.url);
   linkIndex.live = new Set(posts.map((post) => post.slug));
   linkIndex.redirects = await loadRedirectSources();
+  try { linkIndex.merged = JSON.parse(await readFile(join(root, "content", "merged", "redirects.json"), "utf8")); } catch {}
   posts.forEach((post) => {
     post.html = markdownToHtml(post.body);
   });
@@ -2471,7 +2478,10 @@ async function build() {
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), { loc: "/printables/", priority: "0.8" }, { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
+  // Dietary Hub index: also sets item.diets, which the Board Builder data
+  // reads. Throws if any ingredient is missing a diet verdict.
+  const dietIdx = dietData && ingredients.length ? dietaryIndex(dietData, ingredients, boards) : null;
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   await mkdir(join(dist, "blog"), { recursive: true });
@@ -2486,6 +2496,8 @@ async function build() {
   }
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
+  await mkdir(join(dist, "thanks", "cheat-sheet"), { recursive: true });
+  await writeFile(join(dist, "thanks", "cheat-sheet", "index.html"), cheatThanksPage());
   await mkdir(join(dist, "about"), { recursive: true });
   await writeFile(join(dist, "about", "index.html"), aboutPage({ posts: posts.length, ingredients: ingredients.length, boards: boards.length }));
 
@@ -2563,7 +2575,7 @@ async function build() {
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item), mentions));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item) + ingredientDietBlock({ escapeHtml }, dietIdx, item), mentions));
       })
     );
 
@@ -2677,6 +2689,24 @@ async function build() {
       }
       console.log(`Pairings Hub: ${pages.length} pages, ${pairIdx.drinks.length} drinks, ${pairIdx.foods.length} food guides, ${pairIdx.combos.length} combos, ${pairIdx.reasons.size} reasons`);
     }
+    if (dietIdx) {
+      const dietSrc = join(root, "src", "dietary", "dietary.js");
+      const dietScript = await readFile(dietSrc, "utf8");
+      const dietJson = dietaryClientData(dietIdx, CATEGORY_ORDER);
+      await writeFile(join(dist, "assets", "dietary.js"), dietScript);
+      await writeFile(join(dist, "assets", "dietary-data.json"), dietJson);
+      const dietH = { ...boardHelpers, newsletterUrl };
+      const pages = dietaryPages(dietH, dietIdx, {
+        categories: CATEGORY_ORDER,
+        scriptSrc: `/assets/dietary.js?v=${hash(dietScript)}`,
+        dataSrc: `/assets/dietary-data.json?v=${hash(dietJson)}`
+      });
+      for (const pg of pages) {
+        await mkdir(join(dist, dirname(pg.path)), { recursive: true });
+        await writeFile(join(dist, pg.path), pg.html);
+      }
+      console.log(`Dietary Hub: ${pages.length} pages, ${dietIdx.total} ingredients x 5 diets`);
+    }
     console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }
 
@@ -2695,7 +2725,7 @@ async function buildSearch() {
   async function walk(dir, rel) {
     for (const e of await readdir(dir, { withFileTypes: true })) {
       if (e.isDirectory()) {
-        if (["assets", "images", "downloads", "search", "privacy"].includes(e.name) && !rel) continue;
+        if (["assets", "images", "downloads", "search", "privacy", "thanks"].includes(e.name) && !rel) continue;
         await walk(join(dir, e.name), rel ? `${rel}/${e.name}` : e.name);
       } else if (e.name === "index.html" && rel) {
         const html = await readFile(join(dir, e.name), "utf8");
@@ -2722,7 +2752,7 @@ async function buildSearch() {
 function llmsTxt(pages) {
   const by = (u) => pages.find((p) => p.u === u);
   const line = (u, note = "") => { const p = by(u); return p ? `- [${p.t}](${siteUrl}${u})${note || (p.d ? `: ${p.d}` : "")}` : ""; };
-  const guides = ["/blog/how-much-charcuterie-per-person/", "/blog/how-to-make-charcuterie-board/", "/blog/what-goes-on-charcuterie-board/", "/blog/what-cheese-goes-on-charcuterie-board/", "/blog/best-cheese-charcuterie-board/", "/blog/best-meats-charcuterie-board/", "/blog/what-bread-for-charcuterie-board/", "/blog/build-sequence/", "/blog/temperature-guide/", "/blog/how-long-charcuterie-board-last/", "/blog/make-charcuterie-board-night-before/", "/blog/grazing-table/", "/blog/charcuterie-board-for-large-group/", "/blog/salami-vs-pepperoni/", "/blog/pairing-by-contrast/"];
+  const guides = ["/blog/how-much-charcuterie-per-person/", "/blog/how-to-make-charcuterie-board/", "/blog/what-goes-on-charcuterie-board/", "/blog/best-cheese-charcuterie-board/", "/blog/wine-and-charcuterie-board/", "/blog/best-meats-charcuterie-board/", "/blog/what-bread-for-charcuterie-board/", "/blog/build-sequence/", "/blog/temperature-guide/", "/blog/how-long-charcuterie-board-last/", "/blog/make-charcuterie-board-night-before/", "/blog/grazing-table/", "/blog/charcuterie-board-for-large-group/", "/blog/salami-vs-pepperoni/", "/blog/pairing-by-contrast/"];
   return [
     "# Charcuterie Lab",
     "",
@@ -2749,6 +2779,37 @@ function llmsTxt(pages) {
     line("/about/"),
     ""
   ].filter((x) => x !== undefined).join("\n");
+}
+
+// Where beehiiv sends a reader after the cheat sheet signup (set in the
+// beehiiv form's Settings > Redirect to an external website). Not indexed.
+function cheatThanksPage() {
+  return layout({
+    title: "Your Cheat Sheet Is Ready | Charcuterie Lab",
+    canonical: CHEAT_THANKS,
+    description: "Download the free Charcuterie Cheat Sheet: how much to buy for 4 to 50 guests, the build order, fridge timing and four pairing rules.",
+    head: `  <meta name="robots" content="noindex, follow">`,
+    body: `<main class="ebook-page thanks-page">
+  <section class="ebook-section">
+    <div class="ebook-section-inner thanks-inner">
+      <p class="section-kicker">You're in</p>
+      <h1>Your cheat sheet is ready</h1>
+      <div class="thanks-download">
+        <img src="/images/charcuterie-cheat-sheet.webp" alt="Page 1 of the Charcuterie Cheat Sheet" width="480" height="621" decoding="async">
+        <div>
+          <p>Two printable pages: how much meat, cheese and crackers for 4 to 50 guests, the 7-step build order, when to take each cheese out of the fridge, and four pairing rules.</p>
+          <p><a class="button primary" href="${CHEAT_PDF}" download>Download the cheat sheet (PDF)</a></p>
+          <p class="thanks-note">A copy is on its way to your inbox too, with the first Lab Report. If it isn't there in a few minutes, check Promotions or Spam and drag it to your inbox so the next one lands.</p>
+        </div>
+      </div>
+      <h2>Next: one board, fully planned</h2>
+      <p>The cheat sheet tells you how much. The book tells you exactly what: 50 boards, each with a shopping list, a timed build, placement steps and a swap for every ingredient. That's 28&cent; a board.</p>
+      ${bookButtons("thanks_cheat")}
+      <p class="thanks-note">Not sure yet? <a href="${SAMPLE_PDF}">Read board 01 free</a>, or plan your party with the <a href="/party-planner/">Party Planner</a>.</p>
+    </div>
+  </section>
+</main>`
+  });
 }
 
 function searchPage(count) {

@@ -13,6 +13,8 @@ tags: "["charcuterie board nuts", "charcuterie board", "board building"]"
 
 > **Quick Answer:** Marcona almonds are the board standard — their oleic acid fat profile pairs with nearly every cheese, their mild flavor doesn't compete, and their butter-roasted finish is appealing. Add walnuts for bold cheese sections, pecans near soft cheese. 0.5–1 oz per person, lightly salted, one or two nut types maximum.
 
+> **Nut allergy at the party?** Roasted pumpkin and sunflower seeds give the same crunch. See the [nut-free board guide](/dietary/nut-free/) for where else nuts hide.
+
 ## Why Nuts Belong on a Charcuterie Board
 
 Nuts perform three distinct functions that no other board element replicates:
