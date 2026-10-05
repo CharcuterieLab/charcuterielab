@@ -8,6 +8,7 @@ description: "Castelvetrano olives are the most board-friendly olive — buttery
 faq: "[{"question":"Why are Castelvetrano olives green when most table olives are black or dark?","answer":"Castelvetrano olives are harvested young, before they fully ripen and oxidize to dark colors. They're cured in brine (not lye, as many commercial olives are), which preserves their vibrant green color and natural mild flavor. The lack of full ripening and the gentler curing process are what give them their distinctive mellow sweetness rather than the stronger bitterness of most olive varieties."},{"question":"How do Castelvetrano olives pair with wine?","answer":"Their mildness makes them unusually wine-friendly. They work with both whites and reds where many olive varieties would clash. Light to medium whites (Vermentino, Pinot Grigio) pair beautifully with their fresh, grassy note. Light reds (Barbera, light Chianti) work better than tannic heavyweights, which can amplify the olive's bitterness."},{"question":"Do Castelvetrano olives have pits?","answer":"Most Castelvetrano olives sold for charcuterie boards are pitted for convenience. Pit-in olives have slightly more flavor (the pit prevents oxidation at the center) but require a discard bowl on the board. For board use, pitted versions are more practical and still excellent quality."},{"question":"How long do Castelvetrano olives last in the fridge?","answer":"Once opened, keep them submerged in their brine and refrigerated. They stay at good quality for 2–3 weeks. The brine helps prevent oxidation and maintains their texture. Do not freeze — the texture becomes mealy after thawing."}]"
 slug: "castelvetrano"
 tags: "["castelvetrano", "charcuterie board", "charcuterie pairings", "ingredient deep dive"]"
+updated: "2026-10-05"
 ---
 
 # Castelvetrano Olives: The Board Olive That Converts Non-Olive People
@@ -57,6 +58,37 @@ The mild bitterness from the olive's natural oleuropein (significantly reduced t
 **Pairing with bold, pungent cheese.** Castelvetrano's mild profile gets lost next to strong blues or aged washed-rind cheeses. Position them near mild to medium-aged cheeses where the contrast is legible.
 
 **Using brine-free olives.** Some stores sell Castelvetrano without brine, dried or marinated in olive oil. These behave differently — the texture is firmer, the flavor more concentrated. If you can find them in brine, that's the correct product for a board.
+
+## How Castelvetrano Olives Are Made
+
+Castelvetranos are harvested young and cured using a lye process followed by brining in lightly salted water. This gentle curing preserves their bright green color and sweet flavor.
+
+**The process:**
+1. Harvested young, still green
+2. Treated with lye to remove bitterness
+3. Rinsed thoroughly
+4. Brined in lightly salted water
+5. Sometimes finished with olive oil
+
+**What this process does:**
+- Removes harsh bitterness and keeps natural sweetness
+- Preserves bright color and visual appeal
+- Maintains firm texture and crisp bite
+
+## Castelvetrano Board Idea: "The Mediterranean Fresh Board"
+
+**Ingredients**
+- Castelvetrano olives, in a small dish
+- Fresh mozzarella or burrata
+- Prosciutto
+- Cherry tomatoes
+- Roasted red peppers
+- Fresh basil
+- Focaccia bread
+- High-quality olive oil, for drizzling
+- Balsamic glaze
+
+This board feels fresh, bright, and Mediterranean, anchored by those beautiful green olives.
 
 ## The Charcuterie Lab Takeaway
 

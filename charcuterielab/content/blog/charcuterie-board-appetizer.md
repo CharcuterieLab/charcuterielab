@@ -100,7 +100,7 @@ An appetizer board before an Italian dinner should lean Italian (prosciutto, Par
 
 - [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)
-- [Charcuterie Board Serving Size: Exactly How Much Per Person](https://charcuterielab.com/blog/charcuterie-board-serving-size/)
+- [Charcuterie Board Serving Size: Exactly How Much Per Person](/blog/how-much-charcuterie-per-person/)
 
 ## FAQ
 

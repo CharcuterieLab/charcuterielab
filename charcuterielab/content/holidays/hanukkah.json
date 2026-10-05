@@ -1,0 +1,156 @@
+{
+  "slug": "hanukkah",
+  "name": "Hanukkah",
+  "order": 4,
+  "dates": [
+    "2026-12-04",
+    "2027-12-24"
+  ],
+  "season": "Winter",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "Hanukkah Charcuterie Board Ideas",
+  "seo_title": "Hanukkah Charcuterie Board Ideas (Kosher-Style)",
+  "description": "Hanukkah charcuterie board ideas: a dairy latke-and-lox board, a deli meat board with no pork, a menorah-shaped board, a gelt dessert board, and how much to buy.",
+  "image": "/images/hanukkah-charcuterie-board.jpg",
+  "answer": "A Hanukkah board works best kosher-style: build a dairy board (cheese, smoked salmon, latkes with sour cream and applesauce) or a meat board (beef salami and pastrami, no pork), and keep the two apart. Shape it like a menorah or a Star of David in blue and white, add something fried in oil, and plan about 2 oz each of the main foods per guest before a meal.",
+  "ideas": [
+    {
+      "title": "The Latke and Lox Board",
+      "for": "Dairy board · 10 guests",
+      "text": "Crisp latkes with sour cream and applesauce, smoked salmon with whipped cream cheese, capers and red onion, a sharp cheddar and a soft goat cheese, plus cucumbers and rye crisps. Every item is dairy or pareve, so nothing on it is meat.",
+      "items": [
+        "smoked-salmon",
+        "cream-cheese",
+        "capers",
+        "pickled-red-onions",
+        "aged-cheddar",
+        "fresh-chevre",
+        "rye-crispbread",
+        "apples",
+        "dill-pickles"
+      ],
+      "guests": 10
+    },
+    {
+      "title": "The Deli Meat Board",
+      "for": "Meat board · 8 guests",
+      "text": "Beef salami, pastrami and smoked turkey with deli mustard, half-sour pickles, olives, hummus and baba ganoush, with rye and challah. No cheese or butter on this one, so it can follow a meat meal.",
+      "items": [
+        "pastrami",
+        "whole-grain-mustard",
+        "dill-pickles",
+        "mixed-marinated-olives",
+        "hummus",
+        "baba-ganoush",
+        "cocktail-rye",
+        "pita-chips"
+      ],
+      "guests": 8
+    },
+    {
+      "title": "The Gelt and Sufganiyot Dessert Board",
+      "for": "After the candles · 12 guests",
+      "text": "Chocolate gelt, jelly doughnut holes, rugelach, halvah, dried apricots and dates, pistachios and a bowl of honey. Choose a pareve (dairy-free) chocolate if it follows a meat meal.",
+      "items": [
+        "dark-chocolate",
+        "dried-apricots",
+        "medjool-dates",
+        "pistachios",
+        "honey",
+        "apricot-jam",
+        "shortbread"
+      ],
+      "guests": 12
+    }
+  ],
+  "boards": [
+    "plant-based-holiday-board"
+  ],
+  "shapes": [
+    {
+      "name": "Menorah Board",
+      "shape": "menorah",
+      "steps": [
+        "On a long rectangular board, stand nine breadsticks or long crackers in a row, with the middle one (the shamash) taller than the rest.",
+        "Put a cube of cheddar or a dried apricot at the top of each one as the flame.",
+        "Build the base with folded smoked salmon or salami, then fill the gaps with grapes, olives and nuts."
+      ]
+    },
+    {
+      "name": "Star of David Board",
+      "shape": "star6",
+      "steps": [
+        "On a round board, make two triangles from rye crisps or pretzel rods, one pointing up and one pointing down.",
+        "Set a bowl of whipped cream cheese or hummus in the center.",
+        "Line the triangles in blue and white: blueberries, white cheese cubes and cucumber slices."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "2 weeks before",
+      "what": "Decide on a dairy board or a meat board, and ask guests who keep kosher which brands and certifications they need."
+    },
+    {
+      "when": "1 week before",
+      "what": "Buy gelt, crackers, nuts, dried fruit and jarred items. They keep."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy smoked salmon, cheese or deli meats, and fresh fruit."
+    },
+    {
+      "when": "The morning of",
+      "what": "Fry the latkes, cool them on a rack, slice fruit and cucumbers and fill the bowls. Cover and chill."
+    },
+    {
+      "when": "1 hour before",
+      "what": "Take hard cheese out of the fridge and build the board. Reheat the latkes at 375°F and add them last."
+    }
+  ],
+  "builder": {
+    "items": [
+      "smoked-salmon",
+      "cream-cheese",
+      "capers",
+      "aged-cheddar",
+      "fresh-chevre",
+      "rye-crispbread",
+      "grapes",
+      "dried-apricots",
+      "pistachios",
+      "honey"
+    ],
+    "guests": 12
+  },
+  "book": "main",
+  "blog": [],
+  "faq": [
+    {
+      "q": "Can a charcuterie board be kosher?",
+      "a": "Yes, with kosher-certified products and one rule: meat and dairy don't share a board. Build a dairy board (cheese, smoked fish, latkes) or a meat board (beef or turkey salami, pastrami), not both, and skip pork and shellfish. If guests keep strictly kosher, ask which certifications they use and serve on new or dedicated boards."
+    },
+    {
+      "q": "What goes on a Hanukkah charcuterie board?",
+      "a": "Latkes with sour cream and applesauce, smoked salmon with cream cheese and capers, two cheeses, rye crisps, fruit, and something sweet like chocolate gelt or doughnut holes. Blue and white foods (blueberries, white cheese, cucumber) make it look the part."
+    },
+    {
+      "q": "Why are fried foods eaten on Hanukkah?",
+      "a": "Hanukkah remembers the story of a small jar of oil that burned for eight days, so foods fried in oil, like latkes and sufganiyot (jelly doughnuts), are the tradition."
+    },
+    {
+      "q": "How much should I buy for a Hanukkah party?",
+      "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%."
+    },
+    {
+      "q": "Can I make latkes ahead for the board?",
+      "a": "Yes. Fry them earlier in the day, cool them on a rack, then reheat them in a single layer at 375°F for about 8 to 10 minutes so they crisp again. Add them to the board last so they stay warm and crunchy."
+    }
+  ],
+  "read": [
+    "smoked-salmon-cream-cheese-pairing",
+    "vegetarian-charcuterie-board"
+  ]
+}

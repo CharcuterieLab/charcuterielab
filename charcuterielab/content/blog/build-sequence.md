@@ -139,7 +139,7 @@ The sequence isn't complicated. But following it means every decision you make h
 ## Related Reading
 
 - [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/board-shapes/)
-- [Color Contrast on a Charcuterie Board: Why Visual Design Affects Perceived Flavor](https://charcuterielab.com/color-contrast/)
+- [Color Contrast on a Charcuterie Board: Why Visual Design Affects Perceived Flavor](/blog/color-and-flavor/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)
 
 ## FAQ

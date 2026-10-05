@@ -67,17 +67,17 @@
 
 [[redirects]]
   from = "/grazing-table"
-  to = "/blog/charcuterie-board-serving-size/"
+  to = "/blog/how-much-charcuterie-per-person/"
   status = 301
 
 [[redirects]]
   from = "/blog/grazing-table"
-  to = "/blog/charcuterie-board-serving-size/"
+  to = "/blog/how-much-charcuterie-per-person/"
   status = 301
 
 [[redirects]]
   from = "/blog/grazing-table/"
-  to = "/blog/charcuterie-board-serving-size/"
+  to = "/blog/how-much-charcuterie-per-person/"
   status = 301
 
 [[redirects]]
@@ -208,6 +208,233 @@
 [[redirects]]
   from = "/blog/wine-charcuterie-pairing/"
   to = "/blog/wine-only/"
+  status = 301
+
+# Merged duplicate posts (2026-10-05): content/merged/redirects.json
+
+[[redirects]]
+  from = "/wine-charcuterie-pairing/"
+  to = "/blog/wine-and-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-wine/"
+  to = "/blog/wine-and-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-wine"
+  to = "/blog/wine-and-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-wine/"
+  to = "/blog/wine-and-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-wine"
+  to = "/blog/wine-and-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-wine-and-cheese/"
+  to = "/blog/wine-cheese-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-wine-and-cheese"
+  to = "/blog/wine-cheese-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-wine-and-cheese/"
+  to = "/blog/wine-cheese-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-wine-and-cheese"
+  to = "/blog/wine-cheese-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-quantities/"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-quantities"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-quantities/"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-quantities"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-serving-size/"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-serving-size"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-serving-size/"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-serving-size"
+  to = "/blog/how-much-charcuterie-per-person/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-storage/"
+  to = "/blog/how-to-store-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-storage"
+  to = "/blog/how-to-store-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-storage/"
+  to = "/blog/how-to-store-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-storage"
+  to = "/blog/how-to-store-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/50-charcuterie-board-ideas/"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/50-charcuterie-board-ideas"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/50-charcuterie-board-ideas/"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/50-charcuterie-board-ideas"
+  to = "/blog/charcuterie-board-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/castelvetrano-olives/"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/castelvetrano-olives"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/castelvetrano-olives/"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/castelvetrano-olives"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/acid-contrast/"
+  to = "/blog/acid-rule/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/acid-contrast"
+  to = "/blog/acid-rule/"
+  status = 301
+
+[[redirects]]
+  from = "/acid-contrast/"
+  to = "/blog/acid-rule/"
+  status = 301
+
+[[redirects]]
+  from = "/acid-contrast"
+  to = "/blog/acid-rule/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/color-contrast/"
+  to = "/blog/color-and-flavor/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/color-contrast"
+  to = "/blog/color-and-flavor/"
+  status = 301
+
+[[redirects]]
+  from = "/color-contrast/"
+  to = "/blog/color-and-flavor/"
+  status = 301
+
+[[redirects]]
+  from = "/color-contrast"
+  to = "/blog/color-and-flavor/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/what-cheese-goes-on-charcuterie-board/"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/what-cheese-goes-on-charcuterie-board"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/what-cheese-goes-on-charcuterie-board/"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/what-cheese-goes-on-charcuterie-board"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-cheese-types/"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-cheese-types"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-cheese-types/"
+  to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-cheese-types"
+  to = "/blog/best-cheese-charcuterie-board/"
   status = 301
 
 [[headers]]

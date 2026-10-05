@@ -8,7 +8,7 @@ faq: "[{"question":"What is the best cheese for a charcuterie board?","answer":"
 slug: "best-cheese-charcuterie-board"
 tags: "["best cheese charcuterie", "charcuterie cheese", "what cheese for charcuterie board", "cheese board guide", "charcuterie basics"]"
 seo_title: "Best Cheese for a Charcuterie Board: 16 Picks by Type"
-updated: "2026-09-24"
+updated: "2026-10-05"
 ---
 
 # The Best Cheese for a Charcuterie Board (16 Picks by Type)
@@ -124,6 +124,57 @@ Blue or otherwise bold cheese is not essential, but it provides the most flavor 
 **Too many cheeses:** Four is the practical maximum for a board that guests can engage with meaningfully. Beyond four, the board becomes overwhelming and no individual cheese gets enough attention.
 
 ---
+
+## Quick Cheese Selection by Board Type
+
+| Board Type | Soft | Semi-Firm | Aged Hard | Blue |
+|---|---|---|---|---|
+| Classic / crowd-pleaser | Brie | Havarti or Gouda | Aged Cheddar | Skip or Gorgonzola Dolce |
+| Italian-focused | Burrata | Fontina or Provolone | Parmigiano-Reggiano | Gorgonzola |
+| Spanish-focused | Manchego fresco | Manchego Curado | Manchego Viejo | Skip |
+| Date night (for 2) | Brie (small piece) | Comté or Manchego | — | Skip |
+| Adventurous | Époisses | Aged Gruyère | Parmigiano | Roquefort |
+| Budget-friendly | Camembert | Havarti | Aged Cheddar | Skip |
+
+## How Much Cheese to Buy
+
+**Per person — appetizer board (30–60 min before dinner):**
+- Soft cheese: about ¾ oz
+- Semi-firm: about ¾ oz
+- Aged hard: about ½ oz
+- Blue (if using): take ¼–½ oz from the others
+- **Total: 2 oz per person** (3 oz if the board is the party food)
+
+**Per person — meal or main event board (2+ hours, no other food):**
+- Total: 4 oz per person
+
+**Practical purchase guide by headcount:**
+| Guests | Soft cheese | Semi-firm | Aged hard |
+|---|---|---|---|
+| 2–4 | 3 oz | 3 oz | 2 oz |
+| 6–8 | 6 oz | 6 oz | 4 oz |
+| 10–12 | 9 oz | 9 oz | 6 oz |
+
+**Always buy slightly more than you need.** A generous board looks better than a sparse one, and leftovers keep well wrapped in parchment (see [how to store leftovers](/blog/how-to-store-charcuterie-board/)).
+
+## Temperature Rules (The Most Skipped Step)
+
+Whatever cheeses you choose, the most important thing you can do for the flavor is pull them from the refrigerator early enough:
+
+- **Aged hard cheese:** 45–60 minutes before serving
+- **Semi-firm cheese:** 30–45 minutes
+- **Soft cheese (brie, camembert):** 20–30 minutes
+- **Fresh cheese (chèvre, burrata, mozzarella):** 15–20 minutes
+
+Cold cheese mutes flavor. The aromatic compounds in Comté that make it smell like hazelnuts don't volatilize at refrigerator temperature. The silky quality of Brie requires the fat to be warm enough to flow. Temperature is the single most impactful change most people can make to their cheese experience.
+
+## Placement Logic
+
+Place the four cheeses as anchors first — in corners or quadrants of the board. The soft cheese goes near the fruit and honey; the aged hard goes near the mustard and cornichons; the blue goes on one end with honey adjacent.
+
+Meats, condiments, and crackers fill the space between the cheese anchors. The cheese placement determines the flow of the board.
+
+> **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) walks through 50 boards across every occasion — each one with exact quantities, a shopping list, and the science behind why it works.
 
 ## Related Reading
 

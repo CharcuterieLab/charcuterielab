@@ -1,0 +1,153 @@
+{
+  "slug": "easter",
+  "name": "Easter",
+  "order": 9,
+  "dates": [
+    "2027-03-28"
+  ],
+  "season": "Spring",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "Easter Charcuterie Board Ideas",
+  "seo_title": "Easter Charcuterie Board Ideas (Nest, Egg + Brunch)",
+  "description": "Easter charcuterie board ideas: an Easter brunch board with ham, a bird's-nest board, an egg-shaped board, a pastel board for kids, and how much to buy.",
+  "image": "/images/50-boards-24-easter-spring.webp",
+  "answer": "An Easter board is usually brunch or a pre-dinner snack, so plan about 2 oz each of cheese and meat per guest, use spring colors (strawberries, snap peas, radishes, pastel candy), and add the foods of the day: deviled eggs, sliced ham and hot cross buns. A nest or egg shape makes it the photo of the day.",
+  "ideas": [
+    {
+      "title": "The Easter Brunch Board",
+      "for": "Family brunch · 10 guests",
+      "text": "Sliced glazed ham and prosciutto, deviled eggs, Brie and Havarti, hot cross buns or brioche, strawberries, melon and a pot of honey.",
+      "items": [
+        "prosciutto-cotto",
+        "prosciutto-di-parma",
+        "brie",
+        "havarti",
+        "brioche-toast-points",
+        "berries",
+        "melon",
+        "honey"
+      ],
+      "guests": 10
+    },
+    {
+      "title": "The Bird's Nest Board",
+      "for": "The centerpiece · 8 guests",
+      "text": "A ring of pretzels and crackers as the nest, filled with mozzarella balls and speckled chocolate eggs, surrounded by salami, cheese and spring vegetables.",
+      "items": [
+        "fresh-mozzarella",
+        "pretzel-crisps",
+        "genoa-salami",
+        "havarti",
+        "grapes",
+        "chocolate-covered-almonds"
+      ],
+      "guests": 8
+    },
+    {
+      "title": "The Pastel Kids' Board",
+      "for": "Egg hunt snack · 12 kids",
+      "text": "Mild cheese cut with a bunny cookie cutter, ham roll-ups, strawberries, grapes, pastel candy and graham crackers.",
+      "items": [
+        "monterey-jack",
+        "edam",
+        "prosciutto-cotto",
+        "berries",
+        "grapes",
+        "graham-crackers",
+        "butter-crackers"
+      ],
+      "guests": 12
+    }
+  ],
+  "boards": [
+    "classic-american-starter-board"
+  ],
+  "shapes": [
+    {
+      "name": "Easter Egg Board",
+      "shape": "egg",
+      "steps": [
+        "On a large oval or round board, outline an egg shape with crackers.",
+        "Fill it in stripes: strawberries, cheddar, snap peas, white cheese, purple grapes.",
+        "Tuck mint or edible flowers between the stripes."
+      ]
+    },
+    {
+      "name": "Bird's Nest Board",
+      "shape": "nest",
+      "steps": [
+        "Make a ring of pretzel sticks and crackers in the center of a round board.",
+        "Fill the nest with mozzarella balls, mini cheese rounds or chocolate eggs.",
+        "Build the rest of the board around it with ham, salami, cheese and spring vegetables."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "1 week before",
+      "what": "Buy crackers, candy, nuts and jarred items."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy ham, cheese and fruit."
+    },
+    {
+      "when": "1 day before",
+      "what": "Hard-boil the eggs and make the deviled egg filling. Keep both in the fridge."
+    },
+    {
+      "when": "The morning of",
+      "what": "Slice ham and cheese, wash fruit, fill and chill the deviled eggs."
+    },
+    {
+      "when": "1 hour before",
+      "what": "Take hard cheese out of the fridge, then build the board. Add the deviled eggs last on a chilled plate."
+    }
+  ],
+  "builder": {
+    "items": [
+      "brie",
+      "havarti",
+      "aged-cheddar",
+      "prosciutto-cotto",
+      "prosciutto-di-parma",
+      "berries",
+      "grapes",
+      "melon",
+      "brioche-toast-points",
+      "honey"
+    ],
+    "guests": 10
+  },
+  "book": "main",
+  "blog": [],
+  "faq": [
+    {
+      "q": "What goes on an Easter charcuterie board?",
+      "a": "Sliced ham and prosciutto, deviled eggs, mild spring cheeses like Brie and Havarti, hot cross buns or brioche, strawberries and melon, spring vegetables, and a little pastel candy or chocolate eggs."
+    },
+    {
+      "q": "How do you make a bird's nest charcuterie board?",
+      "a": "Make a ring of pretzel sticks and crackers in the middle of a round board, fill it with mozzarella balls or chocolate eggs, and build the rest of the board around it."
+    },
+    {
+      "q": "Can deviled eggs go on a charcuterie board?",
+      "a": "Yes. Set them on a chilled plate or a tray over ice at one end, and keep them out no more than 2 hours (1 hour above 90°F). Make the filling the day before and fill the eggs the morning of."
+    },
+    {
+      "q": "How much ham do I need for an Easter board?",
+      "a": "On a mixed board, about 1 oz of ham per guest as one of two or three meats, inside the 2 oz-per-guest meat total. If ham is also the main course, keep the board light."
+    },
+    {
+      "q": "What cheese is good for an Easter board?",
+      "a": "Mild, fresh-tasting cheeses suit spring: Brie, Havarti, fresh goat cheese and a young cheddar. Add one aged cheese for contrast."
+    }
+  ],
+  "read": [
+    "charcuterie-board-for-kids",
+    "charcuterie-board-fruit",
+    "easy-charcuterie-board"
+  ]
+}

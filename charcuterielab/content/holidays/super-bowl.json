@@ -1,0 +1,158 @@
+{
+  "slug": "super-bowl",
+  "name": "Super Bowl",
+  "order": 6,
+  "dates": [
+    "2027-02-14"
+  ],
+  "season": "Winter",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "Super Bowl Charcuterie Board Ideas",
+  "seo_title": "Super Bowl Charcuterie Board Ideas (Football + Snack Stadium)",
+  "description": "Super Bowl charcuterie board ideas: a football-shaped board, a snack stadium for a crowd, a halftime Valentine's board, a refill plan, and how much to buy.",
+  "image": "/images/50-boards-08-game-day-party.webp",
+  "answer": "A Super Bowl board is party food that has to last four quarters: plan about 3 oz each of cheese and meat per guest, lean on hearty, salty things (cheddar, pepperoni, pretzels, dips), and set out a fresh round at halftime. A football-shaped board gets the photos. Super Bowl LXI is on February 14, 2027, so this year it falls on Valentine's Day.",
+  "ideas": [
+    {
+      "title": "The Football Board",
+      "for": "The centerpiece · 12 guests",
+      "text": "An oval of salami and sharp cheddar with a strip of white cheese for the laces, surrounded by pretzels, crackers, pickled jalapeños and a honey-mustard dip.",
+      "items": [
+        "genoa-salami",
+        "aged-cheddar",
+        "pepper-jack",
+        "fresh-mozzarella",
+        "pretzel-crisps",
+        "butter-crackers",
+        "pickled-jalapenos",
+        "honey-mustard"
+      ],
+      "guests": 12
+    },
+    {
+      "title": "The Snack Stadium",
+      "for": "Big crowd · 25 guests",
+      "text": "Build a stadium from a rectangle of bowls: dips and salsa as the field, chips and crackers as the stands, and cheese, meat and vegetables as the crowd. It feeds a room without a single plated dish.",
+      "items": [
+        "tortilla-chips",
+        "pimento-cheese",
+        "pepperoni",
+        "summer-sausage",
+        "monterey-jack",
+        "pickled-jalapenos",
+        "pretzel-crisps",
+        "honey-roasted-peanuts"
+      ],
+      "guests": 25
+    },
+    {
+      "title": "The Halftime Valentine Board",
+      "for": "Game day meets date night · 4 guests",
+      "text": "With the game on February 14, do both: pepperoni and cheddar for the first half, then strawberries, dark chocolate and a heart cut from a slice of cheese for the second.",
+      "items": [
+        "pepperoni",
+        "aged-cheddar",
+        "brie",
+        "berries",
+        "dark-chocolate",
+        "sea-salt-caramels",
+        "butter-crackers"
+      ],
+      "guests": 4
+    }
+  ],
+  "boards": [
+    "game-day-charcuterie-board",
+    "25-dollar-budget-charcuterie-board",
+    "classic-american-starter-board"
+  ],
+  "shapes": [
+    {
+      "name": "Football Board",
+      "shape": "football",
+      "steps": [
+        "Lay an oval of folded salami and sliced cheddar on a large board.",
+        "Run a strip of white cheese down the middle, with short cross pieces for the laces.",
+        "Fill the edges with pretzels, crackers and small bowls of dip."
+      ]
+    },
+    {
+      "name": "Halftime Heart",
+      "shape": "heart",
+      "steps": [
+        "Lay a heart outline of crackers on a round or square board.",
+        "Fill one half with game-day snacks (pepperoni, cheddar) and the other with strawberries and chocolate.",
+        "Set a small bowl of dip or honey in the middle."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "1 week before",
+      "what": "Buy crackers, chips, pretzels, nuts and jarred dips and pickles."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy cheese, meat and vegetables. Make any homemade dips."
+    },
+    {
+      "when": "The morning of",
+      "what": "Cube cheese, fold meats, cut vegetables, fill the dip bowls and pack a halftime refill tray. Cover and chill."
+    },
+    {
+      "when": "1 hour before kickoff",
+      "what": "Take cheese out of the fridge and build the board."
+    },
+    {
+      "when": "At halftime",
+      "what": "Swap in the refill tray. Anything perishable that has been out 2 hours goes back in the fridge or in the bin."
+    }
+  ],
+  "builder": {
+    "items": [
+      "aged-cheddar",
+      "pepper-jack",
+      "monterey-jack",
+      "genoa-salami",
+      "pepperoni",
+      "summer-sausage",
+      "pretzel-crisps",
+      "tortilla-chips",
+      "pickled-jalapenos",
+      "honey-mustard"
+    ],
+    "guests": 20
+  },
+  "book": "main",
+  "blog": [],
+  "faq": [
+    {
+      "q": "What goes on a Super Bowl charcuterie board?",
+      "a": "Hearty, salty snacks that hold up for hours: sharp cheddar and pepper jack, pepperoni, salami and summer sausage, pretzels, tortilla chips, crackers, pickles and pickled jalapeños, and two or three dips."
+    },
+    {
+      "q": "How much charcuterie do I need for a Super Bowl party?",
+      "a": "A game-day board is usually the party food, so plan about 3 oz each of cheese and meat per guest and 10 to 12 crackers or chips. For 20 guests that's about 4¼ lb of each, including the 10% buffer."
+    },
+    {
+      "q": "When is Super Bowl LXI?",
+      "a": "Sunday, February 14, 2027, at SoFi Stadium in Inglewood, California. It's the first Super Bowl played on Valentine's Day, so a board that does both is an easy win."
+    },
+    {
+      "q": "How do you make a football-shaped charcuterie board?",
+      "a": "Lay an oval of folded salami and sliced cheddar on a large board, then run a strip of white cheese (mozzarella or provolone) down the middle with short cross pieces for the laces. Fill in around it with pretzels, crackers and dips."
+    },
+    {
+      "q": "How long can a game-day board sit out?",
+      "a": "No more than 2 hours for anything perishable (1 hour above 90°F). A game runs longer than that, so build the board at kickoff and swap in a refill tray from the fridge at halftime."
+    }
+  ],
+  "read": [
+    "charcuterie-board-for-large-group",
+    "budget-charcuterie-board",
+    "charcuterie-board-dips",
+    "beer-pairing"
+  ]
+}

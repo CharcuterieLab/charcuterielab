@@ -1,0 +1,148 @@
+{
+  "slug": "st-patricks-day",
+  "name": "St. Patrick's Day",
+  "order": 8,
+  "dates": [
+    "2027-03-17"
+  ],
+  "season": "Spring",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "St. Patrick's Day Charcuterie Board Ideas",
+  "seo_title": "St. Patrick's Day Charcuterie Board Ideas (Irish + Green)",
+  "description": "St. Patrick's Day charcuterie board ideas: an Irish pub board with cheddar and stout, a shamrock board, an all-green board, a rainbow board for kids, and how much to buy.",
+  "image": "/images/50-boards-23-st-patricks-day.webp",
+  "answer": "Build a St. Patrick's Day board around Irish flavors and the color green: an aged Irish cheddar, cooked ham or corned beef, brown soda bread and oatcakes, grainy mustard, and green apples, grapes and pickles. Shape it like a shamrock, pour a stout or a dry cider, and plan about 2 oz each of cheese and meat per guest before a meal.",
+  "ideas": [
+    {
+      "title": "The Irish Pub Board",
+      "for": "Pub night · 8 guests",
+      "text": "Aged Irish cheddar, cooked ham and corned beef, whole-grain mustard, soda bread and oatcakes, pickled onions and green apple. Serve it with a stout or a dry cider.",
+      "items": [
+        "aged-cheddar",
+        "prosciutto-cotto",
+        "whole-grain-mustard",
+        "oatcakes",
+        "pickled-red-onions",
+        "apples",
+        "dill-pickles"
+      ],
+      "guests": 8
+    },
+    {
+      "title": "The All-Green Board",
+      "for": "Office party · 15 guests",
+      "text": "Everything green: green grapes, kiwi, cucumber, Castelvetrano olives, pistachios, pesto and an herbed goat cheese, with plain crackers to carry it all.",
+      "items": [
+        "grapes",
+        "kiwi",
+        "castelvetrano-olives",
+        "pistachios",
+        "pesto",
+        "fresh-chevre",
+        "cornichons",
+        "water-crackers"
+      ],
+      "guests": 15
+    },
+    {
+      "title": "The Rainbow Board",
+      "for": "Kids' party · 10 guests",
+      "text": "An arc of fruit and mild cheese in rainbow order (strawberries, mandarins, pineapple, green grapes, blueberries) ending in a 'pot of gold' bowl of cheese crackers.",
+      "items": [
+        "berries",
+        "mandarins",
+        "pineapple",
+        "grapes",
+        "monterey-jack",
+        "edam",
+        "butter-crackers"
+      ],
+      "guests": 10
+    }
+  ],
+  "boards": [],
+  "shapes": [
+    {
+      "name": "Shamrock Board",
+      "shape": "shamrock",
+      "steps": [
+        "On a round board, set three small round bowls or cheese wheels close together as the leaves.",
+        "Surround each leaf with green: grapes, cucumber, olives and herbs.",
+        "Add a stem of pretzel rods or a line of crackers, and fill the gaps with cheddar and ham."
+      ]
+    },
+    {
+      "name": "Rainbow Board",
+      "shape": "rainbow",
+      "steps": [
+        "On a rectangle, lay arcs of fruit in rainbow order, from strawberries on the outside to blueberries on the inside.",
+        "Set a cloud of white cheese cubes at one end.",
+        "Put a bowl of cheese crackers or gold-wrapped chocolate coins at the other end as the pot of gold."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "1 week before",
+      "what": "Buy crackers, oatcakes, mustard, pickles and the stout or cider."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy cheese, ham and fruit."
+    },
+    {
+      "when": "The morning of",
+      "what": "Slice the ham and cheese, wash the fruit and fill the bowls. Cover and chill."
+    },
+    {
+      "when": "1 hour before",
+      "what": "Take the cheddar out of the fridge and build the board."
+    }
+  ],
+  "builder": {
+    "items": [
+      "aged-cheddar",
+      "fresh-chevre",
+      "prosciutto-cotto",
+      "whole-grain-mustard",
+      "oatcakes",
+      "grapes",
+      "apples",
+      "pistachios",
+      "castelvetrano-olives",
+      "dill-pickles"
+    ],
+    "guests": 10
+  },
+  "book": "main",
+  "blog": [],
+  "faq": [
+    {
+      "q": "What goes on a St. Patrick's Day charcuterie board?",
+      "a": "An aged Irish cheddar, cooked ham or corned beef, soda bread or oatcakes, whole-grain mustard, pickles, and plenty of green: grapes, green apple, cucumber, olives and pistachios."
+    },
+    {
+      "q": "What Irish cheese is good on a board?",
+      "a": "Aged Irish cheddar is the easy choice and most large grocery stores carry it. A cheese counter may also have Irish farmhouse cheeses, including washed-rind, blue and goat's milk styles. If you can't find Irish cheese, an aged white cheddar works."
+    },
+    {
+      "q": "What drink goes with an Irish charcuterie board?",
+      "a": "A stout's roasted bitterness is a good match for sharp cheddar and salty ham. A dry cider is lighter and pairs with the apple and pickles. For a non-alcoholic option, try sparkling apple cider."
+    },
+    {
+      "q": "How do you make a shamrock-shaped charcuterie board?",
+      "a": "Set three round bowls or small cheese wheels close together as the leaves, surround each with green food, and add a stem of pretzel rods or crackers. Fill the gaps with cheddar, ham and crackers."
+    },
+    {
+      "q": "How much should I buy for a St. Patrick's Day party?",
+      "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%."
+    }
+  ],
+  "read": [
+    "beer-pairing",
+    "aged-cheddar",
+    "aged-cheddar-charcuterie-board"
+  ]
+}

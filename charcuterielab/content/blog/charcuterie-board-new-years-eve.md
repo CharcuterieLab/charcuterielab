@@ -81,9 +81,9 @@ A New Year's Eve board is the occasion to build a great board and let the Champa
 
 ## Related Reading
 
-- [Wine and Charcuterie Pairing: How to Match Any Wine to Any Board](https://charcuterielab.com/blog/wine-charcuterie-pairing/)
+- [Wine and Charcuterie Pairing: How to Match Any Wine to Any Board](/blog/wine-and-charcuterie-board/)
 - [The Best Cheeses for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
-- [Charcuterie Board Serving Size: Exactly How Much Per Person](https://charcuterielab.com/blog/charcuterie-board-serving-size/)
+- [Charcuterie Board Serving Size: Exactly How Much Per Person](/blog/how-much-charcuterie-per-person/)
 
 ## FAQ
 

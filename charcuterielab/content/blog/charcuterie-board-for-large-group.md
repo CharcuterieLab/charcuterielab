@@ -105,7 +105,7 @@ Scale changes the logistics, not the flavor logic. Stick to 2 oz each of meat an
 
 ## Related Reading
 
-- [Charcuterie Board Quantities: Exactly How Much You Need](https://charcuterielab.com/blog/charcuterie-board-quantities/)
+- [Charcuterie Board Quantities: Exactly How Much You Need](/blog/how-much-charcuterie-per-person/)
 - [How to Make a Charcuterie Board](https://charcuterielab.com/blog/how-to-make-charcuterie-board/)
 - [Charcuterie Board Ideas for Every Occasion](https://charcuterielab.com/blog/charcuterie-board-ideas/)
 

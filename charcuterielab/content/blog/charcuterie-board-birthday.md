@@ -102,7 +102,7 @@ A birthday board has one job the regular charcuterie board doesn't: it has to pr
 ## Related Reading
 
 - [How to Build a Grazing Table for 20+ Guests: Quantities, Layout, and Replenishment](https://charcuterielab.com/grazing-table/)
-- [Charcuterie Board Serving Size: Exactly How Much Per Person](https://charcuterielab.com/blog/charcuterie-board-serving-size/)
+- [Charcuterie Board Serving Size: Exactly How Much Per Person](/blog/how-much-charcuterie-per-person/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 
 ## FAQ
@@ -132,4 +132,4 @@ A birthday charcuterie board is a crowd management problem as much as a food pro
 
 *Want more charcuterie science delivered weekly? Subscribe to [The Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) — we dig into the food science behind every ingredient on your board.*
 
-*For more: see [charcuterie board serving sizes](https://charcuterielab.com/blog/charcuterie-board-serving-size/) and [how long a charcuterie board can sit out](https://charcuterielab.com/blog/how-long-charcuterie-board-last/).*
+*For more: see [charcuterie board serving sizes](/blog/how-much-charcuterie-per-person/) and [how long a charcuterie board can sit out](https://charcuterielab.com/blog/how-long-charcuterie-board-last/).*

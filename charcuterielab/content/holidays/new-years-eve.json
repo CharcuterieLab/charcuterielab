@@ -1,0 +1,158 @@
+{
+  "slug": "new-years-eve",
+  "name": "New Year's Eve",
+  "order": 5,
+  "dates": [
+    "2026-12-31",
+    "2027-12-31"
+  ],
+  "season": "Winter",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "New Year's Eve Charcuterie Board Ideas",
+  "seo_title": "New Year's Eve Charcuterie Board Ideas + Midnight Plan",
+  "description": "New Year's Eve charcuterie board ideas: a Champagne board, a midnight clock board, a caviar-and-chips splurge, a refill plan that lasts until midnight, and how much to buy.",
+  "image": "/images/50-boards-22-new-years-eve.webp",
+  "answer": "A New Year's Eve board has to last until midnight, so plan it as the party food (about 3 oz each of cheese and meat per guest), pair it with Champagne or Prosecco, and keep half the food in the fridge for a second round around 10 pm. Salty, crisp things (Parmigiano, potato chips, salami) and one splurge like smoked salmon or caviar make it feel like a celebration.",
+  "ideas": [
+    {
+      "title": "The Champagne Board",
+      "for": "Sparkling wine party · 12 guests",
+      "text": "Built for bubbles: chunks of Parmigiano-Reggiano, a triple-crème, prosciutto, Marcona almonds, kettle chips, gougères and strawberries. Salt and fat are what make Champagne taste its best.",
+      "items": [
+        "parmigiano-reggiano",
+        "triple-creme",
+        "prosciutto-di-parma",
+        "marcona-almonds",
+        "gougeres",
+        "berries",
+        "water-crackers",
+        "honeycomb"
+      ],
+      "guests": 12
+    },
+    {
+      "title": "The Caviar and Chips Splurge",
+      "for": "Small and fancy · 6 guests",
+      "text": "Kettle chips with crème fraîche and a tin of caviar or trout roe, blini, smoked salmon, chives and a good Comté, with a bottle of brut. Small portions, big effect.",
+      "items": [
+        "caviar",
+        "blini",
+        "smoked-salmon",
+        "comte",
+        "capers",
+        "water-crackers"
+      ],
+      "guests": 6
+    },
+    {
+      "title": "The Midnight Refill Tray",
+      "for": "Long party · 20 guests",
+      "text": "Build one board for the start of the party and keep a second tray ready in the fridge: more cheese, salami, crackers and grapes, plus something warm like sliders for the 10 pm slump.",
+      "items": [
+        "aged-cheddar",
+        "aged-gouda",
+        "genoa-salami",
+        "soppressata",
+        "grapes",
+        "butter-crackers",
+        "whole-grain-mustard",
+        "cornichons"
+      ],
+      "guests": 20
+    }
+  ],
+  "boards": [
+    "new-years-eve-charcuterie-board",
+    "cocktail-party-charcuterie-board",
+    "luxury-charcuterie-board"
+  ],
+  "shapes": [
+    {
+      "name": "Midnight Clock Board",
+      "shape": "clock",
+      "steps": [
+        "On a round board, set a small bowl of jam or honey in the center.",
+        "Place 12 cheese cubes or cracker stacks around the edge as the hours.",
+        "Make the hands from two breadsticks or folded prosciutto, both pointing at 12."
+      ]
+    },
+    {
+      "name": "Confetti Stripe Board",
+      "shape": "garland",
+      "steps": [
+        "On a rectangle, lay diagonal stripes of gold, white and dark: Gouda, Brie, salami, then repeat.",
+        "Fill the gaps between stripes with crackers and Marcona almonds.",
+        "Scatter pomegranate seeds or edible gold sprinkles over the top just before serving."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "1 week before",
+      "what": "Buy crackers, chips, nuts, jams and the sparkling wine."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy cheese, meat and fruit. Put the wine in the fridge."
+    },
+    {
+      "when": "The morning of",
+      "what": "Cut cheese, fold meats and pack the refill tray. Cover both and chill."
+    },
+    {
+      "when": "1 hour before",
+      "what": "Take hard cheese out of the fridge and build the first board."
+    },
+    {
+      "when": "Around 10 pm",
+      "what": "Swap in the refill tray. Anything perishable that has been out 2 hours goes back in the fridge or in the bin."
+    }
+  ],
+  "builder": {
+    "items": [
+      "parmigiano-reggiano",
+      "triple-creme",
+      "comte",
+      "prosciutto-di-parma",
+      "genoa-salami",
+      "marcona-almonds",
+      "grapes",
+      "berries",
+      "water-crackers",
+      "honeycomb"
+    ],
+    "guests": 12
+  },
+  "book": "main",
+  "blog": [
+    "charcuterie-board-new-years-eve"
+  ],
+  "faq": [
+    {
+      "q": "What goes on a New Year's Eve charcuterie board?",
+      "a": "Salty, crisp and rich things that suit sparkling wine: Parmigiano-Reggiano, a triple-crème or Brie, prosciutto and salami, Marcona almonds, kettle chips, gougères and strawberries. Add one splurge, like smoked salmon or caviar, for midnight."
+    },
+    {
+      "q": "What cheese goes with Champagne?",
+      "a": "Salty, nutty and creamy cheeses: Parmigiano-Reggiano, aged Comté, Brie and triple-crème. The bubbles and acidity cut the fat, and the salt makes the wine taste fruitier. Strong blues tend to overpower a dry Champagne."
+    },
+    {
+      "q": "How do I keep a charcuterie board fresh until midnight?",
+      "a": "Don't put everything out at once. Perishable food should sit out no more than 2 hours (1 hour above 90°F), so build a first board for the start of the party and keep a second tray in the fridge to swap in around 10 pm. Add crackers and chips last so they stay crisp."
+    },
+    {
+      "q": "How much charcuterie do I need for a New Year's Eve party?",
+      "a": "If the board is the party food, plan about 3 oz each of cheese and meat per guest and 10 to 12 crackers; if there's dinner first, 2 oz of each is enough. From 20 guests, add 10%."
+    },
+    {
+      "q": "What can I serve instead of expensive caviar?",
+      "a": "Trout or salmon roe gives the same salty pop for less. Serve it on kettle chips or blini with a spoon of crème fraîche or sour cream and chopped chives."
+    }
+  ],
+  "read": [
+    "cocktail-party-board",
+    "wine-and-charcuterie-board"
+  ]
+}

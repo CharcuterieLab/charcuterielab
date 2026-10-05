@@ -89,7 +89,7 @@ A grazing table is a charcuterie board at scale. The build logic is the same: an
 ## Related Reading
 
 - [Charcuterie Board for Large Groups](https://charcuterielab.com/blog/charcuterie-board-for-large-group/)
-- [Charcuterie Board Quantities: How Much to Buy](https://charcuterielab.com/blog/charcuterie-board-quantities/)
+- [Charcuterie Board Quantities: How Much to Buy](/blog/how-much-charcuterie-per-person/)
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)
 
 ## FAQ

@@ -1,0 +1,145 @@
+{
+  "slug": "valentines-day",
+  "name": "Valentine's Day",
+  "order": 7,
+  "dates": [
+    "2027-02-14"
+  ],
+  "season": "Winter",
+  "status": "published",
+  "date": "2026-10-05",
+  "updated": "2026-10-05",
+  "h1": "Valentine's Day Charcuterie Board Ideas",
+  "seo_title": "Valentine's Day Charcuterie Board Ideas (For Two + Galentine's)",
+  "description": "Valentine's Day charcuterie board ideas: a heart-shaped board for two, a salami rose, a chocolate dessert board, a Galentine's board for friends, and how much to buy.",
+  "image": "/images/50-boards-21-valentines-day.webp",
+  "answer": "A Valentine's board for two needs less than you think: about 4 oz each of cheese and meat per person if it's dinner, 2 oz each if dinner follows. Shape it like a heart, roll salami into a rose, use red and pink (strawberries, raspberries, prosciutto, pomegranate), and finish with dark chocolate and a sparkling rosé.",
+  "ideas": [
+    {
+      "title": "The Heart Board for Two",
+      "for": "Date night · 2 guests",
+      "text": "A heart of Brie, aged Gouda and a salami rose, with strawberries, raspberries, dark chocolate and honey. One small board and one bottle of sparkling rosé or Pinot Noir.",
+      "items": [
+        "brie",
+        "aged-gouda",
+        "genoa-salami",
+        "prosciutto-di-parma",
+        "berries",
+        "dark-chocolate",
+        "honey",
+        "water-crackers"
+      ],
+      "guests": 2
+    },
+    {
+      "title": "The Galentine's Board",
+      "for": "Friends' night · 8 guests",
+      "text": "A bigger, brighter board: whipped feta, burrata, prosciutto, pink grapefruit, strawberries, pistachios and shortbread, with a pitcher of something sparkling.",
+      "items": [
+        "whipped-feta",
+        "burrata",
+        "prosciutto-di-parma",
+        "grapefruit",
+        "berries",
+        "pistachios",
+        "shortbread",
+        "crostini"
+      ],
+      "guests": 8
+    },
+    {
+      "title": "The Chocolate Dessert Board",
+      "for": "After dinner · 4 guests",
+      "text": "Dark chocolate, chocolate-covered strawberries, a triple-crème, salted caramels, shortbread, brandied cherries and a small pour of port.",
+      "items": [
+        "dark-chocolate",
+        "triple-creme",
+        "sea-salt-caramels",
+        "shortbread",
+        "berries",
+        "brandied-cherries",
+        "chocolate-covered-almonds"
+      ],
+      "guests": 4
+    }
+  ],
+  "boards": [
+    "luxury-charcuterie-board"
+  ],
+  "shapes": [
+    {
+      "name": "Heart Board",
+      "shape": "heart",
+      "steps": [
+        "Lay a heart outline of crackers or folded prosciutto on a round or square board.",
+        "Fill it with cheese, a salami rose and berries, keeping the reds and pinks next to the white cheeses.",
+        "Set a small bowl of chocolate or honey in the center."
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "when": "1 week before",
+      "what": "Order any specialty cheese and buy chocolate, crackers, jam and the wine."
+    },
+    {
+      "when": "2 days before",
+      "what": "Buy cheese, meat and berries. Chill the wine."
+    },
+    {
+      "when": "The morning of",
+      "what": "Wash and dry the berries and make the salami rose. Cover and chill."
+    },
+    {
+      "when": "1 hour before",
+      "what": "Take the Gouda out of the fridge, then the Brie 30 minutes later, and build the board."
+    }
+  ],
+  "builder": {
+    "items": [
+      "brie",
+      "aged-gouda",
+      "triple-creme",
+      "genoa-salami",
+      "prosciutto-di-parma",
+      "berries",
+      "dark-chocolate",
+      "honey",
+      "water-crackers",
+      "pistachios"
+    ],
+    "guests": 2
+  },
+  "book": "main",
+  "blog": [
+    "date-night-charcuterie-board"
+  ],
+  "faq": [
+    {
+      "q": "How much charcuterie do I need for two people?",
+      "a": "If the board is dinner, about 4 oz each of cheese and meat per person, so 8 oz of each in total. If you're going out to dinner after, 2 oz of each per person is plenty. Two cheeses and two meats are enough."
+    },
+    {
+      "q": "How do you make a salami rose?",
+      "a": "Fold thin salami slices over the rim of a small wine glass, overlapping each one by about half, in three or four layers. Turn the glass over onto the board and lift it off, then tuck a basil or mint leaf at the base."
+    },
+    {
+      "q": "What wine goes with a Valentine's charcuterie board?",
+      "a": "Sparkling rosé or Champagne works with almost everything on it. For a still wine, choose a light red like Pinot Noir. If the board ends with dark chocolate, a small glass of port is the classic match."
+    },
+    {
+      "q": "How do you make a heart-shaped charcuterie board?",
+      "a": "Outline a heart on the board with crackers or folded prosciutto, then fill it in with cheese, a salami rose and red fruit. A heart-shaped cookie cutter also turns cheese slices into hearts in seconds."
+    },
+    {
+      "q": "What goes on a Galentine's Day board?",
+      "a": "Pretty, shareable things: whipped feta or burrata, prosciutto, pink grapefruit and strawberries, pistachios, shortbread or pink cookies, and a sparkling drink. Plan about 2 oz each of cheese and meat per guest if there's other food, 3 oz if the board is the party."
+    }
+  ],
+  "read": [
+    "charcuterie-board-two",
+    "charcuterie-board-chocolate",
+    "prosciutto-rose",
+    "dessert-board"
+  ]
+}

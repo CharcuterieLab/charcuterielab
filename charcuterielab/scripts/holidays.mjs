@@ -66,6 +66,16 @@ function shapeSvg(shape) {
   else if (shape === "turkey") body = `${[0, 1, 2, 3, 4, 5, 6].map((i) => { const a = Math.PI + (i + 0.5) * (Math.PI / 7); const cols = [C.cracker, C.meat, C.cheese, C.orange, C.cheese, C.meat, C.cracker]; return `<ellipse cx="${(150 + 70 * Math.cos(a)).toFixed(1)}" cy="${(150 + 70 * Math.sin(a)).toFixed(1)}" rx="16" ry="44" fill="${cols[i]}" transform="rotate(${((a * 180) / Math.PI + 90).toFixed(0)} ${(150 + 70 * Math.cos(a)).toFixed(1)} ${(150 + 70 * Math.sin(a)).toFixed(1)})"/>`; }).join("")}<circle cx="150" cy="160" r="38" fill="${C.board}"/><circle cx="150" cy="128" r="20" fill="${C.board}"/>${dot(143, 124, 3, C.dark)}${dot(157, 124, 3, C.dark)}<path d="M150 130 l-6 8 h12z" fill="${C.orange}"/>`;
   else if (shape === "cornucopia") body = `<path d="M40 60 q110 -20 150 60 l-30 30 q-40 -60 -120 -40z" fill="${C.cracker}"/>${ring(210, 150, 40, 10, 12, [C.fruit, C.meat, C.cheese, C.orange, C.green])}${dot(250, 190, 10, C.fruit)}${dot(185, 195, 10, C.orange)}`;
   else if (shape === "garland") body = Array.from({ length: 7 }, (_, i) => `<ellipse cx="${50 + i * 34}" cy="${190 - i * 26}" rx="18" ry="10" fill="${[C.orange, C.cheese, C.meat][i % 3]}" transform="rotate(-38 ${50 + i * 34} ${190 - i * 26})"/>`).join("") + ring(90, 80, 30, 6, 9, [C.fruit, C.cracker]) + ring(220, 170, 30, 6, 9, [C.cracker, C.green]);
+  // Shapes for the winter and spring hubs (added 2026-10-05)
+  else if (shape === "heart") { const pts = Array.from({ length: 26 }, (_, i) => { const a = (i / 26) * Math.PI * 2; return [150 + 5.2 * 16 * Math.sin(a) ** 3, 100 - 5.2 * (13 * Math.cos(a) - 5 * Math.cos(2 * a) - 2 * Math.cos(3 * a) - Math.cos(4 * a))]; }); body = `<path d="M${pts.map((q) => q.map((v) => v.toFixed(1)).join(" ")).join(" L")}Z" fill="${C.board}" opacity=".25"/>` + pts.map((q, i) => dot(q[0].toFixed(1), q[1].toFixed(1), 9, [C.meat, C.white, C.fruit, C.cheese][i % 4])).join("") + dot(150, 112, 22, C.dark); }
+  else if (shape === "football") body = `<ellipse cx="150" cy="110" rx="120" ry="70" fill="${C.board}"/>${ring(150, 110, 48, 12, 10, [C.cheese, C.meat, C.cracker])}<rect x="105" y="104" width="90" height="12" rx="3" fill="${C.white}"/>${[0, 1, 2, 3, 4].map((i) => `<rect x="${117 + i * 15}" y="94" width="6" height="32" rx="2" fill="${C.white}"/>`).join("")}`;
+  else if (shape === "menorah") body = `<rect x="40" y="186" width="220" height="14" rx="6" fill="${C.cracker}"/>${Array.from({ length: 9 }, (_, i) => { const x = 46 + i * 26, tall = i === 4; const top = tall ? 40 : 70; return `<rect x="${x}" y="${top}" width="12" height="${186 - top}" rx="5" fill="${i === 4 ? C.cheese : C.cracker}"/><ellipse cx="${x + 6}" cy="${top - 10}" rx="7" ry="11" fill="${C.orange}"/>`; }).join("")}`;
+  else if (shape === "star6") body = `<path d="M150 20 L232 160 H68 Z" fill="none" stroke="#3b6fb6" stroke-width="16" stroke-linejoin="round"/><path d="M150 200 L68 60 H232 Z" fill="none" stroke="${C.white}" stroke-width="16" stroke-linejoin="round"/>${ring(150, 110, 30, 6, 9, [C.cheese, C.fruit])}${dot(150, 110, 14, C.white)}`;
+  else if (shape === "clock") body = `<circle cx="150" cy="110" r="96" fill="${C.dark}"/>${ring(150, 110, 78, 12, 10, [C.cheese, C.white, C.cracker])}<rect x="146" y="44" width="8" height="70" rx="4" fill="${C.cheese}"/><rect x="146" y="58" width="8" height="56" rx="4" fill="${C.white}" transform="rotate(8 150 110)"/>${dot(150, 110, 9, C.meat)}`;
+  else if (shape === "shamrock") body = `${dot(150, 62, 44, C.green)}${dot(104, 128, 44, C.green)}${dot(196, 128, 44, C.green)}<path d="M150 120 q8 60 -14 96" stroke="${C.green}" stroke-width="14" fill="none" stroke-linecap="round"/>${ring(150, 62, 24, 7, 7, [C.cheese, C.white])}${ring(104, 128, 24, 7, 7, [C.meat, C.cracker])}${ring(196, 128, 24, 7, 7, [C.cracker, C.cheese])}`;
+  else if (shape === "rainbow") body = [C.meat, C.orange, C.cheese, C.green, "#3b6fb6", C.fruit].map((c, i) => `<path d="M${40 + i * 16} 190 a${110 - i * 16} ${110 - i * 16} 0 0 1 ${220 - i * 32} 0" fill="none" stroke="${c}" stroke-width="15"/>`).join("") + `${dot(36, 196, 18, C.white)}${dot(264, 196, 18, C.cheese)}`;
+  else if (shape === "egg") body = `<defs><clipPath id="egg-clip"><ellipse cx="150" cy="112" rx="78" ry="98"/></clipPath></defs><ellipse cx="150" cy="112" rx="78" ry="98" fill="${C.white}"/><g clip-path="url(#egg-clip)">${[0, 1, 2, 3, 4].map((i) => `<rect x="72" y="${42 + i * 30}" width="156" height="14" fill="${[C.fruit, C.cheese, C.green, C.orange, C.meat][i]}" opacity=".85"/>`).join("")}</g><ellipse cx="150" cy="112" rx="78" ry="98" fill="none" stroke="${C.board}" stroke-width="6"/>`;
+  else if (shape === "nest") body = `${ring(150, 112, 78, 30, 12, [C.cracker, C.board, C.cracker])}${ring(150, 112, 56, 20, 9, [C.cracker, C.cheese])}${dot(130, 104, 18, C.white)}${dot(168, 100, 18, "#cfe3f2")}${dot(150, 132, 18, C.cheese)}`;
   return `<svg viewBox="0 0 300 220" role="img" aria-label="Layout diagram" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="220" rx="14" fill="#f3ead8"/>${body}</svg>`;
 }
 
@@ -92,11 +102,12 @@ function countdownJs() {
 </script>`;
 }
 
-const amounts = [6, 12, 20].map((g) => ({ g, cheese: (g * 2) / 16, meat: (g * 2) / 16, crackers: g * 6 }));
+// The house 2/3/4 standard at appetizer amounts (2 oz each), plus 10% from 20 guests up.
+const amounts = [6, 12, 20].map((g) => { const k = g >= 20 ? 1.1 : 1; return { g, cheese: (g * 2 * k) / 16, meat: (g * 2 * k) / 16, crackers: `${g * 6}–${g * 8}` }; });
 const lb = (x) => (x < 1 ? `${Math.round(x * 16)} oz` : `${(Math.round(x * 4) / 4).toString().replace(/\.25$/, "¼").replace(/\.5$/, "½").replace(/\.75$/, "¾")} lb`);
 
 // Holiday -> its board in 50 Boards Built by Science
-const HOLIDAY_BOOK_BOARD = { thanksgiving: 20, christmas: 6, "new-years-eve": 22, "valentines-day": 21, "st-patricks-day": 23, easter: 24 };
+const HOLIDAY_BOOK_BOARD = { thanksgiving: 20, christmas: 6, "new-years-eve": 22, "super-bowl": 8, "valentines-day": 21, "st-patricks-day": 23, easter: 24 };
 
 function bookBox(h, hol) {
   if (hol.book === "world") return worldOffer(h, `holiday_${hol.slug}`, { heading: "The gift for the host who has everything", lead: `<em>Around the World in 16 Boards</em> blueprints sixteen international boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists, prep countdowns and pairing science.` });
@@ -122,7 +133,8 @@ const HOL_UPDATED = "2026-09-26";
 export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays }) {
   const updated = hol.updated || HOL_UPDATED;
   const boards = hol.boards.map((s) => boardsBySlug.get(s)).filter(Boolean);
-  const blogs = (hol.blog || []).filter((s) => blogTitles.has(s));
+  // "blog" posts also carry this hub's banner; "read" posts are only linked from the hub.
+  const blogs = [...(hol.blog || []), ...(hol.read || [])].filter((s) => blogTitles.has(s));
   const next = nextDate(hol.dates);
   const item = (s) => (known.has(s) ? `<a href="/ingredients/${s}/">${h.escapeHtml(known.get(s))}</a>` : h.escapeHtml(s));
   const others = holidays.filter((x) => x.slug !== hol.slug);
@@ -198,7 +210,7 @@ ${boards.map((b) => card(b, h)).join("\n")}
 
     <section class="bl-section" id="amounts" aria-labelledby="amounts-h">
       <h2 id="amounts-h">How much to buy</h2>
-      <p>Served as an appetizer, plan about <strong>2 oz of cheese, 2 oz of meat and 6 crackers per guest</strong>. If the board is the meal, double it.</p>
+      <p>Served as an appetizer before a meal, plan about <strong>2 oz of cheese, 2 oz of meat and 6–8 crackers per guest</strong>. If the board is the party food, plan 3 oz of each; if it's dinner, 4 oz. From 20 guests, add 10% (included below).</p>
       <table class="hol-amounts">
         <thead><tr><th>Guests</th><th>Cheese</th><th>Meat</th><th>Crackers</th><th></th></tr></thead>
         <tbody>
@@ -250,6 +262,8 @@ export function holidaysHub(h, holidays) {
       <p class="section-kicker">Holiday Hub</p>
       <h1>Holiday charcuterie boards, planned</h1>
       <p class="bl-intro">Board ideas, shapes, a countdown plan and exact amounts for every holiday of the year.</p>
+      <p>Each holiday page has three board ideas sized for real parties, shaped boards with a layout diagram (a wreath for Christmas, a menorah for Hanukkah, a football for the Super Bowl), a countdown plan that starts two weeks out, and a table of how much cheese, meat and crackers to buy. Every page uses the same amounts as the rest of the Lab: about 2 oz each of cheese and meat per guest before a meal, 3 oz when the board is the party food and 4 oz when it's dinner, plus 10% from 20 guests up.</p>
+      <p>One food-safety rule runs through all of them: perishable food stays out no more than 2 hours, or 1 hour above 90°F. For a long party, build one board for the start and keep a refill tray in the fridge. The <a href="/party-planner/">Party Planner</a> works out exact amounts for any guest count.</p>
       <div class="hol-next">
         ${upcoming.map((c) => `<a class="hol-next-card" href="/holidays/${c.slug}/">
           <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt=""${h.imageSize ? h.imageSize((h.thumb || ((x) => x))(c.page.image)) : ""} loading="lazy" decoding="async">

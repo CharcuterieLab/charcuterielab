@@ -89,7 +89,7 @@ The cocktail party board rewards the 15 minutes of additional thought it takes o
 ## Related Reading
 
 - [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
-- [Charcuterie Board Serving Size: Exactly How Much Per Person](https://charcuterielab.com/blog/charcuterie-board-serving-size/)
+- [Charcuterie Board Serving Size: Exactly How Much Per Person](/blog/how-much-charcuterie-per-person/)
 - [The Best Cheeses for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 
 ## FAQ
