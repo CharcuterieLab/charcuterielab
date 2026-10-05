@@ -8,6 +8,8 @@ import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, p
 import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientDietBlock, loadDietary } from "./dietary.mjs";
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
+import { makeOffers } from "./offers.mjs";
+import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
 import { PLANT_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -1403,7 +1405,7 @@ ${head}
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <div class="nav-links">
-        <a class="nav-book" href="/ebook/">The Book</a>
+        <a class="nav-book" href="/printables/">Printables</a>
         <a href="/boards/">Boards</a>
         <a href="/holidays/">Holidays</a>
         <a href="/party-planner/">Party Planner</a>
@@ -1592,6 +1594,8 @@ function homePage(posts, products, boardStrip = "") {
       </div>
     </div>
   </section>
+
+  <!--offer-top-->
 
   ${boardStrip}
 
@@ -1889,7 +1893,7 @@ function shopPage(products) {
     {
       cover: "/images/books/plant-based-cover.webp", w: 600, h: 794, tag: "Plant-based", title: "15 Show-Stopping Plant-Based Boards",
       line: "No meat, no dairy, same pairing science.",
-      buttons: [[`Kindle · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, true], [`Paperback · ${PLANT_BOOK.paperbackPrice}`, PLANT_BOOK.kindleUrl, false]],
+      buttons: [[`Kindle on Amazon · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, true]],
       more: ["Plant-based boards", "/boards/plant-based/"]
     }
   ];
@@ -1905,7 +1909,7 @@ function shopPage(products) {
     const url = `/printables/${p.slug}/`;
     return `<a class="shop-print" href="${url}">
       <img src="${thumb(p.image)}" alt=""${imageSize(thumb(p.image))} loading="lazy" decoding="async">
-      <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.price)}</span></span>
+      <span class="shop-print-body"><strong>${escapeHtml(p.title)}</strong><span class="shop-price">${escapeHtml(p.priceShort || p.price)} · instant PDF</span></span>
     </a>`;
   };
   return layout({
@@ -1921,19 +1925,19 @@ function shopPage(products) {
   <header class="shop-hero">
     <p class="section-kicker">Shop</p>
     <h1>Build better boards</h1>
-    <p>Books and printables from the Lab.</p>
+    <p>Printables and ebooks as instant PDF downloads on Gumroad. Paperbacks on Amazon.</p>
   </header>
-  <section class="shop-section" aria-labelledby="shop-books">
-    <h2 id="shop-books">Books</h2>
-    <div class="shop-books">
-    ${books.map(bookCard).join("\n    ")}
-    </div>
-  </section>
   <section class="shop-section" aria-labelledby="shop-printables">
     <h2 id="shop-printables">Printables</h2>
-    <p class="shop-sub">Instant PDF downloads. <a href="/printables/">See every printable, including the free ones &rarr;</a></p>
+    <p class="shop-sub">Instant PDF downloads. <a href="/printables/">See what's inside each one &rarr;</a></p>
     <div class="shop-prints">
     ${products.map(printCard).join("\n    ")}
+    </div>
+  </section>
+  <section class="shop-section" aria-labelledby="shop-books">
+    <h2 id="shop-books">Ebooks and paperbacks</h2>
+    <div class="shop-books">
+    ${books.map(bookCard).join("\n    ")}
     </div>
   </section>
   <section class="shop-section shop-free" aria-labelledby="shop-free">
@@ -2290,6 +2294,9 @@ function demoteBodyHeadings(html, title) {
 let BOOK_BOARDS = new Map();
 let FUNNEL = null;
 let PRINTABLES = null;
+// Gumroad-first offers (scripts/offers.mjs): set in build(), injected into every page after it.
+let OFFERS = null;
+let OFFER_CTX = () => ({});
 
 // Blog post body: the matched book card goes after the first section (the
 // reader gets the answer first), the Board Builder promo moves to the middle,
@@ -2351,7 +2358,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     </div>
     ${heroImg(post.image, escapeHtml(post.title), "post-image")}
   </section>
-  ${FUNNEL.bookStrip(`top_${post.slug}`, bookBoard)}
+  <!--offer-top-->
   ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   <article class="post-body">
     ${postHtml}
@@ -2459,7 +2466,7 @@ async function build() {
 
   BOOK_BOARDS = await loadBookBoards(root);
   FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
-  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm }, products);
+  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
@@ -2470,6 +2477,25 @@ async function build() {
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
   const boardForPost = new Map();
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
+  OFFERS = makeOffers({ escapeHtml, thumb, withTracking }, allProducts, {
+    main: { key: "book-main", title: "50 Boards Built by Science", price: ebookPrice, url: ebookUrl, image: "/images/book-cover.jpg", page: "/ebook/", hook: "50 complete boards for every occasion: a shopping list with amounts and prices, a timed build and a swap for every ingredient.", paperbackUrl, paperbackPrice },
+    world: worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? { key: "book-world", title: "Around the World in 16 Boards", price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, image: WORLD_BOOK.cover, page: "/around-the-world/", hook: "16 international boards, from a Bavarian beer-hall spread to a Korean BBQ board, each with a shopping list, a prep countdown and the pairing science.", paperbackUrl: WORLD_BOOK.paperbackUrl || paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice || paperbackPrice } : null
+  });
+  {
+    const ingCat = new Map(ingredients.map((i) => [i.slug, i.category]));
+    const postBy = new Map(posts.map((p) => [p.slug, p]));
+    const boardBy = new Map(boards.map((b) => [b.slug, b]));
+    const bookOf = (b) => (b && b.book === "main" && /^B1-\d\d$/.test(b.number || "") ? BOOK_BOARDS.get(Number(b.number.slice(3))) || null : null);
+    OFFER_CTX = (path) => {
+      const [, sec, slug = "", sub = ""] = path.split("/");
+      if (sec === "ingredients") return { category: ingCat.get(slug) || "" };
+      if (sec === "blog" && postBy.has(slug)) { const p = postBy.get(slug); return { bookBoard: bookBoardFor(p, BOOK_BOARDS, boardForPost.get(slug) || null) }; }
+      if (sec === "boards" && boardBy.has(slug)) return { bookBoard: bookOf(boardBy.get(slug)) };
+      if (sec === "holidays" && HOLIDAY_BOOK_BOARD[slug]) return { bookBoard: BOOK_BOARDS.get(HOLIDAY_BOOK_BOARD[slug]) || null };
+      if (sec === "pairings" && slug === "food" && sub) return { category: ingCat.get(sub) || "" };
+      return {};
+    };
+  }
   // ingredient -> boards that use it
   const boardsUsing = new Map();
   boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
@@ -2861,6 +2887,7 @@ function searchPage(count) {
 }
 
 await build();
+{ const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages, ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");

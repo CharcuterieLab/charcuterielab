@@ -396,6 +396,7 @@ export function makePrintables(h, products) {
 
   function landing(bookBoards) {
     const b01 = bookBoards.get(1);
+    const cheapest = products.map((p) => p.priceShort || p.price).sort((x, y) => parseFloat(x.replace(/[^0-9.]/g, "")) - parseFloat(y.replace(/[^0-9.]/g, "")))[0] || "$4";
     const faq = [
       ["Is there a free printable charcuterie shopping list?", "Yes. Board 01 from the book, the Classic American Starter, is free as an 11-page PDF with its full shopping list, and the Board Builder prints a shopping list sized to your guest count."],
       ["What's the difference between the printables and the book?", "Each printable is one focused tool: a pairing chart, a cheese card or one complete board plan. The book is 50 complete boards in the same format."],
@@ -405,15 +406,39 @@ export function makePrintables(h, products) {
       title: "Printable Charcuterie Shopping Lists, Charts & Templates",
       canonical: "/printables/",
       image: products[0].image,
-      description: "Printable charcuterie board shopping lists, a wine and cheese pairing chart, a cheese pairing card and board blueprints. Free board 01 sample plus instant PDFs from $4.",
+      description: "Printable charcuterie board shopping lists, a wine and cheese pairing guide, a cheese pairing card, board blueprints and planners. Instant PDF downloads from $4, plus free samples.",
       head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab printables", itemListElement: products.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/printables/${p.slug}/`), name: p.title })) })}</script>
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
       body: `<main class="fx-printables">
   <header class="fx-p-hero">
     <p class="section-kicker">Printables</p>
     <h1>Printable charcuterie board shopping lists, charts and templates</h1>
-    <p>Print it, take it to the store, build from it. Start with the free ones; the paid PDFs are the designed, complete versions.</p>
+    <p>Instant PDF downloads from ${esc(cheapest)}. Print it, take it to the store and build from it. Checkout is on Gumroad and the download link arrives by email straight away.</p>
   </header>
+  <section class="fx-p-paid" aria-labelledby="fx-paid">
+    <h2 id="fx-paid">Printable PDFs</h2>
+    <div class="fx-p-grid">
+      ${products.map((p) => `<article class="fx-p-card">
+        <a href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
+        <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
+        <h3><a href="/printables/${p.slug}/">${esc(p.title)}</a></h3>
+        <p>${esc(p.hook)}</p>
+        <div class="fx-print-actions">${buy(p, "printables_hub")}<a class="fx-more" href="/printables/${p.slug}/">What's inside &rarr;</a></div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>
+  ${(h.ebooks || []).length ? `<section class="fx-p-paid fx-p-ebooks" aria-labelledby="fx-ebooks">
+    <h2 id="fx-ebooks">Ebooks: every board fully planned</h2>
+    <div class="fx-p-grid">
+      ${h.ebooks.map((b) => `<article class="fx-p-card">
+        <a href="${b.page}"><img src="${esc((h.thumb || ((x) => x))(b.cover))}" alt="${esc(b.title)} cover" width="320" height="414" loading="lazy" decoding="async"></a>
+        <p class="eyebrow">Ebook · ${esc(b.price)} · instant PDF</p>
+        <h3><a href="${b.page}">${esc(b.title)}</a></h3>
+        <p>${esc(b.line)}</p>
+        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.url, "printables_hub_ebook"))}" target="_blank" rel="noopener">Get the ebook · ${esc(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${esc(b.paperbackUrl)}" target="_blank" rel="noopener">Paperback on Amazon${b.paperbackPrice ? ` · ${esc(b.paperbackPrice)}` : ""}</a>` : ""}</div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : ""}
   <section class="fx-p-free" aria-labelledby="fx-free">
     <h2 id="fx-free">Free printables</h2>
     <div class="fx-p-free-grid">
@@ -428,26 +453,13 @@ export function makePrintables(h, products) {
       </article>
       <a class="fx-p-free-card" href="/board-builder/"><div><p class="eyebrow">Free · prints from your browser</p><h3>Shopping list sized to your guest count</h3><p>Pick your cheeses, meats and extras in the Board Builder, then print the list, prep steps and a layout.</p><span class="fx-more">Open the Board Builder &rarr;</span></div></a>
       <a class="fx-p-free-card" href="/pairings/wine-and-cheese-chart/"><div><p class="eyebrow">Free · prints from your browser</p><h3>Wine and cheese pairing chart</h3><p>Twelve wines against thirty cheeses on one page, with beer and cider columns if you want them.</p><span class="fx-more">Open the chart &rarr;</span></div></a>
-      <a class="fx-p-free-card" href="/boards/"><div><p class="eyebrow">Free · 28 boards</p><h3>Board plans with checklists</h3><p>What to buy, why it works and a countdown timeline for every board in the library.</p><span class="fx-more">Browse the boards &rarr;</span></div></a>
-    </div>
-  </section>
-  <section class="fx-p-paid" aria-labelledby="fx-paid">
-    <h2 id="fx-paid">Printable PDFs</h2>
-    <div class="fx-p-grid">
-      ${products.map((p) => `<article class="fx-p-card">
-        <a href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
-        <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
-        <h3><a href="/printables/${p.slug}/">${esc(p.title)}</a></h3>
-        <p>${esc(p.hook)}</p>
-        <div class="fx-print-actions">${buy(p, "printables_hub")}<a class="fx-more" href="/printables/${p.slug}/">What's inside &rarr;</a></div>
-      </article>`).join("\n      ")}
+      <a class="fx-p-free-card" href="/boards/"><div><p class="eyebrow">Free · board library</p><h3>Board plans with checklists</h3><p>What to buy, why it works and a countdown timeline for every board in the library.</p><span class="fx-more">Browse the boards &rarr;</span></div></a>
     </div>
   </section>
   <section class="fx-p-faq ebook-faq-list" aria-label="Questions">
     <h2>Questions</h2>
     ${faq.map(([q, a], i) => `<details${i === 0 ? " open" : ""}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("\n    ")}
   </section>
-  ${h.bookCard(null, "printables_hub_book")}
 </main>`
     });
   }

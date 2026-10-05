@@ -107,7 +107,7 @@ const amounts = [6, 12, 20].map((g) => { const k = g >= 20 ? 1.1 : 1; return { g
 const lb = (x) => (x < 1 ? `${Math.round(x * 16)} oz` : `${(Math.round(x * 4) / 4).toString().replace(/\.25$/, "¼").replace(/\.5$/, "½").replace(/\.75$/, "¾")} lb`);
 
 // Holiday -> its board in 50 Boards Built by Science
-const HOLIDAY_BOOK_BOARD = { thanksgiving: 20, christmas: 6, "new-years-eve": 22, "super-bowl": 8, "valentines-day": 21, "st-patricks-day": 23, easter: 24 };
+export const HOLIDAY_BOOK_BOARD = { thanksgiving: 20, christmas: 6, "new-years-eve": 22, "super-bowl": 8, "valentines-day": 21, "st-patricks-day": 23, easter: 24 };
 
 function bookBox(h, hol) {
   if (hol.book === "world") return worldOffer(h, `holiday_${hol.slug}`, { heading: "The gift for the host who has everything", lead: `<em>Around the World in 16 Boards</em> blueprints sixteen international boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists, prep countdowns and pairing science.` });

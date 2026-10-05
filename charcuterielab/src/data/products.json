@@ -329,5 +329,165 @@
         "/dietary/questions/is-parmesan-vegetarian/"
       ]
     ]
+  },
+  {
+    "slug": "cured-meat-field-guide",
+    "title": "Cured Meat Field Guide",
+    "status": "soon",
+    "price": "$9.00",
+    "priceShort": "$9",
+    "pagesLabel": "13 pages",
+    "format": "US Letter PDF",
+    "image": "/images/printable-board-builder.jpg",
+    "description": "Every cured meat you'll find at the deli counter, explained: what it tastes like, how spicy it is, how to slice it and what to pair it with.",
+    "hook": "Every cured meat you'll find at the deli counter, explained: what it tastes like, how spicy it is, how to slice it and what to pair it with.",
+    "seoTitle": "Cured Meat Field Guide: Printable PDF",
+    "metaDescription": "Every cured meat you'll find at the deli counter, explained: what it tastes like, how spicy it is, how to slice it and what to pair it with.",
+    "includes": [
+      "Salami styles by flavor and heat",
+      "How to slice and fold each meat",
+      "Pairings for every meat",
+      "A deli-counter shopping checklist"
+    ],
+    "who": "Anyone standing at the deli counter wondering what to buy.",
+    "free": [
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": ""
+  },
+  {
+    "slug": "cheese-board-field-guide",
+    "title": "Cheese Board Field Guide",
+    "status": "soon",
+    "price": "$9.00",
+    "priceShort": "$9",
+    "pagesLabel": "12 pages",
+    "format": "US Letter PDF",
+    "image": "/images/printable-board-builder.jpg",
+    "description": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
+    "hook": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
+    "seoTitle": "Cheese Board Field Guide: Printable PDF",
+    "metaDescription": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
+    "includes": [
+      "The four-texture cheese picker",
+      "Pairings for the most popular board cheeses",
+      "How much cheese to buy by guest count",
+      "Fridge-out times for every cheese type"
+    ],
+    "who": "Hosts who want a cheese board that works without guessing.",
+    "free": [
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": ""
+  },
+  {
+    "slug": "make-ahead-board-timeline",
+    "title": "Make-Ahead Board Timeline",
+    "status": "soon",
+    "price": "$7.00",
+    "priceShort": "$7",
+    "pagesLabel": "9 pages",
+    "format": "US Letter PDF",
+    "image": "/images/printable-board-builder.jpg",
+    "description": "What to do two days, one night and one hour before the party, so the board is built calm and served at its best.",
+    "hook": "What to do two days, one night and one hour before the party, so the board is built calm and served at its best.",
+    "seoTitle": "Make-Ahead Board Timeline: Printable PDF",
+    "metaDescription": "What to do two days, one night and one hour before the party, so the board is built calm and served at its best.",
+    "includes": [
+      "A 48-hour countdown",
+      "Night-before prep list",
+      "What can and can't be made ahead",
+      "Storage and food-safety rules"
+    ],
+    "who": "Busy hosts who want to prep the night before.",
+    "free": [
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": ""
+  },
+  {
+    "slug": "baby-shower-board-kit",
+    "title": "Baby Shower Board Kit",
+    "status": "soon",
+    "price": "$9.00",
+    "priceShort": "$9",
+    "pagesLabel": "13 pages",
+    "format": "US Letter PDF",
+    "image": "/images/printable-board-builder.jpg",
+    "description": "A complete baby shower board with pregnancy-safe picks, a shopping list for 20 and printable tent cards for the table.",
+    "hook": "A complete baby shower board with pregnancy-safe picks, a shopping list for 20 and printable tent cards for the table.",
+    "seoTitle": "Baby Shower Board Kit: Printable PDF",
+    "metaDescription": "A complete baby shower board with pregnancy-safe picks, a shopping list for 20 and printable tent cards for the table.",
+    "includes": [
+      "Shopping list for 20 guests",
+      "Pregnancy-safe cheese and meat guide (CDC)",
+      "12 printable tent cards",
+      "Build steps and timeline"
+    ],
+    "who": "Anyone hosting a baby shower who wants every guest covered.",
+    "free": [
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": ""
+  },
+  {
+    "slug": "brunch-lox-board-plan",
+    "title": "Brunch & Lox Board Plan",
+    "status": "soon",
+    "price": "$7.00",
+    "priceShort": "$7",
+    "pagesLabel": "9 pages",
+    "format": "US Letter PDF",
+    "image": "/images/printable-board-builder.jpg",
+    "description": "A bagel and lox brunch board: what to buy, how much, the topping lineup and how to set it out.",
+    "hook": "A bagel and lox brunch board: what to buy, how much, the topping lineup and how to set it out.",
+    "seoTitle": "Brunch & Lox Board Plan: Printable PDF",
+    "metaDescription": "A bagel and lox brunch board: what to buy, how much, the topping lineup and how to set it out.",
+    "includes": [
+      "Shopping list with amounts",
+      "Lox and topping checklist",
+      "Bagel and spread guide",
+      "Build steps and timeline"
+    ],
+    "who": "Brunch hosts and anyone planning a bagel board.",
+    "free": [
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": ""
   }
 ]
