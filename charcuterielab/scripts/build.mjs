@@ -1905,7 +1905,7 @@ function shopPage(products) {
       more: ["What's inside", ebookPageUrl]
     },
     {
-      cover: W.cover, w: 600, h: 776, tag: worldLive ? "New" : `Coming ${W.launch.replace(/, \d{4}$/, "")}`, title: "Around the World in 16 Boards",
+      cover: W.cover, w: 600, h: 787, tag: worldLive ? "New" : `Coming ${W.launch.replace(/, \d{4}$/, "")}`, title: "Around the World in 16 Boards",
       line: "16 international boards, from Bavaria to Korea to Peru.",
       buttons: worldLive
         ? [...(W.ebookUrl ? [[`Ebook${W.ebookPrice ? ` · ${W.ebookPrice}` : ""}`, W.ebookUrl, true]] : []), ...(W.paperbackUrl ? [[`Paperback${W.paperbackPrice ? ` · ${W.paperbackPrice}` : ""}`, W.paperbackUrl, !W.ebookUrl]] : [])]
@@ -1925,7 +1925,7 @@ function shopPage(products) {
       more: ["Charcuterie board for two", "/blog/charcuterie-board-two/"]
     },
     {
-      cover: KETO_BOOK.cover, w: 600, h: 776, tag: "New · Keto", title: "Keto & Low-Carb Boards",
+      cover: KETO_BOOK.cover, w: 600, h: 787, tag: "New · Keto", title: "Keto & Low-Carb Boards",
       line: "20 boards at 4–9 g net carbs per serving, with full macros.",
       buttons: [[`Ebook · ${KETO_BOOK.ebookPrice}`, withTracking(KETO_BOOK.ebookUrl, "shop_keto"), true], ...(KETO_BOOK.paperbackUrl ? [[`Paperback · ${KETO_BOOK.paperbackPrice}`, KETO_BOOK.paperbackUrl, false]] : [])],
       more: ["The keto board", "/blog/keto-charcuterie-board/"]
