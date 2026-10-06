@@ -1,5 +1,6 @@
 ---
 title: "Guanciale"
+seo_title: "Can You Eat Guanciale Raw? And Why It's So Expensive"
 slug: "guanciale"
 section: "ingredients"
 category: "Cured Meat & Seafood"

@@ -1,5 +1,6 @@
 ---
 title: "Plantain Chips"
+seo_title: "Are Plantain Chips Gluten-Free? What to Know"
 slug: "plantain-chips"
 section: "ingredients"
 category: "Crackers & Breads"

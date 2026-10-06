@@ -1,5 +1,6 @@
 ---
 title: "Sobrasada"
+seo_title: "Sobrasada vs 'Nduja: What It Is & How to Serve It"
 slug: "sobrasada"
 section: "ingredients"
 category: "Cured Meat & Seafood"

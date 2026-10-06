@@ -1,5 +1,6 @@
 ---
 title: "Fresh Thyme"
+seo_title: "Can You Eat Fresh Thyme Raw? Yes. How to Use It"
 slug: "fresh-thyme"
 section: "ingredients"
 category: "Finishing Touches"

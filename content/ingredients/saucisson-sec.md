@@ -1,5 +1,6 @@
 ---
 title: "Saucisson Sec"
+seo_title: "Saucisson Sec in English: What It Is & How to Serve It"
 slug: "saucisson-sec"
 section: "ingredients"
 category: "Cured Meat & Seafood"

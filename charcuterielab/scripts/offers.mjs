@@ -28,9 +28,10 @@ export const OFFER_RULES = [
   [/night-before|make-ahead|how-long|store|storage|leftover/, ["make-ahead-board-timeline", "classic-entertaining-board-blueprint"], "Making it ahead?"],
   [/gluten|celiac/, ["gluten-free-board-kit", "book:board", "complete-board-builder-bundle"], "Hosting a gluten-free guest?"],
   [/nut-free|nut-allerg|have-nuts|nuts-safe/, ["nut-free-allergy-board-kit", "complete-board-builder-bundle"], "Hosting a nut-free guest?"],
-  [/vegan|vegetarian|plant-based|dairy-free/, ["vegetarian-vegan-board-kit", "complete-board-builder-bundle"], "Feeding vegetarian guests?"],
+  [/vegan|vegetarian|plant-based|dairy-free/, ["vegetarian-vegan-board-kit", "book:plant", "complete-board-builder-bundle"], "Feeding vegetarian guests?"],
   [/\/dietary\/|mixed-diet|kosher|halal/, ["mixed-diet-party-planner", "complete-board-builder-bundle"], "Mixed diets at the party?"],
   [/grazing|large-group|crowd|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
+  [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "complete-board-builder-bundle"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],
@@ -48,7 +49,9 @@ const DEFAULT_LEAD = {
   "grazing-table-planner": "Feeding a crowd?",
   "book:board": "Want the full plan?",
   "book:main": "Want every board planned?",
-  "book:world": "Love a world board?"
+  "book:world": "Love a world board?",
+  "book:plant": "Going plant-based?",
+  "book:keto": "Keeping it keto?"
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
@@ -62,6 +65,8 @@ export function makeOffers(h, products, books) {
   function asOffer(target, ctx) {
     if (target === "book:world" && books.world) return { type: "ebook", ...books.world };
     if (target === "book:main") return { type: "ebook", ...books.main };
+    if (target === "book:plant" && books.plant) return { type: "ebook", ...books.plant };
+    if (target === "book:keto" && books.keto) return { type: "ebook", ...books.keto };
     if (target === "book:board") {
       const b = ctx.bookBoard;
       if (!b) return null;
@@ -97,7 +102,8 @@ export function makeOffers(h, products, books) {
       return `Or all 50 boards: <a href="${esc(h.withTracking(bk.url, `${campaign}_alt`))}" target="_blank" rel="noopener">ebook ${esc(bk.price)}</a> · <a href="${esc(bk.paperbackUrl)}" target="_blank" rel="noopener">paperback on Amazon</a>`;
     }
     const bundle = live.get("complete-board-builder-bundle");
-    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}</a>${bundle ? ` · <a href="/printables/">Printables from $4</a>` : ""}`;
+    if (!o.paperbackUrl) return `<a href="/printables/">Or browse the printables from $4</a>`;
+    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a>${bundle ? ` · <a href="/printables/">Printables from $4</a>` : ""}`;
   }
 
   function top(ctx, campaign) {

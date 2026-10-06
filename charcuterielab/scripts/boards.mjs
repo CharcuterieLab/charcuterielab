@@ -33,9 +33,25 @@ export const WORLD_BOOK = {
 // finishes review, and the paperback button appears when its URL is filled.
 export const worldIsLive = (W = WORLD_BOOK) => W.status === "live" && Boolean(W.paperbackUrl || W.ebookUrl);
 
+// Book 5. Gumroad ebook live 5 Oct 2026; add paperbackUrl when the KDP paperback is live.
+export const KETO_BOOK = {
+  title: "Charcuterie Lab: Keto & Low-Carb Boards",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/gvjsf",
+  ebookPrice: "$9.99",
+  cover: "/images/books/keto-cover.jpg",
+  paperbackUrl: "",
+  paperbackPrice: "$16.99"
+};
+
 export const PLANT_BOOK = {
   title: "Charcuterie Lab: 15 Show-Stopping Plant-Based Boards",
+  // Gumroad ebook (PDF) is the main button since 5 Oct 2026; Kindle is the second option.
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/yshmj",
+  ebookPrice: "$9.99",
+  cover: "/images/books/plant-based-cover.webp",
   kindleUrl: "https://www.amazon.com/dp/B0H32HT617",
+  // Paste the paperback's Amazon link here; until then the second button is Kindle.
+  paperbackUrl: "https://www.amazon.com/dp/B0H33YLLR3",
   kindlePrice: "$9.99",
   paperbackPrice: "$18.99"
 };
@@ -236,8 +252,8 @@ function bookOffer(h, board) {
         <h2 id="bl-book-title">Build it exactly, with the plant-based book</h2>
         <p>This board's exact shopping list with amounts and prices, the step-by-step build and every swap are in <em>${h.escapeHtml(PLANT_BOOK.title)}</em>, with 14 more plant-based boards.</p>
         <div class="book-buy">
-          <a class="button primary" href="${PLANT_BOOK.kindleUrl}" target="_blank" rel="noopener">Kindle · ${PLANT_BOOK.kindlePrice}</a>
-          <a class="button book-buy-print" href="${PLANT_BOOK.kindleUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${PLANT_BOOK.paperbackPrice}</a>
+          <a class="button primary" href="${h.withTracking ? h.withTracking(PLANT_BOOK.ebookUrl, `board_${board.slug}`) : PLANT_BOOK.ebookUrl}" target="_blank" rel="noopener">Get the ebook · ${PLANT_BOOK.ebookPrice}</a>
+          <a class="button book-buy-print" href="${PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl}" target="_blank" rel="noopener">${PLANT_BOOK.paperbackUrl ? `Paperback on Amazon · ${PLANT_BOOK.paperbackPrice}` : `Kindle on Amazon · ${PLANT_BOOK.kindlePrice}`}</a>
         </div>
       </div>
     </section>`;

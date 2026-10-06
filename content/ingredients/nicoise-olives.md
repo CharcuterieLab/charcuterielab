@@ -1,5 +1,6 @@
 ---
 title: "Niçoise Olives"
+seo_title: "What Are Niçoise Olives? Taste, Substitutes & Pairings"
 slug: "nicoise-olives"
 section: "ingredients"
 category: "Pickles, Olives & Briny"

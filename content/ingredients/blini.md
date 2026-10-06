@@ -1,5 +1,6 @@
 ---
 title: "Blini"
+seo_title: "What Are Blini? How to Serve Them with Smoked Salmon"
 slug: "blini"
 section: "ingredients"
 category: "Crackers & Breads"

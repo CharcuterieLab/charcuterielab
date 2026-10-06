@@ -435,7 +435,7 @@ export function makePrintables(h, products) {
         <p class="eyebrow">Ebook · ${esc(b.price)} · instant PDF</p>
         <h3><a href="${b.page}">${esc(b.title)}</a></h3>
         <p>${esc(b.line)}</p>
-        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.url, "printables_hub_ebook"))}" target="_blank" rel="noopener">Get the ebook · ${esc(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${esc(b.paperbackUrl)}" target="_blank" rel="noopener">Paperback on Amazon${b.paperbackPrice ? ` · ${esc(b.paperbackPrice)}` : ""}</a>` : ""}</div>
+        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.url, "printables_hub_ebook"))}" target="_blank" rel="noopener">Get the ebook · ${esc(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${esc(b.paperbackUrl)}" target="_blank" rel="noopener">${esc(b.altLabel || "Paperback on Amazon")}${b.paperbackPrice ? ` · ${esc(b.paperbackPrice)}` : ""}</a>` : ""}</div>
       </article>`).join("\n      ")}
     </div>
   </section>` : ""}

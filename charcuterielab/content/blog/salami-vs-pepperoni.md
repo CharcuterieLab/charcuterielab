@@ -1,11 +1,11 @@
 ---
 title: "Salami vs. Pepperoni: Is Pepperoni Salami?"
-seo_title: "Salami vs Pepperoni: Is Pepperoni Salami? Key Differences"
+seo_title: "Salami vs Pepperoni: 9 Differences in One Chart"
 date: "2026-05-05"
 updated: "2026-09-24"
 image: "/images/salami-vs-pepperoni.webp"
 excerpt: "Yes, pepperoni is a type of salami: an American one. Here's what makes it different from Italian salami, which is spicier, and which to use on a pizza or a board."
-description: "Yes, pepperoni is a type of salami, an American one. It's finer, smokier, paprika-red and spicier; salami is a whole family of Italian cured sausages. Here's how to tell them apart."
+description: "Pepperoni is a salami, but not the kind most people mean. Compare meat, grind, spice, smoke and pizza behavior side by side, and see which to buy."
 slug: "salami-vs-pepperoni"
 tags: "["salami", "pepperoni", "charcuterie", "cured meats", "salami vs pepperoni", "charcuterie meats", "calabrese salami", "genoa salami"]"
 faq: "[{"question":"Is pepperoni a type of salami?","answer":"Yes. Pepperoni is an American-style salami: a fermented, dried sausage like any salami, but made finer, seasoned with paprika and chili, and usually smoked."},{"question":"Is salami the same as pepperoni?","answer":"No. All pepperoni is salami, but most salami is not pepperoni. Salami is a whole family of cured sausages (Genoa, soppressata, calabrese, finocchiona); pepperoni is one American member of it."},{"question":"Which is spicier, salami or pepperoni?","answer":"Pepperoni is spicier than most salami, including Genoa. Hot salamis like calabrese and spicy soppressata can match or beat it."},{"question":"What is the difference between Calabrese salami and pepperoni?","answer":"Calabrese is an Italian salami from Calabria, pork-only, coarser and fermented, with Calabrian chili for heat. Pepperoni is its milder, finer, smokier American cousin, often made with pork and beef."},{"question":"Can I use salami instead of pepperoni on pizza?","answer":"Yes. Salami tastes great on pizza but lies flat instead of cupping and releases less red oil. Use a spicy salami such as calabrese or soppressata for pepperoni-like heat."},{"question":"Why is it called pepperoni?","answer":"The name comes from peperoni, the Italian word for bell peppers. Order pepperoni pizza in Italy and you may get peppers; ask for salame piccante instead."}]"

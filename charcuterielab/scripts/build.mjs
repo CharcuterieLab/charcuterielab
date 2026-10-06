@@ -10,7 +10,7 @@ import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from 
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
-import { PLANT_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { KETO_BOOK, PLANT_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -788,6 +788,9 @@ async function loadIngredients() {
       return {
         slug,
         title: data.title ?? "Untitled",
+        // Optional per-page <title> override, matched to the question people
+        // actually search ("Can you eat guanciale raw?"). The H1 stays the name.
+        seoTitle: data.seo_title ?? "",
         category: data.category ?? "Other",
         categorySlug: slugify(data.category ?? "Other"),
         boardRole: data.board_role ?? "",
@@ -1229,8 +1232,26 @@ function ingredientBodyHtml(html, blogSlugs) {
 // ("Walnuts") read "What Are"; a few singular names end in s.
 const SINGULAR_S = new Set(["Cabrales", "Candied Citrus", "Époisses", "Hummus", "Langres", "Physalis", "Speculoos", "Tinned Octopus", "Wensleydale with Cranberries"]);
 function ingredientSeoTitle(item) {
+  if (item.seoTitle) return item.seoTitle;
   const verb = /s$/.test(item.title) && !SINGULAR_S.has(item.title) ? "Are" : "Is";
   return `What ${verb} ${item.title}? How to Serve & Pair It`;
+}
+
+// Cheese and cured-meat pages point at the two buying guides that rank for
+// "best cheese for charcuterie board" and "charcuterie meats", so those guides
+// get a consistent, keyword-matched internal link from every relevant page.
+const SEAFOOD_SLUGS = new Set(["anchovies", "boquerones", "bottarga", "caviar", "gravlax", "sardines", "smoked-salmon", "smoked-trout", "tinned-mackerel", "tinned-octopus"]);
+function ingredientGuideLink(item, blogSlugs) {
+  let slug = "", text = "";
+  if (item.category === "Cheese") {
+    slug = "best-cheese-charcuterie-board";
+    text = `Choosing cheeses? See <a href="/blog/${slug}/">the best cheese for a charcuterie board</a>: 16 cheeses by type, and how many to buy.`;
+  } else if (item.category === "Cured Meat & Seafood" && !SEAFOOD_SLUGS.has(item.slug)) {
+    slug = "best-meats-charcuterie-board";
+    text = `Building the meat side? See the <a href="/blog/${slug}/">charcuterie meats list</a>: the 20 best meats for a board, and how much of each.`;
+  }
+  if (!slug || (blogSlugs && !blogSlugs.has(slug))) return "";
+  return `<p class="ing-guide">${text}</p>`;
 }
 
 function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "", mentions = null) {
@@ -1279,6 +1300,7 @@ ${spec
     <div class="post-body ing-body">
       ${ingredientBodyHtml(item.html, blogSlugs)}
     </div>
+    ${ingredientGuideLink(item, blogSlugs)}
     ${FUNNEL.leadBox("ing-lead", `cheat_ing_${item.slug}`, { title: `Serving ${item.title}? Get the free cheat sheet` })}
     ${bookBar(`ingredient_${item.slug}`, `Put ${item.title.toLowerCase()} on a full board`)}
     ${PRINTABLES.card(printableFor({ kind: "ingredient", slug: item.slug, title: item.title, category: item.category }), `ingredient_print_${item.slug}`, { item })}
@@ -1893,8 +1915,14 @@ function shopPage(products) {
     {
       cover: "/images/books/plant-based-cover.webp", w: 600, h: 794, tag: "Plant-based", title: "15 Show-Stopping Plant-Based Boards",
       line: "No meat, no dairy, same pairing science.",
-      buttons: [[`Kindle on Amazon · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, true]],
+      buttons: [[`Ebook · ${PLANT_BOOK.ebookPrice}`, withTracking(PLANT_BOOK.ebookUrl, "shop_plant"), true], PLANT_BOOK.paperbackUrl ? [`Paperback · ${PLANT_BOOK.paperbackPrice}`, PLANT_BOOK.paperbackUrl, false] : [`Kindle · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, false]],
       more: ["Plant-based boards", "/boards/plant-based/"]
+    },
+    {
+      cover: KETO_BOOK.cover, w: 600, h: 776, tag: "New · Keto", title: "Keto & Low-Carb Boards",
+      line: "20 boards at 4–9 g net carbs per serving, with full macros.",
+      buttons: [[`Ebook · ${KETO_BOOK.ebookPrice}`, withTracking(KETO_BOOK.ebookUrl, "shop_keto"), true], ...(KETO_BOOK.paperbackUrl ? [[`Paperback · ${KETO_BOOK.paperbackPrice}`, KETO_BOOK.paperbackUrl, false]] : [])],
+      more: ["The keto board", "/blog/keto-charcuterie-board/"]
     }
   ];
   const ext = (href) => /^https?:/.test(href) ? ' target="_blank" rel="noopener"' : "";
@@ -2063,7 +2091,7 @@ function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
         <p>${AUTHOR_NAME} writes this site and the Charcuterie Lab books, alongside running a local charcuterie catering business. Every board he publishes follows the same format: a shopping list with amounts, a build order, and the reason each pairing works, so you can repeat a good board instead of guessing at it.</p>
         <ul class="about-books">
           <li><a href="/ebook/"><strong>${bookTitle}</strong></a>: 50 complete boards, as an ebook and a ${paperbackPrice} paperback.</li>
-          <li><a href="${escapeHtml(PLANT_BOOK.kindleUrl)}" target="_blank" rel="noopener"><strong>${escapeHtml(PLANT_BOOK.title)}</strong></a>: 15 plant-based boards.</li>
+          <li><a href="${escapeHtml(withTracking(PLANT_BOOK.ebookUrl, "about_plant"))}" target="_blank" rel="noopener"><strong>${escapeHtml(PLANT_BOOK.title)}</strong></a>: 15 plant-based boards.</li>
           <li><a href="/around-the-world/"><strong>${escapeHtml(WORLD_BOOK.title)}</strong></a>: 16 international boards${worldIsLive() ? "" : `, out ${escapeHtml(WORLD_BOOK.launch)}`}.</li>
         </ul>
 
@@ -2466,7 +2494,7 @@ async function build() {
 
   BOOK_BOARDS = await loadBookBoards(root);
   FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
-  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : [])] }, products);
+  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/blog/keto-charcuterie-board/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/boards/plant-based/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
@@ -2479,6 +2507,8 @@ async function build() {
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
   OFFERS = makeOffers({ escapeHtml, thumb, withTracking }, allProducts, {
     main: { key: "book-main", title: "50 Boards Built by Science", price: ebookPrice, url: ebookUrl, image: "/images/book-cover.jpg", page: "/ebook/", hook: "50 complete boards for every occasion: a shopping list with amounts and prices, a timed build and a swap for every ingredient.", paperbackUrl, paperbackPrice },
+    keto: KETO_BOOK.ebookUrl ? { key: "book-keto", title: "Keto & Low-Carb Boards", price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, image: KETO_BOOK.cover, page: "/blog/keto-charcuterie-board/", hook: "20 keto boards at 4–9 g net carbs per serving, each with full macros, a shopping list with the net carbs of every item and a step-by-step build.", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice } : null,
+    plant: PLANT_BOOK.ebookUrl ? { key: "book-plant", title: "15 Show-Stopping Plant-Based Boards", price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, image: PLANT_BOOK.cover, page: "/boards/plant-based/", hook: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science behind it.", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle" } : null,
     world: worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? { key: "book-world", title: "Around the World in 16 Boards", price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, image: WORLD_BOOK.cover, page: "/around-the-world/", hook: "16 international boards, from a Bavarian beer-hall spread to a Korean BBQ board, each with a shopping list, a prep countdown and the pairing science.", paperbackUrl: WORLD_BOOK.paperbackUrl || paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice || paperbackPrice } : null
   });
   {

@@ -1,5 +1,6 @@
 ---
 title: "Water Crackers"
+seo_title: "What Are Water Crackers? Ingredients & Best Boxes"
 slug: "water-crackers"
 section: "ingredients"
 category: "Crackers & Breads"

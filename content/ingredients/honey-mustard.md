@@ -1,5 +1,6 @@
 ---
 title: "Honey Mustard"
+seo_title: "What Is Honey Mustard? Make It in 30 Seconds"
 slug: "honey-mustard"
 section: "ingredients"
 category: "Spreads, Jams & Honey"

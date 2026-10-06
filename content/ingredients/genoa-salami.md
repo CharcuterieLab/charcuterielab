@@ -1,5 +1,6 @@
 ---
 title: "Genoa Salami"
+seo_title: "Genoa Salami vs Pepperoni & Hard Salami: What It Is"
 slug: "genoa-salami"
 section: "ingredients"
 category: "Cured Meat & Seafood"
@@ -15,7 +16,7 @@ allergens: []
 tags: ["cured meat", "italian", "salami", "budget"]
 pairs_with: ["soppressata", "finocchiona", "pepperoni", "butter-crackers", "aged-provolone"]
 avoid_with: ["delicate-fresh-cheese"]
-faq: "[{"question": "Is Genoa salami actually from Genoa?", "answer": "Not really. It's an Italian-American category named after the city, not a protected Italian product."}, {"question": "Genoa or hard salami?", "answer": "Genoa is softer, fattier and wine-scented. Hard salami is drier, firmer and smokier. Genoa is the better board meat."}, {"question": "Can I eat the casing?", "answer": "Usually not — most commercial Genoa uses inedible casing. Peel it."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Why is mine greasy?", "answer": "It's warm. Genoa has a high fat content and starts to sweat above about 72°F."}]"
+faq: "[{"question": "Is Genoa salami actually from Genoa?", "answer": "Not really. It's an Italian-American category named after the city, not a protected Italian product."}, {"question": "Genoa or hard salami?", "answer": "Genoa is softer, fattier and wine-scented. Hard salami is drier, firmer and smokier. Genoa is the better board meat."}, {"question": "Can I eat the casing?", "answer": "Usually not — most commercial Genoa uses inedible casing. Peel it."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Why is mine greasy?", "answer": "It's warm. Genoa has a high fat content and starts to sweat above about 72°F."}, {"question": "Genoa salami vs pepperoni: what's the difference?", "answer": "Genoa is mild, coarser and seasoned with garlic and wine, and it isn't smoked. Pepperoni is finer, smoked and seasoned with paprika and chili, so it's redder and spicier."}]"
 ---
 
 ## The short version

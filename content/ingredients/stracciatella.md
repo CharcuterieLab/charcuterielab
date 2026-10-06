@@ -1,5 +1,6 @@
 ---
 title: "Stracciatella"
+seo_title: "What Is Stracciatella Cheese? Ingredients & Serving"
 slug: "stracciatella"
 section: "ingredients"
 category: "Cheese"

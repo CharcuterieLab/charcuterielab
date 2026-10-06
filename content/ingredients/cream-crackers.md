@@ -1,5 +1,6 @@
 ---
 title: "Cream Crackers"
+seo_title: "What Are Cream Crackers? (There's No Cream in Them)"
 slug: "cream-crackers"
 section: "ingredients"
 category: "Crackers & Breads"

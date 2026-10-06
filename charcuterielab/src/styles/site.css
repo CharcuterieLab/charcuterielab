@@ -4556,3 +4556,17 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
   .fx-top .fx-top-hook { display: none; }
 }
 @media print { .fx-top { display: none !important; } }
+
+/* Buying-guide pointer on cheese and cured-meat ingredient pages */
+.ing-guide {
+  margin: 28px 0 0;
+  padding: 14px 18px;
+  border-left: 3px solid var(--ing-tint, var(--gold-dark));
+  background: color-mix(in srgb, var(--ing-tint, var(--gold-dark)) 8%, var(--paper));
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.ing-guide a {
+  font-weight: 600;
+}

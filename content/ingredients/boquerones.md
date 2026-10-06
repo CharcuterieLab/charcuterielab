@@ -1,5 +1,6 @@
 ---
 title: "Boquerones"
+seo_title: "Boquerones: What They Are & How to Serve Them"
 slug: "boquerones"
 section: "ingredients"
 category: "Cured Meat & Seafood"

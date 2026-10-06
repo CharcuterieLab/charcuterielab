@@ -1,5 +1,6 @@
 ---
 title: "Boursin"
+seo_title: "Is Boursin Cream Cheese? What It Is & How to Serve It"
 slug: "boursin"
 section: "ingredients"
 category: "Cheese"
@@ -15,7 +16,7 @@ allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "crowd-pleaser"]
 pairs_with: ["cream-cheese", "fresh-chevre", "water-crackers", "crostini", "prosciutto-di-parma", "genoa-salami", "sunflower-seeds"]
 avoid_with: ["delicate-aged-cheese", "fruit-jam"]
-faq: "[{"question": "Is Boursin a real cheese?", "answer": "Yes — a French fresh cow's-milk cheese blended with garlic and herbs. It's been made since 1963."}, {"question": "Does it need anything done to it?", "answer": "No, and that's the appeal. Just let it come to room temperature."}, {"question": "Why does it dominate the board?", "answer": "Garlic lingers on the palate. Keep it at one end, give it its own knife, and nothing else picks it up."}, {"question": "How much per person?", "answer": "About 1 oz. A 5.2 oz puck serves five to six."}, {"question": "Can I make my own?", "answer": "Yes — cream cheese, minced garlic, chives, parsley, lemon zest and salt. It's cheaper and you control the garlic."}]"
+faq: "[{"question": "Is Boursin a real cheese?", "answer": "Yes — a French fresh cow's-milk cheese blended with garlic and herbs. It's been made since 1963."}, {"question": "Does it need anything done to it?", "answer": "No, and that's the appeal. Just let it come to room temperature."}, {"question": "Why does it dominate the board?", "answer": "Garlic lingers on the palate. Keep it at one end, give it its own knife, and nothing else picks it up."}, {"question": "How much per person?", "answer": "About 1 oz. A 5.2 oz puck serves five to six."}, {"question": "Can I make my own?", "answer": "Yes — cream cheese, minced garlic, chives, parsley, lemon zest and salt. It's cheaper and you control the garlic."}, {"question": "Is Boursin cream cheese?", "answer": "Not exactly. Boursin is a fresh, soft French cow's-milk cheese in the Gournay style, blended with garlic and herbs. It's richer and more crumbly-creamy than American cream cheese, but you can use the two the same way."}, {"question": "Is Boursin brie?", "answer": "No. Brie is an aged cheese with a white bloomy rind. Boursin is a fresh cheese with no rind and no aging."}]"
 ---
 
 ## The short version
