@@ -57,7 +57,7 @@ const DEFAULT_LEAD = {
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
-const SKIP = /^\/(printables|shop|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
+const SKIP = /^\/(printables|shop|books|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
 export function makeOffers(h, products, books) {
   const esc = h.escapeHtml;

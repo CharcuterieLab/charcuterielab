@@ -9,6 +9,7 @@ import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientD
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
+import { bookLandingPages } from "./bookpages.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
 import { KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
@@ -422,7 +423,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|books|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
 const linkIndex = { live: null, redirects: new Set(), held: new Map(), merged: {} };
 
 function resolveSiteLink(href = "") {
@@ -1451,6 +1452,7 @@ ${head}
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="footer-links">
+        <a href="/books/">Books</a>
         <a href="/ebook/">The Book</a>
         <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
         <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
@@ -1916,19 +1918,19 @@ function shopPage(products) {
       cover: "/images/books/plant-based-cover.webp", w: 600, h: 794, tag: "Plant-based", title: "15 Show-Stopping Plant-Based Boards",
       line: "No meat, no dairy, same pairing science.",
       buttons: [[`Ebook · ${PLANT_BOOK.ebookPrice}`, withTracking(PLANT_BOOK.ebookUrl, "shop_plant"), true], PLANT_BOOK.paperbackUrl ? [`Paperback · ${PLANT_BOOK.paperbackPrice}`, PLANT_BOOK.paperbackUrl, false] : [`Kindle · ${PLANT_BOOK.kindlePrice}`, PLANT_BOOK.kindleUrl, false]],
-      more: ["Plant-based boards", "/boards/plant-based/"]
+      more: ["See the 15 boards", "/books/plant-based-charcuterie-boards/"]
     },
     {
       cover: TWO_BOOK.cover, w: 600, h: 787, tag: "New · For two", title: "Boards for Two",
       line: "25 boards for date nights, celebrations and cozy nights in.",
       buttons: [[`Ebook · ${TWO_BOOK.ebookPrice}`, withTracking(TWO_BOOK.ebookUrl, "shop_two"), true], ...(TWO_BOOK.paperbackUrl ? [[`Paperback · ${TWO_BOOK.paperbackPrice}`, TWO_BOOK.paperbackUrl, false]] : [])],
-      more: ["Charcuterie board for two", "/blog/charcuterie-board-two/"]
+      more: ["See the 25 boards", "/books/boards-for-two/"]
     },
     {
       cover: KETO_BOOK.cover, w: 600, h: 787, tag: "New · Keto", title: "Keto & Low-Carb Boards",
       line: "20 boards at 4–9 g net carbs per serving, with full macros.",
       buttons: [[`Ebook · ${KETO_BOOK.ebookPrice}`, withTracking(KETO_BOOK.ebookUrl, "shop_keto"), true], ...(KETO_BOOK.paperbackUrl ? [[`Paperback · ${KETO_BOOK.paperbackPrice}`, KETO_BOOK.paperbackUrl, false]] : [])],
-      more: ["The keto board", "/blog/keto-charcuterie-board/"]
+      more: ["See the 20 boards", "/books/keto-charcuterie-boards/"]
     }
   ];
   const ext = (href) => /^https?:/.test(href) ? ' target="_blank" rel="noopener"' : "";
@@ -2500,7 +2502,7 @@ async function build() {
 
   BOOK_BOARDS = await loadBookBoards(root);
   FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
-  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/blog/charcuterie-board-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/blog/keto-charcuterie-board/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/boards/plant-based/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
+  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
@@ -2513,9 +2515,9 @@ async function build() {
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
   OFFERS = makeOffers({ escapeHtml, thumb, withTracking }, allProducts, {
     main: { key: "book-main", title: "50 Boards Built by Science", price: ebookPrice, url: ebookUrl, image: "/images/book-cover.jpg", page: "/ebook/", hook: "50 complete boards for every occasion: a shopping list with amounts and prices, a timed build and a swap for every ingredient.", paperbackUrl, paperbackPrice },
-    two: TWO_BOOK.ebookUrl ? { key: "book-two", title: "Boards for Two", price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, image: TWO_BOOK.cover, page: "/blog/charcuterie-board-two/", hook: "25 boards sized for two, from a first date to New Year's Eve, each with a shopping list, a prep countdown and a drink to pour.", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice } : null,
-    keto: KETO_BOOK.ebookUrl ? { key: "book-keto", title: "Keto & Low-Carb Boards", price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, image: KETO_BOOK.cover, page: "/blog/keto-charcuterie-board/", hook: "20 keto boards at 4–9 g net carbs per serving, each with full macros, a shopping list with the net carbs of every item and a step-by-step build.", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice } : null,
-    plant: PLANT_BOOK.ebookUrl ? { key: "book-plant", title: "15 Show-Stopping Plant-Based Boards", price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, image: PLANT_BOOK.cover, page: "/boards/plant-based/", hook: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science behind it.", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle" } : null,
+    two: TWO_BOOK.ebookUrl ? { key: "book-two", title: "Boards for Two", price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, image: TWO_BOOK.cover, page: "/books/boards-for-two/", hook: "25 boards sized for two, from a first date to New Year's Eve, each with a shopping list, a prep countdown and a drink to pour.", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice } : null,
+    keto: KETO_BOOK.ebookUrl ? { key: "book-keto", title: "Keto & Low-Carb Boards", price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, image: KETO_BOOK.cover, page: "/books/keto-charcuterie-boards/", hook: "20 keto boards at 4–9 g net carbs per serving, each with full macros, a shopping list with the net carbs of every item and a step-by-step build.", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice } : null,
+    plant: PLANT_BOOK.ebookUrl ? { key: "book-plant", title: "15 Show-Stopping Plant-Based Boards", price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, image: PLANT_BOOK.cover, page: "/books/plant-based-charcuterie-boards/", hook: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science behind it.", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle" } : null,
     world: worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? { key: "book-world", title: "Around the World in 16 Boards", price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, image: WORLD_BOOK.cover, page: "/around-the-world/", hook: "16 international boards, from a Bavarian beer-hall spread to a Korean BBQ board, each with a shopping list, a prep countdown and the pairing science.", paperbackUrl: WORLD_BOOK.paperbackUrl || paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice || paperbackPrice } : null
   });
   {
@@ -2537,6 +2539,19 @@ async function build() {
   const boardsUsing = new Map();
   boards.forEach((b) => boardSlugsFor(b).forEach((s) => boardsUsing.set(s, [...(boardsUsing.get(s) || []), b])));
 
+  // Ebook landing pages (/books/...): Gumroad first, Amazon paperback second.
+  const BOOK_PAGES = await (async () => {
+    const rd = async (f) => JSON.parse(await readFile(join(root, "content", "books", f), "utf8"));
+    const list = [
+      { key: "main", path: "/ebook/", title: "50 Boards Built by Science", short: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", ebookUrl, ebookPrice, paperbackUrl, paperbackPrice },
+      ...(worldIsLive(WORLD_BOOK) ? [{ key: "world", path: "/around-the-world/", title: WORLD_BOOK.title, short: "Around the World in 16 Boards", line: "16 international boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, ebookUrl: WORLD_BOOK.ebookUrl, ebookPrice: WORLD_BOOK.ebookPrice, paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []),
+      { key: "two", path: "/books/boards-for-two/", title: TWO_BOOK.title, short: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, each with a drink to pour.", cover: TWO_BOOK.cover, ebookUrl: TWO_BOOK.ebookUrl, ebookPrice: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice, pages: 136 },
+      { key: "keto", path: "/books/keto-charcuterie-boards/", title: KETO_BOOK.title, short: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and net-carb shopping lists.", cover: KETO_BOOK.cover, ebookUrl: KETO_BOOK.ebookUrl, ebookPrice: KETO_BOOK.ebookPrice, paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice, pages: 112 },
+      { key: "plant", path: "/books/plant-based-charcuterie-boards/", title: PLANT_BOOK.title, short: "15 Plant-Based Boards", line: "15 vegan boards with no meat and no dairy, each with a shopping list, a blueprint and the pairing science.", cover: PLANT_BOOK.cover, ebookUrl: PLANT_BOOK.ebookUrl, ebookPrice: PLANT_BOOK.ebookPrice, paperbackUrl: PLANT_BOOK.paperbackUrl, paperbackPrice: PLANT_BOOK.paperbackPrice, pages: 77 }
+    ];
+    const out = bookLandingPages({ layout, escapeHtml, withTracking, jsonForScript, absoluteUrl, authorRef }, { keto: await rd("keto.json"), two: await rd("boards-for-two.json"), plant: (await Promise.all((await readdir(join(root, "content", "boards"))).filter((f) => f.endsWith(".json")).map(async (f) => JSON.parse(await readFile(join(root, "content", "boards", f), "utf8"))))).filter((b) => b.book === "plant"), books: list });
+    return out.filter((x) => !["/ebook/", "/around-the-world/"].includes(x.path));
+  })();
   await writeFile(join(dist, "index.html"), homePage(posts, products, (holidays.length ? `<div class="bl-inner">${holidayBanner(boardHelpers, holidays)}</div>${countdownJs()}` : "") + (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
@@ -2544,9 +2559,13 @@ async function build() {
   // Dietary Hub index: also sets item.diets, which the Board Builder data
   // reads. Throws if any ingredient is missing a diet verdict.
   const dietIdx = dietData && ingredients.length ? dietaryIndex(dietData, ingredients, boards) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, ...BOOK_PAGES.map((x) => ({ loc: x.path, priority: "0.9" })), { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
+  for (const bp of BOOK_PAGES) {
+    await mkdir(join(dist, bp.path), { recursive: true });
+    await writeFile(join(dist, bp.path, "index.html"), bp.html);
+  }
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
   await mkdir(join(dist, "shop"), { recursive: true });
@@ -2836,7 +2855,7 @@ function llmsTxt(pages) {
     line("/ingredients/"), line("/boards/"), line("/holidays/"), line("/blog/"), line("/printables/"),
     "",
     "## Books",
-    line("/ebook/"), line("/around-the-world/"),
+    line("/books/"), line("/ebook/"), line("/around-the-world/"), line("/books/keto-charcuterie-boards/"), line("/books/boards-for-two/"), line("/books/plant-based-charcuterie-boards/"),
     "",
     "## About",
     line("/about/"),

@@ -1,0 +1,7392 @@
+[
+ {
+  "num": "01",
+  "title": "Classic Keto Starter Board",
+  "section": "Everyday",
+  "badge": "START HERE",
+  "tagline": "The Everyday Keto Board, Done Right",
+  "serves": 8,
+  "use": "party food",
+  "stats": {
+   "Board size": "16–20\" board",
+   "Prep time": "25–30 min",
+   "Total cost": "$58–89",
+   "Cheese": "3 types · 24 oz",
+   "Meat": "3 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry sparkling wine, a dry red, or sparkling water with lemon",
+  "per": {
+   "kcal": 794.1416964285715,
+   "fat": 63.39840642857143,
+   "protein": 45.29629660714286,
+   "carb": 11.951646250000001,
+   "fiber": 4.324599999999999,
+   "net": 7.627046250000002
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "9 oz",
+      "net": 7.88568,
+      "price": "$5–8"
+     },
+     {
+      "name": "Gouda",
+      "qty": "8 oz",
+      "net": 5.034960000000001,
+      "price": "$5–8"
+     },
+     {
+      "name": "Brie",
+      "qty": "7 oz wedge",
+      "net": 0.89325,
+      "price": "$5–8"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Hard salami",
+      "qty": "9 oz",
+      "net": 1.8374399999999997,
+      "price": "$6–9"
+     },
+     {
+      "name": "Pepperoni",
+      "qty": "8 oz",
+      "net": 2.6762400000000004,
+      "price": "$4–6"
+     },
+     {
+      "name": "Prosciutto",
+      "qty": "7 oz",
+      "net": 0.0,
+      "price": "$11–16"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "2 cucumbers",
+      "net": 18.842599999999997,
+      "price": "$2–3"
+     },
+     {
+      "name": "Celery",
+      "qty": "6 stalks",
+      "net": 3.288000000000001,
+      "price": "$2–3"
+     },
+     {
+      "name": "Parmesan crisps",
+      "qty": "2 oz",
+      "net": 2.0250000000000004,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "6 oz",
+      "net": 0.918540000000001,
+      "price": "$3–5"
+     },
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "6 oz",
+      "net": 2.398410000000001,
+      "price": "$2–4"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "3 tbsp",
+      "net": 0.8235000000000003,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Almonds",
+      "qty": "3 oz",
+      "net": 7.701550000000001,
+      "price": "$2–3"
+     },
+     {
+      "name": "Raspberries",
+      "qty": "1 cup",
+      "net": 6.691199999999999,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh rosemary sprigs (decoration, not eaten)",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take the cheddar and gouda out of the fridge."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie. Slice the cucumbers and celery; fill the small bowls."
+   ],
+   [
+    "T–20 min",
+    "Take out the salami, pepperoni and prosciutto."
+   ],
+   [
+    "T–10 min",
+    "Place cheeses, then meats; tuck in the dippers."
+   ],
+   [
+    "T–0",
+    "Add berries, almonds and rosemary. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "SET THE BOWLS FIRST",
+    [
+     [
+      "Mustard",
+      "Small dish near the center, where the cheddar and salami will meet."
+     ],
+     [
+      "Olives and pickles",
+      "Two small bowls at opposite corners so every guest has one within reach."
+     ],
+     [
+      "Raspberries",
+      "Leave a space beside the brie; the berries go in last so they stay intact."
+     ]
+    ],
+    "Bowls are the hardest things to move once the board is full. Placing them first sets the layout, and keeps wet, briny food from soaking the parmesan crisps."
+   ],
+   [
+    "ANCHOR WITH THE THREE CHEESES",
+    [
+     [
+      "Aged cheddar",
+      "Break into rough chunks with a knife tip; pile upper left."
+     ],
+     [
+      "Gouda",
+      "Cut into triangles; fan along the lower right."
+     ],
+     [
+      "Brie",
+      "Leave the wedge whole, with one slice started so guests know it's for cutting."
+     ]
+    ],
+    "Sharp and crumbly, mellow and firm, soft and buttery: three textures mean every bite feels different, which matters more on a board with no bread to break things up."
+   ],
+   [
+    "BUILD THE MEAT ROWS",
+    [
+     [
+      "Hard salami",
+      "Fold into quarters and run a river from the cheddar to the center."
+     ],
+     [
+      "Pepperoni",
+      "Shingle in a short curved line near the gouda."
+     ],
+     [
+      "Prosciutto",
+      "Drape loose ribbons beside the brie instead of laying it flat."
+     ]
+    ],
+    "Meat beside its best cheese partner lets guests make a complete bite without a cracker: salami with cheddar, salty prosciutto with creamy brie."
+   ],
+   [
+    "ADD THE LOW-CARB DIPPERS",
+    [
+     [
+      "Cucumber rounds",
+      "Slice ¼ inch thick and fan in two arcs; they replace the cracker."
+     ],
+     [
+      "Celery",
+      "Cut into 3-inch sticks; stand some upright against the brie for height."
+     ],
+     [
+      "Parmesan crisps",
+      "Tuck into gaps near the cheddar, away from the wet bowls."
+     ]
+    ],
+    "Cool, watery cucumber and celery reset the palate after rich meat, and the parmesan crisps bring the crunch a cracker usually gives. One ounce of cucumber has less than 1 g of net carbs."
+   ],
+   [
+    "FILL THE GAPS WITH CRUNCH",
+    [
+     [
+      "Almonds",
+      "Pour into the small gaps that are left, in two or three spots."
+     ],
+     [
+      "Extra olives",
+      "A few loose olives can spill out of the bowl onto the board."
+     ],
+     [
+      "Pickles",
+      "Lay a few spears across the meat river for color."
+     ]
+    ],
+    "Small items in the gaps make the board look full and generous, and nuts add fat and fiber without much net carb."
+   ],
+   [
+    "FINISH WITH FRUIT AND GREEN",
+    [
+     [
+      "Raspberries",
+      "Pile into the space you left by the brie."
+     ],
+     [
+      "Rosemary",
+      "Tuck 3–4 sprigs at the edges as decoration."
+     ],
+     [
+      "Brie",
+      "Check that the cut wedge is still easy to reach."
+     ]
+    ],
+    "Raspberries are the board's one sweet note, and they have more fiber than most fruit, which keeps their net carbs low."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Temperature",
+      "Cheese should feel cool, not cold; soft brie is ready about 30 minutes out of the fridge."
+     ],
+     [
+      "Knives",
+      "One knife for the brie, one for the hard cheeses."
+     ],
+     [
+      "Clock",
+      "Note the time: the board can stay out for up to 2 hours."
+     ]
+    ],
+    "Cold cheese tastes muted. Letting it warm up a little brings the flavor back, and the 2-hour limit keeps the board safe."
+   ]
+  ],
+  "did_you_know": "USDA calculates the carbohydrate in a food 'by difference': it measures water, protein, fat and ash, and counts whatever is left as carbs. In aged cheeses like cheddar, most of the milk sugar has already been used up during aging, so the carb figures for aged cheese tend to run a little high. That makes the cheese numbers in this book slightly conservative.",
+  "subs": [
+   [
+    "Prosciutto",
+    "Salty, silky ribbons next to the brie",
+    "Bresaola",
+    "Air-dried beef with a similar silky texture, and leaner"
+   ],
+   [
+    "Gouda",
+    "Mellow middle between sharp and soft",
+    "Havarti or Monterey Jack",
+    "Mild, firm and easy to slice"
+   ],
+   [
+    "Brie",
+    "The soft, spreadable cheese",
+    "Camembert",
+    "Same style and almost the same macros"
+   ],
+   [
+    "Parmesan crisps",
+    "Cracker-style crunch",
+    "Pork rinds",
+    "Crunchy, salty and zero carbs"
+   ],
+   [
+    "Almonds",
+    "Crunch and fat in the gaps",
+    "Macadamia nuts or pecans",
+    "Even lower in net carbs per ounce"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add a Blue Cheese",
+    "Bold Upgrade · +$5–8",
+    "Add 4 oz of blue cheese next to the almonds.",
+    "A strong cheese gives the board a fourth flavor, and blue cheese with nuts is a classic pairing."
+   ],
+   [
+    "Warm the Brie",
+    "Showpiece · +$0",
+    "Bake the brie at 350°F for 10 minutes and finish with cracked black pepper.",
+    "Warm brie turns spoonable and smells amazing, and heating it adds no carbs."
+   ],
+   [
+    "Make Prosciutto-Wrapped Celery",
+    "Prep Upgrade · +$0",
+    "Wrap half the celery sticks in a thin ribbon of prosciutto.",
+    "Ready-made bites get eaten first and show guests how to combine things."
+   ],
+   [
+    "Herb the Olives",
+    "Flavor Upgrade · +$1",
+    "Toss the olives with olive oil, lemon zest and chili flakes an hour ahead.",
+    "Fat and citrus make store-bought olives taste homemade."
+   ],
+   [
+    "Add Hard-Boiled Eggs",
+    "Protein Upgrade · +$2",
+    "Halve 4 eggs, sprinkle with salt and paprika, and add them near the mustard.",
+    "Eggs add protein and color for very little carb."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   },
+   {
+    "name": "Water crackers",
+    "portion": "4 crackers",
+    "net": 9.1994,
+    "swap": "Parmesan crisps, which crunch like a cracker and add protein instead of starch.",
+    "ndb": "28327"
+   },
+   {
+    "name": "Grapes",
+    "portion": "10 grapes",
+    "net": 8.428000000000003,
+    "swap": "Raspberries or blackberries: same pop of fruit, much more fiber.",
+    "ndb": "09132"
+   }
+  ]
+ },
+ {
+  "num": "02",
+  "title": "The $30 Budget Keto Board",
+  "section": "Everyday",
+  "badge": "UNDER $30",
+  "tagline": "Big Flavor From Any Supermarket",
+  "serves": 6,
+  "use": "before a meal",
+  "stats": {
+   "Board size": "14–16\" board",
+   "Prep time": "20 min",
+   "Total cost": "$21–30",
+   "Cheese": "2 types · 12 oz",
+   "Meat": "2 types · 12 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Light beer or sparkling water with lime",
+  "per": {
+   "kcal": 565.4541666666667,
+   "fat": 45.76433666666667,
+   "protein": 31.959695000000007,
+   "carb": 5.641558333333335,
+   "fiber": 1.1138333333333332,
+   "net": 4.527725000000001
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "6 oz",
+      "net": 5.2560899999999995,
+      "price": "$3–5"
+     },
+     {
+      "name": "Monterey or pepper Jack",
+      "qty": "6 oz",
+      "net": 1.1566800000000002,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Hard salami",
+      "qty": "6 oz",
+      "net": 1.22472,
+      "price": "$4–6"
+     },
+     {
+      "name": "Pepperoni",
+      "qty": "6 oz",
+      "net": 2.00718,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     },
+     {
+      "name": "Celery",
+      "qty": "4 stalks",
+      "net": 2.1920000000000006,
+      "price": "$2–2.50"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "5 oz",
+      "net": 1.9993800000000004,
+      "price": "$2–2.50"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "2 tbsp",
+      "net": 0.5490000000000002,
+      "price": "$1–1.50"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs; chill them in their shells."
+   ],
+   [
+    "T–60 min",
+    "Take the cheddar and Jack out of the fridge."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats. Peel and halve the eggs."
+   ],
+   [
+    "T–10 min",
+    "Slice the cucumber and celery; build the board."
+   ],
+   [
+    "T–0",
+    "Season the eggs with salt and pepper. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "PLACE THE MUSTARD AND PICKLES",
+    [
+     [
+      "Mustard",
+      "One small bowl near the center."
+     ],
+     [
+      "Pickles",
+      "One bowl at the edge, or spears laid straight on the board."
+     ],
+     [
+      "Spoon",
+      "A small spoon in the mustard so guests don't double-dip."
+     ]
+    ],
+    "On a small budget, the condiments do a lot of the work. Mustard's sharpness and the pickles' sourness make simple cheese and salami taste like more."
+   ],
+   [
+    "SLICE AND STACK THE CHEESE",
+    [
+     [
+      "Cheddar",
+      "Cut into ½-inch cubes or thick sticks; stack in one corner."
+     ],
+     [
+      "Monterey or pepper Jack",
+      "Slice into squares; shingle them in the opposite corner."
+     ],
+     [
+      "Toothpicks",
+      "Leave a small cup of picks beside the cubes."
+     ]
+    ],
+    "Cutting the cheese yourself from a block is usually cheaper than buying pre-sliced, and cubes look generous."
+   ],
+   [
+    "FOLD THE MEATS",
+    [
+     [
+      "Hard salami",
+      "Fold slices in half twice and line them up like a deck of cards."
+     ],
+     [
+      "Pepperoni",
+      "Pile loosely between the two cheeses."
+     ],
+     [
+      "Gaps",
+      "Leave room in the middle for the eggs."
+     ]
+    ],
+    "Folding makes a small amount of meat take up more space, so the board looks full without buying more."
+   ],
+   [
+    "ADD THE EGGS",
+    [
+     [
+      "Hard-boiled eggs",
+      "Halve lengthwise; lay them yolk-up in a line through the middle."
+     ],
+     [
+      "Seasoning",
+      "Salt, pepper and a pinch of paprika if you have it."
+     ],
+     [
+      "Mustard",
+      "Add a dot of mustard on a few halves."
+     ]
+    ],
+    "Eggs are one of the cheapest proteins in the store, and they turn a snack board into something closer to a meal."
+   ],
+   [
+    "ADD THE CRUNCH",
+    [
+     [
+      "Cucumber",
+      "Cut into thick rounds; fan along one edge."
+     ],
+     [
+      "Celery",
+      "Cut into sticks; stand them in a glass for height if you like."
+     ],
+     [
+      "Placement",
+      "Put them next to the cheese, so they're used like crackers."
+     ]
+    ],
+    "Cucumber and celery are among the cheapest vegetables you can buy, and they replace crackers completely."
+   ],
+   [
+    "FILL THE HOLES",
+    [
+     [
+      "Extra pickles",
+      "Use spears or chips to fill any bare spots."
+     ],
+     [
+      "Cheese crumbs",
+      "Scatter any cheddar crumbs over the meat for color."
+     ],
+     [
+      "Board edges",
+      "Pull everything slightly toward the middle so the board looks full."
+     ]
+    ],
+    "A board looks expensive when you can't see the wood. Filling small gaps does more than adding another ingredient."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Temperature",
+      "Hard cheese tastes best after about an hour out of the fridge."
+     ],
+     [
+      "Eggs",
+      "Keep them cold until the last 10 minutes."
+     ],
+     [
+      "Clock",
+      "Two hours out, maximum."
+     ]
+    ],
+    "Eggs and meat are the most perishable things here, so they go on last and come off first."
+   ]
+  ],
+  "did_you_know": "Older eggs are often said to peel more easily: as an egg ages, carbon dioxide escapes and the white becomes more alkaline, so it clings less to the membrane under the shell. But when America's Test Kitchen tested it, cooking method mattered far more than age. Putting eggs straight into steam or already-boiling water, then chilling them in ice water, gave the easiest peeling.",
+  "subs": [
+   [
+    "Hard salami",
+    "Salty, fatty, easy to fold",
+    "Summer sausage",
+    "Cheap and filling, but check the label for added sugar"
+   ],
+   [
+    "Monterey Jack",
+    "Mild partner to the sharp cheddar",
+    "Colby Jack or mozzarella sticks",
+    "Mild, inexpensive and kid-friendly"
+   ],
+   [
+    "Pepperoni",
+    "Spicy, cheap, ready to eat",
+    "Turkey pepperoni",
+    "Lower in fat, same flavor"
+   ],
+   [
+    "Cucumber",
+    "The cracker replacement",
+    "Bell pepper strips",
+    "Sturdy and crunchy; slightly more carbs"
+   ],
+   [
+    "Dill pickles",
+    "Sour contrast to the fat",
+    "Pickled jalapeños",
+    "Same vinegar job with some heat"
+   ]
+  ],
+  "elevations": [
+   [
+    "Deviled Eggs",
+    "Prep Upgrade · +$0",
+    "Mash the yolks with mustard and a spoon of mayonnaise; pipe back in.",
+    "Creamy deviled eggs look like effort and cost almost nothing extra."
+   ],
+   [
+    "Add Pork Rinds",
+    "Crunch Upgrade · +$2–3",
+    "Add a small bag of plain pork rinds near the mustard.",
+    "Zero-carb crunch for scooping."
+   ],
+   [
+    "Make Pepperoni Chips",
+    "Texture Upgrade · +$0",
+    "Bake pepperoni slices at 400°F for 6–8 minutes until crisp.",
+    "Crispy pepperoni works like a chip and keeps for hours."
+   ],
+   [
+    "Add Olives",
+    "Flavor Upgrade · +$2–3",
+    "Add a small jar of green olives.",
+    "Olives bring healthy fat and a briny bite."
+   ],
+   [
+    "Swap in Sharp White Cheddar",
+    "Flavor Upgrade · +$1–2",
+    "Use an extra-sharp white cheddar instead of mild orange.",
+    "More flavor for about the same carbs."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Sweet or bread-and-butter pickles",
+    "portion": "1 oz",
+    "net": 5.712524999999999,
+    "swap": "Dill pickles or cornichons (under 1 g net carbs per ounce).",
+    "ndb": "11940"
+   },
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   },
+   {
+    "name": "Barbecue sauce",
+    "portion": "1 tbsp",
+    "net": 6.777900000000001,
+    "swap": "Yellow or spicy brown mustard, or hot sauce.",
+    "ndb": "06150"
+   }
+  ]
+ },
+ {
+  "num": "03",
+  "title": "Keto Snack Plate for Two",
+  "section": "Everyday",
+  "badge": "DINNER FOR TWO",
+  "tagline": "A Grazing Plate That Is the Meal",
+  "serves": 2,
+  "use": "dinner",
+  "stats": {
+   "Board size": "12\" board or large plate",
+   "Prep time": "15 min",
+   "Total cost": "$22–34",
+   "Cheese": "2 types · 8 oz",
+   "Meat": "2 types · 8 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry rosé or a crisp dry white",
+  "per": {
+   "kcal": 984.6905,
+   "fat": 79.48447,
+   "protein": 53.97185,
+   "carb": 14.14751,
+   "fiber": 5.610325,
+   "net": 8.537185000000001
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Brie",
+      "qty": "4 oz",
+      "net": 0.5103,
+      "price": "$3–5"
+     },
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "4 oz",
+      "net": 3.50406,
+      "price": "$2–4"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$6–9"
+     },
+     {
+      "name": "Hard salami",
+      "qty": "4 oz",
+      "net": 0.81648,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "½ cucumber",
+      "net": 4.695,
+      "price": "$0.50–1"
+     },
+     {
+      "name": "Radishes",
+      "qty": "8 radishes",
+      "net": 0.6479999999999999,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Kalamata olives",
+      "qty": "2 oz",
+      "net": 2.0452499999999993,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Macadamia nuts",
+      "qty": "1 oz",
+      "net": 1.4824800000000002,
+      "price": "$2–3"
+     },
+     {
+      "name": "Raspberries",
+      "qty": "½ cup",
+      "net": 3.3728,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Flaky salt and black pepper",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take the cheddar out of the fridge."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie."
+   ],
+   [
+    "T–20 min",
+    "Take out the prosciutto and salami. Slice the cucumber and radishes."
+   ],
+   [
+    "T–5 min",
+    "Arrange the plate."
+   ],
+   [
+    "T–0",
+    "Finish the radishes with flaky salt. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "START WITH THE BRIE",
+    [
+     [
+      "Brie",
+      "Place the wedge just off-center; it's the plate's focal point."
+     ],
+     [
+      "Knife",
+      "Lay a small knife beside it."
+     ],
+     [
+      "Space",
+      "Leave room on one side for the raspberries."
+     ]
+    ],
+    "On a small plate, one hero item sets the look. Everything else is arranged around it."
+   ],
+   [
+    "ADD THE CHEDDAR",
+    [
+     [
+      "Aged cheddar",
+      "Break into bite-size chunks; pile opposite the brie."
+     ],
+     [
+      "Crystals",
+      "Choose a well-aged block; those crunchy bits are part of the fun."
+     ],
+     [
+      "Portion",
+      "4 oz each sounds like a lot, but this plate is dinner."
+     ]
+    ],
+    "A firm, sharp cheese next to a soft, mild one gives two very different bites from just two cheeses."
+   ],
+   [
+    "DRAPE THE PROSCIUTTO",
+    [
+     [
+      "Prosciutto",
+      "Loosely fold each slice into a ribbon and drape it beside the brie."
+     ],
+     [
+      "Hard salami",
+      "Fold into quarters and fan next to the cheddar."
+     ],
+     [
+      "Pairing",
+      "Each meat sits beside the cheese it goes best with."
+     ]
+    ],
+    "Salty, delicate prosciutto balances rich brie, while the firmer salami stands up to sharp cheddar."
+   ],
+   [
+    "ADD THE FRESH CRUNCH",
+    [
+     [
+      "Cucumber",
+      "Slice thin and fan in a tight arc."
+     ],
+     [
+      "Radishes",
+      "Halve or quarter; their peppery bite cuts through the fat."
+     ],
+     [
+      "Flaky salt",
+      "A pinch over the radishes, the French way."
+     ]
+    ],
+    "Radishes and cucumber replace crackers and add the crisp, cold contrast that makes a rich plate feel lighter."
+   ],
+   [
+    "ADD OLIVES AND NUTS",
+    [
+     [
+      "Kalamata olives",
+      "A small pile near the salami."
+     ],
+     [
+      "Macadamia nuts",
+      "In a little heap near the cheddar."
+     ],
+     [
+      "Gaps",
+      "Use both to fill any empty spaces."
+     ]
+    ],
+    "Macadamias are one of the lowest-carb nuts and their buttery taste matches the cheese, while olives add salt and fat."
+   ],
+   [
+    "FINISH WITH RASPBERRIES",
+    [
+     [
+      "Raspberries",
+      "Fill the space you left by the brie."
+     ],
+     [
+      "Pepper",
+      "A grind of black pepper over the brie."
+     ],
+     [
+      "Look",
+      "Red berries against white brie is the photo moment."
+     ]
+    ],
+    "A few berries give the plate a sweet-tart finish while keeping net carbs low."
+   ],
+   [
+    "SERVE IT AS DINNER",
+    [
+     [
+      "Portion",
+      "This plate is two full dinner servings."
+     ],
+     [
+      "Lighter option",
+      "For a snack, halve every amount; the per-serving numbers halve too."
+     ],
+     [
+      "Clock",
+      "Up to 2 hours out."
+     ]
+    ],
+    "Built as a meal, each serving has about 54 g of protein, enough for most people's dinner."
+   ]
+  ],
+  "did_you_know": "Under its protected designation of origin (PDO) rules, Prosciutto di Parma is cured with sea salt alone: no nitrites, no nitrates and no sugar. That is one reason good prosciutto fits so easily on a low-carb board. Non-PDO prosciutto can include curing salts, so check the label.",
+  "subs": [
+   [
+    "Brie",
+    "Soft, mild centerpiece",
+    "Triple-crème or camembert",
+    "Same creamy texture; similar macros"
+   ],
+   [
+    "Aged cheddar",
+    "Sharp, firm contrast",
+    "Aged gouda",
+    "Firm with crunchy crystals and a caramel note"
+   ],
+   [
+    "Kalamata olives",
+    "Salty, rich bite",
+    "Castelvetrano olives",
+    "Milder and buttery; similar net carbs"
+   ],
+   [
+    "Macadamia nuts",
+    "Buttery crunch",
+    "Pecans",
+    "Also very low in net carbs"
+   ],
+   [
+    "Raspberries",
+    "Sweet-tart finish",
+    "Blackberries",
+    "Same fiber-rich profile"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Smoked Salmon",
+    "Protein Upgrade · +$5–7",
+    "Add 2 oz smoked salmon rolled into roses beside the cucumber.",
+    "Salmon and cucumber are a classic pair and add omega-3 fats."
+   ],
+   [
+    "Make Radish Butter Bites",
+    "French Upgrade · +$1",
+    "Smear softened butter on radish halves and sprinkle with flaky salt.",
+    "A French bistro snack that's almost carb-free."
+   ],
+   [
+    "Warm the Olives",
+    "Cozy Upgrade · +$0",
+    "Warm the olives in olive oil with lemon peel for 3 minutes.",
+    "Warm olives smell wonderful and taste richer."
+   ],
+   [
+    "Add 90% Dark Chocolate",
+    "Dessert Upgrade · +$3",
+    "Add 2 squares of 90% chocolate for after.",
+    "Very dark chocolate is the keto-friendly way to end the meal."
+   ],
+   [
+    "Pick a Cheese With Crystals",
+    "Flavor Upgrade · +$2–4",
+    "Buy a cheddar aged 2 years or more.",
+    "Longer aging means more flavor and more crunchy crystals."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Baguette slices",
+    "portion": "1 oz (about 2 thin slices)",
+    "net": 14.084280000000001,
+    "swap": "Endive leaves or cucumber rounds as the carrier.",
+    "ndb": "18029"
+   },
+   {
+    "name": "Jam or fig preserves",
+    "portion": "1 tbsp",
+    "net": 13.552,
+    "swap": "Fresh raspberries, crushed with a fork, give the same sweet-tart contrast for far fewer carbs.",
+    "ndb": "19297"
+   },
+   {
+    "name": "Dried apricots",
+    "portion": "5 halves",
+    "net": 9.6845,
+    "swap": "A handful of fresh berries.",
+    "ndb": "09032"
+   }
+  ]
+ },
+ {
+  "num": "04",
+  "title": "15-Minute Weeknight Board",
+  "section": "Everyday",
+  "badge": "15 MINUTES",
+  "tagline": "No-Cook Dinner on a Board",
+  "serves": 4,
+  "use": "dinner",
+  "stats": {
+   "Board size": "14–16\" board",
+   "Prep time": "15 min",
+   "Total cost": "$31–44",
+   "Cheese": "2 types · 16 oz",
+   "Meat": "2 types · 16 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Sparkling water or a dry red",
+  "per": {
+   "kcal": 812.4030000000001,
+   "fat": 63.632504999999995,
+   "protein": 49.680870000000006,
+   "carb": 10.412729999999998,
+   "fiber": 2.7551499999999995,
+   "net": 7.6575799999999985
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Pepper jack",
+      "qty": "8 oz",
+      "net": 1.5422400000000003,
+      "price": "$4–6"
+     },
+     {
+      "name": "Mozzarella pearls",
+      "qty": "8 oz",
+      "net": 4.96692,
+      "price": "$5–7"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Hard salami",
+      "qty": "8 oz",
+      "net": 1.63296,
+      "price": "$5–7"
+     },
+     {
+      "name": "Deli ham",
+      "qty": "8 oz",
+      "net": 5.738039999999999,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Cherry tomatoes",
+      "qty": "1 cup",
+      "net": 4.008100000000001,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "4 oz",
+      "net": 0.6123600000000007,
+      "price": "$3–4"
+     },
+     {
+      "name": "Basil pesto (jarred)",
+      "qty": "¼ cup",
+      "net": 2.7083999999999997,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh basil leaves",
+      "qty": "handful",
+      "net": null,
+      "price": "$2–3"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "When you get home",
+    "Take the pepper Jack out of the fridge."
+   ],
+   [
+    "T–15 min",
+    "Drain the mozzarella pearls; slice the cucumber."
+   ],
+   [
+    "T–10 min",
+    "Halve the tomatoes; spoon out the pesto."
+   ],
+   [
+    "T–5 min",
+    "Roll the ham and fold the salami; build the board."
+   ],
+   [
+    "T–0",
+    "Scatter basil. Dinner."
+   ]
+  ],
+  "steps": [
+   [
+    "PESTO IN THE CENTER",
+    [
+     [
+      "Pesto",
+      "Spoon into a small bowl in the middle."
+     ],
+     [
+      "Olives",
+      "A second small bowl to one side."
+     ],
+     [
+      "Spoon",
+      "A spoon in the pesto for drizzling."
+     ]
+    ],
+    "Pesto is the sauce that ties this board together: everything on it tastes good dipped in or drizzled with it."
+   ],
+   [
+    "ADD THE MOZZARELLA",
+    [
+     [
+      "Mozzarella pearls",
+      "Drain well, pat dry, and pile around the pesto."
+     ],
+     [
+      "Drizzle",
+      "Spoon a little pesto over the pearls."
+     ],
+     [
+      "Tomatoes",
+      "Mix halved cherry tomatoes in with the mozzarella."
+     ]
+    ],
+    "Mozzarella, tomato and basil is caprese on a board. The tomatoes add color and acidity for about 1 g of net carbs per serving."
+   ],
+   [
+    "SLICE THE PEPPER JACK",
+    [
+     [
+      "Pepper Jack",
+      "Cut into thin squares; shingle along one edge."
+     ],
+     [
+      "Placement",
+      "Keep it away from the wet mozzarella."
+     ],
+     [
+      "Toothpicks",
+      "A few picks nearby."
+     ]
+    ],
+    "A firm, spicy cheese balances the soft, mild mozzarella."
+   ],
+   [
+    "ROLL AND FOLD THE MEATS",
+    [
+     [
+      "Deli ham",
+      "Roll each slice into a tight cigar; stack in rows."
+     ],
+     [
+      "Hard salami",
+      "Fold into quarters and fan near the pepper Jack."
+     ],
+     [
+      "Ham tip",
+      "Check the ham label; some brands add sugar."
+     ]
+    ],
+    "Rolling and folding is fast and makes a weeknight board look like it took more time."
+   ],
+   [
+    "ADD THE CUCUMBER",
+    [
+     [
+      "Cucumber",
+      "Slice into thick rounds; lay them in a long row."
+     ],
+     [
+      "Job",
+      "They're the cracker: top one with mozzarella and ham."
+     ],
+     [
+      "Extra",
+      "Add celery or bell pepper if you have it."
+     ]
+    ],
+    "A sturdy cucumber round carries a bite of cheese and meat just like a cracker, with almost no carbs."
+   ],
+   [
+    "BASIL AND GAPS",
+    [
+     [
+      "Basil",
+      "Tear leaves over the mozzarella and the meats."
+     ],
+     [
+      "Olives",
+      "Spill a few olives into the gaps."
+     ],
+     [
+      "Pepper",
+      "Grind black pepper over everything."
+     ]
+    ],
+    "Fresh basil adds a lot of aroma for almost no carbs."
+   ],
+   [
+    "SERVE IT AS DINNER",
+    [
+     [
+      "Portion",
+      "Built for 4 as dinner."
+     ],
+     [
+      "Leftovers",
+      "Wrap the meats and cheeses separately; they keep for 3 days."
+     ],
+     [
+      "Clock",
+      "Two hours out, maximum."
+     ]
+    ],
+    "Each dinner serving has about 50 g of protein and 8 g of net carbs."
+   ]
+  ],
+  "did_you_know": "Fresh mozzarella balls are named by size in Italian. Egg-size balls are ovolini, bite-size ones are bocconcini ('little mouthfuls'), cherry-size ones are ciliegine ('little cherries'), and the tiny pearls on this board are perline, the smallest size made commercially.",
+  "subs": [
+   [
+    "Deli ham",
+    "Mild, quick protein",
+    "Smoked turkey or roast beef",
+    "Same easy roll-up; check for added sugar"
+   ],
+   [
+    "Mozzarella pearls",
+    "Soft, mild caprese cheese",
+    "Burrata",
+    "Even creamier; tear it open in the center"
+   ],
+   [
+    "Pepper Jack",
+    "Firm, spicy cheese",
+    "Provolone",
+    "Firm and mild-to-sharp"
+   ],
+   [
+    "Cherry tomatoes",
+    "Color and acidity",
+    "Roasted red peppers",
+    "Same color, similar carbs"
+   ],
+   [
+    "Pesto",
+    "The board's sauce",
+    "Olive oil with Italian herbs",
+    "Drizzle and season; nearly carb-free"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Prosciutto",
+    "Italian Upgrade · +$5–7",
+    "Swap half the ham for prosciutto.",
+    "Turns the weeknight board into an antipasto platter."
+   ],
+   [
+    "Marinate the Mozzarella",
+    "Flavor Upgrade · +$0",
+    "Toss the pearls in olive oil, chili flakes and lemon zest 30 minutes ahead.",
+    "Marinated pearls taste far more interesting."
+   ],
+   [
+    "Add Artichoke Hearts",
+    "Veggie Upgrade · +$3–4",
+    "Add a small jar of marinated artichoke hearts.",
+    "Tangy and Italian; artichokes are high in fiber, but count them toward your carbs."
+   ],
+   [
+    "Make Salami Chips",
+    "Crunch Upgrade · +$0",
+    "Bake salami slices at 400°F for 8 minutes until crisp.",
+    "Crispy salami works like a chip for the pesto."
+   ],
+   [
+    "Add a Rotisserie Chicken",
+    "Protein Upgrade · +$6–8",
+    "Pull the breast meat and pile it beside the pesto.",
+    "Makes the board fully dinner-sized for big appetites."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Baguette slices",
+    "portion": "1 oz (about 2 thin slices)",
+    "net": 14.084280000000001,
+    "swap": "Endive leaves or cucumber rounds as the carrier.",
+    "ndb": "18029"
+   },
+   {
+    "name": "Jam or fig preserves",
+    "portion": "1 tbsp",
+    "net": 13.552,
+    "swap": "Fresh raspberries, crushed with a fork, give the same sweet-tart contrast for far fewer carbs.",
+    "ndb": "19297"
+   },
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   }
+  ]
+ },
+ {
+  "num": "05",
+  "title": "Keto Game Day Board",
+  "section": "Occasions",
+  "badge": "BIG GAME",
+  "tagline": "Bacon, Guac and Zero-Carb Crunch",
+  "serves": 10,
+  "use": "party food",
+  "stats": {
+   "Board size": "20–24\" board",
+   "Prep time": "35–40 min",
+   "Total cost": "$54–82",
+   "Cheese": "3 types · 30 oz",
+   "Meat": "3 types · 30 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Light beer, hard seltzer or sparkling water",
+  "per": {
+   "kcal": 841.7939999999999,
+   "fat": 67.80769,
+   "protein": 48.98530300000001,
+   "carb": 8.766309999999999,
+   "fiber": 3.9958599999999995,
+   "net": 4.7704499999999985
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "12 oz",
+      "net": 10.512179999999999,
+      "price": "$6–9"
+     },
+     {
+      "name": "Pepper jack",
+      "qty": "10 oz",
+      "net": 1.9278,
+      "price": "$5–7"
+     },
+     {
+      "name": "Smoked gouda",
+      "qty": "8 oz",
+      "net": 5.034960000000001,
+      "price": "$5–8"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Pepperoni",
+      "qty": "10 oz",
+      "net": 3.3453,
+      "price": "$5–8"
+     },
+     {
+      "name": "Hard salami",
+      "qty": "12 oz",
+      "net": 2.44944,
+      "price": "$8–11"
+     },
+     {
+      "name": "Bacon (cooked, about 20 slices)",
+      "qty": "8 oz",
+      "net": 3.8556,
+      "price": "$9–14"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Pork rinds, plain",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     },
+     {
+      "name": "Celery",
+      "qty": "8 stalks",
+      "net": 4.384000000000001,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Avocados (guacamole)",
+      "qty": "3 avocados",
+      "net": 7.4664,
+      "price": "$3–6"
+     },
+     {
+      "name": "Lemon (juiced)",
+      "qty": "½ lemon",
+      "net": 1.8908000000000005,
+      "price": "$0.50–1"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Pickled jalapeños",
+      "qty": "6 oz",
+      "net": 3.6401399999999997,
+      "price": "$2–3"
+     },
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "8 oz",
+      "net": 3.197880000000001,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh cilantro",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$1–2"
+     },
+     {
+      "name": "Salt and garlic powder for the guacamole",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take the cheddar, pepper Jack and gouda out of the fridge. Bake the bacon (400°F, about 18 min)."
+   ],
+   [
+    "T–30 min",
+    "Make the guacamole: mash avocado with lemon juice, salt and garlic powder."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats. Cut the celery."
+   ],
+   [
+    "T–10 min",
+    "Build the board around the guacamole."
+   ],
+   [
+    "Kickoff",
+    "Add pork rinds last so they stay crisp."
+   ]
+  ],
+  "steps": [
+   [
+    "GUACAMOLE IN THE CENTER",
+    [
+     [
+      "Guacamole",
+      "Large bowl in the middle; press plastic wrap onto the surface until serving."
+     ],
+     [
+      "Pickled jalapeños",
+      "Small bowl next to it."
+     ],
+     [
+      "Pickles",
+      "Second small bowl at the far edge."
+     ]
+    ],
+    "A big central dip gives the crowd one place to gather. Guacamole is mostly fat and fiber, so it's a keto dip that feels like a treat."
+   ],
+   [
+    "STACK THE CHEESES",
+    [
+     [
+      "Cheddar",
+      "Cut into thick cubes; pile in one corner."
+     ],
+     [
+      "Pepper Jack",
+      "Cut into cubes; pile in the opposite corner."
+     ],
+     [
+      "Smoked gouda",
+      "Cut into triangles; fan along one edge."
+     ]
+    ],
+    "Cubes are easy to grab with one hand while watching the game, and there's no knife work at the board."
+   ],
+   [
+    "ADD THE BACON",
+    [
+     [
+      "Bacon",
+      "Break each strip in half; stand them upright in a mug or jar."
+     ],
+     [
+      "Placement",
+      "Put the mug near the guacamole."
+     ],
+     [
+      "Tip",
+      "Crisp bacon holds its shape; chewy bacon flops."
+     ]
+    ],
+    "Bacon standing in a jar is a fun, edible centerpiece, and every strip doubles as a scoop for the guac."
+   ],
+   [
+    "FOLD THE MEATS",
+    [
+     [
+      "Pepperoni",
+      "Pile loosely near the pepper Jack."
+     ],
+     [
+      "Hard salami",
+      "Fold into quarters and line up beside the cheddar."
+     ],
+     [
+      "Spacing",
+      "Spread the meat into two spots so both ends of the couch can reach it."
+     ]
+    ],
+    "Two meat zones mean less crowding around one end of the board."
+   ],
+   [
+    "ADD THE SCOOPERS",
+    [
+     [
+      "Pork rinds",
+      "Pile high in one corner, right before kickoff."
+     ],
+     [
+      "Celery",
+      "Cut into long sticks; stand some in a glass."
+     ],
+     [
+      "Job",
+      "These replace chips and crackers completely."
+     ]
+    ],
+    "Pork rinds have zero carbs and crunch like chips; celery is the cool, fresh contrast to all the salt and fat."
+   ],
+   [
+    "ADD HEAT AND SOUR",
+    [
+     [
+      "Jalapeños",
+      "A few loose slices on top of the cheddar cubes."
+     ],
+     [
+      "Pickles",
+      "Pickle chips scattered over the salami."
+     ],
+     [
+      "Cilantro",
+      "Chopped over the guacamole."
+     ]
+    ],
+    "Vinegar and heat cut through bacon and cheese, so guests can keep snacking without the board feeling heavy."
+   ],
+   [
+    "GAME-TIME CHECK",
+    [
+     [
+      "Clock",
+      "Set a halftime reminder: food out longer than 2 hours goes back in the fridge."
+     ],
+     [
+      "Refill",
+      "Keep half the meat and cheese in the fridge and restock at halftime."
+     ],
+     [
+      "Guacamole",
+      "Stir and add a squeeze of lemon if it starts to darken."
+     ]
+    ],
+    "Games run long. Serving in two rounds keeps food fresh and inside the 2-hour safety window."
+   ]
+  ],
+  "did_you_know": "Plain pork rinds are made from pork skin that is dried and then puffed in hot oil. Skin is mostly protein and fat, which is why USDA lists plain pork rinds at 0 g of carbohydrate per 100 g.",
+  "subs": [
+   [
+    "Bacon",
+    "Smoky, crisp scoop",
+    "Pepperoni chips (baked)",
+    "Crispy, smoky and quick"
+   ],
+   [
+    "Smoked gouda",
+    "Smoky cheese",
+    "Smoked cheddar",
+    "Same smoky note, very low carb"
+   ],
+   [
+    "Pork rinds",
+    "Zero-carb chip",
+    "Parmesan crisps",
+    "Crunchy, cheesy and low carb"
+   ],
+   [
+    "Guacamole",
+    "Big central dip",
+    "Ranch made with sour cream and herbs",
+    "Creamy and cool; check store-bought labels"
+   ],
+   [
+    "Pickled jalapeños",
+    "Heat",
+    "Pepperoncini",
+    "Milder heat, same vinegar job"
+   ]
+  ],
+  "elevations": [
+   [
+    "Jalapeño Poppers",
+    "Crowd Upgrade · +$4–6",
+    "Halve fresh jalapeños, fill with cream cheese, wrap in bacon, bake at 400°F for 20 minutes.",
+    "The most-requested game-day bite, and it's naturally keto."
+   ],
+   [
+    "Buffalo Wings",
+    "Main-Event Upgrade · +$8–12",
+    "Add a platter of plain wings tossed in hot sauce and butter.",
+    "Hot sauce and butter are almost carb-free; skip breaded wings."
+   ],
+   [
+    "Blue Cheese Dip",
+    "Flavor Upgrade · +$3–4",
+    "Mix crumbled blue cheese with sour cream for celery dipping.",
+    "Blue cheese and celery are the classic wing-night pair."
+   ],
+   [
+    "Team-Color Board",
+    "Fun Upgrade · +$0",
+    "Use colored picks or a team flag in the guacamole.",
+    "Makes the board part of the party."
+   ],
+   [
+    "Spicy Pork Rinds",
+    "Flavor Upgrade · +$0",
+    "Toss pork rinds with chili powder and a pinch of salt.",
+    "Seasoned rinds taste like spicy chips."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Pretzels",
+    "portion": "1 oz",
+    "net": 21.826665,
+    "swap": "Pork rinds: same salty crunch, zero carbs per USDA.",
+    "ndb": "19047"
+   },
+   {
+    "name": "Barbecue sauce",
+    "portion": "1 tbsp",
+    "net": 6.777900000000001,
+    "swap": "Yellow or spicy brown mustard, or hot sauce.",
+    "ndb": "06150"
+   },
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   }
+  ]
+ },
+ {
+  "num": "06",
+  "title": "Keto Date Night Board",
+  "section": "Occasions",
+  "badge": "FOR TWO",
+  "tagline": "A Romantic Spread With a Dark-Chocolate Finish",
+  "serves": 2,
+  "use": "dinner",
+  "stats": {
+   "Board size": "12–14\" board",
+   "Prep time": "15–20 min",
+   "Total cost": "$30–45",
+   "Cheese": "2 types · 8 oz",
+   "Meat": "2 types · 8 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry sparkling wine or a dry red",
+  "per": {
+   "kcal": 1074.8480000000002,
+   "fat": 85.168835,
+   "protein": 62.339625000000005,
+   "carb": 15.8049,
+   "fiber": 7.817,
+   "net": 7.9879
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Brie",
+      "qty": "4 oz",
+      "net": 0.5103,
+      "price": "$3–5"
+     },
+     {
+      "name": "Manchego",
+      "qty": "4 oz",
+      "net": 1.35,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$6–9"
+     },
+     {
+      "name": "Soppressata",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Belgian endive",
+      "qty": "1 head",
+      "net": 0.4770000000000001,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Strawberries (halves)",
+      "qty": "½ cup",
+      "net": 4.316799999999999,
+      "price": "$2–3"
+     },
+     {
+      "name": "Blackberries",
+      "qty": "½ cup",
+      "net": 3.1032,
+      "price": "$2–3"
+     },
+     {
+      "name": "Macadamia nuts",
+      "qty": "1½ oz",
+      "net": 2.2185,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Sweet finish",
+    "items": [
+     {
+      "name": "90% dark chocolate (3 squares)",
+      "qty": "1 oz",
+      "net": 3.999999999999999,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh thyme sprigs",
+      "qty": "a few",
+      "net": null,
+      "price": "$1–2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take the manchego out of the fridge."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie. Separate the endive leaves; rinse and dry the berries."
+   ],
+   [
+    "T–20 min",
+    "Take out the prosciutto and soppressata."
+   ],
+   [
+    "T–10 min",
+    "Arrange the board; break the chocolate into squares."
+   ],
+   [
+    "T–0",
+    "Light the candles. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "PLACE THE TWO CHEESES",
+    [
+     [
+      "Brie",
+      "Set the wedge on one side, tip pointing to the center."
+     ],
+     [
+      "Manchego",
+      "Cut into thin triangles, rind on, and fan them on the other side."
+     ],
+     [
+      "Knife",
+      "One small knife beside the brie."
+     ]
+    ],
+    "Two cheeses that look and taste completely different (soft and mild against firm and nutty) are all a board for two needs."
+   ],
+   [
+    "ROLL THE PROSCIUTTO",
+    [
+     [
+      "Prosciutto",
+      "Roll loose ribbons into small roses and set them beside the brie."
+     ],
+     [
+      "Soppressata",
+      "Fold slices in half and shingle them beside the manchego."
+     ],
+     [
+      "Spacing",
+      "Keep a clear lane through the middle for the endive."
+     ]
+    ],
+    "Delicate, salty prosciutto suits creamy brie; the peppery soppressata stands up to nutty manchego."
+   ],
+   [
+    "ADD THE ENDIVE BOATS",
+    [
+     [
+      "Belgian endive",
+      "Lay the leaves in a fan through the middle, cup side up."
+     ],
+     [
+      "Filling",
+      "Spoon a little brie into two or three leaves to show the idea."
+     ],
+     [
+      "Job",
+      "These are the crackers tonight."
+     ]
+    ],
+    "Crisp, slightly bitter endive leaves hold a bite of cheese and meat and balance all the richness."
+   ],
+   [
+    "ADD THE BERRIES",
+    [
+     [
+      "Strawberries",
+      "Halve and pile near the brie."
+     ],
+     [
+      "Blackberries",
+      "Scatter near the manchego."
+     ],
+     [
+      "Color",
+      "Red and black fruit against white cheese is the look."
+     ]
+    ],
+    "A little fruit gives the board its sweet note while keeping net carbs low; blackberries in particular are high in fiber."
+   ],
+   [
+    "ADD THE MACADAMIAS",
+    [
+     [
+      "Macadamia nuts",
+      "A small pile in the gap between the meats."
+     ],
+     [
+      "Optional",
+      "Warm them for 3 minutes in a dry pan for extra aroma."
+     ],
+     [
+      "Amount",
+      "1½ oz is plenty for two."
+     ]
+    ],
+    "Macadamias are buttery and among the lowest-carb nuts, so they suit both cheeses."
+   ],
+   [
+    "FINISH WITH CHOCOLATE",
+    [
+     [
+      "90% dark chocolate",
+      "Break into squares and stack them near the berries."
+     ],
+     [
+      "Thyme",
+      "Tuck a few sprigs around the edge."
+     ],
+     [
+      "Pairing",
+      "Berries and dark chocolate together make dessert."
+     ]
+    ],
+    "Very dark chocolate has far less sugar than ordinary chocolate, so it can end a keto dinner without blowing the carb budget."
+   ],
+   [
+    "SERVE IT AS DINNER",
+    [
+     [
+      "Portion",
+      "This board is dinner for two."
+     ],
+     [
+      "Lighter option",
+      "For a snack, halve every amount."
+     ],
+     [
+      "Clock",
+      "Two hours out, maximum."
+     ]
+    ],
+    "Each serving has about 62 g of protein and 8 g of net carbs, a full dinner without a single cracker."
+   ]
+  ],
+  "did_you_know": "The percentage on a chocolate bar is the share of its weight that comes from the cacao bean: cocoa solids plus cocoa butter. Most of the rest is sugar, so a higher percentage means less sugar. That is why this book uses 90% chocolate, never 70%.",
+  "subs": [
+   [
+    "Manchego",
+    "Firm, nutty sheep's cheese",
+    "Aged gouda",
+    "Firm with caramel notes"
+   ],
+   [
+    "Soppressata",
+    "Peppery cured salami",
+    "Genoa salami",
+    "Milder, same texture"
+   ],
+   [
+    "Belgian endive",
+    "The edible cracker",
+    "Cucumber rounds",
+    "Crisp and nearly carb-free"
+   ],
+   [
+    "Strawberries",
+    "Sweet red fruit",
+    "Raspberries",
+    "More fiber, fewer net carbs"
+   ],
+   [
+    "Macadamia nuts",
+    "Buttery crunch",
+    "Pecans",
+    "Also very low in net carbs"
+   ]
+  ],
+  "elevations": [
+   [
+    "Warm Brie With Thyme",
+    "Showpiece · +$0",
+    "Bake the brie at 350°F for 10 minutes with thyme on top.",
+    "Warm, spoonable brie feels like a restaurant dish."
+   ],
+   [
+    "Add Burrata",
+    "Luxury Upgrade · +$6–8",
+    "Add a ball of burrata with olive oil and black pepper.",
+    "Creamy and dramatic when torn open."
+   ],
+   [
+    "Prosciutto-Wrapped Brie Bites",
+    "Prep Upgrade · +$0",
+    "Wrap small cubes of manchego in prosciutto ribbons.",
+    "Two-bite combinations look elegant."
+   ],
+   [
+    "Chocolate-Dipped Strawberries",
+    "Dessert Upgrade · +$0",
+    "Melt two squares of the 90% chocolate and dip the strawberries.",
+    "A classic date-night treat that stays low in carbs."
+   ],
+   [
+    "Add Smoked Almonds",
+    "Flavor Upgrade · +$3",
+    "Swap half the macadamias for smoked almonds.",
+    "Smoky nuts go well with manchego."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "70–85% dark chocolate",
+    "portion": "1 oz",
+    "net": 9.9225,
+    "swap": "90% or darker chocolate: about 4 g net carbs per ounce on a typical US label.",
+    "ndb": "19904"
+   },
+   {
+    "name": "Jam or fig preserves",
+    "portion": "1 tbsp",
+    "net": 13.552,
+    "swap": "Fresh raspberries, crushed with a fork, give the same sweet-tart contrast for far fewer carbs.",
+    "ndb": "19297"
+   },
+   {
+    "name": "Grapes",
+    "portion": "10 grapes",
+    "net": 8.428000000000003,
+    "swap": "Raspberries or blackberries: same pop of fruit, much more fiber.",
+    "ndb": "09132"
+   }
+  ]
+ },
+ {
+  "num": "07",
+  "title": "Keto Christmas Board",
+  "section": "Occasions",
+  "badge": "HOLIDAY WREATH",
+  "tagline": "A Showpiece for the Christmas Table",
+  "serves": 12,
+  "use": "party food",
+  "stats": {
+   "Board size": "24\" round board (wreath shape)",
+   "Prep time": "45–50 min",
+   "Total cost": "$82–123",
+   "Cheese": "4 types · 36 oz",
+   "Meat": "3 types · 36 oz",
+   "Level": "Intermediate"
+  },
+  "pairs_with": "Dry sparkling wine or a dry red",
+  "per": {
+   "kcal": 748.9896547619047,
+   "fat": 59.68369059523809,
+   "protein": 45.96864035714287,
+   "carb": 8.47095880952381,
+   "fiber": 3.0984000000000003,
+   "net": 5.372558809523809
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Brie",
+      "qty": "10 oz",
+      "net": 1.27575,
+      "price": "$6–10"
+     },
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "10 oz",
+      "net": 8.76015,
+      "price": "$6–9"
+     },
+     {
+      "name": "Gouda",
+      "qty": "8 oz",
+      "net": 5.034960000000001,
+      "price": "$5–8"
+     },
+     {
+      "name": "Blue cheese",
+      "qty": "8 oz",
+      "net": 5.30712,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "10 oz",
+      "net": 0.0,
+      "price": "$15–22"
+     },
+     {
+      "name": "Hard salami",
+      "qty": "14 oz",
+      "net": 2.8576799999999998,
+      "price": "$9–13"
+     },
+     {
+      "name": "Soppressata",
+      "qty": "12 oz",
+      "net": 0.0,
+      "price": "$9–13"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "2 cucumbers",
+      "net": 18.842599999999997,
+      "price": "$2–3"
+     },
+     {
+      "name": "Celery",
+      "qty": "6 stalks",
+      "net": 3.288000000000001,
+      "price": "$2–3"
+     },
+     {
+      "name": "Parmesan crisps",
+      "qty": "3 oz",
+      "net": 3.0392857142857146,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "8 oz",
+      "net": 1.2247200000000014,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Pecans",
+      "qty": "4 oz",
+      "net": 4.830839999999997,
+      "price": "$4–6"
+     },
+     {
+      "name": "Raspberries",
+      "qty": "1½ cups",
+      "net": 10.009599999999999,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh rosemary (wreath greenery, not eaten)",
+      "qty": "2 bunches",
+      "net": null,
+      "price": "$4–6"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the cheddar, gouda and blue cheese."
+   ],
+   [
+    "T–45 min",
+    "Lay a ring of rosemary on the board as the wreath base."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie. Slice the cucumbers and celery."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats; fold the salami and soppressata."
+   ],
+   [
+    "T–0",
+    "Fill the center with raspberries. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "BUILD THE WREATH BASE",
+    [
+     [
+      "Rosemary",
+      "Lay sprigs in a ring about 3 inches in from the edge."
+     ],
+     [
+      "Center",
+      "Leave the middle open for a bowl of olives."
+     ],
+     [
+      "Olives",
+      "Set the olive bowl in the center."
+     ]
+    ],
+    "Shape is what makes a holiday board memorable. A ring of greenery tells guests it's a wreath before anything else goes on."
+   ],
+   [
+    "SPACE THE FOUR CHEESES",
+    [
+     [
+      "Brie",
+      "At 12 o'clock on the ring, wedge whole."
+     ],
+     [
+      "Cheddar",
+      "Chunks at 3 o'clock."
+     ],
+     [
+      "Gouda and blue",
+      "Gouda at 6, blue at 9."
+     ]
+    ],
+    "Spacing the cheeses evenly around the ring means every guest reaches a different one, and the strong blue stays away from the mild brie."
+   ],
+   [
+    "FOLD THE MEATS INTO THE GAPS",
+    [
+     [
+      "Prosciutto",
+      "Ruffle ribbons between the brie and cheddar."
+     ],
+     [
+      "Hard salami",
+      "Fold into quarters between the cheddar and gouda."
+     ],
+     [
+      "Soppressata",
+      "Fold and fill the gaps on the left side."
+     ]
+    ],
+    "Filling each gap with meat turns four cheese stations into one continuous wreath."
+   ],
+   [
+    "ADD THE DIPPERS",
+    [
+     [
+      "Cucumber rounds",
+      "Tuck in short rows around the outer edge."
+     ],
+     [
+      "Celery",
+      "Cut into sticks; stand a few upright for height."
+     ],
+     [
+      "Parmesan crisps",
+      "Slide into gaps near the cheddar and gouda."
+     ]
+    ],
+    "With no crackers on the board, cucumber, celery and parmesan crisps do the carrying, and their green fits the wreath."
+   ],
+   [
+    "ADD THE PECANS",
+    [
+     [
+      "Pecans",
+      "Scatter along the inner edge of the ring."
+     ],
+     [
+      "Near the blue",
+      "Put a cluster beside the blue cheese."
+     ],
+     [
+      "Toasting",
+      "Toast them in a dry pan for 4 minutes if you have time."
+     ]
+    ],
+    "Pecans are one of the lowest-carb nuts, and their buttery crunch is a classic match for blue cheese."
+   ],
+   [
+    "ADD THE RED",
+    [
+     [
+      "Raspberries",
+      "Dot them around the ring like ornaments."
+     ],
+     [
+      "Center",
+      "Pile the rest around the olive bowl."
+     ],
+     [
+      "Spacing",
+      "Small clusters every few inches."
+     ]
+    ],
+    "Red berries against green rosemary are the Christmas colors, and raspberries are among the lowest-carb fruits."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Temperature",
+      "Brie about 30 minutes out; hard cheeses about an hour."
+     ],
+     [
+      "Knives",
+      "Separate knives for the blue and the brie."
+     ],
+     [
+      "Clock",
+      "Two hours out, then refresh from the fridge."
+     ]
+    ],
+    "A big holiday board is grazed slowly. Keeping some meat and cheese in the fridge to refill keeps it safe."
+   ]
+  ],
+  "did_you_know": "The blue veins in blue cheese come from Penicillium roqueforti mold. Early in ripening, the cheese is pierced with needles to make small air tunnels, and the mold grows blue-green along them. That is why the veins often follow straight lines.",
+  "subs": [
+   [
+    "Blue cheese",
+    "Bold, salty flavor",
+    "Gorgonzola dolce",
+    "Creamier, milder blue"
+   ],
+   [
+    "Soppressata",
+    "Peppery salami",
+    "Calabrese salami",
+    "Spicier, same texture"
+   ],
+   [
+    "Pecans",
+    "Buttery crunch",
+    "Walnuts",
+    "Classic with blue cheese; low in net carbs"
+   ],
+   [
+    "Parmesan crisps",
+    "Cracker-style crunch",
+    "Pork rinds",
+    "Crunchy, zero carbs"
+   ],
+   [
+    "Raspberries",
+    "Red ornament color",
+    "Pomegranate seeds (a spoonful)",
+    "Brighter red; use sparingly, they're higher in sugar"
+   ]
+  ],
+  "elevations": [
+   [
+    "Brie Star",
+    "Showpiece · +$0",
+    "Cut a star from the top rind of the brie and fill it with chopped pecans.",
+    "A festive centerpiece guests photograph."
+   ],
+   [
+    "Salami Roses",
+    "Prep Upgrade · +$0",
+    "Fold salami slices around the rim of a glass, then flip out a rose.",
+    "Roses look like effort but take minutes."
+   ],
+   [
+    "Rosemary Spiced Nuts",
+    "Flavor Upgrade · +$1",
+    "Toss pecans with butter, rosemary and salt; bake 10 minutes at 325°F.",
+    "Warm, savory nuts make the whole room smell like the holidays."
+   ],
+   [
+    "Add a Truffle Cheese",
+    "Luxury Upgrade · +$10–15",
+    "Add a wedge of truffle cheese beside the brie.",
+    "Truffle aroma makes a holiday board feel special."
+   ],
+   [
+    "Add Smoked Salmon",
+    "Seafood Upgrade · +$8–10",
+    "Add 8 oz of smoked salmon roses near the cucumber.",
+    "A classic holiday food that adds protein and almost no carbs."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Dried sweetened cranberries",
+    "portion": "¼ cup",
+    "net": 31.0,
+    "swap": "Fresh raspberries for the red color.",
+    "ndb": "09079"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   },
+   {
+    "name": "Water crackers",
+    "portion": "4 crackers",
+    "net": 9.1994,
+    "swap": "Parmesan crisps, which crunch like a cracker and add protein instead of starch.",
+    "ndb": "28327"
+   }
+  ]
+ },
+ {
+  "num": "08",
+  "title": "Keto Thanksgiving Board",
+  "section": "Occasions",
+  "badge": "BEFORE THE FEAST",
+  "tagline": "A Light Start Before the Big Meal",
+  "serves": 10,
+  "use": "before a meal",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30 min",
+   "Total cost": "$50–76",
+   "Cheese": "3 types · 20 oz",
+   "Meat": "3 types · 20 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry white wine or sparkling water with lime",
+  "per": {
+   "kcal": 454.2411,
+   "fat": 35.907356,
+   "protein": 27.227140999999996,
+   "carb": 7.244760000000001,
+   "fiber": 3.19967,
+   "net": 4.045090000000001
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "8 oz",
+      "net": 7.00812,
+      "price": "$5–8"
+     },
+     {
+      "name": "Gruyère",
+      "qty": "6 oz",
+      "net": 0.61236,
+      "price": "$6–9"
+     },
+     {
+      "name": "Goat cheese (chèvre) (log)",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Smoked turkey breast (smoked turkey)",
+      "qty": "8 oz",
+      "net": 5.30712,
+      "price": "$4–6"
+     },
+     {
+      "name": "Prosciutto",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$9–13"
+     },
+     {
+      "name": "Hard salami",
+      "qty": "6 oz",
+      "net": 1.22472,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Celery",
+      "qty": "6 stalks",
+      "net": 3.288000000000001,
+      "price": "$2–3"
+     },
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     },
+     {
+      "name": "Radishes",
+      "qty": "10 radishes",
+      "net": 0.81,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "6 oz",
+      "net": 0.918540000000001,
+      "price": "$3–5"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "3 tbsp",
+      "net": 0.8235000000000003,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Pecans",
+      "qty": "4 oz",
+      "net": 4.830839999999997,
+      "price": "$4–6"
+     },
+     {
+      "name": "Blackberries",
+      "qty": "1 cup",
+      "net": 6.2064,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh sage leaves",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$2–3"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the cheddar and Gruyère."
+   ],
+   [
+    "T–30 min",
+    "Take out the goat cheese; roll the log in chopped pecans if you like."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats; roll the turkey."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Serve, and put it away when dinner starts."
+   ]
+  ],
+  "steps": [
+   [
+    "SET THE MUSTARD AND OLIVES",
+    [
+     [
+      "Mustard",
+      "Small dish near the center."
+     ],
+     [
+      "Olives",
+      "Small dish at the edge."
+     ],
+     [
+      "Space",
+      "Keep a corner free for the goat cheese."
+     ]
+    ],
+    "Sharp mustard and briny olives wake up the palate before a big meal instead of filling guests up."
+   ],
+   [
+    "PLACE THE CHEESES",
+    [
+     [
+      "Aged cheddar",
+      "Chunks in one corner."
+     ],
+     [
+      "Gruyère",
+      "Thin slices fanned along an edge."
+     ],
+     [
+      "Goat cheese",
+      "The log whole, in the corner you kept free."
+     ]
+    ],
+    "Three textures again: crumbly, firm and creamy. Smaller amounts here because dinner is coming."
+   ],
+   [
+    "ROLL THE TURKEY",
+    [
+     [
+      "Smoked turkey",
+      "Roll slices into tight cigars and stack them."
+     ],
+     [
+      "Prosciutto",
+      "Ribbons beside the goat cheese."
+     ],
+     [
+      "Hard salami",
+      "Folded near the cheddar."
+     ]
+    ],
+    "A nod to the main event, and lean smoked turkey keeps the board lighter."
+   ],
+   [
+    "ADD THE CRUNCH",
+    [
+     [
+      "Celery",
+      "Sticks along one side."
+     ],
+     [
+      "Cucumber",
+      "Rounds in an arc."
+     ],
+     [
+      "Radishes",
+      "Halved, scattered for color."
+     ]
+    ],
+    "Fresh, cold vegetables keep a pre-dinner board from feeling heavy."
+   ],
+   [
+    "ADD THE PECANS",
+    [
+     [
+      "Pecans",
+      "Pile beside the goat cheese and Gruyère."
+     ],
+     [
+      "Option",
+      "Toast them for a fall aroma."
+     ],
+     [
+      "Amount",
+      "4 oz for 10 people."
+     ]
+    ],
+    "Pecans taste like fall and are among the lowest-carb nuts."
+   ],
+   [
+    "ADD THE BLACKBERRIES",
+    [
+     [
+      "Blackberries",
+      "Small clusters in two or three spots."
+     ],
+     [
+      "Sage",
+      "Tuck leaves around the edge."
+     ],
+     [
+      "Color",
+      "Dark berries and sage give autumn colors."
+     ]
+    ],
+    "Blackberries bring the deep color of a fall board with plenty of fiber."
+   ],
+   [
+    "KEEP IT SMALL",
+    [
+     [
+      "Timing",
+      "Serve 45–60 minutes before dinner."
+     ],
+     [
+      "Portion",
+      "2 oz of meat and 2 oz of cheese per guest."
+     ],
+     [
+      "Clock",
+      "Clear it when you sit down to eat."
+     ]
+    ],
+    "This board is sized as an appetizer so guests still have room for the turkey."
+   ]
+  ],
+  "did_you_know": "The word 'pecan' comes from an Algonquian word that was used for pecans, walnuts and hickory nuts. Pecan trees are native to the south-central United States and northern Mexico.",
+  "subs": [
+   [
+    "Gruyère",
+    "Nutty, firm slicing cheese",
+    "Comté or Swiss",
+    "Similar nutty flavor"
+   ],
+   [
+    "Goat cheese",
+    "Creamy, tangy log",
+    "Boursin-style herb cheese",
+    "Creamy and spreadable; check carbs on the label"
+   ],
+   [
+    "Smoked turkey",
+    "Lean, festive protein",
+    "Roast beef",
+    "Lean and easy to roll"
+   ],
+   [
+    "Blackberries",
+    "Dark fall fruit",
+    "Raspberries",
+    "Same low net carbs"
+   ],
+   [
+    "Pecans",
+    "Fall crunch",
+    "Walnuts",
+    "Also low in net carbs"
+   ]
+  ],
+  "elevations": [
+   [
+    "Pecan-Crusted Goat Cheese",
+    "Prep Upgrade · +$0",
+    "Roll the goat log in chopped pecans and a little fresh thyme.",
+    "Looks bakery-made in two minutes."
+   ],
+   [
+    "Add a Smoked Cheddar",
+    "Flavor Upgrade · +$4–6",
+    "Swap half the cheddar for smoked cheddar.",
+    "Smoky cheese goes well with turkey."
+   ],
+   [
+    "Mini Turkey Roll-Ups",
+    "Prep Upgrade · +$0",
+    "Roll turkey around a cucumber stick and a smear of mustard.",
+    "Ready-made bites go first."
+   ],
+   [
+    "Spiced Pecans",
+    "Flavor Upgrade · +$1",
+    "Toss pecans with butter, cinnamon and salt; bake 10 minutes at 325°F.",
+    "Tastes like dessert with no added sugar."
+   ],
+   [
+    "Add Deviled Eggs",
+    "Protein Upgrade · +$2",
+    "Make a dozen deviled egg halves with paprika.",
+    "A holiday classic that fits keto."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Dried sweetened cranberries",
+    "portion": "¼ cup",
+    "net": 31.0,
+    "swap": "Fresh raspberries for the red color.",
+    "ndb": "09079"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   },
+   {
+    "name": "Baguette slices",
+    "portion": "1 oz (about 2 thin slices)",
+    "net": 14.084280000000001,
+    "swap": "Endive leaves or cucumber rounds as the carrier.",
+    "ndb": "18029"
+   }
+  ]
+ },
+ {
+  "num": "09",
+  "title": "Keto Brunch Board",
+  "section": "Occasions",
+  "badge": "WEEKEND BRUNCH",
+  "tagline": "Bagel Board Flavors Without the Bagel",
+  "serves": 6,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30–35 min",
+   "Total cost": "$46–70",
+   "Cheese": "3 types · 18 oz",
+   "Meat": "3 types · 18 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Coffee, unsweetened iced tea or sparkling water with lemon",
+  "per": {
+   "kcal": 675.3911666666667,
+   "fat": 50.773513333333334,
+   "protein": 44.092234999999995,
+   "carb": 11.689806666666668,
+   "fiber": 4.157233333333333,
+   "net": 7.5325733333333345
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Cream cheese",
+      "qty": "6 oz",
+      "net": 9.38952,
+      "price": "$2–3"
+     },
+     {
+      "name": "Goat cheese (chèvre)",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     },
+     {
+      "name": "Swiss",
+      "qty": "6 oz",
+      "net": 2.44944,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Smoked salmon",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$9–14"
+     },
+     {
+      "name": "Bacon (cooked, about 15 slices)",
+      "qty": "6 oz",
+      "net": 2.8916999999999997,
+      "price": "$7–10"
+     },
+     {
+      "name": "Prosciutto",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Avocados",
+      "qty": "2 avocados",
+      "net": 4.977599999999999,
+      "price": "$2–4"
+     },
+     {
+      "name": "Lemon (in wedges)",
+      "qty": "1 lemon",
+      "net": 3.781600000000001,
+      "price": "$0.50–1"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Capers",
+      "qty": "2 tbsp",
+      "net": 0.29067999999999994,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Strawberries (halves)",
+      "qty": "1 cup",
+      "net": 8.633599999999998,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh dill",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$2–3"
+     },
+     {
+      "name": "Thinly sliced red onion (optional)",
+      "qty": "a few rings",
+      "net": null,
+      "price": "$0.50–1"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs."
+   ],
+   [
+    "T–45 min",
+    "Take out the Swiss. Bake the bacon (400°F, about 18 min)."
+   ],
+   [
+    "T–30 min",
+    "Take out the cream cheese and goat cheese to soften."
+   ],
+   [
+    "T–15 min",
+    "Slice the cucumber and avocado (squeeze lemon over it)."
+   ],
+   [
+    "T–0",
+    "Add the salmon last so it stays cold. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "CREAM CHEESE AND CAPERS FIRST",
+    [
+     [
+      "Cream cheese",
+      "Spread into a shallow bowl and swirl the top."
+     ],
+     [
+      "Capers",
+      "Small dish beside it."
+     ],
+     [
+      "Lemon",
+      "Wedges next to the capers."
+     ]
+    ],
+    "Cream cheese, capers and lemon are the flavors of a bagel with lox. With them in place, the rest of the board falls in around them."
+   ],
+   [
+    "ADD THE SMOKED SALMON",
+    [
+     [
+      "Smoked salmon",
+      "Fold into loose ribbons near the cream cheese."
+     ],
+     [
+      "Dill",
+      "Scatter sprigs over the salmon."
+     ],
+     [
+      "Timing",
+      "Keep the salmon cold until the last minute."
+     ]
+    ],
+    "Rich, salty salmon with creamy cheese and sharp capers is a balanced bite with almost no carbs."
+   ],
+   [
+    "ADD THE OTHER CHEESES",
+    [
+     [
+      "Goat cheese",
+      "Crumble a little, leave the rest as a log."
+     ],
+     [
+      "Swiss",
+      "Thin slices fanned along an edge."
+     ],
+     [
+      "Spacing",
+      "Keep them away from the wet salmon."
+     ]
+    ],
+    "Tangy goat cheese and mild Swiss give options beyond the salmon pairing."
+   ],
+   [
+    "ADD THE BACON AND PROSCIUTTO",
+    [
+     [
+      "Bacon",
+      "Stack crisp strips in a short pile."
+     ],
+     [
+      "Prosciutto",
+      "Ribbons beside the Swiss."
+     ],
+     [
+      "Eggs",
+      "Halve and lay yolk-up between the meats."
+     ]
+    ],
+    "Bacon and eggs make it a breakfast; prosciutto adds a lighter, silky option."
+   ],
+   [
+    "ADD THE CUCUMBER AND AVOCADO",
+    [
+     [
+      "Cucumber",
+      "Thin rounds in a long row; these are the bagel."
+     ],
+     [
+      "Avocado",
+      "Fan slices near the eggs."
+     ],
+     [
+      "Lemon",
+      "Squeeze over the avocado so it stays green."
+     ]
+    ],
+    "Cucumber rounds carry cream cheese and salmon like a mini bagel; avocado adds fat and fiber."
+   ],
+   [
+    "ADD THE STRAWBERRIES",
+    [
+     [
+      "Strawberries",
+      "Halve and pile in one corner."
+     ],
+     [
+      "Red onion",
+      "A few thin rings near the salmon, if guests like it."
+     ],
+     [
+      "Pepper",
+      "Black pepper over the eggs and avocado."
+     ]
+    ],
+    "A little fruit makes it feel like brunch without turning it into a sugar board."
+   ],
+   [
+    "SERVE",
+    [
+     [
+      "Coffee",
+      "Pour the coffee."
+     ],
+     [
+      "Salmon",
+      "Back in the fridge after 2 hours."
+     ],
+     [
+      "Leftovers",
+      "Wrap the salmon separately; eat within 2 days."
+     ]
+    ],
+    "Smoked fish is the most perishable thing here, so it goes out last and comes back first."
+   ]
+  ],
+  "did_you_know": "Traditional lox is not smoked at all: it is salmon cured in salt, which makes it very salty. 'Nova' lox is cured in a milder brine and then cold-smoked, and it is what most American stores sell as smoked salmon.",
+  "subs": [
+   [
+    "Smoked salmon",
+    "Rich, salty star",
+    "Smoked trout",
+    "Similar flavor; flakier"
+   ],
+   [
+    "Bacon",
+    "Crisp, smoky",
+    "Turkey bacon",
+    "Leaner; check the label for sugar"
+   ],
+   [
+    "Swiss",
+    "Mild slicing cheese",
+    "Havarti",
+    "Creamy and mild"
+   ],
+   [
+    "Strawberries",
+    "Sweet note",
+    "Raspberries",
+    "Fewer net carbs"
+   ],
+   [
+    "Cucumber",
+    "The 'bagel'",
+    "Endive leaves",
+    "Crisp, scoopable"
+   ]
+  ],
+  "elevations": [
+   [
+    "Everything-Seasoned Cream Cheese",
+    "Flavor Upgrade · +$2",
+    "Sprinkle everything-bagel seasoning over the cream cheese.",
+    "All the flavor of the bagel, none of the bread."
+   ],
+   [
+    "Mini Frittata Bites",
+    "Prep Upgrade · +$3",
+    "Bake eggs, cheese and spinach in a mini muffin tin.",
+    "Warm bites make the board feel like a full brunch."
+   ],
+   [
+    "Add Avocado Halves",
+    "Showpiece · +$2–3",
+    "Fill avocado halves with a spoon of cream cheese and salmon.",
+    "A hearty keto bite."
+   ],
+   [
+    "Make Salmon Roses",
+    "Prep Upgrade · +$0",
+    "Roll salmon ribbons into roses and set them on cucumber rounds.",
+    "Pretty, ready-to-eat bites."
+   ],
+   [
+    "Add Soft-Boiled Eggs",
+    "Texture Upgrade · +$0",
+    "Cook 6½ minutes instead of hard-boiling for jammy yolks.",
+    "Jammy yolks look and taste richer."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "A plain bagel",
+    "portion": "1 bagel",
+    "net": 50.272200000000005,
+    "swap": "Cucumber rounds or endive leaves under the cream cheese and salmon.",
+    "ndb": "18001"
+   },
+   {
+    "name": "Orange juice",
+    "portion": "1 cup",
+    "net": 25.296000000000003,
+    "swap": "Sparkling water with a squeeze of lemon or lime.",
+    "ndb": "09206"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   }
+  ]
+ },
+ {
+  "num": "10",
+  "title": "Keto Picnic & Travel Board",
+  "section": "Occasions",
+  "badge": "PACKS & TRAVELS",
+  "tagline": "Cooler-Friendly Keto for Parks and Road Trips",
+  "serves": 4,
+  "use": "party food",
+  "stats": {
+   "Board size": "Container or 12–14\" board",
+   "Prep time": "20 min",
+   "Total cost": "$26–40",
+   "Cheese": "2 types · 12 oz",
+   "Meat": "2 types · 12 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Iced tea (unsweetened) or sparkling water",
+  "per": {
+   "kcal": 962.9397499999999,
+   "fat": 79.49157249999999,
+   "protein": 49.54232500000001,
+   "carb": 14.284765,
+   "fiber": 5.074675,
+   "net": 9.210090000000001
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "6 oz",
+      "net": 5.2560899999999995,
+      "price": "$3–5"
+     },
+     {
+      "name": "Gouda",
+      "qty": "6 oz",
+      "net": 3.7762200000000004,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Hard salami",
+      "qty": "6 oz",
+      "net": 1.22472,
+      "price": "$4–6"
+     },
+     {
+      "name": "Pepperoni",
+      "qty": "6 oz",
+      "net": 2.00718,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     },
+     {
+      "name": "Celery",
+      "qty": "4 stalks",
+      "net": 2.1920000000000006,
+      "price": "$2–2.50"
+     },
+     {
+      "name": "Radishes",
+      "qty": "10 radishes",
+      "net": 0.81,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "4 eggs",
+      "net": 2.24,
+      "price": "$1.50–2"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "4 oz",
+      "net": 0.6123600000000007,
+      "price": "$2–4"
+     },
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "4 oz",
+      "net": 1.5989400000000005,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Almonds",
+      "qty": "3 oz",
+      "net": 7.701550000000001,
+      "price": "$2–3"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs; cut the cheese into cubes and the vegetables into sticks."
+   ],
+   [
+    "Morning",
+    "Pack everything in separate containers in a cooler with ice packs."
+   ],
+   [
+    "At the spot",
+    "Open the cheese first so it can warm a little."
+   ],
+   [
+    "+15 min",
+    "Lay everything out on a board or the container lids."
+   ],
+   [
+    "+2 hours",
+    "Pack up anything left; above 90°F, after 1 hour."
+   ]
+  ],
+  "steps": [
+   [
+    "PREP AT HOME",
+    [
+     [
+      "Cheese",
+      "Cube the cheddar and gouda the night before."
+     ],
+     [
+      "Vegetables",
+      "Cut celery and cucumber into sticks; halve the radishes."
+     ],
+     [
+      "Eggs",
+      "Hard-boil and leave them in their shells."
+     ]
+    ],
+    "Everything is cut before you leave, so all you do at the picnic is open containers."
+   ],
+   [
+    "PACK IT COLD",
+    [
+     [
+      "Cooler",
+      "Pack meats and cheese on top of the ice packs."
+     ],
+     [
+      "Olives and pickles",
+      "In jars with tight lids."
+     ],
+     [
+      "Eggs",
+      "Keep them in a separate container."
+     ]
+    ],
+    "Cold food stays safe longer. A cooler packed full holds its temperature better than a half-empty one."
+   ],
+   [
+    "SET UP THE CHEESE",
+    [
+     [
+      "Cheddar",
+      "Pile in one corner of the board or lid."
+     ],
+     [
+      "Gouda",
+      "Pile in the opposite corner."
+     ],
+     [
+      "Picks",
+      "Bring toothpicks."
+     ]
+    ],
+    "Cubes need no knife and hold up well outdoors."
+   ],
+   [
+    "ADD THE MEATS",
+    [
+     [
+      "Hard salami",
+      "Folded into a stack."
+     ],
+     [
+      "Pepperoni",
+      "In a pile beside the cheddar."
+     ],
+     [
+      "Shade",
+      "Keep the board in the shade."
+     ]
+    ],
+    "Dry-cured salami and pepperoni are among the sturdiest meats for travel."
+   ],
+   [
+    "ADD THE VEGETABLES",
+    [
+     [
+      "Celery and cucumber",
+      "Lay the sticks in bundles."
+     ],
+     [
+      "Radishes",
+      "In a pile."
+     ],
+     [
+      "Job",
+      "They're the crackers."
+     ]
+    ],
+    "Crunchy vegetables stay crisp in a cooler, unlike crackers that get soft or crushed."
+   ],
+   [
+    "ADD THE EXTRAS",
+    [
+     [
+      "Eggs",
+      "Peel at the table and halve."
+     ],
+     [
+      "Almonds",
+      "In a small pile."
+     ],
+     [
+      "Olives and pickles",
+      "Open the jars and set them beside the meats."
+     ]
+    ],
+    "Eggs and almonds add protein and fat, which keep you full on a long day out."
+   ],
+   [
+    "PACK UP SAFELY",
+    [
+     [
+      "Clock",
+      "Two hours out, or one hour above 90°F."
+     ],
+     [
+      "Leftovers",
+      "Back in the cooler right away."
+     ],
+     [
+      "Ice",
+      "If the ice has melted, throw out the perishables."
+     ]
+    ],
+    "Outdoor heat shortens the safe time, so watch the clock more closely than at home."
+   ]
+  ],
+  "did_you_know": "Cheddar is named after the village of Cheddar in Somerset, England, where nearby caves offered the cool, steady temperature that cheesemakers once used to age it.",
+  "subs": [
+   [
+    "Gouda",
+    "Mild, firm cheese",
+    "Babybel-style wax-coated minis",
+    "Individually wrapped; travel-proof"
+   ],
+   [
+    "Pepperoni",
+    "Sturdy cured meat",
+    "Meat sticks (check sugar)",
+    "No slicing, very portable"
+   ],
+   [
+    "Almonds",
+    "Crunchy fat and protein",
+    "Macadamias",
+    "Lower in net carbs"
+   ],
+   [
+    "Eggs",
+    "Protein",
+    "String cheese",
+    "No peeling needed"
+   ],
+   [
+    "Cucumber",
+    "Fresh crunch",
+    "Sugar snap peas",
+    "Sturdy; slightly more carbs"
+   ]
+  ],
+  "elevations": [
+   [
+    "Bring a Small Board",
+    "Look Upgrade · +$0",
+    "Pack a small cutting board to lay it all out.",
+    "A board turns snacks into a picnic."
+   ],
+   [
+    "Marinated Cheese Cubes",
+    "Flavor Upgrade · +$1",
+    "Toss the cheese cubes in olive oil and Italian herbs at home.",
+    "More flavor, no extra carbs."
+   ],
+   [
+    "Deviled Eggs To Go",
+    "Prep Upgrade · +$0",
+    "Make deviled eggs and pack them in a carrier.",
+    "A classic picnic food."
+   ],
+   [
+    "Add Smoked Almonds",
+    "Flavor Upgrade · +$2",
+    "Swap the plain almonds for smoked.",
+    "Smoky and salty outdoors."
+   ],
+   [
+    "Frozen Water Bottles",
+    "Safety Upgrade · +$0",
+    "Freeze bottles of water and use them as ice packs.",
+    "They keep the cooler cold and become cold drinks."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Trail mix with chocolate",
+    "portion": "1 oz",
+    "net": 11.31165,
+    "swap": "Plain almonds or macadamias.",
+    "ndb": "19062"
+   },
+   {
+    "name": "Grapes",
+    "portion": "10 grapes",
+    "net": 8.428000000000003,
+    "swap": "Raspberries or blackberries: same pop of fruit, much more fiber.",
+    "ndb": "09132"
+   },
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   }
+  ]
+ },
+ {
+  "num": "11",
+  "title": "Keto Italian Antipasto Board",
+  "section": "Flavors",
+  "badge": "ITALIAN CLASSIC",
+  "tagline": "Antipasto Without the Bread Basket",
+  "serves": 8,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30–35 min",
+   "Total cost": "$62–90",
+   "Cheese": "3 types · 24 oz",
+   "Meat": "3 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "A dry Italian red like Chianti, or dry Prosecco",
+  "per": {
+   "kcal": 712.7448750000001,
+   "fat": 54.8822275,
+   "protein": 47.13834125,
+   "carb": 7.8672474999999995,
+   "fiber": 2.51285,
+   "net": 5.354397499999999
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Fresh mozzarella",
+      "qty": "8 oz",
+      "net": 4.96692,
+      "price": "$5–7"
+     },
+     {
+      "name": "Provolone",
+      "qty": "8 oz",
+      "net": 4.8535200000000005,
+      "price": "$5–7"
+     },
+     {
+      "name": "Parmesan (in chunks)",
+      "qty": "8 oz",
+      "net": 7.302960000000001,
+      "price": "$8–12"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$14–20"
+     },
+     {
+      "name": "Italian dry salami (Genoa)",
+      "qty": "8 oz",
+      "net": 2.7216000000000005,
+      "price": "$6–9"
+     },
+     {
+      "name": "Soppressata",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "6 oz",
+      "net": 0.918540000000001,
+      "price": "$3–5"
+     },
+     {
+      "name": "Kalamata olives",
+      "qty": "4 oz",
+      "net": 4.090499999999999,
+      "price": "$3–4"
+     },
+     {
+      "name": "Roasted red peppers",
+      "qty": "4 oz",
+      "net": 3.6288,
+      "price": "$3–4"
+     },
+     {
+      "name": "Pepperoncini",
+      "qty": "4 oz",
+      "net": 2.2226399999999993,
+      "price": "$2–3"
+     },
+     {
+      "name": "Basil pesto (jarred)",
+      "qty": "¼ cup",
+      "net": 2.7083999999999997,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh basil",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$2–3"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the provolone and Parmigiano."
+   ],
+   [
+    "T–30 min",
+    "Drain the mozzarella; slice the cucumber."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats."
+   ],
+   [
+    "T–10 min",
+    "Build the board; drizzle pesto over the mozzarella."
+   ],
+   [
+    "T–0",
+    "Tear basil over everything. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "BOWLS FIRST",
+    [
+     [
+      "Pesto",
+      "Small bowl near the mozzarella spot."
+     ],
+     [
+      "Olives",
+      "Two bowls: green and kalamata."
+     ],
+     [
+      "Pepperoncini",
+      "A third small bowl, or loose at the edge."
+     ]
+    ],
+    "Antipasto is built around marinated and pickled things; set those bowls first and the board takes shape around them."
+   ],
+   [
+    "ADD THE THREE CHEESES",
+    [
+     [
+      "Fresh mozzarella",
+      "Torn into pieces, drizzled with pesto."
+     ],
+     [
+      "Provolone",
+      "Thin slices folded in half."
+     ],
+     [
+      "Parmigiano",
+      "Broken into rough chunks with a cheese knife."
+     ]
+    ],
+    "Soft and milky, mild and firm, hard and savory: three Italian cheeses with three different textures."
+   ],
+   [
+    "ADD THE THREE MEATS",
+    [
+     [
+      "Prosciutto",
+      "Loose ribbons beside the mozzarella."
+     ],
+     [
+      "Genoa salami",
+      "Folded into quarters near the provolone."
+     ],
+     [
+      "Soppressata",
+      "Shingled near the Parmigiano."
+     ]
+    ],
+    "Each meat sits by its partner: sweet prosciutto with milky mozzarella, salami with provolone, peppery soppressata with sharp Parmigiano."
+   ],
+   [
+    "ADD THE ROASTED PEPPERS",
+    [
+     [
+      "Roasted red peppers",
+      "Strips draped between the meats."
+     ],
+     [
+      "Color",
+      "Use them to break up the reds and pinks."
+     ],
+     [
+      "Oil",
+      "Drain them well first."
+     ]
+    ],
+    "Sweet, soft roasted peppers give the board color and a touch of sweetness for very few carbs."
+   ],
+   [
+    "ADD THE CUCUMBER",
+    [
+     [
+      "Cucumber",
+      "Thick rounds in a row."
+     ],
+     [
+      "Job",
+      "Top them with mozzarella and prosciutto."
+     ],
+     [
+      "Extra",
+      "Add celery if you need more dippers."
+     ]
+    ],
+    "Cucumber replaces the bread that usually comes with antipasto."
+   ],
+   [
+    "FINISH WITH BASIL",
+    [
+     [
+      "Basil",
+      "Tear leaves over the mozzarella and meats."
+     ],
+     [
+      "Oil",
+      "A light drizzle of olive oil over the cheese."
+     ],
+     [
+      "Pepper",
+      "Black pepper over the mozzarella."
+     ]
+    ],
+    "Fresh basil and good olive oil make simple ingredients taste Italian."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Mozzarella",
+      "Keep it cold until the end; it softens fast."
+     ],
+     [
+      "Knife",
+      "A knife for the Parmigiano."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Fresh mozzarella is very perishable, so it is the last thing on and the first thing off."
+   ]
+  ],
+  "did_you_know": "Under its PDO rules, Parmigiano Reggiano must be aged at least 12 months, and the only additive allowed is salt. Long aging is also why it has almost none of the milk sugar found in fresh cheeses.",
+  "subs": [
+   [
+    "Soppressata",
+    "Peppery salami",
+    "Calabrese salami",
+    "Spicier"
+   ],
+   [
+    "Fresh mozzarella",
+    "Soft, milky cheese",
+    "Burrata",
+    "Even creamier"
+   ],
+   [
+    "Provolone",
+    "Mild slicing cheese",
+    "Fontina",
+    "Mild and buttery"
+   ],
+   [
+    "Pesto",
+    "Herby sauce",
+    "Olive oil with garlic and herbs",
+    "Nearly carb-free"
+   ],
+   [
+    "Pepperoncini",
+    "Tangy heat",
+    "Giardiniera",
+    "Mixed pickled vegetables, same job"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Marinated Artichokes",
+    "Veggie Upgrade · +$3–4",
+    "Add a small jar of marinated artichoke hearts.",
+    "Tangy and Italian; count them toward your carbs."
+   ],
+   [
+    "Mozzarella-Prosciutto Skewers",
+    "Prep Upgrade · +$0",
+    "Thread mozzarella pearls and folded prosciutto on picks.",
+    "Ready-made bites go first."
+   ],
+   [
+    "Add Burrata",
+    "Luxury Upgrade · +$6–8",
+    "Swap the mozzarella for burrata, torn open at the table.",
+    "A showpiece cheese."
+   ],
+   [
+    "Add Mortadella",
+    "Classic Upgrade · +$5–7",
+    "Add thin mortadella slices folded into quarters.",
+    "A Bologna classic; check the label for added sugar."
+   ],
+   [
+    "Parmigiano With Olive Oil",
+    "Flavor Upgrade · +$0",
+    "Drizzle the Parmigiano chunks with your best olive oil.",
+    "A simple Italian way to serve it."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Baguette slices",
+    "portion": "1 oz (about 2 thin slices)",
+    "net": 14.084280000000001,
+    "swap": "Endive leaves or cucumber rounds as the carrier.",
+    "ndb": "18029"
+   },
+   {
+    "name": "Dried figs",
+    "portion": "3 figs",
+    "net": 13.625639999999999,
+    "swap": "Fresh berries, or skip the sweet note and let the Marcona almonds carry the board.",
+    "ndb": "09094"
+   },
+   {
+    "name": "Water crackers",
+    "portion": "4 crackers",
+    "net": 9.1994,
+    "swap": "Parmesan crisps, which crunch like a cracker and add protein instead of starch.",
+    "ndb": "28327"
+   }
+  ]
+ },
+ {
+  "num": "12",
+  "title": "Keto Mediterranean Board",
+  "section": "Flavors",
+  "badge": "SUN & SEA",
+  "tagline": "Feta, Olives and Bright Mediterranean Flavor",
+  "serves": 8,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30 min",
+   "Total cost": "$58–86",
+   "Cheese": "3 types · 24 oz",
+   "Meat": "3 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "A dry white like Assyrtiko or a dry rosé",
+  "per": {
+   "kcal": 650.917,
+   "fat": 48.9134525,
+   "protein": 42.121582499999995,
+   "carb": 11.747114999999999,
+   "fiber": 3.52515625,
+   "net": 8.221958749999999
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Feta (block)",
+      "qty": "12 oz",
+      "net": 13.914179999999998,
+      "price": "$6–9"
+     },
+     {
+      "name": "Goat cheese (chèvre)",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     },
+     {
+      "name": "Fresh mozzarella",
+      "qty": "6 oz",
+      "net": 3.72519,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Italian dry salami",
+      "qty": "8 oz",
+      "net": 2.7216000000000005,
+      "price": "$6–9"
+     },
+     {
+      "name": "Prosciutto",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$14–20"
+     },
+     {
+      "name": "Bresaola (air-dried beef)",
+      "qty": "8 oz",
+      "net": 4.050000000000001,
+      "price": "$10–14"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "2 cucumbers",
+      "net": 18.842599999999997,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Cherry tomatoes",
+      "qty": "1 cup",
+      "net": 4.008100000000001,
+      "price": "$3–4"
+     },
+     {
+      "name": "Red bell pepper",
+      "qty": "1 red bell pepper",
+      "net": 4.6767,
+      "price": "$1.50–2.50"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Kalamata olives",
+      "qty": "6 oz",
+      "net": 6.1357499999999945,
+      "price": "$4–6"
+     },
+     {
+      "name": "Extra-virgin olive oil",
+      "qty": "2 tbsp",
+      "net": 0.0,
+      "price": "$0.50–1"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Almonds",
+      "qty": "3 oz",
+      "net": 7.701550000000001,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Dried oregano and lemon zest for the feta",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     },
+     {
+      "name": "Fresh mint",
+      "qty": "a few sprigs",
+      "net": null,
+      "price": "$1–2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–30 min",
+    "Take out the feta and goat cheese; drizzle the feta with oil and oregano."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats. Cut the cucumber into spears and the pepper into strips."
+   ],
+   [
+    "T–15 min",
+    "Halve the tomatoes; season with salt."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Add mint and lemon zest. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "THE FETA BLOCK",
+    [
+     [
+      "Feta",
+      "Leave the block whole in the center; drizzle with olive oil and oregano."
+     ],
+     [
+      "Knife",
+      "A small knife for breaking it."
+     ],
+     [
+      "Lemon",
+      "Zest over the top."
+     ]
+    ],
+    "A whole block of feta dressed with oil and herbs is the classic Greek meze and the board's centerpiece."
+   ],
+   [
+    "ADD THE OTHER CHEESES",
+    [
+     [
+      "Goat cheese",
+      "A log beside the feta."
+     ],
+     [
+      "Fresh mozzarella",
+      "Torn into pieces near the tomatoes."
+     ],
+     [
+      "Spacing",
+      "Keep the soft cheeses together."
+     ]
+    ],
+    "Three fresh, tangy cheeses suit the bright vegetables on this board."
+   ],
+   [
+    "ADD THE MEATS",
+    [
+     [
+      "Prosciutto",
+      "Ribbons beside the mozzarella."
+     ],
+     [
+      "Bresaola",
+      "Thin slices fanned along an edge."
+     ],
+     [
+      "Italian salami",
+      "Folded near the goat cheese."
+     ]
+    ],
+    "Lean bresaola and salty prosciutto add protein without overpowering the fresh cheeses."
+   ],
+   [
+    "ADD THE VEGETABLES",
+    [
+     [
+      "Cucumber spears",
+      "Stand some in a glass for height."
+     ],
+     [
+      "Red pepper strips",
+      "In a bundle."
+     ],
+     [
+      "Cherry tomatoes",
+      "Halved, near the mozzarella."
+     ]
+    ],
+    "Cucumber, pepper and tomato are the Greek salad on a board: fresh, crisp and low in carbs."
+   ],
+   [
+    "ADD THE OLIVES",
+    [
+     [
+      "Kalamata olives",
+      "In a bowl or loose near the feta."
+     ],
+     [
+      "Oil",
+      "A spoon of olive oil over them."
+     ],
+     [
+      "Pits",
+      "A small dish for pits."
+     ]
+    ],
+    "Kalamatas are the signature olive of Greek cooking, and salty olives with feta is the classic pairing."
+   ],
+   [
+    "ADD THE ALMONDS",
+    [
+     [
+      "Almonds",
+      "Fill the gaps."
+     ],
+     [
+      "Mint",
+      "Tuck sprigs around the edge."
+     ],
+     [
+      "Oil",
+      "A last drizzle over the tomatoes."
+     ]
+    ],
+    "Almonds add crunch where crackers would usually go."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Feta",
+      "Serve it cool, not cold."
+     ],
+     [
+      "Oil",
+      "Have a little extra olive oil and salt nearby."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Olive oil is pure fat with no carbs, so it adds flavor without changing the net-carb count."
+   ]
+  ],
+  "did_you_know": "Feta has been a protected designation of origin in the EU since 2002. Real feta must be made in mainland Greece or Lesbos from sheep's milk, or sheep's milk with up to 30% goat's milk.",
+  "subs": [
+   [
+    "Feta",
+    "Salty, crumbly centerpiece",
+    "Halloumi, grilled",
+    "Salty and squeaky; serve warm"
+   ],
+   [
+    "Bresaola",
+    "Lean cured beef",
+    "Pastırma",
+    "Spiced cured beef; check for sugar"
+   ],
+   [
+    "Cherry tomatoes",
+    "Fresh color",
+    "Roasted red peppers",
+    "Similar carbs, softer"
+   ],
+   [
+    "Almonds",
+    "Crunch",
+    "Pistachios",
+    "More carbs, so use a smaller handful"
+   ],
+   [
+    "Kalamata olives",
+    "Salty, rich olives",
+    "Castelvetrano olives",
+    "Milder and buttery"
+   ]
+  ],
+  "elevations": [
+   [
+    "Baked Feta",
+    "Showpiece · +$0",
+    "Bake the dressed feta at 400°F for 12 minutes.",
+    "Warm, soft feta with oil is irresistible."
+   ],
+   [
+    "Tzatziki",
+    "Dip Upgrade · +$3",
+    "Mix full-fat Greek yogurt with grated cucumber, garlic and dill.",
+    "A classic dip; count its carbs from the yogurt label."
+   ],
+   [
+    "Marinated Olives",
+    "Flavor Upgrade · +$1",
+    "Warm olives with oil, orange zest and fennel seed.",
+    "Smells like a Greek taverna."
+   ],
+   [
+    "Grilled Halloumi",
+    "Warm Upgrade · +$6–8",
+    "Add slices of halloumi seared in a dry pan.",
+    "Warm, salty and very low in carbs."
+   ],
+   [
+    "Add Shrimp",
+    "Seafood Upgrade · +$8–10",
+    "Add cooked shrimp tossed in lemon and oregano.",
+    "Lean protein that suits the board."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Pita bread",
+    "portion": "1 large pita",
+    "net": 32.1,
+    "swap": "Cucumber spears and bell pepper strips for scooping.",
+    "ndb": "18041"
+   },
+   {
+    "name": "Hummus",
+    "portion": "¼ cup",
+    "net": 4.974,
+    "swap": "Whipped feta or olive tapenade as the dip.",
+    "ndb": "16158"
+   },
+   {
+    "name": "Medjool dates",
+    "portion": "1 date",
+    "net": 16.3848,
+    "swap": "A few blackberries or a square of 90% chocolate.",
+    "ndb": "09421"
+   }
+  ]
+ },
+ {
+  "num": "13",
+  "title": "Keto Spanish Tapas Board",
+  "section": "Flavors",
+  "badge": "TAPAS NIGHT",
+  "tagline": "Manchego, Chorizo and Marcona Almonds",
+  "serves": 8,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "25–30 min",
+   "Total cost": "$60–88",
+   "Cheese": "2 types · 24 oz",
+   "Meat": "2 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry fino sherry, a Spanish Rioja, or dry cava",
+  "per": {
+   "kcal": 750.56025,
+   "fat": 60.45004,
+   "protein": 44.13731500000001,
+   "carb": 7.3789575,
+   "fiber": 2.989375,
+   "net": 4.3895825
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Manchego",
+      "qty": "1 lb",
+      "net": 5.4,
+      "price": "$14–20"
+     },
+     {
+      "name": "Goat cheese (chèvre)",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$5–7"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Dry-cured chorizo",
+      "qty": "12 oz",
+      "net": 6.32772,
+      "price": "$8–12"
+     },
+     {
+      "name": "Prosciutto (or jamón serrano)",
+      "qty": "12 oz",
+      "net": 0.0,
+      "price": "$18–26"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Radishes",
+      "qty": "12 radishes",
+      "net": 0.9719999999999998,
+      "price": "$1–2"
+     },
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "8 oz",
+      "net": 1.2247200000000014,
+      "price": "$4–6"
+     },
+     {
+      "name": "Roasted red peppers",
+      "qty": "4 oz",
+      "net": 3.6288,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Marcona almonds",
+      "qty": "4 oz",
+      "net": 8.142120000000002,
+      "price": "$5–7"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Smoked paprika and olive oil",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     },
+     {
+      "name": "Fresh rosemary",
+      "qty": "a few sprigs",
+      "net": null,
+      "price": "$1–2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the manchego."
+   ],
+   [
+    "T–30 min",
+    "Take out the goat cheese; dust it with smoked paprika."
+   ],
+   [
+    "T–20 min",
+    "Take out the chorizo and jamón or prosciutto; slice the chorizo."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Drizzle olive oil over the manchego. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "FAN THE MANCHEGO",
+    [
+     [
+      "Manchego",
+      "Cut the wedge into thin triangles, rind on, and fan them across the board."
+     ],
+     [
+      "Oil",
+      "A light drizzle of olive oil."
+     ],
+     [
+      "Rind",
+      "Tell guests the rind isn't for eating."
+     ]
+    ],
+    "A big fan of manchego is the signature of a Spanish board; at 2 oz per guest it is also the main cheese."
+   ],
+   [
+    "ADD THE GOAT CHEESE",
+    [
+     [
+      "Goat cheese",
+      "Log in one corner, dusted with smoked paprika."
+     ],
+     [
+      "Knife",
+      "A small spreader."
+     ],
+     [
+      "Spacing",
+      "Away from the oily chorizo."
+     ]
+    ],
+    "Tangy, creamy goat cheese contrasts with the firm, nutty manchego."
+   ],
+   [
+    "ADD THE JAMÓN",
+    [
+     [
+      "Jamón serrano or prosciutto",
+      "Loose ribbons in a big pile."
+     ],
+     [
+      "Temperature",
+      "Serve it at room temperature so the fat softens."
+     ],
+     [
+      "Placement",
+      "Beside the manchego."
+     ]
+    ],
+    "Jamón with manchego is the classic Spanish pairing: salty, nutty and rich."
+   ],
+   [
+    "ADD THE CHORIZO",
+    [
+     [
+      "Chorizo",
+      "Slice on the diagonal; shingle in a curve."
+     ],
+     [
+      "Placement",
+      "Near the roasted peppers."
+     ],
+     [
+      "Oil",
+      "It releases a red oil, so keep it off the cheese."
+     ]
+    ],
+    "Smoky, paprika-spiced chorizo is the board's bold flavor."
+   ],
+   [
+    "ADD THE MARCONAS AND OLIVES",
+    [
+     [
+      "Marcona almonds",
+      "Pile in two spots."
+     ],
+     [
+      "Green olives",
+      "In a bowl."
+     ],
+     [
+      "Pits",
+      "A dish for pits."
+     ]
+    ],
+    "Salty fried Marcona almonds and olives are the classic tapas snacks."
+   ],
+   [
+    "ADD THE PEPPERS AND CRUNCH",
+    [
+     [
+      "Roasted red peppers",
+      "Strips draped near the chorizo."
+     ],
+     [
+      "Radishes",
+      "Halved, scattered."
+     ],
+     [
+      "Cucumber",
+      "Thin rounds in an arc."
+     ]
+    ],
+    "Sweet peppers, peppery radishes and cool cucumber cut through the rich meat and cheese."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Manchego",
+      "Room temperature tastes best."
+     ],
+     [
+      "Jamón",
+      "Separate the slices if they stick."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Cured meats and aged cheese taste better warmer, but the 2-hour limit still applies."
+   ]
+  ],
+  "did_you_know": "Manchego with a protected designation of origin must be made from the whole milk of Manchega sheep raised in La Mancha, Spain, and aged at least 60 days (30 for small wheels) and no more than two years.",
+  "subs": [
+   [
+    "Manchego",
+    "Firm, nutty sheep's cheese",
+    "Zamorano",
+    "Another Spanish sheep's cheese"
+   ],
+   [
+    "Jamón serrano",
+    "Silky cured ham",
+    "Prosciutto",
+    "Very similar; easier to find"
+   ],
+   [
+    "Chorizo",
+    "Smoky, spicy sausage",
+    "Spicy soppressata",
+    "Similar heat, no paprika"
+   ],
+   [
+    "Marcona almonds",
+    "Salty fried almonds",
+    "Regular roasted almonds",
+    "Slightly more carbs, same job"
+   ],
+   [
+    "Goat cheese",
+    "Tangy, creamy",
+    "Mahón or a soft cheese",
+    "Mild and creamy"
+   ]
+  ],
+  "elevations": [
+   [
+    "Gambas al Ajillo",
+    "Warm Upgrade · +$8–10",
+    "Sizzle shrimp in olive oil with garlic and chili; serve in the pan.",
+    "A classic tapa with almost no carbs."
+   ],
+   [
+    "Spanish Tortilla Squares",
+    "Prep Upgrade · +$2",
+    "Make a crustless egg and onion tortilla; cut into squares.",
+    "Traditional tortilla has potato; this keto version doesn't."
+   ],
+   [
+    "Manchego With Olive Oil",
+    "Flavor Upgrade · +$0",
+    "Drizzle manchego with oil and rosemary.",
+    "A simple Spanish tradition."
+   ],
+   [
+    "Add Boquerones",
+    "Seafood Upgrade · +$5–7",
+    "Add marinated white anchovies.",
+    "Tangy, briny and zero carbs."
+   ],
+   [
+    "Warm Chorizo",
+    "Warm Upgrade · +$0",
+    "Brown the chorizo slices in a pan for 2 minutes.",
+    "Warm chorizo is crispy and aromatic."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Baguette slices",
+    "portion": "1 oz (about 2 thin slices)",
+    "net": 14.084280000000001,
+    "swap": "Endive leaves or cucumber rounds as the carrier.",
+    "ndb": "18029"
+   },
+   {
+    "name": "Dried figs",
+    "portion": "3 figs",
+    "net": 13.625639999999999,
+    "swap": "Fresh berries, or skip the sweet note and let the Marcona almonds carry the board.",
+    "ndb": "09094"
+   },
+   {
+    "name": "Grapes",
+    "portion": "10 grapes",
+    "net": 8.428000000000003,
+    "swap": "Raspberries or blackberries: same pop of fruit, much more fiber.",
+    "ndb": "09132"
+   }
+  ]
+ },
+ {
+  "num": "14",
+  "title": "Keto Smokehouse BBQ Board",
+  "section": "Flavors",
+  "badge": "SMOKEHOUSE",
+  "tagline": "Smoked Meats, Smoked Cheese and Zero-Carb Crunch",
+  "serves": 8,
+  "use": "party food",
+  "stats": {
+   "Board size": "20\" board",
+   "Prep time": "35 min",
+   "Total cost": "$42–63",
+   "Cheese": "3 types · 24 oz",
+   "Meat": "3 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Light beer, bourbon on the rocks, or unsweetened iced tea",
+  "per": {
+   "kcal": 698.7351250000002,
+   "fat": 55.24646500000001,
+   "protein": 42.8285125,
+   "carb": 6.7473525,
+   "fiber": 1.43205,
+   "net": 5.3153025
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Smoked gouda",
+      "qty": "8 oz",
+      "net": 5.034960000000001,
+      "price": "$5–8"
+     },
+     {
+      "name": "Pepper jack",
+      "qty": "8 oz",
+      "net": 1.5422400000000003,
+      "price": "$4–6"
+     },
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "8 oz",
+      "net": 7.00812,
+      "price": "$5–8"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Bacon (cooked, about 15 slices)",
+      "qty": "6 oz",
+      "net": 2.8916999999999997,
+      "price": "$7–10"
+     },
+     {
+      "name": "Kielbasa",
+      "qty": "10 oz",
+      "net": 10.5462,
+      "price": "$4–6"
+     },
+     {
+      "name": "Smoked beef sausage",
+      "qty": "8 oz",
+      "net": 5.48856,
+      "price": "$5–7"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Pork rinds, plain",
+      "qty": "3 oz",
+      "net": 0.0,
+      "price": "$3–5"
+     },
+     {
+      "name": "Celery",
+      "qty": "6 stalks",
+      "net": 3.288000000000001,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "8 oz",
+      "net": 3.197880000000001,
+      "price": "$3–4"
+     },
+     {
+      "name": "Pickled jalapeños",
+      "qty": "4 oz",
+      "net": 2.4267600000000007,
+      "price": "$2–3"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "4 tbsp",
+      "net": 1.0980000000000003,
+      "price": "$2–3"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the cheeses. Bake the bacon (400°F, about 18 min)."
+   ],
+   [
+    "T–20 min",
+    "Slice and warm the kielbasa and smoked sausage in a skillet."
+   ],
+   [
+    "T–15 min",
+    "Cut the celery; fill the mustard and jalapeño bowls."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Add the warm sausages and pork rinds. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "MUSTARD AND PICKLES FIRST",
+    [
+     [
+      "Mustard",
+      "Two small bowls, one at each end."
+     ],
+     [
+      "Pickles",
+      "In a bowl or as spears."
+     ],
+     [
+      "Jalapeños",
+      "Small bowl near the pepper Jack."
+     ]
+    ],
+    "Mustard and vinegar are the barbecue sauce of a keto board: sharp, tangy and almost carb-free."
+   ],
+   [
+    "CUBE THE CHEESES",
+    [
+     [
+      "Smoked gouda",
+      "Cubes in one corner."
+     ],
+     [
+      "Pepper Jack",
+      "Cubes in another."
+     ],
+     [
+      "Cheddar",
+      "Chunks in a third."
+     ]
+    ],
+    "Three cheeses with smoke, heat and sharpness, cut to eat by hand."
+   ],
+   [
+    "ADD THE WARM SAUSAGES",
+    [
+     [
+      "Kielbasa",
+      "Sliced and browned; pile near the mustard."
+     ],
+     [
+      "Smoked beef sausage",
+      "Sliced; pile at the other end."
+     ],
+     [
+      "Picks",
+      "Toothpicks beside each pile."
+     ]
+    ],
+    "Warm sausage brings the smokehouse aroma; mustard next to each pile tells guests how to eat it."
+   ],
+   [
+    "ADD THE BACON",
+    [
+     [
+      "Bacon",
+      "Stand strips in a jar or stack them."
+     ],
+     [
+      "Placement",
+      "Center of the board."
+     ],
+     [
+      "Crispness",
+      "Crisp bacon keeps its shape."
+     ]
+    ],
+    "Bacon is the board's centerpiece and its crunchiest meat."
+   ],
+   [
+    "ADD THE PORK RINDS AND CELERY",
+    [
+     [
+      "Pork rinds",
+      "Pile in one corner just before serving."
+     ],
+     [
+      "Celery",
+      "Long sticks in a glass."
+     ],
+     [
+      "Job",
+      "These replace chips and bread."
+     ]
+    ],
+    "Pork rinds have zero carbs; celery adds cool crunch."
+   ],
+   [
+    "ADD THE HEAT",
+    [
+     [
+      "Jalapeños",
+      "Scatter a few over the cheese."
+     ],
+     [
+      "Pickle chips",
+      "Over the sausages."
+     ],
+     [
+      "Hot sauce",
+      "A bottle on the side."
+     ]
+    ],
+    "Vinegar and chile heat cut through smoked fat, which is why pickles always come with barbecue."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Sausages",
+      "Keep a second batch warm in the oven."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ],
+     [
+      "Labels",
+      "Kielbasa contains some sugar from its cure; it's counted here."
+     ]
+    ],
+    "This board's carbs mostly come from the kielbasa, so choose a brand with the least sugar on the label."
+   ]
+  ],
+  "did_you_know": "Kiełbasa is simply the Polish word for 'sausage'. In Poland it covers dozens of styles; in America 'kielbasa' usually means the smoked, garlicky horseshoe-shaped sausage on this board.",
+  "subs": [
+   [
+    "Kielbasa",
+    "Smoky, garlicky sausage",
+    "Andouille",
+    "Spicier; check the label for sugar"
+   ],
+   [
+    "Smoked beef sausage",
+    "Beefy smokiness",
+    "Beef summer sausage",
+    "Check for added sugar"
+   ],
+   [
+    "Smoked gouda",
+    "Smoky cheese",
+    "Smoked provolone",
+    "Same smoky note"
+   ],
+   [
+    "Pork rinds",
+    "Zero-carb chip",
+    "Bacon crisps",
+    "Crunchy, zero carbs"
+   ],
+   [
+    "Pickles",
+    "Tangy contrast",
+    "Pickled red onions",
+    "Tangy; slightly more carbs"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Smoked Brisket",
+    "Main-Event Upgrade · +$12–18",
+    "Add sliced smoked brisket from a barbecue joint (no sauce).",
+    "Turns the board into a barbecue platter."
+   ],
+   [
+    "Bacon-Wrapped Jalapeños",
+    "Crowd Upgrade · +$4",
+    "Stuff jalapeños with cream cheese, wrap in bacon and bake 20 minutes at 400°F.",
+    "Everyone's favorite keto appetizer."
+   ],
+   [
+    "Smoked Wings",
+    "Main-Event Upgrade · +$8–12",
+    "Add dry-rubbed smoked wings.",
+    "Dry rub, not sauce, keeps them low-carb."
+   ],
+   [
+    "Spicy Pork Rinds",
+    "Flavor Upgrade · +$0",
+    "Toss pork rinds with chili powder and salt.",
+    "Tastes like barbecue chips."
+   ],
+   [
+    "Sugar-Free Barbecue Sauce",
+    "Dip Upgrade · +$4–6",
+    "Add a small bowl of a sugar-free barbecue sauce.",
+    "For guests who want sauce; check the label for total carbs."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Barbecue sauce",
+    "portion": "1 tbsp",
+    "net": 6.777900000000001,
+    "swap": "Yellow or spicy brown mustard, or hot sauce.",
+    "ndb": "06150"
+   },
+   {
+    "name": "Cornbread",
+    "portion": "1 piece",
+    "net": 31.296000000000003,
+    "swap": "Pork rinds or extra cheese cubes.",
+    "ndb": "18023"
+   },
+   {
+    "name": "Baked beans",
+    "portion": "½ cup",
+    "net": 21.6408,
+    "swap": "A small bowl of pickled jalapeños for a side with punch.",
+    "ndb": "16006"
+   }
+  ]
+ },
+ {
+  "num": "15",
+  "title": "Keto Seafood & Smoked Fish Board",
+  "section": "Flavors",
+  "badge": "FROM THE SEA",
+  "tagline": "Smoked Salmon, Shrimp and Bright Lemon",
+  "serves": 6,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30 min",
+   "Total cost": "$42–66",
+   "Cheese": "3 types · 18 oz",
+   "Meat": "2 types · 18 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Dry white wine, dry sparkling wine or sparkling water with lemon",
+  "per": {
+   "kcal": 508.4975,
+   "fat": 34.869530000000005,
+   "protein": 38.43578000000001,
+   "carb": 11.449974999999997,
+   "fiber": 3.321066666666667,
+   "net": 8.12890833333333
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Cream cheese",
+      "qty": "6 oz",
+      "net": 9.38952,
+      "price": "$2–3"
+     },
+     {
+      "name": "Goat cheese (chèvre)",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$4–6"
+     },
+     {
+      "name": "Brie",
+      "qty": "6 oz",
+      "net": 0.76545,
+      "price": "$4–7"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Smoked salmon",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$9–14"
+     },
+     {
+      "name": "Shrimp (cooked, peeled)",
+      "qty": "10 oz",
+      "net": 4.309200000000001,
+      "price": "$8–12"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "2 cucumbers",
+      "net": 18.842599999999997,
+      "price": "$2–3"
+     },
+     {
+      "name": "Radishes",
+      "qty": "10 radishes",
+      "net": 0.81,
+      "price": "$1–2"
+     },
+     {
+      "name": "Belgian endive",
+      "qty": "2 heads",
+      "net": 0.9540000000000002,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Lemon (in wedges)",
+      "qty": "2 lemons",
+      "net": 7.563200000000002,
+      "price": "$1–2"
+     },
+     {
+      "name": "Avocados",
+      "qty": "1 avocado",
+      "net": 2.4887999999999995,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Capers",
+      "qty": "2 tbsp",
+      "net": 0.29067999999999994,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh dill",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$2–3"
+     },
+     {
+      "name": "Prepared horseradish (optional)",
+      "qty": "1 tbsp",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie, cream cheese and goat cheese."
+   ],
+   [
+    "T–20 min",
+    "Slice the cucumber; separate the endive; cut the lemons."
+   ],
+   [
+    "T–10 min",
+    "Build the board; keep the seafood in the fridge."
+   ],
+   [
+    "T–0",
+    "Add the shrimp and salmon on ice or last. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "SET UP THE COLD ZONE",
+    [
+     [
+      "Shrimp",
+      "In a bowl set inside a larger bowl of ice."
+     ],
+     [
+      "Lemon",
+      "Wedges around the shrimp."
+     ],
+     [
+      "Placement",
+      "One end of the board."
+     ]
+    ],
+    "Seafood needs to stay cold, so give it its own icy spot from the start."
+   ],
+   [
+    "ADD THE CREAM CHEESE AND CAPERS",
+    [
+     [
+      "Cream cheese",
+      "Spread in a shallow bowl."
+     ],
+     [
+      "Capers",
+      "Small dish beside it."
+     ],
+     [
+      "Dill",
+      "Chopped over the cream cheese."
+     ]
+    ],
+    "Cream cheese, capers and dill are the classic partners for smoked salmon."
+   ],
+   [
+    "ADD THE SMOKED SALMON",
+    [
+     [
+      "Smoked salmon",
+      "Loose ribbons near the cream cheese."
+     ],
+     [
+      "Lemon",
+      "A wedge on top."
+     ],
+     [
+      "Pepper",
+      "Black pepper over the salmon."
+     ]
+    ],
+    "Salty, rich salmon with tangy cheese and sour capers is a balanced bite."
+   ],
+   [
+    "ADD THE OTHER CHEESES",
+    [
+     [
+      "Brie",
+      "Wedge whole, away from the ice."
+     ],
+     [
+      "Goat cheese",
+      "Log beside the endive."
+     ],
+     [
+      "Knives",
+      "One per cheese."
+     ]
+    ],
+    "Mild, creamy cheeses suit delicate seafood better than sharp or smoky ones."
+   ],
+   [
+    "ADD THE CARRIERS",
+    [
+     [
+      "Endive leaves",
+      "Fanned, cup side up."
+     ],
+     [
+      "Cucumber rounds",
+      "In a long row."
+     ],
+     [
+      "Radishes",
+      "Halved, scattered."
+     ]
+    ],
+    "Endive and cucumber are the crackers; their crispness suits soft salmon and cheese."
+   ],
+   [
+    "ADD THE EGGS AND AVOCADO",
+    [
+     [
+      "Eggs",
+      "Halved, yolk-up."
+     ],
+     [
+      "Avocado",
+      "Sliced, with lemon squeezed over."
+     ],
+     [
+      "Salt",
+      "Flaky salt over both."
+     ]
+    ],
+    "Eggs and avocado add richness and protein without adding carbs."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Seafood",
+      "On ice or back in the fridge after 2 hours."
+     ],
+     [
+      "Lemons",
+      "Plenty of wedges."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Shellfish and smoked fish are the most perishable foods in this book, so they get the strictest timing."
+   ]
+  ],
+  "did_you_know": "Capers are the unopened flower buds of the caper bush. After picking, they are preserved in salt or in a salt-and-vinegar brine, which is where their sharp, tangy flavor comes from.",
+  "subs": [
+   [
+    "Shrimp",
+    "Lean, sweet seafood",
+    "Crab claws",
+    "Sweet and lean"
+   ],
+   [
+    "Smoked salmon",
+    "Rich and salty",
+    "Smoked trout",
+    "Flakier, similar flavor"
+   ],
+   [
+    "Brie",
+    "Mild, creamy cheese",
+    "Havarti",
+    "Mild and creamy"
+   ],
+   [
+    "Endive",
+    "Crisp carrier",
+    "Celery sticks",
+    "Crunchy and nearly carb-free"
+   ],
+   [
+    "Capers",
+    "Sour, salty pop",
+    "Chopped cornichons",
+    "Same tangy job"
+   ]
+  ],
+  "elevations": [
+   [
+    "Horseradish Cream",
+    "Dip Upgrade · +$1",
+    "Mix 1 tbsp horseradish into ½ cup sour cream.",
+    "A low-carb alternative to cocktail sauce."
+   ],
+   [
+    "Add Crab",
+    "Luxury Upgrade · +$15–20",
+    "Add cooked crab claws on the ice.",
+    "A special-occasion seafood board."
+   ],
+   [
+    "Salmon Cucumber Bites",
+    "Prep Upgrade · +$0",
+    "Top cucumber rounds with cream cheese, salmon and a caper.",
+    "Ready-made bites go first."
+   ],
+   [
+    "Add Oysters",
+    "Luxury Upgrade · +$15–25",
+    "Add freshly shucked oysters on ice with lemon.",
+    "A raw bar showpiece; buy from a trusted source."
+   ],
+   [
+    "Deviled Eggs With Salmon",
+    "Prep Upgrade · +$0",
+    "Top deviled eggs with a curl of smoked salmon.",
+    "Two classics in one bite."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Cocktail sauce",
+    "portion": "¼ cup",
+    "net": 15.851999999999999,
+    "swap": "Lemon wedges, horseradish mixed into sour cream, or a squeeze of hot sauce.",
+    "ndb": "27051"
+   },
+   {
+    "name": "Water crackers",
+    "portion": "4 crackers",
+    "net": 9.1994,
+    "swap": "Parmesan crisps, which crunch like a cracker and add protein instead of starch.",
+    "ndb": "28327"
+   },
+   {
+    "name": "Honey mustard dressing",
+    "portion": "2 tbsp",
+    "net": 6.879,
+    "swap": "Dijon or whole-grain mustard with no added sugar.",
+    "ndb": "04703"
+   }
+  ]
+ },
+ {
+  "num": "16",
+  "title": "Keto Wine Night Board",
+  "section": "Flavors",
+  "badge": "WINE & CHEESE",
+  "tagline": "Three Cheeses, Three Cured Meats, One Good Bottle",
+  "serves": 6,
+  "use": "party food",
+  "stats": {
+   "Board size": "16–18\" board",
+   "Prep time": "25 min",
+   "Total cost": "$50–75",
+   "Cheese": "3 types · 18 oz",
+   "Meat": "3 types · 18 oz",
+   "Level": "Intermediate"
+  },
+  "pairs_with": "Dry red or dry white; USDA lists about 4 g carbs per 5 fl oz glass",
+  "per": {
+   "kcal": 726.1374761904763,
+   "fat": 54.9515688095238,
+   "protein": 49.42058666666667,
+   "carb": 9.925265238095237,
+   "fiber": 4.5580154761904765,
+   "net": 5.367249761904762
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Brie",
+      "qty": "6 oz",
+      "net": 0.76545,
+      "price": "$4–7"
+     },
+     {
+      "name": "Aged gouda",
+      "qty": "6 oz",
+      "net": 3.7762200000000004,
+      "price": "$5–8"
+     },
+     {
+      "name": "Blue cheese",
+      "qty": "6 oz",
+      "net": 3.9803399999999995,
+      "price": "$5–7"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$9–13"
+     },
+     {
+      "name": "Soppressata",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$5–7"
+     },
+     {
+      "name": "Bresaola (air-dried beef)",
+      "qty": "6 oz",
+      "net": 3.0375,
+      "price": "$8–11"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Belgian endive",
+      "qty": "2 heads",
+      "net": 0.9540000000000002,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Kalamata olives",
+      "qty": "3 oz",
+      "net": 3.06967857142857,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Walnuts",
+      "qty": "3 oz",
+      "net": 5.965510000000001,
+      "price": "$2–3"
+     },
+     {
+      "name": "Blackberries",
+      "qty": "¾ cup",
+      "net": 4.654799999999998,
+      "price": "$2–4"
+     }
+    ]
+   },
+   {
+    "name": "Sweet finish",
+    "items": [
+     {
+      "name": "90% dark chocolate",
+      "qty": "1½ oz",
+      "net": 6.0,
+      "price": "$4–5"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh thyme",
+      "qty": "a few sprigs",
+      "net": null,
+      "price": "$1–2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–60 min",
+    "Take out the aged gouda and blue."
+   ],
+   [
+    "T–30 min",
+    "Take out the brie. Separate the endive leaves."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats. Open the red wine."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Pour and serve."
+   ]
+  ],
+  "steps": [
+   [
+    "SPACE THE THREE CHEESES",
+    [
+     [
+      "Brie",
+      "One corner, wedge whole."
+     ],
+     [
+      "Aged gouda",
+      "Center, broken into chunks."
+     ],
+     [
+      "Blue",
+      "Opposite corner from the brie."
+     ]
+    ],
+    "Mild, nutty and bold, placed far apart, so guests taste them in order from mild to strong."
+   ],
+   [
+    "ADD THE THREE MEATS",
+    [
+     [
+      "Prosciutto",
+      "Ribbons beside the brie."
+     ],
+     [
+      "Bresaola",
+      "Fanned beside the gouda."
+     ],
+     [
+      "Soppressata",
+      "Folded beside the blue."
+     ]
+    ],
+    "Each meat matches the cheese's intensity: delicate with mild, lean with nutty, peppery with bold."
+   ],
+   [
+    "ADD THE ENDIVE",
+    [
+     [
+      "Endive",
+      "Fan leaves between the cheeses."
+     ],
+     [
+      "Job",
+      "They're the crackers."
+     ],
+     [
+      "Bitterness",
+      "A slight bitterness suits red wine."
+     ]
+    ],
+    "Endive's crisp, slightly bitter leaves reset the palate between rich bites."
+   ],
+   [
+    "ADD THE WALNUTS",
+    [
+     [
+      "Walnuts",
+      "Pile beside the blue cheese."
+     ],
+     [
+      "Toasting",
+      "Toast for 4 minutes for more flavor."
+     ],
+     [
+      "Pairing",
+      "Walnuts with blue is classic."
+     ]
+    ],
+    "Walnuts' slightly bitter crunch balances salty blue cheese."
+   ],
+   [
+    "ADD THE BLACKBERRIES AND OLIVES",
+    [
+     [
+      "Blackberries",
+      "Clusters near the brie and blue."
+     ],
+     [
+      "Kalamata olives",
+      "Small pile by the bresaola."
+     ],
+     [
+      "Thyme",
+      "Sprigs at the edges."
+     ]
+    ],
+    "Dark berries echo the fruit in red wine; olives add salt and fat."
+   ],
+   [
+    "ADD THE CHOCOLATE",
+    [
+     [
+      "90% chocolate",
+      "Break into squares near the blue."
+     ],
+     [
+      "Pairing",
+      "Try a square with a sip of red."
+     ],
+     [
+      "Amount",
+      "1½ oz for 6."
+     ]
+    ],
+    "Very dark chocolate and dry red wine share bitter, roasted notes."
+   ],
+   [
+    "TASTE IN ORDER",
+    [
+     [
+      "Order",
+      "Brie, then gouda, then blue."
+     ],
+     [
+      "Wine",
+      "Taste the wine after each."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Going from mild to strong keeps the blue from overwhelming the brie."
+   ]
+  ],
+  "did_you_know": "Dry wine is lower in carbs than many people expect. USDA lists about 4 g of carbohydrate in a 5 fl oz glass of dry red or white table wine, compared with about 14 g in a 3.5 fl oz glass of sweet dessert wine.",
+  "subs": [
+   [
+    "Blue cheese",
+    "Bold finish",
+    "Aged cheddar",
+    "Sharp, if guests don't like blue"
+   ],
+   [
+    "Bresaola",
+    "Lean cured beef",
+    "Coppa",
+    "Richer, more marbled"
+   ],
+   [
+    "Walnuts",
+    "Bitter crunch",
+    "Pecans",
+    "Sweeter, also low in carbs"
+   ],
+   [
+    "Endive",
+    "Crisp carrier",
+    "Cucumber rounds",
+    "Neutral and crisp"
+   ],
+   [
+    "Brie",
+    "Mild, creamy start",
+    "Camembert",
+    "Slightly earthier"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add a Fourth Cheese",
+    "Tasting Upgrade · +$6–10",
+    "Add an aged sheep's cheese like manchego.",
+    "Expands the tasting flight."
+   ],
+   [
+    "Cheese Labels",
+    "Look Upgrade · +$0",
+    "Write each cheese's name on a small card.",
+    "Helps guests compare and remember."
+   ],
+   [
+    "Warm Olives",
+    "Flavor Upgrade · +$0",
+    "Warm the olives in olive oil with orange zest.",
+    "Warm olives smell wonderful with red wine."
+   ],
+   [
+    "Truffle Brie",
+    "Luxury Upgrade · +$12–18",
+    "Swap the brie for a truffle brie.",
+    "A luxurious, earthy cheese."
+   ],
+   [
+    "Wine Flight",
+    "Tasting Upgrade · +varies",
+    "Open one dry white and one dry red.",
+    "Guests can try each cheese with both."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Sweet dessert wine",
+    "portion": "3.5 fl oz glass",
+    "net": 14.1007,
+    "swap": "A dry red or dry white: USDA lists about 4 g carbs in a 5 fl oz glass.",
+    "ndb": "14057"
+   },
+   {
+    "name": "Grapes",
+    "portion": "10 grapes",
+    "net": 8.428000000000003,
+    "swap": "Raspberries or blackberries: same pop of fruit, much more fiber.",
+    "ndb": "09132"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   }
+  ]
+ },
+ {
+  "num": "17",
+  "title": "Carnivore-Leaning Board",
+  "section": "Diet variations",
+  "badge": "MEAT & CHEESE",
+  "tagline": "Animal-Based, Almost No Plants",
+  "serves": 6,
+  "use": "dinner",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "25 min",
+   "Total cost": "$53–79",
+   "Cheese": "3 types · 24 oz",
+   "Meat": "4 types · 24 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Sparkling water or a dry red",
+  "per": {
+   "kcal": 977.3824523809523,
+   "fat": 69.43239452380952,
+   "protein": 80.84806,
+   "carb": 4.177210476190476,
+   "fiber": 0.0,
+   "net": 4.177210476190476
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Aged sharp cheddar",
+      "qty": "8 oz",
+      "net": 7.00812,
+      "price": "$5–8"
+     },
+     {
+      "name": "Gruyère",
+      "qty": "8 oz",
+      "net": 0.81648,
+      "price": "$8–12"
+     },
+     {
+      "name": "Parmesan (in chunks)",
+      "qty": "8 oz",
+      "net": 7.302960000000001,
+      "price": "$8–12"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Prosciutto",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$9–13"
+     },
+     {
+      "name": "Hard salami",
+      "qty": "8 oz",
+      "net": 1.63296,
+      "price": "$5–7"
+     },
+     {
+      "name": "Bresaola (air-dried beef)",
+      "qty": "5 oz",
+      "net": 2.5321428571428575,
+      "price": "$7–10"
+     },
+     {
+      "name": "Bacon (cooked, about 12 slices)",
+      "qty": "5 oz",
+      "net": 2.4106,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Pork rinds, plain",
+      "qty": "3 oz",
+      "net": 0.0,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Flaky salt",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs."
+   ],
+   [
+    "T–60 min",
+    "Take out the three cheeses. Bake the bacon (400°F, about 18 min)."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats."
+   ],
+   [
+    "T–10 min",
+    "Build the board."
+   ],
+   [
+    "T–0",
+    "Add pork rinds. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "BREAK THE HARD CHEESES",
+    [
+     [
+      "Parmesan",
+      "Rough chunks in one corner."
+     ],
+     [
+      "Aged cheddar",
+      "Chunks in another."
+     ],
+     [
+      "Gruyère",
+      "Thin slices fanned along an edge."
+     ]
+    ],
+    "Three hard, aged cheeses with almost no lactose and lots of protein: the backbone of this board."
+   ],
+   [
+    "ADD THE CURED MEATS",
+    [
+     [
+      "Prosciutto",
+      "Ribbons beside the Gruyère."
+     ],
+     [
+      "Hard salami",
+      "Folded near the cheddar."
+     ],
+     [
+      "Bresaola",
+      "Fanned near the parmesan."
+     ]
+    ],
+    "Fatty, salty and lean cured meats give three different textures."
+   ],
+   [
+    "ADD THE BACON",
+    [
+     [
+      "Bacon",
+      "Stacked or standing in a jar in the center."
+     ],
+     [
+      "Crispness",
+      "Crisp is best."
+     ],
+     [
+      "Salt",
+      "A pinch of flaky salt."
+     ]
+    ],
+    "Warm bacon is the centerpiece and adds crunch."
+   ],
+   [
+    "ADD THE EGGS",
+    [
+     [
+      "Eggs",
+      "Halved, yolk-up, between the meats."
+     ],
+     [
+      "Salt",
+      "Flaky salt on the yolks."
+     ],
+     [
+      "Option",
+      "Make them deviled."
+     ]
+    ],
+    "Eggs add protein and richness at almost no carbs."
+   ],
+   [
+    "ADD THE PORK RINDS",
+    [
+     [
+      "Pork rinds",
+      "Pile high in one corner."
+     ],
+     [
+      "Job",
+      "Scoops and crunch."
+     ],
+     [
+      "Timing",
+      "Add last so they stay crisp."
+     ]
+    ],
+    "Pork rinds are the only 'cracker' this board needs, at zero carbs."
+   ],
+   [
+    "BALANCE THE SALT",
+    [
+     [
+      "Water",
+      "Serve plenty of water or sparkling water."
+     ],
+     [
+      "Mustard (optional)",
+      "A small bowl of mustard if guests want sharpness."
+     ],
+     [
+      "Pickles (optional)",
+      "Dill pickles for acid."
+     ]
+    ],
+    "An all-meat-and-cheese board is very salty; drinks and a little acid help."
+   ],
+   [
+    "SERVE IT AS DINNER",
+    [
+     [
+      "Portion",
+      "Built for 6 as dinner."
+     ],
+     [
+      "Lighter option",
+      "Halve every amount for a snack."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "Each dinner serving has about 81 g of protein and 4 g of net carbs, the most protein of any board in this book."
+   ]
+  ],
+  "did_you_know": "Bresaola comes from the Valtellina valley in the Alps of Lombardy, Italy. It is beef that is salted and air-dried for two to three months, until it turns firm and dark red, almost purple.",
+  "subs": [
+   [
+    "Gruyère",
+    "Nutty, firm cheese",
+    "Comté",
+    "Very similar"
+   ],
+   [
+    "Bresaola",
+    "Lean cured beef",
+    "Thin-sliced roast beef",
+    "Lean, easy to find"
+   ],
+   [
+    "Hard salami",
+    "Fatty cured sausage",
+    "Pepperoni",
+    "Spicier, more fat"
+   ],
+   [
+    "Pork rinds",
+    "Zero-carb crunch",
+    "Parmesan crisps",
+    "More cheese, very low carb"
+   ],
+   [
+    "Bacon",
+    "Smoky crunch",
+    "Crispy prosciutto",
+    "Bake prosciutto 8 min at 400°F"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Steak Bites",
+    "Main-Event Upgrade · +$12–18",
+    "Sear cubes of ribeye and add them warm.",
+    "Turns the board into a feast."
+   ],
+   [
+    "Bone Marrow",
+    "Showpiece · +$8–12",
+    "Roast marrow bones at 450°F for 15 minutes.",
+    "A rich, dramatic carnivore classic."
+   ],
+   [
+    "Crispy Prosciutto",
+    "Texture Upgrade · +$0",
+    "Bake prosciutto slices until crisp.",
+    "Salty shards like chips."
+   ],
+   [
+    "Add Pâté",
+    "Luxury Upgrade · +$6–9",
+    "Add a small crock of liver pâté.",
+    "Rich and nutrient-dense; check the label for carbs."
+   ],
+   [
+    "Aged Parmesan",
+    "Flavor Upgrade · +$4–8",
+    "Use a 24-month Parmigiano Reggiano.",
+    "More crystals, deeper flavor."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Barbecue sauce",
+    "portion": "1 tbsp",
+    "net": 6.777900000000001,
+    "swap": "Yellow or spicy brown mustard, or hot sauce.",
+    "ndb": "06150"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   },
+   {
+    "name": "Pretzels",
+    "portion": "1 oz",
+    "net": 21.826665,
+    "swap": "Pork rinds: same salty crunch, zero carbs per USDA.",
+    "ndb": "19047"
+   }
+  ]
+ },
+ {
+  "num": "18",
+  "title": "Dairy-Free Keto Board",
+  "section": "Diet variations",
+  "badge": "NO DAIRY",
+  "tagline": "All the Richness, None of the Cheese",
+  "serves": 6,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30 min",
+   "Total cost": "$51–78",
+   "Cheese": "None (dairy-free)",
+   "Meat": "3 types · 18 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Sparkling water with lime or a dry white",
+  "per": {
+   "kcal": 724.2488333333332,
+   "fat": 58.22905333333333,
+   "protein": 37.112191666666675,
+   "carb": 15.57980333333333,
+   "fiber": 7.818066666666667,
+   "net": 7.761736666666664
+  },
+  "shopping": [
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Hard salami",
+      "qty": "6 oz",
+      "net": 1.22472,
+      "price": "$4–6"
+     },
+     {
+      "name": "Prosciutto",
+      "qty": "6 oz",
+      "net": 0.0,
+      "price": "$9–13"
+     },
+     {
+      "name": "Dry-cured chorizo",
+      "qty": "6 oz",
+      "net": 3.16386,
+      "price": "$4–6"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "2 cucumbers",
+      "net": 18.842599999999997,
+      "price": "$2–3"
+     },
+     {
+      "name": "Celery",
+      "qty": "4 stalks",
+      "net": 2.1920000000000006,
+      "price": "$2–2.50"
+     },
+     {
+      "name": "Radishes",
+      "qty": "10 radishes",
+      "net": 0.81,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Smoked salmon",
+      "qty": "8 oz",
+      "net": 0.0,
+      "price": "$9–14"
+     },
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Avocados",
+      "qty": "2 avocados",
+      "net": 4.977599999999999,
+      "price": "$2–4"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Green olives",
+      "qty": "6 oz",
+      "net": 0.918540000000001,
+      "price": "$3–5"
+     },
+     {
+      "name": "Kalamata olives",
+      "qty": "4 oz",
+      "net": 4.090499999999999,
+      "price": "$3–4"
+     },
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "5 oz",
+      "net": 1.9993800000000004,
+      "price": "$2–3"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "2 tbsp",
+      "net": 0.5490000000000002,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Macadamia nuts",
+      "qty": "3 oz",
+      "net": 4.44222,
+      "price": "$6–9"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh dill or parsley",
+      "qty": "small bunch",
+      "net": null,
+      "price": "$1–2"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs."
+   ],
+   [
+    "T–20 min",
+    "Take out the meats."
+   ],
+   [
+    "T–15 min",
+    "Slice the vegetables and avocado (lemon or lime over it)."
+   ],
+   [
+    "T–10 min",
+    "Build the board; keep the salmon in the fridge."
+   ],
+   [
+    "T–0",
+    "Add the salmon. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "CHECK THE LABELS",
+    [
+     [
+      "Salami and chorizo",
+      "Read the allergen line: some contain milk powder or lactose."
+     ],
+     [
+      "Mustard",
+      "Usually dairy-free; check."
+     ],
+     [
+      "Pesto",
+      "Leave it off: most contain cheese."
+     ]
+    ],
+    "Dairy hides in some cured meats and sauces, so a dairy-free board starts at the store."
+   ],
+   [
+    "AVOCADO IN THE MIDDLE",
+    [
+     [
+      "Avocado",
+      "Halves or slices in the center, with lime."
+     ],
+     [
+      "Salt",
+      "Flaky salt and pepper."
+     ],
+     [
+      "Job",
+      "It's the creamy element that cheese usually is."
+     ]
+    ],
+    "Avocado takes the place of soft cheese: creamy, rich and mostly fat and fiber."
+   ],
+   [
+    "ADD THE SALMON AND EGGS",
+    [
+     [
+      "Smoked salmon",
+      "Ribbons near the avocado."
+     ],
+     [
+      "Eggs",
+      "Halved, yolk-up."
+     ],
+     [
+      "Dill",
+      "Over the salmon and eggs."
+     ]
+    ],
+    "Salmon and eggs replace the cheese's protein and fat."
+   ],
+   [
+    "ADD THE THREE MEATS",
+    [
+     [
+      "Prosciutto",
+      "Ribbons."
+     ],
+     [
+      "Hard salami",
+      "Folded."
+     ],
+     [
+      "Chorizo",
+      "Sliced on the diagonal."
+     ]
+    ],
+    "Three cured meats with different flavors: silky, savory and smoky-spicy."
+   ],
+   [
+    "ADD THE OLIVES AND NUTS",
+    [
+     [
+      "Green and kalamata olives",
+      "Two small bowls."
+     ],
+     [
+      "Macadamias",
+      "Piled in the gaps."
+     ],
+     [
+      "Pits",
+      "A small dish."
+     ]
+    ],
+    "Olives and macadamias are rich in fat, so the board stays satisfying without cheese."
+   ],
+   [
+    "ADD THE VEGETABLES",
+    [
+     [
+      "Cucumber",
+      "Rounds and spears."
+     ],
+     [
+      "Celery",
+      "Sticks."
+     ],
+     [
+      "Radishes and pickles",
+      "Halved radishes; pickle spears."
+     ]
+    ],
+    "Lots of crunchy vegetables make a cheese-free board feel full and fresh."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Mustard",
+      "A bowl for dipping."
+     ],
+     [
+      "Salmon",
+      "Back in the fridge after 2 hours."
+     ],
+     [
+      "Allergens",
+      "Tell guests the board is dairy-free."
+     ]
+    ],
+    "Guests avoiding dairy will want to know it's safe to eat everything."
+   ]
+  ],
+  "did_you_know": "Some cured meats contain milk ingredients such as nonfat dry milk or lactose, used as binders or to help the cure. US law requires milk to be named as an allergen on the label, so check the 'Contains' line on every package.",
+  "subs": [
+   [
+    "Smoked salmon",
+    "Rich protein",
+    "Canned sardines in olive oil",
+    "Rich, cheap, no dairy"
+   ],
+   [
+    "Macadamias",
+    "Buttery fat",
+    "Pecans",
+    "Also very low in net carbs"
+   ],
+   [
+    "Avocado",
+    "Creamy element",
+    "Olive tapenade",
+    "Rich and salty; check the label"
+   ],
+   [
+    "Chorizo",
+    "Smoky spice",
+    "Pepperoni",
+    "Check the label for milk"
+   ],
+   [
+    "Eggs",
+    "Protein",
+    "Cooked shrimp",
+    "Lean and dairy-free"
+   ]
+  ],
+  "elevations": [
+   [
+    "Guacamole",
+    "Dip Upgrade · +$2",
+    "Mash the avocado with lime, salt and cilantro.",
+    "A dairy-free dip everyone likes."
+   ],
+   [
+    "Dairy-Free Cashew Cheese",
+    "Swap Upgrade · +$8–10",
+    "Add a store-bought cashew cheese.",
+    "Cheese-like, but cashews are higher in carbs; check the label."
+   ],
+   [
+    "Marinated Mushrooms",
+    "Veggie Upgrade · +$3",
+    "Add mushrooms marinated in oil, vinegar and herbs.",
+    "Savory and low in carbs."
+   ],
+   [
+    "Add Deviled Eggs",
+    "Prep Upgrade · +$0",
+    "Make deviled eggs with mayonnaise and mustard.",
+    "Creamy, dairy-free bites."
+   ],
+   [
+    "Coconut Chips",
+    "Crunch Upgrade · +$3",
+    "Add toasted unsweetened coconut chips.",
+    "Sweet-tasting crunch with no added sugar."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Hummus",
+    "portion": "¼ cup",
+    "net": 4.974,
+    "swap": "Whipped feta or olive tapenade as the dip.",
+    "ndb": "16158"
+   },
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   },
+   {
+    "name": "Medjool dates",
+    "portion": "1 date",
+    "net": 16.3848,
+    "swap": "A few blackberries or a square of 90% chocolate.",
+    "ndb": "09421"
+   }
+  ]
+ },
+ {
+  "num": "19",
+  "title": "High-Protein, Lower-Fat Board",
+  "section": "Diet variations",
+  "badge": "PROTEIN FIRST",
+  "tagline": "Lean Meats, Seafood and Hard Cheeses",
+  "serves": 6,
+  "use": "party food",
+  "stats": {
+   "Board size": "18–20\" board",
+   "Prep time": "30 min",
+   "Total cost": "$41–62",
+   "Cheese": "3 types · 18 oz",
+   "Meat": "3 types · 18 oz",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Sparkling water or unsweetened iced tea",
+  "per": {
+   "kcal": 516.4815,
+   "fat": 28.73101,
+   "protein": 54.102713333333334,
+   "carb": 9.500595,
+   "fiber": 1.5311666666666668,
+   "net": 7.969428333333333
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Swiss",
+      "qty": "6 oz",
+      "net": 2.44944,
+      "price": "$4–6"
+     },
+     {
+      "name": "Parmesan (in chunks)",
+      "qty": "6 oz",
+      "net": 5.47722,
+      "price": "$6–9"
+     },
+     {
+      "name": "Mozzarella (part-skim)",
+      "qty": "6 oz",
+      "net": 4.71177,
+      "price": "$3–5"
+     }
+    ]
+   },
+   {
+    "name": "Meats",
+    "items": [
+     {
+      "name": "Bresaola (air-dried beef)",
+      "qty": "6 oz",
+      "net": 3.0375,
+      "price": "$8–11"
+     },
+     {
+      "name": "Smoked turkey breast (smoked turkey)",
+      "qty": "6 oz",
+      "net": 3.9803399999999995,
+      "price": "$3–5"
+     },
+     {
+      "name": "Shrimp (cooked, peeled)",
+      "qty": "6 oz",
+      "net": 2.5855200000000003,
+      "price": "$5–8"
+     }
+    ]
+   },
+   {
+    "name": "Low-carb dippers",
+    "items": [
+     {
+      "name": "Cucumbers",
+      "qty": "1 cucumber",
+      "net": 9.421299999999999,
+      "price": "$1–1.50"
+     }
+    ]
+   },
+   {
+    "name": "Protein extras",
+    "items": [
+     {
+      "name": "Eggs (hard-boiled)",
+      "qty": "6 eggs",
+      "net": 3.3600000000000008,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Vegetables",
+    "items": [
+     {
+      "name": "Sugar snap peas",
+      "qty": "2 cups",
+      "net": 6.237,
+      "price": "$3–4"
+     },
+     {
+      "name": "Cherry tomatoes",
+      "qty": "1 cup",
+      "net": 4.008100000000001,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Briny & condiments",
+    "items": [
+     {
+      "name": "Dill pickles or cornichons",
+      "qty": "5 oz",
+      "net": 1.9993800000000004,
+      "price": "$2–3"
+     },
+     {
+      "name": "Whole-grain mustard",
+      "qty": "2 tbsp",
+      "net": 0.5490000000000002,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Lemon and black pepper for the shrimp",
+      "qty": "pinch",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "Day before",
+    "Hard-boil the eggs."
+   ],
+   [
+    "T–45 min",
+    "Take out the Swiss and parmesan."
+   ],
+   [
+    "T–20 min",
+    "Take out the turkey and bresaola; roll the turkey."
+   ],
+   [
+    "T–10 min",
+    "Build the board; keep the shrimp cold."
+   ],
+   [
+    "T–0",
+    "Add the shrimp. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "MUSTARD AND PICKLES FIRST",
+    [
+     [
+      "Mustard",
+      "Two small bowls."
+     ],
+     [
+      "Pickles",
+      "Spears in a bowl."
+     ],
+     [
+      "Lemon",
+      "Wedges near the shrimp spot."
+     ]
+    ],
+    "Sharp, sour condiments add flavor to lean foods without adding fat or carbs."
+   ],
+   [
+    "ADD THE LEAN CHEESES",
+    [
+     [
+      "Part-skim mozzarella",
+      "Sticks or cubes."
+     ],
+     [
+      "Swiss",
+      "Thin slices."
+     ],
+     [
+      "Parmesan",
+      "Small chunks."
+     ]
+    ],
+    "These cheeses have more protein and less fat than soft, creamy ones."
+   ],
+   [
+    "ADD THE LEAN MEATS",
+    [
+     [
+      "Bresaola",
+      "Fanned."
+     ],
+     [
+      "Smoked turkey",
+      "Rolled into cigars."
+     ],
+     [
+      "Placement",
+      "Between the cheeses."
+     ]
+    ],
+    "Bresaola and turkey are two of the leanest cured meats."
+   ],
+   [
+    "ADD THE SHRIMP",
+    [
+     [
+      "Shrimp",
+      "In a bowl over ice."
+     ],
+     [
+      "Lemon",
+      "Squeezed over."
+     ],
+     [
+      "Pepper",
+      "Black pepper on top."
+     ]
+    ],
+    "Shrimp is almost pure protein."
+   ],
+   [
+    "ADD THE EGGS",
+    [
+     [
+      "Eggs",
+      "Halved."
+     ],
+     [
+      "Salt",
+      "Salt and paprika."
+     ],
+     [
+      "Placement",
+      "Near the turkey."
+     ]
+    ],
+    "Eggs round out the protein with a little fat."
+   ],
+   [
+    "ADD THE VEGETABLES",
+    [
+     [
+      "Snap peas",
+      "In a pile."
+     ],
+     [
+      "Cucumber",
+      "Spears."
+     ],
+     [
+      "Cherry tomatoes",
+      "Halved."
+     ]
+    ],
+    "Crunchy vegetables add fiber and volume; snap peas and tomatoes are counted in the carbs."
+   ],
+   [
+    "FINAL CHECK",
+    [
+     [
+      "Shrimp",
+      "On ice; 2 hours out max."
+     ],
+     [
+      "Balance",
+      "This board has the lowest fat in the book."
+     ],
+     [
+      "Clock",
+      "Two hours out."
+     ]
+    ],
+    "About 42% of this board's calories come from protein, the highest share of any board in the book."
+   ]
+  ],
+  "did_you_know": "Of the cheeses in this book, hard parmesan has the most protein: USDA lists about 36 g per 100 g, or roughly 10 g per ounce. Baked into crisps, the water is gone and the protein is even more concentrated.",
+  "subs": [
+   [
+    "Bresaola",
+    "Lean cured beef",
+    "Lean roast beef",
+    "Easy to find, lean"
+   ],
+   [
+    "Shrimp",
+    "Lean seafood",
+    "Grilled chicken strips",
+    "Lean and filling"
+   ],
+   [
+    "Part-skim mozzarella",
+    "Lean cheese",
+    "String cheese",
+    "Same cheese, easy to portion"
+   ],
+   [
+    "Snap peas",
+    "Sweet crunch",
+    "Celery",
+    "Fewer carbs"
+   ],
+   [
+    "Swiss",
+    "Mild slicing cheese",
+    "Low-fat Swiss",
+    "Even leaner"
+   ]
+  ],
+  "elevations": [
+   [
+    "Add Grilled Chicken",
+    "Protein Upgrade · +$5–7",
+    "Slice a grilled chicken breast and fan it.",
+    "More lean protein for a meal."
+   ],
+   [
+    "Tuna Salad Cups",
+    "Prep Upgrade · +$2",
+    "Fill endive or cucumber cups with tuna salad.",
+    "Protein-packed bites."
+   ],
+   [
+    "Cottage Cheese Dip",
+    "Dip Upgrade · +$2",
+    "Blend cottage cheese with herbs and lemon.",
+    "High-protein, creamy dip; count its carbs."
+   ],
+   [
+    "Add Smoked Salmon",
+    "Seafood Upgrade · +$8–10",
+    "Add smoked salmon ribbons.",
+    "Protein plus omega-3 fats."
+   ],
+   [
+    "Egg White Bites",
+    "Prep Upgrade · +$3",
+    "Bake egg whites with spinach in a muffin tin.",
+    "Lean, warm bites."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Snack crackers",
+    "portion": "5 crackers",
+    "net": 9.44,
+    "swap": "Cucumber rounds, parmesan crisps or pork rinds.",
+    "ndb": "18229"
+   },
+   {
+    "name": "Hummus",
+    "portion": "¼ cup",
+    "net": 4.974,
+    "swap": "Whipped feta or olive tapenade as the dip.",
+    "ndb": "16158"
+   },
+   {
+    "name": "Dried apricots",
+    "portion": "5 halves",
+    "net": 9.6845,
+    "swap": "A handful of fresh berries.",
+    "ndb": "09032"
+   }
+  ]
+ },
+ {
+  "num": "20",
+  "title": "Keto Dessert Board",
+  "section": "Diet variations",
+  "badge": "SWEET FINISH",
+  "tagline": "Berries, Mascarpone and 90% Chocolate",
+  "serves": 8,
+  "use": "dessert",
+  "stats": {
+   "Board size": "16\" board",
+   "Prep time": "20 min",
+   "Total cost": "$37–55",
+   "Cheese": "2 types · 12 oz",
+   "Meat": "None (dessert)",
+   "Level": "Beginner"
+  },
+  "pairs_with": "Coffee, espresso or herbal tea",
+  "per": {
+   "kcal": 490.57437500000003,
+   "fat": 45.461785,
+   "protein": 8.843284999999998,
+   "carb": 14.537635,
+   "fiber": 7.210549999999999,
+   "net": 7.327085000000001
+  },
+  "shopping": [
+   {
+    "name": "Cheeses",
+    "items": [
+     {
+      "name": "Mascarpone",
+      "qty": "8 oz",
+      "net": 8.55,
+      "price": "$5–7"
+     },
+     {
+      "name": "Goat cheese (chèvre)",
+      "qty": "4 oz",
+      "net": 0.0,
+      "price": "$3–4"
+     }
+    ]
+   },
+   {
+    "name": "Fruit & nuts",
+    "items": [
+     {
+      "name": "Raspberries",
+      "qty": "1 cup",
+      "net": 6.691199999999999,
+      "price": "$3–5"
+     },
+     {
+      "name": "Blackberries",
+      "qty": "1 cup",
+      "net": 6.2064,
+      "price": "$3–5"
+     },
+     {
+      "name": "Strawberries (halves)",
+      "qty": "1 cup",
+      "net": 8.633599999999998,
+      "price": "$3–4"
+     },
+     {
+      "name": "Pecans",
+      "qty": "3 oz",
+      "net": 3.625259999999999,
+      "price": "$3–5"
+     },
+     {
+      "name": "Macadamia nuts",
+      "qty": "3 oz",
+      "net": 4.44222,
+      "price": "$6–9"
+     },
+     {
+      "name": "Unsweetened coconut flakes",
+      "qty": "1 oz",
+      "net": 2.0873999999999997,
+      "price": "$1–2"
+     }
+    ]
+   },
+   {
+    "name": "Sweet finish",
+    "items": [
+     {
+      "name": "90% dark chocolate",
+      "qty": "4 oz",
+      "net": 15.120000000000001,
+      "price": "$7–9"
+     },
+     {
+      "name": "Heavy cream (whipped, makes 1 cup)",
+      "qty": "½ cup",
+      "net": 3.2606,
+      "price": "$2–3"
+     }
+    ]
+   },
+   {
+    "name": "Garnish",
+    "items": [
+     {
+      "name": "Fresh mint",
+      "qty": "a few sprigs",
+      "net": null,
+      "price": "$1–2"
+     },
+     {
+      "name": "Vanilla extract and cinnamon",
+      "qty": "dash",
+      "net": null,
+      "price": "pantry"
+     }
+    ]
+   }
+  ],
+  "timeline": [
+   [
+    "T–30 min",
+    "Whip the cream with a dash of vanilla (no sugar); chill."
+   ],
+   [
+    "T–20 min",
+    "Take out the mascarpone and goat cheese to soften."
+   ],
+   [
+    "T–15 min",
+    "Rinse and dry the berries; halve the strawberries."
+   ],
+   [
+    "T–10 min",
+    "Toast the coconut flakes in a dry pan; build the board."
+   ],
+   [
+    "T–0",
+    "Add the whipped cream and mint. Serve."
+   ]
+  ],
+  "steps": [
+   [
+    "MASCARPONE IN THE CENTER",
+    [
+     [
+      "Mascarpone",
+      "Swirl into a bowl in the middle."
+     ],
+     [
+      "Cinnamon",
+      "A dusting on top."
+     ],
+     [
+      "Spoon",
+      "A small spoon for spreading."
+     ]
+    ],
+    "Mascarpone is rich, mild and lightly sweet-tasting with almost no sugar, the perfect base for a keto dessert."
+   ],
+   [
+    "ADD THE WHIPPED CREAM",
+    [
+     [
+      "Whipped cream",
+      "In a second bowl, unsweetened with vanilla."
+     ],
+     [
+      "Timing",
+      "Add just before serving."
+     ],
+     [
+      "Spoon",
+      "Its own spoon."
+     ]
+    ],
+    "Unsweetened whipped cream tastes sweet next to berries, with no added sugar."
+   ],
+   [
+    "ADD THE GOAT CHEESE",
+    [
+     [
+      "Goat cheese",
+      "A small log, rolled in toasted coconut."
+     ],
+     [
+      "Placement",
+      "Beside the raspberries."
+     ],
+     [
+      "Knife",
+      "A small spreader."
+     ]
+    ],
+    "Tangy goat cheese and berries are a classic dessert pairing."
+   ],
+   [
+    "ADD THE BERRIES",
+    [
+     [
+      "Raspberries",
+      "One pile."
+     ],
+     [
+      "Blackberries",
+      "Another pile."
+     ],
+     [
+      "Strawberries",
+      "Halved, in a third."
+     ]
+    ],
+    "Berries are among the lowest-carb fruits, raspberries and blackberries especially."
+   ],
+   [
+    "ADD THE CHOCOLATE",
+    [
+     [
+      "90% chocolate",
+      "Broken into squares, stacked in two spots."
+     ],
+     [
+      "Shards",
+      "A few shaved curls over the mascarpone."
+     ],
+     [
+      "Amount",
+      "4 oz for 8."
+     ]
+    ],
+    "90% chocolate has a fraction of the sugar of milk chocolate."
+   ],
+   [
+    "ADD THE NUTS AND COCONUT",
+    [
+     [
+      "Pecans",
+      "Pile near the chocolate."
+     ],
+     [
+      "Macadamias",
+      "Pile near the berries."
+     ],
+     [
+      "Coconut flakes",
+      "Scatter over everything."
+     ]
+    ],
+    "Buttery nuts and toasted coconut give crunch and taste sweet without sugar."
+   ],
+   [
+    "SERVE",
+    [
+     [
+      "Mint",
+      "Tuck sprigs around."
+     ],
+     [
+      "Coffee",
+      "Serve with coffee."
+     ],
+     [
+      "Clock",
+      "Whipped cream and mascarpone back in the fridge after 2 hours."
+     ]
+    ],
+    "Each serving is about 7 g of net carbs: a real dessert that fits a keto day."
+   ]
+  ],
+  "did_you_know": "Mascarpone is not made with rennet like most cheeses. It is made by heating cream and adding an acid, traditionally tartaric acid, which thickens it into the rich, spoonable cream used in tiramisu.",
+  "subs": [
+   [
+    "Mascarpone",
+    "Rich, creamy base",
+    "Cream cheese whipped with cream",
+    "Tangier, similar richness"
+   ],
+   [
+    "90% chocolate",
+    "Low-sugar chocolate",
+    "100% baking chocolate",
+    "No sugar at all; very bitter"
+   ],
+   [
+    "Strawberries",
+    "Sweet red fruit",
+    "More raspberries",
+    "Fewer net carbs"
+   ],
+   [
+    "Macadamias",
+    "Buttery crunch",
+    "Hazelnuts",
+    "Classic with chocolate"
+   ],
+   [
+    "Goat cheese",
+    "Tangy cheese",
+    "Ricotta",
+    "Mild; slightly more carbs"
+   ]
+  ],
+  "elevations": [
+   [
+    "Chocolate Fondue",
+    "Showpiece · +$0",
+    "Melt the chocolate with a splash of cream for dipping.",
+    "Interactive and fun."
+   ],
+   [
+    "Mascarpone Berry Cups",
+    "Prep Upgrade · +$0",
+    "Spoon mascarpone and berries into small cups.",
+    "Individual desserts."
+   ],
+   [
+    "Espresso Mascarpone",
+    "Flavor Upgrade · +$0",
+    "Stir a shot of cooled espresso into the mascarpone.",
+    "Tiramisu flavor without the ladyfingers."
+   ],
+   [
+    "Cinnamon Pecans",
+    "Flavor Upgrade · +$1",
+    "Toast pecans with butter and cinnamon.",
+    "Smells like baking."
+   ],
+   [
+    "Add Keto Cookies",
+    "Bakery Upgrade · +$5–8",
+    "Add almond-flour cookies made with a sugar substitute.",
+    "Check the label: carb counts vary widely."
+   ]
+  ],
+  "traps": [
+   {
+    "name": "Milk chocolate",
+    "portion": "1 oz",
+    "net": 15.876000000000001,
+    "swap": "90% or darker chocolate.",
+    "ndb": "19120"
+   },
+   {
+    "name": "Sweetened shredded coconut",
+    "portion": "1 oz",
+    "net": 12.238695,
+    "swap": "Unsweetened coconut flakes (about 2 g net carbs per ounce).",
+    "ndb": "12179"
+   },
+   {
+    "name": "Honey",
+    "portion": "1 tbsp",
+    "net": 17.262,
+    "swap": "Whole-grain mustard or a few drops of hot sauce for the 'something sharp next to the cheese' job.",
+    "ndb": "19296"
+   }
+  ]
+ }
+]
