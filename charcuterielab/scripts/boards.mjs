@@ -33,6 +33,16 @@ export const WORLD_BOOK = {
 // finishes review, and the paperback button appears when its URL is filled.
 export const worldIsLive = (W = WORLD_BOOK) => W.status === "live" && Boolean(W.paperbackUrl || W.ebookUrl);
 
+// Book 4. Gumroad ebook live 5 Oct 2026; add paperbackUrl when the KDP paperback is live.
+export const TWO_BOOK = {
+  title: "Charcuterie Lab: Boards for Two",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/xdwhtq",
+  ebookPrice: "$9.99",
+  cover: "/images/books/boards-for-two-cover.jpg",
+  paperbackUrl: "",
+  paperbackPrice: "$19.99"
+};
+
 // Book 5. Gumroad ebook live 5 Oct 2026; add paperbackUrl when the KDP paperback is live.
 export const KETO_BOOK = {
   title: "Charcuterie Lab: Keto & Low-Carb Boards",

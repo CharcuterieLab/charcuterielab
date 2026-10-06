@@ -31,6 +31,7 @@ export const OFFER_RULES = [
   [/vegan|vegetarian|plant-based|dairy-free/, ["vegetarian-vegan-board-kit", "book:plant", "complete-board-builder-bundle"], "Feeding vegetarian guests?"],
   [/\/dietary\/|mixed-diet|kosher|halal/, ["mixed-diet-party-planner", "complete-board-builder-bundle"], "Mixed diets at the party?"],
   [/grazing|large-group|crowd|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
+  [/date-night|for-two|board-two|valentine|anniversary|galentine|romantic/, ["book:two", "book:board", "complete-board-builder-bundle"], "Planning a night for two?"],
   [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "complete-board-builder-bundle"], "Building around cured meats?"],
@@ -51,7 +52,8 @@ const DEFAULT_LEAD = {
   "book:main": "Want every board planned?",
   "book:world": "Love a world board?",
   "book:plant": "Going plant-based?",
-  "book:keto": "Keeping it keto?"
+  "book:keto": "Keeping it keto?",
+  "book:two": "Planning a night for two?"
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
@@ -67,6 +69,7 @@ export function makeOffers(h, products, books) {
     if (target === "book:main") return { type: "ebook", ...books.main };
     if (target === "book:plant" && books.plant) return { type: "ebook", ...books.plant };
     if (target === "book:keto" && books.keto) return { type: "ebook", ...books.keto };
+    if (target === "book:two" && books.two) return { type: "ebook", ...books.two };
     if (target === "book:board") {
       const b = ctx.bookBoard;
       if (!b) return null;
