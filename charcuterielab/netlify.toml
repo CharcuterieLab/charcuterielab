@@ -56,27 +56,7 @@
   status = 301
 
 [[redirects]]
-  from = "/blog/temperature-guide"
-  to = "/blog/charcuterie-board-two/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/temperature-guide/"
-  to = "/blog/charcuterie-board-two/"
-  status = 301
-
-[[redirects]]
   from = "/grazing-table"
-  to = "/blog/how-much-charcuterie-per-person/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/grazing-table"
-  to = "/blog/how-much-charcuterie-per-person/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/grazing-table/"
   to = "/blog/how-much-charcuterie-per-person/"
   status = 301
 
@@ -86,27 +66,7 @@
   status = 301
 
 [[redirects]]
-  from = "/blog/build-sequence"
-  to = "/blog/easy-charcuterie-board/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/build-sequence/"
-  to = "/blog/easy-charcuterie-board/"
-  status = 301
-
-[[redirects]]
   from = "/wine-cheese-board"
-  to = "/blog/wine-only/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/wine-cheese-board"
-  to = "/blog/wine-only/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/wine-cheese-board/"
   to = "/blog/wine-only/"
   status = 301
 
@@ -131,17 +91,7 @@
   status = 301
 
 [[redirects]]
-  from = "/blog/aged-cheddar"
-  to = "/blog/best-cheese-charcuterie-board/"
-  status = 301
-
-[[redirects]]
   from = "/brie"
-  to = "/blog/best-cheese-charcuterie-board/"
-  status = 301
-
-[[redirects]]
-  from = "/blog/brie"
   to = "/blog/best-cheese-charcuterie-board/"
   status = 301
 
@@ -211,16 +161,6 @@
   status = 301
 
 # Common guesses that used to 404.
-[[redirects]]
-  from = "/shop"
-  to = "/#shop"
-  status = 301
-
-[[redirects]]
-  from = "/shop/"
-  to = "/#shop"
-  status = 301
-
 [[redirects]]
   from = "/book"
   to = "/ebook/"
@@ -456,6 +396,167 @@
 [[redirects]]
   from = "/charcuterie-board-cheese-types"
   to = "/blog/best-cheese-charcuterie-board/"
+  status = 301
+
+# Deleted/renamed posts that Google may still request (added 7 Oct 2026)
+[[redirects]]
+  from = "/blog/20-dollar-board-guide"
+  to = "/blog/20-dollar-charcuterie-board-challenge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/20-dollar-board-guide/"
+  to = "/blog/20-dollar-charcuterie-board-challenge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/twenty-dollar-board"
+  to = "/blog/20-dollar-charcuterie-board-challenge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/twenty-dollar-board/"
+  to = "/blog/20-dollar-charcuterie-board-challenge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/aged-cheddar-white-crystals"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/aged-cheddar-white-crystals/"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/white-crystals-aged-cheddar"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/white-crystals-aged-cheddar/"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/white-crystals-aged-cheddar-tyrosine"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/white-crystals-aged-cheddar-tyrosine/"
+  to = "/blog/crystal-formation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-and-honey-pairing-science"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-and-honey-pairing-science/"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-honey-cheat-code"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-honey-cheat-code/"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-honey-pairing-science"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blue-cheese-honey-pairing-science/"
+  to = "/blog/best-honey-for-cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/castelvetrano-olivesmd"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/castelvetrano-olivesmd/"
+  to = "/blog/castelvetrano/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/perfect-fall-charcuterie-board"
+  to = "/blog/fall-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/perfect-fall-charcuterie-board/"
+  to = "/blog/fall-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/prosciutto-di-parma-deep-dive"
+  to = "/ingredients/prosciutto-di-parma/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/prosciutto-di-parma-deep-dive/"
+  to = "/ingredients/prosciutto-di-parma/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/refrigerating-cheese-myth"
+  to = "/blog/temperature-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/refrigerating-cheese-myth/"
+  to = "/blog/temperature-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/stop-refrigerating-cheese-10-minutes"
+  to = "/blog/temperature-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/stop-refrigerating-cheese-10-minutes/"
+  to = "/blog/temperature-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/salami-rose-technique"
+  to = "/blog/prosciutto-rose/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/salami-rose-technique/"
+  to = "/blog/prosciutto-rose/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/stilton-the-ultimate-ingredient-deep-dive-pairing-guide"
+  to = "/blog/stilton/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/stilton-the-ultimate-ingredient-deep-dive-pairing-guide/"
+  to = "/blog/stilton/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blog-wine-only"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/blog-wine-only/"
+  to = "/blog/wine-only/"
   status = 301
 
 [[headers]]
