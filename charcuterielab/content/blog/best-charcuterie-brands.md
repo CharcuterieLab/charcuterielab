@@ -65,6 +65,18 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Jarred Olives for a Charcuterie Board](/blog/best-olives-for-charcuterie/) | Mezzetta Castelvetrano Olives | ★★★★½ 4.7 |
 | [Best Marcona Almonds for a Charcuterie Board](/blog/best-marcona-almonds/) | Trader Joe's Roasted & Salted Rosemary Marcona Almonds | ★★★★½ 4.5 |
 
+## Store guides
+
+Shopping at one store? These rank the best charcuterie picks at each.
+
+| Guide | Our top pick | Rating |
+|---|---|---|
+| [Best Trader Joe's Cheeses for a Charcuterie Board](/blog/best-trader-joes-cheeses/) | Trader Joe's Unexpected Cheddar | ★★★★½ 4.7 |
+| [Best Costco Charcuterie Board Items](/blog/best-costco-charcuterie-items/) | Kirkland Signature Manchego DOP (best cheese) | ★★★★½ 4.5 |
+| [Best Aldi Charcuterie Board Items](/blog/best-aldi-charcuterie-items/) | Emporium Selection Not Your Average Cheddar | ★★★★½ 4.7 |
+| [Best Whole Foods Cheeses for a Charcuterie Board](/blog/best-whole-foods-cheeses/) | Isigny Sainte-Mère Double Cream Brie | ★★★★½ 4.3 |
+| [Best Walmart Charcuterie Board Items](/blog/best-walmart-charcuterie-items/) | Marketside Parmigiano Reggiano, 24 months | ★★★★★ 4.8 |
+
 ## Best value picks
 
 | Ingredient | Best value | Rating |

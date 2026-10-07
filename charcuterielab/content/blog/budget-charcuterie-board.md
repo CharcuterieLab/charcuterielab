@@ -88,6 +88,8 @@ A $25 board can genuinely impress. Sharp cheddar, dry salami, baguette crostini,
 
 ## Related Reading
 
+- [The Best Aldi Charcuterie Board Items, Ranked](/blog/best-aldi-charcuterie-items/)
+- [The Best Walmart Charcuterie Board Items, Ranked](/blog/best-walmart-charcuterie-items/)
 - [The Best Crackers for a Charcuterie Board](https://charcuterielab.com/best-crackers-charcuterie-board/)
 - [Easy Charcuterie Board: The 15-Minute Grocery Store Version](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [Salt + Sweet: Why It's the Most Powerful Pairing Principle on Any Board](https://charcuterielab.com/salt-sweet-principle/)
