@@ -243,7 +243,7 @@ function articleSchema(post, description) {
     "@type": "BlogPosting",
     headline: post.title,
     description,
-    image: [absoluteUrl(post.image)],
+    image: [imageObject(post.image, post.title)],
     datePublished: post.date,
     dateModified: post.updated || post.date,
     author: authorRef,
@@ -294,13 +294,25 @@ const longDate = (d) => {
 
 // Ingredient pages were FAQ-only in structured data. This gives them an
 // author, publish and update dates, like the blog posts.
+// Article image as an ImageObject: URL plus pixel size and a caption, so
+// Google has the dimensions and a description, not just a link.
+function imageObject(src, caption = "") {
+  const [width, height] = imageManifest.size[src] || [];
+  return {
+    "@type": "ImageObject",
+    url: absoluteUrl(src),
+    ...(width ? { width, height } : {}),
+    ...(caption ? { caption } : {})
+  };
+}
+
 function ingredientArticleSchema(item) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: ingredientSeoTitle(item),
     description: item.excerpt,
-    ...(item.image ? { image: [absoluteUrl(item.image)] } : {}),
+    ...(item.image ? { image: [imageObject(item.image, item.imageAlt || item.title)] } : {}),
     ...(item.date ? { datePublished: String(item.date).slice(0, 10) } : {}),
     ...(item.updated || item.date ? { dateModified: String(item.updated || item.date).slice(0, 10) } : {}),
     author: authorRef,
@@ -753,6 +765,12 @@ function freeFromFor(allergens = []) {
 // Drop a photo at public/images/ingredients/<slug>.jpg (or .png/.webp) and the
 // card and detail page pick it up on the next build - no frontmatter edit needed.
 // An explicit image: in the frontmatter still wins.
+// Descriptive alt text for each ingredient photo, written from the photo's
+// own prompt (what must be visible in it). Missing slugs fall back to the name.
+const ingredientAlt = await readFile(join(root, "src", "data", "ingredient-alt.json"), "utf8")
+  .then((t) => JSON.parse(t))
+  .catch(() => ({}));
+
 async function ingredientPhotos() {
   const byslug = new Map();
   try {
@@ -811,6 +829,7 @@ async function loadIngredients() {
         avoidWith: parseListField(data.avoid_with),
         boardPost: data.board_post ?? "",
         image: data.image || photos.get(slug) || "",
+        imageAlt: data.image_alt || ingredientAlt[slug] || data.title || "",
         faq: parseFaqField(data.faq),
         body,
         html: sensoryBlock(markdownToHtml(body))
@@ -1268,7 +1287,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
 
   return layout({
     canonical: `/ingredients/${item.slug}/`,
-    ...(item.image ? { image: item.image } : {}),
+    ...(item.image ? { image: item.image, imageAlt: item.imageAlt } : {}),
     modified: item.updated || item.date,
     title: pageTitle(ingredientSeoTitle(item)),
     description: item.excerpt,
@@ -1281,7 +1300,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
       <p class="ing-byline">${byline(longDate(item.updated || item.date) ? ` · Updated ${longDate(item.updated || item.date)}` : "")}</p>
-      ${item.image ? heroImg(escapeHtml(item.image), escapeHtml(item.title), "ing-hero") : ""}
+      ${item.image ? heroImg(escapeHtml(item.image), escapeHtml(item.imageAlt || item.title), "ing-hero") : ""}
       ${
         spec.length
           ? `<div class="ing-spec">
@@ -1377,6 +1396,7 @@ function layout({
   head = "",
   canonical = "/",
   image = "/images/book-cover.jpg",
+  imageAlt = "",
   type = "website",
   published = "",
   modified = ""
@@ -1398,6 +1418,7 @@ function layout({
   <meta name="description" content="${escapeHtml(metaSnippet(description))}">
   <title>${escapeHtml(title)}</title>
   <link rel="canonical" href="${pageUrl}">
+${/name="robots"/.test(head) ? "" : `  <meta name="robots" content="index, follow, max-image-preview:large">\n`}
   <meta property="og:site_name" content="Charcuterie Lab">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="${type}">
@@ -1405,7 +1426,7 @@ function layout({
   <meta property="og:title" content="${escapeHtml(shareTitle)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:image" content="${imageUrl}">
-  <meta property="og:image:alt" content="${escapeHtml(shareTitle)}">
+  <meta property="og:image:alt" content="${escapeHtml(imageAlt || shareTitle)}">
 ${articleTimes}  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(shareTitle)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
@@ -2428,7 +2449,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
       loc: `/boards/${c.slug}/`,
       priority: "0.7"
     })),
-    ...boards.map((b) => ({ loc: `/boards/${b.slug}/`, lastmod: b.updated, priority: "0.8" })),
+    ...boards.map((b) => ({ loc: `/boards/${b.slug}/`, images: b.image && !b.placeholder && !String(b.image).endsWith(".svg") ? [b.image] : [], lastmod: b.updated, priority: "0.8" })),
     ...(ingredients.length ? [{ loc: "/ingredients/", priority: "0.8" }] : []),
     ...ingredientCategories.map((category) => ({
       loc: `/ingredients/${slugify(category)}/`,
@@ -2436,11 +2457,13 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
     })),
     ...ingredients.map((item) => ({
       loc: `/ingredients/${item.slug}/`,
+      images: item.image ? [item.image] : [],
       lastmod: item.updated || item.date,
       priority: "0.6"
     })),
     ...posts.map((post) => ({
       loc: `/blog/${post.slug}/`,
+      images: post.image && !post.image.includes("layout-reference") ? [post.image] : [],
       lastmod: post.updated || post.date,
       priority: "0.7"
     })),
@@ -2448,13 +2471,13 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
   ];
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls
   .map((url) => `  <url>
     <loc>${siteUrl}${url.loc}</loc>
     <lastmod>${String(url.lastmod || BUILD_DATE).slice(0, 10)}</lastmod>
     <priority>${url.priority}</priority>
-  </url>`)
+${(url.images || []).filter((i) => String(i).startsWith("/images/")).map((i) => `    <image:image><image:loc>${escapeHtml(absoluteUrl(i))}</image:loc></image:image>\n`).join("")}  </url>`)
   .join("\n")}
 </urlset>
 `;
