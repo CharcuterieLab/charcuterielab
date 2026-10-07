@@ -1709,7 +1709,7 @@ function bookSchema() {
 
 function ebookPage() {
   const buy = (campaign) => bookButtons(`ebook_page_${campaign}`, { size: "lg" });
-  const X = ebookSections({ escapeHtml }, BOOK_BOARDS, FUNNEL);
+  const X = ebookSections({ escapeHtml, withTracking }, BOOK_BOARDS, FUNNEL);
 
   return layout({
     title: "Charcuterie Lab | 50 Boards Built by Science",

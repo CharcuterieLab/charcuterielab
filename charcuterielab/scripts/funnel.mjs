@@ -36,6 +36,11 @@ export async function loadBookBoards(root) {
   const dir = join(root, "content", "boards");
   const files = (await readdir(dir)).filter((f) => f.endsWith(".json"));
   const all = await Promise.all(files.map(async (f) => JSON.parse(await readFile(join(dir, f), "utf8"))));
+  // Live $3 single-board plans on Gumroad (written by gumroad-automation/sync_site_products.py).
+  let singles = {};
+  try {
+    singles = JSON.parse(await readFile(join(root, "src", "data", "board-products.json"), "utf8"));
+  } catch {}
   const map = new Map();
   for (const b of all) {
     if (b.book !== "main" || !/^B1-\d\d$/.test(b.number || "")) continue;
@@ -51,7 +56,8 @@ export async function loadBookBoards(root) {
       serves: b.serves || "",
       cost: b.cost || "",
       prep: b.prep_time || "",
-      level: b.difficulty || ""
+      level: b.difficulty || "",
+      single: singles[String(Number(b.number.slice(3)))] || null
     });
   }
   return map;
@@ -128,6 +134,12 @@ export function makeFunnel(h) {
       <a class="button book-buy-print" href="${paperbackUrl}" target="_blank" rel="noopener">Paperback · ${paperbackPrice}</a>
     </div>`;
 
+  // "Just this board" option: the board's 5-page plan as a $3 PDF, when it's live on Gumroad.
+  function singleLine(board, campaign) {
+    if (!board || !board.single) return "";
+    return `<p class="fx-single">Only need this one? <a href="${esc(withTracking(board.single.url, `${campaign}_single`))}" target="_blank" rel="noopener">Get just the ${esc(board.name.replace(/^The /, ""))} plan · ${esc(board.single.price)}</a> <span>5-page printable PDF</span></p>`;
+  }
+
   // The matched book card: "The Thanksgiving Board is board #20 in the book".
   function bookCard(board, campaign, { headingLevel = 2, lead = "" } = {}) {
     const H = `h${headingLevel}`;
@@ -152,6 +164,7 @@ export function makeFunnel(h) {
       <p>${lead || `The exact shopping list with amounts and prices, a timed build from prep to serving, and a swap for every ingredient. Plus 49 more boards.`}</p>
       ${facts ? `<p class="fx-facts">${esc(facts)}</p>` : ""}
       ${buyButtons(campaign)}
+      ${singleLine(board, campaign)}
       <p class="fx-fine">That's ${perBoard} a board. <a href="/ebook/#sample">Read board 01 free</a></p>
     </div>
   </aside>`;
@@ -219,7 +232,7 @@ export function makeFunnel(h) {
   </aside>`;
   }
 
-  return { bookCard, bookStrip, stickyBar, sampleForm, buyButtons, perBoard, leadBox, cheatForm };
+  return { bookCard, bookStrip, stickyBar, sampleForm, buyButtons, perBoard, leadBox, cheatForm, singleLine };
 }
 
 // ---------------------------------------------------------------- ebook ---
@@ -233,6 +246,7 @@ export function ebookSections(h, bookBoards, F) {
           <h3>${esc(b.name)}</h3>
           <p>${esc([b.serves && `Serves ${b.serves}`, b.cost, b.level].filter(Boolean).join(" · "))}</p>
           ${b.published ? `<a class="fx-more" href="/boards/${b.slug}/">See the free preview &rarr;</a>` : ""}
+          ${b.single ? `<a class="fx-single-pill" href="${esc(h.withTracking(b.single.url, `ebook_sample_${b.nn}_single`))}" target="_blank" rel="noopener">Just this board · ${esc(b.single.price)}</a>` : ""}
         </article>`;
   const samples = `<section class="ebook-section ebook-samples">
     <div class="ebook-section-inner">
@@ -282,10 +296,11 @@ export function ebookSections(h, bookBoards, F) {
     <div class="ebook-section-inner">
       <p class="section-kicker">All 50 boards</p>
       <h2>Every board in the book</h2>
+      ${[...bookBoards.values()].some((b) => b.single) ? `<p>Want to try one first? Boards marked with a price are also sold on their own as a 5-page printable plan.</p>` : ""}
       <div class="fx-all-groups">
         ${BOOK_SECTIONS.map(([name, nums]) => `<div class="fx-all-group">
           <h3>${esc(name)} <span>${nums.length} boards</span></h3>
-          <ol>${nums.map((n) => bookBoards.get(n)).filter(Boolean).map((b) => `<li id="board-${b.nn}"><b>${b.nn}</b> ${b.published ? `<a href="/boards/${b.slug}/">${esc(b.name.replace(/^The /, ""))}</a>` : esc(b.name.replace(/^The /, ""))}</li>`).join("")}</ol>
+          <ol>${nums.map((n) => bookBoards.get(n)).filter(Boolean).map((b) => `<li id="board-${b.nn}"><b>${b.nn}</b> ${b.published ? `<a href="/boards/${b.slug}/">${esc(b.name.replace(/^The /, ""))}</a>` : esc(b.name.replace(/^The /, ""))}${b.single ? ` <a class="fx-single-pill" href="${esc(h.withTracking(b.single.url, `ebook_list_${b.nn}_single`))}" target="_blank" rel="noopener" aria-label="Buy just ${esc(b.name.replace(/^The /, ""))} for ${esc(b.single.price)}">${esc(b.single.price)}</a>` : ""}</li>`).join("")}</ol>
         </div>`).join("\n        ")}
       </div>
     </div>
@@ -396,6 +411,7 @@ export function makePrintables(h, products) {
 
   function landing(bookBoards) {
     const b01 = bookBoards.get(1);
+    const singles = [...bookBoards.values()].filter((b) => b.single).sort((a, b) => a.n - b.n);
     const cheapest = products.map((p) => p.priceShort || p.price).sort((x, y) => parseFloat(x.replace(/[^0-9.]/g, "")) - parseFloat(y.replace(/[^0-9.]/g, "")))[0] || "$4";
     const faq = [
       ["Is there a free printable charcuterie shopping list?", "Yes. Board 01 from the book, the Classic American Starter, is free as an 11-page PDF with its full shopping list, and the Board Builder prints a shopping list sized to your guest count."],
@@ -427,6 +443,19 @@ export function makePrintables(h, products) {
       </article>`).join("\n      ")}
     </div>
   </section>
+  ${singles.length ? `<section class="fx-p-paid fx-p-singles" aria-labelledby="fx-singles">
+    <h2 id="fx-singles">Single board plans: ${esc(singles[0].single.price)} each</h2>
+    <p class="fx-p-sub">One complete board from the book as a 5-page printable: exact shopping list with amounts and prices, step-by-step build, swaps and upgrades. Like it? Your receipt has a code for ${esc(singles[0].single.price)} off the full book.</p>
+    <div class="fx-p-grid fx-p-single-grid">
+      ${singles.map((b) => `<article class="fx-p-card">
+        <a href="${esc(h.withTracking(b.single.url, `printables_single_${b.nn}`))}" target="_blank" rel="noopener"><img src="${esc((h.thumb || ((x) => x))(b.image))}" alt="${esc(b.name)}" width="320" height="175" loading="lazy" decoding="async"></a>
+        <p class="eyebrow">Board ${b.nn} · ${esc(b.single.price)} · 5-page PDF</p>
+        <h3>${esc(b.name.replace(/^The /, ""))}</h3>
+        <p>${esc([b.serves && `Serves ${b.serves}`, b.cost].filter(Boolean).join(" · "))}</p>
+        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.single.url, `printables_single_${b.nn}`))}" target="_blank" rel="noopener">Get the plan · ${esc(b.single.price)}</a>${b.published ? `<a class="fx-more" href="/boards/${b.slug}/">Free preview &rarr;</a>` : ""}</div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : ""}
   ${(h.ebooks || []).length ? `<section class="fx-p-paid fx-p-ebooks" aria-labelledby="fx-ebooks">
     <h2 id="fx-ebooks">Ebooks: every board fully planned</h2>
     <div class="fx-p-grid">
