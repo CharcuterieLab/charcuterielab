@@ -1,45 +1,50 @@
 {
- "slug": "wine-and-cheese-pairing-board",
  "number": "B1-09",
  "book": "main",
  "title": "Wine & Cheese Pairing Board",
  "category": "pairings-sweet",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-09-wine-and-cheese-pairing.webp",
- "blog": [
-  "charcuterie-board-wine-and-cheese",
-  "wine-cheese-board"
- ],
+ "h1": "Wine & Cheese Pairing Board",
+ "seo_title": "Wine and Cheese Pairing Board: 5 Cheeses, 5 Wines",
+ "description": "A wine and cheese pairing board for 8–12: goat cheese, Gruyère, Manchego, brie and Stilton, each matched to a wine, with honeycomb, figs and membrillo.",
+ "hook": "Five cheeses and five wines, laid out from lightest to boldest so guests can taste their way across the board.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "20\"–24\" board",
+ "board_size": "20–24\" board",
  "prep_time": "30–35 min",
  "cost": "$70–$110",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses By Wine Pairing",
+   "name": "Cheese and its wine",
    "items": [
     {
-     "name": "Fresh Chèvre",
+     "name": "Fresh goat cheese · Sauvignon Blanc",
      "slug": "fresh-chevre"
     },
     {
-     "name": "Gruyère",
+     "name": "Brie · sparkling wine or Pinot Noir",
+     "slug": "brie"
+    },
+    {
+     "name": "Gruyère · Chardonnay",
      "slug": "gruyere"
     },
     {
-     "name": "Aged Manchego (Rioja/Tempranillo) 6 oz",
+     "name": "Aged Manchego · Rioja",
      "slug": "manchego"
+    },
+    {
+     "name": "Stilton · Port",
+     "slug": "stilton"
     }
    ]
   },
   {
-   "name": "Meats",
+   "name": "Meat",
    "items": [
     {
-     "name": "Saucisson Sec",
+     "name": "Saucisson sec",
      "slug": "saucisson-sec"
     },
     {
@@ -49,75 +54,103 @@
    ]
   },
   {
-   "name": "Fruits & Sweet",
+   "name": "Sweet",
    "items": [
-    {
-     "name": "Brie",
-     "slug": "brie"
-    },
-    {
-     "name": "Red & Green Grapes (clusters)",
-     "slug": "grapes"
-    },
-    {
-     "name": "Stilton Blue (Port/Sauternes)",
-     "slug": "stilton"
-    },
     {
      "name": "Honeycomb",
      "slug": "honeycomb"
     },
     {
-     "name": "Dried Figs 6–8 pieces",
-     "slug": "dried-figs"
-    },
-    {
-     "name": "Walnuts (toasted)",
-     "slug": "walnuts"
-    }
-   ]
-  },
-  {
-   "name": "Condiments",
-   "items": [
-    {
-     "name": "Fig Jam",
+     "name": "Fig jam",
      "slug": "fig-jam"
     },
     {
-     "name": "Quince Paste (Membrillo)",
+     "name": "Membrillo",
      "slug": "membrillo"
     },
     {
-     "name": "Whole Grain Mustard",
-     "slug": "whole-grain-mustard"
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Grapes",
+     "slug": "grapes"
     }
    ]
   },
   {
-   "name": "Bread & Crackers",
+   "name": "Nuts, bread & mustard",
    "items": [
     {
-     "name": "Water Crackers",
-     "slug": "water-crackers"
+     "name": "Toasted walnuts",
+     "slug": "walnuts"
     },
     {
-     "name": "French Baguette",
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Baguette",
      "slug": "baguette"
     },
     {
-     "name": "Seeded Flatbread",
-     "slug": null
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Seeded crackers",
+     "slug": "seeded-crackers"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Each cheese is matched to a wine with two simple rules: what grows together goes together, and sweet wine goes with salty blue. Sauvignon Blanc with goat cheese, Rioja with Manchego and Port with Stilton are all classic regional matches.",
+  "Set the cheeses in a line from the mildest, fresh goat cheese, to the strongest, Stilton, and pour the wines in the same order. Honeycomb by the Stilton, membrillo by the Manchego and fig jam by the Gruyère give each pairing its own sweet bridge."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take the Manchego and Gruyère out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie and Stilton; chill the white and sparkling wines."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the goat cheese and meats; slice the baguette."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses in a line from mild to strong, each with its sweet partner."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the meats, fruit, nuts and crackers; label each cheese with its wine."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which wines do I need for this board?",
+   "a": "Five, one per cheese: Sauvignon Blanc, a sparkling wine or Pinot Noir, Chardonnay, Rioja and Port. For a smaller party, two cover most of it: a sparkling wine and a Port."
+  },
+  {
+   "q": "What order should guests taste in?",
+   "a": "Lightest to boldest: goat cheese, brie, Gruyère, Manchego, then Stilton with Port last. A strong blue and a sweet wine overpower anything that comes after them."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "8 to 12 people on a 20–24 inch board."
+  }
+ ],
+ "blog": [
+  "wine-cheese-board",
+  "wine-and-charcuterie-board"
+ ],
+ "slug": "wine-and-cheese-pairing-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

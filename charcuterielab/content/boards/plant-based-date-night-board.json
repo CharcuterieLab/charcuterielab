@@ -1,78 +1,139 @@
 {
- "slug": "plant-based-date-night-board",
  "number": "PB-12",
  "book": "plant",
  "title": "The Date Night Plant Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-12.webp",
- "blog": [],
+ "h1": "Plant-Based Date Night Board",
+ "seo_title": "Vegan Date Night Board for Two: Shopping List & Plan",
+ "description": "A vegan date night board for 2–4: aged cashew brie, truffle cashew cream, champagne grapes, pear, pomegranate, macadamias, dark chocolate and rosemary flatbread.",
+ "hook": "A small, special board for two: aged cashew brie, a truffle cream, tiny champagne grapes and dark chocolate, made to go with a bottle of bubbles.",
  "serves": "2–4",
  "guests": 4,
- "board_size": "Champagne or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "12–14\" board",
+ "prep_time": "15–20 min",
+ "cost": "$35–$50",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Plant cheeses",
    "items": [
     {
      "name": "Aged cashew brie",
-     "slug": "brie"
+     "slug": "vegan-brie"
     },
     {
-     "name": "Macadamia truffle cream (or truffle cashew)",
-     "slug": null
+     "name": "Truffle cashew cream",
+     "slug": "cashew-cheese"
     }
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Fruit",
    "items": [
     {
-     "name": "Champagne grapes (tiny clusters)",
+     "name": "Champagne grapes",
      "slug": "champagne-grapes"
     },
     {
-     "name": "Sliced pear, Bosc or Bartlett",
-     "slug": null
+     "name": "Bosc or Bartlett pear",
+     "slug": "pears"
     },
     {
-     "name": "Pomegranate arils",
+     "name": "Pomegranate seeds",
      "slug": "pomegranate"
     },
     {
-     "name": "Fresh edible flowers (nasturtium, viola)",
+     "name": "Edible flowers",
      "slug": "edible-flowers"
-    },
-    {
-     "name": "Dried rose petals (edible)",
-     "slug": null
-    },
-    {
-     "name": "Fleur de sel",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Nuts & Seeds",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Truffle honey or agave with truffle oil",
-     "slug": "truffle-honey"
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Thin rosemary flatbread",
+     "slug": "rosemary-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Sweet & crunchy",
+   "items": [
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    },
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Agave with a drop of truffle oil",
+     "slug": null
+    },
+    {
+     "name": "Edible dried rose petals",
+     "slug": null
+    },
+    {
+     "name": "Flaky salt",
+     "slug": "flaky-sea-salt"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "A board for two should be small and a little luxurious. Rich, buttery macadamias and a creamy aged cashew brie feel indulgent, and a truffle cashew cream adds the earthy, special-occasion note.",
+  "Champagne grapes, pear and pomegranate bring crisp sweetness that matches sparkling wine, and dark chocolate with a pinch of salt is the ending. Edible flowers make it look like you tried much harder than you did."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cashew brie and truffle cream out of the fridge; chill the bubbles."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; spoon the truffle agave into a tiny bowl."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Slice the pear; snip the champagne grapes into small clusters."
+  },
+  {
+   "when": "T–2 min",
+   "what": "Add crackers, flatbread, macadamias and chocolate."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter pomegranate, flowers and rose petals; pour the wine."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "What can I use instead of champagne grapes?",
+   "a": "Small seedless red grapes cut into tiny clusters, or fresh figs when they're in season."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "2 to 4 people as an appetizer, on a 12–14 inch board."
+  }
+ ],
+ "blog": [
+  "date-night-charcuterie-board"
+ ],
+ "slug": "plant-based-date-night-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

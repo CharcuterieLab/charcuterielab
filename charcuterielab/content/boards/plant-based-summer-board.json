@@ -1,59 +1,46 @@
 {
- "slug": "plant-based-summer-board",
  "number": "PB-14",
  "book": "plant",
  "title": "The Summer Fresh Board",
  "category": "plant-based",
- "wave": 4,
- "status": "draft",
  "image": "/images/boards/pb-14.webp",
- "blog": [],
+ "h1": "Plant-Based Summer Fresh Board",
+ "seo_title": "Vegan Summer Board for 6–8: Shopping List & Plan",
+ "description": "A vegan summer board for 6–8: whipped avocado dip, dairy-free tzatziki, herbed white bean dip, watermelon, cucumber ribbons, snap peas, peaches and tomatoes.",
+ "hook": "A cool, crunchy board for hot days: three fresh dips, ice-cold watermelon, cucumber ribbons, snap peas and ripe peaches.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Sparkling Mint",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "16–20\" board",
+ "prep_time": "15–20 min",
+ "cost": "$25–$40",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Dips",
    "items": [
     {
-     "name": "Whipped avocado dip (avocado + lemon + garlic)",
+     "name": "Whipped avocado dip",
      "slug": null
     },
     {
-     "name": "Vegan tzatziki (coconut yogurt + cucumber + dill)",
-     "slug": "tzatziki"
+     "name": "Dairy-free tzatziki",
+     "slug": null
     },
     {
-     "name": "Fresh herb white bean dip",
+     "name": "Herbed white bean dip",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Fresh produce",
    "items": [
     {
-     "name": "Cherry tomatoes, mixed colors",
+     "name": "Watermelon cubes",
      "slug": null
     },
     {
-     "name": "Lemon wedges",
-     "slug": null
-    },
-    {
-     "name": "Basil oil (olive oil blended with basil)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Fresh Produce",
-   "items": [
-    {
-     "name": "Watermelon, cubed (1-inch)",
+     "name": "Cucumber ribbons",
      "slug": null
     },
     {
@@ -61,26 +48,107 @@
      "slug": null
     },
     {
-     "name": "Radishes, halved",
+     "name": "Radishes",
      "slug": null
     },
     {
-     "name": "Fresh mint sprigs",
+     "name": "Mixed cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Peach or nectarine",
+     "slug": "peaches"
+    },
+    {
+     "name": "Lemon wedges",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Pita chips",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Seed crackers",
+     "slug": "seeded-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Finishing touches",
+   "items": [
+    {
+     "name": "Fresh mint and basil",
      "slug": "fresh-mint"
     },
     {
-     "name": "Fresh basil leaves",
-     "slug": "fresh-basil"
+     "name": "Basil oil",
+     "slug": null
+    },
+    {
+     "name": "Flaky sea salt",
+     "slug": "flaky-sea-salt"
+    },
+    {
+     "name": "Chili flakes",
+     "slug": "chili-flakes"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Summer produce is at its best raw and cold, so this board barely needs cooking. Watermelon with mint and a pinch of flaky salt is the star, and snap peas, radishes and cucumber give crunch for the dips.",
+  "The three dips are all cool and bright: lemony avocado, garlicky tzatziki and a herby white bean dip. Basil oil and chili flakes over the tomatoes and peaches add a little heat and colour."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Make the avocado dip with plenty of lemon; chill the watermelon."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Ribbon the cucumber with a peeler; halve the radishes and tomatoes."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fill the dip bowls; drizzle the white bean dip with basil oil."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Slice the peach; add the snap peas and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the cold watermelon, mint, salt and chili flakes; serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "How long can it sit outside?",
+   "a": "No more than 2 hours, or 1 hour above 90°F. Keep the watermelon and dips cold until the last minute and refill from the fridge."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 16–20 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-summer-board",
+ "status": "published",
+ "wave": 4,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

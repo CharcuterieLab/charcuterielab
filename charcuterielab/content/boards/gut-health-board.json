@@ -1,68 +1,84 @@
 {
- "slug": "gut-health-board",
  "number": "PB-08",
  "book": "plant",
  "title": "The Gut-Health Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-08.webp",
- "blog": [],
+ "h1": "Plant-Based Fermented Foods Board",
+ "seo_title": "Fermented Foods Board for 6–8: Vegan Shopping List & Plan",
+ "description": "A vegan fermented foods board for 6–8: miso dip, cultured cashew dip, kimchi, sauerkraut, pickled beets, smoked tempeh, sourdough and seed crackers.",
+ "hook": "A board of tangy, living foods: kimchi, sauerkraut, miso and cultured cashew dip, with smoky tempeh and sourdough to pile them on.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Kombucha or Kefir",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Dips",
    "items": [
     {
-     "name": "Miso dip (white miso + sesame oil)",
+     "name": "White miso dip",
      "slug": null
     },
     {
-     "name": "Cashew kefir dip (store-bought or cultured)",
-     "slug": null
+     "name": "Cultured cashew dip",
+     "slug": "cashew-cheese"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Fermented & pickled",
    "items": [
     {
      "name": "Kimchi",
      "slug": "kimchi"
     },
     {
-     "name": "Pickled cucumber slices (half-sour)",
+     "name": "Sauerkraut",
      "slug": null
+    },
+    {
+     "name": "Pickled beets",
+     "slug": "pickled-beets"
+    },
+    {
+     "name": "Half-sour pickles",
+     "slug": null
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
     }
    ]
   },
   {
-   "name": "Plant Proteins",
+   "name": "Protein & bread",
    "items": [
     {
-     "name": "Smoked tempeh, sliced",
+     "name": "Smoked tempeh",
      "slug": null
     },
     {
-     "name": "Sourdough bread, sliced",
+     "name": "Sourdough",
      "slug": "sourdough"
+    },
+    {
+     "name": "Whole-grain seed crackers",
+     "slug": "seeded-crackers"
     }
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Fresh",
    "items": [
     {
-     "name": "Persian cucumber, sliced",
+     "name": "Persian cucumber",
      "slug": null
     },
     {
-     "name": "Fresh dill sprigs",
+     "name": "Fresh dill",
      "slug": null
     },
     {
@@ -72,12 +88,50 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Fermentation creates big, sour, savoury flavours, which is exactly what a board needs to feel interesting. Kimchi brings heat and funk, sauerkraut and half-sour pickles bring clean acidity, and miso brings deep savoury flavour.",
+  "Smoked tempeh is the hearty centerpiece. It's fermented soybeans pressed into a firm cake, and when sliced and seared it eats a lot like a smoky cured meat. Pile it on sourdough with a little mustard and kraut."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Sear the tempeh slices in a little oil until browned; let them cool."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Stir the miso dip together; drain the kimchi, sauerkraut and beets."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fill small bowls with the dips, ferments and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Slice the sourdough and cucumber; fan the crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the tempeh, dill and microgreens; serve with kombucha."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "Is kimchi always vegan?",
+   "a": "No. Many kimchis contain fish sauce or shrimp paste. Look for one labeled vegan."
+  },
+  {
+   "q": "Do store-bought pickles contain live cultures?",
+   "a": "Only refrigerated, fermented ones. Shelf-stable pickles and sauerkraut are usually pasteurized or made with vinegar, so look in the fridge case for labels that say fermented or raw."
+  }
+ ],
+ "blog": [],
+ "slug": "gut-health-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

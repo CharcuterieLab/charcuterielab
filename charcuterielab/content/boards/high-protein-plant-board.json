@@ -1,47 +1,51 @@
 {
- "slug": "high-protein-plant-board",
  "number": "PB-09",
  "book": "plant",
  "title": "The High-Protein Plant Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-09.webp",
- "blog": [],
+ "h1": "High-Protein Plant-Based Board",
+ "seo_title": "High-Protein Vegan Snack Board for 6–8: Shopping List",
+ "description": "A high-protein vegan snack board for 6–8: edamame, smoked tempeh, lupini beans, roasted chickpeas, hummus, edamame dip, seeds and chickpea crackers.",
+ "hook": "A snack board that fills people up: edamame, smoked tempeh, lupini beans and roasted chickpeas, with two bean dips and plenty of seeds.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Cold-Brew Coffee or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Plant Proteins",
+   "name": "Plant protein",
    "items": [
     {
-     "name": "Shelled edamame, salted",
+     "name": "Salted edamame",
      "slug": null
     },
     {
-     "name": "Smoked tempeh, sliced",
+     "name": "Smoked tempeh",
      "slug": null
     },
     {
-     "name": "Lupini beans (jarred)",
+     "name": "Lupini beans",
      "slug": null
     },
     {
-     "name": "Roasted chickpeas, spiced",
+     "name": "Spiced roasted chickpeas",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Dips",
    "items": [
     {
-     "name": "Pumpkin seeds (pepitas)",
-     "slug": "pumpkin-seeds"
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Edamame dip",
+     "slug": null
     },
     {
      "name": "Tahini drizzle",
@@ -50,38 +54,101 @@
    ]
   },
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Crackers & crunch",
    "items": [
     {
-     "name": "Chickpea hummus, classic",
-     "slug": "hummus"
+     "name": "Chickpea or lentil crackers",
+     "slug": "chickpea-crackers"
     },
     {
-     "name": "High-protein edamame dip",
+     "name": "Seed crackers",
+     "slug": "seeded-crackers"
+    },
+    {
+     "name": "Pea protein puffs",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Seeds",
+   "items": [
+    {
+     "name": "Pumpkin seeds",
+     "slug": "pumpkin-seeds"
+    },
+    {
+     "name": "Sunflower seeds",
+     "slug": "sunflower-seeds"
+    },
+    {
+     "name": "Hemp seeds",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh",
    "items": [
     {
      "name": "Celery sticks",
      "slug": null
     },
     {
-     "name": "Bell pepper strips (mixed colors)",
+     "name": "Bell pepper strips",
+     "slug": null
+    },
+    {
+     "name": "Lemon wedges",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Every item here earns its place with protein: soybeans as edamame and tempeh, chickpeas as hummus, roasted chickpeas and crackers, and lupini beans, which are among the most protein-dense beans you can buy in a jar.",
+  "Protein-heavy food can taste heavy, so the board leans on salt, spice and crunch to keep it fun. Briny lupini, spiced chickpeas and crisp celery and peppers keep people coming back, and lemon and tahini tie the dips together."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Sear the tempeh; thaw the edamame if frozen."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Drain and rinse the lupini beans; cut the celery and peppers."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fill bowls with the dips and drizzle the hummus with tahini."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the edamame, tempeh, lupini and chickpeas around the bowls."
+  },
+  {
+   "when": "T–0",
+   "what": "Fan the crackers; scatter the seeds; add lemon wedges."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "What are lupini beans?",
+   "a": "Large, firm yellow beans sold in jars of brine, popular in Italy and Portugal. They're eaten as a salty snack, often by popping them out of their skins."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "high-protein-plant-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

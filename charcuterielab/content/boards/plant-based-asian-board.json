@@ -1,42 +1,42 @@
 {
- "slug": "plant-based-asian-board",
  "number": "PB-06",
  "book": "plant",
  "title": "The Asian-Inspired Plant Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-06.webp",
- "blog": [],
+ "h1": "Plant-Based Asian-Inspired Board",
+ "seo_title": "Vegan Asian-Inspired Snack Board for 6–8: Shopping List",
+ "description": "A vegan Asian-inspired board for 6–8: miso dip, edamame hummus, salted edamame, nori chips, wasabi peas, watermelon radish, pickled daikon and rice crackers.",
+ "hook": "A board built on umami instead of cheese: miso dip, edamame two ways, nori chips and quick pickles, with soy sauce and chili crisp for dipping.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Green Tea or Junmai",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Dips",
    "items": [
     {
-     "name": "White miso dip (miso + sesame oil + lemon)",
+     "name": "White miso dip",
      "slug": null
     },
     {
      "name": "Edamame hummus",
-     "slug": "hummus"
+     "slug": null
     }
    ]
   },
   {
-   "name": "Plant Proteins",
+   "name": "Snacks",
    "items": [
     {
-     "name": "Shelled edamame, salted",
+     "name": "Salted edamame",
      "slug": null
     },
     {
-     "name": "Nori chips (store-bought)",
+     "name": "Nori chips",
      "slug": null
     },
     {
@@ -46,38 +46,105 @@
    ]
   },
   {
-   "name": "Condiments & Extras",
+   "name": "Fresh & pickled",
    "items": [
     {
-     "name": "Soy sauce or tamari (ramekin)",
+     "name": "Persian cucumber ribbons",
+     "slug": null
+    },
+    {
+     "name": "Watermelon radish",
+     "slug": null
+    },
+    {
+     "name": "Scallions",
+     "slug": null
+    },
+    {
+     "name": "Pickled daikon",
+     "slug": null
+    },
+    {
+     "name": "Pickled ginger",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Persian cucumber, ribboned",
+     "name": "Brown rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Sesame crackers",
+     "slug": "sesame-crackers"
+    }
+   ]
+  },
+  {
+   "name": "For dipping & sprinkling",
+   "items": [
+    {
+     "name": "Soy sauce or tamari",
      "slug": null
     },
     {
-     "name": "Watermelon radish, thinly sliced",
+     "name": "Chili crisp or sriracha",
      "slug": null
     },
     {
-     "name": "Fresh scallions, sliced",
+     "name": "Toasted white and black sesame seeds",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Umami, the savoury taste, is what makes cheese and cured meat so satisfying, and fermented soy has plenty of it. White miso stirred with sesame oil and lemon makes a dip that does the job of a creamy cheese.",
+  "Quick pickles like daikon and ginger bring the sharp, sour contrast, and cucumber and watermelon radish keep things cool and crunchy. Rice and sesame crackers are light enough to let the dips lead."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Stir the miso dip together; thaw the edamame if frozen."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Ribbon the cucumber with a peeler; slice the radish and scallions."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fill bowls with the dips, soy sauce, chili crisp and pickles."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the edamame, nori chips, wasabi peas and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Sprinkle sesame seeds over the dips and edamame; serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "How do I make the miso dip?",
+   "a": "Whisk 3 tablespoons of white miso with 1 teaspoon of toasted sesame oil, a squeeze of lemon and enough water to make it creamy."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-asian-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

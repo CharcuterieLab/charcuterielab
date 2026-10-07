@@ -1,55 +1,46 @@
 {
- "slug": "plant-based-french-bistro-board",
  "number": "PB-04",
  "book": "plant",
  "title": "The French Bistro Plant-Based Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-04.webp",
- "blog": [],
+ "h1": "Plant-Based French Bistro Board",
+ "seo_title": "Vegan French Bistro Board for 6–8: Shopping List & Plan",
+ "description": "A vegan French bistro board for 6–8: cashew brie, aged cashew cheese, walnut pâté, cornichons, Dijon, radishes, baguette, figs and apricot jam.",
+ "hook": "A Paris café board without the dairy: two cultured cashew cheeses, a rich walnut pâté, cornichons and Dijon, and plenty of baguette.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Sparkling Water or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–16\" board",
+ "prep_time": "15–20 min",
+ "cost": "$35–$50",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Plant cheeses & pâté",
    "items": [
     {
-     "name": "Cashew brie (aged-style)",
-     "slug": "brie"
+     "name": "Cashew brie",
+     "slug": "vegan-brie"
     },
     {
-     "name": "Cashew camembert or aged cashew",
-     "slug": "camembert"
+     "name": "Aged cashew cheese",
+     "slug": "cashew-cheese"
     },
     {
-     "name": "Vegan walnut pâté",
+     "name": "Walnut pâté",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Fresh & pickled",
    "items": [
     {
-     "name": "Walnut halves",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Fresh Produce",
-   "items": [
-    {
-     "name": "Red grapes, whole cluster",
+     "name": "Red grapes",
      "slug": "grapes"
     },
     {
-     "name": "Radishes, sliced thin",
+     "name": "Radishes",
      "slug": null
     },
     {
@@ -57,22 +48,99 @@
      "slug": "cornichons"
     },
     {
-     "name": "Fresh chives, chopped",
+     "name": "Fresh chives",
      "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Baguette",
+     "slug": "baguette"
     },
     {
-     "name": "Dried figs, halved",
+     "name": "Multigrain crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Nuts & sweet",
+   "items": [
+    {
+     "name": "Walnut halves",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Apricot jam",
+     "slug": "apricot-jam"
+    },
+    {
+     "name": "Dried figs",
      "slug": "dried-figs"
+    }
+   ]
+  },
+  {
+   "name": "Mustard",
+   "items": [
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "French bistro food balances richness with sharp, sour bites, and that works just as well without dairy. Cornichons and Dijon sit next to the walnut pâté to cut through its richness, the same way they would with a pork pâté.",
+  "Thin radishes with chives are a French classic and add a peppery crunch. Apricot jam and dried figs go beside the cashew brie, where the sweetness pulls out the cheese's tang."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cashew cheeses and walnut pâté out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the baguette and radishes; chop the chives."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and pâté; fill the mustard, cornichon and jam bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the bread, crackers and grapes."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter the walnuts, almonds and figs; top the radishes with chives."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "How do I make walnut pâté?",
+   "a": "Blend toasted walnuts with sautéed mushrooms, shallot, a little miso and fresh thyme until smooth. Some stores also sell a ready-made vegan pâté."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-french-bistro-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

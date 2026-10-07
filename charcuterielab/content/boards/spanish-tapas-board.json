@@ -1,25 +1,25 @@
 {
- "slug": "spanish-tapas-board",
  "number": "B1-03",
  "book": "main",
  "title": "Spanish Tapas Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-03-spanish-tapas.webp",
- "blog": [],
+ "h1": "Spanish Tapas Board",
+ "seo_title": "Spanish Tapas Board for 8–12: Shopping List & Plan",
+ "description": "A Spanish tapas board for 8–12: Manchego with membrillo, Serrano ham, chorizo, lomo, fuet, Manzanilla olives, piquillo peppers and pan con tomate.",
+ "hook": "A tapas bar on one board: Manchego with quince paste, paper-thin Serrano, paprika-red chorizo and toast rubbed with ripe tomato.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$90",
  "difficulty": "Beginner–Mid",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Manchego (aged 6 mo)",
+     "name": "Manchego, aged about 6 months",
      "slug": "manchego"
     },
     {
@@ -27,41 +27,24 @@
      "slug": "mahon"
     },
     {
-     "name": "Ibérico Cheese",
+     "name": "Ibérico cheese",
      "slug": null
     }
    ]
   },
   {
-   "name": "Bread & Crackers",
+   "name": "Meat",
    "items": [
     {
-     "name": "Pan con Tomate (toasted",
-     "slug": null
+     "name": "Serrano ham",
+     "slug": "jamon-serrano"
     },
     {
-     "name": "Picos (Spanish breadsticks)",
-     "slug": null
-    },
-    {
-     "name": "Water Crackers",
-     "slug": "water-crackers"
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
-   "items": [
-    {
-     "name": "Serrano Ham",
-     "slug": null
-    },
-    {
-     "name": "Spanish Chorizo (cured)",
+     "name": "Spanish chorizo",
      "slug": "chorizo"
     },
     {
-     "name": "Lomo (cured pork loin)",
+     "name": "Lomo",
      "slug": "lomo"
     },
     {
@@ -71,54 +54,117 @@
    ]
   },
   {
-   "name": "Olives & Vegetables",
+   "name": "Olives & peppers",
    "items": [
     {
-     "name": "Manzanilla Olives (stuffed)",
+     "name": "Manzanilla olives",
      "slug": "manzanilla-olives"
     },
     {
-     "name": "Piquillo Peppers",
+     "name": "Piquillo peppers",
      "slug": "piquillo-peppers"
     },
     {
-     "name": "Marcona Almonds (salted)",
-     "slug": "marcona-almonds"
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
     },
     {
-     "name": "Roasted Red Peppers",
-     "slug": "roasted-red-peppers"
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
     }
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Sweet",
    "items": [
     {
-     "name": "Quince Paste (Membrillo) 3–4 oz",
-     "slug": null
+     "name": "Membrillo (quince paste)",
+     "slug": "membrillo"
     },
     {
-     "name": "Extra Virgin Olive Oil 2 tbsp drizzle",
-     "slug": "olive-oil"
-    },
-    {
-     "name": "Smoked Paprika (garnish) pinch",
-     "slug": null
-    },
-    {
-     "name": "Grapes (red, seedless)",
+     "name": "Red grapes",
      "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Baguette for pan con tomate",
+     "slug": "baguette"
+    },
+    {
+     "name": "Picos (Spanish breadsticks)",
+     "slug": null
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Finishing touches",
+   "items": [
+    {
+     "name": "Extra virgin olive oil",
+     "slug": null
+    },
+    {
+     "name": "Smoked paprika",
+     "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "The board is built around Spain's best-known cheese pairing, Manchego with membrillo. The firm, nutty sheep's cheese and the sweet, slightly tart quince paste are served together all over Spain, and the rest of the board borrows that sweet-and-salty idea.",
+  "The four meats run from delicate to bold: silky Serrano, lean lomo, snappy fuet and smoky, paprika-spiced chorizo. Briny Manzanilla olives and sweet piquillo peppers sit between them, so the smoke and salt never pile up."
+ ],
+ "timeline": [
+  {
+   "when": "T–40 min",
+   "what": "Take the Manchego, Mahón and Ibérico out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; toast the baguette slices."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Rub the toast with ripe tomato and drizzle with olive oil."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses with the membrillo beside the Manchego; drape the Serrano."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the chorizo, olives, peppers, almonds and grapes; finish with a pinch of smoked paprika."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Spanish tapas board?",
+   "a": "Manchego with quince paste, Spanish cured meats like Serrano ham, chorizo, lomo and fuet, Manzanilla olives, piquillo peppers, Marcona almonds and toast rubbed with tomato."
+  },
+  {
+   "q": "What wine goes with a Spanish tapas board?",
+   "a": "Stay in Spain: a dry fino sherry, a Tempranillo such as Rioja, or a crisp Albariño. Cava works if you want bubbles."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "8 to 12 people on an 18–22 inch board."
+  }
+ ],
+ "blog": [
+  "chorizo-manchego-pairing",
+  "best-spanish-chorizo"
+ ],
+ "slug": "spanish-tapas-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

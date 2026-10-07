@@ -1,29 +1,29 @@
 {
- "slug": "french-brasserie-board",
  "number": "B1-04",
  "book": "main",
  "title": "French Brasserie Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-04-french-brasserie.webp",
- "blog": [],
+ "h1": "French Brasserie Board",
+ "seo_title": "French Charcuterie Board for 8–12: Shopping List & Plan",
+ "description": "A French brasserie board for 8–12: brie, Comté, Roquefort, goat cheese, saucisson, pâté, cornichons, Dijon and baguette. What to buy and a 45-minute plan.",
+ "hook": "The board you'd get at a Paris brasserie: a ripe brie, a wedge of Comté, pâté with mustard and cornichons, and plenty of baguette.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$60–$95",
  "difficulty": "Beginner–Mid",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Brie de Meaux",
+     "name": "Brie",
      "slug": "brie"
     },
     {
-     "name": "Comté (18 mo aged)",
+     "name": "Comté, aged about 18 months",
      "slug": "comte"
     },
     {
@@ -31,8 +31,50 @@
      "slug": "roquefort"
     },
     {
-     "name": "Chèvre (fresh goat)",
+     "name": "Fresh goat cheese",
      "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Saucisson sec",
+     "slug": "saucisson-sec"
+    },
+    {
+     "name": "Jambon de Paris (cooked ham)",
+     "slug": null
+    },
+    {
+     "name": "Pâté de campagne",
+     "slug": "pate-de-campagne"
+    }
+   ]
+  },
+  {
+   "name": "Condiments",
+   "items": [
+    {
+     "name": "Whole-grain Dijon mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Softened butter",
+     "slug": null
     }
    ]
   },
@@ -40,80 +82,83 @@
    "name": "Bread",
    "items": [
     {
-     "name": "French Baguette",
+     "name": "Baguette",
      "slug": "baguette"
     },
     {
-     "name": "Levain/Sourdough",
+     "name": "Sourdough",
      "slug": "sourdough"
     },
     {
-     "name": "Butter Crackers",
+     "name": "Butter crackers",
      "slug": "butter-crackers"
-    },
-    {
-     "name": "Dijon Mustard (whole grain)",
-     "slug": "dijon-mustard"
-    },
-    {
-     "name": "Cornichons 12–15 pieces",
-     "slug": "cornichons"
-    },
-    {
-     "name": "Fig Jam",
-     "slug": "fig-jam"
-    },
-    {
-     "name": "Honey (raw)",
-     "slug": "honey"
     }
    ]
   },
   {
-   "name": "Cured Meats",
+   "name": "Fruit & nuts",
    "items": [
     {
-     "name": "Saucisson Sec",
-     "slug": "saucisson-sec"
-    },
-    {
-     "name": "Jambon de Paris (ham)",
-     "slug": null
-    },
-    {
-     "name": "Pâté de Campagne",
-     "slug": "pate-de-campagne"
-    }
-   ]
-  },
-  {
-   "name": "Fruits & Extras",
-   "items": [
-    {
-     "name": "Red Grapes",
+     "name": "Red grapes",
      "slug": "grapes"
     },
     {
-     "name": "Walnuts (toasted)",
+     "name": "Toasted walnuts",
      "slug": "walnuts"
     },
     {
-     "name": "Unsalted Butter (softened)",
-     "slug": null
-    },
-    {
-     "name": "Fresh Thyme",
+     "name": "Fresh thyme",
      "slug": "fresh-thyme"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "French bistro boards lean on sharp, sour condiments to cut through rich food. Cornichons and grainy Dijon sit right next to the pâté and saucisson, and their acidity makes the fat taste lighter.",
+  "The four cheeses are one of each French style: soft-ripened brie, nutty mountain Comté, salty Roquefort and fresh, tangy goat cheese. Fig jam and honey go by the Roquefort, walnuts by the Comté, and soft butter goes on the baguette with the ham, the way a jambon-beurre is eaten in France."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take the Comté out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie and Roquefort; let the butter soften."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats, pâté and goat cheese; slice the baguette."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and pâté; fill the mustard, cornichon and jam bowls."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the bread, grapes and walnuts; tuck in the thyme."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a French charcuterie board?",
+   "a": "A soft cheese like brie, a mountain cheese like Comté, a blue, a goat cheese, saucisson sec, ham, pâté, cornichons, Dijon mustard and plenty of baguette."
+  },
+  {
+   "q": "What wine goes with it?",
+   "a": "A Beaujolais or a light Pinot Noir suits almost everything here. Add a sweet Sauternes if you want the classic partner for Roquefort."
+  },
+  {
+   "q": "Is this board OK for pregnant guests?",
+   "a": "Skip the refrigerated pâté and the Roquefort, which is made from raw sheep's milk. The CDC suggests shelf-stable pâté and pasteurized cheeses instead."
+  }
+ ],
+ "blog": [
+  "brie-charcuterie-board"
+ ],
+ "slug": "french-brasserie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

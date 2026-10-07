@@ -1,134 +1,176 @@
 {
- "slug": "beer-and-charcuterie-board",
  "number": "B1-10",
  "book": "main",
  "title": "Beer & Charcuterie Board",
  "category": "pairings-sweet",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-10-beer-and-charcuterie.webp",
- "blog": [
-  "beer-pairing"
- ],
+ "h1": "Beer & Charcuterie Board",
+ "seo_title": "Beer and Charcuterie Board for 8–12: Shopping List & Pairings",
+ "description": "A beer and charcuterie board for 8–12: sharp cheddar, smoked Gouda, pepper jack, Gruyère, summer sausage, pretzels, pickles and mustard, matched to beer styles.",
+ "hook": "Built for a cooler of beer: sharp cheddar for the IPA, smoked Gouda for the dark beer and pepper jack for the lager, plus pretzels, pickles and two mustards.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$85",
  "difficulty": "Beginner–Mid",
  "groups": [
   {
-   "name": "Cheeses By Beer Pairing",
+   "name": "Cheese and its beer",
    "items": [
     {
-     "name": "Sharp Cheddar",
+     "name": "Sharp cheddar · IPA",
      "slug": "aged-cheddar"
     },
     {
-     "name": "Smoked Gouda",
+     "name": "Smoked Gouda · porter or smoked beer",
      "slug": "smoked-gouda"
     },
     {
-     "name": "Pepper Jack",
+     "name": "Pepper jack · lager or pilsner",
      "slug": "pepper-jack"
     },
     {
-     "name": "Gruyère",
+     "name": "Gruyère · Belgian-style ale",
      "slug": "gruyere"
-    },
-    {
-     "name": "Mustard (whole grain + yellow) 3 tbsp",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Beer Snack Elements",
+   "name": "Meat",
    "items": [
     {
-     "name": "Pretzels (mini salted)",
-     "slug": null
-    },
-    {
-     "name": "Spiced Almonds",
-     "slug": "almonds"
-    },
-    {
-     "name": "Pickled Jalapeños 8–10 slices",
-     "slug": "pickled-jalapenos"
-    },
-    {
-     "name": "Dill Pickle Chips",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Honey",
-     "slug": "honey"
-    },
-    {
-     "name": "Summer Sausage",
+     "name": "Summer sausage",
      "slug": "summer-sausage"
     },
     {
-     "name": "Smoked Brisket/BBQ Beef slices",
+     "name": "Smoked brisket",
      "slug": null
     },
     {
-     "name": "Hard Salami",
-     "slug": "genoa-salami"
+     "name": "Hard salami",
+     "slug": null
     },
     {
      "name": "Pepperoni",
      "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Pub snacks",
+   "items": [
+    {
+     "name": "Mini pretzels",
+     "slug": null
+    },
+    {
+     "name": "Spiced almonds",
+     "slug": "spiced-nut-mix"
+    },
+    {
+     "name": "Dill pickle chips",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Mustard & honey",
+   "items": [
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Yellow mustard",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Bread & extras",
+   "items": [
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Pumpernickel",
+     "slug": "pumpernickel"
     },
     {
      "name": "Sourdough baguette",
      "slug": "sourdough"
-    }
-   ]
-  },
-  {
-   "name": "Bread & Crackers",
-   "items": [
-    {
-     "name": "Butter Crackers",
-     "slug": "butter-crackers"
     },
     {
-     "name": "Pumpernickel slices (small) 6–8 slices",
-     "slug": "pumpernickel"
-    }
-   ]
-  },
-  {
-   "name": "Extras",
-   "items": [
-    {
-     "name": "Red Grapes",
+     "name": "Red grapes",
      "slug": "grapes"
     },
     {
-     "name": "Cherry Tomatoes",
+     "name": "Cherry tomatoes",
      "slug": null
-    },
-    {
-     "name": "Cornichons 10–12",
-     "slug": "cornichons"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Beer pairs with cheese differently from wine. Its bubbles scrub fat off the tongue, and hops and roasted malt can stand up to strong flavors. A hoppy IPA meets sharp cheddar, a crisp lager cools the heat of pepper jack, and a dark or smoked beer echoes smoked Gouda.",
+  "The meats are the hearty, smoky kind that suit beer: summer sausage, brisket, salami and pepperoni. Salty pretzels, dill pickles and pickled jalapeños make it pub food, and the two mustards tie the meat and pretzels together."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take the cheddar and Gruyère out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the smoked Gouda and pepper jack."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; slice the baguette and pumpernickel."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses with the mustard bowls in the middle; fan out the meats."
+  },
+  {
+   "when": "T–0",
+   "what": "Fill the gaps with pretzels, pickles, almonds and grapes; open the beer."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which beers go with this board?",
+   "a": "Four styles cover it: an IPA for the cheddar, a porter or smoked beer for the Gouda, a lager or pilsner for the pepper jack, and a Belgian-style ale for the Gruyère."
+  },
+  {
+   "q": "Can I serve it without beer?",
+   "a": "Yes. Hard cider or sparkling water with lemon both work, because the bubbles do the same job as beer's carbonation."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "8 to 12 people on an 18–22 inch board."
+  }
+ ],
+ "blog": [
+  "beer-pairing"
+ ],
+ "slug": "beer-and-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

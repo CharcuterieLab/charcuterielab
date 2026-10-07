@@ -1,29 +1,29 @@
 {
- "slug": "plant-based-starter-board",
  "number": "PB-01",
  "book": "plant",
  "title": "The Classic Plant-Based Starter Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-01.webp",
- "blog": [],
+ "h1": "Plant-Based Starter Board",
+ "seo_title": "Vegan Charcuterie Board for 6–8: Easy Starter Shopping List",
+ "description": "An easy vegan charcuterie board for 6–8: cashew brie, hummus, almond ricotta, crisp vegetables, grapes, olives, nuts and fig jam. What to buy and a 25-minute plan.",
+ "hook": "The plant-based board to make first: one creamy cashew cheese, two dips, crunchy vegetables and the same fruit, nuts and jam you'd put on any cheese board.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Sparkling Water w/",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–16\" board",
+ "prep_time": "20–25 min",
+ "cost": "$35–$50",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Plant cheeses & dips",
    "items": [
     {
-     "name": "Cashew brie (store-bought)",
-     "slug": "brie"
+     "name": "Cashew brie",
+     "slug": "vegan-brie"
     },
     {
-     "name": "Classic hummus",
+     "name": "Hummus",
      "slug": "hummus"
     },
     {
@@ -33,10 +33,10 @@
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Fresh produce",
    "items": [
     {
-     "name": "English cucumber, sliced",
+     "name": "English cucumber",
      "slug": null
     },
     {
@@ -50,10 +50,44 @@
     {
      "name": "Red grapes",
      "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Sourdough crackers",
+     "slug": null
     },
     {
-     "name": "Marinated mixed olives",
-     "slug": null
+     "name": "Seeded rye crisps",
+     "slug": "rye-crispbread"
+    },
+    {
+     "name": "Pita chips",
+     "slug": "pita-chips"
+    }
+   ]
+  },
+  {
+   "name": "Nuts, olives & sweet",
+   "items": [
+    {
+     "name": "Toasted walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Marinated olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
     },
     {
      "name": "Dried apricots",
@@ -62,12 +96,52 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "A good cheese board is about contrast, and none of that needs dairy. The cashew brie and almond ricotta bring the creamy, rich part; olives and crisp vegetables bring salt and crunch; grapes, apricots and fig jam bring the sweet.",
+  "Put the fig jam right beside the cashew brie and the walnuts next to both. Sweet, creamy and toasty in one bite is the same pairing people love with a dairy brie, and it's the easiest way to show a skeptical guest that plant cheese works."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Take the cashew brie and almond ricotta out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the cucumber; rinse the tomatoes, snap peas and grapes."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Fill bowls with hummus, ricotta, olives and fig jam; place the cashew brie."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fan the crackers and arrange the vegetables around the bowls."
+  },
+  {
+   "when": "T–0",
+   "what": "Fill the gaps with nuts and apricots; serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "Where do I find cashew brie?",
+   "a": "Most well-stocked grocery stores carry cultured cashew cheeses near the specialty cheese or in the vegan section. Any soft, spreadable nut cheese works in its place."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  }
+ ],
+ "blog": [
+  "dairy-free-charcuterie-board"
+ ],
+ "slug": "plant-based-starter-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

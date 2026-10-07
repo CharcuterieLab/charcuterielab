@@ -1,64 +1,93 @@
 {
- "slug": "plant-based-italian-board",
  "number": "PB-03",
  "book": "plant",
  "title": "The Italian Plant-Based Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-03.webp",
- "blog": [],
+ "h1": "Plant-Based Italian Board",
+ "seo_title": "Vegan Italian Antipasto Board for 6–8: Shopping List",
+ "description": "A vegan Italian antipasto board for 6–8: cashew mozzarella, cashew parmesan, white bean dip, caponata, artichokes, roasted peppers, olives and crostini.",
+ "hook": "An Italian antipasto board with no dairy and no meat: cashew mozzarella with basil, a white bean bruschetta dip, caponata and all the jarred favorites.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "San Pellegrino",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$40–$55",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Plant cheeses & dips",
    "items": [
     {
-     "name": "Cashew mozzarella (fresh-style)",
+     "name": "Cashew mozzarella",
+     "slug": "cashew-cheese"
+    },
+    {
+     "name": "Cashew parmesan",
      "slug": null
     },
     {
-     "name": "Cashew parmesan (shredded)",
+     "name": "White bean dip",
      "slug": null
     },
     {
-     "name": "White bean bruschetta dip",
+     "name": "Caponata (eggplant relish)",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
-   "items": [
-    {
-     "name": "Sun-dried tomatoes in oil",
-     "slug": "sun-dried-tomatoes"
-    }
-   ]
-  },
-  {
-   "name": "Fresh Produce",
+   "name": "Antipasti",
    "items": [
     {
      "name": "Marinated artichoke hearts",
-     "slug": null
+     "slug": "marinated-artichokes"
     },
     {
-     "name": "Roasted red peppers, sliced",
+     "name": "Roasted red peppers",
      "slug": "roasted-red-peppers"
     },
     {
-     "name": "Fresh basil leaves",
-     "slug": "fresh-basil"
+     "name": "Sun-dried tomatoes",
+     "slug": "sun-dried-tomatoes"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
     },
     {
      "name": "Cherry tomatoes",
      "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Crostini",
+     "slug": "crostini"
+    },
+    {
+     "name": "Grissini",
+     "slug": "grissini"
+    }
+   ]
+  },
+  {
+   "name": "Finishing touches",
+   "items": [
+    {
+     "name": "Fresh basil",
+     "slug": "fresh-basil"
+    },
+    {
+     "name": "Extra virgin olive oil",
+     "slug": null
+    },
+    {
+     "name": "Balsamic glaze",
+     "slug": "balsamic-glaze"
     },
     {
      "name": "Flaky sea salt",
@@ -67,12 +96,50 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Most of an Italian antipasto board was already plant-based: marinated artichokes, roasted peppers, olives, sun-dried tomatoes and bread. Swap the cheese for cashew mozzarella and a sprinkle of cashew parmesan and the board tastes the same.",
+  "Caponata, Sicily's sweet-and-sour eggplant relish, does what cured meat usually does here: it brings the rich, savoury bite. Spoon it onto crostini with a little white bean dip, and finish the mozzarella with basil, olive oil and flaky salt."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cashew mozzarella out of the fridge; drain the jarred vegetables."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Fill the bowls with white bean dip, caponata and olives."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the mozzarella with basil and tomatoes; drizzle with oil and balsamic."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the artichokes, peppers and sun-dried tomatoes."
+  },
+  {
+   "when": "T–0",
+   "what": "Fan the crostini and grissini; scatter cashew parmesan and sea salt."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "What can I use instead of cashew mozzarella?",
+   "a": "Any fresh-style vegan mozzarella works, or use extra white bean dip seasoned with lemon, garlic and basil."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–18 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-italian-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

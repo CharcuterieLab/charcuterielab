@@ -1,124 +1,167 @@
 {
- "slug": "greek-mediterranean-board",
  "number": "B1-05",
  "book": "main",
  "title": "Greek Mediterranean Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-05-greek-mediterranean.webp",
- "blog": [],
+ "h1": "Greek Mediterranean Board",
+ "seo_title": "Greek Mediterranean Board for 8–12: Shopping List & Plan",
+ "description": "A Greek charcuterie board for 8–12: feta, grilled halloumi, kasseri, Kalamata olives, tzatziki, hummus, cucumber and pita. What to buy and a 30-minute plan.",
+ "hook": "Feta in olive oil, warm grilled halloumi, two kinds of olives and a bowl of tzatziki: a board that eats like a Greek taverna meze table.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$50–$80",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Feta (block in brine)",
+     "name": "Feta in brine",
      "slug": "feta"
     },
     {
-     "name": "Halloumi",
+     "name": "Halloumi, seared",
      "slug": "halloumi"
     },
     {
      "name": "Kasseri",
      "slug": null
-    },
-    {
-     "name": "Roasted Red Peppers",
-     "slug": "roasted-red-peppers"
     }
    ]
   },
   {
-   "name": "Vegetables & Olives",
+   "name": "Meat",
    "items": [
     {
-     "name": "Kalamata Olives (pitted)",
+     "name": "Greek-style salami",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Olives & vegetables",
+   "items": [
+    {
+     "name": "Kalamata olives",
      "slug": "kalamata-olives"
     },
     {
-     "name": "Castelvetrano Olives",
+     "name": "Castelvetrano olives",
      "slug": "castelvetrano-olives"
     },
     {
-     "name": "Pepperoncini 8–10 pieces",
+     "name": "Pepperoncini",
      "slug": "pepperoncini"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
+    },
     {
-     "name": "Cherry Tomatoes",
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Cherry tomatoes",
      "slug": null
     },
     {
-     "name": "Greek Salami (Loukanika)",
-     "slug": null
-    },
-    {
-     "name": "Cucumber Slices ½ cucumber",
-     "slug": null
-    },
-    {
-     "name": "Prosciutto or Parma Ham",
+     "name": "Cucumber",
      "slug": null
     }
    ]
   },
   {
-   "name": "Bread & Crackers",
+   "name": "Dips",
    "items": [
     {
-     "name": "Pita Bread",
-     "slug": null
-    },
-    {
-     "name": "Pita Chips 1 bag",
-     "slug": "pita-chips"
-    },
-    {
-     "name": "Water Crackers",
-     "slug": "water-crackers"
-    }
-   ]
-  },
-  {
-   "name": "Spreads & Extras",
-   "items": [
-    {
-     "name": "Tzatziki (store-bought or homema",
+     "name": "Tzatziki",
      "slug": "tzatziki"
     },
     {
      "name": "Hummus",
      "slug": "hummus"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Pita bread",
+     "slug": null
     },
     {
-     "name": "Extra Virgin Olive Oil",
-     "slug": "olive-oil"
+     "name": "Pita chips",
+     "slug": "pita-chips"
     },
     {
-     "name": "Dried Oregano & Kalamata drizzle pinch",
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Finishing touches",
+   "items": [
+    {
+     "name": "Extra virgin olive oil",
+     "slug": null
+    },
+    {
+     "name": "Dried oregano",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Greek meze is built on brine and olive oil. Salty feta, Kalamata olives and pepperoncini are balanced by cool, creamy tzatziki and fresh cucumber and tomato, so the board stays light even with two salty cheeses on it.",
+  "Halloumi is the star because it doesn't melt. Seared in a hot pan it gets a golden crust and a chewy, squeaky center. Cook it right before guests arrive and put it in the middle, where everyone can reach it while it's warm."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the kasseri out of the fridge; drain the feta and olives."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; slice the cucumber and cut the pita into wedges."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Fill the tzatziki and hummus bowls; place the feta and drizzle it with oil and oregano."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Sear the halloumi in a dry pan, 1–2 minutes a side."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the warm halloumi, meats, olives and pita; serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do I have to cook the halloumi?",
+   "a": "Yes. Raw halloumi is rubbery and very salty. Sear slices in a hot, dry pan for 1–2 minutes a side and serve them warm."
+  },
+  {
+   "q": "What can I use instead of kasseri?",
+   "a": "Kefalograviera or a mild provolone. Both are firm, a little salty and slice cleanly."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "8 to 12 people on an 18–22 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "greek-mediterranean-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

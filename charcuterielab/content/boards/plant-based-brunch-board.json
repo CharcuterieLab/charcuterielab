@@ -1,73 +1,145 @@
 {
- "slug": "plant-based-brunch-board",
  "number": "PB-10",
  "book": "plant",
  "title": "The Breakfast & Brunch Plant Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-10.webp",
- "blog": [],
+ "h1": "Plant-Based Brunch Board",
+ "seo_title": "Vegan Brunch Board for 6–8: Shopping List & Plan",
+ "description": "A vegan brunch board for 6–8: avocado, vegan cream cheese, almond butter, berries, banana, granola, bagel crisps, sourdough toast, jam and maple or agave.",
+ "hook": "A build-your-own brunch board: toast and bagel crisps with avocado, vegan cream cheese, almond butter, berries and jam, so everyone makes their own perfect bite.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Cold Brew Coffee or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–18\" board",
+ "prep_time": "15–20 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Spreads",
    "items": [
+    {
+     "name": "Vegan cream cheese",
+     "slug": "vegan-cream-cheese"
+    },
     {
      "name": "Almond butter",
      "slug": null
     },
     {
-     "name": "Vegan cream cheese (cashew)",
-     "slug": "vegan-cream-cheese"
+     "name": "Vegan lemon curd",
+     "slug": null
     },
     {
-     "name": "Vegan lemon curd",
-     "slug": "lemon-curd"
+     "name": "Chia or raspberry jam",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Fruit",
    "items": [
     {
-     "name": "Sliced avocado (2 avocados)",
+     "name": "Avocado",
      "slug": null
     },
     {
-     "name": "Fresh strawberries, halved",
+     "name": "Strawberries and blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Banana",
      "slug": null
     },
     {
-     "name": "Blueberries",
-     "slug": null
-    },
-    {
-     "name": "Banana, sliced in coins",
-     "slug": null
-    },
-    {
-     "name": "Fresh mint sprigs",
+     "name": "Fresh mint",
      "slug": "fresh-mint"
+    }
+   ]
+  },
+  {
+   "name": "Bread & crunch",
+   "items": [
+    {
+     "name": "Everything bagel crisps",
+     "slug": "bagel-chips"
     },
     {
-     "name": "Cinnamon (for dusting)",
+     "name": "Sourdough toast",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Granola clusters",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Finishing touches",
+   "items": [
+    {
+     "name": "Toasted walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Agave or maple syrup",
+     "slug": null
+    },
+    {
+     "name": "Flaky sea salt",
+     "slug": "flaky-sea-salt"
+    },
+    {
+     "name": "Cinnamon",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Brunch boards work when there's a savoury side and a sweet side. Avocado with flaky salt and vegan cream cheese on bagel crisps is the savoury corner; almond butter, banana, berries and jam are the sweet one.",
+  "Granola clusters and toasted walnuts add crunch to the soft fruit and spreads, and a dusting of cinnamon on the banana with a drizzle of agave makes it taste like dessert for breakfast."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the vegan cream cheese out of the fridge; toast the sourdough."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Fill bowls with the spreads and jam; wash the berries."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the bagel crisps, toast and granola around the bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Slice the banana; dust it with cinnamon."
+  },
+  {
+   "when": "T–0",
+   "what": "Slice the avocado last, sprinkle with salt, and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "How do I stop the avocado and banana browning?",
+   "a": "Slice them last, right before serving, and squeeze a little lemon juice over the avocado."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–18 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-brunch-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

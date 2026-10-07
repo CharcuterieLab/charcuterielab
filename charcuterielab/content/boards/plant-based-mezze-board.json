@@ -1,48 +1,39 @@
 {
- "slug": "plant-based-mezze-board",
  "number": "PB-05",
  "book": "plant",
  "title": "The Middle Eastern Mezze Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-05.webp",
- "blog": [],
+ "h1": "Plant-Based Middle Eastern Mezze Board",
+ "seo_title": "Vegan Mezze Board for 6–8: Shopping List & Plan",
+ "description": "A vegan Middle Eastern mezze board for 6–8: muhammara, dairy-free labneh, hummus, falafel, dolmas, za'atar flatbread, pistachios, dates and pomegranate.",
+ "hook": "A mezze table on one board: smoky-sweet muhammara, tangy dairy-free labneh, falafel and dolmas, with dates, pistachios and pomegranate for color.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Pomegranate Juice or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "16–20\" board",
+ "prep_time": "20–25 min",
+ "cost": "$35–$50",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Dips",
    "items": [
     {
-     "name": "Muhammara (walnut-red pepper spread)",
+     "name": "Muhammara",
      "slug": "muhammara"
     },
     {
-     "name": "Vegan labneh (strained coconut yogurt)",
-     "slug": "labneh"
+     "name": "Dairy-free labneh (coconut yogurt)",
+     "slug": null
     },
     {
-     "name": "Classic hummus",
+     "name": "Hummus",
      "slug": "hummus"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
-   "items": [
-    {
-     "name": "Pistachios, shelled",
-     "slug": "pistachios"
-    }
-   ]
-  },
-  {
-   "name": "Plant Proteins",
+   "name": "Plant protein",
    "items": [
     {
      "name": "Falafel bites",
@@ -55,34 +46,109 @@
    ]
   },
   {
-   "name": "Fresh Produce",
+   "name": "Fresh produce",
    "items": [
     {
-     "name": "Mini cucumber, sliced",
+     "name": "Mini cucumbers",
      "slug": null
     },
     {
      "name": "Cherry tomatoes",
      "slug": null
+    },
+    {
+     "name": "Fresh mint and parsley",
+     "slug": "fresh-mint"
     }
    ]
   },
   {
-   "name": "Condiments & Extras",
+   "name": "Bread",
    "items": [
     {
-     "name": "Sumac (for dusting)",
+     "name": "Za'atar flatbread or pita",
+     "slug": null
+    },
+    {
+     "name": "Seeded lavash crackers",
+     "slug": "lavash"
+    }
+   ]
+  },
+  {
+   "name": "Nuts, fruit & spice",
+   "items": [
+    {
+     "name": "Pistachios",
+     "slug": "pistachios"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Za'atar olive oil",
+     "slug": "za-atar"
+    },
+    {
+     "name": "Sumac",
+     "slug": null
+    },
+    {
+     "name": "Lemon wedges",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Mezze layers flavours rather than piling up one ingredient. Muhammara is sweet, smoky and a little spicy from roasted peppers and walnuts; the coconut labneh is cool and tangy; the hummus is mild and nutty. Guests can mix them on the same piece of flatbread.",
+  "Sumac, za'atar and lemon give the board its sour, herby edge, and dates and pomegranate seeds give it bursts of sweetness. Pistachios add crunch next to the soft falafel and dolmas."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Bake the falafel bites; take the dips out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Spoon the dips into bowls; dust the labneh with sumac and drizzle with za'atar oil."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Slice the cucumbers; warm the flatbread."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Place the dolmas, dates and tomatoes around the bowls."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the warm falafel, flatbread, pistachios, pomegranate and herbs."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "How do I make dairy-free labneh?",
+   "a": "Spoon thick, unsweetened coconut or cashew yogurt into a strainer lined with cheesecloth, add a pinch of salt and let it drain in the fridge overnight."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 16–20 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-mezze-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

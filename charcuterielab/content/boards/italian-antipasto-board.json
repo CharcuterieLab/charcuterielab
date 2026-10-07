@@ -1,39 +1,85 @@
 {
- "slug": "italian-antipasto-board",
  "number": "B1-02",
  "book": "main",
  "title": "Italian Antipasto Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-02-italian-antipasto.webp",
- "blog": [],
+ "h1": "Italian Antipasto Board",
+ "seo_title": "Italian Antipasto Board for 8–12: Shopping List & Plan",
+ "description": "An Italian antipasto board for 8–12: Parmigiano, mozzarella, provolone, prosciutto, mortadella, artichokes, olives and focaccia. What to buy and a 60-minute plan.",
+ "hook": "The board that tastes like the start of a long Italian lunch: salty, briny, a little sweet, and built almost entirely from the deli counter and a few jars.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "20\"–26\" board nnnnn",
+ "board_size": "20–26\" board",
  "prep_time": "30–35 min",
  "cost": "$65–$110",
  "difficulty": "Beginner–Mid",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Parmigiano-Reggiano",
      "slug": "parmigiano-reggiano"
     },
     {
-     "name": "Fresh Mozzarella",
+     "name": "Fresh mozzarella balls",
      "slug": "fresh-mozzarella"
     },
     {
-     "name": "Provolone",
-     "slug": null
+     "name": "Sharp provolone",
+     "slug": "aged-provolone"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Mortadella",
+     "slug": "mortadella"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    }
+   ]
+  },
+  {
+   "name": "Antipasti",
+   "items": [
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Marinated artichoke hearts",
+     "slug": "marinated-artichokes"
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Pepperoncini",
+     "slug": "pepperoncini"
+    },
+    {
+     "name": "Sun-dried tomatoes",
+     "slug": "sun-dried-tomatoes"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
    "items": [
     {
      "name": "Grissini",
@@ -50,83 +96,75 @@
    ]
   },
   {
-   "name": "Cured Meats",
+   "name": "Finishing touches",
    "items": [
     {
-     "name": "Prosciutto di Parma",
-     "slug": "prosciutto-di-parma"
+     "name": "Balsamic glaze",
+     "slug": "balsamic-glaze"
     },
     {
-     "name": "Genoa Salami",
-     "slug": "genoa-salami"
+     "name": "Honey",
+     "slug": "honey"
     },
     {
-     "name": "Mortadella",
-     "slug": "mortadella"
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
     },
     {
-     "name": "Coppa / Capicola",
-     "slug": "coppa"
+     "name": "Extra virgin olive oil",
+     "slug": null
     },
     {
      "name": "Fresh basil",
      "slug": "fresh-basil"
     }
    ]
-  },
-  {
-   "name": "Condiments, Oils & Garnish",
-   "items": [
-    {
-     "name": "Extra virgin olive oil",
-     "slug": "olive-oil"
-    },
-    {
-     "name": "Aged balsamic glaze 1 small",
-     "slug": "balsamic-glaze"
-    },
-    {
-     "name": "Wildflower honey 1 small",
-     "slug": "honey"
-    },
-    {
-     "name": "Marcona almonds",
-     "slug": "marcona-almonds"
-    }
-   ]
-  },
-  {
-   "name": "Vegetables, Olives & Pickles",
-   "items": [
-    {
-     "name": "Castelvetrano olives",
-     "slug": "castelvetrano-olives"
-    },
-    {
-     "name": "Marinated artichoke hearts 4–5 pieces",
-     "slug": null
-    },
-    {
-     "name": "Roasted red peppers",
-     "slug": "roasted-red-peppers"
-    },
-    {
-     "name": "Pepperoncini 8–10 pieces",
-     "slug": "pepperoncini"
-    },
-    {
-     "name": "Sun-dried tomatoes in oil",
-     "slug": "sun-dried-tomatoes"
-    }
-   ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Antipasto works on contrast. Rich, fatty meats like mortadella and coppa sit next to sharp, tangy things from jars: pepperoncini, artichokes and roasted peppers. Every bite of meat gets reset by something bright.",
+  "The three cheeses cover three textures: crumbly, salty Parmigiano, soft and milky mozzarella, and firm, sharp provolone. Balsamic glaze over the Parmigiano and honey beside the provolone add the sweet notes, so the board doesn't need jam."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the Parmigiano out of the fridge."
+  },
+  {
+   "when": "T–40 min",
+   "what": "Take out the provolone; drain the olives, artichokes and peppers."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats and mozzarella; slice the focaccia."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Break the Parmigiano into chunks; place the cheeses and fold the meats."
+  },
+  {
+   "when": "T–0",
+   "what": "Fill the gaps with olives and almonds; drizzle oil and balsamic; add basil."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the difference between antipasto and charcuterie?",
+   "a": "Charcuterie is mostly cured meat and cheese. Antipasto, the Italian starter course, adds marinated and pickled vegetables, olives and bread, so it's lighter and brighter."
+  },
+  {
+   "q": "How many people does this antipasto board serve?",
+   "a": "8 to 12 people on a 20–26 inch board. As the main party food, plan about 3 oz each of meat and cheese per guest."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Drain the jarred vegetables and cut the hard cheeses up to a day ahead and keep them covered in the fridge. Assemble within an hour of serving and leave it out no more than 2 hours."
+  }
+ ],
+ "blog": [],
+ "slug": "italian-antipasto-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

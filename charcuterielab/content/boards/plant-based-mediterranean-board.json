@@ -1,87 +1,150 @@
 {
- "slug": "plant-based-mediterranean-board",
  "number": "PB-02",
  "book": "plant",
  "title": "The Mediterranean Plant-Based Board",
  "category": "plant-based",
- "wave": 3,
- "status": "draft",
  "image": "/images/boards/pb-02.webp",
- "blog": [],
+ "h1": "Plant-Based Mediterranean Board",
+ "seo_title": "Vegan Mediterranean Board for 6–8: Shopping List & Plan",
+ "description": "A vegan Mediterranean board for 6–8: hummus, baba ghanoush, dairy-free tzatziki, falafel, stuffed grape leaves, tabbouleh, olives and pistachios.",
+ "hook": "A Mediterranean spread that was mostly plant-based to begin with: three dips, crispy falafel, stuffed grape leaves and warm pita with za'atar oil.",
  "serves": "6–8",
  "guests": 8,
- "board_size": "Mint Lemonade or",
- "prep_time": null,
- "cost": null,
- "difficulty": null,
+ "board_size": "14–18\" board",
+ "prep_time": "20–25 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Nut Cheeses & Dips",
+   "name": "Dips",
    "items": [
     {
-     "name": "Hummus, classic",
+     "name": "Hummus",
      "slug": "hummus"
     },
     {
      "name": "Baba ghanoush",
-     "slug": null
+     "slug": "baba-ganoush"
     },
     {
-     "name": "Vegan tzatziki (coconut yogurt)",
-     "slug": "tzatziki"
+     "name": "Dairy-free tzatziki (coconut yogurt)",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Plant protein",
+   "items": [
+    {
+     "name": "Falafel bites",
+     "slug": null
+    },
+    {
+     "name": "Stuffed grape leaves (dolmas)",
+     "slug": null
+    },
+    {
+     "name": "Tabbouleh",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fresh produce",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Persian cucumber",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
+    },
+    {
+     "name": "Lemon wedges",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Toasted pita triangles",
+     "slug": null
+    },
+    {
+     "name": "Pita chips",
+     "slug": "pita-chips"
+    }
+   ]
+  },
+  {
+   "name": "Olives, nuts & oil",
    "items": [
     {
      "name": "Kalamata olives",
      "slug": "kalamata-olives"
     },
     {
-     "name": "Za'atar olive oil (olive oil + za'atar)",
-     "slug": "olive-oil"
-    }
-   ]
-  },
-  {
-   "name": "Plant Proteins",
-   "items": [
-    {
-     "name": "Falafel bites (store-bought/frozen)",
-     "slug": null
+     "name": "Pistachios",
+     "slug": "pistachios"
     },
     {
-     "name": "Stuffed grape leaves (canned)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Fresh Produce",
-   "items": [
-    {
-     "name": "Cherry tomatoes, halved",
-     "slug": null
-    },
-    {
-     "name": "Persian cucumber, sliced",
-     "slug": null
-    },
-    {
-     "name": "Fresh mint sprigs",
-     "slug": "fresh-mint"
+     "name": "Za'atar olive oil",
+     "slug": "za-atar"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "This board borrows from a food culture where dips, vegetables and legumes were always the main event. Chickpeas show up three ways, as hummus, falafel and tabbouleh's partner, and eggplant gives baba ghanoush its smoky depth.",
+  "Lemon is the thread through everything. A squeeze over the falafel and tabbouleh, and lemon in the tzatziki, brightens the rich tahini dips, while salty Kalamatas and toasted pistachios add the salt and crunch."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Bake the frozen falafel bites as the package directs."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Fill the dip bowls; drain the grape leaves and olives."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the cucumber and halve the tomatoes; toast the pita."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Stir za'atar into the olive oil; place the bowls on the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the warm falafel, pita, pistachios, mint and lemon; serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this board fully vegan?",
+   "a": "Yes, every item is plant-based. Check the labels on crackers, breads and store-bought dips, which sometimes contain butter, milk, honey or egg."
+  },
+  {
+   "q": "Can I make the falafel ahead?",
+   "a": "Bake it up to a day ahead and reheat it in a hot oven for 5 minutes before serving so it crisps up again."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "6 to 8 people as an appetizer, on a 14–18 inch board."
+  }
+ ],
+ "blog": [],
+ "slug": "plant-based-mediterranean-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }

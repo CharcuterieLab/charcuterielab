@@ -1,117 +1,151 @@
 {
- "slug": "summer-backyard-board",
  "number": "B1-07",
  "book": "main",
  "title": "Summer Backyard Board",
  "category": "seasonal-holiday",
- "wave": 4,
- "status": "draft",
  "image": "/images/50-boards-07-summer-backyard.webp",
- "blog": [
-  "summer-charcuterie-board"
- ],
+ "h1": "Summer Backyard Charcuterie Board",
+ "seo_title": "Summer Backyard Charcuterie Board for 8–12: Shopping List",
+ "description": "A summer backyard board for 8–12: melon, berries, peaches, mozzarella, cheddar, havarti, salami and pepperoni. What to buy, a 45-minute plan and heat tips.",
+ "hook": "A fruit-forward board for a hot afternoon: melon, berries and peaches with mild cheeses and a few easy meats, built in about 25 minutes.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$45–$70",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Fresh Mozzarella (ciliegine balls)",
+     "name": "Fresh mozzarella balls",
      "slug": "fresh-mozzarella"
     },
     {
-     "name": "Aged Cheddar",
+     "name": "Aged cheddar",
      "slug": "aged-cheddar"
     },
     {
      "name": "Havarti",
      "slug": "havarti"
-    },
-    {
-     "name": "Cantaloupe (cubed)",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Fresh Fruits",
+   "name": "Meat",
    "items": [
     {
-     "name": "Strawberries (whole, halved)",
-     "slug": null
-    },
-    {
-     "name": "Red & Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Watermelon (cubed)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Blackberries",
-     "slug": null
-    },
-    {
-     "name": "Salami (Genoa)",
+     "name": "Genoa salami",
      "slug": "genoa-salami"
-    },
-    {
-     "name": "Peach slices (fresh) 1 peach",
-     "slug": null
     },
     {
      "name": "Pepperoni",
      "slug": "pepperoni"
+    },
+    {
+     "name": "Prosciutto (optional)",
+     "slug": "prosciutto-di-parma"
     }
    ]
   },
   {
-   "name": "Crackers & Extras",
+   "name": "Fresh fruit",
    "items": [
     {
-     "name": "Water Crackers",
-     "slug": "water-crackers"
+     "name": "Strawberries and blackberries",
+     "slug": "berries"
     },
     {
-     "name": "Pita Chips 1 bag",
-     "slug": "pita-chips"
+     "name": "Red and green grapes",
+     "slug": "grapes"
     },
     {
-     "name": "Honey (raw local)",
-     "slug": "honey"
-    },
-    {
-     "name": "Fresh Basil Leaves 8–10 leaves",
-     "slug": "fresh-basil"
-    },
-    {
-     "name": "Mint Sprigs",
+     "name": "Watermelon",
      "slug": null
     },
     {
-     "name": "Prosciutto (optional garnish)",
-     "slug": "prosciutto-di-parma"
+     "name": "Cantaloupe",
+     "slug": "melon"
+    },
+    {
+     "name": "Peach slices",
+     "slug": "peaches"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & extras",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Pita chips",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Fresh basil",
+     "slug": "fresh-basil"
+    },
+    {
+     "name": "Fresh mint",
+     "slug": "fresh-mint"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "In hot weather people reach for juicy, cold things first, so half of this board is fruit. Melon and berries also do the job that olives and pickles do on other boards: they cut through the salt and fat of the salami and pepperoni.",
+  "The cheeses are mild and suited to the heat. Aged cheddar holds its shape better than soft cheese, havarti is buttery, and mozzarella balls with a basil leaf make an easy one-bite snack. Honey and mint over the peaches pull the sweet side together."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take the cheddar out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the havarti; cube the watermelon and cantaloupe."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats and mozzarella; slice the peach."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses, then fold the salami and pepperoni beside them."
+  },
+  {
+   "when": "T–0",
+   "what": "Fill in with fruit, crackers, basil and mint; drizzle honey on the peaches."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How long can a charcuterie board sit outside in summer?",
+   "a": "No more than 2 hours, or 1 hour when it's above 90°F. Set it in the shade, keep the fruit cold until the last minute and refill with small batches from the fridge."
+  },
+  {
+   "q": "Which cheeses hold up best in the heat?",
+   "a": "Firm cheeses like aged cheddar. Soft cheeses sweat and slump in warm weather, so keep them small or leave them out."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "8 to 12 people on a 16–20 inch board."
+  }
+ ],
+ "blog": [
+  "summer-charcuterie-board"
+ ],
+ "slug": "summer-backyard-board",
+ "status": "published",
+ "wave": 4,
+ "date": "2026-10-06",
+ "updated": "2026-10-06"
 }
