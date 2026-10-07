@@ -4651,3 +4651,11 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .ebook-final-cta .bk-buy { justify-content: center; }
 .ebook-final-cta .bk-soon, .ebook-final-cta .bk-buy-print { color: #f3dfc4; }
 .ebook-final-cta .bk-buy-print { border-color: rgba(246, 223, 157, 0.6); }
+
+/* 404 page */
+.notfound-links { max-width: 1100px; margin: 32px auto 0; padding: 0 16px; }
+.notfound-links .fx-p-free-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 760px) { .notfound-links .fx-p-free-grid { grid-template-columns: 1fr; } }
+.notfound-links h2 { font-size: 20px; margin: 0 0 6px; }
+.notfound-book { max-width: 720px; margin: 40px auto 56px; padding: 0 16px; text-align: center; }
+.notfound-book .book-buy { justify-content: center; }

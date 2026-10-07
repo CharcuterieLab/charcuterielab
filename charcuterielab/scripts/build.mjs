@@ -2601,6 +2601,7 @@ async function build() {
   }
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
+  await writeFile(join(dist, "404.html"), notFoundPage());
   await mkdir(join(dist, "thanks", "cheat-sheet"), { recursive: true });
   await writeFile(join(dist, "thanks", "cheat-sheet", "index.html"), cheatThanksPage());
   await mkdir(join(dist, "about"), { recursive: true });
@@ -2914,6 +2915,50 @@ function cheatThanksPage() {
     </div>
   </section>
 </main>`
+  });
+}
+
+// Netlify serves dist/404.html, with a 404 status, for any URL that doesn't
+// exist. Not indexed. The search box is pre-filled from the missing URL's words.
+function notFoundPage() {
+  const links = [
+    ["/boards/", "Board Library", "Complete board plans: what to buy, why it works and a countdown timeline."],
+    ["/board-builder/", "Build a Board", "Pick your cheeses and meats; get a shopping list sized to your guest count."],
+    ["/party-planner/", "Party Planner", "How much charcuterie for any number of guests, with a printable list."],
+    ["/ingredients/", "Ingredients", "Every cheese, meat and extra: how it tastes, what to pair it with, what to buy."],
+    ["/pairings/", "Pairings", "Wine, beer and food pairings for a charcuterie board."],
+    ["/blog/", "All articles", "Board ideas, how-tos and the science of pairing."]
+  ];
+  return layout({
+    title: "Page Not Found | Charcuterie Lab",
+    canonical: "/",
+    description: "That page has moved or doesn't exist. Search Charcuterie Lab or start from the Board Library, Board Builder or Party Planner.",
+    head: `  <meta name="robots" content="noindex, follow">`,
+    body: `<main class="search-main notfound-main">
+  <section class="search-hero">
+    <p class="section-kicker">404 · Page not found</p>
+    <h1>That page isn't on the board</h1>
+    <p>It may have moved, or the link has a typo. Search for what you were after, or start from one of these.</p>
+    <form class="search-form" role="search" action="/search/" method="get">
+      <label class="sr-only" for="nf-q">Search the site</label>
+      <input id="nf-q" name="q" type="search" placeholder="Try brie, 20 people, prosciutto, wine&hellip;" autocomplete="off">
+      <button class="button primary" type="submit">Search</button>
+    </form>
+  </section>
+  <section class="fx-p-free notfound-links" aria-label="Popular pages">
+    <div class="fx-p-free-grid">
+      ${links.map(([href, t, d]) => `<a class="fx-p-free-card" href="${href}"><div><h2>${escapeHtml(t)}</h2><p>${escapeHtml(d)}</p><span class="fx-more">Open &rarr;</span></div></a>`).join("\n      ")}
+    </div>
+  </section>
+  <section class="notfound-book">
+    <h2>Want every board fully planned?</h2>
+    <p>The book has 50 boards, each with a shopping list, a timed build and a swap for every ingredient.</p>
+    ${bookButtons("not_found")}
+  </section>
+</main>
+<script>
+(function(){try{var w=decodeURIComponent(location.pathname).replace(/\\.html?$/,"").split("/").pop()||decodeURIComponent(location.pathname).split("/").filter(Boolean).pop()||"";w=w.replace(/[-_]+/g," ").replace(/\\b(charcuterie|board|blog)\\b/gi," ").replace(/\\s+/g," ").trim();if(w)document.getElementById("nf-q").value=w}catch(e){}})();
+</script>`
   });
 }
 
