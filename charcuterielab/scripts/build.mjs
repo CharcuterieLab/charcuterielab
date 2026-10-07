@@ -766,7 +766,8 @@ function freeFromFor(allergens = []) {
 // card and detail page pick it up on the next build - no frontmatter edit needed.
 // An explicit image: in the frontmatter still wins.
 // Descriptive alt text for each ingredient photo, written from the photo's
-// own prompt (what must be visible in it). Missing slugs fall back to the name.
+// own prompt (what must be visible in it). It wins over the older frontmatter
+// image_alt, which described a planned shot rather than the photo we have.
 const ingredientAlt = await readFile(join(root, "src", "data", "ingredient-alt.json"), "utf8")
   .then((t) => JSON.parse(t))
   .catch(() => ({}));
@@ -829,7 +830,7 @@ async function loadIngredients() {
         avoidWith: parseListField(data.avoid_with),
         boardPost: data.board_post ?? "",
         image: data.image || photos.get(slug) || "",
-        imageAlt: data.image_alt || ingredientAlt[slug] || data.title || "",
+        imageAlt: ingredientAlt[slug] || data.image_alt || data.title || "",
         faq: parseFaqField(data.faq),
         body,
         html: sensoryBlock(markdownToHtml(body))
