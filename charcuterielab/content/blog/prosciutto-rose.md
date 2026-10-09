@@ -71,7 +71,7 @@ Set the rose on the board with the petals fanned upward and outward. Adjust any 
 
 **The champagne flute rose:** Use a narrower glass for a tighter, more cylindrical shape — more like a rosebud than a full bloom. This looks elegant on smaller boards or when space is limited.
 
-**The salami rose:** The same technique works with thin-sliced salami. The result is slightly different — salami is stiffer than prosciutto, so the petals hold a sharper angle. Excellent for boards where prosciutto isn't the right meat choice.
+**The salami rose:** The same technique works with thin-sliced salami. The result is slightly different — salami is stiffer than prosciutto, so the petals hold a sharper angle. Excellent for boards where prosciutto isn't the right meat choice. See the full [salami rose step-by-step](/blog/how-to-make-a-salami-rose/), with photos of every step.
 
 **The coppa or bresaola rose:** Coppa's marbled fat makes for a rose with more color variation. Bresaola gives you a deeper, almost burgundy red. Both work with the same technique.
 
