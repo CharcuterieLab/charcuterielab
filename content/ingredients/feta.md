@@ -89,6 +89,8 @@ product again.
 **Skip:** pre-crumbled feta in a plastic tub. It's dried, often anti-caked, and
 it's the single biggest reason people think they don't like feta.
 
+**Ranked picks:** our top-rated feta is **Mt Vikos Traditional Feta** (4.5 out of 5), and the best value is **Athenos Feta Chunk**. See [the full ranking of the best feta](/blog/best-feta-brands/).
+
 ## Quick FAQ
 
 **Is all feta made from sheep's milk?**

@@ -89,6 +89,8 @@ with a white coating but no live culture are a different thing.
 **Skip:** coconut-oil-and-starch "brie." It melts convincingly and tastes of
 almost nothing.
 
+**Ranked picks:** our top-rated vegan cheese for a board is **Boursin Dairy-Free Garlic & Herbs** (4.4 out of 5), and the best vegan brie is **Rebel Cheese Brie**. See [the full ranking of the best vegan cheese](/blog/best-vegan-cheese/).
+
 ## Quick FAQ
 
 **Is vegan brie actually made with the same mold?**

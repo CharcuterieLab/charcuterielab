@@ -256,6 +256,10 @@
 1000,
 1500
 ],
+"/images/best-balsamic-glaze-ranking.webp": [
+1000,
+1500
+],
 "/images/best-blue-cheese-brands-ranking.webp": [
 1000,
 1500
@@ -292,6 +296,10 @@
 1000,
 1500
 ],
+"/images/best-feta-brands-ranking.webp": [
+1000,
+1500
+],
 "/images/best-fig-jam-ranking.webp": [
 1000,
 1500
@@ -309,6 +317,10 @@
 1500
 ],
 "/images/best-gouda-brands-ranking.webp": [
+1000,
+1500
+],
+"/images/best-gruyere-brands-ranking.webp": [
 1000,
 1500
 ],
@@ -335,6 +347,10 @@
 "/images/best-meats-charcuterie-board.webp": [
 1600,
 933
+],
+"/images/best-mortadella-brands-ranking.webp": [
+1000,
+1500
 ],
 "/images/best-mustard-for-charcuterie-ranking.webp": [
 1000,
@@ -377,6 +393,10 @@
 1500
 ],
 "/images/best-trader-joes-cheeses-ranking.webp": [
+1000,
+1500
+],
+"/images/best-vegan-cheese-ranking.webp": [
 1000,
 1500
 ],
@@ -3524,6 +3544,14 @@
 240,
 360
 ],
+"/images/thumbs/best-balsamic-glaze-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-balsamic-glaze-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-blue-cheese-brands-ranking-webp-m.webp": [
 640,
 960
@@ -3604,6 +3632,14 @@
 240,
 360
 ],
+"/images/thumbs/best-feta-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-feta-brands-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-fig-jam-ranking-webp-m.webp": [
 640,
 960
@@ -3641,6 +3677,14 @@
 960
 ],
 "/images/thumbs/best-gouda-brands-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-gruyere-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-gruyere-brands-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -3699,6 +3743,14 @@
 "/images/thumbs/best-meats-charcuterie-board-webp-s.webp": [
 240,
 140
+],
+"/images/thumbs/best-mortadella-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-mortadella-brands-ranking-webp-s.webp": [
+240,
+360
 ],
 "/images/thumbs/best-mustard-for-charcuterie-ranking-webp-m.webp": [
 640,
@@ -3785,6 +3837,14 @@
 960
 ],
 "/images/thumbs/best-trader-joes-cheeses-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-vegan-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-vegan-cheese-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -9561,6 +9621,10 @@
 "m": "/images/thumbs/best-aldi-charcuterie-items-ranking-webp-m.webp",
 "s": "/images/thumbs/best-aldi-charcuterie-items-ranking-webp-s.webp"
 },
+"/images/best-balsamic-glaze-ranking.webp": {
+"m": "/images/thumbs/best-balsamic-glaze-ranking-webp-m.webp",
+"s": "/images/thumbs/best-balsamic-glaze-ranking-webp-s.webp"
+},
 "/images/best-blue-cheese-brands-ranking.webp": {
 "m": "/images/thumbs/best-blue-cheese-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-blue-cheese-brands-ranking-webp-s.webp"
@@ -9599,6 +9663,10 @@
 "m": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-s.webp"
 },
+"/images/best-feta-brands-ranking.webp": {
+"m": "/images/thumbs/best-feta-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-feta-brands-ranking-webp-s.webp"
+},
 "/images/best-fig-jam-ranking.webp": {
 "m": "/images/thumbs/best-fig-jam-ranking-webp-m.webp",
 "s": "/images/thumbs/best-fig-jam-ranking-webp-s.webp"
@@ -9618,6 +9686,10 @@
 "/images/best-gouda-brands-ranking.webp": {
 "m": "/images/thumbs/best-gouda-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-gouda-brands-ranking-webp-s.webp"
+},
+"/images/best-gruyere-brands-ranking.webp": {
+"m": "/images/thumbs/best-gruyere-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-gruyere-brands-ranking-webp-s.webp"
 },
 "/images/best-honey-for-cheese-ranking.webp": {
 "m": "/images/thumbs/best-honey-for-cheese-ranking-webp-m.webp",
@@ -9644,6 +9716,10 @@
 "l": "/images/thumbs/best-meats-charcuterie-board-webp-l.webp",
 "m": "/images/thumbs/best-meats-charcuterie-board-webp-m.webp",
 "s": "/images/thumbs/best-meats-charcuterie-board-webp-s.webp"
+},
+"/images/best-mortadella-brands-ranking.webp": {
+"m": "/images/thumbs/best-mortadella-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-mortadella-brands-ranking-webp-s.webp"
 },
 "/images/best-mustard-for-charcuterie-ranking.webp": {
 "m": "/images/thumbs/best-mustard-for-charcuterie-ranking-webp-m.webp",
@@ -9688,6 +9764,10 @@
 "/images/best-trader-joes-cheeses-ranking.webp": {
 "m": "/images/thumbs/best-trader-joes-cheeses-ranking-webp-m.webp",
 "s": "/images/thumbs/best-trader-joes-cheeses-ranking-webp-s.webp"
+},
+"/images/best-vegan-cheese-ranking.webp": {
+"m": "/images/thumbs/best-vegan-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-vegan-cheese-ranking-webp-s.webp"
 },
 "/images/best-walmart-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-walmart-charcuterie-items-ranking-webp-m.webp",

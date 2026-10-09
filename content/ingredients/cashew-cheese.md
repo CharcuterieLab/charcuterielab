@@ -91,6 +91,8 @@ without them are nut purée and taste like it.
 **Skip:** anything built on coconut oil and starch. Those melt convincingly and
 taste of very little — a cooking product rather than a board one.
 
+**Ranked picks:** our top-rated vegan cheese for a board is **Boursin Dairy-Free Garlic & Herbs** (4.4 out of 5), and the best cashew cheese brand is **Treeline**. See [the full ranking of the best vegan cheese](/blog/best-vegan-cheese/).
+
 ## Quick FAQ
 
 **Is cashew cheese actually cheese?**

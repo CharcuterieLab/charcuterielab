@@ -3,15 +3,15 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 25 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, spreads and olives for a board, ranked with stars."
-description: "All 25 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, spreads and olives for a board, ranked with stars."
+excerpt: "All 30 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, spreads and olives for a board, ranked with stars."
+description: "All 30 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, spreads and olives for a board, ranked with stars."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for 25 charcuterie board ingredients, from crackers and cheese to cured meat, spreads and olives. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
+> **Quick Answer:** We rank the best brands for 30 charcuterie board ingredients, from crackers and cheese to cured meat, spreads and olives, plus the best picks at five big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
 
 Standing in the cracker aisle with twelve boxes in front of you? These guides tell you which one to grab and why. Each ranks the widely sold options for one board ingredient, with a clear top pick, a budget pick and a splurge.
 
@@ -28,6 +28,9 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Blue Cheese Brands for a Charcuterie Board](/blog/best-blue-cheese-brands/) | Point Reyes Original Blue | ★★★★½ 4.5 |
 | [Best Fresh Mozzarella for a Charcuterie Board](/blog/best-fresh-mozzarella/) | Primo Taglio Fresh Mozzarella | ★★★★½ 4.5 |
 | [Best Burrata at the Grocery Store](/blog/best-burrata/) | BelGioioso Burrata | ★★★★½ 4.7 |
+| [Best Gruyère Brands for a Charcuterie Board](/blog/best-gruyere-brands/) | Emmi Kaltbach Le Gruyère AOP | ★★★★½ 4.4 |
+| [Best Feta Brands for a Charcuterie Board](/blog/best-feta-brands/) | Mt Vikos Traditional Feta | ★★★★½ 4.5 |
+| [Best Vegan Cheese for a Charcuterie Board](/blog/best-vegan-cheese/) | Boursin Dairy-Free Garlic & Herbs | ★★★★½ 4.4 |
 
 ## Cured meat
 
@@ -39,6 +42,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Soppressata Brands for a Charcuterie Board](/blog/best-soppressata-brands/) | Brooklyn Cured Sweet Soppressata | ★★★★☆ 4.2 |
 | [Best Spanish Chorizo for a Charcuterie Board](/blog/best-spanish-chorizo/) | Palacios Chorizo (mild or hot) | ★★★★½ 4.3 |
 | [Best Summer Sausage for a Charcuterie Board](/blog/best-summer-sausage/) | Cloverdale Original Tangy Summer Sausage | ★★★★½ 4.4 |
+| [Best Mortadella Brands for a Charcuterie Board](/blog/best-mortadella-brands/) | Columbus Mortadella | ★★★★½ 4.5 |
 
 ## Crackers
 
@@ -48,7 +52,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Crackers for a Charcuterie Board by Brand](/blog/best-crackers-for-charcuterie/) | Carr's Table Water Crackers | ★★★★½ 4.5 |
 | [Best Gluten-Free Crackers for a Charcuterie Board](/blog/best-gluten-free-crackers/) | Crunchmaster Multi-Seed Crackers | ★★★★½ 4.7 |
 
-## Spreads, honey and mustard
+## Spreads, honey, mustard and glaze
 
 | Guide | Our top pick | Rating |
 |---|---|---|
@@ -57,6 +61,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Mustard for a Charcuterie Board](/blog/best-mustard-for-charcuterie/) | Maille Old Style Whole Grain Mustard | ★★★★★ 4.8 |
 | [Best Hot Honey for a Charcuterie Board](/blog/best-hot-honey/) | Mike's Hot Honey | ★★★★½ 4.5 |
 | [Best Pepper Jelly for a Charcuterie Board](/blog/best-pepper-jelly/) | Braswell's Jalapeño Pepper Jelly | ★★★★★ 4.8 |
+| [Best Balsamic Glaze for a Charcuterie Board](/blog/best-balsamic-glaze/) | Bertolli Balsamic Glaze | ★★★★½ 4.7 |
 
 ## Olives and nuts
 
@@ -106,6 +111,11 @@ Shopping at one store? These rank the best charcuterie picks at each.
 | Marcona almonds | Kirkland Signature Marcona Almonds | ★★★½☆ 3.5 |
 | Hot honey | Nature Nate's Hot Honey | ★★★★½ 4.3 |
 | Pepper jelly | Tabasco Spicy Pepper Jelly | ★★★★☆ 4.0 |
+| Gruyère | Emmi Le Gruyère AOP | ★★★★½ 4.3 |
+| Feta | Athenos Feta Chunk | ★★★★½ 4.3 |
+| Vegan cheese | Violife Mature Cheddar | ★★★★☆ 4.2 |
+| Mortadella | Columbus Mortadella | ★★★★½ 4.5 |
+| Balsamic glaze | Bertolli Balsamic Glaze | ★★★★½ 4.7 |
 
 ## How we rank
 

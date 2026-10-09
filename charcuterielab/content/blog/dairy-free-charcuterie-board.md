@@ -127,6 +127,7 @@ A dairy-free board isn't a compromised board — it's a different balance point.
 
 ## Related Reading
 
+- [The Best Vegan Cheese for a Charcuterie Board, Ranked](/blog/best-vegan-cheese/)
 - [Vegetarian Charcuterie Board: A Cheese-Forward Build That Actually Satisfies](https://charcuterielab.com/blog/vegetarian-charcuterie-board/)
 - [Gluten-Free Charcuterie Board: How to Build One That Doesn't Feel Like a Compromise](https://charcuterielab.com/gluten-free-charcuterie-board/)
 - [Charcuterie Board Baby Shower: Crowd-Pleasing for a Mixed Audience](https://charcuterielab.com/blog/charcuterie-board-baby-shower/)

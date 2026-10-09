@@ -88,6 +88,8 @@ cubes rather than a uniformly pink paste.
 **Skip:** American bologna as a substitute. Same ancestry, entirely different
 product.
 
+**Ranked picks:** our top-rated mortadella is **Columbus Mortadella** (4.5 out of 5), which is also the best value. See [the full ranking of the best mortadella](/blog/best-mortadella-brands/).
+
 ## Quick FAQ
 
 **Is mortadella just fancy bologna?**

@@ -90,6 +90,8 @@ something else entirely.
 **Skip:** pre-shredded Gruyère for a board. It's coated with anti-caking starch
 and it dries fast.
 
+**Ranked picks:** our top-rated Gruyère is **Emmi Kaltbach Le Gruyère AOP** (4.4 out of 5), and the best value is **Emmi Le Gruyère AOP**. See [the full ranking of the best Gruyère](/blog/best-gruyere-brands/).
+
 ## Quick FAQ
 
 **Does Gruyère have holes?**

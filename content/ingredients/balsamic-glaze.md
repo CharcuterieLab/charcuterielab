@@ -82,6 +82,8 @@ the reliable everyday grade.
 
 **Skip:** anything labelled "balsamic dressing" — that's a vinaigrette.
 
+**Ranked picks:** our top-rated balsamic glaze is **Bertolli Balsamic Glaze** (4.7 out of 5), and the least sweet is **DeLallo**. See [the full ranking of the best balsamic glaze](/blog/best-balsamic-glaze/).
+
 ## Quick FAQ
 
 **What is balsamic glaze?**
