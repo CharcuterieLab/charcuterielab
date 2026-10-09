@@ -489,5 +489,315 @@
       ]
     ],
     "url": ""
+  },
+  {
+    "slug": "soft-cheese-field-guide",
+    "title": "Soft Cheese Field Guide",
+    "price": "$5.00",
+    "priceShort": "$5",
+    "pagesLabel": "8 pages",
+    "format": "US Letter PDF",
+    "image": "/images/soft-cheese-field-guide.jpg",
+    "description": "Brie straight from the fridge tastes of almost nothing. This guide covers the ten soft cheeses you'll find at the store and how to serve each one at its best.",
+    "hook": "Brie straight from the fridge tastes of almost nothing. This guide covers the ten soft cheeses you'll find at the store and how to serve each one at its best.",
+    "seoTitle": "Soft Cheese Field Guide: Printable PDF",
+    "metaDescription": "Brie straight from the fridge tastes of almost nothing.",
+    "includes": [
+      "10 soft cheese cards",
+      "Brie brand ranking and ripeness check",
+      "How to cut every soft shape",
+      "Baked brie four ways"
+    ],
+    "who": "Anyone serving brie, Camembert, burrata or Boursin.",
+    "free": [
+      [
+        "Brie guide",
+        "/ingredients/brie/"
+      ],
+      [
+        "Best brie brands",
+        "/blog/best-brie-brands/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/soft-cheese-field-guide"
+  },
+  {
+    "slug": "salami-tasting-party-kit",
+    "title": "Salami Tasting Party Kit",
+    "price": "$4.00",
+    "priceShort": "$4",
+    "pagesLabel": "7 pages",
+    "format": "US Letter PDF",
+    "image": "/images/salami-tasting-party-kit.jpg",
+    "description": "Most people know two salamis. A tasting turns the board into the evening's entertainment, and everyone leaves knowing which one they'd buy again.",
+    "hook": "Most people know two salamis. A tasting turns the board into the evening's entertainment, and everyone leaves knowing which one they'd buy again.",
+    "seoTitle": "Salami Tasting Party Kit: Printable PDF",
+    "metaDescription": "Most people know two salamis. A tasting turns the board into the evening's entertainment, and everyone leaves knowing which one they'd buy again.",
+    "includes": [
+      "14-style salami chart with heat ratings",
+      "How to run the tasting, with amounts",
+      "Printable scorecards",
+      "Blind round and three flights"
+    ],
+    "who": "Hosts who want a game night built around a board.",
+    "free": [
+      [
+        "Types of salami",
+        "/blog/types-of-salami/"
+      ],
+      [
+        "Salami vs pepperoni",
+        "/blog/salami-vs-pepperoni/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/salami-tasting-party-kit"
+  },
+  {
+    "slug": "spanish-tapas-board-kit",
+    "title": "Spanish Tapas Board Kit",
+    "price": "$5.00",
+    "priceShort": "$5",
+    "pagesLabel": "8 pages",
+    "format": "US Letter PDF",
+    "image": "/images/spanish-tapas-board-kit.jpg",
+    "description": "Boquerones look like anchovies and taste nothing like them. This kit puts them on a Spanish board with everything that grew up beside them.",
+    "hook": "Boquerones look like anchovies and taste nothing like them. This kit puts them on a Spanish board with everything that grew up beside them.",
+    "seoTitle": "Spanish Tapas Board Kit: Printable PDF",
+    "metaDescription": "Boquerones look like anchovies and taste nothing like them. This kit puts them on a Spanish board with everything that grew up beside them.",
+    "includes": [
+      "Shopping lists for 6, 10 and 15",
+      "The Spanish pantry explained",
+      "Board map and build order",
+      "Three warm bites and Spanish drinks"
+    ],
+    "who": "Anyone planning a Spanish-style board or tapas night.",
+    "free": [
+      [
+        "Boquerones",
+        "/ingredients/boquerones/"
+      ],
+      [
+        "Chorizo and Manchego",
+        "/blog/chorizo-manchego-pairing/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/spanish-tapas-board-kit"
+  },
+  {
+    "slug": "board-styling-playbook",
+    "title": "Board Styling Playbook",
+    "price": "$4.00",
+    "priceShort": "$4",
+    "pagesLabel": "7 pages",
+    "format": "US Letter PDF",
+    "image": "/images/board-styling-playbook.jpg",
+    "description": "The difference between a board that looks thrown together and one that looks styled is the order you build it in. This playbook gives you the order, the layouts and the finishing touches.",
+    "hook": "The difference between a board that looks thrown together and one that looks styled is the order you build it in. This playbook gives you the order, the layouts and the finishing touches.",
+    "seoTitle": "Board Styling Playbook: Printable PDF",
+    "metaDescription": "The difference between a board that looks thrown together and one that looks styled is the order you build it in.",
+    "includes": [
+      "7-step build order",
+      "Five layouts, drawn out",
+      "Meat folds and cheese cuts",
+      "Herb and garnish guide"
+    ],
+    "who": "Anyone who wants a board that looks finished.",
+    "free": [
+      [
+        "The build order",
+        "/blog/build-sequence/"
+      ],
+      [
+        "Rosemary sprigs",
+        "/ingredients/rosemary-sprigs/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/board-styling-playbook"
+  },
+  {
+    "slug": "burrata-stracciatella-board-plan",
+    "title": "Burrata & Stracciatella Board Plan",
+    "price": "$3.00",
+    "priceShort": "$3",
+    "pagesLabel": "6 pages",
+    "format": "US Letter PDF",
+    "image": "/images/burrata-stracciatella-board-plan.jpg",
+    "description": "Stracciatella is the creamy filling inside burrata, sold on its own. Either one makes a centerpiece, as long as everything around it is right.",
+    "hook": "Stracciatella is the creamy filling inside burrata, sold on its own. Either one makes a centerpiece, as long as everything around it is right.",
+    "seoTitle": "Burrata & Stracciatella Board Plan: Printable PDF",
+    "metaDescription": "Stracciatella is the creamy filling inside burrata, sold on its own. Either one makes a centerpiece, as long as everything around it is right.",
+    "includes": [
+      "Burrata or stracciatella: which to buy",
+      "Shopping lists for 4, 8 and 12",
+      "Four seasonal versions",
+      "Board map and serving method"
+    ],
+    "who": "Anyone building a board around burrata.",
+    "free": [
+      [
+        "Stracciatella",
+        "/ingredients/stracciatella/"
+      ],
+      [
+        "Burrata",
+        "/ingredients/burrata/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/burrata-stracciatella-board-plan"
+  },
+  {
+    "slug": "british-christmas-cheese-board",
+    "title": "British Christmas Cheese Board",
+    "price": "$4.00",
+    "priceShort": "$4",
+    "pagesLabel": "7 pages",
+    "format": "US Letter PDF",
+    "image": "/images/british-christmas-cheese-board.jpg",
+    "description": "In Britain the Christmas cheese board comes with butter, biscuits, chutney and a glass of port. This plan sets out the whole tradition.",
+    "hook": "In Britain the Christmas cheese board comes with butter, biscuits, chutney and a glass of port. This plan sets out the whole tradition.",
+    "seoTitle": "British Christmas Cheese Board: Printable PDF",
+    "metaDescription": "In Britain the Christmas cheese board comes with butter, biscuits, chutney and a glass of port. This plan sets out the whole tradition.",
+    "includes": [
+      "Five-cheese lineup, mild to strong",
+      "Shopping lists for 8, 12 and 20",
+      "Crackers, biscuits and Stilton how-to",
+      "Cut-out cheese labels and port pairings"
+    ],
+    "who": "Christmas hosts who want the classic British cheese board.",
+    "free": [
+      [
+        "Stilton",
+        "/blog/stilton/"
+      ],
+      [
+        "Cream crackers",
+        "/ingredients/cream-crackers/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/british-christmas-cheese-board"
+  },
+  {
+    "slug": "new-years-eve-blini-bar",
+    "title": "New Year's Eve Blini Bar",
+    "price": "$4.00",
+    "priceShort": "$4",
+    "pagesLabel": "7 pages",
+    "format": "US Letter PDF",
+    "image": "/images/new-years-eve-blini-bar.jpg",
+    "description": "A blini bar is the easiest way to make New Year's Eve feel special: warm little pancakes, cold salmon and cream, and guests build their own.",
+    "hook": "A blini bar is the easiest way to make New Year's Eve feel special: warm little pancakes, cold salmon and cream, and guests build their own.",
+    "seoTitle": "New Year's Eve Blini Bar: Printable PDF",
+    "metaDescription": "A blini bar is the easiest way to make New Year's Eve feel special: warm little pancakes, cold salmon and cream, and guests build their own.",
+    "includes": [
+      "Shopping lists for 8, 12 and 20",
+      "Six blini combinations with cards",
+      "Gravlax in three days",
+      "A 9 pm to midnight timeline"
+    ],
+    "who": "New Year's Eve hosts.",
+    "free": [
+      [
+        "Blini",
+        "/ingredients/blini/"
+      ],
+      [
+        "Gravlax",
+        "/ingredients/gravlax/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/new-years-eve-blini-bar"
+  },
+  {
+    "slug": "mezze-board-plan",
+    "title": "Mezze Board Plan",
+    "price": "$3.00",
+    "priceShort": "$3",
+    "pagesLabel": "6 pages",
+    "format": "US Letter PDF",
+    "image": "/images/mezze-board-plan.jpg",
+    "description": "Labneh and halloumi are the two cheeses that make a mezze board: one cool and tangy, one hot and salty.",
+    "hook": "Labneh and halloumi are the two cheeses that make a mezze board: one cool and tangy, one hot and salty.",
+    "seoTitle": "Mezze Board Plan: Printable PDF",
+    "metaDescription": "Labneh and halloumi are the two cheeses that make a mezze board: one cool and tangy, one hot and salty.",
+    "includes": [
+      "Shopping lists for 6, 10 and 15",
+      "The labneh bowl and homemade labneh",
+      "Hot halloumi done right",
+      "Board map, drinks and timeline"
+    ],
+    "who": "Hosts feeding vegetarians or anyone who loves mezze.",
+    "free": [
+      [
+        "Labneh",
+        "/ingredients/labneh/"
+      ],
+      [
+        "Halloumi",
+        "/ingredients/halloumi/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/mezze-board-plan"
+  },
+  {
+    "slug": "spend-smart-board-plan",
+    "title": "Spend-Smart Board Plan",
+    "price": "$3.00",
+    "priceShort": "$3",
+    "pagesLabel": "6 pages",
+    "format": "US Letter PDF",
+    "image": "/images/spend-smart-board-plan.jpg",
+    "description": "Most of a board's price goes on things guests don't notice. This plan shows where the money changes the taste, and where store brand is fine.",
+    "hook": "Most of a board's price goes on things guests don't notice. This plan shows where the money changes the taste, and where store brand is fine.",
+    "seoTitle": "Spend-Smart Board Plan: Printable PDF",
+    "metaDescription": "Most of a board's price goes on things guests don't notice. This plan shows where the money changes the taste, and where store brand is fine.",
+    "includes": [
+      "Spend or save, item by item",
+      "Three lineups for 6 guests",
+      "Per-pound worksheet",
+      "Labels worth paying for"
+    ],
+    "who": "Anyone who wants a board that looks expensive without the bill.",
+    "free": [
+      [
+        "The expensive-board myth",
+        "/blog/expensive-board/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/spend-smart-board-plan"
+  },
+  {
+    "slug": "pairing-card-deck",
+    "title": "Pairing Card Deck",
+    "price": "$5.00",
+    "priceShort": "$5",
+    "pagesLabel": "9 pages",
+    "format": "US Letter PDF",
+    "image": "/images/pairing-card-deck.jpg",
+    "description": "Pairings are easier when they're in your hand. Print the deck, cut it out, and pull the cards for whatever is in your fridge.",
+    "hook": "Pairings are easier when they're in your hand. Print the deck, cut it out, and pull the cards for whatever is in your fridge.",
+    "seoTitle": "Pairing Card Deck: Printable PDF",
+    "metaDescription": "Pairings are easier when they're in your hand. Print the deck, cut it out, and pull the cards for whatever is in your fridge.",
+    "includes": [
+      "25 cut-out food cards",
+      "Best partners and a drink on every card",
+      "6 rule cards",
+      "5 blank cards for your own"
+    ],
+    "who": "Anyone who wants pairings in their hand while they shop or build.",
+    "free": [
+      [
+        "Pairing Finder",
+        "/pairings/"
+      ],
+      [
+        "Pairing by contrast",
+        "/blog/pairing-by-contrast/"
+      ]
+    ],
+    "url": "https://charcuterieflavor.gumroad.com/l/pairing-card-deck"
   }
 ]
