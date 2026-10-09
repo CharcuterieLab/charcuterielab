@@ -4,7 +4,7 @@
     "description": "Digital download: 3-in-1 bundle with cheese pairings, wine guide, and board blueprint.",
     "price": "$9.00",
     "image": "/images/board-builder-bundle.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/labgk",
+    "url": "",
     "slug": "complete-board-builder-bundle",
     "priceShort": "$9",
     "pagesLabel": "3 PDFs",
@@ -74,30 +74,29 @@
         "Beer and cider pairings",
         "/pairings/beer/"
       ]
-    ]
+    ],
+    "group": "Planning and pairing"
   },
   {
-    "title": "Classic Entertaining Board Blueprint",
-    "description": "Digital download: exact shopping list, flavor zone map, and hosting blueprint.",
-    "price": "$4.00",
-    "image": "/images/classic-entertaining-board-blueprint.jpg",
+    "title": "Classic Board Blueprint v2",
+    "description": "One classic board for 8 to 12, planned end to end, with a bread and cracker planner.",
+    "price": "$7.00",
+    "image": "/images/classic-board-blueprint-v2.jpg",
     "url": "https://charcuterieflavor.gumroad.com/l/irsmc",
     "slug": "classic-entertaining-board-blueprint",
-    "priceShort": "$4",
-    "pagesLabel": "5 pages",
+    "priceShort": "$7",
+    "pagesLabel": "10 pages",
     "format": "Letter size, portrait",
-    "hook": "One complete board for 8 to 12 people: the shopping list with quantities and costs at three budgets, an 8-step build and why each placement works.",
+    "hook": "One classic board for 8 to 12, planned end to end: the shopping list, a three-zone flavor map, an 8-step build and a bread and cracker planner.",
     "includes": [
-      "Shopping list with per-person quantities and estimated costs",
-      "A budget guide across three tiers",
-      "8-step building blueprint: where each item goes and why",
-      "Flavor zone map: Rich + Sweet, Sharp + Savory, Tangy + Bright",
-      "Non-spicy swaps for every heat element",
-      "Five optional upgrades"
+      "The exact shopping list for 8 and 12 guests, before a meal or as the party food",
+      "A three-zone flavor map with the best bite in each zone, and an 8-step build with timings",
+      "The Bread & Cracker Planner: what suits each cheese and meat, how much for 4 to 20, crostini you can bake 2 days ahead, gluten-free swaps",
+      "A hosting countdown, refill plan and leftovers note"
     ],
     "who": "First-time hosts, and anyone who wants one reliable board for 8 to 12 people they can repeat for every party.",
-    "seoTitle": "Printable Charcuterie Shopping List & Blueprint for 8–12",
-    "metaDescription": "A printable charcuterie board plan for 8 to 12 people: shopping list with quantities and costs, an 8-step build, a flavor zone map and swaps. 5-page PDF, $4.",
+    "seoTitle": "Printable Charcuterie Board Blueprint & Bread Planner (8–12)",
+    "metaDescription": "A printable charcuterie board plan for 8 to 12: shopping list, flavor zone map, 8-step build and a bread and cracker planner for 4 to 20. 10-page PDF, $7.",
     "free": [
       [
         "How to make a charcuterie board",
@@ -111,14 +110,20 @@
         "Board Builder",
         "/board-builder/"
       ]
-    ]
+    ],
+    "previews": [
+      "/images/printables/classic-board-blueprint-v2-1.jpg",
+      "/images/printables/classic-board-blueprint-v2-2.jpg",
+      "/images/printables/classic-board-blueprint-v2-3.jpg"
+    ],
+    "group": "Boards by style"
   },
   {
     "title": "Cheese Pairing Science Card",
     "description": "Digital download: 15 cheeses, every perfect pairing, and the science behind it.",
     "price": "$4.00",
     "image": "/images/cheese-pairing-science-card.jpg",
-    "url": "https://charcuterieflavor.gumroad.com/l/lfnse",
+    "url": "",
     "slug": "cheese-pairing-science-card",
     "priceShort": "$4",
     "pagesLabel": "2 pages",
@@ -183,7 +188,13 @@
         "How to build a grazing table",
         "/blog/grazing-table/"
       ]
-    ]
+    ],
+    "previews": [
+      "/images/printables/grazing-table-planner-1.jpg",
+      "/images/printables/grazing-table-planner-2.jpg",
+      "/images/printables/grazing-table-planner-3.jpg"
+    ],
+    "group": "Holidays and parties"
   },
   {
     "title": "The Mixed-Diet Party Planner",
@@ -365,34 +376,39 @@
   {
     "slug": "cheese-board-field-guide",
     "title": "Cheese Board Field Guide",
-    "status": "soon",
     "price": "$9.00",
     "priceShort": "$9",
     "pagesLabel": "12 pages",
     "format": "US Letter PDF",
-    "image": "/images/printable-board-builder.jpg",
-    "description": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
-    "hook": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
-    "seoTitle": "Cheese Board Field Guide: Printable PDF",
-    "metaDescription": "Pick the right cheeses every time: the four-texture method, what pairs with each cheese, how much to buy and when to take each one out of the fridge.",
+    "image": "/images/cheese-board-field-guide.jpg",
+    "description": "Pick, buy, warm and cut the right cheeses: 16 cheese cards, a 4-texture picker, fridge-out times and cutting diagrams.",
+    "hook": "A good cheese board comes down to four decisions: which cheeses, how much, when to take them out of the fridge and how to cut them. This guide makes all four for you.",
+    "seoTitle": "Cheese Board Field Guide: Printable Cheese Chart & Picker",
+    "metaDescription": "A printable cheese board guide: 16 cheese cards, a 4-texture picker, fridge-out times, cutting diagrams and how much to buy for 4 to 40. 12-page PDF, $9.",
     "includes": [
-      "The four-texture cheese picker",
-      "Pairings for the most popular board cheeses",
-      "How much cheese to buy by guest count",
-      "Fridge-out times for every cheese type"
+      "16 cheese cards, from brie to Taleggio: taste, how to cut it, fridge-out time, how much per guest, pairings, what to pour and a swap",
+      "The 4-texture picker for a balanced board: soft, semi-firm, hard and one bold",
+      "Cutting diagrams for every shape, and a fridge-out timing chart",
+      "How much cheese to buy for 4 to 40 guests, plus six ready-made cheese lineups"
     ],
-    "who": "Hosts who want a cheese board that works without guessing.",
+    "who": "Anyone who buys cheese first and builds the board around it.",
     "free": [
       [
-        "How much charcuterie per person",
-        "/blog/how-much-charcuterie-per-person/"
+        "Best cheese for a charcuterie board",
+        "/blog/best-cheese-charcuterie-board/"
       ],
       [
-        "Party Planner",
-        "/party-planner/"
+        "What goes with brie",
+        "/pairings/food/brie/"
       ]
     ],
-    "url": ""
+    "url": "https://charcuterieflavor.gumroad.com/l/lfnse",
+    "previews": [
+      "/images/printables/cheese-board-field-guide-1.jpg",
+      "/images/printables/cheese-board-field-guide-2.jpg",
+      "/images/printables/cheese-board-field-guide-3.jpg"
+    ],
+    "group": "Cheese"
   },
   {
     "slug": "make-ahead-board-timeline",
@@ -503,10 +519,10 @@
     "seoTitle": "Soft Cheese Field Guide: Printable PDF",
     "metaDescription": "Brie straight from the fridge tastes of almost nothing.",
     "includes": [
-      "10 soft cheese cards",
-      "Brie brand ranking and ripeness check",
-      "How to cut every soft shape",
-      "Baked brie four ways"
+      "10 cheese cards (brie, Camembert, burrata, Boursin, Taleggio and more): what to buy, how long out of the fridge, how much per guest, what to pair and pour",
+      "Our brie brand ranking, plus a 4-step ripeness check for the store",
+      "How to cut every soft shape, from a whole wheel to a burrata ball",
+      "Baked brie four ways, with oven times and toppings"
     ],
     "who": "Anyone serving brie, Camembert, burrata or Boursin.",
     "free": [
@@ -519,7 +535,13 @@
         "/blog/best-brie-brands/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/soft-cheese-field-guide"
+    "url": "https://charcuterieflavor.gumroad.com/l/soft-cheese-field-guide",
+    "previews": [
+      "/images/printables/soft-cheese-field-guide-1.jpg",
+      "/images/printables/soft-cheese-field-guide-2.jpg",
+      "/images/printables/soft-cheese-field-guide-3.jpg"
+    ],
+    "group": "Cheese"
   },
   {
     "slug": "salami-tasting-party-kit",
@@ -534,10 +556,10 @@
     "seoTitle": "Salami Tasting Party Kit: Printable PDF",
     "metaDescription": "Most people know two salamis. A tasting turns the board into the evening's entertainment, and everyone leaves knowing which one they'd buy again.",
     "includes": [
-      "14-style salami chart with heat ratings",
-      "How to run the tasting, with amounts",
-      "Printable scorecards",
-      "Blind round and three flights"
+      "A chart of 14 salami styles, mildest to hottest, with heat ratings and what to pair",
+      "How to run the tasting: the order, amounts for 6, 8 and 12 guests, palate resets",
+      "A printable scorecard for every guest",
+      "A blind round with cut-out number cards and an answer key, plus three ready-made flights"
     ],
     "who": "Hosts who want a game night built around a board.",
     "free": [
@@ -550,7 +572,13 @@
         "/blog/salami-vs-pepperoni/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/salami-tasting-party-kit"
+    "url": "https://charcuterieflavor.gumroad.com/l/salami-tasting-party-kit",
+    "previews": [
+      "/images/printables/salami-tasting-party-kit-1.jpg",
+      "/images/printables/salami-tasting-party-kit-2.jpg",
+      "/images/printables/salami-tasting-party-kit-3.jpg"
+    ],
+    "group": "Holidays and parties"
   },
   {
     "slug": "spanish-tapas-board-kit",
@@ -565,10 +593,10 @@
     "seoTitle": "Spanish Tapas Board Kit: Printable PDF",
     "metaDescription": "Boquerones look like anchovies and taste nothing like them. This kit puts them on a Spanish board with everything that grew up beside them.",
     "includes": [
-      "Shopping lists for 6, 10 and 15",
-      "The Spanish pantry explained",
-      "Board map and build order",
-      "Three warm bites and Spanish drinks"
+      "Shopping lists for 6, 10 and 15 guests, totals worked out",
+      "The Spanish pantry explained: boquerones, chorizo, sobrasada, jamón, Manchego, membrillo",
+      "A board map and build order",
+      "Three warm bites (pan con tomate, sobrasada toasts, skewers), Spanish drinks and a timeline"
     ],
     "who": "Anyone planning a Spanish-style board or tapas night.",
     "free": [
@@ -581,7 +609,13 @@
         "/blog/chorizo-manchego-pairing/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/spanish-tapas-board-kit"
+    "url": "https://charcuterieflavor.gumroad.com/l/spanish-tapas-board-kit",
+    "previews": [
+      "/images/printables/spanish-tapas-board-kit-1.jpg",
+      "/images/printables/spanish-tapas-board-kit-2.jpg",
+      "/images/printables/spanish-tapas-board-kit-3.jpg"
+    ],
+    "group": "Boards by style"
   },
   {
     "slug": "board-styling-playbook",
@@ -596,10 +630,10 @@
     "seoTitle": "Board Styling Playbook: Printable PDF",
     "metaDescription": "The difference between a board that looks thrown together and one that looks styled is the order you build it in.",
     "includes": [
-      "7-step build order",
-      "Five layouts, drawn out",
-      "Meat folds and cheese cuts",
-      "Herb and garnish guide"
+      "The 7-step build order, with when each part goes on",
+      "Five drawn layouts: classic rectangle, round, long runner, S-curve and slate for two",
+      "Five meat folds and four cheese cuts",
+      "A herb and garnish guide (rosemary, thyme, dill, citrus and more) and a final-pass checklist"
     ],
     "who": "Anyone who wants a board that looks finished.",
     "free": [
@@ -612,7 +646,13 @@
         "/ingredients/rosemary-sprigs/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/board-styling-playbook"
+    "url": "https://charcuterieflavor.gumroad.com/l/board-styling-playbook",
+    "previews": [
+      "/images/printables/board-styling-playbook-1.jpg",
+      "/images/printables/board-styling-playbook-2.jpg",
+      "/images/printables/board-styling-playbook-3.jpg"
+    ],
+    "group": "Planning and pairing"
   },
   {
     "slug": "burrata-stracciatella-board-plan",
@@ -627,10 +667,10 @@
     "seoTitle": "Burrata & Stracciatella Board Plan: Printable PDF",
     "metaDescription": "Stracciatella is the creamy filling inside burrata, sold on its own. Either one makes a centerpiece, as long as everything around it is right.",
     "includes": [
-      "Burrata or stracciatella: which to buy",
-      "Shopping lists for 4, 8 and 12",
-      "Four seasonal versions",
-      "Board map and serving method"
+      "Burrata or stracciatella: which to buy, and how much for 4, 8 or 12",
+      "Shopping lists for 4, 8 and 12 guests",
+      "Four seasonal versions: tomato and basil, peach and prosciutto, roasted grapes, citrus and pistachio",
+      "A board map, the serving method, drinks and a timeline"
     ],
     "who": "Anyone building a board around burrata.",
     "free": [
@@ -643,7 +683,13 @@
         "/ingredients/burrata/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/burrata-stracciatella-board-plan"
+    "url": "https://charcuterieflavor.gumroad.com/l/burrata-stracciatella-board-plan",
+    "previews": [
+      "/images/printables/burrata-stracciatella-board-plan-1.jpg",
+      "/images/printables/burrata-stracciatella-board-plan-2.jpg",
+      "/images/printables/burrata-stracciatella-board-plan-3.jpg"
+    ],
+    "group": "Cheese"
   },
   {
     "slug": "british-christmas-cheese-board",
@@ -658,10 +704,10 @@
     "seoTitle": "British Christmas Cheese Board: Printable PDF",
     "metaDescription": "In Britain the Christmas cheese board comes with butter, biscuits, chutney and a glass of port. This plan sets out the whole tradition.",
     "includes": [
-      "Five-cheese lineup, mild to strong",
-      "Shopping lists for 8, 12 and 20",
-      "Crackers, biscuits and Stilton how-to",
-      "Cut-out cheese labels and port pairings"
+      "A five-cheese lineup from mild Wensleydale to Stilton, with shopping lists for 8, 12 and 20",
+      "Cream crackers, oatcakes and Bath Olivers explained, plus chutney and butter",
+      "How to cut and serve Stilton, and its six best partners",
+      "Six cut-out cheese labels, port and drink pairings, and a Christmas timeline"
     ],
     "who": "Christmas hosts who want the classic British cheese board.",
     "free": [
@@ -674,7 +720,13 @@
         "/ingredients/cream-crackers/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/british-christmas-cheese-board"
+    "url": "https://charcuterieflavor.gumroad.com/l/british-christmas-cheese-board",
+    "previews": [
+      "/images/printables/british-christmas-cheese-board-1.jpg",
+      "/images/printables/british-christmas-cheese-board-2.jpg",
+      "/images/printables/british-christmas-cheese-board-3.jpg"
+    ],
+    "group": "Holidays and parties"
   },
   {
     "slug": "new-years-eve-blini-bar",
@@ -689,10 +741,10 @@
     "seoTitle": "New Year's Eve Blini Bar: Printable PDF",
     "metaDescription": "A blini bar is the easiest way to make New Year's Eve feel special: warm little pancakes, cold salmon and cream, and guests build their own.",
     "includes": [
-      "Shopping lists for 8, 12 and 20",
-      "Six blini combinations with cards",
-      "Gravlax in three days",
-      "A 9 pm to midnight timeline"
+      "Shopping lists for 8, 12 and 20 guests",
+      "Six blini combinations with cut-out cards for the bar",
+      "Gravlax in three days, plus a mustard-dill sauce",
+      "How to keep blini warm all night, and a 9 pm to midnight timeline"
     ],
     "who": "New Year's Eve hosts.",
     "free": [
@@ -705,7 +757,13 @@
         "/ingredients/gravlax/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/new-years-eve-blini-bar"
+    "url": "https://charcuterieflavor.gumroad.com/l/new-years-eve-blini-bar",
+    "previews": [
+      "/images/printables/new-years-eve-blini-bar-1.jpg",
+      "/images/printables/new-years-eve-blini-bar-2.jpg",
+      "/images/printables/new-years-eve-blini-bar-3.jpg"
+    ],
+    "group": "Holidays and parties"
   },
   {
     "slug": "mezze-board-plan",
@@ -720,10 +778,10 @@
     "seoTitle": "Mezze Board Plan: Printable PDF",
     "metaDescription": "Labneh and halloumi are the two cheeses that make a mezze board: one cool and tangy, one hot and salty.",
     "includes": [
-      "Shopping lists for 6, 10 and 15",
-      "The labneh bowl and homemade labneh",
-      "Hot halloumi done right",
-      "Board map, drinks and timeline"
+      "Shopping lists for 6, 10 and 15 guests",
+      "The labneh bowl, plus homemade labneh overnight",
+      "Hot halloumi done right, with three toppings",
+      "A board map, drinks and a timeline"
     ],
     "who": "Hosts feeding vegetarians or anyone who loves mezze.",
     "free": [
@@ -736,7 +794,13 @@
         "/ingredients/halloumi/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/mezze-board-plan"
+    "url": "https://charcuterieflavor.gumroad.com/l/mezze-board-plan",
+    "previews": [
+      "/images/printables/mezze-board-plan-1.jpg",
+      "/images/printables/mezze-board-plan-2.jpg",
+      "/images/printables/mezze-board-plan-3.jpg"
+    ],
+    "group": "Boards by style"
   },
   {
     "slug": "spend-smart-board-plan",
@@ -751,10 +815,10 @@
     "seoTitle": "Spend-Smart Board Plan: Printable PDF",
     "metaDescription": "Most of a board's price goes on things guests don't notice. This plan shows where the money changes the taste, and where store brand is fine.",
     "includes": [
-      "Spend or save, item by item",
-      "Three lineups for 6 guests",
-      "Per-pound worksheet",
-      "Labels worth paying for"
+      "Spend or save, item by item: where money changes the taste",
+      "Three lineups for 6 guests (everyday, holiday, splurge) with a you-paid column",
+      "A per-pound worksheet so you know the real cost before checkout",
+      "Six free tricks that look expensive, and the labels worth paying for"
     ],
     "who": "Anyone who wants a board that looks expensive without the bill.",
     "free": [
@@ -767,7 +831,13 @@
         "/party-planner/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/spend-smart-board-plan"
+    "url": "https://charcuterieflavor.gumroad.com/l/spend-smart-board-plan",
+    "previews": [
+      "/images/printables/spend-smart-board-plan-1.jpg",
+      "/images/printables/spend-smart-board-plan-2.jpg",
+      "/images/printables/spend-smart-board-plan-3.jpg"
+    ],
+    "group": "Planning and pairing"
   },
   {
     "slug": "pairing-card-deck",
@@ -782,10 +852,10 @@
     "seoTitle": "Pairing Card Deck: Printable PDF",
     "metaDescription": "Pairings are easier when they're in your hand. Print the deck, cut it out, and pull the cards for whatever is in your fridge.",
     "includes": [
-      "25 cut-out food cards",
-      "Best partners and a drink on every card",
-      "6 rule cards",
-      "5 blank cards for your own"
+      "25 cut-out food cards: 15 cheeses, 6 meats and fish, 4 sweet things and fruit",
+      "Every card: its 3 best partners, why they work, what to pour and a pairing to try",
+      "6 rule cards that explain why pairings work",
+      "5 blank cards for your own pairings"
     ],
     "who": "Anyone who wants pairings in their hand while they shop or build.",
     "free": [
@@ -798,6 +868,12 @@
         "/blog/pairing-by-contrast/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/pairing-card-deck"
+    "url": "https://charcuterieflavor.gumroad.com/l/pairing-card-deck",
+    "previews": [
+      "/images/printables/pairing-card-deck-1.jpg",
+      "/images/printables/pairing-card-deck-2.jpg",
+      "/images/printables/pairing-card-deck-3.jpg"
+    ],
+    "group": "Planning and pairing"
   }
 ]

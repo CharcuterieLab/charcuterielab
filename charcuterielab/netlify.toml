@@ -6,6 +6,26 @@
   NODE_VERSION = "20"
 
 [[redirects]]
+  from = "/printables/cheese-pairing-science-card/"
+  to = "/printables/cheese-board-field-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/printables/cheese-pairing-science-card"
+  to = "/printables/cheese-board-field-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/printables/complete-board-builder-bundle/"
+  to = "/printables/"
+  status = 301
+
+[[redirects]]
+  from = "/printables/complete-board-builder-bundle"
+  to = "/printables/"
+  status = 301
+
+[[redirects]]
   from = "/best-cheese-charcuterie-board"
   to = "/blog/best-cheese-charcuterie-board/"
   status = 301

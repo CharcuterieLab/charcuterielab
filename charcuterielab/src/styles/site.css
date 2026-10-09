@@ -4659,3 +4659,12 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .notfound-links h2 { font-size: 20px; margin: 0 0 6px; }
 .notfound-book { max-width: 720px; margin: 40px auto 56px; padding: 0 16px; text-align: center; }
 .notfound-book .book-buy { justify-content: center; }
+
+/* Product pages: look-inside previews (audit fix, Oct 2026) */
+.fx-gallery { margin: 8px 0 28px; }
+.fx-gallery h2 { margin: 0 0 12px; }
+.fx-gallery-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.fx-gallery-grid img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.08); display: block; }
+@media (max-width: 760px) { .fx-gallery-grid { grid-template-columns: 1fr; } }
+.fx-p-group { margin: 26px 0 10px; font-size: 1.15rem; }
+.fx-p-trust { font-size: .92rem; opacity: .8; margin-top: 6px; }

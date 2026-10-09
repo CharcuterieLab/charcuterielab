@@ -2537,7 +2537,7 @@ async function build() {
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
   const boardForPost = new Map();
   boards.forEach((b) => (b.blog || []).forEach((s) => boardForPost.has(s) || boardForPost.set(s, b)));
-  OFFERS = makeOffers({ escapeHtml, thumb, withTracking }, allProducts, {
+  OFFERS = makeOffers({ escapeHtml, thumb, withTracking, printCard: (slug, campaign) => PRINTABLES.card(slug, campaign) }, allProducts, {
     main: { key: "book-main", title: "50 Boards Built by Science", price: ebookPrice, url: ebookUrl, image: "/images/book-cover.jpg", page: "/ebook/", hook: "50 complete boards for every occasion: a shopping list with amounts and prices, a timed build and a swap for every ingredient.", paperbackUrl, paperbackPrice },
     two: TWO_BOOK.ebookUrl ? { key: "book-two", title: "Boards for Two", price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, image: TWO_BOOK.cover, page: "/books/boards-for-two/", hook: "25 boards sized for two, from a first date to New Year's Eve, each with a shopping list, a prep countdown and a drink to pour.", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice } : null,
     keto: KETO_BOOK.ebookUrl ? { key: "book-keto", title: "Keto & Low-Carb Boards", price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, image: KETO_BOOK.cover, page: "/books/keto-charcuterie-boards/", hook: "20 keto boards at 4–9 g net carbs per serving, each with full macros, a shopping list with the net carbs of every item and a step-by-step build.", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice } : null,

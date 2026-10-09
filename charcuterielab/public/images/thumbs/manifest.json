@@ -1228,6 +1228,10 @@
 1600,
 900
 ],
+"/images/cheese-board-field-guide.jpg": [
+800,
+800
+],
 "/images/cheese-pairing-science-card.jpg": [
 1024,
 1024
@@ -1287,6 +1291,10 @@
 "/images/christmas-wreath-charcuterie-board.jpg": [
 1024,
 559
+],
+"/images/classic-board-blueprint-v2.jpg": [
+800,
+800
 ],
 "/images/classic-entertaining-board-blueprint.jpg": [
 1024,
@@ -2999,6 +3007,162 @@
 "/images/printable-wine-pairing.jpg": [
 162,
 156
+],
+"/images/printables/board-styling-playbook-1.jpg": [
+1200,
+900
+],
+"/images/printables/board-styling-playbook-2.jpg": [
+1200,
+900
+],
+"/images/printables/board-styling-playbook-3.jpg": [
+1200,
+900
+],
+"/images/printables/british-christmas-cheese-board-1.jpg": [
+1200,
+900
+],
+"/images/printables/british-christmas-cheese-board-2.jpg": [
+1200,
+900
+],
+"/images/printables/british-christmas-cheese-board-3.jpg": [
+1200,
+900
+],
+"/images/printables/burrata-stracciatella-board-plan-1.jpg": [
+1200,
+900
+],
+"/images/printables/burrata-stracciatella-board-plan-2.jpg": [
+1200,
+900
+],
+"/images/printables/burrata-stracciatella-board-plan-3.jpg": [
+1200,
+900
+],
+"/images/printables/cheese-board-field-guide-1.jpg": [
+1200,
+900
+],
+"/images/printables/cheese-board-field-guide-2.jpg": [
+1200,
+900
+],
+"/images/printables/cheese-board-field-guide-3.jpg": [
+1200,
+900
+],
+"/images/printables/classic-board-blueprint-v2-1.jpg": [
+1200,
+900
+],
+"/images/printables/classic-board-blueprint-v2-2.jpg": [
+1200,
+900
+],
+"/images/printables/classic-board-blueprint-v2-3.jpg": [
+1200,
+900
+],
+"/images/printables/grazing-table-planner-1.jpg": [
+1200,
+900
+],
+"/images/printables/grazing-table-planner-2.jpg": [
+1200,
+900
+],
+"/images/printables/grazing-table-planner-3.jpg": [
+1200,
+900
+],
+"/images/printables/mezze-board-plan-1.jpg": [
+1200,
+900
+],
+"/images/printables/mezze-board-plan-2.jpg": [
+1200,
+900
+],
+"/images/printables/mezze-board-plan-3.jpg": [
+1200,
+900
+],
+"/images/printables/new-years-eve-blini-bar-1.jpg": [
+1200,
+900
+],
+"/images/printables/new-years-eve-blini-bar-2.jpg": [
+1200,
+900
+],
+"/images/printables/new-years-eve-blini-bar-3.jpg": [
+1200,
+900
+],
+"/images/printables/pairing-card-deck-1.jpg": [
+1200,
+900
+],
+"/images/printables/pairing-card-deck-2.jpg": [
+1200,
+900
+],
+"/images/printables/pairing-card-deck-3.jpg": [
+1200,
+900
+],
+"/images/printables/salami-tasting-party-kit-1.jpg": [
+1200,
+900
+],
+"/images/printables/salami-tasting-party-kit-2.jpg": [
+1200,
+900
+],
+"/images/printables/salami-tasting-party-kit-3.jpg": [
+1200,
+900
+],
+"/images/printables/soft-cheese-field-guide-1.jpg": [
+1200,
+900
+],
+"/images/printables/soft-cheese-field-guide-2.jpg": [
+1200,
+900
+],
+"/images/printables/soft-cheese-field-guide-3.jpg": [
+1200,
+900
+],
+"/images/printables/spanish-tapas-board-kit-1.jpg": [
+1200,
+900
+],
+"/images/printables/spanish-tapas-board-kit-2.jpg": [
+1200,
+900
+],
+"/images/printables/spanish-tapas-board-kit-3.jpg": [
+1200,
+900
+],
+"/images/printables/spend-smart-board-plan-1.jpg": [
+1200,
+900
+],
+"/images/printables/spend-smart-board-plan-2.jpg": [
+1200,
+900
+],
+"/images/printables/spend-smart-board-plan-3.jpg": [
+1200,
+900
 ],
 "/images/pronounce-charcuterie.png": [
 1376,
@@ -5540,6 +5704,14 @@
 240,
 135
 ],
+"/images/thumbs/cheese-board-field-guide-jpg-m.webp": [
+640,
+640
+],
+"/images/thumbs/cheese-board-field-guide-jpg-s.webp": [
+240,
+240
+],
 "/images/thumbs/cheese-pairing-science-card-jpg-m.webp": [
 640,
 640
@@ -5659,6 +5831,14 @@
 "/images/thumbs/christmas-wreath-charcuterie-board-jpg-s.webp": [
 240,
 131
+],
+"/images/thumbs/classic-board-blueprint-v2-jpg-m.webp": [
+640,
+640
+],
+"/images/thumbs/classic-board-blueprint-v2-jpg-s.webp": [
+240,
+240
 ],
 "/images/thumbs/classic-entertaining-board-blueprint-jpg-m.webp": [
 640,
@@ -9076,6 +9256,318 @@
 240,
 134
 ],
+"/images/thumbs/printables__board-styling-playbook-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__board-styling-playbook-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__board-styling-playbook-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__board-styling-playbook-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__board-styling-playbook-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__board-styling-playbook-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__british-christmas-cheese-board-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__british-christmas-cheese-board-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__british-christmas-cheese-board-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__british-christmas-cheese-board-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__british-christmas-cheese-board-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__british-christmas-cheese-board-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__burrata-stracciatella-board-plan-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__cheese-board-field-guide-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__cheese-board-field-guide-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__cheese-board-field-guide-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__cheese-board-field-guide-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__cheese-board-field-guide-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__cheese-board-field-guide-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__classic-board-blueprint-v2-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__grazing-table-planner-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__grazing-table-planner-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__grazing-table-planner-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__grazing-table-planner-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__grazing-table-planner-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__grazing-table-planner-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__mezze-board-plan-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__mezze-board-plan-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__mezze-board-plan-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__mezze-board-plan-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__mezze-board-plan-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__mezze-board-plan-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__new-years-eve-blini-bar-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__pairing-card-deck-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__pairing-card-deck-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__pairing-card-deck-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__pairing-card-deck-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__pairing-card-deck-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__pairing-card-deck-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__salami-tasting-party-kit-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__salami-tasting-party-kit-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__salami-tasting-party-kit-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__salami-tasting-party-kit-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__salami-tasting-party-kit-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__salami-tasting-party-kit-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__soft-cheese-field-guide-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__soft-cheese-field-guide-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__soft-cheese-field-guide-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__soft-cheese-field-guide-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__soft-cheese-field-guide-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__soft-cheese-field-guide-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spanish-tapas-board-kit-3-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spend-smart-board-plan-1-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spend-smart-board-plan-1-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spend-smart-board-plan-2-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spend-smart-board-plan-2-jpg-s.webp": [
+240,
+180
+],
+"/images/thumbs/printables__spend-smart-board-plan-3-jpg-m.webp": [
+640,
+480
+],
+"/images/thumbs/printables__spend-smart-board-plan-3-jpg-s.webp": [
+240,
+180
+],
 "/images/thumbs/pronounce-charcuterie-png-l.webp": [
 1100,
 528
@@ -10820,6 +11312,10 @@
 "m": "/images/thumbs/charcuterie-vs-cheese-board-webp-m.webp",
 "s": "/images/thumbs/charcuterie-vs-cheese-board-webp-s.webp"
 },
+"/images/cheese-board-field-guide.jpg": {
+"m": "/images/thumbs/cheese-board-field-guide-jpg-m.webp",
+"s": "/images/thumbs/cheese-board-field-guide-jpg-s.webp"
+},
 "/images/cheese-pairing-science-card.jpg": {
 "m": "/images/thumbs/cheese-pairing-science-card-jpg-m.webp",
 "s": "/images/thumbs/cheese-pairing-science-card-jpg-s.webp"
@@ -10879,6 +11375,10 @@
 "/images/christmas-wreath-charcuterie-board.jpg": {
 "m": "/images/thumbs/christmas-wreath-charcuterie-board-jpg-m.webp",
 "s": "/images/thumbs/christmas-wreath-charcuterie-board-jpg-s.webp"
+},
+"/images/classic-board-blueprint-v2.jpg": {
+"m": "/images/thumbs/classic-board-blueprint-v2-jpg-m.webp",
+"s": "/images/thumbs/classic-board-blueprint-v2-jpg-s.webp"
 },
 "/images/classic-entertaining-board-blueprint.jpg": {
 "m": "/images/thumbs/classic-entertaining-board-blueprint-jpg-m.webp",
@@ -12581,6 +13081,162 @@
 "/images/pancetta.webp": {
 "m": "/images/thumbs/pancetta-webp-m.webp",
 "s": "/images/thumbs/pancetta-webp-s.webp"
+},
+"/images/printables/board-styling-playbook-1.jpg": {
+"m": "/images/thumbs/printables__board-styling-playbook-1-jpg-m.webp",
+"s": "/images/thumbs/printables__board-styling-playbook-1-jpg-s.webp"
+},
+"/images/printables/board-styling-playbook-2.jpg": {
+"m": "/images/thumbs/printables__board-styling-playbook-2-jpg-m.webp",
+"s": "/images/thumbs/printables__board-styling-playbook-2-jpg-s.webp"
+},
+"/images/printables/board-styling-playbook-3.jpg": {
+"m": "/images/thumbs/printables__board-styling-playbook-3-jpg-m.webp",
+"s": "/images/thumbs/printables__board-styling-playbook-3-jpg-s.webp"
+},
+"/images/printables/british-christmas-cheese-board-1.jpg": {
+"m": "/images/thumbs/printables__british-christmas-cheese-board-1-jpg-m.webp",
+"s": "/images/thumbs/printables__british-christmas-cheese-board-1-jpg-s.webp"
+},
+"/images/printables/british-christmas-cheese-board-2.jpg": {
+"m": "/images/thumbs/printables__british-christmas-cheese-board-2-jpg-m.webp",
+"s": "/images/thumbs/printables__british-christmas-cheese-board-2-jpg-s.webp"
+},
+"/images/printables/british-christmas-cheese-board-3.jpg": {
+"m": "/images/thumbs/printables__british-christmas-cheese-board-3-jpg-m.webp",
+"s": "/images/thumbs/printables__british-christmas-cheese-board-3-jpg-s.webp"
+},
+"/images/printables/burrata-stracciatella-board-plan-1.jpg": {
+"m": "/images/thumbs/printables__burrata-stracciatella-board-plan-1-jpg-m.webp",
+"s": "/images/thumbs/printables__burrata-stracciatella-board-plan-1-jpg-s.webp"
+},
+"/images/printables/burrata-stracciatella-board-plan-2.jpg": {
+"m": "/images/thumbs/printables__burrata-stracciatella-board-plan-2-jpg-m.webp",
+"s": "/images/thumbs/printables__burrata-stracciatella-board-plan-2-jpg-s.webp"
+},
+"/images/printables/burrata-stracciatella-board-plan-3.jpg": {
+"m": "/images/thumbs/printables__burrata-stracciatella-board-plan-3-jpg-m.webp",
+"s": "/images/thumbs/printables__burrata-stracciatella-board-plan-3-jpg-s.webp"
+},
+"/images/printables/cheese-board-field-guide-1.jpg": {
+"m": "/images/thumbs/printables__cheese-board-field-guide-1-jpg-m.webp",
+"s": "/images/thumbs/printables__cheese-board-field-guide-1-jpg-s.webp"
+},
+"/images/printables/cheese-board-field-guide-2.jpg": {
+"m": "/images/thumbs/printables__cheese-board-field-guide-2-jpg-m.webp",
+"s": "/images/thumbs/printables__cheese-board-field-guide-2-jpg-s.webp"
+},
+"/images/printables/cheese-board-field-guide-3.jpg": {
+"m": "/images/thumbs/printables__cheese-board-field-guide-3-jpg-m.webp",
+"s": "/images/thumbs/printables__cheese-board-field-guide-3-jpg-s.webp"
+},
+"/images/printables/classic-board-blueprint-v2-1.jpg": {
+"m": "/images/thumbs/printables__classic-board-blueprint-v2-1-jpg-m.webp",
+"s": "/images/thumbs/printables__classic-board-blueprint-v2-1-jpg-s.webp"
+},
+"/images/printables/classic-board-blueprint-v2-2.jpg": {
+"m": "/images/thumbs/printables__classic-board-blueprint-v2-2-jpg-m.webp",
+"s": "/images/thumbs/printables__classic-board-blueprint-v2-2-jpg-s.webp"
+},
+"/images/printables/classic-board-blueprint-v2-3.jpg": {
+"m": "/images/thumbs/printables__classic-board-blueprint-v2-3-jpg-m.webp",
+"s": "/images/thumbs/printables__classic-board-blueprint-v2-3-jpg-s.webp"
+},
+"/images/printables/grazing-table-planner-1.jpg": {
+"m": "/images/thumbs/printables__grazing-table-planner-1-jpg-m.webp",
+"s": "/images/thumbs/printables__grazing-table-planner-1-jpg-s.webp"
+},
+"/images/printables/grazing-table-planner-2.jpg": {
+"m": "/images/thumbs/printables__grazing-table-planner-2-jpg-m.webp",
+"s": "/images/thumbs/printables__grazing-table-planner-2-jpg-s.webp"
+},
+"/images/printables/grazing-table-planner-3.jpg": {
+"m": "/images/thumbs/printables__grazing-table-planner-3-jpg-m.webp",
+"s": "/images/thumbs/printables__grazing-table-planner-3-jpg-s.webp"
+},
+"/images/printables/mezze-board-plan-1.jpg": {
+"m": "/images/thumbs/printables__mezze-board-plan-1-jpg-m.webp",
+"s": "/images/thumbs/printables__mezze-board-plan-1-jpg-s.webp"
+},
+"/images/printables/mezze-board-plan-2.jpg": {
+"m": "/images/thumbs/printables__mezze-board-plan-2-jpg-m.webp",
+"s": "/images/thumbs/printables__mezze-board-plan-2-jpg-s.webp"
+},
+"/images/printables/mezze-board-plan-3.jpg": {
+"m": "/images/thumbs/printables__mezze-board-plan-3-jpg-m.webp",
+"s": "/images/thumbs/printables__mezze-board-plan-3-jpg-s.webp"
+},
+"/images/printables/new-years-eve-blini-bar-1.jpg": {
+"m": "/images/thumbs/printables__new-years-eve-blini-bar-1-jpg-m.webp",
+"s": "/images/thumbs/printables__new-years-eve-blini-bar-1-jpg-s.webp"
+},
+"/images/printables/new-years-eve-blini-bar-2.jpg": {
+"m": "/images/thumbs/printables__new-years-eve-blini-bar-2-jpg-m.webp",
+"s": "/images/thumbs/printables__new-years-eve-blini-bar-2-jpg-s.webp"
+},
+"/images/printables/new-years-eve-blini-bar-3.jpg": {
+"m": "/images/thumbs/printables__new-years-eve-blini-bar-3-jpg-m.webp",
+"s": "/images/thumbs/printables__new-years-eve-blini-bar-3-jpg-s.webp"
+},
+"/images/printables/pairing-card-deck-1.jpg": {
+"m": "/images/thumbs/printables__pairing-card-deck-1-jpg-m.webp",
+"s": "/images/thumbs/printables__pairing-card-deck-1-jpg-s.webp"
+},
+"/images/printables/pairing-card-deck-2.jpg": {
+"m": "/images/thumbs/printables__pairing-card-deck-2-jpg-m.webp",
+"s": "/images/thumbs/printables__pairing-card-deck-2-jpg-s.webp"
+},
+"/images/printables/pairing-card-deck-3.jpg": {
+"m": "/images/thumbs/printables__pairing-card-deck-3-jpg-m.webp",
+"s": "/images/thumbs/printables__pairing-card-deck-3-jpg-s.webp"
+},
+"/images/printables/salami-tasting-party-kit-1.jpg": {
+"m": "/images/thumbs/printables__salami-tasting-party-kit-1-jpg-m.webp",
+"s": "/images/thumbs/printables__salami-tasting-party-kit-1-jpg-s.webp"
+},
+"/images/printables/salami-tasting-party-kit-2.jpg": {
+"m": "/images/thumbs/printables__salami-tasting-party-kit-2-jpg-m.webp",
+"s": "/images/thumbs/printables__salami-tasting-party-kit-2-jpg-s.webp"
+},
+"/images/printables/salami-tasting-party-kit-3.jpg": {
+"m": "/images/thumbs/printables__salami-tasting-party-kit-3-jpg-m.webp",
+"s": "/images/thumbs/printables__salami-tasting-party-kit-3-jpg-s.webp"
+},
+"/images/printables/soft-cheese-field-guide-1.jpg": {
+"m": "/images/thumbs/printables__soft-cheese-field-guide-1-jpg-m.webp",
+"s": "/images/thumbs/printables__soft-cheese-field-guide-1-jpg-s.webp"
+},
+"/images/printables/soft-cheese-field-guide-2.jpg": {
+"m": "/images/thumbs/printables__soft-cheese-field-guide-2-jpg-m.webp",
+"s": "/images/thumbs/printables__soft-cheese-field-guide-2-jpg-s.webp"
+},
+"/images/printables/soft-cheese-field-guide-3.jpg": {
+"m": "/images/thumbs/printables__soft-cheese-field-guide-3-jpg-m.webp",
+"s": "/images/thumbs/printables__soft-cheese-field-guide-3-jpg-s.webp"
+},
+"/images/printables/spanish-tapas-board-kit-1.jpg": {
+"m": "/images/thumbs/printables__spanish-tapas-board-kit-1-jpg-m.webp",
+"s": "/images/thumbs/printables__spanish-tapas-board-kit-1-jpg-s.webp"
+},
+"/images/printables/spanish-tapas-board-kit-2.jpg": {
+"m": "/images/thumbs/printables__spanish-tapas-board-kit-2-jpg-m.webp",
+"s": "/images/thumbs/printables__spanish-tapas-board-kit-2-jpg-s.webp"
+},
+"/images/printables/spanish-tapas-board-kit-3.jpg": {
+"m": "/images/thumbs/printables__spanish-tapas-board-kit-3-jpg-m.webp",
+"s": "/images/thumbs/printables__spanish-tapas-board-kit-3-jpg-s.webp"
+},
+"/images/printables/spend-smart-board-plan-1.jpg": {
+"m": "/images/thumbs/printables__spend-smart-board-plan-1-jpg-m.webp",
+"s": "/images/thumbs/printables__spend-smart-board-plan-1-jpg-s.webp"
+},
+"/images/printables/spend-smart-board-plan-2.jpg": {
+"m": "/images/thumbs/printables__spend-smart-board-plan-2-jpg-m.webp",
+"s": "/images/thumbs/printables__spend-smart-board-plan-2-jpg-s.webp"
+},
+"/images/printables/spend-smart-board-plan-3.jpg": {
+"m": "/images/thumbs/printables__spend-smart-board-plan-3-jpg-m.webp",
+"s": "/images/thumbs/printables__spend-smart-board-plan-3-jpg-s.webp"
 },
 "/images/pronounce-charcuterie.png": {
 "l": "/images/thumbs/pronounce-charcuterie-png-l.webp",

@@ -423,7 +423,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
     </section>
 
     ${h.bookBar("pairings_hub", "Every board in the book comes with its pairing science")}
-    ${h.printCard ? h.printCard("complete-board-builder-bundle", "pairings_hub_print") : ""}
+    ${h.printCard ? h.printCard("pairing-card-deck", "pairings_hub_print") : ""}
 
     <section class="bl-section" id="faq" aria-labelledby="faq-h">
       <h2 id="faq-h">Pairing questions</h2>
@@ -748,7 +748,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${faqHtml(h, f.faq)}
     </section>
     ${h.bookBar(`pairings_food_${f.slug}`, `Put ${it.title.toLowerCase()} on a full board`)}
-    ${h.printCard ? h.printCard(it.category === "Cheese" ? "cheese-pairing-science-card" : "complete-board-builder-bundle", `pairings_print_food_${f.slug}`, { item: it }) : ""}`
+    ${h.printCard ? h.printCard(it.category === "Cheese" ? "cheese-board-field-guide" : "pairing-card-deck", `pairings_print_food_${f.slug}`, { item: it }) : ""}`
     });
   };
   for (const f of idx.foods) add(`pairings/food/${f.slug}/index.html`, foodPageHtml(f));

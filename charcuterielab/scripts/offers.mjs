@@ -46,11 +46,11 @@ export const OFFER_RULES = [
   [/date-night|for-two|board-two|valentine|anniversary|galentine|romantic/, ["book:two", "book:board", "complete-board-builder-bundle"], "Planning a night for two?"],
   [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
-  [MEAT, ["cured-meat-field-guide", "complete-board-builder-bundle"], "Building around cured meats?"],
+  [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],
   [/thanksgiving|friendsgiving|christmas|holiday|new-years|valentine|st-patrick|easter|halloween|super-bowl|game-day|hanukkah|birthday|graduation|office|cocktail|date-night|board-two|for-two|book-club|movie|camping|picnic|beach|summer|fall-|winter|budget|25-dollar|luxury|expensive|keto|kid|\/boards\//, ["book:board", "complete-board-builder-bundle"], "Want the full plan?"],
   [/how-to|beginner|easy|what-goes-on|presentation|how-much|per-person|quantit|serving|party-planner|board-builder|ideas|appetizer|build-sequence|bread|cracker|shapes|sizes|mistakes|layout|arrange/, ["classic-entertaining-board-blueprint", "complete-board-builder-bundle"], "Building your first board?"],
-  [/./, ["complete-board-builder-bundle", "book:main"], "Planning a board?"]
+  [/./, ["classic-entertaining-board-blueprint", "book:main"], "Planning a board?"]
 ];
 
 // The lead line when a fallback product is used instead of the rule's first pick.
@@ -125,12 +125,11 @@ export function makeOffers(h, products, books) {
   // The second option under the main button.
   function alt(o, campaign) {
     if (o.type === "printable") {
-      const bk = books.main;
-      return `Or all 50 boards: <a href="${esc(h.withTracking(bk.url, `${campaign}_alt`))}" target="_blank" rel="noopener">ebook ${esc(bk.price)}</a> · <a href="${esc(bk.paperbackUrl)}" target="_blank" rel="noopener">paperback on Amazon</a>`;
+      return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · Instant PDF · 30-day refund`;
     }
     const bundle = live.get("complete-board-builder-bundle");
-    if (!o.paperbackUrl) return `<a href="/printables/">Or browse the printables from $4</a>`;
-    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a>${bundle ? ` · <a href="/printables/">Printables from $4</a>` : ""}`;
+    if (!o.paperbackUrl) return `<a href="/printables/">Or browse the printables from $3</a>`;
+    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a> · <a href="/printables/">Printables from $3</a>`;
   }
 
   function top(ctx, campaign) {
@@ -193,6 +192,12 @@ export function makeOffers(h, products, books) {
               const at = p > 0 ? p + 4 : h1At + 5;
               html = html.slice(0, at) + "\n" + card + html.slice(at);
             } else continue;
+          }
+          // The mid-page printable card shows the same product as the top card.
+          const chosen = pick(ctx);
+          if (chosen.type === "printable" && h.printCard) {
+            const mid = h.printCard(chosen.slug, `mid_${campaign.slice(4)}`);
+            if (mid) html = html.replace(/<aside class="fx-print"[\s\S]*?<\/aside>/, mid);
           }
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");

@@ -311,16 +311,18 @@ export function ebookSections(h, bookBoards, F) {
 
 // ----------------------------------------------------------- printables ---
 
+// Order of the groups on /printables/ (products.json "group"). Holidays first.
+const GROUPS = ["Holidays and parties", "Cheese", "Boards by style", "Planning and pairing", "More printables"];
+
 // Which printable answers which page. Returns a product slug.
 export function printableFor({ kind, slug = "", title = "", category = "" }) {
   const s = `${slug} ${title}`.toLowerCase();
   if (/dairy-free|vegan|plant-based/.test(s)) return "";
   if (kind === "chart" || kind === "drink" || /wine|sommelier|champagne|prosecco|port\b|pinot|cabernet|chardonnay|beer|cider/.test(s)) return "wine-cheese-pairing-guide";
-  if (kind === "builder") return "complete-board-builder-bundle";
+  if (kind === "builder") return "classic-entertaining-board-blueprint";
   if (/how-to-make|build-sequence|beginner|easy-charcuterie|what-goes-on|presentation|quantities|serving-size|per-person|how-much|board-ideas|appetizer|large-group|grazing/.test(s)) return "classic-entertaining-board-blueprint";
-  if (category === "Cheese" || /cheese|brie|cheddar|gouda|manchego|parmesan|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata/.test(s)) return "cheese-pairing-science-card";
-  if (kind === "board" || kind === "holiday" || kind === "hub") return "complete-board-builder-bundle";
-  return "complete-board-builder-bundle";
+  if (category === "Cheese" || /cheese|brie|cheddar|gouda|manchego|parmesan|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata/.test(s)) return "cheese-board-field-guide";
+  return "classic-entertaining-board-blueprint";
 }
 
 const SCIENCE_CARD_CHEESES = ["brie", "aged-cheddar", "aged-gouda", "manchego", "parmesan", "parmigiano-reggiano", "gorgonzola", "stilton", "goat-cheese", "chevre", "fresh-chevre", "feta", "muenster", "smoked-gouda", "brie-de-meaux", "gruyere", "camembert", "comte"];
@@ -334,7 +336,7 @@ export function makePrintables(h, products) {
     const p = bySlug.get(slug);
     if (!p) return "";
     let line = lead || p.hook;
-    if (!lead && slug === "cheese-pairing-science-card" && item && SCIENCE_CARD_CHEESES.includes(item.slug)) {
+    if (false && item && SCIENCE_CARD_CHEESES.includes(item.slug)) {
       line = `${item.title} is one of the 15 cheeses on the card: its best fruits, meats, crackers, condiments and drinks on one printable page.`;
     }
     return `<aside class="fx-print" aria-label="Printable: ${esc(p.title)}">
@@ -363,11 +365,14 @@ export function makePrintables(h, products) {
 
   function productPage(p) {
     const bundle = bySlug.get("complete-board-builder-bundle");
-    const inBundle = p.slug !== bundle.slug && (bundle.contains || []).includes(p.slug);
+    const inBundle = !!(bundle && bundle.url && p.slug !== bundle.slug && (bundle.contains || []).includes(p.slug));
     const faq = [
       ["How do I get it?", "Checkout is on Gumroad. You get an instant download link by email, and the PDF stays in your Gumroad library."],
       ["What size does it print?", `${p.format}. It prints on any home printer, and reads fine on a phone too.`],
       ["Can I print it more than once?", "Yes. Print it for every party; it doesn't expire."],
+      ["What if it's not what I expected?", "Reply to your Gumroad receipt within 30 days and you'll get a full refund. No forms."],
+      ["Can I share it?", "It's for your own parties and events. Print as many copies as you like for your guests, but please don't resell or post the file."],
+      ["Who made it?", "Jimmy Wilson at Charcuterie Lab, who also runs a local charcuterie catering business. Every amount follows the same standard as the free Party Planner on this site."],
       ...(inBundle ? [["Is it in a bundle?", `Yes. It's one of the three PDFs in the Complete Board Builder Bundle (${bundle.priceShort} for all three).`]] : [])
     ];
     return h.layout({
@@ -380,16 +385,21 @@ export function makePrintables(h, products) {
       body: `<main class="fx-product">
   <nav class="fx-crumbs" aria-label="Breadcrumb"><a href="/shop/">Shop</a> / <a href="/printables/">Printables</a> / ${esc(p.title)}</nav>
   <section class="fx-product-hero">
-    <img src="${esc(p.image)}" alt="${esc(p.title)} preview" width="480" height="480">
+    <img src="${esc(p.image)}" alt="${esc(p.title)}: printable PDF cover" width="480" height="480">
     <div>
       <p class="section-kicker">Printable · Instant PDF</p>
       <h1>${esc(p.title)}</h1>
       <p class="fx-product-lead">${esc(p.hook)}</p>
       <p class="fx-product-price">${esc(p.priceShort)} <span>${esc(p.pagesLabel)} · ${esc(p.format)}</span></p>
       ${buy(p, `printable_${p.slug}_hero`)}
+      <p class="fx-fine">Instant download · Print at home · 30-day refund if it's not what you expected</p>
       ${inBundle ? `<p class="fx-fine">Or get it with two more printables in the <a href="/printables/${bundle.slug}/">Complete Board Builder Bundle</a> for ${esc(bundle.priceShort)}.</p>` : ""}
     </div>
   </section>
+  ${(p.previews || []).length ? `<section class="fx-gallery" aria-label="Look inside">
+    <h2>Look inside</h2>
+    <div class="fx-gallery-grid">${p.previews.map((src, i) => `<a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc((h.thumb || ((x) => x))(src, "m"))}" alt="${esc(p.title)}: inside pages, preview ${i + 1} of ${p.previews.length}" width="640" height="480" loading="lazy" decoding="async"></a>`).join("")}</div>
+  </section>` : ""}
   <section class="fx-product-body">
     <div>
       <h2>What's inside</h2>
@@ -422,7 +432,7 @@ export function makePrintables(h, products) {
       title: "Printable Charcuterie Shopping Lists, Charts & Templates",
       canonical: "/printables/",
       image: products[0].image,
-      description: "Printable charcuterie board shopping lists, a wine and cheese pairing guide, a cheese pairing card, board blueprints and planners. Instant PDF downloads from $4, plus free samples.",
+      description: `Printable charcuterie board shopping lists, cheese and pairing guides, holiday board plans and planners. Instant PDF downloads from ${cheapest}, plus free samples.`,
       head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab printables", itemListElement: products.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/printables/${p.slug}/`), name: p.title })) })}</script>
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
       body: `<main class="fx-printables">
@@ -430,18 +440,20 @@ export function makePrintables(h, products) {
     <p class="section-kicker">Printables</p>
     <h1>Printable charcuterie board shopping lists, charts and templates</h1>
     <p>Instant PDF downloads from ${esc(cheapest)}. Print it, take it to the store and build from it. Checkout is on Gumroad and the download link arrives by email straight away.</p>
+    <p class="fx-p-trust">Made by Jimmy Wilson at Charcuterie Lab · 30-day refund on every PDF · Print as often as you like</p>
   </header>
   <section class="fx-p-paid" aria-labelledby="fx-paid">
     <h2 id="fx-paid">Printable PDFs</h2>
+    ${GROUPS.map((g) => [g, products.filter((p) => (p.group || "More printables") === g)]).filter(([, ps]) => ps.length).map(([g, ps]) => `<h3 class="fx-p-group">${esc(g)}</h3>
     <div class="fx-p-grid">
-      ${products.map((p) => `<article class="fx-p-card">
+      ${ps.map((p) => `<article class="fx-p-card">
         <a href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
         <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
         <h3><a href="/printables/${p.slug}/">${esc(p.title)}</a></h3>
         <p>${esc(p.hook)}</p>
         <div class="fx-print-actions">${buy(p, "printables_hub")}<a class="fx-more" href="/printables/${p.slug}/">What's inside &rarr;</a></div>
       </article>`).join("\n      ")}
-    </div>
+    </div>`).join("\n    ")}
   </section>
   ${singles.length ? `<section class="fx-p-paid fx-p-singles" aria-labelledby="fx-singles">
     <h2 id="fx-singles">Single board plans: ${esc(singles[0].single.price)} each</h2>
