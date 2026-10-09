@@ -13,6 +13,7 @@
 //   "book:world" - Around the World in 16 Boards
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { bhForm, CHEAT_IMG } from "./funnel.mjs";
 
 const MEAT = /salami|pepperoni|soppressata|saucisson|prosciutto|coppa|capicola|bresaola|chorizo|nduja|mortadella|finocchiona|speck|pancetta|cured-meat|best-meats|meat-lover|jamon|lomo|fuet|culatello|guanciale|summer-sausage|rosette|landjager|cured meat/;
 const CHEESE = /cheese|brie|cheddar|gouda|manchego|parmesan|parmigiano|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata|mozzarella|stracciatella|havarti|roquefort|boursin|halloumi|ricotta|mascarpone|epoisses|fontina|pecorino|asiago|raclette|reblochon|mimolette|jarlsberg|emmental|provolone|blue-cheese|bleu|triple-creme|mahon|idiazabal|morbier|muenster|edam|cotija|labneh|grana/;
@@ -151,14 +152,70 @@ export function makeOffers(h, products, books) {
 </aside>`;
   }
 
-  function sticky(ctx, campaign) {
+  // The email ask, high on the page (8 Oct 2026): right after the page's quick
+  // answer, before the paid card. Compact, so the article still starts within
+  // the first two phone screens.
+  function emailHigh(campaign) {
+    return `<aside class="fx-hi" aria-label="Free Charcuterie Cheat Sheet" id="cheat">
+  <img class="fx-hi-img" src="${esc(thumb(CHEAT_IMG, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
+  <div class="fx-hi-copy">
+    <p class="fx-hi-eyebrow">Free printable</p>
+    <p class="fx-hi-title">The Charcuterie Cheat Sheet</p>
+    <p class="fx-hi-line">How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.</p>
+  </div>
+  ${bhForm("lead-hi", campaign)}
+</aside>`;
+  }
+
+  // Where the email box and paid card go: after the quick answer.
+  //   blog          after the "Quick Answer" blockquote at the top of the post
+  //   ingredients,  before the 2nd H2 (after "The short version" / the top
+  //   boards,       pairings / "What's on the board")
+  //   pairings/food
+  //   holidays, dietary (after its intro), other pairing pages: before the 1st H2
+  // A section that opens with the H2 is kept whole. Hubs and the Party Planner
+  // (its email form is already in its first section) keep the old layout.
+  function anchorFor(path, html, mainAt) {
+    const parts = path.split("/").filter(Boolean);
+    if (parts.length < 2 || parts[0] === "party-planner") return -1;
+    const h2s = [];
+    for (let i = html.indexOf("<h2", mainAt); i >= 0 && h2s.length < 3; i = html.indexOf("<h2", i + 3)) h2s.push(i);
+    const before = (i) => {
+      if (i < 0) return -1;
+      const sec = Math.max(html.lastIndexOf("<section", i), html.lastIndexOf("<div class=\"ing-section", i));
+      if (sec > mainAt) {
+        const open = html.indexOf(">", sec);
+        if (open < i && html.slice(open + 1, i).trim() === "") return sec;
+      }
+      return i;
+    };
+    if (parts[0] === "blog") {
+      const art = html.indexOf('<article class="post-body"', mainAt);
+      const bq = art >= 0 ? html.indexOf("<blockquote", art) : -1;
+      if (bq >= 0 && (h2s[0] === undefined || bq < h2s[0])) {
+        const end = html.indexOf("</blockquote>", bq);
+        if (end > 0) return end + "</blockquote>".length;
+      }
+      return before(h2s[0] ?? -1);
+    }
+    const second = ["ingredients", "boards"].includes(parts[0]) || (parts[0] === "pairings" && parts[1] === "food");
+    if (second && h2s.length >= 2) return before(h2s[1]);
+    return before(h2s[0] ?? -1);
+  }
+
+  function sticky(ctx, campaign, formId) {
     const o = pick(ctx);
     const label = o.type === "printable" ? o.title : o.boardN ? `Board #${o.boardN}, fully planned` : o.title;
+    // Pages with an email form: the bar offers the free cheat sheet and jumps
+    // to the form; it hides while any email form is on screen.
+    const link = formId
+      ? `<a href="#${esc(formId)}" data-fx-free><strong>Free cheat sheet: how much to buy</strong><span>Get it free</span></a>`
+      : `<a href="${esc(h.withTracking(o.url, campaign))}" target="_blank" rel="noopener"><strong>${esc(label)}</strong><span>${o.type === "printable" ? "PDF" : "Ebook"} ${esc(o.price)}</span></a>`;
     return `<div class="fx-sticky" data-fx-sticky hidden>
-    <a href="${esc(h.withTracking(o.url, campaign))}" target="_blank" rel="noopener"><strong>${esc(label)}</strong><span>${o.type === "printable" ? "PDF" : "Ebook"} ${esc(o.price)}</span></a>
+    ${link}
     <button type="button" aria-label="Close" data-fx-close>&times;</button>
   </div>
-  <script>(function(){var b=document.querySelector("[data-fx-sticky]");if(!b)return;var k="fx-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");function on(){var s=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight||1);b.hidden=!(mq.matches&&s>0.2&&s<0.97)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
+  <script>(function(){var b=document.querySelector("[data-fx-sticky]");if(!b)return;var k="fx-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");var vis=new Set();if(window.IntersectionObserver&&b.querySelector("[data-fx-free]")){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)});on()});document.querySelectorAll(".fx-bh-form").forEach(function(f){io.observe(f)})}function on(){var s=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight||1);b.hidden=!(mq.matches&&s>0.2&&s<0.97&&!vis.size)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
   }
 
   // Put the matched offer into every built page. A page can choose its spot
@@ -166,6 +223,7 @@ export function makeOffers(h, products, books) {
   // <header> inside <main>, or after the paragraph that follows the H1.
   async function inject(dist, ctxFor) {
     let n = 0;
+    let hi = 0;
     const counts = {};
     async function walk(dir, rel) {
       for (const e of await readdir(dir, { withFileTypes: true })) {
@@ -183,7 +241,21 @@ export function makeOffers(h, products, books) {
           const campaign = `top_${path.replace(/^\/|\/$/g, "").replace(/\//g, "_") || "home"}`;
           const card = top(ctx, campaign);
           const mainAt = html.indexOf("<main");
-          if (html.includes("<!--offer-top-->")) html = html.replace("<!--offer-top-->", card);
+          let at = anchorFor(path, html, mainAt);
+          if (at > mainAt) {
+            // The page's own <!--offer-top--> spot is above the quick answer;
+            // the email box and the card both move below the answer now.
+            if (html.includes("<!--offer-top-->")) {
+              const m = html.indexOf("<!--offer-top-->");
+              html = html.replace("<!--offer-top-->", "");
+              if (m < at) at -= "<!--offer-top-->".length;
+            }
+            const inCard = card.replace('<aside class="fx-top"', '<aside class="fx-top fx-in"');
+            html = html.slice(0, at) + "\n" + emailHigh(`cheat_hi_${campaign.slice(4)}`) + "\n" + inCard + "\n" + html.slice(at);
+            // One email box mid-article is enough: drop the old mid-post lead box.
+            html = html.replace(/<aside class="fx-lead"[\s\S]*?<\/aside>\s*/, "");
+            hi++;
+          } else if (html.includes("<!--offer-top-->")) html = html.replace("<!--offer-top-->", card);
           else {
             const hdr = html.indexOf("</header>", mainAt);
             const h1At = html.indexOf("</h1>", mainAt);
@@ -202,7 +274,8 @@ export function makeOffers(h, products, books) {
           }
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");
-          html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`)}\n</main>`);
+          const formId = (html.match(/class="fx-bh-form" id="([^"]+)"/) || [])[1];
+          html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId))}\n</main>`);
           await writeFile(file, html);
           n++;
           const key = (card.match(/data-offer="([^"]*)"/) || [])[1] || "?";
@@ -211,7 +284,7 @@ export function makeOffers(h, products, books) {
       }
     }
     await walk(dist, "");
-    return { n, counts };
+    return { n, hi, counts };
   }
 
   return { pick, top, sticky, inject, live };

@@ -22,6 +22,21 @@ export const BEEHIIV_LOADER = "https://subscribe-forms.beehiiv.com/v3/loader.js"
 export const CHEAT_FORM_ID = "caa8cdee-ee7d-4936-b95f-3e7f9a1f24b1";
 export const CHEAT_THANKS = "/thanks/cheat-sheet/";
 
+// One-step beehiiv signup (the "Cheat sheet" form). beehiiv redirects every
+// signup to /thanks/cheat-sheet/. A page that promises a different freebie (the
+// Party Planner list, the diet label cards, board 01) passes `extra`: the page
+// remembers it for this tab, and the thank-you page offers that download too.
+const escAttr = (x) => String(x).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+export function bhForm(id, campaign, extra = null) {
+  const remember = extra
+    ? `\n        <script>try{sessionStorage.setItem("cl-extra",JSON.stringify(${JSON.stringify({ l: extra.label, u: extra.pdf }).replace(/</g, "\\u003c")}))}catch(e){}</script>`
+    : "";
+  return `<div class="fx-bh-form" id="${escAttr(id)}" data-campaign="${escAttr(campaign)}">
+        <script async src="${BEEHIIV_LOADER}" data-beehiiv-form="${CHEAT_FORM_ID}"></script>
+        <noscript><a class="button primary" href="https://charcuterie-lab-report.beehiiv.com/subscribe">Get the cheat sheet</a></noscript>${remember}
+      </div>`;
+}
+
 // The book's own table of contents groups (pages 5-6 of the book).
 export const BOOK_SECTIONS = [
   ["Classic & Everyday", [1, 7, 8, 13, 14, 35]],
@@ -188,19 +203,13 @@ export function makeFunnel(h) {
   <script>(function(){var b=document.querySelector("[data-fx-sticky]");if(!b)return;var k="fx-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");function on(){var s=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight||1);b.hidden=!(mq.matches&&s>0.33&&s<0.97)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
   }
 
-  // Free sample: the form sends the email to the newsletter (new tab, as every
-  // form on the site does) and reveals the download link here.
+  // Free sample: the one-step beehiiv form. The thank-you page offers board 01
+  // next to the cheat sheet, and the welcome email links it as well.
   function sampleForm(id, campaign, { compact = false } = {}) {
-    return `<form class="fx-sample-form${compact ? " fx-compact" : ""}" action="${newsletterUrl}" method="get" target="_blank" rel="noopener" data-fx-sample>
-      <label class="sr-only" for="${id}">Email address</label>
-      <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-      <input type="hidden" name="utm_source" value="charcuterielab">
-      <input type="hidden" name="utm_medium" value="site">
-      <input type="hidden" name="utm_campaign" value="${esc(campaign)}">
-      <button class="button primary" type="submit">Send me board 01</button>
-      <p class="fx-sample-done" hidden>Your sample is ready: <a class="button" href="${SAMPLE_PDF}" download>Download the PDF (11 pages)</a><span>You're also on the weekly Lab Report. Confirm in the tab that just opened.</span></p>
-    </form>
-    <script>(function(){document.querySelectorAll("[data-fx-sample]").forEach(function(f){if(f.dataset.bound)return;f.dataset.bound=1;f.addEventListener("submit",function(){var d=f.querySelector(".fx-sample-done");setTimeout(function(){d.hidden=false},200)})})})();</script>`;
+    return `<div class="fx-sample-bh${compact ? " fx-compact" : ""}">
+      ${bhForm(id, campaign, { label: "Download board 01 (PDF, 11 pages)", pdf: SAMPLE_PDF })}
+      <p class="fx-fine">Board 01 and the cheat sheet open on the next page. You'll also get the weekly Lab Report; leave any time.</p>
+    </div>`;
   }
 
   // Free Cheat Sheet for an email. beehiiv's embedded form (one step, on the
@@ -209,10 +218,7 @@ export function makeFunnel(h) {
   // beehiiv (Subscribers > Subscribe forms > "Cheat sheet"). Without
   // JavaScript the reader gets a plain link to the beehiiv signup page instead.
   function cheatForm(id, campaign) {
-    return `<div class="fx-bh-form" id="${esc(id)}" data-campaign="${esc(campaign)}">
-        <script async src="${BEEHIIV_LOADER}" data-beehiiv-form="${CHEAT_FORM_ID}"></script>
-        <noscript><a class="button primary" href="${newsletterUrl}">Get the cheat sheet</a></noscript>
-      </div>`;
+    return bhForm(id, campaign);
   }
 
   function leadBox(id, campaign, { title = "The Charcuterie Cheat Sheet", intro = "" } = {}) {

@@ -1,3 +1,4 @@
+import { bhForm } from "./funnel.mjs";
 // Party Planner: /party-planner/ plus one page per guest count.
 //
 // One quantity standard for the whole site (the Board Builder uses the same
@@ -117,17 +118,9 @@ function amountsTable(h, p, id) {
 
 const modeSwitchJs = `<script>(function(){document.querySelectorAll("[data-pp-modes]").forEach(function(w){var bs=w.querySelectorAll("[data-pp-mode]");function set(m){bs.forEach(function(b){var on=b.dataset.ppMode===m;b.classList.toggle("is-on",on);b.setAttribute("aria-pressed",on)});document.querySelectorAll("[data-pp-panel]").forEach(function(p){p.hidden=p.dataset.ppPanel!==m})}bs.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.ppMode)})});set(w.dataset.ppDefault)})})();</script>`;
 
-function leadForm(h, id, campaign, pdf, label) {
-  return `<form class="fx-sample-form pp-lead" action="${h.newsletterUrl}" method="get" target="_blank" rel="noopener" data-fx-sample>
-      <label class="sr-only" for="${id}">Email address</label>
-      <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-      <input type="hidden" name="utm_source" value="charcuterielab">
-      <input type="hidden" name="utm_medium" value="site">
-      <input type="hidden" name="utm_campaign" value="${h.escapeHtml(campaign)}">
-      <button class="button primary" type="submit">${h.escapeHtml(label)}</button>
-      <p class="fx-sample-done" hidden>Your list is ready: <a class="button" href="${pdf}" download>Download the PDF</a><span>You're also on the weekly Lab Report. Confirm in the tab that just opened.</span></p>
-    </form>
-    <script>(function(){document.querySelectorAll("[data-fx-sample]").forEach(function(f){if(f.dataset.bound)return;f.dataset.bound=1;f.addEventListener("submit",function(){var d=f.querySelector(".fx-sample-done");setTimeout(function(){d.hidden=false},200)})})})();</script>`;
+function leadForm(h, id, campaign, pdf, n) {
+  return `${bhForm(id, campaign, { label: `Download the shopping list for ${n} (PDF)`, pdf })}
+      <p class="fx-fine">The list opens on the next page, with the free cheat sheet. You'll also get the weekly Lab Report; leave any time.</p>`;
 }
 
 export function pdfFor(n) {
@@ -192,7 +185,7 @@ ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}
     </div>
     <div class="pp-lead-box">
       <p><strong>Get this list as a printable PDF</strong> with checkboxes, all three party sizes and the timeline.</p>
-      ${leadForm(h, `pp-email-${n}`, `party_list_${n}`, pdfFor(n), "Email me the list")}
+      ${leadForm(h, `pp-email-${n}`, `party_list_${n}`, pdfFor(n), n)}
     </div>
   </section>
 

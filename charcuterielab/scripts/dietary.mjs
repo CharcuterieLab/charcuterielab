@@ -14,6 +14,7 @@
 // Also exports the "Diet notes" block shown on every ingredient page.
 
 import { readFile } from "node:fs/promises";
+import { bhForm } from "./funnel.mjs";
 import { join } from "node:path";
 
 export const DIET_ORDER = ["gluten-free", "nut-free", "vegetarian", "vegan", "dairy-free"];
@@ -209,16 +210,10 @@ function labelsLead(h, id, campaign) {
         <h2 id="${id}-h">Diet label cards for your board</h2>
         <p>Fold-over tent cards for Gluten-free, Nut-free, Contains nuts, Vegetarian, Vegan, Dairy-free and Contains pork, plus blanks. Print, cut, fold.</p>
       </div>
-      <form class="fx-sample-form fx-lead-form" action="${h.newsletterUrl}" method="get" target="_blank" rel="noopener" data-fx-sample>
-        <label class="sr-only" for="${id}">Email address</label>
-        <input id="${id}" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <input type="hidden" name="utm_source" value="charcuterielab">
-        <input type="hidden" name="utm_medium" value="site">
-        <input type="hidden" name="utm_campaign" value="${h.escapeHtml(campaign)}">
-        <button class="button primary" type="submit">Email me the label cards</button>
-        <p class="fx-sample-done" hidden>Your cards are ready: <a class="button" href="${LABELS_PDF}" download>Download the PDF (2 pages)</a><span>You're also on the weekly Lab Report. Confirm in the tab that just opened.</span></p>
-      </form>
-      <script>(function(){document.querySelectorAll("[data-fx-sample]").forEach(function(f){if(f.dataset.bound)return;f.dataset.bound=1;f.addEventListener("submit",function(){var d=f.querySelector(".fx-sample-done");setTimeout(function(){d.hidden=false},200)})})})();</script>
+      <div class="dt-lead-form">
+        ${bhForm(id, campaign, { label: "Download the diet label cards (PDF, 2 pages)", pdf: LABELS_PDF })}
+        <p class="fx-fine">The cards open on the next page, with the free cheat sheet. You'll also get the weekly Lab Report; leave any time.</p>
+      </div>
     </aside>`;
 }
 

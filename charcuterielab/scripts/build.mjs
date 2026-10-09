@@ -1690,14 +1690,10 @@ function homePage(posts, products, boardStrip = "") {
   <section class="section newsletter" id="newsletter">
     <div class="newsletter-row">
       <div>
-        <h2>Get the Charcuterie Lab Report</h2>
-        <p>One pairing that works and why, a board worth stealing, and new printables the day they land. Free, and you can leave any time.</p>
+        <h2>Get the free Charcuterie Cheat Sheet</h2>
+        <p>How much to buy for 4 to 50 guests, the build order and four pairing rules on two printable pages. Plus the Lab Report: one pairing that works and why, and new printables the day they land. Free, and you can leave any time.</p>
       </div>
-      <form class="newsletter-form" action="${newsletterUrl}" method="get" target="_blank" rel="noopener">
-        <label class="sr-only" for="email">Email address</label>
-        <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-        <button class="button primary" type="submit">Subscribe</button>
-      </form>
+      <div class="newsletter-form">${FUNNEL.cheatForm("home-email", "cheat_home")}</div>
     </div>
   </section>
 </main>`
@@ -2906,6 +2902,8 @@ function cheatThanksPage() {
         <div>
           <p>Two printable pages: how much meat, cheese and crackers for 4 to 50 guests, the 7-step build order, when to take each cheese out of the fridge, and four pairing rules.</p>
           <p><a class="button primary" href="${CHEAT_PDF}" download>Download the cheat sheet (PDF)</a></p>
+          <p class="thanks-extra" data-thanks-extra hidden><a class="button" href="#" download></a></p>
+          <script>(function(){try{var x=JSON.parse(sessionStorage.getItem("cl-extra")||"null");if(!x||!x.u||x.u.charAt(0)!=="/")return;var p=document.querySelector("[data-thanks-extra]"),a=p.querySelector("a");a.href=x.u;a.textContent=x.l;p.hidden=false;sessionStorage.removeItem("cl-extra")}catch(e){}})();</script>
           <p class="thanks-note">A copy is on its way to your inbox too, with the first Lab Report. If it isn't there in a few minutes, check Promotions or Spam and drag it to your inbox so the next one lands.</p>
         </div>
       </div>
@@ -3012,7 +3010,7 @@ function searchPage(count) {
 }
 
 await build();
-{ const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages, ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
+{ const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");
