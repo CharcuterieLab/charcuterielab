@@ -240,7 +240,7 @@ function verdictTables(h, idx, categories, keys, { open = ["Cheese", "Cured Meat
         </table></div>
       </details>`;
     })
-    .join("\n      ");
+    .join("\n      ") + `<script>try{if(matchMedia("(max-width: 820px)").matches)document.querySelectorAll("details.dt-cat[open]").forEach(function(d){d.open=false})}catch(e){}</script>`;
 }
 
 function boardCards(h, idx, key, n = 3) {

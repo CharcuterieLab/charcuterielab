@@ -904,6 +904,8 @@ function ingredientsFinder(items, { heading, intro, showCategoryFilter = true })
     <ul class="ing-grid" id="ing-grid">
 ${items.map(ingredientCard).join("\n")}
     </ul>
+    <p class="ing-more-wrap"><button type="button" class="button ing-more" id="ing-more">Show all ${items.length} ingredients</button></p>
+    <script>(function(){var g=document.getElementById("ing-grid"),b=document.getElementById("ing-more");if(!g||!b)return;function all(){g.classList.add("show-all");b.parentNode.hidden=true}b.addEventListener("click",all);var f=document.querySelector(".ing-finder");if(f){f.addEventListener("input",all);f.addEventListener("change",all);f.addEventListener("click",function(e){if(e.target.closest("button,input,label,summary"))all()})}if(location.hash||location.search)all()})();</script>
     <p class="ing-empty" id="ing-empty" hidden>No ingredients match those filters. <button type="button" class="ing-linkbtn" id="ing-empty-reset">Clear them</button>.</p>
   </div>
 </section>
@@ -1449,7 +1451,9 @@ ${head}
   <header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
-      <div class="nav-links">
+      <a class="nav-m-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="nav-toggle-bars" aria-hidden="true"></span>Menu</button>
+      <div class="nav-links" id="site-menu">
         <a class="nav-book" href="/printables/">Printables</a>
         <a href="/boards/">Boards</a>
         <a href="/holidays/">Holidays</a>
@@ -1464,6 +1468,7 @@ ${head}
       </div>
     </nav>
   </header>
+  <script>(function(){var h=document.querySelector(".site-header"),t=h&&h.querySelector(".nav-toggle");if(!t)return;var mq=window.matchMedia("(max-width: 820px)");t.addEventListener("click",function(){var o=h.classList.toggle("is-open");t.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&h.classList.contains("is-open")){h.classList.remove("is-open");t.setAttribute("aria-expanded","false");t.focus()}});var y=window.scrollY;window.addEventListener("scroll",function(){var n=window.scrollY;if(!mq.matches||h.classList.contains("is-open")){h.classList.remove("is-tucked");y=n;return}if(n>y+6&&n>140)h.classList.add("is-tucked");else if(n<y-6||n<140)h.classList.remove("is-tucked");y=n},{passive:true})})();</script>
   ${body}
   <footer class="site-footer">
     <div class="footer-inner">
@@ -1494,6 +1499,8 @@ ${head}
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
     </div>
   </footer>
+  <button class="to-top" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <script>(function(){var b=document.querySelector(".to-top");if(!b)return;var mq=matchMedia("(max-width: 820px)");function on(){b.hidden=!(mq.matches&&scrollY>innerHeight*3)}addEventListener("scroll",on,{passive:true});b.addEventListener("click",function(){scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});var h=document.querySelector(".brand");if(h)h.focus({preventScroll:true})})})();</script>
 ${statcounterTag()}
 </body>
 </html>`;
@@ -1906,7 +1913,7 @@ ${labNext("ebook_page_next", { skip: ["book"], heading: "Free from the Lab" })}
 
 function articleCard(post) {
   return `<article class="card">
-  <a href="/blog/${post.slug}/"><img class="blog-preview-image" src="${thumb(post.image)}" alt=""${imageSize(thumb(post.image))} loading="lazy" decoding="async"></a>
+  <a href="/blog/${post.slug}/" tabindex="-1" aria-hidden="true"><img class="blog-preview-image" src="${thumb(post.image)}" alt=""${imageSize(thumb(post.image))} loading="lazy" decoding="async"></a>
   <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
   <p>${escapeHtml(clampText(metaDescription(post), 155))}</p>
 </article>`;
@@ -2327,7 +2334,7 @@ function addTableOfContents(html, words) {
   <details open><summary>In this article <span>${items.length} sections</span></summary>
   <ol>${items.map(([id, t]) => `<li><a href="#${id}">${escapeHtml(t)}</a></li>`).join("")}</ol>
   </details>
-</nav>`;
+</nav><script>try{if(matchMedia("(max-width: 820px)").matches){var t=document.currentScript.previousElementSibling.querySelector("details");if(t)t.open=false}}catch(e){}</script>`;
   // After the quick answer if there is one, otherwise before the first section.
   const qa = out.match(/<blockquote>[\s\S]*?(Quick Answer|short answer)[\s\S]*?<\/blockquote>/i);
   if (qa && qa.index < out.search(/<h2\b/i)) return out.slice(0, qa.index + qa[0].length) + nav + out.slice(qa.index + qa[0].length);

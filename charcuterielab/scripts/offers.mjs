@@ -85,6 +85,43 @@ const DEFAULT_LEAD = {
 // Pages that are already sales pages, or shouldn't carry an offer.
 const SKIP = /^\/(printables|shop|books|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
+
+// FAQ written as paragraphs ("<p><strong>Question?</strong> answer</p>", a
+// "post-callout" question followed by its answer, or an <h3> question) becomes
+// tap-to-open questions. The text stays in the page, so search engines and the
+// FAQ schema see all of it; only the first answer starts open.
+export function foldFaq(html) {
+  const head = /<h2[^>]*>[^<]*(?:FAQ|Questions|questions|Frequently)[^<]*<\/h2>/.exec(html);
+  if (!head) return html;
+  const start = head.index + head[0].length;
+  const plain = (x) => x.replace(/<[^>]+>/g, "").trim();
+  const items = [];
+  let pos = start;
+  const nextBlock = (at) => {
+    const ws = /^\s*/.exec(html.slice(at))[0].length;
+    const rest = html.slice(at + ws, at + ws + 20000);
+    const m = /^<(p|ul|ol)\b[^>]*>[\s\S]*?<\/\1>/.exec(rest);
+    return m ? { at: at + ws, end: at + ws + m[0].length, text: m[0] } : null;
+  };
+  for (;;) {
+    const ws = /^\s*/.exec(html.slice(pos))[0].length;
+    const rest = html.slice(pos + ws, pos + ws + 20000);
+    let m, q, ans = [], end;
+    if ((m = /^<p><strong>([\s\S]*?)<\/strong>\s*([\s\S]*?)<\/p>/.exec(rest)) && /\?\s*$/.test(plain(m[1])) && plain(m[2])) {
+      q = m[1]; ans = [`<p>${m[2]}</p>`]; end = pos + ws + m[0].length;
+    } else if ((m = /^<p class="post-callout">([\s\S]*?)<\/p>/.exec(rest)) && /\?\s*$/.test(plain(m[1])) || (m = /^<h3[^>]*>([\s\S]*?)<\/h3>/.exec(rest)) && /\?\s*$/.test(plain(m[1]))) {
+      q = m[1]; end = pos + ws + m[0].length;
+      for (let b = nextBlock(end); b && !/^<p class=|^<p><strong>/.test(b.text); b = nextBlock(end)) { ans.push(b.text); end = b.end; }
+      if (!ans.length) break;
+    } else break;
+    items.push({ q, ans });
+    pos = end;
+  }
+  if (items.length < 2) return html;
+  const block = `\n<div class="faq-fold">${items.map((it, i) => `<details class="faq-item"${i === 0 ? " open" : ""}><summary>${it.q}</summary>${it.ans.join("")}</details>`).join("")}</div>`;
+  return html.slice(0, start) + block + html.slice(pos);
+}
+
 export function makeOffers(h, products, books) {
   const esc = h.escapeHtml;
   const live = new Map(products.filter((p) => p.url).map((p) => [p.slug, p]));
@@ -141,7 +178,7 @@ export function makeOffers(h, products, books) {
     const img = thumb(o.image, "s");
     const page = o.type === "printable" ? `/printables/${o.slug}/` : o.page;
     return `<aside class="fx-top" aria-label="${esc(o.type === "printable" ? "Printable" : "Ebook")} for this page" data-offer="${esc(o.slug || o.key)}">
-  <a class="fx-top-img" href="${esc(page)}"><img src="${esc(img)}" alt="" width="96" height="96" loading="lazy" decoding="async"></a>
+  <a class="fx-top-img" href="${esc(page)}" tabindex="-1" aria-hidden="true"><img src="${esc(img)}" alt="" width="96" height="96" loading="lazy" decoding="async"></a>
   <div class="fx-top-copy">
     <p class="fx-top-eyebrow">${esc(eyebrow)}</p>
     <p class="fx-top-title"><strong>${esc(o.lead)}</strong> ${esc(o.title)}</p>
@@ -272,6 +309,20 @@ export function makeOffers(h, products, books) {
             const mid = h.printCard(chosen.slug, `mid_${campaign.slice(4)}`);
             if (mid) html = html.replace(/<aside class="fx-print"[\s\S]*?<\/aside>/, mid);
           }
+          // Phones: tables in the article stack into one card per row. Each cell
+          // gets its column name as data-label (shown for 3+ columns).
+          html = html.replace(/<div class="table-wrap"><table>([\s\S]*?)<\/table><\/div>/g, (all, inner) => {
+            const heads = [...((inner.match(/<thead>([\s\S]*?)<\/thead>/) || [])[1] || "").matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => m[1].replace(/<[^>]+>/g, "").replace(/"/g, "&quot;").trim());
+            if (heads.length < 2) return all;
+            const body = inner.replace(/<tr>([\s\S]*?)<\/tr>/g, (row, cells) => {
+              let k = 0;
+              return `<tr>${cells.replace(/<(td|th)(\s[^>]*)?>/g, (t, tag, attrs = "") => (k < heads.length && !/data-label=/.test(attrs) ? `<${tag}${attrs} data-label="${heads[k++]}">` : (k++, t)))}</tr>`;
+            });
+            return `<div class="table-wrap t-stack${heads.length >= 3 ? " t-stack-labels" : ""}"><table>${body}</table></div>`;
+          });
+          html = foldFaq(html);
+          // The 50-board list: photos become thumbnails beside each board on phones.
+          if (path === "/blog/charcuterie-board-ideas/") html = html.replace('<article class="post-body">', '<article class="post-body ideas-list">');
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");
           const formId = (html.match(/class="fx-bh-form" id="([^"]+)"/) || [])[1];
