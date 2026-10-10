@@ -11,7 +11,7 @@ import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadB
 import { makeOffers } from "./offers.mjs";
 import { bookLandingPages } from "./bookpages.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
-import { KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1034,7 +1034,7 @@ function ingredientsHub(items) {
     description:
       "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
     body: `<main class="ing-main">
-${bookBar("ingredients_hub_top")}
+${guideBar("guide_ingredients_hub", "Every ingredient here, in one book")}
 ${ingredientsFinder(items, {
   heading: "Ingredients",
   intro:
@@ -1325,7 +1325,7 @@ ${spec
     </div>
     ${ingredientGuideLink(item, blogSlugs)}
     ${FUNNEL.leadBox("ing-lead", `cheat_ing_${item.slug}`, { title: `Serving ${item.title}? Get the free cheat sheet` })}
-    ${bookBar(`ingredient_${item.slug}`, `Put ${item.title.toLowerCase()} on a full board`)}
+    ${guideBar(`guide_ingredient_${item.slug}`, `${item.title} and 324 more, in one book`)}
     ${PRINTABLES.card(printableFor({ kind: "ingredient", slug: item.slug, title: item.title, category: item.category }), `ingredient_print_${item.slug}`, { item })}
     ${
       related.length
@@ -1534,6 +1534,21 @@ function bookBar(campaign, label = "The Charcuterie Lab book") {
       <p>50 complete boards with shopping lists, pairing logic and build order. ${bookFormatsLine}</p>
     </div>
     ${bookButtons(campaign, { size: "sm" })}
+  </aside>`;
+}
+
+// Ingredient pages and the ingredients hub sell The Ingredient Guide (Book 6).
+function guideBar(campaign, label) {
+  const paper = GUIDE_BOOK.paperbackUrl ? `<a class="button book-buy-print" href="${GUIDE_BOOK.paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${GUIDE_BOOK.paperbackPrice}</a>` : "";
+  return `<aside class="book-bar" aria-label="The Ingredient Guide">
+    <img class="book-bar-cover" src="${thumb(GUIDE_BOOK.cover, "s")}" alt="" width="64" height="83" loading="lazy" decoding="async">
+    <div class="book-bar-copy">
+      <p class="eyebrow">${escapeHtml(label)}</p>
+      <p>All 325 ingredients in one 224-page PDF: what each one tastes like, what pairs with it and why, how much to buy, plus 8 ready-made shopping lists.</p>
+    </div>
+    <div class="book-buy book-buy-sm">
+      <a class="button primary book-buy-ebook" href="${withTracking(GUIDE_BOOK.ebookUrl, campaign)}" target="_blank" rel="noopener">Get the ebook · ${GUIDE_BOOK.ebookPrice}</a>${paper}
+    </div>
   </aside>`;
 }
 
@@ -1950,6 +1965,12 @@ function shopPage(products) {
       line: "25 boards for date nights, celebrations and cozy nights in.",
       buttons: [[`Ebook · ${TWO_BOOK.ebookPrice}`, withTracking(TWO_BOOK.ebookUrl, "shop_two"), true], ...(TWO_BOOK.paperbackUrl ? [[`Paperback · ${TWO_BOOK.paperbackPrice}`, TWO_BOOK.paperbackUrl, false]] : [])],
       more: ["See the 25 boards", "/books/boards-for-two/"]
+    },
+    {
+      cover: GUIDE_BOOK.cover, w: 600, h: 776, tag: "New · Reference", title: "The Ingredient Guide",
+      line: "325 cheeses, meats, breads and extras: what pairs with each and why.",
+      buttons: [[`Ebook · ${GUIDE_BOOK.ebookPrice}`, withTracking(GUIDE_BOOK.ebookUrl, "shop_guide"), true], ...(GUIDE_BOOK.paperbackUrl ? [[`Paperback · ${GUIDE_BOOK.paperbackPrice}`, GUIDE_BOOK.paperbackUrl, false]] : [])],
+      more: ["Browse the ingredients", "/ingredients/"]
     },
     {
       cover: KETO_BOOK.cover, w: 600, h: 787, tag: "New · Keto", title: "Keto & Low-Carb Boards",
@@ -2529,7 +2550,7 @@ async function build() {
 
   BOOK_BOARDS = await loadBookBoards(root);
   FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
-  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
+  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(GUIDE_BOOK.ebookUrl ? [{ title: "The Ingredient Guide", line: "325 ingredients in one 224-page PDF: what each tastes like, what pairs with it and why, and how much to buy.", cover: GUIDE_BOOK.cover, price: GUIDE_BOOK.ebookPrice, url: GUIDE_BOOK.ebookUrl, page: "/ingredients/", paperbackUrl: GUIDE_BOOK.paperbackUrl, paperbackPrice: GUIDE_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so

@@ -628,6 +628,10 @@
 600,
 787
 ],
+"/images/books/ingredient-guide-cover.jpg": [
+600,
+776
+],
 "/images/books/keto-cover.jpg": [
 600,
 787
@@ -4639,6 +4643,10 @@
 "/images/thumbs/books__boards-for-two-cover-jpg-s.webp": [
 240,
 315
+],
+"/images/thumbs/books__ingredient-guide-cover-jpg-s.webp": [
+240,
+310
 ],
 "/images/thumbs/books__keto-cover-jpg-s.webp": [
 240,
@@ -11126,6 +11134,9 @@
 },
 "/images/books/boards-for-two-cover.jpg": {
 "s": "/images/thumbs/books__boards-for-two-cover-jpg-s.webp"
+},
+"/images/books/ingredient-guide-cover.jpg": {
+"s": "/images/thumbs/books__ingredient-guide-cover-jpg-s.webp"
 },
 "/images/books/keto-cover.jpg": {
 "s": "/images/thumbs/books__keto-cover-jpg-s.webp"

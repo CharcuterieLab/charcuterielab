@@ -44,6 +44,16 @@ export const TWO_BOOK = {
 };
 
 // Book 5. Gumroad ebook live 5 Oct 2026; add paperbackUrl when the KDP paperback is live.
+// Book 6 (10 Oct 2026): ebook on Gumroad; paperback goes on Amazon after the proof.
+export const GUIDE_BOOK = {
+  title: "Charcuterie Lab: The Ingredient Guide",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/ingredient-guide",
+  ebookPrice: "$12.99",
+  cover: "/images/books/ingredient-guide-cover.jpg",
+  paperbackUrl: "",
+  paperbackPrice: "$25.99"
+};
+
 export const KETO_BOOK = {
   title: "Charcuterie Lab: Keto & Low-Carb Boards",
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/gvjsf",
