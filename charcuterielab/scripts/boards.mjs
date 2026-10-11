@@ -297,7 +297,22 @@ function bookOffer(h, board) {
 const BOARD_PUBLISHED = "2026-09-23";
 const BOARD_UPDATED = "2026-09-26";
 
+// recipeCuisine from the board slug; occasion boards default to American.
+const CUISINES = [
+  [/italian|antipasto/, "Italian"], [/spanish|tapas/, "Spanish"], [/portuguese/, "Portuguese"],
+  [/french|brasserie/, "French"], [/greek/, "Greek"], [/mediterranean/, "Mediterranean"], [/turkish/, "Turkish"],
+  [/mezze|middle-eastern/, "Middle Eastern"], [/moroccan/, "Moroccan"], [/german|bavarian/, "German"],
+  [/swiss/, "Swiss"], [/british|ploughman/, "British"], [/scandinavian/, "Scandinavian"],
+  [/eastern-european/, "Eastern European"], [/japanese/, "Japanese"], [/korean/, "Korean"],
+  [/dim-sum/, "Chinese"], [/thai/, "Thai"], [/vietnamese/, "Vietnamese"], [/indian/, "Indian"],
+  [/plant-based-asian/, "Asian"], [/tex-mex/, "Tex-Mex"], [/mexican/, "Mexican"],
+  [/argentine/, "Argentine"], [/brazilian/, "Brazilian"], [/peruvian/, "Peruvian"],
+  [/caribbean/, "Caribbean"], [/st-patricks/, "Irish"], [/southern-bbq/, "Southern American"]
+];
+const cuisineOf = (b) => b.cuisine || (CUISINES.find(([re]) => re.test(b.slug)) || [, "American"])[1];
+
 function recipeSchema(h, b) {
+  const pageUrl = h.absoluteUrl(`/boards/${b.slug}/`);
   const ingredients = b.groups.flatMap((g) => g.items.map((i) => i.name));
   const minutes = Number((b.prep_time || "").match(/(\d+)(?=\s*min)/)?.[1] || 0);
   return `  <script type="application/ld+json">${h.jsonForScript({
@@ -310,11 +325,12 @@ function recipeSchema(h, b) {
     datePublished: b.date || BOARD_PUBLISHED,
     dateModified: b.updated || BOARD_UPDATED,
     recipeCategory: "Appetizer",
+    recipeCuisine: cuisineOf(b),
     recipeYield: `${b.serves} people`,
     ...(minutes ? { prepTime: `PT${minutes}M`, totalTime: `PT${minutes}M` } : {}),
     keywords: [b.h1.toLowerCase(), "charcuterie board", catOf(b).name.toLowerCase()].join(", "),
     recipeIngredient: ingredients,
-    recipeInstructions: b.timeline.map((t) => ({ "@type": "HowToStep", name: t.when, text: t.what }))
+    recipeInstructions: b.timeline.map((t, k) => ({ "@type": "HowToStep", position: k + 1, name: t.when, text: t.what, url: `${pageUrl}#step-${k + 1}` }))
   })}</script>`;
 }
 
@@ -396,7 +412,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
     <section class="bl-section" aria-labelledby="bl-when">
       <h2 id="bl-when">Timeline</h2>
       <ol class="bl-timeline">
-        ${b.timeline.map((t) => `<li><b>${h.escapeHtml(t.when)}</b><span>${h.escapeHtml(t.what)}</span></li>`).join("\n        ")}
+        ${b.timeline.map((t, k) => `<li id="step-${k + 1}"><b>${h.escapeHtml(t.when)}</b><span>${h.escapeHtml(t.what)}</span></li>`).join("\n        ")}
       </ol>
       <p class="bl-note">The seven-step placement plan (what goes where, and why) is in the book.</p>
     </section>
