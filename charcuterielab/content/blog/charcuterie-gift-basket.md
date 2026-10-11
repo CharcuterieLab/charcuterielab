@@ -143,6 +143,7 @@ A good tag turns a pile of groceries into a board. Include:
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Best Salami Brands](/blog/best-salami-brands/)
 - [How to Store a Charcuterie Board](/blog/how-to-store-charcuterie-board/)
+- [More charcuterie gift ideas: board books, gifts under $25 and hostess gifts](/gifts/)
 
 ## FAQ
 

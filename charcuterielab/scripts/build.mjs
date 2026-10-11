@@ -10,6 +10,8 @@ import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from 
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
 import { bookLandingPages } from "./bookpages.mjs";
+import { giftPages, giftsInNav } from "./gifts.mjs";
+import { bhForm } from "./funnel.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
 import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
 
@@ -435,7 +437,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|books|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|books|gifts|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
 const linkIndex = { live: null, redirects: new Set(), held: new Map(), merged: {} };
 
 function resolveSiteLink(href = "") {
@@ -1456,7 +1458,8 @@ ${head}
       <div class="nav-links" id="site-menu">
         <a class="nav-book" href="/printables/">Printables</a>
         <a href="/boards/">Boards</a>
-        <a href="/holidays/">Holidays</a>
+        <a href="/holidays/">Holidays</a>${giftsInNav() ? `
+        <a href="/gifts/">Gifts</a>` : ""}
         <a href="/party-planner/">Party Planner</a>
         <a href="/board-builder/">Build a Board</a>
         <a href="/ingredients/">Ingredients</a>
@@ -1480,6 +1483,7 @@ ${head}
       </div>
       <div class="footer-links">
         <a href="/books/">Books</a>
+        <a href="/gifts/">Gift Guide</a>
         <a href="/ebook/">The Book</a>
         <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
         <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
@@ -2600,6 +2604,16 @@ async function build() {
     const out = bookLandingPages({ layout, escapeHtml, withTracking, jsonForScript, absoluteUrl, authorRef }, { keto: await rd("keto.json"), two: await rd("boards-for-two.json"), plant: (await Promise.all((await readdir(join(root, "content", "boards"))).filter((f) => f.endsWith(".json")).map(async (f) => JSON.parse(await readFile(join(root, "content", "boards", f), "utf8"))))).filter((b) => b.book === "plant"), books: list });
     return out.filter((x) => !["/ebook/", "/around-the-world/"].includes(x.path));
   })();
+
+  // Gift guide (/gifts/): paperback is the main button on these pages.
+  const GIFT_PAGES = giftPages({ layout, escapeHtml, withTracking, jsonForScript, absoluteUrl, thumb, bhForm }, {
+    main: { title: "Charcuterie Lab: 50 Boards, Built by Science", short: "50 Boards, Built by Science", path: "/ebook/", cover: "/images/book-cover.jpg", ebookUrl, ebookPrice, paperbackUrl, paperbackPrice, who: "For the host or the beginner", line: "50 complete boards for every occasion, each with a shopping list, a build order and a swap for every ingredient." },
+    ...(worldIsLive(WORLD_BOOK) ? { world: { title: WORLD_BOOK.title, short: "Around the World in 16 Boards", path: "/around-the-world/", cover: WORLD_BOOK.cover, ebookUrl: WORLD_BOOK.ebookUrl, ebookPrice: WORLD_BOOK.ebookPrice, paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice, who: "For the adventurous eater", line: "16 international boards, from a Bavarian beer-hall spread to a Korean BBQ board, with shopping lists and prep countdowns." } } : {}),
+    guide: { title: GUIDE_BOOK.title, short: "The Ingredient Guide", path: "/ingredients/", cover: GUIDE_BOOK.cover, ebookUrl: GUIDE_BOOK.ebookUrl, ebookPrice: GUIDE_BOOK.ebookPrice, paperbackUrl: GUIDE_BOOK.paperbackUrl, paperbackPrice: GUIDE_BOOK.paperbackPrice, who: "For the cheese nerd", line: "325 ingredients in one book: how each tastes, what pairs with it and why, and how much to buy." },
+    plant: { title: PLANT_BOOK.title, short: "15 Plant-Based Boards", path: "/books/plant-based-charcuterie-boards/", cover: PLANT_BOOK.cover, ebookUrl: PLANT_BOOK.ebookUrl, ebookPrice: PLANT_BOOK.ebookPrice, paperbackUrl: PLANT_BOOK.paperbackUrl, paperbackPrice: PLANT_BOOK.paperbackPrice, who: "For the vegan or vegetarian", line: "15 boards with no meat and no dairy, each with a shopping list and the pairing science." },
+    keto: { title: KETO_BOOK.title, short: "Keto & Low-Carb Boards", path: "/books/keto-charcuterie-boards/", cover: KETO_BOOK.cover, ebookUrl: KETO_BOOK.ebookUrl, ebookPrice: KETO_BOOK.ebookPrice, paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice, who: "For the keto friend", line: "20 keto boards at 4 to 9 g net carbs per serving, with full macros." },
+    two: { title: TWO_BOOK.title, short: "Boards for Two", path: "/books/boards-for-two/", cover: TWO_BOOK.cover, ebookUrl: TWO_BOOK.ebookUrl, ebookPrice: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice, who: "For a couple", line: "25 boards sized for two, from a first date to New Year's Eve, each with a drink to pour." }
+  });
   await writeFile(join(dist, "index.html"), homePage(posts, products, (holidays.length ? `<div class="bl-inner">${holidayBanner(boardHelpers, holidays)}</div>${countdownJs()}` : "") + (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
@@ -2607,12 +2621,16 @@ async function build() {
   // Dietary Hub index: also sets item.diets, which the Board Builder data
   // reads. Throws if any ingredient is missing a diet verdict.
   const dietIdx = dietData && ingredients.length ? dietaryIndex(dietData, ingredients, boards) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, ...BOOK_PAGES.map((x) => ({ loc: x.path, priority: "0.9" })), { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, ...BOOK_PAGES.map((x) => ({ loc: x.path, priority: "0.9" })), ...GIFT_PAGES.map((x) => ({ loc: x.path, priority: "0.8" })), { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   for (const bp of BOOK_PAGES) {
     await mkdir(join(dist, bp.path), { recursive: true });
     await writeFile(join(dist, bp.path, "index.html"), bp.html);
+  }
+  for (const gp of GIFT_PAGES) {
+    await mkdir(join(dist, gp.path), { recursive: true });
+    await writeFile(join(dist, gp.path, "index.html"), gp.html);
   }
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
@@ -2905,6 +2923,7 @@ function llmsTxt(pages) {
     "",
     "## Books",
     line("/books/"), line("/ebook/"), line("/around-the-world/"), line("/books/keto-charcuterie-boards/"), line("/books/boards-for-two/"), line("/books/plant-based-charcuterie-boards/"),
+    `- [Charcuterie gift guide](${siteUrl}/gifts/): the best board books to give, gifts under $25, hostess gifts and gifts for cheese lovers`,
     "",
     "## About",
     line("/about/"),
