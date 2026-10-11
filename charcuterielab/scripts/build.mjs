@@ -2923,7 +2923,7 @@ function llmsTxt(pages) {
     "",
     "## Books",
     line("/books/"), line("/ebook/"), line("/around-the-world/"), line("/books/keto-charcuterie-boards/"), line("/books/boards-for-two/"), line("/books/plant-based-charcuterie-boards/"),
-    `- [Charcuterie gift guide](${siteUrl}/gifts/): the best board books to give, gifts under $25, hostess gifts and gifts for cheese lovers`,
+    `- [Charcuterie gift guide](${siteUrl}/gifts/): board books, gifts under $25, stocking stuffers, white elephant, hostess and housewarming gifts, and gifts for cheese, wine, keto and vegan lovers`,
     "",
     "## About",
     line("/about/"),

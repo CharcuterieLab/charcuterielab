@@ -20,7 +20,7 @@
 export const AMAZON_TAG = "";
 const PRICES_CHECKED = "October 2026";
 
-export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/"];
+export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/"];
 
 // Seasonal: "Gifts" sits in the top menu from Nov 1 to Dec 25 (build date).
 export function giftsInNav(d = new Date()) {
@@ -50,7 +50,19 @@ const ITEMS = {
   slate: { name: "A slate cheese board with chalk", price: [20, 30], q: "slate cheese board with chalk", note: "Black slate makes every cheese and meat stand out, and you can write the names right on it.", guide: ["Wood vs slate vs marble", "/blog/best-charcuterie-boards/"] },
   dome: { name: "A glass cheese dome", price: [25, 45], q: "glass cheese dome with board", note: "Keeps a cut wedge covered on the counter while it comes to room temperature." },
   club: { name: "A cheese-of-the-month club", price: null, tier: "$$$$", q: "cheese of the month club gift", note: "Murray's Cheese and several other shops ship a monthly box of cheeses picked by a cheesemonger. Check each club's plans for current prices." },
-  kit: { name: "A beginner mozzarella and ricotta kit", price: [25, 40], q: "mozzarella cheese making kit", note: "Fresh mozzarella in about an hour from a gallon of milk. A fun first step for a cheese lover who cooks." }
+  kit: { name: "A beginner mozzarella and ricotta kit", price: [25, 40], q: "mozzarella cheese making kit", note: "Fresh mozzarella in about an hour from a gallon of milk. A fun first step for a cheese lover who cooks." },
+  veganCheese: { name: "Boursin Dairy-Free Garlic & Herbs", price: [6, 9], q: "Boursin dairy free garlic herbs", note: "Our top-ranked vegan cheese for a board: spreadable, garlicky and close to the original.", guide: ["Best vegan cheese, ranked", "/blog/best-vegan-cheese/"] },
+  olives: { name: "Mezzetta Castelvetrano olives", price: [5, 9], q: "Mezzetta Castelvetrano olives", note: "Our top-ranked olive: bright green, buttery and mild enough for people who say they don't like olives.", guide: ["Best olives, ranked", "/blog/best-olives-for-charcuterie/"] },
+  chocolate: { name: "Tony's Chocolonely Dark Chocolate 70%", price: [5, 8], q: "Tony's Chocolonely dark chocolate 70", note: "Our top-ranked dark chocolate for a board. Break it into shards next to the blue cheese.", guide: ["Best dark chocolate, ranked", "/blog/best-dark-chocolate/"] },
+  cheeseCrisps: { name: "Baked Parmesan cheese crisps", price: [6, 10], q: "parmesan cheese crisps", note: "Crunchy crisps made from nothing but baked cheese. The keto stand-in for crackers." },
+  porkRinds: { name: "A bag of good pork rinds", price: [4, 8], q: "pork rinds", note: "Zero-carb crunch for dips and soft cheese, and better than people expect." },
+  salami: { name: "A whole dry salami", price: [8, 15], q: "whole dry salami", note: "Whole and unopened, a dry salami keeps about 6 weeks in the pantry (USDA). A gift that waits for the next party.", guide: ["Best salami, ranked", "/blog/best-salami-brands/"] },
+  aerator: { name: "A handheld wine aerator", price: [15, 30], q: "handheld wine aerator pourer", note: "Pours young red wine through a stream of air, which softens harsh tannins in seconds." },
+  glasses: { name: "A pair of all-purpose wine glasses", price: [20, 35], q: "all purpose wine glasses set of 2", note: "One good tulip-shaped glass works for red, white and sparkling. Most people own mismatched ones." },
+  honeyDipper: { name: "A wooden honey dipper", price: [5, 9], q: "wooden honey dipper", note: "The tiny tool that keeps honey off the board and on the cheese." },
+  coasters: { name: "Slate coasters", price: [12, 20], q: "slate coasters set", note: "They match a slate board and take a sweating glass without a ring." },
+  wineGuide: { name: "Wine & Cheese Pairing Guide (printable)", price: [4, 4], href: "/printables/wine-cheese-pairing-guide/", note: "Our printable chart of which cheeses go with which wines. Print it, fold it into the card, done." },
+  styling: { name: "Board Styling Playbook (printable)", price: [4, 4], href: "/printables/board-styling-playbook/", note: "Our printable guide to salami roses, cheese cuts and layout. Prints in minutes for a last-minute add-on." }
 };
 
 // Other authors' books (no affiliation). Honest one-liners.
@@ -205,6 +217,213 @@ const GUIDES = [
       ["What book should I buy a cheese lover?", "The Ingredient Guide for the reference side (what each cheese tastes like and pairs with), or That Cheese Plate Will Change Your Life for styling. 50 Boards, Built by Science if they host."]
     ],
     related: [["Best charcuterie books", "/gifts/charcuterie-books/"], ["How to store cheese", "/blog/cheese-storage/"], ["Cheese ingredient library", "/ingredients/"]]
+  },
+  {
+    slug: "stocking-stuffers",
+    card: "Charcuterie stocking stuffers",
+    cardLine: "12 small gifts, most under $15",
+    image: "/images/christmas-charcuterie-board.png",
+    seoTitle: "Charcuterie Stocking Stuffers: 12 Small Gifts Under $20",
+    h1: "Charcuterie stocking stuffers: 12 small gifts for board lovers",
+    kicker: "Gift guide · Stocking stuffers",
+    description: "12 charcuterie stocking stuffers, most under $15: a cheese plane, fig spread, hot honey, Marcona almonds, slate cheese markers, a small board book and more.",
+    quick: "The best charcuterie stocking stuffers are small, useful and edible: a <strong>Norwegian cheese plane</strong> ($10 to $18), a jar of <strong>Dalmatia fig spread</strong>, <strong>hot honey</strong>, <strong>Marcona almonds</strong> or <strong>slate cheese markers</strong>. For a book that still fits, <strong>Around the World in 16 Boards</strong> is $16.99.",
+    intro: "A good stocking stuffer for a board lover is either a small tool they'll use every week or something good to eat that they wouldn't buy for themselves. Everything below fits in a stocking, and most of it costs less than $15.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books.",
+    picks: [
+      { item: "plane", best: "Best overall" },
+      { item: "figSpread", best: "Best jar" },
+      { item: "hotHoney", best: "Best for spice lovers" },
+      { item: "marcona", best: "Best snack" },
+      { item: "markers", best: "Best for the host" },
+      { book: "world", best: "Best book that fits", why: "Sixteen international boards with shopping lists. At 8.5 by 11 inches it fits a big stocking, or tuck the free gift card in instead and wrap the book separately." },
+      { other: "balslev", best: "Best small book" },
+      { item: "chocolate", best: "Best sweet" },
+      { item: "honeyDipper", best: "Best under $10" },
+      { item: "picks", best: "Best tiny add-on" },
+      { item: "storage", best: "Best for cheese lovers" },
+      { item: "styling", best: "Best last-minute add-on" }
+    ],
+    set: "stocking",
+    faq: [
+      ["What is a good charcuterie stocking stuffer?", "A cheese plane, a jar of fig spread or hot honey, Marcona almonds or slate cheese markers. Small, useful and edible gifts work best."],
+      ["Can you put food in a stocking?", "Yes, if it's shelf-stable: sealed jars, nuts, chocolate and a whole unopened dry salami all keep at room temperature. Leave cheese out of the stocking and give it from the fridge."],
+      ["What is a cheese plane?", "A flat server with a slot blade that shaves thin, even slices off semi-hard cheese like Gouda, Jarlsberg and Gruyère. It's the most-used cheese tool in Norway, where it was invented."],
+      ["What small book makes a good stocking stuffer?", "Little Book of Charcuterie and Cheese by Lynda Balslev is pocket-sized. Around the World in 16 Boards ($16.99) is larger but fits a big stocking."],
+      ["Are printables good stocking stuffers?", "As a last-minute add-on, yes. Print one, roll it with a ribbon and tuck it in next to a jar of jam."]
+    ],
+    related: [["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"], ["Best charcuterie books", "/gifts/charcuterie-books/"]]
+  },
+  {
+    slug: "white-elephant",
+    card: "Charcuterie white elephant gifts",
+    cardLine: "10 gifts people will actually steal",
+    image: "/images/christmas-wreath-charcuterie-board.jpg",
+    seoTitle: "Charcuterie White Elephant Gifts: 10 Ideas People Steal",
+    h1: "Charcuterie white elephant gifts people will actually steal",
+    kicker: "Gift guide · White elephant",
+    description: "10 charcuterie white elephant gift ideas for a $25 to $40 limit: a board book with cheese knives, a slate board, honeycomb, a salami and jam kit and more.",
+    quick: "The white elephant gift that gets stolen is the one everyone can use: <strong>50 Boards, Built by Science</strong> (paperback $25.99) with a <strong>3-piece cheese knife set</strong>, about $38 to $46 together. Under $25: a <strong>slate cheese board with chalk</strong> or a <strong>salami, fig spread and Marcona almond</strong> kit.",
+    intro: "White elephant gifts live or die on one test: would half the room want it? Charcuterie gifts pass, because almost everyone eats cheese and nobody minds a party upgrade. Here's what works at the usual $25 to $40 limit.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books.",
+    picks: [
+      { book: "main", best: "Best overall", why: "Fifty complete boards, each with a shopping list and build order. Add a cheese knife set and it's the gift people steal twice." },
+      { item: "slate", best: "Best under $30" },
+      { item: "knives3", best: "Best add-on" },
+      { item: "salami", best: "Best edible kit, part 1", why: "Build a kit: a whole dry salami, a jar of fig spread and a bag of Marcona almonds, about $25 together. Everything keeps at room temperature." },
+      { item: "honeycomb", best: "Best looking" },
+      { item: "acacia", best: "Best board" },
+      { book: "world", best: "Best under $20", why: "Sixteen international boards for $16.99. Pair it with a jar of fig spread to hit a $25 limit." },
+      { item: "ramekins", best: "Best practical" },
+      { item: "kit", best: "Best fun one" },
+      { item: "dome", best: "Best splurge" }
+    ],
+    set: "elephant",
+    faq: [
+      ["Is charcuterie a good white elephant gift?", "Yes. Almost everyone eats cheese, and boards, knives and board books are useful to anyone who hosts. Edible kits also get traded happily."],
+      ["What is a good charcuterie gift for a $25 limit?", "Around the World in 16 Boards ($16.99) with a jar of fig spread, a slate cheese board with chalk, or a kit of a whole dry salami, fig spread and Marcona almonds."],
+      ["Can I put cheese in a white elephant gift?", "Only if the gift goes straight into a fridge. Gifts sit under a tree for hours, so stick to shelf-stable items: whole dry salami, jars, nuts, crackers and chocolate."],
+      ["What white elephant gifts get stolen most?", "Useful, good-looking things everyone wants: a board with knives, a book with a knife set or a well-packed food kit. Gag gifts get laughs but rarely get stolen."],
+      ["How do I wrap a charcuterie kit?", "Use a small wooden crate or a box lined with crinkle paper, stand the jars upright and put the salami on top. A board book underneath doubles as the base."]
+    ],
+    related: [["Stocking stuffers", "/gifts/stocking-stuffers/"], ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
+  },
+  {
+    slug: "wine-and-cheese-lovers",
+    card: "Gifts for wine and cheese lovers",
+    cardLine: "11 gifts for the person who pairs everything",
+    image: "/images/wine-cheese-board.png",
+    seoTitle: "Gifts for Wine and Cheese Lovers: 11 Ideas (2026)",
+    h1: "Gifts for wine and cheese lovers: 11 ideas for the person who pairs everything",
+    kicker: "Gift guide · Wine and cheese",
+    description: "11 gifts for wine and cheese lovers: a board book with a wine and cheese board, a pairing chart, a slate board, Boska knives, wine glasses, an aerator and more.",
+    quick: "For a wine and cheese lover, give something that helps them pair: <strong>50 Boards, Built by Science</strong> (paperback $25.99) includes a wine and cheese pairing board, and our <strong>Wine & Cheese Pairing Guide</strong> printable is $4. For the table: a <strong>slate board with chalk</strong>, a <strong>Boska knife set</strong> or a pair of good wine glasses.",
+    intro: "People who love wine and cheese usually have the wine covered. What helps is everything around the glass: knowing which cheese goes with which bottle, something to serve it on, and the small tools that make an evening of it.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books and printables.",
+    picks: [
+      { book: "main", best: "Best overall", why: "Fifty complete boards, including a wine and cheese pairing board and a beer and charcuterie board, each with a shopping list and the pairing logic behind it." },
+      { item: "wineGuide", best: "Best add-on under $5" },
+      { item: "slate", best: "Best board" },
+      { item: "boska", best: "Best knife set" },
+      { item: "glasses", best: "Best for the glass" },
+      { item: "aerator", best: "Best for red wine fans" },
+      { item: "markers", best: "Best for tastings" },
+      { book: "world", best: "Best for wine travelers", why: "Sixteen international boards, from Spain to France to Greece. Pair it with a bottle from one of the countries." },
+      { item: "honeycomb", best: "Best edible" },
+      { item: "chocolate", best: "Best for dessert wine" },
+      { item: "coasters", best: "Best small gift" }
+    ],
+    set: "wine",
+    faq: [
+      ["What do you get a wine and cheese lover?", "Something that helps them pair and serve: a board book with pairing boards, a wine and cheese pairing chart, a slate board, a good knife set or a pair of all-purpose wine glasses."],
+      ["What cheese goes with red wine?", "Aged, firm cheeses like aged cheddar, Manchego, Gouda and Parmigiano-Reggiano stand up to tannic reds. Soft, creamy cheeses usually do better with white or sparkling wine."],
+      ["Is a wine aerator worth it?", "For young, tannic red wines, yes: it softens them in seconds instead of an hour in a decanter. It does little for white wine or older reds."],
+      ["What should I put in a wine and cheese gift basket?", "Two or three cheeses of different textures, crackers, fig spread, Marcona almonds, dark chocolate and a bottle. Add the cheese last, right before you hand it over, and tell them to refrigerate it."],
+      ["What is a good wine and cheese book?", "50 Boards, Built by Science has a full wine and cheese pairing board and pairing logic on every board. For styling, That Cheese Plate Will Change Your Life is popular."]
+    ],
+    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Wine pairings for charcuterie", "/pairings/"], ["Hostess gifts", "/gifts/hostess-gifts/"]]
+  },
+  {
+    slug: "keto-gifts",
+    card: "Gifts for keto friends",
+    cardLine: "10 low-carb gifts that aren't diet food",
+    image: "/images/books/keto/board-01.webp",
+    seoTitle: "Gifts for Keto Friends: 10 Low-Carb Ideas (2026)",
+    h1: "Gifts for keto friends: 10 low-carb ideas that aren't diet food",
+    kicker: "Gift guide · Keto",
+    description: "10 gifts for someone on keto or low-carb: a keto charcuterie board book, a cheese plane, Parmesan crisps, Marcona almonds, olives, salami and more.",
+    quick: "The best gift for a keto friend is food they can actually eat, done well: <strong>Keto & Low-Carb Boards</strong> (ebook $9.99) has 20 boards at 4 to 9 g net carbs per serving. Pair it with a <strong>cheese plane</strong>, <strong>Parmesan crisps</strong> and <strong>Castelvetrano olives</strong>.",
+    intro: "Most holiday gifts are sugar. A keto friend gets a lot of things they can't eat. Charcuterie is the exception: cheese, cured meat, olives and nuts are naturally low in carbs. Here are gifts that celebrate what they can have.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Nothing here is medical advice.",
+    picks: [
+      { book: "keto", best: "Best overall", why: "Twenty charcuterie boards at 4 to 9 g net carbs per serving, each with calories, fat, protein and net carbs from USDA data, and a shopping list with the net carbs of every item." },
+      { item: "cheeseCrisps", best: "Best cracker swap" },
+      { item: "plane", best: "Best tool" },
+      { item: "olives", best: "Best jar" },
+      { item: "salami", best: "Best protein" },
+      { item: "marcona", best: "Best snack" },
+      { item: "porkRinds", best: "Best crunch" },
+      { item: "boska", best: "Best splurge tool" },
+      { item: "mustard", best: "Best zero-sugar condiment", why: "Most whole-grain mustards have little or no sugar, unlike jams and honey. It's the condiment a keto board can keep." },
+      { item: "slate", best: "Best board" }
+    ],
+    set: "keto",
+    faq: [
+      ["What do you get someone on keto for Christmas?", "Food they can eat, done well: a keto charcuterie book, good salami, Castelvetrano olives, Marcona almonds, Parmesan crisps or a cheese plane. Skip chocolate boxes and baked goods."],
+      ["Is charcuterie keto?", "Mostly. Cured meats, aged cheeses, olives and nuts are low in carbs. The carbs on a normal board come from crackers, bread, honey, jam and dried fruit, so a keto board swaps those out."],
+      ["Are Marcona almonds keto?", "In moderation. Almonds have about 2 to 3 g net carbs per ounce, which fits most keto plans."],
+      ["What crackers are keto-friendly?", "Crisps made from baked cheese, like Parmesan crisps, have almost no carbs. Pork rinds and cucumber rounds also work."],
+      ["Is the keto board book a paperback?", "The paperback is coming soon. The ebook is available now as an instant PDF download, which also works as a last-minute gift."]
+    ],
+    related: [["Keto & Low-Carb Boards", "/books/keto-charcuterie-boards/"], ["Keto charcuterie board", "/blog/keto-charcuterie-board/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
+  },
+  {
+    slug: "vegan-foodie-gifts",
+    card: "Gifts for vegan foodies",
+    cardLine: "10 plant-based gifts for the board lover",
+    image: "/images/books/plant/board-01.webp",
+    seoTitle: "Gifts for Vegan Foodies: 10 Plant-Based Ideas (2026)",
+    h1: "Gifts for vegan foodies: 10 plant-based ideas for the board lover",
+    kicker: "Gift guide · Vegan",
+    description: "10 gifts for a vegan foodie: a plant-based charcuterie board book, vegan cheese, olives, fig spread, Marcona almonds, dark chocolate, a serving board and more.",
+    quick: "The best gift for a vegan foodie is a full board they can eat: <strong>15 Show-Stopping Plant-Based Boards</strong> (paperback $18.99) has fifteen boards with no meat and no dairy. Add a vegan cheese worth serving, like <strong>Boursin Dairy-Free</strong>, and a jar of <strong>Castelvetrano olives</strong>.",
+    intro: "Vegans spend a lot of parties eating the grapes off someone else's cheese board. A plant-based board gift says you thought about them specifically. Everything below is vegan; we've left honey off the list on purpose.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Always check labels; recipes change.",
+    picks: [
+      { book: "plant", best: "Best overall", why: "Fifteen boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science, so the board looks as full as any other." },
+      { item: "veganCheese", best: "Best vegan cheese" },
+      { item: "olives", best: "Best jar" },
+      { item: "figSpread", best: "Best spread" },
+      { item: "marcona", best: "Best snack" },
+      { item: "chocolate", best: "Best sweet" },
+      { item: "markers", best: "Best for the host" },
+      { item: "acacia", best: "Best board" },
+      { item: "knives3", best: "Best tool" },
+      { item: "ramekins", best: "Best practical" }
+    ],
+    set: "vegan",
+    faq: [
+      ["What do you get a vegan foodie?", "A plant-based board book, a vegan cheese worth serving, good olives, fig spread, Marcona almonds or dark chocolate. Check labels, since some chocolate and spreads contain milk or honey."],
+      ["What is the best vegan cheese for a board?", "In our ranking, Boursin Dairy-Free Garlic & Herbs. Violife Mature Cheddar is the best value, and Rebel Cheese Brie is the splurge."],
+      ["Is fig jam vegan?", "Usually. Dalmatia Original Fig Spread is figs, sugar and pectin. Some jams use gelatin or honey, so check the label."],
+      ["Is dark chocolate vegan?", "Many dark chocolates are, but not all. Some contain milk fat or are made on shared lines, so check the label before you give it."],
+      ["Is there a vegan charcuterie board book?", "Yes: 15 Show-Stopping Plant-Based Boards has fifteen boards with no meat and no dairy, available as a paperback and an instant ebook."]
+    ],
+    related: [["15 Plant-Based Boards", "/books/plant-based-charcuterie-boards/"], ["Best vegan cheese", "/blog/best-vegan-cheese/"], ["Dietary hub: vegan", "/dietary/"]]
+  },
+  {
+    slug: "housewarming",
+    card: "Housewarming gifts for foodies",
+    cardLine: "10 gifts for a first party in a new home",
+    image: "/images/50-boards-29-book-club-afternoon.webp",
+    seoTitle: "Housewarming Gifts for Foodies: 10 Charcuterie Ideas",
+    h1: "Housewarming gifts for foodies: 10 charcuterie ideas for a new kitchen",
+    kicker: "Gift guide · Housewarming",
+    description: "10 charcuterie housewarming gifts: a board book, an acacia serving board, a slate board, small bowls, a cheese dome, a Boska knife set and more.",
+    quick: "The best housewarming gift for a foodie is the kit for their first party: <strong>50 Boards, Built by Science</strong> (paperback $25.99) with an <strong>acacia serving board</strong>, about $46 to $61. Smaller: a set of small dip bowls, a cheese plane or a 3-piece cheese knife set.",
+    intro: "A new home means a first party, and most people move with whatever serving pieces survived the last apartment. A board, the small bowls that go with it and a book of boards to make is a gift that gets used the first month.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books.",
+    picks: [
+      { book: "main", best: "Best overall", why: "Fifty complete boards, from a $25 budget board to a 30-person showstopper. Give it with a serving board and their first party is planned." },
+      { item: "acacia", best: "Best board" },
+      { item: "ramekins", best: "Best practical" },
+      { item: "boska", best: "Best knife set" },
+      { item: "slate", best: "Best for photos" },
+      { item: "dome", best: "Best for the counter" },
+      { item: "coasters", best: "Best small gift" },
+      { item: "plane", best: "Best under $20" },
+      { book: "two", best: "Best for a couple's first place", why: "Twenty-five boards sized for two, each with a drink to pour. Lands well for a couple moving in together." },
+      { item: "honeycomb", best: "Best edible" }
+    ],
+    set: "home",
+    faq: [
+      ["What is a good housewarming gift for a foodie?", "The kit for a first party: a serving board, small bowls, a cheese knife set and a book of boards to make. 50 Boards, Built by Science with an acacia board is about $46 to $61."],
+      ["What size charcuterie board should I give?", "16 inches or longer works for 4 to 8 people. For someone who hosts big groups, go 20 inches or more."],
+      ["Wood or slate for a housewarming gift?", "Wood is the safer pick: it's warmer looking, knife-friendly and lasts decades with oiling. Slate photographs beautifully but chips if dropped."],
+      ["How much should I spend on a housewarming gift?", "Most people spend $25 to $60. A board book alone is $25.99; with a serving board it's about $50."],
+      ["Is food a good housewarming gift?", "Shelf-stable food is: honeycomb, jars, nuts and a whole dry salami keep for weeks. Avoid fresh cheese, since a new fridge may be empty or not yet set up."]
+    ],
+    related: [["Hostess gifts", "/gifts/hostess-gifts/"], ["Which serving board to buy", "/blog/best-charcuterie-boards/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
   }
 ];
 
@@ -212,7 +431,13 @@ const GUIDES = [
 const SETS = {
   starter: { name: "The starter gift", book: "world", items: ["knives3", "figSpread"], line: "A first set of tools, a jar for the first board and sixteen boards to make with them." },
   host: { name: "The host gift", book: "main", items: ["acacia", "figSpread", "hotHoney"], line: "A board, two jars and fifty boards to put on it." },
-  cheese: { name: "The cheese lover's gift", book: "main", book2: "world", items: ["slate", "knives3"], line: "Two books, a slate board and the knives to serve from it." }
+  cheese: { name: "The cheese lover's gift", book: "main", book2: "world", items: ["slate", "knives3"], line: "Two books, a slate board and the knives to serve from it." },
+  stocking: { name: "The stocking", book: "world", items: ["plane", "marcona", "figSpread"], line: "A small book, a cheese plane and two things to eat, all of which fit in a stocking." },
+  elephant: { name: "The white elephant winner", book: "main", items: ["knives3"], line: "The gift people steal: fifty boards and the knives to make them." },
+  wine: { name: "The wine and cheese gift", book: "main", items: ["slate", "markers", "wineGuide"], line: "A slate board, labels and a pairing chart, with fifty boards including a wine and cheese board." },
+  keto: { name: "The keto gift", book: "keto", items: ["plane", "marcona", "olives"], line: "Twenty keto boards and three things that belong on every one of them." },
+  vegan: { name: "The plant-based gift", book: "plant", items: ["acacia", "veganCheese", "olives"], line: "A board, a vegan cheese worth serving and fifteen boards to build around it." },
+  home: { name: "The housewarming gift", book: "main", items: ["acacia", "ramekins"], line: "A first board for the new kitchen, the little bowls it needs and fifty boards to fill it." }
 };
 
 // ---------------------------------------------------------------- render
@@ -221,7 +446,7 @@ export function giftPages(h, books) {
   const T = (u, c) => h.withTracking(u, c);
   const B = books; // key -> { title, short, path, cover, ebookUrl, ebookPrice, paperbackUrl, paperbackPrice, who }
   const num = (p) => Number(String(p).replace(/[^0-9.]/g, ""));
-  const range = (r) => (r ? `$${r[0]}–${r[1]}` : "");
+  const range = (r) => (r ? (r[0] === r[1] ? `$${r[0]}` : `$${r[0]}–${r[1]}`) : "");
 
   function bookButtons(b, campaign, compact = false) {
     const paper = b.paperbackUrl
@@ -270,7 +495,7 @@ export function giftPages(h, books) {
       <p>${esc(s.line)}</p>
       <ul>
         ${bks.map((b) => `<li><a href="${esc(b.paperbackUrl ? amz(b.paperbackUrl) : T(b.ebookUrl, campaign))}" target="_blank" rel="noopener"><strong>${esc(b.short)}</strong></a>, ${b.paperbackUrl ? "paperback" : "ebook"} ${esc(b.paperbackUrl ? b.paperbackPrice : b.ebookPrice)}</li>`).join("\n        ")}
-        ${its.map((i) => `<li><a href="${esc(search(i.q))}" target="_blank" rel="noopener nofollow">${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
+        ${its.map((i) => `<li><a href="${esc(i.href || search(i.q))}"${i.href ? "" : ' target="_blank" rel="noopener nofollow"'}>${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
       </ul>
     </article>`;
   }
@@ -299,7 +524,7 @@ export function giftPages(h, books) {
         <h3>${n}. ${esc(it.name)}${it.by ? ` <span class="gf-by">by ${esc(it.by)}</span>` : ""}</h3>
         <p class="gf-price">${esc(price)}</p>
         <p>${esc(p.why || it.note)}${it.guide ? ` <a href="${it.guide[1]}">${esc(it.guide[0])}</a>` : ""}</p>
-        <a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>
+        ${it.href ? `<a class="button gf-btn-shop" href="${it.href}">See the printable</a>` : `<a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
       </div>
     </article>`;
   }
@@ -414,9 +639,9 @@ export function giftPages(h, books) {
       ["Which serving board to buy", "/blog/best-charcuterie-boards/", "Wood, slate or marble, and what size", "/images/wine-cheese-board.png"]
     ];
     const chips = [
-      ["Budget", [["Under $25", "/gifts/under-25/"], ["Gift sets $35 to $110", "#sets"], ["DIY basket $25 to $100", "/blog/charcuterie-gift-basket/"]]],
-      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["Book lover", "/gifts/charcuterie-books/"], ["Vegan", "/books/plant-based-charcuterie-boards/"], ["Keto", "/books/keto-charcuterie-boards/"]]],
-      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["Stocking stuffer", "/gifts/under-25/"], ["Christmas", "#matcher"]]]
+      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $110", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"]]],
+      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
+      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"]]]
     ];
     const faq = [
       ["What do you get someone who loves charcuterie?", "A board book that tells them exactly what to buy and how much, paired with one tool or one jar: a cheese knife set, fig spread, hot honey or honeycomb. Our top pick is 50 Boards, Built by Science ($25.99 paperback) with a jar of fig spread."],
@@ -431,7 +656,7 @@ export function giftPages(h, books) {
         title: "Charcuterie Gift Ideas 2026: For Every Board Lover",
         canonical: path,
         image: "/images/charcuterie-gift-basket.jpg",
-        description: "Charcuterie gift ideas for 2026: the best board books, gifts under $25, hostess gifts and gifts for cheese lovers, plus ready-made gift sets and a free printable gift card.",
+        description: "Charcuterie gift ideas for 2026: board books, gifts under $25, stocking stuffers, white elephant, hostess and housewarming gifts, gifts for cheese, wine, keto and vegan lovers, plus gift sets.",
         head: schema(guideCards.map(([t, u]) => [t, u]), [["Home", "/"], ["Gift guide", path]], faq),
         body: `<main class="gf-page gf-hub">
   <section class="gf-hero">
