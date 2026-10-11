@@ -90,6 +90,7 @@ Marcona almonds are the one nut that belongs on almost every board — their fat
 - [Manchego on a Charcuterie Board](https://charcuterielab.com/manchego-charcuterie-board/)
 - [Blue Cheese on a Charcuterie Board](https://charcuterielab.com/blue-cheese-charcuterie-board/)
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)
+- [The Best Mixed Nuts for a Charcuterie Board, Ranked](/blog/best-mixed-nuts/)
 
 ## FAQ
 

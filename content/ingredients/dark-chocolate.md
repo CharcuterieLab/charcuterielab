@@ -84,6 +84,8 @@ Most dark chocolate contains soy lecithin and traces of dairy — worth flagging
 
 **Skip:** anything under 50% cocoa on a cheese board, and chocolate with fillings.
 
+**Ranked picks:** our top-rated dark chocolate is **Tony's Chocolonely Dark Chocolate 70%** (4.4 out of 5), and the best value is Aldi's **Choceur Dark Chocolate**. See [the full ranking of the best dark chocolate](/blog/best-dark-chocolate/).
+
 ## Quick FAQ
 
 **What percentage dark chocolate is best for a cheese board?**

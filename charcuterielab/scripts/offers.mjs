@@ -47,6 +47,10 @@ export const OFFER_RULES = [
   [/grazing|large-group|crowd|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
   [/date-night|for-two|board-two|valentine|anniversary|galentine|romantic/, ["book:two", "book:board", "complete-board-builder-bundle"], "Planning a night for two?"],
   [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
+  // Brand buying guides (Oct 11): shoppers comparing jars and bars get the
+  // pairing deck; shoppers comparing staples get the spend-smart plan.
+  [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
+  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|aldi|costco|walmart)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],
@@ -83,7 +87,7 @@ const DEFAULT_LEAD = {
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
-const SKIP = /^\/(printables|shop|books|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
+const SKIP = /^\/(printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
 
 // FAQ written as paragraphs ("<p><strong>Question?</strong> answer</p>", a

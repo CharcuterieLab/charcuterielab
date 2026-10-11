@@ -88,6 +88,8 @@ edible, much blander.
 **Skip:** pre-sliced deli Swiss for a board. It dries at the edges and reads as
 a sandwich ingredient.
 
+**Ranked picks:** our top-rated supermarket Swiss is **Sargento Aged Swiss** (4.6 out of 5), and the best block is **Kerrygold Swiss Cheese**. See [the full ranking of the best Swiss cheese](/blog/best-swiss-cheese/).
+
 ## Quick FAQ
 
 **Why does Swiss cheese have holes?**

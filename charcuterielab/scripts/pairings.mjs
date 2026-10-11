@@ -449,9 +449,11 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
     const rulesUsed = [...new Set(d.matches.map((m) => m.rule))].map((r) => idx.ruleById.get(r)).filter(Boolean);
     return page(h, {
       url: d.url,
-      title: title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title,
+      // Optional per-drink overrides in drinks.json, matched to how people search
+      // ("best cheese pairing with sauvignon blanc").
+      title: d.seo_title || (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title),
       name: `${d.name} pairings`,
-      description: d.answer,
+      description: d.seo_description || d.answer,
       crumbs: [["Pairings", "/pairings/"], fam, [d.name, d.url]],
       image: photo(`pairings-${d.family}-${d.slug}`),
       faq: d.faq,

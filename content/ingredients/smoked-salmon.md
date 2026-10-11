@@ -87,6 +87,8 @@ salmon has a short window once opened.
 **Skip:** buying more than you'll serve. It's expensive and it doesn't keep
 well once the pack is open.
 
+**Ranked picks:** our top-rated smoked salmon is **Kirkland Signature Smoked Salmon** (4.7 out of 5), and the best value in a small pack is **Latitude 45 Atlantic Salmon**. See [the full ranking of the best smoked salmon](/blog/best-smoked-salmon/).
+
 ## Quick FAQ
 
 **What's the difference between lox and smoked salmon?**

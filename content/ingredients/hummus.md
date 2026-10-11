@@ -84,6 +84,8 @@ chickpeas and water with tahini near the end will taste flat.
 **Skip:** hummus with visible separation in the tub, and anything with added
 starch.
 
+**Ranked picks:** our top-rated store-bought hummus is **Cedar's Classic Original Hummus** (4.6 out of 5), and Tribe won the biggest recent taste test. See [the full ranking of the best hummus](/blog/best-hummus/).
+
 ## Quick FAQ
 
 **How do I make hummus look good on a board?**

@@ -82,6 +82,8 @@ product entirely.
 **Skip:** anything soft in the jar, and any brand that lists sugar high in the
 ingredients.
 
+**Ranked picks:** our top cornichon pick is **Maille Cornichons Original**, and our top-rated pickle overall is **Mt. Olive Kosher Baby Dills** (4.5 out of 5). See [the full ranking of the best pickles](/blog/best-pickles-for-charcuterie/).
+
 ## Quick FAQ
 
 **What are cornichons?**

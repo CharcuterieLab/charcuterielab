@@ -82,6 +82,8 @@ broken and stale faster. Check for oil separation in the bag.
 
 **Skip:** cashew pieces and anything heavily coated in maltodextrin.
 
+**Ranked picks:** our top-rated mixed nuts are **Kirkland Signature Extra Fancy Salted Mixed Nuts** (4.5 out of 5), and the best-tasting mix in a published test is **Trader Joe's Fancy Mixed Nuts**. See [the full ranking of the best mixed nuts](/blog/best-mixed-nuts/).
+
 ## Quick FAQ
 
 **Are cashews good on a charcuterie board?**

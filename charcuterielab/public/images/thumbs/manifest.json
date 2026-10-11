@@ -296,6 +296,10 @@
 1000,
 1500
 ],
+"/images/best-dark-chocolate-ranking.webp": [
+1000,
+1500
+],
 "/images/best-feta-brands-ranking.webp": [
 1000,
 1500
@@ -332,6 +336,10 @@
 1000,
 1500
 ],
+"/images/best-hummus-ranking.webp": [
+1000,
+1500
+],
 "/images/best-manchego-brands-ranking.webp": [
 1000,
 1500
@@ -347,6 +355,10 @@
 "/images/best-meats-charcuterie-board.webp": [
 1600,
 933
+],
+"/images/best-mixed-nuts-ranking.webp": [
+1000,
+1500
 ],
 "/images/best-mortadella-brands-ranking.webp": [
 1000,
@@ -372,11 +384,23 @@
 1000,
 1500
 ],
+"/images/best-pickles-for-charcuterie-ranking.webp": [
+1000,
+1500
+],
+"/images/best-pretzels-for-charcuterie-ranking.webp": [
+1000,
+1500
+],
 "/images/best-prosciutto-brands-ranking.webp": [
 1000,
 1500
 ],
 "/images/best-salami-brands-ranking.webp": [
+1000,
+1500
+],
+"/images/best-smoked-salmon-ranking.webp": [
 1000,
 1500
 ],
@@ -389,6 +413,10 @@
 1500
 ],
 "/images/best-summer-sausage-ranking.webp": [
+1000,
+1500
+],
+"/images/best-swiss-cheese-ranking.webp": [
 1000,
 1500
 ],
@@ -4020,6 +4048,14 @@
 240,
 360
 ],
+"/images/thumbs/best-dark-chocolate-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-dark-chocolate-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-feta-brands-ranking-webp-m.webp": [
 640,
 960
@@ -4092,6 +4128,14 @@
 240,
 360
 ],
+"/images/thumbs/best-hummus-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-hummus-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-manchego-brands-ranking-webp-m.webp": [
 640,
 960
@@ -4131,6 +4175,14 @@
 "/images/thumbs/best-meats-charcuterie-board-webp-s.webp": [
 240,
 140
+],
+"/images/thumbs/best-mixed-nuts-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-mixed-nuts-ranking-webp-s.webp": [
+240,
+360
 ],
 "/images/thumbs/best-mortadella-brands-ranking-webp-m.webp": [
 640,
@@ -4180,6 +4232,22 @@
 240,
 360
 ],
+"/images/thumbs/best-pickles-for-charcuterie-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pickles-for-charcuterie-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-pretzels-for-charcuterie-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pretzels-for-charcuterie-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-prosciutto-brands-ranking-webp-m.webp": [
 640,
 960
@@ -4193,6 +4261,14 @@
 960
 ],
 "/images/thumbs/best-salami-brands-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-smoked-salmon-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-smoked-salmon-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4217,6 +4293,14 @@
 960
 ],
 "/images/thumbs/best-summer-sausage-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-swiss-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-swiss-cheese-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -10819,6 +10903,10 @@
 "m": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-s.webp"
 },
+"/images/best-dark-chocolate-ranking.webp": {
+"m": "/images/thumbs/best-dark-chocolate-ranking-webp-m.webp",
+"s": "/images/thumbs/best-dark-chocolate-ranking-webp-s.webp"
+},
 "/images/best-feta-brands-ranking.webp": {
 "m": "/images/thumbs/best-feta-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-feta-brands-ranking-webp-s.webp"
@@ -10855,6 +10943,10 @@
 "m": "/images/thumbs/best-hot-honey-ranking-webp-m.webp",
 "s": "/images/thumbs/best-hot-honey-ranking-webp-s.webp"
 },
+"/images/best-hummus-ranking.webp": {
+"m": "/images/thumbs/best-hummus-ranking-webp-m.webp",
+"s": "/images/thumbs/best-hummus-ranking-webp-s.webp"
+},
 "/images/best-manchego-brands-ranking.webp": {
 "m": "/images/thumbs/best-manchego-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-manchego-brands-ranking-webp-s.webp"
@@ -10872,6 +10964,10 @@
 "l": "/images/thumbs/best-meats-charcuterie-board-webp-l.webp",
 "m": "/images/thumbs/best-meats-charcuterie-board-webp-m.webp",
 "s": "/images/thumbs/best-meats-charcuterie-board-webp-s.webp"
+},
+"/images/best-mixed-nuts-ranking.webp": {
+"m": "/images/thumbs/best-mixed-nuts-ranking-webp-m.webp",
+"s": "/images/thumbs/best-mixed-nuts-ranking-webp-s.webp"
 },
 "/images/best-mortadella-brands-ranking.webp": {
 "m": "/images/thumbs/best-mortadella-brands-ranking-webp-m.webp",
@@ -10897,6 +10993,14 @@
 "m": "/images/thumbs/best-pepperoni-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-pepperoni-brands-ranking-webp-s.webp"
 },
+"/images/best-pickles-for-charcuterie-ranking.webp": {
+"m": "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-s.webp"
+},
+"/images/best-pretzels-for-charcuterie-ranking.webp": {
+"m": "/images/thumbs/best-pretzels-for-charcuterie-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pretzels-for-charcuterie-ranking-webp-s.webp"
+},
 "/images/best-prosciutto-brands-ranking.webp": {
 "m": "/images/thumbs/best-prosciutto-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-prosciutto-brands-ranking-webp-s.webp"
@@ -10904,6 +11008,10 @@
 "/images/best-salami-brands-ranking.webp": {
 "m": "/images/thumbs/best-salami-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-salami-brands-ranking-webp-s.webp"
+},
+"/images/best-smoked-salmon-ranking.webp": {
+"m": "/images/thumbs/best-smoked-salmon-ranking-webp-m.webp",
+"s": "/images/thumbs/best-smoked-salmon-ranking-webp-s.webp"
 },
 "/images/best-soppressata-brands-ranking.webp": {
 "m": "/images/thumbs/best-soppressata-brands-ranking-webp-m.webp",
@@ -10916,6 +11024,10 @@
 "/images/best-summer-sausage-ranking.webp": {
 "m": "/images/thumbs/best-summer-sausage-ranking-webp-m.webp",
 "s": "/images/thumbs/best-summer-sausage-ranking-webp-s.webp"
+},
+"/images/best-swiss-cheese-ranking.webp": {
+"m": "/images/thumbs/best-swiss-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-swiss-cheese-ranking-webp-s.webp"
 },
 "/images/best-trader-joes-cheeses-ranking.webp": {
 "m": "/images/thumbs/best-trader-joes-cheeses-ranking-webp-m.webp",

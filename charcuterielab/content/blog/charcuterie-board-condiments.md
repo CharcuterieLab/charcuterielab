@@ -94,6 +94,7 @@ Use three to five condiments, each with a clear flavor role: one mustard, one fr
 - [Honey on a Charcuterie Board](https://charcuterielab.com/honey-on-charcuterie-board/)
 - [Fig Jam on a Charcuterie Board](https://charcuterielab.com/fig-jam-charcuterie-board/)
 - [How to Build a Charcuterie Board](https://charcuterielab.com/blog/how-to-make-charcuterie-board/)
+- [The Best Pickles for a Charcuterie Board, Ranked](/blog/best-pickles-for-charcuterie/)
 
 ## FAQ
 

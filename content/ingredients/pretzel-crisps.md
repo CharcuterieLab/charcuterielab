@@ -93,6 +93,8 @@ cracker.
 **Skip:** anything with a cheese or ranch seasoning if there's real cheese on
 the board. And skip standard twisted mini pretzels — they can't hold a topping.
 
+**Ranked picks:** our top-rated pretzel for a board is **Snack Factory Pretzel Crisps Original** (4.7 out of 5), and the best value is **Snyder's of Hanover Snaps**. See [the full ranking of the best pretzels](/blog/best-pretzels-for-charcuterie/).
+
 ## Quick FAQ
 
 **Are pretzel crisps good for a charcuterie board?**

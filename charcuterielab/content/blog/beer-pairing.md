@@ -175,6 +175,7 @@ Wine isn't the only answer. For certain board items, it's not even the best one.
 - [Why Wine and Cheese Work: The Fat vs. Tannin Science](https://charcuterielab.com/fat-tannin/)
 - [The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites](https://charcuterielab.com/acid-rule/)
 - [Salami: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/salami/)
+- [The Best Pretzels for a Charcuterie Board, Ranked](/blog/best-pretzels-for-charcuterie/)
 
 ## FAQ
 

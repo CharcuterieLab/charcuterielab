@@ -82,6 +82,8 @@ must buy, buy from somewhere with turnover and check the date.
 
 **Skip:** anything with "seasoning" listed instead of actual herbs and spices.
 
+**Ranked picks:** our top-rated mixed nuts are **Kirkland Signature Extra Fancy Salted Mixed Nuts** (4.5 out of 5), and the best-tasting mix in a published test is **Trader Joe's Fancy Mixed Nuts**. See [the full ranking of the best mixed nuts](/blog/best-mixed-nuts/).
+
 ## Quick FAQ
 
 **What's the best spiced nut recipe for a cheese board?**
