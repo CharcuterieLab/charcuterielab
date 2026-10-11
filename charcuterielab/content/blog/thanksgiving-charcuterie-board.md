@@ -100,6 +100,7 @@ The Thanksgiving board succeeds when it's calibrated to its role: pre-dinner sus
 
 ## Related Reading
 
+- [The Best Canned Cranberry Sauce for a Thanksgiving Board, Ranked](/blog/best-cranberry-sauce/)
 - [How Much Cheese for a Charcuterie Board](https://charcuterielab.com/how-much-cheese-charcuterie-board/)
 - [Best Crackers for a Charcuterie Board](https://charcuterielab.com/best-crackers-charcuterie-board/)
 - [Aged Gouda on a Charcuterie Board](https://charcuterielab.com/blog/aged-gouda/)

@@ -83,6 +83,8 @@ sweeter than jam.
 
 **Skip:** cranberry cocktail jelly and anything with corn syrup leading.
 
+**Ranked picks:** our top-rated canned cranberry sauce for a board is **Ocean Spray Jellied** (4.2 out of 5), and the best-tasting is **Tiptree Wild Cranberry**. See [the full ranking of the best cranberry sauce](/blog/best-cranberry-sauce/).
+
 ## Quick FAQ
 
 **Can I use cranberry sauce on a cheese board?**

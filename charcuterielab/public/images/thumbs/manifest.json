@@ -296,6 +296,14 @@
 1000,
 1500
 ],
+"/images/best-cranberry-sauce-ranking.webp": [
+1000,
+1500
+],
+"/images/best-cream-cheese-ranking.webp": [
+1000,
+1500
+],
 "/images/best-dark-chocolate-ranking.webp": [
 1000,
 1500
@@ -305,6 +313,10 @@
 1500
 ],
 "/images/best-fig-jam-ranking.webp": [
+1000,
+1500
+],
+"/images/best-french-onion-dip-ranking.webp": [
 1000,
 1500
 ],
@@ -348,6 +360,10 @@
 1000,
 1500
 ],
+"/images/best-meat-sticks-ranking.webp": [
+1000,
+1500
+],
 "/images/best-meats-charcuterie-board.png": [
 2635,
 1536
@@ -384,7 +400,19 @@
 1000,
 1500
 ],
+"/images/best-pesto-ranking.webp": [
+1000,
+1500
+],
 "/images/best-pickles-for-charcuterie-ranking.webp": [
+1000,
+1500
+],
+"/images/best-pimento-cheese-ranking.webp": [
+1000,
+1500
+],
+"/images/best-pita-chips-ranking.webp": [
 1000,
 1500
 ],
@@ -1435,6 +1463,10 @@
 "/images/genoa-salami-vs-hard-salami.png": [
 1024,
 687
+],
+"/images/gifts/gift-card-preview.webp": [
+560,
+362
 ],
 "/images/gluten-free-board-kit.jpg": [
 791,
@@ -4048,6 +4080,22 @@
 240,
 360
 ],
+"/images/thumbs/best-cranberry-sauce-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-cranberry-sauce-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-cream-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-cream-cheese-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-dark-chocolate-ranking-webp-m.webp": [
 640,
 960
@@ -4069,6 +4117,14 @@
 960
 ],
 "/images/thumbs/best-fig-jam-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-french-onion-dip-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-french-onion-dip-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4152,6 +4208,14 @@
 240,
 360
 ],
+"/images/thumbs/best-meat-sticks-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-meat-sticks-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-meats-charcuterie-board-png-l.webp": [
 1100,
 641
@@ -4232,11 +4296,35 @@
 240,
 360
 ],
+"/images/thumbs/best-pesto-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pesto-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-pimento-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pimento-cheese-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-pita-chips-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pita-chips-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -6319,6 +6407,10 @@
 "/images/thumbs/genoa-salami-vs-hard-salami-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/gifts__gift-card-preview-webp-s.webp": [
+240,
+155
 ],
 "/images/thumbs/gluten-free-board-kit-jpg-m.webp": [
 640,
@@ -10903,6 +10995,14 @@
 "m": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-crackers-for-charcuterie-ranking-webp-s.webp"
 },
+"/images/best-cranberry-sauce-ranking.webp": {
+"m": "/images/thumbs/best-cranberry-sauce-ranking-webp-m.webp",
+"s": "/images/thumbs/best-cranberry-sauce-ranking-webp-s.webp"
+},
+"/images/best-cream-cheese-ranking.webp": {
+"m": "/images/thumbs/best-cream-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-cream-cheese-ranking-webp-s.webp"
+},
 "/images/best-dark-chocolate-ranking.webp": {
 "m": "/images/thumbs/best-dark-chocolate-ranking-webp-m.webp",
 "s": "/images/thumbs/best-dark-chocolate-ranking-webp-s.webp"
@@ -10914,6 +11014,10 @@
 "/images/best-fig-jam-ranking.webp": {
 "m": "/images/thumbs/best-fig-jam-ranking-webp-m.webp",
 "s": "/images/thumbs/best-fig-jam-ranking-webp-s.webp"
+},
+"/images/best-french-onion-dip-ranking.webp": {
+"m": "/images/thumbs/best-french-onion-dip-ranking-webp-m.webp",
+"s": "/images/thumbs/best-french-onion-dip-ranking-webp-s.webp"
 },
 "/images/best-fresh-mozzarella-ranking.webp": {
 "m": "/images/thumbs/best-fresh-mozzarella-ranking-webp-m.webp",
@@ -10955,6 +11059,10 @@
 "m": "/images/thumbs/best-marcona-almonds-ranking-webp-m.webp",
 "s": "/images/thumbs/best-marcona-almonds-ranking-webp-s.webp"
 },
+"/images/best-meat-sticks-ranking.webp": {
+"m": "/images/thumbs/best-meat-sticks-ranking-webp-m.webp",
+"s": "/images/thumbs/best-meat-sticks-ranking-webp-s.webp"
+},
 "/images/best-meats-charcuterie-board.png": {
 "l": "/images/thumbs/best-meats-charcuterie-board-png-l.webp",
 "m": "/images/thumbs/best-meats-charcuterie-board-png-m.webp",
@@ -10993,9 +11101,21 @@
 "m": "/images/thumbs/best-pepperoni-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-pepperoni-brands-ranking-webp-s.webp"
 },
+"/images/best-pesto-ranking.webp": {
+"m": "/images/thumbs/best-pesto-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pesto-ranking-webp-s.webp"
+},
 "/images/best-pickles-for-charcuterie-ranking.webp": {
 "m": "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-pickles-for-charcuterie-ranking-webp-s.webp"
+},
+"/images/best-pimento-cheese-ranking.webp": {
+"m": "/images/thumbs/best-pimento-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pimento-cheese-ranking-webp-s.webp"
+},
+"/images/best-pita-chips-ranking.webp": {
+"m": "/images/thumbs/best-pita-chips-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pita-chips-ranking-webp-s.webp"
 },
 "/images/best-pretzels-for-charcuterie-ranking.webp": {
 "m": "/images/thumbs/best-pretzels-for-charcuterie-ranking-webp-m.webp",
@@ -12034,6 +12154,9 @@
 "/images/genoa-salami-vs-hard-salami.png": {
 "m": "/images/thumbs/genoa-salami-vs-hard-salami-png-m.webp",
 "s": "/images/thumbs/genoa-salami-vs-hard-salami-png-s.webp"
+},
+"/images/gifts/gift-card-preview.webp": {
+"s": "/images/thumbs/gifts__gift-card-preview-webp-s.webp"
 },
 "/images/gluten-free-board-kit.jpg": {
 "m": "/images/thumbs/gluten-free-board-kit-jpg-m.webp",

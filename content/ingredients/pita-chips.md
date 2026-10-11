@@ -92,6 +92,8 @@ parmesan garlic, cinnamon sugar — are snacks, not board bases.
 **Skip:** everything-flavored and cheese-flavored pita chips on a cheese board.
 You already have cheese; you don't need cheese powder.
 
+**Ranked picks:** our top-rated pita chips are **Stacy's Simply Naked** (4.7 out of 5), and the best value is **Aldi's Specially Selected Sea Salt**. See [the full ranking of the best pita chips](/blog/best-pita-chips/).
+
 ## Quick FAQ
 
 **How many pita chips per person?**

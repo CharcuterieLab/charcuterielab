@@ -86,6 +86,8 @@ hasn't been pressed and is really just a snack stick.
 **Skip:** confusing it with a Slim Jim-style snack stick. Landjäger is a
 fermented, smoked, semi-dry sausage with real character.
 
+**Ranked picks:** for a grab-and-go stick, our top-rated meat stick is **Chomps Original** (4.8 out of 5). See [the full ranking of the best meat sticks](/blog/best-meat-sticks/).
+
 ## Quick FAQ
 
 **Why is it flat?**

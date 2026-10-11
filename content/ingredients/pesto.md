@@ -84,6 +84,8 @@ flake appears before the cheese, put it back.
 **Skip:** shelf-stable jars in the pasta aisle. They are cooked, dull and often
 already browning.
 
+**Ranked picks:** our top-rated store-bought pesto is **Kirkland Signature Basil Pesto** (4.7 out of 5), and the best shelf-stable jar is **DeLallo Simply Pesto**. See [the full ranking of the best pesto](/blog/best-pesto/).
+
 ## Quick FAQ
 
 **Is jarred pesto any good?**

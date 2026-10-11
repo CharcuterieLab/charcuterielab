@@ -82,6 +82,8 @@ cheese. Anything led by dairy blends will be gluey.
 
 **Skip:** pre-shredded cheese and low-fat mayonnaise. Both wreck the texture.
 
+**Ranked picks:** our top-rated store-bought pimento cheese is **MyThreeSons Emmy's Original** (4.4 out of 5), and the best value is **Price's**. See [the full ranking of the best pimento cheese](/blog/best-pimento-cheese/).
+
 ## Quick FAQ
 
 **What is pimento cheese?**

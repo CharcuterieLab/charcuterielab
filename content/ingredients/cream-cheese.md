@@ -90,6 +90,8 @@ water and gums, and they loosen when whipped.
 **Skip:** flavored tubs with fruit or artificial flavoring on a savory board.
 Season it yourself; it takes two minutes and tastes better.
 
+**Ranked picks:** our top-rated cream cheese is **Philadelphia Original** (4.7 out of 5), and the best value is **Great Value**. See [the full ranking of the best cream cheese](/blog/best-cream-cheese/).
+
 ## Quick FAQ
 
 **Can I put plain cream cheese on a charcuterie board?**
