@@ -639,7 +639,7 @@ export function giftPages(h, books) {
       ["Which serving board to buy", "/blog/best-charcuterie-boards/", "Wood, slate or marble, and what size", "/images/wine-cheese-board.png"]
     ];
     const chips = [
-      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $110", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"]]],
+      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"]]],
       ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
       ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"]]]
     ];
@@ -648,7 +648,7 @@ export function giftPages(h, books) {
       ["What goes in a charcuterie gift basket?", "A whole dry salami, crackers, a jar of fig spread, nuts, a small knife and one or two cheeses. The salami, crackers, jam and nuts are shelf-stable; add the cheese right before you hand it over and tell them to refrigerate it. Our DIY gift basket guide has full lists at $25, $50 and $100."],
       ["What is the best charcuterie book for a beginner?", "50 Boards, Built by Science. Every board comes with a shopping list with amounts, a build order and swaps, so a beginner can make a full board without guessing."],
       ["What's a good last-minute charcuterie gift?", "An ebook. Buy the PDF, then forward the download email or print our free \"Your first board is on me\" gift card and write the book's name on it."],
-      ["How much should I spend on a charcuterie gift?", "$15 to $35 covers most gifts: a book, a knife set or a jar trio. Our ready-made gift sets run from about $35 to $110."]
+      ["How much should I spend on a charcuterie gift?", "$15 to $35 covers most gifts: a book, a knife set or a jar trio. Our ready-made gift sets run from about $35 to $95."]
     ];
     pages.push({
       path,

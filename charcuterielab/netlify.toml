@@ -590,3 +590,48 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/wine-only/"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/wine-only"
+  to = "/blog/wine-only/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/ebook/"
+  to = "/ebook/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/ebook"
+  to = "/ebook/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/page/2/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/page/2"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/newsletter/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/newsletter"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/index.xml"
+  to = "/blog/"
+  status = 301
