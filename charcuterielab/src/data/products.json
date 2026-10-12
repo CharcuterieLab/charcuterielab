@@ -199,11 +199,11 @@
   {
     "title": "The Mixed-Diet Party Planner",
     "description": "Digital download: plan one charcuterie spread for guests with different diets.",
-    "price": "$9.00",
+    "price": "$5.00",
     "image": "/images/mixed-diet-party-planner.jpg",
-    "url": "",
+    "url": "https://charcuterieflavor.gumroad.com/l/mixed-diet-party-planner",
     "slug": "mixed-diet-party-planner",
-    "priceShort": "$9",
+    "priceShort": "$5",
     "pagesLabel": "12 pages",
     "format": "Letter size, portrait",
     "hook": "One spread for the gluten-free, nut-free, vegetarian and vegan guests at the same party: guest diet cards, a station planner, the conflict chart and a list of what passes every diet.",
@@ -217,7 +217,7 @@
     ],
     "who": "Hosts with guests who are gluten-free, nut-allergic, vegetarian or vegan at the same party, from Thanksgiving to office parties.",
     "seoTitle": "Mixed-Diet Party Planner: Printable Charcuterie Guide",
-    "metaDescription": "Plan one charcuterie spread for gluten-free, nut-free, vegetarian and vegan guests: diet cards, station planner, conflict chart and labels. 12-page PDF, $9.",
+    "metaDescription": "Plan one charcuterie spread for gluten-free, nut-free, vegetarian and vegan guests: diet cards, station planner, conflict chart and labels. 12-page PDF, $5.",
     "free": [
       [
         "Diet Checker: every ingredient, every diet",
@@ -236,11 +236,11 @@
   {
     "title": "The Gluten-Free Board Kit",
     "description": "Digital download: three gluten-free boards, the shopping filter and a crumb-free setup.",
-    "price": "$7.00",
+    "price": "$4.00",
     "image": "/images/gluten-free-board-kit.jpg",
-    "url": "",
+    "url": "https://charcuterieflavor.gumroad.com/l/gluten-free-board-kit",
     "slug": "gluten-free-board-kit",
-    "priceShort": "$7",
+    "priceShort": "$4",
     "pagesLabel": "12 pages",
     "format": "Letter size, portrait",
     "hook": "Three complete gluten-free boards with amounts for 6, 12 and 20, the shopping filter for 325 ingredients and a setup a guest with celiac disease can trust.",
@@ -253,7 +253,7 @@
     ],
     "who": "Hosts with a gluten-free or celiac guest who want a normal-looking board without the guesswork.",
     "seoTitle": "Gluten-Free Charcuterie Board Kit: Printable Plans",
-    "metaDescription": "Printable gluten-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, safe-and-check lists for 325 ingredients and a celiac-safe setup. $7.",
+    "metaDescription": "Printable gluten-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, safe-and-check lists for 325 ingredients and a celiac-safe setup. $4.",
     "free": [
       [
         "Gluten-free charcuterie guide",
@@ -272,11 +272,11 @@
   {
     "title": "The Nut-Free Board Kit",
     "description": "Digital download: three nut-free boards, the shopping filter and an allergy-safe setup.",
-    "price": "$7.00",
+    "price": "$4.00",
     "image": "/images/nut-free-allergy-board-kit.jpg",
-    "url": "",
+    "url": "https://charcuterieflavor.gumroad.com/l/nut-free-allergy-board-kit",
     "slug": "nut-free-allergy-board-kit",
-    "priceShort": "$7",
+    "priceShort": "$4",
     "pagesLabel": "13 pages",
     "format": "Letter size, portrait",
     "hook": "Three complete nut-free boards with amounts for 6, 12 and 20, the shopping filter for 325 ingredients and where nuts hide on a board.",
@@ -289,7 +289,7 @@
     ],
     "who": "Hosts with a guest who has a tree nut or peanut allergy, and parents planning school-safe boards.",
     "seoTitle": "Nut-Free Charcuterie Board Kit: Printable Plans",
-    "metaDescription": "Printable nut-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, where nuts hide and an allergy-safe setup. 13-page PDF, $7.",
+    "metaDescription": "Printable nut-free charcuterie board kit: 3 boards with shopping lists for 6 to 20 guests, where nuts hide and an allergy-safe setup. 13-page PDF, $4.",
     "free": [
       [
         "Nut-free charcuterie guide",
@@ -345,8 +345,8 @@
     "slug": "cured-meat-field-guide",
     "title": "Cured Meat Field Guide",
     "status": "soon",
-    "price": "$9.00",
-    "priceShort": "$9",
+    "price": "$5.00",
+    "priceShort": "$5",
     "pagesLabel": "13 pages",
     "format": "US Letter PDF",
     "image": "/images/printable-board-builder.jpg",
@@ -371,7 +371,7 @@
         "/party-planner/"
       ]
     ],
-    "url": ""
+    "url": "https://charcuterieflavor.gumroad.com/l/cured-meat-field-guide"
   },
   {
     "slug": "cheese-board-field-guide",
@@ -414,8 +414,8 @@
     "slug": "make-ahead-board-timeline",
     "title": "Make-Ahead Board Timeline",
     "status": "soon",
-    "price": "$7.00",
-    "priceShort": "$7",
+    "price": "$4.00",
+    "priceShort": "$4",
     "pagesLabel": "9 pages",
     "format": "US Letter PDF",
     "image": "/images/printable-board-builder.jpg",
@@ -440,7 +440,7 @@
         "/party-planner/"
       ]
     ],
-    "url": ""
+    "url": "https://charcuterieflavor.gumroad.com/l/make-ahead-board-timeline"
   },
   {
     "slug": "baby-shower-board-kit",

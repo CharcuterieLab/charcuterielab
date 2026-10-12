@@ -71,8 +71,20 @@
     "url": "https://charcuterieflavor.gumroad.com/l/baby-shower-board",
     "price": "$3"
   },
+  "33": {
+    "url": "https://charcuterieflavor.gumroad.com/l/cocktail-party-board",
+    "price": "$3"
+  },
   "42": {
     "url": "https://charcuterieflavor.gumroad.com/l/all-cheese-board",
+    "price": "$3"
+  },
+  "47": {
+    "url": "https://charcuterieflavor.gumroad.com/l/dessert-board",
+    "price": "$3"
+  },
+  "49": {
+    "url": "https://charcuterieflavor.gumroad.com/l/grand-board",
     "price": "$3"
   }
 }
