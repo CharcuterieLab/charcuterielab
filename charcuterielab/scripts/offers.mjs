@@ -171,8 +171,8 @@ export function makeOffers(h, products, books) {
       return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · Instant PDF · 30-day refund`;
     }
     const bundle = live.get("complete-board-builder-bundle");
-    if (!o.paperbackUrl) return `<a href="/printables/">Or browse the printables from $3</a>`;
-    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a> · <a href="/printables/">Printables from $3</a>`;
+    if (!o.paperbackUrl) return `<a href="/shop/#printables">Or browse the printables from $3</a>`;
+    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a> · <a href="/shop/#printables">Printables from $3</a>`;
   }
 
   function top(ctx, campaign) {
@@ -196,15 +196,29 @@ export function makeOffers(h, products, books) {
   // The email ask, high on the page (8 Oct 2026): right after the page's quick
   // answer, before the paid card. Compact, so the article still starts within
   // the first two phone screens.
-  function emailHigh(campaign) {
-    return `<aside class="fx-hi" aria-label="Free Charcuterie Cheat Sheet" id="cheat">
-  <img class="fx-hi-img" src="${esc(thumb(CHEAT_IMG, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
+  // Section-matched freebies (12 Oct 2026). Same beehiiv form; the page
+  // remembers which PDF it promised and /thanks/cheat-sheet/ offers it next
+  // to the cheat sheet. Made by scripts/lead-pdfs.py.
+  const FREEBIES = {
+    best: { title: "Top Picks: the best brand of everything", line: "Our #1 pick from every buying guide on one printable list to take to the store, plus the cheat sheet and the weekly Lab Report.", img: "/images/leads/best-buys-top-picks.webp", label: "Download the Top Picks list (PDF)", pdf: "/downloads/best-buys-top-picks.pdf" },
+    holiday: { title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
+    pairing: { title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
+  };
+  function freebieFor(path) {
+    if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
+    if (/^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
+    if (/^\/pairings\//.test(path) || /^\/blog\/[^/]*(wine|pairing|beer|champagne|prosecco)/.test(path)) return FREEBIES.pairing;
+    return null;
+  }
+  function emailHigh(campaign, fb = null) {
+    return `<aside class="fx-hi" aria-label="${esc(fb ? fb.title : "Free Charcuterie Cheat Sheet")}" id="cheat">
+  <img class="fx-hi-img" src="${esc(fb ? fb.img : thumb(CHEAT_IMG, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
   <div class="fx-hi-copy">
     <p class="fx-hi-eyebrow">Free printable</p>
-    <p class="fx-hi-title">The Charcuterie Cheat Sheet</p>
-    <p class="fx-hi-line">How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.</p>
+    <p class="fx-hi-title">${esc(fb ? fb.title : "The Charcuterie Cheat Sheet")}</p>
+    <p class="fx-hi-line">${esc(fb ? fb.line : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.")}</p>
   </div>
-  ${bhForm("lead-hi", campaign)}
+  ${bhForm("lead-hi", campaign, fb ? { label: fb.label, pdf: fb.pdf } : null)}
 </aside>`;
   }
 
@@ -231,6 +245,9 @@ export function makeOffers(h, products, books) {
       return i;
     };
     if (parts[0] === "blog") {
+      // The buying-guides hub: the finder stays right under the quick answer.
+      const fd = html.indexOf('<section class="best-finder"', mainAt);
+      if (fd > 0) { const fe = html.indexOf("</section>", fd); if (fe > 0) return fe + "</section>".length; }
       const art = html.indexOf('<article class="post-body"', mainAt);
       const bq = art >= 0 ? html.indexOf("<blockquote", art) : -1;
       if (bq >= 0 && (h2s[0] === undefined || bq < h2s[0])) {
@@ -292,7 +309,7 @@ export function makeOffers(h, products, books) {
               if (m < at) at -= "<!--offer-top-->".length;
             }
             const inCard = card.replace('<aside class="fx-top"', '<aside class="fx-top fx-in"');
-            html = html.slice(0, at) + "\n" + emailHigh(`cheat_hi_${campaign.slice(4)}`) + "\n" + inCard + "\n" + html.slice(at);
+            html = html.slice(0, at) + "\n" + emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path)) + "\n" + inCard + "\n" + html.slice(at);
             // One email box mid-article is enough: drop the old mid-post lead box.
             html = html.replace(/<aside class="fx-lead"[\s\S]*?<\/aside>\s*/, "");
             hi++;
@@ -306,6 +323,23 @@ export function makeOffers(h, products, books) {
               const at = p > 0 ? p + 4 : h1At + 5;
               html = html.slice(0, at) + "\n" + card + html.slice(at);
             } else continue;
+          }
+          // One paid offer per page (12 Oct 2026): the matched card above (and
+          // its repeat at the end of the article) is the only product pitch.
+          // The generic book card, the book bar and the book half of the
+          // closing "Keep going" block go. Board and holiday pages keep their
+          // own "fully planned" section, which is that page's plan.
+          html = html.replace(/<aside class="fx-book fx-book-general"[\s\S]*?<\/aside>\s*/g, "");
+          // Blog posts: the "board N is in the book" card only stays when the
+          // matched offer is the book itself.
+          if (path.startsWith("/blog/") && pick(ctx).type === "printable") html = html.replace(/<aside class="fx-book[\s\S]*?<\/aside>\s*/g, "");
+          html = html.replace(/<aside class="book-bar"[\s\S]*?<\/aside>\s*/g, "");
+          html = html.replace(/<!--lnb-->[\s\S]*?<!--\/lnb-->\s*/g, "");
+          {
+            const fb = freebieFor(path);
+            if (fb && html.includes('class="lab-news"')) {
+              html = html.replace(/(<section class="lab-news"[\s\S]*?)<img src="[^"]*"([\s\S]*?)<h2>Get the Charcuterie Cheat Sheet<\/h2>\s*<p>[\s\S]*?<\/p>/, (all, a, b) => `${a}<img src="${esc(fb.img)}"${b}<h2>Get the free ${esc(fb.title.replace(/^The /, ""))}</h2>\n          <p>${esc(fb.line)}</p>`);
+            }
           }
           // The mid-page printable card shows the same product as the top card.
           const chosen = pick(ctx);

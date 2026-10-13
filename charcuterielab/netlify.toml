@@ -5,6 +5,17 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# One Shop (12 Oct 2026): the printables landing and the books index merged into /shop/.
+[[redirects]]
+  from = "/printables/"
+  to = "/shop/"
+  status = 301
+
+[[redirects]]
+  from = "/books/"
+  to = "/shop/#ebooks"
+  status = 301
+
 [[redirects]]
   from = "/printables/cheese-pairing-science-card/"
   to = "/printables/cheese-board-field-guide/"

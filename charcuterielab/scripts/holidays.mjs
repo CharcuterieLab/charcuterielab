@@ -228,6 +228,8 @@ ${boards.map((b) => card(b, h)).join("\n")}
       </div>
     </section>
 
+    ${holidayNext(h, hol)}
+
     <section class="bl-section" aria-labelledby="more-h">
       <h2 id="more-h">Keep planning</h2>
       ${blogs.length ? `<p class="bl-note">Read more: ${blogs.map((s) => `<a href="/blog/${s}/">${h.escapeHtml(blogTitles.get(s))}</a>`).join(" · ")}</p>` : ""}
@@ -239,6 +241,31 @@ ${h.stickyBar ? h.stickyBar(`sticky_holiday_${hol.slug}`, h.bookBoards && HOLIDA
 </main>
 ${countdownJs()}`
   });
+}
+
+// Holiday next steps (12 Oct 2026): what to buy for this holiday (the brand
+// guides), the gift guide in gift season, and the matching printable.
+const HOLIDAY_NEXT = {
+  thanksgiving: { guides: [["best-cranberry-sauce", "Best canned cranberry sauce"], ["best-brie-brands", "Best brie for baking"], ["best-mixed-nuts", "Best mixed nuts"]], print: ["grazing-table-planner", "Grazing Table Planner"], gifts: true },
+  christmas: { guides: [["best-shortbread", "Best shortbread"], ["best-cranberry-sauce", "Best cranberry sauce"], ["best-dark-chocolate", "Best dark chocolate"]], print: ["british-christmas-cheese-board", "British Christmas Cheese Board"], gifts: true },
+  hanukkah: { guides: [["best-smoked-salmon", "Best smoked salmon"], ["best-cream-cheese", "Best cream cheese"], ["best-hummus", "Best hummus"]], gifts: true },
+  "new-years-eve": { guides: [["best-smoked-salmon", "Best smoked salmon"], ["best-brie-brands", "Best brie"], ["best-dark-chocolate", "Best dark chocolate"]], print: ["new-years-eve-blini-bar", "New Year's Eve Blini Bar"] },
+  "super-bowl": { guides: [["best-queso", "Best queso"], ["best-kettle-chips", "Best kettle chips"], ["best-spinach-dip", "Best spinach dip"]], print: ["salami-tasting-party-kit", "Salami Tasting Party Kit"] },
+  "valentines-day": { guides: [["best-dark-chocolate", "Best dark chocolate"], ["best-strawberry-jam", "Best strawberry jam"], ["best-brie-brands", "Best brie"]] },
+  halloween: { guides: [["best-pretzels-for-charcuterie", "Best pretzels"], ["best-cheddar-brands", "Best cheddar"], ["best-meat-sticks", "Best meat sticks"]] },
+  easter: { guides: [["best-goat-cheese-brands", "Best goat cheese"], ["best-strawberry-jam", "Best strawberry jam"], ["best-prosciutto-brands", "Best prosciutto"]] },
+  "st-patricks-day": { guides: [["best-cheddar-brands", "Best cheddar"], ["best-butter-for-butter-board", "Best butter"], ["best-mustard-for-charcuterie", "Best mustard"]] }
+};
+function holidayNext(h, hol) {
+  const x = HOLIDAY_NEXT[hol.slug];
+  if (!x) return "";
+  const cards = x.guides.map(([s, label]) => `<a href="/blog/${s}/"><span class="bn-k">Best buys</span><strong>${h.escapeHtml(label)}</strong><span>Ranked, with a best value pick</span></a>`);
+  if (x.gifts) cards.push(`<a href="/gifts/"><span class="bn-k">Gift guide</span><strong>Charcuterie gifts</strong><span>Books, sets and gifts under $25</span></a>`);
+  else if (x.print) cards.push(`<a href="/printables/${x.print[0]}/"><span class="bn-k">Printable plan</span><strong>${h.escapeHtml(x.print[1])}</strong><span>Instant PDF, from $3</span></a>`);
+  return `<section class="bl-section best-next hol-next" aria-labelledby="hol-next-h">
+      <h2 id="hol-next-h">Shop for ${h.escapeHtml(hol.name)}</h2>
+      <div class="best-next-grid">${cards.slice(0, 4).join("")}</div>
+    </section>`;
 }
 
 export function holidaysHub(h, holidays) {

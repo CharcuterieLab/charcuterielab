@@ -29,7 +29,7 @@ export function bookLandingPages(h, { keto, two, plant, books }) {
     return [
       { "@context": "https://schema.org", "@type": "Book", name: b.title, alternateName: b.short, url: h.absoluteUrl(b.path), image: h.absoluteUrl(b.cover), description: b.description, numberOfPages: b.pages, bookFormat: "https://schema.org/EBook", inLanguage: "en", genre: "Cookbook", ...(h.authorRef ? { author: h.authorRef } : {}), publisher: { "@type": "Organization", name: "Charcuterie Lab", url: h.absoluteUrl("/") }, offers },
       { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a.replace(/<[^>]+>/g, "") } })) },
-      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [["Books", "/books/"], [b.short, b.path]].map(([name, url], i) => ({ "@type": "ListItem", position: i + 1, name, item: h.absoluteUrl(url) })) }
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [["Shop", "/shop/"], [b.short, b.path]].map(([name, url], i) => ({ "@type": "ListItem", position: i + 1, name, item: h.absoluteUrl(url) })) }
     ].map((s) => `  <script type="application/ld+json">${h.jsonForScript(s)}</script>`).join("\n");
   }
 
@@ -48,7 +48,7 @@ export function bookLandingPages(h, { keto, two, plant, books }) {
   <section class="ebook-hero bk-hero">
     <div class="ebook-hero-inner bk-hero-inner">
       <div class="bk-hero-copy">
-        <p class="ing-crumb"><a href="/books/">Books</a> <span aria-hidden="true">/</span> ${esc(b.short)}</p>
+        <p class="ing-crumb"><a href="/shop/#ebooks">Books</a> <span aria-hidden="true">/</span> ${esc(b.short)}</p>
         <p class="ebook-kicker">${esc(b.kicker)}</p>
         <h1>${esc(b.h1)}</h1>
         <p class="bk-lead">${b.lead}</p>

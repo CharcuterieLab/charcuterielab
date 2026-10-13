@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -1394,6 +1395,33 @@ function metaSnippet(text, limit = 158) {
   return `${head.slice(0, word > 0 ? word : limit).trimEnd()}...`;
 }
 
+// Site menu (12 Oct 2026): five groups by what the visitor is trying to do.
+// Each top link goes to the section's front page; the sub-links open on hover
+// or focus on desktop (the caret button for touch and keyboard) and are listed
+// under their heading in the phone menu. URLs did not change.
+const NAV_GROUPS = [
+  { key: "plan", label: "Plan a board", href: "/boards/", match: /^\/(boards|holidays|party-planner|board-builder|dietary|around-the-world)\//, links: [
+    ["/boards/", "Board Library"], ["/holidays/", "Holiday boards"], ["/party-planner/", "Party Planner: how much to buy"], ["/board-builder/", "Build a Board"], ["/dietary/", "Dietary swaps"] ] },
+  { key: "best", label: "Best buys", href: "/blog/best-charcuterie-brands/", match: /^\/blog\/best-/, links: [
+    ["/blog/best-charcuterie-brands/", "All buying guides"], ["/blog/best-charcuterie-brands/?c=cheese#finder", "Best cheese"], ["/blog/best-charcuterie-brands/?c=meat#finder", "Best cured meat"], ["/blog/best-charcuterie-brands/?c=crackers#finder", "Best crackers and chips"], ["/blog/best-charcuterie-brands/?c=spreads#finder", "Best spreads and dips"], ["/blog/best-charcuterie-brands/?c=stores#finder", "Store guides: Costco, Aldi, TJ's"] ] },
+  { key: "learn", label: "Learn", href: "/ingredients/", match: /^\/(ingredients|pairings|blog)\//, links: [
+    ["/ingredients/", "Ingredient library"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
+  { key: "shop", label: "Shop", href: "/shop/", match: /^\/(shop|printables|ebook|books)\//, links: [
+    ["/shop/", "Start here"], ["/shop/#ebooks", "Ebooks and paperbacks"], ["/shop/#printables", "Printable plans"], ["/ebook/", "50 Boards Built by Science"] ] }
+];
+
+function siteNav(canonical = "/") {
+  const groups = [...NAV_GROUPS];
+  if (giftsInNav()) groups.push({ key: "gifts", label: "Gifts", href: "/gifts/", match: /^\/gifts\//, links: [] });
+  return groups.map((g) => {
+    const cur = g.match.test(canonical) && !(g.key === "learn" && /^\/blog\/best-/.test(canonical));
+    const top = `<a class="nav-top${g.key === "shop" ? " nav-book" : ""}" href="${g.href}"${cur ? ' aria-current="true"' : ""}>${g.label}</a>`;
+    if (!g.links.length) return `        <div class="nav-group nav-solo">${top}</div>`;
+    const id = `nav-sub-${g.key}`;
+    return `        <div class="nav-group${cur ? " is-current" : ""}">${top}<button class="nav-caret" type="button" aria-expanded="false" aria-controls="${id}" aria-label="More in ${g.label}"><svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="nav-sub" id="${id}">${g.links.map(([href, label]) => `<a href="${href}">${label}</a>`).join("")}</div></div>`;
+  }).join("\n");
+}
+
 function layout({
   title,
   description,
@@ -1456,22 +1484,12 @@ ${head}
       <a class="nav-m-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="nav-toggle-bars" aria-hidden="true"></span>Menu</button>
       <div class="nav-links" id="site-menu">
-        <a class="nav-book" href="/printables/">Printables</a>
-        <a href="/boards/">Boards</a>
-        <a href="/holidays/">Holidays</a>${giftsInNav() ? `
-        <a href="/gifts/">Gifts</a>` : ""}
-        <a href="/party-planner/">Party Planner</a>
-        <a href="/board-builder/">Build a Board</a>
-        <a href="/ingredients/">Ingredients</a>
-        <a href="/pairings/">Pairings</a>
-        <a href="/dietary/">Dietary</a>
-        <a href="/blog/">Blog</a>
-        <a href="/shop/">Shop</a>
+${siteNav(canonical)}
         <a class="nav-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="nav-search-label">Search</span></a>
       </div>
     </nav>
   </header>
-  <script>(function(){var h=document.querySelector(".site-header"),t=h&&h.querySelector(".nav-toggle");if(!t)return;var mq=window.matchMedia("(max-width: 820px)");t.addEventListener("click",function(){var o=h.classList.toggle("is-open");t.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&h.classList.contains("is-open")){h.classList.remove("is-open");t.setAttribute("aria-expanded","false");t.focus()}});var y=window.scrollY;window.addEventListener("scroll",function(){var n=window.scrollY;if(!mq.matches||h.classList.contains("is-open")){h.classList.remove("is-tucked");y=n;return}if(n>y+6&&n>140)h.classList.add("is-tucked");else if(n<y-6||n<140)h.classList.remove("is-tucked");y=n},{passive:true})})();</script>
+  <script>(function(){var h=document.querySelector(".site-header"),t=h&&h.querySelector(".nav-toggle");if(!t)return;var mq=window.matchMedia("(max-width: 820px)");t.addEventListener("click",function(){var o=h.classList.toggle("is-open");t.setAttribute("aria-expanded",o?"true":"false")});h.querySelectorAll(".nav-caret").forEach(function(c){c.addEventListener("click",function(e){e.preventDefault();var g=c.parentNode,o=!g.classList.contains("is-open");h.querySelectorAll(".nav-group.is-open").forEach(function(x){x.classList.remove("is-open");x.querySelector(".nav-caret").setAttribute("aria-expanded","false")});if(o){g.classList.add("is-open");c.setAttribute("aria-expanded","true")}})});document.addEventListener("click",function(e){if(!e.target.closest||!e.target.closest(".nav-group"))h.querySelectorAll(".nav-group.is-open").forEach(function(x){x.classList.remove("is-open");x.querySelector(".nav-caret").setAttribute("aria-expanded","false")})});document.addEventListener("keydown",function(e){if(e.key==="Escape"){h.querySelectorAll(".nav-group.is-open").forEach(function(x){x.classList.remove("is-open");x.querySelector(".nav-caret").setAttribute("aria-expanded","false")})}if(e.key==="Escape"&&h.classList.contains("is-open")){h.classList.remove("is-open");t.setAttribute("aria-expanded","false");t.focus()}});var y=window.scrollY;window.addEventListener("scroll",function(){var n=window.scrollY;if(!mq.matches||h.classList.contains("is-open")){h.classList.remove("is-tucked");y=n;return}if(n>y+6&&n>140)h.classList.add("is-tucked");else if(n<y-6||n<140)h.classList.remove("is-tucked");y=n},{passive:true})})();</script>
   ${body}
   <footer class="site-footer">
     <div class="footer-inner">
@@ -1481,24 +1499,11 @@ ${head}
         <a href="https://www.instagram.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Instagram">${socialIcon("instagram")}</a>
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
-      <div class="footer-links">
-        <a href="/books/">Books</a>
-        <a href="/gifts/">Gift Guide</a>
-        <a href="/ebook/">The Book</a>
-        <a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a>
-        <a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a>
-        <a href="/boards/">Board Library</a>
-        <a href="/holidays/">Holiday Hub</a>
-        <a href="/party-planner/">Party Planner</a>
-        <a href="/board-builder/">Board Builder</a>
-        <a href="/ingredients/">Ingredients</a>
-        <a href="/pairings/">Pairings Hub</a>
-        <a href="/dietary/">Dietary Hub</a>
-        <a href="/blog/">Blog</a>
-        <a href="/shop/">Shop</a>
-        <a href="/#newsletter">Newsletter</a>
-        <a href="/about/">About</a>
-        <a href="/privacy/">Privacy</a>
+      <div class="footer-links footer-cols">
+        <div><p class="footer-h">Plan a board</p><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a><a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
+        <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
+        <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/#newsletter">Newsletter</a><a href="/about/">About</a></div>
+        <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
     </div>
@@ -1589,7 +1594,7 @@ function labNext(campaign, { skip = [], heading = "Keep going" } = {}) {
   if (!skip.includes("ingredients")) cards.push(pitchCard(ingredientsPitch, "ingredients"));
   const book = skip.includes("book")
     ? ""
-    : `<div class="lab-next-book">
+    : `<!--lnb--><div class="lab-next-book">
       <img src="${thumb("/images/book-3d-mockup.webp")}" alt="${bookTitle}" width="320" height="320" loading="lazy" decoding="async">
       <div>
         <p class="eyebrow">The Book</p>
@@ -1597,7 +1602,7 @@ function labNext(campaign, { skip = [], heading = "Keep going" } = {}) {
         <p>Every board comes with a shopping list, the pairing logic behind it, substitutions and the order to build it in. ${bookFormatsLine}</p>
         ${bookButtons(campaign)}
       </div>
-    </div>`;
+    </div><!--/lnb-->`;
   return `<section class="lab-next" aria-label="${escapeHtml(heading)}">
     <div class="lab-next-inner">
     ${book}
@@ -1630,38 +1635,34 @@ function homePage(posts, products, boardStrip = "") {
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
     head: siteSchema(),
-    description: `Charcuterie Lab: 50 board blueprints built by science. Ebook ${ebookPrice} on Gumroad, paperback ${paperbackPrice} on Amazon. Plus a free Board Builder and ingredient library.`,
+    description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
     body: `<main>
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <p class="hero-kicker">The Book</p>
-        <h1>50 Charcuterie Boards, Built by Science</h1>
-        <p>Shopping lists, pairing logic, substitutions and a build order for every board, so you can repeat them, not just admire them.</p>
-        <ul class="hero-points" aria-label="What is included">
-          <li>50 board plans</li>
-          <li>Shopping lists</li>
-          <li>Pairing science</li>
-        </ul>
-        <div class="hero-editions">
-          <a class="hero-edition hero-edition-ebook" href="${ebookHref("home_hero")}" target="_blank" rel="noopener">
-            <span class="hero-edition-label">Ebook</span>
-            <strong>${ebookPrice}</strong>
-            <span>Instant PDF download · Gumroad</span>
-          </a>
-          <a class="hero-edition hero-edition-print" href="${paperbackUrl}" target="_blank" rel="noopener">
-            <span class="hero-edition-label">Paperback</span>
-            <strong>${paperbackPrice}</strong>
-            <span>259 pages, full colour · Amazon</span>
-          </a>
+  <section class="hero home-intent">
+    <div class="home-intent-inner">
+      <p class="hero-kicker">Charcuterie Lab</p>
+      <h1>Plan it, shop it, build it: charcuterie boards that work</h1>
+      <p class="home-intent-lede">How much to buy, which brands are worth it and what goes with what, worked out with real pairing science. Start with what you need right now.</p>
+      <div class="home-intent-grid">
+        <div class="home-intent-card">
+          <p class="home-intent-k">I'm hosting soon</p>
+          <h2><a href="/party-planner/">How much should I buy?</a></h2>
+          <p>Meat, cheese, crackers and a timeline for your guest count.</p>
+          <div class="home-intent-chips">${[8, 12, 20, 30].map((n) => `<a href="/party-planner/charcuterie-board-for-${n}-people/">${n} people</a>`).join("")}</div>
+          <a class="button primary" href="/party-planner/">Open the Party Planner</a>
         </div>
-        <p class="hero-more"><a href="${ebookPageUrl}">See what's inside the book &rarr;</a></p>
-      </div>
-      <div class="hero-art" aria-label="Charcuterie Lab book">
-        <div class="book-tilt">
-          <div class="book-object book-mockup">
-            <img class="book" src="/images/book-3d-mockup.webp" alt="Charcuterie Lab book mockup" width="640" height="640" fetchpriority="high">
-          </div>
+        <div class="home-intent-card">
+          <p class="home-intent-k">I'm at the store</p>
+          <h2><a href="/blog/best-charcuterie-brands/">What should I buy?</a></h2>
+          <p>The best brand of ${BEST_COUNT || 50} board staples, ranked, plus picks at Costco, Aldi and Trader Joe's.</p>
+          <div class="home-intent-chips"><a href="/blog/best-charcuterie-brands/?c=cheese#finder">Cheese</a><a href="/blog/best-charcuterie-brands/?c=meat#finder">Cured meat</a><a href="/blog/best-charcuterie-brands/?c=crackers#finder">Crackers</a><a href="/blog/best-charcuterie-brands/?c=stores#finder">By store</a></div>
+          <a class="button primary" href="/blog/best-charcuterie-brands/">See the best buys</a>
+        </div>
+        <div class="home-intent-card">
+          <p class="home-intent-k">I'm building the board</p>
+          <h2><a href="/pairings/">What goes with ___?</a></h2>
+          <form class="home-intent-search" action="/search/" method="get" role="search"><label class="sr-only" for="home-q">What goes with</label><input id="home-q" name="q" type="search" placeholder="brie, prosciutto, pinot noir..." autocomplete="off"><button class="button" type="submit">Find</button></form>
+          <div class="home-intent-chips"><a href="/pairings/food/brie/">Brie</a><a href="/pairings/food/prosciutto-di-parma/">Prosciutto</a><a href="/pairings/wine-and-cheese-chart/">Wine chart</a></div>
+          <a class="button primary" href="/pairings/">Open the Pairings Hub</a>
         </div>
       </div>
     </div>
@@ -1670,6 +1671,21 @@ function homePage(posts, products, boardStrip = "") {
   <!--offer-top-->
 
   ${boardStrip}
+
+  ${HOME_BEST}
+
+  <section class="section home-book" aria-label="The Charcuterie Lab book">
+    <div class="section-inner home-book-inner">
+      <img src="${thumb("/images/book-3d-mockup.webp")}" alt="Charcuterie Lab book mockup" width="320" height="320" loading="lazy" decoding="async">
+      <div>
+        <p class="section-kicker">The Book</p>
+        <h2 class="section-title">50 Charcuterie Boards, Built by Science</h2>
+        <p>Shopping lists, pairing logic, substitutions and a build order for every board, so you can repeat them, not just admire them. ${bookFormatsLine}</p>
+        ${bookButtons("home_book")}
+        <p class="hero-more"><a href="${ebookPageUrl}">See what's inside the book &rarr;</a></p>
+      </div>
+    </div>
+  </section>
 
   <section class="section lab-free" aria-label="Free from the Lab">
     <div class="section-inner">
@@ -2383,6 +2399,10 @@ let PRINTABLES = null;
 // Gumroad-first offers (scripts/offers.mjs): set in build(), injected into every page after it.
 let OFFERS = null;
 let OFFER_CTX = () => ({});
+// Brand guide slug -> "Put the winners to work" block (set in build()).
+let BEST_NEXT = new Map();
+let HOME_BEST = "";
+let BEST_COUNT = 0;
 
 // Blog post body: the matched book card goes after the first section (the
 // reader gets the answer first), the Board Builder promo moves to the middle,
@@ -2406,6 +2426,43 @@ function funnelPostBody(html, post, bookBoard) {
   return parts.join("");
 }
 
+// Best buys finder (12 Oct 2026): the buying-guides hub opens with every guide
+// as a card, filterable by category or store and searchable. Built from the
+// hub's own tables, so a new guide shows up once it has a row there.
+const BEST_CATS = [
+  [/cheese/i, "cheese", "Cheese and butter"], [/meat|fish/i, "meat", "Cured meat"], [/cracker|chip|pretzel/i, "crackers", "Crackers and chips"],
+  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/store/i, "stores", "Store guides"]
+];
+function bestFinder(hub, postsBySlug) {
+  const cards = [];
+  let cat = null;
+  for (const line of String(hub.body || "").split("\n")) {
+    const h = line.match(/^##\s+(.+)/);
+    if (h) { const c = BEST_CATS.find(([re]) => re.test(h[1])); cat = c && !/value|rank|work/i.test(h[1]) ? c : null; continue; }
+    const row = cat && line.match(/^\|\s*\[([^\]]+)\]\(\/blog\/([^/)]+)\/\)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/);
+    if (!row) continue;
+    const post = postsBySlug.get(row[2]);
+    if (!post) continue;
+    const name = row[1].replace(/^(The )?Best /, "").replace(/ (for a|at the|by|for) .*$/i, "").replace(/^Store-Bought /, "").replace(/^Jarred /, "").replace(/ Brands$/, "");
+    cards.push({ slug: row[2], cat: cat[1], name, title: row[1], pick: row[3].replace(/\s*\(best cheese\)/, ""), rating: row[4], image: post.image });
+  }
+  if (!cards.length) return "";
+  const cats = BEST_CATS.filter(([, k]) => cards.some((c) => c.cat === k));
+  return `<section class="best-finder" id="finder" aria-label="Find a buying guide">
+  <h2 class="best-finder-h">Find the best brand of anything on a board</h2>
+  <div class="best-finder-tools">
+    <label class="sr-only" for="best-q">Search the buying guides</label>
+    <input id="best-q" type="search" placeholder="Search: brie, salami, Costco..." autocomplete="off">
+    <div class="best-chips" role="group" aria-label="Filter by category"><button type="button" data-c="" aria-pressed="true">All ${cards.length}</button>${cats.map(([, k, label]) => `<button type="button" data-c="${k}" aria-pressed="false">${label}</button>`).join("")}</div>
+  </div>
+  <ul class="best-grid">
+${cards.map((c) => `    <li data-c="${c.cat}" data-q="${escapeHtml(`${c.title} ${c.pick}`.toLowerCase())}"><a href="/blog/${c.slug}/"><img src="${escapeHtml(thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><span class="best-name">${escapeHtml(c.name)}</span><span class="best-pick">#1: ${escapeHtml(c.pick)}</span><span class="best-rate">${escapeHtml(c.rating)}</span></a></li>`).join("\n")}
+  </ul>
+  <p class="best-none" hidden>No guide for that yet. Try the <a href="/ingredients/">ingredient library</a>.</p>
+  <script>(function(){var s=document.getElementById("finder");if(!s)return;var q=s.querySelector("#best-q"),bs=s.querySelectorAll(".best-chips button"),li=s.querySelectorAll(".best-grid li"),none=s.querySelector(".best-none"),c="";function run(){var v=q.value.trim().toLowerCase(),n=0;li.forEach(function(x){var ok=(!c||x.dataset.c===c)&&(!v||x.dataset.q.indexOf(v)>=0);x.hidden=!ok;if(ok)n++});none.hidden=n>0}function set(k){c=k;bs.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===k?"true":"false")});run()}bs.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.c)})});q.addEventListener("input",run);try{var p=new URLSearchParams(location.search).get("c");if(p)set(p)}catch(e){}})();</script>
+</section>`;
+}
+
 function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null, pairPlate = "") {
   const date = new Intl.DateTimeFormat("en", {
     month: "long",
@@ -2425,6 +2482,17 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   ), String(post.body || "").split(/\s+/).length);
 
   const description = metaDescription(post);
+  // Buying-guides hub: the finder comes before the table of contents.
+  let bodyHtml = postHtml;
+  {
+    const toc = bodyHtml.match(/<nav class="post-toc"[\s\S]*?<\/nav><script>[\s\S]*?<\/script>/);
+    const fd = bodyHtml.indexOf('<section class="best-finder"');
+    if (toc && fd > toc.index) {
+      bodyHtml = bodyHtml.replace(toc[0], "");
+      const fe = bodyHtml.indexOf("</section>", bodyHtml.indexOf('<section class="best-finder"')) + 10;
+      bodyHtml = bodyHtml.slice(0, fe) + toc[0] + bodyHtml.slice(fe);
+    }
+  }
 
   return layout({
     title: pageTitle(post.seoTitle || post.title),
@@ -2447,8 +2515,9 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   <!--offer-top-->
   ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   <article class="post-body">
-    ${postHtml}
+    ${bodyHtml}
   </article>
+  ${BEST_NEXT.get(post.slug) || ""}
   ${board ? `<aside class="post-cta bl-post-link"><p>Want the full plan? See the ${escapeHtml(board.h1)}: what to buy, why it works and a timeline, plus a one-tap shopping list for your guest count.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board plan</a></aside>` : ""}
   ${pairPlate}
   ${relatedReading(relatedPosts)}
@@ -2547,6 +2616,22 @@ async function build() {
   posts.forEach((post) => {
     post.html = markdownToHtml(post.body);
   });
+  {
+    const hub = posts.find((p) => p.slug === "best-charcuterie-brands");
+    const finder = hub ? bestFinder(hub, new Map(posts.map((p) => [p.slug, p]))) : "";
+    if (finder) { const i = hub.html.indexOf("</blockquote>"); hub.html = i > 0 ? hub.html.slice(0, i + 13) + finder + hub.html.slice(i + 13) : finder + hub.html; }
+    if (finder) {
+      BEST_COUNT = (finder.match(/<li data-c="(?!stores)/g) || []).length;
+      const want = ["best-brie-brands", "best-salami-brands", "best-fig-jam", "best-crackers-for-charcuterie", "best-costco-charcuterie-items", "best-cheddar-brands"];
+      const lis = want.map((s) => (finder.match(new RegExp(`<li data-c="[^"]*" data-q="[^"]*"><a href="/blog/${s}/">[\\s\\S]*?</li>`)) || [])[0]).filter(Boolean);
+      HOME_BEST = `<section class="section home-best" aria-labelledby="home-best-h"><div class="section-inner">
+      <p class="section-kicker">Best buys</p>
+      <h2 class="section-title" id="home-best-h">The brands worth buying</h2>
+      <ul class="best-grid">${lis.join("")}</ul>
+      <div class="section-link"><a class="text-link" href="/blog/best-charcuterie-brands/">All the buying guides &rarr;</a></div>
+    </div></section>`;
+    }
+  }
   if (linkIndex.held.size) {
     const list = [...linkIndex.held].map(([slug, n]) => `${slug}${n > 1 ? ` x${n}` : ""}`).join(", ");
     console.log(`Blog links shown as plain text until their post is live (${linkIndex.held.size}): ${list}`);
@@ -2602,7 +2687,7 @@ async function build() {
       { key: "plant", path: "/books/plant-based-charcuterie-boards/", title: PLANT_BOOK.title, short: "15 Plant-Based Boards", line: "15 vegan boards with no meat and no dairy, each with a shopping list, a blueprint and the pairing science.", cover: PLANT_BOOK.cover, ebookUrl: PLANT_BOOK.ebookUrl, ebookPrice: PLANT_BOOK.ebookPrice, paperbackUrl: PLANT_BOOK.paperbackUrl, paperbackPrice: PLANT_BOOK.paperbackPrice, pages: 77 }
     ];
     const out = bookLandingPages({ layout, escapeHtml, withTracking, jsonForScript, absoluteUrl, authorRef }, { keto: await rd("keto.json"), two: await rd("boards-for-two.json"), plant: (await Promise.all((await readdir(join(root, "content", "boards"))).filter((f) => f.endsWith(".json")).map(async (f) => JSON.parse(await readFile(join(root, "content", "boards", f), "utf8"))))).filter((b) => b.book === "plant"), books: list });
-    return out.filter((x) => !["/ebook/", "/around-the-world/"].includes(x.path));
+    return out.filter((x) => !["/ebook/", "/around-the-world/", "/books/"].includes(x.path));
   })();
 
   // Gift guide (/gifts/): paperback is the main button on these pages.
@@ -2621,7 +2706,7 @@ async function build() {
   // Dietary Hub index: also sets item.diets, which the Board Builder data
   // reads. Throws if any ingredient is missing a diet verdict.
   const dietIdx = dietData && ingredients.length ? dietaryIndex(dietData, ingredients, boards) : null;
-  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), { loc: "/printables/", priority: "0.8" }, ...BOOK_PAGES.map((x) => ({ loc: x.path, priority: "0.9" })), ...GIFT_PAGES.map((x) => ({ loc: x.path, priority: "0.8" })), { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
+  await writeFile(join(dist, "sitemap.xml"), sitemap(posts, ingredients, boards, holidays, [...pairingUrls(pairIdx), ...dietaryUrls(dietIdx), ...BOOK_PAGES.map((x) => ({ loc: x.path, priority: "0.9" })), ...GIFT_PAGES.map((x) => ({ loc: x.path, priority: "0.8" })), { loc: "/party-planner/", priority: "0.9" }, ...PARTY_COUNTS.map((n) => ({ loc: partyUrl(n), priority: "0.8" })), ...products.map((p) => ({ loc: `/printables/${p.slug}/`, priority: "0.7" }))]));
   await mkdir(join(dist, "ebook"), { recursive: true });
   await writeFile(join(dist, "ebook", "index.html"), ebookPage());
   for (const bp of BOOK_PAGES) {
@@ -2634,10 +2719,11 @@ async function build() {
   }
   await mkdir(join(dist, "blog"), { recursive: true });
   await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
+  // One Shop (12 Oct 2026): /shop/ is the old printables landing plus a Start
+  // here row; /printables/ and /books/ redirect to it (netlify.toml).
   await mkdir(join(dist, "shop"), { recursive: true });
-  await writeFile(join(dist, "shop", "index.html"), shopPage(products));
+  await writeFile(join(dist, "shop", "index.html"), PRINTABLES.landing(BOOK_BOARDS));
   await mkdir(join(dist, "printables"), { recursive: true });
-  await writeFile(join(dist, "printables", "index.html"), PRINTABLES.landing(BOOK_BOARDS));
   for (const product of products) {
     await mkdir(join(dist, "printables", product.slug), { recursive: true });
     await writeFile(join(dist, "printables", product.slug, "index.html"), PRINTABLES.productPage(product));
@@ -2687,6 +2773,34 @@ async function build() {
       if (listedBy.get(post.slug) >= 3) break;
       relatedFor.get(h.slug).push(post);
       listedBy.set(post.slug, listedBy.get(post.slug) + 1);
+    }
+  }
+  // Brand guides end with a next step (12 Oct 2026): boards that use the
+  // ingredient, its pairing guide, and how much to buy.
+  {
+    const ingBy = new Map(ingredients.map((i) => [i.slug, i]));
+    const guideIngs = new Map();
+    for (const i of ingredients) for (const m of String(i.body || "").matchAll(/\/blog\/(best-[a-z0-9-]+)\//g)) {
+      if (!guideIngs.has(m[1])) guideIngs.set(m[1], []);
+      if (!guideIngs.get(m[1]).includes(i.slug)) guideIngs.get(m[1]).push(i.slug);
+    }
+    const STORE_POSTS = { "best-costco-charcuterie-items": "costco-charcuterie-board", "best-trader-joes-cheeses": "trader-joes-charcuterie-board", "best-aldi-charcuterie-items": "budget-charcuterie-board", "best-walmart-charcuterie-items": "budget-charcuterie-board" };
+    const postSet = new Set(posts.map((p) => p.slug));
+    const titleOf = new Map(posts.map((p) => [p.slug, p.title]));
+    for (const post of posts.filter((p) => /^best-/.test(p.slug) && p.slug !== "best-charcuterie-brands")) {
+      const ings = (guideIngs.get(post.slug) || []).filter((s) => ingBy.has(s));
+      const seen = new Set();
+      const bds = ings.flatMap((s) => boardsUsing.get(s) || []).filter((b) => !seen.has(b.slug) && seen.add(b.slug)).slice(0, 2);
+      const items = [];
+      bds.forEach((b) => items.push(`<a href="/boards/${b.slug}/"><span class="bn-k">Board plan</span><strong>${escapeHtml(b.h1 || b.title)}</strong><span>What to buy, why it works and a timeline</span></a>`));
+      const st = STORE_POSTS[post.slug];
+      if (st && postSet.has(st)) items.push(`<a href="/blog/${st}/"><span class="bn-k">Shopping list</span><strong>${escapeHtml(titleOf.get(st))}</strong><span>The whole cart, with prices</span></a>`);
+      if (ings[0]) items.push(`<a href="/ingredients/${ings[0]}/"><span class="bn-k">Pairing guide</span><strong>What goes with ${escapeHtml(ingBy.get(ings[0]).title.toLowerCase().replace(/^\w/, (c) => c.toUpperCase()))}</strong><span>Pairings, prep and how to serve it</span></a>`);
+      items.push(`<a href="/party-planner/"><span class="bn-k">Free tool</span><strong>How much to buy</strong><span>Amounts for 4 to 100 guests</span></a>`);
+      BEST_NEXT.set(post.slug, `<section class="best-next" aria-labelledby="best-next-h">
+    <h2 id="best-next-h">Put the winners to work</h2>
+    <div class="best-next-grid">${items.slice(0, 4).join("")}</div>
+  </section>`);
     }
   }
   await Promise.all(
@@ -2859,6 +2973,39 @@ async function build() {
     console.log(`Board builder: ${builder.stats.items} ingredients, ${builder.stats.notes} pairing notes, ${builder.stats.prep} prep guides`);
   }
 
+  // Topic hubs (12 Oct 2026): where one ingredient has an ingredient page plus
+  // a pairing page, a buying guide or a blog deep dive, every one of those
+  // pages carries the same "Everything on X" strip, so readers (and Google)
+  // see the ingredient page as the hub and can move between the parts.
+  if (ingredients.length) {
+    const blogSet = new Set(posts.map((p) => p.slug));
+    let strips = 0;
+    for (const item of ingredients) {
+      const parts = [[`/ingredients/${item.slug}/`, "Ingredient guide"]];
+      if (existsSync(join(dist, "pairings", "food", item.slug, "index.html"))) parts.push([`/pairings/food/${item.slug}/`, "What goes with it"]);
+      for (const g of new Set([...String(item.body || "").matchAll(/\/blog\/(best-[a-z0-9-]+)\//g)].map((m) => m[1]))) if (blogSet.has(g)) parts.push([`/blog/${g}/`, parts.some(([, l]) => l.startsWith("Best brands")) ? "More best buys" : "Best brands"]);
+      const bp = String(item.board_post || item.boardPost || "").match(/^\/blog\/([^/]+)\//);
+      if (bp && blogSet.has(bp[1]) && !/^best-/.test(bp[1])) parts.push([`/blog/${bp[1]}/`, /pairing/.test(bp[1]) ? "Signature pairing" : "Deep dive"]);
+      if (blogSet.has(`${item.slug}-charcuterie-board`)) parts.push([`/blog/${item.slug}-charcuterie-board/`, "Board ideas"]);
+      if (parts.length < 3) continue;
+      for (const [path] of parts) {
+        const file = join(dist, path, "index.html");
+        if (!existsSync(file)) continue;
+        let html = await readFile(file, "utf8");
+        if (html.includes('class="topic-strip"')) continue;
+        const strip = `<nav class="topic-strip" aria-label="Everything on ${escapeHtml(item.title)}"><span class="ts-k">Everything on ${escapeHtml(item.title)}</span>${parts.map(([href, label]) => (href === path ? `<span class="ts-cur" aria-current="page">${label}</span>` : `<a href="${href}">${label}</a>`)).join("")}</nav>`;
+        let at = -1;
+        if (path.startsWith("/blog/")) at = html.indexOf('<article class="post-body"');
+        else { const hs = html.indexOf(path.startsWith("/ingredients/") ? '<header class="ing-header"' : '<header class="pr-food-hero"'); at = hs >= 0 ? html.indexOf("</header>", hs) + 9 : -1; }
+        if (at < 9) continue;
+        html = html.slice(0, at) + strip + html.slice(at);
+        await writeFile(file, html);
+        strips++;
+      }
+    }
+    console.log(`Topic hubs: ${strips} strips`);
+  }
+
   const feed = posts
     .map((post) => `- ${post.date} ${post.title} /blog/${post.slug}/`)
     .join("\n");
@@ -2919,10 +3066,10 @@ function llmsTxt(pages) {
     ...guides.map((u) => line(u)).filter(Boolean),
     "",
     "## Sections",
-    line("/ingredients/"), line("/boards/"), line("/holidays/"), line("/blog/"), line("/printables/"),
+    line("/ingredients/"), line("/boards/"), line("/holidays/"), line("/blog/"), line("/shop/"),
     "",
     "## Books",
-    line("/books/"), line("/ebook/"), line("/around-the-world/"), line("/books/keto-charcuterie-boards/"), line("/books/boards-for-two/"), line("/books/plant-based-charcuterie-boards/"),
+    line("/ebook/"), line("/around-the-world/"), line("/books/keto-charcuterie-boards/"), line("/books/boards-for-two/"), line("/books/plant-based-charcuterie-boards/"),
     `- [Charcuterie gift guide](${siteUrl}/gifts/): board books, gifts under $25, stocking stuffers, white elephant, hostess and housewarming gifts, and gifts for cheese, wine, keto and vegan lovers`,
     "",
     "## About",

@@ -106,7 +106,7 @@ const GUIDES = [
       ["What book should I get someone who wants to make their own salami?", "Charcuterie: The Craft of Salting, Smoking, and Curing by Michael Ruhlman and Brian Polcyn. It covers curing, smoking and sausage-making at home. Board books like ours are about buying and serving, not curing."],
       ["Do you have a charcuterie book for vegans?", "Yes: 15 Show-Stopping Plant-Based Boards has fifteen boards with no meat and no dairy, each with a shopping list and a step-by-step build."]
     ],
-    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["All our books", "/books/"]]
+    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["All our books", "/shop/#ebooks"]]
   },
   {
     slug: "under-25",

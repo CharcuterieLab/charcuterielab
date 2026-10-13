@@ -2996,6 +2996,18 @@
 848,
 1264
 ],
+"/images/leads/best-buys-top-picks.webp": [
+480,
+621
+],
+"/images/leads/holiday-board-countdown.webp": [
+480,
+621
+],
+"/images/leads/pairing-cheat-sheet.webp": [
+480,
+621
+],
 "/images/make-charcuterie-board-night-before.png": [
 2816,
 1244
@@ -9536,6 +9548,18 @@
 240,
 358
 ],
+"/images/thumbs/leads__best-buys-top-picks-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__holiday-board-countdown-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__pairing-cheat-sheet-webp-s.webp": [
+240,
+310
+],
 "/images/thumbs/make-charcuterie-board-night-before-png-l.webp": [
 1100,
 486
@@ -13779,6 +13803,15 @@
 "/images/layout-reference.jpg": {
 "m": "/images/thumbs/layout-reference-jpg-m.webp",
 "s": "/images/thumbs/layout-reference-jpg-s.webp"
+},
+"/images/leads/best-buys-top-picks.webp": {
+"s": "/images/thumbs/leads__best-buys-top-picks-webp-s.webp"
+},
+"/images/leads/holiday-board-countdown.webp": {
+"s": "/images/thumbs/leads__holiday-board-countdown-webp-s.webp"
+},
+"/images/leads/pairing-cheat-sheet.webp": {
+"s": "/images/thumbs/leads__pairing-cheat-sheet-webp-s.webp"
 },
 "/images/make-charcuterie-board-night-before.png": {
 "l": "/images/thumbs/make-charcuterie-board-night-before-png-l.webp",

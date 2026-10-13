@@ -389,7 +389,7 @@ export function makePrintables(h, products) {
       head: `  <script type="application/ld+json">${h.jsonForScript(productSchema(p))}</script>
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
       body: `<main class="fx-product">
-  <nav class="fx-crumbs" aria-label="Breadcrumb"><a href="/shop/">Shop</a> / <a href="/printables/">Printables</a> / ${esc(p.title)}</nav>
+  <nav class="fx-crumbs" aria-label="Breadcrumb"><a href="/shop/">Shop</a> / <a href="/shop/#printables">Printables</a> / ${esc(p.title)}</nav>
   <section class="fx-product-hero">
     <img src="${esc(p.image)}" alt="${esc(p.title)}: printable PDF cover" width="480" height="480">
     <div>
@@ -434,22 +434,54 @@ export function makePrintables(h, products) {
       ["What's the difference between the printables and the book?", "Each printable is one focused tool: a pairing chart, a cheese card or one complete board plan. The book is 50 complete boards in the same format."],
       ["How do I download them?", "Checkout is on Gumroad. The download link arrives by email straight away."]
     ];
+    // One Shop (12 Oct 2026): this page is /shop/. /printables/ and /books/
+    // 301 here. Start here first, then ebooks, printables, single boards, free.
+    const eb = h.ebooks || [];
+    const startPicks = [
+      eb[0] && { tag: "Everything", title: eb[0].title, line: "All 50 boards, each with a shopping list, a timed build and swaps. The best value per board.", img: eb[0].cover, price: eb[0].price, page: eb[0].page, url: eb[0].url, kind: "Ebook" },
+      ...["classic-entertaining-board-blueprint", "spend-smart-board-plan"].map((s) => products.find((p) => p.slug === s)).filter(Boolean).map((p, i) => ({ tag: i === 0 ? "One board, fully planned" : "Under $5", title: p.title, line: p.hook, img: p.image, price: p.priceShort || p.price, page: `/printables/${p.slug}/`, url: p.url, kind: "Printable PDF" }))
+    ].filter(Boolean);
     return h.layout({
-      title: "Printable Charcuterie Shopping Lists, Charts & Templates",
-      canonical: "/printables/",
+      title: "Shop Charcuterie Printables, Shopping Lists & Ebooks",
+      canonical: "/shop/",
       image: products[0].image,
       description: `Printable charcuterie board shopping lists, cheese and pairing guides, holiday board plans and planners. Instant PDF downloads from ${cheapest}, plus free samples.`,
       head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab printables", itemListElement: products.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/printables/${p.slug}/`), name: p.title })) })}</script>
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
       body: `<main class="fx-printables">
   <header class="fx-p-hero">
-    <p class="section-kicker">Printables</p>
-    <h1>Printable charcuterie board shopping lists, charts and templates</h1>
+    <p class="section-kicker">Shop</p>
+    <h1>Charcuterie printables, shopping lists and ebooks</h1>
     <p>Instant PDF downloads from ${esc(cheapest)}. Print it, take it to the store and build from it. Checkout is on Gumroad and the download link arrives by email straight away.</p>
     <p class="fx-p-trust">Made by Jimmy Wilson at Charcuterie Lab · 30-day refund on every PDF · Print as often as you like</p>
   </header>
-  <section class="fx-p-paid" aria-labelledby="fx-paid">
-    <h2 id="fx-paid">Printable PDFs</h2>
+  <nav class="shop-jump" aria-label="Shop sections"><a href="#start">Start here</a><a href="#ebooks">Ebooks</a><a href="#printables">Printables</a>${singles.length ? '<a href="#singles">Single boards</a>' : ""}<a href="#free">Free</a></nav>
+  ${startPicks.length ? `<section class="shop-start" id="start" aria-labelledby="shop-start-h">
+    <h2 id="shop-start-h">Not sure where to start?</h2>
+    <div class="shop-start-grid">
+      ${startPicks.map((s, i) => `<article class="shop-start-card">
+        <a href="${s.page}"><img src="${esc((h.thumb || ((x) => x))(s.img))}" alt="" width="200" height="200" loading="lazy" decoding="async"></a>
+        <div><p class="eyebrow">${esc(s.tag)}</p>
+        <h3><a href="${s.page}">${esc(s.title)}</a></h3>
+        <p>${esc(s.line)}</p>
+        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(s.url, `shop_start_${i + 1}`))}" target="_blank" rel="noopener">${s.kind === "Ebook" ? "Get the ebook" : "Get it"} · ${esc(s.price)}</a><a class="fx-more" href="${s.page}">What's inside &rarr;</a></div></div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : ""}
+  ${(h.ebooks || []).length ? `<section class="fx-p-paid fx-p-ebooks" id="ebooks" aria-labelledby="fx-ebooks">
+    <h2 id="fx-ebooks">Ebooks and paperbacks: every board fully planned</h2>
+    <div class="fx-p-grid">
+      ${h.ebooks.map((b) => `<article class="fx-p-card">
+        <a href="${b.page}"><img src="${esc((h.thumb || ((x) => x))(b.cover))}" alt="${esc(b.title)} cover" width="320" height="414" loading="lazy" decoding="async"></a>
+        <p class="eyebrow">Ebook · ${esc(b.price)} · instant PDF</p>
+        <h3><a href="${b.page}">${esc(b.title)}</a></h3>
+        <p>${esc(b.line)}</p>
+        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.url, "printables_hub_ebook"))}" target="_blank" rel="noopener">Get the ebook · ${esc(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${esc(b.paperbackUrl)}" target="_blank" rel="noopener">${esc(b.altLabel || "Paperback on Amazon")}${b.paperbackPrice ? ` · ${esc(b.paperbackPrice)}` : ""}</a>` : ""}</div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : ""}
+  <section class="fx-p-paid" id="printables" aria-labelledby="fx-paid">
+    <h2 id="fx-paid">Printable plans and guides</h2>
     ${GROUPS.map((g) => [g, products.filter((p) => (p.group || "More printables") === g)]).filter(([, ps]) => ps.length).map(([g, ps]) => `<h3 class="fx-p-group">${esc(g)}</h3>
     <div class="fx-p-grid">
       ${ps.map((p) => `<article class="fx-p-card">
@@ -461,7 +493,7 @@ export function makePrintables(h, products) {
       </article>`).join("\n      ")}
     </div>`).join("\n    ")}
   </section>
-  ${singles.length ? `<section class="fx-p-paid fx-p-singles" aria-labelledby="fx-singles">
+  ${singles.length ? `<section class="fx-p-paid fx-p-singles" id="singles" aria-labelledby="fx-singles">
     <h2 id="fx-singles">Single board plans: ${esc(singles[0].single.price)} each</h2>
     <p class="fx-p-sub">One complete board from the book as a 5-page printable: exact shopping list with amounts and prices, step-by-step build, swaps and upgrades. Like it? Your receipt has a code for ${esc(singles[0].single.price)} off the full book.</p>
     <div class="fx-p-grid fx-p-single-grid">
@@ -474,19 +506,8 @@ export function makePrintables(h, products) {
       </article>`).join("\n      ")}
     </div>
   </section>` : ""}
-  ${(h.ebooks || []).length ? `<section class="fx-p-paid fx-p-ebooks" aria-labelledby="fx-ebooks">
-    <h2 id="fx-ebooks">Ebooks: every board fully planned</h2>
-    <div class="fx-p-grid">
-      ${h.ebooks.map((b) => `<article class="fx-p-card">
-        <a href="${b.page}"><img src="${esc((h.thumb || ((x) => x))(b.cover))}" alt="${esc(b.title)} cover" width="320" height="414" loading="lazy" decoding="async"></a>
-        <p class="eyebrow">Ebook · ${esc(b.price)} · instant PDF</p>
-        <h3><a href="${b.page}">${esc(b.title)}</a></h3>
-        <p>${esc(b.line)}</p>
-        <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.url, "printables_hub_ebook"))}" target="_blank" rel="noopener">Get the ebook · ${esc(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${esc(b.paperbackUrl)}" target="_blank" rel="noopener">${esc(b.altLabel || "Paperback on Amazon")}${b.paperbackPrice ? ` · ${esc(b.paperbackPrice)}` : ""}</a>` : ""}</div>
-      </article>`).join("\n      ")}
-    </div>
-  </section>` : ""}
-  <section class="fx-p-free" aria-labelledby="fx-free">
+
+  <section class="fx-p-free" id="free" aria-labelledby="fx-free">
     <h2 id="fx-free">Free printables</h2>
     <div class="fx-p-free-grid">
       <article class="fx-p-free-card fx-p-sample">

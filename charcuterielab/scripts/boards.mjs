@@ -3,6 +3,7 @@
 // are built, listed and put in the sitemap; drafts wait for their wave.
 import { access, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { plan as partyPlan, COUNTS as PARTY_COUNTS_B, urlFor as partyUrlB } from "./party.mjs";
 
 export const BOARD_CATEGORIES = [
   { slug: "seasonal-holiday", name: "Seasonal & Holiday", intro: "Boards for the dates on the calendar: Thanksgiving, the holidays, New Year's Eve and every season in between." },
@@ -357,6 +358,37 @@ function firstPairing(board, notes, bySlug) {
   return null;
 }
 
+// Free amounts (12 Oct 2026): boards with a cheese group and a meat group show
+// how much to buy for the middle of their serving range, from the same
+// 2/3/4 oz rule as the Party Planner. The book and the $3 plan keep the
+// exact shopping list, prices and placement.
+function boardAmounts(h, b) {
+  const cheeseG = b.groups.filter((g) => /^chees/i.test(g.name));
+  const meatG = b.groups.filter((g) => /meat/i.test(g.name));
+  if (!cheeseG.length || !meatG.length) return "";
+  const nums = String(b.serves || "").match(/\d+/g);
+  if (!nums) return "";
+  const n = Math.max(2, Math.round(nums.map(Number).reduce((a, x) => a + x, 0) / nums.length));
+  const P = partyPlan(n, "main");
+  const nc = cheeseG.reduce((a, g) => a + g.items.length, 0);
+  const nm = meatG.reduce((a, g) => a + g.items.length, 0);
+  const each = (oz, k) => (k > 1 ? `, about ${Math.max(2, Math.round(oz / k))} oz of each of the ${k}` : "");
+  const near = PARTY_COUNTS_B.reduce((a, x) => (Math.abs(x - n) < Math.abs(a - n) ? x : a), PARTY_COUNTS_B[0]);
+  return `<div class="bl-amounts">
+        <h3>How much to buy for ${n} guests</h3>
+        <p class="bl-amounts-sub">When the board is the party food. Before a dinner, buy about a third less.</p>
+        <table><tbody>
+          <tr><th scope="row">Cheese</th><td>${P.cheese} in total${each(P.cheeseOz, nc)}</td></tr>
+          <tr><th scope="row">Meat</th><td>${P.meat} in total${each(P.meatOz, nm)}</td></tr>
+          <tr><th scope="row">Crackers and bread</th><td>${P.crackers[0]}–${P.crackers[1]} pieces</td></tr>
+          <tr><th scope="row">Fruit</th><td>${P.fruit}</td></tr>
+          <tr><th scope="row">Olives and pickles</th><td>${P.briny}</td></tr>
+          <tr><th scope="row">Nuts</th><td>${P.nuts}</td></tr>
+        </tbody></table>
+        <p class="bl-amounts-more">Different guest count? <a href="${partyUrlB(near)}">Party Planner for ${near} people</a>. Exact amounts per item, prices and where everything goes are in the full plan.</p>
+      </div>`;
+}
+
 export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const cat = catOf(b);
   const known = new Set(bySlug.keys());
@@ -400,7 +432,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       <div class="bl-groups">
         ${b.groups.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.items.map((i) => `<li>${item(i)}</li>`).join("")}</ul></div>`).join("\n        ")}
       </div>
-      <p class="bl-note">Amounts and prices for each item are in the book${boardSlugsFor(b).filter((s) => known.has(s)).length >= 5 ? ", or open the board in the Board Builder for amounts sized to your guest count" : ""}.</p>
+      ${boardAmounts(h, b) || `<p class="bl-note">Amounts and prices for each item are in the book${boardSlugsFor(b).filter((s) => known.has(s)).length >= 5 ? ", or open the board in the Board Builder for amounts sized to your guest count" : ""}.</p>`}
     </section>
 
     <section class="bl-section" aria-labelledby="bl-why">
