@@ -11,6 +11,7 @@
 //   "book:board" - the same book, sold as "Board #N is in the book" when the
 //                  page matches one of its 50 boards
 //   "book:world" - Around the World in 16 Boards
+import { existsSync } from "node:fs";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bhForm, CHEAT_IMG } from "./funnel.mjs";
@@ -87,7 +88,7 @@ const DEFAULT_LEAD = {
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
-const SKIP = /^\/(printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
+const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
 
 // FAQ written as paragraphs ("<p><strong>Question?</strong> answer</p>", a
@@ -200,11 +201,19 @@ export function makeOffers(h, products, books) {
   // remembers which PDF it promised and /thanks/cheat-sheet/ offers it next
   // to the cheat sheet. Made by scripts/lead-pdfs.py.
   const FREEBIES = {
-    best: { title: "Top Picks: the best brand of everything", line: "Our #1 pick from every buying guide on one printable list to take to the store, plus the cheat sheet and the weekly Lab Report.", img: "/images/leads/best-buys-top-picks.webp", label: "Download the Top Picks list (PDF)", pdf: "/downloads/best-buys-top-picks.pdf" },
-    holiday: { title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
-    pairing: { title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
+    best: { short: "Free: our #1 picks on one printable list", title: "Top Picks: the best brand of everything", line: "Our #1 pick from every buying guide on one printable list to take to the store, plus the cheat sheet and the weekly Lab Report.", img: "/images/leads/best-buys-top-picks.webp", label: "Download the Top Picks list (PDF)", pdf: "/downloads/best-buys-top-picks.pdf" },
+    holiday: { short: "Free holiday board countdown plans", title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
+    cheese: { short: "Free cheese counter card", title: "The Cheese Counter Card", line: "Take it shopping: how much cheese to buy, one pick from each texture, fridge-out times and what to ask at the counter. Plus the weekly Lab Report.", img: "/images/leads/cheese-counter-card.webp", label: "Download the Cheese Counter Card (PDF)", pdf: "/downloads/cheese-counter-card.pdf" },
+    pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
   };
-  function freebieFor(path) {
+  let DIST = "";
+  function freebieFor(path, ctx = {}) {
+    const bm = path.match(/^\/boards\/([^/]+)\/$/);
+    if (bm && DIST && existsSync(join(DIST, "downloads", "boards", `${bm[1]}-shopping-list.pdf`))) {
+      const name = String(ctx.title || "this board").replace(/&amp;/g, "&").replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/^The /, "");
+      return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
+    }
+    if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
     if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
     if (/^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
     if (/^\/pairings\//.test(path) || /^\/blog\/[^/]*(wine|pairing|beer|champagne|prosecco)/.test(path)) return FREEBIES.pairing;
@@ -261,14 +270,14 @@ export function makeOffers(h, products, books) {
     return before(h2s[0] ?? -1);
   }
 
-  function sticky(ctx, campaign, formId) {
-    const o = pick(ctx);
-    const label = o.type === "printable" ? o.title : o.boardN ? `Board #${o.boardN}, fully planned` : o.title;
-    // Pages with an email form: the bar offers the free cheat sheet and jumps
-    // to the form; it hides while any email form is on screen.
+  function sticky(ctx, campaign, formId, fb = null) {
+    // Newsletter first (12 Oct 2026): the phone bar always offers the free
+    // printable. It jumps to the page's email form, or to /newsletter/, and
+    // hides while any email form is on screen.
+    const what = fb ? fb.short : "Free cheat sheet: how much to buy";
     const link = formId
-      ? `<a href="#${esc(formId)}" data-fx-free><strong>Free cheat sheet: how much to buy</strong><span>Get it free</span></a>`
-      : `<a href="${esc(h.withTracking(o.url, campaign))}" target="_blank" rel="noopener"><strong>${esc(label)}</strong><span>${o.type === "printable" ? "PDF" : "Ebook"} ${esc(o.price)}</span></a>`;
+      ? `<a href="#${esc(formId)}" data-fx-free><strong>${esc(what)}</strong><span>Get it free</span></a>`
+      : `<a href="/newsletter/" data-fx-free><strong>${esc(what)}</strong><span>Get it free</span></a>`;
     return `<div class="fx-sticky" data-fx-sticky hidden>
     ${link}
     <button type="button" aria-label="Close" data-fx-close>&times;</button>
@@ -276,10 +285,30 @@ export function makeOffers(h, products, books) {
   <script>(function(){var b=document.querySelector("[data-fx-sticky]");if(!b)return;var k="fx-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");var vis=new Set();if(window.IntersectionObserver&&b.querySelector("[data-fx-free]")){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)});on()});document.querySelectorAll(".fx-bh-form").forEach(function(f){io.observe(f)})}function on(){var s=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight||1);b.hidden=!(mq.matches&&s>0.2&&s<0.97&&!vis.size)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
   }
 
+  // Slide-in signup (12 Oct 2026). Shown at most once per visit, at about
+  // half way down the page (or when the mouse heads for the tab bar on
+  // desktop), never while another email form is on screen, never for 7 days
+  // after it's closed, and never again after a signup (the thank-you page
+  // sets cl-sub). Small card bottom-right on desktop, bottom sheet on phones.
+  function slideIn(campaign, fb) {
+    const title = fb ? fb.title : "The Charcuterie Cheat Sheet";
+    const line = fb ? fb.short.replace(/^Free:? /i, "") : "how much to buy for any party, on two printable pages";
+    return `<aside class="fx-slide" data-fx-slide hidden aria-label="Free printable">
+    <button type="button" class="fx-slide-x" aria-label="Close" data-fx-slide-close>&times;</button>
+    <div class="fx-slide-head">
+      <img src="${esc(fb ? fb.img : CHEAT_IMG)}" alt="" width="56" height="72" loading="lazy" decoding="async">
+      <div><p class="fx-slide-k">Free printable</p><p class="fx-slide-t">${esc(title)}</p><p class="fx-slide-l">${esc(line.charAt(0).toUpperCase() + line.slice(1))}. Plus one board idea a week.</p></div>
+    </div>
+    ${bhForm("lead-slide", campaign, fb ? { label: fb.label, pdf: fb.pdf } : null)}
+  </aside>
+  <script>(function(){var s=document.querySelector("[data-fx-slide]");if(!s)return;try{if(localStorage.getItem("cl-sub"))return;var c=+localStorage.getItem("cl-slide-closed")||0;if(Date.now()-c<6048e5)return;if(sessionStorage.getItem("cl-slide-shown"))return}catch(e){}var shown=false,t0=Date.now(),vis=new Set();if(window.IntersectionObserver){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)})});document.querySelectorAll(".fx-bh-form").forEach(function(f){if(!s.contains(f))io.observe(f)})}function show(){if(shown||vis.size)return;shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add("is-in")});document.body.classList.add("fx-slide-on");try{sessionStorage.setItem("cl-slide-shown","1")}catch(e){}off()}function close(){s.classList.remove("is-in");document.body.classList.remove("fx-slide-on");setTimeout(function(){s.hidden=true},250);try{localStorage.setItem("cl-slide-closed",String(Date.now()))}catch(e){}}function sc(){var p=scrollY/((document.documentElement.scrollHeight-innerHeight)||1);if(p>0.5&&Date.now()-t0>8000)show()}function ex(e){if(!e.relatedTarget&&e.clientY<=0&&Date.now()-t0>8000)show()}function off(){removeEventListener("scroll",sc);document.removeEventListener("mouseout",ex)}addEventListener("scroll",sc,{passive:true});if(matchMedia("(pointer: fine)").matches)document.addEventListener("mouseout",ex);s.querySelector("[data-fx-slide-close]").addEventListener("click",close);document.addEventListener("keydown",function(e){if(e.key==="Escape"&&shown&&!s.hidden)close()})})();</script>`;
+  }
+
   // Put the matched offer into every built page. A page can choose its spot
   // with <!--offer-top-->; otherwise it goes right after the page's first
   // <header> inside <main>, or after the paragraph that follows the H1.
   async function inject(dist, ctxFor) {
+    DIST = dist;
     let n = 0;
     let hi = 0;
     const counts = {};
@@ -309,19 +338,38 @@ export function makeOffers(h, products, books) {
               if (m < at) at -= "<!--offer-top-->".length;
             }
             const inCard = card.replace('<aside class="fx-top"', '<aside class="fx-top fx-in"');
-            html = html.slice(0, at) + "\n" + emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path)) + "\n" + inCard + "\n" + html.slice(at);
+            // Newsletter first (12 Oct 2026): only the email box goes high. The
+            // paid card moves two sections further down; pages whose article
+            // already ends with the same product (.fx-print) skip it.
+            const hiBox = emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path, ctx));
+            html = html.slice(0, at) + "\n" + hiBox + "\n" + html.slice(at);
+            if (!/<aside class="fx-print/.test(html)) {
+              const from = at + hiBox.length + 2;
+              const h2a = html.indexOf("<h2", from);
+              const h2b = h2a >= 0 ? html.indexOf("<h2", h2a + 3) : -1;
+              const artEnd = html.indexOf("</article>", from);
+              let cat = h2b >= 0 && (artEnd < 0 || h2b < artEnd) ? h2b : artEnd;
+              if (cat > 0) {
+                const sec = Math.max(html.lastIndexOf("<section", cat), html.lastIndexOf('<div class="ing-section', cat));
+                if (sec > from) { const open = html.indexOf(">", sec); if (open < cat && html.slice(open + 1, cat).trim() === "") cat = sec; }
+                html = html.slice(0, cat) + inCard + "\n" + html.slice(cat);
+              }
+            }
             // One email box mid-article is enough: drop the old mid-post lead box.
             html = html.replace(/<aside class="fx-lead"[\s\S]*?<\/aside>\s*/, "");
             hi++;
-          } else if (html.includes("<!--offer-top-->")) html = html.replace("<!--offer-top-->", card);
+          } else if (html.includes("<!--offer-top-->")) html = html.replace("<!--offer-top-->", path === "/" ? "" : emailHigh(`cheat_hi_${campaign.slice(4)}`, freebieFor(path, ctx)));
           else {
+            // Hubs: the email box goes where the paid card used to (the Party
+            // Planner already opens with its own email form, so it keeps the card).
+            const put = path.startsWith("/party-planner/") ? card : emailHigh(`cheat_hi_${campaign.slice(4)}`, freebieFor(path, ctx));
             const hdr = html.indexOf("</header>", mainAt);
             const h1At = html.indexOf("</h1>", mainAt);
-            if (mainAt >= 0 && hdr > mainAt) html = html.slice(0, hdr + 9) + "\n" + card + html.slice(hdr + 9);
+            if (mainAt >= 0 && hdr > mainAt) html = html.slice(0, hdr + 9) + "\n" + put + html.slice(hdr + 9);
             else if (h1At > 0) {
               const p = html.indexOf("</p>", h1At);
               const at = p > 0 ? p + 4 : h1At + 5;
-              html = html.slice(0, at) + "\n" + card + html.slice(at);
+              html = html.slice(0, at) + "\n" + put + html.slice(at);
             } else continue;
           }
           // One paid offer per page (12 Oct 2026): the matched card above (and
@@ -336,7 +384,7 @@ export function makeOffers(h, products, books) {
           html = html.replace(/<aside class="book-bar"[\s\S]*?<\/aside>\s*/g, "");
           html = html.replace(/<!--lnb-->[\s\S]*?<!--\/lnb-->\s*/g, "");
           {
-            const fb = freebieFor(path);
+            const fb = freebieFor(path, ctx);
             if (fb && html.includes('class="lab-news"')) {
               html = html.replace(/(<section class="lab-news"[\s\S]*?)<img src="[^"]*"([\s\S]*?)<h2>Get the Charcuterie Cheat Sheet<\/h2>\s*<p>[\s\S]*?<\/p>/, (all, a, b) => `${a}<img src="${esc(fb.img)}"${b}<h2>Get the free ${esc(fb.title.replace(/^The /, ""))}</h2>\n          <p>${esc(fb.line)}</p>`);
             }
@@ -364,7 +412,8 @@ export function makeOffers(h, products, books) {
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");
           const formId = (html.match(/class="fx-bh-form" id="([^"]+)"/) || [])[1];
-          html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId))}\n</main>`);
+          if (!/^\/(party-planner|board-builder)\//.test(path) && path !== "/") html = html.replace(/<\/main>/, `${slideIn(`slide_${campaign.slice(4)}`, html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
+          html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId), html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
           await writeFile(file, html);
           n++;
           const key = (card.match(/data-offer="([^"]*)"/) || [])[1] || "?";

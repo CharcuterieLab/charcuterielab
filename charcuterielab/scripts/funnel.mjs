@@ -27,12 +27,25 @@ export const CHEAT_THANKS = "/thanks/cheat-sheet/";
 // Party Planner list, the diet label cards, board 01) passes `extra`: the page
 // remembers it for this tab, and the thank-you page offers that download too.
 const escAttr = (x) => String(x).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+// Per-placement beehiiv forms (12 Oct 2026). Duplicate the "Cheat sheet" form
+// in beehiiv (Subscribers > Subscribe forms), keep the same redirect to
+// /thanks/cheat-sheet/, and paste each new form's id here. Until then every
+// placement uses the main form. beehiiv then reports signups per placement.
+export const FORM_IDS = {
+  high: "",    // the box under the quick answer (campaign cheat_hi_*)
+  slide: "",   // the slide-in (slide_*)
+  page: "",    // /newsletter/ (newsletter_page_*)
+  home: "",    // home page hero and footer section (cheat_home*)
+  bottom: ""   // end-of-page panels and everything else
+};
+const placementOf = (campaign = "") => /^cheat_hi_/.test(campaign) ? "high" : /^slide_/.test(campaign) ? "slide" : /^newsletter_page/.test(campaign) ? "page" : /^cheat_home/.test(campaign) ? "home" : "bottom";
 export function bhForm(id, campaign, extra = null) {
+  const formId = FORM_IDS[placementOf(campaign)] || CHEAT_FORM_ID;
   const remember = extra
     ? `\n        <script>try{sessionStorage.setItem("cl-extra",JSON.stringify(${JSON.stringify({ l: extra.label, u: extra.pdf }).replace(/</g, "\\u003c")}))}catch(e){}</script>`
     : "";
   return `<div class="fx-bh-form" id="${escAttr(id)}" data-campaign="${escAttr(campaign)}">
-        <script async src="${BEEHIIV_LOADER}" data-beehiiv-form="${CHEAT_FORM_ID}"></script>
+        <script async src="${BEEHIIV_LOADER}" data-beehiiv-form="${formId}"></script>
         <noscript><a class="button primary" href="https://charcuterie-lab-report.beehiiv.com/subscribe">Get the cheat sheet</a></noscript>${remember}
       </div>`;
 }
@@ -509,6 +522,7 @@ export function makePrintables(h, products) {
 
   <section class="fx-p-free" id="free" aria-labelledby="fx-free">
     <h2 id="fx-free">Free printables</h2>
+    <a class="fx-p-nl" href="/newsletter/"><strong>Get every free printable</strong><span>The cheat sheet, Top Picks list, holiday countdown plans, pairing cheat sheet and board shopping lists, free with the weekly Lab Report &rarr;</span></a>
     <div class="fx-p-free-grid">
       <article class="fx-p-free-card fx-p-sample">
         <img src="/images/book/look-shopping-list-sm.webp" alt="Board 01 shopping list" width="360" height="466" loading="lazy" decoding="async">

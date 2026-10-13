@@ -3000,6 +3000,14 @@
 480,
 621
 ],
+"/images/leads/board-shopping-list.webp": [
+480,
+621
+],
+"/images/leads/cheese-counter-card.webp": [
+480,
+621
+],
 "/images/leads/holiday-board-countdown.webp": [
 480,
 621
@@ -9552,6 +9560,14 @@
 240,
 310
 ],
+"/images/thumbs/leads__board-shopping-list-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__cheese-counter-card-webp-s.webp": [
+240,
+310
+],
 "/images/thumbs/leads__holiday-board-countdown-webp-s.webp": [
 240,
 310
@@ -13806,6 +13822,12 @@
 },
 "/images/leads/best-buys-top-picks.webp": {
 "s": "/images/thumbs/leads__best-buys-top-picks-webp-s.webp"
+},
+"/images/leads/board-shopping-list.webp": {
+"s": "/images/thumbs/leads__board-shopping-list-webp-s.webp"
+},
+"/images/leads/cheese-counter-card.webp": {
+"s": "/images/thumbs/leads__cheese-counter-card-webp-s.webp"
 },
 "/images/leads/holiday-board-countdown.webp": {
 "s": "/images/thumbs/leads__holiday-board-countdown-webp-s.webp"

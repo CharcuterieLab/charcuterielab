@@ -633,16 +633,6 @@
   status = 301
 
 [[redirects]]
-  from = "/newsletter/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/newsletter"
-  to = "/"
-  status = 301
-
-[[redirects]]
   from = "/blog/index.xml"
   to = "/blog/"
   status = 301

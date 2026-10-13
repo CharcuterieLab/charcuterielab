@@ -438,7 +438,7 @@ function selectRelatedPosts(post, posts, limit = 3) {
 // post gets its /blog/ URL, an old slug with a Netlify redirect keeps it, and
 // anything else renders as plain text so readers never hit a 404. The link
 // switches on by itself the day its post publishes.
-const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|books|gifts|around-the-world|party-planner|printables|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
+const SITE_SECTIONS = /^(search|thanks|about|ebook|images|ingredients|board-builder|privacy|assets|pairings|dietary|holidays|boards|shop|books|gifts|around-the-world|party-planner|printables|newsletter|downloads|blog-feed\.txt|sitemap\.xml|robots\.txt)(\/|$|[?#])/;
 const linkIndex = { live: null, redirects: new Set(), held: new Map(), merged: {} };
 
 function resolveSiteLink(href = "") {
@@ -1482,6 +1482,7 @@ ${head}
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Charcuterie Lab</a>
       <a class="nav-m-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></a>
+      <a class="nav-free" href="/newsletter/"><span class="nav-free-long">Free printables</span><span class="nav-free-short">Free</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="nav-toggle-bars" aria-hidden="true"></span>Menu</button>
       <div class="nav-links" id="site-menu">
 ${siteNav(canonical)}
@@ -1502,7 +1503,7 @@ ${siteNav(canonical)}
       <div class="footer-links footer-cols">
         <div><p class="footer-h">Plan a board</p><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a><a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
         <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
-        <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/#newsletter">Newsletter</a><a href="/about/">About</a></div>
+        <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
         <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
       </div>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
@@ -1664,6 +1665,11 @@ function homePage(posts, products, boardStrip = "") {
           <div class="home-intent-chips"><a href="/pairings/food/brie/">Brie</a><a href="/pairings/food/prosciutto-di-parma/">Prosciutto</a><a href="/pairings/wine-and-cheese-chart/">Wine chart</a></div>
           <a class="button primary" href="/pairings/">Open the Pairings Hub</a>
         </div>
+      </div>
+      <div class="home-signup">
+        <img src="/images/charcuterie-cheat-sheet.webp" alt="" width="64" height="83" decoding="async">
+        <div class="home-signup-copy"><p class="home-signup-t">Get the free Charcuterie Cheat Sheet</p><p>How much to buy for any party, plus one board idea a week. <a href="/newsletter/">See all the free printables</a></p></div>
+        <div class="home-signup-form">${FUNNEL.cheatForm("home-hero", "cheat_home_hero")}</div>
       </div>
     </div>
   </section>
@@ -2538,6 +2544,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
     { loc: "/blog/", priority: "0.8" },
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/shop/", priority: "0.8" },
+    { loc: "/newsletter/", priority: "0.8" },
     { loc: "/about/", priority: "0.5" },
     { loc: "/privacy/", priority: "0.2" },
     ...(boards.length ? [{ loc: "/boards/", priority: "0.9" }] : []),
@@ -2731,6 +2738,8 @@ async function build() {
   await mkdir(join(dist, "privacy"), { recursive: true });
   await writeFile(join(dist, "privacy", "index.html"), privacyPage());
   await writeFile(join(dist, "404.html"), notFoundPage());
+  await mkdir(join(dist, "newsletter"), { recursive: true });
+  await writeFile(join(dist, "newsletter", "index.html"), newsletterPage());
   await mkdir(join(dist, "thanks", "cheat-sheet"), { recursive: true });
   await writeFile(join(dist, "thanks", "cheat-sheet", "index.html"), cheatThanksPage());
   await mkdir(join(dist, "about"), { recursive: true });
@@ -3080,6 +3089,78 @@ function llmsTxt(pages) {
 
 // Where beehiiv sends a reader after the cheat sheet signup (set in the
 // beehiiv form's Settings > Redirect to an external website). Not indexed.
+// Newsletter landing (12 Oct 2026): every free printable in one place, what a
+// weekly issue looks like, and the signup. The header "Free printables"
+// button, the footer and social bio links point here.
+const FREE_PRINTABLES = [
+  ["/images/charcuterie-cheat-sheet.webp", "The Charcuterie Cheat Sheet", "How much to buy for 4 to 50 guests, the build order, fridge timing and four pairing rules.", "/downloads/charcuterie-cheat-sheet.pdf", "2 pages"],
+  ["/images/leads/best-buys-top-picks.webp", "Top Picks: the best brand of everything", "The #1 pick from every buying guide on one list to take to the store.", "/downloads/best-buys-top-picks.pdf", "2 pages"],
+  ["/images/leads/holiday-board-countdown.webp", "Holiday board countdown plans", "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build.", "/downloads/holiday-board-countdown.pdf", "4 pages"],
+  ["/images/leads/pairing-cheat-sheet.webp", "The Pairing Cheat Sheet", "18 wines and beers and the cheeses and meats to put out with each.", "/downloads/pairing-cheat-sheet.pdf", "2 pages"],
+  ["/images/leads/cheese-counter-card.webp", "The Cheese Counter Card", "How much cheese to buy, one pick from each texture and what to ask at the counter.", "/downloads/cheese-counter-card.pdf", "1 page"],
+  ["/images/leads/board-shopping-list.webp", "Board shopping lists", "A printable list for every board in the Board Library, with amounts for the guest count.", "/boards/", "48 boards"],
+  ["/images/book/look-shopping-list-sm.webp", "Board 01 from the book, free", "The Classic American Starter: shopping list with prices, timed build and swaps.", "/downloads/charcuterie-lab-free-board-01.pdf", "11 pages"]
+];
+
+function newsletterPage() {
+  const cards = FREE_PRINTABLES.map(([img, title, line, , size]) => `<li><img src="${img}" alt="" width="120" height="155" loading="lazy" decoding="async"><div><p class="nl-size">${escapeHtml(size)}</p><h3>${escapeHtml(title)}</h3><p>${escapeHtml(line)}</p></div></li>`).join("\n        ");
+  return layout({
+    title: "Free Charcuterie Printables and the Lab Report Newsletter",
+    canonical: "/newsletter/",
+    image: "/images/charcuterie-cheat-sheet.webp",
+    description: "Get every Charcuterie Lab printable free: the cheat sheet, Top Picks list, holiday countdown plans, pairing cheat sheet and board shopping lists. Plus the weekly Lab Report.",
+    body: `<main class="nl-page">
+  <section class="nl-hero">
+    <div class="nl-inner nl-hero-grid">
+      <div>
+        <p class="section-kicker">Free · weekly · leave any time</p>
+        <h1>Free charcuterie printables, and one great board idea a week</h1>
+        <p class="nl-lede">Join the Lab Report and get the Charcuterie Cheat Sheet straight away. Every week after that: one pairing that works and why, one board to build, the best buy of the week, and new printables the day they land.</p>
+        <div class="nl-form" id="nl-top">${bhForm("nl-form-top", "newsletter_page_top")}</div>
+        <p class="nl-fine">Free. No spam, no selling your address. <a href="/privacy/">Privacy</a>.</p>
+      </div>
+      <img class="nl-hero-img" src="/images/charcuterie-cheat-sheet.webp" alt="Page 1 of the Charcuterie Cheat Sheet" width="480" height="621" fetchpriority="high">
+    </div>
+  </section>
+  <section class="nl-section">
+    <div class="nl-inner">
+      <h2>Every free printable, yours when you sign up</h2>
+      <p>The thank-you page has every one of these to download, and the welcome email links them too.</p>
+      <ul class="nl-free">
+        ${cards}
+      </ul>
+    </div>
+  </section>
+  <section class="nl-section nl-alt">
+    <div class="nl-inner">
+      <h2>What an issue looks like</h2>
+      <p>One short email a week. Here's the shape of a typical issue:</p>
+      <article class="nl-sample">
+        <p class="nl-sample-subj"><strong>Subject:</strong> Why brie and honey work (and the $6 upgrade)</p>
+        <h3>The pairing</h3>
+        <p>Brie is rich and a little salty. Honey adds sweetness and a touch of acid, so each bite tastes lighter than either on its own. Warm the brie for 20 to 30 minutes first, or it tastes of almost nothing.</p>
+        <h3>The board</h3>
+        <p>A Friendsgiving board for 10: three cheeses, two meats, pears and candied pecans, with how much to buy and a 60-minute timeline.</p>
+        <h3>The best buy</h3>
+        <p>This week's pick from the buying guides, and the store-brand version that's nearly as good.</p>
+        <h3>New this week</h3>
+        <p>Any new free printable, first.</p>
+      </article>
+    </div>
+  </section>
+  <section class="nl-section">
+    <div class="nl-inner nl-bottom">
+      <h2>Get the cheat sheet now</h2>
+      <div class="nl-form">${bhForm("nl-form-bottom", "newsletter_page_bottom")}</div>
+      <details><summary>How often will you email me?</summary><p>Once a week, plus the odd note when a new printable or book lands.</p></details>
+      <details><summary>Does it cost anything?</summary><p>No. The newsletter and the printables on this page are free.</p></details>
+      <details><summary>Can I leave?</summary><p>Yes. Every email has an unsubscribe link, and it works immediately.</p></details>
+    </div>
+  </section>
+</main>`
+  });
+}
+
 function cheatThanksPage() {
   return layout({
     title: "Your Cheat Sheet Is Ready | Charcuterie Lab",
@@ -3098,9 +3179,14 @@ function cheatThanksPage() {
           <p><a class="button primary" href="${CHEAT_PDF}" download>Download the cheat sheet (PDF)</a></p>
           <p class="thanks-extra" data-thanks-extra hidden><a class="button" href="#" download></a></p>
           <script>(function(){try{var x=JSON.parse(sessionStorage.getItem("cl-extra")||"null");if(!x||!x.u||x.u.charAt(0)!=="/")return;var p=document.querySelector("[data-thanks-extra]"),a=p.querySelector("a");a.href=x.u;a.textContent=x.l;p.hidden=false;sessionStorage.removeItem("cl-extra")}catch(e){}})();</script>
+          <script>try{localStorage.setItem("cl-sub","1")}catch(e){}</script>
           <p class="thanks-note">A copy is on its way to your inbox too, with the first Lab Report. If it isn't there in a few minutes, check Promotions or Spam and drag it to your inbox so the next one lands.</p>
         </div>
       </div>
+      <h2>All your free printables</h2>
+      <ul class="nl-free thanks-free">
+        ${FREE_PRINTABLES.filter(([, , , href]) => href !== CHEAT_PDF).map(([img, title, line, href, size]) => `<li><img src="${img}" alt="" width="120" height="155" loading="lazy" decoding="async"><div><p class="nl-size">${escapeHtml(size)}</p><h3><a href="${href}"${href.endsWith(".pdf") ? " download" : ""}>${escapeHtml(title)}</a></h3><p>${escapeHtml(line)}</p></div></li>`).join("\n        ")}
+      </ul>
       <h2>Next: one board, fully planned</h2>
       <p>The cheat sheet tells you how much. The book tells you exactly what: 50 boards, each with a shopping list, a timed build, placement steps and a swap for every ingredient. That's 28&cent; a board.</p>
       ${bookButtons("thanks_cheat")}
