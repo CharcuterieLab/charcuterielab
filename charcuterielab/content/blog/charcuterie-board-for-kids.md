@@ -127,6 +127,7 @@ A kids charcuterie board works because the format itself — everything laid out
 
 ## Related Reading
 
+- [The Best String Cheese, Ranked](/blog/best-string-cheese/)
 - [The Best Meat Sticks for a Charcuterie Board, Ranked](/blog/best-meat-sticks/)
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)
 - [Mini Charcuterie Board](https://charcuterielab.com/mini-charcuterie-board/)

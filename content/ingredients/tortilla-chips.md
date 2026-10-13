@@ -83,6 +83,8 @@ real nixtamal.
 
 **Skip:** flavoured chips. Ranch and chili-lime dust fights everything on a board.
 
+**Ranked picks:** for a warm dip, our top-rated store-bought queso is **Marketside Queso Blanco** (4.5 out of 5). See [the full ranking of the best queso](/blog/best-queso/).
+
 ## Quick FAQ
 
 **Are tortilla chips gluten-free?**

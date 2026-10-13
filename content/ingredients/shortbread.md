@@ -83,6 +83,8 @@ listing palm oil or "vegetable fat" is not shortbread.
 **Skip:** thin shortbread cookies with added flavourings, and anything
 chocolate-dipped for use as a base.
 
+**Ranked picks:** our top-rated store-bought shortbread is **Walkers Pure Butter Shortbread** (4.5 out of 5), and the best value is **Lorna Doone**. See [the full ranking of the best shortbread](/blog/best-shortbread/).
+
 ## Quick FAQ
 
 **Does shortbread go with cheese?**

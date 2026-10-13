@@ -70,6 +70,9 @@ Every dip on your board should earn its place by serving a specific pairing func
 
 ## Related Reading
 
+- [The Best Store-Bought Spinach Dip, Ranked](/blog/best-spinach-dip/)
+- [The Best Store-Bought Queso, Ranked](/blog/best-queso/)
+- [The Best Kettle Chips, Ranked](/blog/best-kettle-chips/)
 - [The Best Store-Bought French Onion Dip, Ranked](/blog/best-french-onion-dip/)
 - [The Best Store-Bought Pimento Cheese, Ranked](/blog/best-pimento-cheese/)
 - [The Best Store-Bought Pesto, Ranked](/blog/best-pesto/)

@@ -272,6 +272,10 @@
 1000,
 1500
 ],
+"/images/best-butter-for-butter-board-ranking.webp": [
+1000,
+1500
+],
 "/images/best-charcuterie-boards.png": [
 1024,
 687
@@ -352,6 +356,10 @@
 1000,
 1500
 ],
+"/images/best-kettle-chips-ranking.webp": [
+1000,
+1500
+],
 "/images/best-manchego-brands-ranking.webp": [
 1000,
 1500
@@ -424,7 +432,15 @@
 1000,
 1500
 ],
+"/images/best-queso-ranking.webp": [
+1000,
+1500
+],
 "/images/best-salami-brands-ranking.webp": [
+1000,
+1500
+],
+"/images/best-shortbread-ranking.webp": [
 1000,
 1500
 ],
@@ -437,6 +453,18 @@
 1500
 ],
 "/images/best-spanish-chorizo-ranking.webp": [
+1000,
+1500
+],
+"/images/best-spinach-dip-ranking.webp": [
+1000,
+1500
+],
+"/images/best-strawberry-jam-ranking.webp": [
+1000,
+1500
+],
+"/images/best-string-cheese-ranking.webp": [
 1000,
 1500
 ],
@@ -4024,6 +4052,14 @@
 240,
 360
 ],
+"/images/thumbs/best-butter-for-butter-board-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-butter-for-butter-board-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-charcuterie-boards-png-m.webp": [
 640,
 429
@@ -4192,6 +4228,14 @@
 240,
 360
 ],
+"/images/thumbs/best-kettle-chips-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-kettle-chips-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-manchego-brands-ranking-webp-m.webp": [
 640,
 960
@@ -4344,11 +4388,27 @@
 240,
 360
 ],
+"/images/thumbs/best-queso-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-queso-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-salami-brands-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-salami-brands-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-shortbread-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-shortbread-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4373,6 +4433,30 @@
 960
 ],
 "/images/thumbs/best-spanish-chorizo-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-spinach-dip-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-spinach-dip-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-strawberry-jam-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-strawberry-jam-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-string-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-string-cheese-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -10969,6 +11053,10 @@
 "m": "/images/thumbs/best-burrata-ranking-webp-m.webp",
 "s": "/images/thumbs/best-burrata-ranking-webp-s.webp"
 },
+"/images/best-butter-for-butter-board-ranking.webp": {
+"m": "/images/thumbs/best-butter-for-butter-board-ranking-webp-m.webp",
+"s": "/images/thumbs/best-butter-for-butter-board-ranking-webp-s.webp"
+},
 "/images/best-charcuterie-boards.png": {
 "m": "/images/thumbs/best-charcuterie-boards-png-m.webp",
 "s": "/images/thumbs/best-charcuterie-boards-png-s.webp"
@@ -11051,6 +11139,10 @@
 "m": "/images/thumbs/best-hummus-ranking-webp-m.webp",
 "s": "/images/thumbs/best-hummus-ranking-webp-s.webp"
 },
+"/images/best-kettle-chips-ranking.webp": {
+"m": "/images/thumbs/best-kettle-chips-ranking-webp-m.webp",
+"s": "/images/thumbs/best-kettle-chips-ranking-webp-s.webp"
+},
 "/images/best-manchego-brands-ranking.webp": {
 "m": "/images/thumbs/best-manchego-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-manchego-brands-ranking-webp-s.webp"
@@ -11125,9 +11217,17 @@
 "m": "/images/thumbs/best-prosciutto-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-prosciutto-brands-ranking-webp-s.webp"
 },
+"/images/best-queso-ranking.webp": {
+"m": "/images/thumbs/best-queso-ranking-webp-m.webp",
+"s": "/images/thumbs/best-queso-ranking-webp-s.webp"
+},
 "/images/best-salami-brands-ranking.webp": {
 "m": "/images/thumbs/best-salami-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-salami-brands-ranking-webp-s.webp"
+},
+"/images/best-shortbread-ranking.webp": {
+"m": "/images/thumbs/best-shortbread-ranking-webp-m.webp",
+"s": "/images/thumbs/best-shortbread-ranking-webp-s.webp"
 },
 "/images/best-smoked-salmon-ranking.webp": {
 "m": "/images/thumbs/best-smoked-salmon-ranking-webp-m.webp",
@@ -11140,6 +11240,18 @@
 "/images/best-spanish-chorizo-ranking.webp": {
 "m": "/images/thumbs/best-spanish-chorizo-ranking-webp-m.webp",
 "s": "/images/thumbs/best-spanish-chorizo-ranking-webp-s.webp"
+},
+"/images/best-spinach-dip-ranking.webp": {
+"m": "/images/thumbs/best-spinach-dip-ranking-webp-m.webp",
+"s": "/images/thumbs/best-spinach-dip-ranking-webp-s.webp"
+},
+"/images/best-strawberry-jam-ranking.webp": {
+"m": "/images/thumbs/best-strawberry-jam-ranking-webp-m.webp",
+"s": "/images/thumbs/best-strawberry-jam-ranking-webp-s.webp"
+},
+"/images/best-string-cheese-ranking.webp": {
+"m": "/images/thumbs/best-string-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-string-cheese-ranking-webp-s.webp"
 },
 "/images/best-summer-sausage-ranking.webp": {
 "m": "/images/thumbs/best-summer-sausage-ranking-webp-m.webp",

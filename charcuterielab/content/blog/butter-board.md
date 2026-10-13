@@ -81,6 +81,7 @@ They work well together. Put a butter board at one end of the table and a [charc
 
 ## Related Reading
 
+- [The Best Butter for a Butter Board, Ranked](/blog/best-butter-for-butter-board/)
 - [How to Make a Charcuterie Board](/blog/how-to-make-charcuterie-board/)
 - [What Bread to Serve with Charcuterie](/blog/what-bread-for-charcuterie-board/)
 - [Best Honey for Cheese](/blog/best-honey-for-cheese/)

@@ -3,19 +3,19 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 44 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts and chocolate for a board, ranked with stars."
-description: "All 44 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts and chocolate for a board, ranked with stars."
+excerpt: "All 51 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts and chocolate for a board, ranked with stars."
+description: "All 51 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts and chocolate for a board, ranked with stars."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for 44 charcuterie board ingredients, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at five big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
+> **Quick Answer:** We rank the best brands for 51 charcuterie board ingredients, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at five big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
 
 Standing in the cracker aisle with twelve boxes in front of you? These guides tell you which one to grab and why. Each ranks the widely sold options for one board ingredient, with a clear top pick, a budget pick and a splurge.
 
-## Cheese
+## Cheese and butter
 
 | Guide | Our top pick | Rating |
 |---|---|---|
@@ -34,6 +34,8 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Swiss Cheese for a Charcuterie Board](/blog/best-swiss-cheese/) | Sargento Aged Swiss | ★★★★½ 4.6 |
 | [Best Cream Cheese Brands for a Charcuterie Board](/blog/best-cream-cheese/) | Philadelphia Original Cream Cheese | ★★★★½ 4.7 |
 | [Best Store-Bought Pimento Cheese for a Charcuterie Board](/blog/best-pimento-cheese/) | MyThreeSons Emmy's Original Pimento Cheese | ★★★★½ 4.4 |
+| [Best String Cheese for a Kids' Charcuterie Board](/blog/best-string-cheese/) | Frigo Cheese Heads String Cheese | ★★★★☆ 4.2 |
+| [Best Butter for a Butter Board](/blog/best-butter-for-butter-board/) | Kerrygold Pure Irish Butter (Salted) | ★★★★½ 4.7 |
 
 ## Cured meat and smoked fish
 
@@ -58,6 +60,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Gluten-Free Crackers for a Charcuterie Board](/blog/best-gluten-free-crackers/) | Crunchmaster Multi-Seed Crackers | ★★★★½ 4.7 |
 | [Best Pretzels for a Charcuterie Board](/blog/best-pretzels-for-charcuterie/) | Snack Factory Pretzel Crisps Original | ★★★★½ 4.7 |
 | [Best Pita Chips for a Charcuterie Board](/blog/best-pita-chips/) | Stacy's Simply Naked Pita Chips | ★★★★½ 4.7 |
+| [Best Kettle Chips for a Game Day Board](/blog/best-kettle-chips/) | Cape Cod Original Sea Salt Kettle Cooked Chips | ★★★★½ 4.7 |
 
 ## Spreads, dips, sauces, honey, mustard and glaze
 
@@ -73,6 +76,9 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Store-Bought French Onion Dip for a Charcuterie Board](/blog/best-french-onion-dip/) | Heluva Good! French Onion Dip | ★★★★½ 4.7 |
 | [Best Store-Bought Pesto for a Charcuterie Board](/blog/best-pesto/) | Kirkland Signature Basil Pesto | ★★★★½ 4.7 |
 | [Best Canned Cranberry Sauce for a Thanksgiving Board](/blog/best-cranberry-sauce/) | Ocean Spray Jellied Cranberry Sauce | ★★★★☆ 4.2 |
+| [Best Strawberry Jam for a Cheese Board](/blog/best-strawberry-jam/) | Bonne Maman Strawberry Preserves | ★★★★★ 4.8 |
+| [Best Store-Bought Spinach Dip for a Charcuterie Board](/blog/best-spinach-dip/) | Marketside Spinach & Artichoke Dip | ★★★★½ 4.7 |
+| [Best Store-Bought Queso for a Game Day Board](/blog/best-queso/) | Marketside Queso Blanco | ★★★★½ 4.5 |
 
 ## Olives, pickles and nuts
 
@@ -88,6 +94,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Dark Chocolate for a Charcuterie Board](/blog/best-dark-chocolate/) | Tony's Chocolonely Dark Chocolate 70% | ★★★★½ 4.4 |
+| [Best Store-Bought Shortbread for a Dessert Board](/blog/best-shortbread/) | Walkers Pure Butter Shortbread | ★★★★½ 4.5 |
 
 ## Store guides
 
@@ -142,6 +149,11 @@ Shopping at one store? These rank the best charcuterie picks at each.
 | Pimento cheese | Price's Pimiento Cheese Spread | ★★★★☆ 4.2 |
 | Cream cheese | Great Value Cream Cheese | ★★★★☆ 4.2 |
 | Pesto | Good & Gather Basil Pesto | ★★★★☆ 4.2 |
+| Strawberry jam | Smucker's Natural Strawberry Fruit Spread | ★★★★½ 4.3 |
+| Butter | Land O Lakes Salted Butter | ★★★★☆ 4.2 |
+| Shortbread | Lorna Doone Shortbread Cookies | ★★★★☆ 4.0 |
+| Queso | Great Value Salsa Con Queso | ★★★★☆ 4.2 |
+| Kettle chips | Lay's Kettle Cooked Original | ★★★★☆ 4.2 |
 
 ## How we rank
 

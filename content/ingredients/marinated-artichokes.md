@@ -81,6 +81,8 @@ citric acid — a little is normal, a lot means they'll taste sour.
 
 **Skip:** canned in brine or water for board use.
 
+**Ranked picks:** for a creamy dip, our top-rated store-bought spinach artichoke dip is **Marketside Spinach & Artichoke** (4.7 out of 5). See [the full ranking of the best spinach dip](/blog/best-spinach-dip/).
+
 ## Quick FAQ
 
 **Are marinated artichokes good on a charcuterie board?**

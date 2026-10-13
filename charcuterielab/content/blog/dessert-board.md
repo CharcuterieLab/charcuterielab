@@ -1,5 +1,6 @@
 ---
-title: "Dessert Charcuterie Board: How to Build a Sweet Board That Actually Works"
+title: "Dessert Charcuterie Board: How to Build a Sweet Board That Actually Works"
+
 seo_title: "Dessert Charcuterie Board: How to Build a Sweet Board"
 date: "2026-05-15"
 image: "/images/dessert-board.webp"
@@ -169,6 +170,8 @@ That is enough structure for almost any party, holiday, date night, shower, or m
 
 ## Related Guides
 
+- [The Best Store-Bought Shortbread, Ranked](/blog/best-shortbread/)
+- [The Best Strawberry Jam for a Cheese Board, Ranked](/blog/best-strawberry-jam/)
 - [Easy Charcuterie Board](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [Charcuterie Board Ideas](https://charcuterielab.com/blog/charcuterie-board-ideas/)
 - [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/)

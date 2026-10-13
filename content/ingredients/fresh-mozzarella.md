@@ -92,6 +92,8 @@ in a solid block at room temperature. Different product entirely.
 
 **Ranked picks:** our top-rated fresh mozzarella is **Primo Taglio Fresh Mozzarella** (4.5 out of 5), and the best value is **Trader Joe's Fresh Mozzarella**. See [the full ranking of the best fresh mozzarella](/blog/best-fresh-mozzarella/).
 
+**Ranked picks:** for kids' boards, our top-rated string cheese is **Frigo Cheese Heads** (4.2 out of 5). See [the full ranking of the best string cheese](/blog/best-string-cheese/).
+
 ## Quick FAQ
 
 **Fresh mozzarella vs. buffalo mozzarella?**
