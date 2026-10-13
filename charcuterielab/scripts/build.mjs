@@ -2053,7 +2053,7 @@ function shopPage(products) {
     <div class="shop-free-links">
       <a href="/board-builder/"><strong>Board Builder</strong><span>Shopping list for your guest count</span></a>
       <a href="/boards/"><strong>Board Library</strong><span>Plans for every occasion</span></a>
-      <a href="/ingredients/"><strong>Ingredients</strong><span>325 pairing guides</span></a>
+      <a href="/ingredients/"><strong>Ingredients</strong><span>350 pairing guides</span></a>
     </div>
   </section>
 </main>`
@@ -2437,7 +2437,7 @@ function funnelPostBody(html, post, bookBoard) {
 // hub's own tables, so a new guide shows up once it has a row there.
 const BEST_CATS = [
   [/cheese/i, "cheese", "Cheese and butter"], [/meat|fish/i, "meat", "Cured meat"], [/cracker|chip|pretzel/i, "crackers", "Crackers and chips"],
-  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/store/i, "stores", "Store guides"]
+  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/drink/i, "drinks", "Drinks"], [/store/i, "stores", "Store guides"]
 ];
 function bestFinder(hub, postsBySlug) {
   const cards = [];

@@ -50,8 +50,8 @@ export const OFFER_RULES = [
   [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
   // Brand buying guides (Oct 11): shoppers comparing jars and bars get the
   // pairing deck; shoppers comparing staples get the spend-smart plan.
-  [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate|pesto|cranberry-sauce|pimento-cheese|cream-cheese|strawberry-jam|shortbread|butter-for-butter-board)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
-  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|aldi|costco|walmart)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
+  [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate|pesto|cranberry-sauce|pimento-cheese|cream-cheese|strawberry-jam|shortbread|butter-for-butter-board|prosecco)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
+  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],

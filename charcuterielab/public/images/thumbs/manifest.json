@@ -344,6 +344,10 @@
 1000,
 1500
 ],
+"/images/best-guacamole-ranking.webp": [
+1000,
+1500
+],
 "/images/best-honey-for-cheese-ranking.webp": [
 1000,
 1500
@@ -432,11 +436,23 @@
 1000,
 1500
 ],
+"/images/best-prosecco-ranking.webp": [
+1000,
+1500
+],
 "/images/best-queso-ranking.webp": [
 1000,
 1500
 ],
+"/images/best-ranch-dip-ranking.webp": [
+1000,
+1500
+],
 "/images/best-salami-brands-ranking.webp": [
+1000,
+1500
+],
+"/images/best-salsa-ranking.webp": [
 1000,
 1500
 ],
@@ -473,6 +489,10 @@
 1500
 ],
 "/images/best-swiss-cheese-ranking.webp": [
+1000,
+1500
+],
+"/images/best-tortilla-chips-ranking.webp": [
 1000,
 1500
 ],
@@ -4224,6 +4244,14 @@
 240,
 360
 ],
+"/images/thumbs/best-guacamole-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-guacamole-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-honey-for-cheese-ranking-webp-m.webp": [
 640,
 960
@@ -4408,6 +4436,14 @@
 240,
 360
 ],
+"/images/thumbs/best-prosecco-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-prosecco-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-queso-ranking-webp-m.webp": [
 640,
 960
@@ -4416,11 +4452,27 @@
 240,
 360
 ],
+"/images/thumbs/best-ranch-dip-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-ranch-dip-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-salami-brands-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-salami-brands-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-salsa-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-salsa-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4493,6 +4545,14 @@
 960
 ],
 "/images/thumbs/best-swiss-cheese-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-tortilla-chips-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-tortilla-chips-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -11167,6 +11227,10 @@
 "m": "/images/thumbs/best-gruyere-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-gruyere-brands-ranking-webp-s.webp"
 },
+"/images/best-guacamole-ranking.webp": {
+"m": "/images/thumbs/best-guacamole-ranking-webp-m.webp",
+"s": "/images/thumbs/best-guacamole-ranking-webp-s.webp"
+},
 "/images/best-honey-for-cheese-ranking.webp": {
 "m": "/images/thumbs/best-honey-for-cheese-ranking-webp-m.webp",
 "s": "/images/thumbs/best-honey-for-cheese-ranking-webp-s.webp"
@@ -11257,13 +11321,25 @@
 "m": "/images/thumbs/best-prosciutto-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-prosciutto-brands-ranking-webp-s.webp"
 },
+"/images/best-prosecco-ranking.webp": {
+"m": "/images/thumbs/best-prosecco-ranking-webp-m.webp",
+"s": "/images/thumbs/best-prosecco-ranking-webp-s.webp"
+},
 "/images/best-queso-ranking.webp": {
 "m": "/images/thumbs/best-queso-ranking-webp-m.webp",
 "s": "/images/thumbs/best-queso-ranking-webp-s.webp"
 },
+"/images/best-ranch-dip-ranking.webp": {
+"m": "/images/thumbs/best-ranch-dip-ranking-webp-m.webp",
+"s": "/images/thumbs/best-ranch-dip-ranking-webp-s.webp"
+},
 "/images/best-salami-brands-ranking.webp": {
 "m": "/images/thumbs/best-salami-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-salami-brands-ranking-webp-s.webp"
+},
+"/images/best-salsa-ranking.webp": {
+"m": "/images/thumbs/best-salsa-ranking-webp-m.webp",
+"s": "/images/thumbs/best-salsa-ranking-webp-s.webp"
 },
 "/images/best-shortbread-ranking.webp": {
 "m": "/images/thumbs/best-shortbread-ranking-webp-m.webp",
@@ -11300,6 +11376,10 @@
 "/images/best-swiss-cheese-ranking.webp": {
 "m": "/images/thumbs/best-swiss-cheese-ranking-webp-m.webp",
 "s": "/images/thumbs/best-swiss-cheese-ranking-webp-s.webp"
+},
+"/images/best-tortilla-chips-ranking.webp": {
+"m": "/images/thumbs/best-tortilla-chips-ranking-webp-m.webp",
+"s": "/images/thumbs/best-tortilla-chips-ranking-webp-s.webp"
 },
 "/images/best-trader-joes-cheeses-ranking.webp": {
 "m": "/images/thumbs/best-trader-joes-cheeses-ranking-webp-m.webp",
