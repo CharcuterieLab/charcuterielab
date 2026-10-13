@@ -183,6 +183,7 @@ The Orchard Board works because every element either cuts brie's fat (apple, gra
 
 ## Related Reading
 
+- [Brie vs Camembert: The Real Differences (and Which One Your Board Needs)](https://charcuterielab.com/blog/brie-vs-camembert/)
 - [Cheese Rind Science: Which Rinds to Eat and Why Each Type Exists](https://charcuterielab.com/rind-science/)
 - [The Fermentation Science Behind Salami's Flavor (And Why It Tastes Nothing Like Prosciutto)](https://charcuterielab.com/fermentation-flavor/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)

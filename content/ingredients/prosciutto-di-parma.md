@@ -15,12 +15,12 @@ allergens: []
 tags: ["cured meat", "italian", "ham", "classic"]
 pairs_with: ["prosciutto-san-daniele", "culatello", "parmigiano-reggiano", "grissini", "burrata", "persimmon", "melon", "fig-jam", "cerignola-olives", "mixed-marinated-olives", "peppadew", "marinated-artichokes", "fresh-mint", "olive-oil", "fresh-basil"]
 avoid_with: ["everything-crackers", "smoked-cheese"]
-faq: "[{"question": "What's the difference between prosciutto and prosciutto di Parma?", "answer": "Prosciutto just means ham in Italian. Prosciutto di Parma is the protected one — a defined region, a minimum twelve months, and only pork and salt."}, {"question": "Should I trim the fat?", "answer": "No. The fat carries most of the flavor and melts on the tongue."}, {"question": "How thin should it be sliced?", "answer": "Thin enough to see light through. Ask the counter to slice it to order."}, {"question": "How much per person?", "answer": "1–2 oz as one of two or three meats."}, {"question": "Is it raw?", "answer": "It's uncooked but cured — salt and twelve-plus months of drying make it safe to eat as is."}]"
+faq: "[{"question": "What's the difference between prosciutto and prosciutto di Parma?", "answer": "Prosciutto just means ham in Italian. Prosciutto di Parma is the protected one — a defined region, a minimum of fourteen months (twelve for hams started before September 2023), and only pork and salt."}, {"question": "Should I trim the fat?", "answer": "No. The fat carries most of the flavor and melts on the tongue."}, {"question": "How thin should it be sliced?", "answer": "Thin enough to see light through. Ask the counter to slice it to order."}, {"question": "How much per person?", "answer": "1–2 oz as one of two or three meats."}, {"question": "Is it raw?", "answer": "It's uncooked but cured — salt and more than a year of drying make it safe to eat as is."}]"
 ---
 
 ## The short version
 
-Dry-cured pork leg from Parma, aged at least twelve months. By law it contains
+Dry-cured pork leg from Parma, aged at least fourteen months. By law it contains
 pork, sea salt and nothing else — no nitrates, no sugar, no smoke. Slice it
 paper-thin, drape it rather than fold it flat, and leave the fat on.
 
@@ -28,7 +28,7 @@ paper-thin, drape it rather than fold it flat, and leave the fat on.
 
 Prosciutto di Parma DOP comes from pigs raised in a defined region of northern
 Italy, salted by a *maestro salatore*, then hung to air-dry for a minimum of
-twelve months — often twenty-four. The ducal crown branded on the skin is
+fourteen months (the minimum rose from twelve in 2023) — often twenty-four. The ducal crown branded on the skin is
 applied only after inspection. The whole process is salt, air and time.
 
 **Taste:** delicate, sweet, nutty, gently salty
@@ -97,7 +97,7 @@ fast-cured domestic ham — fine in cooking, flat on a board.
 
 **What's the difference between prosciutto and prosciutto di Parma?**
 *Prosciutto* just means ham in Italian. Prosciutto di Parma is the protected
-one — a defined region, a minimum twelve months, and only pork and salt.
+one — a defined region, a minimum of fourteen months (twelve for hams started before September 2023), and only pork and salt.
 
 **Should I trim the fat?**
 No. The fat carries most of the flavor and melts on the tongue.
