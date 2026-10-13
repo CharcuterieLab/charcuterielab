@@ -131,6 +131,7 @@ Look for Dutch farmhouse versions (Boerenkaas designation) or specific quality b
 
 ## Related Reading
 
+- [Gouda vs. Edam: What's the Difference?](https://charcuterielab.com/blog/gouda-vs-edam/)
 - [Proteolysis: How Protein Breakdown Builds the Flavor of Aged Cheese](https://charcuterielab.com/proteolysis/)
 - [Why Aged Cheese Tastes Like Caramel and Nuts (Maillard Chemistry)](https://charcuterielab.com/maillard-aged-cheese/)
 - [The White Crystals in Aged Cheese: What They Are and What They Mean](https://charcuterielab.com/crystal-formation/)

@@ -1,5 +1,6 @@
 ---
-title: "Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)"
+title: "Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)"
+
 seo_title: "Aged Cheddar on a Charcuterie Board: Why It's So Sharp"
 date: "2026-08-27"
 image: "/images/aged-cheddar.png"
@@ -127,6 +128,7 @@ For milder aged cheddar that slices cleanly, thin rectangular slices fanned on o
 
 ## Related Reading
 
+- [White vs. Orange Cheddar: What's the Difference?](https://charcuterielab.com/blog/white-vs-orange-cheddar/)
 - [Proteolysis: How Protein Breakdown Builds the Flavor of Aged Cheese](https://charcuterielab.com/proteolysis/)
 - [The White Crystals in Aged Cheese: What They Are and What They Mean](https://charcuterielab.com/crystal-formation/)
 - [Why Aged Cheese + Cured Meat Tastes More Savory Together: The Umami Synergy Science](https://charcuterielab.com/umami-synergy/)

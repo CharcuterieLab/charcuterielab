@@ -101,6 +101,7 @@ Both are excellent board cheeses; on a board with space for one, Comté's broade
 
 ## Related Reading
 
+- [Gruyère vs. Comté: What's the Difference?](https://charcuterielab.com/blog/gruyere-vs-comte/)
 - [Proteolysis: How Protein Breakdown Builds the Flavor of Aged Cheese](https://charcuterielab.com/proteolysis/)
 - [Aging Caves: How Cave Environments Shape Cheese Flavor](https://charcuterielab.com/blog/aging-caves/)
 - [The White Crystals in Aged Cheese: What They Are and What They Mean](https://charcuterielab.com/crystal-formation/)
