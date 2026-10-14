@@ -172,6 +172,8 @@ That is enough structure for almost any party, holiday, date night, shower, or m
 
 - [The Best Store-Bought Shortbread, Ranked](/blog/best-shortbread/)
 - [The Best Strawberry Jam for a Cheese Board, Ranked](/blog/best-strawberry-jam/)
+- [Candy Charcuterie Board](/blog/candy-charcuterie-board/)
+- [Hot Cocoa Board](/blog/hot-cocoa-board/)
 - [Easy Charcuterie Board](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [Charcuterie Board Ideas](https://charcuterielab.com/blog/charcuterie-board-ideas/)
 - [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/)

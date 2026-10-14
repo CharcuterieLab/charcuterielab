@@ -80,7 +80,8 @@
         "Put a small bowl in the middle of a round board and lay a ring of rosemary sprigs around it.",
         "Build the ring out with folded salami, cheese cubes, grapes and green olives, alternating colors.",
         "Dot pomegranate seeds and cranberries on top, and tie a ribbon bow at the bottom."
-      ]
+      ],
+      "post": "christmas-wreath-charcuterie-board"
     },
     {
       "name": "Christmas Tree Board",
@@ -89,7 +90,8 @@
         "On a rectangle, lay a pretzel rod or cheese block as the trunk at the bottom.",
         "Build rows that get shorter as you go up: crackers, salami, cheese cubes, grapes, rosemary between each row.",
         "Top with a star cut from a slice of cheddar."
-      ]
+      ],
+      "post": "christmas-tree-charcuterie-board"
     },
     {
       "name": "Candy Cane Board",
@@ -144,7 +146,10 @@
     "holiday-board",
     "winter-charcuterie-board",
     "christmas-wreath-charcuterie-board",
-    "charcuterie-gift-basket"
+    "charcuterie-gift-basket",
+    "christmas-tree-charcuterie-board",
+    "hot-cocoa-board",
+    "baked-brie-recipe"
   ],
   "faq": [
     {

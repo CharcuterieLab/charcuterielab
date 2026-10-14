@@ -101,6 +101,7 @@ Winter charcuterie is about giving the season's best ingredients room to do what
 - [Fall Charcuterie Board](https://charcuterielab.com/blog/fall-charcuterie-board/)
 - [Christmas Charcuterie Board](https://charcuterielab.com/christmas-charcuterie-board/)
 - [Blue Cheese on a Charcuterie Board](https://charcuterielab.com/blue-cheese-charcuterie-board/)
+- [Hot Cocoa Board](/blog/hot-cocoa-board/)
 
 ## FAQ
 

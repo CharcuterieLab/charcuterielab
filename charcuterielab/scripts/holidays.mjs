@@ -197,6 +197,7 @@ ${boards.map((b) => card(b, h)).join("\n")}
           ${shapeSvg(s.shape)}
           <h3>${h.escapeHtml(s.name)}</h3>
           <ol>${s.steps.map((t) => `<li>${h.escapeHtml(t)}</li>`).join("")}</ol>
+          ${s.post ? `<p class="hol-shape-more"><a href="/blog/${s.post}/">Full step-by-step guide and amounts</a></p>` : ""}
         </article>`).join("\n        ")}
       </div>
     </section>

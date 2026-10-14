@@ -132,6 +132,7 @@ A kids charcuterie board works because the format itself — everything laid out
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)
 - [Mini Charcuterie Board](https://charcuterielab.com/mini-charcuterie-board/)
 - [Budget Charcuterie Board](https://charcuterielab.com/budget-charcuterie-board/)
+- [Candy Charcuterie Board](/blog/candy-charcuterie-board/)
 
 ## FAQ
 

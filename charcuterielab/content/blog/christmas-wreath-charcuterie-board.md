@@ -94,6 +94,7 @@ With grocery-store cheese, salami and fruit, a wreath before a meal costs about 
 - [Christmas Board Ideas](/holidays/christmas/)
 - [Holiday Charcuterie Board](/blog/holiday-board/)
 - [Winter Charcuterie Board](/blog/winter-charcuterie-board/)
+- [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
 
 ## FAQ
 

@@ -52,7 +52,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 
 **★★★★☆ 4.2 out of 5** · Best for: Reliable everyday brie · $ budget
 
-Slightly more mushroomy than most grocery brie, and [Sporked](https://sporked.com/article/best-brie/)'s pick for baked brie because it melts beautifully. (Source: [Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/).)
+Slightly more mushroomy than most grocery brie, and [Sporked](https://sporked.com/article/best-brie/)'s pick for [baked brie](/blog/baked-brie-recipe/) because it melts beautifully. (Source: [Tasting Table](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/).)
 
 - **Why we like it:** Everywhere. Consistent.
 - **Keep in mind:** Texture not the creamiest.

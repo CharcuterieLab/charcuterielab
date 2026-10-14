@@ -244,6 +244,10 @@
 1271,
 587
 ],
+"/images/baked-brie-recipe.jpg": [
+1024,
+559
+],
 "/images/beer-pairing.png": [
 2710,
 1285
@@ -1084,6 +1088,10 @@
 1024,
 687
 ],
+"/images/candy-charcuterie-board.jpg": [
+1024,
+559
+],
 "/images/capicola.png": [
 1024,
 687
@@ -1420,6 +1428,14 @@
 1024,
 687
 ],
+"/images/christmas-tree-charcuterie-board.jpg": [
+1024,
+559
+],
+"/images/christmas-tree-veggie-tray.jpg": [
+1024,
+559
+],
 "/images/christmas-wreath-charcuterie-board.jpg": [
 1024,
 559
@@ -1579,6 +1595,10 @@
 "/images/holiday-board.png": [
 1024,
 687
+],
+"/images/hot-cocoa-board.jpg": [
+1024,
+559
 ],
 "/images/how-long-charcuterie-board-last.png": [
 2504,
@@ -4028,6 +4048,14 @@
 240,
 111
 ],
+"/images/thumbs/baked-brie-recipe-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/baked-brie-recipe-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/beer-pairing-png-l.webp": [
 1100,
 522
@@ -5644,6 +5672,14 @@
 240,
 161
 ],
+"/images/thumbs/candy-charcuterie-board-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/candy-charcuterie-board-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/capicola-png-m.webp": [
 640,
 429
@@ -6356,6 +6392,22 @@
 240,
 161
 ],
+"/images/thumbs/christmas-tree-charcuterie-board-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/christmas-tree-charcuterie-board-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/christmas-tree-veggie-tray-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/christmas-tree-veggie-tray-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/christmas-wreath-charcuterie-board-jpg-m.webp": [
 640,
 349
@@ -6719,6 +6771,14 @@
 "/images/thumbs/holiday-board-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/hot-cocoa-board-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/hot-cocoa-board-jpg-s.webp": [
+240,
+131
 ],
 "/images/thumbs/how-long-charcuterie-board-last-png-l.webp": [
 1100,
@@ -10608,6 +10668,14 @@
 240,
 131
 ],
+"/images/thumbs/turkey-charcuterie-board-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/turkey-charcuterie-board-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/types-of-salami-png-m.webp": [
 640,
 429
@@ -10793,6 +10861,10 @@
 161
 ],
 "/images/trader-joes-charcuterie-board.jpg": [
+1024,
+559
+],
+"/images/turkey-charcuterie-board.jpg": [
 1024,
 559
 ],
@@ -11122,6 +11194,10 @@
 "l": "/images/thumbs/apple-slices-webp-l.webp",
 "m": "/images/thumbs/apple-slices-webp-m.webp",
 "s": "/images/thumbs/apple-slices-webp-s.webp"
+},
+"/images/baked-brie-recipe.jpg": {
+"m": "/images/thumbs/baked-brie-recipe-jpg-m.webp",
+"s": "/images/thumbs/baked-brie-recipe-jpg-s.webp"
 },
 "/images/beer-pairing.png": {
 "l": "/images/thumbs/beer-pairing-png-l.webp",
@@ -11941,6 +12017,10 @@
 "m": "/images/thumbs/camembert-png-m.webp",
 "s": "/images/thumbs/camembert-png-s.webp"
 },
+"/images/candy-charcuterie-board.jpg": {
+"m": "/images/thumbs/candy-charcuterie-board-jpg-m.webp",
+"s": "/images/thumbs/candy-charcuterie-board-jpg-s.webp"
+},
 "/images/capicola.png": {
 "m": "/images/thumbs/capicola-png-m.webp",
 "s": "/images/thumbs/capicola-png-s.webp"
@@ -12287,6 +12367,14 @@
 "m": "/images/thumbs/christmas-charcuterie-board-png-m.webp",
 "s": "/images/thumbs/christmas-charcuterie-board-png-s.webp"
 },
+"/images/christmas-tree-charcuterie-board.jpg": {
+"m": "/images/thumbs/christmas-tree-charcuterie-board-jpg-m.webp",
+"s": "/images/thumbs/christmas-tree-charcuterie-board-jpg-s.webp"
+},
+"/images/christmas-tree-veggie-tray.jpg": {
+"m": "/images/thumbs/christmas-tree-veggie-tray-jpg-m.webp",
+"s": "/images/thumbs/christmas-tree-veggie-tray-jpg-s.webp"
+},
 "/images/christmas-wreath-charcuterie-board.jpg": {
 "m": "/images/thumbs/christmas-wreath-charcuterie-board-jpg-m.webp",
 "s": "/images/thumbs/christmas-wreath-charcuterie-board-jpg-s.webp"
@@ -12457,6 +12545,10 @@
 "/images/holiday-board.png": {
 "m": "/images/thumbs/holiday-board-png-m.webp",
 "s": "/images/thumbs/holiday-board-png-s.webp"
+},
+"/images/hot-cocoa-board.jpg": {
+"m": "/images/thumbs/hot-cocoa-board-jpg-m.webp",
+"s": "/images/thumbs/hot-cocoa-board-jpg-s.webp"
 },
 "/images/how-long-charcuterie-board-last.png": {
 "l": "/images/thumbs/how-long-charcuterie-board-last-png-l.webp",
@@ -14401,6 +14493,10 @@
 "/images/trader-joes-charcuterie-board.jpg": {
 "m": "/images/thumbs/trader-joes-charcuterie-board-jpg-m.webp",
 "s": "/images/thumbs/trader-joes-charcuterie-board-jpg-s.webp"
+},
+"/images/turkey-charcuterie-board.jpg": {
+"m": "/images/thumbs/turkey-charcuterie-board-jpg-m.webp",
+"s": "/images/thumbs/turkey-charcuterie-board-jpg-s.webp"
 },
 "/images/types-of-salami.png": {
 "m": "/images/thumbs/types-of-salami-png-m.webp",

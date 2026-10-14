@@ -109,6 +109,9 @@ The Christmas board is a grazing platform, not an appetizer — plan 3 oz each o
 - [Thanksgiving Charcuterie Board](https://charcuterielab.com/blog/thanksgiving-charcuterie-board/)
 - [How Much Cheese for a Charcuterie Board](https://charcuterielab.com/blog/how-much-cheese-charcuterie-board/)
 - [Bridal Shower Charcuterie Board](https://charcuterielab.com/bridal-shower-charcuterie-board/)
+- [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
+- [Hot Cocoa Board](/blog/hot-cocoa-board/)
+- [Baked Brie Recipe](/blog/baked-brie-recipe/)
 
 ## FAQ
 

@@ -344,6 +344,44 @@ function faqSchema(post) {
   return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
 }
 
+// Blog posts that are recipes (Oct 14, 2026: baked brie) carry a `recipe:`
+// frontmatter object. No aggregateRating: there are no real reader ratings.
+function parseRecipeField(value = "") {
+  const cleaned = String(value).trim().replace(/^['"]|['"]$/g, "");
+  if (!cleaned.startsWith("{")) return null;
+  try {
+    const r = JSON.parse(cleaned);
+    return r && Array.isArray(r.ingredients) && Array.isArray(r.steps) ? r : null;
+  } catch {
+    return null;
+  }
+}
+
+function recipeSchema(post, description) {
+  const r = post.recipe;
+  if (!r) return "";
+  const url = absoluteUrl(`/blog/${post.slug}/`);
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: r.name || post.title,
+    description,
+    image: [imageObject(post.image, post.title)],
+    author: authorRef,
+    datePublished: post.date,
+    ...(r.prep_time ? { prepTime: r.prep_time } : {}),
+    ...(r.cook_time ? { cookTime: r.cook_time } : {}),
+    ...(r.total_time ? { totalTime: r.total_time } : {}),
+    ...(r.yield ? { recipeYield: r.yield } : {}),
+    ...(r.category ? { recipeCategory: r.category } : {}),
+    ...(r.cuisine ? { recipeCuisine: r.cuisine } : {}),
+    keywords: post.tags.join(", "),
+    recipeIngredient: r.ingredients.map(String),
+    recipeInstructions: r.steps.map((text, i) => ({ "@type": "HowToStep", position: i + 1, text: String(text), url: `${url}#${r.anchor || "recipe"}` }))
+  };
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
 function tokenize(value = "") {
   return String(value)
     .toLowerCase()
@@ -641,6 +679,9 @@ async function loadPosts() {
           return declared.length ? declared : relatedFromBody(body);
         })(),
         faq: parseFaqField(data.faq),
+        // Optional: a JSON object for Recipe schema (name, yield, prep_time,
+        // cook_time, total_time, category, cuisine, ingredients[], steps[]).
+        recipe: parseRecipeField(data.recipe),
         // Optional: the board number in 50 Boards Built by Science this post matches
         bookBoard: data.book_board ?? "",
         body
@@ -871,7 +912,7 @@ function ingredientCard(item) {
       </li>`;
 }
 
-function ingredientsFinder(items, { heading, intro, showCategoryFilter = true }) {
+function ingredientsFinder(items, { heading, intro, note = "", showCategoryFilter = true }) {
   const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
   const roles = [...new Set(items.map((i) => i.roleGroup).filter(Boolean))].sort();
   const prices = [...new Set(items.map((i) => i.priceTier).filter(Boolean))].sort();
@@ -883,7 +924,8 @@ function ingredientsFinder(items, { heading, intro, showCategoryFilter = true })
   <div class="section-inner">
     <h1>${escapeHtml(heading)}</h1>
     <p class="ing-intro">${escapeHtml(intro)}</p>
-
+${note ? `    <p class="ing-intro ing-note">${note}</p>
+` : ""}
     <div class="ing-controls">
       <label class="ing-search-label" for="ing-search">Search ingredients</label>
       <input id="ing-search" class="ing-search" type="search" placeholder="Search ${items.length} ingredients &mdash; brie, gluten free, blue cheese&hellip;" autocomplete="off">
@@ -1041,7 +1083,9 @@ ${guideBar("guide_ingredients_hub", "Every ingredient here, in one book")}
 ${ingredientsFinder(items, {
   heading: "Ingredients",
   intro:
-    "Every ingredient a board can hold, one page each. What it is, what it pairs with and why, how to prep it, and exactly what to buy."
+    "Every ingredient a board can hold, one page each. What it is, what it pairs with and why, how to prep it, and exactly what to buy.",
+  // Trusted HTML (not escaped). Points at the newest batch of pages.
+  note: `New: <a href="/blog/unique-charcuterie-ingredients/">25 unique ingredients worth trying</a>, from spruce-wrapped Harbison to finger limes.`
 })}
   <section class="section alt">
     <div class="section-inner">
@@ -2508,7 +2552,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     type: "article",
     published: post.date,
     modified: post.updated || post.date,
-    head: `${articleSchema(post, description)}\n${faqSchema(post)}\n${breadcrumbSchema([["Home", "/"], ["Blog", "/blog/"], [post.title, `/blog/${post.slug}/`]])}`,
+    head: `${articleSchema(post, description)}\n${faqSchema(post)}\n${recipeSchema(post, description)}\n${breadcrumbSchema([["Home", "/"], ["Blog", "/blog/"], [post.title, `/blog/${post.slug}/`]])}`,
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">

@@ -76,6 +76,8 @@ Dark chocolate at 70%+ belongs on a charcuterie board as a specific, science-bac
 - [The Science of Fat and Tannin Pairing](https://charcuterielab.com/fat-tannin/)
 - [Best Nuts for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-nuts/)
 - [The Best Dark Chocolate for a Charcuterie Board, Ranked](/blog/best-dark-chocolate/)
+- [Candy Charcuterie Board](/blog/candy-charcuterie-board/)
+- [Hot Cocoa Board](/blog/hot-cocoa-board/)
 
 ## FAQ
 

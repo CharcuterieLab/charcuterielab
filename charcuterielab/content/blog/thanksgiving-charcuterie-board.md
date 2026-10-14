@@ -104,6 +104,8 @@ The Thanksgiving board succeeds when it's calibrated to its role: pre-dinner sus
 - [How Much Cheese for a Charcuterie Board](https://charcuterielab.com/how-much-cheese-charcuterie-board/)
 - [Best Crackers for a Charcuterie Board](https://charcuterielab.com/best-crackers-charcuterie-board/)
 - [Aged Gouda on a Charcuterie Board](https://charcuterielab.com/blog/aged-gouda/)
+- [Turkey Charcuterie Board](/blog/turkey-charcuterie-board/)
+- [Baked Brie Recipe](/blog/baked-brie-recipe/)
 
 ## FAQ
 

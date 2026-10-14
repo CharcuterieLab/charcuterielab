@@ -122,7 +122,9 @@
     "guests": 10
   },
   "book": "main",
-  "blog": [],
+  "blog": [
+    "candy-charcuterie-board"
+  ],
   "faq": [
     {
       "q": "What goes on an Easter charcuterie board?",

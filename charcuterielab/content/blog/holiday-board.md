@@ -125,6 +125,8 @@ Put crackers on at the last moment — no more than 30–45 minutes before servi
 - [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
 - [How to Adapt Your Charcuterie Board for Every Season](https://charcuterielab.com/seasonal-swaps/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
+- [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
+- [Baked Brie Recipe](/blog/baked-brie-recipe/)
 
 ## FAQ
 
