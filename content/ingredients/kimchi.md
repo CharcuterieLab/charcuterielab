@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "3 minutes"
 allergens: ["fish"]
 tags: ["korean", "fermented", "fusion", "spicy", "umami"]
-pairs_with: ["aged-cheddar", "pancetta", "cream-cheese", "smoked-gouda", "rice-crackers", "tortilla-chips"]
+pairs_with: ["aged-cheddar", "pancetta", "cream-cheese", "smoked-gouda", "rice-crackers", "tortilla-chips", "lap-cheong"]
 avoid_with: []
 faq: "[{"question": "Does kimchi belong on a cheese board?", "answer": "On a fusion or Korean-leaning board, absolutely. Its acid and funk do the same job as a cornichon, only louder, and it is genuinely good with aged cheddar."}, {"question": "Is kimchi vegetarian?", "answer": "Usually not — most kimchi contains fish sauce or salted shrimp. Vegan kimchi is widely available and clearly labelled."}, {"question": "How spicy is it?", "answer": "Moderate. Korean chili flake is more fragrant than fiery, and the fermentation softens it further."}, {"question": "How do I keep it from getting everywhere?", "answer": "Serve it in its own small bowl, drained, and never directly on wood. The brine stains and the smell transfers."}, {"question": "How much per person?", "answer": "About three-quarters of an ounce. It is intense."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "10 minutes"
 allergens: ["dairy", "egg"]
 tags: ["dip", "southern", "american", "make-ahead", "crowd-pleaser"]
-pairs_with: ["butter-crackers", "pepper-jelly", "pepperoncini", "aged-cheddar", "tomato-jam"]
+pairs_with: ["butter-crackers", "pepper-jelly", "pepperoncini", "aged-cheddar", "tomato-jam", "pickled-watermelon-rind"]
 avoid_with: []
 faq: "[{"question": "What is pimento cheese?", "answer": "A Southern American spread of grated sharp cheddar, mayonnaise and diced roasted red peppers, seasoned with cayenne."}, {"question": "Why grate the cheese myself?", "answer": "Pre-shredded cheddar is coated in starch to stop it clumping, which makes the spread pasty rather than creamy."}, {"question": "What crackers go with pimento cheese?", "answer": "Butter crackers like Ritz are the traditional choice. Celery sticks are the lighter option."}, {"question": "Can I make it ahead?", "answer": "Yes — it's better after an hour in the fridge and keeps five days."}, {"question": "What are pimentos?", "answer": "Sweet roasted red peppers, sold diced in jars. Mild, not spicy."}]"
 ---

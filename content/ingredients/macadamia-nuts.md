@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "luxury", "tropical", "hawaiian"]
-pairs_with: ["dried-mango", "brie", "aged-gouda", "pineapple", "fresh-chevre"]
+pairs_with: ["dried-mango", "brie", "aged-gouda", "pineapple", "fresh-chevre", "pili-nuts"]
 avoid_with: []
 faq: "[{"question": "Why are macadamia nuts so expensive?", "answer": "The shell is extremely hard and the trees take years to bear. Processing costs drive the price."}, {"question": "Are macadamias good on a cheese board?", "answer": "Yes, in small quantities. They're very rich, so they work as a luxury accent rather than the board's main nut."}, {"question": "What goes with macadamia nuts?", "answer": "Brie, aged gouda, tropical dried fruit, fresh goat cheese, and dark chocolate."}, {"question": "How much per person?", "answer": "Half an ounce. They're rich enough that people take two or three."}, {"question": "How do I store them?", "answer": "In the fridge or freezer. Their fat content makes them go rancid quickly."}]"
 ---

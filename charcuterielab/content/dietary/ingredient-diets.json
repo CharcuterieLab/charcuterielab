@@ -439,6 +439,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "baru-nuts": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "skip",
+   "why": "Sold and packed as a nut. Treat it as a nut allergen."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
  "bath-olivers": {
   "gluten-free": {
    "v": "skip",
@@ -505,6 +527,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "biltong": {
+  "gluten-free": {
+   "v": "check",
+   "why": "Some cures use malt vinegar or Worcestershire sauce. Read the label."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
  "biscotti": {
   "gluten-free": {
    "v": "skip",
@@ -543,6 +587,28 @@
   "vegan": {
    "v": "skip",
    "why": "Meat."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "black-garlic": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
   },
   "dairy-free": {
    "v": "safe",
@@ -813,6 +879,28 @@
    "why": "Contains milk."
   }
  },
+ "brunost": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "A whey cheese: no rennet is added to brunost itself, but the whey comes from rennet cheesemaking."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "bucheron": {
   "gluten-free": {
    "v": "safe",
@@ -921,6 +1009,28 @@
   "dairy-free": {
    "v": "skip",
    "why": "Made from milk."
+  }
+ },
+ "cajeta": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Goat's milk and sugar. Liquor-flavored envinada versions can vary."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Contains milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Contains milk."
   }
  },
  "cambozola": {
@@ -1181,6 +1291,28 @@
   "vegan": {
    "v": "skip",
    "why": "Fish or seafood."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "cecina": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Whole-muscle cured meat: meat, salt and time."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Meat."
   },
   "dairy-free": {
    "v": "safe",
@@ -1847,6 +1979,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "cured-egg-yolks": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "Eggs, salt and sugar. Fine for vegetarians who eat eggs."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Contains egg."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
  "danish-blue": {
   "gluten-free": {
    "v": "safe",
@@ -2332,6 +2486,28 @@
   }
  },
  "figs": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "finger-limes": {
   "gluten-free": {
    "v": "safe",
    "why": "No gluten in the usual recipe."
@@ -3035,6 +3211,28 @@
    "why": "Made from milk."
   }
  },
+ "harbison": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "harissa": {
   "gluten-free": {
    "v": "safe",
@@ -3183,6 +3381,28 @@
   "vegan": {
    "v": "skip",
    "why": "Honey isn't vegan."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "hoshigaki": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
   },
   "dairy-free": {
    "v": "safe",
@@ -3344,6 +3564,28 @@
   }
  },
  "jarlsberg": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
+ "juustoleipa": {
   "gluten-free": {
    "v": "safe",
    "why": "Plain cheese is naturally gluten-free."
@@ -3541,6 +3783,28 @@
    "why": "Made from milk."
   }
  },
+ "lap-cheong": {
+  "gluten-free": {
+   "v": "check",
+   "why": "Most brands use soy sauce made with wheat. Read the label."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "dairy-free": {
+   "v": "check",
+   "why": "Some brands add milk powder or lactose as a binder."
+  }
+ },
  "lardo": {
   "gluten-free": {
    "v": "safe",
@@ -3689,6 +3953,28 @@
   "vegan": {
    "v": "skip",
    "why": "Meat."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "lupini-beans": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "check",
+   "why": "Lupin is a legume related to peanuts. Some people with peanut allergies react to it."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
   },
   "dairy-free": {
    "v": "safe",
@@ -4069,6 +4355,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "midnight-moon": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "mimolette": {
   "gluten-free": {
    "v": "safe",
@@ -4129,6 +4437,28 @@
   "vegan": {
    "v": "safe",
    "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "mojama": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cured or smoked fish has no gluten. Check tins packed in sauce."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "skip",
+   "why": "Fish or seafood."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Fish or seafood."
   },
   "dairy-free": {
    "v": "safe",
@@ -4685,6 +5015,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "pastirma": {
+  "gluten-free": {
+   "v": "check",
+   "why": "The spice paste is usually just fenugreek, garlic and paprika, but recipes vary. Read the label."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Meat."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
  "pastrami": {
   "gluten-free": {
    "v": "check",
@@ -5103,6 +5455,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "pickled-quail-eggs": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "Eggs and brine. Fine for vegetarians who eat eggs."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Contains egg."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
  "pickled-red-onions": {
   "gluten-free": {
    "v": "safe",
@@ -5111,6 +5485,50 @@
   "nut-free": {
    "v": "safe",
    "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "pickled-watermelon-rind": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "pili-nuts": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
+  },
+  "nut-free": {
+   "v": "skip",
+   "why": "Contains tree nuts."
   },
   "vegetarian": {
    "v": "safe",
@@ -5233,6 +5651,28 @@
   "dairy-free": {
    "v": "safe",
    "why": "No milk in the usual recipe."
+  }
+ },
+ "pistachio-cream": {
+  "gluten-free": {
+   "v": "check",
+   "why": "Usually gluten-free; some brands are made on shared lines."
+  },
+  "nut-free": {
+   "v": "skip",
+   "why": "Contains tree nuts."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Contains milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Contains milk."
   }
  },
  "pistachios": {
@@ -5829,6 +6269,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "rogue-river-blue": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "romesco": {
   "gluten-free": {
    "v": "check",
@@ -5987,6 +6449,28 @@
   "gluten-free": {
    "v": "skip",
    "why": "Contains rye, gluten, wheat."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "saba": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
   },
   "nut-free": {
    "v": "safe",
@@ -6643,6 +7127,28 @@
    "why": "Some brands add milk powder or lactose as a binder."
   }
  },
+ "tete-de-moine": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "tinned-mackerel": {
   "gluten-free": {
    "v": "check",
@@ -6729,6 +7235,28 @@
   "dairy-free": {
    "v": "skip",
    "why": "Made from milk."
+  }
+ },
+ "tortas-de-aceite": {
+  "gluten-free": {
+   "v": "skip",
+   "why": "Contains wheat, gluten."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "The original recipe has no dairy or eggs. Check flavored versions."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "The original recipe is olive oil, flour, sugar, sesame, anise and salt."
   }
  },
  "tortilla-chips": {
@@ -7109,6 +7637,28 @@
   "gluten-free": {
    "v": "skip",
    "why": "Contains wheat, gluten."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "safe",
+   "why": "No meat or fish in the usual recipe."
+  },
+  "vegan": {
+   "v": "safe",
+   "why": "Plant-based in the usual recipe."
+  },
+  "dairy-free": {
+   "v": "safe",
+   "why": "No milk in the usual recipe."
+  }
+ },
+ "yuzu-kosho": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "No gluten in the usual recipe."
   },
   "nut-free": {
    "v": "safe",

@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["luxury", "seafood", "special-occasion", "roe", "celebration"]
-pairs_with: ["blini", "mascarpone", "smoked-salmon", "brioche-toast-points", "cream-cheese", "boquerones"]
+pairs_with: ["blini", "mascarpone", "smoked-salmon", "brioche-toast-points", "cream-cheese", "boquerones", "finger-limes"]
 avoid_with: []
 faq: "[{"question": "What is the difference between caviar and roe?", "answer": "Strictly, caviar is salt-cured sturgeon roe. Salmon, trout and lumpfish roe are roe, and are a tenth of the price."}, {"question": "Why should you not use a metal spoon?", "answer": "Metal reacts with the roe and adds a faint metallic taste. Mother-of-pearl, bone or plastic does not."}, {"question": "What does malossol mean?", "answer": "Lightly salted, in Russian. It is the standard for good caviar — less salt, shorter shelf life, better flavour."}, {"question": "What is a good caviar to start with?", "answer": "Farmed ossetra is the usual entry point. For a board on a budget, trout or salmon roe delivers most of the effect for a fraction of the cost."}, {"question": "How much per person?", "answer": "Half an ounce is generous. An ounce shared between two people is a real serving."}]"
 ---

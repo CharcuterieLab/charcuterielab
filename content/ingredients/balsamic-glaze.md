@@ -13,7 +13,7 @@ serving_per_person: "a drizzle"
 prep_time: "2 minutes"
 allergens: ["sulphites"]
 tags: ["finishing", "italian", "budget", "beginner", "crowd-pleaser"]
-pairs_with: ["burrata", "fresh-mozzarella", "berries", "parmigiano-reggiano", "prosciutto-di-parma"]
+pairs_with: ["burrata", "fresh-mozzarella", "berries", "parmigiano-reggiano", "prosciutto-di-parma", "saba"]
 avoid_with: []
 faq: "[{"question": "What is balsamic glaze?", "answer": "Balsamic vinegar reduced to a syrup, sometimes with added sugar. Thick enough to drizzle and stay put."}, {"question": "Can I make it myself?", "answer": "Yes. Simmer a cup of ordinary balsamic for 10–15 minutes until it coats a spoon. It thickens further as it cools."}, {"question": "What do you drizzle it on?", "answer": "Burrata, fresh mozzarella, berries, Parmigiano-Reggiano, and prosciutto with melon."}, {"question": "Is glaze the same as traditional balsamic?", "answer": "No. Traditional aceto balsamico is aged for over a decade and is naturally syrupy. A glaze is a reduction, often sweetened, at a fraction of the price."}, {"question": "Does it contain allergens?", "answer": "Sulphites, as with most vinegars — worth noting for sensitive guests."}]"
 ---

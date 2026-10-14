@@ -195,6 +195,19 @@ OVERRIDES = {
     "spiced-nut-mix": {"vegan": ("check", "Some mixes use butter or egg white."), "dairy-free": ("check", "Some mixes use butter.")},
     "nut-brittle": {"vegan": ("check", "Most brittle uses butter."), "dairy-free": ("check", "Most brittle uses butter.")},
     "baba-ganoush": {"vegan": ("check", "Usually vegan; some versions add yogurt."), "dairy-free": ("check", "Usually dairy-free; some versions add yogurt.")},
+    # 25 unique ingredients (13 Oct 2026)
+    "lap-cheong": {"gluten-free": ("check", "Most brands use soy sauce made with wheat. Read the label.")},
+    "biltong": {"gluten-free": ("check", "Some cures use malt vinegar or Worcestershire sauce. Read the label.")},
+    "pastirma": {"gluten-free": ("check", "The spice paste is usually just fenugreek, garlic and paprika, but recipes vary. Read the label.")},
+    "brunost": {"vegetarian": ("check", "A whey cheese: no rennet is added to brunost itself, but the whey comes from rennet cheesemaking.")},
+    "tortas-de-aceite": {"dairy-free": ("safe", "The original recipe is olive oil, flour, sugar, sesame, anise and salt."),
+                         "vegan": ("safe", "The original recipe has no dairy or eggs. Check flavored versions.")},
+    "lupini-beans": {"nut-free": ("check", "Lupin is a legume related to peanuts. Some people with peanut allergies react to it.")},
+    "baru-nuts": {"nut-free": ("skip", "Sold and packed as a nut. Treat it as a nut allergen.")},
+    "pistachio-cream": {"gluten-free": ("check", "Usually gluten-free; some brands are made on shared lines.")},
+    "cured-egg-yolks": {"vegetarian": ("safe", "Eggs, salt and sugar. Fine for vegetarians who eat eggs.")},
+    "pickled-quail-eggs": {"vegetarian": ("safe", "Eggs and brine. Fine for vegetarians who eat eggs.")},
+    "cajeta": {"gluten-free": ("safe", "Goat's milk and sugar. Liquor-flavored envinada versions can vary.")},
 }
 
 def main():

@@ -13,7 +13,7 @@ serving_per_person: "1–2 pieces"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten", "dairy"]
 tags: ["norwegian", "midwest", "soft", "holiday"]
-pairs_with: ["cocktail-rye", "rye-crispbread", "lavash", "cream-cheese", "smoked-salmon", "genoa-salami"]
+pairs_with: ["cocktail-rye", "rye-crispbread", "lavash", "cream-cheese", "smoked-salmon", "genoa-salami", "brunost"]
 avoid_with: ["thick-dips", "dry-aged-cheese"]
 faq: "[{"question": "What is lefse?", "answer": "A Norwegian flatbread made from riced potato, rolled very thin and griddled. Soft and pliable rather than crisp."}, {"question": "Is it sweet or savory?", "answer": "Neutral, leaning faintly sweet. It's traditionally eaten with butter and sugar, but it works savory with smoked salmon and cured meats."}, {"question": "Where do I buy it?", "answer": "The refrigerated section in Upper Midwest grocery stores, Scandinavian specialty shops, or online. Availability peaks in autumn and December."}, {"question": "How many per person?", "answer": "1–2 wedges, or 3–4 pinwheels if you roll them."}, {"question": "How is it different from a tortilla?", "answer": "Potato instead of corn or wheat as the base, plus butter and cream. Softer, richer and faintly sweet."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "american", "southern", "ham"]
-pairs_with: ["jamon-serrano", "prosciutto-di-parma", "aged-cheddar", "oatcakes", "maytag-blue"]
+pairs_with: ["jamon-serrano", "prosciutto-di-parma", "aged-cheddar", "oatcakes", "maytag-blue", "pickled-quail-eggs"]
 avoid_with: ["smoked-gouda", "delicate-fresh-cheese"]
 faq: "[{"question": "Can you eat country ham raw?", "answer": "Long-aged ones, yes — they're dry-cured like prosciutto. Short-cured supermarket slices are meant to be fried."}, {"question": "Why is it so salty?", "answer": "It was developed to survive hot Southern summers without refrigeration. High salt was the whole preservation strategy."}, {"question": "How is it different from prosciutto?", "answer": "Saltier, usually smoked, and often funkier. The best long-aged versions are comparable in quality but very different in character."}, {"question": "How much per person?", "answer": "Under an ounce, sliced very thin."}, {"question": "What's the classic pairing?", "answer": "A buttermilk biscuit. Fat and soft starch are what make the salt work."}]"
 ---

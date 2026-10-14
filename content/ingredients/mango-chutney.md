@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["condiment", "chutney", "indian", "british", "budget"]
-pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "oatcakes", "coppa"]
+pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "oatcakes", "coppa", "biltong"]
 avoid_with: []
 faq: "[{"question": "What cheese goes with mango chutney?", "answer": "Mature cheddar above all, plus stilton and other blues, and fresh goat cheese."}, {"question": "What is Major Grey's chutney?", "answer": "A style rather than a brand — the sweet, mild Anglo-Indian mango chutney sold in most supermarkets."}, {"question": "Is chutney the same as jam?", "answer": "No. Chutney has vinegar and spice as well as sugar, so it's sour and savoury as well as sweet."}, {"question": "What crackers go with chutney?", "answer": "Sturdy ones — oatcakes and digestive biscuits. Thin water crackers snap under it."}, {"question": "How much per person?", "answer": "About half an ounce, spooned rather than spread."}]"
 ---

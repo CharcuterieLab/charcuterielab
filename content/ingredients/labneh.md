@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: ["dairy"]
 tags: ["middle-eastern", "mezze", "vegetarian", "dips", "fresh"]
-pairs_with: ["harissa", "za-atar", "preserved-lemons", "olive-oil", "pita-chips", "kalamata-olives"]
+pairs_with: ["harissa", "za-atar", "preserved-lemons", "olive-oil", "pita-chips", "kalamata-olives", "pastirma"]
 avoid_with: []
 faq: "[{"question": "Is labneh a cheese or a yogurt?", "answer": "Technically a fresh cheese — it is yogurt with the whey strained out. It sits in the spread section of a board rather than the cheese section."}, {"question": "Can I make labneh at home?", "answer": "Yes, and it is the easiest cheese there is. Salt full-fat yogurt, tie it in cheesecloth and hang it in the fridge overnight."}, {"question": "What do you put on labneh?", "answer": "Olive oil and za'atar is the classic. Harissa, sumac, chili oil or honey all work."}, {"question": "What is the difference between labneh and Greek yogurt?", "answer": "Labneh is strained further, so it is thicker and more sour. Greek yogurt is a reasonable substitute if you strain it another few hours."}, {"question": "How much per person?", "answer": "About an ounce. People take more of it than any other spread on the board."}]"
 ---

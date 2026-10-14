@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "15 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "beef", "lean"]
-pairs_with: ["bundnerfleisch", "prosciutto-di-parma", "parmigiano-reggiano", "olive-oil-crackers", "burrata"]
+pairs_with: ["bundnerfleisch", "prosciutto-di-parma", "parmigiano-reggiano", "olive-oil-crackers", "burrata", "cecina"]
 avoid_with: ["smoked-cheese", "blue-cheese"]
 faq: "[{"question": "Is bresaola beef or pork?", "answer": "Beef — usually eye of round. It's one of the few non-pork items in the cured meat case."}, {"question": "Does it need to be dressed?", "answer": "Effectively yes. Lemon, olive oil and pepper. Plain bresaola is dry and underwhelming."}, {"question": "Why does it dry out so fast?", "answer": "Almost no fat. Nothing protects the cut surface, so slices curl within about fifteen minutes."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's lean, intense and expensive."}, {"question": "Is it healthier than other charcuterie?", "answer": "Much leaner and lower in fat, though still high in salt. It's the light option on a heavy board."}]"
 ---

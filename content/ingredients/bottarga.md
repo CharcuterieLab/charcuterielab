@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["seafood", "italian", "umami", "specialty"]
-pairs_with: ["anchovies", "sardines", "pane-carasau", "olive-oil-crackers", "burrata"]
+pairs_with: ["anchovies", "sardines", "pane-carasau", "olive-oil-crackers", "burrata", "mojama"]
 avoid_with: ["delicate-fresh-cheese", "blue-cheese", "smoked-cheese"]
 faq: "[{"question": "What is bottarga?", "answer": "Salt-cured, pressed and dried fish roe — usually grey mullet or tuna — sold as a firm block and shaved thin."}, {"question": "Mullet or tuna?", "answer": "Mullet is finer, more delicate and more expensive. Tuna is stronger, coarser and cheaper. Mullet first."}, {"question": "How much do I serve?", "answer": "About a quarter ounce per person. It's the most concentrated item here."}, {"question": "Do I need olive oil with it?", "answer": "Yes. Fat and acid are what carry the flavour — plain bottarga on a dry cracker just reads as salt."}, {"question": "Is it like caviar?", "answer": "No. Caviar is loose fresh eggs; bottarga is the whole sac, pressed and dried into a firm block. Completely different texture and use."}]"
 ---

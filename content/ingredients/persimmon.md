@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "autumn", "seasonal"]
-pairs_with: ["prosciutto-di-parma", "manchego", "fresh-chevre", "walnuts", "gorgonzola"]
+pairs_with: ["prosciutto-di-parma", "manchego", "fresh-chevre", "walnuts", "gorgonzola", "hoshigaki"]
 avoid_with: []
 faq: "[{"question": "Fuyu or Hachiya?", "answer": "Fuyu. It's squat and tomato-shaped and you eat it firm. Hachiya is pointed and astringent until it's almost liquid."}, {"question": "Do I peel it?", "answer": "No. The skin is thin, edible, and holds each slice together."}, {"question": "When is persimmon in season?", "answer": "October through December in the northern hemisphere. Out of season they're expensive and bland."}, {"question": "Why does my persimmon dry my mouth out?", "answer": "It's an underripe Hachiya. Tannins. Let it get jam-soft and it disappears."}, {"question": "How much per person?", "answer": "1–2 oz — half a persimmon serves two or three people on a mixed board."}]"
 ---

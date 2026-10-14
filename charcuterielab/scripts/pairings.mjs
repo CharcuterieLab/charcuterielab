@@ -332,7 +332,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     url: "/pairings/",
     title: "Charcuterie Pairing Guide: Wine, Beer & Food Pairings",
     name: "Charcuterie Pairings: Find What Goes With Anything",
-    description: "Find what goes with any cheese, meat, wine or beer. An interactive pairing finder for 325 ingredients and 20 drinks, plus the six rules that explain why pairings work.",
+    description: "Find what goes with any cheese, meat, wine or beer. An interactive pairing finder for 350 ingredients and 20 drinks, plus the six rules that explain why pairings work.",
     crumbs: [["Pairings", "/pairings/"]],
     image: photo("pairings-hero"),
     faq: hubFaq,

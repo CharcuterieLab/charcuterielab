@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "3 minutes"
 allergens: ["mustard"]
 tags: ["condiment", "italian", "unique", "luxury", "holiday"]
-pairs_with: ["parmigiano-reggiano", "gorgonzola", "pecorino-romano", "mortadella", "aged-gouda"]
+pairs_with: ["parmigiano-reggiano", "gorgonzola", "pecorino-romano", "mortadella", "aged-gouda", "harbison"]
 avoid_with: []
 faq: "[{"question": "What is mostarda?", "answer": "An Italian preserve of candied fruit in a mustard-spiked syrup. Sweet first, then a sharp mustard heat in the nose."}, {"question": "What cheese goes with mostarda?", "answer": "Parmigiano-Reggiano above all, plus gorgonzola, pecorino romano, and aged gouda."}, {"question": "Is mostarda spicy?", "answer": "It has a sharp mustard pungency that hits the sinuses rather than the tongue. Cremona-style is the strongest; pear and fig versions are much milder."}, {"question": "Is it the same as mustard fruit?", "answer": "Yes — \"mustard fruits\" is the English name for the same product."}, {"question": "How much per person?", "answer": "About half an ounce, with some of the syrup."}]"
 ---

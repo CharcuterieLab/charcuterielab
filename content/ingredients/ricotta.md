@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes if whipped"
 allergens: ["dairy"]
 tags: ["cheese", "fresh", "italian", "budget"]
-pairs_with: ["mascarpone", "fresh-mozzarella", "crostini", "focaccia", "prosciutto-di-parma", "genoa-salami", "blood-oranges", "mandarins", "grapefruit", "passion-fruit", "honey", "flaky-sea-salt", "olive-oil", "edible-flowers", "biscotti", "amaretti", "pizzelle"]
+pairs_with: ["mascarpone", "fresh-mozzarella", "crostini", "focaccia", "prosciutto-di-parma", "genoa-salami", "blood-oranges", "mandarins", "grapefruit", "passion-fruit", "honey", "flaky-sea-salt", "olive-oil", "edible-flowers", "biscotti", "amaretti", "pizzelle", "pistachio-cream"]
 avoid_with: ["strong-cured-meat", "blue-cheese"]
 faq: "[{"question": "Should I whip ricotta for a cheese board?", "answer": "Yes. Five minutes in a food processor with oil and salt turns a grainy tub into a silky spread. It's the difference between ignored and finished first."}, {"question": "What is ricotta actually made from?", "answer": "Whey left over from making other cheeses, reheated so the remaining proteins coagulate."}, {"question": "Is ricotta the same as cottage cheese?", "answer": "No. Cottage cheese is made from milk curds and has larger, wetter lumps. Ricotta is finer and made from whey."}, {"question": "How much per person?", "answer": "1–2 oz. A 15 oz tub serves eight to ten."}, {"question": "What's ricotta salata?", "answer": "Ricotta that's been pressed, salted and aged into a firm, grateable cheese. A different ingredient with a different use."}]"
 ---
