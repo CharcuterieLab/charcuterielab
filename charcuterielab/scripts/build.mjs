@@ -558,6 +558,15 @@ function markdownToHtml(markdown) {
       continue;
     }
 
+    // Small photo floated beside a list entry: ![alt](/images/x.jpg "thumb").
+    // Put it on its own line straight after the heading it belongs to.
+    const thumbImage = line.match(/^!\[(.*?)\]\((\S+?)\s+"thumb"\)$/);
+    if (thumbImage) {
+      html.push(`<img class="post-thumb" src="${escapeHtml(thumb(thumbImage[2], "s"))}" alt="${escapeHtml(thumbImage[1])}"${imageSize(thumb(thumbImage[2], "s"))} loading="lazy" decoding="async">`);
+      i += 1;
+      continue;
+    }
+
     const image = line.match(/^!\[(.*?)\]\((.+?)\)$/);
     if (image) {
       html.push(`<img class="post-inline-image" src="${escapeHtml(thumb(image[2], "l"))}" alt="${escapeHtml(image[1])}"${imageSize(thumb(image[2], "l"))} loading="lazy" decoding="async">`);

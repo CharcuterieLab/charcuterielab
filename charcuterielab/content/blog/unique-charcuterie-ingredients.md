@@ -25,6 +25,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 1. Harbison: the cheese you eat with a spoon
 
+![Harbison: small soft cheese wrapped in a band of bark, top rind lifted off to show spoonable ivory paste, a spoonful beside it, on a marble slab](/images/ingredients/harbison.jpg "thumb")
+
 [**Harbison**](https://charcuterielab.com/ingredients/harbison/) is a small Vermont cheese from Jasper Hill Farm, wrapped in a band of spruce bark. At room temperature the inside goes custard-soft, so you slice off the top and set out spoons.
 
 **Why it works:** the bark flavors the cheese with a woodsy, resinous note and holds the soft paste together. Nothing else on a board is eaten this way.
@@ -32,6 +34,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** one 9 oz wheel for 8 to 10 people, tempered for about an hour.
 
 ### 2. Rogue River Blue: a seasonal blue in grape leaves
+
+![Rogue River Blue: blue-veined wedge wrapped in dark soaked grape leaves, halved pear and a drizzle of honey, on a marble slab](/images/ingredients/rogue-river-blue.jpg "thumb")
 
 [**Rogue River Blue**](https://charcuterielab.com/ingredients/rogue-river-blue/) is an Oregon blue wrapped in Syrah grape leaves soaked in pear spirits. It's released once a year on the autumnal equinox, and it was named World Champion at the 2019 World Cheese Awards.
 
@@ -41,6 +45,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 3. Brunost: cheese that tastes like caramel
 
+![Brunost: smooth caramel-brown block with a cheese plane lifting a thin shaving, curled shavings, apple slices and crispbread, on a marble slab](/images/ingredients/brunost.jpg "thumb")
+
 [**Brunost**](https://charcuterielab.com/ingredients/brunost/) is Norway's brown cheese, made by boiling whey until its milk sugar caramelizes. Ski Queen is the easy US brand.
 
 **Why it works:** it's the only cheese that's genuinely sweet, so it bridges the cheese and dessert sides of a board. Shave it thin with a cheese plane and serve it with apples.
@@ -48,6 +54,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about 0.5 oz per person, in paper-thin curls.
 
 ### 4. Tête de Moine: cheese shaved into flowers
+
+![Tête de Moine: ruffled pale yellow cheese rosettes in front of a girolle holding the cheese drum, grapes and walnuts, on a marble slab](/images/ingredients/tete-de-moine.jpg "thumb")
 
 [**Tête de Moine**](https://charcuterielab.com/ingredients/tete-de-moine/) is a Swiss monastery cheese scraped with a girolle into ruffled rosettes. Costco sells the rosettes ready-made.
 
@@ -57,6 +65,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 5. Midnight Moon: the goat cheese for goat cheese skeptics
 
+![Midnight Moon: ivory-white aged goat gouda wedge with a black rind, broken shards, dried apricots and walnuts, on a marble slab](/images/ingredients/midnight-moon.jpg "thumb")
+
 [**Midnight Moon**](https://charcuterielab.com/ingredients/midnight-moon/) is an aged goat's milk gouda from Cypress Grove, ivory and crunchy with crystals.
 
 **Why it works:** aging and the gouda method turn goat's milk tang into brown butter and caramel. Put it next to a cow's milk aged gouda and ask guests to guess which is goat.
@@ -64,6 +74,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about 1 oz per person.
 
 ### 6. Juustoleipä: warm, squeaky bread cheese
+
+![Juustoleipä: warm fingers of bread cheese with toasted brown spots, cherry preserves and black coffee, on a marble slab](/images/ingredients/juustoleipa.jpg "thumb")
 
 [**Juustoleipä**](https://charcuterielab.com/ingredients/juustoleipa/), or Finnish bread cheese, is baked until its surface is spotted like toast. Warm it in a pan and it softens and squeaks without melting.
 
@@ -75,6 +87,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 7. Cecina: Spain's smoked cured beef
 
+![Cecina: thin, lean deep-red slices of cured beef fanned with olive oil and a dusting of paprika, Manchego and almonds, on a walnut board](/images/ingredients/cecina.jpg "thumb")
+
 [**Cecina**](https://charcuterielab.com/ingredients/cecina/) is beef that's salted, smoked over oak and air-dried for months, then sliced like jamón.
 
 **Why it works:** it's darker and smokier than bresaola, and it gives guests who skip pork a true luxury cured meat. Drizzle it with olive oil the Spanish way.
@@ -82,6 +96,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about 1 oz per person.
 
 ### 8. Lap cheong: sweet Chinese sausage
+
+![Lap cheong: two whole cured sausage links tied with string and seared diagonal slices, kimchi and rice crackers, on a walnut board](/images/ingredients/lap-cheong.jpg "thumb")
 
 [**Lap cheong**](https://charcuterielab.com/ingredients/lap-cheong/) is cured pork sausage seasoned with sugar, soy sauce and rose wine. It has to be cooked, which is the point: seared slices caramelize at the edges.
 
@@ -91,6 +107,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 9. Biltong: jerky's grown-up cousin
 
+![Biltong: spice-crusted dried beef slices in a ramekin and a whole stick cut to show the red center, mango chutney, on a walnut board](/images/ingredients/biltong.jpg "thumb")
+
 [**Biltong**](https://charcuterielab.com/ingredients/biltong/) is South African beef cured in vinegar and coriander and air-dried without heat.
 
 **Why it works:** the vinegar makes it tangy and the lack of heat keeps it tender. It's high in protein and usually low in sugar, so it's ideal for keto and game-day boards.
@@ -99,6 +117,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 10. Mojama: the sea's version of jamón
 
+![Mojama: dark block of cured tuna loin and a row of thin garnet slices in olive oil, Marcona almonds and green olives, on a walnut board](/images/ingredients/mojama.jpg "thumb")
+
 [**Mojama**](https://charcuterielab.com/ingredients/mojama/) is salt-cured, air-dried tuna loin from Andalusia, sliced paper-thin and dressed with olive oil.
 
 **Why it works:** drying concentrates tuna's natural savory compounds, so each thin slice tastes meaty and deep. Pair it with Marcona almonds for the classic Spanish bite.
@@ -106,6 +126,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about 0.5 oz per person.
 
 ### 11. Pastirma: spice-crusted cured beef
+
+![Pastirma: thin slices of dark red cured beef edged with rusty spice paste, the crusted whole piece, labneh, olives and pita, on a walnut board](/images/ingredients/pastirma.jpg "thumb")
 
 [**Pastirma**](https://charcuterielab.com/ingredients/pastirma/) is Armenian and Turkish beef, pressed, dried and coated in a paste of fenugreek, garlic and paprika.
 
@@ -117,6 +139,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 12. Finger limes: citrus caviar
 
+![Finger limes: slim green and purple-black limes, halves spilling pink and green caviar-like pearls, a spoonful of pearls, on a cream plate](/images/ingredients/finger-limes.jpg "thumb")
+
 [**Finger limes**](https://charcuterielab.com/ingredients/finger-limes/) are small Australian limes filled with tiny juice pearls. Cut one in half and squeeze, and the pearls spill out like green or pink caviar.
 
 **Why it works:** each pearl holds its juice until you bite, so you can top cheese or salmon with acid that won't make anything soggy.
@@ -124,6 +148,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about a quarter lime per person, spooned over burrata or smoked salmon.
 
 ### 13. Hoshigaki: hand-massaged dried persimmon
+
+![Hoshigaki: whole dried persimmons dusted with white sugar bloom, stems and twine still on, sliced rounds, blue cheese and walnuts, on a cream plate](/images/ingredients/hoshigaki.jpg "thumb")
 
 [**Hoshigaki**](https://charcuterielab.com/ingredients/hoshigaki/) are Japanese persimmons hung to dry for weeks and massaged by hand, until they're jammy inside and frosted with natural sugar.
 
@@ -135,6 +161,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 14. Pili nuts: the most buttery nut there is
 
+![Pili nuts: long pointed ivory kernels with flecks of brown skin in a stoneware bowl, pink salt and dark chocolate, on linen](/images/ingredients/pili-nuts.jpg "thumb")
+
 [**Pili nuts**](https://charcuterielab.com/ingredients/pili-nuts/) come from the Philippines. They're roughly 70 percent fat, so sprouted ones almost melt on the tongue.
 
 **Why it works:** high fat and low carbs make them a keto favorite, and the soft texture surprises people who expect crunch.
@@ -142,6 +170,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about 0.5 oz per person, in their own small dish.
 
 ### 15. Baru nuts: roasty seeds from Brazil
+
+![Baru nuts: roasted oval nuts with papery brown skins flaking to show golden kernels, in a stoneware bowl with dark chocolate, on linen](/images/ingredients/baru-nuts.jpg "thumb")
 
 [**Baru nuts**](https://charcuterielab.com/ingredients/baru-nuts/) are wild-harvested from Brazil's Cerrado savanna and taste like a peanut crossed with a cashew, with a cocoa finish.
 
@@ -153,6 +183,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 16. Pistachio cream: the trendy Sicilian spread
 
+![Pistachio cream: glossy pale green spread topped with chopped pistachios, a wooden spreader, biscotti and ricotta, on marble](/images/ingredients/pistachio-cream.jpg "thumb")
+
 [**Pistachio cream**](https://charcuterielab.com/ingredients/pistachio-cream/) is a sweet, silky spread of ground pistachios and sugar, best known from Bronte in Sicily.
 
 **Why it works:** swirled into ricotta or served with biscotti, it turns the dessert corner into an Italian pastry shop.
@@ -160,6 +192,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about a tablespoon per person.
 
 ### 17. Yuzu kosho: citrus, chili and salt in one dab
+
+![Yuzu kosho: a teaspoon of coarse green citrus chili paste in a small dish, a bumpy yuzu and its cut half, a green chili and burrata, on marble](/images/ingredients/yuzu-kosho.jpg "thumb")
 
 [**Yuzu kosho**](https://charcuterielab.com/ingredients/yuzu-kosho/) is a Japanese paste of yuzu peel, fresh chilies and salt.
 
@@ -169,6 +203,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 18. Cajeta: Mexican goat's milk caramel
 
+![Cajeta: glossy dark amber goat's milk caramel dripping from a wooden spreader, green apple slices and Cotija, on marble](/images/ingredients/cajeta.jpg "thumb")
+
 [**Cajeta**](https://charcuterielab.com/ingredients/cajeta/) is goat's milk and sugar cooked down into a dark, glossy caramel. Coronado is the classic brand.
 
 **Why it works:** it's deeper and a little tangier than dulce de leche, and salty cheese like cotija or Manchego with a spoonful of it is irresistible. Apple slices make the easiest dipper.
@@ -176,6 +212,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about a tablespoon per person, warmed slightly.
 
 ### 19. Black garlic: sweet, not sharp
+
+![Black garlic: a head of black garlic split open, a bowl of glossy black cloves, a spreader of mashed garlic and fresh goat cheese, on marble](/images/ingredients/black-garlic.jpg "thumb")
 
 [**Black garlic**](https://charcuterielab.com/ingredients/black-garlic/) is garlic held in warm, humid heat for weeks until the cloves turn black, soft and sweet.
 
@@ -187,6 +225,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 20. Lupini beans: the olive bowl alternative
 
+![Lupini beans: glossy golden brined beans with chili flakes and lemon zest, popped beans, empty skins and green olives, on grey wood](/images/ingredients/lupini-beans.jpg "thumb")
+
 [**Lupini beans**](https://charcuterielab.com/ingredients/lupini-beans/) are big golden brined beans that you pop out of their skins. Cento sells them in jars.
 
 **Why it works:** they're firm, salty, high in protein and fun to eat. One caution: lupin is related to peanuts, so warn guests with peanut allergies.
@@ -195,6 +235,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 21. Pickled quail eggs: one perfect bite
 
+![Pickled quail eggs: ivory and beet-pink peeled eggs, halves showing yolks, speckled raw quail eggs and jalapeño rings, on grey wood](/images/ingredients/pickled-quail-eggs.jpg "thumb")
+
 [**Pickled quail eggs**](https://charcuterielab.com/ingredients/pickled-quail-eggs/) are tiny eggs pickled in a spiced or jalapeño brine.
 
 **Why it works:** quail eggs have more yolk for their size than chicken eggs, so each one tastes like a rich deviled egg. Halve a few to show the yolks.
@@ -202,6 +244,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** one or two eggs per person.
 
 ### 22. Pickled watermelon rind: a Southern heirloom
+
+![Pickled watermelon rind: translucent green-gold cubes with pink edges in syrup with cinnamon and cloves, country ham and saltines, on grey wood](/images/ingredients/pickled-watermelon-rind.jpg "thumb")
 
 [**Pickled watermelon rind**](https://charcuterielab.com/ingredients/pickled-watermelon-rind/) is the white part of the rind simmered in sweet, spiced vinegar until it turns translucent.
 
@@ -213,6 +257,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 23. Saba: balsamic's sweet ancestor
 
+![Saba: dark grape syrup drizzled over chunks of Parmigiano-Reggiano, a glass cruet and fresh figs, on marble](/images/ingredients/saba.jpg "thumb")
+
 [**Saba**](https://charcuterielab.com/ingredients/saba/) is fresh grape juice cooked down to a dark, glossy syrup, never turned into vinegar.
 
 **Why it works:** it does what balsamic glaze does on Parmigiano-Reggiano or ricotta, with a rounder, grapier flavor.
@@ -221,6 +267,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 
 ### 24. Cured egg yolks: grated golden umami
 
+![Cured egg yolks: firm translucent amber yolks, one partly grated, golden shavings on burrata and toast, on marble](/images/ingredients/cured-egg-yolks.jpg "thumb")
+
 [**Cured egg yolks**](https://charcuterielab.com/ingredients/cured-egg-yolks/) are yolks buried in salt and sugar for about a week until they're firm enough to grate.
 
 **Why it works:** grated over burrata or crostini they fall like golden snow and taste rich and savory, like an eggy parmesan. They cost pennies to make.
@@ -228,6 +276,8 @@ One rule before the list: **use two or three, not twenty-five.** These work by c
 **Serve:** about half a yolk per person. Start a week before the party.
 
 ### 25. Tortas de aceite: Spanish olive oil crisps
+
+![Tortas de aceite: thin blistered olive oil crisps with sugar and sesame, broken shards, one in plain wax paper, Manchego and chocolate, on an oak board](/images/ingredients/tortas-de-aceite.jpg "thumb")
 
 [**Tortas de aceite**](https://charcuterielab.com/ingredients/tortas-de-aceite/) are thin, flaky crisps from Seville, made with olive oil, anise and sesame. Inés Rosales has made them by hand since 1910.
 
