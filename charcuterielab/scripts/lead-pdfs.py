@@ -306,6 +306,136 @@ def cheese_card():
     return path
 
 
+
+# ------------------------------------------------- store shopping lists
+def oz_text(oz):
+    oz = int(oz)
+    if oz < 16:
+        return f"{oz} oz"
+    lb, r = divmod(oz, 16)
+    return f"{lb} lb" + (f" {r} oz" if r else "")
+
+
+def ranking(slug):
+    md = open(os.path.join(ROOT, "content", "blog", slug + ".md"), encoding="utf-8").read()
+    rows = re.findall(r"^\|\s*\d+\.\s*\*\*(.+?)\*\*\s*\((\$+)\)\s*\|\s*[^|]*?([\d.]+)\s*\|\s*([^|]+?)\s*\|", md, re.M)
+    return [(n, t, float(sc), f) for n, t, sc, f in rows]
+
+
+def store_lists():
+    """One free 2-page shopping list per store guide (Oct 14, 2026)."""
+    import math
+    data = json.load(open(os.path.join(ROOT, "src", "data", "store-lists.json"), encoding="utf-8"))["stores"]
+    NS = (8, 12, 20)
+    P = plans_for(list(NS))
+    out = os.path.join(OUT, "stores")
+    os.makedirs(out, exist_ok=True)
+    made = []
+    colx = [W - M - 150, W - M - 100, W - M - 50]
+    for st in data:
+        name = st["store"]
+        path = os.path.join(out, f"{st['key']}-shopping-list.pdf")
+        c = canvas.Canvas(path, pagesize=letter)
+        c.setTitle(f"{name} charcuterie board shopping list"); c.setAuthor("Charcuterie Lab")
+        foot = f"charcuterielab.com/blog/{st['guide']}  ·  Food out no more than 2 hours (1 hour above 90°F), per USDA."
+        # ---- page 1: the cart
+        head(c, f"{name} Charcuterie Board Shopping List", "Free printable  ·  Our ranked picks, with amounts for 8, 12 or 20 guests (the board is the party food)", 1, 2, "FREE PRINTABLE", foot)
+        y = H - 124
+
+        def colhead(y, label):
+            c.setFillColor(GOLDD); c.setFont("PopB", 8.5); c.drawString(M, y, label.upper())
+            c.setStrokeColor(GOLD); c.setLineWidth(1.2); c.line(M, y - 5, M + 40, y - 5)
+            c.setFillColor(MUTED); c.setFont("PopB", 8)
+            for x, n in zip(colx, NS):
+                c.drawRightString(x + 30, y, f"{n} guests")
+            return y - 20
+
+        def row(y, text, vals, bold=False):
+            pp.box(c, M, y - 1)
+            c.setFillColor(INK)
+            c.drawString(M + 16, y, fit(c, text, "PopB" if bold else "Pop", 9, colx[0] - M - 40))
+            c.setFont("Pop", 9)
+            for x, v in zip(colx, vals):
+                c.drawRightString(x + 30, y, v)
+            c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.4); c.line(M + 16, y - 5, W - M, y - 5)
+            return y - 16
+
+        def total_line(y, label, vals):
+            c.setFillColor(GREEN); c.setFont("PopB", 8.5); c.drawString(M + 16, y, label)
+            for x, v in zip(colx, vals):
+                c.drawRightString(x + 30, y, v)
+            return y - 18
+
+        for key, label in (("cheese", "Cheese"), ("meat", "Meat")):
+            y = colhead(y, label)
+            tot = [P[str(n)][key + "Oz"] for n in NS]
+            for item, share in st[key]:
+                vals = [oz_text(math.ceil(t * share)) for t in tot]
+                if "(6 oz)" in item:
+                    vals = [f"{math.ceil(t / 6)} trays" for t in tot]
+                y = row(y, item, vals)
+            y = total_line(y, f"{label} in total", [oz_text(t) for t in tot]) - 4
+        y = colhead(y, "Crackers and bread")
+        for item in st["crackers"]:
+            y = row(y, item, ["", "", ""])
+        y = total_line(y, "Crackers in total", [f"{P[str(n)]['crackers'][0]}–{P[str(n)]['crackers'][1]}" for n in NS]) - 4
+        y = colhead(y, "Fruit, nuts, olives and extras")
+        for item in st["extras"]:
+            y = row(y, item, ["", "", ""])
+        for item, key in (("Grapes, plus apples, pears or berries", "fruit"), ("Nuts", "nuts"), ("Olives and pickles", "briny")):
+            if key == "nuts" and any(re.search(r"nut|almond|pecan", e, re.I) for e in st["extras"]):
+                continue
+            y = row(y, item, [P[str(n)][key] for n in NS])
+        y -= 6
+        c.setFillColor(MUTED); c.setFont("Pop", 8)
+        y = pp.wrap(c, "Pack sizes vary, so buy by the ounce. Before a dinner, buy about a third less. From 20 guests the totals include 10% extra.", M, y, W - 2 * M, 11)
+        y -= 14
+        y = pp.section(c, y, "Don't forget")
+        extras = ["A board or large tray", "Cheese knives and a spreader", "Small bowls for olives, dips and nuts", "Honey or jam", "Napkins and small plates", "Toothpicks or cocktail forks"]
+        for i, t in enumerate(extras):
+            x = M + (i % 2) * (W - 2 * M) / 2
+            yy = y - (i // 2) * 16
+            pp.box(c, x, yy - 1); c.setFillColor(INK); c.setFont("Pop", 9); c.drawString(x + 16, yy, t)
+        y -= 3 * 16 + 12
+        y = pp.section(c, y, "Notes")
+        c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.6)
+        while y > 70:
+            c.line(M, y - 4, W - M, y - 4); y -= 22
+        c.showPage()
+        # ---- page 2: picks, tips, timeline
+        head(c, f"{name}: Our Top Picks", "Ranked by how they work on a board, reviews, ingredients, value and how easy they are to find", 2, 2, "FREE PRINTABLE", foot)
+        y = H - 124
+        y = pp.section(c, y, f"The {name} ranking")
+        for i, (n, t, sc, f) in enumerate(ranking(st["guide"])[:10], 1):
+            c.setFillColor(GREEN); c.setFont("PopB", 9.5); c.drawString(M, y, f"{i}.")
+            c.setFillColor(INK); c.drawString(M + 18, y, fit(c, n, "PopB", 9.5, 330))
+            c.setFont("Pop", 9); c.setFillColor(MUTED); c.drawString(M + 356, y, fit(c, f, "Pop", 9, 118))
+            c.setFillColor(GOLDD); c.setFont("PopB", 9.5); c.drawRightString(W - M, y, f"{sc:.1f}")
+            c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.4); c.line(M, y - 6, W - M, y - 6)
+            y -= 18
+        y -= 10
+        y = pp.section(c, y, f"Shopping {name}")
+        c.setFont("Pop", 9.5)
+        for tip in st["tips"]:
+            c.setFillColor(INK); c.setFont("Pop", 9.5)
+            y = pp.wrap(c, "•  " + tip, M, y, W - 2 * M, 13) - 3
+        y -= 10
+        y = pp.section(c, y, "Timeline")
+        for when, what in [("The day before", "Shop, wash and dry the fruit, and slice firm cheese. Store each in its own container."),
+                           ("1 hour before", "Take out aged and firm cheese (45 to 60 minutes is best)."),
+                           ("30 minutes before", "Take out soft cheese and meat, then build the board: cheese first, then meat, then crackers, fruit and extras."),
+                           ("Once it's out", "Serve within 2 hours, or 1 hour above 90°F. Refill from the fridge instead of putting everything out at once.")]:
+            c.setFillColor(GREEN); c.setFont("PopB", 9); c.drawString(M, y, when)
+            c.setFillColor(INK); c.setFont("Pop", 9)
+            y = pp.wrap(c, what, M + 110, y, W - 2 * M - 110, 12) - 4
+        c.setFillColor(HexColor("#fbeedb")); c.roundRect(M, 44, W - 2 * M, 44, 8, stroke=0, fill=1)
+        c.setFillColor(DEEP); c.setFont("PopB", 9.5); c.drawString(M + 12, 72, "Why each pick, prices and what to skip")
+        c.setFillColor(INK); c.setFont("Pop", 8.5); c.drawString(M + 12, 56, f"The full ranking is at charcuterielab.com/blog/{st['guide']}")
+        c.showPage(); c.save()
+        made.append(path)
+    return made
+
 if __name__ == "__main__" and os.environ.get("LEAD_EXTRA") != "0":
     print(cheese_card())
     print(len(board_lists()), "board lists")
+    print(len(store_lists()), "store lists")

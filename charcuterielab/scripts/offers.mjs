@@ -11,7 +11,7 @@
 //   "book:board" - the same book, sold as "Board #N is in the book" when the
 //                  page matches one of its 50 boards
 //   "book:world" - Around the World in 16 Boards
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bhForm, CHEAT_IMG } from "./funnel.mjs";
@@ -51,7 +51,7 @@ export const OFFER_RULES = [
   // Brand buying guides (Oct 11): shoppers comparing jars and bars get the
   // pairing deck; shoppers comparing staples get the spend-smart plan.
   [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate|pesto|cranberry-sauce|pimento-cheese|cream-cheese|strawberry-jam|shortbread|butter-for-butter-board|prosecco)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
-  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
+  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart|sams-club|target|kroger|publix|heb)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],
@@ -88,6 +88,16 @@ const DEFAULT_LEAD = {
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.
+// Free store shopping lists (14 Oct 2026): each store guide, plus the Costco
+// and Trader Joe's board posts, offers its store's PDF for the email signup.
+const STORE_LISTS = (() => {
+  try {
+    return JSON.parse(readFileSync(new URL("../src/data/store-lists.json", import.meta.url), "utf8")).stores || [];
+  } catch {
+    return [];
+  }
+})();
+
 const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
 
@@ -214,6 +224,9 @@ export function makeOffers(h, products, books) {
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
+    const sm = path.match(/^\/blog\/([^/]+)\/$/);
+    const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
+    if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };
     if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
     if (/^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
     if (/^\/pairings\//.test(path) || /^\/blog\/[^/]*(wine|pairing|beer|champagne|prosecco)/.test(path)) return FREEBIES.pairing;

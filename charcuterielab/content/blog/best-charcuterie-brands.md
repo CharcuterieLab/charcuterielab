@@ -11,7 +11,7 @@ slug: "best-charcuterie-brands"
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for 56 charcuterie board ingredients, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at five big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
+> **Quick Answer:** We rank the best brands for 56 charcuterie board ingredients, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at ten big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
 
 Standing in the cracker aisle with twelve boxes in front of you? These guides tell you which one to grab and why. Each ranks the widely sold options for one board ingredient, with a clear top pick, a budget pick and a splurge.
 
@@ -108,7 +108,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 
 ## Store guides
 
-Shopping at one store? These rank the best charcuterie picks at each.
+Shopping at one store? These rank the best charcuterie picks at each, and each one has a free printable shopping list with amounts for 8, 12 or 20 guests.
 
 | Guide | Our top pick | Rating |
 |---|---|---|
@@ -117,6 +117,11 @@ Shopping at one store? These rank the best charcuterie picks at each.
 | [Best Aldi Charcuterie Board Items](/blog/best-aldi-charcuterie-items/) | Emporium Selection Not Your Average Cheddar | ★★★★½ 4.7 |
 | [Best Whole Foods Cheeses for a Charcuterie Board](/blog/best-whole-foods-cheeses/) | Isigny Sainte-Mère Double Cream Brie | ★★★★½ 4.3 |
 | [Best Walmart Charcuterie Board Items](/blog/best-walmart-charcuterie-items/) | Marketside Parmigiano Reggiano, 24 months | ★★★★★ 4.8 |
+| [Best Sam's Club Charcuterie Board Items](/blog/best-sams-club-charcuterie-items/) | Member's Mark Manchego Wedge | ★★★★★ 4.8 |
+| [Best Target Charcuterie Board Items](/blog/best-target-charcuterie-items/) | Good & Gather Classic Onion Dip | ★★★★½ 4.5 |
+| [Best Kroger Charcuterie Board Items](/blog/best-kroger-charcuterie-items/) | Murray's Cave Aged Stockinghall Cheddar | ★★★★☆ 4.2 |
+| [Best Publix Charcuterie Board Items](/blog/best-publix-charcuterie-items/) | Boar's Head Parmigiano Reggiano | ★★★★½ 4.5 |
+| [Best H-E-B Charcuterie Board Items](/blog/best-heb-charcuterie-items/) | Kerrygold Aged Irish Cheddar | ★★★★½ 4.6 |
 
 ## Best value picks
 

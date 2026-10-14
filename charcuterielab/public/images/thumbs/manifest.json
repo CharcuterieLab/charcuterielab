@@ -352,6 +352,10 @@
 1000,
 1500
 ],
+"/images/best-heb-charcuterie-items-ranking.webp": [
+1000,
+1500
+],
 "/images/best-honey-for-cheese-ranking.webp": [
 1000,
 1500
@@ -365,6 +369,10 @@
 1500
 ],
 "/images/best-kettle-chips-ranking.webp": [
+1000,
+1500
+],
+"/images/best-kroger-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -444,6 +452,10 @@
 1000,
 1500
 ],
+"/images/best-publix-charcuterie-items-ranking.webp": [
+1000,
+1500
+],
 "/images/best-queso-ranking.webp": [
 1000,
 1500
@@ -457,6 +469,10 @@
 1500
 ],
 "/images/best-salsa-ranking.webp": [
+1000,
+1500
+],
+"/images/best-sams-club-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -493,6 +509,10 @@
 1500
 ],
 "/images/best-swiss-cheese-ranking.webp": [
+1000,
+1500
+],
+"/images/best-target-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -3160,6 +3180,46 @@
 480,
 621
 ],
+"/images/leads/store-aldi.webp": [
+480,
+621
+],
+"/images/leads/store-costco.webp": [
+480,
+621
+],
+"/images/leads/store-heb.webp": [
+480,
+621
+],
+"/images/leads/store-kroger.webp": [
+480,
+621
+],
+"/images/leads/store-publix.webp": [
+480,
+621
+],
+"/images/leads/store-sams-club.webp": [
+480,
+621
+],
+"/images/leads/store-target.webp": [
+480,
+621
+],
+"/images/leads/store-trader-joes.webp": [
+480,
+621
+],
+"/images/leads/store-walmart.webp": [
+480,
+621
+],
+"/images/leads/store-whole-foods.webp": [
+480,
+621
+],
 "/images/make-charcuterie-board-night-before.png": [
 2816,
 1244
@@ -4384,6 +4444,14 @@
 240,
 360
 ],
+"/images/thumbs/best-heb-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-heb-charcuterie-items-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-honey-for-cheese-ranking-webp-m.webp": [
 640,
 960
@@ -4413,6 +4481,14 @@
 960
 ],
 "/images/thumbs/best-kettle-chips-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-kroger-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-kroger-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4576,6 +4652,14 @@
 240,
 360
 ],
+"/images/thumbs/best-publix-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-publix-charcuterie-items-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-queso-ranking-webp-m.webp": [
 640,
 960
@@ -4605,6 +4689,14 @@
 960
 ],
 "/images/thumbs/best-salsa-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-sams-club-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-sams-club-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4677,6 +4769,14 @@
 960
 ],
 "/images/thumbs/best-swiss-cheese-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-target-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-target-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -10008,6 +10108,46 @@
 240,
 310
 ],
+"/images/thumbs/leads__store-aldi-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-costco-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-heb-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-kroger-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-publix-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-sams-club-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-target-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-trader-joes-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-walmart-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-whole-foods-webp-s.webp": [
+240,
+310
+],
 "/images/thumbs/make-charcuterie-board-night-before-png-l.webp": [
 1100,
 486
@@ -11631,6 +11771,10 @@
 "m": "/images/thumbs/best-guacamole-ranking-webp-m.webp",
 "s": "/images/thumbs/best-guacamole-ranking-webp-s.webp"
 },
+"/images/best-heb-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-heb-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-heb-charcuterie-items-ranking-webp-s.webp"
+},
 "/images/best-honey-for-cheese-ranking.webp": {
 "m": "/images/thumbs/best-honey-for-cheese-ranking-webp-m.webp",
 "s": "/images/thumbs/best-honey-for-cheese-ranking-webp-s.webp"
@@ -11646,6 +11790,10 @@
 "/images/best-kettle-chips-ranking.webp": {
 "m": "/images/thumbs/best-kettle-chips-ranking-webp-m.webp",
 "s": "/images/thumbs/best-kettle-chips-ranking-webp-s.webp"
+},
+"/images/best-kroger-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-kroger-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-kroger-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-manchego-brands-ranking.webp": {
 "m": "/images/thumbs/best-manchego-brands-ranking-webp-m.webp",
@@ -11725,6 +11873,10 @@
 "m": "/images/thumbs/best-prosecco-ranking-webp-m.webp",
 "s": "/images/thumbs/best-prosecco-ranking-webp-s.webp"
 },
+"/images/best-publix-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-s.webp"
+},
 "/images/best-queso-ranking.webp": {
 "m": "/images/thumbs/best-queso-ranking-webp-m.webp",
 "s": "/images/thumbs/best-queso-ranking-webp-s.webp"
@@ -11740,6 +11892,10 @@
 "/images/best-salsa-ranking.webp": {
 "m": "/images/thumbs/best-salsa-ranking-webp-m.webp",
 "s": "/images/thumbs/best-salsa-ranking-webp-s.webp"
+},
+"/images/best-sams-club-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-sams-club-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-sams-club-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-shortbread-ranking.webp": {
 "m": "/images/thumbs/best-shortbread-ranking-webp-m.webp",
@@ -11776,6 +11932,10 @@
 "/images/best-swiss-cheese-ranking.webp": {
 "m": "/images/thumbs/best-swiss-cheese-ranking-webp-m.webp",
 "s": "/images/thumbs/best-swiss-cheese-ranking-webp-s.webp"
+},
+"/images/best-target-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-target-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-target-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-tortilla-chips-ranking.webp": {
 "m": "/images/thumbs/best-tortilla-chips-ranking-webp-m.webp",
@@ -14434,6 +14594,36 @@
 },
 "/images/leads/pairing-cheat-sheet.webp": {
 "s": "/images/thumbs/leads__pairing-cheat-sheet-webp-s.webp"
+},
+"/images/leads/store-aldi.webp": {
+"s": "/images/thumbs/leads__store-aldi-webp-s.webp"
+},
+"/images/leads/store-costco.webp": {
+"s": "/images/thumbs/leads__store-costco-webp-s.webp"
+},
+"/images/leads/store-heb.webp": {
+"s": "/images/thumbs/leads__store-heb-webp-s.webp"
+},
+"/images/leads/store-kroger.webp": {
+"s": "/images/thumbs/leads__store-kroger-webp-s.webp"
+},
+"/images/leads/store-publix.webp": {
+"s": "/images/thumbs/leads__store-publix-webp-s.webp"
+},
+"/images/leads/store-sams-club.webp": {
+"s": "/images/thumbs/leads__store-sams-club-webp-s.webp"
+},
+"/images/leads/store-target.webp": {
+"s": "/images/thumbs/leads__store-target-webp-s.webp"
+},
+"/images/leads/store-trader-joes.webp": {
+"s": "/images/thumbs/leads__store-trader-joes-webp-s.webp"
+},
+"/images/leads/store-walmart.webp": {
+"s": "/images/thumbs/leads__store-walmart-webp-s.webp"
+},
+"/images/leads/store-whole-foods.webp": {
+"s": "/images/thumbs/leads__store-whole-foods-webp-s.webp"
 },
 "/images/make-charcuterie-board-night-before.png": {
 "l": "/images/thumbs/make-charcuterie-board-night-before-png-l.webp",
