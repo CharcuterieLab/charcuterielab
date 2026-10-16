@@ -102,6 +102,8 @@ You can do both: one board on the table and a tray of cups by the door. For a la
 - [How to Make a Charcuterie Board for a Large Group](/blog/charcuterie-board-for-large-group/)
 - [Charcuterie Board for Kids](/blog/charcuterie-board-for-kids/)
 - [Halloween Charcuterie Board Ideas](/holidays/halloween/)
+- [Jarcuterie: Charcuterie in a Jar](/blog/jarcuterie/)
+- [Charcuterie Skewers](/blog/charcuterie-skewers/)
 
 ## FAQ
 

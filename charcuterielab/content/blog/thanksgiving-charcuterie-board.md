@@ -106,6 +106,7 @@ The Thanksgiving board succeeds when it's calibrated to its role: pre-dinner sus
 - [Aged Gouda on a Charcuterie Board](https://charcuterielab.com/blog/aged-gouda/)
 - [Turkey Charcuterie Board](/blog/turkey-charcuterie-board/)
 - [Baked Brie Recipe](/blog/baked-brie-recipe/)
+- [Classic Cheese Ball Recipe](/blog/cheese-ball-recipe/)
 
 ## FAQ
 

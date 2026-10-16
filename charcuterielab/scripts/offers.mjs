@@ -47,7 +47,7 @@ export const OFFER_RULES = [
   [/-pairing\/|pairing-by-contrast|salt-sweet|acid-rule|texture-contrast|umami/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
   [/build-sequence|rosemary|thyme|garnish|presentation|layout|arrange|salami-river|prosciutto-rose|board-photography|color-and-flavor|edible-flowers|fresh-basil|fresh-mint|board-shapes/, ["board-styling-playbook", "classic-entertaining-board-blueprint"], "Want it to look styled?"],
   [/expensive|budget|cheap|dollar|luxury|splurge|best-charcuterie-brands|board-cost/, ["spend-smart-board-plan", "book:board"], "Spending smart?"],
-  [/grazing|large-group|crowd|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
+  [/grazing|large-group|crowd|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups|jarcuterie|charcuterie-skewers/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
   [/date-night|for-two|board-two|valentine|anniversary|galentine|romantic/, ["book:two", "book:board", "complete-board-builder-bundle"], "Planning a night for two?"],
   [/keto|low-carb|carnivore|diabetes/, ["book:keto", "book:board", "complete-board-builder-bundle"], "Keeping it keto?"],
   // Brand buying guides (Oct 11): shoppers comparing jars and bars get the

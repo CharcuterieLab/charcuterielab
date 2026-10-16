@@ -71,6 +71,7 @@ Cream cheese amplifies smoked salmon's smoke flavor — it does not soften it. T
 - [The Science of Smoke Chemistry on a Board](https://charcuterielab.com/smoke-chemistry/)
 - [Best Dips for a Charcuterie Board](https://charcuterielab.com/charcuterie-board-dips/)
 - [The Best Smoked Salmon for a Charcuterie Board, Ranked](/blog/best-smoked-salmon/)
+- [Bagel Board](/blog/bagel-board/)
 
 ## FAQ
 

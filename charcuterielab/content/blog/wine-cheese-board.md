@@ -158,6 +158,7 @@ That's enough. The rest is up to the board.
 - [Why Wine and Cheese Work: The Fat vs. Tannin Science](https://charcuterielab.com/fat-tannin/)
 - [The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites](https://charcuterielab.com/blog/acid-rule/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)
+- [Whiskey and Cheese Pairing](/blog/whiskey-and-cheese-pairing/)
 
 ## FAQ
 
