@@ -446,8 +446,8 @@
     "slug": "baby-shower-board-kit",
     "title": "Baby Shower Board Kit",
     "status": "soon",
-    "price": "$9.00",
-    "priceShort": "$9",
+    "price": "$5.00",
+    "priceShort": "$5",
     "pagesLabel": "13 pages",
     "format": "US Letter PDF",
     "image": "/images/printable-board-builder.jpg",
@@ -472,14 +472,14 @@
         "/party-planner/"
       ]
     ],
-    "url": ""
+    "url": "https://charcuterieflavor.gumroad.com/l/baby-shower-board-kit"
   },
   {
     "slug": "brunch-lox-board-plan",
     "title": "Brunch & Lox Board Plan",
     "status": "soon",
-    "price": "$7.00",
-    "priceShort": "$7",
+    "price": "$4.00",
+    "priceShort": "$4",
     "pagesLabel": "9 pages",
     "format": "US Letter PDF",
     "image": "/images/printable-board-builder.jpg",
@@ -504,7 +504,7 @@
         "/party-planner/"
       ]
     ],
-    "url": ""
+    "url": "https://charcuterieflavor.gumroad.com/l/brunch-lox-board-plan"
   },
   {
     "slug": "soft-cheese-field-guide",
@@ -875,5 +875,56 @@
       "/images/printables/pairing-card-deck-3.jpg"
     ],
     "group": "Planning and pairing"
+  },
+  {
+    "slug": "charcuterie-business-starter-kit",
+    "title": "Charcuterie Business Starter Kit",
+    "price": "$9.99",
+    "priceShort": "$9.99",
+    "pagesLabel": "20 pages",
+    "format": "US Letter PDF",
+    "image": "/images/charcuterie-business-starter-kit.jpg",
+    "description": "Price every board right, plan every order and look professional from day one: 20 printable pages of tools and expert tips for running a charcuterie board business.",
+    "hook": "Price every board right, plan every order and look professional from day one: 20 printable pages of tools and expert tips for running a charcuterie board business.",
+    "seoTitle": "Charcuterie Business Starter Kit: Pricing Worksheet, Menu + Order Forms (Printable)",
+    "metaDescription": "Printable kit for a charcuterie board business: pricing worksheet and 12 pricing rules, size chart for 7 menu sizes, food safety for sellers, styling rules, menu and order forms, grazing quotes, message scripts, a marketing calendar, care cards and a profit log.",
+    "includes": [
+      "Startup checklist and health department call sheet",
+      "Food safety and transport rules for sellers",
+      "Two-check pricing worksheet with a worked example, plus a 12-rule pricing playbook",
+      "Cost-per-ounce tracker for re-pricing",
+      "Size chart: cheese, meat, crackers and extras for 7 sizes, 1 to 50 guests",
+      "What travels well: an ingredient guide for boxes, plus the box-day test",
+      "Styling that sells: 10 rules and a layout sketch page",
+      "Menu engineering, upsell scripts and an add-on profit table",
+      "Menu and price sheet and an order form",
+      "Grazing table quote and setup checklist",
+      "72-hour order timeline and supplies list",
+      "Customer message scripts for quotes, reminders, reviews and complaints",
+      "Marketing plan and seasonal calendar with caption starters",
+      "Customer care cards and a weekly profit log"
+    ],
+    "who": "Anyone starting or running a small charcuterie board, grazing box or grazing table business who wants consistent sizes, confident prices and smooth orders.",
+    "free": [
+      [
+        "How to start a charcuterie business",
+        "/blog/how-to-start-a-charcuterie-business/"
+      ],
+      [
+        "How much charcuterie per person",
+        "/blog/how-much-charcuterie-per-person/"
+      ],
+      [
+        "Party Planner",
+        "/party-planner/"
+      ]
+    ],
+    "previews": [
+      "/images/printables/charcuterie-business-starter-kit-1.jpg",
+      "/images/printables/charcuterie-business-starter-kit-2.jpg",
+      "/images/printables/charcuterie-business-starter-kit-3.jpg"
+    ],
+    "share": "It's licensed for use in your own business. Print as many copies as you need, but please don't resell, share or post the file.",
+    "url": "https://charcuterieflavor.gumroad.com/l/charcuterie-business-starter-kit"
   }
 ]

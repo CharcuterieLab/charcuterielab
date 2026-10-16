@@ -25,6 +25,8 @@ const WINE = /wine|champagne|prosecco|pinot|cabernet|chardonnay|riesling|merlot|
 // candidate with a live product wins; a fallback uses its own default lead.
 export const OFFER_RULES = [
   [/around-the-world|bavarian|german|korean|thai|indian|moroccan|portuguese|turkish|peruvian|vietnamese|brazilian|argentine|caribbean|dim-sum|swiss-alpine|ploughman|eastern-european/, ["book:world"], "Love a world board?"],
+  // Board business (Oct 14, 2026): the $9.99 starter kit, live once its Gumroad URL is in products.json.
+  [/charcuterie-business|sell-charcuterie|grazing-business/, ["charcuterie-business-starter-kit", "grazing-table-planner"], "Starting a board business?"],
   [/baby-shower|pregnan/, ["baby-shower-board-kit", "book:board", "classic-entertaining-board-blueprint"], "Hosting a baby shower?"],
   [/smoked-salmon|lox|brunch|bagel|breakfast/, ["brunch-lox-board-plan", "new-years-eve-blini-bar", "complete-board-builder-bundle"], "Planning a brunch board?"],
   [/night-before|make-ahead|how-long|store|storage|leftover/, ["make-ahead-board-timeline", "classic-entertaining-board-blueprint"], "Making it ahead?"],
@@ -84,7 +86,8 @@ const DEFAULT_LEAD = {
   "pairing-card-deck": "Pairing by hand?",
   "mezze-board-plan": "Building a mezze board?",
   "burrata-stracciatella-board-plan": "Serving burrata?",
-  "british-christmas-cheese-board": "Hosting Christmas?"
+  "british-christmas-cheese-board": "Hosting Christmas?",
+  "charcuterie-business-starter-kit": "Starting a board business?"
 };
 
 // Pages that are already sales pages, or shouldn't carry an offer.

@@ -100,6 +100,7 @@ If you're pricing boards to sell, start from your ingredient cost, then add pack
 - [How to Build a $25 Board That Looks Like It Cost $75](/blog/budget-charcuterie-board/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)
 - [Costco Charcuterie Board for 20](/blog/costco-charcuterie-board/)
+- [How to Start a Charcuterie Business](/blog/how-to-start-a-charcuterie-business/)
 
 ## Sources
 

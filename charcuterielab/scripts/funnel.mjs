@@ -390,7 +390,7 @@ export function makePrintables(h, products) {
       ["What size does it print?", `${p.format}. It prints on any home printer, and reads fine on a phone too.`],
       ["Can I print it more than once?", "Yes. Print it for every party; it doesn't expire."],
       ["What if it's not what I expected?", "Reply to your Gumroad receipt within 30 days and you'll get a full refund. No forms."],
-      ["Can I share it?", "It's for your own parties and events. Print as many copies as you like for your guests, but please don't resell or post the file."],
+      ["Can I share it?", p.share || "It's for your own parties and events. Print as many copies as you like for your guests, but please don't resell or post the file."],
       ["Who made it?", "Jimmy Wilson at Charcuterie Lab, who also runs a local charcuterie catering business. Every amount follows the same standard as the free Party Planner on this site."],
       ...(inBundle ? [["Is it in a bundle?", `Yes. It's one of the three PDFs in the Complete Board Builder Bundle (${bundle.priceShort} for all three).`]] : [])
     ];
