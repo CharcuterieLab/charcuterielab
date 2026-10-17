@@ -396,6 +396,10 @@
 1000,
 1500
 ],
+"/images/best-lidl-charcuterie-items-ranking.webp": [
+1000,
+1500
+],
 "/images/best-manchego-brands-ranking.webp": [
 1000,
 1500
@@ -436,6 +440,14 @@
 1000,
 1500
 ],
+"/images/best-pate-ranking.webp": [
+1000,
+1500
+],
+"/images/best-pepper-jack-ranking.webp": [
+1000,
+1500
+],
 "/images/best-pepper-jelly-ranking.webp": [
 1000,
 1500
@@ -472,6 +484,10 @@
 1000,
 1500
 ],
+"/images/best-provolone-brands-ranking.webp": [
+1000,
+1500
+],
 "/images/best-publix-charcuterie-items-ranking.webp": [
 1000,
 1500
@@ -480,7 +496,15 @@
 1000,
 1500
 ],
+"/images/best-quince-paste-ranking.webp": [
+1000,
+1500
+],
 "/images/best-ranch-dip-ranking.webp": [
+1000,
+1500
+],
+"/images/best-safeway-albertsons-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -512,7 +536,15 @@
 1000,
 1500
 ],
+"/images/best-sparkling-cider-ranking.webp": [
+1000,
+1500
+],
 "/images/best-spinach-dip-ranking.webp": [
+1000,
+1500
+],
+"/images/best-sprouts-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -557,6 +589,10 @@
 1500
 ],
 "/images/best-water-crackers-ranking.webp": [
+1000,
+1500
+],
+"/images/best-wegmans-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -1743,6 +1779,18 @@
 "/images/how-to-store-charcuterie-board.png": [
 1024,
 687
+],
+"/images/impossible-14-koi-pond-v2.png": [
+1024,
+559
+],
+"/images/impossible-15-fondue-volcano-v2.png": [
+1024,
+559
+],
+"/images/impossible-27-cheese-castle-v2.png": [
+1024,
+559
 ],
 "/images/ingredients/aged-cheddar.jpg": [
 1024,
@@ -3244,6 +3292,10 @@
 480,
 621
 ],
+"/images/leads/store-safeway.webp": [
+480,
+621
+],
 "/images/leads/store-sams-club.webp": [
 480,
 621
@@ -3257,6 +3309,10 @@
 621
 ],
 "/images/leads/store-walmart.webp": [
+480,
+621
+],
+"/images/leads/store-wegmans.webp": [
 480,
 621
 ],
@@ -4588,6 +4644,14 @@
 240,
 360
 ],
+"/images/thumbs/best-lidl-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-lidl-charcuterie-items-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-manchego-brands-ranking-webp-m.webp": [
 640,
 960
@@ -4676,6 +4740,22 @@
 240,
 360
 ],
+"/images/thumbs/best-pate-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pate-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-pepper-jack-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-pepper-jack-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-pepper-jelly-ranking-webp-m.webp": [
 640,
 960
@@ -4748,6 +4828,14 @@
 240,
 360
 ],
+"/images/thumbs/best-provolone-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-provolone-brands-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-publix-charcuterie-items-ranking-webp-m.webp": [
 640,
 960
@@ -4764,11 +4852,27 @@
 240,
 360
 ],
+"/images/thumbs/best-quince-paste-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-quince-paste-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-ranch-dip-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-ranch-dip-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-safeway-albertsons-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-safeway-albertsons-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4828,11 +4932,27 @@
 240,
 360
 ],
+"/images/thumbs/best-sparkling-cider-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-sparkling-cider-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-spinach-dip-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-spinach-dip-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4921,6 +5041,14 @@
 960
 ],
 "/images/thumbs/best-water-crackers-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-wegmans-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-wegmans-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -7303,6 +7431,30 @@
 "/images/thumbs/how-to-store-charcuterie-board-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/impossible-14-koi-pond-v2-png-m.webp": [
+640,
+349
+],
+"/images/thumbs/impossible-14-koi-pond-v2-png-s.webp": [
+240,
+131
+],
+"/images/thumbs/impossible-15-fondue-volcano-v2-png-m.webp": [
+640,
+349
+],
+"/images/thumbs/impossible-15-fondue-volcano-v2-png-s.webp": [
+240,
+131
+],
+"/images/thumbs/impossible-27-cheese-castle-v2-png-m.webp": [
+640,
+349
+],
+"/images/thumbs/impossible-27-cheese-castle-v2-png-s.webp": [
+240,
+131
 ],
 "/images/thumbs/ingredients__aged-cheddar-jpg-m.webp": [
 640,
@@ -10272,6 +10424,10 @@
 240,
 310
 ],
+"/images/thumbs/leads__store-safeway-webp-s.webp": [
+240,
+310
+],
 "/images/thumbs/leads__store-sams-club-webp-s.webp": [
 240,
 310
@@ -10285,6 +10441,10 @@
 310
 ],
 "/images/thumbs/leads__store-walmart-webp-s.webp": [
+240,
+310
+],
+"/images/thumbs/leads__store-wegmans-webp-s.webp": [
 240,
 310
 ],
@@ -12007,6 +12167,10 @@
 "m": "/images/thumbs/best-kroger-charcuterie-items-ranking-webp-m.webp",
 "s": "/images/thumbs/best-kroger-charcuterie-items-ranking-webp-s.webp"
 },
+"/images/best-lidl-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-lidl-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-lidl-charcuterie-items-ranking-webp-s.webp"
+},
 "/images/best-manchego-brands-ranking.webp": {
 "m": "/images/thumbs/best-manchego-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-manchego-brands-ranking-webp-s.webp"
@@ -12049,6 +12213,14 @@
 "m": "/images/thumbs/best-parmesan-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-parmesan-brands-ranking-webp-s.webp"
 },
+"/images/best-pate-ranking.webp": {
+"m": "/images/thumbs/best-pate-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pate-ranking-webp-s.webp"
+},
+"/images/best-pepper-jack-ranking.webp": {
+"m": "/images/thumbs/best-pepper-jack-ranking-webp-m.webp",
+"s": "/images/thumbs/best-pepper-jack-ranking-webp-s.webp"
+},
 "/images/best-pepper-jelly-ranking.webp": {
 "m": "/images/thumbs/best-pepper-jelly-ranking-webp-m.webp",
 "s": "/images/thumbs/best-pepper-jelly-ranking-webp-s.webp"
@@ -12085,6 +12257,10 @@
 "m": "/images/thumbs/best-prosecco-ranking-webp-m.webp",
 "s": "/images/thumbs/best-prosecco-ranking-webp-s.webp"
 },
+"/images/best-provolone-brands-ranking.webp": {
+"m": "/images/thumbs/best-provolone-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-provolone-brands-ranking-webp-s.webp"
+},
 "/images/best-publix-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-m.webp",
 "s": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-s.webp"
@@ -12093,9 +12269,17 @@
 "m": "/images/thumbs/best-queso-ranking-webp-m.webp",
 "s": "/images/thumbs/best-queso-ranking-webp-s.webp"
 },
+"/images/best-quince-paste-ranking.webp": {
+"m": "/images/thumbs/best-quince-paste-ranking-webp-m.webp",
+"s": "/images/thumbs/best-quince-paste-ranking-webp-s.webp"
+},
 "/images/best-ranch-dip-ranking.webp": {
 "m": "/images/thumbs/best-ranch-dip-ranking-webp-m.webp",
 "s": "/images/thumbs/best-ranch-dip-ranking-webp-s.webp"
+},
+"/images/best-safeway-albertsons-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-safeway-albertsons-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-safeway-albertsons-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-salami-brands-ranking.webp": {
 "m": "/images/thumbs/best-salami-brands-ranking-webp-m.webp",
@@ -12125,9 +12309,17 @@
 "m": "/images/thumbs/best-spanish-chorizo-ranking-webp-m.webp",
 "s": "/images/thumbs/best-spanish-chorizo-ranking-webp-s.webp"
 },
+"/images/best-sparkling-cider-ranking.webp": {
+"m": "/images/thumbs/best-sparkling-cider-ranking-webp-m.webp",
+"s": "/images/thumbs/best-sparkling-cider-ranking-webp-s.webp"
+},
 "/images/best-spinach-dip-ranking.webp": {
 "m": "/images/thumbs/best-spinach-dip-ranking-webp-m.webp",
 "s": "/images/thumbs/best-spinach-dip-ranking-webp-s.webp"
+},
+"/images/best-sprouts-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-strawberry-jam-ranking.webp": {
 "m": "/images/thumbs/best-strawberry-jam-ranking-webp-m.webp",
@@ -12172,6 +12364,10 @@
 "/images/best-water-crackers-ranking.webp": {
 "m": "/images/thumbs/best-water-crackers-ranking-webp-m.webp",
 "s": "/images/thumbs/best-water-crackers-ranking-webp-s.webp"
+},
+"/images/best-wegmans-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-wegmans-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-wegmans-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-whole-foods-cheeses-ranking.webp": {
 "m": "/images/thumbs/best-whole-foods-cheeses-ranking-webp-m.webp",
@@ -13353,6 +13549,18 @@
 "/images/how-to-store-charcuterie-board.png": {
 "m": "/images/thumbs/how-to-store-charcuterie-board-png-m.webp",
 "s": "/images/thumbs/how-to-store-charcuterie-board-png-s.webp"
+},
+"/images/impossible-14-koi-pond-v2.png": {
+"m": "/images/thumbs/impossible-14-koi-pond-v2-png-m.webp",
+"s": "/images/thumbs/impossible-14-koi-pond-v2-png-s.webp"
+},
+"/images/impossible-15-fondue-volcano-v2.png": {
+"m": "/images/thumbs/impossible-15-fondue-volcano-v2-png-m.webp",
+"s": "/images/thumbs/impossible-15-fondue-volcano-v2-png-s.webp"
+},
+"/images/impossible-27-cheese-castle-v2.png": {
+"m": "/images/thumbs/impossible-27-cheese-castle-v2-png-m.webp",
+"s": "/images/thumbs/impossible-27-cheese-castle-v2-png-s.webp"
 },
 "/images/ingredients/aged-cheddar.jpg": {
 "m": "/images/thumbs/ingredients__aged-cheddar-jpg-m.webp",
@@ -14846,6 +15054,9 @@
 "/images/leads/store-publix.webp": {
 "s": "/images/thumbs/leads__store-publix-webp-s.webp"
 },
+"/images/leads/store-safeway.webp": {
+"s": "/images/thumbs/leads__store-safeway-webp-s.webp"
+},
 "/images/leads/store-sams-club.webp": {
 "s": "/images/thumbs/leads__store-sams-club-webp-s.webp"
 },
@@ -14857,6 +15068,9 @@
 },
 "/images/leads/store-walmart.webp": {
 "s": "/images/thumbs/leads__store-walmart-webp-s.webp"
+},
+"/images/leads/store-wegmans.webp": {
+"s": "/images/thumbs/leads__store-wegmans-webp-s.webp"
 },
 "/images/leads/store-whole-foods.webp": {
 "s": "/images/thumbs/leads__store-whole-foods-webp-s.webp"

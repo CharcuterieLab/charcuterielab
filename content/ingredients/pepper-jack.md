@@ -83,6 +83,9 @@ of the block.
 **Skip:** processed pepper jack slices. They will not sit on a board without
 sweating.
 
+
+**Ranked picks:** our top-rated pepper jack is **Cabot Pepper Jack** (4.7 out of 5), and the mildest is **Tillamook**. See [the full ranking of the best pepper jack](/blog/best-pepper-jack/).
+
 ## Quick FAQ
 
 **How spicy is pepper jack?**

@@ -88,6 +88,9 @@ product.
 **Skip:** pâté in a sealed tin for a board if a fresh terrine is available. The
 texture difference is large.
 
+
+**Our buyer's guide:** for a board, try **Alexian Pâté de Campagne** or a pâté or mousse from **Les Trois Petits Cochons**. See [our pâté buyer's guide](/blog/best-pate/).
+
 ## Quick FAQ
 
 **Is pâté de campagne the same as liver pâté?**

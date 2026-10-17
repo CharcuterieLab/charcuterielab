@@ -86,6 +86,9 @@ shredded texture. Smooth rillettes have been over-processed.
 **Skip:** serving it cold. It's the difference between a rich spread and an
 unyielding block.
 
+
+**Shopping for pâté too?** See [our pâté buyer's guide](/blog/best-pate/).
+
 ## Quick FAQ
 
 **What are rillettes?**

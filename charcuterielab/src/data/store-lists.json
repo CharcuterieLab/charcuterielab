@@ -449,6 +449,92 @@
         "Ask the deli to slice salami thin.",
         "Put the guacamole out last; it browns once opened."
       ]
+    },
+    {
+      "key": "wegmans",
+      "store": "Wegmans",
+      "guide": "best-wegmans-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Wegmans 18-Month Aged Medium Gouda",
+          0.4
+        ],
+        [
+          "Professor's Brie",
+          0.35
+        ],
+        [
+          "Truffle Shuffle Aged Goat Cheese",
+          0.25
+        ]
+      ],
+      "meat": [
+        [
+          "Salami from the deli counter, sliced thin",
+          0.6
+        ],
+        [
+          "Prosciutto from the deli counter",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Wegmans Organic Rosemary Bread, sliced and toasted",
+        "A box of plain water crackers"
+      ],
+      "extras": [
+        "Castelvetrano Olives from the Olive Bar",
+        "Wegmans French Macarons"
+      ],
+      "tips": [
+        "Ask the cheese shop what's at its best that week. The cave-aged cheeses rotate.",
+        "Buy olives by the scoop at the Mediterranean bar: about 1 oz per guest.",
+        "Pick up the bread and macarons the day of the party."
+      ]
+    },
+    {
+      "key": "safeway",
+      "store": "Safeway and Albertsons",
+      "guide": "best-safeway-albertsons-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Laura Chenel Original Fresh Goat Cheese",
+          0.3
+        ],
+        [
+          "Primo Taglio Provolone",
+          0.35
+        ],
+        [
+          "Tillamook Pepper Jack",
+          0.35
+        ]
+      ],
+      "meat": [
+        [
+          "Primo Taglio Uncured Pepperoni",
+          0.4
+        ],
+        [
+          "Salami from the deli counter",
+          0.6
+        ]
+      ],
+      "crackers": [
+        "A box of plain water crackers",
+        "A baguette from the bakery"
+      ],
+      "extras": [
+        "Primo Taglio Fresh Mozzarella balls with cherry tomatoes and basil",
+        "Olives and grapes"
+      ],
+      "tips": [
+        "Primo Taglio is the deli brand to trust; it's the same at Vons, Jewel-Osco, Acme, Shaw's and other Albertsons stores.",
+        "Ask the deli to slice meat thin and check the slices before you leave.",
+        "Skip Lucerne cheddar and mozzarella; buy cheddar from a better brand in the cheese case."
+      ]
     }
   ]
 }

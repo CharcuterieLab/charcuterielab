@@ -84,6 +84,9 @@ cheaper versions bulk it out with apple.
 **Skip:** anything with added pectin listed high — it sets rubbery rather than
 dense.
 
+
+**Our buyer's guide:** **Mitica Membrillo** is the easiest good one to find, and **Murray's Membrillo** is the cheese-shop pick. See [our quince paste buyer's guide](/blog/best-quince-paste/).
+
 ## Quick FAQ
 
 **What is membrillo?**

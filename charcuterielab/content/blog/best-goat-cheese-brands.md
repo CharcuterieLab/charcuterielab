@@ -107,6 +107,9 @@ Each product is scored 1 to 5 on five things, then weighted: how it works on a b
 
 For what goat cheese pairs with and how to serve it, see the [fresh chevre guide](/ingredients/fresh-chevre/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+Shopping at Safeway or Albertsons? Laura Chenel leads our [Safeway and Albertsons charcuterie guide](/blog/best-safeway-albertsons-charcuterie-items/).
+
 ## Goat cheese questions
 
 **What is the best goat cheese for a charcuterie board?**

@@ -135,6 +135,9 @@ Each product is scored 1 to 5 on five things, then weighted: how it works on a b
 
 For what prosecco pairs with and how to serve it, see the [Champagne and prosecco pairing guide](/pairings/wine/champagne-prosecco/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+**Not drinking?** See our ranking of [the best non-alcoholic sparkling cider](/blog/best-sparkling-cider/) for the toast.
+
 ## Prosecco questions
 
 **What is the best prosecco under $20?**

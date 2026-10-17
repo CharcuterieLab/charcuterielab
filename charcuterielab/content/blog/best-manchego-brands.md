@@ -131,7 +131,7 @@ Look for the DOP seal and the basket-weave rind. Real Manchego is made only from
 
 **What goes with Manchego?**
 
-Quince paste (membrillo), Marcona almonds, chorizo and a Spanish red like Tempranillo.
+Quince paste (membrillo), Marcona almonds, chorizo and a Spanish red like Tempranillo. Our [quince paste buyer's guide](/blog/best-quince-paste/) names the ones to buy.
 
 ## Sources
 

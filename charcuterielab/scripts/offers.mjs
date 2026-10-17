@@ -16,8 +16,8 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bhForm, CHEAT_IMG } from "./funnel.mjs";
 
-const MEAT = /salami|pepperoni|soppressata|saucisson|prosciutto|coppa|capicola|bresaola|chorizo|nduja|mortadella|finocchiona|speck|pancetta|cured-meat|best-meats|meat-lover|jamon|lomo|fuet|culatello|guanciale|summer-sausage|rosette|landjager|cured meat/;
-const CHEESE = /cheese|brie|cheddar|gouda|manchego|parmesan|parmigiano|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata|mozzarella|stracciatella|havarti|roquefort|boursin|halloumi|ricotta|mascarpone|epoisses|fontina|pecorino|asiago|raclette|reblochon|mimolette|jarlsberg|emmental|provolone|blue-cheese|bleu|triple-creme|mahon|idiazabal|morbier|muenster|edam|cotija|labneh|grana/;
+const MEAT = /salami|best-pate|pate-de-campagne|rillettes|pepperoni|soppressata|saucisson|prosciutto|coppa|capicola|bresaola|chorizo|nduja|mortadella|finocchiona|speck|pancetta|cured-meat|best-meats|meat-lover|jamon|lomo|fuet|culatello|guanciale|summer-sausage|rosette|landjager|cured meat/;
+const CHEESE = /cheese|pepper-jack|brie|cheddar|gouda|manchego|parmesan|parmigiano|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata|mozzarella|stracciatella|havarti|roquefort|boursin|halloumi|ricotta|mascarpone|epoisses|fontina|pecorino|asiago|raclette|reblochon|mimolette|jarlsberg|emmental|provolone|blue-cheese|bleu|triple-creme|mahon|idiazabal|morbier|muenster|edam|cotija|labneh|grana/;
 const WINE = /wine|champagne|prosecco|pinot|cabernet|chardonnay|riesling|merlot|malbec|wine\/rose|sangiovese|chianti|beaujolais|sauvignon|sommelier|pairings\/drinks|pairings\/beer|pairings\/cocktails|beer|cider|ipa|stout|lager|mocktail|zero-proof/;
 
 // Rules are tested against the page path (plus the ingredient category).
@@ -41,7 +41,7 @@ export const OFFER_RULES = [
   [/salami-vs-pepperoni|soppressata|saucisson/, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [/salami-rose/, ["board-styling-playbook", "salami-tasting-party-kit"], "Want it to look styled?"],
   [/types-of-salami|\/pepperoni\/|best-salami|best-pepperoni|genoa-salami|calabrese|finocchiona|salami/, ["salami-tasting-party-kit", "cured-meat-field-guide"], "Love salami?"],
-  [/boquerones|sobrasada|tapas|spanish|chorizo|manchego|membrillo|jamon|serrano|iberico|marcona|piquillo|mahon|idiazabal|lomo|fuet|salchichon/, ["spanish-tapas-board-kit", "book:board"], "Going Spanish?"],
+  [/boquerones|sobrasada|tapas|spanish|chorizo|manchego|membrillo|jamon|serrano|iberico|marcona|piquillo|mahon|idiazabal|lomo|fuet|salchichon|quince/, ["spanish-tapas-board-kit", "book:board"], "Going Spanish?"],
   [/labneh|halloumi|mezze|hummus|za-atar|tzatziki|baba-ganoush|muhammara|dukkah|harissa|feta/, ["mezze-board-plan"], "Building a mezze board?"],
   [/brie|camembert|boursin|triple-creme|humboldt|taleggio|cambozola|soft-cheese|fromager/, ["soft-cheese-field-guide", "cheese-board-field-guide"], "Serving soft cheese?"],
   [/-pairing\/|pairing-by-contrast|salt-sweet|acid-rule|texture-contrast|umami/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
@@ -53,7 +53,7 @@ export const OFFER_RULES = [
   // Brand buying guides (Oct 11): shoppers comparing jars and bars get the
   // pairing deck; shoppers comparing staples get the spend-smart plan.
   [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate|pesto|cranberry-sauce|pimento-cheese|cream-cheese|strawberry-jam|shortbread|butter-for-butter-board|prosecco)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
-  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart|sams-club|target|kroger|publix|heb|trader-joes-charcuterie)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
+  [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart|sams-club|target|kroger|publix|heb|trader-joes-charcuterie|wegmans|safeway|sprouts|lidl)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],

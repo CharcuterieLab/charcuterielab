@@ -89,6 +89,9 @@ mild young cheese.
 **Skip:** pre-sliced provolone from the deli counter for a board. Wrong grade,
 wrong format, and it dries.
 
+
+**Ranked picks:** our top-rated provolone is **Boar's Head Picante Provolone** (4.7 out of 5), and the best value is **Kroger Smoke Flavored Provolone**. See [the full ranking of the best provolone](/blog/best-provolone-brands/).
+
 ## Quick FAQ
 
 **Why is aged provolone spicy?**

@@ -196,6 +196,9 @@ In [Daily Meal](https://www.thedailymeal.com/2062703/aldi-emporium-selection-che
 
 See every ranked guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+
+Shopping at Lidl instead? See [what to buy at Lidl for a charcuterie board](/blog/best-lidl-charcuterie-items/).
+
 ## Aldi charcuterie questions
 
 **What is the best Aldi cheese for a charcuterie board?**
