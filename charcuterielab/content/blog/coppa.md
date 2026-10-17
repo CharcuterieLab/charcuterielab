@@ -1,10 +1,10 @@
 ---
 title: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
-seo_title: "Coppa on a Charcuterie Board: The Showpiece Cured Meat"
+seo_title: "What Is Coppa Meat? Cured Pork Neck (Capicola), Explained"
 date: "2026-09-10"
 image: "/images/coppa.png"
 excerpt: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
-description: "Coppa is the most underused Italian cured meat — marbled, sweet, and more versatile than salami. Here's the cure science, how to slice it, and how to pair it."
+description: "Coppa is whole cured pork neck and shoulder, the same meat as capicola: marbled, sweet and silky. Sweet vs. spicy, how it's made, how to slice and pair it."
 faq: "[{"question":"What is coppa exactly — is it the same as capicola?","answer":"Yes — coppa and capicola (or capocollo) are the same product under different regional names. \"Coppa\" is common in northern Italy; \"capicola\" is standard in southern Italy and in Italian-American tradition. The name derives from *capo* (head) and *collo* (neck), referring to the head and neck muscle from which it's made. The New Jersey/New York deli pronunciation \"gabagool\" is a regional Americanization of \"capocollo.\""},{"question":"How is coppa different from salami?","answer":"Salami is a fermented and dried sausage made from minced or ground meat stuffed into a casing. Coppa is whole-muscle — the entire neck and shoulder muscle is cured and dried intact. This means coppa shows visible muscle grain and marbling rather than the uniform interior of salami. The flavor of coppa is more nuanced and less heavily spiced; salami has more fermentation character and acidity."},{"question":"How do you slice coppa for a board?","answer":"Coppa is sliced thin — 2–3mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering."},{"question":"What's the shelf life of coppa once opened?","answer":"Once a package is opened, wrap tightly in wax paper and refrigerate. Coppa stays at peak quality for 7–10 days. The fat can oxidize and become slightly rancid-tasting after prolonged air exposure — the wax paper breathes better than plastic without drying out the surface. ---"}]"
 slug: "coppa"
 tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcuterie pairings", "ingredient deep dive"]"

@@ -926,5 +926,423 @@
     ],
     "share": "It's licensed for use in your own business. Print as many copies as you need, but please don't resell, share or post the file.",
     "url": "https://charcuterieflavor.gumroad.com/l/charcuterie-business-starter-kit"
+  },
+  {
+    "title": "Holiday Hosting Pack",
+    "description": "Digital download bundle: 5 printable PDFs for 9 ($17 separately).",
+    "price": "$9.00",
+    "image": "/images/bundles/holiday-hosting-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/holiday-hosting-pack",
+    "slug": "holiday-hosting-pack",
+    "priceShort": "$9",
+    "pagesLabel": "5 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Five party plans from Thanksgiving to midnight on New Year's Eve, each with an exact shopping list, a step-by-step build and swaps. $8 less than buying them one at a time.",
+    "includes": [
+      "Thanksgiving Board plan ($3 on its own)",
+      "Holiday Entertaining Board plan ($3)",
+      "British Christmas Cheese Board ($4)",
+      "New Year's Eve Board plan ($3)",
+      "New Year's Eve Blini Bar ($4)",
+      "31 printable pages, each plan with its own shopping list"
+    ],
+    "who": "Anyone hosting more than once between Thanksgiving and New Year's: family dinners, open houses, office parties and the midnight countdown.",
+    "seoTitle": "Holiday Hosting Pack: 5 Printable Charcuterie Board Plans",
+    "metaDescription": "Five printable holiday charcuterie board plans: Thanksgiving, Christmas and New Year's Eve, with shopping lists and builds. $9 for all five ($17 separately).",
+    "free": [
+      [
+        "Thanksgiving board ideas",
+        "/holidays/thanksgiving/"
+      ],
+      [
+        "Christmas board ideas",
+        "/holidays/christmas/"
+      ],
+      [
+        "New Year's Eve board ideas",
+        "/holidays/new-years-eve/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/holiday-hosting-pack-1.webp",
+      "/images/bundles/holiday-hosting-pack-2.webp",
+      "/images/bundles/holiday-hosting-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$17",
+    "save": "$8",
+    "contains": [
+      "british-christmas-cheese-board",
+      "new-years-eve-blini-bar"
+    ],
+    "boards": [
+      20,
+      6,
+      22
+    ]
+  },
+  {
+    "title": "Fall & Thanksgiving Pack",
+    "description": "Digital download bundle: 4 printable PDFs for 8 ($12 separately).",
+    "price": "$8.00",
+    "image": "/images/bundles/fall-thanksgiving-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/fall-thanksgiving-pack",
+    "slug": "fall-thanksgiving-pack",
+    "priceShort": "$8",
+    "pagesLabel": "4 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Four fall board plans, from the first cool weekend to Thanksgiving Day: Thanksgiving, Fall Harvest, Farm-to-Table and Midwest Comfort. $4 less than buying them one at a time.",
+    "includes": [
+      "Thanksgiving Board plan ($3 on its own)",
+      "Fall Harvest Board plan ($3)",
+      "Farm-to-Table Local Board plan ($3)",
+      "Midwest Comfort Board plan ($3)",
+      "Amounts worked out for 8 to 15 guests per board"
+    ],
+    "who": "Fall hosts: Friendsgiving, Thanksgiving, tailgates and harvest dinners.",
+    "seoTitle": "Fall & Thanksgiving Pack: 4 Printable Charcuterie Board Plans",
+    "metaDescription": "Four printable fall charcuterie board plans: Thanksgiving, fall harvest, farm-to-table and Midwest comfort, with shopping lists. $8 ($12 separately).",
+    "free": [
+      [
+        "Thanksgiving board ideas",
+        "/holidays/thanksgiving/"
+      ],
+      [
+        "Friendsgiving charcuterie board",
+        "/blog/friendsgiving-charcuterie-board/"
+      ],
+      [
+        "Fall charcuterie board",
+        "/blog/fall-charcuterie-board/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/fall-thanksgiving-pack-1.webp",
+      "/images/bundles/fall-thanksgiving-pack-2.webp",
+      "/images/bundles/fall-thanksgiving-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$12",
+    "save": "$4",
+    "contains": [],
+    "boards": [
+      20,
+      26,
+      48,
+      35
+    ]
+  },
+  {
+    "title": "Game Day Pack",
+    "description": "Digital download bundle: 5 printable PDFs for 9 ($15 separately).",
+    "price": "$9.00",
+    "image": "/images/bundles/game-day-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/game-day-pack",
+    "slug": "game-day-pack",
+    "priceShort": "$9",
+    "pagesLabel": "5 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "A different board for every game this season: Game Day, Tex-Mex Fiesta, Southern BBQ, Meat Lover's and Beer & Charcuterie, each with an exact shopping list. $6 less than buying them one at a time.",
+    "includes": [
+      "Game Day Party Board plan ($3 on its own)",
+      "Tex-Mex Fiesta Board plan ($3)",
+      "Southern BBQ-Inspired Board plan ($3)",
+      "Meat Lover's Carnivore Board plan ($3)",
+      "Beer & Charcuterie Board plan ($3)",
+      "Amounts worked out for 8 to 16 guests per board"
+    ],
+    "who": "Anyone hosting football Sundays, a fantasy draft or a Super Bowl party.",
+    "seoTitle": "Game Day Pack: 5 Printable Charcuterie Board Plans",
+    "metaDescription": "Five printable game day charcuterie board plans: game day, Tex-Mex, BBQ, meat lover's and beer, with shopping lists. $9 for all five ($15 separately).",
+    "free": [
+      [
+        "Super Bowl board ideas",
+        "/holidays/super-bowl/"
+      ],
+      [
+        "Game day charcuterie board",
+        "/boards/game-day-charcuterie-board/"
+      ],
+      [
+        "Party Planner: how much to buy",
+        "/party-planner/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/game-day-pack-1.webp",
+      "/images/bundles/game-day-pack-2.webp",
+      "/images/bundles/game-day-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$15",
+    "save": "$6",
+    "contains": [],
+    "boards": [
+      8,
+      38,
+      37,
+      43,
+      10
+    ]
+  },
+  {
+    "title": "Date Night Pack",
+    "description": "Digital download bundle: 4 printable PDFs for 8 ($12 separately).",
+    "price": "$8.00",
+    "image": "/images/bundles/date-night-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/date-night-pack",
+    "slug": "date-night-pack",
+    "priceShort": "$8",
+    "pagesLabel": "4 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Four nights in, planned: a board sized for two, Truffle Luxury, Wine & Cheese Pairing and a dessert board to finish. $4 less than buying them one at a time.",
+    "includes": [
+      "Date Night Board for Two plan ($3 on its own)",
+      "Truffle Luxury Board plan ($3)",
+      "Wine & Cheese Pairing Board plan ($3)",
+      "Sweet Dessert Charcuterie Board plan ($3)"
+    ],
+    "who": "Couples planning anniversaries, Valentine's Day or a holiday night in.",
+    "seoTitle": "Date Night Pack: 4 Printable Charcuterie Board Plans for Two",
+    "metaDescription": "Four printable date night charcuterie board plans: for two, truffle luxury, wine and cheese, and dessert, with shopping lists. $8 ($12 separately).",
+    "free": [
+      [
+        "Date night charcuterie board",
+        "/blog/date-night-charcuterie-board/"
+      ],
+      [
+        "Valentine's Day board ideas",
+        "/holidays/valentines-day/"
+      ],
+      [
+        "Wine and cheese pairing chart",
+        "/pairings/wine-and-cheese-chart/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/date-night-pack-1.webp",
+      "/images/bundles/date-night-pack-2.webp",
+      "/images/bundles/date-night-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$12",
+    "save": "$4",
+    "contains": [],
+    "boards": [
+      18,
+      44,
+      9,
+      47
+    ]
+  },
+  {
+    "title": "Big Crowd Pack",
+    "description": "Digital download bundle: 5 printable PDFs for 10 ($18 separately).",
+    "price": "$10.00",
+    "image": "/images/bundles/big-crowd-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/big-crowd-pack",
+    "slug": "big-crowd-pack",
+    "priceShort": "$10",
+    "pagesLabel": "5 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Feed 20, 50 or 150: the Grazing Table Planner does the math, the Make-Ahead Timeline spreads the work over three days, and three large board plans cover 15 to 30 guests. $8 less than buying them one at a time.",
+    "includes": [
+      "The Grazing Table Planner ($5 on its own)",
+      "The Make-Ahead Board Timeline ($4)",
+      "Wedding & Shower Board plan ($3)",
+      "Showstopper Grand Board plan ($3)",
+      "Office Party Board plan ($3)"
+    ],
+    "who": "Anyone feeding a crowd: weddings, showers, graduations, office parties and open houses.",
+    "seoTitle": "Big Crowd Pack: Grazing Table Planner + 3 Large Board Plans",
+    "metaDescription": "Printable grazing table planner, make-ahead timeline and three large charcuterie board plans for 15 to 150 guests. $10 for all five ($18 separately).",
+    "free": [
+      [
+        "How to build a grazing table",
+        "/blog/grazing-table/"
+      ],
+      [
+        "Charcuterie board for 50 people",
+        "/party-planner/charcuterie-board-for-50-people/"
+      ],
+      [
+        "Party Planner: how much to buy",
+        "/party-planner/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/big-crowd-pack-1.webp",
+      "/images/bundles/big-crowd-pack-2.webp",
+      "/images/bundles/big-crowd-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$18",
+    "save": "$8",
+    "contains": [
+      "grazing-table-planner",
+      "make-ahead-board-timeline"
+    ],
+    "boards": [
+      19,
+      49,
+      30
+    ]
+  },
+  {
+    "title": "Every-Guest Dietary Pack",
+    "description": "Digital download bundle: 4 printable PDFs for 10 ($17 separately).",
+    "price": "$10.00",
+    "image": "/images/bundles/every-guest-dietary-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/every-guest-dietary-pack",
+    "slug": "every-guest-dietary-pack",
+    "priceShort": "$10",
+    "pagesLabel": "4 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "One planner to put every guest at the same table, plus a full kit for gluten-free, nut-free and vegetarian or vegan guests. $7 less than buying them one at a time.",
+    "includes": [
+      "The Mixed-Diet Party Planner ($5 on its own)",
+      "The Gluten-Free Board Kit ($4)",
+      "The Nut-Free Board Kit ($4)",
+      "The Vegetarian & Vegan Board Kit ($4)",
+      "9 complete boards with amounts for 6, 12 or 20 guests"
+    ],
+    "who": "Hosts whose guest list includes a celiac, a nut allergy and a vegan. Not medical advice: for a serious allergy, read every label and ask your guest.",
+    "seoTitle": "Every-Guest Dietary Pack: Gluten-Free, Nut-Free & Vegan Boards",
+    "metaDescription": "Printable mixed-diet party planner plus gluten-free, nut-free and vegetarian or vegan charcuterie board kits. $10 for all four ($17 separately).",
+    "free": [
+      [
+        "Dietary board guides",
+        "/dietary/"
+      ],
+      [
+        "Gluten-free charcuterie board",
+        "/dietary/gluten-free/"
+      ],
+      [
+        "Nut-free charcuterie board",
+        "/dietary/nut-free/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/every-guest-dietary-pack-1.webp",
+      "/images/bundles/every-guest-dietary-pack-2.webp",
+      "/images/bundles/every-guest-dietary-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$17",
+    "save": "$7",
+    "contains": [
+      "mixed-diet-party-planner",
+      "gluten-free-board-kit",
+      "nut-free-allergy-board-kit",
+      "vegetarian-vegan-board-kit"
+    ],
+    "boards": []
+  },
+  {
+    "title": "Cheese Lover's Pack",
+    "description": "Digital download bundle: 4 printable PDFs for 10 ($18 separately).",
+    "price": "$10.00",
+    "image": "/images/bundles/cheese-lovers-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/cheese-lovers-pack",
+    "slug": "cheese-lovers-pack",
+    "priceShort": "$10",
+    "pagesLabel": "4 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Two field guides, a pairing card deck and a complete all-cheese board plan in one download: 26 cheese cards and 25 pairing cards. $8 less than buying them one at a time.",
+    "includes": [
+      "The Cheese Board Field Guide ($5 on its own)",
+      "The Soft Cheese Field Guide ($5)",
+      "The Pairing Card Deck ($5)",
+      "All-Cheese Connoisseur Board plan ($3)"
+    ],
+    "who": "The person who always ends up at the cheese counter, and a good gift for one.",
+    "seoTitle": "Cheese Lover's Pack: 4 Printable Cheese Guides + Board Plan",
+    "metaDescription": "Printable cheese board field guide, soft cheese guide, pairing card deck and an all-cheese board plan. $10 for all four ($18 separately).",
+    "free": [
+      [
+        "Best cheese for a charcuterie board",
+        "/blog/best-cheese-charcuterie-board/"
+      ],
+      [
+        "Every cheese, one page each",
+        "/ingredients/cheese/"
+      ],
+      [
+        "Wine and cheese pairing chart",
+        "/pairings/wine-and-cheese-chart/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/cheese-lovers-pack-1.webp",
+      "/images/bundles/cheese-lovers-pack-2.webp",
+      "/images/bundles/cheese-lovers-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$18",
+    "save": "$8",
+    "contains": [
+      "cheese-board-field-guide",
+      "soft-cheese-field-guide",
+      "pairing-card-deck"
+    ],
+    "boards": [
+      42
+    ]
+  },
+  {
+    "title": "Field Guide Duo",
+    "description": "Digital download bundle: 2 printable PDFs for 8 ($10 separately).",
+    "price": "$8.00",
+    "image": "/images/bundles/field-guide-duo.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/field-guide-duo",
+    "slug": "field-guide-duo",
+    "priceShort": "$8",
+    "pagesLabel": "2 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "The two guides for the cheese counter and the deli counter: 16 cheese cards and 20 meat cards with taste, how much to buy, how to cut it and what goes next to it. $2 less than buying both.",
+    "includes": [
+      "The Cheese Board Field Guide ($5 on its own)",
+      "The Cured Meat Field Guide ($5)",
+      "25 printable pages between the two guides"
+    ],
+    "who": "Anyone who stands at the counter not sure what to buy, or how much.",
+    "seoTitle": "Field Guide Duo: Printable Cheese & Cured Meat Field Guides",
+    "metaDescription": "The Cheese Board Field Guide and the Cured Meat Field Guide together: 16 cheese cards and 20 meat cards to take shopping. $8 ($10 separately).",
+    "free": [
+      [
+        "Best cheese for a charcuterie board",
+        "/blog/best-cheese-charcuterie-board/"
+      ],
+      [
+        "Charcuterie meats list",
+        "/blog/best-meats-charcuterie-board/"
+      ],
+      [
+        "Types of salami",
+        "/blog/types-of-salami/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/field-guide-duo-1.webp",
+      "/images/bundles/field-guide-duo-2.webp",
+      "/images/bundles/field-guide-duo-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$10",
+    "save": "$2",
+    "contains": [
+      "cheese-board-field-guide",
+      "cured-meat-field-guide"
+    ],
+    "boards": []
   }
 ]

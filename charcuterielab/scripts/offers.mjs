@@ -27,6 +27,11 @@ export const OFFER_RULES = [
   [/around-the-world|bavarian|german|korean|thai|indian|moroccan|portuguese|turkish|peruvian|vietnamese|brazilian|argentine|caribbean|dim-sum|swiss-alpine|ploughman|eastern-european/, ["book:world"], "Love a world board?"],
   // Board business (Oct 14, 2026): the $9.99 starter kit, live once its Gumroad URL is in products.json.
   [/charcuterie-business|sell-charcuterie|grazing-business/, ["charcuterie-business-starter-kit", "grazing-table-planner"], "Starting a board business?"],
+  // Bundles (17 Oct 2026): holiday and party pages get the pack that matches.
+  [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
+  [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
+  [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
+  [/super-bowl|game-day|football|tailgate|fantasy-draft/, ["game-day-pack", "book:board"], "Hosting game day?"],
   [/baby-shower|pregnan/, ["baby-shower-board-kit", "book:board", "classic-entertaining-board-blueprint"], "Hosting a baby shower?"],
   [/smoked-salmon|lox|brunch|bagel|breakfast/, ["brunch-lox-board-plan", "new-years-eve-blini-bar", "complete-board-builder-bundle"], "Planning a brunch board?"],
   [/night-before|make-ahead|how-long|store|storage|leftover/, ["make-ahead-board-timeline", "classic-entertaining-board-blueprint"], "Making it ahead?"],
@@ -87,8 +92,21 @@ const DEFAULT_LEAD = {
   "mezze-board-plan": "Building a mezze board?",
   "burrata-stracciatella-board-plan": "Serving burrata?",
   "british-christmas-cheese-board": "Hosting Christmas?",
-  "charcuterie-business-starter-kit": "Starting a board business?"
+  "charcuterie-business-starter-kit": "Starting a board business?",
+  "holiday-hosting-pack": "Hosting the holidays?",
+  "fall-thanksgiving-pack": "Hosting this fall?",
+  "game-day-pack": "Hosting game day?",
+  "big-crowd-pack": "Feeding a crowd?",
+  "date-night-pack": "Planning a night in?",
+  "every-guest-dietary-pack": "Mixed diets at the party?",
+  "cheese-lovers-pack": "Love cheese?",
+  "field-guide-duo": "Shopping the counters?"
 };
+
+// Party-planning pages (17 Oct 2026): board plans, holidays, store guides and
+// occasion posts. The matched paid card sits right under the email box here,
+// not two sections down, because people on these pages are planning to buy.
+const PLAN = /^\/(boards|holidays)\/[^/]+\/$|^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday|super-bowl|game-day|football|tailgate|date-night|board-two|valentine|galentine|anniversary|baby-shower|bridal|wedding|graduation|birthday|office-party|cocktail-party|grazing|halloween|easter|st-patrick|picnic|camping|movie-night|book-club|-party|for-\d+-people)/;
 
 // Pages that are already sales pages, or shouldn't carry an offer.
 // Free store shopping lists (14 Oct 2026): each store guide, plus the Costco
@@ -100,6 +118,9 @@ const STORE_LISTS = (() => {
     return [];
   }
 })();
+
+const STORE_PAGES = new Set(STORE_LISTS.flatMap((x) => [x.guide, ...(x.pages || [])]).filter(Boolean).map((x) => `/blog/${x}/`));
+const isPlan = (path) => PLAN.test(path) || STORE_PAGES.has(path);
 
 const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
 
@@ -156,11 +177,22 @@ export function makeOffers(h, products, books) {
       if (!b) return null;
       return { type: "ebook", ...books.main, boardN: b.nn, title: `${b.name}, fully planned`, hook: `It's board #${b.nn} in 50 Boards Built by Science: the exact shopping list with amounts and prices, a timed build and a swap for every ingredient. Plus 49 more boards.` };
     }
+    if (target === "board:single") {
+      const b = ctx.bookBoard;
+      if (!b || !b.single) return null;
+      return { type: "single", key: `single-${b.nn}`, board: b, title: `${b.name}, fully planned`, price: b.single.price, url: b.single.url, image: b.image, page: b.slug && b.published ? `/boards/${b.slug}/` : "/shop/#singles", hook: "This board as a 5-page printable: the exact shopping list with amounts and prices, a step-by-step build, and swaps for anything the store is out of." };
+    }
     const p = live.get(target);
-    return p ? { type: "printable", slug: p.slug, title: p.title, price: p.priceShort || p.price, url: p.url, image: p.image, hook: p.hook, pages: p.pagesLabel } : null;
+    return p ? { type: "printable", slug: p.slug, title: p.title, price: p.priceShort || p.price, url: p.url, image: p.image, hook: p.hook, pages: p.pagesLabel, bundle: !!p.bundle, save: p.save, separately: p.separately } : null;
   }
 
+  // The packs that include a printable or a single board plan, best value first.
+  const packs = [...live.values()].filter((p) => p.bundle);
+  const packFor = (o) => packs.find((p) => (o.type === "single" ? (p.boards || []).includes(o.board.n) : (p.contains || []).includes(o.slug)));
+
   function pick(ctx) {
+    // A board page whose plan is live as a $3 PDF sells exactly that plan.
+    if (/^\/boards\/[^/]+\/$/.test(ctx.path) && ctx.bookBoard && ctx.bookBoard.single) return { ...asOffer("board:single", ctx), lead: "Making this board?" };
     const o = pickRaw(ctx);
     // Ingredient pages: speak to the ingredient ("Serving Brie?").
     if (/^\/ingredients\/[^/]+\/$/.test(ctx.path) && ctx.category && ctx.title) return { ...o, lead: `Serving ${ctx.title}?` };
@@ -180,9 +212,19 @@ export function makeOffers(h, products, books) {
   }
 
   // The second option under the main button.
-  function alt(o, campaign) {
+  function alt(o, campaign, ctx = {}) {
+    const pack = o.type !== "ebook" && !o.bundle ? packFor(o) : null;
+    const packLine = pack ? ` · Or the <a href="/printables/${esc(pack.slug)}/">${esc(pack.title)}</a>: ${esc(pack.pagesLabel)} for ${esc(pack.priceShort)}` : "";
+    if (o.type === "single") {
+      return `Instant download · 30-day refund${packLine || ` · <a href="${esc(books.main.page)}">All 50 boards: the book</a>`}`;
+    }
+    if (o.bundle) {
+      const b = ctx.bookBoard;
+      const just = b && b.single && live.get(o.slug) && (live.get(o.slug).boards || []).includes(b.n) ? ` · <a href="${esc(h.withTracking(b.single.url, `${campaign}_single`))}" target="_blank" rel="noopener">Just the ${esc(b.name.replace(/^The /, ""))}: ${esc(b.single.price)}</a>` : "";
+      return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · ${esc(o.separately)} separately${just}`;
+    }
     if (o.type === "printable") {
-      return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · Instant PDF · 30-day refund`;
+      return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · Instant PDF · 30-day refund${packLine}`;
     }
     const bundle = live.get("complete-board-builder-bundle");
     if (!o.paperbackUrl) return `<a href="/shop/#printables">Or browse the printables from $3</a>`;
@@ -192,18 +234,18 @@ export function makeOffers(h, products, books) {
   function top(ctx, campaign) {
     const o = pick(ctx);
     const href = h.withTracking(o.url, campaign);
-    const eyebrow = o.type === "printable" ? `Printable PDF · ${o.price} · instant download` : `Ebook · ${o.price} · instant PDF`;
+    const eyebrow = o.bundle ? `Bundle · ${o.pages} · ${o.price} · save ${o.save}` : o.type === "single" ? `Printable plan · ${o.price} · 5-page PDF` : o.type === "printable" ? `Printable PDF · ${o.price} · instant download` : `Ebook · ${o.price} · instant PDF`;
     const img = thumb(o.image, "s");
     const page = o.type === "printable" ? `/printables/${o.slug}/` : o.page;
-    return `<aside class="fx-top" aria-label="${esc(o.type === "printable" ? "Printable" : "Ebook")} for this page" data-offer="${esc(o.slug || o.key)}">
+    return `<aside class="fx-top" aria-label="${esc(o.type === "ebook" ? "Ebook" : o.bundle ? "Bundle" : "Printable")} for this page" data-offer="${esc(o.slug || o.key)}">
   <a class="fx-top-img" href="${esc(page)}" tabindex="-1" aria-hidden="true"><img src="${esc(img)}" alt="" width="96" height="96" loading="lazy" decoding="async"></a>
   <div class="fx-top-copy">
     <p class="fx-top-eyebrow">${esc(eyebrow)}</p>
     <p class="fx-top-title"><strong>${esc(o.lead)}</strong> ${esc(o.title)}</p>
     <p class="fx-top-hook">${esc(o.hook)}</p>
-    <p class="fx-top-alt">${alt(o, campaign)}</p>
+    <p class="fx-top-alt">${alt(o, campaign, ctx)}</p>
   </div>
-  <a class="button primary fx-top-buy" href="${esc(href)}" target="_blank" rel="noopener">${o.type === "printable" ? `Get it · ${esc(o.price)}` : `Get the ebook · ${esc(o.price)}`}</a>
+  <a class="button primary fx-top-buy" href="${esc(href)}" target="_blank" rel="noopener">${o.bundle ? `Get the pack · ${esc(o.price)}` : o.type === "single" ? `Get the plan · ${esc(o.price)}` : o.type === "printable" ? `Get it · ${esc(o.price)}` : `Get the ebook · ${esc(o.price)}`}</a>
 </aside>`;
   }
 
@@ -327,6 +369,7 @@ export function makeOffers(h, products, books) {
     DIST = dist;
     let n = 0;
     let hi = 0;
+    let near = 0;
     const counts = {};
     async function walk(dir, rel) {
       for (const e of await readdir(dir, { withFileTypes: true })) {
@@ -358,8 +401,12 @@ export function makeOffers(h, products, books) {
             // paid card moves two sections further down; pages whose article
             // already ends with the same product (.fx-print) skip it.
             const hiBox = emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path, ctx));
-            html = html.slice(0, at) + "\n" + hiBox + "\n" + html.slice(at);
-            if (!/<aside class="fx-print/.test(html)) {
+            if (isPlan(path)) {
+              // Party-planning page: the paid card goes straight under the email box.
+              html = html.slice(0, at) + "\n" + hiBox + "\n" + inCard.replace('class="fx-top fx-in"', 'class="fx-top fx-in fx-near"') + "\n" + html.slice(at);
+              near++;
+            } else html = html.slice(0, at) + "\n" + hiBox + "\n" + html.slice(at);
+            if (!isPlan(path) && !/<aside class="fx-print/.test(html)) {
               const from = at + hiBox.length + 2;
               const h2a = html.indexOf("<h2", from);
               const h2b = h2a >= 0 ? html.indexOf("<h2", h2a + 3) : -1;
@@ -438,7 +485,7 @@ export function makeOffers(h, products, books) {
       }
     }
     await walk(dist, "");
-    return { n, hi, counts };
+    return { n, hi, near, counts };
   }
 
   return { pick, top, sticky, inject, live };

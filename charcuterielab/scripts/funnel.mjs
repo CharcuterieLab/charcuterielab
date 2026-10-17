@@ -165,7 +165,10 @@ export function makeFunnel(h) {
   // "Just this board" option: the board's 5-page plan as a $3 PDF, when it's live on Gumroad.
   function singleLine(board, campaign) {
     if (!board || !board.single) return "";
-    return `<p class="fx-single">Only need this one? <a href="${esc(withTracking(board.single.url, `${campaign}_single`))}" target="_blank" rel="noopener">Get just the ${esc(board.name.replace(/^The /, ""))} plan · ${esc(board.single.price)}</a> <span>5-page printable PDF</span></p>`;
+    // Bundles (17 Oct 2026): the pack this board comes in, when there is one.
+    const pack = (h.bundlesForBoard ? h.bundlesForBoard(board.n) : [])[0];
+    const packLine = pack ? `<p class="fx-single">Hosting more than once? It's in the <a href="/printables/${esc(pack.slug)}/">${esc(pack.title)}</a> with ${(pack.boards || []).length + (pack.contains || []).length - 1} more plans · ${esc(pack.priceShort)} <span>${esc(pack.separately)} separately</span></p>` : "";
+    return `<p class="fx-single">Only need this one? <a href="${esc(withTracking(board.single.url, `${campaign}_single`))}" target="_blank" rel="noopener">Get just the ${esc(board.name.replace(/^The /, ""))} plan · ${esc(board.single.price)}</a> <span>5-page printable PDF</span></p>${packLine}`;
   }
 
   // The matched book card: "The Thanksgiving Board is board #20 in the book".
@@ -331,7 +334,7 @@ export function ebookSections(h, bookBoards, F) {
 // ----------------------------------------------------------- printables ---
 
 // Order of the groups on /printables/ (products.json "group"). Holidays first.
-const GROUPS = ["Holidays and parties", "Cheese", "Boards by style", "Planning and pairing", "More printables"];
+const GROUPS = ["Bundles", "Holidays and parties", "Cheese", "Boards by style", "Planning and pairing", "More printables"];
 
 // Which printable answers which page. Returns a product slug.
 export function printableFor({ kind, slug = "", title = "", category = "" }) {
@@ -383,8 +386,11 @@ export function makePrintables(h, products) {
   }
 
   function productPage(p) {
-    const bundle = bySlug.get("complete-board-builder-bundle");
-    const inBundle = !!(bundle && bundle.url && p.slug !== bundle.slug && (bundle.contains || []).includes(p.slug));
+    // The packs this printable is part of (17 Oct 2026), cheapest first.
+    const packs = products.filter((b) => b.url && b.slug !== p.slug && (b.contains || []).includes(p.slug)).sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
+    const bundle = packs[0];
+    const inBundle = !!bundle;
+    const others = bundle ? (bundle.contains || []).length + (bundle.boards || []).length - 1 : 0;
     const faq = [
       ["How do I get it?", "Checkout is on Gumroad. You get an instant download link by email, and the PDF stays in your Gumroad library."],
       ["What size does it print?", `${p.format}. It prints on any home printer, and reads fine on a phone too.`],
@@ -392,7 +398,8 @@ export function makePrintables(h, products) {
       ["What if it's not what I expected?", "Reply to your Gumroad receipt within 30 days and you'll get a full refund. No forms."],
       ["Can I share it?", p.share || "It's for your own parties and events. Print as many copies as you like for your guests, but please don't resell or post the file."],
       ["Who made it?", "Jimmy Wilson at Charcuterie Lab, who also runs a local charcuterie catering business. Every amount follows the same standard as the free Party Planner on this site."],
-      ...(inBundle ? [["Is it in a bundle?", `Yes. It's one of the three PDFs in the Complete Board Builder Bundle (${bundle.priceShort} for all three).`]] : [])
+      ...(inBundle ? [["Is it in a bundle?", `Yes. It's in the ${packs.map((b) => `${b.title} (${b.pagesLabel} for ${b.priceShort})`).join(" and the ")}.`]] : []),
+      ...(p.bundle ? [["Can I buy them one at a time?", `Yes, each plan is sold on its own too. Together they're ${p.separately}; the pack is ${p.priceShort}, so you save ${p.save}.`]] : [])
     ];
     return h.layout({
       title: `${p.seoTitle} | Charcuterie Lab`,
@@ -406,13 +413,13 @@ export function makePrintables(h, products) {
   <section class="fx-product-hero">
     <img src="${esc(p.image)}" alt="${esc(p.title)}: printable PDF cover" width="480" height="480">
     <div>
-      <p class="section-kicker">Printable · Instant PDF</p>
+      <p class="section-kicker">${p.bundle ? `Bundle · ${esc(p.pagesLabel)} · save ${esc(p.save)}` : "Printable · Instant PDF"}</p>
       <h1>${esc(p.title)}</h1>
       <p class="fx-product-lead">${esc(p.hook)}</p>
       <p class="fx-product-price">${esc(p.priceShort)} <span>${esc(p.pagesLabel)} · ${esc(p.format)}</span></p>
       ${buy(p, `printable_${p.slug}_hero`)}
       <p class="fx-fine">Instant download · Print at home · 30-day refund if it's not what you expected</p>
-      ${inBundle ? `<p class="fx-fine">Or get it with two more printables in the <a href="/printables/${bundle.slug}/">Complete Board Builder Bundle</a> for ${esc(bundle.priceShort)}.</p>` : ""}
+      ${inBundle ? `<p class="fx-fine">Or get it with ${others} more in the <a href="/printables/${bundle.slug}/">${esc(bundle.title)}</a>: ${esc(bundle.pagesLabel)} for ${esc(bundle.priceShort)} (${esc(bundle.separately)} separately).</p>` : ""}
     </div>
   </section>
   ${(p.previews || []).length ? `<section class="fx-gallery" aria-label="Look inside">
@@ -468,7 +475,7 @@ export function makePrintables(h, products) {
     <p>Instant PDF downloads from ${esc(cheapest)}. Print it, take it to the store and build from it. Checkout is on Gumroad and the download link arrives by email straight away.</p>
     <p class="fx-p-trust">Made by Jimmy Wilson at Charcuterie Lab · 30-day refund on every PDF · Print as often as you like</p>
   </header>
-  <nav class="shop-jump" aria-label="Shop sections"><a href="#start">Start here</a><a href="#ebooks">Ebooks</a><a href="#printables">Printables</a>${singles.length ? '<a href="#singles">Single boards</a>' : ""}<a href="#free">Free</a></nav>
+  <nav class="shop-jump" aria-label="Shop sections"><a href="#start">Start here</a><a href="#ebooks">Ebooks</a><a href="#printables">Printables</a>${products.some((p) => p.bundle) ? '<a href="#bundles">Bundles</a>' : ""}${singles.length ? '<a href="#singles">Single boards</a>' : ""}<a href="#free">Free</a></nav>
   ${startPicks.length ? `<section class="shop-start" id="start" aria-labelledby="shop-start-h">
     <h2 id="shop-start-h">Not sure where to start?</h2>
     <div class="shop-start-grid">
@@ -495,11 +502,11 @@ export function makePrintables(h, products) {
   </section>` : ""}
   <section class="fx-p-paid" id="printables" aria-labelledby="fx-paid">
     <h2 id="fx-paid">Printable plans and guides</h2>
-    ${GROUPS.map((g) => [g, products.filter((p) => (p.group || "More printables") === g)]).filter(([, ps]) => ps.length).map(([g, ps]) => `<h3 class="fx-p-group">${esc(g)}</h3>
+    ${GROUPS.map((g) => [g, products.filter((p) => (p.group || "More printables") === g)]).filter(([, ps]) => ps.length).map(([g, ps]) => `<h3 class="fx-p-group"${g === "Bundles" ? ' id="bundles"' : ""}>${esc(g === "Bundles" ? "Bundles: save up to $8" : g)}</h3>
     <div class="fx-p-grid">
       ${ps.map((p) => `<article class="fx-p-card">
         <a href="/printables/${p.slug}/"><img src="${esc((h.thumb || ((x) => x))(p.image))}" alt="${esc(p.title)} preview" width="320" height="320" loading="lazy" decoding="async"></a>
-        <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}</p>
+        <p class="eyebrow">${esc(p.priceShort)} · ${esc(p.pagesLabel)}${p.bundle ? ` · save ${esc(p.save)}` : ""}</p>
         <h3><a href="/printables/${p.slug}/">${esc(p.title)}</a></h3>
         <p>${esc(p.hook)}</p>
         <div class="fx-print-actions">${buy(p, "printables_hub")}<a class="fx-more" href="/printables/${p.slug}/">What's inside &rarr;</a></div>

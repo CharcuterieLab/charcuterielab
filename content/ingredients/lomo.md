@@ -1,6 +1,7 @@
 ---
 title: "Lomo"
-seo_title: "What Is Lomo? Spanish Cured Pork Loin, Explained"
+seo_title: "What Is Lomo Meat? Spain's Cured Pork Loin, Explained"
+meta_description: "Lomo is a whole Spanish pork loin cured with paprika and garlic and air-dried for months. How it tastes, lomo vs. jamón and prosciutto, and how to serve it."
 slug: "lomo"
 section: "ingredients"
 category: "Cured Meat & Seafood"

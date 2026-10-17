@@ -864,6 +864,8 @@ async function loadIngredients() {
         // Optional per-page <title> override, matched to the question people
         // actually search ("Can you eat guanciale raw?"). The H1 stays the name.
         seoTitle: data.seo_title ?? "",
+        // Optional meta description; the excerpt is used when it's missing.
+        metaDescription: data.meta_description ?? "",
         category: data.category ?? "Other",
         categorySlug: slugify(data.category ?? "Other"),
         boardRole: data.board_role ?? "",
@@ -1349,7 +1351,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
     ...(item.image ? { image: item.image, imageAlt: item.imageAlt } : {}),
     modified: item.updated || item.date,
     title: pageTitle(ingredientSeoTitle(item)),
-    description: item.excerpt,
+    description: item.metaDescription || item.excerpt,
     head: [faqSchema(item), ingredientArticleSchema(item), breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"], [item.category, `/ingredients/${item.categorySlug}/`], [item.title, `/ingredients/${item.slug}/`]])].filter(Boolean).join("\n"),
     body: `<main class="ing-main ing-detail">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> <a href="/ingredients/${item.categorySlug}/">${escapeHtml(item.category)}</a> <span aria-hidden="true">/</span> ${escapeHtml(item.title)}</p>
@@ -2698,7 +2700,7 @@ async function build() {
   }
 
   BOOK_BOARDS = await loadBookBoards(root);
-  FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl });
+  FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl, bundlesForBoard: (n) => products.filter((p) => p.bundle && (p.boards || []).includes(n)).sort((a, b) => (a.boards || []).length - (b.boards || []).length) });
   PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(GUIDE_BOOK.ebookUrl ? [{ title: "The Ingredient Guide", line: "325 ingredients in one 224-page PDF: what each tastes like, what pairs with it and why, and how much to buy.", cover: GUIDE_BOOK.cover, price: GUIDE_BOOK.ebookPrice, url: GUIDE_BOOK.ebookUrl, page: "/ingredients/", paperbackUrl: GUIDE_BOOK.paperbackUrl, paperbackPrice: GUIDE_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
@@ -3343,7 +3345,7 @@ function searchPage(count) {
 }
 
 await build();
-{ const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
+{ const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}, paid card under it on ${r.near}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");
