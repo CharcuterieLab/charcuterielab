@@ -284,9 +284,21 @@
 1000,
 1500
 ],
+"/images/best-camembert-brands-ranking.webp": [
+1000,
+1500
+],
+"/images/best-capicola-coppa-ranking.webp": [
+1000,
+1500
+],
 "/images/best-charcuterie-boards.png": [
 1024,
 687
+],
+"/images/best-charcuterie-gift-boxes-ranking.webp": [
+1000,
+1500
 ],
 "/images/best-cheddar-brands-ranking.webp": [
 1000,
@@ -353,6 +365,10 @@
 1500
 ],
 "/images/best-guacamole-ranking.webp": [
+1000,
+1500
+],
+"/images/best-havarti-brands-ranking.webp": [
 1000,
 1500
 ],
@@ -521,6 +537,10 @@
 1500
 ],
 "/images/best-tortilla-chips-ranking.webp": [
+1000,
+1500
+],
+"/images/best-trader-joes-charcuterie-items-ranking.webp": [
 1000,
 1500
 ],
@@ -4336,6 +4356,22 @@
 240,
 360
 ],
+"/images/thumbs/best-camembert-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-camembert-brands-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-capicola-coppa-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-capicola-coppa-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-charcuterie-boards-png-m.webp": [
 640,
 429
@@ -4343,6 +4379,14 @@
 "/images/thumbs/best-charcuterie-boards-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-s.webp": [
+240,
+360
 ],
 "/images/thumbs/best-cheddar-brands-ranking-webp-m.webp": [
 640,
@@ -4485,6 +4529,14 @@
 960
 ],
 "/images/thumbs/best-guacamole-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-havarti-brands-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-havarti-brands-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -4829,6 +4881,14 @@
 960
 ],
 "/images/thumbs/best-tortilla-chips-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-trader-joes-charcuterie-items-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-trader-joes-charcuterie-items-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -11833,9 +11893,21 @@
 "m": "/images/thumbs/best-butter-for-butter-board-ranking-webp-m.webp",
 "s": "/images/thumbs/best-butter-for-butter-board-ranking-webp-s.webp"
 },
+"/images/best-camembert-brands-ranking.webp": {
+"m": "/images/thumbs/best-camembert-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-camembert-brands-ranking-webp-s.webp"
+},
+"/images/best-capicola-coppa-ranking.webp": {
+"m": "/images/thumbs/best-capicola-coppa-ranking-webp-m.webp",
+"s": "/images/thumbs/best-capicola-coppa-ranking-webp-s.webp"
+},
 "/images/best-charcuterie-boards.png": {
 "m": "/images/thumbs/best-charcuterie-boards-png-m.webp",
 "s": "/images/thumbs/best-charcuterie-boards-png-s.webp"
+},
+"/images/best-charcuterie-gift-boxes-ranking.webp": {
+"m": "/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-m.webp",
+"s": "/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-s.webp"
 },
 "/images/best-cheddar-brands-ranking.webp": {
 "m": "/images/thumbs/best-cheddar-brands-ranking-webp-m.webp",
@@ -11906,6 +11978,10 @@
 "/images/best-guacamole-ranking.webp": {
 "m": "/images/thumbs/best-guacamole-ranking-webp-m.webp",
 "s": "/images/thumbs/best-guacamole-ranking-webp-s.webp"
+},
+"/images/best-havarti-brands-ranking.webp": {
+"m": "/images/thumbs/best-havarti-brands-ranking-webp-m.webp",
+"s": "/images/thumbs/best-havarti-brands-ranking-webp-s.webp"
 },
 "/images/best-heb-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-heb-charcuterie-items-ranking-webp-m.webp",
@@ -12076,6 +12152,10 @@
 "/images/best-tortilla-chips-ranking.webp": {
 "m": "/images/thumbs/best-tortilla-chips-ranking-webp-m.webp",
 "s": "/images/thumbs/best-tortilla-chips-ranking-webp-s.webp"
+},
+"/images/best-trader-joes-charcuterie-items-ranking.webp": {
+"m": "/images/thumbs/best-trader-joes-charcuterie-items-ranking-webp-m.webp",
+"s": "/images/thumbs/best-trader-joes-charcuterie-items-ranking-webp-s.webp"
 },
 "/images/best-trader-joes-cheeses-ranking.webp": {
 "m": "/images/thumbs/best-trader-joes-cheeses-ranking-webp-m.webp",

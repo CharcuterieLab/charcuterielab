@@ -83,7 +83,7 @@ flavor than people expect from a white-rinded cheese.
 |---|---|---|
 | **Président Camembert** | Most grocery stores | The widely available default. Mild for the category. |
 | **Ile de France Camembert** | Grocery cheese case | A little more character. |
-| **Camembert de Normandie AOP** | Cheese counters, Whole Foods, Murray's | The protected original. Much stronger and much better. |
+| **A Normandy Camembert in a wooden box** | Cheese counters, Whole Foods, Murray's | The closest to the original. True Camembert de Normandie AOP is raw-milk and can't be sold in the US, so these are pasteurized, but still stronger and better. |
 | **Le Châtelain Camembert** | Grocery, cheese counter | Widely imported and consistently good. |
 | **Trader Joe's Camembert** | Trader Joe's | Cheap and reliable, especially for baking. |
 | **Any wheel in a wooden box** | Cheese counter | The box is a good sign — it means the producer expects it to ripen. |
@@ -94,6 +94,9 @@ smells of ammonia is past it.
 
 **Skip:** pre-cut Camembert wedges. Small wheels are cheap enough to buy whole,
 and a cut face dries fast.
+
+
+**Our buyer's guide:** our pick for a board is **Marin French Cheese Co. Camembert**, and **Président Camembert** is the easiest to find. See [our Camembert buyer's guide](/blog/best-camembert-brands/).
 
 ## Quick FAQ
 

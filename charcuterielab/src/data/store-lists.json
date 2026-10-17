@@ -2,84 +2,453 @@
   "_note": "Free store shopping lists (Oct 14, 2026). Built by scripts/lead-pdfs.py into public/downloads/stores/<key>-shopping-list.pdf. Item names match the ranked store guides. share = part of the cheese or meat total; the amounts come from party.mjs plan().",
   "stores": [
     {
-      "key": "costco", "store": "Costco", "guide": "best-costco-charcuterie-items", "pages": ["costco-charcuterie-board"],
-      "cheese": [["Kirkland Signature Manchego DOP (6 months)", 0.35], ["Kirkland Signature Coastal English Cheddar", 0.35], ["Boursin Garlic & Fine Herbs, 3-pack", 0.30]],
-      "meat": [["Columbus Salame", 0.6], ["Kirkland Signature Reduced Sodium Dry Salame", 0.4]],
-      "crackers": ["Crunchmaster Multi-Seed Crackers (gluten-free guests)", "Carr's Table Water Crackers Variety Pack"],
-      "extras": ["Sunny Fruit Organic Dried Figs", "Kirkland Signature Extra Fancy Salted Mixed Nuts"],
-      "tips": ["Costco packs are big. For under 15 guests, buy one cheese and one meat less than the list, and plan leftovers for the week.", "The Comté (some warehouses) is the splurge for a holiday board.", "Skip the Citterio prosciutto for the board: reviewers found it chewy."]
+      "key": "costco",
+      "store": "Costco",
+      "guide": "best-costco-charcuterie-items",
+      "pages": [
+        "costco-charcuterie-board"
+      ],
+      "cheese": [
+        [
+          "Kirkland Signature Manchego DOP (6 months)",
+          0.35
+        ],
+        [
+          "Kirkland Signature Coastal English Cheddar",
+          0.35
+        ],
+        [
+          "Boursin Garlic & Fine Herbs, 3-pack",
+          0.3
+        ]
+      ],
+      "meat": [
+        [
+          "Columbus Salame",
+          0.6
+        ],
+        [
+          "Kirkland Signature Reduced Sodium Dry Salame",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Crunchmaster Multi-Seed Crackers (gluten-free guests)",
+        "Carr's Table Water Crackers Variety Pack"
+      ],
+      "extras": [
+        "Sunny Fruit Organic Dried Figs",
+        "Kirkland Signature Extra Fancy Salted Mixed Nuts"
+      ],
+      "tips": [
+        "Costco packs are big. For under 15 guests, buy one cheese and one meat less than the list, and plan leftovers for the week.",
+        "The Comté (some warehouses) is the splurge for a holiday board.",
+        "Skip the Citterio prosciutto for the board: reviewers found it chewy."
+      ]
     },
     {
-      "key": "trader-joes", "store": "Trader Joe's", "guide": "best-trader-joes-cheeses", "pages": ["trader-joes-charcuterie-board"],
-      "cheese": [["Trader Joe's Unexpected Cheddar", 0.30], ["Trader Joe's Triple Crème Brie", 0.30], ["Trader Joe's Creamy Toscano Cheese Soaked in Syrah", 0.20], ["Trader Joe's 1000 Day Gouda", 0.20]],
-      "meat": [["Salami from the deli case", 0.6], ["Trader Joe's Sliced Prosciutto", 0.4]],
-      "crackers": ["Trader Joe's Cracker Assortment", "A baguette from the bread shelf"],
-      "extras": ["Trader Joe's Roasted & Salted Rosemary Marcona Almonds", "Trader Joe's Fig Butter"],
-      "tips": ["The cheese case rotates. If a pick is gone, swap in another cheese of the same texture.", "Trader Joe's doesn't take online orders, so plan one trip with this list.", "Trader Joe's fresh flowers are cheap. A small bunch next to the board finishes the look."]
+      "key": "trader-joes",
+      "store": "Trader Joe's",
+      "guide": "best-trader-joes-cheeses",
+      "pages": [
+        "trader-joes-charcuterie-board",
+        "best-trader-joes-charcuterie-items"
+      ],
+      "cheese": [
+        [
+          "Trader Joe's Unexpected Cheddar",
+          0.3
+        ],
+        [
+          "Trader Joe's Triple Crème Brie",
+          0.3
+        ],
+        [
+          "Trader Joe's Creamy Toscano Cheese Soaked in Syrah",
+          0.2
+        ],
+        [
+          "Trader Joe's 1000 Day Gouda",
+          0.2
+        ]
+      ],
+      "meat": [
+        [
+          "Salami from the deli case",
+          0.6
+        ],
+        [
+          "Trader Joe's Sliced Prosciutto",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Trader Joe's Cracker Assortment",
+        "A baguette from the bread shelf"
+      ],
+      "extras": [
+        "Trader Joe's Roasted & Salted Rosemary Marcona Almonds",
+        "Trader Joe's Fig Butter"
+      ],
+      "tips": [
+        "The cheese case rotates. If a pick is gone, swap in another cheese of the same texture.",
+        "Trader Joe's doesn't take online orders, so plan one trip with this list.",
+        "Trader Joe's fresh flowers are cheap. A small bunch next to the board finishes the look."
+      ]
     },
     {
-      "key": "aldi", "store": "Aldi", "guide": "best-aldi-charcuterie-items", "pages": [],
-      "cheese": [["Emporium Selection Not Your Average Cheddar", 0.35], ["Emporium Selection Double Crème Brie", 0.30], ["Emporium Selection Le Gruyère", 0.20], ["Emporium Selection Dill Havarti", 0.15]],
-      "meat": [["Appleton Farms Salami Collection", 0.6], ["Appleton Farms Prosciutto", 0.4]],
-      "crackers": ["Savoritz Six Cracker Assortment"],
-      "extras": ["Specially Selected Cheese Pairing Spread Set (an Aldi Find)"],
-      "tips": ["Aldi Finds rotate weekly. The spread set and holiday cheeses come and go, so buy them when you see them.", "Bring a quarter for the cart and your own bags.", "The Specially Selected burrata makes a showpiece center if you want one."]
+      "key": "aldi",
+      "store": "Aldi",
+      "guide": "best-aldi-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Emporium Selection Not Your Average Cheddar",
+          0.35
+        ],
+        [
+          "Emporium Selection Double Crème Brie",
+          0.3
+        ],
+        [
+          "Emporium Selection Le Gruyère",
+          0.2
+        ],
+        [
+          "Emporium Selection Dill Havarti",
+          0.15
+        ]
+      ],
+      "meat": [
+        [
+          "Appleton Farms Salami Collection",
+          0.6
+        ],
+        [
+          "Appleton Farms Prosciutto",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Savoritz Six Cracker Assortment"
+      ],
+      "extras": [
+        "Specially Selected Cheese Pairing Spread Set (an Aldi Find)"
+      ],
+      "tips": [
+        "Aldi Finds rotate weekly. The spread set and holiday cheeses come and go, so buy them when you see them.",
+        "Bring a quarter for the cart and your own bags.",
+        "The Specially Selected burrata makes a showpiece center if you want one."
+      ]
     },
     {
-      "key": "whole-foods", "store": "Whole Foods", "guide": "best-whole-foods-cheeses", "pages": [],
-      "cheese": [["Isigny Sainte-Mère Double Cream Brie", 0.30], ["Sartori BellaVitano", 0.30], ["El Trigal Manchego, aged 6 months", 0.25], ["Cypress Grove Humboldt Fog", 0.15]],
-      "meat": [["Salami from the specialty cheese and deli case", 0.6], ["Prosciutto, sliced at the deli", 0.4]],
-      "crackers": ["365 by Whole Foods Market Organic Water Crackers", "365 by Whole Foods Market Crunchy Pretzel Twists"],
-      "extras": ["365 by Whole Foods Market Organic Raw Wildflower Honey"],
-      "tips": ["Check the cut-ends bin at the cheese counter for small, cheap pieces of good cheese.", "Ask for a taste. The counter staff expect it.", "Watch for the 12 Days of Cheese sale in December."]
+      "key": "whole-foods",
+      "store": "Whole Foods",
+      "guide": "best-whole-foods-cheeses",
+      "pages": [],
+      "cheese": [
+        [
+          "Isigny Sainte-Mère Double Cream Brie",
+          0.3
+        ],
+        [
+          "Sartori BellaVitano",
+          0.3
+        ],
+        [
+          "El Trigal Manchego, aged 6 months",
+          0.25
+        ],
+        [
+          "Cypress Grove Humboldt Fog",
+          0.15
+        ]
+      ],
+      "meat": [
+        [
+          "Salami from the specialty cheese and deli case",
+          0.6
+        ],
+        [
+          "Prosciutto, sliced at the deli",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "365 by Whole Foods Market Organic Water Crackers",
+        "365 by Whole Foods Market Crunchy Pretzel Twists"
+      ],
+      "extras": [
+        "365 by Whole Foods Market Organic Raw Wildflower Honey"
+      ],
+      "tips": [
+        "Check the cut-ends bin at the cheese counter for small, cheap pieces of good cheese.",
+        "Ask for a taste. The counter staff expect it.",
+        "Watch for the 12 Days of Cheese sale in December."
+      ]
     },
     {
-      "key": "walmart", "store": "Walmart", "guide": "best-walmart-charcuterie-items", "pages": [],
-      "cheese": [["Marketside Triple Crème Brie", 0.30], ["Sartori Merlot BellaVitano", 0.30], ["Marketside Parmigiano Reggiano, 24 months", 0.20], ["Boursin Garlic & Fine Herbs", 0.20]],
-      "meat": [["Marketside Peppercorn Salami", 0.6], ["Marketside Sliced Prosciutto", 0.4]],
-      "crackers": ["Good Thins crackers"],
-      "extras": ["DeLallo Pitted Olive Jubilee"],
-      "tips": ["The specialty cheese case is usually near produce or the deli, not in the dairy aisle.", "Wedges cut by hand look and taste better than cubed trays.", "Buy grapes and berries the day before, not earlier."]
+      "key": "walmart",
+      "store": "Walmart",
+      "guide": "best-walmart-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Marketside Triple Crème Brie",
+          0.3
+        ],
+        [
+          "Sartori Merlot BellaVitano",
+          0.3
+        ],
+        [
+          "Marketside Parmigiano Reggiano, 24 months",
+          0.2
+        ],
+        [
+          "Boursin Garlic & Fine Herbs",
+          0.2
+        ]
+      ],
+      "meat": [
+        [
+          "Marketside Peppercorn Salami",
+          0.6
+        ],
+        [
+          "Marketside Sliced Prosciutto",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Good Thins crackers"
+      ],
+      "extras": [
+        "DeLallo Pitted Olive Jubilee"
+      ],
+      "tips": [
+        "The specialty cheese case is usually near produce or the deli, not in the dairy aisle.",
+        "Wedges cut by hand look and taste better than cubed trays.",
+        "Buy grapes and berries the day before, not earlier."
+      ]
     },
     {
-      "key": "sams-club", "store": "Sam's Club", "guide": "best-sams-club-charcuterie-items", "pages": [],
-      "cheese": [["Member's Mark Manchego Wedge", 0.35], ["Président Brie, 19.6 oz", 0.35], ["Member's Mark Parmigiano Reggiano", 0.15], ["Boursin Garlic & Fine Herbs and Shallot & Chive, 3-pack", 0.15]],
-      "meat": [["Columbus Charcuterie Tasting Board", 0.5], ["Busseto Holiday Salami Collection (in season) or prosciutto", 0.5]],
-      "crackers": ["Entertainment Crackers Collection", "Stacy's Simply Naked Pita Chips"],
+      "key": "sams-club",
+      "store": "Sam's Club",
+      "guide": "best-sams-club-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Member's Mark Manchego Wedge",
+          0.35
+        ],
+        [
+          "Président Brie, 19.6 oz",
+          0.35
+        ],
+        [
+          "Member's Mark Parmigiano Reggiano",
+          0.15
+        ],
+        [
+          "Boursin Garlic & Fine Herbs and Shallot & Chive, 3-pack",
+          0.15
+        ]
+      ],
+      "meat": [
+        [
+          "Columbus Charcuterie Tasting Board",
+          0.5
+        ],
+        [
+          "Busseto Holiday Salami Collection (in season) or prosciutto",
+          0.5
+        ]
+      ],
+      "crackers": [
+        "Entertainment Crackers Collection",
+        "Stacy's Simply Naked Pita Chips"
+      ],
       "extras": [],
-      "tips": ["Short on time: the Member's Mark Charcuterie Entertainment Tray serves 10 to 12. Put it on a wooden board and add a Manchego wedge and grapes.", "The Manchego and Parmigiano wedges are large. Leftovers keep for weeks wrapped in cheese paper.", "Skip pre-sliced cheese trays for a board you'll photograph; the slices dry out."]
+      "tips": [
+        "Short on time: the Member's Mark Charcuterie Entertainment Tray serves 10 to 12. Put it on a wooden board and add a Manchego wedge and grapes.",
+        "The Manchego and Parmigiano wedges are large. Leftovers keep for weeks wrapped in cheese paper.",
+        "Skip pre-sliced cheese trays for a board you'll photograph; the slices dry out."
+      ]
     },
     {
-      "key": "target", "store": "Target", "guide": "best-target-charcuterie-items", "pages": [],
-      "cheese": [["Good & Gather Double Crème Brie", 0.35], ["An aged cheddar from the cheese case", 0.35], ["An aged Gouda from the cheese case", 0.30]],
-      "meat": [["Good & Gather Calabrese, Prosciutto & Capocollo Tray (6 oz)", 1.0]],
-      "crackers": ["Good & Gather Fig and Olive Mini Artisanal Crisps", "Good & Gather Everything Crackers"],
-      "extras": ["Good & Gather Glazed Pecans", "Good & Gather Classic Onion Dip (with kettle chips)"],
-      "tips": ["Target has no cheese counter, so buy wedges, not slices, from the cheese case.", "Check the dates on meat trays; some reviewers got dry slices.", "Look over grapes and berries closely, or buy fruit elsewhere."]
+      "key": "target",
+      "store": "Target",
+      "guide": "best-target-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Good & Gather Double Crème Brie",
+          0.35
+        ],
+        [
+          "An aged cheddar from the cheese case",
+          0.35
+        ],
+        [
+          "An aged Gouda from the cheese case",
+          0.3
+        ]
+      ],
+      "meat": [
+        [
+          "Good & Gather Calabrese, Prosciutto & Capocollo Tray (6 oz)",
+          1.0
+        ]
+      ],
+      "crackers": [
+        "Good & Gather Fig and Olive Mini Artisanal Crisps",
+        "Good & Gather Everything Crackers"
+      ],
+      "extras": [
+        "Good & Gather Glazed Pecans",
+        "Good & Gather Classic Onion Dip (with kettle chips)"
+      ],
+      "tips": [
+        "Target has no cheese counter, so buy wedges, not slices, from the cheese case.",
+        "Check the dates on meat trays; some reviewers got dry slices.",
+        "Look over grapes and berries closely, or buy fruit elsewhere."
+      ]
     },
     {
-      "key": "kroger", "store": "Kroger", "guide": "best-kroger-charcuterie-items", "pages": [],
-      "cheese": [["Murray's Cave Aged Stockinghall Cheddar", 0.30], ["Murray's Brie", 0.30], ["Murray's Estate Gouda", 0.25], ["Murray's Parmigiano Reggiano", 0.15]],
-      "meat": [["Genoa salami, sliced at the deli", 0.6], ["Prosciutto, sliced at the deli", 0.4]],
-      "crackers": ["Private Selection Classic Water Crisp Crackers", "A baguette from the bakery"],
-      "extras": ["Private Selection Select Blend Mixed Nuts with Sea Salt"],
-      "tips": ["Find the Murray's counter near the deli. Staff cut to order and offer tastes.", "No Murray's counter? Look for the Murray's shelf in the dairy case.", "Skip the Private Selection Charcuterie Tasting Board: poor value and middling reviews."]
+      "key": "kroger",
+      "store": "Kroger",
+      "guide": "best-kroger-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Murray's Cave Aged Stockinghall Cheddar",
+          0.3
+        ],
+        [
+          "Murray's Brie",
+          0.3
+        ],
+        [
+          "Murray's Estate Gouda",
+          0.25
+        ],
+        [
+          "Murray's Parmigiano Reggiano",
+          0.15
+        ]
+      ],
+      "meat": [
+        [
+          "Genoa salami, sliced at the deli",
+          0.6
+        ],
+        [
+          "Prosciutto, sliced at the deli",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Private Selection Classic Water Crisp Crackers",
+        "A baguette from the bakery"
+      ],
+      "extras": [
+        "Private Selection Select Blend Mixed Nuts with Sea Salt"
+      ],
+      "tips": [
+        "Find the Murray's counter near the deli. Staff cut to order and offer tastes.",
+        "No Murray's counter? Look for the Murray's shelf in the dairy case.",
+        "Skip the Private Selection Charcuterie Tasting Board: poor value and middling reviews."
+      ]
     },
     {
-      "key": "publix", "store": "Publix", "guide": "best-publix-charcuterie-items", "pages": [],
-      "cheese": [["Publix Deli Imported Vintage Gouda", 0.30], ["Publix Deli Imported French Brie", 0.30], ["Publix Deli Honey Goat Cheese", 0.20], ["Boar's Head Parmigiano Reggiano", 0.20]],
-      "meat": [["Publix Herb-Coated Salami", 0.6], ["Publix Prosciutto", 0.4]],
-      "crackers": ["Water crackers", "A baguette from the bakery"],
-      "extras": ["Palmetto Cheese Original"],
-      "tips": ["Watch the weekly ad for BOGO deals on specialty cheese.", "Check the sell-by date on cut wedges.", "Short on time: Publix sells Boar's Head charcuterie boxes and platters to order ahead."]
+      "key": "publix",
+      "store": "Publix",
+      "guide": "best-publix-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Publix Deli Imported Vintage Gouda",
+          0.3
+        ],
+        [
+          "Publix Deli Imported French Brie",
+          0.3
+        ],
+        [
+          "Publix Deli Honey Goat Cheese",
+          0.2
+        ],
+        [
+          "Boar's Head Parmigiano Reggiano",
+          0.2
+        ]
+      ],
+      "meat": [
+        [
+          "Publix Herb-Coated Salami",
+          0.6
+        ],
+        [
+          "Publix Prosciutto",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Water crackers",
+        "A baguette from the bakery"
+      ],
+      "extras": [
+        "Palmetto Cheese Original"
+      ],
+      "tips": [
+        "Watch the weekly ad for BOGO deals on specialty cheese.",
+        "Check the sell-by date on cut wedges.",
+        "Short on time: Publix sells Boar's Head charcuterie boxes and platters to order ahead."
+      ]
     },
     {
-      "key": "heb", "store": "H-E-B", "guide": "best-heb-charcuterie-items", "pages": [],
-      "cheese": [["Kerrygold Aged Irish Cheddar", 0.35], ["H-E-B Deli Artisan Triple Crème Brie", 0.35], ["Sartori SarVecchio Parmesan", 0.30]],
-      "meat": [["H-E-B Deli Uncured Italian Dry Salami, sliced to order", 0.6], ["Prosciutto, sliced at the deli", 0.4]],
-      "crackers": ["Water crackers", "Tortilla chips (for the guacamole)"],
-      "extras": ["H-E-B Deli Post Oak Smoked Pimento Cheese", "H-E-B Fresh-Made Guacamole"],
-      "tips": ["Use national-brand cheeses from the deli case for the main cheeses; H-E-B's deli is best for meat, spreads and dips.", "Ask the deli to slice salami thin.", "Put the guacamole out last; it browns once opened."]
+      "key": "heb",
+      "store": "H-E-B",
+      "guide": "best-heb-charcuterie-items",
+      "pages": [],
+      "cheese": [
+        [
+          "Kerrygold Aged Irish Cheddar",
+          0.35
+        ],
+        [
+          "H-E-B Deli Artisan Triple Crème Brie",
+          0.35
+        ],
+        [
+          "Sartori SarVecchio Parmesan",
+          0.3
+        ]
+      ],
+      "meat": [
+        [
+          "H-E-B Deli Uncured Italian Dry Salami, sliced to order",
+          0.6
+        ],
+        [
+          "Prosciutto, sliced at the deli",
+          0.4
+        ]
+      ],
+      "crackers": [
+        "Water crackers",
+        "Tortilla chips (for the guacamole)"
+      ],
+      "extras": [
+        "H-E-B Deli Post Oak Smoked Pimento Cheese",
+        "H-E-B Fresh-Made Guacamole"
+      ],
+      "tips": [
+        "Use national-brand cheeses from the deli case for the main cheeses; H-E-B's deli is best for meat, spreads and dips.",
+        "Ask the deli to slice salami thin.",
+        "Put the guacamole out last; it browns once opened."
+      ]
     }
   ]
 }

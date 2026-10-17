@@ -139,6 +139,7 @@ A good tag turns a pile of groceries into a board. Include:
 
 ## Related Reading
 
+- [Rather buy one? The Best Charcuterie Gift Boxes, Ranked](/blog/best-charcuterie-gift-boxes/)
 - [Wood vs Slate vs Marble: Which Board to Buy](/blog/best-charcuterie-boards/)
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Best Salami Brands](/blog/best-salami-brands/)

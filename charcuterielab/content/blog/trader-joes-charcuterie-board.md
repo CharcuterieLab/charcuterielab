@@ -119,6 +119,7 @@ Keep the board out no more than 2 hours, or 1 hour above 90°F.
 ## Related Reading
 
 - [The Best Trader Joe's Cheeses for a Charcuterie Board, Ranked](/blog/best-trader-joes-cheeses/)
+- [The Best Trader Joe's Charcuterie Items: Meats, Crackers and Extras, Ranked](/blog/best-trader-joes-charcuterie-items/)
 - [Costco Charcuterie Board for 20](/blog/costco-charcuterie-board/)
 - [Budget Charcuterie Board](/blog/budget-charcuterie-board/)
 - [How Much Charcuterie Per Person?](/blog/how-much-charcuterie-per-person/)

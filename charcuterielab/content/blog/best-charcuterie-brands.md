@@ -3,15 +3,15 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 56 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, ranked with stars."
-description: "All 56 Charcuterie Lab single-ingredient buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, ranked with stars."
+excerpt: "All 61 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
+description: "All 61 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for 56 charcuterie board ingredients, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at ten big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
+> **Quick Answer:** We rank the best brands for 60 charcuterie board ingredients and gifts, from crackers and cheese to cured meat, dips, pickles and chocolate, plus the best picks at ten big stores. A few top picks: Kerrygold Reserve cheddar, Fromager d'Affinois brie, Olli salami, Dalmatia fig spread and Mezzetta Castelvetrano olives. Every guide has star ratings, a best value and a splurge pick.
 
 Standing in the cracker aisle with twelve boxes in front of you? These guides tell you which one to grab and why. Each ranks the widely sold options for one board ingredient, with a clear top pick, a budget pick and a splurge.
 
@@ -36,6 +36,8 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Store-Bought Pimento Cheese for a Charcuterie Board](/blog/best-pimento-cheese/) | MyThreeSons Emmy's Original Pimento Cheese | ★★★★½ 4.4 |
 | [Best String Cheese for a Kids' Charcuterie Board](/blog/best-string-cheese/) | Frigo Cheese Heads String Cheese | ★★★★☆ 4.2 |
 | [Best Butter for a Butter Board](/blog/best-butter-for-butter-board/) | Kerrygold Pure Irish Butter (Salted) | ★★★★½ 4.7 |
+| [Best Camembert to Buy](/blog/best-camembert-brands/) | Marin French Cheese Co. Camembert | Buyer's guide (unscored) |
+| [Best Havarti to Buy](/blog/best-havarti-brands/) | Buholzer Brothers Havarti | Buyer's guide (unscored) |
 
 ## Cured meat and smoked fish
 
@@ -50,6 +52,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Mortadella Brands for a Charcuterie Board](/blog/best-mortadella-brands/) | Columbus Mortadella | ★★★★½ 4.5 |
 | [Best Smoked Salmon for a Charcuterie Board](/blog/best-smoked-salmon/) | Kirkland Signature Smoked Salmon | ★★★★½ 4.7 |
 | [Best Meat Sticks for a Charcuterie Board](/blog/best-meat-sticks/) | Chomps Original Beef Stick | ★★★★★ 4.8 |
+| [Best Capicola (Coppa) to Buy](/blog/best-capicola-coppa/) | Volpi Sliced Coppa | Buyer's guide (unscored) |
 
 ## Crackers, chips and pretzels
 
@@ -106,6 +109,12 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 |---|---|---|
 | [Best Prosecco for a Charcuterie Board](/blog/best-prosecco/) | Mionetto Prosecco Brut | ★★★★½ 4.6 |
 
+## Gifts
+
+| Guide | Our top pick | Rating |
+|---|---|---|
+| [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | ★★★★½ 4.6 |
+
 ## Store guides
 
 Shopping at one store? These rank the best charcuterie picks at each, and each one has a free printable shopping list with amounts for 8, 12 or 20 guests.
@@ -113,6 +122,7 @@ Shopping at one store? These rank the best charcuterie picks at each, and each o
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Trader Joe's Cheeses for a Charcuterie Board](/blog/best-trader-joes-cheeses/) | Trader Joe's Unexpected Cheddar | ★★★★½ 4.7 |
+| [Best Trader Joe's Charcuterie Items (Meats, Crackers, Extras)](/blog/best-trader-joes-charcuterie-items/) | Trader Joe's Salame di Parma Mild Salami (best meat) | ★★★★½ 4.5 |
 | [Best Costco Charcuterie Board Items](/blog/best-costco-charcuterie-items/) | Kirkland Signature Manchego DOP (best cheese) | ★★★★½ 4.5 |
 | [Best Aldi Charcuterie Board Items](/blog/best-aldi-charcuterie-items/) | Emporium Selection Not Your Average Cheddar | ★★★★½ 4.7 |
 | [Best Whole Foods Cheeses for a Charcuterie Board](/blog/best-whole-foods-cheeses/) | Isigny Sainte-Mère Double Cream Brie | ★★★★½ 4.3 |
@@ -174,6 +184,7 @@ Shopping at one store? These rank the best charcuterie picks at each, and each o
 | Guacamole | Member's Mark Homestyle Guacamole (Sam's Club) | ★★★★☆ 4.0 |
 | Ranch dip | Dean's Ranch Dip | ★★★★½ 4.3 |
 | Prosecco | Ruffino Prosecco | ★★★★½ 4.3 |
+| Gift box | The Swiss Colony Sausage and Cheese Bars | ★★★½☆ 3.6 |
 
 ## How we rank
 
@@ -188,6 +199,8 @@ Every product gets a score from 1 to 5 on five things, weighted into one overall
 | Easy to find | 15% | Sold in most grocery stores |
 
 **Researched, not taste-tested (yet).** These rankings come from published taste tests (from outlets like Tasting Table, Sporked, Daily Meal and The Kitchn), award results, ingredient labels and prices. We have not tasted every product side by side. When we taste-test a category ourselves, that guide will say Tested. Each guide lists its sources.
+
+**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti and capicola), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
 
 **Updated regularly.** Products change recipes, prices move and stores change what they stock. Each guide shows when it was last checked.
 

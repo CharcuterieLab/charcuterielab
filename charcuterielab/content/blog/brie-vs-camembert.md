@@ -74,10 +74,11 @@ Both melt beautifully.
 - **For baking:** Camembert in its box, or a small Brie wheel.
 - **For pregnant guests:** choose a pasteurized version and check the label. Most US Brie and Camembert are pasteurized.
 
-Our ranking of [the best Brie brands at the grocery store](/blog/best-brie-brands/) names the ones worth buying, and the [Brie](/ingredients/brie/) and [Camembert](/ingredients/camembert/) guides cover pairings and serving in detail.
+Our ranking of [the best Brie brands at the grocery store](/blog/best-brie-brands/) names the ones worth buying, our [Camembert buyer's guide](/blog/best-camembert-brands/) covers the Camembert side, and the [Brie](/ingredients/brie/) and [Camembert](/ingredients/camembert/) guides cover pairings and serving in detail.
 
 ## Related Reading
 
 - [Brie: The Complete Charcuterie Pairing Guide](/blog/brie/)
 - [Camembert: Brie's More Interesting Cousin](/blog/camembert/)
 - [The Best Brie Brands at the Grocery Store, Ranked](/blog/best-brie-brands/)
+- [The Best Camembert for a Charcuterie Board: What to Buy](/blog/best-camembert-brands/)

@@ -70,6 +70,7 @@ Capicola earns its spot through fat, spice, and flexibility — it bridges the g
 
 ## Related Reading
 
+- [The Best Capicola (Coppa) for a Charcuterie Board: What to Buy](/blog/best-capicola-coppa/)
 - [Fermentation Science in Salami: Why the pH Drop Is the Safety Mechanism](https://charcuterielab.com/fermentation-salami/)
 - [Why Aged Cheese + Cured Meat Tastes More Savory Together: The Umami Synergy Science](https://charcuterielab.com/umami-synergy/)
 - [Nitrates and Nitrites in Cured Meat: What They Do and Why They're There](https://charcuterielab.com/nitrates-nitrites/)

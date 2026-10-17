@@ -248,7 +248,7 @@ ${countdownJs()}`
 // guides), the gift guide in gift season, and the matching printable.
 const HOLIDAY_NEXT = {
   thanksgiving: { guides: [["best-cranberry-sauce", "Best canned cranberry sauce"], ["best-brie-brands", "Best brie for baking"], ["best-mixed-nuts", "Best mixed nuts"]], print: ["grazing-table-planner", "Grazing Table Planner"], gifts: true },
-  christmas: { guides: [["best-shortbread", "Best shortbread"], ["best-cranberry-sauce", "Best cranberry sauce"], ["best-dark-chocolate", "Best dark chocolate"]], print: ["british-christmas-cheese-board", "British Christmas Cheese Board"], gifts: true },
+  christmas: { guides: [["best-charcuterie-gift-boxes", "Best charcuterie gift boxes"], ["best-shortbread", "Best shortbread"], ["best-cranberry-sauce", "Best cranberry sauce"], ["best-dark-chocolate", "Best dark chocolate"]], print: ["british-christmas-cheese-board", "British Christmas Cheese Board"], gifts: true },
   hanukkah: { guides: [["best-smoked-salmon", "Best smoked salmon"], ["best-cream-cheese", "Best cream cheese"], ["best-hummus", "Best hummus"]], gifts: true },
   "new-years-eve": { guides: [["best-prosecco", "Best prosecco"], ["best-smoked-salmon", "Best smoked salmon"], ["best-brie-brands", "Best brie"]], print: ["new-years-eve-blini-bar", "New Year's Eve Blini Bar"] },
   "super-bowl": { guides: [["best-salsa", "Best salsa"], ["best-guacamole", "Best guacamole"], ["best-queso", "Best queso"]], print: ["salami-tasting-party-kit", "Salami Tasting Party Kit"] },

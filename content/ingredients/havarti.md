@@ -73,7 +73,7 @@ defense. It also disappears entirely next to aged cheddar, so give it distance.
 
 | Product | Where | Notes |
 |---|---|---|
-| **Castello Havarti** | Most grocery stores | The widely available Danish original. Reliable. |
+| **Castello Havarti** | Most grocery stores | The widely available brand from Danish dairy Arla, which makes its US Havarti in Wisconsin. Reliable. |
 | **Arla Havarti** | Grocery cheese case | Another Danish standard, widely stocked. |
 | **Dill Havarti** | Grocery cheese case | Genuinely good with smoked fish and cucumber. |
 | **Creamy Havarti** | Grocery | A softer, higher-fat version. Better on a board than the standard. |
@@ -85,6 +85,9 @@ choice. The standard version is drier and duller.
 
 **Skip:** pre-sliced Havarti in sandwich squares. It dries at the edges and
 reads as deli meat's companion rather than a board cheese.
+
+
+**Our buyer's guide:** our pick is **Buholzer Brothers Havarti**, which swept the 2025 US Championship Havarti class, and **Castello Creamy Havarti** is the easiest to find. See [our Havarti buyer's guide](/blog/best-havarti-brands/).
 
 ## Quick FAQ
 

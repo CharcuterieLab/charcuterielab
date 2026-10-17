@@ -90,6 +90,9 @@ chopped and re-formed meat.
 **Skip:** anything described as "capicola loaf" or that looks uniformly pink and
 pressed. That's a formed lunch meat.
 
+
+**Our buyer's guide:** for a board, buy dry-cured coppa such as **Volpi Sliced Coppa**. At the deli, **Boar's Head Hot Capocollo** is the easy pick. See [our capicola and coppa buyer's guide](/blog/best-capicola-coppa/).
+
 ## Quick FAQ
 
 **Is capicola the same as coppa?**
