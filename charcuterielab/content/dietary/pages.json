@@ -915,6 +915,42 @@
         "gfd-blue",
         "fda-gf"
       ]
+    },
+    {
+      "slug": "is-gorgonzola-vegetarian",
+      "diet": "vegetarian",
+      "q": "Is gorgonzola vegetarian?",
+      "title": "Is Gorgonzola Vegetarian? The Rennet Answer for Blue Cheese",
+      "description": "Traditional Gorgonzola isn't vegetarian because it's made with animal rennet. Here's how to tell which blue cheeses are, and what to buy for a vegetarian board.",
+      "verdict": "Usually no",
+      "answer": "Usually not. Traditional Gorgonzola is made with animal rennet, and the Vegetarian Society lists it, with Roquefort, as usually not vegetarian. Some blue cheeses, including many Stiltons, use microbial rennet and say vegetarian on the label.",
+      "body": [
+        "Rennet is the enzyme that sets milk into curd, and traditional rennet comes from a calf's stomach. Italian Gorgonzola and French Roquefort are normally made this way, so strict vegetarians usually avoid them.",
+        "Blue cheese isn't a lost cause. The blue mold itself is fine for vegetarians; the question is only the rennet. Many British Stiltons and some American blues are made with microbial or vegetable rennet. The label or the cheesemaker will tell you."
+      ],
+      "check": [
+        "\"vegetarian\" on the package",
+        "\"microbial\", \"vegetable\" or \"non-animal\" rennet in the ingredients",
+        "\"enzymes\" or \"rennet\" alone, which doesn't say which kind: ask the maker"
+      ],
+      "swap": {
+        "text": "Cheeses that are often made with vegetarian rennet (check the label):",
+        "slugs": [
+          "stilton",
+          "aged-cheddar",
+          "fresh-chevre"
+        ]
+      },
+      "ingredients": [
+        "gorgonzola",
+        "roquefort",
+        "stilton",
+        "danish-blue",
+        "cambozola"
+      ],
+      "sources": [
+        "vegsoc-cheese"
+      ]
     }
   ],
   "classify": {

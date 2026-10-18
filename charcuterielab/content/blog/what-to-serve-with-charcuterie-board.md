@@ -122,6 +122,7 @@ If you're serving a larger gathering, a dedicated olive bowl separate from the b
 - [How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly](https://charcuterielab.com/blog/wine-cheese-board/)
 - [Beer and Charcuterie: The Style-by-Style Pairing Guide](https://charcuterielab.com/blog/beer-pairing/)
 - [The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites](https://charcuterielab.com/blog/acid-rule/)
+- [Veggie Tray Ideas](/blog/veggie-tray-ideas/)
 
 ## FAQ
 

@@ -88,6 +88,8 @@ grind wearing the name.
 
 **Ranked picks:** our top-rated soppressata is **Brooklyn Cured Sweet Soppressata** (4.2 out of 5), and the best value is **Volpi Soppressata**. See [the full ranking of the best soppressata](/blog/best-soppressata-brands/).
 
+**Soppressata or pepperoni?** See [soppressata vs. pepperoni](/blog/soppressata-vs-pepperoni/).
+
 ## Quick FAQ
 
 **Soppressata or Genoa salami?**

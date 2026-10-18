@@ -1,13 +1,14 @@
 ---
 title: "Finocchiona"
+seo_title: "What Is Finocchiona? Tuscan Fennel Salami, Explained"
 slug: "finocchiona"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Fennel salami"
 role_group: "Salami"
-excerpt: "Tuscan salami packed with wild fennel seed. The origin story involves a thief at a fair, and the fennel is doing more work than flavor."
+excerpt: "Finocchiona is a soft Tuscan salami seasoned with fennel seed, garlic and red wine. It tastes gently of aniseed, crumbles when sliced, and is ready to eat as is."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-10-18
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
@@ -15,7 +16,7 @@ allergens: []
 tags: ["cured meat", "italian", "salami", "tuscan"]
 pairs_with: ["genoa-salami", "soppressata", "pecorino-toscano", "taralli", "olive-oil-crackers"]
 avoid_with: ["delicate-fresh-cheese"]
-faq: "[{"question": "What does finocchiona taste like?", "answer": "Aniseed and sweet herbs from wild fennel seed, over a soft, mildly tangy pork salami."}, {"question": "Why is it so crumbly?", "answer": "Coarse grind, soft texture and a relatively short cure. It's characteristic — some slices will break."}, {"question": "Why fennel?", "answer": "Fennel grew wild in Tuscany and pepper was expensive. The fennel oils also have mild antimicrobial properties, which helped preserve the salami."}, {"question": "How much per person?", "answer": "1–2 oz, ideally alongside a milder salami."}, {"question": "Is it like licorice?", "answer": "Same aromatic family, but savory rather than sweet. Most people who dislike licorice candy still like finocchiona."}]"
+faq: "[{"question": "What is finocchiona?", "answer": "A Tuscan salami made from coarsely ground pork seasoned with fennel seed, garlic and red wine. The protected version is Finocchiona IGP."}, {"question": "How do you pronounce finocchiona?", "answer": "fee-noh-KYOH-nah. The name comes from finocchio, Italian for fennel."}, {"question": "Is finocchiona raw?", "answer": "It isn't cooked, but it's cured and dried, which makes it ready to eat sliced, like any salami."}, {"question": "What's the difference between finocchiona and Genoa salami?", "answer": "Finocchiona is softer and crumblier, with fennel seed and a gentle aniseed flavor. Genoa is firmer, finer and garlicky, with no fennel."}, {"question": "What does finocchiona taste like?", "answer": "Aniseed and sweet herbs from wild fennel seed, over a soft, mildly tangy pork salami."}, {"question": "Why is it so crumbly?", "answer": "Coarse grind, soft texture and a relatively short cure. It's characteristic — some slices will break."}, {"question": "Why fennel?", "answer": "Fennel grew wild in Tuscany and pepper was expensive. The fennel oils also have mild antimicrobial properties, which helped preserve the salami."}, {"question": "How much per person?", "answer": "1–2 oz, ideally alongside a milder salami."}, {"question": "Is it like licorice?", "answer": "Same aromatic family, but savory rather than sweet. Most people who dislike licorice candy still like finocchiona."}]"
 ---
 
 ## The short version
@@ -41,6 +42,29 @@ Fennel's aromatic oils are the mechanism, and they do more than flavor. Anethole
 — the compound behind the aniseed note — is antimicrobial, which helped preserve
 the salami in a hot climate. The perfume that makes finocchiona distinctive was
 originally a preservative and a pepper substitute.
+
+## Finocchiona vs Genoa salami and soppressata
+
+| | Finocchiona | Genoa salami | Soppressata |
+|---|---|---|---|
+| Region | Tuscany | Italian-American | Southern Italy |
+| Key seasoning | Fennel seed, garlic, red wine | Garlic, white pepper | Chili (hot) or black pepper (sweet) |
+| Grind | Coarse | Fine to medium | Coarse |
+| Texture | Soft and crumbly | Soft but holds together | Firm and chewy |
+| Flavor | Aniseed, herbal, sweet | Mild, garlicky | Bold, often spicy |
+| On a board | Flat slices at one end | Folded quarters anywhere | Flat ovals as an accent |
+
+Finocchiona is the salami to pick when you want something guests haven't had
+before. Put a mild Genoa next to it so anyone who dislikes aniseed has an
+option.
+
+## Is finocchiona raw?
+
+It isn't cooked, but it is cured: salted, fermented and dried until it's safe
+to eat sliced, like any salami. Keep opened finocchiona wrapped in the fridge.
+
+**Pregnant guests:** the CDC advises heating dry sausages like salami until
+steaming hot during pregnancy.
 
 ## What it pairs with — and why
 
@@ -88,6 +112,16 @@ ingredient list. Some versions use fennel pollen, which is subtler and pricier.
 pair it with a mild Genoa so there's an alternative.
 
 ## Quick FAQ
+
+**What is finocchiona?**
+A Tuscan salami made from coarsely ground pork seasoned with fennel seed,
+garlic and red wine. The protected version is Finocchiona IGP.
+
+**How do you pronounce finocchiona?**
+fee-noh-KYOH-nah. The name comes from *finocchio*, Italian for fennel.
+
+**Is finocchiona raw?**
+It isn't cooked, but it's cured and dried, which makes it ready to eat sliced.
 
 **What does finocchiona taste like?**
 Aniseed and sweet herbs from wild fennel seed, over a soft, mildly tangy pork

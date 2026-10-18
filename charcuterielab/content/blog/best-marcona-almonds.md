@@ -97,6 +97,8 @@ Not always. Some are fried in peanut oil, including Costco's Kirkland version. C
 
 Manchego, chorizo, honey, dried apricots and dry sherry.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Tasting Table: 12 Trader Joe's Nuts, Ranked (Sep 2024)](https://www.tastingtable.com/1670834/trader-joes-nuts-ranked-worst-best/)

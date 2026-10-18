@@ -95,6 +95,8 @@ fast-cured domestic ham — fine in cooking, flat on a board.
 
 **Gluten-free?** Yes. See [Is prosciutto gluten-free?](/dietary/questions/is-prosciutto-gluten-free/).
 
+**Pregnant?** Cook it until steaming hot first. See [can you eat prosciutto while pregnant?](/blog/can-you-eat-prosciutto-while-pregnant/).
+
 ## Quick FAQ
 
 **What's the difference between prosciutto and prosciutto di Parma?**

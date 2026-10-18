@@ -145,6 +145,8 @@ Genoa is softer and more garlicky; hard salami is drier and firmer. Genoa is eas
 
 Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party food, 4 oz when it is dinner. Salami is usually part of that.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Sporked: Best Salami (updated Mar 2025)](https://sporked.com/article/best-salami/)

@@ -82,3 +82,4 @@ Our ranking of [the best Brie brands at the grocery store](/blog/best-brie-brand
 - [Camembert: Brie's More Interesting Cousin](/blog/camembert/)
 - [The Best Brie Brands at the Grocery Store, Ranked](/blog/best-brie-brands/)
 - [The Best Camembert for a Charcuterie Board: What to Buy](/blog/best-camembert-brands/)
+- [Can You Eat Brie Rind?](/blog/can-you-eat-brie-rind/)

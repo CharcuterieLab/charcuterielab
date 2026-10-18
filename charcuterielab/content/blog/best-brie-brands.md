@@ -144,6 +144,8 @@ Not technically. It is made like a brie but from ultrafiltered milk, which makes
 
 20 to 30 minutes.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Tasting Table: 9 Grocery Store Brie Cheeses, Ranked](https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/)

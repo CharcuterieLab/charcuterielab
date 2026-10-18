@@ -109,6 +109,8 @@ Brie, goat cheese, blue cheese and aged Manchego all pair well.
 
 A small bowl of about 1/4 to 1/2 cup covers a board for 6 to 8 people.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Sporked: Best Jams for Charcuterie Boards](https://sporked.com/article/best-jams-for-charcuterie-board/)

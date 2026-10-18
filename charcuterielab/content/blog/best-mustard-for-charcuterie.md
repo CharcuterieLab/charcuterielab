@@ -121,6 +121,8 @@ Whole-grain looks better and has texture; Dijon is sharper. Serve one of each on
 
 Salami, summer sausage, pâté, aged cheddar and pretzels.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [America's Test Kitchen: The Best Whole-Grain Mustards (Feb 2022)](https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard)

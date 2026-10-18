@@ -98,6 +98,8 @@ they've usually been sitting. Buy a small wheel instead.
 
 **Ranked picks:** our top-rated brie is **Fromager d'Affinois** (4.4 out of 5), and the best value is **Trader Joe's Brie**. See [the full ranking of the best brie](/blog/best-brie-brands/).
 
+**Rind or no rind?** The white rind is edible. See [can you eat brie rind?](/blog/can-you-eat-brie-rind/).
+
 ## Quick FAQ
 
 **Do you eat the rind on brie?**

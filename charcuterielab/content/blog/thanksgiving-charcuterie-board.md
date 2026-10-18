@@ -107,6 +107,7 @@ The Thanksgiving board succeeds when it's calibrated to its role: pre-dinner sus
 - [Turkey Charcuterie Board](/blog/turkey-charcuterie-board/)
 - [Baked Brie Recipe](/blog/baked-brie-recipe/)
 - [Classic Cheese Ball Recipe](/blog/cheese-ball-recipe/)
+- [Thanksgiving Pie Board](/blog/thanksgiving-pie-board/)
 
 ## FAQ
 

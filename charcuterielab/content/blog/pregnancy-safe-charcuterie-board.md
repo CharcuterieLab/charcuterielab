@@ -110,6 +110,7 @@ Wash all fruit well, including grapes and berries, before it goes on the board.
 - [How Long Can a Charcuterie Board Sit Out?](/blog/how-long-charcuterie-board-last/)
 - [Cheese and Meat Temperature Guide](/blog/temperature-guide/)
 - [What Goes on a Charcuterie Board](/blog/what-goes-on-charcuterie-board/)
+- [Can You Eat Prosciutto While Pregnant?](/blog/can-you-eat-prosciutto-while-pregnant/)
 
 ## Sources
 

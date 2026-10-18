@@ -121,6 +121,8 @@ Pepperoni, soppressata, aged cheddar, fresh mozzarella and fried chicken bites.
 
 Most are mild to medium. Look for 'extra hot' if you want real heat.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Sporked: Best Hot Honey (Oct 2025)](https://sporked.com/article/best-hot-honey/)

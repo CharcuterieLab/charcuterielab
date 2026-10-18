@@ -152,6 +152,8 @@ Aged cheddar, blue cheese, Parmesan, aged Gouda and Manchego. Salty, nutty and s
 
 Often, but not always. Some bars, including Aldi's Choceur, contain milk. Check the label.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [Tasting Table: 20 Grocery Store Dark Chocolate Bars, Ranked Worst To Best](https://tastingtable.com/1693191/dark-chocolate-brands-ranked)

@@ -133,6 +133,8 @@ Dark honey such as chestnut or buckwheat. Its bitterness balances the salt and s
 
 Yes, especially with salami, aged cheddar and fresh mozzarella. Tasting Table's top pick was Björn's Sweet and Spicy.
 
+**Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
+
 ## Sources
 
 - [The Kitchn: The 5 Best Store-Bought Honey Brands (Aug 2026)](https://www.thekitchn.com/best-honey-23738242)

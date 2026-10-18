@@ -80,3 +80,4 @@ Our rankings of [the best soppressata](/blog/best-soppressata-brands/) and [the 
 - [Soppressata: The Boldest Italian Salami on Your Charcuterie Board](/blog/soppressata/)
 - [Salami vs. Pepperoni: Is Pepperoni Salami?](/blog/salami-vs-pepperoni/)
 - [The Best Soppressata Brands for a Charcuterie Board, Ranked](/blog/best-soppressata-brands/)
+- [Soppressata vs. Pepperoni](/blog/soppressata-vs-pepperoni/)

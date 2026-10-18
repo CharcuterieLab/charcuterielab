@@ -97,6 +97,8 @@ and it looks like salad topping.
 
 **Gluten-free?** Yes. See [Is blue cheese gluten-free?](/dietary/questions/is-blue-cheese-gluten-free/).
 
+**Vegetarian?** Usually not. See [Is gorgonzola vegetarian?](/dietary/questions/is-gorgonzola-vegetarian/).
+
 ## Quick FAQ
 
 **Gorgonzola dolce or piccante?**

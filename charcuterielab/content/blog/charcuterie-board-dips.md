@@ -84,6 +84,7 @@ Every dip on your board should earn its place by serving a specific pairing func
 - [The Salt-Sweet Principle: Why Contrast Works on a Board](https://charcuterielab.com/salt-sweet-principle/)
 - [Best Crackers for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-crackers/)
 - [The Best Store-Bought Hummus, Ranked](/blog/best-hummus/)
+- [Veggie Tray Ideas](/blog/veggie-tray-ideas/)
 
 ## FAQ
 
