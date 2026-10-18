@@ -86,6 +86,8 @@ with cheese and crackers at a gift-basket level, not on a composed board.
 
 **Ranked picks:** our top-rated summer sausage is **Cloverdale Original Tangy Summer Sausage** (4.4 out of 5), and the best value is **Trader Joe's Natural Turkey Summer Sausage**. See [the full ranking of the best summer sausage](/blog/best-summer-sausage/).
 
+**Gluten-free?** Often, but check the label and gift boxes. See [Is summer sausage gluten-free?](/dietary/questions/is-summer-sausage-gluten-free/).
+
 ## Quick FAQ
 
 **Why is it called summer sausage?**

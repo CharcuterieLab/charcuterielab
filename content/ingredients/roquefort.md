@@ -89,6 +89,8 @@ sheep's milk and always cave-aged; anything else is a different blue.
 **Skip:** buying it for a crowd you don't know. It's genuinely intense and
 about a third of people won't eat it.
 
+**Gluten-free?** Yes, even though the mold can be started on bread. See [Is blue cheese gluten-free?](/dietary/questions/is-blue-cheese-gluten-free/).
+
 ## Quick FAQ
 
 **Is Roquefort stronger than Stilton?**

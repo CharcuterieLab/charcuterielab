@@ -2,10 +2,11 @@
 title: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
 seo_title: "What Is Coppa Meat? Cured Pork Neck (Capicola), Explained"
 date: "2026-09-10"
+updated: "2026-10-18"
 image: "/images/coppa.png"
-excerpt: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
+excerpt: "Coppa is Italian cured pork neck and shoulder, the same meat as capicola: marbled, sweet and silky, and ready to eat sliced thin. Here's how it compares with prosciutto and salami."
 description: "Coppa is whole cured pork neck and shoulder, the same meat as capicola: marbled, sweet and silky. Sweet vs. spicy, how it's made, how to slice and pair it."
-faq: "[{"question":"What is coppa exactly — is it the same as capicola?","answer":"Yes — coppa and capicola (or capocollo) are the same product under different regional names. \"Coppa\" is common in northern Italy; \"capicola\" is standard in southern Italy and in Italian-American tradition. The name derives from *capo* (head) and *collo* (neck), referring to the head and neck muscle from which it's made. The New Jersey/New York deli pronunciation \"gabagool\" is a regional Americanization of \"capocollo.\""},{"question":"How is coppa different from salami?","answer":"Salami is a fermented and dried sausage made from minced or ground meat stuffed into a casing. Coppa is whole-muscle — the entire neck and shoulder muscle is cured and dried intact. This means coppa shows visible muscle grain and marbling rather than the uniform interior of salami. The flavor of coppa is more nuanced and less heavily spiced; salami has more fermentation character and acidity."},{"question":"How do you slice coppa for a board?","answer":"Coppa is sliced thin — 2–3mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering."},{"question":"What's the shelf life of coppa once opened?","answer":"Once a package is opened, wrap tightly in wax paper and refrigerate. Coppa stays at peak quality for 7–10 days. The fat can oxidize and become slightly rancid-tasting after prolonged air exposure — the wax paper breathes better than plastic without drying out the surface. ---"}]"
+faq: "[{"question": "What is coppa exactly — is it the same as capicola?", "answer": "Yes — coppa and capicola (or capocollo) are the same product under different regional names. \"Coppa\" is common in northern Italy; \"capicola\" is standard in southern Italy and in Italian-American tradition. The name derives from *capo* (head) and *collo* (neck), referring to the head and neck muscle from which it's made. The New Jersey/New York deli pronunciation \"gabagool\" is a regional Americanization of \"capocollo.\""}, {"question": "What does coppa taste like?", "answer": "Sweet, rich and gently nutty, with black pepper and a little wine in the sweet (dolce) style. Spicy coppa adds Calabrian chili heat that builds slowly."}, {"question": "Is coppa raw?", "answer": "It isn't cooked, but it is fully dry-cured with salt and air-dried for months, so it's ready to eat sliced thin, like prosciutto or salami."}, {"question": "What's the difference between coppa and prosciutto?", "answer": "Coppa is the neck and shoulder, marbled all the way through and seasoned with pepper and wine. Prosciutto is the leg, cured with salt only, with a fat cap along one edge. Coppa is richer and more savory; prosciutto is sweeter and more delicate."}, {"question": "How do you pronounce coppa?", "answer": "KOH-pah. Capicola is kah-pee-KOH-lah, and capocollo is kah-poh-KOH-loh."}, {"question": "How is coppa different from salami?", "answer": "Salami is a fermented and dried sausage made from minced or ground meat stuffed into a casing. Coppa is whole-muscle — the entire neck and shoulder muscle is cured and dried intact. This means coppa shows visible muscle grain and marbling rather than the uniform interior of salami. The flavor of coppa is more nuanced and less heavily spiced; salami has more fermentation character and acidity."}, {"question": "How do you slice coppa for a board?", "answer": "Coppa is sliced thin — 1.5–2 mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering."}, {"question": "What's the shelf life of coppa once opened?", "answer": "Once a package is opened, wrap tightly in wax paper and refrigerate. Coppa stays at peak quality for 7–10 days. The fat can oxidize and become slightly rancid-tasting after prolonged air exposure — the wax paper breathes better than plastic without drying out the surface. ---"}]"
 slug: "coppa"
 tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcuterie pairings", "ingredient deep dive"]"
 ---
@@ -25,6 +26,27 @@ Coppa is a whole-muscle dry-cured Italian meat made from the neck and shoulder o
 This whole-muscle structure is what gives coppa its defining visual character: when sliced thin, each piece shows a mosaic of lean red meat and ivory-white fat in an irregular, almost geological pattern. It's the most visually complex cured meat you can put on a board — and it's also why coppa rolls into naturally beautiful shapes when folded or placed loosely.
 
 Coppa originates from multiple Italian regions with strong traditions: Calabria (where it tends to be spicy, flavored with Calabrian chili), Piacenza (with a protected PDO version that is one of the finest expressions), and other regions across southern and central Italy. American-produced versions under the name "capicola" vary widely in quality — imported Italian coppa is generally superior.
+
+---
+
+## Coppa vs capicola, prosciutto and salami
+
+| | Coppa / capicola | Prosciutto | Genoa salami |
+|---|---|---|---|
+| Cut | Neck and shoulder, whole muscle | Hind leg, whole muscle | Ground pork |
+| Seasoning | Black pepper, wine, herbs; chili if spicy | Salt only | Garlic, pepper, wine |
+| Fat | Marbled all the way through | A fat cap along one edge | Specks of fat in every slice |
+| Texture | Silky and tender | Soft, melts | Firm |
+| Flavor | Sweet, rich, peppery | Sweet, delicate, salty | Tangy and garlicky |
+| On a board | Folded slices, rivers and roses | Loose ribbons | Fans and folded quarters |
+
+**Coppa and capicola are the same meat.** Coppa is the northern Italian name, capicola (or capocollo) is the southern and Italian-American name, and "gabagool" is the New Jersey and New York deli pronunciation. American deli "capicola" is sometimes cooked rather than dry-cured, so check the label if you want the traditional version.
+
+## Is coppa raw?
+
+It isn't cooked, but it's fully cured. Salt and months of air-drying make it safe to eat straight from the package, the same way prosciutto and salami are. Once opened, wrap it in wax paper and keep it in the fridge.
+
+**Pregnant guests:** the CDC advises heating deli meats and dry-cured meats until steaming hot during pregnancy. Offer cooked ham or another option instead.
 
 ---
 
@@ -140,11 +162,23 @@ Coppa's pairing behavior is defined by its fat-to-lean ratio and the interplay b
 **What is coppa exactly — is it the same as capicola?**
 Yes — coppa and capicola (or capocollo) are the same product under different regional names. "Coppa" is common in northern Italy; "capicola" is standard in southern Italy and in Italian-American tradition. The name derives from *capo* (head) and *collo* (neck), referring to the head and neck muscle from which it's made. The New Jersey/New York deli pronunciation "gabagool" is a regional Americanization of "capocollo."
 
+**What does coppa taste like?**
+Sweet, rich and gently nutty, with black pepper and a little wine in the sweet (dolce) style. Spicy coppa adds Calabrian chili heat that builds slowly.
+
+**Is coppa raw?**
+It isn't cooked, but it is fully dry-cured with salt and air-dried for months, so it's ready to eat sliced thin, like prosciutto or salami.
+
+**What's the difference between coppa and prosciutto?**
+Coppa is the neck and shoulder, marbled all the way through and seasoned with pepper and wine. Prosciutto is the leg, cured with salt only, with a fat cap along one edge.
+
+**How do you pronounce coppa?**
+KOH-pah. Capicola is kah-pee-KOH-lah, and capocollo is kah-poh-KOH-loh.
+
 **How is coppa different from salami?**
 Salami is a fermented and dried sausage made from minced or ground meat stuffed into a casing. Coppa is whole-muscle — the entire neck and shoulder muscle is cured and dried intact. This means coppa shows visible muscle grain and marbling rather than the uniform interior of salami. The flavor of coppa is more nuanced and less heavily spiced; salami has more fermentation character and acidity.
 
 **How do you slice coppa for a board?**
-Coppa is sliced thin — 2–3mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering.
+Coppa is sliced thin — 1.5–2 mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering.
 
 **What's the shelf life of coppa once opened?**
 Once a package is opened, wrap tightly in wax paper and refrigerate. Coppa stays at peak quality for 7–10 days. The fat can oxidize and become slightly rancid-tasting after prolonged air exposure — the wax paper breathes better than plastic without drying out the surface.

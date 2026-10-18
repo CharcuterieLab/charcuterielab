@@ -89,6 +89,8 @@ not to eat cold.
 
 **Ranked picks:** our top-rated pepperoni is **Boar's Head Pepperoni** (4.5 out of 5), and the best value is **Trader Joe's Ciao Pizza Prima Pepperoni**. See [the full ranking of the best pepperoni](/blog/best-pepperoni-brands/).
 
+**Gluten-free?** Usually, but check the label. See [Is pepperoni gluten-free?](/dietary/questions/is-pepperoni-gluten-free/).
+
 ## Quick FAQ
 
 **Is pepperoni Italian?**

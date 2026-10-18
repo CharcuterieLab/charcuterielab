@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-18",
   "sources": {
     "fda-gf": {
       "name": "FDA: Questions and Answers on the Gluten-Free Food Labeling Final Rule",
@@ -40,6 +40,14 @@
     "mortadella": {
       "name": "Mortadella (pistachio versions)",
       "url": "https://en.wikipedia.org/wiki/Mortadella"
+    },
+    "boarshead-gf": {
+      "name": "Boar's Head: Gluten free",
+      "url": "https://www.boarshead.com/nutrition-wellness/information/gluten-free"
+    },
+    "gfd-blue": {
+      "name": "Gluten Free Dietitian (Tricia Thompson, RD): Blue cheese",
+      "url": "https://www.glutenfreedietitian.com/blue-cheese/"
     }
   },
   "diets": [
@@ -798,6 +806,114 @@
       ],
       "sources": [
         "vegan-honey"
+      ]
+    },
+    {
+      "slug": "is-pepperoni-gluten-free",
+      "diet": "gluten-free",
+      "q": "Is pepperoni gluten-free?",
+      "title": "Is Pepperoni Gluten-Free? Usually, but Check the Label",
+      "description": "Most pepperoni is gluten-free: pork, beef, salt and spices. Here's what to check on the label before it goes on a gluten-free board or pizza.",
+      "verdict": "Usually, but check",
+      "answer": "Most pepperoni is gluten-free. It's a cured sausage of pork, often beef, salt, paprika and chili. A few brands add fillers or seasoning blends that can contain wheat, so read the ingredient list before serving it to a guest with celiac disease.",
+      "body": [
+        "Pepperoni is made like any dry salami: ground meat and fat, salt, spices and a curing culture, then dried. None of those contain gluten. The risk is in added binders, fillers or flavorings, and in pepperoni sold already on a pizza.",
+        "Big brands make this easy. Boar's Head says all of its meats are gluten-free, and Hormel labels its pepperoni gluten-free on the package. Pepperoni is a meat product regulated by the USDA, so not every label has a \"Contains\" line: read the whole ingredient list."
+      ],
+      "check": [
+        "wheat, barley, rye or malt in the ingredient list",
+        "a \"gluten-free\" claim on the package",
+        "pizza and pre-made snack packs: the crust or crackers are the problem, not the pepperoni"
+      ],
+      "swap": {
+        "text": "If you can't read a label, use a whole-muscle cured meat instead. They're just meat, salt and time.",
+        "slugs": [
+          "prosciutto-di-parma",
+          "bresaola",
+          "coppa"
+        ]
+      },
+      "ingredients": [
+        "pepperoni",
+        "genoa-salami",
+        "soppressata"
+      ],
+      "sources": [
+        "nca-meat",
+        "boarshead-gf",
+        "fda-gf"
+      ]
+    },
+    {
+      "slug": "is-summer-sausage-gluten-free",
+      "diet": "gluten-free",
+      "q": "Is summer sausage gluten-free?",
+      "title": "Is Summer Sausage Gluten-Free? What to Check First",
+      "description": "Many summer sausages are gluten-free, but some add wheat-based fillers or come in gift boxes with crackers. Here's what to check before a gluten-free board.",
+      "verdict": "Often, but check",
+      "answer": "Many summer sausages are gluten-free, but not all. Basic summer sausage is beef or pork, salt, spices, sugar and a curing culture. Some brands add fillers, flavorings or beer, and gift boxes often pack it next to crackers, so check every label.",
+      "body": [
+        "Summer sausage is a fermented, semi-dry sausage, usually smoked. The basic recipe has no gluten. Watch for added binders and fillers, beer or malt in some flavored versions, and cheese-studded varieties with extra ingredients.",
+        "Holiday gift boxes are the biggest risk. The sausage itself may be fine, but it's often packed with crackers or pretzels in the same tray. Read the label on the sausage, not the box, and keep it away from the crackers on the board."
+      ],
+      "check": [
+        "wheat, barley, rye, malt or beer in the ingredient list",
+        "a \"gluten-free\" claim on the sausage itself",
+        "gift boxes: crackers or pretzels packed in the same tray"
+      ],
+      "swap": {
+        "text": "Other cured meats that are naturally gluten-free:",
+        "slugs": [
+          "prosciutto-di-parma",
+          "bresaola",
+          "coppa"
+        ]
+      },
+      "ingredients": [
+        "summer-sausage",
+        "landjager",
+        "kielbasa"
+      ],
+      "sources": [
+        "nca-meat",
+        "fda-gf"
+      ]
+    },
+    {
+      "slug": "is-blue-cheese-gluten-free",
+      "diet": "gluten-free",
+      "q": "Is blue cheese gluten-free?",
+      "title": "Is Blue Cheese Gluten-Free? Yes, Even the Bread-Grown Mold",
+      "description": "Blue cheese is considered gluten-free. The mold is sometimes started on bread, but tests found no measurable gluten in the cheese. Here's what to check.",
+      "verdict": "Yes",
+      "answer": "Yes, for almost all blue cheese. The blue mold is sometimes grown on bread first, but Canadian Celiac Association testing found no measurable gluten in blue cheese or its mold cultures. Flavored or crumbled blues need a label check.",
+      "body": [
+        "Blue cheese is milk, salt, cultures, rennet and Penicillium roqueforti mold. The worry comes from how that mold is sometimes started: on rye or wheat bread. Registered dietitian Tricia Thompson reports that the Canadian Celiac Association tested blue cheeses and mold cultures grown on gluten-containing media and found gluten below the level the tests can measure.",
+        "Pre-crumbled blue cheese can contain an anti-caking agent, which is usually cellulose or potato starch, not wheat. Flavored blue cheese spreads and dressings have more ingredients. Read those labels, and keep the cheese away from crackers on a shared board."
+      ],
+      "check": [
+        "crumbled blue cheese: the anti-caking agent in the ingredient list",
+        "dressings, spreads and flavored blues: the full ingredient list",
+        "the board: give gluten-free crackers their own plate"
+      ],
+      "swap": {
+        "text": "Blue cheeses that work on a gluten-free board:",
+        "slugs": [
+          "gorgonzola",
+          "stilton",
+          "roquefort"
+        ]
+      },
+      "ingredients": [
+        "gorgonzola",
+        "roquefort",
+        "stilton",
+        "danish-blue",
+        "cambozola"
+      ],
+      "sources": [
+        "gfd-blue",
+        "fda-gf"
       ]
     }
   ],

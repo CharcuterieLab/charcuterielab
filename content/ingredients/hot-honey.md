@@ -1,13 +1,14 @@
 ---
 title: "Hot Honey"
+seo_title: "Hot Honey: What It Is, How to Make It & What It Goes With"
 slug: "hot-honey"
 section: "ingredients"
 category: "Spreads, Jams & Honey"
 board_role: "Sweet-heat drizzle"
 role_group: "Honey"
-excerpt: "Honey infused with chilli, and the most reliable way to make a board taste modern. Drizzle it over anything soft, salty or fried."
+excerpt: "Hot honey is honey infused with chili peppers, usually with a splash of vinegar: sweet first, then heat. How to make it in 20 minutes, the best brands, and what to drizzle it on."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-10-18
 price_tier: "$$"
 serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
@@ -54,6 +55,15 @@ ingredients.
 
 **Skip it with:** delicate aged cheeses you paid a lot for. The heat will bury
 them.
+
+## How to make hot honey
+
+1. **Warm** 1 cup of honey with 2 teaspoons of dried chili flakes in a small pan over low heat. Don't let it boil.
+2. **Steep** for about 20 minutes, then stir in 1 tablespoon of apple cider vinegar.
+3. **Strain** out the flakes for a smooth drizzle, or leave them in for more heat.
+4. **Store** it in a clean jar. Made with dried flakes, it keeps at room temperature like regular honey.
+
+Use dried chilies rather than fresh. Fresh peppers add moisture, and garlic or fresh chilies infused in honey should be refrigerated and used within a week.
 
 ## How to prep it for the board
 

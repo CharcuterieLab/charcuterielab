@@ -95,6 +95,8 @@ and it looks like salad topping.
 
 **Ranked picks:** our top-rated blue cheese is **Point Reyes Original Blue** (4.5 out of 5), and the best value is **Trader Joe's Cave Aged Blue**. See [the full ranking of the best blue cheese](/blog/best-blue-cheese-brands/).
 
+**Gluten-free?** Yes. See [Is blue cheese gluten-free?](/dietary/questions/is-blue-cheese-gluten-free/).
+
 ## Quick FAQ
 
 **Gorgonzola dolce or piccante?**

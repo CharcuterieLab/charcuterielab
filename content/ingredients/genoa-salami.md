@@ -89,6 +89,8 @@ curl. Buy a chub and slice it, or buy from the counter.
 
 **Ranked picks:** our top-rated salami is **Olli Salumeria** (4.5 out of 5), and the best value is **Volpi Genoa Salame**. See [the full ranking of the best salami](/blog/best-salami-brands/).
 
+**Gluten-free?** Usually, but check the label. See [Is salami gluten-free?](/dietary/questions/is-salami-gluten-free/).
+
 ## Quick FAQ
 
 **Is Genoa salami actually from Genoa?**
