@@ -31,23 +31,23 @@ For very large events (30+), build two boards rather than one oversized board. T
 
 ## The Holiday Cheese Selection
 
-**Aged cheddar (10–12oz):** The reliable anchor. Red wax cheddar adds visual seasonality. White cheddar is sharper and more versatile. Pre-slice into wedges or serve as a block with a knife.
+**Aged cheddar:** The reliable anchor. Red wax cheddar adds visual seasonality. White cheddar is sharper and more versatile. Pre-slice into wedges or serve as a block with a knife.
 
-**Brie or triple cream (8–10oz):** The creamy centerpiece. Place on a small board within the board or as the visual anchor. Score the top in a crosshatch pattern and drape with honeycomb for a presentation moment.
+**Brie or triple cream:** The creamy centerpiece. Place on a small board within the board or as the visual anchor. Score the top in a crosshatch pattern and drape with honeycomb for a presentation moment.
 
-**Manchego (6–8oz):** Firm, nutty, universally loved. Slices cleanly and fans out well. Pairs with everything on the board. The safe bet for guests who aren't adventurous cheese eaters.
+**Manchego:** Firm, nutty, universally loved. Slices cleanly and fans out well. Pairs with everything on the board. The safe bet for guests who aren't adventurous cheese eaters.
 
-**Gorgonzola dolce or mild blue (4–5oz):** The bold note. Gorgonzola dolce is creamy and mild rather than aggressive — the entry point for guests who think they don't like blue cheese. Pair it with honeycomb and walnuts and it converts people.
+**Gorgonzola dolce or mild blue:** The bold note. Gorgonzola dolce is creamy and mild rather than aggressive — the entry point for guests who think they don't like blue cheese. Pair it with honeycomb and walnuts and it converts people.
 
 **Optional fifth: a fresh goat cheese log** rolled in herbs or dried cranberry and pistachio. It's festive, requires no slicing, and photographs beautifully.
 
 ## The Holiday Meat Selection
 
-**Prosciutto (8–10oz):** The visual star. Fold into roses or drape in loose waves. Deep pink-red color contributes directly to the holiday palette.
+**Prosciutto:** The visual star. Fold into roses or drape in loose waves. Deep pink-red color contributes directly to the holiday palette.
 
-**Soppressata or Calabrese (5–6oz):** Red salami rounds add color, visual variety, and spice contrast. Stack in rosettes.
+**Soppressata or Calabrese:** Red salami rounds add color, visual variety, and spice contrast. Stack in rosettes.
 
-**Coppa or bresaola (4–5oz):** A second whole-muscle option with a different texture and color profile from prosciutto. Bresaola (beef) is darker and leaner.
+**Coppa or bresaola:** A second whole-muscle option with a different texture and color profile from prosciutto. Bresaola (beef) is darker and leaner.
 
 **Optional:** A hard salami like Genoa or Milano for something more neutral and universally appealing.
 

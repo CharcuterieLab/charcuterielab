@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /downloads/boards/
 
 Sitemap: https://charcuterielab.com/sitemap.xml

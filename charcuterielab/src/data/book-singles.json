@@ -1,0 +1,20 @@
+{
+  "german-bavarian-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-german-bavarian-board",
+    "price": "$3",
+    "book": "world",
+    "n": 1
+  },
+  "british-ploughmans-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-british-ploughmans-board",
+    "price": "$3",
+    "book": "world",
+    "n": 2
+  },
+  "swiss-alpine-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-swiss-alpine-board",
+    "price": "$3",
+    "book": "world",
+    "n": 3
+  }
+}

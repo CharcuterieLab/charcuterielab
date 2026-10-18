@@ -2579,7 +2579,7 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     ${bodyHtml}
   </article>
   ${BEST_NEXT.get(post.slug) || ""}
-  ${board ? `<aside class="post-cta bl-post-link"><p>Want the full plan? See the ${escapeHtml(board.h1)}: what to buy, why it works and a timeline, plus a one-tap shopping list for your guest count.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board plan</a></aside>` : ""}
+  ${board ? `<aside class="post-cta bl-post-link"><p>Want to build it? See the ${escapeHtml(board.h1)}: what goes on it, why it works, and the full printable plan with every amount.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board</a></aside>` : ""}
   ${pairPlate}
   ${relatedReading(relatedPosts)}
   ${labNext(`footer_${post.slug}`)}
@@ -2706,7 +2706,12 @@ async function build() {
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
   // every board page promotes in the same order as the rest of the site.
-  const boardHelpers = { authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts) };
+  // $3 single plans from books 2-5 (gumroad-automation/sync_book_singles.py) and the blurred plan pages shown on board pages
+  let BOOK_SINGLES = {};
+  try { BOOK_SINGLES = JSON.parse(await readFile(join(root, "src", "data", "book-singles.json"), "utf8")); } catch {}
+  let PLAN_LOOKS = new Set();
+  try { PLAN_LOOKS = new Set((await readdir(join(root, "public", "images", "plans"))).filter((f) => f.endsWith("-look.webp")).map((f) => f.replace(/-look\.webp$/, ""))); } catch {}
+  const boardHelpers = { authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts), withTracking, bookSingles: BOOK_SINGLES, planLook: (b) => (PLAN_LOOKS.has(b.slug) ? `/images/plans/${b.slug}-look.webp` : "") };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -2728,7 +2733,7 @@ async function build() {
       const [, sec, slug = "", sub = ""] = path.split("/");
       if (sec === "ingredients") return { category: ingCat.get(slug) || "" };
       if (sec === "blog" && postBy.has(slug)) { const p = postBy.get(slug); return { bookBoard: bookBoardFor(p, BOOK_BOARDS, boardForPost.get(slug) || null) }; }
-      if (sec === "boards" && boardBy.has(slug)) return { bookBoard: bookOf(boardBy.get(slug)) };
+      if (sec === "boards" && boardBy.has(slug)) return { bookBoard: bookOf(boardBy.get(slug)), plant: boardBy.get(slug).book === "plant" };
       if (sec === "holidays" && HOLIDAY_BOOK_BOARD[slug]) return { bookBoard: BOOK_BOARDS.get(HOLIDAY_BOOK_BOARD[slug]) || null };
       if (sec === "pairings" && slug === "food" && sub) return { category: ingCat.get(sub) || "" };
       return {};
@@ -2856,7 +2861,7 @@ async function build() {
       const seen = new Set();
       const bds = ings.flatMap((s) => boardsUsing.get(s) || []).filter((b) => !seen.has(b.slug) && seen.add(b.slug)).slice(0, 2);
       const items = [];
-      bds.forEach((b) => items.push(`<a href="/boards/${b.slug}/"><span class="bn-k">Board plan</span><strong>${escapeHtml(b.h1 || b.title)}</strong><span>What to buy, why it works and a timeline</span></a>`));
+      bds.forEach((b) => items.push(`<a href="/boards/${b.slug}/"><span class="bn-k">Board plan</span><strong>${escapeHtml(b.h1 || b.title)}</strong><span>What goes on it and why it works</span></a>`));
       const st = STORE_POSTS[post.slug];
       if (st && postSet.has(st)) items.push(`<a href="/blog/${st}/"><span class="bn-k">Shopping list</span><strong>${escapeHtml(titleOf.get(st))}</strong><span>The whole cart, with prices</span></a>`);
       if (ings[0]) items.push(`<a href="/ingredients/${ings[0]}/"><span class="bn-k">Pairing guide</span><strong>What goes with ${escapeHtml(ingBy.get(ings[0]).title.toLowerCase().replace(/^\w/, (c) => c.toUpperCase()))}</strong><span>Pairings, prep and how to serve it</span></a>`);
@@ -3256,7 +3261,7 @@ function cheatThanksPage() {
 // exist. Not indexed. The search box is pre-filled from the missing URL's words.
 function notFoundPage() {
   const links = [
-    ["/boards/", "Board Library", "Complete board plans: what to buy, why it works and a countdown timeline."],
+    ["/boards/", "Board Library", "Boards for every occasion: what goes on each, why it works, and the full printable plan."],
     ["/board-builder/", "Build a Board", "Pick your cheeses and meats; get a shopping list sized to your guest count."],
     ["/party-planner/", "Party Planner", "How much charcuterie for any number of guests, with a printable list."],
     ["/ingredients/", "Ingredients", "Every cheese, meat and extra: how it tastes, what to pair it with, what to buy."],

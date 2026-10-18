@@ -31,11 +31,11 @@ Total build cost for 15 guests: $55–75 depending on cheese selection.
 
 The Thanksgiving board calls for cheeses with autumnal flavor profiles — warm, nutty, and complex without being polarizing.
 
-**Aged cheddar (8–10oz):** The reliable anchor. Sharp, familiar, crowd-pleasing, and directly enhanced by apple and honey pairings. Use white cheddar for a cleaner visual. A Vermont or English clothbound cheddar elevates the selection.
+**Aged cheddar:** The reliable anchor. Sharp, familiar, crowd-pleasing, and directly enhanced by apple and honey pairings. Use white cheddar for a cleaner visual. A Vermont or English clothbound cheddar elevates the selection.
 
-**Brie or triple cream (6–8oz):** The textural contrast. Creamy, mild, and approachable. Its buttery richness doesn't compete with the meal ahead the way a stinky washed rind would. Fan-slice to show the paste.
+**Brie or triple cream:** The textural contrast. Creamy, mild, and approachable. Its buttery richness doesn't compete with the meal ahead the way a stinky washed rind would. Fan-slice to show the paste.
 
-**Aged gouda (5–6oz):** The distinctive choice. At 18+ months, Dutch gouda develops caramel, butterscotch, and toffee notes from the Maillard reaction in the curd. These flavors are genuinely seasonal — they pair with apple, pear, and dried fruit in a way that reads as inherently autumnal.
+**Aged gouda:** The distinctive choice. At 18+ months, Dutch gouda develops caramel, butterscotch, and toffee notes from the Maillard reaction in the curd. These flavors are genuinely seasonal — they pair with apple, pear, and dried fruit in a way that reads as inherently autumnal.
 
 **Optional fourth: Gorgonzola dolce.** The sweeter, creamier Italian blue. Pairs with pear, honeycomb, and walnut. Use if your guest group tolerates blue cheese — if uncertain, skip it.
 
@@ -43,11 +43,11 @@ The Thanksgiving board calls for cheeses with autumnal flavor profiles — warm,
 
 Thanksgiving's flavor profile trends toward herbs, warm spice, and richness. Smoked meats fight those flavors. Lighter cured meats complement them.
 
-**Prosciutto (5–6oz):** The default elegant meat. Drape loosely rather than folding — thin sheets look more generous and take up more board real estate.
+**Prosciutto:** The default elegant meat. Drape loosely rather than folding — thin sheets look more generous and take up more board real estate.
 
-**Coppa or capicola (4–5oz):** Slightly more robust than prosciutto, with a mild spice note that pairs well with the apple and pear elements.
+**Coppa or capicola:** Slightly more robust than prosciutto, with a mild spice note that pairs well with the apple and pear elements.
 
-**Dry salami or Calabrese (3–4oz):** Adds visual pop (the deep red rounds against orange and brown autumn colors) and spice contrast to the mild cheeses.
+**Dry salami or Calabrese:** Adds visual pop (the deep red rounds against orange and brown autumn colors) and spice contrast to the mild cheeses.
 
 Avoid heavily smoked meats: smoked gouda as an additional cheese is fine, but smoked kielbasa, smoked brisket, and similar products carry flavors that fight Thanksgiving wines and sides.
 

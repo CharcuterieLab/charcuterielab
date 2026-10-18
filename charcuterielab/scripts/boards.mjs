@@ -215,12 +215,12 @@ export function boardsHub(h, boards) {
     title: "Charcuterie Board Ideas: Shopping Lists & Plans | Charcuterie Lab",
     canonical: "/boards/",
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${boards.length} complete charcuterie boards for every occasion, each with what to buy, why it works, a timeline and a one-tap shopping list for your guest count.`,
+    description: `${boards.length} complete charcuterie boards for every occasion, each with what goes on it, why it works and a full printable plan.`,
     head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}`,
     body: `<main class="bl-main">
 ${h.bookBar("boards_hub_top", "Every board, fully planned")}
 <div class="bl-inner">${boards.some((b) => b.book === "world") ? worldBanner(h) : ""}</div>
-${finder(h, boards, { heading: "Charcuterie boards for every occasion", intro: "Each board comes with what to buy, why it works, a timeline, and a one-tap shopping list sized to your guest count." })}
+${finder(h, boards, { heading: "Charcuterie boards for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF." })}
 ${h.labNext("boards_hub", { skip: ["book"], heading: "Plan your own" })}
 </main>
 ${FILTER_JS}`
@@ -232,7 +232,7 @@ export function boardCategoryPage(h, cat, boards) {
     title: `${cat.name} Charcuterie Boards | Charcuterie Lab`,
     canonical: `/boards/${cat.slug}/`,
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${cat.intro} Each with what to buy, why it works and a shopping list for your guest count.`.slice(0, 300),
+    description: `${cat.intro} Each with what goes on it, why it works and a full printable plan.`.slice(0, 300),
     head: `${itemListSchema(h, `${cat.name} charcuterie boards`, `/boards/${cat.slug}/`, boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`]])}`,
     body: `<main class="bl-main">
 ${finder(h, boards, { heading: `${cat.name} boards`, intro: cat.intro, showFilters: false, crumb: `<p class="ing-crumb"><a href="/boards/">Boards</a> <span aria-hidden="true">/</span> ${h.escapeHtml(cat.name)}</p>` })}
@@ -389,6 +389,41 @@ function boardAmounts(h, b) {
       </div>`;
 }
 
+// Board pages are the free pitch for the $3 plan (18 Oct 2026): they name
+// the stars of the board and why it works, but the exact shopping list,
+// amounts, placement and full timeline stay in the plan.
+const TEASE_ITEMS = 2;
+const TEASE_STEPS = 2;
+function singleOf(h, b) {
+  if (b.book === "main") return (bookBoardOf(h, b) || {}).single || null;
+  return (h.bookSingles && h.bookSingles[b.slug]) || null;
+}
+function teaseGroups(b) {
+  return b.groups.map((g) => ({ name: g.name, shown: g.items.slice(0, TEASE_ITEMS), more: Math.max(0, g.items.length - TEASE_ITEMS) }));
+}
+function planBox(h, b, single) {
+  const steps = b.timeline.length;
+  const look = h.planLook ? h.planLook(b) : "";
+  const href = h.withTracking ? h.withTracking(single.url, `board_plan_${b.slug}`) : single.url;
+  return `<section class="bl-section bl-plan" aria-labelledby="bl-plan-title">
+      <div class="bl-plan-inner">
+        ${look ? `<img class="bl-plan-look" src="${h.escapeHtml(look)}" alt="A page from the ${h.escapeHtml(b.h1)} plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
+        <div>
+          <p class="eyebrow">The full plan · ${h.escapeHtml(single.price)} · 5-page printable PDF</p>
+          <h2 id="bl-plan-title">Build this exact board</h2>
+          <p>This page shows what the board is and why it works. The plan is what you take to the store and the counter:</p>
+          <ul class="bl-plan-list">
+            <li>The exact shopping list for ${h.escapeHtml(b.serves)} guests, with an amount and an estimated price for every item</li>
+            <li>Where every item goes on the board, step by step, and why</li>
+            <li>The full ${steps}-step timeline, from fridge to table</li>
+            <li>A swap for anything your store is out of, plus optional upgrades</li>
+          </ul>
+          <p class="bl-cta-row"><a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the plan · ${h.escapeHtml(single.price)}</a><span>Instant download · 30-day refund</span></p>
+        </div>
+      </div>
+    </section>`;
+}
+
 export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const cat = catOf(b);
   const known = new Set(bySlug.keys());
@@ -398,6 +433,11 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const blogs = (b.blog || []).filter((s) => blogTitles.has(s));
   const glance = [["Serves", b.serves], ["Board", plain(b.board_size)], ["Prep", b.prep_time], ["Cost", b.cost], ["Level", b.difficulty]];
   const item = (i) => (i.slug && known.has(i.slug) ? `<a href="/ingredients/${i.slug}/">${h.escapeHtml(i.name)}</a>` : h.escapeHtml(i.name));
+  const single = singleOf(h, b);
+  const tease = teaseGroups(b);
+  const hidden = tease.reduce((a, g) => a + g.more, 0);
+  const steps = b.timeline.slice(0, TEASE_STEPS);
+  const visible = { ...b, groups: tease.map((g) => ({ name: g.name, items: g.shown })), timeline: steps };
 
   return h.layout({
     title: `${b.seo_title} | Charcuterie Lab`,
@@ -405,7 +445,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
     image: b.placeholder ? undefined : b.image,
     type: "article",
     description: b.description,
-    head: `${recipeSchema(h, b)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`], [b.h1, `/boards/${b.slug}/`]])}\n${faqSchemaFor(h, b)}`,
+    head: `${recipeSchema(h, visible)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`], [b.h1, `/boards/${b.slug}/`]])}\n${faqSchemaFor(h, b)}`,
     body: `<main class="bl-main bl-board">
   <div class="bl-inner">
     <p class="ing-crumb"><a href="/boards/">Boards</a> <span aria-hidden="true">/</span> <a href="/boards/${cat.slug}/">${h.escapeHtml(cat.name)}</a> <span aria-hidden="true">/</span> ${h.escapeHtml(b.h1)}</p>
@@ -419,20 +459,21 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
         ${glance.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${h.escapeHtml(v)}</dd></div>`).join("\n        ")}
       </dl>
       <p class="bl-cta-row">
-        ${boardSlugsFor(b).filter((s) => known.has(s)).length >= 5
-          ? `<a class="button primary" href="${builderLink(b, known)}">Open this board in the Board Builder</a>
-        <span>Get amounts for your own guest count, free.</span>`
-          : `<a class="button primary" href="/board-builder/">Plan a board in the Board Builder</a>
-        <span>Pick ingredients and your guest count, free.</span>`}
+        ${single
+          ? `<a class="button primary" href="${h.escapeHtml(h.withTracking ? h.withTracking(single.url, `board_hero_${b.slug}`) : single.url)}" target="_blank" rel="noopener">Get the full plan · ${h.escapeHtml(single.price)}</a>
+        <span>Shopping list with amounts, placement and timeline. <a href="#bl-plan-title">What's inside</a></span>`
+          : `<a class="button primary" href="#bl-book-title">Get the full plan</a>
+        <span>Shopping list with amounts, placement and timeline.</span>`}
       </p>
     </header>
 
     <section class="bl-section" aria-labelledby="bl-on">
       <h2 id="bl-on">What's on the board</h2>
+      <p>The stars of the board, by group. ${hidden ? `${hidden} more items, every amount and every price are in the full plan.` : "Every amount and price is in the full plan."}</p>
       <div class="bl-groups">
-        ${b.groups.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.items.map((i) => `<li>${item(i)}</li>`).join("")}</ul></div>`).join("\n        ")}
+        ${tease.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.shown.map((i) => `<li>${item(i)}</li>`).join("")}${g.more ? `<li class="bl-more-items">+ ${g.more} more in the plan</li>` : ""}</ul></div>`).join("\n        ")}
       </div>
-      ${boardAmounts(h, b) || `<p class="bl-note">Amounts and prices for each item are in the book${boardSlugsFor(b).filter((s) => known.has(s)).length >= 5 ? ", or open the board in the Board Builder for amounts sized to your guest count" : ""}.</p>`}
+      <p class="bl-note">Planning a different board? Pick your own ingredients and guest count in the free <a href="/board-builder/">Board Builder</a>.</p>
     </section>
 
     <section class="bl-section" aria-labelledby="bl-why">
@@ -444,10 +485,12 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
     <section class="bl-section" aria-labelledby="bl-when">
       <h2 id="bl-when">Timeline</h2>
       <ol class="bl-timeline">
-        ${b.timeline.map((t, k) => `<li id="step-${k + 1}"><b>${h.escapeHtml(t.when)}</b><span>${h.escapeHtml(t.what)}</span></li>`).join("\n        ")}
+        ${steps.map((t, k) => `<li id="step-${k + 1}"><b>${h.escapeHtml(t.when)}</b><span>${h.escapeHtml(t.what)}</span></li>`).join("\n        ")}
+        ${b.timeline.length > steps.length ? `<li class="bl-more-steps"><b>+ ${b.timeline.length - steps.length} more steps</b><span>The rest of the timeline and the step-by-step placement are in the full plan.</span></li>` : ""}
       </ol>
-      <p class="bl-note">The seven-step placement plan (what goes where, and why) is in the book.</p>
     </section>
+
+    ${single ? planBox(h, b, single) : ""}
 
     ${bookOffer(h, b)}
 

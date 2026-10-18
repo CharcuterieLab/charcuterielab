@@ -31,19 +31,19 @@ Sparkling wine works well with salty, fatty, umami-rich, and lightly acidic food
 For 6–8 people at a New Year's Eve gathering:
 
 **Cheese (about 1½ lb total, 3 oz per person):**
-- Parmigiano-Reggiano or aged Gruyère: 7–8 oz
-- Aged cheddar or smoked Gouda: 6–8 oz
+- Parmigiano-Reggiano or aged Gruyère
+- Aged cheddar or smoked Gouda
 - Brie or Camembert: one 8 oz wheel
 
 **Meat (about 1½ lb total, 3 oz per person):**
-- Prosciutto di Parma: 6–8 oz (the best you can find for a celebratory occasion)
-- Truffle salami or finocchiona: 6–8 oz
-- Speck or bresaola: 6–8 oz for variety
+- Prosciutto di Parma (the best you can find for a celebratory occasion)
+- Truffle salami or finocchiona
+- Speck or bresaola for variety
 
 **Accompaniments:**
 - Smoked salmon with cream cheese and capers (serves as a lox-style element)
 - Champagne grapes (visually distinctive, sweet-tart contrast)
-- Dark chocolate bark or chocolate truffles: 2–3 oz
+- Dark chocolate bark or chocolate truffles
 - Marcona almonds: 1.5 oz
 - Fig jam: 2–3 tablespoons in a ramekin
 - Cornichons: 6–8 pickles

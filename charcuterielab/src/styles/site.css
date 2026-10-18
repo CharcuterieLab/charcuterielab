@@ -5131,3 +5131,14 @@ body.fx-slide-on .fx-sticky { display: none !important; }
 @media (max-width: 600px) {
   .post-body img.post-thumb { width: 92px; height: 92px; margin: 4px 0 8px 14px; border-radius: 10px; }
 }
+
+/* Board pages sell the plan (18 Oct 2026) */
+.bl-more-items { list-style: none; margin-left: -18px; color: var(--muted); font-style: italic; }
+.bl-more-steps b, .bl-more-steps span { color: var(--muted); }
+.bl-plan { background: #f7f2e6; border: 1px solid rgba(17, 58, 39, 0.14); border-radius: 16px; padding: 22px; }
+.bl-plan-inner { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 22px; align-items: center; }
+.bl-plan-look { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12); }
+.bl-plan h2 { margin: 4px 0 8px; }
+.bl-plan-list { margin: 0 0 14px; padding-left: 20px; line-height: 1.7; }
+@media (max-width: 640px) { .bl-plan-inner { grid-template-columns: 1fr; } .bl-plan { padding: 16px; } }
+.bl-plan .eyebrow { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-dark); }
