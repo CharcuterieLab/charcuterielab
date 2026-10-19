@@ -178,6 +178,8 @@ Meats, condiments, and crackers fill the space between the cheese anchors. The c
 
 ## Related Reading
 
+- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
+- [Party Planner: Exact Amounts for 4 to 100 Guests](/party-planner/)
 - [How Many Cheeses Should Be on a Charcuterie Board?](https://charcuterielab.com/blog/how-many-cheeses/)
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 - [Manchego: Spain's Most Board-Ready Cheese](https://charcuterielab.com/blog/manchego/)

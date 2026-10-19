@@ -1,11 +1,12 @@
 ---
 title: "Christmas Charcuterie Board: How to Build a Festive Board for the Holidays"
-seo_title: "Christmas Charcuterie Board: How to Build a Festive One"
+seo_title: "How to Make a Christmas Charcuterie Board, Step by Step"
 date: "2026-09-02"
 image: "/images/christmas-charcuterie-board.png"
 excerpt: "Christmas Charcuterie Board: How to Build a Festive Board for the Holidays"
 description: "Build a Christmas charcuterie board that looks festive and feeds a crowd. Quantities for 15–25 guests, holiday cheese and meat pairings, and a red-green palette guide."
 faq: "[{"question":"How much food do you need for a Christmas charcuterie board?","answer":"For a holiday party of 15–25 guests grazing over 2–3 hours, plan 3 oz each of cheese and meat per person, plus 10% from 20 guests up — this is a longer grazing event than a pre-dinner board. For 20 guests: about 4½ lb of cheese and 4¼ lb of meat across 4–5 types each. Add generous produce, crackers, and condiments to fill the board visually."},{"question":"What cheeses work best on a Christmas charcuterie board?","answer":"Aged cheddar (red wax or white, both festive), brie (the creamy centerpiece), manchego (firm, nutty, universally loved), and a blue or gorgonzola for contrast. For a four-cheese board, this combination covers every flavor and texture register. Avoid overly niche selections for a large holiday crowd — approachability matters when serving guests with varied palates."},{"question":"What's the best red and green color palette for a Christmas board?","answer":"Red: prosciutto, salami, dried cranberry, pomegranate arils, red grapes, strawberries, cherry tomatoes. Green: Castelvetrano olives, green grapes, fresh rosemary, pistachio, cucumber, kiwi. White/cream: brie, manchego, white crackers, white cheddar. This palette works without any artificial decoration — the ingredients themselves create the visual."},{"question":"What wines pair with a Christmas charcuterie board?","answer":"Sparkling wine (Champagne, Prosecco, Cava) works with everything on the board — acidity and bubbles cut through fat and cleanse the palate. For red, choose a Pinot Noir or lighter Gamay — big tannic reds overpower soft cheeses. Gewürztraminer and off-dry Riesling complement fruit elements and spiced meats. Mulled wine can be offered separately."},{"question":"How far in advance can you build a Christmas charcuterie board?","answer":"Build up to 2 hours before guests arrive and refrigerate covered with plastic wrap. Pull out 45 minutes before serving for cheese to reach room temperature. Add crackers and bread immediately before serving — never in advance. For large events with multiple boards, stagger preparation so fresh boards replace empty ones rather than a single large board sitting out for hours."}]"
+updated: "2026-10-18"
 slug: "christmas-charcuterie-board"
 tags: "["christmas charcuterie board", "holiday charcuterie board", "christmas party food", "charcuterie board"]"
 ---
@@ -13,6 +14,8 @@ tags: "["christmas charcuterie board", "holiday charcuterie board", "christmas p
 # Christmas Charcuterie Board: How to Build a Festive Board for the Holidays
 
 > **Quick Answer:** A Christmas charcuterie board for 15–25 holiday guests needs 3 oz each of cheese and meat per person for 2–3 hours of grazing, plus 10% from 20 guests up. Build the red-green-white holiday palette from ingredients: prosciutto and pomegranate for red, Castelvetrano olives and rosemary for green, brie and white crackers for white. Four cheeses, three meats, generous produce and condiments.
+
+> Want themes instead? See our [Christmas charcuterie board ideas](/holidays/christmas/): the [wreath](/blog/christmas-wreath-charcuterie-board/), the [tree](/blog/christmas-tree-charcuterie-board/) and a [hot cocoa board](/blog/hot-cocoa-board/). For January and February, try a [winter board](/blog/winter-charcuterie-board/).
 
 The Christmas board serves a different function than most event boards. It's a two-to-three hour grazing platform, not a pre-dinner appetizer. That changes the quantity formula, the variety logic, and the visual requirements.
 

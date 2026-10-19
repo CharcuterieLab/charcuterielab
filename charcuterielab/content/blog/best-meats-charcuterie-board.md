@@ -140,6 +140,8 @@ Divide total quantity roughly equally across the meats you've selected — more 
 
 ## Related Reading
 
+- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
+- [Party Planner: Exact Amounts for 4 to 100 Guests](/party-planner/)
 - [How to Make a Prosciutto Rose](https://charcuterielab.com/blog/prosciutto-rose/)
 - [Salami vs. Pepperoni: Is Pepperoni Salami?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
 - [Bresaola: The Lean Beef That Brings Elegance to Any Board](https://charcuterielab.com/blog/bresaola/)

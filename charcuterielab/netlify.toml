@@ -636,3 +636,24 @@
   from = "/blog/index.xml"
   to = "/blog/"
   status = 301
+
+# Merged 18 Oct 2026: date night post folded into the board-for-two post
+[[redirects]]
+  from = "/blog/date-night-charcuterie-board/"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/date-night-charcuterie-board"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/date-night-charcuterie-board/"
+  to = "/blog/charcuterie-board-two/"
+  status = 301
+
+[[redirects]]
+  from = "/date-night-charcuterie-board"
+  to = "/blog/charcuterie-board-two/"
+  status = 301

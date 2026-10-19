@@ -137,7 +137,7 @@ Build the roses in their glasses, cover each glass with plastic wrap and **refri
 ## Where salami roses look best
 
 - **Holiday boards:** three roses in a ring with rosemary make the center of a [Christmas wreath board](/blog/christmas-wreath-charcuterie-board/).
-- **Valentine's and date night:** one rose on a small board for two. See the [date night board](/blog/date-night-charcuterie-board/).
+- **Valentine's and date night:** one rose on a small board for two. See the [board for two](/blog/charcuterie-board-two/).
 - **Cups and kids' boards:** use the no-glass method with pepperoni.
 - **Next to a contrast:** a red salami rose next to white brie or pale manchego shows up from across the room. See [color and flavor](/blog/color-and-flavor/).
 

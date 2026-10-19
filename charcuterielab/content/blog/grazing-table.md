@@ -1,15 +1,17 @@
 ---
-title: "Grazing Table vs. Charcuterie Board: How to Build at Scale"
+title: "How to Make a Grazing Table: Amounts, Layout and Setup"
 date: "2026-09-01"
 image: "/images/grazing-table.png"
-excerpt: "Grazing Table vs. Charcuterie Board: How to Build at Scale"
+excerpt: "How to Make a Grazing Table: Amounts, Layout and Setup"
 description: "Grazing table guide: what it is, how it differs from a charcuterie board, how to plan quantities and layout for large groups, and the key setup decisions."
 faq: "[{"question":"What is a grazing table?","answer":"A grazing table is a large-format food spread laid out directly on a table surface — typically on butcher paper, parchment, or food-safe surfaces — rather than on a single board. It follows the same build logic as a charcuterie board (anchors, condiments, accompaniments, color distribution) but at a scale that serves 20–100+ people from a single continuous surface."},{"question":"How much food do you need for a grazing table?","answer":"Plan 3 oz each of cheese and meat per person when the grazing table is the party food, and 2 oz each when a full meal follows. Add crackers at 10–12 pieces per person (6–8 before a meal). Accompaniments (fruit, vegetables, condiments) can be generous — they fill space and cost less than protein. Build in a 10% buffer."},{"question":"What is the difference between a grazing table and a charcuterie board?","answer":"Scale and surface. A charcuterie board is a single portable board serving 2–10 people. A grazing table covers an entire table surface, serves 20–100+ people, and is built in sections rather than as a single composed unit. The build logic (anchors first, then fill) is the same; execution differs because you're working in multiple stations rather than one continuous surface."},{"question":"How far in advance can you build a grazing table?","answer":"Non-perishable elements (crackers, nuts, condiments) can be laid out 1–2 hours ahead. Cheeses go out 45–60 minutes before guests arrive for proper tempering. Fresh fruit, vegetables, and herbs go on last — within 15–20 minutes of guests arriving. For outdoor events in warm conditions, build in 30-minute batches and replenish throughout rather than building the full table at once."},{"question":"Do you need a special surface for a grazing table?","answer":"No special surface is required. Long butcher paper laid across a table is the standard base — it defines the grazing area visually, protects the table surface, and can be written on with chalk for labeling. Parchment paper works similarly. Some grazing table setups use multiple boards placed adjacent; this works well and makes the table easier to break down and store afterward."}]"
+seo_title: "How to Make a Grazing Table (Amounts for 20 to 100 Guests)"
+updated: "2026-10-18"
 slug: "grazing-table"
 tags: "["grazing table", "large group charcuterie", "charcuterie board"]"
 ---
 
-# Grazing Table vs. Charcuterie Board: How to Build at Scale
+# How to Make a Grazing Table: Amounts, Layout and Setup
 
 > **Quick Answer:** A grazing table is an extended charcuterie build that covers a full table surface, built in sections for 20–100+ people. Plan 3 oz each of cheese and meat per person when the table is the party food, 2 oz each before a meal, plus 10%. Build sections with the same logic as a board — anchors first, then fill in — but treat each table section as its own independent build zone. Add fresh elements last.
 
@@ -23,7 +25,9 @@ The build logic is identical to a charcuterie board: cheese anchors first, then 
 
 Grazing tables are common at weddings, large holiday gatherings, baby showers, and corporate events where a self-serve food station is more practical than plated appetizers.
 
-## Grazing Table vs. Charcuterie Board: The Key Differences
+## How a Grazing Table Differs from a Board
+
+For the full side-by-side, see [grazing board vs. charcuterie board](/blog/grazing-board-vs-charcuterie-board/). The short version:
 
 **Scale:** A standard charcuterie board serves 2–10 people. A grazing table typically serves 20–100+ from a single continuous surface.
 

@@ -255,7 +255,7 @@ export function bookLandingPages(h, { keto, two, plant, books }) {
         ["How do I get the ebook?", "Checkout is on Gumroad. You get a download link by email straight away, and the PDF stays in your Gumroad library."]
       ],
       finalLine: "Pick a night, make the list, and put something special on the table.",
-      related: [["Charcuterie board for two", "/blog/charcuterie-board-two/"], ["Date night board", "/blog/date-night-charcuterie-board/"], ["Valentine's Day board ideas", "/holidays/valentines-day/"]]
+      related: [["Charcuterie board for two", "/blog/charcuterie-board-two/"], ["Valentine's Day board ideas", "/holidays/valentines-day/"]]
     };
     pages.push({ path: b.path, html: page(b) });
   }

@@ -1,11 +1,12 @@
 ---
 title: "Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide"
-seo_title: "Thanksgiving Charcuterie Board: Amounts and Fall Flavors"
+seo_title: "How to Make a Thanksgiving Charcuterie Board (Amounts + Build)"
 date: "2026-08-29"
 image: "/images/thanksgiving-charcuterie-board.png"
 excerpt: "Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide"
 description: "Build a Thanksgiving charcuterie board that matches the season. Quantities for 12–20 guests, fall cheese and meat pairings, and a complete build guide."
 faq: "[{"question":"How much food do you need for a Thanksgiving charcuterie board?","answer":"For a pre-dinner appetizer board serving 12–20 guests, plan 2 oz each of cheese and meat per person, less than a standalone board because Thanksgiving dinner follows. Total for 15 guests: roughly 25oz cheese and 20oz meat across 3–4 types each. Scale up if the board serves as dinner rather than a starter."},{"question":"What cheeses work best on a Thanksgiving charcuterie board?","answer":"Aged cheddar (sharp, familiar, crowd-pleasing), a creamy brie or triple cream (contrasts the rich meal ahead), and an aged gouda with caramel notes (amplified by apple and pear accents). A mild blue like Gorgonzola dolce works well if your crowd tolerates it. Avoid intensely funky choices — the board competes with strong Thanksgiving flavors."},{"question":"What meats pair with Thanksgiving flavors on a charcuterie board?","answer":"Prosciutto, coppa, and dry salami work well — they're lighter than heavy smoked meats and don't compete with turkey. A spiced salami like Calabrese adds warmth that echoes fall spices. Skip heavily smoked meats; the smoke flavor conflicts with traditional Thanksgiving side dishes and wines."},{"question":"What fall fruits belong on a Thanksgiving board?","answer":"Sliced apple (honeycrisp or pink lady), sliced pear, red and green grapes, dried cranberry, dried apricot, and pomegranate arils for color. Fresh figs if in season. These fruits pair with both the cheeses and the wines typically served at Thanksgiving — Pinot Noir, Riesling, and Gewürztraminer all work with apple and pear."},{"question":"Can you build a Thanksgiving charcuterie board ahead of time?","answer":"Yes — build up to 2 hours in advance and cover with plastic wrap. Keep refrigerated and pull out 30–45 minutes before serving so cheese reaches room temperature. Add crackers, bread, and any cut fruit (apple, pear) just before serving to prevent sogginess and browning. Dried fruits, nuts, and condiments can be placed during initial build."}]"
+updated: "2026-10-18"
 slug: "thanksgiving-charcuterie-board"
 tags: "["thanksgiving charcuterie board", "thanksgiving appetizer", "fall charcuterie", "charcuterie board"]"
 ---
@@ -13,6 +14,8 @@ tags: "["thanksgiving charcuterie board", "thanksgiving appetizer", "fall charcu
 # Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide
 
 > **Quick Answer:** A Thanksgiving charcuterie board works as a pre-dinner appetizer for 12–20 people using 2 oz each of cheese and meat per person (smaller portions than a standalone board since dinner follows). Choose cheeses with fall affinity — aged cheddar, brie, aged gouda — and pair with apple, pear, dried cranberry, and honeycomb. Skip heavily smoked meats that compete with turkey.
+
+> Want themes instead? See our [Thanksgiving charcuterie board ideas](/holidays/thanksgiving/): the [turkey board](/blog/turkey-charcuterie-board/), a [Thanksgiving pie board](/blog/thanksgiving-pie-board/) and a [Friendsgiving board](/blog/friendsgiving-charcuterie-board/).
 
 The Thanksgiving board has a specific job: sustain guests during the gap between arrival and dinner without spoiling appetite. That means portioning down from a standalone board, choosing flavors that harmonize with the meal ahead, and building a palette that reads as intentionally autumnal.
 

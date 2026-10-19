@@ -1556,7 +1556,7 @@ ${siteNav(canonical)}
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="footer-links footer-cols">
-        <div><p class="footer-h">Plan a board</p><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a><a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
+        <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">50 board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a><a href="/holidays/thanksgiving/">Thanksgiving boards</a><a href="/holidays/christmas/">Christmas boards</a><a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
         <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
         <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
         <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
@@ -2733,7 +2733,7 @@ async function build() {
       const [, sec, slug = "", sub = ""] = path.split("/");
       if (sec === "ingredients") return { category: ingCat.get(slug) || "" };
       if (sec === "blog" && postBy.has(slug)) { const p = postBy.get(slug); return { bookBoard: bookBoardFor(p, BOOK_BOARDS, boardForPost.get(slug) || null) }; }
-      if (sec === "boards" && boardBy.has(slug)) return { bookBoard: bookOf(boardBy.get(slug)), plant: boardBy.get(slug).book === "plant" };
+      if (sec === "boards" && boardBy.has(slug)) return { bookBoard: bookOf(boardBy.get(slug)), plant: boardBy.get(slug).book === "plant" && !(BOOK_SINGLES || {})[slug] };
       if (sec === "holidays" && HOLIDAY_BOOK_BOARD[slug]) return { bookBoard: BOOK_BOARDS.get(HOLIDAY_BOOK_BOARD[slug]) || null };
       if (sec === "pairings" && slug === "food" && sub) return { category: ingCat.get(sub) || "" };
       return {};

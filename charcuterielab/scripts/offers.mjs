@@ -264,7 +264,7 @@ export function makeOffers(h, products, books) {
   let DIST = "";
   function freebieFor(path, ctx = {}) {
     const bm = path.match(/^\/boards\/([^/]+)\/$/);
-    // Boards sold as a $3 plan (or soon) no longer give their list away (18 Oct 2026); plant boards still do.
+    // Boards sold as a $3 plan (or soon) no longer give their list away (18 Oct 2026); plant boards still do until their own $3 plan is live.
     if (bm && ctx.plant && DIST && existsSync(join(DIST, "downloads", "boards", `${bm[1]}-shopping-list.pdf`))) {
       const name = String(ctx.title || "this board").replace(/&amp;/g, "&").replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/^The /, "");
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };

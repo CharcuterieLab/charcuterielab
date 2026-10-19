@@ -142,8 +142,9 @@ You're done.
 
 ## Related Reading
 
+- [Party Planner: Exact Amounts for 4 to 100 Guests](/party-planner/)
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
-- [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/board-shapes/)
+- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 
 ## FAQ

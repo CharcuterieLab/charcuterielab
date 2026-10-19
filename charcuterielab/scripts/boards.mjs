@@ -185,14 +185,14 @@ const FILTER_JS = `<script>
 })();
 </script>`;
 
-function finder(h, boards, { heading, intro, showFilters = true, crumb = "" }) {
+function finder(h, boards, { heading, intro, showFilters = true, crumb = "", extra = "" }) {
   const cats = BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug));
   return `<section class="bl-finder">
   <div class="bl-inner">
     ${crumb}
     <p class="section-kicker">Board Library</p>
     <h1>${h.escapeHtml(heading)}</h1>
-    <p class="bl-intro">${h.escapeHtml(intro)}</p>
+    <p class="bl-intro">${h.escapeHtml(intro)}</p>${extra}
     ${showFilters ? `<div class="bl-filters" role="group" aria-label="Filter boards">
       <button type="button" class="bl-chip" data-filter-cat="all" aria-pressed="true">All</button>
       ${cats.map((c) => `<button type="button" class="bl-chip" data-filter-cat="${c.slug}" aria-pressed="false">${h.escapeHtml(c.name)}</button>`).join("\n      ")}
@@ -212,7 +212,7 @@ ${boards.map((b) => card(b, h)).join("\n")}
 
 export function boardsHub(h, boards) {
   return h.layout({
-    title: "Charcuterie Board Ideas: Shopping Lists & Plans | Charcuterie Lab",
+    title: `${boards.length} Charcuterie Board Plans with Shopping Lists | Charcuterie Lab`,
     canonical: "/boards/",
     image: boards.find((b) => !b.placeholder)?.image,
     description: `${boards.length} complete charcuterie boards for every occasion, each with what goes on it, why it works and a full printable plan.`,
@@ -220,7 +220,7 @@ export function boardsHub(h, boards) {
     body: `<main class="bl-main">
 ${h.bookBar("boards_hub_top", "Every board, fully planned")}
 <div class="bl-inner">${boards.some((b) => b.book === "world") ? worldBanner(h) : ""}</div>
-${finder(h, boards, { heading: "Charcuterie boards for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF." })}
+${finder(h, boards, { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>` })}
 ${h.labNext("boards_hub", { skip: ["book"], heading: "Plan your own" })}
 </main>
 ${FILTER_JS}`

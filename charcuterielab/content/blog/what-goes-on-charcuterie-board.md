@@ -118,6 +118,8 @@ For a standard 4–6 person board:
 
 > See the full quantity guide for groups of 4 to 30+ at [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/).
 
+> Need a theme? Pick one from [50 charcuterie board ideas](/blog/charcuterie-board-ideas/), then get exact amounts for your guest count from the [Party Planner](/party-planner/).
+
 ---
 
 ## What You Don't Need
