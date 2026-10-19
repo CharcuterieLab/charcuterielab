@@ -228,6 +228,7 @@ ${FILTER_JS}`
 }
 
 export function boardCategoryPage(h, cat, boards) {
+  if (h.categoryPages && h.categoryPages[cat.slug]) return ideasPage(h, cat, boards, h.categoryPages[cat.slug]);
   return h.layout({
     title: `${cat.name} Charcuterie Boards | Charcuterie Lab`,
     canonical: `/boards/${cat.slug}/`,
@@ -389,17 +390,13 @@ function boardAmounts(h, b) {
       </div>`;
 }
 
-// Board pages are the free pitch for the $3 plan (18 Oct 2026): they name
-// the stars of the board and why it works, but the exact shopping list,
-// amounts, placement and full timeline stay in the plan.
-const TEASE_ITEMS = 2;
+// Board pages are the free pitch for the $3 plan (18 Oct 2026). Since the
+// evening of 18 Oct they list every item by name (for search and AI answers),
+// but the amounts, prices, placement and full timeline stay in the plan.
 const TEASE_STEPS = 2;
 function singleOf(h, b) {
   if (b.book === "main") return (bookBoardOf(h, b) || {}).single || null;
   return (h.bookSingles && h.bookSingles[b.slug]) || null;
-}
-function teaseGroups(b) {
-  return b.groups.map((g) => ({ name: g.name, shown: g.items.slice(0, TEASE_ITEMS), more: Math.max(0, g.items.length - TEASE_ITEMS) }));
 }
 function planBox(h, b, single) {
   const steps = b.timeline.length;
@@ -434,10 +431,9 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const glance = [["Serves", b.serves], ["Board", plain(b.board_size)], ["Prep", b.prep_time], ["Cost", b.cost], ["Level", b.difficulty]];
   const item = (i) => (i.slug && known.has(i.slug) ? `<a href="/ingredients/${i.slug}/">${h.escapeHtml(i.name)}</a>` : h.escapeHtml(i.name));
   const single = singleOf(h, b);
-  const tease = teaseGroups(b);
-  const hidden = tease.reduce((a, g) => a + g.more, 0);
   const steps = b.timeline.slice(0, TEASE_STEPS);
-  const visible = { ...b, groups: tease.map((g) => ({ name: g.name, items: g.shown })), timeline: steps };
+  const visible = { ...b, timeline: steps };
+  const hub = h.categoryPages && h.categoryPages[cat.slug];
 
   return h.layout({
     title: `${b.seo_title} | Charcuterie Lab`,
@@ -469,9 +465,9 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
 
     <section class="bl-section" aria-labelledby="bl-on">
       <h2 id="bl-on">What's on the board</h2>
-      <p>The stars of the board, by group. ${hidden ? `${hidden} more items, every amount and every price are in the full plan.` : "Every amount and price is in the full plan."}</p>
+      <p>Everything that goes on this board, by group. How much of each to buy, what it costs and where it goes are in the full plan.</p>
       <div class="bl-groups">
-        ${tease.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.shown.map((i) => `<li>${item(i)}</li>`).join("")}${g.more ? `<li class="bl-more-items">+ ${g.more} more in the plan</li>` : ""}</ul></div>`).join("\n        ")}
+        ${b.groups.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.items.map((i) => `<li>${item(i)}</li>`).join("")}</ul></div>`).join("\n        ")}
       </div>
       <p class="bl-note">Planning a different board? Pick your own ingredients and guest count in the free <a href="/board-builder/">Board Builder</a>.</p>
     </section>
@@ -507,6 +503,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
 ${[...related, ...fill].map((x) => card(x, h)).join("\n")}
       </ul>
       ${blogs.length ? `<p class="bl-note">Want more ideas? Read ${blogs.map((s) => `<a href="/blog/${s}/">${h.escapeHtml(blogTitles.get(s))}</a>`).join(" or ")}.</p>` : ""}
+      ${hub ? `<p class="bl-note">More ideas: <a href="/boards/${cat.slug}/">${h.escapeHtml(hub.link_text || hub.h1)}</a></p>` : ""}
       <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
     </section>
   </div>
@@ -600,4 +597,99 @@ export function worldBanner(h) {
   const W = WORLD_BOOK;
   const live = worldIsLive(W);
   return `<a class="bl-banner" href="/around-the-world/"><span class="bl-banner-k">${live ? "New book" : `Coming ${h.escapeHtml(W.launch)}`}</span> <strong>Around the World in 16 Boards</strong> <span>Germany to Korea, Turkey to Peru. See the boards &rarr;</span></a>`;
+}
+
+// Ideas pages (18 Oct 2026): a category hub with its own copy in
+// content/board-hubs/<category>.json becomes a full "X board ideas" page:
+// an answer up top, every board as an idea with its photo and what's on it,
+// then how to build one, amounts, mistakes, make-ahead and an FAQ.
+const mdLinks = (h, s = "") => h.escapeHtml(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${u}">${t}</a>`);
+
+function ideasPage(h, cat, boards, P) {
+  const bySlug = new Map(boards.map((b) => [b.slug, b]));
+  const used = new Set();
+  let n = 0;
+  const idea = (x) => {
+    const b = bySlug.get(x.slug);
+    if (!b) return "";
+    used.add(b.slug);
+    n += 1;
+    const items = b.groups.flatMap((g) => g.items.map((i) => i.name));
+    const facts = [b.serves && `Serves ${b.serves}`, b.cost, b.prep_time].filter(Boolean).map(h.escapeHtml).join(" · ");
+    return `<article class="bi-idea" id="${b.slug}">
+        <a class="bi-photo" href="/boards/${b.slug}/"><img src="${h.escapeHtml((h.thumb || ((y) => y))(b.image))}" alt="${h.escapeHtml(b.h1)}" width="600" height="400" loading="lazy" decoding="async"></a>
+        <div class="bi-body">
+          <h3><span class="bi-num">${n}.</span> <a href="/boards/${b.slug}/">${h.escapeHtml(x.name || b.h1)}</a></h3>
+          <p class="bi-best"><strong>Best for:</strong> ${h.escapeHtml(x.best_for)}${facts ? ` <span class="bi-facts">${facts}</span>` : ""}</p>
+          <p>${mdLinks(h, x.blurb)}</p>
+          <p class="bi-items"><strong>On it:</strong> ${h.escapeHtml(items.slice(0, 8).join(", "))}${items.length > 8 ? ` and ${items.length - 8} more` : ""}.</p>
+          <p class="bi-link"><a href="/boards/${b.slug}/">See the board &rarr;</a></p>
+        </div>
+      </article>`;
+  };
+  const groups = P.ideas.map((g) => `<div class="bi-group">
+      <h2 id="${g.id}">${h.escapeHtml(g.heading)}</h2>
+      ${g.intro ? `<p>${mdLinks(h, g.intro)}</p>` : ""}
+      ${g.boards.map(idea).join("\n      ")}
+    </div>`).join("\n    ");
+  const rest = boards.filter((b) => !used.has(b.slug));
+  const total = used.size + rest.length;
+  const toc = P.ideas.map((g) => `<li><a href="#${g.id}">${h.escapeHtml(g.heading)}</a></li>`).concat(P.sections.map((s) => `<li><a href="#${s.id}">${h.escapeHtml(s.heading)}</a></li>`), ['<li><a href="#bi-faq">Questions</a></li>']).join("");
+  const section = (s) => `<section class="bl-section" aria-labelledby="${s.id}">
+      <h2 id="${s.id}">${h.escapeHtml(s.heading)}</h2>
+      ${(s.paras || []).map((p) => `<p>${mdLinks(h, p)}</p>`).join("\n      ")}
+      ${s.items ? `<${s.ordered ? "ol" : "ul"} class="bi-list">${s.items.map((i) => `<li><strong>${h.escapeHtml(i.lead)}</strong> ${mdLinks(h, i.text)}</li>`).join("")}</${s.ordered ? "ol" : "ul"}>` : ""}
+    </section>`;
+  const faqLd = `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: P.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })) })}</script>`;
+  const ordered = [...used].map((s) => bySlug.get(s)).concat(rest);
+  return h.layout({
+    title: `${P.seo_title} | Charcuterie Lab`,
+    canonical: `/boards/${cat.slug}/`,
+    image: P.image || ordered.find((b) => !b.placeholder)?.image,
+    type: "article",
+    description: P.description,
+    head: `${itemListSchema(h, P.h1, `/boards/${cat.slug}/`, ordered)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`]])}\n${faqLd}`,
+    body: `<main class="bl-main bl-board bi-page">
+  <div class="bl-inner">
+    <p class="ing-crumb"><a href="/boards/">Boards</a> <span aria-hidden="true">/</span> ${h.escapeHtml(cat.name)}</p>
+    <header class="bl-hero">
+      <p class="section-kicker">Board ideas</p>
+      <h1>${h.escapeHtml(P.h1)}</h1>
+      <div class="bi-answer"><p class="eyebrow">Quick answer</p><p>${mdLinks(h, P.answer)}</p></div>
+      ${h.byline ? `<p class="bl-byline">${h.byline(h.longDate && P.updated ? ` · Updated ${h.longDate(P.updated)}` : "")}</p>` : ""}
+      ${(P.intro || []).map((p) => `<p class="bl-lede">${mdLinks(h, p)}</p>`).join("\n      ")}
+      <nav class="bi-toc" aria-label="On this page"><p class="eyebrow">On this page</p><ol>${toc}</ol></nav>
+    </header>
+    ${groups}
+    ${rest.length ? `<div class="bi-group"><h2>More ${h.escapeHtml(cat.name.toLowerCase())} boards</h2><ul class="bl-grid bl-grid-3">${rest.map((b) => card(b, h)).join("\n")}</ul></div>` : ""}
+    ${P.book_box && P.book_box(h) || ""}
+    ${P.sections.map(section).join("\n    ")}
+    <section class="bl-section" aria-labelledby="bi-faq">
+      <h2 id="bi-faq">Questions</h2>
+      <div class="ebook-faq-list">
+        ${P.faq.map((f, i) => `<details${i === 0 ? " open" : ""}><summary>${h.escapeHtml(f.q)}</summary><p>${mdLinks(h, f.a)}</p></details>`).join("\n        ")}
+      </div>
+    </section>
+    <p class="bl-note"><a href="/boards/">All ${total > 1 ? "boards" : "board"} &rarr;</a></p>
+  </div>
+${h.newsletterPanel ? h.newsletterPanel("board-email", `boards_${cat.slug}`) : ""}
+</main>`
+  });
+}
+
+// The plant-based book box on the vegan ideas page
+export function plantBookBox(h, campaign = "boards_plant_hub") {
+  const url = h.withTracking ? h.withTracking(PLANT_BOOK.ebookUrl, campaign) : PLANT_BOOK.ebookUrl;
+  return `<section class="bl-book" aria-labelledby="bl-book-title">
+      <img src="${h.escapeHtml((h.thumb || ((x) => x))(PLANT_BOOK.cover))}" alt="" width="160" height="207" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow">All 15, fully planned</p>
+        <h2 id="bl-book-title">Every board above, with exact shopping lists</h2>
+        <p><em>${h.escapeHtml(PLANT_BOOK.title)}</em> has all 15 boards on this page: the shopping list with amounts and prices, the step-by-step build, swaps and the pairing science behind each one.</p>
+        <div class="book-buy">
+          <a class="button primary" href="${h.escapeHtml(url)}" target="_blank" rel="noopener">Get the ebook · ${PLANT_BOOK.ebookPrice}</a>
+          <a class="button book-buy-print" href="${PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl}" target="_blank" rel="noopener">${PLANT_BOOK.paperbackUrl ? `Paperback on Amazon · ${PLANT_BOOK.paperbackPrice}` : `Kindle on Amazon · ${PLANT_BOOK.kindlePrice}`}</a>
+        </div>
+      </div>
+    </section>`;
 }

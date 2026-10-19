@@ -14,6 +14,8 @@ tags: "["best vegan cheese", "vegan cheese brands", "dairy-free cheese", "vegan 
 
 > **Quick Answer:** Our top pick for vegan cheese on a charcuterie board is Boursin Dairy-Free Garlic & Herbs (4.4 out of 5). Value: Violife Mature Cheddar. Splurge: Rebel Cheese Brie. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
 
+Building the whole board? See [15 vegan charcuterie board ideas](/boards/plant-based/), from an easy starter board to holiday and dessert boards.
+
 Most vegan cheese is made to melt on a burger, not to sit on a board. These are the dairy-free cheeses that hold up cold, on a cracker, next to the real thing, ranked using published taste tests from Sporked, Tasting Table and Daily Meal.
 
 *How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*

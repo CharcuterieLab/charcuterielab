@@ -14,7 +14,7 @@ import { bookLandingPages } from "./bookpages.mjs";
 import { giftPages, giftsInNav } from "./gifts.mjs";
 import { bhForm } from "./funnel.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
-import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, worldBanner, worldBookPage } from "./boards.mjs";
+import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, worldBanner, worldBookPage } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -2711,7 +2711,16 @@ async function build() {
   try { BOOK_SINGLES = JSON.parse(await readFile(join(root, "src", "data", "book-singles.json"), "utf8")); } catch {}
   let PLAN_LOOKS = new Set();
   try { PLAN_LOOKS = new Set((await readdir(join(root, "public", "images", "plans"))).filter((f) => f.endsWith("-look.webp")).map((f) => f.replace(/-look\.webp$/, ""))); } catch {}
-  const boardHelpers = { authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts), withTracking, bookSingles: BOOK_SINGLES, planLook: (b) => (PLAN_LOOKS.has(b.slug) ? `/images/plans/${b.slug}-look.webp` : "") };
+  // Category hubs with their own copy become "X board ideas" pages (content/board-hubs/<category>.json)
+  const CATEGORY_PAGES = {};
+  try {
+    for (const f of (await readdir(join(root, "content", "board-hubs"))).filter((x) => x.endsWith(".json"))) {
+      const P = JSON.parse(await readFile(join(root, "content", "board-hubs", f), "utf8"));
+      if (P.book === "plant") P.book_box = (h) => plantBookBox(h);
+      CATEGORY_PAGES[P.category] = P;
+    }
+  } catch {}
+  const boardHelpers = { categoryPages: CATEGORY_PAGES, authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts), withTracking, bookSingles: BOOK_SINGLES, planLook: (b) => (PLAN_LOOKS.has(b.slug) ? `/images/plans/${b.slug}-look.webp` : "") };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));

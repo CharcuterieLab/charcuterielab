@@ -1,0 +1,116 @@
+{
+  "category": "plant-based",
+  "book": "plant",
+  "updated": "2026-10-18",
+  "seo_title": "Vegan Charcuterie Board Ideas: 15 Plant-Based Boards",
+  "h1": "Vegan Charcuterie Board Ideas",
+  "link_text": "15 vegan charcuterie board ideas",
+  "description": "15 vegan charcuterie board ideas, from an easy starter board to holiday, Mediterranean, Mexican, brunch and dessert boards, with what goes on each and how to build your own.",
+  "image": "/images/50-boards-16-vegan-plant-based.webp",
+  "answer": "A vegan charcuterie board swaps cured meat and dairy cheese for one or two cashew or almond cheeses, two or three dips, something hearty like falafel or smoked tempeh, plus olives, fresh fruit and vegetables, nuts and dairy-free crackers. Use jam or agave instead of honey. Below are 15 complete vegan board ideas.",
+  "intro": [
+    "A good vegan board isn't a regular board with the meat and cheese taken off. It's built from foods that are great on their own: creamy cashew cheeses, bold dips, briny olives and pickles, fresh fruit and something crunchy.",
+    "Each idea below is a complete board with its own page showing everything that goes on it and why it works. They're grouped by occasion, so start with the one that fits your party."
+  ],
+  "ideas": [
+    {
+      "id": "easy",
+      "heading": "Easy everyday vegan boards",
+      "intro": "Start here if it's your first vegan board. These use ingredients from a regular supermarket.",
+      "boards": [
+        { "slug": "plant-based-starter-board", "name": "Easy Vegan Starter Board", "best_for": "Your first vegan board", "blurb": "Cashew brie, hummus and almond ricotta do the job cheese usually does, surrounded by the fruit, nuts, olives and fig jam everyone expects. If you only make one board from this page, make this one." },
+        { "slug": "plant-based-mediterranean-board", "name": "Vegan Mediterranean Board", "best_for": "Feeding a crowd on a budget", "blurb": "The Mediterranean pantry is already mostly vegan, so this board needs no specialty cheese at all. Falafel and dolmas make it filling enough to stand in for dinner." },
+        { "slug": "plant-based-mexican-fiesta-board", "name": "Vegan Mexican Fiesta Board", "best_for": "Game day and casual parties", "blurb": "Chips and three dips, with cashew queso in the middle, street corn bites and mango with Tajín. One of the cheapest boards here and usually the first one emptied." },
+        { "slug": "plant-based-summer-board", "name": "Vegan Summer Fresh Board", "best_for": "Hot days and outdoor parties", "blurb": "No soft cheese to sweat in the heat: cold dips, watermelon, peaches and crunchy vegetables that hold up outside." }
+      ]
+    },
+    {
+      "id": "holiday",
+      "heading": "Vegan holiday and fall boards",
+      "intro": "For Thanksgiving, Friendsgiving and Christmas, when one board has to work for everyone at the table.",
+      "boards": [
+        { "slug": "plant-based-holiday-board", "name": "Vegan Holiday Board", "best_for": "Thanksgiving, Christmas and mixed crowds", "blurb": "Sized for 10–14, with vegan brie, a cranberry walnut spread, pomegranate, figs and spiced nuts. Put it out for everyone, and no guest has to ask what they can eat." },
+        { "slug": "plant-based-fall-harvest-board", "name": "Vegan Fall Harvest Board", "best_for": "Friendsgiving and autumn get-togethers", "blurb": "Roasted delicata squash rings, Honeycrisp apple, a pumpkin seed dip and an aged cashew cheese: all the autumn colors and flavors, with no dairy." }
+      ]
+    },
+    {
+      "id": "dinner-party",
+      "heading": "Vegan boards for dinner parties and date night",
+      "intro": "Boards built around a cuisine or a bottle of wine. Each takes 15–25 minutes to put together.",
+      "boards": [
+        { "slug": "plant-based-italian-board", "name": "Vegan Italian Antipasto Board", "best_for": "Italian dinners and wine nights", "blurb": "Antipasto is half vegan already: artichokes, roasted peppers, olives and sun-dried tomatoes. Cashew mozzarella, cashew parmesan and a white bean dip fill in for the cheese and meat." },
+        { "slug": "plant-based-french-bistro-board", "name": "Vegan French Bistro Board", "best_for": "Wine and cheese night", "blurb": "Two cultured cashew cheeses and a walnut pâté with cornichons, Dijon and a baguette. The closest thing on this page to a classic cheese board." },
+        { "slug": "plant-based-mezze-board", "name": "Vegan Mezze Board", "best_for": "Dinner parties", "blurb": "Muhammara, coconut-yogurt labneh, falafel and dolmas, finished with dates, pistachios and pomegranate. It looks like a lot of work and isn't." },
+        { "slug": "plant-based-asian-board", "name": "Vegan Asian-Inspired Board", "best_for": "Something different", "blurb": "Umami does the work instead of cheese: a white miso dip, edamame two ways, nori chips, quick pickles and chili crisp." },
+        { "slug": "plant-based-date-night-board", "name": "Vegan Date Night Board", "best_for": "Two people and a bottle of bubbles", "blurb": "A small board for 2–4 with aged cashew brie, truffle cashew cream, champagne grapes, pear and dark chocolate." }
+      ]
+    },
+    {
+      "id": "brunch-dessert",
+      "heading": "Vegan brunch and dessert boards",
+      "boards": [
+        { "slug": "plant-based-brunch-board", "name": "Vegan Brunch Board", "best_for": "Weekend brunch and showers", "blurb": "A build-your-own toast board: bagel crisps and sourdough with avocado, vegan cream cheese, almond butter, berries and jam." },
+        { "slug": "plant-based-dessert-board", "name": "Vegan Dessert Board", "best_for": "After dinner", "blurb": "Dark chocolate sauce, cashew caramel and coconut whipped cream for dipping berries, fresh figs, stuffed dates and vegan shortbread." }
+      ]
+    },
+    {
+      "id": "hearty",
+      "heading": "Filling, high-protein and fermented vegan boards",
+      "boards": [
+        { "slug": "high-protein-plant-board", "name": "High-Protein Vegan Board", "best_for": "A snack board that fills people up", "blurb": "Edamame, smoked tempeh, lupini beans and roasted chickpeas, with bean dips and plenty of seeds. It works as a light meal." },
+        { "slug": "gut-health-board", "name": "Vegan Fermented Foods Board", "best_for": "Fans of tangy, bold flavors", "blurb": "Kimchi, sauerkraut, a white miso dip and a cultured cashew dip with smoky tempeh and sourdough. Very different from a cheese board, in a good way." }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-goes-on",
+      "heading": "What to put on a vegan charcuterie board",
+      "paras": ["Every board above follows the same pattern. Pick one or two things from each line and you have a board that feels complete."],
+      "items": [
+        { "lead": "1–2 plant cheeses.", "text": "Cashew brie-style wheels, cultured cashew cheese, vegan cream cheese or almond ricotta. See the [best vegan cheeses for a board](/blog/best-vegan-cheese/)." },
+        { "lead": "2–3 dips.", "text": "Hummus, white bean dip, muhammara, baba ghanoush or guacamole. Dips carry the creamy, rich part that cheese usually does." },
+        { "lead": "Something hearty.", "text": "Falafel, dolmas, smoked tempeh, marinated mushrooms or roasted chickpeas. This is the job meat does on a regular board." },
+        { "lead": "Something briny.", "text": "Olives, cornichons, marinated artichokes or quick pickles, to cut through the rich dips." },
+        { "lead": "Fresh fruit and vegetables.", "text": "Grapes, pears, figs, berries, cucumbers, radishes and snap peas, for color and crunch." },
+        { "lead": "Crunch.", "text": "Crackers without butter or milk, pita chips, crostini, nuts and seeds." },
+        { "lead": "Something sweet.", "text": "Fig or apricot jam, dates, dried fruit, or agave or maple syrup in place of honey." }
+      ]
+    },
+    {
+      "id": "how-much",
+      "heading": "How much to make",
+      "paras": [
+        "As an appetizer before dinner, plan on about 2 oz of plant cheese and a quarter cup of dip per guest, plus a small handful each of crackers, vegetables and fruit.",
+        "When the board is the meal, make about half as much again, and lean on the hearty items such as falafel, tempeh or chickpeas. For totals by guest count, use the [Party Planner](/party-planner/)."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common vegan board mistakes",
+      "items": [
+        { "lead": "Just leaving things off.", "text": "A regular board with the meat and cheese removed is crackers and grapes. Replace what they did instead: something creamy, something hearty and something salty." },
+        { "lead": "Missing hidden animal ingredients.", "text": "Watch for honey, butter or whey in crackers, milk in some dark chocolate, and anchovies in some tapenade. The [vegan swaps and label checklist](/dietary/vegan/) covers the rest." },
+        { "lead": "Forgetting nut allergies.", "text": "Most plant cheeses are made from cashews or almonds. Label them, and keep a nut-free dip such as hummus on the board." },
+        { "lead": "Putting soft plant cheese out too early.", "text": "Soft cashew cheeses lose their shape at room temperature, so add them shortly before guests arrive." }
+      ]
+    },
+    {
+      "id": "make-ahead",
+      "heading": "Making a vegan board ahead",
+      "paras": [
+        "Make dips and nut cheeses 1–2 days ahead and keep them covered in the fridge. Wash and cut sturdy vegetables the day before and store them wrapped in a damp towel.",
+        "Slice apples, pears and avocado last so they don't brown, and assemble the board no more than an hour before guests arrive. Like any spread with dips, don't leave it out for more than 2 hours."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "What goes on a vegan charcuterie board?", "a": "One or two plant cheeses, two or three dips, something hearty like falafel or smoked tempeh, olives or pickles, fresh fruit and vegetables, nuts, dairy-free crackers and a jam instead of honey." },
+    { "q": "Is it still a charcuterie board without meat?", "a": "Strictly, charcuterie means cured meat, so a vegan board is really a grazing board. Most people call it a vegan charcuterie board anyway, and it's built the same way: something rich, salty, fresh, crunchy and sweet." },
+    { "q": "What can replace meat on a vegan board?", "a": "Falafel, smoked tempeh, marinated mushrooms, dolmas and roasted chickpeas do the hearty job. For the folded look of sliced meat, use roasted red peppers or marinated mushrooms." },
+    { "q": "What's the best vegan cheese for a charcuterie board?", "a": "Our top pick is Boursin Dairy-Free Garlic & Herbs. See the full ranking in [the best vegan cheese for a charcuterie board](/blog/best-vegan-cheese/)." },
+    { "q": "Is honey vegan?", "a": "No. The Vegan Society doesn't consider honey vegan. Use fig jam, apricot jam, agave or maple syrup instead." },
+    { "q": "Can I serve a vegan board to a mixed crowd?", "a": "Yes. The Vegan Holiday Board above is made for that. If you also put out dairy cheese, serve it on its own plate with its own knife." },
+    { "q": "How far ahead can I make a vegan charcuterie board?", "a": "Make the dips and nut cheeses 1–2 days ahead and cut the sturdy vegetables the day before. Assemble the board within an hour of serving." }
+  ]
+}
