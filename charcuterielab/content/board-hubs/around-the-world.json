@@ -1,0 +1,114 @@
+{
+  "category": "around-the-world",
+  "book": "world",
+  "updated": "2026-10-18",
+  "seo_title": "International Charcuterie Board Ideas: 20 Boards from Around the World",
+  "h1": "International Charcuterie Board Ideas",
+  "link_text": "20 international charcuterie board ideas",
+  "description": "20 international charcuterie board ideas from around the world: Italian antipasto, Spanish tapas, German Bavarian, British ploughman's, Korean BBQ, Thai, Turkish meze, Argentine asado and more, with what goes on each.",
+  "image": "/images/50-boards-02-italian-antipasto.webp",
+  "answer": "An international charcuterie board uses one country's own meats, cheeses, condiments and bread: Serrano, Manchego and quince paste for Spain; sucuk, white cheese and muhammara for Turkey; char siu and dumplings for a dim sum board. Pick one cuisine, add its signature sauce and pickles, and serve it with that country's drink. Here are 20 ideas.",
+  "intro": [
+    "The best themed boards don't mix a little of everything. They stick to one place and use what people there actually eat together, which is why the pairings work.",
+    "Each idea below has its own page with everything that goes on it and why it works. They're grouped by region, from boards you can shop for at any supermarket to ones that need a trip to an international market."
+  ],
+  "ideas": [
+    {
+      "id": "europe",
+      "heading": "European charcuterie boards",
+      "intro": "The easiest place to start. Most of these ingredients are at a regular supermarket or a good deli counter.",
+      "boards": [
+        { "slug": "italian-antipasto-board", "best_for": "Your first themed board", "blurb": "Prosciutto, mortadella and Parmigiano with jarred artichokes, roasted peppers and focaccia. Almost all of it comes from the deli counter and a few jars." },
+        { "slug": "spanish-tapas-board", "best_for": "Wine nights", "blurb": "Manchego with quince paste, Serrano ham, paprika-red chorizo and toast rubbed with tomato. A tapas bar on one board." },
+        { "slug": "french-brasserie-board", "best_for": "A classic cheese-lover's board", "blurb": "Ripe brie, Comté and Roquefort with pâté, cornichons, Dijon and a lot of baguette." },
+        { "slug": "greek-mediterranean-board", "best_for": "Summer and outdoor parties", "blurb": "Feta in olive oil, seared halloumi, two kinds of olives and tzatziki with warm pita. It eats like a taverna meze table." },
+        { "slug": "portuguese-petiscos-board", "best_for": "Something people haven't seen before", "blurb": "Spoonable Serra da Estrela cheese, smoky chouriço, salty lupini beans and a chilled Vinho Verde." },
+        { "slug": "german-bavarian-charcuterie-board", "best_for": "Oktoberfest and beer nights", "blurb": "Warm sausages, soft pretzel bites, a bowl of Obatzda cheese spread and two mustards, the way Munich beer gardens serve it." },
+        { "slug": "british-ploughmans-board", "best_for": "A pub-style lunch", "blurb": "Mature Cheddar and Stilton with pork pies, crusty bread and a row of sharp pickles. One of the cheapest boards here." },
+        { "slug": "swiss-alpine-charcuterie-board", "best_for": "Cheese lovers in winter", "blurb": "Four Swiss mountain cheeses side by side, with air-dried beef, rye bread and apricot preserves to balance the salt." },
+        { "slug": "eastern-european-deli-board", "best_for": "Hearty winter gatherings", "blurb": "Smoked kielbasa, farmer's cheese, fermented pickles and dense rye: a Polish-deli spread built on smoke, salt and sour." }
+      ]
+    },
+    {
+      "id": "asia",
+      "heading": "Asian charcuterie boards",
+      "intro": "These swap salami and brie for each cuisine's own grilled meats, dumplings, pickles and sauces. An Asian market makes shopping easier.",
+      "boards": [
+        { "slug": "korean-bbq-charcuterie-board", "best_for": "Interactive dinners", "blurb": "Bulgogi and spicy pork with kimchi, banchan and a lettuce-wrap station with ssamjang. Guests build their own bites." },
+        { "slug": "dim-sum-charcuterie-board", "best_for": "Brunch and Lunar New Year", "blurb": "Char siu, steamed dumplings, crisp turnip cake and sesame balls with three dipping sauces and plenty of tea." },
+        { "slug": "thai-charcuterie-board", "best_for": "Fans of bright, herby food", "blurb": "Chicken larb, satay with peanut sauce and crispy pork belly, with lime, Thai basil and prawn crackers." },
+        { "slug": "vietnamese-charcuterie-board", "best_for": "A deconstructed bánh mì", "blurb": "Pork roll, pâté and lemongrass chicken with crusty baguette, quick-pickled daikon and carrot, and a big pile of herbs." },
+        { "slug": "indian-charcuterie-board", "best_for": "Diwali and spice lovers", "blurb": "Chicken tikka and seekh kebab with cool raita, mint and tamarind chutneys, mango pickle and crisp papadums." }
+      ]
+    },
+    {
+      "id": "middle-east",
+      "heading": "Middle Eastern and North African boards",
+      "boards": [
+        { "slug": "turkish-meze-board", "best_for": "Generous dinner parties", "blurb": "Warm sucuk and pide, white cheese and a ring of dips: hummus, haydari, muhammara and spicy ezme." },
+        { "slug": "moroccan-charcuterie-board", "best_for": "Warm spice and sweet fruit", "blurb": "Merguez and kefta with harissa, chermoula, preserved lemon, dates and pistachios." }
+      ]
+    },
+    {
+      "id": "latin-america",
+      "heading": "Latin American and Caribbean boards",
+      "intro": "Several of these are built around the grill, so plan for something warm on the board.",
+      "boards": [
+        { "slug": "argentine-asado-board", "best_for": "Cookouts", "blurb": "Grilled chorizo, skirt steak and melting provoleta with a big bowl of chimichurri and bread to mop it up." },
+        { "slug": "brazilian-churrasco-board", "best_for": "Steakhouse-style parties", "blurb": "Grilled picanha and squeaky grilled cheese with pão de queijo, grilled pineapple and farofa." },
+        { "slug": "peruvian-charcuterie-board", "best_for": "Something truly different", "blurb": "Anticuchos skewers and lomo saltado strips with Peruvian corn, potato crisps and three ají sauces from mild to fiery." },
+        { "slug": "caribbean-charcuterie-board", "best_for": "Beginners who want some heat", "blurb": "Jerk chicken, mango, pineapple and plantain chips with a little Scotch bonnet heat and a cooling coconut dip." }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-to",
+      "heading": "How to build a themed international board",
+      "paras": ["Every board above follows the same pattern. Use it to build a board for any cuisine."],
+      "items": [
+        { "lead": "Pick one cuisine.", "text": "One country or region per board. Mixing Spanish chorizo, Thai satay and French brie on one board makes nothing pair well." },
+        { "lead": "Use its meat.", "text": "Cured meats in Europe; grilled meats, dumplings or skewers in much of Asia and Latin America." },
+        { "lead": "Add 2–3 cheeses from the same place.", "text": "If the local cheese is hard to find, the board pages suggest a supermarket stand-in." },
+        { "lead": "Include the signature sauce.", "text": "Quince paste, chimichurri, ssamjang, peanut sauce, harissa or mustard. It's what makes the board taste like the place." },
+        { "lead": "Serve the right bread.", "text": "Baguette, pita, pretzels, naan, rye, focaccia or rice crackers." },
+        { "lead": "Add pickles and fresh things.", "text": "Cornichons, kimchi, pickled daikon, olives, herbs and lime cut through the rich food." },
+        { "lead": "Pour the country's drink.", "text": "Beer with the Bavarian board, Vinho Verde with the Portuguese board, tea with dim sum." }
+      ]
+    },
+    {
+      "id": "shopping",
+      "heading": "Where to find the ingredients",
+      "paras": [
+        "The Italian, Spanish, French, Greek and British boards can be shopped at most supermarkets with a deli counter, and at Costco or Trader Joe's. See the [Costco](/blog/costco-charcuterie-board/) and [Trader Joe's](/blog/trader-joes-charcuterie-board/) board guides.",
+        "For the Asian, Middle Eastern and Latin American boards, an international market will have the sauces, pickles and breads in one stop. Where a cheese is hard to find, each board page names a substitute."
+      ]
+    },
+    {
+      "id": "theme-night",
+      "heading": "Hosting an around-the-world party",
+      "paras": [
+        "For a travel-themed night, make two or three smaller boards from different regions instead of one big mixed board. For example, a Spanish tapas board, a Korean BBQ board and a Caribbean board, each with its own drink.",
+        "Cook anything grilled last. The Bavarian, Argentine, Brazilian and Korean boards have warm items, so build the cold boards first and add the hot food just before guests eat."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes",
+      "items": [
+        { "lead": "Mixing countries on one board.", "text": "The pairings only work when everything comes from the same food tradition." },
+        { "lead": "Skipping the sauce.", "text": "Without chimichurri, quince paste or ssamjang, a themed board looks the part but tastes like any other board." },
+        { "lead": "Serving warm food cold.", "text": "Sausages, satay, provoleta and dumplings are meant to be warm. Time them for when guests arrive." },
+        { "lead": "Buying every specialty item.", "text": "One or two authentic touches and supermarket stand-ins for the rest are enough." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "What is an international charcuterie board?", "a": "A board built from one country's foods instead of the usual salami and brie: its cured or grilled meats, cheeses, sauces, pickles and bread, often served with that country's drink." },
+    { "q": "What's the easiest international board for beginners?", "a": "The Italian antipasto board. Nearly everything comes from a supermarket deli counter and a few jars. The Caribbean board is another easy one." },
+    { "q": "Which international board is the cheapest?", "a": "The British ploughman's board, at about $35–$55 for 6–8 people. It's mostly cheddar, ham, bread and pickles." },
+    { "q": "Is antipasto the same as charcuterie?", "a": "Not quite. Charcuterie means cured meats, while antipasto is the Italian first course, which also includes cheese, marinated vegetables, olives and bread. On a board they look very similar." },
+    { "q": "Can I mix cuisines on one charcuterie board?", "a": "You can, but the pairings work best when everything comes from one place. For a mixed theme, make two or three small boards, one per country." },
+    { "q": "What drinks go with international charcuterie boards?", "a": "Match the country: beer with German boards, sherry or Spanish red with tapas, Vinho Verde with Portuguese petiscos, tea with dim sum, and a lager with Korean BBQ." }
+  ]
+}

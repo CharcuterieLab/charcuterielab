@@ -5169,3 +5169,7 @@ body.fx-slide-on .fx-sticky { display: none !important; }
   .bi-idea { grid-template-columns: 1fr; gap: 10px; }
   .bi-toc ol { columns: 1; }
 }
+.hol-idea-img{display:block;margin:-20px -20px 14px}
+.hol-idea-img img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:14px 14px 0 0}
+.hol-idea h3 a{color:inherit;text-decoration:none}
+.hol-idea .text-link + .text-link{margin-top:12px}

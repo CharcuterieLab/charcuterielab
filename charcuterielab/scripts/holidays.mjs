@@ -167,18 +167,28 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
       <img class="hol-photo" src="${h.escapeHtml(hol.image)}" alt="${h.escapeHtml(hol.name)} charcuterie board" width="1200" height="800" fetchpriority="high">
     </header>
 
-    <nav class="hol-jump" aria-label="On this page"><a href="#ideas">Board ideas</a><a href="#shapes">Shapes</a><a href="#plan">Countdown plan</a><a href="#amounts">How much to buy</a><a href="#faq">Questions</a></nav>
+    <nav class="hol-jump" aria-label="On this page"><a href="#ideas">Board ideas</a><a href="#shapes">Shapes</a><a href="#plan">Countdown plan</a><a href="#amounts">How much to buy</a>${hol.mistakes ? `<a href="#mistakes">Mistakes</a>` : ""}<a href="#faq">Questions</a></nav>
 
     <section class="bl-section" id="ideas" aria-labelledby="ideas-h">
       <h2 id="ideas-h">${h.escapeHtml(hol.name)} board ideas</h2>
       <div class="hol-ideas">
-        ${hol.ideas.map((i) => `<article class="hol-idea">
+        ${hol.ideas.map((i) => {
+          // An idea can point at a published board ("board") or a live post ("post") (18 Oct 2026).
+          const ib = i.board ? boardsBySlug.get(i.board) : null;
+          const post = i.post && blogTitles.has(i.post) ? i.post : "";
+          const href = post ? `/blog/${post}/` : ib ? `/boards/${ib.slug}/` : "";
+          const img = i.image || (ib && !ib.placeholder ? ib.image : "");
+          const onIt = i.items && i.items.length ? i.items.map(item).join(" · ") : ib ? h.escapeHtml(ib.groups.flatMap((g) => g.items.map((x) => x.name)).slice(0, 10).join(" · ")) : i.on_it ? h.escapeHtml(i.on_it) : "";
+          return `<article class="hol-idea">
+          ${img ? `<a class="hol-idea-img" href="${href || "#ideas"}"><img src="${h.escapeHtml((h.thumb || ((x) => x))(img))}" alt="${h.escapeHtml(i.title)}" width="600" height="400" loading="lazy" decoding="async"></a>` : ""}
           <p class="hol-for">${h.escapeHtml(i.for)}</p>
-          <h3>${h.escapeHtml(i.title)}</h3>
+          <h3>${href ? `<a href="${href}">${h.escapeHtml(i.title)}</a>` : h.escapeHtml(i.title)}</h3>
           <p>${h.escapeHtml(i.text)}</p>
-          <p class="hol-items">${i.items.map(item).join(" · ")}</p>
-          <a class="text-link" href="${builderPreset(i.items.filter((s) => known.has(s)), i.guests, `holiday_${hol.slug}_idea`)}">Get the shopping list for ${i.guests} &rarr;</a>
-        </article>`).join("\n        ")}
+          ${onIt ? `<p class="hol-items">${onIt}</p>` : ""}
+          ${href ? `<a class="text-link" href="${href}">${h.escapeHtml(i.link_text || (post ? "Read the full guide" : "See the full board"))} &rarr;</a>` : ""}
+          ${i.items && i.items.length ? `<a class="text-link" href="${builderPreset(i.items.filter((s) => known.has(s)), i.guests, `holiday_${hol.slug}_idea`)}">Get the shopping list for ${i.guests} &rarr;</a>` : ""}
+        </article>`;
+        }).join("\n        ")}
       </div>
     </section>
 
@@ -219,6 +229,11 @@ ${boards.map((b) => card(b, h)).join("\n")}
         </tbody>
       </table>
     </section>
+
+    ${hol.mistakes ? `<section class="bl-section" id="mistakes" aria-labelledby="mistakes-h">
+      <h2 id="mistakes-h">${h.escapeHtml(hol.name)} board mistakes to avoid</h2>
+      <ul class="bi-list">${hol.mistakes.map((m) => `<li><strong>${h.escapeHtml(m.lead)}</strong> ${h.escapeHtml(m.text)}</li>`).join("")}</ul>
+    </section>` : ""}
 
     ${bookBox(h, hol)}
 

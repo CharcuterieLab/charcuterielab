@@ -14,7 +14,7 @@ import { bookLandingPages } from "./bookpages.mjs";
 import { giftPages, giftsInNav } from "./gifts.mjs";
 import { bhForm } from "./funnel.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
-import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, worldBanner, worldBookPage } from "./boards.mjs";
+import { GUIDE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, worldBanner, worldBookPage, worldOffer } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -2717,6 +2717,7 @@ async function build() {
     for (const f of (await readdir(join(root, "content", "board-hubs"))).filter((x) => x.endsWith(".json"))) {
       const P = JSON.parse(await readFile(join(root, "content", "board-hubs", f), "utf8"));
       if (P.book === "plant") P.book_box = (h) => plantBookBox(h);
+      if (P.book === "world") P.book_box = (h) => worldOffer(h, "boards_world_hub", { heading: "16 of these boards, fully planned", lead: `The exact shopping lists with amounts and prices, step-by-step blueprints and the pairing science for 16 of the boards on this page are in <em>${WORLD_BOOK.title}</em>.` });
       CATEGORY_PAGES[P.category] = P;
     }
   } catch {}

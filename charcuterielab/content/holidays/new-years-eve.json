@@ -9,10 +9,10 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-18",
   "h1": "New Year's Eve Charcuterie Board Ideas",
-  "seo_title": "New Year's Eve Charcuterie Board Ideas + Midnight Plan",
-  "description": "New Year's Eve charcuterie board ideas: a Champagne board, a midnight clock board, a caviar-and-chips splurge, a refill plan that lasts until midnight, and how much to buy.",
+  "seo_title": "New Year's Eve Charcuterie Board Ideas: 9 Boards + a Midnight Plan",
+  "description": "9 New Year's Eve charcuterie board ideas: a Champagne board, caviar and chips, a luxury board, skewers, a whiskey and cheese board and a New Year's Day brunch board, plus a plan that lasts until midnight.",
   "image": "/images/50-boards-22-new-years-eve.webp",
   "answer": "A New Year's Eve board has to last until midnight, so plan it as the party food (about 3 oz each of cheese and meat per guest), pair it with Champagne or Prosecco, and keep half the food in the fridge for a second round around 10 pm. Salty, crisp things (Parmigiano, potato chips, salami) and one splurge like smoked salmon or caviar make it feel like a celebration.",
   "ideas": [
@@ -61,6 +61,48 @@
         "cornichons"
       ],
       "guests": 20
+    },
+    {
+      "title": "The New Year's Eve Board",
+      "for": "The main party board · 12–16 guests",
+      "board": "new-years-eve-charcuterie-board",
+      "text": "The complete midnight board: sized as the party food, built to pair with sparkling wine, with a second round held back in the fridge."
+    },
+    {
+      "title": "The Luxury Board",
+      "for": "The splurge · 8–12 guests",
+      "board": "luxury-charcuterie-board",
+      "text": "Aged and rare cheeses, the best cured meats and a few luxury touches. For the night when one big board is the whole party."
+    },
+    {
+      "title": "The Cocktail Party Board",
+      "for": "Drinks and mingling · 12–20 guests",
+      "board": "cocktail-party-charcuterie-board",
+      "text": "Everything is one or two bites, so guests can eat with a glass in hand. Salty, crisp and made to go with cocktails."
+    },
+    {
+      "title": "Charcuterie Skewers",
+      "for": "No plates needed · 24+ skewers",
+      "post": "charcuterie-skewers",
+      "image": "/images/charcuterie-skewers.jpg",
+      "text": "Bites on sticks for a standing party: easy to make ahead, easy to refill and no crowd around one board.",
+      "on_it": "Salami · mozzarella balls · tortellini · olives · cherry tomatoes · basil"
+    },
+    {
+      "title": "The Whiskey and Cheese Board",
+      "for": "A smaller, grown-up party · 6–8 guests",
+      "post": "whiskey-and-cheese-pairing",
+      "link_text": "Which cheeses go with which whiskey",
+      "text": "Three or four cheeses matched to whiskey styles, with dark chocolate, nuts and dried fruit. A good fit for a quieter night in.",
+      "on_it": "Aged cheddar · aged Gouda · blue cheese · dark chocolate · pecans · dried apricots"
+    },
+    {
+      "title": "New Year's Day Bagel Board",
+      "for": "The morning after · 6–20 guests",
+      "post": "bagel-board",
+      "image": "/images/bagel-board.jpg",
+      "text": "Set it up the night before so brunch takes five minutes, whoever is hosting.",
+      "on_it": "Bagels · cream cheeses · smoked salmon · capers · red onion · tomato · fruit"
     }
   ],
   "boards": [
@@ -151,10 +193,36 @@
     {
       "q": "What can I serve instead of expensive caviar?",
       "a": "Trout or salmon roe gives the same salty pop for less. Serve it on kettle chips or blini with a spoon of crème fraîche or sour cream and chopped chives."
+    },
+    {
+      "q": "How do you make a charcuterie board last until midnight?",
+      "a": "Put out half the food at the start and keep the rest covered in the fridge. Refill around 10 pm with fresh crackers and the second half of the cheese and meat."
+    },
+    {
+      "q": "What are good New Year's Day brunch board ideas?",
+      "a": "A bagel board with cream cheeses, smoked salmon, capers, red onion and fruit. Set out everything but the fresh items the night before."
     }
   ],
   "read": [
     "cocktail-party-board",
     "wine-and-charcuterie-board"
+  ],
+  "mistakes": [
+    {
+      "lead": "Putting everything out at 7 pm.",
+      "text": "By 11 the board is picked over and warm. Put out half, keep half in the fridge and refill around 10."
+    },
+    {
+      "lead": "Only soft cheese.",
+      "text": "Brie slumps over a long night. Lean on aged cheeses like Parmigiano, Comté and aged Gouda, which hold up."
+    },
+    {
+      "lead": "Before-dinner amounts.",
+      "text": "The board is the party food, so plan about 3 oz each of cheese and meat per guest, not 2."
+    },
+    {
+      "lead": "Forgetting the non-drinkers.",
+      "text": "Put sparkling cider or a mocktail next to the Champagne so everyone has something to toast with."
+    }
   ]
 }

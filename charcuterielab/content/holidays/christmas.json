@@ -9,8 +9,8 @@
   "season": "Winter",
   "status": "published",
   "h1": "Christmas Charcuterie Board Ideas",
-  "seo_title": "Christmas Charcuterie Board Ideas (Wreath, Tree + Party)",
-  "description": "Christmas charcuterie board ideas: wreath, tree and candy cane boards, a Christmas Eve board, a holiday party board for 16, charcuterie cups, and how much to buy.",
+  "seo_title": "Christmas Charcuterie Board Ideas: 10 Boards (Wreath, Tree, Cocoa + More)",
+  "description": "10 Christmas charcuterie board ideas: a wreath, a Christmas tree board, a hot cocoa board, candy and dessert boards, Christmas Eve and Christmas morning boards, plus how much to buy.",
   "image": "/images/50-boards-06-holiday-entertaining.webp",
   "answer": "The Christmas charcuterie boards people remember are shaped: a wreath of rosemary, salami and cheese around a bowl, or a tree built in rows on a rectangle. Use red and green on purpose (pomegranate, rosemary, cranberries, green olives), add one luxury cheese, and plan about 2 oz each of cheese and meat per guest.",
   "ideas": [
@@ -30,7 +30,10 @@
         "whipped-feta",
         "rosemary-crackers"
       ],
-      "guests": 12
+      "guests": 12,
+      "post": "christmas-wreath-charcuterie-board",
+      "image": "/images/christmas-wreath-charcuterie-board.jpg",
+      "link_text": "Wreath board step by step"
     },
     {
       "title": "The Christmas Eve Board",
@@ -62,7 +65,62 @@
         "water-crackers",
         "grissini"
       ],
-      "guests": 24
+      "guests": 24,
+      "post": "charcuterie-cups",
+      "image": "/images/charcuterie-cups.jpg",
+      "link_text": "How to make charcuterie cups"
+    },
+    {
+      "title": "The Christmas Tree Board",
+      "for": "The other showstopper · 8–20 guests",
+      "post": "christmas-tree-charcuterie-board",
+      "image": "/images/christmas-tree-charcuterie-board.jpg",
+      "text": "Cheese, salami and rosemary built in rows into a tree shape on a rectangle board, with a star cut from cheese on top. The same layout works as a vegetable tray.",
+      "on_it": "Cheddar and pepper jack cubes · salami · rosemary sprigs · green olives · cherry tomatoes · grapes · crackers · a cheese star"
+    },
+    {
+      "title": "The Hot Cocoa Board",
+      "for": "Kids and cozy nights · 8–20 guests",
+      "post": "hot-cocoa-board",
+      "image": "/images/hot-cocoa-board.jpg",
+      "text": "A hot chocolate bar on a board: marshmallows, peppermint, whipped cream and cookies around a pot of cocoa. Good for a cookie swap, a movie night or Christmas Eve.",
+      "on_it": "Hot cocoa · marshmallows · whipped cream · crushed candy canes · chocolate chips · caramel · cookies · cinnamon sticks"
+    },
+    {
+      "title": "The Holiday Entertaining Board",
+      "for": "Holiday party · 10–15 guests",
+      "board": "holiday-entertaining-board",
+      "text": "A full party board in red and green, with a luxury cheese, cranberry, rosemary and pomegranate. Sized for the party, not for before a meal."
+    },
+    {
+      "title": "The Candy Board",
+      "for": "Dessert and kids · 8–20 guests",
+      "post": "candy-charcuterie-board",
+      "image": "/images/candy-charcuterie-board.jpg",
+      "text": "Christmas candy sorted by color in rows and piles: peppermints, chocolate, gumdrops and candy canes. No cooking, and it's the board kids remember.",
+      "on_it": "Peppermints · chocolate truffles · gumdrops · candy canes · chocolate-covered pretzels · red and green candies"
+    },
+    {
+      "title": "The Vegan Holiday Board",
+      "for": "Mixed crowds · 10–14 guests",
+      "board": "plant-based-holiday-board",
+      "text": "Vegan brie with rosemary, a cranberry walnut spread, pomegranate and spiced nuts. Built so a vegan guest can eat everything on it, and everyone else won't notice."
+    },
+    {
+      "title": "Christmas Morning Bagel Board",
+      "for": "Christmas morning · 6–20 guests",
+      "post": "bagel-board",
+      "image": "/images/bagel-board.jpg",
+      "text": "Set it out the night before, minus the fresh things, and brunch is done while the presents get opened.",
+      "on_it": "Bagels · cream cheeses · smoked salmon · capers · red onion · tomato · cucumber · fruit"
+    },
+    {
+      "title": "Charcuterie Skewers",
+      "for": "Standing parties · 24+ skewers",
+      "post": "charcuterie-skewers",
+      "image": "/images/charcuterie-skewers.jpg",
+      "text": "A board's worth of bites on sticks: tortellini, mozzarella, salami, olives and tomato. Easy to eat with a drink in hand, and no crowd around one board.",
+      "on_it": "Salami · mozzarella balls · tortellini · olives · cherry tomatoes · basil · rosemary"
     }
   ],
   "boards": [
@@ -173,10 +231,40 @@
     {
       "q": "Can a charcuterie board be a Christmas gift?",
       "a": "Yes: a wooden board, a hard cheese that travels well, a salami, a jar of fig jam and crackers make a great hostess gift. Skip soft cheeses if it won't be opened the same day."
+    },
+    {
+      "q": "How do you make a Christmas tree charcuterie board?",
+      "a": "Build rows on a rectangle board, getting longer toward the bottom: cheese cubes, folded salami, rosemary and olives. Add a trunk of crackers and a star cut from cheese on top."
+    },
+    {
+      "q": "What goes on a hot cocoa board?",
+      "a": "Hot cocoa, marshmallows, whipped cream, crushed candy canes, chocolate chips, caramel, cinnamon sticks and cookies. Keep the cocoa warm in a slow cooker."
+    },
+    {
+      "q": "What's a good Christmas morning board?",
+      "a": "A bagel board: bagels, two or three cream cheeses, smoked salmon, capers, red onion, tomato and fruit. Set out everything but the fresh items the night before."
     }
   ],
-  "updated": "2026-10-05",
+  "updated": "2026-10-18",
   "read": [
     "charcuterie-cups"
+  ],
+  "mistakes": [
+    {
+      "lead": "Too much red and green filler.",
+      "text": "Pomegranate, rosemary and cranberries are enough color. Plastic decorations and food that's only there for color get left on the board."
+    },
+    {
+      "lead": "Building the wreath or tree too early.",
+      "text": "Shaped boards lose their shape as the cheese softens. Prep everything ahead, but assemble within an hour of the party."
+    },
+    {
+      "lead": "Party amounts before a big dinner.",
+      "text": "Before Christmas dinner, 2 oz each of cheese and meat per guest is enough. Save the bigger board for the party."
+    },
+    {
+      "lead": "No board for the kids.",
+      "text": "A hot cocoa board or a candy board keeps the kids away from the expensive cheese."
+    }
   ]
 }

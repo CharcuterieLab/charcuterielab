@@ -9,8 +9,8 @@
   "season": "Fall",
   "status": "published",
   "h1": "Thanksgiving Charcuterie Board Ideas",
-  "seo_title": "Thanksgiving Charcuterie Board Ideas (Easy + Turkey Board)",
-  "description": "Thanksgiving charcuterie board ideas: a turkey-shaped board, an easy board under $40, Friendsgiving and pre-dinner boards, plus how much to buy for 6 to 20 guests.",
+  "seo_title": "Thanksgiving Charcuterie Board Ideas: 8 Easy Boards (+ Turkey Board)",
+  "description": "8 Thanksgiving charcuterie board ideas: a turkey-shaped board, an easy board under $40, Friendsgiving, a pie board, baked brie, a vegan fall board and more, plus how much to buy for 6 to 20 guests.",
   "image": "/images/50-boards-20-thanksgiving.webp",
   "answer": "A Thanksgiving charcuterie board should hold guests over, not fill them up: keep it light before dinner, lean on fall flavors (sharp cheddar, apple, pear, cranberry, pecans, maple) and serve it about an hour before the turkey. For a crowd, build the turkey-shaped board; for a small table, an easy board for under $40 does the job.",
   "ideas": [
@@ -30,7 +30,10 @@
         "pretzel-crisps",
         "cranberry-sauce"
       ],
-      "guests": 12
+      "guests": 12,
+      "post": "turkey-charcuterie-board",
+      "image": "/images/turkey-charcuterie-board.jpg",
+      "link_text": "Turkey board step by step"
     },
     {
       "title": "The Easy Board Under $40",
@@ -64,7 +67,46 @@
         "rosemary-crackers",
         "baguette"
       ],
-      "guests": 16
+      "guests": 16,
+      "post": "friendsgiving-charcuterie-board",
+      "image": "/images/friendsgiving-charcuterie-board.jpg",
+      "link_text": "Friendsgiving amounts and potluck plan"
+    },
+    {
+      "title": "The Fall Harvest Board",
+      "for": "Pre-dinner board · 8–10 guests",
+      "board": "fall-harvest-charcuterie-board",
+      "text": "Every fall flavor in one place: apples, pears, figs, maple and spiced nuts next to sharp and creamy cheeses. It works for the whole season, not just the day itself."
+    },
+    {
+      "title": "The Thanksgiving Pie Board",
+      "for": "Dessert · 12 guests",
+      "post": "thanksgiving-pie-board",
+      "image": "/images/thanksgiving-pie-board.jpg",
+      "text": "Slices of three or four pies on one board with whipped cream, caramel and a sharp cheddar for the apple pie. It replaces the crowded pie table and lets everyone try a little of each.",
+      "on_it": "Pumpkin, pecan and apple pie slices · whipped cream · caramel sauce · sharp cheddar · candied pecans · berries"
+    },
+    {
+      "title": "The Baked Brie Centerpiece",
+      "for": "Warm and easy · 6–10 guests",
+      "post": "baked-brie-recipe",
+      "image": "/images/baked-brie-recipe.jpg",
+      "text": "One wheel of brie, baked until it slumps and topped with cranberry sauce, pecans and maple, in the middle of a simple board. Bake it in the morning before the turkey takes over the oven, or right before guests arrive.",
+      "on_it": "Brie · cranberry sauce · pecans · maple syrup · sliced baguette · apples · crackers"
+    },
+    {
+      "title": "The Holiday Cheese Ball Board",
+      "for": "Make-ahead · 10–12 guests",
+      "post": "cheese-ball-recipe",
+      "image": "/images/cheese-ball-recipe.jpg",
+      "text": "A cheese ball rolled in pecans and cranberries, made two days ahead, surrounded by crackers, apples and celery. The easiest board on this page on the day itself.",
+      "on_it": "Cheese ball rolled in pecans and dried cranberries · crackers · apple slices · celery · pretzel crisps"
+    },
+    {
+      "title": "The Vegan Fall Harvest Board",
+      "for": "Vegan and dairy-free guests · 6–8",
+      "board": "plant-based-fall-harvest-board",
+      "text": "Cashew cheese, a pumpkin seed dip, roasted delicata squash and candied pecans. Put it out next to the regular board so nobody has to ask what they can eat."
     }
   ],
   "boards": [
@@ -147,7 +189,8 @@
     "friendsgiving-charcuterie-board",
     "turkey-charcuterie-board",
     "baked-brie-recipe",
-    "cheese-ball-recipe"
+    "cheese-ball-recipe",
+    "thanksgiving-pie-board"
   ],
   "faq": [
     {
@@ -169,7 +212,37 @@
     {
       "q": "What goes on a Friendsgiving charcuterie board?",
       "a": "Two cheeses, two meats, roasted nuts, apple butter or fig jam, fruit and lots of crackers. Make it big enough for 16 so it feeds people while the potluck dishes arrive."
+    },
+    {
+      "q": "How much charcuterie do I need for Thanksgiving?",
+      "a": "Before dinner, plan about 2 oz of cheese, 2 oz of meat and 6–8 crackers per guest. For 12 guests that's about 1.5 lb of cheese and 1.5 lb of meat. The table above gives amounts for 6 to 20 guests."
+    },
+    {
+      "q": "What is a Thanksgiving pie board?",
+      "a": "A dessert board with slices of several pies, plus whipped cream, caramel, berries and a sharp cheddar. It replaces a crowded pie table and lets everyone try a little of each."
+    },
+    {
+      "q": "What's a good vegan Thanksgiving charcuterie board?",
+      "a": "Cashew cheese, a pumpkin seed dip, roasted squash, apples, candied pecans, dried cranberries and fig jam. The Vegan Fall Harvest Board above has the full list."
     }
   ],
-  "updated": "2026-10-05"
+  "updated": "2026-10-18",
+  "mistakes": [
+    {
+      "lead": "Making the board too big.",
+      "text": "Before a turkey dinner, 2 oz each of cheese and meat per guest is plenty. A board sized for a party fills people up before the meal."
+    },
+    {
+      "lead": "Putting it out too early.",
+      "text": "Set it out about an hour before dinner and clear it when the turkey comes out. A board that sits all afternoon gets picked over and warm."
+    },
+    {
+      "lead": "Fighting the turkey for the oven.",
+      "text": "Anything warm, like baked brie, gets baked in the morning or while the turkey rests. Plan the board around the oven, not the other way around."
+    },
+    {
+      "lead": "Forgetting the guests who skip meat or dairy.",
+      "text": "One small vegan or vegetarian board, or a clearly labeled section, saves a lot of questions at the table."
+    }
+  ]
 }
