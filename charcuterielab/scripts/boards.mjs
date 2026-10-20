@@ -434,6 +434,11 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const steps = b.timeline.slice(0, TEASE_STEPS);
   const visible = { ...b, timeline: steps };
   const hub = h.categoryPages && h.categoryPages[cat.slug];
+  // Scannable format (Oct 20 2026): jump links, compact ingredient rows, bold lead-ins.
+  const offer = bookOffer(h, b);
+  const planId = single ? "bl-plan-title" : offer.includes('id="bl-book-title"') ? "bl-book-title" : "";
+  const jump = [["On the board", "bl-on"], ["Why it works", "bl-why"], ["Timeline", "bl-when"], ...(planId ? [["The plan", planId]] : []), ["Questions", "bl-faq"]];
+  const lead = (t) => { const m = String(t).match(/^(.*?[.!?])(\s+[\s\S]*)?$/); return m ? `<strong>${h.escapeHtml(m[1])}</strong>${h.escapeHtml(m[2] || "")}` : h.escapeHtml(t); };
 
   return h.layout({
     title: `${b.seo_title} | Charcuterie Lab`,
@@ -461,20 +466,21 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
           : `<a class="button primary" href="#bl-book-title">Get the full plan</a>
         <span>Shopping list with amounts, placement and timeline.</span>`}
       </p>
+      <nav class="bl-jump" aria-label="On this page">${jump.map(([t, id]) => `<a href="#${id}">${t}</a>`).join("")}</nav>
     </header>
 
     <section class="bl-section" aria-labelledby="bl-on">
       <h2 id="bl-on">What's on the board</h2>
-      <p>Everything that goes on this board, by group. How much of each to buy, what it costs and where it goes are in the full plan.</p>
-      <div class="bl-groups">
-        ${b.groups.map((g) => `<div class="bl-group"><h3>${h.escapeHtml(g.name)}</h3><ul>${g.items.map((i) => `<li>${item(i)}</li>`).join("")}</ul></div>`).join("\n        ")}
-      </div>
+      <p>Everything on the board, by group. Amounts, prices and placement are in the full plan.</p>
+      <dl class="bl-rows">
+        ${b.groups.map((g) => `<div><dt>${h.escapeHtml(g.name)}</dt><dd>${g.items.map((i) => item(i)).join('<span class="bl-dot" aria-hidden="true"> · </span>')}</dd></div>`).join("\n        ")}
+      </dl>
       <p class="bl-note">Planning a different board? Pick your own ingredients and guest count in the free <a href="/board-builder/">Board Builder</a>.</p>
     </section>
 
     <section class="bl-section" aria-labelledby="bl-why">
       <h2 id="bl-why">Why it works</h2>
-      ${b.why.map((p) => `<p>${h.escapeHtml(p)}</p>`).join("\n      ")}
+      ${b.why.map((p) => `<p>${lead(p)}</p>`).join("\n      ")}
       ${pair ? `<aside class="bl-pair"><p class="eyebrow">The bite to try first</p><p><strong><a href="/ingredients/${pair.a.slug}/">${h.escapeHtml(pair.a.title)}</a> + <a href="/ingredients/${pair.b.slug}/">${h.escapeHtml(pair.b.title)}</a></strong> ${h.escapeHtml(pair.text)}</p></aside>` : ""}
     </section>
 
@@ -488,7 +494,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
 
     ${single ? planBox(h, b, single) : ""}
 
-    ${bookOffer(h, b)}
+    ${offer}
 
     <section class="bl-section" aria-labelledby="bl-faq">
       <h2 id="bl-faq">Questions</h2>
