@@ -5314,6 +5314,9 @@ body.fx-slide-on .fx-sticky { display: none !important; }
   font-weight: 700;
 }
 :is(.post-body, .gf-skim) .sk-card h3 { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; line-height: 1.25; }
+:is(.post-body, .gf-skim) .sk-card > h3 + p { margin-top: 6px; }
+:is(.post-body, .gf-skim) .sk-card > p { margin-bottom: 10px; }
+:is(.post-body, .gf-skim) .sk-card > p:last-child { margin-bottom: 0; }
 :is(.post-body, .gf-skim) .sk-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

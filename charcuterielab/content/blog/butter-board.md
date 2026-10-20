@@ -7,6 +7,7 @@ excerpt: "How to make a butter board: how much butter and bread for 4, 8 or 12 p
 description: "How to make a butter board: amounts of butter and bread for 4, 8 or 12 guests, the best butter to use, six topping ideas (classic, hot honey, fig, everything bagel, Mediterranean, fall), serving and food safety tips, and butter board vs charcuterie board."
 faq: "[{"question": "How much butter do you need for a butter board?", "answer": "Plan about 1 to 1½ tablespoons of butter per guest when it is one appetizer among others. That is half a stick to ¾ stick for 4 people, 1 to 1½ sticks for 8 and 1½ to 2 sticks for 12, with 2 to 3 pieces of bread per person."}, {"question": "What kind of butter is best for a butter board?", "answer": "A good salted or cultured butter with a high fat content spreads best and tastes richest. European-style butters are a popular choice. Let it soften at room temperature for about 1 hour so it spreads without tearing."}, {"question": "How long can a butter board sit out?", "answer": "Plain butter holds up well at room temperature, but once it is topped with herbs, garlic, cheese or fruit, follow the same rule as any board: no more than 2 hours out, or 1 hour above 90°F."}, {"question": "How do you keep a butter board sanitary?", "answer": "Give guests a few small knives or spoons so nobody drags bread back and forth, or build small individual boards. Hosts who want no shared spreading can pipe the butter into small rosettes or spread it in separate ramekins."}, {"question": "What do you do with leftover butter board?", "answer": "Scrape the butter and toppings into a small container, refrigerate it and use it within a few days on toast, vegetables, corn or steak. Any butter mixed with raw garlic should stay in the fridge."}]"
 slug: "butter-board"
+updated: "2026-10-20"
 tags: "["butter board", "butter board ideas", "how to make a butter board", "appetizer board", "party appetizer"]"
 ---
 
@@ -14,9 +15,16 @@ tags: "["butter board", "butter board ideas", "how to make a butter board", "app
 
 > **Quick Answer:** A butter board is softened butter spread in swoops across a wooden board, topped with flaky salt and things like honey, lemon zest, herbs or chili crisp, and served with warm bread for scooping. Plan **1 to 1½ tablespoons of butter per guest** and **2 to 3 pieces of bread** each, so about **1 to 1½ sticks of butter and a large loaf for 8 people**. Soften the butter for an hour, spread it, top it right before serving and leave it out no more than 2 hours once it's topped.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Butter board in four lines</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">1–1½ Tbsp butter per guest</span><p class="sk-top-line">1–1½ sticks and a large loaf for 8 people.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#amounts">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Prep</p><span class="sk-top-name">Soften 1 hour, spread in swoops</span><p class="sk-top-line">Flaky salt on everything, wet toppings, then dry ones.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-to">Steps</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Top it</p><span class="sk-top-name">Honey, lemon zest, herbs</span><p class="sk-top-line">Or hot honey, fig and walnut, everything bagel.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#ideas">6 ideas</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Safety</p><span class="sk-top-name">2 hours out once topped</span><p class="sk-top-line">1 hour above 90°F. Leftovers go in the fridge.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#sit-out">Sit-out time</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#amounts">Amounts</a><a href="#butter-bread">Butter &amp; bread</a><a href="#how-to">How to make it</a><a href="#ideas">6 ideas</a><a href="#clean">Serve it cleanly</a><a href="#sit-out">Sit-out time</a><a href="#vs">Vs. charcuterie</a><a href="#faq">FAQ</a></nav>
+:::
+
 The butter board went viral on TikTok in the fall of 2022, when food creator Justine Doiron shared one, and it has stuck around as an easy party appetizer. It costs less than a charcuterie board, takes ten minutes, and works on a board you already own. It also pairs well next to a cheese board as a second, cheaper focal point.
 
-## How much butter and bread to buy
+:::html
+<h2 id="amounts">How much butter and bread to buy</h2>
+:::
 
 | Guests | Butter | Bread | Toppings |
 |---|---|---|---|
@@ -26,14 +34,18 @@ The butter board went viral on TikTok in the fall of 2022, when food creator Jus
 
 These amounts are for a butter board served with other food. If it's the main appetizer, go to the high end and add a loaf. One stick of butter is 8 tablespoons, or 4 oz.
 
-## The best butter and bread
+:::html
+<h2 id="butter-bread">The best butter and bread</h2>
+:::
 
 - **Butter:** salted or cultured butter with a high fat content spreads smoothly and tastes the best. European-style butters are a good choice, but a regular salted stick works fine with strong toppings.
 - **Softness:** leave the butter out for about **1 hour** before spreading. It should push easily with the back of a spoon but not look greasy.
 - **Bread:** a crusty [baguette](/ingredients/baguette/), sourdough or ciabatta, sliced and warmed or toasted. Soft rolls tear when you scoop. See [what bread to serve with charcuterie](/blog/what-bread-for-charcuterie-board/) for more options.
 - **Board:** a wooden board, a marble slab or a large plate. Butter leaves a little oil on unfinished wood, so wash the board with warm, soapy water afterward.
 
-## How to make a butter board
+:::html
+<h2 id="how-to">How to make a butter board</h2>
+:::
 
 1. **Soften** the butter at room temperature for about 1 hour.
 2. **Spread** it in swoops with the back of a spoon or an offset spatula, leaving a clean border around the edge of the board.
@@ -42,7 +54,9 @@ These amounts are for a butter board served with other food. If it's the main ap
 5. **Scatter** the dry toppings (zest, herbs, nuts, seeds) last so they stay crisp and bright.
 6. **Serve** right away with warm bread and a couple of small knives or spoons.
 
-## 6 butter board flavor ideas
+:::html
+<h2 id="ideas">6 butter board flavor ideas</h2>
+:::
 
 | Board | Toppings | Good for |
 |---|---|---|
@@ -55,7 +69,9 @@ These amounts are for a butter board served with other food. If it's the main ap
 
 For a holiday look, add [pomegranate](/ingredients/pomegranate/) seeds and rosemary to the classic board. For better honey picks, see [the best honey for cheese](/blog/best-honey-for-cheese/) and [the best hot honey](/blog/best-hot-honey/).
 
-## Serving it cleanly
+:::html
+<h2 id="clean">Serving it cleanly</h2>
+:::
 
 The main complaint about butter boards is the shared spread. A few easy fixes:
 
@@ -64,11 +80,15 @@ The main complaint about butter boards is the shared spread. A few easy fixes:
 - Make **individual butter boards** on small plates or in ramekins, one per pair of guests.
 - Build a **compound butter log** instead: mix the toppings into the butter, roll it in parchment, chill and slice into coins.
 
-## How long it can sit out
+:::html
+<h2 id="sit-out">How long it can sit out</h2>
+:::
 
 Plain salted butter holds up at room temperature, but once it's topped with fresh herbs, garlic, cheese or fruit, treat it like any board: **no more than 2 hours out, or 1 hour above 90°F**. Leftovers go in a covered container in the fridge. Use them within a few days on toast, roasted vegetables, corn or steak. Butter mixed with raw garlic should always be kept in the fridge.
 
-## Butter board vs charcuterie board
+:::html
+<h2 id="vs">Butter board vs charcuterie board</h2>
+:::
 
 | | Butter board | Charcuterie board |
 |---|---|---|
@@ -87,7 +107,9 @@ They work well together. Put a butter board at one end of the table and a [charc
 - [Best Honey for Cheese](/blog/best-honey-for-cheese/)
 - [Charcuterie Cups for a Party](/blog/charcuterie-cups/)
 
-## FAQ
+:::html
+<h2 id="faq">FAQ</h2>
+:::
 
 **How much butter do you need for a butter board?**
 Plan about 1 to 1½ tablespoons of butter per guest when it is one appetizer among others. That is half a stick to ¾ stick for 4 people, 1 to 1½ sticks for 8 and 1½ to 2 sticks for 12, with 2 to 3 pieces of bread per person.
