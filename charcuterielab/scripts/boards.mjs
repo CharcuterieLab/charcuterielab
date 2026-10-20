@@ -612,12 +612,13 @@ function ideasPage(h, cat, boards, P) {
   const used = new Set();
   const entries = [];
   let n = 0;
+  // { link } entries point at any page on the site, e.g. a holiday hub (19 Oct 2026)
   const postIdea = (x) => {
-    if (!h.blogTitles || !h.blogTitles.has(x.post)) return "";
+    if (!x.link && (!h.blogTitles || !h.blogTitles.has(x.post))) return "";
     n += 1;
-    const href = `/blog/${x.post}/`;
+    const href = x.link || `/blog/${x.post}/`;
     entries.push({ name: x.name, url: href });
-    return `<article class="bi-idea" id="${x.post}">
+    return `<article class="bi-idea" id="${x.id || x.post || href.split("/").filter(Boolean).pop()}">
         ${x.image ? `<a class="bi-photo" href="${href}"><img src="${h.escapeHtml((h.thumb || ((y) => y))(x.image))}" alt="${h.escapeHtml(x.name)}" width="600" height="400" loading="lazy" decoding="async"></a>` : "<span></span>"}
         <div class="bi-body">
           <h3><span class="bi-num">${n}.</span> <a href="${href}">${h.escapeHtml(x.name)}</a></h3>
@@ -629,7 +630,7 @@ function ideasPage(h, cat, boards, P) {
       </article>`;
   };
   const idea = (x) => {
-    if (x.post) return postIdea(x);
+    if (x.post || x.link) return postIdea(x);
     const b = bySlug.get(x.slug);
     if (!b) return "";
     used.add(b.slug);

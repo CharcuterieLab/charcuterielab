@@ -1,0 +1,114 @@
+{
+  "category": "seasonal-holiday",
+  "updated": "2026-10-19",
+  "seo_title": "Seasonal Charcuterie Board Ideas: 25 Boards for Fall, Winter, Spring & Summer",
+  "h1": "Seasonal Charcuterie Board Ideas",
+  "link_text": "25 seasonal charcuterie board ideas",
+  "description": "25 seasonal charcuterie board ideas for fall, winter, spring and summer: fall harvest, Friendsgiving, Christmas, hot cocoa, Easter, summer backyard and picnic boards, plus what's in season for each.",
+  "image": "/images/fall-charcuterie-board.webp",
+  "answer": "A seasonal charcuterie board follows what's at the market: pears, figs, apples and aged cheddar in fall; bold aged cheeses, cranberries, rosemary and spiced nuts in winter; strawberries, snap peas, radishes and fresh goat cheese in spring; and peaches, melon, berries and hard cheeses that hold up in the heat in summer. Here are 25 ideas, season by season.",
+  "intro": [
+    "The easiest way to make a board feel special is to build it around what's in season. The fruit tastes better, it costs less, and the colors on the board match the time of year without any decorations.",
+    "The ideas below start with fall and winter, when most people make boards, and link to each holiday's own page of ideas."
+  ],
+  "ideas": [
+    {
+      "id": "fall",
+      "heading": "Fall charcuterie board ideas",
+      "intro": "September through Thanksgiving: pears, apples, figs, pomegranate, nuts and sharp, nutty cheeses.",
+      "boards": [
+        { "slug": "fall-harvest-charcuterie-board", "best_for": "Every fall weekend", "blurb": "Warm, rustic and easy, built from what the store puts on display in the fall. The board to make from September to Thanksgiving." },
+        { "post": "fall-charcuterie-board", "name": "Fall Flavors Board", "image": "/images/fall-charcuterie-board.webp", "best_for": "Learning what makes a board taste like fall", "link_text": "The fall ingredients and why they work", "blurb": "Aged cheddar, Gruyère and Gorgonzola with prosciutto, pears, figs, pomegranate and candied walnuts, in amber, burgundy and rust.", "on_it": "Aged cheddar · Gruyère · Gorgonzola · prosciutto · soppressata · pears · figs · pomegranate · dried cranberries · candied walnuts · fig jam" },
+        { "link": "/holidays/halloween/", "name": "Halloween Boards", "image": "/images/halloween-charcuterie-board.png", "best_for": "Late October", "link_text": "Halloween board ideas", "blurb": "Orange cheddar, black olives, blackberries and dark crackers do the spooky work, with no fake food. Ideas for a grown-up board, a kids' board and cups.", "on_it": "Orange cheddar · black olives · blackberries · salami · dark crackers · dark chocolate" },
+        { "post": "friendsgiving-charcuterie-board", "name": "Friendsgiving Board", "image": "/images/friendsgiving-charcuterie-board.jpg", "best_for": "Friendsgiving potlucks", "link_text": "Amounts and potluck plan", "blurb": "The host brings the meat and cheese and hands out the extras. About 1 lb each of meat and cheese for 8 guests before the meal.", "on_it": "Aged cheddar · brie · aged gouda · salami · prosciutto · apples · pears · candied pecans · fig jam" },
+        { "link": "/holidays/thanksgiving/", "name": "Thanksgiving Boards", "image": "/images/50-boards-20-thanksgiving.webp", "best_for": "Before the turkey", "link_text": "8 Thanksgiving board ideas", "blurb": "A board that holds people over without filling them up, from a turkey-shaped board to an easy board for under $40.", "on_it": "Sharp cheddar · brie · salami · apples · pears · cranberry · pecans · maple" },
+        { "post": "thanksgiving-pie-board", "name": "Thanksgiving Pie Board", "image": "/images/thanksgiving-pie-board.jpg", "best_for": "Dessert for a crowd", "blurb": "Three or four pies cut into slim wedges so everyone can try two or three kinds. Plan 3 pies for 12 guests.", "on_it": "Pumpkin, pecan and apple pie wedges · whipped cream · caramel · toppings" },
+        { "slug": "plant-based-fall-harvest-board", "best_for": "Vegan and dairy-free guests", "blurb": "Every fall flavor with no dairy and no meat: cashew cheese, a pumpkin seed dip, roasted delicata squash and candied pecans." }
+      ]
+    },
+    {
+      "id": "winter",
+      "heading": "Winter charcuterie board ideas",
+      "intro": "December through February: bold aged cheeses, rich cured meats, cranberries, rosemary, dark honey and spiced nuts.",
+      "boards": [
+        { "post": "winter-charcuterie-board", "name": "Winter Board", "image": "/images/winter-charcuterie-board.png", "best_for": "Cozy nights all winter, not just Christmas", "blurb": "Stilton, aged Gouda, Comté and aged cheddar with prosciutto, coppa and salami, plus dark honey, dried cranberries, spiced walnuts and rosemary.", "on_it": "Stilton · aged Gouda · Comté · aged cheddar · prosciutto · coppa · salami · dark honey · dried cranberries · spiced walnuts · rosemary" },
+        { "slug": "holiday-entertaining-board", "best_for": "The big December party", "blurb": "Five cheeses, four meats and every red-and-green ingredient that makes a table look like the holidays, without a single ornament." },
+        { "link": "/holidays/christmas/", "name": "Christmas Boards", "image": "/images/50-boards-06-holiday-entertaining.webp", "best_for": "Christmas parties and Christmas Eve", "link_text": "10 Christmas board ideas", "blurb": "A wreath, a Christmas tree board, a candy board, Christmas morning bagels and more.", "on_it": "Rosemary · salami · cheddar · Manchego · pomegranate · cranberries · green olives" },
+        { "post": "hot-cocoa-board", "name": "Hot Cocoa Board", "image": "/images/hot-cocoa-board.jpg", "best_for": "Kids, snow days and movie nights", "blurb": "Toppings and dippers next to a pot of hot chocolate so everyone builds their own mug. Plan about 12 oz of cocoa per guest.", "on_it": "Marshmallows · whipped cream · chocolate chips · crushed peppermint · caramel · cookies · biscotti · pretzel rods" },
+        { "link": "/holidays/hanukkah/", "name": "Hanukkah Boards", "image": "/images/hanukkah-charcuterie-board.jpg", "best_for": "Hanukkah, kosher-style", "link_text": "7 Hanukkah board ideas", "blurb": "A latke and lox board, a deli meat board, a pareve mezze board and a gelt dessert board, with meat and dairy kept apart.", "on_it": "Latkes · smoked salmon · cream cheese · beef salami · pastrami · rugelach · chocolate gelt" },
+        { "slug": "new-years-eve-charcuterie-board", "best_for": "New Year's Eve", "blurb": "A board built around the bottle: everything on it tastes better with something sparkling and still looks good at midnight." },
+        { "slug": "plant-based-holiday-board", "best_for": "Mixed crowds in December", "blurb": "Vegan brie with rosemary, a cranberry walnut spread, pomegranate and spiced nuts, sized for 10–14 guests." }
+      ]
+    },
+    {
+      "id": "spring",
+      "heading": "Spring charcuterie board ideas",
+      "intro": "February through May: strawberries, snap peas, radishes, fresh herbs and soft, fresh cheeses like goat cheese and burrata.",
+      "boards": [
+        { "link": "/holidays/valentines-day/", "name": "Valentine's Day Boards", "image": "/images/50-boards-21-valentines-day.webp", "best_for": "Date night and Galentine's", "link_text": "Valentine's board ideas", "blurb": "A heart-shaped board for two, a Galentine's board and a chocolate dessert board, in red and pink.", "on_it": "Brie · salami roses · strawberries · raspberries · dark chocolate · prosciutto" },
+        { "link": "/holidays/st-patricks-day/", "name": "St. Patrick's Day Boards", "image": "/images/50-boards-23-st-patricks-day.webp", "best_for": "St. Patrick's Day parties", "link_text": "St. Patrick's Day board ideas", "blurb": "Irish cheddar, ham or corned beef, soda bread, grainy mustard and everything green.", "on_it": "Aged Irish cheddar · ham or corned beef · brown soda bread · oatcakes · grainy mustard · green apples · grapes · pickles" },
+        { "link": "/holidays/easter/", "name": "Easter Boards", "image": "/images/50-boards-24-easter-spring.webp", "best_for": "Easter brunch", "link_text": "Easter board ideas", "blurb": "A brunch board, a bird's nest board and a pastel kids' board, with deviled eggs and spring colors.", "on_it": "Brie · havarti · sliced ham · deviled eggs · hot cross buns · strawberries · snap peas · radishes" },
+        { "slug": "plant-based-brunch-board", "best_for": "Spring brunch and Mother's Day", "blurb": "A build-your-own toast board with avocado, berries, vegan cream cheese, almond butter and jam." },
+        { "post": "bagel-board", "name": "Bagel Board", "image": "/images/bagel-board.jpg", "best_for": "Showers and spring brunch", "blurb": "Bagels, cream cheeses, smoked salmon and fresh toppings for guests to build their own.", "on_it": "Bagels · cream cheeses · smoked salmon · capers · red onion · tomato · cucumber · dill" }
+      ]
+    },
+    {
+      "id": "summer",
+      "heading": "Summer charcuterie board ideas",
+      "intro": "June through August: peaches, melon, cherries and berries, lighter cured meats and hard cheeses that don't sweat in the heat.",
+      "boards": [
+        { "post": "summer-charcuterie-board", "name": "Summer Board", "image": "/images/summer-charcuterie-board.webp", "best_for": "Outdoor parties in the heat", "link_text": "What holds up in summer heat", "blurb": "Stone fruit, bresaola and prosciutto with Parmigiano and aged Manchego, which hold up outside better than brie. Pour rosé or Albariño.", "on_it": "Peaches · bresaola · prosciutto · Parmigiano-Reggiano · aged Manchego · berries · crackers" },
+        { "slug": "summer-backyard-board", "best_for": "Backyard afternoons", "blurb": "Melon, berries and peaches with mild cheeses and a few easy meats, built in about 25 minutes." },
+        { "slug": "plant-based-summer-board", "best_for": "The hottest days", "blurb": "No soft cheese to melt: cold dips, watermelon, cucumber ribbons, snap peas and ripe peaches." },
+        { "slug": "greek-mediterranean-board", "best_for": "Summer dinner parties", "blurb": "Feta in olive oil, seared halloumi, olives and tzatziki with warm pita. It eats like a meal on a Greek island." },
+        { "post": "charcuterie-skewers", "name": "Charcuterie Skewers", "image": "/images/charcuterie-skewers.jpg", "best_for": "Pool parties and cookouts", "blurb": "A board on a stick, with no board to leave sitting in the sun. Make them up to a day ahead and keep them cold.", "on_it": "Salami · mozzarella balls · tortellini · cherry tomatoes · basil · olives" },
+        { "post": "jarcuterie", "name": "Jarcuterie", "image": "/images/jarcuterie.jpg", "best_for": "Picnics and the beach", "blurb": "Charcuterie in individual mason jars with lids, so it travels. Fill them the morning of and add crackers last.", "on_it": "Nuts or dried fruit · salami · cheese cubes · grapes · breadsticks" }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "in-season",
+      "heading": "What's in season for a charcuterie board",
+      "items": [
+        { "lead": "Fall:", "text": "pears, apples, figs, grapes, pomegranate, pumpkin seeds and pecans. Aged cheddar, Gruyère, Gorgonzola and smoked Gouda. Fig jam, apple butter and quince paste." },
+        { "lead": "Winter:", "text": "cranberries, citrus, pomegranate and dried fruit. Stilton, aged Gouda, Comté and baked brie. Spiced nuts, dark honey and rosemary." },
+        { "lead": "Spring:", "text": "strawberries, snap peas, radishes, asparagus and fresh herbs. Fresh goat cheese, burrata and ricotta. Honey and strawberry jam." },
+        { "lead": "Summer:", "text": "peaches, cherries, melon, berries, cucumbers and cherry tomatoes. Parmigiano, aged Manchego and feta, which hold up in the heat. Basil and pesto." }
+      ]
+    },
+    {
+      "id": "adapt",
+      "heading": "How to make any board seasonal",
+      "paras": [
+        "You don't need a new board for every season. Keep the cheese and meat you like and change four things: the fruit, the jam, the nut and the herb. A classic board with pears, fig jam, candied pecans and rosemary is a fall board. The same board with peaches, honey, almonds and basil is a summer board.",
+        "For a full plan built around your guest count, use the [Party Planner](/party-planner/), or start from the [Board Builder](/board-builder/)."
+      ]
+    },
+    {
+      "id": "heat",
+      "heading": "Summer boards and food safety",
+      "paras": [
+        "Cheese, meat and dips shouldn't sit out for more than 2 hours, or 1 hour when it's above 90°F. Outdoors in summer, put out smaller amounts, keep the rest in a cooler or the fridge, and refill. Hard cheeses like Parmigiano and aged Manchego hold up better in the heat than brie."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common seasonal board mistakes",
+      "items": [
+        { "lead": "Fruit that's out of season.", "text": "Winter peaches and summer pears are expensive and bland. Build around what's in season." },
+        { "lead": "Soft cheese outside in summer.", "text": "Brie and fresh cheeses slump and spoil faster in the heat. Swap in hard, aged cheeses." },
+        { "lead": "Decorations instead of food.", "text": "Let the season's fruit, herbs and colors do the work. Plastic leaves and ornaments just take up space." },
+        { "lead": "Planning a holiday board too late.", "text": "Specialty cheese for Thanksgiving and Christmas can sell out. Order it a week ahead." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "What goes on a fall charcuterie board?", "a": "Aged cheddar, Gruyère or Gorgonzola, prosciutto or soppressata, pears, figs, apples, pomegranate, dried cranberries, candied walnuts or pecans, and fig jam or apple butter." },
+    { "q": "What goes on a winter charcuterie board?", "a": "Bold aged cheeses like Stilton, aged Gouda and Comté, rich cured meats, dried cranberries, spiced nuts, dark honey, fig jam and rosemary." },
+    { "q": "What goes on a spring charcuterie board?", "a": "Fresh goat cheese, burrata or ricotta, prosciutto, strawberries, snap peas, radishes, fresh herbs, honey and strawberry jam." },
+    { "q": "What goes on a summer charcuterie board?", "a": "Peaches, melon, cherries and berries, prosciutto or bresaola, and hard cheeses like Parmigiano and aged Manchego that hold up in the heat." },
+    { "q": "How long can a charcuterie board sit out in summer?", "a": "No more than 1 hour when it's above 90°F, and 2 hours otherwise. Put out small amounts and refill from a cooler or the fridge." },
+    { "q": "How do I make a charcuterie board feel seasonal without starting over?", "a": "Keep your usual cheese and meat and swap four things: the fruit, the jam, the nut and the herb. Pears, fig jam, pecans and rosemary say fall; peaches, honey, almonds and basil say summer." }
+  ]
+}
