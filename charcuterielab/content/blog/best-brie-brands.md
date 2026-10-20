@@ -34,7 +34,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s top grocery brie, with the most complex flavor and exceptional creaminess. Technically it is not brie: the milk is ultrafiltered, which makes it richer and faster to make. (Source: <a href="https://en.wikipedia.org/wiki/Fromager_d&#x27;Affinois" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">#2</p><h3>Président Brie</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Président Brie</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Reliable everyday brie</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Consistent.</p>
@@ -43,7 +43,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Slightly more mushroomy than most grocery brie, and <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a>&#x27;s pick for <a href="/blog/baked-brie-recipe/">baked brie</a> because it melts beautifully. (Source: <a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>Marin French Cheese Co. Petite Crème</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Marin French Cheese Co. Petite Crème</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Small-wheel boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case, West Coast especially.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> American, award-winning. Board-sized wheels.</p>
@@ -52,7 +52,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A small triple-crème brie from the country&#x27;s oldest cheese company, founded in 1865. It won a bronze medal at the 2025 World Cheese Awards. (Source: <a href="https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/" target="_blank" rel="noopener">California Dairy Magazine</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">#4</p><h3>Supreme Brie</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Supreme Brie</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Rich and mild</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very creamy. Mild.</p>
@@ -70,7 +70,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Reviews split by product: <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a> scored the Brie Log 10 out of 10, while <a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked the Double Cream Brie last as mild and less creamy. The price is hard to beat.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Ile de France Brie</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Ile de France Brie</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mini wheels</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Good value.</p>
@@ -79,7 +79,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A dependable French brie; <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a> praised its minis as gooey and funky.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">#7</p><h3>Saint Angel Triple Cream</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Saint Angel Triple Cream</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Triple-crème lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very rich.</p>

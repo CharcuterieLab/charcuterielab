@@ -14,153 +14,109 @@ tags: "["heb charcuterie", "heb charcuterie board", "h-e-b cheese", "heb deli", 
 
 > **Quick Answer:** The best cheese at H-E-B for a charcuterie board is Kerrygold Aged Irish Cheddar (4.6 out of 5), about $5.74 for 7 oz. The best H-E-B-brand picks are the fresh-made guacamole (4.2), the Deli Artisan Triple Crème Brie (4.0) and the Post Oak Smoked Pimento Cheese (4.0), a Texas twist. For meat, have the deli slice the uncured Italian dry salami.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Aged Irish Cheddar</a><p class="sk-top-line">Sharp, crumbly and cheap for an imported cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best H-E-B pick</p><a class="sk-top-name" href="#pick-3">H-E-B Fresh-Made Guacamole</a><p class="sk-top-line">Fresh, not shelf-stable, and it tastes it.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">H-E-B Deli Artisan Triple Crème Brie</a><p class="sk-top-line">Buttery and spoonable, and cheap for a triple crème.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
+:::
+
 H-E-B's store brands have a devoted following in Texas, but its cheese case gets mixed reviews: The Takeout ranked H-E-B 7th of 13 chains for cheese, quoting a shopper who said H-E-B's store products are great "BUT cheese is not one of them." So the best H-E-B board mixes national-brand cheeses from the deli case with H-E-B's own deli meats, spreads and dips. Few food sites have rated H-E-B's deli cheeses, so these rankings lean on ingredients, value and how each one works on a board.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 10, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kerrygold Aged Irish Cheddar</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The main cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case, about $5.74.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Sharp, crumbly and cheap for an imported cheddar.</p>
+<p class="sk-mind"><strong>Watch out:</strong> The 7 oz blocks go fast; buy two for 8 or more guests.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A grass-fed Irish cheddar, about $5.74 for 7 oz in <a href="https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057" target="_blank" rel="noopener">H-E-B&#x27;s deli cheese case</a>. Kerrygold&#x27;s aged cheddars ranked at the top of our <a href="/blog/best-cheddar-brands/">cheddar ranking</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Sartori SarVecchio Parmesan</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Crunchy crystals and less expensive than imported Parmigiano.</p>
+<p class="sk-mind"><strong>Watch out:</strong> It isn&#x27;t Parmigiano Reggiano; for that, H-E-B carries Galli.</p>
 
-| Pick | Rating |
-|---|---|
-| **Best overall:** Kerrygold Aged Irish Cheddar ($) | ★★★★½ 4.6 |
-| **Best H-E-B pick:** H-E-B Fresh-Made Guacamole ($) | ★★★★☆ 4.2 |
-| **Best soft cheese:** H-E-B Deli Artisan Triple Crème Brie ($) | ★★★★☆ 4.0 |
-| **Best Texas twist:** H-E-B Deli Post Oak Smoked Pimento Cheese ($) | ★★★★☆ 4.0 |
-| **Best meat:** H-E-B Deli Uncured Italian Dry Salami ($) | ★★★½☆ 3.6 |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Wisconsin aged parmesan with sweet, nutty crystals, about $17.98 a pound at <a href="https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057" target="_blank" rel="noopener">H-E-B</a>. It ranked second in our <a href="/blog/best-parmesan-brands/">Parmesan ranking</a>.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best H-E-B pick</p><h3>H-E-B Fresh-Made Guacamole</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A Tex-Mex corner</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B produce or deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Fresh, not shelf-stable, and it tastes it.</p>
+<p class="sk-mind"><strong>Watch out:</strong> It browns once opened. Put it out last with tortilla chips.</p>
 
-## The full ranking
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Guacamole made in store, in mild and spicy versions. <a href="https://aol.com/15-items-always-buy-h-000239887.html" target="_blank" rel="noopener">Southern Living</a> put it on its list of things Texans always buy at H-E-B for its &quot;zingy lime juice.&quot;</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best Texas twist</p><h3>H-E-B Deli Post Oak Smoked Pimento Cheese</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A Texas twist</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Smoky and creamy, and it tastes like Texas.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last.</p>
 
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Kerrygold Aged Irish Cheddar** ($) | ★★★★½ 4.6 | The main cheese |
-| 2. **Sartori SarVecchio Parmesan** ($$) | ★★★★☆ 4.2 | Breaking into chunks |
-| 3. **H-E-B Fresh-Made Guacamole** ($) | ★★★★☆ 4.2 | A Tex-Mex corner |
-| 4. **H-E-B Deli Post Oak Smoked Pimento Cheese** ($) | ★★★★☆ 4.0 | A Texas twist |
-| 5. **H-E-B Deli Artisan Triple Crème Brie** ($) | ★★★★☆ 4.0 | The soft cheese |
-| 6. **H-E-B Cheddar Lone Stars** ($) | ★★★★☆ 3.8 | Kids and casual boards |
-| 7. **H-E-B Deli Double Crème Brie, fresh cut** ($) | ★★★★☆ 3.8 | A cheaper brie |
-| 8. **Galli Parmigiano Reggiano** ($$) | ★★★★☆ 3.8 | Real Parmigiano |
-| 9. **H-E-B Deli Uncured Italian Dry Salami** ($) | ★★★½☆ 3.6 | The main meat |
-| 10. **H-E-B Deli Cheese Board, Everyone's Favorite** ($) | ★★★☆☆ 3.2 | A board for two |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Pimento cheese smoked over post oak, from the <a href="https://www.heb.com/product-detail/h-e-b-deli-post-oak-smoked-pimento-cheese-spread-large/14463512" target="_blank" rel="noopener">H-E-B Deli</a>. <a href="https://aol.com/15-items-always-buy-h-000239887.html" target="_blank" rel="noopener">Southern Living</a> named it one of the items Texans always buy at H-E-B.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best soft cheese</p><h3>H-E-B Deli Artisan Triple Crème Brie</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Buttery and spoonable, and cheap for a triple crème.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Few published reviews. Take it out 20 to 30 minutes before serving.</p>
 
-![Ranked list of the best H-E-B items for a charcuterie board, scored out of 5](/images/best-heb-charcuterie-items-ranking.webp)
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A rich 9 oz triple crème wheel for about $7.98 at <a href="https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057" target="_blank" rel="noopener">H-E-B</a>. There&#x27;s also a 7 oz double crème wheel for about $4.78.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>H-E-B Cheddar Lone Stars</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Kids and casual boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B cracker aisle.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Fun, cheap and Texas-shaped.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Too small and salty for spreading cheese. Use them as a snack, not a cracker.</p>
 
-### 1. Kerrygold Aged Irish Cheddar
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Star-shaped baked cheddar crackers, H-E-B&#x27;s take on Goldfish, per <a href="https://aol.com/15-items-always-buy-h-000239887.html" target="_blank" rel="noopener">Southern Living</a>. Sold in <a href="https://www.heb.com/product-detail/h-e-b-cheddar-lone-stars-baked-snack-crackers-10-oz-bags/8704002" target="_blank" rel="noopener">10 oz bags</a>.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 4 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-7">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>H-E-B Deli Double Crème Brie, fresh cut</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A cheaper brie</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cut to the size you need.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Milder than the triple crème.</p>
 
-**★★★★½ 4.6 out of 5** · Best overall · Best for: The main cheese · $ budget
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Brie cut to order at the deli, about $10.48 a pound. H-E-B calls it smooth, buttery and creamy (<a href="https://www.heb.com/product-detail/h-e-b-deli-double-creme-brie-cheese-fresh-cut/8977015" target="_blank" rel="noopener">H-E-B</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-8">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Galli Parmigiano Reggiano</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Real Parmigiano</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The real thing, with the protected name.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Few published reviews, and pricier than SarVecchio.</p>
 
-A grass-fed Irish cheddar, about $5.74 for 7 oz in [H-E-B's deli cheese case](https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057). Kerrygold's aged cheddars ranked at the top of our [cheddar ranking](/blog/best-cheddar-brands/).
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Imported Parmigiano Reggiano, about $24.98 a pound at <a href="https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057" target="_blank" rel="noopener">H-E-B</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-9">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><p class="sk-pill">Best meat</p><h3>H-E-B Deli Uncured Italian Dry Salami</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Sliced to order, so it&#x27;s fresh and folds well.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Ask for it thin. Few published reviews.</p>
 
-- **Why we like it:** Sharp, crumbly and cheap for an imported cheddar.
-- **Keep in mind:** The 7 oz blocks go fast; buy two for 8 or more guests.
-- **Where to find it:** H-E-B deli cheese case, about $5.74.
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Uncured Italian dry salami, custom sliced at the deli for about $14.49 a pound (<a href="https://www.heb.com/product-detail/h-e-b-select-ingredients-italian-dry-salami/5172001" target="_blank" rel="noopener">H-E-B</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-10">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>H-E-B Deli Cheese Board, Everyone&#x27;s Favorite</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A board for two</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli, about $9.98.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A date-night board in one box.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Too small for a party. Use it as a starter and add your own cheese.</p>
 
-### 2. Sartori SarVecchio Parmesan
-
-**★★★★☆ 4.2 out of 5** · Best for: Breaking into chunks · $$ mid-range
-
-A Wisconsin aged parmesan with sweet, nutty crystals, about $17.98 a pound at [H-E-B](https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057). It ranked second in our [Parmesan ranking](/blog/best-parmesan-brands/).
-
-- **Why we like it:** Crunchy crystals and less expensive than imported Parmigiano.
-- **Keep in mind:** It isn't Parmigiano Reggiano; for that, H-E-B carries Galli.
-- **Where to find it:** H-E-B deli cheese case.
-
-### 3. H-E-B Fresh-Made Guacamole
-
-**★★★★☆ 4.2 out of 5** · Best H-E-B pick · Best for: A Tex-Mex corner · $ budget
-
-Guacamole made in store, in mild and spicy versions. [Southern Living](https://aol.com/15-items-always-buy-h-000239887.html) put it on its list of things Texans always buy at H-E-B for its "zingy lime juice."
-
-- **Why we like it:** Fresh, not shelf-stable, and it tastes it.
-- **Keep in mind:** It browns once opened. Put it out last with tortilla chips.
-- **Where to find it:** H-E-B produce or deli.
-
-### 4. H-E-B Deli Post Oak Smoked Pimento Cheese
-
-**★★★★☆ 4.0 out of 5** · Best Texas twist · Best for: A Texas twist · $ budget
-
-Pimento cheese smoked over post oak, from the [H-E-B Deli](https://www.heb.com/product-detail/h-e-b-deli-post-oak-smoked-pimento-cheese-spread-large/14463512). [Southern Living](https://aol.com/15-items-always-buy-h-000239887.html) named it one of the items Texans always buy at H-E-B.
-
-- **Why we like it:** Smoky and creamy, and it tastes like Texas.
-- **Keep in mind:** Keep it cold and put it out last.
-- **Where to find it:** H-E-B Deli.
-
-### 5. H-E-B Deli Artisan Triple Crème Brie
-
-**★★★★☆ 4.0 out of 5** · Best soft cheese · Best for: The soft cheese · $ budget
-
-A rich 9 oz triple crème wheel for about $7.98 at [H-E-B](https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057). There's also a 7 oz double crème wheel for about $4.78.
-
-- **Why we like it:** Buttery and spoonable, and cheap for a triple crème.
-- **Keep in mind:** Few published reviews. Take it out 20 to 30 minutes before serving.
-- **Where to find it:** H-E-B deli cheese case.
-
-### 6. H-E-B Cheddar Lone Stars
-
-**★★★★☆ 3.8 out of 5** · Best for: Kids and casual boards · $ budget
-
-Star-shaped baked cheddar crackers, H-E-B's take on Goldfish, per [Southern Living](https://aol.com/15-items-always-buy-h-000239887.html). Sold in [10 oz bags](https://www.heb.com/product-detail/h-e-b-cheddar-lone-stars-baked-snack-crackers-10-oz-bags/8704002).
-
-- **Why we like it:** Fun, cheap and Texas-shaped.
-- **Keep in mind:** Too small and salty for spreading cheese. Use them as a snack, not a cracker.
-- **Where to find it:** H-E-B cracker aisle.
-
-### 7. H-E-B Deli Double Crème Brie, fresh cut
-
-**★★★★☆ 3.8 out of 5** · Best for: A cheaper brie · $ budget
-
-Brie cut to order at the deli, about $10.48 a pound. H-E-B calls it smooth, buttery and creamy ([H-E-B](https://www.heb.com/product-detail/h-e-b-deli-double-creme-brie-cheese-fresh-cut/8977015)).
-
-- **Why we like it:** Cut to the size you need.
-- **Keep in mind:** Milder than the triple crème.
-- **Where to find it:** H-E-B Deli.
-
-### 8. Galli Parmigiano Reggiano
-
-**★★★★☆ 3.8 out of 5** · Best for: Real Parmigiano · $$ mid-range
-
-Imported Parmigiano Reggiano, about $24.98 a pound at [H-E-B](https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057).
-
-- **Why we like it:** The real thing, with the protected name.
-- **Keep in mind:** Few published reviews, and pricier than SarVecchio.
-- **Where to find it:** H-E-B deli cheese case.
-
-### 9. H-E-B Deli Uncured Italian Dry Salami
-
-**★★★½☆ 3.6 out of 5** · Best meat · Best for: The main meat · $ budget
-
-Uncured Italian dry salami, custom sliced at the deli for about $14.49 a pound ([H-E-B](https://www.heb.com/product-detail/h-e-b-select-ingredients-italian-dry-salami/5172001)).
-
-- **Why we like it:** Sliced to order, so it's fresh and folds well.
-- **Keep in mind:** Ask for it thin. Few published reviews.
-- **Where to find it:** H-E-B Deli.
-
-### 10. H-E-B Deli Cheese Board, Everyone's Favorite
-
-**★★★☆☆ 3.2 out of 5** · Best for: A board for two · $ budget
-
-A small ready-made board with double crème brie, cheddar, salami-wrapped mozzarella, dried apricots, cranberries, Greek olives and honey-toasted pecans, about $9.98 for two people ([H-E-B](https://www.heb.com/product-detail/h-e-b-deli-cheese-board-everyone-s-favorite/9092010)).
-
-- **Why we like it:** A date-night board in one box.
-- **Keep in mind:** Too small for a party. Use it as a starter and add your own cheese.
-- **Where to find it:** H-E-B Deli, about $9.98.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Kerrygold Aged Irish Cheddar | 5 | 4 | 5 | 4 | 5 | **4.6** |
-| Sartori SarVecchio Parmesan | 4 | 5 | 4 | 4 | 4 | **4.2** |
-| H-E-B Fresh-Made Guacamole | 4 | 4 | 5 | 4 | 4 | **4.2** |
-| H-E-B Deli Post Oak Smoked Pimento Cheese | 4 | 4 | 4 | 4 | 4 | **4.0** |
-| H-E-B Deli Artisan Triple Crème Brie | 5 | 2 | 4 | 4 | 5 | **4.0** |
-| H-E-B Cheddar Lone Stars | 3 | 4 | 3 | 5 | 5 | **3.8** |
-| H-E-B Deli Double Crème Brie, fresh cut | 4 | 2 | 4 | 5 | 5 | **3.8** |
-| Galli Parmigiano Reggiano | 5 | 2 | 5 | 3 | 4 | **3.8** |
-| H-E-B Deli Uncured Italian Dry Salami | 4 | 2 | 4 | 4 | 5 | **3.6** |
-| H-E-B Deli Cheese Board, Everyone's Favorite | 3 | 2 | 4 | 4 | 4 | **3.2** |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A small ready-made board with double crème brie, cheddar, salami-wrapped mozzarella, dried apricots, cranberries, Greek olives and honey-toasted pecans, about $9.98 for two people (<a href="https://www.heb.com/product-detail/h-e-b-deli-cheese-board-everyone-s-favorite/9092010" target="_blank" rel="noopener">H-E-B</a>).</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+</div>
+:::
 
 ## Building a board from these
 
@@ -175,7 +131,9 @@ Use our [Party Planner](/party-planner/) for exact amounts for your guest count.
 
 H-E-B also sells [Post Oak smoked cheddar cubes](https://www.heb.com/product-detail/h-e-b-deli-post-oak-smoked-cheddar-cheese-cubes/4451059) if you want a smoky cheese without the spread. See every ranked guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-## H-E-B charcuterie questions
+:::html
+<h2 id="faq">H-E-B charcuterie questions</h2>
+:::
 
 **What is the best H-E-B cheese for a charcuterie board?**
 
@@ -193,15 +151,14 @@ A pimento cheese spread smoked over post oak, sold at the H-E-B Deli. Southern L
 
 About 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal, plus 10 to 12 crackers per guest.
 
-## Sources
-
-- [H-E-B: Deli cheese (prices)](https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057)
-- [H-E-B: Deli Double Crème Brie, fresh cut](https://www.heb.com/product-detail/h-e-b-deli-double-creme-brie-cheese-fresh-cut/8977015)
-- [H-E-B: Deli Uncured Italian Dry Salami](https://www.heb.com/product-detail/h-e-b-select-ingredients-italian-dry-salami/5172001)
-- [H-E-B: Deli Post Oak Smoked Pimento Cheese Spread](https://www.heb.com/product-detail/h-e-b-deli-post-oak-smoked-pimento-cheese-spread-large/14463512)
-- [H-E-B: Deli Cheese Board, Everyone's Favorite](https://www.heb.com/product-detail/h-e-b-deli-cheese-board-everyone-s-favorite/9092010)
-- [H-E-B: Cheddar Lone Stars](https://www.heb.com/product-detail/h-e-b-cheddar-lone-stars-baked-snack-crackers-10-oz-bags/8704002)
-- [Southern Living via AOL: The 15 Items You Should Always Buy At H-E-B, According To Texans](https://aol.com/15-items-always-buy-h-000239887.html)
-- [The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Kerrygold Aged Irish Cheddar</td><td>5</td><td>4</td><td>5</td><td>4</td><td>5</td><td><strong>4.6</strong></td></tr><tr><td>Sartori SarVecchio Parmesan</td><td>4</td><td>5</td><td>4</td><td>4</td><td>4</td><td><strong>4.2</strong></td></tr><tr><td>H-E-B Fresh-Made Guacamole</td><td>4</td><td>4</td><td>5</td><td>4</td><td>4</td><td><strong>4.2</strong></td></tr><tr><td>H-E-B Deli Post Oak Smoked Pimento Cheese</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>H-E-B Deli Artisan Triple Crème Brie</td><td>5</td><td>2</td><td>4</td><td>4</td><td>5</td><td><strong>4.0</strong></td></tr><tr><td>H-E-B Cheddar Lone Stars</td><td>3</td><td>4</td><td>3</td><td>5</td><td>5</td><td><strong>3.8</strong></td></tr><tr><td>H-E-B Deli Double Crème Brie, fresh cut</td><td>4</td><td>2</td><td>4</td><td>5</td><td>5</td><td><strong>3.8</strong></td></tr><tr><td>Galli Parmigiano Reggiano</td><td>5</td><td>2</td><td>5</td><td>3</td><td>4</td><td><strong>3.8</strong></td></tr><tr><td>H-E-B Deli Uncured Italian Dry Salami</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td><td><strong>3.6</strong></td></tr><tr><td>H-E-B Deli Cheese Board, Everyone&#x27;s Favorite</td><td>3</td><td>2</td><td>4</td><td>4</td><td>4</td><td><strong>3.2</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.heb.com/category/shop/deli-prepared-food/cheese/490017/490057" target="_blank" rel="noopener">H-E-B: Deli cheese (prices)</a></li><li><a href="https://www.heb.com/product-detail/h-e-b-deli-double-creme-brie-cheese-fresh-cut/8977015" target="_blank" rel="noopener">H-E-B: Deli Double Crème Brie, fresh cut</a></li><li><a href="https://www.heb.com/product-detail/h-e-b-select-ingredients-italian-dry-salami/5172001" target="_blank" rel="noopener">H-E-B: Deli Uncured Italian Dry Salami</a></li><li><a href="https://www.heb.com/product-detail/h-e-b-deli-post-oak-smoked-pimento-cheese-spread-large/14463512" target="_blank" rel="noopener">H-E-B: Deli Post Oak Smoked Pimento Cheese Spread</a></li><li><a href="https://www.heb.com/product-detail/h-e-b-deli-cheese-board-everyone-s-favorite/9092010" target="_blank" rel="noopener">H-E-B: Deli Cheese Board, Everyone&#x27;s Favorite</a></li><li><a href="https://www.heb.com/product-detail/h-e-b-cheddar-lone-stars-baked-snack-crackers-10-oz-bags/8704002" target="_blank" rel="noopener">H-E-B: Cheddar Lone Stars</a></li><li><a href="https://aol.com/15-items-always-buy-h-000239887.html" target="_blank" rel="noopener">Southern Living via AOL: The 15 Items You Should Always Buy At H-E-B, According To Texans</a></li><li><a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection</a></li></ul>
+<img src="/images/best-heb-charcuterie-items-ranking.webp" alt="Ranked list of the best H-E-B items for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -43,7 +43,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thekitchn.com/best-honey-23738242" target="_blank" rel="noopener">The Kitchn</a>&#x27;s runner-up, described as incredibly thick and luscious, which makes it easy to spoon over cheese.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>Trader Joe&#x27;s Multi-Floral &amp; Clover Honey</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Trader Joe&#x27;s Multi-Floral &amp; Clover Honey</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget honey</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap. Pleasant flavor.</p>
@@ -61,7 +61,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Dark, bitter and almost savory, chestnut honey is the classic partner for blue cheese. This organic Italian version is one of the easiest to buy. (Source: <a href="https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz" target="_blank" rel="noopener">Eataly</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>Savannah Bee Company</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Savannah Bee Company</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Gift-worthy varietals</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Varietal choice. Nice jars.</p>
@@ -70,7 +70,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Single-varietal honeys and a published cheese-pairing guide. Its hot honey ranked fifth in <a href="https://www.tastingtable.com/1868923/hot-honey-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s test. (Source: <a href="https://savannahbee.com/blogs/the-latest-buzz/how-to-pair-honey-and-cheese" target="_blank" rel="noopener">Savannah Bee Company</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Rigoni di Asiago Mielbio Acacia Honey</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Rigoni di Asiago Mielbio Acacia Honey</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh and soft cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Eataly, Amazon, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild. Stays liquid.</p>

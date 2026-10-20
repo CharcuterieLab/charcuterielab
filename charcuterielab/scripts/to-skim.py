@@ -18,7 +18,13 @@ TAG_NOTE = "Links to Amazon are affiliate links."
 # Guides where the products ship well and are sold on Amazon. Others (fresh
 # cheese, sliced meat, single-store guides) keep "Where to buy" without a button.
 AMAZON_OK = {"best-fig-jam", "best-salami-brands", "best-marcona-almonds", "best-summer-sausage",
-             "best-olives-for-charcuterie", "best-honey-for-cheese", "best-mustard-for-charcuterie"}
+             "best-olives-for-charcuterie", "best-honey-for-cheese", "best-mustard-for-charcuterie",
+             # round 2 (Oct 20): jars, crackers, chips, sweets and dry-cured meats
+             "best-balsamic-glaze", "best-crackers-for-charcuterie", "best-cranberry-sauce", "best-dark-chocolate",
+             "best-gluten-free-crackers", "best-hot-honey", "best-kettle-chips", "best-meat-sticks", "best-mixed-nuts",
+             "best-pepper-jelly", "best-pickles-for-charcuterie", "best-pita-chips", "best-pretzels-for-charcuterie",
+             "best-quince-paste", "best-shortbread", "best-strawberry-jam", "best-tortilla-chips", "best-water-crackers",
+             "best-salsa", "best-spanish-chorizo", "best-pepperoni-brands", "best-soppressata-brands", "best-sparkling-cider"}
 STORE_BRANDS = re.compile(r"^(Trader Joe's|Kirkland|365 by Whole Foods|Member's Mark|Good & Gather|Private Selection|Simply Nature|Specially Selected|Publix|H-E-B|Wegmans|Signature Select)", re.I)
 
 
@@ -63,12 +69,16 @@ def paras(lines):
 SCORE = re.compile(r"^\*\*([★½☆]+)\s+([\d.]+) out of 5\*\*(.*)$")
 
 
+LABEL_LINE = re.compile(r"^\*\*([^*]+)\*\*\s*·\s*(.*)$")
+
+
 def parse_items(lines):
     items, cur = [], None
     for line in lines:
         m = re.match(r"^### (\d+)\. (.+)$", line)
-        if m:
-            cur = {"n": int(m.group(1)), "name": m.group(2).strip(), "body": []}
+        u = None if m else re.match(r"^### (.+)$", line)
+        if m or u:
+            cur = {"n": int(m.group(1)) if m else len(items) + 1, "name": (m.group(2) if m else u.group(1)).strip(), "body": []}
             items.append(cur)
         elif cur is not None:
             cur["body"].append(line)
@@ -76,9 +86,14 @@ def parse_items(lines):
         desc, rest = [], []
         for p in paras(it.pop("body")):
             sm = SCORE.match(p)
-            if sm:
-                it["stars"], it["score"] = sm.group(1), float(sm.group(2))
-                bits = [b.strip() for b in sm.group(3).split("·") if b.strip()]
+            lm = None if sm else (LABEL_LINE.match(p) if "stars" not in it and "label" not in it and "Best for:" in p else None)
+            if sm or lm:
+                if sm:
+                    it["stars"], it["score"] = sm.group(1), float(sm.group(2))
+                    bits = [b.strip() for b in sm.group(3).split("·") if b.strip()]
+                else:
+                    it["label"] = lm.group(1).strip()
+                    bits = [b.strip() for b in lm.group(2).split("·") if b.strip()]
                 for b in bits:
                     if b.startswith("Best for:"):
                         it["for"] = b[len("Best for:"):].strip()
@@ -147,7 +162,8 @@ def convert(slug):
         pm = re.match(r"^\| \*\*(.+?):\*\* (.+?) \((\$+)\) \|", r)
         if pm:
             picks.append((pm.group(1), pm.group(2)))
-    full = by.get("The full ranking", [])
+    scored = "The full ranking" in by
+    full = by.get("The full ranking") or by.get("Our picks at a glance", [])
     pin = next((l for l in full if l.startswith("![")), "")
     items = parse_items(full)
     s_intro, s_rows, scores = score_table(by.get("How the scores break down", []))
@@ -167,6 +183,8 @@ def convert(slug):
         return ""
 
     def bar(it):
+        if "score" not in it:
+            return ""
         pct = max(0, min(100, round(it["score"] / 5 * 100)))
         return (f'<div class="sk-score" aria-label="Rated {it["score"]} out of 5"><span class="sk-stars" aria-hidden="true">{it["stars"]}</span>'
                 f'<b>{it["score"]}</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:{pct}%"></i></span></div>')
@@ -179,8 +197,8 @@ def convert(slug):
             continue
         line = it.get("why", "")
         top_rows.append(f'<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">{esc(label)}</p><a class="sk-top-name" href="#pick-{it["n"]}">{esc(name)}</a>'
-                        f'<p class="sk-top-line">{inline(line)}</p></div><div class="sk-top-buy"><span class="sk-price">★ {it["score"]} · {esc(it.get("tier", "").split(" ")[0])}</span>{buy(it, small=True)}</div></div>')
-    jump = [("All %d, ranked" % len(items), "picks"), ("What to look for", "what-to-look-for")]
+                        f'<p class="sk-top-line">{inline(line)}</p></div><div class="sk-top-buy"><span class="sk-price">{("★ %s · " % it["score"]) if "score" in it else ""}{esc(it.get("tier", "").split(" ")[0])}</span>{buy(it, small=True)}</div></div>')
+    jump = [(("All %d, ranked" if scored else "All %d picks") % len(items), "picks"), ("What to look for", "what-to-look-for")]
     extra_secs = [h for h in order if h not in known]
     if faq_h:
         jump.append(("FAQ", "faq"))
@@ -189,7 +207,7 @@ def convert(slug):
     cards = []
     crit = ["On the board", "Reviews", "Ingredients", "Value", "Easy to find"]
     for it in items:
-        pill = it.get("label") or ("#%d" % it["n"])
+        pill_html = f'<p class="sk-pill">{esc(it["label"])}</p>' if it.get("label") else ""
         facts = [("Best for", it.get("for", "")), ("Price", it.get("tier", "")), ("Where", it.get("where", ""))]
         facts_html = "".join(f"<div><dt>{esc(k)}</dt><dd>{inline(v)}</dd></div>" for k, v in facts if v)
         sc = scores.get(it["name"])
@@ -197,21 +215,23 @@ def convert(slug):
         evidence = "".join(f"<p>{inline(p)}</p>" for p in it["desc"]) + "".join(f"<p>{inline(x)}</p>" for x in it["extra"])
         b = buy(it)
         cards.append(f'''<article class="sk-card" id="pick-{it["n"]}">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">{it["n"]}</span><div><p class="sk-pill">{esc(pill)}</p><h3>{esc(it["name"])}</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">{it["n"]}</span><div>{pill_html}<h3>{esc(it["name"])}</h3></div></div>
 {bar(it)}
 <dl class="sk-facts">{facts_html}</dl>
 <p class="sk-why"><strong>Why it's here:</strong> {inline(it.get("why", ""))}</p>
 <p class="sk-mind"><strong>Watch out:</strong> {inline(it.get("mind", ""))}</p>
 {('<div class="sk-actions">' + b + '</div>') if b else ''}
-<details class="sk-more"><summary>Why we ranked it here (sources)</summary>{evidence}<p>{sc_line}</p></details>
+<details class="sk-more"><summary>{"Why we ranked it here" if scored else "Why we picked it"} (sources)</summary>{evidence}<p>{sc_line}</p></details>
 </article>''')
 
     L = [front.rstrip("\n"), "", title, "", qa, "", ":::html",
          f'<div class="sk-top"><p class="sk-top-label">Our top picks</p>{"".join(top_rows)}</div>',
          f'<nav class="sk-jump" aria-label="On this page">{jump_html}</nav>', ":::", ""]
     L += [p for p in intro] + [""]
-    L += [":::html", f'<h2 id="picks">All {len(items)}, ranked</h2>',
-          f'<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>',
+    lede = ('Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.'
+            if scored else 'Not scored: no side-by-side test of these exists yet, so each is picked for a job. Tap "Why we picked it" for the sources.')
+    L += [":::html", f'<h2 id="picks">All {len(items)}{", ranked" if scored else " picks"}</h2>',
+          f'<p class="sk-lede">{lede}</p>',
           '<div class="sk-cards">'] + cards + ["</div>", ":::", ""]
     # What to look for: the label check and skip become a checklist; anything after stays as text.
     look = paras(by.get("What to look for on the label", []))
@@ -242,7 +262,7 @@ def convert(slug):
     if pm:
         pin_html = f'<img src="{esc(pm.group(2))}" alt="{esc(pm.group(1))}" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">'
     method_txt = " ".join(x for x in [method, ranked_note, TAG_NOTE if amazon else ""] if x)
-    L += [":::html", '<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>',
+    L += [":::html", f'<details class="sk-method"><summary>{"How we ranked these, full scores and sources" if scored else "How we picked these, and sources"}</summary>',
           f"<p>{inline(method_txt)}</p>", f"<p>{inline(s_intro)}</p>" if s_intro else "", table_html(s_rows) if len(s_rows) > 2 else "",
           f'<ul class="sk-src">{src_html}</ul>', pin_html, "</details>", ":::", ""]
     L += tail + [""]

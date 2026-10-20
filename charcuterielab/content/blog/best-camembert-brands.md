@@ -14,60 +14,64 @@ tags: "["best camembert", "camembert brands", "best camembert cheese", "camember
 
 > **Quick Answer:** For most boards, buy Marin French Cheese Co. Camembert, which placed second in its class at the 2024 American Cheese Society awards. Président Camembert is the easiest to find in a supermarket. Every Camembert sold in US stores is made from pasteurized milk, so the raw-milk Camembert de Normandie sold in France isn't available here. No published taste test has ranked grocery Camembert side by side, so this guide names what to buy without star scores.
 
-Camembert is a small, soft-ripened cow's milk cheese from Normandy: stronger, earthier and softer than brie, and the right size to serve as a whole wheel. In US stores you'll usually find three or four brands. These are the ones worth buying for a board, and how to tell a good wheel from a chalky one.
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marin French Cheese Co. Camembert</a><p class="sk-top-line">Earthy and full-flavored, with a recent award behind it.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Président Camembert</a><p class="sk-top-line">Easy to find, fairly priced and consistent.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Also good</p><a class="sk-top-name" href="#pick-3">Ile de France Camembert</a><p class="sk-top-line">Mild enough for cautious eaters.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
+:::
 
+Camembert is a small, soft-ripened cow's milk cheese from Normandy: stronger, earthier and softer than brie, and the right size to serve as a whole wheel. In US stores you'll usually find three or four brands. These are the ones worth buying for a board, and how to tell a good wheel from a chalky one.
 *How we picked these: no published side-by-side taste test of grocery-store Camembert exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of soft-ripened cheese behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
-## Our picks at a glance
+:::html
+<h2 id="picks">All 4 picks</h2>
+<p class="sk-lede">Not scored: no side-by-side test of these exists yet, so each is picked for a job. Tap "Why we picked it" for the sources.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Marin French Cheese Co. Camembert</h3></div></div>
 
-| Pick | Why |
-|---|---|
-| **Best overall:** Marin French Cheese Co. Camembert ($$) | An award-winning American Camembert |
-| **Easiest to find:** Président Camembert ($) | Sold in most big grocery chains |
-| **Also good:** Ile de France Camembert ($) | Another easy supermarket option |
-| **Splurge:** A Normandy Camembert from the cheese counter ($$) | Closest to the French original |
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The most flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese cases (West Coast especially), cheese shops and online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Earthy and full-flavored, with a recent award behind it.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Easiest to find on the West Coast. Elsewhere, look at cheese counters and specialty shops.</p>
 
-![The best Camembert to buy for a charcuterie board](/images/best-camembert-brands-ranking.webp)
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Made in California by Marin French Cheese Co., founded in 1865 and the oldest operating cheese company in the US (<a href="https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/" target="_blank" rel="noopener">California Dairy Magazine</a>). Its Camembert placed second in its category at the 2024 American Cheese Society competition, described as having a velvety rind and complex, earthy flavor (<a href="https://www.delimarketnews.com/well-paired/marin-french-cheese-cos-flagship-cheese-recognized-2024-american-cheese-society-conference-bonnie-kaufman-comments/melissa-de-leon-chavez/tue-07232024-1033/17865" target="_blank" rel="noopener">Deli Market News</a>).</p><p></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Easiest to find</p><h3>Président Camembert</h3></div></div>
 
-### Marin French Cheese Co. Camembert
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A reliable supermarket wheel</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most large grocery stores, in the specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Easy to find, fairly priced and consistent.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Milder than a cheese-counter Camembert. Give it a few days in the fridge if it feels firm.</p>
 
-**Best overall** · Best for: The most flavor · $$ mid-range
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>An 8 oz French-style wheel from Président, sold in the specialty cheese case at most large US supermarkets (<a href="https://presidentcheese.com/products/camembert-cheese/president-camembert/" target="_blank" rel="noopener">Président</a>). The same company&#x27;s triple-crème brie placed second in the Brie and Camembert class at the 2025 US Championship Cheese Contest (<a href="https://themonroetimes.com/community/2025-us-championship-cheese-contest-results/" target="_blank" rel="noopener">The Monroe Times</a>).</p><p></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Also good</p><h3>Ile de France Camembert</h3></div></div>
 
-Made in California by Marin French Cheese Co., founded in 1865 and the oldest operating cheese company in the US ([California Dairy Magazine](https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/)). Its Camembert placed second in its category at the 2024 American Cheese Society competition, described as having a velvety rind and complex, earthy flavor ([Deli Market News](https://www.delimarketnews.com/well-paired/marin-french-cheese-cos-flagship-cheese-recognized-2024-american-cheese-society-conference-bonnie-kaufman-comments/melissa-de-leon-chavez/tue-07232024-1033/17865)).
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A mild, buttery wheel</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Many grocery chains, in the specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Mild enough for cautious eaters.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Less earthy than the Marin. No published test or recent award to point to.</p>
 
-- **Why we like it:** Earthy and full-flavored, with a recent award behind it.
-- **Keep in mind:** Easiest to find on the West Coast. Elsewhere, look at cheese counters and specialty shops.
-- **Where to buy:** Grocery cheese cases (West Coast especially), cheese shops and online.
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Another 8 oz soft-ripened wheel from a French brand you&#x27;ll find in many supermarket cheese cases (<a href="https://giantfood.com/groceries/product/ile-de-france-camembert-soft-ripened-cheese-wheel-8-oz-pkg/399911" target="_blank" rel="noopener">Giant Food</a>). Mild and buttery, a good choice when guests are new to Camembert.</p><p></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Splurge</p><h3>A Normandy Camembert from the cheese counter</h3></div></div>
 
-### Président Camembert
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The most traditional flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Wegmans, cheese shops and other stores with a staffed cheese counter.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The most classic look and flavor, wooden box and all.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Costs more, and ripeness varies wheel to wheel, so ask the counter for a ripe one.</p>
 
-**Easiest to find** · Best for: A reliable supermarket wheel · $ budget
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Cheese counters often carry a pasteurized Camembert made in Normandy, sold whole in a thin wooden box. It won&#x27;t be the raw-milk Camembert de Normandie, which US rules keep off the shelf, but it&#x27;s the closest you&#x27;ll get (<a href="https://en.wikipedia.org/wiki/Camembert" target="_blank" rel="noopener">Wikipedia</a>). Ask to see the wheel and press the edge gently.</p><p></p></details>
+</article>
+</div>
+:::
 
-An 8 oz French-style wheel from Président, sold in the specialty cheese case at most large US supermarkets ([Président](https://presidentcheese.com/products/camembert-cheese/president-camembert/)). The same company's triple-crème brie placed second in the Brie and Camembert class at the 2025 US Championship Cheese Contest ([The Monroe Times](https://themonroetimes.com/community/2025-us-championship-cheese-contest-results/)).
+:::html
+<h2 id="what-to-look-for">What to look for</h2>
+<ul class="sk-checks"><li><strong>Look for:</strong> The wheel should give slightly when you press the edge, with a white rind that may show faint reddish-brown flecks. Check the date: Camembert keeps ripening in the fridge, and a wheel a week or two from its date is usually at its best.</li><li class="sk-x"><strong>Skip:</strong> Wheels that feel hard all the way through (underripe and chalky), or that smell strongly of ammonia, or have a rind pulling away from the cheese (overripe).</li></ul>
+:::
 
-- **Why we like it:** Easy to find, fairly priced and consistent.
-- **Keep in mind:** Milder than a cheese-counter Camembert. Give it a few days in the fridge if it feels firm.
-- **Where to buy:** Most large grocery stores, in the specialty cheese case.
-
-### Ile de France Camembert
-
-**Also good** · Best for: A mild, buttery wheel · $ budget
-
-Another 8 oz soft-ripened wheel from a French brand you'll find in many supermarket cheese cases ([Giant Food](https://giantfood.com/groceries/product/ile-de-france-camembert-soft-ripened-cheese-wheel-8-oz-pkg/399911)). Mild and buttery, a good choice when guests are new to Camembert.
-
-- **Why we like it:** Mild enough for cautious eaters.
-- **Keep in mind:** Less earthy than the Marin. No published test or recent award to point to.
-- **Where to buy:** Many grocery chains, in the specialty cheese case.
-
-### A Normandy Camembert from the cheese counter
-
-**Splurge** · Best for: The most traditional flavor · $$ mid-range
-
-Cheese counters often carry a pasteurized Camembert made in Normandy, sold whole in a thin wooden box. It won't be the raw-milk Camembert de Normandie, which US rules keep off the shelf, but it's the closest you'll get ([Wikipedia](https://en.wikipedia.org/wiki/Camembert)). Ask to see the wheel and press the edge gently.
-
-- **Why we like it:** The most classic look and flavor, wooden box and all.
-- **Keep in mind:** Costs more, and ripeness varies wheel to wheel, so ask the counter for a ripe one.
-- **Where to buy:** Whole Foods, Wegmans, cheese shops and other stores with a staffed cheese counter.
+**How much to buy:** one 8 oz wheel serves 6 to 8 people alongside two other cheeses. **How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten. **Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
+For what Camembert pairs with and how to serve it, see the [Camembert guide](/ingredients/camembert/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## How to choose
 
@@ -77,19 +81,9 @@ Cheese counters often carry a pasteurized Camembert made in Normandy, sold whole
 
 Camembert or brie? Camembert is smaller, stronger and slightly tangy, and it softens more as it warms. Brie is milder and holds its shape better. If you want one soft cheese everyone will eat, buy brie. If the board already has a mild cheese, Camembert adds more character. Our [brie vs Camembert guide](/blog/brie-vs-camembert/) compares them in detail, and our [ranking of the best brie](/blog/best-brie-brands/) covers the brie side.
 
-## What to look for on the label
-
-**Label check:** The wheel should give slightly when you press the edge, with a white rind that may show faint reddish-brown flecks. Check the date: Camembert keeps ripening in the fridge, and a wheel a week or two from its date is usually at its best.
-
-**Skip:** Wheels that feel hard all the way through (underripe and chalky), or that smell strongly of ammonia, or have a rind pulling away from the cheese (overripe).
-
-**How much to buy:** one 8 oz wheel serves 6 to 8 people alongside two other cheeses.
-**How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten.
-**Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
-
-For what Camembert pairs with and how to serve it, see the [Camembert guide](/ingredients/camembert/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
-
-## Camembert questions
+:::html
+<h2 id="faq">Camembert questions</h2>
+:::
 
 **What is the best Camembert to buy in the US?**
 
@@ -111,14 +105,13 @@ Yes. The white rind is part of the cheese and adds a mushroomy flavor.
 
 Old Chatham Creamery discontinued Nancy's Hudson Valley Camembert, so it's no longer in stores. Marin French Cheese Co. Camembert is a good American replacement.
 
-## Sources
+:::html
+<details class="sk-method"><summary>How we picked these, and sources</summary>
+<p></p>
 
-- [Deli Market News: Marin French Cheese Co. at the 2024 American Cheese Society Conference](https://www.delimarketnews.com/well-paired/marin-french-cheese-cos-flagship-cheese-recognized-2024-american-cheese-society-conference-bonnie-kaufman-comments/melissa-de-leon-chavez/tue-07232024-1033/17865)
-- [California Dairy Magazine: Marin French Cheese Co. at the 2025 World Cheese Awards](https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/)
-- [Président: Président Camembert](https://presidentcheese.com/products/camembert-cheese/president-camembert/)
-- [The Monroe Times: 2025 US Championship Cheese Contest results](https://themonroetimes.com/community/2025-us-championship-cheese-contest-results/)
-- [Giant Food: Ile de France Camembert](https://giantfood.com/groceries/product/ile-de-france-camembert-soft-ripened-cheese-wheel-8-oz-pkg/399911)
-- [Wikipedia: Camembert](https://en.wikipedia.org/wiki/Camembert)
-- [culture: Old Chatham Creamery Discontinues Nancy's Camembert](https://culturecheesemag.com/news/old-chatham-creamery-discontinues-nancys-camembert/)
+<ul class="sk-src"><li><a href="https://www.delimarketnews.com/well-paired/marin-french-cheese-cos-flagship-cheese-recognized-2024-american-cheese-society-conference-bonnie-kaufman-comments/melissa-de-leon-chavez/tue-07232024-1033/17865" target="_blank" rel="noopener">Deli Market News: Marin French Cheese Co. at the 2024 American Cheese Society Conference</a></li><li><a href="https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/" target="_blank" rel="noopener">California Dairy Magazine: Marin French Cheese Co. at the 2025 World Cheese Awards</a></li><li><a href="https://presidentcheese.com/products/camembert-cheese/president-camembert/" target="_blank" rel="noopener">Président: Président Camembert</a></li><li><a href="https://themonroetimes.com/community/2025-us-championship-cheese-contest-results/" target="_blank" rel="noopener">The Monroe Times: 2025 US Championship Cheese Contest results</a></li><li><a href="https://giantfood.com/groceries/product/ile-de-france-camembert-soft-ripened-cheese-wheel-8-oz-pkg/399911" target="_blank" rel="noopener">Giant Food: Ile de France Camembert</a></li><li><a href="https://en.wikipedia.org/wiki/Camembert" target="_blank" rel="noopener">Wikipedia: Camembert</a></li><li><a href="https://culturecheesemag.com/news/old-chatham-creamery-discontinues-nancys-camembert/" target="_blank" rel="noopener">culture: Old Chatham Creamery Discontinues Nancy&#x27;s Camembert</a></li></ul>
+<img src="/images/best-camembert-brands-ranking.webp" alt="The best Camembert to buy for a charcuterie board" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

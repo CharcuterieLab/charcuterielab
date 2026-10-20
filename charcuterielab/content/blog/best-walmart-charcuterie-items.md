@@ -14,151 +14,109 @@ tags: "["walmart charcuterie", "walmart charcuterie board", "best walmart cheese
 
 > **Quick Answer:** The best Walmart item for a charcuterie board is the Marketside Parmigiano Reggiano wedge (4.8 out of 5): real 24-month Parmigiano for about $8. Best soft cheese: Marketside Triple Crème Brie. Best meat: Marketside Sliced Prosciutto. A board for 6 from these picks costs about $35.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marketside Parmigiano Reggiano, 24 months</a><p class="sk-top-line">Real aged Parmigiano for a low price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-3">Marketside Triple Crème Brie</a><p class="sk-top-line">A soft, rich cheese for very little.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-9">Marketside Sliced Prosciutto</a><p class="sk-top-line">Cheap, and easy to drape or fold into roses.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-9">See details</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
+:::
+
 Walmart isn't known for fancy cheese, but its specialty cheese case and Marketside store brand have enough good picks to build a board for about $35. Few food sites have taste-tested Walmart's cheeses, so these rankings lean on Walmart's own shopper ratings, ingredients and price.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 10, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Marketside Parmigiano Reggiano, 24 months</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Real aged Parmigiano for a low price.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Very hard. Break it into rough chunks with a knife tip.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A 6 oz wedge of Parmigiano-Reggiano aged 24 months, about $7.96, rated 4.6 out of 5 by more than 850 <a href="https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie" target="_blank" rel="noopener">Walmart</a> shoppers.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Boursin Garlic &amp; Fine Herbs</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A spreadable cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Guests always finish it.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Crumbly, so give it its own small plate.</p>
 
-| Pick | Rating |
-|---|---|
-| **Best overall:** Marketside Parmigiano Reggiano, 24 months ($) | ★★★★★ 4.8 |
-| **Best soft cheese:** Marketside Triple Crème Brie ($) | ★★★★½ 4.3 |
-| **Best meat:** Marketside Sliced Prosciutto ($) | ★★★★☆ 3.9 |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The herbed spreadable cheese, used on both boards in <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a>&#x27;s Walmart board guide.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best soft cheese</p><h3>Marketside Triple Crème Brie</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A soft, rich cheese for very little.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Small, so buy two wedges for 8 or more guests.</p>
 
-## The full ranking
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A 4 oz wedge of very rich brie for about $3.24, rated 4.3 out of 5 by more than 550 <a href="https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie" target="_blank" rel="noopener">Walmart</a> shoppers.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Sartori Merlot BellaVitano</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A crowd-pleaser</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Award-winning maker, easy to like.</p>
+<p class="sk-mind"><strong>Watch out:</strong> The wine flavor is on the rind and edges.</p>
 
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Marketside Parmigiano Reggiano, 24 months** ($) | ★★★★★ 4.8 | Breaking into chunks |
-| 2. **Boursin Garlic & Fine Herbs** ($) | ★★★★½ 4.3 | A spreadable cheese |
-| 3. **Marketside Triple Crème Brie** ($) | ★★★★½ 4.3 | The soft cheese |
-| 4. **Sartori Merlot BellaVitano** ($$) | ★★★★☆ 4.2 | A crowd-pleaser |
-| 5. **Marketside Blue Cheese Wedge** ($) | ★★★★☆ 4.0 | The blue cheese |
-| 6. **Good Thins crackers** ($) | ★★★★☆ 4.0 | Thin, light crackers |
-| 7. **DeLallo Pitted Olive Jubilee** ($) | ★★★★☆ 4.0 | The olives |
-| 8. **Castello Havarti** ($) | ★★★★☆ 3.9 | A mild cheese |
-| 9. **Marketside Sliced Prosciutto** ($) | ★★★★☆ 3.9 | The main meat |
-| 10. **Marketside Peppercorn Salami** ($) | ★★★½☆ 3.6 | A second meat |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Wisconsin cheese between a cheddar and a Parmesan, with a rind soaked in Merlot. <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a> found it for about $5.48 sliced.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Marketside Blue Cheese Wedge</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The blue cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A cheap, small wedge, so nothing goes to waste.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Strong for some guests. Put honey next to it.</p>
 
-![Ranked list of the best Walmart items for a charcuterie board, scored out of 5](/images/best-walmart-charcuterie-items-ranking.webp)
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A 4 oz wedge for about $3.87, rated 4.4 out of 5 by more than 650 <a href="https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie" target="_blank" rel="noopener">Walmart</a> shoppers.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Good Thins crackers</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Thin, light crackers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart cracker aisle.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Light and crisp, with flavors that suit cheese.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Too thin for very firm cheese.</p>
 
-### 1. Marketside Parmigiano Reggiano, 24 months
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Thin, crisp crackers made from rice, corn or potato depending on the flavor, which <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a> used for her Walmart board, about $3.58 a box.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-7">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>DeLallo Pitted Olive Jubilee</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The olives</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart olive and deli section.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Pitted, so guests aren&#x27;t stuck with pits.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Drain well before it goes on the board.</p>
 
-**★★★★★ 4.8 out of 5** · Best overall · Best for: Breaking into chunks · $ budget
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A mix of pitted olives, about $4.94, from <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a>&#x27;s Walmart board.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-8">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Castello Havarti</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A mild cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Mild enough for kids and cautious eaters.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Sliced Havarti sticks together. Fold the slices.</p>
 
-A 6 oz wedge of Parmigiano-Reggiano aged 24 months, about $7.96, rated 4.6 out of 5 by more than 850 [Walmart](https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie) shoppers.
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Creamy, mild Danish-style Havarti, about $4.96 sliced in <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a>&#x27;s guide.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-9">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><p class="sk-pill">Best meat</p><h3>Marketside Sliced Prosciutto</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese and deli case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cheap, and easy to drape or fold into roses.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Small pack. Buy one per 3 to 4 guests.</p>
 
-- **Why we like it:** Real aged Parmigiano for a low price.
-- **Keep in mind:** Very hard. Break it into rough chunks with a knife tip.
-- **Where to find it:** Walmart specialty cheese case.
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>3 oz of sliced prosciutto for about $4.47, rated 4.4 out of 5 by <a href="https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie" target="_blank" rel="noopener">Walmart</a> shoppers.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-10">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Marketside Peppercorn Salami</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A second meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart specialty cheese and deli case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cheap and peppery.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
 
-### 2. Boursin Garlic & Fine Herbs
-
-**★★★★½ 4.3 out of 5** · Best for: A spreadable cheese · $ budget
-
-The herbed spreadable cheese, used on both boards in [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s Walmart board guide.
-
-- **Why we like it:** Guests always finish it.
-- **Keep in mind:** Crumbly, so give it its own small plate.
-- **Where to find it:** Walmart specialty cheese case.
-
-### 3. Marketside Triple Crème Brie
-
-**★★★★½ 4.3 out of 5** · Best soft cheese · Best for: The soft cheese · $ budget
-
-A 4 oz wedge of very rich brie for about $3.24, rated 4.3 out of 5 by more than 550 [Walmart](https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie) shoppers.
-
-- **Why we like it:** A soft, rich cheese for very little.
-- **Keep in mind:** Small, so buy two wedges for 8 or more guests.
-- **Where to find it:** Walmart specialty cheese case.
-
-### 4. Sartori Merlot BellaVitano
-
-**★★★★☆ 4.2 out of 5** · Best for: A crowd-pleaser · $$ mid-range
-
-A Wisconsin cheese between a cheddar and a Parmesan, with a rind soaked in Merlot. [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/) found it for about $5.48 sliced.
-
-- **Why we like it:** Award-winning maker, easy to like.
-- **Keep in mind:** The wine flavor is on the rind and edges.
-- **Where to find it:** Walmart specialty cheese case.
-
-### 5. Marketside Blue Cheese Wedge
-
-**★★★★☆ 4.0 out of 5** · Best for: The blue cheese · $ budget
-
-A 4 oz wedge for about $3.87, rated 4.4 out of 5 by more than 650 [Walmart](https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie) shoppers.
-
-- **Why we like it:** A cheap, small wedge, so nothing goes to waste.
-- **Keep in mind:** Strong for some guests. Put honey next to it.
-- **Where to find it:** Walmart specialty cheese case.
-
-### 6. Good Thins crackers
-
-**★★★★☆ 4.0 out of 5** · Best for: Thin, light crackers · $ budget
-
-Thin, crisp crackers made from rice, corn or potato depending on the flavor, which [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/) used for her Walmart board, about $3.58 a box.
-
-- **Why we like it:** Light and crisp, with flavors that suit cheese.
-- **Keep in mind:** Too thin for very firm cheese.
-- **Where to find it:** Walmart cracker aisle.
-
-### 7. DeLallo Pitted Olive Jubilee
-
-**★★★★☆ 4.0 out of 5** · Best for: The olives · $ budget
-
-A mix of pitted olives, about $4.94, from [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s Walmart board.
-
-- **Why we like it:** Pitted, so guests aren't stuck with pits.
-- **Keep in mind:** Drain well before it goes on the board.
-- **Where to find it:** Walmart olive and deli section.
-
-### 8. Castello Havarti
-
-**★★★★☆ 3.9 out of 5** · Best for: A mild cheese · $ budget
-
-Creamy, mild Danish-style Havarti, about $4.96 sliced in [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s guide.
-
-- **Why we like it:** Mild enough for kids and cautious eaters.
-- **Keep in mind:** Sliced Havarti sticks together. Fold the slices.
-- **Where to find it:** Walmart specialty cheese case.
-
-### 9. Marketside Sliced Prosciutto
-
-**★★★★☆ 3.9 out of 5** · Best meat · Best for: The main meat · $ budget
-
-3 oz of sliced prosciutto for about $4.47, rated 4.4 out of 5 by [Walmart](https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie) shoppers.
-
-- **Why we like it:** Cheap, and easy to drape or fold into roses.
-- **Keep in mind:** Small pack. Buy one per 3 to 4 guests.
-- **Where to find it:** Walmart specialty cheese and deli case.
-
-### 10. Marketside Peppercorn Salami
-
-**★★★½☆ 3.6 out of 5** · Best for: A second meat · $ budget
-
-Peppered salami for about $4.24, used on both boards in [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s guide.
-
-- **Why we like it:** Cheap and peppery.
-- **Keep in mind:** Few published reviews.
-- **Where to find it:** Walmart specialty cheese and deli case.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Marketside Parmigiano Reggiano, 24 months | 5 | 4 | 5 | 5 | 5 | **4.8** |
-| Boursin Garlic & Fine Herbs | 5 | 4 | 3 | 4 | 5 | **4.3** |
-| Marketside Triple Crème Brie | 5 | 3 | 4 | 5 | 5 | **4.3** |
-| Sartori Merlot BellaVitano | 4 | 4 | 4 | 4 | 5 | **4.2** |
-| Marketside Blue Cheese Wedge | 4 | 3 | 4 | 5 | 5 | **4.0** |
-| Good Thins crackers | 4 | 3 | 4 | 5 | 5 | **4.0** |
-| DeLallo Pitted Olive Jubilee | 5 | 3 | 4 | 4 | 4 | **4.0** |
-| Castello Havarti | 4 | 3 | 4 | 4 | 5 | **3.9** |
-| Marketside Sliced Prosciutto | 4 | 3 | 4 | 4 | 5 | **3.9** |
-| Marketside Peppercorn Salami | 4 | 2 | 3 | 5 | 5 | **3.6** |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Peppered salami for about $4.24, used on both boards in <a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg</a>&#x27;s guide.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
+</article>
+</div>
+:::
 
 ## Building a board from these
 
@@ -174,7 +132,9 @@ Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the pa
 
 See every ranked guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-## Walmart charcuterie questions
+:::html
+<h2 id="faq">Walmart charcuterie questions</h2>
+:::
 
 **What is the best Walmart cheese for a charcuterie board?**
 
@@ -188,10 +148,14 @@ About $32 to $35 for a board for 6 with three cheeses, two meats, crackers, oliv
 
 Usually in a specialty cheese case near produce or the deli, not in the dairy aisle with the shredded and sliced cheese.
 
-## Sources
-
-- [Walmart: Marketside Specialty Cheese & Charcuterie (ratings and prices)](https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie)
-- [Ain't Too Proud To Meg: How to Create a Walmart Charcuterie & Cheese Board](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)
-- [The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Marketside Parmigiano Reggiano, 24 months</td><td>5</td><td>4</td><td>5</td><td>5</td><td>5</td><td><strong>4.8</strong></td></tr><tr><td>Boursin Garlic &amp; Fine Herbs</td><td>5</td><td>4</td><td>3</td><td>4</td><td>5</td><td><strong>4.3</strong></td></tr><tr><td>Marketside Triple Crème Brie</td><td>5</td><td>3</td><td>4</td><td>5</td><td>5</td><td><strong>4.3</strong></td></tr><tr><td>Sartori Merlot BellaVitano</td><td>4</td><td>4</td><td>4</td><td>4</td><td>5</td><td><strong>4.2</strong></td></tr><tr><td>Marketside Blue Cheese Wedge</td><td>4</td><td>3</td><td>4</td><td>5</td><td>5</td><td><strong>4.0</strong></td></tr><tr><td>Good Thins crackers</td><td>4</td><td>3</td><td>4</td><td>5</td><td>5</td><td><strong>4.0</strong></td></tr><tr><td>DeLallo Pitted Olive Jubilee</td><td>5</td><td>3</td><td>4</td><td>4</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>Castello Havarti</td><td>4</td><td>3</td><td>4</td><td>4</td><td>5</td><td><strong>3.9</strong></td></tr><tr><td>Marketside Sliced Prosciutto</td><td>4</td><td>3</td><td>4</td><td>4</td><td>5</td><td><strong>3.9</strong></td></tr><tr><td>Marketside Peppercorn Salami</td><td>4</td><td>2</td><td>3</td><td>5</td><td>5</td><td><strong>3.6</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.walmart.com/browse/food/specialty-cheese-charcuterie/marketside/976759_976789_4740967_6993020/YnJhbmQ6TWFya2V0c2lkZQieie" target="_blank" rel="noopener">Walmart: Marketside Specialty Cheese &amp; Charcuterie (ratings and prices)</a></li><li><a href="https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/" target="_blank" rel="noopener">Ain&#x27;t Too Proud To Meg: How to Create a Walmart Charcuterie &amp; Cheese Board</a></li><li><a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection</a></li></ul>
+<img src="/images/best-walmart-charcuterie-items-ranking.webp" alt="Ranked list of the best Walmart items for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

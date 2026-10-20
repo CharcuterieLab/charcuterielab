@@ -43,7 +43,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A family business making salami in St. Louis since 1902. Its Genoa is mild, garlicky and easy to fold into a salami river. (Source: <a href="https://en.wikipedia.org/wiki/Volpi_Foods" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>Columbus Salame</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Columbus Salame</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Widely available quality</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Several styles.</p>
@@ -61,7 +61,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Founded by chef Paul Bertolli. Fra&#x27; Mani has won 12 Good Food Awards, and its Toscano took Best in Class at the 2023 World Charcuterie Awards. (Source: <a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>Creminelli Fine Meats</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Creminelli Fine Meats</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Premium flavors</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Distinctive flavors. Good ingredients.</p>
@@ -70,7 +70,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle. (Source: <a href="https://en.wikipedia.org/wiki/Creminelli_Fine_Meats" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Boar&#x27;s Head Hard Salami</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Boar&#x27;s Head Hard Salami</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sliced fresh. Everywhere.</p>
@@ -79,7 +79,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a>&#x27;s best hard salami, with strong pork flavor and good fat content. Buying it sliced at the counter means fresher edges than a tray.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 4 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">#7</p><h3>Applegate Naturals Uncured Genoa</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Applegate Naturals Uncured Genoa</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Uncured. Easy to find.</p>

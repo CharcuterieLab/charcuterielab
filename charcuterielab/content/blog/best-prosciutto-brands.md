@@ -43,7 +43,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-prosciutto/" target="_blank" rel="noopener">Sporked</a> scored it 9 out of 10 for its extremely thin cut and flavor crystals. American-made from humanely raised pork.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>La Quercia Prosciutto Americano</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>La Quercia Prosciutto Americano</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>American craft prosciutto</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Craft-made. Humanely raised pork.</p>
@@ -61,7 +61,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Mild, tender and versatile, and one of the cheapest packs you can buy. <a href="https://sporked.com/article/best-prosciutto/" target="_blank" rel="noopener">Sporked</a> scored it 8 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>True Story Prosciutto</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>True Story Prosciutto</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Heritage pork</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, natural grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Strong sourcing. High score.</p>
@@ -70,7 +70,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Made from heritage-breed pork raised crate-free on family farms. <a href="https://sporked.com/article/best-prosciutto/" target="_blank" rel="noopener">Sporked</a> scored it 9.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Fratelli Beretta Organic Prosciutto</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Fratelli Beretta Organic Prosciutto</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Draping on a board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic. Drapes well.</p>
@@ -79,7 +79,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-prosciutto/" target="_blank" rel="noopener">Sporked</a> called its stretchy, soft texture ideal for charcuterie boards with mild cheese.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">#7</p><h3>Citterio Prosciutto di Parma, 18 Month (Costco)</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Citterio Prosciutto di Parma, 18 Month (Costco)</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real Parma in bulk</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real DOP. Low price per ounce.</p>

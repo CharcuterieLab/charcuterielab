@@ -34,7 +34,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Tied for first in <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>&#x27;s test with 10 out of 10: very savory, very fatty and with the classic summer sausage tang.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">#2</p><h3>Old Wisconsin Premium Summer Sausage</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Old Wisconsin Premium Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thick slices</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great on a board. Widely stocked.</p>
@@ -52,7 +52,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Also 10 out of 10 at <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>, with a distinctive pickling-spice flavor and a leaner profile.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">#4</p><h3>Johnsonville Jalapeño Cheddar Summer Sausage</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Johnsonville Jalapeño Cheddar Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fun and spicy</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Built-in cheese.</p>
@@ -61,7 +61,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Visible chunks of cheese and jalapeño; <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>Thousand Hills Hickory Smoked Summer Sausage</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Thousand Hills Hickory Smoked Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Grass-fed beef</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Grass-fed.</p>

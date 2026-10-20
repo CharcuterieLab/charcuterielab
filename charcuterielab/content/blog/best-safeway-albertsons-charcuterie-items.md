@@ -14,128 +14,91 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 
 > **Quick Answer:** The best cheese at Safeway and Albertsons for a charcuterie board is Laura Chenel Original Fresh Goat Cheese (4.7 out of 5). Primo Taglio, the store's deli brand, is the one to trust: its fresh mozzarella, provolone and pepperoni all rank well. Best value: Lucerne Pepper Jack. The same picks apply at Vons, Jewel-Osco, Acme, Shaw's, Tom Thumb and other Albertsons-owned stores.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-1">Laura Chenel Original Fresh Goat Cheese</a><p class="sk-top-line">Creamy, tangy and reliable.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best deli cheese</p><a class="sk-top-name" href="#pick-3">Primo Taglio Provolone</a><p class="sk-top-line">Lots of flavor for a store brand.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Primo Taglio Uncured Pepperoni</a><p class="sk-top-line">Bigger slices than snack pepperoni.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#faq">FAQ</a></nav>
+:::
+
 Safeway and Albertsons, along with sister stores like Vons, Jewel-Osco, Acme, Shaw's and Tom Thumb, share the same store brands: Primo Taglio for deli meat and cheese, Lucerne for everyday dairy and Signature Select for pantry staples. Their cheese cases don't rank near the top in reviews, but a few products are genuinely good. These are the ones to build a board around.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 8, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best cheese</p><h3>Laura Chenel Original Fresh Goat Cheese</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The spreadable cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Creamy, tangy and reliable.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Soft, so serve it in a log with a spreader.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Our top-ranked fresh goat cheese (see our <a href="/blog/best-goat-cheese-brands/">goat cheese ranking</a>), and one of the brands <a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout</a> highlights in Safeway&#x27;s cheese case.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Primo Taglio Fresh Mozzarella</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Caprese skewers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli and cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A store brand that beats the name brands.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Fresh mozzarella only keeps a few days once opened.</p>
 
-| Pick | Rating |
-|---|---|
-| **Best cheese:** Laura Chenel Original Fresh Goat Cheese ($$) | ★★★★½ 4.7 |
-| **Best deli cheese:** Primo Taglio Provolone ($) | ★★★★½ 4.5 |
-| **Best meat:** Primo Taglio Uncured Pepperoni ($$) | ★★★★☆ 4.2 |
-| **Best value:** Lucerne Pepper Jack ($) | ★★★★☆ 4.0 |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Our top-ranked fresh mozzarella (see our <a href="/blog/best-fresh-mozzarella/">fresh mozzarella ranking</a>): sweet and bouncy.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best deli cheese</p><h3>Primo Taglio Provolone</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Roll-ups and sliders</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Lots of flavor for a store brand.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Sliced, so roll it rather than cube it.</p>
 
-## The full ranking
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-provolone-cheese/" target="_blank" rel="noopener">Sporked</a> gave it 9.5 out of 10 for an elusive smokiness and tang other provolones don&#x27;t have. It&#x27;s #2 in our <a href="/blog/best-provolone-brands/">provolone ranking</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Tillamook Pepper Jack</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Mild heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Creamy with gentle heat.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Less fire than Cabot.</p>
 
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Laura Chenel Original Fresh Goat Cheese** ($$) | ★★★★½ 4.7 | The spreadable cheese |
-| 2. **Primo Taglio Fresh Mozzarella** ($) | ★★★★½ 4.5 | Caprese skewers |
-| 3. **Primo Taglio Provolone** ($) | ★★★★½ 4.5 | Roll-ups and sliders |
-| 4. **Tillamook Pepper Jack** ($) | ★★★★½ 4.5 | Mild heat |
-| 5. **Primo Taglio Uncured Pepperoni** ($$) | ★★★★☆ 4.2 | Board-sized pepperoni |
-| 6. **Lucerne Pepper Jack** ($) | ★★★★☆ 4.0 | Budget spicy cheese |
-| 7. **Lucerne Provolone** ($) | ★★★★☆ 3.8 | A budget mild cheese |
-| 8. **Laura Chenel Mango Habanero Goat Cheese** ($$) | ★★★½☆ 3.6 | Sweet heat |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> called Tillamook&#x27;s pepper jack a great entry point into peppery cheeses, and Safeway carries the brand (<a href="https://www.tastingtable.com/1521748/chain-grocery-store-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>).</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best meat</p><h3>Primo Taglio Uncured Pepperoni</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Board-sized pepperoni</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Bigger slices than snack pepperoni.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Costs a little more than mass-market pepperoni.</p>
 
-![Ranked list of the best Safeway and Albertsons items for a charcuterie board, scored out of 5](/images/best-safeway-albertsons-charcuterie-items-ranking.webp)
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>#2 in our <a href="/blog/best-pepperoni-brands/">pepperoni ranking</a>, with wide slices that lie flat on a board.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best value</p><h3>Lucerne Pepper Jack</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget spicy cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cheap and good.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Plain-looking on a board, so cube it.</p>
 
-### 1. Laura Chenel Original Fresh Goat Cheese
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The Lucerne cheese <a href="https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s taster liked best.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-7">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Lucerne Provolone</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A budget mild cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Inexpensive.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Milder than Primo Taglio.</p>
 
-**★★★★½ 4.7 out of 5** · Best cheese · Best for: The spreadable cheese · $$ mid-range
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> found Lucerne&#x27;s provolone pretty flavorful for provolone.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-8">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Laura Chenel Mango Habanero Goat Cheese</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Sweet and spicy, good with crackers.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Flavored cheese isn&#x27;t for everyone. Serve it next to the plain log.</p>
 
-Our top-ranked fresh goat cheese (see our [goat cheese ranking](/blog/best-goat-cheese-brands/)), and one of the brands [The Takeout](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/) highlights in Safeway's cheese case.
-
-- **Why we like it:** Creamy, tangy and reliable.
-- **Keep in mind:** Soft, so serve it in a log with a spreader.
-- **Where to find it:** Safeway and Albertsons cheese cases.
-
-### 2. Primo Taglio Fresh Mozzarella
-
-**★★★★½ 4.5 out of 5** · Best for: Caprese skewers · $ budget
-
-Our top-ranked fresh mozzarella (see our [fresh mozzarella ranking](/blog/best-fresh-mozzarella/)): sweet and bouncy.
-
-- **Why we like it:** A store brand that beats the name brands.
-- **Keep in mind:** Fresh mozzarella only keeps a few days once opened.
-- **Where to find it:** Safeway and Albertsons deli and cheese cases.
-
-### 3. Primo Taglio Provolone
-
-**★★★★½ 4.5 out of 5** · Best deli cheese · Best for: Roll-ups and sliders · $ budget
-
-[Sporked](https://sporked.com/article/best-provolone-cheese/) gave it 9.5 out of 10 for an elusive smokiness and tang other provolones don't have. It's #2 in our [provolone ranking](/blog/best-provolone-brands/).
-
-- **Why we like it:** Lots of flavor for a store brand.
-- **Keep in mind:** Sliced, so roll it rather than cube it.
-- **Where to find it:** Safeway and Albertsons deli.
-
-### 4. Tillamook Pepper Jack
-
-**★★★★½ 4.5 out of 5** · Best for: Mild heat · $ budget
-
-[Tasting Table](https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/) called Tillamook's pepper jack a great entry point into peppery cheeses, and Safeway carries the brand ([Tasting Table](https://www.tastingtable.com/1521748/chain-grocery-store-cheese-ranked/)).
-
-- **Why we like it:** Creamy with gentle heat.
-- **Keep in mind:** Less fire than Cabot.
-- **Where to find it:** Safeway and Albertsons dairy case.
-
-### 5. Primo Taglio Uncured Pepperoni
-
-**★★★★☆ 4.2 out of 5** · Best meat · Best for: Board-sized pepperoni · $$ mid-range
-
-#2 in our [pepperoni ranking](/blog/best-pepperoni-brands/), with wide slices that lie flat on a board.
-
-- **Why we like it:** Bigger slices than snack pepperoni.
-- **Keep in mind:** Costs a little more than mass-market pepperoni.
-- **Where to find it:** Safeway and Albertsons deli.
-
-### 6. Lucerne Pepper Jack
-
-**★★★★☆ 4.0 out of 5** · Best value · Best for: Budget spicy cheese · $ budget
-
-The Lucerne cheese [Tasting Table](https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/)'s taster liked best.
-
-- **Why we like it:** Cheap and good.
-- **Keep in mind:** Plain-looking on a board, so cube it.
-- **Where to find it:** Safeway and Albertsons dairy case.
-
-### 7. Lucerne Provolone
-
-**★★★★☆ 3.8 out of 5** · Best for: A budget mild cheese · $ budget
-
-[Tasting Table](https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/) found Lucerne's provolone pretty flavorful for provolone.
-
-- **Why we like it:** Inexpensive.
-- **Keep in mind:** Milder than Primo Taglio.
-- **Where to find it:** Safeway and Albertsons dairy case.
-
-### 8. Laura Chenel Mango Habanero Goat Cheese
-
-**★★★½☆ 3.6 out of 5** · Best for: Sweet heat · $$ mid-range
-
-A flavored goat cheese [The Takeout](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/) spotted in Safeway's cheese case.
-
-- **Why we like it:** Sweet and spicy, good with crackers.
-- **Keep in mind:** Flavored cheese isn't for everyone. Serve it next to the plain log.
-- **Where to find it:** Safeway and Albertsons cheese cases.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Laura Chenel Original Fresh Goat Cheese | 5 | 5 | 5 | 4 | 4 | **4.7** |
-| Primo Taglio Fresh Mozzarella | 5 | 5 | 4 | 5 | 3 | **4.5** |
-| Primo Taglio Provolone | 5 | 5 | 5 | 4 | 3 | **4.5** |
-| Tillamook Pepper Jack | 5 | 4 | 4 | 4 | 5 | **4.5** |
-| Primo Taglio Uncured Pepperoni | 5 | 4 | 4 | 4 | 3 | **4.2** |
-| Lucerne Pepper Jack | 4 | 4 | 4 | 5 | 3 | **4.0** |
-| Lucerne Provolone | 4 | 3 | 4 | 5 | 3 | **3.8** |
-| Laura Chenel Mango Habanero Goat Cheese | 4 | 3 | 4 | 3 | 4 | **3.6** |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A flavored goat cheese <a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout</a> spotted in Safeway&#x27;s cheese case.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
+</article>
+</div>
+:::
 
 ## Building a board from these
 
@@ -153,7 +116,9 @@ Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the pa
 
 For other stores, see our guides to [Costco](/blog/best-costco-charcuterie-items/), [Walmart](/blog/best-walmart-charcuterie-items/) and every store on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-## Safeway and Albertsons charcuterie questions
+:::html
+<h2 id="faq">Safeway and Albertsons charcuterie questions</h2>
+:::
 
 **What is the best cheese at Safeway for a charcuterie board?**
 
@@ -167,11 +132,14 @@ Yes, for deli meat and cheese. Its fresh mozzarella, provolone and pepperoni all
 
 Albertsons-owned stores, including Safeway, Albertsons, Vons, Jewel-Osco, Acme, Shaw's, Tom Thumb and Randalls.
 
-## Sources
-
-- [The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection (Sep 2026)](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/)
-- [Tasting Table: 12 Popular Chain Grocery Stores For Cheese, Ranked](https://www.tastingtable.com/1521748/chain-grocery-store-cheese-ranked/)
-- [Tasting Table: 9 Sliced Cheese Brands, Ranked (May 2026)](https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/)
-- [Sporked: The Best Provolone Cheese](https://sporked.com/article/best-provolone-cheese/)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Laura Chenel Original Fresh Goat Cheese</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td><strong>4.7</strong></td></tr><tr><td>Primo Taglio Fresh Mozzarella</td><td>5</td><td>5</td><td>4</td><td>5</td><td>3</td><td><strong>4.5</strong></td></tr><tr><td>Primo Taglio Provolone</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td><strong>4.5</strong></td></tr><tr><td>Tillamook Pepper Jack</td><td>5</td><td>4</td><td>4</td><td>4</td><td>5</td><td><strong>4.5</strong></td></tr><tr><td>Primo Taglio Uncured Pepperoni</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td><strong>4.2</strong></td></tr><tr><td>Lucerne Pepper Jack</td><td>4</td><td>4</td><td>4</td><td>5</td><td>3</td><td><strong>4.0</strong></td></tr><tr><td>Lucerne Provolone</td><td>4</td><td>3</td><td>4</td><td>5</td><td>3</td><td><strong>3.8</strong></td></tr><tr><td>Laura Chenel Mango Habanero Goat Cheese</td><td>4</td><td>3</td><td>4</td><td>3</td><td>4</td><td><strong>3.6</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection (Sep 2026)</a></li><li><a href="https://www.tastingtable.com/1521748/chain-grocery-store-cheese-ranked/" target="_blank" rel="noopener">Tasting Table: 12 Popular Chain Grocery Stores For Cheese, Ranked</a></li><li><a href="https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table: 9 Sliced Cheese Brands, Ranked (May 2026)</a></li><li><a href="https://sporked.com/article/best-provolone-cheese/" target="_blank" rel="noopener">Sporked: The Best Provolone Cheese</a></li></ul>
+<img src="/images/best-safeway-albertsons-charcuterie-items-ranking.webp" alt="Ranked list of the best Safeway and Albertsons items for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

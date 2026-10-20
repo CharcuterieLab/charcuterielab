@@ -52,7 +52,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>White figs are the first ingredient, with no high fructose corn syrup. A reliable, widely stocked choice. (Source: <a href="https://bonnemaman.us/products/fig-preserves" target="_blank" rel="noopener">Bonne Maman Fig Preserves product page</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">#4</p><h3>Trader Joe&#x27;s Fig Butter</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Fig Butter</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget and smooth</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very cheap. Spreads easily.</p>

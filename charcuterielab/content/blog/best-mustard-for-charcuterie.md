@@ -34,7 +34,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s best whole-seed mustard, with a nice crunch and pop and bright acidity.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">#2</p><h3>Maille Dijon Originale</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Maille Dijon Originale</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best Dijon</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked Dijon.</p>
@@ -61,7 +61,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The classic French whole-grain mustard in a wax-sealed crock. <a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a> recommended it, noting softer seeds and a salty edge.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>Kozlik&#x27;s Triple Crunch Mustard</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Kozlik&#x27;s Triple Crunch Mustard</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big seeds</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Striking texture.</p>

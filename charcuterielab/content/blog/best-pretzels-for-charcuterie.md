@@ -12,117 +12,87 @@ tags: "["best pretzels", "best pretzel brands", "pretzels for charcuterie board"
 
 # The Best Pretzels for a Charcuterie Board, Ranked
 
-> **Quick Answer:** Our top pick for pretzels on a charcuterie board is Snack Factory Pretzel Crisps Original (4.7 out of 5). Value: Snyder's of Hanover Snaps. Gluten-free: Snyder's of Hanover Gluten Free Mini Pretzels. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
+> **Quick Answer:** Our top pick for pretzels on a charcuterie board is Snack Factory Pretzel Crisps Original (4.7 out of 5). Value: Snyder's of Hanover Snaps. Gluten-free: Snyder's of Hanover Gluten Free Mini Pretzels.
+
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Snack Factory Pretzel Crisps Original</a><p class="sk-top-line">Flat enough to carry cheese and salami like a cracker.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Snack+Factory+Pretzel+Crisps+Original" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Snyder&#x27;s of Hanover Snaps</a><p class="sk-top-line">The top-scoring pretzel, cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Snaps" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Gluten-free</p><a class="sk-top-name" href="#pick-5">Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</a><p class="sk-top-line">A gluten-free pretzel that doesn&#x27;t taste like a substitute.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Gluten+Free+Mini+Pretzels" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
+:::
 
 Pretzels bring salt and crunch, and they're sturdier than most crackers, so they hold up to mustard, beer cheese and dips. The shape matters on a board: flat crisps and snaps carry cheese, while thick twists are better for dipping. These rankings lean on two published taste tests, then shape, ingredients, price and how easy each bag is to find.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 6, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Snack Factory Pretzel Crisps Original</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Topping with cheese and salami</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Flat enough to carry cheese and salami like a cracker.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Thin, so they can snap under very firm cheese.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Snack+Factory+Pretzel+Crisps+Original" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Flat, cracker-style pretzels. <a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> gave them 8.5 out of 10 as the best thin pretzel, light and crunchy, and <a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table</a> ranked them 4th of 14 for their flinty-thin crunch.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Snyder&#x27;s of Hanover Snaps</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Dipping in mustard and beer cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target and most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The top-scoring pretzel, cheap and everywhere.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Small, so they&#x27;re better for dips than for stacking cheese.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Snaps" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Grid-shaped pretzels. <a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> named them the best of the best with 10 out of 10: properly salted and easy to dip.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Unique Snacks Extra Dark Splits</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Beer boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Amazon and some grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Deep, toasty flavor that stands up to strong beer and mustard.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Harder to find in some stores.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Unique+Snacks+Extra+Dark+Splits" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Extra-baked split twists. <a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table</a> ranked the splits 3rd of 14 for brittle, crunchy edges, and <a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> gave the Extra Dark Splits 8.5 out of 10 for their toasted, charred flavor.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Utz Sourdough Specials Extra Dark</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Big, hearty pretzels</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart and most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Top-ranked flavor at a low price.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Large and thick, so they take up room and don&#x27;t carry toppings.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Utz+Sourdough+Specials+Extra+Dark" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table</a> ranked these 1st of 14 for large, hearty pieces, and <a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> gave Utz Sourdough Specials 7 out of 10 for being light, crunchy and well salted.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Gluten-free</p><h3>Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Gluten-free guests</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target and most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A gluten-free pretzel that doesn&#x27;t taste like a substitute.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Pricier per ounce than regular pretzels. Keep them away from the regular ones on the board.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Gluten+Free+Mini+Pretzels" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> gave them 7.5 out of 10 for crunch and noted they still taste like pretzels.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>365 by Whole Foods Market Crunchy Pretzel Twists</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Classic twists</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A cheap, well-made classic twist.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods and Amazon.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table</a> ranked them 5th of 14 for a crisp snap and good salt.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
+</article>
+</div>
+:::
 
-| Pick | Rating |
-|---|---|
-| **Best overall:** Snack Factory Pretzel Crisps Original ($) | ★★★★½ 4.7 |
-| **Best value:** Snyder's of Hanover Snaps ($) | ★★★★½ 4.6 |
-| **Gluten-free:** Snyder's of Hanover Gluten Free Mini Pretzels ($$) | ★★★★☆ 3.9 |
-
-## The full ranking
-
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Snack Factory Pretzel Crisps Original** ($) | ★★★★½ 4.7 | Topping with cheese and salami |
-| 2. **Snyder's of Hanover Snaps** ($) | ★★★★½ 4.6 | Dipping in mustard and beer cheese |
-| 3. **Unique Snacks Extra Dark Splits** ($) | ★★★★☆ 4.2 | Beer boards |
-| 4. **Utz Sourdough Specials Extra Dark** ($) | ★★★★☆ 4.2 | Big, hearty pretzels |
-| 5. **Snyder's of Hanover Gluten Free Mini Pretzels** ($$) | ★★★★☆ 3.9 | Gluten-free guests |
-| 6. **365 by Whole Foods Market Crunchy Pretzel Twists** ($) | ★★★★☆ 3.8 | Classic twists |
-
-![Ranked list of the best pretzels for a charcuterie board, scored out of 5](/images/best-pretzels-for-charcuterie-ranking.webp)
-
-### 1. Snack Factory Pretzel Crisps Original
-
-**★★★★½ 4.7 out of 5** · Best overall · Best for: Topping with cheese and salami · $ budget
-
-Flat, cracker-style pretzels. [Sporked](https://sporked.com/article/best-pretzels) gave them 8.5 out of 10 as the best thin pretzel, light and crunchy, and [Tasting Table](https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best) ranked them 4th of 14 for their flinty-thin crunch.
-
-- **Why we like it:** Flat enough to carry cheese and salami like a cracker.
-- **Keep in mind:** Thin, so they can snap under very firm cheese.
-- **Where to buy:** Nearly every grocery store.
-
-### 2. Snyder's of Hanover Snaps
-
-**★★★★½ 4.6 out of 5** · Best value · Best for: Dipping in mustard and beer cheese · $ budget
-
-Grid-shaped pretzels. [Sporked](https://sporked.com/article/best-pretzels) named them the best of the best with 10 out of 10: properly salted and easy to dip.
-
-- **Why we like it:** The top-scoring pretzel, cheap and everywhere.
-- **Keep in mind:** Small, so they're better for dips than for stacking cheese.
-- **Where to buy:** Target and most grocery stores.
-
-### 3. Unique Snacks Extra Dark Splits
-
-**★★★★☆ 4.2 out of 5** · Best for: Beer boards · $ budget
-
-Extra-baked split twists. [Tasting Table](https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best) ranked the splits 3rd of 14 for brittle, crunchy edges, and [Sporked](https://sporked.com/article/best-pretzels) gave the Extra Dark Splits 8.5 out of 10 for their toasted, charred flavor.
-
-- **Why we like it:** Deep, toasty flavor that stands up to strong beer and mustard.
-- **Keep in mind:** Harder to find in some stores.
-- **Where to buy:** Amazon and some grocery stores.
-
-### 4. Utz Sourdough Specials Extra Dark
-
-**★★★★☆ 4.2 out of 5** · Best for: Big, hearty pretzels · $ budget
-
-[Tasting Table](https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best) ranked these 1st of 14 for large, hearty pieces, and [Sporked](https://sporked.com/article/best-pretzels) gave Utz Sourdough Specials 7 out of 10 for being light, crunchy and well salted.
-
-- **Why we like it:** Top-ranked flavor at a low price.
-- **Keep in mind:** Large and thick, so they take up room and don't carry toppings.
-- **Where to buy:** Walmart and most grocery stores.
-
-### 5. Snyder's of Hanover Gluten Free Mini Pretzels
-
-**★★★★☆ 3.9 out of 5** · Gluten-free · Best for: Gluten-free guests · $$ mid-range
-
-[Sporked](https://sporked.com/article/best-pretzels) gave them 7.5 out of 10 for crunch and noted they still taste like pretzels.
-
-- **Why we like it:** A gluten-free pretzel that doesn't taste like a substitute.
-- **Keep in mind:** Pricier per ounce than regular pretzels. Keep them away from the regular ones on the board.
-- **Where to buy:** Target and most grocery stores.
-
-### 6. 365 by Whole Foods Market Crunchy Pretzel Twists
-
-**★★★★☆ 3.8 out of 5** · Best for: Classic twists · $ budget
-
-[Tasting Table](https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best) ranked them 5th of 14 for a crisp snap and good salt.
-
-- **Why we like it:** A cheap, well-made classic twist.
-- **Keep in mind:** Only at Whole Foods and Amazon.
-- **Where to buy:** Whole Foods and Amazon.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Snack Factory Pretzel Crisps Original | 5 | 5 | 4 | 4 | 5 | **4.7** |
-| Snyder's of Hanover Snaps | 5 | 4 | 4 | 5 | 5 | **4.6** |
-| Unique Snacks Extra Dark Splits | 4 | 5 | 5 | 4 | 3 | **4.2** |
-| Utz Sourdough Specials Extra Dark | 3 | 5 | 4 | 5 | 5 | **4.2** |
-| Snyder's of Hanover Gluten Free Mini Pretzels | 4 | 4 | 4 | 3 | 4 | **3.9** |
-| 365 by Whole Foods Market Crunchy Pretzel Twists | 4 | 3 | 4 | 5 | 3 | **3.8** |
-
-## What to look for on the label
-
-**Label check:** A short list of flour, water, salt, yeast and oil. Flat crisps or snaps if you'll top them, and twists or rods if you'll dip them.
-
-**Skip:** Chocolate- or yogurt-coated pretzels on a savory board. They melt and smear. Save them for a dessert board.
+:::html
+<h2 id="what-to-look-for">What to look for</h2>
+<ul class="sk-checks"><li><strong>Look for:</strong> A short list of flour, water, salt, yeast and oil. Flat crisps or snaps if you&#x27;ll top them, and twists or rods if you&#x27;ll dip them.</li><li class="sk-x"><strong>Skip:</strong> Chocolate- or yogurt-coated pretzels on a savory board. They melt and smear. Save them for a dessert board.</li></ul>
+:::
 
 **Serving it:** add pretzels at the last minute so they stay crisp, and tuck them near the mustard, beer cheese or honey mustard. They're a cheap way to fill gaps on a big board.
-
 For what pretzels pairs with and how to serve it, see the [pretzel crisps guide](/ingredients/pretzel-crisps/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
-## Pretzel questions
+:::html
+<h2 id="faq">Pretzel questions</h2>
+:::
 
 **What are the best pretzels for a charcuterie board?**
 
@@ -140,9 +110,14 @@ Yes. Snyder's of Hanover Gluten Free Mini Pretzels scored 7.5 out of 10 at Spork
 
 Last, just before guests arrive, so they don't pick up moisture from the cheese and fruit.
 
-## Sources
-
-- [Sporked: All the Best Pretzels](https://sporked.com/article/best-pretzels)
-- [Tasting Table: 14 Popular Pretzel Brands, Ranked Worst To Best](https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Snack Factory Pretzel Crisps Original</td><td>5</td><td>5</td><td>4</td><td>4</td><td>5</td><td><strong>4.7</strong></td></tr><tr><td>Snyder&#x27;s of Hanover Snaps</td><td>5</td><td>4</td><td>4</td><td>5</td><td>5</td><td><strong>4.6</strong></td></tr><tr><td>Unique Snacks Extra Dark Splits</td><td>4</td><td>5</td><td>5</td><td>4</td><td>3</td><td><strong>4.2</strong></td></tr><tr><td>Utz Sourdough Specials Extra Dark</td><td>3</td><td>5</td><td>4</td><td>5</td><td>5</td><td><strong>4.2</strong></td></tr><tr><td>Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</td><td>4</td><td>4</td><td>4</td><td>3</td><td>4</td><td><strong>3.9</strong></td></tr><tr><td>365 by Whole Foods Market Crunchy Pretzel Twists</td><td>4</td><td>3</td><td>4</td><td>5</td><td>3</td><td><strong>3.8</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked: All the Best Pretzels</a></li><li><a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table: 14 Popular Pretzel Brands, Ranked Worst To Best</a></li></ul>
+<img src="/images/best-pretzels-for-charcuterie-ranking.webp" alt="Ranked list of the best pretzels for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

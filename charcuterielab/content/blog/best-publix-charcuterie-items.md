@@ -14,153 +14,109 @@ tags: "["publix charcuterie", "publix charcuterie board", "publix deli cheese", 
 
 > **Quick Answer:** The best Publix cheese for a charcuterie board is Boar's Head Parmigiano Reggiano (4.5 out of 5). From the Publix Deli's own specialty case, the Imported Vintage Gouda and the Honey Goat Cheese (4.0 each) are the standouts, with the Imported French Brie (3.9) for a soft cheese and Herb-Coated Salami (3.9) for meat. Palmetto Cheese is the best spread.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Parmigiano Reggiano</a><p class="sk-top-line">Real Parmigiano, easy to find at any Publix.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best aged cheese</p><a class="sk-top-name" href="#pick-3">Publix Deli Imported Vintage Gouda</a><p class="sk-top-line">Caramel crunch that almost everyone likes.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">Publix Deli Imported French Brie</a><p class="sk-top-line">Easy to find and easy to like.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
+:::
+
 Publix builds charcuterie into its deli: a specialty cheese case, Publix-brand salamis and prosciutto, Boar's Head at the counter, and boards you can order ahead. The Takeout ranked Publix 9th of 13 chains for cheese, mainly over price and freshness complaints, so check dates and shop the BOGO deals. Few food sites have rated Publix's specialty cheeses, so these rankings lean on ingredients, value and how each one works on a board.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 10, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boar&#x27;s Head Parmigiano Reggiano</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Real Parmigiano, easy to find at any Publix.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Pricier than a store-brand wedge. Break it into rough chunks; slices are too hard.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Real Parmigiano Reggiano from Boar&#x27;s Head, sold at the <a href="https://www.publix.com/pd/boars-head-parmigiano-reggiano-cheese/RIO-PCI-533974" target="_blank" rel="noopener">Publix Deli</a>. It was our top pick in the <a href="/blog/best-parmesan-brands/">Parmesan ranking</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Publix Deli Honey Goat Cheese</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A sweet, tangy spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Sweet and tangy in one, so it needs no jam.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Soft and messy. Serve it on a small plate with a spreader.</p>
 
-| Pick | Rating |
-|---|---|
-| **Best overall:** Boar's Head Parmigiano Reggiano ($$) | ★★★★½ 4.5 |
-| **Best aged cheese:** Publix Deli Imported Vintage Gouda ($$) | ★★★★☆ 4.0 |
-| **Best soft cheese:** Publix Deli Imported French Brie ($) | ★★★★☆ 3.9 |
-| **Best meat:** Publix Herb-Coated Salami ($) | ★★★★☆ 3.9 |
-| **Best spread:** Palmetto Cheese Original ($) | ★★★★☆ 4.0 |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Soft goat cheese blended with honey. Parade&#x27;s Publix superfan named the Deli&#x27;s hot honey goat cheese among the specialty cheeses worth buying (<a href="https://parade.com/food/best-things-to-buy-at-publix-deli" target="_blank" rel="noopener">Parade</a>), and Publix also sells a fig and chili version for boards (<a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best aged cheese</p><h3>Publix Deli Imported Vintage Gouda</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A crowd-pleasing aged cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Caramel crunch that almost everyone likes.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Hard to slice thin. Cut it into small wedges or chunks.</p>
 
-## The full ranking
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An aged Gouda from North Holland that Publix describes as rich and nutty with caramel notes (<a href="https://www.publix.com/products-services/deli/specialty-cheeses" target="_blank" rel="noopener">Publix</a>). Publix pairs it with peppered salami for under $12 on its <a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">charcuterie page</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best spread</p><h3>Palmetto Cheese Original</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A Southern spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix deli or dairy case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A regional favorite guests recognize.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last.</p>
 
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Boar's Head Parmigiano Reggiano** ($$) | ★★★★½ 4.5 | Breaking into chunks |
-| 2. **Publix Deli Honey Goat Cheese** ($) | ★★★★☆ 4.0 | A sweet, tangy spread |
-| 3. **Publix Deli Imported Vintage Gouda** ($$) | ★★★★☆ 4.0 | A crowd-pleasing aged cheese |
-| 4. **Palmetto Cheese Original** ($) | ★★★★☆ 4.0 | A Southern spread |
-| 5. **Publix Deli Imported French Brie** ($) | ★★★★☆ 3.9 | The soft cheese |
-| 6. **Publix Herb-Coated Salami** ($) | ★★★★☆ 3.9 | The main meat |
-| 7. **Publix Deli Imported Spanish Manchego** ($$) | ★★★★☆ 3.8 | A firm, nutty cheese |
-| 8. **Publix Deli Imported Swiss Gruyère** ($$) | ★★★★☆ 3.8 | A semi-firm melting cheese |
-| 9. **Publix Prosciutto** ($$) | ★★★★☆ 3.8 | Draping and folding |
-| 10. **Publix Imported Yorkshire Wensleydale with Cranberries** ($) | ★★★½☆ 3.5 | A holiday board |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The South Carolina pimento cheese sold at <a href="https://www.publix.com/pd/pawleys-island-specialty-foods-palmetto-cheese/RIO-PCI-125886" target="_blank" rel="noopener">Publix</a>. It ranked in our <a href="/blog/best-pimento-cheese/">pimento cheese guide</a>.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best soft cheese</p><h3>Publix Deli Imported French Brie</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Easy to find and easy to like.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Take it out 20 to 30 minutes before serving so the flavor comes through.</p>
 
-![Ranked list of the best Publix items for a charcuterie board, scored out of 5](/images/best-publix-charcuterie-items-ranking.webp)
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A brie from northwest France that Publix describes as soft and creamy with mushroom notes (<a href="https://www.publix.com/products-services/deli/specialty-cheeses" target="_blank" rel="noopener">Publix</a>). Publix pairs it with its prosciutto for under $15 (<a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best meat</p><h3>Publix Herb-Coated Salami</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The crust adds flavor and looks good sliced.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Slice it thin and fold it; thick slices are chewy.</p>
 
-### 1. Boar's Head Parmigiano Reggiano
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Publix-brand salami with an herb crust, paired with fig and chili goat cheese for under $10 on the <a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix charcuterie page</a>. There&#x27;s also a pepper-coated version.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-7">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Publix Deli Imported Spanish Manchego</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A firm, nutty cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Firm and nutty, and good with membrillo or honey.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Often pricier than Manchego at warehouse clubs.</p>
 
-**★★★★½ 4.5 out of 5** · Best overall · Best for: Breaking into chunks · $$ mid-range
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A sheep&#x27;s milk Manchego from La Mancha. Publix suggests serving it with olives, sun-dried tomatoes and bread (<a href="https://www.publix.com/products-services/deli/specialty-cheeses" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-8">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Publix Deli Imported Swiss Gruyère</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A semi-firm melting cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A good second cheese next to brie.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Check the label for Le Gruyère AOP if you want the protected Swiss cheese.</p>
 
-Real Parmigiano Reggiano from Boar's Head, sold at the [Publix Deli](https://www.publix.com/pd/boars-head-parmigiano-reggiano-cheese/RIO-PCI-533974). It was our top pick in the [Parmesan ranking](/blog/best-parmesan-brands/).
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Swiss Gruyère that Publix describes as creamy, slightly sweet and salty (<a href="https://www.publix.com/products-services/deli/specialty-cheeses" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-9">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Publix Prosciutto</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Draping and folding</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Silky and salty, and easy to ribbon around cheese.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Thin slices stick together. Separate them just before building the board.</p>
 
-- **Why we like it:** Real Parmigiano, easy to find at any Publix.
-- **Keep in mind:** Pricier than a store-brand wedge. Break it into rough chunks; slices are too hard.
-- **Where to find it:** Publix Deli.
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Publix-brand prosciutto from the deli, which Publix pairs with its French brie (<a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-10">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Publix Imported Yorkshire Wensleydale with Cranberries</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A holiday board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Red and white, so it looks festive.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Sweet and mild. Pair it with an aged cheese for contrast.</p>
 
-### 2. Publix Deli Honey Goat Cheese
-
-**★★★★☆ 4.0 out of 5** · Best for: A sweet, tangy spread · $ budget
-
-Soft goat cheese blended with honey. Parade's Publix superfan named the Deli's hot honey goat cheese among the specialty cheeses worth buying ([Parade](https://parade.com/food/best-things-to-buy-at-publix-deli)), and Publix also sells a fig and chili version for boards ([Publix](https://www.publix.com/products-services/deli/charcuterie)).
-
-- **Why we like it:** Sweet and tangy in one, so it needs no jam.
-- **Keep in mind:** Soft and messy. Serve it on a small plate with a spreader.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-### 3. Publix Deli Imported Vintage Gouda
-
-**★★★★☆ 4.0 out of 5** · Best aged cheese · Best for: A crowd-pleasing aged cheese · $$ mid-range
-
-An aged Gouda from North Holland that Publix describes as rich and nutty with caramel notes ([Publix](https://www.publix.com/products-services/deli/specialty-cheeses)). Publix pairs it with peppered salami for under $12 on its [charcuterie page](https://www.publix.com/products-services/deli/charcuterie).
-
-- **Why we like it:** Caramel crunch that almost everyone likes.
-- **Keep in mind:** Hard to slice thin. Cut it into small wedges or chunks.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-### 4. Palmetto Cheese Original
-
-**★★★★☆ 4.0 out of 5** · Best spread · Best for: A Southern spread · $ budget
-
-The South Carolina pimento cheese sold at [Publix](https://www.publix.com/pd/pawleys-island-specialty-foods-palmetto-cheese/RIO-PCI-125886). It ranked in our [pimento cheese guide](/blog/best-pimento-cheese/).
-
-- **Why we like it:** A regional favorite guests recognize.
-- **Keep in mind:** Keep it cold and put it out last.
-- **Where to find it:** Publix deli or dairy case.
-
-### 5. Publix Deli Imported French Brie
-
-**★★★★☆ 3.9 out of 5** · Best soft cheese · Best for: The soft cheese · $ budget
-
-A brie from northwest France that Publix describes as soft and creamy with mushroom notes ([Publix](https://www.publix.com/products-services/deli/specialty-cheeses)). Publix pairs it with its prosciutto for under $15 ([Publix](https://www.publix.com/products-services/deli/charcuterie)).
-
-- **Why we like it:** Easy to find and easy to like.
-- **Keep in mind:** Take it out 20 to 30 minutes before serving so the flavor comes through.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-### 6. Publix Herb-Coated Salami
-
-**★★★★☆ 3.9 out of 5** · Best meat · Best for: The main meat · $ budget
-
-A Publix-brand salami with an herb crust, paired with fig and chili goat cheese for under $10 on the [Publix charcuterie page](https://www.publix.com/products-services/deli/charcuterie). There's also a pepper-coated version.
-
-- **Why we like it:** The crust adds flavor and looks good sliced.
-- **Keep in mind:** Slice it thin and fold it; thick slices are chewy.
-- **Where to find it:** Publix Deli.
-
-### 7. Publix Deli Imported Spanish Manchego
-
-**★★★★☆ 3.8 out of 5** · Best for: A firm, nutty cheese · $$ mid-range
-
-A sheep's milk Manchego from La Mancha. Publix suggests serving it with olives, sun-dried tomatoes and bread ([Publix](https://www.publix.com/products-services/deli/specialty-cheeses)).
-
-- **Why we like it:** Firm and nutty, and good with membrillo or honey.
-- **Keep in mind:** Often pricier than Manchego at warehouse clubs.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-### 8. Publix Deli Imported Swiss Gruyère
-
-**★★★★☆ 3.8 out of 5** · Best for: A semi-firm melting cheese · $$ mid-range
-
-A Swiss Gruyère that Publix describes as creamy, slightly sweet and salty ([Publix](https://www.publix.com/products-services/deli/specialty-cheeses)).
-
-- **Why we like it:** A good second cheese next to brie.
-- **Keep in mind:** Check the label for Le Gruyère AOP if you want the protected Swiss cheese.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-### 9. Publix Prosciutto
-
-**★★★★☆ 3.8 out of 5** · Best for: Draping and folding · $$ mid-range
-
-Publix-brand prosciutto from the deli, which Publix pairs with its French brie ([Publix](https://www.publix.com/products-services/deli/charcuterie)).
-
-- **Why we like it:** Silky and salty, and easy to ribbon around cheese.
-- **Keep in mind:** Thin slices stick together. Separate them just before building the board.
-- **Where to find it:** Publix Deli.
-
-### 10. Publix Imported Yorkshire Wensleydale with Cranberries
-
-**★★★½☆ 3.5 out of 5** · Best for: A holiday board · $ budget
-
-A crumbly English cheese studded with cranberries, part of Publix's under-$18 board pairing ([Publix](https://www.publix.com/products-services/deli/charcuterie)).
-
-- **Why we like it:** Red and white, so it looks festive.
-- **Keep in mind:** Sweet and mild. Pair it with an aged cheese for contrast.
-- **Where to find it:** Publix Deli specialty cheese case.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Boar's Head Parmigiano Reggiano | 5 | 5 | 5 | 3 | 4 | **4.5** |
-| Publix Deli Honey Goat Cheese | 4 | 4 | 4 | 4 | 4 | **4.0** |
-| Publix Deli Imported Vintage Gouda | 5 | 3 | 5 | 3 | 4 | **4.0** |
-| Palmetto Cheese Original | 5 | 3 | 4 | 4 | 4 | **4.0** |
-| Publix Deli Imported French Brie | 4 | 3 | 4 | 4 | 5 | **3.9** |
-| Publix Herb-Coated Salami | 4 | 3 | 4 | 4 | 5 | **3.9** |
-| Publix Deli Imported Spanish Manchego | 4 | 3 | 5 | 3 | 4 | **3.8** |
-| Publix Deli Imported Swiss Gruyère | 4 | 3 | 5 | 3 | 4 | **3.8** |
-| Publix Prosciutto | 4 | 3 | 4 | 3 | 5 | **3.8** |
-| Publix Imported Yorkshire Wensleydale with Cranberries | 4 | 2 | 4 | 4 | 4 | **3.5** |
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A crumbly English cheese studded with cranberries, part of Publix&#x27;s under-$18 board pairing (<a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix</a>).</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+</div>
+:::
 
 ## Building a board from these
 
@@ -175,7 +131,9 @@ Short on time? Publix sells [Boar's Head charcuterie boxes and platters to order
 
 Watch for BOGO deals on specialty cheese in the weekly ad, a tip from [Parade](https://parade.com/food/best-things-to-buy-at-publix-deli)'s Publix superfan. See every ranked guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-## Publix charcuterie questions
+:::html
+<h2 id="faq">Publix charcuterie questions</h2>
+:::
 
 **What is the best Publix cheese for a charcuterie board?**
 
@@ -193,15 +151,14 @@ Publix-brand Herb-Coated Salami, Pepper-Coated Salami and Prosciutto at the deli
 
 About 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal, plus 10 to 12 crackers per guest.
 
-## Sources
-
-- [Publix: Charcuterie (deli pairings)](https://www.publix.com/products-services/deli/charcuterie)
-- [Publix: Specialty Cheeses](https://www.publix.com/products-services/deli/specialty-cheeses)
-- [Publix: Boar's Head Parmigiano Reggiano](https://www.publix.com/pd/boars-head-parmigiano-reggiano-cheese/RIO-PCI-533974)
-- [Publix: Palmetto Cheese](https://www.publix.com/pd/pawleys-island-specialty-foods-palmetto-cheese/RIO-PCI-125886)
-- [Publix: Order Charcuterie Boxes, Boards and Trays](https://www.publix.com/mc/order-ahead/order-charcuterie-boxes)
-- [Parade: The 10 Best Things to Buy at the Publix Deli, According to a Superfan](https://parade.com/food/best-things-to-buy-at-publix-deli)
-- [Tasting Table: The Popular Cheese Brand That You Should Take Off Your Shopping List](https://www.tastingtable.com/1590585/worst-brand-cheese-publix/)
-- [The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection](https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests, awards and shopper ratings (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Boar&#x27;s Head Parmigiano Reggiano</td><td>5</td><td>5</td><td>5</td><td>3</td><td>4</td><td><strong>4.5</strong></td></tr><tr><td>Publix Deli Honey Goat Cheese</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>Publix Deli Imported Vintage Gouda</td><td>5</td><td>3</td><td>5</td><td>3</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>Palmetto Cheese Original</td><td>5</td><td>3</td><td>4</td><td>4</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>Publix Deli Imported French Brie</td><td>4</td><td>3</td><td>4</td><td>4</td><td>5</td><td><strong>3.9</strong></td></tr><tr><td>Publix Herb-Coated Salami</td><td>4</td><td>3</td><td>4</td><td>4</td><td>5</td><td><strong>3.9</strong></td></tr><tr><td>Publix Deli Imported Spanish Manchego</td><td>4</td><td>3</td><td>5</td><td>3</td><td>4</td><td><strong>3.8</strong></td></tr><tr><td>Publix Deli Imported Swiss Gruyère</td><td>4</td><td>3</td><td>5</td><td>3</td><td>4</td><td><strong>3.8</strong></td></tr><tr><td>Publix Prosciutto</td><td>4</td><td>3</td><td>4</td><td>3</td><td>5</td><td><strong>3.8</strong></td></tr><tr><td>Publix Imported Yorkshire Wensleydale with Cranberries</td><td>4</td><td>2</td><td>4</td><td>4</td><td>4</td><td><strong>3.5</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.publix.com/products-services/deli/charcuterie" target="_blank" rel="noopener">Publix: Charcuterie (deli pairings)</a></li><li><a href="https://www.publix.com/products-services/deli/specialty-cheeses" target="_blank" rel="noopener">Publix: Specialty Cheeses</a></li><li><a href="https://www.publix.com/pd/boars-head-parmigiano-reggiano-cheese/RIO-PCI-533974" target="_blank" rel="noopener">Publix: Boar&#x27;s Head Parmigiano Reggiano</a></li><li><a href="https://www.publix.com/pd/pawleys-island-specialty-foods-palmetto-cheese/RIO-PCI-125886" target="_blank" rel="noopener">Publix: Palmetto Cheese</a></li><li><a href="https://www.publix.com/mc/order-ahead/order-charcuterie-boxes" target="_blank" rel="noopener">Publix: Order Charcuterie Boxes, Boards and Trays</a></li><li><a href="https://parade.com/food/best-things-to-buy-at-publix-deli" target="_blank" rel="noopener">Parade: The 10 Best Things to Buy at the Publix Deli, According to a Superfan</a></li><li><a href="https://www.tastingtable.com/1590585/worst-brand-cheese-publix/" target="_blank" rel="noopener">Tasting Table: The Popular Cheese Brand That You Should Take Off Your Shopping List</a></li><li><a href="https://www.thetakeout.com/2249755/every-major-grocery-store-ranked-cheese-selection/" target="_blank" rel="noopener">The Takeout: 13 Grocery Store Chains, Ranked By Their Cheese Selection</a></li></ul>
+<img src="/images/best-publix-charcuterie-items-ranking.webp" alt="Ranked list of the best Publix items for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

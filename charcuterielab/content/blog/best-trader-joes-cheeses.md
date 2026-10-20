@@ -44,7 +44,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Aged about 2.7 years, with butterscotch flavor and plenty of crystals. <a href="https://www.tastingtable.com/1763522/store-bought-gouda-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked it second in its grocery-store Gouda test for its nutty notes, subtle sweetness and crystals.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>Trader Joe&#x27;s Creamy Toscano Cheese Soaked in Syrah</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Trader Joe&#x27;s Creamy Toscano Cheese Soaked in Syrah</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese that needs nothing with it</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, about $4.80 a piece.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Two separate taste tests put it near the top.</p>
@@ -53,7 +53,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A firm Italian cow&#x27;s milk cheese with a rind soaked in Syrah wine. <a href="https://sporked.com/article/best-trader-joes-cheese/" target="_blank" rel="noopener">Sporked</a> gave it 10 out of 10 for its complex flavor and crunchy crystals, and <a href="https://www.cheapism.com/trader-joes-most-popular-cheeses/" target="_blank" rel="noopener">Cheapism</a> ranked it second of 15, praising the wine-soaked rind.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">#4</p><h3>Trader Joe&#x27;s Triple Crème Brie</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Triple Crème Brie</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft, spreadable cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Every board needs one soft cheese, and this is a cheap, rich one.</p>
@@ -62,7 +62,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Very rich and soft. <a href="https://sporked.com/article/best-trader-joes-cheese/" target="_blank" rel="noopener">Sporked</a> rated it 8 out of 10 and called it almost liquid, with a funky, Camembert-like flavor. <a href="https://www.tastingtable.com/1848350/trader-joes-cheese-charcuterie-board/" target="_blank" rel="noopener">Tasting Table</a> recommends the version with wild mushrooms for an earthier board.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">#5</p><h3>Trader Joe&#x27;s Goat Milk Gouda</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Trader Joe&#x27;s Goat Milk Gouda</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Something different</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A top score in Sporked&#x27;s test, and an easy way to add a goat cheese guests will actually eat.</p>
@@ -71,7 +71,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Gouda-style cheese made from goat&#x27;s milk. <a href="https://sporked.com/article/best-trader-joes-cheese/" target="_blank" rel="noopener">Sporked</a> gave it 10 out of 10, and <a href="https://www.cheapism.com/trader-joes-most-popular-cheeses/" target="_blank" rel="noopener">Cheapism</a> called it a beginner-friendly goat cheese without much of the goaty tang.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Trader Joe&#x27;s Cave Aged Blue</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Trader Joe&#x27;s Cave Aged Blue</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The blue cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good-value blue that isn&#x27;t too sharp.</p>
@@ -89,7 +89,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A mild, crumbly white Stilton studded with dried apricot. <a href="https://www.cheapism.com/trader-joes-most-popular-cheeses/" target="_blank" rel="noopener">Cheapism</a> ranked it first of 15 Trader Joe&#x27;s cheeses: fruit-forward, but not too sweet.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-8">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">#8</p><h3>Trader Joe&#x27;s Manchego</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Trader Joe&#x27;s Manchego</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Spanish board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, wedge or sliced.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A real Spanish Manchego at a low price.</p>
@@ -98,7 +98,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Spanish sheep&#x27;s milk cheese that <a href="https://www.tastingtable.com/1848350/trader-joes-cheese-charcuterie-board/" target="_blank" rel="noopener">Tasting Table</a> describes as salty, buttery and nutty, with enough flavor to stand on its own.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-9">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><p class="sk-pill">#9</p><h3>Trader Joe&#x27;s Chèvre</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Trader Joe&#x27;s Chèvre</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Spreading on crackers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, about $2.99 for 5 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The cheapest way to add a fresh, tangy cheese.</p>
@@ -107,7 +107,7 @@ Trader Joe's is one of the easiest places to build a cheese board: the cheese ca
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Soft, fresh goat cheese for about $3. <a href="https://www.tastingtable.com/1848350/trader-joes-cheese-charcuterie-board/" target="_blank" rel="noopener">Tasting Table</a> suggests the herbed Chèvre with Fine Herbs for a board, while <a href="https://www.cheapism.com/trader-joes-most-popular-cheeses/" target="_blank" rel="noopener">Cheapism</a>&#x27;s taster found the plain one too goaty.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-10">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><p class="sk-pill">#10</p><h3>Trader Joe&#x27;s Port Salut</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Trader Joe&#x27;s Port Salut</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests who like mild cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, sold by weight.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild enough for kids and cautious eaters.</p>

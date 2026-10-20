@@ -11,103 +11,77 @@ slug: "best-soppressata-brands"
 
 # The Best Soppressata Brands for a Charcuterie Board, Ranked
 
-> **Quick Answer:** Our top pick for soppressata on a charcuterie board is Brooklyn Cured Sweet Soppressata (4.2 out of 5). Best value: Volpi Soppressata. Splurge: Fra' Mani Soppressata. We ranked 5 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
+> **Quick Answer:** Our top pick for soppressata on a charcuterie board is Brooklyn Cured Sweet Soppressata (4.2 out of 5). Best value: Volpi Soppressata. Splurge: Fra' Mani Soppressata.
+
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Brooklyn Cured Sweet Soppressata</a><p class="sk-top-line">Top-ranked. Very versatile.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Brooklyn+Cured+Sweet+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Volpi Soppressata</a><p class="sk-top-line">Available. Reliable.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Volpi+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Soppressata</a><p class="sk-top-line">Award-winning maker.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Fra&#x27;+Mani+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
+:::
 
 Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best ones have visible fat, a firm chew and real heat or sweetness. Published taste tests are limited, so ingredients and reputation carry more weight here.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked September 2026.*
+:::html
+<h2 id="picks">All 5, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Brooklyn Cured Sweet Soppressata</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet, buttery soppressata</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Very versatile.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Brooklyn+Cured+Sweet+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s number one salami across nine brands, praised for a buttery texture and a hint of sweetness balancing savory notes.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Fra&#x27; Mani Soppressata</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Award-winning maker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Award-winning maker.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Fra&#x27;+Mani+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>From the heavily awarded Berkeley salumeria founded by chef Paul Bertolli. (Source: <a href="https://framani.com/products/soppressata" target="_blank" rel="noopener">Fra&#x27; Mani</a>, <a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Volpi Soppressata</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Whole Foods.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Available. Reliable.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Volpi+Soppressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>From the St. Louis family salumi maker founded in 1902. Widely available and reliable. (Source: <a href="https://en.wikipedia.org/wiki/Volpi_Foods" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Olympia Provisions Sopressata</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Craft pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Clean ingredients. Distinctive flavor.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Expensive. Mostly online.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Olympia+Provisions+Sopressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Portland salami with clove, oregano, garlic and chili, made with no added nitrates or nitrites and fermented with natural molds. (Source: <a href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">Olympia Provisions</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Boar&#x27;s Head Sopressata</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Everywhere.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Less character than craft versions.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+Sopressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Cut to order at the deli, so the edges stay fresh. A fine everyday option.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>
+</article>
+</div>
+:::
 
-## Our picks at a glance
-
-| Pick | Rating |
-|---|---|
-| **Best overall:** Brooklyn Cured Sweet Soppressata ($$) | ★★★★☆ 4.2 |
-| **Best value:** Volpi Soppressata ($$) | ★★★★☆ 3.8 |
-| **Best splurge:** Fra' Mani Soppressata ($$$) | ★★★★☆ 3.8 |
-
-## The full ranking
-
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Brooklyn Cured Sweet Soppressata** ($$) | ★★★★☆ 4.2 | Sweet, buttery soppressata |
-| 2. **Fra' Mani Soppressata** ($$$) | ★★★★☆ 3.8 | Award-winning maker |
-| 3. **Volpi Soppressata** ($$) | ★★★★☆ 3.8 | Easy to find |
-| 4. **Olympia Provisions Sopressata** ($$$) | ★★★½☆ 3.6 | Craft pick |
-| 5. **Boar's Head Sopressata** ($$) | ★★★☆☆ 3.0 | Sliced to order |
-
-![Ranked list of the best soppressata for a charcuterie board, scored out of 5](/images/best-soppressata-brands-ranking.webp)
-
-### 1. Brooklyn Cured Sweet Soppressata
-
-**★★★★☆ 4.2 out of 5** · Best overall · Best for: Sweet, buttery soppressata · $$ mid-range
-
-[Tasting Table](https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/)'s number one salami across nine brands, praised for a buttery texture and a hint of sweetness balancing savory notes.
-
-- **Why we like it:** Top-ranked. Very versatile.
-- **Keep in mind:** Not in every store.
-- **Where to buy:** Grocery, specialty stores.
-
-### 2. Fra' Mani Soppressata
-
-**★★★★☆ 3.8 out of 5** · Best splurge · Best for: Award-winning maker · $$$ premium
-
-From the heavily awarded Berkeley salumeria founded by chef Paul Bertolli. (Source: [Fra' Mani](https://framani.com/products/soppressata), [The National Provisioner](https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods).)
-
-- **Why we like it:** Award-winning maker.
-- **Keep in mind:** Hard to find. Expensive.
-- **Where to buy:** Specialty grocers, online.
-
-### 3. Volpi Soppressata
-
-**★★★★☆ 3.8 out of 5** · Best value · Best for: Easy to find · $$ mid-range
-
-From the St. Louis family salumi maker founded in 1902. Widely available and reliable. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Volpi_Foods).)
-
-- **Why we like it:** Available. Reliable.
-- **Keep in mind:** Few published reviews.
-- **Where to buy:** Grocery, Whole Foods.
-
-### 4. Olympia Provisions Sopressata
-
-**★★★½☆ 3.6 out of 5** · Best for: Craft pick · $$$ premium
-
-A Portland salami with clove, oregano, garlic and chili, made with no added nitrates or nitrites and fermented with natural molds. (Source: [Olympia Provisions](https://www.olympiaprovisions.com/products/sopressata).)
-
-- **Why we like it:** Clean ingredients. Distinctive flavor.
-- **Keep in mind:** Expensive. Mostly online.
-- **Where to buy:** Specialty grocers, online.
-
-### 5. Boar's Head Sopressata
-
-**★★★☆☆ 3.0 out of 5** · Best for: Sliced to order · $$ mid-range
-
-Cut to order at the deli, so the edges stay fresh. A fine everyday option.
-
-- **Why we like it:** Everywhere.
-- **Keep in mind:** Less character than craft versions.
-- **Where to buy:** Deli counters.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Brooklyn Cured Sweet Soppressata | 5 | 5 | 4 | 3 | 3 | **4.2** |
-| Fra' Mani Soppressata | 5 | 4 | 5 | 2 | 2 | **3.8** |
-| Volpi Soppressata | 4 | 3 | 4 | 4 | 4 | **3.8** |
-| Olympia Provisions Sopressata | 5 | 3 | 5 | 2 | 2 | **3.6** |
-| Boar's Head Sopressata | 3 | 2 | 3 | 3 | 5 | **3.0** |
-
-## What to look for on the label
-
-**Label check:** Pork, salt, spices and wine or garlic. 'Hot' or 'piccante' means chili; 'sweet' or 'dolce' means no heat.
-
-**Skip:** Pre-sliced soppressata in a tray that has curled at the edges. Buy a whole stick when you can.
+:::html
+<h2 id="what-to-look-for">What to look for</h2>
+<ul class="sk-checks"><li><strong>Look for:</strong> Pork, salt, spices and wine or garlic. &#x27;Hot&#x27; or &#x27;piccante&#x27; means chili; &#x27;sweet&#x27; or &#x27;dolce&#x27; means no heat.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced soppressata in a tray that has curled at the edges. Buy a whole stick when you can.</li></ul>
+:::
 
 For what soppressata pairs with and how to serve it, see the [soppressata guide](/ingredients/soppressata/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
-## Soppressata questions
+:::html
+<h2 id="faq">Soppressata questions</h2>
+:::
 
 **What is the best soppressata for a charcuterie board?**
 
@@ -121,12 +95,14 @@ Hot soppressata is; sweet (dolce) soppressata is not. The label will say.
 
 Provolone, fresh mozzarella, figs, honey and a red like Barbera or Lambrusco.
 
-## Sources
-
-- [Tasting Table: 9 Salami Brands, Ranked (2025)](https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/)
-- [Fra' Mani: Soppressata](https://framani.com/products/soppressata)
-- [The National Provisioner: Fra' Mani (Apr 2025)](https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods)
-- [Wikipedia: Volpi Foods](https://en.wikipedia.org/wiki/Volpi_Foods)
-- [Olympia Provisions: Sopressata](https://www.olympiaprovisions.com/products/sopressata)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked September 2026. We ranked 5 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Brooklyn Cured Sweet Soppressata</td><td>5</td><td>5</td><td>4</td><td>3</td><td>3</td><td><strong>4.2</strong></td></tr><tr><td>Fra&#x27; Mani Soppressata</td><td>5</td><td>4</td><td>5</td><td>2</td><td>2</td><td><strong>3.8</strong></td></tr><tr><td>Volpi Soppressata</td><td>4</td><td>3</td><td>4</td><td>4</td><td>4</td><td><strong>3.8</strong></td></tr><tr><td>Olympia Provisions Sopressata</td><td>5</td><td>3</td><td>5</td><td>2</td><td>2</td><td><strong>3.6</strong></td></tr><tr><td>Boar&#x27;s Head Sopressata</td><td>3</td><td>2</td><td>3</td><td>3</td><td>5</td><td><strong>3.0</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table: 9 Salami Brands, Ranked (2025)</a></li><li><a href="https://framani.com/products/soppressata" target="_blank" rel="noopener">Fra&#x27; Mani: Soppressata</a></li><li><a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner: Fra&#x27; Mani (Apr 2025)</a></li><li><a href="https://en.wikipedia.org/wiki/Volpi_Foods" target="_blank" rel="noopener">Wikipedia: Volpi Foods</a></li><li><a href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">Olympia Provisions: Sopressata</a></li></ul>
+<img src="/images/best-soppressata-brands-ranking.webp" alt="Ranked list of the best soppressata for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

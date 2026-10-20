@@ -34,7 +34,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked them third for buttery flesh and oversized olives it called perfect for charcuterie boards.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">#2</p><h3>Partanna Castelvetrano Olives</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Partanna Castelvetrano Olives</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Good value jar.</p>
@@ -43,7 +43,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked second of 22 brands at <a href="https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> for bright, nutty flavor and creamy flesh in a generous jar.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">#3</p><h3>Jeff&#x27;s Garden Castelvetrano Olives</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Jeff&#x27;s Garden Castelvetrano Olives</h3></div></div>
 <div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget Castelvetrano</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery, natural stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great for boards.</p>
@@ -70,7 +70,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s number one jarred olive: raw, unpasteurized and tangy, with a fresher flavor than the rest.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 4 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">#6</p><h3>Barbiero Bella di Cerignola</h3></div></div>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Barbiero Bella di Cerignola</h3></div></div>
 <div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Showpiece olives</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Italian delis, specialty.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Striking look.</p>

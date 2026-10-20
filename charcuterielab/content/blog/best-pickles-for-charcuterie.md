@@ -12,117 +12,87 @@ tags: "["best pickles", "best pickle brands", "pickles for charcuterie board", "
 
 # The Best Pickles for a Charcuterie Board, Ranked (Plus Cornichons)
 
-> **Quick Answer:** Our top pick for pickles on a charcuterie board is Mt. Olive Kosher Baby Dills (4.5 out of 5). Refrigerated: Claussen Kosher Dill Spears. Cornichons: Maille Cornichons Original. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
+> **Quick Answer:** Our top pick for pickles on a charcuterie board is Mt. Olive Kosher Baby Dills (4.5 out of 5). Refrigerated: Claussen Kosher Dill Spears. Cornichons: Maille Cornichons Original.
+
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mt. Olive Kosher Baby Dills</a><p class="sk-top-line">Board-size pickles, cheap and in nearly every store.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mt.+Olive+Kosher+Baby+Dills" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-2">Claussen Kosher Dill Spears</a><p class="sk-top-line">Real crunch, because they&#x27;re never cooked.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Claussen+Kosher+Dill+Spears" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cornichons</p><a class="sk-top-name" href="#pick-5">Maille Cornichons Original</a><p class="sk-top-line">The right size and tartness for a classic board.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Maille+Cornichons+Original" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
+:::
 
 Something sour and crunchy cuts through rich salami and cheese, which is why every good board has pickles. Small pickles work best: baby dills, cornichons or bite-size chips, not giant spears. These rankings lean on three published pickle taste tests, then size, crunch, ingredients and how easy each jar is to find.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked October 2026.*
+:::html
+<h2 id="picks">All 6, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Mt. Olive Kosher Baby Dills</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Bite-size pickles on any board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Board-size pickles, cheap and in nearly every store.</p>
+<p class="sk-mind"><strong>Watch out:</strong> That test dates from 2017, and shelf-stable jars are never as crisp as refrigerated pickles.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mt.+Olive+Kosher+Baby+Dills" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/693912/pickles-best-worst-grocery-store-ranked" target="_blank" rel="noopener">Tasting Table&#x27;s editors</a> unanimously picked these as the best grocery pickle for their tender crunch and mild acidity. Their small size suits a board, where a full spear is too big to grab.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best refrigerated</p><h3>Claussen Kosher Dill Spears</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The crunchiest classic</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>The refrigerated case at most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Real crunch, because they&#x27;re never cooked.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Spears are big for a board. Cut them in half or into coins.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Claussen+Kosher+Dill+Spears" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Sold in the refrigerated case. <a href="https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> ranked them 1st of 12 for a snappy crunch and a classic dill and vinegar flavor.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Grillo&#x27;s Pickles Classic Dill Spears</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh, sour pickles</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>The refrigerated case at Target, Whole Foods and many grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A clean label and a bright, fresh sourness.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Pricier, with a shorter shelf life.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Grillo&#x27;s+Pickles+Classic+Dill+Spears" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Refrigerated pickles with a short ingredient list. <a href="https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> ranked them 2nd of 12 as crunchy, very sour and among the freshest-tasting, and <a href="https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked" target="_blank" rel="noopener">The Daily Meal</a> put them 5th of 14.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>OH Snap! Pickle Bites</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>No-mess picnics and travel boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Target and many grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> No dripping brine on the board, and already bite-size.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Sweeter than a classic dill, and a pricier way to buy pickles.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=OH+Snap!+Pickle+Bites" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Pickle bites sold in a pouch without loose brine. <a href="https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> ranked them 4th of 12 for a good crunch and a sweet flavor with a little kick.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-5">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best cornichons</p><h3>Maille Cornichons Original</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The French classic for pâté and salami</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, near the mustards or pickles.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The right size and tartness for a classic board.</p>
+<p class="sk-mind"><strong>Watch out:</strong> No taste test to back it up, and a small jar for the price.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Maille+Cornichons+Original" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Tiny, tart French gherkins, the traditional partner for pâté, saucisson and Gruyère. We couldn&#x27;t find a published US taste test of cornichon brands, so this score leans on board fit, ingredients and how widely Maille is sold.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-6">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Vlasic Kosher Dill Spears</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A budget backup</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cheap and easy to find.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Softer than the refrigerated pickles, with more additives.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Vlasic+Kosher+Dill+Spears" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The tests disagree. <a href="https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked" target="_blank" rel="noopener">The Daily Meal</a> ranked these 1st of 14 for a strong dill aroma and a balance of crisp and chewy. <a href="https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> ranked them 9th of 12 as soft and soggy, with turmeric coloring and polysorbate 80.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 2 · Value 5 · Easy to find 5</span></p></details>
+</article>
+</div>
+:::
 
-## Our picks at a glance
-
-| Pick | Rating |
-|---|---|
-| **Best overall:** Mt. Olive Kosher Baby Dills ($) | ★★★★½ 4.5 |
-| **Best refrigerated:** Claussen Kosher Dill Spears ($) | ★★★★☆ 4.2 |
-| **Best cornichons:** Maille Cornichons Original ($$) | ★★★★☆ 3.9 |
-
-## The full ranking
-
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Mt. Olive Kosher Baby Dills** ($) | ★★★★½ 4.5 | Bite-size pickles on any board |
-| 2. **Claussen Kosher Dill Spears** ($) | ★★★★☆ 4.2 | The crunchiest classic |
-| 3. **Grillo's Pickles Classic Dill Spears** ($$) | ★★★★☆ 4.0 | Fresh, sour pickles |
-| 4. **OH Snap! Pickle Bites** ($$) | ★★★★☆ 3.9 | No-mess picnics and travel boards |
-| 5. **Maille Cornichons Original** ($$) | ★★★★☆ 3.9 | The French classic for pâté and salami |
-| 6. **Vlasic Kosher Dill Spears** ($) | ★★★½☆ 3.5 | A budget backup |
-
-![Ranked list of the best pickles for a charcuterie board, scored out of 5](/images/best-pickles-for-charcuterie-ranking.webp)
-
-### 1. Mt. Olive Kosher Baby Dills
-
-**★★★★½ 4.5 out of 5** · Best overall · Best for: Bite-size pickles on any board · $ budget
-
-[Tasting Table's editors](https://www.tastingtable.com/693912/pickles-best-worst-grocery-store-ranked) unanimously picked these as the best grocery pickle for their tender crunch and mild acidity. Their small size suits a board, where a full spear is too big to grab.
-
-- **Why we like it:** Board-size pickles, cheap and in nearly every store.
-- **Keep in mind:** That test dates from 2017, and shelf-stable jars are never as crisp as refrigerated pickles.
-- **Where to buy:** Nearly every grocery store.
-
-### 2. Claussen Kosher Dill Spears
-
-**★★★★☆ 4.2 out of 5** · Best refrigerated · Best for: The crunchiest classic · $ budget
-
-Sold in the refrigerated case. [Chowhound](https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best) ranked them 1st of 12 for a snappy crunch and a classic dill and vinegar flavor.
-
-- **Why we like it:** Real crunch, because they're never cooked.
-- **Keep in mind:** Spears are big for a board. Cut them in half or into coins.
-- **Where to buy:** The refrigerated case at most grocery stores.
-
-### 3. Grillo's Pickles Classic Dill Spears
-
-**★★★★☆ 4.0 out of 5** · Best for: Fresh, sour pickles · $$ mid-range
-
-Refrigerated pickles with a short ingredient list. [Chowhound](https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best) ranked them 2nd of 12 as crunchy, very sour and among the freshest-tasting, and [The Daily Meal](https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked) put them 5th of 14.
-
-- **Why we like it:** A clean label and a bright, fresh sourness.
-- **Keep in mind:** Pricier, with a shorter shelf life.
-- **Where to buy:** The refrigerated case at Target, Whole Foods and many grocery stores.
-
-### 4. OH Snap! Pickle Bites
-
-**★★★★☆ 3.9 out of 5** · Best for: No-mess picnics and travel boards · $$ mid-range
-
-Pickle bites sold in a pouch without loose brine. [Chowhound](https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best) ranked them 4th of 12 for a good crunch and a sweet flavor with a little kick.
-
-- **Why we like it:** No dripping brine on the board, and already bite-size.
-- **Keep in mind:** Sweeter than a classic dill, and a pricier way to buy pickles.
-- **Where to buy:** Walmart, Target and many grocery stores.
-
-### 5. Maille Cornichons Original
-
-**★★★★☆ 3.9 out of 5** · Best cornichons · Best for: The French classic for pâté and salami · $$ mid-range
-
-Tiny, tart French gherkins, the traditional partner for pâté, saucisson and Gruyère. We couldn't find a published US taste test of cornichon brands, so this score leans on board fit, ingredients and how widely Maille is sold.
-
-- **Why we like it:** The right size and tartness for a classic board.
-- **Keep in mind:** No taste test to back it up, and a small jar for the price.
-- **Where to buy:** Most grocery stores, near the mustards or pickles.
-
-### 6. Vlasic Kosher Dill Spears
-
-**★★★½☆ 3.5 out of 5** · Best for: A budget backup · $ budget
-
-The tests disagree. [The Daily Meal](https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked) ranked these 1st of 14 for a strong dill aroma and a balance of crisp and chewy. [Chowhound](https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best) ranked them 9th of 12 as soft and soggy, with turmeric coloring and polysorbate 80.
-
-- **Why we like it:** Cheap and easy to find.
-- **Keep in mind:** Softer than the refrigerated pickles, with more additives.
-- **Where to buy:** Nearly every grocery store.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Mt. Olive Kosher Baby Dills | 5 | 4 | 3 | 5 | 5 | **4.5** |
-| Claussen Kosher Dill Spears | 4 | 4 | 4 | 4 | 5 | **4.2** |
-| Grillo's Pickles Classic Dill Spears | 4 | 4 | 5 | 3 | 4 | **4.0** |
-| OH Snap! Pickle Bites | 4 | 4 | 4 | 3 | 4 | **3.9** |
-| Maille Cornichons Original | 5 | 3 | 4 | 3 | 4 | **3.9** |
-| Vlasic Kosher Dill Spears | 3 | 3 | 2 | 5 | 5 | **3.5** |
-
-## What to look for on the label
-
-**Label check:** Small pickles: baby dills, cornichons or chips. Refrigerated pickles stay crunchier. A short ingredient list of cucumbers, water, vinegar, salt, garlic and dill is best.
-
-**Skip:** Whole full-size pickles and long spears for the board. They're awkward to grab and drip brine everywhere. Cut them into coins if they're all you have.
+:::html
+<h2 id="what-to-look-for">What to look for</h2>
+<ul class="sk-checks"><li><strong>Look for:</strong> Small pickles: baby dills, cornichons or chips. Refrigerated pickles stay crunchier. A short ingredient list of cucumbers, water, vinegar, salt, garlic and dill is best.</li><li class="sk-x"><strong>Skip:</strong> Whole full-size pickles and long spears for the board. They&#x27;re awkward to grab and drip brine everywhere. Cut them into coins if they&#x27;re all you have.</li></ul>
+:::
 
 **Serving it:** drain the pickles and pat them dry, then put them in a small bowl so the brine doesn't run into the crackers. Put them next to the salami, pâté or a rich cheese, where the sourness helps most.
-
 For what pickles pairs with and how to serve it, see the [cornichon guide](/ingredients/cornichons/) and [dill pickle guide](/ingredients/dill-pickles/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
-## Pickle questions
+:::html
+<h2 id="faq">Pickle questions</h2>
+:::
 
 **What are the best pickles for a charcuterie board?**
 
@@ -140,10 +110,14 @@ In a small bowl. Even drained pickles leak brine, which makes crackers soggy.
 
 For crunch, yes. Refrigerated pickles like Claussen and Grillo's aren't heat-processed, so they stay crisper.
 
-## Sources
-
-- [The Daily Meal: 14 Store-Bought Dill Pickles, Ranked](https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked)
-- [Chowhound: Store-Bought Pickles, Ranked From Worst To Best](https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best)
-- [Tasting Table: Grocery Store Pickle Brands, Ranked](https://www.tastingtable.com/693912/pickles-best-worst-grocery-store-ranked)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Mt. Olive Kosher Baby Dills</td><td>5</td><td>4</td><td>3</td><td>5</td><td>5</td><td><strong>4.5</strong></td></tr><tr><td>Claussen Kosher Dill Spears</td><td>4</td><td>4</td><td>4</td><td>4</td><td>5</td><td><strong>4.2</strong></td></tr><tr><td>Grillo&#x27;s Pickles Classic Dill Spears</td><td>4</td><td>4</td><td>5</td><td>3</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>OH Snap! Pickle Bites</td><td>4</td><td>4</td><td>4</td><td>3</td><td>4</td><td><strong>3.9</strong></td></tr><tr><td>Maille Cornichons Original</td><td>5</td><td>3</td><td>4</td><td>3</td><td>4</td><td><strong>3.9</strong></td></tr><tr><td>Vlasic Kosher Dill Spears</td><td>3</td><td>3</td><td>2</td><td>5</td><td>5</td><td><strong>3.5</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://www.thedailymeal.com/1894122/store-bought-dill-pickles-ranked" target="_blank" rel="noopener">The Daily Meal: 14 Store-Bought Dill Pickles, Ranked</a></li><li><a href="https://www.chowhound.com/1707811/store-bought-pickles-ranked-worst-best" target="_blank" rel="noopener">Chowhound: Store-Bought Pickles, Ranked From Worst To Best</a></li><li><a href="https://www.tastingtable.com/693912/pickles-best-worst-grocery-store-ranked" target="_blank" rel="noopener">Tasting Table: Grocery Store Pickle Brands, Ranked</a></li></ul>
+<img src="/images/best-pickles-for-charcuterie-ranking.webp" alt="Ranked list of the best pickles for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*
