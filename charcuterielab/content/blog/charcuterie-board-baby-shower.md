@@ -53,6 +53,9 @@ A dessert board works well at a shower, either on its own or after a lighter sav
 
 > **Planning the spread?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) includes 50 boards for every occasion, including party and gathering formats with exact ingredient lists and portion math.
 
+
+For the cheese side, see [which cheeses are safe during pregnancy](/blog/cheese-safe-during-pregnancy/).
+
 ## Sources
 
 - [CDC: Preventing Listeria infection](https://www.cdc.gov/listeria/prevention/index.html)

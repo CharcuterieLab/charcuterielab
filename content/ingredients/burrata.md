@@ -93,6 +93,9 @@ has been stabilized, and it eats like firm mozzarella.
 
 **Ranked picks:** our top-rated burrata is **BelGioioso Burrata** (4.7 out of 5), and the best value is **Specially Selected Traditional Burrata (Aldi)**. See [the full ranking of the best burrata](/blog/best-burrata/).
 
+
+**Burrata or mozzarella?** See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/) for the differences and when to use each.
+
 ## Quick FAQ
 
 **What's inside burrata?**

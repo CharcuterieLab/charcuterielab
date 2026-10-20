@@ -53,6 +53,7 @@ Burrata and prosciutto is a fat-on-fat pairing held together by salt chemistry: 
 
 ## Related Reading
 
+- [Burrata vs. Mozzarella](/blog/burrata-vs-mozzarella/)
 - [How Fat Amplifies Aromatics on a Charcuterie Board](https://charcuterielab.com/fat-melting/)
 - [Salt and Sweet: How Sodium Changes What You Taste](https://charcuterielab.com/salt-sweet-principle/)
 - [How to Build a Charcuterie Board Step by Step](https://charcuterielab.com/blog/build-sequence/)

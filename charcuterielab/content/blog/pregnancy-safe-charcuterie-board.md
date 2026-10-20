@@ -106,6 +106,7 @@ Wash all fruit well, including grapes and berries, before it goes on the board.
 
 ## Related Reading
 
+- [Which Cheeses Are Safe During Pregnancy?](/blog/cheese-safe-during-pregnancy/)
 - [Baby Shower Charcuterie Board](/blog/charcuterie-board-baby-shower/)
 - [How Long Can a Charcuterie Board Sit Out?](/blog/how-long-charcuterie-board-last/)
 - [Cheese and Meat Temperature Guide](/blog/temperature-guide/)

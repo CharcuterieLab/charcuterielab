@@ -95,6 +95,9 @@ Each product is scored 1 to 5 on five things, then weighted: how it works on a b
 
 For what burrata pairs with and how to serve it, see the [burrata guide](/ingredients/burrata/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+Not sure whether you want burrata or mozzarella? See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/).
+
 ## Burrata questions
 
 **What is the best store-bought burrata?**

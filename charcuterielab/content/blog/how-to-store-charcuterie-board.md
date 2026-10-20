@@ -136,6 +136,8 @@ Store leftovers in separate components — never the assembled board. Cheese in 
 
 ## Related Reading
 
+- [Can You Freeze Cheese and Salami?](/blog/can-you-freeze-cheese/)
+- [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
 - [How Long Can a Charcuterie Board Sit Out?](https://charcuterielab.com/how-long-can-charcuterie-board-sit-out/)
 - [How to Make a Charcuterie Board](https://charcuterielab.com/blog/how-to-make-charcuterie-board/)
 - [How Much Cheese for a Charcuterie Board?](https://charcuterielab.com/blog/how-much-cheese-charcuterie-board/)

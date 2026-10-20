@@ -61,6 +61,7 @@ Camembert's rind is the same kind of mold as brie's, so the same answer applies.
 
 ## Related Reading
 
+- [Which Cheeses Are Safe During Pregnancy?](/blog/cheese-safe-during-pregnancy/)
 - [The Best Brie Brands, Ranked](/blog/best-brie-brands/)
 - [Brie: How to Serve & Pair It](/ingredients/brie/)
 - [What Goes With Brie?](/pairings/food/brie/)

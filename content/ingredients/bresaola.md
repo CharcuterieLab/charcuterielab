@@ -88,6 +88,9 @@ single whole muscle — the slice reads as one uniform piece of meat.
 **Skip:** pre-sliced packs that have been sitting. Look at the edges — if
 they're dark and curled in the tray, they'll be leather on the board.
 
+
+**Bresaola or prosciutto?** See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/) for how the two compare.
+
 ## Quick FAQ
 
 **Is bresaola beef or pork?**

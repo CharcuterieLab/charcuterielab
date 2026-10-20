@@ -156,6 +156,8 @@ Pull cheese from the refrigerator at least 30 minutes before serving (45–60 mi
 
 ## Related Reading
 
+- [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
+- [Can You Freeze Cheese and Salami?](/blog/can-you-freeze-cheese/)
 - [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)
 - [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)

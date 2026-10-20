@@ -89,6 +89,9 @@ behind — freshness is the entire quality signal.
 **Skip:** anything with a long shelf life. Stabilized stracciatella loses the
 loose, stringy texture that is the whole point.
 
+
+**How it compares:** see [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/).
+
 ## Quick FAQ
 
 **What's the difference between stracciatella and burrata?**

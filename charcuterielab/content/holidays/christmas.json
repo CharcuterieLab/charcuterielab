@@ -101,6 +101,15 @@
       "on_it": "Peppermints · chocolate truffles · gumdrops · candy canes · chocolate-covered pretzels · red and green candies"
     },
     {
+      "title": "The Christmas Cookie Board",
+      "for": "Dessert table · 8–30 guests",
+      "post": "christmas-cookie-charcuterie-board",
+      "image": "/images/christmas-cookie-charcuterie-board.jpg",
+      "text": "Five or six kinds of Christmas cookies fanned in rows, with dark chocolate, strawberries, clementines and a dip. Plan 3 to 4 cookies per guest, or 2 to 3 after a big dinner.",
+      "on_it": "Sugar cookies · gingerbread · shortbread · chocolate crinkles · biscotti · dark chocolate · strawberries · clementines",
+      "link_text": "Cookie board step by step"
+    },
+    {
       "title": "The Vegan Holiday Board",
       "for": "Mixed crowds · 10–14 guests",
       "board": "plant-based-holiday-board",
@@ -209,7 +218,9 @@
     "hot-cocoa-board",
     "baked-brie-recipe",
     "cheese-ball-recipe",
-    "charcuterie-skewers"
+    "charcuterie-skewers",
+    "christmas-cookie-charcuterie-board",
+    "leftover-charcuterie"
   ],
   "faq": [
     {

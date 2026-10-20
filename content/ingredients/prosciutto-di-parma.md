@@ -97,6 +97,9 @@ fast-cured domestic ham — fine in cooking, flat on a board.
 
 **Pregnant?** Cook it until steaming hot first. See [can you eat prosciutto while pregnant?](/blog/can-you-eat-prosciutto-while-pregnant/).
 
+
+**Need a pork-free option?** See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/).
+
 ## Quick FAQ
 
 **What's the difference between prosciutto and prosciutto di Parma?**

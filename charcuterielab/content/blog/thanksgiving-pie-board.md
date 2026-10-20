@@ -75,6 +75,7 @@ The pie board pairs with a savory board before dinner. For the full holiday spre
 
 ## Related Reading
 
+- [How Much Charcuterie for Thanksgiving?](/blog/how-much-charcuterie-for-thanksgiving/)
 - [Dessert Charcuterie Board](/blog/dessert-board/)
 - [Thanksgiving Charcuterie Board](/blog/thanksgiving-charcuterie-board/)
 - [Turkey Charcuterie Board](/blog/turkey-charcuterie-board/)

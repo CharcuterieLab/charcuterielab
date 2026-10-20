@@ -55,6 +55,7 @@ For a full plan with swaps and a shopping list, see our [pregnancy-safe charcute
 
 ## Related Reading
 
+- [Which Cheeses Are Safe During Pregnancy?](/blog/cheese-safe-during-pregnancy/)
 - [Can You Eat Charcuterie While Pregnant?](/blog/pregnancy-safe-charcuterie-board/)
 - [Baby Shower Charcuterie Board](/blog/charcuterie-board-baby-shower/)
 - [Prosciutto vs. Pancetta](/blog/prosciutto-vs-pancetta/)

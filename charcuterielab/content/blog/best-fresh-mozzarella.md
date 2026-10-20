@@ -94,6 +94,9 @@ Each product is scored 1 to 5 on five things, then weighted: how it works on a b
 
 For what fresh mozzarella pairs with and how to serve it, see the [fresh mozzarella guide](/ingredients/fresh-mozzarella/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+Choosing between mozzarella and burrata? See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/).
+
 ## Fresh mozzarella questions
 
 **What is the best fresh mozzarella for a board?**

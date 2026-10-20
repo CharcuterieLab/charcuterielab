@@ -94,6 +94,9 @@ in a solid block at room temperature. Different product entirely.
 
 **Ranked picks:** for kids' boards, our top-rated string cheese is **Frigo Cheese Heads** (4.2 out of 5). See [the full ranking of the best string cheese](/blog/best-string-cheese/).
 
+
+**Burrata or mozzarella?** See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/) for the differences and when to use each.
+
 ## Quick FAQ
 
 **Fresh mozzarella vs. buffalo mozzarella?**

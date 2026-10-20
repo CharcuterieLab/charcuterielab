@@ -71,6 +71,7 @@ For pairings and serving, see the [Prosciutto di Parma](/ingredients/prosciutto-
 
 ## Related Reading
 
+- [Bresaola vs. Prosciutto: Beef vs. Pork](/blog/bresaola-vs-prosciutto/)
 - [The Best Prosciutto Brands for a Charcuterie Board, Ranked](/blog/best-prosciutto-brands/)
 - [How to Make a Prosciutto Rose](/blog/prosciutto-rose/)
 - [The Best Manchego Brands for a Charcuterie Board, Ranked](/blog/best-manchego-brands/)

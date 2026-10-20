@@ -96,6 +96,7 @@ For the family version, see the [Thanksgiving charcuterie board](/blog/thanksgiv
 
 ## Related Reading
 
+- [How Much Charcuterie for Thanksgiving?](/blog/how-much-charcuterie-for-thanksgiving/)
 - [Thanksgiving Charcuterie Board: Amounts and Fall Flavors](/blog/thanksgiving-charcuterie-board/)
 - [Fall Charcuterie Board](/blog/fall-charcuterie-board/)
 - [How Much Charcuterie Per Person?](/blog/how-much-charcuterie-per-person/)

@@ -113,6 +113,9 @@ If you have space for a small dressed element (arugula with lemon and olive oil)
 
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
+
+For a side-by-side comparison, see [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/).
+
 ## Sources
 
 - [Consorzio di Tutela Bresaola della Valtellina](https://www.bresaolavaltellina.it/en/)

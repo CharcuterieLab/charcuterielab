@@ -131,6 +131,9 @@ Each product is scored 1 to 5 on five things, then weighted: how it works on a b
 
 For what prosciutto pairs with and how to serve it, see the [prosciutto di parma guide](/ingredients/prosciutto-di-parma/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+Serving guests who don't eat pork? See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/) for the beef alternative.
+
 ## Prosciutto questions
 
 **What is the best prosciutto for a charcuterie board?**

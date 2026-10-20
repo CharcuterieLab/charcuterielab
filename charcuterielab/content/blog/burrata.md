@@ -135,6 +135,7 @@ Burrata with ripe heirloom tomatoes, fresh basil, and a drizzle of good extra-vi
 
 ## Related Reading
 
+- [Burrata vs. Mozzarella: What's the Difference?](/blog/burrata-vs-mozzarella/)
 - [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)
 - [Cheese Rind Science: Which Rinds to Eat and Why Each Type Exists](https://charcuterielab.com/rind-science/)
