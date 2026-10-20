@@ -469,7 +469,8 @@ export function makeOffers(h, products, books) {
             if (heads.length < 2) return all;
             const body = inner.replace(/<tr>([\s\S]*?)<\/tr>/g, (row, cells) => {
               let k = 0;
-              return `<tr>${cells.replace(/<(td|th)(\s[^>]*)?>/g, (t, tag, attrs = "") => (k < heads.length && !/data-label=/.test(attrs) ? `<${tag}${attrs} data-label="${heads[k++]}">` : (k++, t)))}</tr>`;
+              // Cell text goes in one span so links stay inline in the phone grid.
+              return `<tr>${cells.replace(/<(td|th)(\s[^>]*)?>([\s\S]*?)<\/\1>/g, (t, tag, attrs = "", inner) => (k < heads.length && !/data-label=/.test(attrs) ? `<${tag}${attrs} data-label="${heads[k++]}"><span class="t-v">${inner}</span></${tag}>` : (k++, t)))}</tr>`;
             });
             return `<div class="table-wrap t-stack${heads.length >= 3 ? " t-stack-labels" : ""}"><table>${body}</table></div>`;
           });

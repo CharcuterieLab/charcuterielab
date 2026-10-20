@@ -7,16 +7,24 @@ excerpt: "How to make a DIY charcuterie gift basket: three box ideas at $25, $50
 description: "DIY charcuterie gift basket ideas for $25, $50 and $100 with full shopping lists, which meats and cheeses are shelf-stable, how to pack and ship it safely, gift tag pairing notes and gluten-free and vegetarian versions."
 faq: "[{"question": "What do you put in a charcuterie gift basket?", "answer": "A whole dry salami, one or two cheeses, crackers, a jam or honey, nuts, olives or cornichons and a mustard, with dark chocolate as a finish. A cheese knife or a small wooden board makes a gift that lasts after the food is gone."}, {"question": "Does a charcuterie gift basket need to be refrigerated?", "answer": "Most of it does not. Whole, unopened dry salami, crackers, jams, honey, nuts, jarred olives, mustard and chocolate are shelf-stable. Cheese and sliced or opened meat need to stay cold, so add the cheese right before you hand it over and tie on a tag that says to refrigerate it."}, {"question": "How long does a whole salami last unrefrigerated?", "answer": "USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard salami keeps about 6 weeks in the pantry and indefinitely in the refrigerator. Once it is opened or sliced, keep it in the fridge and use it within 3 weeks."}, {"question": "How much does a DIY charcuterie gift basket cost?", "answer": "About $25 to $35 for a small box with one salami, one cheese, crackers, jam and nuts, about $45 to $60 for a classic basket with two of each and extras, and about $95 to $130 for a luxury box that includes a wooden board and cheese knives."}, {"question": "Can you ship a charcuterie gift basket?", "answer": "Ship the shelf-stable items any way you like. If it includes cheese, use an insulated mailer with frozen gel packs, ship overnight early in the week so it does not sit in a warehouse over a weekend, and tell the recipient it is coming. Otherwise send the shelf-stable box with a note to add their favorite cheese."}]"
 slug: "charcuterie-gift-basket"
+updated: "2026-10-20"
 tags: "["charcuterie gift basket", "diy charcuterie gift", "food gift ideas", "christmas gift ideas", "charcuterie box"]"
 ---
 
 # DIY Charcuterie Gift Basket: 3 Box Ideas ($25, $50, $100) and How to Pack It
 
-> **Quick Answer:** Build the basket around things that don't need a fridge: a **whole, unopened dry salami**, crackers, a jam or honey, nuts, jarred olives or cornichons, a mustard and dark chocolate. Add **one or two cheeses right before you hand it over**, with a tag that says to refrigerate them. A small box runs **about $25 to $35**, a classic basket **$45 to $60** and a luxury box with a wooden board and knives **$95 to $130**. If you're shipping it, either leave the cheese out or send it overnight with gel packs.
+> **Quick Answer:** Build it around things that don't need a fridge: a **whole, unopened dry salami**, crackers, jam or honey, nuts, jarred olives, mustard and dark chocolate. Add **the cheese right before you hand it over**, with a tag that says to refrigerate it. Shipping? Leave the cheese out, or send it overnight with gel packs.
 
-A charcuterie gift basket costs less than most store-bought gift boxes, looks more personal, and gets eaten instead of sitting in a cupboard. The trick is choosing food that survives the trip. This guide gives you three baskets at three prices, the shopping list for each, and the packing and shipping rules that keep everything safe.
+:::html
+<div class="sk-top"><p class="sk-top-label">Three baskets, three budgets</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$25 to $35</p><span class="sk-top-name">The starter box</span><p class="sk-top-line">1 salami, 1 cheese, crackers, fig jam, cornichons, nuts. A board for 2–4.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-25">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$45 to $60</p><span class="sk-top-name">The classic basket</span><p class="sk-top-line">2 salamis, 2 cheeses, 2 crackers, jam, mustard, olives, almonds, chocolate. Feeds 6.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-50">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$95 to $130</p><span class="sk-top-name">The luxury box</span><p class="sk-top-line">Packed on a wooden board with cheese knives, so the gift outlasts the food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-100">The list</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#travels">What travels</a><a href="#box-25">$25 box</a><a href="#box-50">$50 basket</a><a href="#box-100">$100 box</a><a href="#pack">How to pack</a><a href="#tag">The tag</a><a href="#shipping">Shipping</a><a href="#versions">Special diets</a></nav>
+:::
 
-## What travels well (and what doesn't)
+A homemade basket costs less than most store-bought gift boxes, looks more personal and actually gets eaten. **The trick is choosing food that survives the trip.**
+
+:::html
+<h2 id="travels">What travels well (and what doesn&#x27;t)</h2>
+:::
 
 | Item | Needs the fridge? | Notes |
 |---|---|---|
@@ -33,7 +41,9 @@ A charcuterie gift basket costs less than most store-bought gift boxes, looks mo
 
 The storage times come from the [USDA's sausage storage guidance](https://www.fsis.usda.gov/es/node/3310): a whole hard or dry sausage keeps about **6 weeks in the pantry** and indefinitely in the fridge unopened, and **3 weeks** in the fridge once opened.
 
-## Box 1: The $25 starter box
+:::html
+<h2 id="box-25">Box 1: The $25 starter box</h2>
+:::
 
 A small box for a neighbor, a teacher or a stocking. It makes a board for two to four.
 
@@ -51,7 +61,9 @@ A small box for a neighbor, a teacher or a stocking. It makes a board for two to
 
 Pack it in a small kraft gift box or a lined shoebox-size crate.
 
-## Box 2: The $50 classic basket
+:::html
+<h2 id="box-50">Box 2: The $50 classic basket</h2>
+:::
 
 Enough for a board for six, and the most popular size for hosts, coworkers and family.
 
@@ -72,7 +84,9 @@ Enough for a board for six, and the most popular size for hosts, coworkers and f
 
 A shallow wicker basket or wooden crate holds this size well.
 
-## Box 3: The $100 luxury box
+:::html
+<h2 id="box-100">Box 3: The $100 luxury box</h2>
+:::
 
 The board is the container, so the gift keeps going after the food is gone.
 
@@ -102,7 +116,9 @@ For the board itself, see [wood vs slate vs marble](/blog/best-charcuterie-board
 - **Warehouse and discount stores win on price.** Costco, Aldi and Trader Joe's all sell good gift-size cheeses and jars. See the [Costco](/blog/best-costco-charcuterie-items/), [Aldi](/blog/best-aldi-charcuterie-items/) and [Trader Joe's](/blog/best-trader-joes-cheeses/) picks.
 - **Pick one fancy thing.** One jar of truffle honey or one wedge of real Parmigiano-Reggiano makes the whole basket feel expensive. The rest can be store brand.
 
-## How to pack it
+:::html
+<h2 id="pack">How to pack it</h2>
+:::
 
 ![Hands packing a charcuterie gift basket, with jars at the back, salamis standing upright and crackers going in on top](/images/charcuterie-gift-basket-packing.jpg)
 
@@ -114,7 +130,9 @@ For the board itself, see [wood vs slate vs marble](/blog/best-charcuterie-board
 6. **Add the cheese last,** right before you hand it over, in a small insulated pouch or wrapped in parchment. Leave a gap at the front for it.
 7. **Wrap it** in clear cellophane gathered at the top with ribbon, and tie on the tag.
 
-## What to write on the tag
+:::html
+<h2 id="tag">What to write on the tag</h2>
+:::
 
 A good tag turns a pile of groceries into a board. Include:
 
@@ -123,13 +141,17 @@ A good tag turns a pile of groceries into a board. Include:
 - **How to serve it:** take the cheese out 30 to 60 minutes before serving, and slice the salami thin. See the [temperature guide](/blog/temperature-guide/).
 - **Allergens,** especially nuts and gluten.
 
-## Shipping a charcuterie gift
+:::html
+<h2 id="shipping">Shipping a charcuterie gift</h2>
+:::
 
 - **Shelf-stable items only:** ship any way you like. This is the easiest and safest option.
 - **With cheese:** use an insulated mailer with frozen gel packs, ship **overnight**, and ship **Monday to Wednesday** so it doesn't sit in a warehouse over the weekend. Tell the recipient it's coming.
 - **The workaround:** ship the shelf-stable box and add a note to pick up their favorite cheese, or tuck in a gift card for a local cheese shop.
 
-## Versions for every guest
+:::html
+<h2 id="versions">Versions for every guest</h2>
+:::
 
 - **Gluten-free:** swap in gluten-free crackers (see [the best gluten-free crackers](/blog/best-gluten-free-crackers/)) and check the salami label.
 - **Vegetarian:** skip the meat, and add a second cheese, marinated artichokes, a jar of [pepper jelly](/ingredients/pepper-jelly/) and more nuts. For a dairy-free version, see [the best vegan cheese](/blog/best-vegan-cheese/).

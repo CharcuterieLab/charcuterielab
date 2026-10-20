@@ -4,86 +4,72 @@ date: "2026-08-31"
 image: "/images/charcuterie-board-nuts.png"
 excerpt: "Nuts on a Charcuterie Board: Which Ones and Why"
 description: "Nuts on a charcuterie board: why Marcona almonds are the board standard, how each nut type pairs with different cheeses, and how much to include."
-faq: "[{"question":"What nuts are best for a charcuterie board?","answer":"Marcona almonds are the board standard — their oleic acid fat profile resonates with most soft and semi-firm cheeses, their mild flavor doesn't compete with anything, and their butter-roasted finish makes them appealing on their own. Walnuts are the best pairing for blue cheese and aged hard cheeses. Pecans work well with soft cheeses and honey-forward sections."},{"question":"How many types of nuts should be on a charcuterie board?","answer":"One to two types. One type (Marcona almonds) covers most boards completely. A second type adds textural variety and extends the pairing range — walnuts for bold cheese sections, pecans for soft cheese sections. Three or more nut types is excessive; the board starts to feel like a nut assortment rather than a charcuterie board."},{"question":"How much nuts per person on a charcuterie board?","answer":"0.5–1 oz per person is the right quantity. Nuts are calorie-dense and rich — guests take small handfuls repeatedly rather than large amounts at once. A 3–4 oz total portion of Marcona almonds for a board serving 6–8 people is appropriate. Don't over-represent nuts; they should accent, not anchor."},{"question":"Should you use salted or unsalted nuts on a charcuterie board?","answer":"Lightly salted nuts are generally preferable to unsalted. The salt enhances flavor and makes the nuts more interesting on their own. Heavily salted or aggressively seasoned nuts (rosemary-truffle, everything bagel seasoning) compete with the cheese and meat — the nut flavor should support the board, not compete with it. Plain roasted, lightly salted is the baseline."},{"question":"Can you use candied nuts on a charcuterie board?","answer":"Yes, in small quantities near soft cheese sections. Candied pecans or candied walnuts near brie or chèvre work well — the caramelized sweetness adds a sweet note that complements the fat in soft cheese. Keep candied nuts away from aged hard cheeses where their sweetness can clash with the bitter-complex profile. Use no more than one candied nut type per board."}]"
+faq: "[{"question":"What nuts are best for a charcuterie board?","answer":"Marcona almonds are the board standard — they are buttery and go with most soft and semi-firm cheeses, their mild flavor doesn't compete with anything, and their butter-roasted finish makes them appealing on their own. Walnuts are the best pairing for blue cheese and aged hard cheeses. Pecans work well with soft cheeses and honey-forward sections."},{"question":"How many types of nuts should be on a charcuterie board?","answer":"One to two types. One type (Marcona almonds) covers most boards completely. A second type adds textural variety and extends the pairing range — walnuts for bold cheese sections, pecans for soft cheese sections. Three or more nut types is excessive; the board starts to feel like a nut assortment rather than a charcuterie board."},{"question":"How much nuts per person on a charcuterie board?","answer":"0.5–1 oz per person is the right quantity. Nuts are calorie-dense and rich — guests take small handfuls repeatedly rather than large amounts at once. A 3–4 oz total portion of Marcona almonds for a board serving 6–8 people is appropriate. Don't over-represent nuts; they should accent, not anchor."},{"question":"Should you use salted or unsalted nuts on a charcuterie board?","answer":"Lightly salted nuts are generally preferable to unsalted. The salt enhances flavor and makes the nuts more interesting on their own. Heavily salted or aggressively seasoned nuts (rosemary-truffle, everything bagel seasoning) compete with the cheese and meat — the nut flavor should support the board, not compete with it. Plain roasted, lightly salted is the baseline."},{"question":"Can you use candied nuts on a charcuterie board?","answer":"Yes, in small quantities near soft cheese sections. Candied pecans or candied walnuts near brie or chèvre work well — the caramelized sweetness adds a sweet note that complements the fat in soft cheese. Keep candied nuts away from aged hard cheeses where their sweetness can clash with the bitter-complex profile. Use no more than one candied nut type per board."}]"
 slug: "charcuterie-board-nuts"
+updated: "2026-10-20"
 tags: "["charcuterie board nuts", "charcuterie board", "board building"]"
 ---
 
 # Nuts on a Charcuterie Board: Which Ones and Why
 
-> **Quick Answer:** Marcona almonds are the board standard — their oleic acid fat profile pairs with nearly every cheese, their mild flavor doesn't compete, and their butter-roasted finish is appealing. Add walnuts for bold cheese sections, pecans near soft cheese. 0.5–1 oz per person, lightly salted, one or two nut types maximum.
+> **Quick Answer:** Marcona almonds are the default: mild, buttery and good with nearly every cheese. Add walnuts next to blue or aged cheese, or pecans next to brie. Plan ½–1 oz per person, lightly salted, and stick to one or two kinds.
 
 > **Nut allergy at the party?** Roasted pumpkin and sunflower seeds give the same crunch. See the [nut-free board guide](/dietary/nut-free/) for where else nuts hide.
 
-## Why Nuts Belong on a Charcuterie Board
+:::html
+<div class="sk-top"><p class="sk-top-label">Which nut, next to which cheese</p>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Default</p><span class="sk-top-name">Marcona almonds</span><p class="sk-top-line">Manchego, chèvre, young Gouda, brie, prosciutto.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="/blog/best-marcona-almonds/">Best brands</a></span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Blue &amp; aged cheese</p><span class="sk-top-name">Walnuts</span><p class="sk-top-line">Stilton, Gorgonzola, Roquefort, aged cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">The classic</span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Soft cheese</p><span class="sk-top-name">Pecans (or candied pecans)</span><p class="sk-top-line">Brie, triple-crème, chèvre, by the honey.</p></div><div class="sk-top-buy"><span class="sk-price">Small cluster</span></div></div>
+</div>
+<nav class="sk-jump" aria-label="On this page"><a href="#why">Why nuts</a><a href="#which">Which nuts</a><a href="#skip">What to skip</a><a href="#how-much">How much &amp; where</a><a href="#faq">FAQ</a></nav>
+:::
 
-Nuts perform three distinct functions that no other board element replicates:
+:::html
+<h2 id="why">Why nuts belong on a board</h2>
+<ul class="sk-checks">
+<li><strong>Crunch.</strong> Cheese is soft and cured meat is tender. Without something crunchy, the board gets monotonous.</li>
+<li><strong>Matching richness.</strong> Marcona almonds are rich in oleic acid, the main fat in olive oil, which is why they taste so right with Manchego and other sheep's milk cheese.</li>
+<li><strong>A slightly bitter edge.</strong> Walnuts' earthy bitterness balances the sharpness of blue and long-aged cheese.</li>
+</ul>
+:::
 
-**Textural contrast:** The crunch of a nut against the softness of cheese and the tender chew of cured meat creates textural variation that keeps the eating experience interesting across multiple rounds. Without something crunchy, a board of cheese and meat becomes texturally monotonous.
+:::html
+<h2 id="which">Which nuts to use</h2>
+:::
 
-**Fat resonance pairing:** Many nuts share dominant fatty acid profiles with specific cheeses. Marcona almonds, with their oleic acid-dominant fat profile, resonate specifically with the fat in sheep's milk cheese (Manchego) and fresh goat's milk cheese. This fat resonance produces a smooth, integrated finish that explains why certain nut-cheese combinations feel specifically correct rather than generically complementary.
+| Nut | What it's like | Put it next to |
+|---|---|---|
+| **Marcona almonds** | Spanish almonds: rounder, flatter and softer, usually roasted in olive oil and salted. Good enough to eat on their own | Manchego, fresh chèvre, young Gouda, brie, prosciutto, Ibérico ham |
+| **Walnuts** | Earthy, mildly bitter | Stilton, Gorgonzola, Roquefort, aged cheddar, Manchego Viejo, aged Gouda |
+| **Pecans** | The mildest and sweetest, buttery-caramel | Brie, triple-crème, fresh chèvre, the honey |
+| **Candied pecans or walnuts** | Sweet and crunchy | Soft cheese only; one candied kind per board |
+| **Pistachios** | Mild, a little piney; the green color is the point | Fresh chèvre, young Manchego, prosciutto; spring boards |
 
-**Tannin contribution:** Walnuts and pecans contain tannins (ellagitannins and condensed tannins respectively) that interact with cheese proteins in ways similar to wine tannins. These tannin interactions add structural complexity to pairings with aged hard cheeses and blue cheeses — which is why walnuts are specifically recommended with Stilton and Roquefort.
+Ranking the brands? See [the best Marcona almonds](/blog/best-marcona-almonds/) and [the best mixed nuts](/blog/best-mixed-nuts/).
 
-## Marcona Almonds: The Board Standard
+:::html
+<h2 id="skip">What to skip</h2>
+<ul class="sk-checks">
+<li class="sk-x"><strong>Heavily seasoned nuts.</strong> Rosemary-truffle almonds, everything-bagel cashews and chipotle peanuts fight the cheese.</li>
+<li class="sk-x"><strong>Canned mixed nuts.</strong> Made for snacking, with uneven quality and filler.</li>
+<li class="sk-x"><strong>Raw nuts.</strong> Roasting brings out the flavor and crunch.</li>
+<li class="sk-x"><strong>Peanuts.</strong> They read as a bar snack, and the flavor takes over.</li>
+</ul>
+:::
 
-Marcona almonds are a Spanish variety of almond with a rounder, flatter shape and a distinctly different fat profile than California almonds. Their dominant fatty acid is oleic acid — the same monounsaturated fat that is the primary fat in olive oil.
-
-This shared lipid profile is why Marcona almonds pair so specifically with Manchego and other sheep's milk cheeses: the fat molecules reinforce rather than contrast, creating a smooth, integrated finish. Marcona almonds with Manchego tastes integrated; other almonds with Manchego tastes approximate.
-
-Marcona almonds are typically sold roasted in olive oil and salted, which adds a butter-to-olive-oil richness that makes them one of the more satisfying snack elements on a board in their own right. This standalone appeal matters — nuts that are interesting on their own invite guests to engage with them before discovering the pairing logic.
-
-**Works with:** Manchego, fresh chèvre, young Gouda, brie, prosciutto, Ibérico ham
-
-## Walnuts: The Blue Cheese Pairing
-
-Walnuts contain ellagitannins — hydrolyzable tannins that bind with proteins and add structural complexity to pairings. This is the same class of tannins found in fig jam and quince paste, which explains why walnuts perform well alongside the same cheeses that fig jam serves.
-
-Walnuts are the traditional pairing for blue cheeses (Gorgonzola, Stilton, Roquefort) for this reason. The tannins in walnuts bind with the sharp, slightly ammoniac protein compounds in blue cheese and create a more cohesive palate experience — the combination feels integrated rather than aggressively challenging.
-
-Walnuts also pair well with aged hard cheeses (aged cheddar, Parmigiano) where their earthiness and mild bitterness echo the complex, slightly bitter notes in long-aged cheese.
-
-**Works with:** Stilton, Gorgonzola, Roquefort, aged cheddar, Manchego Viejo, aged gouda
-
-## Pecans: The Soft Cheese Pairing
-
-Pecans are the mildest, sweetest nut on the board — low tannin, high monounsaturated fat, with a butter-caramel character that positions them as a sweet accent rather than a bold pairing. This mild profile works best near soft cheeses (brie, triple-crème, fresh chèvre) and honey-forward board sections where a subtler nut won't compete.
-
-Candied pecans are the most versatile version for boards: the caramelized sugar adds sweetness that complements triple-crème and brie, and the crunch provides textural contrast. Keep the quantity modest — a small cluster near the soft cheese section.
-
-**Works with:** Brie, triple-crème, fresh chèvre, honey sections
-
-## Pistachios: The Visual Choice
-
-Pistachios are the most visually distinctive nut for a board — the green kernel against the beige shell, or shelled pistachios with their vivid green color, add a color element that other nuts don't. Flavor-wise, their mild sweetness and slightly resinous character pairs reasonably with a range of cheeses without excelling anywhere specifically.
-
-Use pistachios when you want visual color contribution from the nut section. They're particularly effective on boards with a light, spring-appropriate palette.
-
-**Works with:** Fresh chèvre, young Manchego, mild cheeses, prosciutto
-
-## What to Avoid
-
-**Heavily seasoned nuts:** Rosemary-truffle almonds, everything bagel cashews, chipotle peanuts — these flavors compete with the cheese and meat rather than supporting them. The nut should accent the board, not perform separately.
-
-**Mixed nut assortments from a can:** These typically include salted peanuts, cashews, and fillers that are inconsistent in quality. The composition was designed for standalone snacking, not board building.
-
-**Raw nuts:** Raw almonds, raw cashews, and raw walnuts lack the roasted character that makes nuts interesting on a board. Roasting concentrates flavor and improves texture.
-
-**Peanuts:** Technically a legume, but more importantly — the flavor is too dominant and familiar-in-the-wrong-direction for a board context. They read as bar snacks rather than board elements.
-
-## Quantity and Placement
-
-**Quantity:** 0.5–1 oz per person. Nuts are calorie-dense and guests self-regulate. A 3–4 oz bowl of Marcona almonds for 6–8 people is correct. Don't over-represent.
-
-**Placement:** Position nuts adjacent to the cheeses they pair best with. Marcona almonds near Manchego and chèvre; walnuts near blue cheese or aged cheddar; pecans near brie. Small clusters in gaps between elements work better than a single large pile in the center.
-
-**Texture on the board:** A small ramekin prevents nuts from rolling off the board and keeps them from mixing with other elements. Alternatively, cluster them in a defined section with neighboring crackers or fruit acting as a natural boundary.
+:::html
+<h2 id="how-much">How much and where</h2>
+<ul class="sk-checks">
+<li><strong>½–1 oz per person.</strong> Nuts are rich, and guests take small handfuls. A 3–4 oz bowl of Marcona almonds covers 6–8 people.</li>
+<li><strong>One or two kinds.</strong> Three or more and it turns into a nut assortment.</li>
+<li><strong>Lightly salted, roasted.</strong> That's the baseline.</li>
+<li><strong>Next to their cheese.</strong> Almonds by the Manchego, walnuts by the blue, pecans by the brie. Small clusters in the gaps beat one big pile.</li>
+<li><strong>A small bowl stops them rolling</strong> off the board and mixing with everything else.</li>
+</ul>
+:::
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 complete boards — each with specific nut selections, quantities, and placement logic to match the cheese and meat selections.
-
-## The Charcuterie Lab Takeaway
-
-Marcona almonds are the one nut that belongs on almost every board — their fat resonance with most common cheeses, mild flavor, and standalone appeal make them the reliable default. Add walnuts for blue cheese sections, pecans or candied variants for soft cheese sections, pistachios when color matters. Keep the total nut presence to 0.5–1 oz per person, lightly salted, one or two types maximum.
 
 ## Related Reading
 
@@ -92,10 +78,12 @@ Marcona almonds are the one nut that belongs on almost every board — their fat
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)
 - [The Best Mixed Nuts for a Charcuterie Board, Ranked](/blog/best-mixed-nuts/)
 
-## FAQ
+:::html
+<h2 id="faq">FAQ</h2>
+:::
 
 **What nuts are best for a charcuterie board?**
-Marcona almonds are the board standard — their oleic acid fat profile resonates with most soft and semi-firm cheeses, their mild flavor doesn't compete with anything, and their butter-roasted finish makes them appealing on their own. Walnuts are the best pairing for blue cheese and aged hard cheeses. Pecans work well with soft cheeses and honey-forward sections.
+Marcona almonds are the board standard — they are buttery and go with most soft and semi-firm cheeses, their mild flavor doesn't compete with anything, and their butter-roasted finish makes them appealing on their own. Walnuts are the best pairing for blue cheese and aged hard cheeses. Pecans work well with soft cheeses and honey-forward sections.
 
 **How many types of nuts should be on a charcuterie board?**
 One to two types. One type (Marcona almonds) covers most boards completely. A second type adds textural variety and extends the pairing range — walnuts for bold cheese sections, pecans for soft cheese sections. Three or more nut types is excessive; the board starts to feel like a nut assortment rather than a charcuterie board.

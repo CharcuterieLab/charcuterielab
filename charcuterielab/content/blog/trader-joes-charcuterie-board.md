@@ -7,16 +7,24 @@ excerpt: "A Trader Joe's charcuterie board for 10: the cheeses, salami, crackers
 description: "Trader Joe's charcuterie board shopping list for 10 guests: which Trader Joe's cheeses, meats, crackers and extras to buy, how much of each, 2026 prices and total cost, a $25 board for 4 to 6 and seasonal swaps."
 faq: "[{"question": "How much does a Trader Joe's charcuterie board cost?", "answer": "About $90 to $110 for a full board for 10 people where the charcuterie is the party food, or roughly $9 to $11 a guest, using prices seen at Trader Joe's in 2026. A smaller board for 4 to 6 can be built for about $25."}, {"question": "What cheese should I get at Trader Joe's for a charcuterie board?", "answer": "Unexpected Cheddar, sliced Manchego, a Double Cream Brie and Creamy Toscano Cheese Soaked in Syrah give you a sharp, a nutty, a soft and a wine-washed cheese. Boursin and Port Salut are good swaps."}, {"question": "What meat does Trader Joe's have for charcuterie?", "answer": "Trader Joe's usually carries sliced Italian dry salame and a salame stick, Calabrese, sliced prosciutto and a mixed Italian deli selection. Prosciutto-wrapped mozzarella is an easy extra."}, {"question": "How much meat and cheese do I need for 10 people?", "answer": "When the board is the main party food, plan 3 oz each of meat and cheese per guest, which is 30 oz, just under 2 lb, of each for 10 people. If a meal follows, 2 oz each per guest, or 20 oz of each, is enough."}, {"question": "What are the best Trader Joe's crackers for charcuterie?", "answer": "Fig and Olive Crisps for the sweet-salty cheeses, Savory Thins as a cheap neutral cracker, and a sliced baguette. In the fall, look for the seasonal cranberry and pumpkin crisps."}]"
 slug: "trader-joes-charcuterie-board"
+updated: "2026-10-20"
 tags: "["trader joe's charcuterie board", "trader joes charcuterie", "trader joe's cheese board", "charcuterie shopping list", "budget charcuterie board"]"
 ---
 
 # Trader Joe's Charcuterie Board: Shopping List for 10 + Prices
 
-> **Quick Answer:** For 10 guests where the board is the party food, buy **30 oz of cheese and 30 oz of meat** (just under 2 lb of each) at Trader Joe's: Unexpected Cheddar, sliced Manchego, Double Cream Brie and Creamy Toscano soaked in Syrah, plus salame, Calabrese and prosciutto. Add Fig and Olive Crisps, Savory Thins, a baguette, grapes, raspberries, Marcona almonds, cornichons and dark chocolate. At prices seen in 2026 it comes to about **$90 to $110, or $9 to $11 a guest**.
+> **Quick Answer:** For 10 guests, buy **30 oz of cheese and 30 oz of meat** at Trader Joe's: Unexpected Cheddar, Manchego, Double Cream Brie and Toscano in Syrah, plus salame, Calabrese and prosciutto. Add crackers, fruit and extras. It comes to about **$90 to $110, or $9 to $11 a guest**.
 
-Trader Joe's is built for this. The cheese case is small but well chosen, the crackers are cheap, and the extras that make a board look finished (dried orange slices, Marcona almonds, dark chocolate) cost a couple of dollars each. The trick is buying the right amounts, because it's easy to come home with seven cheeses and no meat.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For 10 guests</p><span class="sk-top-name">30 oz cheese + 30 oz meat</span><p class="sk-top-line">Just under 2 lb of each when the board is the party food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">About $90 to $110</span><p class="sk-top-line">$9 to $11 a guest at 2026 prices. A $25 board feeds 4 to 6.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Must-buy</p><span class="sk-top-name">Unexpected Cheddar</span><p class="sk-top-line">The cheese everyone asks about, plus Manchego, brie and Toscano in Syrah.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cheese">The cheeses</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#how-much">How much</a><a href="#cheese">Cheese</a><a href="#meat">Meat</a><a href="#extras">Crackers &amp; extras</a><a href="#cost">Cost</a><a href="#smaller">$25 &amp; $45 boards</a><a href="#seasonal">Seasonal</a><a href="#build">Build it</a></nav>
+:::
 
-## How much to buy for 10
+Trader Joe's is built for this: a small, well-chosen cheese case, cheap crackers and $2 extras that make a board look finished. **The trick is the amounts.** It's easy to come home with seven cheeses and no meat.
+
+:::html
+<h2 id="how-much">How much to buy for 10</h2>
+:::
 
 The Lab standard is 3 oz each of meat and cheese per guest when the board is the main food, and 2 oz each when a meal follows. Under 20 guests you don't need a buffer.
 
@@ -31,7 +39,9 @@ The Lab standard is 3 oz each of meat and cheese per guest when the board is the
 
 Trader Joe's pack sizes vary and change, so read the weight on each label and keep a running total until you hit the ounces above.
 
-## The cart: cheese (30 oz)
+:::html
+<h2 id="cheese">The cart: cheese (30 oz)</h2>
+:::
 
 | Trader Joe's item | Use on the board | Price seen |
 |---|---|---|
@@ -42,7 +52,9 @@ Trader Joe's pack sizes vary and change, so read the weight on each label and ke
 
 Unexpected Cheddar is the one everyone asks about: a cheddar with the sweet crunch of an aged Parmesan-style cheese. Manchego brings a firm, nutty sheep's milk cheese, the brie is the soft one, and the Syrah-soaked Toscano has a purple rind that adds color. Boursin ($3.79) or Port Salut ($6.35) are good swaps. If a cheese pack comes up short of the ounces, buy two. Read more about [aged cheddar](/ingredients/aged-cheddar/), [Manchego](/ingredients/manchego/), [brie](/ingredients/brie/) and [Boursin](/ingredients/boursin/).
 
-## The cart: meat (30 oz)
+:::html
+<h2 id="meat">The cart: meat (30 oz)</h2>
+:::
 
 | Trader Joe's item | Use on the board | Price seen |
 |---|---|---|
@@ -54,7 +66,9 @@ Unexpected Cheddar is the one everyone asks about: a cheddar with the sweet crun
 
 Slice the salame stick into coins on the diagonal, fold the sliced salame into quarters and drape the prosciutto. Calabrese brings a little heat. Prosciutto-wrapped fresh mozzarella ($4.99 for 5 oz) is an easy extra that counts toward both the meat and the cheese. See [Genoa salami](/ingredients/genoa-salami/) and [Prosciutto di Parma](/ingredients/prosciutto-di-parma/).
 
-## The cart: crackers, fruit and extras
+:::html
+<h2 id="extras">The cart: crackers, fruit and extras</h2>
+:::
 
 | Trader Joe's item | Price seen | How many |
 |---|---|---|
@@ -74,7 +88,9 @@ Add a jar of fig butter or honey if you like a sweet spread with the brie. [Marc
 
 **Prices seen:** most prices are from [Ain't Too Proud to Meg's Trader Joe's boards](https://ainttooproudtomeg.com/trader-joes-cheese-board-65-budget/) (updated May 2026). The prosciutto-wrapped mozzarella price is from [Grocery Coupon Guide](https://www.grocerycouponguide.com/articles/trader-joes-vs-aldi-which-store-builds-the-cheaper-charcuterie-board/) (October 2026). Trader Joe's prices vary by region.
 
-## What it costs
+:::html
+<h2 id="cost">What it costs</h2>
+:::
 
 | Group | Approximate total |
 |---|---|
@@ -86,7 +102,9 @@ Add a jar of fig butter or honey if you like a sweet spread with the brie. [Marc
 
 That's $9 to $11 a guest for a board that is the whole party. Before a dinner, cut the meat and cheese to 20 oz each and the total drops to about $70.
 
-## Smaller boards: $25 and $45
+:::html
+<h2 id="smaller">Smaller boards: $25 and $45</h2>
+:::
 
 | Board | Serves | What's in it |
 |---|---|---|
@@ -95,7 +113,9 @@ That's $9 to $11 a guest for a board that is the whole party. Before a dinner, c
 
 Both lists are from the same Ain't Too Proud to Meg price check. At 4 to 6 people, the $25 board works as an appetizer before a meal. As the main food, use the $45 board for 6. For more ways to save, see the [budget charcuterie board](/blog/budget-charcuterie-board/).
 
-## Seasonal finds worth grabbing
+:::html
+<h2 id="seasonal">Seasonal finds worth grabbing</h2>
+:::
 
 Trader Joe's rotates seasonal items in and out, so these depend on when you shop.
 
@@ -105,7 +125,9 @@ Trader Joe's rotates seasonal items in and out, so these depend on when you shop
 
 If a seasonal item is gone, swap in the year-round version. A [cranberry goat cheese](/ingredients/cranberry-goat-cheese/) can be made at home by rolling a plain goat log in chopped dried cranberries.
 
-## Build it in 20 minutes
+:::html
+<h2 id="build">Build it in 20 minutes</h2>
+:::
 
 1. **1 hour before:** take out the Manchego and Unexpected Cheddar (45 to 60 minutes for aged cheese).
 2. **30 minutes before:** take out the brie, Toscano and meat.

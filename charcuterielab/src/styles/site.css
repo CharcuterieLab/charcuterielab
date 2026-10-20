@@ -4806,6 +4806,8 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
   .t-stack tbody tr { padding: 10px 12px; margin-bottom: 8px; }
   .t-stack-labels tbody td:not(:first-child) { display: grid; grid-template-columns: minmax(5.5em, 34%) minmax(0, 1fr); gap: 10px; align-items: baseline; padding: 3px 0; }
   .t-stack-labels tbody td:not(:first-child)::before { display: block; font-size: 11px; }
+  .t-stack td a, .t-stack th a { display: inline; padding-block: 0; }
+  .post-body .t-stack td:first-child { width: 100%; }
 
   /* Related reading: a tight list. */
   .related-grid { gap: 6px; }

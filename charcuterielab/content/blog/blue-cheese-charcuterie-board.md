@@ -6,6 +6,7 @@ excerpt: "Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Scien
 description: "Use one blue cheese, 3 to 5 oz for 6 to 10 guests, at the board's edge with honey, figs, pear and walnuts. Which blue to buy and why the pairings work."
 faq: "[{"question":"What blue cheese is best for a charcuterie board?","answer":"Gorgonzola dolce is the easiest blue for a board: creamy, mild and spreadable, so it wins over guests who think they don't like blue cheese. Stilton is balanced and crumbles neatly, which makes it the most versatile. Roquefort is sharper, saltier and more complex. Cambozola, a soft German blue with a bloomy rind, is the mildest of all."},{"question":"What pairs best with blue cheese on a charcuterie board?","answer":"Honey is the classic partner, because sweetness tempers blue cheese's salt and sharpness. Figs, fresh or dried, do the same with extra texture. Pear adds juicy sweetness and a little acidity, walnuts add crunch and a slightly bitter edge, and prosciutto adds salty, savory depth. Keep crackers plain so they don't compete."},{"question":"How much blue cheese should you put on a charcuterie board?","answer":"About 3 to 5 oz for a board serving 6 to 10 people when blue is one of three or four cheeses. That works out to roughly half an ounce per guest, out of the 2 oz of cheese per guest a full board needs. Blue is intense, so a little goes a long way. Place it away from mild cheeses like fresh chèvre or triple-crème."},{"question":"Why does honey pair so well with blue cheese?","answer":"Sweetness tempers the saltiness and sharp, slightly bitter notes of blue cheese, so the creamy, savory flavors underneath come forward. Blue cheese gets its bite from fat and protein breaking down as it ages, and its signature aroma from methyl ketones made by the blue mold. Honey softens that intensity without hiding it, which is why the two taste better together than apart."},{"question":"Can you put blue cheese on a board with guests who don't like it?","answer":"Yes. Put it at a corner or edge of the board so it reads as optional, and label it. Choose a mild, creamy blue like Gorgonzola dolce or Cambozola rather than Roquefort. Serve it with honey or honeycomb beside it: that pairing wins over a lot of doubters."}]"
 slug: "blue-cheese-charcuterie-board"
+updated: "2026-10-20"
 tags: "["blue cheese charcuterie board", "blue cheese pairings", "ingredient deep dive", "charcuterie board"]"
 ---
 
@@ -13,11 +14,16 @@ tags: "["blue cheese charcuterie board", "blue cheese pairings", "ingredient dee
 
 > **Quick Answer:** Put one blue cheese on your board, about 3 to 5 oz for 6 to 10 guests, at an edge rather than the center. Choose Gorgonzola dolce for a cautious crowd, Stilton for a mixed one and Roquefort for cheese lovers. Set honey or honeycomb right beside it, with figs, pear and walnuts within reach. Sweetness tempers blue's salt and sharpness.
 
-Blue cheese is the most misunderstood thing on a charcuterie board. It often goes in as a token nod to variety, lands in the middle, gets avoided by half the guests, and is swapped for something safer next time.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Which blue</p><span class="sk-top-name">Gorgonzola dolce for a cautious crowd</span><p class="sk-top-line">Stilton for a mixed one, Roquefort for cheese lovers.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#which">All 5 blues</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">3 to 5 oz for 6 to 10 guests</span><p class="sk-top-line">One blue, at the edge of the board, not the center.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how">How to use it</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Put beside it</p><span class="sk-top-name">Honey or honeycomb</span><p class="sk-top-line">Then figs, pear and walnuts within reach.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#pairs">Pairings</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#what">What is blue cheese</a><a href="#which">Which blue</a><a href="#how">How to use it</a><a href="#pairs">Pairings</a><a href="#science">The science</a><a href="#mistakes">Mistakes</a></nav>
+:::
 
-Used well, it's a different story. The right blue, in the right amount, with the right partners, makes some of the best bites on the board.
+Blue cheese often goes in as a token gesture, lands in the middle and gets avoided by half the guests. **The right blue, in the right amount, with the right partners** makes some of the best bites on the board.
 
-## What Is Blue Cheese?
+:::html
+<h2 id="what">What Is Blue Cheese?</h2>
+:::
 
 Blue cheese is any cheese ripened with blue mold, usually *Penicillium roqueforti*, growing through the paste. Cheesemakers pierce the young wheels with steel needles to let air in. The mold needs oxygen, so it grows along those channels and forms the blue-green veins.
 
@@ -28,7 +34,9 @@ Two things happen as a blue ages:
 
 How far those changes go, plus the milk and the salt level, decides whether a blue tastes mild and creamy or bold and pungent.
 
-## Best Blue Cheeses for a Board
+:::html
+<h2 id="which">Best Blue Cheeses for a Board</h2>
+:::
 
 **[Gorgonzola dolce](/ingredients/gorgonzola/) (Italy, cow's milk):** Creamy, soft and mildly sweet, with the blue spread gently through a spoonable paste. It sits on a cracker like a soft cheese. Your best bet for guests who are wary of blue.
 
@@ -42,7 +50,9 @@ How far those changes go, plus the milk and the salt level, decides whether a bl
 
 **Can't find these?** Most supermarkets carry a domestic Danish-style blue or a Gorgonzola piccante, a firmer, sharper Gorgonzola. Both work. Buy a wedge rather than pre-crumbled blue, which is drier, often has anti-caking starch added, and has less flavor.
 
-## How to Use It on a Board
+:::html
+<h2 id="how">How to Use It on a Board</h2>
+:::
 
 Blue cheese works best as a supporting player, not the anchor.
 
@@ -52,9 +62,11 @@ Blue cheese works best as a supporting player, not the anchor.
 
 **How to cut it:** Break a firm blue like Stilton into rough chunks with the tip of a knife rather than slicing it. The craggy surface looks more inviting. Leave a creamy blue like Gorgonzola dolce whole, with a small spreader beside it.
 
-**When:** Take it out of the fridge 30 to 60 minutes before serving. Cold dulls taste and aroma; a blue at room temperature tastes creamier and more rounded. Stay within the [USDA 2-hour rule](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out) once it's out.
+**When:** Take a creamy blue like Gorgonzola dolce out of the fridge 20 to 30 minutes before serving, and a firm one like Stilton 30 to 45 minutes before. Cold dulls taste and aroma; a blue at room temperature tastes creamier and more rounded. Stay within the [USDA 2-hour rule](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out) once it's out.
 
-## What to Pair It With
+:::html
+<h2 id="pairs">What to Pair It With</h2>
+:::
 
 **Honey (first choice):** Put a piece of [honeycomb](/ingredients/honeycomb/) or a small dish of [honey](/ingredients/honey/) right beside the blue. Its sweetness tempers the cheese's salt and sharp edges. More on this in [blue cheese and honey](/blog/blue-cheese-honey-pairing/).
 
@@ -80,7 +92,9 @@ Blue cheese works best as a supporting player, not the anchor.
 
 For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzola/) and [Stilton pairings](/pairings/food/stilton/) pages.
 
-## The Lab Section: Why These Pairings Work
+:::html
+<h2 id="science">The Lab Section: Why These Pairings Work</h2>
+:::
 
 **Sweet against salty and sharp.** Blue cheese is salty, and the free fatty acids from fat breakdown give it a sharp, slightly bitter edge. Sweetness tempers both saltiness and bitterness. That's a well-known taste interaction, and it's why honey, figs, pear and port all soften a blue and let its creamy, savory side come through. Read more in our [salt and sweet principle](/blog/salt-sweet-principle/) post.
 
@@ -90,7 +104,9 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 
 **Umami on umami.** Aged blues and cured meats are both rich in glutamate from protein breakdown. Pair them and the savory flavor feels fuller and longer. For more, see [pairing by contrast](/blog/pairing-by-contrast/) and our [guide to how pairing works](/pairings/how-pairing-works/).
 
-## Common Mistakes
+:::html
+<h2 id="mistakes">Common Mistakes</h2>
+:::
 
 **Using too much.** Blue cheese is intense. Around 4 oz is plenty for 8 people on a mixed board; a big wedge crowds everything else.
 
@@ -98,13 +114,7 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 
 **Not labeling it.** A small label with the name and milk type helps guests who are curious but cautious. See [how to label cheese](/blog/cheese-labels/).
 
-**Serving it cold.** Straight from the fridge, a blue tastes harsh and salty. Give it 30 to 60 minutes out first.
-
-## The Charcuterie Lab Takeaway
-
-Blue cheese earns its place when it's the right variety, in the right amount, with the right partners. Choose Gorgonzola dolce for a skeptical crowd, Stilton for a mixed one and Roquefort for cheese lovers.
-
-Use 3 to 5 oz for 6 to 10 guests. Put it at the edge with honeycomb beside it and figs, pear and walnuts within reach. Sweet, salty, creamy and crunchy in one bite is hard to beat.
+**Serving it cold.** Straight from the fridge, a blue tastes harsh and salty. Give a creamy blue 20 to 30 minutes out first, a firm one 30 to 45.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards with exact quantities, shopping lists, and the science behind every pairing combination.
 

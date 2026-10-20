@@ -8,15 +8,22 @@ faq: "[{"question":"What should go on a baby shower charcuterie board?","answer"
 slug: "charcuterie-board-baby-shower"
 tags: "["charcuterie board baby shower", "charcuterie board", "charcuterie"]"
 seo_title: "Baby Shower Charcuterie Board: Ideas, Safe Swaps & Layout"
-updated: "2026-09-24"
+updated: "2026-10-20"
 ---
 # Baby Shower Charcuterie Board: How to Build a Crowd-Pleasing Board for a Mixed Audience
 
 > **Quick Answer:** Build for a mixed crowd: mild, pasteurized cheeses, fruit in your shower colors and easy finger food. For pregnant guests, the CDC advises reheating deli meats and dry sausages like salami until steaming hot and choosing pasteurized cheeses, so give them a clearly labeled section without cured meat. Plan about 2 oz each of cheese and meat per guest if a meal follows.
 
-A baby shower board has a different job from a dinner-party board. The guest list runs from grandparents to toddlers, the guest of honor may be pregnant, and people graze for a couple of hours between games and gifts. The board has to be easy to eat, safe for everyone and pretty enough for photos.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Pregnant guest</p><span class="sk-top-name">A labeled section without cured meat</span><p class="sk-top-line">Pasteurized cheese, fruit, nuts, crackers. Offer crisped prosciutto if she wants meat.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#safe">Make it safe</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">What to put on</p><span class="sk-top-name">Mild cheese + fruit in your colors</span><p class="sk-top-line">3 cheeses, 2 meats in their own section, crackers, something sweet.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#what">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">2 oz each of cheese and meat a guest</span><p class="sk-top-line">If a meal follows. 3 oz each if the board is the food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#safe">Make it safe</a><a href="#what">What goes on</a><a href="#how-much">How much</a><a href="#layout">Layout &amp; color</a><a href="#ahead">Make ahead</a><a href="#sweet">Sweet board</a></nav>
+:::
 
-## Make It Safe for the Guest of Honor
+A shower board has a different job from a dinner-party board: **grandparents to toddlers, a guest of honor who may be pregnant, and two hours of grazing between games.** It has to be easy to eat, safe for everyone and pretty enough for photos.
+
+:::html
+<h2 id="safe">Make It Safe for the Guest of Honor</h2>
+:::
 
 Pregnancy changes the rules for two things on a normal board: cured meats and soft cheeses. The [CDC's Listeria guidance](https://www.cdc.gov/listeria/prevention/index.html) says pregnant people should eat deli meat, cold cuts and fermented or dry sausages only when reheated to 165°F or until steaming hot, and should choose hard cheeses made with pasteurized milk.
 
@@ -27,7 +34,11 @@ The simplest way to handle it:
 - **Offer a warm option** if the guest of honor wants meat: crisped prosciutto or pepperoni chips baked until sizzling are a hit with everyone.
 - **Ask ahead.** A quick text about allergies and restrictions saves guessing.
 
-## What to Put on the Board
+The full guide, with a CDC and NHS comparison table and a board for 8, is in [can you eat charcuterie while pregnant](/blog/pregnancy-safe-charcuterie-board/).
+
+:::html
+<h2 id="what">What to Put on the Board</h2>
+:::
 
 - **Cheese (3 kinds):** one mild and creamy that's clearly pasteurized, one sharp cheddar or Gouda, and one Swiss or Parmesan.
 - **Meat (2 kinds), in their own section:** a mild salami and prosciutto are the most familiar.
@@ -35,19 +46,27 @@ The simplest way to handle it:
 - **Crunch:** two kinds of crackers, pretzel crisps and a small bowl of nuts (label them for allergies).
 - **Something sweet:** honey, fig jam, yogurt-covered pretzels or a few cookies.
 
-## How Much to Buy
+:::html
+<h2 id="how-much">How Much to Buy</h2>
+:::
 
 Plan about 2 oz each of cheese and cured meat per guest when a meal follows, and 3 oz each when the board is the main food. From 20 guests up, add 10%. For 15 guests before lunch, that's about 2 lb of cheese and 2 lb of meat. The [Party Planner](/party-planner/) works out the full list, cost and a prep timeline for any guest count.
 
-## Layout and Color
+:::html
+<h2 id="layout">Layout and Color</h2>
+:::
 
 Pick two or three colors and repeat each one in several spots rather than grouping all the pink in one corner. Place the cheese first, spaced apart, then the meat section, then fruit in clusters, and crackers last so they stay crisp. Small signs for "pregnancy-friendly", "contains nuts" and the cheese names help guests serve themselves.
 
-## Make It Ahead
+:::html
+<h2 id="ahead">Make It Ahead</h2>
+:::
 
-Wash and dry the fruit, slice the cheese and portion the nuts the night before. Assemble the board an hour before guests arrive and keep it covered. Food should sit out no more than 2 hours (1 hour above 90°F), so for a long shower put out half and refill from the fridge.
+Wash and dry the fruit, slice the hard cheese and portion the nuts the night before. Take hard cheese out 45–60 minutes before guests arrive and build the board 20–30 minutes before, crackers last. See [making a board the night before](/blog/make-charcuterie-board-night-before/). Food should sit out no more than 2 hours (1 hour above 90°F), so for a long shower put out half and refill from the fridge.
 
-## Sweet-Only Option
+:::html
+<h2 id="sweet">Sweet-Only Option</h2>
+:::
 
 A dessert board works well at a shower, either on its own or after a lighter savory board: chocolate, cookies, fruit and a creamy dip. See the [dessert charcuterie board guide](/blog/dessert-board/) for the formula.
 

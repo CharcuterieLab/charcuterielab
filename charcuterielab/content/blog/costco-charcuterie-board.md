@@ -7,16 +7,24 @@ excerpt: "A Costco charcuterie board for 20 people: exactly how many ounces of m
 description: "Costco charcuterie board shopping list for 20 guests: how much meat and cheese to buy, the Costco cheeses, salami, prosciutto, crackers and extras that work, 2026 prices, total cost per guest and a plan for the leftovers."
 faq: "[{"question": "How much does a Costco charcuterie board for 20 cost?", "answer": "About $190 to $230 for a full board where the charcuterie is the party food, or roughly $9.50 to $11.50 per guest, using prices seen at Costco in 2026. You will have leftover cheese, nuts and dried fruit because the packs are large."}, {"question": "How much meat and cheese do I need from Costco for 20 people?", "answer": "When the board is the main party food, plan 3 oz each of meat and cheese per guest plus 10%, which is about 66 oz, a little over 4 lb, of each. If dinner follows, 2 oz each per guest (about 2¾ lb of each) is enough."}, {"question": "What are the best Costco cheeses for a charcuterie board?", "answer": "Kirkland Signature Manchego, an aged gouda, Kerrygold Dubliner, Kirkland Signature Brie, Sartori Bellavitano and the Kirkland goat cheese logs give you firm, soft, nutty and tangy options from one warehouse trip."}, {"question": "Does Costco sell a ready-made charcuterie board?", "answer": "Yes, Costco has sold pre-built charcuterie platters such as the Luxe Bites Classic board on costco.com. They are convenient, but building your own from warehouse packs gives you more food per dollar and lets you pick the cheeses."}, {"question": "What should I skip at Costco for a charcuterie board?", "answer": "Skip a second cracker variety pack, very large wheels such as a 4 lb pecorino unless you host often, and a 5 lb bottle of honey you will not finish. Buy one or two jars of jam at a regular store instead."}]"
 slug: "costco-charcuterie-board"
+updated: "2026-10-20"
 tags: "["costco charcuterie board", "costco charcuterie", "charcuterie board for 20", "charcuterie board for a crowd", "charcuterie shopping list"]"
 ---
 
 # Costco Charcuterie Board for 20: Shopping List, Prices and What to Skip
 
-> **Quick Answer:** For 20 guests where the board is the party food, buy about **66 oz (a little over 4 lb) of meat and the same of cheese** at Costco: three or four cheeses such as Kirkland Manchego, an aged gouda, Kirkland Brie and goat cheese logs, plus dry salame, peppered salame and prosciutto. Add two big boxes of crackers, two baguettes, grapes, strawberries, a nut mix, olives and dried apricots. At prices seen in 2026 that comes to roughly **$190 to $230, about $9.50 to $11.50 a guest**, with leftovers.
+> **Quick Answer:** For 20 guests, buy about **66 oz (a little over 4 lb) each of meat and cheese** at Costco: Manchego, aged Gouda, Dubliner, brie and goat cheese, plus dry salame, peppered salame and prosciutto. Add crackers, baguettes, fruit, nuts, olives and dried apricots. It comes to about **$190 to $230, or $9.50 to $11.50 a guest**.
 
-Costco is the cheapest way to feed a crowd with a charcuterie board, but the bulk packs make it easy to overbuy. This list is built backward from how much 20 people actually eat, then matched to what Costco sells.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For 20 guests</p><span class="sk-top-name">66 oz meat + 66 oz cheese</span><p class="sk-top-line">A little over 4 lb of each when the board is the party food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">About $190 to $230</span><p class="sk-top-line">$9.50 to $11.50 a guest, with leftovers to take home.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Watch out</p><span class="sk-top-name">Bulk packs make it easy to overbuy</span><p class="sk-top-line">Shop by ounces, not packs, and skip the 5 lb honey.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#skip">What to skip</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#how-much">How much</a><a href="#cheese">Cheese</a><a href="#meat">Meat</a><a href="#extras">Everything else</a><a href="#cost">Cost</a><a href="#skip">What to skip</a><a href="#build">Build it</a><a href="#leftovers">Leftovers</a></nav>
+:::
 
-## How much to buy for 20
+Costco is the cheapest way to feed a crowd, but **the bulk packs make it easy to overbuy.** This list starts from how much 20 people actually eat, then matches it to what Costco sells.
+
+:::html
+<h2 id="how-much">How much to buy for 20</h2>
+:::
 
 The Lab standard is 3 oz each of meat and cheese per guest when the board is the main food, 2 oz each when a meal follows, plus 10% from 20 guests up.
 
@@ -31,7 +39,9 @@ The Lab standard is 3 oz each of meat and cheese per guest when the board is the
 
 Buy by the ounces in this table, not by the number of packs. Costco pack sizes change between warehouses, and most packs are bigger than one board needs.
 
-## The Costco cart: cheese (66 oz)
+:::html
+<h2 id="cheese">The Costco cart: cheese (66 oz)</h2>
+:::
 
 | Costco item | Use on the board | Price seen |
 |---|---|---|
@@ -43,7 +53,9 @@ Buy by the ounces in this table, not by the number of packs. Costco pack sizes c
 
 That's five cheeses for 66 oz: a firm Spanish sheep's milk cheese, a caramel-sweet gouda, a sharp Irish cheddar-style cheese, a soft brie and a tangy goat cheese. Sartori Bellavitano ($9.59) is a good swap for the Dubliner. Read more about [Manchego](/ingredients/manchego/), [aged gouda](/ingredients/aged-gouda/), [brie](/ingredients/brie/) and [fresh chevre](/ingredients/fresh-chevre/).
 
-## The Costco cart: meat (66 oz)
+:::html
+<h2 id="meat">The Costco cart: meat (66 oz)</h2>
+:::
 
 | Costco item | Use on the board | Price seen |
 |---|---|---|
@@ -53,7 +65,9 @@ That's five cheeses for 66 oz: a firm Spanish sheep's milk cheese, a caramel-swe
 
 Fold the salami into quarters and run it in rivers, and drape the prosciutto loosely so it doesn't stick together. See [Genoa salami](/ingredients/genoa-salami/) and [Prosciutto di Parma](/ingredients/prosciutto-di-parma/) for what to look for.
 
-## The Costco cart: everything else
+:::html
+<h2 id="extras">The Costco cart: everything else</h2>
+:::
 
 | Costco item | Price seen | Notes |
 |---|---|---|
@@ -68,7 +82,9 @@ Fold the salami into quarters and run it in rivers, and drape the prosciutto loo
 
 **Prices seen:** Costco item prices are from [Ain't Too Proud to Meg](https://ainttooproudtomeg.com/costco-charcuterie-grazing-table/) (updated May 2026) and [Chowhound](https://www.chowhound.com/2098962/costco-charcuterie-board-finds-to-try/) (February 2026). Prices and items vary by warehouse and region, so check your receipt.
 
-## What it costs
+:::html
+<h2 id="cost">What it costs</h2>
+:::
 
 | Group | Approximate total |
 |---|---|
@@ -80,7 +96,9 @@ Fold the salami into quarters and run it in rivers, and drape the prosciutto loo
 
 That's about **$9.50 to $11.50 a guest** when the board is the party food. If dinner follows, cut the meat and cheese to 44 oz each and you're closer to $150 to $170. You'll go home with leftover nuts, dried fruit, crackers and part of a few cheeses, so the real cost of this board is lower than the receipt.
 
-## What to skip at Costco
+:::html
+<h2 id="skip">What to skip at Costco</h2>
+:::
 
 - **A second cracker variety pack.** One big box plus the Carr's and two baguettes covers 20 people.
 - **Big wheels.** A 4 lb pecorino or 2 lb Comté is great value only if you host often.
@@ -89,7 +107,9 @@ That's about **$9.50 to $11.50 a guest** when the board is the party food. If di
 
 Costco has also sold ready-made platters, such as the [Luxe Bites Classic board](https://www.costco.com/p/-/luxe-bites-classic-ready-to-eat-charcuterie-board-388-oz-total/4000388332) (38.8 oz total). It saves time, but at 38.8 oz of everything it's a small board for 20, and you don't choose the cheeses.
 
-## Build it in 30 minutes
+:::html
+<h2 id="build">Build it in 30 minutes</h2>
+:::
 
 1. **1 hour before:** take out the Manchego, gouda and Dubliner. Firm and aged cheese tastes best after 45 to 60 minutes out of the fridge.
 2. **30 minutes before:** take out the brie and goat cheese (20 to 30 minutes is enough for soft cheese) and the meat.
@@ -100,9 +120,11 @@ Costco has also sold ready-made platters, such as the [Luxe Bites Classic board]
 
 Hold back about a third of everything and refill once halfway through. Perishable food should be out no more than 2 hours, or 1 hour above 90°F. More on big spreads in [How to Make a Charcuterie Board for a Large Group](/blog/charcuterie-board-for-large-group/) and the [grazing table guide](/blog/grazing-table/).
 
-## The leftovers plan
+:::html
+<h2 id="leftovers">The leftovers plan</h2>
+:::
 
-| Leftover | How long it keeps | Use it for |
+| Unused leftover (never on the board) | How long it keeps | Use it for |
 |---|---|---|
 | Hard cheese (Manchego, gouda) | 3 to 4 weeks, rewrapped in wax or parchment paper | Grilled cheese, a smaller board next weekend |
 | Brie, goat cheese | About a week after opening | Baked brie, salads, omelets |
@@ -110,7 +132,7 @@ Hold back about a third of everything and refill once halfway through. Perishabl
 | Unopened salami packs | Until the date on the pack | Your next board |
 | Nuts, dried fruit, crackers | Weeks, sealed | Snacks, lunch boxes |
 
-See [cheese storage](/blog/cheese-storage/) for wrapping tips.
+Anything that sat out on the board is a leftover: eat it within 3–4 days, and toss anything out more than 2 hours. See [cheese storage](/blog/cheese-storage/) for wrapping tips and [how to store a charcuterie board](/blog/how-to-store-charcuterie-board/) for the rest.
 
 ## Related Reading
 

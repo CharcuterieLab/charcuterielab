@@ -7,6 +7,7 @@ description: "Hard salami is a firm, dry American deli salami, often pork and be
 faq: "[{"question":"What is the difference between Genoa salami and hard salami?","answer":"Genoa is softer and moister, usually all pork, seasoned with garlic, pepper and often wine, with a light tang. Hard salami is drier and firmer, often pork and beef, often smoked, and milder."},{"question":"What is hard salami?","answer":"Hard salami is an American deli-style salami. It's dried until firm, often made with pork and beef, often smoked, and mildly seasoned. The word hard describes its texture."},{"question":"Which is better for a charcuterie board, Genoa or hard salami?","answer":"Genoa. It's softer, so it folds into half moons and rivers, and its garlic and wine flavor pairs with more cheeses. Hard salami is better for cracker stacks and kids' boards."},{"question":"Which is better for sandwiches?","answer":"Both work. Genoa is the classic in an Italian sub. Hard salami stays firmer, has a milder flavor, and holds up better in a packed lunch."},{"question":"Can I substitute hard salami for Genoa?","answer":"Yes. They're interchangeable in most recipes and on boards. Expect a firmer bite, a smokier and milder flavor, and less of Genoa's garlic and tang."}]"
 seo_title: "What Is Hard Salami? Genoa vs Hard Salami, Explained"
 slug: "genoa-salami-vs-hard-salami"
+updated: "2026-10-20"
 tags: "["genoa salami vs hard salami", "what is hard salami", "hard salami vs genoa", "genoa salami", "hard salami", "salami for sandwiches"]"
 ---
 
@@ -14,7 +15,14 @@ tags: "["genoa salami vs hard salami", "what is hard salami", "hard salami vs ge
 
 > **Quick Answer:** Genoa salami is softer and moister, usually all pork, seasoned with garlic, pepper and often wine, with a gentle fermented tang. Hard salami is an American deli style that's drier and firmer, often made with pork and beef, often smoked, and milder. Choose Genoa for a charcuterie board; choose hard salami when you want a firm slice for sandwiches, crackers or kids.
 
-## What is Genoa salami?
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Genoa</p><span class="sk-top-name">Soft, all pork, garlicky</span><p class="sk-top-line">Pepper and often wine, with a light tang. Folds into rivers.</p></div><div class="sk-top-buy"><span class="sk-price">Best on a board</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Hard salami</p><span class="sk-top-name">Firm, pork and beef, often smoked</span><p class="sk-top-line">Milder and drier. Stays flat and stiff.</p></div><div class="sk-top-buy"><span class="sk-price">Best in lunches</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Swap?</p><span class="sk-top-name">Yes, they&#x27;re interchangeable</span><p class="sk-top-line">Expect a firmer, smokier, milder bite from hard salami.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#at-a-glance">Side by side</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#genoa">What is Genoa</a><a href="#hard">What is hard salami</a><a href="#at-a-glance">Side by side</a><a href="#on-a-board">On a board</a><a href="#sandwiches">Sandwiches</a><a href="#deli">At the deli</a><a href="#keep">How long</a><a href="#faq">FAQ</a></nav>
+:::
+
+:::html
+<h2 id="genoa">What is Genoa salami?</h2>
+:::
 
 Genoa salami is the Italian-American name for a salami made in the style of Genoa, in northwest Italy. It's the salami most US deli counters slice first.
 
@@ -22,7 +30,9 @@ It's usually made with pork and pork fat, seasoned with garlic and pepper, often
 
 For pairings and serving notes, see the [Genoa salami ingredient guide](/ingredients/genoa-salami/).
 
-## What is hard salami?
+:::html
+<h2 id="hard">What is hard salami?</h2>
+:::
 
 **Hard salami is an American deli-style salami that's dried until firm.** The word "hard" describes the texture, not a specific region or recipe.
 
@@ -30,7 +40,9 @@ It's often made with a mix of pork and beef, often smoked, and seasoned mildly, 
 
 It's the salami in a lot of American lunchboxes and the pre-sliced packs in the deli case.
 
-## Genoa vs. hard salami at a glance
+:::html
+<h2 id="at-a-glance">Genoa vs. hard salami at a glance</h2>
+:::
 
 | | Genoa salami | Hard salami |
 |---|---|---|
@@ -59,7 +71,9 @@ A soft, moist Genoa slice folds without cracking. That's what you want for half 
 
 A firm hard salami slice doesn't fold well. It cracks at the crease. Instead, fan it in overlapping rows or stack it flat next to the crackers, where it works like a ready-made topping.
 
-## Which to use on a charcuterie board
+:::html
+<h2 id="on-a-board">Which to use on a charcuterie board</h2>
+:::
 
 **For most boards, choose Genoa.** Its garlic and wine flavor pairs with more cheeses, and it looks more generous on the board.
 
@@ -78,13 +92,17 @@ For a fuller list of what else to buy, see [the best meats for a charcuterie boa
 
 **How much:** plan 2 oz of meat per guest as an appetizer, 4 oz if the board is the meal. For 6 guests with two salamis on the board, 6 oz of each covers it.
 
-## Which to use in sandwiches
+:::html
+<h2 id="sandwiches">Which to use in sandwiches</h2>
+:::
 
 **Genoa** is the classic in an Italian sub, layered with provolone, capicola, lettuce, tomato and a vinegar dressing. It's soft enough to bite through cleanly.
 
 **Hard salami** is the better lunchbox salami. It stays firm, doesn't go limp against bread, and its mild flavor suits kids. It's also good on a pressed sandwich, where its smokiness comes forward.
 
-## How to tell them apart at the deli counter
+:::html
+<h2 id="deli">How to tell them apart at the deli counter</h2>
+:::
 
 Labels help, but you can also tell by eye.
 
@@ -96,13 +114,17 @@ If you're unsure, ask for a taste. Most deli counters will cut you a slice of ea
 
 Buy Genoa sliced as thin as the counter can go. Hard salami can be a touch thicker, since it's firm enough to hold together.
 
-## How long do they keep?
+:::html
+<h2 id="keep">How long do they keep?</h2>
+:::
 
 Both are dry sausages. The [University of Minnesota Extension](https://extension.umn.edu/preserving-and-preparing/storage-times-food-refrigerator-and-freezer) lists hard or dry sausage as keeping indefinitely unopened in the refrigerator, 3 weeks once opened, and 1-2 months in the freezer.
 
 Deli-sliced salami is treated like other deli meats: 3-5 days once opened, 2 weeks unopened.
 
-## Common questions
+:::html
+<h2 id="faq">Common questions</h2>
+:::
 
 **What is the difference between Genoa salami and hard salami?**
 Genoa is softer and moister, usually all pork, seasoned with garlic, pepper and often wine, with a light tang. Hard salami is drier and firmer, often pork and beef, often smoked, and milder.

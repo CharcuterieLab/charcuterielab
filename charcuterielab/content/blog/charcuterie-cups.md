@@ -7,16 +7,24 @@ excerpt: "How to make charcuterie cups for a party: what goes in each cup, a sho
 description: "How to make charcuterie cups: what goes in one cup, a shopping list for 12, 24 or 50 cups, the layering order that keeps crackers crisp, Halloween, Christmas, game day and kids' versions, and make-ahead tips."
 faq: "[{"question": "What goes in a charcuterie cup?", "answer": "A skewer of folded salami, cheese cubes and a grape or olive, 3 crackers or a breadstick, and a few nuts, olives or berries in the bottom, all in a 9 oz clear cup. Each cup holds about 1 oz of meat and 1 oz of cheese."}, {"question": "How many charcuterie cups per person?", "answer": "One cup per guest when there is other food, two per guest when the cups are the only appetizer. Each cup is about half of the 2 oz each of meat and cheese we plan per guest before a meal."}, {"question": "How far ahead can you make charcuterie cups?", "answer": "Fill them the morning of the party, cover and refrigerate, and add the crackers just before serving so they stay crisp. Once they are out, serve them within 2 hours, or 1 hour above 90°F."}, {"question": "What size cup is best for charcuterie cups?", "answer": "A 9 oz clear plastic cup is the standard size. It holds a 6-inch skewer, three crackers and a layer of nuts or fruit, and about 24 fit on a half-sheet pan."}, {"question": "How much does it cost to make charcuterie cups?", "answer": "About $1.75 to $2.75 a cup with grocery-store salami, cheddar, crackers and fruit, including the cup and skewer. Pepperoni and a block of cheese you cube yourself keep it at the low end."}]"
 slug: "charcuterie-cups"
+updated: "2026-10-20"
 tags: "["charcuterie cups", "charcuterie cups for a party", "individual charcuterie cups", "halloween charcuterie cups", "party food"]"
 ---
 
 # Charcuterie Cups: How to Make Them for a Party (12, 24 or 50 Cups)
 
-> **Quick Answer:** A charcuterie cup is a single serving of board food in a 9 oz clear cup: a 6-inch skewer of folded salami, cheese cubes and a grape, 3 crackers or a breadstick standing up behind it, and a few olives, nuts or berries in the bottom. Each cup holds about **1 oz of meat and 1 oz of cheese**, so plan **one cup per guest** alongside other food, or **two per guest** if the cups are the whole appetizer. Fill them the morning of, keep them in the fridge, and add the crackers last.
+> **Quick Answer:** A charcuterie cup is one serving in a 9 oz clear cup: a skewer of salami, cheese and a grape, 3 crackers, and olives, nuts or berries in the bottom. Plan **one cup per guest** with other food, or **two** if the cups are the whole appetizer. Fill them the morning of and add the crackers last.
 
-Charcuterie cups solve the two problems a big board has at a party: nobody has to hover over a shared board, and nobody touches food someone else is about to eat. Guests pick one up and keep walking. They work for Halloween parties, showers, tailgates, office parties and anything where people stand more than they sit.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">In each cup</p><span class="sk-top-name">Skewer + 3 crackers + a base</span><p class="sk-top-line">Folded salami, cheese cubes and a grape on a 6-inch skewer, in a 9 oz clear cup.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#one-cup">The 5 parts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How many</p><span class="sk-top-name">1 per guest, 2 if it&#x27;s the only food</span><p class="sk-top-line">Each cup holds about 1 oz meat and 1 oz cheese.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#shopping">Shopping list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Make ahead</p><span class="sk-top-name">Fill the morning of</span><p class="sk-top-line">Refrigerate covered; add the crackers just before serving.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#ahead">Timeline</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">$1.75 to $2.75 a cup</span><p class="sk-top-line">Including the cup and skewer.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#one-cup">What goes in</a><a href="#shopping">Shopping list</a><a href="#build">How to build</a><a href="#themes">Themed cups</a><a href="#ahead">Make ahead</a><a href="#cost">Cost</a><a href="#cups-or-board">Cups or a board?</a></nav>
+:::
 
-## What goes in one cup
+Cups fix the two problems a shared board has at a party: **nobody hovers, and nobody touches food someone else is about to eat.** Guests grab one and keep walking. They suit Halloween, showers, tailgates and office parties.
+
+:::html
+<h2 id="one-cup">What goes in one cup</h2>
+:::
 
 Build every cup from the same five parts. Change the ingredients, keep the parts.
 
@@ -30,7 +38,9 @@ Build every cup from the same five parts. Change the ingredients, keep the parts
 
 The cheese works best when it's firm enough to skewer: [aged cheddar](/ingredients/aged-cheddar/), [Manchego](/ingredients/manchego/), Gouda, pepper jack or Havarti. Soft cheese like Brie can go in, but put it in the bottom of the cup as a wedge, not on the skewer.
 
-## Shopping list for 12, 24 or 50 cups
+:::html
+<h2 id="shopping">Shopping list for 12, 24 or 50 cups</h2>
+:::
 
 These amounts follow the same standard as the rest of the Lab (2 oz each of meat and cheese per guest before a meal), with one cup counted as half a serving, and 10% extra from 20 cups up.
 
@@ -46,7 +56,9 @@ These amounts follow the same standard as the rest of the Lab (2 oz each of meat
 
 Buy the salami pre-sliced and the cheese as blocks you cube yourself. Blocks are cheaper and the cubes hold their shape on a skewer. For any other guest count, the [Party Planner](/party-planner/) works out a full board plan, and [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/) explains the amounts.
 
-## How to build them (layer in this order)
+:::html
+<h2 id="build">How to build them (layer in this order)</h2>
+:::
 
 The order matters. Wet things sit low and crackers go in last, so nothing gets soggy.
 
@@ -59,7 +71,9 @@ The order matters. Wet things sit low and crackers go in last, so nothing gets s
 
 A half-sheet pan holds about 24 cups, which also makes them easy to carry to the fridge and back.
 
-## Four themed versions
+:::html
+<h2 id="themes">Four themed versions</h2>
+:::
 
 | Theme | Meat | Cheese | Crunch | Fresh and finish |
 |---|---|---|---|---|
@@ -72,7 +86,9 @@ For children under 5, skip the pointed skewers, cut grapes into quarters lengthw
 
 The [Halloween board ideas](/holidays/halloween/) and [Christmas board ideas](/holidays/christmas/) pages have full boards to go with the cups, and the [Super Bowl page](/holidays/super-bowl/) covers game-day amounts.
 
-## How far ahead to make them
+:::html
+<h2 id="ahead">How far ahead to make them</h2>
+:::
 
 - **2 days before:** buy everything. Cube the cheese and keep it in a sealed container in the fridge.
 - **The night before:** build the skewers, lay them flat in a container, cover and chill. Wash and dry the fruit.
@@ -81,11 +97,15 @@ The [Halloween board ideas](/holidays/halloween/) and [Christmas board ideas](/h
 
 Once the cups are out, follow the same rule as any board: **no more than 2 hours at room temperature, or 1 hour above 90°F**. For a long party, bring out half the tray at a time and keep the rest in the fridge.
 
-## What charcuterie cups cost
+:::html
+<h2 id="cost">What charcuterie cups cost</h2>
+:::
 
 With grocery-store ingredients, plan on roughly **$1.75 to $2.75 a cup**, including the cup and skewer. That breaks down to about $0.75 to $1.10 for the salami, $0.50 to $0.75 for the cheese, $0.30 to $0.50 for crackers, fruit and the base, and $0.10 to $0.20 for the cup and skewer. Pepperoni, a block of store-brand cheddar and grapes keep you at the low end. Prosciutto, Manchego and Marcona almonds push you to the top. Prices checked September 2026.
 
-## Cups or a board?
+:::html
+<h2 id="cups-or-board">Cups or a board?</h2>
+:::
 
 | Choose cups when | Choose a board when |
 |---|---|
