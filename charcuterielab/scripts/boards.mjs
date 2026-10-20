@@ -606,13 +606,34 @@ export function worldBanner(h) {
 const mdLinks = (h, s = "") => h.escapeHtml(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, u) => `<a href="${u}">${t}</a>`);
 
 function ideasPage(h, cat, boards, P) {
-  const bySlug = new Map(boards.map((b) => [b.slug, b]));
+  // Ideas can use any published board (h.allBoards), not only this category's,
+  // and live blog posts ({ post, name, image, best_for, blurb, on_it }) (19 Oct 2026).
+  const bySlug = new Map([...(h.allBoards || []), ...boards].map((b) => [b.slug, b]));
   const used = new Set();
+  const entries = [];
   let n = 0;
+  const postIdea = (x) => {
+    if (!h.blogTitles || !h.blogTitles.has(x.post)) return "";
+    n += 1;
+    const href = `/blog/${x.post}/`;
+    entries.push({ name: x.name, url: href });
+    return `<article class="bi-idea" id="${x.post}">
+        ${x.image ? `<a class="bi-photo" href="${href}"><img src="${h.escapeHtml((h.thumb || ((y) => y))(x.image))}" alt="${h.escapeHtml(x.name)}" width="600" height="400" loading="lazy" decoding="async"></a>` : "<span></span>"}
+        <div class="bi-body">
+          <h3><span class="bi-num">${n}.</span> <a href="${href}">${h.escapeHtml(x.name)}</a></h3>
+          <p class="bi-best"><strong>Best for:</strong> ${h.escapeHtml(x.best_for)}${x.facts ? ` <span class="bi-facts">${h.escapeHtml(x.facts)}</span>` : ""}</p>
+          <p>${mdLinks(h, x.blurb)}</p>
+          ${x.on_it ? `<p class="bi-items"><strong>On it:</strong> ${h.escapeHtml(x.on_it)}</p>` : ""}
+          <p class="bi-link"><a href="${href}">${h.escapeHtml(x.link_text || "Read the full guide")} &rarr;</a></p>
+        </div>
+      </article>`;
+  };
   const idea = (x) => {
+    if (x.post) return postIdea(x);
     const b = bySlug.get(x.slug);
     if (!b) return "";
     used.add(b.slug);
+    entries.push({ name: x.name || b.h1, url: `/boards/${b.slug}/` });
     n += 1;
     const items = b.groups.flatMap((g) => g.items.map((i) => i.name));
     const facts = [b.serves && `Serves ${b.serves}`, b.cost, b.prep_time].filter(Boolean).map(h.escapeHtml).join(" · ");
@@ -633,6 +654,7 @@ function ideasPage(h, cat, boards, P) {
       ${g.boards.map(idea).join("\n      ")}
     </div>`).join("\n    ");
   const rest = boards.filter((b) => !used.has(b.slug));
+  const listed = [...used].map((s) => bySlug.get(s));
   const total = used.size + rest.length;
   const toc = P.ideas.map((g) => `<li><a href="#${g.id}">${h.escapeHtml(g.heading)}</a></li>`).concat(P.sections.map((s) => `<li><a href="#${s.id}">${h.escapeHtml(s.heading)}</a></li>`), ['<li><a href="#bi-faq">Questions</a></li>']).join("");
   const section = (s) => `<section class="bl-section" aria-labelledby="${s.id}">
@@ -641,14 +663,14 @@ function ideasPage(h, cat, boards, P) {
       ${s.items ? `<${s.ordered ? "ol" : "ul"} class="bi-list">${s.items.map((i) => `<li><strong>${h.escapeHtml(i.lead)}</strong> ${mdLinks(h, i.text)}</li>`).join("")}</${s.ordered ? "ol" : "ul"}>` : ""}
     </section>`;
   const faqLd = `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: P.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })) })}</script>`;
-  const ordered = [...used].map((s) => bySlug.get(s)).concat(rest);
+  const ordered = listed.concat(rest);
   return h.layout({
     title: `${P.seo_title} | Charcuterie Lab`,
     canonical: `/boards/${cat.slug}/`,
     image: P.image || ordered.find((b) => !b.placeholder)?.image,
     type: "article",
     description: P.description,
-    head: `${itemListSchema(h, P.h1, `/boards/${cat.slug}/`, ordered)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`]])}\n${faqLd}`,
+    head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: P.h1, url: h.absoluteUrl(`/boards/${cat.slug}/`), itemListElement: entries.concat(rest.map((b) => ({ name: b.h1, url: `/boards/${b.slug}/` }))).map((e, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(e.url), name: e.name })) })}</script>\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`]])}\n${faqLd}`,
     body: `<main class="bl-main bl-board bi-page">
   <div class="bl-inner">
     <p class="ing-crumb"><a href="/boards/">Boards</a> <span aria-hidden="true">/</span> ${h.escapeHtml(cat.name)}</p>

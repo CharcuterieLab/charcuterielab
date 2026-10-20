@@ -2971,7 +2971,7 @@ async function build() {
         const inCat = boards.filter((b) => b.category === cat.slug);
         if (!inCat.length) continue;
         await mkdir(join(dist, "boards", cat.slug), { recursive: true });
-        await writeFile(join(dist, "boards", cat.slug, "index.html"), boardCategoryPage(boardHelpers, cat, inCat));
+        await writeFile(join(dist, "boards", cat.slug, "index.html"), boardCategoryPage({ ...boardHelpers, blogTitles, allBoards: boards }, cat, inCat));
       }
       for (const b of boards) {
         await mkdir(join(dist, "boards", b.slug), { recursive: true });

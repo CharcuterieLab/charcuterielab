@@ -1,0 +1,123 @@
+{
+  "category": "occasions-parties",
+  "updated": "2026-10-19",
+  "seo_title": "Party Charcuterie Board Ideas: 18 Boards for Every Occasion",
+  "h1": "Party Charcuterie Board Ideas",
+  "link_text": "18 party charcuterie board ideas",
+  "description": "18 party charcuterie board ideas: baby shower, birthday, kids, office party, game day, cocktail and wine parties, grazing tables, cups, jarcuterie, brunch and budget boards, with how much to buy.",
+  "answer": "Match the board to the party: mild, familiar food with labeled options for showers and office parties, sturdy one-hand bites for game day and cocktails, and several boards or a grazing table for big crowds. Plan about 3 oz each of cheese and meat per guest when the board is the party food, or 2 oz before a meal. Here are 18 ideas.",
+  "intro": [
+    "The party decides the board more than the ingredients do. A baby shower needs pregnancy-safe options, the office party needs labels, game day needs food that survives being eaten with one hand while watching the TV, and 50 people need more than one board.",
+    "The ideas below are grouped by kind of party. Each links to a full guide or board page with what to buy and how to set it up."
+  ],
+  "ideas": [
+    {
+      "id": "showers-birthdays",
+      "heading": "Shower, birthday and kids' party boards",
+      "boards": [
+        { "post": "charcuterie-board-baby-shower", "name": "Baby Shower Board", "image": "/images/charcuterie-board-baby-shower.webp", "best_for": "Baby showers with a mixed crowd", "blurb": "Mild, pasteurized cheeses, fruit in the shower colors and easy finger food, with a clearly labeled section for pregnant guests that has no cold cured meat.", "on_it": "Pasteurized cheddar, brie and mozzarella · fruit in the shower colors · crackers · nuts · a labeled pregnancy-safe section" },
+        { "post": "pregnancy-safe-charcuterie-board", "name": "Pregnancy-Safe Board", "image": "/images/pregnancy-safe-charcuterie-board.jpg", "best_for": "The guest of honor at a baby shower", "link_text": "What's safe and what to swap", "blurb": "Cold cured meats, raw-milk cheese and refrigerated pâté are out. Prosciutto crisps, pepperoni chips, baked brie and pasteurized cheeses are in.", "on_it": "Prosciutto crisps · pepperoni chips · baked brie · pasteurized cheddar, gouda, mozzarella and feta · fruit · crackers" },
+        { "post": "charcuterie-board-birthday", "name": "Birthday Board", "image": "/images/charcuterie-board-birthday.webp", "best_for": "Birthday parties for all ages", "blurb": "Ingredients that please every age, sized for the crowd. For 20 guests as the main food, the guide works out 3–4 lb of cheese and 2.5–3 lb of meat.", "on_it": "Aged cheddar · brie · Gruyère · prosciutto · salami · grapes · strawberries · crackers" },
+        { "post": "charcuterie-board-for-kids", "name": "Kids' Board", "image": "/images/charcuterie-board-for-kids.webp", "best_for": "Kids' parties and family nights", "blurb": "Mild cheese, familiar meats, fruit and dips, with cheese cut into shapes so kids build their own bites. Halve the grapes for young children.", "on_it": "Mild cheddar · string cheese · pepperoni · turkey · grapes · strawberries · pretzels · hummus · ranch" }
+      ]
+    },
+    {
+      "id": "work-game-day",
+      "heading": "Office party, game day and beer boards",
+      "boards": [
+        { "slug": "office-party-charcuterie-board", "best_for": "Office and work holiday parties", "blurb": "Twenty people and nobody's dietary needs written down, so it plays it safe: familiar food, labeled options and no peanuts." },
+        { "slug": "game-day-charcuterie-board", "best_for": "Football Sundays and the Super Bowl", "blurb": "Bold, sturdy food that picks up with one hand, for people watching the game, not the board." },
+        { "slug": "beer-and-charcuterie-board", "best_for": "Tailgates and beer nights", "blurb": "Sharp cheddar for the IPA, smoked Gouda for the dark beer and pepper jack for the lager, with pretzels, pickles and two mustards." }
+      ]
+    },
+    {
+      "id": "cocktail-wine",
+      "heading": "Cocktail party and wine night boards",
+      "boards": [
+        { "slug": "cocktail-party-charcuterie-board", "best_for": "Parties where everyone is standing", "blurb": "Everything is one bite, so guests can eat with a drink in the other hand, and the flavors are picked to stand up to spirits." },
+        { "slug": "wine-and-cheese-pairing-board", "best_for": "Wine tasting parties", "blurb": "Five cheeses and five wines, laid out from lightest to boldest so guests taste their way across the board." },
+        { "post": "charcuterie-skewers", "name": "Charcuterie Skewers", "image": "/images/charcuterie-skewers.jpg", "best_for": "No plates and no crowd around the board", "blurb": "A board on a stick. Plan 3–4 skewers per guest next to other food, or 6–8 if they're the main appetizer, and make them up to a day ahead.", "on_it": "Folded salami · cheese cubes · grapes · olives · cherry tomatoes · basil" }
+      ]
+    },
+    {
+      "id": "big-crowds",
+      "heading": "Boards for big crowds",
+      "boards": [
+        { "post": "charcuterie-board-for-large-group", "name": "Large Group Board", "image": "/images/charcuterie-board-for-large-group.png", "best_for": "20–50 guests", "blurb": "Several stations instead of one giant board, so guests move faster and the food stays fresh longer. Add 10% to the amounts for a crowd.", "on_it": "2–3 meats · 3–4 cheeses · fruit · crackers · several stations" },
+        { "post": "grazing-table", "name": "Grazing Table", "image": "/images/grazing-table.png", "best_for": "Weddings, graduations and 20–100+ guests", "blurb": "A whole table built in sections, each one set up like its own board. The guide has amounts and a layout for 20 to 100 guests.", "on_it": "Cheese and meat sections · fruit · bread and crackers · dips · fresh items added last" }
+      ]
+    },
+    {
+      "id": "individual",
+      "heading": "Individual servings",
+      "intro": "For parties where people mingle, or when you'd rather nobody shares a board.",
+      "boards": [
+        { "post": "charcuterie-cups", "name": "Charcuterie Cups", "image": "/images/charcuterie-cups.jpg", "best_for": "Showers, graduations and outdoor parties", "blurb": "A single serving in a clear cup: a skewer of salami, cheese and a grape, crackers standing behind it and nuts or berries in the bottom. One cup per guest next to other food.", "on_it": "Salami · cheese cubes · grapes · crackers or breadsticks · olives, nuts or berries" },
+        { "post": "jarcuterie", "name": "Jarcuterie", "image": "/images/jarcuterie.jpg", "best_for": "Party favors and picnics", "blurb": "The same idea in a mason jar, built in layers, with nuts or dried fruit on the bottom. Fill them the morning of and add the crackers last.", "on_it": "Nuts or dried fruit · a skewer of salami, cheese and a grape · breadsticks or crackers" }
+      ]
+    },
+    {
+      "id": "brunch-different",
+      "heading": "Brunch and something different",
+      "boards": [
+        { "post": "bagel-board", "name": "Bagel Board", "image": "/images/bagel-board.jpg", "best_for": "Brunch, showers and the morning after", "blurb": "Bagels, flavored cream cheeses, smoked salmon and fresh toppings for guests to build their own. Slice everything the night before.", "on_it": "Bagels · cream cheeses · smoked salmon · capers · red onion · tomato · cucumber · dill" },
+        { "post": "butter-board", "name": "Butter Board", "image": "/images/butter-board.jpg", "best_for": "Dinner parties and something unexpected", "blurb": "Softened butter swooped across a board with flaky salt, honey, herbs or chili crisp, and warm bread for scooping. Easy to make and a guaranteed conversation starter.", "on_it": "Softened butter · flaky salt · honey · lemon zest · herbs · warm bread" }
+      ]
+    },
+    {
+      "id": "budget",
+      "heading": "Party boards on a budget",
+      "boards": [
+        { "slug": "25-dollar-budget-charcuterie-board", "best_for": "Small parties on a budget", "blurb": "Six to eight people for about $25, and a board that doesn't look cheap. The trick is where the money goes and how the food is cut." },
+        { "post": "20-dollar-charcuterie-board-challenge", "name": "The $20 Board Challenge", "image": "/images/20-dollar-charcuterie-board-challenge.png", "best_for": "Appetizers for four", "blurb": "A full appetizer board for four on $20: a block of cheddar, a small soft cheese, salami, crackers, fruit, pickles and nuts. Buy blocks and shop the store brand.", "on_it": "Sharp cheddar · a small soft cheese · salami · crackers · fruit · pickles or olives · nuts" }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "choose",
+      "heading": "How to choose the right party board",
+      "items": [
+        { "lead": "Under 15 guests:", "text": "one board is enough." },
+        { "lead": "15–30 guests:", "text": "two or three boards, or one board plus cups or skewers." },
+        { "lead": "30 or more:", "text": "stations or a [grazing table](/blog/grazing-table/), so people aren't all crowded around one spot." },
+        { "lead": "Standing and mingling:", "text": "one-bite food, skewers or cups." },
+        { "lead": "Mixed crowd or the office:", "text": "familiar food, and label anything with nuts, gluten or pork. The [Diet Checker](/dietary/) helps." }
+      ]
+    },
+    {
+      "id": "how-much",
+      "heading": "How much to buy for a party",
+      "paras": [
+        "When the board is the party food, plan about 3 oz of cheese and 3 oz of meat per guest, plus 10–12 crackers. Before a meal, 2 oz of each and 6–8 crackers is enough. From 20 guests, add about 10%.",
+        "For exact totals for your guest count, use the [Party Planner](/party-planner/), or see [how much charcuterie per person](/blog/how-much-charcuterie-per-person/)."
+      ]
+    },
+    {
+      "id": "long-party",
+      "heading": "Keeping a board fresh through a long party",
+      "paras": [
+        "Don't put everything out at once. Set out about half, keep the rest covered in the fridge and refill after an hour or two. Cheese, meat and dips shouldn't sit out for more than 2 hours.",
+        "Add crackers and anything sliced, like apples and pears, last so they stay crisp and don't brown."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common party board mistakes",
+      "items": [
+        { "lead": "One huge board for a big crowd.", "text": "Everyone crowds one corner. Split the food into stations." },
+        { "lead": "Forgetting dietary needs.", "text": "Label the board, and keep a vegetarian or nut-free section." },
+        { "lead": "Too much specialty cheese.", "text": "At parties, the familiar things go first. Spend on one special cheese and keep the rest crowd-pleasers." },
+        { "lead": "Running out of crackers.", "text": "Crackers and bread run out before the cheese does. Buy more than you think." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "How much charcuterie do I need for a party?", "a": "About 3 oz each of cheese and meat per guest when the board is the main party food, or 2 oz each before a meal. For 20 guests as party food, that's about 4 lb of cheese and 4 lb of meat, including 10% extra for a crowd." },
+    { "q": "How many charcuterie boards do I need for 50 people?", "a": "Plan on stations rather than one board: three or four boards around the room, or a grazing table built in sections." },
+    { "q": "What's the best charcuterie board for a baby shower?", "a": "One with mild, pasteurized cheeses and fruit for everyone, plus a labeled pregnancy-safe section with no cold cured meat. See the [pregnancy-safe board guide](/blog/pregnancy-safe-charcuterie-board/)." },
+    { "q": "How far ahead can I make a party charcuterie board?", "a": "Slice cheese and fold meat the day before and keep them covered in the fridge. Assemble the board within an hour of the party and add crackers last." },
+    { "q": "What's a good charcuterie idea for an office party?", "a": "Familiar cheeses and meats, fruit, crackers and pretzels, with labels for anything with nuts, gluten or pork. Cups or skewers work well when people are standing." },
+    { "q": "What's the difference between a grazing table and a charcuterie board?", "a": "A grazing table covers a whole table and feeds 20 to 100+ people, built in sections. A charcuterie board is one board. See [grazing board vs charcuterie board](/blog/grazing-board-vs-charcuterie-board/)." }
+  ]
+}

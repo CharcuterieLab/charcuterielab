@@ -9,10 +9,10 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-19",
   "h1": "Hanukkah Charcuterie Board Ideas",
-  "seo_title": "Hanukkah Charcuterie Board Ideas (Kosher-Style)",
-  "description": "Hanukkah charcuterie board ideas: a dairy latke-and-lox board, a deli meat board with no pork, a menorah-shaped board, a gelt dessert board, and how much to buy.",
+  "seo_title": "Hanukkah Charcuterie Board Ideas: 7 Kosher-Style Boards",
+  "description": "7 Hanukkah charcuterie board ideas, kosher-style: a latke and lox board, a deli meat board, a bagel brunch board, a blue-and-white cheese board, a pareve mezze board, party cups and a gelt dessert board.",
   "image": "/images/hanukkah-charcuterie-board.jpg",
   "answer": "A Hanukkah board works best kosher-style: build a dairy board (cheese, smoked salmon, latkes with sour cream and applesauce) or a meat board (beef salami and pastrami, no pork), and keep the two apart. Shape it like a menorah or a Star of David in blue and white, add something fried in oil, and plan about 2 oz each of the main foods per guest before a meal.",
   "ideas": [
@@ -48,6 +48,36 @@
         "pita-chips"
       ],
       "guests": 8
+    },
+    {
+      "title": "The Bagel and Lox Brunch Board",
+      "for": "Dairy board · Hanukkah morning · 6–20 guests",
+      "post": "bagel-board",
+      "image": "/images/bagel-board.jpg",
+      "link_text": "How to build a bagel board",
+      "text": "Bagels, two or three cream cheeses, smoked salmon, capers, red onion, tomato and cucumber. Skip any bacon to keep it kosher-style, and set out everything but the fresh items the night before.",
+      "on_it": "Bagels · cream cheeses · smoked salmon · capers · red onion · tomato · cucumber · fruit"
+    },
+    {
+      "title": "The Blue-and-White Cheese Board",
+      "for": "Dairy board · 8–10 guests",
+      "text": "White cheeses with blue and white fruit: feta, goat cheese and brie with blueberries, white grapes and cucumber, plus honey and plain crackers. Lay it out in the shape of a menorah or a Star of David (see the shapes below).",
+      "on_it": "Feta · goat cheese · brie · blueberries · white grapes · cucumber · honey · water crackers"
+    },
+    {
+      "title": "The Mezze Board (Pareve)",
+      "for": "No meat, no dairy · 6–8 guests",
+      "board": "plant-based-mezze-board",
+      "text": "Hummus, muhammara, falafel, dolmas, dates and pistachios, with nothing from meat or dairy. That makes it an easy side board next to either a dairy meal or a meat meal. If guests keep strictly kosher, check the certification on each product."
+    },
+    {
+      "title": "Hanukkah Party Cups",
+      "for": "Meat cups or dairy cups · 24+ cups",
+      "post": "charcuterie-cups",
+      "image": "/images/charcuterie-cups.jpg",
+      "link_text": "How to make charcuterie cups",
+      "text": "Individual cups for a party where people stand and mingle. Make meat cups with beef salami and pickles, or dairy cups with cheese and crackers, but don't put meat and cheese in the same cup.",
+      "on_it": "Meat cups: beef salami, pickles, olives, rye crackers · Dairy cups: cheddar, goat cheese, grapes, crackers"
     },
     {
       "title": "The Gelt and Sufganiyot Dessert Board",
@@ -147,10 +177,43 @@
     {
       "q": "Can I make latkes ahead for the board?",
       "a": "Yes. Fry them earlier in the day, cool them on a rack, then reheat them in a single layer at 375°F for about 8 to 10 minutes so they crisp again. Add them to the board last so they stay warm and crunchy."
+    },
+    {
+      "q": "Is smoked salmon dairy or meat?",
+      "a": "Neither. Fish is pareve, so smoked salmon is usually served on a dairy board with cream cheese. Some people who keep kosher don't serve fish together with meat, so keep it off the meat board."
+    },
+    {
+      "q": "What does pareve mean?",
+      "a": "Pareve foods contain no meat or dairy, so they can be eaten with either. Fruit, vegetables, nuts, eggs, fish and most breads and crackers are usually pareve, but check the label for milk or butter."
+    },
+    {
+      "q": "What's a good Hanukkah brunch board?",
+      "a": "A bagel and lox board: bagels, cream cheeses, smoked salmon, capers, red onion, tomato and cucumber, with fruit and latkes on the side. It's a dairy board, so leave off any meat."
     }
   ],
   "read": [
+    "bagel-board",
+    "best-smoked-salmon",
+    "charcuterie-cups",
     "smoked-salmon-cream-cheese-pairing",
     "vegetarian-charcuterie-board"
+  ],
+  "mistakes": [
+    {
+      "lead": "Putting meat and cheese on one board.",
+      "text": "If anyone at the party keeps kosher, make a dairy board or a meat board, not one board with both. Fish and vegetables are pareve and can go on either."
+    },
+    {
+      "lead": "Assuming salami is beef.",
+      "text": "Most supermarket salami and pepperoni contain pork. Look for all-beef salami, ideally with a kosher certification."
+    },
+    {
+      "lead": "Putting the latkes out first.",
+      "text": "Latkes go soggy on the board. Reheat them at 375°F and add them last, right before guests eat."
+    },
+    {
+      "lead": "Guessing what strictly kosher guests need.",
+      "text": "Ask which certifications they use, and serve on new or dedicated boards and knives."
+    }
   ]
 }
