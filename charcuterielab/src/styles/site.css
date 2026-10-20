@@ -5379,3 +5379,23 @@ body.fx-slide-on .fx-sticky { display: none !important; }
   .post-body .sk-card { padding: 16px; }
   .post-body .sk-card h3 { font-size: 18px; }
 }
+/* Scannable format, round 2 (Oct 20 2026): ranked guides converted by scripts/to-skim.py */
+.post-body .sk-score { display: flex; align-items: center; gap: 8px; margin: 12px 0 0; font-family: Arial, Helvetica, sans-serif; }
+.post-body .sk-stars { color: var(--gold); font-size: 17px; letter-spacing: 1px; }
+.post-body .sk-score b { color: var(--green-deep); font-size: 18px; }
+.post-body .sk-of { color: var(--muted); font-size: 14px; }
+.post-body .sk-bar { flex: 1 1 auto; max-width: 180px; height: 8px; border-radius: 999px; background: rgba(17, 58, 39, 0.1); overflow: hidden; }
+.post-body .sk-bar i { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--gold), var(--green)); }
+.post-body .sk-subscores { display: block; color: var(--muted); font-size: 13px; }
+.post-body details.sk-more p:first-of-type { margin-top: 8px; }
+.post-body ul.sk-checks li.sk-x::before {
+  background: #8a2e22 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M6 6l6 6M12 6l-6 6' fill='none' stroke='%23fff9eb' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center / 18px no-repeat;
+}
+.post-body .sk-table-wrap { margin: 10px 0 14px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.post-body table.sk-table { width: 100%; min-width: 520px; border-collapse: collapse; font-size: 13px; background: #fff; }
+.post-body table.sk-table th, .post-body table.sk-table td { padding: 6px 8px; border-bottom: 1px solid rgba(17, 58, 39, 0.1); text-align: left; }
+.post-body table.sk-table th { color: var(--gold-dark); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+@media (max-width: 640px) {
+  .post-body .sk-top-row { flex-direction: column; align-items: flex-start; }
+  .post-body .sk-top-buy { flex-direction: row; align-items: center; width: 100%; justify-content: space-between; }
+}

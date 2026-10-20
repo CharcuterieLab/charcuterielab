@@ -11,91 +11,68 @@ slug: "best-fig-jam"
 
 # The Best Fig Jam for a Cheese Board, Ranked
 
-> **Quick Answer:** Our top pick for fig jam on a charcuterie board is Dalmatia Original Fig Spread (4.4 out of 5). Best value: Bonne Maman Fig Preserves. Splurge: Stonewall Kitchen Fig & Ginger Jam. We ranked 4 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.
+> **Quick Answer:** Our top pick for fig jam on a charcuterie board is Dalmatia Original Fig Spread (4.4 out of 5). Best value: Bonne Maman Fig Preserves. Splurge: Stonewall Kitchen Fig & Ginger Jam.
+
+:::html
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Dalmatia Original Fig Spread</a><p class="sk-top-line">Thick and seedy. Widely stocked.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Dalmatia+Original+Fig+Spread" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Bonne Maman Fig Preserves</a><p class="sk-top-line">Figs first. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Bonne+Maman+Fig+Preserves" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Stonewall Kitchen Fig &amp; Ginger Jam</a><p class="sk-top-line">Top-ranked. Bright flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Stonewall+Kitchen+Fig+and+Ginger+Jam" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
+:::
 
 Fig jam is the spread that ties a board together. The best ones are thick, seedy and not too sweet, so they hold on a cracker and stand up to salty cheese.
 
-*How we ranked these: these are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Prices and stock last checked September 2026.*
+:::html
+<h2 id="picks">All 4, ranked</h2>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<div class="sk-cards">
+<article class="sk-card" id="pick-1">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Dalmatia Original Fig Spread</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The board standard</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, most grocery, cheese shops.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Thick and seedy. Widely stocked.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Sweeter than Italian fig jams.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Dalmatia+Original+Fig+Spread" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Made in Croatia with Dalmatian figs. <a href="https://sporked.com/article/best-jams-for-charcuterie-board/" target="_blank" rel="noopener">Sporked</a> called it the best fig jam for charcuterie, praising the seeds for texture, and the brand won a Sofi gold in 2010. (Source: <a href="https://figspread.com/products/fig-spread" target="_blank" rel="noopener">Dalmatia Fig Spread product page</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-2">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Stonewall Kitchen Fig &amp; Ginger Jam</h3></div></div>
+<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Blue and aged cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Grocery, specialty stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Bright flavor.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Ginger makes it less versatile.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Stonewall+Kitchen+Fig+and+Ginger+Jam" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-jams-for-charcuterie-board/" target="_blank" rel="noopener">Sporked</a>&#x27;s number one jam for charcuterie, scoring 10 out of 10 for its big chunks of fig and candied ginger. Especially good with Stilton.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 3 · Value 3 · Easy to find 4</span></p></details>
+</article>
+<article class="sk-card" id="pick-3">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Bonne Maman Fig Preserves</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Figs first. Everywhere.</p>
+<p class="sk-mind"><strong>Watch out:</strong> A looser preserve, not a thick spread.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bonne+Maman+Fig+Preserves" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>White figs are the first ingredient, with no high fructose corn syrup. A reliable, widely stocked choice. (Source: <a href="https://bonnemaman.us/products/fig-preserves" target="_blank" rel="noopener">Bonne Maman Fig Preserves product page</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
+</article>
+<article class="sk-card" id="pick-4">
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">#4</p><h3>Trader Joe&#x27;s Fig Butter</h3></div></div>
+<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget and smooth</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Very cheap. Spreads easily.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Smooth, so less texture.</p>
 
-## Our picks at a glance
+<details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Smooth and spreadable, and <a href="https://www.tastingtable.com/1622425/trader-joes-fruit-spreads-ranked/" target="_blank" rel="noopener">Tasting Table</a> compared it to a Fig Newton. Cheap and pleasant, though thinner on a board.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 3</span></p></details>
+</article>
+</div>
+:::
 
-| Pick | Rating |
-|---|---|
-| **Best overall:** Dalmatia Original Fig Spread ($$) | ★★★★½ 4.4 |
-| **Best value:** Bonne Maman Fig Preserves ($$) | ★★★★☆ 3.9 |
-| **Best splurge:** Stonewall Kitchen Fig & Ginger Jam ($$$) | ★★★★☆ 4.0 |
-
-## The full ranking
-
-| Product | Rating | Best for |
-|---|---|---|
-| 1. **Dalmatia Original Fig Spread** ($$) | ★★★★½ 4.4 | The board standard |
-| 2. **Stonewall Kitchen Fig & Ginger Jam** ($$$) | ★★★★☆ 4.0 | Blue and aged cheese |
-| 3. **Bonne Maman Fig Preserves** ($$) | ★★★★☆ 3.9 | Easy to find |
-| 4. **Trader Joe's Fig Butter** ($) | ★★★½☆ 3.3 | Budget and smooth |
-
-![Ranked list of the best fig jam for a charcuterie board, scored out of 5](/images/best-fig-jam-ranking.webp)
-
-### 1. Dalmatia Original Fig Spread
-
-**★★★★½ 4.4 out of 5** · Best overall · Best for: The board standard · $$ mid-range
-
-Made in Croatia with Dalmatian figs. [Sporked](https://sporked.com/article/best-jams-for-charcuterie-board/) called it the best fig jam for charcuterie, praising the seeds for texture, and the brand won a Sofi gold in 2010. (Source: [Dalmatia Fig Spread product page](https://figspread.com/products/fig-spread).)
-
-- **Why we like it:** Thick and seedy. Widely stocked.
-- **Keep in mind:** Sweeter than Italian fig jams.
-- **Where to buy:** Whole Foods, most grocery, cheese shops.
-
-### 2. Stonewall Kitchen Fig & Ginger Jam
-
-**★★★★☆ 4.0 out of 5** · Best splurge · Best for: Blue and aged cheese · $$$ premium
-
-[Sporked](https://sporked.com/article/best-jams-for-charcuterie-board/)'s number one jam for charcuterie, scoring 10 out of 10 for its big chunks of fig and candied ginger. Especially good with Stilton.
-
-- **Why we like it:** Top-ranked. Bright flavor.
-- **Keep in mind:** Ginger makes it less versatile.
-- **Where to buy:** Grocery, specialty stores.
-
-### 3. Bonne Maman Fig Preserves
-
-**★★★★☆ 3.9 out of 5** · Best value · Best for: Easy to find · $$ mid-range
-
-White figs are the first ingredient, with no high fructose corn syrup. A reliable, widely stocked choice. (Source: [Bonne Maman Fig Preserves product page](https://bonnemaman.us/products/fig-preserves).)
-
-- **Why we like it:** Figs first. Everywhere.
-- **Keep in mind:** A looser preserve, not a thick spread.
-- **Where to buy:** Most grocery stores.
-
-### 4. Trader Joe's Fig Butter
-
-**★★★½☆ 3.3 out of 5** · Best for: Budget and smooth · $ budget
-
-Smooth and spreadable, and [Tasting Table](https://www.tastingtable.com/1622425/trader-joes-fruit-spreads-ranked/) compared it to a Fig Newton. Cheap and pleasant, though thinner on a board.
-
-- **Why we like it:** Very cheap. Spreads easily.
-- **Keep in mind:** Smooth, so less texture.
-- **Where to buy:** Trader Joe's.
-
-## How the scores break down
-
-Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).
-
-| Product | On the board | Reviews and awards | Ingredients | Value | Easy to find | Total |
-|---|---|---|---|---|---|---|
-| Dalmatia Original Fig Spread | 5 | 5 | 4 | 3 | 4 | **4.4** |
-| Stonewall Kitchen Fig & Ginger Jam | 4 | 5 | 3 | 3 | 4 | **4.0** |
-| Bonne Maman Fig Preserves | 4 | 3 | 4 | 4 | 5 | **3.9** |
-| Trader Joe's Fig Butter | 3 | 3 | 3 | 5 | 3 | **3.3** |
-
-## What to look for on the label
-
-**Label check:** Figs should be the first ingredient, not sugar or glucose syrup. A jar where sugar leads will be sweet and thin.
-
-**Skip:** Fig-flavored jelly with no visible seeds. The seeds are half the point.
+:::html
+<h2 id="what-to-look-for">What to look for</h2>
+<ul class="sk-checks"><li><strong>Look for:</strong> Figs should be the first ingredient, not sugar or glucose syrup. A jar where sugar leads will be sweet and thin.</li><li class="sk-x"><strong>Skip:</strong> Fig-flavored jelly with no visible seeds. The seeds are half the point.</li></ul>
+:::
 
 For what fig jam pairs with and how to serve it, see the [fig jam guide](/ingredients/fig-jam/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
-## Fig jam questions
+:::html
+<h2 id="faq">Fig jam questions</h2>
+:::
 
 **What is the best fig jam for a cheese board?**
 
@@ -111,11 +88,14 @@ A small bowl of about 1/4 to 1/2 cup covers a board for 6 to 8 people.
 
 **Giving it as a gift?** These make easy host gifts. See our [charcuterie gifts under $25](/gifts/under-25/), [hostess gifts](/gifts/hostess-gifts/) and the [DIY charcuterie gift basket](/blog/charcuterie-gift-basket/).
 
-## Sources
-
-- [Sporked: Best Jams for Charcuterie Boards](https://sporked.com/article/best-jams-for-charcuterie-board/)
-- [Dalmatia Fig Spread product page](https://figspread.com/products/fig-spread)
-- [Bonne Maman Fig Preserves product page](https://bonnemaman.us/products/fig-preserves)
-- [Tasting Table: Trader Joe's Fruit Spreads, Ranked](https://www.tastingtable.com/1622425/trader-joes-fruit-spreads-ranked/)
+:::html
+<details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
+<p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked September 2026. We ranked 4 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>
+<p>Each product is scored 1 to 5 on five things, then weighted: how it works on a board (30%), published taste tests and awards (25%), ingredients (15%), value (15%) and how easy it is to find (15%).</p>
+<div class="sk-table-wrap"><table class="sk-table"><thead><tr><th scope="col">Product</th><th scope="col">On the board</th><th scope="col">Reviews and awards</th><th scope="col">Ingredients</th><th scope="col">Value</th><th scope="col">Easy to find</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Dalmatia Original Fig Spread</td><td>5</td><td>5</td><td>4</td><td>3</td><td>4</td><td><strong>4.4</strong></td></tr><tr><td>Stonewall Kitchen Fig &amp; Ginger Jam</td><td>4</td><td>5</td><td>3</td><td>3</td><td>4</td><td><strong>4.0</strong></td></tr><tr><td>Bonne Maman Fig Preserves</td><td>4</td><td>3</td><td>4</td><td>4</td><td>5</td><td><strong>3.9</strong></td></tr><tr><td>Trader Joe&#x27;s Fig Butter</td><td>3</td><td>3</td><td>3</td><td>5</td><td>3</td><td><strong>3.3</strong></td></tr></tbody></table></div>
+<ul class="sk-src"><li><a href="https://sporked.com/article/best-jams-for-charcuterie-board/" target="_blank" rel="noopener">Sporked: Best Jams for Charcuterie Boards</a></li><li><a href="https://figspread.com/products/fig-spread" target="_blank" rel="noopener">Dalmatia Fig Spread product page</a></li><li><a href="https://bonnemaman.us/products/fig-preserves" target="_blank" rel="noopener">Bonne Maman Fig Preserves product page</a></li><li><a href="https://www.tastingtable.com/1622425/trader-joes-fruit-spreads-ranked/" target="_blank" rel="noopener">Tasting Table: Trader Joe&#x27;s Fruit Spreads, Ranked</a></li></ul>
+<img src="/images/best-fig-jam-ranking.webp" alt="Ranked list of the best fig jam for a charcuterie board, scored out of 5" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin">
+</details>
+:::
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

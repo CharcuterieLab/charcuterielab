@@ -317,6 +317,9 @@ export function makeOffers(h, products, books) {
       const fd = html.indexOf('<section class="best-finder"', mainAt);
       if (fd > 0) { const fe = html.indexOf("</section>", fd); if (fe > 0) return fe + "</section>".length; }
       const art = html.indexOf('<article class="post-body"', mainAt);
+      // Scannable-format guides: the top picks card is the answer, so the email
+      // box waits until after it and the intro, just before the first section.
+      if (art >= 0 && html.indexOf('class="sk-jump"', art) > 0) return before(h2s[0] ?? -1);
       const bq = art >= 0 ? html.indexOf("<blockquote", art) : -1;
       if (bq >= 0 && (h2s[0] === undefined || bq < h2s[0])) {
         const end = html.indexOf("</blockquote>", bq);
