@@ -129,6 +129,7 @@ Everything in this post as 20 printable pages of tools and expert tips you'll us
 
 ## Related Reading
 
+- [Client and Corporate Charcuterie Gifts](/gifts/client-gifts/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)
 - [How Much Does a Charcuterie Board Cost?](/blog/how-much-does-a-charcuterie-board-cost/)
 - [Charcuterie Cups](/blog/charcuterie-cups/)

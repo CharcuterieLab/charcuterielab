@@ -119,6 +119,9 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | ★★★★½ 4.6 |
+| [Best Cheese Knife Sets](/blog/best-cheese-knife-sets/) | Boska Copenhagen Cheese Knife Set | Buyer's guide (unscored) |
+| [Best Charcuterie Boards to Buy](/blog/best-charcuterie-boards/) | A 16-inch-plus hardwood board | Buyer's guide (unscored) |
+| [Charcuterie gift guide](/gifts/) | 50 Boards, Built by Science | Gift guide |
 
 ## Store guides
 

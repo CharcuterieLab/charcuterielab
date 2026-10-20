@@ -76,6 +76,7 @@ Take the cheese out of the fridge about 45 to 60 minutes ahead for aged cheeses 
 
 ## Related Reading
 
+- [Charcuterie Gifts for Men: 12 Ideas for the Meat Lover](/gifts/for-him/)
 - [Cocktails and Spirits for a Charcuterie Board](/pairings/cocktails/)
 - [Beer and Charcuterie Pairing Guide](/blog/beer-pairing/)
 - [Wine and Cheese Board](/blog/wine-cheese-board/)

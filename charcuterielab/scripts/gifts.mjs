@@ -21,7 +21,7 @@ export { AMAZON_TAG } from "./affiliate.mjs";
 import { AMAZON_TAG } from "./affiliate.mjs";
 const PRICES_CHECKED = "October 2026";
 
-export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/"];
+export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/"];
 
 // Seasonal: "Gifts" sits in the top menu from Nov 1 to Dec 25 (build date).
 export function giftsInNav(d = new Date()) {
@@ -35,8 +35,8 @@ const search = (q) => amz(`https://www.amazon.com/s?k=${encodeURIComponent(q).re
 // ---------------------------------------------------------------- products
 // Reusable third-party picks. price = typical range in USD.
 const ITEMS = {
-  knives3: { name: "A 3-piece cheese knife set", price: [12, 20], q: "3 piece cheese knife set", note: "One soft-cheese knife, one spreader, one pointed knife for hard cheese. That covers every cheese on a board." },
-  boska: { name: "Boska Monaco+ cheese knife set", price: [30, 45], q: "Boska Monaco cheese knife set", note: "Dutch cheese-tool maker Boska's best-known set, with stainless blades shaped for soft, semi-hard and hard cheese." },
+  knives3: { name: "A 3-piece cheese knife set", price: [12, 20], q: "3 piece cheese knife set", note: "One soft-cheese knife, one spreader, one pointed knife for hard cheese. That covers every cheese on a board.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  boska: { name: "Boska Monaco+ cheese knife set", price: [30, 45], q: "Boska Monaco cheese knife set", note: "Dutch cheese-tool maker Boska's step-up set: a brie knife, a cheese knife and a Parmesan knife in satin-finish stainless steel.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
   plane: { name: "A Norwegian cheese plane", price: [10, 18], q: "cheese plane slicer", note: "Shaves paper-thin slices of Gouda, Jarlsberg or Gruyère. Cheap, useful every day, and most people don't own one." },
   figSpread: { name: "Dalmatia Original Fig Spread", price: [6, 9], q: "Dalmatia fig spread", note: "Our top-ranked fig jam: thick, seedy and not too sweet.", guide: ["Best fig jam, ranked", "/blog/best-fig-jam/"] },
   hotHoney: { name: "A jar of hot honey", price: [9, 13], q: "hot honey", note: "Chili-infused honey for salami, pizza, fried chicken and sharp cheddar.", guide: ["Best hot honey, ranked", "/blog/best-hot-honey/"] },
@@ -47,8 +47,8 @@ const ITEMS = {
   picks: { name: "Bamboo cocktail picks", price: [6, 10], q: "bamboo cocktail picks", note: "For olives, salami folds and cheese cubes. A host runs out of these at every party." },
   ramekins: { name: "A set of small dip bowls", price: [14, 22], q: "small ramekins dip bowls set", note: "Jam, mustard, olives and nuts need small bowls, and most kitchens have two at most." },
   storage: { name: "Formaticum cheese storage bags", price: [14, 18], q: "Formaticum cheese storage bags", note: "Two-ply cheese paper bags that let cheese breathe without drying out. Cheese shops use the same paper.", guide: ["How to store cheese", "/blog/cheese-storage/"] },
-  acacia: { name: "An acacia wood serving board", price: [20, 35], q: "acacia wood charcuterie board", note: "Dense, affordable hardwood with a warm grain. Look for 16 inches or longer.", guide: ["Wood vs slate vs marble", "/blog/best-charcuterie-boards/"] },
-  slate: { name: "A slate cheese board with chalk", price: [20, 30], q: "slate cheese board with chalk", note: "Black slate makes every cheese and meat stand out, and you can write the names right on it.", guide: ["Wood vs slate vs marble", "/blog/best-charcuterie-boards/"] },
+  acacia: { name: "An acacia wood serving board", price: [20, 35], q: "acacia wood charcuterie board", note: "Dense, affordable hardwood with a warm grain. Look for 16 inches or longer.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
+  slate: { name: "A slate cheese board with chalk", price: [20, 30], q: "slate cheese board with chalk", note: "Black slate makes every cheese and meat stand out, and you can write the names right on it.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
   dome: { name: "A glass cheese dome", price: [25, 45], q: "glass cheese dome with board", note: "Keeps a cut wedge covered on the counter while it comes to room temperature." },
   club: { name: "A cheese-of-the-month club", price: null, tier: "$$$$", q: "cheese of the month club gift", note: "Murray's Cheese and several other shops ship a monthly box of cheeses picked by a cheesemonger. Check each club's plans for current prices." },
   kit: { name: "A beginner mozzarella and ricotta kit", price: [25, 40], q: "mozzarella cheese making kit", note: "Fresh mozzarella in about an hour from a gallon of milk. A fun first step for a cheese lover who cooks." },
@@ -63,7 +63,17 @@ const ITEMS = {
   honeyDipper: { name: "A wooden honey dipper", price: [5, 9], q: "wooden honey dipper", note: "The tiny tool that keeps honey off the board and on the cheese." },
   coasters: { name: "Slate coasters", price: [12, 20], q: "slate coasters set", note: "They match a slate board and take a sweating glass without a ring." },
   wineGuide: { name: "Wine & Cheese Pairing Guide (printable)", price: [4, 4], href: "/printables/wine-cheese-pairing-guide/", note: "Our printable chart of which cheeses go with which wines. Print it, fold it into the card, done." },
-  styling: { name: "Board Styling Playbook (printable)", price: [4, 4], href: "/printables/board-styling-playbook/", note: "Our printable guide to salami roses, cheese cuts and layout. Prints in minutes for a last-minute add-on." }
+  styling: { name: "Board Styling Playbook (printable)", price: [4, 4], href: "/printables/board-styling-playbook/", note: "Our printable guide to salami roses, cheese cuts and layout. Prints in minutes for a last-minute add-on." },
+  // Added 19 Oct 2026 for /gifts/for-him/ and /gifts/client-gifts/. Sources are on the linked guides.
+  wusthofPlane: { name: "Wüsthof Gourmet cheese plane", price: [25, 45], q: "Wusthof Gourmet cheese plane", note: "Won America's Test Kitchen's test of nine cheese planes for clean, even slices every time. A tool he'll use on every block of cheddar.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  laguiole: { name: "Laguiole by Jean Dubost 3-piece cheese set", price: [80, 110], q: "Jean Dubost Laguiole 3 piece cheese set", note: "A French cleaver, a fork-tipped knife and a spreader, boxed and ready to give. The set people leave out on the counter.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  glencairn: { name: "A pair of Glencairn whisky glasses", price: [20, 35], q: "Glencairn whisky glass set of 2", note: "The Scottish tulip-shaped tasting glass, made to concentrate a whisky's aroma. Give it with a block of aged cheddar and our pairing guide.", guide: ["Whiskey and cheese pairing", "/blog/whiskey-and-cheese-pairing/"] },
+  giftBox: { name: "A meat and cheese gift box", price: [30, 190], href: "/blog/best-charcuterie-gift-boxes/", hrefLabel: "See our ranked gift boxes", note: "We ranked ten. Our top pick is Harry & David's Ultimate Meat and Cheese box, about 5.5 lb of sausage, salami, cheese and crackers for about $110." },
+  ctft: { name: "CTFT cheese board and knife set", price: [28, 35], q: "CTFT cheese board and knife set bamboo", note: "A 13-inch bamboo board with a hidden drawer of four cheese knives, chalk and slate labels. NBC Select's editor's pick.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
+  engraved: { name: "Mark & Graham engraved wood and marble cheese board", price: [45, 70], buy: ["See it at Mark & Graham", "https://www.markandgraham.com/"], note: "Acacia and marble, in two sizes, and it can be engraved with initials or a company name. An NBC Select reviewer said it feels heavy and good quality.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
+  harryDavid: { name: "Harry & David Ultimate Meat and Cheese Gift Box", price: [100, 120], buy: ["See it at Harry & David", "https://www.harryanddavid.com/"], note: "About 5.5 lb of sausage, salami, cheese and crackers from a name clients recognize. Our top-ranked gift box.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] },
+  boarderie: { name: "Boarderie ready-to-serve board", price: [129, 139], buy: ["See it at Boarderie", "https://www.boarderie.com/"], note: "Arrives already arranged on a wooden board, with free overnight shipping. Nothing to slice or plate, so it can go straight onto a conference table.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] },
+  swissColony: { name: "Swiss Colony sausage and cheese bars", price: [25, 45], q: "Swiss Colony sausage and cheese gift", note: "Shelf-stable summer sausage and cheese, cheap enough to send down a long client list. Our budget gift box pick.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] }
 };
 
 // Other authors' books (no affiliation). Honest one-liners.
@@ -425,6 +435,83 @@ const GUIDES = [
       ["Is food a good housewarming gift?", "Shelf-stable food is: honeycomb, jars, nuts and a whole dry salami keep for weeks. Avoid fresh cheese, since a new fridge may be empty or not yet set up."]
     ],
     related: [["Hostess gifts", "/gifts/hostess-gifts/"], ["Which serving board to buy", "/blog/best-charcuterie-boards/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
+  },
+  {
+    slug: "for-him",
+    card: "Charcuterie gifts for him",
+    cardLine: "12 gifts for the meat lover, griller or whiskey drinker",
+    image: "/images/gifts-for-him.jpg",
+    seoTitle: "Charcuterie Gifts for Men: 12 Ideas for the Meat Lover",
+    h1: "Charcuterie gifts for men: 12 ideas for the meat lover in your life",
+    kicker: "Gift guide · For him",
+    description: "12 charcuterie gifts for men: a board book, a whole dry salami, a cheese knife set, the Wüsthof cheese plane, whisky glasses for a cheese pairing, a curing book for the DIY type and a meat and cheese box.",
+    quick: "The best charcuterie gift for a man who loves meat and cheese is <strong>50 Boards, Built by Science</strong> (paperback $25.99) with a <strong>whole dry salami</strong> and a jar of whole-grain mustard, about $38 to $50. For a tool, the <strong>Wüsthof cheese plane</strong> won America's Test Kitchen's test. For the guy who wants to make his own salami, Ruhlman and Polcyn's <em>Charcuterie</em>.",
+    intro: "Men who love charcuterie are usually in it for the meat: the salami, the summer sausage, the sharp cheddar and the drink that goes with it. The best gifts lean into that. Something to eat now, a tool he'll use every time he builds a board, or, for the hands-on type, a book that teaches him to cure his own.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { book: "main", best: "Best overall", why: "Fifty complete boards, including a meat lover's carnivore board, a game day board and a beer and charcuterie board, each with the shopping list and amounts. Tie a whole salami to it and the first board is already started." },
+      { item: "salami", best: "Best edible gift" },
+      { item: "boska", best: "Best knife set" },
+      { item: "wusthofPlane", best: "Best tool" },
+      { other: "ruhlman", best: "Best for the DIY type" },
+      { item: "glencairn", best: "Best for a whiskey drinker" },
+      { item: "giftBox", best: "Best ready-made gift" },
+      { item: "acacia", best: "Best for the guy who hosts" },
+      { book: "world", best: "Best for the adventurous eater", why: "Sixteen international boards, from a Bavarian beer-hall spread to a Korean BBQ board. Under $17, so it pairs easily with a six-pack from the same country." },
+      { item: "hotHoney", best: "Best stocking stuffer" },
+      { item: "mustard", best: "Best cheap add-on" },
+      { item: "club", best: "Best splurge" }
+    ],
+    extra: {
+      title: "Build him a meat lover's gift box",
+      body: "<p>Shelf-stable meat and cheese travels well and keeps until he's ready. Pack a <strong>whole dry salami</strong> (unopened, it keeps about 6 weeks in the pantry), a <strong>waxed or vacuum-packed aged cheddar</strong>, a sleeve of crackers, a jar of <strong>whole-grain mustard</strong> and a small knife. Add the book, and it's a full board night in a box. Our <a href=\"/blog/charcuterie-gift-basket/\">DIY gift basket guide</a> has packing lists at $25, $50 and $100, and the <a href=\"/blog/best-salami-brands/\">best salami, ranked</a> tells you which one to buy.</p>"
+    },
+    set: "him",
+    faq: [
+      ["What is a good charcuterie gift for a man?", "A board book with a whole dry salami and a jar of whole-grain mustard, about $38 to $50. Or a tool he'll use every time: a good cheese knife set or the Wüsthof cheese plane."],
+      ["What do you get a man who loves meat and cheese?", "Something to eat now and something to build with: a whole salami, aged cheddar and mustard, plus a cheese knife set or a board book. A ready-made meat and cheese box from Harry & David is the no-effort option."],
+      ["What is a good gift for someone who wants to make their own salami?", "Charcuterie: The Craft of Salting, Smoking, and Curing by Michael Ruhlman and Brian Polcyn. It covers curing, smoking and sausage-making at home."],
+      ["What goes well with whiskey on a charcuterie board?", "Aged cheddar, smoked Gouda, blue cheese, salami, dark chocolate and candied pecans. Our whiskey and cheese pairing guide has the full list, by whiskey style."],
+      ["Does salami need to be refrigerated as a gift?", "A whole, unopened dry salami doesn't: it keeps about 6 weeks in the pantry. Once sliced, wrap it and refrigerate it."]
+    ],
+    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"], ["Whiskey and cheese pairing", "/blog/whiskey-and-cheese-pairing/"]]
+  },
+  {
+    slug: "client-gifts",
+    card: "Client and corporate charcuterie gifts",
+    cardLine: "9 gifts for clients, teams and the office",
+    image: "/images/client-charcuterie-gifts.jpg",
+    seoTitle: "Corporate Charcuterie Gifts for Clients: 9 Ideas (2026)",
+    h1: "Charcuterie gifts for clients and employees: 9 corporate ideas",
+    kicker: "Gift guide · Client gifts",
+    description: "9 charcuterie gifts for clients, teams and the office: ready-to-serve boards, meat and cheese boxes, engraved cheese boards, board books, and how the $25 business-gift tax rule works.",
+    quick: "For a top client, send a <strong>Boarderie ready-to-serve board</strong> (about $129–139) or a <strong>Harry & David meat and cheese box</strong> (about $110). For a long list, a paperback of <strong>Around the World in 16 Boards</strong> ($16.99) or a Swiss Colony sausage and cheese set ($25–45) keeps the cost down. The IRS lets a business deduct no more than $25 of gifts per client per year.",
+    intro: "A food gift is the safest client gift there is: almost everyone eats it, nobody has to find a shelf for it, and it lands well at an office where it can be shared. The trick is matching the gift to the relationship. A ready-to-serve board for the client who signs the big contract, something shelf-stable and cheap for the long list, and something with your name on it for the people you'll see all year.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links. This isn't tax advice; ask your accountant.",
+    picks: [
+      { item: "harryDavid", best: "Best overall client gift" },
+      { item: "boarderie", best: "Best for a top client" },
+      { book: "world", best: "Best under $25", why: "Sixteen international boards, from Spain to Korea, for $16.99: a gift that's personal, keeps for years and comes in under the $25 deduction limit. Easy to mail to a home office." },
+      { book: "main", best: "Best book for a team", why: "Fifty complete boards for every occasion, including an office party board. A thank-you that turns into the next team potluck." },
+      { item: "swissColony", best: "Best for a long list" },
+      { item: "engraved", best: "Best keepsake with your name" },
+      { item: "ctft", best: "Best board and knives" },
+      { item: "laguiole", best: "Best premium tool" },
+      { item: "club", best: "Best for a key account" }
+    ],
+    extra: {
+      title: "How to send charcuterie to a client list",
+      body: "<ul><li><strong>Order early.</strong> For Christmas, order in the first week of December. Holiday cut-offs come early, and perishable boxes often ship only Monday to Wednesday so they don't sit in a warehouse over a weekend.</li><li><strong>Ship to where someone will be.</strong> A box with soft cheese needs a person to put it in the fridge. Offices close for the holidays; check before sending perishables there.</li><li><strong>Shelf-stable for long lists.</strong> Whole summer sausage, waxed cheese, crackers, nuts and books can sit in a mailroom. Save the perishable boxes for clients you can call first.</li><li><strong>The $25 rule.</strong> A business can deduct no more than $25 of gifts given to each person in a tax year. Engraving, packing and shipping don't count toward the $25 if they don't add real value (<a href=\"https://www.irs.gov/node/17597\" target=\"_blank\" rel=\"noopener\">IRS</a>). You can spend more; only $25 per person is deductible.</li><li><strong>Add a note that says why.</strong> \"Thanks for a great year\" beats a logo card. For a book, write which board you'd make first.</li></ul><p>Run a charcuterie business? Corporate boxes are one of the biggest orders of the year. See <a href=\"/blog/how-to-start-a-charcuterie-business/\">how to start a charcuterie business</a> for pricing.</p>"
+    },
+    set: "client",
+    faq: [
+      ["What is a good charcuterie gift for clients?", "For a top client, a ready-to-serve Boarderie board or a Harry & David meat and cheese box. For a long list, something shelf-stable under $25: a board book, Swiss Colony sausage and cheese, or a jar of fig spread with Marcona almonds."],
+      ["How much can a business deduct for client gifts?", "No more than $25 per person per year, according to the IRS. Incidental costs such as engraving, packing and shipping don't count toward the $25 if they don't add substantial value. Ask your accountant about your situation."],
+      ["Can I send a charcuterie box to an office?", "Yes, but check that someone will be there. Boxes with soft cheese or sliced meat need refrigerating on arrival, and many offices close over the holidays. Shelf-stable boxes are safer for offices."],
+      ["When should I order corporate food gifts for Christmas?", "In the first week of December, and earlier for large orders. Perishable boxes often ship only early in the week, and carriers are slowest in the last two weeks before Christmas."],
+      ["What is a good charcuterie gift for employees?", "A board book they can use at home, or a ready-to-serve board for the team to share in the office. For remote teams, a book or a shelf-stable sausage and cheese set mails easily."]
+    ],
+    related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Office party charcuterie board", "/boards/office-party-charcuterie-board/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
   }
 ];
 
@@ -438,7 +525,9 @@ const SETS = {
   wine: { name: "The wine and cheese gift", book: "main", items: ["slate", "markers", "wineGuide"], line: "A slate board, labels and a pairing chart, with fifty boards including a wine and cheese board." },
   keto: { name: "The keto gift", book: "keto", items: ["plane", "marcona", "olives"], line: "Twenty keto boards and three things that belong on every one of them." },
   vegan: { name: "The plant-based gift", book: "plant", items: ["acacia", "veganCheese", "olives"], line: "A board, a vegan cheese worth serving and fifteen boards to build around it." },
-  home: { name: "The housewarming gift", book: "main", items: ["acacia", "ramekins"], line: "A first board for the new kitchen, the little bowls it needs and fifty boards to fill it." }
+  home: { name: "The housewarming gift", book: "main", items: ["acacia", "ramekins"], line: "A first board for the new kitchen, the little bowls it needs and fifty boards to fill it." },
+  him: { name: "The meat lover's gift", book: "main", items: ["salami", "boska", "mustard"], line: "Fifty boards, a whole salami to start the first one, the knives to cut it and the mustard that finishes it." },
+  client: { name: "The client thank-you", book: "world", items: ["marcona", "figSpread"], line: "A book that keeps, plus two shelf-stable jars that can sit in a mailroom. Easy to send down a list." }
 };
 
 // ---------------------------------------------------------------- render
@@ -496,7 +585,7 @@ export function giftPages(h, books) {
       <p>${esc(s.line)}</p>
       <ul>
         ${bks.map((b) => `<li><a href="${esc(b.paperbackUrl ? amz(b.paperbackUrl) : T(b.ebookUrl, campaign))}" target="_blank" rel="noopener"><strong>${esc(b.short)}</strong></a>, ${b.paperbackUrl ? "paperback" : "ebook"} ${esc(b.paperbackUrl ? b.paperbackPrice : b.ebookPrice)}</li>`).join("\n        ")}
-        ${its.map((i) => `<li><a href="${esc(i.href || search(i.q))}"${i.href ? "" : ' target="_blank" rel="noopener nofollow"'}>${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
+        ${its.map((i) => `<li><a href="${esc(i.buy ? i.buy[1] : i.href || search(i.q))}"${i.href && !i.buy ? "" : ' target="_blank" rel="noopener nofollow"'}>${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
       </ul>
     </article>`;
   }
@@ -525,7 +614,7 @@ export function giftPages(h, books) {
         <h3>${n}. ${esc(it.name)}${it.by ? ` <span class="gf-by">by ${esc(it.by)}</span>` : ""}</h3>
         <p class="gf-price">${esc(price)}</p>
         <p>${esc(p.why || it.note)}${it.guide ? ` <a href="${it.guide[1]}">${esc(it.guide[0])}</a>` : ""}</p>
-        ${it.href ? `<a class="button gf-btn-shop" href="${it.href}">See the printable</a>` : `<a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
+        ${it.buy ? `<a class="button gf-btn-shop" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0])}</a>` : it.href ? `<a class="button gf-btn-shop" href="${it.href}">${esc(it.hrefLabel || "See the printable")}</a>` : `<a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
       </div>
     </article>`;
   }
@@ -637,19 +726,21 @@ export function giftPages(h, books) {
     const guideCards = [
       ...GUIDES.map((g) => [g.card, `/gifts/${g.slug}/`, g.cardLine, g.image]),
       ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/", "What to pack at $25, $50 and $100", "/images/charcuterie-gift-box-50.jpg"],
-      ["Which serving board to buy", "/blog/best-charcuterie-boards/", "Wood, slate or marble, and what size", "/images/wine-cheese-board.png"]
+      ["The best charcuterie boards to buy", "/blog/best-charcuterie-boards/", "8 picks from $20 bamboo to a marble splurge", "/images/best-charcuterie-boards.jpg"],
+      ["The best cheese knife sets", "/blog/best-cheese-knife-sets/", "Which knives you need, from $15 to $100", "/images/best-cheese-knife-sets.jpg"]
     ];
     const chips = [
       ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"]]],
-      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
-      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"]]]
+      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["For him", "/gifts/for-him/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
+      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"]]]
     ];
     const faq = [
       ["What do you get someone who loves charcuterie?", "A board book that tells them exactly what to buy and how much, paired with one tool or one jar: a cheese knife set, fig spread, hot honey or honeycomb. Our top pick is 50 Boards, Built by Science ($25.99 paperback) with a jar of fig spread."],
       ["What goes in a charcuterie gift basket?", "A whole dry salami, crackers, a jar of fig spread, nuts, a small knife and one or two cheeses. The salami, crackers, jam and nuts are shelf-stable; add the cheese right before you hand it over and tell them to refrigerate it. Our DIY gift basket guide has full lists at $25, $50 and $100."],
       ["What is the best charcuterie book for a beginner?", "50 Boards, Built by Science. Every board comes with a shopping list with amounts, a build order and swaps, so a beginner can make a full board without guessing."],
       ["What's a good last-minute charcuterie gift?", "An ebook. Buy the PDF, then forward the download email or print our free \"Your first board is on me\" gift card and write the book's name on it."],
-      ["How much should I spend on a charcuterie gift?", "$15 to $35 covers most gifts: a book, a knife set or a jar trio. Our ready-made gift sets run from about $35 to $95."]
+      ["How much should I spend on a charcuterie gift?", "$15 to $35 covers most gifts: a book, a knife set or a jar trio. Our ready-made gift sets run from about $35 to $95."],
+      ["What is a good charcuterie gift for a man?", "A board book with a whole dry salami and a jar of whole-grain mustard, or a tool he'll use every time, like a cheese knife set or the Wüsthof cheese plane. Our gifts for him guide has 12 ideas."]
     ];
     pages.push({
       path,
@@ -657,7 +748,7 @@ export function giftPages(h, books) {
         title: "Charcuterie Gift Ideas 2026: For Every Board Lover",
         canonical: path,
         image: "/images/charcuterie-gift-basket.jpg",
-        description: "Charcuterie gift ideas for 2026: board books, gifts under $25, stocking stuffers, white elephant, hostess and housewarming gifts, gifts for cheese, wine, keto and vegan lovers, plus gift sets.",
+        description: "Charcuterie gift ideas for 2026: board books, gifts under $25, stocking stuffers, white elephant, hostess, housewarming and client gifts, gifts for him and for cheese, wine, keto and vegan lovers, plus gift sets.",
         head: schema(guideCards.map(([t, u]) => [t, u]), [["Home", "/"], ["Gift guide", path]], faq),
         body: `<main class="gf-page gf-hub">
   <section class="gf-hero">

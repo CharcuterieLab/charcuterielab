@@ -32,6 +32,8 @@ The way you cut a cheese changes how it tastes, how the board looks and how fast
 
 You don't need all of them. A sharp chef's knife and a roll of unflavored dental floss handle almost every cheese on this page.
 
+Shopping for a set? See [the best cheese knife sets](/blog/best-cheese-knife-sets/), including the cheese plane that won America's Test Kitchen's test.
+
 ## Cut cold, serve warm
 
 Cheese cuts cleanly when it's **cold**, straight from the fridge. Warm cheese smears, crumbles and sticks to the knife. Once it's cut, let it warm up so the flavor comes through: **soft cheese 20 to 30 minutes, semi-firm 30 to 45, aged hard cheese 45 to 60**. The [temperature guide](/blog/temperature-guide/) has the full chart.

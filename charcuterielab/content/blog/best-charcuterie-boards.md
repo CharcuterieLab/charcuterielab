@@ -1,130 +1,201 @@
 ---
-title: "Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?"
-seo_title: "Wood vs Slate vs Marble: Which Charcuterie Board to Buy"
+title: "The Best Charcuterie Boards to Buy: Wood vs. Slate vs. Marble"
+seo_title: "Best Charcuterie Boards to Buy (2026): Wood, Slate, Marble"
 date: "2026-09-10"
-image: "/images/best-charcuterie-boards.png"
-excerpt: "Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?"
-description: "Wood, slate, and marble each behave differently on a charcuterie board. Here's the breakdown of which material fits each situation and what to look for when."
-faq: "[{"question":"What makes a good charcuterie board?","answer":"A good charcuterie board has four qualities: adequate size for the number of guests, a food-safe surface that doesn't transfer flavors or odors, enough structural integrity to carry loaded food, and visual appeal that complements the food. Material matters for aesthetics and maintenance — wood requires occasional oiling, slate shows smudges, marble stays cold. Function first; aesthetics second."},{"question":"What is the best material for a charcuterie board?","answer":"Wood is the most versatile and forgiving charcuterie board material — it's knife-friendly, visually warm, and available in every price range. Acacia, walnut, maple, and cherry are common choices. Slate works well for cold presentations and labels easily with chalk. Marble keeps food cool but is heavy and requires careful maintenance. Each material suits different aesthetics and use cases."},{"question":"What size charcuterie board do I need?","answer":"For 2–4 people: an 8–12\" board. For 4–8 people: a 12–16\" board. For 8–12 people: a 16–20\"+ board or multiple boards. A board that's too small forces overcrowding; a board too large for the food quantity looks sparse. When in doubt, size up — an abundantly filled large board always looks better than a cramped small one."},{"question":"Is bamboo a good charcuterie board material?","answer":"Bamboo is durable, eco-friendly, and widely available at low cost — good for everyday use. The concern with bamboo is two-fold: some bamboo boards are bound with formaldehyde-containing adhesives (check for food-safe certification), and bamboo can be harder than typical wood, which dulls knives slightly faster. Properly certified food-safe bamboo boards are a fine budget option."},{"question":"How do you clean and maintain a wooden charcuterie board?","answer":"Hand-wash with mild soap and warm water immediately after use — never submerge or put in the dishwasher. Dry standing upright, not flat, to prevent warping. Oil monthly with food-grade mineral oil or board cream (beeswax + mineral oil) to prevent drying, cracking, and absorption of odors. Remove stains with a paste of coarse salt and lemon juice. A well-maintained wooden board lasts decades."}]"
+updated: "2026-10-19"
+image: "/images/best-charcuterie-boards.jpg"
+excerpt: "The best charcuterie boards to buy, from a $20 bamboo board to a marble splurge, and how wood, slate and marble compare: what each material does, what size you need and how to care for it."
+description: "The best charcuterie boards to buy, from a $20 bamboo board to a marble splurge, and how wood, slate and marble compare: what each material does, what size you need and how to care for it."
+faq: "[{"question": "What is the best charcuterie board to buy?", "answer": "For most people, a large acacia or other hardwood board, 16 inches or longer: it works for every occasion and costs $20 to $40. For a complete gift, the CTFT Cheese Board and Knife Set (about $30) comes with knives and labels in a hidden drawer."}, {"question": "What is the best material for a charcuterie board?", "answer": "Wood is the most versatile: knife-friendly, warm-looking and sold at every price. Slate gives the strongest color contrast for parties and photos. Marble stays cooler than the room, which helps soft cheese, but it is heavy and chips."}, {"question": "What size charcuterie board do I need?", "answer": "For 2 to 4 people, an 8 to 12 inch board. For 4 to 8 people, 12 to 16 inches. For 8 to 12 people, 16 to 20 inches or more, or two boards. When in doubt, size up."}, {"question": "Is bamboo a good charcuterie board material?", "answer": "Yes, for a budget board. Bamboo is hard, cheap and easy to clean. Buy from a seller that says the board is food safe, and expect it to dull knives a little faster than hardwood."}, {"question": "Is a charcuterie board a good gift?", "answer": "Yes, especially paired with cheese knives or a board book. A board and knife set costs about $30, and a personalized wood-and-marble board about $45."}, {"question": "How do you clean and maintain a wooden charcuterie board?", "answer": "Hand wash with mild soap and warm water, never in the dishwasher, and dry it standing up. Rub in food-grade mineral oil or board cream once a month so it doesn't dry out and crack."}]"
 slug: "best-charcuterie-boards"
-tags: "["charcuterie boards", "charcuterie tools", "charcuterie board materials", "best charcuterie board", "board building equipment"]"
+tags: "["best charcuterie board", "charcuterie board to buy", "charcuterie board gift", "cheese board and knife set", "charcuterie board materials"]"
 ---
 
-# Wood vs. Slate vs. Marble: Which Charcuterie Board Should You Buy?
+# The Best Charcuterie Boards to Buy: Wood vs. Slate vs. Marble
 
-> **Quick Answer:** If you buy one board, buy wood: a walnut or maple hardwood board, 16×20 inches or larger, works for every occasion. Slate gives the strongest color contrast for parties and photos. Marble stays cooler than the room, which helps soft cheese on a warm day.
+> **Quick Answer:** If you buy one board, buy wood: an acacia or other hardwood board, 16 inches or longer, works for every occasion. On a budget, the **Fresh Nest Co extra-large bamboo board** (about $20). As a gift, the **CTFT Cheese Board and Knife Set** (about $30) comes with knives and labels. Slate gives the strongest color contrast for photos, and marble stays cool for soft cheese.
 
-The board itself is the one piece of equipment that every charcuterie setup requires — and it's also the one most people either overthink (buying expensive marble they rarely use) or underthink (grabbing whatever cutting board is handy). Getting this right doesn't require spending a lot of money. It requires understanding what each material actually does, and choosing based on how you build.
+The board is the one piece of kit every charcuterie spread needs, and the one people most often overthink (expensive marble they rarely use) or underthink (whatever cutting board is handy). Getting it right doesn't take much money. It takes knowing what each material does and buying for how you serve.
 
-Here's the honest breakdown.
+*How we picked these: these are picks from editors who tested or reviewed boards ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654) and [Food Network](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board)), checked against what each material does on a board. We haven't scored them with stars. Prices are typical, last checked October 2026. Links to Amazon are affiliate links.*
 
----
+## Our picks at a glance
 
-## Wood: The Workhorse
+| Pick | Board | Typical price |
+|---|---|---|
+| **Best budget** | Fresh Nest Co Extra Large Bamboo Board | under $30 |
+| **Best board and knife set** | CTFT Cheese Board and Knife Set | $30–80 |
+| **Best marble** | Thirteen Chefs Villa Acacia Marble Board | $30–80 |
+| **Best for beginners** | Sophistiplate Charcuterie Board with Placement Guide | $30–80 |
+| **Best oversized** | etúHOME Rectangle Pine Charcuterie Board | $100+ |
+| **Best personalized** | Mark & Graham Wood and Marble Beveled Cheese Board | $30–80 |
+| **Splurge** | Williams Sonoma Marble Honeycomb Cheese Board with Knives | $100+ |
+| **Best small-space board** | Uncommon Goods Compact Swivel Cheese Board | $30–80 |
 
-Wood is the most versatile charcuterie board material, and for most people building boards at home, it's the only one they need.
+### Fresh Nest Co Extra Large Bamboo Board
 
-**What it does well:**
-Wood is naturally warm in appearance and forgiving in use. It doesn't transmit temperature aggressively, which means cheeses and meats stay at whatever temperature they arrive at more stably than on stone. Wood's surface texture gives food natural grip — nothing slides across a wooden board the way it can on marble. The grain and color variation of wood also create a visually interesting background that complements the colors of charcuterie ingredients rather than competing with them.
+**Best budget** · Best for: A big board for little money
 
-Wood boards can double as serving platters, cutting surfaces (for boards designated for that purpose), and prep stations. A well-maintained wooden board can last decades.
+Food Network's budget pick: an extra-large bamboo board, about $18 to $25, praised as durable and well made, with no worry about stains and spills ([Food Network](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board)).
 
-**What to look for:**
-End-grain boards (where the wood grain runs perpendicular to the surface) are harder-wearing than face-grain boards and gentler on knife blades if you're also using the board for cutting. Face-grain boards are lighter and typically less expensive.
+- **Why we like it:** Big enough for a party board at a budget price.
+- **Keep in mind:** Bamboo looks plainer than hardwood.
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=Fresh+Nest+Co+extra+large+bamboo+cutting+board)
 
-Hardwoods — walnut, maple, cherry, acacia — are the right choice. Softwoods absorb oils and bacteria more readily and show wear quickly. Walnut has the most visual elegance and contrast for presentation. Maple is more affordable and neutral. Acacia is dense and affordable but can be variable in quality.
+### CTFT Cheese Board and Knife Set
 
-**Optimal size:** For a board you'll serve from, 12×18 inches is the minimum useful size for a single-person to small-group board. 16×24 or larger is better for entertaining. A board that's too small forces crowding, which hurts both presentation and function.
+**Best board and knife set** · Best for: A complete gift
 
-**Maintenance:** Oil wooden boards periodically (food-grade mineral oil or a beeswax/oil blend) to prevent cracking and drying. Never submerge in water or put in the dishwasher.
+NBC Select's editor's pick: a 13 by 13 inch bamboo board with raised edges and a hidden drawer holding four cheese knives, chalk and slate labels, about $30 ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654)).
 
----
+- **Why we like it:** Board, knives and labels in one box.
+- **Keep in mind:** 13 inches suits 4 to 6 people. Basic knives.
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=CTFT+cheese+board+and+knife+set+bamboo)
 
-## Slate: The Presentation Specialist
+### Thirteen Chefs Villa Acacia Marble Board
 
-Slate's main asset is visual. The flat gray-black surface creates maximum contrast with the colors of charcuterie ingredients — the reds and pinks of cured meats, the whites and yellows of cheese, the greens of herbs and fruit — in a way that no other material matches. Photographs on slate look sharper and more editorial than on wood or marble.
+**Best marble** · Best for: Keeping cheese cool
 
-The secondary advantage is temperature: slate is cool to the touch and stays slightly cooler than ambient room temperature, which helps soft cheeses (brie, camembert, triple-crème) maintain structure a few minutes longer than they would on a warm wooden surface.
+NBC Select's budget pick: a 16 by 12 inch marble board raised on non-slip rubber feet, about $43. It doesn't absorb smells or colors, and the height shows off the board ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654)).
 
-**What to look for:**
-Thickness matters. Thin slate boards (under ½ inch) chip and crack under normal use. Look for boards at least ¾ inch thick. Edges should be smooth and finished — rough edges chip and can cut hands during serving.
+- **Why we like it:** Marble's cool surface for less than most.
+- **Keep in mind:** Heavy, and acidic foods can etch marble.
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=Thirteen+Chefs+Villa+acacia+marble+board)
 
-Many slate boards come with chalk included for writing on the surface — a useful feature for labeling ingredients at a party. The surface should be sealed for food use; some decorative slate is not. Check before purchasing.
+### Sophistiplate Charcuterie Board with Placement Guide
 
-**Limitations:**
-Slate is fragile relative to wood. It chips on hard impacts, slides on smooth surfaces without rubber feet, and cannot be used as a cutting surface. It's a serving piece, not a prep piece. Weight is also a consideration — a large slate board is substantially heavier than the equivalent wood board.
+**Best for beginners** · Best for: A first board
 
-**Best use case:** Boards that will be photographed, formal entertaining, or any board where you want the ingredients to visually pop. Not the right choice for casual everyday use.
+A 22 by 17 inch wood board printed with a guide to where the cheese, meat and fruit go, plus a handle for carrying, about $75. Recommended in NBC Select for beginners ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654)).
 
----
+- **Why we like it:** Takes the guesswork out of a first board.
+- **Keep in mind:** The guide is part of the board for good, so it looks less clean once you know what you're doing.
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=Sophistiplate+charcuterie+board+placement+guide)
 
-## Marble: The Temperature Tool
+### etúHOME Rectangle Pine Charcuterie Board
 
-Marble's defining characteristic is thermal conductivity — it stays significantly cooler than ambient room temperature, especially when stored or rested in a cool environment before use. This makes it genuinely useful for specific applications where temperature management matters.
+**Best oversized** · Best for: A big party or grazing table
 
-The visual effect of marble is also elegant, with its white or gray surface and veining providing a classic, high-end aesthetic. It photographs beautifully with certain ingredient palettes.
+Food Network's pick for an oversized board: reclaimed wood, 33.5 by 16 inches, about $140, with room for several cheeses and crackers ([Food Network](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board)).
 
-**Where marble is the right tool:**
-- Pastry and chocolate work, where a cool working surface is essential
-- Any board where you'll be serving items that need to stay cold longer (fresh seafood, prosciutto in warm weather, anything with heavy cream)
-- Formal presentation boards where the white/gray palette suits the ingredient color scheme
+- **Why we like it:** Room for a 12-person board on one piece of wood.
+- **Keep in mind:** Pine is a softwood, so it marks more easily than hardwood. Too big for most dishwasher-free sinks.
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=etuHOME+rectangle+pine+charcuterie+board)
 
-**Limitations:**
-Marble is heavy, fragile (chips and cracks on impact), non-porous enough that oils don't absorb but acidic foods (lemon juice, vinegar-based items) can etch the surface over time. It also has lower visual contrast for most charcuterie ingredients than slate. The coolness that makes it useful in temperature-sensitive situations can also make cheese release flavors more slowly (cheese expresses its full aromatic complexity at room temperature, not cold).
+### Mark & Graham Wood and Marble Beveled Cheese Board
 
-For most casual charcuterie building, marble is the least practical material — it's expensive, heavy, and fragile without offering a significant advantage over wood or slate.
+**Best personalized** · Best for: A monogrammed gift
 
----
+Acacia and marble in two sizes (10 by 6 or 16 by 9 inches), from about $45, and it can be engraved. An NBC Select reviewer said it "feels heavy and good quality" ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654)).
 
-## Comparing the Three
+- **Why we like it:** Engraving turns it into a wedding or housewarming gift.
+- **Keep in mind:** Sold by Mark & Graham, not on Amazon. Marble can stain.
+- **Where to buy:** [Mark & Graham](https://www.markandgraham.com/)
+
+### Williams Sonoma Marble Honeycomb Cheese Board with Knives
+
+**Splurge** · Best for: A gift that looks expensive
+
+NBC Select's splurge pick: a 16 by 9 inch marble board etched with a honeycomb pattern and gold-finish bees, with three cheese knives, about $110 ([NBC Select](https://www.nbcnews.com/select/amp/rcna124654)).
+
+- **Why we like it:** Board and knives, ready to wrap.
+- **Keep in mind:** Sold by Williams Sonoma. Marble chips if dropped.
+- **Where to buy:** [Williams Sonoma](https://www.williams-sonoma.com/)
+
+### Uncommon Goods Compact Swivel Cheese Board
+
+**Best small-space board** · Best for: Small kitchens and apartments
+
+A bamboo board that swivels open into stacked tiers, with bowls and a slide-out drawer of knives, folding flat to store. Picked by both [NBC Select](https://www.nbcnews.com/select/amp/rcna124654) and [Food Network](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board); about $47 to $98 depending on size.
+
+- **Why we like it:** Stores in a cupboard, opens into a full spread.
+- **Keep in mind:** Moving parts; more of a gadget than a classic board.
+- **Where to buy:** [Uncommon Goods](https://www.uncommongoods.com/)
+
+**Add the knives:** a board needs three knives, one each for soft, semi-hard and hard cheese. See [the best cheese knife sets](/blog/best-cheese-knife-sets/).
+
+## Wood: the workhorse
+
+Wood is the most versatile board material, and for most people building boards at home it's the only one they need. It doesn't pull heat out of cheese the way stone does, food grips its surface instead of sliding, and the grain sets off the colors of meat and cheese.
+
+- **What to buy:** a hardwood such as walnut, maple, cherry or acacia. Acacia is dense and cheap; walnut looks the most elegant. End-grain boards wear better and are kinder to knives, but cost more.
+- **Size:** 12 by 18 inches is the useful minimum; 16 by 24 or larger is better for entertaining.
+- **Care:** hand wash, dry standing up and oil it monthly with food-grade mineral oil. Never the dishwasher.
+
+## Slate: the presentation board
+
+Slate's dark gray surface gives the strongest contrast of any material: reds of salami, whites of cheese and greens of herbs all pop, which is why boards photograph best on it. You can also write cheese names on it with chalk. It stays slightly cool, which helps brie hold its shape a little longer.
+
+- **What to buy:** at least 3/4 inch thick, with smooth edges and rubber feet. Thin slate chips and cracks.
+- **Keep in mind:** you can't cut on it, and a large slate is heavy.
+
+## Marble: the cold board
+
+Marble stays noticeably cooler than the room, especially if you chill it first. That's useful for soft cheese on a warm day, smoked salmon and anything creamy. It looks classic, but it's heavy, chips if knocked, and acidic foods like lemon or vinegar can etch it.
+
+- **Best for:** cold-served boards, pastry and chocolate, and formal spreads.
+- **Keep in mind:** cheese tastes best at room temperature, so take soft cheese off marble 30 minutes before eating if it's been chilled.
+
+## Wood vs. slate vs. marble
 
 | | Wood | Slate | Marble |
 |---|---|---|---|
 | Visual contrast | Warm, moderate | High (dark background) | Elegant, moderate |
-| Temperature effect | Neutral | Slightly cool | Significantly cool |
+| Temperature | Neutral | Slightly cool | Noticeably cool |
 | Durability | High | Medium | Low (chips easily) |
-| Weight | Light-medium | Medium-heavy | Heavy |
-| Photography | Warm, natural | Best for editorial shots | Classic, formal |
-| Best for | Everyday use, versatility | Presentation, photography | Cold-serve items, pastry |
-| Can cut on it? | Yes (hardwood) | No | No |
-| Price range | $30–$150 | $25–$80 | $40–$200+ |
+| Weight | Light to medium | Medium to heavy | Heavy |
+| Cut on it? | Yes (hardwood) | No | No |
+| Typical price | $20–150 | $20–80 | $30–200+ |
 
----
+## What size board do you need?
 
-## The Practical Recommendation
+| Guests | Board size |
+|---|---|
+| 2–4 | 8–12 inches |
+| 4–8 | 12–16 inches |
+| 8–12 | 16–20 inches, or two boards |
+| 12+ | An oversized board or a grazing table |
 
-If you're buying one board: **buy wood**. A well-chosen hardwood board (walnut or maple, 16×20 inches or larger, end-grain if budget allows) will serve you in every situation — everyday boards, entertaining, informal and formal occasions. It's durable, warm in appearance, versatile, and built to last.
+For exact amounts per guest, use the [Party Planner](/party-planner/), and see [charcuterie board sizes](/blog/charcuterie-board-sizes/) for shapes.
 
-If you're adding a second board: **add slate**. The contrast it provides for photography and formal presentation is genuinely different from what wood offers, and a good slate board is affordable. Use it as your "presentation piece" for boards that will be photographed or served at formal occasions.
+## The practical recommendation
 
-If you're adding a third: **only then consider marble**, and only if you regularly do cold-serve boards, work with chocolate or pastry, or specifically want the marble aesthetic for formal entertaining.
-
-The board is your canvas. Invest in quality wood first. Everything else is specialty use.
-
-> **Every board in the Charcuterie Lab book — *50 Boards Built by Science* — includes a recommended board surface for the specific build.**
-> Pre-order here: [Link to pre-sale page.]
-> Or get weekly board-building guides in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
-
+Buying one board: **buy wood**, 16 inches or longer. Adding a second: **add slate** for parties and photos. Only then consider marble, if you often serve cold or want the look. Giving a board as a gift? Pair it with knives and a book that tells them what to put on it: our [charcuterie gift guide](/gifts/) has ready-made sets, and [50 Boards, Built by Science](/ebook/) suggests a board surface for every build.
 
 ## Related Reading
 
-- [The Right Order to Build a Charcuterie Board (And Why It Matters)](https://charcuterielab.com/blog/build-sequence/)
-- [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/board-shapes/)
-- [Prep Boards vs. Serving Boards: Which to Use, When, and How to Care for Them](https://charcuterielab.com/cutting-boards-prep/)
+- [The best cheese knife sets](/blog/best-cheese-knife-sets/)
+- [Charcuterie board sizes and shapes](/blog/charcuterie-board-sizes/)
+- [How to make a charcuterie board](/blog/how-to-make-charcuterie-board/)
+- [Charcuterie gift ideas](/gifts/)
 
 ## FAQ
 
-**What makes a good charcuterie board?**
-A good charcuterie board has four qualities: adequate size for the number of guests, a food-safe surface that doesn't transfer flavors or odors, enough structural integrity to carry loaded food, and visual appeal that complements the food. Material matters for aesthetics and maintenance — wood requires occasional oiling, slate shows smudges, marble stays cold. Function first; aesthetics second.
+**What is the best charcuterie board to buy?**
+
+For most people, a large acacia or other hardwood board, 16 inches or longer: it works for every occasion and costs $20 to $40. For a complete gift, the CTFT Cheese Board and Knife Set (about $30) comes with knives and labels in a hidden drawer.
 
 **What is the best material for a charcuterie board?**
-Wood is the most versatile and forgiving charcuterie board material — it's knife-friendly, visually warm, and available in every price range. Acacia, walnut, maple, and cherry are common choices. Slate works well for cold presentations and labels easily with chalk. Marble keeps food cool but is heavy and requires careful maintenance. Each material suits different aesthetics and use cases.
+
+Wood is the most versatile: knife-friendly, warm-looking and sold at every price. Slate gives the strongest color contrast for parties and photos. Marble stays cooler than the room, which helps soft cheese, but it is heavy and chips.
 
 **What size charcuterie board do I need?**
-For 2–4 people: an 8–12" board. For 4–8 people: a 12–16" board. For 8–12 people: a 16–20"+ board or multiple boards. A board that's too small forces overcrowding; a board too large for the food quantity looks sparse. When in doubt, size up — an abundantly filled large board always looks better than a cramped small one.
+
+For 2 to 4 people, an 8 to 12 inch board. For 4 to 8 people, 12 to 16 inches. For 8 to 12 people, 16 to 20 inches or more, or two boards. When in doubt, size up.
 
 **Is bamboo a good charcuterie board material?**
-Bamboo is durable, eco-friendly, and widely available at low cost — good for everyday use. The concern with bamboo is two-fold: some bamboo boards are bound with formaldehyde-containing adhesives (check for food-safe certification), and bamboo can be harder than typical wood, which dulls knives slightly faster. Properly certified food-safe bamboo boards are a fine budget option.
+
+Yes, for a budget board. Bamboo is hard, cheap and easy to clean. Buy from a seller that says the board is food safe, and expect it to dull knives a little faster than hardwood.
+
+**Is a charcuterie board a good gift?**
+
+Yes, especially paired with cheese knives or a board book. A board and knife set costs about $30, and a personalized wood-and-marble board about $45.
 
 **How do you clean and maintain a wooden charcuterie board?**
-Hand-wash with mild soap and warm water immediately after use — never submerge or put in the dishwasher. Dry standing upright, not flat, to prevent warping. Oil monthly with food-grade mineral oil or board cream (beeswax + mineral oil) to prevent drying, cracking, and absorption of odors. Remove stains with a paste of coarse salt and lemon juice. A well-maintained wooden board lasts decades.
+
+Hand wash with mild soap and warm water, never in the dishwasher, and dry it standing up. Rub in food-grade mineral oil or board cream once a month so it doesn't dry out and crack.
+
+## Sources
+
+- [NBC Select: The best charcuterie boards (updated Dec 2025)](https://www.nbcnews.com/select/amp/rcna124654)
+- [Food Network: Best Charcuterie Boards 2026 (updated Feb 2026)](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board)
