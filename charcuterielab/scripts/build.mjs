@@ -537,6 +537,18 @@ function markdownToHtml(markdown) {
       continue;
     }
 
+    // Hand-built components (scannable guide format, Oct 2026): everything
+    // between ":::html" and ":::" goes out as-is. The comments tell the
+    // ingredient autolinker to leave it alone (no links inside product names).
+    if (line === ":::html") {
+      const raw = [];
+      i += 1;
+      while (i < lines.length && lines[i].trim() !== ":::") { raw.push(lines[i]); i += 1; }
+      i += 1;
+      html.push(`<!--nolink-->${raw.join("\n")}<!--/nolink-->`);
+      continue;
+    }
+
     if (/^---+$/.test(line)) {
       html.push("<hr>");
       i += 1;
@@ -1249,6 +1261,8 @@ function autolinkIngredients(html, index, selfSlug) {
     const part = parts[i];
 
     if (part.startsWith("<")) {
+      if (part === "<!--nolink-->") { skipDepth += 1; continue; }
+      if (part === "<!--/nolink-->") { skipDepth = Math.max(0, skipDepth - 1); continue; }
       const m = part.match(/^<(\/?)(a|h1|h2|h3|code|pre)\b/i);
       if (m) skipDepth += m[1] ? -1 : 1;
       if (skipDepth < 0) skipDepth = 0;
@@ -2437,7 +2451,8 @@ function addTableOfContents(html, words) {
     items.push([id, text]);
   }
   const out = parts.join("");
-  if (items.length < 4 || words < 900) return out;
+  // Pages in the scannable format bring their own jump links (sk-jump).
+  if (items.length < 4 || words < 900 || out.includes('class="sk-jump"')) return out;
   const nav = `<nav class="post-toc" aria-label="In this article">
   <details open><summary>In this article <span>${items.length} sections</span></summary>
   <ol>${items.map(([id, t]) => `<li><a href="#${id}">${escapeHtml(t)}</a></li>`).join("")}</ol>
