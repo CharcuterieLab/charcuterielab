@@ -16,5 +16,29 @@
     "price": "$3",
     "book": "world",
     "n": 3
+  },
+  "plant-based-holiday-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-holiday-entertaining-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 15
+  },
+  "plant-based-fall-harvest-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-fall-harvest-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 13
+  },
+  "indian-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-indian-spice-board",
+    "price": "$3",
+    "book": "world",
+    "n": 8
+  },
+  "eastern-european-deli-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-eastern-european-deli-board",
+    "price": "$3",
+    "book": "world",
+    "n": 5
   }
 }
