@@ -600,7 +600,7 @@ export function giftPages(h, books) {
       <div>
         <p class="gf-tag">${esc(p.best)}</p>
         <h3>${n}. ${esc(b.title.replace(/^Charcuterie Lab: /, ""))}</h3>
-        <p class="gf-price">${b.paperbackUrl ? `Paperback ${esc(b.paperbackPrice)} · ebook ${esc(b.ebookPrice)}` : `Ebook ${esc(b.ebookPrice)} · paperback coming soon`}</p>
+        <dl class="sk-facts sk-facts-2"><div><dt>Price</dt><dd>${b.paperbackUrl ? `Paperback ${esc(b.paperbackPrice)} · ebook ${esc(b.ebookPrice)}` : `Ebook ${esc(b.ebookPrice)}`}</dd></div><div><dt>Get it</dt><dd>${esc(pickWhere(p))}</dd></div></dl>
         <p>${esc(p.why)} <a href="${b.path}">More about the book</a></p>
         ${bookButtons(b, `${campaign}_pick${n}`, true)}
       </div>
@@ -612,7 +612,7 @@ export function giftPages(h, books) {
       <div>
         <p class="gf-tag">${esc(p.best)}</p>
         <h3>${n}. ${esc(it.name)}${it.by ? ` <span class="gf-by">by ${esc(it.by)}</span>` : ""}</h3>
-        <p class="gf-price">${esc(price)}</p>
+        <dl class="sk-facts sk-facts-2"><div><dt>Price</dt><dd>${esc(price)}</dd></div><div><dt>Get it</dt><dd>${esc(pickWhere(p))}</dd></div></dl>
         <p>${esc(p.why || it.note)}${it.guide ? ` <a href="${it.guide[1]}">${esc(it.guide[0])}</a>` : ""}</p>
         ${it.buy ? `<a class="button gf-btn-shop" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0])}</a>` : it.href ? `<a class="button gf-btn-shop" href="${it.href}">${esc(it.hrefLabel || "See the printable")}</a>` : `<a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
       </div>
@@ -623,6 +623,37 @@ export function giftPages(h, books) {
     if (p.book) return B[p.book].title.replace(/^Charcuterie Lab: /, "");
     return (p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other]).name;
   }
+  // Scannable format (Oct 20 2026): the first sentence of a pick's copy, its
+  // buy link and where it's sold, for the top-picks card and the fact strips.
+  const firstSentence = (t = "") => (String(t).match(/^.*?[.!?](?=\s|$)/) || [String(t)])[0];
+  function pickLine(p) {
+    if (p.book) return firstSentence(p.why);
+    const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
+    return firstSentence(p.why || it.note);
+  }
+  function pickBuy(p, campaign, cls) {
+    if (p.book) {
+      const b = B[p.book];
+      return b.paperbackUrl
+        ? `<a class="${cls}" href="${esc(amz(b.paperbackUrl))}" target="_blank" rel="noopener">Paperback · ${esc(b.paperbackPrice)}</a>`
+        : `<a class="${cls}" href="${esc(T(b.ebookUrl, campaign))}" target="_blank" rel="noopener">Ebook · ${esc(b.ebookPrice)}</a>`;
+    }
+    const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
+    if (it.buy) return `<a class="${cls}" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0].replace(/^See it at /, "At "))}</a>`;
+    if (it.href) return `<a class="${cls}" href="${it.href}">${esc(it.hrefLabel || "See it")}</a>`;
+    return `<a class="${cls}" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">On Amazon</a>`;
+  }
+  function pickWhere(p) {
+    if (p.book) return B[p.book].paperbackUrl ? "Amazon (paperback), instant ebook" : "Instant ebook";
+    const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
+    if (it.buy) return it.buy[0].replace(/^See it at /, "");
+    if (it.href) return it.href.startsWith("/printables/") ? "Our shop (instant download)" : "Our guide";
+    return "Amazon";
+  }
+  function topCard(picks, campaign) {
+    return `<div class="sk-top"><p class="sk-top-label">Our top gift picks</p>${picks.slice(0, 3).map((p, i) => `<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">${esc(p.best)}</p><a class="sk-top-name" href="#pick-${i + 1}">${esc(pickName(p))}</a><p class="sk-top-line">${esc(pickLine(p))}</p></div><div class="sk-top-buy"><span class="sk-price">${esc(pickPrice(p))}</span>${pickBuy(p, `${campaign}_top${i + 1}`, "button sk-buy-sm")}</div></div>`).join("")}</div>`;
+  }
+
   function pickPrice(p) {
     if (p.book) { const b = B[p.book]; return b.paperbackUrl ? b.paperbackPrice : `${b.ebookPrice} ebook`; }
     const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
@@ -651,7 +682,7 @@ export function giftPages(h, books) {
     return s.map((x) => `  <script type="application/ld+json">${h.jsonForScript(x)}</script>`).join("\n");
   }
 
-  const faqBlock = (faq, title) => `<section class="ebook-section ebook-faq">
+  const faqBlock = (faq, title) => `<section class="ebook-section ebook-faq" id="gift-faq">
     <div class="ebook-section-inner">
       <h2>${esc(title)}</h2>
       <div class="ebook-faq-list">
@@ -686,20 +717,17 @@ export function giftPages(h, books) {
       ${shipStrip}
     </div>
   </section>
-  <div class="gf-inner gf-body">
+  <div class="gf-inner gf-body gf-skim">
+    ${topCard(picks, campaign)}
+    <nav class="sk-jump" aria-label="On this page"><a href="#gifts">All ${picks.length} gifts</a>${g.extra ? `<a href="#gift-extra">${esc(g.extra.title)}</a>` : ""}<a href="#gf-set-h">Gift set</a><a href="#gift-faq">FAQ</a></nav>
     <p class="gf-intro">${esc(g.intro)}</p>
-    <p class="gf-method">${esc(g.method)}</p>
-    <h2>Our picks at a glance</h2>
-    <div class="bk-table-wrap"><table class="bk-table gf-table">
-      <thead><tr><th scope="col">Pick</th><th scope="col">Best for</th><th scope="col">Price</th></tr></thead>
-      <tbody>${picks.map((p, i) => `<tr><th scope="row"><a href="#pick-${i + 1}">${esc(pickName(p))}</a></th><td>${esc(p.best)}</td><td>${esc(pickPrice(p))}</td></tr>`).join("\n      ")}</tbody>
-    </table></div>
-    <h2>The full list</h2>
+    <h2 id="gifts">All ${picks.length} gifts</h2>
+    <p class="sk-lede">${esc(g.method)}</p>
     <div class="gf-picks">
     ${picks.map((p, i) => pickCard(p, i, campaign)).join("\n    ")}
     </div>
     ${g.stretch ? `<p class="gf-stretch">${g.stretch}</p>` : ""}
-    ${g.extra ? `<section class="gf-extra"><h2>${esc(g.extra.title)}</h2>${g.extra.body}</section>` : ""}
+    ${g.extra ? `<section class="gf-extra" id="gift-extra"><h2>${esc(g.extra.title)}</h2>${g.extra.body}</section>` : ""}
     ${matcher(campaign, true)}
     <section class="gf-sets gf-sets-one" aria-labelledby="gf-set-h">
       <h2 id="gf-set-h">Or give it as a set</h2>
