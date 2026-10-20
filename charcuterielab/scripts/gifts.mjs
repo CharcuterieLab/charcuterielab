@@ -17,7 +17,8 @@
 // Prices for other people's products are typical ranges, not live prices.
 // Recheck them in mid-November (PRICES_CHECKED below).
 
-export const AMAZON_TAG = "";
+export { AMAZON_TAG } from "./affiliate.mjs";
+import { AMAZON_TAG } from "./affiliate.mjs";
 const PRICES_CHECKED = "October 2026";
 
 export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/"];
@@ -29,7 +30,7 @@ export function giftsInNav(d = new Date()) {
 }
 
 const amz = (u) => (AMAZON_TAG && /amazon\.com/.test(u) ? `${u}${u.includes("?") ? "&" : "?"}tag=${AMAZON_TAG}` : u);
-const search = (q) => amz(`https://www.amazon.com/s?k=${encodeURIComponent(q)}`);
+const search = (q) => amz(`https://www.amazon.com/s?k=${encodeURIComponent(q).replace(/'/g, "%27")}`);
 
 // ---------------------------------------------------------------- products
 // Reusable third-party picks. price = typical range in USD.

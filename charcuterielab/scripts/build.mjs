@@ -1,4 +1,5 @@
 import { existsSync } from "node:fs";
+import { injectAffiliate, DISCLOSURE } from "./affiliate.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -1561,6 +1562,7 @@ ${siteNav(canonical)}
         <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
         <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
       </div>
+      <p class="footer-disclosure">${DISCLOSURE} Links to Amazon may earn this site a small commission at no extra cost to you. <a href="/privacy/#affiliate-links">How that works</a>.</p>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
     </div>
   </footer>
@@ -2169,6 +2171,10 @@ function privacyPage() {
 
         <h2>Links to other places</h2>
         <p>Some links lead to Gumroad, where the ebook and the printables are sold, and to Amazon, where the paperback is sold. Purchases happen entirely on those sites under their own privacy policies and payment handling — no payment details ever reach this site, because there is nothing here to pay for. Links may carry a tracking tag so I can tell which article sent someone; that tag identifies the article, not you.</p>
+
+        <h2 id="affiliate-links">Affiliate links</h2>
+        <p>Charcuterie Lab is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases. If you click an Amazon link here and buy something, Amazon pays this site a small commission. The price you pay is the same.</p>
+        <p>Products are picked from published taste tests, awards and ingredient lists before any link is added, and a commission never changes a ranking. Amazon uses its own cookies to credit the sale; see Amazon's privacy notice for how it handles that.</p>
 
         <h2>Children</h2>
         <p>This site is meant for adults and is not directed at children under 13.</p>
@@ -3362,5 +3368,6 @@ function searchPage(count) {
 await build();
 { const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}, paid card under it on ${r.near}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
+{ const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");
