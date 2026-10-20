@@ -2,7 +2,7 @@
 title: "Salami vs. Pepperoni: Is Pepperoni Salami?"
 seo_title: "Is Pepperoni Salami? Yes, but 4 Things Set It Apart"
 date: "2026-05-05"
-updated: "2026-09-24"
+updated: "2026-10-20"
 image: "/images/salami-vs-pepperoni.webp"
 excerpt: "Yes, pepperoni is a type of salami: an American one. Here's what makes it different from Italian salami, which is spicier, and which to use on a pizza or a board."
 description: "Yes, pepperoni is a salami, but it's ground finer, smoked, spicier and cups on pizza. See the side-by-side chart, plus which to buy for pizza or a board."
@@ -15,6 +15,15 @@ faq: "[{"question":"Is pepperoni a type of salami?","answer":"Yes. Pepperoni is 
 
 > **Quick Answer:** Yes, pepperoni is a type of salami. Salami is the whole family of fermented, air-dried sausages; pepperoni is one American member of it. The differences: pepperoni is ground finer, seasoned with paprika and chili, usually smoked, and often made with pork and beef, so it's redder, spicier and crisps up on pizza. Most Italian salami is pork-only, milder and lies flat.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Is pepperoni salami?</p><span class="sk-top-name">Yes, an American one</span><p class="sk-top-line">All pepperoni is salami, but most salami isn't pepperoni.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#at-a-glance">Side by side</a></span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Which is spicier?</p><span class="sk-top-name">Pepperoni, than most salami</span><p class="sk-top-line">Genoa is mild. Calabrese and hot soppressata can match or beat pepperoni.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#spicier">Heat guide</a></span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Which to buy?</p><span class="sk-top-name">Salami for a board, pepperoni for pizza</span><p class="sk-top-line">Feeding kids? Buy both: pepperoni gets eaten first.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#on-a-board">On a board</a></span></div></div>
+</div>
+<nav class="sk-jump" aria-label="On this page"><a href="#at-a-glance">At a glance</a><a href="#how-made">How they're made</a><a href="#spicier">Which is spicier</a><a href="#on-pizza">On pizza</a><a href="#on-a-board">On a board</a></nav>
+:::
+
 ## Is pepperoni the same as salami?
 
 Not quite. **All pepperoni is salami, but most salami isn't pepperoni.**
@@ -23,7 +32,9 @@ Not quite. **All pepperoni is salami, but most salami isn't pepperoni.**
 
 Pepperoni follows the same method. It was created by Italian-American butchers in the United States, which is why you won't find it in Italy. It's best thought of as America's own salami.
 
-## Salami vs. pepperoni at a glance
+:::html
+<h2 id="at-a-glance">Salami vs. pepperoni at a glance</h2>
+:::
 
 | | Salami | Pepperoni |
 |---|---|---|
@@ -37,13 +48,17 @@ Pepperoni follows the same method. It was created by Italian-American butchers i
 | On pizza | Lies flat | Often curls into crisp cups |
 | On a board | The better choice for most boards | Best on casual or pizza-themed boards |
 
-## How they're made
+:::html
+<h2 id="how-made">How they're made</h2>
+:::
 
 **Salami:** ground pork and fat are mixed with salt, curing salts and the spices of its region, stuffed into casings and fermented. The fermentation gives salami its gentle tang. Then it hangs to dry for weeks or months, which firms it and concentrates the flavor.
 
 **Pepperoni:** the same fermentation and drying, with three differences you can taste. The meat is ground finer, so the slice is smooth. It's seasoned heavily with paprika, which gives it the orange-red color. And it's usually smoked, which adds depth and helps it cook up crisp.
 
-## Which is spicier?
+:::html
+<h2 id="spicier">Which is spicier?</h2>
+:::
 
 **Pepperoni is spicier than most salami.** Genoa, the salami most people buy, isn't spicy at all: it's garlicky and mild.
 
@@ -62,13 +77,17 @@ If you like pepperoni and want the Italian version for a board, calabrese is the
 
 Genoa salami is the opposite of pepperoni: mild, garlicky, with white pepper and sometimes wine, and no paprika. It's the easiest meat on any charcuterie board. See our [Genoa salami guide](/ingredients/genoa-salami/) for what to pair with it.
 
-## Salami vs. pepperoni on pizza
+:::html
+<h2 id="on-pizza">Salami vs. pepperoni on pizza</h2>
+:::
 
 **Pepperoni is made for pizza.** Thin slices of a narrow, natural-casing pepperoni curl into cups that crisp at the edges and hold little pools of red oil.
 
 Salami works too; it just lies flat and stays softer. For pepperoni-style heat, use calabrese or hot soppressata. For a milder pizza, Genoa or finocchiona are excellent.
 
-## Salami vs. pepperoni on a charcuterie board
+:::html
+<h2 id="on-a-board">Salami vs. pepperoni on a charcuterie board</h2>
+:::
 
 **For most boards, choose salami.** It comes in more flavors, so you can match it to your cheeses:
 
@@ -84,10 +103,6 @@ Want the full list? See [the best meats for a charcuterie board](/blog/best-meat
 
 The name comes from *peperoni*, the Italian word for bell peppers. Ask for a pepperoni pizza in Italy and you'll likely get peppers. The closest Italian equivalent is *salame piccante*, spicy salami.
 
-## Which should you buy?
-
-- **For a charcuterie board:** salami. Genoa for mild, soppressata or calabrese for heat.
-- **For pizza:** pepperoni.
-- **For a crowd that includes kids:** both. Pepperoni gets eaten first.
+Ranking the brands? See [the best salami brands](/blog/best-salami-brands/) and [the best pepperoni brands](/blog/best-pepperoni-brands/).
 
 > Get weekly charcuterie science (ingredient deep dives, pairing principles and board-building technique) in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

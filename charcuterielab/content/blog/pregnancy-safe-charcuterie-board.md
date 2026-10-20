@@ -7,6 +7,7 @@ excerpt: "What the CDC and the NHS say about salami, prosciutto, brie, blue chee
 description: "Can you eat charcuterie while pregnant? CDC and NHS guidance on cured meats, soft and raw-milk cheeses, smoked salmon and pâté, plus pregnancy-safe swaps like prosciutto crisps and baked brie, and a full board for 8."
 faq: "[{"question": "Can you eat salami while pregnant?", "answer": "Not cold. The CDC advises pregnant people to avoid unheated deli meats and fermented or dry sausages such as salami and pepperoni, and to eat them only reheated to 165°F or until steaming hot. Baked pepperoni chips and pan-crisped salami are easy ways to keep them on the board."}, {"question": "Is prosciutto safe to eat when pregnant?", "answer": "Cold prosciutto is a cured, ready-to-eat meat, so US and UK guidance both say to heat it until steaming hot first. Baking slices into prosciutto crisps at 400°F for 10 to 12 minutes is the simplest way to serve it."}, {"question": "Can pregnant women eat brie?", "answer": "Guidance differs. The CDC focuses on avoiding cheese made with raw milk and queso fresco-type cheeses, and pasteurized brie is widely sold in the US. The NHS says brie, camembert and other white-rind cheeses should be cooked thoroughly. Baked brie served steaming hot meets both, and it is worth asking your own doctor or midwife."}, {"question": "What cheeses are safe during pregnancy?", "answer": "Pasteurized hard and semi-firm cheeses such as cheddar and gouda, and pasteurized cream cheese, mozzarella, feta, string cheese and cottage cheese. Check the label for made with pasteurized milk, because Parmigiano-Reggiano, Comté, traditional Gruyère and some Manchego are made with raw milk."}, {"question": "What can a pregnant person eat on a charcuterie board?", "answer": "Pasteurized cheddar, gouda, mozzarella and whipped feta, prosciutto crisps and pepperoni chips cooked until hot, baked brie, washed fruit, crackers, nuts, honey, olives, pickles, hummus and dark chocolate. Keep any cold cured meat on a separate plate with its own utensils."}]"
 slug: "pregnancy-safe-charcuterie-board"
+updated: "2026-10-20"
 tags: "["charcuterie while pregnant", "pregnancy safe charcuterie", "pregnancy safe cheese", "baby shower food", "food safety"]"
 ---
 
@@ -14,7 +15,16 @@ tags: "["charcuterie while pregnant", "pregnancy safe charcuterie", "pregnancy s
 
 > **Quick Answer:** Not the way it's usually served. US and UK health agencies both say pregnant people should not eat **cold cured meats** like salami, prosciutto and pepperoni unless they're heated until steaming hot (165°F), and should avoid **cheese made with raw milk**, **refrigerated pâté** and **refrigerated smoked salmon**. A pregnancy-safe board swaps in **prosciutto crisps, pepperoni chips and baked brie**, uses **pasteurized** cheddar, gouda, mozzarella and feta, and keeps everything else (fruit, crackers, nuts, honey, olives) as it is.
 
-Charcuterie is one of the foods pregnant guests most often have to skip at a party, and it's usually the one they miss the most. The good news is that most of a board is already fine, and the parts that aren't have easy swaps that still taste like charcuterie. This guide covers what the CDC (US) and the NHS (UK) actually say, where they disagree, and how to build a board a pregnant guest can eat all of.
+:::html
+<div class="sk-top"><p class="sk-top-label">The short version</p>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Fine as is</p><span class="sk-top-name">Pasteurized cheese, fruit and extras</span><p class="sk-top-line">Pasteurized cheddar, gouda, mozzarella and feta; washed fruit, crackers, nuts, honey, olives, pickles, hummus, dark chocolate.</p></div><div class="sk-top-buy"><span class="sk-price">Check "pasteurized"</span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Heat first</p><span class="sk-top-name">Cured meats and brie</span><p class="sk-top-line">Salami, pepperoni, prosciutto and chorizo until steaming hot (165°F): crisps, chips or pan-crisped. Brie baked and served hot.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#swaps">See the swaps</a></span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Skip</p><span class="sk-top-name">Raw-milk cheese and cold spreads</span><p class="sk-top-line">Raw-milk cheese, refrigerated pâté and refrigerated smoked salmon. In the US, queso fresco-style cheeses unless heated.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#raw-milk">Which cheeses</a></span></div></div>
+</div>
+<nav class="sk-jump" aria-label="On this page"><a href="#safe">Safe or swap: the table</a><a href="#raw-milk">Raw-milk cheeses</a><a href="#swaps">The swaps</a><a href="#board-for-8">A board for 8</a><a href="#hosting">Hosting tips</a><a href="#faq">FAQ</a></nav>
+:::
+
+Most of a board is already fine for a pregnant guest, and the parts that aren't have easy swaps that still taste like charcuterie. Here's what the CDC (US) and the NHS (UK) say, where they disagree, and a board she can eat all of.
 
 *This is general food-safety information, not medical advice. Guidance differs by country and changes over time, so check with your own doctor or midwife.*
 
@@ -27,7 +37,9 @@ There are two concerns, and both are about bacteria or parasites in food that is
 
 Heat kills both. That's why the rule for meat is "steaming hot," not "never."
 
-## What's safe and what to swap
+:::html
+<h2 id="safe">What's safe and what to swap</h2>
+:::
 
 | Food | US (CDC) | UK (NHS) | Pregnancy-safe swap |
 |---|---|---|---|
@@ -43,7 +55,9 @@ Heat kills both. That's why the rule for meat is "steaming hot," not "never."
 
 Where the two disagree, the safest board follows whichever rule is stricter. That means pasteurized cheese, cooked meat, and soft white-rind or blue cheese only when it's baked.
 
-## Check the label: raw-milk cheeses
+:::html
+<h2 id="raw-milk">Check the label: raw-milk cheeses</h2>
+:::
 
 US guidance says to avoid any cheese made with raw (unpasteurized) milk, and a few of the most popular board cheeses are made that way by tradition. Look for **"made with pasteurized milk"** on the label.
 
@@ -54,7 +68,9 @@ US guidance says to avoid any cheese made with raw (unpasteurized) milk, and a f
 
 Most supermarket cheddar, gouda, mozzarella, feta, cream cheese and Boursin in the US are pasteurized, but checking takes two seconds.
 
-## The swaps that make it still feel like charcuterie
+:::html
+<h2 id="swaps">The swaps that make it still feel like charcuterie</h2>
+:::
 
 ![Prosciutto crisps, crisp pepperoni chips and a small baked brie with honey on a parchment-lined baking sheet](/images/pregnancy-safe-swaps.jpg)
 
@@ -76,7 +92,9 @@ Score the top of a small pasteurized [brie](/ingredients/brie/), bake it at **35
 
 A note on cooked meat: once it's cooked, treat it like any other board food. Make it the same day and keep it out **no more than 2 hours, or 1 hour above 90°F**.
 
-## A pregnancy-safe board for 8
+:::html
+<h2 id="board-for-8">A pregnancy-safe board for 8</h2>
+:::
 
 This is a starter board before a meal, using the Lab standard of about 2 oz of cheese and 2 oz of meat per guest.
 
@@ -97,7 +115,9 @@ This is a starter board before a meal, using the Lab standard of about 2 oz of c
 
 Wash all fruit well, including grapes and berries, before it goes on the board.
 
-## Hosting a pregnant guest
+:::html
+<h2 id="hosting">Hosting a pregnant guest</h2>
+:::
 
 - **Make a separate small plate** if the main board has cold cured meat on it. Shared knives and meat touching cheese can carry bacteria from one food to another.
 - **Label the board.** A small card that says "all cheeses pasteurized, all meat cooked" saves the guest from having to ask.
@@ -118,7 +138,9 @@ Wash all fruit well, including grapes and berries, before it goes on the board.
 - CDC, [Preventing Listeria Infection](https://www.cdc.gov/listeria/prevention/index.html)
 - NHS, [Foods to avoid in pregnancy](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
-## FAQ
+:::html
+<h2 id="faq">FAQ</h2>
+:::
 
 **Can you eat salami while pregnant?**
 Not cold. The CDC advises pregnant people to avoid unheated deli meats and fermented or dry sausages such as salami and pepperoni, and to eat them only reheated to 165°F or until steaming hot. Baked pepperoni chips and pan-crisped salami are easy ways to keep them on the board.
