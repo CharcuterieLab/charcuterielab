@@ -29,6 +29,24 @@
     "book": "plant",
     "n": 13
   },
+  "plant-based-starter-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-classic-plant-based-starter-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 1
+  },
+  "plant-based-dessert-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-dessert-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 11
+  },
+  "plant-based-date-night-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-date-night-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 12
+  },
   "indian-charcuterie-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/world-indian-spice-board",
     "price": "$3",
@@ -40,5 +58,11 @@
     "price": "$3",
     "book": "world",
     "n": 5
+  },
+  "turkish-meze-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-turkish-meze-board",
+    "price": "$3",
+    "book": "world",
+    "n": 6
   }
 }
