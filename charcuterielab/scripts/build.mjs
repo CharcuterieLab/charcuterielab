@@ -1553,7 +1553,7 @@ ${head}
       <a class="brand" href="/">Charcuterie Lab</a>
       <a class="nav-m-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></a>
       <a class="nav-free" href="/newsletter/"><span class="nav-free-long">Free printables</span><span class="nav-free-short">Free</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="nav-toggle-bars" aria-hidden="true"></span>Menu</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="nav-toggle-bars" aria-hidden="true"></span><span class="nav-toggle-label">Menu</span></button>
       <div class="nav-links" id="site-menu">
 ${siteNav(canonical)}
         <a class="nav-search" href="/search/" aria-label="Search the site"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span class="nav-search-label">Search</span></a>
@@ -1701,19 +1701,92 @@ function newsletterPanel(id, campaign) {
   </section>`;
 }
 
-function homePage(posts, products, boardStrip = "") {
+// "Popular this week" (20 Oct 2026): the next two holidays within 60 days,
+// then the 12-person party plan. Recomputed on every build, so it moves on by
+// itself (Halloween drops off on 1 Nov and Christmas comes in).
+function homePopular(holidays = []) {
+  const today = new Date().toISOString().slice(0, 10);
+  const soon = new Date(Date.now() + 60 * 864e5).toISOString().slice(0, 10);
+  const up = holidays
+    .map((x) => ({ x, d: (x.dates || []).filter((d) => d >= today).sort()[0] }))
+    .filter((o) => o.d && o.d <= soon)
+    .sort((a, b) => a.d.localeCompare(b.d))
+    .slice(0, 2);
+  const items = up.map(({ x }) => ({
+    href: `/holidays/${x.slug}/`,
+    img: x.image,
+    k: `<span data-countdown='${JSON.stringify(x.dates)}'>${escapeHtml(x.name || "Holiday")}</span>`,
+    t: x.h1 || `${x.name} board ideas`,
+    d: "Board ideas, shapes and a countdown plan"
+  }));
+  items.push({ href: "/party-planner/charcuterie-board-for-12-people/", img: "/images/how-much-charcuterie-per-person.webp", k: "Party Planner", t: "How much to buy for 12 people", d: "Meat, cheese and crackers by weight, plus a timeline" });
+  if (items.length < 3) items.push({ href: "/blog/charcuterie-board-ideas/", img: "/images/50-boards-29-book-club-afternoon.webp", k: "Board ideas", t: "50 charcuterie board ideas", d: "Something for every party, with the plan" });
+  return `<section class="section home-popular" aria-labelledby="home-popular-h">
+    <div class="section-inner">
+      <p class="section-kicker">Popular this week</p>
+      <h2 class="section-title" id="home-popular-h">What hosts are planning right now</h2>
+      <ul class="home-pop-grid">
+${items.map((i) => `        <li><a class="home-pop" href="${i.href}"><img src="${thumb(i.img, "s")}" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="home-pop-copy"><span class="home-pop-k">${i.k}</span><strong>${escapeHtml(i.t)}</strong><span class="home-pop-d">${escapeHtml(i.d)}</span></span></a></li>`).join("\n")}
+      </ul>
+    </div>
+  </section>${up.length ? countdownJs() : ""}`;
+}
+
+// Homepage shop (20 Oct 2026): three picks instead of the whole catalogue.
+// The book, the seasonal pack and the best starting printable; everything
+// else is one click away on /shop/.
+const HOME_SHOP_PICKS = ["holiday-hosting-pack", "classic-entertaining-board-blueprint"];
+function homeShop(products) {
+  const picks = HOME_SHOP_PICKS.map((slug) => products.find((p) => p.slug === slug)).filter(Boolean);
+  const card = (p, kicker) => `<article class="home-pick">
+        <a class="home-pick-img" href="/printables/${p.slug}/"><img src="${thumb(p.image)}" alt=""${imageSize(thumb(p.image))} loading="lazy" decoding="async"></a>
+        <p class="home-pick-k">${kicker}</p>
+        <h3><a href="/printables/${p.slug}/">${escapeHtml(p.title)}</a></h3>
+        <p>${escapeHtml(p.hook || p.description)}</p>
+        <div class="home-pick-buy"><a class="button primary" href="${withTracking(p.url, "home_shop")}" target="_blank" rel="noopener">Get it · ${escapeHtml(p.priceShort || p.price)}</a><a class="text-link" href="/printables/${p.slug}/">What's inside</a></div>
+      </article>`;
+  const kickers = { "holiday-hosting-pack": `Holiday pack · save ${escapeHtml(picks.find((p) => p.slug === "holiday-hosting-pack")?.save || "")}`, "classic-entertaining-board-blueprint": "Best place to start" };
+  const others = products.length;
+  return `<section class="section alt" id="shop">
+    <div class="section-inner">
+      <p class="section-kicker">Shop</p>
+      <h2 class="section-title">The book and the printables</h2>
+      <div class="home-picks">
+        <article class="home-pick home-pick-book">
+          <a class="home-pick-img" href="${ebookPageUrl}"><img src="${thumb("/images/book-3d-mockup.webp")}" alt="${bookTitle} book"${imageSize(thumb("/images/book-3d-mockup.webp"))} loading="lazy" decoding="async"></a>
+          <p class="home-pick-k">The book · all 50 boards</p>
+          <h3><a href="${ebookPageUrl}">50 Charcuterie Boards, Built by Science</a></h3>
+          <p>Shopping lists, pairing logic, substitutions and a build order for every board, so you can repeat them, not just admire them. ${bookFormatsLine}</p>
+          <div class="home-pick-buy">${bookButtons("home_shop")}</div>
+          <p class="hero-more"><a href="${ebookPageUrl}">See what's inside the book &rarr;</a></p>
+        </article>
+${picks.map((p) => card(p, kickers[p.slug] || "Printable")).join("\n")}
+      </div>
+      <div class="section-link"><a class="button" href="/shop/#printables">See all ${others} printables</a></div>
+    </div>
+  </section>`;
+}
+
+function homePage(posts, products, { boardStrip = "", worldStrip = "", popular = "" } = {}) {
   const featuredPosts = posts.slice(0, 3);
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
-    head: siteSchema(),
+    head: `${siteSchema()}\n  <link rel="preload" as="image" href="/images/50-boards-01-classic-american-starter.webp" fetchpriority="high">`,
     description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
     body: `<main>
   <section class="hero home-intent">
     <div class="home-intent-inner">
-      <p class="hero-kicker">Charcuterie Lab</p>
-      <h1>Plan it, shop it, build it: charcuterie boards that work</h1>
-      <p class="home-intent-lede">How much to buy, which brands are worth it and what goes with what, worked out with real pairing science. Start with what you need right now.</p>
+      <div class="home-intent-top">
+        <div class="home-intent-copy">
+          <h1>Plan it, shop it, build it: charcuterie boards that work</h1>
+          <p class="home-intent-lede">How much to buy, which brands are worth it and what goes with what, worked out with real pairing science. Start with what you need right now.</p>
+        </div>
+        <figure class="home-hero-photo">
+          <a href="/boards/"><img src="/images/50-boards-01-classic-american-starter.webp" alt="A classic American charcuterie board with cheddar, salami, pepperoni, crackers, grapes, almonds and honey" width="900" height="503" fetchpriority="high" decoding="async"></a>
+          <figcaption>Board 01 from the book: the Classic American Starter</figcaption>
+        </figure>
+      </div>
       <div class="home-intent-grid">
         <div class="home-intent-card">
           <p class="home-intent-k">I'm hosting soon</p>
@@ -1732,37 +1805,35 @@ function homePage(posts, products, boardStrip = "") {
         <div class="home-intent-card">
           <p class="home-intent-k">I'm building the board</p>
           <h2><a href="/pairings/">What goes with ___?</a></h2>
-          <form class="home-intent-search" action="/search/" method="get" role="search"><label class="sr-only" for="home-q">What goes with</label><input id="home-q" name="q" type="search" placeholder="brie, prosciutto, pinot noir..." autocomplete="off"><button class="button" type="submit">Find</button></form>
+          <form class="home-intent-search" action="/search/" method="get" role="search"><label class="sr-only" for="home-q">What goes with</label><input id="home-q" name="q" type="search" placeholder="brie, prosciutto, pinot noir..." autocomplete="off"><input type="hidden" name="pair" value="1"><button class="button" type="submit">Find</button></form>
           <div class="home-intent-chips"><a href="/pairings/food/brie/">Brie</a><a href="/pairings/food/prosciutto-di-parma/">Prosciutto</a><a href="/pairings/wine-and-cheese-chart/">Wine chart</a></div>
           <a class="button primary" href="/pairings/">Open the Pairings Hub</a>
         </div>
-      </div>
-      <div class="home-signup">
-        <img src="/images/charcuterie-cheat-sheet.webp" alt="" width="64" height="83" decoding="async">
-        <div class="home-signup-copy"><p class="home-signup-t">Get the free Charcuterie Cheat Sheet</p><p>How much to buy for any party, plus one board idea a week. <a href="/newsletter/">See all the free printables</a></p></div>
-        <div class="home-signup-form">${FUNNEL.cheatForm("home-hero", "cheat_home_hero")}</div>
       </div>
     </div>
   </section>
 
   <!--offer-top-->
 
-  ${boardStrip}
+  <div class="home-boards">${boardStrip}</div>
 
-  ${HOME_BEST}
+  ${popular}
 
-  <section class="section home-book" aria-label="The Charcuterie Lab book">
-    <div class="section-inner home-book-inner">
-      <img src="${thumb("/images/book-3d-mockup.webp")}" alt="Charcuterie Lab book mockup" width="320" height="320" loading="lazy" decoding="async">
-      <div>
-        <p class="section-kicker">The Book</p>
-        <h2 class="section-title">50 Charcuterie Boards, Built by Science</h2>
-        <p>Shopping lists, pairing logic, substitutions and a build order for every board, so you can repeat them, not just admire them. ${bookFormatsLine}</p>
-        ${bookButtons("home_book")}
-        <p class="hero-more"><a href="${ebookPageUrl}">See what's inside the book &rarr;</a></p>
+  <section class="section home-signup-band" aria-label="Free Charcuterie Cheat Sheet">
+    <div class="section-inner">
+      <div class="home-signup">
+        <img src="/images/charcuterie-cheat-sheet.webp" alt="" width="64" height="83" loading="lazy" decoding="async">
+        <div class="home-signup-copy"><p class="home-signup-t">Get the free Charcuterie Cheat Sheet</p><p>How much to buy for any party, plus one board idea a week. <a href="/newsletter/">See all the free printables</a></p></div>
+        <div class="home-signup-form">${FUNNEL.cheatForm("home-hero", "cheat_home_hero")}</div>
       </div>
     </div>
   </section>
+
+  ${HOME_BEST}
+
+  ${homeShop(products)}
+
+  ${worldStrip}
 
   <section class="section lab-free" aria-label="Free from the Lab">
     <div class="section-inner">
@@ -1784,24 +1855,6 @@ function homePage(posts, products, boardStrip = "") {
       </div>
       <div class="section-link">
         <a class="text-link" href="/blog/">View all blog posts</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section alt" id="shop">
-    <div class="section-inner">
-      <p class="section-kicker">Shop</p>
-      <h2 class="section-title">The book and the printables</h2>
-      <div class="shop-book">
-        <img src="${thumb("/images/book-cover.jpg")}" alt="${bookTitle} cover" width="180" height="233" loading="lazy" decoding="async">
-        <div>
-          <h3>${bookTitle}</h3>
-          <p>All 50 boards with shopping lists, pairing logic, substitutions and build notes. ${bookFormatsLine}</p>
-          ${bookButtons("home_shop")}
-        </div>
-      </div>
-      <div class="grid four printables-grid">
-        ${products.map((product) => productCard(product)).join("\n")}
       </div>
     </div>
   </section>
@@ -2797,7 +2850,7 @@ async function build() {
     keto: { title: KETO_BOOK.title, short: "Keto & Low-Carb Boards", path: "/books/keto-charcuterie-boards/", cover: KETO_BOOK.cover, ebookUrl: KETO_BOOK.ebookUrl, ebookPrice: KETO_BOOK.ebookPrice, paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice, who: "For the keto friend", line: "20 keto boards at 4 to 9 g net carbs per serving, with full macros." },
     two: { title: TWO_BOOK.title, short: "Boards for Two", path: "/books/boards-for-two/", cover: TWO_BOOK.cover, ebookUrl: TWO_BOOK.ebookUrl, ebookPrice: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice, who: "For a couple", line: "25 boards sized for two, from a first date to New Year's Eve, each with a drink to pour." }
   });
-  await writeFile(join(dist, "index.html"), homePage(posts, products, (holidays.length ? `<div class="bl-inner">${holidayBanner(boardHelpers, holidays)}</div>${countdownJs()}` : "") + (boards.some((b) => b.book === "world") ? worldBanner(boardHelpers) : "") + boardsStrip(boardHelpers, boards)));
+  await writeFile(join(dist, "index.html"), homePage(posts, products, { boardStrip: boardsStrip(boardHelpers, boards), worldStrip: boards.some((b) => b.book === "world") ? `<div class="home-world">${worldBanner(boardHelpers)}</div>` : "", popular: homePopular(holidays) }));
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
@@ -3371,8 +3424,24 @@ function searchPage(count) {
     count.textContent=out.length?out.length+" result"+(out.length===1?"":"s")+" for \u201c"+input.value.trim()+"\u201d":"No results for \u201c"+input.value.trim()+"\u201d. Try a single ingredient or a guest count.";
     list.innerHTML=out.slice(0,40).map(function(r){var p=r[1];return '<li><a href="'+p.u+'"><span class="search-kind">'+esc(p.k)+'</span><strong>'+esc(p.t)+'</strong><span>'+esc(p.d)+'</span></a></li>'}).join("");
   }
-  try{var q0=new URLSearchParams(location.search).get("q");if(q0)input.value=q0}catch(e){}
-  fetch("/assets/search-index.json").then(function(r){return r.json()}).then(function(j){data=j;run()});
+  var pair=false;
+  try{var sp=new URLSearchParams(location.search),q0=sp.get("q");if(q0)input.value=q0;pair=sp.get("pair")==="1"&&!!q0}catch(e){}
+  // From the homepage "What goes with ___?" box (20 Oct 2026): when the term
+  // names a pairing page, go straight there instead of showing results.
+  function pairMatch(){
+    var q=norm(input.value.trim()).replace(/[^a-z0-9 ]+/g," ").replace(/\\s+/g," ").trim();
+    if(!q)return null;
+    var qs=q.replace(/ /g,"-"),qq=[q,q.replace(/s$/,""),q.replace(/es$/,"")],starts=[];
+    for(var i=0;i<data.length;i++){
+      var p=data[i];
+      if(!/^\\/pairings\\/[^/]+\\/[^/]+\\/$/.test(p.u))continue;
+      var slug=p.u.split("/")[3],name=norm(p.t).replace(/^what (goes|to (serve|pair)) with /,"").replace(/[?.!]+$/,"").replace(/[^a-z0-9 ]+/g," ").replace(/\\s+/g," ").trim();
+      if(qq.indexOf(name)>-1||qq.indexOf(slug.replace(/-/g," "))>-1)return p.u;
+      if(slug.indexOf(qs+"-")===0||name.indexOf(q+" ")===0)starts.push(p.u);
+    }
+    return starts.length===1?starts[0]:null;
+  }
+  fetch("/assets/search-index.json").then(function(r){return r.json()}).then(function(j){data=j;if(pair){var u=pairMatch();if(u){location.replace(u);return}}run()});
   input.addEventListener("input",function(){run();try{history.replaceState(null,"","/search/"+(input.value.trim()?"?q="+encodeURIComponent(input.value.trim()):""))}catch(e){}});
   document.querySelector("[data-search-form]").addEventListener("submit",function(e){e.preventDefault();run()});
 })();

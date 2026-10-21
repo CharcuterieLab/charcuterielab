@@ -347,7 +347,8 @@ export function makeOffers(h, products, books) {
   <script>(function(){var b=document.querySelector("[data-fx-sticky]");if(!b)return;var k="fx-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");var vis=new Set();if(window.IntersectionObserver&&b.querySelector("[data-fx-free]")){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)});on()});document.querySelectorAll(".fx-bh-form").forEach(function(f){io.observe(f)})}function on(){var s=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight||1);b.hidden=!(mq.matches&&s>0.2&&s<0.97&&!vis.size)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
   }
 
-  // Slide-in signup (12 Oct 2026). Shown at most once per visit, at about
+  // Slide-in signup (12 Oct 2026; once per visitor from 20 Oct). Shown at most
+  // once a week per browser, at about
   // half way down the page (or when the mouse heads for the tab bar on
   // desktop), never while another email form is on screen, never for 7 days
   // after it's closed, and never again after a signup (the thank-you page
@@ -363,7 +364,7 @@ export function makeOffers(h, products, books) {
     </div>
     ${bhForm("lead-slide", campaign, fb ? { label: fb.label, pdf: fb.pdf } : null)}
   </aside>
-  <script>(function(){var s=document.querySelector("[data-fx-slide]");if(!s)return;try{if(localStorage.getItem("cl-sub"))return;var c=+localStorage.getItem("cl-slide-closed")||0;if(Date.now()-c<6048e5)return;if(sessionStorage.getItem("cl-slide-shown"))return}catch(e){}var shown=false,t0=Date.now(),vis=new Set();if(window.IntersectionObserver){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)})});document.querySelectorAll(".fx-bh-form").forEach(function(f){if(!s.contains(f))io.observe(f)})}function show(){if(shown||vis.size)return;shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add("is-in")});document.body.classList.add("fx-slide-on");try{sessionStorage.setItem("cl-slide-shown","1")}catch(e){}off()}function close(){s.classList.remove("is-in");document.body.classList.remove("fx-slide-on");setTimeout(function(){s.hidden=true},250);try{localStorage.setItem("cl-slide-closed",String(Date.now()))}catch(e){}}function sc(){var p=scrollY/((document.documentElement.scrollHeight-innerHeight)||1);if(p>0.5&&Date.now()-t0>8000)show()}function ex(e){if(!e.relatedTarget&&e.clientY<=0&&Date.now()-t0>8000)show()}function off(){removeEventListener("scroll",sc);document.removeEventListener("mouseout",ex)}addEventListener("scroll",sc,{passive:true});if(matchMedia("(pointer: fine)").matches)document.addEventListener("mouseout",ex);s.querySelector("[data-fx-slide-close]").addEventListener("click",close);document.addEventListener("keydown",function(e){if(e.key==="Escape"&&shown&&!s.hidden)close()})})();</script>`;
+  <script>(function(){var s=document.querySelector("[data-fx-slide]");if(!s)return;try{if(localStorage.getItem("cl-sub"))return;var c=+localStorage.getItem("cl-slide-closed")||0;if(Date.now()-c<6048e5)return;var w=+localStorage.getItem("cl-slide-seen")||0;if(Date.now()-w<6048e5)return}catch(e){}var shown=false,t0=Date.now(),vis=new Set();if(window.IntersectionObserver){var io=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)})});document.querySelectorAll(".fx-bh-form").forEach(function(f){if(!s.contains(f))io.observe(f)})}function show(){if(shown||vis.size)return;shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add("is-in")});document.body.classList.add("fx-slide-on");try{localStorage.setItem("cl-slide-seen",String(Date.now()))}catch(e){}off()}function close(){s.classList.remove("is-in");document.body.classList.remove("fx-slide-on");setTimeout(function(){s.hidden=true},250);try{localStorage.setItem("cl-slide-closed",String(Date.now()))}catch(e){}}function sc(){var p=scrollY/((document.documentElement.scrollHeight-innerHeight)||1);if(p>0.5&&Date.now()-t0>8000)show()}function ex(e){if(!e.relatedTarget&&e.clientY<=0&&Date.now()-t0>8000)show()}function off(){removeEventListener("scroll",sc);document.removeEventListener("mouseout",ex)}addEventListener("scroll",sc,{passive:true});if(matchMedia("(pointer: fine)").matches)document.addEventListener("mouseout",ex);s.querySelector("[data-fx-slide-close]").addEventListener("click",close);document.addEventListener("keydown",function(e){if(e.key==="Escape"&&shown&&!s.hidden)close()})})();</script>`;
   }
 
   // Put the matched offer into every built page. A page can choose its spot
@@ -480,8 +481,12 @@ export function makeOffers(h, products, books) {
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");
           const formId = (html.match(/class="fx-bh-form" id="([^"]+)"/) || [])[1];
-          if (!/^\/(party-planner|board-builder)\//.test(path) && path !== "/") html = html.replace(/<\/main>/, `${slideIn(`slide_${campaign.slice(4)}`, html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
-          html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId), html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
+          // One pop-up per page (20 Oct 2026): pages with the slide-in don't
+          // also get the phone bar. The bar stays only where there's no
+          // slide-in (homepage, Party Planner, Board Builder).
+          const hasSlide = !/^\/(party-planner|board-builder)\//.test(path) && path !== "/";
+          if (hasSlide) html = html.replace(/<\/main>/, `${slideIn(`slide_${campaign.slice(4)}`, html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
+          if (!hasSlide) html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId), html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
           await writeFile(file, html);
           n++;
           const key = (card.match(/data-offer="([^"]*)"/) || [])[1] || "?";

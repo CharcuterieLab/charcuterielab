@@ -5448,3 +5448,79 @@ body.fx-slide-on .fx-sticky { display: none !important; }
   .bl-glance dd { margin-top: 2px; font-size: 15px; }
   .bl-rows div { grid-template-columns: 1fr; gap: 2px; padding: 10px 14px; }
 }
+
+/* Homepage visitor fixes (20 Oct 2026) ----------------------------------- */
+/* Hero: headline beside a real board photo from the book. */
+.home-intent-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 480px); gap: 32px; align-items: center; margin-bottom: 26px; }
+.home-intent-top h1 { margin-top: 0; }
+.home-intent-top .home-intent-lede { margin-bottom: 0; }
+.home-hero-photo { margin: 0; }
+.home-hero-photo a { display: block; }
+.home-hero-photo img { display: block; width: 100%; height: auto; aspect-ratio: 900 / 503; object-fit: cover; border-radius: 16px; box-shadow: 0 22px 48px rgba(0,0,0,.35); }
+.home-hero-photo figcaption { margin-top: 8px; font-size: 13px; color: #e8dcb8; }
+@media (max-width: 900px) {
+  .home-intent-top { grid-template-columns: 1fr; gap: 16px; margin-bottom: 20px; }
+  .home-hero-photo img { border-radius: 12px; }
+}
+
+/* Board Library on the homepage: right under the need cards. Phones get
+   four boards two to a row instead of six full-width cards. */
+.home-boards .bl-strip { padding-top: 34px; }
+@media (max-width: 600px) {
+  .home-boards .bl-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .home-boards .bl-card:nth-child(n+5) { display: none; }
+  .home-boards .bl-card-body { padding: 10px 10px 12px; gap: 3px; }
+  .home-boards .bl-card-body strong { font-size: 15px; line-height: 1.25; }
+  .home-boards .bl-card-cat, .home-boards .bl-badges { display: none; }
+  .home-boards .bl-card-facts { font-size: 12.5px; }
+}
+
+/* Popular this week */
+.home-popular { padding-top: 8px; }
+.home-pop-grid { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.home-pop { display: grid; grid-template-columns: 96px 1fr; gap: 12px; align-items: center; height: 100%; padding: 10px; border-radius: 14px; border: 1px solid rgba(17,58,39,.14); background: #fff; color: inherit; text-decoration: none; box-shadow: 0 8px 20px rgba(55,35,25,.06); transition: transform .15s ease, box-shadow .15s ease; }
+.home-pop:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(55,35,25,.12); }
+.home-pop img { width: 96px; height: 72px; object-fit: cover; border-radius: 10px; }
+.home-pop-copy { display: grid; gap: 2px; min-width: 0; }
+.home-pop-k { font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--gold-dark); }
+.home-pop strong { color: var(--green-deep); font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; line-height: 1.25; }
+.home-pop-d { font-size: 13.5px; color: var(--muted); }
+@media (max-width: 900px) { .home-pop-grid { grid-template-columns: 1fr; gap: 10px; } }
+@media (prefers-reduced-motion: reduce) { .home-pop { transition: none; } .home-pop:hover { transform: none; } }
+
+/* Email signup, now its own band under the boards */
+.home-signup-band { padding: 26px 0; background: var(--green); }
+.home-signup-band .home-signup { margin-top: 0; }
+
+/* Homepage shop: three picks and a link to the rest */
+.home-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 18px; }
+.home-pick { display: flex; flex-direction: column; gap: 8px; padding: 18px; border-radius: 16px; background: #fff; border: 1px solid rgba(17,58,39,.12); box-shadow: 0 10px 26px rgba(55,35,25,.07); min-width: 0; }
+.home-pick-img { display: block; border-radius: 12px; overflow: hidden; background: var(--cream); }
+.home-pick-img img { display: block; width: 100%; height: 210px; object-fit: contain; }
+.home-pick-k { margin: 4px 0 0; font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--gold-dark); }
+.home-pick h3 { margin: 0; font-size: 1.2rem; line-height: 1.25; }
+.home-pick h3 a { color: var(--green-deep); text-decoration: none; }
+.home-pick p { margin: 0; color: var(--muted); }
+.home-pick-buy { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding-top: 6px; }
+.home-pick-buy .button { margin: 0; }
+.home-pick .hero-more { margin: 0; }
+.home-pick .hero-more a { color: var(--green-deep); }
+#shop .section-link { margin-top: 22px; text-align: center; }
+@media (max-width: 900px) { .home-picks { grid-template-columns: 1fr; } .home-pick-img img { height: 180px; } }
+.home-world { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
+.home-world .bl-banner { margin: 6px 0 0; }
+
+/* Phone header on one row: below 420px the menu button shows its icon only. */
+@media (max-width: 420px) {
+  .nav-toggle-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .nav-toggle { padding: 0 12px; }
+  .brand { font-size: 20px; }
+  .nav-free { padding: 0 10px; margin-right: 2px; }
+}
+/* The need cards were 19px wider than a 375px phone (the long buttons set
+   their minimum width). Let them shrink and the button text wrap. */
+@media (max-width: 900px) {
+  .home-intent-grid { grid-template-columns: minmax(0, 1fr); }
+  .home-intent-card { min-width: 0; }
+  .home-intent-card .button.primary { white-space: normal; max-width: 100%; text-align: center; }
+}
