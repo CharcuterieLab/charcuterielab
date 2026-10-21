@@ -1344,5 +1344,44 @@
       "cured-meat-field-guide"
     ],
     "boards": []
+  },
+  {
+    "title": "DIY Cheese Advent Calendar Kit",
+    "description": "Digital download: plan a 12- or 24-night cheese advent calendar with shopping lists, a pairing schedule and number tags.",
+    "price": "$4.00",
+    "priceShort": "$4",
+    "image": "/images/diy-cheese-advent-calendar-kit.jpg",
+    "url": "",
+    "slug": "diy-cheese-advent-calendar-kit",
+    "pagesLabel": "8 pages",
+    "format": "Letter size (8.5 × 11 in), portrait",
+    "hook": "Make your own cheese advent calendar: budget, classic and splurge shopping lists, a night-by-night pairing schedule for 12 or 24 nights, and cut-out number tags.",
+    "includes": [
+      "Budget, classic and splurge shopping lists: 6 cheeses and 6 spreads each, lined up so any list fits the schedule",
+      "A night-by-night pairing schedule for 12 nights, plus nights 13 to 24 with a second shop on Dec 12",
+      "How much to buy for 1–2 or 3–4 people, and a countdown from Nov 28 to Christmas Eve",
+      "How to cut, wrap and store each portion, with fridge-out times and food safety",
+      "24 cut-out number tags",
+      "A tasting score card and a Christmas Eve finale board built from your favorites",
+      "Printable as many times as you like"
+    ],
+    "who": "Cheese lovers who missed the sold-out calendars, want one for less, live where none ship, or want to give a homemade one as a gift.",
+    "seoTitle": "DIY Cheese Advent Calendar Kit: Printable 12 or 24-Night Plan",
+    "metaDescription": "Make your own cheese advent calendar: printable shopping lists at three budgets, a 12 or 24-night pairing schedule, number tags and a finale board. $4 PDF.",
+    "free": [
+      [
+        "Cheese advent calendars 2026",
+        "/blog/cheese-advent-calendars-2026/"
+      ],
+      [
+        "Christmas charcuterie board",
+        "/blog/christmas-charcuterie-board/"
+      ],
+      [
+        "Gifts for cheese lovers",
+        "/gifts/cheese-lovers/"
+      ]
+    ],
+    "group": "Holidays and parties"
   }
 ]

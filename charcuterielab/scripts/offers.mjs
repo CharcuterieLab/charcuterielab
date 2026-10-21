@@ -28,6 +28,8 @@ export const OFFER_RULES = [
   // Board business (Oct 14, 2026): the $9.99 starter kit, live once its Gumroad URL is in products.json.
   [/charcuterie-business|sell-charcuterie|grazing-business/, ["charcuterie-business-starter-kit", "grazing-table-planner"], "Starting a board business?"],
   // Bundles (17 Oct 2026): holiday and party pages get the pack that matches.
+  // Advent calendar pages (20 Oct 2026): the DIY kit, live once its Gumroad URL is in products.json.
+  [/advent-calendar/, ["diy-cheese-advent-calendar-kit", "cheese-board-field-guide"], "Making your own?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
   [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
@@ -92,6 +94,7 @@ const DEFAULT_LEAD = {
   "mezze-board-plan": "Building a mezze board?",
   "burrata-stracciatella-board-plan": "Serving burrata?",
   "british-christmas-cheese-board": "Hosting Christmas?",
+  "diy-cheese-advent-calendar-kit": "Making your own?",
   "charcuterie-business-starter-kit": "Starting a board business?",
   "holiday-hosting-pack": "Hosting the holidays?",
   "fall-thanksgiving-pack": "Hosting this fall?",
@@ -259,6 +262,8 @@ export function makeOffers(h, products, books) {
     best: { short: "Free: our #1 picks on one printable list", title: "Top Picks: the best brand of everything", line: "Our #1 pick from every buying guide on one printable list to take to the store, plus the cheat sheet and the weekly Lab Report.", img: "/images/leads/best-buys-top-picks.webp", label: "Download the Top Picks list (PDF)", pdf: "/downloads/best-buys-top-picks.pdf" },
     holiday: { short: "Free holiday board countdown plans", title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
     cheese: { short: "Free cheese counter card", title: "The Cheese Counter Card", line: "Take it shopping: how much cheese to buy, one pick from each texture, fridge-out times and what to ask at the counter. Plus the weekly Lab Report.", img: "/images/leads/cheese-counter-card.webp", label: "Download the Cheese Counter Card (PDF)", pdf: "/downloads/cheese-counter-card.pdf" },
+    // Cheese advent calendar post (20 Oct 2026): an Aldi launch alert plus the free DIY starter list.
+    advent: { eyebrow: "Aldi alert + free list", short: "Free: the DIY cheese advent calendar list", title: "Get an email when Aldi's calendar drops", line: "We'll email you when Aldi and Tillamook release their 2026 cheese advent calendars, and get a free DIY calendar shopping list right away. Plus the weekly Lab Report.", img: "/images/leads/diy-cheese-advent-calendar-starter.webp", label: "Download the DIY cheese advent calendar list (PDF)", pdf: "/downloads/diy-cheese-advent-calendar-starter.pdf" },
     pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
   };
   let DIST = "";
@@ -269,6 +274,7 @@ export function makeOffers(h, products, books) {
       const name = String(ctx.title || "this board").replace(/&amp;/g, "&").replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/^The /, "");
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
+    if (/advent-calendar/.test(path)) return FREEBIES.advent;
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
     const sm = path.match(/^\/blog\/([^/]+)\/$/);
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
@@ -282,7 +288,7 @@ export function makeOffers(h, products, books) {
     return `<aside class="fx-hi" aria-label="${esc(fb ? fb.title : "Free Charcuterie Cheat Sheet")}" id="cheat">
   <img class="fx-hi-img" src="${esc(fb ? fb.img : thumb(CHEAT_IMG, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
   <div class="fx-hi-copy">
-    <p class="fx-hi-eyebrow">Free printable</p>
+    <p class="fx-hi-eyebrow">${esc(fb && fb.eyebrow ? fb.eyebrow : "Free printable")}</p>
     <p class="fx-hi-title">${esc(fb ? fb.title : "The Charcuterie Cheat Sheet")}</p>
     <p class="fx-hi-line">${esc(fb ? fb.line : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.")}</p>
   </div>
