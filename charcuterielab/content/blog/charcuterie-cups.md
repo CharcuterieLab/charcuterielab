@@ -118,6 +118,7 @@ You can do both: one board on the table and a tray of cups by the door. For a la
 
 ## Related Reading
 
+- [How to Transport a Charcuterie Board](/blog/how-to-transport-charcuterie-board/)
 - [How Much Charcuterie Per Person? Chart for 4 to 30+ Guests](/blog/how-much-charcuterie-per-person/)
 - [How to Make a Charcuterie Board for a Large Group](/blog/charcuterie-board-for-large-group/)
 - [Charcuterie Board for Kids](/blog/charcuterie-board-for-kids/)

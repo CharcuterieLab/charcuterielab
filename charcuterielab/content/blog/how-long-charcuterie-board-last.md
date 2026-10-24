@@ -101,6 +101,7 @@ Yes — with a clear distinction between what to prep and what to hold.
 
 ## Related Reading
 
+- [How to Transport a Charcuterie Board](/blog/how-to-transport-charcuterie-board/)
 - [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
 - [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)

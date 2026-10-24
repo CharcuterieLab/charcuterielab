@@ -79,6 +79,7 @@ The common mistake is building the whole board tonight and pulling it out tomorr
 
 ## Related Reading
 
+- [How to Transport a Charcuterie Board](/blog/how-to-transport-charcuterie-board/)
 - [What to Do With Leftover Charcuterie Board Ingredients](https://charcuterielab.com/leftover-board/)
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/temperature-guide/)
 - [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)

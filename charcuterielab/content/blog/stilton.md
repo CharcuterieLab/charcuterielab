@@ -112,6 +112,8 @@ Young Stilton (9–10 weeks) is sharper and more simply "blue". As it ages, the 
 
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
+Serving Stilton after dinner? See [the cheese course](/blog/cheese-course/) for amounts, order and port.
+
 ## Sources
 
 - [Stilton Cheesemakers' Association](https://www.stiltoncheese.co.uk/)

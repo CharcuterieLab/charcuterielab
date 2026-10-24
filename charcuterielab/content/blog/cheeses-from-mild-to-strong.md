@@ -87,6 +87,8 @@ Take hard cheese out 45 to 60 minutes before serving and soft cheese 20 to 30 mi
 
 ![Four cheeses from mild to strong on a narrow board with honey and pear next to the Stilton](/images/cheeses-from-mild-to-strong-board.webp)
 
+Planning cheese after dinner? [The cheese course](/blog/cheese-course/) shows how to pick three and serve them mild to strong.
+
 ## Where do you tap out?
 
 Comment your level, and tag the friend who needs to try level 12. For a full board built around a strong cheese, browse the [Board Library](/boards/).

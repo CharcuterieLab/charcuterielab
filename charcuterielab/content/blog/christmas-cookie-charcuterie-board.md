@@ -81,6 +81,7 @@ Pair the cookie board with a [hot cocoa board](/blog/hot-cocoa-board/) for a des
 
 ## Related Reading
 
+- [The Cheese Course: How to Serve Cheese After Dinner](/blog/cheese-course/)
 - [Christmas Charcuterie Board Ideas](/holidays/christmas/)
 - [Hot Cocoa Board](/blog/hot-cocoa-board/)
 - [Dessert Board](/blog/dessert-board/)

@@ -170,6 +170,7 @@ That is enough structure for almost any party, holiday, date night, shower, or m
 
 ## Related Guides
 
+- [The Cheese Course: How to Serve Cheese After Dinner](/blog/cheese-course/)
 - [Christmas Cookie Charcuterie Board](/blog/christmas-cookie-charcuterie-board/)
 - [The Best Store-Bought Shortbread, Ranked](/blog/best-shortbread/)
 - [The Best Strawberry Jam for a Cheese Board, Ranked](/blog/best-strawberry-jam/)
