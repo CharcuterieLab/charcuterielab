@@ -41,7 +41,7 @@ Gouda is a Dutch cow's milk cheese named for the town of Gouda. The name isn't p
 <li><strong>Less sugar to start.</strong> Washing the curd removes most of the lactose, so the bacteria make less acid and the base tastes sweeter.</li>
 <li><strong>Slow browning.</strong> Over months, the little sugar left reacts with amino acids released as the protein breaks down: the same kind of browning (Maillard) reaction that happens in toast and roasted coffee, just far slower. It makes caramel, butterscotch and nutty flavors.</li>
 <li><strong>Buttery notes</strong> come from diacetyl, the same compound behind buttery Chardonnay.</li>
-<li><strong>The crunch.</strong> Gouda aged 18 months or more is full of white crystals: tyrosine and calcium lactate. They're nearly tasteless, but they're a sure sign of real age. More in <a href="https://charcuterielab.com/crystal-formation/">the crystals guide</a>.</li>
+<li><strong>The crunch.</strong> Gouda aged 18 months or more is full of white crystals: tyrosine and calcium lactate. They're nearly tasteless, but they're a sure sign of real age. More in <a href="https://charcuterielab.com/blog/crystal-formation/">the crystals guide</a>.</li>
 </ul>
 :::
 
@@ -103,7 +103,7 @@ If you serve spirits, tell guests to try the Gouda with the bourbon. It's the pa
 - [Gouda vs. Edam: What's the Difference?](https://charcuterielab.com/blog/gouda-vs-edam/)
 - [Proteolysis: How Protein Breakdown Builds the Flavor of Aged Cheese](https://charcuterielab.com/proteolysis/)
 - [Why Aged Cheese Tastes Like Caramel and Nuts (Maillard Chemistry)](https://charcuterielab.com/maillard-aged-cheese/)
-- [The White Crystals in Aged Cheese: What They Are and What They Mean](https://charcuterielab.com/crystal-formation/)
+- [The White Crystals in Aged Cheese: What They Are and What They Mean](https://charcuterielab.com/blog/crystal-formation/)
 
 :::html
 <h2 id="faq">FAQ</h2>

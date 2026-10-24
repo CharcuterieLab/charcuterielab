@@ -64,6 +64,8 @@ Standard charcuterie meats in Halloween-appropriate arrangements:
 
 ## Presentation Techniques
 
+**The jack-o'-lantern:** For a showpiece, turn the whole board into a giant pumpkin with a black olive face. Here's [how to build a jack-o'-lantern charcuterie board](/blog/jack-o-lantern-charcuterie-board/).
+
 **The spider web cracker arrangement:** Arrange crackers in a loose circular pattern extending from a central cheese anchor — it reads as a web without any non-food elements.
 
 **Blackberry cluster placement:** Use blackberries as cluster fills in gaps between elements — they photograph well and signal the Halloween palette immediately at first glance.
@@ -82,6 +84,7 @@ A Halloween charcuterie board works when the food is genuinely excellent and the
 
 ## Related Reading
 
+- [Jack-o'-Lantern Charcuterie Board: The Giant Pumpkin Board for 12 to 15](/blog/jack-o-lantern-charcuterie-board/)
 - [Aged Cheddar on a Charcuterie Board](https://charcuterielab.com/aged-cheddar-charcuterie-board/)
 - [Charcuterie Board Presentation: Six Steps to a Better Build](https://charcuterielab.com/blog/charcuterie-board-presentation/)
 - [Dark Chocolate and Cheese: The Pairing Science](https://charcuterielab.com/fat-tannin/)

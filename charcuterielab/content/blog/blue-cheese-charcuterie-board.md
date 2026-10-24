@@ -1,5 +1,6 @@
 ---
 title: "Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Science Behind It"
+seo_title: "Blue Cheese Charcuterie Board: Pairings and Placement"
 date: "2026-09-27"
 image: "/images/blue-cheese-charcuterie-board.png"
 excerpt: "Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Science Behind It"
