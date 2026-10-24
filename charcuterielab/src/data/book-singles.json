@@ -35,6 +35,18 @@
     "book": "plant",
     "n": 1
   },
+  "plant-based-mediterranean-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-mediterranean-plant-based-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 2
+  },
+  "plant-based-mezze-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-middle-eastern-mezze-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 5
+  },
   "plant-based-dessert-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/vegan-dessert-plant-board",
     "price": "$3",
@@ -64,5 +76,11 @@
     "price": "$3",
     "book": "world",
     "n": 6
+  },
+  "korean-bbq-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-korean-bbq-board",
+    "price": "$3",
+    "book": "world",
+    "n": 12
   }
 }
