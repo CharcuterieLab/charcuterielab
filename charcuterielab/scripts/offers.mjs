@@ -24,6 +24,8 @@ const WINE = /wine|champagne|prosecco|pinot|cabernet|chardonnay|riesling|merlot|
 // [test, candidates in order, lead line for the first candidate]. The first
 // candidate with a live product wins; a fallback uses its own default lead.
 export const OFFER_RULES = [
+  // Impossible Boards (Oct 2026): shaped and showpiece boards sell the book.
+  [/themed-charcuterie|shaped-charcuterie|impossible-boards|jack-o-lantern|charcuterie-board-for-kids|charcuterie-board-birthday/, ["book:impossible", "book:board"], "Want a board that steals the show?"],
   [/around-the-world|bavarian|german|korean|thai|indian|moroccan|portuguese|turkish|peruvian|vietnamese|brazilian|argentine|caribbean|dim-sum|swiss-alpine|ploughman|eastern-european/, ["book:world"], "Love a world board?"],
   // Board business (Oct 14, 2026): the $9.99 starter kit, live once its Gumroad URL is in products.json.
   [/charcuterie-business|sell-charcuterie|grazing-business/, ["charcuterie-business-starter-kit", "grazing-table-planner"], "Starting a board business?"],
@@ -175,6 +177,7 @@ export function makeOffers(h, products, books) {
     if (target === "book:plant" && books.plant) return { type: "ebook", ...books.plant };
     if (target === "book:keto" && books.keto) return { type: "ebook", ...books.keto };
     if (target === "book:two" && books.two) return { type: "ebook", ...books.two };
+    if (target === "book:impossible" && books.impossible) return { type: "ebook", ...books.impossible };
     if (target === "book:board") {
       const b = ctx.bookBoard;
       if (!b) return null;

@@ -114,7 +114,7 @@ Each of the 25 boards gets six pages, so you're never guessing:
 - **Party notes and a "Did you know?"**
 - **Make It Your Way:** easy, budget, gluten-free, vegetarian and bigger-crowd versions, plus what to do with the leftovers
 
-It opens with a two-page guide to building any big board and a "find a board for the occasion" chart, and closes with the Impossible Pantry and Tool Kit.
+It opens with a two-page guide to building any big board and a "find a board for the occasion" chart, and closes with the Impossible Pantry and Tool Kit. [See inside the book, with sample pages and a full shopping list](/books/impossible-boards/).
 
 > **Get the book:** [*Impossible Boards: 25 Showstopping Charcuterie Boards* · ebook $12.99](https://charcuterieflavor.gumroad.com/l/impossible-boards?utm_source=charcuterielab&utm_medium=blog&utm_campaign=themed-charcuterie-board-ideas). A 169-page PDF you can download right away and print just the pages for the board you're making. **Prefer print, or giving it as a gift?** [Get the paperback on Amazon · $24.99](https://www.amazon.com/dp/B0HNJJGJTN). Only need one board? The [Giant Jack-o'-Lantern plan is $3](https://charcuterieflavor.gumroad.com/l/giant-jack-o-lantern-board?utm_source=charcuterielab&utm_medium=blog&utm_campaign=themed-charcuterie-board-ideas) on its own.
 

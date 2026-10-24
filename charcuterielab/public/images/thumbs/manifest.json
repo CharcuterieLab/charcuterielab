@@ -828,6 +828,46 @@
 600,
 787
 ],
+"/images/books/impossible-boards-cover.jpg": [
+600,
+787
+],
+"/images/books/impossible/board-01.webp": [
+800,
+537
+],
+"/images/books/impossible/board-02.webp": [
+800,
+537
+],
+"/images/books/impossible/board-05.webp": [
+800,
+537
+],
+"/images/books/impossible/board-14.webp": [
+800,
+537
+],
+"/images/books/impossible/board-15.webp": [
+800,
+537
+],
+"/images/books/impossible/board-25.webp": [
+800,
+537
+],
+"/images/books/impossible/look-1.webp": [
+700,
+906
+],
+"/images/books/impossible/look-2.webp": [
+700,
+906
+],
+"/images/books/impossible/look-3.webp": [
+700,
+906
+],
 "/images/books/ingredient-guide-cover.jpg": [
 600,
 776
@@ -5883,6 +5923,70 @@
 "/images/thumbs/books__boards-for-two-cover-jpg-s.webp": [
 240,
 315
+],
+"/images/thumbs/books__impossible-boards-cover-jpg-s.webp": [
+240,
+315
+],
+"/images/thumbs/books__impossible__board-01-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-01-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__board-02-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-02-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__board-05-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-05-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__board-14-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-14-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__board-15-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-15-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__board-25-webp-m.webp": [
+640,
+430
+],
+"/images/thumbs/books__impossible__board-25-webp-s.webp": [
+240,
+161
+],
+"/images/thumbs/books__impossible__look-1-webp-s.webp": [
+240,
+311
+],
+"/images/thumbs/books__impossible__look-2-webp-s.webp": [
+240,
+311
+],
+"/images/thumbs/books__impossible__look-3-webp-s.webp": [
+240,
+311
 ],
 "/images/thumbs/books__ingredient-guide-cover-jpg-s.webp": [
 240,
@@ -13810,6 +13914,42 @@
 },
 "/images/books/boards-for-two-cover.jpg": {
 "s": "/images/thumbs/books__boards-for-two-cover-jpg-s.webp"
+},
+"/images/books/impossible-boards-cover.jpg": {
+"s": "/images/thumbs/books__impossible-boards-cover-jpg-s.webp"
+},
+"/images/books/impossible/board-01.webp": {
+"m": "/images/thumbs/books__impossible__board-01-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-01-webp-s.webp"
+},
+"/images/books/impossible/board-02.webp": {
+"m": "/images/thumbs/books__impossible__board-02-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-02-webp-s.webp"
+},
+"/images/books/impossible/board-05.webp": {
+"m": "/images/thumbs/books__impossible__board-05-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-05-webp-s.webp"
+},
+"/images/books/impossible/board-14.webp": {
+"m": "/images/thumbs/books__impossible__board-14-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-14-webp-s.webp"
+},
+"/images/books/impossible/board-15.webp": {
+"m": "/images/thumbs/books__impossible__board-15-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-15-webp-s.webp"
+},
+"/images/books/impossible/board-25.webp": {
+"m": "/images/thumbs/books__impossible__board-25-webp-m.webp",
+"s": "/images/thumbs/books__impossible__board-25-webp-s.webp"
+},
+"/images/books/impossible/look-1.webp": {
+"s": "/images/thumbs/books__impossible__look-1-webp-s.webp"
+},
+"/images/books/impossible/look-2.webp": {
+"s": "/images/thumbs/books__impossible__look-2-webp-s.webp"
+},
+"/images/books/impossible/look-3.webp": {
+"s": "/images/thumbs/books__impossible__look-3-webp-s.webp"
 },
 "/images/books/ingredient-guide-cover.jpg": {
 "s": "/images/thumbs/books__ingredient-guide-cover-jpg-s.webp"

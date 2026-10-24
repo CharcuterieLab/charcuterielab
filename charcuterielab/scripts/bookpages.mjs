@@ -2,6 +2,7 @@
 //   /books/keto-charcuterie-boards/       Keto & Low-Carb Boards
 //   /books/boards-for-two/                Boards for Two
 //   /books/plant-based-charcuterie-boards/  15 Show-Stopping Plant-Based Boards
+//   /books/impossible-boards/             Impossible Boards (Oct 2026)
 //   /books/                               all five books
 // Built for search and AI answers (answer-first lead, quick facts, every board
 // listed, one complete sample board, FAQ + Book/FAQ/Breadcrumb schema) and for
@@ -11,7 +12,7 @@
 
 const money = (lo, hi) => (lo === hi ? `$${lo}` : `$${lo}–${hi}`);
 
-export function bookLandingPages(h, { keto, two, plant, books }) {
+export function bookLandingPages(h, { keto, two, plant, impossible, books }) {
   const esc = h.escapeHtml;
   const T = (u, c) => h.withTracking(u, c);
   const pages = [];
@@ -306,6 +307,53 @@ export function bookLandingPages(h, { keto, two, plant, books }) {
       ],
       finalLine: "Build a board everyone at the table can eat, vegan guests included.",
       related: [["Vegan charcuterie guide", "/dietary/vegan/"], ["Vegetarian charcuterie board", "/blog/vegetarian-charcuterie-board/"], ["Plant-based boards", "/boards/plant-based/"]]
+    };
+    pages.push({ path: b.path, html: page(b) });
+  }
+
+  // ------------------------------------------------------------ Impossible Boards (Book 7, Oct 2026)
+  if (impossible && impossible.length && books.find((x) => x.key === "impossible")) {
+    const im = impossible;
+    const bk = books.find((x) => x.key === "impossible");
+    const chapters = [...new Set(im.map((x) => x.chapter))];
+    const s = im.find((x) => x.num === "20") || im[0];
+    const easy = im.filter((x) => x.difficulty <= 2).length;
+    const b = {
+      ...bk,
+      seoTitle: "Impossible Boards: 25 Showstopping Themed Charcuterie Boards",
+      kicker: "Ebook & paperback · 25 boards · serves 12 to 15",
+      h1: "Impossible Boards: 25 showstopping charcuterie boards that make guests ask “How?”",
+      description: "A 169-page book of 25 shaped charcuterie boards for 12 to 15: a salami dragon, a giant octopus, a fondue volcano, a football field, Santa's sleigh and more, each with the trick that makes it work, a full shopping list and eight build steps.",
+      lead: `<strong>Impossible Boards</strong> is 25 showpiece charcuterie boards built into shapes: a dragon guarding its gold, an octopus reaching for every corner, a sourdough volcano erupting fondue, a slice of “birthday cake” that's really cheese and salami. They look impossible. Each one runs on a single trick, and the book shows you exactly what it is, with a complete shopping list for 12 to 15, a prep timeline from the day before and eight numbered steps.`,
+      metrics: [["25", "showpiece boards"], ["12–15", "guests each"], [String(easy), "rated easy (2 of 5)"], ["6", "pages per board"]],
+      facts: [["Formats", `PDF ebook (169 pages, instant download) and full-colour paperback on Amazon, 8.5 × 11 in`], ["Boards", `25 in ${chapters.length} chapters: ${chapters.join(", ")}`], ["Serves", "12 to 15 per board as the main appetizer, with a smaller version where it works"], ["Difficulty", `Rated 2 to 5 out of 5; ${easy} boards are a 2, the Cheese Castle is the only 5`], ["Each board", "Overview and prep timeline, The Secret, shopping list, 8 build steps, party notes, Make It Your Way"], ["Photos", "The board images are digitally created illustrations of each finished design"], ["Price", `${esc(bk.ebookPrice)} ebook on Gumroad · ${esc(bk.paperbackPrice)} paperback on Amazon`]],
+      galleryTitle: "Boards that stop the room",
+      gallery: [2, 1, 5, 14, 15, 25].map((n) => [`/images/books/impossible/board-${String(n).padStart(2, "0")}.webp`, (im[n - 1] || {}).title || `Board ${n}`]),
+      includes: [["The Secret", "The one trick that makes the design work, with a layout map and the gear you need. Most are simpler than they look."], ["Full shopping list", "Every item with its amount for 12 to 15, grouped by aisle, so one trip covers it."], ["Prep timeline", "What to do the day before, 2 hours out, 1 hour out and in the last 5 minutes."], ["Eight build steps", "Numbered steps with a reference photo, so you always know what comes next."], ["Party notes", "Serving tips, food safety and a “Did you know?” to share at the table."], ["Make It Your Way", "Easy, budget, gluten-free, vegetarian and bigger-crowd versions, plus what to do with leftovers."]],
+      count: 25,
+      listTitle: "The 25 impossible boards",
+      listHead: ["#", "Board", "Chapter", "Difficulty", "Active time", "Cost"],
+      rows: im.map((x) => [x.num, esc(x.title), esc(x.chapter), `${x.difficulty} of 5`, esc(x.time.replace(/ \(.*\)$/, "")), esc(x.cost)]),
+      listNote: "Every board serves 12 to 15. Costs are typical US supermarket estimates for the whole board.",
+      sample: {
+        title: s.title,
+        intro: `Board ${Number(s.num)} is one of the easiest in the book: difficulty ${s.difficulty} of 5, about ${esc(s.time)} of active time, roughly ${esc(s.cost)}. <strong>The secret:</strong> ${esc(s.secret.replace(/\.$/, ""))}: each stripe of “grass” is one green vegetable packed in one direction. Here's its complete shopping list, exactly as it appears in the book.`,
+        cols: ["What to buy"],
+        groups: s.shopping.map((g) => ({ name: g.name, items: g.items.map((it) => [it]) })),
+        after: "The full step-by-step build for this board is free in our <a href=\"/blog/themed-charcuterie-board-ideas/\">themed charcuterie board ideas</a> guide.",
+        upsell: "The book has 24 more, from a salami dragon to Santa's sleigh, each with the same shopping list, the trick that makes it work, a prep timeline and eight build steps."
+      },
+      looks: [["/images/books/impossible/look-1.webp", "The 25 boards at a glance"], ["/images/books/impossible/look-2.webp", "Board 1: the overview page"], ["/images/books/impossible/look-3.webp", "Board 1: The Secret"]],
+      faq: [
+        ["Are these boards actually hard to make?", `Less than they look. Every board is built from ordinary grocery-store food, and each one comes down to one trick: rows of overlapping slices, an outline you fill in, a hidden base for height, or color doing the drawing. ${easy} of the 25 are rated 2 out of 5.`],
+        ["How many people does each board serve?", "12 to 15 as the main appetizer. Many boards include a smaller version for 6 to 8 in the Make It Your Way page."],
+        ["Are the photos real?", "The board images are digitally created illustrations, made to show what each finished design looks like. The shopping lists, amounts and steps were all worked out for a real build."],
+        ["Which board should I start with?", "The Football Field, the Campfire, the Jack-o'-Lantern, the Blue Whale or the Thanksgiving Turkey. They're built from rows and color, with nothing to balance, and each takes about 75 minutes."],
+        ["Is there a paperback?", bk.paperbackUrl ? `Yes, the full-colour paperback is on Amazon at ${esc(bk.paperbackPrice)}. The ebook is an instant PDF download from Gumroad at ${esc(bk.ebookPrice)}.` : `The paperback is coming soon to Amazon. The ebook is available now as an instant PDF download.`],
+        ["How do I get the ebook?", "Checkout is on Gumroad. You get a download link by email straight away, and the PDF stays in your Gumroad library."]
+      ],
+      finalLine: "Pick a board, follow the trick, and watch everyone reach for their phones.",
+      related: [["Themed charcuterie board ideas", "/blog/themed-charcuterie-board-ideas/"], ["Jack-o'-Lantern charcuterie board", "/blog/jack-o-lantern-charcuterie-board/"], ["Charcuterie gift ideas", "/gifts/charcuterie-books/"]]
     };
     pages.push({ path: b.path, html: page(b) });
   }

@@ -64,6 +64,16 @@ export const KETO_BOOK = {
   paperbackPrice: "$16.99"
 };
 
+// Book 7 (Oct 2026): Gumroad ebook live 19 Oct, Amazon paperback live 23 Oct.
+export const IMPOSSIBLE_BOOK = {
+  title: "Charcuterie Lab: Impossible Boards",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/impossible-boards",
+  ebookPrice: "$12.99",
+  cover: "/images/books/impossible-boards-cover.jpg",
+  paperbackUrl: "https://www.amazon.com/dp/B0HNJJGJTN",
+  paperbackPrice: "$24.99"
+};
+
 export const PLANT_BOOK = {
   title: "Charcuterie Lab: 15 Show-Stopping Plant-Based Boards",
   // Gumroad ebook (PDF) is the main button since 5 Oct 2026; Kindle is the second option.

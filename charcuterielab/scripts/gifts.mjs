@@ -96,10 +96,11 @@ const GUIDES = [
     kicker: "Gift guide · Books",
     description: "The best charcuterie and cheese board books to give in 2026, matched to the person: the host, the beginner, the adventurous eater, the vegan, the keto friend and the cheese nerd.",
     quick: "For most people, give <strong>50 Boards, Built by Science</strong> (paperback $25.99): 50 complete boards, each with a shopping list, amounts and a build order. For an adventurous eater, <strong>Around the World in 16 Boards</strong> ($16.99). For someone who wants to cure their own meat, Ruhlman and Polcyn's <em>Charcuterie</em>.",
-    intro: "A board book is a gift that keeps paying off: the person gets the book, and you get invited to the boards. The best ones tell the reader exactly what to buy and how much, not just what a board looks like in a photo. We wrote six of the books below, and we've put them where they genuinely fit. The other three are the outside books we'd point a friend to.",
+    intro: "A board book is a gift that keeps paying off: the person gets the book, and you get invited to the boards. The best ones tell the reader exactly what to buy and how much, not just what a board looks like in a photo. We wrote seven of the books below, and we've put them where they genuinely fit. The other three are the outside books we'd point a friend to.",
     method: "We wrote the Charcuterie Lab books, so take our ranking of them with that in mind. The other books are researched picks; we have no connection to their authors or publishers.",
     picks: [
       { book: "main", best: "Best overall · the host or the beginner", why: "Fifty complete boards for every occasion, from a $25 budget board to a 30-person showstopper. Every board has the shopping list with amounts, the order to build it and a swap for every ingredient, so the person can make a board the night they open it." },
+      { book: "impossible", best: "Best for the host who loves a showpiece", why: "Twenty-five shaped boards built to make guests ask \"How?\": a salami dragon, a giant octopus, a fondue volcano and a cake made of cheese. Each one has the trick that makes it work, a full shopping list for 12 to 15 and eight build steps. The paperback is the showiest book here to unwrap." },
       { book: "world", best: "Best for the adventurous eater", why: "Sixteen international boards, from a Bavarian beer-hall spread to a Korean BBQ board, each with a shopping list and a prep countdown. Under $17, which makes it the easiest add-on to a bottle of wine." },
       { book: "guide", best: "Best for the cheese nerd", why: "325 ingredients in one book: what each tastes like, what it pairs with and why, and how much to buy. The reference a serious board builder reaches for before a party." },
       { book: "plant", best: "Best for the vegan or vegetarian", why: "Fifteen boards with no meat and no dairy that still look like a full charcuterie spread, with the pairing science behind each one." },
@@ -169,6 +170,7 @@ const GUIDES = [
     method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below.",
     picks: [
       { book: "main", best: "Best overall", why: "Fifty complete boards for the next party they throw. Tie a jar of fig spread to it with ribbon and you have a $33 gift that looks planned." },
+      { book: "impossible", best: "Best for a host who goes all out", why: "Twenty-five showpiece boards, from a pirate ship to Santa's sleigh, each with the one trick that makes it work and a shopping list for 12 to 15. For the friend whose parties everyone photographs." },
       { item: "honeycomb", best: "Best under $20" },
       { item: "marcona", best: "Best edible gift" },
       { item: "figSpread", best: "Best jar, part 1", why: "Start a condiment trio with the jar every board needs. Our top-ranked fig jam." },
@@ -552,7 +554,7 @@ export function giftPages(h, books) {
   <script>(function(){try{var e=document.querySelector("[data-gf-ship]");if(!e)return;var d=new Date(),m=d.getMonth(),n=d.getDate();if(m===11&&n>=26){e.hidden=true;return}if(m===11&&n>=18){e.classList.add("gf-ship-late");e.innerHTML='Too late to ship a paperback? Give the ebook instead: buy it, then forward the download email or print our <a href="/gifts/#gift-card">free gift card</a>.'}}catch(x){}})();</script>`;
 
   function matcher(campaign, compact = false) {
-    const order = ["main", "world", "guide", "plant", "keto", "two"].filter((k) => B[k]);
+    const order = ["main", "impossible", "world", "guide", "plant", "keto", "two"].filter((k) => B[k]);
     if (compact) {
       return `<section class="gf-matcher gf-matcher-compact" aria-labelledby="gf-m-h-${campaign}">
     <h2 id="gf-m-h-${campaign}">Which Charcuterie Lab book for which person?</h2>
