@@ -706,6 +706,9 @@ async function loadPosts() {
         recipe: parseRecipeField(data.recipe),
         // Optional: the board number in 50 Boards Built by Science this post matches
         bookBoard: data.book_board ?? "",
+        // Optional: the id of the H2 section the matched printable card follows
+        // (e.g. a DIY section that the printable completes). Default: before the FAQ.
+        printAfter: data.print_after ?? "",
         body
       };
     })
@@ -2562,7 +2565,10 @@ function funnelPostBody(html, post, bookBoard) {
   if (h2s.length >= 4) parts.splice(h2s[3], 0, promo);
   else parts.push(promo);
   const faqIdx = parts.findIndex((x) => /^<h2[^>]*>\s*(common questions|faq|frequently asked|questions)/i.test(x));
-  if (faqIdx > 0) parts.splice(faqIdx, 0, print);
+  // Headings get their ids later (addTableOfContents), so match on the slug of the heading text.
+  const afterIdx = post.printAfter ? parts.findIndex((x) => { const m = x.match(/^<h2\b[^>]*>([\s\S]*?)<\/h2>/i); return !!m && slugify(m[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim()).slice(0, 60) === post.printAfter; }) : -1;
+  if (afterIdx > 0) parts.splice(afterIdx + 1, 0, print);
+  else if (faqIdx > 0) parts.splice(faqIdx, 0, print);
   else parts.push(print);
   return parts.join("");
 }
