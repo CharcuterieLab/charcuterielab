@@ -110,6 +110,7 @@ Don't cut [burrata](/ingredients/burrata/) until it's on the board: set it whole
 
 ## Related Reading
 
+- [Charcuterie Board Etiquette](/blog/charcuterie-board-etiquette/)
 - [How Many Cheeses for a Charcuterie Board?](/blog/how-many-cheeses/)
 - [Cheeses from Mild to Strong](/blog/cheeses-from-mild-to-strong/)
 - [Cheese and Meat Temperature Guide](/blog/temperature-guide/)

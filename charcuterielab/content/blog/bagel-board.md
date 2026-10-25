@@ -70,6 +70,7 @@ Smoked salmon is perishable, so it's the last thing on the board and the first b
 
 ## Related Reading
 
+- [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)
 - [Charcuterie Board Ideas](/blog/charcuterie-board-ideas/)
 - [Smoked Salmon and Cream Cheese Pairing](/blog/smoked-salmon-cream-cheese-pairing/)
 - [Best Smoked Salmon](/blog/best-smoked-salmon/)

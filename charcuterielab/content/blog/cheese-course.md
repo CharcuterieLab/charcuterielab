@@ -133,6 +133,7 @@ You can have both. Keep the cheese course to three small pieces each and follow 
 
 ## Related Reading
 
+- [Charcuterie Board Etiquette](/blog/charcuterie-board-etiquette/)
 - [Cheeses From Mild to Strong](/blog/cheeses-from-mild-to-strong/)
 - [Pairing by Contrast](/blog/pairing-by-contrast/)
 - [How to Cut Cheese for a Charcuterie Board](/blog/how-to-cut-cheese-charcuterie-board/)

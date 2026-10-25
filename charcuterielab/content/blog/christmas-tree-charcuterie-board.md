@@ -99,6 +99,7 @@ With grocery-store cheese, salami and fruit, the charcuterie tree costs about **
 
 ## Related Reading
 
+- [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)
 - [Christmas Wreath Charcuterie Board](/blog/christmas-wreath-charcuterie-board/)
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Christmas Board Ideas](/holidays/christmas/)
