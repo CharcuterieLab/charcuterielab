@@ -8,7 +8,7 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-25",
   "h1": "Super Bowl Charcuterie Board Ideas",
   "seo_title": "Super Bowl Charcuterie Board Ideas (Football + Snack Stadium)",
   "description": "Super Bowl charcuterie board ideas: a football-shaped board, a snack stadium for a crowd, a halftime Valentine's board, a refill plan, and how much to buy.",
@@ -147,6 +147,14 @@
     {
       "q": "How long can a game-day board sit out?",
       "a": "No more than 2 hours for anything perishable (1 hour above 90°F). A game runs longer than that, so build the board at kickoff and swap in a refill tray from the fridge at halftime."
+    },
+    {
+      "q": "How much does a Super Bowl charcuterie board cost?",
+      "a": "As the party food, plan about $5 to $7 per guest on a budget and $8 to $12 for a standard board, so roughly $100 to $140 or $160 to $240 for 20 guests. Splurge cheeses and meats cost more. Store and region change the total."
+    },
+    {
+      "q": "How far ahead can I make a Super Bowl charcuterie board?",
+      "a": "Shop for crackers, nuts and jars a week ahead and for cheese, meat and fruit 2 days ahead. The morning of, slice the cheese and fold the meats, then cover and chill. Build the board in the last hour before kickoff, with a second tray chilled for halftime, adding crackers last so they stay crisp."
     }
   ],
   "read": [
@@ -155,5 +163,17 @@
     "charcuterie-board-dips",
     "beer-pairing",
     "charcuterie-cups"
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "1 week: chips, pretzels, crackers, nuts, jarred dips and pickles",
+      "2 days: homemade dips",
+      "The morning of: cube cheese, fold meats, cut vegetables and pack a halftime refill tray; cover and chill"
+    ],
+    "last": [
+      "Build the board in the hour before kickoff",
+      "Swap in the refill tray at halftime",
+      "Chips and crackers go on last so they stay crisp"
+    ]
+  }
 }

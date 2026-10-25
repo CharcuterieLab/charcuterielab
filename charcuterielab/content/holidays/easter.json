@@ -8,7 +8,7 @@
   "season": "Spring",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-25",
   "h1": "Easter Charcuterie Board Ideas",
   "seo_title": "Easter Charcuterie Board Ideas (Nest, Egg + Brunch)",
   "description": "Easter charcuterie board ideas: an Easter brunch board with ham, a bird's-nest board, an egg-shaped board, a pastel board for kids, and how much to buy.",
@@ -145,11 +145,31 @@
     {
       "q": "What cheese is good for an Easter board?",
       "a": "Mild, fresh-tasting cheeses suit spring: Brie, Havarti, fresh goat cheese and a young cheddar. Add one aged cheese for contrast."
+    },
+    {
+      "q": "How much does an Easter charcuterie board cost?",
+      "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
+    },
+    {
+      "q": "How far ahead can I make an Easter charcuterie board?",
+      "a": "Shop for crackers, nuts and jars a week ahead and for cheese, meat and fruit 2 days ahead. The morning of, slice the cheese and fold the meats, then cover and chill. Build the board in the last hour, with the deviled eggs on a chilled plate added last, adding crackers last so they stay crisp."
     }
   ],
   "read": [
     "charcuterie-board-for-kids",
     "charcuterie-board-fruit",
     "easy-charcuterie-board"
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "1 week: crackers, candy, nuts and jarred items",
+      "1 day: hard-boil the eggs and make the deviled egg filling",
+      "The morning of: slice ham and cheese, wash fruit, fill the deviled eggs and chill"
+    ],
+    "last": [
+      "Put deviled eggs out last, on a chilled plate",
+      "Take hard cheese out an hour before; soft cheese 20 to 30 minutes",
+      "Crackers on just before serving"
+    ]
+  }
 }

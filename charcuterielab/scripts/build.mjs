@@ -2964,7 +2964,7 @@ async function build() {
       const st = STORE_POSTS[post.slug];
       if (st && postSet.has(st)) items.push(`<a href="/blog/${st}/"><span class="bn-k">Shopping list</span><strong>${escapeHtml(titleOf.get(st))}</strong><span>The whole cart, with prices</span></a>`);
       if (ings[0]) items.push(`<a href="/ingredients/${ings[0]}/"><span class="bn-k">Pairing guide</span><strong>What goes with ${escapeHtml(ingBy.get(ings[0]).title.toLowerCase().replace(/^\w/, (c) => c.toUpperCase()))}</strong><span>Pairings, prep and how to serve it</span></a>`);
-      items.push(`<a href="/party-planner/"><span class="bn-k">Free tool</span><strong>How much to buy</strong><span>Amounts for 4 to 100 guests</span></a>`);
+      items.push(`<a href="/party-planner/"><span class="bn-k">Free tool</span><strong>How much to buy</strong><span>Amounts for 4 to 200 guests</span></a>`);
       BEST_NEXT.set(post.slug, `<section class="best-next" aria-labelledby="best-next-h">
     <h2 id="best-next-h">Put the winners to work</h2>
     <div class="best-next-grid">${items.slice(0, 4).join("")}</div>

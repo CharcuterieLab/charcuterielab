@@ -105,12 +105,28 @@
   "faq": [
    {
     "q": "What meat goes with Gruyère?",
-    "a": "Cooked ham, speck and dried beef like Bündnerfleisch."
+    "a": "Cooked ham is the classic, along with speck and air-dried beef like Bündnerfleisch. The mild, salty meat lets Gruyère's nutty flavor lead."
    },
    {
     "q": "What wine goes with Gruyère?",
-    "a": "Pinot Noir, Chardonnay or a dry Alpine white. Lager and dry cider work too."
+    "a": "Pinot Noir is the classic, with Chardonnay or a dry Alpine or Alsatian white like Riesling close behind. A crisp lager or dry hard cider works well too."
+   },
+   {
+    "q": "What fruit goes with Gruyère?",
+    "a": "Crisp apples and pears, whose juice and acid cut the richness. Grapes, dried figs and apricots work too, and onion jam is a savory-sweet option worth trying."
+   },
+   {
+    "q": "Is Gruyère good for a charcuterie board?",
+    "a": "Yes. It slices cleanly, most guests like it, and its nutty flavor stands up to ham, mustard and pickles. Pick an aged or reserve wedge if you want more depth."
    }
+  ],
+  "serve": [
+   "Cut Gruyère into thin slices or short batons; it's firm enough to hold its shape. Take it out 30 to 45 minutes before serving, or closer to an hour for an aged (reserve) wedge, so the nutty, brothy flavor opens up.",
+   "Build an Alpine corner around it: a few slices of cooked ham or speck, cornichons, a spoon of Dijon mustard, toasted hazelnuts and sliced baguette. With three cheeses on the board, about 1 oz of Gruyère per guest is plenty."
+  ],
+  "guide": [
+   "Which Gruyère to buy: our ranking of Gruyère brands",
+   "/blog/best-gruyere-brands/"
   ]
  },
  {
@@ -238,12 +254,28 @@
   "faq": [
    {
     "q": "How long can burrata sit out?",
-    "a": "Serve it cold and set out no more than about an hour before eating; it's a fresh cheese."
+    "a": "Take it out 15 to 20 minutes before serving so it isn't fridge-cold, and eat it within 2 hours of setting it out, or 1 hour above 90°F. It's a fresh cheese, so don't put leftovers back for later."
    },
    {
     "q": "What wine goes with burrata?",
-    "a": "Dry rosé, Sauvignon Blanc or Prosecco."
+    "a": "Dry rosé, Sauvignon Blanc or Prosecco: light, cold and high in acid, to cut the cream. A soft wheat beer works too."
+   },
+   {
+    "q": "Do you eat the outside of burrata?",
+    "a": "Yes. The outer shell is fresh mozzarella and the center is stracciatella, shreds of mozzarella soaked in cream. Cut or tear through both and eat them together."
+   },
+   {
+    "q": "What fruit goes with burrata?",
+    "a": "Ripe peaches, tomatoes and figs in summer, and blood oranges, grapefruit and pears in winter. A drizzle of hot honey or balsamic glaze adds contrast."
    }
+  ],
+  "serve": [
+   "Serve burrata whole in a shallow bowl, not straight on the wood, because the creamy center runs. Take it out 15 to 20 minutes before serving, then tear it open at the table, drizzle with olive oil and finish with flaky salt and torn basil.",
+   "Surround it with prosciutto, ripe tomatoes or peaches in season, and something to scoop with, like toasted ciabatta or olive oil crackers. One 4 oz ball serves about 3 to 4 people as part of a board. Eat it within 2 hours of setting it out, or 1 hour above 90°F."
+  ],
+  "guide": [
+   "Which burrata to buy: our ranking of grocery store burrata",
+   "/blog/best-burrata/"
   ]
  },
  {
@@ -352,12 +384,28 @@
   "faq": [
    {
     "q": "Spanish or Mexican chorizo for a board?",
-    "a": "Spanish: it's cured and sliceable. Mexican chorizo is raw and must be cooked."
+    "a": "Spanish. It's cured and dried, so you can slice it and eat it as is, which is what a board needs. Mexican chorizo is fresh, raw ground pork that has to be cooked first. Use it in a warm queso fundido or tacos instead."
    },
    {
     "q": "What wine goes with chorizo?",
-    "a": "Rioja, Malbec or dry rosé."
+    "a": "A Spanish red like Rioja or Tempranillo, a Malbec, or a dry rosé, whose acid handles the paprika heat. For something lighter, a dry hard cider works well."
+   },
+   {
+    "q": "What cheese goes with chorizo?",
+    "a": "Manchego is the classic: its nutty sheep's milk flavor softens the smoke and paprika. Mahón and Idiazábal are other Spanish matches, and pepper Jack fits a Tex-Mex board."
+   },
+   {
+    "q": "Do you eat the casing on chorizo?",
+    "a": "Natural casings on Spanish chorizo are edible but can be chewy. Many packaged chorizos use a plastic or fibrous casing that isn't meant to be eaten. If it peels away easily or feels tough, remove it before slicing."
    }
+  ],
+  "serve": [
+   "Use Spanish-style cured chorizo, the firm, dry sausage you can slice and eat as is. Fresh Mexican chorizo is raw and needs cooking, so save it for queso fundido. Peel the casing if it's tough or plastic, then slice the sausage thin on a slight angle so every round is one bite.",
+   "Take it out of the fridge about 20 minutes before guests arrive so the fat softens and the paprika comes through. Count it toward the 2 to 3 oz of cured meat per guest on an appetizer board, and set it right next to Manchego and a small dish of membrillo so guests stack all three."
+  ],
+  "guide": [
+   "Which chorizo to buy: our ranking of Spanish chorizo brands",
+   "/blog/best-spanish-chorizo/"
   ]
  },
  {
@@ -409,12 +457,28 @@
   "faq": [
    {
     "q": "What cheese goes with fig jam?",
-    "a": "Brie, Manchego, goat cheese and blue cheese."
+    "a": "Brie and other soft-ripened cheeses first, then Manchego, fresh goat cheese and blue cheeses like Gorgonzola. Fig's dense sweetness balances both creamy and salty cheese."
    },
    {
     "q": "How much fig jam for a board?",
-    "a": "One small bowl, about 1/4 cup per 6 guests."
+    "a": "One small bowl, about a quarter cup per 6 guests. People use less than you'd think, because a little goes on each cracker."
+   },
+   {
+    "q": "What goes with fig jam besides cheese?",
+    "a": "Prosciutto and other cured ham, walnuts and pecans, sliced apples and pears, and baked brie. It also works as a glaze for pork or a layer in a grilled cheese."
+   },
+   {
+    "q": "What's the best fig jam for a charcuterie board?",
+    "a": "Our top pick is Dalmatia Original Fig Spread. Bonne Maman Fig Preserves is the best value, and it's easy to find in most supermarkets."
    }
+  ],
+  "serve": [
+   "Spoon it into a small bowl with its own spreader and set it between the brie and the blue cheese, the two cheeses it helps most. About a quarter cup covers 6 guests. Serve it with plain water crackers or sliced baguette so the jam is the flavor, not the cracker.",
+   "To drink, think sweet against salt: a tawny port with blue cheese and fig, or a dry sparkling wine with brie and prosciutto. Walnuts or pecans on the side add the crunch the jam is missing."
+  ],
+  "guide": [
+   "Which fig jam to buy: our ranking of fig jams and spreads",
+   "/blog/best-fig-jam/"
   ]
  },
  {

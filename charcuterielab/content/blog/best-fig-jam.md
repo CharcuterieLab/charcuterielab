@@ -68,7 +68,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 <ul class="sk-checks"><li><strong>Look for:</strong> Figs should be the first ingredient, not sugar or glucose syrup. A jar where sugar leads will be sweet and thin.</li><li class="sk-x"><strong>Skip:</strong> Fig-flavored jelly with no visible seeds. The seeds are half the point.</li></ul>
 :::
 
-For what fig jam pairs with and how to serve it, see the [fig jam guide](/ingredients/fig-jam/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For what fig jam pairs with and how to serve it, see the [fig jam guide](/ingredients/fig-jam/). What goes with fig jam? See the [fig jam pairing guide](/pairings/food/fig-jam/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Fig jam questions</h2>

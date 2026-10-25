@@ -90,6 +90,8 @@ flavors." The good versions taste like the ingredients they name.
 **Skip:** the dessert and fruit-flavored versions on a savory board. And skip
 buying two flavors — one garlic-forward cheese per board is the limit.
 
+**Our buyer's guide:** Boursin is the original, Alouette the closest dupe and Aldi's Emporium Selection the cheapest. See [the best herb cheese spreads](/blog/best-herb-cheese-spreads/).
+
 ## Quick FAQ
 
 **Is Boursin a real cheese?**

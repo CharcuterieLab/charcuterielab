@@ -228,9 +228,13 @@
     {
       "q": "What's a good vegan Thanksgiving charcuterie board?",
       "a": "Cashew cheese, a pumpkin seed dip, roasted squash, apples, candied pecans, dried cranberries and fig jam. The Vegan Fall Harvest Board above has the full list."
+    },
+    {
+      "q": "How much does a Thanksgiving charcuterie board cost?",
+      "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
     }
   ],
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "mistakes": [
     {
       "lead": "Making the board too big.",
@@ -248,5 +252,19 @@
       "lead": "Forgetting the guests who skip meat or dairy.",
       "text": "One small vegan or vegetarian board, or a clearly labeled section, saves a lot of questions at the table."
     }
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "Up to 3 days: a cheese ball, wrapped tightly and chilled",
+      "2 days: dips and spreads; toasted or candied nuts in an airtight jar",
+      "The night before: slice firm cheeses and fold the meats, then cover and chill",
+      "The night before: wash and dry the grapes"
+    ],
+    "last": [
+      "Bake any warm brie before the turkey takes the oven",
+      "Slice apples and pears last so they don't brown",
+      "Take soft cheese out only 20 to 30 minutes ahead",
+      "Add crackers just before the board goes out"
+    ]
+  }
 }

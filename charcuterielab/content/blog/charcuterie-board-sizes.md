@@ -24,7 +24,7 @@ tags: "["charcuterie board sizes", "charcuterie board", "board building"]"
 <nav class="sk-jump" aria-label="On this page"><a href="#guests">By guest count</a><a href="#coverage">80% rule</a><a href="#material">Material</a><a href="#shape">Shape</a><a href="#faq">FAQ</a></nav>
 :::
 
-> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
 **Why size matters:** too small and you end up stacking, so guests can't see or reach what's at the back. Too big and the board looks half-finished. Pick the size before you shop, then buy food to fill it.
 

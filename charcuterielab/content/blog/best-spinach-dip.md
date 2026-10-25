@@ -97,7 +97,7 @@ Spinach dip, with or without artichoke, is the creamy dip that disappears first 
 :::
 
 **Serving it:** cold dips should stay in the fridge until guests arrive and come off the table after 2 hours. Serve warm dips in a small oven-safe dish or mini slow cooker. Put out sturdy dippers: pita chips, tortilla chips, baguette slices, carrots and bell pepper strips.
-For what spinach dip pairs with and how to serve it, see the [charcuterie board dips guide](/blog/charcuterie-board-dips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For what spinach dip pairs with and how to serve it, see the [charcuterie board dips guide](/blog/charcuterie-board-dips/). For the jar itself, see [the best marinated artichoke hearts](/blog/best-marinated-artichoke-hearts/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Spinach dip questions</h2>

@@ -3,8 +3,8 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 70 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
-description: "All 70 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
+excerpt: "All 87 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
+description: "All 87 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
@@ -40,6 +40,8 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Havarti to Buy](/blog/best-havarti-brands/) | Buholzer Brothers Havarti | Buyer's guide (unscored) |
 | [Best Provolone for a Charcuterie Board](/blog/best-provolone-brands/) | Boar's Head Picante Provolone | ★★★★½ 4.7 |
 | [Best Pepper Jack Cheese](/blog/best-pepper-jack/) | Cabot Pepper Jack | ★★★★½ 4.7 |
+| [Best Boursin-Style Herb Cheese Spreads](/blog/best-herb-cheese-spreads/) | Boursin Garlic & Fine Herbs | Buyer's guide (unscored) |
+| [Best Store-Bought Cheese Balls](/blog/best-store-bought-cheese-balls/) | Kaukauna Port Wine Cheese Ball | Buyer's guide (unscored) |
 
 ## Cured meat and smoked fish
 
@@ -99,6 +101,8 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Marcona Almonds for a Charcuterie Board](/blog/best-marcona-almonds/) | Trader Joe's Roasted & Salted Rosemary Marcona Almonds | ★★★★½ 4.5 |
 | [Best Pickles for a Charcuterie Board (Plus Cornichons)](/blog/best-pickles-for-charcuterie/) | Mt. Olive Kosher Baby Dills | ★★★★½ 4.5 |
 | [Best Mixed Nuts for a Charcuterie Board](/blog/best-mixed-nuts/) | Kirkland Signature Extra Fancy Salted Mixed Nuts | ★★★★½ 4.5 |
+| [Best Cornichons for a Charcuterie Board](/blog/best-cornichons/) | Maille Original Cornichons | Buyer's guide (unscored) |
+| [Best Jarred Marinated Artichoke Hearts](/blog/best-marinated-artichoke-hearts/) | Napoleon Marinated Grilled Artichokes | Buyer's guide (Sporked test) |
 
 ## Sweets
 
@@ -106,6 +110,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 |---|---|---|
 | [Best Dark Chocolate for a Charcuterie Board](/blog/best-dark-chocolate/) | Tony's Chocolonely Dark Chocolate 70% | ★★★★½ 4.4 |
 | [Best Store-Bought Shortbread for a Dessert Board](/blog/best-shortbread/) | Walkers Pure Butter Shortbread | ★★★★½ 4.5 |
+| [Best Medjool Dates for a Charcuterie Board](/blog/best-medjool-dates/) | Costco Medjool Dates (value) | Buyer's guide (unscored) |
 
 ## Drinks
 
@@ -213,7 +218,7 @@ Every product gets a score from 1 to 5 on five things, weighted into one overall
 
 **Researched, not taste-tested (yet).** These rankings come from published taste tests (from outlets like Tasting Table, Sporked, Daily Meal and The Kitchn), award results, ingredient labels and prices. We have not tasted every product side by side. When we taste-test a category ourselves, that guide will say Tested. Each guide lists its sources.
 
-**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, capicola, pâté, quince paste, and the Sprouts and Lidl store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
+**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, capicola, pâté, quince paste, cornichons, Medjool dates, herb cheese spreads, cheese balls, and the Sprouts and Lidl store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
 
 **Updated regularly.** Products change recipes, prices move and stores change what they stock. Each guide shows when it was last checked.
 

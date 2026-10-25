@@ -9,10 +9,10 @@ import { bhForm } from "./funnel.mjs";
 
 // Dates for the byline and schema. Bump UPDATED when the amounts or plans change.
 export const PUBLISHED = "2026-09-25";
-export const UPDATED = "2026-09-26";
+export const UPDATED = "2026-10-25";
 const dated = (h) => (h.authorRef ? { author: h.authorRef, datePublished: PUBLISHED, dateModified: UPDATED } : {});
 const bylineHtml = (h) => (h.byline ? `<p class="pp-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(UPDATED)}` : "")}</p>` : "");
-export const COUNTS = [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 100];
+export const COUNTS = [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 75, 100, 150, 200];
 
 export const MODES = {
   app: { label: "Appetizer", long: "Appetizer (a meal follows)", meat: 2, cheese: 2, crackers: [6, 8], fruit: 2, nuts: 0.5, briny: 1, budget: 1 },
@@ -26,7 +26,7 @@ export const MODES = {
 const BUDGET = [["Budget", 3, 4], ["Standard", 5, 7], ["Splurge", 13, 20]];
 
 // Book board to build for each guest count (serving sizes as printed in the book).
-export const BOARD_FOR = { 4: 21, 6: 13, 8: 1, 10: 1, 12: 6, 15: 6, 20: 30, 25: 30, 30: 49, 40: 49, 50: 49, 100: 49 };
+export const BOARD_FOR = { 4: 21, 6: 13, 8: 1, 10: 1, 12: 6, 15: 6, 20: 30, 25: 30, 30: 49, 40: 49, 50: 49, 75: 49, 100: 49, 150: 49, 200: 49 };
 
 export const slugFor = (n) => `charcuterie-board-for-${n}-people`;
 export const urlFor = (n) => `/party-planner/${slugFor(n)}/`;
@@ -135,6 +135,25 @@ function faqSchema(h, list) {
   return `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: list.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`;
 }
 
+// Where to shop: picks from our store guides, priced with the same level estimates as the cost table.
+const STORES = [
+  { name: "Aldi", tag: "Lowest cost", level: [0, 0], url: "/blog/best-aldi-charcuterie-items/",
+    picks: ["Emporium Selection Not Your Average Cheddar", "Emporium Selection Double Crème Brie", "Appleton Farms Prosciutto"],
+    note: () => "Aldi's own-brand cheeses and meats keep a board at the budget end." },
+  { name: "Costco", tag: "Best for big groups", level: [0, 1], url: "/blog/best-costco-charcuterie-items/",
+    picks: ["Kirkland Signature Manchego", "Columbus Salame", "Crunchmaster Multi-Seed crackers"],
+    note: (n) => n >= 20 ? "At this size the big packs get used up, so the low price per pound pays off." : "The packs are big for a small group, so buy two or three items here and the rest elsewhere." },
+  { name: "Trader Joe's", tag: "Most variety", level: [1, 1], url: "/blog/best-trader-joes-charcuterie-items/",
+    picks: ["Unexpected Cheddar", "Triple Crème Brie", "Salame di Parma", "Fig Butter"],
+    note: () => "Small packs and unusual cheeses make a standard board easy without a deli counter." }
+];
+function storeCards(h, n, p, mode) {
+  const range = (lv) => `$${p.budget[lv[0]][1]}–$${p.budget[lv[1]][2]}`;
+  return `<h3 class="pp-store-h">Where to shop for ${n} people</h3>
+    <div class="pp-stores">${STORES.map((s) => `<div class="pp-store"><p class="pp-store-tag">${h.escapeHtml(s.tag)}</p><h4>${h.escapeHtml(s.name)}</h4><p class="pp-store-cost"><strong>About ${range(s.level)}</strong> ${mode === "main" ? "as the party food" : "as an appetizer"}</p><ul>${s.picks.map((x) => `<li>${h.escapeHtml(x)}</li>`).join("")}</ul><p class="pp-store-note">${h.escapeHtml(s.note(n))}</p><a href="${s.url}">Our ${h.escapeHtml(s.name)} picks</a></div>`).join("")}</div>
+    <p class="bl-note">Store ranges use the budget and standard estimates above; they aren't store quotes. Picks come from our store buying guides.</p>`;
+}
+
 export function partyPage(h, n, { bookBoards, libraryByNumber, known, builderLink }) {
   const P = { app: plan(n, "app"), main: plan(n, "main"), meal: plan(n, "meal") };
   const dm = defaultMode(n);
@@ -195,7 +214,8 @@ ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}
       <thead><tr><th scope="col">Level</th>${Object.values(MODES).map((m) => `<th scope="col">${h.escapeHtml(m.label)}</th>`).join("")}</tr></thead>
       <tbody>${BUDGET.map(([name], r) => `<tr><th scope="row">${name}</th>${Object.keys(MODES).map((k) => `<td>$${P[k].budget[r][1]}–$${P[k].budget[r][2]}</td>`).join("")}</tr>`).join("")}</tbody>
     </table>
-    <p class="bl-note">Estimates for the food only, scaled from the costs of the boards in our book. Store, region and season all change the total.</p>
+    <p class="bl-note">Estimates for the food only, scaled from the costs of the boards in our book. Store, region and season all change the total. <a href="/blog/how-much-does-a-charcuterie-board-cost/">What a charcuterie board really costs</a>.</p>
+    ${storeCards(h, n, P[dm], dm)}
   </section>
 
   <section class="pp-section" aria-labelledby="pp-setup">
@@ -215,7 +235,7 @@ ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}
   <section class="pp-section" aria-labelledby="pp-near">
     <h2 id="pp-near">Other guest counts</h2>
     <ul class="pp-counts">${COUNTS.map((c) => `<li>${c === n ? `<span aria-current="page">${c}</span>` : `<a href="${urlFor(c)}">${c}</a>`}</li>`).join("")}</ul>
-    <p class="bl-note">${near.map((c) => `Hosting ${c} instead? <a href="${urlFor(c)}">See the plan for ${c}</a>.`).join(" ")}</p>
+    <p class="bl-note">${near.map((c) => `Hosting ${c} instead? <a href="${urlFor(c)}">See the plan for ${c}</a>.`).join(" ")}${n >= 50 ? ` Planning a wedding? See <a href="/blog/wedding-charcuterie-grazing-table/">how much charcuterie for a wedding of 50 to 200</a>.` : ""}</p>
   </section>
 
   ${printCard}
@@ -240,10 +260,10 @@ export function partyHub(h, { bookBoards }) {
   const chart = COUNTS.map((n) => ({ n, p: plan(n, defaultMode(n)), a: plan(n, "app") }));
   const data = JSON.stringify({ modes: MODES, counts: COUNTS });
   return h.layout({
-    title: "How Much Charcuterie Do I Need? Party Planner, 4–100 Guests",
+    title: "How Much Charcuterie Do I Need? Party Planner, 4–200 Guests",
     canonical: "/party-planner/",
     image: "/images/how-much-charcuterie-per-person.webp",
-    description: `How much charcuterie you need: ${MODES.app.meat} oz each of meat and cheese per guest before a meal, ${MODES.main.meat} oz as the party food. Plans for 4 to 100 guests.`,
+    description: `How much charcuterie you need: ${MODES.app.meat} oz each of meat and cheese per guest before a meal, ${MODES.main.meat} oz as the party food. Plans for 4 to 200 guests.`,
     head: `${faqSchema(h, hubFaq)}
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie board plans by guest count", ...dated(h), itemListElement: COUNTS.map((n, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(urlFor(n)), name: `Charcuterie board for ${n} people` })) })}</script>`,
     body: `<main class="pp-main">
@@ -268,7 +288,7 @@ export function partyHub(h, { bookBoards }) {
   </section>
 
   <section class="pp-section" aria-labelledby="pp-chart">
-    <h2 id="pp-chart">Quick chart: how much for 4 to 100 guests</h2>
+    <h2 id="pp-chart">Quick chart: how much for 4 to 200 guests</h2>
     <div class="pp-scroll"><table class="pp-table pp-chart">
       <thead><tr><th scope="col">Guests</th><th scope="col">Meat</th><th scope="col">Cheese</th><th scope="col">Crackers</th><th scope="col">Setup</th><th scope="col">Plan</th></tr></thead>
       <tbody>${chart.map(({ n, a }) => `<tr><th scope="row">${n}</th><td>${a.meat}</td><td>${a.cheese}</td><td>${a.crackers[0]}–${a.crackers[1]}</td><td>${h.escapeHtml(a.setup)}</td><td><a href="${urlFor(n)}">For ${n} &rarr;</a></td></tr>`).join("")}</tbody>

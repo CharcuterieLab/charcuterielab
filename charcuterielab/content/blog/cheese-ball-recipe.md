@@ -84,6 +84,7 @@ Sturdy crackers are the key; a firm, cold cheese ball snaps thin crackers. Good 
 
 ## Related Reading
 
+- [No time? The Best Store-Bought Cheese Balls](/blog/best-store-bought-cheese-balls/)
 - [Baked Brie Recipe](/blog/baked-brie-recipe/)
 - [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
 - [Pimento Cheese: Best Brands](/blog/best-pimento-cheese/)

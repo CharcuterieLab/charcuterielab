@@ -88,7 +88,7 @@ On a board, cream cheese has one famous job: a block topped with pepper jelly, s
 :::
 
 **Serving it:** set an 8 oz brick on a small plate, spoon pepper jelly or hot honey over it, and surround it with butter crackers. Cream cheese is a fresh cheese: take it out 15 to 20 minutes before serving and don't leave it out more than 2 hours.
-For what cream cheese pairs with and how to serve it, see the [cream cheese guide](/ingredients/cream-cheese/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For what cream cheese pairs with and how to serve it, see the [cream cheese guide](/ingredients/cream-cheese/). For garlic and herb spreads, see [the best Boursin-style cheese spreads](/blog/best-herb-cheese-spreads/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Cream cheese questions</h2>

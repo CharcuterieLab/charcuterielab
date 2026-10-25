@@ -256,9 +256,13 @@
     {
       "q": "What's a good Christmas morning board?",
       "a": "A bagel board: bagels, two or three cream cheeses, smoked salmon, capers, red onion, tomato and fruit. Set out everything but the fresh items the night before."
+    },
+    {
+      "q": "How much does a Christmas charcuterie board cost?",
+      "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
     }
   ],
-  "updated": "2026-10-18",
+  "updated": "2026-10-25",
   "read": [
     "charcuterie-cups"
   ],
@@ -279,5 +283,19 @@
       "lead": "No board for the kids.",
       "text": "A hot cocoa board or a candy board keeps the kids away from the expensive cheese."
     }
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "Up to a week: candied nuts and crackers, in airtight containers",
+      "Up to 3 days: a cheese ball, wrapped tightly and chilled",
+      "2 days: rinse and dry rosemary and cranberries for the garnish",
+      "The morning of: cut cheese, fold meats and make skewers; cover and chill"
+    ],
+    "last": [
+      "Build a wreath or tree board within the last hour, up to 4 hours ahead if it's covered and chilled",
+      "Slice apples and pears last",
+      "Soft cheese out only 20 to 30 minutes before",
+      "Crackers on just before serving"
+    ]
+  }
 }

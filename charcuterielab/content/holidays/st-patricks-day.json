@@ -8,7 +8,7 @@
   "season": "Spring",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-25",
   "h1": "St. Patrick's Day Charcuterie Board Ideas",
   "seo_title": "St. Patrick's Day Charcuterie Board Ideas (Irish + Green)",
   "description": "St. Patrick's Day charcuterie board ideas: an Irish pub board with cheddar and stout, a shamrock board, an all-green board, a rainbow board for kids, and how much to buy.",
@@ -138,11 +138,30 @@
     {
       "q": "How much should I buy for a St. Patrick's Day party?",
       "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%."
+    },
+    {
+      "q": "How much does a St. Patrick's Day charcuterie board cost?",
+      "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
+    },
+    {
+      "q": "How far ahead can I make a St. Patrick's Day charcuterie board?",
+      "a": "Shop for crackers, nuts and jars a week ahead and for cheese, meat and fruit 2 days ahead. The morning of, slice the cheese and fold the meats, then cover and chill. Build the board in the last hour, adding crackers last so they stay crisp."
     }
   ],
   "read": [
     "beer-pairing",
     "aged-cheddar",
     "aged-cheddar-charcuterie-board"
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "1 week: crackers, oatcakes, mustard, pickles and the stout or cider",
+      "The morning of: slice the ham and cheese, wash the fruit and fill the bowls; cover and chill"
+    ],
+    "last": [
+      "Take the Irish cheddar out an hour before so it softens",
+      "Build the board in the last hour",
+      "Soda bread and crackers go on last"
+    ]
+  }
 }

@@ -9,7 +9,7 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-19",
+  "updated": "2026-10-25",
   "h1": "Hanukkah Charcuterie Board Ideas",
   "seo_title": "Hanukkah Charcuterie Board Ideas: 7 Kosher-Style Boards",
   "description": "7 Hanukkah charcuterie board ideas, kosher-style: a latke and lox board, a deli meat board, a bagel brunch board, a blue-and-white cheese board, a pareve mezze board, party cups and a gelt dessert board.",
@@ -189,6 +189,14 @@
     {
       "q": "What's a good Hanukkah brunch board?",
       "a": "A bagel and lox board: bagels, cream cheeses, smoked salmon, capers, red onion, tomato and cucumber, with fruit and latkes on the side. It's a dairy board, so leave off any meat."
+    },
+    {
+      "q": "How much does a Hanukkah charcuterie board cost?",
+      "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
+    },
+    {
+      "q": "How far ahead can I make a Hanukkah charcuterie board?",
+      "a": "Shop for crackers, nuts and jars a week ahead and for cheese, meat and fruit 2 days ahead. The morning of, slice the cheese and fold the meats, then cover and chill. Build the board in the last hour, reheating the latkes at 375°F for 8 to 10 minutes and adding them last, adding crackers last so they stay crisp."
     }
   ],
   "read": [
@@ -215,5 +223,17 @@
       "lead": "Guessing what strictly kosher guests need.",
       "text": "Ask which certifications they use, and serve on new or dedicated boards and knives."
     }
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "2 weeks: settle dairy or meat, and check which kosher certifications guests need",
+      "1 week: gelt, crackers, nuts, dried fruit and jars",
+      "The morning of: fry the latkes and cool them on a rack; slice fruit and cucumbers; fill the bowls"
+    ],
+    "last": [
+      "Reheat the latkes at 375°F for 8 to 10 minutes and add them last",
+      "Smoked salmon stays in the fridge until the board goes out",
+      "Crackers on just before serving"
+    ]
+  }
 }

@@ -84,6 +84,8 @@ ingredients.
 
 **Ranked picks:** our top cornichon pick is **Maille Cornichons Original**, and our top-rated pickle overall is **Mt. Olive Kosher Baby Dills** (4.5 out of 5). See [the full ranking of the best pickles](/blog/best-pickles-for-charcuterie/).
 
+**Our buyer's guide:** Maille is our everyday cornichon pick, Trader Joe's the cheapest and Edmond Fallot the splurge. See [the best cornichons](/blog/best-cornichons/).
+
 ## Quick FAQ
 
 **What are cornichons?**

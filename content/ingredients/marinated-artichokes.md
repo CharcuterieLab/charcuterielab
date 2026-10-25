@@ -83,6 +83,8 @@ citric acid — a little is normal, a lot means they'll taste sour.
 
 **Ranked picks:** for a creamy dip, our top-rated store-bought spinach artichoke dip is **Marketside Spinach & Artichoke** (4.7 out of 5). See [the full ranking of the best spinach dip](/blog/best-spinach-dip/).
 
+**Our buyer's guide:** Napoleon Grilled scored 10/10 in Sporked's test, Mezzetta 9.5. See [the best jarred artichoke hearts](/blog/best-marinated-artichoke-hearts/).
+
 ## Quick FAQ
 
 **Are marinated artichokes good on a charcuterie board?**

@@ -8,7 +8,7 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-05",
+  "updated": "2026-10-25",
   "h1": "Valentine's Day Charcuterie Board Ideas",
   "seo_title": "Valentine's Day Charcuterie Board Ideas (For Two + Galentine's)",
   "description": "Valentine's Day charcuterie board ideas: a heart-shaped board for two, a salami rose, a chocolate dessert board, a Galentine's board for friends, and how much to buy.",
@@ -135,6 +135,14 @@
     {
       "q": "What goes on a Galentine's Day board?",
       "a": "Pretty, shareable things: whipped feta or burrata, prosciutto, pink grapefruit and strawberries, pistachios, shortbread or pink cookies, and a sparkling drink. Plan about 2 oz each of cheese and meat per guest if there's other food, 3 oz if the board is the party."
+    },
+    {
+      "q": "How much does a Valentine's Day charcuterie board for two cost?",
+      "a": "A date-night board for two runs about $35 to $55 with two cheeses, two meats, berries and chocolate. A splurge cheese, prosciutto di Parma or a bottle of Champagne adds to that."
+    },
+    {
+      "q": "How far ahead can I make a Valentine's charcuterie board?",
+      "a": "Shop for crackers, nuts and jars a week ahead and for cheese, meat and fruit 2 days ahead. The morning of, slice the cheese and fold the meats, then cover and chill. Build the board in the last hour, taking the Gouda out an hour ahead and the brie 30 minutes later, adding crackers last so they stay crisp."
     }
   ],
   "read": [
@@ -142,5 +150,17 @@
     "charcuterie-board-chocolate",
     "prosciutto-rose",
     "dessert-board"
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "1 week: chocolate, crackers, jam and the wine",
+      "2 days: buy the cheese, meat and berries, and chill the wine",
+      "The morning of: wash and dry the berries and make the salami rose; cover and chill"
+    ],
+    "last": [
+      "Take aged Gouda out an hour before and brie 30 minutes later",
+      "Cut a heart into the brie just before it goes out",
+      "Crackers on last"
+    ]
+  }
 }

@@ -88,7 +88,7 @@ Gruyère is the nutty, crystal-flecked alpine cheese that makes a board taste ex
 :::
 
 **Serving it:** take Gruyère out of the fridge 30 to 45 minutes before serving. Cut it into thin batons or shards rather than cubes, and plan on about 1 oz per person when it's one of three cheeses.
-For what Gruyère pairs with and how to serve it, see the [Gruyère guide](/ingredients/gruyere/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For what Gruyère pairs with and how to serve it, see the [Gruyère guide](/ingredients/gruyere/). What goes with Gruyère? See the [Gruyère pairing guide](/pairings/food/gruyere/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Gruyère questions</h2>

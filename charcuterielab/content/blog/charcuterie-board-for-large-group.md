@@ -18,7 +18,7 @@ Here's how to scale a board for a large group without running out of food, creat
 
 > **Quick Answer:** For a large group appetizer board, plan 2 oz meat and 2 oz cheese per person (3 oz each if the board is the party food), add a 10% buffer, use 2–3 meat varieties and 3–4 cheese types, and build multiple stations rather than one oversized board. Multiple access points move guests faster and keep the spread looking fresh longer.
 
-> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
 ## The Quantity Formula
 
@@ -105,6 +105,7 @@ Scale changes the logistics, not the flavor logic. Stick to 2 oz each of meat an
 
 ## Related Reading
 
+- [Wedding Grazing Table: How Much for 50 to 200 Guests](/blog/wedding-charcuterie-grazing-table/)
 - [Charcuterie Board Quantities: Exactly How Much You Need](/blog/how-much-charcuterie-per-person/)
 - [How to Make a Charcuterie Board](https://charcuterielab.com/blog/how-to-make-charcuterie-board/)
 - [Charcuterie Board Ideas for Every Occasion](https://charcuterielab.com/blog/charcuterie-board-ideas/)

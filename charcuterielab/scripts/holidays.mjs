@@ -167,7 +167,7 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
       <img class="hol-photo" src="${h.escapeHtml(hol.image)}" alt="${h.escapeHtml(hol.name)} charcuterie board" width="1200" height="800" fetchpriority="high">
     </header>
 
-    <nav class="hol-jump" aria-label="On this page"><a href="#ideas">Board ideas</a><a href="#shapes">Shapes</a><a href="#plan">Countdown plan</a><a href="#amounts">How much to buy</a>${hol.mistakes ? `<a href="#mistakes">Mistakes</a>` : ""}<a href="#faq">Questions</a></nav>
+    <nav class="hol-jump" aria-label="On this page"><a href="#ideas">Board ideas</a><a href="#shapes">Shapes</a><a href="#plan">Countdown and make-ahead</a><a href="#amounts">How much to buy</a>${hol.mistakes ? `<a href="#mistakes">Mistakes</a>` : ""}<a href="#faq">Questions</a></nav>
 
     <section class="bl-section" id="ideas" aria-labelledby="ideas-h">
       <h2 id="ideas-h">${h.escapeHtml(hol.name)} board ideas</h2>
@@ -213,10 +213,14 @@ ${boards.map((b) => card(b, h)).join("\n")}
     </section>
 
     <section class="bl-section" id="plan" aria-labelledby="plan-h">
-      <h2 id="plan-h">Countdown plan</h2>
+      <h2 id="plan-h">Countdown and make-ahead plan</h2>
       <ol class="bl-timeline hol-plan" id="hol-plan">
         ${hol.plan.map((p) => `<li data-days="${daysBefore(p.when)}"><b>${h.escapeHtml(p.when)}</b><span>${h.escapeHtml(p.what)}</span></li>`).join("\n        ")}
       </ol>
+      ${hol.make_ahead ? `<div class="hol-ma">
+        <div class="hol-ma-col"><h3>Make ahead</h3><ul>${hol.make_ahead.ahead.map((t) => `<li>${h.escapeHtml(t)}</li>`).join("")}</ul></div>
+        <div class="hol-ma-col"><h3>Leave for the last hour</h3><ul>${hol.make_ahead.last.map((t) => `<li>${h.escapeHtml(t)}</li>`).join("")}</ul></div>
+      </div>` : ""}
     </section>
 
     <section class="bl-section" id="amounts" aria-labelledby="amounts-h">

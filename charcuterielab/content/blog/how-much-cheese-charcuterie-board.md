@@ -14,7 +14,7 @@ tags: "["how much cheese charcuterie board", "charcuterie board quantities", "ch
 
 > **Quick Answer:** Plan 2 oz of cheese per person for a board that comes before a meal, 3 oz when the board is the party food, and 4 oz when it's dinner. Add 10% from 20 guests up. Divide the total across three cheese types: one soft, one semi-firm, one aged hard. When uncertain, over-buy — leftover cheese stores well and a sparse board is the larger mistake.
 
-> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
 The most common charcuterie board mistake isn't wrong pairings or bad placement. It's buying the wrong quantity of cheese. A board that runs low by the end of the event looks forgotten. A board with extra looks generous.
 

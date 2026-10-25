@@ -83,6 +83,8 @@ the surface are sugar bloom — harmless, but a sign they've been sitting.
 **Skip:** pitted dates in vacuum packs that feel hard through the plastic, and
 anything sold as "date pieces" coated in oat flour.
 
+**Our buyer's guide:** Costco's 2 lb pack is the best value, Natural Delights the easiest to find, Joolies Pit-Free the pick for stuffing. See [the best Medjool dates](/blog/best-medjool-dates/).
+
 ## Quick FAQ
 
 **Which dates are best for a charcuterie board?**

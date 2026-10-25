@@ -161,10 +161,26 @@
     {
       "q": "What should I serve with a Halloween charcuterie board?",
       "a": "For adults, a dark beer, a smoky mezcal cocktail or apple cider. For kids, sparkling apple cider or orange soda in clear cups."
+    },
+    {
+      "q": "How much does a Halloween charcuterie board cost?",
+      "a": "As the party food, plan about $5 to $7 per guest on a budget and $8 to $12 for a standard board, so roughly $100 to $140 or $160 to $240 for 20 guests. Splurge cheeses and meats cost more. Store and region change the total."
     }
   ],
-  "updated": "2026-10-05",
+  "updated": "2026-10-25",
   "read": [
     "charcuterie-cups"
-  ]
+  ],
+  "make_ahead": {
+    "ahead": [
+      "Up to a week: cups, picks, cookie cutters and decorations",
+      "2 days: crackers in sealed sleeves so they stay crisp",
+      "The morning of: cut cheese into shapes with cookie cutters and fold the meats; cover and chill"
+    ],
+    "last": [
+      "Assemble charcuterie cups in the last hour; they hold 2 hours once out",
+      "Add the spooky details after the food is on",
+      "Crackers go in last"
+    ]
+  }
 }

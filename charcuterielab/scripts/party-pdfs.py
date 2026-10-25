@@ -26,6 +26,7 @@ M = 42
 
 DATA = json.loads(subprocess.check_output(["node", os.path.join(ROOT, "scripts", "party-export.mjs")]))
 MODES = DATA["modes"]
+DATA_COUNTS = [int(n) for n in DATA["counts"]]
 BOOK = {1: "The Classic American Starter Board", 6: "The Holiday Entertaining Board", 13: "The $25 Budget Board", 21: "The Valentine's Day Board", 30: "The Office Party Board", 49: "The Showstopper Grand Board"}
 
 
@@ -497,5 +498,6 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1 and sys.argv[1] == "cheatsheet":
         print(cheat_sheet())
     else:
-        for n in [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 100]:
+        # python3 scripts/party-pdfs.py 75 150 200  -> only those lists
+        for n in ([int(x) for x in sys.argv[1:]] or DATA_COUNTS):
             print(shopping_list(n))

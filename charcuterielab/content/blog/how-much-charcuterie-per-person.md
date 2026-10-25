@@ -15,7 +15,7 @@ faq: "[{"question": "How much meat per person for a charcuterie board?", "answer
 
 **The short answer:** Plan for **2 oz of meat and 2 oz of cheese per person** as a cocktail-style appetizer board. If it's the party food with no meal, plan 3 oz of each; if the board is dinner, 4 oz of each. From 20 guests, add 10%.
 
-> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 100 guests.
+> **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
 That's the formula. Everything below explains why it works and how to apply it.
 

@@ -673,6 +673,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
       .map((r) => ({ ...r, tier: tierOf(r.score), why: whyOf(f, r.p) }));
     const topPicks = f.top.map((s) => ranked.find((r) => r.p.slug === s)).filter(Boolean);
+    for (const r of ranked) { if (topPicks.length >= 5) break; if (!topPicks.includes(r)) topPicks.push(r); }
     const groups = ROLE_GROUPS.map((g) => ({ ...g, items: ranked.filter((r) => g.cats.includes(r.p.category)) })).filter((g) => g.items.length);
     const other = ranked.filter((r) => !ROLE_GROUPS.some((g) => g.cats.includes(r.p.category)));
     if (other.length) groups.push({ id: "other", label: "More ideas", hint: "", items: other });
@@ -702,11 +703,11 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <h1>What goes with ${B(it.title)}?</h1>
       <p class="pr-answer">${B(f.answer)}</p>
       <p class="bl-cta-row"><a class="button primary" href="${builderPreset([f.slug, ...f.top, ...plate.map((x) => x.p.slug)], 6, `pairings_food_${f.slug}`)}">Build a board around ${B(it.title)}</a> <a class="button" href="/ingredients/${f.slug}/">Everything about ${B(it.title)}</a></p>
-      <nav class="pr-jump" aria-label="On this page"><a href="#top-h">Top 3</a><a href="#bite-h">The perfect bite</a><a href="#all-h">All ${all.length}, ranked</a>${drinks.length ? `<a href="#drinks-h">Drinks</a>` : ""}${it.avoidWith.length ? `<a href="#skip-h">Skip these</a>` : ""}</nav>
+      <nav class="pr-jump" aria-label="On this page"><a href="#top-h">Top ${topPicks.length}</a><a href="#bite-h">The perfect bite</a>${f.serve && f.serve.length ? `<a href="#serve-h">How to serve</a>` : ""}<a href="#all-h">All ${all.length}, ranked</a>${drinks.length ? `<a href="#drinks-h">Drinks</a>` : ""}${it.avoidWith.length ? `<a href="#skip-h">Skip these</a>` : ""}</nav>
     </header>
 
     <section class="bl-section" aria-labelledby="top-h">
-      <h2 id="top-h">The 3 best pairings for ${B(it.title)}</h2>
+      <h2 id="top-h">The ${topPicks.length} best pairings for ${B(it.title)}</h2>
       <ol class="pr-podium">
         ${topPicks.map((r, i) => `<li class="pr-podium-card"><span class="pr-podium-n">#${i + 1}</span>${thumb(h, r.p, art, " pr-thumb-big")}<h3>${pairLink(h, idx, r.p.slug)}</h3><p class="pr-cat">${B(r.p.category)}</p>${r.why ? `<p>${B(r.why)}</p>` : ""}</li>`).join("\n        ")}
       </ol>
@@ -720,6 +721,11 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
         ${plate.map((x) => `<span class="pr-plus" aria-hidden="true">+</span><span class="pr-bite-item">${thumb(h, x.p, art, " pr-thumb-big")}<strong>${pairLink(h, idx, x.p.slug)}</strong><em>${B(x.g.label.replace("Something ", ""))}</em></span>`).join("")}
         ${drinks[0] ? `<span class="pr-plus" aria-hidden="true">+</span><span class="pr-bite-item pr-bite-drink" style="--d:${drinks[0].d.color}"><span class="pr-drink-swatch pr-bite-swatch" aria-hidden="true"></span><strong><a href="${drinks[0].d.url}">${B(drinks[0].d.name)}</a></strong><em>To drink</em></span>` : ""}
       </div>
+    </section>` : ""}
+
+    ${f.serve && f.serve.length ? `<section class="bl-section" aria-labelledby="serve-h">
+      <h2 id="serve-h">How to serve ${B(it.title)} on a board</h2>
+      ${f.serve.map((t) => `<p>${B(t)}</p>`).join("\n      ")}${f.guide ? `\n      <p><a href="${f.guide[1]}">${B(f.guide[0])}</a></p>` : ""}
     </section>` : ""}
 
     <section class="bl-section" aria-labelledby="all-h">
@@ -736,7 +742,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
 
     ${drinks.length ? `<section class="bl-section" aria-labelledby="drinks-h">
       <h2 id="drinks-h">Drinks that go with ${B(it.title)}</h2>
-      <ul class="pr-drinklist">${drinks.map((x) => `<li style="--d:${x.d.color}"><a href="${x.d.url}"><span class="pr-drink-swatch" aria-hidden="true"></span><strong>${B(x.d.name)}</strong><span>${B(x.why)}</span></a></li>`).join("")}</ul>
+      <div class="pr-drink-table-wrap"><table class="pr-drink-table"><thead><tr><th scope="col">Drink</th><th scope="col">Why it works</th></tr></thead><tbody>${drinks.map((x) => `<tr style="--d:${x.d.color}"><th scope="row"><a href="${x.d.url}"><span class="pr-drink-swatch" aria-hidden="true"></span>${B(x.d.name)}</a></th><td>${B(x.why)}</td></tr>`).join("")}</tbody></table></div>
     </section>` : ""}
 
     ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2><p>${it.avoidWith.map((s) => ingLink(h, idx, s)).join(" · ")}</p></section>` : ""}

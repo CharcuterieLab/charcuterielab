@@ -88,7 +88,7 @@ Something sour and crunchy cuts through rich salami and cheese, which is why eve
 :::
 
 **Serving it:** drain the pickles and pat them dry, then put them in a small bowl so the brine doesn't run into the crackers. Put them next to the salami, pâté or a rich cheese, where the sourness helps most.
-For what pickles pairs with and how to serve it, see the [cornichon guide](/ingredients/cornichons/) and [dill pickle guide](/ingredients/dill-pickles/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For what pickles pairs with and how to serve it, see the [cornichon guide](/ingredients/cornichons/) and [dill pickle guide](/ingredients/dill-pickles/). Want just cornichons? See [the best cornichons](/blog/best-cornichons/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Pickle questions</h2>
