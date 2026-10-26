@@ -529,7 +529,7 @@ export function makePrintables(h, products) {
 
   <section class="fx-p-free" id="free" aria-labelledby="fx-free">
     <h2 id="fx-free">Free printables</h2>
-    <a class="fx-p-nl" href="/newsletter/"><strong>Get every free printable</strong><span>The cheat sheet, Top Picks list, holiday countdown plans, pairing cheat sheet and board shopping lists, free with the weekly Lab Report &rarr;</span></a>
+    <a class="fx-p-nl" href="/newsletter/"><strong>Get the free cheat sheet</strong><span>How much to buy for 4 to 50 guests, plus a subscriber-only printable most weeks in the Lab Report &rarr;</span></a>
     <div class="fx-p-free-grid">
       <article class="fx-p-free-card fx-p-sample">
         <img src="/images/book/look-shopping-list-sm.webp" alt="Board 01 shopping list" width="360" height="466" loading="lazy" decoding="async">
