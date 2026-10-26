@@ -87,7 +87,7 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 <dl class="sk-facts"><div><dt>Price</dt><dd>$55.99</dd></div><div><dt>Inside</dt><dd>24 mini jars of jam</dd></div><div><dt>Status</dt><dd>On sale</dd></div></dl>
 <p class="sk-why"><strong>Why get it:</strong> Add one block of cheese and you have a two-item board every night.</p>
 <p class="sk-mind"><strong>Watch out:</strong> There&#x27;s no cheese in it.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bonne+Maman+Advent+Calendar+2026" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08D98XBX8" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Details and sources</summary><p>Fig, apricot and cherry go with almost any cheese. Price from <a href="https://goodmorningamerica.com/shop/story/unique-advent-calendars-2026-136718827" target="_blank" rel="noopener">Good Morning America</a>.</p></details>
 </article>
 </div>
