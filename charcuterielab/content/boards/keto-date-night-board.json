@@ -1,0 +1,129 @@
+{
+ "number": "KB-06",
+ "book": "keto",
+ "title": "Keto Date Night Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-06.webp",
+ "h1": "Keto Date Night Board for Two",
+ "seo_title": "Keto Date Night Charcuterie Board for Two: Shopping & Plan",
+ "description": "A keto date night board for two: brie, Manchego, prosciutto, soppressata, endive, strawberries, blackberries, macadamia nuts and 90% dark chocolate.",
+ "hook": "A romantic spread with a dark-chocolate finish: a keto dinner for two that still feels like a treat.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12–14\" board",
+ "prep_time": "15–20 min",
+ "cost": "$30–$45",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Belgian endive",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    }
+   ]
+  },
+  {
+   "name": "Sweet finish",
+   "items": [
+    {
+     "name": "90% dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Endive leaves are the elegant keto cracker: crisp, slightly bitter and shaped like a spoon for brie. Manchego and soppressata give the board a Spanish note, and prosciutto adds the silky one.",
+  "The dessert is built in: strawberries, blackberries and three squares of 90% dark chocolate, which is low in sugar but rich. Macadamia nuts add buttery crunch."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the manchego out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie. Separate the endive leaves; rinse and dry the berries."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the prosciutto and soppressata."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Arrange the board; break the chocolate into squares."
+  },
+  {
+   "when": "T–0",
+   "what": "Light the candles. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a keto dessert for date night?",
+   "a": "Berries with a few squares of 90% dark chocolate, or mascarpone with berries. This board finishes with the first."
+  },
+  {
+   "q": "What do you use instead of crackers?",
+   "a": "Belgian endive leaves. They hold soft cheese like a spoon and add crunch."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "charcuterie-board-two"
+ ],
+ "slug": "keto-date-night-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

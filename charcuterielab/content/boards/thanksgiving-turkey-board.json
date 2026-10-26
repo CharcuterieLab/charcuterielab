@@ -1,0 +1,185 @@
+{
+ "number": "IB-24",
+ "book": "impossible",
+ "title": "The Thanksgiving Turkey",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-24.webp",
+ "h1": "Thanksgiving Turkey Charcuterie Board",
+ "seo_title": "Thanksgiving Turkey Charcuterie Board: Showpiece Plan & List",
+ "description": "A Thanksgiving turkey charcuterie board for 12 to 15: a turkey with a fanned tail of salami, prosciutto, smoked turkey, cheddar triangles, Gouda and apples.",
+ "hook": "A turkey with a tail full of everyone's favorite foods.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "75 minutes",
+ "cost": "$110–$140",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Soppressata or salami",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Sliced smoked turkey breast",
+     "slug": null
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "White cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Havarti or smoked cheddar",
+     "slug": "havarti"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Bosc or Bartlett pear",
+     "slug": "pears"
+    },
+    {
+     "name": "Red apples and 1 lemon",
+     "slug": "apples"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Pomegranates",
+     "slug": null
+    },
+    {
+     "name": "Red bell pepper",
+     "slug": null
+    },
+    {
+     "name": "Rosemary",
+     "slug": "rosemary-sprigs"
+    },
+    {
+     "name": "Fresh or dried figs",
+     "slug": "dried-figs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Pecan halves",
+     "slug": null
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Cranberry sauce",
+     "slug": null
+    },
+    {
+     "name": "Apple butter",
+     "slug": "apples"
+    },
+    {
+     "name": "Whole black peppercorns",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The body is one ordinary thing from the produce aisle, so the turkey takes minutes. The tail is the board: fanned rows of soppressata, prosciutto, smoked turkey, cheddar triangles, Gouda cubes and apple slices.",
+  "It's rated 2 of 5, one of the easiest showpieces, and it's the appetizer kids will want to help with."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Seed the pomegranates (or buy the seeds), slice the cheddar into triangles, and cube the Gouda and white cheddar."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Slice the apples and toss them in lemon water to keep them white."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Build the turkey head, then the feathers, then the pomegranate band and the outer border."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Add the rosemary between the feathers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a turkey charcuterie board?",
+   "a": "Build a fan-shaped tail of meat, cheese and fruit rows, then add the turkey's body and face at the front. The book shows the one produce-aisle trick for the body."
+  },
+  {
+   "q": "How much should I make before Thanksgiving dinner?",
+   "a": "As an appetizer before the meal, plan about 1½ to 2 oz each of meat and cheese per guest."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese and fan the meats the day before. Slice the apples last and toss them in lemon juice. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "turkey-charcuterie-board",
+  "thanksgiving-charcuterie-board"
+ ],
+ "slug": "thanksgiving-turkey-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

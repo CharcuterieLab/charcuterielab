@@ -1,0 +1,142 @@
+{
+ "number": "TB-02",
+ "book": "two",
+ "title": "Valentine's Day Board",
+ "category": "for-two",
+ "image": "/images/boards/two-02.webp",
+ "h1": "Valentine's Day Charcuterie Board for Two",
+ "seo_title": "Valentine's Day Charcuterie Board for Two: Shopping & Plan",
+ "description": "A Valentine's Day charcuterie board for two: triple-crème brie, aged Gouda, prosciutto roses, strawberries, raspberries and dark chocolate, with sparkling rosé.",
+ "hook": "Red, rich and entirely intentional: a small board in reds and pinks that ends on dark chocolate.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14\" board (or heart-shaped)",
+ "prep_time": "30 min",
+ "cost": "$36–$54",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Triple-crème brie",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Pistachios, shelled",
+     "slug": "pistachios"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Thin crispbreads",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Every color on this board is on purpose: prosciutto folded into roses, salami, strawberries and raspberries against the white of a triple-crème brie. It photographs well, but it also eats well, because the berries' acidity cuts the richest cheese on the board.",
+  "Aged Gouda brings caramel crunch and a little salt, which is exactly what dark chocolate and fig jam want next to them. Rosé Champagne or a sparkling rosé ties the whole red theme together."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Buy the flowers, berries and bubbles; chill the wine."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Gouda."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie; make the prosciutto roses and chill them."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add berries and petals last; pour."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Valentine's charcuterie board?",
+   "a": "A creamy cheese and an aged one, prosciutto and salami, red fruit like strawberries and raspberries, dark chocolate, fig jam, pistachios and thin crackers."
+  },
+  {
+   "q": "How do you make prosciutto roses?",
+   "a": "Fold a slice in half lengthwise and roll it loosely from one end, letting the top edge flare out like petals. Two or three slices make a fuller rose."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Wash the berries and fold the roses up to a few hours ahead and keep them covered in the fridge. Build the board about 30 minutes before you eat."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "prosciutto-rose"
+ ],
+ "slug": "valentines-day-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

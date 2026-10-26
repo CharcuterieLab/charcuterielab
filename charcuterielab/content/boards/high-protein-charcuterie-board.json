@@ -1,0 +1,146 @@
+{
+ "number": "KB-19",
+ "book": "keto",
+ "title": "High-Protein, Lower-Fat Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-19.webp",
+ "h1": "High-Protein, Lower-Fat Board",
+ "seo_title": "High-Protein Charcuterie Board: Lean Meats & Shopping List",
+ "description": "A high-protein, lower-fat charcuterie board for 6: Swiss, Parmesan, part-skim mozzarella, bresaola, smoked turkey, shrimp, eggs, snap peas and cherry tomatoes.",
+ "hook": "Lean meats, seafood and hard cheeses: the board for people counting protein as well as carbs.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "18–20\" board",
+ "prep_time": "30 min",
+ "cost": "$41–$62",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Swiss",
+     "slug": "emmental"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Mozzarella",
+     "slug": "fresh-mozzarella"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Smoked turkey breast",
+     "slug": null
+    },
+    {
+     "name": "Shrimp",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Sugar snap peas",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The swaps here are simple: bresaola instead of salami, smoked turkey instead of prosciutto, shrimp and eggs for extra protein, and Swiss, Parmesan and part-skim mozzarella for lighter cheese.",
+  "Snap peas, cucumbers and cherry tomatoes are the dippers, and pickles, mustard, lemon and black pepper keep it full of flavor. About 54 g of protein and 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Swiss and parmesan."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the turkey and bresaola; roll the turkey."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; keep the shrimp cold."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the shrimp. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's the leanest charcuterie meat?",
+   "a": "Bresaola (air-dried beef) and smoked turkey breast are among the leanest. Salami and prosciutto have more fat."
+  },
+  {
+   "q": "Which cheeses are highest in protein?",
+   "a": "Hard cheeses like Parmesan and Swiss, and part-skim mozzarella, have the most protein for their calories."
+  },
+  {
+   "q": "How much protein per serving?",
+   "a": "About 54 g of protein per serving for 6, from the book's nutrition breakdown."
+  }
+ ],
+ "blog": [
+  "bresaola",
+  "keto-charcuterie-board"
+ ],
+ "slug": "high-protein-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

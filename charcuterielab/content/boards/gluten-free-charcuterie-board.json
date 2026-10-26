@@ -1,25 +1,25 @@
 {
- "slug": "gluten-free-charcuterie-board",
  "number": "B1-17",
  "book": "main",
  "title": "Gluten-Free Board",
  "category": "dietary-kids",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-17-gluten-free.webp",
- "blog": [],
+ "h1": "Gluten-Free Charcuterie Board",
+ "seo_title": "Gluten-Free Charcuterie Board for 8–12: Safe Shopping List",
+ "description": "A gluten-free charcuterie board for 8–12: aged cheddar, Manchego, brie, Parmigiano, prosciutto, salami, GF crackers, fruit and labeled condiments.",
+ "hook": "Zero gluten, full flavor: a board where the cheese and meat are naturally safe and the care goes into the crackers and the knives.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$50–$80",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Cheddar",
+     "name": "Aged cheddar",
      "slug": "aged-cheddar"
     },
     {
@@ -33,39 +33,14 @@
     {
      "name": "Parmigiano-Reggiano",
      "slug": "parmigiano-reggiano"
-    },
-    {
-     "name": "Potato Chips (plain, GF)",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Gluten-Free Crackers & Bases",
+   "name": "Meat",
    "items": [
     {
-     "name": "GF Rice Crackers",
-     "slug": "rice-crackers"
-    },
-    {
-     "name": "GF Seed Crackers (Jilz or similar) 1 pack",
-     "slug": null
-    },
-    {
-     "name": "Corn Tortilla Chips (GF)",
-     "slug": "tortilla-chips"
-    },
-    {
-     "name": "Mary's Gone Crackers (GF)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Prosciutto di Parma (GF certified) 4–5 oz",
+     "name": "Prosciutto di Parma",
      "slug": "prosciutto-di-parma"
     },
     {
@@ -73,68 +48,129 @@
      "slug": "genoa-salami"
     },
     {
-     "name": "Pepperoni (GF verified)",
+     "name": "Pepperoni",
      "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "GF crackers",
+   "items": [
+    {
+     "name": "Rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Seed crackers",
+     "slug": "seeded-crackers"
+    },
+    {
+     "name": "Corn tortilla chips",
+     "slug": "tortilla-chips"
+    },
+    {
+     "name": "Potato chips",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & vegetables",
+   "items": [
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
     },
     {
      "name": "Apple slices",
      "slug": "apples"
     },
     {
-     "name": "Cucumber slices ½ cucumber",
+     "name": "Cucumber",
      "slug": null
     },
     {
-     "name": "Cherry Tomatoes",
+     "name": "Cherry tomatoes",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fruits & Vegetables",
+   "name": "Extras",
    "items": [
     {
-     "name": "Red & Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Strawberries",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Condiments",
-   "items": [
-    {
-     "name": "Honey (raw)",
+     "name": "Honey",
      "slug": "honey"
     },
     {
-     "name": "Fig Jam (check label)",
+     "name": "Fig jam",
      "slug": "fig-jam"
     },
     {
-     "name": "Whole Grain Mustard (GF)",
+     "name": "Whole grain mustard",
      "slug": "whole-grain-mustard"
     },
     {
-     "name": "Marcona Almonds",
+     "name": "Marcona almonds",
      "slug": "marcona-almonds"
     },
     {
-     "name": "Cornichons (check label) 10–12",
+     "name": "Cornichons",
      "slug": "cornichons"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Natural, aged cheese contains no gluten, and neither does prosciutto, so the risk on a board sits in the crackers, some processed meats and cross-contact. That's why this board uses only gluten-free crackers and checks every label on the salami, pepperoni, jam and mustard.",
+  "For guests with celiac disease, a few crumbs from a shared knife are enough to matter. Use a clean board and dedicated knives, and label it gluten-free so guests can eat without asking."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Check every label for gluten; take out the cheeses."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Set a clean board and clean knives aside for the GF board."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and fill the condiment bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats, fruit, crackers and nuts."
+  },
+  {
+   "when": "T–0",
+   "what": "Label the board gluten-free and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is charcuterie gluten-free?",
+   "a": "Natural cheese and most cured whole-muscle meats like prosciutto are gluten-free. Some salami, pepperoni, jams and mustards can contain gluten, and crackers usually do, so check labels."
+  },
+  {
+   "q": "What crackers are gluten-free?",
+   "a": "Rice crackers, seed crackers, corn tortilla chips, plain potato chips and certified gluten-free crackers."
+  },
+  {
+   "q": "How do you avoid cross-contact?",
+   "a": "Use a clean board and knives that haven't touched bread, keep gluten-containing crackers off the board entirely, and serve the GF board first."
+  }
+ ],
+ "blog": [
+  "best-gluten-free-crackers"
+ ],
+ "slug": "gluten-free-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

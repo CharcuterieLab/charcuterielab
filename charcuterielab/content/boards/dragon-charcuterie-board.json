@@ -1,0 +1,181 @@
+{
+ "number": "IB-01",
+ "book": "impossible",
+ "title": "The Dragon's Hoard",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-01.webp",
+ "h1": "Dragon Charcuterie Board (The Dragon's Hoard)",
+ "seo_title": "Dragon Charcuterie Board: How It's Built & What to Buy",
+ "description": "A dragon charcuterie board for 12 to 15: a salami dragon with prosciutto wings curled around a hoard of cheese coins, gold-dusted brie, pomegranates and grapes.",
+ "hook": "A dragon curled around its treasure: hundreds of salami, pepperoni and soppressata scales coil around the board, guarding a hoard of cheese coins and a gold-dusted brie.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2 hours",
+ "cost": "$110–$140",
+ "difficulty": "4 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Thin-sliced Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Soppressata or hot salami",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Cheddar or Colby",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Manchego or white cheddar",
+     "slug": "manchego"
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Pomegranates",
+     "slug": null
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Red bell pepper",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Crusty roll or a short piece of baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Whole almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Black peppercorns",
+     "slug": null
+    },
+    {
+     "name": "Edible gold luster dust",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "It looks impossible, but the dragon's body is a pattern you already know: overlapping rows of sliced meat, like roof shingles. Switching between soppressata, salami and pepperoni every ring or two is what gives it a striped, scaly look.",
+  "The hoard in the middle is the real board: Gouda and cheddar coins, Manchego wedges, brie dusted with edible gold, pomegranates, grapes, blackberries and apricots. Crackers, olives, cornichons, fig jam and honey ring the outside, so guests can graze from any side."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Shape and cover the dragon head (keep it wrapped in the fridge), slice the cheese coins, and halve the pomegranates."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the dragon's coiled body, ring by ring."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Add the head, the wings, the hoard and the cracker border."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Dust the brie with gold and set out the dips."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a dragon charcuterie board?",
+   "a": "The body is rows of overlapping meat slices laid in a coil, the head is a small bread roll covered in pepperoni, and the wings are draped prosciutto. The middle of the coil holds the cheese and fruit. The book has the layout and all eight steps."
+  },
+  {
+   "q": "How many people does it serve?",
+   "a": "12 to 15 as the main party food. It uses about 4 lb of meat and 3½ lb of cheese."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Shape and wrap the head and cut the cheese coins the day before. Lay the body about 2 hours before guests arrive. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas",
+  "how-to-make-a-salami-rose"
+ ],
+ "slug": "dragon-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

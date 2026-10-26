@@ -1,0 +1,123 @@
+{
+ "number": "KB-20",
+ "book": "keto",
+ "title": "Keto Dessert Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-20.webp",
+ "h1": "Keto Dessert Board",
+ "seo_title": "Keto Dessert Board: Berries, Mascarpone & 90% Chocolate",
+ "description": "A keto dessert board for 8: mascarpone, goat cheese, raspberries, blackberries, strawberries, pecans, macadamia nuts, coconut, whipped cream and 90% dark chocolate.",
+ "hook": "Berries, mascarpone and 90% chocolate: a dessert board with about 7 g net carbs per serving.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "16\" board",
+ "prep_time": "20 min",
+ "cost": "$37–$55",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Mascarpone",
+     "slug": "mascarpone"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Pecans",
+     "slug": "pecans"
+    },
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    },
+    {
+     "name": "Unsweetened coconut flakes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet finish",
+   "items": [
+    {
+     "name": "90% dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Heavy cream",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Mascarpone whipped with a little vanilla and cinnamon is the dip, and fresh whipped cream is the second one. Berries are the lowest-sugar fruit there is, which is why raspberries, blackberries and strawberries are the only fruit here.",
+  "Goat cheese gives a tangy contrast, pecans, macadamias and coconut flakes add crunch, and 90% dark chocolate is rich enough that a little goes a long way."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Whip the cream with a dash of vanilla (no sugar); chill."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the mascarpone and goat cheese to soften."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Rinse and dry the berries; halve the strawberries."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Toast the coconut flakes in a dry pan; build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the whipped cream and mint. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can you put on a keto dessert board?",
+   "a": "Mascarpone or whipped cream, berries, pecans, macadamia nuts, coconut flakes, 85% to 90% dark chocolate and a tangy cheese like goat cheese."
+  },
+  {
+   "q": "Which fruits are keto-friendly?",
+   "a": "Berries are the best choice: raspberries and blackberries have the fewest net carbs, then strawberries."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 7 g net carbs per serving for 8."
+  }
+ ],
+ "blog": [
+  "dessert-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-dessert-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

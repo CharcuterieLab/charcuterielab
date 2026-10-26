@@ -1,0 +1,173 @@
+{
+ "number": "IB-07",
+ "book": "impossible",
+ "title": "The Pirate Ship",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-07.webp",
+ "h1": "Pirate Ship Charcuterie Board",
+ "seo_title": "Pirate Ship Charcuterie Board: Bread Galleon & Shopping List",
+ "description": "A pirate ship charcuterie board for 12 to 15: a sourdough galleon with prosciutto sails and breadstick masts, carrying salami cargo past a brie treasure island.",
+ "hook": "A bread galleon in full sail, loaded with salami cargo and sailing past a treasure island of brie.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2 hours",
+ "cost": "$110–$140",
+ "difficulty": "4 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Mozzarella balls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Gouda or Manchego",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Aged white cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Sourdough bâtard",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Thick breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Red bell pepper",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Black sesame seeds",
+     "slug": null
+    },
+    {
+     "name": "Bag of gold-foil chocolate coins",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The hull is a long loaf of sourdough, hollowed and filled with cargo, so the shape is sturdy before you add a single slice. Thick breadsticks are the masts and draped prosciutto slices are the sails.",
+  "Mozzarella balls make the cannonballs, a whole brie becomes the treasure island, and Gouda, cheddar and salami fill the sea around it. It's made for kids' birthdays and anyone who likes a board with a story."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hollow the bread hull (wrap it in plastic), roll the mozzarella cannonballs, and cut the pepper flags."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Fill the hull and rig the masts and sails."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Lay the sea, then the treasure island and the shores."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Add the gold coins and the rope."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a pirate ship charcuterie board?",
+   "a": "Hollow a long sourdough loaf for the hull, stand breadsticks in it as masts, drape prosciutto as sails and fill it with salami and cheese. The book has the full steps."
+  },
+  {
+   "q": "What size loaf do I need?",
+   "a": "A sourdough bâtard about 16 inches long."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Hollow the loaf and cube the cheese the day before; keep the loaf wrapped so it doesn't dry out. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-kids",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "pirate-ship-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

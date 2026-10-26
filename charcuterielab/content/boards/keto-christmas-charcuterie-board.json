@@ -1,0 +1,145 @@
+{
+ "number": "KB-07",
+ "book": "keto",
+ "title": "Keto Christmas Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-07.webp",
+ "h1": "Keto Christmas Charcuterie Board",
+ "seo_title": "Keto Christmas Charcuterie Board (Wreath): Shopping & Plan",
+ "description": "A keto Christmas charcuterie wreath for 12: brie, cheddar, Gouda, blue cheese, prosciutto, salami, soppressata, rosemary and raspberries. About 5 g net carbs a serving.",
+ "hook": "A showpiece for the Christmas table: a keto board built as a wreath, with rosemary greenery and red berries.",
+ "serves": "12",
+ "guests": 12,
+ "board_size": "24\" round board (wreath shape)",
+ "prep_time": "45–50 min",
+ "cost": "$82–$123",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Blue cheese",
+     "slug": "stilton"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Parmesan crisps",
+     "slug": "parmesan-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Pecans",
+     "slug": "pecans"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The wreath shape does the decorating: a ring of cheeses and meats with rosemary tucked in as greenery and raspberries as the red. Four cheeses (brie, cheddar, Gouda and blue) and three meats feed twelve.",
+  "Parmesan crisps, cucumbers and celery are the low-carb dippers, and pecans and green olives fill the gaps. The rosemary is decoration, not food. About 5 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the cheddar, gouda and blue cheese."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Lay a ring of rosemary on the board as the wreath base."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie. Slice the cucumbers and celery."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; fold the salami and soppressata."
+  },
+  {
+   "when": "T–0",
+   "what": "Fill the center with raspberries. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a charcuterie wreath?",
+   "a": "Set a small bowl in the center of a round board, then build a ring of cheese, folded meats, vegetables and berries around it, tucking rosemary in as greenery. Remove the bowl at the end."
+  },
+  {
+   "q": "Is this board keto?",
+   "a": "Yes. It uses vegetables and parmesan crisps instead of crackers and berries instead of jam. About 5 g net carbs per serving for 12."
+  },
+  {
+   "q": "Can I build it ahead?",
+   "a": "Slice everything the day before and keep it covered in the fridge. Build the wreath within an hour of guests arriving."
+  }
+ ],
+ "blog": [
+  "christmas-wreath-charcuterie-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-christmas-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

@@ -1,120 +1,117 @@
 {
- "slug": "vegan-charcuterie-board",
  "number": "B1-16",
  "book": "main",
  "title": "Vegan Plant-Based Board",
  "category": "dietary-kids",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-16-vegan-plant-based.webp",
- "blog": [
-  "dairy-free-charcuterie-board",
-  "vegetarian-charcuterie-board"
- ],
+ "h1": "Vegan Plant-Based Charcuterie Board",
+ "seo_title": "Vegan Charcuterie Board for 8–12: Cashew Cheese, Tempeh & Plan",
+ "description": "A vegan charcuterie board for 8–12: cashew brie, vegan cheddar, herbed cashew cheese, smoked tofu, tempeh, hummus, baba ganoush, fruit and crackers.",
+ "hook": "Zero animal products, bold flavors: three plant-based cheeses, smoky proteins and four dips that nobody has to make allowances for.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$45–$70",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Vegan Cheeses",
+   "name": "Plant-based cheese",
    "items": [
     {
-     "name": "Cashew Brie (store or homemade)",
-     "slug": "brie"
+     "name": "Cashew brie",
+     "slug": "vegan-brie"
     },
     {
-     "name": "Vegan Sharp Cheddar (block)",
+     "name": "Vegan cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Herbed cashew cheese",
      "slug": null
-    },
-    {
-     "name": "Herb Cashew Cheese (spreadable)",
-     "slug": "cashew-cheese"
-    },
-    {
-     "name": "Olive Tapenade",
-     "slug": "tapenade"
     }
    ]
   },
   {
-   "name": "Spreads & Dips",
+   "name": "Proteins",
    "items": [
     {
-     "name": "Hummus (classic + roasted red p",
+     "name": "Marinated tempeh",
+     "slug": null
+    },
+    {
+     "name": "Smoked tofu",
+     "slug": null
+    },
+    {
+     "name": "Roasted chickpeas",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Hummus",
      "slug": "hummus"
     },
     {
-     "name": "Baba Ganoush",
+     "name": "Baba ganoush",
      "slug": "baba-ganoush"
     },
     {
-     "name": "Fig Jam (vegan)",
+     "name": "Fig jam",
      "slug": "fig-jam"
+    },
+    {
+     "name": "Olive tapenade",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Plant-Based Proteins",
+   "name": "Fruit & vegetables",
    "items": [
     {
-     "name": "Marinated Tempeh slices",
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Cucumber",
      "slug": null
     },
     {
-     "name": "Smoked Tofu",
+     "name": "Cherry tomatoes",
      "slug": null
     },
     {
-     "name": "Roasted Chickpeas (spiced)",
-     "slug": null
-    },
-    {
-     "name": "Cucumber slices ½ cucumber",
-     "slug": null
-    },
-    {
-     "name": "Cherry Tomatoes",
-     "slug": null
-    },
-    {
-     "name": "Roasted Red Peppers",
+     "name": "Roasted red peppers",
      "slug": "roasted-red-peppers"
     }
    ]
   },
   {
-   "name": "Fruits & Vegetables",
+   "name": "Crackers & nuts",
    "items": [
     {
-     "name": "Red & Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Strawberries",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Crackers & Nuts",
-   "items": [
-    {
-     "name": "Water Crackers (vegan)",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Whole Grain Crackers",
+     "name": "Whole grain crackers",
      "slug": null
     },
     {
-     "name": "Pita Bread (vegan) 2 rounds",
+     "name": "Pita bread",
      "slug": null
     },
     {
-     "name": "Marcona Almonds (salted)",
+     "name": "Marcona almonds",
      "slug": "marcona-almonds"
     },
     {
@@ -122,18 +119,59 @@
      "slug": "walnuts"
     },
     {
-     "name": "Medjool Dates 6–8",
+     "name": "Medjool dates",
      "slug": "medjool-dates"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Cashew-based cheeses work because cashews are rich and creamy in the same way dairy is, so a cashew brie spreads and melts on the tongue like the real thing. A vegan cheddar adds the firm, sharp option.",
+  "Smoked tofu and marinated tempeh bring the savory, smoky depth that cured meat usually does, and roasted chickpeas add crunch. Four dips (hummus, baba ganoush, tapenade and fig jam) cover earthy, smoky, salty and sweet."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the vegan cheeses out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the tempeh and tofu; prep the vegetables."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and fill the dip bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the proteins, fruit, crackers and nuts."
+  },
+  {
+   "when": "T–0",
+   "what": "Garnish with fresh herbs and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a vegan charcuterie board?",
+   "a": "Cashew or other plant-based cheeses, smoked tofu, marinated tempeh, roasted chickpeas, hummus, baba ganoush, tapenade, fruit, vegetables, crackers and nuts."
+  },
+  {
+   "q": "What can replace meat on a vegan board?",
+   "a": "Smoked tofu, marinated tempeh, roasted chickpeas and marinated mushrooms bring the savory, smoky flavor cured meat usually adds."
+  },
+  {
+   "q": "Are crackers vegan?",
+   "a": "Many are, but some contain butter, milk or honey. Check the label."
+  }
+ ],
+ "blog": [
+  "dairy-free-charcuterie-board",
+  "best-vegan-cheese"
+ ],
+ "slug": "vegan-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

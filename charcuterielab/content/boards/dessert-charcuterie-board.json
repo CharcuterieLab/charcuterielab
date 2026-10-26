@@ -1,139 +1,177 @@
 {
- "slug": "dessert-charcuterie-board",
  "number": "B1-47",
  "book": "main",
  "title": "Sweet Dessert Charcuterie Board",
  "category": "pairings-sweet",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-47-sweet-dessert-charcuterie.webp",
- "blog": [
-  "dessert-board",
-  "charcuterie-board-chocolate"
- ],
+ "h1": "Sweet Dessert Charcuterie Board",
+ "seo_title": "Dessert Charcuterie Board for 8–12: Chocolate & Fruit Plan",
+ "description": "A dessert charcuterie board for 8–12: dark, milk and white chocolate, Nutella, caramel, strawberries, raspberries, graham crackers, pretzels and shortbread.",
+ "hook": "No cheese, no meat: chocolate, fruit and sweets arranged with the same logic as every other board.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "20–25 min",
  "cost": "$35–$60",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Chocolates",
+   "name": "Chocolate",
    "items": [
     {
-     "name": "Dark Chocolate (70%)",
+     "name": "Dark chocolate",
      "slug": "dark-chocolate"
     },
     {
-     "name": "Milk Chocolate",
+     "name": "Milk chocolate",
      "slug": null
     },
     {
-     "name": "White Chocolate",
+     "name": "White chocolate",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Chocolate hazelnut spread",
+     "slug": "chocolate-hazelnut-spread"
+    },
+    {
+     "name": "Caramel sauce",
      "slug": null
     },
     {
-     "name": "Shortbread Cookies",
+     "name": "Strawberry jam",
+     "slug": "berries"
+    },
+    {
+     "name": "Peanut butter",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Banana slices",
+     "slug": null
+    },
+    {
+     "name": "Dried mango",
+     "slug": "dried-mango"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  },
+  {
+   "name": "Dippers",
+   "items": [
+    {
+     "name": "Graham crackers",
+     "slug": "graham-crackers"
+    },
+    {
+     "name": "Mini pretzels",
+     "slug": null
+    },
+    {
+     "name": "Wafer cookies",
+     "slug": null
+    },
+    {
+     "name": "Shortbread",
      "slug": "shortbread"
     }
    ]
   },
   {
-   "name": "Dippers & Vehicles",
+   "name": "Extras",
    "items": [
     {
-     "name": "Graham Crackers",
-     "slug": "graham-crackers"
-    },
-    {
-     "name": "Pretzels (mini)",
+     "name": "Mini marshmallows",
      "slug": null
     },
     {
-     "name": "Wafer Cookies",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Sweet Dips & Spreads",
-   "items": [
-    {
-     "name": "Nutella or Chocolate Hazelnut S",
-     "slug": null
-    },
-    {
-     "name": "Caramel Sauce",
-     "slug": null
-    },
-    {
-     "name": "Strawberry Jam",
-     "slug": null
-    },
-    {
-     "name": "Peanut Butter (creamy)",
-     "slug": null
-    },
-    {
-     "name": "Chocolate Chips (mixed)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Extras & Garnish",
-   "items": [
-    {
-     "name": "Mini Marshmallows",
-     "slug": null
-    },
-    {
-     "name": "Candied Pecans",
+     "name": "Candied pecans",
      "slug": "candied-pecans"
     },
     {
-     "name": "Sprinkles or Edible Glitter",
+     "name": "Sprinkles",
      "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Fruits",
-   "items": [
+    },
     {
-     "name": "Fresh Mint small",
+     "name": "Chocolate chips",
+     "slug": null
+    },
+    {
+     "name": "Fresh mint",
      "slug": "fresh-mint"
-    },
-    {
-     "name": "Strawberries (whole & halved)",
-     "slug": null
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
-    },
-    {
-     "name": "Banana slices 1 banana",
-     "slug": null
-    },
-    {
-     "name": "Dried Mango strips",
-     "slug": "dried-mango"
-    },
-    {
-     "name": "Dried Apricots",
-     "slug": "dried-apricots"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "The chocolate goes from dark to milk to white, bitter to sweet, so each piece tastes like a step up rather than the sweetest one drowning out the rest. Four dips give everyone something to dunk.",
+  "Strawberries and raspberries add tartness that keeps it from getting cloying, and salty mini pretzels are the secret weapon against all that sugar. Shortbread and graham crackers are the sturdy dippers."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Break the chocolate; warm the caramel slightly."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Wash and slice the fruit."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the dip bowls and chocolate."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the fruit, cookies and pretzels; slice the banana last."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter the sprinkles and mint and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a dessert charcuterie board?",
+   "a": "Dark, milk and white chocolate, chocolate hazelnut spread, caramel, jam, strawberries, raspberries, banana, dried fruit, graham crackers, pretzels, wafers, shortbread, marshmallows and candied pecans."
+  },
+  {
+   "q": "How do you keep banana from browning?",
+   "a": "Slice it last and toss with a little lemon juice."
+  },
+  {
+   "q": "How much dessert per person?",
+   "a": "About 3 to 4 oz of sweets and fruit per person after dinner."
+  }
+ ],
+ "blog": [
+  "dessert-board",
+  "candy-charcuterie-board"
+ ],
+ "slug": "dessert-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

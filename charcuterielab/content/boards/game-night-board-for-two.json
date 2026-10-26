@@ -1,0 +1,137 @@
+{
+ "number": "TB-14",
+ "book": "two",
+ "title": "Game Night Board",
+ "category": "for-two",
+ "image": "/images/boards/two-14.webp",
+ "h1": "Game Night Snack Board for Two",
+ "seo_title": "Game Night Charcuterie Board for Two: One-Handed Snacks",
+ "description": "A game night snack board for two: smoked Gouda, pepper jack, spicy calabrese salami, summer sausage, hot honey, pickles, cashews and pretzel bites. No greasy cards.",
+ "hook": "One-handed snacks, no greasy cards: a spicy, salty board you can eat between turns.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" board",
+ "prep_time": "20 min",
+ "cost": "$22–$33",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Smoked Gouda",
+     "slug": "smoked-gouda"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Spicy salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Beef summer sausage",
+     "slug": "summer-sausage"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Spicy honey",
+     "slug": "hot-honey"
+    },
+    {
+     "name": "Spicy brown mustard",
+     "slug": null
+    },
+    {
+     "name": "Pickles",
+     "slug": "dill-pickles"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Cashews",
+     "slug": "cashews"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Pretzel bites",
+     "slug": null
+    },
+    {
+     "name": "Wheat crackers",
+     "slug": "whole-wheat-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Everything here is cut to be picked up with two fingers: cubes of smoked Gouda and pepper jack, rounds of summer sausage and folded calabrese salami. No soft cheese to spread and nothing that leaves your hands oily.",
+  "Hot honey and spicy brown mustard turn the meats and cheese up a notch, and pickles cut the richness. Cashews, grapes, pretzel bites and wheat crackers fill the gaps. An IPA or a hard seltzer is the drink."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take out the Gouda."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the pepper jack."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; set up the game."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Deal the cards."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What snacks are best for game night?",
+   "a": "Finger food that isn't greasy: cubed cheese, sliced summer sausage and salami, pickles, grapes, nuts, pretzel bites and sturdy crackers, with hot honey and mustard for dipping."
+  },
+  {
+   "q": "How do you keep a board from getting messy during games?",
+   "a": "Cube the cheese, slice the sausage into rounds, put dips in small bowls with spoons and leave out anything that needs spreading."
+  },
+  {
+   "q": "Can I make it less spicy?",
+   "a": "Yes. Swap the calabrese for Genoa salami and use plain honey instead of hot honey."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "beer-pairing"
+ ],
+ "slug": "game-night-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

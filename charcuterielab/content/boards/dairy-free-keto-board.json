@@ -1,0 +1,154 @@
+{
+ "number": "KB-18",
+ "book": "keto",
+ "title": "Dairy-Free Keto Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-18.webp",
+ "h1": "Dairy-Free Keto Board",
+ "seo_title": "Dairy-Free Keto Charcuterie Board (No Cheese): Shopping List",
+ "description": "A dairy-free keto board for 6 with no cheese: salami, prosciutto, chorizo, smoked salmon, eggs, avocado, olives, pickles, macadamia nuts and crunchy vegetables.",
+ "hook": "All the richness, none of the cheese: a keto board for guests who can't have dairy.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "18–20\" board",
+ "prep_time": "30 min",
+ "cost": "$51–$78",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Dry-cured chorizo",
+     "slug": "chorizo"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Avocados",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Without cheese, the richness has to come from somewhere else, and here it's avocado, macadamia nuts, smoked salmon and eggs. Salami, prosciutto and dry chorizo bring the salt and spice.",
+  "Two kinds of olives, pickles and whole-grain mustard give it the sharp notes a cheese board usually gets from aged cheese, and cucumbers, celery and radishes carry everything. About 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the vegetables and avocado (lemon or lime over it)."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; keep the salmon in the fridge."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the salmon. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you make a charcuterie board without cheese?",
+   "a": "Yes. Use cured meats, smoked salmon, avocado, eggs, olives, pickles, nuts and crunchy vegetables. Avocado and nuts give the richness cheese usually brings."
+  },
+  {
+   "q": "Is cured meat dairy-free?",
+   "a": "Most salami, prosciutto and chorizo are, but some sausages use milk powder as a binder. Check the label."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving for 6."
+  }
+ ],
+ "blog": [
+  "dairy-free-charcuterie-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "dairy-free-keto-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

@@ -1,0 +1,172 @@
+{
+ "number": "IB-22",
+ "book": "impossible",
+ "title": "The Giant Easter Egg",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-22.webp",
+ "h1": "Giant Easter Egg Charcuterie Board",
+ "seo_title": "Easter Egg Charcuterie Board: Spring Showpiece & What to Buy",
+ "description": "A giant Easter egg charcuterie board for 12 to 15: an egg outlined in pretzels and painted in stripes of ham, cheddar, Havarti, mozzarella and spring vegetables.",
+ "hook": "One enormous decorated egg, painted in food.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "90 minutes",
+ "cost": "$100–$130",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Thin-sliced deli ham",
+     "slug": null
+    },
+    {
+     "name": "Mortadella or more ham",
+     "slug": "mortadella"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Mild yellow cheddar or Colby",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Havarti",
+     "slug": "havarti"
+    },
+    {
+     "name": "Swiss or white cheddar",
+     "slug": "emmental"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Herb-coated goat cheese log",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Yellow bell pepper",
+     "slug": null
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Cantaloupe",
+     "slug": "melon"
+    },
+    {
+     "name": "Honeydew",
+     "slug": null
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "English cucumber",
+     "slug": null
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    },
+    {
+     "name": "Edible flowers",
+     "slug": "edible-flowers"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Thin pretzel sticks",
+     "slug": null
+    },
+    {
+     "name": "Seeded or herb crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Whole almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Fig or berry jam",
+     "slug": "figs"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The egg is a pretzel fence: a long oval of pretzels holds everything in place, so the stripes stay neat. Rolled ham, mortadella ruffles, cheddar, Havarti zigzags and mozzarella pearls make the bands of color.",
+  "Yellow peppers and spring vegetables add the pastel tones. It's built for Easter brunch and spring family gatherings, and kids love it."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cube the cheeses and melons, slice the cucumber, cut the Havarti triangles, and roll the ham. Store everything separately, covered."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the pretzel-stick egg outline and the stripe dividers."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Fill the stripes from top to bottom, then build the outside."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Tuck in the edible flowers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make an Easter egg charcuterie board?",
+   "a": "Outline a large egg in pretzels, then fill it in horizontal stripes of ham, cheese and vegetables, like a painted egg."
+  },
+  {
+   "q": "Is it kid-friendly?",
+   "a": "Yes. It's mild ham, cheddar, Havarti and vegetables."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese and vegetables the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "easter-egg-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

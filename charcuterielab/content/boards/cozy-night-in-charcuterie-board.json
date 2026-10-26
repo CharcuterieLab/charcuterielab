@@ -1,0 +1,141 @@
+{
+ "number": "TB-09",
+ "book": "two",
+ "title": "Cozy Night In Board",
+ "category": "for-two",
+ "image": "/images/boards/two-09.webp",
+ "h1": "Cozy Night In Charcuterie Board for Two",
+ "seo_title": "Cozy Night In Charcuterie Board for Two: Shopping & Plan",
+ "description": "A cozy night in charcuterie board for two: Gruyère, smoked Gouda, soppressata, speck, honeycomb, candied walnuts and apple, with a full-bodied red or dry cider.",
+ "hook": "Heavy blanket required: a fall and winter board of nutty, smoky cheeses and warm flavors, made for the couch.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board",
+ "prep_time": "25 min",
+ "cost": "$39–$58",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Smoked Gouda",
+     "slug": "smoked-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Smoked ham or speck",
+     "slug": "speck"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Honeycomb or honey",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Fig preserves",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Candied walnuts",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Apple, sliced",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Seeded rye crisps",
+     "slug": "rye-crispbread"
+    },
+    {
+     "name": "Rosemary flatbread crackers",
+     "slug": "rosemary-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Gruyère and smoked Gouda are the warmest-tasting cheeses you can buy: nutty, a little sweet and smoky. Soppressata and smoked ham or speck carry the same smoke through the meats, so the whole board tastes like a fireplace.",
+  "Apple slices, dried apricots, fig preserves and honeycomb add sweetness, and whole-grain mustard adds a sharp edge. A full-bodied red like Côtes du Rhône or Zinfandel, or a dry hard cider, fits the mood."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the Gruyère."
+  },
+  {
+   "when": "T–40 min",
+   "what": "Take out the smoked Gouda."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats. Warm the cider if using."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; apple last."
+  },
+  {
+   "when": "T–0",
+   "what": "Find the blanket."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a good charcuterie board for a night in?",
+   "a": "Nutty and smoky cheeses like Gruyère and smoked Gouda, soppressata and speck, apple, dried apricots, honeycomb, candied walnuts, mustard, fig preserves and rye crisps."
+  },
+  {
+   "q": "Can it be dinner?",
+   "a": "Yes. This one is sized as dinner for two. Add a bowl of soup if you want something warm alongside."
+  },
+  {
+   "q": "What drink goes with it?",
+   "a": "A full-bodied red such as Côtes du Rhône or Zinfandel, or a dry hard cider, which suits the apple and the smoky flavors."
+  }
+ ],
+ "blog": [
+  "winter-charcuterie-board",
+  "fall-charcuterie-board"
+ ],
+ "slug": "cozy-night-in-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

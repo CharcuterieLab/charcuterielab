@@ -1,0 +1,177 @@
+{
+ "number": "IB-12",
+ "book": "impossible",
+ "title": "The Hot Air Balloon Festival",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-12.webp",
+ "h1": "Hot Air Balloon Charcuterie Board",
+ "seo_title": "Hot Air Balloon Charcuterie Board: Bread Bowls & Shopping List",
+ "description": "A hot air balloon charcuterie board for 12 to 15: five bread-bowl balloons filled with dip, with fans of salami and cheese behind them, over a patchwork countryside.",
+ "hook": "Five bread-bowl hot air balloons float over a patchwork countryside of cheese and crackers.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "75 minutes",
+ "cost": "$90–$120",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sliced sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Sliced Swiss or provolone",
+     "slug": "emmental"
+    },
+    {
+     "name": "Monterey Jack or pepper jack",
+     "slug": "monterey-jack"
+    },
+    {
+     "name": "Mild cheddar or Colby",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Round bread rolls or mini boules",
+     "slug": null
+    },
+    {
+     "name": "Long breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Woven square crackers",
+     "slug": null
+    },
+    {
+     "name": "Other crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Spinach dip",
+     "slug": null
+    },
+    {
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Beer cheese or queso",
+     "slug": null
+    },
+    {
+     "name": "Pimento cheese",
+     "slug": "pimento-cheese"
+    },
+    {
+     "name": "French onion dip",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Carrots",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Red bell peppers",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Each balloon is a small round roll, hollowed into a bread bowl and filled with dip, with a half circle of meat and cheese slices fanned behind it like the colored panels of a balloon. The shape builds itself.",
+  "Below, squares of crackers and cubes of cheddar, Swiss and pepper jack become a patchwork of fields. It's one of the easier showpieces, rated 2 of 5, and great for birthdays and baby showers."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Make or buy the five dips and cut the vegetables and cheese."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Hollow the bread bowls."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Fan the balloon stripes, then add the ropes and baskets, then the fields."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Fill the bread bowls with the dips."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make hot air balloons on a board?",
+   "a": "Hollow small round rolls into bread bowls and fill them with dip, then fan meat and cheese slices in a half circle behind each one. The book has the layout and steps."
+  },
+  {
+   "q": "Is it hard?",
+   "a": "No. It's rated 2 of 5 and takes about 75 minutes."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese wedges and cubes the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-baby-shower",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "hot-air-balloon-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

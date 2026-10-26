@@ -1,0 +1,149 @@
+{
+ "number": "IB-21",
+ "book": "impossible",
+ "title": "The Giant Heart",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-21.webp",
+ "h1": "Giant Heart Charcuterie Board",
+ "seo_title": "Heart-Shaped Charcuterie Board: 50 Meat Roses & Shopping List",
+ "description": "A giant heart charcuterie board for 12 to 15: about 50 salami, prosciutto and mortadella roses with strawberries, raspberries, brie and goat cheese.",
+ "hook": "About 50 meat roses, one enormous heart.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "40 × 28 in",
+ "prep_time": "90 minutes",
+ "cost": "$110–$140",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Thin-sliced Genoa salami or soppressata",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Mortadella",
+     "slug": "mortadella"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Round of brie",
+     "slug": "brie"
+    },
+    {
+     "name": "White cheddar or Havarti",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Logs of goat cheese",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Mild white cheese such as Jarlsberg or Swiss",
+     "slug": "jarlsberg"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Pomegranates",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Round crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet and pantry",
+   "items": [
+    {
+     "name": "Raspberry jam",
+     "slug": "berries"
+    },
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Whole almonds",
+     "slug": "almonds"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Every rose is made the same way, with a small glass, so 50 roses is just repetition. Dark salami or soppressata roses, pink prosciutto and pale mortadella give three shades.",
+  "Strawberries, raspberries, brie and goat cheese fill the rest of the heart. It's made for Valentine's Day, Galentine's, anniversaries and bridal showers."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Roll all the salami roses (keep them covered on a sheet pan in the fridge), and slice the cheeses."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Hull and halve the strawberries and pat the berries dry."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Build the heart from the outside in, then add the brie and the cheeses around it."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Add the chocolate, almonds and crackers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make meat roses with a glass?",
+   "a": "Layer overlapping slices of salami around the rim of a small glass, then flip it out. The book shows the exact method and how many slices each rose takes."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "About 90 minutes, mostly making roses. It's rated 2 of 5 because it just takes patience."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the roses the day before and keep them covered in the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "how-to-make-a-salami-rose",
+  "prosciutto-rose"
+ ],
+ "slug": "heart-shaped-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

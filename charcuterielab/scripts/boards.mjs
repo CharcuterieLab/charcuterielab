@@ -12,7 +12,10 @@ export const BOARD_CATEGORIES = [
   { slug: "around-the-world", name: "Around the World", intro: "Italian antipasto, Spanish tapas, a French brasserie spread and more, each built from its own region's pantry." },
   { slug: "dietary-kids", name: "Dietary & Kids", intro: "Gluten-free, keto, vegan and kid-friendly boards that nobody at the table has to work around." },
   { slug: "pairings-sweet", name: "Pairings & Sweet", intro: "Boards built around a drink or for the sweet end of the evening." },
-  { slug: "plant-based", name: "Plant-Based", intro: "Fifteen boards with no meat and no dairy, built on the same pairing science as every other board here." }
+  { slug: "plant-based", name: "Plant-Based", intro: "Fifteen boards with no meat and no dairy, built on the same pairing science as every other board here." },
+  { slug: "for-two", name: "Boards for Two", intro: "Twenty-five boards sized for two: date nights, anniversaries, a cozy night in and a few splurges, each with a drink to pour." },
+  { slug: "keto-low-carb", name: "Keto & Low-Carb", intro: "Keto boards at 4 to 9 g net carbs per serving, with low-carb dippers standing in for crackers." },
+  { slug: "showpiece", name: "Showpiece Boards", intro: "Boards shaped like a dragon, a guitar, a turkey or a pirate ship, each with the one trick that makes it work." }
 ];
 
 // Book 3 in the series. While "status" is "coming", every world board and the
@@ -106,7 +109,7 @@ export async function loadBoards(root) {
     return [];
   }
   const all = await Promise.all(files.map(async (f) => JSON.parse(await readFile(join(dir, f), "utf8"))));
-  const order = (b) => ({ plant: 100, world: 200 }[b.book] || 0) + Number(b.number.slice(3));
+  const order = (b) => ({ plant: 100, world: 200, two: 300, keto: 400, impossible: 500 }[b.book] || 0) + Number(b.number.slice(3));
   const exists = (p) => access(join(root, "public", p)).then(() => true, () => false);
   // A board whose photo isn't in public/ yet gets a typographic placeholder
   // (written by build.mjs) and no social/schema image until the photo lands.
@@ -230,7 +233,7 @@ export function boardsHub(h, boards) {
     body: `<main class="bl-main">
 ${h.bookBar("boards_hub_top", "Every board, fully planned")}
 <div class="bl-inner">${boards.some((b) => b.book === "world") ? worldBanner(h) : ""}</div>
-${finder(h, boards, { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${finder(h, mixBooks(boards), { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>` })}
 ${h.labNext("boards_hub", { skip: ["book"], heading: "Plan your own" })}
 </main>
 ${FILTER_JS}`
@@ -274,7 +277,32 @@ function bookBoardOf(h, board) {
   return h.bookBoards.get(Number(board.number.slice(3))) || null;
 }
 
+// Books 4, 5 and 7: the board page's "which book it's in" box (26 Oct 2026).
+const SERIES = {
+  two: { B: TWO_BOOK, what: "the shopping list for two with amounts and prices, the prep countdown, the step-by-step build and the drink to pour", more: "24 more boards for two" },
+  keto: { B: KETO_BOOK, what: "the shopping list with the net carbs of every item, full macros per serving, the step-by-step build and the carb traps to avoid", more: "19 more keto boards" },
+  impossible: { B: IMPOSSIBLE_BOOK, what: "the full shopping list, the layout, all eight build steps with the trick that makes the shape work, and easy, budget and luxe versions", more: "24 more showpiece boards" }
+};
+function seriesOffer(h, board) {
+  const S = SERIES[board.book];
+  const B = S.B;
+  const url = h.withTracking ? h.withTracking(B.ebookUrl, `board_${board.slug}`) : B.ebookUrl;
+  return `<section class="bl-book" aria-labelledby="bl-book-title">
+      <img src="${h.escapeHtml((h.thumb || ((x) => x))(B.cover, "s"))}" alt="" width="160" height="207" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow">The book it's in</p>
+        <h2 id="bl-book-title">Build it exactly, with the book</h2>
+        <p>This board is in <em>${h.escapeHtml(B.title)}</em>, with ${S.more}. The book has ${S.what}.</p>
+        <div class="book-buy">
+          <a class="button primary" href="${h.escapeHtml(url)}" target="_blank" rel="noopener">Get the ebook · ${B.ebookPrice}</a>
+          ${B.paperbackUrl ? `<a class="button book-buy-print" href="${B.paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${B.paperbackPrice}</a>` : ""}
+        </div>
+      </div>
+    </section>`;
+}
+
 function bookOffer(h, board) {
+  if (SERIES[board.book]) return seriesOffer(h, board);
   if (board.book === "world") return worldOffer(h, `board_${board.slug}`, { heading: "Build it exactly, with the new book" });
   if (board.book === "plant") {
     return `<section class="bl-book" aria-labelledby="bl-book-title">
@@ -292,7 +320,7 @@ function bookOffer(h, board) {
   }
   const bb = bookBoardOf(h, board);
   if (bb && h.bookCard) {
-    return h.bookCard(bb, `board_${board.slug}`, { lead: `This page is the free preview. The book has the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` });
+    return h.bookCard(bb, `board_${board.slug}`, { lead: `This board is in the book, with the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` }).replace('<aside class="fx-book"', '<aside id="bl-book-title" class="fx-book"');
   }
   return `<section class="bl-book" aria-labelledby="bl-book-title">
       <img src="${(h.thumb || ((x) => x))("/images/book-cover.jpg", "s")}" alt="" width="160" height="207" loading="lazy" decoding="async">
@@ -325,7 +353,6 @@ const cuisineOf = (b) => b.cuisine || (CUISINES.find(([re]) => re.test(b.slug)) 
 
 function recipeSchema(h, b) {
   const pageUrl = h.absoluteUrl(`/boards/${b.slug}/`);
-  const ingredients = b.groups.flatMap((g) => g.items.map((i) => i.name));
   const minutes = Number((b.prep_time || "").match(/(\d+)(?=\s*min)/)?.[1] || 0);
   return `  <script type="application/ld+json">${h.jsonForScript({
     "@context": "https://schema.org",
@@ -341,7 +368,6 @@ function recipeSchema(h, b) {
     recipeYield: `${b.serves} people`,
     ...(minutes ? { prepTime: `PT${minutes}M`, totalTime: `PT${minutes}M` } : {}),
     keywords: [b.h1.toLowerCase(), "charcuterie board", catOf(b).name.toLowerCase()].join(", "),
-    recipeIngredient: ingredients,
     recipeInstructions: b.timeline.map((t, k) => ({ "@type": "HowToStep", position: k + 1, name: t.when, text: t.what, url: `${pageUrl}#step-${k + 1}` }))
   })}</script>`;
 }
@@ -408,6 +434,22 @@ function singleOf(h, b) {
   if (b.book === "main") return (bookBoardOf(h, b) || {}).single || null;
   return (h.bookSingles && h.bookSingles[b.slug]) || null;
 }
+// What the $3 plan holds, by book (26 Oct 2026: Keto, Two and Impossible plans joined).
+function planPoints(b, steps) {
+  const guests = b.serves === "2" ? "two" : `${b.serves} guests`;
+  if (b.book === "impossible") return [
+    `The full shopping list for ${b.serves} guests, with amounts`,
+    "The layout, and the one trick that makes the shape work",
+    "All eight build steps, plus the prep timeline from the day before",
+    "Easy, budget, luxe, kid-friendly and gluten-free versions"
+  ];
+  return [
+    `The exact shopping list for ${guests}, with an amount and an estimated price for every item${b.book === "keto" ? ", plus its net carbs" : ""}`,
+    b.book === "keto" ? "Net carbs, protein and calories per serving" : "Where every item goes on the board, step by step, and why",
+    `The full ${steps}-step timeline, from fridge to table`,
+    b.book === "two" ? "The drink to pour, and a swap for anything your store is out of" : "A swap for anything your store is out of, plus optional upgrades"
+  ];
+}
 function planBox(h, b, single) {
   const steps = b.timeline.length;
   const look = h.planLook ? h.planLook(b) : "";
@@ -416,14 +458,11 @@ function planBox(h, b, single) {
       <div class="bl-plan-inner">
         ${look ? `<img class="bl-plan-look" src="${h.escapeHtml(look)}" alt="A page from the ${h.escapeHtml(b.h1)} plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
         <div>
-          <p class="eyebrow">The full plan · ${h.escapeHtml(single.price)} · 5-page printable PDF</p>
+          <p class="eyebrow">The full plan · ${h.escapeHtml(single.price)} · ${single.pages || 5}-page printable PDF</p>
           <h2 id="bl-plan-title">Build this exact board</h2>
           <p>This page shows what the board is and why it works. The plan is what you take to the store and the counter:</p>
           <ul class="bl-plan-list">
-            <li>The exact shopping list for ${h.escapeHtml(b.serves)} guests, with an amount and an estimated price for every item</li>
-            <li>Where every item goes on the board, step by step, and why</li>
-            <li>The full ${steps}-step timeline, from fridge to table</li>
-            <li>A swap for anything your store is out of, plus optional upgrades</li>
+            ${planPoints(b, steps).map((x) => `<li>${h.escapeHtml(x)}</li>`).join("\n            ")}
           </ul>
           <p class="bl-cta-row"><a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the plan · ${h.escapeHtml(single.price)}</a><span>Instant download · 30-day refund</span></p>
         </div>
@@ -439,7 +478,6 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const fill = related.length < 3 ? all.filter((x) => x.slug !== b.slug && !related.includes(x)).slice(0, 3 - related.length) : [];
   const blogs = (b.blog || []).filter((s) => blogTitles.has(s));
   const glance = [["Serves", b.serves], ["Board", plain(b.board_size)], ["Prep", b.prep_time], ["Cost", b.cost], ["Level", b.difficulty]];
-  const item = (i) => (i.slug && known.has(i.slug) ? `<a href="/ingredients/${i.slug}/">${h.escapeHtml(i.name)}</a>` : h.escapeHtml(i.name));
   const single = singleOf(h, b);
   const steps = b.timeline.slice(0, TEASE_STEPS);
   const visible = { ...b, timeline: steps };
@@ -447,7 +485,10 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   // Scannable format (Oct 20 2026): jump links, compact ingredient rows, bold lead-ins.
   const offer = bookOffer(h, b);
   const planId = single ? "bl-plan-title" : offer.includes('id="bl-book-title"') ? "bl-book-title" : "";
-  const jump = [["On the board", "bl-on"], ["Why it works", "bl-why"], ["Timeline", "bl-when"], ...(planId ? [["The plan", planId]] : []), ["Questions", "bl-faq"]];
+  // Sales layout (26 Oct 2026): the $3 plan (or, with no $3 plan yet, the book)
+  // sits right under the hero; the item list, the printable card and the
+  // newsletter are gone; the book the board is in closes the page.
+  const jump = [...(planId ? [["The plan", planId]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"], ...(single && offer ? [["The book", "bl-book-title"]] : [])];
   const lead = (t) => { const m = String(t).match(/^(.*?[.!?])(\s+[\s\S]*)?$/); return m ? `<strong>${h.escapeHtml(m[1])}</strong>${h.escapeHtml(m[2] || "")}` : h.escapeHtml(t); };
 
   return h.layout({
@@ -478,15 +519,8 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       </p>
       <nav class="bl-jump" aria-label="On this page">${jump.map(([t, id]) => `<a href="#${id}">${t}</a>`).join("")}</nav>
     </header>
-
-    <section class="bl-section" aria-labelledby="bl-on">
-      <h2 id="bl-on">What's on the board</h2>
-      <p>Everything on the board, by group. Amounts, prices and placement are in the full plan.</p>
-      <dl class="bl-rows">
-        ${b.groups.map((g) => `<div><dt>${h.escapeHtml(g.name)}</dt><dd>${g.items.map((i) => item(i)).join('<span class="bl-dot" aria-hidden="true"> · </span>')}</dd></div>`).join("\n        ")}
-      </dl>
-      <p class="bl-note">Planning a different board? Pick your own ingredients and guest count in the free <a href="/board-builder/">Board Builder</a>.</p>
-    </section>
+<!--no-offers-->
+    ${single ? planBox(h, b, single) : offer}
 
     <section class="bl-section" aria-labelledby="bl-why">
       <h2 id="bl-why">Why it works</h2>
@@ -502,16 +536,14 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       </ol>
     </section>
 
-    ${single ? planBox(h, b, single) : ""}
-
-    ${offer}
-
     <section class="bl-section" aria-labelledby="bl-faq">
       <h2 id="bl-faq">Questions</h2>
       <div class="ebook-faq-list">
         ${b.faq.map((f, i) => `<details${i === 0 ? " open" : ""}><summary>${h.escapeHtml(f.q)}</summary><p>${h.escapeHtml(f.a)}</p></details>`).join("\n        ")}
       </div>
     </section>
+
+    ${single ? offer : ""}
 
     <section class="bl-section" aria-labelledby="bl-more">
       <h2 id="bl-more">More boards</h2>
@@ -523,14 +555,42 @@ ${[...related, ...fill].map((x) => card(x, h)).join("\n")}
       <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
     </section>
   </div>
-${boardPrintable(h, b)}
-${h.newsletterPanel("board-email", `board_${b.slug}`)}
 ${bookBoardOf(h, b) && h.stickyBar ? h.stickyBar(`sticky_board_${b.slug}`, bookBoardOf(h, b)) : ""}
 </main>`
   });
 }
 
-// Six cards for the home page
+// Six cards for the home page: one board from each book, picked for the
+// time of year (26 Oct 2026), so the strip shows the range of the library.
+const HOME_BOOKS = ["impossible", "main", "world", "two", "keto", "plant"];
+const HOME_PICKS = [
+  // [months, slugs in HOME_BOOKS order]
+  [[10, 11], ["thanksgiving-turkey-board", "thanksgiving-charcuterie-board", "moroccan-charcuterie-board", "cozy-night-in-charcuterie-board", "keto-thanksgiving-charcuterie-board", "plant-based-fall-harvest-board"]],
+  [[12], ["santas-sleigh-charcuterie-board", "holiday-entertaining-board", "swiss-alpine-charcuterie-board", "new-years-eve-board-for-two", "keto-christmas-charcuterie-board", "plant-based-holiday-board"]],
+  [[1, 2], ["football-field-charcuterie-board", "valentines-day-charcuterie-board", "korean-bbq-charcuterie-board", "valentines-day-board-for-two", "keto-game-day-board", "plant-based-date-night-board"]],
+  [[3, 4, 5], ["easter-egg-charcuterie-board", "easter-charcuterie-board", "greek-mediterranean-board", "lazy-sunday-charcuterie-board", "keto-brunch-board", "plant-based-brunch-board"]],
+  [[6, 7, 8, 9], ["tropical-island-charcuterie-board", "summer-backyard-board", "brazilian-churrasco-board", "picnic-board-for-two", "keto-picnic-board", "plant-based-summer-board"]]
+];
+function homePicks(boards, month = new Date().getMonth() + 1) {
+  const bySlug = new Map(boards.map((b) => [b.slug, b]));
+  const want = (HOME_PICKS.find(([ms]) => ms.includes(month)) || HOME_PICKS[0])[1];
+  const out = HOME_BOOKS.map((book, i) => {
+    const b = bySlug.get(want[i]);
+    return b && b.book === book ? b : boards.find((x) => x.book === book && !x.placeholder);
+  }).filter(Boolean);
+  for (const b of boards) if (out.length < 6 && !out.includes(b)) out.push(b);
+  return out.slice(0, 6);
+}
+
+// Round-robin across the books, so a grid of boards doesn't open on six
+// that look alike.
+export function mixBooks(boards) {
+  const lanes = HOME_BOOKS.map((k) => boards.filter((b) => b.book === k)).concat([boards.filter((b) => !HOME_BOOKS.includes(b.book))]);
+  const out = [];
+  for (let i = 0; out.length < boards.length; i++) for (const l of lanes) if (l[i]) out.push(l[i]);
+  return out;
+}
+
 export function boardsStrip(h, boards) {
   if (!boards.length) return "";
   return `<section class="section bl-strip" aria-label="Board Library">
@@ -538,7 +598,7 @@ export function boardsStrip(h, boards) {
       <p class="section-kicker">Board Library</p>
       <h2 class="section-title">Pick a board, get the plan</h2>
       <ul class="bl-grid bl-grid-3">
-${boards.slice(0, 6).map((b) => card(b, h)).join("\n")}
+${homePicks(boards).map((b) => card(b, h)).join("\n")}
       </ul>
       <div class="section-link"><a class="text-link" href="/boards/">Browse all ${boards.length} boards</a></div>
     </div>

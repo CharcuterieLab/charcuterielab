@@ -1,120 +1,161 @@
 {
- "slug": "truffle-charcuterie-board",
  "number": "B1-44",
  "book": "main",
  "title": "Truffle Luxury Board",
  "category": "classic-budget-luxury",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-44-truffle-and-luxury.webp",
- "blog": [],
+ "h1": "Truffle & Luxury Charcuterie Board",
+ "seo_title": "Truffle Charcuterie Board for 6–10: Luxury Shopping List",
+ "description": "A truffle luxury charcuterie board for 6–10: 24-month Comté, truffle pecorino, Époisses, Brillat-Savarin, jamón ibérico, shaved black truffle and truffle honey.",
+ "hook": "The most decadent board in the first book: shaved truffle, jamón ibérico and four serious cheeses.",
  "serves": "6–10",
  "guests": 10,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "20–25 min",
  "cost": "$100–$180",
  "difficulty": "Advanced",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Comté (24-month)",
+     "name": "Aged Comté",
      "slug": "comte"
     },
     {
-     "name": "Truffle Pecorino",
+     "name": "Truffle pecorino",
      "slug": null
     },
     {
-     "name": "Époisses (washed-rind)",
-     "slug": "epoisses"
+     "name": "Époisses",
+     "slug": null
     },
     {
-     "name": "Triple-Crème Brie (Brillat-Savarin)",
+     "name": "Triple-crème brie",
      "slug": "triple-creme"
     }
    ]
   },
   {
-   "name": "Luxury Accompaniments",
+   "name": "Meat",
    "items": [
     {
-     "name": "Truffle Honey",
-     "slug": "truffle-honey"
-    },
-    {
-     "name": "Aged Balsamic (25-year+)",
-     "slug": "balsamic-glaze"
-    },
-    {
-     "name": "Edible Gold Leaf (optional)",
-     "slug": null
-    },
-    {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Jamón Ibérico de Bellota (pata",
+     "name": "Jamón ibérico",
      "slug": "jamon-iberico"
     },
     {
      "name": "Bresaola",
      "slug": "bresaola"
-    },
-    {
-     "name": "Dried Black Figs",
-     "slug": "figs"
     }
    ]
   },
   {
-   "name": "Fruits & Garnish",
+   "name": "Luxury",
    "items": [
     {
-     "name": "Black Truffle (shaved, fresh or jar",
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Aged balsamic",
      "slug": null
     },
     {
-     "name": "Champagne Grapes or Muscat",
+     "name": "Black truffle",
+     "slug": null
+    },
+    {
+     "name": "Edible gold leaf",
+     "slug": null
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & garnish",
+   "items": [
+    {
+     "name": "Champagne grapes",
      "slug": "champagne-grapes"
+    },
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Microgreens",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Microgreens small",
+     "name": "Country bread",
      "slug": null
     },
     {
-     "name": "Pain de Campagne (country bread sli",
-     "slug": null
-    },
-    {
-     "name": "Water Crackers (plain)",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Truffle Flatbreads (if available)",
+     "name": "Truffle flatbreads",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Truffle is shaved at the table over the Comté and the triple-crème, which is the moment people remember. Aged Comté, truffle pecorino and pungent Époisses already share earthy, savory notes with truffle, so it makes them taste bigger.",
+  "Jamón ibérico, with its marbled fat, carries the truffle aroma beautifully, and lean bresaola gives a deep-red contrast. Truffle honey on the triple-crème is the single best bite on the board."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take out all the cheeses; prep the truffle."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Arrange the board; set the gold leaf if using."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Add the meats; set out the honey and balsamic."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Shave the truffle; add the microgreens."
+  },
+  {
+   "when": "T–0",
+   "what": "Open the wine and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What cheese goes with truffle?",
+   "a": "Aged Comté, Pecorino, Époisses and triple-crème cheeses. A truffle-studded pecorino puts it right in the cheese."
+  },
+  {
+   "q": "Do I need a fresh truffle?",
+   "a": "No. A jarred truffle, truffle cheese and truffle honey give the flavor for much less. Fresh black truffle is the splurge."
+  },
+  {
+   "q": "What wine goes with it?",
+   "a": "Nebbiolo, aged Champagne or a white Burgundy."
+  }
+ ],
+ "blog": [
+  "expensive-board",
+  "best-honey-for-cheese"
+ ],
+ "slug": "truffle-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

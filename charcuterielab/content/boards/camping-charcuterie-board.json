@@ -1,99 +1,140 @@
 {
- "slug": "camping-charcuterie-board",
  "number": "B1-27",
  "book": "main",
  "title": "Camping Outdoor Board",
  "category": "occasions-parties",
- "wave": 4,
- "status": "draft",
  "image": "/images/50-boards-27-camping-and-outdoor.webp",
- "blog": [],
+ "h1": "Camping Charcuterie Board",
+ "seo_title": "Camping Charcuterie Board for 4–8: No-Fridge Shopping List",
+ "description": "A camping charcuterie board for 4–8: vacuum-packed aged cheddar, Parmesan, summer sausage, pepperoni stick, jerky, dried mango, trail mix and Triscuits.",
+ "hook": "Pack-in friendly and built around the fire: a camping board of shelf-stable sausage, hard cheese and dried fruit.",
  "serves": "4–8",
  "guests": 8,
- "board_size": "12\"–14\" board",
+ "board_size": "12–14\" board",
  "prep_time": "10–15 min",
  "cost": "$30–$50",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Cheddar",
+     "name": "Aged cheddar",
      "slug": "aged-cheddar"
     },
     {
      "name": "Parmesan",
      "slug": "parmigiano-reggiano"
-    },
-    {
-     "name": "Pita Bread 2 pitas",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Meat",
    "items": [
     {
-     "name": "Triscuits (whole wheat) 1 box",
-     "slug": null
-    },
-    {
-     "name": "Rye Crispbread",
-     "slug": "rye-crispbread"
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
-   "items": [
-    {
-     "name": "Summer Sausage",
+     "name": "Summer sausage",
      "slug": "summer-sausage"
     },
     {
-     "name": "Pepperoni",
+     "name": "Pepperoni stick",
      "slug": "pepperoni"
     },
     {
-     "name": "Smoked Beef Jerky",
-     "slug": null
-    },
-    {
-     "name": "Mixed Nuts (trail mix style)",
-     "slug": null
-    },
-    {
-     "name": "Dark Chocolate bar",
-     "slug": "dark-chocolate"
-    },
-    {
-     "name": "Hot Sauce (small bottle) to taste",
+     "name": "Beef jerky",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fruits & Extras",
+   "name": "Fruit & extras",
    "items": [
     {
-     "name": "Dried Mango strips",
+     "name": "Dried mango",
      "slug": "dried-mango"
     },
     {
-     "name": "Dried Apricots",
+     "name": "Dried apricots",
      "slug": "dried-apricots"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    },
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Hot sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Triscuits",
+     "slug": "whole-wheat-crackers"
+    },
+    {
+     "name": "Rye crispbread",
+     "slug": "rye-crispbread"
+    },
+    {
+     "name": "Pita bread",
+     "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Whole summer sausage, a pepperoni stick and jerky are made to keep without refrigeration until they're opened, and unopened vacuum-packed aged cheddar and Parmesan are the most travel-proof cheeses you can buy. Slice them at the campsite and nothing goes warm in a pack.",
+  "Dried mango and apricots add sweetness, trail mix and dark chocolate add energy, and a few drops of hot sauce wake up the sausage. Rye crispbread and Triscuits survive a backpack. Once opened and sliced, eat it within 2 hours."
+ ],
+ "timeline": [
+  {
+   "when": "Night before",
+   "what": "Seal everything airtight; pack the board or a cutting board."
+  },
+  {
+   "when": "At camp",
+   "what": "Wipe down a flat surface and lay out the board."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Slice the summer sausage and cheddar."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the crackers, dried fruit and nuts."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve around the fire."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What charcuterie doesn't need refrigeration?",
+   "a": "Whole, unopened summer sausage, pepperoni sticks, jerky and other shelf-stable dry sausages, plus hard cheeses like Parmesan and vacuum-packed aged cheddar, for short trips. Once opened, keep them cool and eat them within a couple of hours."
+  },
+  {
+   "q": "What crackers survive a camping trip?",
+   "a": "Sturdy ones like Triscuits, rye crispbread and pita bread."
+  },
+  {
+   "q": "How much should I pack?",
+   "a": "About 2 to 3 oz each of meat and cheese per person per snack."
+  }
+ ],
+ "blog": [
+  "how-to-transport-charcuterie-board",
+  "best-summer-sausage"
+ ],
+ "slug": "camping-charcuterie-board",
+ "status": "published",
+ "wave": 4,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

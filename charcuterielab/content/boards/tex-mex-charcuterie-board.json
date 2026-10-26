@@ -1,119 +1,161 @@
 {
- "slug": "tex-mex-charcuterie-board",
  "number": "B1-38",
  "book": "main",
  "title": "Tex-Mex Fiesta Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-38-tex-mex-fiesta.webp",
- "blog": [],
+ "h1": "Tex-Mex Fiesta Charcuterie Board",
+ "seo_title": "Tex-Mex Charcuterie Board for 8–14: Chorizo, Queso & Plan",
+ "description": "A Tex-Mex fiesta charcuterie board for 8–14: pepper jack, queso fresco, cotija, chorizo, carne seca, guacamole, salsa roja, mango with Tajín and tortilla chips.",
+ "hook": "Bold, colorful and a little spicy: a Tex-Mex board with three Mexican-style cheeses, chorizo and fresh guacamole.",
  "serves": "8–14",
  "guests": 14,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "20–25 min",
  "cost": "$40–$65",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Pepper Jack",
+     "name": "Pepper jack",
      "slug": "pepper-jack"
     },
     {
-     "name": "Queso Fresco",
+     "name": "Queso fresco",
      "slug": "queso-fresco"
     },
     {
      "name": "Cotija",
      "slug": "cotija"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Chorizo",
+     "slug": "chorizo"
     },
     {
-     "name": "Cherry Tomatoes",
+     "name": "Carne seca or beef jerky",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Fruit & vegetables",
    "items": [
     {
      "name": "Mango slices",
      "slug": "mango"
     },
     {
-     "name": "Jalapeños (fresh & pickled) ¼ cup each",
-     "slug": null
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
     },
     {
      "name": "Jicama sticks",
      "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Lime wedges",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Meats",
+   "name": "Dips",
    "items": [
-    {
-     "name": "Lime wedges 2 limes",
-     "slug": null
-    },
-    {
-     "name": "Chorizo (cooked, sliced)",
-     "slug": "chorizo"
-    },
-    {
-     "name": "Carne Seca or Beef Jerky (Mex",
-     "slug": null
-    },
     {
      "name": "Guacamole",
      "slug": null
+    },
+    {
+     "name": "Salsa roja",
+     "slug": null
+    },
+    {
+     "name": "Tajín",
+     "slug": null
+    },
+    {
+     "name": "Cilantro",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Dippers",
+   "name": "Dippers",
    "items": [
     {
-     "name": "Salsa Roja",
-     "slug": null
-    },
-    {
-     "name": "Tortilla Chips",
+     "name": "Tortilla chips",
      "slug": "tortilla-chips"
     },
     {
-     "name": "Tajín Seasoning",
+     "name": "Mini corn tortillas",
      "slug": null
     },
     {
-     "name": "Corn Tortillas (mini, toasted)",
-     "slug": null
-    },
-    {
-     "name": "Cilantro (fresh) small",
-     "slug": null
-    },
-    {
-     "name": "Plantain Chips",
+     "name": "Plantain chips",
      "slug": "plantain-chips"
-    },
-    {
-     "name": "Cotija for sprinkling",
-     "slug": "cotija"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Pepper jack sets the heat at the first bite, and fresh, milky queso fresco is there to cool things down between spicy bites. Salty, crumbly cotija is the cheese that goes with chips the way Parmesan goes with pasta.",
+  "Chorizo and carne seca bring deep, chile-spiced meat, and mango and jicama with Tajín and lime are the bright, cooling side. Guacamole and salsa roja make it a party."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Make the guacamole; prep the dips."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Toast the mini tortillas; slice the mango."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the dips and limes."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the chorizo, chips, fruit and jalapeños."
+  },
+  {
+   "when": "T–0",
+   "what": "¡Salud! Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Mexican charcuterie board?",
+   "a": "Pepper jack, queso fresco, cotija, chorizo, carne seca or jerky, guacamole, salsa, mango, jicama, jalapeños, lime, Tajín and tortilla or plantain chips."
+  },
+  {
+   "q": "Should the chorizo be cooked?",
+   "a": "Mexican chorizo is raw and must be cooked. Spanish chorizo is dry-cured and ready to slice. Use whichever you like, cooked through if it's Mexican-style."
+  },
+  {
+   "q": "Can I make the guacamole ahead?",
+   "a": "A few hours ahead at most. Press plastic wrap onto the surface and add extra lime to slow browning."
+  }
+ ],
+ "blog": [
+  "best-guacamole",
+  "salami-vs-chorizo"
+ ],
+ "slug": "tex-mex-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

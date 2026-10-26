@@ -1,0 +1,153 @@
+{
+ "number": "IB-17",
+ "book": "impossible",
+ "title": "The Giant Guitar",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-17.webp",
+ "h1": "Giant Guitar Charcuterie Board",
+ "seo_title": "Guitar Charcuterie Board: Full-Size Showpiece & What to Buy",
+ "description": "A giant guitar charcuterie board for 12 to 15: a full-size acoustic guitar of salami, provolone, Gouda and cheddar, with chive strings down a long table.",
+ "hook": "A full-size acoustic guitar stretched down the table, with chive strings and a salami sound hole.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "60 × 30 in",
+ "prep_time": "90 minutes",
+ "cost": "$90–$120",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Pepperoni or soppressata",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sliced provolone or Havarti",
+     "slug": "aged-provolone"
+    },
+    {
+     "name": "Sliced Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Block of sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack and Colby Jack",
+     "slug": "pepper-jack"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Long bunch of chives",
+     "slug": null
+    },
+    {
+     "name": "Red grapes and 1 lb green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Carrots",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Thin breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Baguettes",
+     "slug": null
+    },
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Dips and pantry",
+   "items": [
+    {
+     "name": "Spinach-artichoke dip",
+     "slug": "marinated-artichokes"
+    },
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A paper template does the drawing for you: trace the guitar outline on butcher paper and fill it in. Genoa salami outlines the body and the sound hole, provolone and Gouda fill it, and cheddar planks make the neck.",
+  "Long chives become the strings. It's built for music-themed birthdays, graduation parties and anyone who plays."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Draw and cut the paper guitar template, slice the cheeses and cut the cheddar neck planks. Make or buy the dip."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the template, the salami border and the body."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Add the neck, the frets, the strings and the headstock, then fill the table around it."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a guitar charcuterie board?",
+   "a": "Draw the outline from a paper template on butcher paper, outline it with salami, fill the body with cheese slices, build the neck from cheddar planks and add chive strings."
+  },
+  {
+   "q": "What surface do I need?",
+   "a": "A long table covered in butcher paper, about 60 × 30 inches."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese rectangles and planks the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas",
+  "charcuterie-board-birthday"
+ ],
+ "slug": "guitar-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

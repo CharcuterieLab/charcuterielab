@@ -1,0 +1,141 @@
+{
+ "number": "KB-05",
+ "book": "keto",
+ "title": "Keto Game Day Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-05.webp",
+ "h1": "Keto Game Day Board",
+ "seo_title": "Keto Game Day Snack Board: Bacon, Guac & Pork Rinds",
+ "description": "A keto game day board for 10: cheddar, pepper jack, smoked Gouda, pepperoni, salami, bacon, pork rinds, celery and fresh guacamole. About 5 g net carbs per serving.",
+ "hook": "Bacon, guac and zero-carb crunch: a game day spread for ten that nobody will notice is keto.",
+ "serves": "10",
+ "guests": 10,
+ "board_size": "20–24\" board",
+ "prep_time": "35–40 min",
+ "cost": "$54–$82",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Smoked gouda",
+     "slug": "smoked-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Bacon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Pork rinds",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Avocados",
+     "slug": null
+    },
+    {
+     "name": "Lemon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
+    },
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Game day food is salty, crunchy and dippable, and keto has all three. Pork rinds and celery take the place of chips, and fresh guacamole is the dip almost everyone already eats.",
+  "Three cheeses (sharp cheddar, pepper jack, smoked Gouda) and three meats (pepperoni, salami, bacon) cover mild to spicy. Pickled jalapeños and pickles cut the fat. About 5 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the cheddar, pepper Jack and gouda out of the fridge. Bake the bacon (400°F, about 18 min)."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Make the guacamole: mash avocado with lemon juice, salt and garlic powder."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats. Cut the celery."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board around the guacamole."
+  },
+  {
+   "when": "Kickoff",
+   "what": "Add pork rinds last so they stay crisp."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are good keto snacks for a football party?",
+   "a": "Cubed cheese, pepperoni and salami, bacon, pork rinds, celery, guacamole, pickled jalapeños and pickles."
+  },
+  {
+   "q": "Can I make the guacamole ahead?",
+   "a": "Up to a few hours. Press plastic wrap directly onto the surface and add the lemon juice to slow browning."
+  },
+  {
+   "q": "How do I keep it safe during a long game?",
+   "a": "Put out half and refill from the fridge at halftime. Keep meat, cheese and cut produce out no more than 2 hours, or 1 hour above 90°F."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-guacamole"
+ ],
+ "slug": "keto-game-day-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

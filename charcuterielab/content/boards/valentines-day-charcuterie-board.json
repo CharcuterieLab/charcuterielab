@@ -1,132 +1,169 @@
 {
- "slug": "valentines-day-charcuterie-board",
  "number": "B1-21",
  "book": "main",
  "title": "Valentine's Day Board",
  "category": "seasonal-holiday",
- "wave": 3,
- "status": "draft",
  "image": "/images/50-boards-21-valentines-day.webp",
- "blog": [],
+ "h1": "Valentine's Day Charcuterie Board",
+ "seo_title": "Valentine's Day Charcuterie Board for 4–6: Shopping List & Plan",
+ "description": "A Valentine's Day charcuterie board for 4–6: brie, aged Gouda, honey chèvre, prosciutto, bresaola, strawberries, raspberries, chocolate truffles and pomegranate.",
+ "hook": "A red and pink board for a small group: berries, chocolate and three cheeses, with a heart cut into the brie.",
  "serves": "4–6",
  "guests": 6,
- "board_size": "14–18” board",
+ "board_size": "14–18\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$80",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Romantic Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Brie",
      "slug": "brie"
     },
     {
-     "name": "Aged Gouda (caramel notes)",
+     "name": "Aged Gouda",
      "slug": "aged-gouda"
     },
     {
      "name": "Chèvre",
      "slug": "fresh-chevre"
-    },
-    {
-     "name": "Red Grapes (small cluster)",
-     "slug": "grapes"
     }
    ]
   },
   {
-   "name": "Red & Pink Palette",
+   "name": "Meat",
    "items": [
-    {
-     "name": "Strawberries (whole with stems)",
-     "slug": null
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
-    },
-    {
-     "name": "Pomegranate Seeds",
-     "slug": "pomegranate"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Dried Cranberries",
-     "slug": "dried-cranberries"
-    },
     {
      "name": "Prosciutto",
      "slug": "prosciutto-di-parma"
     },
     {
-     "name": "Maraschino Cherries (optional garn",
-     "slug": "cherries"
-    },
-    {
      "name": "Bresaola",
      "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Red & pink",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
     },
     {
-     "name": "Red Rose Petals (edible, organic) 6–8",
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Dried cranberries",
+     "slug": "dried-cranberries"
+    },
+    {
+     "name": "Edible rose petals",
      "slug": null
     }
    ]
   },
   {
-   "name": "Chocolate Elements",
+   "name": "Chocolate",
    "items": [
     {
-     "name": "Dark Chocolate (70%+)",
+     "name": "Dark chocolate",
      "slug": "dark-chocolate"
     },
     {
-     "name": "Dark Choc-Covered Strawberries × 4",
-     "slug": null
+     "name": "Chocolate-covered strawberries",
+     "slug": "berries"
     },
     {
-     "name": "Chocolate Truffles × 4 4 pieces",
+     "name": "Chocolate truffles",
      "slug": null
     }
    ]
   },
   {
-   "name": "Condiments & Bases",
+   "name": "Bases",
    "items": [
     {
-     "name": "Truffle Honey or Fig Jam",
+     "name": "Truffle honey or fig jam",
      "slug": "truffle-honey"
     },
     {
-     "name": "Raspberry Jam",
-     "slug": null
+     "name": "Raspberry jam",
+     "slug": "berries"
     },
     {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Chocolate Graham Crackers",
+     "name": "Chocolate graham crackers",
      "slug": "graham-crackers"
     },
     {
-     "name": "Crostini (6–8 pieces) 6–8",
+     "name": "Crostini",
      "slug": "crostini"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "The board sticks to one palette: red, pink, white and chocolate brown. Strawberries with their stems on, raspberries and pomegranate seeds do most of the color work, and bresaola and prosciutto keep the meats in the same shades.",
+  "Three cheeses cover creamy, sweet-salty and tangy: brie, caramel-like aged Gouda and chèvre drizzled with honey. The chocolate and berries make it a dessert board too, so it works after dinner or instead of it."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the cheeses; dip the strawberries if making your own."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Place the cheeses and the red fruit."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Add the meats, chocolate, jams and crackers."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Scatter the rose petals; light the candles."
+  },
+  {
+   "when": "T–0",
+   "what": "Open the bubbly and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Valentine's charcuterie board?",
+   "a": "Brie, aged Gouda, chèvre, prosciutto, bresaola, strawberries, raspberries, pomegranate seeds, dark chocolate, chocolate truffles, jam and crackers, kept to red, pink and white."
+  },
+  {
+   "q": "How do you cut a heart into brie?",
+   "a": "Use a small heart cookie cutter or the tip of a paring knife to cut through the top rind only, then lift that piece of rind off."
+  },
+  {
+   "q": "Is this board for two?",
+   "a": "It serves 4 to 6. For a board sized for two, see the Valentine's board in Boards for Two."
+  }
+ ],
+ "blog": [
+  "prosciutto-rose",
+  "charcuterie-board-chocolate"
+ ],
+ "slug": "valentines-day-charcuterie-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

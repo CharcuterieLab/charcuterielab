@@ -1,0 +1,142 @@
+{
+ "number": "TB-05",
+ "book": "two",
+ "title": "Honeymoon Suite Board",
+ "category": "for-two",
+ "image": "/images/boards/two-05.webp",
+ "h1": "Honeymoon Suite Charcuterie Board",
+ "seo_title": "Honeymoon Charcuterie Board for Two: Tropical Shopping List",
+ "description": "A honeymoon charcuterie board for two: aged Gouda, Manchego, smoked duck breast, prosciutto, lychees, mango and macadamia nuts. Tropical, easy and hotel-room friendly.",
+ "hook": "Tropical, effortless and hotel-room friendly: a board you can put together with a pocketknife and a mini fridge.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "Tray or 12\" board",
+ "prep_time": "20 min",
+ "cost": "$38–$56",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Smoked duck breast, sliced",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Fresh lychees, peeled",
+     "slug": null
+    },
+    {
+     "name": "Mango, sliced",
+     "slug": "mango"
+    },
+    {
+     "name": "Dried pineapple",
+     "slug": "pineapple"
+    },
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Mango chutney",
+     "slug": "mango-chutney"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Thin crackers",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Nothing here needs a kitchen. Firm aged Gouda and Manchego travel well, smoked duck breast and prosciutto come sliced, and the fruit is the kind that is ready to eat the moment it's peeled.",
+  "Lychees, mango and dried pineapple bring the vacation flavor, and their sweetness is what makes the salty duck and prosciutto taste so good. Macadamia nuts, mango chutney and dark chocolate finish it, with a dry Riesling or sparkling rosé."
+ ],
+ "timeline": [
+  {
+   "when": "Before you go",
+   "what": "Ask the hotel about a nearby gourmet market; pack a small knife."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Gouda and manchego."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; peel the lychees and slice the mango."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board on a tray."
+  },
+  {
+   "when": "T–0",
+   "what": "Zest lime over the fruit. Pour."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's an easy charcuterie board for a hotel room?",
+   "a": "Pick firm cheeses (aged Gouda, Manchego), pre-sliced meats (smoked duck breast, prosciutto), fruit you can peel, nuts, chutney, dark chocolate and thin crackers. A cutting board or even a clean tray works."
+  },
+  {
+   "q": "Where do I find smoked duck breast?",
+   "a": "Specialty grocers and some larger supermarkets carry it near the cured meats. Extra prosciutto is a fine swap."
+  },
+  {
+   "q": "How long can it sit out?",
+   "a": "No more than 2 hours, or 1 hour above 90°F, which matters on a balcony in the tropics. Keep the meat in the mini fridge until you're ready."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "charcuterie-board-for-one"
+ ],
+ "slug": "honeymoon-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

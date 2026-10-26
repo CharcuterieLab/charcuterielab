@@ -1,0 +1,138 @@
+{
+ "number": "TB-10",
+ "book": "two",
+ "title": "Midnight Indulgence Board",
+ "category": "for-two",
+ "image": "/images/boards/two-10.webp",
+ "h1": "Midnight Indulgence Board for Two",
+ "seo_title": "Late-Night Charcuterie Board for Two: Blue Cheese & Port",
+ "description": "A late-night charcuterie board for two: Stilton-style blue, triple-crème brie, prosciutto, fennel salami, dark chocolate, dried figs and shortbread, with port.",
+ "hook": "Small, sweet and slightly decadent: a board for the end of the night, with blue cheese, chocolate and a glass of port.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "10–12\" board",
+ "prep_time": "10 min",
+ "cost": "$22–$34",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Blue cheese",
+     "slug": "stilton"
+    },
+    {
+     "name": "Triple-crème brie",
+     "slug": "triple-creme"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Finocchiona or fennel salami",
+     "slug": "finocchiona"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Butter cookies or shortbread",
+     "slug": "shortbread"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This is a dessert board that still counts as charcuterie. A Stilton-style blue and a triple-crème brie are the two cheeses that love sweet things most, and prosciutto and fennel salami bring just enough salt.",
+  "Dark chocolate, dried figs, candied pecans, honey and shortbread are classic partners for blue cheese. Tawny or ruby port is the traditional match: its sweetness softens the blue and makes the chocolate taste richer."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the blue cheese."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the brie and the meats."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Pour the port."
+  },
+  {
+   "when": "T–0",
+   "what": "Lights low."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes with port and cheese?",
+   "a": "Blue cheese is the classic pairing, especially Stilton. Add dark chocolate, dried figs, candied pecans, honey and shortbread."
+  },
+  {
+   "q": "Is this a dessert board?",
+   "a": "Mostly. It's built for after dinner or late at night, so the portions are small and the sweets do as much work as the cheese."
+  },
+  {
+   "q": "Can I skip the blue cheese?",
+   "a": "Yes. An aged Gouda gives you a similar sweet-salty contrast without the blue flavor."
+  }
+ ],
+ "blog": [
+  "stilton",
+  "dessert-board"
+ ],
+ "slug": "midnight-snack-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

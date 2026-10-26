@@ -1,68 +1,85 @@
 {
- "slug": "farm-to-table-charcuterie-board",
  "number": "B1-48",
  "book": "main",
  "title": "Farm-to-Table Local Board",
  "category": "classic-budget-luxury",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-48-farm-to-table-local.webp",
- "blog": [],
+ "h1": "Farm-to-Table Local Charcuterie Board",
+ "seo_title": "Farm-to-Table Charcuterie Board: Local Shopping Guide (8–12)",
+ "description": "A farm-to-table charcuterie board for 8–12: local farmstead cheddar, chèvre and blue, artisan salami and ham, seasonal fruit, local honey, jam and sourdough.",
+ "hook": "Everything local and in season: a board built from the farmers market, where the story behind each item is part of the flavor.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$95",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Local Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Local Farmstead Cheddar",
-     "slug": null
+     "name": "Farmstead cheddar",
+     "slug": "aged-cheddar"
     },
     {
-     "name": "Artisan Chèvre (local goat)",
-     "slug": null
+     "name": "Local chèvre",
+     "slug": "fresh-chevre"
     },
     {
-     "name": "Local Blue or Washed-Rind",
+     "name": "Local blue or washed-rind",
      "slug": null
     }
    ]
   },
   {
-   "name": "Breads & Crackers",
+   "name": "Meat",
    "items": [
     {
-     "name": "Artisan Sourdough (local bakery) 4–6",
+     "name": "Artisan salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Local cured ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Seasonal fruit",
+     "slug": null
+    },
+    {
+     "name": "Seasonal vegetables",
+     "slug": null
+    },
+    {
+     "name": "Local honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Seasonal jam",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Sourdough",
      "slug": "sourdough"
     },
     {
-     "name": "Local Multigrain Crackers",
+     "name": "Multigrain crackers",
      "slug": null
     },
     {
-     "name": "Rye Crispbread",
+     "name": "Rye crispbread",
      "slug": "rye-crispbread"
-    }
-   ]
-  },
-  {
-   "name": "Local Meats",
-   "items": [
-    {
-     "name": "Artisan Salami (local producer)",
-     "slug": null
-    },
-    {
-     "name": "Local Cured Ham or Prosciutto-St",
-     "slug": null
-    },
-    {
-     "name": "Edible Herbs (fresh, from garde",
-     "slug": null
     }
    ]
   },
@@ -70,47 +87,71 @@
    "name": "Extras",
    "items": [
     {
-     "name": "Local Nuts (walnuts, pecans, ha",
-     "slug": "walnuts"
-    },
-    {
-     "name": "Local Pickles or Ferments",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Local Produce",
-   "items": [
-    {
-     "name": "Local Mustard or Aioli",
+     "name": "Local nuts",
      "slug": null
     },
     {
-     "name": "Seasonal Fruit (whatever is peak)",
+     "name": "Local pickles or ferments",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Fresh herbs",
      "slug": null
     },
     {
-     "name": "Seasonal Vegetables (radishes,",
-     "slug": null
-    },
-    {
-     "name": "Local Honey (raw, from the mar",
-     "slug": "honey"
-    },
-    {
-     "name": "Seasonal Jam (local producer)",
+     "name": "Local mustard",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "This board isn't a fixed list. It's a method: one cheddar, one fresh goat cheese and one adventurous cheese from local makers, a salami and a ham from a local producer, and whatever fruit is at its peak that week.",
+  "Small cards with each producer's name and town make the board a conversation, and people taste more carefully when they know where something came from."
+ ],
+ "timeline": [
+  {
+   "when": "Market morning",
+   "what": "Shop the market and talk to the producers."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Take out the cheeses; prep the produce."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Place the cheeses; write the labels."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats, produce, bread and condiments."
+  },
+  {
+   "when": "T–0",
+   "what": "Tell the story as guests arrive."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a farm-to-table charcuterie board?",
+   "a": "A board built from local, seasonal ingredients: cheese, meat, produce, honey and bread from nearby farms and makers."
+  },
+  {
+   "q": "What if my market doesn't have local charcuterie?",
+   "a": "Use a local cheese or two and a good artisan salami from a regional maker. The point is in-season produce and a few local stars."
+  },
+  {
+   "q": "How do you label a local board?",
+   "a": "Small cards with the producer's name, town and one flavor note."
+  }
+ ],
+ "blog": [
+  "fall-charcuterie-board",
+  "summer-charcuterie-board"
+ ],
+ "slug": "farm-to-table-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

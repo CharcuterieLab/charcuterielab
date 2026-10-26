@@ -1,0 +1,146 @@
+{
+ "number": "KB-15",
+ "book": "keto",
+ "title": "Keto Seafood & Smoked Fish Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-15.webp",
+ "h1": "Keto Seafood & Smoked Fish Board",
+ "seo_title": "Keto Seafood Board: Smoked Salmon, Shrimp & Shopping List",
+ "description": "A keto seafood board for 6: smoked salmon, shrimp, cream cheese, goat cheese, brie, cucumbers, endive, eggs, avocado, capers and dill. About 8 g net carbs per serving.",
+ "hook": "Smoked salmon, shrimp and bright lemon: a coastal keto board that feels light.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "18–20\" board",
+ "prep_time": "30 min",
+ "cost": "$42–$66",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Shrimp",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Belgian endive",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Lemon",
+     "slug": null
+    },
+    {
+     "name": "Avocados",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Capers",
+     "slug": "capers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Seafood is close to zero carbs, so this board is built around smoked salmon and chilled shrimp, with cream cheese, goat cheese and brie to go with them.",
+  "Endive leaves, cucumbers and radishes carry the fish, and capers, dill, lemon and a little horseradish give it the sharp, fresh flavors seafood needs. Serve the seafood on a chilled platter. About 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie, cream cheese and goat cheese."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the cucumber; separate the endive; cut the lemons."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; keep the seafood in the fridge."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the shrimp and salmon on ice or last. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a seafood charcuterie board?",
+   "a": "Smoked salmon, cooked shrimp, cream cheese, a soft cheese, cucumbers, endive, hard-boiled eggs, avocado, capers, dill, lemon and horseradish."
+  },
+  {
+   "q": "How do you keep seafood cold on a board?",
+   "a": "Set the shrimp and salmon on a platter over ice, or chill the platter first. Keep it out no more than 2 hours."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving for 6."
+  }
+ ],
+ "blog": [
+  "smoked-salmon-cream-cheese-pairing",
+  "best-smoked-salmon"
+ ],
+ "slug": "keto-seafood-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

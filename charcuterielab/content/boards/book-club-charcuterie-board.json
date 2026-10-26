@@ -1,111 +1,157 @@
 {
- "slug": "book-club-charcuterie-board",
  "number": "B1-29",
  "book": "main",
  "title": "Book Club Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-29-book-club-afternoon.webp",
- "blog": [],
+ "h1": "Book Club Charcuterie Board",
+ "seo_title": "Book Club Charcuterie Board for 6–10: Shopping List & Plan",
+ "description": "A book club charcuterie board for 6–10: triple-crème brie, aged white cheddar, Manchego, Gorgonzola dolce, prosciutto, speck, pear, figs and truffle honey.",
+ "hook": "A refined afternoon board, arranged from mild to bold so the cheeses become part of the conversation.",
  "serves": "6–10",
  "guests": 10,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "20–25 min",
  "cost": "$50–$80",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Triple-Crème Brie (Brillat-Savar",
+     "name": "Triple-crème brie",
      "slug": "triple-creme"
+    },
+    {
+     "name": "Aged white cheddar",
+     "slug": "aged-cheddar"
     },
     {
      "name": "Manchego",
      "slug": "manchego"
     },
     {
-     "name": "Blue Cheese (Gorgonzola Dolce)",
-     "slug": null
-    },
-    {
-     "name": "Aged White Cheddar",
-     "slug": null
+     "name": "Gorgonzola dolce",
+     "slug": "gorgonzola"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
-   "items": [
-    {
-     "name": "Champagne Grapes",
-     "slug": "champagne-grapes"
-    },
-    {
-     "name": "Fresh Figs (halved) or Dried 4 figs",
-     "slug": "figs"
-    },
-    {
-     "name": "Pear",
-     "slug": null
-    },
-    {
-     "name": "Truffle Honey",
-     "slug": "truffle-honey"
-    },
-    {
-     "name": "Quince Paste (Membrillo)",
-     "slug": "membrillo"
-    },
-    {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Prosciutto di Parma",
      "slug": "prosciutto-di-parma"
     },
     {
-     "name": "Speck (smoked prosciutto)",
+     "name": "Speck",
      "slug": "speck"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
     },
     {
-     "name": "Dark Chocolate (85%)",
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Pear",
+     "slug": "pears"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Quince paste",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Dark chocolate",
      "slug": "dark-chocolate"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Walnut Rosemary Crisps",
-     "slug": null
+     "name": "Walnut rosemary crisps",
+     "slug": "walnuts"
     },
     {
-     "name": "Thin Baguette slices",
+     "name": "Baguette",
      "slug": "baguette"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "The cheeses go in tasting order: mild triple-crème brie, then aged white cheddar, nutty Manchego and finally Gorgonzola dolce. A board that leads people from mild to bold gets talked about, which suits a book club.",
+  "Silky prosciutto and lightly smoky speck sit between the cheeses, and each cheese has a partner: truffle honey for the brie, quince paste for the Manchego and pear for the blue."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take all the cheeses out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the pear and figs; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses in tasting order; set out the truffle honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the prosciutto, speck and fruit."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour the wine as members arrive."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you serve at a book club?",
+   "a": "A cheese board is ideal: easy to graze while talking. Four cheeses from mild to strong, two cured meats, fruit, honey, nuts and crackers."
+  },
+  {
+   "q": "What order should cheeses go in?",
+   "a": "Mild to strong: fresh or soft, then semi-firm, then aged, then blue. Taste them in that order too."
+  },
+  {
+   "q": "What wine goes with this board?",
+   "a": "A dry white like Sauvignon Blanc for the brie and a light red like Pinot Noir for the Manchego and speck."
+  }
+ ],
+ "blog": [
+  "cheeses-from-mild-to-strong",
+  "wine-cheese-board"
+ ],
+ "slug": "book-club-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

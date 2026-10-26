@@ -1,0 +1,141 @@
+{
+ "number": "TB-21",
+ "book": "two",
+ "title": "Italian Amore Board",
+ "category": "for-two",
+ "image": "/images/boards/two-21.webp",
+ "h1": "Italian Antipasto Board for Two",
+ "seo_title": "Italian Antipasto Board for Two: Burrata, Prosciutto & Plan",
+ "description": "An Italian antipasto board for two: burrata, Parmigiano, provolone, prosciutto di Parma, soppressata, mortadella, artichokes and olives, with Chianti Classico.",
+ "hook": "Antipasto, burrata and a bottle of red: a board for two that eats like a long Italian dinner.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" olive-wood board",
+ "prep_time": "25 min",
+ "cost": "$36–$51",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Burrata",
+     "slug": "burrata"
+    },
+    {
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Fontina or provolone",
+     "slug": "fontina"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Mortadella",
+     "slug": "mortadella"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Marinated artichoke hearts",
+     "slug": "marinated-artichokes"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Extra-virgin olive oil and balsamic",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Ciabatta or focaccia",
+     "slug": "ciabatta"
+    },
+    {
+     "name": "Grissini",
+     "slug": "grissini"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Burrata is the centerpiece: cut it open at the table and the creamy center spills onto the board. Cherry tomatoes, olive oil and balsamic around it make an instant caprese, while Parmigiano and provolone add the salty, firm side.",
+  "Prosciutto, soppressata and mortadella cover silky, spicy and rich, and marinated artichokes and Castelvetrano olives cut through all three. Chianti Classico has the acidity Italian food is built around."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take out the Parmigiano and fontina."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the burrata and the meats."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Warm the bread."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Open the burrata at the table."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on an Italian antipasto board?",
+   "a": "Burrata or fresh mozzarella, Parmigiano-Reggiano, provolone, prosciutto, soppressata, mortadella, cherry tomatoes, marinated artichokes, olives, olive oil and balsamic, focaccia and grissini."
+  },
+  {
+   "q": "When should I take out the burrata?",
+   "a": "About 20 minutes before serving. It should be cool, not fridge-cold, and it's best eaten within an hour of opening."
+  },
+  {
+   "q": "What wine goes with antipasto?",
+   "a": "Chianti Classico, made from Sangiovese. It's bright enough for tomatoes and cured meats."
+  }
+ ],
+ "blog": [
+  "burrata-prosciutto-pairing",
+  "burrata"
+ ],
+ "slug": "italian-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

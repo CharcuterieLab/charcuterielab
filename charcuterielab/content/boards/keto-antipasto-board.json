@@ -1,0 +1,136 @@
+{
+ "number": "KB-11",
+ "book": "keto",
+ "title": "Keto Italian Antipasto Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-11.webp",
+ "h1": "Keto Italian Antipasto Board",
+ "seo_title": "Keto Antipasto Board: Italian Charcuterie Without Bread",
+ "description": "A keto Italian antipasto board for 8: fresh mozzarella, provolone, Parmesan, prosciutto, Genoa salami, soppressata, olives, peppers and pesto. About 5 g net carbs.",
+ "hook": "Antipasto without the bread basket: almost everything on an Italian antipasto platter is already low-carb.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "18–20\" board",
+ "prep_time": "30–35 min",
+ "cost": "$62–$90",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Fresh mozzarella",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Provolone",
+     "slug": "aged-provolone"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Italian dry salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    },
+    {
+     "name": "Pepperoncini",
+     "slug": "pepperoncini"
+    },
+    {
+     "name": "Basil pesto",
+     "slug": "fresh-basil"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Italian antipasto is naturally close to keto: three cheeses (fresh mozzarella, provolone and Parmesan chunks) and three cured meats, plus olives, roasted peppers and pepperoncini from jars.",
+  "The only thing missing is the bread, and cucumber rounds with pesto and fresh basil fill that spot. Two kinds of olives and the pepperoncini give every rich bite a briny, tangy reset. About 5 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the provolone and Parmigiano."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Drain the mozzarella; slice the cucumber."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; drizzle pesto over the mozzarella."
+  },
+  {
+   "when": "T–0",
+   "what": "Tear basil over everything. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is antipasto keto?",
+   "a": "Mostly. Cheese, cured meats, olives, roasted peppers, artichokes and pepperoncini are all low in carbs. Skip the bread and breadsticks."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 5 g net carbs per serving for 8."
+  },
+  {
+   "q": "What can I use instead of bread?",
+   "a": "Cucumber rounds, endive leaves or parmesan crisps."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "charcuterie-skewers"
+ ],
+ "slug": "keto-antipasto-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

@@ -1,24 +1,22 @@
 {
- "slug": "meat-lovers-charcuterie-board",
  "number": "B1-43",
  "book": "main",
  "title": "Meat Lover's Carnivore Board",
  "category": "classic-budget-luxury",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-43-meat-lovers-carnivore.webp",
- "blog": [
-  "best-meats-charcuterie-board"
- ],
+ "h1": "Meat Lover's Charcuterie Board",
+ "seo_title": "Meat Lover's Charcuterie Board for 8–12: Six Cured Meats",
+ "description": "A meat lover's charcuterie board for 8–12: prosciutto, soppressata, bresaola, speck, pepperoni and coppa with aged Parmesan, mustard, cornichons and olives.",
+ "hook": "Six cured meats, one cheese and maximum flavor: the board for people who skip straight to the salami.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "The Six Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Prosciutto di Parma",
@@ -29,11 +27,11 @@
      "slug": "soppressata"
     },
     {
-     "name": "Bresaola (air-dried beef)",
+     "name": "Bresaola",
      "slug": "bresaola"
     },
     {
-     "name": "Speck (smoked prosciutto)",
+     "name": "Speck",
      "slug": "speck"
     },
     {
@@ -41,41 +39,8 @@
      "slug": "pepperoni"
     },
     {
-     "name": "Coppa (cured pork neck)",
+     "name": "Coppa",
      "slug": "coppa"
-    }
-   ]
-  },
-  {
-   "name": "Condiments",
-   "items": [
-    {
-     "name": "Aged Balsamic or Balsamic Glaze",
-     "slug": "balsamic-glaze"
-    },
-    {
-     "name": "Whole Grain Mustard",
-     "slug": "whole-grain-mustard"
-    },
-    {
-     "name": "Fig Jam",
-     "slug": "fig-jam"
-    },
-    {
-     "name": "Cornichons",
-     "slug": "cornichons"
-    },
-    {
-     "name": "Castelvetrano Olives",
-     "slug": "castelvetrano-olives"
-    },
-    {
-     "name": "Arugula (fresh)",
-     "slug": null
-    },
-    {
-     "name": "Red Grapes",
-     "slug": "grapes"
     }
    ]
   },
@@ -84,23 +49,61 @@
    "items": [
     {
      "name": "Aged Parmesan",
-     "slug": null
-    },
-    {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
+     "slug": "parmigiano-reggiano"
     }
    ]
   },
   {
-   "name": "Carriers & Crackers",
+   "name": "Condiments",
    "items": [
     {
-     "name": "Dried Apricots",
-     "slug": "dried-apricots"
+     "name": "Balsamic glaze",
+     "slug": "balsamic-glaze"
     },
     {
-     "name": "Water Crackers (plain)",
+     "name": "Whole grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    }
+   ]
+  },
+  {
+   "name": "Garnish",
+   "items": [
+    {
+     "name": "Arugula",
+     "slug": null
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
@@ -108,18 +111,59 @@
      "slug": "crostini"
     },
     {
-     "name": "Breadsticks (plain)",
-     "slug": null
+     "name": "Breadsticks",
+     "slug": "grissini"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Six meats, tasted from mild to intense, and each one shown the way its texture needs: prosciutto in loose folds, soppressata and pepperoni folded or fanned, bresaola lying flat, speck and coppa in ribbons. Get the display wrong and good meat eats badly.",
+  "One aged Parmesan is all the cheese it needs. Mustard, cornichons and olives cut the fat, and fig jam and apricots add sweetness against the salt."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the Parmesan out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; fill the condiment bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the meats from mild to strong."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the Parmesan, olives, fruit and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter the arugula and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What meats go on a charcuterie board?",
+   "a": "A mix of whole-muscle cuts (prosciutto, speck, coppa, bresaola) and salami (soppressata, pepperoni) gives the best range of textures and flavors."
+  },
+  {
+   "q": "How much meat per person?",
+   "a": "About 2 to 3 oz per person, or more when it's the main food. With six meats, about ½ oz of each per guest."
+  },
+  {
+   "q": "What cheese goes with a meat-heavy board?",
+   "a": "One hard, salty cheese like aged Parmesan or Pecorino. It stands up to the meats without competing."
+  }
+ ],
+ "blog": [
+  "best-meats-charcuterie-board",
+  "types-of-salami"
+ ],
+ "slug": "meat-lovers-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

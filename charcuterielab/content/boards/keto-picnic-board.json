@@ -1,0 +1,142 @@
+{
+ "number": "KB-10",
+ "book": "keto",
+ "title": "Keto Picnic & Travel Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-10.webp",
+ "h1": "Keto Picnic & Travel Board",
+ "seo_title": "Keto Picnic Board: Cooler-Friendly Snacks for Road Trips",
+ "description": "A cooler-friendly keto picnic board for 4: aged cheddar, Gouda, salami, pepperoni, cucumbers, celery, radishes, hard-boiled eggs, olives, pickles and almonds.",
+ "hook": "Cooler-friendly keto for parks and road trips: a board that packs into one container.",
+ "serves": "4",
+ "guests": 4,
+ "board_size": "Container or 12–14\" board",
+ "prep_time": "20 min",
+ "cost": "$26–$40",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Firm, aged cheeses and dry salami and pepperoni are the most travel-proof foods on any board: they handle a cooler and a car ride without sweating or wilting. Cucumbers, celery and radishes stay crisp.",
+  "Hard-boiled eggs and almonds make it filling, and olives and pickles bring the salt and sour bite. Pack it in one container and eat straight from it, or tip it onto a board when you get there."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs; cut the cheese into cubes and the vegetables into sticks."
+  },
+  {
+   "when": "Morning",
+   "what": "Pack everything in separate containers in a cooler with ice packs."
+  },
+  {
+   "when": "At the spot",
+   "what": "Open the cheese first so it can warm a little."
+  },
+  {
+   "when": "+15 min",
+   "what": "Lay everything out on a board or the container lids."
+  },
+  {
+   "when": "+2 hours",
+   "what": "Pack up anything left; above 90°F, after 1 hour."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are good keto snacks for a road trip?",
+   "a": "Aged cheddar and Gouda, salami and pepperoni, hard-boiled eggs, almonds, olives, pickles and crunchy vegetables."
+  },
+  {
+   "q": "How long can it stay in a cooler?",
+   "a": "With ice packs and the lid closed, a few hours. Once it's out, eat within 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 9 g net carbs per serving for 4."
+  }
+ ],
+ "blog": [
+  "how-to-transport-charcuterie-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-picnic-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

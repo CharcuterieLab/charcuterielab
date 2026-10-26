@@ -1,0 +1,156 @@
+{
+ "number": "IB-10",
+ "book": "impossible",
+ "title": "The Cheese Castle Kingdom",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-10.webp",
+ "h1": "Cheese Castle Charcuterie Board",
+ "seo_title": "Cheese Castle Charcuterie Board: How It's Built & What to Buy",
+ "description": "A cheese castle charcuterie board for 12 to 15: walls of cheddar bricks, salami chub towers with prosciutto roofs and a brie courtyard. The hardest board in the book.",
+ "hook": "A fortress of cheese bricks with salami towers, prosciutto roofs and a brie courtyard.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2½ hours",
+ "cost": "$110–$140",
+ "difficulty": "5 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Dry salami chubs",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Block of white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Block of orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Gouda or Colby",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Rosemary",
+     "slug": "rosemary-sprigs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers and pantry",
+   "items": [
+    {
+     "name": "Rectangular and round crackers",
+     "slug": null
+    },
+    {
+     "name": "Small pretzels or pretzel crisps",
+     "slug": "pretzel-crisps"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    },
+    {
+     "name": "Olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The walls are cheese bricks set with cream cheese mortar on a hidden box, so they stand up straight instead of sliding. Four whole salami chubs make the towers, topped with prosciutto roofs.",
+  "Inside the walls, a brie courtyard, and around them cubes of Gouda, salami and fruit feed the guests. It's rated 5 of 5, the hardest board in the book and the most fun, and it's the one people will photograph."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cut all the cheese bricks and build the castle walls (keep it wrapped in the fridge). Shape the prosciutto roofs."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Set the castle on the board, add the towers and the drawbridge."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Lay the moat, then the kingdom around it."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Add the rosemary flags and the forest."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a cheese castle?",
+   "a": "Stack cheddar bricks with cream cheese mortar around a hidden box so the walls stand straight, then add whole salami chubs as towers. The book has the step-by-step build."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "About 2½ hours of active time. It's the most complex board in the book."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese bricks the day before and keep them wrapped. Build the castle on the day. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-kids",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "cheese-castle-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

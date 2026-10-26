@@ -1,22 +1,22 @@
 {
- "slug": "middle-eastern-mezze-board",
  "number": "B1-40",
  "book": "main",
  "title": "Middle Eastern Mezze Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-40-middle-eastern-mezze.webp",
- "blog": [],
+ "h1": "Middle Eastern Mezze Board",
+ "seo_title": "Mezze Platter for 8–14: Hummus, Halloumi & Shopping List",
+ "description": "A Middle Eastern mezze board for 8–14: grilled halloumi, feta, hummus, baba ganoush, tzatziki, muhammara, lamb meatballs, merguez, olives and warm pita.",
+ "hook": "Hummus at the center, warm spices all around: a communal mezze spread with four dips and grilled halloumi.",
  "serves": "8–14",
  "guests": 14,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "20–25 min",
  "cost": "$40–$65",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Halloumi",
@@ -25,23 +25,6 @@
     {
      "name": "Feta",
      "slug": "feta"
-    },
-    {
-     "name": "Tzatziki",
-     "slug": "tzatziki"
-    }
-   ]
-  },
-  {
-   "name": "Dips & Spreads",
-   "items": [
-    {
-     "name": "Hummus (original)",
-     "slug": "hummus"
-    },
-    {
-     "name": "Baba Ganoush",
-     "slug": "baba-ganoush"
     }
    ]
   },
@@ -49,71 +32,139 @@
    "name": "Proteins",
    "items": [
     {
-     "name": "Muhammara (red pepper walnut)",
-     "slug": "muhammara"
-    },
-    {
-     "name": "Spiced Lamb Meatballs (cook",
+     "name": "Lamb meatballs",
      "slug": null
     },
     {
-     "name": "Merguez Sausage (cooked, slic",
+     "name": "Merguez sausage",
      "slug": null
-    },
-    {
-     "name": "Kalamata Olives",
-     "slug": "kalamata-olives"
     }
    ]
   },
   {
-   "name": "Dippers",
+   "name": "Dips",
    "items": [
     {
-     "name": "Cherry Tomatoes",
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Baba ganoush",
+     "slug": "baba-ganoush"
+    },
+    {
+     "name": "Tzatziki",
+     "slug": "tzatziki"
+    },
+    {
+     "name": "Muhammara",
+     "slug": "muhammara"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & vegetables",
+   "items": [
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Cherry tomatoes",
      "slug": null
     },
     {
-     "name": "Pita Bread",
-     "slug": null
-    },
-    {
-     "name": "Roasted Red Peppers",
+     "name": "Roasted red peppers",
      "slug": "roasted-red-peppers"
     },
     {
-     "name": "Pita Chips 1 bag",
-     "slug": "pita-chips"
-    },
-    {
-     "name": "Medjool Dates",
+     "name": "Medjool dates",
      "slug": "medjool-dates"
     },
     {
-     "name": "Cucumber rounds 1 cucumber",
+     "name": "Cucumber",
      "slug": null
     },
     {
-     "name": "Za'atar Seasoning",
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Za'atar",
      "slug": "za-atar"
     },
     {
-     "name": "Pomegranate Arils",
-     "slug": "pomegranate"
+     "name": "Pine nuts",
+     "slug": "pine-nuts"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Pita bread",
+     "slug": null
     },
     {
-     "name": "Pine Nuts (toasted)",
-     "slug": "pine-nuts"
+     "name": "Pita chips",
+     "slug": "pita-chips"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Four dips cover four flavors, which keeps a mezze board from tasting like one long note: earthy hummus, smoky baba ganoush, cool tzatziki and sweet-hot muhammara. Warm pita goes out first.",
+  "Halloumi grills instead of melting, so it can be served warm and golden, and briny feta with olive oil and za'atar is the cold contrast. Lamb meatballs and merguez make it a meal."
+ ],
+ "timeline": [
+  {
+   "when": "T–25 min",
+   "what": "Grill the halloumi; warm the pita; set out the dips."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the merguez; prep the garnishes."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Set the four dip bowls at the center."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the halloumi, meats, fruit and pita."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve the warm pita first."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is on a mezze platter?",
+   "a": "Dips like hummus, baba ganoush, tzatziki and muhammara, feta and halloumi, olives, vegetables, dates, meatballs or sausages, za'atar and pita."
+  },
+  {
+   "q": "How do you grill halloumi?",
+   "a": "Slice it ½ inch thick and cook in a hot dry pan or on a grill for 1 to 2 minutes a side until golden. Serve warm."
+  },
+  {
+   "q": "Can it be vegetarian?",
+   "a": "Yes. Leave out the meatballs and merguez and add falafel or extra halloumi."
+  }
+ ],
+ "blog": [
+  "best-hummus",
+  "vegetarian-charcuterie-board"
+ ],
+ "slug": "middle-eastern-mezze-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

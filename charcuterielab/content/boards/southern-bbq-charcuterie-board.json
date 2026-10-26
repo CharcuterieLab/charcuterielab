@@ -1,25 +1,25 @@
 {
- "slug": "southern-bbq-charcuterie-board",
  "number": "B1-37",
  "book": "main",
  "title": "Southern BBQ-Inspired Board",
  "category": "around-the-world",
- "wave": 4,
- "status": "draft",
  "image": "/images/50-boards-37-southern-bbq-inspired.webp",
- "blog": [],
+ "h1": "Southern BBQ Charcuterie Board",
+ "seo_title": "Southern BBQ Charcuterie Board for 8–14: Pimento Cheese & Plan",
+ "description": "A Southern BBQ charcuterie board for 8–14: pimento cheese, smoked Gouda, pulled pork, smoked sausage, country ham, peaches, pickles, cornbread and biscuits.",
+ "hook": "Smoky and tangy, with pimento cheese at the center: the South on a board.",
  "serves": "8–14",
  "guests": 14,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$45–$70",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Pimento Cheese (homemade or j",
+     "name": "Pimento cheese",
      "slug": "pimento-cheese"
     },
     {
@@ -27,94 +27,135 @@
      "slug": "smoked-gouda"
     },
     {
-     "name": "Sharp White Cheddar",
-     "slug": null
-    },
-    {
-     "name": "Jalapeños (pickled)",
-     "slug": null
+     "name": "Sharp white cheddar",
+     "slug": "aged-cheddar"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Meat",
    "items": [
     {
-     "name": "Sliced Peaches (fresh or jarred)",
+     "name": "Pulled pork",
+     "slug": null
+    },
+    {
+     "name": "Smoked sausage",
+     "slug": null
+    },
+    {
+     "name": "Country ham",
+     "slug": "country-ham"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & pickles",
+   "items": [
+    {
+     "name": "Sliced peaches",
      "slug": "peaches"
     },
     {
      "name": "Watermelon cubes",
-     "slug": null
+     "slug": "melon"
     },
     {
-     "name": "Bread & Butter Pickles",
-     "slug": null
+     "name": "Bread and butter pickles",
+     "slug": "bread-and-butter-pickles"
+    },
+    {
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
     }
    ]
   },
   {
-   "name": "Cured Meats",
+   "name": "Extras",
    "items": [
     {
-     "name": "Pulled Pork (room temp, pre-m",
-     "slug": null
-    },
-    {
-     "name": "Smoked Sausage",
-     "slug": null
-    },
-    {
-     "name": "Country Ham",
-     "slug": "country-ham"
-    },
-    {
-     "name": "Pecans (candied)",
-     "slug": "pecans"
-    }
-   ]
-  },
-  {
-   "name": "Spreads & Extras",
-   "items": [
-    {
-     "name": "BBQ Sauce (tangy)",
+     "name": "BBQ sauce",
      "slug": null
     },
     {
      "name": "Honey",
      "slug": "honey"
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Hot sauce",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Hot Sauce (Crystal or Tabasco)",
+     "name": "Cornbread squares",
      "slug": null
     },
     {
-     "name": "Cornbread squares (small)",
-     "slug": null
+     "name": "Ritz or Club crackers",
+     "slug": "butter-crackers"
     },
     {
-     "name": "Ritz or Club Crackers",
-     "slug": null
-    },
-    {
-     "name": "Biscuit halves (small)",
+     "name": "Biscuit halves",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Pimento cheese is the centerpiece and the reason the board works: sharp cheddar, mayo and pimento make a spread that carries smoke better than any plain cheese. Smoked Gouda and sharp white cheddar back it up.",
+  "Pulled pork, smoked sausage and salty country ham bring the barbecue, and peaches, watermelon, sweet pickles and jalapeños give the sweet, tangy and hot contrasts. Cornbread and biscuits replace the usual baguette."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the cheeses; bring the pulled pork to room temperature."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Cut the cornbread and biscuits; slice the peaches."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the pimento cheese and other cheeses; set out the sauces."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats, fruit, pickles and bread."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Southern charcuterie board?",
+   "a": "Pimento cheese, smoked Gouda, sharp cheddar, pulled pork, smoked sausage, country ham, peaches, watermelon, pickles, jalapeños, BBQ sauce, honey, candied pecans, cornbread and biscuits."
+  },
+  {
+   "q": "Should the pulled pork be warm?",
+   "a": "It can be served warm or at room temperature. If it's been refrigerated, reheat it to steaming and keep it out no more than 2 hours."
+  },
+  {
+   "q": "Can I make pimento cheese ahead?",
+   "a": "Yes. It's better made a day ahead so the flavors blend."
+  }
+ ],
+ "blog": [
+  "best-pimento-cheese",
+  "best-summer-sausage"
+ ],
+ "slug": "southern-bbq-charcuterie-board",
+ "status": "published",
+ "wave": 4,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

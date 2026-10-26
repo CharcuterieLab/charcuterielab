@@ -1,0 +1,132 @@
+{
+ "number": "KB-14",
+ "book": "keto",
+ "title": "Keto Smokehouse BBQ Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-14.webp",
+ "h1": "Keto Smokehouse BBQ Board",
+ "seo_title": "Keto BBQ Charcuterie Board: Smoked Meats & Cheese Plan",
+ "description": "A keto smokehouse board for 8: smoked Gouda, pepper jack, aged cheddar, bacon, kielbasa, smoked beef sausage, pork rinds, pickles and pickled jalapeños.",
+ "hook": "Smoked meats, smoked cheese and zero-carb crunch: a barbecue spread on a board.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "20\" board",
+ "prep_time": "35 min",
+ "cost": "$42–$63",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Smoked gouda",
+     "slug": "smoked-gouda"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Bacon",
+     "slug": null
+    },
+    {
+     "name": "Kielbasa",
+     "slug": "kielbasa"
+    },
+    {
+     "name": "Smoked beef sausage",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Pork rinds",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Pickled jalapeños",
+     "slug": "pickled-jalapenos"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Barbecue flavor without the sugary sauce: smoked Gouda, kielbasa and smoked beef sausage carry the smoke, and bacon and pepper jack add salt and heat.",
+  "Pork rinds are the zero-carb chip, and celery, pickles, pickled jalapeños and whole-grain mustard are the tangy sides that cut the fat. About 5 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the cheeses. Bake the bacon (400°F, about 18 min)."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice and warm the kielbasa and smoked sausage in a skillet."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Cut the celery; fill the mustard and jalapeño bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the warm sausages and pork rinds. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is barbecue keto?",
+   "a": "Smoked meats are, but most barbecue sauces are high in sugar. Mustard, hot sauce and pickles keep the flavor without the carbs."
+  },
+  {
+   "q": "Should the sausage be warm?",
+   "a": "It can be served cool or warm. Sear sliced kielbasa for a minute a side if you want it warm."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 5 g net carbs per serving for 8."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-summer-sausage"
+ ],
+ "slug": "keto-bbq-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

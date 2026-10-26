@@ -1,0 +1,129 @@
+{
+ "number": "KB-02",
+ "book": "keto",
+ "title": "The $30 Budget Keto Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-02.webp",
+ "h1": "$30 Budget Keto Charcuterie Board",
+ "seo_title": "Cheap Keto Charcuterie Board Under $30 (5 g Net Carbs)",
+ "description": "A $30 keto board for 6 from any supermarket: sharp cheddar, pepper jack, salami, pepperoni, eggs, pickles and cucumbers. About 5 g net carbs a serving.",
+ "hook": "Big flavor from any supermarket: a keto board for six that costs about $21 to $30.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "14–16\" board",
+ "prep_time": "20 min",
+ "cost": "$21–$30",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Monterey or pepper Jack",
+     "slug": "monterey-jack"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The cheapest keto foods are also some of the best board foods: block cheddar and pepper Jack you cube yourself, salami and pepperoni, and hard-boiled eggs, which make the board filling for almost nothing.",
+  "Cucumbers, celery and dill pickles supply the crunch and the sour bite, and whole-grain mustard ties it together. Cubing your own cheese is the biggest saving: pre-cut cheese can cost twice as much per ounce."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs; chill them in their shells."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Take the cheddar and Jack out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats. Peel and halve the eggs."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Slice the cucumber and celery; build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Season the eggs with salt and pepper. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a cheap keto board?",
+   "a": "Buy block cheese and cube it yourself, use salami and pepperoni rather than prosciutto, add hard-boiled eggs, and use cucumbers, celery and pickles instead of crackers."
+  },
+  {
+   "q": "How much does it cost?",
+   "a": "About $21 to $30 for six people, depending on your store."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 5 g net carbs per serving, shared by 6."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "budget-charcuterie-board"
+ ],
+ "slug": "budget-keto-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

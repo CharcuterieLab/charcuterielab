@@ -1,0 +1,173 @@
+{
+ "number": "IB-11",
+ "book": "impossible",
+ "title": "The Galaxy",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-11.webp",
+ "h1": "Galaxy Charcuterie Board",
+ "seo_title": "Galaxy Charcuterie Board: Solar System Showpiece & Plan",
+ "description": "A galaxy charcuterie board for 12 to 15: a brie sun, cheese ball planets with Parmesan rings and a burrata moon orbiting on black slate with dark fruit.",
+ "hook": "A whole solar system on black slate: a brie sun, cheese ball planets and a burrata moon.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "40 × 24 in",
+ "prep_time": "90 minutes",
+ "cost": "$110–$140",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Cream cheese plus 8 oz sharp cheddar",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Round of Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Burrata",
+     "slug": "burrata"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Black grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Black plums",
+     "slug": null
+    },
+    {
+     "name": "Orange or lemon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers and snacks",
+   "items": [
+    {
+     "name": "Charcoal or black-sesame crackers",
+     "slug": null
+    },
+    {
+     "name": "Purple potato chips",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Crème fraîche",
+     "slug": null
+    },
+    {
+     "name": "Balsamic glaze",
+     "slug": "balsamic-glaze"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    },
+    {
+     "name": "Black olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Smoked paprika",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Edible gold luster dust and gold star sprinkles",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The planets are cheese balls in different coats, so each one looks different and tastes different. Grated Parmesan makes Saturn's rings, a whole brie is the sun and burrata is the moon.",
+  "Black grapes, blackberries and dark plums turn the slate into deep space, and bresaola, soppressata and salami fill the dark areas. It's a favorite for space-themed birthdays and New Year's Eve."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Make and roll the cheese-ball planets and bake the Parmesan rings. Store separately (the rings at room temperature, airtight)."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Make the nebula swirl and set the sun."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Set the planets and the asteroid belt, then fill the dark field."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Scatter the gold stars."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make cheese ball planets?",
+   "a": "Mix cream cheese and sharp cheddar, roll it into balls and give each one a different coating so they look like different planets."
+  },
+  {
+   "q": "What board works best?",
+   "a": "A black slate or dark board, about 40 × 24 inches. The dark background is what makes it look like space."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the cheese ball planets the day before and keep them covered in the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "cheese-ball-recipe",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "galaxy-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

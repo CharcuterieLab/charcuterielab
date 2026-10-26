@@ -1,35 +1,33 @@
 {
- "slug": "keto-charcuterie-board",
  "number": "B1-46",
  "book": "main",
  "title": "Low-Carb Keto Board",
- "category": "dietary-kids",
- "wave": 2,
- "status": "draft",
+ "category": "keto-low-carb",
  "image": "/images/50-boards-46-low-carb-keto.webp",
- "blog": [
-  "keto-charcuterie-board"
- ],
+ "h1": "Low-Carb Keto Charcuterie Board",
+ "seo_title": "Low-Carb Keto Charcuterie Board for 6–10: Plan & Shopping",
+ "description": "A low-carb keto board for 6–10: aged cheddar, Gouda, brie, Parmesan, Genoa salami, prosciutto, bresaola, endive, celery, bacon crisps and berries. No crackers.",
+ "hook": "Zero crackers, fat-forward and full of flavor: four cheeses and four meats with endive, celery and bacon crisps to carry them.",
  "serves": "6–10",
  "guests": 10,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "20–25 min",
  "cost": "$45–$70",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Cheddar",
+     "name": "Aged cheddar",
      "slug": "aged-cheddar"
     },
     {
-     "name": "Gouda (aged)",
+     "name": "Aged Gouda",
      "slug": "aged-gouda"
     },
     {
-     "name": "Brie (small wheel)",
+     "name": "Brie",
      "slug": "brie"
     },
     {
@@ -39,47 +37,10 @@
    ]
   },
   {
-   "name": "Fruits",
+   "name": "Meat",
    "items": [
     {
-     "name": "Blackberries",
-     "slug": null
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
-    },
-    {
-     "name": "Strawberry halves",
-     "slug": null
-    },
-    {
-     "name": "Herbed Cream Cheese (block)",
-     "slug": "cream-cheese"
-    },
-    {
-     "name": "Guacamole (fresh)",
-     "slug": null
-    },
-    {
-     "name": "Whole Grain Mustard",
-     "slug": "whole-grain-mustard"
-    },
-    {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
-    },
-    {
-     "name": "Pepperoncini",
-     "slug": "pepperoncini"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Salami Genoa",
+     "name": "Genoa salami",
      "slug": "genoa-salami"
     },
     {
@@ -97,29 +58,116 @@
    ]
   },
   {
-   "name": "Keto Vehicles",
+   "name": "Keto dippers",
    "items": [
     {
-     "name": "Endive leaves (as scoops) 8–10 leaves",
+     "name": "Endive leaves",
      "slug": null
     },
     {
-     "name": "Celery sticks 4–6 stalks",
+     "name": "Celery sticks",
      "slug": null
     },
     {
-     "name": "Bacon Crisps (baked)",
+     "name": "Cucumber rounds",
      "slug": null
+    },
+    {
+     "name": "Bacon crisps",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Herbed cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Guacamole",
+     "slug": null
+    },
+    {
+     "name": "Whole grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Pepperoncini",
+     "slug": "pepperoncini"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Take away the crackers and the cheese has nowhere to hide, so this board uses four cheeses that cover every texture: crumbly aged cheddar, caramel-like Gouda, creamy brie and intense Parmesan.",
+  "Endive leaves are the elegant keto scoop, thick cucumber rounds carry the meat, and baked bacon crisps are the most satisfying cracker swap of all. Berries are the lowest-sugar fruit, so they're the only fruit here."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Bake the bacon crisps; cool them on a rack."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Cube the cheeses; prep the cucumber and endive."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the dips and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fan the meats; add the berries and dippers."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you put on a keto charcuterie board?",
+   "a": "Hard and soft cheeses, cured meats, low-carb dippers like endive, celery and cucumber, bacon crisps, berries, nuts, olives, mustard and guacamole."
+  },
+  {
+   "q": "What can replace crackers on keto?",
+   "a": "Endive leaves, cucumber rounds, celery, bacon crisps and parmesan crisps."
+  },
+  {
+   "q": "Are there more keto boards?",
+   "a": "Yes. Keto & Low-Carb Boards has 20 more, each with net carbs per serving."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-cheese-crisps"
+ ],
+ "slug": "keto-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

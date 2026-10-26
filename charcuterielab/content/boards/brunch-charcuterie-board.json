@@ -1,132 +1,173 @@
 {
- "slug": "brunch-charcuterie-board",
  "number": "B1-11",
  "book": "main",
  "title": "Breakfast & Brunch Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-11-breakfast-and-brunch.webp",
- "blog": [],
+ "h1": "Breakfast & Brunch Charcuterie Board",
+ "seo_title": "Brunch Charcuterie Board for 8–12: Shopping List & Plan",
+ "description": "A brunch charcuterie board for 8–12: smoked salmon, cream cheese, Boursin, brie, prosciutto, berries, mini croissants and bagel chips, built in 25 to 30 minutes.",
+ "hook": "Sweet and savory morning food on one board: a bagel-and-lox corner, a croissant-and-brie corner and plenty of fruit, ready for the mimosas.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$50–$80",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Cream Cheese (plain + flavored) 8 oz",
+     "name": "Cream cheese",
      "slug": "cream-cheese"
     },
     {
-     "name": "Boursin (herbed)",
-     "slug": "boursin"
+     "name": "Boursin",
+     "slug": null
     },
     {
      "name": "Brie",
      "slug": "brie"
-    },
-    {
-     "name": "Fresh Strawberries",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Sweet Elements",
+   "name": "Meat & fish",
    "items": [
     {
-     "name": "Honey (raw local)",
-     "slug": "honey"
-    },
-    {
-     "name": "Strawberry Jam / Preserves",
-     "slug": null
-    },
-    {
-     "name": "Fig Jam",
-     "slug": "fig-jam"
-    }
-   ]
-  },
-  {
-   "name": "Morning Proteins",
-   "items": [
-    {
-     "name": "Blueberries",
-     "slug": null
-    },
-    {
-     "name": "Smoked Salmon (Lox)",
+     "name": "Smoked salmon",
      "slug": "smoked-salmon"
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
     },
     {
      "name": "Prosciutto",
      "slug": "prosciutto-di-parma"
     },
     {
-     "name": "Sliced Peaches or Melon",
-     "slug": "peaches"
-    },
-    {
-     "name": "Mini Salami/Turkey Salami",
-     "slug": null
+     "name": "Mini salami",
+     "slug": "genoa-salami"
     }
    ]
   },
   {
-   "name": "Breads & Bases",
+   "name": "Fruit",
    "items": [
     {
-     "name": "Bagel chips or mini bagels 1 cup/6 mini",
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Sliced peaches or melon",
+     "slug": "peaches"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Bagel chips",
      "slug": "bagel-chips"
     },
     {
-     "name": "Crostini (baguette rounds) 12–15 pieces",
+     "name": "Crostini",
      "slug": "crostini"
     },
     {
-     "name": "Croissants (mini)",
+     "name": "Mini croissants",
      "slug": null
     },
     {
-     "name": "Graham Crackers (honey)",
+     "name": "Graham crackers",
      "slug": "graham-crackers"
     }
    ]
   },
   {
-   "name": "Savory Extras",
+   "name": "Extras",
    "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Strawberry jam",
+     "slug": "berries"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
     {
      "name": "Capers",
      "slug": "capers"
     },
     {
-     "name": "Cucumber Slices ½ cucumber",
+     "name": "Cucumber slices",
      "slug": null
     },
     {
-     "name": "Everything Bagel Seasoning",
+     "name": "Everything bagel seasoning",
      "slug": "everything-bagel-seasoning"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "A brunch board needs both halves of brunch. Smoked salmon, cream cheese, capers and everything bagel seasoning make the savory corner, and croissants, brie, jam and honey make the sweet one. Guests build whichever breakfast they came for.",
+  "Capers next to the salmon matter more than they look: their sharp, salty bite cuts the richness of the fish and the cream cheese. Fresh berries and peaches give the board color and a fresh note to finish."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the brie out of the fridge; soften the cream cheese; wash the fruit."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Halve the croissants; slice the cucumber."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; lay out the salmon and meats."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the fruit, breads, jams and capers."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour the mimosas and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a brunch charcuterie board?",
+   "a": "Smoked salmon, cream cheese, a soft cheese like brie, prosciutto, berries and peaches, mini croissants, bagel chips, crostini, jam, honey, capers and cucumber."
+  },
+  {
+   "q": "Can I make a brunch board the night before?",
+   "a": "Wash the fruit and slice the cucumber the night before, and keep them covered in the fridge. Assemble in the morning so the croissants and crackers stay crisp. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "What drinks go with a brunch board?",
+   "a": "Mimosas, a light sparkling wine, coffee or fresh juice."
+  }
+ ],
+ "blog": [
+  "bagel-board",
+  "smoked-salmon-cream-cheese-pairing"
+ ],
+ "slug": "brunch-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

@@ -1,0 +1,133 @@
+{
+ "number": "TB-17",
+ "book": "two",
+ "title": "Truffle & Aged Cheese Board",
+ "category": "for-two",
+ "image": "/images/boards/two-17.webp",
+ "h1": "Truffle & Aged Cheese Board for Two",
+ "seo_title": "Truffle Cheese Board for Two: Aged Parmigiano & Nebbiolo",
+ "description": "A truffle cheese board for two: 24-month Parmigiano-Reggiano, Sottocenere-style truffle cheese, prosciutto di Parma, truffle salami, aged balsamic and truffle honey.",
+ "hook": "Earthy, aged and worth every penny: a small board that spends its budget on flavor, not volume.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14\" slate or dark wood board",
+ "prep_time": "25 min",
+ "cost": "$44–$65",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Parmigiano-Reggiano, 24 months",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Truffle cheese",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Truffle salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Luxury extras",
+   "items": [
+    {
+     "name": "Aged balsamic vinegar",
+     "slug": null
+    },
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Fresh figs or pear",
+     "slug": "figs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Plain water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Truffle and aged cheese share the same savory, earthy depth, so they make each other taste bigger. Crunchy 24-month Parmigiano, a truffle cheese like Sottocenere, truffle salami and prosciutto di Parma are all from the same part of the flavor map.",
+  "A few drops of aged balsamic on the Parmigiano and truffle honey on the truffle cheese add sweetness without hiding anything. Fresh figs or pear and Marcona almonds keep it from feeling heavy, and Nebbiolo is the classic wine for truffles."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the Parmigiano."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the truffle cheese."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; open the Nebbiolo to breathe."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Drizzle the balsamic and truffle honey."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What cheese goes with truffle?",
+   "a": "Aged, nutty cheeses: Parmigiano-Reggiano, aged pecorino and truffle-studded cheeses like Sottocenere. Creamy brie with truffle honey is another favorite."
+  },
+  {
+   "q": "What wine goes with truffle cheese?",
+   "a": "Nebbiolo (Barolo or Langhe Nebbiolo) is the traditional match. Its earthy, rose-like aroma suits truffle."
+  },
+  {
+   "q": "Is truffle honey real truffle?",
+   "a": "Many are flavored with truffle aroma rather than truffle pieces. Check the label; both taste good, but the ones with real truffle cost more."
+  }
+ ],
+ "blog": [
+  "parmesan-vs-parmigiano-reggiano",
+  "best-honey-for-cheese"
+ ],
+ "slug": "truffle-and-aged-cheese-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

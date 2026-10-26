@@ -1,0 +1,165 @@
+{
+ "number": "IB-19",
+ "book": "impossible",
+ "title": "New Year's Champagne Pop",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-19.webp",
+ "h1": "Champagne Pop Charcuterie Board",
+ "seo_title": "Champagne Bottle Charcuterie Board for New Year's Eve",
+ "description": "A New Year's champagne pop board for 12 to 15: a bottle outlined in salami and filled with grapes and cucumbers, with a brie label and a gold Gouda neck.",
+ "hook": "The cork just flew, and the bubbles are cheese: a champagne bottle popping across a black slate.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "36 × 24 in",
+ "prep_time": "75 minutes",
+ "cost": "$140–$180",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Wheel of brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Sharp white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Wedge of Manchego",
+     "slug": "manchego"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Green seedless grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Charcoal crackers",
+     "slug": null
+    },
+    {
+     "name": "Fine crisps",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry and extras",
+   "items": [
+    {
+     "name": "Pitted black olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Mixed green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Edible gold luster dust and edible gold star sprinkles",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "There's no bottle. The shape is folded Genoa salami laid straight on black slate and filled in like a coloring book with cucumbers, green grapes and olives. An oval cut from a wheel of brie becomes the label, and thin aged Gouda brushed with edible gold makes the foil neck.",
+  "Bubbles burst out of the top, and prosciutto, soppressata, bresaola and white cheddar fill the slate around it. It's the board for New Year's Eve, an engagement or any celebration with a toast."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cut the cheddar cubes, slice the cucumber and cut the brie oval. Store each separately, covered."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Brush the Gouda \"foil\" and toss the almonds in gold luster."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Build the bottle, then the bubble spray, then fill the corners."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Scatter the gold stars and set out the coupes."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a champagne bottle board?",
+   "a": "Outline the bottle in folded salami on a black slate, fill it with cucumbers, grapes and olives, cut the label from a wheel of brie and make the gold neck from thin Gouda. The book has the full layout and steps."
+  },
+  {
+   "q": "Is it hard?",
+   "a": "No. It's rated 2 of 5 and takes about 75 minutes."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the cheese and wash the grapes the day before. Build it within 2 hours of midnight. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-new-years-eve",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "champagne-bottle-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

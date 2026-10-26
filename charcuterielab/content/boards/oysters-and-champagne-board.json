@@ -1,0 +1,128 @@
+{
+ "number": "TB-16",
+ "book": "two",
+ "title": "Oysters & Champagne Board",
+ "category": "for-two",
+ "image": "/images/boards/two-16.webp",
+ "h1": "Oysters & Champagne Board for Two",
+ "seo_title": "Oysters & Champagne Board for Two: Raw Bar at Home",
+ "description": "An oysters and Champagne board for two: a dozen fresh oysters on ice, chilled shrimp, Comté, mignonette, cocktail sauce, lemon and baguette with salted butter.",
+ "hook": "A raw bar for two at home: a dozen oysters on crushed ice, chilled shrimp and one good cheese.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "Platter with crushed ice + small board",
+ "prep_time": "30 min",
+ "cost": "$42–$64",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Luxury extras",
+   "items": [
+    {
+     "name": "Fresh oysters, live",
+     "slug": null
+    },
+    {
+     "name": "Cooked shrimp, chilled",
+     "slug": null
+    },
+    {
+     "name": "Crushed ice",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Comté or Gruyère",
+     "slug": "comte"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Lemon",
+     "slug": null
+    },
+    {
+     "name": "Mignonette",
+     "slug": null
+    },
+    {
+     "name": "Cocktail sauce",
+     "slug": null
+    },
+    {
+     "name": "Horseradish",
+     "slug": null
+    },
+    {
+     "name": "Hot sauce",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Baguette, sliced, with salted butter",
+     "slug": "baguette"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Brut Champagne and oysters are a famous pairing for a reason: the wine's acidity and bubbles act like a squeeze of lemon on the oyster's briny, mineral taste. Chilled shrimp with cocktail sauce gives you something for the oyster-shy.",
+  "One nutty cheese, Comté or Gruyère, and baguette with salted butter turn it from an appetizer into an evening. Mignonette, horseradish, hot sauce and lemon let each oyster taste a little different."
+ ],
+ "timeline": [
+  {
+   "when": "Same day",
+   "what": "Buy oysters from a reputable fishmonger; keep them cold, cup side down, under a damp towel."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Make the mignonette; chill the Champagne."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Shuck the oysters (or have the fishmonger do it within the hour)."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Fill the platter with crushed ice; set the oysters and shrimp."
+  },
+  {
+   "when": "T–0",
+   "what": "Open the Champagne."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many oysters for two people?",
+   "a": "About 6 to 12 each, depending on whether it's the main event. The board in the book plans for a dozen oysters plus shrimp."
+  },
+  {
+   "q": "Do I have to shuck the oysters myself?",
+   "a": "Many seafood counters will shuck them for you the same day. If you shuck at home, use an oyster knife and a folded towel to protect your hand."
+  },
+  {
+   "q": "Who shouldn't eat raw oysters?",
+   "a": "Raw oysters can carry Vibrio and other bacteria, so health agencies advise against them for pregnant people, young children, older adults and anyone with a weakened immune system. Keep them on ice and eat them within an hour."
+  }
+ ],
+ "blog": [
+  "best-prosecco",
+  "charcuterie-board-two"
+ ],
+ "slug": "oysters-and-champagne-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

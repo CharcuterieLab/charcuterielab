@@ -1,109 +1,109 @@
 {
- "slug": "easter-charcuterie-board",
  "number": "B1-24",
  "book": "main",
  "title": "Easter Spring Board",
  "category": "seasonal-holiday",
- "wave": 3,
- "status": "draft",
  "image": "/images/50-boards-24-easter-spring.webp",
- "blog": [],
+ "h1": "Easter Charcuterie Board",
+ "seo_title": "Easter Charcuterie Board for 10–16: Spring Shopping List",
+ "description": "An Easter charcuterie board for 10–16: a whole brie, herbed goat cheese, Havarti, Babybel, prosciutto, honey ham, berries, snap peas, lemon curd and chocolate eggs.",
+ "hook": "A pastel spring board for a family Easter: mild cheeses, honey ham, berries and mini chocolate eggs.",
  "serves": "10–16",
  "guests": 16,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$50–$80",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Brie",
      "slug": "brie"
     },
     {
-     "name": "Goat Cheese",
-     "slug": null
+     "name": "Herbed goat cheese",
+     "slug": "fresh-chevre"
     },
     {
      "name": "Havarti",
      "slug": "havarti"
     },
     {
-     "name": "Baby Babybel",
-     "slug": null
-    },
-    {
-     "name": "Snap Peas",
+     "name": "Babybel",
      "slug": null
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
-   "items": [
-    {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
-    },
-    {
-     "name": "Blueberries",
-     "slug": null
-    },
-    {
-     "name": "Radishes",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Prosciutto",
      "slug": "prosciutto-di-parma"
     },
     {
-     "name": "Honey Ham",
+     "name": "Honey ham",
      "slug": "honey"
-    },
-    {
-     "name": "Lemon Curd",
-     "slug": "lemon-curd"
     }
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Fruit & vegetables",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
    "items": [
     {
      "name": "Honey",
      "slug": "honey"
+    },
+    {
+     "name": "Lemon curd",
+     "slug": "lemon-curd"
+    },
+    {
+     "name": "Candied walnuts",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Mini chocolate eggs",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Candied Walnuts",
-     "slug": "walnuts"
-    },
-    {
-     "name": "Butter Crackers",
+     "name": "Butter crackers",
      "slug": "butter-crackers"
     },
     {
-     "name": "Mini Chocolate Eggs",
-     "slug": null
-    },
-    {
-     "name": "Rice Crackers",
+     "name": "Rice crackers",
      "slug": "rice-crackers"
     },
     {
@@ -113,12 +113,52 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "A family Easter needs cheeses everyone eats: a whole brie scored on top, herbed goat cheese, mild Havarti and Babybel wheels for the kids. Prosciutto and honey ham are the two meats, one salty and one sweet.",
+  "Spring produce does the decorating: berries, sliced radishes and snap peas in pastel and bright colors. Lemon curd is the unusual touch, and it's wonderful with the goat cheese. Mini chocolate eggs go on last."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the brie out of the fridge."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Wash and slice the fruit and vegetables; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the brie and goat cheese, then the other cheeses."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fan the ham; add the berries and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter the chocolate eggs and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on an Easter charcuterie board?",
+   "a": "Brie, goat cheese, Havarti, Babybel, prosciutto, honey ham, berries, radishes, snap peas, honey, lemon curd, candied walnuts, mini chocolate eggs and crackers."
+  },
+  {
+   "q": "Is it kid-friendly?",
+   "a": "Yes. The cheeses are mild, the ham is sweet and the chocolate eggs are a hit. Halve grapes or berries for small children."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Wash the produce and slice the cheese the night before. Build the board on Easter morning. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-kids"
+ ],
+ "slug": "easter-charcuterie-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

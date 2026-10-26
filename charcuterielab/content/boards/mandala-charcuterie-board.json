@@ -1,0 +1,149 @@
+{
+ "number": "IB-16",
+ "book": "impossible",
+ "title": "The Mandala",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-16.webp",
+ "h1": "Mandala Charcuterie Board",
+ "seo_title": "Mandala Charcuterie Board: Nine Rings & Shopping List",
+ "description": "A mandala charcuterie board for 12 to 15: nine perfect rings of salami roses, prosciutto, Manchego, cheddar diamonds, berries and cucumbers around a whole brie.",
+ "hook": "Nine perfect rings, one hypnotic circle, built out from a whole brie.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "36–40 in across",
+ "prep_time": "2 hours",
+ "cost": "$100–$130",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Thin-sliced Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Thin-sliced salami or soppressata",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Round of brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Manchego or white cheddar",
+     "slug": "manchego"
+    },
+    {
+     "name": "Sharp orange cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Pomegranate",
+     "slug": "pomegranate"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Light round crackers",
+     "slug": null
+    },
+    {
+     "name": "Dark round crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Pitted green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Pitted Kalamata olives",
+     "slug": "kalamata-olives"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Each ring repeats one tiny pattern all the way around: salami roses, prosciutto roses, Manchego wedges, cheddar diamonds, cucumbers, cherry tomatoes and berries. Repetition is what makes it look so precise.",
+  "It's rated 3 of 5 because it only takes patience, not skill. A round board 36 to 40 inches across gives it room, and every guest can reach every ring."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cut the white cheese wedges and cheddar diamonds, roll the prosciutto and salami roses, and slice the cucumbers. Store each separately."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Set the brie and build the rings from the center out."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Add the outer ring and the pomegranate star."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a mandala charcuterie board?",
+   "a": "Start with a whole brie in the center and build rings outward, each one repeating a single pattern of meat, cheese or fruit all the way around."
+  },
+  {
+   "q": "What size board do I need?",
+   "a": "A round board 36 to 40 inches across."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the meat roses and cut the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "how-to-make-a-salami-rose",
+  "charcuterie-board-presentation"
+ ],
+ "slug": "mandala-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

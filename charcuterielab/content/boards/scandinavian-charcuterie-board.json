@@ -1,120 +1,152 @@
 {
- "slug": "scandinavian-charcuterie-board",
  "number": "B1-41",
  "book": "main",
  "title": "Scandinavian Nordic Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-41-scandinavian-nordic.webp",
- "blog": [],
+ "h1": "Scandinavian Nordic Board",
+ "seo_title": "Scandinavian Charcuterie Board for 6–10: Gravlax & Rye",
+ "description": "A Scandinavian charcuterie board for 6–10: Jarlsberg, dill Havarti, gravlax, smoked herring, Swedish meatballs, lingonberry jam, pickled beets and rye crispbread.",
+ "hook": "Gravlax, dill and rye: the flavors of the North, with salt, acid, fat and smoke all in plain sight.",
  "serves": "6–10",
  "guests": 10,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Jarlsberg (Norwegian)",
+     "name": "Jarlsberg",
      "slug": "jarlsberg"
     },
     {
-     "name": "Danish Havarti",
+     "name": "Dill Havarti",
      "slug": "havarti"
-    },
-    {
-     "name": "Cucumber (sliced thin) ½ cucumber",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Fish & meat",
    "items": [
     {
-     "name": "Lingonberry Jam",
-     "slug": null
-    },
-    {
-     "name": "Dill (fresh bunches)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Seafood & Meat",
-   "items": [
-    {
-     "name": "Radishes (sliced) 4 radishes",
-     "slug": null
-    },
-    {
-     "name": "Gravlax (cured salmon)",
+     "name": "Gravlax",
      "slug": "gravlax"
     },
     {
-     "name": "Smoked Herring or Rollmops",
+     "name": "Smoked herring or rollmops",
      "slug": null
     },
     {
-     "name": "Swedish Meatballs (cooked, r",
-     "slug": null
-    },
-    {
-     "name": "Crème Fraîche",
+     "name": "Swedish meatballs",
      "slug": null
     }
    ]
   },
   {
-   "name": "Condiments & Extras",
+   "name": "Fruit & vegetables",
    "items": [
     {
-     "name": "Gravlax Mustard Sauce (Swedi",
+     "name": "Lingonberry jam",
+     "slug": null
+    },
+    {
+     "name": "Fresh dill",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Pickled beets",
+     "slug": "pickled-beets"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Gravlax mustard sauce",
      "slug": "gravlax"
-    }
-   ]
-  },
-  {
-   "name": "Crackers & Bread",
-   "items": [
+    },
+    {
+     "name": "Crème fraîche",
+     "slug": null
+    },
     {
      "name": "Capers",
      "slug": "capers"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Rye crispbread",
+     "slug": "rye-crispbread"
     },
     {
-     "name": "Finn Crisps (rye)",
-     "slug": null
-    },
-    {
-     "name": "Pickled Beets",
-     "slug": "pickled-beets"
-    },
-    {
-     "name": "Wasa Crispbread",
-     "slug": null
-    },
-    {
-     "name": "Lingonberries",
-     "slug": null
-    },
-    {
-     "name": "Dark Rye Bread slices 4–6 slices",
+     "name": "Dark rye bread",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Nordic food balances salt, acid, fat and smoke, and this board puts all four out: salt-and-dill-cured gravlax, smoked herring, pickled beets and crème fraîche. Mild, nutty Jarlsberg and dill Havarti tie the cheese to the herbs.",
+  "Swedish meatballs with lingonberry jam are the familiar bite that makes it approachable, and sweet-hot gravlax mustard sauce is what gravlax is made for. Dark rye and crispbread carry everything."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Arrange the gravlax; make the mustard sauce."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the rye bread; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the sauces and capers."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Lay the gravlax; add the dill and cucumber."
+  },
+  {
+   "when": "T–0",
+   "what": "Skål! Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is gravlax?",
+   "a": "Salmon cured in salt, sugar and dill. It's not smoked, so it tastes cleaner and more herbal than smoked salmon."
+  },
+  {
+   "q": "What goes on a Scandinavian board?",
+   "a": "Gravlax, smoked or pickled herring, Swedish meatballs, Jarlsberg, Havarti, lingonberry jam, pickled beets, cucumber, radishes, dill, mustard sauce, crème fraîche and rye crispbread."
+  },
+  {
+   "q": "Is gravlax safe during pregnancy?",
+   "a": "Cured, uncooked fish like gravlax is generally advised against during pregnancy. Offer the meatballs and cheeses instead."
+  }
+ ],
+ "blog": [
+  "unique-charcuterie-ingredients"
+ ],
+ "slug": "scandinavian-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

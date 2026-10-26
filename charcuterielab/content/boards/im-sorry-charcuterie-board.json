@@ -1,0 +1,141 @@
+{
+ "number": "TB-06",
+ "book": "two",
+ "title": "'I'm Sorry' Board",
+ "category": "for-two",
+ "image": "/images/boards/two-06.webp",
+ "h1": "The 'I'm Sorry' Charcuterie Board",
+ "seo_title": "'I'm Sorry' Charcuterie Board for Two: How to Build It",
+ "description": "An 'I'm sorry' charcuterie board: their favorite cheese, their favorite meat, their crackers and jam, plus dark chocolate and berries. How to build an apology on a board.",
+ "hook": "Their favorites. All of them. This board isn't about the most impressive cheese, it's about proving you were paying attention.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12–14\" board",
+ "prep_time": "20 min",
+ "cost": "$31–$53",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Their favorite cheese",
+     "slug": null
+    },
+    {
+     "name": "Second cheese you know they like",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Their favorite cured meat",
+     "slug": null
+    },
+    {
+     "name": "Second meat",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Their favorite crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Their favorite jam or spread",
+     "slug": null
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Good dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Cashews or almonds",
+     "slug": "cashews"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The shopping list here is built around one person: their favorite cheese, a second one you know they like, their favorite cured meat and their favorite crackers and jam. Getting those right says more than any expensive wedge would.",
+  "The rest is the board formula that makes anything look generous: good dark chocolate, strawberries and grapes for color, cashews or almonds for crunch and cornichons for a sharp, salty reset."
+ ],
+ "timeline": [
+  {
+   "when": "Earlier",
+   "what": "Think about what they actually love. Write it down."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Shop: good versions of familiar things, not unfamiliar expensive ones."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take the cheese out of the fridge."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Light a candle. Put on something they like."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you put on an apology charcuterie board?",
+   "a": "Their favorites first: the cheese, meat, crackers and jam they always pick. Then add dark chocolate, strawberries, grapes, nuts and cornichons so the board feels full and generous."
+  },
+  {
+   "q": "What if I don't know their favorite cheese?",
+   "a": "Go with crowd-pleasers: a creamy brie and an aged cheddar or Gouda. Then remember what they eat first for next time."
+  },
+  {
+   "q": "How much should I buy?",
+   "a": "About 3 oz of cheese and 3 oz of meat per person when the board is the snack, and less before a meal."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two"
+ ],
+ "slug": "im-sorry-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

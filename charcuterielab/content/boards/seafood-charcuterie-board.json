@@ -1,46 +1,29 @@
 {
- "slug": "seafood-charcuterie-board",
  "number": "B1-34",
  "book": "main",
  "title": "Seafood & Smoke Board",
  "category": "classic-budget-luxury",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-34-seafood-and-smoke.webp",
- "blog": [],
+ "h1": "Seafood & Smoke Board",
+ "seo_title": "Seafood Charcuterie Board for 8–12: Smoked Salmon & Shrimp",
+ "description": "A seafood charcuterie board for 8–12: smoked salmon, smoked trout, shrimp cocktail, cream cheese, Boursin, capers, dill, cucumber and everything bagel chips.",
+ "hook": "Coastal flavors with smoked salmon at the center: a seafood board that feels elegant and a little unexpected.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Cream Cheese",
+     "name": "Cream cheese",
      "slug": "cream-cheese"
     },
     {
-     "name": "Boursin (herbed)",
-     "slug": "boursin"
-    },
-    {
-     "name": "Cucumber rounds",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Fruits & Veggies",
-   "items": [
-    {
-     "name": "Capers (small jar)",
-     "slug": "capers"
-    },
-    {
-     "name": "Red Onion (thin sliced)",
+     "name": "Boursin",
      "slug": null
     }
    ]
@@ -49,72 +32,126 @@
    "name": "Seafood",
    "items": [
     {
-     "name": "Lemon wedges 1 lemon",
-     "slug": null
-    },
-    {
-     "name": "Smoked Salmon (lox-style)",
+     "name": "Smoked salmon",
      "slug": "smoked-salmon"
     },
     {
-     "name": "Smoked Trout Fillet",
+     "name": "Smoked trout",
      "slug": "smoked-trout"
     },
     {
-     "name": "Shrimp Cocktail (cooked)",
-     "slug": null
-    },
-    {
-     "name": "Dill Cream Sauce",
+     "name": "Shrimp cocktail",
      "slug": null
     }
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Fresh",
    "items": [
     {
-     "name": "Dijon Mustard",
+     "name": "Capers",
+     "slug": "capers"
+    },
+    {
+     "name": "Red onion",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Lemon wedges",
+     "slug": null
+    },
+    {
+     "name": "Fresh dill",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces",
+   "items": [
+    {
+     "name": "Dijon mustard",
      "slug": "dijon-mustard"
+    },
+    {
+     "name": "Dill cream sauce",
+     "slug": null
+    },
+    {
+     "name": "Everything bagel seasoning",
+     "slug": "everything-bagel-seasoning"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Fresh Dill sprigs small",
-     "slug": null
-    },
-    {
-     "name": "Everything Bagel Chips 1 bag",
+     "name": "Everything bagel chips",
      "slug": "bagel-chips"
     },
     {
-     "name": "Everything Bagel Seasoning",
-     "slug": "everything-bagel-seasoning"
-    },
-    {
-     "name": "Water Crackers (plain)",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Cream Cheese",
-     "slug": "cream-cheese"
-    },
-    {
-     "name": "Pumpernickel Rounds",
+     "name": "Pumpernickel rounds",
      "slug": "pumpernickel"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Smoked salmon is the anchor: rich, salty and deep pink in long folds across the middle. Flaked smoked trout has a lighter smoke and sits between the salmon and the cream cheese, so the flavors step down gently. Sweet, mild shrimp gives everyone a break from the smoke.",
+  "Capers, red onion, lemon and dill are what make smoked fish taste clean, and cream cheese and Boursin carry them. Keep the seafood cold until the last minute and serve on a chilled platter."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take the cream cheese out to soften; keep the seafood cold."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Shape the cream cheese; slice the cucumber."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the capers and onion."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Lay the salmon, trout and shrimp; add lemon and dill."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve right away."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a seafood charcuterie board?",
+   "a": "Smoked salmon, smoked trout, cooked shrimp, cream cheese, herbed cheese, capers, red onion, cucumber, lemon, dill, sauces and sturdy crackers."
+  },
+  {
+   "q": "How long can seafood sit out?",
+   "a": "No more than 2 hours, or 1 hour above 90°F. Set it on a chilled platter and refill from the fridge."
+  },
+  {
+   "q": "Is smoked salmon safe during pregnancy?",
+   "a": "Refrigerated cold-smoked salmon is on the CDC's list to avoid during pregnancy unless it's cooked. Shrimp cocktail (cooked) is fine if it's kept cold."
+  }
+ ],
+ "blog": [
+  "smoked-salmon-cream-cheese-pairing",
+  "best-smoked-salmon"
+ ],
+ "slug": "seafood-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

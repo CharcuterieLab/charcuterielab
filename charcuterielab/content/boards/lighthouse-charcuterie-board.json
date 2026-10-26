@@ -1,0 +1,168 @@
+{
+ "number": "IB-08",
+ "book": "impossible",
+ "title": "The Lighthouse on the Rocks",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-08.webp",
+ "h1": "Lighthouse Charcuterie Board",
+ "seo_title": "Lighthouse Charcuterie Board: Seafood Showpiece & What to Buy",
+ "description": "A lighthouse charcuterie board for 12 to 15: a striped tower of salami and cheddar rounds on rocks of pumpernickel, with shrimp, smoked salmon and burrata.",
+ "hook": "A striped lighthouse made of stacked salami and cheese rounds stands on a rocky point, its lantern glowing.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "40 × 24 in",
+ "prep_time": "90 minutes",
+ "cost": "$120–$150",
+ "difficulty": "4 of 5",
+ "groups": [
+  {
+   "name": "Meats and seafood",
+   "items": [
+    {
+     "name": "Large-diameter salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Cooked shrimp",
+     "slug": null
+    },
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Block of white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Burrata",
+     "slug": "burrata"
+    },
+    {
+     "name": "Feta",
+     "slug": "feta"
+    },
+    {
+     "name": "Aged cheddar or Gouda",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Dense pumpernickel loaf",
+     "slug": "pumpernickel"
+    },
+    {
+     "name": "Baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Oyster crackers",
+     "slug": null
+    },
+    {
+     "name": "Round crackers",
+     "slug": null
+    },
+    {
+     "name": "Square crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Baby potatoes",
+     "slug": null
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Lemons",
+     "slug": null
+    },
+    {
+     "name": "Dill",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sauces and pantry",
+   "items": [
+    {
+     "name": "Cocktail sauce or a pink Marie Rose sauce",
+     "slug": null
+    },
+    {
+     "name": "Tartar sauce",
+     "slug": null
+    },
+    {
+     "name": "Capers",
+     "slug": "capers"
+    },
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The tower is a stack of alternating salami and white cheddar rounds on a hidden dowel, which is what lets it stand tall. The red and white stripes come from the food itself.",
+  "Around the base, dark pumpernickel makes the rocks, and the sea is shrimp, smoked salmon, burrata, whipped feta and cheese wedges. It's a striking centerpiece for a coastal party or a summer evening."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Slice the salami and cheese rounds and build the tower (keep it wrapped in the fridge). Roast the potatoes and cube the pumpernickel."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Set the tower on its rocky base."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Add the waves, then the beach."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Add the shrimp and salmon from the fridge and light the LED lantern."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How does the lighthouse stand up?",
+   "a": "The salami and cheese rounds are stacked on a food-safe dowel set into a heavy base. The book explains how to build it so it stays steady."
+  },
+  {
+   "q": "What salami do I need?",
+   "a": "An unsliced salami about 3 inches across. Ask the deli for a whole one."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the rounds and the pumpernickel rocks the day before. Keep the seafood cold until the last minute. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "lighthouse-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

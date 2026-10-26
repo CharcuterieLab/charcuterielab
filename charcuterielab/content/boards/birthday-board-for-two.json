@@ -1,0 +1,142 @@
+{
+ "number": "TB-07",
+ "book": "two",
+ "title": "Birthday Celebration Board",
+ "category": "for-two",
+ "image": "/images/boards/two-07.webp",
+ "h1": "Birthday Charcuterie Board for Two",
+ "seo_title": "Birthday Charcuterie Board for Two: Shopping List & Plan",
+ "description": "A birthday charcuterie board for two: brie, aged Gouda, Genoa salami, prosciutto, macarons, chocolate truffles and strawberries, with Champagne or Crémant.",
+ "hook": "All their favorites, plus bubbles: a board that works as the snack, the dessert and the toast.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14\" board",
+ "prep_time": "30 min",
+ "cost": "$37–$56",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie or Camembert",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Macarons",
+     "slug": null
+    },
+    {
+     "name": "Chocolate truffles",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Champagne or red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Thin butter crackers",
+     "slug": "butter-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Brie and aged Gouda cover soft and crunchy, and Genoa salami and prosciutto cover rich and delicate, so the savory half suits almost anyone. The birthday part is the dessert corner: macarons, chocolate truffles, candied pecans and strawberries.",
+  "Putting sweet and salty on one board works because salt makes sweet things taste sweeter and fruit makes cured meat taste less heavy. Champagne or Crémant cuts through the richness of both halves."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Order macarons from a bakery; chill the bubbles."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Gouda."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Take out the brie and meats."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; macarons last."
+  },
+  {
+   "when": "T–0",
+   "what": "Light the candle. Sing."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a birthday charcuterie board?",
+   "a": "A creamy cheese and an aged one, two cured meats, something celebratory like macarons and chocolate truffles, strawberries, grapes, candied pecans, honey and thin butter crackers."
+  },
+  {
+   "q": "Can a charcuterie board replace birthday cake?",
+   "a": "For two, yes. Macarons, chocolate truffles and candied pecans give you a dessert course on the same board. Add a candle to the brie if you want the moment."
+  },
+  {
+   "q": "What should I drink with it?",
+   "a": "Champagne or Crémant. The bubbles and acidity work with both the cheese and the sweets."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-birthday",
+  "charcuterie-board-two"
+ ],
+ "slug": "birthday-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

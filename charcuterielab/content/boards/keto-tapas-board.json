@@ -1,0 +1,129 @@
+{
+ "number": "KB-13",
+ "book": "keto",
+ "title": "Keto Spanish Tapas Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-13.webp",
+ "h1": "Keto Spanish Tapas Board",
+ "seo_title": "Keto Spanish Tapas Board: Manchego & Chorizo (4 g Net Carbs)",
+ "description": "A keto Spanish tapas board for 8: Manchego, goat cheese, dry chorizo, jamón serrano, radishes, olives, roasted peppers and Marcona almonds. About 4 g net carbs.",
+ "hook": "Manchego, chorizo and Marcona almonds: Spanish tapas without the bread, and still very Spanish.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "18–20\" board",
+ "prep_time": "25–30 min",
+ "cost": "$60–$88",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Dry-cured chorizo",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Manchego and dry chorizo are a classic pairing: nutty sheep's milk cheese and smoky, paprika-spiced sausage. Jamón serrano or prosciutto adds a silkier meat, and goat cheese drizzled with olive oil and smoked paprika adds a creamy one.",
+  "Radishes and cucumbers do the crunching, green olives and roasted peppers add brine and sweetness, and Marcona almonds are the Spanish touch. About 4 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the manchego."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the goat cheese; dust it with smoked paprika."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the chorizo and jamón or prosciutto; slice the chorizo."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Drizzle olive oil over the manchego. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Spanish chorizo keto?",
+   "a": "Dry-cured Spanish chorizo is very low in carbs, usually under 1 g per ounce. Check for added sugar."
+  },
+  {
+   "q": "What goes with Manchego on a keto board?",
+   "a": "Chorizo, jamón, Marcona almonds, olives and roasted red peppers."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 4 g net carbs per serving for 8."
+  }
+ ],
+ "blog": [
+  "chorizo-manchego-pairing",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-tapas-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

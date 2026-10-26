@@ -1,0 +1,155 @@
+{
+ "number": "TB-04",
+ "book": "two",
+ "title": "Proposal Night Board",
+ "category": "for-two",
+ "image": "/images/boards/two-04.webp",
+ "h1": "Proposal Night Charcuterie Board",
+ "seo_title": "Proposal Night Charcuterie Board for Two: Shopping & Plan",
+ "description": "A proposal night charcuterie board for two: aged Comté, Brillat-Savarin, jamón ibérico, blinis with crème fraîche and roe, figs and chocolate truffles, with Champagne.",
+ "hook": "Nothing about this night is accidental, including the board: the most luxurious things on it, in small amounts, built well before the question.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board",
+ "prep_time": "40 min",
+ "cost": "$86–$153",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Comté",
+     "slug": "comte"
+    },
+    {
+     "name": "Brillat-Savarin or other triple-crème",
+     "slug": "triple-creme"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Jamón ibérico",
+     "slug": "jamon-iberico"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Luxury extras",
+   "items": [
+    {
+     "name": "Caviar or trout roe",
+     "slug": "caviar"
+    },
+    {
+     "name": "Crème fraîche",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Small blinis",
+     "slug": null
+    },
+    {
+     "name": "Thin herb crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Fresh figs, halved",
+     "slug": "figs"
+    },
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Candied hazelnuts",
+     "slug": "hazelnuts"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Chocolate truffles",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This board is built to be finished early so you aren't plating while your nerves kick in. The luxuries are in small quantities: jamón ibérico, a triple-crème Brillat-Savarin, 18-month Comté and an optional spoon of caviar or trout roe on blinis with crème fraîche.",
+  "Fresh figs, champagne grapes, truffle honey and chocolate truffles round it out, so there's something to celebrate with whichever way the night goes. Vintage Champagne or a Crémant is the obvious pour."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Order the jamón and caviar. Chill the Champagne. Check where the ring is."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Take out the Comté."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the triple-crème; make the prosciutto roses."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Build the board; keep the caviar on ice in the fridge."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the caviar and gold. Open the Champagne together."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you serve on a proposal night?",
+   "a": "Something you can prepare ahead and that feels special: a small board of luxury cheese and ham, blinis with crème fraîche and roe, fresh figs, truffle honey and chocolate truffles, with Champagne."
+  },
+  {
+   "q": "Do I need real caviar?",
+   "a": "No. Trout or salmon roe gives the same pop and color for far less, and the board works without either."
+  },
+  {
+   "q": "How far ahead can I build it?",
+   "a": "Prep everything earlier in the day and keep it covered in the fridge. Assemble about 30 minutes before, and keep it out no longer than 2 hours."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "expensive-board"
+ ],
+ "slug": "proposal-night-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

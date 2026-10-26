@@ -1,0 +1,138 @@
+{
+ "number": "TB-18",
+ "book": "two",
+ "title": "Whiskey & Smoke Board",
+ "category": "for-two",
+ "image": "/images/boards/two-18.webp",
+ "h1": "Whiskey & Smoke Board for Two",
+ "seo_title": "Whiskey & Cheese Board for Two: Smoked Meats & Bourbon",
+ "description": "A whiskey and cheese board for two: 2-year aged cheddar, smoked blue or smoked Gouda, brisket or jerky, andouille, candied pecans, dark chocolate and bacon jam.",
+ "hook": "Smoked meats, sharp cheese and a good pour: a board built around a glass of bourbon.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" dark wood or slate board",
+ "prep_time": "25 min",
+ "cost": "$32–$48",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Smoked blue cheese or smoked Gouda",
+     "slug": "stilton"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Beef jerky or sliced smoked brisket",
+     "slug": null
+    },
+    {
+     "name": "Smoked sausage , sliced",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Dried cherries",
+     "slug": "dried-cherries"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Bacon jam",
+     "slug": "bacon-jam"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Rye crisps",
+     "slug": "rye-crispbread"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Bourbon has caramel, vanilla and oak flavors, so this board leans into smoke and sweetness to match: 2-year aged cheddar, smoked blue or smoked Gouda, smoked brisket or jerky, andouille and bacon jam.",
+  "Candied pecans, dark chocolate and dried cherries echo the sweet side of the whiskey, and whole-grain mustard and rye crisps give it a sharp, spicy edge. Sip neat or with one large ice cube."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the aged cheddar."
+  },
+  {
+   "when": "T–40 min",
+   "what": "Take out the smoked cheese."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Brown the sausage coins lightly in a dry pan, then let them cool."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour two fingers each."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What cheese goes with bourbon?",
+   "a": "Aged cheddar, smoked Gouda and smoked or mild blue cheese. They have enough flavor to stand up to the whiskey's caramel and oak."
+  },
+  {
+   "q": "What snacks go with whiskey?",
+   "a": "Smoked meats, candied pecans, dark chocolate, dried cherries and bacon jam all pick up flavors that are already in the glass."
+  },
+  {
+   "q": "Can I use scotch instead?",
+   "a": "Yes. A smoky Islay scotch suits the smoked cheese, and a sherried scotch suits the chocolate and dried cherries."
+  }
+ ],
+ "blog": [
+  "whiskey-and-cheese-pairing",
+  "charcuterie-board-two"
+ ],
+ "slug": "whiskey-and-smoke-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

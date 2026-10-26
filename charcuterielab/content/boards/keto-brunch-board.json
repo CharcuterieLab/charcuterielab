@@ -1,0 +1,151 @@
+{
+ "number": "KB-09",
+ "book": "keto",
+ "title": "Keto Brunch Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-09.webp",
+ "h1": "Keto Brunch Board",
+ "seo_title": "Keto Brunch Board: Bagel Flavors Without the Bagel",
+ "description": "A keto brunch board for 6: cream cheese, goat cheese, Swiss, smoked salmon, bacon, prosciutto, eggs, avocado, capers and cucumbers. About 8 g net carbs per serving.",
+ "hook": "Bagel board flavors without the bagel: smoked salmon, cream cheese and capers on cucumber instead of bread.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "18–20\" board",
+ "prep_time": "30–35 min",
+ "cost": "$46–$70",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Swiss",
+     "slug": "emmental"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Bacon",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Avocados",
+     "slug": null
+    },
+    {
+     "name": "Lemon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Capers",
+     "slug": "capers"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Everything that makes a bagel and lox taste good is still here: smoked salmon, cream cheese, capers, red onion, dill and lemon. Thick cucumber rounds carry it all instead of bread.",
+  "Bacon, prosciutto, hard-boiled eggs and avocado make it a full brunch, and a few strawberries add sweetness. About 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Swiss. Bake the bacon (400°F, about 18 min)."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the cream cheese and goat cheese to soften."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the cucumber and avocado (squeeze lemon over it)."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the salmon last so it stays cold. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a keto substitute for bagels?",
+   "a": "Thick cucumber rounds, endive leaves or halved hard-boiled eggs all hold cream cheese and smoked salmon."
+  },
+  {
+   "q": "Can I prep it the night before?",
+   "a": "Cook the bacon and boil the eggs the night before. Slice the avocado last so it stays green."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving for 6."
+  }
+ ],
+ "blog": [
+  "smoked-salmon-cream-cheese-pairing",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-brunch-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

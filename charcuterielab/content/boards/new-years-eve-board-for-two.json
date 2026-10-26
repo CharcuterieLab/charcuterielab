@@ -1,0 +1,142 @@
+{
+ "number": "TB-25",
+ "book": "two",
+ "title": "Sparkling New Year's Eve Board",
+ "category": "for-two",
+ "image": "/images/boards/two-25.webp",
+ "h1": "New Year's Eve Charcuterie Board for Two",
+ "seo_title": "New Year's Eve Charcuterie Board for Two: Shopping & Plan",
+ "description": "A New Year's Eve charcuterie board for two: triple-crème brie, aged Gouda, prosciutto, smoked salmon, blini with crème fraîche, chocolate truffles and 24 grapes.",
+ "hook": "Bubbles, gold and twelve grapes at midnight: a board for two that carries you from dinner to the countdown.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board, gold or black",
+ "prep_time": "30 min",
+ "cost": "$40–$61",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Triple-crème brie",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "Aged Gouda",
+     "slug": "aged-gouda"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Pomegranate seeds",
+     "slug": "pomegranate"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Chocolate truffles",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Crème fraîche + chives",
+     "slug": null
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Water crackers + blini",
+     "slug": "water-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "New Year's Eve is a long night, so this board mixes snacks that hold up: triple-crème brie and aged Gouda, prosciutto, smoked salmon on blini with crème fraîche and chives, fig jam and Marcona almonds.",
+  "Twenty-four green grapes are for the Spanish tradition of eating twelve at midnight, one for each chime. Chocolate truffles and pomegranate seeds make it feel like a party, and any dry sparkling wine works."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Chill the bubbles; count out the grapes."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the Gouda."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Build the board; salmon last."
+  },
+  {
+   "when": "11:50 pm",
+   "what": "Set out two small bowls of 12 grapes each."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a New Year's Eve board for two?",
+   "a": "A creamy cheese and an aged one, prosciutto, smoked salmon, blini with crème fraîche and chives, fig jam, almonds, pomegranate seeds, chocolate truffles and green grapes for midnight."
+  },
+  {
+   "q": "What is the twelve grapes tradition?",
+   "a": "In Spain, people eat one grape on each of the twelve chimes at midnight for good luck in each month of the new year."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Prep the toppings in the afternoon and build the board about 30 minutes before you sit down. Refill from the fridge before midnight so nothing sits out longer than 2 hours."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-new-years-eve",
+  "charcuterie-board-two"
+ ],
+ "slug": "new-years-eve-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

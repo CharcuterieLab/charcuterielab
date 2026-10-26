@@ -1,0 +1,142 @@
+{
+ "number": "KB-16",
+ "book": "keto",
+ "title": "Keto Wine Night Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-16.webp",
+ "h1": "Keto Wine Night Board",
+ "seo_title": "Keto Wine and Cheese Board: Shopping List & Pairings",
+ "description": "A keto wine night board for 6: brie, aged Gouda, blue cheese, prosciutto, soppressata, bresaola, endive, olives, walnuts, blackberries and dark chocolate.",
+ "hook": "Three cheeses, three cured meats, one good bottle: a wine and cheese night that fits a keto week.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "16–18\" board",
+ "prep_time": "25 min",
+ "cost": "$50–$75",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Blue cheese",
+     "slug": "stilton"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Belgian endive",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    }
+   ]
+  },
+  {
+   "name": "Sweet finish",
+   "items": [
+    {
+     "name": "90% dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The classic wine and cheese trio is already keto: soft brie, crunchy aged Gouda and a blue. Prosciutto, soppressata and bresaola cover delicate, spicy and lean.",
+  "Endive takes the place of crackers, walnuts and blackberries add the sweet-bitter notes blue cheese loves, and a few squares of 90% dark chocolate finish it. Dry wines are lowest in carbs. About 5 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the aged gouda and blue."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie. Separate the endive leaves."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats. Open the red wine."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What wine is keto-friendly?",
+   "a": "Dry wines have the least sugar: dry sparkling, Sauvignon Blanc, Pinot Grigio, Pinot Noir and Cabernet are typical choices. Sweet and dessert wines are the ones to skip."
+  },
+  {
+   "q": "What goes with blue cheese on a keto board?",
+   "a": "Walnuts, blackberries, dark chocolate and endive."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 5 g net carbs per serving for 6, not counting the wine."
+  }
+ ],
+ "blog": [
+  "wine-cheese-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "keto-wine-night-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

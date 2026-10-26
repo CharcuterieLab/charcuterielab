@@ -1,0 +1,137 @@
+{
+ "number": "TB-13",
+ "book": "two",
+ "title": "Lazy Sunday Board",
+ "category": "for-two",
+ "image": "/images/boards/two-13.webp",
+ "h1": "Lazy Sunday Grazing Board for Two",
+ "seo_title": "Lazy Sunday Snack Board for Two: 15-Minute Shopping List",
+ "description": "A lazy Sunday snack board for two: brie, sharp cheddar, Genoa salami, smoked turkey, hummus, carrots, snap peas, green apple and pita chips. Built in 15 minutes.",
+ "hook": "Built in 15 minutes, grazed all afternoon: a lighter board with as many vegetables as crackers.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board",
+ "prep_time": "15 min",
+ "cost": "$25–$36",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Smoked turkey",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Baby carrots and snap peas",
+     "slug": null
+    },
+    {
+     "name": "Apricot jam",
+     "slug": "apricot-jam"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Green apple",
+     "slug": "apples"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Pita chips",
+     "slug": "pita-chips"
+    },
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This board is meant to sit out for a slow afternoon, so it's lighter than most: smoked turkey alongside the salami, hummus with carrots and snap peas, and a green apple instead of anything heavy.",
+  "Brie and sharp cheddar keep it a proper cheese board, and apricot jam and mixed nuts fill the gaps. Dry rosé or sparkling cider fits an afternoon better than red. Keep the meat and cheese out no more than 2 hours, then top up from the fridge."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take out the cheddar."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Take out the brie."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; apple last."
+  },
+  {
+   "when": "T–0",
+   "what": "Find the couch."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a light snack board for two?",
+   "a": "Brie and cheddar, salami and smoked turkey, hummus, carrots, snap peas, green apple, mixed nuts, apricot jam, pita chips and butter crackers."
+  },
+  {
+   "q": "How long can it stay out?",
+   "a": "Cheese, meat and cut fruit should be out no more than 2 hours, or 1 hour above 90°F. For a long afternoon, keep half in the fridge and refill."
+  },
+  {
+   "q": "What should I drink?",
+   "a": "Dry rosé or a sparkling cider."
+  }
+ ],
+ "blog": [
+  "easy-charcuterie-board",
+  "veggie-tray-ideas"
+ ],
+ "slug": "lazy-sunday-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

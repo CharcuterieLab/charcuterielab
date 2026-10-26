@@ -1,0 +1,152 @@
+{
+ "number": "IB-14",
+ "book": "impossible",
+ "title": "The Cake That Isn't",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-14.webp",
+ "h1": "Charcuterie Cake (The Cake That Isn't)",
+ "seo_title": "Charcuterie Cake: A Savory 'Birthday Cake' Made of Cheese",
+ "description": "A charcuterie cake for 12 to 15: a towering slice of 'birthday cake' with cheese layers, salami jam, cream cheese frosting and sprinkles. Then you cut into it.",
+ "hook": "It looks like a towering slice of birthday cake, with frosting, sprinkles and a cherry on top. Then you cut into it.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 24 in",
+ "prep_time": "2 hours",
+ "cost": "$100–$130",
+ "difficulty": "4 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Thin-sliced Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Thin-sliced salami or soppressata",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni or more salami",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Block of orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Block of white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Plain cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Feta",
+     "slug": "feta"
+    },
+    {
+     "name": "Colby Jack or Gouda",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Each red",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomato with a stem",
+     "slug": null
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    }
+   ]
+  },
+  {
+   "name": "Crackers and pantry",
+   "items": [
+    {
+     "name": "Round and square crackers",
+     "slug": null
+    },
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Lemon juice and a pinch of black pepper",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The sponge is cheese slabs and the jam is salami: stacked layers of orange and white cheddar with thin salami between them, chilled so the layers hold. Cream cheese and feta make the frosting.",
+  "Salami roses, cubed cheese and fruit fill the board around the slice. It's the board for birthdays where someone doesn't like sweets, and the moment you cut it is the show."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cut the cheese slabs, stack and glue the \"cake,\" wrap it tightly and chill it overnight. Make the whipped feta frosting."
+  },
+  {
+   "when": "3 hours before",
+   "what": "Frost the cake, add the sprinkles and the cherry, and return it to the fridge."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Set the cake on the board and build the grazing board around it."
+  },
+  {
+   "when": "Serving",
+   "what": "Cut the first slice at the table so everyone sees the layers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a charcuterie cake?",
+   "a": "A savory 'cake' built from layers of cheese and salami, frosted with cream cheese, that looks like a slice of birthday cake until you cut it."
+  },
+  {
+   "q": "How do the layers stay together?",
+   "a": "A little cream cheese glues each layer, and an hour in the fridge firms it up before frosting. The book has the full method."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Build and chill the cake the day before, and frost it on the day. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-birthday",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "charcuterie-cake",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

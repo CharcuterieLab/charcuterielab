@@ -1,121 +1,164 @@
 {
- "slug": "kid-friendly-charcuterie-board",
  "number": "B1-15",
  "book": "main",
  "title": "Kid-Friendly Board",
  "category": "dietary-kids",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-15-kid-friendly.webp",
- "blog": [
-  "charcuterie-board-for-kids"
- ],
- "serves": null,
- "guests": 8,
- "board_size": "16\"–20\" board",
+ "h1": "Kid-Friendly Charcuterie Board",
+ "seo_title": "Kid-Friendly Charcuterie Board: Easy Family Shopping List",
+ "description": "A kid-friendly charcuterie board for 8–10 families: cheddar sticks, string cheese, pepperoni, rolled turkey, grapes, strawberries, Goldfish, pretzels and dips.",
+ "hook": "No scary flavors, lots of color: a family board of foods kids already know, cut into shapes they can grab.",
+ "serves": "8–10",
+ "guests": 10,
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$35–$55",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Mild Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Mild Cheddar",
+     "name": "Mild cheddar sticks",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "String cheese",
      "slug": null
     },
     {
-     "name": "String Cheese",
-     "slug": null
-    },
-    {
-     "name": "Cream Cheese (plain)",
+     "name": "Cream cheese",
      "slug": "cream-cheese"
-    },
-    {
-     "name": "Blueberries",
-     "slug": null
     }
    ]
   },
   {
-   "name": "Fruits",
+   "name": "Meat",
    "items": [
-    {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Red & Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Apple slices (Honeycrisp)",
-     "slug": "apples"
-    }
-   ]
-  },
-  {
-   "name": "Kid-Friendly Meats",
-   "items": [
-    {
-     "name": "Mandarin Oranges",
-     "slug": null
-    },
     {
      "name": "Pepperoni",
      "slug": "pepperoni"
     },
     {
-     "name": "Turkey/Ham lunchmeat",
+     "name": "Rolled turkey or ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Mandarin oranges",
+     "slug": "mandarins"
+    }
+   ]
+  },
+  {
+   "name": "Crunch",
+   "items": [
+    {
+     "name": "Butter crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Mini pretzels",
      "slug": null
     },
     {
-     "name": "Peanut Butter or Sunflower Butter",
+     "name": "Goldfish crackers",
      "slug": null
     },
     {
-     "name": "Strawberry Jam",
+     "name": "Graham crackers",
+     "slug": "graham-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Peanut or sunflower butter",
      "slug": null
+    },
+    {
+     "name": "Strawberry jam",
+     "slug": "berries"
     },
     {
      "name": "Honey",
      "slug": "honey"
     },
     {
-     "name": "Ranch Dressing (small)",
+     "name": "Ranch dip",
      "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Crunchy Elements",
-   "items": [
-    {
-     "name": "Butter Crackers",
-     "slug": "butter-crackers"
-    },
-    {
-     "name": "Pretzels (mini)",
-     "slug": null
-    },
-    {
-     "name": "Goldfish Crackers",
-     "slug": null
-    },
-    {
-     "name": "Graham Crackers",
-     "slug": "graham-crackers"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Kids eat more of what they recognize, so this board leads with familiar foods: cheddar sticks, string cheese, pepperoni and rolled turkey. Predictable shapes help too. Sticks and cubes feel safer than odd-shaped wedges.",
+  "Fruit arranged in rainbow order makes it fun and gets kids trying more colors. Dips are the other trick: ranch, jam and nut or sunflower butter make apples and crackers more interesting. Halve grapes lengthwise for children under 5."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cheese out; wash the fruit (let the kids help)."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the apples, peel the mandarins and halve the strawberries."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheese and fill the dip cups."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Arrange the fruit in rainbow order; add crackers and pretzels."
+  },
+  {
+   "when": "T–0",
+   "what": "Let the kids serve themselves."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you put on a kids' charcuterie board?",
+   "a": "Mild cheddar, string cheese, pepperoni, rolled turkey or ham, grapes, strawberries, apple slices, blueberries, mandarins, Goldfish, pretzels, butter crackers and dips like ranch or jam."
+  },
+  {
+   "q": "How do you make grapes safe for small children?",
+   "a": "Cut them in half lengthwise, or in quarters for toddlers. Whole grapes are a choking hazard for children under 5."
+  },
+  {
+   "q": "Is it nut-free?",
+   "a": "Use sunflower seed butter instead of peanut butter and check cracker labels for nut warnings."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-kids"
+ ],
+ "slug": "kid-friendly-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

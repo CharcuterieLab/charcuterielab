@@ -1,0 +1,136 @@
+{
+ "number": "TB-23",
+ "book": "two",
+ "title": "Mediterranean Escape Board",
+ "category": "for-two",
+ "image": "/images/boards/two-23.webp",
+ "h1": "Mediterranean Mezze Board for Two",
+ "seo_title": "Mediterranean Board for Two: Halloumi, Feta & Hummus (No Meat)",
+ "description": "A meat-free Mediterranean board for two: grilled halloumi, feta, hummus, tzatziki, dolmas, Kalamata olives, cucumber, tomatoes, roasted peppers and warm pita.",
+ "hook": "Sun-drenched and meat-free: a mezze board for two built around warm halloumi and dips.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" board",
+ "prep_time": "30 min",
+ "cost": "$33–$48",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Halloumi, grilled",
+     "slug": "halloumi"
+    },
+    {
+     "name": "Feta",
+     "slug": "feta"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Hummus",
+     "slug": "hummus"
+    },
+    {
+     "name": "Tzatziki",
+     "slug": "tzatziki"
+    },
+    {
+     "name": "Dolmas",
+     "slug": null
+    },
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Roasted red peppers",
+     "slug": "roasted-red-peppers"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Dried apricots or figs",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Pistachios",
+     "slug": "pistachios"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Pita bread, warmed",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Halloumi is the one cheese that's best hot: grilled, it turns golden outside and squeaky inside. Briny feta gives you a cold, salty contrast, and hummus and tzatziki give you two dips with very different textures.",
+  "Dolmas, Kalamata olives and roasted peppers add the savory notes that meat usually brings, and cucumber and tomatoes keep it fresh. Dried apricots or figs and pistachios finish it, with a Greek Assyrtiko or dry rosé."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Make or plate the dips; take the feta out of the brine."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the cucumber and halve the tomatoes."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Warm the pita."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Grill the halloumi 1–2 minutes per side."
+  },
+  {
+   "when": "T–0",
+   "what": "Squeeze lemon over the halloumi and serve hot."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Mediterranean board?",
+   "a": "Grilled halloumi, feta, hummus, tzatziki, dolmas, Kalamata olives, cucumber, cherry tomatoes, roasted red peppers, warm pita, dried apricots or figs and pistachios."
+  },
+  {
+   "q": "Is this board vegetarian?",
+   "a": "It has no meat. Some cheeses are made with animal rennet, so check labels if you're strictly vegetarian."
+  },
+  {
+   "q": "How do you cook halloumi?",
+   "a": "Slice it about ½ inch thick and cook in a dry nonstick pan over medium-high heat for 1 to 2 minutes a side until golden. Serve right away."
+  }
+ ],
+ "blog": [
+  "vegetarian-charcuterie-board",
+  "best-hummus"
+ ],
+ "slug": "mediterranean-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

@@ -1,0 +1,180 @@
+{
+ "number": "IB-25",
+ "book": "impossible",
+ "title": "Santa's Sleigh",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-25.webp",
+ "h1": "Santa's Sleigh Charcuterie Board",
+ "seo_title": "Santa's Sleigh Charcuterie Board: Christmas Showpiece & List",
+ "description": "A Santa's sleigh charcuterie board for 12 to 15: six cheese-stick reindeer pulling a bread sleigh piled with cheese presents across a snowfield.",
+ "hook": "Six reindeer pull a bread sleigh piled with cheese presents across a snowfield.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 20 in",
+ "prep_time": "2 hours",
+ "cost": "$100–$130",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Extra prosciutto or soppressata for the board",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "White cheddar or mozzarella sticks",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack or Colby Jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "White cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Bread, crackers and produce",
+   "items": [
+    {
+     "name": "Round sourdough boule",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Thin breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Mini pretzel twists",
+     "slug": null
+    },
+    {
+     "name": "Crackers",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Rosemary",
+     "slug": "rosemary-sprigs"
+    },
+    {
+     "name": "Fresh cranberries",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Cashews or almonds",
+     "slug": "cashews"
+    },
+    {
+     "name": "Black peppercorns",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The reindeer are cheese sticks wrapped in prosciutto, with pretzel antlers, so you can make all six the day before. The sleigh is bread, piled with presents of cheddar and pepper jack cubes.",
+  "Salami, summer sausage and mozzarella pearls fill the snowfield. It's the Christmas board kids talk about."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Build the 6 reindeer and refrigerate them, covered, on a tray. Cut and tie the cheese presents. Grate the Parmesan."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Hollow the bread sleigh and lay the snowfield."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Set the sleigh, the reindeer and the reins, then fill the board."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Stand the rosemary trees and add the cranberries."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make cheese stick reindeer?",
+   "a": "Wrap white cheddar or mozzarella sticks in prosciutto for the bodies, use smaller pieces for the heads and legs and add pretzel antlers. The book has the exact cuts."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "About 2 hours, mostly the reindeer. Make them the day before."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the reindeer and cube the cheese presents the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "christmas-charcuterie-board",
+  "christmas-tree-charcuterie-board"
+ ],
+ "slug": "santas-sleigh-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

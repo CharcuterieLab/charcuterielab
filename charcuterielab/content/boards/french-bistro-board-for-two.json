@@ -1,0 +1,137 @@
+{
+ "number": "TB-20",
+ "book": "two",
+ "title": "French Bistro à Deux Board",
+ "category": "for-two",
+ "image": "/images/boards/two-20.webp",
+ "h1": "French Bistro Board for Two",
+ "seo_title": "French Charcuterie Board for Two: Pâté, Brie & Baguette",
+ "description": "A French bistro charcuterie board for two: Brie de Meaux style brie, Comté, pâté de campagne, saucisson sec, baguette, salted butter, cornichons and Dijon.",
+ "hook": "Paris without the plane ticket: a bistro plate of pâté, cheese, bread and butter for two.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" board",
+ "prep_time": "30 min",
+ "cost": "$32–$49",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie de Meaux style or Camembert",
+     "slug": "brie"
+    },
+    {
+     "name": "Comté",
+     "slug": "comte"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Pâté de campagne",
+     "slug": "pate-de-campagne"
+    },
+    {
+     "name": "Jambon de Paris or saucisson sec",
+     "slug": "saucisson-sec"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Baguette",
+     "slug": "baguette"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Salted butter",
+     "slug": null
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Green grapes or a pear",
+     "slug": "grapes"
+    },
+    {
+     "name": "Walnuts",
+     "slug": "walnuts"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A French charcuterie plate is simple on purpose: a soft cheese, a firm one, pâté and a dry sausage, with bread and butter. Creamy brie and nutty Comté cover both cheese styles, and country pâté with saucisson sec covers both meat styles.",
+  "Cornichons and Dijon are the sharp, sour notes that cut the fat, and radishes with salted butter are a very French snack on their own. Green grapes or a pear and a Beaujolais keep it light."
+ ],
+ "timeline": [
+  {
+   "when": "Same day",
+   "what": "Buy the baguette fresh."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Take out the Comté."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the soft cheese."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the pâté and ham; soften the butter."
+  },
+  {
+   "when": "T–0",
+   "what": "Slice the baguette at the table."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's on a French charcuterie board?",
+   "a": "Brie or Camembert, Comté, pâté de campagne, saucisson sec or jambon de Paris, baguette, salted butter, cornichons, Dijon mustard, radishes, grapes or a pear and walnuts."
+  },
+  {
+   "q": "What wine goes with a French board?",
+   "a": "Beaujolais (Gamay) or a Côtes du Rhône. Both are fruity and light enough for pâté and soft cheese."
+  },
+  {
+   "q": "Is pâté safe during pregnancy?",
+   "a": "The CDC advises against refrigerated pâté during pregnancy. Shelf-stable canned pâté is the safer choice, or skip it."
+  }
+ ],
+ "blog": [
+  "best-pate",
+  "brie-charcuterie-board"
+ ],
+ "slug": "french-bistro-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

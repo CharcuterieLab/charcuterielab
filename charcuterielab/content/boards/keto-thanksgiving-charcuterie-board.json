@@ -1,0 +1,145 @@
+{
+ "number": "KB-08",
+ "book": "keto",
+ "title": "Keto Thanksgiving Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-08.webp",
+ "h1": "Keto Thanksgiving Charcuterie Board",
+ "seo_title": "Keto Thanksgiving Charcuterie Board: Light Appetizer Plan",
+ "description": "A keto Thanksgiving appetizer board for 10: cheddar, Gruyère, goat cheese, smoked turkey, prosciutto, celery, radishes, pecans and sage. About 4 g net carbs a serving.",
+ "hook": "A light start before the big meal: a keto appetizer board for ten that won't ruin anyone's appetite.",
+ "serves": "10",
+ "guests": 10,
+ "board_size": "18–20\" board",
+ "prep_time": "30 min",
+ "cost": "$50–$76",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Smoked turkey breast",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Pecans",
+     "slug": "pecans"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Before Thanksgiving dinner, the board should take the edge off hunger without filling anyone up. This one is portioned as a starter: smoked turkey breast, prosciutto and salami with cheddar, Gruyère and a log of goat cheese.",
+  "Celery, cucumbers and radishes are the dippers, pecans and blackberries add fall flavor, and fresh sage leaves make it look like the holiday. At about 4 g net carbs per serving, it's the lowest-carb board in the book."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the cheddar and Gruyère."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the goat cheese; roll the log in chopped pecans if you like."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; roll the turkey."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve, and put it away when dinner starts."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a good keto Thanksgiving appetizer?",
+   "a": "A small board of aged cheddar, Gruyère and goat cheese, smoked turkey and prosciutto, celery, radishes, olives, mustard, pecans and blackberries."
+  },
+  {
+   "q": "How much charcuterie for Thanksgiving appetizers?",
+   "a": "About 1½ to 2 oz each of cheese and meat per guest when dinner follows."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 4 g net carbs per serving for 10."
+  }
+ ],
+ "blog": [
+  "thanksgiving-charcuterie-board",
+  "how-much-charcuterie-for-thanksgiving"
+ ],
+ "slug": "keto-thanksgiving-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

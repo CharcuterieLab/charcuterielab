@@ -1,0 +1,137 @@
+{
+ "number": "TB-22",
+ "book": "two",
+ "title": "Spanish Tapas for Two Board",
+ "category": "for-two",
+ "image": "/images/boards/two-22.webp",
+ "h1": "Spanish Tapas Board for Two",
+ "seo_title": "Spanish Tapas Board for Two: Manchego, Jamón & Shopping List",
+ "description": "A Spanish tapas board for two: aged Manchego, Mahón or Idiazabal, jamón serrano, chorizo, membrillo, Marcona almonds, piquillo peppers and pan con tomate.",
+ "hook": "Small bites, late night, big flavor: a tapas spread for two with pan con tomate made at the table.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" board + small dishes",
+ "prep_time": "30 min",
+ "cost": "$36–$53",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Mahón or Idiazabal",
+     "slug": "mahon"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Jamón serrano",
+     "slug": "jamon-serrano"
+    },
+    {
+     "name": "Chorizo",
+     "slug": "chorizo"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Membrillo",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Spanish olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Piquillo peppers",
+     "slug": "piquillo-peppers"
+    },
+    {
+     "name": "Ripe tomato + garlic clove",
+     "slug": null
+    },
+    {
+     "name": "Extra-virgin olive oil",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Baguette for pan con tomate",
+     "slug": "baguette"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Manchego with membrillo (quince paste) is the most famous Spanish pairing: the sweet, firm paste against the nutty, salty sheep's milk cheese. A second cheese, buttery Mahón or smoky Idiazabal, gives you a contrast.",
+  "Jamón serrano and dry chorizo cover the meat, and Marcona almonds, olives and piquillo peppers fill out the tapas. Rubbing a ripe tomato and garlic on toasted bread makes pan con tomate. Fino sherry or a Rioja Crianza to drink."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out both cheeses."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the jamón and chorizo."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Toast the bread; grate the tomato."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board and the small dishes."
+  },
+  {
+   "when": "T–0",
+   "what": "Make the first pan con tomate together."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Spanish tapas board?",
+   "a": "Aged Manchego, a second Spanish cheese like Mahón or Idiazabal, jamón serrano, dry chorizo, membrillo, Marcona almonds, Spanish olives, piquillo peppers and bread for pan con tomate."
+  },
+  {
+   "q": "How do you make pan con tomate?",
+   "a": "Toast or grill slices of bread, rub them with a cut garlic clove, then rub a halved ripe tomato over the top. Finish with olive oil and salt."
+  },
+  {
+   "q": "What wine goes with tapas?",
+   "a": "Fino sherry, which is dry and nutty, or a Rioja Crianza."
+  }
+ ],
+ "blog": [
+  "chorizo-manchego-pairing",
+  "prosciutto-vs-serrano"
+ ],
+ "slug": "spanish-tapas-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

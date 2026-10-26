@@ -1,55 +1,34 @@
 {
- "slug": "japanese-charcuterie-board",
  "number": "B1-39",
  "book": "main",
  "title": "Japanese-Inspired Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-39-japanese-inspired.webp",
- "blog": [],
+ "h1": "Japanese-Inspired Charcuterie Board",
+ "seo_title": "Japanese Charcuterie Board for 6–10: Umami Shopping List",
+ "description": "A Japanese-inspired charcuterie board for 6–10: smoked Gouda, brie, cream cheese, wagyu or bresaola, smoked salmon, teriyaki jerky, edamame, persimmon and miso honey.",
+ "hook": "Umami-forward and minimal: East-meets-West cheeses with smoked fish, wagyu and miso honey.",
  "serves": "6–10",
  "guests": 10,
- "board_size": "14\"–18\" board",
+ "board_size": "14–18\" board",
  "prep_time": "20–25 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Smoked Gouda (Japanese-style",
+     "name": "Smoked Gouda",
      "slug": "smoked-gouda"
     },
     {
-     "name": "Brie (small wheel)",
+     "name": "Brie",
      "slug": "brie"
     },
     {
-     "name": "Cream Cheese",
+     "name": "Cream cheese",
      "slug": "cream-cheese"
-    },
-    {
-     "name": "Dried Mango",
-     "slug": "dried-mango"
-    }
-   ]
-  },
-  {
-   "name": "Fruits & Veggies",
-   "items": [
-    {
-     "name": "Fuyu Persimmons (sliced) or Asian P",
-     "slug": null
-    },
-    {
-     "name": "Edamame (shelled)",
-     "slug": null
-    },
-    {
-     "name": "Cucumber (thin-sliced) ½ cucumber",
-     "slug": null
     }
    ]
   },
@@ -57,68 +36,130 @@
    "name": "Proteins",
    "items": [
     {
-     "name": "Wagyu Beef Charcuterie or Bre",
-     "slug": null
+     "name": "Wagyu charcuterie or bresaola",
+     "slug": "bresaola"
     },
     {
-     "name": "Smoked Salmon or Ikura Roe",
+     "name": "Smoked salmon or ikura",
      "slug": "smoked-salmon"
     },
     {
-     "name": "Teriyaki Beef Jerky",
-     "slug": null
-    },
-    {
-     "name": "Wasabi Cream (diluted)",
+     "name": "Teriyaki beef jerky",
      "slug": null
     }
    ]
   },
   {
-   "name": "Dips & Extras",
+   "name": "Fruit & vegetables",
    "items": [
     {
-     "name": "Miso Honey",
+     "name": "Fuyu persimmon or Asian pear",
+     "slug": "pears"
+    },
+    {
+     "name": "Edamame",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Dried mango",
+     "slug": "dried-mango"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Miso honey",
      "slug": "honey"
     },
     {
-     "name": "Soy-Glazed Nuts (cashews or a",
-     "slug": "cashews"
+     "name": "Soy-glazed nuts",
+     "slug": null
+    },
+    {
+     "name": "Wasabi cream",
+     "slug": null
+    },
+    {
+     "name": "Pickled ginger",
+     "slug": null
+    },
+    {
+     "name": "Toasted sesame seeds",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Dippers",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Pickled Ginger",
-     "slug": null
-    },
-    {
-     "name": "Rice Crackers (arare)",
+     "name": "Rice crackers",
      "slug": "rice-crackers"
     },
     {
-     "name": "Sesame Seeds (toasted)",
+     "name": "Sesame flatbread",
      "slug": null
     },
     {
-     "name": "Sesame Flatbread",
-     "slug": null
-    },
-    {
-     "name": "Nori Sheets (cut to cracker si",
+     "name": "Nori",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Japanese cooking is built around umami, and this board is too: smoked salmon or ikura, teriyaki jerky, miso honey and soy-glazed nuts all bring savory depth. Brie and cream cheese give that depth something soft and mild to sit on.",
+  "Fuyu persimmon or Asian pear, cucumber and pickled ginger keep it fresh, and nori, rice crackers and sesame flatbread replace the usual crackers. Keep it sparse: a Japanese-style board looks best with space around each item."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the cheeses; mix the miso honey."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the persimmon and cucumber; cut the nori."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and the small bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the salmon, beef, edamame and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Serve with sake or green tea."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is miso honey?",
+   "a": "Equal parts white miso and honey stirred together. It's sweet, salty and savory, and wonderful on brie."
+  },
+  {
+   "q": "Where do I find wagyu charcuterie?",
+   "a": "Some specialty shops sell wagyu bresaola or salami. Regular bresaola is a good swap."
+  },
+  {
+   "q": "What drinks go with it?",
+   "a": "Sake, a crisp Japanese lager, a dry Riesling or green tea."
+  }
+ ],
+ "blog": [
+  "unique-charcuterie-ingredients",
+  "smoked-salmon-cream-cheese-pairing"
+ ],
+ "slug": "japanese-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

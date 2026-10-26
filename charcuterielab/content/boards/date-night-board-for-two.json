@@ -1,24 +1,22 @@
 {
- "slug": "date-night-board-for-two",
  "number": "B1-18",
  "book": "main",
  "title": "Date Night Board for Two",
- "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
+ "category": "for-two",
  "image": "/images/50-boards-18-date-night-board-for-two.webp",
- "blog": [
-  "charcuterie-board-two"
- ],
+ "h1": "Date Night Charcuterie Board for Two",
+ "seo_title": "Date Night Charcuterie Board for Two: Shopping List & Plan",
+ "description": "A date night charcuterie board for two: brie, aged Gouda, chèvre with truffle honey, prosciutto, bresaola, figs, strawberries, dark chocolate and honeycomb.",
+ "hook": "Half portions, one good cheese at each end and a small board you both have to reach into: the classic date night board.",
  "serves": "2",
  "guests": 2,
- "board_size": "10\"–12\" board",
+ "board_size": "10–12\" board",
  "prep_time": "15–20 min",
  "cost": "$35–$55",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Brie",
@@ -29,46 +27,17 @@
      "slug": "aged-gouda"
     },
     {
-     "name": "Chèvre (goat cheese log)",
+     "name": "Chèvre",
      "slug": "fresh-chevre"
-    },
-    {
-     "name": "Honeycomb (small piece) 1.5",
-     "slug": "honeycomb"
     }
    ]
   },
   {
-   "name": "Romantic Elements",
+   "name": "Meat",
    "items": [
-    {
-     "name": "Fresh Figs",
-     "slug": "figs"
-    },
-    {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Dark Chocolate",
-     "slug": "dark-chocolate"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
-   "items": [
-    {
-     "name": "Medjool Dates",
-     "slug": "medjool-dates"
-    },
     {
      "name": "Prosciutto di Parma",
      "slug": "prosciutto-di-parma"
-    },
-    {
-     "name": "Red Grapes (small cluster)",
-     "slug": "grapes"
     },
     {
      "name": "Bresaola",
@@ -77,42 +46,111 @@
    ]
   },
   {
+   "name": "Sweet",
+   "items": [
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
    "name": "Condiments",
    "items": [
     {
-     "name": "Fig Jam",
+     "name": "Fig jam",
      "slug": "fig-jam"
     },
     {
-     "name": "Truffle Honey (or raw honey)",
+     "name": "Truffle honey",
      "slug": "truffle-honey"
     },
     {
-     "name": "Cornichons 5–6 pieces",
+     "name": "Cornichons",
      "slug": "cornichons"
     }
    ]
   },
   {
-   "name": "Bread & Crackers",
+   "name": "Bread",
    "items": [
     {
      "name": "Crostini",
      "slug": "crostini"
     },
     {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "A date night board should be snug, not sparse: three cheeses, two meats and a handful of sweet things, on a board small enough that everything is within reach. Brie, a shard of aged Gouda and chèvre drizzled with truffle honey cover creamy, crunchy and tangy.",
+  "Silky prosciutto and lean, deep-red bresaola look beautiful together, and figs, strawberries, honeycomb and dark chocolate make it a dessert as well as a starter."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take out the cheeses; chill the wine or sparkling."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Set the table and light a candle."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; drizzle the truffle honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Dim the lights; open the wine."
+  },
+  {
+   "when": "T–0",
+   "what": "Bring out the board."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you put on a date night charcuterie board?",
+   "a": "Two or three good cheeses (brie, aged Gouda, chèvre), prosciutto and bresaola, figs, strawberries, dark chocolate, honeycomb, fig jam and crostini."
+  },
+  {
+   "q": "How much charcuterie for two people?",
+   "a": "About 3 to 4 oz of cheese and 1½ to 3 oz of meat per person if it's the main snack, less before dinner."
+  },
+  {
+   "q": "What wine goes with a date night board?",
+   "a": "A dry sparkling wine, Pinot Noir or a light rosé all suit the creamy cheeses and the chocolate."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two"
+ ],
+ "slug": "date-night-board-for-two",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

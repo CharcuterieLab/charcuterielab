@@ -1,0 +1,123 @@
+{
+ "number": "TB-19",
+ "book": "two",
+ "title": "Caviar & Crème Fraîche Board",
+ "category": "for-two",
+ "image": "/images/boards/two-19.webp",
+ "h1": "Caviar & Crème Fraîche Board for Two",
+ "seo_title": "Caviar Board for Two: Blini, Crème Fraîche & What to Buy",
+ "description": "A caviar board for two: caviar or trout roe on ice, crème fraîche, smoked salmon, mini blini or potato chips, chopped egg, shallot, chives and lemon, with Champagne.",
+ "hook": "One tin, two spoons, zero regrets: the classic caviar service, scaled down for a night at home.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "Small platter with ice + 12\" board",
+ "prep_time": "20 min",
+ "cost": "$47–$126",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Luxury extras",
+   "items": [
+    {
+     "name": "Caviar",
+     "slug": "caviar"
+    },
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Crushed ice",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Crème fraîche",
+     "slug": null
+    },
+    {
+     "name": "Hard-boiled eggs",
+     "slug": null
+    },
+    {
+     "name": "Red onion or shallot, finely minced",
+     "slug": null
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    },
+    {
+     "name": "Lemon",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Mini blini",
+     "slug": "blini"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The garnishes on a caviar board are there to stretch one small tin: cool crème fraîche, chopped egg whites and yolks, minced shallot and chives. Each one changes the bite a little, and none of them hide the roe.",
+  "Mini blini are traditional, but thin, plain potato chips are a favorite modern swap. Smoked salmon makes it filling, and brut Champagne or ice-cold vodka is the classic pour."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil and chill the eggs; chill the Champagne or vodka."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Chop the egg, onion and chives into separate small bowls."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Warm the blini at 350°F for 3–4 minutes."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Set the caviar tin on ice; build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Open the tin at the table."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much caviar do you need for two?",
+   "a": "About 30 g (1 oz) is a generous tasting for two. Trout or salmon roe lets you serve more for less."
+  },
+  {
+   "q": "What do you serve with caviar?",
+   "a": "Blini or plain potato chips, crème fraîche, chopped hard-boiled egg, minced shallot or red onion, chives and lemon, with Champagne or vodka."
+  },
+  {
+   "q": "How do you keep caviar cold?",
+   "a": "Set the tin on crushed ice and open it right before serving. Use a bone, mother-of-pearl or plastic spoon; metal can give it a slight off taste."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "expensive-board"
+ ],
+ "slug": "caviar-and-creme-fraiche-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

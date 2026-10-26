@@ -1,0 +1,153 @@
+{
+ "number": "IB-23",
+ "book": "impossible",
+ "title": "The Giant Jack-o'-Lantern",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-23.webp",
+ "h1": "Giant Jack-o'-Lantern Charcuterie Board",
+ "seo_title": "Giant Jack-o'-Lantern Charcuterie Board: Plan & Shopping List",
+ "description": "A giant jack-o'-lantern charcuterie board for 12 to 15: a pumpkin of orange cheddar and apricots, soppressata ribs and a grinning face of olives and blackberries.",
+ "hook": "A grinning pumpkin as big as the table.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "36 to 40 in round board or a black slate round",
+ "prep_time": "75 minutes",
+ "cost": "$90–$120",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Dry Spanish chorizo or hot salami",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Colby or golden cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Muenster or Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "White cheddar and pepper jack",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Black grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "To 8 clementines",
+     "slug": "mandarins"
+    },
+    {
+     "name": "Rosemary",
+     "slug": "rosemary-sprigs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Thin pretzel sticks",
+     "slug": null
+    },
+    {
+     "name": "Pretzel rods",
+     "slug": null
+    },
+    {
+     "name": "Charcoal or black-sesame crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Pitted black olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The face is the trick, and it's just black food: black olives and blackberries filling two triangle eyes, a nose and a jagged grin. Against the bright orange around them (cheddar, Colby, Muenster and dried apricots), they read instantly as carved holes.",
+  "Soppressata lines the pumpkin's ribs and chorizo and pepperoni make a darker outer ring. It's the Halloween board that gets photographed."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Cut all the cheese cubes, slice the soppressata and peel the clementines if you like."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the pretzel outline, the ribs and the face."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Fill the ribs and the face, then the outer ring."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Add the stem bundle and the rosemary vine."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a jack-o'-lantern charcuterie board?",
+   "a": "Fill a big circle with orange cheese and apricots, mark the ribs with soppressata, and fill the eyes, nose and grin with black olives and blackberries."
+  },
+  {
+   "q": "How many people does it feed?",
+   "a": "12 to 15 as the main party food."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cube the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "jack-o-lantern-charcuterie-board",
+  "halloween-charcuterie-board"
+ ],
+ "slug": "giant-jack-o-lantern-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

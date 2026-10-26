@@ -1,0 +1,177 @@
+{
+ "number": "IB-04",
+ "book": "impossible",
+ "title": "The Blue Whale",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-04.webp",
+ "h1": "Blue Whale Charcuterie Board",
+ "seo_title": "Whale Charcuterie Board: Blueberry Showpiece & Shopping List",
+ "description": "A blue whale charcuterie board for 12 to 15: a whale made mostly of blueberries and blackberries, with a cheese belly, swimming through salami and cheese.",
+ "hook": "A giant whale swimming across a sea of food, its body made of blueberries and blackberries.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "75 minutes",
+ "cost": "$100–$130",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats and seafood",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Cooked shrimp",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Thin-sliced white cheddar or provolone",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Blue cheese",
+     "slug": "stilton"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "White cheddar or Havarti",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Small block of cheese to hold the spout",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Cauliflower",
+     "slug": null
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Thin breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Fish-shaped cheese crackers",
+     "slug": null
+    },
+    {
+     "name": "Square crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Pistachios",
+     "slug": "pistachios"
+    },
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Black olive",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This is one of the easiest showpieces in the book, because the whale is mostly berries: pour them into the outline and the shape appears. White cheddar or provolone slices make the striped belly, and a mozzarella eye finishes the face.",
+  "Around the whale, salami and prosciutto roses, chilled shrimp, blue cheese, brie and cubed cheese make the ocean. It suits beach birthdays, baby showers and summer parties."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Draw and cut the whale template, slice the cheese belly strips, and peel the cucumber ribbons (store them in cold water)."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the belly stripes and fill the whale with berries."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Add the spout and the eye, then fill the sea."
+  },
+  {
+   "when": "Last 15 minutes",
+   "what": "Add the shrimp from the fridge."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a whale charcuterie board?",
+   "a": "Outline the whale shape, fill the body with blueberries and blackberries, lay thin cheese slices for the belly and add a mozzarella eye. Fill the rest of the board with meat roses, shrimp and cheese."
+  },
+  {
+   "q": "Is it hard to make?",
+   "a": "It's rated 2 of 5 in the book, one of the easiest showpieces, and takes about 75 minutes."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Wash and dry the berries and make the meat roses the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas",
+  "how-to-make-a-salami-rose"
+ ],
+ "slug": "whale-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

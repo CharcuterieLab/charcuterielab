@@ -1,126 +1,165 @@
 {
- "slug": "baby-shower-charcuterie-board",
  "number": "B1-31",
  "book": "main",
  "title": "Baby Shower Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-31-baby-shower.webp",
- "blog": [
-  "charcuterie-board-baby-shower"
- ],
+ "h1": "Baby Shower Charcuterie Board",
+ "seo_title": "Baby Shower Charcuterie Board Plan & Shopping List (10–16)",
+ "description": "A pregnancy-friendly baby shower board for 10–16: pasteurized Havarti, baby Gouda, herbed cream cheese, cooked prosciutto cotto, turkey, berries and macarons.",
+ "hook": "A soft pastel board built on pasteurized cheeses and cooked meats, so it follows pregnancy food guidance without anyone reading labels.",
  "serves": "10–16",
  "guests": 16,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Havarti",
      "slug": "havarti"
     },
     {
-     "name": "Baby Gouda wheels",
-     "slug": null
+     "name": "Baby Gouda",
+     "slug": "aged-gouda"
     },
     {
-     "name": "Cream Cheese",
+     "name": "Herbed cream cheese",
      "slug": "cream-cheese"
     },
     {
-     "name": "Mild Cheddar Stars (cut)",
-     "slug": null
-    },
-    {
-     "name": "Champagne Grapes",
-     "slug": "champagne-grapes"
+     "name": "Mild cheddar stars",
+     "slug": "aged-cheddar"
     }
    ]
   },
   {
-   "name": "Fruits & Sweets",
+   "name": "Meat",
    "items": [
     {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Raspberries",
-     "slug": null
-    },
-    {
-     "name": "White Chocolate chips",
-     "slug": null
-    },
-    {
-     "name": "Macarons (pastel)",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
-   "items": [
-    {
-     "name": "Prosciutto Cotto (cooked)",
+     "name": "Prosciutto cotto",
      "slug": "prosciutto-cotto"
     },
     {
-     "name": "Turkey Breast",
+     "name": "Turkey breast",
      "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & sweets",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "White chocolate",
+     "slug": null
+    },
+    {
+     "name": "Macarons",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Strawberry jam",
+     "slug": "berries"
     },
     {
      "name": "Honey",
      "slug": "honey"
-    }
-   ]
-  },
-  {
-   "name": "Dips & Extras",
-   "items": [
+    },
     {
-     "name": "Strawberry Jam",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Crackers & Bread",
-   "items": [
-    {
-     "name": "Candied Almonds",
+     "name": "Candied almonds",
      "slug": "almonds"
     },
     {
-     "name": "Butter Crackers",
+     "name": "Edible flowers",
+     "slug": "edible-flowers"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Butter crackers",
      "slug": "butter-crackers"
     },
     {
-     "name": "Edible Flowers",
-     "slug": "edible-flowers"
-    },
-    {
-     "name": "Rice Crackers (mild)",
+     "name": "Rice crackers",
      "slug": "rice-crackers"
     },
     {
-     "name": "Soft Breadsticks",
-     "slug": null
+     "name": "Soft breadsticks",
+     "slug": "grissini"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Pregnancy guidance from the CDC is to avoid unpasteurized cheese and cold cured meats unless they're heated. This board follows it: pasteurized Havarti, baby Gouda, cheddar and cream cheese, with cooked prosciutto cotto and deli turkey. Serve deli meat heated until steaming if the mom-to-be wants to follow that advice strictly.",
+  "The pastel palette sets the mood: pink berries, pale yellow Havarti, white cream cheese and macarons, with cheddar cut into stars as the photo moment."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the cheeses; set out the decorations."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Cut the cheddar stars; wash the fruit."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; add the dips and honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats and berries; scatter the flowers."
+  },
+  {
+   "when": "T–0",
+   "what": "Guests arrive; take the photo."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is charcuterie safe during pregnancy?",
+   "a": "Cured meats and deli meats should be heated until steaming during pregnancy, and cheeses should be pasteurized. This board uses pasteurized cheeses and cooked meats."
+  },
+  {
+   "q": "What cheese is safe for a baby shower?",
+   "a": "Pasteurized hard and semi-soft cheeses like Havarti, Gouda, cheddar and cream cheese. Avoid unpasteurized soft cheeses and check labels."
+  },
+  {
+   "q": "How much food for a baby shower board?",
+   "a": "As the main food, about 2 to 3 oz each of cheese and meat per guest."
+  }
+ ],
+ "blog": [
+  "pregnancy-safe-charcuterie-board",
+  "charcuterie-board-baby-shower"
+ ],
+ "slug": "baby-shower-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

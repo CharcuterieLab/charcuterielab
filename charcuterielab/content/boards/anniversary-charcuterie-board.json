@@ -1,0 +1,141 @@
+{
+ "number": "TB-03",
+ "book": "two",
+ "title": "Anniversary Board",
+ "category": "for-two",
+ "image": "/images/boards/two-03.webp",
+ "h1": "Anniversary Charcuterie Board for Two",
+ "seo_title": "Anniversary Charcuterie Board for Two: Shopping List & Plan",
+ "description": "An anniversary charcuterie board for two: 12-month Manchego, Taleggio, San Daniele prosciutto, bresaola, honeycomb and Medjool dates, with a Nebbiolo to pour.",
+ "hook": "The board you build every year: a little more grown-up than a first date, with two serious cheeses and a bottle worth opening.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board",
+ "prep_time": "30 min",
+ "cost": "$52–$76",
+ "difficulty": "Intermediate",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Taleggio",
+     "slug": "taleggio"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto di San Daniele",
+     "slug": "prosciutto-san-daniele"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Champagne grapes or red grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Medjool dates, pitted",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Walnut bread",
+     "slug": "walnut-raisin-bread"
+    },
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Aged Manchego and Taleggio are a deliberate pair: one firm, nutty and dry, the other soft, savory and pungent in the best way. Silky San Daniele prosciutto and lean, beefy bresaola give the same kind of contrast on the meat side.",
+  "Honeycomb, fig jam and Medjool dates soften the stronger flavors, and cornichons and Marcona almonds keep it from getting too sweet. A structured red like Nebbiolo or red Burgundy has the acidity to stand up to all of it."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the manchego. Open the red wine to breathe."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the Taleggio."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; slice the bread."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Set the honeycomb last. Light the candles."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What should be on an anniversary charcuterie board?",
+   "a": "Two cheeses with real character (aged Manchego and Taleggio), two refined meats (prosciutto and bresaola), honeycomb, fig jam, dates, almonds, cornichons, grapes, walnut bread and water crackers."
+  },
+  {
+   "q": "What wine goes with this board?",
+   "a": "Nebbiolo (Barolo or Langhe Nebbiolo) or a red Burgundy. Both have enough acidity to cut the rich cheese and enough flavor to match the cured meats."
+  },
+  {
+   "q": "Is Taleggio strong?",
+   "a": "It smells stronger than it tastes. The paste is mild, buttery and a little tangy. Take it out of the fridge about 30 minutes before serving so it softens."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two",
+  "taleggio"
+ ],
+ "slug": "anniversary-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

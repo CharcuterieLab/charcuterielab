@@ -1,0 +1,160 @@
+{
+ "number": "IB-05",
+ "book": "impossible",
+ "title": "The Unicorn",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-05.webp",
+ "h1": "Unicorn Charcuterie Board",
+ "seo_title": "Unicorn Charcuterie Board: Rainbow Mane & Shopping List",
+ "description": "A unicorn charcuterie board for 12 to 15: a cream cheese and feta unicorn head with a string cheese horn and a rainbow mane of berries, cheese and prosciutto.",
+ "hook": "A unicorn with a mane like a rainbow, made of berries, cheese and prosciutto.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "90 minutes",
+ "cost": "$110–$140",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Thin-sliced ham or mortadella",
+     "slug": "mortadella"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Cream cheese plus 8 oz feta",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Sharp orange cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Mild yellow cheddar or Colby",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "String cheeses",
+     "slug": null
+    },
+    {
+     "name": "White cheddar or Havarti",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Purple or black grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    },
+    {
+     "name": "Edible flowers",
+     "slug": "edible-flowers"
+    }
+   ]
+  },
+  {
+   "name": "Crackers and pantry",
+   "items": [
+    {
+     "name": "Crackers",
+     "slug": null
+    },
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Black olive",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The head is spread like frosting: cream cheese whipped with feta, smoothed into a unicorn's profile on a white board. A twisted string cheese makes the horn.",
+  "The mane is where the color comes in: rows of raspberries, orange and yellow cheddar, green grapes, blueberries and pink prosciutto in rainbow order. It's a favorite for kids' birthdays because it's familiar food arranged in a magical way."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Whip the cheese for the head and cut the cheese cubes. Draw and cut the head template."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Spread the head and shape the horn."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Lay the rainbow mane from the head outward, then fill the edges."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Add the edible flowers and the cheek."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a unicorn charcuterie board?",
+   "a": "Spread a cream cheese and feta mixture into a unicorn head, add a string cheese horn, then build the mane in rainbow rows of fruit, cheese and meat."
+  },
+  {
+   "q": "Is this good for a kids' party?",
+   "a": "Yes. Most of it is mild cheddar, ham, salami, berries and grapes. Halve grapes lengthwise for children under 5."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Mix the cream cheese and feta and cube the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-kids",
+  "charcuterie-board-birthday"
+ ],
+ "slug": "unicorn-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

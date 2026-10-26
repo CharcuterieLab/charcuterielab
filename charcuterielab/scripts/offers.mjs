@@ -393,6 +393,8 @@ export function makeOffers(h, products, books) {
           const file = join(dir, e.name);
           let html = await readFile(file, "utf8");
           if (/name="robots" content="noindex/.test(html)) continue;
+          // Board pages are sales pages for the $3 plan and the book (26 Oct 2026): no email boxes, slide-ins or extra cards.
+          if (html.includes("<!--no-offers-->")) continue;
           const h1 = ((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]+>/g, "").trim();
           const ctx = { path, title: h1, ...ctxFor(path) };
           const campaign = `top_${path.replace(/^\/|\/$/g, "").replace(/\//g, "_") || "home"}`;

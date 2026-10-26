@@ -1,0 +1,186 @@
+{
+ "number": "IB-15",
+ "book": "impossible",
+ "title": "Fondue Volcano Island",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-15.webp",
+ "h1": "Fondue Volcano Board",
+ "seo_title": "Fondue Volcano Charcuterie Board: Gruyère Lava & What to Buy",
+ "description": "A fondue volcano board for 12 to 15: a sourdough volcano erupting Gruyère and Emmental fondue, with seared kielbasa, chorizo and an island of dippers.",
+ "hook": "A sourdough volcano erupting molten Swiss fondue, with lava running down its sides onto an island of dippers.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "90 minutes",
+ "cost": "$100–$130",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Kielbasa or smoked sausage",
+     "slug": "kielbasa"
+    },
+    {
+     "name": "Dry Spanish chorizo",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Extra salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Emmental or Swiss",
+     "slug": "emmental"
+    },
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Fondue",
+   "items": [
+    {
+     "name": "Dry white wine",
+     "slug": null
+    },
+    {
+     "name": "Cornstarch",
+     "slug": null
+    },
+    {
+     "name": "Garlic clove",
+     "slug": null
+    },
+    {
+     "name": "Lemon juice",
+     "slug": null
+    },
+    {
+     "name": "Pinch of nutmeg",
+     "slug": null
+    },
+    {
+     "name": "Pinch of smoked paprika",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Round sourdough boule",
+     "slug": "sourdough"
+    },
+    {
+     "name": "Baguettes or 1 more boule",
+     "slug": null
+    },
+    {
+     "name": "Soft pretzel rolls or a bag of pretzel bites",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Baby potatoes",
+     "slug": null
+    },
+    {
+     "name": "Broccolini",
+     "slug": null
+    },
+    {
+     "name": "Granny Smith apples and 1 lemon",
+     "slug": "apples"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    },
+    {
+     "name": "Pickled pearl onions",
+     "slug": null
+    },
+    {
+     "name": "Olive oil",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The volcano is a hollowed loaf of sourdough, and the lava refills itself: hot Gruyère and Emmental fondue is poured in and spills over the edges. Guests dip seared kielbasa, chorizo, bread and vegetables straight into it.",
+  "The warm fondue makes it a perfect winter party board. Keep a pot of fondue warm on the stove and top up the volcano as it goes down."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Shred the cheeses and toss them with cornstarch. Cut the bread cubes and let them dry slightly, uncovered. Cut and store the dippers."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Roast the potatoes and char the broccolini. Sear the sausages."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Carve the boule and arrange all the dippers around it."
+  },
+  {
+   "when": "15 minutes before",
+   "what": "Make the fondue, pour it into the crater, and keep the rest warm in a fondue pot."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What cheese is best for fondue?",
+   "a": "Gruyère and Emmental, the classic Swiss pair. Gruyère brings flavor and Emmental makes it smooth and stretchy."
+  },
+  {
+   "q": "Can I make it without wine?",
+   "a": "Yes. The book gives a version made with low-sodium chicken broth and a little lemon juice."
+  },
+  {
+   "q": "How do you keep the fondue warm?",
+   "a": "Keep the main pot on low heat or in a fondue pot and refill the bread volcano every 15 to 20 minutes."
+  }
+ ],
+ "blog": [
+  "gruyere-vs-comte",
+  "winter-charcuterie-board"
+ ],
+ "slug": "fondue-volcano-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

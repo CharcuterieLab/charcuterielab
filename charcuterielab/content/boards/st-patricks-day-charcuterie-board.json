@@ -1,68 +1,68 @@
 {
- "slug": "st-patricks-day-charcuterie-board",
  "number": "B1-23",
  "book": "main",
  "title": "St. Patrick's Day Board",
  "category": "seasonal-holiday",
- "wave": 3,
- "status": "draft",
  "image": "/images/50-boards-23-st-patricks-day.webp",
- "blog": [],
+ "h1": "St. Patrick's Day Charcuterie Board",
+ "seo_title": "St. Patrick's Day Charcuterie Board for 8–12: Shopping & Plan",
+ "description": "A St. Patrick's Day charcuterie board for 8–12: Irish cheddar, Irish Gouda, corned beef, banger slices, soda bread, green grapes, kiwi and whiskey jam.",
+ "hook": "Irish flavors and festive green: Irish cheddar, corned beef and soda bread, with green fruit for color.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–18\" board",
+ "board_size": "16–18\" board",
  "prep_time": "20–25 min",
  "cost": "$45–$70",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Irish Cheddar",
-     "slug": null
+     "name": "Irish cheddar",
+     "slug": "aged-cheddar"
     },
     {
-     "name": "Kerrygold Gouda",
-     "slug": null
+     "name": "Irish Gouda",
+     "slug": "aged-gouda"
     },
     {
-     "name": "Cream Cheese",
+     "name": "Whipped cream cheese",
      "slug": "cream-cheese"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Meat",
    "items": [
     {
-     "name": "Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Green Apple slices",
+     "name": "Corned beef",
      "slug": null
     },
     {
-     "name": "Kiwi slices 2 kiwis",
-     "slug": "kiwi"
+     "name": "Irish banger slices",
+     "slug": null
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
     }
    ]
   },
   {
-   "name": "Cured Meats",
+   "name": "Green",
    "items": [
     {
-     "name": "Corned Beef",
-     "slug": null
+     "name": "Green grapes",
+     "slug": "grapes"
     },
     {
-     "name": "Irish Banger slices (cooked)",
-     "slug": null
+     "name": "Green apple slices",
+     "slug": "apples"
     },
     {
-     "name": "Genoa Salami",
-     "slug": "genoa-salami"
+     "name": "Kiwi slices",
+     "slug": "kiwi"
     },
     {
      "name": "Pistachios",
@@ -71,46 +71,86 @@
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Extras",
    "items": [
     {
-     "name": "Whole Grain Mustard",
+     "name": "Whole grain mustard",
      "slug": "whole-grain-mustard"
     },
     {
-     "name": "Irish Whiskey Jam",
+     "name": "Irish whiskey jam",
      "slug": null
     },
     {
-     "name": "Dill Pickles",
+     "name": "Dill pickles",
      "slug": "dill-pickles"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Soda Bread slices",
+     "name": "Soda bread",
      "slug": null
     },
     {
-     "name": "Wheat Crackers",
-     "slug": null
+     "name": "Wheat crackers",
+     "slug": "whole-wheat-crackers"
     },
     {
-     "name": "Pumpernickel Rounds",
+     "name": "Pumpernickel rounds",
      "slug": "pumpernickel"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Irish grass-fed cheddar is rich and buttery, and corned beef next to it adds a salty, savory bite. Bangers, the classic Irish sausage, make it hearty, and soda bread with whipped cream cheese is the board's most-grabbed pairing.",
+  "Green grapes, green apple and kiwi carry the theme without food coloring, and their tartness cuts the rich cheese. Whole-grain mustard and whiskey jam bring the sharp and the sweet."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take the cheeses and meats out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the cheddar and the soda bread; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; spoon out the jam and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Fan the meats; add the grapes, apple and kiwi."
+  },
+  {
+   "when": "T–0",
+   "what": "Sláinte! Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a St. Patrick's Day charcuterie board?",
+   "a": "Irish cheddar, Irish Gouda, corned beef, bangers, salami, soda bread, pumpernickel, green grapes, green apple, kiwi, pistachios, whole-grain mustard and whiskey jam."
+  },
+  {
+   "q": "What Irish cheese should I buy?",
+   "a": "Irish cheddar is easy to find in most supermarkets. Kerrygold makes both cheddar and Gouda-style cheeses."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Slice the cheese and soda bread a few hours ahead and keep them wrapped. Cut the apple last so it doesn't brown. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  }
+ ],
+ "blog": [
+  "beer-pairing"
+ ],
+ "slug": "st-patricks-day-charcuterie-board",
+ "status": "published",
+ "wave": 3,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

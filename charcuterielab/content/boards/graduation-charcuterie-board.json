@@ -1,63 +1,42 @@
 {
- "slug": "graduation-charcuterie-board",
  "number": "B1-32",
  "book": "main",
  "title": "Graduation Celebration Board",
  "category": "occasions-parties",
- "wave": 4,
- "status": "draft",
  "image": "/images/50-boards-32-graduation-celebration.webp",
- "blog": [],
+ "h1": "Graduation Party Charcuterie Board",
+ "seo_title": "Graduation Party Charcuterie Board for 12–20: Plan & List",
+ "description": "A graduation party charcuterie board for 12–20: cheddar, pepper jack, Colby Jack, salami, pepperoni, turkey, fruit in school colors, dips and crackers.",
+ "hook": "Festive, abundant and color-matched to the school: a crowd-feeding board for 12 to 20 grads, family and friends.",
  "serves": "12–20",
  "guests": 20,
- "board_size": "22\"–28\" board",
+ "board_size": "22–28\" board",
  "prep_time": "30–35 min",
  "cost": "$65–$100",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Sharp Cheddar",
+     "name": "Sharp cheddar",
      "slug": "aged-cheddar"
     },
     {
-     "name": "Pepper Jack",
+     "name": "Pepper jack",
      "slug": "pepper-jack"
     },
     {
      "name": "Colby Jack",
-     "slug": null
-    },
-    {
-     "name": "Cherry Tomatoes",
-     "slug": null
+     "slug": "aged-cheddar"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Meat",
    "items": [
     {
-     "name": "Red & Green Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Baby Carrots",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
-   "items": [
-    {
-     "name": "Hard Salami",
+     "name": "Hard salami",
      "slug": "genoa-salami"
     },
     {
@@ -65,60 +44,118 @@
      "slug": "pepperoni"
     },
     {
-     "name": "Turkey Breast",
-     "slug": null
-    },
-    {
-     "name": "Graduation Cap Picks (toothpic",
+     "name": "Turkey breast",
      "slug": null
     }
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Fruit & vegetables",
    "items": [
     {
-     "name": "Honey Mustard",
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Baby carrots",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Honey mustard",
      "slug": "honey-mustard"
     },
     {
-     "name": "Ranch Dip",
+     "name": "Ranch dip",
+     "slug": null
+    },
+    {
+     "name": "Candied pecans",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Chocolate-covered pretzels",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Candied Pecans",
-     "slug": "candied-pecans"
+     "name": "Club crackers",
+     "slug": "butter-crackers"
     },
     {
-     "name": "Club Crackers 1 large box",
-     "slug": null
+     "name": "Wheat crackers",
+     "slug": "whole-wheat-crackers"
     },
     {
-     "name": "Chocolate Covered Pretzels",
-     "slug": null
-    },
-    {
-     "name": "Wheat Crackers",
-     "slug": null
-    },
-    {
-     "name": "Pita Chips 1 bag",
+     "name": "Pita chips",
      "slug": "pita-chips"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "For a crowd, the cheese is pre-cubed into even pieces so every block goes further, and crackers sit in three clusters instead of one, so guests don't all crowd the same spot. Cheddar, pepper jack and Colby Jack suit every age at a grad party.",
+  "The fruit and vegetables match the school colors: strawberries and tomatoes for red, blueberries for blue, cheddar for gold. Grad-cap picks on the cheese make it the board everyone photographs."
+ ],
+ "timeline": [
+  {
+   "when": "T–35 min",
+   "what": "Plan the fruit and vegetables around the school colors."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Cube and slice all the cheeses."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Place the cheeses; set out the dips and mustard."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats, fruit, crackers and grad-cap picks."
+  },
+  {
+   "when": "T–0",
+   "what": "Congratulations! Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much charcuterie for a graduation party?",
+   "a": "As the main party food, about 3 oz each of cheese and meat per person. For 20 guests, that's about 3¾ lb of each."
+  },
+  {
+   "q": "How do you match a board to school colors?",
+   "a": "Pick fruit, vegetables and cheese in the two colors: red with strawberries and tomatoes, blue with blueberries, gold with cheddar, green with grapes."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cube the cheese and wash the produce the day before. Assemble an hour before the party and refill from the fridge. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-for-large-group",
+  "how-much-charcuterie-per-person"
+ ],
+ "slug": "graduation-charcuterie-board",
+ "status": "published",
+ "wave": 4,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

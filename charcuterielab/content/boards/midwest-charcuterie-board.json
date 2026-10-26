@@ -1,67 +1,46 @@
 {
- "slug": "midwest-charcuterie-board",
  "number": "B1-35",
  "book": "main",
  "title": "Midwest Comfort Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-35-midwest-comfort.webp",
- "blog": [],
+ "h1": "Midwest Comfort Charcuterie Board",
+ "seo_title": "Midwest Charcuterie Board for 8–12: Summer Sausage & Colby Jack",
+ "description": "A Midwest comfort charcuterie board for 8–12: Colby Jack, smoky cheddar, summer sausage, beef sticks, bologna, pickles, horseradish and Club crackers.",
+ "hook": "Hearty, familiar and proudly unpretentious: summer sausage, Colby Jack and a stack of Club crackers.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$35–$55",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Colby Jack",
-     "slug": null
+     "slug": "aged-cheddar"
     },
     {
-     "name": "Smoky Cheddar",
-     "slug": null
+     "name": "Smoked cheddar",
+     "slug": "aged-cheddar"
     },
     {
-     "name": "Cream Cheese",
+     "name": "Whipped cream cheese",
      "slug": "cream-cheese"
-    },
-    {
-     "name": "Dill Pickles (sliced)",
-     "slug": "dill-pickles"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Meat",
    "items": [
     {
-     "name": "Apple slices (Fuji)",
-     "slug": "apples"
-    },
-    {
-     "name": "Grapes (red)",
-     "slug": "grapes"
-    },
-    {
-     "name": "Baby Carrots",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
-   "items": [
-    {
-     "name": "Summer Sausage",
+     "name": "Summer sausage",
      "slug": "summer-sausage"
     },
     {
-     "name": "Beef Stick (snack-size)",
+     "name": "Beef stick",
      "slug": null
     },
     {
@@ -69,52 +48,114 @@
      "slug": null
     },
     {
-     "name": "Wheat Thins (bonus cracker)",
+     "name": "Beef jerky",
      "slug": null
     }
    ]
   },
   {
-   "name": "Spreads & Extras",
+   "name": "Fruit & vegetables",
    "items": [
     {
-     "name": "Yellow Mustard",
+     "name": "Apple slices",
+     "slug": "apples"
+    },
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Baby carrots",
      "slug": null
     },
     {
-     "name": "Horseradish Sauce",
+     "name": "Dill pickles",
+     "slug": "dill-pickles"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Yellow mustard",
+     "slug": null
+    },
+    {
+     "name": "Horseradish sauce",
      "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Crackers",
    "items": [
     {
-     "name": "Beef Jerky bites",
+     "name": "Club crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Ritz crackers",
+     "slug": "butter-crackers"
+    },
+    {
+     "name": "Wheat Thins",
      "slug": null
     },
     {
-     "name": "Club Crackers",
-     "slug": null
-    },
-    {
-     "name": "Ritz Crackers",
-     "slug": null
-    },
-    {
-     "name": "White Bread mini-toasts",
+     "name": "Mini toasts",
      "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Colby Jack comes from Wisconsin, so anchoring the board with it is a real regional statement. Summer sausage is the star: smoky, tangy and sliced into thick rounds, with smoked cheddar to echo it.",
+  "Bologna and beef sticks belong here without apology, and dill pickles, yellow mustard and horseradish give it the sharp, vinegary bite. Cream cheese on a Club cracker is the classic Midwest moment."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats and cheeses."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Slice the summer sausage and cheddar."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses; set out the mustard and horseradish."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the meats, pickles and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Dig in."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's on a Midwest charcuterie board?",
+   "a": "Colby Jack, smoked cheddar, cream cheese, summer sausage, beef sticks, bologna, jerky, pickles, apples, grapes, mustard, horseradish and Club or Ritz crackers."
+  },
+  {
+   "q": "Is this a cheap board?",
+   "a": "Yes. It's one of the most affordable boards in the book at about $35 to $55 for 8 to 12 people."
+  },
+  {
+   "q": "What drink goes with it?",
+   "a": "A cold lager or a Wisconsin-style brandy old fashioned."
+  }
+ ],
+ "blog": [
+  "best-summer-sausage",
+  "budget-charcuterie-board"
+ ],
+ "slug": "midwest-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

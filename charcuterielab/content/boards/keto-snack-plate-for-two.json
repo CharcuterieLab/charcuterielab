@@ -1,0 +1,129 @@
+{
+ "number": "KB-03",
+ "book": "keto",
+ "title": "Keto Snack Plate for Two",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-03.webp",
+ "h1": "Keto Snack Plate for Two",
+ "seo_title": "Keto Snack Plate for Two: A Grazing Dinner Shopping List",
+ "description": "A keto snack plate for two that's dinner: brie, aged cheddar, prosciutto, salami, cucumbers, radishes, Kalamata olives, macadamia nuts and raspberries.",
+ "hook": "A grazing plate that is the meal: a keto dinner for two you assemble instead of cook.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12\" board or large plate",
+ "prep_time": "15 min",
+ "cost": "$22–$34",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie",
+     "slug": "brie"
+    },
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This plate is portioned as dinner for two, so it's more generous than a starter board: creamy brie and aged cheddar, prosciutto and salami, with macadamia nuts for richness.",
+  "Radishes and cucumbers stand in for crackers and add a peppery, fresh crunch, Kalamata olives add salt and raspberries add a little sweetness. Flaky salt and black pepper on the vegetables make them taste like a side dish."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the cheddar out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the prosciutto and salami. Slice the cucumber and radishes."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Arrange the plate."
+  },
+  {
+   "when": "T–0",
+   "what": "Finish the radishes with flaky salt. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a good keto dinner plate?",
+   "a": "A soft cheese and a hard one, two cured meats, crunchy vegetables like radishes and cucumber, olives, macadamia nuts and a few berries."
+  },
+  {
+   "q": "How many carbs?",
+   "a": "About 9 g net carbs per serving."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "About 10 to 15 minutes to slice and arrange."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "charcuterie-board-for-one"
+ ],
+ "slug": "keto-snack-plate-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

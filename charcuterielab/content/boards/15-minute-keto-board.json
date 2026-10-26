@@ -1,0 +1,125 @@
+{
+ "number": "KB-04",
+ "book": "keto",
+ "title": "15-Minute Weeknight Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-04.webp",
+ "h1": "15-Minute Keto Weeknight Board",
+ "seo_title": "15-Minute Keto Dinner Board: No-Cook Shopping List",
+ "description": "A 15-minute no-cook keto dinner board for 4: pepper jack, mozzarella pearls, salami, ham, cucumbers, cherry tomatoes, green olives and basil pesto.",
+ "hook": "No-cook dinner on a board: a keto weeknight meal for four in about 15 minutes.",
+ "serves": "4",
+ "guests": 4,
+ "board_size": "14–16\" board",
+ "prep_time": "15 min",
+ "cost": "$31–$44",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Deli ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Basil pesto",
+     "slug": "fresh-basil"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This board borrows from caprese: mozzarella pearls, cherry tomatoes, fresh basil and jarred pesto, which turns plain mozzarella into something you'd order. Pepper jack and salami add spice and salt.",
+  "Rolled deli ham makes it filling, and cucumbers and green olives add crunch and brine. Everything comes ready to eat, so the only work is slicing and arranging."
+ ],
+ "timeline": [
+  {
+   "when": "When you get home",
+   "what": "Take the pepper Jack out of the fridge."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Drain the mozzarella pearls; slice the cucumber."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Halve the tomatoes; spoon out the pesto."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Roll the ham and fold the salami; build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Scatter basil. Dinner."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a quick keto dinner without cooking?",
+   "a": "A board of mozzarella and pepper jack, salami and rolled ham, cherry tomatoes, cucumbers, olives and pesto. It takes about 15 minutes."
+  },
+  {
+   "q": "Is pesto keto?",
+   "a": "Most jarred basil pesto is low in carbs, about 1 to 2 g per tablespoon. Check the label for added sugar."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving for four."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-pesto"
+ ],
+ "slug": "15-minute-keto-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

@@ -1,0 +1,146 @@
+{
+ "number": "KB-12",
+ "book": "keto",
+ "title": "Keto Mediterranean Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-12.webp",
+ "h1": "Keto Mediterranean Board",
+ "seo_title": "Keto Mediterranean Board: Feta, Olives & Shopping List",
+ "description": "A keto Mediterranean board for 8: herbed feta, goat cheese, mozzarella, salami, prosciutto, bresaola, cucumbers, tomatoes, Kalamata olives and almonds.",
+ "hook": "Feta, olives and bright Mediterranean flavor: a keto board that tastes like summer in Greece.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "18–20\" board",
+ "prep_time": "30 min",
+ "cost": "$58–$86",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Feta",
+     "slug": "feta"
+    },
+    {
+     "name": "Goat cheese",
+     "slug": "fresh-chevre"
+    },
+    {
+     "name": "Fresh mozzarella",
+     "slug": "fresh-mozzarella"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Italian dry salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Vegetables",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Red bell pepper",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Kalamata olives",
+     "slug": "kalamata-olives"
+    },
+    {
+     "name": "Extra-virgin olive oil",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A block of feta drizzled with olive oil, oregano and lemon zest is the centerpiece, and goat cheese and fresh mozzarella give it softer partners. Salami, prosciutto and lean bresaola cover the meat.",
+  "Cucumbers, cherry tomatoes and red bell pepper are the dippers, and Kalamata olives, almonds and fresh mint fill in. About 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the feta and goat cheese; drizzle the feta with oil and oregano."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats. Cut the cucumber into spears and the pepper into strips."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Halve the tomatoes; season with salt."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add mint and lemon zest. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Mediterranean food keto?",
+   "a": "A lot of it is: feta, olives, olive oil, cured meats, cucumbers, peppers and nuts. Hummus, pita and dried fruit are the higher-carb parts."
+  },
+  {
+   "q": "How do you season the feta?",
+   "a": "Drizzle the block with olive oil and sprinkle with dried oregano and grated lemon zest just before serving."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 8 g net carbs per serving for 8."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-feta-brands"
+ ],
+ "slug": "keto-mediterranean-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

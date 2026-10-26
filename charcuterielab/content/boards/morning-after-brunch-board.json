@@ -1,0 +1,137 @@
+{
+ "number": "TB-11",
+ "book": "two",
+ "title": "Morning After Brunch Board",
+ "category": "for-two",
+ "image": "/images/boards/two-11.webp",
+ "h1": "Morning After Brunch Board for Two",
+ "seo_title": "Brunch Board for Two: Bagels, Lox & Shopping List",
+ "description": "A brunch board for two: cold-smoked salmon, whipped cream cheese, herbed goat cheese, mini bagels, eggs, capers, red onion, cucumber and berries, with mimosas.",
+ "hook": "Bagels, lox and absolutely no rush: a deli brunch on a board for a slow morning.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "14–16\" board",
+ "prep_time": "25 min",
+ "cost": "$26–$36",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    }
+   ]
+  },
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Fresh goat cheese with herbs",
+     "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Mini bagels",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Hard-boiled eggs",
+     "slug": null
+    },
+    {
+     "name": "Capers",
+     "slug": "capers"
+    },
+    {
+     "name": "Red onion, thinly sliced",
+     "slug": null
+    },
+    {
+     "name": "Cucumber",
+     "slug": null
+    },
+    {
+     "name": "Lemon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Strawberries or melon",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Smoked salmon with cream cheese on a bagel is one of the best pairings there is: the fat in the cream cheese softens the salt and smoke of the fish. Capers, red onion, lemon and cucumber add the sharp, fresh notes that make each bite taste clean.",
+  "Herbed goat cheese gives a second spread with more tang, hard-boiled eggs make it filling, and strawberries or melon give a sweet finish. Mimosas or a Bloody Mary, depending on the morning."
+ ],
+ "timeline": [
+  {
+   "when": "Night before",
+   "what": "Hard-boil the eggs and chill them."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the cheeses so they spread."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Toast the bagels."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board; salmon goes on last, straight from the fridge."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour coffee or mimosas."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a bagel and lox board?",
+   "a": "Smoked salmon, cream cheese, herbed goat cheese, mini bagels, hard-boiled eggs, capers, thin red onion, cucumber, cherry tomatoes, lemon and some fruit."
+  },
+  {
+   "q": "Can I prep it the night before?",
+   "a": "Yes. Boil the eggs, slice the onion and cucumber, and keep them covered in the fridge. Lay out the salmon right before you eat."
+  },
+  {
+   "q": "Is smoked salmon safe during pregnancy?",
+   "a": "Refrigerated cold-smoked salmon is on the CDC's list to avoid during pregnancy unless it's cooked. Swap in canned salmon or extra eggs if that applies."
+  }
+ ],
+ "blog": [
+  "smoked-salmon-cream-cheese-pairing",
+  "bagel-board"
+ ],
+ "slug": "morning-after-brunch-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

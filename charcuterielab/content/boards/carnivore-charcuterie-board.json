@@ -1,0 +1,124 @@
+{
+ "number": "KB-17",
+ "book": "keto",
+ "title": "Carnivore-Leaning Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-17.webp",
+ "h1": "Carnivore-Leaning Charcuterie Board",
+ "seo_title": "Carnivore Charcuterie Board: Meat, Cheese, Eggs & Shopping List",
+ "description": "A carnivore-leaning charcuterie board for 6: aged cheddar, Gruyère, Parmesan, prosciutto, salami, bresaola, bacon, pork rinds and hard-boiled eggs. About 4 g net carbs.",
+ "hook": "Animal-based, almost no plants: meat, cheese, eggs and pork rinds, with flaky salt.",
+ "serves": "6",
+ "guests": 6,
+ "board_size": "18–20\" board",
+ "prep_time": "25 min",
+ "cost": "$53–$79",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    },
+    {
+     "name": "Parmesan",
+     "slug": "parmigiano-reggiano"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Bacon",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Pork rinds",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Protein extras",
+   "items": [
+    {
+     "name": "Eggs",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This board is for people eating carnivore-style or close to it. Aged cheddar, Gruyère and Parmesan chunks give three textures, and prosciutto, salami, bresaola and bacon give four very different meats.",
+  "Pork rinds handle the crunch and hard-boiled eggs make it a meal. Flaky salt on the eggs is the only seasoning it needs. At about 81 g of protein a serving, it's the highest-protein board in the book."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Hard-boil the eggs."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Take out the three cheeses. Bake the bacon (400°F, about 18 min)."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Add pork rinds. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a carnivore charcuterie board?",
+   "a": "Cured meats, bacon, aged cheeses, hard-boiled eggs, pork rinds and salt."
+  },
+  {
+   "q": "Is cheese allowed on carnivore?",
+   "a": "Many people eating carnivore-style include aged cheese because it's low in carbs. Strict versions leave it out."
+  },
+  {
+   "q": "How many carbs per serving?",
+   "a": "About 4 g net carbs per serving for 6."
+  }
+ ],
+ "blog": [
+  "best-meats-charcuterie-board",
+  "keto-charcuterie-board"
+ ],
+ "slug": "carnivore-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

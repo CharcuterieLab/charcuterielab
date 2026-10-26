@@ -1,27 +1,25 @@
 {
- "slug": "sweet-and-savory-dessert-board",
  "number": "B1-12",
  "book": "main",
  "title": "Sweet & Savory Dessert Board",
  "category": "pairings-sweet",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-12-sweet-and-savory-dessert.webp",
- "blog": [
-  "dessert-board"
- ],
+ "h1": "Sweet & Savory Dessert Cheese Board",
+ "seo_title": "Dessert Cheese Board for 8–12: Aged Gouda, Chocolate & Honeycomb",
+ "description": "A sweet and savory dessert cheese board for 8–12: aged Gouda, brie, Gorgonzola dolce, mascarpone, dark chocolate, honeycomb, figs and dates.",
+ "hook": "Cheese as dessert: four dessert-friendly cheeses with chocolate, honeycomb and fruit, and just enough prosciutto to keep it savory.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "18\"–22\" board",
+ "board_size": "18–22\" board",
  "prep_time": "25–30 min",
  "cost": "$55–$90",
  "difficulty": "Beginner–Mid",
  "groups": [
   {
-   "name": "Dessert Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Gouda (caramel notes)",
+     "name": "Aged Gouda",
      "slug": "aged-gouda"
     },
     {
@@ -29,7 +27,7 @@
      "slug": "brie"
     },
     {
-     "name": "Gorgonzola Dolce (sweet blue)",
+     "name": "Gorgonzola dolce",
      "slug": "gorgonzola"
     },
     {
@@ -39,99 +37,145 @@
    ]
   },
   {
-   "name": "Savory Counterpoints",
+   "name": "Savory",
    "items": [
     {
      "name": "Prosciutto",
      "slug": "prosciutto-di-parma"
     },
     {
-     "name": "Marcona Almonds (salted)",
+     "name": "Marcona almonds",
      "slug": "marcona-almonds"
     },
     {
-     "name": "Sea Salt Flakes (Maldon) pinch",
+     "name": "Flaky sea salt",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet",
+   "items": [
+    {
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Milk chocolate",
      "slug": null
     },
     {
-     "name": "Fresh Strawberries (whole)",
-     "slug": null
+     "name": "Honeycomb",
+     "slug": "honeycomb"
     },
     {
-     "name": "Red Grapes",
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Dried figs",
+     "slug": "dried-figs"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Candied walnuts",
+     "slug": "candied-pecans"
+    },
+    {
+     "name": "Raspberry preserves",
+     "slug": "berries"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Red grapes",
      "slug": "grapes"
     },
     {
-     "name": "Fresh Figs (halved, if in season) 4–6",
+     "name": "Fresh figs",
      "slug": "figs"
     },
     {
      "name": "Blackberries",
-     "slug": null
+     "slug": "berries"
     }
    ]
   },
   {
-   "name": "Sweet Elements",
+   "name": "Bases",
    "items": [
     {
-     "name": "Dark Chocolate (70%+)",
-     "slug": "dark-chocolate"
-    },
-    {
-     "name": "Milk Chocolate",
-     "slug": null
-    },
-    {
-     "name": "Honeycomb (raw)",
-     "slug": "honeycomb"
-    },
-    {
-     "name": "Medjool Dates (halved) 8–10 pieces",
-     "slug": "medjool-dates"
-    }
-   ]
-  },
-  {
-   "name": "Bases & Spreads",
-   "items": [
-    {
-     "name": "Dried Figs 6–8 pieces",
-     "slug": "dried-figs"
-    },
-    {
-     "name": "Chocolate Graham Crackers",
+     "name": "Chocolate graham crackers",
      "slug": "graham-crackers"
     },
     {
-     "name": "Dried Apricots 8–10 pieces",
-     "slug": "dried-apricots"
-    },
-    {
-     "name": "Honey Walnut Crackers",
+     "name": "Honey walnut crackers",
      "slug": "honey"
     },
     {
-     "name": "Candied Walnuts/Pecans",
-     "slug": "walnuts"
-    },
-    {
-     "name": "Biscotti (chocolate or almond) 6–8 pie",
+     "name": "Biscotti",
      "slug": "biscotti"
-    },
-    {
-     "name": "Raspberry Preserves",
-     "slug": null
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Some cheeses taste like dessert already. Aged Gouda has caramel and butterscotch notes and little crunchy crystals, Gorgonzola dolce is the sweet, mild blue, and mascarpone is basically a dessert cream. Brie in the middle takes on whatever sweet thing it touches.",
+  "Honeycomb is the centerpiece, and dark chocolate, dates and figs give the cheeses partners. A little prosciutto, salted almonds and a pinch of flaky salt stop it from being all sugar, which is what makes you keep eating."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie and Gouda; break the chocolate."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Wash the fruit; halve the figs and dates."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and the honeycomb."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the chocolate, dried fruit, crackers and prosciutto."
+  },
+  {
+   "when": "T–0",
+   "what": "Finish with a pinch of flaky salt and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What cheese goes with chocolate?",
+   "a": "Aged Gouda is the easiest match because of its caramel notes. Brie, mascarpone and a sweet blue like Gorgonzola dolce also work with dark chocolate."
+  },
+  {
+   "q": "Can you serve a cheese board as dessert?",
+   "a": "Yes. It's standard in France. Pick cheeses with sweet notes and add honeycomb, fruit and chocolate."
+  },
+  {
+   "q": "What wine goes with a dessert cheese board?",
+   "a": "Port, late-harvest white or a sweet sparkling wine like Moscato d'Asti."
+  }
+ ],
+ "blog": [
+  "dessert-board",
+  "charcuterie-board-chocolate"
+ ],
+ "slug": "sweet-and-savory-dessert-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

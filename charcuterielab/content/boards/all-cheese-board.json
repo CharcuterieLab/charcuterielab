@@ -1,66 +1,56 @@
 {
- "slug": "all-cheese-board",
  "number": "B1-42",
  "book": "main",
  "title": "All-Cheese Connoisseur Board",
  "category": "classic-budget-luxury",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-42-all-cheese-connoisseur.webp",
- "blog": [
-  "best-cheese-charcuterie-board"
- ],
+ "h1": "All-Cheese Connoisseur Board",
+ "seo_title": "Cheese Board With No Meat for 8–12: Six-Cheese Flight & Plan",
+ "description": "An all-cheese connoisseur board for 8–12: Brillat-Savarin, chèvre, Taleggio, Fontina, aged Manchego and Parmigiano, tasted mild to strong, with honeycomb and quince.",
+ "hook": "Six cheeses, one flight, no meat to hide behind: a board for real cheese lovers, tasted from mild to strong.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$60–$100",
  "difficulty": "Advanced",
  "groups": [
   {
-   "name": "Soft Cheeses",
+   "name": "Soft",
    "items": [
     {
-     "name": "Triple-Crème Brie (Brillat-Savar",
+     "name": "Triple-crème brie",
      "slug": "triple-creme"
     },
     {
-     "name": "Chèvre",
+     "name": "Herbed chèvre",
      "slug": "fresh-chevre"
-    },
-    {
-     "name": "Rustic Baguette slices",
-     "slug": "baguette"
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Semi-soft",
    "items": [
     {
-     "name": "Plain Water Crackers",
-     "slug": "water-crackers"
-    },
-    {
-     "name": "Walnut Raisin Crisps",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Semi-Soft Cheeses",
-   "items": [
-    {
-     "name": "Taleggio (washed-rind)",
+     "name": "Taleggio",
      "slug": "taleggio"
     },
     {
-     "name": "Fontina Val d'Aosta",
+     "name": "Fontina",
      "slug": "fontina"
+    }
+   ]
+  },
+  {
+   "name": "Hard",
+   "items": [
+    {
+     "name": "Aged Manchego",
+     "slug": "manchego"
     },
     {
-     "name": "Quince Paste (Membrillo)",
-     "slug": "membrillo"
+     "name": "Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
     }
    ]
   },
@@ -68,47 +58,96 @@
    "name": "Accompaniments",
    "items": [
     {
-     "name": "Raw Honeycomb",
+     "name": "Honeycomb",
      "slug": "honeycomb"
+    },
+    {
+     "name": "Quince paste",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Aged balsamic",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Hard Cheeses",
+   "name": "Bread",
    "items": [
     {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
+     "name": "Water crackers",
+     "slug": "water-crackers"
     },
     {
-     "name": "Aged Manchego (12-month)",
-     "slug": "manchego"
+     "name": "Walnut raisin crisps",
+     "slug": "walnuts"
     },
     {
-     "name": "Fresh & Dried Figs",
-     "slug": "dried-figs"
-    },
-    {
-     "name": "Parmigiano-Reggiano",
-     "slug": "parmigiano-reggiano"
-    },
-    {
-     "name": "Champagne Grapes",
-     "slug": "champagne-grapes"
-    },
-    {
-     "name": "Aged Balsamic (25-year)",
-     "slug": "balsamic-glaze"
+     "name": "Baguette",
+     "slug": "baguette"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Six cheeses arranged as a flight, two soft, two semi-soft and two hard, so guests taste their way from mild and creamy to sharp and crystalline. The order does a lot of the work: the same cheeses taste better in sequence than scattered.",
+  "Each cheese gets a partner: honeycomb for the triple-crème, quince paste for the Manchego and aged balsamic for the Parmigiano. Crackers go from plain at the mild end to walnut raisin crisps at the bold end."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the Parmigiano and Manchego out of the fridge."
+  },
+  {
+   "when": "T–40 min",
+   "what": "Take out the Fontina and Taleggio."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the triple-crème and chèvre; slice the baguette."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses in tasting order, mild to strong."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the honeycomb, quince, fruit and crackers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many cheeses should be on a cheese board?",
+   "a": "Three to five is typical. Six works for a dedicated cheese lovers' board, at about 1 oz of each per guest."
+  },
+  {
+   "q": "What order do you eat cheeses in?",
+   "a": "Mild to strong: fresh and soft first, then semi-soft and washed-rind, then hard aged cheeses."
+  },
+  {
+   "q": "What wine goes with a cheese flight?",
+   "a": "Champagne goes with almost every cheese. Otherwise a dry white for the soft cheeses and a light red for the hard ones."
+  }
+ ],
+ "blog": [
+  "best-cheese-charcuterie-board",
+  "cheeses-from-mild-to-strong"
+ ],
+ "slug": "all-cheese-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

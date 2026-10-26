@@ -1,0 +1,164 @@
+{
+ "number": "IB-09",
+ "book": "impossible",
+ "title": "The Tropical Island",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-09.webp",
+ "h1": "Tropical Island Charcuterie Board",
+ "seo_title": "Tropical Island Charcuterie Board: Pineapple Palms & Plan",
+ "description": "A tropical island charcuterie board for 12 to 15: pineapple palm trees over a lagoon of shrimp and mango salsa, with teriyaki skewers and prosciutto melon.",
+ "hook": "Two pineapple palm trees tower over a turquoise lagoon filled with shrimp and mango salsa, ringed by a toasted-coconut beach.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2 hours",
+ "cost": "$120–$150",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats and seafood",
+   "items": [
+    {
+     "name": "Boneless chicken thighs",
+     "slug": null
+    },
+    {
+     "name": "Cooked shrimp",
+     "slug": null
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "Havarti or Monterey Jack",
+     "slug": "havarti"
+    },
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Pineapples",
+     "slug": null
+    },
+    {
+     "name": "Cantaloupe",
+     "slug": "melon"
+    },
+    {
+     "name": "Papayas",
+     "slug": null
+    },
+    {
+     "name": "Mangoes",
+     "slug": "mango"
+    },
+    {
+     "name": "Dragon fruit",
+     "slug": null
+    },
+    {
+     "name": "Kiwis",
+     "slug": null
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    },
+    {
+     "name": "Red onion",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Snacks and pantry",
+   "items": [
+    {
+     "name": "Unsweetened shredded coconut",
+     "slug": null
+    },
+    {
+     "name": "Plantain chips",
+     "slug": "plantain-chips"
+    },
+    {
+     "name": "Coconut chips",
+     "slug": null
+    },
+    {
+     "name": "Macadamia nuts",
+     "slug": "macadamia-nuts"
+    },
+    {
+     "name": "Teriyaki sauce",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Each palm tree is a pineapple, cut and rebuilt so it stands up with its leafy top. They give the board height, which is what makes it look dramatic from across the room.",
+  "The food is a luau: teriyaki chicken skewers, chilled shrimp, prosciutto-wrapped melon, mango salsa, papaya and pepper jack and Havarti cubes. It's made for summer birthdays, pool parties and luau themes."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Marinate the chicken. Make the mango salsa. Toast the coconut."
+  },
+  {
+   "when": "3 hours before",
+   "what": "Grill or bake the chicken skewers."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Build the two pineapple palms."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Set the lagoon and the beach, then the fruit and the rest of the feast."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Add the shrimp."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make pineapple palm trees?",
+   "a": "Each palm is a whole pineapple, cut and rebuilt on a long skewer so it stands tall with its leafy crown on top. The book walks through the cuts step by step."
+  },
+  {
+   "q": "Does it need cooking?",
+   "a": "Only the teriyaki chicken skewers. Everything else is ready to eat."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cook the skewers and make the salsa the day before. Keep the shrimp on ice until serving. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "summer-charcuterie-board",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "tropical-island-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

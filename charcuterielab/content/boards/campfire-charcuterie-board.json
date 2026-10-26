@@ -1,0 +1,173 @@
+{
+ "number": "IB-13",
+ "book": "impossible",
+ "title": "The Campfire",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-13.webp",
+ "h1": "Campfire Charcuterie Board",
+ "seo_title": "Campfire Charcuterie Board: Salami Logs & Pepper Flames",
+ "description": "A campfire charcuterie board for 12 to 15: salami-stick logs, standing pepper flames, little smokies and summer sausage, with cheddar and pepper jack.",
+ "hook": "A campfire you can eat: salami-stick logs, pepper flames and pepperoni embers.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "75 minutes",
+ "cost": "$90–$120",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Dry salami sticks or snack sticks",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Cocktail sausages",
+     "slug": null
+    },
+    {
+     "name": "Summer sausage",
+     "slug": "summer-sausage"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "White cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Cream cheese plus 4 oz shredded cheddar",
+     "slug": "cream-cheese"
+    }
+   ]
+  },
+  {
+   "name": "Bread, crackers and sweets",
+   "items": [
+    {
+     "name": "Thick breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Pumpernickel loaf",
+     "slug": "pumpernickel"
+    },
+    {
+     "name": "Graham crackers",
+     "slug": "graham-crackers"
+    },
+    {
+     "name": "Round crackers",
+     "slug": null
+    },
+    {
+     "name": "Chocolate bars",
+     "slug": null
+    },
+    {
+     "name": "Large marshmallows",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Each red",
+     "slug": null
+    },
+    {
+     "name": "Baby potatoes",
+     "slug": null
+    },
+    {
+     "name": "Pomegranate",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Apples and 1 lemon",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Everything-bagel seasoning",
+     "slug": null
+    },
+    {
+     "name": "Trail mix",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The flames are just sliced bell peppers, standing up in a base of cheese, and the logs are dry salami sticks stacked like firewood. It's an easy showpiece, rated 2 of 5.",
+  "Around the fire, cocktail sausages, summer sausage, pepperoni, cheddar, pepper jack and cheese balls feed a crowd. It suits camping parties, fall gatherings and Scout events."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Roast the potatoes, roll the cheese balls, and cut the pumpernickel cubes and cheese cubes."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Warm the cocktail sausages and skewer them (they can be served warm or at room temperature)."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Build the fire, the stone ring, then the camp around it."
+  },
+  {
+   "when": "Last 10 minutes",
+   "what": "Slice the apples (toss them in lemon water) and set out the s'mores."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a campfire charcuterie board?",
+   "a": "Stack salami sticks like logs, stand sliced red, orange and yellow peppers in a cheese base as flames, and scatter pepperoni as embers. Fill the rest of the board with sausages and cheese."
+  },
+  {
+   "q": "Is it good for kids?",
+   "a": "Yes. It's mostly mild sausages, cheddar and peppers. Cut cocktail sausages lengthwise for small children."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the cheese balls and cut the peppers the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "fall-charcuterie-board",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "campfire-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

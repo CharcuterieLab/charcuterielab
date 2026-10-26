@@ -1,28 +1,25 @@
 {
- "slug": "grand-charcuterie-board",
  "number": "B1-49",
  "book": "main",
  "title": "Showstopper Grand Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-49-showstopper-grand.webp",
- "blog": [
-  "grazing-table",
-  "charcuterie-board-for-large-group"
- ],
+ "h1": "Showstopper Grand Charcuterie Board",
+ "seo_title": "Large Charcuterie Board for 20–30: Grand Showstopper Plan",
+ "description": "A grand charcuterie board for 20–30: six cheeses, six meats, figs, grapes, honeycomb, truffle honey, quince and five breads on a 36 to 48 inch board or table.",
+ "hook": "Massive visual impact for 20 to 30 guests: a board so big it becomes a landscape people walk around.",
  "serves": "20–30",
  "guests": 30,
- "board_size": "36\"–48\" board or table",
+ "board_size": "36–48\" board or table",
  "prep_time": "45–60 min",
  "cost": "$120–$200",
  "difficulty": "Advanced",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Aged Cheddar",
+     "name": "Aged cheddar",
      "slug": "aged-cheddar"
     },
     {
@@ -38,7 +35,7 @@
      "slug": "aged-gouda"
     },
     {
-     "name": "Gorgonzola Dolce",
+     "name": "Gorgonzola dolce",
      "slug": "gorgonzola"
     },
     {
@@ -48,36 +45,7 @@
    ]
   },
   {
-   "name": "Fruits",
-   "items": [
-    {
-     "name": "Red Grapes",
-     "slug": "grapes"
-    },
-    {
-     "name": "Champagne Grapes",
-     "slug": "champagne-grapes"
-    },
-    {
-     "name": "Strawberries",
-     "slug": null
-    },
-    {
-     "name": "Fresh Figs (or dried) 6–8",
-     "slug": "figs"
-    },
-    {
-     "name": "Dried Apricots",
-     "slug": "dried-apricots"
-    },
-    {
-     "name": "Apple slices",
-     "slug": "apples"
-    }
-   ]
-  },
-  {
-   "name": "Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Prosciutto di Parma",
@@ -88,7 +56,7 @@
      "slug": "soppressata"
     },
     {
-     "name": "Salami Genoa",
+     "name": "Genoa salami",
      "slug": "genoa-salami"
     },
     {
@@ -102,86 +70,156 @@
     {
      "name": "Pepperoni",
      "slug": "pepperoni"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Fig jam",
+     "slug": "fig-jam"
+    },
+    {
+     "name": "Quince paste",
+     "slug": "membrillo"
+    },
+    {
+     "name": "Whole grain mustard",
+     "slug": "whole-grain-mustard"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
     },
     {
      "name": "Cornichons",
      "slug": "cornichons"
-    }
-   ]
-  },
-  {
-   "name": "Spreads & Extras",
-   "items": [
-    {
-     "name": "Truffle Honey",
-     "slug": "truffle-honey"
     },
     {
-     "name": "Fig Jam",
-     "slug": "fig-jam"
-    },
-    {
-     "name": "Quince Paste",
-     "slug": "membrillo"
-    },
-    {
-     "name": "Whole Grain Mustard",
-     "slug": "whole-grain-mustard"
-    },
-    {
-     "name": "Marcona Almonds",
-     "slug": "marcona-almonds"
-    },
-    {
-     "name": "Castelvetrano Olives",
-     "slug": "castelvetrano-olives"
-    }
-   ]
-  },
-  {
-   "name": "Crackers & Bread",
-   "items": [
-    {
-     "name": "Candied Pecans",
+     "name": "Candied pecans",
      "slug": "candied-pecans"
-    },
-    {
-     "name": "Water Crackers",
-     "slug": "water-crackers"
     },
     {
      "name": "Honeycomb",
      "slug": "honeycomb"
     },
     {
-     "name": "Walnut Raisin Crisps",
-     "slug": null
+     "name": "Dark chocolate",
+     "slug": "dark-chocolate"
+    }
+   ]
+  },
+  {
+   "name": "Bread",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
     },
     {
-     "name": "Dark Chocolate pieces",
-     "slug": "dark-chocolate"
+     "name": "Walnut raisin crisps",
+     "slug": "walnuts"
     },
     {
      "name": "Crostini",
      "slug": "crostini"
     },
     {
-     "name": "Baguette slices",
+     "name": "Baguette",
      "slug": "baguette"
     },
     {
-     "name": "Rosemary Flatbreads",
-     "slug": null
+     "name": "Rosemary flatbreads",
+     "slug": "rosemary-crackers"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Past about 36 inches, a board stops being a board and becomes a landscape: half the guests will never reach the middle. So each cheese becomes a landmark placed toward the edges, and where you put them decides how people move around the table.",
+  "Six cheeses and six meats cover every taste, from mild brie to Gorgonzola dolce and delicate prosciutto to pepperoni. Bowls repeat at both ends, and fruit and crackers fill every gap so it looks abundant all evening."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take out the hard cheeses; set the bowls along the table."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Take out the soft cheeses; place all six cheeses."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Fold and fan the six meats around the cheeses."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Fill in with fruit, nuts, olives and crackers."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the honeycomb and garnish; open it up."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much charcuterie for 25 people?",
+   "a": "As the main food, about 3 oz each of cheese and meat per person: roughly 4½ to 5 lb of each for 25."
+  },
+  {
+   "q": "How big a board do I need for 30 people?",
+   "a": "A 36 to 48 inch board, or a table covered with butcher paper. Make sure guests can reach it from at least two sides."
+  },
+  {
+   "q": "Can I build it ahead?",
+   "a": "Cut the hard cheeses and make the bowls the day before. Build it within an hour of guests arriving and refill from the fridge. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  }
+ ],
+ "blog": [
+  "grazing-table",
+  "charcuterie-board-for-large-group"
+ ],
+ "slug": "grand-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

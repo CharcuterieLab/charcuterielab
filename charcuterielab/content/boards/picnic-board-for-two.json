@@ -1,0 +1,133 @@
+{
+ "number": "TB-24",
+ "book": "two",
+ "title": "Summer Garden Picnic Board",
+ "category": "for-two",
+ "image": "/images/boards/two-24.webp",
+ "h1": "Summer Picnic Board for Two",
+ "seo_title": "Picnic Charcuterie Board for Two: What to Pack & Plan",
+ "description": "A summer picnic charcuterie board for two: fresh mozzarella, aged cheddar, prosciutto, Genoa salami, cherry tomatoes, melon, strawberries, snap peas and pesto.",
+ "hook": "Packed, carried and eaten outside: a summer board that travels in containers and comes together on a blanket.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12–14\" board or bento containers",
+ "prep_time": "25 min",
+ "cost": "$29–$41",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Fresh mozzarella",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Aged cheddar or Gouda",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Watermelon or cantaloupe cubes",
+     "slug": "melon"
+    },
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Pesto",
+     "slug": "pesto"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A picnic board has to survive the trip, so it uses sturdy, cool-weather-proof choices: aged cheddar or Gouda, Genoa salami, mozzarella pearls packed in their liquid, and snap peas and cherry tomatoes that don't wilt.",
+  "Melon and strawberries make it summery, and prosciutto wrapped around melon is the classic pairing. Pesto does double duty as a dip for the snap peas and a sauce for the mozzarella. Dry rosé or a chilled light red to drink."
+ ],
+ "timeline": [
+  {
+   "when": "Night before",
+   "what": "Chill the wine; freeze two ice packs."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Thread caprese skewers; cut the melon."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Pack everything in containers in a cooler with ice packs."
+  },
+  {
+   "when": "Arrival",
+   "what": "Unpack onto the board in the shade."
+  },
+  {
+   "when": "Outdoors",
+   "what": "One hour out, maximum, above 90°F."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What's a good picnic charcuterie board?",
+   "a": "Firm cheese and fresh mozzarella, salami and prosciutto, cherry tomatoes, melon, strawberries, snap peas, pesto and sturdy crackers."
+  },
+  {
+   "q": "How do you keep a picnic board safe?",
+   "a": "Pack it in a cooler with ice packs and keep it out no more than 2 hours, or 1 hour if it's above 90°F."
+  },
+  {
+   "q": "Should I build it at home or at the picnic?",
+   "a": "Pack everything in containers and build it on site. It takes about 10 minutes and nothing gets crushed."
+  }
+ ],
+ "blog": [
+  "summer-charcuterie-board",
+  "how-to-transport-charcuterie-board"
+ ],
+ "slug": "picnic-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

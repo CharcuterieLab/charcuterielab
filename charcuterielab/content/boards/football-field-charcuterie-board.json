@@ -1,0 +1,172 @@
+{
+ "number": "IB-20",
+ "book": "impossible",
+ "title": "Game Day Football Field",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-20.webp",
+ "h1": "Football Field Charcuterie Board",
+ "seo_title": "Football Field Charcuterie Board: Game Day Showpiece & List",
+ "description": "A football field charcuterie board for 12 to 15: end zones of salami and chorizo, string cheese yard lines and turf of cucumbers, snap peas and grapes.",
+ "hook": "A full football field you can eat, from end zone to end zone.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 21 in",
+ "prep_time": "75 minutes",
+ "cost": "$90–$120",
+ "difficulty": "2 of 5",
+ "groups": [
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Dry Spanish chorizo",
+     "slug": "chorizo"
+    },
+    {
+     "name": "Beef sticks",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "String cheese",
+     "slug": null
+    },
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    },
+    {
+     "name": "White cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Broccoli",
+     "slug": null
+    },
+    {
+     "name": "Limes",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Chips, crackers and dips",
+   "items": [
+    {
+     "name": "Tortilla chips",
+     "slug": "tortilla-chips"
+    },
+    {
+     "name": "Pretzel twists",
+     "slug": null
+    },
+    {
+     "name": "Round crackers",
+     "slug": null
+    },
+    {
+     "name": "Guacamole",
+     "slug": null
+    },
+    {
+     "name": "Queso or beer cheese",
+     "slug": null
+    },
+    {
+     "name": "Salsa",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Mixed nuts",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The turf is just rows: green rows of cucumbers, snap peas, grapes and broccoli, with string cheese for the yard lines. A long narrow board makes the field shape instantly.",
+  "The end zones are pepperoni, chorizo and salami, the football is salami, and cheddar and pepper jack cubes fill the sidelines. It's made for Super Bowl parties and tailgates."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Wash and cut all the vegetables, cut the cheese cubes, and make or buy the guacamole, queso and salsa."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Lay the yard lines and the turf."
+  },
+  {
+   "when": "45 minutes before",
+   "what": "Add the guacamole band, the football and the end zones."
+  },
+  {
+   "when": "Kickoff",
+   "what": "Warm the queso and fill the sidelines."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a football field charcuterie board?",
+   "a": "Lay green rows of cucumbers, snap peas and grapes on a long board, add string cheese yard lines, and fill the end zones with cured meats."
+  },
+  {
+   "q": "How many people does it feed?",
+   "a": "12 to 15, more if you add wings on the side."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Cut the vegetables and cheese the day before. Refill the sidelines at halftime from the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "football-field-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

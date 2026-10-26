@@ -1,0 +1,164 @@
+{
+ "number": "IB-02",
+ "book": "impossible",
+ "title": "The Giant Octopus",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-02.webp",
+ "h1": "Giant Octopus Charcuterie Board",
+ "seo_title": "Octopus Charcuterie Board: Seafood Showpiece & Shopping List",
+ "description": "A giant octopus charcuterie board for 12 to 15: a salami octopus with eight curling arms lined with mozzarella suckers, plus shrimp, smoked salmon and cheese.",
+ "hook": "A salami octopus sprawls across the whole board, its eight curling arms lined with mozzarella suckers.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2 hours",
+ "cost": "$120–$150",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats and seafood",
+   "items": [
+    {
+     "name": "Thin-sliced Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Soppressata or hot salami",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Cooked shrimp",
+     "slug": null
+    },
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Mozzarella pearls",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Ball of fresh mozzarella",
+     "slug": "fresh-mozzarella"
+    },
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Sharp cheddar or Gouda",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Feta",
+     "slug": "feta"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Red and green grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Lemons",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Crackers",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry",
+   "items": [
+    {
+     "name": "Mixed olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Garlic aioli or tzatziki",
+     "slug": "tzatziki"
+    },
+    {
+     "name": "Cocktail sauce",
+     "slug": null
+    },
+    {
+     "name": "Black olives",
+     "slug": "mixed-marinated-olives"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "The trick is that the head is a bowl, so the hardest part of the shape is already done. Each arm is a curving row of folded salami and soppressata, and mozzarella pearls pressed along it become the suckers.",
+  "Between the arms there's room for everything else: chilled shrimp and smoked salmon for a seafood theme, Manchego, cheddar and feta, grapes, cucumbers and cherry tomatoes. The arms naturally divide the board into eight easy-to-reach sections."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Pencil the tentacle curves onto parchment for a guide, cube the cheese, and toast the baguette slices."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Build the head and lay the 8 tentacles."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Add the suckers, then the feast between the arms."
+  },
+  {
+   "when": "Last 15 minutes",
+   "what": "Add the shrimp and smoked salmon straight from the fridge."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make an octopus charcuterie board?",
+   "a": "Set a bowl as the head, then lay eight curving rows of folded salami out from it as arms and press mozzarella pearls along them as suckers. Fill the spaces between the arms with seafood, cheese and fruit."
+  },
+  {
+   "q": "Does it have to have seafood?",
+   "a": "No. The shrimp and smoked salmon suit the ocean theme, but more cheese and salami work just as well."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Sketch the arm curves on parchment and cube the cheese the day before. Keep the shrimp and salmon on ice or in the fridge until the last 30 minutes. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "octopus-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

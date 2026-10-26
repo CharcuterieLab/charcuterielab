@@ -1,0 +1,164 @@
+{
+ "number": "IB-06",
+ "book": "impossible",
+ "title": "The Koi Pond Garden",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-06.webp",
+ "h1": "Koi Pond Charcuterie Board",
+ "seo_title": "Koi Pond Charcuterie Board: Smoked Salmon Koi & What to Buy",
+ "description": "A koi pond charcuterie board for 12 to 15: ten smoked salmon koi swimming in a dark pond, with cucumber lily pads, radish lotuses and a salami bridge.",
+ "hook": "Ten smoked-salmon koi swimming in circles in a dark pond, with cucumber lily pads and radish lotus flowers.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "48 × 30 in",
+ "prep_time": "2 hours",
+ "cost": "$130–$160",
+ "difficulty": "4 of 5",
+ "groups": [
+  {
+   "name": "Fish and meats",
+   "items": [
+    {
+     "name": "Thick-sliced smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Cooked shrimp",
+     "slug": null
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Extra salami or prosciutto",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Cream cheese",
+     "slug": "cream-cheese"
+    },
+    {
+     "name": "Mild Gouda or Havarti",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "White cheddar",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "English cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Radishes",
+     "slug": null
+    },
+    {
+     "name": "Snap peas",
+     "slug": null
+    },
+    {
+     "name": "Shelled edamame",
+     "slug": null
+    },
+    {
+     "name": "Green peas",
+     "slug": null
+    },
+    {
+     "name": "Asian pears",
+     "slug": "pears"
+    },
+    {
+     "name": "Green grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Rice, crackers and pantry",
+   "items": [
+    {
+     "name": "Sushi rice",
+     "slug": null
+    },
+    {
+     "name": "Nori sheets",
+     "slug": null
+    },
+    {
+     "name": "Rice crackers",
+     "slug": "rice-crackers"
+    },
+    {
+     "name": "Sesame crackers",
+     "slug": null
+    },
+    {
+     "name": "Long breadsticks",
+     "slug": "grissini"
+    },
+    {
+     "name": "Pickled ginger",
+     "slug": null
+    },
+    {
+     "name": "Soy sauce or ponzu",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Each koi is one slice of thick smoked salmon cut with a simple template, with cream cheese markings piped on. Set on a dark tray, the orange fish look like they're swimming.",
+  "The garden around the pond is the rest of the board: shrimp, a salami bridge, cubes of Gouda and white cheddar, cucumber lily pads and radishes cut into lotuses. It's an elegant choice for a spring party, a shower or anyone who loves sushi."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Make the rice balls (wrap them tightly and refrigerate), cut the radish lotus flowers (store them in ice water so they open), and make the koi template."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Build the garden around the pond."
+  },
+  {
+   "when": "45 minutes before",
+   "what": "Cut and place the koi (keep the salmon cold until the last moment), add the lily pads, the lotuses and the bridge."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make smoked salmon koi?",
+   "a": "Cut each fish from a thick slice of smoked salmon using a paper template, then add cream cheese markings and tiny eyes. The book has the template and the steps."
+  },
+  {
+   "q": "What do you need for the pond?",
+   "a": "A dark round tray works best, set on a larger board so the garden can go around it."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Make the template, cut the cucumbers and cube the cheese the day before. Cut and place the salmon koi last and keep the board cool. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "smoked-salmon-cream-cheese-pairing",
+  "themed-charcuterie-board-ideas"
+ ],
+ "slug": "koi-pond-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

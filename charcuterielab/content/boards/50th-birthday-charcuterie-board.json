@@ -1,68 +1,95 @@
 {
- "slug": "50th-birthday-charcuterie-board",
  "number": "B1-50",
  "book": "main",
  "title": "The Ultimate 50th Celebration Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-50-ultimate-50th-celebration.webp",
- "blog": [
-  "charcuterie-board-birthday"
- ],
- "serves": null,
- "guests": 8,
- "board_size": "40\"–60\" table or multiple boards",
+ "h1": "Ultimate 50th Celebration Board",
+ "seo_title": "50th Birthday Charcuterie Board for 20–30: Ultimate Plan",
+ "description": "The ultimate 50th celebration charcuterie board for 20–30: seven cheeses, jamón ibérico and six more meats, truffle honey, figs and gold leaf. The book's finale.",
+ "hook": "The finale of the first book: the best of everything, for a 50th birthday or any milestone worth celebrating.",
+ "serves": "20–30",
+ "guests": 30,
+ "board_size": "40–60\" table or several boards",
  "prep_time": "60–90 min",
  "cost": "$175–$300",
  "difficulty": "Master",
  "groups": [
   {
-   "name": "The Best Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Parmigiano-Reggiano DOP",
+     "name": "Parmigiano-Reggiano",
      "slug": "parmigiano-reggiano"
     },
     {
-     "name": "Jamón Ibérico de Bellota",
-     "slug": "jamon-iberico"
-    },
-    {
-     "name": "Époisses (washed-rind)",
-     "slug": "epoisses"
-    },
-    {
-     "name": "Aged Comté (24-month)",
-     "slug": "comte"
-    },
-    {
-     "name": "Truffle Pecorino",
+     "name": "Époisses",
      "slug": null
     },
     {
-     "name": "Brillat-Savarin Triple-Crème",
+     "name": "Aged Comté",
+     "slug": "comte"
+    },
+    {
+     "name": "Truffle pecorino",
+     "slug": null
+    },
+    {
+     "name": "Brillat-Savarin",
      "slug": "triple-creme"
     },
     {
-     "name": "Manchego DO (12-month)",
+     "name": "Manchego",
      "slug": "manchego"
     },
     {
-     "name": "Gorgonzola Naturale",
+     "name": "Gorgonzola",
      "slug": "gorgonzola"
     }
    ]
   },
   {
-   "name": "The Best Fruits & Accompaniments",
+   "name": "Meat",
    "items": [
     {
-     "name": "Fresh Figs (in season)",
+     "name": "Jamón ibérico",
+     "slug": "jamon-iberico"
+    },
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Speck",
+     "slug": "speck"
+    },
+    {
+     "name": "Coppa",
+     "slug": "coppa"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    },
+    {
+     "name": "Genoa salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & extras",
+   "items": [
+    {
+     "name": "Fresh figs",
      "slug": "figs"
     },
     {
-     "name": "Champagne Grapes",
+     "name": "Champagne grapes",
      "slug": "champagne-grapes"
     },
     {
@@ -70,19 +97,19 @@
      "slug": "honeycomb"
     },
     {
-     "name": "Quince Paste (Membrillo)",
+     "name": "Quince paste",
      "slug": "membrillo"
     },
     {
-     "name": "Castelvetrano Olives",
+     "name": "Castelvetrano olives",
      "slug": "castelvetrano-olives"
     },
     {
-     "name": "Marcona Almonds",
+     "name": "Marcona almonds",
      "slug": "marcona-almonds"
     },
     {
-     "name": "Dried Apricots (Turkish)",
+     "name": "Dried apricots",
      "slug": "dried-apricots"
     },
     {
@@ -92,76 +119,47 @@
    ]
   },
   {
-   "name": "The Best Meats",
+   "name": "Luxury",
    "items": [
     {
-     "name": "Prosciutto di Parma 24-month",
-     "slug": "prosciutto-di-parma"
-    },
-    {
-     "name": "Bresaola (premium)",
-     "slug": "bresaola"
-    },
-    {
-     "name": "Speck Alto Adige",
-     "slug": "speck"
-    },
-    {
-     "name": "Coppa di Testa (or standard)",
-     "slug": "coppa"
-    },
-    {
-     "name": "Soppressata Calabrese",
-     "slug": "soppressata"
-    },
-    {
-     "name": "Salami Genoa (artisan)",
-     "slug": "genoa-salami"
-    }
-   ]
-  },
-  {
-   "name": "The Best Luxury Condiments",
-   "items": [
-    {
-     "name": "Truffle Honey",
+     "name": "Truffle honey",
      "slug": "truffle-honey"
     },
     {
-     "name": "Aged Balsamic (25-year)",
-     "slug": "balsamic-glaze"
-    },
-    {
-     "name": "Dijon Mustard (Fallot)",
-     "slug": "dijon-mustard"
-    },
-    {
-     "name": "Edible Gold Leaf (optional)",
+     "name": "Aged balsamic",
      "slug": null
     },
     {
-     "name": "Micro-greens or Fresh Herbs s",
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Edible gold leaf",
+     "slug": null
+    },
+    {
+     "name": "Microgreens",
      "slug": null
     }
    ]
   },
   {
-   "name": "The Best Breads & Crackers",
+   "name": "Bread",
    "items": [
     {
-     "name": "Pain de Campagne",
+     "name": "Country bread",
      "slug": null
     },
     {
-     "name": "Walnut Raisin Crisps",
-     "slug": null
+     "name": "Walnut raisin crisps",
+     "slug": "walnuts"
     },
     {
-     "name": "Raincoast Crisps",
-     "slug": null
+     "name": "Fig and olive crisps",
+     "slug": "figs"
     },
     {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
@@ -171,12 +169,53 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Seven cheeses covering every texture, from buttery Brillat-Savarin and pungent Époisses to 24-month Comté, truffle pecorino and Parmigiano-Reggiano. The rule isn't the most expensive version of everything, it's the best version of each.",
+  "Jamón ibérico, 24-month prosciutto and speck lead the meats, and truffle honey, aged balsamic, quince and honeycomb give each cheese its partner. Gold leaf is optional, but this is the board that earns it."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Shop the cheese counter; cut the hard cheeses and wrap them."
+  },
+  {
+   "when": "T–90 min",
+   "what": "Take out the hard cheeses; set out the boards and bowls."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Take out the soft cheeses; place all eight."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Add the meats, fruit and breads."
+  },
+  {
+   "when": "T–0",
+   "what": "Add the gold leaf and truffle honey; raise a glass."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you serve at a 50th birthday party?",
+   "a": "A grand charcuterie table is ideal: it feeds a crowd, looks spectacular and works for a cocktail party or as the main food."
+  },
+  {
+   "q": "How much does it cost?",
+   "a": "About $175 to $300 for 20 to 30 people, depending on the cheeses and the jamón."
+  },
+  {
+   "q": "Can I make it smaller?",
+   "a": "Yes. Halve every quantity and use four or five cheeses and four meats for 10 to 15 people."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-birthday",
+  "expensive-board"
+ ],
+ "slug": "50th-birthday-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

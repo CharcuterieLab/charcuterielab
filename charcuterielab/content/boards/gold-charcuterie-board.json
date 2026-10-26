@@ -1,0 +1,197 @@
+{
+ "number": "IB-18",
+ "book": "impossible",
+ "title": "The Midas Touch",
+ "category": "showpiece",
+ "image": "/images/boards/impossible-18.webp",
+ "h1": "Gold Luxury Charcuterie Board (The Midas Touch)",
+ "seo_title": "Gold Luxury Charcuterie Board: Caviar, Jamón & Gold Leaf",
+ "description": "The Midas Touch board for 12 to 15: jamón serrano, prosciutto di Parma, smoked salmon, caviar, triple-crème and 24-month Parmigiano, finished with edible gold.",
+ "hook": "The most luxurious board in the book: everything is ordinary to buy, and the gold is the magic.",
+ "serves": "12–15",
+ "guests": 15,
+ "board_size": "36 × 24 in",
+ "prep_time": "75 minutes",
+ "cost": "$250–$350",
+ "difficulty": "3 of 5",
+ "groups": [
+  {
+   "name": "Meats and fish",
+   "items": [
+    {
+     "name": "Jamón serrano",
+     "slug": "jamon-serrano"
+    },
+    {
+     "name": "Prosciutto di Parma",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Smoked salmon",
+     "slug": "smoked-salmon"
+    },
+    {
+     "name": "Domestic caviar",
+     "slug": "caviar"
+    }
+   ]
+  },
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Triple-crème",
+     "slug": "triple-creme"
+    },
+    {
+     "name": "To 1½ lb Parmigiano-Reggiano",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Truffle cheese",
+     "slug": null
+    },
+    {
+     "name": "Burrata",
+     "slug": "burrata"
+    },
+    {
+     "name": "Stilton",
+     "slug": "stilton"
+    }
+   ]
+  },
+  {
+   "name": "Produce",
+   "items": [
+    {
+     "name": "Champagne grapes",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Pomegranate",
+     "slug": "pomegranate"
+    },
+    {
+     "name": "Chives",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Bread and crackers",
+   "items": [
+    {
+     "name": "Blini",
+     "slug": "blini"
+    },
+    {
+     "name": "Baguette",
+     "slug": "baguette"
+    },
+    {
+     "name": "Fine crisps",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Pantry and luxe touches",
+   "items": [
+    {
+     "name": "Crème fraîche",
+     "slug": null
+    },
+    {
+     "name": "Truffle honey",
+     "slug": "truffle-honey"
+    },
+    {
+     "name": "Square of honeycomb",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Medjool dates",
+     "slug": "medjool-dates"
+    },
+    {
+     "name": "Shelled pistachios",
+     "slug": "pistachios"
+    },
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Edible gold leaf and edible gold luster dust",
+     "slug": null
+    },
+    {
+     "name": "Crushed ice",
+     "slug": null
+    },
+    {
+     "name": "Champagne or sparkling wine",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Jamón serrano, prosciutto di Parma, smoked salmon and a little domestic caviar come from regular stores, and a triple-crème, 24-month Parmigiano and truffle cheese make the cheese course. Edible gold leaf and luster dust are what turn it into a showpiece.",
+  "On a black marble slab, the gold catches the light. It's built for milestone birthdays, anniversaries, engagement parties and New Year's Eve."
+ ],
+ "timeline": [
+  {
+   "when": "Day before",
+   "what": "Chill the champagne and the caviar (in the coldest part of the fridge, unopened). Buy the bread and toast the crostini."
+  },
+  {
+   "when": "2 hours before",
+   "what": "Gild the cheese and the honeycomb. Break the Parmigiano into chunks."
+  },
+  {
+   "when": "1 hour before",
+   "what": "Build the board, saving the caviar, the honey and the burrata for last."
+  },
+  {
+   "when": "Last 5 minutes",
+   "what": "Open the caviar, set it on ice, and pour the river of truffle honey."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do you buy edible gold leaf?",
+   "a": "Baking supply stores and online. Make sure it's labeled food-grade edible gold, not craft gold."
+  },
+  {
+   "q": "How much does it cost?",
+   "a": "About $250 to $350 for 12 to 15 people, mostly for the jamón, caviar and cheeses."
+  },
+  {
+   "q": "Can I make it ahead?",
+   "a": "Prepare everything except the gold the day before. Apply the gold leaf just before serving. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  }
+ ],
+ "blog": [
+  "expensive-board",
+  "best-jamon-serrano"
+ ],
+ "slug": "gold-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

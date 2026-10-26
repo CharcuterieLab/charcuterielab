@@ -1,29 +1,29 @@
 {
- "slug": "wedding-shower-charcuterie-board",
  "number": "B1-19",
  "book": "main",
  "title": "Wedding & Shower Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-19-wedding-and-shower.webp",
- "blog": [],
+ "h1": "Wedding & Bridal Shower Charcuterie Board",
+ "seo_title": "Wedding Charcuterie Board for 20–30: Shopping List & Plan",
+ "description": "A wedding or bridal shower charcuterie board for 20–30: six cheeses, five meats with salami roses, honeycomb, figs, berries and grissini on a marble table.",
+ "hook": "Elegant abundance for 20 to 30 guests: a photo-ready table with whole brie wheels, salami roses and honeycomb.",
  "serves": "20–30",
  "guests": 30,
- "board_size": "36\"–48\" marble table",
+ "board_size": "36–48\" marble table",
  "prep_time": "60–75 min",
  "cost": "$175–$275",
  "difficulty": "Advanced",
  "groups": [
   {
-   "name": "Premium Cheeses",
+   "name": "Cheese",
    "items": [
     {
      "name": "Brie",
      "slug": "brie"
     },
     {
-     "name": "Aged Cheddar (clothbound)",
+     "name": "Clothbound cheddar",
      "slug": "aged-cheddar"
     },
     {
@@ -35,17 +35,17 @@
      "slug": "gruyere"
     },
     {
-     "name": "Gorgonzola Dolce",
+     "name": "Gorgonzola dolce",
      "slug": "gorgonzola"
     },
     {
-     "name": "Chèvre log (herb-rolled)",
-     "slug": null
+     "name": "Herbed chèvre",
+     "slug": "fresh-chevre"
     }
    ]
   },
   {
-   "name": "Cured Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Prosciutto di Parma",
@@ -64,90 +64,90 @@
      "slug": "bresaola"
     },
     {
-     "name": "Salami Roses × 12 pre-rolled",
-     "slug": null
+     "name": "Salami roses",
+     "slug": "genoa-salami"
     }
    ]
   },
   {
-   "name": "Sweet Elements",
+   "name": "Sweet",
    "items": [
     {
      "name": "Honeycomb",
      "slug": "honeycomb"
     },
     {
-     "name": "Fresh Strawberries",
-     "slug": null
+     "name": "Strawberries",
+     "slug": "berries"
     },
     {
-     "name": "Red & White Grapes (clusters)",
+     "name": "Red and white grapes",
      "slug": "grapes"
     },
     {
-     "name": "Fresh Figs",
+     "name": "Fresh figs",
      "slug": "figs"
     },
     {
-     "name": "Dried Apricots",
+     "name": "Dried apricots",
      "slug": "dried-apricots"
     },
     {
-     "name": "Medjool Dates 12–15 pieces",
+     "name": "Medjool dates",
      "slug": "medjool-dates"
     },
     {
-     "name": "Pomegranate Seeds",
+     "name": "Pomegranate seeds",
      "slug": "pomegranate"
     },
     {
      "name": "Raspberries",
-     "slug": null
+     "slug": "berries"
     }
    ]
   },
   {
-   "name": "Savory Elements",
+   "name": "Savory",
    "items": [
     {
-     "name": "Castelvetrano Olives",
+     "name": "Castelvetrano olives",
      "slug": "castelvetrano-olives"
     },
     {
-     "name": "Marcona Almonds",
+     "name": "Marcona almonds",
      "slug": "marcona-almonds"
     },
     {
-     "name": "Walnuts (candied)",
-     "slug": "walnuts"
+     "name": "Candied walnuts",
+     "slug": "candied-pecans"
     },
     {
-     "name": "Rosemary sprigs × 8",
-     "slug": "rosemary-sprigs"
-    },
-    {
-     "name": "Cornichons 20–24",
+     "name": "Cornichons",
      "slug": "cornichons"
     },
     {
-     "name": "Fig Jam (×2 ramekins)",
+     "name": "Fig jam",
      "slug": "fig-jam"
+    },
+    {
+     "name": "Rosemary",
+     "slug": "rosemary-sprigs"
     }
    ]
   },
   {
-   "name": "Breads & Crackers",
+   "name": "Bread",
    "items": [
     {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Sourdough Baguettes",
+     "name": "Sourdough baguette",
      "slug": "sourdough"
     },
     {
-     "name": "Seeded Flatbreads",
+     "name": "Seeded flatbreads",
      "slug": null
     },
     {
@@ -157,12 +157,53 @@
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Large tables fail in a way nobody expects: guests can only eat what they can reach. This board is laid out so every cheese and meat appears more than once along the table, with crackers in several clusters, so nobody crowds one end.",
+  "Salami roses and standing grissini give it height and the wow factor for photos, and a range of six cheeses from mild brie to Gorgonzola dolce means there's something for every guest."
+ ],
+ "timeline": [
+  {
+   "when": "T–90 min",
+   "what": "Take out all the cheeses; set out every ingredient."
+  },
+  {
+   "when": "T–60 min",
+   "what": "Place the cheese anchors and bowls."
+  },
+  {
+   "when": "T–45 min",
+   "what": "Add the meats and salami roses."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Add the fruit, nuts and garnish."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Stand the grissini, add rosemary and do a final check."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much charcuterie for a wedding?",
+   "a": "As an appetizer before dinner, plan about 2 oz each of cheese and meat per guest. As the main food, plan 3 to 4 oz each."
+  },
+  {
+   "q": "Can I make a wedding grazing table ahead?",
+   "a": "Cut the hard cheeses and make the salami roses the day before. Assemble within an hour of guests arriving and refill from the fridge. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "How do you keep a big table from getting crowded?",
+   "a": "Repeat each cheese and meat at both ends and put crackers in several clusters so guests can approach from every side."
+  }
+ ],
+ "blog": [
+  "wedding-charcuterie-grazing-table",
+  "grazing-table"
+ ],
+ "slug": "wedding-shower-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

@@ -1,0 +1,133 @@
+{
+ "number": "TB-08",
+ "book": "two",
+ "title": "'Just Because' Board",
+ "category": "for-two",
+ "image": "/images/boards/two-08.webp",
+ "h1": "The 'Just Because' Board for Two",
+ "seo_title": "Easy 'Just Because' Charcuterie Board for Two (Under $25)",
+ "description": "An easy charcuterie board for two from what's in the fridge: sharp cheddar, a small brie, salami, apple, grapes, nuts, honey and mustard. About $12 to $22.",
+ "hook": "No occasion, maximum impact: a weeknight board for two that you can mostly build from the fridge and pantry.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12\" board or cutting board",
+ "prep_time": "10 min",
+ "cost": "$12–$22",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Small brie or Camembert",
+     "slug": "brie"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Salami or soppressata",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Apple, sliced",
+     "slug": "apples"
+    },
+    {
+     "name": "Grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Walnuts or almonds",
+     "slug": "walnuts"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    },
+    {
+     "name": "Cornichons",
+     "slug": "cornichons"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Crackers you have",
+     "slug": null
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This is the cheapest board in the book because it leans on things you probably have: sharp cheddar, a small brie or Camembert, salami, an apple and grapes, nuts, honey, Dijon and whatever crackers are in the cupboard.",
+  "It still follows the formula that makes a board work: something sharp, something creamy, something salty and something sweet, with a sour bite from cornichons to reset between them."
+ ],
+ "timeline": [
+  {
+   "when": "Whenever",
+   "what": "Check the fridge and pantry first."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Quick shop for one or two items if needed."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take the cheese out if you remember."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Carry it to the couch."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you make a quick charcuterie board for two?",
+   "a": "Start with one sharp cheese and one soft one, add salami, sliced apple and grapes, a handful of nuts, honey or mustard, cornichons and crackers. It takes about 10 minutes."
+  },
+  {
+   "q": "How much does it cost?",
+   "a": "About $12 to $22, depending on what you already have. The cheeses are the biggest cost."
+  },
+  {
+   "q": "Can I swap ingredients?",
+   "a": "Yes. Any firm cheese works for the cheddar and any soft one for the brie. Pears work instead of apple."
+  }
+ ],
+ "blog": [
+  "easy-charcuterie-board",
+  "budget-charcuterie-board"
+ ],
+ "slug": "just-because-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

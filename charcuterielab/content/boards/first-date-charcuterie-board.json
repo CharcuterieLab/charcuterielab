@@ -1,0 +1,140 @@
+{
+ "number": "TB-01",
+ "book": "two",
+ "title": "First Date Board",
+ "category": "for-two",
+ "image": "/images/boards/two-01.webp",
+ "h1": "First Date Charcuterie Board for Two",
+ "seo_title": "First Date Charcuterie Board for Two: What to Buy & Plan",
+ "description": "A first date charcuterie board for two: Manchego, brie, prosciutto, soppressata, Castelvetrano olives and Marcona almonds, built in 20 minutes with a glass of Cava.",
+ "hook": "Impressive without trying too hard: two cheeses, two meats and a handful of easy extras that nobody has to be brave to eat.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "12–14\" board",
+ "prep_time": "20 min",
+ "cost": "$31–$46",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Manchego",
+     "slug": "manchego"
+    },
+    {
+     "name": "Double-crème brie",
+     "slug": "triple-creme"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Soppressata",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Castelvetrano olives",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    },
+    {
+     "name": "Dijon mustard",
+     "slug": "dijon-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Marcona almonds",
+     "slug": "marcona-almonds"
+    },
+    {
+     "name": "Dried apricots",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Red seedless grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Water crackers",
+     "slug": "water-crackers"
+    },
+    {
+     "name": "Rosemary crackers",
+     "slug": "rosemary-crackers"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A first date board should be safe and still feel special. Firm, nutty Manchego and soft, mild brie give two very different first bites, and neither is an acquired taste. Each meat sits by the cheese it suits: delicate prosciutto with the brie, peppery soppressata with the Manchego.",
+  "Buttery Castelvetrano olives, sweet apricots and grapes, and a little honey and Dijon give every rich bite something to reset it. Dry bubbles like Cava or Prosecco do the same job in the glass and make the night feel like an occasion."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take the manchego out of the fridge."
+  },
+  {
+   "when": "T–25 min",
+   "what": "Take out the brie."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; fill the olive and honey dishes."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Drizzle the honey; pour the bubbles."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do you put on a first date charcuterie board?",
+   "a": "Keep it to two approachable cheeses (Manchego and brie), two meats (prosciutto and soppressata), mild olives, almonds, a little fruit, honey, mustard and two kinds of crackers. Nothing too strong or messy."
+  },
+  {
+   "q": "How much charcuterie do you need for two people?",
+   "a": "About 3 oz of cheese and 3 oz of meat per person when the board is the snack, plus crackers, fruit and nuts. Before dinner, buy about a third less."
+  },
+  {
+   "q": "What wine goes with a first date board?",
+   "a": "Cava or Prosecco. Dry bubbles cut through salty, rich bites and feel festive without being over the top. Sparkling water with lemon or a light rosé work too."
+  }
+ ],
+ "blog": [
+  "charcuterie-board-two"
+ ],
+ "slug": "first-date-charcuterie-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

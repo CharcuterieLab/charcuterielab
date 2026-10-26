@@ -1,0 +1,137 @@
+{
+ "number": "TB-15",
+ "book": "two",
+ "title": "Breakfast in Bed Board",
+ "category": "for-two",
+ "image": "/images/boards/two-15.webp",
+ "h1": "Breakfast in Bed Board for Two",
+ "seo_title": "Breakfast in Bed Board for Two: Croissants, Brie & Berries",
+ "description": "A breakfast in bed board for two: brie, Gruyère, prosciutto and ham, mini croissants, strawberries, blueberries, Greek yogurt and granola, with coffee and juice.",
+ "hook": "A tray, two coffees and nowhere to be: a French-café breakfast built on one board.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "Breakfast tray or 12\" board",
+ "prep_time": "15 min",
+ "cost": "$21–$32",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Brie or Camembert",
+     "slug": "brie"
+    },
+    {
+     "name": "Gruyère",
+     "slug": "gruyere"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Ham",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Mini croissants",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Strawberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Blueberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Granola",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Spreads & extras",
+   "items": [
+    {
+     "name": "Greek yogurt",
+     "slug": null
+    },
+    {
+     "name": "Butter and jam",
+     "slug": null
+    },
+    {
+     "name": "Honey",
+     "slug": "honey"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "This is a breakfast tray more than a cheese board. Mini croissants with brie or Gruyère and thin ham or prosciutto make little breakfast sandwiches, and butter and jam are there for anyone who just wants a warm croissant.",
+  "Greek yogurt, granola and berries make it filling without making it heavy, and honey ties the sweet and savory sides together. It's sized as a light breakfast for two, with coffee and orange juice."
+ ],
+ "timeline": [
+  {
+   "when": "Night before",
+   "what": "Wash the berries; set out the tray and mugs."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Start the coffee; take out the cheeses."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Warm the croissants at 350°F for 5 minutes."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Build the tray; meats last."
+  },
+  {
+   "when": "T–0",
+   "what": "Carry carefully."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a breakfast board?",
+   "a": "Mini croissants, a soft cheese and a firm one, thin ham or prosciutto, butter and jam, Greek yogurt, granola, berries and honey."
+  },
+  {
+   "q": "Can I warm the croissants?",
+   "a": "Yes. Five minutes in a 350°F oven makes store-bought croissants taste fresh. Add the cheese after so it doesn't melt onto the tray."
+  },
+  {
+   "q": "Can I prep it the night before?",
+   "a": "Wash the berries and portion the yogurt and granola the night before. Build the tray in the morning, about 10 minutes."
+  }
+ ],
+ "blog": [
+  "christmas-morning-charcuterie-board",
+  "charcuterie-board-two"
+ ],
+ "slug": "breakfast-in-bed-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

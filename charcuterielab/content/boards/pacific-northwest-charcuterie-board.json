@@ -1,120 +1,161 @@
 {
- "slug": "pacific-northwest-charcuterie-board",
  "number": "B1-36",
  "book": "main",
  "title": "Pacific Northwest Board",
  "category": "around-the-world",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-36-pacific-northwest.webp",
- "blog": [],
+ "h1": "Pacific Northwest Charcuterie Board",
+ "seo_title": "Pacific Northwest Charcuterie Board: Salmon, Hazelnuts & Plan",
+ "description": "A Pacific Northwest charcuterie board for 8–12: Tillamook aged cheddar, Beecher's Flagship, local chèvre, wild smoked salmon, crab dip, hazelnuts and marionberries.",
+ "hook": "Wild salmon, hazelnuts and Northwest cheeses: a regional board for 8 to 12 that tastes like Oregon and Washington.",
  "serves": "8–12",
  "guests": 12,
- "board_size": "16\"–20\" board",
+ "board_size": "16–20\" board",
  "prep_time": "20–25 min",
  "cost": "$55–$85",
  "difficulty": "Intermediate",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Tillamook Aged Cheddar (Oregon)",
+     "name": "Tillamook aged cheddar",
      "slug": "aged-cheddar"
     },
     {
-     "name": "Beecher's Flagship (Washington)",
+     "name": "Beecher's Flagship",
      "slug": null
     },
     {
-     "name": "Chèvre (Pacific NW goat)",
+     "name": "Chèvre",
      "slug": "fresh-chevre"
+    }
+   ]
+  },
+  {
+   "name": "Seafood & meat",
+   "items": [
+    {
+     "name": "Wild smoked salmon",
+     "slug": "smoked-salmon"
     },
     {
-     "name": "Red Grapes",
+     "name": "Smoked crab dip",
+     "slug": null
+    },
+    {
+     "name": "Soppressata or salami",
+     "slug": "soppressata"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Marionberries or blackberries",
+     "slug": "berries"
+    },
+    {
+     "name": "Fresh figs",
+     "slug": "figs"
+    },
+    {
+     "name": "Apple slices",
+     "slug": "apples"
+    },
+    {
+     "name": "Red grapes",
      "slug": "grapes"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
+   "name": "Extras",
    "items": [
     {
-     "name": "Marionberries or Blackberries",
-     "slug": null
-    },
-    {
-     "name": "Fresh Figs (or dried) 4 figs",
-     "slug": "figs"
-    },
-    {
-     "name": "Apple slices (Honeycrisp)",
-     "slug": "apples"
-    }
-   ]
-  },
-  {
-   "name": "Seafood & Meats",
-   "items": [
-    {
-     "name": "Wild Smoked Salmon",
-     "slug": "smoked-salmon"
-    },
-    {
-     "name": "Smoked Dungeness Crab Dip",
-     "slug": null
-    },
-    {
-     "name": "Sopressata or Salami",
-     "slug": null
-    },
-    {
-     "name": "Hazelnuts (roasted)",
-     "slug": "hazelnuts"
-    }
-   ]
-  },
-  {
-   "name": "Spreads & Extras",
-   "items": [
-    {
-     "name": "Hazelnut Honey (Oregon)",
+     "name": "Hazelnut honey",
      "slug": "honey"
     },
     {
      "name": "Capers",
      "slug": "capers"
+    },
+    {
+     "name": "Roasted hazelnuts",
+     "slug": "hazelnuts"
+    },
+    {
+     "name": "Pinot Noir jam",
+     "slug": null
     }
    ]
   },
   {
-   "name": "Crackers & Bread",
+   "name": "Bread",
    "items": [
     {
-     "name": "Pinot Noir Jam (Oregon)",
-     "slug": null
+     "name": "Fig and olive crisps",
+     "slug": "figs"
     },
     {
-     "name": "Raincoast Crisps (fig & olive)",
-     "slug": null
-    },
-    {
-     "name": "Water Crackers",
+     "name": "Water crackers",
      "slug": "water-crackers"
     },
     {
-     "name": "Sourdough slices (local) 4–6 slices",
+     "name": "Sourdough",
      "slug": "sourdough"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Two Northwest cheddars, Oregon's Tillamook and Seattle's Beecher's Flagship, make the cheese course, with a local chèvre for contrast. Wild smoked salmon and a smoked crab dip bring the coast.",
+  "Oregon's Willamette Valley grows almost all of America's hazelnuts, so they're here roasted and in the honey. Marionberries, Pinot Noir jam and sourdough finish the regional story."
+ ],
+ "timeline": [
+  {
+   "when": "T–30 min",
+   "what": "Take out the cheeses; keep the salmon and crab dip cold."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Slice the apples and sourdough; fill the small bowls."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place the cheeses and the hazelnut honey."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the salmon, crab dip, meats and berries."
+  },
+  {
+   "when": "T–0",
+   "what": "Pour a Willamette Pinot Noir and serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What foods are from the Pacific Northwest?",
+   "a": "Wild salmon, Dungeness crab, hazelnuts, marionberries and other berries, apples, Tillamook and Beecher's cheeses and Willamette Valley Pinot Noir."
+  },
+  {
+   "q": "Can I swap the regional cheeses?",
+   "a": "Yes. Any aged white cheddar works for Tillamook or Beecher's, and blackberries work for marionberries."
+  },
+  {
+   "q": "What wine goes with this board?",
+   "a": "Oregon Pinot Noir. It's light enough for salmon and has the fruit for the berries and jam."
+  }
+ ],
+ "blog": [
+  "best-smoked-salmon",
+  "aged-cheddar-charcuterie-board"
+ ],
+ "slug": "pacific-northwest-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

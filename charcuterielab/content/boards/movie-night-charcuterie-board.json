@@ -1,52 +1,35 @@
 {
- "slug": "movie-night-charcuterie-board",
  "number": "B1-28",
  "book": "main",
  "title": "Movie Night Board",
  "category": "occasions-parties",
- "wave": 2,
- "status": "draft",
  "image": "/images/50-boards-28-movie-night.webp",
- "blog": [],
+ "h1": "Movie Night Charcuterie Board",
+ "seo_title": "Movie Night Charcuterie Board for 4–8: Snack Board Plan",
+ "description": "A movie night charcuterie board for 4–8: cubed cheddar, pepper jack, pepperoni cups, salami, popcorn, pretzels, gummy bears, ranch and hot honey.",
+ "hook": "Designed to be eaten in the dark without looking: pre-cubed cheese, pepperoni cups and a big pile of popcorn.",
  "serves": "4–8",
  "guests": 8,
- "board_size": "14\"–16\" board",
+ "board_size": "14–16\" board",
  "prep_time": "15–20 min",
  "cost": "$35–$55",
  "difficulty": "Beginner",
  "groups": [
   {
-   "name": "Cheeses",
+   "name": "Cheese",
    "items": [
     {
-     "name": "Sharp Cheddar",
+     "name": "Sharp cheddar",
      "slug": "aged-cheddar"
     },
     {
-     "name": "Pepper Jack",
+     "name": "Pepper jack",
      "slug": "pepper-jack"
-    },
-    {
-     "name": "Grapes",
-     "slug": "grapes"
     }
    ]
   },
   {
-   "name": "Fruits & Veggies",
-   "items": [
-    {
-     "name": "Cherry Tomatoes",
-     "slug": null
-    },
-    {
-     "name": "Baby Carrots",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Cured Meats",
+   "name": "Meat",
    "items": [
     {
      "name": "Pepperoni",
@@ -55,54 +38,112 @@
     {
      "name": "Salami",
      "slug": "genoa-salami"
-    },
-    {
-     "name": "Spicy Honey",
-     "slug": "honey"
     }
    ]
   },
   {
-   "name": "Dips & Extras",
+   "name": "Snacks",
    "items": [
     {
-     "name": "Ranch Dip",
-     "slug": null
-    }
-   ]
-  },
-  {
-   "name": "Crackers & Snacks",
-   "items": [
-    {
-     "name": "Dark Chocolate chips",
-     "slug": "dark-chocolate"
-    },
-    {
-     "name": "Butter Crackers (Ritz-style)",
+     "name": "Butter crackers",
      "slug": "butter-crackers"
     },
     {
-     "name": "Gummy Bears (fun extra)",
+     "name": "Mini pretzels",
      "slug": null
     },
     {
-     "name": "Pretzels (mini)",
+     "name": "Popcorn",
      "slug": null
     },
     {
-     "name": "Popcorn (plain or lightly salted)",
+     "name": "Dark chocolate chips",
+     "slug": "dark-chocolate"
+    },
+    {
+     "name": "Gummy bears",
      "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & vegetables",
+   "items": [
+    {
+     "name": "Cherry tomatoes",
+     "slug": null
+    },
+    {
+     "name": "Baby carrots",
+     "slug": null
+    },
+    {
+     "name": "Grapes",
+     "slug": "grapes"
+    }
+   ]
+  },
+  {
+   "name": "Dips",
+   "items": [
+    {
+     "name": "Ranch dip",
+     "slug": null
+    },
+    {
+     "name": "Hot honey",
+     "slug": "hot-honey"
     }
    ]
   }
  ],
- "h1": null,
- "seo_title": null,
- "description": null,
- "hook": null,
- "why": [],
- "timeline": [],
- "faq": [],
- "todo": "Draft from the book PDF: check the ingredient groups, then write h1, seo_title, description, hook, why, timeline and faq."
+ "why": [
+  "Everything on this board can be picked up with one hand in a dark room. The cheddar is pre-cubed, and pepperoni folded into little cups can hold a cube, so the bite is already built.",
+  "Popcorn is the high-volume filler, pretzels give salty crunch, and gummy bears and chocolate chips cover the sweet tooth. Carrots and tomatoes with ranch keep it from being all junk food, and hot honey makes the cheese more interesting."
+ ],
+ "timeline": [
+  {
+   "when": "T–20 min",
+   "what": "Chill the drinks; take out the cheese."
+  },
+  {
+   "when": "T–15 min",
+   "what": "Cube the cheddar; slice the salami."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Arrange the board; fill the dip bowls."
+  },
+  {
+   "when": "T–5 min",
+   "what": "Add the popcorn and snacks last."
+  },
+  {
+   "when": "T–0",
+   "what": "Press play."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a movie night charcuterie board?",
+   "a": "Cubed cheddar and pepper jack, pepperoni and salami, popcorn, pretzels, butter crackers, candy, carrots, cherry tomatoes, grapes, ranch and hot honey."
+  },
+  {
+   "q": "How do you keep popcorn crunchy on a board?",
+   "a": "Add it last, in its own bowl or pile away from the wet foods."
+  },
+  {
+   "q": "Is there a version for two?",
+   "a": "Yes. Boards for Two has a movie night board sized for a couple."
+  }
+ ],
+ "blog": [
+  "candy-charcuterie-board",
+  "easy-charcuterie-board"
+ ],
+ "slug": "movie-night-charcuterie-board",
+ "status": "published",
+ "wave": 2,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
 }

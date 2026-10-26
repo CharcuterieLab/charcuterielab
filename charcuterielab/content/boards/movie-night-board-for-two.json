@@ -1,0 +1,133 @@
+{
+ "number": "TB-12",
+ "book": "two",
+ "title": "Movie Night Board",
+ "category": "for-two",
+ "image": "/images/boards/two-12.webp",
+ "h1": "Movie Night Charcuterie Board for Two",
+ "seo_title": "Movie Night Charcuterie Board for Two: Sweet & Salty Plan",
+ "description": "A movie night charcuterie board for two: sharp white cheddar, pepper jack, pepperoni, salami, butter popcorn, chocolate-covered pretzels and mini peanut butter cups.",
+ "hook": "Sweet, salty and made for the couch: everything on it can be eaten in the dark with one hand.",
+ "serves": "2",
+ "guests": 2,
+ "board_size": "16\" board or large tray",
+ "prep_time": "20 min",
+ "cost": "$24–$35",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Sharp white cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Pepper jack",
+     "slug": "pepper-jack"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Sweets",
+   "items": [
+    {
+     "name": "Butter popcorn",
+     "slug": null
+    },
+    {
+     "name": "Chocolate-covered pretzels",
+     "slug": null
+    },
+    {
+     "name": "Peanut butter cups",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Red grapes",
+     "slug": "grapes"
+    },
+    {
+     "name": "Honey-roasted peanuts",
+     "slug": "honey-roasted-peanuts"
+    }
+   ]
+  },
+  {
+   "name": "Crackers & bread",
+   "items": [
+    {
+     "name": "Pretzel crisps",
+     "slug": "pretzel-crisps"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Movie night food has to work without looking: cubes of sharp white cheddar and pepper jack, pepperoni and salami, and bowls of popcorn and pretzel crisps. Nothing needs a knife or a second hand.",
+  "The sweet half (chocolate-covered pretzels, mini peanut butter cups, red grapes) sits against the salty half, so you keep going back and forth. A crisp lager or a fruity Lambrusco works with both."
+ ],
+ "timeline": [
+  {
+   "when": "T–45 min",
+   "what": "Take out the cheddar."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the pepper jack."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the meats; pick the movie."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Pop the popcorn; build the board."
+  },
+  {
+   "when": "T–0",
+   "what": "Press play."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What goes on a movie night charcuterie board?",
+   "a": "Cubed cheddar and pepper jack, pepperoni and salami, popcorn, chocolate-covered pretzels, mini peanut butter cups, grapes, honey-roasted peanuts and pretzel crisps."
+  },
+  {
+   "q": "How do you keep the popcorn crisp?",
+   "a": "Serve it in its own bowl on the board, away from the grapes and cheese, and add it last."
+  },
+  {
+   "q": "What should I drink?",
+   "a": "A crisp lager or a slightly sparkling red like Lambrusco. Both handle salty and sweet snacks."
+  }
+ ],
+ "blog": [
+  "candy-charcuterie-board",
+  "charcuterie-board-two"
+ ],
+ "slug": "movie-night-board-for-two",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}

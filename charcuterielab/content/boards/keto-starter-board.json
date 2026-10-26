@@ -1,0 +1,149 @@
+{
+ "number": "KB-01",
+ "book": "keto",
+ "title": "Classic Keto Starter Board",
+ "category": "keto-low-carb",
+ "image": "/images/boards/keto-01.webp",
+ "h1": "Classic Keto Charcuterie Board",
+ "seo_title": "Classic Keto Charcuterie Board: 8 g Net Carbs per Serving",
+ "description": "A classic keto charcuterie board for 8: aged cheddar, Gouda, brie, salami, pepperoni, prosciutto, parmesan crisps and cucumbers. About 8 g net carbs per serving.",
+ "hook": "The everyday keto board, done right: three cheeses, three meats and low-carb dippers that make you forget the crackers.",
+ "serves": "8",
+ "guests": 8,
+ "board_size": "16–20\" board",
+ "prep_time": "25–30 min",
+ "cost": "$58–$89",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheeses",
+   "items": [
+    {
+     "name": "Aged sharp cheddar",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Gouda",
+     "slug": "aged-gouda"
+    },
+    {
+     "name": "Brie",
+     "slug": "brie"
+    }
+   ]
+  },
+  {
+   "name": "Meats",
+   "items": [
+    {
+     "name": "Hard salami",
+     "slug": "genoa-salami"
+    },
+    {
+     "name": "Pepperoni",
+     "slug": "pepperoni"
+    },
+    {
+     "name": "Prosciutto",
+     "slug": "prosciutto-di-parma"
+    }
+   ]
+  },
+  {
+   "name": "Low-carb dippers",
+   "items": [
+    {
+     "name": "Cucumbers",
+     "slug": null
+    },
+    {
+     "name": "Celery",
+     "slug": null
+    },
+    {
+     "name": "Parmesan crisps",
+     "slug": "parmesan-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Briny & condiments",
+   "items": [
+    {
+     "name": "Green olives",
+     "slug": "mixed-marinated-olives"
+    },
+    {
+     "name": "Dill pickles or cornichons",
+     "slug": "dill-pickles"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "slug": "whole-grain-mustard"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & nuts",
+   "items": [
+    {
+     "name": "Almonds",
+     "slug": "almonds"
+    },
+    {
+     "name": "Raspberries",
+     "slug": "berries"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Without bread, texture does the work crackers usually do. Sharp, crumbly cheddar, mellow Gouda and soft brie give three different bites, and parmesan crisps, cucumber rounds and celery give you the crunch.",
+  "Salami, pepperoni and prosciutto are close to zero carbs, so the carbs on this board come from the almonds, raspberries and vegetables. Olives, pickles and whole-grain mustard bring the acidity that keeps rich food from tasting heavy. About 8 g net carbs per serving."
+ ],
+ "timeline": [
+  {
+   "when": "T–60 min",
+   "what": "Take the cheddar and gouda out of the fridge."
+  },
+  {
+   "when": "T–30 min",
+   "what": "Take out the brie. Slice the cucumbers and celery; fill the small bowls."
+  },
+  {
+   "when": "T–20 min",
+   "what": "Take out the salami, pepperoni and prosciutto."
+  },
+  {
+   "when": "T–10 min",
+   "what": "Place cheeses, then meats; tuck in the dippers."
+  },
+  {
+   "when": "T–0",
+   "what": "Add berries, almonds and rosemary. Serve."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is charcuterie keto-friendly?",
+   "a": "Mostly. Hard and soft cheeses and cured meats are very low in carbs. The carbs come from crackers, bread, jams, honey and most fruit, which is why this board uses vegetables, parmesan crisps and berries instead."
+  },
+  {
+   "q": "What do you use instead of crackers on a keto board?",
+   "a": "Cucumber rounds, celery, endive leaves, parmesan or cheddar crisps and pork rinds all work."
+  },
+  {
+   "q": "How many carbs are in this board?",
+   "a": "About 8 g net carbs per serving, when shared by 8 people. The book lists the net carbs of every item."
+  }
+ ],
+ "blog": [
+  "keto-charcuterie-board",
+  "best-cheese-crisps"
+ ],
+ "slug": "keto-starter-board",
+ "status": "published",
+ "wave": 5,
+ "date": "2026-10-26",
+ "updated": "2026-10-26"
+}
