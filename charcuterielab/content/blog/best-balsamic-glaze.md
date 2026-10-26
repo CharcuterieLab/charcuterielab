@@ -79,7 +79,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 :::
 
 **Serving it:** drizzle glaze over burrata, fresh mozzarella, strawberries, figs or chunks of Parmesan just before guests arrive, or put it in a small bowl with a spoon so it doesn't run across the board. You can make your own by simmering a cheap balsamic vinegar until it coats a spoon.
-For what balsamic glaze pairs with and how to serve it, see the [balsamic glaze guide](/ingredients/balsamic-glaze/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Balsamic glaze: pairings and serving tips](/ingredients/balsamic-glaze/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Balsamic glaze questions</h2>
@@ -111,4 +111,3 @@ Check the bottle. Most can be stored in the pantry after opening.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

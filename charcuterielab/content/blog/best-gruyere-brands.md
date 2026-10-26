@@ -88,7 +88,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 :::
 
 **Serving it:** take Gruyère out of the fridge 30 to 45 minutes before serving. Cut it into thin batons or shards rather than cubes, and plan on about 1 oz per person when it's one of three cheeses.
-For what Gruyère pairs with and how to serve it, see the [Gruyère guide](/ingredients/gruyere/). What goes with Gruyère? See the [Gruyère pairing guide](/pairings/food/gruyere/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Gruyère: pairings and serving tips](/ingredients/gruyere/) What goes with Gruyère? See the [Gruyère pairing guide](/pairings/food/gruyere/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Gruyère questions</h2>
@@ -120,4 +120,3 @@ Swiss Le Gruyère AOP is made from raw milk. If a guest needs pasteurized cheese
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

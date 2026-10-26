@@ -86,7 +86,7 @@ For a board you want a wedge you can break into craggy chunks, not a tub of shre
 <ul class="sk-checks"><li><strong>Look for:</strong> For Parmigiano-Reggiano, the dotted name stamped into the rind and a DOP mark. An age of 24 months is the classic; 36 months is drier and more crystalline.</li><li class="sk-x"><strong>Skip:</strong> Pre-shredded or grated Parmesan for a board. Buy a wedge and break it with a small knife.</li></ul>
 :::
 
-For what Parmesan pairs with and how to serve it, see the [parmigiano reggiano guide](/ingredients/parmigiano-reggiano/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Parmesan: pairings and serving tips](/ingredients/parmigiano-reggiano/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Parmesan questions</h2>
@@ -114,4 +114,3 @@ Break it into rough chunks with a short, pointed knife instead of slicing. Take 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

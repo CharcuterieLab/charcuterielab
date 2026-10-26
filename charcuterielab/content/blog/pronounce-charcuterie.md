@@ -37,11 +37,9 @@ Say it a few times out loud. The French rhythm is almost musical once you stop f
 
 Most people fall into one of these traps:
 
-**"char-KOO-ter-ee"** — The most common mistake. Adding a full "ter" instead of the softer "tuh" breaks the French flow. Close, but not quite.
-
-**"char-coo-TREE"** — Misplacing the stress on the last syllable. In French (and in English borrowings from French), the stress typically lives in the middle, not at the end.
-
-**"char-COO-ter-EE"** — Pronouncing the silent final "e." The "ie" in French is pronounced like "ee," but the word ends there. There's no extra syllable.
+- **"char-KOO-ter-ee":** The most common mistake. Adding a full "ter" instead of the softer "tuh" breaks the French flow. Close, but not quite.
+- **"char-coo-TREE":** Misplacing the stress on the last syllable. In French (and in English borrowings from French), the stress typically lives in the middle, not at the end.
+- **"char-COO-ter-EE":** Pronouncing the silent final "e." The "ie" in French is pronounced like "ee," but the word ends there. There's no extra syllable.
 
 The irony: most mispronunciations are overcorrections. The word is actually easier to say than it looks once you relax the ending.
 

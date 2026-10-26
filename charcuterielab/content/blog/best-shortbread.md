@@ -88,7 +88,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 :::
 
 **Serving it:** lay shortbread next to brie, aged cheddar, blue cheese or mascarpone, with jam, honey or dark chocolate. Plan two or three pieces per guest on a dessert board. See our [dessert board guide](/blog/dessert-board/) for the full build.
-For what shortbread pairs with and how to serve it, see the [shortbread guide](/ingredients/shortbread/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Shortbread: pairings and serving tips](/ingredients/shortbread/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Shortbread questions</h2>
@@ -120,4 +120,3 @@ Two or three pieces per guest alongside other sweets.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

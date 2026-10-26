@@ -91,7 +91,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 - **What it pairs with:** summer sausage, pepperoni, salsa, guacamole, tortilla chips, pickled jalapeños, mango or pineapple, and a lager or margarita.
 
 See our [Super Bowl board plans](/holidays/super-bowl/) for a full spread.
-For what pepper jack pairs with and how to serve it, see the [pepper jack guide](/ingredients/pepper-jack/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pepper jack: pairings and serving tips](/ingredients/pepper-jack/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pepper jack questions</h2>
@@ -123,4 +123,3 @@ Tillamook, which Tasting Table called a great entry point into peppery cheeses.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

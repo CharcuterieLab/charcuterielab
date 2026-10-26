@@ -23,6 +23,7 @@ The physical surface determines how much food you need and how the layout works.
 - 14+ guests: two separate boards, or a tray-style surface
 
 **Material considerations:**
+
 Hardwood (walnut, maple, cherry) is the standard — food-safe, visually warm, and durable. Slate adds graphic contrast but is heavier and less forgiving if dropped. Marble stays cool longer, which is useful for soft cheese in warm conditions.
 
 No dedicated board? A clean wooden cutting board, a large ceramic platter, or parchment paper on a baking sheet all work. The food is the point.
@@ -115,16 +116,21 @@ The sequence is the skill: cheese anchors first, meats next, condiments and frui
 ## FAQ
 
 **How do you start building a charcuterie board?**
+
 Start with your cheese anchors — place the largest cheese elements first, spaced apart across the board. Then add cured meats near each cheese. Fill in with crackers, then fruit, then condiments in small dishes. The sequence (cheese first, crackers last) prevents the crackers from going stale while you build and gives you a structure to fill around.
 
 **How many people does a charcuterie board serve?**
+
 Plan on 2 oz of meat and 2 oz of cheese per person as a starter or appetizer, 3 oz of each if the board is the party food. For 8 people as an appetizer, that's about 1 lb each of meat and cheese. If the board is the party food at a longer event, plan 3 oz of each — continuous access means more eating than a defined serving.
 
 **What board or surface should you use?**
+
 Hardwood boards (walnut, maple, cherry) are the most practical — they're food-safe, durable, and visually warm. Slate boards add a graphic contrast element. Marble stays cool, which is useful for soft cheese in warm conditions. A clean cutting board or sheet of parchment on a baking sheet works equally well for the food.
 
 **How do you make a charcuterie board look professional?**
+
 Three techniques: use odd numbers of items in each cluster (3 or 5, not 4 or 6), leave intentional negative space between elements, and vary the presentation shape of each item — fan the cheese, fold or ruffle the meat, pile the fruit. Symmetry looks planned; variation looks considered.
 
 **How far in advance can you make a charcuterie board?**
+
 You can prep components up to 24 hours ahead — slice cheese, portion crackers, prep fruit. Assemble the board 1–2 hours before serving, but add crackers last (30 minutes before serving) to keep them crisp. Don't add cut fruit more than 2 hours ahead — it browns and weeps.

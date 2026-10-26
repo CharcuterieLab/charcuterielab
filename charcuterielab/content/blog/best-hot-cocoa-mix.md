@@ -127,4 +127,3 @@ Labels use the words loosely. Read the ingredients: cocoa powder only (Swiss Mis
 
 Build the rest of it with our [hot cocoa board](/blog/hot-cocoa-board/) guide and the [Christmas charcuterie board ideas](/holidays/christmas/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

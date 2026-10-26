@@ -117,4 +117,3 @@ Sliced packs, yes: keep them cold until 30 minutes before serving. A whole leg o
 
 For Italian ham, see [the best prosciutto brands](/blog/best-prosciutto-brands/), and for a full Spanish spread, the [Spanish tapas board](/boards/spanish-tapas-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

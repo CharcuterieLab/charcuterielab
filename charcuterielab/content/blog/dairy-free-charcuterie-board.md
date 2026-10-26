@@ -58,13 +58,10 @@ The plant-based cheese category has improved significantly. The gap between a go
 
 If plant-based cheese isn't available or doesn't meet your standards, several naturally dairy-free elements can fill the creamy, spreadable role:
 
-**Hummus** — Thick, creamy, protein-rich. Available in many flavor variations (roasted garlic, roasted red pepper, lemon herb). Serve in a ramekin with a small spoon and olive oil drizzle.
-
-**Avocado or guacamole** — The richest dairy-free spread available. Season simply (salt, lemon, chili flake) and serve in a small bowl. Sits well against cured meat and crackers.
-
-**White bean dip** — Blended white beans with garlic, lemon, and olive oil. Neutral, creamy, high-protein. A board-appropriate alternative to soft cheese.
-
-**Baba ghanoush** — Roasted eggplant with tahini. Smoky, rich, slightly sweet. Pairs well with cured meats and vegetables.
+- **Hummus:** Thick, creamy, protein-rich. Available in many flavor variations (roasted garlic, roasted red pepper, lemon herb). Serve in a ramekin with a small spoon and olive oil drizzle.
+- **Avocado or guacamole:** The richest dairy-free spread available. Season simply (salt, lemon, chili flake) and serve in a small bowl. Sits well against cured meat and crackers.
+- **White bean dip:** Blended white beans with garlic, lemon, and olive oil. Neutral, creamy, high-protein. A board-appropriate alternative to soft cheese.
+- **Baba ghanoush:** Roasted eggplant with tahini. Smoky, rich, slightly sweet. Pairs well with cured meats and vegetables.
 
 ---
 
@@ -137,16 +134,21 @@ A dairy-free board isn't a compromised board — it's a different balance point.
 ## FAQ
 
 **What do you use instead of cheese on a dairy-free charcuterie board?**
+
 Plant-based cheese alternatives (cashew-based, almond-based, or coconut-oil-based) provide the soft, spreadable, and aged hard cheese roles. Hummus and high-quality nut-based dips fill the creamy condiment role. Avocado or guacamole can anchor the soft section. For a fully plant-based board, focus more heavily on cured meats (if not also vegan), diverse fruits, nuts, and vegetables — the board doesn't require cheese to be satisfying.
 
 **Is cured meat dairy-free?**
+
 Yes — virtually all cured meat is naturally dairy-free. Prosciutto, salami, bresaola, coppa, and other traditional cured meats contain only pork or beef, salt, spices, and sometimes wine or vinegar. Check labels on flavored or pre-seasoned varieties for added dairy, but traditional whole-muscle cured meats and plain salamis contain no dairy ingredients.
 
 **What are the best plant-based cheese alternatives for a charcuterie board?**
+
 Cashew-based cheeses (particularly from Miyoko's Creamery and similar artisan producers) have the most convincing texture and flavor for board use. Aged cashew-based alternatives can approximate hard cheese flavor profiles with some success. Almond-based soft cheese works as a spreadable element. Avoid low-quality processed vegan slices — they have a rubbery texture that doesn't function well on a board.
 
 **What naturally dairy-free foods work well on a charcuterie board?**
+
 Most board elements are naturally dairy-free: all cured meats, all fresh fruit, all vegetables, all nuts, most jams and honeys, olives, cornichons, hummus, and most crackers and bread. A dairy-free board built around these elements — with plant-based cheese as one component — can be visually full and genuinely satisfying without any compromises on the non-cheese elements.
 
 **How do you make a dairy-free charcuterie board look full?**
+
 Lean into abundant produce, varied textures, and strong visual contrast. More fruit variety (grapes, berries, citrus segments, sliced apple, dried apricots) fills visual space and creates color contrast that compensates for the absence of several cheese wedges. Hummus and a plant-based spread in separate ramekins create focal points. Vegetables (cucumber rounds, bell pepper strips, cherry tomatoes) add color and texture that a cheese-focused board often lacks.

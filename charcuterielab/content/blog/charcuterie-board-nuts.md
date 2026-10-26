@@ -83,16 +83,21 @@ Ranking the brands? See [the best Marcona almonds](/blog/best-marcona-almonds/) 
 :::
 
 **What nuts are best for a charcuterie board?**
+
 Marcona almonds are the board standard — they are buttery and go with most soft and semi-firm cheeses, their mild flavor doesn't compete with anything, and their butter-roasted finish makes them appealing on their own. Walnuts are the best pairing for blue cheese and aged hard cheeses. Pecans work well with soft cheeses and honey-forward sections.
 
 **How many types of nuts should be on a charcuterie board?**
+
 One to two types. One type (Marcona almonds) covers most boards completely. A second type adds textural variety and extends the pairing range — walnuts for bold cheese sections, pecans for soft cheese sections. Three or more nut types is excessive; the board starts to feel like a nut assortment rather than a charcuterie board.
 
 **How much nuts per person on a charcuterie board?**
+
 0.5–1 oz per person is the right quantity. Nuts are calorie-dense and rich — guests take small handfuls repeatedly rather than large amounts at once. A 3–4 oz total portion of Marcona almonds for a board serving 6–8 people is appropriate. Don't over-represent nuts; they should accent, not anchor.
 
 **Should you use salted or unsalted nuts on a charcuterie board?**
+
 Lightly salted nuts are generally preferable to unsalted. The salt enhances flavor and makes the nuts more interesting on their own. Heavily salted or aggressively seasoned nuts (rosemary-truffle, everything bagel seasoning) compete with the cheese and meat — the nut flavor should support the board, not compete with it. Plain roasted, lightly salted is the baseline.
 
 **Can you use candied nuts on a charcuterie board?**
+
 Yes, in small quantities near soft cheese sections. Candied pecans or candied walnuts near brie or chèvre work well — the caramelized sweetness adds a sweet note that complements the fat in soft cheese. Keep candied nuts away from aged hard cheeses where their sweetness can clash with the bitter-complex profile. Use no more than one candied nut type per board.

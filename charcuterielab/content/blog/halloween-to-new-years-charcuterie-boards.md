@@ -117,4 +117,3 @@ Perishable food should sit out no more than **2 hours**, or 1 hour above 90°F, 
 
 Send this to whoever is hosting this year, and pin it so it is ready in December. When you know your guest count, the [Party Planner](/party-planner/) gives you exact amounts, and the [Board Library](/boards/) has full board plans you can copy.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

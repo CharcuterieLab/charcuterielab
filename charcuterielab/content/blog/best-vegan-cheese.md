@@ -88,7 +88,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 :::
 
 **Building the board:** two vegan cheeses are plenty. Pair one spreadable (Boursin or Treeline) with one you can slice or cube (Violife or Follow Your Heart). Keep them in the fridge until 15 to 20 minutes before serving. For the rest of the board, see our [vegan charcuterie board guide](/dietary/vegan/) and the [dairy-free charcuterie board](/blog/dairy-free-charcuterie-board/).
-For what vegan cheese pairs with and how to serve it, see the [vegan brie](/ingredients/vegan-brie/) and [cashew cheese](/ingredients/cashew-cheese/) guides. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Vegan brie](/ingredients/vegan-brie/) and [cashew cheese](/ingredients/cashew-cheese/): pairings and serving tips · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Vegan cheese questions</h2>
@@ -120,4 +120,3 @@ Two is plenty: one spreadable and one you can slice or cube.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

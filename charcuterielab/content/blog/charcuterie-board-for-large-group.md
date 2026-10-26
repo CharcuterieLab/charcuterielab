@@ -111,16 +111,21 @@ Scale changes the logistics, not the flavor logic. Stick to 2 oz each of meat an
 ## FAQ
 
 **How much food do you need for a charcuterie board for 20 people?**
+
 For 20 guests at an appetizer board: about 2¾ lb of meat and 3 lb of cheese, including a 10% buffer. As the party food with no meal: about 4¼ lb of meat and 4½ lb of cheese. Use 2–3 meat varieties and 3–4 cheese varieties — variety matters more than quantity for large boards.
 
 **How do you set up a charcuterie board for a large group?**
+
 Use multiple boards or a long surface instead of one oversized board. Zone by flavor: put cheeses in the center, meats around them, crackers and bread at the edges. Build 2–3 identical stations rather than one giant spread — guests move faster through multiple points than they do through a single line.
 
 **What meats are best for a large charcuterie board?**
+
 Prosciutto, salami, and one additional variety (coppa, soppressata, or bresaola) cover the widest range. Buy sliced from the deli counter for large quantities — pre-packaged is fine for 10+ guests when deli slicing isn't practical. Replenish the board rather than over-piling at the start.
 
 **Can you make a large charcuterie board ahead of time?**
+
 Build the board 30–60 minutes before guests arrive, then cover with plastic wrap and refrigerate. Remove 30 minutes before serving so cheeses reach room temperature. Keep crackers separate and add them at the last moment — they soften quickly on a board.
 
 **How many types of cheese for a large charcuterie board?**
+
 Three to four varieties covers the range: one soft (brie or triple-crème), one semi-firm (Gruyère or manchego), one aged hard (aged cheddar or aged gouda), and optionally one blue (Gorgonzola or Stilton). More than four varieties at scale creates waste — guests gravitate to 2–3 favorites anyway.

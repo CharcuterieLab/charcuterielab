@@ -143,4 +143,3 @@ Our Aldi guide builds a full board for 6 to 8 for well under $40. Adding a seaso
 
 For everyday picks, see [the best Aldi charcuterie items](/blog/best-aldi-charcuterie-items/), and for every cheese calendar, [cheese advent calendars 2026](/blog/cheese-advent-calendars-2026/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

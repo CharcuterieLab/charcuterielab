@@ -151,18 +151,22 @@ Build the roses in their glasses, cover each glass with plastic wrap and **refri
 ## FAQ
 
 **How many slices of salami do you need for a salami rose?**
+
 A full rose on a standard wine glass takes 10 to 14 thin slices in three layers, about 2 to 3 oz of salami. A champagne flute takes 6 to 8 slices for a tighter bud, and a shot glass takes 6 to 8 slices of pepperoni for a mini rose.
 
 **What is the best salami for a salami rose?**
+
 Thinly sliced Genoa or hard salami about 3 to 4 inches across, sliced about as thin as a coin. Thin slices bend over the rim without cracking. Thick-cut salami and soppressata split when folded, so ask the deli to slice it thin or buy pre-sliced thin rounds.
 
 **Can you make a salami rose without a glass?**
+
 Yes. Fold 6 to 8 slices in half, line the half-moons up in a row with each one overlapping the last by about half, then roll the row up tightly from one end and stand it on its base. It makes a smaller, tighter rose and works well for cups and small boards.
 
 **Why does my salami rose fall apart?**
+
 Usually the slices are too thick, too cold or not overlapping enough. Use thin slices, let them sit out about 10 minutes so they bend, overlap each slice by about half, and press the layers down firmly inside the glass before you flip it.
 
 **Can you make salami roses ahead of time?**
+
 Yes. Build the roses in their glasses, cover the tops with plastic wrap and refrigerate them for up to 24 hours. Flip them onto the board just before serving and keep the board out no more than 2 hours, or 1 hour above 90°F.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

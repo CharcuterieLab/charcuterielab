@@ -16,13 +16,13 @@ type: "howto"
 
 ---
 
-## The Core Mechanisms: Why Beer Works
+## Why beer works
 
-Before the style-by-style breakdown, the three key mechanisms beer uses in pairing:
+Before the styles, the three things beer does:
 
 ### Carbonation as Acid Substitute
 
-The CO₂ in beer creates carbonic acid in solution, which mildly acidifies the drink. More importantly, the physical sensation of carbonation — bubbles scrubbing the palate surface — dislodges fat physically. This is the same palate-resetting mechanism as Champagne, which is why Champagne is considered the most versatile food pairing wine.
+The bubbles physically scrub fat off your tongue, and they make the beer slightly tart. That's the same reason Champagne goes with almost any food.
 
 Higher carbonation = more effective fat cutting. Belgian saisons and wheat beers (highly carbonated) are among the most versatile beer pairings for fatty boards.
 
@@ -30,14 +30,14 @@ Higher carbonation = more effective fat cutting. Belgian saisons and wheat beers
 
 Wine tannins and beer hop bitterness are both bitter, but they behave differently with food:
 
-- **Tannins** (from wine) bind with salivary proteins and amplify salt perception. Young tannic reds make salty cured meat taste harsher.
-- **Hop bitterness** (iso-alpha acids from hops) does not bind salivary proteins in the same way. Hop bitterness against fat resolves into clean dryness rather than amplified salt.
+- **Tannins** in red wine dry your mouth and make salty cured meat taste harsher, especially young, bold reds.
+- **Hop bitterness** doesn't do that. Against fat, it finishes clean and dry instead of salty.
 
 This is why IPAs and bitter ales can work with salty, fatty cured meats in ways that young red wines cannot.
 
-### Malt Roasting = Maillard Echo
+### Roasted malt matches aged cheese
 
-Darker malts (Munich, Vienna, chocolate malt, roasted barley) develop Maillard reaction compounds during kilning — the same pyrazines, furanones, and melanoidins that form during cheese aging and meat curing. This creates compound echo pairings between malty beers and aged cheeses that are genuinely complementary rather than merely non-conflicting.
+Darker malts are roasted, which gives them toasty, caramel and nutty flavors. Aged cheese and cured meat develop similar flavors as they age, so malty beers and aged cheeses taste like they belong together.
 
 ---
 
@@ -72,7 +72,7 @@ Darker malts (Munich, Vienna, chocolate malt, roasted barley) develop Maillard r
 **Character:** Pronounced hop bitterness and aroma (citrus, tropical fruit, pine depending on hop variety), moderate-high carbonation, moderate malt backbone.
 
 **Pairs with:**
-- **Aged cheddar:** The most classic beer-cheese pairing. Sharp aged cheddar's crystalline bitterness and intense glutamate against an IPA's hop bitterness creates a layered bitter-savory complex where each amplifies the other without harshness. The carbonation resets between bites.
+- **Aged cheddar:** the classic beer-and-cheese pair. Sharp, savory cheddar and a bitter IPA each make the other taste bigger without getting harsh, and the bubbles reset your palate.
 - **Soppressata and spiced salami:** Hoppy bitterness cuts through high-fat salami; the citrus notes in modern American hops contrast with the meat's garlic and spice.
 - **Manchego:** The lanolin-sweetness in sheep's milk Manchego against IPA bitterness creates a bitter↔sweet contrast that works particularly well.
 
@@ -96,7 +96,7 @@ Darker malts (Munich, Vienna, chocolate malt, roasted barley) develop Maillard r
 **Character:** Caramel malt sweetness, medium bitterness, clean lager character (Märzen) or slight fruity note (Amber Ale), medium carbonation.
 
 **Pairs with:**
-- **Aged Gouda:** The beer's caramel malt sweetness creates a compound echo with aged Gouda's butterscotch-caramel notes. Both products of Maillard chemistry — Maillard in malt kilning, Maillard in cheese aging — resonating together.
+- **Aged Gouda:** the beer's caramel malt matches the cheese's butterscotch notes.
 - **Speck and prosciutto:** The beer's rounded maltiness complements cured mountain meats without the hop bitterness that can sometimes overwhelm delicate salumi.
 - **Comté or Gruyère:** Semi-sweet malt against the nutty, slightly sweet character of alpine cheeses.
 
@@ -107,8 +107,8 @@ Darker malts (Munich, Vienna, chocolate malt, roasted barley) develop Maillard r
 **Character:** Roasted malt (coffee, dark chocolate), moderate-low carbonation, bittersweet, substantial body.
 
 **Pairs with:**
-- **Aged cheddar (extra sharp):** Roasted malt's coffee-chocolate Maillard compounds echo the crystalline intensity of very old cheddar. A compound echo pairing across two very different products.
-- **Dark chocolate + aged Gouda station:** If you have a dark chocolate element on the board, a stout or porter creates a three-way Maillard echo across cocoa roasting, malt roasting, and cheese aging.
+- **Aged cheddar (extra sharp):** the coffee and chocolate notes of roasted malt stand up to very old, intense cheddar.
+- **Dark chocolate and aged Gouda:** with a stout or porter, the roasted cocoa, roasted malt and caramel cheese all taste of the same toasty notes.
 - **Soppressata:** The beer's roasted bitterness resolves against the salami's fat and spice.
 - **Stilton:** Stout + Stilton is the English pub pairing canon — the beer's sweetness and roast against the blue's funk and salt. Works for the same reason Sauternes works with Roquefort — sweet↔salty contrast.
 
@@ -157,7 +157,7 @@ Label each station with the beer pairing. The board becomes an interactive tasti
 
 ## The Takeaway
 
-Beer's carbonation, hop bitterness, and malt roasting create the same core pairing mechanisms as wine's acidity, tannin, and oak complexity — but with different strengths. Hop bitterness doesn't amplify salt the way tannins do. High-carbonation styles are as fat-cutting as high-acid whites. Dark malt's Maillard compounds echo aged cheese chemistry in ways wine rarely matches.
+Beer's bubbles, hop bitterness and roasted malt do what wine's acidity, tannin and oak do, with one advantage: hops don't make salty meat taste harsh the way tannin can. Bubbly beers cut fat as well as crisp whites, and dark malts match aged cheese better than most wines.
 
 Wine isn't the only answer. For certain board items, it's not even the best one.
 
@@ -176,16 +176,21 @@ Wine isn't the only answer. For certain board items, it's not even the best one.
 ## FAQ
 
 **Does beer pair with charcuterie as well as wine?**
+
 Beer pairs exceptionally well with charcuterie — often better than wine for certain meats. The carbonation cuts through fat more aggressively than tannins, and bitterness from hops contrasts salt in ways that refresh the palate. The key is matching intensity: delicate meats with lighter beers, bold salamis with assertive ales.
 
 **What beer goes with prosciutto?**
+
 Prosciutto's delicate sweetness and silky fat pair best with light, effervescent beers: Pilsner, Kölsch, or a dry farmhouse saison. Avoid heavy stouts or IPAs — their bitterness overwhelms the meat's subtle flavor.
 
 **What beer pairs with aged cheddar or sharp cheese?**
+
 Bold cheeses need bold beer. An IPA's bitterness cuts through aged cheddar's fat, while the citrus hop notes complement the cheese's sharpness. Brown ales and porters also work well, matching the caramel and nutty notes in aged hard cheeses.
 
 **Can I serve a beer flight with charcuterie?**
+
 A beer flight is an excellent pairing format — it lets guests explore how different styles interact with different board elements. Build the flight from lightest to darkest: Pilsner → wheat beer → pale ale → IPA → porter or stout.
 
 **Should I avoid any beers on a charcuterie board?**
+
 Very sour beers (Lambic, Gueuze) can clash with acidic pickles and vinegary elements, doubling up on tartness. Extremely sweet fruit beers can make the board feel cloying. Start with clean fermented styles and add complexity from there.

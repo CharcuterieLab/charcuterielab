@@ -127,4 +127,3 @@ Figs with blue cheese and goat cheese, apricots with brie and triple crème, tar
 
 For dates, see [the best Medjool dates](/blog/best-medjool-dates/); for nuts, [the best nuts for a charcuterie board](/blog/best-mixed-nuts/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

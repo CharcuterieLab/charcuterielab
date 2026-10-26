@@ -129,18 +129,22 @@ You can do both: one board on the table and a tray of cups by the door. For a la
 ## FAQ
 
 **What goes in a charcuterie cup?**
+
 A skewer of folded salami, cheese cubes and a grape or olive, 3 crackers or a breadstick, and a few nuts, olives or berries in the bottom, all in a 9 oz clear cup. Each cup holds about 1 oz of meat and 1 oz of cheese.
 
 **How many charcuterie cups per person?**
+
 One cup per guest when there is other food, two per guest when the cups are the only appetizer. Each cup is about half of the 2 oz each of meat and cheese we plan per guest before a meal.
 
 **How far ahead can you make charcuterie cups?**
+
 Fill them the morning of the party, cover and refrigerate, and add the crackers just before serving so they stay crisp. Once they are out, serve them within 2 hours, or 1 hour above 90°F.
 
 **What size cup is best for charcuterie cups?**
+
 A 9 oz clear plastic cup is the standard size. It holds a 6-inch skewer, three crackers and a layer of nuts or fruit, and about 24 fit on a half-sheet pan.
 
 **How much does it cost to make charcuterie cups?**
+
 About $1.75 to $2.75 a cup with grocery-store salami, cheddar, crackers and fruit, including the cup and skewer. Pepperoni and a block of cheese you cube yourself keep it at the low end.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

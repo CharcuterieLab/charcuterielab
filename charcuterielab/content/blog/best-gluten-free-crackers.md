@@ -87,7 +87,7 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 <ul class="sk-checks"><li><strong>Look for:</strong> Look for a certified gluten-free mark, not just &#x27;wheat-free&#x27;. Rice crackers glazed with regular soy sauce are not gluten-free, and several grain-free crackers are made with almond flour, which matters for nut allergies.</li><li class="sk-x"><strong>Skip:</strong> Soft, saltine-style gluten-free crackers for a board. In Daily Meal&#x27;s test they were extremely fragile and crumbled under toppings.</li></ul>
 :::
 
-For what gluten-free crackers pairs with and how to serve it, see the [cassava crackers guide](/ingredients/cassava-crackers/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Gluten-free crackers: pairings and serving tips](/ingredients/cassava-crackers/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Gluten-free crackers questions</h2>
@@ -115,4 +115,3 @@ Give them their own section or a separate small board, with their own knives, so
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

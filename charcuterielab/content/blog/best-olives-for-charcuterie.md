@@ -87,7 +87,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <ul class="sk-checks"><li><strong>Look for:</strong> Castelvetranos should be bright green, not olive-drab. Buy with pits if you can: pitted olives are softer and blander.</li><li class="sk-x"><strong>Skip:</strong> Canned black ripe olives. They are mild and soft and add little to a board.</li></ul>
 :::
 
-For what olives pairs with and how to serve it, see the [castelvetrano olives guide](/ingredients/castelvetrano-olives/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Olives: pairings and serving tips](/ingredients/castelvetrano-olives/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Olives questions</h2>
@@ -115,4 +115,3 @@ One is fine; two or three different colors and sizes look better.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

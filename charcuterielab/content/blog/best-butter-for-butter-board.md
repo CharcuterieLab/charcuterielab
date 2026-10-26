@@ -97,7 +97,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 :::
 
 **Serving it:** soften the butter at room temperature for about 1 hour so it spreads without tearing, then swoop it across the board and top it with flaky salt, honey, herbs or jam. Once it's topped with herbs, garlic, cheese or fruit, leave it out no more than 2 hours, or 1 hour above 90°F. See our [butter board guide](/blog/butter-board/) for toppings and bread.
-For what butter pairs with and how to serve it, see the [butter board guide](/blog/butter-board/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Butter: pairings and serving tips](/blog/butter-board/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Butter questions</h2>
@@ -129,4 +129,3 @@ Once it's topped, no more than 2 hours, or 1 hour above 90°F.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

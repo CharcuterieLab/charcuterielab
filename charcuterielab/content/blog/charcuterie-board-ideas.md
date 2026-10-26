@@ -36,7 +36,9 @@ Learn these and every other board on this list becomes a variation. Each one is 
 
 **8–12 people · $40–$65 · 20–25 minutes · beginner**
 
-Everything on this board is available at any supermarket in the country, which is exactly the point. Sharp cheddar, Colby Jack and whipped cream cheese give you hard, semi-soft and spreadable — three different eating mechanics that keep people moving around the board instead of parking at one corner. The cream cheese in particular acts as a deliberate speed bump: it takes a moment to spread, and that moment slows the whole table down. Start here if you have never built one.
+Everything here is at any supermarket, which is the point. Sharp cheddar, Colby Jack and whipped cream cheese give you hard, semi-soft and spreadable, so people move around the board.
+
+The cream cheese is a deliberate speed bump: it takes a moment to spread, which slows the table down. Start here if you've never built a board.
 
 ## 2. The Italian Antipasto Board
 
@@ -96,7 +98,9 @@ Carbonation clears fat off the palate mechanically, which makes beer a more effe
 
 **12–20 people · $65–$100 · 25–30 minutes · intermediate**
 
-Every guest has one hand occupied by a glass, so anything requiring a knife will sit untouched all night. This board is designed entirely around the free hand: firm cheese cubed, meats pre-folded, nothing that needs assembly. Bresaola earns its place as the cocktail meat because its lean, faintly iron note sits well beside whisky and gin where a fattier salami would not. The cocktail party itself is usually credited to a St. Louis hostess in 1917, who wanted to skip formal dinner protocol.
+Every guest has a glass in one hand, so anything that needs a knife sits untouched. This board is built for the free hand: cheese cubed, meat pre-folded, nothing to assemble.
+
+Bresaola is the cocktail meat here: it's lean, with a faint iron note that suits whisky and gin better than fatty salami. (The cocktail party is usually credited to a St. Louis hostess in 1917 who wanted to skip formal dinners.)
 
 ## 9. The New Year's Eve Board
 
@@ -499,16 +503,21 @@ Any board concept above can be scaled (multiply the quantities), simplified (dro
 ## FAQ
 
 **What are the most popular charcuterie board themes?**
+
 The most searched and popular board themes are: Italian boards (prosciutto, salami, Parmigiano, Pecorino, olives, grissini), holiday/Christmas boards (seasonal colors, cranberry, rosemary), date night boards (brie, prosciutto, figs, chocolate, sparkling wine), grazing tables for large crowds, and dessert boards (chocolate, fruit, cookies). Seasonal boards — spring, summer, fall, winter — are perennially popular as people seek to refresh their repertoire.
 
 **What should go on a charcuterie board for beginners?**
+
 Beginners succeed with familiar, widely available ingredients: aged cheddar (or Colby jack), salami or pepperoni, grapes, crackers, and a simple condiment like honey or mustard. This five-element board is easy to assemble, universally liked, and genuinely delicious. Add brie as a stretch ingredient once the format feels comfortable.
 
 **How do I come up with unique charcuterie board ideas?**
+
 Start with a theme — a cuisine (Italian, French, Spanish), a season, an occasion (baby shower, Valentine's Day), or a flavor profile (sweet and salty, spicy, vegetarian). Let the theme guide ingredient selection. The most memorable boards have a clear through-line: every element reinforces the theme rather than just being randomly assembled.
 
 **What are the most visually impressive charcuterie board elements?**
+
 Prosciutto roses (folded roses from thin-sliced prosciutto), salami rivers (flowing overlapping rows), a ripe whole brie with a wedge removed, honeycomb on a board, fresh figs cut open, and pomegranate arils scattered across the board are consistently the most photographed and admired visual elements. These are also relatively easy to execute.
 
 **What is the difference between a charcuterie board and a grazing board?**
+
 The terms are often used interchangeably. Technically, "charcuterie" refers specifically to cured and preserved meats. A "grazing board" is broader, often including vegetables, dips, and other non-cured elements. In practice, most people use both terms for the same type of spread — a curated arrangement of cheeses, meats, and accompaniments.

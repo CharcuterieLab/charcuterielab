@@ -99,7 +99,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 - **How much to buy:** a 750 ml bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people. For a party, plan on about half a bottle per guest who drinks.
 - **What it pairs with:** prosciutto, salami, Parmigiano-Reggiano, brie, salted nuts, olives and anything fried. Extra dry is the better match for fruit and dessert boards.
 
-For what prosecco pairs with and how to serve it, see the [Champagne and prosecco pairing guide](/pairings/wine/champagne-prosecco/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Prosecco: pairings and serving tips](/pairings/wine/champagne-prosecco/) · [All buying guides](/blog/best-charcuterie-brands/)
 **Not drinking?** See our ranking of [the best non-alcoholic sparkling cider](/blog/best-sparkling-cider/) for the toast.
 
 :::html
@@ -132,4 +132,3 @@ About half a bottle per guest who drinks. A 750 ml bottle pours about five glass
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

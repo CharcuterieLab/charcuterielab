@@ -140,18 +140,23 @@ Everything in this post as 20 printable pages of tools and expert tips you'll us
 ## FAQ
 
 **Can I sell charcuterie boards from home?**
+
 Usually not under a cottage food permit. Most state cottage food laws exclude meat and many exclude cheese, because they need refrigeration. Minnesota's guidance, for example, says most charcuterie boards need a food license. Most board businesses work from a licensed commercial or shared kitchen, or get a caterer or retail food license, so check with your state or county health department.
 
 **How much should I charge for a charcuterie board?**
+
 Most small board businesses charge about $12 to $20 per guest, with the higher end for small boards and boxes. A common starting formula is ingredient cost times about 3, plus packaging and delivery, which keeps food cost near 30 to 35% of the price. Check that small orders still pay you a fair hourly rate.
 
 **Do I need a license to sell charcuterie boards?**
+
 In most places, yes. Because charcuterie boards contain meat and cheese that must be kept cold, health departments usually treat them as a food business that needs a permit and an inspected kitchen. Requirements vary by state and county, so ask your local health department before you take orders.
 
 **How much money do you need to start a charcuterie business?**
+
 It depends mostly on your kitchen. Shared or commercial kitchens are usually rented by the hour, so you can start without building your own. Add permits, liability insurance, boards and boxes, a cooler for delivery, and ingredients for test boards and photos.
 
 **What should I name my charcuterie business?**
+
 Pick a name that says boards or grazing, fits your town or style, and is easy to spell. Search your state's business registry, social media handles and the federal trademark database before you buy a domain or print labels, because many board businesses use similar names.
 
 ## Sources
@@ -165,4 +170,3 @@ Pick a name that says boards or grazing, fits your town or style, and is easy to
 
 *This post is general information, not legal advice. Rules for food businesses vary by state, county and city; confirm with your local health department.*
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

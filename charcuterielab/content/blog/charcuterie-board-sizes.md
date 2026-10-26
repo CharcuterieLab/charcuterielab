@@ -86,16 +86,21 @@ tags: "["charcuterie board sizes", "charcuterie board", "board building"]"
 :::
 
 **What size charcuterie board do I need for 4 people?**
+
 A 12–14 inch board works for 4 people. That gives you enough surface to place 3 cheeses, 2 meats, and a handful of accompaniments without overcrowding. The 80% coverage rule applies — food should cover most of the board with small natural gaps, not be stacked in layers to fit.
 
 **What is the best material for a charcuterie board?**
+
 Walnut and acacia wood are the most durable and visually suited to boards. Walnut is denser and resists knife scoring better; acacia is lighter and has attractive grain variation. Marble and slate are strong alternatives — they stay cooler than wood, which is useful in summer. Avoid softwoods like pine, which absorb food odors.
 
 **Can I use a cutting board as a charcuterie board?**
+
 Yes, if it's made from hardwood (walnut, maple, cherry) and is at least 12 inches in its longest dimension. The distinction is primarily aesthetic — a dedicated charcuterie board usually has a handle or decorative edge, but functionally any clean hardwood board works. Avoid plastic boards; they absorb stains and don't present as well.
 
 **What shape charcuterie board is best?**
+
 Rectangular boards are the most practical — they offer the most usable surface area per inch and fit more naturally on a table. Round boards are aesthetically striking for 2–4 person builds and intimate settings. Long and narrow boards (paddle-style) work well for 2 people or as a supplementary accent board. Shape is a secondary concern after size.
 
 **How much food fits on a 12-inch charcuterie board?**
+
 A 12-inch round or 12x16 rectangular board comfortably holds food for 4–6 people: 3 cheeses (3–4 oz each), 2–3 meats (3–4 oz each), plus crackers, fruit, and 2 condiments. Apply the 80% coverage rule — the board should look full and intentional, not sparse, but individual elements should still be identifiable.

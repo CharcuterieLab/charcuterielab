@@ -86,16 +86,21 @@ Nduja earns its place on a board as the most distinctive element in the spread �
 ## FAQ
 
 **What is nduja and how do you use it on a charcuterie board?**
+
 Nduja is a soft, spreadable Calabrian salami made from pork fat, pork shoulder, and Calabrian chiles. It's intensely spicy, rich, and spreadable at room temperature. On a board, serve it in a small bowl or jar with a spoon, alongside mild cheese and crusty bread. It functions more like a condiment than a sliced meat.
 
 **What cheese pairs best with nduja on a charcuterie board?**
+
 Mild, creamy cheeses work best — fresh mozzarella, burrata, stracchino, or young Pecorino. The dairy fat suppresses capsaicin's heat and provides a neutral canvas for nduja's spice and smokiness. Avoid aged or pungent cheeses; they compete rather than complement.
 
 **Is nduja too spicy for a charcuterie board?**
+
 Nduja is very spicy — more than most guests expect from a charcuterie element. Label it clearly. Place it alongside honey and mild cheese so guests who want to moderate the heat can do so. The combination of nduja + honey + fresh mozzarella is how the heat becomes an asset rather than a barrier.
 
 **Where do you put nduja on a charcuterie board?**
+
 Serve nduja in a small jar, ramekin, or bowl with a spreader. Do not slice it — nduja is too soft to hold a slice. Place it near the mildest cheese on the board and adjacent to honey. Keep it separated from more delicate flavors it would overwhelm.
 
 **What crackers or bread go with nduja?**
+
 Crusty sourdough or focaccia absorbs nduja's fat without disintegrating, making them the strongest pairing. Thicker crackers work; thin water crackers break under nduja's spreadable texture. Flatbread is a good middle ground. Avoid delicate crackers — nduja will dominate them.

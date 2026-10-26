@@ -68,4 +68,3 @@ Post your board with **#CharcuterieLab20** and your total, and tag the friend yo
 
 Want the list ready to take to the store? The printable shopping lists in the [shop](/shop/) make the store run faster, and the [Party Planner](/party-planner/) scales this board for more guests.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -72,6 +72,7 @@ Most cured meats are keto-compatible. However, some products contain added sugar
 High-sugar fruits (grapes, apple, pear, dried fruit) are not compatible with strict keto. Low-sugar berries are.
 
 **Best choices:**
+
 Strawberries: 6g net carbs per 100g — a small portion (4–6 berries) is keto-compatible
 Raspberries: 5g net carbs per 100g — excellent color, mild flavor
 Blackberries: 5g net carbs per 100g — pairs with aged cheddar effectively
@@ -131,9 +132,11 @@ A keto charcuterie board is primarily a standard board with the vehicle category
 ## FAQ
 
 **Is a charcuterie board keto-friendly?**
+
 Most of a standard charcuterie board is already keto-compatible. Cured meats, hard and soft cheeses, olives, nuts, and most fresh vegetables are low-carb or zero-carb. The primary adjustments are replacing crackers and bread with low-carb alternatives (cucumber rounds, bell pepper strips, pork rinds), limiting high-sugar fruit, and swapping honey and jam for mustard or olive oil as condiments.
 
 **What crackers are keto-friendly for a charcuterie board?**
+
 Standard crackers aren't keto: most have 12–20 g carbs per serving. Use these instead:
 
 - **Cucumber rounds** (nearly zero carbs): the most useful swap
@@ -143,12 +146,15 @@ Standard crackers aren't keto: most have 12–20 g carbs per serving. Use these 
 - Flaxseed crackers
 
 **What fruit can you put on a keto charcuterie board?**
+
 Low-sugar berries are the best fruit option: strawberries (6g net carbs per 100g), raspberries (5g net), and blackberries (5g net) are the most keto-compatible. Avoid grapes (17g net carbs per 100g), dried fruit, and most stone fruit, which are high in natural sugar. A small portion of strawberries or raspberries adds color and sweetness contrast without a significant carb hit.
 
 **What cheese is best for a keto charcuterie board?**
+
 All natural cheeses are keto-friendly — cheese contains almost no carbohydrates. Hard aged cheeses (aged cheddar, parmesan, aged gouda) have the lowest carb content. Soft cheeses (brie, camembert, chèvre) are also keto-compatible. The only cheese to avoid is any processed cheese product with added starches or stabilizers. Triple cream brie is excellent on a keto board — high fat content, zero carbs.
 
 **What should you avoid on a keto charcuterie board?**
+
 Avoid:
 
 - Regular crackers and bread

@@ -121,4 +121,3 @@ Buy shelf-stable items a week ahead and the cheese, meat and fruit two days befo
 
 No more than 2 hours, or 1 hour above 90°F, per USDA guidance. For a long reception, put out half and swap in a fridge-cold refill tray before the first one hits 2 hours.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

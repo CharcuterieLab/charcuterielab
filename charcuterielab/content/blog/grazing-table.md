@@ -88,7 +88,13 @@ Divide the table into sections — each section anchored by a cheese.
 
 ## The Charcuterie Lab Takeaway
 
-A grazing table is a charcuterie board at scale. The build logic is the same: anchors first, fill second, condiments embedded, fresh elements last. The differences are execution — working in sections, planning quantities for 20+ people, managing a larger surface, and building in visible replenishment throughout the event. The quantity formula (3 oz each of cheese and meat per person when the table is the party food, plus 10%) is reliable across event sizes. Put a little extra of the prosciutto and brie in the refill trays; they deplete fastest.
+A grazing table is a charcuterie board at scale. Build it the same way: big pieces first, then fill, with condiments tucked in and fresh items last.
+
+What changes:
+
+- **Work in sections**, one at a time.
+- **Plan amounts for 20+:** 3 oz each of cheese and meat per person as the party food, plus 10%.
+- **Refill as you go.** Keep extra prosciutto and brie in the refill trays; they go fastest.
 
 ## Related Reading
 
@@ -100,16 +106,21 @@ A grazing table is a charcuterie board at scale. The build logic is the same: an
 ## FAQ
 
 **What is a grazing table?**
+
 A grazing table is a large-format food spread laid out directly on a table surface — typically on butcher paper, parchment, or food-safe surfaces — rather than on a single board. It follows the same build logic as a charcuterie board (anchors, condiments, accompaniments, color distribution) but at a scale that serves 20–100+ people from a single continuous surface.
 
 **How much food do you need for a grazing table?**
+
 Plan 3 oz each of cheese and meat per person when the grazing table is the party food, and 2 oz each when a full meal follows. Add crackers at 10–12 pieces per person (6–8 before a meal). Accompaniments (fruit, vegetables, condiments) can be generous — they fill space and cost less than protein. Build in a 10% buffer.
 
 **What is the difference between a grazing table and a charcuterie board?**
+
 Scale and surface. A charcuterie board is a single portable board serving 2–10 people. A grazing table covers an entire table surface, serves 20–100+ people, and is built in sections rather than as a single composed unit. The build logic (anchors first, then fill) is the same; execution differs because you're working in multiple stations rather than one continuous surface.
 
 **How far in advance can you build a grazing table?**
+
 Non-perishable elements (crackers, nuts, condiments) can be laid out 1–2 hours ahead. Cheeses go out 45–60 minutes before guests arrive for proper tempering. Fresh fruit, vegetables, and herbs go on last — within 15–20 minutes of guests arriving. For outdoor events in warm conditions, build in 30-minute batches and replenish throughout rather than building the full table at once.
 
 **Do you need a special surface for a grazing table?**
+
 No special surface is required. Long butcher paper laid across a table is the standard base — it defines the grazing area visually, protects the table surface, and can be written on with chalk for labeling. Parchment paper works similarly. Some grazing table setups use multiple boards placed adjacent; this works well and makes the table easier to break down and store afterward.

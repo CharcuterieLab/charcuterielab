@@ -68,7 +68,9 @@ Manchego comes in three primary aging categories, each with meaningfully differe
 
 ## Pairing Manchego
 
-**The traditional pairing — Manchego and quince paste (membrillo):** This is one of the most celebrated cheese pairings in Spanish cuisine, and its longevity is evidence of how well the salt-sweet principle operates here. Quince paste is intensely sweet and slightly astringent, with a dense, almost jelly-like texture. Placed against Manchego's savory, grassy saltiness, the quince's sweetness amplifies the cheese's complexity while the cheese's salt makes the quince taste brighter and more aromatic. A small smear of membrillo on a slice of Manchego is the most authentic expression of this pairing.
+**The classic: Manchego and quince paste (membrillo).** It's one of Spain's most famous pairings.
+
+Quince paste is dense, very sweet and a little tart. Against salty, grassy Manchego, each makes the other taste better: the sweet brings out the cheese, and the salt makes the quince brighter. A small smear of membrillo on a slice of Manchego is all it takes.
 
 **Sweet condiment pairings beyond membrillo:**
 - **Honey** — particularly a floral or amber honey. Raw wildflower honey works; Manchego's herbal notes pair especially well with Spanish wildflower or thyme honey.

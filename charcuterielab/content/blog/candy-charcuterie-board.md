@@ -87,6 +87,7 @@ Bulk and fun-size bags keep a candy board cheap. Expect roughly **$1.50 to $3 pe
 ## FAQ
 
 **What do you put on a candy charcuterie board?**
+
 Mix four types:
 
 - **Chocolate:** mini bars, truffles, chocolate-covered pretzels
@@ -97,15 +98,18 @@ Mix four types:
 Add a few big pieces for height, like a chocolate bar broken into squares or a pile of cotton candy.
 
 **How much candy do you need for a candy board?**
+
 Plan about 2 oz of candy per guest when the board is one of several desserts, and 3 to 4 oz per guest when it is the main dessert or party snack. For 12 guests that is about 1½ lb as a side dessert or 2¼ to 3 lb as the main event.
 
 **How do you arrange a candy charcuterie board?**
+
 Put small bowls on the board first for loose candy, then lay the biggest items, then fill in by color in blocks or a rainbow so each color sits in its own section. Fill every gap with small candy so no board shows, and keep chocolate away from any heat.
 
 **How far ahead can you make a candy board?**
+
 A candy board can be built several hours ahead, or the night before if you cover it tightly with plastic wrap. Leave out anything that softens or gets sticky, like cotton candy, fresh fruit and marshmallows, until right before serving.
 
 **Is a candy board safe for toddlers?**
+
 Hard candy, gumballs, nuts and popcorn are choking hazards for children under 4, so put those on a separate tray out of reach or leave them off. Use soft, meltable treats for little kids and always supervise them while they eat.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

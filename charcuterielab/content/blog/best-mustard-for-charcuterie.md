@@ -77,7 +77,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <ul class="sk-checks"><li><strong>Look for:</strong> Mustard seed, vinegar or wine, and salt. Whole-grain means you should see intact seeds.</li><li class="sk-x"><strong>Skip:</strong> Yellow ballpark mustard on a nice board. It&#x27;s too sweet and bright for cured meat.</li></ul>
 :::
 
-For what mustard pairs with and how to serve it, see the [whole grain mustard guide](/ingredients/whole-grain-mustard/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Mustard: pairings and serving tips](/ingredients/whole-grain-mustard/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Mustard questions</h2>
@@ -107,4 +107,3 @@ Salami, summer sausage, pâté, aged cheddar and pretzels.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

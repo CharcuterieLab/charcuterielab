@@ -127,16 +127,21 @@ Mini boards use the same principles as party boards at a smaller scale — but t
 ## FAQ
 
 **How much cheese do you need for a mini charcuterie board?**
+
 Plan 2 oz of cheese per person as an appetizer and 4 oz if the board is dinner. A mini board for two at appetizer portions needs about 4 oz of cheese total — pick 2 types in small quantities rather than buying large wedges. Most specialty cheese counters will cut to order; ask for 2–3 oz of each variety.
 
 **What size board do you use for a mini charcuterie board?**
+
 A small wooden cutting board (8–10 inches), a dinner plate, a slate tile, or even a small serving board works well for 1–2 people. You don't need a dedicated charcuterie board — any flat surface with enough space to group 2 cheeses, 1–2 meats, and a few accompaniments is sufficient. The format should feel intimate and curated, not sparse.
 
 **What are the best cheeses for a mini charcuterie board?**
+
 Choose 2 cheeses with different textures: one soft (brie, fresh chèvre, or burrata) and one firm (aged cheddar, manchego, or parmesan). This covers both texture categories without requiring large quantities of each. For a mini board, 2 oz of each is ideal — just enough for 3–4 bites of each type per person.
 
 **How do you make a mini charcuterie board look full?**
+
 Height and clustering create the impression of abundance on a small board. Fold meat rather than laying it flat. Position cheese at slight angles rather than flat. Use small clusters of grapes, 3–4 strawberries, and a small ramekin or spoon of honey. Scatter 10–12 nuts in gaps. A small board that looks organized and intentional reads as curated — empty space is the only thing to avoid.
 
 **Can a mini charcuterie board be a full meal?**
+
 Yes — a mini board for one can be a satisfying meal with the right quantities. Plan 4 oz cheese, 3 oz cured meat, 6–8 crackers or crostini, and generous fruit and nuts. The protein, fat, and carbohydrate balance of a well-built board is more complete than most people expect. This is the everyday format that works for weeknight dinners without any cooking.

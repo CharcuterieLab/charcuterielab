@@ -102,18 +102,23 @@ An appetizer board before an Italian dinner should lean Italian (prosciutto, Par
 ## FAQ
 
 **How is a charcuterie board as an appetizer different from a full board?**
+
 An appetizer charcuterie board is scaled for 2 oz of meat and 2 oz of cheese per person, with 6–8 crackers each. The goal is to stimulate appetite without filling guests up before the main course. A board that is the party food uses 3 oz of each, and 4 oz if it's dinner, with more variety.
 
 **When should you serve a charcuterie board during a dinner party?**
+
 Serve the charcuterie board during the cocktail hour — 30–60 minutes before the sit-down meal. This gives guests something to eat while they arrive and settle, prevents hunger complaints if the main course is delayed, and sets a tone of abundance and care without replacing the main event.
 
 **What cheeses work best when charcuterie is an appetizer?**
+
 Light, accessible cheeses serve appetizer boards better than intense ones. Brie, mild chèvre, and a semi-firm cheddar invite eating without overwhelming palates before the meal. Save bold blues, washed-rinds, and very aged cheeses for cheese courses or boards served as the primary food.
 
 **How long before dinner should I put out a charcuterie appetizer board?**
+
 Put the board out 15–20 minutes before guests are scheduled to arrive. This way it's ready as people come in, but it hasn't been sitting long enough to dry out or lose freshness by the time everyone has gathered. For longer cocktail hours, replenish key elements (soft cheese, fruit) at the 45-minute mark.
 
 **Should an appetizer charcuterie board include bread?**
+
 Optional. If dinner will include bread (dinner rolls, a bread basket), skip bread on the appetizer board to prevent guests from filling up on carbohydrates before the meal. If dinner won't include bread, a small amount of sliced baguette or crostini is appropriate.
 
 ---

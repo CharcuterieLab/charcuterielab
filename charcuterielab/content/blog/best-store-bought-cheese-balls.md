@@ -126,4 +126,3 @@ Yes. Take it out about 15 to 20 minutes before serving so it softens enough to s
 
 Hosting a holiday? See our [Thanksgiving charcuterie board ideas](/holidays/thanksgiving/) and [Christmas charcuterie board ideas](/holidays/christmas/), or make your own with the [cheese ball recipe](/blog/cheese-ball-recipe/). Every ranked guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

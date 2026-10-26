@@ -139,22 +139,29 @@ Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://ch
 :::
 
 **What is the first rule of wine and cheese pairing?**
+
 What grows together, goes together. Wines and cheeses from the same region are almost always natural partners — they evolved side by side over centuries. Burgundy wines with Époisses, Spanish Rioja with Manchego, Sancerre with chèvre, Port with Stilton. When in doubt, match the geographic origin before worrying about flavor profiles.
 
 **Does red wine always pair with cheese?**
+
 No — this is one of the most common charcuterie myths. White wine and sparkling wine are often better cheese companions. Tannins in red wine can clash with the fat in cheese, creating a metallic or bitter sensation. High-acid whites (Sauvignon Blanc, Riesling, Chablis) cut through fat and complement salt in a way that red wine often can't.
 
 **What wine pairs with blue cheese?**
+
 Sweet wines are the classic blue cheese partner: Sauternes with Roquefort, Port with Stilton, Banyuls with Gorgonzola. The sweetness of the wine balances the sharp saltiness and pungency of blue cheese. Among reds, bold, fruity options like Zinfandel or Amarone work. Avoid dry, tannic reds — they amplify the bitterness in blue cheese.
 
 **How many wines should you serve with a wine and cheese board?**
+
 One well-chosen wine is enough for an intimate board. For a formal tasting: two wines (one white, one red or sweet) cover the full spectrum of cheeses. For a large party, three options (crisp white, light red, and a sparkling) let guests self-select. More than three wines creates confusion and detracts from the cheese focus.
 
 **What is the proper order to taste wine and cheese?**
+
 Taste wine first to calibrate your palate, then eat cheese, then return to wine. This sequence shows how the cheese changes your wine perception. Move through pairings from lightest to most intense — fresh chèvre before aged Manchego, light Sauvignon Blanc before bold Cabernet. End with the most powerful pairing (blue cheese + sweet wine) as the finale.
 
 **What is the best wine and cheese combination for a charcuterie board?**
+
 Sparkling wine with triple-crème brie and prosciutto is the most reliable high-impact combination: carbonation cuts fat, high acidity contrasts richness, and brioche notes resonate with aged cheese. For red wine: Pinot Noir with aged gouda, manchego, and mild salami. For white: Chardonnay or Grüner Veltliner with Gruyère and coppa.
 
 **How do you set up a wine and cheese tasting with a charcuterie board?**
+
 Label each cheese-meat cluster with its intended wine pairing. Serve wines in separate glasses (one per wine per guest). Build the board so the lightest-wine cluster (sparkling or crisp white) is at one end and the fullest-bodied-wine cluster (aged hard cheese + full red) is at the other. Guests progress through the board as they progress through the wines.

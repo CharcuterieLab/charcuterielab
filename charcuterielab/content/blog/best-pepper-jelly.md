@@ -77,7 +77,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <ul class="sk-checks"><li><strong>Look for:</strong> Real peppers near the top of the list and a clear heat level. Some are mostly apple juice and sugar with little pepper flavor.</li><li class="sk-x"><strong>Skip:</strong> Pepper jellies that taste like plain fruit jelly. If you can&#x27;t find the pepper, it isn&#x27;t doing its job.</li></ul>
 :::
 
-For what pepper jelly pairs with and how to serve it, see the [pepper jelly guide](/ingredients/pepper-jelly/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pepper jelly: pairings and serving tips](/ingredients/pepper-jelly/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pepper jelly questions</h2>
@@ -105,4 +105,3 @@ Usually mild to medium. Habanero versions are much hotter.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

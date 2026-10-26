@@ -95,7 +95,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <ul class="sk-checks"><li><strong>Look for:</strong> Pork (and maybe veal), salt, wine and spices. Long ingredient lists with fillers or corn syrup are worth avoiding.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced salami that has been sitting in a tray. The edges dry and curl. Buy a chub and slice it, or buy it at the counter.</li></ul>
 :::
 
-For what salami pairs with and how to serve it, see the [genoa salami guide](/ingredients/genoa-salami/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Salami: pairings and serving tips](/ingredients/genoa-salami/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Salami questions</h2>
@@ -125,4 +125,3 @@ Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party fo
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

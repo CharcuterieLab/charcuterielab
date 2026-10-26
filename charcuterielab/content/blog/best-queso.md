@@ -97,7 +97,7 @@ The best one in Sporked's test of nearly 40 isn't in a jar at all.
 :::
 
 **Serving it:** heat queso until it's steaming, then keep it warm in a small slow cooker or a bowl you refill from the stove. Hot food should stay hot (140°F or above), or come off the table after 2 hours. Serve it with tortilla chips, pretzels and roasted peppers.
-For what queso pairs with and how to serve it, see the [tortilla chips guide](/ingredients/tortilla-chips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Queso: pairings and serving tips](/ingredients/tortilla-chips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Queso questions</h2>
@@ -129,4 +129,3 @@ Keep it hot, at 140°F or above, or take it off the table after 2 hours.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

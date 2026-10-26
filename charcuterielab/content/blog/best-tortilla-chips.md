@@ -88,7 +88,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 :::
 
 **How much to buy:** plan on about 1 to 1.5 oz of chips per guest when there are dips, or a 13 oz bag for every 8 to 10 people. Refill a small bowl rather than piling the whole bag on the board, so the chips stay crisp.
-For what tortilla chips pairs with and how to serve it, see the [tortilla chips guide](/ingredients/tortilla-chips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Tortilla chips: pairings and serving tips](/ingredients/tortilla-chips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Tortilla chip questions</h2>
@@ -120,4 +120,3 @@ Serve a small bowl and refill it, keep the bag sealed between refills, and keep 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

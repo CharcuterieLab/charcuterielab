@@ -95,7 +95,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 <ul class="sk-checks"><li><strong>Look for:</strong> An age statement in months or years. The words sharp and extra sharp are not regulated. Cloth-bound means a drier, more complex cheese.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced or shredded cheddar for a board, and orange cheddar if you have a choice. The color is annatto and adds nothing.</li></ul>
 :::
 
-For what cheddar pairs with and how to serve it, see the [aged cheddar guide](/ingredients/aged-cheddar/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Cheddar: pairings and serving tips](/ingredients/aged-cheddar/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Cheddar questions</h2>
@@ -123,4 +123,3 @@ Aged hard cheese needs 45 to 60 minutes.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

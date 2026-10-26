@@ -95,7 +95,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <ul class="sk-checks"><li><strong>Look for:</strong> A soft, giving feel through the wrapper and a white rind with faint reddish-brown flecks, not grey and not shrunken away from the paste.</li><li class="sk-x"><strong>Skip:</strong> Pre-cut brie wedges in plastic. They dry at the cut faces. Buy a small wheel instead.</li></ul>
 :::
 
-For what brie pairs with and how to serve it, see the [brie guide](/ingredients/brie/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Brie: pairings and serving tips](/ingredients/brie/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Brie questions</h2>
@@ -125,4 +125,3 @@ Not technically. It is made like a brie but from ultrafiltered milk, which makes
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

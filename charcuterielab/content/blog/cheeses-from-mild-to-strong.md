@@ -93,4 +93,3 @@ Planning cheese after dinner? [The cheese course](/blog/cheese-course/) shows ho
 
 Comment your level, and tag the friend who needs to try level 12. For a full board built around a strong cheese, browse the [Board Library](/boards/).
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -97,7 +97,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 :::
 
 **Serving it:** ranch is dairy, so keep it cold. Set the bowl in a larger bowl of ice, and don't leave it out more than 2 hours, or 1 hour above 90°F. Plan on about 2 tablespoons per guest with a veggie tray.
-For what ranch dip pairs with and how to serve it, see the [guide to dips for a charcuterie board](/blog/charcuterie-board-dips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Ranch dip: pairings and serving tips](/blog/charcuterie-board-dips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Ranch dip questions</h2>
@@ -129,4 +129,3 @@ No more than 2 hours, or 1 hour above 90°F. Keep the bowl over ice.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

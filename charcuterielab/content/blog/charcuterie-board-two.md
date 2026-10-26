@@ -32,6 +32,7 @@ The starting framework: 2 oz of cheese and 2 oz of meat per person in total as a
 - 1 condiment: 1 tablespoon of honey or a small ramekin of jam
 
 **For a board that replaces a meal:**
+
 Double it: 8 oz of cheese (3 cheeses at 2–3 oz each) and 8 oz of meat (2 meats at 4 oz each), full cracker sleeve, more substantial fruit.
 
 The important quantity implication: buying standard supermarket packages means buying too much of everything. A standard package of prosciutto (3 oz) is almost exactly right for two. A standard wedge of Brie (8 oz) is more than right — plan to use the rest within a few days. A large salami link (12 oz) produces significant waste for two people.
@@ -152,21 +153,27 @@ Want it planned for you? The [Date Night Pack](/printables/date-night-pack/) has
 ## FAQ
 
 **What is the right size charcuterie board for two?**
+
 An 8–10" round board or a 12" rectangular board works well for two people. This size holds 2–3 cheeses (small wedges or portions), 2 oz of one or two meats, a handful of crackers, and a few accompaniments without looking sparse or overcrowded. A single dinner plate also works perfectly for an intimate board for two.
 
 **What cheeses should a board for two include?**
+
 Three cheeses in small portions: something soft and creamy (brie or chèvre), something semi-firm and familiar (cheddar or Gouda), and something with more personality (blue cheese or a washed-rind). At two-person quantities, buy small amounts of each — a 2 oz wedge of each provides roughly 1 oz per person per cheese, enough to taste without overwhelming.
 
 **How do you make a charcuterie board for two feel special rather than just a snack?**
+
 Intentionality is the difference between a romantic charcuterie board and a random snack plate. Choose a theme (Italian, French, date night), use a proper board or slate rather than a plate, arrange with intention (fold the prosciutto, fan the cheese), add one special element (honeycomb, fresh figs, dark chocolate), and pour a proper glass of wine. The care in assembly communicates intention.
 
 **What are the best meats for a board for two?**
+
 Prosciutto is the ideal meat for a board for two — it's sold in small packages (3 oz), naturally portioned for two, and works with almost every cheese and accompaniment. Bresaola or a small amount of thinly sliced salami rounds out the meat section without waste. Avoid buying full packages of multiple meats — most will go unused.
 
 **Is a board for two different from a board for a crowd?**
+
 The elements are the same; the quantity and proportion change. A board for two allows for more personalization — you can center it entirely on the specific preferences of the two people eating. It also allows for more indulgence per person (more prosciutto, a larger cheese section relative to person count) without the waste concerns of a large-crowd board.
 
 **What wine goes with a date night charcuterie board?**
+
 Champagne, Crémant or Prosecco is the safest match: the bubbles and acidity cut through rich soft cheese and prosciutto. If you prefer red, pick a light Pinot Noir served slightly cool. Skip big tannic reds like Cabernet with a triple-crème; they flatten it.
 
 ---

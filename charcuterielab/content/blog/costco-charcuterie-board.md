@@ -148,18 +148,22 @@ Anything that sat out on the board is a leftover: eat it within 3–4 days, and 
 ## FAQ
 
 **How much does a Costco charcuterie board for 20 cost?**
+
 About $190 to $230 for a full board where the charcuterie is the party food, or roughly $9.50 to $11.50 per guest, using prices seen at Costco in 2026. You will have leftover cheese, nuts and dried fruit because the packs are large.
 
 **How much meat and cheese do I need from Costco for 20 people?**
+
 When the board is the main party food, plan 3 oz each of meat and cheese per guest plus 10%, which is about 66 oz, a little over 4 lb, of each. If dinner follows, 2 oz each per guest (about 2¾ lb of each) is enough.
 
 **What are the best Costco cheeses for a charcuterie board?**
+
 Kirkland Signature Manchego, an aged gouda, Kerrygold Dubliner, Kirkland Signature Brie, Sartori Bellavitano and the Kirkland goat cheese logs give you firm, soft, nutty and tangy options from one warehouse trip.
 
 **Does Costco sell a ready-made charcuterie board?**
+
 Yes, Costco has sold pre-built charcuterie platters such as the Luxe Bites Classic board on costco.com. They are convenient, but building your own from warehouse packs gives you more food per dollar and lets you pick the cheeses.
 
 **What should I skip at Costco for a charcuterie board?**
+
 Skip a second cracker variety pack, very large wheels such as a 4 lb pecorino unless you host often, and a 5 lb bottle of honey you will not finish. Buy one or two jars of jam at a regular store instead.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

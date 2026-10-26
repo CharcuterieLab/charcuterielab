@@ -51,12 +51,15 @@ The one science fact that surprises most people: **the rind is meant to be eaten
 ## Flavor Profile & What Makes It Unique
 
 **The Mushroomy Earthiness**
+
 The Penicillium mold on brie's rind produces geosmin and 1-octen-3-ol during ripening — the same aromatic compounds responsible for the smell of forest soil and fresh mushrooms. This is why a properly ripened brie smells earthy and complex rather than directly milky. On a board, this earthiness makes brie an excellent anchor for both sweet and herbaceous accompaniments.
 
 **The Fat Richness**
+
 Brie is a rich, high-fat cheese, which gives it its characteristic luxurious mouthfeel. Fat carries and extends fat-soluble flavor compounds, meaning brie lingers on the palate longer than almost any other board cheese. This is both its strength and its pairing challenge — anything that pairs with it needs to cut through that richness or complement it directly.
 
 **The Mild Baseline**
+
 Unlike sharp cheddar or aged parmesan, brie's flavor baseline is gentle. It doesn't compete — it accommodates. This makes it one of the most versatile cheeses on a board, but also the easiest to overwhelm with pairings that are too aggressive.
 
 ---
@@ -100,15 +103,21 @@ Unlike sharp cheddar or aged parmesan, brie's flavor baseline is gentle. It does
 ## The Lab Section: Why These Pairings Work
 
 **Salt + Sweet: The Core Brie Principle**
+
 Brie pairs so naturally with sweet accompaniments — honey, fig jam, fresh fruit — because of how sodium interacts with sweetness perception at the neural level. Salt suppresses bitterness and enhances sweet flavor signals, meaning the mild saltiness in brie's rind literally makes honey or fig taste sweeter and more complex than they would on their own. This is why drizzling raw honey directly onto cut brie is never just decorative — it's a flavor amplifier rooted in sensory science.
 
 **Acid Cuts Fat: Why Fruit and Wine Work**
-Brie contains roughly 8–10 grams of fat per ounce, and that fat coats the palate in a way that builds and lingers. Acidic pairings — apple slices, grapes, sparkling wine — work because the tartaric, malic, and citric acids they contain chemically interact with fat molecules, breaking down the coating and resetting the palate. This is why a sip of Champagne between bites of brie doesn't just taste good — it physiologically prepares your palate to taste the next bite fully.
+
+Brie has about 8–10 grams of fat per ounce, and that fat coats your tongue. Sour partners like apple, grapes and sparkling wine cut through the coating and reset your palate.
+
+That's why a sip of Champagne between bites of brie makes the next bite taste as good as the first.
 
 **The Rind's Earthiness as a Bridge**
+
 The Penicillium mold on brie's rind produces earthiness that bridges two otherwise opposing flavor profiles: rich dairy and earthy, vegetal, or herbal accompaniments. Walnuts pair with brie not despite their bitterness but because of it — the walnut's tannins create a dry contrast that the rind's earthiness harmonizes with. Remove the rind, and this pairing loses much of its logic.
 
 **Why Brie Anchors a Board**
+
 Brie is classified as a soft-ripened cheese, meaning its texture and flavor intensity change significantly at different temperatures. At refrigerator temperature (38°F), brie is firm, chalky, and muted. At room temperature (65–68°F), it opens up — the interior becomes yielding, the aroma develops fully, and the flavor compounds become volatile and expressive. This is why pulling brie out 20–30 minutes before serving isn't optional — it's the science of getting full value from the cheese.
 
 ---
@@ -148,6 +157,7 @@ Over-ripened brie develops an ammonia-like smell from excessive protein breakdow
 ## How to Use Brie on a Charcuterie Board
 
 **Best placement on the board:**
+
 Brie is a visual anchor — place it near the center or in one of the upper quadrants of the board. Its pale rind and soft texture draw the eye. On a large board, a half wheel cut to show the interior creates an immediate focal point. On a smaller board, a generous wedge works exactly as well.
 
 **Best shapes and cuts:**
@@ -156,9 +166,11 @@ Brie is a visual anchor — place it near the center or in one of the upper quad
 - Whole small wheel with the top rind scored — visually dramatic for a centerpiece board
 
 **How much to serve:**
+
 For a board serving 6–8 people: 6–8 oz of brie (roughly one small wheel or a generous portion of a larger one). If brie is the anchor cheese, lean toward 8–10 oz. Remember that brie at room temperature appears and feels more generous than the same weight of a hard cheese.
 
 **Best companions on the same board:**
+
 Brie performs best alongside an aged hard cheese (for contrast), a cured meat that's salt-forward but not spice-forward, a sweet condiment, and fresh fruit. The combination of soft and hard, mild and sharp, sweet and savory creates a board that demonstrates the full range of flavor interaction rather than defaulting to a single note.
 
 ---
@@ -192,18 +204,23 @@ The Orchard Board works because every element either cuts brie's fat (apple, gra
 ## FAQ
 
 **Does brie need to be at room temperature to serve?**
+
 Yes — and this is non-negotiable. Brie served cold is a fundamentally different eating experience. The fat is firm and muted, the aroma is suppressed, and the flavor barely develops. Allow 20–30 minutes out of the refrigerator before it goes on the board.
 
 **Should you eat the rind on brie?**
+
 Absolutely. The white rind on brie is Penicillium camemberti mold — the same type used in many aged cheeses — and it's not only safe to eat but central to brie's flavor profile. The rind contributes earthy, mushroomy notes that the interior alone cannot provide. Guests who are unfamiliar with the rind should be encouraged to try it as part of a wedge, not avoid it.
 
 **How long does brie last once opened?**
+
 Once cut, brie should be wrapped tightly in wax paper or cheese paper (not plastic wrap, which traps moisture and accelerates over-ripening) and refrigerated. It remains at peak quality for 5–7 days after cutting. An uncut wheel, refrigerated, holds well until its use-by date.
 
 **Can you bake brie for a charcuterie board?**
+
 Baked brie has its place, but it's a different presentation than a traditional board. If you're serving a charcuterie board, room-temperature brie — not baked — gives guests the full range of flavors from rind to interior. Reserve baked brie for standalone appetizers.
 
 **How do you know if brie has gone bad?**
+
 Over-ripened brie develops a strong ammonia smell (from excess protein breakdown) and may become excessively runny or pinkish near the rind. A slight ammonia smell is normal in very ripe brie; strong, persistent ammonia or off colors are signs the cheese is past its prime. When in doubt, taste a small piece — if the flavor is harsh or unpleasant rather than earthy and complex, set it aside.
 
 ---

@@ -88,7 +88,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 :::
 
 **Serving it:** spoon the jam into a small bowl with a spoon, not straight onto the board. It goes with brie, goat cheese, ricotta, fresh mozzarella, shortbread and dark chocolate. Swirl a spoonful into whipped ricotta for an easy dip.
-For what strawberry jam pairs with and how to serve it, see the [dessert board guide](/blog/dessert-board/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Strawberry jam: pairings and serving tips](/blog/dessert-board/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Strawberry jam questions</h2>
@@ -120,4 +120,3 @@ Yes, especially on dessert boards and boards for kids. It's milder than fig jam.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -335,19 +335,25 @@ Unusual ingredients aren't about being obscure. Each one here earns its spot by 
 ## FAQ
 
 **What is the most unique thing to put on a charcuterie board?**
+
 Finger limes get the biggest reaction. You squeeze out tiny juice pearls that pop like caviar. Harbison, a spruce-wrapped cheese you eat with a spoon, is a close second.
 
 **How many unique ingredients should one board have?**
+
 Two or three. Unusual items work by contrast with familiar ones, so a board built entirely from them has nothing to push against.
 
 **Which unique charcuterie ingredients are easiest to find?**
+
 Midnight Moon, Tête de Moine rosettes and Kam Yen Jan lap cheong are often at Costco. Lupini beans, cajeta and pickled watermelon rind are at Walmart or regular grocery stores. Whole Foods carries baru nuts, Pili Hunters and Inés Rosales tortas.
 
 **What unique ingredients work for guests who don't eat pork?**
+
 Cecina, biltong and pastirma are all cured beef. Mojama is cured tuna. All four give a board a real cured-meat centerpiece without pork.
 
 **Which of these are good for a fall or holiday board?**
+
 Rogue River Blue is released each fall, finger limes run from late summer into winter, hoshigaki arrives in late fall, and brunost, cajeta and pickled watermelon rind all suit holiday boards.
 
 **Are unique charcuterie ingredients expensive?**
+
 Some are. Harbison, Rogue River Blue, mojama and hoshigaki are splurges, but you serve small amounts. Lupini beans, cajeta, lap cheong and pickled watermelon rind cost very little.

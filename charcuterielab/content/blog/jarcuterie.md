@@ -96,18 +96,22 @@ Jarcuterie costs about the same per serving as [charcuterie cups](/blog/charcute
 ## FAQ
 
 **What is jarcuterie?**
+
 Jarcuterie is charcuterie served in individual jars: a skewer of cured meat, cheese and fruit, a breadstick or crackers standing up, and nuts, olives or berries in the bottom. Each guest gets their own, so it's tidy and easy to carry around a party.
 
 **What size jar is best for jarcuterie?**
+
 A 12 to 16 oz wide-mouth mason jar fits a 6-inch skewer and breadsticks standing up. Use 8 oz jars for kids or for a lighter snack.
 
 **How much meat and cheese goes in each jar?**
+
 About 1 oz of meat and 1 oz of cheese per jar. Plan one jar per guest alongside other food, or two per guest if the jars are the whole appetizer.
 
 **How far ahead can you make jarcuterie?**
+
 Fill the jars the morning of the party, lid or cover them and refrigerate. Add crackers and breadsticks just before serving so they stay crisp, and serve within 2 hours.
 
 **How do you keep crackers crisp in jarcuterie?**
+
 Put dry items like nuts in the bottom, keep wet items like olives and berries on the skewer or in a small cup, and stand crackers and breadsticks up along the side so they don't touch anything wet. Add them last.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

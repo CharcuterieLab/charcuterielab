@@ -90,25 +90,33 @@ Eat the same rich, salty food over and over and it starts to taste flatter. That
 :::
 
 **What is the acid rule in pairing?**
+
 The acid rule states that fatty, rich foods need an acid counterpoint to remain palatable over time. Without acid, fat builds on the palate and eating becomes heavy. With acid, the fat is periodically reset, keeping each bite feeling fresh. On a board, this principle is applied through condiments (mustard, pickled elements), acidic fruits (apple, grape), and wine.
 
 **Which foods on a charcuterie board are high in acid?**
+
 Mustard (acetic and malic acids), cornichons and pickles (acetic acid from vinegar brine), fresh grapes (tartaric and malic acid), apple slices (malic acid), citrus elements (citric acid), and certain wines all contribute meaningful acidity to a board experience. Each performs the fat-cutting function through different acids.
 
 **Why doesn't red wine always pair well with charcuterie?**
+
 Highly tannic red wines can interact poorly with rich cured meats and cheese — the tannins bind with fat and protein in ways that create a dry, metallic mouthfeel rather than refreshing the palate. Lower-tannin reds (Barbera, Dolcetto, Beaujolais) and high-acid reds pair far better. The acid in wine is the pairing tool; the tannins are often an obstacle.
 
 **Does the acid rule apply to sweet elements too?**
+
 Sweet elements help through the salt-sweet mechanism but don't perform the same acid-fat cutting function. A board benefits from both: sweet anchors (honey, fig jam) to activate the salt-sweet principle, and acidic elements (mustard, cornichons, tart fruit) to cleanse the palate of fat. They work on different mechanisms simultaneously.
 
 **What is acid contrast in charcuterie?**
+
 Acid contrast is the pairing principle where a high-acid food (cornichons, mustard, tart fruit, pickled vegetables) is placed alongside a rich, fatty, or salty food to cleanse the palate between bites. The acid stimulates salivation and cuts through fat, making each subsequent bite taste as vivid as the first.
 
 **Which acidic elements work best on a charcuterie board?**
+
 Cornichons and other pickled vegetables offer the sharpest, most immediate acid hit. Whole-grain mustard provides moderate acidity with added aromatic complexity. Tart fruits (green apple, unripe grapes, citrus segments) contribute natural fruit acids (malic, citric) with sweetness. Pickled grapes or pickled cherries are more unusual but highly effective. Each works through the same acid-fat contrast mechanism.
 
 **Can you have too much acid on a board?**
+
 Yes — a board where every accompaniment is acidic becomes monotonous and fatiguing in the opposite direction. Acid should function as punctuation, not the primary content. Balance acidic elements with sweet anchors (honey, jam) and neutral crackers that reset the palate without adding a flavor dimension.
 
 **Does wine's acidity serve the same palate-cleansing function?**
+
 Yes — this is one of the reasons wine and charcuterie pair well together. Wine's acidity performs the same palate-cleansing function as cornichons or tart fruit. This is also why high-acid wines (Riesling, Barbera, Champagne) tend to pair better with rich charcuterie than low-acid, heavily oaked wines that can amplify the heaviness.

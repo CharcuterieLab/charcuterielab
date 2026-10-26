@@ -103,18 +103,22 @@ On a board, add salami, grapes and a jar of [pepper jelly](/blog/best-pepper-jel
 ## FAQ
 
 **How far ahead can you make a cheese ball?**
+
 Up to 3 days ahead. Shape it, wrap it tightly in plastic and refrigerate, then roll it in the nuts or coating on the day you serve it so the coating stays crunchy.
 
 **Can you freeze a cheese ball?**
+
 Yes, without the coating. Wrap it tightly in plastic and foil and freeze for up to a month, thaw overnight in the fridge, then roll it in the coating before serving.
 
 **How long does a cheese ball need to chill?**
+
 At least 1 hour to firm up enough to shape, and 2 hours or overnight for the flavors to blend. A very cold cheese ball is hard to spread, so take it out about 15 to 20 minutes before serving.
 
 **How many people does a cheese ball serve?**
+
 This recipe makes one large ball, about 3 cups, which serves 12 to 16 as one of several appetizers. Make two smaller balls, or double the recipe, for 20 or more.
 
 **What do you serve with a cheese ball?**
+
 Sturdy crackers like butter crackers, wheat crackers or pita chips, pretzel crisps, celery and carrot sticks, apple slices and baguette toasts. Thin water crackers can snap in a firm cheese ball.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -36,6 +36,7 @@ Apples are simple, but preparation matters. Here's why they work:
 4. **Serve fresh** — apples oxidize quickly, so prep close to serving time
 
 **Why lemon juice works:**
+
 The citric acid in lemon juice slows enzymatic browning (oxidation) without altering the apple's flavor. A quick toss in lemon water keeps slices looking fresh for 2–3 hours.
 
 ## Flavor Profile & What Makes Them Unique
@@ -43,12 +44,15 @@ The citric acid in lemon juice slows enzymatic browning (oxidation) without alte
 Apple slices bring three key elements to a charcuterie board:
 
 **Acidity**
+
 Apples have natural malic acid, which cuts through rich, fatty ingredients like aged cheddar or creamy brie.
 
 **Sweetness**
+
 Natural fruit sugars balance salty meats and tangy cheeses without being cloying.
 
 **Crunch**
+
 The crisp texture contrasts beautifully with soft cheeses and tender meats, making each bite more dynamic.
 
 ## Best Pairings
@@ -77,32 +81,40 @@ The crisp texture contrasts beautifully with soft cheeses and tender meats, maki
 ## Pairing Science: Why These Work
 
 **1. Acid Cuts Fat**
+
 Apples contain malic acid, which breaks down the richness of fatty cheeses and cured meats. This is why apples feel so refreshing after a bite of aged cheddar or salami.
 
 **2. Sweet Balances Salt**
+
 The natural sugars in apples balance the saltiness of prosciutto and aged cheeses, creating a harmonious bite.
 
 **3. Texture Contrast**
+
 Crisp apples contrast with creamy brie or soft pâté, making the board feel more layered and interesting.
 
 **4. Palate Cleanser**
+
 The high water content and acidity of apples cleanse the palate between rich bites, preventing flavor fatigue.
 
 ## Common Mistakes
 
 **❌ Slicing too far in advance**
+
 Apples brown quickly.
 **Fix:** Slice within 1–2 hours of serving and toss in lemon water.
 
 **❌ Using mealy apple varieties**
+
 Red Delicious and other soft apples lack the crunch needed.
 **Fix:** Stick to Honeycrisp, Granny Smith, or Fuji.
 
 **❌ Cutting slices too thick**
+
 Thick slices are hard to eat with cheese.
 **Fix:** Keep slices around ¼-inch thick.
 
 **❌ Skipping the acid treatment**
+
 Brown apples look unappetizing.
 **Fix:** Toss in lemon juice or lemon water immediately after slicing.
 
@@ -119,6 +131,7 @@ Brown apples look unappetizing.
 - **Matchsticks** — modern and elegant
 
 **Serving size:**
+
 For a board serving 6–8 people:
 - 1–2 apples, sliced (about 12–16 slices)
 
@@ -138,12 +151,15 @@ This board balances creamy cheese, salty meat, and crunchy apples with a drizzle
 ## FAQ
 
 **How do you keep apple slices from turning brown?**
+
 Toss them in lemon water (1 tbsp lemon juice per cup of water) immediately after slicing.
 
 **What's the best apple for charcuterie boards?**
+
 Honeycrisp for sweetness, Granny Smith for tartness, or Fuji for balance.
 
 **Can you prep apple slices the night before?**
+
 Not recommended. They'll brown and lose crispness. Slice within 2 hours of serving.
 
 ## Conclusion
@@ -151,4 +167,5 @@ Not recommended. They'll brown and lose crispness. Slice within 2 hours of servi
 Apple slices are more than just filler — they're a strategic pairing ingredient that brings acidity, sweetness, and crunch to your board. Once you understand how their natural acidity cuts through rich cheeses and how their sweetness balances salty meats, you'll never build a board without them.
 
 **Want more Ingredient Lab deep dives?**
+
 Subscribe to the Charcuterie Lab newsletter for weekly pairing science, ingredient guides, and board ideas.

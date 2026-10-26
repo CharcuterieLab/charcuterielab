@@ -127,4 +127,3 @@ A 750 ml bottle pours five 5 oz glasses. A common party rule is one bottle for e
 
 For cheese matches by bottle, see our [wine pairing guides](/pairings/), and for bubbles, [the best Prosecco](/blog/best-prosecco/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page. Please drink responsibly.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

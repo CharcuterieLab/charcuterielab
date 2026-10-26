@@ -152,18 +152,22 @@ Keep the board out no more than 2 hours, or 1 hour above 90°F.
 ## FAQ
 
 **How much does a Trader Joe's charcuterie board cost?**
+
 About $90 to $110 for a full board for 10 people where the charcuterie is the party food, or roughly $9 to $11 a guest, using prices seen at Trader Joe's in 2026. A smaller board for 4 to 6 can be built for about $25.
 
 **What cheese should I get at Trader Joe's for a charcuterie board?**
+
 Unexpected Cheddar, sliced Manchego, a Double Cream Brie and Creamy Toscano Cheese Soaked in Syrah give you a sharp, a nutty, a soft and a wine-washed cheese. Boursin and Port Salut are good swaps.
 
 **What meat does Trader Joe's have for charcuterie?**
+
 Trader Joe's usually carries sliced Italian dry salame and a salame stick, Calabrese, sliced prosciutto and a mixed Italian deli selection. Prosciutto-wrapped mozzarella is an easy extra.
 
 **How much meat and cheese do I need for 10 people?**
+
 When the board is the main party food, plan 3 oz each of meat and cheese per guest, which is 30 oz, just under 2 lb, of each for 10 people. If a meal follows, 2 oz each per guest, or 20 oz of each, is enough.
 
 **What are the best Trader Joe's crackers for charcuterie?**
+
 Fig and Olive Crisps for the sweet-salty cheeses, Savory Thins as a cheap neutral cracker, and a sliced baguette. In the fall, look for the seasonal cranberry and pumpkin crisps.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

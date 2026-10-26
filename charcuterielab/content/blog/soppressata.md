@@ -41,7 +41,9 @@ Simultaneously, the salt and nitrates suppress spoilage bacteria and, over weeks
 
 **Fat distribution and flavor:** The coarse fat distribution in soppressata matters. The fat serves as the primary flavor delivery system — spices and garlic are fat-soluble, meaning the marbled fat in soppressata is saturated with flavor compounds in a way that leaner cuts aren't. This is why a thick-cut slice of high-quality soppressata has a more intense flavor impact than a thin slice — you're getting a meaningful amount of fat-delivered flavor with each bite.
 
-**Calabrian chili (hot soppressata):** The spice in spicy soppressata comes primarily from Calabrian chili pepper — a medium-heat, fruity, deeply savory chili with more complexity than simple heat. The active compound is capsaicin, which binds to TRPV1 receptors on the tongue and creates the sensation of heat. The heat level in well-made hot soppressata is assertive but not overwhelming — it builds across bites rather than spiking. This sustained heat is the primary reason hot soppressata needs a dairy or sweet counterpoint on the board.
+**Calabrian chili (hot soppressata):** the heat comes from Calabrian chili, which is fruity and savory, not just hot. It builds slowly across bites instead of spiking.
+
+Because the heat lingers, hot soppressata needs something creamy or sweet next to it, like fresh mozzarella or honey.
 
 ---
 

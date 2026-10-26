@@ -101,16 +101,21 @@ A $25 board can genuinely impress. Sharp cheddar, dry salami, baguette crostini,
 ## FAQ
 
 **How do you make a cheap charcuterie board look good?**
+
 Presentation matters more than price. Use a wooden cutting board or a slate tile from a hardware store as your board surface. Fan-slice cheese in overlapping rows rather than leaving it in a block. Fold cured meat rather than laying it flat. Fill visible gaps with whatever inexpensive fruit, nuts, or crackers you have. Height and visual flow make a $25 board look curated — not the price of individual ingredients.
 
 **What is the cheapest cheese for a charcuterie board?**
+
 Sharp cheddar consistently delivers the best value: strong flavor, good shelf life, crowd-pleasing, and $5–7 per pound at any grocery store. Domestic manchego-style cheese, mozzarella (for soft texture variety), and cream cheese (as a spreadable base) are other strong budget options. Avoid buying expensive cheese in small quantities — a good sharp cheddar outperforms a mediocre expensive import.
 
 **What inexpensive cured meat works on a charcuterie board?**
+
 Dry salami (Genoa or hard salami) is consistently the best value cured meat — flavorful, widely available, and $4–6 for enough to serve 6–8 people. Pre-sliced prosciutto-style products from the deli counter are another option. Pepperoni is crowd-pleasing but tends to pool fat at room temperature — use it as a secondary meat, not the anchor.
 
 **What can I use instead of expensive crackers on a charcuterie board?**
+
 Slice a baguette thin and toast it in the oven for 8 minutes at 400°F — you'll have 20–30 crostini for under $3. Sliced thin bread rounds (from a boule), simple Ritz crackers, or any plain cracker from the grocery store performs the same structural function as artisan crackers at a fraction of the cost. The cheese is the point; the cracker is the vehicle.
 
 **How do you make a budget charcuterie board feel abundant?**
+
 Fill space strategically. Grapes, apple slices, and baby carrots are inexpensive and occupy visual real estate effectively. A small ramekin of honey (even grocery store honey) adds visual complexity. Scatter nuts (roasted almonds or walnuts from the bulk bin) to fill gaps. A board that looks full and varied reads as generous, regardless of whether every ingredient is artisan.

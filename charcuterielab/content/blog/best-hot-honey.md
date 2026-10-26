@@ -77,7 +77,7 @@ Hot honey on salami, pepperoni, aged cheddar or fresh mozzarella is one of the e
 <ul class="sk-checks"><li><strong>Look for:</strong> Honey first, then chili or peppers and often vinegar. Heat levels vary a lot, so check for &#x27;extra hot&#x27;.</li><li class="sk-x"><strong>Skip:</strong> Drizzling hot honey over the whole board. Serve it in a small bowl so guests choose.</li></ul>
 :::
 
-For what hot honey pairs with and how to serve it, see the [hot honey guide](/ingredients/hot-honey/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Hot honey: pairings and serving tips](/ingredients/hot-honey/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Hot honey questions</h2>
@@ -107,4 +107,3 @@ Most are mild to medium. Look for 'extra hot' if you want real heat.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

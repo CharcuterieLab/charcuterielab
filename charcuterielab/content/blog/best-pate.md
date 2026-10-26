@@ -19,8 +19,9 @@ tags: "["best pate", "store bought pate", "pate brands", "best pâté", "pate fo
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-One slab next to cornichons, mustard and baguette makes a board feel like a French bistro. No taste test exists, so there are no star scores.
-*How we picked these: no published side-by-side taste test of store-bought pâté in the US exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of spread behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
+One slab next to cornichons, mustard and baguette makes a board feel like a French bistro.
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
 :::html
 <h2 id="picks">All 4 picks</h2>
@@ -74,7 +75,7 @@ One slab next to cornichons, mustard and baguette makes a board feel like a Fren
 - **How to serve it:** take it out of the fridge about 15 minutes before serving, and slice country pâté with a warm knife.
 - **Pregnant guests:** refrigerated pâté is on the FDA's avoid list during pregnancy. Canned or shelf-stable pâté is fine.
 
-For what pâté pairs with and how to serve it, see the [pâté de campagne guide](/ingredients/pate-de-campagne/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pâté: pairings and serving tips](/ingredients/pate-de-campagne/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## How to choose
 
@@ -113,4 +114,3 @@ Mousse is smooth and spreadable, usually made with liver. Pâté de campagne is 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -77,7 +77,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <ul class="sk-checks"><li><strong>Look for:</strong> The meat listed first, and a mild tang from fermentation. Many are beef, some are beef and pork, and a few are game meats.</li><li class="sk-x"><strong>Skip:</strong> Cutting summer sausage into thin slices. It&#x27;s better thick-cut into coins or half-moons.</li></ul>
 :::
 
-For what summer sausage pairs with and how to serve it, see the [summer sausage guide](/ingredients/summer-sausage/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Summer sausage: pairings and serving tips](/ingredients/summer-sausage/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Summer sausage questions</h2>
@@ -105,4 +105,3 @@ Cut it into coins about 1/4 inch thick, or halve the coins into half-moons.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

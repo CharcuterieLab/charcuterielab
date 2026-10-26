@@ -130,21 +130,26 @@ For pregnant guests: the CDC focuses on avoiding raw-milk cheese, and the NHS sa
 ## FAQ
 
 **How long do you bake brie and at what temperature?**
+
 Bake a plain 8 oz wheel at 350°F for 10 to 15 minutes, until the sides feel soft and the center gives when you press it. Wrapped in puff pastry, bake it at 400°F for 20 to 25 minutes, until the pastry is deep golden. Let either one rest 5 to 10 minutes before cutting.
 
 **Do you take the rind off brie before baking?**
+
 No. Leave the rind on. It holds the melted cheese in so the wheel doesn't collapse, and it's edible. Some people slice off just the top rind so toppings sink in, but the sides and bottom should stay on.
 
 **What do you serve with baked brie?**
+
 Sliced baguette or crostini, sturdy crackers, apple and pear slices and toasted nuts. On a board, put the baked brie in the center while it's warm and surround it with prosciutto, grapes and a second, firmer cheese.
 
 **Can you make baked brie ahead of time?**
+
 Wrap the brie in puff pastry up to 24 hours ahead, cover it and refrigerate it, then bake it straight from the fridge and add 3 to 5 minutes. A plain baked brie is best baked right before serving because it firms up again as it cools.
 
 **How much baked brie do you need per person?**
+
 As an appetizer before a meal, an 8 oz wheel serves about 6 to 8 people, and a 1 kg (about 2.2 lb) wheel serves 20 or more. If it's one of several things on a board, an 8 oz wheel covers about 8 guests.
 
 **Is baked brie safe during pregnancy?**
+
 Guidance differs. The CDC focuses on avoiding cheese made with raw milk, and most brie sold in US stores is pasteurized. The NHS says white-rind cheeses like brie should be cooked thoroughly. Baked brie served steaming hot all the way through meets both, and a pregnant guest should check with her own doctor or midwife.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

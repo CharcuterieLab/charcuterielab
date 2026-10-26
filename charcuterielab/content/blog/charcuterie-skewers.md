@@ -86,18 +86,22 @@ Use red, green and white: **cherry tomato, basil and mozzarella** (a caprese "wr
 ## FAQ
 
 **How many charcuterie skewers per person?**
+
 Plan 3 to 4 skewers per guest when there is other food, and 6 to 8 per guest if skewers are the main appetizer. Each skewer holds about ½ oz each of meat and cheese.
 
 **What size skewers are best for charcuterie skewers?**
+
 4-inch cocktail picks for two or three bites, and 6-inch bamboo skewers for five or six pieces. Decorative knotted picks look nicest on a platter.
 
 **How far ahead can you make charcuterie skewers?**
+
 Make them up to a day ahead, cover them tightly and refrigerate. Leave off anything that wilts or browns, such as basil and apples, and add drizzles like balsamic glaze or olive oil just before serving.
 
 **What goes on an antipasto skewer?**
+
 A folded slice of salami, a cube or pearl of mozzarella or provolone, a marinated artichoke heart or olive, and a cherry tomato or roasted red pepper. Drizzle with olive oil and Italian herbs.
 
 **How do you keep salami on a skewer?**
+
 Fold each slice in half and then in half again into a quarter-circle, and pierce it through the center fold. Folded salami grips the skewer and looks like a little ruffle.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -106,7 +106,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 :::
 
 **Serving it:** feta is a fresh cheese, so take it out of the fridge 15 to 20 minutes before serving. Pat the block dry, cut it into cubes or break it into rough chunks, and finish with olive oil, oregano or honey.
-For what feta pairs with and how to serve it, see the [feta guide](/ingredients/feta/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Feta: pairings and serving tips](/ingredients/feta/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Feta questions</h2>
@@ -138,4 +138,3 @@ Pasteurized feta is generally considered safe. Check the label, and skip raw-mil
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

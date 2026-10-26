@@ -144,6 +144,7 @@ Why this order: [the right order to build a charcuterie board](/blog/build-seque
 :::
 
 **How much food do you need for a Christmas charcuterie board?**
+
 For a holiday party of 15–25 guests grazing over 2–3 hours, plan 3 oz each of cheese and meat per person, plus 10% from 20 guests up — this is a longer grazing event than a pre-dinner board. For 20 guests: about 4½ lb of cheese and 4¼ lb of meat across 4–5 types each. Add generous produce, crackers, and condiments to fill the board visually.
 
 **What cheeses work best on a Christmas charcuterie board?**
@@ -162,7 +163,9 @@ Skip niche cheeses for a big holiday crowd.
 No decorations needed: the food makes the colors.
 
 **What wines pair with a Christmas charcuterie board?**
+
 Sparkling wine (Champagne, Prosecco, Cava) works with everything on the board — acidity and bubbles cut through fat and cleanse the palate. For red, choose a Pinot Noir or lighter Gamay — big tannic reds overpower soft cheeses. Gewürztraminer and off-dry Riesling complement fruit elements and spiced meats. Mulled wine can be offered separately.
 
 **How far in advance can you build a Christmas charcuterie board?**
+
 Build up to 2 hours before guests arrive and refrigerate covered with plastic wrap. Pull out 45 minutes before serving for cheese to reach room temperature. Add crackers and bread immediately before serving — never in advance. For large events with multiple boards, stagger preparation so fresh boards replace empty ones rather than a single large board sitting out for hours.

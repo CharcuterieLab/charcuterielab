@@ -19,8 +19,9 @@ tags: "["best camembert", "camembert brands", "best camembert cheese", "camember
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Camembert is stronger and earthier than brie, and the right size to serve whole. No taste test has ranked US brands, so there are no star scores.
-*How we picked these: no published side-by-side taste test of grocery-store Camembert exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of soft-ripened cheese behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
+Camembert is stronger and earthier than brie, and the right size to serve whole.
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
 :::html
 <h2 id="picks">All 4 picks</h2>
@@ -74,7 +75,7 @@ Camembert is stronger and earthier than brie, and the right size to serve whole.
 - **How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten.
 - **Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
 
-For what Camembert pairs with and how to serve it, see the [Camembert guide](/ingredients/camembert/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Camembert: pairings and serving tips](/ingredients/camembert/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## How to choose
 
@@ -117,4 +118,3 @@ Old Chatham Creamery discontinued Nancy's Hudson Valley Camembert, so it's no lo
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

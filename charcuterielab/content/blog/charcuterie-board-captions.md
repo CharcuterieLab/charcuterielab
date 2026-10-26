@@ -89,4 +89,3 @@ Get the full plan for your next photo-ready board in the [Board Library](/boards
 
 Tag us when you use one. Your board might end up in the newsletter.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

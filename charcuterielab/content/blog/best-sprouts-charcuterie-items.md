@@ -20,7 +20,8 @@ tags: "["sprouts charcuterie", "sprouts cheese", "sprouts charcuterie board", "s
 :::
 
 Sprouts is best for the fruit, nut and cracker side of a board.
-*How we picked these: no one has published a side-by-side taste test of Sprouts charcuterie items yet, so this guide is not scored with stars like our other store guides. Instead it names the Sprouts products that reviewers and shoppers rate well, what each is good for and what to skip. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Store stock changes, so check your local store. Last checked October 2026.*
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We list what reviewers and shoppers rate well and what to skip. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock varies by store; checked October 2026.*
 
 :::html
 <h2 id="picks">All 6 picks</h2>
@@ -124,4 +125,3 @@ Yes. Its grain-free vegan cheddar crackers are a Tasting Table must-buy.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

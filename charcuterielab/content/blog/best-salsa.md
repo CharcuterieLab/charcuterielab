@@ -106,7 +106,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 :::
 
 **How much to buy:** about 2 to 3 tablespoons of salsa per guest, so a 16 oz jar covers 10 to 12 people. Once a jar is open, keep it in the fridge and follow the use-by time on the label. Fresh refrigerated salsa goes off faster than jarred.
-For what salsa pairs with and how to serve it, see the [tortilla chips guide](/ingredients/tortilla-chips/) and our [best tortilla chips ranking](/blog/best-tortilla-chips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Tortilla chips: pairings and serving tips](/ingredients/tortilla-chips/) · [Best tortilla chips](/blog/best-tortilla-chips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Salsa questions</h2>
@@ -138,4 +138,3 @@ About 2 to 3 tablespoons per guest, or a 16 oz jar for every 10 to 12 people.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

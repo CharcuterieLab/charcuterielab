@@ -119,4 +119,3 @@ For any of these, plan meat and cheese each at **2 oz per guest** before a meal,
 
 Share your result and tag the friend who got the opposite one.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

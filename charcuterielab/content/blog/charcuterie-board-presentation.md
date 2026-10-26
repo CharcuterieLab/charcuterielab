@@ -110,15 +110,19 @@ Charcuterie board presentation follows a sequence: cheese anchors first, condime
 That order gives you a board that looks full and planned, not piled.
 
 **How do you make a charcuterie board look full?**
+
 Use the board size that matches your quantity (a 10-inch board looks full with 4 oz of cheese; a 16-inch board with the same amount looks sparse), fill every visual gap with nuts, olives, dried fruit, or fresh herbs, and vary the height by folding meats and stacking crackers. The eye reads abundance from density and variety, not from raw quantity.
 
 **How do you fold meat for a charcuterie board?**
+
 Prosciutto: drape loosely in irregular folds rather than rolling into tight tubes. Salami: fold in half, then half again into quarters (creates a fan effect) or shingle in overlapping rows. Coppa: fold into loose rosettes or gentle waves. The goal is irregular, organic-looking placement — not geometric precision. Irregular folds look more abundant than neat arrangements.
 
 **Should cheese be sliced before putting on a charcuterie board?**
+
 Partially. Pre-cut two or three slices from each hard cheese and leave the rest intact — this signals to guests how to serve themselves and creates visual interest (the cut surface is more textured than the block exterior). Leave soft cheeses (brie, Camembert) whole with just a scored rind. Crumble blue cheese loosely rather than slicing.
 
 **What makes a charcuterie board look professional?**
+
 A few habits do it:
 
 - **Vary the height:** crackers standing up, meat folded, cheese at different levels.

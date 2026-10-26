@@ -20,7 +20,8 @@ tags: "["best havarti", "havarti brands", "best havarti cheese", "dill havarti",
 :::
 
 Havarti is the mild, buttery cheese almost every guest eats. Put it next to a sharp cheddar and a blue.
-*How we picked these: no published side-by-side taste test of grocery-store Havarti exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of mild semi-soft cheese behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
 :::html
 <h2 id="picks">All 4 picks</h2>
@@ -73,7 +74,7 @@ Havarti is the mild, buttery cheese almost every guest eats. Put it next to a sh
 - **How much to buy:** about 1 oz of Havarti per guest when it's one of three cheeses.
 - **How to serve it:** cut it cold, since it's soft, then let it sit out 20 to 30 minutes. It pairs well with apples, grapes, rye crackers, ham and a dry white wine.
 
-For what Havarti pairs with and how to serve it, see the [Havarti guide](/ingredients/havarti/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Havarti: pairings and serving tips](/ingredients/havarti/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## How to choose
 
@@ -112,4 +113,3 @@ It was first made in Denmark, but most Havarti sold in the US is made in Wiscons
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

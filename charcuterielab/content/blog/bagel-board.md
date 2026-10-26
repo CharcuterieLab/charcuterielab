@@ -81,12 +81,15 @@ Smoked salmon is perishable, so it's the last thing on the board and the first b
 ## FAQ
 
 **How many bagels do I need per person?**
+
 Plan 1 to 1½ regular bagels per guest, or 2 to 3 mini bagels. Slice them before serving so guests can take a half, which stretches the count further.
 
 **How much cream cheese for a bagel board?**
+
 About 2 tablespoons (1 oz) per bagel half that gets a schmear, so roughly 2 oz per guest. For 12 guests, buy about 1½ lb across two or three flavors.
 
 **How much lox or smoked salmon per person?**
+
 About 1½ to 2 oz of smoked salmon per guest when it's one of several toppings. For 12 guests, that is about 1½ lb.
 
 **What goes on a bagel board?**
@@ -98,6 +101,6 @@ About 1½ to 2 oz of smoked salmon per guest when it's one of several toppings. 
 - To make it more filling: hard-boiled eggs and bacon
 
 **Is a bagel board with lox safe for pregnant guests?**
+
 US and UK guidance advises pregnant people to avoid refrigerated smoked fish unless it is cooked until steaming hot. Offer a cooked option such as baked salmon or hot-smoked salmon heated through, plus eggs and plenty of other toppings.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

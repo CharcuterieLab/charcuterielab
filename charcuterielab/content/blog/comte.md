@@ -22,7 +22,9 @@ No two wheels taste the same: one bite can taste of fruit, nuts and brown butter
 
 Comté is produced exclusively in the Franche-Comté region of eastern France, primarily from milk produced by Montbéliarde and French Simmental cows grazed in the Jura mountains. The cows must be pasture-grazed in summer and fed exclusively on hay (no silage) in winter — the feed prohibition exists because silage fermentation produces compounds that interfere with Comté's flavor development.
 
-**Alpine terroir in the milk:** The diversity of plants in mountain pastures — dozens of grass species, wildflowers, herbs, and forbs — produces milk with a different fatty acid and aromatic compound profile than lowland dairy. Alpine grasses and herbs contain terpene compounds (geraniol, linalool, limonene) that are fat-soluble and transfer into the milk. These terpenes persist through the cheesemaking process and contribute to the herbal, floral, and hay notes in the finished cheese. This is the specific mechanism behind the concept of terroir in alpine cheese — it's not metaphorical. The mountain plants are chemically present in the paste.
+**The mountains are in the milk:** alpine pastures hold dozens of grasses, wildflowers and herbs. Their aromas are fat-soluble, so they pass into the milk and survive into the finished cheese.
+
+That's where Comté's herbal, floral and hay notes come from. When people say alpine cheese tastes of its place, they mean it literally.
 
 **Seasonal variation:** Summer-milk Comté (from June-September pasture grazing) consistently develops more complex fruity and floral notes. Winter-milk Comté (from hay feeding) tends toward nutty, toasted, and more restrained flavor profiles. Both are high-quality; they taste different because the milk is genuinely different.
 
@@ -54,7 +56,13 @@ Comté is aged for a minimum of 4 months, but most serious Comté available in s
 
 ## The Lab Section: Why These Pairings Work
 
-Comté develops its depth through enzymatic activity during its 4–24 months of cave aging. The copper vats used in production leave trace minerals that interact with the milk's lactic bacteria, producing the characteristic nutty and fruity esters that define aged Comté. The higher fat content of Montbéliarde milk contributes to creaminess that persists through aging — which is why Comté pairs so well with acidic accompaniments and tannic wines that cut through rich fat. Sweetness amplifies Comté's natural nuttiness through the salt-sweet pairing principle, while acid (dry white wine, pickled fruits) resets the palate between its complex, lingering bites.
+Comté gets its depth from 4 to 24 months of aging in caves. The copper vats it's made in help produce its nutty, fruity flavor, and the rich milk of Montbéliarde cows keeps it creamy as it ages.
+
+To pair it:
+
+- **Something sweet** (honey, fig jam) brings out the nuttiness.
+- **Something sour** (dry white wine, pickled fruit) resets your palate between rich bites.
+- **Tannic red wine** also cuts through its fat.
 
 ## How to Use Comté on a Board
 
@@ -106,10 +114,17 @@ Both are excellent board cheeses; on a board with space for one, Comté's broade
 ## FAQ
 
 **What's the difference between Comté and Gruyère?**
+
 Both are alpine-style cow's milk cheeses aged in mountain caves, but Comté (French) and Gruyère (Swiss) differ in milk source, aging climate, and flavor. Comté typically has a slightly sweeter, more floral and fruity character; Gruyère tends toward nuttier and earthier notes. Comté is aged longer on average (minimum 4 months, often 12–24 months) and produced in larger wheels.
+
 **Should I buy young or aged Comté for a charcuterie board?**
+
 For a board, 12–18 month Comté is the sweet spot. Young Comté (4–8 months) is mild and subtle — it works but lacks the complexity to hold its own against assertive meats and condiments. Very aged Comté (24+ months) is intensely complex and better as a featured cheese.
+
 **Can you eat the rind on Comté?**
+
 Comté's natural rind is edible but has a different, more intense and earthy flavor than the interior. Most people prefer the interior. The rind near the edge often has a slightly different flavor gradient — worth exploring if you enjoy the complexity of cave-aged rinds.
+
 **What wines pair best with Comté?**
+
 Comté's home is the Jura region of France, and the traditional pairing is Jura white wines — particularly Vin Jaune (oxidative, sherry-like) which matches Comté's nuttiness perfectly. More accessible pairings: white Burgundy (Chardonnay), dry Alsatian whites, or a medium-bodied Pinot Noir for red wine lovers.

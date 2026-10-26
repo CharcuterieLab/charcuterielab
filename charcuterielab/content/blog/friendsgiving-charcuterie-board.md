@@ -79,7 +79,13 @@ Put the board out when people arrive and clear it when dinner goes on the table.
 
 ## What it costs
 
-With grocery-store cheese, salami, crackers and fruit, plan on about **$4.50 to $7 per guest**. That's roughly $35 to $55 for 8 people, $55 to $85 for 12 and $100 to $150 for 20 (with the 10% extra). The meat and cheese are a little over half of it. Pepperoni or a store-brand salami, a block of cheddar and grapes keep you at the low end. Prosciutto di Parma, Gruyère and candied pecans push you to the top. For ways to cut the cost further, see the [budget charcuterie board](/blog/budget-charcuterie-board/).
+With grocery-store cheese, salami, crackers and fruit, plan on about **$4.50 to $7 per guest**:
+
+- **8 people:** about $35 to $55
+- **12 people:** about $55 to $85
+- **20 people:** about $100 to $150 (with the 10% extra)
+
+Meat and cheese are a little over half the cost. Pepperoni, store-brand salami, cheddar and grapes keep it low; prosciutto di Parma, Gruyère and candied pecans push it up. More ways to save: the [budget charcuterie board](/blog/budget-charcuterie-board/).
 
 ## Friendsgiving vs a Thanksgiving board
 
@@ -107,6 +113,7 @@ For the family version, see the [Thanksgiving charcuterie board](/blog/thanksgiv
 ## FAQ
 
 **How much charcuterie do you need for Friendsgiving?**
+
 Plan 2 oz of meat and 2 oz of cheese per guest, because dinner follows. That is 1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20, plus 6 to 8 crackers per person.
 
 **What goes on a Friendsgiving charcuterie board?**
@@ -117,12 +124,14 @@ Plan 2 oz of meat and 2 oz of cheese per guest, because dinner follows. That is 
 - **Extras:** candied pecans, fig jam or apple butter, and something tart like cornichons
 
 **Who should bring the charcuterie board to Friendsgiving?**
+
 Whoever takes it should bring the meat and cheese and do the build, because those are the expensive, timed parts. Crackers, fruit, nuts, jam and olives are easy to hand out to other guests on a sign-up list.
 
 **How do you transport a charcuterie board to Friendsgiving?**
+
 Do not build it at home. Pack the sliced cheese and meat in sealed containers in a cooler with ice packs, carry the crackers separately so they stay crisp, and build the board in 15 minutes when you arrive.
 
 **How much does a Friendsgiving charcuterie board cost?**
+
 About $4.50 to $7 per guest with grocery-store cheese, salami, crackers and fruit, so roughly $35 to $55 for 8 people and $55 to $85 for 12. Splitting the extras through a potluck list brings the host's share down.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -87,12 +87,15 @@ Take the cheese out of the fridge about 45 to 60 minutes ahead for aged cheeses 
 ## FAQ
 
 **What cheese goes best with bourbon?**
+
 Aged cheddar and aged Gouda are the safest bourbon cheeses, because their nutty, caramel flavors echo the vanilla and caramel from the new charred oak barrels bourbon is aged in. A creamy blue cheese is the bold choice: bourbon's sweetness softens the salt and bite.
 
 **What cheese goes with Scotch?**
+
 It depends on the style. Smoky, peated Islay Scotch stands up to strong blue cheeses like Stilton and Roquefort and to smoked cheese. Lighter, unpeated Highland and Speyside Scotch suits aged cheddar, Comté and Manchego.
 
 **What cheese goes with rye whiskey?**
+
 Rye is spicier and drier than bourbon, so it pairs with nutty Alpine cheeses like Gruyère and Comté, aged Gouda, and peppery salami.
 
 **What else goes on a whiskey and cheese board?**
@@ -106,6 +109,6 @@ Rye is spicier and drier than bourbon, so it pairs with nutty Alpine cheeses lik
 Put out water so guests can rinse and add a few drops to their whiskey.
 
 **How much whiskey do you pour for a tasting?**
+
 About ½ to 1 oz per whiskey for a tasting flight of 3, with water on the side. Small pours let guests compare without overdoing it.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

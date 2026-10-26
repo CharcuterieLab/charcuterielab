@@ -88,7 +88,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 :::
 
 **Serving it:** add pretzels at the last minute so they stay crisp, and tuck them near the mustard, beer cheese or honey mustard. They're a cheap way to fill gaps on a big board.
-For what pretzels pairs with and how to serve it, see the [pretzel crisps guide](/ingredients/pretzel-crisps/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pretzels: pairings and serving tips](/ingredients/pretzel-crisps/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pretzel questions</h2>
@@ -120,4 +120,3 @@ Last, just before guests arrive, so they don't pick up moisture from the cheese 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

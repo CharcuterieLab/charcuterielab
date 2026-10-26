@@ -95,20 +95,25 @@ Almonds add crunch, protein, and a visual texture break from the smooth meats an
 ### The sequence
 
 **Minutes 1–2: Setup**
+
 Place your small bowls on the board first — this anchors the zones. Put honey in one, almonds in another, and leave one empty for olives if you have them.
 
 **Minutes 3–6: Cheeses**
+
 Cut the cheddar into irregular chunks. Leave the Brie wheel whole (or slice it if it's not very ripe). Place the Havarti in thin slices, fanned slightly. Position the three cheeses at different corners or zones of the board, spread apart.
 
 **Minutes 7–10: Meats**
+
 Prosciutto: take individual slices and fold or drape them loosely — a gentle S-fold or a simple loose wave looks much better than flat-stacked slices. You want them to look abundant and imperfect.
 
 Salami: lay slices in a partial overlap cascade, or fold individual slices into halves and shingle them. Fill a gap between two cheese zones.
 
 **Minutes 11–13: Fruit and crackers**
+
 Place grape clusters to fill larger gaps near the cheese. Slice the apple (add lemon juice) and fan the slices near the cheddar. Fan water crackers into available spaces. Either stack buttery crackers near the Brie or create a separate basket alongside the board.
 
 **Minutes 14–15: Finish**
+
 Drizzle or spoon a small amount of honey over or near the cheddar. Add a sprig of fresh rosemary or thyme if you have it — this takes 30 seconds and has an outsized visual impact. Check for obvious large empty spaces and fill with crackers or grapes.
 
 You're done.
@@ -148,9 +153,11 @@ You're done.
 ## FAQ
 
 **What is the easiest charcuterie board to make?**
+
 A three-element board is the easiest: one cheese (aged cheddar or brie from any grocery store), one meat (pre-sliced prosciutto or salami), crackers, and one or two accompaniments from your pantry (grapes, olives, or honey). This assembles in under 10 minutes and requires no special skills or specialty ingredients. It's also genuinely delicious.
 
 **What do you need from a grocery store to make a quick charcuterie board?**
+
 Everything. A regular grocery store has it all:
 
 - **Deli:** sliced prosciutto and salami
@@ -159,12 +166,15 @@ Everything. A regular grocery store has it all:
 - **Produce:** grapes
 
 **How do you make a charcuterie board look good without a lot of effort?**
+
 Three principles: vary the height (stack some crackers, fold meats), group similar items in clusters rather than distributing evenly, and always add one fresh herb sprig (rosemary or thyme) for a polished touch. These three moves add apparent effort and visual structure without requiring significant time.
 
 **What are the best pre-made charcuterie shortcuts?**
+
 Pre-sliced charcuterie packs (prosciutto, salami, bresaola) eliminate slicing entirely. Pre-portioned cheese wedges require no knife work. Pre-washed grapes need only to be separated from the stem. A good-quality store-bought cracker selection eliminates the need for bread preparation. These shortcuts save 20–30 minutes without compromising quality.
 
 **Is there a formula for a foolproof easy charcuterie board?**
+
 Yes: one soft cheese + one firm cheese + one meat + crackers + one fresh fruit + one condiment. Arrange the cheeses first as anchors, add folded meat between them, fill gaps with crackers and fruit, add a small vessel of condiment, and scatter a few nuts to fill remaining space. This formula works at any scale, any budget, and any occasion.
 
 ---

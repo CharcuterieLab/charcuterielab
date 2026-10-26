@@ -85,4 +85,3 @@ Swap one familiar cheese for one from this list, not three. Put it next to its p
 
 Comment your number, and send this to the friend you would try the boldest one with. When you are ready to build, the [Pairings Hub](/pairings/) shows more matches for every cheese, and the [cheese guide](/blog/best-cheese-charcuterie-board/) helps you balance a board around a new one.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -110,18 +110,22 @@ With grocery-store cheese, salami and fruit, the charcuterie tree costs about **
 ## FAQ
 
 **How do you make a Christmas tree charcuterie board?**
+
 On a long rectangular board, build a triangle from the top down in rows that get wider: a cheese star at the top, then rows of cheese cubes, folded salami, green grapes and olives. Lay a zigzag of rosemary sprigs across the rows as garland, dot cherry tomatoes and pomegranate seeds as ornaments, and finish with a trunk of pretzel rods or a block of cheese.
 
 **How much food do you need for a Christmas tree board?**
+
 Before a holiday meal, plan 2 oz each of meat and cheese per guest: 1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20. If the tree is the main party food, plan 3 oz each per guest.
 
 **How do you make a Christmas tree veggie tray?**
+
 Lay broccoli florets in a triangle on a long platter as the tree, add cherry tomatoes and pepper pieces as ornaments, a zigzag of red or yellow pepper strips as garland, a yellow pepper star on top and celery or carrot sticks for the trunk. Scatter cauliflower around the base as snow and put a bowl of dip at the bottom.
 
 **What do you use for the star on a Christmas tree board?**
+
 Cut a star from a slice of yellow cheddar or gouda with a 2 to 3 inch cookie cutter, or cut one from a yellow bell pepper. A star-shaped cracker or a star cut from a slice of melon also works.
 
 **How far ahead can you make a Christmas tree charcuterie board?**
+
 Cube the cheese, cut the star, fold the meat and wash the fruit and vegetables the day before. Build the tree about 30 minutes before guests arrive and serve it within 2 hours.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

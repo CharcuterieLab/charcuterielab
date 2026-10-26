@@ -150,18 +150,23 @@ Not sure what goes with the cheese you bought? Look it up in the [Pairing Finder
 :::
 
 **What is the best cheese for a charcuterie board?**
+
 The best charcuterie boards include three cheese types working in combination: a soft, creamy cheese (brie, camembert, or chèvre), a semi-firm or aged cheese (aged cheddar, Gruyère, or Manchego), and a bold or distinctive cheese (Gorgonzola, Stilton, or Époisses). No single cheese is "best" — the combination creates the contrast that makes a board great.
 
 **What is the most crowd-pleasing cheese for a charcuterie board?**
+
 Aged cheddar is consistently the most universally liked cheese on any board. Its familiar flavor, firm texture, and availability at all grocery stores make it the safest crowd-pleaser. Brie is the second most crowd-pleasing — mild, creamy, and visually appealing. If you're uncertain about your audience, start with these two and add one more distinctive option.
 
 **Should I serve one cheese or multiple on a charcuterie board?**
+
 Multiple cheeses — specifically three to four — create the contrast and variety that defines a charcuterie board. One cheese is a cheese plate; three or four cheeses with distinct flavor profiles (mild, aged, bold) create the complete experience. Each cheese should serve a different role on the board.
 
 **What soft cheese goes on a charcuterie board?**
+
 Brie, camembert, chèvre (fresh goat cheese), burrata, and Brillat-Savarin are all excellent soft cheese options. Each brings creaminess and a mild flavor that contrasts with sharper, harder cheeses. Serve soft cheeses at room temperature — they're bland and waxy when cold.
 
 **How much cheese do I need per person for a charcuterie board?**
+
 Plan 2 oz of cheese per person when a meal follows, 3 oz when the board is the party food, and 4 oz when it's dinner. For a board with three cheeses, divide the total evenly: if serving 6 people, buy approximately 4 oz of each cheese (12 oz total), giving each person 2 oz across three varieties.
 
 > Get weekly cheese science and board-building technique in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

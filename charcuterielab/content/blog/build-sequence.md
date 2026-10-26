@@ -119,16 +119,21 @@ tags: "["build sequence", "charcuterie how to", "charcuterie board tips", "charc
 :::
 
 **Why does the order you build a charcuterie board matter?**
+
 Building in the right sequence prevents cramming and ensures every element gets enough space. If you place crackers first, you'll run out of room for cheese. If you place cheeses first, you establish anchors and can build organically around them. Sequence determines whether the board looks effortless or crowded.
 
 **What goes on a charcuterie board first?**
+
 Start with your largest elements: cheese blocks and small bowls. These are your anchors and they're hard to move once other food is around them. Once anchors are set, add folded or fanned meats, then fill gaps with crackers and smaller items like nuts, fruits, and garnishes last.
 
 **How do you prevent a charcuterie board from looking cluttered?**
+
 The number one rule is to leave small intentional gaps. A board that's about 80% covered looks abundant; one crammed edge to edge looks chaotic. Use odd numbers of elements (3 cheeses, 5 sections) — odd groupings feel more natural to the eye than even-numbered arrangements.
 
 **Should crackers go on the board or on a separate plate?**
+
 Both work. Keeping some crackers off-board (on a side plate or bowl) lets guests replenish the board without disrupting the visual. On a large board with space, crackers fanned in a section look beautiful and stay dry. On smaller boards, side crackers preserve visual space for other elements.
 
 **How long does it take to build a charcuterie board?**
+
 A simple board for 2–4 people: 10–15 minutes. A medium board for 6–8 people: 20–30 minutes. A large spread for a crowd: 45–60 minutes. The time investment drops significantly with practice — the first few boards take longer as you find your rhythm.

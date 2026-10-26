@@ -20,7 +20,8 @@ tags: "["best quince paste", "membrillo", "quince paste brands", "membrillo and 
 :::
 
 Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the great board pairings.
-*How we picked these: no published side-by-side taste test of quince paste brands exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of fruit paste behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
 :::html
 <h2 id="picks">All 4 picks</h2>
@@ -73,7 +74,7 @@ Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the
 - **How much to buy:** about ½ oz per guest. A 10 oz pack covers a board for 15 to 20.
 - **Storing it:** wrap the cut block tightly and keep it in the fridge. It lasts for weeks.
 
-For what quince paste pairs with and how to serve it, see the [membrillo guide](/ingredients/membrillo/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Quince paste: pairings and serving tips](/ingredients/membrillo/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## How to serve it
 
@@ -112,4 +113,3 @@ Near the specialty cheeses or at the cheese counter. Some stores keep it with th
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

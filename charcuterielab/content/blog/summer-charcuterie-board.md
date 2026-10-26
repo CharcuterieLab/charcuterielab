@@ -90,16 +90,21 @@ Summer charcuterie is about two things: leaning into stone fruit at its peak and
 ## FAQ
 
 **What cheese holds up best on a summer charcuterie board?**
+
 Aged hard cheeses hold up best in summer heat: Parmigiano-Reggiano, aged manchego, aged cheddar, and Gruyère all have low enough moisture content to hold their texture in the heat, while the 1-hour rule above 90°F still applies to the board. Avoid brie, camembert, and other soft-ripened cheeses outdoors in summer — they become runny and can reach unsafe temperatures within 90 minutes.
 
 **What meat goes on a summer charcuterie board?**
+
 Lighter, delicate cured meats are better in summer: bresaola (air-dried beef), prosciutto, and thinly sliced coppa. Avoid heavily spiced or smoked sausages in hot weather — they become greasy and the spice can overwhelm the lighter seasonal fruit elements on a summer board.
 
 **How long can a summer charcuterie board sit out?**
+
 In summer heat (above 75°F / 24°C), soft cheeses and cut fruit should not sit out longer than 90 minutes. If the party is outdoors in direct sun, reduce that to 60 minutes. Aged hard cheeses and whole cured meats hold for 2–3 hours even in summer conditions.
 
 **What fruit goes on a summer charcuterie board?**
+
 Stone fruits are summer's best contribution to a charcuterie board: sliced peaches, nectarines, and plums all pair well with aged cheese and cured meats. Fresh figs (when in season late summer), cherries, and watermelon chunks in small pieces also work well. The acidity in stone fruit cuts cured meat fat effectively.
 
 **What wine pairs with a summer charcuterie board?**
+
 Rosé is the natural summer pairing — it has enough acidity to cut fat, enough fruit to match summer stone fruits, and it serves well chilled. Albariño and dry Riesling are strong white wine alternatives. Avoid full-bodied tannic reds in summer heat — they taste heavier than they should.

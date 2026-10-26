@@ -86,7 +86,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <ul class="sk-checks"><li><strong>Look for:</strong> The DOP seal and the words &#x27;queso manchego&#x27;. The age matters most: semicurado is about 3 months, curado about 6, and viejo a year or more. Look for the zigzag basket-weave rind.</li><li class="sk-x"><strong>Skip:</strong> &#x27;Manchego-style&#x27; cheese that isn&#x27;t DOP. It is usually a mixed-milk cheese without the sheep&#x27;s milk richness.</li></ul>
 :::
 
-For what Manchego pairs with and how to serve it, see the [manchego guide](/ingredients/manchego/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Manchego: pairings and serving tips](/ingredients/manchego/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Manchego questions</h2>
@@ -114,4 +114,3 @@ Quince paste (membrillo), Marcona almonds, chorizo and a Spanish red like Tempra
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

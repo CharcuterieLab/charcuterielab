@@ -165,4 +165,3 @@ Usually in a specialty cheese case near produce or the deli, not in the dairy ai
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -160,14 +160,23 @@ Pull cheese from the refrigerator at least 30 minutes before serving (45–60 mi
 ## FAQ
 
 **What is the best way to store cheese?**
+
 Wrap cheese in parchment paper first (to allow the cheese to breathe), then loosely in plastic wrap or place in a zip-lock bag not fully sealed. Store in the warmest part of the refrigerator — the vegetable drawer or a dedicated cheese drawer — where humidity is higher and temperature is slightly warmer than the main compartment.
+
 **How long does cheese last in the refrigerator?**
+
 Hard cheeses (Parmigiano-Reggiano, aged Manchego, aged Gouda): 3–4 weeks, sometimes longer with proper wrapping. Semi-firm cheeses (cheddar, Gruyère, Fontina): 2–3 weeks. Soft ripened cheeses (brie, camembert): 1–2 weeks from purchase. Fresh cheeses (chèvre, ricotta, burrata): 5–7 days. Wrapping properly and minimizing air exposure at the cut surface extends all of these timelines.
+
 **Should you store different cheeses separately?**
+
 Yes. Store strong-smelling cheeses (washed-rind, blue) in sealed containers to prevent their aromas from transferring to other cheeses or food in the refrigerator. Even well-wrapped pungent cheese can "perfume" neighboring items over days. Mild and fresh cheeses are most susceptible to absorbing foreign flavors.
+
 **What is cheese paper and is it worth using?**
+
 Cheese paper is a wax-coated paper designed specifically for cheese storage — it allows moisture to escape (preventing sogginess) while preventing excessive drying. It's more effective than plastic wrap for semi-firm and hard cheeses and significantly better than foil. Dedicated cheese paper is worth buying if you purchase cheese frequently. Parchment paper is a good substitute; plastic wrap is the least ideal option.
+
 **How do you know when cheese has gone bad?**
+
 Signs to look for:
 
 - **Pink, black or green mold** where that color isn't part of the natural rind. On hard cheese, cut it away with a generous margin; some rind molds are normal.

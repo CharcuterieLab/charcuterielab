@@ -143,15 +143,19 @@ Wash all fruit well, including grapes and berries, before it goes on the board.
 :::
 
 **Can you eat salami while pregnant?**
+
 Not cold. The CDC advises pregnant people to avoid unheated deli meats and fermented or dry sausages such as salami and pepperoni, and to eat them only reheated to 165°F or until steaming hot. Baked pepperoni chips and pan-crisped salami are easy ways to keep them on the board.
 
 **Is prosciutto safe to eat when pregnant?**
+
 Cold prosciutto is a cured, ready-to-eat meat, so US and UK guidance both say to heat it until steaming hot first. Baking slices into prosciutto crisps at 400°F for 10 to 12 minutes is the simplest way to serve it.
 
 **Can pregnant women eat brie?**
+
 Guidance differs. The CDC focuses on avoiding cheese made with raw milk and queso fresco-type cheeses, and pasteurized brie is widely sold in the US. The NHS says brie, camembert and other white-rind cheeses should be cooked thoroughly. Baked brie served steaming hot meets both, and it is worth asking your own doctor or midwife.
 
 **What cheeses are safe during pregnancy?**
+
 Pasteurized hard and semi-firm cheeses such as cheddar and gouda, and pasteurized cream cheese, mozzarella, feta, string cheese and cottage cheese. Check the label for made with pasteurized milk, because Parmigiano-Reggiano, Comté, traditional Gruyère and some Manchego are made with raw milk.
 
 **What can a pregnant person eat on a charcuterie board?**
@@ -161,4 +165,3 @@ Pasteurized hard and semi-firm cheeses such as cheddar and gouda, and pasteurize
 
 Keep any cold cured meat on a separate plate with its own utensils.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -100,16 +100,21 @@ The two-category cracker rule is the simplest framework for getting crackers rig
 ## FAQ
 
 **How many different crackers should I put on a charcuterie board?**
+
 Two types is the practical standard: one neutral cracker (water crackers, plain flatbread) and one flavored or textured cracker (sesame, rosemary, multigrain, rye). One neutral cracker works with every element on the board. The flavored cracker adds a secondary register for guests who want more complexity. Three cracker types is the maximum before the board becomes a cracker display.
 
 **What crackers go best with soft cheese on a charcuterie board?**
+
 Thin water crackers or plain flatbreads are the strongest match for soft cheeses — they don't compete with the delicate flavor profile of brie, camembert, or chèvre. A cracker with rosemary or strong seasoning overwhelms soft cheese entirely. Keep the cracker neutral when the cheese is the star.
 
 **What crackers pair with aged hard cheese on a charcuterie board?**
+
 Aged hard cheeses (cheddar, Manchego, Parmigiano) can handle more assertive crackers — multigrain, seeded, or rye crispbreads all work well. The stronger flavor profile of aged cheese doesn't get lost next to a seeded cracker the way a soft cheese would. Rye crackers are particularly good with anything in the aged-and-bold register.
 
 **Should you put bread and crackers on the same charcuterie board?**
+
 Yes, but treat them as separate categories. Bread (sourdough baguette slices, focaccia) and crackers serve different functions — bread has a fermentation flavor that resonates with cured meats and aged cheese, while crackers provide a neutral or textured base. Include both if space allows; add bread in small batches since it dries out faster than crackers.
 
 **How much cracker per person on a charcuterie board?**
+
 6–8 cracker pieces per person as a starting quantity, assuming 2 oz each of cheese and meat per person before a meal (10–12 pieces if the board is the party food). Crackers are the most frequently replenished element on a board — keep reserve portions nearby and add them in small amounts rather than loading the full quantity upfront. Stale crackers from over-exposure are a common board problem.

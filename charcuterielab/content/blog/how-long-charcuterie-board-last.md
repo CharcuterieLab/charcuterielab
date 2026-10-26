@@ -107,12 +107,15 @@ Yes — with a clear distinction between what to prep and what to hold.
 ## FAQ
 
 **Can you refrigerate a half-eaten charcuterie board?**
+
 Yes — provided the board has not been out longer than 2 hours for soft items. Remove soft cheeses, fresh fruits, and cured meats from the board and store separately in covered containers in the refrigerator. Hard cheeses and shelf-stable items (honey, jam, nuts, dried fruit) can stay on the board covered with plastic wrap.
 
 **How long does a charcuterie board last in the refrigerator?**
+
 Assembled (covered): 24 hours before quality degrades. Individual components stored separately: hard cheeses 5–7 days; soft cheeses 3–5 days; sliced cured meats 3–5 days; fresh fruits 1–2 days (cut fruit browns).
 
 **Is it safe to eat cheese that's been out overnight?**
+
 Hard and aged cheeses left out overnight in a cool room may be safe to eat, but the quality has almost certainly degraded. Soft cheeses, fresh cheeses, and any item with high moisture should be discarded after 2 hours at room temperature.
 
 ---

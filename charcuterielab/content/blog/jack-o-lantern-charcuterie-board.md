@@ -90,19 +90,25 @@ Once it's out, keep it out for **no more than 2 hours**. For a long party, build
 ## FAQ
 
 **How do you make a pumpkin-shaped charcuterie board?**
+
 Outline a slightly squat circle with pretzel sticks on a round board, divide it into six or seven curved ribs with more pretzel sticks, and fill each rib with a different orange food: orange cheddar, Colby, Muenster or Gouda cubes, dried apricots and soppressata. Fill a carved face with black olives and blackberries, then add a stem of pretzel rods tied with twine.
 
 **How much food do you need for a Halloween board for 12 to 15 people?**
+
 When the board is the main appetizer, plan on about 3 pounds of cured meat and 4 pounds of cheese, plus fruit, crackers and olives. If it is one of several appetizers, cut everything by about a third.
 
 **How far ahead can you make a jack-o'-lantern charcuterie board?**
+
 Cut the cheese cubes and slice the meat the day before and keep them covered in the fridge. Lay the outline and the face about 2 hours before guests arrive, fill it in over the next hour, and add the stem last. Keep it out for no more than 2 hours.
 
 **What size board do you need?**
+
 For 12 to 15 guests, a 36 to 40 inch round board or a round table covered in butcher paper. The pumpkin itself is about 24 inches across, with a ring of grapes, crackers and meat around it. A small version for 6 to 8 fits on an 18 inch round board.
 
 **Is a jack-o'-lantern board kid-friendly?**
+
 Yes. Every bite can be picked up, the flavors are mild if you skip the hot salami and pepper jack, and kids can help fill the face with olives and blackberries.
 
 **Can you make it gluten-free?**
+
 Yes. Outline the pumpkin with carrot sticks instead of pretzels, make the stem from a bundle of celery, and serve gluten-free crackers. Check the labels on the cured meats.

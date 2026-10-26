@@ -97,7 +97,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 :::
 
 **Serving it:** spoon pesto over burrata or a log of fresh goat cheese, or put it in a small bowl with crostini. Keep refrigerated pesto cold until shortly before serving.
-For what pesto pairs with and how to serve it, see the [pesto guide](/ingredients/pesto/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pesto: pairings and serving tips](/ingredients/pesto/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pesto questions</h2>
@@ -129,4 +129,3 @@ Burrata, fresh mozzarella, cherry tomatoes, prosciutto and crostini.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

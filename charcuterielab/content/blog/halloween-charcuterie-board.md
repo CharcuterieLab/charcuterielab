@@ -93,16 +93,21 @@ A Halloween charcuterie board works when the food is genuinely excellent and the
 ## FAQ
 
 **What cheeses work on a Halloween charcuterie board?**
+
 Orange cheddar (sharp or extra sharp) and Manchego are the most visually on-theme hard cheeses — both read as orange or amber against a dark board. Aged gouda's amber rind works similarly. For softer white elements that contrast with the dark board, fresh chèvre or brie provide visual contrast. Skip blue-veined cheeses that clash with the Halloween palette visually.
 
 **What makes a good Halloween charcuterie board?**
+
 The edible palette does the work — orange cheddar, blackberries, dark olives, dark chocolate, orange-sliced dried apricots, and deep red salami create the Halloween color register without requiring any non-food decorations. A black slate or dark walnut board amplifies the effect. The food should be good; the spooky element comes from intentional color and arrangement.
 
 **What dark accompaniments work on a Halloween charcuterie board?**
+
 Blackberries, black olives (Kalamata or black niçoise), dark chocolate (70%+), black sesame crackers, and dried black mission figs all contribute to the dark register. Pomegranate arils add deep red. These aren't novelty choices — blackberries with aged cheddar, dark chocolate near triple-crème, and Kalamata olives near prosciutto are all legitimate flavor pairings.
 
 **Can kids eat from a Halloween charcuterie board?**
+
 Yes — the board is built from standard charcuterie elements with Halloween-themed colors and arrangement. Keep the dark chocolate to a small section, ensure there are crackers and mild elements for younger guests, and perhaps add a mild cheddar alongside the aged version. The board is visually themed but nutritionally identical to any other board.
 
 **What board surface is best for a Halloween charcuterie board?**
+
 A black slate board or a dark walnut board provides the highest visual contrast for the orange and black palette. Light wood or marble boards work but the effect is less dramatic. A slate board with orange cheddar, blackberries, and dark chocolate has immediate visual impact. If using a standard wood board, add butcher paper with a dark print underneath for effect.

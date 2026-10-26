@@ -151,4 +151,3 @@ Ready-made platters vary by store. Building your own from the cheese shop and ol
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

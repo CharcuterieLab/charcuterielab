@@ -68,7 +68,7 @@ Fresh mozzarella should be milky, bouncy and a little sweet. On a board it cools
 <ul class="sk-checks"><li><strong>Look for:</strong> Check the date and buy the freshest pack. Mozzarella packed in water keeps its texture best.</li><li class="sk-x"><strong>Skip:</strong> Low-moisture block mozzarella on a board. It&#x27;s for pizza, not for eating fresh.</li></ul>
 :::
 
-For what fresh mozzarella pairs with and how to serve it, see the [fresh mozzarella guide](/ingredients/fresh-mozzarella/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Fresh mozzarella: pairings and serving tips](/ingredients/fresh-mozzarella/) · [All buying guides](/blog/best-charcuterie-brands/)
 Choosing between mozzarella and burrata? See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/).
 
 :::html
@@ -97,4 +97,3 @@ No more than 2 hours, or 1 hour above 90°F.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

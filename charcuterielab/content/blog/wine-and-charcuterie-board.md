@@ -158,22 +158,29 @@ Already chose the wine? **Light red:** prosciutto or salami, aged Gouda or Manch
 :::
 
 **What wine goes best with a charcuterie board?**
+
 Sparkling wine is the most universally reliable choice — its acidity cuts fat, its bubbles cleanse the palate, and it works with almost every cheese and cured meat combination. If you prefer still wine, a light red like Pinot Noir or Gamay is the next safest call.
 
 **Does red wine go with charcuterie?**
+
 Light reds work well: Pinot Noir, Gamay (Beaujolais), and Barbera d'Asti have low-to-moderate tannins that complement rather than overwhelm cured meats and soft cheese. Avoid high-tannin reds like Cabernet Sauvignon and Barolo unless the board is built around aged hard cheeses that can stand up to them.
 
 **What white wine goes with charcuterie?**
+
 Crisp whites work best: Albariño, Grüner Veltliner, dry Riesling, and Chablis all have the acidity to cut through fat without competing with delicate cured meats. Avoid heavily oaked Chardonnay — the wood tannins clash with salt-cured meat in the same way red wine tannins do.
 
 **Does Champagne go with charcuterie?**
+
 Champagne and sparkling wine are the best pairing for a charcuterie board — arguably the best. Carbonation scrubs fat from the palate with each sip, the high acidity contrasts richness, and the yeasty brioche notes in Champagne complement aged cheese and cured meat simultaneously.
 
 **How do you pair wine when the board has many different items?**
+
 Choose a wine that works across the widest range of ingredients, not one that pairs perfectly with a single element. Sparkling wine, Pinot Noir, and Albariño are the three most flexible choices. Avoid wines with extreme tannins, extreme oak, or extreme sweetness — they fight at least half of what's on the board.
 
 **What wine pairs with prosciutto?**
+
 Prosciutto's delicate sweetness and soft fat pair best with light, crisp wines: Pinot Grigio, Prosecco, a dry Riesling, or a light Pinot Noir. The wine should be delicate enough not to overwhelm prosciutto's subtle flavor — the meat is delicate and requires a wine with similar restraint.
 
 **Can you serve both red and white wine with a charcuterie board?**
+
 Yes, and it's often the best approach for a diverse board. One sparkling or white for the fish, fresh cheese, and delicate meat elements; one medium-bodied red for the aged cheeses and stronger cured meats. Keep the whites chilled and have them available as an option rather than serving only one style.

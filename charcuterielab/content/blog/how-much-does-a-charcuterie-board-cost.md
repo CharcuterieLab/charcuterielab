@@ -110,18 +110,22 @@ If you're pricing boards to sell, start from your ingredient cost, then add pack
 ## FAQ
 
 **How much does a charcuterie board cost per person?**
+
 Making it yourself as an appetizer before a meal costs about $3 to $5 per guest on a budget, $5 to $8 for a standard board and $12 to $25 for a luxury board. When the board is the party food, plan about 1½ times that. Small charcuterie businesses typically charge about $11 to $16 per guest.
 
 **How much does a charcuterie board for 10 people cost?**
+
 A homemade standard board for 10 before a meal costs about $50 to $80, a budget board about $30 to $50 and a luxury board $120 to $250 or more. A catered board for 10 usually runs about $110 to $160.
 
 **Is it cheaper to make or buy a charcuterie board?**
+
 Making it is usually about half the price of buying one. A standard homemade board runs about $5 to $8 per guest, while small businesses charge about $11 to $16 per guest for boards and $12 to $15 or more per guest for grazing tables. The extra covers their labor, design, packaging and delivery.
 
 **Why are charcuterie boards so expensive?**
+
 Cheese and cured meat cost $10 to $40 or more a pound, and they make up most of the bill. Pre-sliced imported meats like prosciutto cost the most per ounce. Buying blocks and whole salami, using one splurge cheese and filling the rest with fruit, crackers and pickles brings the cost down.
 
 **How much should I charge for a charcuterie board?**
+
 Small businesses surveyed in fall 2026 mostly charged $11 to $16 per guest at their largest sizes, with small boards for 1 to 3 people closer to $20 per guest. Start from your ingredient cost, then add packaging, your time and delivery, and check what local makers charge.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

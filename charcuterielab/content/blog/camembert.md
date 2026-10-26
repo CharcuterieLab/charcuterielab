@@ -118,13 +118,17 @@ Calvados is the classic: it's apple brandy from the same region.
 :::
 
 **What's the difference between brie and camembert?**
+
 Both are bloomy-rind soft cheeses made from cow's milk, but camembert has a more pronounced earthy, mushroomy, and slightly funky character compared to brie's milder, more buttery flavor. Camembert is also typically sold as a small whole wheel (250g) rather than in larger wheels like brie. Authentic Camembert de Normandie (AOC) must be made from raw milk, giving it more complexity than pasteurized versions.
 
 **Should you eat camembert at room temperature?**
+
 Yes — always. Cold camembert is dense and bland. At room temperature (after 20–30 minutes out of the fridge), it softens to a creamy, flowing texture and its earthy, mushroomy aromas become fully expressive. Some people even warm camembert briefly in the oven (in the box) to create a fully molten interior.
 
 **How do you know when camembert is perfectly ripe?**
+
 Press gently on the top: a ripe camembert gives to the touch but doesn't collapse. When cut, the paste should be soft and creamy throughout — not chalky in the center (underripe) or fully liquid and running (overripe). The rind should be white to cream-colored; a reddish tinge or strong ammonia smell indicates past-peak ripeness.
 
 **Can you bake camembert?**
+
 Yes — baked camembert is a popular way to serve it on a board as a warm dip. Score the top, add honey and walnuts or garlic and rosemary, and bake in its box or a small ramekin at 375°F/190°C for 15–20 minutes until fully melted. Serve immediately with crusty bread.

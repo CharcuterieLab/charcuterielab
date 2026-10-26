@@ -161,4 +161,3 @@ In the first week of December. Holiday cut-off dates come early, and perishable 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

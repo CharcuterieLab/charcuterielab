@@ -123,18 +123,23 @@ Deli-sliced salami is treated like other deli meats: 3-5 days once opened, 2 wee
 :::
 
 **What is the difference between Genoa salami and hard salami?**
+
 Genoa is softer and moister, usually all pork, seasoned with garlic, pepper and often wine, with a light tang. Hard salami is drier and firmer, often pork and beef, often smoked, and milder.
 
 **What is hard salami?**
+
 Hard salami is an American deli-style salami. It's dried until firm, often made with pork and beef, often smoked, and mildly seasoned. The word hard describes its texture.
 
 **Which is better for a charcuterie board, Genoa or hard salami?**
+
 Genoa. It's softer, so it folds into half moons and rivers, and its garlic and wine flavor pairs with more cheeses. Hard salami is better for cracker stacks and kids' boards.
 
 **Which is better for sandwiches?**
+
 Both work. Genoa is the classic in an Italian sub. Hard salami stays firmer, has a milder flavor, and holds up better in a packed lunch.
 
 **Can I substitute hard salami for Genoa?**
+
 Yes. They're interchangeable in most recipes and on boards. Expect a firmer bite, a smokier and milder flavor, and less of Genoa's garlic and tang.
 
 > Get weekly charcuterie science (ingredient deep dives, pairing principles and board-building technique) in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

@@ -20,7 +20,8 @@ tags: "["best capicola", "best coppa", "capicola brands", "capocollo", "gabagool
 :::
 
 Capicola, capocollo, coppa and gabagool are the same cut. But deli "capicola" is often cooked, like ham. For a board, you want dry-cured.
-*How we picked these: no published side-by-side taste test of store-bought capicola exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of cured meat behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
+
+*How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
 :::html
 <h2 id="picks">All 4 picks</h2>
@@ -73,7 +74,7 @@ Capicola, capocollo, coppa and gabagool are the same cut. But deli "capicola" is
 - **How much to buy:** about 1 oz of coppa per guest when it's one of three meats.
 - **How to serve it:** fold or loosely ruffle the slices so the marbling shows. It pairs well with Manchego, provolone, figs, melon and a Chianti or Lambrusco.
 
-For what capicola pairs with and how to serve it, see the [coppa guide](/ingredients/coppa/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Capicola: pairings and serving tips](/ingredients/coppa/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## Cured coppa or cooked capicola?
 
@@ -114,4 +115,3 @@ Hot capicola is coated in red pepper or paprika. Sweet capicola isn't spicy.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

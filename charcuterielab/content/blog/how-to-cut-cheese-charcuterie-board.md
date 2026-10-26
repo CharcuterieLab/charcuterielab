@@ -119,18 +119,22 @@ Don't cut [burrata](/ingredients/burrata/) until it's on the board: set it whole
 ## FAQ
 
 **How do you cut cheese for a charcuterie board?**
+
 Cut it by shape and texture: leave soft wheels whole or cut a few pie wedges, slice semi-firm wedges like manchego into thin triangles, cut blocks into planks and then triangles, break hard aged cheese into rough chunks, and slice logs and blue cheese with a wire or dental floss. Cut it cold, then let it warm up before serving.
 
 **Should you cut cheese before putting it on a charcuterie board?**
+
 Cut about two-thirds of each cheese and leave the rest as a piece with its own knife. Pre-cut pieces get people started, the uncut piece shows what the cheese is and keeps it from drying out, and you can cut more as the board empties.
 
 **Should you cut cheese cold or at room temperature?**
+
 Cut it cold, straight from the fridge, because cold cheese cuts cleanly and holds its shape. Then let it sit out before serving: about 20 to 30 minutes for soft cheese, 30 to 45 for semi-firm and 45 to 60 for aged hard cheese.
 
 **Do you cut the rind off cheese for a charcuterie board?**
+
 Leave edible rinds on, such as the white rind on brie and camembert. Remove wax, cloth and hard inedible rinds, such as the coated rind on Manchego and the rind on Parmigiano-Reggiano, or cut the pieces so the rind end is easy to leave behind.
 
 **How far ahead can you cut cheese for a charcuterie board?**
+
 Up to 24 hours ahead. Wrap the cut pieces tightly in plastic wrap or wax paper, or pack them in an airtight container, and refrigerate. Leave soft cheeses whole until the day of the party, because cut faces dry out and lose their shape.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -88,7 +88,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 :::
 
 **Serving it:** pour chips into a bowl or a corner of the board right before guests arrive, and refill from the bag so they stay crisp. Pair them with French onion dip, pimento cheese, cheddar and summer sausage.
-For what kettle chips pairs with and how to serve it, see the [charcuterie board dips guide](/blog/charcuterie-board-dips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Kettle chips: pairings and serving tips](/blog/charcuterie-board-dips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Kettle chip questions</h2>
@@ -120,4 +120,3 @@ Utz Kettle Classics, according to Eat This, Not That. Always check the label for
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

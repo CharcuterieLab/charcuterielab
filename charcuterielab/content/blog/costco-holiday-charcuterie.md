@@ -135,4 +135,3 @@ No. US warehouses are closed on Thanksgiving (Thursday, November 26, 2026) and C
 
 For the year-round picks, see [the best Costco charcuterie items](/blog/best-costco-charcuterie-items/), and for amounts, the [Party Planner](/party-planner/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -126,4 +126,3 @@ Plan on 3 to 4 per guest. A 12 to 14 oz jar is enough for a board for 10 to 12 p
 
 For dill pickles, spears and pickle chips, see our [best pickles for a charcuterie board](/blog/best-pickles-for-charcuterie/). For what cornichons pair with, see the [cornichons ingredient guide](/ingredients/cornichons/). Every ranked guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

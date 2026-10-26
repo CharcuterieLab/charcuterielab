@@ -146,12 +146,15 @@ A kids charcuterie board works because the format itself — everything laid out
 Stick to foods kids already like, and skip strong cheeses, spicy meats and unfamiliar textures.
 
 **What cheese should you use on a kids charcuterie board?**
+
 Mild cheddar (cubed or sliced), string cheese (individual sticks kids can pull apart), mild gouda, fresh mozzarella pearls, and babybel rounds are all kid-approved. Avoid aged, strong, or funky cheeses — blue cheese, washed-rind, and aged parmesan are acquired tastes that most kids won't enjoy. The goal is familiar flavors in a fun format, not an introduction to complex cheese.
 
 **What makes a charcuterie board more appealing to kids?**
+
 Finger-food format and interactive presentation. Kids engage more with food they can touch, stack, and arrange themselves. Use cookie cutters to cut cheese and fruit into shapes. Include skewers or toothpicks so they can spear their own combinations. Use small cups or ramekins for dips. Make the presentation colorful — rainbow fruit arrangements, multiple bright colors, visually interesting shapes. The novelty of the format does most of the work.
 
 **What should you avoid on a kids charcuterie board?**
+
 Avoid:
 
 - **Strong cheeses:** blue, washed-rind, aged Parmesan
@@ -162,4 +165,5 @@ Avoid:
 - **Honey for babies under 1** (botulism risk)
 
 **How much food do you need for a kids charcuterie board?**
+
 For a kids snack board (not a meal replacement): 1–1.5oz cheese per child, 1oz meat per child, a small handful of crackers, a handful of fruit, and a small dip. For a board that replaces a meal: increase to 2oz cheese, 1.5oz meat, more crackers and fruit. Children eat less volume than adults — a kids board for 6 children uses roughly the same total food as an adult board for 3–4.

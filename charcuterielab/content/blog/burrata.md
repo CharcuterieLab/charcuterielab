@@ -84,6 +84,7 @@ Burrata is richer than fresh mozzarella because of the cream worked into its str
 Burrata's flavor profile — rich cream, mild fresh dairy, slight milky tang — calls for pairings that provide contrast without adding more richness.
 
 **The classic Italian combination:**
+
 Burrata with ripe heirloom tomatoes, fresh basil, and a drizzle of good extra-virgin olive oil is the definitive burrata pairing. On a board, a few cherry tomato halves or a slice of heirloom tomato placed adjacent to the burrata with a few basil leaves and an olive oil drizzle recreates this combination in board format.
 
 **Fruit pairings:**
@@ -138,13 +139,17 @@ Burrata with ripe heirloom tomatoes, fresh basil, and a drizzle of good extra-vi
 ## FAQ
 
 **What is inside burrata — is it raw?**
+
 The interior of burrata is a mixture of stracciatella (torn fresh mozzarella) and cream. It is not raw in the typical sense — it's fresh unaged cheese made from pasteurized milk. The interior is soft and liquid-like because of its high cream content, not because it's uncooked.
 
 **How long does burrata last?**
+
 Burrata is extremely perishable — it should be consumed within 24–48 hours of purchase. It's typically sold in its packaging liquid (whey or water) to preserve moisture. Once removed from the liquid, it should be served immediately. It does not store well once opened.
 
 **Can burrata be added to a board in advance?**
+
 No — burrata weeps liquid quickly once placed on a board and can make surrounding items soggy within 30–45 minutes. Add burrata to the board no more than 15–20 minutes before serving. Alternatively, serve it separately in its packaging liquid and let guests take what they want.
 
 **What's the difference between burrata and fresh mozzarella?**
+
 Fresh mozzarella is a solid ball of pulled curd cheese with a consistent elastic texture throughout. Burrata has a fresh mozzarella exterior shell but a creamy, liquid-like interior of stracciatella and cream. Burrata is richer and more indulgent; mozzarella is firmer and cleaner in flavor.

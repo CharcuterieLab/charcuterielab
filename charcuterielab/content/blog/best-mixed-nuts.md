@@ -92,7 +92,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 - **Nut allergies:** keep nuts in their own bowl with a separate spoon, and label them.
 
 See our [nut-free board guide](/dietary/nut-free/) if a guest is allergic.
-For what mixed nuts pairs with and how to serve it, see the [cashew guide](/ingredients/cashews/), and see the [best Marcona almonds](/blog/best-marcona-almonds/) for a Spanish-style board. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Cashews: pairings and serving tips](/ingredients/cashews/) · [Best Marcona almonds](/blog/best-marcona-almonds/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Mixed nut questions</h2>
@@ -124,4 +124,3 @@ Serve them in a separate bowl with their own spoon, keep them away from the chee
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

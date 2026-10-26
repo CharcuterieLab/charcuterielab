@@ -161,4 +161,3 @@ The Good & Gather Fig and Olive Mini Artisanal Crisps for soft cheese, and Good 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

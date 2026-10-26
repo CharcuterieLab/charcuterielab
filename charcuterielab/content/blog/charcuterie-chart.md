@@ -105,4 +105,3 @@ Keep perishable food out **no more than 2 hours**, or **1 hour above 90°F**, pe
 
 Pin the chart image, screenshot it, or send it to the friend who always asks "how much should I buy?" For a printable version, get the free [charcuterie cheat sheet](/downloads/charcuterie-cheat-sheet.pdf).
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

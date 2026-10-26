@@ -66,7 +66,13 @@ A turkey reads as a turkey because the feathers alternate warm colors. Aim for a
 
 ## Veggie tray turkey (great for kids)
 
-For a lighter or kid-friendly version, use the same layout with vegetables. Put a bowl of [ranch dip](/blog/best-ranch-dip/) or hummus in the body spot and fan out rows of baby carrots, yellow and orange pepper strips, cucumber rounds, cherry tomatoes, celery sticks and broccoli florets. Plan about 1 cup of cut vegetables and 2 tablespoons of dip per guest before dinner. Kids will eat more of the vegetables when they're arranged like a turkey, and it costs less than the charcuterie version.
+For a lighter or kid-friendly version, use the same layout with vegetables:
+
+- **Body:** a bowl of [ranch dip](/blog/best-ranch-dip/) or hummus
+- **Feathers:** rows of baby carrots, yellow and orange pepper strips, cucumber rounds, cherry tomatoes, celery and broccoli
+- **Amount:** about 1 cup of vegetables and 2 tablespoons of dip per guest before dinner
+
+Kids eat more vegetables when they look like a turkey, and it costs less than the charcuterie version.
 
 ## Make-ahead timing
 
@@ -92,18 +98,22 @@ With grocery-store cheddar, salami and fruit, a turkey board before dinner costs
 ## FAQ
 
 **How do you make a turkey charcuterie board?**
+
 Put a small round bowl or a pear half low in the center of a round board for the body. Fan rows of crackers, cheese slices, folded salami, grapes and dried apricots out behind it in arcs for the tail feathers. Add a round cracker or cheese slice for the head, two peppercorns or candy eyes, a cheddar triangle for the beak and a strip of red pepper for the wattle.
 
 **How much food do you need for a turkey charcuterie board?**
+
 Before Thanksgiving dinner, plan 2 oz each of meat and cheese per guest: 1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20. If the board is the main party food, plan 3 oz each per guest.
 
 **What size board do you need for a turkey board?**
+
 A 14 to 16 inch round board fits a turkey for about 8 guests before a meal. Use an 18 inch round board or a large round tray for 12, and for 20 guests build the turkey on a large tray and put extra crackers and cheese on a side board.
 
 **What can I use for the turkey's body?**
+
 A halved pear placed cut side down, a small round bowl of hummus or cheese dip, a mini cheese ball, or a small wheel of brie all work. Pick something round and brown or tan so it reads as the body.
 
 **Can you make a turkey charcuterie board the night before?**
+
 Cut the cheese, fold the salami and wash the fruit the night before, and store each in its own container. Build the turkey about 30 minutes before guests arrive so the crackers stay crisp, and serve it within 2 hours.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

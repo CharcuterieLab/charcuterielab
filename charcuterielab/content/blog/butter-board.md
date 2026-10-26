@@ -112,18 +112,22 @@ They work well together. Put a butter board at one end of the table and a [charc
 :::
 
 **How much butter do you need for a butter board?**
+
 Plan about 1 to 1½ tablespoons of butter per guest when it is one appetizer among others. That is half a stick to ¾ stick for 4 people, 1 to 1½ sticks for 8 and 1½ to 2 sticks for 12, with 2 to 3 pieces of bread per person.
 
 **What kind of butter is best for a butter board?**
+
 A good salted or cultured butter with a high fat content spreads best and tastes richest. European-style butters are a popular choice. Let it soften at room temperature for about 1 hour so it spreads without tearing.
 
 **How long can a butter board sit out?**
+
 Plain butter holds up well at room temperature, but once it is topped with herbs, garlic, cheese or fruit, follow the same rule as any board: no more than 2 hours out, or 1 hour above 90°F.
 
 **How do you keep a butter board sanitary?**
+
 Give guests a few small knives or spoons so nobody drags bread back and forth, or build small individual boards. Hosts who want no shared spreading can pipe the butter into small rosettes or spread it in separate ramekins.
 
 **What do you do with leftover butter board?**
+
 Scrape the butter and toppings into a small container, refrigerate it and use it within a few days on toast, vegetables, corn or steak. Any butter mixed with raw garlic should stay in the fridge.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

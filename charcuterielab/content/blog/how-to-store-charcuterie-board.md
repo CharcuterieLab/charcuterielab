@@ -111,7 +111,6 @@ The 3–4 day rule for leftovers is the [USDA's](https://www.fsis.usda.gov/food-
 - [FoodSafety.gov: FoodKeeper app (USDA storage times)](https://www.foodsafety.gov/keep-food-safe/foodkeeper-app)
 - [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)
 
-
 ## Related Reading
 
 - [Can You Freeze Cheese and Salami?](/blog/can-you-freeze-cheese/)
@@ -125,12 +124,15 @@ The 3–4 day rule for leftovers is the [USDA's](https://www.fsis.usda.gov/food-
 :::
 
 **How do you store leftover charcuterie board?**
+
 Separate each component before refrigerating — don't store the assembled board. Wrap cheese in parchment paper (not plastic wrap). Store cured meats in airtight containers or their original sealed packaging. Transfer fruit to a separate container. Most components keep 3–5 days refrigerated when stored separately.
 
 **Can you make a charcuterie board ahead of time?**
+
 Yes — with a strategic split. Prep components up to 24 hours ahead (cut hard cheese, fold meats, fill condiment bowls). Take hard cheese out 45–60 minutes before serving, assemble 20–30 minutes before, and add crackers and cut fruit last. The 2-hour limit for food left out counts from when it leaves the fridge.
 
 **How long does cheese last after a charcuterie board?**
+
 Cheese that sat out on the board is a leftover: use hard cheese within 3–5 days and soft cheese within 2.
 
 Cheese that never left the fridge keeps longer, wrapped in parchment:
@@ -142,16 +144,21 @@ Cheese that never left the fridge keeps longer, wrapped in parchment:
 Use parchment or wax paper, not plastic: plastic traps moisture and speeds up mold.
 
 **How do you store leftover prosciutto and other cured meats?**
+
 Reseal opened packages as tightly as possible or transfer to an airtight container. Slices that sat out on the board should be eaten within 3–4 days. Opened packages that stayed in the fridge keep 3–5 days. Whole cured meats (unsliced coppa, whole salami) keep 2–4 weeks refrigerated once the casing is opened. Don't freeze thin-sliced prosciutto — the texture degrades significantly.
 
 **Can you freeze leftover charcuterie board components?**
+
 Most cured meats freeze acceptably (2–3 months) though texture suffers on thawing for thin-sliced delicate cuts like prosciutto. Hard cheeses (Parmigiano, aged manchego) freeze reasonably well for 1–2 months though texture becomes slightly crumblier. Don't freeze soft cheeses — the fat structure breaks down on thawing and the cheese becomes watery.
 
 **How long do charcuterie board leftovers last in the refrigerator?**
+
 Hard cheeses last 3–5 days wrapped properly in parchment then plastic. Soft cheeses (brie, chèvre) are best within 2 days. Cured meats last 3–4 days in an airtight container. Fresh fruit and raw vegetables should be consumed within 1 day. Crackers don't refrigerate well — keep them at room temperature in a sealed bag.
 
 **What can you do with leftover charcuterie board ingredients?**
+
 Cured meats work well in scrambled eggs, pasta, or flatbreads. Leftover hard cheese (Parmigiano, cheddar) grates into pasta or soups. Soft cheese (chèvre, brie) spreads onto toast or melts into a simple sauce. Most leftover board elements translate well into a strong weekday breakfast or quick lunch without much additional effort.
 
 **Should you store different charcuterie items together?**
+
 No — store each element separately. Cheeses absorb odors from cured meats readily; a mild brie left in the same container as spicy salami will take on its flavors within hours. Condiments go back in their original jars. Crackers store separately from everything else at room temperature. Separation is the key rule for maximizing leftover quality.

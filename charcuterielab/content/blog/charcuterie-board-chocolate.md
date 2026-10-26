@@ -15,15 +15,15 @@ tags: "["charcuterie board chocolate", "charcuterie board", "cheese pairing"]"
 
 ## Why Dark Chocolate Works
 
-Chocolate's place on a charcuterie board is not decorative — it's a specific flavor pairing with a biochemical basis. High-cacao dark chocolate contains two relevant compound classes: cocoa tannins (primarily procyanidins and catechins) that bind to fat and protein in the mouth, and Maillard-derived bitter compounds (including theobromine) that create the characteristic dark chocolate bitterness.
+Chocolate belongs on a board for a real reason. Dark chocolate has tannins, the same drying compounds as red wine and tea, which cling to fat and protein in your mouth. It also has a natural bitterness that plays well against rich cheese.
 
 These compounds interact with aged and blue cheese in predictable ways:
 
 **Tannin-fat binding:** Dark chocolate's procyanidins bind to the fatty acids in aged cheese, creating a textural smoothing effect — the rough, grainy finish of aged cheddar or the crystalline bite of Parmigiano is softened by the tannin-fat interaction.
 
-**Cross-adaptation on the bitter axis:** Blue cheese and dark chocolate both produce bitter compounds during their production (methylketones from Penicillium and theobromine/caffeine from cacao). When tasted in rapid succession, exposure to one bitter compound reduces receptor sensitivity to the other. The result is that blue cheese eaten with dark chocolate seems smoother, and the chocolate seems less bitter — a mutual modulation effect.
+**Bitter cancels bitter:** blue cheese and dark chocolate are both a little bitter. Eat one right after the other and your tongue gets used to the bitterness, so the cheese tastes smoother and the chocolate less bitter.
 
-This is a real pairing logic, not just "chocolate tastes good." The mechanism is specific to dark chocolate and specific cheese types. Milk chocolate — with its high sugar and milk fat — does not produce the same interactions and competes with board condiments instead.
+It only works with dark chocolate and the right cheeses. Milk chocolate is too sweet and creamy; it just competes with the honey and jam.
 
 ## Which Chocolate to Choose
 
@@ -31,9 +31,9 @@ This is a real pairing logic, not just "chocolate tastes good." The mechanism is
 
 **Dark chocolate (85–99% cacao):** More intense, pairs specifically with very aged hard cheeses (Parmigiano, aged Manchego) and works for guests who want a more assertive pairing. Can be too bitter as a general board element.
 
-**Salt-and-dark chocolate:** The salt amplifies the bitter-fat pairing and echoes the board's cured meat salt register. A solid upgrade from plain dark.
+**Sea salt dark chocolate:** the salt matches the cured meat and makes the chocolate-and-cheese pairing pop. An easy upgrade from plain dark.
 
-**Chili-dark chocolate:** Capsaicin is lipophilic — it binds with cheese fat and creates the same heat-release-on-fat mechanism as spiced cured meats. Pairs specifically with aged cheddar. Not a universal board element.
+**Chili dark chocolate:** the heat melts into the cheese's fat, like spicy salami does. Best with aged cheddar; not for every board.
 
 **Milk chocolate:** Too sweet, too mild, competes with condiments, no tannin-pairing logic. Skip.
 
@@ -62,7 +62,7 @@ A small cluster of broken pieces in its own zone reads clearly as an intentional
 - **Blue cheese + dark chocolate + walnut:** The three-way bitter axis pairing. Works consistently.
 - **Aged cheddar + dark chocolate + dried cranberry:** The tannin-fat axis with a tartaric acid counterpoint from the cranberry.
 - **Aged gouda + salt-and-dark chocolate:** Butterscotch notes in the gouda against the amplified bitter-salt of the chocolate.
-- **Salami + dark chocolate:** Uncommon but functional — the Maillard notes in the cured meat resonate with the roasted cacao character.
+- **Salami and dark chocolate:** unusual but good: the savory, aged notes in salami match the roasted cocoa.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards with exact quantities and the science behind every pairing element.
 
@@ -82,16 +82,21 @@ Dark chocolate at 70%+ belongs on a charcuterie board as a specific, science-bac
 ## FAQ
 
 **What chocolate goes on a charcuterie board?**
+
 Dark chocolate at 70% cacao or higher is the standard. Its bitterness pairs on the fat axis with aged and blue cheeses; its tannins interact with cheese proteins. Milk chocolate is too sweet and competes with condiments. White chocolate has no cacao solids and no logical pairing partner on a traditional board. Use dark, broken into rough pieces rather than whole bars.
 
 **How much chocolate do you put on a charcuterie board?**
+
 2–4 small squares per person (about 0.5oz). Chocolate is a finishing element, not a main component — enough to provide the dark bitter contrast and a few pairing opportunities, not enough to become a candy board. Break a standard 3.5oz bar into rough pieces; that covers 6–8 people as a board element.
 
 **What cheese pairs best with dark chocolate on a charcuterie board?**
-Blue cheese is the classic pairing — both share Maillard-derived bitterness, and cross-adaptation reduces sensitivity to each other's bitter compounds. Aged cheddar and aged gouda also work well through the fat-tannin axis. Avoid mild fresh cheeses, which are overwhelmed by dark chocolate's intensity.
+
+Blue cheese is the classic pairing: both are a little bitter, and together each tastes smoother. Aged cheddar and aged Gouda work well too. Skip mild fresh cheeses; dark chocolate drowns them out.
 
 **Where do you put chocolate on a charcuterie board?**
+
 Position chocolate in its own small zone, ideally adjacent to the blue cheese and near dried fruit. Keep it away from soft, spreadable cheeses where it might get contaminated. Rough-broken pieces pile naturally and look intentional. A small cluster of 6–8 pieces is the right visual quantity for most boards.
 
 **Can you put flavored chocolate on a charcuterie board?**
+
 Salt-and-dark-chocolate works well — the salt amplifies the bitter-fat pairing with cheese and echoes the board's cured meat salt. Chili-dark chocolate pairs specifically with aged cheddar through a capsaicin-fat interaction. Avoid fruit-flavored chocolates, mint, or caramel chocolate — these compete with board condiments and produce flavor clashes.

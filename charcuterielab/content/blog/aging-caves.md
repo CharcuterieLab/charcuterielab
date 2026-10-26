@@ -135,10 +135,17 @@ A cave is not storage. It's an ecosystem with a specific microbial community, te
 ## FAQ
 
 **Why do caves create ideal aging conditions for cheese and charcuterie?**
+
 Natural caves maintain stable, cool temperatures (typically 50–60°F/10–15°C) and high humidity (85–95%) year-round — conditions nearly impossible to replicate consistently in modern climate-controlled environments. The stable temperature prevents the dramatic swings that accelerate undesirable mold growth and fat oxidation. High humidity prevents the surface from drying too quickly, allowing the interior to age evenly.
+
 **Which cheeses and cured meats are cave-aged?**
+
 Roquefort (Combalou caves, France), Mimolette (cave-aged by mites), Comté (mountain caves, Jura), and many traditional alpine cheeses require cave aging. Among cured meats, culatello (Po Valley fog cellars) and traditional Spanish Ibérico are aged in environments that mimic natural cave conditions — cool, humid, with specific airflow.
+
 **Can modern refrigeration replicate cave aging?**
+
 Partially — modern cheese caves (specialized humidity and temperature-controlled rooms) can approximate cave conditions and are used by artisan producers globally. But true cave-aged cheeses gain complexity from the specific microbial ecosystems present in particular caves, which vary by geography. This is why Roquefort can only be made in the Combalou caves — the specific Penicillium roqueforti strain naturally present there produces flavors that cannot be replicated elsewhere.
+
 **Does cave aging affect flavor in a way you can taste on a board?**
+
 Yes — cave-aged cheeses and cured meats have more complex, layered flavors than those aged in standard facilities. The diversity of microbial activity in cave environments produces a wider range of flavor compounds (esters, aldehydes, ketones) that create depth and nuance. Pairing cave-aged products on a board almost always produces a richer, more complex flavor experience than commodity-produced alternatives.

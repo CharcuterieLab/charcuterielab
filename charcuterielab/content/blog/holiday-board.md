@@ -129,12 +129,15 @@ Put crackers on at the last moment — no more than 30–45 minutes before servi
 ## FAQ
 
 **What makes a charcuterie board look festive for the holidays?**
+
 Color is the most powerful lever: red (pomegranate arils, cranberries, red grapes), green (rosemary sprigs, pistachios, green grapes, fresh herbs), and white (brie, fresh mozzarella, white cheddar). These colors read as festive without requiring any non-food elements. Shape matters too — arrange elements in a wreath, Christmas tree, or star pattern for social media impact.
 
 **What cheeses are best for a holiday charcuterie board?**
+
 Crowd-pleasing cheeses are the priority for holiday gatherings: aged cheddar (sharp, familiar), brie (indulgent, crowd-friendly), and Gruyère (nutty, melts well). For elegance, add Stilton or Gorgonzola. Avoid obscure or intensely pungent cheeses at large holiday gatherings where not all guests are adventurous eaters.
 
 **What seasonal ingredients belong on a holiday board?**
+
 Winter picks that look festive and go with charcuterie:
 
 - Pomegranate, red and green grapes, clementines, persimmon
@@ -143,7 +146,9 @@ Winter picks that look festive and go with charcuterie:
 - Rosemary sprigs to garnish
 
 **How do you make a charcuterie board for Christmas dinner as opposed to a cocktail party?**
+
 Dinner-adjacent boards serve smaller portions and function as an appetizer before the main course. Plan 2 oz each of cheese and meat per person, with lighter accompaniments. Cocktail party boards serve as the primary food, requiring 3 oz of each and more of the portions and greater variety to sustain guests for 2–3 hours.
 
 **How do you keep a holiday charcuterie board fresh at a long party?**
+
 Prepare two batches of perishables. Place the first batch at party start, then refresh the board at the halfway point by replenishing meats, soft cheeses, and fresh fruit. This keeps the board looking abundant and ensures food safety. Hard cheeses, nuts, and crackers hold well without replenishment.

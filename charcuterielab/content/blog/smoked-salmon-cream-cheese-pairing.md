@@ -93,16 +93,21 @@ updated: "2026-10-20"
 :::
 
 **Why does cream cheese go with smoked salmon?**
+
 Smoke flavor comes mostly from compounds (guaiacol and syringol) that dissolve in fat. Cream cheese's fat holds them and releases them gradually as you chew, so the smoke tastes rounder and lingers instead of hitting sharply. Its mild lactic tang and cool creaminess also temper the salt of the cure.
 
 **What type of smoked salmon is best for a charcuterie board?**
+
 Cold-smoked salmon (Nova or lox style) is the board standard — it has a silky, raw-textured flesh with a pronounced smoke character and is sliced paper-thin. Hot-smoked salmon is flakier and has a cooked texture; it works on boards but in a different role, placed in small clusters rather than draped in thin slices. Both are valid; cold-smoked is more elegant for a styled board.
 
 **What else goes with smoked salmon and cream cheese on a board?**
+
 Capers are essential: their briny, sharp bite resets the palate between rich bites. Paper-thin red onion adds a sharp crunch, lemon zest or a squeeze of lemon brightens the whole bite, and fresh dill is the classic herb. Everything crackers or plain bagel chips complete the New York deli format.
 
 **How do you serve smoked salmon on a charcuterie board?**
+
 Drape cold-smoked salmon in loose folds or ribbons so the individual slices are visible and accessible. Arrange cream cheese in a small mound or dollop beside the salmon, not spread on the board surface. Keep everything on a cold surface or near a cold pack — smoked salmon is perishable and should not sit at room temperature for more than 2 hours.
 
 **Is smoked salmon on a charcuterie board safe to eat?**
+
 Yes, if it is served within 2 hours at room temperature, or 1 hour above 90°F. Cold-smoked salmon is cured and smoked but not cooked, so it is more perishable than dry-cured meats: add it to the board last and take it off first. Pregnant guests should skip cold-smoked salmon unless it is cooked into a dish, because of the listeria risk.

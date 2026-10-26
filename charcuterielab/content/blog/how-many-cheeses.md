@@ -27,16 +27,19 @@ The soft/semi-firm/aged structure covers three distinct dimensions simultaneousl
 ## The Three Categories and Best Picks
 
 **Soft/Fresh/Spreadable (1 cheese):**
+
 Best picks: Brie, Camembert, fresh chèvre, burrata, ricotta, whipped cream cheese with additions. These serve as the entry point on the board — mild, approachable, works with sweet condiments.
 
 Quantity: 3–4 oz for 4–6 people. Soft cheeses look more generous than they are because of their spreading quality — a small amount goes a long way.
 
 **Semi-Firm (1 cheese):**
+
 Best picks: Gruyère, Comté (younger), Manchego (curado–semicurado), Gouda (young to medium), Fontina, Havarti. These slice cleanly, hold their shape, and represent the most universally appealing flavor range on the board.
 
 Quantity: 3–4 oz for 4–6 people.
 
 **Aged Hard (1 cheese):**
+
 Best picks: Aged Cheddar (12+ months), aged Gouda (18+ months), Parmigiano-Reggiano, Pecorino Romano, aged Manchego (viejo), Comté (18-month+). These provide the most intense flavor per bite and the most distinct visual texture (crystals, dry crumble). They're often the most memorable element for adventurous guests.
 
 Quantity: 2–3 oz for 4–6 people. Because the flavor is concentrated, portions are naturally smaller.
@@ -71,7 +74,6 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 *More board guides: [charcuterielab.com](https://charcuterielab.com)*  
 *Subscribe to the Charcuterie Lab Report: [charcuterie-lab-report.beehiiv.com](https://charcuterie-lab-report.beehiiv.com)*
 
-
 ## Related Reading
 
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
@@ -81,15 +83,19 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 ## FAQ
 
 **How many cheeses should be on a charcuterie board?**
+
 Three to four cheeses is the ideal number for most boards. This number provides sufficient variety — typically one soft, one semi-firm or aged, and one bold or distinctive — without overwhelming guests or creating competition between cheeses. Three cheeses is perfect for boards serving 4–8 people; four cheeses works well for 8–15 people or more formal gatherings.
 
 **Is two cheeses enough for a charcuterie board?**
+
 Two cheeses can work for a small board (2–4 people) or a budget-constrained board. The key is choosing cheeses with genuine contrast: one soft or mild (brie, chèvre) and one firm or bold (aged cheddar, Manchego). Two cheeses that are too similar in flavor profile will make the board feel incomplete.
 
 **Can you have too many cheeses on a charcuterie board?**
+
 Yes. More than five cheeses creates diminishing returns — guests can't engage thoughtfully with more than 4–5 options while grazing, and additional cheeses compete for attention rather than adding genuine variety. If you want to offer more cheese, run a formal cheese tasting alongside the board rather than adding more to the board itself.
 
 **What is the rule for choosing cheeses for a charcuterie board?**
+
 One cheese per type:
 
 - **Soft or fresh:** brie, burrata, chèvre
@@ -99,4 +105,5 @@ One cheese per type:
 If two cheeses do the same job, swap one for something different.
 
 **What order do you arrange cheeses on a charcuterie board?**
+
 Distribute cheeses around the board rather than clustering them together — this creates natural zones for guests to gather around and prevents crowding at one corner. Place the most visually striking cheese (a whole brie, a blue cheese with visible veining) at or near the center. Leave adequate space around each cheese for guests to cut without disturbing neighboring elements.

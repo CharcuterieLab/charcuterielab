@@ -162,4 +162,3 @@ Most of the cheeses here are regulars, but Trader Joe's rotates its cheese case 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

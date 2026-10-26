@@ -126,4 +126,3 @@ They keep much of the fiber and vitamins of fresh artichokes, but they're higher
 
 For what artichokes pair with, see the [marinated artichokes ingredient guide](/ingredients/marinated-artichokes/), and for an Italian spread, the [Italian antipasto board](/boards/italian-antipasto-board/). Every ranked guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -88,7 +88,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 :::
 
 **Serving it:** dairy dips should stay cold until guests arrive and come off the table after 2 hours. Put the dip in a bowl, not the tub, with ridged chips, pretzels, carrots and celery around it. For a quick upgrade, stir a spoonful of caramelized onions into any store-bought tub.
-For what French onion dip pairs with and how to serve it, see the [charcuterie board dips guide](/blog/charcuterie-board-dips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [French onion dip: pairings and serving tips](/blog/charcuterie-board-dips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">French onion dip questions</h2>
@@ -120,4 +120,3 @@ Ridged potato chips, pretzels, carrots, celery and cucumber.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

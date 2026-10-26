@@ -32,11 +32,11 @@ tags: "["crystal formation", "charcuterie science", "pairing science", "charcute
 |---|---|---|
 | Where | Inside the cheese, as flecks or clusters | On the surface or a cut face, as a white frost |
 | Feel | Hard and crunchy | Soft and powdery |
-| How they form | Aging breaks proteins down (proteolysis) and frees amino acids. Tyrosine doesn't dissolve well, so once there's enough of it, it crystallizes. | Bacteria make lactic acid, which joins with calcium and crystallizes at the surface. |
+| How they form | As cheese ages, its proteins break down into amino acids. One of them, tyrosine, doesn't dissolve well, so it forms crystals. | Bacteria make lactic acid, which joins with calcium and crystallizes at the surface. |
 | Typical cheeses | Parmigiano-Reggiano, aged Gouda, Gruyère, extra-sharp cheddar | Aged cheddar especially |
 | Safe? | Yes | Yes, and it's not mold |
 
-The crystals themselves taste of almost nothing. What they tell you is that the cheese is full of the free amino acids, glutamate among them, that give aged cheese its savory depth.
+The crystals themselves taste of almost nothing. What they tell you is that the cheese is full of the savory building blocks that give aged cheese its deep flavor.
 
 :::html
 <h2 id="aging">What crystals tell you about age</h2>
@@ -74,13 +74,17 @@ Older cheese is more intense because it has lost moisture and built up those sav
 :::
 
 **What are the white crystals in aged cheese?**
-The crunchy white deposits visible in aged hard cheeses are primarily tyrosine crystals — free amino acids that precipitate out of solution during extended aging as proteins break down through proteolysis. They're most common in well-aged cheeses like Parmigiano-Reggiano, aged Gouda, Gruyère, and extra-sharp cheddar.
+
+The crunchy white bits in aged hard cheese are mostly tyrosine crystals: an amino acid that forms crystals as the cheese's proteins break down with age. They're most common in Parmigiano-Reggiano, aged Gouda, Gruyère and extra-sharp cheddar.
 
 **Are the crystals in aged cheese safe to eat?**
+
 Yes — tyrosine crystals are completely safe and considered a positive indicator of cheese quality and age. They have a mild, pleasant crunch. Many cheese lovers actively seek out crystals as a sign of well-aged, complex cheese. The crystals themselves are largely flavorless but contribute to the textural experience of eating aged cheese.
 
 **Why do some aged cheeses have crystals and others don't?**
-Crystal formation depends on the degree and duration of proteolysis — the enzymatic breakdown of proteins that occurs during aging. Hard cheeses aged 18+ months with significant enzymatic activity tend to develop crystals; younger or softer cheeses don't. Environmental conditions (temperature, humidity, salt levels during aging) also influence whether and how readily crystals form.
+
+Crystals need time. Hard cheeses aged 18 months or more usually have them; young or soft cheeses don't. Temperature, humidity and salt during aging also play a part.
 
 **Do crystals affect pairing?**
+
 Crystalline cheeses pair slightly differently than non-crystalline ones — the crunchy texture adds a physical contrast dimension to pairings that goes beyond flavor alone. Smooth condiments (honey, jam) contrast particularly vividly with crystalline cheese; crunchy crackers create textural redundancy rather than contrast. Pair crystalline cheese with smooth, spreadable elements for maximum textural interest.

@@ -143,12 +143,15 @@ If you're serving a larger gathering, a dedicated olive bowl separate from the b
 ## FAQ
 
 **What drinks do you serve with a charcuterie board?**
+
 Wine is traditional: a crisp white (Sauvignon Blanc, Pinot Grigio) for lighter boards with fresh cheeses, a medium red (Pinot Noir, Grenache) for boards with bold aged cheeses, or sparkling wine (Champagne, Cava, Prosecco) as a universal pairing. Beer works equally well — Belgian saison, Pilsner, or a craft IPA alongside bold cheddar. For non-drinkers: sparkling water with lemon or herbal teas.
 
 **What bread goes with a charcuterie board?**
+
 Sliced baguette is the classic French accompaniment — neutral flavor, ideal texture, and easy to bite. Grissini (thin breadsticks) are Italian-style and add height to the board. Crostini (toasted baguette rounds) are sturdier and hold toppings without breaking. Focaccia adds pillowy texture. Choose based on the board's theme: French board gets baguette, Italian board gets grissini.
 
 **What sides complement a charcuterie board at a dinner party?**
+
 As an appetizer, the board stands alone. If it's the centerpiece of a bigger gathering, add one or two of these:
 
 - A simple green salad
@@ -158,9 +161,11 @@ As an appetizer, the board stands alone. If it's the centerpiece of a bigger gat
 - A crudités platter
 
 **What sweet elements should accompany a charcuterie board?**
+
 Honey (drizzled directly on cheese or served in a small bowl with a dipper), fig jam or quince paste (placed in small bowls), seasonal fruit (grapes, strawberries, sliced pears or apples), dried fruit (dates, apricots, dried figs), and dark chocolate. These sweet elements create the salt-sweet contrast that makes charcuterie so satisfying.
 
 **What are the best non-alcoholic drinks to serve with charcuterie?**
+
 Sparkling water (plain or lightly flavored) is the most effective non-alcoholic pairing — carbonation cuts fat just as wine acidity does. Kombucha with a vinegar-forward flavor works similarly. Shrubs (drinking vinegar concentrates) diluted with sparkling water are a sophisticated non-alcoholic option. Herbal or fruit teas served cold also complement charcuterie without competing with the food's flavors.
 
 ---

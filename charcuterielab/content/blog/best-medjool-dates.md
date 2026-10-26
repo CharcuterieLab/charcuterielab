@@ -126,4 +126,3 @@ Goat cheese or blue cheese with a smoked or Marcona almond is the classic. Wrap 
 
 For what dates pair with, see the [Medjool dates ingredient guide](/ingredients/medjool-dates/). Every ranked guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

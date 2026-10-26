@@ -88,7 +88,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 :::
 
 **Serving it:** set the bowl in a larger bowl of ice if it'll be out a while, and press plastic wrap onto the surface of leftovers to slow browning. Like any dip, it shouldn't sit out more than 2 hours, or 1 hour above 90°F. Plan on about 2 tablespoons per guest.
-For what store-bought guacamole pairs with and how to serve it, see the [best tortilla chips ranking](/blog/best-tortilla-chips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Store-bought guacamole: pairings and serving tips](/blog/best-tortilla-chips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Guacamole questions</h2>
@@ -120,4 +120,3 @@ No more than 2 hours, or 1 hour above 90°F. Set the bowl over ice to keep it co
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -88,7 +88,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 :::
 
 **Serving it:** cut sticks in half and stand them upright in a small cup or jar, or fan them across the board next to cheese cubes. One or two sticks per guest is plenty alongside other meats.
-For what meat sticks pairs with and how to serve it, see the [landjager guide](/ingredients/landjager/), the European cured stick, and our [kids' charcuterie board](/blog/charcuterie-board-for-kids/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Landjäger, the European cured stick](/ingredients/landjager/) · [Kids' charcuterie board](/blog/charcuterie-board-for-kids/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Meat stick questions</h2>
@@ -120,4 +120,3 @@ Mechanically separated chicken and long lists of fillers. Beef should be the fir
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

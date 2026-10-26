@@ -88,7 +88,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 :::
 
 **Serving it:** drain the pickles and pat them dry, then put them in a small bowl so the brine doesn't run into the crackers. Put them next to the salami, pâté or a rich cheese, where the sourness helps most.
-For what pickles pairs with and how to serve it, see the [cornichon guide](/ingredients/cornichons/) and [dill pickle guide](/ingredients/dill-pickles/). Want just cornichons? See [the best cornichons](/blog/best-cornichons/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Cornichons](/ingredients/cornichons/) and [dill pickles](/ingredients/dill-pickles/): pairings and serving tips · [Best cornichons](/blog/best-cornichons/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pickle questions</h2>
@@ -120,4 +120,3 @@ For crunch, yes. Refrigerated pickles like Claussen and Grillo's aren't heat-pro
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

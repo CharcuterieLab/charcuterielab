@@ -42,7 +42,12 @@ If the cocoa board is the only dessert, add 25% more dippers.
 - 1 tablespoon vanilla extract
 - ¼ teaspoon salt
 
-Whisk the cocoa, sugar, salt and about 2 cups of the milk in the slow cooker until smooth, then whisk in the rest of the milk and the chocolate chips. Cook on high for about 2 hours or on low for 3 to 4, whisking every 30 minutes, until it's steaming and the chocolate has melted. Stir in the vanilla and switch to warm. On the stovetop, the same recipe takes about 15 minutes over medium heat in a large pot; don't let it boil.
+1. Whisk the cocoa, sugar, salt and about 2 cups of the milk in the slow cooker until smooth.
+2. Whisk in the rest of the milk and the chocolate chips.
+3. Cook on high about 2 hours, or low 3 to 4 hours, whisking every 30 minutes, until steaming and melted.
+4. Stir in the vanilla and switch to warm.
+
+**On the stovetop:** the same recipe takes about 15 minutes over medium heat in a large pot. Don't let it boil.
 
 For 12 guests make 1½ batches, and for 20 make 2½ batches in two slow cookers. A good [dark chocolate](/blog/best-dark-chocolate/) in place of the chips makes the cocoa noticeably richer.
 
@@ -112,15 +117,18 @@ A hot cocoa board for 12 costs about **$25 to $40** with homemade cocoa and stor
 - **Setup:** hot chocolate in a slow cooker or carafe, plus mugs and spoons
 
 **How much hot chocolate do I need per person?**
+
 Plan 1½ mugs per guest, or about 12 oz of hot chocolate each. That is about 1 gallon of milk for 8 guests, 1½ gallons for 12 and 2½ gallons for 20, since kids usually come back for a second, smaller cup.
 
 **How do you keep hot chocolate warm for a party?**
+
 Make it in a slow cooker or move it there once it is hot, then keep it on the warm setting and stir every 30 minutes so a skin doesn't form. An insulated drink dispenser or a thermal carafe also holds it warm for a couple of hours.
 
 **Can you make a hot cocoa board ahead of time?**
+
 Yes. Fill the topping bowls and set out the dry dippers up to a few hours ahead and cover them. Start the hot chocolate in a slow cooker 2 to 3 hours ahead, or make it on the stove 30 minutes before guests arrive, and add whipped cream and any cold toppings last.
 
 **How do you make an adult hot chocolate board?**
+
 Set up the same board and add a small, clearly labeled adults-only tray with Irish cream, peppermint schnapps, coffee liqueur or bourbon, about 1 oz per mug. Keep it at the far end, away from the kids' side, and offer a non-alcoholic peppermint or caramel syrup too.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

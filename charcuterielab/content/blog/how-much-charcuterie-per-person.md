@@ -149,7 +149,6 @@ Build the foundation with the formula. Fill out the board generously with cracke
 
 **Not accounting for meat variety.** Splitting the total across two or three varieties is the right approach. Buying one variety at 3 oz per person leaves the board one-dimensional.
 
-
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) includes quantity tables and shopping lists for boards from 4 to 50+ guests.
 
 ## Related Reading
@@ -164,19 +163,25 @@ Build the foundation with the formula. Fill out the board generously with cracke
 ## FAQ
 
 **How much meat per person for a charcuterie board?**
+
 Plan 2 oz of cured meat per person for an appetizer before a meal, 3 oz if the board is the party food, and 4 oz if it's dinner. Across two or three meat varieties, that's about 1 oz of each per person.
 
 **How much cheese per person for a charcuterie board?**
+
 2 oz of cheese per person works for an appetizer board, 3 oz if the board is the party food, and 4 oz if it's dinner. Divide it across three cheeses: an 8 oz wedge covers about 12 people as one of three cheeses at appetizer amounts.
 
 **How much charcuterie do you need for 10 people?**
+
 For a cocktail board for 10: about 1¼ lb cured meat and 1½ lb cheese. For a party spread where it's the main food for 10: about 2 lb of each, plus crackers, fruit, nuts and spreads. See the full [plan for 10](/party-planner/charcuterie-board-for-10-people/) for amounts and a cost estimate.
 
 **How many crackers per person for a charcuterie board?**
+
 Plan 6–8 crackers per person for an appetizer board, 10–12 if the board is the party food, and 12–15 if it's dinner. A standard box holds roughly 30–40 crackers, enough for 4–6 people at appetizer amounts.
 
 **How do you calculate charcuterie for a large group?**
+
 Multiply the per-person amount by the number of guests, then add 10% from 20 guests up. For 20 guests at appetizer amounts: 20 × 2 oz = 40 oz (2½ lb) each of meat and cheese; with the buffer, about 2¾ lb of meat and 3 lb of cheese. Split the cheese across 3–4 varieties and the meat across 2–3.
 
 **How many meats and cheeses should be on a charcuterie board?**
+
 For most parties, 2–3 meats and 2–3 cheeses. From about 15 guests, go to 3 meats and 3–4 cheeses; for a grazing table of 30 or more, 4–5 of each.

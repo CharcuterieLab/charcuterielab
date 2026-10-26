@@ -238,4 +238,3 @@ Every product gets a score from 1 to 5 on five things, weighted into one overall
 
 Once you have your ingredients, the [Party Planner](/party-planner/) tells you how much to buy, the [Pairings Hub](/pairings/) shows what goes with what, and the [Board Library](/boards/) has full board plans to copy.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -158,4 +158,3 @@ Yes. Some cheeses, such as Klare Melk Raw Gouda with Truffle, are sold only at W
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

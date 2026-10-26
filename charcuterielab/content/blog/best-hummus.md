@@ -99,7 +99,7 @@ Hummus turns a board into a mezze spread. Tests disagree a lot, so we combined t
 - **Serving it:** scoop it into a shallow bowl, swirl the top with the back of a spoon, then add olive oil, paprika or za'atar. Serve it with pita chips, cucumbers and carrots, and keep it near the feta and olives.
 - **Mezze board idea:** see the [Mezze Board Plan](/printables/mezze-board-plan/) for a full hummus-centered board with a shopping list.
 
-For what hummus pairs with and how to serve it, see the [hummus guide](/ingredients/hummus/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Hummus: pairings and serving tips](/ingredients/hummus/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Hummus questions</h2>
@@ -131,4 +131,3 @@ No more than 2 hours, like other perishable food.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

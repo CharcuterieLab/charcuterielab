@@ -92,16 +92,21 @@ A New Year's Eve board is the occasion to build a great board and let the Champa
 ## FAQ
 
 **What do you put on a New Year's Eve charcuterie board?**
+
 A New Year's Eve board skews elegant and celebratory: aged Gruyère, aged cheddar, brie, prosciutto di Parma, truffle salami, smoked salmon, caviar or roe if budget allows, champagne grapes, marcona almonds, and dark chocolate. The flavor profile should pair with sparkling wine — lean toward umami-rich, fatty, and lightly acidic elements that make Champagne or Prosecco taste better.
 
 **What food pairs with Champagne on a New Year's Eve board?**
+
 Champagne pairs best with salty, umami-rich, and fatty foods. On a board: aged Parmigiano-Reggiano or Gruyère, prosciutto di Parma, smoked salmon with cream cheese, oyster crackers, salty roasted nuts, and aged cheddar. The high acidity in Champagne cuts through fat and salt, refreshing the palate — which is precisely what makes the pairing work. Avoid sweet elements that fight the wine's acidity.
 
 **What is a good New Year's Eve charcuterie board for two?**
+
 For two people, scale to one cheese per type (soft, semi-firm, aged), about 6 oz of meat total, and a focused selection of accompaniments — champagne grapes, marcona almonds, dark chocolate, and fig jam. Use a smaller 10–12" board. The two-person format is an opportunity to use one higher-quality ingredient (a proper Parmigiano aged 24+ months, or real prosciutto di Parma) that you might not buy in quantity for a crowd.
 
 **How do I make a New Year's Eve board look elegant?**
+
 Elegance on a board comes from restraint: fewer ingredients at higher quality, more deliberate spacing, and a monochromatic or two-color palette. Gold and dark accents (aged cheese, dark grapes, dark chocolate, gold-foil chocolates) read as celebratory. Use a slate or marble board rather than wood for a formal aesthetic. Label cheeses with small cards.
 
 **Can I make a New Year's Eve charcuterie board the night before?**
+
 Partially. Assemble hard components (nuts, chocolate, crackers) the night before. Prep cheese and meats the night before and store wrapped. Assemble the full board 1–2 hours before midnight, cover loosely, and refrigerate. Remove 30–45 minutes before serving. Add fresh grapes and any delicate garnishes at the last moment.

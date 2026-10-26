@@ -19,7 +19,7 @@ Pairing two high-fat ingredients usually risks richness fatigue — the palate g
 
 ## The Lab Section: Why These Pairings Work
 
-**Salivary priming:** Sodium chloride at the concentrations present in prosciutto (approximately 1,500–2,000mg per 100g in DOP products) is a potent salivary stimulant. Salivary flow is triggered by sodium in the oral cavity, and it begins before significant food breakdown has occurred. When prosciutto is eaten first in a bite, the salt initiates salivary flow that pre-wets the palate. When burrata's cream filling follows, the moisture-primed palate allows the cream to distribute more fluidly across receptor surfaces, producing a sensation of smoothness rather than heaviness.
+**Salt makes your mouth water:** prosciutto is salty, and salt starts saliva flowing almost instantly. When the burrata's cream follows, it spreads more easily across your tongue, so it tastes smooth instead of heavy.
 
 **Lactic acid bridging:** Burrata's outer shell is fresh mozzarella, produced through the same heat-stretch process as traditional mozzarella. This involves heating curd in acidified whey and stretching at approximately 80–90°C. The fresh cheese retains some residual lactic acid and acetic acid from the acidification process, which can produce a slight sharp edge. Prosciutto's sodium ions complete salt bridges with these acidic compounds, reducing their perceived sharpness and allowing the cream filling's mild, milky sweetness to come forward.
 
@@ -39,9 +39,9 @@ Pairing two high-fat ingredients usually risks richness fatigue — the palate g
 
 ## Variations Worth Trying
 
-**Add cherry tomatoes.** Tomato's glutamate synergizes with both burrata's milk proteins and prosciutto's sodium amplification, deepening the savory dimension. Halved cherry tomatoes at room temperature are the easiest execution.
+**Add cherry tomatoes.** Ripe tomatoes are naturally savory, which deepens the salty prosciutto and the milky cheese. Halve them and serve at room temperature.
 
-**Add fresh basil.** Basil's linalool is lipophilic and dissolves into burrata's cream fat, extending the aromatic experience. Tear leaves immediately before serving to minimize linalool oxidation.
+**Add fresh basil.** Basil's aroma dissolves into the cream, so every bite smells of it. Tear the leaves right before serving so they don't darken.
 
 **Add a drizzle of olive oil.** Olive oil's oleocanthal compounds interact with burrata's cream fat and extend aromatic release. This is the Italian tradition — light, good-quality olive oil over the broken burrata.
 
@@ -49,7 +49,7 @@ Pairing two high-fat ingredients usually risks richness fatigue — the palate g
 
 ## The Charcuterie Lab Takeaway
 
-Burrata and prosciutto is a fat-on-fat pairing held together by salt chemistry: salivary priming, lactic acid bridging, and salt-sweet contrast. The cured fat and cream fat resonate on a shared lipid axis rather than competing. Serve both at room temperature, drape prosciutto loosely, and let guests break the burrata open. The pairing scales from a simple two-ingredient board to the full Italian four (add tomato and basil) without losing coherence.
+Burrata and prosciutto are both rich, but the salt keeps them in balance: it makes your mouth water, brightens the cheese's mild tang and plays against its gentle sweetness. Serve both at room temperature, drape the prosciutto loosely, and let guests break the burrata open. Add tomato and basil for the full Italian version.
 
 ## Related Reading
 
@@ -61,16 +61,21 @@ Burrata and prosciutto is a fat-on-fat pairing held together by salt chemistry: 
 ## FAQ
 
 **Why does prosciutto pair so well with burrata?**
-Prosciutto's sodium triggers salivary flow that primes the palate for burrata's cream, bridges residual lactic acid in the fresh cheese shell, and creates a salt-sweet contrast loop with the burrata's mild sweetness. The cured fat and cream fat also resonate on a shared lipid axis, producing aromatic coherence rather than competing richness.
+
+The salt in prosciutto makes your mouth water, which makes the burrata's cream feel lighter. Salt also plays against the cheese's mild sweetness, so each tastes more vivid next to the other.
 
 **Should I use Prosciutto di Parma or San Daniele?**
+
 Both work well. Prosciutto di Parma has a cleaner, more neutral cure that lets burrata's delicate cream flavor lead. San Daniele is slightly sweeter and more delicate, which pairs particularly well with burrata's sweetness. Avoid prosciutto that is overly salty or aggressively dry-aged — it can overpower burrata's subtlety.
 
 **How should I plate burrata and prosciutto together?**
+
 Serve the burrata whole and allow guests to break it open — the visual of the cream spilling onto the board is part of the experience. Drape prosciutto slices loosely around the burrata rather than underneath it; flat-pressed prosciutto loses texture. Serve at room temperature: burrata 20–30 minutes out of refrigeration, prosciutto at ambient.
 
 **What temperature should burrata be when served?**
+
 Room temperature — remove from the refrigerator 20–30 minutes before serving. Cold burrata has dense cream that doesn't flow and suppressed fat volatility. At room temperature, the cream loosens to a pourable consistency and the aromatic compounds in the fat become more volatile and accessible.
 
 **What else can I add to burrata and prosciutto on a board?**
-Tomatoes add glutamate that synergizes with the salt amplification mechanism. Basil adds fat-miscible linalool that distributes through burrata's cream for aromatic extension. The full Italian four — burrata, prosciutto, tomato, basil — uses four simultaneous mechanisms and is one of the most complete board pairings available.
+
+Tomatoes add savory depth, and basil adds an aroma that spreads through the cream. Burrata, prosciutto, tomato and basil together is one of the best combinations on any board.

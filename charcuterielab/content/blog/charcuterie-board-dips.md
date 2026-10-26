@@ -22,26 +22,35 @@ The rule: every condiment on your board should have a specific job. If you can't
 ## The Three Essential Dips
 
 **Honey**
-Honey is the most versatile condiment on a charcuterie board. Its fructose and glucose provide sweetness that suppresses bitterness in aged rinds; its aromatic esters add complexity without competing; and it has almost no acidity to interfere with cheese flavor. It works with mild brie, sharp cheddar, salty blue cheese, and creamy triple-crème. If you're only putting one condiment on your board, make it honey. Drizzle a small amount over brie or place in a small bowl with a honey dipper.
+
+Honey is the most versatile thing you can put on a board. Its sweetness softens bitter rinds, and it has almost no acidity to clash with cheese.
+
+It works with mild brie, sharp cheddar, salty blue and creamy triple-crème. If you only add one condiment, make it honey: drizzle a little over brie, or set it out in a small bowl with a dipper.
 
 **Fig jam**
+
 Fig jam is the pairing-specific condiment. Its tannins (from the skin and seeds) bind directly to casein proteins in aged and blue cheeses, suppressing bitterness and amplifying the underlying sweetness of the milk. It also contributes fructose that creates cross-modal flavor synergy with glutamates in aged hard cheeses. Fig jam is not a universal condiment — it's best with aged cheddar, aged gouda, Manchego, Parmigiano, and blue cheeses. It competes with mild fresh cheeses and overwhelms delicate whites.
 
 **Grain mustard**
+
 Grain mustard is the meat-side condiment. Its acidity and sharp aromatic compounds cut through the fat in prosciutto, salami, and coppa, resetting the palate between bites. It works poorly with most cheeses but is essential for guests who want something to dip their meat into. Use whole-grain Dijon or a coarse French-style mustard — smooth yellow mustard reads as a hot dog condiment.
 
 ## Optional Dips That Work
 
 **Quince paste (membrillo)**
+
 The classic Spanish pairing for Manchego, but equally useful with other hard aged cheeses. Its high pectin content and concentrated fruit sweetness provide the same tannin-binding function as fig jam but with a drier, denser texture. Serve as a small block alongside the cheese, not spooned into a bowl.
 
 **Hot pepper jelly**
+
 Works specifically with sharp aged cheddar and on boards that lean toward a Southern or American theme. The capsaicin-fat interaction adds interest and the sweetness bridges the sharp cheese without suppressing its character. Use sparingly — too much and it overwhelms.
 
 **Pesto (for lighter boards)**
+
 On boards oriented around fresh cheeses, crudités, and lighter fare, a good basil or sun-dried tomato pesto gives guests a herb-forward dip option. Skip it on boards heavy with aged or funky cheeses — the strong green herb flavor competes.
 
 **Hummus**
+
 Works on vegetable-forward and lighter boards. Paired with crudités, pita chips, and mild cheese, it pulls its weight. On a traditional cured-meat board, it's incongruous.
 
 ## What to Skip
@@ -89,16 +98,21 @@ Every dip on your board should earn its place by serving a specific pairing func
 ## FAQ
 
 **What dips go on a charcuterie board?**
+
 Honey, fig jam, and grain mustard are the three essentials. Honey works with almost every cheese and acts as a sweet bridge between salty and rich elements. Fig jam pairs with aged and blue cheese. Grain mustard cuts through fatty meats. Beyond these three, add one optional dip that matches your board's theme.
 
 **How much dip do I put on a charcuterie board?**
+
 1–2 tablespoons per condiment per person is the standard. Use small bowls or ramekins rather than spreading condiments directly on the board — it keeps the board cleaner and lets guests control their own ratios. Two to three condiment bowls is the right number for most boards.
 
 **Is hummus good on a charcuterie board?**
+
 Hummus works well on boards oriented toward vegetables and lighter fare. It pairs with crudités, pita, and mild cheeses. On a traditional charcuterie board heavy with cured meats and aged cheese, hummus can feel incongruous — the chickpea flavor competes rather than complements. Use it when your board skews lighter or vegetarian.
 
 **Can I put ranch dressing on a charcuterie board?**
+
 Ranch works on boards that are casual and vegetable-forward — crudités, pepperoni, mild cheddar. It doesn't pair well with aged or funky cheeses, and the herb-dairy flavor competes with most cured meats. If you're serving a family or kids-friendly board, ranch is a practical choice. For a traditional charcuterie board, skip it.
 
 **What is the difference between using jam vs honey on a charcuterie board?**
+
 Honey is aromatic and sweet with no astringency — it works with nearly every cheese and acts as a soft bridge between flavors. Jam contains fruit tannins and pectin that specifically bind to cheese proteins, making it most effective with aged and blue cheeses where tannin-casein binding suppresses bitterness. Use both when possible.

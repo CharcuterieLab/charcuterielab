@@ -116,12 +116,15 @@ The Thanksgiving board succeeds when it's calibrated to its role: pre-dinner sus
 ## FAQ
 
 **How much food do you need for a Thanksgiving charcuterie board?**
+
 For a pre-dinner appetizer board serving 12–20 guests, plan 2 oz each of cheese and meat per person, less than a standalone board because Thanksgiving dinner follows. Total for 15 guests: roughly 25oz cheese and 20oz meat across 3–4 types each. Scale up if the board serves as dinner rather than a starter.
 
 **What cheeses work best on a Thanksgiving charcuterie board?**
+
 Aged cheddar (sharp, familiar, crowd-pleasing), a creamy brie or triple cream (contrasts the rich meal ahead), and an aged gouda with caramel notes (amplified by apple and pear accents). A mild blue like Gorgonzola dolce works well if your crowd tolerates it. Avoid intensely funky choices — the board competes with strong Thanksgiving flavors.
 
 **What meats pair with Thanksgiving flavors on a charcuterie board?**
+
 Prosciutto, coppa, and dry salami work well — they're lighter than heavy smoked meats and don't compete with turkey. A spiced salami like Calabrese adds warmth that echoes fall spices. Skip heavily smoked meats; the smoke flavor conflicts with traditional Thanksgiving side dishes and wines.
 
 **What fall fruits belong on a Thanksgiving board?**
@@ -134,4 +137,5 @@ Prosciutto, coppa, and dry salami work well — they're lighter than heavy smoke
 These go with the cheeses and with Thanksgiving wines like Pinot Noir, Riesling and Gewürztraminer.
 
 **Can you build a Thanksgiving charcuterie board ahead of time?**
+
 Yes — build up to 2 hours in advance and cover with plastic wrap. Keep refrigerated and pull out 30–45 minutes before serving so cheese reaches room temperature. Add crackers, bread, and any cut fruit (apple, pear) just before serving to prevent sogginess and browning. Dried fruits, nuts, and condiments can be placed during initial build.

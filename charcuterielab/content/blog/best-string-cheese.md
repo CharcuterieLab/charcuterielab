@@ -97,7 +97,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 :::
 
 **Serving it:** cut sticks into coins, peel them into strings for little kids, or wrap a slice of salami around each one. Two sticks per child is plenty with other food on the board. See our [kids' charcuterie board](/blog/charcuterie-board-for-kids/) for the rest of the spread.
-For what string cheese pairs with and how to serve it, see the [kids' charcuterie board](/blog/charcuterie-board-for-kids/) and the [fresh mozzarella guide](/ingredients/fresh-mozzarella/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Kids' charcuterie board](/blog/charcuterie-board-for-kids/) · [Fresh mozzarella guide](/ingredients/fresh-mozzarella/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">String cheese questions</h2>
@@ -129,4 +129,3 @@ No more than 2 hours, like the rest of the board.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

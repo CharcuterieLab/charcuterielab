@@ -77,7 +77,7 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 <ul class="sk-checks"><li><strong>Look for:</strong> Pork and beef, salt, paprika and spices. A long list with corn syrup or lots of additives is a sign of a lesser product.</li><li class="sk-x"><strong>Skip:</strong> Tiny pizza pepperoni for a board. It&#x27;s oily and gets lost next to the cheese.</li></ul>
 :::
 
-For what pepperoni pairs with and how to serve it, see the [pepperoni guide](/ingredients/pepperoni/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pepperoni: pairings and serving tips](/ingredients/pepperoni/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pepperoni questions</h2>
@@ -105,4 +105,3 @@ Fan large slices or cut a stick into coins. Fold them so they don't lie flat and
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -99,18 +99,22 @@ With grocery-store cheese, salami and fruit, a wreath before a meal costs about 
 ## FAQ
 
 **How do you make a charcuterie wreath?**
+
 Set a small bowl in the center of a round board, lay a ring of rosemary sprigs around it, then build a ring of cheese, folded salami, green grapes, olives and red fruit on top of the rosemary. Finish with a bow made from prosciutto or red pepper strips at the bottom.
 
 **How much charcuterie do you need for a Christmas wreath board?**
+
 Before a holiday meal, plan 2 oz each of meat and cheese per guest: 1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20. If the wreath is the main party food, plan 3 oz each per guest.
 
 **What size board do you need for a charcuterie wreath?**
+
 A 12 to 14 inch round board holds a wreath for about 8 guests before a meal. Use a 16 to 18 inch round board or a large round tray for 12 to 15, and two wreaths or a wreath plus a side board for 20.
 
 **Can you use real holly or pine on a charcuterie board?**
+
 Keep holly and mistletoe off the board, because their berries are poisonous. Use edible herbs such as rosemary, thyme and sage for the greenery instead, and keep decorative branches around the board rather than touching the food.
 
 **How far ahead can you make a charcuterie wreath?**
+
 Slice and cut the cheese, fold the meat and wash the fruit the day before. Lay the rosemary ring up to a few hours ahead, then add the food about 30 minutes before guests arrive and serve it within 2 hours.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

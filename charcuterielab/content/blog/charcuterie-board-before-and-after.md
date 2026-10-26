@@ -79,4 +79,3 @@ A board with color on every side looks planned, even if it took ten minutes. Con
 
 Build your board, take a "before" photo, restyle it with the seven rules and post both. Tag a friend who needs a glow-up. For a full layout you can copy, open any plan in the [Board Library](/boards/), and see the [10 board mistakes](/blog/charcuterie-board-mistakes/) to avoid.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

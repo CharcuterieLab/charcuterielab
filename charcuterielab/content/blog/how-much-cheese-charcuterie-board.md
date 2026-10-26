@@ -75,12 +75,15 @@ Reduce the aged hard cheese allocation by the blue cheese weight. Example: 10 gu
 Cheese cost at board quantities varies significantly by selection.
 
 **Lower cost per ounce ($0.50–0.80):**
+
 Sharp domestic cheddar, domestic brie, basic gouda, fresh mozzarella
 
 **Mid-range ($0.80–1.50):**
+
 Aged manchego, domestic Gruyère, imported provolone, bucheron, Gorgonzola dolce
 
 **Premium ($1.50–3.00+):**
+
 AOC Brie de Meaux, Roquefort AOC, Parmigiano-Reggiano DOP 24mo, aged Gruyère, Comté
 
 **Practical approach:** Budget for 1–2 premium cheeses (these become the flavor centerpieces) and use accessible, quality domestic options for the remaining selections. A board with one exceptional Comté and two solid domestic cheeses outperforms a board of three mediocre imports.
@@ -127,16 +130,25 @@ The cheese formula is 2 oz per person before a meal, 3 oz when the board is the 
 ## FAQ
 
 **How much cheese do you need per person for a charcuterie board?**
+
 2 oz per person when the board comes before a meal. 3 oz when the board is the party food. 4 oz when the board is dinner. These are weights of served cheese after any rind or inedible portions are removed. When in doubt, round up — leftover cheese is better than a sparse board.
 
 **How many types of cheese should be on a charcuterie board?**
+
 Three is the standard for most boards — one soft, one semi-firm, and one aged hard cheese. This covers the full textural and flavor range without overwhelming guests or creating redundancy. For a large board (15+ people), four cheeses adds one more profile (often a blue or a second soft option). Two cheeses work for mini boards (1–2 people). Five or more creates diminishing returns on variety.
 
 **How much does cheese cost for a charcuterie board?**
+
 Budget $8–15 per person on cheese for a quality board, depending on selections. Sharp cheddar and domestic brie are the most affordable quality options ($5–8 per 6oz wedge). Imported aged manchego, Gruyère, or AOC brie doubles the per-ounce cost. Jamón Ibérico or aged Parmigiano-Reggiano at board quantities can run $20+ for a single selection. Prioritize quality in 1–2 cheeses and use accessible, affordable options for the rest.
 
 **How do you calculate cheese for a large party?**
-Multiply your guest count by 2 oz before a meal or 3 oz as the party food, add 10% from 20 guests up, then divide across your cheese types. For 20 guests as the party food: 66 oz total, roughly 22 oz of each of three cheeses. Round to the nearest common package size (most cheese is sold in 6oz, 8oz, 10oz, or 1lb blocks). For 30+ guests, plan for 2 boards rather than scaling one board indefinitely — it's easier to manage and replenish.
+1. Multiply your guest count by **2 oz** before a meal, or **3 oz** as the party food.
+2. Add **10%** from 20 guests up.
+3. Divide by the number of cheeses.
+4. Round to package sizes (most cheese comes in 6 oz, 8 oz, 10 oz or 1 lb).
+
+Example: 20 guests as the party food is 66 oz, about 22 oz of each of three cheeses. For 30 or more guests, make two boards instead of one huge one.
 
 **Can you make too much cheese for a charcuterie board?**
+
 Practically speaking, no — leftover cheese is easy to use after the event. Excess cheese from a board can be rewrapped and refrigerated for up to a week (hard cheeses), 3–5 days (semi-firm), or 1–2 days (soft/fresh). The greater risk is under-buying and having a visually sparse board. Err toward more cheese, especially for soft cheeses that create visual abundance and cost less per ounce than aged selections.

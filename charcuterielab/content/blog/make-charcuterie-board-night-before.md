@@ -89,16 +89,21 @@ Don't build the whole board tonight: you'll get dry meat and soggy crackers. Abo
 :::
 
 **Can you make a charcuterie board the night before?**
+
 Partially. You can assemble the non-perishable elements the night before (crackers stored separately, nuts, dried fruit, hard cheeses in the refrigerator, condiment bowls covered). Cured meats can be folded and portioned the night before, but they go on the board the day of, with the soft cheeses, 20–30 minutes before serving. Crackers, fresh fruit and garnishes go on last, as guests arrive.
 
 **What charcuterie elements can be prepared the night before?**
+
 Safe to prep ahead: hard and semi-firm cheeses (cut and wrapped in parchment), condiments in small bowls (covered and refrigerated), nuts and dried fruit in bowls, and small prepared accompaniments like marinated olives. Store all refrigerated elements covered with plastic wrap. Take hard cheeses out 45–60 minutes before serving, and soft cheeses and cured meats 20–30 minutes before.
 
 **What should you never put on a charcuterie board the night before?**
+
 Crackers (they absorb moisture and go stale), fresh fruit (it oxidizes or dries out), soft cheeses with cut surfaces (they dry out and develop an unappetizing crust), and cured meats (they dry out and lose their visual appeal). These elements are best added on the day of serving, close to the event time.
 
 **How do you store a partially assembled charcuterie board overnight?**
+
 Cover the board tightly with plastic wrap and refrigerate. If the board is too large for the refrigerator, store components in separate containers and assemble on the board the day of the event. Take hard cheeses out 45–60 minutes before serving, and soft cheeses and cured meats 20–30 minutes before.
 
 **What is the best way to keep a charcuterie board fresh at a long event?**
+
 Build the board in two stages: initial setup with 60% of the food, and a refresh at the 1.5-hour mark with the remaining 40%. Store the reserve portion covered in the refrigerator. This approach keeps the board looking fresh and abundant throughout the event rather than starting full and becoming depleted and messy.

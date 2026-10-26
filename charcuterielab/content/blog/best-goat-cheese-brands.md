@@ -77,7 +77,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 <ul class="sk-checks"><li><strong>Look for:</strong> Fresh chèvre should smell clean and tangy, not sour. Check the date: fresh goat cheese is best within a couple of weeks.</li><li class="sk-x"><strong>Skip:</strong> Pre-crumbled goat cheese for a board. It dries out. Buy a log and roll it in herbs or honey yourself.</li></ul>
 :::
 
-For what goat cheese pairs with and how to serve it, see the [fresh chevre guide](/ingredients/fresh-chevre/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Goat cheese: pairings and serving tips](/ingredients/fresh-chevre/) · [All buying guides](/blog/best-charcuterie-brands/)
 Shopping at Safeway or Albertsons? Laura Chenel leads our [Safeway and Albertsons charcuterie guide](/blog/best-safeway-albertsons-charcuterie-items/).
 
 :::html
@@ -106,4 +106,3 @@ Fresh goat cheese needs 15 to 20 minutes out of the fridge.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

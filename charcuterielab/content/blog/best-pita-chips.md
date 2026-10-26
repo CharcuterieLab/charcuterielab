@@ -88,7 +88,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 :::
 
 **Serving it:** plan on 10 to 12 chips per guest when the board is the party food. Put them next to the dips, not under the cheese, and refill from the bag instead of piling them high so they stay crisp.
-For what pita chips pairs with and how to serve it, see the [pita chips guide](/ingredients/pita-chips/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Pita chips: pairings and serving tips](/ingredients/pita-chips/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pita chip questions</h2>
@@ -120,4 +120,3 @@ About 10 to 12 when the board is the party food, or 6 to 8 before a meal.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

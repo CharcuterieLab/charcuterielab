@@ -126,16 +126,21 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 ## FAQ
 
 **What blue cheese is best for a charcuterie board?**
+
 Gorgonzola dolce is the easiest blue for a board: creamy, mild and spreadable, so it wins over guests who think they don't like blue cheese. Stilton is balanced and crumbles neatly, which makes it the most versatile. Roquefort is sharper, saltier and more complex. Cambozola, a soft German blue with a bloomy rind, is the mildest of all.
 
 **What pairs best with blue cheese on a charcuterie board?**
+
 Honey is the classic partner, because sweetness tempers blue cheese's salt and sharpness. Figs, fresh or dried, do the same with extra texture. Pear adds juicy sweetness and a little acidity, walnuts add crunch and a slightly bitter edge, and prosciutto adds salty, savory depth. Keep crackers plain so they don't compete.
 
 **How much blue cheese should you put on a charcuterie board?**
+
 About 3 to 5 oz for a board serving 6 to 10 people when blue is one of three or four cheeses. That works out to roughly half an ounce per guest, out of the 2 oz of cheese per guest a full board needs. Blue is intense, so a little goes a long way. Place it away from mild cheeses like fresh chèvre or triple-crème.
 
 **Why does honey pair so well with blue cheese?**
+
 Sweetness tempers the saltiness and sharp, slightly bitter notes of blue cheese, so the creamy, savory flavors underneath come forward. Blue cheese gets its bite from fat and protein breaking down as it ages, and its signature aroma from methyl ketones made by the blue mold. Honey softens that intensity without hiding it, which is why the two taste better together than apart.
 
 **Can you put blue cheese on a board with guests who don't like it?**
+
 Yes. Put it at a corner or edge of the board so it reads as optional, and label it. Choose a mild, creamy blue like Gorgonzola dolce or Cambozola rather than Roquefort. Serve it with honey or honeycomb beside it: that pairing wins over a lot of doubters.

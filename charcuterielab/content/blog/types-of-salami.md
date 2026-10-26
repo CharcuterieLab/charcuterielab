@@ -125,18 +125,23 @@ Salami sliced for you at the deli counter counts as deli meat: use it within 3-5
 :::
 
 **What are the main types of salami?**
+
 The ones you'll see most are Genoa, American hard salami, soppressata, calabrese, finocchiona, felino, cacciatore, 'nduja and pepperoni, plus Spanish chorizo, salchichón and fuet and French saucisson sec.
 
 **What is the mildest salami?**
+
 Genoa, hard salami, felino, cacciatore, saucisson sec, fuet and salchichón are all mild. Genoa is the safest pick for a mixed crowd.
 
 **What is the spiciest salami?**
+
 'Nduja is the hottest common salami. Among sliceable ones, calabrese and hot soppressata are the spiciest, followed by hot chorizo and pepperoni.
 
 **Is chorizo a type of salami?**
+
 Spanish chorizo is a cured, dried, sliceable sausage seasoned with paprika, so it works like a salami on a board. Mexican chorizo is a fresh sausage that must be cooked, so it doesn't.
 
 **How many types of salami should I put on a board?**
+
 Two or three. Pick one mild, one spicy and one with a different flavor or shape, such as fennel-scented finocchiona or a thin, firm fuet.
 
 > Get weekly charcuterie science (ingredient deep dives, pairing principles and board-building technique) in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

@@ -77,7 +77,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 <ul class="sk-checks"><li><strong>Look for:</strong> Pork, salt, spices and wine or garlic. &#x27;Hot&#x27; or &#x27;piccante&#x27; means chili; &#x27;sweet&#x27; or &#x27;dolce&#x27; means no heat.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced soppressata in a tray that has curled at the edges. Buy a whole stick when you can.</li></ul>
 :::
 
-For what soppressata pairs with and how to serve it, see the [soppressata guide](/ingredients/soppressata/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Soppressata: pairings and serving tips](/ingredients/soppressata/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Soppressata questions</h2>
@@ -105,4 +105,3 @@ Provolone, fresh mozzarella, figs, honey and a red like Barbera or Lambrusco.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

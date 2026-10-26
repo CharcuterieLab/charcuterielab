@@ -81,16 +81,21 @@ tags: "["charcuterie board fruit", "charcuterie board", "board building"]"
 :::
 
 **What fruit goes best on a charcuterie board?**
+
 Grapes are the board standard — they stay fresh for hours, require no cutting, and pair with nearly every cheese and meat. Sliced pears and apple wedges are the strongest pairing fruit (malic acid contrast with aged cheese). Strawberries, blackberries, and fresh or dried figs round out the fruit section. Each adds distinct flavor logic, not just color.
 
 **Should you use fresh or dried fruit on a charcuterie board?**
+
 Both. Fresh fruit (grapes, berries, sliced pear) provides acidity, color, and textural contrast. Dried fruit (dried apricots, dried cranberries, dried figs) provides concentrated sweetness and a chewy textural element that fresh fruit doesn't. Using at least one of each gives the board more range.
 
 **How much fruit should be on a charcuterie board?**
+
 Fruit should cover approximately 15–20% of the board surface — present but not dominant. Grapes (a small cluster) plus one or two other fruit types is the standard. Over-loading with fruit makes the board look like a fruit platter with cheese; the fruit should accent the cheese and meat, not equal them in volume.
 
 **Where do you place fruit on a charcuterie board?**
+
 Place fruit adjacent to the cheeses it pairs with best — sliced pear or apple near aged cheddar or brie; grapes as fill across multiple sections; dried apricots near aged hard cheeses. Keep juicy fruit (strawberries, blackberries, halved figs) in their own zone or on the board edge — juice from cut fruit can accelerate soft cheese breakdown after 15 minutes of contact.
 
 **Can you put citrus on a charcuterie board?**
+
 Use citrus as a garnish and flavor accent rather than a primary fruit. Lemon slices near smoked salmon, thin orange slices as color accents, or small mandarin segments work well. Avoid placing whole-cut citrus directly against soft cheeses — the high acidity breaks down soft cheese faster than other fruit acids. A small ramekin of lemon wedges near smoked salmon is the practical citrus application.

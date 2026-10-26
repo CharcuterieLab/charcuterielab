@@ -86,7 +86,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <ul class="sk-checks"><li><strong>Look for:</strong> &#x27;pure honey&#x27; tells you little. Look for a single floral source and a named producer, and prefer raw.</li><li class="sk-x"><strong>Skip:</strong> Squeeze-bear honey on a nice board. It works, it just undoes the effort. Decant it into a small bowl.</li></ul>
 :::
 
-For what honey pairs with and how to serve it, see the [honey guide](/ingredients/honey/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Honey: pairings and serving tips](/ingredients/honey/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Honey questions</h2>
@@ -116,4 +116,3 @@ Yes, especially with salami, aged cheddar and fresh mozzarella. Tasting Table's 
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

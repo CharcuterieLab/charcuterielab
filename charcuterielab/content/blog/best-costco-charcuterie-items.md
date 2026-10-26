@@ -176,4 +176,3 @@ About 3 oz of cheese and 3 oz of meat per guest when the board is the party food
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

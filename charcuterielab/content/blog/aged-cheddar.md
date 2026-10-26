@@ -21,7 +21,9 @@ Most people slice cheddar into rectangles and stop there. Here's what makes it s
 
 ## What Is Aged Cheddar?
 
-Cheddar is a cow's milk cheese originating in the village of Cheddar in Somerset, England, where natural caves provided the consistent cool temperature ideal for long aging. The defining production step — the one that gives cheddar its name — is "cheddaring": after the curds are cut and cooked, they're stacked and repeatedly turned in blocks, compressing the structure and expelling additional whey. This step is what creates cheddar's characteristic dense, smooth texture and distinguishes it from other hard cow's milk cheeses.
+Cheddar is a cow's milk cheese from the village of Cheddar in Somerset, England, where caves stayed cool enough for long aging.
+
+The step that gives it its name is "cheddaring": after the curds are cut and cooked, they're stacked into blocks and turned again and again to press out whey. That's what makes cheddar dense and smooth.
 
 "Aged cheddar" typically refers to cheddar that has been matured for a minimum of 12 months, though the category spans from mild (2–4 months) through medium (4–12 months), sharp (1–3 years), extra-sharp or vintage (3–5 years), and clothbound aged (variable, typically 12–24+ months). For charcuterie purposes, sharp and extra-sharp are the most useful expressions.
 
@@ -134,18 +136,23 @@ For milder aged cheddar that slices cleanly, thin rectangular slices fanned on o
 ## FAQ
 
 **How long does aged cheddar last once opened?**
+
 Wrap aged cheddar in cheese paper or wax paper — never plastic wrap — and refrigerate. Properly wrapped, it stays at peak quality for 3–4 weeks. If surface mold appears on hard aged cheddar, cut 1 inch around and below the affected area and the rest is safe to eat.
 
 **What's the difference between sharp and extra-sharp cheddar for a board?**
+
 Sharp cheddar (1–2 years) is the all-purpose board choice: firm, tangy, and accessible to most guests. Extra-sharp or vintage cheddar (3–5 years) is more crumbly and crystalline with intense, complex flavor — better as a featured cheese when you want cheddar to be the centerpiece rather than a supporting element.
 
 **Should aged cheddar have a rind?**
+
 Vacuum-sealed aged cheddar has no natural rind. Clothbound cheddar develops a natural rind that is edible, though most people prefer the interior. The rind of clothbound cheddar has a more earthy, complex character that differs from the interior — worth trying.
 
 **Can you freeze aged cheddar?**
+
 You can freeze it, but the texture suffers — the fat and protein structure breaks down during freezing, making the cheese more crumbly and prone to moisture release when thawed. Use frozen cheddar in cooking rather than on a board. Fresh is always better for charcuterie use.
 
 **Why does my aged cheddar taste less sharp when cold?**
+
 Flavor compounds in aged cheddar — the free fatty acids and amino acids responsible for sharpness — are most volatile and aromatic at room temperature. Cold suppresses their activity. Pull aged cheddar from the fridge 30–45 minutes before serving for full flavor.
 
 ---

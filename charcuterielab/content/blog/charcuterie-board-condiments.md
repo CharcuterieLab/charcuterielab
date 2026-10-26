@@ -20,15 +20,11 @@ Condiments are what make the cheese and meat work together.
 
 Every condiment on a board fills one of five flavor roles. Build your selection so at least the first four are covered:
 
-**1. Sweet bridge** — connects savory cheese to sweet or neutral crackers, and moderates intensely flavored elements. *Filled by: fig jam, quince paste, honey, fruit compote.*
-
-**2. Acid cut** — cuts through fat and richness, refreshes the palate between bites. *Filled by: whole-grain mustard, Dijon mustard, cornichons, pickled grapes, caperberries.*
-
-**3. Savory amplifier** — deepens umami and adds salt complexity. *Filled by: olive tapenade, anchovy paste, miso mustard, aged balsamic.*
-
-**4. Aromatic accent** — adds herbal or spiced character that complements specific meats or cheeses. *Filled by: whole-grain mustard with herbs, spiced walnuts, Calabrian chile oil, rosemary honey.*
-
-**5. Textural contrast** — provides crunch or density where the board is otherwise soft. *Filled by: cornichons, olives, Marcona almonds, spiced nuts.*
+- **1. Sweet bridge:** connects savory cheese to sweet or neutral crackers, and moderates intensely flavored elements. *Filled by: fig jam, quince paste, honey, fruit compote.*
+- **2. Acid cut:** cuts through fat and richness, refreshes the palate between bites. *Filled by: whole-grain mustard, Dijon mustard, cornichons, pickled grapes, caperberries.*
+- **3. Savory amplifier:** deepens umami and adds salt complexity. *Filled by: olive tapenade, anchovy paste, miso mustard, aged balsamic.*
+- **4. Aromatic accent:** adds herbal or spiced character that complements specific meats or cheeses. *Filled by: whole-grain mustard with herbs, spiced walnuts, Calabrian chile oil, rosemary honey.*
+- **5. Textural contrast:** provides crunch or density where the board is otherwise soft. *Filled by: cornichons, olives, Marcona almonds, spiced nuts.*
 
 ## The Essential Condiments
 
@@ -44,15 +40,11 @@ Every condiment on a board fills one of five flavor roles. Build your selection 
 
 ## Optional Additions
 
-**Quince paste (membrillo)** — dense, sweet-tart, and traditional with manchego. A stronger flavor pairing than fig jam for hard Spanish cheeses.
-
-**Calabrian chile oil or nduja** — for boards that want a heat element. Place near the mildest cheese so guests can choose how much heat to add.
-
-**Olive tapenade** — savory amplifier for boards with a Mediterranean character.
-
-**Roasted garlic** — sweet, mellow, and deeply umami when roasted. Works with aged cheddar and crusty bread.
-
-**Spiced nuts** — toasted almonds or walnuts with rosemary and sea salt fill the textural contrast role while adding flavor complexity.
+- **Quince paste (membrillo):** dense, sweet-tart, and traditional with manchego. A stronger flavor pairing than fig jam for hard Spanish cheeses.
+- **Calabrian chile oil or nduja:** for boards that want a heat element. Place near the mildest cheese so guests can choose how much heat to add.
+- **Olive tapenade:** savory amplifier for boards with a Mediterranean character.
+- **Roasted garlic:** sweet, mellow, and deeply umami when roasted. Works with aged cheddar and crusty bread.
+- **Spiced nuts:** toasted almonds or walnuts with rosemary and sea salt fill the textural contrast role while adding flavor complexity.
 
 ## Placement Logic
 
@@ -97,16 +89,21 @@ Use three to five condiments, each with a clear flavor role: one mustard, one fr
 ## FAQ
 
 **What condiments should go on a charcuterie board?**
+
 The essential condiments are: whole-grain or Dijon mustard (acid and bite), fig jam or another fruit preserve (sweet bridge between cheese and meat), honey (suppresses bitterness, amplifies umami), and cornichons or olives (salt, acid, and textural contrast). These four cover the major flavor roles a condiment needs to fill on a board.
 
 **How many condiments should a charcuterie board have?**
+
 Three to five condiments is the right range. Two is too few — the board lacks bridges between its elements. Six or more creates visual noise and overwhelms guests with choices. Three to five, each with a clear pairing role, is enough to cover every element on the board.
 
 **Where do you put condiments on a charcuterie board?**
+
 Place condiments in small bowls or ramekins adjacent to the cheese or meat they pair with — not clustered together in one corner. Honey goes near blue cheese or aged cheese. Mustard goes near aged cheddar and cured meats. Fig jam goes in the center where it bridges multiple elements. Placement guides guests toward the right combinations.
 
 **What is the best jam for a charcuterie board?**
+
 Fig jam is the most versatile — its natural tannins and fruit sweetness bridge aged cheese and cured meat without competing with either. Quince paste (membrillo) is the second-best choice, especially with manchego or aged cheddar. Sour cherry jam works for boards with Brie or triple-crème. Avoid overly sweet jams that flatten the board's flavor range.
 
 **Do you need both mustard and jam on a charcuterie board?**
+
 Yes — they fill opposite roles. Mustard provides acidity and sharpness that cuts through fat and richness. Jam provides sweetness that bridges the board's savory elements. Boards without mustard feel heavy and monotonous. Boards without jam feel flat and one-dimensional. Both are necessary.

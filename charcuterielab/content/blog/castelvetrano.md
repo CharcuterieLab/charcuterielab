@@ -17,7 +17,12 @@ updated: "2026-10-05"
 
 ## What Is Castelvetrano?
 
-Castelvetrano olives come from the Belice Valley in western Sicily, where the Nocellara del Belice cultivar has been grown for centuries. What separates them from virtually every other table olive is the harvest timing and curing method: they're picked young, before full ripening, which preserves their natural chlorophyll and keeps them bright green. Most commercial olives undergo lye curing, which strips bitterness quickly but also flattens flavor. Castelvetrano olives are brine-cured, a slower process that maintains their delicate sweetness and produces the characteristic buttery texture that makes them so versatile.
+Castelvetrano olives come from the Belice Valley in western Sicily, from the Nocellara del Belice variety.
+
+Two things make them different:
+
+- **They're picked young**, before they ripen, which keeps them bright green.
+- **They're cured in brine**, not lye. Lye curing is fast but flattens flavor; brine keeps their gentle sweetness and buttery texture.
 
 The flavor profile is mild and clean — a gentle brininess, a hint of grassiness from the chlorophyll, and a meaty, yielding flesh that gives way easily. There's very little of the sharp, bitter punch you get from Kalamata or Nicoise varieties. That mildness is precisely what makes Castelvetrano the correct choice for a charcuterie board — they complement rather than compete.
 
@@ -107,13 +112,17 @@ Castelvetrano is the one olive that reliably converts guests who claim they don'
 ## FAQ
 
 **Why are Castelvetrano olives green when most table olives are black or dark?**
+
 Castelvetrano olives are harvested young, before they fully ripen and oxidize to dark colors. They're cured in brine (not lye, as many commercial olives are), which preserves their vibrant green color and natural mild flavor. The lack of full ripening and the gentler curing process are what give them their distinctive mellow sweetness rather than the stronger bitterness of most olive varieties.
 
 **How do Castelvetrano olives pair with wine?**
+
 Their mildness makes them unusually wine-friendly. They work with both whites and reds where many olive varieties would clash. Light to medium whites (Vermentino, Pinot Grigio) pair beautifully with their fresh, grassy note. Light reds (Barbera, light Chianti) work better than tannic heavyweights, which can amplify the olive's bitterness.
 
 **Do Castelvetrano olives have pits?**
+
 Most Castelvetrano olives sold for charcuterie boards are pitted for convenience. Pit-in olives have slightly more flavor (the pit prevents oxidation at the center) but require a discard bowl on the board. For board use, pitted versions are more practical and still excellent quality.
 
 **How long do Castelvetrano olives last in the fridge?**
+
 Once opened, keep them submerged in their brine and refrigerated. They stay at good quality for 2–3 weeks. The brine helps prevent oxidation and maintains their texture. Do not freeze — the texture becomes mealy after thawing.

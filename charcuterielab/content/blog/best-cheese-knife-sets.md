@@ -133,4 +133,3 @@ The Wüsthof Gourmet 4¾-inch plane won America's Test Kitchen's test of nine. T
 
 More gear: [the best charcuterie boards to buy](/blog/best-charcuterie-boards/). Every buying guide: [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

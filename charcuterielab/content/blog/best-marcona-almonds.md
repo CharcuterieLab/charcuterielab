@@ -59,7 +59,7 @@ Marcona almonds are the rich, round Spanish almonds fried in oil and salted. The
 <ul class="sk-checks"><li><strong>Look for:</strong> The oil they&#x27;re roasted in. Some use peanut oil, which matters for a guest with a peanut allergy.</li><li class="sk-x"><strong>Skip:</strong> Raw Marcona almonds for a board. The oil and salt are most of the appeal.</li></ul>
 :::
 
-For what Marcona almonds pairs with and how to serve it, see the [marcona almonds guide](/ingredients/marcona-almonds/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Marcona almonds: pairings and serving tips](/ingredients/marcona-almonds/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Marcona almonds questions</h2>
@@ -89,4 +89,3 @@ Manchego, chorizo, honey, dried apricots and dry sherry.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

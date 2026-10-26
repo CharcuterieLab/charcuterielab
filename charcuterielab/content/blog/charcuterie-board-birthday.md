@@ -111,25 +111,38 @@ A birthday board has one job the regular charcuterie board doesn't: it has to pr
 ## FAQ
 
 **How do you make a charcuterie board festive for a birthday?**
+
 The key is color and personal touches. Use the birthday person's favorite foods as anchors — their preferred cheese, meat, or fruit. Add visual celebration elements: fresh flowers (edible or as garnish), gold or silver picks in cheeses, a small arrangement of birthday-colored fruit. For a kids' birthday, include fun shapes cut from cheese and colorful fruit kabobs.
 
 **What size charcuterie board do I need for a birthday party?**
+
 For a birthday party where the board is the primary food: plan 3 oz each of cheese and meat per person, plus 10% from 20 guests up. For 20 guests, that's about 4½ lb of cheese and 4¼ lb of meat. Use multiple boards or a grazing table format for parties of 15+.
 
 **What is the best cheese for a birthday charcuterie board?**
+
 Choose universally loved cheeses to maximize enjoyment across age groups and preferences: aged cheddar (familiar, crowd-pleasing), brie (creamy, visually appealing), and Gruyère or Gouda (nutty, approachable). Save adventurous selections for a smaller, more curated event where you know your audience.
 
 **Can you make a birthday charcuterie board instead of a cake?**
+
 A charcuterie "cake" — a layered, round arrangement of cheese, meats, and accompaniments shaped like a cake — is a popular alternative for birthdays, especially for adults who don't want traditional cake. These are primarily decorative: they're assembled for photo and presentation purposes, then dismantled for guests to eat.
 
 **How far in advance can you build a birthday charcuterie board?**
+
 Build the non-perishable sections (crackers, nuts, dried fruit, chocolate) the day before and cover. Add cheeses 2–4 hours before the event. Add cured meats and fresh fruit 1 hour before. Do a final garnish pass 15 minutes before guests arrive. This approach prevents last-minute stress while keeping the board looking its best.
 
 ---
 
 ## The Takeaway
 
-A birthday charcuterie board is a crowd management problem as much as a food problem. Solve it with zones (accessible and interesting), with longevity-aware ingredient choices, and with a visual anchor that generates the first comment. Two oz each of meat and cheese per guest, three-cheese anchoring structure (soft + hard + bold), and a refresh strategy at 90 minutes. The goal is a board that works for everyone, stays impressive for hours, and earns its place in the party photos.
+A birthday board is about managing a crowd as much as food:
+
+- **Two zones:** a familiar side and a more interesting side.
+- **Food that lasts** for a few hours out.
+- **One showpiece** that gets people talking.
+- **Amounts:** 2 oz each of meat and cheese per guest, with a soft, a hard and a bold cheese.
+- **Refresh** the board at 90 minutes.
+
+The goal is a board that works for everyone and still looks good in the party photos.
 
 ---
 

@@ -127,26 +127,34 @@ Guests seeing coppa for the first time often ask what it is, so have the answer 
 :::
 
 **What is coppa exactly — is it the same as capicola?**
+
 Yes — coppa and capicola (or capocollo) are the same product under different regional names. "Coppa" is common in northern Italy; "capicola" is standard in southern Italy and in Italian-American tradition. The name derives from *capo* (head) and *collo* (neck), referring to the head and neck muscle from which it's made. The New Jersey/New York deli pronunciation "gabagool" is a regional Americanization of "capocollo."
 
 **What does coppa taste like?**
+
 Sweet, rich and gently nutty, with black pepper and a little wine in the sweet (dolce) style. Spicy coppa adds Calabrian chili heat that builds slowly.
 
 **Is coppa raw?**
+
 It isn't cooked, but it is fully dry-cured with salt and air-dried for months, so it's ready to eat sliced thin, like prosciutto or salami.
 
 **What's the difference between coppa and prosciutto?**
+
 Coppa is the neck and shoulder, marbled all the way through and seasoned with pepper and wine. Prosciutto is the leg, cured with salt only, with a fat cap along one edge.
 
 **How do you pronounce coppa?**
+
 KOH-pah. Capicola is kah-pee-KOH-lah, and capocollo is kah-poh-KOH-loh.
 
 **How is coppa different from salami?**
+
 Salami is a fermented and dried sausage made from minced or ground meat stuffed into a casing. Coppa is whole-muscle — the entire neck and shoulder muscle is cured and dried intact. This means coppa shows visible muscle grain and marbling rather than the uniform interior of salami. The flavor of coppa is more nuanced and less heavily spiced; salami has more fermentation character and acidity.
 
 **How do you slice coppa for a board?**
+
 Coppa is sliced thin — 1.5–2 mm — on a slicer or by hand with a sharp knife. The cross-section should show the marbled fat and muscle clearly. For board presentation, fan the slices or fold them into rosettes. The marbling shows beautifully in the rosette layering.
 
 **What's the shelf life of coppa once opened?**
+
 Once a package is opened, wrap it tightly in wax paper and refrigerate. Sliced coppa is best within 3–5 days, like other opened deli meat; a whole piece keeps 2–4 weeks once cut. The fat can turn slightly rancid-tasting with long air exposure — wax paper breathes better than plastic without drying out the surface.
 

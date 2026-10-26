@@ -85,16 +85,21 @@ Bread isn't decoration. It carries the cheese and meat, so pick it for what sits
 :::
 
 **What is the best bread for a charcuterie board?**
+
 Sliced sourdough baguette is the most versatile choice — its crust holds up under toppings, its fermentation notes complement cured meats, and its neutral flavor doesn't compete with bold cheeses. For a board with varied elements, a baguette covers most situations. Focaccia works as a secondary option when you want something softer.
 
 **Should you use crackers or bread on a charcuterie board?**
+
 Both — they serve different functions. Crackers are neutral and structural, best under mild cheeses and meats where you don't want the base to add flavor. Bread adds fermentation complexity, is better for spreadable elements like nduja or brie, and provides textural contrast. A board with only one or the other is missing something.
 
 **How much bread do you need for a charcuterie board?**
+
 Plan 3–4 slices of bread or 6–8 crackers per person for an appetizer board. Bread and crackers disappear faster than guests expect — keep extras nearby and replenish rather than over-piling at the start, as crackers go soft within 30 minutes on a board.
 
 **Can you use toasted bread on a charcuterie board?**
+
 Yes — lightly toasted bread holds up better under spreadable toppings like brie or nduja, and the toasting adds a subtle caramelization that complements aged cheeses. Do not over-toast; hard, crunchy toast slabs are difficult to eat with toppings. Aim for lightly golden, not brittle.
 
 **What bread should you avoid on a charcuterie board?**
+
 Avoid soft sandwich bread — it has no structural integrity and becomes soggy immediately under any topping. Avoid heavily flavored artisan breads (sun-dried tomato, olive, herb-heavy) unless you're building around those specific flavors. These compete with the board's cheeses and meats rather than supporting them.

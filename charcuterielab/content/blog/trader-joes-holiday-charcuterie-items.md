@@ -143,4 +143,3 @@ Some. Cranberry Chèvre can be frozen but turns crumbly after thawing. Brie en C
 
 For the year-round list, see [what to buy at Trader Joe's for a charcuterie board](/blog/best-trader-joes-charcuterie-items/), and for the holidays, our [Christmas charcuterie board ideas](/holidays/christmas/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

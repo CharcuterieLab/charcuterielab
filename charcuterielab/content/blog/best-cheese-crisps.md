@@ -119,4 +119,3 @@ Reseal the bag right away; they soften in humid air. Homemade crisps are best th
 
 For more crackers, see [the best gluten-free crackers](/blog/best-gluten-free-crackers/) and [the best crackers for charcuterie](/blog/best-crackers-for-charcuterie/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

@@ -175,12 +175,15 @@ A good tag turns a pile of groceries into a board. Include:
 ## FAQ
 
 **What do you put in a charcuterie gift basket?**
+
 A whole dry salami, one or two cheeses, crackers, a jam or honey, nuts, olives or cornichons and a mustard, with dark chocolate as a finish. A cheese knife or a small wooden board makes a gift that lasts after the food is gone.
 
 **Does a charcuterie gift basket need to be refrigerated?**
+
 Most of it does not. Whole, unopened dry salami, crackers, jams, honey, nuts, jarred olives, mustard and chocolate are shelf-stable. Cheese and sliced or opened meat need to stay cold, so add the cheese right before you hand it over and tie on a tag that says to refrigerate it.
 
 **How long does a whole salami last unrefrigerated?**
+
 USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard salami keeps about 6 weeks in the pantry and indefinitely in the refrigerator. Once it is opened or sliced, keep it in the fridge and use it within 3 weeks.
 
 **How much does a DIY charcuterie gift basket cost?**
@@ -189,6 +192,6 @@ USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard s
 - **Luxury box, about $95 to $130:** adds a wooden board and cheese knives
 
 **Can you ship a charcuterie gift basket?**
+
 Ship the shelf-stable items any way you like. If it includes cheese, use an insulated mailer with frozen gel packs, ship overnight early in the week so it does not sit in a warehouse over a weekend, and tell the recipient it is coming. Otherwise send the shelf-stable box with a note to add their favorite cheese.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

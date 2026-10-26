@@ -22,7 +22,9 @@ Bresaola della Valtellina is an IGP (Indicazione Geografica Protetta) product fr
 
 Outside the IGP designation, bresaola-style products are produced in other regions and countries — these are generally acceptable for charcuterie board purposes, though the depth and balance of flavor in authentic Valtellina production is difficult to replicate.
 
-**Production:** Top round beef is trimmed of any remaining fat, rubbed or immersed in a curing mixture of salt, sugar, and spices (traditionally including juniper berries, bay leaf, black pepper, cinnamon, and nutmeg), and cured for 10–15 days. After curing, the meat is dried and air-aged for 4–8 weeks. The total process is considerably shorter than pork-based products like prosciutto or coppa, which reflects the lean nature of the base protein — without fat to protect the meat during extended aging, it would dry to an inedible hardness.
+**How it's made:** lean top round beef is rubbed with salt, sugar and spices (traditionally juniper, bay leaf, black pepper, cinnamon and nutmeg) and cured for 10–15 days. Then it air-dries for 4–8 weeks.
+
+That's much shorter than prosciutto or coppa. With no fat to protect it, the lean beef would dry out completely if it aged longer.
 
 The result is a deep burgundy to purple-red color (from myoglobin in the lean beef — the same protein responsible for red meat color), a firm but yielding texture, and a clean, mildly savory flavor with subtle spice notes.
 

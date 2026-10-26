@@ -58,12 +58,20 @@ Done. A board following this framework will satisfy any group of guests.
 ## The Three Fears, Addressed
 
 **"I don't know anything about cheese."**
+
 You don't need to. Ask at the cheese counter: "I need one soft, one semi-firm, and one aged cheese for a board for six people." Most specialty grocers and Whole Foods-style stores have staff who will do the selection for you. Alternatively, buy by description: if it says "soft-ripened" on the label, that's your soft cheese.
 
 **"The quantities and portions seem complicated."**
-They're not. Plan 3 oz each of cheese and cured meat per person when the board is the party food, or 2 oz each if a meal follows. For six people as the party food: about 1¼ lb of meat and 1½ lb of cheese. One round of Brie (8 oz), a small Manchego wedge (6 oz), and a piece of Parmigiano (4-5 oz) covers the cheese for six. Two packages of pre-sliced prosciutto and one package of salami covers the meat.
+
+They're not. Plan **3 oz each of cheese and meat per person** if the board is the party food, or **2 oz each** if a meal follows.
+
+For six people as the party food (about 1¼ lb meat and 1½ lb cheese):
+
+- **Cheese:** an 8 oz round of brie, a 6 oz wedge of Manchego and 4–5 oz of Parmigiano
+- **Meat:** two packs of sliced prosciutto and one pack of salami
 
 **"It won't look as nice as boards I've seen on social media."**
+
 Board photography heavily favors abundance, perfect light, and post-processing. A real board at a real table doesn't need to look like that. Guests care about taste and generosity, not magazine-perfect arrangement. And presentation improves immediately and automatically with practice — you'll build a better board the second time just from having done it once.
 
 ---
@@ -112,16 +120,21 @@ Everything beyond this is genuine improvement. But it starts here.
 ## FAQ
 
 **Is building a charcuterie board actually difficult?**
+
 No — a basic board for 2–4 people can be assembled in 10–15 minutes from grocery store ingredients. The perception of difficulty comes from social media boards that have been styled for photographs, not from the actual skill involved. The core technique is simple: place anchors (cheese, bowls), add meat, fill gaps. The rest is refinement.
 
 **What is the minimum skill required to build a good charcuterie board?**
+
 None. You need the ability to slice cheese, fold meat, and place items on a surface. No cooking is involved, no heat, no timing precision. A beginner's board with grocery-store cheddar, salami, crackers, and grapes is immediately enjoyable. Technique, variety, and presentation improve with experience, but the floor is very accessible.
 
 **What are the most common mistakes beginners make on charcuterie boards?**
+
 Overcrowding (cramming too many elements onto too small a board), serving cheese cold, choosing too many bold or pungent elements without mild anchors, and neglecting visual variety. All of these are easy to avoid once you know to look for them. None require advanced skill — they require awareness.
 
 **How do I get better at building charcuterie boards without formal training?**
+
 Practice is the only path. Build boards regularly, photograph them, and study what worked visually and flavor-wise. Pay attention to guest reactions — what gets eaten first, what gets skipped. Read about pairing science (fat + acid, salt + sweet) to understand why combinations work. The learning curve is short and enjoyable.
 
 **Can I build a good charcuterie board at a grocery store without a specialty shop?**
+
 Absolutely. Most grocery stores carry sufficient variety: at least 3–4 cheese options, pre-sliced prosciutto and salami, seasonal fruit, and crackers. The quality gap between grocery store and specialty store is real but not disqualifying for a home board. Start with what's available and expand your sourcing as your interest grows.

@@ -86,7 +86,7 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <ul class="sk-checks"><li><strong>Look for:</strong> Buy a wedge, not crumbles. For Stilton and Gorgonzola, look for the protected name and DOP or PDO mark.</li><li class="sk-x"><strong>Skip:</strong> Pre-crumbled blue cheese for a board. It is often dry and dull.</li></ul>
 :::
 
-For what blue cheese pairs with and how to serve it, see the [gorgonzola guide](/ingredients/gorgonzola/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Blue cheese: pairings and serving tips](/ingredients/gorgonzola/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Blue cheese questions</h2>
@@ -114,4 +114,3 @@ Usually one is enough. Put it at the edge of the board with its own knife.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

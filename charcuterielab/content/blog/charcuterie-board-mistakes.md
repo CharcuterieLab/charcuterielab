@@ -80,4 +80,3 @@ A board built at noon for a 6 pm party has warm meat, dry cheese and bendy crack
 
 Save this list, and send it to whoever is hosting next. For amounts and timing on one page, get the free [charcuterie cheat sheet](/downloads/charcuterie-cheat-sheet.pdf), and for a full plan you can copy, browse the [Board Library](/boards/).
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

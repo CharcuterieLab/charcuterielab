@@ -74,4 +74,3 @@ Every F tier item has a fix, which is why it is F tier and not banned. See the [
 
 Where would you move something? Comment with the one ingredient you think we ranked wrong, and save the tier list graphic to make your own. When you are ready to build, the [Pairings Hub](/pairings/) shows why each combination works, and the [Party Planner](/party-planner/) tells you how much to buy.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

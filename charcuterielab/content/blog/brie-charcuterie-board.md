@@ -100,16 +100,21 @@ Pair it with honey, pear, prosciutto and nuts, and pour something sparkling. If 
 ## FAQ
 
 **How long should brie sit out before serving on a charcuterie board?**
+
 Take brie out of the fridge 45 to 60 minutes before serving. Cold brie is firm and waxy and tastes of very little, because cold dulls taste and aroma. At room temperature the center softens and the buttery, mushroomy flavor comes through. Once the board is out, stay within the USDA 2-hour rule for perishable food.
 
 **Do you eat the rind of brie on a charcuterie board?**
+
 Yes, the rind is edible and part of the experience. The white, velvety bloomy rind adds earthy, mushroomy flavor that balances the rich, buttery center. Guests who don't like it can trim it off, but leave it on the cheese when you serve it.
 
 **What pairs best with brie on a charcuterie board?**
+
 Honey is the classic partner, since its sweetness softens the rind's slight bitterness. Sliced pear, walnuts or Marcona almonds, and prosciutto are the next best picks. Keep very strong condiments like whole-grain mustard or spicy pepper jelly away from brie; they overpower its mild flavor.
 
 **Should brie be served baked or at room temperature on a board?**
+
 Serve it at room temperature on a standard board. Properly tempered brie is already soft and slightly oozy, and it's easy to cut and eat on a cracker. Baked brie is delicious but turns into a warm dip, so serve it as its own dish with bread or crackers alongside.
 
 **How much brie per person on a charcuterie board?**
+
 When brie is one of three cheeses, plan about 1 oz per person. A standard board uses about 2 oz of cheese per guest in total, so an 8 oz wheel covers about 8 guests. Cut the first wedge before guests arrive so no one hesitates to dig in.

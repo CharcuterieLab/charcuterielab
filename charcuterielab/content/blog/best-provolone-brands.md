@@ -108,7 +108,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 - **How much to buy:** about 1 oz per guest when it's one of three cheeses.
 - **How to serve it:** cut sharp provolone into rough chunks or thick sticks; roll mild slices around salami or roasted peppers. It pairs well with salami, soppressata, olives, pepperoncini, figs and a Chianti.
 
-For what provolone pairs with and how to serve it, see the [aged provolone guide](/ingredients/aged-provolone/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Provolone: pairings and serving tips](/ingredients/aged-provolone/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Provolone questions</h2>
@@ -140,4 +140,3 @@ Some is, like Red Apple. Others, labeled smoke flavored, use added flavoring.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

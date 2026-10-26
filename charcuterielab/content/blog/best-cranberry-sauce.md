@@ -97,7 +97,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 :::
 
 **Building the board:** cranberry sauce goes with baked brie, sharp white cheddar, goat cheese, sliced turkey and pecans. Serve whole berry sauce in a small bowl with a spoon. For the full board, see our [Thanksgiving charcuterie board](/blog/thanksgiving-charcuterie-board/).
-For what cranberry sauce pairs with and how to serve it, see the [cranberry sauce guide](/ingredients/cranberry-sauce/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Cranberry sauce: pairings and serving tips](/ingredients/cranberry-sauce/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Cranberry sauce questions</h2>
@@ -129,4 +129,3 @@ Yes. Chill the jellied sauce, slice it about half an inch thick, and cut it with
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

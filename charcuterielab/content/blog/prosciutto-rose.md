@@ -34,7 +34,9 @@ It looks hard. It isn't, and it's the detail guests ask about.
 Lay your prosciutto slices out flat. You'll use 3–4 slices per rose — one for the core, two or three for the outer petals. The core slice should be your least-perfect piece (inner folds aren't visible in the final product). Save your best, most intact slices for the outer petals.
 
 ### Step 2: Make the Core
-Take one slice of prosciutto and fold it loosely in half lengthwise, so the long edges meet but the slice isn't pressed flat — you want it to have a slight roll, like the center of a flower bud. Place this folded slice at the edge of the counter and begin rolling it into a loose cylinder, tucking the bottom edges under slightly as you roll. Don't roll it tight — the looser the core, the more natural the final rose will look.
+Take one slice of prosciutto and fold it loosely in half lengthwise, so the long edges meet but it isn't pressed flat. It should curl a little, like the center of a bud.
+
+Roll it into a loose cylinder, tucking the bottom edges under as you go. Keep it loose: a loose center makes a more natural rose.
 
 ### Step 3: Set the Core in the Glass
 Hold the glass upside down over your work surface. Lower the rolled core into the glass opening, folded side down, so it sits loosely in the rim of the upside-down glass. The glass is now your scaffold — it holds the shape while you add petals.

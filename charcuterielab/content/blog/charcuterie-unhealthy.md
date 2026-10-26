@@ -62,11 +62,11 @@ CLA is an unusual saturated fatty acid variant with a distinct carbon double-bon
 
 Aged cheeses — particularly those made from raw or grass-fed milk — contain butyrate (butyric acid), a short-chain fatty acid produced during ripening. Butyrate is also produced by gut bacteria during fermentation of dietary fiber, and serves as the primary fuel source for colonocytes (cells lining the large intestine).
 
-Colonic health research has consistently shown butyrate plays a role in maintaining intestinal barrier integrity and modulating inflammatory signaling. The butyrate in aged cheese isn't the same as gut-produced butyrate in mechanism, but it contributes to overall dietary butyrate exposure.
+Research on gut health links butyrate to a healthy intestinal lining and lower inflammation. The butyrate in aged cheese isn't the same as the kind your gut makes, but it adds to how much you get.
 
 ### Biogenic Amines and Umami Compounds
 
-Protein breakdown (proteolysis) during aging of both meat and cheese generates free amino acids including glutamate — the backbone of umami perception. This same proteolysis produces small amounts of biogenic amines (histamine, tyramine).
+As meat and cheese age, their proteins break down into amino acids, including glutamate, the source of savory (umami) flavor. Aging also makes small amounts of histamine and tyramine.
 
 For most people these present no issue at appetizer-portion serving sizes. People with histamine intolerance or those taking MAO inhibitor medications should be more cautious with aged fermented foods.
 
@@ -142,16 +142,21 @@ The myth that charcuterie is inherently unhealthy dissolves once you apply actua
 ## FAQ
 
 **Is charcuterie actually unhealthy?**
+
 In appropriate serving sizes, charcuterie is a nutritionally reasonable food. Cured meats provide protein and fat. Aged cheeses offer calcium, fat-soluble vitamins, and live cultures. Accompaniments add fiber (fruit, vegetables) and micronutrients. The concern around cured meats relates to nitrate content and sodium — both real considerations, but the impact is proportional to quantity consumed.
 
 **How much sodium is in a typical charcuterie serving?**
+
 A typical charcuterie portion (2 oz cured meat, 2 oz cheese, crackers) contains approximately 800–1,200mg sodium, depending on ingredient selection. This is significant if you're sodium-sensitive, but not extreme in the context of a full day's diet. Choosing lower-sodium meats (bresaola, mortadella) and crackers can reduce this meaningfully.
 
 **Are nitrates in cured meats dangerous?**
+
 Nitrates in cured meats have been associated with increased colorectal cancer risk in large epidemiological studies, particularly at high consumption levels (processed meat as a daily dietary staple). At the quantities involved in an occasional charcuterie board (1–2 oz of cured meat), the absolute risk increase is very small. The science does not support avoiding cured meat entirely — it supports moderation.
 
 **What is the healthiest way to approach charcuterie?**
+
 Treat it as an occasional indulgence rather than a daily staple. Choose variety — some lean meats (bresaola, prosciutto) alongside richer options. Include fresh fruit, vegetables, and nuts in the spread for nutritional balance. Use real, fermented cheeses rather than processed cheese products. A charcuterie board eaten with these principles in mind is not a nutritional concern.
 
 **Does fermented charcuterie have probiotic benefits?**
+
 Some research suggests fermented dry-cured meats contain beneficial lactobacillus and other bacterial cultures similar to those in fermented dairy. These cultures survive the curing process and may contribute to gut microbiome diversity. This is an emerging area of research, and the probiotic content of cured meats is lower than in yogurt or kefir, but the fermentation benefit is real.

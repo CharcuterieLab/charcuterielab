@@ -97,16 +97,21 @@ For 10 guests at a party, that's about 30 oz each of cheese and meat. More detai
 :::
 
 **What is the difference between a grazing board and a charcuterie board?**
+
 A charcuterie board centers on cured meats and cheeses as the primary elements, with produce, condiments, and crackers in supporting roles. A grazing board is a broader concept — it can include all of those elements plus full sandwiches, wraps, cooked items, dips, desserts, and any other food that suits the occasion. Charcuterie is a category of food; grazing board describes a serving format. All charcuterie boards are grazing boards; not all grazing boards are charcuterie boards.
 
 **Which is better for a large party — a grazing board or a charcuterie board?**
+
 For large parties (20+ guests) grazing over 2–3 hours, a grazing board is more practical — it can include more food variety, accommodate different dietary needs in one format, and scale more easily. A charcuterie board is better when you want a focused, high-quality selection of cured meats and cheeses rather than a comprehensive spread. For a cocktail party appetizer, a charcuterie board. For a casual brunch feeding a crowd, a grazing board.
 
 **How do you build a grazing board?**
+
 A grazing board typically includes: cured meats and cheeses (as in charcuterie), plus a bread or cracker section, a fresh fruit section, a vegetable and dip section, and often a sweet section (chocolates, cookies, truffles, candied nuts). The format is usually larger than a charcuterie board and covers more food categories. Start with the largest elements (dip bowls, cheese wheels), then add meat, then fruit and vegetables, then fill gaps with smaller elements.
 
 **Can a grazing board replace a meal?**
+
 Yes — a well-built grazing board with sufficient variety and volume can serve as a light meal or a complete appetizer spread. A rule of thumb: to replace a meal, plan 3–4 oz of cheese and 3–4 oz of meat per guest (30–40 oz of each for 10 guests), plus substantial bread, a dip, and generous produce. A pre-meal board should be smaller to avoid filling guests before the main course.
 
 **What's the difference in cost between a grazing board and a charcuterie board?**
+
 Grazing boards are typically less expensive per person because they use more affordable elements (fresh vegetables, bread, crackers, seasonal fruit) to fill volume alongside the premium ingredients. A charcuterie board focused on aged cheeses and quality cured meats can cost $15–20+ per person. A grazing board that extends with produce, hummus, and bread might achieve similar visual impact at $8–12 per person while still including quality cheese and meat anchors.

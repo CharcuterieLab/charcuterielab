@@ -112,16 +112,21 @@ Buy extra sharp or vintage, about 1 ounce per guest. Break it into rough chunks,
 ## FAQ
 
 **What age of cheddar is best for a charcuterie board?**
+
 Extra sharp or vintage cheddar, aged about 12 to 24 months, is the board standard. By then it has crunchy crystals, a sharp, savory flavor and nutty, caramel-like notes. Mild and medium cheddar are fine for snacking but too mild to hold their own next to cured meats and strong condiments.
 
 **Should you slice or break aged cheddar for a charcuterie board?**
+
 Break it. Push the tip of a short cheese knife into the block and twist to crack off rough, bite-size chunks. The jagged faces show off the crunchy crystals and look more inviting than neat cubes. Aged cheddar is crumbly, so it breaks cleanly and is easy for guests to pick up.
 
 **What pairs best with aged cheddar on a charcuterie board?**
+
 Fig jam is the classic partner: its sweetness softens the cheese's sharp, slightly bitter edge. Crisp, tart apple slices cut the richness and refresh your palate. Marcona almonds add buttery crunch, and prosciutto or bresaola add a savory, salty contrast that makes the cheese taste even deeper.
 
 **How much aged cheddar per person on a charcuterie board?**
+
 Plan about 1 oz per guest when aged cheddar is one of two or three cheeses. It's bold, so a little goes a long way. A 6 to 8 oz block broken into chunks is right for 6 to 8 people, and it keeps well wrapped in the fridge if you have leftovers.
 
 **Can you put aged cheddar next to blue cheese on a charcuterie board?**
+
 Yes, but give them a little space. Both are bold, and side by side the flavors compete. Put a small dish of fig jam, a pile of crackers or some apple slices between them. That gives guests something sweet or neutral to reset their palate and makes both cheeses easier to enjoy.

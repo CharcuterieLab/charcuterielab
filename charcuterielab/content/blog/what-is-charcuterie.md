@@ -95,16 +95,21 @@ Charcuterie Lab is built around the science of why these combinations work. If y
 ## FAQ
 
 **What does charcuterie mean?**
+
 Charcuterie (pronounced "shar-KOO-tuh-ree") is the French culinary art of preparing and preserving meat products through curing, smoking, salting, and fermentation. The word comes from the Old French "chair cuite" meaning "cooked flesh." Traditionally, it encompassed pâtés, terrines, rillettes, sausages, and cured whole-muscle meats. In contemporary usage, it typically refers to any board or spread featuring these preserved meat products alongside cheeses and accompaniments.
 
 **Is charcuterie a French word?**
+
 Yes. Charcuterie is French in origin and refers both to the craft of meat preservation and to the shop where these products are sold. In France, a charcutier (charcuterie artisan) specializes in pork products — sausages, pâtés, rillettes, boudin, and air-dried meats. The tradition has Italian and Spanish equivalents (salumeria, charcutería) with their own distinct products and methods.
 
 **What is the difference between charcuterie and deli meat?**
+
 Charcuterie involves traditional preservation techniques — specific curing salts, controlled fermentation, extended aging, and artisanal production methods that developed flavor complexity over time. Deli meat is typically processed more quickly using industrial methods, often with more additives and fillers, producing a blander, more uniform product. True charcuterie has distinct terroir and craft character; deli meat is primarily functional.
 
 **Is charcuterie always pork?**
+
 Traditionally, yes — the craft originated with pork preservation. Today, charcuterie includes cured beef (bresaola), duck (duck prosciutto, duck confit), game meats, and even fish preparations (though fish curing is typically categorized separately). The modern "charcuterie board" as a food trend includes all these variations plus cheese and other accompaniments, well beyond the original pork-focused definition.
 
 **What is an American charcuterie board?**
+
 An American charcuterie board combines European cured meat traditions with American accessibility: grocery store cheddar alongside imported prosciutto, American artisan salamis next to French cornichons, local honey alongside imported fig jam. The American board tends toward abundance and accessibility rather than strict regional authenticity, drawing freely from Italian, French, and Spanish traditions while making it approachable for a broad audience.

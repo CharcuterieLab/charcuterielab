@@ -110,13 +110,17 @@ If you serve spirits, tell guests to try the Gouda with the bourbon. It's the pa
 :::
 
 **How do I know if gouda is truly aged versus just labeled "aged"?**
+
 Look for visible tyrosine crystals — crunchy white deposits in the paste. These only form after significant aging (typically 12+ months) as amino acids precipitate out of the aging cheese. A truly aged gouda will also have a deep amber to caramel color in the paste and a hard, dry texture. "Young gouda" sold as "aged" often lacks all three of these indicators.
 
 **Can aged gouda replace parmesan on a board?**
+
 Aged gouda is a reasonable substitute for parmesan in terms of intensity, but the flavor profile differs significantly. Aged gouda is more caramel-forward and sweeter; parmesan is more umami-dense and savory. Both work as hard cheese anchors but pair differently. Aged gouda excels with sweet pairings; parmesan with acidic and umami partners.
 
 **Does aged gouda need to come to room temperature before serving?**
+
 Yes — all cheese does, but aged gouda's caramel compounds are especially temperature-sensitive. At refrigerator temperature the sweetness is muted and the texture is harder than ideal. Forty-five minutes to an hour at room temperature allows the paste to soften slightly and the full caramel and butterscotch flavor to develop.
 
 **What's the best cracker for aged gouda?**
+
 Thin, neutral crackers (water crackers, plain rice crackers) let aged gouda's complex flavor speak for itself. Seeded or whole-grain crackers complement without competing. Avoid very strongly flavored crackers (heavily herbed, spiced) that fight with the gouda's sweetness.

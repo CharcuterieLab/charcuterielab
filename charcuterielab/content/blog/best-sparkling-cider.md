@@ -109,7 +109,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 - **What it pairs with:** sharp cheddar, brie, Gouda, prosciutto, apples, pears and salted nuts. The drier Welch's suits salty meat best.
 
 See our [zero-proof pairings](/pairings/zero-proof/) for more drinks.
-For what sparkling cider pairs with and how to serve it, see the [zero-proof pairing guide](/pairings/zero-proof/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Sparkling cider: pairings and serving tips](/pairings/zero-proof/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Sparkling cider questions</h2>
@@ -141,4 +141,3 @@ A 25.4 oz bottle pours about five glasses. For a toast, one bottle covers 6 to 8
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

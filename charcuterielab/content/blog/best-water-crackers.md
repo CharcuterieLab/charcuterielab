@@ -86,7 +86,7 @@ A water cracker carries the cheese without getting in the way. The differences: 
 <ul class="sk-checks"><li><strong>Look for:</strong> The ingredients should start with flour, water or oil, and salt. If butter is near the top, it&#x27;s a butter cracker with a water-cracker name, and it will mute whatever you put on it.</li><li class="sk-x"><strong>Skip:</strong> Flavored water crackers like roasted garlic or sesame for a general board. They stop being neutral, which is the whole reason to buy a water cracker.</li></ul>
 :::
 
-For what water crackers pairs with and how to serve it, see the [water crackers guide](/ingredients/water-crackers/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Water crackers: pairings and serving tips](/ingredients/water-crackers/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Water crackers questions</h2>
@@ -114,4 +114,3 @@ Plan 6 to 8 crackers per guest before a meal, 10 to 12 when the board is the par
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

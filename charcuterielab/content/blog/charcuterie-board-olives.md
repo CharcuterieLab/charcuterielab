@@ -85,16 +85,21 @@ Ranking the jars? See [the best olives for charcuterie](/blog/best-olives-for-ch
 :::
 
 **Do olives go on a charcuterie board?**
+
 Yes — olives are one of the best elements on a charcuterie board because they perform multiple flavor functions simultaneously: they provide brininess that echoes cured meat salt, oleic acid fat that resonates with cheese fat, and mild phenolic bitterness that contrasts soft and creamy cheeses. They also act as natural palate cleansers between bites.
 
 **What type of olives are best for a charcuterie board?**
+
 Castelvetrano olives are the most board-friendly option: mild, buttery, and bright green — they pair with nearly everything and are approachable for guests who don't love traditional olive brininess. Kalamata olives work for a more assertive, briny presence. Mixed marinated olives add herbal complexity. Avoid canned, pimento-stuffed olives — they read as low-quality on a curated board.
 
 **How many olives should I put on a charcuterie board?**
+
 6–8 olives per person (about 1–1.5oz), served in a small bowl or ramekin rather than scattered directly on the board. The brine from loose olives bleeds onto crackers and other board elements. A small bowl keeps them contained and positions them as a deliberate element rather than a scattered garnish.
 
 **Should olives be marinated on a charcuterie board?**
+
 Marinated olives add herbal and aromatic complexity (rosemary, thyme, citrus peel, garlic) that increases pairing versatility. Plain olives are simpler and less likely to introduce a competing flavor. For most boards, a quality plain Castelvetrano or marinated mixed olive works. The key is avoiding low-quality canned olives regardless of marinade.
 
 **What cheese pairs best with olives on a charcuterie board?**
+
 Aged feta in brine, aged hard cheeses like Manchego and Parmigiano, and soft chèvre all pair well with olives. The oleic acid in olives resonates with aged cheese fat (the same reason Marcona almonds pair well with these cheeses). Avoid pairing olives directly with very mild fresh cheeses, where the brine can overwhelm the delicate flavor.

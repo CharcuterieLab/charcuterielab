@@ -95,7 +95,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <ul class="sk-checks"><li><strong>Look for:</strong> For Italian prosciutto, a DOP mark and the ingredients pork and salt. Anything labeled only &#x27;prosciutto&#x27; with no origin is usually a quick-cured domestic ham.</li><li class="sk-x"><strong>Skip:</strong> Thick-cut prosciutto for a board. It should be thin enough to drape.</li></ul>
 :::
 
-For what prosciutto pairs with and how to serve it, see the [prosciutto di parma guide](/ingredients/prosciutto-di-parma/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Prosciutto: pairings and serving tips](/ingredients/prosciutto-di-parma/) · [All buying guides](/blog/best-charcuterie-brands/)
 Serving guests who don't eat pork? See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/) for the beef alternative.
 
 :::html
@@ -124,4 +124,3 @@ Take it out about 20 minutes before serving and drape or fold it loosely so it s
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

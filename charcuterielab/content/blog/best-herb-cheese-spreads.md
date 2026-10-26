@@ -126,4 +126,3 @@ Yes. Boursin Dairy-Free Garlic & Herbs is made with coconut oil and is free of d
 
 For what Boursin pairs with, see the [Boursin ingredient guide](/ingredients/boursin/). For plain cream cheese, see [the best cream cheese brands](/blog/best-cream-cheese/), and for dairy-free boards, [the best vegan cheese](/blog/best-vegan-cheese/). Every ranked guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

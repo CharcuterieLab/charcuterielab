@@ -97,16 +97,21 @@ The cocktail party board rewards the 15 minutes of additional thought it takes o
 ## FAQ
 
 **What is a cocktail party charcuterie board?**
+
 A cocktail party board is built for standing guests who are eating one-handed while holding a drink. The ingredients are smaller, the presentation more bite-sized, and the board positioned at standing height. Skewer-able elements, small cracker rounds, and pre-built one-bite combinations make the board functional for guests who can't sit down with a plate.
 
 **How much food do you need for a cocktail party charcuterie board?**
+
 For a cocktail party where the board is one of several appetizers: 2 oz each of cheese and meat per person. For a cocktail party where the board is the primary food: 3 oz each of cheese and meat per person. Cocktail guests typically eat less per hour than seated dinner guests but over a longer period — plan for 2–3 hours of continuous grazing.
 
 **What cheeses work best for a cocktail party board?**
+
 Firm cheeses that can be pre-cubed or sliced into bite-sized pieces work best — aged cheddar, manchego, Gruyère, aged Gouda. Avoid runny soft cheeses that require a spreader and a moment of focus. Brie works if pre-cut into wedges; leave it in the rind so guests can pick it up cleanly without a knife.
 
 **Should I pre-build bites on a cocktail party board?**
+
 Yes — pre-assembled one-bite combinations dramatically increase guest engagement. Thread a small cube of manchego, a folded piece of prosciutto, and a cornichon onto a short pick. Wrap a Marcona almond in a half-slice of prosciutto. Skewer a grape, a piece of aged cheddar, and a date. Pre-built bites remove the coordination challenge for standing guests and signal intentional pairing.
 
 **How do you keep a cocktail party board fresh over 2-3 hours?**
+
 Use a two-board system: set out one board at the start and keep a second assembled board in the refrigerator. Swap boards at the 90-minute mark — the fresh board goes out, the depleted one gets cleared. This prevents the tired, picked-over look of a single board at the end of an event and ensures the last guests get the same experience as the first.

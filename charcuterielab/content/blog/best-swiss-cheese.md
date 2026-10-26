@@ -88,7 +88,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 :::
 
 **Serving it:** Swiss is a semi-firm cheese, so take it out of the fridge 30 to 45 minutes before serving. Fold slices into quarters or roll them, or cut a block into cubes. It's easy to like with ham, mustard, apples and rye crackers.
-For what Swiss cheese pairs with and how to serve it, see the [Emmental guide](/ingredients/emmental/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Swiss cheese: pairings and serving tips](/ingredients/emmental/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Swiss cheese questions</h2>
@@ -120,4 +120,3 @@ A younger Swiss with smaller holes and a milder, creamier flavor.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

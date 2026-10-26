@@ -58,7 +58,6 @@ Mix one or two whole-muscle meats with one or two sausages.
 
 See all 50 in our [cured meats guide](/ingredients/cured-meat-and-seafood/), or use the [Pairing Finder](/pairings/) to see what goes with any of them.
 
-
 :::html
 <h2 id="categories">The two kinds: whole-muscle vs. fermented sausage</h2>
 :::
@@ -142,16 +141,21 @@ Split the total roughly evenly across your meats. More of any one meat doesn't h
 :::
 
 **What is the best meat for a charcuterie board?**
+
 Prosciutto is the most versatile and universally loved charcuterie meat — its delicate, sweet-salty flavor and silky fat make it accessible to nearly every palate. Salami (genoa or hard salami) is the second essential, providing bolder, spiced flavor and a firmer texture. Together, prosciutto and salami cover the two core meat registers: delicate and bold.
 
 **How many types of meat should be on a charcuterie board?**
+
 Two to three meats is ideal for most boards. One fatty, one lean or delicate, and optionally one specialty cut. Prosciutto (fatty, delicate) + salami (spiced, firm) covers most boards perfectly. Adding bresaola (lean, mineral-forward) or soppressata introduces a third distinct flavor. Beyond three meats, the distinctions become hard for guests to perceive while grazing.
 
 **What is the difference between prosciutto and salami?**
+
 Prosciutto is a dry-cured whole leg of pork, sliced paper-thin, with a delicate sweet-salty flavor and soft, silky fat. Salami is a cured, fermented sausage made from ground pork (and sometimes beef), seasoned with garlic, pepper, and other spices, and sliced into rounds. Prosciutto is the most delicate charcuterie meat; salami is among the bolder options.
 
 **What is the leanest charcuterie meat?**
+
 Bresaola (air-dried, cured beef) is the leanest common charcuterie option — it's almost entirely lean muscle with virtually no visible fat. Lomo (cured pork loin) is also lean; coppa is the opposite, well marbled with fat. For guests watching fat intake, bresaola is the ideal meat on a charcuterie board.
 
 **How much meat per person for a charcuterie board?**
+
 Plan 2 oz of cured meat per person when a meal follows, 3 oz if the board is the party food, and 4 oz if it's dinner. With two types of meat, buy about 1–1.5 oz of each per person. Prosciutto is sold in 3 oz packs typically — one pack feeds 2–3 people as part of a larger spread.

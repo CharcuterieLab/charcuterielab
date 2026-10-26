@@ -20,7 +20,13 @@ Below: the four tricks, 25 ideas and one full build. All come from our book [*Im
 
 ## The 4 tricks behind every shaped board
 
-**1. Rows become scales, stripes and feathers.** Lay slices of salami or prosciutto in a single overlapping row, like roof shingles. Repeat the row, switching the meat every ring or two, and you get a dragon's scaly body. Run rows of different green vegetables side by side, and you get a mowed football field. Fan rows of different foods out from one point, and you get a turkey's tail. If you can make one neat row, you can make most of the boards in this list. (Need a refresher? Start with [how to make a salami rose](/blog/how-to-make-a-salami-rose/), the other building block.)
+**1. Rows become scales, stripes and feathers.** Lay salami or prosciutto in one overlapping row, like roof shingles. Then:
+
+- **Repeat the rows**, switching meats every ring or two: a dragon's scaly body.
+- **Run rows of green vegetables** side by side: a mowed football field.
+- **Fan rows out from one point:** a turkey's tail.
+
+If you can make one neat row, you can make most boards on this list. (Refresher: [how to make a salami rose](/blog/how-to-make-a-salami-rose/), the other building block.)
 
 **2. Draw the outline first, then fill it in.** A jack-o'-lantern is a circle of pretzel sticks with a face. A butterfly is a paper template folded in half, so both wings match. A guitar is a template cut from wrapping paper. Once the outline is down, filling it is the same as filling any board: one food per section, packed tight so no board shows through.
 
@@ -143,19 +149,25 @@ Once it's out, keep meat, soft cheese, seafood and cut fruit out for **no more t
 ## FAQ
 
 **How do you make a shaped charcuterie board?**
+
 Lay the outline first with pretzel sticks, carrot sticks or a paper template, then fill it with foods in rows. Overlapping slices laid like roof shingles turn into scales, stripes or feathers. For height, hide a structure underneath: a bowl, a box, a loaf of bread or a dowel.
 
 **What is the easiest themed charcuterie board?**
+
 The ones built from rows and color, with no hidden structure: a blue whale made mostly of berries, a campfire of standing bell pepper flames, a football field of green vegetable stripes, a jack-o'-lantern or a Thanksgiving turkey. Each takes about 75 minutes.
 
 **How much food does a big themed board need?**
+
 For 12 to 15 guests when the board is the main appetizer, plan on about 3 to 4 pounds of cured meat and 3 to 4 pounds of cheese, plus fruit, vegetables, crackers and dips. Cut everything by about a third if there are other appetizers.
 
 **What size board do you need for a themed charcuterie board?**
+
 Most showpiece boards for 12 to 15 need about 36 to 48 inches. If you don't own a board that big, push two boards together or cover a table with butcher paper and build straight on it.
 
 **How far ahead can you make a themed charcuterie board?**
+
 Do the slicing, cubing and any shaped pieces the day before and keep them covered in the fridge. Lay the outline about 2 hours before guests arrive and fill it in during the last hour. Keep it out for no more than 2 hours, or 1 hour above 90°F.
 
 **What's in the Impossible Boards book?**
+
 25 showpiece boards, each with 6 pages: an overview and prep timeline, the one trick that makes the design work, a full shopping list for 12 to 15, eight build steps, party notes and variations (easy, budget, gluten-free and more). The ebook is a 169-page PDF, and the paperback is on Amazon.

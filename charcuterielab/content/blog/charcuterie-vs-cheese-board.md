@@ -80,18 +80,23 @@ At Charcuterie Lab, we take the wide view. A well-built board uses science — t
 ## FAQ
 
 **What is the difference between a charcuterie board and a cheese board?**
+
 A cheese board focuses exclusively on a curated selection of cheeses, typically 3–5 varieties served with minimal accompaniments (crackers, fruit, honey). A charcuterie board includes cured meats as a central element alongside cheese. In common usage, the terms overlap significantly, but technically a charcuterie board is the broader category that includes both meat and cheese, while a cheese board is focused purely on dairy.
 
 **Which is better — a charcuterie board or a cheese board?**
+
 Neither is objectively better — they serve different purposes. A cheese board is appropriate for a focused tasting, a post-dinner cheese course, or a gathering of cheese enthusiasts. A charcuterie board is more versatile as a cocktail-hour spread, a party centerpiece, or a casual meal. Most social occasions are better served by a full charcuterie board with both meat and cheese.
 
 **Is charcuterie always required on a charcuterie board?**
+
 No — the term "charcuterie board" is used colloquially for almost any food board, including vegetarian versions with no cured meat. The word technically refers to the craft of cured meat production, but in common usage it has expanded to describe the format (a board with curated food elements) rather than the specific inclusion of meat.
 
 **Can you have a charcuterie board without cheese?**
+
 Yes. A meat-forward board with charcuterie, pickles, mustard, and bread without any cheese is a legitimate format, particularly in French and German charcuterie traditions. However, cheese adds visual variety, flavor contrast, and textural diversity that most contemporary boards depend on for balance.
 
 **What is an antipasto platter and how does it differ?**
+
 An antipasto platter is an Italian-style spread that includes cured meats and cheeses alongside marinated vegetables, olives, and anchovies. It's similar to a charcuterie board but rooted specifically in Italian culinary tradition and typically less concerned with decorative arrangement than with flavor authenticity. All antipasto platters can be considered a type of charcuterie board; not all charcuterie boards are antipasto platters.
 
 ---

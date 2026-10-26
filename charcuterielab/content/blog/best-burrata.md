@@ -68,7 +68,7 @@ Burrata is mozzarella filled with cream and shreds of curd, and it makes an inst
 <ul class="sk-checks"><li><strong>Look for:</strong> The date. Burrata is best within a few days of being made. It should feel soft and full, not deflated.</li><li class="sk-x"><strong>Skip:</strong> Burrata past its prime. If the outside is slimy or it smells sour, it&#x27;s done.</li></ul>
 :::
 
-For what burrata pairs with and how to serve it, see the [burrata guide](/ingredients/burrata/). What goes with burrata? See the [burrata pairing guide](/pairings/food/burrata/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Burrata: pairings and serving tips](/ingredients/burrata/) What goes with burrata? See the [burrata pairing guide](/pairings/food/burrata/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 Not sure whether you want burrata or mozzarella? See [burrata vs. mozzarella](/blog/burrata-vs-mozzarella/).
 
 :::html
@@ -97,4 +97,3 @@ Prosciutto, tomatoes, peaches, basil, crusty bread and a drizzle of balsamic.
 </details>
 :::
 
-*Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*
