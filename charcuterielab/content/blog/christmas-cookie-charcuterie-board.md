@@ -79,6 +79,8 @@ Cookies and cheese are a great match. Try aged cheddar with shortbread or ginger
 
 Pair the cookie board with a [hot cocoa board](/blog/hot-cocoa-board/) for a dessert table, or see all our [Christmas charcuterie board ideas](/holidays/christmas/), including the [wreath board](/blog/christmas-wreath-charcuterie-board/) and a full [dessert board](/blog/dessert-board/) guide.
 
+**Short on time?** See [the best store-bought Christmas cookies](/blog/best-store-bought-christmas-cookies/) from recent taste tests.
+
 ## Related Reading
 
 - [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)

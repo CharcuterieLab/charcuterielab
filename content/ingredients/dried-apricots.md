@@ -83,6 +83,8 @@ with added sugar; apricots don't need it.
 
 **Skip:** hard, dark, brittle apricots, and "apricot flavoured" fruit pieces.
 
+**Our buyer's guide:** Mariani Turkish apricots for juicy, Blenheim for a splurge. See [the best dried fruit](/blog/best-dried-fruit-for-charcuterie/).
+
 ## Quick FAQ
 
 **Turkish or Californian dried apricots?**

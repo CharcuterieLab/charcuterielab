@@ -145,6 +145,8 @@ Each piece is about 3 oz, enough for two. For 24 nights, buy 12 cheeses. Need he
 
 Save a little from each day and build a full board on Christmas Eve. Start with our [Christmas charcuterie board](/blog/christmas-charcuterie-board/) or the [Christmas hub](/holidays/christmas/).
 
+**Shopping Aldi's holiday aisle?** See [Aldi holiday charcuterie items 2026](/blog/aldi-holiday-charcuterie-items/) for what to grab with the calendar.
+
 ## Related Reading
 
 - [Gifts for Cheese Lovers](/gifts/cheese-lovers/)

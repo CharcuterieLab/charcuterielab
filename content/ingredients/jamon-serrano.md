@@ -88,6 +88,8 @@ Unlabeled serrano is usually the shortest cure.
 **Skip:** buying pre-sliced packs that look dry or dark at the edges. Serrano
 dries faster than prosciutto in the tray.
 
+**Our buyer's guide:** Redondo Iglesias 16-month is our pick, and Fermín is the easiest to find. See [the best jamón serrano](/blog/best-jamon-serrano/).
+
 ## Quick FAQ
 
 **Serrano or ibérico?**

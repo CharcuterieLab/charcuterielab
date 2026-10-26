@@ -134,6 +134,8 @@ Hold back about a third of everything and refill once halfway through. Perishabl
 
 Anything that sat out on the board is a leftover: eat it within 3–4 days, and toss anything out more than 2 hours. See [cheese storage](/blog/cheese-storage/) for wrapping tips and [how to store a charcuterie board](/blog/how-to-store-charcuterie-board/) for the rest.
 
+**Holiday version:** see [Costco holiday cheese and charcuterie 2026](/blog/costco-holiday-charcuterie/), including the Beretta charcuterie kit.
+
 ## Related Reading
 
 - [The Best Costco Charcuterie Board Items, Ranked](/blog/best-costco-charcuterie-items/)

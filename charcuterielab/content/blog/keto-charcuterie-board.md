@@ -110,6 +110,8 @@ A keto charcuterie board is primarily a standard board with the vehicle category
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards with exact quantities, shopping lists, and dietary adaptation guides.
 
+**Cracker swap:** see [the best cheese crisps](/blog/best-cheese-crisps/) for a keto or gluten-free board.
+
 ## Related Reading
 
 - [Dairy-Free Charcuterie Board](https://charcuterielab.com/dairy-free-charcuterie-board/)

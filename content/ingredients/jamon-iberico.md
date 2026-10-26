@@ -90,6 +90,8 @@ Ibérico; only the black and red are acorn-fed.
 **Skip:** buying it for a large crowd. A little of the good grade beats a lot
 of the cheap one, and at a party most of it goes unnoticed.
 
+**Our buyer's guide:** start with Fermín Ibérico de Cebo, or splurge on Fermín de Bellota. See [the best Spanish ham](/blog/best-jamon-serrano/).
+
 ## Quick FAQ
 
 **Why is jamón ibérico so expensive?**

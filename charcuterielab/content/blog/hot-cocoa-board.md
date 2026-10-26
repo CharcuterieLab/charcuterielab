@@ -91,6 +91,8 @@ A cocoa board is sweet and filling, so it works best after something savory. Ser
 
 A hot cocoa board for 12 costs about **$25 to $40** with homemade cocoa and store-brand toppings, around $2 to $3.50 per guest. Packets of instant cocoa cost more per mug than making it in a slow cooker. Seasonal flavored marshmallows and specialty whipped creams are the easiest places to save.
 
+**Which mix to buy:** see [the best hot cocoa mixes](/blog/best-hot-cocoa-mix/), picked from nine taste tests.
+
 ## Related Reading
 
 - [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)

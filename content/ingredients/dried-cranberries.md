@@ -81,6 +81,8 @@ concentrate beats corn syrup. Sunflower oil in the ingredients is normal.
 
 **Skip:** anything with added flavourings beyond fruit juice.
 
+**Our buyer's guide:** see [the best dried fruit](/blog/best-dried-fruit-for-charcuterie/).
+
 ## Quick FAQ
 
 **Are dried cranberries always sweetened?**

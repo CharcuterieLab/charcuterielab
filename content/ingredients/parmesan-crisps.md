@@ -92,6 +92,8 @@ than brittle.
 **Skip:** flavored versions on a cheese board — pizza, ranch and jalapeño
 crisps are a snack food and read as one next to real cheese.
 
+**Our buyer's guide:** Whisps Parmesan won Sporked's keto test. See [the best cheese crisps](/blog/best-cheese-crisps/).
+
 ## Quick FAQ
 
 **Are parmesan crisps gluten-free?**

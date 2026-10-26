@@ -166,6 +166,8 @@ Yes. Its cheeses and prosciutto do well in taste tests for the price, and a boar
 
 Products Aldi stocks for a limited time, often seasonal. Items like the cheese pairing spread set come and go, so buy them when you see them.
 
+**Seasonal picks:** see [Aldi holiday charcuterie items 2026](/blog/aldi-holiday-charcuterie-items/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>

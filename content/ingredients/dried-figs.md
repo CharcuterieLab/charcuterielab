@@ -83,6 +83,8 @@ soaking and are usually old stock.
 
 **Skip:** figs with added sugar or glucose syrup — they're already sweet enough.
 
+**Our buyer's guide:** Sun-Maid Mission figs. See [the best dried fruit](/blog/best-dried-fruit-for-charcuterie/).
+
 ## Quick FAQ
 
 **Should I cut dried figs for a board?**

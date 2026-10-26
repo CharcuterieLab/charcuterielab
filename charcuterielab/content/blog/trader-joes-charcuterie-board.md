@@ -138,6 +138,8 @@ If a seasonal item is gone, swap in the year-round version. A [cranberry goat ch
 
 Keep the board out no more than 2 hours, or 1 hour above 90°F.
 
+**Holiday version:** see [Trader Joe's holiday charcuterie items 2026](/blog/trader-joes-holiday-charcuterie-items/).
+
 ## Related Reading
 
 - [The Best Trader Joe's Cheeses for a Charcuterie Board, Ranked](/blog/best-trader-joes-cheeses/)

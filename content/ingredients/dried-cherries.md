@@ -81,6 +81,8 @@ means candy. Sunflower oil is used to stop clumping and is fine.
 
 **Skip:** anything labelled "cherry flavoured fruit pieces" — usually apple.
 
+**Our buyer's guide:** see [the best dried fruit](/blog/best-dried-fruit-for-charcuterie/).
+
 ## Quick FAQ
 
 **Tart or sweet dried cherries?**

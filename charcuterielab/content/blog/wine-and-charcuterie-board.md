@@ -145,6 +145,8 @@ Already chose the wine? **Light red:** prosciutto or salami, aged Gouda or Manch
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards with exact wine pairings, quantities, and the science behind every element.
 
+**Which bottles to buy:** see [the best wines under $20 for a charcuterie board](/blog/best-wine-for-charcuterie-board/).
+
 ## Related Reading
 
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)

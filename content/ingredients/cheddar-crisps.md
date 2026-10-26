@@ -87,6 +87,8 @@ chewy; added "cheese flavor" makes them taste like a snack aisle.
 **Skip:** cheese-flavored puffs and baked cheese snacks. They look similar in
 the aisle and are a completely different food.
 
+**Our buyer's guide:** see [the best cheese crisps](/blog/best-cheese-crisps/).
+
 ## Quick FAQ
 
 **Cheddar crisps or parmesan crisps — which is better for a board?**

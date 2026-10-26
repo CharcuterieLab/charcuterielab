@@ -69,6 +69,8 @@ Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party fo
 
 For pairings and serving, see the [Prosciutto di Parma](/ingredients/prosciutto-di-parma/), [jamón serrano](/ingredients/jamon-serrano/) and [jamón ibérico](/ingredients/jamon-iberico/) guides.
 
+**Which serrano to buy:** see [the best jamón serrano and Spanish ham](/blog/best-jamon-serrano/).
+
 ## Related Reading
 
 - [Bresaola vs. Prosciutto: Beef vs. Pork](/blog/bresaola-vs-prosciutto/)

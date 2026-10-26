@@ -146,6 +146,8 @@ Boxes with soft cheese or sliced meat do, and arrive with cold packs. Whole summ
 
 In the first week of December. Holiday cut-off dates come early, and perishable boxes often only ship on weekdays.
 
+**A gift that keeps arriving:** see [the best cheese-of-the-month clubs](/blog/best-cheese-of-the-month-clubs/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026, with prices as reported by the sources (they rise before the holidays, so check the seller). We ranked 10 widely sold boxes on what&#x27;s inside, how easy they are to serve, editor and buyer reviews, value and how easy they are to order.</p>

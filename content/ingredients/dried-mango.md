@@ -83,6 +83,8 @@ is first, or sulphur dioxide is listed, you've got the candied kind.
 **Skip:** anything neon orange if the goal is a cheese board rather than a
 dessert board.
 
+**Our buyer's guide:** Kirkland unsweetened mango is just mango. See [the best dried fruit](/blog/best-dried-fruit-for-charcuterie/).
+
 ## Quick FAQ
 
 **Why is some dried mango bright orange?**

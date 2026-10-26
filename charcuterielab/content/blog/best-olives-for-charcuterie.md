@@ -1,15 +1,16 @@
 ---
-title: "The Best Jarred Olives for a Charcuterie Board, Ranked"
-seo_title: "Best Jarred Olives for Charcuterie, Ranked"
+title: "The Best Olives for a Charcuterie Board, Ranked"
+seo_title: "Best Olives for a Charcuterie Board, Ranked (2026)"
 date: "2026-09-29"
 image: "/images/ingredients/castelvetrano-olives.jpg"
 excerpt: "The best olives for a charcuterie board, ranked: Mezzetta Castelvetrano Olives is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best olives for a charcuterie board, ranked: Mezzetta Castelvetrano Olives is our top pick. Star ratings, a best value and a splurge pick, and why."
 faq: "[{"question": "What are the best olives for a charcuterie board?", "answer": "Castelvetrano olives. Mezzetta is the easiest to find, and Partanna ranked higher in Tasting Table's test."}, {"question": "Should olives on a board have pits?", "answer": "Pitted is easier for guests, but olives with pits have better texture. If you keep the pits, add a small bowl for them."}, {"question": "How many kinds of olives should I serve?", "answer": "One is fine; two or three different colors and sizes look better."}]"
+updated: "2026-10-26"
 slug: "best-olives-for-charcuterie"
 ---
 
-# The Best Jarred Olives for a Charcuterie Board, Ranked
+# The Best Olives for a Charcuterie Board, Ranked
 
 > **Quick Answer:** Our top pick for olives on a charcuterie board is Mezzetta Castelvetrano Olives (4.7 out of 5). Best value: Trader Joe's Organic Conversation Olive Trio. Splurge: Kosterina Green Olives.
 

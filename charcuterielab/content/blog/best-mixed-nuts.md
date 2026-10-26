@@ -1,16 +1,17 @@
 ---
-title: "The Best Mixed Nuts for a Charcuterie Board, Ranked"
-seo_title: "Best Mixed Nuts for a Charcuterie Board, Ranked"
+title: "The Best Nuts for a Charcuterie Board: Mixed Nuts, Ranked"
+seo_title: "Best Nuts for a Charcuterie Board (Mixed Nuts, Ranked)"
 date: "2026-10-11"
 image: "/images/ingredients/cashews.jpg"
 excerpt: "The best mixed nuts for a charcuterie board, ranked: Kirkland Signature Extra Fancy Salted Mixed Nuts is our top pick. Star ratings, a best value and a splurge pick, and why."
-description: "The best mixed nuts for a charcuterie board, ranked: Kirkland Signature Extra Fancy Salted Mixed Nuts is our top pick. Star ratings, a best value and a splurge pick, and why."
+description: "The best nuts for a charcuterie board, ranked: Kirkland Signature Extra Fancy Salted Mixed Nuts is our top pick. Star ratings, a best value and a splurge pick, and why."
 faq: "[{"question": "What are the best mixed nuts for a charcuterie board?", "answer": "A peanut-free fancy mix. Trader Joe's Fancy Mixed Nuts scored 10 out of 10 at Sporked, and Kirkland Extra Fancy Mixed Nuts is the best value for a big party."}, {"question": "What does \"fancy\" mixed nuts mean?", "answer": "It usually means a mix with more premium nuts like cashews, pecans and Brazil nuts, and few or no peanuts."}, {"question": "How many nuts do I need for a board?", "answer": "About 1 ounce per person, or a small bowl for every 6 to 8 guests."}, {"question": "How do I keep nuts away from a guest with a nut allergy?", "answer": "Serve them in a separate bowl with their own spoon, keep them away from the cheese and crackers, and label them."}]"
+updated: "2026-10-26"
 slug: "best-mixed-nuts"
 tags: "["best mixed nuts", "best mixed nuts brand", "nuts for charcuterie board", "best nuts for charcuterie board", "deluxe mixed nuts"]"
 ---
 
-# The Best Mixed Nuts for a Charcuterie Board, Ranked
+# The Best Nuts for a Charcuterie Board: Mixed Nuts, Ranked
 
 > **Quick Answer:** Our top pick for mixed nuts on a charcuterie board is Kirkland Signature Extra Fancy Salted Mixed Nuts (4.5 out of 5). Tasting: Trader Joe's Roasted & Salted Fancy Mixed Nuts. Lower sodium: Great Value Lightly Salted Mixed Nuts.
 

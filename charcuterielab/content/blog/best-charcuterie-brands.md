@@ -3,8 +3,8 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 87 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
-description: "All 87 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
+excerpt: "All 97 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
+description: "All 97 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, ranked with stars."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
@@ -49,6 +49,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 |---|---|---|
 | [Best Salami Brands for a Charcuterie Board](/blog/best-salami-brands/) | Olli Salumeria | ★★★★½ 4.5 |
 | [Best Prosciutto Brands for a Charcuterie Board](/blog/best-prosciutto-brands/) | Appleton Farms Prosciutto | ★★★★☆ 4.2 |
+| [Best Jamón Serrano and Spanish Ham](/blog/best-jamon-serrano/) | Redondo Iglesias 16-month Serrano | Buyer's guide (unscored) |
 | [Best Pepperoni for a Charcuterie Board](/blog/best-pepperoni-brands/) | Boar's Head Pepperoni | ★★★★½ 4.5 |
 | [Best Soppressata Brands for a Charcuterie Board](/blog/best-soppressata-brands/) | Brooklyn Cured Sweet Soppressata | ★★★★☆ 4.2 |
 | [Best Spanish Chorizo for a Charcuterie Board](/blog/best-spanish-chorizo/) | Palacios Chorizo (mild or hot) | ★★★★½ 4.3 |
@@ -66,6 +67,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | [Best Water Crackers for a Charcuterie Board](/blog/best-water-crackers/) | Carr's Table Water Crackers, Original | ★★★★½ 4.5 |
 | [Best Crackers for a Charcuterie Board by Brand](/blog/best-crackers-for-charcuterie/) | Carr's Table Water Crackers | ★★★★½ 4.5 |
 | [Best Gluten-Free Crackers for a Charcuterie Board](/blog/best-gluten-free-crackers/) | Crunchmaster Multi-Seed Crackers | ★★★★½ 4.7 |
+| [Best Cheese Crisps for a Keto or Gluten-Free Board](/blog/best-cheese-crisps/) | Whisps Parmesan Cheese Crisps | Buyer's guide (unscored) |
 | [Best Pretzels for a Charcuterie Board](/blog/best-pretzels-for-charcuterie/) | Snack Factory Pretzel Crisps Original | ★★★★½ 4.7 |
 | [Best Pita Chips for a Charcuterie Board](/blog/best-pita-chips/) | Stacy's Simply Naked Pita Chips | ★★★★½ 4.7 |
 | [Best Kettle Chips for a Game Day Board](/blog/best-kettle-chips/) | Cape Cod Original Sea Salt Kettle Cooked Chips | ★★★★½ 4.7 |
@@ -97,10 +99,10 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 
 | Guide | Our top pick | Rating |
 |---|---|---|
-| [Best Jarred Olives for a Charcuterie Board](/blog/best-olives-for-charcuterie/) | Mezzetta Castelvetrano Olives | ★★★★½ 4.7 |
+| [Best Olives for a Charcuterie Board](/blog/best-olives-for-charcuterie/) | Mezzetta Castelvetrano Olives | ★★★★½ 4.7 |
 | [Best Marcona Almonds for a Charcuterie Board](/blog/best-marcona-almonds/) | Trader Joe's Roasted & Salted Rosemary Marcona Almonds | ★★★★½ 4.5 |
 | [Best Pickles for a Charcuterie Board (Plus Cornichons)](/blog/best-pickles-for-charcuterie/) | Mt. Olive Kosher Baby Dills | ★★★★½ 4.5 |
-| [Best Mixed Nuts for a Charcuterie Board](/blog/best-mixed-nuts/) | Kirkland Signature Extra Fancy Salted Mixed Nuts | ★★★★½ 4.5 |
+| [Best Nuts for a Charcuterie Board (Mixed Nuts)](/blog/best-mixed-nuts/) | Kirkland Signature Extra Fancy Salted Mixed Nuts | ★★★★½ 4.5 |
 | [Best Cornichons for a Charcuterie Board](/blog/best-cornichons/) | Maille Original Cornichons | Buyer's guide (unscored) |
 | [Best Jarred Marinated Artichoke Hearts](/blog/best-marinated-artichoke-hearts/) | Napoleon Marinated Grilled Artichokes | Buyer's guide (Sporked test) |
 
@@ -110,6 +112,9 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 |---|---|---|
 | [Best Dark Chocolate for a Charcuterie Board](/blog/best-dark-chocolate/) | Tony's Chocolonely Dark Chocolate 70% | ★★★★½ 4.4 |
 | [Best Store-Bought Shortbread for a Dessert Board](/blog/best-shortbread/) | Walkers Pure Butter Shortbread | ★★★★½ 4.5 |
+| [Best Store-Bought Christmas Cookies](/blog/best-store-bought-christmas-cookies/) | Pepperidge Farm holiday Milanos | Buyer's guide (unscored) |
+| [Best Hot Cocoa Mix for a Hot Cocoa Board](/blog/best-hot-cocoa-mix/) | Land O Lakes Chocolate Supreme | Buyer's guide (unscored) |
+| [Best Dried Fruit for a Charcuterie Board](/blog/best-dried-fruit-for-charcuterie/) | Mariani Turkish Apricots | Buyer's guide (unscored) |
 | [Best Medjool Dates for a Charcuterie Board](/blog/best-medjool-dates/) | Costco Medjool Dates (value) | Buyer's guide (unscored) |
 
 ## Drinks
@@ -117,6 +122,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Prosecco for a Charcuterie Board](/blog/best-prosecco/) | Mionetto Prosecco Brut | ★★★★½ 4.6 |
+| [Best Wines Under $20 for a Charcuterie Board](/blog/best-wine-for-charcuterie-board/) | Segura Viudas Brut Reserva Cava | Buyer's guide (unscored) |
 | [Best Sparkling Cider (Non-Alcoholic)](/blog/best-sparkling-cider/) | Martinelli's Sparkling Cider | ★★★★★ 4.8 |
 
 ## Gifts
@@ -124,6 +130,7 @@ Standing in the cracker aisle with twelve boxes in front of you? These guides te
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | ★★★★½ 4.6 |
+| [Best Cheese-of-the-Month Clubs](/blog/best-cheese-of-the-month-clubs/) | Murray's Cheese Explorer's Club | Buyer's guide (unscored) |
 | [Best Cheese Knife Sets](/blog/best-cheese-knife-sets/) | Boska Copenhagen Cheese Knife Set | Buyer's guide (unscored) |
 | [Best Charcuterie Boards to Buy](/blog/best-charcuterie-boards/) | A 16-inch-plus hardwood board | Buyer's guide (unscored) |
 | [Charcuterie gift guide](/gifts/) | 50 Boards, Built by Science | Gift guide |
@@ -149,6 +156,9 @@ Shopping at one store? These rank the best charcuterie picks at each, and the ra
 | [Best Safeway and Albertsons Charcuterie Board Items](/blog/best-safeway-albertsons-charcuterie-items/) | Laura Chenel Original Fresh Goat Cheese | ★★★★½ 4.7 |
 | [What to Buy at Sprouts for a Charcuterie Board](/blog/best-sprouts-charcuterie-items/) | Sprouts Sliced Pepper Jack and Provolone | Buyer's guide (unscored) |
 | [What to Buy at Lidl for a Charcuterie Board](/blog/best-lidl-charcuterie-items/) | Preferred Selection Parmigiano Reggiano, 24 months | Buyer's guide (unscored) |
+| [Trader Joe's Holiday Charcuterie Items 2026](/blog/trader-joes-holiday-charcuterie-items/) | Creamy Toscano Dusted with Cinnamon | Seasonal guide |
+| [Costco Holiday Cheese and Charcuterie 2026](/blog/costco-holiday-charcuterie/) | Fratelli Beretta Charcuterie Kit | Seasonal guide |
+| [Aldi Holiday Charcuterie Items 2026](/blog/aldi-holiday-charcuterie-items/) | Winter Wonderland Cheese Advent Calendar | Seasonal guide |
 
 ## Best value picks
 
@@ -218,7 +228,7 @@ Every product gets a score from 1 to 5 on five things, weighted into one overall
 
 **Researched, not taste-tested (yet).** These rankings come from published taste tests (from outlets like Tasting Table, Sporked, Daily Meal and The Kitchn), award results, ingredient labels and prices. We have not tasted every product side by side. When we taste-test a category ourselves, that guide will say Tested. Each guide lists its sources.
 
-**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, capicola, pâté, quince paste, cornichons, Medjool dates, herb cheese spreads, cheese balls, and the Sprouts and Lidl store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
+**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, capicola, pâté, quince paste, cornichons, Medjool dates, herb cheese spreads, cheese balls, hot cocoa, cookies, dried fruit, Spanish ham, cheese crisps, wine, cheese clubs, and the Sprouts, Lidl and holiday store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
 
 **Updated regularly.** Products change recipes, prices move and stores change what they stock. Each guide shows when it was last checked.
 
