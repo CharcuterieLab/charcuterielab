@@ -3248,18 +3248,17 @@ function llmsTxt(pages) {
 
 // Where beehiiv sends a reader after the cheat sheet signup (set in the
 // beehiiv form's Settings > Redirect to an external website). Not indexed.
-// Newsletter landing (12 Oct 2026): every free printable in one place, what a
+// Newsletter landing (12 Oct 2026, trimmed 25 Oct): the signup freebies, what a
 // weekly issue looks like, and the signup. The header "Free printables"
 // button, the footer and social bio links point here.
 const FREE_PRINTABLES = [
   ["/images/charcuterie-cheat-sheet.webp", "The Charcuterie Cheat Sheet", "How much to buy for 4 to 50 guests, the build order, fridge timing and four pairing rules.", "/downloads/charcuterie-cheat-sheet.pdf", "2 pages"],
-  ["/images/leads/best-buys-top-picks.webp", "Top Picks: the best brand of everything", "The #1 pick from every buying guide on one list to take to the store.", "/downloads/best-buys-top-picks.pdf", "2 pages"],
-  ["/images/leads/holiday-board-countdown.webp", "Holiday board countdown plans", "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build.", "/downloads/holiday-board-countdown.pdf", "4 pages"],
-  ["/images/leads/pairing-cheat-sheet.webp", "The Pairing Cheat Sheet", "18 wines and beers and the cheeses and meats to put out with each.", "/downloads/pairing-cheat-sheet.pdf", "2 pages"],
-  ["/images/leads/cheese-counter-card.webp", "The Cheese Counter Card", "How much cheese to buy, one pick from each texture and what to ask at the counter.", "/downloads/cheese-counter-card.pdf", "1 page"],
-  ["/images/leads/board-shopping-list.webp", "Board shopping lists", "A printable list for every board in the Board Library, with amounts for the guest count.", "/boards/", "48 boards"],
   ["/images/book/look-shopping-list-sm.webp", "Board 01 from the book, free", "The Classic American Starter: shopping list with prices, timed build and swaps.", "/downloads/charcuterie-lab-free-board-01.pdf", "11 pages"]
 ];
+// Big skim (25 Oct 2026): signup promises only the two above. The other lead
+// PDFs (Top Picks, holiday countdown, pairing sheet, cheese card, board lists)
+// stay as page-matched freebies via freebieFor() and go out one per issue,
+// so they're no longer listed as a bundle here or on the thank-you page.
 
 function newsletterPage() {
   const cards = FREE_PRINTABLES.map(([img, title, line, , size]) => `<li><img src="${img}" alt="" width="120" height="155" loading="lazy" decoding="async"><div><p class="nl-size">${escapeHtml(size)}</p><h3>${escapeHtml(title)}</h3><p>${escapeHtml(line)}</p></div></li>`).join("\n        ");
@@ -3267,7 +3266,7 @@ function newsletterPage() {
     title: "Free Charcuterie Printables and the Lab Report Newsletter",
     canonical: "/newsletter/",
     image: "/images/charcuterie-cheat-sheet.webp",
-    description: "Get every Charcuterie Lab printable free: the cheat sheet, Top Picks list, holiday countdown plans, pairing cheat sheet and board shopping lists. Plus the weekly Lab Report.",
+    description: "Get the free Charcuterie Cheat Sheet and a full board plan from the book, plus one board idea, one pairing and one best buy every week in the Lab Report.",
     body: `<main class="nl-page">
   <section class="nl-hero">
     <div class="nl-inner nl-hero-grid">
@@ -3283,8 +3282,8 @@ function newsletterPage() {
   </section>
   <section class="nl-section">
     <div class="nl-inner">
-      <h2>Every free printable, yours when you sign up</h2>
-      <p>The thank-you page has every one of these to download, and the welcome email links them too.</p>
+      <h2>What you get when you sign up</h2>
+      <p>Both are on the thank-you page the moment you join.</p>
       <ul class="nl-free">
         ${cards}
       </ul>
@@ -3303,7 +3302,7 @@ function newsletterPage() {
         <h3>The best buy</h3>
         <p>This week's pick from the buying guides, and the store-brand version that's nearly as good.</p>
         <h3>New this week</h3>
-        <p>Any new free printable, first.</p>
+        <p>Some weeks, a free printable for subscribers only: a holiday countdown plan, a pairing card or a list to take to the store.</p>
       </article>
     </div>
   </section>
@@ -3312,7 +3311,7 @@ function newsletterPage() {
       <h2>Get the cheat sheet now</h2>
       <div class="nl-form">${bhForm("nl-form-bottom", "newsletter_page_bottom")}</div>
       <details><summary>How often will you email me?</summary><p>Once a week, plus the odd note when a new printable or book lands.</p></details>
-      <details><summary>Does it cost anything?</summary><p>No. The newsletter and the printables on this page are free.</p></details>
+      <details><summary>Does it cost anything?</summary><p>No. The newsletter and the printables that come with it are free.</p></details>
       <details><summary>Can I leave?</summary><p>Yes. Every email has an unsubscribe link, and it works immediately.</p></details>
     </div>
   </section>
@@ -3342,7 +3341,7 @@ function cheatThanksPage() {
           <p class="thanks-note">A copy is on its way to your inbox too, with the first Lab Report. If it isn't there in a few minutes, check Promotions or Spam and drag it to your inbox so the next one lands.</p>
         </div>
       </div>
-      <h2>All your free printables</h2>
+      <h2>Your bonus: a full board from the book</h2>
       <ul class="nl-free thanks-free">
         ${FREE_PRINTABLES.filter(([, , , href]) => href !== CHEAT_PDF).map(([img, title, line, href, size]) => `<li><img src="${img}" alt="" width="120" height="155" loading="lazy" decoding="async"><div><p class="nl-size">${escapeHtml(size)}</p><h3><a href="${href}"${href.endsWith(".pdf") ? " download" : ""}>${escapeHtml(title)}</a></h3><p>${escapeHtml(line)}</p></div></li>`).join("\n        ")}
       </ul>
