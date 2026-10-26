@@ -41,11 +41,29 @@
     "book": "plant",
     "n": 2
   },
+  "plant-based-italian-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-italian-plant-based-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 3
+  },
   "plant-based-mezze-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/vegan-middle-eastern-mezze-board",
     "price": "$3",
     "book": "plant",
     "n": 5
+  },
+  "plant-based-mexican-fiesta-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-mexican-fiesta-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 7
+  },
+  "plant-based-brunch-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-breakfast-brunch-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 10
   },
   "plant-based-dessert-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/vegan-dessert-plant-board",
@@ -82,5 +100,47 @@
     "price": "$3",
     "book": "world",
     "n": 12
+  },
+  "dim-sum-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-chinese-dim-sum-board",
+    "price": "$3",
+    "book": "world",
+    "n": 11
+  },
+  "portuguese-petiscos-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-portuguese-petiscos-board",
+    "price": "$3",
+    "book": "world",
+    "n": 4
+  },
+  "moroccan-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-moroccan-spice-board",
+    "price": "$3",
+    "book": "world",
+    "n": 7
+  },
+  "thai-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-thai-spice-board",
+    "price": "$3",
+    "book": "world",
+    "n": 9
+  },
+  "vietnamese-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-vietnamese-street-board",
+    "price": "$3",
+    "book": "world",
+    "n": 10
+  },
+  "brazilian-churrasco-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-brazilian-churrasco-board",
+    "price": "$3",
+    "book": "world",
+    "n": 13
+  },
+  "argentine-asado-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-argentine-asado-board",
+    "price": "$3",
+    "book": "world",
+    "n": 14
   }
 }
