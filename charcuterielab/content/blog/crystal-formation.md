@@ -12,7 +12,7 @@ tags: "["crystal formation", "charcuterie science", "pairing science", "charcute
 
 # The White Crystals in Aged Cheese: What They Are and What They Mean
 
-> **Quick Answer:** White crystals in aged cheese are tyrosine amino acids that precipitate during extended aging as proteins break down through proteolysis. They're completely safe, a marker of quality aging, and appear most often in Parmigiano-Reggiano, aged Gouda, and Gruyère. Calcium lactate crystals — softer and white — can also appear on the exterior of some cheeses, particularly cheddar.
+> **Quick Answer:** Those crunchy white crystals are **tyrosine**, an amino acid that forms as cheese ages. They're **safe and a sign of good aging**, common in Parmigiano, aged Gouda and Gruyère.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>

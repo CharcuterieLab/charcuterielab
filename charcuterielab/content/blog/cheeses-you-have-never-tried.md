@@ -11,9 +11,9 @@ slug: "cheeses-you-have-never-tried"
 
 # 15 Cheeses Most People Have Never Tried (and What to Pair Them With)
 
-> **Quick Answer:** Fifteen cheeses worth hunting down: Taleggio, Comté, Mimolette, Époisses, Ossau-Iraty, Robiola, stracciatella, halloumi, Mahón, Brillat-Savarin, Morbier, Tomme de Savoie, Cotija, Caciocavallo and Idiazabal. Start with Comté or Ossau-Iraty if you want something familiar, and Époisses if you want the boldest cheese on the list.
+> **Quick Answer:** 15 to hunt down, including **Taleggio, Comté, Mimolette, Époisses and Ossau-Iraty**. Want something familiar? Start with **Comté**. Want the boldest? **Époisses**.
 
-Count how many of these you have tried, then send the list to the friend who always orders the same brie. Each one comes with where it is from, what it tastes like, and one pairing to try it with.
+Each comes with where it's from, what it tastes like and one pairing.
 
 ## The checklist
 

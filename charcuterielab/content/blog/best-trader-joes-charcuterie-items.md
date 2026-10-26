@@ -12,14 +12,14 @@ tags: "["trader joe's charcuterie", "best trader joe's charcuterie items", "trad
 
 # The Best Trader Joe's Charcuterie Board Items, Ranked (Meats, Crackers and Extras)
 
-> **Quick Answer:** The best Trader Joe's meat for a charcuterie board is Salame di Parma Mild Salami (4.5 out of 5). Best crackers: Raisin Rosemary Crisps. Best extras: Fig Butter and Roasted & Salted Rosemary Marcona Almonds. Splurge: the Citterio Prosciutto di Parma. For the cheeses, see our separate ranking of the best Trader Joe's cheeses.
+> **Quick Answer:** Best TJ's meat: **Salame di Parma Mild Salami** (4.5/5). Best crackers: **Raisin Rosemary Crisps**. Best extras: **Fig Butter** and **Rosemary Marcona Almonds**. Splurge: **Citterio Prosciutto di Parma**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Salame di Parma Mild Salami</a><p class="sk-top-line">Mild enough for everyone, and already sliced.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Raisin Rosemary Crisps</a><p class="sk-top-line">Taste like the pricey artisan crisps for much less.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best extra</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Fig Butter</a><p class="sk-top-line">Fig and cheese is a classic, and the jar is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 12, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
-Trader Joe's is the easiest one-stop shop for a charcuterie board, as long as you know which packs to grab. Our Trader Joe's cheese ranking covers the cheese case. This guide covers everything else: the cured meats, crackers, spreads, nuts and olives that make a board, ranked.
+This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the [best Trader Joe's cheeses](/blog/best-trader-joes-cheeses/).
 
 :::html
 <h2 id="picks">All 12, ranked</h2>
@@ -161,7 +161,10 @@ For more store picks, see our guides to [Costco](/blog/best-costco-charcuterie-i
 
 **What should I buy at Trader Joe's for a charcuterie board?**
 
-Salame di Parma and the Spanish Inspired Charcuteria for meat, Raisin Rosemary Crisps and Naan Crackers, Fig Butter, Rosemary Marcona Almonds, the Olive Trio, and three cheeses such as Unexpected Cheddar, Triple Crème Brie and 1000 Day Gouda.
+- **Meat:** Salame di Parma and the Spanish Inspired Charcuteria
+- **Crackers:** Raisin Rosemary Crisps and Naan Crackers
+- **Extras:** Fig Butter, Rosemary Marcona Almonds and the Olive Trio
+- **Cheese:** three, such as Unexpected Cheddar, Triple Crème Brie and 1000 Day Gouda
 
 **What is the best Trader Joe's salami?**
 

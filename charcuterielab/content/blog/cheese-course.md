@@ -12,7 +12,7 @@ tags: "["cheese course", "after dinner cheese plate", "cheese course order", "ho
 
 # The Cheese Course: How to Serve Cheese After Dinner
 
-> **Quick Answer:** A cheese course is **three cheeses** (one soft, one aged, one blue) with **plain bread, one fruit and a few nuts**, served **after the main course**. In France it comes before dessert; in Britain cheese and port often end the meal. Plan **about 1½ to 2 oz of cheese per guest** in total, take it out of the fridge while you eat dinner, and eat it **mildest to strongest**. To drink, keep pouring the dinner wine, or open **port for Stilton** or **Sauternes for Roquefort**.
+> **Quick Answer:** **Three cheeses** (soft, aged, blue) with bread, one fruit and a few nuts, **after the main course**. Plan **1½ to 2 oz per guest** and eat mildest to strongest. Pour port with Stilton.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The three-cheese formula</p>
@@ -23,7 +23,7 @@ tags: "["cheese course", "after dinner cheese plate", "cheese course order", "ho
 <nav class="sk-jump" aria-label="On this page"><a href="#when">When to serve it</a><a href="#pick">Picking the cheeses</a><a href="#amounts">How much</a><a href="#serve">How to serve it</a><a href="#sides">What goes with it</a><a href="#drinks">What to drink</a><a href="#faq">FAQ</a></nav>
 :::
 
-A charcuterie board is built to fill people up before dinner. A cheese course does the opposite job. It comes after a big meal, so it's small: a few good cheeses, some bread, and the rest of the wine. It's an easy way to make a holiday dinner feel special without baking anything, and it gives everyone a reason to stay at the table a little longer.
+It's small on purpose: a reason to stay at the table after a big dinner.
 
 :::html
 <h2 id="when">When to serve it</h2>

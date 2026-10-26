@@ -12,14 +12,14 @@ tags: "["walmart charcuterie", "walmart charcuterie board", "best walmart cheese
 
 # The Best Walmart Charcuterie Board Items, Ranked
 
-> **Quick Answer:** The best Walmart item for a charcuterie board is the Marketside Parmigiano Reggiano wedge (4.8 out of 5): real 24-month Parmigiano for about $8. Best soft cheese: Marketside Triple Crème Brie. Best meat: Marketside Sliced Prosciutto. A board for 6 from these picks costs about $35.
+> **Quick Answer:** Best Walmart pick: **Marketside Parmigiano Reggiano** (4.8/5), real 24-month cheese for about $8. Best soft cheese: **Marketside Triple Crème Brie**. Best meat: **Marketside Prosciutto**. A board for 6 costs about $35.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marketside Parmigiano Reggiano, 24 months</a><p class="sk-top-line">Real aged Parmigiano for a low price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-3">Marketside Triple Crème Brie</a><p class="sk-top-line">A soft, rich cheese for very little.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-9">Marketside Sliced Prosciutto</a><p class="sk-top-line">Cheap, and easy to drape or fold into roses.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-9">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
-Walmart isn't known for fancy cheese, but its specialty cheese case and Marketside store brand have enough good picks to build a board for about $35. Few food sites have taste-tested Walmart's cheeses, so these rankings lean on Walmart's own shopper ratings, ingredients and price.
+Few sites have tested Walmart's cheese, so we lean on shopper ratings, ingredients and price.
 
 :::html
 <h2 id="picks">All 10, ranked</h2>
@@ -120,7 +120,14 @@ Walmart isn't known for fancy cheese, but its specialty cheese case and Marketsi
 
 ## Building a board from these
 
-For 6 people, buy the Parmigiano, the triple crème brie and Boursin, the prosciutto and peppercorn salami, Good Thins, the olives, and grapes and raspberries from produce. [Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s similar Walmart boards came to about $32 to $35 before tax.
+For 6 people:
+
+- **Cheese:** the Parmigiano, the triple crème brie and Boursin
+- **Meat:** the prosciutto and peppercorn salami
+- **Crackers:** Good Thins
+- **Extras:** olives, plus grapes and raspberries from produce
+
+[Ain't Too Proud To Meg](https://ainttooproudtomeg.com/how-to-create-a-walmart-charcuterie-cheese-board/)'s similar Walmart boards came to about $32 to $35 before tax.
 
 Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal. For more cheap boards, see our [budget charcuterie board](/blog/budget-charcuterie-board/) and the [$20 charcuterie board challenge](/blog/20-dollar-charcuterie-board-challenge/).
 

@@ -12,9 +12,9 @@ tags: "["salami rose", "how to make a salami rose", "charcuterie techniques", "m
 
 # How to Make a Salami Rose (Step-by-Step with Photos)
 
-> **Quick Answer:** Fold thin salami slices over the rim of a wine glass, half inside and half outside, with each slice overlapping the last by about half. Build **three layers, about 10 to 14 slices**, each layer a little lower and turned a little so the gaps don't line up. Press the slices down into the glass, flip it upside down onto the board and lift. Use **thin Genoa or hard salami about 3 to 4 inches across**, and let it sit out 10 minutes first so it bends without cracking.
+> **Quick Answer:** Fold **10 to 14 thin salami slices** over the rim of a wine glass in 3 overlapping layers. Press down, flip the glass onto the board and lift. Let the salami sit out 10 minutes first so it bends.
 
-A salami rose is the fastest way to make a grocery-store board look like it came from a caterer. It takes about two minutes, it uses salami you were going to put on the board anyway, and it gives the board a focal point that pulls the eye in. The method below is the wine-glass method most people mean when they say "salami rose." There's a no-glass method further down for small boards and charcuterie cups.
+Two minutes, and a grocery-store board looks catered. No glass? There's a method for that below.
 
 ![A finished salami rose made from thin Genoa salami, sitting on a wooden charcuterie board beside cheese and basil leaves](/images/salami-rose-finished.jpg)
 

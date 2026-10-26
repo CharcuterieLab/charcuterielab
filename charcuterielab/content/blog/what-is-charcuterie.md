@@ -11,12 +11,7 @@ tags: "["what is charcuterie", "charcuterie definition", "charcuterie history", 
 
 # What Is Charcuterie? The Complete, Science-Backed Answer
 
-**Charcuterie** (pronounced *shar-KOO-tuh-ree*) is the French culinary art of preparing and preserving meat products — specifically pork — through curing, smoking, salting, and cooking. The word derives from the French *chair* (flesh) and *cuit* (cooked), literally meaning "cooked flesh." In its original definition, charcuterie referred both to the products themselves (cured meats, pâtés, terrines, sausages) and to the specialized shops that produced and sold them.
-
-Today, the word has expanded — particularly in the United States — to describe the assembled boards of cured meats, cheeses, condiments, and accompaniments that have become one of the most popular forms of casual entertaining. This article covers both: what charcuterie originally meant, what it means now, and why both definitions matter.
-
-
-> **Quick Answer:** Charcuterie (shar-KOO-tuh-ree) is the French culinary tradition of preparing and preserving meat products — including cured whole-muscle meats, fermented sausages, pâtés, and terrines — using salt, smoke, and fermentation. In contemporary usage, "charcuterie" refers to an assembled board of cured meats and cheeses served with accompaniments. The word derives from the French *chair cuit* ("cooked flesh").
+> **Quick Answer:** Charcuterie (**shar-KOO-tuh-ree**) is the French craft of curing meat: salami, ham, pâté. Today it usually means **a board of cured meat and cheese** with crackers, fruit and spreads.
 
 ---
 
@@ -90,7 +85,6 @@ A great charcuterie board isn't only a collection of good ingredients. It's a de
 When these elements are present and positioned thoughtfully, the board becomes greater than the sum of its parts. Every bite combination a guest discovers on their own is a small moment of delight that they'll associate with the host who built it.
 
 Charcuterie Lab is built around the science of why these combinations work. If you want more practical examples, the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com) sends pairing science and board-building ideas you can use on your next spread.
-
 
 ## Related Reading
 

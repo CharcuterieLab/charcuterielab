@@ -12,7 +12,7 @@ tags: "["charcuterie board nuts", "charcuterie board", "board building"]"
 
 # Nuts on a Charcuterie Board: Which Ones and Why
 
-> **Quick Answer:** Marcona almonds are the default: mild, buttery and good with nearly every cheese. Add walnuts next to blue or aged cheese, or pecans next to brie. Plan ½–1 oz per person, lightly salted, and stick to one or two kinds.
+> **Quick Answer:** Start with **Marcona almonds**: mild and good with nearly every cheese. Add walnuts by blue or aged cheese, or pecans by brie. Plan ½ to 1 oz per person, and stick to one or two kinds.
 
 > **Nut allergy at the party?** Roasted pumpkin and sunflower seeds give the same crunch. See the [nut-free board guide](/dietary/nut-free/) for where else nuts hide.
 

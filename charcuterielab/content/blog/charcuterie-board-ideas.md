@@ -9,17 +9,9 @@ faq: "[{"question": "What are the most popular charcuterie board themes?", "answ
 updated: "2026-10-25"
 ---
 
-> **Quick Answer:** Fifty complete boards, sorted by occasion, budget and guest count. Each one lists how many it serves, what it costs, how long it takes and the skill level, plus the one detail that makes it work, from a $40–$65 supermarket starter board for 8–12 people to holiday, date-night and game-day boards.
+> **Quick Answer:** **50 complete boards**, sorted by occasion, budget and guest count. Each lists how many it serves, the cost, the time and the skill level, from a $40 starter board to holiday, date-night and game-day boards.
 
-Search "charcuterie board ideas" and you get photographs. Beautiful ones. What you rarely get is the reasoning: why *those* five things, in *that* arrangement, for *that* particular Tuesday.
-
-A board is not a still life. It is a small piece of engineering with a job to do, and the job changes completely depending on who is standing in front of it. A board that holds twelve people for three hours at a holiday party has almost nothing structurally in common with a board for two people on a Friday night, even if the photographs look similar. One needs redundancy and refresh cycles. The other needs restraint and a single genuinely good cheese.
-
-What follows is fifty distinct board concepts, each built for a specific occasion, guest count and budget. For each one you get the shape of the idea, what it runs, roughly how long it takes, and the one detail that makes it work — the thing that would not be obvious from looking at a photo.
-
-These are drawn from [Charcuterie Lab: 50 Boards, Built by Science](https://www.amazon.com/dp/B0H2Y39R41), where each of these fifty gets a full blueprint: exact quantities, the build order, substitutions, and the optional upgrades. Think of this page as the table of contents with the reasoning left in.
-
-If you are still finding your footing, start with [what goes on a charcuterie board](/blog/what-goes-on-charcuterie-board/). It covers the structural logic that all fifty of these sit on top of.
+Each idea comes with the one detail that makes it work. The full plans are in [50 Boards, Built by Science](https://www.amazon.com/dp/B0H2Y39R41). New to boards? Start with [what goes on a charcuterie board](/blog/what-goes-on-charcuterie-board/).
 
 :::html
 <h2 id="ideas-by-type">Charcuterie board ideas by type</h2>
@@ -33,7 +25,6 @@ If you are still finding your footing, start with [what goes on a charcuterie bo
 <section class="bi-type" id="fancy"><img src="/images/50-boards-14-luxury-splurge.webp" alt="A luxury charcuterie board with Époisses and jamón ibérico" width="1200" height="800" loading="lazy" decoding="async"><div class="bi-type-body"><h3>Fancy charcuterie board ideas</h3><p>Showpiece boards for a celebration, a wine night or New Year&#x27;s Eve.</p><ul class="bi-type-list"><li><a href="#22-the-luxury-splurge-board">Luxury Splurge Board</a> <span>8–12 people · $150–$250 · 40–50 minutes</span></li><li><a href="#23-the-truffle-and-amp-luxury-board">Truffle &amp; Luxury Board</a> <span>6–10 people · $100–$180 · 20–25 minutes</span></li><li><a href="#44-the-all-cheese-connoisseur-board">All-Cheese Connoisseur Board</a> <span>8–12 people · $60–$100 · 20–25 minutes</span></li><li><a href="#6-the-wine-and-amp-cheese-pairing-board">Wine &amp; Cheese Pairing Board</a> <span>8–12 people · $70–$110 · 30–35 minutes</span></li><li><a href="#9-the-new-year-s-eve-board">New Year&#x27;s Eve Board</a> <span>10–15 people · $90–$145 · 35–45 minutes</span></li><li><a href="#49-the-showstopper-grand-board">Showstopper Grand Board</a> <span>20–30 people · $120–$200 · 45–60 minutes</span></li></ul><p class="bi-type-more">Planning a big one? See the <a href="/boards/luxury-charcuterie-board/">luxury board plan</a>.</p></div></section>
 </div>
 :::
-
 
 # The Five Foundations
 

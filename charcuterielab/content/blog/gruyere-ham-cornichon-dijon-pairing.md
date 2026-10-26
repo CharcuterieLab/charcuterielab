@@ -11,7 +11,7 @@ tags: "["gruyère", "ham", "cornichon", "dijon", "pairing science", "charcuterie
 
 # Gruyère, Ham, Cornichon, and Dijon: Why This Pairing Works
 
-> **Quick Answer:** The French deli cluster is four mechanisms in one composed bite. Gruyère's Alpine fat and propionic nuttiness anchors the flavor profile. Ham's cured salt pre-wets the palate and contributes glutamate umami that resonates with the cheese. Cornichon acetic acid resets the fat between bites. Dijon's allyl isothiocyanate bridges the clearing acid and the cheese's warm nuttiness with volatile pungency. Nothing is decoration.
+> **Quick Answer:** Each part has a job: **nutty Gruyère** is the base, **salty ham** adds savory depth, the **cornichon** cuts the fat, and **Dijon** ties it together with heat. Eat all four in one bite.
 
 ## The Direct Answer
 

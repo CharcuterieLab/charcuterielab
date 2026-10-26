@@ -12,7 +12,7 @@ faq: "[{"question":"Is serrano ham the same as prosciutto?","answer":"No. Both a
 
 # Prosciutto vs. Serrano Ham (and Ibérico): What's the Difference?
 
-> **Quick Answer:** Prosciutto and serrano are both dry-cured pork legs, sliced thin and eaten uncooked. Prosciutto is Italian: soft, silky, sweet and delicate. Serrano is Spanish: firmer, drier, more savory and a little saltier. Jamón ibérico is Spain's premium ham, made from Iberian pigs and aged longer, with a nutty, rich flavor and a price to match. For most boards, prosciutto is the easy choice; serrano is the one for a Spanish board.
+> **Quick Answer:** Both are cured pork legs. **Prosciutto** (Italy) is soft, silky and sweet. **Serrano** (Spain) is firmer and more savory. **Jamón ibérico** is Spain's premium, nutty ham. For most boards, use prosciutto.
 
 ## Are prosciutto and serrano the same thing?
 

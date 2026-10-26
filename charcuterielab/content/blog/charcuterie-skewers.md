@@ -12,9 +12,9 @@ tags: "["charcuterie skewers", "antipasto skewers", "charcuterie kabobs", "capre
 
 # Charcuterie Skewers: 8 Combinations, How Many to Make and How to Build Them
 
-> **Quick Answer:** Charcuterie skewers are a board on a stick: **folded cured meat, a cheese cube, and something fresh or briny** like a grape, olive or cherry tomato. Use **4-inch picks** for 2 or 3 bites or **6-inch skewers** for 5 or 6 pieces. Plan **3 to 4 skewers per guest** alongside other food, or **6 to 8** if they're the main appetizer. Make them up to a day ahead and add drizzles and fresh basil just before serving.
+> **Quick Answer:** A board on a stick: **folded meat, a cheese cube, and a grape, olive or tomato**. Plan **3 to 4 per guest** with other food, **6 to 8** if they're the main appetizer. Make them a day ahead.
 
-Skewers turn a charcuterie board into finger food. Guests don't need a plate or a knife, there's no crowding around one board, and every bite has the right balance of salty, creamy and fresh. They're perfect for cocktail parties, showers, game days and any party where people stand and mingle.
+No plate, no knife, no crowding. Perfect for parties where people stand and mingle.
 
 ## 8 combinations that work
 

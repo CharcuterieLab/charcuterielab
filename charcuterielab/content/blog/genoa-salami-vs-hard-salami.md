@@ -13,7 +13,7 @@ tags: "["genoa salami vs hard salami", "what is hard salami", "hard salami vs ge
 
 # Genoa Salami vs. Hard Salami: What's the Difference?
 
-> **Quick Answer:** Genoa salami is softer and moister, usually all pork, seasoned with garlic, pepper and often wine, with a gentle fermented tang. Hard salami is an American deli style that's drier and firmer, often made with pork and beef, often smoked, and milder. Choose Genoa for a charcuterie board; choose hard salami when you want a firm slice for sandwiches, crackers or kids.
+> **Quick Answer:** **Genoa is softer**, usually all pork, with garlic and wine. **Hard salami is drier and firmer**, often pork and beef, and milder. Use Genoa on a board; hard salami for sandwiches and kids.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Genoa</p><span class="sk-top-name">Soft, all pork, garlicky</span><p class="sk-top-line">Pepper and often wine, with a light tang. Folds into rivers.</p></div><div class="sk-top-buy"><span class="sk-price">Best on a board</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Hard salami</p><span class="sk-top-name">Firm, pork and beef, often smoked</span><p class="sk-top-line">Milder and drier. Stays flat and stiff.</p></div><div class="sk-top-buy"><span class="sk-price">Best in lunches</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Swap?</p><span class="sk-top-name">Yes, they&#x27;re interchangeable</span><p class="sk-top-line">Expect a firmer, smokier, milder bite from hard salami.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#at-a-glance">Side by side</a></span></div></div></div>
@@ -24,11 +24,7 @@ tags: "["genoa salami vs hard salami", "what is hard salami", "hard salami vs ge
 <h2 id="genoa">What is Genoa salami?</h2>
 :::
 
-Genoa salami is the Italian-American name for a salami made in the style of Genoa, in northwest Italy. It's the salami most US deli counters slice first.
-
-It's usually made with pork and pork fat, seasoned with garlic and pepper, often with a splash of red or white wine. Many versions have a light tang from fermentation. You'll see soft white flecks of fat through a rosy slice, and the bite is tender, almost supple.
-
-For pairings and serving notes, see the [Genoa salami ingredient guide](/ingredients/genoa-salami/).
+More pairings in the [Genoa salami guide](/ingredients/genoa-salami/).
 
 :::html
 <h2 id="hard">What is hard salami?</h2>

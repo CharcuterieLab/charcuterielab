@@ -12,9 +12,9 @@ tags: "["christmas tree charcuterie board", "christmas tree veggie tray", "chris
 
 # Christmas Tree Charcuterie Board (and Christmas Tree Veggie Tray): Serves 8 to 20
 
-> **Quick Answer:** A Christmas tree charcuterie board is a **triangle built in rows** on a long board: a **cheese star** at the top, then rows that get wider as you go down, of cheese cubes, folded salami, green grapes and olives. A zigzag of **rosemary** makes the garland, **cherry tomatoes and pomegranate seeds** are the ornaments, and **pretzel rods** make the trunk. Before a holiday meal, plan **2 oz each of meat and cheese per guest**, about 1½ lb of each for 12. The **veggie tray** version uses broccoli for the tree and a yellow pepper star.
+> **Quick Answer:** Build a **triangle in rows**: a cheese star on top, then wider rows of cheese, salami, grapes and olives. Rosemary is the garland, tomatoes are ornaments, pretzel rods the trunk. Plan **2 oz each of meat and cheese per guest**.
 
-The tree is the easiest Christmas shape to build, because every row is a straight line and the board's shape tells you how wide each row should be. It's the sibling of the [Christmas wreath board](/blog/christmas-wreath-charcuterie-board/): the wreath suits a round table, and the tree suits a buffet or a long counter where guests walk past it.
+Every row is a straight line, so it's the easiest Christmas shape. Round table? Try the [wreath board](/blog/christmas-wreath-charcuterie-board/).
 
 ## Board size and how many it serves
 

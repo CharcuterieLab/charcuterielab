@@ -27,11 +27,13 @@ the fresh horseshoe rings need a pan.
 
 ## What it is
 
-The board-relevant styles are *kiełbasa krakowska* (a large, lean, smoked
-sausage sliced thin like salami), *kabanosy* (long thin dried sticks), and
-*kiełbasa wiejska* (the fresh smoked horseshoe most Americans picture, which is
-best warmed). All lean on garlic, marjoram and pepper, and most are smoked over
-fruitwood.
+The styles for a board:
+
+- ***Kiełbasa krakowska*:** large, lean and smoked; slice it thin like salami
+- ***Kabanosy*:** long, thin dried sticks
+- ***Kiełbasa wiejska*:** the fresh smoked horseshoe most Americans picture; best warmed
+
+All lean on garlic, marjoram and pepper, and most are smoked over fruitwood.
 
 **Taste:** garlicky, smoky, marjoram-scented, savoury
 **Texture:** firm and sliceable in dry styles; juicy and snappy in fresh ones

@@ -19,7 +19,7 @@ tags: "["best tortilla chips", "best store bought tortilla chips", "tortilla chi
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-On a game-day board, the chip does the heavy lifting: it has to scoop salsa, hold guacamole and survive queso without snapping. One brand keeps winning the taste tests, and it's in nearly every grocery store. These rankings combine Food Network's 2026 test, The Takeout's ranking and Eat This, Not That's taste test.
+The chip has to scoop salsa and survive queso without snapping. One brand keeps winning.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

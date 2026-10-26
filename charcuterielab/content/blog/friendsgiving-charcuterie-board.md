@@ -12,9 +12,9 @@ tags: "["friendsgiving charcuterie board", "friendsgiving appetizers", "thanksgi
 
 # Friendsgiving Charcuterie Board: Amounts for 8, 12 or 20 + Potluck Plan
 
-> **Quick Answer:** A Friendsgiving board comes before a big meal, so plan **2 oz of meat and 2 oz of cheese per guest** and **6 to 8 crackers per person**. That is **1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20**. Use two or three fall cheeses (aged cheddar, brie, aged gouda), salami and prosciutto, apples, pears, candied pecans and fig jam. Bring the meat and cheese yourself, hand out the extras on a potluck list, and build the board when you arrive.
+> **Quick Answer:** It comes before a big meal, so plan **2 oz each of meat and cheese per guest**: **1 lb each for 8, 1½ lb for 12**. Use fall cheeses, salami, apples, pecans and fig jam. Bring the meat and cheese yourself.
 
-Friendsgiving has a problem a family Thanksgiving doesn't: dinner time is a guess. Somebody's pie is late, the turkey needs another 40 minutes, and fifteen hungry people are standing in a small kitchen. A charcuterie board fixes that, as long as it's sized to hold people over and not to replace the meal.
+Dinner time at Friendsgiving is a guess. A board holds people over without replacing the meal.
 
 ## Shopping list for 8, 12 or 20 guests
 
@@ -110,7 +110,11 @@ For the family version, see the [Thanksgiving charcuterie board](/blog/thanksgiv
 Plan 2 oz of meat and 2 oz of cheese per guest, because dinner follows. That is 1 lb of each for 8 guests, 1½ lb for 12 and about 2¾ lb for 20, plus 6 to 8 crackers per person.
 
 **What goes on a Friendsgiving charcuterie board?**
-Two or three fall cheeses such as aged cheddar, brie and an aged gouda, two cured meats such as salami and prosciutto, crackers and a sliced baguette, apples, pears and grapes, candied pecans, fig jam or apple butter, and something tart like cornichons or cranberry chevre.
+- **Cheese:** two or three fall cheeses, such as aged cheddar, brie and aged Gouda
+- **Meat:** salami and prosciutto
+- **Bread:** crackers and a sliced baguette
+- **Fruit:** apples, pears and grapes
+- **Extras:** candied pecans, fig jam or apple butter, and something tart like cornichons
 
 **Who should bring the charcuterie board to Friendsgiving?**
 Whoever takes it should bring the meat and cheese and do the build, because those are the expensive, timed parts. Crackers, fruit, nuts, jam and olives are easy to hand out to other guests on a sign-up list.

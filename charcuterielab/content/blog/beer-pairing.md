@@ -12,11 +12,7 @@ type: "howto"
 
 # Beer and Charcuterie: The Style-by-Style Pairing Guide
 
-> **Quick Answer:** Beer pairs with charcuterie as well as wine, and sometimes better. Carbonation scrubs fat off the palate, hop bitterness balances rich meat without amplifying salt the way tannin can, and malt echoes the browned flavors in aged cheese. Try a saison with aged Manchego, an IPA with sharp cheddar and soppressata, and an amber ale with aged Gouda.
-
-Wine is the default charcuterie pairing, but it's not the only option — and for certain items on a board, beer actually works better. Carbonation performs the same fat-cutting function as acidity. Bitterness from hops resolves against fat the same way tannins do (but without the salt-amplification problem). Malt's roasted sweetness creates Maillard echoes with aged cheeses.
-
-This guide maps beer styles to board items with the flavor science behind each pairing.
+> **Quick Answer:** Beer pairs with charcuterie as well as wine. **Bubbles cut fat, hops balance rich meat, and malt matches aged cheese.** Try saison with Manchego, IPA with sharp cheddar, and amber ale with aged Gouda.
 
 ---
 
@@ -168,7 +164,6 @@ Wine isn't the only answer. For certain board items, it's not even the best one.
 ---
 
 *Subscribe to [The Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly pairing guides.*
-
 
 ## Related Reading
 

@@ -19,7 +19,7 @@ tags: "["best prosecco", "best prosecco under 20", "prosecco brands", "prosecco 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Bubbles are the easiest drink to pair with a charcuterie board: the acidity and fizz cut through salty cured meat and rich cheese, and prosecco does it for less than Champagne. Most good bottles cost under $20. These rankings combine Food & Wine's 2025 tasting, Cheapism's blind tasting of 10 bottles and VinePair's tasting of dozens of proseccos under $20.
+Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champagne. Most good bottles are under $20.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>
@@ -96,7 +96,9 @@ Bubbles are the easiest drink to pair with a charcuterie board: the acidity and 
 <ul class="sk-checks"><li><strong>Look for:</strong> &quot;Prosecco DOC&quot; is the everyday level. &quot;Prosecco Superiore DOCG&quot; (often from Valdobbiadene or Conegliano) is the higher tier. Sweetness runs the opposite of what the words suggest: Brut is driest, Extra Dry is a little sweet, and Dry is sweeter still.</li><li class="sk-x"><strong>Skip:</strong> Pouring it warm. Chill prosecco to about 40 to 45°F, and open it just before toasting. Keep an opened bottle in the fridge with a sparkling-wine stopper.</li></ul>
 :::
 
-**How much to buy:** a 750 ml bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people. For a party, plan on about half a bottle per guest who drinks. **What it pairs with:** prosciutto, salami, Parmigiano-Reggiano, brie, salted nuts, olives and anything fried. Extra dry is the better match for fruit and dessert boards.
+- **How much to buy:** a 750 ml bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people. For a party, plan on about half a bottle per guest who drinks.
+- **What it pairs with:** prosciutto, salami, Parmigiano-Reggiano, brie, salted nuts, olives and anything fried. Extra dry is the better match for fruit and dessert boards.
+
 For what prosecco pairs with and how to serve it, see the [Champagne and prosecco pairing guide](/pairings/wine/champagne-prosecco/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 **Not drinking?** See our ranking of [the best non-alcoholic sparkling cider](/blog/best-sparkling-cider/) for the toast.
 

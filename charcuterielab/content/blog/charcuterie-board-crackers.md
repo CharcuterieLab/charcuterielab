@@ -11,7 +11,7 @@ tags: "["charcuterie board crackers", "charcuterie board", "board building"]"
 
 # Charcuterie Board Crackers: The Two-Category Rule
 
-> **Quick Answer:** A charcuterie board needs two types of crackers: one neutral (water crackers, plain flatbread) that works with every element on the board, and one flavored or textured (sesame, multigrain, rye, rosemary) that adds its own register. One neutral is non-negotiable. The flavored cracker is secondary. Three cracker types is the maximum — more than that and the crackers dominate the board.
+> **Quick Answer:** Use **two crackers**: one plain (water crackers) that goes with everything, and one with flavor (seeded, rye or rosemary). Never more than three.
 
 ## The Two-Category Rule
 

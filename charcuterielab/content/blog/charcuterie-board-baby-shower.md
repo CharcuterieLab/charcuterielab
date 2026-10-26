@@ -12,14 +12,14 @@ updated: "2026-10-20"
 ---
 # Baby Shower Charcuterie Board: How to Build a Crowd-Pleasing Board for a Mixed Audience
 
-> **Quick Answer:** Build for a mixed crowd: mild, pasteurized cheeses, fruit in your shower colors and easy finger food. For pregnant guests, the CDC advises reheating deli meats and dry sausages like salami until steaming hot and choosing pasteurized cheeses, so give them a clearly labeled section without cured meat. Plan about 2 oz each of cheese and meat per guest if a meal follows.
+> **Quick Answer:** Use **mild, pasteurized cheeses**, fruit in your shower colors and easy finger food. Give pregnant guests a **labeled section with no cold cured meat**. Plan 2 oz each of cheese and meat per guest if a meal follows.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Pregnant guest</p><span class="sk-top-name">A labeled section without cured meat</span><p class="sk-top-line">Pasteurized cheese, fruit, nuts, crackers. Offer crisped prosciutto if she wants meat.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#safe">Make it safe</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">What to put on</p><span class="sk-top-name">Mild cheese + fruit in your colors</span><p class="sk-top-line">3 cheeses, 2 meats in their own section, crackers, something sweet.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#what">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">2 oz each of cheese and meat a guest</span><p class="sk-top-line">If a meal follows. 3 oz each if the board is the food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#safe">Make it safe</a><a href="#what">What goes on</a><a href="#how-much">How much</a><a href="#layout">Layout &amp; color</a><a href="#ahead">Make ahead</a><a href="#sweet">Sweet board</a></nav>
 :::
 
-A shower board has a different job from a dinner-party board: **grandparents to toddlers, a guest of honor who may be pregnant, and two hours of grazing between games.** It has to be easy to eat, safe for everyone and pretty enough for photos.
+It has to work for grandparents and toddlers, and be pretty enough for photos.
 
 :::html
 <h2 id="safe">Make It Safe for the Guest of Honor</h2>
@@ -72,7 +72,6 @@ A dessert board works well at a shower, either on its own or after a lighter sav
 
 > **Planning the spread?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) includes 50 boards for every occasion, including party and gathering formats with exact ingredient lists and portion math.
 
-
 For the cheese side, see [which cheeses are safe during pregnancy](/blog/cheese-safe-during-pregnancy/).
 
 ## Sources
@@ -84,7 +83,13 @@ For the cheese side, see [which cheeses are safe during pregnancy](/blog/cheese-
 
 **What should go on a baby shower charcuterie board?**
 
-Mild, familiar food in your shower colors: pasteurized cheeses (sharp cheddar, Swiss, Gouda, Parmesan), fresh fruit such as strawberries, grapes and melon, crackers, nuts, and a honey or jam. Put cured meats on their own part of the board, and give pregnant guests a clearly labeled section without them.
+Mild, familiar food in your shower colors:
+
+- **Pasteurized cheeses:** sharp cheddar, Swiss, Gouda, Parmesan
+- **Fresh fruit:** strawberries, grapes and melon
+- **Crackers, nuts** and a honey or jam
+
+Put cured meats on their own part of the board, and give pregnant guests a clearly labeled section without them.
 
 **Are all charcuterie meats safe for pregnant guests?**
 
@@ -92,7 +97,10 @@ Not without a step. The CDC advises pregnant people to eat deli meat, cold cuts 
 
 **What colors look best on a baby shower charcuterie board?**
 
-For a girl: pinks (strawberries, raspberries, watermelon, pink frosted cookies), whites (fresh mozzarella, white cheddar, brie), and greens (grapes, cucumber, pistachios). For a boy or gender-neutral: whites, creams, light greens, and yellows. Blue foods are naturally rare — blueberries and some grape varieties work. Color-coordinate the entire board, not just one section.
+- **For a girl:** pinks (strawberries, raspberries, watermelon, pink frosted cookies), whites (fresh mozzarella, white cheddar, brie) and greens (grapes, cucumber, pistachios).
+- **For a boy or gender-neutral:** whites, creams, light greens and yellows. Blue foods are rare, but blueberries and some grapes work.
+
+Color the whole board, not just one section.
 
 **How big should a charcuterie board be for a baby shower?**
 

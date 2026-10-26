@@ -11,7 +11,7 @@ tags: "["unique charcuterie ingredients", "unusual charcuterie board ideas", "ch
 
 # 25 Unique Charcuterie Board Ingredients and How to Use Them
 
-> **Quick Answer:** The best unusual board ingredients do a job nothing else on the board does. Finger limes add bursts of acid that pop like caviar. Harbison is a cheese you eat with a spoon. Brunost tastes like salted caramel. Lap cheong brings sweet, caramelized pork, and yuzu kosho adds citrus, salt and heat in one dab. Use two or three per board, next to familiar things, and every one of them gets noticed.
+> **Quick Answer:** Pick ones that do a job nothing else does: **finger limes** (pops of acid), **Harbison** (spoonable cheese), **brunost** (tastes like caramel), **yuzu kosho** (citrus and heat). Use two or three per board.
 
 ## Why Unusual Ingredients Earn Their Place
 

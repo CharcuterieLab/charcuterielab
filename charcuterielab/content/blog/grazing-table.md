@@ -13,7 +13,7 @@ tags: "["grazing table", "large group charcuterie", "charcuterie board"]"
 
 # How to Make a Grazing Table: Amounts, Layout and Setup
 
-> **Quick Answer:** A grazing table is an extended charcuterie build that covers a full table surface, built in sections for 20–100+ people. Plan 3 oz each of cheese and meat per person when the table is the party food, 2 oz each before a meal, plus 10%. Build sections with the same logic as a board — anchors first, then fill in — but treat each table section as its own independent build zone. Add fresh elements last.
+> **Quick Answer:** A grazing table is a board that covers a whole table, for **20 to 100+ people**. Plan **3 oz each of cheese and meat per person** as the party food (2 oz before a meal), plus 10%. Build it in sections.
 
 > **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 

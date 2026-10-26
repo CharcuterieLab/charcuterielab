@@ -11,7 +11,7 @@ tags: "["charcuterie board chocolate", "charcuterie board", "cheese pairing"]"
 
 # Chocolate on a Charcuterie Board
 
-> **Quick Answer:** Dark chocolate at 70%+ cacao belongs on a charcuterie board as a finishing element — 2–4 small pieces per person, broken into rough chunks, positioned near the blue cheese and dried fruit zones. It pairs on the bitter-fat axis with aged and blue cheeses. Milk and white chocolate don't belong on a traditional board.
+> **Quick Answer:** Add **dark chocolate, 70% or more**: 2 to 4 small pieces per person, broken into chunks, near the blue cheese and dried fruit. Skip milk and white chocolate on a classic board.
 
 ## Why Dark Chocolate Works
 

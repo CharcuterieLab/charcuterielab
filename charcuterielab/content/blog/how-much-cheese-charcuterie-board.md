@@ -12,7 +12,7 @@ tags: "["how much cheese charcuterie board", "charcuterie board quantities", "ch
 
 # How Much Cheese for a Charcuterie Board: The Formula by Guest Count
 
-> **Quick Answer:** Plan 2 oz of cheese per person for a board that comes before a meal, 3 oz when the board is the party food, and 4 oz when it's dinner. Add 10% from 20 guests up. Divide the total across three cheese types: one soft, one semi-firm, one aged hard. When uncertain, over-buy — leftover cheese stores well and a sparse board is the larger mistake.
+> **Quick Answer:** Plan **2 oz of cheese per person** before a meal, **3 oz** as party food, **4 oz** as dinner, plus 10% over 20 guests. Split it across a soft, a semi-firm and an aged cheese. When in doubt, buy more.
 
 > **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
@@ -22,10 +22,10 @@ Here is the complete quantity formula.
 
 ## The Core Formula
 
-**Pre-meal appetizer board:** 2 oz cheese per person
-**Party-food board (no meal):** 3 oz cheese per person
-**Dinner board (the board is the meal):** 4 oz cheese per person
-**Extended grazing (3+ hours):** 3 oz per person, with a refill tray kept cold
+- **Pre-meal appetizer board:** 2 oz cheese per person
+- **Party-food board (no meal):** 3 oz cheese per person
+- **Dinner board (the board is the meal):** 4 oz cheese per person
+- **Extended grazing (3+ hours):** 3 oz per person, with a refill tray kept cold
 
 These weights reflect edible cheese after rind removal where applicable.
 

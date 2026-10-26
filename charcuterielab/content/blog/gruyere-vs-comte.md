@@ -12,7 +12,7 @@ faq: "[{"question":"What is the difference between Gruyère and Comté?","answer
 
 # Gruyère vs. Comté: What's the Difference?
 
-> **Quick Answer:** Gruyère and Comté are close cousins: both are firm alpine cheeses made from raw cow's milk, cooked and pressed into huge wheels, and both taste nutty and melt beautifully. **Gruyère** is Swiss and tends to be saltier, more savory and brothy. **Comté** is French, from the Jura mountains just across the border, and tends to be fruitier and sweeter, with a flavor that changes with the season the milk came from. They swap one for one in cooking. On a board, pick by the flavor you want, or serve both.
+> **Quick Answer:** Close cousins: both are **nutty alpine cheeses** that melt well. **Gruyère** (Swiss) is saltier and more savory. **Comté** (French) is fruitier and sweeter. Swap them one for one in cooking, or serve both on a board.
 
 ## Gruyère vs. Comté at a glance
 

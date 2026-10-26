@@ -19,7 +19,7 @@ tags: "["best butter brand", "best butter for butter board", "butter brands rank
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A butter board is only as good as the butter. When it's spread across a board and eaten on bread, you taste every difference in cream, salt and tang. Three taste tests ranked grocery butters, and one brand came out on top or close to it in all three.
+On a butter board you taste every difference in cream and salt. One brand came out on top, or close, in all three taste tests.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

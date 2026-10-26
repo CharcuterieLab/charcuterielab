@@ -12,14 +12,14 @@ tags: "["best camembert", "camembert brands", "best camembert cheese", "camember
 
 # The Best Camembert for a Charcuterie Board: What to Buy
 
-> **Quick Answer:** For most boards, buy Marin French Cheese Co. Camembert, which placed second in its class at the 2024 American Cheese Society awards. Président Camembert is the easiest to find in a supermarket. Every Camembert sold in US stores is made from pasteurized milk, so the raw-milk Camembert de Normandie sold in France isn't available here. No published taste test has ranked grocery Camembert side by side, so this guide names what to buy without star scores.
+> **Quick Answer:** Buy **Marin French Cheese Co. Camembert** (an American Cheese Society award winner). Easiest to find: **Président**. All US Camembert is pasteurized, so no raw-milk Normandy wheels here.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marin French Cheese Co. Camembert</a><p class="sk-top-line">Earthy and full-flavored, with a recent award behind it.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Président Camembert</a><p class="sk-top-line">Easy to find, fairly priced and consistent.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Also good</p><a class="sk-top-name" href="#pick-3">Ile de France Camembert</a><p class="sk-top-line">Mild enough for cautious eaters.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Camembert is a small, soft-ripened cow's milk cheese from Normandy: stronger, earthier and softer than brie, and the right size to serve as a whole wheel. In US stores you'll usually find three or four brands. These are the ones worth buying for a board, and how to tell a good wheel from a chalky one.
+Camembert is stronger and earthier than brie, and the right size to serve whole. No taste test has ranked US brands, so there are no star scores.
 *How we picked these: no published side-by-side taste test of grocery-store Camembert exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of soft-ripened cheese behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
 :::html
@@ -70,7 +70,10 @@ Camembert is a small, soft-ripened cow's milk cheese from Normandy: stronger, ea
 <ul class="sk-checks"><li><strong>Look for:</strong> The wheel should give slightly when you press the edge, with a white rind that may show faint reddish-brown flecks. Check the date: Camembert keeps ripening in the fridge, and a wheel a week or two from its date is usually at its best.</li><li class="sk-x"><strong>Skip:</strong> Wheels that feel hard all the way through (underripe and chalky), or that smell strongly of ammonia, or have a rind pulling away from the cheese (overripe).</li></ul>
 :::
 
-**How much to buy:** one 8 oz wheel serves 6 to 8 people alongside two other cheeses. **How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten. **Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
+- **How much to buy:** one 8 oz wheel serves 6 to 8 people alongside two other cheeses.
+- **How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten.
+- **Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
+
 For what Camembert pairs with and how to serve it, see the [Camembert guide](/ingredients/camembert/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## How to choose

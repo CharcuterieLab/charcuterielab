@@ -19,7 +19,7 @@ tags: "["best store bought salsa", "best jarred salsa", "salsa brands", "salsa f
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Salsa taste tests disagree more than almost any other category: a jar that wins one test lands near the bottom of the next. So these rankings favor salsas that did well in more than one test. We combined Sporked's 2026 roundup, The Takeout's and Chowhound's 15-jar rankings, and Eat This, Not That's taste test.
+Salsa tests disagree a lot, so we favored jars that did well in more than one.
 
 :::html
 <h2 id="picks">All 8, ranked</h2>

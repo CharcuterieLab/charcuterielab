@@ -11,9 +11,9 @@ slug: "charcuterie-board-mistakes"
 
 # 10 Charcuterie Board Mistakes Almost Everyone Makes (and the Fix for Each)
 
-> **Quick Answer:** The most common charcuterie mistakes are serving cheese too cold, buying the wrong amount, crowding crackers next to wet food, one knife for every cheese, cutting soft cheese ahead, too many cheeses, no crunch or acid, no labels for allergies, leaving the board out too long and building it too early. Each has a two-minute fix.
+> **Quick Answer:** The big ones: **cheese too cold, the wrong amount, soggy crackers, one knife for everything, too many cheeses, no crunch or acid**, and leaving it out too long. Each has a two-minute fix.
 
-Send this to your friend before their party. None of these mistakes are hard to fix, and most of them come down to timing. Here is what goes wrong and what to do instead.
+Most of these come down to timing. Here's what goes wrong and what to do instead.
 
 ## The ten mistakes at a glance
 

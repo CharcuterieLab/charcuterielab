@@ -19,7 +19,7 @@ tags: "["best pickles", "best pickle brands", "pickles for charcuterie board", "
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Something sour and crunchy cuts through rich salami and cheese, which is why every good board has pickles. Small pickles work best: baby dills, cornichons or bite-size chips, not giant spears. These rankings lean on three published pickle taste tests, then size, crunch, ingredients and how easy each jar is to find.
+Something sour cuts rich salami and cheese. Small pickles work best: baby dills, cornichons or chips.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

@@ -12,7 +12,7 @@ faq: "[{"question":"Is Manchego the same as pecorino?","answer":"No. Both are sh
 
 # Manchego vs. Pecorino: What's the Difference?
 
-> **Quick Answer:** Manchego and pecorino are both firm cheeses made from sheep's milk, but they come from different countries and taste very different. Manchego is Spanish, nutty, buttery and mellow. "Pecorino" just means sheep's-milk cheese in Italian, and the famous one, Pecorino Romano, is hard and very salty, made mostly for grating. The Italian cheese that's closest to Manchego is Pecorino Toscano: mild, buttery and great on a board.
+> **Quick Answer:** Both are sheep's milk cheeses. **Manchego** (Spain) is nutty and buttery. **Pecorino Romano** (Italy) is hard and very salty, mostly for grating. Want Italy's closest match to Manchego? **Pecorino Toscano**.
 
 ## First: "pecorino" is a family, not one cheese
 

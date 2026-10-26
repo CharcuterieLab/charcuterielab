@@ -12,7 +12,7 @@ faq: "[{"question":"Is pancetta the same as prosciutto?","answer":"No. Prosciutt
 
 # Prosciutto vs. Pancetta: What's the Difference?
 
-> **Quick Answer:** They come from different parts of the pig and do different jobs. Prosciutto is the cured hind leg, salted and air-dried for more than a year, then sliced paper-thin and eaten as is. Pancetta is cured pork belly, the same cut as bacon but not smoked, and it's mostly used as a cooking ingredient. On a charcuterie board, use prosciutto. Pancetta belongs in the pan, crisped for pasta, salads or a warm topping.
+> **Quick Answer:** **Prosciutto** is cured leg, aged over a year and eaten as is. **Pancetta** is cured belly, like unsmoked bacon, and is mostly for cooking. Prosciutto goes on the board; pancetta goes in the pan.
 
 ## Are prosciutto and pancetta the same?
 

@@ -12,7 +12,7 @@ faq: "[{"question":"Is Camembert stronger than Brie?","answer":"Usually, yes. Ca
 
 # Brie vs. Camembert: What's the Difference?
 
-> **Quick Answer:** Brie and Camembert are both soft French cow's milk cheeses with the same edible white rind. The difference is size and flavor. Camembert comes from Normandy in a small 250 g wheel, so it has more rind for its size and tastes stronger: earthy, mushroomy, sometimes a little barnyard. Brie comes from the region around Paris in wide, flat wheels and is milder and more buttery. On a board, Brie is the crowd-pleaser and Camembert is the one with more flavor.
+> **Quick Answer:** Both are soft French cheeses with the same white rind. **Camembert is smaller and stronger**: earthy and mushroomy. **Brie is bigger and milder**: buttery. Brie pleases a crowd; Camembert has more flavor.
 
 ## Are Brie and Camembert the same cheese?
 

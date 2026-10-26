@@ -12,9 +12,9 @@ tags: "["hot cocoa board", "hot chocolate board", "hot chocolate bar", "christma
 
 # Hot Cocoa Board: How to Set Up a Hot Chocolate Board (Serves 8 to 20)
 
-> **Quick Answer:** A hot cocoa board is a tray of toppings and dippers set beside a pot of hot chocolate, so every guest builds their own mug. Put out **marshmallows, whipped cream, chocolate chips, crushed peppermint, caramel sauce and sprinkles**, plus dippers like **cookies, biscotti, pretzel rods and candy canes**. Plan about **12 oz of hot chocolate per guest** (1½ mugs), roughly 1½ gallons of milk for 12, and keep it warm in a **slow cooker**.
+> **Quick Answer:** Set out a pot of cocoa with **toppings** (marshmallows, whipped cream, chocolate chips, crushed peppermint) and **dippers** (cookies, pretzel rods, candy canes). Plan **12 oz per guest** and keep it warm in a slow cooker.
 
-A hot cocoa board does what a charcuterie board does for a party, but for the cold months and for kids. It's cheap, it's mostly pantry items, and it takes about 20 minutes to set up. It works for a holiday open house, a tree-trimming night, a snow day, or as the dessert after a Christmas charcuterie board.
+It's cheap, mostly pantry items, and takes 20 minutes. Great for kids and snow days.
 
 ## How much to make for 8, 12 or 20 guests
 
@@ -107,7 +107,9 @@ A hot cocoa board for 12 costs about **$25 to $40** with homemade cocoa and stor
 ## FAQ
 
 **What goes on a hot cocoa board?**
-Mini and large marshmallows, whipped cream, chocolate chips, crushed peppermint, caramel and chocolate sauce, sprinkles, and dippers such as cookies, biscotti, pretzel rods and candy canes. Put the hot chocolate in a slow cooker or carafe beside the board and set out mugs and spoons.
+- **Toppings:** mini and large marshmallows, whipped cream, chocolate chips, crushed peppermint, caramel and chocolate sauce, sprinkles
+- **Dippers:** cookies, biscotti, pretzel rods, candy canes
+- **Setup:** hot chocolate in a slow cooker or carafe, plus mugs and spoons
 
 **How much hot chocolate do I need per person?**
 Plan 1½ mugs per guest, or about 12 oz of hot chocolate each. That is about 1 gallon of milk for 8 guests, 1½ gallons for 12 and 2½ gallons for 20, since kids usually come back for a second, smaller cup.

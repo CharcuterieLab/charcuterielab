@@ -12,14 +12,14 @@ updated: "2026-10-20"
 
 # The Charcuterie Chart: Amounts, Timing and Pairings on One Page
 
-> **Quick Answer:** Buy meat and cheese each at 2 oz per guest before a meal, 3 oz when the board is the party food and 4 oz when it is dinner, plus 10% from 20 guests. Take hard cheese out 45 to 60 minutes early and soft cheese 20 to 30 minutes. Keep the board out no more than 2 hours.
+> **Quick Answer:** Meat and cheese, each: **2 oz per guest before a meal, 3 oz as party food, 4 oz as dinner**, plus 10% over 20 guests. Hard cheese out 45–60 minutes early, soft cheese 20–30. Board out 2 hours max.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The chart in four lines</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Amounts</p><span class="sk-top-name">2 / 3 / 4 oz per guest</span><p class="sk-top-line">Meat and cheese each: before a meal / party food / dinner. +10% from 20 guests.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#per-guest">Per guest</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Crackers</p><span class="sk-top-name">6–8 / 10–12 / 12–15</span><p class="sk-top-line">Per guest, for the same three kinds of board.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#totals">Totals</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Fridge</p><span class="sk-top-name">Hard 45–60, soft 20–30 min</span><p class="sk-top-line">Semi-firm 30–45, fresh 15–20, cured meat 20–30.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#fridge">Timing</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Safety</p><span class="sk-top-name">2 hours out, max</span><p class="sk-top-line">1 hour above 90°F.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#safety">Safety</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#per-guest">Per guest</a><a href="#totals">Totals</a><a href="#fridge">Fridge times</a><a href="#pairings">Pairings</a><a href="#build">Build order</a><a href="#safety">Safety</a><a href="#save">Save it</a></nav>
 :::
 
-This is the one page to screenshot, pin or print before any party. Everything on it matches the numbers we use across the site, the [Party Planner](/party-planner/) and the free cheat sheet.
+Screenshot or print this before any party. It matches the [Party Planner](/party-planner/) and the free cheat sheet.
 
 :::html
 <h2 id="per-guest">1. How much per guest</h2>

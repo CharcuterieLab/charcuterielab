@@ -12,7 +12,7 @@ faq: "[{"question":"Is Parmesan the same as Parmigiano-Reggiano?","answer":"Not 
 
 # Parmesan vs. Parmigiano-Reggiano vs. Grana Padano: What's the Difference?
 
-> **Quick Answer:** Parmigiano-Reggiano is the protected Italian original: raw cow's milk from a small area of northern Italy, no additives, aged at least 12 months and usually 24. Grana Padano is a similar Italian hard cheese from a much bigger area, aged at least 9 months, milder and cheaper. "Parmesan" in the US is a generic name that can be made anywhere, so quality ranges from excellent to sawdust. For a board, buy Parmigiano-Reggiano and break it into chunks. For grating or a big crowd, Grana Padano is the value pick.
+> **Quick Answer:** **Parmigiano-Reggiano** is the protected Italian original, aged 12–24+ months. **Grana Padano** is similar, milder and cheaper. **"Parmesan"** in the US can be made anywhere. For a board, buy Parmigiano-Reggiano and break it into chunks.
 
 ## Are Parmesan and Parmigiano-Reggiano the same?
 

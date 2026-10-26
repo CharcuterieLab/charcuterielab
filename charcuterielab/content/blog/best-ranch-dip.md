@@ -19,7 +19,7 @@ tags: "["best ranch dip", "best store bought ranch", "ranch dip brands", "veggie
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A bowl of ranch is what gets the carrots and cucumbers eaten. The best ranch for a board is thick enough to cling to a vegetable stick, which rules out most bottled dressings. These rankings combine Sporked's test of 16 ranch dips with Tasting Table's 15-bottle ranch ranking and Chowhound's 11-bottle test, favoring the ones sold as a dressing and dip.
+The best ranch for a board is thick enough to cling to a carrot stick, which rules out most bottled dressings.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

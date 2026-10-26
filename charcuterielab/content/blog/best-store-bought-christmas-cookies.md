@@ -13,14 +13,14 @@ tags: "["best store bought christmas cookies", "store bought holiday cookies", "
 
 # The Best Store-Bought Christmas Cookies for a Cookie Board
 
-> **Quick Answer:** For one box, buy **Pepperidge Farm's holiday Milanos**, the winner of Sporked's 2025 ranking. For a spiced crisp, **Anna's Ginger Thins** (10/10 at Sporked). For a crowd, **Costco's Kirkland European Cookies** tin: 156 pieces for about $17–23. Budget butter cookies: **Benton's Danish Butter Cookies** at Aldi ($3.89).
+> **Quick Answer:** One box: **Pepperidge Farm holiday Milanos**. Spiced crisp: **Anna's Ginger Thins**. For a crowd: **Kirkland European Cookies** (156 pieces, about $17–23). Budget: **Benton's Danish Butter Cookies** at Aldi ($3.89).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Pepperidge Farm holiday Milanos</a><p class="sk-top-line">Seasonal Milanos that won a 2025 ranking</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pepperidge+Farm+Milano+holiday+cookies" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best gingerbread</p><a class="sk-top-name" href="#pick-4">Anna&#x27;s Ginger Swedish Thins</a><p class="sk-top-line">Paper-thin ginger cookies, 10 out of 10</p></div><div class="sk-top-buy"><span class="sk-price">$2.99 for 5.25 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Anna&#x27;s+Ginger+Thins" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best variety pack</p><a class="sk-top-name" href="#pick-8">Kirkland Signature European Cookies</a><p class="sk-top-line">156 cookies, 15 kinds, one tin</p></div><div class="sk-top-buy"><span class="sk-price">About $17–23</span><a class="button sk-buy-sm" href="https://www.costco.com/.product.181679.html" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to build the board</a><a href="#christmas-cookie-questions">FAQ</a></nav>
 :::
 
-A cookie board looks homemade even when nothing on it is. We picked the store-bought cookies that won recent taste tests, with one of each texture so the board doesn't taste the same all the way across.
+We picked taste-test winners, one of each texture.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

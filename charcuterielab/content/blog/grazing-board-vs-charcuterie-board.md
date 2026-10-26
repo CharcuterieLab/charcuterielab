@@ -13,7 +13,7 @@ updated: "2026-10-20"
 
 # Grazing Board vs. Charcuterie Board: What's the Difference?
 
-> **Quick Answer:** A charcuterie board is built around cured meat and cheese. A grazing board is any big spread guests pick at over time: it can include charcuterie, plus dips, vegetables, sandwiches and desserts. Every charcuterie board can be part of a grazing board, but not every grazing board is a charcuterie board.
+> **Quick Answer:** A **charcuterie board** is built around cured meat and cheese. A **grazing board** is any big spread to pick at: it can include charcuterie, plus dips, vegetables and desserts.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Which one do you need?</p>

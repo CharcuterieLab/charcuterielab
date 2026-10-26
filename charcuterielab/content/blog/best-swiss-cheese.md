@@ -19,7 +19,7 @@ tags: "["best swiss cheese", "swiss cheese brands", "best store bought swiss che
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-American Swiss cheese is a mild, nutty, holey cheese in the style of Swiss Emmentaler. At the grocery store it ranges from waxy sandwich slices to aged blocks with real nuttiness. For a board you want flavor and a texture that isn't rubbery, so these rankings lean on two published taste tests, then aging, price and how easy each one is to find.
+For a board, skip the waxy sandwich slices and buy an aged block with real nuttiness.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

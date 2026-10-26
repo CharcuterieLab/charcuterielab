@@ -203,7 +203,7 @@ export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, d
     <div class="bb-wrap">
       <p class="bb-kicker">Board Builder</p>
       <h1>Make your own charcuterie board</h1>
-      <p class="bb-lede">Add what you like, one category at a time. The Lab recommends what pairs with it and explains why, drawing on ${escapeHtml(String(itemCount))} ingredient profiles. When you're done, tell us how many people it's for and get a free shopping list, with how to prep and present every item.</p>
+      <p class="bb-lede">Pick what you like. We suggest what pairs with it and why. Then enter your guest count for a free shopping list.</p>
     </div>
   </section>
 

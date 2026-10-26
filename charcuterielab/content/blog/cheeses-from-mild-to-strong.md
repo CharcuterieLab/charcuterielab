@@ -12,14 +12,14 @@ updated: "2026-10-20"
 
 # 12 Cheeses from Mild to Wild: How Strong Can You Go?
 
-> **Quick Answer:** From mildest to strongest: fresh mozzarella, brie, young Gouda, Manchego, aged cheddar, Gruyère, Parmigiano-Reggiano, gorgonzola dolce, Taleggio, Stilton, Roquefort and Époisses. Flavor gets stronger with age, blue mold and washed rinds. Eat them in this order so mild cheeses are not drowned out by strong ones.
+> **Quick Answer:** Mildest to strongest: **mozzarella, brie, young Gouda, Manchego, aged cheddar, Gruyère, Parmigiano, gorgonzola, Taleggio, Stilton, Roquefort, Époisses**. Eat them in this order.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The ladder in 3 steps</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Mild</p><span class="sk-top-name">Mozzarella, brie, young Gouda</span><p class="sk-top-line">Fresh or barely aged. Safe for kids and cautious eaters.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#mild">Levels 1–3</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Building</p><span class="sk-top-name">Manchego to Parmigiano</span><p class="sk-top-line">Aging adds nuttiness, sharpness and crunchy crystals.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#building">Levels 4–7</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Strong</p><span class="sk-top-name">Blues and washed rinds</span><p class="sk-top-line">Gorgonzola, Taleggio, Stilton, Roquefort, Époisses.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#strong">Levels 8–12</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#ladder">The ladder</a><a href="#mild">Mild</a><a href="#building">Building</a><a href="#strong">Blue &amp; funky</a><a href="#brave">Only the brave</a><a href="#why">Why stronger</a><a href="#board">Build the board</a></nav>
 :::
 
-Where do you tap out? Read down the list and comment the last cheese you would happily eat. Then send it to the friend who claims they "like all cheese."
+Comment the last cheese you'd happily eat, then send it to the friend who "likes all cheese."
 
 :::html
 <h2 id="ladder">The ladder</h2>

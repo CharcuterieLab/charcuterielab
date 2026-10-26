@@ -12,9 +12,9 @@ tags: "["jack o lantern charcuterie board", "pumpkin charcuterie board", "hallow
 
 # Jack-o'-Lantern Charcuterie Board: The Giant Pumpkin Board for 12 to 15
 
-> **Quick Answer:** To make a jack-o'-lantern charcuterie board, outline a **24 inch pumpkin with pretzel sticks** on a round board, split it into **six or seven curved ribs**, and fill each rib with a different orange food: **orange cheddar, Colby, Muenster or Gouda cubes, dried apricots and soppressata**. Fill a **triangle-eyed face with black olives and blackberries**, add a **stem of pretzel rods tied with twine**, and ring it with black grapes, charcoal crackers, salami and clementines. It serves **12 to 15** and takes about **75 minutes**.
+> **Quick Answer:** Outline a **24-inch pumpkin in pretzel sticks**, split it into curved ribs, and fill each with an **orange food** (cheddar, Gouda, apricots, soppressata). Make the face with **black olives and blackberries**. Serves 12–15, about 75 minutes.
 
-This is the board people photograph before they eat. From across the room it reads as a giant carved pumpkin. Up close, it's cheddar, salami, apricots and grapes, and every bite can be picked up with your fingers. It's Board 23 in our book *Impossible Boards*, and it's one of the easiest in the book: difficulty 2 out of 5.
+From across the room it's a carved pumpkin; up close it's cheese and salami. It's one of the easiest boards in *Impossible Boards*.
 
 ## The trick: it's all in two details
 

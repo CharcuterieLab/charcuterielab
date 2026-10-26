@@ -12,7 +12,7 @@ tags: "["prosciutto pregnant", "can you eat prosciutto while pregnant", "prosciu
 
 # Can You Eat Prosciutto While Pregnant? What the CDC and NHS Say
 
-> **Quick Answer:** Not cold. The CDC advises pregnant people to avoid unheated deli meats and dry or fermented cured meats, and to eat them only heated to 165°F or until steaming hot. The NHS names prosciutto specifically: cook it until steaming hot first. Crispy baked prosciutto, prosciutto on a hot pizza, or prosciutto wrapped around something and roasted are all fine.
+> **Quick Answer:** **Not cold.** The CDC says to heat cured meats to 165°F or until steaming. Crispy baked prosciutto, prosciutto on hot pizza, or prosciutto roasted around something are all fine.
 
 *This is general food-safety information, not medical advice. Ask your doctor or midwife about your own pregnancy.*
 

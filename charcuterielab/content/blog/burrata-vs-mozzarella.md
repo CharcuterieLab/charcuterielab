@@ -12,7 +12,7 @@ tags: "["burrata vs mozzarella", "burrata", "fresh mozzarella", "difference betw
 
 # Burrata vs. Mozzarella: What's the Difference (and Which to Buy)
 
-> **Quick Answer:** Burrata is a thin pouch of mozzarella filled with **stracciatella**, shreds of fresh curd soaked in cream, so it's richer and spills open when you cut it. **Mozzarella** is the same stretched curd, but solid all the way through. Use burrata as a showpiece you cut open at the table; use fresh mozzarella when you need slices or cubes that hold their shape, like caprese skewers.
+> **Quick Answer:** **Burrata is mozzarella filled with cream and soft curd**, so it spills open when you cut it. **Mozzarella is solid all the way through.** Use burrata as a showpiece; use mozzarella for slices and skewers.
 
 ## Burrata vs. mozzarella at a glance
 

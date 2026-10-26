@@ -10,11 +10,9 @@ tags: "["bresaola", "bresaola charcuterie", "air-cured beef", "Italian charcuter
 
 # Bresaola: The Lean Beef That Brings Elegance to Any Board
 
-> **Quick Answer:** Bresaola is air-cured lean beef, usually top round, from Italy's Valtellina valley. With almost no fat it tastes clean and mildly savory. Serve it sliced 1–2 mm thin, draped loosely, next to rich hard cheeses like aged Gouda, Gruyère or Parmigiano, where it resets the palate instead of adding more richness.
+> **Quick Answer:** Bresaola is **air-cured lean beef** from Italy, with almost no fat. Slice it very thin, drape it loosely, and put it next to rich hard cheese like aged Gouda or Parmigiano to balance the board.
 
-Most charcuterie is pork-based, and most pork-based charcuterie is characterized by fat — the fat marbling in coppa, the white ribbons in salami, the translucent fat border on prosciutto. Bresaola is different. It's made from lean beef — typically the top round — with almost no visible fat, cured in salt and spices and air-dried until it achieves a deep burgundy color and a clean, mildly savory flavor that is unlike anything else in the charcuterie category.
-
-Bresaola brings a different textural and flavor register to a board. It's the element that provides contrast to the richness of hard cheese and fatty cured pork, and it's consistently one of the more elegant things you can offer.
+Most cured meat is fatty pork. Bresaola is the lean, clean-tasting contrast, and one of the most elegant things on a board.
 
 ---
 
@@ -112,7 +110,6 @@ Bresaola is the most elegant thing you can put next to a rich hard cheese. Its c
 If you have space for a small dressed element (arugula with lemon and olive oil), placing it adjacent to bresaola on the board recreates the Northern Italian antipasto tradition and elevates the entire board.
 
 > Get weekly ingredient science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
-
 
 For a side-by-side comparison, see [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/).
 

@@ -11,7 +11,7 @@ tags: "["halloween charcuterie board", "halloween entertaining", "charcuterie bo
 
 # Halloween Charcuterie Board: Build It Spooky, Keep It Good
 
-> **Quick Answer:** A Halloween charcuterie board works through an edible orange-and-black palette — orange cheddar, blackberries, dark olives, dark chocolate, dried apricots, pomegranate arils — on a dark slate or walnut board. No fake food, no plastic decorations. The spooky effect comes from intentional color and arrangement, and the food should be genuinely worth eating.
+> **Quick Answer:** Go **orange and black** with real food: orange cheddar, blackberries, black olives, dark chocolate, dried apricots. Use a dark board. No plastic decorations needed: color does the spooky work.
 
 ## The Strategy: Edible Palette First
 

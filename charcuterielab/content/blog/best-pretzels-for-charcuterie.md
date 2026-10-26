@@ -19,7 +19,7 @@ tags: "["best pretzels", "best pretzel brands", "pretzels for charcuterie board"
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Pretzels bring salt and crunch, and they're sturdier than most crackers, so they hold up to mustard, beer cheese and dips. The shape matters on a board: flat crisps and snaps carry cheese, while thick twists are better for dipping. These rankings lean on two published taste tests, then shape, ingredients, price and how easy each bag is to find.
+Flat pretzel crisps carry cheese; thick twists are better for dipping.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

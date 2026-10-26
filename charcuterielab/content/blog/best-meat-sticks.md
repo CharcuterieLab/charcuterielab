@@ -19,7 +19,7 @@ tags: "["best meat sticks", "best beef sticks", "chomps", "meat sticks for charc
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Meat sticks are the easiest cured meat for a game-day, kids' or hiking board: no slicing, no folding, and they stand up in a cup. Grocery shelves are full of them, and quality ranges from grass-fed beef to mechanically separated chicken. These rankings lean on Sporked's 25-stick test and The Takeout's 12-brand ranking.
+No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking boards. Rankings lean on Sporked's 25-stick test.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

@@ -19,7 +19,7 @@ tags: "["best balsamic glaze", "balsamic glaze brands", "balsamic reduction", "b
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A drizzle of balsamic glaze turns burrata, fresh mozzarella, strawberries or Parmesan into something that looks finished. Glazes range from syrupy and sweet to tart and vinegary. These rankings lean on Sporked's balsamic glaze test, plus ingredients, price and how easy each one is to find.
+A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankings lean on Sporked's taste test, ingredients and price.
 
 :::html
 <h2 id="picks">All 5, ranked</h2>

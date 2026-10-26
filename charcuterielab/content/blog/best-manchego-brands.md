@@ -18,7 +18,7 @@ slug: "best-manchego-brands"
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Real Manchego is a DOP cheese made from Manchega sheep's milk in La Mancha, so most brands are genuinely good. The differences are age, price and where you can buy it. Published taste tests are thin for Manchego, so availability and value carry more weight here.
+All real Manchego is made in La Mancha from sheep's milk, so most brands are good. The differences are age, price and where to buy it.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

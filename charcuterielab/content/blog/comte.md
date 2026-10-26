@@ -12,11 +12,9 @@ tags: "["comte cheese", "comte charcuterie board", "french cheese board", "comte
 
 # Comté on a Charcuterie Board: Copper Vats, Alpine Milk, and the Most Complex Cheese in France
 
-> **Quick Answer:** Comté is a French alpine cheese made in copper vats from Jura mountain milk and aged from 4 months to 2 years or more. For a board, choose 12–18 months: nutty, fruity and slightly sweet. Pair it with jambon de Bayonne or saucisson sec, cornichons and Dijon mustard, with a brie or camembert alongside for contrast.
+> **Quick Answer:** Comté is a **nutty, fruity French alpine cheese**. For a board, buy it **aged 12 to 18 months**. Pair it with French ham or saucisson, cornichons and Dijon.
 
-Comté is the best-selling AOC cheese in France and one of the most studied cheeses in the world from a flavor chemistry standpoint. A well-aged wheel carries dozens of distinct aroma compounds, which is why one bite can taste of fruit, nuts and brown butter at once. The range spans fruity (pineapple, apricot), nutty (roasted hazelnut, walnut), caramelized (brown butter, toffee), and herbal/hay notes that vary by season of production, altitude of the mountain pasture, and length of aging.
-
-Understanding why Comté is this complex — and why no two wheels taste identical — makes it one of the most interesting cheeses to talk about on a board, and one of the highest-reward selections for guests who appreciate it.
+No two wheels taste the same: one bite can taste of fruit, nuts and brown butter at once.
 
 ---
 
@@ -93,7 +91,6 @@ Both are excellent board cheeses; on a board with space for one, Comté's broade
 > **Comté appears as the French alpine anchor in the French board chapter of the Charcuterie Lab book.**
 > Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Weekly cheese science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
-
 
 ## Sources
 

@@ -12,7 +12,7 @@ updated: "2026-09-24"
 
 # How Do You Pronounce Charcuterie? (The Right Way, Finally)
 
-Charcuterie is pronounced **shar-KOO-tuh-ree**. The stress falls on the second syllable, and the final "e" is silent. In standard phonetic notation: /ʃɑːrˈkuːtəri/. It's a French word — and once you hear the rhythm of it, you'll never second-guess it again.
+> **Quick Answer:** Say **shar-KOO-tuh-ree**. Stress the second syllable, and don't add a sound for the final "e." (Phonetic: /ʃɑːrˈkuːtəri/.)
 
 ---
 

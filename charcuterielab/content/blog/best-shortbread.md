@@ -19,7 +19,7 @@ tags: "["best shortbread cookies", "best store bought shortbread", "walkers shor
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Shortbread is the cracker of the dessert board: buttery, not too sweet and sturdy enough for jam, cheese or a square of dark chocolate. It's also a natural on Christmas cheese boards. Two big taste tests ranked the grocery options, and the classic tartan box came out near the top of both.
+Shortbread is the cracker of the dessert board: buttery, not too sweet and sturdy enough for jam or cheese.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

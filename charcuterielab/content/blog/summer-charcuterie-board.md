@@ -11,7 +11,7 @@ tags: "["summer charcuterie board", "seasonal charcuterie", "charcuterie board"]
 
 # Summer Charcuterie Board Ideas
 
-> **Quick Answer:** A summer charcuterie board emphasizes fresh stone fruit, lighter cured meats (bresaola, prosciutto), and aged hard cheeses that hold up in heat. Swap brie and other soft cheeses for Parmigiano-Reggiano and aged manchego outdoors. Use rosé or Albariño. Plan for shorter food safety windows — soft items need rotation every 90 minutes in summer temperatures.
+> **Quick Answer:** Use **stone fruit**, light meats (prosciutto, bresaola) and **hard cheeses that handle heat** (Parmigiano, aged Manchego). Pour rosé. Outdoors, swap soft items every **90 minutes**.
 
 ## Why Summer Changes the Board
 

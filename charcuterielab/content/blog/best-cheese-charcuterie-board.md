@@ -13,7 +13,7 @@ updated: "2026-10-20"
 
 # The Best Cheese for a Charcuterie Board (16 Picks by Type)
 
-> **Quick Answer:** Buy three cheeses that don't taste alike: a soft one (brie), a firm one (aged cheddar or Gruyère) and, if your guests like bold flavors, a blue (Gorgonzola Dolce). Aged cheddar and brie are the two safest crowd-pleasers. Take every cheese out of the fridge before serving: cold cheese tastes of very little.
+> **Quick Answer:** Buy **three cheeses that don't taste alike**: a soft one (brie), a firm one (aged cheddar or Gruyère) and, for bold guests, a blue. Take them out of the fridge early: cold cheese tastes of very little.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">A foolproof 3-cheese board</p>
@@ -25,7 +25,7 @@ updated: "2026-10-20"
 <nav class="sk-jump" aria-label="On this page"><a href="#all-16">All 16 cheeses</a><a href="#slots">Pick one per slot</a><a href="#combos">Ready-made combos</a><a href="#by-board">By board type</a><a href="#how-much">How much</a><a href="#temperature">Temperature</a><a href="#faq">FAQ</a></nav>
 :::
 
-A great board isn't about expensive cheese. It's about **three or four cheeses that differ in texture and strength**, so every bite is different and every condiment has a partner.
+Differences in texture and strength matter more than price.
 
 :::html
 <h2 id="all-16">The 16 best cheeses for a board, by type</h2>

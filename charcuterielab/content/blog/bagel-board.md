@@ -12,9 +12,9 @@ tags: "["bagel board", "bagel bar", "brunch board", "lox board", "brunch charcut
 
 # Bagel Board: How to Build a Brunch Bagel Bar (Serves 6 to 20)
 
-> **Quick Answer:** A bagel board is a brunch spread of **sliced bagels, flavored cream cheeses, smoked salmon and fresh toppings** that guests build themselves. Plan **1 to 1½ bagels per guest** (or 2 to 3 minis), about **2 oz of cream cheese** and **1½ to 2 oz of lox** per guest. Add **capers, red onion, tomato, cucumber, lemon and dill**, plus a sweet corner with jam, butter and fruit. Slice everything the night before and build the board 30 minutes before guests arrive.
+> **Quick Answer:** Plan per guest: **1 to 1½ bagels, 2 oz cream cheese and 1½ to 2 oz lox**. Add capers, red onion, tomato, cucumber, lemon and dill. Slice everything the night before and build it 30 minutes before guests come.
 
-A bagel board is the easiest brunch you can host: there's no cooking, everyone builds exactly what they like, and it looks generous with very little work. It works for holiday mornings, showers, birthdays and the morning after a big party, and it's the brunch version of a charcuterie board, with lox in place of salami.
+It's the easiest brunch to host: no cooking, and everyone builds their own.
 
 ## Shopping list for 6, 12 or 20 guests
 
@@ -90,7 +90,12 @@ About 2 tablespoons (1 oz) per bagel half that gets a schmear, so roughly 2 oz p
 About 1½ to 2 oz of smoked salmon per guest when it's one of several toppings. For 12 guests, that is about 1½ lb.
 
 **What goes on a bagel board?**
-Sliced bagels, two or three cream cheeses, smoked salmon, capers, thinly sliced red onion, tomatoes, cucumbers, lemon wedges and fresh dill, plus a sweet side with jam, butter and fruit. Hard-boiled eggs and bacon make it more filling.
+- Sliced bagels and two or three cream cheeses
+- Smoked salmon and capers
+- Thinly sliced red onion, tomatoes and cucumbers
+- Lemon wedges and fresh dill
+- A sweet side: jam, butter and fruit
+- To make it more filling: hard-boiled eggs and bacon
 
 **Is a bagel board with lox safe for pregnant guests?**
 US and UK guidance advises pregnant people to avoid refrigerated smoked fish unless it is cooked until steaming hot. Offer a cooked option such as baked salmon or hot-smoked salmon heated through, plus eggs and plenty of other toppings.

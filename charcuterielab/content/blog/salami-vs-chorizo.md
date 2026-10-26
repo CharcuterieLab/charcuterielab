@@ -12,7 +12,7 @@ faq: "[{"question":"What is the difference between salami and chorizo?","answer"
 
 # Salami vs. Chorizo: What's the Difference?
 
-> **Quick Answer:** Salami and Spanish chorizo are both cured pork sausages that are fermented, air-dried and sliced to eat cold. The difference is the seasoning: salami is built on garlic and pepper, while chorizo is built on pimentón, Spanish smoked paprika, which turns it brick red and gives it a smoky, sweet or spicy flavor. Watch out for **Mexican chorizo**: it's a raw sausage, sold soft in a casing or loose, and it has to be cooked. It doesn't belong on a board.
+> **Quick Answer:** Both are cured pork sausages eaten cold. **Salami** is seasoned with garlic and pepper. **Spanish chorizo** gets smoked paprika, so it's red and smoky. **Mexican chorizo** is raw and must be cooked: not for a board.
 
 ## The chorizo mix-up that ruins boards
 

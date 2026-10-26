@@ -42,7 +42,7 @@ export function affiliateHtml(html) {
   if (inBody && !out.includes('class="aff-note"')) {
     const h1 = body.indexOf("</h1>");
     if (h1 > 0) {
-      out = out.slice(0, h1 + 5) + `\n<p class="aff-note">Some links on this page go to Amazon. ${DISCLOSURE}</p>` + out.slice(h1 + 5);
+      out = out.slice(0, h1 + 5) + `\n<p class="aff-note">${DISCLOSURE} <a href="/privacy/#affiliate-links">How that works</a></p>` + out.slice(h1 + 5);
       noted = true;
     }
   }

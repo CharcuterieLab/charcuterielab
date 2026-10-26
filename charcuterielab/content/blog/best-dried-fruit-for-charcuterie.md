@@ -13,14 +13,14 @@ tags: "["best dried fruit for charcuterie board", "dried fruit for cheese board"
 
 # The Best Dried Fruit for a Charcuterie Board
 
-> **Quick Answer:** Start with **Mariani Mediterranean (Turkish) Apricots** and **Sun-Maid California Mission Figs** (about $4 for 7 oz). Add **Craisins** for color, and for a showpiece, **raisins on the vine**. For a big party, **Kirkland's unsweetened dried mango** is just mango, no sugar or sulfites.
+> **Quick Answer:** Start with **Mariani Turkish apricots** and **Sun-Maid Mission figs** (about $4). Add **Craisins** for color, and **raisins on the vine** as a showpiece. For a crowd: **Kirkland dried mango**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best apricot</p><a class="sk-top-name" href="#pick-1">Mariani Mediterranean Apricots</a><p class="sk-top-line">Plump, juicy Turkish apricots</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mariani+Mediterranean+dried+apricots" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best fig</p><a class="sk-top-name" href="#pick-3">Sun-Maid California Mission Figs</a><p class="sk-top-line">Jammy black figs for blue cheese</p></div><div class="sk-top-buy"><span class="sk-price">About $4 for 7 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Sun-Maid+California+Mission+figs" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best showpiece</p><a class="sk-top-name" href="#pick-7">Melissa&#x27;s Raisins on the Vine</a><p class="sk-top-line">Vine-dried raisin clusters</p></div><div class="sk-top-buy"><span class="sk-price">About $26 for 2 × 7 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=raisins+on+the+vine+clusters" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">Fruit and cheese matches</a><a href="#dried-fruit-questions">FAQ</a></nav>
 :::
 
-Dried fruit is the easiest sweet thing on a board: it lasts, it fills gaps, and it makes salty cheese taste better. These are the brands worth buying for each fruit, with what to check on the label.
+Dried fruit lasts, fills gaps and makes salty cheese taste better.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

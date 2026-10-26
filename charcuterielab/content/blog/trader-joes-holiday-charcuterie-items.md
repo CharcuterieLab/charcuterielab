@@ -13,14 +13,14 @@ tags: "["trader joe's holiday items 2026", "trader joe's holiday cheese", "trade
 
 # Trader Joe's Holiday Charcuterie Items 2026: What to Buy for Your Board
 
-> **Quick Answer:** Start with **Creamy Toscano Dusted with Cinnamon** (about $11.99/lb) and **White Stilton with Cranberries** ($13.99/lb), both back for 2026. Add **Pink Peppercorn Fontina** ($6.99), **Pumpkin Cranberry Crisps** ($3.99) and **Maple Brown Butter Almonds** ($3.99). The Holiday Cheer cheddar spread and Cranberry Chèvre usually arrive later in the season.
+> **Quick Answer:** Start with **Creamy Toscano with Cinnamon** (about $11.99/lb) and **White Stilton with Cranberries** ($13.99/lb). Add **Pink Peppercorn Fontina**, **Pumpkin Cranberry Crisps** and **Maple Brown Butter Almonds** ($3.99 each or so).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Creamy Toscano Cheese Dusted with Cinnamon</a><p class="sk-top-line">Sharp, creamy, with a sweet cinnamon rind</p></div><div class="sk-top-buy"><span class="sk-price">$11.99/lb</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=toscano+cinnamon&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-2">White Stilton with Cranberries</a><p class="sk-top-line">Young, crumbly, mild, studded with cranberries</p></div><div class="sk-top-buy"><span class="sk-price">$13.99/lb</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=white+stilton+cranberries&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best showpiece</p><a class="sk-top-name" href="#pick-5">Pink Peppercorn Fontina</a><p class="sk-top-line">Fontina with a pink peppercorn and strawberry crust</p></div><div class="sk-top-buy"><span class="sk-price">$6.99, 7 oz</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=pink+peppercorn+fontina&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10 picks</a><a href="#how-to-choose">How to build it</a><a href="#trader-joe-s-holiday-questions">FAQ</a></nav>
 :::
 
-Trader Joe's rolls out its seasonal cheeses, crackers and spreads in two waves: fall items in September and October, holiday items around November. Here's what's confirmed in stores for 2026, and what to watch for. We'll update this page as the holiday lineup lands.
+Holiday items arrive around November. We'll update as they land.
 
 :::html
 <h2 id="picks">All 10 picks</h2>

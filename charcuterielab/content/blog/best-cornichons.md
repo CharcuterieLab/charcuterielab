@@ -13,14 +13,14 @@ tags: "["best cornichons", "cornichons brand", "best cornichons to buy", "maille
 
 # The Best Cornichons for a Charcuterie Board
 
-> **Quick Answer:** Buy **Maille Original Cornichons** (about $6 for 13.5 to 14 oz): French-made, sour with onion and spices, and sold at most big supermarkets. On a budget, **Trader Joe's** (about $2.69), though it's sweeter. For a special board, **Edmond Fallot Extra Fine** (about $10 for 6.7 oz).
+> **Quick Answer:** Buy **Maille Original Cornichons** (about $6): French-made and properly sour. Budget: **Trader Joe's** (about $2.69), but sweeter. Special: **Edmond Fallot Extra Fine** (about $10).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Original Cornichons</a><p class="sk-top-line">French-made, sour, sold almost everywhere</p></div><div class="sk-top-buy"><span class="sk-price">About $6</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Maille+Original+Cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Cornichons</a><p class="sk-top-line">Cheapest jar we found, but on the sweet side</p></div><div class="sk-top-buy"><span class="sk-price">About $2.69</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=cornichons&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Edmond Fallot Extra Fine Cornichons</a><p class="sk-top-line">Small French jar with tarragon</p></div><div class="sk-top-buy"><span class="sk-price">About $10</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Edmond+Fallot+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#cornichon-questions">FAQ</a></nav>
 :::
 
-Cornichons are tiny, sour French-style pickles, and they're the classic partner for pâté, salami and rich cheese. No one has published a side-by-side taste test of US cornichon brands, so these picks come from ingredient lists, where each jar is made, price and how easy it is to find.
+Cornichons are tiny sour pickles, the classic partner for pâté, salami and rich cheese. No taste test exists, so we picked on ingredients, origin and price.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

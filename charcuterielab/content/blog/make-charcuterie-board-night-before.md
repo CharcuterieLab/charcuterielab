@@ -13,7 +13,7 @@ updated: "2026-10-20"
 
 # Can You Make a Charcuterie Board the Night Before? Yes, Here's How
 
-> **Quick Answer:** Yes, most of it. Tonight, cut the hard cheeses, fold the meats and fill the bowls, then cover and refrigerate everything. Tomorrow, take hard cheeses out 45–60 minutes before serving and soft cheeses and meats 20–30 minutes before. Crackers, bread and cut fruit go on last.
+> **Quick Answer:** **Yes, most of it.** Tonight: cut hard cheese, fold meat, fill bowls, then cover and chill. Tomorrow: take cheese out 30–60 minutes early. **Crackers and cut fruit go on last.**
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The timeline</p>
@@ -25,7 +25,7 @@ updated: "2026-10-20"
 <nav class="sk-jump" aria-label="On this page"><a href="#tonight">Tonight's list</a><a href="#day-of">Day-of list</a><a href="#overnight">Storing it overnight</a><a href="#long-party">Long parties</a><a href="#faq">FAQ</a></nav>
 :::
 
-The common mistake is building the whole board tonight and pulling it out tomorrow. You get dry meat edges, soft crackers, brown apple slices and weeping brie. Split the work instead: about 90% can be done ahead, and the board still looks fresh.
+Don't build the whole board tonight: you'll get dry meat and soggy crackers. About 90% can be done ahead.
 
 :::html
 <h2 id="tonight">Tonight: what you can prep</h2>

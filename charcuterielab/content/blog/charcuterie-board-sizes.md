@@ -12,7 +12,7 @@ tags: "["charcuterie board sizes", "charcuterie board", "board building"]"
 
 # Charcuterie Board Sizes: Which Size for Which Occasion
 
-> **Quick Answer:** For 2 people, use an 8–10 inch board. For 4–6, a 12–14 inch board. For 8–10 people, use a 16–18 inch board or two medium boards. The 80% coverage rule: food should cover most of the board surface with natural gaps — not stacked high. When in doubt, go one size larger.
+> **Quick Answer:** **2 people:** 8–10 inch board. **4–6:** 12–14 inch. **8–10:** 16–18 inch, or two medium boards. Food should cover most of the board. When in doubt, go one size up.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Board size by guest count</p>

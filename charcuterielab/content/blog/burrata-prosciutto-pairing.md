@@ -11,7 +11,7 @@ tags: "["burrata prosciutto pairing", "burrata and prosciutto", "charcuterie boa
 
 # Burrata and Prosciutto Pairing: Why It Works
 
-> **Quick Answer:** Burrata and prosciutto is a fat-on-fat pairing managed by salt chemistry. Prosciutto's sodium triggers salivary flow that primes the palate for burrata's cream, bridges residual lactic acid in the fresh cheese shell, and creates a salt-sweet contrast loop. The cured fat and cream fat share a lipid chemistry axis that produces aromatic resonance rather than richness competition. The pairing feels light because salt handles the balance.
+> **Quick Answer:** **Salty prosciutto makes creamy burrata taste lighter.** The salt makes your mouth water, and the sweet cream softens the salt. Two rich foods, but the pairing never feels heavy.
 
 ## Why Fat-on-Fat Works Here
 

@@ -10,11 +10,9 @@ tags: "["charcuterie how-to", "prosciutto", "charcuterie techniques", "board bui
 
 # How to Make a Prosciutto Rose: The Step-by-Step Technique
 
-> **Quick Answer:** Use 3–4 thin slices per rose. Drape them around the rim of a wine glass, overlapping each slice like petals and saving your best slices for the outside, then turn the glass over onto the board and lift it away. One or two roses per board is plenty.
+> **Quick Answer:** Drape **3 or 4 thin slices** around the rim of a wine glass, overlapping like petals. Turn the glass over onto the board and lift. One or two roses per board is plenty.
 
-A well-built charcuterie board has a hundred small decisions behind it — which cheeses to choose, how to balance flavors, where to place the condiments. But if there's one technique that transforms a good board into one that stops people in their tracks, it's the prosciutto rose.
-
-It looks complicated. It isn't. Once you've made three or four of them, the folding becomes automatic — and the effect it creates is disproportionate to the effort required. This is the technique that earns you the comment "did you make this yourself?" every time.
+It looks hard. It isn't, and it's the detail guests ask about.
 
 ---
 
@@ -42,7 +40,10 @@ Take one slice of prosciutto and fold it loosely in half lengthwise, so the long
 Hold the glass upside down over your work surface. Lower the rolled core into the glass opening, folded side down, so it sits loosely in the rim of the upside-down glass. The glass is now your scaffold — it holds the shape while you add petals.
 
 ### Step 4: Add the First Petal Layer
-Take a second slice of prosciutto. Drape it over the rim of the glass so it hangs down on one side like a petal, with roughly a third of the slice overhanging the outside of the glass and the rest inside against the core. Press it gently against the core to adhere (the fat in the prosciutto creates its own tack). Rotate the glass slightly and add a second slice in the same way, overlapping the first by about a third. Repeat with a third slice to complete the first petal ring.
+1. Take a second slice of prosciutto and drape it over the rim of the glass like a petal: about a third hangs outside, the rest lies inside against the core.
+2. Press it gently against the core. The fat makes it stick.
+3. Turn the glass slightly and add the next slice the same way, overlapping the first by about a third.
+4. Repeat with a third slice to finish the first ring of petals.
 
 ### Step 5: Add the Outer Petals (Optional)
 For a fuller rose, add a second ring of petals the same way — three more slices, each draped over the rim and offset from the inner ring. The more petals you add, the more opulent the rose looks. Stop here if you want something elegant and tight. Add another ring if you want something dramatic and oversized.

@@ -12,9 +12,9 @@ tags: "["turkey charcuterie board", "turkey shaped charcuterie board", "thanksgi
 
 # Turkey Charcuterie Board: How to Build It for Thanksgiving (Serves 8 to 20)
 
-> **Quick Answer:** A turkey charcuterie board is a round board with the food fanned out in **arcs behind a small round "body"**, so the rows look like tail feathers. Use a pear half, a small bowl of dip or a mini brie for the body, then build the feathers from the outside in: crackers, cheese slices, folded salami, grapes and dried apricots. Add a **cheddar triangle beak**, a **red pepper wattle** and two peppercorn eyes. Before Thanksgiving dinner, plan **2 oz each of meat and cheese per guest**, about 1½ lb of each for 12.
+> **Quick Answer:** Make a small round **body** (a pear half or mini brie), then fan food in **arcs behind it** as tail feathers. Add a cheddar beak and red pepper wattle. Plan **2 oz each of meat and cheese per guest**.
 
-A turkey board is the Thanksgiving appetizer kids remember, and it's easier than it looks. The arcs do the work: every row is just one ingredient laid in a curved line, so there is no guessing where things go. It also keeps the appetizer light before a big meal, because the shape limits how much you can pile on.
+Kids remember it, and every row is one ingredient in a curve, so there's no guessing.
 
 ## Board size and how many it serves
 

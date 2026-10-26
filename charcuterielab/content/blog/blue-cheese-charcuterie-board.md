@@ -13,14 +13,12 @@ tags: "["blue cheese charcuterie board", "blue cheese pairings", "ingredient dee
 
 # Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Science Behind It
 
-> **Quick Answer:** Put one blue cheese on your board, about 3 to 5 oz for 6 to 10 guests, at an edge rather than the center. Choose Gorgonzola dolce for a cautious crowd, Stilton for a mixed one and Roquefort for cheese lovers. Set honey or honeycomb right beside it, with figs, pear and walnuts within reach. Sweetness tempers blue's salt and sharpness.
+> **Quick Answer:** Use **one blue**, 3 to 5 oz for 6 to 10 guests, at the edge of the board. Mild crowd: **Gorgonzola dolce**. Mixed: **Stilton**. Cheese lovers: **Roquefort**. Put honey right next to it, with figs, pear and walnuts nearby.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Which blue</p><span class="sk-top-name">Gorgonzola dolce for a cautious crowd</span><p class="sk-top-line">Stilton for a mixed one, Roquefort for cheese lovers.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#which">All 5 blues</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">3 to 5 oz for 6 to 10 guests</span><p class="sk-top-line">One blue, at the edge of the board, not the center.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how">How to use it</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Put beside it</p><span class="sk-top-name">Honey or honeycomb</span><p class="sk-top-line">Then figs, pear and walnuts within reach.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#pairs">Pairings</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#what">What is blue cheese</a><a href="#which">Which blue</a><a href="#how">How to use it</a><a href="#pairs">Pairings</a><a href="#science">The science</a><a href="#mistakes">Mistakes</a></nav>
 :::
-
-Blue cheese often goes in as a token gesture, lands in the middle and gets avoided by half the guests. **The right blue, in the right amount, with the right partners** makes some of the best bites on the board.
 
 :::html
 <h2 id="what">What Is Blue Cheese?</h2>

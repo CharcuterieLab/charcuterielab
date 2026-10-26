@@ -13,9 +13,9 @@ updated: "2026-09-24"
 
 # Brie: The Complete Charcuterie Pairing Guide
 
-> **Quick Answer:** Let brie come to room temperature before serving; cold brie tastes chalky and muted. Pair it with something sweet (honey, fig jam, Honeycrisp apple) and something salty (prosciutto): salt and sweet make each other taste better. Place it near the center of the board as the visual anchor.
+> **Quick Answer:** Serve brie at **room temperature**: cold brie tastes chalky. Pair it with something sweet (honey, fig jam, apple) and something salty (prosciutto). Put it near the center of the board.
 
-Brie looks delicate, but the science behind it is surprisingly aggressive. That bloomy white rind isn't decorative — it's a living layer of mold engineered to break down fat and protein from the outside in, transforming a dense young cheese into something runny, rich, and impossibly complex. Understanding that process is the key to pairing brie in a way that makes every bite land exactly right.
+That white rind is a living mold that softens the cheese from the outside in. Here's how to use that when you pair it.
 
 ---
 

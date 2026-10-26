@@ -12,7 +12,7 @@ faq: "[{"question":"Is bologna the same as mortadella?","answer":"No. Bologna is
 
 # Mortadella vs. Bologna: What's the Difference?
 
-> **Quick Answer:** American bologna descends from mortadella, the cooked pork sausage from Bologna, Italy, but they're different sausages. Mortadella is finely ground pork studded with visible cubes of fat, seasoned with black pepper and warm spices, often with pistachios, and slow-cooked for hours. Bologna is blended completely smooth with no visible fat, can be made from beef, pork or poultry, and tastes milder and saltier. Mortadella belongs on a charcuterie board; bologna belongs in a sandwich.
+> **Quick Answer:** Bologna comes from mortadella, but they're different. **Mortadella** has visible cubes of fat, warm spices and often pistachios. **Bologna** is smooth and milder. Mortadella goes on a board; bologna in a sandwich.
 
 ## Is bologna the same as mortadella?
 

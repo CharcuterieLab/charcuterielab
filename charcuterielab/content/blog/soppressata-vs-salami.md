@@ -12,7 +12,7 @@ faq: "[{"question":"Is soppressata a type of salami?","answer":"Yes. Soppressata
 
 # Soppressata vs. Salami: What's the Difference?
 
-> **Quick Answer:** Soppressata is a type of salami. "Salami" is the whole family of fermented, air-dried sausages; soppressata is one southern Italian style of it. What sets it apart: the pork is chopped coarsely, the sausage is pressed while it dries so the slices are flat ovals, and it's often spicy with chili. Compared with Genoa salami, the most common kind, soppressata is chunkier, chewier and bolder. Buy it hot if you want a salami with personality.
+> **Quick Answer:** **Soppressata is a type of salami**: coarsely chopped, pressed flat, and often spicy. Compared with Genoa, it's chunkier, chewier and bolder. Buy it hot for personality.
 
 ## Is soppressata salami?
 

@@ -11,7 +11,7 @@ tags: "["chorizo and manchego", "pairing science", "charcuterie board"]"
 
 # Chorizo and Manchego: Why This Pairing Works
 
-> **Quick Answer:** Chorizo and Manchego pair because pimentón's aromatic compounds are lipophilic — they dissolve directly into Manchego's sheep's milk fat and amplify through retronasal perception. Sheep's milk's higher medium-chain fatty acid content makes it a more efficient carrier for pimentón lipophiles than most cow's milk cheeses. Both ingredients amplify each other at the biochemical level.
+> **Quick Answer:** **The paprika in chorizo dissolves into the fat in Manchego**, so each makes the other taste bigger. Sheep's milk is especially good at carrying that flavor. It's Spain's classic pair for a reason.
 
 ## The Direct Answer
 

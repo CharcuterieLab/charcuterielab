@@ -13,9 +13,9 @@ tags: "["wedding grazing table", "wedding charcuterie", "how much charcuterie fo
 
 # Wedding Charcuterie and Grazing Table: How Much for 50 to 200 Guests
 
-> **Quick Answer:** For a wedding cocktail hour before dinner, plan 2 oz each of cured meat and cheese per guest, plus 10% for a crowd: about 14 lb of each for 100 guests. If the grazing table *is* the reception food, plan 3 oz each: about 21 lb of each for 100. Split it into three stations for 50 guests and four from 75 up, and swap in a fridge-cold refill before anything has been out 2 hours.
+> **Quick Answer:** Cocktail hour: **2 oz each of meat and cheese per guest**, plus 10%: about **14 lb of each for 100**. If it's the main food: **3 oz each** (21 lb for 100). Build 3–4 stations and refill before 2 hours.
 
-A wedding grazing table is the same math as any board, multiplied and spread out. The two decisions that change everything are when it's served (before dinner, or instead of it) and how many stations you build. Every amount below comes from our [Party Planner](/party-planner/), so the numbers match the planner pages for each guest count.
+The two big decisions: before dinner or instead of it, and how many stations. Amounts match the [Party Planner](/party-planner/).
 
 ## How much to buy: cocktail hour
 

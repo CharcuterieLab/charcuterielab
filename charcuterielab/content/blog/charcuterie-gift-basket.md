@@ -13,14 +13,14 @@ tags: "["charcuterie gift basket", "diy charcuterie gift", "food gift ideas", "c
 
 # DIY Charcuterie Gift Basket: 3 Box Ideas ($25, $50, $100) and How to Pack It
 
-> **Quick Answer:** Build it around things that don't need a fridge: a **whole, unopened dry salami**, crackers, jam or honey, nuts, jarred olives, mustard and dark chocolate. Add **the cheese right before you hand it over**, with a tag that says to refrigerate it. Shipping? Leave the cheese out, or send it overnight with gel packs.
+> **Quick Answer:** Pack things that **don't need a fridge**: a whole unopened dry salami, crackers, jam, nuts, olives, mustard and chocolate. **Add cheese right before you give it**, with a "refrigerate" tag.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Three baskets, three budgets</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$25 to $35</p><span class="sk-top-name">The starter box</span><p class="sk-top-line">1 salami, 1 cheese, crackers, fig jam, cornichons, nuts. A board for 2–4.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-25">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$45 to $60</p><span class="sk-top-name">The classic basket</span><p class="sk-top-line">2 salamis, 2 cheeses, 2 crackers, jam, mustard, olives, almonds, chocolate. Feeds 6.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-50">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$95 to $130</p><span class="sk-top-name">The luxury box</span><p class="sk-top-line">Packed on a wooden board with cheese knives, so the gift outlasts the food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-100">The list</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#travels">What travels</a><a href="#box-25">$25 box</a><a href="#box-50">$50 basket</a><a href="#box-100">$100 box</a><a href="#pack">How to pack</a><a href="#tag">The tag</a><a href="#shipping">Shipping</a><a href="#versions">Special diets</a></nav>
 :::
 
-A homemade basket costs less than most store-bought gift boxes, looks more personal and actually gets eaten. **The trick is choosing food that survives the trip.**
+A homemade basket costs less than a store box and looks more personal.
 
 :::html
 <h2 id="travels">What travels well (and what doesn&#x27;t)</h2>
@@ -184,7 +184,9 @@ Most of it does not. Whole, unopened dry salami, crackers, jams, honey, nuts, ja
 USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard salami keeps about 6 weeks in the pantry and indefinitely in the refrigerator. Once it is opened or sliced, keep it in the fridge and use it within 3 weeks.
 
 **How much does a DIY charcuterie gift basket cost?**
-About $25 to $35 for a small box with one salami, one cheese, crackers, jam and nuts, about $45 to $60 for a classic basket with two of each and extras, and about $95 to $130 for a luxury box that includes a wooden board and cheese knives.
+- **Small box, about $25 to $35:** one salami, one cheese, crackers, jam and nuts
+- **Classic basket, about $45 to $60:** two of each, plus extras
+- **Luxury box, about $95 to $130:** adds a wooden board and cheese knives
 
 **Can you ship a charcuterie gift basket?**
 Ship the shelf-stable items any way you like. If it includes cheese, use an insulated mailer with frozen gel packs, ship overnight early in the week so it does not sit in a warehouse over a weekend, and tell the recipient it is coming. Otherwise send the shelf-stable box with a note to add their favorite cheese.

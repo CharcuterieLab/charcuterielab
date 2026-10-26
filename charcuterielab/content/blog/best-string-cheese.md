@@ -19,7 +19,7 @@ tags: "["best string cheese", "string cheese brands", "cheese sticks", "kids cha
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-String cheese is the kids' board MVP: mild, fun to peel and easy to cut into coins or shapes. Three outlets have ranked it, and they disagree more than you'd expect, so these rankings weigh where each brand landed across all three.
+Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

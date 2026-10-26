@@ -13,7 +13,7 @@ tags: "["charcuterie board new years eve", "new years eve charcuterie board", "c
 
 # New Year's Eve Charcuterie Board: How to Build a Midnight Board That Pairs with Champagne
 
-> **Quick Answer:** A New Year's Eve charcuterie board should be built to pair with sparkling wine — lean toward salty, umami-rich, and fatty elements that make Champagne taste better. Aged Gruyère, prosciutto di Parma, smoked salmon, Parmigiano-Reggiano, marcona almonds, dark chocolate, and champagne grapes are the core. Plan 3 oz each of cheese and meat per person, since a midnight board is the party food for 2–3 hours of grazing.
+> **Quick Answer:** Build it to go with bubbly: **aged Gruyère, prosciutto, smoked salmon, Parmigiano, Marcona almonds and dark chocolate**. Plan **3 oz each of cheese and meat per person**, since it's the party food until midnight.
 
 > Want themes instead? See our [New Year's Eve charcuterie board ideas](/holidays/new-years-eve/), including a midnight plan and a blini bar.
 

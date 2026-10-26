@@ -11,9 +11,9 @@ slug: "which-charcuterie-board-are-you"
 
 # Which Charcuterie Board Are You? Take the 8-Question Quiz
 
-> **Quick Answer:** Answer the eight questions below and keep track of your letters. Mostly A is the Classic, mostly B the Luxe, mostly C the Budget Hero, mostly D the Globetrotter, mostly E the Sweet Tooth and mostly F the Firestarter. Each result tells you what to put on your board and what to pour with it.
+> **Quick Answer:** Answer 8 questions and count your letters. **A:** Classic. **B:** Luxe. **C:** Budget Hero. **D:** Globetrotter. **E:** Sweet Tooth. **F:** Firestarter. Each result tells you what to build and pour.
 
-Grab a pen or keep count on your fingers. Pick the answer that sounds most like you, not the one you think is right. Then share your result and make your friends take it too.
+Pick what sounds like you, then share your result.
 
 ## The quiz
 

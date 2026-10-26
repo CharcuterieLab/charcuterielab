@@ -117,7 +117,8 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 | [Paxton & Whitfield](https://paxtonandwhitfield.co.uk/blogs/news/the-paxton-amp-whitfield-cheese-advent-calendar-returns-for-2026) | £175 | 24 cheeses, 75 g or more | 3 deliveries from Nov 27 |
 | The Welsh Cheese Company | £224 (6-day version £49.50) | About 4.2 kg of Welsh cheese | From Nov 25 |
 
-**Sold out:** The Cheese Geek and Chuckling Cheese. **Aldi UK:** no cheese calendar this year.
+- **Sold out:** The Cheese Geek and Chuckling Cheese.
+- **Aldi UK:** no cheese calendar this year.
 
 ### Other countries
 

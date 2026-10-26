@@ -19,7 +19,7 @@ tags: "["best dark chocolate", "best dark chocolate bar", "dark chocolate brands
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A few squares of dark chocolate make a board feel finished, and they're excellent with aged cheddar, blue cheese, Parmesan and red wine. Bars between 60% and 75% cacao suit most guests: dark enough to taste like chocolate, sweet enough to eat. These rankings lean on three published taste tests, then how easily each bar breaks into pieces, ingredients, price and how easy it is to find.
+A few squares make a board feel finished. Bars between 60% and 75% cacao suit most guests.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

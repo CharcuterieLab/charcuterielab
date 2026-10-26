@@ -13,14 +13,14 @@ tags: "["butter board", "butter board ideas", "how to make a butter board", "app
 
 # Butter Board: How to Make One, 6 Flavor Ideas and How Much Butter
 
-> **Quick Answer:** A butter board is softened butter spread in swoops across a wooden board, topped with flaky salt and things like honey, lemon zest, herbs or chili crisp, and served with warm bread for scooping. Plan **1 to 1½ tablespoons of butter per guest** and **2 to 3 pieces of bread** each, so about **1 to 1½ sticks of butter and a large loaf for 8 people**. Soften the butter for an hour, spread it, top it right before serving and leave it out no more than 2 hours once it's topped.
+> **Quick Answer:** Spread **softened butter** across a board, top with **flaky salt, honey, herbs or chili crisp**, and serve with warm bread. Plan **1 to 1½ tablespoons per guest**: about 1½ sticks and a big loaf for 8. Leave it out no more than 2 hours.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Butter board in four lines</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">1–1½ Tbsp butter per guest</span><p class="sk-top-line">1–1½ sticks and a large loaf for 8 people.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#amounts">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Prep</p><span class="sk-top-name">Soften 1 hour, spread in swoops</span><p class="sk-top-line">Flaky salt on everything, wet toppings, then dry ones.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-to">Steps</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Top it</p><span class="sk-top-name">Honey, lemon zest, herbs</span><p class="sk-top-line">Or hot honey, fig and walnut, everything bagel.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#ideas">6 ideas</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Safety</p><span class="sk-top-name">2 hours out once topped</span><p class="sk-top-line">1 hour above 90°F. Leftovers go in the fridge.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#sit-out">Sit-out time</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#amounts">Amounts</a><a href="#butter-bread">Butter &amp; bread</a><a href="#how-to">How to make it</a><a href="#ideas">6 ideas</a><a href="#clean">Serve it cleanly</a><a href="#sit-out">Sit-out time</a><a href="#vs">Vs. charcuterie</a><a href="#faq">FAQ</a></nav>
 :::
 
-The butter board went viral on TikTok in the fall of 2022, when food creator Justine Doiron shared one, and it has stuck around as an easy party appetizer. It costs less than a charcuterie board, takes ten minutes, and works on a board you already own. It also pairs well next to a cheese board as a second, cheaper focal point.
+It went viral on TikTok in 2022. It costs less than a charcuterie board and takes ten minutes.
 
 :::html
 <h2 id="amounts">How much butter and bread to buy</h2>

@@ -28,10 +28,13 @@ things you should not eat.
 
 ## What it is
 
-Flowers grown without pesticides and sold for eating. The common ones are
-**pansies and violas** (mild, grassy), **nasturtiums** (genuinely peppery, like
-watercress), **borage** (blue, faintly cucumber), **calendula** (petals, mildly
-bitter), and **chive or thyme flowers** (properly savoury).
+Flowers grown without pesticides and sold for eating. The common ones:
+
+- **Pansies and violas:** mild, grassy
+- **Nasturtiums:** peppery, like watercress
+- **Borage:** blue, faintly cucumber
+- **Calendula:** petals, mildly bitter
+- **Chive or thyme flowers:** savoury
 
 **Taste:** mild to nearly none, except nasturtium and chive flowers
 **Texture:** delicate, papery, wilts fast

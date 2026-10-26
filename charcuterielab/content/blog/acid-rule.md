@@ -14,7 +14,7 @@ updated: "2026-10-20"
 
 # The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites
 
-> **Quick Answer:** Acid cuts through fat by making your mouth water: the extra saliva rinses fat and salt off your tongue between bites. This is why a bite of cornichon after fatty salami makes the next bite of salami taste as bright as the first. The fat-acid pairing (pickles with cured meat, wine acidity with cheese) is the primary palate-reset mechanism on any charcuterie board.
+> **Quick Answer:** **Acid makes your mouth water**, and that rinses fat and salt off your tongue. That's why a cornichon after salami makes the next bite taste fresh again. Put something sour on every board.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The acid rule in four lines</p>
@@ -26,7 +26,7 @@ updated: "2026-10-20"
 <nav class="sk-jump" aria-label="On this page"><a href="#fatigue">Palate fatigue</a><a href="#how">How acid resets</a><a href="#sources">Acid sources</a><a href="#placement">Where to put it</a><a href="#practice">The rule in practice</a><a href="#faq">FAQ</a></nav>
 :::
 
-Almost every good board has something sour: cornichons, apple slices, mustard, grapes. Most people add them out of habit. Knowing why they work tells you how much to use, where to put them and which one to pick.
+Cornichons, apples, mustard and grapes all do this job. Here's how much to use, where to put it and which to pick.
 
 :::html
 <h2 id="fatigue">What palate fatigue is</h2>

@@ -13,14 +13,14 @@ tags: "["best wine for charcuterie board", "wine for charcuterie board", "wine u
 
 # The Best Wines Under $20 for a Charcuterie Board
 
-> **Quick Answer:** If you buy one bottle, buy a dry sparkling: **Segura Viudas Brut Reserva Cava** (about $11) cuts through salami, prosciutto and brie. Add a light red: **Mark West Pinot Noir** (about $11) or the dry, fizzy **Cleto Chiarli Lambrusco** (about $20). For blue cheese, **Graham's Six Grapes Port**.
+> **Quick Answer:** One bottle? Buy dry sparkling: **Segura Viudas Brut Reserva Cava** (about $11). Add a light red: **Mark West Pinot Noir** (about $11) or **Cleto Chiarli Lambrusco** (about $20). For blue cheese: **Graham's Six Grapes Port**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best sparkling</p><a class="sk-top-name" href="#pick-1">Segura Viudas Brut Reserva Cava</a><p class="sk-top-line">Spanish bubbly that cuts through fatty meats</p></div><div class="sk-top-buy"><span class="sk-price">About $11</span><a class="button sk-buy-sm" href="https://www.totalwine.com/wine/champagne-sparkling-wine/cava/brut/segura-viudas-brut-reserva/p/89867750" target="_blank" rel="noopener">See it at Total Wine</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best light red</p><a class="sk-top-name" href="#pick-4">Mark West California Pinot Noir</a><p class="sk-top-line">Light, low-tannin red for most of the board</p></div><div class="sk-top-buy"><span class="sk-price">About $11</span><a class="button sk-buy-sm" href="https://www.target.com/p/-/A-13426254" target="_blank" rel="noopener">See it at Target</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best Italian red</p><a class="sk-top-name" href="#pick-6">Cleto Chiarli Vigneto Cialdini Lambrusco</a><p class="sk-top-line">Dry, fizzy red made for salumi</p></div><div class="sk-top-buy"><span class="sk-price">About $16–20</span><a class="button sk-buy-sm" href="https://plumpjackwines.com/collections/discountable/products/cleto-chiarli-lambrusco-di-castelvetro-vigneto-cialdini" target="_blank" rel="noopener">See it at PlumpJack</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 bottles</a><a href="#how-to-choose">How to pick</a><a href="#wine-questions">FAQ</a></nav>
 :::
 
-Charcuterie is salty and fatty, so it wants wines with acidity and not much tannin. These eight bottles are easy to find for under about $20, and each one fits a different kind of board.
+Salty, fatty food wants wine with acidity and little tannin. All eight bottles are about $20 or less.
 
 :::html
 <h2 id="picks">All 8 bottles</h2>

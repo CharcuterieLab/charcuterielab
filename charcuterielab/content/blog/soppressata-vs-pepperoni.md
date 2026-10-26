@@ -12,7 +12,7 @@ tags: "["soppressata vs pepperoni", "hot soppressata vs pepperoni", "soppressata
 
 # Soppressata vs. Pepperoni: What's the Difference?
 
-> **Quick Answer:** Both are salami, but they come from different places. Soppressata is a southern Italian pork salami, coarsely chopped and pressed flat as it dries, sold hot or sweet. Pepperoni is an American salami of pork and often beef, finely ground, seasoned with paprika and chili and usually smoked. Hot soppressata has a fruitier, bigger heat; pepperoni is milder, smokier and the one that curls into cups on pizza.
+> **Quick Answer:** Both are salami. **Soppressata** is a coarse, flat-pressed Italian pork salami, sweet or hot. **Pepperoni** is a fine-ground American salami, smoked, and the one that cups on pizza.
 
 ## Soppressata vs. pepperoni at a glance
 

@@ -1,12 +1,13 @@
 ---
-title: "Cherry Tomatoes: The Ultimate Ingredient Deep Dive + Pairing Guide"
+title: "Cherry Tomatoes: The Ultimate Ingredient Deep Dive + Pairing Guide"
+
 seo_title: "Cherry Tomatoes on a Charcuterie Board: Pairing Guide"
 date: "2026-04-25"
 image: "/images/cherrytomatoes.webp"
 excerpt: "Bright, juicy cherry tomatoes bring acidity, color, and freshness to rich charcuterie boards."
 ---
 
-> **Quick Answer:** Cherry tomatoes add bright acidity, juice and color that reset the palate between rich bites. Keep them at room temperature (fridge-cold tomatoes taste flat), pat them dry, and cluster 3–5 near fresh mozzarella, feta, olives and basil, away from the crackers so nothing gets soggy.
+> **Quick Answer:** Cherry tomatoes add **acid, juice and color**. Serve them at room temperature (cold ones taste flat), pat them dry, and cluster them near mozzarella, olives and basil, away from the crackers.
 
 ## Introduction
 

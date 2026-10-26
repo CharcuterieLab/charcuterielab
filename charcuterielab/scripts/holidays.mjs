@@ -309,8 +309,8 @@ export function holidaysHub(h, holidays) {
       <p class="section-kicker">Holiday Hub</p>
       <h1>Holiday charcuterie boards, planned</h1>
       <p class="bl-intro">Board ideas, shapes, a countdown plan and exact amounts for every holiday of the year.</p>
-      <p>Each holiday page has three board ideas sized for real parties, shaped boards with a layout diagram (a wreath for Christmas, a menorah for Hanukkah, a football for the Super Bowl), a countdown plan that starts two weeks out, and a table of how much cheese, meat and crackers to buy. Every page uses the same amounts as the rest of the Lab: about 2 oz each of cheese and meat per guest before a meal, 3 oz when the board is the party food and 4 oz when it's dinner, plus 10% from 20 guests up.</p>
-      <p>One food-safety rule runs through all of them: perishable food stays out no more than 2 hours, or 1 hour above 90°F. For a long party, build one board for the start and keep a refill tray in the fridge. The <a href="/party-planner/">Party Planner</a> works out exact amounts for any guest count.</p>
+      <ul class="hol-has"><li><strong>3 board ideas</strong> sized for real parties</li><li><strong>A shaped board</strong> with a layout (wreath, menorah, football)</li><li><strong>A countdown plan</strong> from two weeks out</li><li><strong>How much to buy:</strong> about 2 oz each of cheese and meat per guest before a meal, 3 oz as party food</li></ul>
+      <p class="hol-safe">Food out no more than 2 hours. Exact amounts for any guest count: <a href="/party-planner/">Party Planner</a>.</p>
       <div class="hol-next">
         ${upcoming.map((c) => `<a class="hol-next-card" href="/holidays/${c.slug}/">
           <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt=""${h.imageSize ? h.imageSize((h.thumb || ((x) => x))(c.page.image)) : ""} loading="lazy" decoding="async">

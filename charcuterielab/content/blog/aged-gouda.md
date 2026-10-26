@@ -13,7 +13,7 @@ tags: "["aged gouda", "gouda cheese", "hard cheese", "charcuterie cheese", "char
 
 # Aged Gouda: The Caramel Cheese That Changes How Your Board Tastes
 
-> **Quick Answer:** Well-aged Gouda tastes of caramel and butterscotch because of slow browning reactions during aging, not added sugar. Buy the firm, amber, crystal-studded kind rather than young supermarket Gouda, break it into craggy chunks, and place it near dark honey, nuts or dried fruit, between the savory and sweet sides of the board.
+> **Quick Answer:** Aged Gouda tastes of **caramel and butterscotch**, with no sugar added. Buy the firm, amber kind with crystals, break it into chunks, and put it near dark honey, nuts or dried fruit.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Aged Gouda in 30 seconds</p>
@@ -25,7 +25,7 @@ tags: "["aged gouda", "gouda cheese", "hard cheese", "charcuterie cheese", "char
 <nav class="sk-jump" aria-label="On this page"><a href="#what">What it is</a><a href="#science">Why it tastes like caramel</a><a href="#age">Choosing by age</a><a href="#present">Serving</a><a href="#pairing">Pairings</a><a href="#reference">Quick reference</a><a href="#faq">FAQ</a></nav>
 :::
 
-Most hard cheeses get sharper and saltier with age. Aged Gouda gets sweet: caramel and butterscotch, with no sugar added. That makes it the best bridge between the savory and sweet sides of a board. If you've only had the young, waxy supermarket kind, this is a different cheese.
+If you've only had young, waxy supermarket Gouda, this is a different cheese. It's the best bridge between the salty and sweet sides of a board.
 
 :::html
 <h2 id="what">What aged Gouda is</h2>

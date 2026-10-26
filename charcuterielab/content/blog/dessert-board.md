@@ -11,11 +11,9 @@ slug: "dessert-board"
 tags: "[dessert board, dessert charcuterie board, party dessert, entertaining]"
 ---
 
-> **Quick Answer:** Treat it like a real board, built on contrast: one dark or rich chocolate, one creamy dip, two fruits, two cookies or crisp items, one salty crunch such as pretzels or salted nuts, and a fresh garnish. Place the bowls first, then the chocolate, cookies and fruit in clusters.
+> **Quick Answer:** Build it on contrast: **one rich chocolate, one creamy dip, two fruits, two cookies, something salty** like pretzels, and a fresh garnish. Bowls first, then fill in clusters.
 
-A dessert charcuterie board works best when it is treated like a real board, not a pile of candy. The goal is contrast: creamy, crisp, juicy, bitter, salty, rich, and fresh. If every bite is only sweet, guests take one or two pieces and stop. If the board has balance, people keep coming back because each bite resets the next one.
-
-The easiest formula is:
+If every bite is only sweet, guests stop after two. The easiest formula:
 
 **Chocolate + fruit + cookies + creamy dip + salty crunch**
 

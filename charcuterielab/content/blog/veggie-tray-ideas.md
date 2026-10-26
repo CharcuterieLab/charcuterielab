@@ -12,7 +12,7 @@ tags: "["veggie tray", "veggie tray ideas", "vegetable tray", "vegetable platter
 
 # Veggie Tray Ideas: What to Include, How Much to Buy and How to Arrange It
 
-> **Quick Answer:** A great veggie tray needs crunchy vegetables in at least five colors, one or two dips in the middle, and a few extras like olives or pickles. Plan on about 3 to 4 ounces of vegetables per person when it's one of several appetizers, or 5 to 6 ounces if it's the main snack. Cut everything the day before and assemble it within an hour of serving.
+> **Quick Answer:** Use **crunchy vegetables in five colors**, one or two dips in the middle, and olives or pickles. Plan **3–4 oz per person** with other food. Cut everything the day before.
 
 ## What to put on a veggie tray
 

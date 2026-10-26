@@ -19,7 +19,7 @@ tags: "["best french onion dip", "best store bought french onion dip", "french o
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-French onion dip is the game-day board's best friend: put it next to the chips, pretzels and crudités and it's the first thing gone. Three outlets have ranked the tubs in the past year. They agree on one brand more than the others, so that's where we start.
+It's the first thing gone on a game-day board. One brand wins across three rankings.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

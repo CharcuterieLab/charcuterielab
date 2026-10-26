@@ -19,7 +19,7 @@ tags: "["best gruyere", "best gruyere brand", "gruyere cheese brands", "gruyere 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Gruyère is the nutty, crystal-flecked alpine cheese that makes a board taste expensive. The catch is the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-month domestic block. These are the ones that come out best in published tastings, ranked for a cheese board.
+Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-month domestic block.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

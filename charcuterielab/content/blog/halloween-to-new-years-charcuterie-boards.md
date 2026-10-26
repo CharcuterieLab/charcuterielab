@@ -11,11 +11,9 @@ slug: "halloween-to-new-years-charcuterie-boards"
 
 # 15 Holiday Charcuterie Boards from Halloween to New Year's
 
-> **Quick Answer:** Plan one board per party from Halloween to New Year's Day: three Halloween boards, a fall harvest board, Friendsgiving, Thanksgiving and a leftovers board, a dairy Hanukkah board, a Christmas tree, a wreath, Christmas morning, a cookie board, a hot cocoa board, New Year's Eve and a New Year's Day brunch. Use 2, 3 or 4 oz of meat and cheese per guest.
+> **Quick Answer:** **15 boards, one per party**, from Halloween to New Year's Day, in calendar order. Use **2 oz** of meat and cheese per guest before a meal, **3 oz** as party food, **4 oz** as dinner.
 
-Save this now. Between late October and the first of January most of us host or bring food to five or six gatherings, and every one of them goes better with a board. Here are fifteen, in calendar order, with what goes on each and one thing to do ahead.
-
-Every board below follows the same amounts: meat and cheese each at **2 oz per guest** before a meal, **3 oz** when the board is the party food and **4 oz** when it is dinner. The [Party Planner](/party-planner/) turns that into a shopping list for any guest count.
+Save this now. Each board has what goes on it and one thing to do ahead. The [Party Planner](/party-planner/) makes the shopping list.
 
 ## The season at a glance
 

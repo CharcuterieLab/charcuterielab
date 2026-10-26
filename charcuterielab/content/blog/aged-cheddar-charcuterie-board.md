@@ -11,7 +11,7 @@ tags: "["aged cheddar", "ingredient deep dive", "charcuterie board"]"
 
 # Aged Cheddar on a Charcuterie Board
 
-> **Quick Answer:** Aged cheddar is one of the best bold cheeses for a charcuterie board. Buy extra sharp or vintage cheddar, aged about 12 to 24 months, and break it into rough chunks to show off its crunchy crystals. Plan about 1 ounce per guest, let it sit out 30 to 45 minutes, and put fig jam and crisp apple slices right next to it.
+> **Quick Answer:** Buy **extra sharp cheddar aged 12 to 24 months** and break it into rough chunks to show the crunchy crystals. Plan 1 oz per guest, take it out 30 to 45 minutes early, and put fig jam and apple next to it.
 
 ## What Is Aged Cheddar?
 

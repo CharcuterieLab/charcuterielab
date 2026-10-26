@@ -13,7 +13,7 @@ tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcute
 
 # Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board
 
-> **Quick Answer:** Coppa is Italian cured pork neck and shoulder, the same meat as capicola. It's a whole muscle, dry-cured with salt, pepper and wine and air-dried for months, so it's ready to eat sliced thin. It's heavily marbled, sweet and silky. Buy sweet (dolce) for most boards or spicy (piccante) for heat, and slice it 1.5–2 mm thin.
+> **Quick Answer:** Coppa is **cured pork neck**, the same meat as capicola: marbled, sweet and silky. Buy **sweet (dolce)** for most boards or **spicy (piccante)** for heat, sliced very thin.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Coppa in 30 seconds</p>
@@ -25,7 +25,7 @@ tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcute
 <nav class="sk-jump" aria-label="On this page"><a href="#what">What is coppa</a><a href="#compare">Vs. capicola, prosciutto, salami</a><a href="#raw">Is it raw</a><a href="#made">How it's made</a><a href="#types">Types</a><a href="#serve">How to serve</a><a href="#pairings">Pairings</a><a href="#faq">FAQ</a></nav>
 :::
 
-Most people name prosciutto and salami first and get to coppa late, if at all. That's a mistake: **it's the most striking meat on a board, more complex than most salami, and it goes with everything** from mild cheese to sharp blue.
+It's the best-looking meat on a board and goes with everything from mild cheese to sharp blue.
 
 :::html
 <h2 id="what">What is coppa?</h2>

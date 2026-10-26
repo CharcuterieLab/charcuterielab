@@ -13,14 +13,14 @@ tags: "["best jarred artichoke hearts", "best marinated artichoke hearts", "best
 
 # The Best Jarred Marinated Artichoke Hearts for a Charcuterie Board
 
-> **Quick Answer:** Buy **Napoleon Marinated Grilled Artichokes** (about $7.79 for 12 oz): the only 10 out of 10 in Sporked's test of 15 brands, smoky and charred. **Mezzetta Quartered & Marinated** scored 9.5 and is easier to find. Cheapest: **Reese** (about $2.92 for 12 oz). For a crowd: **Kirkland** at Costco.
+> **Quick Answer:** Buy **Napoleon Marinated Grilled Artichokes** (about $7.79), the only 10/10 in Sporked's test of 15. Easier to find: **Mezzetta** (9.5). Cheapest: **Reese** (about $2.92). For a crowd: **Kirkland**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Napoleon Marinated Grilled Artichokes</a><p class="sk-top-line">Smoky, charred, quartered; Sporked&#x27;s only 10/10</p></div><div class="sk-top-buy"><span class="sk-price">About $7.79</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Napoleon+marinated+grilled+artichokes" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best classic</p><a class="sk-top-name" href="#pick-2">Mezzetta Quartered &amp; Marinated Artichoke Hearts</a><p class="sk-top-line">Herby and firm; Sporked&#x27;s runner-up</p></div><div class="sk-top-buy"><span class="sk-price">About $5.29</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mezzetta+quartered+marinated+artichoke+hearts" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-4">Kirkland Signature Artichoke Hearts</a><p class="sk-top-line">66 oz for a grazing table</p></div><div class="sk-top-buy"><span class="sk-price">About $11 for 2 jars</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=kirkland%20artichoke%20hearts" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#artichoke-heart-questions">FAQ</a></nav>
 :::
 
-Marinated artichoke hearts are the easiest antipasto to add to a board: open, drain, done. Sporked tasted 15 jarred and canned brands in 2025 and scored six; we used that test, plus ingredient lists, price and where each jar is sold.
+Open, drain, done: the easiest antipasto to add to a board.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

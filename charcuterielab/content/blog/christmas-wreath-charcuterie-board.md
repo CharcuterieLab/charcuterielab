@@ -12,9 +12,9 @@ tags: "["christmas wreath charcuterie board", "charcuterie wreath", "christmas c
 
 # Christmas Wreath Charcuterie Board: How to Build It (Serves 8 to 20)
 
-> **Quick Answer:** A charcuterie wreath is a ring of board food on a round board. Put a small bowl in the center, lay a ring of **rosemary sprigs** around it as the greenery, then build the ring on top: cheese cubes and stars, folded salami, green grapes, green olives, and red **pomegranate seeds, cherry tomatoes or raspberries** for the berries. Finish with a **bow** of prosciutto or red pepper strips. Before a holiday meal, plan **2 oz each of meat and cheese per guest**, about 1½ lb of each for 12.
+> **Quick Answer:** On a round board, set a bowl in the center and ring it with **rosemary**. Build the ring with cheese, folded salami, green grapes and olives, plus **red berries or tomatoes**. Plan **2 oz each of meat and cheese per guest**.
 
-A regular holiday board looks good. A wreath board looks like Christmas, and it's no harder to build because the ring tells you where everything goes. It's also easier to serve from, since guests can reach the whole ring from any side of the table.
+The ring tells you where everything goes, and guests can reach it from any side.
 
 ## Board size and how many it serves
 

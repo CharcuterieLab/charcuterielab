@@ -11,7 +11,7 @@ tags: "["gorgonzola", "fig jam", "pairing science", "charcuterie board"]"
 
 # Gorgonzola and Fig Jam: Why This Pairing Works
 
-> **Quick Answer:** Fig jam is more mechanistically complete against Gorgonzola than honey because it brings two active pairing compounds rather than one. Fructose inhibits the TAS2R bitter receptors that register Gorgonzola's methylketone sharpness. Hydrolyzable tannins bind the casein proteins responsible for blue cheese astringency. Honey only covers the first mechanism. Fig jam covers both.
+> **Quick Answer:** **Fig jam beats honey with Gorgonzola.** Its sugar softens the sharp bite, and its tannins smooth the blue cheese's dry edge. Honey only does the first part.
 
 ## The Direct Answer
 

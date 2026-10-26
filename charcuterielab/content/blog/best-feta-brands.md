@@ -19,7 +19,7 @@ tags: "["best feta", "best feta cheese brand", "feta brands", "feta for charcute
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Feta at the grocery store runs from creamy Greek sheep's milk blocks in brine to dry, salty crumbles. For a board you want a block you can cut or break into chunks, so these rankings favor blocks over crumbles, then lean on two published taste tests.
+For a board you want a block, not crumbles. Rankings favor blocks, then two taste tests.
 
 :::html
 <h2 id="picks">All 8, ranked</h2>

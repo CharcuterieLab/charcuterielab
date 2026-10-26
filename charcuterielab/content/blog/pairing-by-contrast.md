@@ -13,11 +13,7 @@ updated: "2026-09-24"
 
 # Pairing by Contrast: The Science of Why Opposites Taste Better Together
 
-The most reliable pairing advice in charcuterie is also the most counterintuitive: choose ingredients that differ from each other. Not just in flavor, but in texture, intensity, and taste register. The conventional logic suggests that similar things pair well because they share common ground — but on a board, it's the gaps between elements that create the most satisfying eating experience.
-
-The reason is neurological and chemical, and it's worth understanding if you want to build boards that work consistently rather than by accident.
-
-> **Quick Answer:** Contrast pairings work because opposing flavors — salty with sweet, rich with acidic, creamy with firm — activate different taste receptors that amplify each other through mutual inhibition and enhancement. A sharp aged cheese tastes sharper next to honey, and the honey tastes more complex next to the cheese. This bidirectional amplification is why contrast-built boards satisfy more per bite than harmony-built ones.
+> **Quick Answer:** Opposites make each other taste better: **salty with sweet, rich with sour, creamy with crunchy**. Sharp cheese tastes sharper next to honey, and the honey tastes richer too.
 
 ## How Taste Perception Works
 

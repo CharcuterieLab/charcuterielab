@@ -19,7 +19,7 @@ tags: "["best cream cheese", "best cream cheese brand", "cream cheese brands", "
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-On a board, cream cheese has one famous job: a block topped with pepper jelly, surrounded by crackers. It also anchors bagel and smoked salmon boards. Three taste tests in the past year disagree on almost everything except one brand, which came first or second in all three.
+Cream cheese anchors the pepper jelly block and the bagel board. One brand came first or second in all three taste tests.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

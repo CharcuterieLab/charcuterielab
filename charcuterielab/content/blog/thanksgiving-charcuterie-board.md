@@ -13,7 +13,7 @@ tags: "["thanksgiving charcuterie board", "thanksgiving appetizer", "fall charcu
 
 # Thanksgiving Charcuterie Board: Quantities, Fall Flavors, and Build Guide
 
-> **Quick Answer:** A Thanksgiving charcuterie board works as a pre-dinner appetizer for 12–20 people using 2 oz each of cheese and meat per person (smaller portions than a standalone board since dinner follows). Choose cheeses with fall affinity — aged cheddar, brie, aged gouda — and pair with apple, pear, dried cranberry, and honeycomb. Skip heavily smoked meats that compete with turkey.
+> **Quick Answer:** Before dinner, plan **2 oz each of cheese and meat per person**. Use **aged cheddar, brie and aged Gouda** with apple, pear, dried cranberries and honeycomb. Skip smoky meats that fight the turkey.
 
 > Want themes instead? See our [Thanksgiving charcuterie board ideas](/holidays/thanksgiving/): the [turkey board](/blog/turkey-charcuterie-board/), a [Thanksgiving pie board](/blog/thanksgiving-pie-board/) and a [Friendsgiving board](/blog/friendsgiving-charcuterie-board/).
 
@@ -23,10 +23,10 @@ The Thanksgiving board has a specific job: sustain guests during the gap between
 
 Pre-dinner board math differs from a standalone board. When dinner follows within 90 minutes, guests eat more conservatively.
 
-**Cheese:** 2 oz per person. For 15 guests: about 2 lb total across 3 types.
-**Meat:** 2 oz per person. For 15 guests: about 2 lb total across 2–3 types.
-**Crackers:** 6–8 per person (two boxes minimum for 15 guests).
-**Fruit:** One cluster of grapes + sliced apple + sliced pear covers 15 guests adequately.
+- **Cheese:** 2 oz per person. For 15 guests: about 2 lb total across 3 types.
+- **Meat:** 2 oz per person. For 15 guests: about 2 lb total across 2–3 types.
+- **Crackers:** 6–8 per person (two boxes minimum for 15 guests).
+- **Fruit:** One cluster of grapes + sliced apple + sliced pear covers 15 guests adequately.
 
 Total build cost for 15 guests: $55–75 depending on cheese selection.
 
@@ -125,7 +125,13 @@ Aged cheddar (sharp, familiar, crowd-pleasing), a creamy brie or triple cream (c
 Prosciutto, coppa, and dry salami work well — they're lighter than heavy smoked meats and don't compete with turkey. A spiced salami like Calabrese adds warmth that echoes fall spices. Skip heavily smoked meats; the smoke flavor conflicts with traditional Thanksgiving side dishes and wines.
 
 **What fall fruits belong on a Thanksgiving board?**
-Sliced apple (honeycrisp or pink lady), sliced pear, red and green grapes, dried cranberry, dried apricot, and pomegranate arils for color. Fresh figs if in season. These fruits pair with both the cheeses and the wines typically served at Thanksgiving — Pinot Noir, Riesling, and Gewürztraminer all work with apple and pear.
+- Sliced apple (Honeycrisp or Pink Lady) and pear
+- Red and green grapes
+- Dried cranberries and dried apricots
+- Pomegranate, for color
+- Fresh figs, if in season
+
+These go with the cheeses and with Thanksgiving wines like Pinot Noir, Riesling and Gewürztraminer.
 
 **Can you build a Thanksgiving charcuterie board ahead of time?**
 Yes — build up to 2 hours in advance and cover with plastic wrap. Keep refrigerated and pull out 30–45 minutes before serving so cheese reaches room temperature. Add crackers, bread, and any cut fruit (apple, pear) just before serving to prevent sogginess and browning. Dried fruits, nuts, and condiments can be placed during initial build.

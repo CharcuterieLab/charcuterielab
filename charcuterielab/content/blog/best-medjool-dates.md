@@ -13,14 +13,14 @@ tags: "["best medjool dates", "medjool dates brand", "best dates to buy", "costc
 
 # The Best Medjool Dates for a Charcuterie Board
 
-> **Quick Answer:** For value, buy **Costco's 2 lb Medjool dates** (about $9 to $11). The easiest to find is **Natural Delights** (about $8.50 a pound at supermarkets). For stuffing, **Joolies Organic Pit-Free**. Trader Joe's 16 oz pack (about $5) is the budget pick when it's in stock.
+> **Quick Answer:** Best value: **Costco's 2 lb Medjool dates** (about $9–11). Easiest to find: **Natural Delights**. For stuffing: **Joolies Pit-Free**. Budget: **Trader Joe's** (about $5).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-1">Costco Medjool Dates, 2 lb</a><p class="sk-top-line">Lowest price per ounce we found</p></div><div class="sk-top-buy"><span class="sk-price">$9–11</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=medjool%20dates" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Natural Delights Whole Medjool Dates</a><p class="sk-top-line">The supermarket staple, plain or organic</p></div><div class="sk-top-buy"><span class="sk-price">About $8.50 / lb</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Natural+Delights+Medjool+dates+whole" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for stuffing</p><a class="sk-top-name" href="#pick-4">Joolies Organic Pit-Free Medjool Dates</a><p class="sk-top-line">Pitted and organic, ready to fill</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Joolies+pit-free+Medjool+dates" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#medjool-date-questions">FAQ</a></nav>
 :::
 
-Medjools are the big, soft, caramel-sweet dates, and they're the easiest sweet thing to add to a board. No one has published a taste test of Medjool brands, so these picks come from price per ounce, organic and pitted options, freshness complaints and where you can buy them.
+No taste test exists, so we picked on price per ounce, pitted options, freshness and where to buy.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

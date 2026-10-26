@@ -12,7 +12,7 @@ updated: "2026-10-20"
 
 # How to Store a Charcuterie Board (Leftovers and Make-Ahead)
 
-> **Quick Answer:** Never refrigerate the assembled board. Take it apart: cheese in parchment, meat in airtight containers, fruit in its own container, crackers sealed at room temperature. Anything that sat out more than 2 hours goes in the bin. Food that was on the board is a leftover, so eat it within a few days.
+> **Quick Answer:** **Don't refrigerate the built board.** Take it apart: cheese in parchment, meat and fruit in containers, crackers sealed. Toss anything out over 2 hours, and eat leftovers within a few days.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>
@@ -131,7 +131,15 @@ Separate each component before refrigerating — don't store the assembled board
 Yes — with a strategic split. Prep components up to 24 hours ahead (cut hard cheese, fold meats, fill condiment bowls). Take hard cheese out 45–60 minutes before serving, assemble 20–30 minutes before, and add crackers and cut fruit last. The 2-hour limit for food left out counts from when it leaves the fridge.
 
 **How long does cheese last after a charcuterie board?**
-Cheese that sat out on the board is a leftover: use hard cheese within 3–5 days and soft cheese within 2. Cheese that never left the fridge keeps longer wrapped in parchment: hard aged cheeses (manchego, aged cheddar, Parmigiano) 3–4 weeks, semi-firm (Gruyère, gouda) 2–3 weeks, soft (brie, chèvre) 1–2 weeks. Always wrap in parchment or wax paper rather than plastic — plastic traps moisture and accelerates mold.
+Cheese that sat out on the board is a leftover: use hard cheese within 3–5 days and soft cheese within 2.
+
+Cheese that never left the fridge keeps longer, wrapped in parchment:
+
+- **Hard aged** (Manchego, aged cheddar, Parmigiano): 3–4 weeks
+- **Semi-firm** (Gruyère, Gouda): 2–3 weeks
+- **Soft** (brie, chèvre): 1–2 weeks
+
+Use parchment or wax paper, not plastic: plastic traps moisture and speeds up mold.
 
 **How do you store leftover prosciutto and other cured meats?**
 Reseal opened packages as tightly as possible or transfer to an airtight container. Slices that sat out on the board should be eaten within 3–4 days. Opened packages that stayed in the fridge keep 3–5 days. Whole cured meats (unsliced coppa, whole salami) keep 2–4 weeks refrigerated once the casing is opened. Don't freeze thin-sliced prosciutto — the texture degrades significantly.

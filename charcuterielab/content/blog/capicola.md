@@ -12,7 +12,7 @@ tags: "["capicola", "capicola cheese board", "charcuterie board", "charcuterie p
 
 # Capicola on a Charcuterie Board: What It Is, How to Use It, and What to Pair It With
 
-> **Quick Answer:** Capicola (also called coppa or gabagool) is whole-muscle cured pork neck and shoulder: richer than prosciutto, less assertive than salami. Slice it as thin as you can, let it come to room temperature, and fold it loosely beside provolone or aged cheddar with a small dish of hot honey.
+> **Quick Answer:** Capicola (coppa, or "gabagool") is **cured pork neck**: richer than prosciutto, milder than salami. Slice it thin, serve at room temperature, and fold it next to provolone or aged cheddar with hot honey.
 
 ## What Is Capicola?
 

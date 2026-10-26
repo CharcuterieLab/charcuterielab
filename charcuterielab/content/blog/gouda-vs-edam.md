@@ -12,7 +12,7 @@ faq: "[{"question":"What is the difference between Gouda and Edam?","answer":"Bo
 
 # Gouda vs. Edam: What's the Difference?
 
-> **Quick Answer:** Gouda and Edam are both semi-hard Dutch cheeses made from cow's milk, and they're made in a similar way. The big difference is the milk: Gouda uses whole milk, while Edam uses partly skimmed milk. That makes Edam lower in fat, firmer and milder, and makes Gouda richer, sweeter and much better with age. For a charcuterie board, aged Gouda is the stronger pick. Young Edam is a mild, budget-friendly cheese for kids and picky eaters.
+> **Quick Answer:** Both are Dutch. **Gouda uses whole milk**: richer, sweeter and better with age. **Edam uses part-skim milk**: milder and firmer. For a board, buy aged Gouda; Edam suits kids and picky eaters.
 
 ## Gouda vs. Edam at a glance
 

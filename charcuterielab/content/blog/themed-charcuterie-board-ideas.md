@@ -12,11 +12,9 @@ tags: "["themed charcuterie board ideas", "shaped charcuterie board", "creative 
 
 # Themed Charcuterie Board Ideas: 25 Shaped Boards That Make Guests Ask “How?”
 
-> **Quick Answer:** A themed charcuterie board is an ordinary board **built into a shape**: a dragon, an octopus, a football field, a giant heart. They look impossible, but nearly every one runs on **four tricks**: **rows of overlapping slices** (scales, stripes, feathers), **an outline you fill in** (pretzel sticks or a paper template), **a hidden structure** for height (a bowl, a box, a loaf, a dowel), and **color doing the drawing** (black food reads as a hole, stripes read as 3D). The easiest to start with are a **football field, a campfire, a jack-o'-lantern or a blue whale**: about **75 minutes** for 12 to 15 guests.
+> **Quick Answer:** A themed board is a regular board **built into a shape**. Most use four tricks: **rows of overlapping slices, an outline to fill in, a hidden base for height, and color**. Easiest to start: a **football field, campfire or jack-o'-lantern**.
 
-Everyone has seen the classic board: a few cheeses, a salami river, some grapes. It's good. Nobody photographs it twice. A board shaped like a pirate ship or a fondue volcano is different. Guests gather around it, take pictures, and ask the question every host wants to hear: "How did you make that?"
-
-The answer is that you didn't do anything a regular board doesn't need. You just did it in a pattern. Below are the four tricks, 25 ideas sorted by occasion, and one full build you can try this weekend. All 25 come from our new book, [*Impossible Boards*](https://charcuterieflavor.gumroad.com/l/impossible-boards?utm_source=charcuterielab&utm_medium=blog&utm_campaign=themed-charcuterie-board-ideas), out now as an ebook and a [paperback on Amazon](https://www.amazon.com/dp/B0HNJJGJTN).
+Below: the four tricks, 25 ideas and one full build. All come from our book [*Impossible Boards*](https://charcuterieflavor.gumroad.com/l/impossible-boards?utm_source=charcuterielab&utm_medium=blog&utm_campaign=themed-charcuterie-board-ideas) (also in [paperback](https://www.amazon.com/dp/B0HNJJGJTN)).
 
 *A note on the photos: the board images in this post and in the book are digitally created illustrations, made to show the finished design. Every board is built from ordinary grocery-store food, and every amount and step was worked out for a real build.*
 

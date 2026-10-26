@@ -19,7 +19,7 @@ tags: "["best pita chips", "pita chips brands", "stacy's pita chips", "pita chip
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Pita chips are the sturdiest thing you can put next to a soft cheese or a bowl of hummus: they don't snap in a thick dip and they stay crisp for hours. Stacy's dominates the shelf and the taste tests, but two store brands come close for less. These rankings lean on Sporked's 15-bag test and Eat This, Not That's flavor ranking.
+Pita chips don't snap in thick dip and stay crisp for hours. Two store brands come close to Stacy's for less.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

@@ -12,9 +12,9 @@ tags: "["charcuterie board cost", "charcuterie board price", "grazing table cost
 
 # How Much Does a Charcuterie Board Cost? (DIY vs Catered, by Guest Count)
 
-> **Quick Answer:** Made at home as an appetizer before a meal, a charcuterie board costs about **$3 to $5 per guest on a budget**, **$5 to $8 for a standard board** and **$12 to $25 for a luxury board**. Plan about 1½ times that when the board is the party food. That's roughly **$40 to $65 for a standard board for 8**. Bought from a small business, boards typically run **$11 to $16 per guest**, and grazing tables **$12 to $15 per guest** and up, plus setup.
+> **Quick Answer:** Homemade, before a meal: **$3–5 per guest on a budget, $5–8 standard, $12–25 luxury**. A standard board for 8 is about **$40 to $65**. From a business: about **$11–16 per guest**.
 
-The price of a charcuterie board depends on three things: how many people it feeds, whether it comes before a meal or is the meal, and how much of it is imported. This guide gives you the per-guest cost at three levels, a chart from 4 to 50 guests, what businesses charge, and where the money actually goes.
+Below: a cost chart from 4 to 50 guests, what businesses charge, and where the money goes.
 
 ## Cost per guest at three levels
 

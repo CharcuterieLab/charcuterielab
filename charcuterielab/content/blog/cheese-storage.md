@@ -11,13 +11,9 @@ tags: "["how to store cheese", "cheese paper", "cheese storage", "how long does 
 
 # How to Store Cheese: Cheese Paper vs. Plastic Wrap vs. Wax Paper
 
-> **Quick Answer:** Store most cheese in cheese paper, or parchment or wax paper if that's what you have, not plastic wrap, which traps moisture against the surface. Wrap blue cheese in foil, keep fresh mozzarella and burrata in their liquid, and rewrap with fresh paper after each use. Keep cheese in the warmer part of the fridge, such as a cheese drawer.
+> **Quick Answer:** Wrap cheese in **cheese paper or parchment, not plastic wrap**. Blue cheese goes in foil, and fresh mozzarella stays in its liquid. Rewrap after each use and keep it in the cheese drawer.
 
-There's a predictable moment at the end of a cheese board: you wrap the leftover Gruyère in plastic wrap, slide it into the refrigerator drawer, and figure you'll use it in a few days. When you pull it out, the surface is sweating, there's an off note in the smell, and the flavor has flattened in a way you can't quite explain.
-
-Plastic wrap is responsible for that. Not because plastic is inherently damaging to cheese — but because cheese is a living product that needs to breathe, and plastic seals off that process entirely.
-
-Understanding why cheese needs to breathe, and what each wrapping material actually does, means you can keep expensive cheese in proper condition from the board to the last slice.
+Plastic wrap traps moisture, so cheese sweats and goes flat. Here's what each wrap does.
 
 ---
 
@@ -153,7 +149,6 @@ Pull cheese from the refrigerator at least 30 minutes before serving (45–60 mi
 > Pre-order *50 Boards Built by Science*: [Link to pre-sale page.]
 > Get weekly cured meat and cheese science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
-
 ## Related Reading
 
 - [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
@@ -173,4 +168,9 @@ Yes. Store strong-smelling cheeses (washed-rind, blue) in sealed containers to p
 **What is cheese paper and is it worth using?**
 Cheese paper is a wax-coated paper designed specifically for cheese storage — it allows moisture to escape (preventing sogginess) while preventing excessive drying. It's more effective than plastic wrap for semi-firm and hard cheeses and significantly better than foil. Dedicated cheese paper is worth buying if you purchase cheese frequently. Parchment paper is a good substitute; plastic wrap is the least ideal option.
 **How do you know when cheese has gone bad?**
-Signs to look for: pink, black, or green mold on a cheese where that color isn't part of the natural rind (some molds on rinds are expected and fine — cut them away with a generous margin on hard cheeses), an off or ammoniated smell beyond the cheese's characteristic aroma, a slimy texture on soft cheeses' paste (not rind), or unusual bitterness that wasn't present when first opened.
+Signs to look for:
+
+- **Pink, black or green mold** where that color isn't part of the natural rind. On hard cheese, cut it away with a generous margin; some rind molds are normal.
+- **An off or ammonia smell** beyond the cheese's usual aroma.
+- **A slimy texture** on the inside of soft cheese (not the rind).
+- **New bitterness** that wasn't there when you opened it.

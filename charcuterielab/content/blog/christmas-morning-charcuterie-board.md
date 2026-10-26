@@ -12,7 +12,7 @@ tags: "["christmas morning charcuterie board", "christmas breakfast board", "bre
 
 # Christmas Morning Breakfast Board: Make-Ahead Plan + Amounts
 
-> **Quick Answer:** A Christmas morning board is breakfast everyone picks from while the presents get opened. Put out **something warm** (mini pancakes or waffles, cinnamon rolls, bacon), **fruit in red and green**, **something creamy** (yogurt, whipped cream) and **toppings** (maple syrup, jam, chocolate chips, sprinkles). Do almost everything **on Christmas Eve**, then on the morning just reheat the warm food and build the board in **about 20 minutes**. Per guest: about **3 mini pancakes, 1 cinnamon roll, 3 slices of bacon and 1 cup of fruit**.
+> **Quick Answer:** Breakfast everyone picks at during presents: **something warm** (mini pancakes, cinnamon rolls, bacon), **red and green fruit**, something creamy, and toppings. Prep on Christmas Eve; build it in **20 minutes**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The four parts</p>
@@ -24,7 +24,7 @@ tags: "["christmas morning charcuterie board", "christmas breakfast board", "bre
 <nav class="sk-jump" aria-label="On this page"><a href="#what">What goes on it</a><a href="#amounts">How much</a><a href="#eve">Christmas Eve prep</a><a href="#morning">Christmas morning</a><a href="#warm">Keeping it warm</a><a href="#variations">Variations</a><a href="#faq">FAQ</a></nav>
 :::
 
-Christmas morning is the one breakfast where nobody wants to stand at the stove. A breakfast board solves that. You do the cooking the night before, and in the morning the board goes out in one go, so everyone can graze between presents and the cook gets to sit down too.
+You cook the night before, so the cook gets to sit down too.
 
 :::html
 <h2 id="what">What goes on a Christmas morning board</h2>
@@ -147,7 +147,13 @@ Most of it. On Christmas Eve, make or buy the pancakes and pastries, cook the ba
 
 **How much food do I need for a breakfast board?**
 
-Per guest, plan about 3 mini pancakes or 2 mini waffles, 1 cinnamon roll or 2 mini pastries, 3 slices of bacon or 2 sausage links, about 1 cup of fruit, and 1 oz of cheese or ham.
+Per guest, plan about:
+
+- 3 mini pancakes or 2 mini waffles
+- 1 cinnamon roll or 2 mini pastries
+- 3 slices of bacon or 2 sausage links
+- 1 cup of fruit
+- 1 oz of cheese or ham
 
 **How do you keep a breakfast board warm?**
 

@@ -1,5 +1,6 @@
 ---
-title: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"
+title: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"
+
 seo_title: "Nduja on a Charcuterie Board: The Spreadable Salami"
 date: "2026-05-12"
 image: "/images/nduja-charcuterie-board.webp"
@@ -12,9 +13,9 @@ tags: "["nduja charcuterie board", "ingredient deep dive", "charcuterie board"]"
 
 # Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything
 
-> **Quick Answer:** Nduja (en-DOO-ya) is a spicy, spreadable pork salami from Calabria. Serve it at room temperature in a small jar with a spreader, labeled so guests know it's hot. Pair it with fresh mozzarella or burrata to calm the heat, honey for contrast, and crusty sourdough.
+> **Quick Answer:** Nduja (en-DOO-ya) is a **spicy, spreadable salami** from Calabria. Serve it at room temperature with a spreader and a "hot" label. Calm it with **burrata or mozzarella**, and add honey and sourdough.
 
-Nduja (pronounced en-DOO-ya) is the most interesting thing you can add to a charcuterie board that most people have never encountered. It's a spreadable, fiery Calabrian salami that functions less like a sliced meat and more like an extremely good condiment — and its pairing logic is nothing like anything else on the board.
+It works less like a sliced meat and more like a very good spread.
 
 ## What Is Nduja?
 

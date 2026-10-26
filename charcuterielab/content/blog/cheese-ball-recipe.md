@@ -13,9 +13,9 @@ tags: "["cheese ball", "cheese ball recipe", "christmas cheese ball", "holiday a
 
 # Classic Cheese Ball Recipe (Plus 6 Holiday Variations)
 
-> **Quick Answer:** For a classic cheese ball, beat **16 oz softened cream cheese** with **8 oz freshly shredded sharp cheddar**, **2 green onions**, **Worcestershire, garlic powder, smoked paprika and pepper**. Shape it in plastic wrap, **chill at least 1 hour** (up to 3 days), then **roll it in toasted chopped pecans** just before serving. It serves **12 to 16** as one of several appetizers. Serve with sturdy crackers, pretzels, apples and vegetables.
+> **Quick Answer:** Beat **16 oz cream cheese** with **8 oz shredded sharp cheddar**, green onion, Worcestershire and spices. Shape, **chill 1 hour** (up to 3 days), then roll in toasted pecans. Serves 12 to 16.
 
-A cheese ball is the most forgiving party appetizer there is: 15 minutes of work, made days ahead, and it always gets finished. It's also the easiest way to add a homemade centerpiece to a [charcuterie board](/blog/how-to-make-charcuterie-board/). Set it in the middle and build the crackers, fruit and meat around it.
+15 minutes of work, made days ahead, and always finished. Set it in the middle of a [charcuterie board](/blog/how-to-make-charcuterie-board/).
 
 ## Classic cheese ball
 
@@ -65,7 +65,15 @@ A cheese ball is the most forgiving party appetizer there is: 15 minutes of work
 
 ## What to serve with it
 
-Sturdy crackers are the key; a firm, cold cheese ball snaps thin crackers. Good choices are [butter crackers](/ingredients/butter-crackers/), wheat crackers, [pita chips](/blog/best-pita-chips/), [pretzel crisps](/blog/best-pretzels-for-charcuterie/), baguette toasts, celery and carrot sticks, and apple or pear slices. On a board, add salami, grapes and a jar of [pepper jelly](/blog/best-pepper-jelly/).
+Sturdy crackers are the key: a firm, cold cheese ball snaps thin ones. Good choices:
+
+- [Butter crackers](/ingredients/butter-crackers/) or wheat crackers
+- [Pita chips](/blog/best-pita-chips/) or [pretzel crisps](/blog/best-pretzels-for-charcuterie/)
+- Baguette toasts
+- Celery and carrot sticks
+- Apple or pear slices
+
+On a board, add salami, grapes and a jar of [pepper jelly](/blog/best-pepper-jelly/).
 
 ## How much to make
 

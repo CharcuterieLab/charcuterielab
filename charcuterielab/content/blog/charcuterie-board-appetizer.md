@@ -12,12 +12,9 @@ tags: "["charcuterie board appetizer", "charcuterie before dinner", "charcuterie
 
 # How to Serve a Charcuterie Board as an Appetizer: Quantities, Timing, and What to Scale Back
 
-A charcuterie board can serve two very different purposes: it can be the main food event at a party, or it can be the opening course before dinner. The distinction matters because the quantities, timing, and element selection that work perfectly for a standalone board will overfill guests and diminish the dinner experience if carried over to the pre-dinner appetizer context unchanged.
+> **Quick Answer:** Before dinner, plan **2 oz of meat and 2 oz of cheese per person**. Pick mild cheeses like brie and cheddar. Serve it 30 to 60 minutes before the meal.
 
-The appetizer board has a specific job: stimulate appetite and give guests something to eat while the room fills and the conversation starts. It should leave them wanting more, not satisfied.
-
-
-> **Quick Answer:** For a charcuterie board served as an appetizer before dinner, plan 2 oz of cured meat and 2 oz of cheese per person, enough to satisfy arriving guests without filling them before the meal. Choose mild, accessible cheeses (brie, cheddar) rather than intense blues or washed-rinds. Serve 30–60 minutes before dinner during the cocktail hour.
+Its job is to start the appetite, not end it.
 
 ---
 

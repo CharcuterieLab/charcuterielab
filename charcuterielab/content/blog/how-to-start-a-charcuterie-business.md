@@ -12,9 +12,9 @@ tags: "["how to start a charcuterie business", "charcuterie business", "how much
 
 # How to Start a Charcuterie Business: Permits, Pricing and Your First Menu
 
-> **Quick Answer:** To start a charcuterie business, first check your **state and county health rules**: most cottage food laws exclude meat, and many exclude cheese, so most board businesses work from a **licensed commercial or shared kitchen** with a food permit. Then get **liability insurance**, set up a business name, and launch with a **short menu of 3 to 5 sizes**. Price from your costs: a common starting point is **ingredient cost × 3, plus packaging and delivery**, which lands most small businesses at about **$12 to $20 per guest**.
+> **Quick Answer:** First, **check your health department**: most cottage food laws exclude meat, so you'll likely need a **licensed kitchen**. Get **insurance**, start with **3 to 5 sizes**, and price at **ingredients × 3** plus packaging (about $12–20 per guest).
 
-Charcuterie boards are one of the most popular food side businesses, because people pay well for something that looks like a gift and saves them time before a party. But it isn't like selling cookies from home. Meat and cheese need to be kept cold, and that changes which permits you need, where you can build boards, and how you deliver them. Get those three things right and the rest is a business of good shopping, consistent sizes and pretty boxes.
+Meat and cheese must stay cold, which decides your permits, kitchen and delivery. Get those right and the rest is shopping and pretty boxes.
 
 ## Step 1: Find out what your state allows (before you sell a single board)
 

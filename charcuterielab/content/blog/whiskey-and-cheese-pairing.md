@@ -12,9 +12,9 @@ tags: "["whiskey and cheese pairing", "bourbon and cheese pairing", "scotch and 
 
 # Whiskey and Cheese Pairing: Bourbon, Rye, Scotch and Irish Whiskey (With a Tasting Board)
 
-> **Quick Answer:** Match the whiskey's main flavor. **Bourbon** (sweet, vanilla, caramel) goes with **aged cheddar, aged Gouda** and a **creamy blue**. **Rye** (spicy, dry) goes with **Gruyère, Comté** and peppery salami. **Smoky, peated Scotch** needs a strong partner: **Stilton, Roquefort** or **smoked Gouda**. **Unpeated Scotch** suits **aged cheddar, Comté and Manchego**, and **Irish whiskey** is easy with **Irish cheddar** and mild semi-firm cheeses. Pour small, about ½ to 1 oz per whiskey, and put out water.
+> **Quick Answer:** **Bourbon** with aged cheddar or Gouda. **Rye** with Gruyère or Comté. **Smoky Scotch** with Stilton or smoked Gouda. **Irish whiskey** with Irish cheddar. Pour small, ½ to 1 oz, with water on the side.
 
-Whiskey and cheese work for the same reason wine and cheese do: fat and protein soften alcohol, and the flavors of the barrel (caramel, vanilla, toast, smoke) meet the nutty, salty, caramel notes that develop in aged cheese. The difference is strength. Whiskey is about three times as strong as wine, so it needs cheeses with enough flavor to keep up, and it rewards small pours and slow tasting.
+Whiskey is about three times as strong as wine, so it needs cheese with plenty of flavor.
 
 ## The pairings at a glance
 
@@ -96,7 +96,14 @@ It depends on the style. Smoky, peated Islay Scotch stands up to strong blue che
 Rye is spicier and drier than bourbon, so it pairs with nutty Alpine cheeses like Gruyère and Comté, aged Gouda, and peppery salami.
 
 **What else goes on a whiskey and cheese board?**
-Toasted pecans and walnuts, dark chocolate, dried figs and apricots, honeycomb, country ham or a smoky salami, and plain crackers or baguette. Put out water so guests can rinse and add a few drops to their whiskey.
+- Toasted pecans and walnuts
+- Dark chocolate
+- Dried figs and apricots
+- Honeycomb
+- Country ham or a smoky salami
+- Plain crackers or baguette
+
+Put out water so guests can rinse and add a few drops to their whiskey.
 
 **How much whiskey do you pour for a tasting?**
 About ½ to 1 oz per whiskey for a tasting flight of 3, with water on the side. Small pours let guests compare without overdoing it.

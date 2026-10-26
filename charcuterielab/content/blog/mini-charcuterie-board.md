@@ -12,7 +12,7 @@ tags: "["mini charcuterie board", "charcuterie board for one", "small charcuteri
 
 # Mini Charcuterie Board: How to Build a Perfect Board for One or Two
 
-> **Quick Answer:** A mini charcuterie board for 1–2 people uses the same principles as a full board at a smaller scale: 2 oz cheese per person (2 types) and 2 oz cured meat (1–2 types) as an appetizer, 4 oz of each if it's dinner, 6–8 crackers, and a few sweet and acidic elements. A dinner plate or small cutting board works as the surface. The key difference from a party board: choose smaller quantities of more interesting ingredients rather than larger quantities of fewer. Quality at a small scale beats quantity every time.
+> **Quick Answer:** Same board, smaller: **2 cheeses, 1–2 meats**, 6–8 crackers and a sweet and sour extra. Plan **2 oz each per person** as a snack, **4 oz** as dinner. A dinner plate works. Buy fewer, better things.
 
 ---
 

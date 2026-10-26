@@ -5563,3 +5563,11 @@ body.fx-slide-on .fx-sticky { display: none !important; }
 .hol-ma-col h3{margin:0 0 6px;font-size:1.05rem}
 .hol-ma-col ul{margin:0;padding-left:18px}
 .hol-ma-col li{margin:0 0 4px}
+
+/* Party Planner answer: second line (26 Oct 2026) */
+.pp-answer .pp-alt { display: block; margin-top: 6px; font-size: .95rem; color: var(--muted, #6b6457); }
+/* Holiday hub: what every holiday page has (26 Oct 2026) */
+.hol-has { list-style: none; padding: 0; margin: 16px 0 10px; display: grid; gap: 8px; font-size: 1rem; line-height: 1.45; }
+.hol-has li { position: relative; padding-left: 26px; }
+.hol-has li::before { content: "\2713"; position: absolute; left: 0; top: 0; color: var(--gold-dark); font-weight: 700; }
+.hol-safe { font-size: .92rem; color: var(--muted); margin: 0 0 18px; }

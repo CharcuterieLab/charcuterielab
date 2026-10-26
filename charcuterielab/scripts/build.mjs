@@ -1917,7 +1917,7 @@ function ebookPage() {
     <div class="ebook-hero-inner">
       <p class="ebook-kicker">The Book</p>
       <h1>Build charcuterie boards that look beautiful because they make sense.</h1>
-      <p>Charcuterie Lab gives you 50 complete board blueprints with shopping lists, pairing logic, substitutions, and step-by-step build notes so you can host with confidence instead of guessing.</p>
+      <p>50 complete boards, each with a shopping list, pairings, swaps and step-by-step build notes.</p>
       <div class="ebook-hero-actions">
         ${buy("hero")}
         <span>Ebook: instant PDF download from Gumroad. Paperback: printed and shipped by Amazon. <a href="#sample">Read board 01 free</a> or <a href="#look-inside">look inside</a>.</span>
@@ -2662,10 +2662,10 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     ${heroImg(post.image, escapeHtml(post.title), "post-image")}
   </section>
   <!--offer-top-->
-  ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   <article class="post-body">
     ${bodyHtml}
   </article>
+  ${holiday ? `<a class="bl-banner hol-post-link" href="/holidays/${holiday.slug}/"><span class="bl-banner-k">Planning ${escapeHtml(holiday.name)}?</span> <strong>See the ${escapeHtml(holiday.name)} hub</strong> <span>board ideas, shapes, a countdown plan and how much to buy &rarr;</span></a>` : ""}
   ${BEST_NEXT.get(post.slug) || ""}
   ${board ? `<aside class="post-cta bl-post-link"><p>Want to build it? See the ${escapeHtml(board.h1)}: what goes on it, why it works, and the full printable plan with every amount.</p><a class="button primary post-cta-button" href="/boards/${board.slug}/">See the board</a></aside>` : ""}
   ${pairPlate}

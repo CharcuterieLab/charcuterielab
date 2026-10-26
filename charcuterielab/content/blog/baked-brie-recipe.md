@@ -13,11 +13,9 @@ tags: "["baked brie", "baked brie recipe", "baked brie in puff pastry", "baked b
 
 # Baked Brie Recipe: Plain, in Puff Pastry, and 12 Toppings That Work
 
-> **Quick Answer:** For easy baked brie, put an **8 oz wheel** on a parchment-lined dish, score the top rind, and bake at **350°F for 10 to 15 minutes**, until the center gives when pressed. Top it with **fig jam or honey, toasted nuts and fresh thyme**, rest 5 minutes and serve with baguette and apple slices. For **baked brie in puff pastry**, wrap the wheel in one sheet of pastry and bake at **400°F for 20 to 25 minutes** until deep golden. An 8 oz wheel serves 6 to 8 as an appetizer.
+> **Quick Answer:** Score an **8 oz wheel** and bake at **350°F for 10 to 15 minutes**. Top with fig jam or honey, nuts and thyme. In puff pastry: **400°F for 20 to 25 minutes**. One wheel serves 6 to 8.
 
-Baked brie is the warm, molten appetizer that disappears first at every holiday party, and it takes five minutes of work. The rind does the hard part: it holds the melted cheese inside like a bowl, so you can bake the whole wheel, cut it open at the table and let guests scoop.
-
-On a regular charcuterie board, brie is best at room temperature (see [how to serve brie](/blog/brie-charcuterie-board/)). Baked brie is a different dish, served warm, and it's worth making for Thanksgiving, Christmas and New Year's Eve.
+Five minutes of work, and it's the first thing gone at a holiday party. On a cold board, serve brie at room temperature instead ([how to serve brie](/blog/brie-charcuterie-board/)).
 
 ## Easy baked brie (15 minutes)
 

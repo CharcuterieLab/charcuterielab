@@ -12,9 +12,9 @@ tags: "["candy charcuterie board", "candy board", "dessert board", "halloween ca
 
 # Candy Charcuterie Board: How to Build One for Any Holiday (Serves 8 to 20)
 
-> **Quick Answer:** A candy charcuterie board is a board of candy arranged the way you'd arrange cheese and meat: **bowls first, big pieces next, then fill every gap by color**. Mix four types: **chocolate, chewy, crunchy and a salty item** like pretzels. Plan **about 2 oz of candy per guest** when it's one of several desserts and **3 to 4 oz per guest** when it's the main event, so about 1½ to 3 lb for 12. Change the colors and it works for Halloween, Christmas, Valentine's Day, Easter and birthdays.
+> **Quick Answer:** Arrange candy like a cheese board: **bowls first, big pieces next, then fill gaps by color**. Mix chocolate, chewy, crunchy and something salty. Plan **2 oz per guest** with other desserts, **3 to 4 oz** if it's the main event.
 
-A candy board takes about 20 minutes, needs no cooking, and looks impressive because candy is already colorful. The trick is the same as a charcuterie board: contrast. Pair soft with crunchy, sweet with salty, and group colors so the board looks planned rather than dumped out of a bag.
+It takes 20 minutes and needs no cooking. Change the colors for any holiday.
 
 ## How much candy for 8, 12 or 20 guests
 
@@ -87,7 +87,14 @@ Bulk and fun-size bags keep a candy board cheap. Expect roughly **$1.50 to $3 pe
 ## FAQ
 
 **What do you put on a candy charcuterie board?**
-Mix four types: chocolate (mini bars, truffles, chocolate-covered pretzels), chewy candy (gummies, licorice, taffy), crunchy or hard candy (rock candy, candy-coated chocolates, lollipops) and one or two salty items such as pretzels or popcorn. Add a few big pieces for height, like a chocolate bar broken into squares or a pile of cotton candy.
+Mix four types:
+
+- **Chocolate:** mini bars, truffles, chocolate-covered pretzels
+- **Chewy:** gummies, licorice, taffy
+- **Crunchy or hard:** rock candy, candy-coated chocolates, lollipops
+- **Salty:** one or two, such as pretzels or popcorn
+
+Add a few big pieces for height, like a chocolate bar broken into squares or a pile of cotton candy.
 
 **How much candy do you need for a candy board?**
 Plan about 2 oz of candy per guest when the board is one of several desserts, and 3 to 4 oz per guest when it is the main dessert or party snack. For 12 guests that is about 1½ lb as a side dessert or 2¼ to 3 lb as the main event.

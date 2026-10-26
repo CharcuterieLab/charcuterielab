@@ -13,7 +13,7 @@ faq: "[{"question":"Is pepperoni a type of salami?","answer":"Yes. Pepperoni is 
 
 # Salami vs. Pepperoni: Is Pepperoni Salami?
 
-> **Quick Answer:** Yes, pepperoni is a type of salami. Salami is the whole family of fermented, air-dried sausages; pepperoni is one American member of it. The differences: pepperoni is ground finer, seasoned with paprika and chili, usually smoked, and often made with pork and beef, so it's redder, spicier and crisps up on pizza. Most Italian salami is pork-only, milder and lies flat.
+> **Quick Answer:** **Yes, pepperoni is a salami.** It's finer, spiced with paprika and chili, usually smoked, and often pork and beef, so it's redder and spicier. Most Italian salami is pork-only and milder.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>

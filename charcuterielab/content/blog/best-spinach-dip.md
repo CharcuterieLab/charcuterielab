@@ -19,7 +19,7 @@ tags: "["best spinach dip", "best store bought spinach artichoke dip", "spinach 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Spinach dip, with or without artichoke, is the creamy dip that disappears first from a game-day or holiday board. Sporked tasted more than 20 tubs and Eat This, Not That ranked eight. Several store brands beat the national names, so check your store's deli case before the chip aisle.
+Several store brands beat the national names, so check the deli case first.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

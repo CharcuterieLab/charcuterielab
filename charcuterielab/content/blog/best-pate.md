@@ -12,14 +12,14 @@ tags: "["best pate", "store bought pate", "pate brands", "best pâté", "pate fo
 
 # The Best Pâté for a Charcuterie Board: What to Buy
 
-> **Quick Answer:** The best store-bought pâtés for a charcuterie board come from Les Trois Petits Cochons, a New York maker since 1975 whose Mousse Truffée won a Gold sofi award, and Alexian, whose Pâté de Campagne is sold at many supermarket cheese counters. For a smooth, rich spread, buy a mousse; for a rustic slice, buy a pâté de campagne. No published US taste test has ranked pâté brands, so this guide names what to buy without star scores.
+> **Quick Answer:** Buy **Les Trois Petits Cochons** (its truffle mousse won a sofi award) or **Alexian Pâté de Campagne**, sold at many cheese counters. Want it spreadable? Buy mousse. Sliceable? Buy country pâté.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Les Trois Petits Cochons pâtés and mousses</a><p class="sk-top-line">Award-winning and fairly easy to find, with a style for every board.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best country pâté</p><a class="sk-top-name" href="#pick-2">Alexian Pâté de Campagne</a><p class="sk-top-line">A small piece is just right for a board for 6 to 8.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best mousse</p><a class="sk-top-name" href="#pick-3">Alexian Duck Liver and Pork Mousse with Cognac</a><p class="sk-top-line">Silky, rich and spreadable.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Pâté makes a board feel like a French bistro: one small slab next to cornichons, mustard and a sliced baguette. There are two main kinds. Mousse is smooth and spreadable, usually made with liver. Pâté de campagne (country pâté) is coarse and sliceable, mostly pork. Both are sold ready to serve in the specialty cheese case.
+One slab next to cornichons, mustard and baguette makes a board feel like a French bistro. No taste test exists, so there are no star scores.
 *How we picked these: no published side-by-side taste test of store-bought pâté in the US exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of spread behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
 :::html
@@ -70,7 +70,10 @@ Pâté makes a board feel like a French bistro: one small slab next to cornichon
 <ul class="sk-checks"><li><strong>Look for:</strong> Check the date and keep it cold. Fresh pâté is perishable: refrigerate it, and eat it within a few days of opening.</li><li class="sk-x"><strong>Skip:</strong> Leaving pâté out for the whole party. Like other perishable foods, it shouldn&#x27;t sit at room temperature for more than 2 hours. Put out a small piece and refill from the fridge.</li></ul>
 :::
 
-**How much to buy:** about 1 oz per guest. A 5 oz piece serves 6 to 8 people as one item on a board. **How to serve it:** take it out of the fridge about 15 minutes before serving, and slice country pâté with a warm knife. **Pregnant guests:** refrigerated pâté is on the FDA's avoid list during pregnancy. Canned or shelf-stable pâté is fine.
+- **How much to buy:** about 1 oz per guest. A 5 oz piece serves 6 to 8 people as one item on a board.
+- **How to serve it:** take it out of the fridge about 15 minutes before serving, and slice country pâté with a warm knife.
+- **Pregnant guests:** refrigerated pâté is on the FDA's avoid list during pregnancy. Canned or shelf-stable pâté is fine.
+
 For what pâté pairs with and how to serve it, see the [pâté de campagne guide](/ingredients/pate-de-campagne/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## How to choose

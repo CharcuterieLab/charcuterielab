@@ -12,7 +12,7 @@ tags: "["cheese safe during pregnancy", "pregnancy safe cheese", "can you eat br
 
 # Which Cheeses Are Safe During Pregnancy? A List for Your Cheese Board
 
-> **Quick Answer:** In the US, **cheese made with pasteurized milk is generally considered safe during pregnancy**, including cheddar, Parmesan, Swiss, Gouda, mozzarella, feta, goat cheese, cream cheese and string cheese. **Avoid cheese made with raw (unpasteurized) milk** and **queso fresco-type cheeses** unless they're heated until steaming hot. UK advice is stricter on soft white-rind and soft blue cheeses like brie and gorgonzola, which it says to eat only cooked. Check labels for "pasteurized," and ask your doctor or midwife if you're unsure.
+> **Quick Answer:** In the US, **pasteurized cheese is generally safe**: cheddar, Parmesan, Swiss, mozzarella, feta and cream cheese. **Avoid raw-milk cheese and queso fresco** unless heated until steaming. Check labels and ask your doctor if unsure.
 
 *This is general food-safety information from US and UK health agencies, not medical advice. Your doctor or midwife knows your situation.*
 

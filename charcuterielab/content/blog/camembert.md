@@ -13,7 +13,7 @@ tags: "["camembert", "camembert cheese", "soft cheese", "charcuterie cheese", "F
 
 # Camembert: Brie's More Interesting Cousin (And How to Use It on a Board)
 
-> **Quick Answer:** Camembert is a small whole-wheel soft cheese from Normandy with an earthier, more mushroomy flavor than brie. Serve it as a whole wheel and let guests cut in, with apple slices and honey beside it and prosciutto or coppa nearby. If you can find PDO Camembert de Normandie, it's the one worth buying.
+> **Quick Answer:** Camembert is **earthier and more mushroomy than brie**. Serve the whole wheel and let guests cut in, with apple and honey beside it. If you find **Camembert de Normandie (PDO)**, buy it.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Camembert in 30 seconds</p>
@@ -29,9 +29,7 @@ tags: "["camembert", "camembert cheese", "soft cheese", "charcuterie cheese", "F
 <h2 id="what">What is Camembert?</h2>
 :::
 
-Camembert de Normandie is a soft cow's milk cheese with PDO status: it must be made in Normandy, from raw milk, from herds of mostly Normande cows. Like brie, it grows a white *Penicillium camemberti* rind and softens from the outside in as it ripens. A wheel is about 11 cm across and 3 cm thick, much smaller than a brie wheel.
-
-Plenty of cheese labeled "camembert" is made elsewhere, or industrially in Normandy outside the PDO rules. The PDO version is earthier and more mushroomy. Even so, a good commercial camembert beats cheap brie on a board.
+Real Camembert de Normandie is made in Normandy from raw milk. A good commercial Camembert still beats cheap brie on a board.
 
 :::html
 <h2 id="vs-brie">Camembert vs. brie</h2>

@@ -19,8 +19,7 @@ tags: "["best vegan cheese", "vegan cheese brands", "dairy-free cheese", "vegan 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Building the whole board? See [15 vegan charcuterie board ideas](/boards/plant-based/), from an easy starter board to holiday and dessert boards.
-Most vegan cheese is made to melt on a burger, not to sit on a board. These are the dairy-free cheeses that hold up cold, on a cracker, next to the real thing, ranked using published taste tests from Sporked, Tasting Table and Daily Meal.
+Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on a cracker. Building the whole board? See [15 vegan board ideas](/boards/plant-based/).
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

@@ -12,7 +12,7 @@ tags: "["charcuterie board fruit", "charcuterie board", "board building"]"
 
 # Fruit on a Charcuterie Board: What to Use and Why It Works
 
-> **Quick Answer:** Use grapes (no prep, go with everything), sliced pear or apple (made for aged cheese) and strawberries or blackberries (color and tang). Add fresh figs in season or dried apricots any time. Fruit should cover about 15–20% of the board, and juicy fruit stays away from soft cheese.
+> **Quick Answer:** Use **grapes** (no prep), **sliced pear or apple** (for aged cheese) and **berries** (color). Add figs or dried apricots. Fruit should fill about 15–20% of the board, kept away from soft cheese.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>

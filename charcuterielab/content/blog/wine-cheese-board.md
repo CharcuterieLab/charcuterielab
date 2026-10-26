@@ -13,7 +13,7 @@ updated: "2026-10-20"
 
 # How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly
 
-> **Quick Answer:** Pick 2–4 wines first, then choose a cheese for each: rich aged cheeses (aged cheddar, Parmigiano, aged Manchego) with tannic reds, fresher and softer cheeses with crisp whites. Group each cheese with the foods that suit its wine, add acidic resets like grapes and cornichons, and tell guests one pairing to try.
+> **Quick Answer:** Pick **2–4 wines first**, then a cheese for each: aged cheese with bold reds, fresh cheese with crisp whites. Add grapes and cornichons, and tell guests one pairing to try.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The method in four steps</p>

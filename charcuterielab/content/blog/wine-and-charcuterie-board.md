@@ -12,7 +12,7 @@ updated: "2026-10-20"
 
 # Wine and Charcuterie Board: The Complete Pairing Guide
 
-> **Quick Answer:** Sparkling wine (Champagne, Crémant or Prosecco) or a dry rosé works with almost everything on a charcuterie board: both have the acidity to cut fat and no tannin to clash with salt. For a still red, choose a light one like Pinot Noir or Beaujolais (Gamay). Crisp whites (Albariño, dry Riesling, Sancerre) suit delicate meats and fresh cheese. Save high-tannin reds for boards built around aged hard cheese.
+> **Quick Answer:** **Sparkling wine or dry rosé** goes with almost everything: lots of acid, no tannin. For red, pick a light one like **Pinot Noir or Beaujolais**. Save big reds for aged hard cheese.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">If you buy one bottle</p>

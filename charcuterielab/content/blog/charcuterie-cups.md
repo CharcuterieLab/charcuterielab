@@ -13,14 +13,14 @@ tags: "["charcuterie cups", "charcuterie cups for a party", "individual charcute
 
 # Charcuterie Cups: How to Make Them for a Party (12, 24 or 50 Cups)
 
-> **Quick Answer:** A charcuterie cup is one serving in a 9 oz clear cup: a skewer of salami, cheese and a grape, 3 crackers, and olives, nuts or berries in the bottom. Plan **one cup per guest** with other food, or **two** if the cups are the whole appetizer. Fill them the morning of and add the crackers last.
+> **Quick Answer:** One serving in a **9 oz clear cup**: a skewer of salami, cheese and a grape, 3 crackers, and olives or nuts in the bottom. Plan **1 per guest** with other food, **2** if it's the whole appetizer. Add crackers last.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">In each cup</p><span class="sk-top-name">Skewer + 3 crackers + a base</span><p class="sk-top-line">Folded salami, cheese cubes and a grape on a 6-inch skewer, in a 9 oz clear cup.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#one-cup">The 5 parts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How many</p><span class="sk-top-name">1 per guest, 2 if it&#x27;s the only food</span><p class="sk-top-line">Each cup holds about 1 oz meat and 1 oz cheese.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#shopping">Shopping list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Make ahead</p><span class="sk-top-name">Fill the morning of</span><p class="sk-top-line">Refrigerate covered; add the crackers just before serving.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#ahead">Timeline</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">$1.75 to $2.75 a cup</span><p class="sk-top-line">Including the cup and skewer.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#one-cup">What goes in</a><a href="#shopping">Shopping list</a><a href="#build">How to build</a><a href="#themes">Themed cups</a><a href="#ahead">Make ahead</a><a href="#cost">Cost</a><a href="#cups-or-board">Cups or a board?</a></nav>
 :::
 
-Cups fix the two problems a shared board has at a party: **nobody hovers, and nobody touches food someone else is about to eat.** Guests grab one and keep walking. They suit Halloween, showers, tailgates and office parties.
+Nobody hovers, and nobody touches food someone else is about to eat. Great for Halloween, showers and tailgates.
 
 :::html
 <h2 id="one-cup">What goes in one cup</h2>

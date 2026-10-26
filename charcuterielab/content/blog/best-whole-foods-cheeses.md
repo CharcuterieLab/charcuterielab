@@ -12,14 +12,14 @@ tags: "["best whole foods cheese", "whole foods cheese", "whole foods charcuteri
 
 # The Best Whole Foods Cheeses for a Charcuterie Board, Ranked
 
-> **Quick Answer:** Our top Whole Foods cheese for a charcuterie board is Isigny Sainte-Mère Double Cream Brie (4.3 out of 5), tied with Vermont Creamery Bijou. Best value: Sartori BellaVitano. Splurge: Uplands Pleasant Ridge Reserve, a three-time best-in-show American cheese.
+> **Quick Answer:** Top pick: **Isigny Sainte-Mère Double Cream Brie** (4.3/5), tied with **Vermont Creamery Bijou**. Value: **Sartori BellaVitano**. Splurge: **Uplands Pleasant Ridge Reserve**, a three-time best in show.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Isigny Sainte-Mère Double Cream Brie</a><p class="sk-top-line">Richer than most grocery brie, at a fair price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Sartori BellaVitano</a><p class="sk-top-line">Liked by almost everyone, and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Uplands Pleasant Ridge Reserve</a><p class="sk-top-line">One of the most awarded American cheeses.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.1 · $$$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
-Whole Foods has one of the best grocery cheese counters in the country, with specialty cheeses you'd otherwise find only at a cheese shop. These are the ones that work best on a board, plus two ways to pay less for them.
+Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two ways to pay less.
 
 :::html
 <h2 id="picks">All 10, ranked</h2>

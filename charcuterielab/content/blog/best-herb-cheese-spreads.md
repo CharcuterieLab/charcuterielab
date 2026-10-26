@@ -13,14 +13,14 @@ tags: "["best boursin cheese", "boursin dupe", "boursin vs alouette", "garlic an
 
 # The Best Boursin-Style Herb Cheese Spreads for a Charcuterie Board
 
-> **Quick Answer:** Buy **Boursin Garlic & Fine Herbs** (about $5.70 for 5.3 oz) for the original creamy, slightly crumbly texture. **Alouette Garlic & Herbs** is the closest dupe and gives you more cheese per dollar. At Aldi, **Emporium Selection** costs about $3.29 for 6.5 oz. Dairy-free: **Boursin Dairy-Free**.
+> **Quick Answer:** Buy **Boursin Garlic & Fine Herbs** (about $5.70). Closest dupe, more for the money: **Alouette**. Aldi: **Emporium Selection** (about $3.29). Dairy-free: **Boursin Dairy-Free**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boursin Garlic &amp; Fine Herbs</a><p class="sk-top-line">The French original: creamy, a little crumbly</p></div><div class="sk-top-buy"><span class="sk-price">About $5.70</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/11046065" target="_blank" rel="noopener">Check price at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dupe</p><a class="sk-top-name" href="#pick-2">Alouette Garlic &amp; Herbs</a><p class="sk-top-line">Smoother, and more cheese for the money</p></div><div class="sk-top-buy"><span class="sk-price">About $5.50</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/seort/10293332" target="_blank" rel="noopener">Check price at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Emporium Selection Garlic &amp; Herb Spread (Aldi)</a><p class="sk-top-line">Cheapest per ounce we found</p></div><div class="sk-top-buy"><span class="sk-price">About $3.29</span><a class="button sk-buy-sm" href="https://new.aldi.us/product/emporium-selection-garlic-herb-cheese-spread-0000000000000069" target="_blank" rel="noopener">See it at Aldi</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#herb-cheese-spread-questions">FAQ</a></nav>
 :::
 
-Garlic and herb spreads are the easiest crowd-pleaser on a board: soft, salty and good on anything. No one has published a side-by-side taste test of Boursin against the alternatives, so these picks come from texture, ingredient lists, price per ounce and where you can buy them, plus two rankings of Boursin's own flavors.
+No taste test exists, so we picked on texture, ingredients, price per ounce and where to buy.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

@@ -12,9 +12,9 @@ tags: "["how to cut cheese", "cheese cutting", "charcuterie board cheese", "chee
 
 # How to Cut Cheese for a Charcuterie Board (Every Shape, with Photos)
 
-> **Quick Answer:** Cut cheese by its shape and texture. **Soft wheels** (brie, camembert): leave whole or cut a few pie wedges. **Soft wedges:** long slivers from the point to the rind. **Semi-firm wedges** (Manchego, Comté): thin triangles, fanned. **Blocks** (cheddar, gouda): ¼-inch planks cut into triangles. **Hard aged cheese** (Parmigiano-Reggiano): rough chunks broken off with a short knife. **Logs and blue cheese:** a cheese wire or plain dental floss. Cut it **cold**, then let it **warm up before serving**, and pre-cut about two-thirds of each cheese.
+> **Quick Answer:** Cut by shape: **soft wheels** whole or in wedges, **semi-firm wedges** in thin triangles, **blocks** in planks then triangles, **hard cheese** in rough chunks, **logs and blue** with floss. Cut cold, serve warm.
 
-The way you cut a cheese changes how it tastes, how the board looks and how fast it disappears. A cheddar cut into thin triangles feels like a different food from the same cheddar cut into cubes. This guide goes shape by shape, with the right knife for each and the mistakes to avoid.
+The cut changes how the cheese tastes and how fast it goes. Shape by shape, with the right knife.
 
 ![Seven cheeses cut seven different ways on a wooden charcuterie board: brie wedges, manchego triangles, cheddar triangles, parmesan chunks, goat cheese coins, blue cheese wedges and a whole small wheel](/images/how-to-cut-cheese-charcuterie-board-overview.jpg)
 

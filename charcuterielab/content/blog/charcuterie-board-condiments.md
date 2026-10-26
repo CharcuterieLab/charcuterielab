@@ -12,11 +12,9 @@ tags: "["charcuterie board condiments", "charcuterie board", "board building"]"
 
 # Charcuterie Board Condiments: What to Use and Where to Put Them
 
-Condiments are the least discussed and most essential component of a charcuterie board. They're not garnish. They're not decoration. They're the flavor infrastructure that makes cheese and meat work together — the bridges that connect bold elements, the acid that cuts through richness, the sweetness that moderates intensity.
+> **Quick Answer:** You need four: **a mustard, a fruit spread (fig jam or quince paste), honey, and something sour** (cornichons or olives). Add a fifth only if there's room.
 
-A board without good condiments is a collection of ingredients. A board with the right condiments is a composed experience.
-
-> **Quick Answer:** The essential condiment lineup is: one mustard (whole-grain or Dijon), one fruit preserve (fig jam or quince paste), honey (wildflower or chestnut), and one acidic element (cornichons, olives, or pickled grapes). These four cover every flavor role a condiment needs to fill. Add a fifth — hot sauce, tapenade, or a spiced nut — if the board has room and a specific pairing need.
+Condiments are what make the cheese and meat work together.
 
 ## The Five Condiment Roles
 

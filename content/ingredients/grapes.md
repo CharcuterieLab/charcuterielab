@@ -27,10 +27,12 @@ pick up.
 
 ## What it is
 
-Table grapes are bred for eating rather than wine — thicker skins, lower acid,
-and usually seedless. The board-relevant ones are red globe and crimson (sweet,
-firm), green Thompson (crisp, tart), black Concord-type (musky, slip-skin), and
-the tiny champagne grapes that come in dense little clusters.
+Table grapes are bred for eating rather than wine: thicker skins, lower acid, usually seedless. The ones for a board:
+
+- **Red globe and crimson:** sweet, firm
+- **Green Thompson:** crisp, tart
+- **Black Concord-type:** musky, slip-skin
+- **Champagne grapes:** tiny, in dense little clusters
 
 **Taste:** sweet, mildly acidic, faintly floral
 **Texture:** firm, snapping skin over juicy flesh

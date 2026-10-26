@@ -19,7 +19,7 @@ tags: "["best canned cranberry sauce", "best cranberry sauce brand", "cranberry 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Cranberry sauce is the Thanksgiving board's jam: spooned over baked brie, next to sharp cheddar and turkey, or cut into shapes with a cookie cutter. Three outlets taste-tested canned sauces, and they split on jellied versus whole berry. These rankings combine their results with ingredients, price and how easy each one is to find.
+Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankings combine three taste tests with ingredients and price.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

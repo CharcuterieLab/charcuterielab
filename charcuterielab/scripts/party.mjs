@@ -162,7 +162,9 @@ export function partyPage(h, n, { bookBoards, libraryByNumber, known, builderLin
   const lib = book ? libraryByNumber.get(book.n) : null;
   const builder = lib && known ? builderLink(lib, known).replace(/&g=\d+&m=\w+/, `&g=${Math.min(n, 200)}&m=${dm}`) : `/board-builder/?g=${n}&m=${dm}`;
   const Q = faq(n, P, book);
-  const answer = `For ${n} people, buy about ${d.meat} of cured meat and ${d.cheese} of cheese, ${d.crackers[0]}–${d.crackers[1]} crackers, ${d.fruit} of fruit and ${d.spreads} spreads${dm === "main" ? " if the board is the party food" : " as an appetizer before a meal"}. ${dm === "main" ? `Before a meal, ${P.app.meat} of meat and ${P.app.cheese} of cheese is enough` : `If it's the party food, go up to ${P.main.meat} of meat and ${P.main.cheese} of cheese`}; if it's dinner, ${P.meal.meat} of meat and ${P.meal.cheese} of cheese.`;
+  // Answer first, as a short list a visitor can shop from (26 Oct 2026).
+  const E = h.escapeHtml;
+  const answer = `<strong>For ${n} people${dm === "main" ? " (the board is the party food)" : " (appetizer before a meal)"}:</strong> ${E(d.meat)} cured meat · ${E(d.cheese)} cheese · ${d.crackers[0]}–${d.crackers[1]} crackers · ${E(d.fruit)} fruit · ${d.spreads} spreads.<span class="pp-alt">${dm === "main" ? `Before a meal: ${E(P.app.meat)} meat, ${E(P.app.cheese)} cheese.` : `Party food: ${E(P.main.meat)} meat, ${E(P.main.cheese)} cheese.`} Dinner: ${E(P.meal.meat)} meat, ${E(P.meal.cheese)} cheese.</span>`;
   const i = COUNTS.indexOf(n);
   const near = [COUNTS[i - 1], COUNTS[i + 1]].filter(Boolean);
   const stations = n < 20 ? 1 : n <= 30 ? 2 : n <= 50 ? 3 : 4;
@@ -184,7 +186,7 @@ ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}
   <header class="pp-hero">
     <p class="section-kicker">Party Planner</p>
     <h1>Charcuterie board for ${n} people</h1>
-    <p class="pp-answer">${h.escapeHtml(answer)}</p>
+    <p class="pp-answer">${answer}</p>
     ${bylineHtml(h)}
   </header>
 
@@ -270,7 +272,7 @@ export function partyHub(h, { bookBoards }) {
   <header class="pp-hero">
     <p class="section-kicker">Party Planner</p>
     <h1>How much charcuterie do I need?</h1>
-    <p class="pp-answer">Plan about ${MODES.app.meat} oz of cured meat and ${MODES.app.cheese} oz of cheese per guest when a meal follows, ${MODES.main.meat} oz of each when the board is the party food, and ${MODES.meal.meat} oz of each when it's dinner. Add 10% from 20 guests up.</p>
+    <p class="pp-answer"><strong>Per guest:</strong> ${MODES.app.meat} oz meat and ${MODES.app.cheese} oz cheese before a meal. ${MODES.main.meat} oz of each if it's the party food. ${MODES.meal.meat} oz of each if it's dinner.<span class="pp-alt">Over 20 guests? Add 10%.</span></p>
     ${bylineHtml(h)}
   </header>
 

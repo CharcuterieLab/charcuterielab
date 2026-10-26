@@ -12,11 +12,9 @@ tags: "["jarcuterie", "charcuterie jars", "charcuterie in a jar", "individual ch
 
 # Jarcuterie: How to Make Charcuterie Jars (12, 24 or 50)
 
-> **Quick Answer:** Jarcuterie is charcuterie in individual jars. Use a **12 to 16 oz wide-mouth mason jar** and build it in layers: **nuts or dried fruit in the bottom**, a **6-inch skewer** of folded salami, cheese cubes and a grape, and **breadsticks or crackers** standing up along the side. Each jar holds about **1 oz of meat and 1 oz of cheese**, so plan **one jar per guest** next to other food, or **two per guest** if the jars are the whole appetizer. Fill them the morning of and add the crackers last.
+> **Quick Answer:** Charcuterie in a **12–16 oz mason jar**: nuts in the bottom, a **skewer** of salami, cheese and a grape, and **breadsticks** standing up. Plan **1 jar per guest** with other food, **2** if it's the appetizer. Add crackers last.
 
-Jarcuterie solves the two problems with a big board at a standing party: nobody has to crowd around one table, and nobody's hands touch everyone else's food. A jar is also sturdier than a plastic cup, it looks lovely lined up on a tray, and with a lid and a tag it becomes a take-home favor. It's the go-to for showers, weddings, graduations, open houses and anywhere guests mingle.
-
-If you'd rather use disposable cups, the method is the same; see our [charcuterie cups guide](/blog/charcuterie-cups/).
+Sturdier than a cup, and with a lid it's a take-home favor. Prefer cups? See [charcuterie cups](/blog/charcuterie-cups/).
 
 ## What goes in a charcuterie jar
 

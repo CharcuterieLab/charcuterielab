@@ -11,9 +11,9 @@ slug: "charcuterie-board-before-and-after"
 
 # Charcuterie Board Glow-Ups: Same Ingredients, Before and After Styling
 
-> **Quick Answer:** The same ingredients can look flat or stunning depending on layout. Place cheeses first and spread them apart, add bowls for height, fold meats into a river, fan crackers in curves, group colors in odd numbers, fill every gap and finish with herbs. These seven moves take about ten extra minutes.
+> **Quick Answer:** Same food, better layout: **cheese first and spread out, bowls for height, meat in a river, crackers in curves, colors in odd numbers, every gap filled.** About ten extra minutes.
 
-Nothing new was bought for the "after" boards below. Same ingredients, same board, different layout. Save this before your next party, because layout is the cheapest upgrade there is.
+Nothing new was bought for the "after" boards. Layout is the cheapest upgrade there is.
 
 ## Glow-up 1: The weeknight board
 
@@ -66,7 +66,14 @@ Nothing new was bought for the "after" boards below. Same ingredients, same boar
 
 ## Color: the fastest upgrade
 
-Spread each color across at least two spots on the board: red (salami, berries), green (grapes, herbs, olives), orange (apricots, cheddar), and dark (figs, chocolate, blackberries). A board with color on every side looks planned, even if it took ten minutes. Contrast works for flavor too; the [Pairings Hub](/pairings/) explains why. Short on time? Do the slicing and folding the [night before](/blog/make-charcuterie-board-night-before/).
+Spread each color across at least two spots on the board:
+
+- **Red:** salami, berries
+- **Green:** grapes, herbs, olives
+- **Orange:** apricots, cheddar
+- **Dark:** figs, chocolate, blackberries
+
+A board with color on every side looks planned, even if it took ten minutes. Contrast works for flavor too; the [Pairings Hub](/pairings/) explains why. Short on time? Do the slicing and folding the [night before](/blog/make-charcuterie-board-night-before/).
 
 ## Try it on your next board
 

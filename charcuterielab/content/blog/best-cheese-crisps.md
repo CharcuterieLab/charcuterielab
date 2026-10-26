@@ -13,14 +13,14 @@ tags: "["best cheese crisps", "keto crackers", "whisps cheese crisps", "parm cri
 
 # The Best Cheese Crisps for a Keto or Gluten-Free Charcuterie Board
 
-> **Quick Answer:** Buy **Whisps Parmesan** (about $4.99 for 2.12 oz, or a big bag at Costco): Parmesan only, 1 g carbs, and a 10/10 in Sporked's keto test. For a sturdier cracker on a gluten-free board, **Sonoma Creamery Parmesan Crisps**. On a budget, **Savoritz Parmesan Crisps** at Aldi.
+> **Quick Answer:** Buy **Whisps Parmesan** (about $4.99): just Parmesan, 1 g carbs. Sturdier: **Sonoma Creamery Parmesan Crisps**. Budget: **Savoritz** at Aldi.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Whisps Parmesan Cheese Crisps</a><p class="sk-top-line">Parmesan only, 10 out of 10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">About $4.99 for 2.12 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Whisps+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cracker swap</p><a class="sk-top-name" href="#pick-2">Sonoma Creamery Parmesan Cheese Crisps</a><p class="sk-top-line">Thick squares, like a cheese Triscuit</p></div><div class="sk-top-buy"><span class="sk-price">About $4.88 for 2.25 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Sonoma+Creamery+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Savoritz Parmesan Crisps (Aldi)</a><p class="sk-top-line">Aldi&#x27;s zero-carb Parmesan crisp</p></div><div class="sk-top-buy"><span class="sk-price">About $2.89</span><a class="button sk-buy-sm" href="https://www.aldi.us/weekly-specials/weekly-ads" target="_blank" rel="noopener">See Aldi&#x27;s weekly ad</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">How to use them</a><a href="#cheese-crisp-questions">FAQ</a></nav>
 :::
 
-Cheese crisps are baked or dried cheese with nothing else, so they work as crackers on a keto or gluten-free board. We picked the ones with the best tests, the cleanest labels and the right shape for a board.
+Cheese crisps work as crackers on a keto or gluten-free board.
 
 :::html
 <h2 id="picks">All 7 picks</h2>

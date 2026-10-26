@@ -11,7 +11,7 @@ tags: "["charcuterie board for one", "charcuterie board", "single serving"]"
 
 # Charcuterie Board for One
 
-> **Quick Answer:** A charcuterie board for one uses the same structure as any board — soft cheese, semi-firm cheese, one bold selection, cured meat, crackers, fruit, and one or two condiments. Plan 4 oz of meat and 4 oz of cheese when it's dinner, 2 oz of each as a snack. Buy from the deli counter by weight to avoid waste. The board takes under 15 minutes and works as a full light meal.
+> **Quick Answer:** Same board, smaller: a soft cheese, a firm cheese, one meat, crackers, fruit and a spread. Plan **4 oz each of meat and cheese for dinner**, 2 oz as a snack. Buy by weight at the deli. Under 15 minutes.
 
 ## Why a Solo Board Makes Sense
 
@@ -94,4 +94,11 @@ Buy from the deli counter or specialty cheese section where you can purchase sma
 Yes — presentation doesn't scale down with portion size. Use a small wooden board, a slate tile, or a large dinner plate. Apply the same presentation principles: fan the cheese, fold the meat, leave intentional gaps. A small well-assembled board photographs and presents just as well as a large one.
 
 **What is a good single-serve charcuterie board for a solo dinner?**
-3 oz prosciutto or salami, 2 oz brie wedge, 2 oz aged cheddar or manchego, 6–8 crackers, a small cluster of grapes, and a tablespoon each of honey and grainy mustard. This builds a complete board with full flavor range in under 15 minutes, no cooking required, and works as a full light dinner.
+- 3 oz prosciutto or salami
+- 2 oz brie
+- 2 oz aged cheddar or Manchego
+- 6–8 crackers
+- A small cluster of grapes
+- 1 tablespoon each of honey and grainy mustard
+
+It takes under 15 minutes, needs no cooking, and works as a light dinner.

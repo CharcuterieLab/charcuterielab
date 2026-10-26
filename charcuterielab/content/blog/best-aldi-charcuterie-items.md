@@ -12,14 +12,14 @@ tags: "["aldi charcuterie", "best aldi cheese", "aldi charcuterie board", "empor
 
 # The Best Aldi Charcuterie Board Items, Ranked
 
-> **Quick Answer:** The best Aldi cheese for a charcuterie board is Emporium Selection Not Your Average Cheddar (4.7 out of 5). Best meat: Appleton Farms Prosciutto. Best soft cheese: Emporium Selection Double Crème Brie. A full board for 6 to 8 from these picks costs well under $40.
+> **Quick Answer:** Best Aldi cheese: **Emporium Selection Not Your Average Cheddar** (4.7/5). Best meat: **Appleton Farms Prosciutto**. Best soft cheese: **Double Crème Brie**. A board for 6 to 8 costs under $40.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emporium Selection Not Your Average Cheddar</a><p class="sk-top-line">The top Aldi cheese in Sporked&#x27;s test.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Appleton Farms Prosciutto</a><p class="sk-top-line">The best-reviewed cheap prosciutto we found.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Emporium Selection Double Crème Brie</a><p class="sk-top-line">Every board needs a soft cheese, and this one is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 12, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
-Aldi is the cheapest place to build a good-looking board. Its Emporium Selection cheeses and Appleton Farms meats do better in taste tests than their prices suggest. These are the picks that work best, with the ones to skip at the end.
+Aldi is the cheapest place to build a good-looking board. The ones to skip are at the end.
 
 :::html
 <h2 id="picks">All 12, ranked</h2>
@@ -138,7 +138,12 @@ Aldi is the cheapest place to build a good-looking board. Its Emporium Selection
 
 ## Building a board from these
 
-For 6 to 8 people, buy Not Your Average Cheddar, the Double Crème Brie and Le Gruyère, plus the Appleton Farms prosciutto and salami collection, the cracker assortment, grapes and dried apricots. It comes to well under $40.
+For 6 to 8 people, well under $40:
+
+- **Cheese:** Not Your Average Cheddar, Double Crème Brie and Le Gruyère
+- **Meat:** the Appleton Farms prosciutto and salami collection
+- **Crackers:** the cracker assortment
+- **Fruit:** grapes and dried apricots
 
 Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal. For more cheap boards, see our [budget charcuterie board](/blog/budget-charcuterie-board/) and the [$20 charcuterie board challenge](/blog/20-dollar-charcuterie-board-challenge/).
 

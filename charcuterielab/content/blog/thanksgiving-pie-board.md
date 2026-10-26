@@ -12,7 +12,7 @@ tags: "["thanksgiving pie board", "pie charcuterie board", "thanksgiving dessert
 
 # Thanksgiving Pie Board: How to Build a Dessert Board of Pies
 
-> **Quick Answer:** A Thanksgiving pie board is dessert served like a charcuterie board: three or four pies cut into small wedges, plus toppings and a few pairings guests can mix and match. Cut each 9-inch pie into 12 to 16 slim wedges instead of 8, so people can try two or three kinds. Plan on 3 pies for 12 guests, keep pumpkin and cream pies cold until the last minute, and don't leave them out for more than 2 hours.
+> **Quick Answer:** Serve **3 or 4 pies** cut into small wedges, with toppings. Cut each pie into **12 to 16 slices** so guests try two or three. Plan **3 pies for 12**, and keep cream pies cold until serving.
 
 ## Why a pie board works
 

@@ -12,14 +12,14 @@ tags: "["best quince paste", "membrillo", "quince paste brands", "membrillo and 
 
 # The Best Quince Paste (Membrillo) for a Charcuterie Board: What to Buy
 
-> **Quick Answer:** The easiest good quince paste to find is Mitica Membrillo, a Spanish quince paste sold at cheese counters and some supermarkets for about $8. Murray's Membrillo, made in Málaga by a producer working since 1912, is the cheese-shop pick. No published taste test has ranked quince paste brands, so this guide names what to buy without star scores.
+> **Quick Answer:** Easiest good one: **Mitica Membrillo** (about $8), at cheese counters. Cheese-shop pick: **Murray's Membrillo**, made in Málaga. No taste test exists, so there are no star scores.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-1">Mitica Membrillo</a><p class="sk-top-line">Widely sold, good value and made for slicing.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mitica+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheese-shop pick</p><a class="sk-top-name" href="#pick-2">Murray&#x27;s Membrillo</a><p class="sk-top-line">A short ingredient list and a traditional maker.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Murray&#x27;s+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Organic pick</p><a class="sk-top-name" href="#pick-3">Mitica Organic Membrillo</a><p class="sk-top-line">Organic.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mitica+Organic+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Membrillo is Spain's sweet, firm quince paste, and a slice of it on Manchego is one of the great cheese-board pairings. It's firm enough to cut into neat cubes, sweet and slightly tart, and it lasts for weeks in the fridge. Most stores carry one or two brands near the specialty cheeses.
+Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the great board pairings.
 *How we picked these: no published side-by-side taste test of quince paste brands exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of fruit paste behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
 :::html
@@ -70,7 +70,9 @@ Membrillo is Spain's sweet, firm quince paste, and a slice of it on Manchego is 
 <ul class="sk-checks"><li><strong>Look for:</strong> A firm block that holds its shape when sliced, deep orange to reddish brown. Quince and sugar should be the first ingredients.</li><li class="sk-x"><strong>Skip:</strong> Confusing it with quince jam or jelly. Jam is spoonable; for a board you want the firm paste you can cut into cubes.</li></ul>
 :::
 
-**How much to buy:** about ½ oz per guest. A 10 oz pack covers a board for 15 to 20. **Storing it:** wrap the cut block tightly and keep it in the fridge. It lasts for weeks.
+- **How much to buy:** about ½ oz per guest. A 10 oz pack covers a board for 15 to 20.
+- **Storing it:** wrap the cut block tightly and keep it in the fridge. It lasts for weeks.
+
 For what quince paste pairs with and how to serve it, see the [membrillo guide](/ingredients/membrillo/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## How to serve it

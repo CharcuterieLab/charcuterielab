@@ -12,7 +12,7 @@ tags: "["budget charcuterie board", "cheap charcuterie board", "charcuterie boar
 
 # How to Build a $25 Charcuterie Board That Looks Like It Cost $75
 
-> **Quick Answer:** A great charcuterie board doesn't require imported cheese or specialty cured meats. The principles that make a board work — salt-sweet contrast, texture variation, color contrast — function equally well with grocery store ingredients. The $25 formula: one good sharp cheddar, dry salami, one soft element (cream cheese or mozzarella), baguette crostini, grapes, apple slices, honey, and whatever nuts you have. Presentation does more work than price.
+> **Quick Answer:** A great board doesn't need imported cheese. The **$25 formula**: sharp cheddar, dry salami, one soft cheese, baguette crostini, grapes, apple, honey and nuts. Layout does more than price.
 
 ---
 

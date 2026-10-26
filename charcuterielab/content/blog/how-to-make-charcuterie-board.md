@@ -11,7 +11,7 @@ tags: "["how to make a charcuterie board", "charcuterie board", "board building"
 
 # How to Make a Charcuterie Board
 
-> **Quick Answer:** Choose a board sized to your group, plan about 2 oz each of meat and cheese per person for an appetizer, and take the cheese out of the fridge before you start. Then build in order: cheeses spaced apart, meats folded between them, condiments and fruit in the gaps, crackers last.
+> **Quick Answer:** Plan **2 oz each of meat and cheese per person** and take the cheese out early. Build in order: **cheese spread out, meat folded between, fruit and spreads in the gaps, crackers last**.
 
 ## Step 1: Choose Your Board Size and Surface
 

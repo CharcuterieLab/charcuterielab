@@ -12,14 +12,14 @@ tags: "["best capicola", "best coppa", "capicola brands", "capocollo", "gabagool
 
 # The Best Capicola (Coppa) for a Charcuterie Board: What to Buy
 
-> **Quick Answer:** For a charcuterie board, buy dry-cured coppa sliced thin, such as Volpi Sliced Coppa. At the deli counter, Boar's Head Hot Capocollo is the easy pick: Tasting Table ranked it 8th of 20 Boar's Head meats and called it delicious. No published taste test has ranked capicola brands side by side, so this guide names what to buy without star scores.
+> **Quick Answer:** Buy **dry-cured coppa sliced thin**, like **Volpi Sliced Coppa**. At the deli: **Boar's Head Hot Capocollo**. No taste test has ranked brands, so there are no star scores.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Volpi Sliced Coppa</a><p class="sk-top-line">Real dry-cured coppa, already sliced thin.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Boar&#x27;s Head Hot Capocollo</a><p class="sk-top-line">Sold at most Boar&#x27;s Head deli counters, sliced to order.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Spicy Uncured Charcuterie Collection</a><p class="sk-top-line">One pack covers the cured-meat side of a small board.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Capicola, capocollo, coppa and gabagool are all names for the same cut: the muscle that runs from a pig's neck into the shoulder. It's marbled, so each slice has a pretty pattern of fat, and it tastes richer than prosciutto. The catch is that two very different products share the name. Dry-cured coppa is aged like salami and belongs on a board. Deli "capicola" is often cooked, more like a spiced ham, and works better in sandwiches.
+Capicola, capocollo, coppa and gabagool are the same cut. But deli "capicola" is often cooked, like ham. For a board, you want dry-cured.
 *How we picked these: no published side-by-side taste test of store-bought capicola exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of cured meat behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
 :::html
@@ -70,7 +70,9 @@ Capicola, capocollo, coppa and gabagool are all names for the same cut: the musc
 <ul class="sk-checks"><li><strong>Look for:</strong> &quot;Dry cured&quot; or &quot;dry-cured coppa&quot; on the label for a board. Look for a deep red slice with clear white marbling.</li><li class="sk-x"><strong>Skip:</strong> Thick deli slices. Coppa should be sliced paper-thin, or it turns chewy. And not every store-brand capicola is a winner: <a href="https://www.tastingtable.com/2259740/publix-deli-meats-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked Publix Deli Hot Capicola 11th of 13 Publix deli meats.</li></ul>
 :::
 
-**How much to buy:** about 1 oz of coppa per guest when it's one of three meats. **How to serve it:** fold or loosely ruffle the slices so the marbling shows. It pairs well with Manchego, provolone, figs, melon and a Chianti or Lambrusco.
+- **How much to buy:** about 1 oz of coppa per guest when it's one of three meats.
+- **How to serve it:** fold or loosely ruffle the slices so the marbling shows. It pairs well with Manchego, provolone, figs, melon and a Chianti or Lambrusco.
+
 For what capicola pairs with and how to serve it, see the [coppa guide](/ingredients/coppa/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## Cured coppa or cooked capicola?

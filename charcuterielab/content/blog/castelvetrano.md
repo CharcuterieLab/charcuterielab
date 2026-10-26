@@ -13,7 +13,7 @@ updated: "2026-10-05"
 
 # Castelvetrano Olives: The Board Olive That Converts Non-Olive People
 
-> **Quick Answer:** Castelvetrano olives are picked young in western Sicily, which keeps them bright green, buttery and mild. On a board they're a gentle palate reset between rich bites. Serve one small bowl at room temperature, near semi-firm and aged cheeses like manchego, fontina, provolone or Gruyère.
+> **Quick Answer:** Castelvetrano olives are **bright green, buttery and mild**, from Sicily. They reset your palate between rich bites. Serve one small bowl near Manchego, fontina or Gruyère.
 
 ## What Is Castelvetrano?
 

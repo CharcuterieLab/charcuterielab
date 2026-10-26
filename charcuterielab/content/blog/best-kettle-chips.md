@@ -19,7 +19,7 @@ tags: "["best kettle chips", "best kettle cooked chips", "potato chip brands ran
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Kettle chips are the sturdiest potato chip, so they scoop onion dip without snapping and stand up next to salami and cheddar on a game-day board. Four published tests compared plain kettle chips. Two brands keep coming out on top.
+Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

@@ -12,14 +12,14 @@ tags: "["best charcuterie gift box", "meat and cheese gift basket", "charcuterie
 
 # The Best Charcuterie and Meat and Cheese Gift Boxes, Ranked
 
-> **Quick Answer:** Our top pick is the Harry & David Ultimate Meat and Cheese Gift Box (4.6 out of 5): about 5.5 lb of sausage, salami, cheese and crackers for about $110. For a board that arrives already arranged, buy Boarderie. Budget: The Swiss Colony Sausage and Cheese Bars. Splurge: Zingerman's.
+> **Quick Answer:** Top pick: **Harry & David Ultimate Meat and Cheese Gift Box** (about $110, 5.5 lb). Arrives already arranged: **Boarderie**. Budget: **Swiss Colony**. Splurge: **Zingerman's**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">A lot of food for the price, from a brand people recognize.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Ready to serve</p><a class="sk-top-name" href="#pick-2">Boarderie Classic Cheese &amp; Charcuterie Board</a><p class="sk-top-line">No assembly. Open it and put it out.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For cured-meat lovers</p><a class="sk-top-name" href="#pick-3">Olympia Provisions European Charcuterie Box</a><p class="sk-top-line">Craft salami from a respected Portland salumeria.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A meat and cheese box is one of the safest food gifts there is: almost everyone eats it, and it arrives ready to put out. The hard part is that dozens of companies sell one, at prices from $25 to $300. These are the boxes that come out best in editors' picks and buyer reviews, ranked on what's inside, how easy it is to serve, value and how reliably it ships.
+Dozens of companies sell these, from $25 to $300. These came out best in editors' picks and buyer reviews.
 
 :::html
 <h2 id="picks">All 10, ranked</h2>
@@ -123,7 +123,10 @@ A meat and cheese box is one of the safest food gifts there is: almost everyone 
 <ul class="sk-checks"><li><strong>Look for:</strong> How it ships. Boxes with soft cheese or sliced meat need cold packs and fast shipping, so they suit someone who will be home to take delivery. Shelf-stable boxes (whole summer sausage, aged cheese in wax or vacuum packs, crackers) can sit on a porch.</li><li class="sk-x"><strong>Skip:</strong> Boxes where most of the weight is &quot;cheese blends&quot;, spreads or processed cheese. Read the contents list: real cheese names (cheddar, Gouda, Manchego) and whole cured salami are the sign of a better box.</li></ul>
 :::
 
-**Order by:** for Christmas, most companies want orders in by mid-December for standard shipping, and perishable boxes often don't ship on weekends. Order in the first week of December to be safe. **How much a box feeds:** plan on about 3 oz of meat and 3 oz of cheese per person when the box is the main snack. A 3 lb box serves about 8. **Rather make one yourself?** Our [DIY charcuterie gift basket guide](/blog/charcuterie-gift-basket/) has three boxes at $25, $50 and $100 with shopping lists, and how to pack and ship it.
+- **Order by:** for Christmas, most companies want orders in by mid-December for standard shipping, and perishable boxes often don't ship on weekends. Order in the first week of December to be safe.
+- **How much a box feeds:** plan on about 3 oz of meat and 3 oz of cheese per person when the box is the main snack. A 3 lb box serves about 8.
+- **Rather make one yourself?** Our [DIY charcuterie gift basket guide](/blog/charcuterie-gift-basket/) has three boxes at $25, $50 and $100 with shopping lists, and how to pack and ship it.
+
 For more food gifts, including our cookbooks and boards, see our [charcuterie gift guide](/gifts/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

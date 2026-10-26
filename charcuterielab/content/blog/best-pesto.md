@@ -19,7 +19,7 @@ tags: "["best store bought pesto", "best pesto brand", "jarred pesto", "pesto fo
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A spoonful of pesto turns burrata, fresh mozzarella and crostini into an Italian board. The fresh, refrigerated tubs win almost every taste test, but a good shelf-stable jar is handy to keep in the pantry. These rankings combine Sporked's 40-plus pesto test with Tasting Table's and Daily Meal's rankings.
+A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most tests; a shelf-stable jar is handy to keep.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

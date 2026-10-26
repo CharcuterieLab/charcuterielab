@@ -19,7 +19,7 @@ tags: "["best store bought queso", "best jarred queso", "queso dip brands", "que
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A warm bowl of queso turns a snack board into a game-day spread. Sporked has tasted nearly 40 quesos, and the best one isn't in a jar at all. These rankings start with Sporked's test, then check it against Tasting Table's jarred-queso ranking and Taste of Home's test.
+The best one in Sporked's test of nearly 40 isn't in a jar at all.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>

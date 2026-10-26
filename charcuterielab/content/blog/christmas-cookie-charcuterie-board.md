@@ -12,7 +12,7 @@ tags: "["christmas cookie charcuterie board", "cookie board", "christmas dessert
 
 # Christmas Cookie Charcuterie Board: How to Build It (and How Many Cookies)
 
-> **Quick Answer:** A Christmas cookie charcuterie board is a dessert board built from **five or six kinds of cookies** with different shapes, colors and textures, filled in with **chocolate, a little candy, fresh fruit, nuts and one dip**. Plan **3 to 4 cookies per guest** when it's the party dessert, or **2 to 3 after a big dinner**: about 3 to 4 dozen for 12 guests. Put the biggest cookies down first, fan the rest in rows or wedges, and fill every gap.
+> **Quick Answer:** Use **5 or 6 kinds of cookies**, then fill with chocolate, candy, fruit, nuts and one dip. Plan **3 to 4 cookies per guest** (3 to 4 dozen for 12). Biggest cookies first, then fill every gap.
 
 ## Why a cookie board works
 

@@ -12,7 +12,7 @@ tags: "["can you freeze cheese", "freezing cheese", "can you freeze salami", "ho
 
 # Can You Freeze Cheese (and Salami)? What Freezes Well and What Doesn't
 
-> **Quick Answer:** Yes. **Hard and semi-hard cheeses** like cheddar, Parmesan, Swiss, Gouda and provolone freeze for **up to about 6 months**, and **dry salami** and pepperoni for **1 to 2 months**. Freezing makes cheese crumblier, so use thawed cheese for **cooking** (mac and cheese, pizza, sauces) rather than on a board. **Don't freeze fresh, high-moisture cheese** like fresh mozzarella, burrata, ricotta or cream cheese. Wrap tightly, freeze in small portions, and thaw in the fridge.
+> **Quick Answer:** **Yes, hard cheese** (cheddar, Parmesan, Gouda) freezes for up to **6 months**, and dry salami for **1 to 2 months**. Thawed cheese crumbles, so use it for cooking. **Don't freeze** fresh mozzarella, burrata, ricotta or cream cheese.
 
 ## Why freezing changes cheese
 

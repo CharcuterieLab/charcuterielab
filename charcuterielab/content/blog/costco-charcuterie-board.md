@@ -13,14 +13,14 @@ tags: "["costco charcuterie board", "costco charcuterie", "charcuterie board for
 
 # Costco Charcuterie Board for 20: Shopping List, Prices and What to Skip
 
-> **Quick Answer:** For 20 guests, buy about **66 oz (a little over 4 lb) each of meat and cheese** at Costco: Manchego, aged Gouda, Dubliner, brie and goat cheese, plus dry salame, peppered salame and prosciutto. Add crackers, baguettes, fruit, nuts, olives and dried apricots. It comes to about **$190 to $230, or $9.50 to $11.50 a guest**.
+> **Quick Answer:** For 20 guests, buy **about 4 lb each of meat and cheese**: Manchego, aged Gouda, Dubliner, brie and goat cheese, plus salame and prosciutto. Add crackers, fruit and nuts. About **$190 to $230 total**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For 20 guests</p><span class="sk-top-name">66 oz meat + 66 oz cheese</span><p class="sk-top-line">A little over 4 lb of each when the board is the party food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">About $190 to $230</span><p class="sk-top-line">$9.50 to $11.50 a guest, with leftovers to take home.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Watch out</p><span class="sk-top-name">Bulk packs make it easy to overbuy</span><p class="sk-top-line">Shop by ounces, not packs, and skip the 5 lb honey.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#skip">What to skip</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#how-much">How much</a><a href="#cheese">Cheese</a><a href="#meat">Meat</a><a href="#extras">Everything else</a><a href="#cost">Cost</a><a href="#skip">What to skip</a><a href="#build">Build it</a><a href="#leftovers">Leftovers</a></nav>
 :::
 
-Costco is the cheapest way to feed a crowd, but **the bulk packs make it easy to overbuy.** This list starts from how much 20 people actually eat, then matches it to what Costco sells.
+Costco's bulk packs make it easy to overbuy. This list starts from what 20 people actually eat.
 
 :::html
 <h2 id="how-much">How much to buy for 20</h2>

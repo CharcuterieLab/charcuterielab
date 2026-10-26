@@ -19,7 +19,7 @@ tags: "["best pepper jack", "pepper jack cheese brands", "best pepper jack chees
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Pepper jack is Monterey Jack studded with hot peppers: creamy, mild cheese with a kick. On a board it's the cheese that pairs with summer sausage, salsa and beer, and it's a favorite on game-day and Tex-Mex boards. These rankings combine The Takeout's and Tasting Table's 2026 cheese rankings and shopper ratings.
+Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
@@ -87,7 +87,10 @@ Pepper jack is Monterey Jack studded with hot peppers: creamy, mild cheese with 
 <ul class="sk-checks"><li><strong>Look for:</strong> Look for real peppers (jalapeño, habanero) listed after the cheese. Blocks are better than slices for a board: cut them into cubes or sticks.</li><li class="sk-x"><strong>Skip:</strong> Habanero pepper jack from pre-cut cheese trays: <a href="https://www.tastingtable.com/2169853/sliced-cheese-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> found Primo Taglio&#x27;s habanero version soapy and bitter.</li></ul>
 :::
 
-**How much to buy:** about 1 oz per guest when it's one of three cheeses. Put it next to a mild cheese so guests have a choice. **What it pairs with:** summer sausage, pepperoni, salsa, guacamole, tortilla chips, pickled jalapeños, mango or pineapple, and a lager or margarita. See our [Super Bowl board plans](/holidays/super-bowl/) for a full spread.
+- **How much to buy:** about 1 oz per guest when it's one of three cheeses. Put it next to a mild cheese so guests have a choice.
+- **What it pairs with:** summer sausage, pepperoni, salsa, guacamole, tortilla chips, pickled jalapeños, mango or pineapple, and a lager or margarita.
+
+See our [Super Bowl board plans](/holidays/super-bowl/) for a full spread.
 For what pepper jack pairs with and how to serve it, see the [pepper jack guide](/ingredients/pepper-jack/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

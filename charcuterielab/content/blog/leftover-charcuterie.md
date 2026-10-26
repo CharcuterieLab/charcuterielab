@@ -12,7 +12,7 @@ tags: "["leftover charcuterie", "leftover charcuterie recipes", "what to do with
 
 # What to Do With Leftover Charcuterie: 12 Ideas (and How Long It Keeps)
 
-> **Quick Answer:** Leftover charcuterie is safe to keep if it went back in the fridge within **2 hours** of being set out (1 hour above 90°F). Then turn it into dinner: crisp the salami and prosciutto for **pasta, eggs and salads**, melt the cheese into **grilled cheese, mac and cheese or a frittata**, blend the odds and ends into **fromage fort**, and top a **flatbread** with whatever's left. Opened dry salami keeps about 3 weeks; sliced deli meat and prosciutto 3 to 5 days.
+> **Quick Answer:** Safe if it went back in the fridge **within 2 hours**. Then crisp the meat for **pasta, eggs or salad**, melt the cheese into **grilled cheese or mac and cheese**, or top a **flatbread**. Sliced meat keeps 3–5 days.
 
 ## First: what's safe to keep
 

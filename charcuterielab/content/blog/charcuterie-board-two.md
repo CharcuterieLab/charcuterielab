@@ -1,5 +1,6 @@
 ---
-title: "Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale"
+title: "Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale"
+
 seo_title: "Charcuterie Board for Two: Date Night Ideas and What to Buy"
 date: "2026-05-08"
 image: "/images/charcuterie-board-two.webp"
@@ -13,12 +14,9 @@ tags: "["charcuterie board for two", "charcuterie board date night", "small char
 
 # Charcuterie Board for Two: How to Build It, What to Buy, and What Changes at Small Scale
 
-A charcuterie board for two operates under different rules than a board built for six or ten. The quantities are smaller, but that's not the only thing that changes. The selection logic is different — with two people, you have fewer mouths to serve across a wider range of preferences, so you can afford to be more targeted. The presentation format is different — a small board reads better than a large board with half of it empty. And the purchase strategy is different — buying individual portions or specialty varieties rather than large format packages.
+> **Quick Answer:** Keep it small: **2 cheeses** (soft and firm), **1 or 2 meats**, crackers and 2 or 3 extras. One great cheese beats five average ones. For date night, add honeycomb, figs or dark chocolate.
 
-This guide covers the specific adjustments that make a two-person board work as well as a large board.
-
-
-> **Quick Answer:** A charcuterie board for two people works best with restrained variety: 2 cheeses (one soft, one firm), 1–2 cured meats, crackers, and 2–3 accompaniments. Prioritize quality over quantity at small scale — one excellent cheese and one great prosciutto beats five mediocre elements. For a date night, add honeycomb, fresh figs, or dark chocolate for indulgence.
+With two people, you can splurge on fewer, better things.
 
 ---
 

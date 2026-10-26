@@ -13,7 +13,7 @@ faq: "[{"question": "How much meat per person for a charcuterie board?", "answer
 
 # How Much Charcuterie Per Person? (The Formula Party Hosts Actually Need)
 
-**The short answer:** Plan for **2 oz of meat and 2 oz of cheese per person** as a cocktail-style appetizer board. If it's the party food with no meal, plan 3 oz of each; if the board is dinner, 4 oz of each. From 20 guests, add 10%.
+> **Quick Answer:** Plan **2 oz of meat and 2 oz of cheese per person** before a meal. **3 oz each** if it's the party food, **4 oz each** if it's dinner. Over 20 guests, add 10%.
 
 > **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 
@@ -71,10 +71,10 @@ This is a grazing board meant to carry guests through a party with no dinner: ho
 
 For a typical party board, plan **2–3 meat varieties and 2–3 cheese varieties**. More variety means smaller portions of each, which is actually preferable — it gives guests more to explore and prevents anyone from eating one thing to the exclusion of everything else.
 
-**For 4–6 guests:** 2 meats + 2 cheeses, about 4–6 oz of each variety
-**For 8–12 guests:** 2–3 meats + 3 cheeses, about 5–8 oz per variety
-**For 15–25 guests:** 3 meats + 3–4 cheeses, about 8–14 oz per variety
-**For 30+ guests (grazing table):** 4–5 meats + 4–5 cheeses, divide the formula quantity across varieties
+- **For 4–6 guests:** 2 meats + 2 cheeses, about 4–6 oz of each variety
+- **For 8–12 guests:** 2–3 meats + 3 cheeses, about 5–8 oz per variety
+- **For 15–25 guests:** 3 meats + 3–4 cheeses, about 8–14 oz per variety
+- **For 30+ guests (grazing table):** 4–5 meats + 4–5 cheeses, divide the formula quantity across varieties
 
 ## Don't Forget the Extras
 

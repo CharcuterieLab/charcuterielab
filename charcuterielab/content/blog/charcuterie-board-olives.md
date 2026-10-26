@@ -12,7 +12,7 @@ tags: "["olives charcuterie board", "charcuterie board", "cheese pairing"]"
 
 # Olives on a Charcuterie Board
 
-> **Quick Answer:** Yes, olives belong on almost every board. Buy Castelvetrano: mild, buttery and bright green. Serve 6–8 per person in a small bowl, never loose, with a second bowl for pits, and put them next to the aged cheese and cured meat.
+> **Quick Answer:** Yes, almost always. Buy **Castelvetrano**: mild, buttery and bright green. Serve **6 to 8 per person** in a small bowl, with a second bowl for pits, near the aged cheese and meat.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>

@@ -20,7 +20,7 @@ tags: "["best mixed nuts", "best mixed nuts brand", "nuts for charcuterie board"
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A bowl of mixed nuts fills gaps on a board and adds crunch next to soft cheese. For a board, the "fancy" or "deluxe" mixes are worth it: more cashews, pecans and almonds, and few or no peanuts. These rankings lean on two published taste tests, then the mix itself, price and how easy each one is to find.
+For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
@@ -88,7 +88,10 @@ A bowl of mixed nuts fills gaps on a board and adds crunch next to soft cheese. 
 <ul class="sk-checks"><li><strong>Look for:</strong> &quot;Fancy&quot;, &quot;deluxe&quot; or &quot;select&quot; on the label usually means few or no peanuts. Look for nuts, oil and salt, and nothing else for a plain mix.</li><li class="sk-x"><strong>Skip:</strong> Honey-roasted or heavily seasoned mixes next to delicate cheese. They overpower it. Save them for a game-day board.</li></ul>
 :::
 
-**Serving it:** serve nuts in a small bowl or use them to fill gaps between the cheese and meat. Toast them in a dry pan for 3 to 4 minutes to freshen a bag that's been open a while. **Nut allergies:** keep nuts in their own bowl with a separate spoon, and label them. See our [nut-free board guide](/dietary/nut-free/) if a guest is allergic.
+- **Serving it:** serve nuts in a small bowl or use them to fill gaps between the cheese and meat. Toast them in a dry pan for 3 to 4 minutes to freshen a bag that's been open a while.
+- **Nut allergies:** keep nuts in their own bowl with a separate spoon, and label them.
+
+See our [nut-free board guide](/dietary/nut-free/) if a guest is allergic.
 For what mixed nuts pairs with and how to serve it, see the [cashew guide](/ingredients/cashews/), and see the [best Marcona almonds](/blog/best-marcona-almonds/) for a Spanish-style board. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

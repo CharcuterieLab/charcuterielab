@@ -11,7 +11,7 @@ tags: "["charcuterie board dips", "charcuterie board", "cheese pairing"]"
 
 # Best Dips for a Charcuterie Board
 
-> **Quick Answer:** The three essential dips for a charcuterie board are honey, fig jam, and grain mustard. Honey bridges almost every cheese pairing; fig jam targets aged and blue cheese; grain mustard cuts fatty meats. Use small bowls, 1–2 tablespoons per condiment per person, and limit yourself to two or three condiment elements so the board doesn't become a condiment display.
+> **Quick Answer:** Start with **honey, fig jam and grainy mustard**. Honey goes with almost any cheese, fig jam with aged and blue, and mustard with fatty meat. Plan 1 to 2 tablespoons each per person.
 
 ## Why Dips Matter on a Charcuterie Board
 

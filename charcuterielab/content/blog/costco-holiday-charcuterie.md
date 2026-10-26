@@ -13,14 +13,14 @@ tags: "["costco holiday charcuterie 2026", "costco charcuterie board", "costco c
 
 # Costco Holiday Cheese and Charcuterie 2026: What to Buy
 
-> **Quick Answer:** For a done-for-you tray, the **Fratelli Beretta Charcuterie Kit** (about $25) has meats, cheeses, olives and hot honey. To build your own, grab the **Kirkland French Brie** wheel (about $12), **Celebrity Cranberry Goat Cheese** (about $8.49), **Fotis Baked Brie** (about $12) and **Raincoast Crisps** (about $12 for 3 boxes).
+> **Quick Answer:** Done-for-you: **Fratelli Beretta Charcuterie Kit** (about $25). Build your own with **Kirkland French Brie** (about $12), **Cranberry Goat Cheese** (about $8.49) and **Raincoast Crisps** (about $12 for 3).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best ready-made tray</p><a class="sk-top-name" href="#pick-1">Fratelli Beretta Charcuterie Kit, 26.55 oz</a><p class="sk-top-line">Meats, cheeses, olives and hot honey on one tray</p></div><div class="sk-top-buy"><span class="sk-price">About $25</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=beretta%20charcuterie%20kit" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-2">Kirkland Signature Imported French Brie</a><p class="sk-top-line">A 21 oz Normandy brie wheel</p></div><div class="sk-top-buy"><span class="sk-price">About $12</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=kirkland%20french%20brie" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best holiday cheese</p><a class="sk-top-name" href="#pick-3">Celebrity Cranberry Goat Cheese, 1 lb</a><p class="sk-top-line">Red-and-white cranberry goat cheese</p></div><div class="sk-top-buy"><span class="sk-price">About $8.49</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=cranberry%20goat%20cheese" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 9 picks</a><a href="#how-to-choose">How to shop</a><a href="#costco-holiday-questions">FAQ</a></nav>
 :::
 
-Costco's holiday cheese and charcuterie arrive from late October and sell out fast. These are the items that make a holiday board easy, with the latest prices we could find. Warehouse stock varies, so we note what's confirmed for 2026.
+Holiday items sell out fast, and stock varies by warehouse.
 
 :::html
 <h2 id="picks">All 9 picks</h2>

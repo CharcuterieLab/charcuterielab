@@ -13,7 +13,7 @@ updated: "2026-09-24"
 
 # Dairy-Free Charcuterie Board: How to Build a Satisfying Board Without Traditional Cheese
 
-> **Quick Answer:** Most charcuterie board elements are naturally dairy-free — all cured meats, fruit, vegetables, nuts, olives, honey, and most condiments contain no dairy. The only swap is cheese. Cashew-based plant-based cheeses (particularly from artisan producers) provide the best board functionality. Hummus, nut-based dips, and avocado fill the creamy role. A well-built dairy-free board leans into abundant produce and meat variety rather than trying to replicate the cheese section.
+> **Quick Answer:** Most of a board is already dairy-free: **cured meat, fruit, vegetables, nuts, olives and honey**. Just swap the cheese for **cashew cheese**, hummus or avocado, and lean on extra meat and produce.
 
 > **Check the salami too:** some salami and cooked sausages use milk powder as a binder. Our [vegan and dairy-free guide](/dietary/vegan/) lists every board ingredient, with the ones to check.
 

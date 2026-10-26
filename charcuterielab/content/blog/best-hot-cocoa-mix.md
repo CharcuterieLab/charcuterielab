@@ -13,14 +13,14 @@ tags: "["best hot cocoa mix", "best hot chocolate mix", "hot cocoa board", "best
 
 # The Best Hot Cocoa Mix for a Hot Cocoa Board
 
-> **Quick Answer:** **Land O Lakes Chocolate Supreme** won two taste tests and is made with water. For a richer cup with real chocolate, **Ghirardelli Double Chocolate** (about $5.68). For a crowd, a 50-count box of **Swiss Miss** packets (about $9.68 at Sam's Club). Dairy-free: **Lake Champlain Traditional**.
+> **Quick Answer:** **Land O Lakes Chocolate Supreme** won two taste tests. Richer: **Ghirardelli Double Chocolate** (about $5.68). For a crowd: **Swiss Miss** 50-count (about $9.68). Dairy-free: **Lake Champlain**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Land O Lakes Cocoa Classics Chocolate Supreme</a><p class="sk-top-line">Water-only mix that won two tests</p></div><div class="sk-top-buy"><span class="sk-price">About $15 for 14.8 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Land+O+Lakes+Chocolate+Supreme+hot+cocoa" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best rich</p><a class="sk-top-name" href="#pick-2">Ghirardelli Double Chocolate Hot Cocoa</a><p class="sk-top-line">Cocoa plus real unsweetened chocolate</p></div><div class="sk-top-buy"><span class="sk-price">About $5.68</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Ghirardelli+Double+Chocolate+hot+cocoa+mix" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-3">Swiss Miss Milk Chocolate, 50 packets</a><p class="sk-top-line">Single-serve packets, about 19 cents a mug</p></div><div class="sk-top-buy"><span class="sk-price">About $9.68</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Swiss+Miss+milk+chocolate+hot+cocoa+50+count" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to set up the board</a><a href="#hot-cocoa-questions">FAQ</a></nav>
 :::
 
-A hot cocoa board lives or dies on the cocoa. We read nine published taste tests, from Serious Eats to Sporked, and picked the mixes that keep winning, plus the easiest options for a crowd.
+We read nine taste tests and picked the mixes that keep winning.
 
 :::html
 <h2 id="picks">All 8 picks</h2>

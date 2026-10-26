@@ -13,7 +13,7 @@ tags: "["christmas charcuterie board", "holiday charcuterie board", "christmas p
 
 # Christmas Charcuterie Board: How to Build a Festive Board for the Holidays
 
-> **Quick Answer:** A Christmas charcuterie board for 15–25 holiday guests needs 3 oz each of cheese and meat per person for 2–3 hours of grazing, plus 10% from 20 guests up. Build the red-green-white holiday palette from ingredients: prosciutto and pomegranate for red, Castelvetrano olives and rosemary for green, brie and white crackers for white. Four cheeses, three meats, generous produce and condiments.
+> **Quick Answer:** For 15–25 guests grazing 2 to 3 hours, plan **3 oz each of cheese and meat per person**. Use **red** (prosciutto, pomegranate), **green** (olives, rosemary) and **white** (brie). Four cheeses, three meats.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The plan for 20 guests</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Amounts</p><span class="sk-top-name">3 oz each of cheese and meat per guest</span><p class="sk-top-line">+10% from 20 guests: about 4½ lb cheese and 4¼ lb meat for 20.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#quantities">Quantities</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheese</p><span class="sk-top-name">Aged cheddar, brie, Manchego, mild blue</span><p class="sk-top-line">Plus an optional herb- or cranberry-rolled goat cheese log.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cheese">Cheeses</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Colors</p><span class="sk-top-name">Red, green and white from the food</span><p class="sk-top-line">Prosciutto and pomegranate; Castelvetrano and rosemary; brie and white crackers.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#palette">Palette</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Timing</p><span class="sk-top-name">Build 2 hours ahead, refresh every 2 hours</span><p class="sk-top-line">Out of the fridge 45 min before guests; crackers 5 min before.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#timeline">Timeline</a></span></div></div></div>
@@ -30,10 +30,10 @@ The Christmas board serves a different function than most event boards. It's a t
 
 For 2–3 hours of continuous grazing at a holiday party:
 
-**Cheese:** 3 oz per person, plus 10%. For 20 guests: about 4½ lb total across 4–5 types.
-**Meat:** 3 oz per person, plus 10%. For 20 guests: about 4¼ lb total across 3–4 types.
-**Crackers/bread:** Two to three boxes of crackers plus a sliced baguette.
-**Fruit:** Two clusters of grapes, two apples, one pear, plus dried fruit and berries.
+- **Cheese:** 3 oz per person, plus 10%. For 20 guests: about 4½ lb total across 4–5 types.
+- **Meat:** 3 oz per person, plus 10%. For 20 guests: about 4¼ lb total across 3–4 types.
+- **Crackers/bread:** Two to three boxes of crackers plus a sliced baguette.
+- **Fruit:** Two clusters of grapes, two apples, one pear, plus dried fruit and berries.
 
 Total build cost for 20 guests: $90–120 depending on sourcing and region.
 
@@ -147,10 +147,19 @@ Why this order: [the right order to build a charcuterie board](/blog/build-seque
 For a holiday party of 15–25 guests grazing over 2–3 hours, plan 3 oz each of cheese and meat per person, plus 10% from 20 guests up — this is a longer grazing event than a pre-dinner board. For 20 guests: about 4½ lb of cheese and 4¼ lb of meat across 4–5 types each. Add generous produce, crackers, and condiments to fill the board visually.
 
 **What cheeses work best on a Christmas charcuterie board?**
-Aged cheddar (red wax or white, both festive), brie (the creamy centerpiece), manchego (firm, nutty, universally loved), and a blue or gorgonzola for contrast. For a four-cheese board, this combination covers every flavor and texture register. Avoid overly niche selections for a large holiday crowd — approachability matters when serving guests with varied palates.
+- **Aged cheddar** (red wax or white): festive and familiar
+- **Brie:** the creamy centerpiece
+- **Manchego:** firm, nutty, loved by everyone
+- **A blue or Gorgonzola:** for contrast
+
+Skip niche cheeses for a big holiday crowd.
 
 **What's the best red and green color palette for a Christmas board?**
-Red: prosciutto, salami, dried cranberry, pomegranate arils, red grapes, strawberries, cherry tomatoes. Green: Castelvetrano olives, green grapes, fresh rosemary, pistachio, cucumber, kiwi. White/cream: brie, manchego, white crackers, white cheddar. This palette works without any artificial decoration — the ingredients themselves create the visual.
+- **Red:** prosciutto, salami, dried cranberries, pomegranate, red grapes, strawberries, cherry tomatoes
+- **Green:** Castelvetrano olives, green grapes, rosemary, pistachios, cucumber, kiwi
+- **White and cream:** brie, Manchego, white crackers, white cheddar
+
+No decorations needed: the food makes the colors.
 
 **What wines pair with a Christmas charcuterie board?**
 Sparkling wine (Champagne, Prosecco, Cava) works with everything on the board — acidity and bubbles cut through fat and cleanse the palate. For red, choose a Pinot Noir or lighter Gamay — big tannic reds overpower soft cheeses. Gewürztraminer and off-dry Riesling complement fruit elements and spiced meats. Mulled wine can be offered separately.

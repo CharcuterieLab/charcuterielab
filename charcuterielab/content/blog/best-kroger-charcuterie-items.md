@@ -12,14 +12,14 @@ tags: "["kroger charcuterie", "kroger charcuterie board", "murrays cheese kroger
 
 # The Best Kroger Charcuterie Board Items, Ranked
 
-> **Quick Answer:** The best Kroger cheese for a charcuterie board is Murray's Cave Aged Stockinghall Cheddar (4.2 out of 5), an award-winning clothbound cheddar from the Murray's counter. Best soft cheese: Murray's Brie. Best everyday extras: Private Selection smoked salmon and mixed nuts. Kroger's weak spot is store-brand salami, so buy meat sliced at the deli counter.
+> **Quick Answer:** Best Kroger cheese: **Murray's Cave Aged Stockinghall Cheddar** (4.2/5). Best soft cheese: **Murray's Brie**. Skip the store-brand salami and get meat sliced at the deli counter.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Murray&#x27;s Cave Aged Stockinghall Cheddar</a><p class="sk-top-line">A cheese-shop cheddar in a supermarket.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Murray&#x27;s Brie</a><p class="sk-top-line">Creamy and mild, and easy to bake.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best smoked salmon</p><a class="sk-top-name" href="#pick-2">Private Selection Cold Smoked Norwegian Atlantic Salmon</a><p class="sk-top-line">Drapes well on crackers with cream cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 11, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
-Kroger has one of the best supermarket cheese counters in the country, thanks to the Murray's Cheese shops inside more than 1,000 Kroger-family stores (Kroger's banners include Ralphs, King Soopers, Mariano's and Pick 'n Save). Cheese importer Adam Jay Moskowitz told Food & Wine the best supermarket selection is "Murray's Cheese at Kroger, hands down," and The Takeout ranked Kroger 3rd of 13 chains for cheese. These are the cheeses and extras worth buying, ranked.
+Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Cheese counters, one of the best supermarket selections in the country.
 
 :::html
 <h2 id="picks">All 11, ranked</h2>

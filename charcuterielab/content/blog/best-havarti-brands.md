@@ -12,14 +12,14 @@ tags: "["best havarti", "havarti brands", "best havarti cheese", "dill havarti",
 
 # The Best Havarti for a Charcuterie Board: What to Buy
 
-> **Quick Answer:** The best Havarti for a board is Buholzer Brothers Havarti from Klondike Cheese Co. in Wisconsin, which took first and second place in the Havarti class at the 2025 US Championship Cheese Contest. Its Dill Havarti won the flavored class. Castello Creamy Havarti is the easiest to find. No published taste test has ranked grocery Havarti side by side, so this guide names what to buy without star scores.
+> **Quick Answer:** Buy **Buholzer Brothers Havarti** (Klondike Cheese Co., Wisconsin), a 2025 US Championship winner. Easiest to find: **Castello Creamy Havarti**. No taste test exists, so there are no star scores.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Buholzer Brothers Havarti</a><p class="sk-top-line">Contest-proven, and made by a family cheesemaker.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best flavored</p><a class="sk-top-name" href="#pick-2">Buholzer Brothers Dill Havarti</a><p class="sk-top-line">Dill adds flavor without making the cheese strong.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-3">Castello Creamy Havarti</a><p class="sk-top-line">Widely sold, mild and creamy.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Havarti is the cheese that almost every guest eats: buttery, mild and soft enough to slice cleanly, with small irregular holes. It's originally Danish, but most Havarti sold in the US is made in Wisconsin. Because it's so mild, it does a specific job on a board: the friendly cheese next to a sharp cheddar and a blue.
+Havarti is the mild, buttery cheese almost every guest eats. Put it next to a sharp cheddar and a blue.
 *How we picked these: no published side-by-side taste test of grocery-store Havarti exists yet, so this guide is not scored with stars like our other buying guides. Instead it names the widely sold options, what each is like and where to find it, using award results where they exist, the few published tests that include them and how this kind of mild semi-soft cheese behaves on a board. Sources are listed at the end, and our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Stock last checked October 2026.*
 
 :::html
@@ -70,7 +70,9 @@ Havarti is the cheese that almost every guest eats: buttery, mild and soft enoug
 <ul class="sk-checks"><li><strong>Look for:</strong> A block that looks moist and pale yellow, with small irregular holes. &quot;Cream Havarti&quot; or &quot;creamy Havarti&quot; is softer and milder than plain.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced packs for the board itself. Thin slices dry at the edges within an hour. Buy a block, cut it into thick slices or cubes, and keep the deli slices for sandwiches.</li></ul>
 :::
 
-**How much to buy:** about 1 oz of Havarti per guest when it's one of three cheeses. **How to serve it:** cut it cold, since it's soft, then let it sit out 20 to 30 minutes. It pairs well with apples, grapes, rye crackers, ham and a dry white wine.
+- **How much to buy:** about 1 oz of Havarti per guest when it's one of three cheeses.
+- **How to serve it:** cut it cold, since it's soft, then let it sit out 20 to 30 minutes. It pairs well with apples, grapes, rye crackers, ham and a dry white wine.
+
 For what Havarti pairs with and how to serve it, see the [Havarti guide](/ingredients/havarti/). To see every buying guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 ## How to choose

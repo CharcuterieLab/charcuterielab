@@ -11,9 +11,9 @@ slug: "charcuterie-ingredient-tier-list"
 
 # The Charcuterie Tier List: 32 Board Ingredients Ranked from S to F
 
-> **Quick Answer:** S tier: aged cheddar, brie, prosciutto, Genoa salami, fig jam and Marcona almonds. A tier: Manchego, soppressata, honeycomb, grapes, cornichons and dark chocolate. B tier sits in the middle, C tier needs the right partner, D tier is situational, and F tier is pre-cut cheese cubes, unlemoned apple slices and wet fruit on crackers.
+> **Quick Answer:** **S tier:** aged cheddar, brie, prosciutto, Genoa salami, fig jam, Marcona almonds. **A tier:** Manchego, soppressata, honeycomb, grapes, cornichons. **F tier:** pre-cut cheese cubes and browned apple slices.
 
-Tier lists start arguments, and that is the point. Every ingredient here was ranked on three things: **how much it pairs with**, **how many guests will eat it**, and **whether it still looks good after two hours** on the board. Read it, disagree in the comments, then make your own.
+Ranked on what each pairs with, how many guests eat it, and how it looks after two hours. Disagree in the comments.
 
 ## The full tier list
 

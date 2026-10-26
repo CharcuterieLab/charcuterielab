@@ -12,11 +12,9 @@ tags: "["charcuterie board for large group", "charcuterie board", "entertaining"
 
 # Charcuterie Board for a Large Group: How to Scale Without the Chaos
 
-A charcuterie board for four is easy. A charcuterie board for thirty is a logistics problem dressed up as a food problem. The flavor decisions are the same — the setup, quantities, and replenishment strategy are completely different.
+> **Quick Answer:** Plan **2 oz meat and 2 oz cheese per person** (3 oz if it's the party food), plus 10%. Use 2–3 meats and 3–4 cheeses, and set up **several stations** instead of one giant board.
 
-Here's how to scale a board for a large group without running out of food, creating a traffic jam, or spending the whole party managing the spread.
-
-> **Quick Answer:** For a large group appetizer board, plan 2 oz meat and 2 oz cheese per person (3 oz each if the board is the party food), add a 10% buffer, use 2–3 meat varieties and 3–4 cheese types, and build multiple stations rather than one oversized board. Multiple access points move guests faster and keep the spread looking fresh longer.
+For 30 people, the food is easy. The setup, amounts and refills are what change.
 
 > **For your exact guest count**, the [Party Planner](/party-planner/) works out meat, cheese, crackers, cost and a timeline for 4 to 200 guests.
 

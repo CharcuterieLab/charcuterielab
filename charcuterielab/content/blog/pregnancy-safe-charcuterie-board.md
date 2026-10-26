@@ -13,7 +13,7 @@ tags: "["charcuterie while pregnant", "pregnancy safe charcuterie", "pregnancy s
 
 # Can You Eat Charcuterie While Pregnant? A Pregnancy-Safe Board Guide
 
-> **Quick Answer:** Not the way it's usually served. US and UK health agencies both say pregnant people should not eat **cold cured meats** like salami, prosciutto and pepperoni unless they're heated until steaming hot (165°F), and should avoid **cheese made with raw milk**, **refrigerated pâté** and **refrigerated smoked salmon**. A pregnancy-safe board swaps in **prosciutto crisps, pepperoni chips and baked brie**, uses **pasteurized** cheddar, gouda, mozzarella and feta, and keeps everything else (fruit, crackers, nuts, honey, olives) as it is.
+> **Quick Answer:** Not as usually served. Skip **cold cured meat** (unless heated until steaming), **raw-milk cheese**, **refrigerated pâté** and **smoked salmon**. Swap in **prosciutto crisps, pepperoni chips and baked brie**, and use **pasteurized** cheese.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>
@@ -24,7 +24,7 @@ tags: "["charcuterie while pregnant", "pregnancy safe charcuterie", "pregnancy s
 <nav class="sk-jump" aria-label="On this page"><a href="#safe">Safe or swap: the table</a><a href="#raw-milk">Raw-milk cheeses</a><a href="#swaps">The swaps</a><a href="#board-for-8">A board for 8</a><a href="#hosting">Hosting tips</a><a href="#faq">FAQ</a></nav>
 :::
 
-Most of a board is already fine for a pregnant guest, and the parts that aren't have easy swaps that still taste like charcuterie. Here's what the CDC (US) and the NHS (UK) say, where they disagree, and a board she can eat all of.
+Most of a board is already fine, and the rest has easy swaps. Here's what the CDC and NHS say.
 
 *This is general food-safety information, not medical advice. Guidance differs by country and changes over time, so check with your own doctor or midwife.*
 
@@ -155,6 +155,10 @@ Guidance differs. The CDC focuses on avoiding cheese made with raw milk and ques
 Pasteurized hard and semi-firm cheeses such as cheddar and gouda, and pasteurized cream cheese, mozzarella, feta, string cheese and cottage cheese. Check the label for made with pasteurized milk, because Parmigiano-Reggiano, Comté, traditional Gruyère and some Manchego are made with raw milk.
 
 **What can a pregnant person eat on a charcuterie board?**
-Pasteurized cheddar, gouda, mozzarella and whipped feta, prosciutto crisps and pepperoni chips cooked until hot, baked brie, washed fruit, crackers, nuts, honey, olives, pickles, hummus and dark chocolate. Keep any cold cured meat on a separate plate with its own utensils.
+- **Cheese:** pasteurized cheddar, Gouda, mozzarella and whipped feta, plus baked brie
+- **Meat:** prosciutto crisps and pepperoni chips, cooked until hot
+- **Everything else:** washed fruit, crackers, nuts, honey, olives, pickles, hummus and dark chocolate
+
+Keep any cold cured meat on a separate plate with its own utensils.
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*

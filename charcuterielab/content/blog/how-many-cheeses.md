@@ -10,13 +10,9 @@ tags: "["how many cheeses", "charcuterie board", "charcuterie"]"
 ---
 
 # How Many Cheeses Should Be on a Charcuterie Board?
-## Quick Answer
+> **Quick Answer:** **Three**: one soft, one semi-firm and one aged. For 2 people, two is enough. For 12 or more, use 4 or 5.
 
-Three cheeses is the right number for most charcuterie boards. One soft or fresh, one semi-firm, one aged hard. This combination covers the full range of textures, fat contents, and flavor intensities without redundancy. For 2 people, 2 cheeses works. For very large boards (12+ people), 4–5 is appropriate.
-
----
-
-The right number of cheeses isn't only a quantity question — it's a variety question. Three cheeses chosen to cover different categories will outperform five cheeses with overlapping profiles every time. The goal is maximum variety across the fewest pieces.
+Three different cheeses beat five similar ones.
 
 ## The Three-Cheese Logic
 
@@ -94,7 +90,13 @@ Two cheeses can work for a small board (2–4 people) or a budget-constrained bo
 Yes. More than five cheeses creates diminishing returns — guests can't engage thoughtfully with more than 4–5 options while grazing, and additional cheeses compete for attention rather than adding genuine variety. If you want to offer more cheese, run a formal cheese tasting alongside the board rather than adding more to the board itself.
 
 **What is the rule for choosing cheeses for a charcuterie board?**
-One cheese per register: one soft or fresh (brie, burrata, chèvre), one semi-firm or aged (cheddar, Gouda, Manchego, Gruyère), and one bold or distinctive (blue cheese, washed-rind, or extra-aged hard cheese). Each cheese should offer something the others don't. If two cheeses fill the same flavor role, replace one with something that fills a gap.
+One cheese per type:
+
+- **Soft or fresh:** brie, burrata, chèvre
+- **Semi-firm or aged:** cheddar, Gouda, Manchego, Gruyère
+- **Bold:** blue, washed-rind or extra-aged hard cheese
+
+If two cheeses do the same job, swap one for something different.
 
 **What order do you arrange cheeses on a charcuterie board?**
 Distribute cheeses around the board rather than clustering them together — this creates natural zones for guests to gather around and prevents crowding at one corner. Place the most visually striking cheese (a whole brie, a blue cheese with visible veining) at or near the center. Leave adequate space around each cheese for guests to cut without disturbing neighboring elements.

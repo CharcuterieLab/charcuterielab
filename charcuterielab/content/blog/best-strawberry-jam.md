@@ -19,7 +19,7 @@ tags: "["best strawberry jam", "strawberry jam brands", "best strawberry preserv
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Strawberry jam is the friendliest spread on a board: it goes with brie, goat cheese, ricotta and every cracker, and kids reach for it first. Two big taste tests from 2025 named the same two brands at the top, just in a different order. These rankings combine them with Sporked's jam test.
+Goes with brie, goat cheese and every cracker, and kids reach for it first.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

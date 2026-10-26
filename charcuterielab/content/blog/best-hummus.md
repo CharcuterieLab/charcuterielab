@@ -19,7 +19,7 @@ tags: "["best hummus", "best store bought hummus", "hummus brands", "hummus for 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Hummus turns a board into a mezze spread, and it's the easiest dip for vegetarian and vegan guests. The tests disagree more on hummus than on almost anything: one outlet's favorite is another's bottom pick. So these rankings lean on three published taste tests together, then ingredients, price and how easy each tub is to find.
+Hummus turns a board into a mezze spread. Tests disagree a lot, so we combined three.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>
@@ -96,7 +96,9 @@ Hummus turns a board into a mezze spread, and it's the easiest dip for vegetaria
 <ul class="sk-checks"><li><strong>Look for:</strong> Chickpeas, tahini, lemon juice, garlic, olive oil and salt, near the top of the list. Hummus made with real lemon juice tastes brighter than one made with citric acid.</li><li class="sk-x"><strong>Skip:</strong> Dessert hummus and heavily flavored tubs on a savory board. Classic or roasted red pepper is the safe choice.</li></ul>
 :::
 
-**Serving it:** scoop it into a shallow bowl, swirl the top with the back of a spoon, then add olive oil, paprika or za'atar. Serve it with pita chips, cucumbers and carrots, and keep it near the feta and olives. **Mezze board idea:** see the [Mezze Board Plan](/printables/mezze-board-plan/) for a full hummus-centered board with a shopping list.
+- **Serving it:** scoop it into a shallow bowl, swirl the top with the back of a spoon, then add olive oil, paprika or za'atar. Serve it with pita chips, cucumbers and carrots, and keep it near the feta and olives.
+- **Mezze board idea:** see the [Mezze Board Plan](/printables/mezze-board-plan/) for a full hummus-centered board with a shopping list.
+
 For what hummus pairs with and how to serve it, see the [hummus guide](/ingredients/hummus/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

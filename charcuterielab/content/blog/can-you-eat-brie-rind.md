@@ -12,7 +12,7 @@ tags: "["can you eat brie rind", "brie rind", "is brie rind edible", "brie", "ch
 
 # Can You Eat Brie Rind? Yes, and Here's When Not To
 
-> **Quick Answer:** Yes, you can eat the rind on brie. The white coat is an edible mold, *Penicillium camemberti* (also called *P. candidum*), added on purpose by the cheesemaker, and it's part of the flavor. Leave it off only if you don't like it, if the cheese smells strongly of ammonia, or if you see pink, black or green spots. Pregnant guests should eat brie only cooked until steaming hot.
+> **Quick Answer:** **Yes.** The white rind is an edible mold added on purpose, and it's part of the flavor. Skip it if the cheese smells strongly of ammonia or has pink, black or green spots. Pregnant guests should eat brie only cooked until steaming.
 
 ## What the rind on brie actually is
 

@@ -12,7 +12,7 @@ tags: "["how much charcuterie for thanksgiving", "thanksgiving charcuterie board
 
 # How Much Charcuterie for Thanksgiving? Amounts for 6 to 30 Guests
 
-> **Quick Answer:** A Thanksgiving charcuterie board comes before a big meal, so plan **2 oz of cured meat and 2 oz of cheese per guest**, plus **6 to 8 crackers per person**. That's **1 lb of each for 8 guests, 1½ lb of each for 12 and about 2¾ lb of meat and 3 lb of cheese for 20**. Put the board out about an hour before dinner and take it away when the turkey arrives, so nobody fills up before the main event.
+> **Quick Answer:** Before the big meal, plan **2 oz each of meat and cheese per guest**, plus 6–8 crackers. That's **1 lb of each for 8**, **1½ lb for 12**, about **3 lb for 20**. Clear it when the turkey comes out.
 
 ## Why Thanksgiving needs less than a normal party
 

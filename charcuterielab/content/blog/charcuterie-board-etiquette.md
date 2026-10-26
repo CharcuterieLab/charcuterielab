@@ -12,7 +12,7 @@ tags: "["charcuterie board etiquette", "how to eat charcuterie", "how to eat fro
 
 # Charcuterie Board Etiquette: How to Eat From a Board (and How to Host One)
 
-> **Quick Answer:** **Use the knives, picks and tongs** the host put out. **Take a few pieces onto a small plate** and step away so others can reach. **Don't double dip**, and never put anything back. **Cut cheese the way it's already been started**, along the long side of a wedge, and never just the tip. Eat rinds only on soft and natural-rind cheeses (not wax), and leave the garnish unless you know it's edible. Hosts: put out **small plates, napkins, a knife for each cheese, picks, spoons for every dip and a small bowl for pits and toothpicks**.
+> **Quick Answer:** **Use the knives and picks**, take a few pieces onto a plate, and step away. **Don't double dip.** Cut cheese the way it's already started, never just the tip. Hosts: put out **small plates, napkins, a knife per cheese and a bowl for pits**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The five rules that matter most</p>
@@ -25,7 +25,7 @@ tags: "["charcuterie board etiquette", "how to eat charcuterie", "how to eat fro
 <nav class="sk-jump" aria-label="On this page"><a href="#guests">Rules for guests</a><a href="#fingers">Fingers or tools?</a><a href="#cheese">Cutting cheese</a><a href="#dip">Double dipping</a><a href="#rinds">Rinds and garnish</a><a href="#hosts">Rules for hosts</a><a href="#faq">FAQ</a></nav>
 :::
 
-A shared board is one of the friendliest ways to feed people, and also one of the most awkward. There's no menu and no portions, and everyone is quietly wondering whether they're allowed to use their hands. These are the unwritten rules, so guests know what to do and hosts can make it easy for them.
+There's no menu and no portions, so here are the unwritten rules for guests and hosts.
 
 :::html
 <h2 id="guests">12 rules for guests</h2>

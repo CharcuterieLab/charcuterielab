@@ -11,9 +11,9 @@ slug: "charcuterie-board-captions"
 
 # 40 Charcuterie Board Captions for Instagram (Funny, Classy and Punny)
 
-> **Quick Answer:** The best charcuterie captions are short. Favorites: "Brie-lieve in yourself," "Grazing, not lazing," "Board meeting, now in session," "You had me at gouda" and "Life is what you make it, so make it a board." Below are 40, sorted into punny, classy, date night, party and holiday, plus hashtags.
+> **Quick Answer:** Short wins. Favorites: **"Brie-lieve in yourself," "Grazing, not lazing"** and **"You had me at gouda."** Below are 40 more, sorted by mood, plus hashtags.
 
-You made the board. You took the photo. Now you need a caption. Copy any of these, and tag us so we can see your board.
+Copy any of these, and tag us so we can see your board.
 
 ![Ten favorite charcuterie board captions](/images/charcuterie-board-captions-favorites.webp)
 

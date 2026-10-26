@@ -11,9 +11,9 @@ slug: "20-dollar-charcuterie-board-challenge"
 
 # The $20 Charcuterie Board Challenge: A Full Board for Four on a Budget
 
-> **Quick Answer:** A $20 board for four works as an appetizer: 8 oz of cheese (a block of sharp cheddar plus a small soft cheese), 8 oz of salami, one box of crackers, seasonal fruit, a jar of pickles or olives, and a handful of nuts. Buy blocks, not pre-cut, and shop the store brand. Prices vary, so treat our totals as an estimate.
+> **Quick Answer:** Yes, $20 feeds four as an appetizer. Buy **8 oz of cheese, 8 oz of salami, one box of crackers**, fruit, pickles and a few nuts. Buy blocks, not pre-cut, and choose store brands.
 
-Here is the challenge: build a full-looking board for four for about $20, take a photo and share it with **#CharcuterieLab20**. Below is how we did it, the rules that keep the cost down, and how to join in.
+The challenge: build a full-looking board for four for about $20 and share a photo with **#CharcuterieLab20**.
 
 ## The rules of the challenge
 

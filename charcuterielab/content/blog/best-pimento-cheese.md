@@ -19,7 +19,7 @@ tags: "["best pimento cheese", "best store bought pimento cheese", "pimento chee
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Pimento cheese is the spread that makes a board Southern: sharp cheddar, sweet peppers and just enough mayo, piled into a bowl next to crackers and celery. Three published taste tests agree on the winner more than most, which makes this one of the easier calls on our site.
+The spread that makes a board Southern. Three taste tests agree on the winner.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

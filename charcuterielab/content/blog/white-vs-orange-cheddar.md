@@ -12,7 +12,7 @@ faq: "[{"question":"Does orange cheddar taste different from white cheddar?","an
 
 # White vs. Orange Cheddar: What's the Difference?
 
-> **Quick Answer:** The only difference between white and orange cheddar is color. Orange cheddar has annatto added, a natural coloring made from the seeds of the achiote tree, used in amounts so small it doesn't change the flavor. Cheddar is naturally ivory to pale yellow. What actually makes one cheddar taste better than another is **age**, and to a lesser degree the milk and the maker. If you're choosing for a board, buy by age, not color.
+> **Quick Answer:** **Only the color.** Orange cheddar has annatto, a plant coloring that doesn't change the taste. What makes cheddar better is **age**. Buy by age, not color.
 
 ## White vs. orange cheddar at a glance
 

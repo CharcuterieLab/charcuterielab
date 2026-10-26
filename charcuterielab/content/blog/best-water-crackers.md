@@ -18,7 +18,7 @@ slug: "best-water-crackers"
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-A water cracker has one job: carry the cheese without getting in its way. That makes the differences between brands small but real: how thin the cracker is, how sturdy, and how plain.
+A water cracker carries the cheese without getting in the way. The differences: thinness, sturdiness and how plain it is.
 
 :::html
 <h2 id="picks">All 6, ranked</h2>

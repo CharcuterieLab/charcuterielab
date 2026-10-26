@@ -19,7 +19,7 @@ tags: "["best smoked salmon", "smoked salmon brands", "best store bought smoked 
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Cold-smoked salmon is the silky, thin-sliced kind that drapes over a cracker or a bagel, and it's the one you want for a board. Packages range from buttery and mild to strongly smoked and salty, and the cheapest ones aren't always the worst. These rankings lean on three published taste tests, plus price, slice size and how easy each one is to find.
+For a board you want cold-smoked salmon, the silky thin-sliced kind. The cheapest isn't always the worst.
 
 :::html
 <h2 id="picks">All 7, ranked</h2>
@@ -96,7 +96,9 @@ Cold-smoked salmon is the silky, thin-sliced kind that drapes over a cracker or 
 <ul class="sk-checks"><li><strong>Look for:</strong> Cold-smoked salmon (sometimes called nova or lox style), with a short list: salmon, salt, sometimes sugar, and smoke. Check the use-by date and buy the freshest pack. Hot-smoked salmon is flaky and cooked, so save it for a dip.</li><li class="sk-x"><strong>Skip:</strong> Packs labeled &quot;pieces&quot; or &quot;trimmings&quot; for the board itself. They&#x27;re fine for a dip or scrambled eggs but won&#x27;t drape. Also skip anything with liquid smoke on the label.</li></ul>
 :::
 
-**Serving it:** keep smoked salmon cold until the last minute and set it out for no more than 2 hours. Drape it in loose ribbons or roll it into rosettes, then put capers, red onion, lemon and dill nearby. Plan on about 1 to 2 ounces per person when it's one of several proteins. **Pregnant guests:** the CDC advises against refrigerated smoked seafood like lox during pregnancy unless it's cooked into a dish, because of the listeria risk. Offer cooked or canned salmon instead.
+- **Serving it:** keep smoked salmon cold until the last minute and set it out for no more than 2 hours. Drape it in loose ribbons or roll it into rosettes, then put capers, red onion, lemon and dill nearby. Plan on about 1 to 2 ounces per person when it's one of several proteins.
+- **Pregnant guests:** the CDC advises against refrigerated smoked seafood like lox during pregnancy unless it's cooked into a dish, because of the listeria risk. Offer cooked or canned salmon instead.
+
 For what smoked salmon pairs with and how to serve it, see the [smoked salmon guide](/ingredients/smoked-salmon/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

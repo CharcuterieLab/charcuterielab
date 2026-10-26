@@ -12,7 +12,7 @@ tags: "["bresaola vs prosciutto", "bresaola", "prosciutto", "beef charcuterie", 
 
 # Bresaola vs. Prosciutto: Beef vs. Pork, and Which to Buy
 
-> **Quick Answer:** **Bresaola** is air-dried, salted **beef** (usually top round) from Italy's Valtellina valley, aged two to three months until it turns deep red. **Prosciutto** is dry-cured **pork** leg; Prosciutto di Parma is aged at least 14 months. Bresaola is lean, firm and clean-tasting; prosciutto is silky and sweet, with a ribbon of fat that melts on the tongue. Use bresaola as the lean, pork-free option on a board, and prosciutto when you want richness or something to wrap around melon.
+> **Quick Answer:** **Bresaola is cured beef**: lean, firm and clean-tasting. **Prosciutto is cured pork**: silky and sweet, with fat that melts. Use bresaola as the lean, pork-free option, and prosciutto for richness or wrapping melon.
 
 ## Bresaola vs. prosciutto at a glance
 

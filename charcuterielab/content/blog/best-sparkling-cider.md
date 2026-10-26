@@ -19,7 +19,7 @@ tags: "["best sparkling cider", "sparkling apple cider", "martinelli's sparkling
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Sparkling cider is the toast for everyone who isn't drinking: kids, drivers and anyone skipping alcohol. It works on a board the same way prosecco does, cutting through salty meat and rich cheese, with apple sweetness that suits sharp cheddar and brie. These rankings combine Sporked's sparkling cider taste test, Rhett & Link's Martinelli's tasting and the sparkling picks in Mashed's and Daily Meal's apple cider rankings.
+The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese just like prosecco.
 
 :::html
 <h2 id="picks">All 8, ranked</h2>
@@ -105,7 +105,10 @@ Sparkling cider is the toast for everyone who isn't drinking: kids, drivers and 
 <ul class="sk-checks"><li><strong>Look for:</strong> &quot;Sparkling cider&quot; in a grocery store is non-alcoholic, carbonated apple juice. Hard cider is a different, alcoholic drink, usually sold with beer. Look for 100% juice on the label.</li><li class="sk-x"><strong>Skip:</strong> Ciders that go flat. <a href="https://www.thedailymeal.com/1692709/store-bought-apple-ciders-ranked-worst-best/" target="_blank" rel="noopener">Daily Meal</a> found Aldi&#x27;s Nature&#x27;s Nectar sparkling cider lacked bubbles and apple flavor, and its Louisburg sparkling cider had lost its fizz. Chill bottles well, and open them just before toasting.</li></ul>
 :::
 
-**How much to buy:** a 25.4 oz bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people. **What it pairs with:** sharp cheddar, brie, Gouda, prosciutto, apples, pears and salted nuts. The drier Welch's suits salty meat best. See our [zero-proof pairings](/pairings/zero-proof/) for more drinks.
+- **How much to buy:** a 25.4 oz bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people.
+- **What it pairs with:** sharp cheddar, brie, Gouda, prosciutto, apples, pears and salted nuts. The drier Welch's suits salty meat best.
+
+See our [zero-proof pairings](/pairings/zero-proof/) for more drinks.
 For what sparkling cider pairs with and how to serve it, see the [zero-proof pairing guide](/pairings/zero-proof/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html

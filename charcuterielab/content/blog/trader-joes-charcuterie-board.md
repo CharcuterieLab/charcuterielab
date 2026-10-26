@@ -13,14 +13,14 @@ tags: "["trader joe's charcuterie board", "trader joes charcuterie", "trader joe
 
 # Trader Joe's Charcuterie Board: Shopping List for 10 + Prices
 
-> **Quick Answer:** For 10 guests, buy **30 oz of cheese and 30 oz of meat** at Trader Joe's: Unexpected Cheddar, Manchego, Double Cream Brie and Toscano in Syrah, plus salame, Calabrese and prosciutto. Add crackers, fruit and extras. It comes to about **$90 to $110, or $9 to $11 a guest**.
+> **Quick Answer:** For 10 guests, buy **30 oz each of cheese and meat**: Unexpected Cheddar, Manchego, brie and Toscano, plus salame and prosciutto. Add crackers and fruit. About **$90 to $110**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For 10 guests</p><span class="sk-top-name">30 oz cheese + 30 oz meat</span><p class="sk-top-line">Just under 2 lb of each when the board is the party food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how-much">Amounts</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cost</p><span class="sk-top-name">About $90 to $110</span><p class="sk-top-line">$9 to $11 a guest at 2026 prices. A $25 board feeds 4 to 6.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cost">Breakdown</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Must-buy</p><span class="sk-top-name">Unexpected Cheddar</span><p class="sk-top-line">The cheese everyone asks about, plus Manchego, brie and Toscano in Syrah.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#cheese">The cheeses</a></span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#how-much">How much</a><a href="#cheese">Cheese</a><a href="#meat">Meat</a><a href="#extras">Crackers &amp; extras</a><a href="#cost">Cost</a><a href="#smaller">$25 &amp; $45 boards</a><a href="#seasonal">Seasonal</a><a href="#build">Build it</a></nav>
 :::
 
-Trader Joe's is built for this: a small, well-chosen cheese case, cheap crackers and $2 extras that make a board look finished. **The trick is the amounts.** It's easy to come home with seven cheeses and no meat.
+The trick is the amounts. It's easy to come home with seven cheeses and no meat.
 
 :::html
 <h2 id="how-much">How much to buy for 10</h2>

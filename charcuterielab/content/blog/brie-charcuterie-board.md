@@ -11,7 +11,7 @@ tags: "["brie", "ingredient deep dive", "charcuterie board"]"
 
 # Brie on a Charcuterie Board
 
-> **Quick Answer:** Brie belongs on almost any charcuterie board. It's mild, creamy and crowd-pleasing, and its white rind adds an earthy, mushroomy note. Take it out of the fridge 45 to 60 minutes before serving, leave the rind on, cut the first wedge yourself, and pair it with honey, sliced pear, prosciutto and sparkling wine. Plan about 1 oz per guest.
+> **Quick Answer:** Brie fits almost any board. Take it out **45 to 60 minutes early**, leave the rind on, and cut the first wedge yourself. Pair it with honey, pear, prosciutto and sparkling wine. Plan about 1 oz per guest.
 
 ## What Is Brie?
 

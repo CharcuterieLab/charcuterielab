@@ -13,14 +13,12 @@ tags: "["best jamon serrano", "best serrano ham", "best iberico ham", "jamon ibe
 
 # The Best Jamón Serrano and Spanish Ham to Buy in the US
 
-> **Quick Answer:** For a board, buy a longer-cured serrano like **Redondo Iglesias 16-month** (about $11 for 3 oz) or the easy-to-find **Fermín Serrano**. To taste Ibérico, start with **Fermín Ibérico de Cebo** (about $27 for 2 oz); for the top grade, **Fermín Ibérico de Bellota** (about $32). Feeding 20? **Costco's Noel bone-in leg** is about $100.
+> **Quick Answer:** Buy **Redondo Iglesias 16-month serrano** (about $11) or **Fermín Serrano**. To try Ibérico: **Fermín Ibérico de Cebo** (about $27). Top grade: **Fermín Bellota** (about $32). For 20 people: **Costco's bone-in leg** (about $100).
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Redondo Iglesias Jamón Serrano, 16+ months</a><p class="sk-top-line">Longer-aged serrano from a tasting winner</p></div><div class="sk-top-buy"><span class="sk-price">About $11 for 3 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Redondo+Iglesias+jamon+serrano+sliced" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-3">Fermín Jamón Serrano, sliced</a><p class="sk-top-line">Serrano from La Alberca, sold widely</p></div><div class="sk-top-buy"><span class="sk-price">About $16 for 4 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Fermin+jamon+serrano+sliced" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best whole leg</p><a class="sk-top-name" href="#pick-6">Noel Consorcio Serrano Reserva Bone-In Leg</a><p class="sk-top-line">A 14 lb leg with stand and knife</p></div><div class="sk-top-buy"><span class="sk-price">About $100 at Costco</span><a class="button sk-buy-sm" href="https://www.costco.com/.product.100592455.html" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">How to read the label</a><a href="#spanish-ham-questions">FAQ</a></nav>
 :::
-
-Spanish ham has been sold in the US since 1998 for serrano and 2007 for Ibérico. These are the packs and legs worth buying for a board, from an easy weeknight serrano to acorn-fed bellota.
 
 :::html
 <h2 id="picks">All 7 picks</h2>

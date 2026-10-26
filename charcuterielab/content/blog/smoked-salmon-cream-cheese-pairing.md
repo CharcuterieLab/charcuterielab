@@ -13,7 +13,7 @@ updated: "2026-10-20"
 
 # Smoked Salmon and Cream Cheese: Why This Pairing Works
 
-> **Quick Answer:** Cream cheese doesn't hide smoked salmon's smoke, it rounds it out. The smoke compounds dissolve in fat, so the cream cheese holds them and lets them come through slowly, while its cool, mild tang tempers the salt of the cure. Add capers, lemon and thin red onion, use cold-smoked salmon, and keep it out no more than 2 hours.
+> **Quick Answer:** Cream cheese **rounds out the smoke** instead of hiding it, and its cool tang softens the salt. Add capers, lemon and red onion. Keep it out no more than 2 hours.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The pairing in four lines</p>

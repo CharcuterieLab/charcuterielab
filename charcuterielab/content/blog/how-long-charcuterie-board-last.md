@@ -11,10 +11,7 @@ tags: "["charcuterie", "food safety", "how long does charcuterie board last", "c
 
 # How Long Does a Charcuterie Board Last? (By Ingredient)
 
-A charcuterie board is safe at room temperature for **2 hours** — that's the USDA's general guideline for perishable foods in the "danger zone" between 40°F and 140°F. In practice, different elements of the board have different safe windows depending on their water content, salt content, and fat levels. Hard, aged cheeses are more forgiving. Soft cheeses and fresh items need to come off the board or get refrigerated sooner. Here's how it breaks down by ingredient.
-
-
-> **Quick Answer:** A charcuterie board can safely sit at room temperature for up to 2 hours, or 1 hour above 90°F (USDA guidance for perishable food). Aged hard cheeses and dry salami keep their quality longer than soft cheese and fresh fruit, but treat the board as a whole by the 2-hour rule: refrigerate what's left and bring out a fresh refill.
+> **Quick Answer:** **2 hours at room temperature**, or **1 hour above 90°F** (USDA). Then refrigerate what's left and bring out a fresh refill.
 
 ---
 

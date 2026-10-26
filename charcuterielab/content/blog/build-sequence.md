@@ -14,7 +14,7 @@ tags: "["build sequence", "charcuterie how to", "charcuterie board tips", "charc
 
 # The Right Order to Build a Charcuterie Board (And Why It Matters)
 
-> **Quick Answer:** Build in this order: 1) condiment bowls, 2) cheeses spread apart, 3) cured meats folded between them, 4) fruit in the gaps, 5) nuts and small fillers, 6) crackers within 30 minutes of serving so they stay crisp, and 7) garnish and a final temperature check.
+> **Quick Answer:** Build in this order: **bowls, cheese, meat, fruit, nuts, then crackers** (within 30 minutes of serving, so they stay crisp). Finish with herbs.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The build order</p>

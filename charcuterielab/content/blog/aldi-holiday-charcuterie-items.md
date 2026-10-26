@@ -13,14 +13,14 @@ tags: "["aldi holiday items 2026", "aldi charcuterie", "aldi cheese advent calen
 
 # Aldi Holiday Charcuterie Items 2026: What to Look For
 
-> **Quick Answer:** Aldi hasn't announced its 2026 holiday lineup yet. Last year's best board buys were the **Winter Wonderland Cheese Advent Calendar** ($16.99), **Cranberry White Cheddar** ($3–4), the **holiday-shaped cheddars** ($4.49) and the **Cheese Pairing Spread Set** ($8.25). Year-round, the **Emporium Selection Brie** and the **Specially Selected Panino Tray** ($10.99) are always worth grabbing.
+> **Quick Answer:** Aldi's 2026 holiday items aren't announced yet. Last year's best buys: the **Cheese Advent Calendar** ($16.99), **Cranberry White Cheddar** ($3–4) and **holiday-shaped cheddars** ($4.49). Year-round: **Emporium Selection Brie**.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emporium Selection Winter Wonderland Cheese Advent Calendar</a><p class="sk-top-line">24 European cheeses, one a day</p></div><div class="sk-top-buy"><span class="sk-price">$16.99 (2025)</span><a class="button sk-buy-sm" href="https://www.aldi.us/weekly-specials/weekly-ads" target="_blank" rel="noopener">See Aldi&#x27;s weekly ad</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-2">Emporium Selection Cranberry White Cheddar</a><p class="sk-top-line">Wisconsin cheddar with cranberries</p></div><div class="sk-top-buy"><span class="sk-price">$3–4</span><a class="button sk-buy-sm" href="https://www.aldi.us/weekly-specials/weekly-ads" target="_blank" rel="noopener">See Aldi&#x27;s weekly ad</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-6">Specially Selected Panino Tray</a><p class="sk-top-line">Mozzarella wrapped in salami, prosciutto and pepperoni</p></div><div class="sk-top-buy"><span class="sk-price">$10.99</span><a class="button sk-buy-sm" href="https://www.aldi.us/product/specially-selected-panino-tray-18-oz-0000000000002058" target="_blank" rel="noopener">See it at Aldi</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10 picks</a><a href="#how-to-choose">How to shop</a><a href="#aldi-holiday-questions">FAQ</a></nav>
 :::
 
-Aldi's holiday cheeses and party foods arrive as Aldi Finds, a few at a time, from early November. None of the 2026 holiday items have been announced yet, so this is what Aldi sold last season, with prices, and what's on shelves now. We'll update it as the weekly ads come out.
+Aldi's holiday finds arrive a few at a time from early November. We'll update this page as the weekly ads come out.
 
 :::html
 <h2 id="picks">All 10 picks</h2>

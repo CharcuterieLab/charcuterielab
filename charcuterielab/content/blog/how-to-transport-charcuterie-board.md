@@ -12,7 +12,7 @@ tags: "["how to transport a charcuterie board", "bring charcuterie board to part
 
 # How to Transport a Charcuterie Board (Without It Sliding Apart)
 
-> **Quick Answer:** The easiest way is not to transport a finished board at all. **Pack each part in its own container, carry it in a cooler, and build the board when you arrive.** It takes about 15 minutes. If you have to travel with it built, use a board with a rim or a lidded tray, pack it tightly so nothing can move, **press plastic wrap down onto the food**, and set it **flat on the floor of the air-conditioned car**. Keep it at **40°F or below** on the way. The 2-hour clock starts when you set it out.
+> **Quick Answer:** Best way: **don't**. Pack each part separately in a cooler and **build it when you arrive** (15 minutes). If it must travel built, use a lidded tray, **press plastic wrap onto the food**, and keep it flat and cold.
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Three ways to bring it</p>
@@ -23,7 +23,7 @@ tags: "["how to transport a charcuterie board", "bring charcuterie board to part
 <nav class="sk-jump" aria-label="On this page"><a href="#pack">Pack and build</a><a href="#built">Travel built</a><a href="#cold">Keeping it cold</a><a href="#car">In the car</a><a href="#arrive">When you arrive</a><a href="#checklist">Checklist</a><a href="#faq">FAQ</a></nav>
 :::
 
-Holiday season is when most boards go on the road: to Thanksgiving at a relative's house, a Friendsgiving, an office party or a cookie swap. The usual problem isn't the drive. It's a board built at home, covered loosely and slid onto the back seat. By the time it arrives the grapes have rolled into the honey, the crackers are soft and the salami has slid into one corner.
+Built at home and slid onto the back seat, a board arrives with grapes in the honey and soft crackers.
 
 :::html
 <h2 id="pack">Option 1: Pack it and build when you arrive (best)</h2>
