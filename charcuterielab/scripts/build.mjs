@@ -507,7 +507,9 @@ function markdownToHtml(markdown) {
 
   const inline = (value = "") =>
     escapeHtml(value)
-      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)/g, (_, text, href) => {
+      .replace(/\[(.+?)\]\((https?:\/\/[^\s)]+|\/[^\s)]*|#[\w-]+)\)/g, (_, text, href) => {
+        // Same-page jump links, e.g. [Tillamook](#tillamook) in a Quick Answer.
+        if (href.startsWith("#")) return `<a href="${href}">${text}</a>`;
         const local = resolveSiteLink(href);
         if (local === null) return text; // a post that isn't live yet: plain text until it is
         if (local) return `<a href="${local}">${text}</a>`;
