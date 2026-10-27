@@ -43,18 +43,18 @@ export const TWO_BOOK = {
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/xdwhtq",
   ebookPrice: "$9.99",
   cover: "/images/books/boards-for-two-cover.jpg",
-  paperbackUrl: "",
+  paperbackUrl: "https://www.amazon.com/dp/B0HMX22BRF",
   paperbackPrice: "$19.99"
 };
 
-// Book 5. Gumroad ebook live 5 Oct 2026; add paperbackUrl when the KDP paperback is live.
-// Book 6 (10 Oct 2026): ebook on Gumroad; paperback goes on Amazon after the proof.
+// Paperbacks for Boards for Two, the Ingredient Guide and Keto added 27 Oct 2026.
+// Book 6 (10 Oct 2026): ebook on Gumroad; paperback on Amazon since Oct 2026.
 export const GUIDE_BOOK = {
   title: "Charcuterie Lab: The Ingredient Guide",
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/ingredient-guide",
   ebookPrice: "$12.99",
   cover: "/images/books/ingredient-guide-cover.jpg",
-  paperbackUrl: "",
+  paperbackUrl: "https://www.amazon.com/dp/B0HMPQKF7G",
   paperbackPrice: "$25.99"
 };
 
@@ -63,7 +63,7 @@ export const KETO_BOOK = {
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/gvjsf",
   ebookPrice: "$9.99",
   cover: "/images/books/keto-cover.jpg",
-  paperbackUrl: "",
+  paperbackUrl: "https://www.amazon.com/dp/B0HM38L8VH",
   paperbackPrice: "$16.99"
 };
 

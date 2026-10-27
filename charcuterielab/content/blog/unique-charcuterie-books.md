@@ -5,7 +5,7 @@ date: "2026-10-27"
 image: "/images/unique-charcuterie-books.jpg"
 excerpt: "Most charcuterie books are pretty pictures with no shopping list. These seven each do something the others don't: shaped showpiece boards, 16 countries, boards for exactly two, full keto macros, vegan boards and a 325-ingredient pairing guide."
 description: "Unique charcuterie books: shaped showpiece boards, international boards, boards for two, keto boards with macros, vegan boards and a 325-ingredient pairing guide. Covers, what's inside, prices, PDF and paperback, plus a free sample board."
-faq: "[{"question": "What makes a charcuterie book unique?", "answer": "Most charcuterie board books are photo books: they show a finished board but don't tell you what to buy or how much. A useful one gives every board a shopping list with amounts, the order to build it and swaps. Ours also each do one thing other board books don't, like shaped showpiece boards, full keto macros or boards sized for exactly two."}, {"question": "Is there a charcuterie book with shaped or themed boards?", "answer": "Yes. Impossible Boards has 25 boards built into shapes, like a salami dragon, a giant octopus and a fondue volcano, each with the one trick that makes the shape work and a shopping list for 12 to 15 guests."}, {"question": "Is there a keto or vegan charcuterie book?", "answer": "Yes. Keto & Low-Carb Boards has 20 boards at 4 to 9 g net carbs per serving with full macros. 15 Show-Stopping Plant-Based Boards has 15 boards with no meat and no dairy."}, {"question": "Which charcuterie book is best for beginners?", "answer": "50 Boards, Built by Science. It starts with a classic starter board and a $25 budget board, and every board lists exactly what to buy, how much and the order to build it in. You can read Board 01 free before you buy."}, {"question": "Are the books available as paperbacks?", "answer": "50 Boards, Built by Science ($25.99), Impossible Boards ($24.99), Around the World in 16 Boards ($16.99) and the Plant-Based book ($18.99) are paperbacks on Amazon. Boards for Two, Keto & Low-Carb Boards and The Ingredient Guide are PDF ebooks only for now."}]"
+faq: "[{"question": "What makes a charcuterie book unique?", "answer": "Most charcuterie board books are photo books: they show a finished board but don't tell you what to buy or how much. A useful one gives every board a shopping list with amounts, the order to build it and swaps. Ours also each do one thing other board books don't, like shaped showpiece boards, full keto macros or boards sized for exactly two."}, {"question": "Is there a charcuterie book with shaped or themed boards?", "answer": "Yes. Impossible Boards has 25 boards built into shapes, like a salami dragon, a giant octopus and a fondue volcano, each with the one trick that makes the shape work and a shopping list for 12 to 15 guests."}, {"question": "Is there a keto or vegan charcuterie book?", "answer": "Yes. Keto & Low-Carb Boards has 20 boards at 4 to 9 g net carbs per serving with full macros. 15 Show-Stopping Plant-Based Boards has 15 boards with no meat and no dairy."}, {"question": "Which charcuterie book is best for beginners?", "answer": "50 Boards, Built by Science. It starts with a classic starter board and a $25 budget board, and every board lists exactly what to buy, how much and the order to build it in. You can read Board 01 free before you buy."}, {"question": "Are the books available as paperbacks?", "answer": "Yes, all seven are full-color paperbacks on Amazon: 50 Boards, Built by Science ($25.99), The Ingredient Guide ($25.99), Impossible Boards ($24.99), Boards for Two ($19.99), the Plant-Based book ($18.99), Around the World in 16 Boards ($16.99) and Keto & Low-Carb Boards ($16.99). Each is also a PDF ebook on Gumroad."}]"
 slug: "unique-charcuterie-books"
 tags: "["unique charcuterie books", "charcuterie board books", "charcuterie book", "themed charcuterie board book", "keto charcuterie book", "vegan charcuterie book", "charcuterie boards for two book", "international charcuterie board book"]"
 ---
@@ -30,10 +30,10 @@ tags: "["unique charcuterie books", "charcuterie board books", "charcuterie book
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Shaped boards</p><a class="sk-top-name" href="#book-impossible">Impossible Boards</a><p class="sk-top-line">A salami dragon, a giant octopus, a fondue volcano.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HNJJGJTN" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Built on science</p><a class="sk-top-name" href="#book-50-boards">50 Boards, Built by Science</a><p class="sk-top-line">The pairing rule behind every board, plus a swap for every item.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0H2Y39R41" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">16 countries</p><a class="sk-top-name" href="#book-world">Around the World in 16 Boards</a><p class="sk-top-line">Bavaria to Korea to Peru, each from its own pantry.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HLKC56MG" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Exactly two</p><a class="sk-top-name" href="#book-two">Boards for Two</a><p class="sk-top-line">No leftovers, and a drink for every board.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/xdwhtq?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_two" target="_blank" rel="noopener">Get the PDF</a></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Full macros</p><a class="sk-top-name" href="#book-keto">Keto &amp; Low-Carb Boards</a><p class="sk-top-line">4–9 g net carbs per serving, from USDA data.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/gvjsf?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_keto" target="_blank" rel="noopener">Get the PDF</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Exactly two</p><a class="sk-top-name" href="#book-two">Boards for Two</a><p class="sk-top-line">No leftovers, and a drink for every board.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HMX22BRF" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Full macros</p><a class="sk-top-name" href="#book-keto">Keto &amp; Low-Carb Boards</a><p class="sk-top-line">4–9 g net carbs per serving, from USDA data.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HM38L8VH" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">No meat, no dairy</p><a class="sk-top-name" href="#book-plant">15 Plant-Based Boards</a><p class="sk-top-line">Vegan boards that don't feel like a compromise.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0H33YLLR3" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">325 ingredients</p><a class="sk-top-name" href="#book-guide">The Ingredient Guide</a><p class="sk-top-line">What each one pairs with, and why.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/ingredient-guide?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_guide" target="_blank" rel="noopener">Get the PDF</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">325 ingredients</p><a class="sk-top-name" href="#book-guide">The Ingredient Guide</a><p class="sk-top-line">What each one pairs with, and why.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HMPQKF7G" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
 </div>
 <nav class="sk-jump" aria-label="On this page"><a href="#different">Why they're different</a><a href="#books">The 7 books</a><a href="#compare">Compare them</a><a href="#inside">Look inside</a><a href="#pdf-or-paperback">PDF or paperback?</a><a href="#free">Free sample</a><a href="#faq">FAQ</a></nav>
 :::
@@ -120,13 +120,13 @@ Walk the cookbook aisle and most charcuterie books look the same: a beautiful bo
 <h3>Boards for Two</h3>
 <p class="bkx-line">Twenty-five boards sized for exactly two people, with no leftovers: first dates, anniversaries, Valentine's Day, movie nights and New Year's Eve.</p>
 <p class="bkx-twist"><b>What's unique:</b> Sized for exactly two people, with no leftovers, and every board comes with something to pour.</p>
-<ul class="bkx-specs"><li><b>25</b> boards</li><li><b>136</b> pages</li><li><b>2</b> people each</li><li><b>PDF</b></li></ul>
+<ul class="bkx-specs"><li><b>25</b> boards</li><li><b>136</b> pages</li><li><b>2</b> people each</li><li><b>PDF</b> + paperback</li></ul>
 <ul class="bkx-inside">
 <li>An exact shopping list for two, with estimated prices</li>
 <li>A prep countdown and 7 placement steps</li>
 <li>A drink to pour with every board, plus an alcohol-free option</li>
 </ul>
-<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/xdwhtq?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_two" target="_blank" rel="noopener">PDF ebook · $9.99</a></div>
+<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/xdwhtq?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_two" target="_blank" rel="noopener">PDF ebook · $9.99</a><a class="button" href="https://www.amazon.com/dp/B0HMX22BRF" target="_blank" rel="noopener">Paperback · $19.99</a></div>
 <a class="bkx-more" href="/books/boards-for-two/">See the 25 boards &rarr;</a>
 </div>
 </article>
@@ -138,13 +138,13 @@ Walk the cookbook aisle and most charcuterie books look the same: a beautiful bo
 <h3>Keto &amp; Low-Carb Boards</h3>
 <p class="bkx-line">Twenty keto boards, from a $30 budget board to a Christmas board for 12, with low-carb dippers standing in for crackers.</p>
 <p class="bkx-twist"><b>What's unique:</b> Full macros on every board, worked out from USDA data, with low-carb dippers standing in for crackers.</p>
-<ul class="bkx-specs"><li><b>20</b> boards</li><li><b>112</b> pages</li><li><b>4–9 g</b> net carbs</li><li><b>PDF</b></li></ul>
+<ul class="bkx-specs"><li><b>20</b> boards</li><li><b>112</b> pages</li><li><b>4–9 g</b> net carbs</li><li><b>PDF</b> + paperback</li></ul>
 <ul class="bkx-inside">
 <li>Calories, fat, protein, carbs, fiber and net carbs per serving, from USDA data</li>
 <li>A shopping list that shows where the carbs are</li>
 <li>The carb traps on an ordinary board, and the keto swap for each</li>
 </ul>
-<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/gvjsf?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_keto" target="_blank" rel="noopener">PDF ebook · $9.99</a></div>
+<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/gvjsf?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_keto" target="_blank" rel="noopener">PDF ebook · $9.99</a><a class="button" href="https://www.amazon.com/dp/B0HM38L8VH" target="_blank" rel="noopener">Paperback · $16.99</a></div>
 <a class="bkx-more" href="/books/keto-charcuterie-boards/">See the 20 boards &rarr;</a>
 </div>
 </article>
@@ -174,13 +174,13 @@ Walk the cookbook aisle and most charcuterie books look the same: a beautiful bo
 <h3>The Ingredient Guide</h3>
 <p class="bkx-line">Not a board book but the reference behind them: 325 cheeses, cured meats, crackers, fruits, spreads and extras, and what each one pairs with.</p>
 <p class="bkx-twist"><b>What's unique:</b> Not a board book: the reference behind the boards, with what every ingredient pairs with and why.</p>
-<ul class="bkx-specs"><li><b>325</b> ingredients</li><li><b>224</b> pages</li><li><b>8</b> shopping lists</li><li><b>PDF</b></li></ul>
+<ul class="bkx-specs"><li><b>325</b> ingredients</li><li><b>224</b> pages</li><li><b>8</b> shopping lists</li><li><b>PDF</b> + paperback</li></ul>
 <ul class="bkx-inside">
 <li>What each ingredient tastes like, what pairs with it and why</li>
 <li>How much to buy per person</li>
 <li>Best-partner tables and allergen lists</li>
 </ul>
-<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/ingredient-guide?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_guide" target="_blank" rel="noopener">PDF ebook · $12.99</a></div>
+<div class="bkx-buy"><a class="button primary" href="https://charcuterieflavor.gumroad.com/l/ingredient-guide?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_guide" target="_blank" rel="noopener">PDF ebook · $12.99</a><a class="button" href="https://www.amazon.com/dp/B0HMPQKF7G" target="_blank" rel="noopener">Paperback · $25.99</a></div>
 <a class="bkx-more" href="/ingredients/">Browse the ingredients free &rarr;</a>
 </div>
 </article>
@@ -195,10 +195,10 @@ Walk the cookbook aisle and most charcuterie books look the same: a beautiful bo
 | [50 Boards, Built by Science](#book-50-boards) | The pairing science + a swap for everything | 50 | 250+ | $14 | $25.99 |
 | [Impossible Boards](#book-impossible) | Shaped showpiece boards for 12–15 | 25 | 169 | $12.99 | $24.99 |
 | [Around the World in 16 Boards](#book-world) | One board per country, from its own pantry | 16 | 88 | $9.99 | $16.99 |
-| [Boards for Two](#book-two) | Sized for exactly two, with a drink | 25 | 136 | $9.99 | PDF only |
-| [Keto & Low-Carb Boards](#book-keto) | Full macros, 4–9 g net carbs | 20 | 112 | $9.99 | PDF only |
+| [Boards for Two](#book-two) | Sized for exactly two, with a drink | 25 | 136 | $9.99 | $19.99 |
+| [Keto & Low-Carb Boards](#book-keto) | Full macros, 4–9 g net carbs | 20 | 112 | $9.99 | $16.99 |
 | [15 Plant-Based Boards](#book-plant) | No meat, no dairy | 15 | 77 | $9.99 | $18.99 |
-| [The Ingredient Guide](#book-guide) | 325 ingredients and what pairs with each | 325 entries | 224 | $12.99 | PDF only |
+| [The Ingredient Guide](#book-guide) | 325 ingredients and what pairs with each | 325 entries | 224 | $12.99 | $25.99 |
 
 :::html
 <h2 id="inside">Look inside</h2>
@@ -258,4 +258,4 @@ Yes. Keto & Low-Carb Boards has 20 boards at 4 to 9 g net carbs per serving with
 
 **Are the books available as paperbacks?**
 
-50 Boards, Built by Science ($25.99), Impossible Boards ($24.99), Around the World in 16 Boards ($16.99) and the Plant-Based book ($18.99) are paperbacks on Amazon. Boards for Two, Keto & Low-Carb Boards and The Ingredient Guide are PDF ebooks only for now.
+Yes, all seven are full-color paperbacks on Amazon: 50 Boards, Built by Science ($25.99), The Ingredient Guide ($25.99), Impossible Boards ($24.99), Boards for Two ($19.99), the Plant-Based book ($18.99), Around the World in 16 Boards ($16.99) and Keto & Low-Carb Boards ($16.99). Each is also a PDF ebook on Gumroad.
