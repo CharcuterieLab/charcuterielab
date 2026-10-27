@@ -12,17 +12,28 @@ tags: "["unique charcuterie books", "charcuterie board books", "charcuterie book
 
 # Unique Charcuterie Books: 7 That Do Something Other Board Books Don't
 
-> **Quick Answer:** Most charcuterie books show a gorgeous board and leave you guessing what to buy. These seven each do **one thing other board books don't**: **shaped showpiece boards**, **16 countries**, **boards for exactly two**, **full keto macros**, **no meat or dairy**, or **325 ingredients and what pairs with each**. And every board comes with a **shopping list with amounts**. [Read one board free](/ebook/#sample).
+:::html
+<blockquote><p><strong>Quick Answer:</strong> Most charcuterie books show a gorgeous board and leave you guessing what to buy. Each of these seven does one thing other board books don't:</p>
+<ul class="qa-list">
+<li><strong>Shaped showpiece boards</strong> (Impossible Boards)</li>
+<li><strong>16 countries</strong>, one board each (Around the World)</li>
+<li><strong>Boards for exactly two</strong>, with a drink to pour (Boards for Two)</li>
+<li><strong>Full keto macros</strong> on every board (Keto &amp; Low-Carb)</li>
+<li><strong>No meat or dairy</strong> (15 Plant-Based Boards)</li>
+<li><strong>325 ingredients</strong> and what pairs with each (The Ingredient Guide)</li>
+<li>And every board comes with a <strong>shopping list with amounts</strong>. <a href="/ebook/#sample">Read one board free</a>.</li>
+</ul></blockquote>
+:::
 
 :::html
 <div class="sk-top"><p class="sk-top-label">What makes each one different</p>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Shaped boards</p><a class="sk-top-name" href="#book-impossible">Impossible Boards</a><p class="sk-top-line">A salami dragon, a giant octopus, a fondue volcano.</p></div><div class="sk-top-buy"><span class="sk-price">from $12.99</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Built on science</p><a class="sk-top-name" href="#book-50-boards">50 Boards, Built by Science</a><p class="sk-top-line">The pairing rule behind every board, plus a swap for every item.</p></div><div class="sk-top-buy"><span class="sk-price">from $14</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">16 countries</p><a class="sk-top-name" href="#book-world">Around the World in 16 Boards</a><p class="sk-top-line">Bavaria to Korea to Peru, each from its own pantry.</p></div><div class="sk-top-buy"><span class="sk-price">from $9.99</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Exactly two</p><a class="sk-top-name" href="#book-two">Boards for Two</a><p class="sk-top-line">No leftovers, and a drink for every board.</p></div><div class="sk-top-buy"><span class="sk-price">$9.99</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Full macros</p><a class="sk-top-name" href="#book-keto">Keto &amp; Low-Carb Boards</a><p class="sk-top-line">4–9 g net carbs per serving, from USDA data.</p></div><div class="sk-top-buy"><span class="sk-price">$9.99</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">No meat, no dairy</p><a class="sk-top-name" href="#book-plant">15 Plant-Based Boards</a><p class="sk-top-line">Vegan boards that don't feel like a compromise.</p></div><div class="sk-top-buy"><span class="sk-price">from $9.99</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">325 ingredients</p><a class="sk-top-name" href="#book-guide">The Ingredient Guide</a><p class="sk-top-line">What each one pairs with, and why.</p></div><div class="sk-top-buy"><span class="sk-price">$12.99</span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Shaped boards</p><a class="sk-top-name" href="#book-impossible">Impossible Boards</a><p class="sk-top-line">A salami dragon, a giant octopus, a fondue volcano.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HNJJGJTN" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Built on science</p><a class="sk-top-name" href="#book-50-boards">50 Boards, Built by Science</a><p class="sk-top-line">The pairing rule behind every board, plus a swap for every item.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0H2Y39R41" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">16 countries</p><a class="sk-top-name" href="#book-world">Around the World in 16 Boards</a><p class="sk-top-line">Bavaria to Korea to Peru, each from its own pantry.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HLKC56MG" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Exactly two</p><a class="sk-top-name" href="#book-two">Boards for Two</a><p class="sk-top-line">No leftovers, and a drink for every board.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/xdwhtq?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_two" target="_blank" rel="noopener">Get the PDF</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Full macros</p><a class="sk-top-name" href="#book-keto">Keto &amp; Low-Carb Boards</a><p class="sk-top-line">4–9 g net carbs per serving, from USDA data.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/gvjsf?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_keto" target="_blank" rel="noopener">Get the PDF</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">No meat, no dairy</p><a class="sk-top-name" href="#book-plant">15 Plant-Based Boards</a><p class="sk-top-line">Vegan boards that don't feel like a compromise.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0H33YLLR3" target="_blank" rel="noopener">Buy on Amazon</a></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">325 ingredients</p><a class="sk-top-name" href="#book-guide">The Ingredient Guide</a><p class="sk-top-line">What each one pairs with, and why.</p></div><div class="sk-top-buy"><a class="button sk-buy-sm" href="https://charcuterieflavor.gumroad.com/l/ingredient-guide?utm_source=charcuterielab&amp;utm_medium=site&amp;utm_campaign=uniquebooks_top_guide" target="_blank" rel="noopener">Get the PDF</a></div></div>
 </div>
 <nav class="sk-jump" aria-label="On this page"><a href="#different">Why they're different</a><a href="#books">The 7 books</a><a href="#compare">Compare them</a><a href="#inside">Look inside</a><a href="#pdf-or-paperback">PDF or paperback?</a><a href="#free">Free sample</a><a href="#faq">FAQ</a></nav>
 :::
