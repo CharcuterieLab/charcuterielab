@@ -140,6 +140,8 @@ Keep the board out no more than 2 hours, or 1 hour above 90°F.
 
 **Holiday version:** see [Trader Joe's holiday charcuterie items 2026](/blog/trader-joes-holiday-charcuterie-items/).
 
+**How Trader Joe's compares on price:** see the [Charcuterie Price Index](/blog/charcuterie-price-index/), where the same board for 10 cost $50.20 here and $33.90 at Aldi.
+
 ## Related Reading
 
 - [The Best Trader Joe's Cheeses for a Charcuterie Board, Ranked](/blog/best-trader-joes-cheeses/)

@@ -136,6 +136,8 @@ Anything that sat out on the board is a leftover: eat it within 3–4 days, and 
 
 **Holiday version:** see [Costco holiday cheese and charcuterie 2026](/blog/costco-holiday-charcuterie/), including the Beretta charcuterie kit.
 
+**For smaller boards,** see the [Charcuterie Price Index](/blog/charcuterie-price-index/), which prices the same board for 10 at Aldi, Walmart, Kroger and Trader Joe's.
+
 ## Related Reading
 
 - [The Best Costco Charcuterie Board Items, Ranked](/blog/best-costco-charcuterie-items/)

@@ -1892,6 +1892,14 @@
 1024,
 687
 ],
+"/images/charcuterie-board-ideas-pdf-pin.jpg": [
+1000,
+1500
+],
+"/images/charcuterie-board-ideas-pdf.jpg": [
+1200,
+800
+],
 "/images/charcuterie-board-ideas.png": [
 1262,
 680
@@ -2039,6 +2047,14 @@
 "/images/charcuterie-ingredient-tier-list.webp": [
 1280,
 720
+],
+"/images/charcuterie-price-index-ranking.webp": [
+1000,
+1500
+],
+"/images/charcuterie-price-index.jpg": [
+1024,
+559
 ],
 "/images/charcuterie-skewers.jpg": [
 1024,
@@ -8640,6 +8656,22 @@
 240,
 161
 ],
+"/images/thumbs/charcuterie-board-ideas-pdf-jpg-m.webp": [
+640,
+427
+],
+"/images/thumbs/charcuterie-board-ideas-pdf-jpg-s.webp": [
+240,
+160
+],
+"/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-m.webp": [
+640,
+960
+],
+"/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-s.webp": [
+240,
+360
+],
 "/images/thumbs/charcuterie-board-ideas-png-m.webp": [
 640,
 345
@@ -8931,6 +8963,22 @@
 "/images/thumbs/charcuterie-ingredient-tier-list-webp-s.webp": [
 240,
 135
+],
+"/images/thumbs/charcuterie-price-index-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/charcuterie-price-index-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/charcuterie-price-index-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/charcuterie-price-index-ranking-webp-s.webp": [
+240,
+360
 ],
 "/images/thumbs/charcuterie-skewers-jpg-m.webp": [
 640,
@@ -16886,6 +16934,14 @@
 "m": "/images/thumbs/charcuterie-board-fruit-png-m.webp",
 "s": "/images/thumbs/charcuterie-board-fruit-png-s.webp"
 },
+"/images/charcuterie-board-ideas-pdf-pin.jpg": {
+"m": "/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-m.webp",
+"s": "/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-s.webp"
+},
+"/images/charcuterie-board-ideas-pdf.jpg": {
+"m": "/images/thumbs/charcuterie-board-ideas-pdf-jpg-m.webp",
+"s": "/images/thumbs/charcuterie-board-ideas-pdf-jpg-s.webp"
+},
 "/images/charcuterie-board-ideas.png": {
 "m": "/images/thumbs/charcuterie-board-ideas-png-m.webp",
 "s": "/images/thumbs/charcuterie-board-ideas-png-s.webp"
@@ -17032,6 +17088,14 @@
 "l": "/images/thumbs/charcuterie-ingredient-tier-list-webp-l.webp",
 "m": "/images/thumbs/charcuterie-ingredient-tier-list-webp-m.webp",
 "s": "/images/thumbs/charcuterie-ingredient-tier-list-webp-s.webp"
+},
+"/images/charcuterie-price-index-ranking.webp": {
+"m": "/images/thumbs/charcuterie-price-index-ranking-webp-m.webp",
+"s": "/images/thumbs/charcuterie-price-index-ranking-webp-s.webp"
+},
+"/images/charcuterie-price-index.jpg": {
+"m": "/images/thumbs/charcuterie-price-index-jpg-m.webp",
+"s": "/images/thumbs/charcuterie-price-index-jpg-s.webp"
 },
 "/images/charcuterie-skewers.jpg": {
 "m": "/images/thumbs/charcuterie-skewers-jpg-m.webp",

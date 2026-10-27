@@ -14,7 +14,7 @@ tags: "["charcuterie board cost", "charcuterie board price", "grazing table cost
 
 > **Quick Answer:** Homemade, before a meal: **$3–5 per guest on a budget, $5–8 standard, $12–25 luxury**. A standard board for 8 is about **$40 to $65**. From a business: about **$11–16 per guest**.
 
-Below: a cost chart from 4 to 50 guests, what businesses charge, and where the money goes.
+Below: a cost chart from 4 to 50 guests, what businesses charge, and where the money goes. For real store prices, our [Charcuterie Price Index](/blog/charcuterie-price-index/) priced the same board for 10 at Aldi, Walmart, Kroger and Trader Joe's.
 
 ## Cost per guest at three levels
 
@@ -96,6 +96,7 @@ If you're pricing boards to sell, start from your ingredient cost, then add pack
 
 ## Related Reading
 
+- [Charcuterie Price Index 2026](/blog/charcuterie-price-index/)
 - [The Myth of the Expensive Charcuterie Board](/blog/expensive-board/)
 - [How to Build a $25 Board That Looks Like It Cost $75](/blog/budget-charcuterie-board/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)

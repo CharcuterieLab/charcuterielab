@@ -5571,3 +5571,56 @@ body.fx-slide-on .fx-sticky { display: none !important; }
 .hol-has li { position: relative; padding-left: 26px; }
 .hol-has li::before { content: "\2713"; position: absolute; left: 0; top: 0; color: var(--gold-dark); font-weight: 700; }
 .hol-safe { font-size: .92rem; color: var(--muted); margin: 0 0 18px; }
+
+/* ---------------------------------------------------------------------------
+   Book cards inside posts (.bkx-*), Oct 27 2026, first used on
+   /blog/unique-charcuterie-books/. Cover left, facts right; stacks on phones.
+   ------------------------------------------------------------------------- */
+.post-body .bkx-list { display: grid; gap: 22px; margin: 8px 0 34px; }
+.post-body .bkx-card {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+  scroll-margin-top: 84px;
+  padding: 22px;
+  border: 1px solid rgba(17, 58, 39, 0.14);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(17, 58, 39, 0.08);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.post-body .bkx-cover { display: block; }
+.post-body .bkx-cover img { display: block; width: 100%; height: auto; margin: 0; border-radius: 4px; box-shadow: 0 8px 18px rgba(55, 35, 25, 0.22); }
+.post-body .bkx-body h3 { margin: 2px 0 6px; font-family: Georgia, "Times New Roman", serif; font-size: 26px; line-height: 1.2; color: var(--green-deep); }
+.post-body .bkx-line { margin: 0 0 12px; color: var(--ink); font-size: 16px; line-height: 1.5; }
+.post-body ul.bkx-specs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; padding: 0; border: 0; border-radius: 0; background: none; list-style: none; }
+.post-body ul.bkx-specs li { margin: 0; padding: 5px 11px; border-radius: 8px; background: rgba(17, 58, 39, 0.07); color: var(--muted); font-size: 13px; line-height: 1.3; }
+.post-body .bkx-specs b { color: var(--green-deep); font-size: 15px; }
+.post-body ul.bkx-inside { margin: 0 0 16px; padding: 0 0 0 20px; border: 0; border-radius: 0; background: none; font-size: 15px; line-height: 1.5; color: var(--ink); }
+.post-body ul.bkx-inside li { margin: 0 0 5px; padding-left: 2px; }
+.post-body .bkx-buy { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 10px; }
+.post-body .bkx-buy .button { min-height: 44px; padding: 0 18px; font-size: 14px; }
+.post-body .bkx-more { color: var(--green); font-size: 14px; font-weight: 700; text-decoration: none; }
+.post-body .bkx-more:hover { text-decoration: underline; }
+.post-body .bkx-looks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 6px 0 30px; }
+.post-body .bkx-looks figure { margin: 0; }
+.post-body .bkx-looks img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid rgba(17, 58, 39, 0.14); border-radius: 6px; }
+.post-body .bkx-looks figcaption { margin-top: 6px; color: var(--muted); font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: center; }
+@media (max-width: 640px) {
+  .post-body .bkx-card { grid-template-columns: 92px minmax(0, 1fr); gap: 0 14px; padding: 16px; }
+  .post-body .bkx-body { display: contents; }
+  .post-body .bkx-cover { grid-column: 1; grid-row: 1 / span 2; margin-bottom: 12px; }
+  .post-body .bkx-body > .sk-pill { grid-column: 2; grid-row: 1; align-self: end; justify-self: start; }
+  .post-body .bkx-body > h3 { grid-column: 2; grid-row: 2; align-self: start; }
+  .post-body .bkx-body > :not(.sk-pill):not(h3) { grid-column: 1 / -1; }
+  .post-body .bkx-body h3 { font-size: 21px; }
+  .post-body .bkx-line { font-size: 15px; }
+  .post-body ul.bkx-inside { padding: 0 0 0 18px; font-size: 14px; }
+  .post-body .bkx-buy { flex-direction: column; }
+  .post-body .bkx-buy .button { width: 100%; justify-content: center; }
+  .post-body .bkx-looks { gap: 8px; }
+}
+.post-body .bkx-twist { margin: 0 0 12px; padding: 10px 14px; border-radius: 8px; background: rgba(202, 166, 82, 0.14); color: var(--ink); font-size: 15px; line-height: 1.45; }
+.post-body .bkx-twist b { color: var(--gold-dark); }
+@media (max-width: 640px) { .post-body .bkx-twist { font-size: 14px; } }

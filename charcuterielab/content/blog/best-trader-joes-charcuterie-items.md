@@ -180,6 +180,8 @@ Yes. In early 2026 it added an Antipasti Platter for $10.99, with prosciutto, tw
 
 **Seasonal picks:** see [Trader Joe's holiday charcuterie items 2026](/blog/trader-joes-holiday-charcuterie-items/).
 
+**Is Trader Joe's cheaper?** Not for a full board. In our [Charcuterie Price Index](/blog/charcuterie-price-index/), the same board for 10 cost $50.20 at Trader Joe's and $33.90 at Aldi, mostly because of the meat. Its fig butter, olives and crackers were among the cheapest.
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests, awards and shopper ratings, its ingredients, price and how easy it is to find, plus how it behaves on a board. Store stock changes, especially for seasonal items, so check your local store. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026.</p>
