@@ -14,7 +14,7 @@ slug: "best-mustard-for-charcuterie"
 > **Quick Answer:** Our top pick for mustard on a charcuterie board is Maille Old Style Whole Grain Mustard (4.8 out of 5). Best value: Grey Poupon Harvest Coarse Ground. Splurge: Pommery Moutarde de Meaux.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Maille+Old+Style+Whole+Grain+Mustard" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Grey+Poupon+Harvest+Coarse+Ground" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pommery+Moutarde+de+Meaux" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pommery+Moutarde+de+Meaux" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -30,7 +30,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Whole-grain crunch</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Test-kitchen winner. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than some.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Maille+Old+Style+Whole+Grain+Mustard" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s best whole-seed mustard, with a nice crunch and pop and bright acidity.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best Dijon</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked Dijon.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, so less visual texture.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Maille+Dijon+Originale" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B007NJS008" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1704481/store-bought-dijon-mustard-brands-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s number one Dijon, balancing sharpness with a note of fruitiness.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -48,7 +48,6 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget coarse mustard</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap. Test-kitchen winner.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Coarse, not whole seeds.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Grey+Poupon+Harvest+Coarse+Ground" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s best coarse-ground mustard: very cohesive, gently crunchy and mildly spicy.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 5 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">

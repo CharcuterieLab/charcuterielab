@@ -15,7 +15,7 @@ tags: "["best quince paste", "membrillo", "quince paste brands", "membrillo and 
 > **Quick Answer:** Easiest good one: **Mitica Membrillo** (about $8), at cheese counters. Cheese-shop pick: **Murray's Membrillo**, made in Málaga. No taste test exists, so there are no star scores.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-1">Mitica Membrillo</a><p class="sk-top-line">Widely sold, good value and made for slicing.</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mitica+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheese-shop pick</p><a class="sk-top-name" href="#pick-2">Murray&#x27;s Membrillo</a><p class="sk-top-line">A short ingredient list and a traditional maker.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Murray&#x27;s+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Organic pick</p><a class="sk-top-name" href="#pick-3">Mitica Organic Membrillo</a><p class="sk-top-line">Organic.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mitica+Organic+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-1">Mitica Membrillo</a><p class="sk-top-line">Widely sold, good value and made for slicing.</p></div><div class="sk-top-buy"><span class="sk-price">$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheese-shop pick</p><a class="sk-top-name" href="#pick-2">Murray&#x27;s Membrillo</a><p class="sk-top-line">A short ingredient list and a traditional maker.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.murrayscheese.com/" target="_blank" rel="noopener">See it at Murray&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Organic pick</p><a class="sk-top-name" href="#pick-3">Mitica Organic Membrillo</a><p class="sk-top-line">Organic.</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07D6V8FV3" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -33,7 +33,6 @@ Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A reliable Spanish quince paste</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B, Whole Foods, cheese counters and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Widely sold, good value and made for slicing.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Made with added pectin and lemon, so it&#x27;s a little softer than some.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mitica+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A traditional Spanish quince paste: firm enough to slice, sweet-tart, with apple and pear notes. A 10 oz pack was $7.98 at H-E-B, which suggests it with Manchego, on charcuterie boards and on baked brie (<a href="https://www.heb.com/product-detail/mitica-membrillo-quince-paste/720406" target="_blank" rel="noopener">H-E-B</a>).</p><p></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -42,7 +41,7 @@ Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A classic Manchego partner</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Murray&#x27;s Cheese online. Murray&#x27;s counters inside Kroger stores may carry it.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A short ingredient list and a traditional maker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs a little more, and is easiest to buy online.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Murray&#x27;s+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.murrayscheese.com/" target="_blank" rel="noopener">See it at Murray&#x27;s</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Quince and sugar only, from a Málaga producer that has made membrillo since 1912. Murray&#x27;s sells it in an 8.8 oz brick and recommends it with Manchego and rosemary Marcona almonds (<a href="https://www.murrayscheese.com/dp/murray-s-membrillo" target="_blank" rel="noopener">Murray&#x27;s Cheese</a>).</p><p></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -51,7 +50,7 @@ Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An organic option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty shops and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find than the regular one.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mitica+Organic+Membrillo" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07D6V8FV3" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>An organic version from the same importer (<a href="https://curedandcultivated.com/products/mitica-organic-membrillo-quince-paste" target="_blank" rel="noopener">Cured &amp; Cultivated</a>).</p><p></p></details>
 </article>
 <article class="sk-card" id="pick-4">

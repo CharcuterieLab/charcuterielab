@@ -14,7 +14,7 @@ slug: "best-hot-honey"
 > **Quick Answer:** Our top pick for hot honey on a charcuterie board is Mike's Hot Honey (4.5 out of 5). Best value: Nature Nate's Hot Honey. Splurge: Björn's Sweet and Spicy Colorado Honey.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mike&#x27;s Hot Honey</a><p class="sk-top-line">Everywhere. Two heat levels.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mike&#x27;s+Hot+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Nature Nate&#x27;s Hot Honey</a><p class="sk-top-line">Mild. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Nature+Nate&#x27;s+Hot+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Björn&#x27;s Sweet and Spicy Colorado Honey</a><p class="sk-top-line">Top-ranked. Complex flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Björn&#x27;s+Sweet+and+Spicy+Colorado+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mike&#x27;s Hot Honey</a><p class="sk-top-line">Everywhere. Two heat levels.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B085B1YZ8Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Nature Nate&#x27;s Hot Honey</a><p class="sk-top-line">Mild. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B09T1WMBPM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Björn&#x27;s Sweet and Spicy Colorado Honey</a><p class="sk-top-line">Top-ranked. Complex flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Björn&#x27;s+Sweet+and+Spicy+Colorado+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -30,7 +30,7 @@ Hot honey on salami, pepperoni, aged cheddar or fresh mozzarella is one of the e
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The easy-to-find classic</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Two heat levels.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Reviews rate it good rather than best.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mike&#x27;s+Hot+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B085B1YZ8Q" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The brand that popularized hot honey in the US. <a href="https://sporked.com/article/best-hot-honey/" target="_blank" rel="noopener">Sporked</a> scored the Extra Hot version 9 out of 10 and the original 7.5; <a href="https://www.tastingtable.com/1868923/hot-honey-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked the original seventh.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Hot honey on salami, pepperoni, aged cheddar or fresh mozzarella is one of the e
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced habanero heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Balanced heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bushwick+Kitchen+Bees+Knees+Spicy+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00YI3P0HS" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-hot-honey/" target="_blank" rel="noopener">Sporked</a>&#x27;s top hot honey at 9.5 out of 10, with the fruity heat of habanero bridging sweet and spicy.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -48,7 +48,7 @@ Hot honey on salami, pepperoni, aged cheddar or fresh mozzarella is one of the e
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Beginners</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too mild for heat lovers.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Nature+Nate&#x27;s+Hot+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09T1WMBPM" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-hot-honey/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10 and called it ideal for beginners, with citrusy honey notes and gentle heat.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">

@@ -86,16 +86,15 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>About $15</dd></div><div><dt>What it is</dt><dd>1 knife: holes, serrated edge, fork tip</dd></div><div><dt>Dishwasher</dt><dd>Check the listing</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The cheapest way to cover soft and hard cheese with one knife.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Picked on shopper reviews, not a hands-on test.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Prodyne+multi+use+cheese+knife" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Holes stop soft cheese sticking, a serrated edge handles hard cheese and a forked tip lifts slices. Bustle named it the best all-purpose cheese knife (<a href="https://www.bustle.com/life/best-cheese-knives" target="_blank" rel="noopener">Bustle</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">Best board and knives in one</p><h3>CTFT Cheese Board and Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>About $30</dd></div><div><dt>In the box</dt><dd>13&quot; bamboo board, 4 knives, chalk, labels</dd></div><div><dt>Best for</dt><dd>A new host</dd></div></dl>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">Best board and knives in one</p><h3>RoyalHouse Bamboo Cheese Board and Knife Set</h3></div></div>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $25</dd></div><div><dt>In the box</dt><dd>Bamboo board, 4 knives in a slide-out drawer</dd></div><div><dt>Best for</dt><dd>A new host</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> An easy starter gift: everything arrives together.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The knives are basic. Pair a better set with a separate board if you can.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=CTFT+cheese+board+and+knife+set+bamboo" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p>A 13 by 13 inch bamboo board with a drawer holding four cheese knives, plus chalk and slate labels. NBC Select&#x27;s editors chose it for its raised edges (<a href="https://www.nbcnews.com/select/amp/rcna124654" target="_blank" rel="noopener">NBC Select</a>).</p></details>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08HFLNS6T" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>The same design as the CTFT board and knife set that NBC Select&#x27;s editors chose (<a href="https://www.nbcnews.com/select/amp/rcna124654" target="_blank" rel="noopener">NBC Select</a>): a bamboo board with a drawer of four cheese knives. The CTFT set now sells on Amazon for about $80, mostly through other sellers, so we point to this one at about $25. No editor has tested this exact board.</p></details>
 </article>
 </div>
 :::
