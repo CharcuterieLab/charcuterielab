@@ -84,7 +84,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 
 :::html
 <h2 id="what-to-look-for">What to look for</h2>
-<ul class="sk-checks"><li><strong>Look for:</strong> Check the base. Cultured cashew or almond cheeses taste the most like real cheese. Coconut-oil cheeses are cheaper and slice neatly, but taste milder. For allergy guests, check for cashews and other tree nuts, and look for a certified vegan mark, since a few &quot;almond&quot; cheeses contain casein, a milk protein. (Source: [Daily Meal]({DM}).)</li><li class="sk-x"><strong>Skip:</strong> Vegan shreds and melting slices made for pizza. They&#x27;re starchy and rubbery cold.</li></ul>
+<ul class="sk-checks"><li><strong>Look for:</strong> Check the base. Cultured cashew or almond cheeses taste the most like real cheese. Coconut-oil cheeses are cheaper and slice neatly, but taste milder. For allergy guests, check for cashews and other tree nuts, and look for a certified vegan mark, since a few &quot;almond&quot; cheeses contain casein, a milk protein. (Source: <a href="https://www.thedailymeal.com/1479432/non-dairy-cheeses-ranked/" target="_blank" rel="noopener">Daily Meal</a>.)</li><li class="sk-x"><strong>Skip:</strong> Vegan shreds and melting slices made for pizza. They&#x27;re starchy and rubbery cold.</li></ul>
 :::
 
 **Building the board:** two vegan cheeses are plenty. Pair one spreadable (Boursin or Treeline) with one you can slice or cube (Violife or Follow Your Heart). Keep them in the fridge until 15 to 20 minutes before serving. For the rest of the board, see our [vegan charcuterie board guide](/dietary/vegan/) and the [dairy-free charcuterie board](/blog/dairy-free-charcuterie-board/).

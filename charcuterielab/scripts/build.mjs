@@ -2519,7 +2519,7 @@ function addTableOfContents(html, words) {
   if (items.length < 4 || words < 900 || out.includes('class="sk-jump"')) return out;
   const nav = `<nav class="post-toc" aria-label="In this article">
   <details open><summary>In this article <span>${items.length} sections</span></summary>
-  <ol>${items.map(([id, t]) => `<li><a href="#${id}">${escapeHtml(t)}</a></li>`).join("")}</ol>
+  <ol>${items.map(([id, t]) => `<li><a href="#${id}">${t}</a></li>`).join("")}</ol>
   </details>
 </nav><script>try{if(matchMedia("(max-width: 820px)").matches){var t=document.currentScript.previousElementSibling.querySelector("details");if(t)t.open=false}}catch(e){}</script>`;
   // After the quick answer if there is one, otherwise before the first section.

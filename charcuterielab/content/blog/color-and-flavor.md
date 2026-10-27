@@ -113,7 +113,7 @@ This map is both an aesthetic composition and a flavor communication system. Gue
 
 ---
 
-*For more: see our [board build sequence guide]([TO ADD]) for how to place these elements in the right order, and our [acid contrast science]([TO ADD]) for the flavor function of the green elements. Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly science and technique breakdowns.*
+*For more: see our [board build sequence guide](/blog/build-sequence/) for how to place these elements in the right order, and our [acid contrast science](/blog/acid-rule/) for the flavor function of the green elements. Subscribe to the [Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly science and technique breakdowns.*
 
 ## Practical Color Distribution: A Working Framework
 

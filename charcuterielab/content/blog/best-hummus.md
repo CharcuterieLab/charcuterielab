@@ -30,7 +30,7 @@ Hummus turns a board into a mezze spread. Tests disagree a lot, so we combined t
 <div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Ranked high in two tests, with a clean ingredient list and a low price.</p>
-<p class="sk-mind"><strong>Watch out:</strong> [Tasting Table]({TT}) wanted more lemon. Add a squeeze yourself.</p>
+<p class="sk-mind"><strong>Watch out:</strong> <a href="https://www.tastingtable.com/1953984/store-bought-hummus-ranked/" target="_blank" rel="noopener">Tasting Table</a> wanted more lemon. Add a squeeze yourself.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The most consistent performer. <a href="https://www.tastingtable.com/1953984/store-bought-hummus-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked it 2nd of 13 for a rich, creamy, earthy flavor, and <a href="https://www.today.com/today/amp/rcna41139" target="_blank" rel="noopener">Today</a> put it 4th of 10 as silky smooth with almost no aftertaste.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 4</span></p></details>
 </article>
@@ -48,7 +48,7 @@ Hummus turns a board into a mezze spread. Tests disagree a lot, so we combined t
 <div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chickpea-forward flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Deli counters and grocery stores that carry Boar&#x27;s Head.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Consistently near the top.</p>
-<p class="sk-mind"><strong>Watch out:</strong> [Tasting Table]({TT}) found it a little salty.</p>
+<p class="sk-mind"><strong>Watch out:</strong> <a href="https://www.tastingtable.com/1953984/store-bought-hummus-ranked/" target="_blank" rel="noopener">Tasting Table</a> found it a little salty.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked 3rd in two tests: <a href="https://www.tastingtable.com/1953984/store-bought-hummus-ranked/" target="_blank" rel="noopener">Tasting Table</a> called it smooth and well balanced, and <a href="https://www.today.com/today/amp/rcna41139" target="_blank" rel="noopener">Today</a> liked that it puts the chickpeas first.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
