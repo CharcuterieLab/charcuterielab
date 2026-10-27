@@ -161,6 +161,7 @@ A good tag turns a pile of groceries into a board. Include:
 
 ## Related Reading
 
+- [The Best Charcuterie Gift Baskets on Amazon, Compared](/blog/best-charcuterie-gift-baskets-amazon/)
 - [Rather buy one? The Best Charcuterie Gift Boxes, Ranked](/blog/best-charcuterie-gift-boxes/)
 - [The Best Charcuterie Boards to Buy](/blog/best-charcuterie-boards/)
 - [The Best Cheese Knife Sets](/blog/best-cheese-knife-sets/)

@@ -3,8 +3,8 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 102 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
-description: "All 102 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+excerpt: "All 108 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+description: "All 108 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
@@ -95,6 +95,11 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Store-Bought Guacamole for a Game Day Board](/blog/best-guacamole/) | Sabra Classic Guacamole | ★★★★½ 4.4 |
 | [Best Store-Bought Ranch Dip for a Veggie Board](/blog/best-ranch-dip/) | Marie's Creamy Ranch Dressing & Dip | ★★★★½ 4.4 |
 | [Best Quince Paste (Membrillo) to Buy](/blog/best-quince-paste/) | Mitica Membrillo | Buyer's guide (unscored) |
+| [Best Store-Bought Tzatziki for a Mezze Board](/blog/best-tzatziki/) | Boar's Head Tzatziki | Buyer's guide (unscored) |
+| [Best Store-Bought Whipped Feta Dip](/blog/best-whipped-feta/) | Trader Joe's Whipped Feta Spread | Buyer's guide (unscored) |
+| [Best Olive Tapenade to Buy](/blog/best-olive-tapenade/) | DeLallo Black Olive Tapenade | Buyer's guide (unscored) |
+| [Best Store-Bought Buffalo Chicken Dip for Game Day](/blog/best-buffalo-chicken-dip/) | Marketside Buffalo Style Chicken Dip | Buyer's guide (unscored) |
+| [Best Store-Bought Dill Pickle Dip](/blog/best-pickle-dip/) | Taste of the South Fried Pickle & Ranch Dip | Buyer's guide (unscored) |
 
 ## Olives, pickles and nuts
 
@@ -134,6 +139,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | ★★★★½ 4.6 |
+| [Best Charcuterie Gift Baskets on Amazon, Compared](/blog/best-charcuterie-gift-baskets-amazon/) | Hickory Farms Signature Beef | Buyer's guide (unscored) |
 | [Best Cheese-of-the-Month Clubs](/blog/best-cheese-of-the-month-clubs/) | Murray's Cheese Explorer's Club | Buyer's guide (unscored) |
 | [Best Cheese Knife Sets](/blog/best-cheese-knife-sets/) | Boska Copenhagen Cheese Knife Set | Buyer's guide (unscored) |
 | [Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/) | Formaticum Cheese Storage Bags | Buyer's guide (unscored) |

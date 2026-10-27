@@ -87,6 +87,8 @@ if you want acid.
 
 **Ranked picks:** our top-rated pickles for a board are **Mt. Olive Kosher Baby Dills** (4.5 out of 5), and the best refrigerated pick is **Claussen Kosher Dill Spears**. See [the full ranking of the best pickles](/blog/best-pickles-for-charcuterie/).
 
+**Pickle dip:** see [the best store-bought dill pickle dip](/blog/best-pickle-dip/).
+
 ## Quick FAQ
 
 **What pickles go on a charcuterie board?**

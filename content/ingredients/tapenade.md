@@ -79,6 +79,8 @@ Watch for sunflower oil, which is a cost-cutting sign.
 
 **Skip:** anything blended completely smooth — texture is part of the point.
 
+**Our buyer's guide:** DeLallo for pure olive flavor, Divina for the classic style with capers. See [the best olive tapenade to buy](/blog/best-olive-tapenade/).
+
 ## Quick FAQ
 
 **What is tapenade?**

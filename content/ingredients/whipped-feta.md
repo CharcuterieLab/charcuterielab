@@ -82,6 +82,8 @@ coated in anti-caking agents and won't whip properly.
 
 **Skip:** cow's milk "feta-style" cheese, which is milder and blander.
 
+**Our buyer's guide:** Trader Joe's Whipped Feta Spread is the fan favorite, and Costco sells 16-oz tubs. See [the best store-bought whipped feta](/blog/best-whipped-feta/).
+
 ## Quick FAQ
 
 **How do I make whipped feta?**

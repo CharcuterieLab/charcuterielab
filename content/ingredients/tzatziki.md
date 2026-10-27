@@ -81,6 +81,8 @@ mostly sour cream.
 
 **Skip:** low-fat yoghurt and anything with added starch or gum.
 
+**Our buyer's guide:** Boar's Head won a blind test of 7 brands, and Karoun's labne version is the thickest. See [the best store-bought tzatziki](/blog/best-tzatziki/).
+
 ## Quick FAQ
 
 **How do I stop tzatziki being watery?**

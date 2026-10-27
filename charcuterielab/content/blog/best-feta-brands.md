@@ -128,6 +128,8 @@ Pasteurized feta is generally considered safe. Check the label, and skip raw-mil
 
 15 to 20 minutes.
 
+**Want it whipped?** See [the best store-bought whipped feta](/blog/best-whipped-feta/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026. We ranked 8 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.</p>

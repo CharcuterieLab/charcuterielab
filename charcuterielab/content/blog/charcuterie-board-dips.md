@@ -79,6 +79,11 @@ Every dip on your board should earn its place by serving a specific pairing func
 
 ## Related Reading
 
+- [The Best Store-Bought Tzatziki](/blog/best-tzatziki/)
+- [The Best Store-Bought Buffalo Chicken Dip](/blog/best-buffalo-chicken-dip/)
+- [The Best Store-Bought Dill Pickle Dip](/blog/best-pickle-dip/)
+- [The Best Olive Tapenade to Buy](/blog/best-olive-tapenade/)
+- [The Best Store-Bought Whipped Feta](/blog/best-whipped-feta/)
 - [The Best Store-Bought Spinach Dip, Ranked](/blog/best-spinach-dip/)
 - [The Best Store-Bought Queso, Ranked](/blog/best-queso/)
 - [The Best Kettle Chips, Ranked](/blog/best-kettle-chips/)

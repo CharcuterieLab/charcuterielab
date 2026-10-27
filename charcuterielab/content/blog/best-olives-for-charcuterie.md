@@ -105,6 +105,8 @@ Pitted is easier for guests, but olives with pits have better texture. If you ke
 
 One is fine; two or three different colors and sizes look better.
 
+**Want it as a spread?** See [the best olive tapenade to buy](/blog/best-olive-tapenade/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked September 2026. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>

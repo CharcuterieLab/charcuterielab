@@ -110,6 +110,8 @@ In a small bowl. Even drained pickles leak brine, which makes crackers soggy.
 
 For crunch, yes. Refrigerated pickles like Claussen and Grillo's aren't heat-processed, so they stay crisper.
 
+**Want it as a dip?** See [the best store-bought dill pickle dip](/blog/best-pickle-dip/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026. We ranked 6 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find. Links to Amazon are affiliate links.</p>
