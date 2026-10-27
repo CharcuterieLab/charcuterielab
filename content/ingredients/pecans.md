@@ -81,6 +81,8 @@ means rancid. Buy in autumn if you can — that's when the crop lands.
 
 **Skip:** pecan pieces for board use, and any bag past its date.
 
+**Our buyer's guide:** for sweet pecans, see [the best candied pecans](/blog/best-candied-pecans/).
+
 ## Quick FAQ
 
 **Pecans or walnuts on a cheese board?**

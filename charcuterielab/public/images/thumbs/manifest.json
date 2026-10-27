@@ -292,7 +292,15 @@
 1000,
 1500
 ],
+"/images/best-candied-pecans-ranking.webp": [
+1000,
+1500
+],
 "/images/best-capicola-coppa-ranking.webp": [
+1000,
+1500
+],
+"/images/best-champagne-under-30-ranking.webp": [
 1000,
 1500
 ],
@@ -333,6 +341,10 @@
 559
 ],
 "/images/best-cheese-of-the-month-clubs-ranking.webp": [
+1000,
+1500
+],
+"/images/best-cheese-paper-ranking.webp": [
 1000,
 1500
 ],
@@ -488,6 +500,10 @@
 1000,
 1500
 ],
+"/images/best-panettone-ranking.webp": [
+1000,
+1500
+],
 "/images/best-parmesan-brands-ranking.webp": [
 1000,
 1500
@@ -597,6 +613,10 @@
 1500
 ],
 "/images/best-sprouts-charcuterie-items-ranking.webp": [
+1000,
+1500
+],
+"/images/best-stilton-ranking.webp": [
 1000,
 1500
 ],
@@ -5368,11 +5388,27 @@
 240,
 360
 ],
+"/images/thumbs/best-candied-pecans-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-candied-pecans-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-capicola-coppa-ranking-webp-m.webp": [
 640,
 960
 ],
 "/images/thumbs/best-capicola-coppa-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-champagne-under-30-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-champagne-under-30-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -5461,6 +5497,14 @@
 960
 ],
 "/images/thumbs/best-cheese-of-the-month-clubs-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-cheese-paper-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-cheese-paper-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -5776,6 +5820,14 @@
 240,
 360
 ],
+"/images/thumbs/best-panettone-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-panettone-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-parmesan-brands-ranking-webp-m.webp": [
 640,
 960
@@ -5997,6 +6049,14 @@
 960
 ],
 "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-stilton-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-stilton-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -14869,9 +14929,17 @@
 "m": "/images/thumbs/best-camembert-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-camembert-brands-ranking-webp-s.webp"
 },
+"/images/best-candied-pecans-ranking.webp": {
+"m": "/images/thumbs/best-candied-pecans-ranking-webp-m.webp",
+"s": "/images/thumbs/best-candied-pecans-ranking-webp-s.webp"
+},
 "/images/best-capicola-coppa-ranking.webp": {
 "m": "/images/thumbs/best-capicola-coppa-ranking-webp-m.webp",
 "s": "/images/thumbs/best-capicola-coppa-ranking-webp-s.webp"
+},
+"/images/best-champagne-under-30-ranking.webp": {
+"m": "/images/thumbs/best-champagne-under-30-ranking-webp-m.webp",
+"s": "/images/thumbs/best-champagne-under-30-ranking-webp-s.webp"
 },
 "/images/best-charcuterie-boards.jpg": {
 "m": "/images/thumbs/best-charcuterie-boards-jpg-m.webp",
@@ -14914,6 +14982,10 @@
 "/images/best-cheese-of-the-month-clubs-ranking.webp": {
 "m": "/images/thumbs/best-cheese-of-the-month-clubs-ranking-webp-m.webp",
 "s": "/images/thumbs/best-cheese-of-the-month-clubs-ranking-webp-s.webp"
+},
+"/images/best-cheese-paper-ranking.webp": {
+"m": "/images/thumbs/best-cheese-paper-ranking-webp-m.webp",
+"s": "/images/thumbs/best-cheese-paper-ranking-webp-s.webp"
 },
 "/images/best-cornichons-ranking.webp": {
 "m": "/images/thumbs/best-cornichons-ranking-webp-m.webp",
@@ -15069,6 +15141,10 @@
 "m": "/images/thumbs/best-olives-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-olives-for-charcuterie-ranking-webp-s.webp"
 },
+"/images/best-panettone-ranking.webp": {
+"m": "/images/thumbs/best-panettone-ranking-webp-m.webp",
+"s": "/images/thumbs/best-panettone-ranking-webp-s.webp"
+},
 "/images/best-parmesan-brands-ranking.webp": {
 "m": "/images/thumbs/best-parmesan-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-parmesan-brands-ranking-webp-s.webp"
@@ -15180,6 +15256,10 @@
 "/images/best-sprouts-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-m.webp",
 "s": "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-s.webp"
+},
+"/images/best-stilton-ranking.webp": {
+"m": "/images/thumbs/best-stilton-ranking-webp-m.webp",
+"s": "/images/thumbs/best-stilton-ranking-webp-s.webp"
 },
 "/images/best-store-bought-cheese-balls-ranking.webp": {
 "m": "/images/thumbs/best-store-bought-cheese-balls-ranking-webp-m.webp",

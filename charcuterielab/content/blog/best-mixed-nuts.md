@@ -124,3 +124,4 @@ Serve them in a separate bowl with their own spoon, keep them away from the chee
 </details>
 :::
 
+For a sweet or smoky bowl, see [the best candied pecans and spiced nuts](/blog/best-candied-pecans/).

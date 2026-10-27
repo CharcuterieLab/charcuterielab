@@ -73,6 +73,7 @@ Ranking the brands? See [the best Marcona almonds](/blog/best-marcona-almonds/) 
 
 ## Related Reading
 
+- [The Best Candied Pecans and Spiced Nuts](/blog/best-candied-pecans/)
 - [Manchego on a Charcuterie Board](https://charcuterielab.com/manchego-charcuterie-board/)
 - [Blue Cheese on a Charcuterie Board](https://charcuterielab.com/blue-cheese-charcuterie-board/)
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)

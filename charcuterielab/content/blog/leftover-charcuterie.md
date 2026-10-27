@@ -79,6 +79,7 @@ If you always end up with a fridge full of salami, you're probably buying for a 
 
 ## Related Reading
 
+- [The Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/)
 - [How Long Can a Charcuterie Board Sit Out?](/blog/how-long-charcuterie-board-last/)
 - [How to Store a Charcuterie Board](/blog/how-to-store-charcuterie-board/)
 - [Can You Freeze Cheese and Salami?](/blog/can-you-freeze-cheese/)

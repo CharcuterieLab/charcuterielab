@@ -132,3 +132,4 @@ About half a bottle per guest who drinks. A 750 ml bottle pours about five glass
 </details>
 :::
 
+Want real Champagne? See [the best cheap Champagne for New Year's Eve](/blog/best-champagne-under-30/).

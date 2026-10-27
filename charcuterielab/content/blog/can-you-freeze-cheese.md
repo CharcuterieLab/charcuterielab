@@ -71,6 +71,7 @@ Yes. Food kept continuously at 0°F stays safe indefinitely; the freezer times a
 
 ## Related Reading
 
+- [The Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/)
 - [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
 - [How to Store Cheese](/blog/cheese-storage/)
 - [How to Store a Charcuterie Board](/blog/how-to-store-charcuterie-board/)

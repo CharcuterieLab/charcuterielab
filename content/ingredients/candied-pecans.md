@@ -84,6 +84,8 @@ the ingredients, not sugar.
 **Skip:** anything glazed in corn syrup — sticky rather than crisp, and it will
 smear across the board.
 
+**Our buyer's guide:** Kirkland Signature Praline Pecans for a crowd. See [the best candied pecans](/blog/best-candied-pecans/).
+
 ## Quick FAQ
 
 **How do I make candied pecans?**

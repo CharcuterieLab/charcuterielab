@@ -94,6 +94,8 @@ an actual blue.
 
 **Gluten-free?** Yes. See [Is blue cheese gluten-free?](/dietary/questions/is-blue-cheese-gluten-free/).
 
+**Our buyer's guide:** Colston Bassett is the pick, and Costco's Coombe Castle is real Stilton for about $14 a pound. See [the best Stilton](/blog/best-stilton/).
+
 ## Quick FAQ
 
 **Can Stilton be made in Stilton?**

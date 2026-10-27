@@ -151,6 +151,7 @@ Pull cheese from the refrigerator at least 30 minutes before serving (45–60 mi
 
 ## Related Reading
 
+- [The Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/)
 - [What to Do With Leftover Charcuterie](/blog/leftover-charcuterie/)
 - [Can You Freeze Cheese and Salami?](/blog/can-you-freeze-cheese/)
 - [Humidity Control in Cheese and Charcuterie Aging: Why Moisture Is the Hidden Variable](https://charcuterielab.com/humidity-control/)

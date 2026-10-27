@@ -127,3 +127,4 @@ Sturdy ones, yes: freeze in a single layer, then store airtight with parchment b
 
 Build the board with our [Christmas cookie board](/blog/christmas-cookie-charcuterie-board/), and add drinks from the [best hot cocoa mixes](/blog/best-hot-cocoa-mix/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+Add a sliced loaf too: see [the best panettone](/blog/best-panettone/).

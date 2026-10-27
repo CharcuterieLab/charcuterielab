@@ -87,6 +87,8 @@ fine. Cold-smoked will say so and cost more.
 **Skip:** honey-smoked versions on a cheese board — they belong in the dessert
 corner if anywhere.
 
+**Our buyer's guide:** Blue Diamond Smokehouse is the easy pick. See [the best candied pecans and spiced nuts](/blog/best-candied-pecans/).
+
 ## Quick FAQ
 
 **Are smoked almonds actually smoked?**

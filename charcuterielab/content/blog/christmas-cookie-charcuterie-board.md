@@ -83,6 +83,7 @@ Pair the cookie board with a [hot cocoa board](/blog/hot-cocoa-board/) for a des
 
 ## Related Reading
 
+- [The Best Panettone for a Christmas Board](/blog/best-panettone/)
 - [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)
 - [The Cheese Course: How to Serve Cheese After Dinner](/blog/cheese-course/)
 - [Christmas Charcuterie Board Ideas](/holidays/christmas/)

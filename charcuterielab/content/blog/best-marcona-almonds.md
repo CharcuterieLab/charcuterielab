@@ -89,3 +89,4 @@ Manchego, chorizo, honey, dried apricots and dry sherry.
 </details>
 :::
 
+For a sweet bowl, see [the best candied pecans and spiced nuts](/blog/best-candied-pecans/).

@@ -119,3 +119,4 @@ By early December. Murray's ships the first box the month after purchase, Cheese
 
 For one-time gifts, see [the best charcuterie gift boxes](/blog/best-charcuterie-gift-boxes/) and our [gift guide](/gifts/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+Gift idea to go with a club: [the best cheese paper and cheese storage](/blog/best-cheese-paper/).

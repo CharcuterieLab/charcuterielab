@@ -48,7 +48,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 <div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thanksgiving and Christmas</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Festive color and a tart edge.</p>
-<p class="sk-mind"><strong>Watch out:</strong> Rhett &amp; Link found the cranberry faint ([Sporked]({RL})).</p>
+<p class="sk-mind"><strong>Watch out:</strong> Rhett &amp; Link found the cranberry faint (<a href="https://sporked.com/article/rhett-link-gmm-best-martinellis/" target="_blank" rel="noopener">Sporked</a>).</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Martinelli&#x27;s+Sparkling+Apple-Cranberry" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-sparkling-apple-cider/" target="_blank" rel="noopener">Sporked</a> scored it 9 out of 10 for balance and a little something more.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 4</span></p></details>
 </article>
@@ -141,3 +141,4 @@ A 25.4 oz bottle pours about five glasses. For a toast, one bottle covers 6 to 8
 </details>
 :::
 
+Pouring for the adults too? See [the best cheap Champagne](/blog/best-champagne-under-30/).
