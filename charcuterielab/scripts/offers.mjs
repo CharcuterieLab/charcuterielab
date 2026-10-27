@@ -457,7 +457,9 @@ export function makeOffers(h, products, books) {
           // Blog posts: the "board N is in the book" card only stays when the
           // matched offer is the book itself.
           if (path.startsWith("/blog/") && pick(ctx).type === "printable") html = html.replace(/<aside class="fx-book[\s\S]*?<\/aside>\s*/g, "");
-          html = html.replace(/<aside class="book-bar"[\s\S]*?<\/aside>\s*/g, "");
+          // Exception (27 Oct 2026): ingredient pages keep the Ingredient Guide
+          // bar (ebook + paperback), since the book is that page's own topic.
+          html = html.replace(/<aside class="book-bar"[\s\S]*?<\/aside>\s*/g, (m) => (path.startsWith("/ingredients/") && m.includes('aria-label="The Ingredient Guide"') ? m : ""));
           html = html.replace(/<!--lnb-->[\s\S]*?<!--\/lnb-->\s*/g, "");
           {
             const fb = freebieFor(path, ctx);

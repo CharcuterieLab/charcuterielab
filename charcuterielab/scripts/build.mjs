@@ -1630,7 +1630,7 @@ function guideBar(campaign, label) {
     <img class="book-bar-cover" src="${thumb(GUIDE_BOOK.cover, "s")}" alt="" width="64" height="83" loading="lazy" decoding="async">
     <div class="book-bar-copy">
       <p class="eyebrow">${escapeHtml(label)}</p>
-      <p>All 325 ingredients in one 224-page PDF: what each one tastes like, what pairs with it and why, how much to buy, plus 8 ready-made shopping lists.</p>
+      <p>All 325 ingredients in one 224-page book, as a PDF or a paperback: what each one tastes like, what pairs with it and why, how much to buy, plus 8 ready-made shopping lists.</p>
     </div>
     <div class="book-buy book-buy-sm">
       <a class="button primary book-buy-ebook" href="${withTracking(GUIDE_BOOK.ebookUrl, campaign)}" target="_blank" rel="noopener">Get the ebook · ${GUIDE_BOOK.ebookPrice}</a>${paper}
