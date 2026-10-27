@@ -103,6 +103,7 @@ Scale changes the logistics, not the flavor logic. Stick to 2 oz each of meat an
 
 ## Related Reading
 
+- [Meat and Cheese Tray: How to Make One + How Much to Buy](/blog/meat-and-cheese-tray/)
 - [Wedding Grazing Table: How Much for 50 to 200 Guests](/blog/wedding-charcuterie-grazing-table/)
 - [Charcuterie Board Quantities: Exactly How Much You Need](/blog/how-much-charcuterie-per-person/)
 - [How to Make a Charcuterie Board](https://charcuterielab.com/blog/how-to-make-charcuterie-board/)

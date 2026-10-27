@@ -87,6 +87,7 @@ Jarcuterie costs about the same per serving as [charcuterie cups](/blog/charcute
 
 ## Related Reading
 
+- [Snackle Box Ideas: 12 Themes + How to Pack One](/blog/snackle-box-ideas/)
 - [Charcuterie Cups](/blog/charcuterie-cups/)
 - [Charcuterie Skewers](/blog/charcuterie-skewers/)
 - [Charcuterie Board for a Large Group](/blog/charcuterie-board-for-large-group/)
