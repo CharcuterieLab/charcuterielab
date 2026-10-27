@@ -127,7 +127,7 @@ const STORE_LISTS = (() => {
 const STORE_PAGES = new Set(STORE_LISTS.flatMap((x) => [x.guide, ...(x.pages || [])]).filter(Boolean).map((x) => `/blog/${x}/`));
 const isPlan = (path) => PLAN.test(path) || STORE_PAGES.has(path);
 
-const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads)(\/|$)/;
+const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|thanks|privacy|search|downloads|blog\/unique-charcuterie-books)(\/|$)/;
 
 
 // FAQ written as paragraphs ("<p><strong>Question?</strong> answer</p>", a

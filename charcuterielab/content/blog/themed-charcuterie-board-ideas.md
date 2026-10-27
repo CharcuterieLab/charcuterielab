@@ -139,6 +139,7 @@ Once it's out, keep meat, soft cheese, seafood and cut fruit out for **no more t
 
 ## Related Reading
 
+- [Unique Charcuterie Books: 7 That Do Something Other Board Books Don't](/blog/unique-charcuterie-books/)
 - [Jack-o'-Lantern Charcuterie Board: The Giant Pumpkin Board for 12 to 15](/blog/jack-o-lantern-charcuterie-board/)
 - [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
 - [Christmas Wreath Charcuterie Board](/blog/christmas-wreath-charcuterie-board/)

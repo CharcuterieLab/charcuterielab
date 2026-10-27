@@ -327,6 +327,7 @@ Unusual ingredients aren't about being obscure. Each one here earns its spot by 
 
 ## Related Reading
 
+- [Unique Charcuterie Books: 7 That Do Something Other Board Books Don't](/blog/unique-charcuterie-books/)
 - [The Full Ingredient Library: 350 Ingredients, One Page Each](https://charcuterielab.com/ingredients/)
 - [Cheeses You've Never Tried](https://charcuterielab.com/blog/cheeses-you-have-never-tried/)
 - [Pairing by Contrast: Why Opposites Work](https://charcuterielab.com/blog/pairing-by-contrast/)

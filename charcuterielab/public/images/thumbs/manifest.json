@@ -1892,14 +1892,6 @@
 1024,
 687
 ],
-"/images/charcuterie-board-ideas-pdf-pin.jpg": [
-1000,
-1500
-],
-"/images/charcuterie-board-ideas-pdf.jpg": [
-1200,
-800
-],
 "/images/charcuterie-board-ideas.png": [
 1262,
 680
@@ -8656,22 +8648,6 @@
 240,
 161
 ],
-"/images/thumbs/charcuterie-board-ideas-pdf-jpg-m.webp": [
-640,
-427
-],
-"/images/thumbs/charcuterie-board-ideas-pdf-jpg-s.webp": [
-240,
-160
-],
-"/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-m.webp": [
-640,
-960
-],
-"/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-s.webp": [
-240,
-360
-],
 "/images/thumbs/charcuterie-board-ideas-png-m.webp": [
 640,
 345
@@ -14748,6 +14724,22 @@
 240,
 161
 ],
+"/images/thumbs/unique-charcuterie-books-jpg-m.webp": [
+640,
+427
+],
+"/images/thumbs/unique-charcuterie-books-jpg-s.webp": [
+240,
+160
+],
+"/images/thumbs/unique-charcuterie-books-pin-jpg-m.webp": [
+640,
+960
+],
+"/images/thumbs/unique-charcuterie-books-pin-jpg-s.webp": [
+240,
+360
+],
 "/images/thumbs/unique-charcuterie-ingredients-jpg-m.webp": [
 640,
 429
@@ -14971,6 +14963,14 @@
 "/images/types-of-salami.png": [
 1024,
 687
+],
+"/images/unique-charcuterie-books-pin.jpg": [
+1000,
+1500
+],
+"/images/unique-charcuterie-books.jpg": [
+1200,
+800
 ],
 "/images/unique-charcuterie-ingredients.jpg": [
 1024,
@@ -16933,14 +16933,6 @@
 "/images/charcuterie-board-fruit.png": {
 "m": "/images/thumbs/charcuterie-board-fruit-png-m.webp",
 "s": "/images/thumbs/charcuterie-board-fruit-png-s.webp"
-},
-"/images/charcuterie-board-ideas-pdf-pin.jpg": {
-"m": "/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-m.webp",
-"s": "/images/thumbs/charcuterie-board-ideas-pdf-pin-jpg-s.webp"
-},
-"/images/charcuterie-board-ideas-pdf.jpg": {
-"m": "/images/thumbs/charcuterie-board-ideas-pdf-jpg-m.webp",
-"s": "/images/thumbs/charcuterie-board-ideas-pdf-jpg-s.webp"
 },
 "/images/charcuterie-board-ideas.png": {
 "m": "/images/thumbs/charcuterie-board-ideas-png-m.webp",
@@ -19982,6 +19974,14 @@
 "/images/types-of-salami.png": {
 "m": "/images/thumbs/types-of-salami-png-m.webp",
 "s": "/images/thumbs/types-of-salami-png-s.webp"
+},
+"/images/unique-charcuterie-books-pin.jpg": {
+"m": "/images/thumbs/unique-charcuterie-books-pin-jpg-m.webp",
+"s": "/images/thumbs/unique-charcuterie-books-pin-jpg-s.webp"
+},
+"/images/unique-charcuterie-books.jpg": {
+"m": "/images/thumbs/unique-charcuterie-books-jpg-m.webp",
+"s": "/images/thumbs/unique-charcuterie-books-jpg-s.webp"
 },
 "/images/unique-charcuterie-ingredients.jpg": {
 "m": "/images/thumbs/unique-charcuterie-ingredients-jpg-m.webp",

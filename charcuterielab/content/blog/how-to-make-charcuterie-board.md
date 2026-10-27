@@ -109,6 +109,7 @@ The sequence is the skill: cheese anchors first, meats next, condiments and frui
 
 ## Related Reading
 
+- [Unique Charcuterie Books: 7 That Do Something Other Board Books Don't](/blog/unique-charcuterie-books/)
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)
 - [How Much Cheese for a Charcuterie Board?](https://charcuterielab.com/how-much-cheese-charcuterie-board/)
 - [How to Cut Cheese for a Charcuterie Board](/blog/how-to-cut-cheese-charcuterie-board/)

@@ -496,6 +496,7 @@ Any board concept above can be scaled (multiply the quantities), simplified (dro
 
 ## Related Reading
 
+- [Unique Charcuterie Books: 7 That Do Something Other Board Books Don't](/blog/unique-charcuterie-books/)
 - [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [How to Choose and Use Different Charcuterie Board Shapes](https://charcuterielab.com/blog/board-shapes/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
