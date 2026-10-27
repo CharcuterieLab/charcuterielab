@@ -13,10 +13,10 @@ tags: "["best cheese knife set", "cheese knives", "cheese knife set gift", "char
 
 # The Best Cheese Knife Sets for a Charcuterie Board (and to Give as a Gift)
 
-> **Quick Answer:** Buy the **Boska Copenhagen Cheese Knife Set** (about $20–30): three dishwasher-safe knives for soft, semi-hard and hard cheese. For a gift, **Laguiole by Jean Dubost** (about $100). For thin slices, the **Wüsthof cheese plane**, which won America's Test Kitchen's test.
+> **Quick Answer:** Buy the **Boska Copenhagen Cheese Knife Set** (about $20–30): three dishwasher-safe knives for soft, semi-hard and hard cheese. For a gift, **Laguiole by Jean Dubost** (about $60 to $100). For thin slices, the **Wüsthof cheese plane**, which won America's Test Kitchen's test.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boska Copenhagen Cheese Knife Set</a><p class="sk-top-line">3 knives, dishwasher safe, lifetime guarantee</p></div><div class="sk-top-buy"><span class="sk-price">$20–30</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Boska+Copenhagen+cheese+knife+set" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-3">Laguiole by Jean Dubost 3-Piece Cheese Set</a><p class="sk-top-line">The boxed French set people leave out</p></div><div class="sk-top-buy"><span class="sk-price">About $100</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Jean+Dubost+Laguiole+3+piece+cheese+set" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese plane</p><a class="sk-top-name" href="#pick-5">Wüsthof Gourmet 4¾-Inch Cheese Plane</a><p class="sk-top-line">Won America&#x27;s Test Kitchen&#x27;s test of 9 planes</p></div><div class="sk-top-buy"><span class="sk-price">$25–45</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Wusthof+Gourmet+cheese+plane" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boska Copenhagen Cheese Knife Set</a><p class="sk-top-line">3 knives, dishwasher safe, lifetime guarantee</p></div><div class="sk-top-buy"><span class="sk-price">$20–30</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07B5Q337D" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-3">Laguiole by Jean Dubost 3-Piece Cheese Set</a><p class="sk-top-line">The boxed French set people leave out</p></div><div class="sk-top-buy"><span class="sk-price">About $60–100</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01MSIJCVV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese plane</p><a class="sk-top-name" href="#pick-5">Wüsthof Gourmet 4¾-Inch Cheese Plane</a><p class="sk-top-line">Won America&#x27;s Test Kitchen&#x27;s test of 9 planes</p></div><div class="sk-top-buy"><span class="sk-price">$25–45</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B08XK14FNK" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#which-knives">Which knives you need</a><a href="#how-to-choose">How to choose</a><a href="#cheese-knife-questions">FAQ</a></nav>
 :::
 
@@ -38,23 +38,23 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>About $20–30</dd></div><div><dt>In the box</dt><dd>3 knives: soft, semi-hard, hard</dd></div><div><dt>Dishwasher</dt><dd>Yes</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Covers every cheese on a board for the least money.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain all-steel look. For a gift, see Monaco+ or Laguiole.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boska+Copenhagen+cheese+knife+set" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07B5Q337D" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Boska lists the set as dishwasher safe with a lifetime guarantee, at €19.99 on its own store (<a href="https://www.boska.com/en/products/cheese-knife-set-copenhagen" target="_blank" rel="noopener">Boska</a>). Bustle picked a knife from the same Copenhagen line as its best for hard cheese, cast from a single piece of steel (<a href="https://www.bustle.com/life/best-cheese-knives" target="_blank" rel="noopener">Bustle</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best gift set</p><h3>Boska Monaco+ Cheese Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>About $40–55</dd></div><div><dt>In the box</dt><dd>Brie, cheese and Parmesan knives</dd></div><div><dt>Dishwasher</dt><dd>Yes, but hand wash advised</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $55–65</dd></div><div><dt>In the box</dt><dd>Brie, cheese and Parmesan knives</dd></div><div><dt>Dishwasher</dt><dd>Yes, but hand wash advised</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The Copenhagen&#x27;s three jobs with a satin finish that looks like a gift.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs about twice the Copenhagen set.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boska+Monaco+cheese+knife+set" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07B5JLMT8" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A brie knife, a cheese knife and a Parmesan knife in satin-finish stainless steel (<a href="https://www.knivesandtools.co.uk/en/pt/-boska-monaco--307095-cheese-knife-set.htm" target="_blank" rel="noopener">Knivesandtools</a>). Boska sells it for €44.99 (<a href="https://www.boska.com/en/collections/cheese-knives" target="_blank" rel="noopener">Boska</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Splurge</p><h3>Laguiole by Jean Dubost 3-Piece Cheese Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>About $100</dd></div><div><dt>In the box</dt><dd>Cleaver, fork-tip knife, spreader</dd></div><div><dt>Dishwasher</dt><dd>Hand wash recommended</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $60–100</dd></div><div><dt>In the box</dt><dd>Cleaver, fork-tip knife, spreader</dd></div><div><dt>Dishwasher</dt><dd>Hand wash recommended</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Beautiful on the counter, and it comes boxed, ready to give.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The cleaver makes chunks, not thin slices.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Jean+Dubost+Laguiole+3+piece+cheese+set" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01MSIJCVV" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>An 8.5-inch cleaver for hard cheese, a 9-inch fork-tipped knife and a 6-inch spreader, about $100 (<a href="https://cookswarehouse.com/products/jean-dubost-3-piece-cheese-set-in-box-stainless-steel" target="_blank" rel="noopener">Cook&#x27;s Warehouse</a>). Cheese Grotto and Taste of Home both point to Laguiole pieces for a board.</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -62,7 +62,7 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>$99.99 list</dd></div><div><dt>In the box</dt><dd>Soft (with holes), fork-tip, Parmesan</dd></div><div><dt>Made in</dt><dd>China</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Good shapes, including holes in the soft-cheese blade.</p>
 <p class="sk-mind"><strong>Watch out:</strong> About four times the Boska Copenhagen for the same three jobs.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Zwilling+3+piece+cheese+knife+set+stainless" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B071XWST82" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A soft-cheese knife with holes in a broad blade, a fork-tipped knife for cheddar and Jack, and a pointed Parmesan knife in brushed stainless steel. Zwilling lists it at $99.99, made in China (<a href="https://www.zwilling.com/us/zwilling-accessories-3-pc-cheese-knife-set/39432-000.html" target="_blank" rel="noopener">Zwilling</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -70,7 +70,7 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>About $25–45</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK winner (2017)</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean, even slices of Gouda, Jarlsberg and Gruyère every time.</p>
 <p class="sk-mind"><strong>Watch out:</strong> One job only. ATK&#x27;s test is from 2017.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Wusthof+Gourmet+cheese+plane" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08XK14FNK" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>America&#x27;s Test Kitchen tested nine planes on cheddar and Manchego. This one &quot;produced perfect, clean-edged, even slices of ideal thickness every time,&quot; thanks to a thin, flexible head (<a href="https://www.americastestkitchen.com/cooksillustrated/articles/525-testing-cheese-planes" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -78,7 +78,7 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>Under $20</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK recommended</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good plane for less, sold almost everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Cheese edges stuck and broke a little more often than with the Wüsthof.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=OXO+Good+Grips+cheese+plane" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B079DD92CQ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Recommended in the same America&#x27;s Test Kitchen test, performing nearly as well as the winner (<a href="https://www.americastestkitchen.com/cooksillustrated/articles/525-testing-cheese-planes" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">

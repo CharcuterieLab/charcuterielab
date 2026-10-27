@@ -70,7 +70,7 @@ A 22 by 17 inch wood board printed with a guide to where the cheese, meat and fr
 
 - **Why we like it:** Takes the guesswork out of a first board.
 - **Keep in mind:** The guide is part of the board for good, so it looks less clean once you know what you're doing.
-- **Where to buy:** [Check price on Amazon](https://www.amazon.com/s?k=Sophistiplate+charcuterie+board+placement+guide)
+- **Where to buy:** [Check price on Amazon](https://www.amazon.com/dp/B0CGC5X142)
 
 ### etúHOME Rectangle Pine Charcuterie Board
 

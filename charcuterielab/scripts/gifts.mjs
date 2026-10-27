@@ -31,43 +31,45 @@ export function giftsInNav(d = new Date()) {
 
 const amz = (u) => (AMAZON_TAG && /amazon\.com/.test(u) ? `${u}${u.includes("?") ? "&" : "?"}tag=${AMAZON_TAG}` : u);
 const search = (q) => amz(`https://www.amazon.com/s?k=${encodeURIComponent(q).replace(/'/g, "%27")}`);
+// Exact product page when the item has an ASIN (Associates only pays on the linked product).
+const buyUrl = (it) => (it.asin ? amz(`https://www.amazon.com/dp/${it.asin}`) : search(it.q));
 
 // ---------------------------------------------------------------- products
 // Reusable third-party picks. price = typical range in USD.
 const ITEMS = {
-  knives3: { name: "A 3-piece cheese knife set", price: [12, 20], q: "3 piece cheese knife set", note: "One soft-cheese knife, one spreader, one pointed knife for hard cheese. That covers every cheese on a board.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
-  boska: { name: "Boska Monaco+ cheese knife set", price: [30, 45], q: "Boska Monaco cheese knife set", note: "Dutch cheese-tool maker Boska's step-up set: a brie knife, a cheese knife and a Parmesan knife in satin-finish stainless steel.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
-  plane: { name: "A Norwegian cheese plane", price: [10, 18], q: "cheese plane slicer", note: "Shaves paper-thin slices of Gouda, Jarlsberg or Gruyère. Cheap, useful every day, and most people don't own one." },
-  figSpread: { name: "Dalmatia Original Fig Spread", price: [6, 9], q: "Dalmatia fig spread", note: "Our top-ranked fig jam: thick, seedy and not too sweet.", guide: ["Best fig jam, ranked", "/blog/best-fig-jam/"] },
-  hotHoney: { name: "A jar of hot honey", price: [9, 13], q: "hot honey", note: "Chili-infused honey for salami, pizza, fried chicken and sharp cheddar.", guide: ["Best hot honey, ranked", "/blog/best-hot-honey/"] },
-  honeycomb: { name: "A boxed honeycomb", price: [12, 20], q: "honeycomb comb honey", note: "The single prettiest thing you can put on a board. Pairs with blue cheese and aged cheddar.", guide: ["Best honey for cheese", "/blog/best-honey-for-cheese/"] },
+  knives3: { asin: "B07W6KG3ZV", name: "A 3-piece cheese knife set", price: [9, 15], q: "3 piece cheese knife set", note: "One soft-cheese knife, one spreader, one pointed knife for hard cheese. That covers every cheese on a board.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  boska: { asin: "B07B5JLMT8", name: "Boska Monaco+ cheese knife set", price: [50, 65], q: "Boska Monaco cheese knife set", note: "Dutch cheese-tool maker Boska's step-up set: a brie knife, a cheese knife and a Parmesan knife in satin-finish stainless steel.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  plane: { asin: "B0F38K8RS1", name: "A Norwegian cheese plane", price: [7, 18], q: "cheese plane slicer", note: "Shaves paper-thin slices of Gouda, Jarlsberg or Gruyère. Cheap, useful every day, and most people don't own one." },
+  figSpread: { asin: "B00AOP0V82", name: "Dalmatia Original Fig Spread", price: [8, 12], q: "Dalmatia fig spread", note: "Our top-ranked fig jam: thick, seedy and not too sweet.", guide: ["Best fig jam, ranked", "/blog/best-fig-jam/"] },
+  hotHoney: { asin: "B085B1YZ8Q", name: "A jar of hot honey", price: [9, 13], q: "hot honey", note: "Chili-infused honey for salami, pizza, fried chicken and sharp cheddar.", guide: ["Best hot honey, ranked", "/blog/best-hot-honey/"] },
+  honeycomb: { asin: "B082XK9RQF", name: "A boxed honeycomb", price: [10, 20], q: "honeycomb comb honey", note: "The single prettiest thing you can put on a board. Pairs with blue cheese and aged cheddar.", guide: ["Best honey for cheese", "/blog/best-honey-for-cheese/"] },
   marcona: { name: "Marcona almonds", price: [8, 14], q: "marcona almonds", note: "Spain's rounder, softer, butterier almond, fried in olive oil and salted.", guide: ["Best Marcona almonds", "/blog/best-marcona-almonds/"] },
-  mustard: { name: "A whole-grain mustard", price: [5, 9], q: "whole grain mustard", note: "The condiment hosts forget. It's what makes salami and cheddar taste finished.", guide: ["Best mustard for charcuterie", "/blog/best-mustard-for-charcuterie/"] },
-  markers: { name: "Slate cheese markers with a chalk pen", price: [8, 14], q: "slate cheese markers chalk", note: "Little slate flags to label each cheese, so guests stop asking what everything is." },
-  picks: { name: "Bamboo cocktail picks", price: [6, 10], q: "bamboo cocktail picks", note: "For olives, salami folds and cheese cubes. A host runs out of these at every party." },
-  ramekins: { name: "A set of small dip bowls", price: [14, 22], q: "small ramekins dip bowls set", note: "Jam, mustard, olives and nuts need small bowls, and most kitchens have two at most." },
-  storage: { name: "Formaticum cheese storage bags", price: [14, 18], q: "Formaticum cheese storage bags", note: "Two-ply cheese paper bags that let cheese breathe without drying out. Cheese shops use the same paper.", guide: ["How to store cheese", "/blog/cheese-storage/"] },
+  mustard: { asin: "B000SR5VOU", name: "A whole-grain mustard", price: [4, 9], q: "whole grain mustard", note: "The condiment hosts forget. It's what makes salami and cheddar taste finished.", guide: ["Best mustard for charcuterie", "/blog/best-mustard-for-charcuterie/"] },
+  markers: { asin: "B0BGPRVXKX", name: "Slate cheese markers with slate pencils", price: [8, 12], q: "slate cheese markers chalk", note: "Little slate flags to label each cheese, so guests stop asking what everything is." },
+  picks: { asin: "B08QCDZVCX", name: "Bamboo cocktail picks", price: [6, 10], q: "bamboo cocktail picks", note: "For olives, salami folds and cheese cubes. A host runs out of these at every party." },
+  ramekins: { asin: "B0D53YPCWC", name: "A set of small dip cups", price: [8, 14], q: "small ramekins dip bowls set", note: "Jam, mustard, olives and nuts need small bowls, and most kitchens have two at most." },
+  storage: { asin: "B00BEDW76W", name: "Formaticum cheese storage bags", price: [15, 20], q: "Formaticum cheese storage bags", note: "Two-ply cheese paper bags that let cheese breathe without drying out. Cheese shops use the same paper.", guide: ["How to store cheese", "/blog/cheese-storage/"] },
   acacia: { name: "An acacia wood serving board", price: [20, 35], q: "acacia wood charcuterie board", note: "Dense, affordable hardwood with a warm grain. Look for 16 inches or longer.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
-  slate: { name: "A slate cheese board with chalk", price: [20, 30], q: "slate cheese board with chalk", note: "Black slate makes every cheese and meat stand out, and you can write the names right on it.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
-  dome: { name: "A glass cheese dome", price: [25, 45], q: "glass cheese dome with board", note: "Keeps a cut wedge covered on the counter while it comes to room temperature." },
-  club: { name: "A cheese-of-the-month club", price: null, tier: "$$$$", q: "cheese of the month club gift", note: "Murray's Cheese and several other shops ship a monthly box of cheeses picked by a cheesemonger. Check each club's plans for current prices." },
-  kit: { name: "A beginner mozzarella and ricotta kit", price: [25, 40], q: "mozzarella cheese making kit", note: "Fresh mozzarella in about an hour from a gallon of milk. A fun first step for a cheese lover who cooks." },
+  slate: { asin: "B09D77M6SZ", name: "Two slate cheese boards with chalk", price: [25, 32], q: "slate cheese board with chalk", note: "Black slate makes every cheese and meat stand out, and you can write the names right on it.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
+  dome: { asin: "B0DCYL6893", name: "A glass cheese dome", price: [22, 30], q: "glass cheese dome with board", note: "Keeps a cut wedge covered on the counter while it comes to room temperature." },
+  club: { name: "A cheese-of-the-month club", price: null, tier: "$$$$", href: "/blog/best-cheese-of-the-month-clubs/", hrefLabel: "See our ranked clubs", note: "Murray's Cheese and several other shops ship a monthly box of cheeses picked by a cheesemonger. Check each club's plans for current prices." },
+  kit: { asin: "B07SC4LBZM", name: "A beginner mozzarella and ricotta kit", price: [25, 32], q: "mozzarella cheese making kit", note: "Fresh mozzarella in about an hour from a gallon of milk. A fun first step for a cheese lover who cooks." },
   veganCheese: { name: "Boursin Dairy-Free Garlic & Herbs", price: [6, 9], q: "Boursin dairy free garlic herbs", note: "Our top-ranked vegan cheese for a board: spreadable, garlicky and close to the original.", guide: ["Best vegan cheese, ranked", "/blog/best-vegan-cheese/"] },
-  olives: { name: "Mezzetta Castelvetrano olives", price: [5, 9], q: "Mezzetta Castelvetrano olives", note: "Our top-ranked olive: bright green, buttery and mild enough for people who say they don't like olives.", guide: ["Best olives, ranked", "/blog/best-olives-for-charcuterie/"] },
-  chocolate: { name: "Tony's Chocolonely Dark Chocolate 70%", price: [5, 8], q: "Tony's Chocolonely dark chocolate 70", note: "Our top-ranked dark chocolate for a board. Break it into shards next to the blue cheese.", guide: ["Best dark chocolate, ranked", "/blog/best-dark-chocolate/"] },
-  cheeseCrisps: { name: "Baked Parmesan cheese crisps", price: [6, 10], q: "parmesan cheese crisps", note: "Crunchy crisps made from nothing but baked cheese. The keto stand-in for crackers." },
-  porkRinds: { name: "A bag of good pork rinds", price: [4, 8], q: "pork rinds", note: "Zero-carb crunch for dips and soft cheese, and better than people expect." },
-  salami: { name: "A whole dry salami", price: [8, 15], q: "whole dry salami", note: "Whole and unopened, a dry salami keeps about 6 weeks in the pantry (USDA). A gift that waits for the next party.", guide: ["Best salami, ranked", "/blog/best-salami-brands/"] },
-  aerator: { name: "A handheld wine aerator", price: [15, 30], q: "handheld wine aerator pourer", note: "Pours young red wine through a stream of air, which softens harsh tannins in seconds." },
-  glasses: { name: "A pair of all-purpose wine glasses", price: [20, 35], q: "all purpose wine glasses set of 2", note: "One good tulip-shaped glass works for red, white and sparkling. Most people own mismatched ones." },
-  honeyDipper: { name: "A wooden honey dipper", price: [5, 9], q: "wooden honey dipper", note: "The tiny tool that keeps honey off the board and on the cheese." },
-  coasters: { name: "Slate coasters", price: [12, 20], q: "slate coasters set", note: "They match a slate board and take a sweating glass without a ring." },
+  olives: { asin: "B07NV7D17M", name: "Mezzetta Castelvetrano olives", price: [12, 16], q: "Mezzetta Castelvetrano olives", note: "Our top-ranked olive: bright green, buttery and mild enough for people who say they don't like olives.", guide: ["Best olives, ranked", "/blog/best-olives-for-charcuterie/"] },
+  chocolate: { asin: "B087K17C7Q", name: "Tony's Chocolonely Dark Chocolate 70%", price: [14, 18], q: "Tony's Chocolonely dark chocolate 70", note: "Our top-ranked dark chocolate for a board. Break it into shards next to the blue cheese.", guide: ["Best dark chocolate, ranked", "/blog/best-dark-chocolate/"] },
+  cheeseCrisps: { asin: "B0D14Y8TWK", name: "Mrs. Cubbison's Parmesan cheese crisps (4-pack)", price: [10, 14], q: "parmesan cheese crisps", note: "Crunchy crisps made from nothing but baked cheese. The keto stand-in for crackers." },
+  porkRinds: { asin: "B08WKZ3MLR", name: "A 6-pack of pork rinds", price: [10, 15], q: "pork rinds", note: "Zero-carb crunch for dips and soft cheese, and better than people expect." },
+  salami: { asin: "B01MYXAWVD", name: "A whole dry salami", price: [12, 16], q: "whole dry salami", note: "Whole and unopened, a dry salami keeps about 6 weeks in the pantry (USDA). A gift that waits for the next party.", guide: ["Best salami, ranked", "/blog/best-salami-brands/"] },
+  aerator: { asin: "B07DSX9RSP", name: "A handheld wine aerator", price: [12, 18], q: "handheld wine aerator pourer", note: "Pours young red wine through a stream of air, which softens harsh tannins in seconds." },
+  glasses: { asin: "B08GKNR1QL", name: "A pair of all-purpose wine glasses", price: [12, 20], q: "all purpose wine glasses set of 2", note: "One good tulip-shaped glass works for red, white and sparkling. Most people own mismatched ones." },
+  honeyDipper: { asin: "B0CN2TXGJ7", name: "Wooden honey dippers (set of 4)", price: [5, 8], q: "wooden honey dipper", note: "The tiny tool that keeps honey off the board and on the cheese." },
+  coasters: { asin: "B08R84RPYY", name: "Slate coasters", price: [15, 20], q: "slate coasters set", note: "They match a slate board and take a sweating glass without a ring." },
   wineGuide: { name: "Wine & Cheese Pairing Guide (printable)", price: [4, 4], href: "/printables/wine-cheese-pairing-guide/", note: "Our printable chart of which cheeses go with which wines. Print it, fold it into the card, done." },
   styling: { name: "Board Styling Playbook (printable)", price: [4, 4], href: "/printables/board-styling-playbook/", note: "Our printable guide to salami roses, cheese cuts and layout. Prints in minutes for a last-minute add-on." },
   // Added 19 Oct 2026 for /gifts/for-him/ and /gifts/client-gifts/. Sources are on the linked guides.
-  wusthofPlane: { name: "Wüsthof Gourmet cheese plane", price: [25, 45], q: "Wusthof Gourmet cheese plane", note: "Won America's Test Kitchen's test of nine cheese planes for clean, even slices every time. A tool he'll use on every block of cheddar.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
-  laguiole: { name: "Laguiole by Jean Dubost 3-piece cheese set", price: [80, 110], q: "Jean Dubost Laguiole 3 piece cheese set", note: "A French cleaver, a fork-tipped knife and a spreader, boxed and ready to give. The set people leave out on the counter.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
-  glencairn: { name: "A pair of Glencairn whisky glasses", price: [20, 35], q: "Glencairn whisky glass set of 2", note: "The Scottish tulip-shaped tasting glass, made to concentrate a whisky's aroma. Give it with a block of aged cheddar and our pairing guide.", guide: ["Whiskey and cheese pairing", "/blog/whiskey-and-cheese-pairing/"] },
+  wusthofPlane: { asin: "B08XK14FNK", name: "Wüsthof Gourmet cheese plane", price: [40, 50], q: "Wusthof Gourmet cheese plane", note: "Won America's Test Kitchen's test of nine cheese planes for clean, even slices every time. A tool he'll use on every block of cheddar.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  laguiole: { asin: "B01N3P0S37", name: "Laguiole by Jean Dubost 3-piece cheese set", price: [55, 70], q: "Jean Dubost Laguiole 3 piece cheese set", note: "A French cleaver, a fork-tipped knife and a spreader, boxed and ready to give. The set people leave out on the counter.", guide: ["Best cheese knife sets", "/blog/best-cheese-knife-sets/"] },
+  glencairn: { asin: "B0747LBSVT", name: "A pair of Glencairn whisky glasses", price: [20, 30], q: "Glencairn whisky glass set of 2", note: "The Scottish tulip-shaped tasting glass, made to concentrate a whisky's aroma. Give it with a block of aged cheddar and our pairing guide.", guide: ["Whiskey and cheese pairing", "/blog/whiskey-and-cheese-pairing/"] },
   giftBox: { name: "A meat and cheese gift box", price: [30, 190], href: "/blog/best-charcuterie-gift-boxes/", hrefLabel: "See our ranked gift boxes", note: "We ranked ten. Our top pick is Harry & David's Ultimate Meat and Cheese box, about 5.5 lb of sausage, salami, cheese and crackers for about $110." },
   ctft: { name: "CTFT cheese board and knife set", price: [28, 35], q: "CTFT cheese board and knife set bamboo", note: "A 13-inch bamboo board with a hidden drawer of four cheese knives, chalk and slate labels. NBC Select's editor's pick.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
   engraved: { name: "Mark & Graham engraved wood and marble cheese board", price: [45, 70], buy: ["See it at Mark & Graham", "https://www.markandgraham.com/"], note: "Acacia and marble, in two sizes, and it can be engraved with initials or a company name. An NBC Select reviewer said it feels heavy and good quality.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
@@ -78,9 +80,9 @@ const ITEMS = {
 
 // Other authors' books (no affiliation). Honest one-liners.
 const OTHER_BOOKS = {
-  mullen: { name: "That Cheese Plate Will Change Your Life", by: "Marissa Mullen", price: [20, 28], q: "That Cheese Plate Will Change Your Life Marissa Mullen", note: "A colourful, step-by-step styling book built on Mullen's \"Cheese by Numbers\" method. Great for someone who loves how boards look." },
-  balslev: { name: "Little Book of Charcuterie and Cheese", by: "Lynda Balslev", price: [10, 16], q: "Little Book of Charcuterie and Cheese Balslev", note: "A small hardback with pairing basics and simple board ideas. Fits in a stocking." },
-  ruhlman: { name: "Charcuterie: The Craft of Salting, Smoking, and Curing", by: "Michael Ruhlman and Brian Polcyn", price: [22, 35], q: "Charcuterie Craft of Salting Smoking Curing Ruhlman", note: "The classic on making your own bacon, sausage and cured meats. For the person who wants to cure, not just serve." }
+  mullen: { asin: "0593157591", name: "That Cheese Plate Will Change Your Life", by: "Marissa Mullen", price: [14, 20], q: "That Cheese Plate Will Change Your Life Marissa Mullen", note: "A colourful, step-by-step styling book built on Mullen's \"Cheese by Numbers\" method. Great for someone who loves how boards look." },
+  balslev: { asin: "1524878049", name: "Little Book of Charcuterie and Cheese", by: "Lynda Balslev", price: [7, 16], q: "Little Book of Charcuterie and Cheese Balslev", note: "A small hardback with pairing basics and simple board ideas. Fits in a stocking." },
+  ruhlman: { asin: "0393240053", name: "Charcuterie: The Craft of Salting, Smoking, and Curing", by: "Michael Ruhlman and Brian Polcyn", price: [22, 30], q: "Charcuterie Craft of Salting Smoking Curing Ruhlman", note: "The classic on making your own bacon, sausage and cured meats. For the person who wants to cure, not just serve." }
 };
 
 // ---------------------------------------------------------------- guides
@@ -587,7 +589,7 @@ export function giftPages(h, books) {
       <p>${esc(s.line)}</p>
       <ul>
         ${bks.map((b) => `<li><a href="${esc(b.paperbackUrl ? amz(b.paperbackUrl) : T(b.ebookUrl, campaign))}" target="_blank" rel="noopener"><strong>${esc(b.short)}</strong></a>, ${b.paperbackUrl ? "paperback" : "ebook"} ${esc(b.paperbackUrl ? b.paperbackPrice : b.ebookPrice)}</li>`).join("\n        ")}
-        ${its.map((i) => `<li><a href="${esc(i.buy ? i.buy[1] : i.href || search(i.q))}"${i.href && !i.buy ? "" : ' target="_blank" rel="noopener nofollow"'}>${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
+        ${its.map((i) => `<li><a href="${esc(i.buy ? i.buy[1] : i.href || buyUrl(i))}"${i.href && !i.buy ? "" : ' target="_blank" rel="noopener nofollow"'}>${esc(i.name)}</a>, ${range(i.price)}</li>`).join("\n        ")}
       </ul>
     </article>`;
   }
@@ -616,7 +618,7 @@ export function giftPages(h, books) {
         <h3>${n}. ${esc(it.name)}${it.by ? ` <span class="gf-by">by ${esc(it.by)}</span>` : ""}</h3>
         <dl class="sk-facts sk-facts-2"><div><dt>Price</dt><dd>${esc(price)}</dd></div><div><dt>Get it</dt><dd>${esc(pickWhere(p))}</dd></div></dl>
         <p>${esc(p.why || it.note)}${it.guide ? ` <a href="${it.guide[1]}">${esc(it.guide[0])}</a>` : ""}</p>
-        ${it.buy ? `<a class="button gf-btn-shop" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0])}</a>` : it.href ? `<a class="button gf-btn-shop" href="${it.href}">${esc(it.hrefLabel || "See the printable")}</a>` : `<a class="button gf-btn-shop" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
+        ${it.buy ? `<a class="button gf-btn-shop" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0])}</a>` : it.href ? `<a class="button gf-btn-shop" href="${it.href}">${esc(it.hrefLabel || "See the printable")}</a>` : `<a class="button gf-btn-shop" href="${esc(buyUrl(it))}" target="_blank" rel="noopener nofollow">See it on Amazon</a>`}
       </div>
     </article>`;
   }
@@ -643,7 +645,7 @@ export function giftPages(h, books) {
     const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
     if (it.buy) return `<a class="${cls}" href="${esc(it.buy[1])}" target="_blank" rel="noopener">${esc(it.buy[0].replace(/^See it at /, "At "))}</a>`;
     if (it.href) return `<a class="${cls}" href="${it.href}">${esc(it.hrefLabel || "See it")}</a>`;
-    return `<a class="${cls}" href="${esc(search(it.q))}" target="_blank" rel="noopener nofollow">On Amazon</a>`;
+    return `<a class="${cls}" href="${esc(buyUrl(it))}" target="_blank" rel="noopener nofollow">On Amazon</a>`;
   }
   function pickWhere(p) {
     if (p.book) return B[p.book].paperbackUrl ? "Amazon (paperback), instant ebook" : "Instant ebook";
