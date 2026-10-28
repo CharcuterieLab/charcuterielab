@@ -28,12 +28,12 @@
 
 [[redirects]]
   from = "/printables/complete-board-builder-bundle/"
-  to = "/printables/"
+  to = "/shop/"
   status = 301
 
 [[redirects]]
   from = "/printables/complete-board-builder-bundle"
-  to = "/printables/"
+  to = "/shop/"
   status = 301
 
 [[redirects]]
@@ -83,7 +83,7 @@
 
 [[redirects]]
   from = "/temperature-guide"
-  to = "/blog/charcuterie-board-two/"
+  to = "/blog/temperature-guide/"
   status = 301
 
 [[redirects]]
@@ -98,7 +98,7 @@
 
 [[redirects]]
   from = "/wine-cheese-board"
-  to = "/blog/wine-only/"
+  to = "/blog/wine-cheese-board/"
   status = 301
 
 [[redirects]]
@@ -118,12 +118,12 @@
 
 [[redirects]]
   from = "/aged-cheddar"
-  to = "/blog/best-cheese-charcuterie-board/"
+  to = "/ingredients/aged-cheddar/"
   status = 301
 
 [[redirects]]
   from = "/brie"
-  to = "/blog/best-cheese-charcuterie-board/"
+  to = "/ingredients/brie/"
   status = 301
 
 [[redirects]]
@@ -138,12 +138,12 @@
 
 [[redirects]]
   from = "/iberico"
-  to = "/blog/best-meats-charcuterie-board/"
+  to = "/ingredients/jamon-iberico/"
   status = 301
 
 [[redirects]]
   from = "/blog/iberico"
-  to = "/blog/best-meats-charcuterie-board/"
+  to = "/ingredients/jamon-iberico/"
   status = 301
 
 [[redirects]]
