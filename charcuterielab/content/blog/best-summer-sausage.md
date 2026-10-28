@@ -14,7 +14,7 @@ slug: "best-summer-sausage"
 > **Quick Answer:** Our top pick for summer sausage on a charcuterie board is Cloverdale Original Tangy Summer Sausage (4.4 out of 5). Best value: Trader Joe's Natural Turkey Summer Sausage.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cloverdale Original Tangy Summer Sausage</a><p class="sk-top-line">Top-ranked. Classic tang.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Cloverdale+Original+Tangy+Summer+Sausage" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Natural Turkey Summer Sausage</a><p class="sk-top-line">Top score. Leaner.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cloverdale Original Tangy Summer Sausage</a><p class="sk-top-line">Top-ranked. Classic tang.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0CKW8K2NV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Natural Turkey Summer Sausage</a><p class="sk-top-line">Top score. Leaner.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -30,7 +30,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Classic tangy flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Midwest grocery, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Classic tang.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Easier to find in the Midwest.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Cloverdale+Original+Tangy+Summer+Sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CKW8K2NV" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Tied for first in <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>&#x27;s test with 10 out of 10: very savory, very fatty and with the classic summer sausage tang.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thick slices</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great on a board. Widely stocked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Classic, not adventurous.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Old+Wisconsin+Premium+Summer+Sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0D14X5RCB" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A beef and pork blend that <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a> scored 9 out of 10 and called ideal for thick slicing on charcuterie.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">

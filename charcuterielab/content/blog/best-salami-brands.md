@@ -14,7 +14,7 @@ slug: "best-salami-brands"
 > **Quick Answer:** Our top pick for salami on a charcuterie board is Olli Salumeria (4.5 out of 5). Best value: Volpi Genoa Salame. Splurge: Fra' Mani.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Fra&#x27;+Mani" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -57,7 +57,6 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Heavily awarded</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Heavily awarded. Traditional methods.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Fra&#x27;+Mani" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Founded by chef Paul Bertolli. Fra&#x27; Mani has won 12 Good Food Awards, and its Toscano took Best in Class at the 2023 World Charcuterie Awards. (Source: <a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +65,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Premium flavors</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Distinctive flavors. Good ingredients.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Smaller packs.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Creminelli+Fine+Meats" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07GLW5H6D" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle. (Source: <a href="https://en.wikipedia.org/wiki/Creminelli_Fine_Meats" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -75,7 +74,6 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sliced fresh. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard salami is less nuanced than Genoa.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+Hard+Salami" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a>&#x27;s best hard salami, with strong pork flavor and good fat content. Buying it sliced at the counter means fresher edges than a tray.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 4 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -84,7 +82,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Uncured. Easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Applegate+Naturals+Uncured+Genoa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07MN22X3G" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Reviews split: <a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a> named it the best Genoa, while <a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked it near the bottom as fatty and chewy. A fair pick if you want uncured.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
 </article>
 </div>

@@ -14,7 +14,7 @@ slug: "best-spanish-chorizo"
 > **Quick Answer:** Our top pick for Spanish chorizo on a charcuterie board is Palacios Chorizo (mild or hot) (4.3 out of 5). Best value: Columbus Spanish Style Chorizo Salame. Splurge: Fermín Chorizo Ibérico.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Palacios Chorizo (mild or hot)</a><p class="sk-top-line">Everywhere. Mild and hot versions.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Palacios+Chorizo" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Columbus Spanish Style Chorizo Salame</a><p class="sk-top-line">Available. Consistent.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Columbus+Spanish+Style+Chorizo+Salame" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fermín Chorizo Ibérico</a><p class="sk-top-line">Ibérico pork. Rich flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Fermín+Chorizo+Ibérico" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Palacios Chorizo (mild or hot)</a><p class="sk-top-line">Everywhere. Mild and hot versions.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CVBOTG2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Columbus Spanish Style Chorizo Salame</a><p class="sk-top-line">Available. Consistent.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fermín Chorizo Ibérico</a><p class="sk-top-line">Ibérico pork. Rich flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -30,7 +30,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday Spanish chorizo</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Mild and hot versions.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published taste tests.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Palacios+Chorizo" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00CVBOTG2" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Imported from La Rioja, dry-cured with smoked paprika and no added nitrates or nitrites. One of the most widely stocked Spanish chorizos in US grocery stores. (Source: <a href="http://www.palacioschorizo.com/" target="_blank" rel="noopener">Palacios Chorizo</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,6 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Ibérico richness</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Ibérico pork. Rich flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Fermín+Chorizo+Ibérico" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Made from Iberian pork, which is richer and more marbled than regular pork. Sold sliced and whole. (Source: <a href="https://www.joseandresfoods.com/fermin-usa-sliced-iberico-chorizo-c8180" target="_blank" rel="noopener">José Andrés Foods</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -48,7 +47,6 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <dl class="sk-facts"><div><dt>Best for</dt><dd>American-made option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Available. Consistent.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not imported Spanish chorizo.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Columbus+Spanish+Style+Chorizo+Salame" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A domestic dry salami seasoned in the Spanish style. Easy to find and easy to slice. (Source: <a href="https://www.columbuscraftmeats.com/products/salami/spanish-style-chorizo-salame/" target="_blank" rel="noopener">Columbus</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">

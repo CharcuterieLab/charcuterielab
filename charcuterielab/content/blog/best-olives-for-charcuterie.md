@@ -15,7 +15,7 @@ slug: "best-olives-for-charcuterie"
 > **Quick Answer:** Our top pick for olives on a charcuterie board is Mezzetta Castelvetrano Olives (4.7 out of 5). Best value: Trader Joe's Organic Conversation Olive Trio. Splurge: Kosterina Green Olives.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mezzetta Castelvetrano Olives</a><p class="sk-top-line">Easy to find. Buttery and mild.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mezzetta+Castelvetrano+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Organic Conversation Olive Trio</a><p class="sk-top-line">Three olives in one jar. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Kosterina Green Olives</a><p class="sk-top-line">Top-ranked. Fresh taste.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.6 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Kosterina+Green+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mezzetta Castelvetrano Olives</a><p class="sk-top-line">Easy to find. Buttery and mild.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07NV7D17M" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Organic Conversation Olive Trio</a><p class="sk-top-line">Three olives in one jar. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Kosterina Green Olives</a><p class="sk-top-line">Top-ranked. Fresh taste.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.6 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Kosterina+Green+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Buttery and mild.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pitted versions are softer.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mezzetta+Castelvetrano+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07NV7D17M" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked them third for buttery flesh and oversized olives it called perfect for charcuterie boards.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -40,7 +40,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Good value jar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Partanna+Castelvetrano+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B007ERDW34" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked second of 22 brands at <a href="https://www.tastingtable.com/1599303/jarred-olive-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> for bright, nutty flavor and creamy flesh in a generous jar.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -49,7 +49,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget Castelvetrano</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery, natural stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great for boards.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Jeff&#x27;s+Garden+Castelvetrano+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00EF85RYW" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-green-olives/" target="_blank" rel="noopener">Sporked</a> scored them 9 out of 10, calling them buttery, meaty and ideal for charcuterie boards.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
