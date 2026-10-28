@@ -618,7 +618,7 @@ export function placeholderSvg(b) {
   }
   const y0 = 400 - (lines.length - 1) * 34;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
-<defs><pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="28" height="28" fill="#14231a"/><rect width="14" height="28" fill="#182a1f"/></pattern></defs>
+<defs><pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="28" height="28" fill="#2b1b12"/><rect width="14" height="28" fill="#342116"/></pattern></defs>
 <rect width="1200" height="800" fill="url(#p)"/>
 <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#d8b25a" stroke-width="3" rx="18"/>
 <text x="600" y="${y0 - 110}" text-anchor="middle" font-family="Georgia,serif" font-size="30" letter-spacing="8" fill="#f3a35a">${x(country.toUpperCase())}</text>

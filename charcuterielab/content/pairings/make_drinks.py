@@ -530,7 +530,7 @@ COCKTAILS = dict(
 )
 
 ZERO = dict(
-    slug="zero-proof", family="zero", name="Zero-Proof Pairings", color="#6aa37a",
+    slug="zero-proof", family="zero", name="Zero-Proof Pairings", color="#c08a4a",
     answer="The best non-alcoholic drinks for a charcuterie board are sparkling apple cider, black or green iced tea, kombucha, tart cherry spritz and sparkling water with citrus. Bubbles, acid and tannin do what wine does.",
     intro="Wine works with cheese because of acid, bubbles and tannin. Plenty of alcohol-free drinks have the same three things, so the same pairing rules apply.",
     items=[

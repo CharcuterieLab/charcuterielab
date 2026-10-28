@@ -786,11 +786,11 @@ const CATEGORY_ART = {
     glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 4.2h11.2v3.4H6.4z"/><path d="M7.4 7.6h9.2v11a1.8 1.8 0 0 1-1.8 1.8H9.2a1.8 1.8 0 0 1-1.8-1.8Z"/><path d="M10 12.4h4"/></svg>`
   },
   "Pickles, Olives & Briny": {
-    tint: "#4e6b33",
+    tint: "#8a6a2a",
     glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="13.2" rx="5.7" ry="7.4"/><circle cx="12" cy="11" r="1.7"/><path d="M12 5.9c1.3-1.6 3.2-2.1 4.8-1.8"/></svg>`
   },
   "Finishing Touches": {
-    tint: "#3d6a56",
+    tint: "#7a4a3a",
     glyph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V8.2"/><path d="M12 13.4c0-3.1 1.9-5.2 4.9-5.6.2 3.2-1.7 5.6-4.9 5.6Z"/><path d="M12 13.4c0-3.1-1.9-5.2-4.9-5.6-.2 3.2 1.7 5.6 4.9 5.6Z"/><path d="M12 8.4c0-2.4 1.5-4 3.8-4.3.2 2.4-1.3 4.3-3.8 4.3Z"/></svg>`
   }
 };

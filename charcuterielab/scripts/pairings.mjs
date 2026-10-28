@@ -372,7 +372,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     <section class="bl-section" aria-labelledby="drinks-h">
       <h2 id="drinks-h">Start with your drink</h2>
       <ul class="pr-tiles">
-        ${[["wine", "Wine", `${wines.length} styles, from Champagne to port`, "#7a2432"], ["beer", "Beer & Cider", `${beers.length} styles, from lager to stout`, "#c9772b"], ["cocktails", "Cocktails & Spirits", "Martinis, spritzes, bourbon, sherry", "#b5651d"], ["zero-proof", "Zero-Proof", "Tea, cider, kombucha and spritzes", "#6aa37a"]].map(([u, t, s, c]) => `<li><a href="/pairings/${u}/" style="--t:${c}"><strong>${t}</strong><span>${s}</span></a></li>`).join("")}
+        ${[["wine", "Wine", `${wines.length} styles, from Champagne to port`, "#7a2432"], ["beer", "Beer & Cider", `${beers.length} styles, from lager to stout`, "#c9772b"], ["cocktails", "Cocktails & Spirits", "Martinis, spritzes, bourbon, sherry", "#b5651d"], ["zero-proof", "Zero-Proof", "Tea, cider, kombucha and spritzes", "#c08a4a"]].map(([u, t, s, c]) => `<li><a href="/pairings/${u}/" style="--t:${c}"><strong>${t}</strong><span>${s}</span></a></li>`).join("")}
       </ul>
       <p class="pr-chips">${wines.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}${beers.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}</p>
     </section>
@@ -626,7 +626,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
     <ul class="pr-tiles">
       ${[["wine", "Wine", wines], ["beer", "Beer & Cider", beers]].map(([u, t, list]) => `<li><a href="/pairings/${u}/" style="--t:${list[0].color}"><strong>${t}</strong><span>${list.map((d) => B(d.name)).join(" · ")}</span></a></li>`).join("")}
       <li><a href="/pairings/cocktails/" style="--t:#b5651d"><strong>Cocktails &amp; Spirits</strong><span>${idx.data.drinks.cocktails.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
-      <li><a href="/pairings/zero-proof/" style="--t:#6aa37a"><strong>Zero-Proof</strong><span>${idx.data.drinks.zero.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
+      <li><a href="/pairings/zero-proof/" style="--t:#c08a4a"><strong>Zero-Proof</strong><span>${idx.data.drinks.zero.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
     </ul>`
   }));
 

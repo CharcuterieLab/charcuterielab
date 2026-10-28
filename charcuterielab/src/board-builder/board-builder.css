@@ -1,11 +1,11 @@
 /* Charcuterie Lab - Board Builder. Uses the site palette from site.css. */
 
 .bb-main {
-  --bb-line: rgba(17, 58, 39, 0.14);
-  --bb-line-strong: rgba(17, 58, 39, 0.4);
+  --bb-line: rgba(169, 87, 43, 0.14);
+  --bb-line-strong: rgba(169, 87, 43, 0.4);
   --bb-soft: #f6f1e3;
   --bb-card: #ffffff;
-  --bb-good: #2f6b47;
+  --bb-good: #b5622f;
   --bb-todo: #b5652a;
   --bb-tip: #8f6d2e;
   padding-bottom: 96px;
@@ -23,7 +23,7 @@
   color: #fff9eb;
   background:
     radial-gradient(ellipse at 88% 80%, rgba(181, 92, 48, 0.3), transparent 45%),
-    linear-gradient(135deg, var(--green-deep, #0a261a), #16452e 62%, #241912);
+    linear-gradient(135deg, var(--green-deep, #8f4422), #9a4b22 62%, #241912);
 }
 
 .bb-intro .bb-wrap {
@@ -88,7 +88,7 @@
 
 .bb-note a,
 .bb-fine a {
-  color: var(--green, #113a27);
+  color: var(--green, #a9572b);
 }
 
 /* ---- type ---- */
@@ -145,7 +145,7 @@
   width: 100%;
   min-height: 48px;
   padding: 12px 16px;
-  border: 1px solid rgba(17, 58, 39, 0.24);
+  border: 1px solid rgba(169, 87, 43, 0.24);
   border-radius: 6px;
   color: var(--ink, #17130e);
   background: #fff;
@@ -155,7 +155,7 @@
 
 .bb-input:focus {
   outline: none;
-  border-color: var(--green, #113a27);
+  border-color: var(--green, #a9572b);
   box-shadow: 0 0 0 3px rgba(202, 166, 82, 0.28);
 }
 
@@ -227,7 +227,7 @@
 .bb-link {
   padding: 0;
   border: 0;
-  color: var(--green, #113a27);
+  color: var(--green, #a9572b);
   background: none;
   font: inherit;
   font-weight: 700;
@@ -239,7 +239,7 @@
 .bb-chip {
   min-height: 38px;
   padding: 0 14px;
-  border: 1px solid rgba(17, 58, 39, 0.22);
+  border: 1px solid rgba(169, 87, 43, 0.22);
   border-radius: 999px;
   color: var(--muted, #5e5547);
   background: #fff;
@@ -249,14 +249,14 @@
 }
 
 .bb-chip:hover {
-  border-color: var(--green, #113a27);
-  color: var(--green-deep, #0a261a);
+  border-color: var(--green, #a9572b);
+  color: var(--green-deep, #8f4422);
 }
 
 .bb-chip.is-on {
   color: #fffcf4;
-  background: var(--green, #113a27);
-  border-color: var(--green, #113a27);
+  background: var(--green, #a9572b);
+  border-color: var(--green, #a9572b);
 }
 
 .bb-quick {
@@ -342,8 +342,8 @@
 }
 
 .bb-reason.is-pair {
-  color: #1f4a33;
-  background: #e2eee4;
+  color: #8f4422;
+  background: #f6e6d6;
 }
 
 .bb-reason.is-gap {
@@ -367,7 +367,7 @@
   padding: 6px 10px;
   border: 1px solid var(--bb-line-strong);
   border-radius: 6px;
-  color: var(--green, #113a27);
+  color: var(--green, #a9572b);
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
@@ -376,8 +376,8 @@
 
 .bb-add-pill.is-on {
   color: #fffcf4;
-  background: var(--green, #113a27);
-  border-color: var(--green, #113a27);
+  background: var(--green, #a9572b);
+  border-color: var(--green, #a9572b);
 }
 
 /* ---- build layout ---- */
@@ -431,7 +431,7 @@
 .bb-pill {
   padding: 3px 10px;
   border-radius: 999px;
-  color: var(--green-deep, #0a261a);
+  color: var(--green-deep, #8f4422);
   background: #efe7d2;
   font-size: 13px;
   font-weight: 700;
@@ -569,7 +569,7 @@
   height: 28px;
   border-radius: 50%;
   color: #fffcf4;
-  background: var(--green, #113a27);
+  background: var(--green, #a9572b);
   font-size: 18px;
   font-weight: 700;
 }
@@ -666,8 +666,8 @@
 
 .bb-idea.is-on,
 .bb-row.is-on {
-  border-color: var(--green, #113a27);
-  box-shadow: inset 0 0 0 1px var(--green, #113a27);
+  border-color: var(--green, #a9572b);
+  box-shadow: inset 0 0 0 1px var(--green, #a9572b);
 }
 
 .bb-idea-body,
@@ -804,7 +804,7 @@
 }
 
 .bb-picker::backdrop {
-  background: rgba(10, 20, 14, 0.55);
+  background: rgba(26, 16, 10, 0.55);
 }
 
 .bb-picker-inner {
@@ -954,7 +954,7 @@
   bottom: 0;
   z-index: 40;
   padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
-  border-top: 1px solid rgba(17, 58, 39, 0.16);
+  border-top: 1px solid rgba(169, 87, 43, 0.16);
   background: rgba(255, 252, 244, 0.96);
   backdrop-filter: blur(10px);
   box-shadow: 0 -8px 24px rgba(40, 26, 12, 0.08);
@@ -985,7 +985,7 @@
   padding: 12px 16px;
   border-radius: 10px;
   color: #fffcf4;
-  background: var(--green-deep, #0a261a);
+  background: var(--green-deep, #8f4422);
   font-size: 14px;
   line-height: 1.4;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
@@ -1057,7 +1057,7 @@
   display: grid;
   gap: 4px;
   padding: 14px 16px;
-  border: 1px solid rgba(17, 58, 39, 0.18);
+  border: 1px solid rgba(169, 87, 43, 0.18);
   border-radius: 10px;
   color: inherit;
   background: #fff;
@@ -1077,8 +1077,8 @@
 }
 
 .bb-option.is-on {
-  border-color: var(--green, #113a27);
-  box-shadow: 0 0 0 2px var(--green, #113a27);
+  border-color: var(--green, #a9572b);
+  box-shadow: 0 0 0 2px var(--green, #a9572b);
   background: #f7f3e6;
 }
 
@@ -1137,7 +1137,7 @@
   gap: 12px;
   margin: 0 0 14px;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--green, #113a27);
+  border-bottom: 2px solid var(--green, #a9572b);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(22px, 3vw, 28px);
   font-weight: 500;
@@ -1151,7 +1151,7 @@
   flex: 0 0 auto;
   border-radius: 50%;
   color: #fffcf4;
-  background: var(--green, #113a27);
+  background: var(--green, #a9572b);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 800;
@@ -1184,7 +1184,7 @@
   align-items: flex-start;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px dashed rgba(17, 58, 39, 0.18);
+  border-bottom: 1px dashed rgba(169, 87, 43, 0.18);
   cursor: pointer;
 }
 
@@ -1193,7 +1193,7 @@
   height: 20px;
   flex: 0 0 auto;
   margin: 1px 0 0;
-  accent-color: var(--green, #113a27);
+  accent-color: var(--green, #a9572b);
 }
 
 .bb-shop-name,
@@ -1339,8 +1339,8 @@
   color: #fff9eb;
   background:
     radial-gradient(ellipse at 95% 0%, rgba(202, 166, 82, 0.28), transparent 50%),
-    linear-gradient(135deg, var(--green-deep, #0a261a), #16452e);
-  box-shadow: 0 16px 36px rgba(10, 38, 26, 0.18);
+    linear-gradient(135deg, var(--green-deep, #8f4422), #9a4b22);
+  box-shadow: 0 16px 36px rgba(52, 33, 22, 0.18);
 }
 
 @media (max-width: 760px) {
