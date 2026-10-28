@@ -5739,3 +5739,35 @@ body.fx-slide-on .fx-sticky { display: none !important; }
 .fx-book .fx-facts, .fx-book .fx-fine a { color: var(--green-deep); }
 .lab-next-book { background: linear-gradient(135deg, var(--green-deep), #9a4b22 60%, #8a4321); }
 .lab-next-book .eyebrow { color: #ffe3b3; }
+
+/* Quick subscribe bar (28 Oct 2026): email box under every page's H1.
+   Colours inherit from the hero, so it reads on the orange heroes and on cream. */
+.qs { width: 100%; max-width: 540px; margin: 18px 0 16px; text-align: left; font-family: Arial, Helvetica, sans-serif; }
+.qs[hidden] { display: none; }
+.qs-row { display: flex; align-items: center; gap: 8px; }
+.qs-input { flex: 1 1 auto; min-width: 0; height: 46px; padding: 0 14px; border: 1px solid rgba(23, 19, 14, 0.28); border-radius: 8px; background: #fff; color: var(--ink); font-size: 16px; box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.06); }
+.qs-input::placeholder { color: #7a6f60; }
+.qs-input:focus { outline: 3px solid rgba(202, 166, 82, 0.55); outline-offset: 1px; border-color: var(--gold-dark); }
+.qs-input[readonly] { background: #f4f9f4; }
+.qs-btn { flex: 0 0 auto; height: 46px; padding: 0 20px; border: 0; border-radius: 8px; background: var(--gold); color: #24180c; font-size: 16px; font-weight: 800; cursor: pointer; white-space: nowrap; transition: background 0.15s ease; }
+.qs-btn:hover { background: #d8b766; }
+.qs-btn:focus-visible { outline: 3px solid #fff3d6; outline-offset: 2px; }
+.qs-btn:disabled { cursor: default; opacity: 0.85; }
+.qs-ok { flex: 0 0 auto; display: inline-grid; place-items: center; width: 0; height: 34px; border-radius: 50%; background: #2e8b47; color: #fff; opacity: 0; overflow: hidden; transform: scale(0.4); transition: width 0.2s ease, opacity 0.2s ease, transform 0.25s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.qs.is-done .qs-ok { width: 34px; opacity: 1; transform: scale(1); box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85); }
+.qs.is-done .qs-btn { background: #2e8b47; color: #fff; }
+.qs-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+/* The note: bright green like the check, one line. Sized to the bar's own width
+   (container units) so the full sentence fits on phones too. */
+.qs { container-type: inline-size; }
+form.qs p.qs-note { max-width: none; margin: 6px 0 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-size: clamp(10px, 3.4cqi, 13px); font-style: normal; font-weight: 400; line-height: 1.35; color: #2e8b47; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* On the orange heroes (light title text) the same green is too dark to read, so it brightens. */
+form.qs.qs-dark p.qs-note { color: #8ff0a6; }
+form.qs.is-err p.qs-note { white-space: normal; color: #a3271b; }
+form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
+.qs-note a { color: inherit; text-decoration: underline; }
+@media (max-width: 420px) {
+  .qs-btn { padding: 0 14px; }
+  .qs-input { padding: 0 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .qs-ok { transition: none; } }

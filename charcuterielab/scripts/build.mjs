@@ -11,6 +11,7 @@ import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientD
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
+import { injectQuickSubscribe } from "./quick-subscribe.mjs";
 import { bookLandingPages } from "./bookpages.mjs";
 import { giftPages, giftsInNav } from "./gifts.mjs";
 import { bhForm } from "./funnel.mjs";
@@ -3469,5 +3470,6 @@ await build();
 { const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}, paid card under it on ${r.near}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
+{ const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");
