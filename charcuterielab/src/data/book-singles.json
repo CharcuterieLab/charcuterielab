@@ -104,11 +104,25 @@
     "n": 3,
     "pages": 5
   },
+  "plant-based-french-bistro-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-french-bistro-plant-based-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 4,
+    "pages": 5
+  },
   "plant-based-mezze-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/vegan-middle-eastern-mezze-board",
     "price": "$3",
     "book": "plant",
     "n": 5,
+    "pages": 5
+  },
+  "plant-based-asian-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-asian-inspired-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 6,
     "pages": 5
   },
   "plant-based-mexican-fiesta-board": {
@@ -326,6 +340,62 @@
     "price": "$3",
     "book": "world",
     "n": 14,
+    "pages": 5
+  },
+  "caribbean-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-caribbean-island-board",
+    "price": "$3",
+    "book": "world",
+    "n": 16,
+    "pages": 5
+  },
+  "keto-antipasto-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-italian-antipasto-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 11,
+    "pages": 5
+  },
+  "keto-mediterranean-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-mediterranean-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 12,
+    "pages": 5
+  },
+  "keto-tapas-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-spanish-tapas-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 13,
+    "pages": 5
+  },
+  "keto-bbq-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-smokehouse-bbq-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 14,
+    "pages": 5
+  },
+  "keto-seafood-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-seafood-smoked-fish-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 15,
+    "pages": 5
+  },
+  "peruvian-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/world-peruvian-fusion-board",
+    "price": "$3",
+    "book": "world",
+    "n": 15,
+    "pages": 5
+  },
+  "carnivore-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-carnivore-leaning-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 17,
     "pages": 5
   },
   "giant-jack-o-lantern-board": {
