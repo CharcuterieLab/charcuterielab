@@ -1,10 +1,10 @@
 ---
 title: "Salami vs. Chorizo: What's the Difference?"
-seo_title: "Salami vs Chorizo: Differences, Taste & Which to Buy"
+seo_title: "Chorizo vs Salami: Is Chorizo a Salami? Key Differences"
 date: "2026-10-13"
 image: "/images/ingredients/chorizo.jpg"
 excerpt: "Salami and Spanish chorizo are both cured sausages you can slice and eat, but chorizo gets its red color and smoky flavor from pimentón. And Mexican chorizo is raw. Here's how to tell them apart."
-description: "Salami vs chorizo: both are cured pork sausages, but Spanish chorizo is seasoned with smoked paprika while salami uses garlic and pepper. Mexican chorizo is raw. Chart, pairings and tips."
+description: "Is chorizo salami? Spanish chorizo is a cured sausage like salami, but it's seasoned with smoked paprika, not garlic and pepper. Mexican chorizo is raw. Chart, pairings and tips."
 slug: "salami-vs-chorizo"
 tags: "["salami", "chorizo", "spanish chorizo", "mexican chorizo", "salami vs chorizo", "cured meats", "charcuterie meats"]"
 faq: "[{"question":"What is the difference between salami and chorizo?","answer":"Both are cured pork sausages. Salami is the broad Italian family, seasoned mainly with garlic and pepper. Spanish chorizo is seasoned with pimentón (smoked Spanish paprika), which makes it red, smoky and slightly sweet or spicy."},{"question":"Is chorizo a type of salami?","answer":"Spanish chorizo is made the same way as salami, cured and air-dried, so it's a close cousin. It's usually treated as its own category because of the paprika. Mexican chorizo is not salami at all; it's a raw sausage."},{"question":"Can you eat chorizo without cooking it?","answer":"You can eat cured Spanish chorizo sliced straight from the package. Mexican chorizo and Spanish chorizo labeled for cooking are raw and must be cooked."},{"question":"Is chorizo spicier than salami?","answer":"Usually. Chorizo picante is made with hot paprika. Chorizo dulce is mild and sweet. Most salami, like Genoa, has no chili at all, though Calabrese and hot soppressata do."},{"question":"Can pregnant guests eat chorizo or salami?","answer":"The CDC advises pregnant people to heat dry sausages like salami and chorizo until steaming hot before eating."}]"

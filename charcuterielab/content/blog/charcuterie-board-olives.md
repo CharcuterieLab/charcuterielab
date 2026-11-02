@@ -1,5 +1,6 @@
 ---
 title: "Olives on a Charcuterie Board"
+seo_title: "Olives for a Charcuterie Board: Which Types and How Many"
 date: "2026-09-08"
 image: "/images/charcuterie-board-olives.png"
 excerpt: "Olives on a Charcuterie Board"

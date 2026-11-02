@@ -1,10 +1,10 @@
 ---
 title: "Brie vs. Camembert: What's the Difference?"
-seo_title: "Brie vs Camembert: Differences, Taste & Which to Buy"
+seo_title: "Camembert vs Brie: Taste Difference and Which to Buy"
 date: "2026-10-12"
 image: "/images/ingredients/camembert.jpg"
 excerpt: "Brie and Camembert are both soft French cheeses with a white rind, but Camembert is smaller, stronger and earthier. Here's how to tell them apart and which to put on a board."
-description: "Brie vs Camembert: both soft, bloomy-rind French cheeses, but Camembert is smaller and stronger. A chart of the differences, plus which to bake and which to buy."
+description: "Camembert vs brie: Camembert tastes stronger, earthier and more mushroomy; brie is milder and more buttery. Chart of the differences, plus which to bake and which to buy."
 slug: "brie-vs-camembert"
 tags: "["brie", "camembert", "brie vs camembert", "soft cheese", "french cheese", "cheese board", "baked brie"]"
 faq: "[{"question":"Is Camembert stronger than Brie?","answer":"Usually, yes. Camembert comes in a small wheel with more rind for its size, so it ripens faster and tastes earthier and more mushroomy. Brie is milder and more buttery."},{"question":"Can I use Camembert instead of Brie?","answer":"Yes, in almost any recipe or on any board. Expect a stronger flavor. For baking, Camembert's box makes it especially easy."},{"question":"Do you eat the rind on Brie and Camembert?","answer":"Yes. The white rind is edible and part of the flavor. Some people trim it on very ripe Camembert if it tastes too strong."},{"question":"Which is better for baking, Brie or Camembert?","answer":"Both bake well. A whole Camembert baked in its wooden box is the easiest. A small Brie wheel is milder and better for sweet toppings like honey and jam."},{"question":"Is the Camembert sold in the US the same as in France?","answer":"Not quite. Camembert de Normandie AOP is made from raw milk and is too young to be sold in the US, so US Camembert is made from pasteurized milk and tastes milder."},{"question":"How long before serving should Brie and Camembert come out of the fridge?","answer":"20 to 30 minutes for both."}]"
