@@ -288,7 +288,7 @@ function holidayNext(h, hol) {
     </section>`;
 }
 
-export function holidaysHub(h, holidays) {
+export function holidaysHub(h, holidays, { season = "" } = {}) {
   const built = new Map(holidays.map((x) => [x.slug, x]));
   const cal = HOLIDAY_CALENDAR.map((c) => ({ ...c, next: nextDate(c.dates), page: built.get(c.slug) }));
   const today = new Date().toISOString().slice(0, 10);
@@ -317,9 +317,17 @@ export function holidaysHub(h, holidays) {
           <span class="hol-next-body"><span class="hol-next-date">${h.escapeHtml(pretty(c.next))}</span><strong>${h.escapeHtml(c.name)}</strong><span class="hol-count" data-countdown='${JSON.stringify(c.dates)}'></span></span>
         </a>`).join("\n        ")}
       </div>
+      ${season}
+      <div class="best-next-grid hol-shop-row">
+        <a href="/gifts/"><span class="bn-k">Gift Guide</span><strong>Charcuterie gifts for every budget</strong><span>Books, boards and gifts under $25 &rarr;</span></a>
+        <a href="/printables/holiday-hosting-pack/"><span class="bn-k">Printable pack</span><strong>Holiday Hosting Pack</strong><span>Five holiday board plans in one PDF &rarr;</span></a>
+        <a href="/party-planner/"><span class="bn-k">Party Planner</span><strong>How much to buy</strong><span>Exact amounts for your guest count &rarr;</span></a>
+      </div>
+      <p class="section-kicker hol-cal-h">Every holiday, planned</p>
       ${seasons.map((s) => {
-        const list = cal.filter((c) => c.season === s);
-        return list.length ? `<div class="bl-section"><h2>${s}</h2><ul class="hol-cal">${list.map((c) => `<li>${c.page ? `<a href="/holidays/${c.slug}/">${h.escapeHtml(c.name)}</a>` : `<span>${h.escapeHtml(c.name)}</span> <em>page coming</em>`}<small>${h.escapeHtml(pretty(c.next))}</small></li>`).join("")}</ul></div>` : "";
+        // Only holidays with a page (1 Nov 2026): "page coming" rows read as unfinished.
+        const list = cal.filter((c) => c.season === s && c.page);
+        return list.length ? `<div class="bl-section"><h2>${s}</h2><ul class="hol-cal">${list.map((c) => `<li><a href="/holidays/${c.slug}/">${h.escapeHtml(c.name)}</a><small>${h.escapeHtml(pretty(c.next))}</small></li>`).join("")}</ul></div>` : "";
       }).join("\n      ")}
     </div>
   </section>

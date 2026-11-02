@@ -516,7 +516,7 @@ export function makePrintables(h, products) {
   ${singles.length ? `<section class="fx-p-paid fx-p-singles" id="singles" aria-labelledby="fx-singles">
     <h2 id="fx-singles">Single board plans: ${esc(singles[0].single.price)} each</h2>
     <p class="fx-p-sub">One complete board from the book as a 5-page printable: exact shopping list with amounts and prices, step-by-step build, swaps and upgrades. Like it? Your receipt has a code for ${esc(singles[0].single.price)} off the full book.</p>
-    <div class="fx-p-grid fx-p-single-grid">
+    <div class="fx-p-grid fx-p-single-grid${singles.length > 12 ? " is-capped" : ""}" id="shop-singles-grid">
       ${singles.map((b) => `<article class="fx-p-card">
         <a href="${esc(h.withTracking(b.single.url, `printables_single_${b.nn}`))}" target="_blank" rel="noopener"><img src="${esc((h.thumb || ((x) => x))(b.image))}" alt="${esc(b.name)}" width="320" height="175" loading="lazy" decoding="async"></a>
         <p class="eyebrow">Board ${b.nn} · ${esc(b.single.price)} · 5-page PDF</p>
@@ -525,6 +525,8 @@ export function makePrintables(h, products) {
         <div class="fx-print-actions"><a class="button primary" href="${esc(h.withTracking(b.single.url, `printables_single_${b.nn}`))}" target="_blank" rel="noopener">Get the plan · ${esc(b.single.price)}</a>${b.published ? `<a class="fx-more" href="/boards/${b.slug}/">Free preview &rarr;</a>` : ""}</div>
       </article>`).join("\n      ")}
     </div>
+    ${singles.length > 12 ? `<p class="bl-more-wrap"><button type="button" class="button bl-more" data-singles-more>Show all ${singles.length} board plans</button></p>
+    <script>(function(){var b=document.querySelector("[data-singles-more]"),g=document.getElementById("shop-singles-grid");if(!b||!g)return;b.addEventListener("click",function(){g.classList.remove("is-capped");b.parentNode.hidden=true})})();</script>` : ""}
   </section>` : ""}
 
   <section class="fx-p-free" id="free" aria-labelledby="fx-free">

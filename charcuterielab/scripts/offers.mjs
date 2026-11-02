@@ -436,17 +436,20 @@ export function makeOffers(h, products, books) {
             hi++;
           } else if (html.includes("<!--offer-top-->")) html = html.replace("<!--offer-top-->", path === "/" ? "" : emailHigh(`cheat_hi_${campaign.slice(4)}`, freebieFor(path, ctx)));
           else {
-            // Hubs: the email box goes where the paid card used to (the Party
-            // Planner already opens with its own email form, so it keeps the card).
-            const put = path.startsWith("/party-planner/") ? card : emailHigh(`cheat_hi_${campaign.slice(4)}`, freebieFor(path, ctx));
-            const hdr = html.indexOf("</header>", mainAt);
-            const h1At = html.indexOf("</h1>", mainAt);
-            if (mainAt >= 0 && hdr > mainAt) html = html.slice(0, hdr + 9) + "\n" + put + html.slice(hdr + 9);
-            else if (h1At > 0) {
-              const p = html.indexOf("</p>", h1At);
-              const at = p > 0 ? p + 4 : h1At + 5;
-              html = html.slice(0, at) + "\n" + put + html.slice(at);
-            } else continue;
+            // Hubs (1 Nov 2026, visitor review): one email ask above the
+            // content. The quick-subscribe bar under the H1 is that ask, so
+            // hubs no longer get the high Cheat Sheet card as well; the
+            // page-matched freebie still closes the page (lab-news panel).
+            // The Party Planner's paid card waits until after the calculator.
+            if (path.startsWith("/party-planner/")) {
+              const h2a = html.indexOf("<h2", mainAt);
+              const h2b = h2a >= 0 ? html.indexOf("<h2", h2a + 3) : -1;
+              if (h2b > 0) {
+                const sec = html.lastIndexOf("<section", h2b);
+                const at = sec > h2a ? sec : h2b;
+                html = html.slice(0, at) + card + "\n" + html.slice(at);
+              }
+            } else if (mainAt < 0 || html.indexOf("</h1>", mainAt) < 0) continue;
           }
           // One paid offer per page (12 Oct 2026): the matched card above (and
           // its repeat at the end of the article) is the only product pitch.

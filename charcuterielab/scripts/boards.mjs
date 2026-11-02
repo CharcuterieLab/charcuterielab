@@ -174,9 +174,13 @@ const FILTER_JS = `<script>
 (() => {
   const root = document.querySelector('.bl-finder');
   if (!root) return;
-  const cards = [...root.querySelectorAll('.bl-card')];
+  const cards = [...root.querySelectorAll('#bl-all .bl-card, .bl-grid:not(.season-grid) .bl-card')];
   const count = root.querySelector('.bl-count');
   let cat = 'all', guests = 0, plant = false;
+  const grid = root.querySelector('#bl-all');
+  const more = root.querySelector('[data-bl-more]');
+  const uncap = () => { if (grid) grid.classList.remove('bl-capped'); if (more) more.parentNode.hidden = true; };
+  if (more) more.addEventListener('click', uncap);
   const apply = () => {
     let n = 0;
     for (const c of cards) {
@@ -189,16 +193,17 @@ const FILTER_JS = `<script>
     const b = e.target.closest('[data-filter-cat]');
     if (!b) return;
     cat = b.dataset.filterCat;
+    uncap();
     root.querySelectorAll('[data-filter-cat]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     apply();
   });
-  root.querySelector('#bl-guests').addEventListener('change', (e) => { guests = Number(e.target.value); apply(); });
-  root.querySelector('#bl-plant').addEventListener('change', (e) => { plant = e.target.checked; apply(); });
+  root.querySelector('#bl-guests').addEventListener('change', (e) => { guests = Number(e.target.value); uncap(); apply(); });
+  root.querySelector('#bl-plant').addEventListener('change', (e) => { plant = e.target.checked; uncap(); apply(); });
   apply();
 })();
 </script>`;
 
-function finder(h, boards, { heading, intro, showFilters = true, crumb = "", extra = "" }) {
+function finder(h, boards, { heading, intro, showFilters = true, crumb = "", extra = "", capped = false }) {
   const cats = BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug));
   return `<section class="bl-finder">
   <div class="bl-inner">
@@ -215,15 +220,16 @@ function finder(h, boards, { heading, intro, showFilters = true, crumb = "", ext
       <label class="bl-check"><input type="checkbox" id="bl-plant"> Plant-based only</label>
       <span class="bl-count" aria-live="polite"></span>
     </div>` : `<div class="bl-controls"><span class="bl-count">${boards.length} boards</span></div>`}
-    <ul class="bl-grid">
+    <ul class="bl-grid${capped && boards.length > 24 ? " bl-capped" : ""}" id="bl-all">
 ${boards.map((b) => card(b, h)).join("\n")}
     </ul>
+    ${capped && boards.length > 24 ? `<p class="bl-more-wrap"><button type="button" class="button bl-more" data-bl-more>Show all ${boards.length} boards</button></p>` : ""}
     ${showFilters ? `<nav class="bl-cats" aria-label="Board categories"><span>Browse by category:</span> ${cats.map((c) => `<a href="/boards/${c.slug}/">${h.escapeHtml(c.name)}</a>`).join(" ")}</nav>` : `<nav class="bl-cats"><a href="/boards/">&larr; All boards</a></nav>`}
   </div>
 </section>`;
 }
 
-export function boardsHub(h, boards) {
+export function boardsHub(h, boards, { season = "" } = {}) {
   return h.layout({
     title: `${boards.length} Charcuterie Board Plans with Shopping Lists | Charcuterie Lab`,
     canonical: "/boards/",
@@ -231,9 +237,7 @@ export function boardsHub(h, boards) {
     description: `${boards.length} complete charcuterie boards for every occasion, each with what goes on it, why it works and a full printable plan.`,
     head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}`,
     body: `<main class="bl-main">
-${h.bookBar("boards_hub_top", "Every board, fully planned")}
-<div class="bl-inner">${boards.some((b) => b.book === "world") ? worldBanner(h) : ""}</div>
-${finder(h, mixBooks(boards), { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${finder(h, mixBooks(boards), { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", capped: true, extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>${season ? `\n    ${season}` : ""}${boards.some((b) => b.book === "world") ? `\n    ${worldBanner(h)}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>` })}
 ${h.labNext("boards_hub", { skip: ["book"], heading: "Plan your own" })}
 </main>
 ${FILTER_JS}`
@@ -610,14 +614,14 @@ export function mixBooks(boards) {
   return out;
 }
 
-export function boardsStrip(h, boards) {
+export function boardsStrip(h, boards, { kicker = "Board Library", title = "Pick a board, get the plan", picks = null } = {}) {
   if (!boards.length) return "";
   return `<section class="section bl-strip" aria-label="Board Library">
     <div class="section-inner">
-      <p class="section-kicker">Board Library</p>
-      <h2 class="section-title">Pick a board, get the plan</h2>
+      <p class="section-kicker">${h.escapeHtml(kicker)}</p>
+      <h2 class="section-title">${h.escapeHtml(title)}</h2>
       <ul class="bl-grid bl-grid-3">
-${homePicks(boards).map((b) => card(b, h)).join("\n")}
+${(picks && picks.length >= 3 ? picks : homePicks(boards)).map((b) => card(b, h)).join("\n")}
       </ul>
       <div class="section-link"><a class="text-link" href="/boards/">Browse all ${boards.length} boards</a></div>
     </div>
