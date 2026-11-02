@@ -2,7 +2,7 @@
 title: "Charcuterie Salad: An Easy Chopped Antipasto Salad (Plus What Costco Sells)"
 seo_title: "Charcuterie Salad: Easy Chopped Recipe + Costco Options"
 date: "2026-11-01"
-image: "/images/50-boards-02-italian-antipasto.webp"
+image: "/images/charcuterie-salad.jpg"
 excerpt: "A charcuterie salad is a charcuterie board, chopped: salami, mozzarella, olives, artichokes and chickpeas over crisp lettuce with a red wine vinaigrette. Here's the 20-minute recipe, a Costco shopping list, and what Costco actually sells."
 description: "Charcuterie salad: salami, mozzarella, olives, artichokes and chickpeas over romaine with a red wine vinaigrette. 20-minute recipe for 6, a Costco cart list, and Costco's closest ready-made salad."
 slug: "charcuterie-salad"

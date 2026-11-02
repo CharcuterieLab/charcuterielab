@@ -2,7 +2,7 @@
 title: "Cheese Advent Calendars in Australia and Canada (2026)"
 seo_title: "Cheese Advent Calendar Australia & Canada 2026: What's Out"
 date: "2026-11-01"
-image: "/images/cheese-advent-calendars-2026.jpg"
+image: "/images/cheese-advent-calendar-australia-canada.jpg"
 excerpt: "Cheese advent calendars in Australia and Canada are harder to find than in the US or UK. Here's what we could confirm for 2026, what to watch for at Woolworths and Metro, and how to make your own."
 description: "Cheese advent calendar Australia and Canada 2026: Hunter Valley Cheese (A$150), the Woolworths Thomas Dux calendar to watch for, Ilchester at Metro, Laliberté in BC, and a DIY version."
 slug: "cheese-advent-calendar-australia-canada"
