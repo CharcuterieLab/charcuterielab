@@ -79,8 +79,8 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 
 :::html
 <h2 id="how-to-choose">How long cheese lasts, wrapped in the fridge</h2>
-<ul class="sk-checks"><li><strong>Fresh</strong> (mozzarella, ricotta): 3 to 5 days, in its own liquid.</li><li><strong>Soft and bloomy</strong> (brie, Camembert, Taleggio): 1 to 2 weeks.</li><li><strong>Semi-soft</strong> (young Gouda, young Manchego): 2 to 3 weeks.</li><li><strong>Hard</strong> (aged Gouda, Comté, Gruyère): 3 to 4 weeks.</li><li><strong>Grating</strong> (Parmigiano-Reggiano, Pecorino Romano): 4 to 5 weeks.</li></ul>
-<p class="sk-note">Times are Formaticum's guidelines; trust your nose. More in <a href="/blog/cheese-storage/">how to store cheese</a> and <a href="/blog/can-you-freeze-cheese/">can you freeze cheese</a>.</p>
+<ul class="sk-checks"><li><strong>Fresh</strong> (mozzarella, ricotta): 3 to 5 days, in its own liquid.</li><li><strong>Soft and bloomy</strong> (brie, Camembert, Taleggio): 1 to 2 weeks.</li><li><strong>Semi-soft</strong> (young Gouda, young Manchego): 2 to 3 weeks.</li><li><strong>Hard</strong> (aged Gouda, Comté, Gruyère): 3 to 4 weeks.</li><li><strong>Aged hard</strong> (Parmigiano-Reggiano, Pecorino Romano): 6 to 8 weeks.</li></ul>
+<p class="sk-note">Times are guidelines; trust your nose. More in <a href="/blog/cheese-storage/">how to store cheese</a> and <a href="/blog/can-you-freeze-cheese/">can you freeze cheese</a>.</p>
 :::
 
 ## Cheese paper questions

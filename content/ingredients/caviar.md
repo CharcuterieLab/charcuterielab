@@ -84,6 +84,8 @@ and the roe should be glossy rather than dull.
 **Skip:** wild-caught beluga, which is protected and largely illegal to import.
 Farmed hybrids are legal, ethical and good.
 
+**Our buyer's guide:** Whole Foods whitefish caviar under $25, Noir hackleback for real sturgeon. See [the best caviar](/blog/best-caviar/).
+
 ## Quick FAQ
 
 **What is the difference between caviar and roe?**

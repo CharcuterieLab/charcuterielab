@@ -90,6 +90,8 @@ chèvre with plain cranberries beats a mediocre one with an elaborate crust.
 **Skip:** the cinnamon-and-sugar versions on a savory board. Those belong on a
 dessert board.
 
+**Our buyer's guide:** Aldi's cranberry cinnamon goat cheese and Trader Joe's Cranberry Chèvre. See [the best cranberry cheese](/blog/best-cranberry-cheese/).
+
 ## Quick FAQ
 
 **Should I just make it myself?**

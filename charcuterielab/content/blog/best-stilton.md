@@ -102,3 +102,5 @@ About 1 oz per person on a mixed board, or 2 oz if it's the main cheese after di
 :::
 
 Serving it after dinner? See [the cheese course](/blog/cheese-course/). For the port, see [the best wines under $20](/blog/best-wine-for-charcuterie-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+For the glass, see [the best port wine](/blog/best-port-wine/).

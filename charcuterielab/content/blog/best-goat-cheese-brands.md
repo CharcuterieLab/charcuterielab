@@ -106,3 +106,4 @@ Fresh goat cheese needs 15 to 20 minutes out of the fridge.
 </details>
 :::
 
+For the holidays, see [the best cranberry cheese](/blog/best-cranberry-cheese/), including cranberry goat cheese.

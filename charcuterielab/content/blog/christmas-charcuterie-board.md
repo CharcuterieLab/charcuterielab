@@ -127,6 +127,7 @@ Why this order: [the right order to build a charcuterie board](/blog/build-seque
 
 ## Related Reading
 
+- [The Best Cranberry Cheese for a Holiday Board](/blog/best-cranberry-cheese/)
 - [40 Christmas Appetizers You Can Make Ahead](/blog/christmas-appetizers/)
 - [The Best Stilton for a Christmas Cheese Board](/blog/best-stilton/)
 - [The Best Panettone for a Christmas Board](/blog/best-panettone/)

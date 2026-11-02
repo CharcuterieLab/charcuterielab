@@ -84,6 +84,7 @@ A New Year's Eve board is the occasion to build a great board and let the Champa
 
 ## Related Reading
 
+- [The Best Caviar, From $20 Roe to a Splurge](/blog/best-caviar/)
 - [The Best Cheap Champagne for New Year's Eve](/blog/best-champagne-under-30/)
 - [The Best Prosecco for a Charcuterie Board, Ranked](https://charcuterielab.com/blog/best-prosecco/)
 - [Wine and Charcuterie Pairing: How to Match Any Wine to Any Board](/blog/wine-and-charcuterie-board/)

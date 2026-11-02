@@ -115,3 +115,5 @@ Usually one is enough. Put it at the edge of the board with its own knife.
 :::
 
 For Christmas, see [the best Stilton](/blog/best-stilton/), from Colston Bassett to Costco.
+
+For Italian blue, see [the best Gorgonzola](/blog/best-gorgonzola/).

@@ -150,3 +150,5 @@ A basket is sealed food to open later. A board kit, or a box that arrives arrang
 Prefer a box that arrives arranged, or a cheese club? See our [charcuterie gift boxes](/blog/best-charcuterie-gift-boxes/) and [cheese-of-the-month clubs](/blog/best-cheese-of-the-month-clubs/). All gift ideas are in the [gift guide](/gifts/).
 
 *Get one board idea a week, plus the free charcuterie cheat sheet, when you join the Charcuterie Lab newsletter.*
+
+Giving the board instead of the food? See [our Amazon charcuterie board set reviews](/blog/amazon-charcuterie-board-sets-reviewed/).

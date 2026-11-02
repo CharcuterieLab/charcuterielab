@@ -89,6 +89,8 @@ Generic Wensleydale is made elsewhere and is milder still.
 **Skip:** putting it on a serious cheese board. It's a party cheese and a good
 one, but it isn't what a cheese-focused board is for.
 
+**Our buyer's guide:** Costco's seasonal 14 oz wedge is the best value. See [the best cranberry cheese](/blog/best-cranberry-cheese/).
+
 ## Quick FAQ
 
 **Is Wensleydale with cranberries a real cheese?**

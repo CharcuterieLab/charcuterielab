@@ -131,3 +131,4 @@ Yes. Freeze it in the unopened pack, then thaw it overnight in the fridge. The t
 </details>
 :::
 
+For a New Year's board, add [the best caviar](/blog/best-caviar/), from $20 roe to Ossetra.

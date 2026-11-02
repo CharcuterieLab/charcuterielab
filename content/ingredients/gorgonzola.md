@@ -99,6 +99,8 @@ and it looks like salad topping.
 
 **Vegetarian?** Usually not. See [Is gorgonzola vegetarian?](/dietary/questions/is-gorgonzola-vegetarian/).
 
+**Our buyer's guide:** Gorgonzola Dolce DOP for a board; Litehouse or BelGioioso at the supermarket. See [the best Gorgonzola](/blog/best-gorgonzola/).
+
 ## Quick FAQ
 
 **Gorgonzola dolce or piccante?**

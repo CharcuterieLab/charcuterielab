@@ -93,6 +93,8 @@ truffle" with a percentage; synthetic aroma appears as "truffle flavoring" or
 **Skip:** buying truffle cheese for a board that already has a truffle honey or
 truffle salami. One truffled item per board.
 
+**Our buyer's guide:** Sottocenere is the best all-rounder. See [the best truffle cheese](/blog/best-truffle-cheese/).
+
 ## Quick FAQ
 
 **Is truffle cheese made with real truffles?**

@@ -164,6 +164,7 @@ Buying one board: **buy wood**, 16 inches or longer. Adding a second: **add slat
 
 ## Related Reading
 
+- [Amazon Charcuterie Board Sets, Reviewed](/blog/amazon-charcuterie-board-sets-reviewed/)
 - [The best cheese knife sets](/blog/best-cheese-knife-sets/)
 - [Charcuterie board sizes and shapes](/blog/charcuterie-board-sizes/)
 - [How to make a charcuterie board](/blog/how-to-make-charcuterie-board/)

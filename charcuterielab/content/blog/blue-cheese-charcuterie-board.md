@@ -119,6 +119,7 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 
 ## Related Reading
 
+- [The Best Gorgonzola Cheese for a Charcuterie Board](/blog/best-gorgonzola/)
 - [The Best Stilton for a Christmas Cheese Board](/blog/best-stilton/)
 - [How Is Cheese Aged](https://charcuterielab.com/how-is-cheese-aged/)
 - [Fruit for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-fruit/)
