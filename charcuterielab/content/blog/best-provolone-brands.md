@@ -140,3 +140,4 @@ Some is, like Red Apple. Others, labeled smoke flavored, use added flavoring.
 </details>
 :::
 
+More Italian-style cheeses: [the best Asiago](/blog/best-asiago-brands/) and [the best fontina](/blog/best-fontina-brands/).

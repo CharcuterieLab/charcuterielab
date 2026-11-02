@@ -97,3 +97,4 @@ Prosciutto, tomatoes, peaches, basil, crusty bread and a drizzle of balsamic.
 </details>
 :::
 
+For a spoonable spread, see [the best ricotta for whipped ricotta](/blog/best-ricotta-brands/) and [the best 'nduja](/blog/best-nduja/).

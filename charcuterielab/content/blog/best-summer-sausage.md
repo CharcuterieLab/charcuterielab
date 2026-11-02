@@ -105,3 +105,4 @@ Cut it into coins about 1/4 inch thick, or halve the coins into half-moons.
 </details>
 :::
 
+Building a snack board? See [the best beef jerky](/blog/best-beef-jerky/).

@@ -130,6 +130,7 @@ Split the total roughly evenly across your meats. More of any one meat doesn't h
 
 ## Related Reading
 
+- [The Best Deli Meat Brands for a Charcuterie Board](/blog/best-deli-meat-brands/)
 - [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
 - [Party Planner: Exact Amounts for 4 to 200 Guests](/party-planner/)
 - [How to Make a Prosciutto Rose](https://charcuterielab.com/blog/prosciutto-rose/)

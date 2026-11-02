@@ -86,6 +86,7 @@ Look for **Queso Manchego DOP** on the label. Our ranking of [the best Manchego 
 
 ## Related Reading
 
+- [The Best Pecorino Romano Brands](/blog/best-pecorino-romano/)
 - [Manchego: Spain's Most Board-Ready Cheese (And Why It Works So Well)](/blog/manchego/)
 - [The Best Manchego Brands for a Charcuterie Board, Ranked](/blog/best-manchego-brands/)
 - [Chorizo and Manchego: Why This Pairing Works](/blog/chorizo-manchego-pairing/)

@@ -89,6 +89,8 @@ mild one.
 **Skip:** pre-shredded Asiago for a board, and "Asiago" bagels or seasoning as
 a guide to what the cheese tastes like. They're modeled on the aged style.
 
+**Our buyer's guide:** Sartori Classic Asiago is a World Championship gold medalist. See [the best Asiago](/blog/best-asiago-brands/).
+
 ## Quick FAQ
 
 **What's the difference between fresh and aged Asiago?**

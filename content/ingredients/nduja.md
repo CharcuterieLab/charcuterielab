@@ -88,6 +88,8 @@ way through, not brown.
 **Skip:** buying a large piece. An ounce per person goes a long way and it
 keeps well but not indefinitely once opened.
 
+**Our buyer's guide:** Tempesta from Chicago, or milder La Quercia. See [the best 'nduja](/blog/best-nduja/).
+
 ## Quick FAQ
 
 **How hot is 'nduja?**

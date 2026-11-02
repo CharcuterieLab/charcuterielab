@@ -87,6 +87,8 @@ the name.
 **Skip:** the red-wax supermarket version if the cheese is meant to be tasted
 rather than melted.
 
+**Our buyer's guide:** Fontina Val d'Aosta DOP for flavor, Danish red-wax fontina for a mild crowd-pleaser. See [the best fontina](/blog/best-fontina-brands/).
+
 ## Quick FAQ
 
 **Why does supermarket fontina taste bland?**

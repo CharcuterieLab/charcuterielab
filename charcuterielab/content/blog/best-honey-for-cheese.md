@@ -116,3 +116,4 @@ Yes, especially with salami, aged cheddar and fresh mozzarella. Tasting Table's 
 </details>
 :::
 
+Honey's best friend on a board: [whipped ricotta](/blog/best-ricotta-brands/).

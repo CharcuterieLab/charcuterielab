@@ -79,6 +79,7 @@ Nduja earns its place on a board as the most distinctive element in the spread â
 
 ## Related Reading
 
+- [The Best 'Nduja to Buy](/blog/best-nduja/)
 - [Soppressata on a Charcuterie Board](https://charcuterielab.com/soppressata-charcuterie-board/)
 - [Honey on a Charcuterie Board: Which Type to Use](https://charcuterielab.com/honey-on-charcuterie-board/)
 - [The Science of Salt and Sweet on a Board](https://charcuterielab.com/salt-sweet-principle/)

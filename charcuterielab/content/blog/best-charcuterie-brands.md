@@ -3,15 +3,15 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 114 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
-description: "All 114 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+excerpt: "All 121 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+description: "All 121 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for **90 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
+> **Quick Answer:** We rank the best brands for **97 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
 
 Each guide gives you a top pick, a budget pick and a splurge.
 
@@ -23,6 +23,9 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Cheddar Brands for a Charcuterie Board](/blog/best-cheddar-brands/) | Kerrygold Reserve Cheddar | ★★★★★ 4.8 |
 | [Best Manchego Brands for a Charcuterie Board](/blog/best-manchego-brands/) | Kirkland Signature Manchego DOP (6 months) | ★★★★½ 4.5 |
 | [Best Parmesan for a Charcuterie Board](/blog/best-parmesan-brands/) | Boar's Head Parmigiano-Reggiano | ★★★★½ 4.5 |
+| [Best Pecorino Romano Brands for a Charcuterie Board](/blog/best-pecorino-romano/) | Boar's Head Pecorino Romano | Buyer's guide (unscored) |
+| [Best Asiago Cheese Brands for a Charcuterie Board](/blog/best-asiago-brands/) | Sartori Classic Asiago | Buyer's guide (unscored) |
+| [Best Fontina Cheese for a Charcuterie Board](/blog/best-fontina-brands/) | Fontina Val d'Aosta DOP | Buyer's guide (unscored) |
 | [Best Goat Cheese Brands for a Charcuterie Board](/blog/best-goat-cheese-brands/) | Laura Chenel Original Fresh Goat Cheese | ★★★★½ 4.7 |
 | [Best Gouda Brands for a Charcuterie Board](/blog/best-gouda-brands/) | Trader Joe's 1000 Day Gouda | ★★★★½ 4.7 |
 | [Best Blue Cheese Brands for a Charcuterie Board](/blog/best-blue-cheese-brands/) | Point Reyes Original Blue | ★★★★½ 4.5 |
@@ -32,6 +35,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Cranberry Cheese for a Holiday Board](/blog/best-cranberry-cheese/) | Wensleydale with Cranberries | Buyer's guide (unscored) |
 | [Best Fresh Mozzarella for a Charcuterie Board](/blog/best-fresh-mozzarella/) | Primo Taglio Fresh Mozzarella | ★★★★½ 4.5 |
 | [Best Burrata at the Grocery Store](/blog/best-burrata/) | BelGioioso Burrata | ★★★★½ 4.7 |
+| [Best Ricotta Brands for Whipped Ricotta and Boards](/blog/best-ricotta-brands/) | BelGioioso Ricotta con Latte | Buyer's guide (unscored) |
 | [Best Gruyère Brands for a Charcuterie Board](/blog/best-gruyere-brands/) | Emmi Kaltbach Le Gruyère AOP | ★★★★½ 4.4 |
 | [Best Feta Brands for a Charcuterie Board](/blog/best-feta-brands/) | Mt Vikos Traditional Feta | ★★★★½ 4.5 |
 | [Best Vegan Cheese for a Charcuterie Board](/blog/best-vegan-cheese/) | Boursin Dairy-Free Garlic & Herbs | ★★★★½ 4.4 |
@@ -52,6 +56,8 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | Guide | Our top pick | Rating |
 |---|---|---|
 | [Best Salami Brands for a Charcuterie Board](/blog/best-salami-brands/) | Olli Salumeria | ★★★★½ 4.5 |
+| [Best Deli Meat Brands for a Charcuterie Board](/blog/best-deli-meat-brands/) | Boar's Head | Buyer's guide (unscored) |
+| [Best 'Nduja to Buy for a Charcuterie Board](/blog/best-nduja/) | Tempesta 'Nduja | Buyer's guide (unscored) |
 | [Best Prosciutto Brands for a Charcuterie Board](/blog/best-prosciutto-brands/) | Appleton Farms Prosciutto | ★★★★☆ 4.2 |
 | [Best Jamón Serrano and Spanish Ham](/blog/best-jamon-serrano/) | Redondo Iglesias 16-month Serrano | Buyer's guide (unscored) |
 | [Best Pepperoni for a Charcuterie Board](/blog/best-pepperoni-brands/) | Boar's Head Pepperoni | ★★★★½ 4.5 |
@@ -62,6 +68,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Smoked Salmon for a Charcuterie Board](/blog/best-smoked-salmon/) | Kirkland Signature Smoked Salmon | ★★★★½ 4.7 |
 | [Best Caviar, From $20 Roe to a Splurge](/blog/best-caviar/) | Whole Foods Whitefish Caviar (budget) | Buyer's guide (unscored) |
 | [Best Meat Sticks for a Charcuterie Board](/blog/best-meat-sticks/) | Chomps Original Beef Stick | ★★★★★ 4.8 |
+| [Best Beef Jerky Brands](/blog/best-beef-jerky/) | Old Trapper Old Fashioned | Buyer's guide (unscored) |
 | [Best Capicola (Coppa) to Buy](/blog/best-capicola-coppa/) | Volpi Sliced Coppa | Buyer's guide (unscored) |
 | [Best Pâté to Buy](/blog/best-pate/) | Les Trois Petits Cochons | Buyer's guide (unscored) |
 
@@ -245,7 +252,7 @@ Every product gets a score from 1 to 5 on five things, weighted into one overall
 
 **Researched, not taste-tested (yet).** These rankings come from published taste tests (from outlets like Tasting Table, Sporked, Daily Meal and The Kitchn), award results, ingredient labels and prices. We have not tasted every product side by side. When we taste-test a category ourselves, that guide will say Tested. Each guide lists its sources.
 
-**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, capicola, pâté, quince paste, cornichons, Medjool dates, herb cheese spreads, cheese balls, hot cocoa, cookies, dried fruit, Spanish ham, cheese crisps, wine, cheese clubs, and the Sprouts, Lidl and holiday store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
+**Unscored buyer's guides.** When no published taste test covers an ingredient (so far Camembert, Havarti, Asiago, fontina, 'nduja, capicola, pâté, quince paste, cornichons, Medjool dates, herb cheese spreads, cheese balls, hot cocoa, cookies, dried fruit, Spanish ham, cheese crisps, wine, cheese clubs, and the Sprouts, Lidl and holiday store guides), we don't invent scores. Those guides name what to buy and why, using award results and the tests that do exist, and say so at the top.
 
 **Updated regularly.** Products change recipes, prices move and stores change what they stock. Each guide shows when it was last checked.
 

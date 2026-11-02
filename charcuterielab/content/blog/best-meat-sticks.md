@@ -120,3 +120,4 @@ Mechanically separated chicken and long lists of fillers. Beef should be the fir
 </details>
 :::
 
+For a game-day board, add [the best beef jerky](/blog/best-beef-jerky/), from Old Trapper to Aldi's biltong.

@@ -85,6 +85,8 @@ delicate fresh cheeses, which the smoke buries.
 **Skip:** assuming the deli-counter version is the same food. It isn't, and the
 difference is the whole page.
 
+**Our buyer's guide:** Boar's Head tops Tasting Table's deli meat ranking. See [the best deli meat brands](/blog/best-deli-meat-brands/).
+
 ## Quick FAQ
 
 **Is American Black Forest ham the real thing?**

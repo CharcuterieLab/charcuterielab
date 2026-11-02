@@ -114,3 +114,4 @@ Break it into rough chunks with a short, pointed knife instead of slicing. Take 
 </details>
 :::
 
+For a saltier sheep's-milk grating cheese, see [the best Pecorino Romano](/blog/best-pecorino-romano/).

@@ -120,3 +120,4 @@ Swiss Le Gruyère AOP is made from raw milk. If a guest needs pasteurized cheese
 </details>
 :::
 
+For a softer Alpine-style cheese, see [the best fontina](/blog/best-fontina-brands/).

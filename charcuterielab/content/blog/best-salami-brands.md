@@ -123,3 +123,4 @@ Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party fo
 </details>
 :::
 
+Shopping the packaged aisle? See [the best deli meat brands](/blog/best-deli-meat-brands/).

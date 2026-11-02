@@ -89,6 +89,8 @@ effective.
 **Skip:** part-skim ricotta for a board. The fat is what makes it taste of
 anything.
 
+**Our buyer's guide:** BelGioioso for a dense, creamy ricotta; Galbani for whipped ricotta. See [the best ricotta brands](/blog/best-ricotta-brands/).
+
 ## Quick FAQ
 
 **Should I whip ricotta for a cheese board?**

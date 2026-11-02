@@ -89,6 +89,8 @@ wheels are generally rounder and less harshly salty than Sardinian ones.
 **Skip:** generic "Romano" without the DOP mark. Often a cow's-milk imitation
 and much less interesting.
 
+**Our buyer's guide:** Boar's Head won America's Test Kitchen's tasting; Kirkland at Costco is the value pick. See [the best Pecorino Romano](/blog/best-pecorino-romano/).
+
 ## Quick FAQ
 
 **Why is pecorino so much saltier than parmesan?**
