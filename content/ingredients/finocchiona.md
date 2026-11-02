@@ -1,14 +1,15 @@
 ---
 title: "Finocchiona"
 seo_title: "What Is Finocchiona? Tuscan Fennel Salami, Explained"
+meta_description: "Finocchiona is a soft Tuscan salami seasoned with fennel seed, garlic and red wine. Coarsely ground pork is cured and aged, so it's ready to eat sliced. It tastes gently of aniseed and crumbles at the edges. The protected version is Finocchiona IGP."
 slug: "finocchiona"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Fennel salami"
 role_group: "Salami"
-excerpt: "Finocchiona is a soft Tuscan salami seasoned with fennel seed, garlic and red wine. It tastes gently of aniseed, crumbles when sliced, and is ready to eat as is."
+excerpt: "Finocchiona is a soft Tuscan salami seasoned with fennel seed, garlic and red wine. Coarsely ground pork is cured and aged, so it's ready to eat sliced. It tastes gently of aniseed and crumbles at the edges. The protected version is Finocchiona IGP."
 date: 2026-09-07
-updated: 2026-10-18
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
@@ -25,6 +26,19 @@ Tuscan salami heavily seasoned with wild fennel seed. Softer and more crumbly
 than most, with an unmistakable aniseed perfume. It's the salami that tastes
 least like the others, and the fennel began as a cost-saving trick rather than
 a flavor choice.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Say it** | fee-noh-KYOH-nah |
+| **From** | Tuscany, Italy (Finocchiona IGP) |
+| **Made from** | Coarsely ground pork |
+| **Seasoning** | Fennel seed and flower, garlic, red wine |
+| **Tastes like** | Aniseed, sweet and herbal |
+| **Texture** | Soft and crumbly |
+| **Cooked?** | No. Cured and dried, ready to eat |
+| **Vs Genoa salami** | Genoa is firmer and garlicky, with no fennel |
 
 ## What it is
 

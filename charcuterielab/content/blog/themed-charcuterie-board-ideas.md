@@ -14,6 +14,8 @@ tags: "["themed charcuterie board ideas", "shaped charcuterie board", "creative 
 
 > **Quick Answer:** A themed board is a regular board **built into a shape**. Most use four tricks: **rows of overlapping slices, an outline to fill in, a hidden base for height, and color**. Easiest to start: a **football field, campfire or jack-o'-lantern**.
 
+**All 25 in one place:** the [showpiece board library](/boards/showpiece/) has every shaped board with its cost and serving size.
+
 Below: the four tricks, 25 ideas and one full build. All come from our book [*Impossible Boards*](https://charcuterieflavor.gumroad.com/l/impossible-boards?utm_source=charcuterielab&utm_medium=blog&utm_campaign=themed-charcuterie-board-ideas) (also in [paperback](https://www.amazon.com/dp/B0HNJJGJTN)).
 
 *A note on the photos: the board images in this post and in the book are digitally created illustrations, made to show the finished design. Every board is built from ordinary grocery-store food, and every amount and step was worked out for a real build.*

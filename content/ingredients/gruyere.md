@@ -7,7 +7,7 @@ board_role: "Savory alpine cheese"
 role_group: "Aged & hard"
 excerpt: "Switzerland's alpine workhorse. Salty, nutty and brothy, and the one aged cheese that tastes as good melted as it does on a board."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
@@ -16,7 +16,7 @@ tags: ["cheese", "aged", "swiss", "alpine"]
 pairs_with: ["comte", "emmental", "beaufort", "baguette", "raclette", "speck", "hazelnuts", "roasted-chestnuts", "dijon-mustard", "onion-jam", "marinated-mushrooms", "cornichons", "prosciutto-cotto", "tete-de-moine"]
 avoid_with: ["delicate-fresh-cheese"]
 board_post: "/blog/gruyere-ham-cornichon-dijon-pairing/"
-faq: "[{"question": "Does Gruyère have holes?", "answer": "Swiss Gruyère AOP has very few or none. French Gruyère does. If you're seeing lots of holes, you're probably looking at Emmental."}, {"question": "Gruyère or Comté?", "answer": "Gruyère is saltier and more directly savory; Comté is fruitier and more varied. Both are excellent — put them side by side."}, {"question": "Can you eat the rind?", "answer": "Trim it. It's natural but tough."}, {"question": "Why is it in every fondue recipe?", "answer": "Cooked curd gives it a tight protein structure that melts smoothly instead of splitting."}, {"question": "How much per person?", "answer": "1–2 oz as one of three cheeses."}]"
+faq: "[{"question": "Does Gruyère have holes?", "answer": "Swiss Gruyère AOP has very few or none. French Gruyère does. If you're seeing lots of holes, you're probably looking at Emmental."}, {"question": "Gruyère or Comté?", "answer": "Gruyère is saltier and more directly savory; Comté is fruitier and more varied. Both are excellent — put them side by side."}, {"question": "Can you eat the rind?", "answer": "Trim it. It's natural but tough."}, {"question": "Why is it in every fondue recipe?", "answer": "Cooked curd gives it a tight protein structure that melts smoothly instead of splitting."}, {"question": "How much per person?", "answer": "1–2 oz as one of three cheeses."}, {"question": "What meat goes with Gruyère?", "answer": "Cooked ham is the classic, along with speck and air-dried beef like Bündnerfleisch. The mild, salty meat lets Gruyère's nutty flavor lead."}, {"question": "What wine goes with Gruyère?", "answer": "Pinot Noir is the classic, with Chardonnay or a dry Alpine or Alsatian white like Riesling close behind. A crisp lager or dry hard cider works well too."}, {"question": "What fruit goes with Gruyère?", "answer": "Crisp apples and pears, whose juice and acid cut the richness. Grapes, dried figs and apricots work too, and onion jam is a savory-sweet option worth trying."}, {"question": "Is Gruyère good for a charcuterie board?", "answer": "Yes. It slices cleanly, most guests like it, and its nutty flavor stands up to ham, mustard and pickles. Pick an aged or reserve wedge if you want more depth."}]"
 ---
 
 ## The short version
@@ -24,6 +24,8 @@ faq: "[{"question": "Does Gruyère have holes?", "answer": "Swiss Gruyère AOP h
 A firm Swiss alpine cheese aged five months to two years. Salty, nutty and
 distinctly brothy — the savory note people describe as "meaty." It's the cheese
 in fondue and in a croque monsieur, and it's just as good uncooked.
+
+**What goes with Gruyère?** Gruyère goes best with cornichons, Dijon mustard, ham, hazelnuts and roasted chestnuts. Nutty, sweet-savory Alpine cheese needs sour, sharp or toasty partners.
 
 ## What it is
 

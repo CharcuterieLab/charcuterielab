@@ -1,13 +1,14 @@
 ---
 title: "Liverwurst"
+meta_description: "Liverwurst is a German liver sausage: pork liver and pork cooked and blended into a smooth, spreadable paste with onion, marjoram and allspice. It's fully cooked and ready to eat. Braunschweiger is the same sausage, smoked."
 slug: "liverwurst"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Liver spread"
 role_group: "Spreadable"
-excerpt: "German liver sausage, smooth and mineral. Braunschweiger is the smoked version of the same thing — and a slice of raw onion is what makes it work."
+excerpt: "Liverwurst is a German liver sausage: pork liver and pork cooked and blended into a smooth, spreadable paste with onion, marjoram and allspice. It's fully cooked and ready to eat. Braunschweiger is the same sausage, smoked."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$"
 serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
@@ -23,6 +24,20 @@ faq: "[{"question": "Is braunschweiger the same as liverwurst?", "answer": "Effe
 German liver sausage — smooth, spreadable and mineral, the everyday cousin of
 French pâté at a fraction of the price. **Braunschweiger is smoked liverwurst**,
 not a separate product. Serve it with raw onion and mustard on dark bread.
+
+## Quick facts
+
+| | |
+|---|---|
+| **From** | Germany |
+| **Made from** | Pork liver and pork |
+| **Seasoning** | Onion, marjoram, allspice, pepper |
+| **Texture** | Smooth and spreadable |
+| **Cooked?** | Yes, fully cooked |
+| **Vs braunschweiger** | Braunschweiger is smoked liverwurst |
+| **Vs pâté** | Pâté de campagne is coarser, pricier and French |
+| **Serve with** | Raw onion, mustard and dark rye |
+| **Per person** | 1 to 1.5 oz |
 
 ## What it is
 

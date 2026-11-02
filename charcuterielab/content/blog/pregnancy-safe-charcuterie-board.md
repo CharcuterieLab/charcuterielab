@@ -66,7 +66,7 @@ US guidance says to avoid any cheese made with raw (unpasteurized) milk, and a f
 - **[Manchego](/ingredients/manchego/)** comes both ways, so read the label.
 - **[Roquefort](/ingredients/roquefort/)** is made with raw sheep's milk.
 
-Most supermarket cheddar, gouda, mozzarella, feta, cream cheese and Boursin in the US are pasteurized, but checking takes two seconds.
+Most supermarket cheddar, gouda, mozzarella, feta, cream cheese and Boursin in the US are pasteurized, but checking takes two seconds. For every common board cheese, one by one, see [which cheeses are safe during pregnancy](/blog/cheese-safe-during-pregnancy/).
 
 :::html
 <h2 id="swaps">The swaps that make it still feel like charcuterie</h2>

@@ -8,14 +8,14 @@ import { plan as partyPlan, COUNTS as PARTY_COUNTS_B, urlFor as partyUrlB } from
 export const BOARD_CATEGORIES = [
   { slug: "seasonal-holiday", name: "Seasonal & Holiday", intro: "Boards for the dates on the calendar: Thanksgiving, the holidays, New Year's Eve and every season in between." },
   { slug: "occasions-parties", name: "Occasions & Parties", intro: "Boards sized and styled for the event: game day, the office party, cocktail hour, showers and celebrations." },
-  { slug: "classic-budget-luxury", name: "Classic, Budget & Luxury", intro: "From the first board you'll ever make to the one-night splurge, and a $25 board that doesn't look it." },
+  { slug: "classic-budget-luxury", name: "Classic, Budget & Luxury", title: "Classic, Budget & Luxury Charcuterie Board Plans", intro: "From the first board you'll ever make to the one-night splurge, and a $25 board that doesn't look it." },
   { slug: "around-the-world", name: "Around the World", intro: "Italian antipasto, Spanish tapas, a French brasserie spread and more, each built from its own region's pantry." },
-  { slug: "dietary-kids", name: "Dietary & Kids", intro: "Gluten-free, keto, vegan and kid-friendly boards that nobody at the table has to work around." },
-  { slug: "pairings-sweet", name: "Pairings & Sweet", intro: "Boards built around a drink or for the sweet end of the evening." },
+  { slug: "dietary-kids", name: "Dietary & Kids", title: "Gluten-Free, Vegan & Kid-Friendly Charcuterie Boards", intro: "Gluten-free, keto, vegan and kid-friendly boards that nobody at the table has to work around." },
+  { slug: "pairings-sweet", name: "Pairings & Sweet", title: "Dessert, Wine & Beer Charcuterie Board Plans", intro: "Boards built around a drink or for the sweet end of the evening." },
   { slug: "plant-based", name: "Plant-Based", intro: "Fifteen boards with no meat and no dairy, built on the same pairing science as every other board here." },
   { slug: "for-two", name: "Boards for Two", intro: "Twenty-five boards sized for two: date nights, anniversaries, a cozy night in and a few splurges, each with a drink to pour." },
   { slug: "keto-low-carb", name: "Keto & Low-Carb", intro: "Keto boards at 4 to 9 g net carbs per serving, with low-carb dippers standing in for crackers." },
-  { slug: "showpiece", name: "Showpiece Boards", intro: "Boards shaped like a dragon, a guitar, a turkey or a pirate ship, each with the one trick that makes it work." }
+  { slug: "showpiece", name: "Showpiece Boards", title: "Shaped Charcuterie Boards: 25 Showpiece Board Plans", intro: "Boards shaped like a dragon, a guitar, a turkey or a pirate ship, each with the one trick that makes it work." }
 ];
 
 // Book 3 in the series. While "status" is "coming", every world board and the
@@ -243,7 +243,7 @@ ${FILTER_JS}`
 export function boardCategoryPage(h, cat, boards) {
   if (h.categoryPages && h.categoryPages[cat.slug]) return ideasPage(h, cat, boards, h.categoryPages[cat.slug]);
   return h.layout({
-    title: `${cat.name} Charcuterie Boards | Charcuterie Lab`,
+    title: `${cat.title || `${cat.name} Charcuterie Boards`} | Charcuterie Lab`,
     canonical: `/boards/${cat.slug}/`,
     image: boards.find((b) => !b.placeholder)?.image,
     description: `${cat.intro} Each with what goes on it, why it works and a full printable plan.`.slice(0, 300),
@@ -283,6 +283,25 @@ const SERIES = {
   keto: { B: KETO_BOOK, what: "the shopping list with the net carbs of every item, full macros per serving, the step-by-step build and the carb traps to avoid", more: "19 more keto boards" },
   impossible: { B: IMPOSSIBLE_BOOK, what: "the full shopping list, the layout, all eight build steps with the trick that makes the shape work, and easy, budget and luxe versions", more: "24 more showpiece boards" }
 };
+// Book box for a category ideas page backed by a series book (two, keto, impossible), 1 Nov 2026
+export function seriesHubBox(h, key, campaign) {
+  const S = SERIES[key];
+  if (!S || !S.B || !S.B.ebookUrl) return "";
+  const B = S.B;
+  const url = h.withTracking ? h.withTracking(B.ebookUrl, campaign) : B.ebookUrl;
+  return `<section class="bl-book" aria-labelledby="bl-book-title">
+      <img src="${h.escapeHtml((h.thumb || ((x) => x))(B.cover, "s"))}" alt="" width="160" height="207" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow">Every board, fully planned</p>
+        <h2 id="bl-book-title">Get them all in one book</h2>
+        <p>The boards on this page are in <em>${h.escapeHtml(B.title)}</em>. The book has ${S.what} for each one. Or get a single board's printable plan for $3 from its page.</p>
+        <div class="book-buy">
+          <a class="button primary" href="${h.escapeHtml(url)}" target="_blank" rel="noopener">Get the ebook · ${B.ebookPrice}</a>
+          ${B.paperbackUrl ? `<a class="button book-buy-print" href="${B.paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${B.paperbackPrice}</a>` : ""}
+        </div>
+      </div>
+    </section>`;
+}
 function seriesOffer(h, board) {
   const S = SERIES[board.book];
   const B = S.B;

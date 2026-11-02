@@ -16,6 +16,8 @@ tags: "["charcuterie board for two", "charcuterie board date night", "small char
 
 > **Quick Answer:** Keep it small: **2 cheeses** (soft and firm), **1 or 2 meats**, crackers and 2 or 3 extras. One great cheese beats five average ones. For date night, add honeycomb, figs or dark chocolate.
 
+**Looking for a theme?** Browse [27 date night charcuterie board ideas for two](/boards/for-two/), from a first date to New Year's Eve.
+
 With two people, you can splurge on fewer, better things.
 
 ---

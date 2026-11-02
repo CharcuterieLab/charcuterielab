@@ -1,13 +1,14 @@
 ---
 title: "Mojama"
+meta_description: "Mojama is salt-cured, air-dried tuna loin from Spain's Andalusian coast. The loin is buried in sea salt, rinsed and dried for two to three weeks until firm and dark red. Sliced paper-thin with olive oil, it tastes like concentrated tuna, often called the jamón of the sea."
 slug: "mojama"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Salt-cured tuna loin"
 role_group: "Smoked & tinned fish"
-excerpt: "Salt-cured, air-dried tuna loin from Andalusia. Sliced paper-thin and dressed with olive oil, it tastes like the sea's version of jamón."
+excerpt: "Mojama is salt-cured, air-dried tuna loin from Spain's Andalusian coast. The loin is buried in sea salt, rinsed and dried for two to three weeks until firm and dark red. Sliced paper-thin with olive oil, it tastes like concentrated tuna, often called the jamón of the sea."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-01
 price_tier: "$$$"
 serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
@@ -24,6 +25,18 @@ Tuna loin cured in salt and dried in the sea air of southern Spain until it's
 firm and deep red. Sliced paper-thin and dressed with olive oil, it tastes
 like a cross between tuna and jamón. It's one of the oldest cured foods in
 the Mediterranean, and almost nobody outside Spain has tried it.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Say it** | moh-HAH-mah |
+| **From** | Andalusia, Spain (Barbate, Isla Cristina) |
+| **Made from** | Tuna loin |
+| **How** | Salted 1 to 2 days, then air-dried 2 to 3 weeks |
+| **Tastes like** | Savory, meaty, salty, clean tuna flavor |
+| **Vs bottarga** | Bottarga is cured roe; mojama is the loin |
+| **How to serve** | Sliced paper-thin, with olive oil and almonds |
 
 ## What it is
 

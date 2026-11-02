@@ -1,0 +1,250 @@
+{
+  "category": "keto-low-carb",
+  "book": "keto",
+  "updated": "2026-11-01",
+  "seo_title": "Keto Charcuterie Board Ideas: 21 Low-Carb Boards",
+  "h1": "Keto Charcuterie Board Ideas",
+  "link_text": "21 keto charcuterie board ideas",
+  "description": "21 keto charcuterie board ideas at about 4 to 9 g net carbs a serving: a classic keto board, a $30 budget board, game day, Christmas, Thanksgiving, brunch, dairy-free and carnivore boards.",
+  "image": "/images/50-boards-46-low-carb-keto.webp",
+  "answer": "A keto charcuterie board keeps the cheese and cured meat and swaps crackers, bread, jam and most fruit for low-carb dippers like cucumber, endive, celery, parmesan crisps and pork rinds. Add olives, pickles, nuts and a few berries. The 21 boards below come in at about 4 to 9 g net carbs a serving.",
+  "intro": [
+    "Cheese and cured meat are already close to zero carbs, so a keto board is mostly a regular board with the crackers, jam and grapes taken off and replaced with things that do the same job.",
+    "Each idea below links to the full board: what goes on it, why it works and the timeline."
+  ],
+  "ideas": [
+    {
+      "id": "start",
+      "heading": "Start here",
+      "intro": "Everyday keto boards from a regular supermarket.",
+      "boards": [
+        {
+          "slug": "keto-starter-board",
+          "name": "Classic Keto Charcuterie Board",
+          "best_for": "Your first keto board",
+          "blurb": "Aged cheddar, Gouda, brie, salami, pepperoni, prosciutto, parmesan crisps and cucumbers. About 8 g net carbs a serving."
+        },
+        {
+          "slug": "keto-charcuterie-board",
+          "name": "Low-Carb Keto Board",
+          "best_for": "A party of 6 to 10",
+          "blurb": "Aged cheddar, Gouda, brie, Parmesan, Genoa salami, prosciutto and bresaola with endive, celery, bacon crisps and berries. No crackers."
+        },
+        {
+          "slug": "budget-keto-charcuterie-board",
+          "name": "$30 Budget Keto Board",
+          "best_for": "Keto on a budget",
+          "blurb": "Sharp cheddar, pepper jack, salami, pepperoni, eggs, pickles and cucumbers from any supermarket. About 5 g net carbs a serving."
+        },
+        {
+          "slug": "15-minute-keto-board",
+          "name": "15-Minute Keto Weeknight Board",
+          "best_for": "A no-cook dinner",
+          "blurb": "Pepper jack, mozzarella pearls, salami, ham, cucumbers, cherry tomatoes, green olives and pesto, on the table in 15 minutes."
+        }
+      ]
+    },
+    {
+      "id": "parties",
+      "heading": "Parties, game day and holidays",
+      "boards": [
+        {
+          "slug": "keto-game-day-board",
+          "name": "Keto Game Day Board",
+          "best_for": "Football Sunday",
+          "blurb": "Cheddar, pepper jack, smoked Gouda, pepperoni, bacon, pork rinds, celery and fresh guacamole. About 5 g net carbs a serving."
+        },
+        {
+          "slug": "keto-bbq-board",
+          "name": "Keto Smokehouse BBQ Board",
+          "best_for": "A cookout",
+          "blurb": "Smoked Gouda, pepper jack, bacon, kielbasa, smoked beef sausage, pork rinds and pickled jalapeños."
+        },
+        {
+          "slug": "keto-wine-night-board",
+          "name": "Keto Wine Night Board",
+          "best_for": "Wine with friends",
+          "blurb": "Brie, aged Gouda, blue cheese, prosciutto, soppressata and bresaola with endive, walnuts, blackberries and dark chocolate."
+        },
+        {
+          "slug": "keto-christmas-charcuterie-board",
+          "name": "Keto Christmas Board",
+          "best_for": "A holiday party",
+          "blurb": "A charcuterie wreath for 12 with brie, cheddar, Gouda, blue cheese, prosciutto, salami, rosemary and raspberries. About 5 g net carbs a serving."
+        },
+        {
+          "slug": "keto-thanksgiving-charcuterie-board",
+          "name": "Keto Thanksgiving Board",
+          "best_for": "A Thanksgiving appetizer",
+          "blurb": "Cheddar, Gruyère, goat cheese, smoked turkey, prosciutto, celery, radishes, pecans and sage. About 4 g net carbs a serving."
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "heading": "Around the world",
+      "boards": [
+        {
+          "slug": "keto-antipasto-board",
+          "name": "Keto Italian Antipasto Board",
+          "best_for": "Italian night",
+          "blurb": "Fresh mozzarella, provolone, Parmesan, prosciutto, Genoa salami, soppressata, olives, peppers and pesto. About 5 g net carbs."
+        },
+        {
+          "slug": "keto-tapas-board",
+          "name": "Keto Spanish Tapas Board",
+          "best_for": "Tapas with Rioja",
+          "blurb": "Manchego, goat cheese, dry chorizo, jamón serrano, radishes, olives, roasted peppers and Marcona almonds. About 4 g net carbs."
+        },
+        {
+          "slug": "keto-mediterranean-board",
+          "name": "Keto Mediterranean Board",
+          "best_for": "A fresh, lighter board",
+          "blurb": "Herbed feta, goat cheese, mozzarella, salami, prosciutto, bresaola, cucumbers, tomatoes, Kalamata olives and almonds."
+        },
+        {
+          "slug": "keto-seafood-board",
+          "name": "Keto Seafood & Smoked Fish Board",
+          "best_for": "Seafood lovers",
+          "blurb": "Smoked salmon, shrimp, cream cheese, goat cheese and brie with cucumbers, endive, eggs, avocado and capers. About 8 g net carbs."
+        }
+      ]
+    },
+    {
+      "id": "small",
+      "heading": "Small boards, brunch and travel",
+      "boards": [
+        {
+          "slug": "keto-snack-plate-for-two",
+          "name": "Keto Snack Plate for Two",
+          "best_for": "A grazing dinner for two",
+          "blurb": "Brie, aged cheddar, prosciutto, salami, cucumbers, radishes, olives, macadamias and raspberries."
+        },
+        {
+          "slug": "keto-date-night-board",
+          "name": "Keto Date Night Board",
+          "best_for": "A low-carb date",
+          "blurb": "Brie, Manchego, prosciutto and soppressata on endive, with berries and 90% dark chocolate."
+        },
+        {
+          "slug": "keto-brunch-board",
+          "name": "Keto Brunch Board",
+          "best_for": "A weekend brunch",
+          "blurb": "Cream cheese, goat cheese, Swiss, smoked salmon, bacon, prosciutto, eggs, avocado and capers. About 8 g net carbs."
+        },
+        {
+          "slug": "keto-picnic-board",
+          "name": "Keto Picnic & Travel Board",
+          "best_for": "A cooler or a road trip",
+          "blurb": "Aged cheddar, Gouda, salami, pepperoni, vegetables, hard-boiled eggs, olives, pickles and almonds."
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "heading": "Carnivore, dairy-free, high-protein and dessert",
+      "boards": [
+        {
+          "slug": "carnivore-charcuterie-board",
+          "name": "Carnivore-Leaning Board",
+          "best_for": "Almost zero carbs",
+          "blurb": "Aged cheddar, Gruyère, Parmesan, prosciutto, salami, bresaola, bacon, pork rinds and eggs. About 4 g net carbs."
+        },
+        {
+          "slug": "dairy-free-keto-board",
+          "name": "Dairy-Free Keto Board",
+          "best_for": "Keto with no cheese",
+          "blurb": "Salami, prosciutto, chorizo, smoked salmon, eggs, avocado, olives, pickles and macadamia nuts."
+        },
+        {
+          "slug": "high-protein-charcuterie-board",
+          "name": "High-Protein, Lower-Fat Board",
+          "best_for": "Protein goals",
+          "blurb": "Swiss, Parmesan, part-skim mozzarella, bresaola, smoked turkey, shrimp, eggs and crunchy vegetables."
+        },
+        {
+          "slug": "keto-dessert-board",
+          "name": "Keto Dessert Board",
+          "best_for": "Something sweet without sugar",
+          "blurb": "Mascarpone, goat cheese, berries, pecans, macadamias, coconut, whipped cream and 90% dark chocolate."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-goes-on",
+      "heading": "What to put on a keto charcuterie board",
+      "items": [
+        {
+          "lead": "Cheese.",
+          "text": "Any hard or soft cheese: cheddar, Gouda, brie, Manchego, Parmesan, blue cheese, goat cheese."
+        },
+        {
+          "lead": "Cured meat.",
+          "text": "Salami, pepperoni, prosciutto, soppressata, bresaola and chorizo are all close to zero carbs."
+        },
+        {
+          "lead": "Low-carb dippers instead of crackers.",
+          "text": "Cucumber rounds, celery, endive leaves, radishes, parmesan crisps and pork rinds."
+        },
+        {
+          "lead": "Fat and salt.",
+          "text": "Olives, pickles, macadamias, pecans and almonds."
+        },
+        {
+          "lead": "A little fruit.",
+          "text": "A handful of raspberries, blackberries or strawberries. Skip grapes and dried fruit."
+        },
+        {
+          "lead": "Something sweet.",
+          "text": "A few squares of 85 to 90% dark chocolate instead of honey or jam."
+        }
+      ]
+    },
+    {
+      "id": "carb-traps",
+      "heading": "Carb traps to skip",
+      "items": [
+        {
+          "lead": "Crackers, bread and breadsticks.",
+          "text": "The biggest source of carbs on a regular board."
+        },
+        {
+          "lead": "Honey, jam and fig spread.",
+          "text": "Mostly sugar, even in small spoonfuls."
+        },
+        {
+          "lead": "Grapes and dried fruit.",
+          "text": "Much higher in sugar than berries."
+        },
+        {
+          "lead": "Candied nuts and sweet pickles.",
+          "text": "Choose plain roasted nuts and dill pickles."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is charcuterie keto-friendly?",
+      "a": "Mostly. Cheese and cured meat are very low in carbs. The carbs on a regular board come from crackers, bread, jam, honey and fruit, so a keto board swaps those out."
+    },
+    {
+      "q": "What do you use instead of crackers on a keto board?",
+      "a": "Cucumber rounds, celery, endive leaves, radishes, parmesan or cheddar crisps and pork rinds."
+    },
+    {
+      "q": "How many carbs are in a keto charcuterie board?",
+      "a": "The boards above come in at about 4 to 9 g net carbs a serving. Most of those carbs come from nuts, berries and vegetables."
+    },
+    {
+      "q": "What fruit can you put on a keto board?",
+      "a": "A few berries: raspberries, blackberries or strawberries. Skip grapes, apples and dried fruit."
+    },
+    {
+      "q": "Can a keto board be dairy-free?",
+      "a": "Yes. The [dairy-free keto board](/boards/dairy-free-keto-board/) uses cured meats, smoked salmon, eggs, avocado, olives and nuts instead of cheese."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ board_role: "Default sweet spread"
 role_group: "Sweet preserves"
 excerpt: "The one jar every board should have. Thick enough to hold its shape on a knife, sweet enough for blue cheese, and it goes with almost every cheese you own."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
@@ -15,7 +15,7 @@ allergens: []
 tags: ["spread", "jam", "beginner", "crowd-pleaser", "year-round"]
 pairs_with: ["brie", "gorgonzola", "manchego", "prosciutto-di-parma", "water-crackers", "walnuts"]
 avoid_with: []
-faq: "[{"question": "What cheese goes with fig jam?", "answer": "Almost all of them. Brie, blue cheese, manchego and goat cheese are the standouts."}, {"question": "Is fig jam the same as fig butter or fig spread?", "answer": "Roughly. Fig butter is smoother and usually less sweet; fig spread and fig jam are used interchangeably."}, {"question": "How much fig jam do I need for a board?", "answer": "About half an ounce per person — a small bowl serves eight."}, {"question": "Should I take it out of the jar?", "answer": "Yes. Decant into a small bowl with its own spreader so it doesn't end up on every cheese knife."}, {"question": "How do I make it less sweet?", "answer": "Stir in a few drops of balsamic vinegar or lemon juice."}]"
+faq: "[{"question": "What cheese goes with fig jam?", "answer": "Almost all of them. Brie, blue cheese, manchego and goat cheese are the standouts."}, {"question": "Is fig jam the same as fig butter or fig spread?", "answer": "Roughly. Fig butter is smoother and usually less sweet; fig spread and fig jam are used interchangeably."}, {"question": "How much fig jam do I need for a board?", "answer": "About half an ounce per person — a small bowl serves eight."}, {"question": "Should I take it out of the jar?", "answer": "Yes. Decant into a small bowl with its own spreader so it doesn't end up on every cheese knife."}, {"question": "How do I make it less sweet?", "answer": "Stir in a few drops of balsamic vinegar or lemon juice."}, {"question": "What goes with fig jam besides cheese?", "answer": "Prosciutto and other cured ham, walnuts and pecans, sliced apples and pears, and baked brie. It also works as a glaze for pork or a layer in a grilled cheese."}, {"question": "What's the best fig jam for a charcuterie board?", "answer": "Our top pick is Dalmatia Original Fig Spread. Bonne Maman Fig Preserves is the best value, and it's easy to find in most supermarkets."}]"
 ---
 
 ## The short version
@@ -24,6 +24,8 @@ If you buy one jar for a cheese board, buy this one. Fig jam is thick, seedy,
 and sweet without being bright, which means it flatters almost every cheese
 instead of arguing with a few. It's also stiff enough to sit on a knife and on a
 cracker without running, which is more than most jams manage.
+
+**What goes with fig jam?** Fig jam goes best with brie, Manchego, blue cheese, prosciutto and walnuts. Its dense sweetness balances salty cheese and cured ham.
 
 ## What it is
 

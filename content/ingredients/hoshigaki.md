@@ -1,13 +1,14 @@
 ---
 title: "Hoshigaki"
+meta_description: "Hoshigaki is a Japanese dried persimmon. Whole Hachiya persimmons are peeled, hung on strings and massaged by hand every few days for about a month. The result is soft and jammy inside, deeply sweet, and dusted with a white bloom of natural sugar."
 slug: "hoshigaki"
 section: "ingredients"
 category: "Fruit"
 board_role: "Hand-massaged dried persimmon"
 role_group: "Dried fruit"
-excerpt: "Japanese dried persimmons, hung and hand-massaged for weeks until they turn tender, deeply sweet and frosted with natural sugar. The luxury dried fruit."
+excerpt: "Hoshigaki is a Japanese dried persimmon. Whole Hachiya persimmons are peeled, hung on strings and massaged by hand every few days for about a month. The result is soft and jammy inside, deeply sweet, and dusted with a white bloom of natural sugar."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-01
 price_tier: "$$$"
 serving_per_person: "1–2 slices"
 prep_time: "5 minutes"
@@ -25,6 +26,19 @@ month while someone gently massages each one by hand. They come out tender,
 jammy inside and frosted with natural sugar, like a cross between a date and
 a fig. Sliced into rounds beside a blue cheese, it's the most luxurious dried
 fruit you can serve.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Say it** | hoh-shee-gah-kee |
+| **From** | Japan; a few California farms make it too |
+| **Made from** | Whole Hachiya persimmons |
+| **How** | Peeled, hung and hand-massaged for about a month |
+| **Tastes like** | Honeyed, with notes of date, fig and spice |
+| **White powder** | Natural sugar, not mold |
+| **Season** | Late fall into winter |
+| **Vs dried persimmon slices** | Machine-dried slices are leathery; hoshigaki is soft and jammy |
 
 ## What it is
 

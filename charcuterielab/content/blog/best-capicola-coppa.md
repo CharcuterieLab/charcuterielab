@@ -19,7 +19,7 @@ tags: "["best capicola", "best coppa", "capicola brands", "capocollo", "gabagool
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4 picks</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
-Capicola, capocollo, coppa and gabagool are the same cut. But deli "capicola" is often cooked, like ham. For a board, you want dry-cured.
+Capicola, capocollo, coppa and gabagool are the same cut ([what coppa is, and how it's made](/blog/coppa/)). But deli "capicola" is often cooked, like ham. For a board, you want dry-cured.
 
 *How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 

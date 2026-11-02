@@ -66,7 +66,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <ul class="sk-checks"><li><strong>Look for:</strong> &#x27;dry cured&#x27; and &#x27;Spanish chorizo&#x27;. Paprika should be the main seasoning. &#x27;Ibérico&#x27; means it&#x27;s made from Iberian pork.</li><li class="sk-x"><strong>Skip:</strong> Mexican chorizo from the refrigerated case. It&#x27;s raw and must be cooked.</li></ul>
 :::
 
-**More:** [Spanish chorizo: pairings and serving tips](/ingredients/chorizo/) What goes with Chorizo? See the [Chorizo pairing guide](/pairings/food/chorizo/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Spanish chorizo: pairings and serving tips](/ingredients/chorizo/) What goes with Chorizo? See the [Chorizo pairing guide](/ingredients/chorizo/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Spanish chorizo questions</h2>

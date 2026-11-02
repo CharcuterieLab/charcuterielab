@@ -7,9 +7,9 @@ section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Lean cured loin"
 role_group: "Dry-cured ham"
-excerpt: "Lomo is Spanish cured pork loin: a whole loin rubbed with paprika and garlic, air-dried for months and sliced thin. Leaner than prosciutto or jamón, and ready to eat as is."
+excerpt: "Lomo (lomo embuchado) is Spanish cured pork loin. The whole loin is rubbed with pimentón and garlic, cased and air-dried for two to four months. It's eaten raw in thin slices, and it's leaner and firmer than prosciutto or jamón."
 date: 2026-09-07
-updated: 2026-10-11
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
@@ -25,6 +25,20 @@ faq: "[{"question": "What cut is lomo?", "answer": "The pork loin — the same l
 Whole pork loin, salt-cured, rubbed with paprika and garlic, and air-dried for
 months. Lean, deep red and dense — the pork equivalent of bresaola, with
 Spanish seasoning. Pound for pound it's the best value in a Spanish deli case.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Say it** | LOH-moh |
+| **From** | Spain |
+| **Made from** | Whole pork loin, the same cut as a pork chop |
+| **Seasoning** | Pimentón (smoked paprika), garlic, oregano |
+| **Cured for** | 2 to 4 months |
+| **Tastes like** | Savory, gently smoky and garlicky |
+| **Cooked?** | No. Dry-cured and ready to eat |
+| **Vs prosciutto** | Lomo is lean loin with paprika; prosciutto is the leg, salt only and fattier |
+| **Per person** | 1 to 1.5 oz |
 
 ## What it is
 

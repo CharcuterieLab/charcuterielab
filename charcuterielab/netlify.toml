@@ -657,3 +657,43 @@
   from = "/date-night-charcuterie-board"
   to = "/blog/charcuterie-board-two/"
   status = 301
+
+[[redirects]]
+  from = "/pairings/food/chorizo/"
+  to = "/ingredients/chorizo/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/chorizo"
+  to = "/ingredients/chorizo/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/gruyere/"
+  to = "/ingredients/gruyere/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/gruyere"
+  to = "/ingredients/gruyere/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/fig-jam/"
+  to = "/ingredients/fig-jam/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/fig-jam"
+  to = "/ingredients/fig-jam/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/burrata/"
+  to = "/ingredients/burrata/"
+  status = 301
+
+[[redirects]]
+  from = "/pairings/food/burrata"
+  to = "/ingredients/burrata/"
+  status = 301

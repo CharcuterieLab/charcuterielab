@@ -1,13 +1,14 @@
 ---
 title: "Salchichón"
+meta_description: "Salchichón is a Spanish dry-cured salami seasoned with black pepper instead of paprika. Coarsely chopped pork is mixed with whole peppercorns and garlic, cased and air-dried. It's like chorizo without the pimentón: milder, drier and peppery rather than hot."
 slug: "salchichon"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Peppered Spanish salami"
 role_group: "Salami"
-excerpt: "Spain's black-pepper salami — what chorizo would be without the paprika. Milder, drier and the sensible partner when chorizo is already on the board."
+excerpt: "Salchichón is a Spanish dry-cured salami seasoned with black pepper instead of paprika. Coarsely chopped pork is mixed with whole peppercorns and garlic, cased and air-dried. It's like chorizo without the pimentón: milder, drier and peppery rather than hot."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
@@ -23,6 +24,19 @@ faq: "[{"question": "How is salchichón different from chorizo?", "answer": "Cho
 The Spanish salami seasoned with black pepper instead of paprika — essentially
 what chorizo would be without the pimentón. Milder, drier and more versatile.
 If chorizo is already on the board, this is the second Spanish sausage to add.
+
+## Quick facts
+
+| | |
+|---|---|
+| **From** | Spain (salchichón de Vic, Catalonia, is the best known) |
+| **Made from** | Coarsely chopped pork |
+| **Seasoning** | Whole black peppercorns, salt, garlic, sometimes nutmeg or clove |
+| **Tastes like** | Peppery, savory and mildly tangy |
+| **Spicy?** | Peppery, not chili-hot |
+| **Vs chorizo** | Chorizo uses smoked paprika; salchichón uses black pepper |
+| **Vs fuet** | Fuet is thinner, milder and softer |
+| **Per person** | 1 to 2 oz with other meats |
 
 ## What it is
 

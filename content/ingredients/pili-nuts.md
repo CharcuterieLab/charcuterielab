@@ -1,13 +1,14 @@
 ---
 title: "Pili Nuts"
+meta_description: "Pili nuts are the seeds of the pili tree, which grows in the volcanic soil of the Philippines. They're long, ivory and about 70 percent fat, so they taste buttery and melt on the tongue. They're one of the lowest-carb nuts, which makes them popular for keto."
 slug: "pili-nuts"
 section: "ingredients"
 category: "Nuts & Seeds"
 board_role: "Butter-soft keto nut"
 role_group: "Nuts"
-excerpt: "Philippine pili nuts are the richest nut you can buy: long, ivory and so buttery they almost melt. A keto board's best friend and a guaranteed conversation starter."
+excerpt: "Pili nuts are the seeds of the pili tree, which grows in the volcanic soil of the Philippines. They're long, ivory and about 70 percent fat, so they taste buttery and melt on the tongue. They're one of the lowest-carb nuts, which makes them popular for keto."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-01
 price_tier: "$$$"
 serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
@@ -24,6 +25,19 @@ A long, ivory nut from the Philippines that's richer and more buttery than a
 macadamia. Raw or sprouted ones are so soft they almost melt; roasted ones
 snap. They're expensive and unusual, so a small bowl on a board gets noticed,
 and they're one of the best nuts for a keto spread.
+
+## Quick facts
+
+| | |
+|---|---|
+| **From** | The Bicol region of the Philippines |
+| **Tree** | Pili (Canarium ovatum) |
+| **Fat** | About 70 percent, mostly monounsaturated |
+| **Tastes like** | Mild and buttery, richer than macadamia |
+| **Texture** | Soft when sprouted, crisp when roasted |
+| **Keto?** | Yes, very low carb |
+| **Why pricey** | Mostly wild-harvested and cracked by hand |
+| **Allergy** | Tree nut |
 
 ## What it is
 

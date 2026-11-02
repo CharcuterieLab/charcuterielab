@@ -7,7 +7,7 @@ board_role: "Fresh centerpiece"
 role_group: "Soft & fresh"
 excerpt: "A mozzarella pouch filled with cream and curd shreds. The most dramatic thing on a board when you cut it — and it has a shelf life measured in days."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
@@ -16,7 +16,7 @@ tags: ["cheese", "fresh", "italian", "centerpiece"]
 pairs_with: ["stracciatella", "fresh-mozzarella", "olive-oil-crackers", "ciabatta", "prosciutto-di-parma", "dukkah", "peaches", "blood-oranges", "grapefruit", "passion-fruit", "hot-honey", "tapenade", "castelvetrano-olives", "cerignola-olives", "pickled-red-onions", "capers", "marinated-artichokes", "roasted-red-peppers", "flaky-sea-salt", "olive-oil", "balsamic-glaze", "chili-oil", "cracked-black-pepper", "chili-flakes", "fresh-basil", "cured-egg-yolks"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 board_post: "/blog/burrata/"
-faq: "[{"question": "What's inside burrata?", "answer": "Stracciatella — shredded mozzarella curd mixed with cream — inside a fresh mozzarella skin."}, {"question": "How long does it keep?", "answer": "Two to four days at best. Buy it the day you serve it."}, {"question": "Burrata or fresh mozzarella?", "answer": "Burrata for a centerpiece moment; mozzarella when you need something that slices and holds."}, {"question": "Do I season it?", "answer": "Yes. Olive oil, flaky salt and pepper after cutting. Unseasoned burrata tastes flat."}, {"question": "How much per person?", "answer": "1–2 oz. A 4 oz ball serves two to four on a mixed board."}]"
+faq: "[{"question": "What's inside burrata?", "answer": "Stracciatella — shredded mozzarella curd mixed with cream — inside a fresh mozzarella skin."}, {"question": "How long does it keep?", "answer": "Two to four days at best. Buy it the day you serve it."}, {"question": "Burrata or fresh mozzarella?", "answer": "Burrata for a centerpiece moment; mozzarella when you need something that slices and holds."}, {"question": "Do I season it?", "answer": "Yes. Olive oil, flaky salt and pepper after cutting. Unseasoned burrata tastes flat."}, {"question": "How much per person?", "answer": "1–2 oz. A 4 oz ball serves two to four on a mixed board."}, {"question": "How long can burrata sit out?", "answer": "Take it out 15 to 20 minutes before serving so it isn't fridge-cold, and eat it within 2 hours of setting it out, or 1 hour above 90°F. It's a fresh cheese, so don't put leftovers back for later."}, {"question": "What wine goes with burrata?", "answer": "Dry rosé, Sauvignon Blanc or Prosecco: light, cold and high in acid, to cut the cream. A soft wheat beer works too."}, {"question": "Do you eat the outside of burrata?", "answer": "Yes. The outer shell is fresh mozzarella and the center is stracciatella, shreds of mozzarella soaked in cream. Cut or tear through both and eat them together."}, {"question": "What fruit goes with burrata?", "answer": "Ripe peaches, tomatoes and figs in summer, and blood oranges, grapefruit and pears in winter. A drizzle of hot honey or balsamic glaze adds contrast."}]"
 ---
 
 ## The short version
@@ -24,6 +24,8 @@ faq: "[{"question": "What's inside burrata?", "answer": "Stracciatella — shred
 A skin of fresh mozzarella wrapped around a filling of cream and torn curd.
 Cut it and the middle runs out. It's the best centerpiece on a summer board and
 the shortest-lived thing you'll buy — days, not weeks.
+
+**What goes with burrata?** Burrata goes best with prosciutto, basil, good olive oil, ripe tomatoes, peaches and flaky salt. Its cool, milky center needs salt, acid and a little crunch.
 
 ## What it is
 

@@ -81,7 +81,7 @@ The CDC lists mozzarella made with pasteurized milk among the safer cheese choic
 
 - [Burrata: How to Serve It on a Board](/blog/burrata/)
 - [Burrata and Prosciutto Pairing](/blog/burrata-prosciutto-pairing/)
-- [What Goes With Burrata?](/pairings/food/burrata/)
+- [What Goes With Burrata?](/ingredients/burrata/)
 - [Fresh Mozzarella Guide](/ingredients/fresh-mozzarella/)
 
 ## Sources

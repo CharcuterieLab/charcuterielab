@@ -2,26 +2,26 @@
 title: "Cheese Advent Calendars 2026: Every One Announced So Far"
 seo_title: "Cheese Advent Calendars 2026: What's Out So Far"
 date: "2026-10-18"
-updated: "2026-10-26"
+updated: "2026-11-01"
 image: "/images/cheese-advent-calendars-2026.jpg"
-excerpt: "Every 2026 cheese advent calendar on one page: what you can order now, launch dates (Aldi Nov 4, Tillamook Nov 9), prices, UK and world picks, and how to make your own."
-description: "Cheese advent calendars 2026: Tillamook ($115, Nov 9), Cheese Brothers, Murray's, Williams Sonoma, Aldi updates, plus UK, Europe and Australia picks, prices and a DIY version."
+excerpt: "Every 2026 cheese advent calendar on one page: what you can order now, launch dates (Aldi confirmed for Nov 4 at $16.99, Tillamook Nov 9), prices, UK and world picks, and how to make your own."
+description: "Cheese advent calendars 2026: Aldi ($16.99, Nov 4, confirmed), Tillamook ($115, Nov 9), Cheese Brothers, Murray's, Williams Sonoma, plus UK, Europe and Australia picks, prices and a DIY version."
 print_after: "make-your-own-cheese-advent-calendar"
-faq: "[{"question": "What cheese advent calendars are available in 2026?", "answer": "In the US you can order the Cheese Brothers 12 Days of Cheesemas ($119.95), Redhead Creamery 12 Days of Cheesemas (about $159) and the Williams Sonoma crate ($129.95) now. The 12 Days of Tillamook ($115) goes on sale November 9. Aldi's are expected in stores around November 4. Murray's ($65) is sold out."}, {"question": "When does the Tillamook cheese advent calendar come out in 2026?", "answer": "November 9, 2026 at 9 a.m. Pacific, on Tillamook's online shop. It's $115 for 12 full-size cheddars and jacks, twice the cheese of last year."}, {"question": "Does Aldi have a cheese advent calendar in 2026?", "answer": "Not announced yet. Aldi's calendars usually reach US stores on the first Wednesday of November, which is November 4 this year. Last year it sold a 24-day calendar for $16.99 and a 12-day one for $24.99, in stores only."}, {"question": "How much is the Murray's cheese advent calendar?", "answer": "$65 for a 2.54 lb box, but it's sold out for the season. The $90 price in some roundups was last year's."}, {"question": "Does Costco have a cheese advent calendar in 2026?", "answer": "Not that we've seen yet. In past years some warehouses sold a 12 Days of Festive Cheese box, about 3 lb of European cheese for $49.99. Check the cheese case in November."}, {"question": "Is there a cheese advent calendar in the UK in 2026?", "answer": "Yes. The cheapest is The Crafty Herd (£14 at Ocado). Cheesemonger calendars from The Courtyard Dairy, George & Joseph, Paxton & Whitfield and The Welsh Cheese Company cost £135 to £224."}, {"question": "Can you buy a cheese advent calendar in Australia?", "answer": "Yes. Woolworths sells the Thomas Dux 12 Days of Cheese calendar. It was A$28 last time, so check the current price."}, {"question": "Can I make my own cheese advent calendar?", "answer": "Yes. Buy six cheeses and six spreads, cut each cheese in two, and wrap and number the 12 pieces. Use 12 cheeses for 24 nights."}]"
+faq: "[{"question": "What cheese advent calendars are available in 2026?", "answer": "In the US you can order the Cheese Brothers 12 Days of Cheesemas ($119.95), Redhead Creamery 12 Days of Cheesemas (about $159) and the Williams Sonoma crate ($129.95) now. The 12 Days of Tillamook ($115) goes on sale November 9. Aldi's Emporium Selection calendar ($16.99, 24 mini cheeses) is confirmed for November 4. Murray's ($65) is sold out."}, {"question": "When does the Tillamook cheese advent calendar come out in 2026?", "answer": "November 9, 2026 at 9 a.m. Pacific, on Tillamook's online shop. It's $115 for 12 full-size cheddars and jacks, twice the cheese of last year."}, {"question": "Does Aldi have a cheese advent calendar in 2026?", "answer": "Yes. Aldi announced it on October 30: the Emporium Selection Advent Cheese Calendar, $16.99, with 24 imported mini cheeses (12.7 oz). It goes on sale Wednesday, November 4, and usually sells out that day."}, {"question": "How much is the Murray's cheese advent calendar?", "answer": "$65 for a 2.54 lb box, but it's sold out for the season. The $90 price in some roundups was last year's."}, {"question": "Does Costco have a cheese advent calendar in 2026?", "answer": "Not that we've seen yet. In past years some warehouses sold a 12 Days of Festive Cheese box, about 3 lb of European cheese for $49.99. Check the cheese case in November."}, {"question": "Is there a cheese advent calendar in the UK in 2026?", "answer": "Yes. The cheapest is The Crafty Herd (£14 at Ocado). Cheesemonger calendars from The Courtyard Dairy, George & Joseph, Paxton & Whitfield and The Welsh Cheese Company cost £135 to £224."}, {"question": "Can you buy a cheese advent calendar in Australia?", "answer": "Yes. Woolworths sells the Thomas Dux 12 Days of Cheese calendar. It was A$28 last time, so check the current price."}, {"question": "Can I make my own cheese advent calendar?", "answer": "Yes. Buy six cheeses and six spreads, cut each cheese in two, and wrap and number the 12 pieces. Use 12 cheeses for 24 nights."}]"
 slug: "cheese-advent-calendars-2026"
 tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese advent calendar", "tillamook advent calendar", "murrays cheese advent calendar", "advent calendar for cheese lovers", "cheese advent calendar uk", "cheese advent calendar australia", "diy cheese advent calendar"]"
 ---
 
 # Cheese Advent Calendars 2026: Every One Announced So Far
 
-> **Quick Answer:** Order today: [Cheese Brothers](#cheese-brothers), $119.95. Best value: [Tillamook](#tillamook), $115, on sale Nov 9. Cheapest: [Aldi](#aldi), about $17, in stores around Nov 4. [Murray's](#murrays) is sold out. In the UK, the cheapest is [The Crafty Herd](#outside-the-us) at £14.
+> **Quick Answer:** Order today: [Cheese Brothers](#cheese-brothers), $119.95. Best value: [Tillamook](#tillamook), $115, on sale Nov 9. Cheapest: [Aldi](#aldi), $16.99, confirmed for Nov 4. [Murray's](#murrays) is sold out. In the UK, the cheapest is [The Crafty Herd](#outside-the-us) at £14.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Order today</p><a class="sk-top-name" href="#cheese-brothers">Cheese Brothers 12 Days of Cheesemas</a><p class="sk-top-line">12 full-size cheeses, ships from Nov 18</p></div><div class="sk-top-buy"><span class="sk-price">$119.95</span><a class="button sk-buy-sm" href="https://www.cheesebros.com/products/12-days-of-cheesemas-advent-calendar" target="_blank" rel="noopener">Pre-order</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#tillamook">12 Days of Tillamook</a><p class="sk-top-line">12 full-size cheddars, on sale Nov 9</p></div><div class="sk-top-buy"><span class="sk-price">$115</span><a class="button sk-buy-sm" href="https://shop.tillamook.com/products/12-days-of-tillamook" target="_blank" rel="noopener">See it</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheapest</p><a class="sk-top-name" href="#aldi">Aldi cheese advent calendar</a><p class="sk-top-line">In stores around Nov 4</p></div><div class="sk-top-buy"><span class="sk-price">About $17</span><a class="button sk-buy-sm" href="#aldi">Details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Order today</p><a class="sk-top-name" href="#cheese-brothers">Cheese Brothers 12 Days of Cheesemas</a><p class="sk-top-line">12 full-size cheeses, ships from Nov 18</p></div><div class="sk-top-buy"><span class="sk-price">$119.95</span><a class="button sk-buy-sm" href="https://www.cheesebros.com/products/12-days-of-cheesemas-advent-calendar" target="_blank" rel="noopener">Pre-order</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#tillamook">12 Days of Tillamook</a><p class="sk-top-line">12 full-size cheddars, on sale Nov 9</p></div><div class="sk-top-buy"><span class="sk-price">$115</span><a class="button sk-buy-sm" href="https://shop.tillamook.com/products/12-days-of-tillamook" target="_blank" rel="noopener">See it</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Cheapest</p><a class="sk-top-name" href="#aldi">Aldi cheese advent calendar</a><p class="sk-top-line">Confirmed: in stores Wed, Nov 4</p></div><div class="sk-top-buy"><span class="sk-price">$16.99</span><a class="button sk-buy-sm" href="#aldi">Details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#us">All 7 US calendars</a><a href="#key-dates">Key dates</a><a href="#outside-the-us">UK and world</a><a href="#make-your-own-cheese-advent-calendar">Make your own</a><a href="#cheese-advent-calendar-questions">FAQ</a></nav>
 :::
 
-*Last checked October 26, 2026. These sell out fast, so check the seller before you count on one.*
+*Aldi details updated November 1, 2026 (Aldi announced its lineup on Oct 30). Other prices last checked October 26. These sell out fast, so check the seller before you count on one.*
 
 ## Which one should you get?
 
@@ -54,10 +54,10 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 </article>
 <article class="sk-card" id="aldi">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Cheapest</p><h3>Aldi cheese advent calendar</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$16.99 and $24.99 last year</dd></div><div><dt>Cheese</dt><dd>Small European pieces</dd></div><div><dt>In stores</dt><dd>Expected Nov 4</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>$16.99</dd></div><div><dt>Cheese</dt><dd>24 imported mini cheeses, 12.7 oz in all</dd></div><div><dt>In stores</dt><dd>Wed, Nov 4 (confirmed)</dd></div></dl>
 <p class="sk-why"><strong>Why get it:</strong> The cheapest real-cheese countdown in the US.</p>
-<p class="sk-mind"><strong>Watch out:</strong> Not announced yet. In stores only, it sells out on day one, and the pieces are small.</p>
-<details class="sk-more"><summary>Details and sources</summary><p>Aldi usually releases its calendars on the first Wednesday of November (<a href="https://passionatepennypincher.com/aldi-advent-calendars/" target="_blank" rel="noopener">Passionate Penny Pincher</a>). In 2025 it sold a 24-day box of half-ounce cheeses for $16.99 and a 12-day box of 1 oz pieces for $24.99 (<a href="https://www.tastingtable.com/2018987/aldi-advent-cheese-calendar-customers-avoid/" target="_blank" rel="noopener">Tasting Table</a>).</p></details>
+<p class="sk-mind"><strong>Watch out:</strong> It sells out on launch day, the pieces are about half an ounce, and shoppers have reported repeat varieties in past years.</p>
+<details class="sk-more"><summary>Details and sources</summary><p>Aldi announced its 2026 lineup on October 30: the Emporium Selection Advent Cheese Calendar is $16.99 and arrives November 4 (<a href="https://corporate.aldi.us/newsroom/news/the-countdown-is-on-aldi-reveals-2026-advent-calendar-lineup" target="_blank" rel="noopener">Aldi newsroom</a>). It is the Winter Wonderland box, 12.7 oz with 24 mini cheeses (<a href="https://www.aisleofshame.com/aldi-advent-holiday-calendars-2026/" target="_blank" rel="noopener">Aisle of Shame</a>). Also out Nov 4: a Wine Advent Calendar ($59.99, 24 mini bottles), 12 Days of Beer ($19.99) and a Burman's Hot Sauce calendar ($14.99). Aldi didn't mention the 12-day cheese box this year. In 2025 it sold a 24-day box of half-ounce cheeses for $16.99 and a 12-day box of 1 oz pieces for $24.99 (<a href="https://www.tastingtable.com/2018987/aldi-advent-cheese-calendar-customers-avoid/" target="_blank" rel="noopener">Tasting Table</a>).</p></details>
 </article>
 <article class="sk-card" id="redhead">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Artisan pick</p><h3>Redhead Creamery 12 Days of Cheesemas</h3></div></div>
@@ -99,7 +99,7 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 | When | What happens |
 |---|---|
 | Now | Cheese Brothers and Redhead pre-orders open. UK calendars on sale. |
-| Nov 4 (expected) | Aldi calendars in US stores |
+| Wed, Nov 4 | Aldi calendars in US stores (confirmed, $16.99) |
 | Nov 9, 9 a.m. PT | Tillamook goes on sale online |
 | Nov 18 to Dec 7 | Cheese Brothers ships |
 | Nov 22 | Last day to order in Germany (Fromagerie Geiß) |
@@ -159,7 +159,7 @@ Save a little from each day and build a full board on Christmas Eve. Start with 
 
 **What cheese advent calendars are available in 2026?**
 
-In the US you can order the Cheese Brothers 12 Days of Cheesemas ($119.95), Redhead Creamery 12 Days of Cheesemas (about $159) and the Williams Sonoma crate ($129.95) now. The 12 Days of Tillamook ($115) goes on sale November 9. Aldi's are expected in stores around November 4. Murray's ($65) is sold out.
+In the US you can order the Cheese Brothers 12 Days of Cheesemas ($119.95), Redhead Creamery 12 Days of Cheesemas (about $159) and the Williams Sonoma crate ($129.95) now. The 12 Days of Tillamook ($115) goes on sale November 9. Aldi's Emporium Selection calendar ($16.99, 24 mini cheeses) is confirmed for November 4. Murray's ($65) is sold out.
 
 **When does the Tillamook cheese advent calendar come out in 2026?**
 
@@ -167,7 +167,7 @@ November 9, 2026 at 9 a.m. Pacific, on Tillamook's online shop. It's $115 for 12
 
 **Does Aldi have a cheese advent calendar in 2026?**
 
-Not announced yet. Aldi's calendars usually reach US stores on the first Wednesday of November, which is November 4 this year. Last year it sold a 24-day calendar for $16.99 and a 12-day one for $24.99, in stores only.
+Yes. Aldi announced it on October 30: the Emporium Selection Advent Cheese Calendar, $16.99, with 24 imported mini cheeses (12.7 oz). It goes on sale Wednesday, November 4, and usually sells out that day.
 
 **How much is the Murray's cheese advent calendar?**
 

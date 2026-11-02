@@ -1,6 +1,6 @@
 ---
 title: "The Best Brie Brands at the Grocery Store, Ranked"
-seo_title: "Best Brie Brands at the Grocery Store, Ranked"
+seo_title: "Best Brie Cheese: Grocery Store Brands, Ranked"
 date: "2026-09-29"
 image: "/images/ingredients/brie.jpg"
 excerpt: "The best brie for a charcuterie board, ranked: Fromager d'Affinois is our top pick. Star ratings, a best value and a splurge pick, and why."

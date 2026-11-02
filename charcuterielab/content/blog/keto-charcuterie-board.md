@@ -15,6 +15,8 @@ tags: "["keto charcuterie board", "low carb charcuterie board", "keto board", "c
 
 > **Quick Answer:** Most of a board is already keto: **cheese, cured meat, olives and nuts**. Swap crackers for **cucumber, pepper strips or pork rinds**, honey for **mustard**, and stick to **berries** for fruit.
 
+**Want a ready-made plan?** Browse [21 keto charcuterie board ideas](/boards/keto-low-carb/), from a $30 budget board to Christmas.
+
 ## Why Most of a Charcuterie Board Is Already Keto
 
 Before making any changes, recognize what requires no substitution at all.

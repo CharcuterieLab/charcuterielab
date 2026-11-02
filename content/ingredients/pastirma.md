@@ -1,13 +1,14 @@
 ---
 title: "Pastirma"
+meta_description: "Pastirma (also called basturma) is Armenian and Turkish air-dried beef. A whole muscle is salted, pressed and dried, then coated in çemen, a paste of fenugreek, garlic and paprika. It's eaten raw in thin slices and tastes beefy, garlicky and warmly spiced."
 slug: "pastirma"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "Spice-crusted cured beef"
 role_group: "Air-dried whole muscle"
-excerpt: "Armenian and Turkish cured beef, pressed and coated in a fenugreek, garlic and paprika paste. Bold, garlicky and the boldest meat on a mezze board."
+excerpt: "Pastirma (also called basturma) is Armenian and Turkish air-dried beef. A whole muscle is salted, pressed and dried, then coated in çemen, a paste of fenugreek, garlic and paprika. It's eaten raw in thin slices and tastes beefy, garlicky and warmly spiced."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "0.75 oz"
 prep_time: "10 minutes"
@@ -24,6 +25,19 @@ Cured beef from Armenia and Turkey, pressed flat, air-dried, and coated in a
 thick red paste of fenugreek, garlic and paprika. It's spicy, garlicky and
 intensely aromatic. Sliced thin and served with labneh and warm bread, it's
 the boldest meat you can put on a mezze board.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Also called** | Basturma, bastirma |
+| **From** | Armenia, Turkey and the Middle East |
+| **Made from** | Whole beef muscle, salted, pressed and air-dried |
+| **Coating** | Çemen: fenugreek, garlic, paprika and hot pepper |
+| **Tastes like** | Beefy, garlicky and earthy, with a maple-like fenugreek note |
+| **Cooked?** | No. Cured and air-dried, ready to eat |
+| **Not the same as** | Pastrami, which is brined, smoked and cooked |
+| **Per person** | 0.75 oz, sliced thin |
 
 ## What it is
 

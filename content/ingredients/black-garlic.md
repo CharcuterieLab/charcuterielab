@@ -1,13 +1,14 @@
 ---
 title: "Black Garlic"
+meta_description: "Black garlic is regular garlic aged in warm, humid heat for three to six weeks until the cloves turn black, soft and sweet. It isn't fermented: slow browning reactions do the work. It tastes like balsamic, molasses and dried plum, with almost no garlic bite."
 slug: "black-garlic"
 section: "ingredients"
 category: "Spreads, Jams & Honey"
 board_role: "Sweet aged garlic"
 role_group: "Savoury condiments"
-excerpt: "Garlic aged in warm, humid heat for weeks until the cloves turn jet-black, soft and sweet. It tastes like balsamic, molasses and tamarind, with no harsh bite."
+excerpt: "Black garlic is regular garlic aged in warm, humid heat for three to six weeks until the cloves turn black, soft and sweet. It isn't fermented: slow browning reactions do the work. It tastes like balsamic, molasses and dried plum, with almost no garlic bite."
 date: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-01
 price_tier: "$$"
 serving_per_person: "1 clove"
 prep_time: "5 minutes"
@@ -24,6 +25,19 @@ Whole heads of garlic held in warm, humid heat for weeks until the cloves
 turn jet-black, soft as a date and sweet. The harsh garlic bite is gone.
 What's left tastes like balsamic, molasses and tamarind. Set out a few
 peeled cloves beside goat cheese and watch people's faces.
+
+## Quick facts
+
+| | |
+|---|---|
+| **Made from** | Whole heads of regular garlic |
+| **How** | Held at about 140 to 170°F in high humidity for 3 to 6 weeks |
+| **Fermented?** | No. It's a slow Maillard (browning) reaction |
+| **Tastes like** | Balsamic, molasses, tamarind, dried plum |
+| **Texture** | Soft, sticky, like a date |
+| **Garlic breath?** | Much less than raw garlic |
+| **Serve with** | Fresh goat cheese or burrata |
+| **How to serve** | Whole peeled cloves, or mashed into butter or oil |
 
 ## What it is
 

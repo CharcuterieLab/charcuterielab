@@ -7,7 +7,7 @@ board_role: "Paprika salami"
 role_group: "Salami"
 excerpt: "Smoked paprika is the whole cheese. Spanish chorizo is cured and sliceable; Mexican chorizo is raw and needs a pan — buying the wrong one is the classic mistake."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-01
 price_tier: "$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
@@ -15,7 +15,7 @@ allergens: []
 tags: ["cured meat", "spanish", "paprika", "budget"]
 pairs_with: ["salchichon", "fuet", "manchego", "mahon", "olive-oil-crackers", "manzanilla-olives", "pickled-jalapenos", "pepper-jack", "marcona-almonds", "membrillo"]
 avoid_with: ["delicate-fresh-cheese"]
-faq: "[{"question": "What's the difference between Spanish and Mexican chorizo?", "answer": "Spanish chorizo is cured, firm and sliceable, flavoured with smoked paprika. Mexican chorizo is raw, soft and made with fresh chilies and vinegar — it has to be cooked."}, {"question": "Dulce or picante?", "answer": "Dulce is sweet-smoky and mild; picante has hot pimentón. Dulce is the safer board choice."}, {"question": "Why is the fat orange?", "answer": "Paprika is fat-soluble, so the colour leaches into the fat during curing."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but tough. Most people peel it."}]"
+faq: "[{"question": "What's the difference between Spanish and Mexican chorizo?", "answer": "Spanish chorizo is cured, firm and sliceable, flavoured with smoked paprika. Mexican chorizo is raw, soft and made with fresh chilies and vinegar — it has to be cooked."}, {"question": "Dulce or picante?", "answer": "Dulce is sweet-smoky and mild; picante has hot pimentón. Dulce is the safer board choice."}, {"question": "Why is the fat orange?", "answer": "Paprika is fat-soluble, so the colour leaches into the fat during curing."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but tough. Most people peel it."}, {"question": "What wine goes with chorizo?", "answer": "A Spanish red like Rioja or Tempranillo, a Malbec, or a dry rosé, whose acid handles the paprika heat. For something lighter, a dry hard cider works well."}, {"question": "What cheese goes with chorizo?", "answer": "Manchego is the classic: its nutty sheep's milk flavor softens the smoke and paprika. Mahón and Idiazábal are other Spanish matches, and pepper Jack fits a Tex-Mex board."}]"
 ---
 
 ## The short version
@@ -24,6 +24,8 @@ Spanish cured pork sausage coloured and flavoured almost entirely by smoked
 paprika. Firm, brick-red and sliceable. **Mexican chorizo is a different
 product** — raw, loose and made to be cooked — and buying it by mistake is the
 single most common error in this category.
+
+**What goes with chorizo?** Spanish chorizo goes best with Manchego, membrillo, Marcona almonds, olives and roasted peppers. Smoky paprika pork belongs with Spanish cheese and salty snacks.
 
 ## What it is
 

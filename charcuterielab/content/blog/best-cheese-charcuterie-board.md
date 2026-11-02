@@ -18,7 +18,7 @@ updated: "2026-10-20"
 :::html
 <div class="sk-top"><p class="sk-top-label">A foolproof 3-cheese board</p>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Soft</p><a class="sk-top-name" href="/pairings/food/brie/">Brie</a><p class="sk-top-line">Buttery and mild. The first cheese most guests reach for.</p></div><div class="sk-top-buy"><span class="sk-price">Out 20–30 min</span></div></div>
-<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Semi-firm</p><a class="sk-top-name" href="/pairings/food/gruyere/">Gruyère</a><p class="sk-top-line">Nutty and slightly sweet. Goes with almost every meat.</p></div><div class="sk-top-buy"><span class="sk-price">Out 30–45 min</span></div></div>
+<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Semi-firm</p><a class="sk-top-name" href="/ingredients/gruyere/">Gruyère</a><p class="sk-top-line">Nutty and slightly sweet. Goes with almost every meat.</p></div><div class="sk-top-buy"><span class="sk-price">Out 30–45 min</span></div></div>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Hard</p><a class="sk-top-name" href="/pairings/food/aged-cheddar/">Aged cheddar</a><p class="sk-top-line">Sharp and crumbly. The most universally liked cheese on a board.</p></div><div class="sk-top-buy"><span class="sk-price">Out 45–60 min</span></div></div>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Bold (optional)</p><a class="sk-top-name" href="/pairings/food/gorgonzola/">Gorgonzola Dolce</a><p class="sk-top-line">The gentlest blue, creamy enough to spread.</p></div><div class="sk-top-buy"><span class="sk-price">Out 20–30 min</span></div></div>
 </div>
@@ -36,8 +36,8 @@ Differences in texture and strength matter more than price.
 | [Brie](/pairings/food/brie/) | Soft | Buttery, mild | Fig jam, pears, walnuts |
 | [Camembert](/pairings/food/camembert/) | Soft | Earthier than brie | Apples, baguette, cider |
 | [Fresh goat cheese](/pairings/food/fresh-chevre/) | Soft | Bright, tangy | Honey, figs, pistachios |
-| [Burrata](/pairings/food/burrata/) | Soft | Milky, creamy center | Prosciutto, basil, olive oil |
-| [Gruyère](/pairings/food/gruyere/) | Semi-firm | Nutty, sweet-savory | Cornichons, ham, Dijon |
+| [Burrata](/ingredients/burrata/) | Soft | Milky, creamy center | Prosciutto, basil, olive oil |
+| [Gruyère](/ingredients/gruyere/) | Semi-firm | Nutty, sweet-savory | Cornichons, ham, Dijon |
 | [Manchego](/pairings/food/manchego/) | Semi-firm | Nutty sheep's milk | Membrillo, chorizo, Marcona almonds |
 | [Fontina](/ingredients/fontina/) | Semi-firm | Mild, earthy, melting | Salami, mushrooms |
 | [Havarti](/ingredients/havarti/) | Semi-firm | Buttery, very mild | Crackers, grapes: great for kids |
