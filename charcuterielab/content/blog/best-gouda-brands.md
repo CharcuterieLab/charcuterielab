@@ -86,7 +86,7 @@ For a board, aged Gouda is the prize: deep caramel flavor and crunchy crystals. 
 <ul class="sk-checks"><li><strong>Look for:</strong> An age statement in months. Anything over 12 months will have crystals and a butterscotch flavor. Wax coatings are not eaten.</li><li class="sk-x"><strong>Skip:</strong> Thin pre-sliced Gouda for a board. It turns plasticky. Cut an aged Gouda into shards instead.</li></ul>
 :::
 
-**More:** [Gouda: pairings and serving tips](/ingredients/aged-gouda/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Gouda: pairings and serving tips](/ingredients/aged-gouda/) · [Gouda vs Edam](/blog/gouda-vs-edam/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Gouda questions</h2>

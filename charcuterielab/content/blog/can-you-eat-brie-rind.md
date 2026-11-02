@@ -2,10 +2,11 @@
 title: "Can You Eat Brie Rind? Yes, and Here's When Not To"
 seo_title: "Can You Eat Brie Rind? Yes, and Here's When Not To"
 date: "2026-10-18"
+updated: "2026-11-01"
 image: "/images/ingredients/brie.jpg"
 excerpt: "Yes, you can eat the rind on brie. It's an edible white mold that's part of the flavor. Here's what it is, what it tastes like, when to skip it, and how to serve brie on a board."
-description: "Yes, brie rind is edible: a white mold added on purpose. What it tastes like, when not to eat it (ammonia, colored mold, pregnancy) and how to serve it."
-faq: "[{"question": "Can you eat the rind on brie?", "answer": "Yes. The white rind is an edible mold, Penicillium camemberti, added on purpose by the cheesemaker. It's part of the flavor, but eating it is a matter of taste."}, {"question": "What does brie rind taste like?", "answer": "Mild, earthy and mushroomy, with a faint bitterness that grows as the cheese ages. It's slightly chewy next to the creamy center."}, {"question": "When should you not eat brie rind?", "answer": "When the cheese smells sharply of ammonia, or shows pink, black or green mold. During pregnancy, eat brie only cooked until steaming hot."}, {"question": "Is it rude to cut the rind off brie?", "answer": "No, but don't scoop the soft middle out of a shared wheel. Cut a wedge that includes rind and center, then leave the rind on your own plate if you prefer."}, {"question": "Can you eat Camembert rind?", "answer": "Yes. Camembert has the same kind of white bloomy rind as brie."}]"
+description: "Yes, brie rind is edible: a white mold added on purpose. What it tastes like, when not to eat it (ammonia, colored mold, pregnancy), penicillin allergies and how to serve it."
+faq: "[{"question": "Can you eat the rind on brie?", "answer": "Yes. The white rind is an edible mold, Penicillium camemberti, added on purpose by the cheesemaker. It's part of the flavor, but eating it is a matter of taste."}, {"question": "What does brie rind taste like?", "answer": "Mild, earthy and mushroomy, with a faint bitterness that grows as the cheese ages. It's slightly chewy next to the creamy center."}, {"question": "When should you not eat brie rind?", "answer": "When the cheese smells sharply of ammonia, or shows pink, black or green mold. During pregnancy, eat brie only cooked until steaming hot."}, {"question": "Is it rude to cut the rind off brie?", "answer": "No, but don't scoop the soft middle out of a shared wheel. Cut a wedge that includes rind and center, then leave the rind on your own plate if you prefer."}, {"question": "Can you eat Camembert rind?", "answer": "Yes. Camembert has the same kind of white bloomy rind as brie."}, {"question": "Can you eat brie rind if you're allergic to penicillin?", "answer": "Usually, but ask your doctor first. Brie's rind is Penicillium camemberti, which doesn't produce the antibiotic penicillin, so a penicillin allergy doesn't automatically rule it out. A few people do react to cheese molds, so if you've ever reacted to brie or blue cheese, see an allergist."}]"
 slug: "can-you-eat-brie-rind"
 tags: "["can you eat brie rind", "brie rind", "is brie rind edible", "brie", "cheese rinds", "how to eat brie"]"
 ---
@@ -38,6 +39,12 @@ What *is* bad manners is scooping the soft middle out of a wheel and leaving the
 - **Pink, black or green mold.** Brie's rind should be white to ivory, sometimes with light brown streaks. Other colors mean something has gone wrong. ([Cheese Scientist](https://cheesescientist.com/science/eat-brie-rind/))
 - **A sticky, slimy or cracked, hard rind.** Signs the cheese is past its best.
 - **Pregnancy.** The [NHS](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/) advises that mould-ripened soft cheeses like brie are eaten only when cooked until steaming hot. Baked brie, rind and all, is fine; cold brie on a board isn't.
+
+## Can you eat brie rind if you're allergic to penicillin?
+
+**Usually, but ask your doctor first.** Brie's white rind is *Penicillium camemberti*. It's a cousin of the mold behind the antibiotic, not the same one, and an allergist answering for the [American Academy of Allergy, Asthma & Immunology](https://www.aaaai.org/allergist-resources/ask-the-expert/answers/old-ask-the-experts/bluecheese) notes that cheese molds like camemberti "are not penicillin producers." So being allergic to the drug doesn't automatically mean you'll react to the cheese ([BBC Science Focus](https://www.sciencefocus.com/science/if-you-are-allergic-to-penicillin-can-you-eat-stilton)).
+
+A small number of people do react to cheese molds themselves. If you've ever had a reaction after eating brie, Camembert or blue cheese, or your penicillin allergy is severe, check with an allergist before eating it. They can test with the cheese itself.
 
 ## How to serve brie with the rind on a board
 
@@ -73,6 +80,8 @@ Camembert's rind is the same kind of mold as brie's, so the same answer applies.
 
 - [Cheese Scientist: Can You Eat the Rind of Brie?](https://cheesescientist.com/science/eat-brie-rind/)
 - [culture: Can I eat the rind of Brie?](https://culturecheesemag.com/ask-the-monger/can-eat-rind-brie)
+- [AAAAI Ask the Expert: blue cheese and penicillin allergy](https://www.aaaai.org/allergist-resources/ask-the-expert/answers/old-ask-the-experts/bluecheese)
+- [BBC Science Focus: If you are allergic to penicillin, can you eat Stilton?](https://www.sciencefocus.com/science/if-you-are-allergic-to-penicillin-can-you-eat-stilton)
 - [NHS: Foods to avoid in pregnancy](https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/)
 
 ## FAQ
@@ -92,6 +101,10 @@ When the cheese smells sharply of ammonia, or shows pink, black or green mold. D
 **Is it rude to cut the rind off brie?**
 
 No, but don't scoop the soft middle out of a shared wheel. Cut a wedge that includes rind and center, then leave the rind on your own plate if you prefer.
+
+**Can you eat brie rind if you're allergic to penicillin?**
+
+Usually, but ask your doctor first. Brie's rind is Penicillium camemberti, which doesn't produce the antibiotic penicillin, so a penicillin allergy doesn't automatically rule it out. A few people do react to cheese molds, so if you've ever reacted to brie or blue cheese, see an allergist.
 
 **Can you eat Camembert rind?**
 

@@ -89,6 +89,8 @@ flavor" or "natural smoke flavor" in the ingredients. And look at the edge.
 crowd-pleaser rather than a cheese-lover's choice, and that's fine as long as
 it's a deliberate call.
 
+**Gouda or Edam?** Gouda uses whole milk, so it's richer and ages better; Edam is firmer and milder. See [Edam vs Gouda](/blog/gouda-vs-edam/).
+
 ## Quick FAQ
 
 **Is most smoked gouda actually smoked?**

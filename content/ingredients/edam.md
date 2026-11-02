@@ -89,6 +89,8 @@ similar idea.
 **Skip:** serving the wax ball whole as a centerpiece. It looks charming and
 eats badly — cut and unwax it before it goes out.
 
+**Edam or Gouda?** Edam is made with partly skimmed milk, so it's firmer and milder; Gouda is richer and ages into butterscotch crystals. See [Edam vs Gouda](/blog/gouda-vs-edam/).
+
 ## Quick FAQ
 
 **Edam or gouda?**

@@ -100,6 +100,8 @@ they've usually been sitting. Buy a small wheel instead.
 
 **Rind or no rind?** The white rind is edible. See [can you eat brie rind?](/blog/can-you-eat-brie-rind/).
 
+**Brie or Camembert?** Brie is milder and more buttery; Camembert is smaller and stronger. See [Camembert vs brie](/blog/brie-vs-camembert/).
+
 ## Quick FAQ
 
 **Do you eat the rind on brie?**

@@ -98,6 +98,8 @@ and a cut face dries fast.
 
 **Our buyer's guide:** our pick for a board is **Marin French Cheese Co. Camembert**, and **Président Camembert** is the easiest to find. See [our Camembert buyer's guide](/blog/best-camembert-brands/).
 
+**Camembert or brie?** Camembert is smaller and stronger, earthier and more mushroomy; brie is milder and more buttery. See [Camembert vs brie](/blog/brie-vs-camembert/).
+
 ## Quick FAQ
 
 **Is Camembert just stronger brie?**
