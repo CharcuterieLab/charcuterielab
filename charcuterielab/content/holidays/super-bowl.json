@@ -8,10 +8,10 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-25",
+  "updated": "2026-11-02",
   "h1": "Super Bowl Charcuterie Board Ideas",
-  "seo_title": "Super Bowl Charcuterie Board Ideas (Football + Snack Stadium)",
-  "description": "Super Bowl charcuterie board ideas: a football-shaped board, a snack stadium for a crowd, a halftime Valentine's board, a refill plan, and how much to buy.",
+  "seo_title": "Super Bowl Charcuterie Board Ideas: 8 Boards (Football + Stadium)",
+  "description": "Super Bowl charcuterie board ideas: a football board, a full football field, a snack stadium, Tex-Mex and beer boards, a game night board for two on Valentine's Day, and how much to buy.",
   "image": "/images/50-boards-08-game-day-party.webp",
   "answer": "It has to last four quarters, so plan about 3 oz each of cheese and meat per guest. Go salty (cheddar, pepperoni, pretzels, dips) and refill at halftime. Super Bowl LXI is February 14, 2027.",
   "ideas": [
@@ -29,7 +29,8 @@
         "pickled-jalapenos",
         "honey-mustard"
       ],
-      "guests": 12
+      "guests": 12,
+      "image": "/images/holidays/super-bowl-football-board.jpg"
     },
     {
       "title": "The Snack Stadium",
@@ -45,7 +46,8 @@
         "pretzel-crisps",
         "honey-roasted-peanuts"
       ],
-      "guests": 25
+      "guests": 25,
+      "image": "/images/holidays/super-bowl-snack-stadium.jpg"
     },
     {
       "title": "The Halftime Valentine Board",
@@ -60,13 +62,47 @@
         "sea-salt-caramels",
         "butter-crackers"
       ],
-      "guests": 4
+      "guests": 4,
+      "image": "/images/holidays/super-bowl-halftime-valentine-board.jpg"
+    },
+    {
+      "title": "The Football Field Board",
+      "for": "The showpiece · 12–15 guests",
+      "board": "football-field-charcuterie-board",
+      "text": "A whole field on one long board: broccoli, snap peas and green grapes for the turf, rows of cheddar and salami for the yard lines and string cheese for the goal posts, with guacamole, queso and salsa on the sidelines."
+    },
+    {
+      "title": "The Tex-Mex Tailgate Board",
+      "for": "Bold and spicy · 8–14 guests",
+      "board": "tex-mex-charcuterie-board",
+      "text": "Chorizo, pepper jack, queso fresco and cotija with mango, jicama, lime, pickled jalapeños, guacamole and salsa roja. All the flavor of nachos, without the soggy tray."
+    },
+    {
+      "title": "The Beer and Pretzel Board",
+      "for": "With the beer · 8–12 guests",
+      "board": "beer-and-charcuterie-board",
+      "text": "Each cheese matched to a beer style (sharp cheddar with IPA, smoked Gouda with porter, pepper jack with lager), with summer sausage, smoked brisket, mini pretzels and dill pickle chips."
+    },
+    {
+      "title": "The Keto Game Day Board",
+      "for": "Low-carb · 10 guests",
+      "board": "keto-game-day-board",
+      "text": "Aged cheddar, pepper jack and smoked Gouda with pepperoni, salami and bacon, pork rinds in place of chips, celery, avocado and pickled jalapeños. Nobody on keto is stuck with a plate of carrots."
+    },
+    {
+      "title": "Game Night for Two",
+      "for": "Valentine's Day on the couch · 2 guests",
+      "board": "game-night-board-for-two",
+      "text": "Super Bowl LXI falls on February 14, so for a couple watching at home: smoked Gouda, pepper jack, spicy salami and summer sausage with spicy honey, mustard and pickles. Add strawberries and dark chocolate for the fourth quarter."
     }
   ],
   "boards": [
+    "football-field-charcuterie-board",
     "game-day-charcuterie-board",
-    "25-dollar-budget-charcuterie-board",
-    "classic-american-starter-board"
+    "tex-mex-charcuterie-board",
+    "beer-and-charcuterie-board",
+    "keto-game-day-board",
+    "game-night-board-for-two"
   ],
   "shapes": [
     {
@@ -175,5 +211,23 @@
       "Swap in the refill tray at halftime",
       "Chips and crackers go on last so they stay crisp"
     ]
-  }
+  },
+  "mistakes": [
+    {
+      "lead": "Before-dinner amounts.",
+      "text": "The board is the meal for a four-hour game, so plan about 3 oz each of cheese and meat per guest, not 2."
+    },
+    {
+      "lead": "Everything out at kickoff.",
+      "text": "By the third quarter it's picked over and warm. Put out half and keep a refill tray in the fridge for halftime."
+    },
+    {
+      "lead": "Crackers next to the dips.",
+      "text": "They go soft fast. Keep chips and crackers at the edge of the board and the dips in bowls."
+    },
+    {
+      "lead": "Only soft cheese.",
+      "text": "Brie and burrata slump over four quarters. Lean on cheddar, pepper jack and Gouda, which hold up."
+    }
+  ]
 }

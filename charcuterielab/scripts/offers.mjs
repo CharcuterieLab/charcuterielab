@@ -280,7 +280,7 @@ export function makeOffers(h, products, books) {
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };
     if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
-    if (/^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
+    if (path === "/holidays/" || /^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
     if (/^\/pairings\//.test(path) || /^\/blog\/[^/]*(wine|pairing|beer|champagne|prosecco)/.test(path)) return FREEBIES.pairing;
     return null;
   }

@@ -2480,6 +2480,34 @@
 1024,
 687
 ],
+"/images/holidays/super-bowl-football-board.jpg": [
+1024,
+687
+],
+"/images/holidays/super-bowl-halftime-valentine-board.jpg": [
+1024,
+687
+],
+"/images/holidays/super-bowl-snack-stadium.jpg": [
+1024,
+687
+],
+"/images/holidays/valentines-chocolate-dessert-board.jpg": [
+1024,
+687
+],
+"/images/holidays/valentines-galentines-board.jpg": [
+1024,
+687
+],
+"/images/holidays/valentines-heart-board-for-two.jpg": [
+1024,
+687
+],
+"/images/holidays/valentines-salami-rose-board.jpg": [
+1024,
+687
+],
 "/images/hot-cocoa-board.jpg": [
 1024,
 559
@@ -10125,6 +10153,62 @@
 429
 ],
 "/images/thumbs/holiday-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__super-bowl-football-board-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__super-bowl-football-board-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__super-bowl-halftime-valentine-board-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__super-bowl-halftime-valentine-board-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__super-bowl-snack-stadium-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__super-bowl-snack-stadium-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__valentines-chocolate-dessert-board-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__valentines-chocolate-dessert-board-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__valentines-galentines-board-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__valentines-galentines-board-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__valentines-heart-board-for-two-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__valentines-heart-board-for-two-jpg-s.webp": [
+240,
+161
+],
+"/images/thumbs/holidays__valentines-salami-rose-board-jpg-m.webp": [
+640,
+429
+],
+"/images/thumbs/holidays__valentines-salami-rose-board-jpg-s.webp": [
 240,
 161
 ],
@@ -18323,6 +18407,34 @@
 "/images/holiday-board.png": {
 "m": "/images/thumbs/holiday-board-png-m.webp",
 "s": "/images/thumbs/holiday-board-png-s.webp"
+},
+"/images/holidays/super-bowl-football-board.jpg": {
+"m": "/images/thumbs/holidays__super-bowl-football-board-jpg-m.webp",
+"s": "/images/thumbs/holidays__super-bowl-football-board-jpg-s.webp"
+},
+"/images/holidays/super-bowl-halftime-valentine-board.jpg": {
+"m": "/images/thumbs/holidays__super-bowl-halftime-valentine-board-jpg-m.webp",
+"s": "/images/thumbs/holidays__super-bowl-halftime-valentine-board-jpg-s.webp"
+},
+"/images/holidays/super-bowl-snack-stadium.jpg": {
+"m": "/images/thumbs/holidays__super-bowl-snack-stadium-jpg-m.webp",
+"s": "/images/thumbs/holidays__super-bowl-snack-stadium-jpg-s.webp"
+},
+"/images/holidays/valentines-chocolate-dessert-board.jpg": {
+"m": "/images/thumbs/holidays__valentines-chocolate-dessert-board-jpg-m.webp",
+"s": "/images/thumbs/holidays__valentines-chocolate-dessert-board-jpg-s.webp"
+},
+"/images/holidays/valentines-galentines-board.jpg": {
+"m": "/images/thumbs/holidays__valentines-galentines-board-jpg-m.webp",
+"s": "/images/thumbs/holidays__valentines-galentines-board-jpg-s.webp"
+},
+"/images/holidays/valentines-heart-board-for-two.jpg": {
+"m": "/images/thumbs/holidays__valentines-heart-board-for-two-jpg-m.webp",
+"s": "/images/thumbs/holidays__valentines-heart-board-for-two-jpg-s.webp"
+},
+"/images/holidays/valentines-salami-rose-board.jpg": {
+"m": "/images/thumbs/holidays__valentines-salami-rose-board-jpg-m.webp",
+"s": "/images/thumbs/holidays__valentines-salami-rose-board-jpg-s.webp"
 },
 "/images/hot-cocoa-board.jpg": {
 "m": "/images/thumbs/hot-cocoa-board-jpg-m.webp",

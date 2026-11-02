@@ -96,7 +96,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 :::html
 <h2 id="how-to-choose">How to serve panettone on a board</h2>
 <ul class="sk-checks"><li><strong>Cut it:</strong> slice the loaf into wedges, then into finger-size strips. Toast them lightly if the loaf is a few days old.</li><li><strong>Pair it with</strong> mascarpone, Gorgonzola dolce, Parmigiano-Reggiano and thin prosciutto.</li><li><strong>Add</strong> honey, orange marmalade, dark chocolate and toasted hazelnuts.</li><li><strong>Drink:</strong> Moscato d'Asti, prosecco or espresso.</li><li><strong>How much:</strong> a 2 lb loaf gives about 12 slices; cut into strips, it covers a board for 12 to 16 guests.</li></ul>
-<p class="sk-note">Building a sweet board? See <a href="/blog/dessert-board/">the dessert board</a> and <a href="/blog/christmas-charcuterie-board/">the Christmas charcuterie board</a>.</p>
+<p class="sk-note">Building a sweet board? See <a href="/blog/dessert-board/">the dessert board</a> and <a href="/holidays/christmas/">the Christmas charcuterie board</a>.</p>
 :::
 
 ## Panettone questions

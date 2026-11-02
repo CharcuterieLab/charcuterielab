@@ -8,10 +8,10 @@
   "season": "Winter",
   "status": "published",
   "date": "2026-10-05",
-  "updated": "2026-10-25",
+  "updated": "2026-11-02",
   "h1": "Valentine's Day Charcuterie Board Ideas",
-  "seo_title": "Valentine's Day Charcuterie Board Ideas (For Two + Galentine's)",
-  "description": "Valentine's Day charcuterie board ideas: a heart-shaped board for two, a salami rose, a chocolate dessert board, a Galentine's board for friends, and how much to buy.",
+  "seo_title": "Valentine's Day Charcuterie Board Ideas: 9 Boards (For Two + Galentine's)",
+  "description": "Valentine's Day charcuterie board ideas: a heart board for two, a giant heart for a party, salami roses, oysters and Champagne, a Super Bowl on Valentine's Day board, keto and plant-based date nights, and how much to buy.",
   "image": "/images/50-boards-21-valentines-day.webp",
   "answer": "For two, you need less than you think: about 4 oz each of cheese and meat per person as dinner, 2 oz if dinner follows. Shape it like a heart and finish with dark chocolate.",
   "ideas": [
@@ -29,7 +29,8 @@
         "honey",
         "water-crackers"
       ],
-      "guests": 2
+      "guests": 2,
+      "image": "/images/holidays/valentines-heart-board-for-two.jpg"
     },
     {
       "title": "The Galentine's Board",
@@ -45,7 +46,8 @@
         "shortbread",
         "crostini"
       ],
-      "guests": 8
+      "guests": 8,
+      "image": "/images/holidays/valentines-galentines-board.jpg"
     },
     {
       "title": "The Chocolate Dessert Board",
@@ -60,11 +62,67 @@
         "brandied-cherries",
         "chocolate-covered-almonds"
       ],
-      "guests": 4
+      "guests": 4,
+      "image": "/images/holidays/valentines-chocolate-dessert-board.jpg"
+    },
+    {
+      "title": "The Valentine's Board for Two",
+      "for": "The classic · 2 guests",
+      "board": "valentines-day-board-for-two",
+      "text": "Triple-crème brie, aged Gouda, prosciutto and Genoa salami (fold it into a rose) with strawberries, raspberries, pistachios, dark chocolate and fig jam. It all fits on a small board."
+    },
+    {
+      "title": "The Giant Heart Board",
+      "for": "A party · 12–15 guests",
+      "board": "heart-shaped-charcuterie-board",
+      "text": "A big heart outlined in folded salami and filled with brie, goat cheese logs, mortadella, prosciutto and berries. It's the board for a Galentine's party or a Valentine's open house."
+    },
+    {
+      "title": "The Salami Rose Board",
+      "for": "The one trick · 4 guests",
+      "post": "how-to-make-a-salami-rose",
+      "link_text": "How to make a salami rose",
+      "text": "Three salami roses made over a wine glass, set among brie, Manchego, grapes and rosemary. It takes ten minutes and looks like a florist made it.",
+      "items": [
+        "genoa-salami",
+        "soppressata",
+        "brie",
+        "manchego",
+        "grapes",
+        "rosemary-sprigs",
+        "honey",
+        "water-crackers"
+      ],
+      "guests": 4,
+      "image": "/images/holidays/valentines-salami-rose-board.jpg"
+    },
+    {
+      "title": "Oysters and Champagne",
+      "for": "The splurge · 2 guests",
+      "board": "oysters-and-champagne-board",
+      "text": "A dozen oysters on crushed ice with chilled shrimp, mignonette, cocktail sauce and lemon, plus a wedge of Comté and buttered baguette. Ask the fish counter to shuck the oysters if you'd rather not."
+    },
+    {
+      "title": "Super Bowl on Valentine's Day",
+      "for": "Game day meets date night · 2 guests",
+      "board": "game-night-board-for-two",
+      "text": "Super Bowl LXI is on February 14, 2027. If the game is on, build a game-night board for two (smoked Gouda, spicy salami, hot honey, pickles) and finish with strawberries and dark chocolate in the fourth quarter.",
+      "link_text": "See the board"
+    },
+    {
+      "title": "Keto or Plant-Based Date Night",
+      "for": "Every diet · 2 guests",
+      "board": "keto-date-night-board",
+      "text": "The keto board uses Belgian endive leaves instead of crackers, with brie, Manchego, prosciutto, berries and 90% dark chocolate. The plant-based date night board has aged cashew brie, Champagne grapes, pears and dark chocolate. Both are fully planned in the library."
     }
   ],
   "boards": [
-    "luxury-charcuterie-board"
+    "valentines-day-board-for-two",
+    "valentines-day-charcuterie-board",
+    "heart-shaped-charcuterie-board",
+    "date-night-board-for-two",
+    "oysters-and-champagne-board",
+    "plant-based-date-night-board"
   ],
   "shapes": [
     {
@@ -162,5 +220,23 @@
       "Cut a heart into the brie just before it goes out",
       "Crackers on last"
     ]
-  }
+  },
+  "mistakes": [
+    {
+      "lead": "Buying for a crowd.",
+      "text": "For two, plan about 4 oz each of cheese and meat per person if the board is dinner, 2 oz if dinner follows. Two cheeses and two meats are plenty."
+    },
+    {
+      "lead": "Cold cheese.",
+      "text": "Take aged Gouda out an hour ahead and brie 30 minutes ahead, or they taste of nothing."
+    },
+    {
+      "lead": "Chocolate next to the cheese.",
+      "text": "Dark chocolate melts into soft cheese and takes over the flavor. Give it its own corner or a small dish."
+    },
+    {
+      "lead": "Forgetting it's also Super Bowl Sunday.",
+      "text": "In 2027 the game is on February 14. If one of you is watching, plan a board that works for both: see the game night idea above."
+    }
+  ]
 }

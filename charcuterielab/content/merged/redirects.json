@@ -11,5 +11,9 @@
   "color-contrast": "color-and-flavor",
   "what-cheese-goes-on-charcuterie-board": "best-cheese-charcuterie-board",
   "charcuterie-board-cheese-types": "best-cheese-charcuterie-board",
-  "date-night-charcuterie-board": "charcuterie-board-two"
+  "date-night-charcuterie-board": "charcuterie-board-two",
+  "christmas-charcuterie-board": "/holidays/christmas/",
+  "thanksgiving-charcuterie-board": "/holidays/thanksgiving/",
+  "charcuterie-board-new-years-eve": "/holidays/new-years-eve/",
+  "halloween-charcuterie-board": "/holidays/halloween/"
 }

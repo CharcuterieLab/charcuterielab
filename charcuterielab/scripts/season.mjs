@@ -22,7 +22,8 @@ const SHORT = {
 // keto, for two). Listed first, before the holiday page's own picks.
 const EXTRA = {
   thanksgiving: ["thanksgiving-charcuterie-board", "thanksgiving-turkey-board", "fall-harvest-charcuterie-board", "keto-thanksgiving-charcuterie-board", "plant-based-fall-harvest-board"],
-  hanukkah: ["plant-based-holiday-board"],
+  // No Hanukkah board in the library yet, so Hanukkah stays out of the season rows.
+  hanukkah: [],
   christmas: ["holiday-entertaining-board", "santas-sleigh-charcuterie-board", "keto-christmas-charcuterie-board", "plant-based-holiday-board"],
   "new-years-eve": ["new-years-eve-charcuterie-board", "new-years-eve-board-for-two"],
   "super-bowl": ["game-day-charcuterie-board", "football-field-charcuterie-board", "keto-game-day-board"],
@@ -41,6 +42,12 @@ export function upcoming(holidays, { days = 60, today = iso(new Date()) } = {}) 
     .sort((a, b) => a.d.localeCompare(b.d));
 }
 
+// Upcoming holidays that have at least one board to show.
+export function upcomingWithBoards(holidays, boards, opts) {
+  const have = new Set(boards.filter((b) => !b.placeholder).map((b) => b.slug));
+  return upcoming(holidays, opts).filter((o) => (EXTRA[o.x.slug] ? EXTRA[o.x.slug] : o.x.boards || []).some((s) => have.has(s)));
+}
+
 export function seasonTitle(up, max = 3) {
   const names = up.slice(0, max).map((o) => SHORT[o.x.slug] || o.x.name);
   if (!names.length) return "";
@@ -51,7 +58,7 @@ export function seasonTitle(up, max = 3) {
 // every holiday coming up.
 export function seasonBoards(up, boards, max = 8) {
   const bySlug = new Map(boards.filter((b) => !b.placeholder).map((b) => [b.slug, b]));
-  const lanes = up.map((o) => ({ o, slugs: [...new Set([...(EXTRA[o.x.slug] || []), ...(o.x.boards || [])])].filter((s) => bySlug.has(s)) }));
+  const lanes = up.map((o) => ({ o, slugs: [...new Set(EXTRA[o.x.slug] ? EXTRA[o.x.slug] : o.x.boards || [])].filter((s) => bySlug.has(s)) }));
   const out = [];
   const seen = new Set();
   for (let i = 0; out.length < max && lanes.some((l) => l.slugs[i]) ; i++) {
@@ -69,7 +76,7 @@ const HIDE_PAST = `<script>(function(){var t=new Date();t.setHours(0,0,0,0);docu
 
 // The "For this season" row of board cards.
 export function seasonRow(h, holidays, boards, { max = 8, kicker = "For this season", link = true, id = "season-h" } = {}) {
-  const up = upcoming(holidays);
+  const up = upcomingWithBoards(holidays, boards);
   const picks = seasonBoards(up, boards, max);
   if (picks.length < 2) return "";
   const cards = picks.map(({ b, o }) => card(b, h)

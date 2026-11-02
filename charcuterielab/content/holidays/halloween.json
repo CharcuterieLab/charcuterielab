@@ -137,7 +137,6 @@
   "book": "main",
   "blog": [
     "jack-o-lantern-charcuterie-board",
-    "halloween-charcuterie-board",
     "fall-charcuterie-board",
     "candy-charcuterie-board"
   ],
@@ -165,6 +164,14 @@
     {
       "q": "How much does a Halloween charcuterie board cost?",
       "a": "As the party food, plan about $5 to $7 per guest on a budget and $8 to $12 for a standard board, so roughly $100 to $140 or $160 to $240 for 20 guests. Splurge cheeses and meats cost more. Store and region change the total."
+    },
+    {
+      "q": "What dark foods work on a Halloween board?",
+      "a": "Blackberries, Kalamata or Niçoise olives, 70% dark chocolate, black sesame or charcoal crackers and dried black figs, with pomegranate seeds for deep red. They're real pairings too: blackberries with aged cheddar, dark chocolate next to a triple-crème, olives beside prosciutto."
+    },
+    {
+      "q": "What board looks best for a Halloween charcuterie board?",
+      "a": "A black slate or dark walnut board gives orange cheddar, blackberries and dark chocolate the most contrast. On a light board, lay dark parchment or butcher paper underneath for the same effect."
     }
   ],
   "updated": "2026-10-25",

@@ -6,7 +6,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
-import { seasonBoards, seasonHero, seasonRow, seasonTitle, upcoming as upcomingHolidays } from "./season.mjs";
+import { seasonBoards, seasonHero, seasonRow, seasonTitle, upcomingWithBoards } from "./season.mjs";
 import { injectBands } from "./hub-bands.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
 import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientDietBlock, loadDietary } from "./dietary.mjs";
@@ -493,7 +493,8 @@ function resolveSiteLink(href = "") {
   if (SITE_SECTIONS.test(path)) return pathname + tail;
   const slug = path.replace(/^blog\//, "");
   // Posts merged into another post (content/merged/redirects.json): link straight to the survivor.
-  if (linkIndex.merged[slug]) return `/blog/${linkIndex.merged[slug]}/` + tail;
+  // A survivor can also be a full path, e.g. a holiday page (2 Nov 2026).
+  if (linkIndex.merged[slug]) return (linkIndex.merged[slug].startsWith("/") ? linkIndex.merged[slug] : `/blog/${linkIndex.merged[slug]}/`) + tail;
   if (path === "blog" ) return "/blog/" + tail;
   if (!linkIndex.live) return `/blog/${slug}/` + tail; // index not ready (ingredient pages): old behaviour
   if (linkIndex.live.has(slug)) return `/blog/${slug}/` + tail;
@@ -2202,7 +2203,7 @@ function shopPage(products) {
     <div class="shop-free-links">
       <a href="/board-builder/"><strong>Board Builder</strong><span>Shopping list for your guest count</span></a>
       <a href="/boards/"><strong>Board Library</strong><span>Plans for every occasion</span></a>
-      <a href="/ingredients/"><strong>Ingredients</strong><span>350 pairing guides</span></a>
+      <a href="/ingredients/"><strong>Ingredients</strong><span>375 pairing guides</span></a>
     </div>
   </section>
 </main>`
@@ -2774,7 +2775,11 @@ async function build() {
     loadPairings(root),
     loadDietary(root)
   ]);
-  const posts = allPosts.filter((post) => isPublishedPost(post));
+  // Posts merged into another page stay in content/blog but are not built
+  // (content/merged/redirects.json; netlify.toml has the 301s).
+  let mergedMap = {};
+  try { mergedMap = JSON.parse(await readFile(join(root, "content", "merged", "redirects.json"), "utf8")); } catch {}
+  const posts = allPosts.filter((post) => isPublishedPost(post) && !mergedMap[post.slug]);
   // A printable goes live on the site once its Gumroad URL is filled in.
   const products = allProducts.filter((p) => p.url);
   linkIndex.live = new Set(posts.map((post) => post.slug));
@@ -2885,7 +2890,7 @@ async function build() {
     impossible: { title: IMPOSSIBLE_BOOK.title, short: "Impossible Boards", path: "/books/impossible-boards/", cover: IMPOSSIBLE_BOOK.cover, ebookUrl: IMPOSSIBLE_BOOK.ebookUrl, ebookPrice: IMPOSSIBLE_BOOK.ebookPrice, paperbackUrl: IMPOSSIBLE_BOOK.paperbackUrl, paperbackPrice: IMPOSSIBLE_BOOK.paperbackPrice, who: "For the host who loves a showpiece", line: "25 shaped boards, from a salami dragon to a fondue volcano, each with the one trick that makes it work." },
     two: { title: TWO_BOOK.title, short: "Boards for Two", path: "/books/boards-for-two/", cover: TWO_BOOK.cover, ebookUrl: TWO_BOOK.ebookUrl, ebookPrice: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice, who: "For a couple", line: "25 boards sized for two, from a first date to New Year's Eve, each with a drink to pour." }
   });
-  await writeFile(join(dist, "index.html"), homePage(posts, products, { hero: seasonHero(holidays), boardStrip: boardsStrip(boardHelpers, boards, upcomingHolidays(holidays).length ? { kicker: "For this season", title: `Boards for ${seasonTitle(upcomingHolidays(holidays))}`, picks: seasonBoards(upcomingHolidays(holidays), boards, 6).map((x) => x.b) } : {}), worldStrip: boards.some((b) => b.book === "world") ? `<div class="home-world">${worldBanner(boardHelpers)}</div>` : "", popular: homePopular(holidays) }));
+  await writeFile(join(dist, "index.html"), homePage(posts, products, { hero: seasonHero(holidays), boardStrip: boardsStrip(boardHelpers, boards, upcomingWithBoards(holidays, boards).length ? { kicker: "For this season", title: `Boards for ${seasonTitle(upcomingWithBoards(holidays, boards))}`, picks: seasonBoards(upcomingWithBoards(holidays, boards), boards, 6).map((x) => x.b) } : {}), worldStrip: boards.some((b) => b.book === "world") ? `<div class="home-world">${worldBanner(boardHelpers)}</div>` : "", popular: homePopular(holidays) }));
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;

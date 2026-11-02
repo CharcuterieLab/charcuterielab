@@ -138,6 +138,7 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
   const next = nextDate(hol.dates);
   const item = (s) => (known.has(s) ? `<a href="/ingredients/${s}/">${h.escapeHtml(known.get(s))}</a>` : h.escapeHtml(s));
   const others = holidays.filter((x) => x.slug !== hol.slug);
+  const timely = holidayTimely(h, hol, holidays);
   const schema = [
     {
       "@context": "https://schema.org", "@type": "CollectionPage", name: hol.h1, url: h.absoluteUrl(`/holidays/${hol.slug}/`), description: hol.description, ...(h.authorRef ? { author: h.authorRef } : {}), datePublished: hol.date || HOL_PUBLISHED, dateModified: updated,
@@ -155,6 +156,7 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
     body: `<main class="bl-main hol-main">
   <div class="bl-inner hol-inner">
     <p class="ing-crumb"><a href="/holidays/">Holidays</a> <span aria-hidden="true">/</span> ${h.escapeHtml(hol.name)}</p>
+    ${timely.after}
     <header class="hol-hero">
       <div>
         <p class="section-kicker">${h.escapeHtml(pretty(next))}</p>
@@ -166,6 +168,8 @@ export function holidayPage(h, hol, { boardsBySlug, known, blogTitles, holidays 
       </div>
       <img class="hol-photo" src="${h.escapeHtml(hol.image)}" alt="${h.escapeHtml(hol.name)} charcuterie board" width="1200" height="800" fetchpriority="high">
     </header>
+    ${timely.last}
+    ${timely.js}
 
     <nav class="hol-jump" aria-label="On this page"><a href="#ideas">Board ideas</a><a href="#shapes">Shapes</a><a href="#plan">Countdown and make-ahead</a><a href="#amounts">How much to buy</a>${hol.mistakes ? `<a href="#mistakes">Mistakes</a>` : ""}<a href="#faq">Questions</a></nav>
 
@@ -345,3 +349,69 @@ export function holidayBanner(h, holidays) {
 }
 
 export { countdownJs };
+
+// Timely boxes on holiday pages (2 Nov 2026). Both are in the HTML from the
+// build and shown by a small script from today's date, so they switch on and
+// off without a rebuild:
+//   - "Last-minute plan": the 5 days before the holiday and the day itself.
+//   - "Next up": once this year's holiday has passed and the next one is more
+//     than 60 days away, a banner points to the next holiday page.
+// Add ?today=YYYY-MM-DD to a holiday page's address to preview either box.
+const LAST_PACK = {
+  thanksgiving: ["fall-thanksgiving-pack", "Fall & Thanksgiving Pack"],
+  hanukkah: ["holiday-hosting-pack", "Holiday Hosting Pack"],
+  christmas: ["holiday-hosting-pack", "Holiday Hosting Pack"],
+  "new-years-eve": ["holiday-hosting-pack", "Holiday Hosting Pack"],
+  "super-bowl": ["game-day-pack", "Game Day Pack"],
+  "valentines-day": ["date-night-pack", "Date Night Pack"]
+};
+const WINTER_STORES = ["thanksgiving", "hanukkah", "christmas", "new-years-eve"];
+
+export function holidayTimely(h, hol, holidays) {
+  const esc = h.escapeHtml;
+  const party = /party food|as the party|four quarters|last until midnight/i.test(hol.answer || "") || ["super-bowl", "new-years-eve", "halloween"].includes(hol.slug);
+  const oz = party ? 3 : 2;
+  const quick = (hol.ideas || []).find((i) => /easy|quick|simple|last-minute|15-minute|under \$/i.test(`${i.title} ${i.for}`));
+  const pack = LAST_PACK[hol.slug];
+  const stores = WINTER_STORES.includes(hol.slug)
+    ? [["/blog/costco-holiday-charcuterie/", "Costco holiday picks"], ["/blog/aldi-holiday-charcuterie-items/", "Aldi holiday items"], ["/blog/trader-joes-holiday-charcuterie-items/", "Trader Joe's holiday items"]]
+    : [["/blog/best-costco-charcuterie-items/", "Costco picks"], ["/blog/best-aldi-charcuterie-items/", "Aldi picks"], ["/blog/best-trader-joes-cheeses/", "Trader Joe's cheeses"]];
+  const others = holidays.filter((x) => x.slug !== hol.slug).map((x) => ({ s: x.slug, n: x.name, d: x.dates }));
+  const last = `<aside class="hol-last" data-hol-last hidden aria-labelledby="hol-last-h">
+      <p class="hol-last-k">Last-minute plan</p>
+      <p class="hol-last-t" id="hol-last-h" role="heading" aria-level="2"><span data-hol-when>${esc(hol.name)} is almost here</span>: build a great board today</p>
+      <div class="hol-last-grid">
+        <div>
+          <h3>Buy today</h3>
+          <ul>
+            <li><strong>3 cheeses:</strong> one soft (brie), one firm (aged cheddar or Manchego), one crowd-pleaser</li>
+            <li><strong>2 meats:</strong> a salami and prosciutto</li>
+            <li><strong>About ${oz} oz each</strong> of cheese and meat per guest${party ? ", since the board is the party food" : " before a meal"}</li>
+            <li>Crackers, one jam or honey, olives or pickles, grapes or apples, a handful of nuts</li>
+          </ul>
+          <a class="text-link" href="/party-planner/">Exact amounts for your guest count &rarr;</a>
+        </div>
+        <div>
+          <h3>The 45-minute build</h3>
+          <ol>
+            <li>Take firm cheese out 45 to 60 minutes ahead, brie 30.</li>
+            <li>Put the cheeses down first, spread apart.</li>
+            <li>Fold the meats into loose rows between them.</li>
+            <li>Add small bowls for jam and olives.</li>
+            <li>Fill the gaps with fruit and nuts; crackers go on last.</li>
+          </ol>
+          ${quick ? `<a class="text-link" href="#ideas">Easiest idea on this page: ${esc(quick.title.replace(/^The /, ""))} &rarr;</a>` : ""}
+        </div>
+        <div>
+          <h3>Shortcuts</h3>
+          <ul>
+            ${stores.map(([u, t]) => `<li><a href="${u}">${esc(t)}</a></li>`).join("")}
+            ${pack ? `<li><a href="/printables/${pack[0]}/">${esc(pack[1])}</a>: instant PDF, nothing to ship</li>` : ""}
+          </ul>
+        </div>
+      </div>
+    </aside>`;
+  const after = `<aside class="hol-after" data-hol-after hidden></aside>`;
+  const js = `<script>(function(){var D=${JSON.stringify(hol.dates)},N=${JSON.stringify(hol.name)},O=${JSON.stringify(others)};var t=new Date();try{var q=new URLSearchParams(location.search).get("today");if(q&&/^\\d{4}-\\d{2}-\\d{2}$/.test(q))t=new Date(q+"T12:00:00")}catch(e){}t.setHours(0,0,0,0);function d(s){return new Date(s+"T00:00:00")}function days(s){return Math.round((d(s)-t)/864e5)}var nx=D.filter(function(s){return days(s)>=0}).sort()[0],pv=D.filter(function(s){return days(s)<0}).sort().pop();var L=document.querySelector("[data-hol-last]");if(L&&nx&&days(nx)<=5){var n=days(nx);L.querySelector("[data-hol-when]").textContent=n===0?N+" is today":n===1?N+" is tomorrow":N+" is in "+n+" days";L.hidden=false}var A=document.querySelector("[data-hol-after]");if(A&&pv&&(!nx||days(nx)>60)){var up=O.map(function(o){return{o:o,s:o.d.filter(function(s){return days(s)>=0}).sort()[0]}}).filter(function(x){return x.s}).sort(function(a,b){return a.s<b.s?-1:1})[0];var was=d(pv).toLocaleDateString("en-US",{month:"long",day:"numeric"});A.innerHTML="<p><strong>"+N+" was "+was+".</strong> "+(up?"Next up: <a href=\\"/holidays/"+up.o.s+"/\\">"+up.o.n+"<\\/a>, "+(days(up.s)===0?"today":days(up.s)===1?"tomorrow":"in "+days(up.s)+" days")+" &rarr;":"")+"<\\/p>";A.hidden=false}})();</script>`;
+  return { last, after, js };
+}

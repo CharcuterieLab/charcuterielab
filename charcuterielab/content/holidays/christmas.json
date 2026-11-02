@@ -209,7 +209,6 @@
   },
   "book": "world",
   "blog": [
-    "christmas-charcuterie-board",
     "holiday-board",
     "winter-charcuterie-board",
     "christmas-wreath-charcuterie-board",
@@ -260,6 +259,14 @@
     {
       "q": "How much does a Christmas charcuterie board cost?",
       "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
+    },
+    {
+      "q": "What are the best red and green foods for a Christmas board?",
+      "a": "Red: prosciutto, salami, pomegranate seeds, dried cranberries, red grapes and strawberries. Green: Castelvetrano olives, green grapes, rosemary sprigs, pistachios and kiwi. Brie, Manchego and white cheddar give the white between them, so the board looks festive without any decorations."
+    },
+    {
+      "q": "What wine goes with a Christmas charcuterie board?",
+      "a": "Sparkling wine (Champagne, Prosecco or Cava) goes with nearly everything on the board, because the bubbles and acid cut the fat and salt. For a red, pick a light one like Pinot Noir or Gamay; big tannic reds flatten soft cheese. Off-dry Riesling suits the fruit and spiced meats."
     }
   ],
   "updated": "2026-10-25",

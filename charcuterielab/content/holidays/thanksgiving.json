@@ -184,7 +184,6 @@
   },
   "book": "main",
   "blog": [
-    "thanksgiving-charcuterie-board",
     "how-much-charcuterie-for-thanksgiving",
     "how-to-transport-charcuterie-board",
     "fall-charcuterie-board",
@@ -232,6 +231,14 @@
     {
       "q": "How much does a Thanksgiving charcuterie board cost?",
       "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $35 to $60 or $60 to $95 for 12 guests. Splurge cheeses and meats run $12 or more per guest. Store and region change the total."
+    },
+    {
+      "q": "What meats go best on a Thanksgiving board?",
+      "a": "Prosciutto, coppa and a dry salami. They're lighter than smoked meats and don't fight the turkey. A spiced salami like Calabrese adds warmth that echoes the fall spices. Skip heavily smoked meats before a big dinner."
+    },
+    {
+      "q": "What fall fruits belong on a Thanksgiving board?",
+      "a": "Sliced apples (Honeycrisp or Pink Lady) and pears, red and green grapes, dried cranberries and apricots, and pomegranate seeds for color. Add fresh figs if you can find them. Slice apples and pears last, or toss them in a little lemon juice, so they don't brown."
     }
   ],
   "updated": "2026-10-25",
@@ -266,5 +273,6 @@
       "Take soft cheese out only 20 to 30 minutes ahead",
       "Add crackers just before the board goes out"
     ]
-  }
+  },
+  "read": null
 }

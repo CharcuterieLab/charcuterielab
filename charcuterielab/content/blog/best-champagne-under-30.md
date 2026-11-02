@@ -88,7 +88,7 @@ Real Champagne under $30 is rare, so we split this list: two true Champagnes, th
 :::html
 <h2 id="how-to-choose">How to pick bubbly for a board</h2>
 <ul class="sk-checks"><li><strong>Champagne or not:</strong> only wine from France's Champagne region can use the name. Crémant, Gruet and cava are made the same way, with the second fermentation in the bottle, for much less.</li><li><strong>Read the sweetness word:</strong> Brut is dry. Extra Dry is actually a little sweeter than Brut.</li><li><strong>Pair it with salt and fat:</strong> brie, aged Gouda, Parmesan, prosciutto, smoked salmon and even potato chips. Bubbles and acidity cut the richness.</li><li><strong>How much:</strong> a 750 ml bottle pours about five glasses. For a midnight toast, one bottle covers about eight small pours.</li><li><strong>Skip:</strong> Charles de Marques Champagne at Trader Joe's ($20.99). The Chronicle's tasters found it oxidized and metallic.</li></ul>
-<p class="sk-note">Building the board? See <a href="/blog/charcuterie-board-new-years-eve/">the New Year's Eve charcuterie board</a>. Not drinking? See <a href="/blog/best-sparkling-cider/">the best sparkling cider</a>.</p>
+<p class="sk-note">Building the board? See <a href="/holidays/new-years-eve/">the New Year's Eve board ideas</a>. Not drinking? See <a href="/blog/best-sparkling-cider/">the best sparkling cider</a>.</p>
 :::
 
 ## Champagne questions

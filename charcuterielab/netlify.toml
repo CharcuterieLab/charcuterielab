@@ -642,6 +642,67 @@
   to = "/blog/"
   status = 301
 
+# Merged 2 Nov 2026: holiday how-to posts folded into their holiday pages (the pages Google already shows)
+[[redirects]]
+  from = "/blog/christmas-charcuterie-board/"
+  to = "/holidays/christmas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/christmas-charcuterie-board"
+  to = "/holidays/christmas/"
+  status = 301
+
+[[redirects]]
+  from = "/christmas-charcuterie-board/"
+  to = "/holidays/christmas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/thanksgiving-charcuterie-board/"
+  to = "/holidays/thanksgiving/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/thanksgiving-charcuterie-board"
+  to = "/holidays/thanksgiving/"
+  status = 301
+
+[[redirects]]
+  from = "/thanksgiving-charcuterie-board/"
+  to = "/holidays/thanksgiving/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-new-years-eve/"
+  to = "/holidays/new-years-eve/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-new-years-eve"
+  to = "/holidays/new-years-eve/"
+  status = 301
+
+[[redirects]]
+  from = "/charcuterie-board-new-years-eve/"
+  to = "/holidays/new-years-eve/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/halloween-charcuterie-board/"
+  to = "/holidays/halloween/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/halloween-charcuterie-board"
+  to = "/holidays/halloween/"
+  status = 301
+
+[[redirects]]
+  from = "/halloween-charcuterie-board/"
+  to = "/holidays/halloween/"
+  status = 301
+
 # Merged 18 Oct 2026: date night post folded into the board-for-two post
 [[redirects]]
   from = "/blog/date-night-charcuterie-board/"

@@ -80,7 +80,7 @@ Cranberry cheese is the easy holiday win: red and white on the board, and sweet-
 :::html
 <h2 id="how-to-choose">How to serve cranberry cheese</h2>
 <ul class="sk-checks"><li><strong>Balance the sweet:</strong> pair one cranberry cheese with a sharp cheddar, a blue and salty salami or prosciutto.</li><li><strong>Add</strong> plain crackers, toasted pecans, sliced pears and rosemary sprigs for color.</li><li><strong>Drink:</strong> sparkling wine, Riesling or sparkling cider.</li><li><strong>Buy early:</strong> most are seasonal and sell out the week before Thanksgiving and Christmas.</li><li><strong>How much:</strong> about 1 oz per person as one of several cheeses.</li></ul>
-<p class="sk-note">Building the whole board? See <a href="/blog/thanksgiving-charcuterie-board/">the Thanksgiving charcuterie board</a> and <a href="/blog/christmas-charcuterie-board/">the Christmas charcuterie board</a>.</p>
+<p class="sk-note">Building the whole board? See <a href="/holidays/thanksgiving/">the Thanksgiving charcuterie board</a> and <a href="/holidays/christmas/">the Christmas charcuterie board</a>.</p>
 :::
 
 ## Cranberry cheese questions

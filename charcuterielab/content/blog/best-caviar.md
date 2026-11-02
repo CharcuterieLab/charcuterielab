@@ -80,7 +80,7 @@ You don't need $200 tins for a New Year's board: the cheap roes are good, and re
 :::html
 <h2 id="how-to-choose">How much to buy and what to serve it on</h2>
 <ul class="sk-checks"><li><strong>How much:</strong> about ½ oz (15 g) per person as a taste, 1 oz (30 g) if caviar is the star.</li><li><strong>Serve it on</strong> blini or potato chips with crème fraîche, chives and chopped egg.</li><li><strong>Keep it cold:</strong> in the coldest part of the fridge, and set the tin on ice to serve.</li><li><strong>Use a non-metal spoon:</strong> bone, shell, wood or plastic. Silver can give it a metallic taste.</li><li><strong>Drink:</strong> brut Champagne or very cold vodka.</li></ul>
-<p class="sk-note">For the bubbly, see <a href="/blog/best-champagne-under-30/">the best cheap Champagne</a>; for the board, <a href="/blog/charcuterie-board-new-years-eve/">the New Year's Eve charcuterie board</a>.</p>
+<p class="sk-note">For the bubbly, see <a href="/blog/best-champagne-under-30/">the best cheap Champagne</a>; for the board, <a href="/holidays/new-years-eve/">the New Year's Eve board ideas</a>.</p>
 :::
 
 ## Caviar questions
