@@ -77,6 +77,9 @@ Some of it. Dry salami freezes for 1 to 2 months, and hard cheese for up to abou
 
 If you always end up with a fridge full of salami, you're probably buying for a party when you're really serving an appetizer. Plan 2 oz each of meat and cheese per guest before a meal and 3 oz when the board is the food. Our [Party Planner](/party-planner/) works out the exact amounts, and our [Thanksgiving amounts guide](/blog/how-much-charcuterie-for-thanksgiving/) covers holiday dinners.
 
+**Turn it into dinner:** chop the leftovers into a [charcuterie salad](/blog/charcuterie-salad/) with romaine, chickpeas and a red wine vinaigrette.
+
+
 ## Related Reading
 
 - [The Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/)

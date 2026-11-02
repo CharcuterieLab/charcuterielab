@@ -129,6 +129,10 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 | Australia | [Thomas Dux 12 Days of Cheese](https://www.woolworths.com.au/shop/productdetails/147620/thomas-dux-12-days-of-cheese-advent-calendar) | A$28 last time | At Woolworths |
 | Canada | Nothing confirmed yet | C$37 last year | Watch Metro for the Ilchester calendar |
 
+
+**In Australia or Canada?** See [cheese advent calendars in Australia and Canada](/blog/cheese-advent-calendar-australia-canada/) for what's in stores there, and how to make your own.
+
+
 No 2026 calendar found yet in Norway or Denmark.
 
 ## Make your own cheese advent calendar

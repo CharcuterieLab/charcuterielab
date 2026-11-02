@@ -138,6 +138,9 @@ Anything that sat out on the board is a leftover: eat it within 3–4 days, and 
 
 **For smaller boards,** see the [Charcuterie Price Index](/blog/charcuterie-price-index/), which prices the same board for 10 at Aldi, Walmart, Kroger and Trader Joe's.
 
+**Leftover salame and Parmesan?** Chop them into a [charcuterie salad](/blog/charcuterie-salad/).
+
+
 ## Related Reading
 
 - [The Best Costco Charcuterie Board Items, Ranked](/blog/best-costco-charcuterie-items/)

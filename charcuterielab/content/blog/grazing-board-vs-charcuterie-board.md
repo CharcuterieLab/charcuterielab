@@ -86,6 +86,9 @@ For 10 guests at a party, that's about 30 oz each of cheese and meat. More detai
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 boards in both formats with exact quantities, shopping lists, and build sequences.
 
+**Heard it called a smorgasbord?** A smorgasbord is a Swedish buffet with hot dishes and courses. See [smorgasbord vs. charcuterie board](/blog/smorgasbord-vs-charcuterie-board/).
+
+
 ## Related Reading
 
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)

@@ -71,6 +71,9 @@ At Charcuterie Lab, we take the wide view. A well-built board uses science — t
 
 ---
 
+**Heard it called a smorgasbord?** A smorgasbord is a Swedish buffet with hot dishes and courses. See [smorgasbord vs. charcuterie board](/blog/smorgasbord-vs-charcuterie-board/).
+
+
 ## Related Reading
 
 - [What Is Charcuterie? The Complete, Science-Backed Answer](https://charcuterielab.com/blog/what-is-charcuterie/)
