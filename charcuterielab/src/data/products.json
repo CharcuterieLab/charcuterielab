@@ -231,6 +231,11 @@
         "Party Planner",
         "/party-planner/"
       ]
+    ],
+    "previews": [
+      "/images/printables/mixed-diet-party-planner-1.jpg",
+      "/images/printables/mixed-diet-party-planner-2.jpg",
+      "/images/printables/mixed-diet-party-planner-3.jpg"
     ]
   },
   {
@@ -267,6 +272,11 @@
         "Diet Checker",
         "/dietary/"
       ]
+    ],
+    "previews": [
+      "/images/printables/gluten-free-board-kit-1.jpg",
+      "/images/printables/gluten-free-board-kit-2.jpg",
+      "/images/printables/gluten-free-board-kit-3.jpg"
     ]
   },
   {
@@ -303,6 +313,11 @@
         "Diet Checker",
         "/dietary/"
       ]
+    ],
+    "previews": [
+      "/images/printables/nut-free-allergy-board-kit-1.jpg",
+      "/images/printables/nut-free-allergy-board-kit-2.jpg",
+      "/images/printables/nut-free-allergy-board-kit-3.jpg"
     ]
   },
   {
@@ -339,6 +354,11 @@
         "Is Parmesan vegetarian?",
         "/dietary/questions/is-parmesan-vegetarian/"
       ]
+    ],
+    "previews": [
+      "/images/printables/vegetarian-vegan-board-kit-1.jpg",
+      "/images/printables/vegetarian-vegan-board-kit-2.jpg",
+      "/images/printables/vegetarian-vegan-board-kit-3.jpg"
     ]
   },
   {
@@ -349,7 +369,7 @@
     "priceShort": "$5",
     "pagesLabel": "13 pages",
     "format": "US Letter PDF",
-    "image": "/images/printable-board-builder.jpg",
+    "image": "/images/printables/cured-meat-field-guide-cover.jpg",
     "description": "Every cured meat you'll find at the deli counter, explained: what it tastes like, how spicy it is, how to slice it and what to pair it with.",
     "hook": "Every cured meat you'll find at the deli counter, explained: what it tastes like, how spicy it is, how to slice it and what to pair it with.",
     "seoTitle": "Cured Meat Field Guide: Printable PDF",
@@ -371,7 +391,12 @@
         "/party-planner/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/cured-meat-field-guide"
+    "url": "https://charcuterieflavor.gumroad.com/l/cured-meat-field-guide",
+    "previews": [
+      "/images/printables/cured-meat-field-guide-1.jpg",
+      "/images/printables/cured-meat-field-guide-2.jpg",
+      "/images/printables/cured-meat-field-guide-3.jpg"
+    ]
   },
   {
     "slug": "cheese-board-field-guide",
@@ -418,7 +443,7 @@
     "priceShort": "$4",
     "pagesLabel": "9 pages",
     "format": "US Letter PDF",
-    "image": "/images/printable-board-builder.jpg",
+    "image": "/images/printables/make-ahead-board-timeline-cover.jpg",
     "description": "What to do two days, one night and one hour before the party, so the board is built calm and served at its best.",
     "hook": "What to do two days, one night and one hour before the party, so the board is built calm and served at its best.",
     "seoTitle": "Make-Ahead Board Timeline: Printable PDF",
@@ -440,7 +465,12 @@
         "/party-planner/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/make-ahead-board-timeline"
+    "url": "https://charcuterieflavor.gumroad.com/l/make-ahead-board-timeline",
+    "previews": [
+      "/images/printables/make-ahead-board-timeline-1.jpg",
+      "/images/printables/make-ahead-board-timeline-2.jpg",
+      "/images/printables/make-ahead-board-timeline-3.jpg"
+    ]
   },
   {
     "slug": "baby-shower-board-kit",
@@ -450,7 +480,7 @@
     "priceShort": "$5",
     "pagesLabel": "13 pages",
     "format": "US Letter PDF",
-    "image": "/images/printable-board-builder.jpg",
+    "image": "/images/printables/baby-shower-board-kit-cover.jpg",
     "description": "A complete baby shower board with pregnancy-safe picks, a shopping list for 20 and printable tent cards for the table.",
     "hook": "A complete baby shower board with pregnancy-safe picks, a shopping list for 20 and printable tent cards for the table.",
     "seoTitle": "Baby Shower Board Kit: Printable PDF",
@@ -472,7 +502,12 @@
         "/party-planner/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/baby-shower-board-kit"
+    "url": "https://charcuterieflavor.gumroad.com/l/baby-shower-board-kit",
+    "previews": [
+      "/images/printables/baby-shower-board-kit-1.jpg",
+      "/images/printables/baby-shower-board-kit-2.jpg",
+      "/images/printables/baby-shower-board-kit-3.jpg"
+    ]
   },
   {
     "slug": "brunch-lox-board-plan",
@@ -482,7 +517,7 @@
     "priceShort": "$4",
     "pagesLabel": "9 pages",
     "format": "US Letter PDF",
-    "image": "/images/printable-board-builder.jpg",
+    "image": "/images/printables/brunch-lox-board-plan-cover.jpg",
     "description": "A bagel and lox brunch board: what to buy, how much, the topping lineup and how to set it out.",
     "hook": "A bagel and lox brunch board: what to buy, how much, the topping lineup and how to set it out.",
     "seoTitle": "Brunch & Lox Board Plan: Printable PDF",
@@ -504,7 +539,12 @@
         "/party-planner/"
       ]
     ],
-    "url": "https://charcuterieflavor.gumroad.com/l/brunch-lox-board-plan"
+    "url": "https://charcuterieflavor.gumroad.com/l/brunch-lox-board-plan",
+    "previews": [
+      "/images/printables/brunch-lox-board-plan-1.jpg",
+      "/images/printables/brunch-lox-board-plan-2.jpg",
+      "/images/printables/brunch-lox-board-plan-3.jpg"
+    ]
   },
   {
     "slug": "soft-cheese-field-guide",

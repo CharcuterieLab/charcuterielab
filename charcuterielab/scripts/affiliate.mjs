@@ -39,7 +39,12 @@ export function affiliateHtml(html) {
   const body = foot > 0 ? out.slice(0, foot) : out;
   const inBody = /<a\b[^>]*href="https?:\/\/(?:www\.)?amazon\.com\//.test(body);
   let noted = false;
-  if (inBody && !out.includes('class="aff-note"')) {
+  // A page can choose where the notice goes with <!--aff-note--> (the Shop
+  // puts it beside its paperback button, 2 Nov 2026).
+  if (inBody && out.includes("<!--aff-note-->")) {
+    out = out.replace("<!--aff-note-->", `<p class="aff-note">${DISCLOSURE} <a href="/privacy/#affiliate-links">How that works</a></p>`);
+    noted = true;
+  } else if (inBody && !out.includes('class="aff-note"')) {
     const h1 = body.indexOf("</h1>");
     if (h1 > 0) {
       out = out.slice(0, h1 + 5) + `\n<p class="aff-note">${DISCLOSURE} <a href="/privacy/#affiliate-links">How that works</a></p>` + out.slice(h1 + 5);

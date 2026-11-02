@@ -1485,7 +1485,7 @@ const NAV_GROUPS = [
   { key: "learn", label: "Learn", href: "/ingredients/", match: /^\/(ingredients|pairings|blog)\//, links: [
     ["/ingredients/", "Ingredient library"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
   { key: "shop", label: "Shop", href: "/shop/", match: /^\/(shop|printables|ebook|books)\//, links: [
-    ["/shop/", "Start here"], ["/shop/#ebooks", "Ebooks and paperbacks"], ["/shop/#printables", "Printable plans"], ["/ebook/", "50 Boards Built by Science"] ] }
+    ["/shop/", "Start here"], ["/shop/#ebooks", "Books: ebooks and paperbacks"], ["/shop/printables/", "All printables"], ["/ebook/", "50 Boards Built by Science"] ] }
 ];
 
 function siteNav(canonical = "/") {
@@ -1773,7 +1773,7 @@ function homeShop(products) {
         </article>
 ${picks.map((p) => card(p, kickers[p.slug] || "Printable")).join("\n")}
       </div>
-      <div class="section-link"><a class="button" href="/shop/#printables">See all ${others} printables</a></div>
+      <div class="section-link"><a class="button" href="/shop/printables/">See all ${others} printables</a></div>
     </div>
   </section>`;
 }
@@ -2703,6 +2703,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
     { loc: "/blog/", priority: "0.8" },
     ...(ingredients.length ? [{ loc: "/board-builder/", priority: "0.8" }] : []),
     { loc: "/shop/", priority: "0.8" },
+    { loc: "/shop/printables/", priority: "0.7" },
     { loc: "/newsletter/", priority: "0.8" },
     { loc: "/about/", priority: "0.5" },
     { loc: "/privacy/", priority: "0.2" },
@@ -2908,6 +2909,8 @@ async function build() {
   // here row; /printables/ and /books/ redirect to it (netlify.toml).
   await mkdir(join(dist, "shop"), { recursive: true });
   await writeFile(join(dist, "shop", "index.html"), PRINTABLES.landing(BOOK_BOARDS));
+  await mkdir(join(dist, "shop", "printables"), { recursive: true });
+  await writeFile(join(dist, "shop", "printables", "index.html"), PRINTABLES.printablesPage(BOOK_BOARDS));
   await mkdir(join(dist, "printables"), { recursive: true });
   for (const product of products) {
     await mkdir(join(dist, "printables", product.slug), { recursive: true });
@@ -3523,7 +3526,7 @@ console.log(`Search index: ${await buildSearch()} pages`);
     ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", cover: KETO_BOOK.cover, page: "/books/keto-charcuterie-boards/", price: KETO_BOOK.ebookPrice }] : []),
     ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", cover: PLANT_BOOK.cover, page: "/books/plant-based-charcuterie-boards/", price: PLANT_BOOK.ebookPrice }] : [])
   ].filter((c) => c.cover);
-  const b = await injectBands(dist, { thumb, covers });
+  const b = await injectBands(dist, { thumb });
   console.log(`Hub photo bands: ${b.join(", ")}`);
 }
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);

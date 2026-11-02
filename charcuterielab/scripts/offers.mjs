@@ -186,7 +186,7 @@ export function makeOffers(h, products, books) {
     if (target === "board:single") {
       const b = ctx.bookBoard;
       if (!b || !b.single) return null;
-      return { type: "single", key: `single-${b.nn}`, board: b, title: `${b.name}, fully planned`, price: b.single.price, url: b.single.url, image: b.image, page: b.slug && b.published ? `/boards/${b.slug}/` : "/shop/#singles", hook: "This board as a 5-page printable: the exact shopping list with amounts and prices, a step-by-step build, and swaps for anything the store is out of." };
+      return { type: "single", key: `single-${b.nn}`, board: b, title: `${b.name}, fully planned`, price: b.single.price, url: b.single.url, image: b.image, page: b.slug && b.published ? `/boards/${b.slug}/` : "/shop/printables/#singles", hook: "This board as a 5-page printable: the exact shopping list with amounts and prices, a step-by-step build, and swaps for anything the store is out of." };
     }
     const p = live.get(target);
     return p ? { type: "printable", slug: p.slug, title: p.title, price: p.priceShort || p.price, url: p.url, image: p.image, hook: p.hook, pages: p.pagesLabel, bundle: !!p.bundle, save: p.save, separately: p.separately } : null;
@@ -233,8 +233,8 @@ export function makeOffers(h, products, books) {
       return `<a href="/printables/${esc(o.slug)}/">See what's inside</a> · Instant PDF · 30-day refund${packLine}`;
     }
     const bundle = live.get("complete-board-builder-bundle");
-    if (!o.paperbackUrl) return `<a href="/shop/#printables">Or browse the printables from $3</a>`;
-    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a> · <a href="/shop/#printables">Printables from $3</a>`;
+    if (!o.paperbackUrl) return `<a href="/shop/printables/">Or browse the printables from $3</a>`;
+    return `<a href="${esc(o.paperbackUrl)}" target="_blank" rel="noopener">${o.altLabel ? `Prefer ${esc(o.altLabel)}? On Amazon · ${esc(o.paperbackPrice)}` : `Prefer paper? Paperback on Amazon · ${esc(o.paperbackPrice)}`}</a> · <a href="/shop/printables/">Printables from $3</a>`;
   }
 
   function top(ctx, campaign) {

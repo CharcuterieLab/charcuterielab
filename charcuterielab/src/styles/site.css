@@ -5886,3 +5886,75 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
 @media (max-width: 820px) {
   .season-holiday .site-header.is-open .nav-links .nav-gifts { background: transparent; color: #f0cf73; padding-left: 0; }
 }
+
+/* ==========================================================================
+   Shop rebuild (2 Nov 2026): book-first hero, "What are you shopping for?",
+   book grid, Look inside, /shop/printables/
+   ========================================================================== */
+.shop2-hero h1 { margin-bottom: 10px; }
+.shop2-feature { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 26px; align-items: center; max-width: 900px; margin: 18px 0 14px; padding: 22px; border: 1px solid rgba(169, 87, 43, 0.18); border-radius: 18px; background: linear-gradient(135deg, #fff8ec, #f6e3c4); }
+.shop2-cover img { width: 100%; height: auto; border-radius: 6px; box-shadow: 0 18px 34px rgba(55, 35, 25, 0.28); transform: rotate(-2deg); background: var(--cream); }
+.shop2-feature-copy { min-width: 0; }
+.shop2-feature-copy .eyebrow { margin: 0 0 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9b2f22; }
+.shop2-feature-copy h2 { margin: 0 0 8px; font-size: clamp(1.5rem, 3.4vw, 2rem); line-height: 1.15; color: var(--green-deep); }
+.shop2-feature-copy h2 a { color: inherit; text-decoration: none; }
+.shop2-feature-copy > p { margin: 0 0 12px; font-size: 1.05rem; line-height: 1.55; color: var(--ink); max-width: 560px; }
+.shop2-buy { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 10px; }
+.shop2-gift { padding: 10px 12px; border-radius: 10px; background: #fff; border-left: 4px solid #9b2f22; font-size: 15px !important; }
+.shop2-fine { font-size: 14px !important; margin-bottom: 6px !important; }
+.shop2-fine a { color: var(--green); font-weight: 700; }
+.shop2-feature .aff-note { margin: 4px 0 0; font-size: 12.5px; font-style: italic; color: var(--muted); }
+
+.shop2-intent { max-width: 1100px; margin: 26px auto 18px; }
+.shop2-intent h2 { margin: 0 0 14px; font-size: 1.6rem; color: var(--green-deep); }
+.shop2-intent-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.shop2-intent-card { min-width: 0; padding: 14px 14px 10px; border: 1px solid rgba(169, 87, 43, 0.16); border-radius: 14px; background: #fff; }
+.shop2-intent-card .eyebrow { margin: 0 0 8px; font-size: 12.5px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #9b2f22; }
+.shop2-intent-card ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.shop2-intent-card a { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 10px; align-items: center; padding: 6px; border-radius: 10px; color: var(--ink); text-decoration: none; }
+.shop2-intent-card a:hover, .shop2-intent-card a:focus-visible { background: var(--cream); }
+.shop2-intent-card img { width: 56px; height: 56px; object-fit: cover; border-radius: 8px; background: var(--cream); }
+.shop2-intent-card strong { display: block; font-family: var(--serif); font-size: 0.98rem; line-height: 1.25; color: var(--green-deep); }
+.shop2-intent-card a span span { display: block; font-size: 13px; color: var(--muted); }
+
+.shop2-book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px 18px; }
+.shop2-book { display: flex; flex-direction: column; min-width: 0; }
+.shop2-book img { width: 100%; max-width: 200px; height: auto; aspect-ratio: 240 / 310; object-fit: cover; border-radius: 5px; box-shadow: 0 12px 24px rgba(55, 35, 25, 0.2); margin-bottom: 10px; background: var(--cream); }
+.shop2-book h3 { margin: 0 0 6px; font-size: 1.08rem; line-height: 1.25; }
+.shop2-book h3 a { color: var(--green-deep); text-decoration: none; }
+.shop2-book p { margin: 0 0 10px; font-size: 14px; line-height: 1.45; color: var(--muted); }
+.shop2-book-buy { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+
+.fx-look { margin-top: 10px; border-top: 1px solid rgba(169, 87, 43, 0.12); padding-top: 8px; }
+.fx-look summary { cursor: pointer; font-size: 14px; font-weight: 700; color: var(--green); list-style: none; }
+.fx-look summary::-webkit-details-marker { display: none; }
+.fx-look summary::before { content: "+ "; }
+.fx-look[open] summary::before { content: "\2212 "; }
+.fx-look-row { display: flex; gap: 8px; overflow-x: auto; padding: 8px 0 4px; scroll-snap-type: x mandatory; }
+.fx-look-row a { flex: 0 0 82%; scroll-snap-align: start; }
+.fx-look-row img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; margin: 0; border: 1px solid rgba(169, 87, 43, 0.14); }
+
+@media (max-width: 900px) {
+  .shop2-intent-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .shop2-book-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .shop2-feature { grid-template-columns: 110px minmax(0, 1fr); gap: 14px; padding: 14px; align-items: start; }
+  .shop2-feature-copy > p:first-of-type + h2 + p { display: none; }
+  .shop2-buy { flex-direction: column; }
+  .shop2-buy .button { width: 100%; text-align: center; justify-content: center; }
+  .shop2-intent-grid { display: flex; overflow-x: auto; gap: 12px; padding-bottom: 8px; scroll-snap-type: x mandatory; }
+  .shop2-intent-card { flex: 0 0 84%; scroll-snap-align: start; }
+  .shop2-intent { padding: 0 2px; }
+  .shop2-book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
+  .shop2-book p { display: none; }
+  .shop2-book-buy .button { width: 100%; text-align: center; justify-content: center; padding-left: 6px; padding-right: 6px; font-size: 13px; }
+  .shop-v2 .fx-p-grid, .fx-printables .fx-p-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .fx-printables .fx-p-card { padding: 10px; }
+  .fx-printables .fx-p-card > p:not(.eyebrow) { font-size: 13px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .fx-printables .fx-p-card h3 { font-size: 1rem; line-height: 1.25; }
+  .fx-printables .fx-p-card .eyebrow { font-size: 10.5px; }
+  .fx-printables .fx-print-actions { flex-direction: column; align-items: stretch; gap: 6px; }
+  .fx-printables .fx-print-actions .button { width: 100%; padding-left: 6px; padding-right: 6px; font-size: 13px; text-align: center; justify-content: center; }
+  .fx-look-row a { flex-basis: 92%; }
+}
