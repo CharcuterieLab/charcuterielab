@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "0 minutes"
 allergens: ["peanuts"]
 tags: ["nuts", "candied", "budget", "beer-board", "american"]
-pairs_with: ["aged-cheddar", "gorgonzola", "pretzel-crisps", "apples", "aged-gouda"]
+pairs_with: ["aged-cheddar", "gorgonzola", "pretzel-crisps", "apples", "aged-gouda", "trail-mix"]
 avoid_with: ["burrata", "ricotta"]
 faq: "[{"question": "Are peanuts okay on a charcuterie board?", "answer": "Yes, on casual boards. They're cheap, familiar, and pair well with sharp cheddar. Just flag the allergen."}, {"question": "Are peanut and tree nut allergies the same?", "answer": "No — they're separate allergies, and peanut allergy is more common and often more severe. Keep peanuts in their own bowl and mention them."}, {"question": "What cheese goes with honey roasted peanuts?", "answer": "Aged cheddar first, then blue cheese and aged gouda."}, {"question": "Do they contain gluten?", "answer": "Often, yes — many brands use wheat starch in the coating. Check the label."}, {"question": "How much per person?", "answer": "Half to one ounce. People graze on these more than on plain nuts."}]"
 ---

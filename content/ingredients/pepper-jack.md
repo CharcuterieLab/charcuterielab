@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: ["dairy"]
 tags: ["american", "spicy", "budget", "crowd-pleaser", "flavored"]
-pairs_with: ["pickled-jalapenos", "chorizo", "tortilla-chips", "apples", "honey", "pepper-jelly"]
+pairs_with: ["pickled-jalapenos", "chorizo", "tortilla-chips", "apples", "honey", "pepper-jelly", "colby-jack"]
 avoid_with: []
 faq: "[{"question": "How spicy is pepper jack?", "answer": "Mild. The chilies are folded into a very mild cheese and the fat blunts most of the heat. It is warmth rather than burn."}, {"question": "What peppers are in it?", "answer": "Usually jalapeno and sweet red pepper, sometimes serrano or habanero in hotter versions. The label says."}, {"question": "Does it belong on a real charcuterie board?", "answer": "On an American, Tex-Mex or budget board, yes. It is the cheese that gives an otherwise mild lineup something to do."}, {"question": "Does it melt well?", "answer": "Extremely well, which is why it is a sandwich and burger cheese. On a board serve it cold-cut."}, {"question": "How much per person?", "answer": "One to two ounces."}]"
 ---

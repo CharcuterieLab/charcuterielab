@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["spread", "jam", "beginner", "crowd-pleaser", "year-round"]
-pairs_with: ["brie", "gorgonzola", "manchego", "prosciutto-di-parma", "water-crackers", "walnuts"]
+pairs_with: ["brie", "gorgonzola", "manchego", "prosciutto-di-parma", "water-crackers", "walnuts", "strawberry-jam"]
 avoid_with: []
 faq: "[{"question": "What cheese goes with fig jam?", "answer": "Almost all of them. Brie, blue cheese, manchego and goat cheese are the standouts."}, {"question": "Is fig jam the same as fig butter or fig spread?", "answer": "Roughly. Fig butter is smoother and usually less sweet; fig spread and fig jam are used interchangeably."}, {"question": "How much fig jam do I need for a board?", "answer": "About half an ounce per person — a small bowl serves eight."}, {"question": "Should I take it out of the jar?", "answer": "Yes. Decant into a small bowl with its own spreader so it doesn't end up on every cheese knife."}, {"question": "How do I make it less sweet?", "answer": "Stir in a few drops of balsamic vinegar or lemon juice."}, {"question": "What goes with fig jam besides cheese?", "answer": "Prosciutto and other cured ham, walnuts and pecans, sliced apples and pears, and baked brie. It also works as a glaze for pork or a layer in a grilled cheese."}, {"question": "What's the best fig jam for a charcuterie board?", "answer": "Our top pick is Dalmatia Original Fig Spread. Bonne Maman Fig Preserves is the best value, and it's easy to find in most supermarkets."}]"
 ---

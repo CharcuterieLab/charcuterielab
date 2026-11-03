@@ -208,6 +208,16 @@ OVERRIDES = {
     "cured-egg-yolks": {"vegetarian": ("safe", "Eggs, salt and sugar. Fine for vegetarians who eat eggs.")},
     "pickled-quail-eggs": {"vegetarian": ("safe", "Eggs and brine. Fine for vegetarians who eat eggs.")},
     "cajeta": {"gluten-free": ("safe", "Goat's milk and sugar. Liquor-flavored envinada versions can vary.")},
+    # 25 common US ingredients (2 Nov 2026)
+    "beef-jerky": {"gluten-free": ("check", "Many marinades use soy sauce made with wheat. Look for a gluten-free label.")},
+    "cocktail-shrimp": {"gluten-free": ("safe", "Plain cooked shrimp has no gluten. Check the cocktail sauce label.")},
+    "ranch-dip": {"gluten-free": ("check", "Most ranch is gluten-free, but some mixes and dips use wheat-based thickeners. Read the label.")},
+    "french-onion-dip": {"gluten-free": ("check", "Most tubs are gluten-free, but some onion soup mixes contain wheat. Read the label.")},
+    "kettle-chips": {"gluten-free": ("check", "Plain kettle chips are potatoes, oil and salt, but flavored ones can contain wheat or malt vinegar."),
+                     "dairy-free": ("safe", "Plain and sea salt chips have no milk. Cheese and sour cream flavors do."),
+                     "vegan": ("safe", "Plain and sea salt chips are vegan. Cheese and sour cream flavors aren't.")},
+    "chocolate-covered-strawberries": {"dairy-free": ("check", "Milk and white chocolate contain milk; some dark chocolate doesn't. Check the chocolate."),
+                                       "vegan": ("check", "Vegan only if dipped in dairy-free dark chocolate.")},
 }
 
 def main():

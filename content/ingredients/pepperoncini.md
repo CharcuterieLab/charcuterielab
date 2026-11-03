@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["peppers", "italian", "greek", "budget", "beginner"]
-pairs_with: ["soppressata", "fresh-mozzarella", "feta", "mortadella", "aged-provolone"]
+pairs_with: ["soppressata", "fresh-mozzarella", "feta", "mortadella", "aged-provolone", "banana-peppers"]
 avoid_with: []
 faq: "[{"question": "Are pepperoncini spicy?", "answer": "Barely. They're one of the mildest chillies used in pickling — mostly tangy and vegetal."}, {"question": "What's the difference between pepperoncini and banana peppers?", "answer": "Banana peppers are smoother, straighter and even milder. Pepperoncini are wrinkled and slightly tangier. They're often used interchangeably."}, {"question": "What do they go with?", "answer": "Italian salami, provolone, mortadella and feta — antipasto and Greek salad ingredients."}, {"question": "Whole or sliced?", "answer": "Whole with stems for a board; they look better and are easier to pick up. Rings are for scattering."}, {"question": "How much per person?", "answer": "Two or three peppers, about half an ounce."}]"
 ---

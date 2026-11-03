@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "15 minutes"
 allergens: []
 tags: ["condiment", "holiday", "american", "budget", "seasonal"]
-pairs_with: ["brie", "aged-cheddar", "fresh-chevre", "black-forest-ham", "stilton", "gingersnaps"]
+pairs_with: ["brie", "aged-cheddar", "fresh-chevre", "black-forest-ham", "stilton", "gingersnaps", "smoked-turkey"]
 avoid_with: []
 faq: "[{"question": "Can I use cranberry sauce on a cheese board?", "answer": "Yes — it's one of the sharpest sweet condiments available, which makes it very useful on a rich winter board."}, {"question": "Whole berry or jellied?", "answer": "Whole berry for a board. Jellied can be sliced like membrillo, but it's mostly sugar."}, {"question": "How do I make cranberry sauce?", "answer": "Simmer 12 oz cranberries with 3/4 cup sugar and 1/2 cup orange juice for about 15 minutes until the berries burst. Cool completely."}, {"question": "What cheese goes with cranberry sauce?", "answer": "Brie, aged cheddar, fresh goat cheese, and stilton."}, {"question": "Can I make it ahead?", "answer": "Yes, and it improves overnight. It keeps a week in the fridge."}]"
 ---

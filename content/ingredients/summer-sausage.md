@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "american", "smoked", "budget"]
-pairs_with: ["landjager", "genoa-salami", "pepperoni", "aged-cheddar", "butter-crackers"]
+pairs_with: ["landjager", "genoa-salami", "pepperoni", "aged-cheddar", "butter-crackers", "meat-sticks"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is it called summer sausage?", "answer": "It was made to keep without refrigeration through summer — fermented, smoked and partially dried."}, {"question": "Why is it tangy?", "answer": "Lactic fermentation, the same process behind sourdough and yoghurt. Cheap versions fake it with vinegar."}, {"question": "Is it cooked?", "answer": "Most commercial summer sausage is cooked during smoking and is ready to eat."}, {"question": "How much per person?", "answer": "1–2 oz. It's inexpensive, so be generous."}, {"question": "Is it beef or pork?", "answer": "Usually beef, or a beef-and-pork blend. Venison versions are common in the Midwest."}]"
 ---

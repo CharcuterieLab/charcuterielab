@@ -13,7 +13,7 @@ serving_per_person: "5–6 crisps"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "salty", "sturdy", "dessert boards"]
-pairs_with: ["butter-crackers", "water-crackers", "pita-chips", "brie", "cream-cheese", "aged-cheddar", "prosciutto-di-parma", "genoa-salami", "honey-roasted-peanuts", "honey-mustard"]
+pairs_with: ["butter-crackers", "water-crackers", "pita-chips", "brie", "cream-cheese", "aged-cheddar", "prosciutto-di-parma", "genoa-salami", "honey-roasted-peanuts", "honey-mustard", "mini-pretzels"]
 avoid_with: ["cured-meat", "delicate-fresh-cheese"]
 image_alt: "Flat oval pretzel crisps fanned beside whipped cream cheese and a spoon of honey"
 faq: "[{"question": "Are pretzel crisps good for a charcuterie board?", "answer": "For the sweet and creamy half of a board, yes. Keep them away from the cured meats — salt on salt goes flat."}, {"question": "Can I use them for dip?", "answer": "Yes. They're one of the few thin bases sturdy enough for a dense dip."}, {"question": "How many per person?", "answer": "5–6. People snack on these more than on plain crackers."}, {"question": "Why do they taste slightly bitter?", "answer": "The alkaline bath that browns the surface. That bitterness is why they pair so well with sweet things."}, {"question": "Do they work on a dessert board?", "answer": "They're one of the best options for one — chocolate, caramel and salted pretzel is already a standard combination."}]"

@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "aged", "sharp"]
-pairs_with: ["asiago", "pecorino-romano", "grana-padano", "grissini", "soppressata", "oil-cured-olives", "giardiniera", "pepperoncini"]
+pairs_with: ["asiago", "pecorino-romano", "grana-padano", "grissini", "soppressata", "oil-cured-olives", "giardiniera", "pepperoncini", "provolone"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is aged provolone spicy?", "answer": "It's made with lamb or kid rennet paste, which contains lipases that break fat into free fatty acids. Those produce a peppery tingle — not chili, not salt."}, {"question": "Provolone dolce vs. piccante?", "answer": "Dolce is aged two to three months and mild. Piccante is aged a year or more and sharp. Only piccante belongs on a cheese board."}, {"question": "Is it the same as deli provolone?", "answer": "Same family, different grade. Deli slices are almost always dolce."}, {"question": "Can you eat the rind?", "answer": "No, trim it."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

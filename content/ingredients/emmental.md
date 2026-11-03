@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "swiss", "mild", "beginner"]
-pairs_with: ["gruyere", "comte", "beaufort", "cocktail-rye", "speck", "hazelnuts"]
+pairs_with: ["gruyere", "comte", "beaufort", "cocktail-rye", "speck", "hazelnuts", "baby-swiss"]
 avoid_with: ["blue-cheese"]
 faq: "[{"question": "Why does Swiss cheese have holes?", "answer": "A bacterium called Propionibacterium freudenreichii produces carbon dioxide during aging. The gas can't escape the dense paste, so it forms bubbles."}, {"question": "Emmental or Gruyère?", "answer": "Emmental is mild and sweet; Gruyère is salty and savory. Emmental for a cautious crowd, Gruyère for a cheese board."}, {"question": "Is Jarlsberg the same thing?", "answer": "No — it's Norwegian, made with a similar process but sweeter and softer. Many people prefer it."}, {"question": "Can you eat the rind?", "answer": "Trim it. It's thin but not pleasant."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

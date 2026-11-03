@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["cured meat", "unique", "keto", "pork-free", "game day"]
-pairs_with: ["aged-cheddar", "pickled-red-onions", "mango-chutney", "smoked-almonds", "dried-apricots"]
+pairs_with: ["aged-cheddar", "pickled-red-onions", "mango-chutney", "smoked-almonds", "dried-apricots", "beef-jerky"]
 avoid_with: ["beef-jerky"]
 faq: "[{"question": "What is the difference between biltong and jerky?", "answer": "Jerky is sliced thin and dried with heat, often with sugar. Biltong is cut into thick strips, cured in vinegar and spices, and air-dried without heat, so it's more tender."}, {"question": "Is biltong raw?", "answer": "It's not cooked. Vinegar, salt and air-drying cure it, the same way air-dried hams are cured."}, {"question": "What does biltong taste like?", "answer": "Beefy and tangy from vinegar, with coriander and black pepper. Usually less sweet than jerky."}, {"question": "Is biltong gluten-free?", "answer": "Many brands are, but some cures use malt vinegar or Worcestershire sauce. Check the label."}, {"question": "Is it keto?", "answer": "Most plain biltong has little or no sugar, so it fits keto boards. Check flavored versions."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "20 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "spiced", "make-ahead", "holiday", "crowd-pleaser"]
-pairs_with: ["manchego", "aged-cheddar", "gorgonzola", "prosciutto-di-parma", "aged-gouda"]
+pairs_with: ["manchego", "aged-cheddar", "gorgonzola", "prosciutto-di-parma", "aged-gouda", "mixed-nuts"]
 avoid_with: []
 faq: "[{"question": "What's the best spiced nut recipe for a cheese board?", "answer": "The Union Square Cafe bar nuts — rosemary, cayenne, brown sugar, butter and salt on warm roasted nuts. It's the standard for a reason."}, {"question": "Should spiced nuts be served warm?", "answer": "Yes. Warm nuts release far more aroma, and it's the only hot element on most boards."}, {"question": "Can I make them ahead?", "answer": "Yes — up to a week in an airtight container. Reheat at 300°F for five minutes before serving."}, {"question": "Fresh or dried rosemary?", "answer": "Fresh. Dried rosemary is woody and tastes dusty in this application."}, {"question": "What cheese goes with spiced nuts?", "answer": "Manchego, aged cheddar, aged gouda and blue cheese."}]"
 ---

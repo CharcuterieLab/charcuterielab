@@ -14,7 +14,7 @@ serving_per_person: "0.25 oz"
 prep_time: "2 minutes"
 allergens: ["mustard"]
 tags: ["condiment", "mustard", "budget", "beginner", "crowd-pleaser"]
-pairs_with: ["black-forest-ham", "pretzel-crisps", "aged-cheddar", "kielbasa", "soppressata"]
+pairs_with: ["black-forest-ham", "pretzel-crisps", "aged-cheddar", "kielbasa", "soppressata", "soft-pretzel-bites"]
 avoid_with: []
 faq: "[{"question": "How do I make honey mustard?", "answer": "Stir two parts Dijon or whole grain mustard into one part honey. Adjust to taste."}, {"question": "What goes with honey mustard on a board?", "answer": "Ham, sausage, pretzels, and aged cheddar. It's the beer-board condiment."}, {"question": "Is honey mustard the same as the dipping sauce?", "answer": "No. Dipping sauces include mayonnaise, which makes them creamy dressings. A board version should be mustard-forward."}, {"question": "Why put it on a board at all?", "answer": "It's the condiment guests who dislike mustard will still use, and it's the right match for pretzels and ham."}, {"question": "How much per person?", "answer": "About a quarter-ounce."}]"
 ---

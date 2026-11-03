@@ -13,7 +13,7 @@ serving_per_person: "3–4 pieces"
 prep_time: "10 minutes"
 allergens: []
 tags: ["gluten-free", "grain-free", "low-carb", "fresh"]
-pairs_with: ["cassava-crackers", "tostada-rounds", "socca", "fresh-chevre", "feta", "aged-gouda", "smoked-salmon"]
+pairs_with: ["cassava-crackers", "tostada-rounds", "socca", "fresh-chevre", "feta", "aged-gouda", "smoked-salmon", "ranch-dip"]
 avoid_with: ["dry-aged-cheese"]
 faq: "[{"question": "Which vegetable holds up best on a board?", "answer": "Endive, by a wide margin. Then jicama and mini peppers. Cucumber is last."}, {"question": "How far ahead can I prep them?", "answer": "Cut them the morning of, store under a damp towel in the fridge, and assemble at the last minute. Cucumber should be cut just before serving."}, {"question": "How many per person?", "answer": "3–4 pieces alongside other bases."}, {"question": "Won't they make the board wet?", "answer": "Only if you choose badly or salt early. Endive and peppers stay dry; cucumber and tomato don't."}, {"question": "Is this actually a base or just a garnish?", "answer": "A base. Endive filled with whipped feta is a complete bite — it just happens to be a leaf instead of a cracker."}]"
 ---
