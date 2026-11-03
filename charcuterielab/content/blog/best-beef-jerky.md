@@ -118,3 +118,5 @@ It's the classic budget bag. The Kitchn called it a reliable budget buy, but it 
 :::
 
 For more meat, see [the best meats for a charcuterie board](/blog/best-meats-charcuterie-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+More for a game-day board: [the best kielbasa](/blog/best-kielbasa/) and [the best cheese curds](/blog/best-cheese-curds/).

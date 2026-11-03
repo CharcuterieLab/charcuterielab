@@ -127,3 +127,4 @@ Labels use the words loosely. Read the ingredients: cocoa powder only (Swiss Mis
 
 Build the rest of it with our [hot cocoa board](/blog/hot-cocoa-board/) guide and the [Christmas charcuterie board ideas](/holidays/christmas/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+For the grown-ups' mug, see [the best store-bought eggnog](/blog/best-eggnog/).

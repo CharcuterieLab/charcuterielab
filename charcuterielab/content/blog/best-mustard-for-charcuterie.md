@@ -106,3 +106,4 @@ Salami, summer sausage, pâté, aged cheddar and pretzels.
 </details>
 :::
 
+Mustard's best friend on a game-day board: [the best kielbasa](/blog/best-kielbasa/).

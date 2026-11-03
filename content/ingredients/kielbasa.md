@@ -89,6 +89,8 @@ should be in the ingredients — that's the Polish signature.
 **Skip:** slicing a fresh smoked ring cold and calling it charcuterie. It's a
 cooking sausage and it eats rubbery.
 
+**Our buyer's guide:** Slotkowski, Wellshire Farms and Kroger Polska top the taste tests. See [the best kielbasa](/blog/best-kielbasa/).
+
 ## Quick FAQ
 
 **What does kielbasa mean?**

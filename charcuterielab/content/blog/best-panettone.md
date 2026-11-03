@@ -123,3 +123,5 @@ It takes days of natural sourdough rising, plus lots of butter and egg yolk. Che
 :::
 
 More holiday sweets: [the best store-bought Christmas cookies](/blog/best-store-bought-christmas-cookies/) and [the best shortbread](/blog/best-shortbread/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+To pour alongside it, see [the best store-bought eggnog](/blog/best-eggnog/).

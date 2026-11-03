@@ -123,3 +123,4 @@ Aged hard cheese needs 45 to 60 minutes.
 </details>
 :::
 
+Want cheddar fresh and squeaky? See [the best cheese curds](/blog/best-cheese-curds/).

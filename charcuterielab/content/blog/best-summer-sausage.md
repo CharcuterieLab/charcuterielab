@@ -106,3 +106,5 @@ Cut it into coins about 1/4 inch thick, or halve the coins into half-moons.
 :::
 
 Building a snack board? See [the best beef jerky](/blog/best-beef-jerky/).
+
+For a Wisconsin-style board, add [the best kielbasa](/blog/best-kielbasa/) and [the best cheese curds](/blog/best-cheese-curds/).

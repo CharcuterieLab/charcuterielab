@@ -84,6 +84,8 @@ production, the better the squeak.
 **Skip:** breaded frozen curds for a cold board. Those are for frying, not
 snacking.
 
+**Our buyer's guide:** Aldi's Happy Farms curds at the supermarket; Decatur Dairy and Ellsworth for World Championship winners. See [the best cheese curds](/blog/best-cheese-curds/).
+
 ## Quick FAQ
 
 **What are cheese curds?**
