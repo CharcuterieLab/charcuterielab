@@ -132,6 +132,20 @@
     "n": 7,
     "pages": 5
   },
+  "gut-health-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-gut-health-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 8,
+    "pages": 5
+  },
+  "high-protein-plant-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-high-protein-plant-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 9,
+    "pages": 5
+  },
   "plant-based-brunch-board": {
     "url": "https://charcuterieflavor.gumroad.com/l/vegan-breakfast-brunch-plant-board",
     "price": "$3",
@@ -151,6 +165,13 @@
     "price": "$3",
     "book": "plant",
     "n": 12,
+    "pages": 5
+  },
+  "plant-based-summer-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/vegan-summer-fresh-board",
+    "price": "$3",
+    "book": "plant",
+    "n": 14,
     "pages": 5
   },
   "indian-charcuterie-board": {
@@ -396,6 +417,55 @@
     "price": "$3",
     "book": "keto",
     "n": 17,
+    "pages": 5
+  },
+  "high-protein-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-high-protein-lower-fat-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 19,
+    "pages": 5
+  },
+  "keto-picnic-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-picnic-travel-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 10,
+    "pages": 5
+  },
+  "dairy-free-keto-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-dairy-free-keto-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 18,
+    "pages": 5
+  },
+  "keto-dessert-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/keto-dessert-board",
+    "price": "$3",
+    "book": "keto",
+    "n": 20,
+    "pages": 5
+  },
+  "spanish-tapas-for-two": {
+    "url": "https://charcuterieflavor.gumroad.com/l/for-two-spanish-tapas-for-two-board",
+    "price": "$3",
+    "book": "two",
+    "n": 22,
+    "pages": 5
+  },
+  "honeymoon-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/for-two-honeymoon-suite-board",
+    "price": "$3",
+    "book": "two",
+    "n": 5,
+    "pages": 5
+  },
+  "im-sorry-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/for-two-im-sorry-board",
+    "price": "$3",
+    "book": "two",
+    "n": 6,
     "pages": 5
   },
   "giant-jack-o-lantern-board": {
