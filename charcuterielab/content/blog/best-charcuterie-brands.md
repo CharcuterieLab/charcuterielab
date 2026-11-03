@@ -3,15 +3,15 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 124 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
-description: "All 124 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+excerpt: "All 127 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+description: "All 127 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for **106 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
+> **Quick Answer:** We rank the best brands for **109 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
 
 Each guide gives you a top pick, a budget pick and a splurge.
 
@@ -160,6 +160,9 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Cheese Paper and Cheese Storage](/blog/best-cheese-paper/) | Formaticum Cheese Storage Bags | Buyer's guide (unscored) |
 | [Best Charcuterie Boards to Buy](/blog/best-charcuterie-boards/) | A 16-inch-plus hardwood board | Buyer's guide (unscored) |
 | [Amazon Charcuterie Board Sets, Reviewed](/blog/amazon-charcuterie-board-sets-reviewed/) | SMIRLY Charcuterie Board Set | Review (5 compared) |
+| [Best Meat Slicer for Home Charcuterie](/blog/best-meat-slicer/) | Cuisinart Kitchen Pro FS-75 | Buyer's guide (unscored) |
+| [Best Charcuterie Board Accessories](/blog/best-charcuterie-board-accessories/) | Small ceramic ramekins | Buyer's guide (unscored) |
+| [Best Charcuterie Cup and Grazing Table Supplies](/blog/charcuterie-cup-supplies/) | 9 oz clear plastic cups | Buyer's guide (unscored) |
 | [Charcuterie gift guide](/gifts/) | 50 Boards, Built by Science | Gift guide |
 
 ## Store guides

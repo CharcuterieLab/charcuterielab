@@ -94,6 +94,7 @@ The [Grazing Table Planner](/printables/grazing-table-planner/) ($5) covers 25 t
 
 ## Related Reading
 
+- [Grazing Table Supplies: Butcher Paper, Cups and Picks](/blog/charcuterie-cup-supplies/)
 - [Party Planner: Exact Amounts for 4 to 200 Guests](/party-planner/)
 - [How to Make a Grazing Table](/blog/grazing-table/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)

@@ -135,3 +135,5 @@ More gear: [the best charcuterie boards to buy](/blog/best-charcuterie-boards/).
 To keep the leftovers fresh, see [the best cheese paper and cheese storage](/blog/best-cheese-paper/).
 
 Want board and knives in one box? See [our Amazon charcuterie board set reviews](/blog/amazon-charcuterie-board-sets-reviewed/).
+
+Finish the set with [the best charcuterie board accessories](/blog/best-charcuterie-board-accessories/): ramekins, cheese markers and picks.

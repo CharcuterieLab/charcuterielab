@@ -204,3 +204,5 @@ Hand wash with mild soap and warm water, never in the dishwasher, and dry it sta
 - [Food Network: Best Charcuterie Boards 2026 (updated Feb 2026)](https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-charcuterie-board)
 - [Reviewed: The best charcuterie boards](https://reviewed.com/cooking/best-right-now/best-charcuterie-boards)
 - [Tasting Table: Best charcuterie boards, reviewed](https://www.tastingtable.com/1798048/best-charcuterie-boards-reviews)
+
+Then add [the accessories that make a board look finished](/blog/best-charcuterie-board-accessories/).

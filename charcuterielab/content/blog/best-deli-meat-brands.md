@@ -105,3 +105,5 @@ About 2 oz per person as an appetizer.
 :::
 
 Shopping at Safeway? See [the best Safeway and Albertsons charcuterie items](/blog/best-safeway-albertsons-charcuterie-items/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+Want to slice your own? See [the best meat slicer for home](/blog/best-meat-slicer/).

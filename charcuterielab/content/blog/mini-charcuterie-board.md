@@ -118,6 +118,7 @@ Mini boards use the same principles as party boards at a smaller scale — but t
 
 ## Related Reading
 
+- [The Best Charcuterie Board Accessories](/blog/best-charcuterie-board-accessories/)
 - [Myth: Charcuterie Boards Are Only for Entertaining](https://charcuterielab.com/myth-boards-only-for-entertaining/)
 - [Charcuterie Board for Two: The Date Night Format](https://charcuterielab.com/charcuterie-board-for-two/)
 - [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/)

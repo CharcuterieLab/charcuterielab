@@ -143,6 +143,7 @@ Build the roses in their glasses, cover each glass with plastic wrap and **refri
 
 ## Related Reading
 
+- [The Best Meat Slicer for Home Charcuterie](/blog/best-meat-slicer/)
 - [How to Make a Prosciutto Rose](/blog/prosciutto-rose/)
 - [The Salami River](/blog/salami-river/)
 - [Types of Salami for a Charcuterie Board](/blog/types-of-salami/)

@@ -77,6 +77,7 @@ tags: "["charcuterie board sizes", "charcuterie board", "board building"]"
 
 ## Related Reading
 
+- [The Best Charcuterie Board Accessories](/blog/best-charcuterie-board-accessories/)
 - [How to Build a Charcuterie Board: The Sequence That Works](https://charcuterielab.com/blog/build-sequence/)
 - [Charcuterie Board for Large Groups](https://charcuterielab.com/charcuterie-board-for-large-group/)
 - [Charcuterie Board for Two](https://charcuterielab.com/charcuterie-board-for-two/)

@@ -98,6 +98,7 @@ What changes:
 
 ## Related Reading
 
+- [Grazing Table Supplies: Butcher Paper, Cups and Picks](/blog/charcuterie-cup-supplies/)
 - [Wedding Grazing Table: How Much for 50 to 200 Guests](/blog/wedding-charcuterie-grazing-table/)
 - [Charcuterie Board for Large Groups](https://charcuterielab.com/blog/charcuterie-board-for-large-group/)
 - [Charcuterie Board Quantities: How Much to Buy](/blog/how-much-charcuterie-per-person/)

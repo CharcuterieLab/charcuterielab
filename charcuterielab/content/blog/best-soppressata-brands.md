@@ -102,3 +102,4 @@ Provolone, fresh mozzarella, figs, honey and a red like Barbera or Lambrusco.
 </details>
 :::
 
+Slicing a whole soppressata? See [the best meat slicer for home](/blog/best-meat-slicer/).

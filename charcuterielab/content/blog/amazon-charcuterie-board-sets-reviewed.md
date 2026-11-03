@@ -107,3 +107,5 @@ No. This review is built from published testers (Reviewed, NBC Select), Tasting 
 :::
 
 Filling the board? Start with [the best cheese for a charcuterie board](/blog/best-cheese-charcuterie-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+Buying the pieces separately? See [the best charcuterie board accessories](/blog/best-charcuterie-board-accessories/).

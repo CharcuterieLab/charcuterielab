@@ -118,6 +118,7 @@ You can do both: one board on the table and a tray of cups by the door. For a la
 
 ## Related Reading
 
+- [Charcuterie Cup Supplies: Cups, Picks and Lids](/blog/charcuterie-cup-supplies/)
 - [Snackle Box Ideas: 12 Themes + How to Pack One](/blog/snackle-box-ideas/)
 - [How to Transport a Charcuterie Board](/blog/how-to-transport-charcuterie-board/)
 - [How Much Charcuterie Per Person? Chart for 4 to 30+ Guests](/blog/how-much-charcuterie-per-person/)
