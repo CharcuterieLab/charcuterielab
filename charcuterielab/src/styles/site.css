@@ -6230,3 +6230,10 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
 /* Ingredient page -> buying guide line (Nov 2 2026, scripts/guide-links.mjs) */
 .ing-guide-link { margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--gold); background: rgba(202, 166, 82, 0.1); border-radius: 0 8px 8px 0; font-family: var(--sans); font-size: 16px; }
 .ing-guide-link a { color: var(--green-deep); font-weight: 700; }
+
+/* Board pages (3 Nov 2026): holiday countdown + Make it your own */
+.bl-board .bx-count { margin: 4px 0 22px; }
+.bl-swap-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.bl-swap-list li { margin: 0; padding: 11px 14px; border-radius: 10px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); line-height: 1.5; }
+.bl-swap-list strong { color: var(--green-deep); }
+.bl-swap-more { margin: 10px 0 0; font-size: 15px; color: var(--muted); }
