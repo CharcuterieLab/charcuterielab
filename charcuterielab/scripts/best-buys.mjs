@@ -101,7 +101,7 @@ export function parseHub(body, postsBySlug) {
     if (!row) continue;
     const post = postsBySlug.get(row[2]);
     if (!post) continue;
-    const name = NAME_FIX[row[2]] || (cat[1] === "stores" ? row[1].replace(/^(The )?Best /, "").replace(/^What to Buy at (.+?) for a .*$/i, "$1").replace(/ Charcuterie Board Items$/i, "") : null) || row[1].replace(/^(The )?Best /, "").replace(/ (for a|at the|by|for|to) .*$/i, "").replace(/, (From|Compared).*$/i, "").replace(/^Store-Bought /, "").replace(/^Jarred /, "").replace(/ Brands$/, "").replace(/^What to Buy at /i, "").replace(/^(\w)/, (x) => x.toUpperCase());
+    const name = NAME_FIX[row[2]] || (cat[1] === "stores" ? row[1].replace(/^(The )?Best /, "").replace(/^What to Buy at (.+?) for a .*$/i, "$1").replace(/ Charcuterie Board Items$/i, "").replace(/ for a .*$/i, "") : null) || row[1].replace(/^(The )?Best /, "").replace(/ (for a|at the|by|for|to) .*$/i, "").replace(/, (From|Compared).*$/i, "").replace(/^Store-Bought /, "").replace(/^Jarred /, "").replace(/ Brands$/, "").replace(/^What to Buy at /i, "").replace(/^(\w)/, (x) => x.toUpperCase());
     cards.push({ slug: row[2], cat: cat[1], catLabel: cat[2], name, title: row[1], pick: row[3].replace(/\s*\((best [a-z ]+)\)\s*$/i, ""), pickLabel: ((row[3].match(/\((best [a-z ]+)\)\s*$/i) || [])[1] || "").replace(/^b/, "B"), rating: row[4], score: scoreOf(row[4]), image: post.image });
   }
   // Best value pick onto its guide's card (when it differs from the #1).

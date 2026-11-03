@@ -50,55 +50,58 @@ def fit(c, text, font, size, width):
 
 
 # ------------------------------------------------------------ top picks
+# Rebuilt 3 Nov 2026: read through scripts/best-buys-export.mjs (the same
+# parser as the hub's finder), so every guide on the hub is on the sheet,
+# with its best-value pick and a "Guide" mark for unscored buyer's guides.
 def top_picks():
-    md = open(os.path.join(ROOT, "content", "blog", "best-charcuterie-brands.md"), encoding="utf-8").read()
-    sections, cur = [], None
-    for line in md.split("\n"):
-        h = re.match(r"^##\s+(.+)", line)
-        if h:
-            name = h.group(1).strip()
-            cur = None if re.search(r"value|rank|work", name, re.I) else (name, [])
-            if cur:
-                sections.append(cur)
-            continue
-        r = cur and re.match(r"^\|\s*\[([^\]]+)\]\(/blog/[^)]+\)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|", line)
-        if r:
-            name = re.sub(r"^(The )?Best ", "", r.group(1))
-            name = re.sub(r" (for a|at the|by|for) .*$", "", name, flags=re.I).replace("Store-Bought ", "")
-            name = re.sub(r" Brands$", "", name)
-            cur[1].append((name, r.group(2).replace(" (best cheese)", ""), r.group(3).split()[-1]))
+    import subprocess
+    data = json.loads(subprocess.check_output(["node", os.path.join(ROOT, "scripts", "best-buys-export.mjs")]))
+    cards = data["cards"]
+    sections = []
+    for key, label in data["cats"]:
+        items = [x for x in cards if x["cat"] == key]
+        if items:
+            sections.append(("Store guides: the top pick at each store" if key == "stores" else label, items))
+    n = len(cards)
     path = os.path.join(OUT, "best-buys-top-picks.pdf")
     c = canvas.Canvas(path, pagesize=letter)
     c.setTitle("Charcuterie Lab Top Picks"); c.setAuthor("Charcuterie Lab")
-    rows = [("H", s) for s, _ in sections for _ in [0]]
     flat = []
     for s, items in sections:
         flat.append(("H", s))
         flat += [("R", it) for it in items]
-    pages, page, y0 = [], [], H - 128
+    ROW = 15.4
+    pages, page, y0 = [], [], H - 140
     y = y0
     for kind, v in flat:
-        need = 30 if kind == "H" else 17
-        if y - need < 60:
+        need = 28 if kind == "H" else ROW
+        if y - need < 50 or (kind == "H" and y - need - 3 * ROW < 50):
             pages.append(page); page = []; y = y0
         page.append((kind, v)); y -= need
     pages.append(page)
     total = len(pages)
+    X_NAME, X_PICK, X_VAL = M + 16, M + 146, M + 352
+    foot = "charcuterielab.com/blog/best-charcuterie-brands  ·  Scores out of 5  ·  Guide = no published taste test yet  ·  Nov 2026"
     for i, pg in enumerate(pages, 1):
-        head(c, "Top Picks: the best brand of everything", "Our #1 pick from every Charcuterie Lab buying guide. Take it to the store.", i, total, "FREE PRINTABLE", "charcuterielab.com/blog/best-charcuterie-brands  ·  Researched picks, scored out of 5. Prices and stock change.")
+        head(c, "Top Picks: the best brand of everything", f"Our #1 and best-value pick from all {n} buying guides. Tick what you need and take it to the store.", i, total, "FREE PRINTABLE", foot)
+        c.setFillColor(MUTED); c.setFont("PopB", 7)
+        c.drawString(X_NAME, H - 116, "WHAT YOU'RE BUYING"); c.drawString(X_PICK, H - 116, "OUR #1 PICK"); c.drawString(X_VAL, H - 116, "BEST VALUE"); c.drawRightString(W - M, H - 116, "SCORE")
         y = y0
         for kind, v in pg:
             if kind == "H":
                 y -= 6
                 y = pp.section(c, y, v)
                 continue
-            name, pick, score = v
             pp.box(c, M, y - 1)
-            c.setFillColor(INK); c.drawString(M + 16, y, fit(c, name, "PopB", 9.5, 150))
-            c.setFillColor(GREEN); c.drawString(M + 172, y, fit(c, pick, "Pop", 9.5, 300))
-            c.setFillColor(GOLDD); c.setFont("PopB", 9); c.drawRightString(W - M, y, score)
-            c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.4); c.line(M, y - 6, W - M, y - 6)
-            y -= 17
+            c.setFillColor(INK); c.drawString(X_NAME, y, fit(c, v["name"], "PopB", 9, X_PICK - X_NAME - 8))
+            pick = (v.get("pickLabel") + ": " if v.get("pickLabel") else "") + v["pick"]
+            c.setFillColor(GREEN); c.drawString(X_PICK, y, fit(c, pick, "Pop", 9, (X_VAL - X_PICK - 10) if v.get("value") else (W - M - 44 - X_PICK)))
+            if v.get("value"):
+                c.setFillColor(MUTED); c.drawString(X_VAL, y, fit(c, v["value"], "Pop", 8.5, W - M - 40 - X_VAL))
+            sc = f"{v['score']:.1f}" if v.get("score") is not None else "Guide"
+            c.setFillColor(GOLDD); c.setFont("PopB", 8.5); c.drawRightString(W - M, y, sc)
+            c.setStrokeColor(HexColor("#e5dccb")); c.setLineWidth(0.4); c.line(M, y - 5.5, W - M, y - 5.5)
+            y -= ROW
         c.showPage()
     c.save()
     return path

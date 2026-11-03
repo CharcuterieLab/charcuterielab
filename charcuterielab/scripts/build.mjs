@@ -2364,34 +2364,80 @@ ${newsletterPanel("about-email", "about")}
   });
 }
 
+// Blog hub by topic (3 Nov 2026). The flat list opened on a wall of brand
+// guides (the newest posts), which hid the board ideas, pairing science and
+// ingredient pages. Now: Start here, the newest 6, then one row per content
+// pillar (6 newest each, "Show all" opens the row). Every post sits in exactly
+// one row; the rules below go in order and the first match wins.
+const BLOG_START = ["how-to-make-charcuterie-board", "how-much-charcuterie-per-person", "charcuterie-board-ideas"];
+const BLOG_PILLARS = [
+  ["buying", "Buying guides", "The best brand of everything, ranked, plus what to buy at Costco, Trader Joe's and Aldi.", /^best-|reviewed|holiday-charcuterie-items|costco-holiday|price-index|charcuterie-books|^costco-charcuterie|^trader-joes-charcuterie|gift-basket/],
+  ["holidays", "Holidays and seasons", "Thanksgiving to New Year's, game day, Valentine's and every season in between.", /thanksgiving|christmas|halloween|jack-o|new-years|easter|valentine|friendsgiving|noche-buena|holiday|^fall-|^winter-|^summer-|hot-cocoa|advent|beaujolais/],
+  ["pairing", "Pairing science", "Why some bites work: wine, beer and whiskey, salt and sweet, acid and fat.", /pair|wine|beer|whiskey|acid-rule|salt-sweet|color-and-flavor|contrast|what-to-serve|charcuterie-chart/],
+  ["building", "Building a board", "How much to buy, what goes on it, how to cut, arrange, store and carry it.", /^how-|etiquette|mistakes|sizes|presentation|build-sequence|storage|can-you|pregnan|business|captions|pronounce|what-is|leftover|difficult|unhealthy|cost|before-and-after|beginners|night-before|temperature|what-goes-on|what-bread|large-group|which-charcuterie|-vs-cheese-board|grazing-board-vs|smorgasbord-vs|how-many|appetizer|condiments|crackers|dips|-fruit$|-nuts$|-olives$|-chocolate$|safe-during|freeze/],
+  ["ingredients", "Ingredient deep dives", "One ingredient at a time, plus the head-to-heads: brie vs camembert, salami vs pepperoni.", /-vs-|deep-dive|types-of|tier-list|mild-to-strong|never-tried|unique-charcuterie-ingredients|aging-caves|crystal/],
+  ["ideas", "Board ideas and recipes", "Boards, trays, cups, skewers and grazing tables to copy, from $20 to showstopper.", /board|tray|platter|cups|skewers|grazing|jarcuterie|snackle|salad|river|rose|course|cheese-ball|baked-brie|butter/]
+];
+function blogPillarOf(slug) {
+  const hit = BLOG_PILLARS.find(([, , , re]) => re.test(slug));
+  return hit ? hit[0] : "ingredients";
+}
+
 function blogPage(posts) {
+  const sorted = [...posts].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const bySlug = new Map(posts.map((p) => [p.slug, p]));
+  const start = BLOG_START.map((s) => bySlug.get(s)).filter(Boolean);
+  const order = ["holidays", "ideas", "building", "pairing", "ingredients", "buying"];
+  const rows = order.map((k) => BLOG_PILLARS.find((x) => x[0] === k)).map(([key, name, sub]) => ({ key, name, sub, list: sorted.filter((p) => blogPillarOf(p.slug) === key) })).filter((r) => r.list.length);
+  const grid = (list, id, cap) => `<div class="grid three blog-preview-grid archive-grid bp-grid${list.length > cap ? " bp-capped" : ""}" id="${id}">
+        ${list.map((post) => articleCard(post)).join("\n        ")}
+      </div>`;
+  const row = (r) => `<section class="section bp-row" id="topic-${r.key}" aria-labelledby="bp-h-${r.key}">
+    <div class="section-inner">
+      <div class="bp-head"><h2 id="bp-h-${r.key}">${escapeHtml(r.name)}</h2><span>${r.list.length} articles</span></div>
+      <p class="bp-sub">${escapeHtml(r.sub)}</p>
+      ${grid(r.list, `bp-${r.key}`, 6)}
+      ${r.list.length > 6 ? `<p class="bp-more-wrap"><button type="button" class="bp-more" data-bp="bp-${r.key}">Show all ${r.list.length}</button>${r.key === "buying" ? ` <a class="text-link" href="/blog/best-charcuterie-brands/">Browse them by category &rarr;</a>` : ""}</p>` : ""}
+    </div>
+  </section>`;
+  const firstTwo = rows.slice(0, 2).map(row).join("\n");
+  const rest = rows.slice(2).map(row).join("\n");
   return layout({
-    title: "Blog | Charcuterie Lab",
+    title: "Charcuterie Articles by Topic | Charcuterie Lab",
     canonical: "/blog/",
-    description: "Read every Charcuterie Lab post about pairing science, board building, ingredients, and printable guides.",
+    description: `Every Charcuterie Lab article by topic: ${rows.map((r) => r.name.toLowerCase()).join(", ")}. ${posts.length} articles on building, pairing and buying for a charcuterie board.`,
     body: `<main class="archive-main">
   <section class="archive-hero">
     <div class="archive-hero-inner">
-      <p class="section-kicker">Daily Lab Report</p>
-      <h1>All Blog Posts</h1>
-      <p>Pairing science, ingredient deep dives, budget boards, and the little details that make a board work.</p>
+      <p class="section-kicker">The Lab Report</p>
+      <h1>Charcuterie articles, by topic</h1>
+      <p>${posts.length} articles on building, pairing and buying for a board. Pick a topic, or search.</p>
       <form class="search-form search-inline" role="search" action="/search/" method="get">
         <label class="sr-only" for="blog-q">Search articles</label>
         <input id="blog-q" name="q" type="search" placeholder="Search articles, ingredients and boards" autocomplete="off">
         <button class="button primary" type="submit">Search</button>
       </form>
+      <nav class="bp-chips" aria-label="Topics">${rows.map((r) => `<a href="#topic-${r.key}">${escapeHtml(r.name)} <span>${r.list.length}</span></a>`).join("")}</nav>
     </div>
   </section>
-  ${bookBar("blog_index_top")}
-  <section class="section">
+  ${start.length ? `<section class="section bp-row bp-start" aria-labelledby="bp-h-start">
     <div class="section-inner">
-      <div class="grid three blog-preview-grid archive-grid${posts.length > 24 ? " is-capped" : ""}" id="blog-all">
-        ${posts.map((post) => articleCard(post)).join("\n")}
+      <div class="bp-head"><h2 id="bp-h-start">New here? Start with these</h2></div>
+      <div class="grid three blog-preview-grid archive-grid bp-grid bp-start-grid">
+        ${start.map((post) => articleCard(post)).join("\n        ")}
       </div>
-      ${posts.length > 24 ? `<p class="bl-more-wrap"><button type="button" class="button bl-more" data-blog-more>Show all ${posts.length} posts</button></p>
-      <script>(function(){var b=document.querySelector("[data-blog-more]"),g=document.getElementById("blog-all");if(!b||!g)return;b.addEventListener("click",function(){g.classList.remove("is-capped");b.parentNode.hidden=true})})();</script>` : ""}
+    </div>
+  </section>` : ""}
+  <section class="section bp-row" id="topic-new" aria-labelledby="bp-h-new">
+    <div class="section-inner">
+      <div class="bp-head"><h2 id="bp-h-new">Newest</h2><span>Updated daily</span></div>
+      ${grid(sorted.slice(0, 6), "bp-new", 6)}
     </div>
   </section>
+${firstTwo}
+  ${bookBar("blog_index_top")}
+${rest}
+  <script>(function(){document.querySelectorAll(".bp-more").forEach(function(b){b.addEventListener("click",function(){var g=document.getElementById(b.dataset.bp);if(g)g.classList.remove("bp-capped");b.parentNode.hidden=true})})})();</script>
 ${labNext("blog_index")}
 </main>`
   });
