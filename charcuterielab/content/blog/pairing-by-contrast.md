@@ -21,7 +21,7 @@ The tongue and palate contain taste receptor cells organized into papillae. Each
 
 The best-known example is salty and sweet. A little salt blocks bitterness, so sweet flavors come through more clearly. A little sweetness softens saltiness. Each makes the other taste more vivid.
 
-This explains why prosciutto and melon is a classic, why blue cheese and honey is one of charcuterie's most reliable pairings, and why salted caramel registers as more complex and satisfying than either plain caramel or plain salt alone.
+This explains why prosciutto and melon is a classic, why blue cheese and honey is one of charcuterie's most reliable pairings, and why salted caramel registers as more complex and satisfying than either plain caramel or plain salt alone. For the full science, see [the salt-sweet principle](/blog/salt-sweet-principle/).
 
 ## The Role of Sensory Adaptation
 

@@ -20,7 +20,7 @@ tags: "["best wine for charcuterie board", "wine for charcuterie board", "wine u
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 bottles</a><a href="#how-to-choose">How to pick</a><a href="#wine-questions">FAQ</a></nav>
 :::
 
-Salty, fatty food wants wine with acidity and little tannin. All eight bottles are about $20 or less.
+Salty, fatty food wants wine with acidity and little tannin. All eight bottles are about $20 or less. In November, also try the new [Beaujolais Nouveau](/blog/beaujolais-nouveau-charcuterie/), out November 19.
 
 :::html
 <h2 id="picks">All 8 bottles</h2>
