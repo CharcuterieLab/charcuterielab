@@ -84,7 +84,7 @@ tags: "["cheese advent calendar", "cheese advent calendar 2026", "aldi cheese ad
 </article>
 <article class="sk-card" id="bonne-maman">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">No cheese</p><h3>Bonne Maman Advent Calendar</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$55.99</dd></div><div><dt>Inside</dt><dd>24 mini jars of jam</dd></div><div><dt>Status</dt><dd>On sale</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>Varies by store</dd></div><div><dt>Inside</dt><dd>24 mini jars of jam</dd></div><div><dt>Status</dt><dd>On sale</dd></div></dl>
 <p class="sk-why"><strong>Why get it:</strong> Add one block of cheese and you have a two-item board every night.</p>
 <p class="sk-mind"><strong>Watch out:</strong> There&#x27;s no cheese in it.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08D98XBX8" target="_blank" rel="noopener">Check price on Amazon</a></div>

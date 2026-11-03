@@ -26,7 +26,13 @@ const T = {
   trays: ["Charity Leaf Disposable Bamboo Trays, 14 × 10 in, 10 pack", "Several small stations instead of one giant board.", "B07YBSCRX5"],
   lidBoard: ["Farberware Build-a-Board with Locking Lid", "Build it in the compartments, lock the lid, carry it.", "B0CKBYP86C", ["/blog/amazon-charcuterie-board-sets-reviewed/", "All board sets"]],
   breadKnife: ["Mercer Millennia 10-inch Bread Knife", "A wavy edge cuts baguette without crushing it.", "B000PS1HS6"],
-  adventBox: ["Wooden Advent Calendar with 24 Empty Drawers", "Fill it with cheese cubes, crackers and chocolate.", "B0D7CHXHHX"]
+  adventBox: ["Wooden Advent Calendar with 24 Empty Drawers", "Fill it with cheese cubes, crackers and chocolate.", "B0D7CHXHHX"],
+  // Fresh-cheese guides (2 Nov 2026): the cheese can't ship, the gear can.
+  brieBaker: ["Staub 8-inch Round Covered Brie Baker", "Bake a whole wheel with honey and nuts, then serve it in the dish.", "B08VJL31S5"],
+  keeper: ["ProKeeper Deli and Cheese Storage Container", "An airtight box that keeps a cut wedge from drying out or scenting the fridge.", "B016MZSSCI"],
+  cheesePaper: ["Formaticum Cheese Storage Bags, 15 pack", "Lets a hard cheese breathe without drying out, so leftovers stay good for weeks.", "B00BEDW76W", ["/blog/best-cheese-paper/", "Cheese paper compared"]],
+  softKnives: ["Boska Copenhagen Cheese Knife Set", "The holed blade cuts soft and creamy cheese without sticking.", "B07B5Q337D", ["/blog/best-cheese-knife-sets/", "All knife picks"]],
+  grater: ["Microplane Hard Cheese Grater", "Fine, fluffy shreds over the board, figs or a salad.", "B001AEHDHI"]
 };
 
 // Blog posts: slug → { before: text of the h2 the box goes in front of, items, title }
@@ -47,6 +53,17 @@ const POSTS = {
   "cheese-advent-calendars-2026": { before: "Finish with a board", items: ["adventBox"], title: "To build your own" }
 };
 
+// Fresh-cheese buying guides: a "Serve it right" strip before the questions.
+const SOFT = ["brieBaker", "softKnives", "keeper"], SLICE = ["plane", "cheesePaper", "knives"], HARD = ["knives", "grater", "cheesePaper"], BLUE = ["softKnives", "cheesePaper", "keeper"];
+const CHEESE = {
+  "best-brie-brands": SOFT, "best-camembert-brands": SOFT,
+  "best-cheddar-brands": SLICE, "best-gouda-brands": SLICE, "best-gruyere-brands": SLICE, "best-swiss-cheese": SLICE,
+  "best-havarti-brands": SLICE, "best-provolone-brands": SLICE, "best-pepper-jack": SLICE, "best-fontina-brands": SLICE,
+  "best-parmesan-brands": HARD, "best-manchego-brands": ["knives", "cheesePaper"],
+  "best-blue-cheese-brands": BLUE, "best-stilton": BLUE, "best-gorgonzola": BLUE,
+  "best-goat-cheese-brands": ["softKnives", "keeper"], "best-feta-brands": ["keeper"]
+};
+
 // Party Planner: gear sized to the guest count, in front of the Timeline.
 const partyItems = (n) => (n <= 6 ? ["smallSet", "ramekins"] : n <= 10 ? ["board", "knives", "ramekins"] : n <= 15 ? ["boardLarge", "knives", "ramekins"] : n <= 30 ? ["boardStation", "ramekins", "markers", "picks"] : ["trays", "markers", "picks"]);
 const PARTY = [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 75, 100, 150, 200];
@@ -62,7 +79,8 @@ export function toolsBox(keys, title = "What you'll need") {
 }
 
 function insertBefore(html, headingText, box) {
-  const re = new RegExp(`<h2\\b[^>]*>\\s*${headingText.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`);
+  // null = in front of the "... questions" heading (the guide's FAQ).
+  const re = headingText === null ? /<h2\b[^>]*>[^<]*questions/ : new RegExp(`<h2\\b[^>]*>\\s*${headingText.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`);
   const m = re.exec(html);
   if (!m) return null;
   return html.slice(0, m.index) + box + html.slice(m.index);
@@ -82,6 +100,7 @@ export async function injectTools(dist) {
     boxes++;
   };
   for (const [slug, p] of Object.entries(POSTS)) await put(join("blog", slug), p.before, p.items, p.title);
+  for (const [slug, items] of Object.entries(CHEESE)) await put(join("blog", slug), null, items, "Serve it right");
   for (const n of PARTY) await put(join("party-planner", `charcuterie-board-for-${n}-people`), "Timeline", partyItems(n));
   // Board pages: the "Board" spec tile links to the board buying guide.
   const { readdir } = await import("node:fs/promises");

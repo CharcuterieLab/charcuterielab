@@ -6227,3 +6227,6 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .bb-board-cta .bb-btn { width: 100%; justify-content: center; }
 }
 @media (min-width: 641px) { .bb-more-sm { display: none !important; } }
+/* Ingredient page -> buying guide line (Nov 2 2026, scripts/guide-links.mjs) */
+.ing-guide-link { margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--gold); background: rgba(202, 166, 82, 0.1); border-radius: 0 8px 8px 0; font-family: var(--sans); font-size: 16px; }
+.ing-guide-link a { color: var(--green-deep); font-weight: 700; }

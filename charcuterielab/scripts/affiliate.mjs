@@ -34,6 +34,9 @@ export function affiliateHtml(html) {
   const parts = html.split(/(<script type="application\/ld\+json">[\s\S]*?<\/script>)/);
   let out = parts.map((p, i) => (i % 2 ? p.replace(AMZ, (u) => tagAmazonUrl(u, "&")) : p.replace(AMZ, (u) => tagAmazonUrl(u, "&amp;")))).join("");
   out = out.replace(/<a\b[^>]*href="https?:\/\/(?:www\.)?amazon\.com\/[^"]*"[^>]*>/g, relSponsored);
+  // No typed prices on Amazon buttons (2 Nov 2026): "Paperback on Amazon · $25.99"
+  // becomes "Paperback on Amazon", since Amazon may show a different price.
+  out = out.replace(/(<a\b[^>]*href="https?:\/\/(?:www\.)?amazon\.com\/[^"]*"[^>]*>)([^<]*?)\s*·\s*\$\d[\d,]*(?:\.\d\d)?\s*(<\/a>)/g, "$1$2$3");
   // Page notice: only when the content above the footer links to Amazon.
   const foot = out.indexOf("<footer");
   const body = foot > 0 ? out.slice(0, foot) : out;

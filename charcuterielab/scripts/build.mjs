@@ -2967,7 +2967,8 @@ async function build() {
     const STORE_POSTS = { "best-costco-charcuterie-items": "costco-charcuterie-board", "best-trader-joes-cheeses": "trader-joes-charcuterie-board", "best-aldi-charcuterie-items": "budget-charcuterie-board", "best-walmart-charcuterie-items": "budget-charcuterie-board" };
     const postSet = new Set(posts.map((p) => p.slug));
     const titleOf = new Map(posts.map((p) => [p.slug, p.title]));
-    for (const post of posts.filter((p) => /^best-/.test(p.slug) && p.slug !== "best-charcuterie-brands")) {
+    // Seasonal/review guides listed on the Best Buys hub without best- in the slug get the block too.
+    for (const post of posts.filter((p) => (/^best-/.test(p.slug) || BEST_CARDS.some((c) => c.slug === p.slug)) && p.slug !== "best-charcuterie-brands")) {
       const ings = (guideIngs.get(post.slug) || []).filter((s) => ingBy.has(s));
       const seen = new Set();
       const bds = ings.flatMap((s) => boardsUsing.get(s) || []).filter((b) => !seen.has(b.slug) && seen.add(b.slug)).slice(0, 2);

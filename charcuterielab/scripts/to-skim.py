@@ -179,7 +179,7 @@ def convert(slug):
             cls = "button sk-buy-sm" if small else "button primary sk-buy"
             return f'<a class="{cls}" href="{esc(url)}" target="_blank" rel="noopener">Check price on Amazon</a>'
         if small:
-            return f'<a class="button sk-buy-sm" href="#pick-{it["n"]}">See details</a>'
+            return f'<a class="button sk-buy-sm" href="#pick-{it["n"]}">Where to buy</a>'
         return ""
 
     def bar(it):

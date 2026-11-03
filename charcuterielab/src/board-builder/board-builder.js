@@ -465,7 +465,7 @@ function bookCard() {
       <p>Every board comes with its shopping list, pairing logic, substitutions and build order.</p>
       <div class="bb-book-actions">
         <a class="bb-btn primary" href="${h(d.ebook)}" target="_blank" rel="noopener">Get the ebook · ${h(d.ebookPrice)}</a>
-        <a class="bb-btn" href="${h(d.paperback)}" target="_blank" rel="noopener">Paperback on Amazon · ${h(d.paperbackPrice)}</a>
+        <a class="bb-btn" href="${h(d.paperback)}" target="_blank" rel="sponsored nofollow noopener">Paperback on Amazon</a>
       </div>
     </div>
   </aside>`;

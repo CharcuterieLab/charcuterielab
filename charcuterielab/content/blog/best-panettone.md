@@ -16,7 +16,7 @@ tags: "["best panettone", "best panettone brands", "olivieri panettone", "bauduc
 > **Quick Answer:** The best: **Olivieri 1882 Classic** (about $90). Under $30: **Ferrara Bakery Panettone Alto** or **Madi Gran Panettone** (about $21). For a board: **Bauducco mini panettones**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olivieri 1882 Classic Panettone</a><p class="sk-top-line">Three taste tests&#x27; favorite</p></div><div class="sk-top-buy"><span class="sk-price">About $90</span><a class="button sk-buy-sm" href="https://store.177milkstreet.com/products/olivieri-1882-classic-panettone" target="_blank" rel="noopener">See it at Milk Street</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Madi Gran Panettone</a><p class="sk-top-line">Fragrant and affordable</p></div><div class="sk-top-buy"><span class="sk-price">About $21</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FP5RDM7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-4">Bauducco Classic Mini Panettone</a><p class="sk-top-line">Single-size minis, 10/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olivieri 1882 Classic Panettone</a><p class="sk-top-line">Three taste tests&#x27; favorite</p></div><div class="sk-top-buy"><span class="sk-price">$$$</span><a class="button sk-buy-sm" href="https://store.177milkstreet.com/products/olivieri-1882-classic-panettone" target="_blank" rel="noopener">See it at Milk Street</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Madi Gran Panettone</a><p class="sk-top-line">Fragrant and affordable</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FP5RDM7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-4">Bauducco Classic Mini Panettone</a><p class="sk-top-line">Single-size minis, 10/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">Panettone on a board</a><a href="#panettone-questions">FAQ</a></nav>
 :::
 
@@ -43,7 +43,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Madi Gran Panettone</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>About $21</dd></div><div><dt>Style</dt><dd>Classic</dd></div><div><dt>Tested by</dt><dd>Food &amp; Wine</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Style</dt><dd>Classic</dd></div><div><dt>Tested by</dt><dd>Food &amp; Wine</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Food &amp; Wine&#x27;s best value of 14: fragrant and classic for about $21.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some tasters found it a little dry.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0FP5RDM7Q" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -65,7 +65,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best chocolate</p><h3>Ofner Panettone Genovese Chocolate Drops</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>About $34</dd></div><div><dt>Mix-ins</dt><dd>Milk chocolate drops</dd></div><div><dt>Citrus</dt><dd>None</dd></div></dl>
+<dl class="sk-facts"><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Mix-ins</dt><dd>Milk chocolate drops</dd></div><div><dt>Citrus</dt><dd>None</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft, moist and full of chocolate, with no candied fruit for guests who pick it out anyway.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milk chocolate makes it sweet; skip it for a savory cheese board.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09D27QJRX" target="_blank" rel="noopener">Check price on Amazon</a></div>
