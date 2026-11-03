@@ -15,7 +15,7 @@ tags: "["best string cheese", "string cheese brands", "cheese sticks", "kids cha
 > **Quick Answer:** Our top pick for string cheese on a charcuterie board is Frigo Cheese Heads String Cheese (4.2 out of 5). Cheddar sticks: Kerrygold Cheddar Sticks. Organic: Organic Valley Stringles.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Frigo Cheese Heads String Cheese</a><p class="sk-top-line">Well liked in all three tests and sold everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheddar sticks</p><a class="sk-top-name" href="#pick-2">Kerrygold Cheddar Sticks</a><p class="sk-top-line">Tastes like real Irish cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-4">Organic Valley Stringles</a><p class="sk-top-line">Organic, with real dairy flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Frigo Cheese Heads String Cheese</a><p class="sk-top-line">Well liked in all three tests and sold everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheddar sticks</p><a class="sk-top-name" href="#pick-2">Kerrygold Cheddar Sticks</a><p class="sk-top-line">Tastes like real Irish cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-4">Organic Valley Stringles</a><p class="sk-top-line">Organic, with real dairy flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Frigo Cheese Heads String Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every kids&#x27; board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Well liked in all three tests and sold everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not the top pick in any single test.</p>
@@ -36,7 +36,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best cheddar sticks</p><h3>Kerrygold Cheddar Sticks</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Grown-up snack boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like real Irish cheddar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not stringy, and pricier.</p>
@@ -45,7 +45,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Kroger Mozzarella String Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Creamy, soft sticks</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger and Kroger-family stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft and creamy at a store-brand price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Kroger-family stores.</p>
@@ -54,7 +54,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best organic</p><h3>Organic Valley Stringles</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Organic boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores and Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, with real dairy flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The tests are split.</p>
@@ -63,7 +63,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Happy Farms String Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Near the top of a big test, at an Aldi price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Aldi.</p>
@@ -72,7 +72,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Trader Joe&#x27;s String Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild mozzarella flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy flavor, low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not very stringy.</p>
@@ -81,7 +81,7 @@ Mild, fun to peel and easy to cut into shapes: the kids' board MVP.
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Sargento String Cheese Snacks</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tangy flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find, with more flavor than most.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Reviews are split by variety.</p>

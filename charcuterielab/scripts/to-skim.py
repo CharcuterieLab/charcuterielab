@@ -186,7 +186,7 @@ def convert(slug):
         if "score" not in it:
             return ""
         pct = max(0, min(100, round(it["score"] / 5 * 100)))
-        return (f'<div class="sk-score" aria-label="Rated {it["score"]} out of 5"><span class="sk-stars" aria-hidden="true">{it["stars"]}</span>'
+        return (f'<div class="sk-score" aria-label="Our score: {it["score"]} out of 5"><span class="sk-label">Our score</span>'
                 f'<b>{it["score"]}</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:{pct}%"></i></span></div>')
 
     by_name = {it["name"]: it for it in items}
@@ -197,7 +197,7 @@ def convert(slug):
             continue
         line = it.get("why", "")
         top_rows.append(f'<div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">{esc(label)}</p><a class="sk-top-name" href="#pick-{it["n"]}">{esc(name)}</a>'
-                        f'<p class="sk-top-line">{inline(line)}</p></div><div class="sk-top-buy"><span class="sk-price">{("★ %s · " % it["score"]) if "score" in it else ""}{esc(it.get("tier", "").split(" ")[0])}</span>{buy(it, small=True)}</div></div>')
+                        f'<p class="sk-top-line">{inline(line)}</p></div><div class="sk-top-buy"><span class="sk-price">{("Our score %s/5 · " % it["score"]) if "score" in it else ""}{esc(it.get("tier", "").split(" ")[0])}</span>{buy(it, small=True)}</div></div>')
     jump = [(("All %d, ranked" if scored else "All %d picks") % len(items), "picks"), ("What to look for", "what-to-look-for")]
     extra_secs = [h for h in order if h not in known]
     if faq_h:

@@ -15,7 +15,7 @@ tags: "["best feta", "best feta cheese brand", "feta brands", "feta for charcute
 > **Quick Answer:** Our top pick for feta on a charcuterie board is Mt Vikos Traditional Feta (4.5 out of 5). Value: Athenos Feta Chunk. Splurge: Roussas Barrel-Aged Feta.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mt Vikos Traditional Feta</a><p class="sk-top-line">Creamy, traditional and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Athenos Feta Chunk</a><p class="sk-top-line">Cheap, everywhere, and it holds a neat cube.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Roussas Barrel-Aged Feta</a><p class="sk-top-line">The most complex feta here.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.1 · $$$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mt Vikos Traditional Feta</a><p class="sk-top-line">Creamy, traditional and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Athenos Feta Chunk</a><p class="sk-top-line">Cheap, everywhere, and it holds a neat cube.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Roussas Barrel-Aged Feta</a><p class="sk-top-line">The most complex feta here.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $$$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Mt Vikos Traditional Feta</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The real Greek feta</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and many grocery cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy, traditional and easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Saltier than most. Pair it with fruit or honey.</p>
@@ -36,7 +36,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Athenos Feta Chunk</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A firm block that cuts cleanly</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, everywhere, and it holds a neat cube.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Drier than a brined Greek feta, and made from cow&#x27;s milk.</p>
@@ -45,7 +45,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Odyssey Feta Chunk in Brine</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A creamy brined block</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy and moist, good with olives and cured meat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Brined cow&#x27;s milk feta, so milder than Greek.</p>
@@ -54,7 +54,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Authentic Greek Feta in Brine</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget Greek feta</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Greek feta in brine at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild next to Mt Vikos or Roussas.</p>
@@ -63,7 +63,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best splurge</p><h3>Roussas Barrel-Aged Feta</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A feta guests notice</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, Greek markets and some cheese counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most complex feta here.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier and harder to find.</p>
@@ -72,7 +72,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Primo Taglio Feta Cheese Crumbles</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Topping, not slicing</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons and Vons.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best-tasting crumbles in a published test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Crumbles don&#x27;t hold a shape on a board. Use them on whipped feta or a salad.</p>
@@ -81,7 +81,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Valbreso French Sheep&#x27;s Milk Feta</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A funkier feta</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy and tangy, with more depth than cow&#x27;s milk feta.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong for cautious guests.</p>
@@ -90,7 +90,7 @@ For a board you want a block, not crumbles. Rankings favor blocks, then two tast
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Président Feta Chunk</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A safe, mild block</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild enough for everyone.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not much complexity.</p>

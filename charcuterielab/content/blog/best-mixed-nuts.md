@@ -16,7 +16,7 @@ tags: "["best mixed nuts", "best mixed nuts brand", "nuts for charcuterie board"
 > **Quick Answer:** Our top pick for mixed nuts on a charcuterie board is Kirkland Signature Extra Fancy Salted Mixed Nuts (4.5 out of 5). Tasting: Trader Joe's Roasted & Salted Fancy Mixed Nuts. Lower sodium: Great Value Lightly Salted Mixed Nuts.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Extra Fancy Salted Mixed Nuts</a><p class="sk-top-line">A premium, peanut-free mix at a bulk price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best tasting</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Roasted &amp; Salted Fancy Mixed Nuts</a><p class="sk-top-line">The top-scoring mix in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Lower sodium</p><a class="sk-top-name" href="#pick-5">Great Value Lightly Salted Mixed Nuts</a><p class="sk-top-line">Very cheap and lightly salted.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Great+Value+Lightly+Salted+Mixed+Nuts" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Extra Fancy Salted Mixed Nuts</a><p class="sk-top-line">A premium, peanut-free mix at a bulk price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best tasting</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Roasted &amp; Salted Fancy Mixed Nuts</a><p class="sk-top-line">The top-scoring mix in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Lower sodium</p><a class="sk-top-name" href="#pick-5">Great Value Lightly Salted Mixed Nuts</a><p class="sk-top-line">Very cheap and lightly salted.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Great+Value+Lightly+Salted+Mixed+Nuts" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -28,7 +28,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kirkland Signature Extra Fancy Salted Mixed Nuts</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big parties</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A premium, peanut-free mix at a bulk price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A big bag. Move it to an airtight container so it stays crisp.</p>
@@ -37,7 +37,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best tasting</p><h3>Trader Joe&#x27;s Roasted &amp; Salted Fancy Mixed Nuts</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smaller boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top-scoring mix in a published test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -46,7 +46,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Private Selection Select Blend Mixed Nuts with Sea Salt</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An upscale bowl</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Kroger and its sister stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big, rich nuts that look generous in a bowl.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier, and only at Kroger stores.</p>
@@ -55,7 +55,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Planters Deluxe Pistachio Mix with Almonds &amp; Cashews</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Pistachio lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find, and the pistachios add color.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pistachio-heavy, so less variety.</p>
@@ -64,7 +64,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Lower sodium</p><h3>Great Value Lightly Salted Mixed Nuts</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Lower-sodium guests</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very cheap and lightly salted.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Includes peanuts, so it&#x27;s less of a treat than the fancy mixes.</p>
@@ -73,7 +73,7 @@ For a board, buy a "fancy" mix: more cashews and pecans, few or no peanuts.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Pear&#x27;s Snacks Winter Cheer Nut Blend</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Holiday boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Costco, seasonally.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A sweet-spiced mix that suits Thanksgiving and Christmas boards.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasonal, so it isn&#x27;t always in stock.</p>

@@ -15,7 +15,7 @@ tags: "["best balsamic glaze", "balsamic glaze brands", "balsamic reduction", "b
 > **Quick Answer:** Our top pick for balsamic glaze on a charcuterie board is Bertolli Balsamic Glaze (4.7 out of 5). Least sweet: DeLallo Balsamic Glaze. Bertolli is also one of the cheapest.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Bertolli Balsamic Glaze</a><p class="sk-top-line">The top score, and it&#x27;s cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Least sweet</p><a class="sk-top-name" href="#pick-3">DeLallo Balsamic Glaze</a><p class="sk-top-line">Cuts through rich cheese and cured meat.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B078HRLQJT" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Bertolli Balsamic Glaze</a><p class="sk-top-line">The top score, and it&#x27;s cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Least sweet</p><a class="sk-top-name" href="#pick-3">DeLallo Balsamic Glaze</a><p class="sk-top-line">Cuts through rich cheese and cured meat.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B078HRLQJT" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Bertolli Balsamic Glaze</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Drizzling over everything</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, Walmart and Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top score, and it&#x27;s cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thickened like most supermarket glazes, so check the label if that matters to you.</p>
@@ -35,7 +35,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Monari Federzoni Balsamic Glaze</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet, thick drizzles</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Holds a neat line on burrata or fruit.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet more than tangy.</p>
@@ -44,7 +44,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Least sweet</p><h3>DeLallo Balsamic Glaze</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests who don&#x27;t like sweet</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and Italian aisles.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cuts through rich cheese and cured meat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thinner and less glossy.</p>
@@ -53,7 +53,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>DiBruno Bros Balsamic Glaze</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild cheeses</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Di Bruno Bros shops, online and some grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clings to fresh mozzarella and burrata without running.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier, and light on balsamic flavor.</p>
@@ -62,7 +62,7 @@ A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankin
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Modenaceti Balsamic Glaze</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real balsamic flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Stop &amp; Shop, ShopRite, H-E-B and other grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes most like the vinegar itself.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked.</p>

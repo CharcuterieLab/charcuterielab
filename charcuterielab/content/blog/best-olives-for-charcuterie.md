@@ -15,7 +15,7 @@ slug: "best-olives-for-charcuterie"
 > **Quick Answer:** Our top pick for olives on a charcuterie board is Mezzetta Castelvetrano Olives (4.7 out of 5). Best value: Trader Joe's Organic Conversation Olive Trio. Splurge: Kosterina Green Olives.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mezzetta Castelvetrano Olives</a><p class="sk-top-line">Easy to find. Buttery and mild.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07NV7D17M" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Organic Conversation Olive Trio</a><p class="sk-top-line">Three olives in one jar. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Kosterina Green Olives</a><p class="sk-top-line">Top-ranked. Fresh taste.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.6 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Kosterina+Green+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mezzetta Castelvetrano Olives</a><p class="sk-top-line">Easy to find. Buttery and mild.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07NV7D17M" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Organic Conversation Olive Trio</a><p class="sk-top-line">Three olives in one jar. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Kosterina Green Olives</a><p class="sk-top-line">Top-ranked. Fresh taste.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.6/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Kosterina+Green+Olives" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Mezzetta Castelvetrano Olives</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Buttery and mild.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pitted versions are softer.</p>
@@ -36,7 +36,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Partanna Castelvetrano Olives</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Good value jar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
@@ -45,7 +45,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Jeff&#x27;s Garden Castelvetrano Olives</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget Castelvetrano</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery, natural stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great for boards.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
@@ -54,7 +54,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Organic Conversation Olive Trio</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A ready-made mix</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Three olives in one jar. Cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -63,7 +63,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best splurge</p><h3>Kosterina Green Olives</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Raw, tangy olives</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Fresh taste.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Hard to find.</p>
@@ -72,7 +72,7 @@ Olives add the salt and acid that reset your palate between rich bites. These ja
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Barbiero Bella di Cerignola</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Showpiece olives</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Italian delis, specialty.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Striking look.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>

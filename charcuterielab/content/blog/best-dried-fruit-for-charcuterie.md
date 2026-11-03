@@ -13,10 +13,10 @@ tags: "["best dried fruit for charcuterie board", "dried fruit for cheese board"
 
 # The Best Dried Fruit for a Charcuterie Board
 
-> **Quick Answer:** Start with **Mariani Turkish apricots** and **Sun-Maid Mission figs** (about $4). Add **Craisins** for color, and **raisins on the vine** as a showpiece. For a crowd: **Kirkland dried mango**.
+> **Quick Answer:** Start with **Mariani Turkish apricots** and **Sun-Maid Mission figs**. Add **Craisins** for color, and **raisins on the vine** as a showpiece. For a crowd: **Kirkland dried mango**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best apricot</p><a class="sk-top-name" href="#pick-1">Mariani Mediterranean Apricots</a><p class="sk-top-line">Plump, juicy Turkish apricots</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Mariani+Mediterranean+dried+apricots" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best fig</p><a class="sk-top-name" href="#pick-3">Sun-Maid California Mission Figs</a><p class="sk-top-line">Jammy black figs for blue cheese</p></div><div class="sk-top-buy"><span class="sk-price">About $4 for 7 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Sun-Maid+California+Mission+figs" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best showpiece</p><a class="sk-top-name" href="#pick-7">Melissa&#x27;s Raisins on the Vine</a><p class="sk-top-line">Vine-dried raisin clusters</p></div><div class="sk-top-buy"><span class="sk-price">About $26 for 2 × 7 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=raisins+on+the+vine+clusters" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best apricot</p><a class="sk-top-name" href="#pick-1">Mariani Mediterranean Apricots</a><p class="sk-top-line">Plump, juicy Turkish apricots</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07Q521XK1" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best fig</p><a class="sk-top-name" href="#pick-3">Sun-Maid California Mission Figs</a><p class="sk-top-line">Jammy black figs for blue cheese</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B092NYLPRZ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best showpiece</p><a class="sk-top-name" href="#pick-7">Melissa&#x27;s Raisins on the Vine</a><p class="sk-top-line">Vine-dried raisin clusters</p></div><div class="sk-top-buy"><span class="sk-price">About $26 for 2 × 7 oz</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">Fruit and cheese matches</a><a href="#dried-fruit-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Origin</dt><dd>Turkey</dd></div><div><dt>Sulfured</dt><dd>Yes</dd></div><div><dt>Added sugar</dt><dd>None</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Turkish apricots are dried whole, so they stay thick and juicy, and Mariani is in most supermarkets.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sulfured, so skip it for guests sensitive to sulfites.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mariani+Mediterranean+dried+apricots" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07Q521XK1" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Stop &amp; Shop lists Turkey as the origin and sulfur dioxide as a preservative (<a href="https://stopandshop.com/groceries/product/mariani-dried-fruit-mediterranean-apricots-6-oz-bag/346889" target="_blank" rel="noopener">Stop &amp; Shop</a>); ATK found Mediterranean apricots &quot;juicy, plump, and sweeter than tart&quot; (<a href="https://www.americastestkitchen.com/how_tos/8356-does-apricot-origin-matter" target="_blank" rel="noopener">ATK</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,6 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Origin</dt><dd>Hollister, California</dd></div><div><dt>Variety</dt><dd>Blenheim</dd></div><div><dt>Sulfured</dt><dd>Lightly</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> An endangered heirloom with a honey-like, sweet-tart flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive, and supply is small.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Blenheim+dried+apricots" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Market Hall Foods lists $18.95 (<a href="https://www.markethallfoods.com/products/royal-medallion-dried-blenheim-apricots-from-b-r-farms" target="_blank" rel="noopener">Market Hall</a>); Tasting Table explains Blenheim&#x27;s decline (<a href="https://tastingtable.com/1227564/the-endangered-apricot-variety-thats-often-sold-dried" target="_blank" rel="noopener">Tasting Table</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +46,7 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Origin</dt><dd>California</dd></div><div><dt>Sulfites</dt><dd>None listed</dd></div><div><dt>Added sugar</dt><dd>None</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Jammy with a little bitterness, made for blue cheese and salty meat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Whole figs can be firm; halve them for the board.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Sun-Maid+California+Mission+figs" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B092NYLPRZ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Kroger lists $3.99 for 7 oz (<a href="https://www.kroger.com/p/p/0004114307240" target="_blank" rel="noopener">Kroger</a>); Valley Fig pairs Mission figs with blue cheese (<a href="https://valleyfig.com/blog/black-figs-and-white-figs-learn-more/" target="_blank" rel="noopener">Valley Fig</a>), and ATK describes their &quot;pleasant hint of bitterness&quot; (<a href="https://www.americastestkitchen.com/how_tos/10745-figuring-out-dried-figs" target="_blank" rel="noopener">ATK</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +54,7 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Size</dt><dd>6 oz</dd></div><div><dt>Sweetened</dt><dd>Yes</dd></div><div><dt>Origin</dt><dd>USA</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, everywhere, and the red brightens any board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Heavily sweetened.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ocean+Spray+Craisins+original" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0004MWQGU" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Target lists $2.89 (<a href="https://www.target.com/p/ocean-spray-6-oz-craisins/-/A-12936129" target="_blank" rel="noopener">Target</a>); Hannaford lists the ingredients (<a href="https://hannaford.com/groceries/snacks/dried-fruit-raisins/ocean-spray-craisins-original-dried-fruit-cranberries-6-ct-6-oz-pkg.html" target="_blank" rel="noopener">Hannaford</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -71,7 +70,6 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Pack</dt><dd>12 × 3 oz pouches</dd></div><div><dt>Rating</dt><dd>4.7 / 5 at Walmart</dd></div><div><dt>Pairs with</dt><dd>Aged cheddar, Gouda</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tart dried cherries balance rich aged cheeses.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Check the label for sugar and oil.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Traverse+Bay+dried+tart+Montmorency+cherries" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Walmart lists it at 4.7 from 185 ratings (<a href="https://www.walmart.com/ip/Traverse-Bay-Fruit-Co-Premium-Dried-Tart-Montmorency-Cherries-3-oz-12-ct/21677822" target="_blank" rel="noopener">Walmart</a>); The Delicious Life pairs tart cherries with an aged cheese (<a href="https://thedeliciouslife.com/visual-guide-to-cheeseboard-accompaniments-how-to/" target="_blank" rel="noopener">The Delicious Life</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -79,7 +77,6 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Origin</dt><dd>Chile</dd></div><div><dt>Grape</dt><dd>Flame Seedless</dd></div><div><dt>Use</dt><dd>Grazing boards</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clusters that make any board look expensive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricey, and not true Muscatel.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=raisins+on+the+vine+clusters" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Melissa&#x27;s lists $25.59 for two 7 oz packs (<a href="https://www.melissas.com/products/raisins-on-the-vine" target="_blank" rel="noopener">Melissa&#x27;s</a>); Perishable News covered the launch (<a href="https://perishablenews.com/produce/melissas-introduces-raisins-on-the-vine/" target="_blank" rel="noopener">Perishable News</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
@@ -87,7 +84,7 @@ Dried fruit lasts, fills gaps and makes salty cheese taste better.
 <dl class="sk-facts"><div><dt>Origin</dt><dd>Cebu, Philippines</dd></div><div><dt>Sweetened</dt><dd>Yes</dd></div><div><dt>Sulfites</dt><dd>Yes</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The lowest cost per ounce we found.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains added sugar and sulfites.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Philippine+Brand+dried+mangoes" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000ST8MY4" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A Costco tracker lists $8.97 for 30 oz (<a href="https://app.warehouserunner.com/costco/1555-philippine-dried-mangoes-30-oz" target="_blank" rel="noopener">Warehouse Runner</a>).</p></details>
 </article>
 </div>

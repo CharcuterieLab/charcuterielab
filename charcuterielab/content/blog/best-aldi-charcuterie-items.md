@@ -15,7 +15,7 @@ tags: "["aldi charcuterie", "best aldi cheese", "aldi charcuterie board", "empor
 > **Quick Answer:** Best Aldi cheese: **Emporium Selection Not Your Average Cheddar** (4.7/5). Best meat: **Appleton Farms Prosciutto**. Best soft cheese: **Double Crème Brie**. A board for 6 to 8 costs under $40.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emporium Selection Not Your Average Cheddar</a><p class="sk-top-line">The top Aldi cheese in Sporked&#x27;s test.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Appleton Farms Prosciutto</a><p class="sk-top-line">The best-reviewed cheap prosciutto we found.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Emporium Selection Double Crème Brie</a><p class="sk-top-line">Every board needs a soft cheese, and this one is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emporium Selection Not Your Average Cheddar</a><p class="sk-top-line">The top Aldi cheese in Sporked&#x27;s test.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Appleton Farms Prosciutto</a><p class="sk-top-line">The best-reviewed cheap prosciutto we found.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Emporium Selection Double Crème Brie</a><p class="sk-top-line">Every board needs a soft cheese, and this one is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 12, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Emporium Selection Not Your Average Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyone at the table</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top Aldi cheese in Sporked&#x27;s test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Aldi only.</p>
@@ -36,7 +36,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Specially Selected Traditional Burrata</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A showpiece center</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Makes a cheap board look expensive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Serve it within a day or two of buying, and cut it open at the table.</p>
@@ -45,7 +45,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Emporium Selection Le Gruyère</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A nutty, firm cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheese-counter flavor for a fraction of the price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Firm, so slice it thin or cut it into sticks.</p>
@@ -54,7 +54,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best soft cheese</p><h3>Emporium Selection Double Crème Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case, about $3.95.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Every board needs a soft cheese, and this one is cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Take it out 20 to 30 minutes before serving.</p>
@@ -63,7 +63,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best meat</p><h3>Appleton Farms Prosciutto</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best-reviewed cheap prosciutto we found.</p>
 <p class="sk-mind"><strong>Watch out:</strong> 4 oz packs go fast. Buy one per 4 to 5 guests.</p>
@@ -72,7 +72,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Emporium Selection Vintage Irish Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sharp cheddar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> An aged, crumbly cheddar for very little money.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Crumbly, so cut it into rough chunks.</p>
@@ -81,7 +81,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Emporium Selection Dill Havarti</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A mild, herby cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case, about $3.29.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft, mild and easy for kids.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The dill is strong if you don&#x27;t like pickles.</p>
@@ -90,7 +90,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Emporium Selection Borgonzola</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A gentle blue</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A blue cheese for people who think they don&#x27;t like blue cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Soft and rich, so a small piece goes a long way.</p>
@@ -99,7 +99,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Emporium Selection Manchego DOP</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Spanish board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real DOP Manchego for very little.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than an older Manchego.</p>
@@ -108,7 +108,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Savoritz Six Cracker Assortment</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Variety on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi cracker aisle, about $4.19.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> One box gives the board variety.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some of the crackers are buttery and break easily.</p>
@@ -117,7 +117,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-11">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">11</span><div><h3>Appleton Farms Salami Collection</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A second meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Three meats for the price of one pack.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pre-sliced and on the thin side.</p>
@@ -126,7 +126,7 @@ Aldi is the cheapest place to build a good-looking board. The ones to skip are a
 </article>
 <article class="sk-card" id="pick-12">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">12</span><div><h3>Specially Selected Cheese Pairing Spread Set</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.4 out of 5"><span class="sk-label">Our score</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The sweet element</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Aldi Finds aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Four spreads in one box.</p>
 <p class="sk-mind"><strong>Watch out:</strong> An Aldi Find, so it&#x27;s in stores for a limited time, often around the holidays.</p>

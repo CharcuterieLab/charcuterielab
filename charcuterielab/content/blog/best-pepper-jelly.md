@@ -14,7 +14,7 @@ slug: "best-pepper-jelly"
 > **Quick Answer:** Our top pick for pepper jelly on a charcuterie board is Braswell's Jalapeño Pepper Jelly (4.8 out of 5). Best value: Tabasco Spicy Pepper Jelly.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Braswell&#x27;s Jalapeño Pepper Jelly</a><p class="sk-top-line">Top-ranked. Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0160ND8JK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Tabasco Spicy Pepper Jelly</a><p class="sk-top-line">Real heat.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Braswell&#x27;s Jalapeño Pepper Jelly</a><p class="sk-top-line">Top-ranked. Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0160ND8JK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Tabasco Spicy Pepper Jelly</a><p class="sk-top-line">Real heat.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Braswell&#x27;s Jalapeño Pepper Jelly</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced sweet heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger, Publix, Food Lion, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild for heat lovers.</p>
@@ -35,7 +35,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Tabasco Spicy Pepper Jelly</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>More heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less complex.</p>
@@ -43,7 +43,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Terrapin Ridge Hot Pepper Berry Bacon Jelly</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Something different</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Unusual sweet-savory flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains bacon. Hard to find.</p>
@@ -52,7 +52,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Stonewall Kitchen Hot Pepper Jelly</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smooth and mild</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Smooth.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild.</p>
@@ -61,7 +61,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Bellisari&#x27;s Blistered Jalapeño Fig</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fig lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Spreadable. Fig and heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>

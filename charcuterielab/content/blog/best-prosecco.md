@@ -15,7 +15,7 @@ tags: "["best prosecco", "best prosecco under 20", "prosecco brands", "prosecco 
 > **Quick Answer:** Our top pick for prosecco on a charcuterie board is Mionetto Prosecco Brut (4.6 out of 5). Value: Ruffino Prosecco. Splurge: Santa Margherita Prosecco Superiore Brut.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mionetto Prosecco Brut</a><p class="sk-top-line">Dry, crisp and in nearly every store.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Ruffino Prosecco</a><p class="sk-top-line">Reliable and inexpensive.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-7">Santa Margherita Prosecco Superiore Brut</a><p class="sk-top-line">Superiore DOCG and a name guests recognize.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.6 · $$$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mionetto Prosecco Brut</a><p class="sk-top-line">Dry, crisp and in nearly every store.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Ruffino Prosecco</a><p class="sk-top-line">Reliable and inexpensive.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-7">Santa Margherita Prosecco Superiore Brut</a><p class="sk-top-line">Superiore DOCG and a name guests recognize.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.6/5 · $$$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Mionetto Prosecco Brut</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery and liquor stores nationwide.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Dry, crisp and in nearly every store.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The vintage (Millesimato) bottle VinePair rated is a step up from the basic one.</p>
@@ -36,7 +36,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Ruffino Prosecco</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Value</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery and liquor stores nationwide.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Reliable and inexpensive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Slightly sweeter than a brut.</p>
@@ -45,7 +45,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Torresella Prosecco</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dry and floral</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Liquor stores and wine shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Won the blind tasting at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not stocked everywhere.</p>
@@ -54,7 +54,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>La Marca Prosecco</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A fruity, crowd-pleasing style</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery and liquor stores nationwide.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find, with a fruitier style many people like.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Extra dry means a little sweet.</p>
@@ -63,7 +63,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Zonin Prosecco</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget pick for mimosas</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery and liquor stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Bright and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only one tasting rated it.</p>
@@ -72,7 +72,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Casabianca Prosecco Superiore Brut</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mimosas and brunch boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Wine shops and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> DOCG quality for under $20.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
@@ -81,7 +81,7 @@ Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champ
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Splurge</p><h3>Santa Margherita Prosecco Superiore Brut</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Splurge</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Liquor stores and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Superiore DOCG and a name guests recognize.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more than the winners.</p>

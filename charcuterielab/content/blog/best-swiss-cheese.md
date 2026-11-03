@@ -15,7 +15,7 @@ tags: "["best swiss cheese", "swiss cheese brands", "best store bought swiss che
 > **Quick Answer:** Our top pick for Swiss cheese on a charcuterie board is Sargento Aged Swiss (4.6 out of 5). Block: Kerrygold Swiss Cheese. Deli-sliced: Boar's Head Gold Label Imported Switzerland Swiss.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Sargento Aged Swiss</a><p class="sk-top-line">The most flavor in a packaged slice, at a supermarket price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best block</p><a class="sk-top-name" href="#pick-2">Kerrygold Swiss Cheese</a><p class="sk-top-line">A block you can cut into cubes, with more bite than most Swiss.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best deli-sliced</p><a class="sk-top-name" href="#pick-3">Boar&#x27;s Head Gold Label Imported Switzerland Swiss</a><p class="sk-top-line">Real Swiss-made cheese, sliced to order.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Sargento Aged Swiss</a><p class="sk-top-line">The most flavor in a packaged slice, at a supermarket price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best block</p><a class="sk-top-name" href="#pick-2">Kerrygold Swiss Cheese</a><p class="sk-top-line">A block you can cut into cubes, with more bite than most Swiss.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best deli-sliced</p><a class="sk-top-name" href="#pick-3">Boar&#x27;s Head Gold Label Imported Switzerland Swiss</a><p class="sk-top-line">Real Swiss-made cheese, sliced to order.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Sargento Aged Swiss</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Folded slices on any board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most flavor in a packaged slice, at a supermarket price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It comes sliced, so fold or roll it rather than cubing it.</p>
@@ -36,7 +36,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best block</p><h3>Kerrygold Swiss Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cubes and wedges</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart and many grocery cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A block you can cut into cubes, with more bite than most Swiss.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sharper than classic American Swiss.</p>
@@ -45,7 +45,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best deli-sliced</p><h3>Boar&#x27;s Head Gold Label Imported Switzerland Swiss</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thin deli slices</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters that carry Boar&#x27;s Head.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Swiss-made cheese, sliced to order.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Deli prices, and very thin slices tear if you fold them tightly.</p>
@@ -54,7 +54,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Sliced Swiss</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cheese on crackers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick slices that sit well on a cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -63,7 +63,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Organic Valley Baby Swiss</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests new to Swiss</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild and creamy, and organic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Little of the nutty bite of aged Swiss.</p>
@@ -72,7 +72,7 @@ For a board, skip the waxy sandwich slices and buy an aged block with real nutti
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Land O&#x27;Lakes Swiss Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget deli slice</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A firm, inexpensive deli option.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild, so it won&#x27;t stand out on a board.</p>

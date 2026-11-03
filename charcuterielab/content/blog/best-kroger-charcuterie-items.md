@@ -15,7 +15,7 @@ tags: "["kroger charcuterie", "kroger charcuterie board", "murrays cheese kroger
 > **Quick Answer:** Best Kroger cheese: **Murray's Cave Aged Stockinghall Cheddar** (4.2/5). Best soft cheese: **Murray's Brie**. Skip the store-brand salami and get meat sliced at the deli counter.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Murray&#x27;s Cave Aged Stockinghall Cheddar</a><p class="sk-top-line">A cheese-shop cheddar in a supermarket.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Murray&#x27;s Brie</a><p class="sk-top-line">Creamy and mild, and easy to bake.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best smoked salmon</p><a class="sk-top-name" href="#pick-2">Private Selection Cold Smoked Norwegian Atlantic Salmon</a><p class="sk-top-line">Drapes well on crackers with cream cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Murray&#x27;s Cave Aged Stockinghall Cheddar</a><p class="sk-top-line">A cheese-shop cheddar in a supermarket.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-4">Murray&#x27;s Brie</a><p class="sk-top-line">Creamy and mild, and easy to bake.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best smoked salmon</p><a class="sk-top-name" href="#pick-2">Private Selection Cold Smoked Norwegian Atlantic Salmon</a><p class="sk-top-line">Drapes well on crackers with cream cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 11, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Murray&#x27;s Cave Aged Stockinghall Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The showpiece cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter at select Kroger stores, about <a href="https://www.kroger.com/p/murray-s-stockinghall-cheddar/0021122200000" target="_blank" rel="noopener">$24.99 a pound</a>.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheese-shop cheddar in a supermarket.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive, about $24.99 a pound, and only at stores with a Murray&#x27;s counter.</p>
@@ -36,7 +36,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best smoked salmon</p><h3>Private Selection Cold Smoked Norwegian Atlantic Salmon</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A brunch or holiday board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Kroger seafood or deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Drapes well on crackers with cream cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Keep it cold until serving. For pregnant guests, refrigerated smoked fish should be cooked first.</p>
@@ -45,7 +45,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Private Selection Select Blend Mixed Nuts with Sea Salt</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A bowl of nuts</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Kroger snack aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mostly cashews, almonds and pecans, with few peanuts.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than the standard Kroger nuts.</p>
@@ -54,7 +54,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best soft cheese</p><h3>Murray&#x27;s Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter, about <a href="https://www.kroger.com/q/murrays" target="_blank" rel="noopener">$13.99 a pound</a>.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy and mild, and easy to bake.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Cut wedges vary in ripeness; ask the counter for one that gives when pressed.</p>
@@ -63,7 +63,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Murray&#x27;s Estate Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet pairings</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter, about <a href="https://www.kroger.com/q/murrays" target="_blank" rel="noopener">$18.99 a pound</a>.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The caramel notes make it the best cheese for a dessert board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than a grocery Gouda.</p>
@@ -72,7 +72,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Murray&#x27;s Parmigiano Reggiano</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter, about <a href="https://www.kroger.com/q/murrays" target="_blank" rel="noopener">$23.99 a pound</a>.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Parmigiano, cut fresh.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Break it into rough chunks with a knife tip; slices are too hard.</p>
@@ -81,7 +81,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Ciresa Taleggio</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A bold, washed-rind cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter at select stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Funky outside, mild and buttery inside. A good third cheese for adventurous guests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong smell. Not every Murray&#x27;s counter carries it, so ask.</p>
@@ -90,7 +90,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">Best crackers</p><h3>Private Selection Classic Water Crisp Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Letting the cheese lead</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger cracker aisle, about $3.49 for 4.4 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheap stand-in for Carr&#x27;s.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews, so the reviews score is low.</p>
@@ -99,7 +99,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Murray&#x27;s Dill Havarti</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A mild, creamy cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Murray&#x27;s counter.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild and kid-friendly, and cheap for a Murray&#x27;s cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
@@ -108,7 +108,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Private Selection Genoa Salami Cracker Cut</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Quick sliced salami</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Ready to fold and use.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so it dries out fast on the board. Deli-sliced salami is better.</p>
@@ -117,7 +117,7 @@ Kroger stores (including Ralphs, King Soopers and Mariano's) have Murray's Chees
 </article>
 <article class="sk-card" id="pick-11">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">11</span><div><h3>Private Selection Charcuterie Tasting Board</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.0 out of 5"><span class="sk-label">Our score</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Skip it</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Kroger deli case, about $15.49.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everything in one tray.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Poor value and middling reviews. The Murray&#x27;s counter also sells ready-made boards if you need a shortcut.</p>

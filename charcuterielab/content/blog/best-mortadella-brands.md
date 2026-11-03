@@ -15,7 +15,7 @@ tags: "["best mortadella", "best mortadella brand", "mortadella brands", "mortad
 > **Quick Answer:** Our top pick for mortadella on a charcuterie board is Columbus Mortadella (4.5 out of 5). Pre-sliced: Fra' Mani Mortadella. Splurge: Ferrarini Truffle Mortadella. Columbus is also the best value.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Columbus Mortadella</a><p class="sk-top-line">Great flavor at a low price, and you can have it sliced thin to order.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pre-sliced</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Mortadella</a><p class="sk-top-line">Craft mortadella that&#x27;s already sliced.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Ferrarini Truffle Mortadella</a><p class="sk-top-line">A real showpiece for a luxury board.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Columbus Mortadella</a><p class="sk-top-line">Great flavor at a low price, and you can have it sliced thin to order.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pre-sliced</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Mortadella</a><p class="sk-top-line">Craft mortadella that&#x27;s already sliced.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-5">Ferrarini Truffle Mortadella</a><p class="sk-top-line">A real showpiece for a luxury board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Columbus Mortadella</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The classic deli mortadella</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Deli counters and Costco (sold by the pound).</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great flavor at a low price, and you can have it sliced thin to order.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The texture isn&#x27;t completely smooth.</p>
@@ -36,7 +36,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best pre-sliced</p><h3>Fra&#x27; Mani Mortadella</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A pre-sliced pack</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Costco and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Craft mortadella that&#x27;s already sliced.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sold sliced at Costco and specialty shops more than at regular grocers.</p>
@@ -45,7 +45,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Mastro San Daniele Style Mortadella</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big, peppery slices</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Italian delis and specialty stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top score in Sporked&#x27;s test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Easiest to find in Canada. In the US, look in Italian delis.</p>
@@ -54,7 +54,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Veroni Italian Mortadella with Pistachio</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Grab-and-go pistachio mortadella</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Kroger, Stop &amp; Shop, ShopRite and other grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Imported, with pistachios, and easy to find in the packaged deli case.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricey per ounce, and 4 oz only covers a small board.</p>
@@ -63,7 +63,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best splurge</p><h3>Ferrarini Truffle Mortadella</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A special-occasion board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Italian delis and specialty shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A real showpiece for a luxury board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find and expensive.</p>
@@ -72,7 +72,7 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Olympia Provisions Mortadella</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An American craft mortadella</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Olympia Provisions online, Murray&#x27;s and specialty shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Careful craft production. A pistachio version is available.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly sold whole or online, at a premium.</p>

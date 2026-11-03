@@ -14,7 +14,7 @@ slug: "best-mustard-for-charcuterie"
 > **Quick Answer:** Our top pick for mustard on a charcuterie board is Maille Old Style Whole Grain Mustard (4.8 out of 5). Best value: Grey Poupon Harvest Coarse Ground. Splurge: Pommery Moutarde de Meaux.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pommery+Moutarde+de+Meaux" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pommery+Moutarde+de+Meaux" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Maille Old Style Whole Grain Mustard</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Whole-grain crunch</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Test-kitchen winner. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than some.</p>
@@ -35,7 +35,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Maille Dijon Originale</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best Dijon</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked Dijon.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, so less visual texture.</p>
@@ -44,7 +44,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Grey Poupon Harvest Coarse Ground</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget coarse mustard</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap. Test-kitchen winner.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Coarse, not whole seeds.</p>
@@ -52,7 +52,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Pommery Moutarde de Meaux</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The gift-worthy pot</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Beautiful crock. Classic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
@@ -61,7 +61,7 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Kozlik&#x27;s Triple Crunch Mustard</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big seeds</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Striking texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>

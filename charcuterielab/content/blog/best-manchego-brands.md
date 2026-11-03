@@ -14,7 +14,7 @@ slug: "best-manchego-brands"
 > **Quick Answer:** Our top pick for Manchego on a charcuterie board is Kirkland Signature Manchego DOP (6 months) (4.5 out of 5). Best value: Trader Joe's Manchego. Splurge: Mitica Manchego DOP, 12 months.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP at a low price. Crowd-pleasing 6-month age.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Manchego</a><p class="sk-top-line">Cheap. Easy everyday pick.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Manchego DOP, 12 months</a><p class="sk-top-line">Aged a full year. More complex.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP at a low price. Crowd-pleasing 6-month age.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Manchego</a><p class="sk-top-line">Cheap. Easy everyday pick.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Manchego DOP, 12 months</a><p class="sk-top-line">Aged a full year. More complex.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kirkland Signature Manchego DOP (6 months)</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Costco shoppers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real DOP at a low price. Crowd-pleasing 6-month age.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Costco. Big wedge.</p>
@@ -35,7 +35,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Mitica Manchego DOP, 12 months</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese-focused board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Aged a full year. More complex.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier. Not in every store.</p>
@@ -44,7 +44,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Manchego</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday Manchego</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap. Easy everyday pick.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s. Few published reviews.</p>
@@ -53,7 +53,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Don Bernardo Manchego</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Widely available. Properly aged.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
@@ -62,7 +62,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Murray&#x27;s 1 Year Manchego</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cheesemonger pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Murray&#x27;s, Kroger cheese counters, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Aged a year. Monger-selected.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Limited stores.</p>
@@ -71,7 +71,7 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Artequeso Manchego Añejo</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Aged and nutty</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Cheese counters, specialty.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Deep, aged flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>

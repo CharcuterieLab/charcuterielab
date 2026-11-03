@@ -14,7 +14,7 @@ slug: "best-cheddar-brands"
 > **Quick Answer:** Our top pick for cheddar on a charcuterie board is Kerrygold Reserve Cheddar (4.8 out of 5). Best value: Trader Joe's Unexpected Cheddar. Splurge: Cabot Clothbound Cheddar.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Reserve Cheddar</a><p class="sk-top-line">Easy to find. Aged two years.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Unexpected Cheddar</a><p class="sk-top-line">Top-ranked. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-3">Cabot Clothbound Cheddar</a><p class="sk-top-line">Award-winning. Complex and crumbly.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Reserve Cheddar</a><p class="sk-top-line">Easy to find. Aged two years.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Unexpected Cheddar</a><p class="sk-top-line">Top-ranked. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-3">Cabot Clothbound Cheddar</a><p class="sk-top-line">Award-winning. Complex and crumbly.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kerrygold Reserve Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Best all-round board cheddar</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Aged two years.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less crumbly than English cheddars.</p>
@@ -35,7 +35,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Unexpected Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Crystals on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -44,7 +44,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best splurge</p><h3>Cabot Clothbound Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Special occasions</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Award-winning. Complex and crumbly.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
@@ -53,7 +53,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Cathedral City Extra Mature</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>English-style cheddar</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Classic English style.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
@@ -62,7 +62,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Old Croc Sharp Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Intense. Crystals.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Can overpower delicate pairings.</p>
@@ -71,7 +71,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Tillamook Extra Sharp White</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday cheddar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Creamier, less complex.</p>
@@ -80,7 +80,7 @@ For a board you want aged cheddar with crystals, crumble and depth. These brands
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Beecher&#x27;s Flagship</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Nutty and less acidic</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, Costco.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Complex flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier.</p>

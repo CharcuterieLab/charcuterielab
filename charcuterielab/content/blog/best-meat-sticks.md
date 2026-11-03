@@ -15,7 +15,7 @@ tags: "["best meat sticks", "best beef sticks", "chomps", "meat sticks for charc
 > **Quick Answer:** Our top pick for meat sticks on a charcuterie board is Chomps Original Beef Stick (4.8 out of 5). Spicy: Chomps Jalapeño Beef Stick. Smoked: Tillamook Country Smoker Teriyaki Meat Sticks.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Chomps Original Beef Stick</a><p class="sk-top-line">Grass-fed beef and a short ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HGGN5JGV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best spicy</p><a class="sk-top-name" href="#pick-2">Chomps Jalapeño Beef Stick</a><p class="sk-top-line">Mild heat most guests can handle.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07MP659BM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best smoked</p><a class="sk-top-name" href="#pick-4">Tillamook Country Smoker Teriyaki Meat Sticks</a><p class="sk-top-line">Good value in a big jar.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Tillamook+Country+Smoker+Teriyaki+Meat+Sticks" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Chomps Original Beef Stick</a><p class="sk-top-line">Grass-fed beef and a short ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0HGGN5JGV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best spicy</p><a class="sk-top-name" href="#pick-2">Chomps Jalapeño Beef Stick</a><p class="sk-top-line">Mild heat most guests can handle.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07MP659BM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best smoked</p><a class="sk-top-name" href="#pick-4">Tillamook Country Smoker Teriyaki Meat Sticks</a><p class="sk-top-line">Good value in a big jar.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Tillamook+Country+Smoker+Teriyaki+Meat+Sticks" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Chomps Original Beef Stick</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, Target, Costco and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Grass-fed beef and a short ingredient list.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more per stick than gas-station brands.</p>
@@ -36,7 +36,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best spicy</p><h3>Chomps Jalapeño Beef Stick</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A little heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild heat most guests can handle.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not spicy enough for heat seekers.</p>
@@ -45,7 +45,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Country Archer Original Beef Stick</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild and beefy</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores, Target and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A close second to Chomps.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked.</p>
@@ -54,7 +54,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best smoked</p><h3>Tillamook Country Smoker Teriyaki Meat Sticks</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet and smoky</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and club stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Good value in a big jar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet, and a longer ingredient list.</p>
@@ -63,7 +63,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Lorissa&#x27;s Kitchen Grass Fed Beef Sticks</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Small-batch beef</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Juicy and beefy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive per stick.</p>
@@ -72,7 +72,7 @@ No slicing, and they stand up in a cup: perfect for game-day, kids' and hiking b
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Wenzel&#x27;s Farm Spicy Snack Stick</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Beef and pork</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Midwest grocers and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> More like a classic snack stick.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Salty.</p>

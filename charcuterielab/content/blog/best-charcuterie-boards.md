@@ -40,7 +40,7 @@ Food Network's budget pick: a 16 by 12 inch bamboo board with a handle and a jui
 
 - **Why we like it:** Big enough for a party board at a budget price.
 - **Keep in mind:** Bamboo looks plainer than hardwood.
-- **Where to buy:** [Check price on Amazon](https://www.amazon.com/dp/B07V5C1NMD)
+- **Where to buy:** Out of stock on Amazon as of November 2026. Any 16 × 12 in bamboo board does the same job; for a bigger board, see the [Picnic Time 24-inch acacia board](/blog/amazon-charcuterie-board-sets-reviewed/).
 
 ### RoyalHouse Bamboo Cheese Board and Knife Set
 

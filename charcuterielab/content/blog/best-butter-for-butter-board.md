@@ -15,7 +15,7 @@ tags: "["best butter brand", "best butter for butter board", "butter brands rank
 > **Quick Answer:** Our top pick for butter on a charcuterie board is Kerrygold Pure Irish Butter (Salted) (4.7 out of 5). Value: Land O Lakes Salted Butter. Splurge: Les Prés Salés Camargue Sea Salt Butter.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Pure Irish Butter (Salted)</a><p class="sk-top-line">Rich, golden and easy to spread.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Land O Lakes Salted Butter</a><p class="sk-top-line">Cheap, consistent, everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Les Prés Salés Camargue Sea Salt Butter</a><p class="sk-top-line">Salt crunch built in, so the board needs less topping.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Pure Irish Butter (Salted)</a><p class="sk-top-line">Rich, golden and easy to spread.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Land O Lakes Salted Butter</a><p class="sk-top-line">Cheap, consistent, everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Les Prés Salés Camargue Sea Salt Butter</a><p class="sk-top-line">Salt crunch built in, so the board needs less topping.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kerrygold Pure Irish Butter (Salted)</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every butter board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Nearly every grocery store and Costco.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Rich, golden and easy to spread.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more than American butter.</p>
@@ -36,7 +36,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Plugrá European Style Salted Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A rich, high-fat butter</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> 82% butterfat for a silky spread.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain packaging hides a premium price.</p>
@@ -45,7 +45,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Tillamook Sea Salted Extra Creamy Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Extra-creamy texture</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Spreads beautifully at room temperature.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A faint sour note bothered one tester.</p>
@@ -54,7 +54,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Vermont Creamery Cultured Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tangy, cultured flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cultured tang that stands up to honey and herbs.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier and less widely stocked.</p>
@@ -63,7 +63,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Challenge Salted Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Simple, salty butter</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>West Coast grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Just cream and salt, at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Gets greasy when warm, and is mostly sold in the West.</p>
@@ -72,7 +72,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best value</p><h3>Land O Lakes Salted Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, consistent, everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less complex than European-style butter.</p>
@@ -81,7 +81,7 @@ On a butter board you taste every difference in cream and salt. One brand came o
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best splurge</p><h3>Les Prés Salés Camargue Sea Salt Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A showpiece butter</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Cheese shops, specialty grocers and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Salt crunch built in, so the board needs less topping.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive and harder to find.</p>

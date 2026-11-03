@@ -15,7 +15,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 > **Quick Answer:** Best cheese: **Laura Chenel Fresh Goat Cheese** (4.7/5). Trust the deli brand, **Primo Taglio**, for mozzarella, provolone and pepperoni. Value: **Lucerne Pepper Jack**. Same picks at Vons, Jewel-Osco and Acme.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-1">Laura Chenel Original Fresh Goat Cheese</a><p class="sk-top-line">Creamy, tangy and reliable.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best deli cheese</p><a class="sk-top-name" href="#pick-3">Primo Taglio Provolone</a><p class="sk-top-line">Lots of flavor for a store brand.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Primo Taglio Uncured Pepperoni</a><p class="sk-top-line">Bigger slices than snack pepperoni.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-1">Laura Chenel Original Fresh Goat Cheese</a><p class="sk-top-line">Creamy, tangy and reliable.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best deli cheese</p><a class="sk-top-name" href="#pick-3">Primo Taglio Provolone</a><p class="sk-top-line">Lots of flavor for a store brand.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Primo Taglio Uncured Pepperoni</a><p class="sk-top-line">Bigger slices than snack pepperoni.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -25,7 +25,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best cheese</p><h3>Laura Chenel Original Fresh Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The spreadable cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy, tangy and reliable.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Soft, so serve it in a log with a spreader.</p>
@@ -34,7 +34,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Primo Taglio Fresh Mozzarella</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Caprese skewers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli and cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A store brand that beats the name brands.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Fresh mozzarella only keeps a few days once opened.</p>
@@ -43,7 +43,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best deli cheese</p><h3>Primo Taglio Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Roll-ups and sliders</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Lots of flavor for a store brand.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sliced, so roll it rather than cube it.</p>
@@ -52,7 +52,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Tillamook Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy with gentle heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less fire than Cabot.</p>
@@ -61,7 +61,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best meat</p><h3>Primo Taglio Uncured Pepperoni</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Board-sized pepperoni</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Bigger slices than snack pepperoni.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs a little more than mass-market pepperoni.</p>
@@ -70,7 +70,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best value</p><h3>Lucerne Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget spicy cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and good.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain-looking on a board, so cube it.</p>
@@ -79,7 +79,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Lucerne Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget mild cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons dairy case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Inexpensive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than Primo Taglio.</p>
@@ -88,7 +88,7 @@ tags: "["safeway charcuterie", "albertsons charcuterie", "primo taglio", "safewa
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Laura Chenel Mango Habanero Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway and Albertsons cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sweet and spicy, good with crackers.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Flavored cheese isn&#x27;t for everyone. Serve it next to the plain log.</p>

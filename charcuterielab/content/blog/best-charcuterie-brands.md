@@ -17,94 +17,94 @@ Each guide gives you a top pick, a budget pick and a splurge.
 
 ## Cheese and butter
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Brie Brands at the Grocery Store](/blog/best-brie-brands/) | Fromager d'Affinois | ★★★★½ 4.4 |
-| [Best Cheddar Brands for a Charcuterie Board](/blog/best-cheddar-brands/) | Kerrygold Reserve Cheddar | ★★★★★ 4.8 |
-| [Best Manchego Brands for a Charcuterie Board](/blog/best-manchego-brands/) | Kirkland Signature Manchego DOP (6 months) | ★★★★½ 4.5 |
-| [Best Parmesan for a Charcuterie Board](/blog/best-parmesan-brands/) | Boar's Head Parmigiano-Reggiano | ★★★★½ 4.5 |
+| [Best Brie Brands at the Grocery Store](/blog/best-brie-brands/) | Fromager d'Affinois | 4.4/5 |
+| [Best Cheddar Brands for a Charcuterie Board](/blog/best-cheddar-brands/) | Kerrygold Reserve Cheddar | 4.8/5 |
+| [Best Manchego Brands for a Charcuterie Board](/blog/best-manchego-brands/) | Kirkland Signature Manchego DOP (6 months) | 4.5/5 |
+| [Best Parmesan for a Charcuterie Board](/blog/best-parmesan-brands/) | Boar's Head Parmigiano-Reggiano | 4.5/5 |
 | [Best Pecorino Romano Brands for a Charcuterie Board](/blog/best-pecorino-romano/) | Boar's Head Pecorino Romano | Buyer's guide (unscored) |
 | [Best Asiago Cheese Brands for a Charcuterie Board](/blog/best-asiago-brands/) | Sartori Classic Asiago | Buyer's guide (unscored) |
 | [Best Fontina Cheese for a Charcuterie Board](/blog/best-fontina-brands/) | Fontina Val d'Aosta DOP | Buyer's guide (unscored) |
-| [Best Goat Cheese Brands for a Charcuterie Board](/blog/best-goat-cheese-brands/) | Laura Chenel Original Fresh Goat Cheese | ★★★★½ 4.7 |
-| [Best Gouda Brands for a Charcuterie Board](/blog/best-gouda-brands/) | Trader Joe's 1000 Day Gouda | ★★★★½ 4.7 |
-| [Best Blue Cheese Brands for a Charcuterie Board](/blog/best-blue-cheese-brands/) | Point Reyes Original Blue | ★★★★½ 4.5 |
+| [Best Goat Cheese Brands for a Charcuterie Board](/blog/best-goat-cheese-brands/) | Laura Chenel Original Fresh Goat Cheese | 4.7/5 |
+| [Best Gouda Brands for a Charcuterie Board](/blog/best-gouda-brands/) | Trader Joe's 1000 Day Gouda | 4.7/5 |
+| [Best Blue Cheese Brands for a Charcuterie Board](/blog/best-blue-cheese-brands/) | Point Reyes Original Blue | 4.5/5 |
 | [Best Stilton for a Christmas Cheese Board](/blog/best-stilton/) | Colston Bassett Stilton | Buyer's guide (unscored) |
 | [Best Gorgonzola Cheese for a Charcuterie Board](/blog/best-gorgonzola/) | Gorgonzola Dolce DOP | Buyer's guide (unscored) |
 | [Best Truffle Cheese for a Charcuterie Board](/blog/best-truffle-cheese/) | Sottocenere al Tartufo | Buyer's guide (unscored) |
 | [Best Cranberry Cheese for a Holiday Board](/blog/best-cranberry-cheese/) | Wensleydale with Cranberries | Buyer's guide (unscored) |
-| [Best Fresh Mozzarella for a Charcuterie Board](/blog/best-fresh-mozzarella/) | Primo Taglio Fresh Mozzarella | ★★★★½ 4.5 |
-| [Best Burrata at the Grocery Store](/blog/best-burrata/) | BelGioioso Burrata | ★★★★½ 4.7 |
+| [Best Fresh Mozzarella for a Charcuterie Board](/blog/best-fresh-mozzarella/) | Primo Taglio Fresh Mozzarella | 4.5/5 |
+| [Best Burrata at the Grocery Store](/blog/best-burrata/) | BelGioioso Burrata | 4.7/5 |
 | [Best Ricotta Brands for Whipped Ricotta and Boards](/blog/best-ricotta-brands/) | BelGioioso Ricotta con Latte | Buyer's guide (unscored) |
-| [Best Gruyère Brands for a Charcuterie Board](/blog/best-gruyere-brands/) | Emmi Kaltbach Le Gruyère AOP | ★★★★½ 4.4 |
-| [Best Feta Brands for a Charcuterie Board](/blog/best-feta-brands/) | Mt Vikos Traditional Feta | ★★★★½ 4.5 |
-| [Best Vegan Cheese for a Charcuterie Board](/blog/best-vegan-cheese/) | Boursin Dairy-Free Garlic & Herbs | ★★★★½ 4.4 |
-| [Best Swiss Cheese for a Charcuterie Board](/blog/best-swiss-cheese/) | Sargento Aged Swiss | ★★★★½ 4.6 |
-| [Best Cream Cheese Brands for a Charcuterie Board](/blog/best-cream-cheese/) | Philadelphia Original Cream Cheese | ★★★★½ 4.7 |
-| [Best Store-Bought Pimento Cheese for a Charcuterie Board](/blog/best-pimento-cheese/) | MyThreeSons Emmy's Original Pimento Cheese | ★★★★½ 4.4 |
-| [Best String Cheese for a Kids' Charcuterie Board](/blog/best-string-cheese/) | Frigo Cheese Heads String Cheese | ★★★★☆ 4.2 |
-| [Best Butter for a Butter Board](/blog/best-butter-for-butter-board/) | Kerrygold Pure Irish Butter (Salted) | ★★★★½ 4.7 |
+| [Best Gruyère Brands for a Charcuterie Board](/blog/best-gruyere-brands/) | Emmi Kaltbach Le Gruyère AOP | 4.4/5 |
+| [Best Feta Brands for a Charcuterie Board](/blog/best-feta-brands/) | Mt Vikos Traditional Feta | 4.5/5 |
+| [Best Vegan Cheese for a Charcuterie Board](/blog/best-vegan-cheese/) | Boursin Dairy-Free Garlic & Herbs | 4.4/5 |
+| [Best Swiss Cheese for a Charcuterie Board](/blog/best-swiss-cheese/) | Sargento Aged Swiss | 4.6/5 |
+| [Best Cream Cheese Brands for a Charcuterie Board](/blog/best-cream-cheese/) | Philadelphia Original Cream Cheese | 4.7/5 |
+| [Best Store-Bought Pimento Cheese for a Charcuterie Board](/blog/best-pimento-cheese/) | MyThreeSons Emmy's Original Pimento Cheese | 4.4/5 |
+| [Best String Cheese for a Kids' Charcuterie Board](/blog/best-string-cheese/) | Frigo Cheese Heads String Cheese | 4.2/5 |
+| [Best Butter for a Butter Board](/blog/best-butter-for-butter-board/) | Kerrygold Pure Irish Butter (Salted) | 4.7/5 |
 | [Best Camembert to Buy](/blog/best-camembert-brands/) | Marin French Cheese Co. Camembert | Buyer's guide (unscored) |
 | [Best Havarti to Buy](/blog/best-havarti-brands/) | Buholzer Brothers Havarti | Buyer's guide (unscored) |
-| [Best Provolone for a Charcuterie Board](/blog/best-provolone-brands/) | Boar's Head Picante Provolone | ★★★★½ 4.7 |
-| [Best Pepper Jack Cheese](/blog/best-pepper-jack/) | Cabot Pepper Jack | ★★★★½ 4.7 |
+| [Best Provolone for a Charcuterie Board](/blog/best-provolone-brands/) | Boar's Head Picante Provolone | 4.7/5 |
+| [Best Pepper Jack Cheese](/blog/best-pepper-jack/) | Cabot Pepper Jack | 4.7/5 |
 | [Best Boursin-Style Herb Cheese Spreads](/blog/best-herb-cheese-spreads/) | Boursin Garlic & Fine Herbs | Buyer's guide (unscored) |
 | [Best Store-Bought Cheese Balls](/blog/best-store-bought-cheese-balls/) | Kaukauna Port Wine Cheese Ball | Buyer's guide (unscored) |
 
 ## Cured meat and smoked fish
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Salami Brands for a Charcuterie Board](/blog/best-salami-brands/) | Olli Salumeria | ★★★★½ 4.5 |
+| [Best Salami Brands for a Charcuterie Board](/blog/best-salami-brands/) | Olli Salumeria | 4.5/5 |
 | [Best Deli Meat Brands for a Charcuterie Board](/blog/best-deli-meat-brands/) | Boar's Head | Buyer's guide (unscored) |
 | [Best 'Nduja to Buy for a Charcuterie Board](/blog/best-nduja/) | Tempesta 'Nduja | Buyer's guide (unscored) |
-| [Best Prosciutto Brands for a Charcuterie Board](/blog/best-prosciutto-brands/) | Appleton Farms Prosciutto | ★★★★☆ 4.2 |
+| [Best Prosciutto Brands for a Charcuterie Board](/blog/best-prosciutto-brands/) | Appleton Farms Prosciutto | 4.2/5 |
 | [Best Jamón Serrano and Spanish Ham](/blog/best-jamon-serrano/) | Redondo Iglesias 16-month Serrano | Buyer's guide (unscored) |
-| [Best Pepperoni for a Charcuterie Board](/blog/best-pepperoni-brands/) | Boar's Head Pepperoni | ★★★★½ 4.5 |
-| [Best Soppressata Brands for a Charcuterie Board](/blog/best-soppressata-brands/) | Brooklyn Cured Sweet Soppressata | ★★★★☆ 4.2 |
-| [Best Spanish Chorizo for a Charcuterie Board](/blog/best-spanish-chorizo/) | Palacios Chorizo (mild or hot) | ★★★★½ 4.3 |
-| [Best Summer Sausage for a Charcuterie Board](/blog/best-summer-sausage/) | Cloverdale Original Tangy Summer Sausage | ★★★★½ 4.4 |
-| [Best Mortadella Brands for a Charcuterie Board](/blog/best-mortadella-brands/) | Columbus Mortadella | ★★★★½ 4.5 |
-| [Best Smoked Salmon for a Charcuterie Board](/blog/best-smoked-salmon/) | Kirkland Signature Smoked Salmon | ★★★★½ 4.7 |
+| [Best Pepperoni for a Charcuterie Board](/blog/best-pepperoni-brands/) | Boar's Head Pepperoni | 4.5/5 |
+| [Best Soppressata Brands for a Charcuterie Board](/blog/best-soppressata-brands/) | Brooklyn Cured Sweet Soppressata | 4.2/5 |
+| [Best Spanish Chorizo for a Charcuterie Board](/blog/best-spanish-chorizo/) | Palacios Chorizo (mild or hot) | 4.3/5 |
+| [Best Summer Sausage for a Charcuterie Board](/blog/best-summer-sausage/) | Cloverdale Original Tangy Summer Sausage | 4.4/5 |
+| [Best Mortadella Brands for a Charcuterie Board](/blog/best-mortadella-brands/) | Columbus Mortadella | 4.5/5 |
+| [Best Smoked Salmon for a Charcuterie Board](/blog/best-smoked-salmon/) | Kirkland Signature Smoked Salmon | 4.7/5 |
 | [Best Caviar, From $20 Roe to a Splurge](/blog/best-caviar/) | Whole Foods Whitefish Caviar (budget) | Buyer's guide (unscored) |
-| [Best Meat Sticks for a Charcuterie Board](/blog/best-meat-sticks/) | Chomps Original Beef Stick | ★★★★★ 4.8 |
+| [Best Meat Sticks for a Charcuterie Board](/blog/best-meat-sticks/) | Chomps Original Beef Stick | 4.8/5 |
 | [Best Beef Jerky Brands](/blog/best-beef-jerky/) | Old Trapper Old Fashioned | Buyer's guide (unscored) |
 | [Best Capicola (Coppa) to Buy](/blog/best-capicola-coppa/) | Volpi Sliced Coppa | Buyer's guide (unscored) |
 | [Best Pâté to Buy](/blog/best-pate/) | Les Trois Petits Cochons | Buyer's guide (unscored) |
 
 ## Crackers, chips and pretzels
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Water Crackers for a Charcuterie Board](/blog/best-water-crackers/) | Carr's Table Water Crackers, Original | ★★★★½ 4.5 |
-| [Best Crackers for a Charcuterie Board by Brand](/blog/best-crackers-for-charcuterie/) | Carr's Table Water Crackers | ★★★★½ 4.5 |
-| [Best Gluten-Free Crackers for a Charcuterie Board](/blog/best-gluten-free-crackers/) | Crunchmaster Multi-Seed Crackers | ★★★★½ 4.7 |
+| [Best Water Crackers for a Charcuterie Board](/blog/best-water-crackers/) | Carr's Table Water Crackers, Original | 4.5/5 |
+| [Best Crackers for a Charcuterie Board by Brand](/blog/best-crackers-for-charcuterie/) | Carr's Table Water Crackers | 4.5/5 |
+| [Best Gluten-Free Crackers for a Charcuterie Board](/blog/best-gluten-free-crackers/) | Crunchmaster Multi-Seed Crackers | 4.7/5 |
 | [Best Cheese Crisps for a Keto or Gluten-Free Board](/blog/best-cheese-crisps/) | Whisps Parmesan Cheese Crisps | Buyer's guide (unscored) |
-| [Best Pretzels for a Charcuterie Board](/blog/best-pretzels-for-charcuterie/) | Snack Factory Pretzel Crisps Original | ★★★★½ 4.7 |
-| [Best Pita Chips for a Charcuterie Board](/blog/best-pita-chips/) | Stacy's Simply Naked Pita Chips | ★★★★½ 4.7 |
-| [Best Kettle Chips for a Game Day Board](/blog/best-kettle-chips/) | Cape Cod Original Sea Salt Kettle Cooked Chips | ★★★★½ 4.7 |
-| [Best Tortilla Chips for a Game Day Board](/blog/best-tortilla-chips/) | On The Border Café Style | ★★★★½ 4.7 |
+| [Best Pretzels for a Charcuterie Board](/blog/best-pretzels-for-charcuterie/) | Snack Factory Pretzel Crisps Original | 4.7/5 |
+| [Best Pita Chips for a Charcuterie Board](/blog/best-pita-chips/) | Stacy's Simply Naked Pita Chips | 4.7/5 |
+| [Best Kettle Chips for a Game Day Board](/blog/best-kettle-chips/) | Cape Cod Original Sea Salt Kettle Cooked Chips | 4.7/5 |
+| [Best Tortilla Chips for a Game Day Board](/blog/best-tortilla-chips/) | On The Border Café Style | 4.7/5 |
 
 ## Spreads, dips, sauces, honey, mustard and glaze
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Fig Jam for a Cheese Board](/blog/best-fig-jam/) | Dalmatia Original Fig Spread | ★★★★½ 4.4 |
-| [Best Honey for a Cheese Board](/blog/best-honey-for-cheese/) | Nature Nate's Raw & Unfiltered Honey | ★★★★½ 4.6 |
-| [Best Mustard for a Charcuterie Board](/blog/best-mustard-for-charcuterie/) | Maille Old Style Whole Grain Mustard | ★★★★★ 4.8 |
-| [Best Hot Honey for a Charcuterie Board](/blog/best-hot-honey/) | Mike's Hot Honey | ★★★★½ 4.5 |
-| [Best Pepper Jelly for a Charcuterie Board](/blog/best-pepper-jelly/) | Braswell's Jalapeño Pepper Jelly | ★★★★★ 4.8 |
-| [Best Balsamic Glaze for a Charcuterie Board](/blog/best-balsamic-glaze/) | Bertolli Balsamic Glaze | ★★★★½ 4.7 |
-| [Best Store-Bought Hummus for a Charcuterie Board](/blog/best-hummus/) | Cedar's Classic Original Hummus | ★★★★½ 4.6 |
-| [Best Store-Bought French Onion Dip for a Charcuterie Board](/blog/best-french-onion-dip/) | Heluva Good! French Onion Dip | ★★★★½ 4.7 |
-| [Best Store-Bought Pesto for a Charcuterie Board](/blog/best-pesto/) | Kirkland Signature Basil Pesto | ★★★★½ 4.7 |
-| [Best Canned Cranberry Sauce for a Thanksgiving Board](/blog/best-cranberry-sauce/) | Ocean Spray Jellied Cranberry Sauce | ★★★★☆ 4.2 |
-| [Best Strawberry Jam for a Cheese Board](/blog/best-strawberry-jam/) | Bonne Maman Strawberry Preserves | ★★★★★ 4.8 |
-| [Best Store-Bought Spinach Dip for a Charcuterie Board](/blog/best-spinach-dip/) | Marketside Spinach & Artichoke Dip | ★★★★½ 4.7 |
-| [Best Store-Bought Queso for a Game Day Board](/blog/best-queso/) | Marketside Queso Blanco | ★★★★½ 4.5 |
-| [Best Store-Bought Salsa for a Game Day Board](/blog/best-salsa/) | Siete Mild Salsa | ★★★★½ 4.4 |
-| [Best Store-Bought Guacamole for a Game Day Board](/blog/best-guacamole/) | Sabra Classic Guacamole | ★★★★½ 4.4 |
-| [Best Store-Bought Ranch Dip for a Veggie Board](/blog/best-ranch-dip/) | Marie's Creamy Ranch Dressing & Dip | ★★★★½ 4.4 |
+| [Best Fig Jam for a Cheese Board](/blog/best-fig-jam/) | Dalmatia Original Fig Spread | 4.4/5 |
+| [Best Honey for a Cheese Board](/blog/best-honey-for-cheese/) | Nature Nate's Raw & Unfiltered Honey | 4.6/5 |
+| [Best Mustard for a Charcuterie Board](/blog/best-mustard-for-charcuterie/) | Maille Old Style Whole Grain Mustard | 4.8/5 |
+| [Best Hot Honey for a Charcuterie Board](/blog/best-hot-honey/) | Mike's Hot Honey | 4.5/5 |
+| [Best Pepper Jelly for a Charcuterie Board](/blog/best-pepper-jelly/) | Braswell's Jalapeño Pepper Jelly | 4.8/5 |
+| [Best Balsamic Glaze for a Charcuterie Board](/blog/best-balsamic-glaze/) | Bertolli Balsamic Glaze | 4.7/5 |
+| [Best Store-Bought Hummus for a Charcuterie Board](/blog/best-hummus/) | Cedar's Classic Original Hummus | 4.6/5 |
+| [Best Store-Bought French Onion Dip for a Charcuterie Board](/blog/best-french-onion-dip/) | Heluva Good! French Onion Dip | 4.7/5 |
+| [Best Store-Bought Pesto for a Charcuterie Board](/blog/best-pesto/) | Kirkland Signature Basil Pesto | 4.7/5 |
+| [Best Canned Cranberry Sauce for a Thanksgiving Board](/blog/best-cranberry-sauce/) | Ocean Spray Jellied Cranberry Sauce | 4.2/5 |
+| [Best Strawberry Jam for a Cheese Board](/blog/best-strawberry-jam/) | Bonne Maman Strawberry Preserves | 4.8/5 |
+| [Best Store-Bought Spinach Dip for a Charcuterie Board](/blog/best-spinach-dip/) | Marketside Spinach & Artichoke Dip | 4.7/5 |
+| [Best Store-Bought Queso for a Game Day Board](/blog/best-queso/) | Marketside Queso Blanco | 4.5/5 |
+| [Best Store-Bought Salsa for a Game Day Board](/blog/best-salsa/) | Siete Mild Salsa | 4.4/5 |
+| [Best Store-Bought Guacamole for a Game Day Board](/blog/best-guacamole/) | Sabra Classic Guacamole | 4.4/5 |
+| [Best Store-Bought Ranch Dip for a Veggie Board](/blog/best-ranch-dip/) | Marie's Creamy Ranch Dressing & Dip | 4.4/5 |
 | [Best Quince Paste (Membrillo) to Buy](/blog/best-quince-paste/) | Mitica Membrillo | Buyer's guide (unscored) |
 | [Best Store-Bought Tzatziki for a Mezze Board](/blog/best-tzatziki/) | Boar's Head Tzatziki | Buyer's guide (unscored) |
 | [Best Store-Bought Whipped Feta Dip](/blog/best-whipped-feta/) | Trader Joe's Whipped Feta Spread | Buyer's guide (unscored) |
@@ -114,22 +114,22 @@ Each guide gives you a top pick, a budget pick and a splurge.
 
 ## Olives, pickles and nuts
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Olives for a Charcuterie Board](/blog/best-olives-for-charcuterie/) | Mezzetta Castelvetrano Olives | ★★★★½ 4.7 |
-| [Best Marcona Almonds for a Charcuterie Board](/blog/best-marcona-almonds/) | Trader Joe's Roasted & Salted Rosemary Marcona Almonds | ★★★★½ 4.5 |
-| [Best Pickles for a Charcuterie Board (Plus Cornichons)](/blog/best-pickles-for-charcuterie/) | Mt. Olive Kosher Baby Dills | ★★★★½ 4.5 |
-| [Best Nuts for a Charcuterie Board (Mixed Nuts)](/blog/best-mixed-nuts/) | Kirkland Signature Extra Fancy Salted Mixed Nuts | ★★★★½ 4.5 |
+| [Best Olives for a Charcuterie Board](/blog/best-olives-for-charcuterie/) | Mezzetta Castelvetrano Olives | 4.7/5 |
+| [Best Marcona Almonds for a Charcuterie Board](/blog/best-marcona-almonds/) | Trader Joe's Roasted & Salted Rosemary Marcona Almonds | 4.5/5 |
+| [Best Pickles for a Charcuterie Board (Plus Cornichons)](/blog/best-pickles-for-charcuterie/) | Mt. Olive Kosher Baby Dills | 4.5/5 |
+| [Best Nuts for a Charcuterie Board (Mixed Nuts)](/blog/best-mixed-nuts/) | Kirkland Signature Extra Fancy Salted Mixed Nuts | 4.5/5 |
 | [Best Candied Pecans and Spiced Nuts](/blog/best-candied-pecans/) | Kirkland Signature Praline Pecans | Buyer's guide (unscored) |
 | [Best Cornichons for a Charcuterie Board](/blog/best-cornichons/) | Maille Original Cornichons | Buyer's guide (unscored) |
 | [Best Jarred Marinated Artichoke Hearts](/blog/best-marinated-artichoke-hearts/) | Napoleon Marinated Grilled Artichokes | Buyer's guide (Sporked test) |
 
 ## Sweets
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Dark Chocolate for a Charcuterie Board](/blog/best-dark-chocolate/) | Tony's Chocolonely Dark Chocolate 70% | ★★★★½ 4.4 |
-| [Best Store-Bought Shortbread for a Dessert Board](/blog/best-shortbread/) | Walkers Pure Butter Shortbread | ★★★★½ 4.5 |
+| [Best Dark Chocolate for a Charcuterie Board](/blog/best-dark-chocolate/) | Tony's Chocolonely Dark Chocolate 70% | 4.4/5 |
+| [Best Store-Bought Shortbread for a Dessert Board](/blog/best-shortbread/) | Walkers Pure Butter Shortbread | 4.5/5 |
 | [Best Store-Bought Christmas Cookies](/blog/best-store-bought-christmas-cookies/) | Pepperidge Farm holiday Milanos | Buyer's guide (unscored) |
 | [Best Hot Cocoa Mix for a Hot Cocoa Board](/blog/best-hot-cocoa-mix/) | Land O Lakes Chocolate Supreme | Buyer's guide (unscored) |
 | [Best Panettone for a Christmas Board](/blog/best-panettone/) | Olivieri 1882 Classic Panettone | Buyer's guide (unscored) |
@@ -138,19 +138,19 @@ Each guide gives you a top pick, a budget pick and a splurge.
 
 ## Drinks
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Prosecco for a Charcuterie Board](/blog/best-prosecco/) | Mionetto Prosecco Brut | ★★★★½ 4.6 |
+| [Best Prosecco for a Charcuterie Board](/blog/best-prosecco/) | Mionetto Prosecco Brut | 4.6/5 |
 | [Best Cheap Champagne for New Year's Eve](/blog/best-champagne-under-30/) | Kirkland Signature Champagne Brut | Buyer's guide (unscored) |
 | [Best Port Wine for a Cheese Board](/blog/best-port-wine/) | Taylor Fladgate 10 Year Tawny | Buyer's guide (unscored) |
 | [Best Wines Under $20 for a Charcuterie Board](/blog/best-wine-for-charcuterie-board/) | Segura Viudas Brut Reserva Cava | Buyer's guide (unscored) |
-| [Best Sparkling Cider (Non-Alcoholic)](/blog/best-sparkling-cider/) | Martinelli's Sparkling Cider | ★★★★★ 4.8 |
+| [Best Sparkling Cider (Non-Alcoholic)](/blog/best-sparkling-cider/) | Martinelli's Sparkling Cider | 4.8/5 |
 
 ## Gifts
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | ★★★★½ 4.6 |
+| [Best Charcuterie and Meat and Cheese Gift Boxes](/blog/best-charcuterie-gift-boxes/) | Harry & David Ultimate Meat and Cheese Gift Box | 4.6/5 |
 | [Best Charcuterie Gift Baskets on Amazon, Compared](/blog/best-charcuterie-gift-baskets-amazon/) | Hickory Farms Signature Beef | Buyer's guide (unscored) |
 | [Best Cheese-of-the-Month Clubs](/blog/best-cheese-of-the-month-clubs/) | Murray's Cheese Explorer's Club | Buyer's guide (unscored) |
 | [Best Cheese Knife Sets](/blog/best-cheese-knife-sets/) | Boska Copenhagen Cheese Knife Set | Buyer's guide (unscored) |
@@ -163,21 +163,21 @@ Each guide gives you a top pick, a budget pick and a splurge.
 
 Shopping at one store? These rank the best charcuterie picks at each, and the ranked ones have a free printable shopping list with amounts for 8, 12 or 20 guests.
 
-| Guide | Our top pick | Rating |
+| Guide | Our top pick | Our score |
 |---|---|---|
-| [Best Trader Joe's Cheeses for a Charcuterie Board](/blog/best-trader-joes-cheeses/) | Trader Joe's Unexpected Cheddar | ★★★★½ 4.7 |
-| [Best Trader Joe's Charcuterie Items (Meats, Crackers, Extras)](/blog/best-trader-joes-charcuterie-items/) | Trader Joe's Salame di Parma Mild Salami (best meat) | ★★★★½ 4.5 |
-| [Best Costco Charcuterie Board Items](/blog/best-costco-charcuterie-items/) | Kirkland Signature Manchego DOP (best cheese) | ★★★★½ 4.5 |
-| [Best Aldi Charcuterie Board Items](/blog/best-aldi-charcuterie-items/) | Emporium Selection Not Your Average Cheddar | ★★★★½ 4.7 |
-| [Best Whole Foods Cheeses for a Charcuterie Board](/blog/best-whole-foods-cheeses/) | Isigny Sainte-Mère Double Cream Brie | ★★★★½ 4.3 |
-| [Best Walmart Charcuterie Board Items](/blog/best-walmart-charcuterie-items/) | Marketside Parmigiano Reggiano, 24 months | ★★★★★ 4.8 |
-| [Best Sam's Club Charcuterie Board Items](/blog/best-sams-club-charcuterie-items/) | Member's Mark Manchego Wedge | ★★★★★ 4.8 |
-| [Best Target Charcuterie Board Items](/blog/best-target-charcuterie-items/) | Good & Gather Classic Onion Dip | ★★★★½ 4.5 |
-| [Best Kroger Charcuterie Board Items](/blog/best-kroger-charcuterie-items/) | Murray's Cave Aged Stockinghall Cheddar | ★★★★☆ 4.2 |
-| [Best Publix Charcuterie Board Items](/blog/best-publix-charcuterie-items/) | Boar's Head Parmigiano Reggiano | ★★★★½ 4.5 |
-| [Best H-E-B Charcuterie Board Items](/blog/best-heb-charcuterie-items/) | Kerrygold Aged Irish Cheddar | ★★★★½ 4.6 |
-| [Best Wegmans Charcuterie Board Items](/blog/best-wegmans-charcuterie-items/) | Wegmans 18-Month Aged Medium Gouda | ★★★★½ 4.5 |
-| [Best Safeway and Albertsons Charcuterie Board Items](/blog/best-safeway-albertsons-charcuterie-items/) | Laura Chenel Original Fresh Goat Cheese | ★★★★½ 4.7 |
+| [Best Trader Joe's Cheeses for a Charcuterie Board](/blog/best-trader-joes-cheeses/) | Trader Joe's Unexpected Cheddar | 4.7/5 |
+| [Best Trader Joe's Charcuterie Items (Meats, Crackers, Extras)](/blog/best-trader-joes-charcuterie-items/) | Trader Joe's Salame di Parma Mild Salami (best meat) | 4.5/5 |
+| [Best Costco Charcuterie Board Items](/blog/best-costco-charcuterie-items/) | Kirkland Signature Manchego DOP (best cheese) | 4.5/5 |
+| [Best Aldi Charcuterie Board Items](/blog/best-aldi-charcuterie-items/) | Emporium Selection Not Your Average Cheddar | 4.7/5 |
+| [Best Whole Foods Cheeses for a Charcuterie Board](/blog/best-whole-foods-cheeses/) | Isigny Sainte-Mère Double Cream Brie | 4.3/5 |
+| [Best Walmart Charcuterie Board Items](/blog/best-walmart-charcuterie-items/) | Marketside Parmigiano Reggiano, 24 months | 4.8/5 |
+| [Best Sam's Club Charcuterie Board Items](/blog/best-sams-club-charcuterie-items/) | Member's Mark Manchego Wedge | 4.8/5 |
+| [Best Target Charcuterie Board Items](/blog/best-target-charcuterie-items/) | Good & Gather Classic Onion Dip | 4.5/5 |
+| [Best Kroger Charcuterie Board Items](/blog/best-kroger-charcuterie-items/) | Murray's Cave Aged Stockinghall Cheddar | 4.2/5 |
+| [Best Publix Charcuterie Board Items](/blog/best-publix-charcuterie-items/) | Boar's Head Parmigiano Reggiano | 4.5/5 |
+| [Best H-E-B Charcuterie Board Items](/blog/best-heb-charcuterie-items/) | Kerrygold Aged Irish Cheddar | 4.6/5 |
+| [Best Wegmans Charcuterie Board Items](/blog/best-wegmans-charcuterie-items/) | Wegmans 18-Month Aged Medium Gouda | 4.5/5 |
+| [Best Safeway and Albertsons Charcuterie Board Items](/blog/best-safeway-albertsons-charcuterie-items/) | Laura Chenel Original Fresh Goat Cheese | 4.7/5 |
 | [What to Buy at Sprouts for a Charcuterie Board](/blog/best-sprouts-charcuterie-items/) | Sprouts Sliced Pepper Jack and Provolone | Buyer's guide (unscored) |
 | [What to Buy at Lidl for a Charcuterie Board](/blog/best-lidl-charcuterie-items/) | Preferred Selection Parmigiano Reggiano, 24 months | Buyer's guide (unscored) |
 | [Trader Joe's Holiday Charcuterie Items 2026](/blog/trader-joes-holiday-charcuterie-items/) | Creamy Toscano Dusted with Cinnamon | Seasonal guide |
@@ -188,55 +188,55 @@ Shopping at one store? These rank the best charcuterie picks at each, and the ra
 
 | Ingredient | Best value | Rating |
 |---|---|---|
-| Water crackers | 365 by Whole Foods Market Organic Water Crackers | ★★★½☆ 3.5 |
-| Crackers | Milton's Craft Bakers Original Multi-Grain | ★★★★☆ 4.2 |
-| Gluten-free crackers | Blue Diamond Nut-Thins | ★★★★☆ 4.2 |
-| Salami | Volpi Genoa Salame | ★★★★½ 4.3 |
-| Prosciutto | Trader Joe's Sliced Prosciutto | ★★★★☆ 3.8 |
-| Brie | Trader Joe's Brie | ★★★★☆ 3.8 |
-| Cheddar | Trader Joe's Unexpected Cheddar | ★★★★½ 4.7 |
-| Fig jam | Bonne Maman Fig Preserves | ★★★★☆ 3.9 |
-| Olives | Trader Joe's Organic Conversation Olive Trio | ★★★★☆ 3.8 |
-| Honey | 365 by Whole Foods Market Organic Raw Wildflower Honey | ★★★★☆ 4.2 |
-| Manchego | Trader Joe's Manchego | ★★★★☆ 3.9 |
-| Parmesan | Kirkland Signature Parmigiano-Reggiano | ★★★★☆ 4.2 |
-| Goat cheese | Trader Joe's Chèvre | ★★★★☆ 3.9 |
-| Gouda | Trader Joe's Goat Milk Gouda | ★★★★☆ 4.2 |
-| Blue cheese | Trader Joe's Cave Aged Blue | ★★★★☆ 4.2 |
-| Fresh mozzarella | Trader Joe's Fresh Mozzarella | ★★★★☆ 3.9 |
-| Burrata | Specially Selected Traditional Burrata (Aldi) | ★★★★½ 4.5 |
-| Pepperoni | Trader Joe's Ciao Pizza Prima Pepperoni | ★★★★☆ 4.0 |
-| Soppressata | Volpi Soppressata | ★★★★☆ 3.8 |
-| Spanish chorizo | Columbus Spanish Style Chorizo Salame | ★★★½☆ 3.5 |
-| Summer sausage | Trader Joe's Natural Turkey Summer Sausage | ★★★★☆ 4.2 |
-| Mustard | Grey Poupon Harvest Coarse Ground | ★★★★½ 4.5 |
-| Marcona almonds | Kirkland Signature Marcona Almonds | ★★★½☆ 3.5 |
-| Hot honey | Nature Nate's Hot Honey | ★★★★½ 4.3 |
-| Pepper jelly | Tabasco Spicy Pepper Jelly | ★★★★☆ 4.0 |
-| Gruyère | Emmi Le Gruyère AOP | ★★★★½ 4.3 |
-| Feta | Athenos Feta Chunk | ★★★★½ 4.3 |
-| Vegan cheese | Violife Mature Cheddar | ★★★★☆ 4.2 |
-| Mortadella | Columbus Mortadella | ★★★★½ 4.5 |
-| Balsamic glaze | Bertolli Balsamic Glaze | ★★★★½ 4.7 |
-| Smoked salmon | Latitude 45 Atlantic Salmon (Walmart) | ★★★★½ 4.5 |
-| Pretzels | Snyder's of Hanover Snaps | ★★★★½ 4.6 |
-| Dark chocolate | Choceur Dark Chocolate (Aldi) | ★★★★☆ 4.1 |
-| Pita chips | Specially Selected Sea Salt Pita Chips (Aldi) | ★★★★½ 4.3 |
-| Pimento cheese | Price's Pimiento Cheese Spread | ★★★★☆ 4.2 |
-| Cream cheese | Great Value Cream Cheese | ★★★★☆ 4.2 |
-| Pesto | Good & Gather Basil Pesto | ★★★★☆ 4.2 |
-| Strawberry jam | Smucker's Natural Strawberry Fruit Spread | ★★★★½ 4.3 |
-| Butter | Land O Lakes Salted Butter | ★★★★☆ 4.2 |
-| Shortbread | Lorna Doone Shortbread Cookies | ★★★★☆ 4.0 |
-| Queso | Great Value Salsa Con Queso | ★★★★☆ 4.2 |
-| Kettle chips | Lay's Kettle Cooked Original | ★★★★☆ 4.2 |
-| Tortilla chips | Tostitos Original Restaurant Style | ★★★★☆ 3.9 |
-| Salsa | On The Border Medium Chunky Salsa | ★★★★½ 4.3 |
-| Guacamole | Member's Mark Homestyle Guacamole (Sam's Club) | ★★★★☆ 4.0 |
-| Ranch dip | Dean's Ranch Dip | ★★★★½ 4.3 |
-| Prosecco | Ruffino Prosecco | ★★★★½ 4.3 |
-| Gift box | The Swiss Colony Sausage and Cheese Bars | ★★★½☆ 3.6 |
-| Provolone | Kroger Smoke Flavored Provolone | ★★★★☆ 4.0 |
+| Water crackers | 365 by Whole Foods Market Organic Water Crackers | 3.5/5 |
+| Crackers | Milton's Craft Bakers Original Multi-Grain | 4.2/5 |
+| Gluten-free crackers | Blue Diamond Nut-Thins | 4.2/5 |
+| Salami | Volpi Genoa Salame | 4.3/5 |
+| Prosciutto | Trader Joe's Sliced Prosciutto | 3.8/5 |
+| Brie | Trader Joe's Brie | 3.8/5 |
+| Cheddar | Trader Joe's Unexpected Cheddar | 4.7/5 |
+| Fig jam | Bonne Maman Fig Preserves | 3.9/5 |
+| Olives | Trader Joe's Organic Conversation Olive Trio | 3.8/5 |
+| Honey | 365 by Whole Foods Market Organic Raw Wildflower Honey | 4.2/5 |
+| Manchego | Trader Joe's Manchego | 3.9/5 |
+| Parmesan | Kirkland Signature Parmigiano-Reggiano | 4.2/5 |
+| Goat cheese | Trader Joe's Chèvre | 3.9/5 |
+| Gouda | Trader Joe's Goat Milk Gouda | 4.2/5 |
+| Blue cheese | Trader Joe's Cave Aged Blue | 4.2/5 |
+| Fresh mozzarella | Trader Joe's Fresh Mozzarella | 3.9/5 |
+| Burrata | Specially Selected Traditional Burrata (Aldi) | 4.5/5 |
+| Pepperoni | Trader Joe's Ciao Pizza Prima Pepperoni | 4.0/5 |
+| Soppressata | Volpi Soppressata | 3.8/5 |
+| Spanish chorizo | Columbus Spanish Style Chorizo Salame | 3.5/5 |
+| Summer sausage | Trader Joe's Natural Turkey Summer Sausage | 4.2/5 |
+| Mustard | Grey Poupon Harvest Coarse Ground | 4.5/5 |
+| Marcona almonds | Kirkland Signature Marcona Almonds | 3.5/5 |
+| Hot honey | Nature Nate's Hot Honey | 4.3/5 |
+| Pepper jelly | Tabasco Spicy Pepper Jelly | 4.0/5 |
+| Gruyère | Emmi Le Gruyère AOP | 4.3/5 |
+| Feta | Athenos Feta Chunk | 4.3/5 |
+| Vegan cheese | Violife Mature Cheddar | 4.2/5 |
+| Mortadella | Columbus Mortadella | 4.5/5 |
+| Balsamic glaze | Bertolli Balsamic Glaze | 4.7/5 |
+| Smoked salmon | Latitude 45 Atlantic Salmon (Walmart) | 4.5/5 |
+| Pretzels | Snyder's of Hanover Snaps | 4.6/5 |
+| Dark chocolate | Choceur Dark Chocolate (Aldi) | 4.1/5 |
+| Pita chips | Specially Selected Sea Salt Pita Chips (Aldi) | 4.3/5 |
+| Pimento cheese | Price's Pimiento Cheese Spread | 4.2/5 |
+| Cream cheese | Great Value Cream Cheese | 4.2/5 |
+| Pesto | Good & Gather Basil Pesto | 4.2/5 |
+| Strawberry jam | Smucker's Natural Strawberry Fruit Spread | 4.3/5 |
+| Butter | Land O Lakes Salted Butter | 4.2/5 |
+| Shortbread | Lorna Doone Shortbread Cookies | 4.0/5 |
+| Queso | Great Value Salsa Con Queso | 4.2/5 |
+| Kettle chips | Lay's Kettle Cooked Original | 4.2/5 |
+| Tortilla chips | Tostitos Original Restaurant Style | 3.9/5 |
+| Salsa | On The Border Medium Chunky Salsa | 4.3/5 |
+| Guacamole | Member's Mark Homestyle Guacamole (Sam's Club) | 4.0/5 |
+| Ranch dip | Dean's Ranch Dip | 4.3/5 |
+| Prosecco | Ruffino Prosecco | 4.3/5 |
+| Gift box | The Swiss Colony Sausage and Cheese Bars | 3.6/5 |
+| Provolone | Kroger Smoke Flavored Provolone | 4.0/5 |
 
 ## How we rank
 

@@ -55,7 +55,6 @@ Pickle dip went viral as a homemade recipe, and now nearly every chain sells a t
 <dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Base</dt><dd>Cultured milk and cream</dd></div><div><dt>Where</dt><dd>Stop &amp; Shop, Giant and others</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The familiar Heluva Good texture with a dill pickle twist, widely stocked in the Northeast.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pickle flavor comes from flavorings more than pieces.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Heluva+Good+Grillo&#x27;s+dill+pickle+dip" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Stop &amp; Shop lists the 12 oz tub and ingredients (<a href="https://stopandshop.com/groceries/product/heluva-good-grillos-dill-pickle-dip-12-oz-tub/400009" target="_blank" rel="noopener">Stop &amp; Shop</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -71,7 +70,6 @@ Pickle dip went viral as a homemade recipe, and now nearly every chain sells a t
 <dl class="sk-facts"><div><dt>Type</dt><dd>Dressing and dip</dd></div><div><dt>Where</dt><dd>Walmart and most grocers</dd></div><div><dt>Sporked</dt><dd>Recommended for pickle lovers</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Briny, not just dill-flavored, and thin enough to drizzle over a veggie tray.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It&#x27;s a dressing, so it&#x27;s thinner than a tub dip.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Hidden+Valley+pickle+ranch" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked recommends it for pickle lovers (<a href="https://sporked.com/article/what-to-buy-at-the-grocery-store-if-you-love-pickles/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 </div>

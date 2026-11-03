@@ -15,7 +15,7 @@ tags: "["best store bought guacamole", "guacamole brands", "best guacamole", "sa
 > **Quick Answer:** Our top pick for store-bought guacamole on a charcuterie board is Sabra Classic Guacamole (4.4 out of 5). Chunky: Good Foods Chunky Guacamole. Value: Member's Mark Homestyle Guacamole.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Sabra Classic Guacamole</a><p class="sk-top-line">Tastes the most like fresh guacamole.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best chunky</p><a class="sk-top-name" href="#pick-2">Good Foods Chunky Guacamole</a><p class="sk-top-line">Short ingredient list and real chunks of avocado.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Member&#x27;s Mark Homestyle Guacamole</a><p class="sk-top-line">Bulk price for a crowd.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Sabra Classic Guacamole</a><p class="sk-top-line">Tastes the most like fresh guacamole.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best chunky</p><a class="sk-top-name" href="#pick-2">Good Foods Chunky Guacamole</a><p class="sk-top-line">Short ingredient list and real chunks of avocado.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Member&#x27;s Mark Homestyle Guacamole</a><p class="sk-top-line">Bulk price for a crowd.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Sabra Classic Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, near the hummus.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes the most like fresh guacamole.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs a bit more than most.</p>
@@ -36,7 +36,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best chunky</p><h3>Good Foods Chunky Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunky, clean ingredients</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Costco, Target, Kroger and other grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Short ingredient list and real chunks of avocado.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Can taste a little salty, and Costco&#x27;s tubs have no lids.</p>
@@ -45,7 +45,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>365 by Whole Foods Market Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A balanced, smooth-and-chunky guac</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best mix of texture in the Tasting Table test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods.</p>
@@ -54,7 +54,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best value</p><h3>Member&#x27;s Mark Homestyle Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big parties</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Bulk price for a crowd.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The flimsy bag packaging is hard to serve from. Squeeze it into a bowl.</p>
@@ -63,7 +63,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Wholly Guacamole Classic</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere, including single-serve cups.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain flavor. Add lime and salt.</p>
@@ -72,7 +72,7 @@ Store-bought guacamole ranges from close to homemade to avocado-flavored paste. 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Cabo Fresh Fiesta Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Bold flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores (varies).</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most flavor in the group.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked.</p>

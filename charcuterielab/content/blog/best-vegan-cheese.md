@@ -15,7 +15,7 @@ tags: "["best vegan cheese", "vegan cheese brands", "dairy-free cheese", "vegan 
 > **Quick Answer:** Our top pick for vegan cheese on a charcuterie board is Boursin Dairy-Free Garlic & Herbs (4.4 out of 5). Value: Violife Mature Cheddar. Splurge: Rebel Cheese Brie.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boursin Dairy-Free Garlic &amp; Herbs</a><p class="sk-top-line">Tastes like the original, and spreading hides any texture difference.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Violife Mature Cheddar</a><p class="sk-top-line">Cheap, everywhere, and cuts into neat cubes.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Rebel Cheese Brie</a><p class="sk-top-line">The closest thing to a real soft-ripened cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$$</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boursin Dairy-Free Garlic &amp; Herbs</a><p class="sk-top-line">Tastes like the original, and spreading hides any texture difference.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Violife Mature Cheddar</a><p class="sk-top-line">Cheap, everywhere, and cuts into neat cubes.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Rebel Cheese Brie</a><p class="sk-top-line">The closest thing to a real soft-ripened cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boursin Dairy-Free Garlic &amp; Herbs</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The spreadable cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, Target and Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like the original, and spreading hides any texture difference.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Made with coconut oil, so don&#x27;t leave it out for long.</p>
@@ -36,7 +36,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Follow Your Heart Smoked Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A smoky sliced cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods, Kroger and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A top score, and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sold as slices, so fold or roll them.</p>
@@ -45,7 +45,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Violife Mature Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheddar-style block</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, Target and Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, everywhere, and cuts into neat cubes.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild. Coconut oil base.</p>
@@ -54,7 +54,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Treeline Cashew Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cultured nut cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and natural grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cultured cashews, so it tastes like a real fresh cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Soft and spreadable rather than firm.</p>
@@ -63,7 +63,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Babybel Plant-Based</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Kids&#x27; boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Individually wrapped, easy to find, and kids know it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A snack round, so it looks casual on a board.</p>
@@ -72,7 +72,7 @@ Most vegan cheese is made to melt, not to sit on a board. These hold up cold, on
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best splurge</p><h3>Rebel Cheese Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A dairy-free showpiece</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Rebel Cheese online and a few specialty shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The closest thing to a real soft-ripened cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive and mostly sold online.</p>

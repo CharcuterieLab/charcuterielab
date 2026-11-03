@@ -14,7 +14,7 @@ slug: "best-salami-brands"
 > **Quick Answer:** Our top pick for salami on a charcuterie board is Olli Salumeria (4.5 out of 5). Best value: Volpi Genoa Salame. Splurge: Fra' Mani.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Olli Salumeria</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An easy mixed platter</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Target, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Four styles in one pack. Well-reviewed.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than basic brands.</p>
@@ -35,7 +35,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Volpi Genoa Salame</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The classic Genoa</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Whole Foods, Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Classic flavor. Reasonable price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not as widely stocked as mass brands.</p>
@@ -44,7 +44,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Columbus Salame</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Widely available quality</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Several styles.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some varieties are spicy.</p>
@@ -53,7 +53,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Fra&#x27; Mani</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Heavily awarded</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Heavily awarded. Traditional methods.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
@@ -61,16 +61,16 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Creminelli Fine Meats</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Premium flavors</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Distinctive flavors. Good ingredients.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Smaller packs.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07GLW5H6D" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00Z6K4F14" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle. (Source: <a href="https://en.wikipedia.org/wiki/Creminelli_Fine_Meats" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Boar&#x27;s Head Hard Salami</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sliced fresh. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard salami is less nuanced than Genoa.</p>
@@ -78,7 +78,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Applegate Naturals Uncured Genoa</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Uncured. Easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews.</p>

@@ -15,7 +15,7 @@ tags: "["best cream cheese", "best cream cheese brand", "cream cheese brands", "
 > **Quick Answer:** Our top pick for cream cheese on a charcuterie board is Philadelphia Original Cream Cheese (4.7 out of 5). Value: Great Value Cream Cheese.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Philadelphia Original Cream Cheese</a><p class="sk-top-line">Tangy, holds its shape as a block, and sold everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Great Value Cream Cheese</a><p class="sk-top-line">Dense enough to hold pepper jelly, at a low price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Philadelphia Original Cream Cheese</a><p class="sk-top-line">Tangy, holds its shape as a block, and sold everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Great Value Cream Cheese</a><p class="sk-top-line">Dense enough to hold pepper jelly, at a low price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Philadelphia Original Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tangy, holds its shape as a block, and sold everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Saltier and sharper than the mild brands.</p>
@@ -36,7 +36,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Great Value Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Dense enough to hold pepper jelly, at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain flavor.</p>
@@ -45,7 +45,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Kroger Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A tangy store brand</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger, Ralphs, Fred Meyer and other Kroger stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Consistent middle-of-the-pack scores at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Kroger-family stores.</p>
@@ -54,7 +54,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Tillamook Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild and spreadable</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> More cream and no gum thickener.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Softer, so it slumps under pepper jelly.</p>
@@ -63,7 +63,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Trader Joe&#x27;s Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smooth and mild</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Smooth and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not much tang.</p>
@@ -72,7 +72,7 @@ Cream cheese anchors the pepper jelly block and the bagel board. One brand came 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Organic Valley Cream Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Organic boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, with a complex tang in one test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Split reviews.</p>

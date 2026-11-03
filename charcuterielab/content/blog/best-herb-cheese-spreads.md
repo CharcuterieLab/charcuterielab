@@ -71,7 +71,6 @@ No taste test exists, so we picked on texture, ingredients, price per ounce and 
 <dl class="sk-facts"><div><dt>Size</dt><dd>6 oz</dd></div><div><dt>Base</dt><dd>Coconut oil</dd></div><div><dt>Free of</dt><dd>Dairy, gluten, nuts, soy</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Readers rated it highly, and one said it tastes like the original.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some found it stiff to spread and the garlic harsh, and it costs more.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boursin+Dairy+Free+Garlic+Herbs" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>goDairyFree lists the ingredients, $6.99 for 6 oz, and a 4.8 average from 10 reader reviews (<a href="https://www.godairyfree.org/?p=270115" target="_blank" rel="noopener">goDairyFree</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">

@@ -15,7 +15,7 @@ tags: "["best canned cranberry sauce", "best cranberry sauce brand", "cranberry 
 > **Quick Answer:** Our top pick for cranberry sauce on a charcuterie board is Ocean Spray Jellied Cranberry Sauce (4.2 out of 5). Tasting: Tiptree Wild Cranberry Sauce. Organic: 365 Organic Jellied Cranberry Sauce.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Ocean Spray Jellied Cranberry Sauce</a><p class="sk-top-line">Slices cleanly into rounds or cookie-cutter shapes.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FBT5M39B" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best tasting</p><a class="sk-top-name" href="#pick-2">Tiptree Wild Cranberry Sauce</a><p class="sk-top-line">Jammy, so it spoons neatly onto brie and crackers.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.1 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01KAQUID2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-3">365 Organic Jellied Cranberry Sauce</a><p class="sk-top-line">Organic, with a simple ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DF32CPNP" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Ocean Spray Jellied Cranberry Sauce</a><p class="sk-top-line">Slices cleanly into rounds or cookie-cutter shapes.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FBT5M39B" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best tasting</p><a class="sk-top-name" href="#pick-2">Tiptree Wild Cranberry Sauce</a><p class="sk-top-line">Jammy, so it spoons neatly onto brie and crackers.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01KAQUID2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-3">365 Organic Jellied Cranberry Sauce</a><p class="sk-top-line">Organic, with a simple ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DF32CPNP" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Ocean Spray Jellied Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Shapes and slices</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Slices cleanly into rounds or cookie-cutter shapes.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very sweet.</p>
@@ -36,7 +36,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best tasting</p><h3>Tiptree Wild Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Baked brie and cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty grocers and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Jammy, so it spoons neatly onto brie and crackers.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A small jar, pricier, and harder to find.</p>
@@ -45,7 +45,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best organic</p><h3>365 Organic Jellied Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Organic boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, with a simple ingredient list.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet.</p>
@@ -54,7 +54,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Woodstock Organic Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tart-sweet balance</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and natural grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and simple.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild.</p>
@@ -63,7 +63,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Sweet Harvest Whole Berry Cranberry Sauce (Aldi)</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Whole berry on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick and jammy for the price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Darker color, and only at Aldi.</p>
@@ -72,7 +72,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Ocean Spray Whole Berry Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A classic sweet sauce</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere, with whole berries for texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very sweet.</p>
@@ -81,7 +81,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Farmer&#x27;s Market Organic Cranberry Sauce</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Two-ingredient sauce</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural grocers and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The shortest ingredient list here.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>

@@ -15,7 +15,7 @@ tags: "["best store bought salsa", "best jarred salsa", "salsa brands", "salsa f
 > **Quick Answer:** Our top pick for salsa on a charcuterie board is Siete Mild Salsa (4.4 out of 5). Value: On The Border Medium Chunky Salsa. Refrigerated: Green Mountain Gringo Medium Salsa.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Siete Mild Salsa</a><p class="sk-top-line">Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">On The Border Medium Chunky Salsa</a><p class="sk-top-line">Thick enough to stay on the chip, and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00G7W3LOM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-3">Green Mountain Gringo Medium Salsa</a><p class="sk-top-line">Short, clean ingredient list and big chunks.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07G9M2XHC" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Siete Mild Salsa</a><p class="sk-top-line">Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">On The Border Medium Chunky Salsa</a><p class="sk-top-line">Thick enough to stay on the chip, and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00G7W3LOM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-3">Green Mountain Gringo Medium Salsa</a><p class="sk-top-line">Short, clean ingredient list and big chunks.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07G9M2XHC" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Siete Mild Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh flavor with little heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target, Walmart, Whole Foods and Kroger.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin and salty, and pricier than most jars.</p>
@@ -35,7 +35,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>On The Border Medium Chunky Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunky salsa on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick enough to stay on the chip, and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not as fresh-tasting as refrigerated salsa.</p>
@@ -44,7 +44,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best refrigerated</p><h3>Green Mountain Gringo Medium Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunky, homemade-style</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Refrigerated section at most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Short, clean ingredient list and big chunks.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sold refrigerated, and the flavor can lean acidic.</p>
@@ -53,7 +53,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Casa Sanchez Hot Salsa Roja</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Refrigerated section in western grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Restaurant-style salsa with real heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly sold on the West Coast.</p>
@@ -62,7 +62,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Pace Restaurant Style Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A familiar crowd-pleaser</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, smooth and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Tastes more like a jar than the leaders.</p>
@@ -71,7 +71,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Herdez Salsa Casera</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A taqueria-style salsa</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, often in the Mexican foods aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Loose, fresh-tasting and not too hot.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so serve it with sturdy chips.</p>
@@ -80,7 +80,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Mateo&#x27;s Gourmet Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild or hot with lots of flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Kroger and Texas grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tomato-forward, with a hot version that&#x27;s actually hot.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not stocked everywhere.</p>
@@ -89,7 +89,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Desert Pepper Cantina Salsa</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Roasted, mild flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Roasted flavor without much heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only one test rated it.</p>

@@ -15,7 +15,7 @@ tags: "["best ranch dip", "best store bought ranch", "ranch dip brands", "veggie
 > **Quick Answer:** Our top pick for ranch dip on a charcuterie board is Marie's Creamy Ranch Dressing & Dip (4.4 out of 5). Dip tub: Dean's Ranch Dip. Lighter: Bolthouse Farms Classic Ranch Yogurt Dressing & Dip.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marie&#x27;s Creamy Ranch Dressing &amp; Dip</a><p class="sk-top-line">Thick, tangy and made with real dairy.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dip tub</p><a class="sk-top-name" href="#pick-2">Dean&#x27;s Ranch Dip</a><p class="sk-top-line">A thick, classic dip tub at a low price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best lighter</p><a class="sk-top-name" href="#pick-6">Bolthouse Farms Classic Ranch Yogurt Dressing &amp; Dip</a><p class="sk-top-line">Lighter, with a fresh herb flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marie&#x27;s Creamy Ranch Dressing &amp; Dip</a><p class="sk-top-line">Thick, tangy and made with real dairy.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dip tub</p><a class="sk-top-name" href="#pick-2">Dean&#x27;s Ranch Dip</a><p class="sk-top-line">A thick, classic dip tub at a low price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best lighter</p><a class="sk-top-name" href="#pick-6">Bolthouse Farms Classic Ranch Yogurt Dressing &amp; Dip</a><p class="sk-top-line">Lighter, with a fresh herb flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Marie&#x27;s Creamy Ranch Dressing &amp; Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Veggie trays</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Refrigerated produce section at most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick, tangy and made with real dairy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sold refrigerated, so it costs more than shelf-stable bottles.</p>
@@ -36,7 +36,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best dip tub</p><h3>Dean&#x27;s Ranch Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chips and veggies</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery dairy cases, especially in the Midwest and South.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A thick, classic dip tub at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Longer ingredient list than the refrigerated dressings.</p>
@@ -45,7 +45,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Marzetti Ranch Veggie Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Crudités</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Produce section at most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Made for vegetables, and easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Marzetti&#x27;s bottled ranch dressing ranked low at Tasting Table, so get the veggie dip.</p>
@@ -54,7 +54,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Litehouse Homestyle Ranch Dressing &amp; Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Homemade taste</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Refrigerated produce section at most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes close to homemade.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A little thinner than the dip tubs.</p>
@@ -63,7 +63,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Heluva Good! Buttermilk Ranch Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Bold buttermilk flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery dairy cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big ranch flavor in a thick tub.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong flavor can overpower mild vegetables.</p>
@@ -72,7 +72,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best lighter</p><h3>Bolthouse Farms Classic Ranch Yogurt Dressing &amp; Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A lighter ranch</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Refrigerated produce section.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Lighter, with a fresh herb flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A touch sweet for some.</p>
@@ -81,7 +81,7 @@ The best ranch for a board is thick enough to cling to a carrot stick, which rul
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Trader Joe&#x27;s Buttermilk Ranch Dressing</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Salads more than dipping</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most flavorful bottle in that test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thinner than the others, so it slides off vegetables.</p>

@@ -15,7 +15,7 @@ tags: "["best gruyere", "best gruyere brand", "gruyere cheese brands", "gruyere 
 > **Quick Answer:** Our top pick for Gruyère on a charcuterie board is Emmi Kaltbach Le Gruyère AOP (4.4 out of 5). Value: Emmi Le Gruyère AOP. Pasteurized: Emmi Roth Grand Cru Surchoix.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emmi Kaltbach Le Gruyère AOP</a><p class="sk-top-line">Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Emmi Le Gruyère AOP</a><p class="sk-top-line">Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pasteurized</p><a class="sk-top-name" href="#pick-5">Emmi Roth Grand Cru Surchoix</a><p class="sk-top-line">The best choice when a guest needs pasteurized cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emmi Kaltbach Le Gruyère AOP</a><p class="sk-top-line">Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Emmi Le Gruyère AOP</a><p class="sk-top-line">Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pasteurized</p><a class="sk-top-name" href="#pick-5">Emmi Roth Grand Cru Surchoix</a><p class="sk-top-line">The best choice when a guest needs pasteurized cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Emmi Kaltbach Le Gruyère AOP</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The showpiece cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, Kroger and other grocery cheese cases, cheese counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The priciest here, and the brown cave rind is not for eating.</p>
@@ -36,7 +36,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Emmi Le Gruyère AOP</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An easy, mild Gruyère</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Kroger, Target and most grocery cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder and softer than an aged Gruyère, with fewer crystals.</p>
@@ -45,7 +45,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>1655 Le Gruyère AOP</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The taste-test winner</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top score in the only big published Gruyère test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find than the Emmi cheeses, and the test is from 2017.</p>
@@ -54,7 +54,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Mifroma Le Gruyère Cavern AOP</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Nutty and complex</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters and some grocery cheese cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Plenty of crystals and a layered flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked than Emmi.</p>
@@ -63,7 +63,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best pasteurized</p><h3>Emmi Roth Grand Cru Surchoix</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A pasteurized Gruyère</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery cheese cases and deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best choice when a guest needs pasteurized cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not Swiss AOP Gruyère, and a little less complex.</p>
@@ -72,7 +72,7 @@ Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-mon
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Boar&#x27;s Head Blanc Grue Gruyère</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sandwiches more than boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Boar&#x27;s Head deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sliced to order at the deli counter.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild and drier than the Swiss cheeses. Not AOP.</p>

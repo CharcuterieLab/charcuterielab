@@ -14,7 +14,7 @@ slug: "best-honey-for-cheese"
 > **Quick Answer:** Our top pick for honey on a charcuterie board is Nature Nate's Raw & Unfiltered Honey (4.6 out of 5). Best value: 365 by Whole Foods Market Organic Raw Wildflower Honey. Splurge: Rigoni di Asiago Mielbio Chestnut Honey.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Nature Nate&#x27;s Raw &amp; Unfiltered Honey</a><p class="sk-top-line">Top-ranked. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CMQD3VS" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">365 by Whole Foods Market Organic Raw Wildflower Honey</a><p class="sk-top-line">Organic, raw. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Rigoni di Asiago Mielbio Chestnut Honey</a><p class="sk-top-line">The right style for blue cheese. Organic.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Rigoni+di+Asiago+Mielbio+Chestnut+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Nature Nate&#x27;s Raw &amp; Unfiltered Honey</a><p class="sk-top-line">Top-ranked. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CMQD3VS" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">365 by Whole Foods Market Organic Raw Wildflower Honey</a><p class="sk-top-line">Organic, raw. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Rigoni di Asiago Mielbio Chestnut Honey</a><p class="sk-top-line">The right style for blue cheese. Organic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Rigoni+di+Asiago+Mielbio+Chestnut+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Nature Nate&#x27;s Raw &amp; Unfiltered Honey</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday honey</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A blend, not a single flower.</p>
@@ -35,7 +35,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>365 by Whole Foods Market Organic Raw Wildflower Honey</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thick and spoonable</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, raw. Cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods.</p>
@@ -44,7 +44,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Trader Joe&#x27;s Multi-Floral &amp; Clover Honey</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget honey</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap. Pleasant flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Bear bottle belongs in a bowl.</p>
@@ -53,7 +53,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Rigoni di Asiago Mielbio Chestnut Honey</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Blue cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Eataly, Amazon, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The right style for blue cheese. Organic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong flavor. Few published reviews.</p>
@@ -62,7 +62,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Savannah Bee Company</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Gift-worthy varietals</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Varietal choice. Nice jars.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
@@ -71,7 +71,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Rigoni di Asiago Mielbio Acacia Honey</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.4 out of 5"><span class="sk-label">Our score</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh and soft cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Eataly, Amazon, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild. Stays liquid.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>

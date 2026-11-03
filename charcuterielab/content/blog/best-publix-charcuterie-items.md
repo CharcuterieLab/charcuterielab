@@ -15,7 +15,7 @@ tags: "["publix charcuterie", "publix charcuterie board", "publix deli cheese", 
 > **Quick Answer:** Best Publix cheese: **Boar's Head Parmigiano Reggiano** (4.5/5). From the Publix specialty case: **Vintage Gouda** and **Honey Goat Cheese**. Best spread: **Palmetto Cheese**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Parmigiano Reggiano</a><p class="sk-top-line">Real Parmigiano, easy to find at any Publix.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best aged cheese</p><a class="sk-top-name" href="#pick-3">Publix Deli Imported Vintage Gouda</a><p class="sk-top-line">Caramel crunch that almost everyone likes.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">Publix Deli Imported French Brie</a><p class="sk-top-line">Easy to find and easy to like.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Parmigiano Reggiano</a><p class="sk-top-line">Real Parmigiano, easy to find at any Publix.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best aged cheese</p><a class="sk-top-name" href="#pick-3">Publix Deli Imported Vintage Gouda</a><p class="sk-top-line">Caramel crunch that almost everyone likes.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">Publix Deli Imported French Brie</a><p class="sk-top-line">Easy to find and easy to like.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boar&#x27;s Head Parmigiano Reggiano</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Parmigiano, easy to find at any Publix.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than a store-brand wedge. Break it into rough chunks; slices are too hard.</p>
@@ -36,7 +36,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Publix Deli Honey Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sweet, tangy spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sweet and tangy in one, so it needs no jam.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Soft and messy. Serve it on a small plate with a spreader.</p>
@@ -45,7 +45,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best aged cheese</p><h3>Publix Deli Imported Vintage Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A crowd-pleasing aged cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Caramel crunch that almost everyone likes.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to slice thin. Cut it into small wedges or chunks.</p>
@@ -54,7 +54,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best spread</p><h3>Palmetto Cheese Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Southern spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix deli or dairy case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A regional favorite guests recognize.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last.</p>
@@ -63,7 +63,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best soft cheese</p><h3>Publix Deli Imported French Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find and easy to like.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Take it out 20 to 30 minutes before serving so the flavor comes through.</p>
@@ -72,7 +72,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best meat</p><h3>Publix Herb-Coated Salami</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The crust adds flavor and looks good sliced.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Slice it thin and fold it; thick slices are chewy.</p>
@@ -81,7 +81,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Publix Deli Imported Spanish Manchego</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A firm, nutty cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Firm and nutty, and good with membrillo or honey.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Often pricier than Manchego at warehouse clubs.</p>
@@ -90,7 +90,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Publix Deli Imported Swiss Gruyère</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A semi-firm melting cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good second cheese next to brie.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Check the label for Le Gruyère AOP if you want the protected Swiss cheese.</p>
@@ -99,7 +99,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Publix Prosciutto</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Draping and folding</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Silky and salty, and easy to ribbon around cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin slices stick together. Separate them just before building the board.</p>
@@ -108,7 +108,7 @@ Publix has a specialty cheese case, Boar's Head at the counter, and boards you c
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Publix Imported Yorkshire Wensleydale with Cranberries</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A holiday board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Publix Deli specialty cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Red and white, so it looks festive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet and mild. Pair it with an aged cheese for contrast.</p>

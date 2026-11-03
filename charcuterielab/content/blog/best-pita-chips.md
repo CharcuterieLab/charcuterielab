@@ -15,7 +15,7 @@ tags: "["best pita chips", "pita chips brands", "stacy's pita chips", "pita chip
 > **Quick Answer:** Our top pick for pita chips on a charcuterie board is Stacy's Simply Naked Pita Chips (4.7 out of 5). Value: Specially Selected Sea Salt Pita Chips (Aldi). For dessert boards: Stacy's Cinnamon Sugar Pita Chips.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Stacy&#x27;s Simply Naked Pita Chips</a><p class="sk-top-line">Neutral enough for cheese, sturdy enough for hummus.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B001YJ2Y14" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Specially Selected Sea Salt Pita Chips (Aldi)</a><p class="sk-top-line">Plain, sturdy and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for dessert boards</p><a class="sk-top-name" href="#pick-6">Stacy&#x27;s Cinnamon Sugar Pita Chips</a><p class="sk-top-line">Perfect with chocolate hummus, cream cheese dip or caramel.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Stacy&#x27;s+Cinnamon+Sugar+Pita+Chips" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Stacy&#x27;s Simply Naked Pita Chips</a><p class="sk-top-line">Neutral enough for cheese, sturdy enough for hummus.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B001YJ2Y14" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Specially Selected Sea Salt Pita Chips (Aldi)</a><p class="sk-top-line">Plain, sturdy and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for dessert boards</p><a class="sk-top-name" href="#pick-6">Stacy&#x27;s Cinnamon Sugar Pita Chips</a><p class="sk-top-line">Perfect with chocolate hummus, cream cheese dip or caramel.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Stacy&#x27;s+Cinnamon+Sugar+Pita+Chips" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Stacy&#x27;s Simply Naked Pita Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Neutral enough for cheese, sturdy enough for hummus.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some broken chips at the bottom of every bag.</p>
@@ -36,7 +36,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Stacy&#x27;s Parmesan Garlic &amp; Herb Pita Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A dip-and-snack bowl</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big flavor for guests who snack straight from the bowl.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Garlic competes with delicate cheeses.</p>
@@ -45,7 +45,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Specially Selected Sea Salt Pita Chips (Aldi)</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Plain, sturdy and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Aldi.</p>
@@ -54,7 +54,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Stacy&#x27;s Rosemary &amp; Garlic Organic Pita Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Herby cheese boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores and Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, and the rosemary suits goat cheese and feta.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more than the regular bags.</p>
@@ -63,7 +63,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>365 Garlic &amp; Herb Pita Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Garlic lovers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick enough for the heaviest dips.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very garlicky.</p>
@@ -72,7 +72,7 @@ Pita chips don't snap in thick dip and stay crisp for hours. Two store brands co
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best for dessert boards</p><h3>Stacy&#x27;s Cinnamon Sugar Pita Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dessert boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Perfect with chocolate hummus, cream cheese dip or caramel.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too sweet for a savory board.</p>

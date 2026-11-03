@@ -15,7 +15,7 @@ tags: "["target charcuterie", "target charcuterie board", "good and gather charc
 > **Quick Answer:** Best Target (Good & Gather) picks: **Fig and Olive Crisps** for crackers, the **Salami, Prosciutto and Capocollo Tray** for meat, and **Double Crème Brie**. Best dip: **Classic Onion Dip**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Good &amp; Gather Classic Onion Dip</a><p class="sk-top-line">It&#x27;s the dip guests go back to, next to kettle chips or pretzel crisps.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-2">Good &amp; Gather Fig and Olive Mini Artisanal Crisps</a><p class="sk-top-line">The closest thing to a fancy crisp at a grocery price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Good &amp; Gather Uncured Calabrese Salami, Prosciutto &amp; Capocollo Tray</a><p class="sk-top-line">Three meats in one pack, so the board looks varied.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Good &amp; Gather Classic Onion Dip</a><p class="sk-top-line">It&#x27;s the dip guests go back to, next to kettle chips or pretzel crisps.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-2">Good &amp; Gather Fig and Olive Mini Artisanal Crisps</a><p class="sk-top-line">The closest thing to a fancy crisp at a grocery price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-5">Good &amp; Gather Uncured Calabrese Salami, Prosciutto &amp; Capocollo Tray</a><p class="sk-top-line">Three meats in one pack, so the board looks varied.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Good &amp; Gather Classic Onion Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A chips-and-dip corner</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target dairy case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> It&#x27;s the dip guests go back to, next to kettle chips or pretzel crisps.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last; it shouldn&#x27;t sit out more than 2 hours.</p>
@@ -36,7 +36,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best crackers</p><h3>Good &amp; Gather Fig and Olive Mini Artisanal Crisps</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Brie and soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target cracker aisle, about $4.29 for 5.3 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The closest thing to a fancy crisp at a grocery price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some reviewers find the olive flavor strong, and they&#x27;re sometimes seasonal.</p>
@@ -45,7 +45,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Good &amp; Gather Spinach Artichoke Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cold, creamy dip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target dairy or deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Works cold with crackers or warmed in a small baking dish.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last.</p>
@@ -54,7 +54,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best sweet extra</p><h3>Good &amp; Gather Glazed Pecans</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The sweet element</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target snack aisle, about $5.89 for 9 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sweet and crunchy next to blue cheese and brie.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some reviewers find them hard or very sweet. Put them in a small bowl.</p>
@@ -63,7 +63,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best meat</p><h3>Good &amp; Gather Uncured Calabrese Salami, Prosciutto &amp; Capocollo Tray</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target deli case, about $6.99.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Three meats in one pack, so the board looks varied.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some reviewers got dry slices. Check the date, and buy two trays for 6 or more guests.</p>
@@ -72,7 +72,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Good &amp; Gather Everything Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cream cheese and dips</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target cracker aisle, about $2.99 for 7 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, crunchy and well liked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasoned crackers compete with delicate cheese. Pair them with cheddar, cream cheese or dips.</p>
@@ -81,7 +81,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best cheese</p><h3>Good &amp; Gather Double Crème Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target cheese case, about $5.29.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and creamy, and easy to bake.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only about half of reviewers would recommend it. Take it out 20 to 30 minutes before serving so the flavor comes through.</p>
@@ -90,7 +90,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Good &amp; Gather Himalayan Salted Dark Chocolate Almonds</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sweet finish</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target snack aisle, about $6.99.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Chocolate and nuts in one bowl.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The salt is subtle. Chocolate softens in a warm room.</p>
@@ -99,7 +99,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Good &amp; Gather Charcuterie Bites</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A board for one</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> An easy snack or a lunchbox board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too small and too pricey per ounce for a party board.</p>
@@ -108,7 +108,7 @@ Target has no cheese counter, so it's best for a quick, casual board. Most items
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Good &amp; Gather Water Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Letting the cheese lead</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target cracker aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Plain and crisp, so they never fight the cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thinner and more fragile than Carr&#x27;s.</p>

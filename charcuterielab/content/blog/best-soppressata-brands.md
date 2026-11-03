@@ -14,7 +14,7 @@ slug: "best-soppressata-brands"
 > **Quick Answer:** Our top pick for soppressata on a charcuterie board is Brooklyn Cured Sweet Soppressata (4.2 out of 5). Best value: Volpi Soppressata. Splurge: Fra' Mani Soppressata.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Brooklyn Cured Sweet Soppressata</a><p class="sk-top-line">Top-ranked. Very versatile.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Volpi Soppressata</a><p class="sk-top-line">Available. Reliable.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Soppressata</a><p class="sk-top-line">Award-winning maker.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Brooklyn Cured Sweet Soppressata</a><p class="sk-top-line">Top-ranked. Very versatile.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Volpi Soppressata</a><p class="sk-top-line">Available. Reliable.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Soppressata</a><p class="sk-top-line">Award-winning maker.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Brooklyn Cured Sweet Soppressata</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet, buttery soppressata</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Very versatile.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
@@ -34,7 +34,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Fra&#x27; Mani Soppressata</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Award-winning maker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Award-winning maker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
@@ -42,7 +42,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Volpi Soppressata</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Available. Reliable.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
@@ -50,7 +50,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Olympia Provisions Sopressata</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Craft pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean ingredients. Distinctive flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Mostly online.</p>
@@ -59,7 +59,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Boar&#x27;s Head Sopressata</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.0 out of 5"><span class="sk-label">Our score</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less character than craft versions.</p>

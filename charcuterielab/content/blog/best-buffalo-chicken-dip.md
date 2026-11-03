@@ -79,7 +79,6 @@ Buffalo chicken dip is the one game day dip almost nobody skips, and store-bough
 <dl class="sk-facts"><div><dt>Where</dt><dd>Kroger and deli counters</dd></div><div><dt>Heat</dt><dd>Blazing</dd></div><div><dt>Serve</dt><dd>Cold or warm</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> For the heat seekers; one shopper noted it&#x27;s delicious without even heating it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Picked on shopper reviews, not a head-to-head test.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+blazing+buffalo+chicken+dip" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Eat This includes it in its shopper-rated list (<a href="https://www.eatthis.com/best-grocery-store-buffalo-chicken-dips/" target="_blank" rel="noopener">Eat This</a>).</p></details>
 </article>
 </div>

@@ -15,7 +15,7 @@ tags: "["best shortbread cookies", "best store bought shortbread", "walkers shor
 > **Quick Answer:** Our top pick for shortbread on a charcuterie board is Walkers Pure Butter Shortbread (4.5 out of 5). Value: Lorna Doone Shortbread Cookies. Butter flavor: Trader Joe's French Galettes.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Walkers Pure Butter Shortbread</a><p class="sk-top-line">Real butter, and a size that holds jam or cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01LTI9AJI" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Lorna Doone Shortbread Cookies</a><p class="sk-top-line">Cheap and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lorna+Doone+Shortbread+Cookies" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best butter flavor</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s French Galettes</a><p class="sk-top-line">Tastes the most like butter.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Walkers Pure Butter Shortbread</a><p class="sk-top-line">Real butter, and a size that holds jam or cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01LTI9AJI" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-4">Lorna Doone Shortbread Cookies</a><p class="sk-top-line">Cheap and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lorna+Doone+Shortbread+Cookies" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best butter flavor</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s French Galettes</a><p class="sk-top-line">Tastes the most like butter.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Walkers Pure Butter Shortbread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every dessert board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, Costco and Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real butter, and a size that holds jam or cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Breaks easily, and pricier than mass-market brands.</p>
@@ -36,7 +36,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best butter flavor</p><h3>Trader Joe&#x27;s French Galettes</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Butter-forward flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes the most like butter.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -45,7 +45,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Royal Dansk Danish Butter Cookies</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Holiday boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, especially at the holidays.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The classic blue tin, with shapes that look festive on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweeter than shortbread.</p>
@@ -54,7 +54,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best value</p><h3>Lorna Doone Shortbread Cookies</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> No real butter.</p>
@@ -63,7 +63,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Keebler Sandies Shortbread Classic</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheap, classic sleeve</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy-open sleeve, low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild flavor.</p>
@@ -72,7 +72,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>365 Butter Shortbread</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A real-butter store brand</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real butter at a store-brand price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Softer than classic shortbread.</p>

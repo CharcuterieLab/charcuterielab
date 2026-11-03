@@ -15,7 +15,7 @@ tags: "["sams club charcuterie", "sams club charcuterie board", "members mark ch
 > **Quick Answer:** Best cheese: **Member's Mark Manchego** (4.8/5, about $11.57 a lb). Best hard cheese: **Member's Mark Parmigiano Reggiano**. Shortcut: the **Member's Mark Charcuterie Tray**, serves 10 to 12.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Member&#x27;s Mark Manchego Wedge</a><p class="sk-top-line">Real DOP Manchego at a warehouse price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best hard cheese</p><a class="sk-top-name" href="#pick-2">Member&#x27;s Mark Parmigiano Reggiano</a><p class="sk-top-line">Real Parmigiano Reggiano that also covers weeks of cooking.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shortcut</p><a class="sk-top-name" href="#pick-3">Member&#x27;s Mark Charcuterie Entertainment Tray</a><p class="sk-top-line">A whole board in one box for under $30.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Member&#x27;s Mark Manchego Wedge</a><p class="sk-top-line">Real DOP Manchego at a warehouse price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best hard cheese</p><a class="sk-top-name" href="#pick-2">Member&#x27;s Mark Parmigiano Reggiano</a><p class="sk-top-line">Real Parmigiano Reggiano that also covers weeks of cooking.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shortcut</p><a class="sk-top-name" href="#pick-3">Member&#x27;s Mark Charcuterie Entertainment Tray</a><p class="sk-top-line">A whole board in one box for under $30.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Member&#x27;s Mark Manchego Wedge</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club cheese case, about $11.57 a pound (about $23 a wedge).</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real DOP Manchego at a warehouse price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The wedges are large, about 2 pounds. Wrap leftovers in cheese paper; Manchego keeps for weeks.</p>
@@ -36,7 +36,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best hard cheese</p><h3>Member&#x27;s Mark Parmigiano Reggiano</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club cheese case, priced by the pound.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Parmigiano Reggiano that also covers weeks of cooking.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Reviewers note the price has gone up. Break it into rough chunks; slices are too hard.</p>
@@ -45,7 +45,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best shortcut</p><h3>Member&#x27;s Mark Charcuterie Entertainment Tray</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A crowd in a hurry</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club deli, about $29.14.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A whole board in one box for under $30.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Everything comes pre-cut, so it looks like a tray, not a board. Move it onto a wooden board and add grapes.</p>
@@ -54,7 +54,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Boursin Garlic &amp; Fine Herbs and Shallot &amp; Chive, 3-pack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A spreadable cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club cheese case, about $5.98.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Guests always finish it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Soft and crumbly, so give it its own small plate and knife.</p>
@@ -63,7 +63,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Member&#x27;s Mark Gourmet Selection Imported Cheeses</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cracker-sized slices</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club cheese case, about $11.88.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Four imported cheeses for about the price of one wedge elsewhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pre-sliced cheese dries out on a board within an hour. One reviewer found two of the cheeses tasted alike.</p>
@@ -72,7 +72,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Member&#x27;s Mark Flame Roasted Smoked Salmon</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A brunch or holiday board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club seafood case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A different texture from cold-smoked lox, and it breaks into easy bites.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It flakes, so it won&#x27;t drape like lox. Serve it in a small dish with crackers and cream cheese.</p>
@@ -81,7 +81,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best soft cheese</p><h3>Président Brie, 19.6 oz</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club cheese case, about $7.84.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A big wheel for about $8.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild. Take it out 20 to 30 minutes before serving, or bake it.</p>
@@ -90,7 +90,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">Best meat</p><h3>Columbus Charcuterie Tasting Board</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club deli, about $12.48.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Good salami, ready to peel and serve.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Stock varies by club, and online pickup often shows out of stock.</p>
@@ -99,7 +99,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Busseto Holiday Salami Collection</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A holiday board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club deli, about $11.94 in season.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Six salamis for the price of two packs.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasonal, so it&#x27;s mostly in stores from November to December.</p>
@@ -108,7 +108,7 @@ After Costco, Sam's Club is the cheapest way to feed a crowd, and its cheese cas
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Entertainment Crackers Collection</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Lots of crackers, cheaply</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club snack aisle, about $9.50.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Enough crackers for 20 or more guests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Buttery crackers compete with soft cheese. Add a plain water cracker or baguette.</p>

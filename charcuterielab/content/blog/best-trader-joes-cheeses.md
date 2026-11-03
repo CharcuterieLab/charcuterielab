@@ -15,7 +15,7 @@ tags: "["best trader joe's cheese", "trader joe's cheese", "trader joe's charcut
 > **Quick Answer:** Top pick: **Unexpected Cheddar** (4.7/5), tied with **1000 Day Gouda** and **Creamy Toscano with Syrah**. For a three-cheese board: Unexpected Cheddar, **Triple Crème Brie**, and the 1000 Day Gouda or **Cave Aged Blue**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Unexpected Cheddar</a><p class="sk-top-line">Liked by almost everyone, and about $4 a block.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best aged cheese</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s 1000 Day Gouda</a><p class="sk-top-line">Tastes like a much more expensive aged Gouda.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Something different</p><a class="sk-top-name" href="#pick-7">Trader Joe&#x27;s White Stilton with Apricots</a><p class="sk-top-line">Doubles as a dessert cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Unexpected Cheddar</a><p class="sk-top-line">Liked by almost everyone, and about $4 a block.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best aged cheese</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s 1000 Day Gouda</a><p class="sk-top-line">Tastes like a much more expensive aged Gouda.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Something different</p><a class="sk-top-name" href="#pick-7">Trader Joe&#x27;s White Stilton with Apricots</a><p class="sk-top-line">Doubles as a dessert cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$</span><a class="button sk-buy-sm" href="#pick-7">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Trader Joe&#x27;s Unexpected Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyone at the table</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, about $3.99 for 7 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Liked by almost everyone, and about $4 a block.</p>
 <p class="sk-mind"><strong>Watch out:</strong> <a href="https://www.cheapism.com/trader-joes-most-popular-cheeses/" target="_blank" rel="noopener">Cheapism</a> was less excited and called it fine rather than special.</p>
@@ -36,7 +36,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best aged cheese</p><h3>Trader Joe&#x27;s 1000 Day Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Very aged, low price</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like a much more expensive aged Gouda.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard and crumbly, so cut it into rough shards, not neat slices.</p>
@@ -45,7 +45,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Trader Joe&#x27;s Creamy Toscano Cheese Soaked in Syrah</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese that needs nothing with it</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, about $4.80 a piece.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Two separate taste tests put it near the top.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The wine flavor is gentle and mostly in the rind.</p>
@@ -54,7 +54,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Triple Crème Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft, spreadable cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Every board needs one soft cheese, and this is a cheap, rich one.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Runs when warm. Take it out of the fridge 20 to 30 minutes before serving, not longer.</p>
@@ -63,7 +63,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Trader Joe&#x27;s Goat Milk Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Something different</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A top score in Sporked&#x27;s test, and an easy way to add a goat cheese guests will actually eat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder and softer than an aged cow&#x27;s milk Gouda.</p>
@@ -72,7 +72,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Trader Joe&#x27;s Cave Aged Blue</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The blue cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good-value blue that isn&#x27;t too sharp.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Blue cheese is strong for some guests. One small wedge is enough.</p>
@@ -81,7 +81,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Something different</p><h3>Trader Joe&#x27;s White Stilton with Apricots</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet and fruity</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case. Stock varies by store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Doubles as a dessert cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet, so it suits a dessert or holiday board more than a meaty one. Sold by weight, around $12.99 a pound.</p>
@@ -90,7 +90,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Trader Joe&#x27;s Manchego</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Spanish board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, wedge or sliced.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A real Spanish Manchego at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more per ounce than most cheeses here.</p>
@@ -99,7 +99,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Trader Joe&#x27;s Chèvre</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Spreading on crackers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, about $2.99 for 5 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The cheapest way to add a fresh, tangy cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain chèvre can taste strong to some guests. The herbed log is easier.</p>
@@ -108,7 +108,7 @@ Trader Joe's cheese case is small, cheap and full of cheeses you can't buy anywh
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Trader Joe&#x27;s Port Salut</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests who like mild cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cheese case, sold by weight.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild enough for kids and cautious eaters.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not much flavor next to the aged cheeses.</p>

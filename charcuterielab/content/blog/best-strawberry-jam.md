@@ -15,7 +15,7 @@ tags: "["best strawberry jam", "strawberry jam brands", "best strawberry preserv
 > **Quick Answer:** Our top pick for strawberry jam on a charcuterie board is Bonne Maman Strawberry Preserves (4.8 out of 5). Value: Smucker's Natural Strawberry Fruit Spread. Organic: Crofter's Organic Strawberry Fruit Spread.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Bonne Maman Strawberry Preserves</a><p class="sk-top-line">Top two in both big tests, with real fruit chunks.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0004N0IBO" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Smucker&#x27;s Natural Strawberry Fruit Spread</a><p class="sk-top-line">Cheap, everywhere, and a cleaner label than regular Smucker&#x27;s.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-2">Crofter&#x27;s Organic Strawberry Fruit Spread</a><p class="sk-top-line">Organic and very fruity.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0B8QGXQ2C" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Bonne Maman Strawberry Preserves</a><p class="sk-top-line">Top two in both big tests, with real fruit chunks.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0004N0IBO" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Smucker&#x27;s Natural Strawberry Fruit Spread</a><p class="sk-top-line">Cheap, everywhere, and a cleaner label than regular Smucker&#x27;s.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-2">Crofter&#x27;s Organic Strawberry Fruit Spread</a><p class="sk-top-line">Organic and very fruity.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0B8QGXQ2C" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Bonne Maman Strawberry Preserves</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every cheese board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top two in both big tests, with real fruit chunks.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than supermarket jam.</p>
@@ -36,7 +36,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best organic</p><h3>Crofter&#x27;s Organic Strawberry Fruit Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real strawberry flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Target and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and very fruity.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Brownish color, so it looks less glossy in a bowl.</p>
@@ -45,7 +45,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Smucker&#x27;s Natural Strawberry Fruit Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, everywhere, and a cleaner label than regular Smucker&#x27;s.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less fruity than the top two.</p>
@@ -53,7 +53,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>St. Dalfour Strawberry Fruit Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh, tart flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> No added sugar, sweetened with fruit juice.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small jar.</p>
@@ -62,7 +62,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>365 Organic Strawberry Fruit Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An organic store brand</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic at a fair price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, with few chunks.</p>
@@ -71,7 +71,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Kroger Strawberry Preserves</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The cheapest good jar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger and Kroger-family stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Low price, with chunks.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet.</p>

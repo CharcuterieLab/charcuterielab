@@ -14,7 +14,7 @@ slug: "best-goat-cheese-brands"
 > **Quick Answer:** Our top pick for goat cheese on a charcuterie board is Laura Chenel Original Fresh Goat Cheese (4.7 out of 5). Best value: Trader Joe's Chèvre. Splurge: Cypress Grove Humboldt Fog.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Laura Chenel Original Fresh Goat Cheese</a><p class="sk-top-line">Everywhere. Very spreadable.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Trader Joe&#x27;s Chèvre</a><p class="sk-top-line">Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-3">Cypress Grove Humboldt Fog</a><p class="sk-top-line">Striking look. Complex flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Laura Chenel Original Fresh Goat Cheese</a><p class="sk-top-line">Everywhere. Very spreadable.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Trader Joe&#x27;s Chèvre</a><p class="sk-top-line">Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-3">Cypress Grove Humboldt Fog</a><p class="sk-top-line">Striking look. Complex flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Laura Chenel Original Fresh Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Spreadable classic</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Very spreadable.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than Vermont Creamery.</p>
@@ -35,7 +35,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Vermont Creamery Fresh Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tangy fresh chèvre</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Clean, tangy flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than store brands.</p>
@@ -44,7 +44,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best splurge</p><h3>Cypress Grove Humboldt Fog</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The showpiece</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Striking look. Complex flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
@@ -53,7 +53,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Mitica The Drunken Goat</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A firm goat cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Firm, easy to slice. Pretty purple rind.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild for goat cheese.</p>
@@ -62,7 +62,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Chèvre</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget chèvre</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>

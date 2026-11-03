@@ -15,7 +15,7 @@ tags: "["best spinach dip", "best store bought spinach artichoke dip", "spinach 
 > **Quick Answer:** Our top pick for spinach dip on a charcuterie board is Marketside Spinach & Artichoke Dip (4.7 out of 5). Classic spinach dip: Marketside Spinach Dip. To serve warm: Trader Joe's Creamy Spinach & Artichoke Dip.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marketside Spinach &amp; Artichoke Dip</a><p class="sk-top-line">Top score at a store-brand price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best classic spinach dip</p><a class="sk-top-name" href="#pick-3">Marketside Spinach Dip</a><p class="sk-top-line">The old-school party dip, done well.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best to serve warm</p><a class="sk-top-name" href="#pick-6">Trader Joe&#x27;s Creamy Spinach &amp; Artichoke Dip</a><p class="sk-top-line">Restaurant-style hot dip with no cooking skills needed.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Marketside Spinach &amp; Artichoke Dip</a><p class="sk-top-line">Top score at a store-brand price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best classic spinach dip</p><a class="sk-top-name" href="#pick-3">Marketside Spinach Dip</a><p class="sk-top-line">The old-school party dip, done well.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best to serve warm</p><a class="sk-top-name" href="#pick-6">Trader Joe&#x27;s Creamy Spinach &amp; Artichoke Dip</a><p class="sk-top-line">Restaurant-style hot dip with no cooking skills needed.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Several store brands beat the national names, so check the deli case first.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Marketside Spinach &amp; Artichoke Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top score at a store-brand price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Walmart.</p>
@@ -36,7 +36,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>La Terra Fina Spinach Artichoke &amp; Parmesan Dip &amp; Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cold or warm</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Works straight from the tub or baked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A large tub at club stores.</p>
@@ -45,7 +45,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best classic spinach dip</p><h3>Marketside Spinach Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Classic spinach dip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The old-school party dip, done well.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Walmart.</p>
@@ -54,7 +54,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Good &amp; Gather Spinach Artichoke Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Artichoke lovers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big artichoke flavor and a fresh taste.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Target.</p>
@@ -63,7 +63,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Park Street Deli Spinach Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests who don&#x27;t love spinach</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Aldi.</p>
@@ -72,7 +72,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best to serve warm</p><h3>Trader Joe&#x27;s Creamy Spinach &amp; Artichoke Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A hot dip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s freezer case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Restaurant-style hot dip with no cooking skills needed.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Needs heating, so plan oven or microwave time.</p>
@@ -81,7 +81,7 @@ Several store brands beat the national names, so check the deli case first.
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Stonemill Kitchens Spinach Artichoke &amp; Parmesan Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunky, cheesy dip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery deli cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Chunky texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked.</p>

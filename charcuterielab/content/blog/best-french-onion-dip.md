@@ -15,7 +15,7 @@ tags: "["best french onion dip", "best store bought french onion dip", "french o
 > **Quick Answer:** Our top pick for French onion dip on a charcuterie board is Heluva Good! French Onion Dip (4.7 out of 5). Shortest ingredient list: Daisy Sour Cream French Onion Dip. Store brand: Good & Gather Classic Onion Dip.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Heluva Good! French Onion Dip</a><p class="sk-top-line">Bold onion flavor, everywhere, cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Shortest ingredient list</p><a class="sk-top-name" href="#pick-2">Daisy Sour Cream French Onion Dip</a><p class="sk-top-line">Made with real sour cream and few ingredients.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best store brand</p><a class="sk-top-name" href="#pick-3">Good &amp; Gather Classic Onion Dip</a><p class="sk-top-line">Top score at a store-brand price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Heluva Good! French Onion Dip</a><p class="sk-top-line">Bold onion flavor, everywhere, cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Shortest ingredient list</p><a class="sk-top-name" href="#pick-2">Daisy Sour Cream French Onion Dip</a><p class="sk-top-line">Made with real sour cream and few ingredients.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best store brand</p><a class="sk-top-name" href="#pick-3">Good &amp; Gather Classic Onion Dip</a><p class="sk-top-line">Top score at a store-brand price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Heluva Good! French Onion Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The classic chip dip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Bold onion flavor, everywhere, cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains gelatin and MSG, and it&#x27;s saltier than most.</p>
@@ -36,7 +36,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Shortest ingredient list</p><h3>Daisy Sour Cream French Onion Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cleaner label</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Made with real sour cream and few ingredients.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less caramelized flavor.</p>
@@ -45,7 +45,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best store brand</p><h3>Good &amp; Gather Classic Onion Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tastes homemade</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top score at a store-brand price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Target.</p>
@@ -54,7 +54,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>La Terra Fina Caramelized Onion with Roasted Garlic Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A dip that doubles as a spread</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Deep caramelized flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier and less widely stocked.</p>
@@ -63,7 +63,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Cabot French Onion Dip</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thick, quality base</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores in the Northeast and beyond.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Rich and thick.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild onion flavor.</p>
@@ -72,7 +72,7 @@ It's the first thing gone on a game-day board. One brand wins across three ranki
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Frito-Lay French Onion Dip (can)</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The budget nostalgia pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, chip aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very cheap, with classic flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Shelf-stable can and a long ingredient list.</p>

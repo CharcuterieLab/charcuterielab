@@ -14,7 +14,7 @@ slug: "best-crackers-for-charcuterie"
 > **Quick Answer:** Our top pick for crackers on a charcuterie board is Carr's Table Water Crackers (4.5 out of 5). Best value: Milton's Craft Bakers Original Multi-Grain. Splurge: Lesley Stowe Raincoast Crisps.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers</a><p class="sk-top-line">Neutral. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Milton&#x27;s Craft Bakers Original Multi-Grain</a><p class="sk-top-line">Great value. Sturdy enough for dips.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07RWQ55QC" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Lesley Stowe Raincoast Crisps</a><p class="sk-top-line">Real fruit and nuts. Beautiful on a board.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.7 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lesley+Stowe+Raincoast+Crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers</a><p class="sk-top-line">Neutral. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Milton&#x27;s Craft Bakers Original Multi-Grain</a><p class="sk-top-line">Great value. Sturdy enough for dips.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07RWQ55QC" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Lesley Stowe Raincoast Crisps</a><p class="sk-top-line">Real fruit and nuts. Beautiful on a board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.7/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lesley+Stowe+Raincoast+Crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Carr&#x27;s Table Water Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The neutral base</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Neutral. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so not for thick dips.</p>
@@ -35,7 +35,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Milton&#x27;s Craft Bakers Original Multi-Grain</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Hearty cheeses on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger, Walmart, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great value. Sturdy enough for dips.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Stronger flavor than a base cracker.</p>
@@ -44,7 +44,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>La Panzanella Croccantini</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Soft cheese and cured meat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery deli and cheese sections.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thin and crisp. Looks elegant fanned on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Larger pieces need breaking.</p>
@@ -53,7 +53,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Lesley Stowe Raincoast Crisps</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The show-off cracker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Costco, Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real fruit and nuts. Beautiful on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Contains nuts.</p>
@@ -62,7 +62,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Firehook Mediterranean Sea Salt Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dips and spreads</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very sturdy. Flaky salt top.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
@@ -71,7 +71,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Breton Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.4 out of 5"><span class="sk-label">Our score</span><b>3.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:68%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget all-rounder</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not as neutral as a water cracker.</p>
@@ -80,7 +80,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Rustic Bakery Flatbread Bites</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:62%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.1 out of 5"><span class="sk-label">Our score</span><b>3.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:62%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A special occasion</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Cheese shops, Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Handmade. Interesting flavors.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Hard to find.</p>

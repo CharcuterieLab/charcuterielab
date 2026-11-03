@@ -15,7 +15,7 @@ tags: "["best sparkling cider", "sparkling apple cider", "martinelli's sparkling
 > **Quick Answer:** Our top pick for sparkling cider on a charcuterie board is Martinelli's Sparkling Cider (4.8 out of 5). Driest: Welch's Sparkling Apple Cider. For the holidays: R.W. Knudsen Sparkling Cider & Spice. Fruit flavor: Martinelli's Sparkling Apple-Cranberry.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Martinelli&#x27;s Sparkling Cider</a><p class="sk-top-line">The classic, sold almost everywhere in its apple-shaped bottle.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.8 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07H1X95VV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Driest</p><a class="sk-top-name" href="#pick-2">Welch&#x27;s Sparkling Apple Cider</a><p class="sk-top-line">Less sweet, so it goes better with salty meat.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for the holidays</p><a class="sk-top-name" href="#pick-4">R.W. Knudsen Sparkling Cider &amp; Spice</a><p class="sk-top-line">Warm spice that suits a winter board.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=R.W.+Knudsen+Sparkling+Cider+and+Spice" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Martinelli&#x27;s Sparkling Cider</a><p class="sk-top-line">The classic, sold almost everywhere in its apple-shaped bottle.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07H1X95VV" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Driest</p><a class="sk-top-name" href="#pick-2">Welch&#x27;s Sparkling Apple Cider</a><p class="sk-top-line">Less sweet, so it goes better with salty meat.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for the holidays</p><a class="sk-top-name" href="#pick-4">R.W. Knudsen Sparkling Cider &amp; Spice</a><p class="sk-top-line">Warm spice that suits a winter board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=R.W.+Knudsen+Sparkling+Cider+and+Spice" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Martinelli&#x27;s Sparkling Cider</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★★</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every toast</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, especially from November.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The classic, sold almost everywhere in its apple-shaped bottle.</p>
 <p class="sk-mind"><strong>Watch out:</strong> On the sweet side for a savory board.</p>
@@ -36,7 +36,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Driest</p><h3>Welch&#x27;s Sparkling Apple Cider</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A drier, crisper cider</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, seasonally.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Less sweet, so it goes better with salty meat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Easier to find in the holiday season than the rest of the year.</p>
@@ -44,7 +44,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best fruit flavor</p><h3>Martinelli&#x27;s Sparkling Apple-Cranberry</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thanksgiving and Christmas</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Festive color and a tart edge.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Rhett &amp; Link found the cranberry faint (<a href="https://sporked.com/article/rhett-link-gmm-best-martinellis/" target="_blank" rel="noopener">Sporked</a>).</p>
@@ -53,7 +53,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best for the holidays</p><h3>R.W. Knudsen Sparkling Cider &amp; Spice</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A spiced holiday drink</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural-food stores and some grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Warm spice that suits a winter board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasonal and less widely stocked.</p>
@@ -62,7 +62,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Martinelli&#x27;s Organic Sparkling Apple-Pomegranate</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sweet, pink cider</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural-food and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, with a pretty color.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet.</p>
@@ -71,7 +71,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Martinelli&#x27;s Sparkling Apple-Grape</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Kids</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sweet and fruity, a hit with kids.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too sweet for most savory boards.</p>
@@ -80,7 +80,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Martinelli&#x27;s Organic Sparkling Cider</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An organic toast</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural-food and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and long-lasting bubbles.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more than the original.</p>
@@ -89,7 +89,7 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Trader Joe&#x27;s Sparkling Apple Cider</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheap backup</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Tastes more like fizzy juice than the leaders.</p>

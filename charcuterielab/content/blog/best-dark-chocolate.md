@@ -15,7 +15,7 @@ tags: "["best dark chocolate", "best dark chocolate bar", "dark chocolate brands
 > **Quick Answer:** Our top pick for dark chocolate on a charcuterie board is Tony's Chocolonely Dark Chocolate 70% (4.4 out of 5). Value: Choceur Dark Chocolate. Splurge: Valrhona Manjari 64%.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Tony&#x27;s Chocolonely Dark Chocolate 70%</a><p class="sk-top-line">Near the top of two big tests, and Fairtrade.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B087K17C7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Choceur Dark Chocolate</a><p class="sk-top-line">Top-ranked flavor at an Aldi price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.1 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Valrhona Manjari 64%</a><p class="sk-top-line">The most complex, fruity flavor here.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Valrhona+Manjari+64%" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Tony&#x27;s Chocolonely Dark Chocolate 70%</a><p class="sk-top-line">Near the top of two big tests, and Fairtrade.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B087K17C7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Choceur Dark Chocolate</a><p class="sk-top-line">Top-ranked flavor at an Aldi price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Valrhona Manjari 64%</a><p class="sk-top-line">The most complex, fruity flavor here.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Valrhona+Manjari+64%" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Tony&#x27;s Chocolonely Dark Chocolate 70%</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunks on a cheese board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target, Walmart, Whole Foods and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Near the top of two big tests, and Fairtrade.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A thick bar with uneven sections. Break it into rough chunks.</p>
@@ -36,7 +36,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Ghirardelli 72% Cacao Dark Chocolate</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Individually wrapped squares</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store and pharmacy.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Squares are ready to serve, and it&#x27;s in nearly every store.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less complex than the top bars.</p>
@@ -45,7 +45,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Choceur Dark Chocolate</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked flavor at an Aldi price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It contains milk, so it isn&#x27;t vegan, and it&#x27;s only at Aldi.</p>
@@ -53,7 +53,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Godiva 72% Cacao Dark Chocolate</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Neat, wrapped pieces</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Target and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Wrapped sticks look tidy and stay clean on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier per ounce than a bar.</p>
@@ -62,7 +62,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Theo Dark Chocolate Sea Salt 70%</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Salty-sweet with aged cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Target and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and Fairtrade, and the salt suits a cheese board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than the grocery bars.</p>
@@ -71,7 +71,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Trader Joe&#x27;s 72% Cacao Belgian Dark Chocolate</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheap, well-balanced bar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Excellent value, and organic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
@@ -80,7 +80,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best splurge</p><h3>Valrhona Manjari 64%</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A chocolate lover&#x27;s board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Amazon, Whole Foods and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most complex, fruity flavor here.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive and mostly sold online.</p>

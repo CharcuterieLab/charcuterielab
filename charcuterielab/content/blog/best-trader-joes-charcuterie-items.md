@@ -15,7 +15,7 @@ tags: "["trader joe's charcuterie", "best trader joe's charcuterie items", "trad
 > **Quick Answer:** Best TJ's meat: **Salame di Parma Mild Salami** (4.5/5). Best crackers: **Raisin Rosemary Crisps**. Best extras: **Fig Butter** and **Rosemary Marcona Almonds**. Splurge: **Citterio Prosciutto di Parma**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Salame di Parma Mild Salami</a><p class="sk-top-line">Mild enough for everyone, and already sliced.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Raisin Rosemary Crisps</a><p class="sk-top-line">Taste like the pricey artisan crisps for much less.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best extra</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Fig Butter</a><p class="sk-top-line">Fig and cheese is a classic, and the jar is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Salame di Parma Mild Salami</a><p class="sk-top-line">Mild enough for everyone, and already sliced.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-4">Trader Joe&#x27;s Raisin Rosemary Crisps</a><p class="sk-top-line">Taste like the pricey artisan crisps for much less.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best extra</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Fig Butter</a><p class="sk-top-line">Fig and cheese is a classic, and the jar is cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 12, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best meat</p><h3>Trader Joe&#x27;s Salame di Parma Mild Salami</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild enough for everyone, and already sliced.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild, so add a spicier meat if your crowd likes heat.</p>
@@ -36,7 +36,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best extra</p><h3>Trader Joe&#x27;s Fig Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The sweet spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s, near the jams and nut butters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Fig and cheese is a classic, and the jar is cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth rather than chunky, so it&#x27;s easiest served in a small bowl with a spoon.</p>
@@ -45,7 +45,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Trader Joe&#x27;s Spanish Inspired Charcuteria</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Three meats in one pack</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Variety in one pack, and a natural fit for a Spanish board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Three meats in small amounts, so buy two packs for 8 or more guests.</p>
@@ -54,7 +54,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best crackers</p><h3>Trader Joe&#x27;s Raisin Rosemary Crisps</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet-savory crackers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cracker aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Taste like the pricey artisan crisps for much less.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet, so pair them with a plain cracker for the meats.</p>
@@ -63,7 +63,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Trader Joe&#x27;s Roasted &amp; Salted Rosemary Marcona Almonds</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The nut</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s nut aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The rosemary makes them taste special.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Often sells out, so buy them when you see them.</p>
@@ -72,7 +72,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Splurge</p><h3>Citterio Prosciutto di Parma at Trader Joe&#x27;s</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The splurge meat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Proper Parma ham, soft and silky.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more than Trader Joe&#x27;s own sliced prosciutto.</p>
@@ -81,7 +81,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Trader Joe&#x27;s Sliced Prosciutto</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget prosciutto</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and easy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Saltier and less silky than the Citterio.</p>
@@ -90,7 +90,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Trader Joe&#x27;s Sliced Bresaola</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A lean, different meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s deli case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A beef option for guests who skip pork.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Lean and delicate, so drizzle it with olive oil and lemon, or roll it around arugula.</p>
@@ -99,7 +99,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Trader Joe&#x27;s Organic Naan Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An everyday cracker</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cracker aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sturdy and rich, and they go with everything.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thicker than a water cracker.</p>
@@ -108,7 +108,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Trader Joe&#x27;s Green Olive Flats</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A thin, crunchy cracker</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s cracker aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Snappy, thin and good-looking on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Many arrive broken in the thin packaging.</p>
@@ -117,7 +117,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-11">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">11</span><div><h3>Trader Joe&#x27;s Organic Conversation Olive Trio</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The olives</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s refrigerated case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Three olives for the price of one.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not pitted, so put out a small bowl for pits.</p>
@@ -126,7 +126,7 @@ This guide covers meats, crackers, spreads, nuts and olives. For cheese, see the
 </article>
 <article class="sk-card" id="pick-12">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">12</span><div><h3>Trader Joe&#x27;s Organic Apricot Preserves</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A second sweet spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s, near the jams.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Good with blue cheese and brie.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only one roundup mentioned it.</p>

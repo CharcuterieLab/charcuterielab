@@ -15,7 +15,7 @@ tags: "["best pretzels", "best pretzel brands", "pretzels for charcuterie board"
 > **Quick Answer:** Our top pick for pretzels on a charcuterie board is Snack Factory Pretzel Crisps Original (4.7 out of 5). Value: Snyder's of Hanover Snaps. Gluten-free: Snyder's of Hanover Gluten Free Mini Pretzels.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Snack Factory Pretzel Crisps Original</a><p class="sk-top-line">Flat enough to carry cheese and salami like a cracker.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01M63ZHKX" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Snyder&#x27;s of Hanover Snaps</a><p class="sk-top-line">The top-scoring pretzel, cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0BBLZ6CSJ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Gluten-free</p><a class="sk-top-name" href="#pick-5">Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</a><p class="sk-top-line">A gluten-free pretzel that doesn&#x27;t taste like a substitute.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Gluten+Free+Mini+Pretzels" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Snack Factory Pretzel Crisps Original</a><p class="sk-top-line">Flat enough to carry cheese and salami like a cracker.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01M63ZHKX" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Snyder&#x27;s of Hanover Snaps</a><p class="sk-top-line">The top-scoring pretzel, cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0BBLZ6CSJ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Gluten-free</p><a class="sk-top-name" href="#pick-5">Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</a><p class="sk-top-line">A gluten-free pretzel that doesn&#x27;t taste like a substitute.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Snyder&#x27;s+of+Hanover+Gluten+Free+Mini+Pretzels" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Snack Factory Pretzel Crisps Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Topping with cheese and salami</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Flat enough to carry cheese and salami like a cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so they can snap under very firm cheese.</p>
@@ -36,7 +36,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Snyder&#x27;s of Hanover Snaps</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dipping in mustard and beer cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top-scoring pretzel, cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small, so they&#x27;re better for dips than for stacking cheese.</p>
@@ -45,7 +45,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Unique Snacks Extra Dark Splits</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Beer boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Amazon and some grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Deep, toasty flavor that stands up to strong beer and mustard.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find in some stores.</p>
@@ -54,7 +54,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Utz Sourdough Specials Extra Dark</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big, hearty pretzels</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked flavor at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Large and thick, so they take up room and don&#x27;t carry toppings.</p>
@@ -63,7 +63,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Gluten-free</p><h3>Snyder&#x27;s of Hanover Gluten Free Mini Pretzels</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Gluten-free guests</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A gluten-free pretzel that doesn&#x27;t taste like a substitute.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier per ounce than regular pretzels. Keep them away from the regular ones on the board.</p>
@@ -72,7 +72,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>365 by Whole Foods Market Crunchy Pretzel Twists</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Classic twists</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheap, well-made classic twist.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods and Amazon.</p>

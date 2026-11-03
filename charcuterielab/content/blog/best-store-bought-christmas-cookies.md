@@ -16,7 +16,7 @@ tags: "["best store bought christmas cookies", "store bought holiday cookies", "
 > **Quick Answer:** One box: **Pepperidge Farm holiday Milanos**. Spiced crisp: **Anna's Ginger Thins**. For a crowd: **Kirkland European Cookies** (156 pieces, about $17–23). Budget: **Benton's Danish Butter Cookies** at Aldi ($3.89).
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Pepperidge Farm holiday Milanos</a><p class="sk-top-line">Seasonal Milanos that won a 2025 ranking</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pepperidge+Farm+Milano+holiday+cookies" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best gingerbread</p><a class="sk-top-name" href="#pick-4">Anna&#x27;s Ginger Swedish Thins</a><p class="sk-top-line">Paper-thin ginger cookies, 10 out of 10</p></div><div class="sk-top-buy"><span class="sk-price">$2.99 for 5.25 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Anna&#x27;s+Ginger+Thins" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best variety pack</p><a class="sk-top-name" href="#pick-8">Kirkland Signature European Cookies</a><p class="sk-top-line">156 cookies, 15 kinds, one tin</p></div><div class="sk-top-buy"><span class="sk-price">About $17–23</span><a class="button sk-buy-sm" href="https://www.costco.com/.product.181679.html" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Pepperidge Farm holiday Milanos</a><p class="sk-top-line">Seasonal Milanos that won a 2025 ranking</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004SCVM1C" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best gingerbread</p><a class="sk-top-name" href="#pick-4">Anna&#x27;s Ginger Swedish Thins</a><p class="sk-top-line">Paper-thin ginger cookies, 10 out of 10</p></div><div class="sk-top-buy"><span class="sk-price">About $36 for 12</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01N6S5FK6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best variety pack</p><a class="sk-top-name" href="#pick-8">Kirkland Signature European Cookies</a><p class="sk-top-line">156 cookies, 15 kinds, one tin</p></div><div class="sk-top-buy"><span class="sk-price">About $17–23</span><a class="button sk-buy-sm" href="https://www.costco.com/.product.181679.html" target="_blank" rel="noopener">See it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to build the board</a><a href="#christmas-cookie-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Sporked rank</dt><dd>1st of 6 PF holiday cookies</dd></div><div><dt>Peppermint Milano Slices</dt><dd>9.5 / 10</dd></div><div><dt>Season</dt><dd>Holidays only</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Topped one 2025 ranking and a second holiday Milano scored 9.5 in another.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Flavors change every year, so 2026&#x27;s lineup may differ.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Pepperidge+Farm+Milano+holiday+cookies" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B004SCVM1C" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked ranked the Amaretto Hot Chocolate Milano first of six Pepperidge Farm holiday cookies (<a href="https://sporked.com/article/pepperidge-farm-holiday-cookies-ranked/" target="_blank" rel="noopener">Sporked</a>) and scored Peppermint Milano Slices 9.5/10 (<a href="https://sporked.com/article/best-christmas-cookies/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Count</dt><dd>About 32 per pack</dd></div><div><dt>Sporked</dt><dd>8 / 10, crowd-pleaser</dd></div><div><dt>Costco</dt><dd>4 × 8.8 oz for $11.99</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, easy to find all year, and the warm spice suits Christmas.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not festive-looking on its own; Sporked says ginger fans will want more bite.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Lotus+Biscoff+cookies" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B074N4BYPW" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked rated it 8/10 (<a href="https://sporked.com/article/best-gingerbread-cookies/" target="_blank" rel="noopener">Sporked</a>); Harris Teeter lists $4.49 (<a href="https://harristeeter.com/p/lotus-biscoff-cookies/0002178891629" target="_blank" rel="noopener">Harris Teeter</a>) and Eat This the Costco 4-pack (<a href="https://www.eatthis.com/costco-best-christmas-cookies/" target="_blank" rel="noopener">Eat This</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -55,7 +55,7 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Sporked</dt><dd>10 / 10, tied 1st</dd></div><div><dt>Type</dt><dd>Crisp thins</dd></div><div><dt>Price per oz</dt><dd>About 57 cents</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A perfect score in two separate Sporked tests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> They break easily; lay them flat in a stack.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Anna&#x27;s+Ginger+Thins" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01N6S5FK6" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 10/10 in its gingerbread test (<a href="https://sporked.com/article/best-gingerbread-cookies/" target="_blank" rel="noopener">Sporked</a>) and again in its 2025 roundup (<a href="https://sporked.com/article/best-cookies/" target="_blank" rel="noopener">Sporked</a>). ShopRite lists $2.99 (<a href="https://www.shoprite.com/product/00054358011263" target="_blank" rel="noopener">ShopRite</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Sporked</dt><dd>10 / 10 (2025)</dd></div><div><dt>Size</dt><dd>8.5 oz</dd></div><div><dt>Season</dt><dd>Holidays</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The top-scoring packaged cookie in Sporked&#x27;s 2025 holiday test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasonal, and the coating softens near heat.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Oreo+white+fudge+covered+cookies" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000FA393A" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked rated them 10/10 (<a href="https://sporked.com/article/best-christmas-cookies/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +71,6 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Rating</dt><dd>4.7 / 5 at Walmart</dd></div><div><dt>Colors</dt><dd>Seasonal</dd></div><div><dt>Texture</dt><dd>Soft, cakey</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft, colorful and cheap, the obvious pick for kids.</p>
 <p class="sk-mind"><strong>Watch out:</strong> People either love them or find them bland, and they don&#x27;t freeze well.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Lofthouse+frosted+sugar+cookies+holiday" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Walmart lists the 10-count at $3.97 (<a href="https://walmart.com/ip/seort/20670309" target="_blank" rel="noopener">Walmart</a>); TODAY covered the love-or-hate debate (<a href="https://www.today.com/today/amp/tdna159332" target="_blank" rel="noopener">TODAY</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -79,7 +78,7 @@ We picked taste-test winners, one of each texture.
 <dl class="sk-facts"><div><dt>Size</dt><dd>24 oz tin</dd></div><div><dt>Made in</dt><dd>Denmark</dd></div><div><dt>Rating</dt><dd>4.4 / 5 at Walmart</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The reusable blue tin makes it the easiest cookie gift.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Prices vary widely; Aldi&#x27;s version is a close match for much less.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Royal+Dansk+Danish+butter+cookies+tin" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00XM5KSV6" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Wikipedia covers where it&#x27;s made and the tin&#x27;s reuse (<a href="https://en.wikipedia.org/wiki/Royal_Dansk" target="_blank" rel="noopener">Wikipedia</a>); Walmart lists the 24 oz tin (<a href="https://www.walmart.com/ip/Royal-Dansk-GMO-Free-Danish-Butter-Cookies-24-Oz-Tin/422756535" target="_blank" rel="noopener">Walmart</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">

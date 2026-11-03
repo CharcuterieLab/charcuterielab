@@ -16,7 +16,7 @@ tags: "["best gorgonzola cheese", "gorgonzola dolce", "gorgonzola piccante", "be
 > **Quick Answer:** For a board: **Gorgonzola Dolce DOP** (about $18/lb). At the supermarket: **Litehouse Gorgonzola** (Sporked's best Gorgonzola) or **BelGioioso** (creamiest crumbles). Bold: **Igor Piccante**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-1">Gorgonzola Dolce DOP</a><p class="sk-top-line">Spoonably creamy and mild</p></div><div class="sk-top-buy"><span class="sk-price">About $18/lb</span><a class="button sk-buy-sm" href="https://igourmet.com/products/gorgonzola-dolce-dop-cheese-by-piedmont" target="_blank" rel="noopener">See it at igourmet</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best at the supermarket</p><a class="sk-top-name" href="#pick-2">Litehouse Gorgonzola Center Cut</a><p class="sk-top-line">Sporked&#x27;s best Gorgonzola</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Litehouse+gorgonzola+cheese" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crumbles</p><a class="sk-top-name" href="#pick-3">BelGioioso Crumbly Gorgonzola</a><p class="sk-top-line">The creamiest crumbled blue</p></div><div class="sk-top-buy"><span class="sk-price">About $5.40/lb at Costco</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=BelGioioso+gorgonzola" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-1">Gorgonzola Dolce DOP</a><p class="sk-top-line">Spoonably creamy and mild</p></div><div class="sk-top-buy"><span class="sk-price">About $18/lb</span><a class="button sk-buy-sm" href="https://igourmet.com/products/gorgonzola-dolce-dop-cheese-by-piedmont" target="_blank" rel="noopener">See it at igourmet</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best at the supermarket</p><a class="sk-top-name" href="#pick-2">Litehouse Gorgonzola Center Cut</a><p class="sk-top-line">Sporked&#x27;s best Gorgonzola</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crumbles</p><a class="sk-top-name" href="#pick-3">BelGioioso Crumbly Gorgonzola</a><p class="sk-top-line">The creamiest crumbled blue</p></div><div class="sk-top-buy"><span class="sk-price">About $5.40/lb at Costco</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">Dolce vs piccante</a><a href="#gorgonzola-questions">FAQ</a></nav>
 :::
 
@@ -39,7 +39,6 @@ Gorgonzola is the friendliest blue on a board: creamy dolce converts people who 
 <dl class="sk-facts"><div><dt>Score</dt><dd>8/10 at Sporked</dd></div><div><dt>Style</dt><dd>Tangy and creamy</dd></div><div><dt>Where</dt><dd>Most grocery stores</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s best Gorgonzola in its blue cheese test: tangy and creamy, in a wedge you can slice for a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Firmer and saltier than imported dolce.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Litehouse+gorgonzola+cheese" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked's blue cheese ranking (<a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +46,6 @@ Gorgonzola is the friendliest blue on a board: creamy dolce converts people who 
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#2 of 6 blues at Tasting Table</dd></div><div><dt>Style</dt><dd>Moist, nearly spreadable</dd></div><div><dt>Where</dt><dd>Costco, most stores</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tasting Table found it by far the creamiest crumbled blue; Costco sells it by the pound for about $5.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Crumbles look casual; use a wedge for a showpiece board.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=BelGioioso+gorgonzola" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Tasting Table (<a href="https://www.tastingtable.com/2151838/store-bought-blue-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>); Costco price from Warehouse Runner (<a href="https://app.warehouserunner.com/costco/36070-belgioioso-crumbly-gorgonzola-price-per-pound" target="_blank" rel="noopener">Warehouse Runner</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -71,7 +69,6 @@ Gorgonzola is the friendliest blue on a board: creamy dolce converts people who 
 <dl class="sk-facts"><div><dt>Style</dt><dd>Blue-veined triple cream</dd></div><div><dt>From</dt><dd>Germany</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s, Costco, most stores</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A brie-like rind with mild blue veining: the easiest blue for a mixed crowd. ATK&#x27;s tasters called the Black Label as soft and buttery as brie.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not true Gorgonzola.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Cambozola+cheese" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>America's Test Kitchen (<a href="https://www.americastestkitchen.com/taste_tests/1804-crumbled-blue-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>); Sporked tasted Trader Joe's Cambozola (<a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 </div>

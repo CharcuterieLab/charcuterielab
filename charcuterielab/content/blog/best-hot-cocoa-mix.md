@@ -13,10 +13,10 @@ tags: "["best hot cocoa mix", "best hot chocolate mix", "hot cocoa board", "best
 
 # The Best Hot Cocoa Mix for a Hot Cocoa Board
 
-> **Quick Answer:** **Land O Lakes Chocolate Supreme** won two taste tests. Richer: **Ghirardelli Double Chocolate** (about $5.68). For a crowd: **Swiss Miss** 50-count (about $9.68). Dairy-free: **Lake Champlain**.
+> **Quick Answer:** **Land O Lakes Chocolate Supreme** won two taste tests. Richer: **Ghirardelli Double Chocolate** (about $8 for 8 packets). For a crowd: **Swiss Miss** 50-count (about $9.68). Dairy-free: **Lake Champlain**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Land O Lakes Cocoa Classics Chocolate Supreme</a><p class="sk-top-line">Water-only mix that won two tests</p></div><div class="sk-top-buy"><span class="sk-price">About $15 for 14.8 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Land+O+Lakes+Chocolate+Supreme+hot+cocoa" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best rich</p><a class="sk-top-name" href="#pick-2">Ghirardelli Double Chocolate Hot Cocoa</a><p class="sk-top-line">Cocoa plus real unsweetened chocolate</p></div><div class="sk-top-buy"><span class="sk-price">About $5.68</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Ghirardelli+Double+Chocolate+hot+cocoa+mix" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-3">Swiss Miss Milk Chocolate, 50 packets</a><p class="sk-top-line">Single-serve packets, about 19 cents a mug</p></div><div class="sk-top-buy"><span class="sk-price">About $9.68</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Swiss+Miss+milk+chocolate+hot+cocoa+50+count" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Land O Lakes Cocoa Classics Chocolate Supreme</a><p class="sk-top-line">Water-only mix that won two tests</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DBMR91M7" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best rich</p><a class="sk-top-name" href="#pick-2">Ghirardelli Double Chocolate Hot Cocoa</a><p class="sk-top-line">Cocoa plus real unsweetened chocolate</p></div><div class="sk-top-buy"><span class="sk-price">About $8 for 8 packets</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DD3D68Y8" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-3">Swiss Miss Milk Chocolate, 50 packets</a><p class="sk-top-line">Single-serve packets, about 19 cents a mug</p></div><div class="sk-top-buy"><span class="sk-price">About $9.68</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07HFKB7D6" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to set up the board</a><a href="#hot-cocoa-questions">FAQ</a></nav>
 :::
 
@@ -31,15 +31,15 @@ We read nine taste tests and picked the mixes that keep winning.
 <dl class="sk-facts"><div><dt>Made with</dt><dd>Hot water only</dd></div><div><dt>Servings</dt><dd>10 per pouch</dd></div><div><dt>Won</dt><dd>Taste of Home, Parade</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Rich and creamy even with water, so no milk to heat for a crowd.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pack sizes vary on Amazon, so check the count.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Land+O+Lakes+Chocolate+Supreme+hot+cocoa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0DBMR91M7" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Taste of Home named it Best Overall in a blind test (<a href="https://www.tasteofhome.com/article/best-hot-chocolate-brand/" target="_blank" rel="noopener">Taste of Home</a>), and Parade ranked it first of 12 (<a href="https://aol.com/tried-12-popular-hot-chocolate-200000559.html" target="_blank" rel="noopener">Parade via AOL</a>). Walmart lists the 14.8 oz pouch (<a href="https://www.walmart.com/ip/Land-O-Lakes-Cocoa-Classics-Chocolate-Supreme-Mix-14-8-Ounce-Pouch/5070531155" target="_blank" rel="noopener">Walmart</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best rich</p><h3>Ghirardelli Double Chocolate Hot Cocoa</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>10.5 oz, about 12 servings</dd></div><div><dt>Contains</dt><dd>Cocoa and unsweetened chocolate</dd></div><div><dt>Made with</dt><dd>Milk</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>8 packets, 1 oz each</dd></div><div><dt>Contains</dt><dd>Cocoa and unsweetened chocolate</dd></div><div><dt>Made with</dt><dd>Milk</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Three chefs picked it independently, and it placed top 5 in two tests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Buy the Double Chocolate; Ghirardelli&#x27;s Premium Indulgence placed lower.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ghirardelli+Double+Chocolate+hot+cocoa+mix" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0DD3D68Y8" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Tasting Table ranked it 5th of 18 (<a href="https://tastingtable.com/1098797/hot-cocoa-mixes-ranked-from-worst-to-best" target="_blank" rel="noopener">Tasting Table</a>) and Eat This 2nd (<a href="https://www.eatthis.com/best-hot-chocolate-mix/" target="_blank" rel="noopener">Eat This</a>); three chefs named it in The Kitchn (<a href="https://www.thekitchn.com/best-store-bought-hot-cocoa-mix-chefs-23760350" target="_blank" rel="noopener">The Kitchn</a>). H-E-B lists $5.68 (<a href="https://www.heb.com/product-detail/ghirardelli-double-chocolate-premium-hot-cocoa-mix/1716809" target="_blank" rel="noopener">H-E-B</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +47,7 @@ We read nine taste tests and picked the mixes that keep winning.
 <dl class="sk-facts"><div><dt>Count</dt><dd>50 envelopes</dd></div><div><dt>Per packet</dt><dd>One 8 oz mug</dd></div><div><dt>Where</dt><dd>Sam&#x27;s Club, Costco</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Individual packets are the easiest way to stock a self-serve board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It placed mid-pack in head-to-head tests.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Swiss+Miss+milk+chocolate+hot+cocoa+50+count" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07HFKB7D6" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sam&#x27;s Club lists $9.68 for 50, one 8 oz mug each (<a href="https://www.samsclub.com/ip/Swiss-Miss-Milk-Chocolate-Hot-Cocoa-Mix-50-ct/709204765" target="_blank" rel="noopener">Sam&#x27;s Club</a>). Tasting Table ranked it 15th (<a href="https://tastingtable.com/1098797/hot-cocoa-mixes-ranked-from-worst-to-best" target="_blank" rel="noopener">Tasting Table</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -60,10 +60,10 @@ We read nine taste tests and picked the mixes that keep winning.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best café-style</p><h3>Starbucks Classic Hot Cocoa</h3></div></div>
-<dl class="sk-facts"><div><dt>Count</dt><dd>8 servings</dd></div><div><dt>Where</dt><dd>Target, Walmart, Amazon</dd></div><div><dt>Won</dt><dd>Food Network Best Overall</dd></div></dl>
+<dl class="sk-facts"><div><dt>Count</dt><dd>3 boxes of 8 servings</dd></div><div><dt>Where</dt><dd>Target, Walmart, Amazon</dd></div><div><dt>Won</dt><dd>Food Network Best Overall</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Food Network&#x27;s pick, and it placed in several other tests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Prices vary a lot between listings.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Starbucks+Classic+Hot+Cocoa+mix" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0BNLMH395" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food Network named it Best Overall (<a href="https://www.foodnetwork.com/how-to/packages/shopping/best-store-bought-hot-chocolate-mix" target="_blank" rel="noopener">Food Network</a>), and Serious Eats called it the most nostalgic (<a href="https://www.aol.com/taste-tested-19-hot-chocolate-170000544.html" target="_blank" rel="noopener">Serious Eats via AOL</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,15 +71,15 @@ We read nine taste tests and picked the mixes that keep winning.
 <dl class="sk-facts"><div><dt>Ingredients</dt><dd>Sugar, cocoa</dd></div><div><dt>Servings</dt><dd>About 16</dd></div><div><dt>Make with</dt><dd>Dairy or plant milk</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The only highly ranked mix sold as vegan friendly.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Check the label for allergen statements if dairy is a strict no.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Lake+Champlain+traditional+organic+hot+chocolate" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B003SO3WIC" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Eat This ranked it first (<a href="https://www.eatthis.com/best-hot-chocolate-mix/" target="_blank" rel="noopener">Eat This</a>), Tasting Table second (<a href="https://tastingtable.com/1098797/hot-cocoa-mixes-ranked-from-worst-to-best" target="_blank" rel="noopener">Tasting Table</a>), and The Kitchn named a Lake Champlain dark its winner (<a href="https://www.thekitchn.com/best-hot-chocolate-mix-brands-23614597" target="_blank" rel="noopener">The Kitchn</a>). Vegan Essentials lists it (<a href="https://veganessentials.com/products/lake-champlain-hot-chocolate-traditional-16oz" target="_blank" rel="noopener">Vegan Essentials</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best Mexican-style</p><h3>Nestlé Abuelita Instant Mexican-Style</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>8 × 1 oz envelopes</dd></div><div><dt>Contains</dt><dd>Milk, cocoa</dd></div><div><dt>Sporked</dt><dd>La Monarca beat it</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>11.3 oz canister</dd></div><div><dt>Contains</dt><dd>Milk, cocoa</dd></div><div><dt>Sporked</dt><dd>La Monarca beat it</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most widely stocked Mexican-style option.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sporked preferred La Monarca, and Eat This ranked Abuelita 8th.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Abuelita+instant+Mexican+hot+chocolate" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B003YCVYVU" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Nestlé lists the ingredients (<a href="https://www.goodnes.com/abuelita/products/instant-mexican-style-hot-chocolate-mix-8-envelopes/" target="_blank" rel="noopener">Nestlé</a>); Eat This lists $2.69 (<a href="https://www.eatthis.com/best-hot-chocolate-mix/" target="_blank" rel="noopener">Eat This</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">

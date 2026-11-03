@@ -15,7 +15,7 @@ tags: "["best pimento cheese", "best store bought pimento cheese", "pimento chee
 > **Quick Answer:** Our top pick for pimento cheese on a charcuterie board is MyThreeSons Emmy's Original Pimento Cheese (4.4 out of 5). Value: Price's Pimiento Cheese Spread.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">MyThreeSons Emmy&#x27;s Original Pimento Cheese</a><p class="sk-top-line">The most consistent winner in published tests.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Price&#x27;s Pimiento Cheese Spread</a><p class="sk-top-line">Cheap and sold nationwide.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">MyThreeSons Emmy&#x27;s Original Pimento Cheese</a><p class="sk-top-line">The most consistent winner in published tests.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Price&#x27;s Pimiento Cheese Spread</a><p class="sk-top-line">Cheap and sold nationwide.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>MyThreeSons Emmy&#x27;s Original Pimento Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The homemade taste</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix, Harris Teeter, Kroger and some Whole Foods stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most consistent winner in published tests.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Easiest to find in the South.</p>
@@ -36,7 +36,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Queen Charlotte&#x27;s Original Pimento Cheese Royale</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cheese-forward spread</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Publix, Harris Teeter, Kroger, Food Lion and Central Market.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The cheesiest of the bunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some tasters find the spices too much.</p>
@@ -45,7 +45,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Price&#x27;s Pimiento Cheese Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find anywhere</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores and Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and sold nationwide.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Creamier and less cheesy than the top two.</p>
@@ -54,7 +54,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Palmetto Cheese Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The Southern classic</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Southern grocery chains and many national grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Familiar to anyone from the South.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Fewer test wins than the top three.</p>
@@ -63,7 +63,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Callie&#x27;s Hot Little Biscuit Traditional Pimento Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A gift-worthy tub</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Callie&#x27;s online and specialty shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Small-batch and well balanced.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricey and harder to find.</p>
@@ -72,7 +72,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Mrs. Grissom&#x27;s Classic Cheese Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Nostalgia</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger, Walmart and Piggly Wiggly.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Inexpensive.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smoother and milder than the top picks.</p>

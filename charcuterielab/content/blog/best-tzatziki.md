@@ -16,7 +16,7 @@ tags: "["best store bought tzatziki", "best tzatziki", "tzatziki brands", "boar'
 > **Quick Answer:** **Boar's Head Tzatziki** won The Daily Meal's blind test of 7 brands and is the closest to homemade (about $5.99 for 12 oz). For a thick, tangy one, **Karoun Tzatziki Labne**. For a crowd, **Hannah's 2-lb tub** at Costco. Dairy-free: **Trader Joe's Vegan Tzatziki**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Tzatziki Greek Yogurt Dip</a><p class="sk-top-line">Balanced and close to homemade</p></div><div class="sk-top-buy"><span class="sk-price">$5.99 for 12 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+tzatziki" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best thick and tangy</p><a class="sk-top-name" href="#pick-2">Karoun Tzatziki Labne</a><p class="sk-top-line">Made with labne, so it&#x27;s almost spreadable</p></div><div class="sk-top-buy"><span class="sk-price">Check price</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/seort/15545752880" target="_blank" rel="noopener">Find it at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-3">Hannah Tzatziki Greek Style Yogurt Dip (Costco)</a><p class="sk-top-line">A 2-lb tub that won Chowhound&#x27;s Costco test</p></div><div class="sk-top-buy"><span class="sk-price">Costco price</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=tzatziki" target="_blank" rel="noopener">Find it at Costco</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Tzatziki Greek Yogurt Dip</a><p class="sk-top-line">Balanced and close to homemade</p></div><div class="sk-top-buy"><span class="sk-price">$5.99 for 12 oz</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best thick and tangy</p><a class="sk-top-name" href="#pick-2">Karoun Tzatziki Labne</a><p class="sk-top-line">Made with labne, so it&#x27;s almost spreadable</p></div><div class="sk-top-buy"><span class="sk-price">Check price</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/seort/15545752880" target="_blank" rel="noopener">Find it at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a crowd</p><a class="sk-top-name" href="#pick-3">Hannah Tzatziki Greek Style Yogurt Dip (Costco)</a><p class="sk-top-line">A 2-lb tub that won Chowhound&#x27;s Costco test</p></div><div class="sk-top-buy"><span class="sk-price">Costco price</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=tzatziki" target="_blank" rel="noopener">Find it at Costco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">How to use it</a><a href="#tzatziki-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,6 @@ Good tzatziki is thick Greek yogurt, cucumber, garlic and dill in balance. Store
 <dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Base</dt><dd>Greek yogurt, cucumber, dill, garlic, vinegar</dd></div><div><dt>Won</dt><dd>The Daily Meal, 7 brands</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> It won The Daily Meal&#x27;s test for its balance of dairy and dill, with no artificial colors, and the tester called it the only brand they&#x27;d truly recommend.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It&#x27;s thickened with tapioca starch, so it&#x27;s a little smoother than homemade.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+tzatziki" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The Daily Meal ranked it 1st of 7 (<a href="https://www.thedailymeal.com/1503501/tzatziki-brands-ranked/" target="_blank" rel="noopener">The Daily Meal</a>) and repeated the pick in 2026 (<a href="https://www.thedailymeal.com/2108749/best-tzatziki-sauce-boars-head-brand" target="_blank" rel="noopener">The Daily Meal</a>). Kroger lists $5.99 for 12 oz and the ingredients (<a href="https://www.kroger.com/p/p/0004242116260" target="_blank" rel="noopener">Kroger</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -55,7 +54,6 @@ Good tzatziki is thick Greek yogurt, cucumber, garlic and dill in balance. Store
 <dl class="sk-facts"><div><dt>Where</dt><dd>Whole Foods, Amazon</dd></div><div><dt>Sporked</dt><dd>10/10</dd></div><div><dt>Daily Meal</dt><dd>3rd of 7</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked liked its balance of garlic, cucumber, dill and lemon; its looser texture works on skewers and salads.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The Daily Meal found it yogurt-heavy for dipping.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=365+Whole+Foods+tzatziki" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 10/10 (<a href="https://sporked.com/article/best-tzatziki-sauce/" target="_blank" rel="noopener">Sporked</a>); The Daily Meal ranked it 3rd (<a href="https://www.thedailymeal.com/1503501/tzatziki-brands-ranked/" target="_blank" rel="noopener">The Daily Meal</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +61,6 @@ Good tzatziki is thick Greek yogurt, cucumber, garlic and dill in balance. Store
 <dl class="sk-facts"><div><dt>Daily Meal</dt><dd>2nd of 7</dd></div><div><dt>Note</dt><dd>Gluten-free</dd></div><div><dt>Taste</dt><dd>Salt and garlic lead</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The Daily Meal&#x27;s runner-up, and the tester&#x27;s favorite texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Salt and garlic dominate, so it&#x27;s less balanced than Boar&#x27;s Head.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Joseph&#x27;s+tzatziki" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Ranked 2nd by The Daily Meal (<a href="https://www.thedailymeal.com/1503501/tzatziki-brands-ranked/" target="_blank" rel="noopener">The Daily Meal</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +68,6 @@ Good tzatziki is thick Greek yogurt, cucumber, garlic and dill in balance. Store
 <dl class="sk-facts"><div><dt>Sporked</dt><dd>8.5/10</dd></div><div><dt>Daily Meal</dt><dd>4th of 7</dd></div><div><dt>Where</dt><dd>Most supermarkets</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked liked its diced cucumber crunch and cooling flavor, and it&#x27;s one of the easiest to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The Daily Meal found the dairy flavor overpowered the dill.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Cedar&#x27;s+tzatziki" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 8.5 (<a href="https://sporked.com/article/best-tzatziki-sauce/" target="_blank" rel="noopener">Sporked</a>); The Daily Meal ranked it 4th (<a href="https://www.thedailymeal.com/1503501/tzatziki-brands-ranked/" target="_blank" rel="noopener">The Daily Meal</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">

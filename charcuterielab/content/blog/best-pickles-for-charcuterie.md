@@ -15,7 +15,7 @@ tags: "["best pickles", "best pickle brands", "pickles for charcuterie board", "
 > **Quick Answer:** Our top pick for pickles on a charcuterie board is Mt. Olive Kosher Baby Dills (4.5 out of 5). Refrigerated: Claussen Kosher Dill Spears. Cornichons: Maille Cornichons Original.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mt. Olive Kosher Baby Dills</a><p class="sk-top-line">Board-size pickles, cheap and in nearly every store.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07L42YDGZ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-2">Claussen Kosher Dill Spears</a><p class="sk-top-line">Real crunch, because they&#x27;re never cooked.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0CP4GNMNT" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cornichons</p><a class="sk-top-name" href="#pick-5">Maille Cornichons Original</a><p class="sk-top-line">The right size and tartness for a classic board.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Maille+Cornichons+Original" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Mt. Olive Kosher Baby Dills</a><p class="sk-top-line">Board-size pickles, cheap and in nearly every store.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07L42YDGZ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-2">Claussen Kosher Dill Spears</a><p class="sk-top-line">Real crunch, because they&#x27;re never cooked.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0CP4GNMNT" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cornichons</p><a class="sk-top-name" href="#pick-5">Maille Cornichons Original</a><p class="sk-top-line">The right size and tartness for a classic board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Maille+Cornichons+Original" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Mt. Olive Kosher Baby Dills</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Bite-size pickles on any board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Board-size pickles, cheap and in nearly every store.</p>
 <p class="sk-mind"><strong>Watch out:</strong> That test dates from 2017, and shelf-stable jars are never as crisp as refrigerated pickles.</p>
@@ -36,7 +36,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best refrigerated</p><h3>Claussen Kosher Dill Spears</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The crunchiest classic</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>The refrigerated case at most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real crunch, because they&#x27;re never cooked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Spears are big for a board. Cut them in half or into coins.</p>
@@ -45,7 +45,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Grillo&#x27;s Pickles Classic Dill Spears</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh, sour pickles</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>The refrigerated case at Target, Whole Foods and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A clean label and a bright, fresh sourness.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier, with a shorter shelf life.</p>
@@ -53,7 +53,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>OH Snap! Pickle Bites</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>No-mess picnics and travel boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Target and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> No dripping brine on the board, and already bite-size.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweeter than a classic dill, and a pricier way to buy pickles.</p>
@@ -62,7 +62,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best cornichons</p><h3>Maille Cornichons Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The French classic for pâté and salami</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, near the mustards or pickles.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The right size and tartness for a classic board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> No taste test to back it up, and a small jar for the price.</p>
@@ -71,7 +71,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Vlasic Kosher Dill Spears</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget backup</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Softer than the refrigerated pickles, with more additives.</p>

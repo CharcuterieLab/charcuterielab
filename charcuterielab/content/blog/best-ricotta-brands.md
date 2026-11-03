@@ -16,7 +16,7 @@ tags: "["best ricotta cheese", "best ricotta brand", "belgioioso ricotta", "whip
 > **Quick Answer:** **BelGioioso Ricotta con Latte** won America's Test Kitchen's tasting; **Organic Valley** won Sporked's (10/10). For whipped ricotta with honey: **Galbani**, dense and lightly sweet. Budget: **Great Value**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">BelGioioso Ricotta con Latte Whole Milk</a><p class="sk-top-line">ATK&#x27;s clear favorite</p></div><div class="sk-top-buy"><span class="sk-price">About $4 for 16 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=BelGioioso+Ricotta+con+Latte+whole+milk" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for whipped ricotta</p><a class="sk-top-name" href="#pick-4">Galbani Whole Milk Ricotta</a><p class="sk-top-line">Dense and lightly sweet</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Galbani+whole+milk+ricotta" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-5">Great Value Part-Skim Ricotta</a><p class="sk-top-line">8.5/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Walmart store brand</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=great+value+part+skim+ricotta" target="_blank" rel="noopener">See it at Walmart</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">BelGioioso Ricotta con Latte Whole Milk</a><p class="sk-top-line">ATK&#x27;s clear favorite</p></div><div class="sk-top-buy"><span class="sk-price">About $4 for 16 oz</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for whipped ricotta</p><a class="sk-top-name" href="#pick-4">Galbani Whole Milk Ricotta</a><p class="sk-top-line">Dense and lightly sweet</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-5">Great Value Part-Skim Ricotta</a><p class="sk-top-line">8.5/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Walmart store brand</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=great+value+part+skim+ricotta" target="_blank" rel="noopener">See it at Walmart</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">How to pick and serve it</a><a href="#ricotta-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,6 @@ On a board, ricotta shows up whipped in a bowl with honey and crostini. The tast
 <dl class="sk-facts"><div><dt>Made with</dt><dd>Whey and whole milk</dd></div><div><dt>Texture</dt><dd>Dense, very creamy</dd></div><div><dt>Where</dt><dd>Most supermarkets</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> America&#x27;s Test Kitchen&#x27;s winner: dense, ultra-creamy and lightly sweet, packed gently so the curds stay intact. Good plain and baked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> ATK&#x27;s tasting is from 2016; it&#x27;s still widely sold, but recipes and prices can change.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=BelGioioso+Ricotta+con+Latte+whole+milk" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>ATK's tasting and price at testing (<a href="https://www.americastestkitchen.com/taste_tests/1726-whole-milk-ricotta-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +38,6 @@ On a board, ricotta shows up whipped in a bowl with honey and crostini. The tast
 <dl class="sk-facts"><div><dt>Score</dt><dd>10/10 at Sporked</dd></div><div><dt>Milk</dt><dd>Organic, pasture-raised</dd></div><div><dt>Texture</dt><dd>Loose, curdy</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s best of the best: grassy, fresh and the closest to homemade ricotta of any brand they tried.</p>
 <p class="sk-mind"><strong>Watch out:</strong> ATK&#x27;s panel marked it down for a loose, cottage-cheese texture. Strain it 30 minutes before whipping.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Organic+Valley+whole+milk+ricotta" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://sporked.com/article/best-ricotta-cheese/" target="_blank" rel="noopener">Sporked</a>; <a href="https://www.americastestkitchen.com/taste_tests/1726-whole-milk-ricotta-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>; straining tip from <a href="https://www.177milkstreet.com/stories/strain-your-ricotta" target="_blank" rel="noopener">Milk Street</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +45,6 @@ On a board, ricotta shows up whipped in a bowl with honey and crostini. The tast
 <dl class="sk-facts"><div><dt>Score</dt><dd>9.5/10 at Sporked</dd></div><div><dt>Flavor</dt><dd>Mild, neutral</dd></div><div><dt>Where</dt><dd>Most supermarkets</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild and just curdy enough to mix with herbs, lemon or honey without turning soupy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Neutral flavor needs seasoning: salt, lemon zest and good olive oil.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Polly-O+ricotta" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked's ranking (<a href="https://sporked.com/article/best-ricotta-cheese/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +52,6 @@ On a board, ricotta shows up whipped in a bowl with honey and crostini. The tast
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#2 at ATK</dd></div><div><dt>Score</dt><dd>8/10 at Sporked</dd></div><div><dt>Texture</dt><dd>Thick, like cream cheese</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> ATK&#x27;s runner-up and Sporked&#x27;s best dense ricotta: thick and a little sweet, so it whips up smooth and holds a swirl of honey.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains gums, and it&#x27;s stiff to fold into fillings.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Galbani+whole+milk+ricotta" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/1726-whole-milk-ricotta-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>; <a href="https://sporked.com/article/best-ricotta-cheese/" target="_blank" rel="noopener">Sporked</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -71,7 +67,6 @@ On a board, ricotta shows up whipped in a bowl with honey and crostini. The tast
 <dl class="sk-facts"><div><dt>Made with</dt><dd>Milk and salt only</dd></div><div><dt>From</dt><dd>Sonoma County, CA</dd></div><div><dt>Where</dt><dd>Cheese shops</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Milk Street&#x27;s taste-test winner: rich and buttery with tender curds, made from nothing but milk and salt.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find and short-lived; buy it close to the day you serve it.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bellwether+Farms+basket+ricotta" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Milk Street's tasting (<a href="https://www.177milkstreet.com/stories/ricotta" target="_blank" rel="noopener">Milk Street</a>).</p></details>
 </article>
 </div>

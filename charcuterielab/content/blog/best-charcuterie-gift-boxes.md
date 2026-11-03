@@ -15,7 +15,7 @@ tags: "["best charcuterie gift box", "meat and cheese gift basket", "charcuterie
 > **Quick Answer:** Top pick: **Harry & David Ultimate Meat and Cheese Gift Box** (about $110, 5.5 lb). Arrives already arranged: **Boarderie**. Budget: **Swiss Colony**. Splurge: **Zingerman's**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">A lot of food for the price, from a brand people recognize.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Ready to serve</p><a class="sk-top-name" href="#pick-2">Boarderie Classic Cheese &amp; Charcuterie Board</a><p class="sk-top-line">No assembly. Open it and put it out.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For cured-meat lovers</p><a class="sk-top-name" href="#pick-3">Olympia Provisions European Charcuterie Box</a><p class="sk-top-line">Craft salami from a respected Portland salumeria.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">A lot of food for the price, from a brand people recognize.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Ready to serve</p><a class="sk-top-name" href="#pick-2">Boarderie Classic Cheese &amp; Charcuterie Board</a><p class="sk-top-line">No assembly. Open it and put it out.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$$</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For cured-meat lovers</p><a class="sk-top-name" href="#pick-3">Olympia Provisions European Charcuterie Box</a><p class="sk-top-line">Craft salami from a respected Portland salumeria.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Harry &amp; David Ultimate Meat and Cheese Gift Box</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Feeding a family</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Harry &amp; David online, Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A lot of food for the price, from a brand people recognize.</p>
 <p class="sk-mind"><strong>Watch out:</strong> You arrange it yourself, and the cheeses are crowd-pleasers rather than rare finds.</p>
@@ -36,7 +36,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Ready to serve</p><h3>Boarderie Classic Cheese &amp; Charcuterie Board</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A board that arrives assembled</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Boarderie online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> No assembly. Open it and put it out.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs more for the amount of food, since you&#x27;re paying for the board and the arranging.</p>
@@ -45,7 +45,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">For cured-meat lovers</p><h3>Olympia Provisions European Charcuterie Box</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cured-meat lovers</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Olympia Provisions online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Craft salami from a respected Portland salumeria.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The contents change with what&#x27;s available, and a board costs extra.</p>
@@ -54,7 +54,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Murray&#x27;s Cheese MVP Platter</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Cheese lovers</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Murray&#x27;s Cheese online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheeses you won&#x27;t find in a supermarket box.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some assembly needed, and the cheeses are perishable, so it must be refrigerated on arrival.</p>
@@ -63,7 +63,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Splurge</p><h3>Zingerman&#x27;s Charcuterie and Cheese Gift Box</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A food lover who has everything</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Zingerman&#x27;s online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Unusual, high-quality picks from a famous Ann Arbor deli.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The most expensive box here.</p>
@@ -72,7 +72,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Di Bruno Bros. Abbondanza Gift Box</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Philadelphia classic</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Di Bruno Bros. online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good mix of savory and sweet.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smaller than the Harry &amp; David box at a similar price.</p>
@@ -81,7 +81,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Tapas the José Andrés Way</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Spanish-food fan</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Goldbelly.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real ibérico ham, and a full tapas night in a box.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The croquetas need cooking, so it&#x27;s less grab-and-serve.</p>
@@ -90,7 +90,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Wisconsin Cheese Company Ultimate Man Cave</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A lot of summer sausage</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Wisconsin Cheese Company online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big portions for the price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Simple: sausage, two cheeses and crackers.</p>
@@ -99,7 +99,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><p class="sk-pill">Budget</p><h3>The Swiss Colony Sausage and Cheese Bars</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A small, cheap gift</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Swiss Colony online, Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, shelf-stable sausage, and easy to mail.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild, familiar flavors, not a gourmet box.</p>
@@ -108,7 +108,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Hickory Farms Farmhouse Sausage and Cheese Gift Box</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A last-minute gift</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Hickory Farms online, Amazon, Walmart and holiday kiosks.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and in many stores in December.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Testers found the quality disappointing.</p>

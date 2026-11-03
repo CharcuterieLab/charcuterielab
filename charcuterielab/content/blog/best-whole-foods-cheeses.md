@@ -15,7 +15,7 @@ tags: "["best whole foods cheese", "whole foods cheese", "whole foods charcuteri
 > **Quick Answer:** Top pick: **Isigny Sainte-Mère Double Cream Brie** (4.3/5), tied with **Vermont Creamery Bijou**. Value: **Sartori BellaVitano**. Splurge: **Uplands Pleasant Ridge Reserve**, a three-time best in show.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Isigny Sainte-Mère Double Cream Brie</a><p class="sk-top-line">Richer than most grocery brie, at a fair price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Sartori BellaVitano</a><p class="sk-top-line">Liked by almost everyone, and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Uplands Pleasant Ridge Reserve</a><p class="sk-top-line">One of the most awarded American cheeses.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.1 · $$$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Isigny Sainte-Mère Double Cream Brie</a><p class="sk-top-line">Richer than most grocery brie, at a fair price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Sartori BellaVitano</a><p class="sk-top-line">Liked by almost everyone, and easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Uplands Pleasant Ridge Reserve</a><p class="sk-top-line">One of the most awarded American cheeses.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $$$</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Isigny Sainte-Mère Double Cream Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese counter.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Richer than most grocery brie, at a fair price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Take it out 20 to 30 minutes before serving so it softens.</p>
@@ -36,7 +36,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Vermont Creamery Bijou</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A small, pretty goat cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Looks impressive with no effort.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small, so buy one pack per 4 to 6 guests.</p>
@@ -45,7 +45,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Sartori BellaVitano</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A crowd-pleaser</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Liked by almost everyone, and easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The flavored versions are strong, so pick one.</p>
@@ -54,7 +54,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Splurge</p><h3>Uplands Pleasant Ridge Reserve</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese-lover&#x27;s board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods cheese counter. Ask if it&#x27;s not out.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> One of the most awarded American cheeses.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive, and not every store has it.</p>
@@ -63,7 +63,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Jasper Hill Harbison</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.1 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.1 out of 5"><span class="sk-label">Our score</span><b>4.1</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:82%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A spoonable centerpiece</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods cheese counter.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Peel back the top rind and it becomes the star of the board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricey, and ripe wheels run. Serve it on a plate.</p>
@@ -72,7 +72,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Cypress Grove Humboldt Fog</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A goat cheese with a wow factor</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods cheese counter.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Looks and tastes special.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive per ounce.</p>
@@ -81,7 +81,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>El Trigal Manchego, aged 6 months</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Spanish board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese counter.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A good everyday Manchego.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than older Manchego.</p>
@@ -90,7 +90,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Somerdale Wensleydale with Cranberries</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sweet, crumbly cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Festive and kid-friendly.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet, so it suits holiday and dessert boards best.</p>
@@ -99,7 +99,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Roth 3 Chile Pepper Gouda</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A little heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Keeps a board from being boring.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not for guests who avoid spice.</p>
@@ -108,7 +108,7 @@ Whole Foods carries cheese-shop cheeses. Here are the best for a board, and two 
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>Klare Melk Raw Gouda with Truffle</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A truffle cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Earthy truffle flavor that suits a fall or winter board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Truffle divides people, and it&#x27;s made from raw milk.</p>

@@ -15,7 +15,7 @@ tags: "["best provolone", "provolone brands", "best provolone cheese", "sharp pr
 > **Quick Answer:** Our top pick for provolone on a charcuterie board is Boar's Head Picante Provolone (4.7 out of 5). Smoky pick: Red Apple Smoked Provolone. Value: Kroger Smoke Flavored Provolone.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Picante Provolone</a><p class="sk-top-line">Sharp, funky and the best-reviewed provolone you can buy.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Smoky pick</p><a class="sk-top-name" href="#pick-5">Red Apple Smoked Provolone</a><p class="sk-top-line">Real wood smoke, not smoke flavoring.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Kroger Smoke Flavored Provolone</a><p class="sk-top-line">Cheap and flavorful.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Picante Provolone</a><p class="sk-top-line">Sharp, funky and the best-reviewed provolone you can buy.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Smoky pick</p><a class="sk-top-name" href="#pick-5">Red Apple Smoked Provolone</a><p class="sk-top-line">Real wood smoke, not smoke flavoring.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Kroger Smoke Flavored Provolone</a><p class="sk-top-line">Cheap and flavorful.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boar&#x27;s Head Picante Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sharp provolone for the board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Boar&#x27;s Head deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sharp, funky and the best-reviewed provolone you can buy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong for kids and cautious eaters. Pair it with a mild cheese.</p>
@@ -36,7 +36,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Primo Taglio Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smoky, tangy everyday provolone</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons and sister stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great flavor at a store-brand price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Albertsons-family stores (Safeway, Albertsons, Vons, Jewel-Osco and others).</p>
@@ -45,7 +45,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Boar&#x27;s Head 44% Lower Sodium Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests watching salt</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Boar&#x27;s Head deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Lower in salt without tasting like a compromise.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild, so it&#x27;s better sliced for roll-ups than cubed.</p>
@@ -54,7 +54,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Tillamook Farmstyle Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smoky sliced provolone</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find in the dairy case, with real smoky flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pre-sliced, so it&#x27;s best for roll-ups and sliders.</p>
@@ -63,7 +63,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Smoky pick</p><h3>Red Apple Smoked Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A naturally smoked cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty grocers and cheese counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real wood smoke, not smoke flavoring.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find than the big brands.</p>
@@ -72,7 +72,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best value</p><h3>Kroger Smoke Flavored Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget smoky provolone</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger-family stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and flavorful.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smoke flavored rather than smoked.</p>
@@ -81,7 +81,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Lucerne Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An Albertsons budget pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons and sister stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and decent.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Lucerne&#x27;s other cheeses got mixed reviews.</p>
@@ -90,7 +90,7 @@ For a board, buy sharp (picante) provolone and cut it into chunks. Mild sliced p
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Prima Della Non Smoked Provolone</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sandwiches</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Inexpensive and easy to find at Walmart.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild and plain on a board.</p>

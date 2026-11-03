@@ -14,7 +14,7 @@ slug: "best-fig-jam"
 > **Quick Answer:** Our top pick for fig jam on a charcuterie board is Dalmatia Original Fig Spread (4.4 out of 5). Best value: Bonne Maman Fig Preserves. Splurge: Stonewall Kitchen Fig & Ginger Jam.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Dalmatia Original Fig Spread</a><p class="sk-top-line">Thick and seedy. Widely stocked.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.4 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B005GGUITQ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Bonne Maman Fig Preserves</a><p class="sk-top-line">Figs first. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00R4G6JIU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Stonewall Kitchen Fig &amp; Ginger Jam</a><p class="sk-top-line">Top-ranked. Bright flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000M5JUJA" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Dalmatia Original Fig Spread</a><p class="sk-top-line">Thick and seedy. Widely stocked.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B005GGUITQ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Bonne Maman Fig Preserves</a><p class="sk-top-line">Figs first. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00R4G6JIU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Stonewall Kitchen Fig &amp; Ginger Jam</a><p class="sk-top-line">Top-ranked. Bright flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000M5JUJA" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Dalmatia Original Fig Spread</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.4 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The board standard</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, most grocery, cheese shops.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick and seedy. Widely stocked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweeter than Italian fig jams.</p>
@@ -35,7 +35,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Stonewall Kitchen Fig &amp; Ginger Jam</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Blue and aged cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Grocery, specialty stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Bright flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Ginger makes it less versatile.</p>
@@ -44,7 +44,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Bonne Maman Fig Preserves</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Figs first. Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A looser preserve, not a thick spread.</p>
@@ -53,7 +53,7 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Trader Joe&#x27;s Fig Butter</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget and smooth</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very cheap. Spreads easily.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, so less texture.</p>

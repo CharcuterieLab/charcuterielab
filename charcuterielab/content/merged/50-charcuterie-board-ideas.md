@@ -15,7 +15,7 @@ A board is not a still life. It is a small piece of engineering with a job to do
 
 What follows is fifty distinct board concepts, each built for a specific occasion, guest count and budget. For each one you get the shape of the idea, what it runs, roughly how long it takes, and the one detail that makes it work — the thing that would not be obvious from looking at a photo.
 
-These are drawn from [Charcuterie Lab: 50 Boards, Built by Science](https://www.amazon.com/dp/B0H2Y39R41), where each of these fifty gets a full blueprint: exact quantities, the build order, substitutions, and the optional upgrades. Think of this page as the table of contents with the reasoning left in.
+These are drawn from [Charcuterie Lab: 50 Boards, Built by Science](https://www.amazon.com/dp/B0HLHVXRXK), where each of these fifty gets a full blueprint: exact quantities, the build order, substitutions, and the optional upgrades. Think of this page as the table of contents with the reasoning left in.
 
 If you are still finding your footing, start with our [charcuterie board ideas framework](/blog/charcuterie-board-ideas/) — it covers the structural logic that all fifty of these sit on top of.
 
@@ -99,7 +99,7 @@ Every guest has one hand occupied by a glass, so anything requiring a knife will
 
 Champagne's yeast ageing produces nucleotides that meet aged Gruyère's glutamate, and the combination measures as more savoury than either part. Add truffle honey and you get a three-way synergy that is genuinely more than the sum of its parts. Build it late in the evening rather than early — this is a board with a deadline. And point the Champagne cork away from the board when you open it.
 
-*Each of these has its full pairing chart and pour order in [the book](https://www.amazon.com/dp/B0H2Y39R41).*
+*Each of these has its full pairing chart and pour order in [the book](https://www.amazon.com/dp/B0HLHVXRXK).*
 
 # The Holiday Calendar
 
@@ -303,7 +303,7 @@ Large grazing tables fail for a reason nobody anticipates: if guests can only ap
 
 Smoked salmon and capers is a pairing with actual chemistry behind it: the capric acid in capers cleaves the salmon's long-chain omega-3 fats, which is why the combination tastes cleaner than salmon alone. Everything bagel seasoning is doing more than decoration too — sesame contributes sesaminol, which carries its own bitter-sweet complexity. The croissant, for the record, descends from the Austrian kipferl.
 
-*Guest counts, shopping quantities and make-ahead timings for all fifty are worked out in [the book](https://www.amazon.com/dp/B0H2Y39R41) so you are not doing the arithmetic at the shop.*
+*Guest counts, shopping quantities and make-ahead timings for all fifty are worked out in [the book](https://www.amazon.com/dp/B0HLHVXRXK) so you are not doing the arithmetic at the shop.*
 
 # Dietary Boards, Built Properly
 
@@ -475,4 +475,4 @@ If you have built a few and want the next real step, take the Wine & Cheese Pair
 
 And if you are cooking for a specific date — Thanksgiving, a wedding, a fiftieth — go straight to that board. The constraints are already solved.
 
-Every one of these fifty has a full blueprint in [Charcuterie Lab: 50 Boards, Built by Science](https://www.amazon.com/dp/B0H2Y39R41): the exact shopping list with quantities and prices, the build order with timings, substitutions for anything your shop does not carry, and the optional upgrades worth paying for. It is the version of this page with nothing left out.
+Every one of these fifty has a full blueprint in [Charcuterie Lab: 50 Boards, Built by Science](https://www.amazon.com/dp/B0HLHVXRXK): the exact shopping list with quantities and prices, the build order with timings, substitutions for anything your shop does not carry, and the optional upgrades worth paying for. It is the version of this page with nothing left out.

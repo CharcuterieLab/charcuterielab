@@ -15,7 +15,7 @@ tags: "["best tortilla chips", "best store bought tortilla chips", "tortilla chi
 > **Quick Answer:** Our top pick for tortilla chips on a charcuterie board is On The Border Café Style (4.7 out of 5). Organic: Late July Organic Sea Salt. Value: Tostitos Original Restaurant Style.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">On The Border Café Style</a><p class="sk-top-line">Light but sturdy, so it scoops thick dips without breaking.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07VC91TBW" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-2">Late July Organic Sea Salt</a><p class="sk-top-line">Organic corn and a short ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B09H3MHYMZ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Tostitos Original Restaurant Style</a><p class="sk-top-line">Cheap and available everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Tostitos+Original+Restaurant+Style" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">On The Border Café Style</a><p class="sk-top-line">Light but sturdy, so it scoops thick dips without breaking.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07VC91TBW" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best organic</p><a class="sk-top-name" href="#pick-2">Late July Organic Sea Salt</a><p class="sk-top-line">Organic corn and a short ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B09H3MHYMZ" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Tostitos Original Restaurant Style</a><p class="sk-top-line">Cheap and available everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Tostitos+Original+Restaurant+Style" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>On The Border Café Style</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dips and nachos</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store, Target and Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Light but sturdy, so it scoops thick dips without breaking.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Salty, and the big bags go stale fast once opened.</p>
@@ -36,7 +36,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best organic</p><h3>Late July Organic Sea Salt</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Organic and lighter</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target, Whole Foods, Kroger and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic corn and a short ingredient list.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so it can crack in very thick dips.</p>
@@ -45,7 +45,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>El Nacho Original Sea Salt &quot;OG&quot;</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A restaurant-style splurge</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Select grocery stores and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Balanced salt and a real restaurant crunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Newer brand, so it&#x27;s harder to find and costs more.</p>
@@ -54,7 +54,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Xochitl White Corn Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Snacking with salsa</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores, Costco and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Great plain or with thin salsa.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too thin for loaded nachos.</p>
@@ -63,7 +63,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best value</p><h3>Tostitos Original Restaurant Style</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and available everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less corn flavor than the winners.</p>
@@ -72,7 +72,7 @@ The chip has to scoop salsa and survive queso without snapping. One brand keeps 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Siete Sea Salt Tortilla Chips (Maíz)</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Avocado-oil chips</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Target, Whole Foods, Kroger and Costco (varies).</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Fried in avocado oil, with a short ingredient list.</p>
 <p class="sk-mind"><strong>Watch out:</strong> One of the priciest chips per ounce.</p>

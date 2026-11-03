@@ -15,7 +15,7 @@ tags: "["costco charcuterie", "best costco cheese", "costco charcuterie board", 
 > **Quick Answer:** The best cheese at Costco for a charcuterie board is Kirkland Signature Manchego (4.5 out of 5). Best meat: Columbus Salame. Best crackers: Crunchmaster Multi-Seed (4.7), which also covers gluten-free guests. Splurge: the 10 to 12 month Comté.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP Manchego at a bulk price.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-6">Columbus Salame</a><p class="sk-top-line">Easy to slice or fold, and a crowd-pleaser.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-1">Crunchmaster Multi-Seed Crackers</a><p class="sk-top-line">One cracker that works for nearly every guest.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheese</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP Manchego at a bulk price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best meat</p><a class="sk-top-name" href="#pick-6">Columbus Salame</a><p class="sk-top-line">Easy to slice or fold, and a crowd-pleaser.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-6">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best crackers</p><a class="sk-top-name" href="#pick-1">Crunchmaster Multi-Seed Crackers</a><p class="sk-top-line">One cracker that works for nearly every guest.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 12, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best crackers</p><h3>Crunchmaster Multi-Seed Crackers</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Gluten-free guests</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco snack aisle, about $10.99 for 28 oz.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> One cracker that works for nearly every guest.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain flavor. Add a baguette for guests who want bread.</p>
@@ -36,7 +36,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Carr&#x27;s Table Water Crackers Variety Pack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Letting the cheese lead</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco snack aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Plain and crisp, so it never fights the cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Breaks under very firm cheese. Pair it with a sturdier cracker.</p>
@@ -45,7 +45,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best cheese</p><h3>Kirkland Signature Manchego DOP (6 months)</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco cheese case, about $20 to $23 a pack.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real DOP Manchego at a bulk price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild for an aged cheese. <a href="https://www.thedailymeal.com/2028097/best-worst-costco-kirkland-cheese-items/" target="_blank" rel="noopener">Daily Meal</a> found it pleasant but not exciting.</p>
@@ -54,7 +54,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Kirkland Signature Coastal English Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A sharp, crunchy cheddar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best-reviewed Kirkland cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Stock varies by warehouse.</p>
@@ -63,7 +63,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Boursin Garlic &amp; Fine Herbs, 3-pack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A spreadable cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Guests always finish it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Crumbly and soft, so give it its own small plate or a knife.</p>
@@ -72,7 +72,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best meat</p><h3>Columbus Salame</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco deli case, about $13 to $14 a pack.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to slice or fold, and a crowd-pleaser.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pre-sliced packs dry out fast once opened. Open them on the day.</p>
@@ -81,7 +81,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Kirkland Signature Fresh Goat Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A tangy spread</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco cheese case, about $8 to $9 for two logs.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, and two logs cover a big board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild. Roll a log in herbs or cracked pepper for more flavor.</p>
@@ -90,7 +90,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Kirkland Signature Parmigiano-Reggiano</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Parmigiano-Reggiano for much less than a cheese counter.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Break it into rough chunks with a knife tip. Slices are too hard.</p>
@@ -99,7 +99,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><h3>Kirkland Signature Reduced Sodium Dry Salame</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A second salami</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco deli case, about $13.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Strong review for a store brand.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than a full-salt salame.</p>
@@ -108,7 +108,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><p class="sk-pill">Splurge</p><h3>Comté, aged 10 to 12 months</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A big holiday board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Some Costco warehouses and Costco.com.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheese-shop cheese for a large crowd.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive up front, and not every warehouse carries it.</p>
@@ -117,7 +117,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-11">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">11</span><div><h3>Sunny Fruit Organic Dried Figs</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The sweet element</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco dried fruit aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sweet and chewy next to blue cheese and Manchego.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A very big bag for one board.</p>
@@ -126,7 +126,7 @@ Costco is the cheapest way to feed a crowd from a board, as long as you buy the 
 </article>
 <article class="sk-card" id="pick-12">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">12</span><div><h3>Citterio Prosciutto di Parma, 18 Month</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real Parma ham in bulk</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco deli case, about $12 to $17 a pack.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real Parma ham at a low price per ounce.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Chewier than deli-sliced prosciutto. Tear it into ribbons.</p>

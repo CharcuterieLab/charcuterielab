@@ -15,7 +15,7 @@ tags: "["heb charcuterie", "heb charcuterie board", "h-e-b cheese", "heb deli", 
 > **Quick Answer:** Best cheese at H-E-B: **Kerrygold Aged Irish Cheddar** (4.6/5, about $5.74). Best H-E-B brand picks: the **fresh guacamole**, **Triple Crème Brie** and **Post Oak Smoked Pimento Cheese**. Get deli-sliced dry salami.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Aged Irish Cheddar</a><p class="sk-top-line">Sharp, crumbly and cheap for an imported cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.6 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best H-E-B pick</p><a class="sk-top-name" href="#pick-3">H-E-B Fresh-Made Guacamole</a><p class="sk-top-line">Fresh, not shelf-stable, and it tastes it.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">H-E-B Deli Artisan Triple Crème Brie</a><p class="sk-top-line">Buttery and spoonable, and cheap for a triple crème.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.0 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kerrygold Aged Irish Cheddar</a><p class="sk-top-line">Sharp, crumbly and cheap for an imported cheddar.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best H-E-B pick</p><a class="sk-top-name" href="#pick-3">H-E-B Fresh-Made Guacamole</a><p class="sk-top-line">Fresh, not shelf-stable, and it tastes it.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best soft cheese</p><a class="sk-top-name" href="#pick-5">H-E-B Deli Artisan Triple Crème Brie</a><p class="sk-top-line">Buttery and spoonable, and cheap for a triple crème.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-5">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kerrygold Aged Irish Cheddar</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case, about $5.74.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sharp, crumbly and cheap for an imported cheddar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The 7 oz blocks go fast; buy two for 8 or more guests.</p>
@@ -36,7 +36,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Sartori SarVecchio Parmesan</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Breaking into chunks</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Crunchy crystals and less expensive than imported Parmigiano.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It isn&#x27;t Parmigiano Reggiano; for that, H-E-B carries Galli.</p>
@@ -45,7 +45,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best H-E-B pick</p><h3>H-E-B Fresh-Made Guacamole</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Tex-Mex corner</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B produce or deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Fresh, not shelf-stable, and it tastes it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It browns once opened. Put it out last with tortilla chips.</p>
@@ -54,7 +54,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best Texas twist</p><h3>H-E-B Deli Post Oak Smoked Pimento Cheese</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A Texas twist</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Smoky and creamy, and it tastes like Texas.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Keep it cold and put it out last.</p>
@@ -63,7 +63,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best soft cheese</p><h3>H-E-B Deli Artisan Triple Crème Brie</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The soft cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Buttery and spoonable, and cheap for a triple crème.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews. Take it out 20 to 30 minutes before serving.</p>
@@ -72,7 +72,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>H-E-B Cheddar Lone Stars</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Kids and casual boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B cracker aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Fun, cheap and Texas-shaped.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too small and salty for spreading cheese. Use them as a snack, not a cracker.</p>
@@ -81,7 +81,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>H-E-B Deli Double Crème Brie, fresh cut</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheaper brie</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cut to the size you need.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than the triple crème.</p>
@@ -90,7 +90,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Galli Parmigiano Reggiano</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real Parmigiano</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>H-E-B deli cheese case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The real thing, with the protected name.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews, and pricier than SarVecchio.</p>
@@ -99,7 +99,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-9">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">9</span><div><p class="sk-pill">Best meat</p><h3>H-E-B Deli Uncured Italian Dry Salami</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.6 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The main meat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sliced to order, so it&#x27;s fresh and folds well.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Ask for it thin. Few published reviews.</p>
@@ -108,7 +108,7 @@ H-E-B's own cheeses get mixed reviews. Mix national-brand cheese with H-E-B's de
 </article>
 <article class="sk-card" id="pick-10">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><h3>H-E-B Deli Cheese Board, Everyone&#x27;s Favorite</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A board for two</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>H-E-B Deli, about $9.98.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A date-night board in one box.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too small for a party. Use it as a starter and add your own cheese.</p>

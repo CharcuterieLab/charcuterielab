@@ -70,7 +70,6 @@ No taste test exists, so we picked on shopper ratings, ingredients and price. Se
 <dl class="sk-facts"><div><dt>Weight</dt><dd>9 oz</dd></div><div><dt>Coating</dt><dd>Almonds</dd></div><div><dt>Season</dt><dd>Fall and holidays</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The brand&#x27;s sweet cranberry ball, made for the fall and holiday season.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Seasonal; we couldn&#x27;t confirm it&#x27;s back for 2026.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Kaukauna+cranberry+cheese+ball" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Bel Brands&#x27; launch release gives 9 oz, the almond coating and a $4.49 to $5.99 suggested price (<a href="https://belbrandsusa.com/news/kaukauna-debuts-two-new-seasonal-cheese-balls-cranberry-cream-cheese-and-four-cheese-sun-dried-tomato/" target="_blank" rel="noopener">Bel Brands</a>). A trade report says it&#x27;s limited to the fall and holiday seasons (<a href="https://refrigeratedfrozenfood.com/articles/100655-kaukauna-rolls-out-limited-edition-seasonal-fall-cheese-balls-in-2-flavors" target="_blank" rel="noopener">Refrigerated &amp; Frozen Foods</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">

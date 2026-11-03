@@ -15,7 +15,7 @@ tags: "["best kettle chips", "best kettle cooked chips", "potato chip brands ran
 > **Quick Answer:** Our top pick for kettle chips on a charcuterie board is Cape Cod Original Sea Salt Kettle Cooked Chips (4.7 out of 5). Crunchiest: Miss Vickie's Original Kettle Cooked Chips. Value: Lay's Kettle Cooked Original.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cape Cod Original Sea Salt Kettle Cooked Chips</a><p class="sk-top-line">Balanced salt that doesn&#x27;t fight the cheese.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07V7KVJ2C" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Crunchiest</p><a class="sk-top-name" href="#pick-2">Miss Vickie&#x27;s Original Kettle Cooked Chips</a><p class="sk-top-line">Robust enough for the thickest dip.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07DQ8LG11" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Lay&#x27;s Kettle Cooked Original</a><p class="sk-top-line">Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00T8EKW7A" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cape Cod Original Sea Salt Kettle Cooked Chips</a><p class="sk-top-line">Balanced salt that doesn&#x27;t fight the cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07V7KVJ2C" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Crunchiest</p><a class="sk-top-name" href="#pick-2">Miss Vickie&#x27;s Original Kettle Cooked Chips</a><p class="sk-top-line">Robust enough for the thickest dip.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07DQ8LG11" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Lay&#x27;s Kettle Cooked Original</a><p class="sk-top-line">Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00T8EKW7A" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Cape Cod Original Sea Salt Kettle Cooked Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Balanced salt that doesn&#x27;t fight the cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Lots of small and broken pieces at the bottom of the bag.</p>
@@ -36,7 +36,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Crunchiest</p><h3>Miss Vickie&#x27;s Original Kettle Cooked Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Thick dips</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and Walmart.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Robust enough for the thickest dip.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
@@ -45,7 +45,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Lay&#x27;s Kettle Cooked Original</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Familiar flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> <a href="https://www.eatthis.com/kettle-cooked-potato-chips-taste-test" target="_blank" rel="noopener">Eat This, Not That</a> found it oily.</p>
@@ -54,7 +54,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Kettle Brand Sea Salt</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Potato lovers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big potato flavor and crunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Salty and heavy.</p>
@@ -63,7 +63,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Deep River Original Kettle Cooked Chips</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The crunchiest bite</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big crunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The test is from 2018, and it is less widely stocked.</p>
@@ -72,7 +72,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Zapp&#x27;s Regular Flavor</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A different-tasting chip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Southern grocers and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A New Orleans classic with real character.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find outside the South.</p>

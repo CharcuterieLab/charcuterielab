@@ -15,7 +15,7 @@ tags: "["best pepper jack", "pepper jack cheese brands", "best pepper jack chees
 > **Quick Answer:** Our top pick for pepper jack on a charcuterie board is Cabot Pepper Jack (4.7 out of 5). Mildest heat: Tillamook Pepper Jack. Hottest: Sargento Carolina Reaper Jack. Organic: Trader Joe's Organic Pepper Jack.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cabot Pepper Jack</a><p class="sk-top-line">Creamy with real heat, from a well-loved Vermont co-op.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Mildest heat</p><a class="sk-top-name" href="#pick-2">Tillamook Pepper Jack</a><p class="sk-top-line">Mild heat and a creamy texture.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Hottest</p><a class="sk-top-name" href="#pick-4">Sargento Carolina Reaper Jack</a><p class="sk-top-line">Very hot, for the chili fans at the party.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.9 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Cabot Pepper Jack</a><p class="sk-top-line">Creamy with real heat, from a well-loved Vermont co-op.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Mildest heat</p><a class="sk-top-name" href="#pick-2">Tillamook Pepper Jack</a><p class="sk-top-line">Mild heat and a creamy texture.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Hottest</p><a class="sk-top-name" href="#pick-4">Sargento Carolina Reaper Jack</a><p class="sk-top-line">Very hot, for the chili fans at the party.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Cabot Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The all-rounder</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, in blocks and slices.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy with real heat, from a well-loved Vermont co-op.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The heat builds, so cut small cubes.</p>
@@ -36,7 +36,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Mildest heat</p><h3>Tillamook Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Guests new to spicy cheese</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild heat and a creamy texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less fire than Cabot.</p>
@@ -45,7 +45,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Lucerne Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A budget block</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons, Vons, Jewel-Osco and sister stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and good.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Albertsons-family stores.</p>
@@ -54,7 +54,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Hottest</p><h3>Sargento Carolina Reaper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Heat lovers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very hot, for the chili fans at the party.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too hot for most guests. Label it.</p>
@@ -63,7 +63,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Organic</p><h3>Trader Joe&#x27;s Organic Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An organic pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic, with balanced heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find than other Trader Joe&#x27;s cheeses.</p>
@@ -72,7 +72,7 @@ Creamy cheese with a kick, made for summer sausage, salsa and beer on game day.
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Sprouts Sliced Pepper Jack</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Slider and sandwich boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Sprouts.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Well-rated by shoppers, and cheap.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Slices, so best for sandwiches and sliders.</p>

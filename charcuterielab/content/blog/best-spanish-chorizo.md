@@ -14,7 +14,7 @@ slug: "best-spanish-chorizo"
 > **Quick Answer:** Our top pick for Spanish chorizo on a charcuterie board is Palacios Chorizo (mild or hot) (4.3 out of 5). Best value: Columbus Spanish Style Chorizo Salame. Splurge: Fermín Chorizo Ibérico.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Palacios Chorizo (mild or hot)</a><p class="sk-top-line">Everywhere. Mild and hot versions.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.3 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CVBOTG2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Columbus Spanish Style Chorizo Salame</a><p class="sk-top-line">Available. Consistent.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fermín Chorizo Ibérico</a><p class="sk-top-line">Ibérico pork. Rich flavor.</p></div><div class="sk-top-buy"><span class="sk-price">★ 3.8 · $$$</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Palacios Chorizo (mild or hot)</a><p class="sk-top-line">Everywhere. Mild and hot versions.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CVBOTG2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Columbus Spanish Style Chorizo Salame</a><p class="sk-top-line">Available. Consistent.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fermín Chorizo Ibérico</a><p class="sk-top-line">Ibérico pork. Rich flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 4, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,7 +26,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Palacios Chorizo (mild or hot)</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.3 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday Spanish chorizo</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Mild and hot versions.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published taste tests.</p>
@@ -35,7 +35,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Fermín Chorizo Ibérico</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.8 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Ibérico richness</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Ibérico pork. Rich flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
@@ -43,7 +43,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Columbus Spanish Style Chorizo Salame</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>American-made option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Available. Consistent.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not imported Spanish chorizo.</p>
@@ -51,7 +51,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>MeatCrafters Chorizo de Pamplona</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★☆☆</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Clean ingredients</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Amazon, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean label.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly online.</p>

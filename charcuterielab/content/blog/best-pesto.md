@@ -15,7 +15,7 @@ tags: "["best store bought pesto", "best pesto brand", "jarred pesto", "pesto fo
 > **Quick Answer:** Our top pick for pesto on a charcuterie board is Kirkland Signature Basil Pesto (4.7 out of 5). Shelf-stable: DeLallo Simply Pesto Traditional Basil. Budget: Good & Gather Basil Pesto.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Basil Pesto</a><p class="sk-top-line">Tastes homemade, at a low price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.7 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shelf-stable</p><a class="sk-top-name" href="#pick-3">DeLallo Simply Pesto Traditional Basil</a><p class="sk-top-line">The best shelf-stable pesto in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Good &amp; Gather Basil Pesto</a><p class="sk-top-line">Cheap and good.</p></div><div class="sk-top-buy"><span class="sk-price">★ 4.2 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Basil Pesto</a><p class="sk-top-line">Tastes homemade, at a low price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shelf-stable</p><a class="sk-top-name" href="#pick-3">DeLallo Simply Pesto Traditional Basil</a><p class="sk-top-line">The best shelf-stable pesto in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-3">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Good &amp; Gather Basil Pesto</a><p class="sk-top-line">Cheap and good.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-4">See details</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -27,7 +27,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kirkland Signature Basil Pesto</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.7 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.7 out of 5"><span class="sk-label">Our score</span><b>4.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:94%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh-tasting pesto</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco (refrigerated case).</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes homemade, at a low price per ounce.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A large jar, and it&#x27;s refrigerated. Freeze what you won&#x27;t use.</p>
@@ -36,7 +36,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Buitoni Pesto with Basil</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★★½</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Chunky pesto for spooning</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, in the refrigerated pasta case.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick enough to spoon onto burrata without running.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A small tub for the price.</p>
@@ -45,7 +45,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best shelf-stable</p><h3>DeLallo Simply Pesto Traditional Basil</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A pantry jar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and Italian aisles.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The best shelf-stable pesto in a published test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Jarred pesto is never quite as bright as fresh.</p>
@@ -54,7 +54,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best budget</p><h3>Good &amp; Gather Basil Pesto</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.2 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget boards</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and good.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Target.</p>
@@ -63,7 +63,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Nuovo Pasta Classic Basil Genovese Pesto</h3></div></div>
-<div class="sk-score" aria-label="Rated 4.0 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Restaurant-style flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery refrigerated pasta cases.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Bold, fresh flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong garlic and salt.</p>
@@ -72,7 +72,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Gotham Greens Classic Pesto</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.9 out of 5"><span class="sk-stars" aria-hidden="true">★★★★☆</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Short ingredient list</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and other grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean and fresh.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked.</p>
@@ -81,7 +81,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Seggiano Fresh Genovese Basil Pesto</h3></div></div>
-<div class="sk-score" aria-label="Rated 3.5 out of 5"><span class="sk-stars" aria-hidden="true">★★★½☆</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
+<div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A splurge jar</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Pure ingredients, and vegan.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive, and no cheese.</p>

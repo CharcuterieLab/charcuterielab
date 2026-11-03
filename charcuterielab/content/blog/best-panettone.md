@@ -16,7 +16,7 @@ tags: "["best panettone", "best panettone brands", "olivieri panettone", "bauduc
 > **Quick Answer:** The best: **Olivieri 1882 Classic** (about $90). Under $30: **Ferrara Bakery Panettone Alto** or **Madi Gran Panettone** (about $21). For a board: **Bauducco mini panettones**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olivieri 1882 Classic Panettone</a><p class="sk-top-line">Three taste tests&#x27; favorite</p></div><div class="sk-top-buy"><span class="sk-price">About $90</span><a class="button sk-buy-sm" href="https://store.177milkstreet.com/products/olivieri-1882-classic-panettone" target="_blank" rel="noopener">See it at Milk Street</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Madi Gran Panettone</a><p class="sk-top-line">Fragrant and affordable</p></div><div class="sk-top-buy"><span class="sk-price">About $21</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Madi+Gran+Panettone" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-4">Bauducco Classic Mini Panettone</a><p class="sk-top-line">Single-size minis, 10/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Bauducco+mini+panettone+classic" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olivieri 1882 Classic Panettone</a><p class="sk-top-line">Three taste tests&#x27; favorite</p></div><div class="sk-top-buy"><span class="sk-price">About $90</span><a class="button sk-buy-sm" href="https://store.177milkstreet.com/products/olivieri-1882-classic-panettone" target="_blank" rel="noopener">See it at Milk Street</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Madi Gran Panettone</a><p class="sk-top-line">Fragrant and affordable</p></div><div class="sk-top-buy"><span class="sk-price">About $21</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FP5RDM7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for a board</p><a class="sk-top-name" href="#pick-4">Bauducco Classic Mini Panettone</a><p class="sk-top-line">Single-size minis, 10/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">Panettone on a board</a><a href="#panettone-questions">FAQ</a></nav>
 :::
 
@@ -39,7 +39,6 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>From</dt><dd>Ferrara Bakery, New York</dd></div><div><dt>Style</dt><dd>Tall classic</dd></div><div><dt>Fruit</dt><dd>Light on candied orange</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Wirecutter&#x27;s pick under $30: close to Olivieri, with less candied orange.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Paler and plainer than the artisan loaves.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ferrara+Bakery+panettone" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Wirecutter's test via Scatti di Gusto (<a href="https://www.scattidigusto.it/il-miglior-panettone-2024-per-il-new-york-times-e-olivieri-1882" target="_blank" rel="noopener">Scatti di Gusto</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +46,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>Price</dt><dd>About $21</dd></div><div><dt>Style</dt><dd>Classic</dd></div><div><dt>Tested by</dt><dd>Food &amp; Wine</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Food &amp; Wine&#x27;s best value of 14: fragrant and classic for about $21.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some tasters found it a little dry.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Madi+Gran+Panettone" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0FP5RDM7Q" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food & Wine lists $21 (<a href="https://www.aol.com/tried-14-panettoni-favorite-best-180000307.html" target="_blank" rel="noopener">Food &amp; Wine</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +54,6 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>Size</dt><dd>Minis</dd></div><div><dt>Score</dt><dd>10/10 at Sporked</dd></div><div><dt>Where</dt><dd>Most grocery stores</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft, fruity and not too sweet, and minis slice into neat wedges for a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A mass-market panettone, not artisan; buy a big loaf from the list above for a showpiece.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bauducco+mini+panettone+classic" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 10/10 (<a href="https://sporked.com/article/best-fruit-cake/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +61,6 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>Flavor</dt><dd>Limoncello cream</dd></div><div><dt>Score</dt><dd>10/10 at Sporked</dd></div><div><dt>Pairs with</dt><dd>Mascarpone, prosecco</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Light bread with real lemon flavor and bits of candied lemon; Sporked&#x27;s best flavored panettone.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too sweet next to strong blue cheese; serve it with mascarpone or ricotta.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Muzzi+limoncello+panettone" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 10/10 (<a href="https://sporked.com/article/best-fruit-cake/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +68,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>Price</dt><dd>About $34</dd></div><div><dt>Mix-ins</dt><dd>Milk chocolate drops</dd></div><div><dt>Citrus</dt><dd>None</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Soft, moist and full of chocolate, with no candied fruit for guests who pick it out anyway.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milk chocolate makes it sweet; skip it for a savory cheese board.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ofner+panettone+chocolate" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09D27QJRX" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food & Wine named it best for chocolate lovers at $34 (<a href="https://www.aol.com/tried-14-panettoni-favorite-best-180000307.html" target="_blank" rel="noopener">Food &amp; Wine</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -79,7 +76,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>From</dt><dd>Modena, Italy</dd></div><div><dt>Mix-ins</dt><dd>Balsamic-soaked raisins, black cherry</dd></div><div><dt>Where</dt><dd>Amazon</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Made by a balsamic vinegar house, with balsamic-soaked raisins: a natural match for Parmesan and aged cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A slightly drier finish than the top picks.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Giusti+panettone" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0H3PZN739" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The Kitchn lists $55 at Amazon (<a href="https://www.thekitchn.com/4-ridiculously-delicious-panettones-thatll-transport-you-straight-to-italy-23755556" target="_blank" rel="noopener">The Kitchn</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
@@ -87,7 +84,7 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <dl class="sk-facts"><div><dt>Starter</dt><dd>40+ years old</dd></div><div><dt>Butter</dt><dd>French Normandy</dd></div><div><dt>Where</dt><dd>Market Hall Foods</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A family bakery loaf made with an old sourdough starter, Normandy butter and bourbon vanilla.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Specialty shops only, and it sells out.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Filippi+panettone+classico" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B015UL0SF0" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The Kitchn lists $58 at Market Hall Foods (<a href="https://www.thekitchn.com/4-ridiculously-delicious-panettones-thatll-transport-you-straight-to-italy-23755556" target="_blank" rel="noopener">The Kitchn</a>).</p></details>
 </article>
 </div>
