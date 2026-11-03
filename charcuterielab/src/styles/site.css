@@ -6264,3 +6264,54 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .bp-head h2 { font-size: 1.35rem; }
   .bp-start-grid > :nth-child(3) { grid-column: 1 / -1; }
 }
+
+/* Holidays hub upgrade (3 Nov 2026) */
+.hx-hero { position: relative; display: block; margin: 16px 0 6px; border-radius: 16px; overflow: hidden; box-shadow: 0 14px 30px rgba(55, 35, 25, 0.16); }
+.hx-hero img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: var(--cream); }
+.hx-hero-cap { position: absolute; left: 12px; bottom: 12px; display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; padding: 8px 12px; border-radius: 10px; background: rgba(43, 26, 16, 0.86); color: #fff9eb; font: 700 15px var(--sans); }
+.hx-hero-cap > span:first-child { padding: 2px 8px; border-radius: 999px; background: var(--gold); color: #2b1a10; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+.hx-hero-cap .hol-count { margin: 0; background: none; padding: 0; color: #f3d9a6; }
+.hx-cal-wrap, .hx-row { margin: 34px 0 6px; }
+.hx-cal-wrap h2, .hx-row h2 { margin: 0 0 4px; font-size: 1.55rem; }
+.hx-sub { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+.hx-cal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.hx-cal li { margin: 0; }
+.hx-cal li[hidden] { display: none; }
+.hx-cal a { display: grid; gap: 3px; height: 100%; padding: 12px 14px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); color: var(--ink); text-decoration: none; }
+.hx-cal a:hover { border-color: var(--green); }
+.hx-cal li.is-next a { border: 2px solid var(--gold); background: #fffaf0; }
+.hx-cal-date { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font: 800 12px var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: #9b2f22; }
+.hx-cal-in { font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.hx-cal strong { font-family: var(--serif); font-size: 1.15rem; color: var(--green-deep); }
+.hx-cal-todo { font-size: 14.5px; line-height: 1.45; color: var(--muted); }
+.hx-tiles { list-style: none; margin: 0; padding: 0 0 8px; display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.hx-tiles li { flex: 0 0 180px; margin: 0; scroll-snap-align: start; }
+.hx-tiles a { display: flex; flex-direction: column; gap: 3px; height: 100%; padding: 8px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); color: var(--ink); text-decoration: none; }
+.hx-tiles a:hover { border-color: var(--green); }
+.hx-tiles img { width: 100%; height: 110px; object-fit: cover; border-radius: 8px; background: var(--cream); margin-bottom: 4px; }
+.hx-k { font: 800 11px var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: #9b2f22; }
+.hx-tiles strong { font: 700 15px/1.3 var(--sans); color: var(--green-deep); }
+.hx-s { font-size: 13px; color: var(--muted); }
+@media (max-width: 640px) {
+  .hx-cal { grid-template-columns: 1fr; gap: 8px; }
+  .hx-tiles li { flex-basis: 150px; }
+  .hx-tiles img { height: 92px; }
+  .hx-hero-cap { font-size: 14px; }
+}
+
+/* Dietary hub upgrade (3 Nov 2026) */
+.dt-qs-h { margin: 22px 0 8px; font-size: 1.1rem; }
+.dt-brow { margin-top: 18px; }
+.dt-brow-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-bottom: 8px; }
+.dt-brow-head h3 { margin: 0; font-size: 1.15rem; }
+.dt-brow-head a { font: 700 14px var(--sans); color: var(--green); }
+.bl-grid.dt-board-row { display: flex !important; gap: 12px; overflow-x: auto; padding: 0 0 8px; margin: 0; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.bl-grid.dt-board-row > li { flex: 0 0 230px; scroll-snap-align: start; }
+@media (max-width: 640px) { .bl-grid.dt-board-row > li { flex-basis: 190px; } }
+@media (max-width: 640px) {
+  .hol-main .hol-next { grid-template-columns: 1fr; gap: 8px; }
+  .hol-main .hol-next-card { flex-direction: row; align-items: center; }
+  .hol-main .hol-next-card img { width: 96px; flex: 0 0 96px; aspect-ratio: 1 / 1; }
+  .hol-main .hol-next-body { padding: 10px 14px; }
+  .hol-main .hol-next-body strong { font-size: 1.1rem; }
+}

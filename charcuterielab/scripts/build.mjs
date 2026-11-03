@@ -3160,7 +3160,7 @@ async function build() {
       const ingTitles = new Map(ingredients.map((i) => [i.slug, i.title]));
       const blogTitles2 = new Map(posts.map((post) => [post.slug, post.title]));
       await mkdir(join(dist, "holidays"), { recursive: true });
-      await writeFile(join(dist, "holidays", "index.html"), holidaysHub(boardHelpers, holidays, { season: seasonRow(boardHelpers, holidays, boards, { kicker: "Coming up", link: false, id: "hol-season-h" }) }));
+      await writeFile(join(dist, "holidays", "index.html"), holidaysHub(boardHelpers, holidays, { season: seasonRow(boardHelpers, holidays, boards, { kicker: "Coming up", link: false, id: "hol-season-h" }), posts, boards, bestCards: BEST_CARDS }));
       for (const hol of holidays) {
         await mkdir(join(dist, "holidays", hol.slug), { recursive: true });
         const pour = holidayPourBlock(boardHelpers, pairIdx, hol.slug);
@@ -3201,7 +3201,7 @@ async function build() {
       const dietJson = dietaryClientData(dietIdx, CATEGORY_ORDER);
       await writeFile(join(dist, "assets", "dietary.js"), dietScript);
       await writeFile(join(dist, "assets", "dietary-data.json"), dietJson);
-      const dietH = { ...boardHelpers, newsletterUrl };
+      const dietH = { ...boardHelpers, newsletterUrl, allBoards: boards, postSlugs: new Set(posts.map((p) => p.slug)) };
       const pages = dietaryPages(dietH, dietIdx, {
         categories: CATEGORY_ORDER,
         scriptSrc: `/assets/dietary.js?v=${hash(dietScript)}`,

@@ -15,6 +15,7 @@
 
 import { readFile } from "node:fs/promises";
 import { bhForm } from "./funnel.mjs";
+import { card as boardCard } from "./boards.mjs";
 import { join } from "node:path";
 
 export const DIET_ORDER = ["gluten-free", "nut-free", "vegetarian", "vegan", "dairy-free"];
@@ -272,6 +273,40 @@ export function dietaryPages(h, idx, { categories, scriptSrc, dataSrc }) {
       { q: "What replaces nuts on a nut-free board?", a: "Roasted pumpkin and sunflower seeds, bought from a nut-free facility." }
     ];
     const swaps = idx.diets.flatMap((d) => d.swaps.slice(0, 2).map((s) => ({ ...s, d })));
+    // Dietary hub upgrade (3 Nov 2026): diets the checker doesn't cover get a
+    // card that leads to the boards and posts written for them, and every
+    // diet-friendly board is one tap away, holiday ones first in Nov-Dec.
+    const allBoards = h.allBoards || [];
+    const bBy = new Map(allBoards.map((b) => [b.slug, b]));
+    const postOk = (s) => !h.postSlugs || h.postSlugs.has(s);
+    const keto = allBoards.filter((b) => b.book === "keto" || b.category === "keto-low-carb");
+    const plant = allBoards.filter((b) => b.book === "plant" || b.slug === "vegan-charcuterie-board");
+    const more = [
+      { name: "Keto and low-carb", href: "/boards/keto-low-carb/", color: "#7a5a1e", text: `No crackers, more cheese and meat: ${keto.length} keto boards with net carbs per serving, from a 15-minute weeknight board to Thanksgiving.`, k: `${keto.length} board plans`, ok: keto.length > 0 },
+      { name: "Pregnancy-safe", href: "/blog/pregnancy-safe-charcuterie-board/", color: "#8f4a6b", text: "Skip cold cured meat, raw-milk cheese, refrigerated pâté and smoked salmon. Swap in prosciutto crisps, baked brie and pasteurized cheese.", k: "What to skip and what to swap", ok: postOk("pregnancy-safe-charcuterie-board") },
+      { name: "Kid-friendly", href: bBy.has("kid-friendly-charcuterie-board") ? "/boards/kid-friendly-charcuterie-board/" : "/blog/charcuterie-board-for-kids/", color: "#2f6f8f", text: "Mild cheeses, easy finger food and fun shapes, sized for a kids' party.", k: "Board plan and ideas", ok: bBy.has("kid-friendly-charcuterie-board") || postOk("charcuterie-board-for-kids") },
+      { name: "Dairy-free", href: "/blog/dairy-free-charcuterie-board/", color: "#4e6b3a", text: "Dairy-free without going vegan: cured meats, plant cheeses, and the crackers and spreads that hide butter.", k: "Swaps and a full board", ok: postOk("dairy-free-charcuterie-board") }
+    ].filter((x) => x.ok);
+    const moreDiets = more.length ? `<section class="bl-section" aria-labelledby="more-diets-h">
+      <h2 id="more-diets-h">More diets</h2>
+      <ul class="pr-tiles dt-tiles">
+        ${more.map((d) => `<li><a href="${d.href}" style="--t:${d.color}"><strong>${B(d.name)}</strong><span>${B(d.text)}</span><em>${B(d.k)}</em></a></li>`).join("\n        ")}
+      </ul>
+    </section>` : "";
+    const row = (title, list, href, label) => list.length ? `<div class="dt-brow">
+        <div class="dt-brow-head"><h3>${B(title)}</h3>${href ? `<a href="${href}">${B(label || `All ${list.length}`)} &rarr;</a>` : ""}</div>
+        <ul class="bl-grid dt-board-row">${list.slice(0, 8).map((b) => boardCard(b, h)).join("")}</ul>
+      </div>` : "";
+    const HOL_DIET = ["keto-thanksgiving-charcuterie-board", "plant-based-fall-harvest-board", "keto-christmas-charcuterie-board", "plant-based-holiday-board", "keto-game-day-board", "plant-based-date-night-board"].map((s) => bBy.get(s)).filter(Boolean);
+    const gfKids = ["gluten-free-charcuterie-board", "dairy-free-keto-board", "kid-friendly-charcuterie-board", "vegan-charcuterie-board"].map((s) => bBy.get(s)).filter(Boolean);
+    const boardRows = allBoards.length ? `<section class="bl-section dt-boards-sec" id="diet-boards" aria-labelledby="diet-boards-h">
+      <h2 id="diet-boards-h">Boards for every diet</h2>
+      <p class="bl-note">Full board plans built for the diet, each with a shopping list. Swipe for more.</p>
+      ${row("Holiday boards for every diet", HOL_DIET, "", "")}
+      ${row("Plant-based and vegan", plant, "/boards/plant-based/", `All ${plant.length} plant-based boards`)}
+      ${row("Keto and low-carb", keto, "/boards/keto-low-carb/", `All ${keto.length} keto boards`)}
+      ${row("Gluten-free, dairy-free and kids", gfKids, "/boards/dietary-kids/", "More dietary boards")}
+    </section>` : "";
     const body = `
     <header class="pr-hero dt-hero">
       <p class="eyebrow">Dietary Hub</p>
@@ -304,6 +339,10 @@ export function dietaryPages(h, idx, { categories, scriptSrc, dataSrc }) {
       <p class="bl-note">Several diets at one party? Read <a href="/dietary/mixed-diets/">one board or two</a> first.</p>
     </section>
 
+    ${moreDiets}
+
+    ${boardRows}
+
     <section class="bl-section" aria-labelledby="swaps-h">
       <h2 id="swaps-h">The swap chart</h2>
       <div class="dt-table-wrap"><table class="dt-table dt-swaps">
@@ -315,14 +354,11 @@ export function dietaryPages(h, idx, { categories, scriptSrc, dataSrc }) {
     ${labelsLead(h, "dt-labels-hub", "diet_labels_hub")}
     ${kitCard(h, "mixed-diet-party-planner", "diet_checker")}
 
-    <section class="bl-section" aria-labelledby="qs-h">
-      <h2 id="qs-h">Most-asked questions</h2>
-      <ul class="dt-qlist">${idx.questions.map((q) => `<li><a href="/dietary/questions/${q.slug}/">${B(q.q)}</a> <span class="dt-verdict-sm">${B(q.verdict)}</span></li>`).join("")}</ul>
-    </section>
-
     <section class="bl-section" id="faq" aria-labelledby="faq-h">
       <h2 id="faq-h">Questions</h2>
       ${faqHtml(h, faq)}
+      <h3 class="dt-qs-h">Quick answers</h3>
+      <ul class="dt-qlist">${idx.questions.map((q) => `<li><a href="/dietary/questions/${q.slug}/">${B(q.q)}</a> <span class="dt-verdict-sm">${B(q.verdict)}</span></li>`).join("")}</ul>
     </section>
     <p class="dt-reviewed">Reviewed ${B(longDate(idx.pages.updated))}. Verdicts are a starting point for shopping. For a serious allergy or celiac disease, read every label and ask your guest. <a href="/dietary/how-we-classify/">How we classify ingredients</a>.</p>`;
     add(url, page(h, idx, {

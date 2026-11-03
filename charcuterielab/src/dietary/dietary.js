@@ -8,7 +8,7 @@ const gIn = document.getElementById("dt-guests");
 const NAMES = ["Safe", "Check the label", "Skip"];
 const CLS = ["dt-safe", "dt-check", "dt-skip"];
 let D = null;
-const state = { diets: [], q: "", guests: 12 };
+const state = { diets: [], q: "", guests: 12, auto: false };
 
 const h = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const list = (a) => (a.length <= 1 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]);
@@ -70,7 +70,8 @@ function render() {
       <a class="button primary" href="${build}">Build this board for ${state.guests} guests</a>
     </div>
     <ul class="dt-advice">${advice().map((t) => `<li>${t}</li>`).join("")}</ul>
-    ${groups.map((g, v) => g.length ? `<details class="dt-group ${CLS[v]}"${v < 2 || q ? " open" : ""}>
+    ${state.auto ? `<p class="dt-hint">Showing gluten-free to start. Tap any diet above to change it, or open a list below.</p>` : ""}
+    ${groups.map((g, v) => g.length ? `<details class="dt-group ${CLS[v]}"${!state.auto && (v < 2 || q) ? " open" : ""}>
       <summary><span class="dt-badge ${CLS[v]}">${NAMES[v]}</span> ${g.length} ingredient${g.length === 1 ? "" : "s"}</summary>
       ${D.cats.map((c, ci) => { const rows = g.filter(([it]) => it[2] === ci); return rows.length ? `<h4>${h(c)} <span>${rows.length}</span></h4><ul class="dt-items">${rows.map(([it, why]) => `<li><a href="/ingredients/${it[0]}/">${h(it[1])}</a>${v > 0 || q ? `<span class="dt-why">${h(why.join(" "))}</span>` : ""}</li>`).join("")}</ul>` : ""; }).join("")}
     </details>` : "").join("")}
@@ -90,6 +91,8 @@ function boot(data) {
   D = data;
   const p = new URLSearchParams(location.search);
   state.diets = (p.get("d") || "").split(",").filter((k) => D.diets.some((d) => d.key === k));
+  // Start on gluten-free (3 Nov 2026) so the first view shows what the checker does.
+  if (!state.diets.length && D.diets.some((d) => d.key === "gluten-free")) { state.diets = ["gluten-free"]; state.auto = true; }
   const g = parseInt(p.get("g"), 10);
   if (g >= 2 && g <= 200) state.guests = g;
   gIn.value = state.guests;
@@ -97,11 +100,12 @@ function boot(data) {
     const b = e.target.closest("[data-diet]");
     if (!b) return;
     const k = b.dataset.diet;
-    state.diets = state.diets.includes(k) ? state.diets.filter((x) => x !== k) : [...state.diets, k];
+    if (state.auto) { state.auto = false; state.diets = k === "gluten-free" ? [] : [k]; }
+    else state.diets = state.diets.includes(k) ? state.diets.filter((x) => x !== k) : [...state.diets, k];
     render();
     syncUrl();
   });
-  qIn.addEventListener("input", () => { state.q = qIn.value; render(); });
+  qIn.addEventListener("input", () => { state.q = qIn.value; state.auto = false; render(); });
   gIn.addEventListener("change", () => {
     const n = parseInt(gIn.value, 10);
     state.guests = n >= 2 && n <= 200 ? n : 12;

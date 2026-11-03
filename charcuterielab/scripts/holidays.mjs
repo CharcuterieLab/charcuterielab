@@ -292,17 +292,78 @@ function holidayNext(h, hol) {
     </section>`;
 }
 
-export function holidaysHub(h, holidays, { season = "" } = {}) {
+// Holidays hub upgrade (3 Nov 2026): a photo up top, the season's calendar
+// (what to do this week, worked out on the visitor's clock), shaped boards,
+// holiday board ideas from the blog, holiday shopping from Best Buys, and
+// every holiday in date order (Halloween no longer shows next year's date
+// above Thanksgiving).
+const HUB_SHAPES = [
+  ["board", "thanksgiving-turkey-board", "Turkey", "Thanksgiving"],
+  ["post", "christmas-wreath-charcuterie-board", "Wreath", "Christmas"],
+  ["post", "christmas-tree-charcuterie-board", "Christmas tree", "Christmas"],
+  ["board", "santas-sleigh-charcuterie-board", "Santa's sleigh", "Christmas"],
+  ["board", "champagne-bottle-charcuterie-board", "Champagne bottle", "New Year's Eve"],
+  ["board", "football-field-charcuterie-board", "Football field", "Super Bowl"],
+  ["board", "heart-shaped-charcuterie-board", "Giant heart", "Valentine's Day"],
+  ["board", "easter-egg-charcuterie-board", "Giant egg", "Easter"],
+  ["board", "giant-jack-o-lantern-board", "Jack-o'-lantern", "Halloween"]
+];
+const HUB_IDEAS = ["friendsgiving-charcuterie-board", "thanksgiving-pie-board", "christmas-cookie-charcuterie-board", "hot-cocoa-board", "christmas-morning-charcuterie-board", "noche-buena-charcuterie-board", "charcuterie-board-new-years-eve", "winter-charcuterie-board", "cheese-advent-calendars-2026", "halloween-to-new-years-charcuterie-boards", "christmas-appetizers", "holiday-board"];
+const HUB_SHOP = ["best-panettone", "best-eggnog", "best-cranberry-sauce", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-charcuterie-gift-boxes", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-hot-cocoa-mix", "best-stilton", "best-cranberry-cheese"];
+
+const isoOf = (d) => d.toISOString().slice(0, 10);
+function thirdThursdayNov(y) {
+  const d = new Date(Date.UTC(y, 10, 1));
+  const first = (4 - d.getUTCDay() + 7) % 7;
+  return isoOf(new Date(Date.UTC(y, 10, 1 + first + 14)));
+}
+// Dated entries for the busy season; each shows from 45 days out until the day.
+function seasonCalendar(built, postSet) {
+  const nd = (slug) => built.get(slug) && nextDate(built.get(slug).dates);
+  const today = new Date().toISOString().slice(0, 10);
+  const y = Number(today.slice(0, 4));
+  const yy = (md) => { const t = `${y}-${md}`; return t >= today ? t : `${y + 1}-${md}`; };
+  const bj = thirdThursdayNov(y) >= today ? thirdThursdayNov(y) : thirdThursdayNov(y + 1);
+  const rows = [
+    postSet.has("beaujolais-nouveau-charcuterie") && { d: bj, name: "Beaujolais Nouveau day", href: "/blog/beaujolais-nouveau-charcuterie/", todo: "The new wine goes on sale. Pour it cool with salami, pâté, ham and soft French cheese." },
+    nd("thanksgiving") && { d: nd("thanksgiving"), name: "Thanksgiving", href: "/holidays/thanksgiving/", todo: "Keep it light so guests still want turkey. Make a cheese ball up to 3 days ahead; set the board out an hour before dinner." },
+    nd("hanukkah") && { d: nd("hanukkah"), name: "Hanukkah begins", href: "/holidays/hanukkah/", todo: "Pick a dairy board or a meat board, never both, and check which kosher certifications your guests need." },
+    postSet.has("noche-buena-charcuterie-board") && { d: yy("12-24"), name: "Christmas Eve and Noche Buena", href: "/blog/noche-buena-charcuterie-board/", todo: "Queso de bola, glazed ham and warm pan de sal in the center for the after-midnight feast." },
+    nd("christmas") && { d: nd("christmas"), name: "Christmas", href: postSet.has("christmas-morning-charcuterie-board") ? "/blog/christmas-morning-charcuterie-board/" : "/holidays/christmas/", todo: "A Christmas morning board: prep it on Christmas Eve and build it in 20 minutes." },
+    nd("new-years-eve") && { d: nd("new-years-eve"), name: "New Year's Eve", href: "/holidays/new-years-eve/", todo: "It has to last until midnight: about 3 oz each of cheese and meat per guest, and half held back for 10 pm." },
+    nd("super-bowl") && { d: nd("super-bowl"), name: "Super Bowl", href: "/holidays/super-bowl/", todo: "Build it in quarters and refill at halftime." },
+    nd("valentines-day") && { d: nd("valentines-day"), name: "Valentine's Day", href: "/holidays/valentines-day/", todo: "A small board for two, or a red and pink one for Galentine's." }
+  ].filter(Boolean).sort((a, b) => a.d.localeCompare(b.d));
+  return rows;
+}
+
+function tile(h, href, img, k, title, sub) {
+  const t = (h.thumb || ((x) => x))(img || "");
+  return `<li><a href="${href}"><img src="${h.escapeHtml(t)}" alt=""${h.imageSize ? h.imageSize(t) : ""} loading="lazy" decoding="async"><span class="hx-k">${h.escapeHtml(k)}</span><strong>${h.escapeHtml(title)}</strong>${sub ? `<span class="hx-s">${h.escapeHtml(sub)}</span>` : ""}</a></li>`;
+}
+
+export function holidaysHub(h, holidays, { season = "", posts = [], boards = [], bestCards = [] } = {}) {
   const built = new Map(holidays.map((x) => [x.slug, x]));
   const cal = HOLIDAY_CALENDAR.map((c) => ({ ...c, next: nextDate(c.dates), page: built.get(c.slug) }));
   const today = new Date().toISOString().slice(0, 10);
   const upcoming = cal.filter((c) => c.page && c.next >= today).sort((a, b) => a.next.localeCompare(b.next)).slice(0, 3);
-  const seasons = ["Fall", "Winter", "Spring", "Summer"];
+  const postBy = new Map(posts.map((p) => [p.slug, p]));
+  const boardBy = new Map(boards.map((b) => [b.slug, b]));
+  const bestBy = new Map(bestCards.map((c) => [c.slug, c]));
+  const hero = upcoming[0] && upcoming[0].page && upcoming[0].page.image;
+  const calRows = seasonCalendar(built, new Set(posts.map((p) => p.slug)));
+  const shapes = HUB_SHAPES.map(([kind, slug, label, hol]) => {
+    const x = kind === "board" ? boardBy.get(slug) : postBy.get(slug);
+    return x ? { href: kind === "board" ? `/boards/${slug}/` : `/blog/${slug}/`, img: x.image, label, hol } : null;
+  }).filter(Boolean);
+  const ideas = HUB_IDEAS.map((s) => postBy.get(s)).filter(Boolean);
+  const shop = HUB_SHOP.map((s) => postBy.get(s) && { p: postBy.get(s), c: bestBy.get(s) }).filter(Boolean);
+  const allDated = cal.filter((c) => c.page).sort((a, b) => a.next.localeCompare(b.next));
   return h.layout({
     title: "Holiday Charcuterie Board Ideas: Every Holiday, Planned | Charcuterie Lab",
     canonical: "/holidays/",
     image: holidays[0]?.image,
-    description: "Holiday charcuterie board ideas for Halloween, Thanksgiving, Christmas and every holiday of the year: board ideas, shapes, countdown plans and how much to buy.",
+    description: "Holiday charcuterie board ideas for Thanksgiving, Christmas, New Year's Eve and every holiday of the year: shaped boards, countdown plans, what to buy and how much.",
     head: `  <script type="application/ld+json">${h.jsonForScript({
       "@context": "https://schema.org", "@type": "CollectionPage", name: "Holiday Charcuterie Hub", url: h.absoluteUrl("/holidays/"),
       mainEntity: { "@type": "ItemList", itemListElement: holidays.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/holidays/${x.slug}/`), name: x.h1 })) }
@@ -313,6 +374,7 @@ export function holidaysHub(h, holidays, { season = "" } = {}) {
       <p class="section-kicker">Holiday Hub</p>
       <h1>Holiday charcuterie boards, planned</h1>
       <p class="bl-intro">Board ideas, shapes, a countdown plan and exact amounts for every holiday of the year.</p>
+      ${hero ? `<a class="hx-hero" href="/holidays/${upcoming[0].slug}/"><img src="${h.escapeHtml(hero)}" alt="${h.escapeHtml(upcoming[0].page.h1 || upcoming[0].name)}" width="1200" height="800" fetchpriority="high"><span class="hx-hero-cap"><span>Next up</span> ${h.escapeHtml(upcoming[0].name)} · <span class="hol-count" data-countdown='${JSON.stringify(upcoming[0].dates)}'></span></span></a>` : ""}
       <ul class="hol-has"><li><strong>3 board ideas</strong> sized for real parties</li><li><strong>A shaped board</strong> with a layout (wreath, menorah, football)</li><li><strong>A countdown plan</strong> from two weeks out</li><li><strong>How much to buy:</strong> about 2 oz each of cheese and meat per guest before a meal, 3 oz as party food</li></ul>
       <p class="hol-safe">Food out no more than 2 hours. Exact amounts for any guest count: <a href="/party-planner/">Party Planner</a>.</p>
       <div class="hol-next">
@@ -321,18 +383,45 @@ export function holidaysHub(h, holidays, { season = "" } = {}) {
           <span class="hol-next-body"><span class="hol-next-date">${h.escapeHtml(pretty(c.next))}</span><strong>${h.escapeHtml(c.name)}</strong><span class="hol-count" data-countdown='${JSON.stringify(c.dates)}'></span></span>
         </a>`).join("\n        ")}
       </div>
+
+      ${calRows.length ? `<section class="hx-cal-wrap" aria-labelledby="hx-cal-h">
+        <h2 id="hx-cal-h">This season's calendar</h2>
+        <p class="hx-sub">What's coming and what to do for each, in date order.</p>
+        <ol class="hx-cal">
+          ${calRows.map((r) => `<li data-d="${r.d}"><a href="${r.href}"><span class="hx-cal-date">${h.escapeHtml(pretty(r.d).replace(/, \d{4}$/, ""))}<span class="hx-cal-in" data-countdown='${JSON.stringify([r.d])}'></span></span><strong>${h.escapeHtml(r.name)}</strong><span class="hx-cal-todo">${h.escapeHtml(r.todo)}</span></a></li>`).join("\n          ")}
+        </ol>
+        <script>(function(){var t=new Date();t.setHours(0,0,0,0);var first=true;document.querySelectorAll(".hx-cal li").forEach(function(li){var d=new Date(li.dataset.d+"T00:00:00"),n=Math.round((d-t)/864e5);if(n<0||n>100){li.hidden=true;return}if(first){li.classList.add("is-next");first=false}})})();</script>
+      </section>` : ""}
+
       ${season}
+
+      ${shapes.length ? `<section class="hx-row" aria-labelledby="hx-shapes-h">
+        <h2 id="hx-shapes-h">Shaped boards</h2>
+        <p class="hx-sub">The showpieces people save: each one has a layout to follow.</p>
+        <ul class="hx-tiles">${shapes.map((x) => tile(h, x.href, x.img, x.hol, x.label)).join("")}</ul>
+      </section>` : ""}
+
+      ${ideas.length ? `<section class="hx-row" aria-labelledby="hx-ideas-h">
+        <h2 id="hx-ideas-h">More holiday board ideas</h2>
+        <ul class="hx-tiles">${ideas.map((p) => tile(h, `/blog/${p.slug}/`, p.image, "Idea", p.title.replace(/:.*$/, ""))).join("")}</ul>
+      </section>` : ""}
+
+      ${shop.length ? `<section class="hx-row" aria-labelledby="hx-shop-h">
+        <h2 id="hx-shop-h">Holiday shopping: what to buy</h2>
+        <p class="hx-sub">Our ranked picks for the seasonal extras, and the holiday items at Costco, Trader Joe's and Aldi.</p>
+        <ul class="hx-tiles">${shop.map(({ p, c }) => tile(h, `/blog/${p.slug}/`, p.image, c ? (c.cat === "stores" ? "Store guide" : c.name) : "Buying guide", c ? `${c.pickLabel ? c.pickLabel : "Our #1"}: ${c.pick}` : p.title.replace(/:.*$/, ""), "")).join("")}</ul>
+        <p class="bl-note"><a href="/blog/best-charcuterie-brands/">All ${bestCards.length || ""} buying guides &rarr;</a></p>
+      </section>` : ""}
+
       <div class="best-next-grid hol-shop-row">
         <a href="/gifts/"><span class="bn-k">Gift Guide</span><strong>Charcuterie gifts for every budget</strong><span>Books, boards and gifts under $25 &rarr;</span></a>
         <a href="/printables/holiday-hosting-pack/"><span class="bn-k">Printable pack</span><strong>Holiday Hosting Pack</strong><span>Five holiday board plans in one PDF &rarr;</span></a>
         <a href="/party-planner/"><span class="bn-k">Party Planner</span><strong>How much to buy</strong><span>Exact amounts for your guest count &rarr;</span></a>
       </div>
-      <p class="section-kicker hol-cal-h">Every holiday, planned</p>
-      ${seasons.map((s) => {
-        // Only holidays with a page (1 Nov 2026): "page coming" rows read as unfinished.
-        const list = cal.filter((c) => c.season === s && c.page);
-        return list.length ? `<div class="bl-section"><h2>${s}</h2><ul class="hol-cal">${list.map((c) => `<li><a href="/holidays/${c.slug}/">${h.escapeHtml(c.name)}</a><small>${h.escapeHtml(pretty(c.next))}</small></li>`).join("")}</ul></div>` : "";
-      }).join("\n      ")}
+      <div class="bl-section">
+        <h2>Every holiday, in date order</h2>
+        <ul class="hol-cal">${allDated.map((c) => `<li><a href="/holidays/${c.slug}/">${h.escapeHtml(c.name)}</a><small>${h.escapeHtml(pretty(c.next))}</small></li>`).join("")}</ul>
+      </div>
     </div>
   </section>
 ${h.newsletterPanel("hol-hub-email", "holiday_hub")}
