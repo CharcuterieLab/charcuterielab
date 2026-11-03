@@ -102,7 +102,7 @@ export function parseHub(body, postsBySlug) {
     const post = postsBySlug.get(row[2]);
     if (!post) continue;
     const name = NAME_FIX[row[2]] || (cat[1] === "stores" ? row[1].replace(/^(The )?Best /, "").replace(/^What to Buy at (.+?) for a .*$/i, "$1").replace(/ Charcuterie Board Items$/i, "") : null) || row[1].replace(/^(The )?Best /, "").replace(/ (for a|at the|by|for|to) .*$/i, "").replace(/, (From|Compared).*$/i, "").replace(/^Store-Bought /, "").replace(/^Jarred /, "").replace(/ Brands$/, "").replace(/^What to Buy at /i, "").replace(/^(\w)/, (x) => x.toUpperCase());
-    cards.push({ slug: row[2], cat: cat[1], catLabel: cat[2], name, title: row[1], pick: row[3].replace(/\s*\(best cheese\)/, ""), rating: row[4], score: scoreOf(row[4]), image: post.image });
+    cards.push({ slug: row[2], cat: cat[1], catLabel: cat[2], name, title: row[1], pick: row[3].replace(/\s*\((best [a-z ]+)\)\s*$/i, ""), pickLabel: ((row[3].match(/\((best [a-z ]+)\)\s*$/i) || [])[1] || "").replace(/^b/, "B"), rating: row[4], score: scoreOf(row[4]), image: post.image });
   }
   // Best value pick onto its guide's card (when it differs from the #1).
   for (const v of values) {
@@ -120,7 +120,7 @@ function rateHtml(c, h) {
 
 function cardLi(c, h) {
   const q = `${c.name} ${c.title} ${c.pick} ${c.value || ""} ${c.catLabel}`.toLowerCase();
-  return `<li data-c="${c.cat}" data-q="${h.escapeHtml(q)}"><a href="/blog/${c.slug}/"><img src="${h.escapeHtml(h.thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><span class="best-name">${h.escapeHtml(c.name)}</span><span class="best-pick"><b>#1</b> ${h.escapeHtml(c.pick)}</span>${rateHtml(c, h)}${c.value ? `<span class="best-val">Best value: ${h.escapeHtml(c.value)}</span>` : ""}</a></li>`;
+  return `<li data-c="${c.cat}" data-q="${h.escapeHtml(q)}"><a href="/blog/${c.slug}/"><img src="${h.escapeHtml(h.thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><span class="best-name">${h.escapeHtml(c.name)}</span><span class="best-pick"><b>${c.pickLabel ? `${h.escapeHtml(c.pickLabel)}:` : "#1"}</b> ${h.escapeHtml(c.pick)}</span>${rateHtml(c, h)}${c.value ? `<span class="best-val">Best value: ${h.escapeHtml(c.value)}</span>` : ""}</a></li>`;
 }
 
 const FINDER_JS = `(function(){var s=document.getElementById("finder");if(!s)return;var q=s.querySelector("#best-q"),bs=s.querySelectorAll(".best-chips button"),gs=s.querySelectorAll(".bb-group"),none=s.querySelector(".best-none"),cnt=s.querySelector(".bb-count"),c="";function run(){var v=q.value.trim().toLowerCase(),n=0;gs.forEach(function(g){var gn=0,show=!c||g.dataset.c===c;g.querySelectorAll("li").forEach(function(x){var ok=show&&(!v||x.dataset.q.indexOf(v)>=0);x.hidden=!ok;if(ok)gn++});g.hidden=gn===0;g.classList.toggle("is-open",!!(c||v));n+=gn});none.hidden=n>0;if(cnt)cnt.textContent=(c||v)?n+(n===1?" guide":" guides"):""}function set(k){c=k;bs.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===k?"true":"false")});run()}bs.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.c)})});s.querySelectorAll(".bb-more").forEach(function(b){b.addEventListener("click",function(){set(b.dataset.c);var t=s.querySelector(".best-chips");if(t&&t.getBoundingClientRect().top<0)s.scrollIntoView()})});q.addEventListener("input",run);try{var p=new URLSearchParams(location.search).get("c");if(p)set(p)}catch(e){}})();`;
@@ -168,7 +168,7 @@ function seasonHtml(bySlug, h) {
   return `<div class="bb-season-wrap">
 ${rows.map((s) => `  <div class="bb-season" data-m="${s.m.join(",")}"${s.m.includes(now) ? "" : " hidden"}>
     <p class="bb-season-h">${h.escapeHtml(s.h)}</p>
-    <ul class="bb-season-row">${s.list.map((c) => `<li><a href="/blog/${c.slug}/"><img src="${h.escapeHtml(h.thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><strong>${h.escapeHtml(c.name)}</strong><span>#1 ${h.escapeHtml(c.pick)}</span></a></li>`).join("")}</ul>
+    <ul class="bb-season-row">${s.list.map((c) => `<li><a href="/blog/${c.slug}/"><img src="${h.escapeHtml(h.thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><strong>${h.escapeHtml(c.name)}</strong><span>${c.pickLabel ? h.escapeHtml(c.pickLabel) + ":" : "#1"} ${h.escapeHtml(c.pick)}</span></a></li>`).join("")}</ul>
   </div>`).join("\n")}
   <script>(function(){var m=new Date().getMonth()+1;document.querySelectorAll(".bb-season").forEach(function(r){r.hidden=r.dataset.m.split(",").indexOf(String(m))<0})})();</script>
 </div>`;
@@ -236,6 +236,9 @@ export function needBox(html, h) {
     if (name && label) rows.push({ id: m[1], name, label, price, score });
   }
   if (rows.length < 3) return "";
+  const seen = new Map();
+  rows.forEach((r) => seen.set(r.label, (seen.get(r.label) || 0) + 1));
+  rows.forEach((r) => { if (seen.get(r.label) > 1) r.label = `${r.label}: ${r.name.split(" ").slice(0, 2).join(" ")}`; });
   const shown = rows.slice(0, 8);
   return `<div class="bb-need">
   <p class="bb-need-h">Which one should you buy?</p>

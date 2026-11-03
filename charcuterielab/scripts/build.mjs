@@ -1,6 +1,7 @@
 import { existsSync } from "node:fs";
 import { injectAffiliate, DISCLOSURE } from "./affiliate.mjs";
 import { injectTools } from "./tools-box.mjs";
+import { injectGuideLinks } from "./guide-links.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -3495,6 +3496,7 @@ function searchPage(count) {
 await build();
 { const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}, paid card under it on ${r.near}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
+{ const g = await injectGuideLinks(dist); console.log(`Guide links: ${g.links} ingredient pages link to their buying guide (${g.mapped} mapped)`); }
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }

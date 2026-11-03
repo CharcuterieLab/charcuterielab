@@ -11,7 +11,7 @@ slug: "best-charcuterie-brands"
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for **97 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
+> **Quick Answer:** We rank the best brands for **103 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
 
 Each guide gives you a top pick, a budget pick and a splurge.
 
@@ -133,7 +133,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Store-Bought Christmas Cookies](/blog/best-store-bought-christmas-cookies/) | Pepperidge Farm holiday Milanos | Buyer's guide (unscored) |
 | [Best Hot Cocoa Mix for a Hot Cocoa Board](/blog/best-hot-cocoa-mix/) | Land O Lakes Chocolate Supreme | Buyer's guide (unscored) |
 | [Best Panettone for a Christmas Board](/blog/best-panettone/) | Olivieri 1882 Classic Panettone | Buyer's guide (unscored) |
-| [Best Dried Fruit for a Charcuterie Board](/blog/best-dried-fruit-for-charcuterie/) | Mariani Turkish Apricots | Buyer's guide (unscored) |
+| [Best Dried Fruit for a Charcuterie Board](/blog/best-dried-fruit-for-charcuterie/) | Mariani Mediterranean Apricots | Buyer's guide (unscored) |
 | [Best Medjool Dates for a Charcuterie Board](/blog/best-medjool-dates/) | Costco Medjool Dates (value) | Buyer's guide (unscored) |
 
 ## Drinks
