@@ -9,6 +9,7 @@ import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { seasonBoards, seasonHero, seasonRow, seasonTitle, upcomingWithBoards } from "./season.mjs";
 import { injectBands } from "./hub-bands.mjs";
+import { parseHub as bestParse, hubHtml as bestHubHtml, guideHtml as bestGuideHtml, siblingsHtml as bestSiblings, crumbFor as bestCrumb } from "./best-buys.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
 import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientDietBlock, loadDietary } from "./dietary.mjs";
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
@@ -2598,42 +2599,9 @@ function funnelPostBody(html, post, bookBoard) {
   return parts.join("");
 }
 
-// Best buys finder (12 Oct 2026): the buying-guides hub opens with every guide
-// as a card, filterable by category or store and searchable. Built from the
-// hub's own tables, so a new guide shows up once it has a row there.
-const BEST_CATS = [
-  [/cheese/i, "cheese", "Cheese and butter"], [/meat|fish/i, "meat", "Cured meat"], [/cracker|chip|pretzel/i, "crackers", "Crackers and chips"],
-  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/drink/i, "drinks", "Drinks"], [/store/i, "stores", "Store guides"]
-];
-function bestFinder(hub, postsBySlug) {
-  const cards = [];
-  let cat = null;
-  for (const line of String(hub.body || "").split("\n")) {
-    const h = line.match(/^##\s+(.+)/);
-    if (h) { const c = BEST_CATS.find(([re]) => re.test(h[1])); cat = c && !/value|rank|work/i.test(h[1]) ? c : null; continue; }
-    const row = cat && line.match(/^\|\s*\[([^\]]+)\]\(\/blog\/([^/)]+)\/\)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/);
-    if (!row) continue;
-    const post = postsBySlug.get(row[2]);
-    if (!post) continue;
-    const name = row[1].replace(/^(The )?Best /, "").replace(/ (for a|at the|by|for) .*$/i, "").replace(/^Store-Bought /, "").replace(/^Jarred /, "").replace(/ Brands$/, "");
-    cards.push({ slug: row[2], cat: cat[1], name, title: row[1], pick: row[3].replace(/\s*\(best cheese\)/, ""), rating: row[4], image: post.image });
-  }
-  if (!cards.length) return "";
-  const cats = BEST_CATS.filter(([, k]) => cards.some((c) => c.cat === k));
-  return `<section class="best-finder" id="finder" aria-label="Find a buying guide">
-  <h2 class="best-finder-h">Find the best brand of anything on a board</h2>
-  <div class="best-finder-tools">
-    <label class="sr-only" for="best-q">Search the buying guides</label>
-    <input id="best-q" type="search" placeholder="Search: brie, salami, Costco..." autocomplete="off">
-    <div class="best-chips" role="group" aria-label="Filter by category"><button type="button" data-c="" aria-pressed="true">All ${cards.length}</button>${cats.map(([, k, label]) => `<button type="button" data-c="${k}" aria-pressed="false">${label}</button>`).join("")}</div>
-  </div>
-  <ul class="best-grid">
-${cards.map((c) => `    <li data-c="${c.cat}" data-q="${escapeHtml(`${c.title} ${c.pick}`.toLowerCase())}"><a href="/blog/${c.slug}/"><img src="${escapeHtml(thumb(c.image, "s"))}" alt="" width="120" height="80" loading="lazy" decoding="async"><span class="best-name">${escapeHtml(c.name)}</span><span class="best-pick">#1: ${escapeHtml(c.pick)}</span><span class="best-rate">${escapeHtml(c.rating)}</span></a></li>`).join("\n")}
-  </ul>
-  <p class="best-none" hidden>No guide for that yet. Try the <a href="/ingredients/">ingredient library</a>.</p>
-  <script>(function(){var s=document.getElementById("finder");if(!s)return;var q=s.querySelector("#best-q"),bs=s.querySelectorAll(".best-chips button"),li=s.querySelectorAll(".best-grid li"),none=s.querySelector(".best-none"),c="";function run(){var v=q.value.trim().toLowerCase(),n=0;li.forEach(function(x){var ok=(!c||x.dataset.c===c)&&(!v||x.dataset.q.indexOf(v)>=0);x.hidden=!ok;if(ok)n++});none.hidden=n>0}function set(k){c=k;bs.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===k?"true":"false")});run()}bs.forEach(function(b){b.addEventListener("click",function(){set(b.dataset.c)})});q.addEventListener("input",run);try{var p=new URLSearchParams(location.search).get("c");if(p)set(p)}catch(e){}})();</script>
-</section>`;
-}
+// Best buys (2 Nov 2026): hub, finder and guide helpers live in best-buys.mjs.
+let BEST_CARDS = [];
+const BEST_H = { escapeHtml: (x) => escapeHtml(x), thumb: (src, size) => thumb(src, size) };
 
 function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null, pairPlate = "") {
   const date = new Intl.DateTimeFormat("en", {
@@ -2654,12 +2622,18 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
   ), String(post.body || "").split(/\s+/).length);
 
   const description = metaDescription(post);
+  const bc = bestCrumb(post.slug, BEST_CARDS);
+  const crumbHtml = bc
+    ? `<a href="/blog/best-charcuterie-brands/">Best buys</a> <span aria-hidden="true">/</span> <a href="/blog/best-charcuterie-brands/?c=${bc.cat}#finder">${escapeHtml(bc.label)}</a> <span aria-hidden="true">/</span> ${escapeHtml(bc.name)}`
+    : post.slug === "best-charcuterie-brands" ? `<a href="/blog/">Blog</a> <span aria-hidden="true">/</span> Best buys` : `<a href="/blog/">Blog</a> <span aria-hidden="true">/</span> ${escapeHtml(post.title)}`;
+  const crumbs = bc ? [["Home", "/"], ["Best buys", "/blog/best-charcuterie-brands/"], [post.title, `/blog/${post.slug}/`]] : [["Home", "/"], ["Blog", "/blog/"], [post.title, `/blog/${post.slug}/`]];
   // Buying-guides hub: the finder comes before the table of contents.
   let bodyHtml = postHtml;
   {
     const toc = bodyHtml.match(/<nav class="post-toc"[\s\S]*?<\/nav><script>[\s\S]*?<\/script>/);
     const fd = bodyHtml.indexOf('<section class="best-finder"');
-    if (toc && fd > toc.index) {
+    if (toc && post.slug === "best-charcuterie-brands") bodyHtml = bodyHtml.replace(toc[0], "");
+    else if (toc && fd > toc.index) {
       bodyHtml = bodyHtml.replace(toc[0], "");
       const fe = bodyHtml.indexOf("</section>", bodyHtml.indexOf('<section class="best-finder"')) + 10;
       bodyHtml = bodyHtml.slice(0, fe) + toc[0] + bodyHtml.slice(fe);
@@ -2674,11 +2648,11 @@ function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, hol
     type: "article",
     published: post.date,
     modified: post.updated || post.date,
-    head: `${articleSchema(post, description)}\n${faqSchema(post)}\n${recipeSchema(post, description)}\n${breadcrumbSchema([["Home", "/"], ["Blog", "/blog/"], [post.title, `/blog/${post.slug}/`]])}`,
+    head: `${articleSchema(post, description)}\n${faqSchema(post)}\n${recipeSchema(post, description)}\n${breadcrumbSchema(crumbs)}`,
     body: `<main class="post-main">
   <section class="post-hero">
     <div class="post-hero-inner">
-      <p class="ing-crumb post-crumb"><a href="/blog/">Blog</a> <span aria-hidden="true">/</span> ${escapeHtml(post.title)}</p>
+      <p class="ing-crumb post-crumb">${crumbHtml}</p>
       <p class="post-date">${date} · ${byline()}${post.updated && post.updated !== post.date ? ` · Updated ${new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.updated}T00:00:00Z`))}` : ""}</p>
       <h1>${escapeHtml(post.title)}</h1>
     </div>
@@ -2797,10 +2771,13 @@ async function build() {
   });
   {
     const hub = posts.find((p) => p.slug === "best-charcuterie-brands");
-    const finder = hub ? bestFinder(hub, new Map(posts.map((p) => [p.slug, p]))) : "";
-    if (finder) { const i = hub.html.indexOf("</blockquote>"); hub.html = i > 0 ? hub.html.slice(0, i + 13) + finder + hub.html.slice(i + 13) : finder + hub.html; }
+    BEST_CARDS = hub ? bestParse(hub.body, new Map(posts.map((p) => [p.slug, p]))).cards : [];
+    if (BEST_CARDS.length) hub.html = bestHubHtml(hub.html, BEST_CARDS, BEST_H);
+    const finder = BEST_CARDS.length ? hub.html : "";
+    const bestSet = new Set(BEST_CARDS.map((c) => c.slug));
+    for (const p of posts) if ((/^best-/.test(p.slug) || bestSet.has(p.slug)) && p.slug !== "best-charcuterie-brands") p.html = bestGuideHtml(p.html, BEST_H);
     if (finder) {
-      BEST_COUNT = (finder.match(/<li data-c="(?!stores)/g) || []).length;
+      BEST_COUNT = BEST_CARDS.filter((c) => !["stores", "gifts"].includes(c.cat)).length;
       const want = ["best-brie-brands", "best-salami-brands", "best-fig-jam", "best-crackers-for-charcuterie", "best-costco-charcuterie-items", "best-cheddar-brands"];
       const lis = want.map((s) => (finder.match(new RegExp(`<li data-c="[^"]*" data-q="[^"]*"><a href="/blog/${s}/">[\\s\\S]*?</li>`)) || [])[0]).filter(Boolean);
       HOME_BEST = `<section class="section home-best" aria-labelledby="home-best-h"><div class="section-inner">
@@ -3002,6 +2979,7 @@ async function build() {
       BEST_NEXT.set(post.slug, `<section class="best-next" aria-labelledby="best-next-h">
     <h2 id="best-next-h">Put the winners to work</h2>
     <div class="best-next-grid">${items.slice(0, 4).join("")}</div>
+    ${bestSiblings(post.slug, BEST_CARDS, BEST_H)}
   </section>`);
     }
   }
