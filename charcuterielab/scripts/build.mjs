@@ -3084,7 +3084,21 @@ async function build() {
       for (const b of boards.filter((x) => x.placeholder)) {
         await writeFile(join(dist, "images", "boards", `${b.slug}.svg`), placeholderSvg(b));
       }
-      await writeFile(join(dist, "boards", "index.html"), boardsHub(boardHelpers, boards, { season: seasonRow(boardHelpers, holidays, boards) }));
+      await writeFile(join(dist, "boards", "index.html"), boardsHub(boardHelpers, boards, {
+        season: seasonRow(boardHelpers, holidays, boards),
+        // Sales upgrade (2 Nov 2026): the books compared per board, the plan packs and a free sample plan.
+        books: [
+          { key: "main", title: "50 Boards Built by Science", cover: "/images/book-cover.jpg", page: "/ebook/", url: ebookUrl, price: ebookPrice, paperbackUrl, paperbackPrice },
+          { key: "impossible", title: "Impossible Boards", cover: IMPOSSIBLE_BOOK.cover, page: "/books/impossible-boards/", url: IMPOSSIBLE_BOOK.ebookUrl, price: IMPOSSIBLE_BOOK.ebookPrice, paperbackUrl: IMPOSSIBLE_BOOK.paperbackUrl, paperbackPrice: IMPOSSIBLE_BOOK.paperbackPrice },
+          { key: "two", title: "Boards for Two", cover: TWO_BOOK.cover, page: "/books/boards-for-two/", url: TWO_BOOK.ebookUrl, price: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice },
+          { key: "keto", title: "Keto & Low-Carb Boards", cover: KETO_BOOK.cover, page: "/books/keto-charcuterie-boards/", url: KETO_BOOK.ebookUrl, price: KETO_BOOK.ebookPrice, paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice },
+          ...(worldIsLive(WORLD_BOOK) ? [{ key: "world", title: "Around the World in 16 Boards", cover: WORLD_BOOK.cover, page: "/around-the-world/", url: WORLD_BOOK.ebookUrl, price: WORLD_BOOK.ebookPrice, paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []),
+          { key: "plant", title: "15 Show-Stopping Plant-Based Boards", cover: PLANT_BOOK.cover, page: "/books/plant-based-charcuterie-boards/", url: PLANT_BOOK.ebookUrl, price: PLANT_BOOK.ebookPrice, paperbackUrl: PLANT_BOOK.paperbackUrl, paperbackPrice: PLANT_BOOK.paperbackPrice }
+        ].filter((b) => b.url).map((b) => ({ ...b, n: boards.filter((x) => x.book === b.key).length })).filter((b) => b.n),
+        packs: products.filter((p) => p.bundle && (p.boards || []).length).map((p) => ({ slug: p.slug, title: p.title, image: p.image, price: p.priceShort, save: p.save, separately: p.separately, url: p.url, names: [...(p.boards || []).map((n) => (BOOK_BOARDS.get(n) || {}).name).filter(Boolean).map((x) => x.replace(/^The /, "")), ...(p.contains || []).map((s) => (products.find((q) => q.slug === s) || {}).title).filter(Boolean)] })),
+        sample: FUNNEL.sampleForm("boards-hub-sample", "boards_hub_sample", { compact: true }),
+        planLook: PLAN_LOOKS.has("thanksgiving-charcuterie-board") ? "/images/plans/thanksgiving-charcuterie-board-look.webp" : ""
+      }));
       if (boards.some((b) => b.book === "world")) {
         await mkdir(join(dist, "around-the-world"), { recursive: true });
         await writeFile(join(dist, "around-the-world", "index.html"), worldBookPage(boardHelpers, boards));

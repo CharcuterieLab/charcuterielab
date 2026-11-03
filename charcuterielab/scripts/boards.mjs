@@ -136,17 +136,22 @@ export function builderLink(board, known) {
   return `/board-builder/?b=${slugs.join(",")}&g=${board.guests}&m=app&utm_source=charcuterielab&utm_medium=site&utm_campaign=board_${board.slug}`;
 }
 
+// Sales upgrade (2 Nov 2026): every card says how to get the plan ($3 or the
+// book), and carries the data the hub sorts and filters on.
+const LEVEL_RANK = (d = "") => (/master|5 of 5/i.test(d) ? 5 : /advanced|4 of 5/i.test(d) ? 4 : /intermediate|3 of 5/i.test(d) ? 3 : /mid|2 of 5/i.test(d) ? 2 : 1);
+const MIN_COST = (c = "") => Number((String(c).match(/\d+/) || [0])[0]);
 export function card(b, h) {
   const cat = catOf(b);
   const badges = [b.book === "plant" ? "Plant-based" : "", b.difficulty || ""].filter(Boolean);
-  return `<li class="bl-card" data-cat="${b.category}" data-plant="${b.book === "plant" ? 1 : 0}" data-guests="${b.guests}">
+  const single = h.bookSingles || h.bookBoards ? singleOf(h, b) : null;
+  return `<li class="bl-card" data-cat="${b.category}" data-plant="${b.book === "plant" ? 1 : 0}" data-guests="${b.guests}" data-cost="${MIN_COST(b.cost)}" data-level="${LEVEL_RANK(b.difficulty)}" data-plan="${single ? 1 : 0}">
     <a href="/boards/${b.slug}/">
       <img src="${h.escapeHtml((h.thumb || ((x) => x))(b.image))}" alt="${h.escapeHtml(b.h1 || b.title)}" width="600" height="400" loading="lazy" decoding="async">
       <span class="bl-card-body">
         <span class="bl-card-cat">${h.escapeHtml(cat.name)}</span>
         <strong>${h.escapeHtml(b.h1 || b.title)}</strong>
         <span class="bl-card-facts">Serves ${h.escapeHtml(b.serves)} · ${h.escapeHtml(b.cost)}</span>
-        <span class="bl-badges">${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
+        <span class="bl-badges">${single ? `<span class="bl-pill">Full plan · ${h.escapeHtml(single.price)}</span>` : `<span class="bl-pill is-book">Plan in the book</span>`}${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
       </span>
     </a>
   </li>`;
@@ -174,20 +179,39 @@ const FILTER_JS = `<script>
 (() => {
   const root = document.querySelector('.bl-finder');
   if (!root) return;
-  const cards = [...root.querySelectorAll('#bl-all .bl-card, .bl-grid:not(.season-grid) .bl-card')];
-  const count = root.querySelector('.bl-count');
-  let cat = 'all', guests = 0, plant = false;
   const grid = root.querySelector('#bl-all');
+  const cards = grid ? [...grid.querySelectorAll('.bl-card')] : [...root.querySelectorAll('.bl-grid:not(.season-grid) .bl-card')];
+  cards.forEach((c, i) => { c.dataset.i = i; });
+  const count = root.querySelector('.bl-count');
+  let cat = 'all', guests = 0, plant = false, plan = false, sort = 'rec';
   const more = root.querySelector('[data-bl-more]');
   const uncap = () => { if (grid) grid.classList.remove('bl-capped'); if (more) more.parentNode.hidden = true; };
   if (more) more.addEventListener('click', uncap);
+  // The book that holds most boards in the chosen category (2 Nov 2026).
+  const box = root.querySelector('[data-bl-bookbox]');
+  let books = {};
+  try { books = JSON.parse((root.querySelector('#bl-books-data') || {}).textContent || '{}'); } catch (e) {}
+  const showBook = () => {
+    if (!box) return;
+    const b = books[cat];
+    if (!b) { box.hidden = true; box.innerHTML = ''; return; }
+    box.innerHTML = '<img src="' + b.cover + '" alt="" width="72" height="93" loading="lazy"><div><p class="eyebrow">Save with the book</p><p><strong>' + b.k + ' of these boards</strong> are in <a href="' + b.page + '">' + b.title + '</a>: ' + b.n + ' complete plans for ' + b.price + ', about ' + b.per + ' a board instead of $3.</p></div><a class="button primary" href="' + b.url + '" target="_blank" rel="noopener">Get the ebook · ' + b.price + '</a>';
+    box.hidden = false;
+  };
+  const KEY = { rec: (c) => +c.dataset.i, cost: (c) => +c.dataset.cost, big: (c) => -(+c.dataset.guests), small: (c) => +c.dataset.guests, easy: (c) => +c.dataset.level * 1000 + +c.dataset.i };
+  const order = () => {
+    if (!grid) return;
+    const k = KEY[sort] || KEY.rec;
+    cards.slice().sort((a, b) => k(a) - k(b) || +a.dataset.i - +b.dataset.i).forEach((c) => grid.appendChild(c));
+  };
   const apply = () => {
     let n = 0;
     for (const c of cards) {
-      const show = (cat === 'all' || c.dataset.cat === cat) && (!plant || c.dataset.plant === '1') && (!guests || Number(c.dataset.guests) >= guests);
+      const show = (cat === 'all' || c.dataset.cat === cat) && (!plant || c.dataset.plant === '1') && (!plan || c.dataset.plan === '1') && (!guests || Number(c.dataset.guests) >= guests);
       c.hidden = !show; if (show) n++;
     }
     count.textContent = n + (n === 1 ? ' board' : ' boards');
+    showBook();
   };
   root.addEventListener('click', (e) => {
     const b = e.target.closest('[data-filter-cat]');
@@ -197,29 +221,37 @@ const FILTER_JS = `<script>
     root.querySelectorAll('[data-filter-cat]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     apply();
   });
-  root.querySelector('#bl-guests').addEventListener('change', (e) => { guests = Number(e.target.value); uncap(); apply(); });
-  root.querySelector('#bl-plant').addEventListener('change', (e) => { plant = e.target.checked; uncap(); apply(); });
+  const on = (id, ev, fn) => { const el = root.querySelector(id); if (el) el.addEventListener(ev, fn); };
+  on('#bl-guests', 'change', (e) => { guests = Number(e.target.value); uncap(); apply(); });
+  on('#bl-plant', 'change', (e) => { plant = e.target.checked; uncap(); apply(); });
+  on('#bl-plan', 'change', (e) => { plan = e.target.checked; uncap(); apply(); });
+  on('#bl-sort', 'change', (e) => { sort = e.target.value; order(); });
   apply();
 })();
 </script>`;
 
-function finder(h, boards, { heading, intro, showFilters = true, crumb = "", extra = "", capped = false }) {
+function finder(h, boards, { heading, intro, showFilters = true, crumb = "", extra = "", capped = false, books = null }) {
   const cats = BOARD_CATEGORIES.filter((c) => boards.some((b) => b.category === c.slug));
+  const plans = boards.filter((b) => b.__plan).length;
   return `<section class="bl-finder">
   <div class="bl-inner">
     ${crumb}
     <p class="section-kicker">Board Library</p>
     <h1>${h.escapeHtml(heading)}</h1>
-    <p class="bl-intro">${h.escapeHtml(intro)}</p>${extra}
+    <p class="bl-intro">${intro}</p>${extra}
     ${showFilters ? `<div class="bl-filters" role="group" aria-label="Filter boards">
       <button type="button" class="bl-chip" data-filter-cat="all" aria-pressed="true">All</button>
       ${cats.map((c) => `<button type="button" class="bl-chip" data-filter-cat="${c.slug}" aria-pressed="false">${h.escapeHtml(c.name)}</button>`).join("\n      ")}
     </div>
     <div class="bl-controls">
       <label>Guests <select id="bl-guests"><option value="0">Any</option><option value="2">2+</option><option value="8">8+</option><option value="12">12+</option><option value="16">16+</option><option value="20">20+</option></select></label>
+      <label>Sort <select id="bl-sort"><option value="rec">Recommended</option><option value="cost">Lowest cost</option><option value="big">Most guests</option><option value="small">Fewest guests</option><option value="easy">Easiest first</option></select></label>
+      ${plans ? `<label class="bl-check"><input type="checkbox" id="bl-plan"> $3 plan only</label>` : ""}
       <label class="bl-check"><input type="checkbox" id="bl-plant"> Plant-based only</label>
       <span class="bl-count" aria-live="polite"></span>
-    </div>` : `<div class="bl-controls"><span class="bl-count">${boards.length} boards</span></div>`}
+    </div>
+    ${books ? `<div class="bl-bookbox" data-bl-bookbox hidden></div>
+    <script type="application/json" id="bl-books-data">${h.jsonForScript(books)}</script>` : ""}` : `<div class="bl-controls"><span class="bl-count">${boards.length} boards</span></div>`}
     <ul class="bl-grid${capped && boards.length > 24 ? " bl-capped" : ""}" id="bl-all">
 ${boards.map((b) => card(b, h)).join("\n")}
     </ul>
@@ -229,15 +261,110 @@ ${boards.map((b) => card(b, h)).join("\n")}
 </section>`;
 }
 
-export function boardsHub(h, boards, { season = "" } = {}) {
+// The Board Library (sales upgrade, 2 Nov 2026). The page's job is to sell
+// board plans: $3 singles on Gumroad, the plan packs and the books.
+//   1. A plain promise: what a $3 plan is, with a page from one.
+//   2. Boards for this season.
+//   3. All boards: plan-first order, sort, "$3 plan only", price pill on every
+//      card, and the matching book offer when a category is chosen.
+//   4. Plan packs, the books compared per board, a free sample plan, FAQ.
+// opts.books: [{ key, title, cover, page, url, price, paperbackUrl, paperbackPrice, n }]
+// opts.packs: [{ slug, title, image, price, save, separately, url, names: [] }]
+export function boardsHub(h, boards, { season = "", books = [], packs = [], sample = "", planLook = "" } = {}) {
+  const withPlan = boards.filter((b) => singleOf(h, b));
+  const priced = new Set(withPlan.map((b) => b.slug));
+  // Recommended order: boards with a $3 plan first, books mixed in turn.
+  const ordered = [...mixBooks(boards.filter((b) => priced.has(b.slug))), ...mixBooks(boards.filter((b) => !priced.has(b.slug)))].map((b) => Object.assign(b, { __plan: priced.has(b.slug) }));
+  const money = (s) => Number(String(s).replace(/[^0-9.]/g, ""));
+  const per = (b) => { const c = Math.round((money(b.price) / b.n) * 100); return c < 100 ? `${c}¢` : `$${(c / 100).toFixed(2)}`; };
+  const byKey = new Map(books.map((b) => [b.key, b]));
+  // Category -> the book holding most of its boards.
+  const bookFor = {};
+  for (const c of BOARD_CATEGORIES) {
+    const counts = {};
+    boards.filter((b) => b.category === c.slug).forEach((b) => { counts[b.book] = (counts[b.book] || 0) + 1; });
+    const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+    const bk = top && byKey.get(top[0]);
+    if (bk) bookFor[c.slug] = { k: top[1], title: bk.title, page: bk.page, n: bk.n, price: bk.price, per: per(bk), cover: (h.thumb || ((x) => x))(bk.cover, "s"), url: h.withTracking ? h.withTracking(bk.url, `boards_hub_bookbox_${bk.key}`) : bk.url };
+  }
+  const lowest = Math.min(...withPlan.map((b) => money((singleOf(h, b) || {}).price || 3)));
+  const faq = [
+    ["What's in a $3 board plan?", "A printable PDF of about 5 pages: the exact shopping list for the board, with an amount and an estimated price for every item, where everything goes on the board step by step, the full timeline from the day before, and a swap for anything your store is out of."],
+    ["How do I get it?", "Tap Get the full plan on any board. Checkout is on Gumroad, and the download link arrives by email straight away. The PDF also stays in your Gumroad library."],
+    ["Can I print it or use it on my phone?", "Both. It prints on any home printer (US Letter) and reads fine on a phone at the store."],
+    ["What if it's not what I expected?", "Reply to your Gumroad receipt within 30 days for a full refund. No forms."],
+    ["Should I buy single plans or a book?", `If you'll make more than four or five boards, a book is cheaper: 50 Boards Built by Science is ${byKey.get("main") ? byKey.get("main").price : "$14"} for 50 plans. A single-plan receipt also includes a code for $3 off the book.`],
+    ["Does every board have a $3 plan?", `${withPlan.length} of the ${boards.length} boards do. The rest, mostly the shaped showpiece boards, are planned in full in their book, and each board page says which.`]
+  ];
+  const promise = `<div class="bl-promise">
+      ${planLook ? `<img class="bl-promise-look" src="${h.escapeHtml(planLook)}" alt="A page from a $3 board plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
+      <div>
+        <p class="eyebrow">How the plans work</p>
+        <ol class="bl-steps">
+          <li><strong>Pick a board.</strong> ${boards.length} boards for 2 to 50 guests, each with a photo, what's on it and why it works.</li>
+          <li><strong>Get its plan for $${lowest || 3}.</strong> A printable PDF with the shopping list, amounts, prices, where everything goes and the timeline.</li>
+          <li><strong>Shop and build.</strong> Print it, or open it on your phone at the store.</li>
+        </ol>
+        <p class="bl-promise-fine">Instant download · 30-day refund · The receipt includes $3 off the full book</p>
+      </div>
+    </div>`;
+  const packHtml = packs.length ? `<section class="bl-inner bl-section bl-packs" aria-labelledby="bl-packs-h">
+    <h2 id="bl-packs-h">Plan packs: several boards, one price</h2>
+    <p class="bl-note">Matched board plans in one download, for a season or an occasion.</p>
+    <div class="bl-pack-grid">
+      ${packs.map((p) => `<article class="bl-pack">
+        <a href="/printables/${p.slug}/"><img src="${h.escapeHtml((h.thumb || ((x) => x))(p.image, "s"))}" alt="${h.escapeHtml(p.title)}" width="240" height="240" loading="lazy" decoding="async"></a>
+        <div>
+          <p class="eyebrow">${h.escapeHtml(p.price)} · save ${h.escapeHtml(p.save)}</p>
+          <h3><a href="/printables/${p.slug}/">${h.escapeHtml(p.title)}</a></h3>
+          <p>${h.escapeHtml(p.names.join(" · "))}</p>
+          <p class="bl-pack-buy"><a class="button primary" href="${h.escapeHtml(h.withTracking ? h.withTracking(p.url, `boards_hub_pack_${p.slug}`) : p.url)}" target="_blank" rel="noopener">Get the pack · ${h.escapeHtml(p.price)}</a> <a class="fx-more" href="/printables/${p.slug}/">What's inside &rarr;</a></p>
+        </div>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : "";
+  const bookHtml = books.length ? `<section class="bl-inner bl-section bl-books" aria-labelledby="bl-books-h">
+    <h2 id="bl-books-h">Every plan in a book: the cheapest way per board</h2>
+    <p class="bl-note">Single plans are $3 each. Each book holds the full plans for all its boards.</p>
+    <div class="bl-book-grid">
+      ${books.map((b) => `<article class="bl-bk">
+        <a href="${b.page}"><img src="${h.escapeHtml((h.thumb || ((x) => x))(b.cover, "s"))}" alt="${h.escapeHtml(b.title)} cover" width="240" height="310" loading="lazy" decoding="async"></a>
+        <h3><a href="${b.page}">${h.escapeHtml(b.title)}</a></h3>
+        <p class="bl-bk-math"><strong>${b.n} boards</strong> · ebook ${h.escapeHtml(b.price)} · <span>${per(b)} a board</span></p>
+        <p class="bl-bk-buy"><a class="button primary" href="${h.escapeHtml(h.withTracking ? h.withTracking(b.url, `boards_hub_book_${b.key}`) : b.url)}" target="_blank" rel="noopener">Ebook · ${h.escapeHtml(b.price)}</a>${b.paperbackUrl ? `<a class="fx-more" href="${h.escapeHtml(b.paperbackUrl)}" target="_blank" rel="noopener">Paperback · ${h.escapeHtml(b.paperbackPrice)}</a>` : ""}</p>
+      </article>`).join("\n      ")}
+    </div>
+  </section>` : "";
+  const sampleHtml = sample ? `<section class="bl-inner bl-section bl-sample" aria-labelledby="bl-sample-h">
+    <div class="bl-sample-inner">
+      <img src="/images/book/look-shopping-list-sm.webp" alt="The shopping list page from the free Board 01 plan" width="360" height="466" loading="lazy" decoding="async">
+      <div>
+        <p class="eyebrow">Free · see a full plan first</p>
+        <h2 id="bl-sample-h">Try one plan free: the Classic American Starter</h2>
+        <p>The complete 11-page plan for Board 01, the same format as every $3 plan: shopping list with amounts and prices, timed build, placement and swaps.</p>
+        ${sample}
+      </div>
+    </div>
+  </section>` : "";
+  const faqHtml = `<section class="bl-inner bl-section" aria-labelledby="bl-faq-h">
+    <h2 id="bl-faq-h">Questions about the plans</h2>
+    <div class="ebook-faq-list">
+      ${faq.map(([q, a], i) => `<details${i === 0 ? " open" : ""}><summary>${h.escapeHtml(q)}</summary><p>${h.escapeHtml(a)}</p></details>`).join("\n      ")}
+    </div>
+  </section>`;
   return h.layout({
     title: `${boards.length} Charcuterie Board Plans with Shopping Lists | Charcuterie Lab`,
     canonical: "/boards/",
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${boards.length} complete charcuterie boards for every occasion, each with what goes on it, why it works and a full printable plan.`,
-    head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}`,
+    description: `${boards.length} charcuterie boards for every occasion, each with what goes on it and why it works. Get any board's printable plan, with the shopping list, amounts and timeline, for $3.`,
+    head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
     body: `<main class="bl-main">
-${finder(h, mixBooks(boards), { heading: "Charcuterie board plans for every occasion", intro: "Each board shows what goes on it and why it works. The full plan, with every amount and where everything goes, is a printable PDF.", capped: true, extra: `\n    <p class="bl-intro">Still choosing a theme? Browse <a href="/blog/charcuterie-board-ideas/">50 charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, then size it with the <a href="/party-planner/">Party Planner</a>.</p>${season ? `\n    ${season}` : ""}${boards.some((b) => b.book === "world") ? `\n    ${worldBanner(h)}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>` })}
+${finder(h, ordered, { heading: "Charcuterie board plans for every occasion", intro: `Browse ${boards.length} boards free. When you find the one, get its printable plan for $3: the exact shopping list with amounts and prices, where everything goes, and the timeline.`, capped: true, books: bookFor, extra: `\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 board ideas</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${packHtml}
+${bookHtml}
+${sampleHtml}
+${faqHtml}
 ${h.labNext("boards_hub", { skip: ["book"], heading: "Plan your own" })}
 </main>
 ${FILTER_JS}`
