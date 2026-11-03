@@ -82,7 +82,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Uncured. Easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07MN22X3G" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=applegate+naturals+uncured+genoa+salami" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Reviews split: <a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a> named it the best Genoa, while <a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked it near the bottom as fatty and chewy. A fair pick if you want uncured.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
 </article>
 </div>

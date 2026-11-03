@@ -16,7 +16,7 @@ tags: "["best cheese crisps", "keto crackers", "whisps cheese crisps", "parm cri
 > **Quick Answer:** Buy **Whisps Parmesan** (about $4.99): just Parmesan, 1 g carbs. Sturdier: **Sonoma Creamery Parmesan Crisps**. Budget: **Savoritz** at Aldi.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Whisps Parmesan Cheese Crisps</a><p class="sk-top-line">Parmesan only, 10 out of 10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">About $4.99 for 2.12 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Whisps+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cracker swap</p><a class="sk-top-name" href="#pick-2">Sonoma Creamery Parmesan Cheese Crisps</a><p class="sk-top-line">Thick squares, like a cheese Triscuit</p></div><div class="sk-top-buy"><span class="sk-price">About $4.88 for 2.25 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Sonoma+Creamery+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Savoritz Parmesan Crisps (Aldi)</a><p class="sk-top-line">Aldi&#x27;s zero-carb Parmesan crisp</p></div><div class="sk-top-buy"><span class="sk-price">About $2.89</span><a class="button sk-buy-sm" href="https://www.aldi.us/weekly-specials/weekly-ads" target="_blank" rel="noopener">See Aldi&#x27;s weekly ad</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Whisps Parmesan Cheese Crisps</a><p class="sk-top-line">Parmesan only, 10 out of 10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">About $21 for 4 bags</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07Z59RT4V" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cracker swap</p><a class="sk-top-name" href="#pick-2">Sonoma Creamery Parmesan Cheese Crisps</a><p class="sk-top-line">Thick squares, like a cheese Triscuit</p></div><div class="sk-top-buy"><span class="sk-price">About $4.88 for 2.25 oz</span><a class="button sk-buy-sm" href="https://www.vitacost.com/products/sonoma-creamery-cheese-crisps-parmesan-2-25-oz-64-g-86783" target="_blank" rel="noopener">See it at Vitacost</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-6">Savoritz Parmesan Crisps (Aldi)</a><p class="sk-top-line">Aldi&#x27;s zero-carb Parmesan crisp</p></div><div class="sk-top-buy"><span class="sk-price">About $2.89</span><a class="button sk-buy-sm" href="https://www.aldi.us/weekly-specials/weekly-ads" target="_blank" rel="noopener">See Aldi&#x27;s weekly ad</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">How to use them</a><a href="#cheese-crisp-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Cheese crisps work as crackers on a keto or gluten-free board.
 <dl class="sk-facts"><div><dt>Ingredients</dt><dd>Parmesan only</dd></div><div><dt>Carbs</dt><dd>1 g per oz</dd></div><div><dt>Protein</dt><dd>13 g per oz</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The only cheese crisp that won a multi-product keto test, and sturdy enough to use as a cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some seasoned Whisps flavors contain sugar.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Whisps+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07Z59RT4V" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked named it Best of the Best (<a href="https://sporked.com/article/best-keto-snacks/" target="_blank" rel="noopener">Sporked</a>); Ralphs lists the nutrition (<a href="https://www.ralphs.com/p/whisps-parmesan-cheese-crisps/0008823141204" target="_blank" rel="noopener">Ralphs</a>). Hip2Keto notes sugar in some flavors (<a href="https://hip2keto.com/product-reviews/whisps-cheese-crisps/" target="_blank" rel="noopener">Hip2Keto</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Cheese crisps work as crackers on a keto or gluten-free board.
 <dl class="sk-facts"><div><dt>Ingredients</dt><dd>Parmesan, brown rice, quinoa</dd></div><div><dt>Net carbs</dt><dd>About 9 g per oz</dd></div><div><dt>Gluten-free</dt><dd>Certified</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thicker and crunchier than the others, so they hold toppings like a cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too many carbs for strict keto; this is a gluten-free pick.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Sonoma+Creamery+parmesan+cheese+crisps" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.vitacost.com/products/sonoma-creamery-cheese-crisps-parmesan-2-25-oz-64-g-86783" target="_blank" rel="noopener">See it at Vitacost</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Cheese Professor compares them to a Triscuit (<a href="https://www.cheeseprofessor.com/blog/cheese-crisps" target="_blank" rel="noopener">Cheese Professor</a>); Vitacost lists the nutrition (<a href="https://www.vitacost.com/products/sonoma-creamery-cheese-crisps-parmesan-2-25-oz-64-g-86783" target="_blank" rel="noopener">Vitacost</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -55,7 +55,7 @@ Cheese crisps work as crackers on a keto or gluten-free board.
 <dl class="sk-facts"><div><dt>Ingredients</dt><dd>Aged Parmesan</dd></div><div><dt>Carbs</dt><dd>0 g per serving</dd></div><div><dt>Gluten-free</dt><dd>Certified</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> About a dozen flavors and a very crunchy bite.</p>
 <p class="sk-mind"><strong>Watch out:</strong> They cost more than regular crackers.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=ParmCrisps+original" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00EIAB16K" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Kroger lists the nutrition (<a href="https://www.kroger.com/p/p/0089322200001" target="_blank" rel="noopener">Kroger</a>) and Hannaford the certification (<a href="https://hannaford.com/groceries/product/parm-crisps-gluten-free-original-oven-baked-cheese-snack-family-size-5-oz-bag/283573" target="_blank" rel="noopener">Hannaford</a>); KetoMethods rated them 4.5/5 (<a href="https://www.ketomethods.net/parmcrisps-cheese-crisps-review/" target="_blank" rel="noopener">KetoMethods</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ Cheese crisps work as crackers on a keto or gluten-free board.
 <dl class="sk-facts"><div><dt>Ingredients</dt><dd>Cheddar only</dd></div><div><dt>Carbs</dt><dd>2 g per serving</dd></div><div><dt>Gluten-free</dt><dd>Certified</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sold widely and certified gluten-free.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Bites, not flat crisps, so use them as a scatter-on filler.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Moon+Cheese+cheddar" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00LMIIBAA" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Stop &amp; Shop lists ingredients and certification (<a href="https://stopandshop.com/groceries/product/moon-cheese-cheddar-believe-it-snack-2-oz-bag/244318" target="_blank" rel="noopener">Stop &amp; Shop</a>); Cheese Professor explains how it&#x27;s made (<a href="https://www.cheeseprofessor.com/blog/cheese-crisps" target="_blank" rel="noopener">Cheese Professor</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">

@@ -16,7 +16,7 @@ tags: "["best cornichons", "cornichons brand", "best cornichons to buy", "maille
 > **Quick Answer:** Buy **Maille Original Cornichons** (about $6): French-made and properly sour. Budget: **Trader Joe's** (about $2.69), but sweeter. Special: **Edmond Fallot Extra Fine** (about $10).
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Original Cornichons</a><p class="sk-top-line">French-made, sour, sold almost everywhere</p></div><div class="sk-top-buy"><span class="sk-price">About $6</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0B627B12R" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Cornichons</a><p class="sk-top-line">Cheapest jar we found, but on the sweet side</p></div><div class="sk-top-buy"><span class="sk-price">About $2.69</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=cornichons&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Edmond Fallot Extra Fine Cornichons</a><p class="sk-top-line">Small French jar with tarragon</p></div><div class="sk-top-buy"><span class="sk-price">About $10</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Edmond+Fallot+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Original Cornichons</a><p class="sk-top-line">French-made, sour, sold almost everywhere</p></div><div class="sk-top-buy"><span class="sk-price">About $6</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0B627B12R" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-2">Trader Joe&#x27;s Cornichons</a><p class="sk-top-line">Cheapest jar we found, but on the sweet side</p></div><div class="sk-top-buy"><span class="sk-price">About $2.69</span><a class="button sk-buy-sm" href="https://www.traderjoes.com/home/search?q=cornichons&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Splurge</p><a class="sk-top-name" href="#pick-4">Edmond Fallot Extra Fine Cornichons</a><p class="sk-top-line">Small French jar with tarragon</p></div><div class="sk-top-buy"><span class="sk-price">About $10</span><a class="button sk-buy-sm" href="https://igourmet.com/products/cornichons-extra-fine-by-edmond-fallot" target="_blank" rel="noopener">See it at igourmet</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#cornichon-questions">FAQ</a></nav>
 :::
 
@@ -55,7 +55,7 @@ Cornichons are tiny sour pickles, the classic partner for pâté, salami and ric
 <dl class="sk-facts"><div><dt>Size</dt><dd>6.7 oz jar</dd></div><div><dt>Made in</dt><dd>France</dd></div><div><dt>Herbs</dt><dd>Tarragon, onion, mustard and coriander seed</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A specialty French jar for a luxury board or a gift basket.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The most expensive per ounce here, and mostly sold by online specialty shops.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Edmond+Fallot+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://igourmet.com/products/cornichons-extra-fine-by-edmond-fallot" target="_blank" rel="noopener">See it at igourmet</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>igourmet lists $10.26 for 6.7 oz, made in France, with tarragon, onions, mustard and coriander seeds (<a href="https://igourmet.com/products/cornichons-extra-fine-by-edmond-fallot" target="_blank" rel="noopener">igourmet</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ Cornichons are tiny sour pickles, the classic partner for pâté, salami and ric
 <dl class="sk-facts"><div><dt>Size</dt><dd>About 12.3 oz</dd></div><div><dt>Made in</dt><dd>India</dd></div><div><dt>Flavor</dt><dd>Pearl onion, mustard seed, black pepper</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheese shop sells them as the sharp contrast to raclette and aged cheddar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The &quot;Piquant&quot; jar from the same brand adds sugar and chilies. Buy the plain one for sour.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Les+Trois+Petits+Cochons+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://saxelbycheese.com/collections/vendors/products/cornichons" target="_blank" rel="noopener">See it at Saxelby Cheese</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Saxelby Cheese describes a sharp, acidic pickle with mustard seeds and pearl onions, from a brand founded in 1975 in Greenwich Village (<a href="https://saxelbycheese.com/collections/vendors/products/cornichons" target="_blank" rel="noopener">Saxelby Cheese</a>). The sell sheet gives the ingredients and India as the origin (<a href="https://sellsheets.syndigo.com/food/cb6daf5f-875c-46e6-8c64-e826dcd6e393" target="_blank" rel="noopener">Syndigo</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +71,7 @@ Cornichons are tiny sour pickles, the classic partner for pâté, salami and ric
 <dl class="sk-facts"><div><dt>Size</dt><dd>11.6 fl oz jar</dd></div><div><dt>Sugar</dt><dd>0 g per serving</dd></div><div><dt>Labels</dt><dd>Kosher, non-GMO</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to order with groceries, with no listed sugar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Whole Foods&#x27; page doesn&#x27;t list the ingredients or where it&#x27;s made.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=365+Whole+Foods+extra+fine+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B074HBXPSN" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Whole Foods lists an 11.6 fl oz jar with 0 g sugar and 280 mg sodium per 1 oz serving, and suggests it for charcuterie plates (<a href="https://www.wholefoodsmarket.com/grocery/product/11-6-fl-oz-pack-of-1-b074hbxpsn" target="_blank" rel="noopener">Whole Foods</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -79,7 +79,7 @@ Cornichons are tiny sour pickles, the classic partner for pâté, salami and ric
 <dl class="sk-facts"><div><dt>Size</dt><dd>12.5 oz jar</dd></div><div><dt>Flavor</dt><dd>Dill, mustard seed</dd></div><div><dt>Sugar</dt><dd>Yes, 1 g per ounce</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Dill instead of tarragon, at a good price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> It has added sugar, so it isn&#x27;t the classic sour French style.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Hengstenberg+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00F3DSW36" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>H-E-B lists $5.48 for 12.5 oz with gherkins, spirit vinegar, sugar, dill, salt and mustard seeds, described as having &quot;a strong fresh dill note&quot; (<a href="https://www.heb.com/product-detail/hengstenberg-cornichons/699413" target="_blank" rel="noopener">H-E-B</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
@@ -87,7 +87,7 @@ Cornichons are tiny sour pickles, the classic partner for pâté, salami and ric
 <dl class="sk-facts"><div><dt>Size</dt><dd>7.1 oz jar</dd></div><div><dt>Labels</dt><dd>Vegan, non-GMO, kosher</dd></div><div><dt>Flavor</dt><dd>Briny, tangy, slightly sweet</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> No leftover jar sitting in the fridge for months.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Ingredients and origin aren&#x27;t listed on the brand&#x27;s page.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=DeLallo+cornichons" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.delallo.com/delallo-cornichons/" target="_blank" rel="noopener">See it at DeLallo</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>DeLallo sells it for $4.95 for 7.1 oz, &quot;delicately brined in small batches&quot; (<a href="https://www.delallo.com/delallo-cornichons/" target="_blank" rel="noopener">DeLallo</a>).</p></details>
 </article>
 </div>

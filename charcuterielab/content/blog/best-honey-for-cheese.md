@@ -14,7 +14,7 @@ slug: "best-honey-for-cheese"
 > **Quick Answer:** Our top pick for honey on a charcuterie board is Nature Nate's Raw & Unfiltered Honey (4.6 out of 5). Best value: 365 by Whole Foods Market Organic Raw Wildflower Honey. Splurge: Rigoni di Asiago Mielbio Chestnut Honey.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Nature Nate&#x27;s Raw &amp; Unfiltered Honey</a><p class="sk-top-line">Top-ranked. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CMQD3VS" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">365 by Whole Foods Market Organic Raw Wildflower Honey</a><p class="sk-top-line">Organic, raw. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Rigoni di Asiago Mielbio Chestnut Honey</a><p class="sk-top-line">The right style for blue cheese. Organic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Rigoni+di+Asiago+Mielbio+Chestnut+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Nature Nate&#x27;s Raw &amp; Unfiltered Honey</a><p class="sk-top-line">Top-ranked. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00CMQD3VS" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">365 by Whole Foods Market Organic Raw Wildflower Honey</a><p class="sk-top-line">Organic, raw. Cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-2">See details</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Rigoni di Asiago Mielbio Chestnut Honey</a><p class="sk-top-line">The right style for blue cheese. Organic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -57,7 +57,6 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Blue cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Eataly, Amazon, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The right style for blue cheese. Organic.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong flavor. Few published reviews.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Rigoni+di+Asiago+Mielbio+Chestnut+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Dark, bitter and almost savory, chestnut honey is the classic partner for blue cheese. This organic Italian version is one of the easiest to buy. (Source: <a href="https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz" target="_blank" rel="noopener">Eataly</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +65,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Gift-worthy varietals</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Varietal choice. Nice jars.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Savannah+Bee+Company" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09FC7NNR1" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Single-varietal honeys and a published cheese-pairing guide. Its hot honey ranked fifth in <a href="https://www.tastingtable.com/1868923/hot-honey-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s test. (Source: <a href="https://savannahbee.com/blogs/the-latest-buzz/how-to-pair-honey-and-cheese" target="_blank" rel="noopener">Savannah Bee Company</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -75,7 +74,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh and soft cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Eataly, Amazon, Italian delis.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Mild. Stays liquid.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Rigoni+di+Asiago+Mielbio+Acacia+Honey" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz" target="_blank" rel="noopener">See it at Eataly</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Very mild and slow to crystallize, acacia is a good all-round honey for goat cheese and ricotta. (Source: <a href="https://www.eataly.com/us_en/rigoni-di-asiago-mielbio-acacia-honey-10-5-oz" target="_blank" rel="noopener">Eataly</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
 </article>
 </div>

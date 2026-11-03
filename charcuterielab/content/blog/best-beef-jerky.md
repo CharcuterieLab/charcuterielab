@@ -16,7 +16,7 @@ tags: "["best beef jerky", "best beef jerky brand", "old trapper beef jerky", "a
 > **Quick Answer:** **Old Trapper Old Fashioned** earned Sporked's 10/10 after three tastings. **Archer Grass-Fed Original** won The Kitchn's blind test. Budget: **Great Value Peppered**. For a board: **Simms Biltong** from Aldi, thin like bresaola.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Old Trapper Old Fashioned Beef Jerky</a><p class="sk-top-line">10/10 at Sporked, three tests running</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Old+Trapper+Old+Fashioned+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best grass-fed</p><a class="sk-top-name" href="#pick-2">Archer Grass-Fed Original Beef Jerky</a><p class="sk-top-line">Won The Kitchn&#x27;s blind test</p></div><div class="sk-top-buy"><span class="sk-price">About $9 for 2.5 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Archer+grass+fed+original+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Great Value Peppered Beef Jerky</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Walmart store brand</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=great+value+peppered+beef+jerky" target="_blank" rel="noopener">See it at Walmart</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Old Trapper Old Fashioned Beef Jerky</a><p class="sk-top-line">10/10 at Sporked, three tests running</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0F2NQDX5M" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best grass-fed</p><a class="sk-top-name" href="#pick-2">Archer Grass-Fed Original Beef Jerky</a><p class="sk-top-line">Won The Kitchn&#x27;s blind test</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07SWTRFF6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Great Value Peppered Beef Jerky</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Walmart store brand</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=great+value+peppered+beef+jerky" target="_blank" rel="noopener">See it at Walmart</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">Jerky on a board</a><a href="#jerky-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Jerky belongs on game-day and snack boards next to meat sticks and summer sausag
 <dl class="sk-facts"><div><dt>Score</dt><dd>10/10 at Sporked</dd></div><div><dt>Flavor</dt><dd>Smoky, salty, a little sweet</dd></div><div><dt>Where</dt><dd>Target, Walmart</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s best of the best after three separate tastings: thick, meaty strips with good chew and the most savory flavor they tried.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thick strips; cut them into bite-size pieces for a board.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Old+Trapper+Old+Fashioned+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0F2NQDX5M" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked's ranking (<a href="https://sporked.com/article/best-beef-jerky-brands/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Jerky belongs on game-day and snack boards next to meat sticks and summer sausag
 <dl class="sk-facts"><div><dt>Won</dt><dd>The Kitchn, 7 tasted blind</dd></div><div><dt>Beef</dt><dd>Grass-fed</dd></div><div><dt>Good to know</dt><dd>No nitrates or preservatives</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The Kitchn&#x27;s clear winner: very savory and slightly smoky, salty with a touch of sweetness, and tender.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier per ounce than gas-station jerky.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Archer+grass+fed+original+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07SWTRFF6" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The Kitchn's test and price (<a href="https://www.thekitchn.com/best-beef-jerky-2-23723008" target="_blank" rel="noopener">The Kitchn</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +47,7 @@ Jerky belongs on game-day and snack boards next to meat sticks and summer sausag
 <dl class="sk-facts"><div><dt>Score</dt><dd>9/10 at Sporked</dd></div><div><dt>Also</dt><dd>Kitchn honorable mention</dd></div><div><dt>Texture</dt><dd>Fibrous, homemade-style</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like real beef with a fibrous, homemade texture; Sporked&#x27;s best plain jerky and an honorable mention at The Kitchn.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The Kitchn&#x27;s tasters found it a little tough.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Tillamook+Country+Smoker+Old+Fashioned+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07691KLQ2" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://sporked.com/article/best-beef-jerky-brands/" target="_blank" rel="noopener">Sporked</a>; <a href="https://www.thekitchn.com/best-beef-jerky-2-23723008" target="_blank" rel="noopener">The Kitchn</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -63,7 +63,7 @@ Jerky belongs on game-day and snack boards next to meat sticks and summer sausag
 <dl class="sk-facts"><div><dt>Placed</dt><dd>2nd at The Kitchn</dd></div><div><dt>Ingredients</dt><dd>6</dd></div><div><dt>Shape</dt><dd>Bite-size nuggets</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Two of The Kitchn&#x27;s tasters ranked it first: savory and tender, in bite-size pieces made with only six ingredients.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The most expensive bag here.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=EPIC+beef+and+pepper+bites" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08M55QV6K" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The Kitchn's test and price (<a href="https://www.thekitchn.com/best-beef-jerky-2-23723008" target="_blank" rel="noopener">The Kitchn</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +71,7 @@ Jerky belongs on game-day and snack boards next to meat sticks and summer sausag
 <dl class="sk-facts"><div><dt>Score</dt><dd>9.5/10 at Sporked</dd></div><div><dt>Heat</dt><dd>Real chile, not scorching</dd></div><div><dt>Where</dt><dd>Walmart</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Spicy enough to notice, balanced with a little sweetness, and it tastes like fresh chile. Sporked&#x27;s editor named it her personal favorite.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Visible pepper flakes; label it for guests who avoid heat.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Old+Trapper+Hot+and+Spicy+beef+jerky" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0F2NTM558" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked's ranking (<a href="https://sporked.com/article/best-beef-jerky-brands/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">

@@ -55,7 +55,7 @@ For a board you want dry-cured Spanish chorizo, which is ready to slice and eat,
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Clean ingredients</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Amazon, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean label.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly online.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=MeatCrafters+Chorizo+de+Pamplona" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.meatcrafters.com/collections/salamis" target="_blank" rel="noopener">See it at MeatCrafters</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An American-made, Pamplona-style cured chorizo with no added nitrites or nitrates, made from antibiotic-free pork. (Source: <a href="https://www.amazon.com/clp/B08L8DK9VZ" target="_blank" rel="noopener">Amazon</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
 </article>
 </div>

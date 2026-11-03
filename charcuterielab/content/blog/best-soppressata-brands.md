@@ -54,7 +54,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Craft pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Clean ingredients. Distinctive flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Mostly online.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Olympia+Provisions+Sopressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">See it at Olympia Provisions</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Portland salami with clove, oregano, garlic and chili, made with no added nitrates or nitrites and fermented with natural molds. (Source: <a href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">Olympia Provisions</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less character than craft versions.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+Sopressata" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=boar%27s+head+sopressata" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Cut to order at the deli, so the edges stay fresh. A fine everyday option.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>
 </article>
 </div>

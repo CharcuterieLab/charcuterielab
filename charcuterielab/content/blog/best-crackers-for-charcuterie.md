@@ -14,7 +14,7 @@ slug: "best-crackers-for-charcuterie"
 > **Quick Answer:** Our top pick for crackers on a charcuterie board is Carr's Table Water Crackers (4.5 out of 5). Best value: Milton's Craft Bakers Original Multi-Grain. Splurge: Lesley Stowe Raincoast Crisps.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers</a><p class="sk-top-line">Neutral. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Milton&#x27;s Craft Bakers Original Multi-Grain</a><p class="sk-top-line">Great value. Sturdy enough for dips.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07RWQ55QC" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Lesley Stowe Raincoast Crisps</a><p class="sk-top-line">Real fruit and nuts. Beautiful on a board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.7/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lesley+Stowe+Raincoast+Crisps" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers</a><p class="sk-top-line">Neutral. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Milton&#x27;s Craft Bakers Original Multi-Grain</a><p class="sk-top-line">Great value. Sturdy enough for dips.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07RWQ55QC" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Lesley Stowe Raincoast Crisps</a><p class="sk-top-line">Real fruit and nuts. Beautiful on a board.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.7/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00PJ4LLRS" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -57,7 +57,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The show-off cracker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Costco, Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Real fruit and nuts. Beautiful on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Contains nuts.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Lesley+Stowe+Raincoast+Crisps" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00PJ4LLRS" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Thin crisps packed with dried fruit, nuts and seeds. They turn a plain wedge of goat cheese or blue into a complete bite. (Source: <a href="https://stripedspatula.com/best-crackers-for-cheese/" target="_blank" rel="noopener">Striped Spatula</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +66,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Dips and spreads</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very sturdy. Flaky salt top.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Firehook+Mediterranean+Sea+Salt+Crackers" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B005NK58WM" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Sturdy flatbread-style strips topped with flaky sea salt. They hold up to whipped feta and thick spreads without snapping. (Source: <a href="https://stripedspatula.com/best-crackers-for-cheese/" target="_blank" rel="noopener">Striped Spatula</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -75,7 +75,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Budget all-rounder</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not as neutral as a water cracker.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Breton+Original" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=breton+original+crackers" target="_blank" rel="noopener">Find it at Walmart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Thin, flaky whole-wheat rounds with a mild, nutty flavor. A dependable everyday cracker. (Source: <a href="https://stripedspatula.com/best-crackers-for-cheese/" target="_blank" rel="noopener">Striped Spatula</a>.)</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -84,7 +84,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A special occasion</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Cheese shops, Whole Foods.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Handmade. Interesting flavors.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Hard to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Rustic+Bakery+Flatbread+Bites" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0758S8GPC" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Handmade sourdough flatbreads in flavors like sweet onion with crème fraîche. Excellent, but priced and stocked like a treat. (Source: <a href="https://stripedspatula.com/best-crackers-for-cheese/" target="_blank" rel="noopener">Striped Spatula</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 2 · Easy to find 2</span></p></details>
 </article>
 </div>

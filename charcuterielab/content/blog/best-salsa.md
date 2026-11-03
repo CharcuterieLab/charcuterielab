@@ -15,7 +15,7 @@ tags: "["best store bought salsa", "best jarred salsa", "salsa brands", "salsa f
 > **Quick Answer:** Our top pick for salsa on a charcuterie board is Siete Mild Salsa (4.4 out of 5). Value: On The Border Medium Chunky Salsa. Refrigerated: Green Mountain Gringo Medium Salsa.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Siete Mild Salsa</a><p class="sk-top-line">Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">On The Border Medium Chunky Salsa</a><p class="sk-top-line">Thick enough to stay on the chip, and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00G7W3LOM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-3">Green Mountain Gringo Medium Salsa</a><p class="sk-top-line">Short, clean ingredient list and big chunks.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07G9M2XHC" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Siete Mild Salsa</a><p class="sk-top-line">Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="https://www.target.com/s?searchTerm=siete+mild+salsa" target="_blank" rel="noopener">Find it at Target</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">On The Border Medium Chunky Salsa</a><p class="sk-top-line">Thick enough to stay on the chip, and cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00G7W3LOM" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best refrigerated</p><a class="sk-top-name" href="#pick-3">Green Mountain Gringo Medium Salsa</a><p class="sk-top-line">Short, clean ingredient list and big chunks.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07G9M2XHC" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -31,6 +31,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh flavor with little heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target, Walmart, Whole Foods and Kroger.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like fresh salsa, and it&#x27;s mild enough for everyone.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin and salty, and pricier than most jars.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.target.com/s?searchTerm=siete+mild+salsa" target="_blank" rel="noopener">Find it at Target</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thetakeout.com/1914575/salsa-store-bought-ranked-worst-best/" target="_blank" rel="noopener">The Takeout</a>&#x27;s #1 of 15 for fresh tomato, plenty of cilantro and gentle jalapeño heat. <a href="https://sporked.com/article/best-store-bought-salsa/" target="_blank" rel="noopener">Sporked</a> gave it 8.5 out of 10, and <a href="https://www.eatthis.com/store-bought-salsas-taste-test/" target="_blank" rel="noopener">Eat This, Not That</a> praised its roasted tomato flavor and short ingredient list.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -57,7 +58,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Real heat</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Refrigerated section in western grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Restaurant-style salsa with real heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly sold on the West Coast.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Casa+Sanchez+Hot+Salsa+Roja" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=casa+sanchez+salsa+roja" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-store-bought-salsa/" target="_blank" rel="noopener">Sporked</a>&#x27;s best of the best with 10 out of 10, &quot;the perfect restaurant-style salsa.&quot;</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +67,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A familiar crowd-pleaser</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, smooth and everywhere.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Tastes more like a jar than the leaders.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Pace+Restaurant+Style+Salsa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=pace+restaurant+style+salsa" target="_blank" rel="noopener">Find it at Walmart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-store-bought-salsa/" target="_blank" rel="noopener">Sporked</a>&#x27;s best jarred salsa at 9.5 out of 10. Pace&#x27;s original Picante sauce did less well, 9th at both <a href="https://www.thetakeout.com/1914575/salsa-store-bought-ranked-worst-best/" target="_blank" rel="noopener">The Takeout</a> and <a href="https://www.chowhound.com/1903670/popular-jarred-store-bought-salsa-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a>, so buy the restaurant style.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -75,7 +76,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A taqueria-style salsa</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores, often in the Mexican foods aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Loose, fresh-tasting and not too hot.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin, so serve it with sturdy chips.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Herdez+Salsa+Casera" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=herdez+salsa+casera" target="_blank" rel="noopener">Find it at Walmart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thetakeout.com/1914575/salsa-store-bought-ranked-worst-best/" target="_blank" rel="noopener">The Takeout</a> ranked Herdez 3rd of 15, calling it the most authentic, like a taqueria salsa bar. <a href="https://www.chowhound.com/1903670/popular-jarred-store-bought-salsa-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> ranked it near the bottom, so it&#x27;s divisive.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -84,7 +85,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Mild or hot with lots of flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Kroger and Texas grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tomato-forward, with a hot version that&#x27;s actually hot.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not stocked everywhere.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Mateo&#x27;s+Gourmet+Salsa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B083HKZX2W" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-store-bought-salsa/" target="_blank" rel="noopener">Sporked</a> gave the hot version 9.5 and the mild 9 out of 10. <a href="https://www.thetakeout.com/1914575/salsa-store-bought-ranked-worst-best/" target="_blank" rel="noopener">The Takeout</a> and <a href="https://www.chowhound.com/1903670/popular-jarred-store-bought-salsa-ranked-worst-best" target="_blank" rel="noopener">Chowhound</a> both put it 8th of 15.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-8">
@@ -93,7 +94,7 @@ Salsa tests disagree a lot, so we favored jars that did well in more than one.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Roasted, mild flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery stores and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Roasted flavor without much heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only one test rated it.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Desert+Pepper+Cantina+Salsa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B078B25K1V" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thetakeout.com/1914575/salsa-store-bought-ranked-worst-best/" target="_blank" rel="noopener">The Takeout</a>&#x27;s runner-up, with roasted tomato, a little cumin and good balance.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 </div>

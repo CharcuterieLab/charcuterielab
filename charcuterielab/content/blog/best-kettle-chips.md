@@ -58,7 +58,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Potato lovers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big potato flavor and crunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Salty and heavy.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Kettle+Brand+Sea+Salt" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09ZGXDKBR" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-kettle-cooked-potato-chips/" target="_blank" rel="noopener">Sporked</a> gave it 10 out of 10 for the most potato-forward, earthy flavor, but said it&#x27;s very salty and probably too bold for dipping. <a href="https://www.eatthis.com/kettle-cooked-potato-chips-taste-test" target="_blank" rel="noopener">Eat This, Not That</a> found it the heaviest and oiliest.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -67,7 +67,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The crunchiest bite</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery stores and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big crunch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The test is from 2018, and it is less widely stocked.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Deep+River+Original+Kettle+Cooked+Chips" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B002C50X4Y" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked first in <a href="https://tastingtable.com/695402/best-potato-chips-taste-test" target="_blank" rel="noopener">Tasting Table</a>&#x27;s original potato chip test for the best crunch of any brand, though it costs a bit more.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -76,7 +76,7 @@ Kettle chips are sturdy enough to scoop dip. Two brands keep winning.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A different-tasting chip</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Southern grocers and online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A New Orleans classic with real character.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find outside the South.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Zapp&#x27;s+Regular+Flavor" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=zapp%27s+regular+potato+chips" target="_blank" rel="noopener">Find it at Walmart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-kettle-cooked-potato-chips/" target="_blank" rel="noopener">Sporked</a> gave it 9.5 out of 10 for the best-tasting oil: distinct from the others, with an assertive crunch.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 3 · Value 4 · Easy to find 3</span></p></details>
 </article>
 </div>

@@ -58,7 +58,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Tart-sweet balance</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods and natural grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and simple.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Woodstock+Organic+Cranberry+Sauce" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.wholefoodsmarket.com/search?text=woodstock+organic+cranberry+sauce" target="_blank" rel="noopener">Find it at Whole Foods</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thedailymeal.com/ultimate-canned-cranberry-sauce-taste-test-slideshow" target="_blank" rel="noopener">Daily Meal</a> ranked the jellied version 2nd of eight for its simple ingredient list and balanced sweet-tart flavor. <a href="https://www.aol.com/articles/blind-tasted-whole-berry-cranberry-215014243.html" target="_blank" rel="noopener">Better Homes &amp; Gardens</a> found the whole berry version mild.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -67,7 +67,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Whole berry on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Aldi.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick and jammy for the price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Darker color, and only at Aldi.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Sweet+Harvest+Whole+Berry+Cranberry+Sauce" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.aldi.us/" target="_blank" rel="noopener">Find it at Aldi</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.aol.com/articles/blind-tasted-whole-berry-cranberry-215014243.html" target="_blank" rel="noopener">Better Homes &amp; Gardens</a> editors praised its natural, balanced sweet-tart flavor and thick, jam-like texture. Daily Meal ranked Aldi&#x27;s jellied version last, so buy the whole berry.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -76,7 +76,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A classic sweet sauce</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere, with whole berries for texture.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very sweet.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ocean+Spray+Whole+Berry+Cranberry+Sauce" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000RYBS2I" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The sweetest in <a href="https://www.aol.com/articles/blind-tasted-whole-berry-cranberry-215014243.html" target="_blank" rel="noopener">Better Homes &amp; Gardens</a>&#x27;s blind test, which divided tasters. <a href="https://www.aol.com/articles/tried-8-canned-cranberry-sauces-120000458.html" target="_blank" rel="noopener">Food &amp; Wine</a> ranked it 6th of eight.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -85,7 +85,7 @@ Spoon it over baked brie, set it by sharp cheddar, or cut it into shapes. Rankin
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Two-ingredient sauce</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural grocers and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The shortest ingredient list here.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Farmer&#x27;s+Market+Organic+Cranberry+Sauce" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0FP6DJR2J" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.aol.com/articles/blind-tasted-whole-berry-cranberry-215014243.html" target="_blank" rel="noopener">Better Homes &amp; Gardens</a>&#x27;s favorite canned sauce: smooth, true cranberry flavor, made from just cranberries and sugar.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
 </article>
 </div>

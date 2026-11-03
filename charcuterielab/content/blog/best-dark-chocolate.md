@@ -15,7 +15,7 @@ tags: "["best dark chocolate", "best dark chocolate bar", "dark chocolate brands
 > **Quick Answer:** Our top pick for dark chocolate on a charcuterie board is Tony's Chocolonely Dark Chocolate 70% (4.4 out of 5). Value: Choceur Dark Chocolate. Splurge: Valrhona Manjari 64%.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Tony&#x27;s Chocolonely Dark Chocolate 70%</a><p class="sk-top-line">Near the top of two big tests, and Fairtrade.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B087K17C7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Choceur Dark Chocolate</a><p class="sk-top-line">Top-ranked flavor at an Aldi price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Valrhona Manjari 64%</a><p class="sk-top-line">The most complex, fruity flavor here.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Valrhona+Manjari+64%" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Tony&#x27;s Chocolonely Dark Chocolate 70%</a><p class="sk-top-line">Near the top of two big tests, and Fairtrade.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B087K17C7Q" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Choceur Dark Chocolate</a><p class="sk-top-line">Top-ranked flavor at an Aldi price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.1/5 · $</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-7">Valrhona Manjari 64%</a><p class="sk-top-line">The most complex, fruity flavor here.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0CBB7N76J" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -57,7 +57,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Neat, wrapped pieces</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Target and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Wrapped sticks look tidy and stay clean on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier per ounce than a bar.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Godiva+72%+Cacao+Dark+Chocolate" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.target.com/s?searchTerm=godiva+72%25+dark+chocolate" target="_blank" rel="noopener">Find it at Target</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-dark-chocolate/" target="_blank" rel="noopener">Sporked</a> gave it 9 out of 10 for a good snap and a fruity, nutty, roasted flavor, sold as individually wrapped sticks.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +66,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Salty-sweet with aged cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Target and many grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and Fairtrade, and the salt suits a cheese board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than the grocery bars.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Theo+Dark+Chocolate+Sea+Salt+70%" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.target.com/s?searchTerm=theo+sea+salt+dark+chocolate+70%25" target="_blank" rel="noopener">Find it at Target</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-dark-chocolate/" target="_blank" rel="noopener">Sporked</a> named it best of the best with 9 out of 10: smooth and creamy, with balanced bitter, sweet and salty notes.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -84,7 +84,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A chocolate lover&#x27;s board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Amazon, Whole Foods and specialty grocers.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The most complex, fruity flavor here.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive and mostly sold online.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Valrhona+Manjari+64%" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CBB7N76J" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>From the French chocolate maker used by pastry chefs. <a href="https://tastingtable.com/1693191/dark-chocolate-brands-ranked" target="_blank" rel="noopener">Tasting Table</a> ranked it 4th of 20 for a dried-fruit flavor with a slight tang and well-balanced sweetness.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 </div>

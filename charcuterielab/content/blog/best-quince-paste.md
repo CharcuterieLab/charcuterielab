@@ -59,7 +59,7 @@ Membrillo is Spain's firm, sweet quince paste. A slice on Manchego is one of the
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big boards and grazing tables</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Cheese counters, Spanish and Latin markets.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Buy as much or as little as you need.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not every store does it. Ask at the cheese counter.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Deli-counter+membrillo,+cut+to+order" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.zabars.com/membrillo--quince-paste-/825N001.html" target="_blank" rel="noopener">See it at Zabar&#x27;s</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Some cheese counters and Spanish delis sell membrillo cut from a big block, like Zabar&#x27;s in New York (<a href="https://www.zabars.com/membrillo--quince-paste-/825N001.html" target="_blank" rel="noopener">Zabar&#x27;s</a>). It&#x27;s the cheapest way to buy it for a big board.</p><p></p></details>
 </article>
 </div>

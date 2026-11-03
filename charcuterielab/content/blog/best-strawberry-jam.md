@@ -57,7 +57,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fresh, tart flavor</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> No added sugar, sweetened with fruit juice.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small jar.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=St.+Dalfour+Strawberry+Fruit+Spread" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=st+dalfour+strawberry+fruit+spread" target="_blank" rel="noopener">Find it at Walmart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-jam/" target="_blank" rel="noopener">Sporked</a>&#x27;s best strawberry jam, with 9.5 out of 10: &quot;sweet and tart and tastes super fresh.&quot; <a href="https://www.chowhound.com/1897341/store-bought-strawberry-jam-ranked" target="_blank" rel="noopener">Chowhound</a> ranked it 5th, noting it&#x27;s made from all fruit but pricey for a small jar.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +66,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>An organic store brand</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods and Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic at a fair price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, with few chunks.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=365+Organic+Strawberry+Fruit+Spread" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B074J5KFHG" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.chowhound.com/1897341/store-bought-strawberry-jam-ranked" target="_blank" rel="noopener">Chowhound</a> ranked it 3rd of 12 for fresh fruit flavor and balanced sweetness, though it isn&#x27;t chunky.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -75,7 +75,7 @@ Goes with brie, goat cheese and every cracker, and kids reach for it first.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>The cheapest good jar</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger and Kroger-family stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Low price, with chunks.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sweet.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Kroger+Strawberry+Preserves" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.kroger.com/search?query=kroger+strawberry+preserves" target="_blank" rel="noopener">Find it at Kroger</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.chowhound.com/1897341/store-bought-strawberry-jam-ranked" target="_blank" rel="noopener">Chowhound</a> called it classic, sweet and chunky, and a strong budget pick at 6th of 12.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 4</span></p></details>
 </article>
 </div>

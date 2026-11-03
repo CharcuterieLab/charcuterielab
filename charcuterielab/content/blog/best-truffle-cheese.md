@@ -71,7 +71,7 @@ One truffle cheese makes a board feel like a splurge, and the good ones taste of
 <dl class="sk-facts"><div><dt>Milk</dt><dd>Sheep and cow</dd></div><div><dt>Truffle</dt><dd>White</dd></div><div><dt>From</dt><dd>Tuscany</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> One of the few cheeses made with white truffle, with a more authentic truffle aroma than most.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find outside specialty shops.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boschetto+al+Tartufo+cheese" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://igourmet.com/search?q=boschetto+al+tartufo" target="_blank" rel="noopener">Find it at igourmet</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Janet Fletcher's notes (<a href="https://www.janetfletcher.com/blog/2018/12/2/truffle-cheese-happy-hour" target="_blank" rel="noopener">Janet Fletcher</a>).</p></details>
 </article>
 </div>

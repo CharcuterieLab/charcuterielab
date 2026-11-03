@@ -56,7 +56,7 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Smooth and mild</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Smooth.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Stonewall+Kitchen+Hot+Pepper+Jelly" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00QIIRBSC" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Pleasant caramelized onion notes and easy spreading, though <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a> wanted more heat.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -65,7 +65,6 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fig lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Spreadable. Fig and heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Bellisari&#x27;s+Blistered+Jalapeño+Fig" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Third at <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a>: very spreadable with mid-range heat and a rich fig flavor.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 2</span></p></details>
 </article>
 </div>

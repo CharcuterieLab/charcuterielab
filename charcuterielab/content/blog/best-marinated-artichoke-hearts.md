@@ -62,7 +62,7 @@ Open, drain, done: the easiest antipasto to add to a board.
 <dl class="sk-facts"><div><dt>Size</dt><dd>14.5 oz</dd></div><div><dt>Sporked score</dt><dd>9 / 10</dd></div><div><dt>Oil</dt><dd>Sunflower</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> &quot;Noticeably a bit firmer than every other brand,&quot; so it holds up on a pick.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly at Sprouts and natural-food stores, and retailers disagree on where it&#x27;s made.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Jeff&#x27;s+Garden+marinated+artichoke+hearts" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://giantfood.com/groceries/product/jeffs-garden-marinated-artichoke-hearts-14-5-oz-jar/310733" target="_blank" rel="noopener">See it at Giant</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 9/10 and found it at Sprouts for $5.99 (<a href="https://sporked.com/article/best-canned-artichokes/" target="_blank" rel="noopener">Sporked</a>). Giant lists 14.5 oz, sunflower oil, Product of Peru (<a href="https://giantfood.com/groceries/product/jeffs-garden-marinated-artichoke-hearts-14-5-oz-jar/310733" target="_blank" rel="noopener">Giant</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -70,7 +70,7 @@ Open, drain, done: the easiest antipasto to add to a board.
 <dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Price per oz</dt><dd>About 24 cents</dd></div><div><dt>Rating</dt><dd>4.6 / 5 at Walmart (1,363)</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The lowest shelf price we found, with strong shopper ratings.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sporked tried it but didn&#x27;t rank or describe it.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Reese+quartered+marinated+artichoke+hearts" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/ip/Reese-Quartered-Marinated-Artichoke-Hearts-12-oz/30948637" target="_blank" rel="noopener">See it at Walmart</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Walmart lists $2.92 for 12 oz, rated 4.6 from 1,363 ratings (<a href="https://www.walmart.com/ip/Reese-Quartered-Marinated-Artichoke-Hearts-12-oz/30948637" target="_blank" rel="noopener">Walmart</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
@@ -78,7 +78,7 @@ Open, drain, done: the easiest antipasto to add to a board.
 <dl class="sk-facts"><div><dt>Size</dt><dd>24 oz</dd></div><div><dt>Price per oz</dt><dd>About 25 cents</dd></div><div><dt>Rating</dt><dd>4.4 / 5 at Walmart (79)</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A cheap big jar if you don&#x27;t shop at Costco.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sporked tried it but didn&#x27;t rank it, and the listing has no ingredient list.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=DeLallo+marinated+artichoke+hearts+24+oz" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/ip/DeLallo-Marinated-Artichoke-Hearts-24-oz-Jar/32471996" target="_blank" rel="noopener">See it at Walmart</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Walmart lists $6.12 for 24 oz, rated 4.4 from 79 ratings (<a href="https://www.walmart.com/ip/DeLallo-Marinated-Artichoke-Hearts-24-oz-Jar/32471996" target="_blank" rel="noopener">Walmart</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">

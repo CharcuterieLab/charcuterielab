@@ -16,7 +16,7 @@ tags: "["best cheese paper", "cheese storage bags", "formaticum cheese bags", "h
 > **Quick Answer:** Most people: **Formaticum Cheese Storage Bags** (about $10 to $19 for 15). Cheapest that works: **parchment plus foil**, the winner in America's Test Kitchen's test. The gift: **Cheese Grotto Mezzo** ($150).
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Formaticum Cheese Storage Bags</a><p class="sk-top-line">Two-ply bags with a label spot</p></div><div class="sk-top-buy"><span class="sk-price">About $10 to $19 for 15</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Formaticum+cheese+storage+bags" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheap method</p><a class="sk-top-name" href="#pick-3">Parchment Paper and Aluminum Foil</a><p class="sk-top-line">America&#x27;s Test Kitchen&#x27;s winner</p></div><div class="sk-top-buy"><span class="sk-price">Pennies per wrap</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=unbleached+parchment+paper+roll" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best gift</p><a class="sk-top-name" href="#pick-6">Cheese Grotto Mezzo</a><p class="sk-top-line">A small cheese cave for 2 lb</p></div><div class="sk-top-buy"><span class="sk-price">$150</span><a class="button sk-buy-sm" href="https://cheesegrotto.com/collections/frontpage/products/cheese-grotto-mezzo" target="_blank" rel="noopener">See it</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Formaticum Cheese Storage Bags</a><p class="sk-top-line">Two-ply bags with a label spot</p></div><div class="sk-top-buy"><span class="sk-price">About $10 to $19 for 15</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00BEDW76W" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best cheap method</p><a class="sk-top-name" href="#pick-3">Parchment Paper and Aluminum Foil</a><p class="sk-top-line">America&#x27;s Test Kitchen&#x27;s winner</p></div><div class="sk-top-buy"><span class="sk-price">Pennies per wrap</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best gift</p><a class="sk-top-name" href="#pick-6">Cheese Grotto Mezzo</a><p class="sk-top-line">A small cheese cave for 2 lb</p></div><div class="sk-top-buy"><span class="sk-price">$150</span><a class="button sk-buy-sm" href="https://cheesegrotto.com/collections/frontpage/products/cheese-grotto-mezzo" target="_blank" rel="noopener">See it</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">How long cheese lasts</a><a href="#cheese-paper-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 <dl class="sk-facts"><div><dt>Count</dt><dd>15 bags</dd></div><div><dt>Size</dt><dd>6.25 × 11 in</dd></div><div><dt>Material</dt><dd>Wax-coated paper, polyethylene</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Two-ply paper lets cheese breathe while holding in some moisture, and each bag has a spot to write the cheese and date.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very soft cheeses get messy, and America&#x27;s Test Kitchen found cheese paper added only a few days over parchment and foil.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Formaticum+cheese+storage+bags" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00BEDW76W" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food Network lists the 15-pack and its 4.5-star Amazon rating (<a href="https://www.foodnetwork.com/fn-dish/shopping/01/these-storage-containers-changed-my-life" target="_blank" rel="noopener">Food Network</a>); sizes from Formaticum (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 <dl class="sk-facts"><div><dt>Count</dt><dd>15 sheets + 15 labels</dd></div><div><dt>Size</dt><dd>11 × 14 in</dd></div><div><dt>Best for</dt><dd>Aged cheeses</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sheets wrap odd-shaped wedges snugly, and the labels seal and date them.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Wrapping takes a little practice; the bags are faster.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Formaticum+cheese+storage+sheets" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B002I47P40" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Di Bruno Bros. lists $8.99 for 15 sheets (<a href="https://dibruno.com/products/cheese-storage-sheets-copy" target="_blank" rel="noopener">Di Bruno Bros.</a>); Formaticum recommends sheets for drier, aged cheeses (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +47,6 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 <dl class="sk-facts"><div><dt>Brie and cheddar</dt><dd>Like new after a month</dd></div><div><dt>Goat cheese</dt><dd>About a week</dd></div><div><dt>Cost</dt><dd>Rolls you already own</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> In America&#x27;s Test Kitchen&#x27;s six-week test, cheese wrapped in parchment or waxed paper and then loosely in foil kept best.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Two steps every time, and nowhere to write a label.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=unbleached+parchment+paper+roll" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>America's Test Kitchen's storage test (<a href="https://www.americastestkitchen.com/how_tos/5792-a-good-way-to-store-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,15 +54,15 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 <dl class="sk-facts"><div><dt>Count</dt><dd>10 bags</dd></div><div><dt>Size</dt><dd>5 × 11 in</dd></div><div><dt>Care</dt><dd>Hand-wash, air-dry</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Washable bags that Formaticum recommends for blue cheese, butter and leftover charcuterie.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smaller than the classic bags.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Formaticum+reusable+cheese+storage+bags" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0BWPB5H68" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Formaticum lists the size, count and best uses (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
-<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best plastic-free</p><h3>Formaticum Zero Cheese Storage Bags</h3></div></div>
-<dl class="sk-facts"><div><dt>Count</dt><dd>10 bags</dd></div><div><dt>Material</dt><dd>Greaseproof paper, vegetable wax</dd></div><div><dt>Best for</dt><dd>Aged cheeses</dd></div></dl>
+<div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best plastic-free</p><h3>Formaticum Zero Cheese Storage Paper</h3></div></div>
+<dl class="sk-facts"><div><dt>Count</dt><dd>15 sheets</dd></div><div><dt>Material</dt><dd>Greaseproof paper, vegetable wax</dd></div><div><dt>Best for</dt><dd>Aged cheeses</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The plastic-free version, made of greaseproof paper and vegetable-based wax.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Best for firm, aged cheeses, not brie or fresh cheese.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Formaticum+Zero+cheese+storage+bags" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0B7C19HHJ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Formaticum lists the materials and best uses (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">

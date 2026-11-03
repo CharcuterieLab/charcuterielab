@@ -16,7 +16,7 @@ tags: "["best pecorino romano", "best pecorino romano brand", "locatelli pecorin
 > **Quick Answer:** **Boar's Head Pecorino Romano** won America's Test Kitchen's blind tasting. **Locatelli** is the classic. Best value: **Kirkland Signature** at Costco (about $11/lb). To slice for guests, a milder **Pecorino Toscano**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Pecorino Romano</a><p class="sk-top-line">Won ATK&#x27;s blind tasting of seven</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+Pecorino+Romano" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Pecorino Romano</a><p class="sk-top-line">Sardinian sheep&#x27;s milk at a Costco price</p></div><div class="sk-top-buy"><span class="sk-price">About $11/lb at Costco</span><a class="button sk-buy-sm" href="https://www.costcobusinessdelivery.com/p/-/kirkland-signature-pecorino-romano-cheese,-2-lb-avg-wt/100077306" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for slicing on a board</p><a class="sk-top-name" href="#pick-6">Pecorino Toscano DOP</a><p class="sk-top-line">Softer, milder, made for nibbling</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Pecorino+Toscano+DOP" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Pecorino Romano</a><p class="sk-top-line">Won ATK&#x27;s blind tasting of seven</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.instacart.com/store/s?k=boar%27s+head+pecorino+romano" target="_blank" rel="noopener">Find it on Instacart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Pecorino Romano</a><p class="sk-top-line">Sardinian sheep&#x27;s milk at a Costco price</p></div><div class="sk-top-buy"><span class="sk-price">About $11/lb at Costco</span><a class="button sk-buy-sm" href="https://www.costcobusinessdelivery.com/p/-/kirkland-signature-pecorino-romano-cheese,-2-lb-avg-wt/100077306" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for slicing on a board</p><a class="sk-top-name" href="#pick-6">Pecorino Toscano DOP</a><p class="sk-top-line">Softer, milder, made for nibbling</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://igourmet.com/search?q=pecorino+toscano" target="_blank" rel="noopener">Find it at igourmet</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">Romano vs Pecorino Romano</a><a href="#pecorino-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Pecorino Romano is the salty, sheep's-milk grating cheese of Rome. On a board it
 <dl class="sk-facts"><div><dt>Milk</dt><dd>Sheep</dd></div><div><dt>Aged</dt><dd>8+ months</dd></div><div><dt>From</dt><dd>Sardinia, Italy</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> America&#x27;s Test Kitchen&#x27;s winner: rich, deeply savory and crunchy with salt crystals, and the saltiest cheese in the lineup. Easy to find at deli counters.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The wheels are DOP, but wedges cut and repacked in the US can&#x27;t carry the seal.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Boar&#x27;s+Head+Pecorino+Romano" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=boar%27s+head+pecorino+romano" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>ATK's tasting notes, aging and origin (<a href="https://www.americastestkitchen.com/taste_tests/1863-pecorino-romano-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Pecorino Romano is the salty, sheep's-milk grating cheese of Rome. On a board it
 <dl class="sk-facts"><div><dt>Milk</dt><dd>Sheep</dd></div><div><dt>Aged</dt><dd>9+ months</dd></div><div><dt>Seal</dt><dd>DOP</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Locatelli is a brand, not a style: imported Sardinian Pecorino Romano that ATK&#x27;s tasters found briny, robust and almost meaty.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very salty; serve thin shards, not cubes.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Locatelli+Pecorino+Romano" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=locatelli+pecorino+romano" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>ATK tasted it among its recommended imports (<a href="https://www.americastestkitchen.com/taste_tests/1863-pecorino-romano-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -55,7 +55,7 @@ Pecorino Romano is the salty, sheep's-milk grating cheese of Rome. On a board it
 <dl class="sk-facts"><div><dt>Milk</dt><dd>Sheep</dd></div><div><dt>Aged</dt><dd>9 months</dd></div><div><dt>Seal</dt><dd>DOP</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> ATK&#x27;s Best Buy: lots of crunchy crystals and a little more subdued than the other imports, so it suits people new to sheep&#x27;s-milk cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> A bit mild in cooked pasta.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Zerto+Pecorino+Romano" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=zerto+pecorino+romano" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>ATK's tasting (<a href="https://www.americastestkitchen.com/taste_tests/1863-pecorino-romano-cheese" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -71,7 +71,7 @@ Pecorino Romano is the salty, sheep's-milk grating cheese of Rome. On a board it
 <dl class="sk-facts"><div><dt>Milk</dt><dd>Sheep</dd></div><div><dt>From</dt><dd>Tuscany</dd></div><div><dt>Texture</dt><dd>Semi-firm</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Romano is mainly a grating cheese. Toscano is younger and gentler; igourmet calls it the most approachable of the pecorinos and a natural with cured meats and Chianti.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too mild for cacio e pepe; it&#x27;s a table cheese.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Pecorino+Toscano+DOP" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://igourmet.com/search?q=pecorino+toscano" target="_blank" rel="noopener">Find it at igourmet</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>igourmet's pecorino guide (<a href="https://igourmet.com/blogs/gourmet-food-guide/pecorino-gourmet-guide" target="_blank" rel="noopener">igourmet</a>).</p></details>
 </article>
 </div>

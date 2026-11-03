@@ -16,7 +16,7 @@ tags: "["best medjool dates", "medjool dates brand", "best dates to buy", "costc
 > **Quick Answer:** Best value: **Costco's 2 lb Medjool dates** (about $9–11). Easiest to find: **Natural Delights**. For stuffing: **Joolies Pit-Free**. Budget: **Trader Joe's** (about $5).
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-1">Costco Medjool Dates, 2 lb</a><p class="sk-top-line">Lowest price per ounce we found</p></div><div class="sk-top-buy"><span class="sk-price">$9–11</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=medjool%20dates" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Natural Delights Whole Medjool Dates</a><p class="sk-top-line">The supermarket staple, plain or organic</p></div><div class="sk-top-buy"><span class="sk-price">About $8.50 / lb</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FFHPDLKY" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for stuffing</p><a class="sk-top-name" href="#pick-4">Joolies Organic Pit-Free Medjool Dates</a><p class="sk-top-line">Pitted and organic, ready to fill</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Joolies+pit-free+Medjool+dates" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-1">Costco Medjool Dates, 2 lb</a><p class="sk-top-line">Lowest price per ounce we found</p></div><div class="sk-top-buy"><span class="sk-price">$9–11</span><a class="button sk-buy-sm" href="https://www.costco.com/s?keyword=medjool%20dates" target="_blank" rel="noopener">See it at Costco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Easiest to find</p><a class="sk-top-name" href="#pick-2">Natural Delights Whole Medjool Dates</a><p class="sk-top-line">The supermarket staple, plain or organic</p></div><div class="sk-top-buy"><span class="sk-price">About $8.50 / lb</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0FFHPDLKY" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best for stuffing</p><a class="sk-top-name" href="#pick-4">Joolies Organic Pit-Free Medjool Dates</a><p class="sk-top-line">Pitted and organic, ready to fill</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.wholefoodsmarket.com/product/joolies-organic-pitted-medjool-dates-9-oz-b0bsp1w4ct" target="_blank" rel="noopener">See it at Whole Foods</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#medjool-date-questions">FAQ</a></nav>
 :::
 
@@ -55,7 +55,7 @@ No taste test exists, so we picked on price per ounce, pitted options, freshness
 <dl class="sk-facts"><div><dt>Size</dt><dd>9 oz pouch</dd></div><div><dt>Organic</dt><dd>Yes, USDA</dd></div><div><dt>Where</dt><dd>Whole Foods, Walmart, Shipt</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Skips the slowest step when you&#x27;re stuffing two dozen dates.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Joolies says a stray pit fragment can remain, so check each date.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Joolies+pit-free+Medjool+dates" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.wholefoodsmarket.com/product/joolies-organic-pitted-medjool-dates-9-oz-b0bsp1w4ct" target="_blank" rel="noopener">See it at Whole Foods</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Whole Foods lists the 9 oz pouch (<a href="https://www.wholefoodsmarket.com/product/joolies-organic-pitted-medjool-dates-9-oz-b0bsp1w4ct" target="_blank" rel="noopener">Whole Foods</a>). The pit warning is in the brand&#x27;s FAQ (<a href="https://joolies.com/pages/faqs" target="_blank" rel="noopener">Joolies</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ No taste test exists, so we picked on price per ounce, pitted options, freshness
 <dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Grown in</dt><dd>Coachella Valley, California</dd></div><div><dt>Rating</dt><dd>4.4 / 5 at Target (64)</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic and easy to find at Target.</p>
 <p class="sk-mind"><strong>Watch out:</strong> About twice the price per ounce of club-store organic packs.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Joolies+organic+Medjool+dates+whole" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.target.com/p/joolies-organic-whole-medjool-dates-12oz/-/A-88282158" target="_blank" rel="noopener">See it at Target</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Target lists $8.59 for 12 oz, rated 4.44 out of 5 from 64 ratings (<a href="https://www.target.com/p/joolies-organic-whole-medjool-dates-12oz/-/A-88282158" target="_blank" rel="noopener">Target</a>). Joolies says the dates come from its family farm in the Coachella Valley (<a href="https://joolies.com/pages/faqs" target="_blank" rel="noopener">Joolies</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -79,7 +79,7 @@ No taste test exists, so we picked on price per ounce, pitted options, freshness
 <dl class="sk-facts"><div><dt>Size</dt><dd>2 lb</dd></div><div><dt>Grown in</dt><dd>Coachella, California</dd></div><div><dt>Organic</dt><dd>Yes, USDA</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Organic Medjools from one of the large Coachella growers.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The listing we found showed no price, and pitting isn&#x27;t stated.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Sun+Date+organic+Medjool+dates" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.costcobusinessdelivery.com/p/-/organic-medjool-dates-2-lbs/100287676" target="_blank" rel="noopener">See it at Costco</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Costco Business Delivery lists the 2 lb pack (<a href="https://www.costcobusinessdelivery.com/p/-/organic-medjool-dates-2-lbs/100287676" target="_blank" rel="noopener">Costco Business</a>). The Produce News covers the grower&#x27;s organic Medjools (<a href="https://theproducenews.com/node/42599" target="_blank" rel="noopener">The Produce News</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
@@ -87,7 +87,7 @@ No taste test exists, so we picked on price per ounce, pitted options, freshness
 <dl class="sk-facts"><div><dt>Size</dt><dd>1 lb</dd></div><div><dt>Grown in</dt><dd>Coachella Valley, California</dd></div><div><dt>Where</dt><dd>Williams Sonoma, the farm&#x27;s site</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Williams Sonoma suggests them for cheese and charcuterie boards, and they make a good host gift.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Three to five times the price of supermarket dates.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Rancho+Meladuco+Medjool+dates" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0GRWRH9ZG" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Williams Sonoma sells a 1 lb box for $19.95 to $37.95 depending on the option (<a href="https://williams-sonoma.com/products/rancho-meladuco-dates-1lb" target="_blank" rel="noopener">Williams Sonoma</a>). The farm ships to the continental US (<a href="https://ranchomeladuco.com/" target="_blank" rel="noopener">Rancho Meladuco</a>).</p></details>
 </article>
 </div>

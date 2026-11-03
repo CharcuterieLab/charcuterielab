@@ -57,7 +57,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Fun and spicy</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Everywhere. Built-in cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less classic.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Johnsonville+Jalapeño+Cheddar+Summer+Sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CK9GD35S" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Visible chunks of cheese and jalapeño; <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -66,7 +66,7 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Grass-fed beef</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural grocers, online.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Grass-fed.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Thousand+Hills+Hickory+Smoked+Summer+Sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://thousandhillslifetimegrazed.com/collections/all" target="_blank" rel="noopener">See it at Thousand Hills</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A grass-fed beef summer sausage with balanced smoke, scored 8.5 out of 10 at <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
 </article>
 </div>

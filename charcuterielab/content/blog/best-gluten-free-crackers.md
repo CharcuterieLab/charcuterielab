@@ -14,7 +14,7 @@ slug: "best-gluten-free-crackers"
 > **Quick Answer:** Our top pick for gluten-free crackers on a charcuterie board is Crunchmaster Multi-Seed Crackers (4.7 out of 5). Best value: Blue Diamond Nut-Thins. Splurge: Hu Grain-Free Crackers.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Crunchmaster Multi-Seed Crackers</a><p class="sk-top-line">Very crunchy. Great value, huge Costco bags.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B08FVH8FJ1" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Blue Diamond Nut-Thins</a><p class="sk-top-line">Sturdy. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B073JK81KY" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Hu Grain-Free Crackers</a><p class="sk-top-line">Short, recognizable ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.7/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Hu+Grain-Free+Crackers" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Crunchmaster Multi-Seed Crackers</a><p class="sk-top-line">Very crunchy. Great value, huge Costco bags.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B08FVH8FJ1" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Blue Diamond Nut-Thins</a><p class="sk-top-line">Sturdy. Easy to find.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00FBO8FF2" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Hu Grain-Free Crackers</a><p class="sk-top-line">Short, recognizable ingredient list.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.7/5 · $$$</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -40,7 +40,7 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Crunchy and sturdy</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sturdy. Easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains almonds or pecans: keep away from nut allergies.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B073JK81KY" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00FBO8FF2" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Almond and rice crackers that are crunchy and sturdy without being hard to bite. Ranked second at <a href="https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/" target="_blank" rel="noopener">Daily Meal</a>, and the pecan version scored 9 out of 10 at <a href="https://sporked.com/article/best-gluten-free-crackers/" target="_blank" rel="noopener">Sporked</a>. (Source: <a href="https://www.aol.com/board-basics-15-best-crackers-203000992.html" target="_blank" rel="noopener">Cheapism</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -58,7 +58,6 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Clean ingredients</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, Target, Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Short, recognizable ingredient list.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricey.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Hu+Grain-Free+Crackers" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Grain-free crackers with ingredients like shallot, rosemary and chia. <a href="https://sporked.com/article/best-gluten-free-crackers/" target="_blank" rel="noopener">Sporked</a> scored them 8.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -67,7 +66,7 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Grain-free guests</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Target, Whole Foods, most grocery.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy to find. Grain-free.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews on texture. Contains almonds.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Simple+Mills+Almond+Flour+Crackers" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01CI3TADE" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The most widely stocked grain-free cracker. Reviews are split: <a href="https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/" target="_blank" rel="noopener">Daily Meal</a> ranked it last for texture, but it remains a common choice when guests avoid grains.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -76,7 +75,7 @@ A good gluten-free cracker has to be sturdy, not crumbly, and taste like a crack
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Closest to a regular cracker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Grocery gluten-free aisle.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Tastes like a regular cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive per ounce.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Breton+Gluten+Free" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00DJ62VT0" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The winner of <a href="https://www.thedailymeal.com/1568492/gluten-free-cracker-brands-ranked/" target="_blank" rel="noopener">Daily Meal</a>&#x27;s gluten-free test, with a good crunch and a buttery flavor. It costs around a dollar an ounce.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 3 · Value 2 · Easy to find 3</span></p></details>
 </article>
 </div>
