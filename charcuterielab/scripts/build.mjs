@@ -101,6 +101,10 @@ const assetVersion = createHash("sha1")
   .digest("hex")
   .slice(0, 12);
 
+// Site search engine, loaded on every page for the header search panel.
+const searchSrc = join(root, "src", "search", "search.js");
+const searchVersion = createHash("sha1").update(await readFile(searchSrc)).digest("hex").slice(0, 12);
+
 const escapeHtml = (value = "") =>
   String(value)
     .replaceAll("&", "&amp;")
@@ -1548,6 +1552,7 @@ ${articleTimes}  <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" href="/fonts/lora-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/source-sans-3-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">
+  <script src="/assets/search.js?v=${searchVersion}" defer></script>
   <script>(function(){var m=new Date().getMonth();if(m===10||m===11)document.documentElement.classList.add("season-holiday")})();</script>
   <style>
     .socials a{width:2.55rem;height:2.55rem;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(55,35,25,.18);background:rgba(255,255,255,.66);color:inherit;text-decoration:none;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;}
@@ -2765,6 +2770,7 @@ async function build() {
   await mkdir(join(dist, "assets"), { recursive: true });
   await cp(paths.public, dist, { recursive: true });
   await cp(paths.styles, join(dist, "assets", "site.css"));
+  await cp(searchSrc, join(dist, "assets", "search.js"));
 
   const [allPosts, allProducts, ingredients, boards, holidays, pairingData, dietData] = await Promise.all([
     loadPosts(),
@@ -3212,7 +3218,12 @@ async function build() {
 // filters in the browser. No server, no third-party search.
 async function buildSearch() {
   const pages = [];
-  const SECTION = { blog: "Article", ingredients: "Ingredient", boards: "Board", pairings: "Pairing", "party-planner": "Party Planner", holidays: "Holiday", printables: "Printable", "board-builder": "Tool", ebook: "Book", "around-the-world": "Book", shop: "Shop", about: "About" };
+  const SECTION = { blog: "Article", ingredients: "Ingredient", boards: "Board", pairings: "Pairing", "party-planner": "Party Planner", holidays: "Holiday", printables: "Printable", "board-builder": "Tool", ebook: "Book", "around-the-world": "Book", books: "Book", shop: "Shop", about: "About", dietary: "Dietary", gifts: "Gift guide", newsletter: "Free printables" };
+  // Names for the section front pages, the filter group of each section and a
+  // picture for pages that have none of their own (2 Nov 2026).
+  const HUBK = { boards: "Board Library", ingredients: "Ingredient library", pairings: "Pairings hub", holidays: "Holiday Hub", blog: "Blog", dietary: "Dietary hub", gifts: "Gift Guide", "party-planner": "Party Planner", shop: "Shop", newsletter: "Free printables", "board-builder": "Board Builder", about: "About", ebook: "Book", "around-the-world": "Book" };
+  const CAT = { boards: "boards", ingredients: "ingredients", pairings: "pairings", blog: "guides", holidays: "holidays", gifts: "gifts", "party-planner": "planning", dietary: "planning", "board-builder": "planning", printables: "shop", shop: "shop", books: "shop", ebook: "shop", "around-the-world": "shop" };
+  const FALLBACK = { boards: "/images/50-boards-01-classic-american-starter.webp", ingredients: "/images/ingredients/brie.jpg", pairings: "/images/wine-and-charcuterie-board.png", holidays: "/images/50-boards-20-thanksgiving.webp", gifts: "/images/50-boards-06-holiday-entertaining.webp", "party-planner": "/images/how-much-charcuterie-per-person.webp", dietary: "/images/50-boards-17-gluten-free.webp", newsletter: "/images/charcuterie-cheat-sheet.webp", blog: "/images/50-boards-29-book-club-afternoon.webp", "board-builder": "/images/50-boards-01-classic-american-starter.webp", about: "/images/50-boards-01-classic-american-starter.webp", shop: "/images/book-cover.jpg", ebook: "/images/book-cover.jpg", "around-the-world": "/images/book-cover.jpg" };
   async function walk(dir, rel) {
     for (const e of await readdir(dir, { withFileTypes: true })) {
       if (e.isDirectory()) {
@@ -3227,13 +3238,20 @@ async function buildSearch() {
         const kind = SECTION[top] || "Page";
         const hub = !rel.includes("/");
         const og = ((html.match(/<meta property="og:image" content="([^"]*)"/) || [])[1] || "").replace(/^https?:\/\/[^/]+/, "");
-        const img = og && og.startsWith("/images/") && !/book-cover\.jpg$/.test(og) ? thumb(og, "s") : "";
-        pages.push({ ...(img ? { i: img } : {}), u: `/${rel}/`, t: (h1 || title).replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), d: d.replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), k: hub && top !== "board-builder" && top !== "about" && top !== "ebook" && top !== "shop" ? `${kind} hub` : kind });
+        const bookish = ["shop", "ebook", "books", "around-the-world", "printables"].includes(top);
+        const ogOk = og && og.startsWith("/images/") && (bookish || !/book-cover\.jpg$/.test(og));
+        const src = ogOk ? og : FALLBACK[top] || "";
+        const img = src ? thumb(src, "s") : "";
+        const collection = top === "boards" && !hub && !html.includes("<!--no-offers-->");
+        const label = hub ? HUBK[top] || `${kind} hub` : collection ? "Board collection" : kind;
+        pages.push({ ...(img ? { i: img } : {}), u: `/${rel}/`, t: (h1 || title).replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), d: d.replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'), k: label, c: CAT[top] || "more", ...(hub || collection ? { h: 1 } : {}) });
       }
     }
   }
   await walk(dist, "");
-  await writeFile(join(dist, "assets", "search-index.json"), JSON.stringify(pages));
+  // Outside /assets/ (2 Nov 2026): /assets/ is cached for a year, so returning
+  // visitors kept searching an old copy. Here it is revalidated on every visit.
+  await writeFile(join(dist, "search-index.json"), JSON.stringify(pages));
   await writeFile(join(dist, "llms.txt"), llmsTxt(pages));
   await mkdir(join(dist, "search"), { recursive: true });
   await writeFile(join(dist, "search", "index.html"), searchPage(pages.length));
@@ -3429,6 +3447,28 @@ function notFoundPage() {
 }
 
 function searchPage(count) {
+  // Search page (2 Nov 2026): the engine is /assets/search.js (loaded on every
+  // page for the header panel). This page adds filter buttons, "Show more",
+  // a typo note and a browse page for before anyone types.
+  const m = new Date().getMonth();
+  const seasonal = m === 9 ? [["/holidays/halloween/", "Halloween boards"], ["/holidays/thanksgiving/", "Thanksgiving boards"]]
+    : m === 10 ? [["/holidays/thanksgiving/", "Thanksgiving boards"], ["/gifts/", "Gift Guide"]]
+    : m === 11 ? [["/holidays/christmas/", "Christmas boards"], ["/holidays/new-years-eve/", "New Year's Eve"]]
+    : m === 0 ? [["/holidays/super-bowl/", "Super Bowl boards"], ["/holidays/valentines-day/", "Valentine's Day"]]
+    : m === 1 ? [["/holidays/valentines-day/", "Valentine's Day"], ["/holidays/super-bowl/", "Super Bowl boards"]]
+    : m <= 3 ? [["/holidays/easter/", "Easter boards"], ["/boards/", "Board Library"]]
+    : [["/blog/charcuterie-board-ideas/", "50 board ideas"], ["/boards/", "Board Library"]];
+  const popular = [...seasonal, ["/blog/how-much-charcuterie-per-person/", "How much per person"], ["/pairings/food/brie/", "What goes with brie"], ["/gifts/under-25/", "Gifts under $25"], ["/boards/for-two/", "Boards for two"], ["/boards/keto-low-carb/", "Keto boards"], ["/blog/best-costco-charcuterie-items/", "Costco picks"]];
+  const sections = [
+    ["/boards/", "Board Library", "151 boards with shopping lists", "/images/50-boards-01-classic-american-starter.webp"],
+    ["/ingredients/", "Ingredients", "350 cheeses, meats and extras", "/images/ingredients/brie.jpg"],
+    ["/pairings/", "Pairings", "What goes with what, and why", "/images/wine-and-charcuterie-board.png"],
+    ["/party-planner/", "Party Planner", "How much to buy for any crowd", "/images/how-much-charcuterie-per-person.webp"],
+    ["/holidays/", "Holidays", "Every holiday, planned", "/images/50-boards-20-thanksgiving.webp"],
+    ["/gifts/", "Gift Guide", "For every board lover", "/images/50-boards-06-holiday-entertaining.webp"],
+    ["/blog/best-charcuterie-brands/", "Best buys", "The best brand of everything", "/images/50-boards-29-book-club-afternoon.webp"],
+    ["/shop/", "Shop", "Books and printable plans", "/images/book-cover.jpg"]
+  ];
   return layout({
     title: "Search Charcuterie Lab",
     canonical: "/search/",
@@ -3443,76 +3483,19 @@ function searchPage(count) {
       <input id="q" name="q" type="search" placeholder="Try brie, 20 people, what wine goes with gouda&hellip;" autocomplete="off" autofocus>
       <button class="button primary" type="submit">Search</button>
     </form>
-    <p class="search-count" data-search-count>${count} pages: articles, ingredients, boards, pairings and printables.</p>
+    <p class="search-count" data-search-count data-default="${count} pages: boards, ingredients, pairings, guides and printables.">${count} pages: boards, ingredients, pairings, guides and printables.</p>
+    <p class="search-fix" data-search-fix hidden></p>
+    <div class="search-filters" data-search-filters role="group" aria-label="Filter results"></div>
   </section>
   <ol class="search-results" data-search-results></ol>
-</main>
-<script>
-(function(){
-  // Smarter search (1 Nov 2026, visitor review): filler words are ignored, a
-  // page needs only some of the words (pages with all of them rank first),
-  // hubs are pinned for their topics, pairing questions go to the pairing
-  // page, and results show a thumbnail.
-  var input=document.getElementById("q"),list=document.querySelector("[data-search-results]"),count=document.querySelector("[data-search-count]"),data=null,byUrl={};
-  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
-  function norm(s){return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[‘’']/g,"")}
-  var STOP={};"a an and are be can could do does for from go goes going good how i im in into is it its me my of on or our should the their them then there these this to what whats when where which who why will with without you your yall vs versus".split(" ").forEach(function(w){STOP[w]=1});
-  var PAIRW={pair:1,pairs:1,paired:1,pairing:1,pairings:1,serve:1,served:1,eat:1,match:1,matches:1,wine:1,wines:1,beer:1,beers:1,drink:1,drinks:1,cheese:1,cheeses:1,charcuterie:1,board:1};
-  function stem(w){if(w.length>4&&/ies$/.test(w))return w.slice(0,-3)+"y";if(w.length>3&&/s$/.test(w)&&!/ss$/.test(w))return w.slice(0,-1);return w}
-  function words(q){return q.replace(/[^a-z0-9$ ]+/g," ").split(/\\s+/).filter(function(w){return w&&!STOP[w]})}
-  var PIN=[[/thanksgiving|friendsgiving/,"/holidays/thanksgiving/"],[/christmas|xmas/,"/holidays/christmas/"],[/hanukkah|chanukah/,"/holidays/hanukkah/"],[/new year|\\bnye\\b/,"/holidays/new-years-eve/"],[/halloween/,"/holidays/halloween/"],[/super ?bowl|game ?day|football/,"/holidays/super-bowl/"],[/valentine/,"/holidays/valentines-day/"],[/easter/,"/holidays/easter/"],[/patrick/,"/holidays/st-patricks-day/"],[/holiday/,"/holidays/"],[/\\bgift/,"/gifts/"],[/how much|per person|\\bpeople\\b|\\bguests?\\b|serving size|quantit/,"/party-planner/"],[/\\bpair|goes with|go with|\\bwine\\b|\\bbeer\\b/,"/pairings/"],[/gluten|dairy|nut.?free|allerg|\\bdiet/,"/dietary/"],[/\\bketo\\b|low.?carb/,"/boards/keto-low-carb/"],[/plant.?based|\\bvegan\\b/,"/boards/plant-based/"],[/for two|date night/,"/boards/for-two/"],[/\\bebook|\\bbooks?\\b|printable|shopping list/,"/shop/"],[/builder|build (my|your) own|make (my|your) own/,"/board-builder/"],[/\\bbrands?\\b|best buy|costco|aldi|trader/,"/blog/best-charcuterie-brands/"],[/\\bideas?\\b/,"/boards/"]];
-  function pairMatch(raw){
-    var q=words(norm(raw)).filter(function(w){return !PAIRW[w]}).join(" ");
-    if(!q)return null;
-    var qs=q.replace(/ /g,"-"),qq=[q,q.replace(/s$/,""),q.replace(/es$/,"")],starts=[];
-    for(var i=0;i<data.length;i++){
-      var p=data[i];
-      if(!/^\\/pairings\\/[^/]+\\/[^/]+\\/$/.test(p.u))continue;
-      var slug=p.u.split("/")[3],name=norm(p.t).replace(/^what (goes|to (serve|pair)) with /,"").replace(/[?.!]+$/,"").replace(/[^a-z0-9 ]+/g," ").replace(/\\s+/g," ").trim();
-      if(qq.indexOf(name)>-1||qq.indexOf(slug.replace(/-/g," "))>-1)return p.u;
-      if(slug.indexOf(qs+"-")===0||name.indexOf(q+" ")===0)starts.push(p.u);
-    }
-    return starts.length===1?starts[0]:null;
-  }
-  var WEAK={charcuterie:1,board:1,platter:1,tray:1},SYN={cheap:"budget",inexpensive:"budget",affordable:"budget",xmas:"christmas",bday:"birthday",nye:"new year"};
-  function pairItem(raw){return words(norm(raw)).filter(function(w){return !PAIRW[w]}).join(" ")}
-  function isPairQ(raw){var q=norm(raw);return /\\b(goes?|go|pairs?|pairing|serve|eat) with\\b|\\bpair(s|ing)? (for|to)\\b|\\bwhat (wine|beer|cheese|drink)s?\\b|\\bwith what\\b/.test(q)}
-  function li(p,tag){return '<li'+(tag?' class="search-best"':'')+'><a href="'+p.u+'">'+(p.i?'<img src="'+esc(p.i)+'" alt="" width="96" height="72" loading="lazy" decoding="async">':'<span class="search-noimg" aria-hidden="true"></span>')+'<span class="search-body"><span class="search-kind">'+esc(tag||p.k)+'</span><strong>'+esc(p.t)+'</strong><span>'+esc(p.d)+'</span></span></a></li>'}
-  function run(){
-    var raw=input.value.trim(),q=norm(raw);
-    if(!data||!q){list.innerHTML="";return}
-    var ws=words(q).map(function(w){return SYN[w]||w}).map(stem),out=[],pins={},best=null;
-    var strong=ws.filter(function(w){return !WEAK[w]});if(!strong.length)strong=ws;
-    PIN.forEach(function(r){if(r[0].test(q)&&byUrl[r[1]])pins[r[1]]=1});
-    var hasDrink=/\\b(wine|beer|cider|pairs?|pairing)\\b/.test(q)&&pairItem(raw);
-    if(isPairQ(raw)||hasDrink){var u=pairMatch(raw),it=pairItem(raw);if(u&&byUrl[u])best=byUrl[u];else if(it&&byUrl["/pairings/"])best={u:"/pairings/?q="+encodeURIComponent(it),t:"What goes with "+it+"? Open the Pairing Finder",d:"Every match for "+it+", with the reason each one works.",k:"Pairing Finder",i:byUrl["/pairings/"].i}}
-    data.forEach(function(p){
-      var t=norm(p.t),d=norm(p.d),score=0,hit=0;
-      strong.forEach(function(w){var num=/^\\d+$/.test(w),re=new RegExp((num?"(^|[^0-9])":"(^|[^a-z0-9])")+w.replace(/[$]/g,"\\\\$")+(num?"($|[^0-9])":""));var inT=num?re.test(t):t.indexOf(w)>=0,inD=num?re.test(d):d.indexOf(w)>=0;if(inT||inD)hit++;if(inT)score+=re.test(t)?10:6;if(inD)score+=2;if(t.indexOf(w)===0)score+=4});
-      if(pins[p.u])score+=18;
-      if(!hit&&!pins[p.u])return;
-      if(strong.length>1&&hit===strong.length)score+=25;
-      ws.forEach(function(w){if(WEAK[w]&&strong!==ws&&t.indexOf(w)>=0)score+=1});
-      if(/hub$/.test(p.k))score+=4;if(p.k==="Party Planner"||p.k==="Board")score+=2;
-      if(best&&p.u===best.u)return;
-      out.push([score,p]);
-    });
-    out.sort(function(a,b){return b[0]-a[0]});
-    var n=out.length+(best?1:0);
-    count.textContent=n?n+" result"+(n===1?"":"s")+" for “"+raw+"”":"No results for “"+raw+"”. Try one ingredient (brie), a guest count (20 people) or a holiday.";
-    list.innerHTML=(best?li(best,"Best answer"):"")+out.slice(0,40).map(function(r){return li(r[1])}).join("");
-  }
-  var fromUrl=false;
-  try{var sp=new URLSearchParams(location.search),q0=sp.get("q");if(q0){input.value=q0;fromUrl=true}}catch(e){}
-  fetch("/assets/search-index.json").then(function(r){return r.json()}).then(function(j){data=j;j.forEach(function(p){byUrl[p.u]=p});
-    // The homepage "What goes with ___?" box (pair=1) and pairing questions
-    // typed in the header search go straight to the pairing page.
-    if(fromUrl){var pq=false;try{pq=new URLSearchParams(location.search).get("pair")==="1"}catch(e){}if(pq||isPairQ(input.value)){var u=pairMatch(input.value);if(u){location.replace(u);return}}}
-    run()});
-  input.addEventListener("input",function(){run();try{history.replaceState(null,"","/search/"+(input.value.trim()?"?q="+encodeURIComponent(input.value.trim()):""))}catch(e){}});
-  document.querySelector("[data-search-form]").addEventListener("submit",function(e){e.preventDefault();run()});
-})();
-</script>`
+  <p class="bl-more-wrap"><button type="button" class="button bl-more" data-search-more hidden>Show more</button></p>
+  <section class="search-empty" data-search-empty aria-label="Browse the site">
+    <h2>Popular right now</h2>
+    <div class="search-pop">${popular.map(([u, t]) => `<a href="${u}">${escapeHtml(t)}</a>`).join("")}</div>
+    <h2>Browse by section</h2>
+    <div class="search-sections">${sections.map(([u, t, d, img]) => `<a href="${u}"><img src="${escapeHtml(thumb(img, "s"))}" alt="" width="96" height="72" loading="lazy" decoding="async"><span><strong>${escapeHtml(t)}</strong><span>${escapeHtml(d)}</span></span></a>`).join("")}</div>
+  </section>
+</main>`
   });
 }
 
