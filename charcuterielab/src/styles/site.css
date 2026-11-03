@@ -6315,3 +6315,13 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .hol-main .hol-next-body { padding: 10px 14px; }
   .hol-main .hol-next-body strong { font-size: 1.1rem; }
 }
+
+/* Dietary hub book box (3 Nov 2026) */
+.dt-books-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.dt-book { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 14px; align-items: start; padding: 14px; border-radius: 14px; border: 2px solid var(--gold); background: #fffaf0; }
+.dt-book img { width: 96px; height: auto; border-radius: 4px; box-shadow: 0 8px 18px rgba(55, 35, 25, 0.2); }
+.dt-book h3 { margin: 0 0 4px; font-size: 1.1rem; }
+.dt-book p { margin: 0 0 10px; font-size: 15px; line-height: 1.45; }
+.dt-book-buy { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 !important; }
+.dt-book-buy .button { font-size: 13px; }
+@media (max-width: 700px) { .dt-books-grid { grid-template-columns: 1fr; } .dt-book { grid-template-columns: 76px minmax(0, 1fr); } .dt-book img { width: 76px; } }

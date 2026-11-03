@@ -10,6 +10,7 @@ import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
 import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
 import { seasonBoards, seasonHero, seasonRow, seasonTitle, upcomingWithBoards } from "./season.mjs";
 import { injectBands } from "./hub-bands.mjs";
+import { injectDietaryBooks } from "./dietary-books.mjs";
 import { injectBoardExtras } from "./board-extras.mjs";
 import { parseHub as bestParse, hubHtml as bestHubHtml, guideHtml as bestGuideHtml, siblingsHtml as bestSiblings, crumbFor as bestCrumb } from "./best-buys.mjs";
 import { holidayPourBlock, ingredientPairingBlock, loadPairings, pairingPages, pairingsClientData, pairingsIndex, pairingUrls, postPairingLinks } from "./pairings.mjs";
@@ -3545,6 +3546,7 @@ await build();
 { const r = await OFFERS.inject(dist, OFFER_CTX); console.log(`Offers: ${r.n} pages (email box high on ${r.hi}, paid card under it on ${r.near}), ${Object.entries(r.counts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(", ")}`); }
 console.log(`Search index: ${await buildSearch()} pages`);
 { const g = await injectGuideLinks(dist); console.log(`Guide links: ${g.links} ingredient pages link to their buying guide (${g.mapped} mapped)`); }
+await injectDietaryBooks(dist);
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }

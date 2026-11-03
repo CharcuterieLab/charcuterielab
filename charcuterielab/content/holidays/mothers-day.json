@@ -1,0 +1,192 @@
+{
+ "slug": "mothers-day",
+ "name": "Mother's Day",
+ "order": 10,
+ "dates": [
+  "2027-05-09",
+  "2028-05-14"
+ ],
+ "season": "Spring",
+ "status": "published",
+ "date": "2026-11-03",
+ "updated": "2026-11-03",
+ "h1": "Mother's Day Charcuterie Board Ideas",
+ "seo_title": "Mother's Day Charcuterie Board Ideas (Brunch + Garden Party)",
+ "description": "Mother's Day charcuterie board ideas: a brunch board, a garden party board with burrata and flowers, breakfast in bed for two, a flower-shaped board, and how much to buy.",
+ "image": "/images/50-boards-11-breakfast-and-brunch.webp",
+ "answer": "Make it a brunch board: soft cheeses, prosciutto, smoked salmon, berries and something sweet, served mid-morning with coffee or mimosas. Plan about 2 oz each of cheese and meat per guest.",
+ "ideas": [
+  {
+   "title": "The Mother's Day Brunch Board",
+   "for": "Brunch · 8 guests",
+   "board": "brunch-charcuterie-board",
+   "text": "Brie and an herbed goat cheese, prosciutto and smoked salmon with cream cheese and capers, bagel chips, berries and a pot of lemon curd. Everything a brunch table needs on one board.",
+   "items": [
+    "brie",
+    "fresh-chevre",
+    "prosciutto-di-parma",
+    "smoked-salmon",
+    "cream-cheese",
+    "capers",
+    "bagel-chips",
+    "berries",
+    "lemon-curd",
+    "honey"
+   ],
+   "guests": 8
+  },
+  {
+   "title": "The Garden Party Board",
+   "for": "Afternoon party · 12 guests",
+   "text": "Burrata and fresh mozzarella in the center, prosciutto folded around them, grapes, crostini and honeycomb, with edible flowers tucked into the gaps. Serve it with a sparkling wine or iced tea.",
+   "items": [
+    "burrata",
+    "fresh-mozzarella",
+    "prosciutto-di-parma",
+    "grapes",
+    "crostini",
+    "honeycomb",
+    "marcona-almonds",
+    "edible-flowers"
+   ],
+   "guests": 12
+  },
+  {
+   "title": "Breakfast in Bed for Two",
+   "for": "Just the two of you · 2 guests",
+   "board": "breakfast-in-bed-board",
+   "text": "A small tray board: one soft cheese, a few slices of prosciutto, berries, a pastry and coffee. Built the night before and carried in on a tray.",
+   "items": [
+    "brie",
+    "prosciutto-di-parma",
+    "berries",
+    "honey",
+    "dark-chocolate"
+   ],
+   "guests": 2
+  }
+ ],
+ "boards": [
+  "brunch-charcuterie-board",
+  "breakfast-in-bed-board",
+  "plant-based-brunch-board",
+  "wedding-shower-charcuterie-board"
+ ],
+ "shapes": [
+  {
+   "name": "Flower Board",
+   "shape": "flower",
+   "steps": [
+    "Set a round of brie or a bowl of lemon curd in the center of a round board.",
+    "Lay petals around it: fans of strawberries, folded prosciutto and slices of cheese, each petal one color.",
+    "Add a stem of crackers or breadsticks and leaves of basil or mint, then tuck edible flowers into the gaps."
+   ]
+  },
+  {
+   "name": "Heart Board",
+   "shape": "heart",
+   "steps": [
+    "Outline a heart on a round or square board with crackers.",
+    "Fill one half with berries and the other with cheese and prosciutto roses.",
+    "Put a small bowl of honey or jam where the two halves meet."
+   ]
+  }
+ ],
+ "plan": [
+  {
+   "when": "1 week before",
+   "what": "Buy crackers, bagel chips, jams, honey and the coffee or sparkling wine."
+  },
+  {
+   "when": "2 days before",
+   "what": "Buy the cheese, prosciutto, smoked salmon and berries."
+  },
+  {
+   "when": "The night before",
+   "what": "Slice the hard cheeses, wash the berries and fill the small bowls. Cover and chill."
+  },
+  {
+   "when": "30 minutes before",
+   "what": "Take the brie out of the fridge and build the board."
+  }
+ ],
+ "builder": {
+  "items": [
+   "brie",
+   "fresh-chevre",
+   "prosciutto-di-parma",
+   "smoked-salmon",
+   "cream-cheese",
+   "bagel-chips",
+   "berries",
+   "grapes",
+   "honey",
+   "lemon-curd"
+  ],
+  "guests": 8
+ },
+ "book": "main",
+ "blog": [
+  "bagel-board"
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Mother's Day charcuterie board?",
+   "a": "Soft, mild cheeses like brie and goat cheese, prosciutto and smoked salmon, berries and grapes, bagel chips or crackers, and something sweet: lemon curd, honey or dark chocolate. Edible flowers make it look like a gift."
+  },
+  {
+   "q": "Is a charcuterie board good for a Mother's Day brunch?",
+   "a": "Yes. It can be made the night before, everyone serves themselves, and it covers sweet and savory in one place. Add a pastry or two and coffee or mimosas, and it's the whole brunch."
+  },
+  {
+   "q": "How do you make a flower-shaped charcuterie board?",
+   "a": "Put a round of brie or a bowl of jam in the center, then lay petals around it: fans of strawberries, folded prosciutto and slices of cheese, one color per petal. Add a stem of crackers and a few herb leaves."
+  },
+  {
+   "q": "How much should I buy for a Mother's Day brunch?",
+   "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%."
+  },
+  {
+   "q": "How much does a Mother's Day charcuterie board cost?",
+   "a": "Before a meal, plan about $3 to $5 per guest on a budget and $5 to $8 for a standard board, so roughly $25 to $40 or $40 to $65 for 8 guests. Smoked salmon and burrata push it toward the top. Store and region change the total."
+  },
+  {
+   "q": "Can I make a Mother's Day charcuterie board the night before?",
+   "a": "Mostly. Slice the firm cheeses, wash the berries and fill the bowls the night before, then cover and chill. In the morning, take the brie out 30 minutes ahead, fold the meats and add crackers last so they stay crisp."
+  },
+  {
+   "q": "What can I put on a breakfast-in-bed board?",
+   "a": "Keep it small and easy to eat in bed: one soft cheese, a few slices of prosciutto, berries, a croissant or muffin, honey and a square of chocolate, with coffee on the side."
+  }
+ ],
+ "mistakes": [
+  {
+   "lead": "Too much strong cheese.",
+   "text": "Brunch boards go mild. Save the blue and the washed-rind cheeses for the evening."
+  },
+  {
+   "lead": "Forgetting something warm.",
+   "text": "A board is all cold. Add warm pastries or a quiche on the side so it feels like a meal."
+  },
+  {
+   "lead": "Flowers that aren't edible.",
+   "text": "Only put flowers on food that are sold as edible. Keep a bouquet in a vase next to the board instead."
+  }
+ ],
+ "read": [
+  "bagel-board",
+  "smoked-salmon-cream-cheese-pairing",
+  "charcuterie-board-for-one"
+ ],
+ "make_ahead": {
+  "ahead": [
+   "1 week: crackers, bagel chips, jams, honey and the coffee or sparkling wine",
+   "The night before: slice the firm cheeses, wash the berries and fill the bowls; cover and chill"
+  ],
+  "last": [
+   "Take the brie out 30 minutes before",
+   "Fold the prosciutto and add the smoked salmon last",
+   "Crackers and pastries go on just before serving"
+  ]
+ }
+}

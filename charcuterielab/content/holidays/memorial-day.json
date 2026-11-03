@@ -1,0 +1,197 @@
+{
+ "slug": "memorial-day",
+ "name": "Memorial Day & Graduation",
+ "order": 11,
+ "dates": [
+  "2027-05-31",
+  "2028-05-29"
+ ],
+ "season": "Summer",
+ "status": "published",
+ "date": "2026-11-03",
+ "updated": "2026-11-03",
+ "h1": "Memorial Day and Graduation Charcuterie Board Ideas",
+ "seo_title": "Memorial Day & Graduation Charcuterie Boards for a Crowd",
+ "description": "Memorial Day and graduation party charcuterie board ideas: a backyard cookout board, a red, white and blue board, a graduation grazing table, a cap-shaped board, how much to buy and how to keep it safe outdoors.",
+ "image": "/images/50-boards-32-graduation-celebration.webp",
+ "answer": "Build it for a backyard crowd: firm cheese and cured sausage that handle warm weather, fruit, chips and dips. Plan about 3 oz each of cheese and meat per guest as party food, and keep it in the shade, out no more than 2 hours.",
+ "ideas": [
+  {
+   "title": "The Backyard Cookout Board",
+   "for": "Cookout · 20 guests",
+   "board": "summer-backyard-board",
+   "text": "Aged cheddar and pepper jack, summer sausage and pepperoni, kettle chips and tortilla chips, pickles, ranch, berries and melon. Firm cheeses and dry sausage hold up better outside than soft cheese.",
+   "items": [
+    "aged-cheddar",
+    "pepper-jack",
+    "summer-sausage",
+    "pepperoni",
+    "kettle-chips",
+    "tortilla-chips",
+    "dill-pickles",
+    "ranch-dip",
+    "berries",
+    "melon"
+   ],
+   "guests": 20
+  },
+  {
+   "title": "The Red, White and Blue Board",
+   "for": "Memorial Day · 12 guests",
+   "text": "Strawberries and blueberries, white cheddar and fresh mozzarella, pepperoni and salami for the red, and plain crackers to hold it together. Lay it out in stripes.",
+   "items": [
+    "berries",
+    "fresh-mozzarella",
+    "aged-cheddar",
+    "pepperoni",
+    "genoa-salami",
+    "water-crackers",
+    "honey"
+   ],
+   "guests": 12
+  },
+  {
+   "title": "The Graduation Grazing Table",
+   "for": "Graduation party · 40 guests",
+   "board": "graduation-charcuterie-board",
+   "text": "A long table instead of a board: two or three cheeses repeated down the length, salami and ham, grapes, crackers and chips, with the school colors in the fruit and napkins.",
+   "items": [
+    "aged-cheddar",
+    "colby-jack",
+    "pepper-jack",
+    "genoa-salami",
+    "honey-ham",
+    "grapes",
+    "berries",
+    "butter-crackers",
+    "pretzel-crisps",
+    "mixed-nuts"
+   ],
+   "guests": 40
+  }
+ ],
+ "boards": [
+  "graduation-charcuterie-board",
+  "summer-backyard-board",
+  "beach-picnic-charcuterie-board",
+  "camping-charcuterie-board"
+ ],
+ "shapes": [
+  {
+   "name": "Flag Board",
+   "shape": "flag",
+   "steps": [
+    "On a rectangle, fill the top-left corner with blueberries for the stars field.",
+    "Lay alternating stripes of red (strawberries, pepperoni, salami) and white (mozzarella, white cheddar) across the rest.",
+    "Edge it with crackers and put a small bowl of honey at one corner."
+   ]
+  },
+  {
+   "name": "Graduation Cap Board",
+   "shape": "gradcap",
+   "steps": [
+    "Make a square of crackers and dark cheese slices for the top of the cap.",
+    "Set a smaller band of salami under it for the base.",
+    "Add a tassel of pretzel sticks or a ribbon of cheese in the school color."
+   ]
+  }
+ ],
+ "plan": [
+  {
+   "when": "1 week before",
+   "what": "Buy chips, crackers, nuts, pickles and dips with a long date, and borrow a second board or tray."
+  },
+  {
+   "when": "2 days before",
+   "what": "Buy the cheese, sausage and fruit. Make sure the cooler and ice packs are ready."
+  },
+  {
+   "when": "The morning of",
+   "what": "Cube the cheese, slice the sausage, wash the fruit and pack it all into containers. Chill."
+  },
+  {
+   "when": "30 minutes before",
+   "what": "Build half the board in the shade and keep the other half in the cooler for the refill."
+  }
+ ],
+ "builder": {
+  "items": [
+   "aged-cheddar",
+   "pepper-jack",
+   "summer-sausage",
+   "pepperoni",
+   "kettle-chips",
+   "dill-pickles",
+   "ranch-dip",
+   "berries",
+   "melon",
+   "pretzel-crisps"
+  ],
+  "guests": 20
+ },
+ "book": "main",
+ "blog": [
+  "grazing-table",
+  "charcuterie-board-for-large-group"
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Memorial Day charcuterie board?",
+   "a": "Foods that handle warm weather: aged cheddar, pepper jack, summer sausage and pepperoni, plus chips, pickles, a dip, berries and melon. Leave the soft cheeses for indoors."
+  },
+  {
+   "q": "How long can a charcuterie board sit out at a cookout?",
+   "a": "No more than 2 hours out, or 1 hour when it's above 90°F, per USDA guidance. Outdoors, set the board in the shade, keep a second tray in the cooler and swap it in halfway."
+  },
+  {
+   "q": "How much should I buy for a graduation party?",
+   "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%. For a grazing table, repeat the same items down the table instead of adding more kinds."
+  },
+  {
+   "q": "How do you make a red, white and blue charcuterie board?",
+   "a": "Use strawberries, salami and pepperoni for red, fresh mozzarella and white cheddar for white, and blueberries for blue. Lay them in stripes, with the blueberries in a corner square like a flag."
+  },
+  {
+   "q": "How much does a graduation charcuterie board cost?",
+   "a": "As party food, plan about $4 to $6 per guest on a budget and $6 to $10 for a standard spread, so roughly $160 to $240 or $240 to $400 for 40 guests. Warehouse clubs bring that down. Store and region change the total."
+  },
+  {
+   "q": "How do I keep a charcuterie board cool outside?",
+   "a": "Set it in the shade, chill the board itself before you build, and put only half the food out. Keep the rest in a cooler with ice packs and refill after an hour. Nest a tray over ice for the cheese if it's hot."
+  },
+  {
+   "q": "Can I make a graduation charcuterie board ahead?",
+   "a": "Cut and pack everything the morning of and chill it in containers. Build in the last 30 minutes, add crackers and chips last, and keep the refill in the fridge or cooler until it's needed."
+  }
+ ],
+ "mistakes": [
+  {
+   "lead": "Soft cheese in the sun.",
+   "text": "Brie and fresh mozzarella turn greasy fast outside. Use firm cheeses, or bring the soft ones out in small batches."
+  },
+  {
+   "lead": "Putting it all out at once.",
+   "text": "Half on the table and half in the cooler stays fresher and looks full all afternoon."
+  },
+  {
+   "lead": "Too few chips and crackers.",
+   "text": "A cookout crowd eats more crunch than a dinner party. Plan 10 to 12 pieces per guest."
+  }
+ ],
+ "read": [
+  "how-long-charcuterie-board-last",
+  "how-to-transport-charcuterie-board",
+  "charcuterie-cups"
+ ],
+ "make_ahead": {
+  "ahead": [
+   "1 week: chips, crackers, nuts, pickles and dips with a long date",
+   "The morning of: cube the cheese, slice the sausage, wash the fruit; pack in containers and chill"
+  ],
+  "last": [
+   "Build half the board in the shade 30 minutes before",
+   "Chips and crackers go on last",
+   "Refill from the cooler after an hour"
+  ]
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "slug": "fourth-of-july",
+ "name": "Fourth of July",
+ "order": 12,
+ "dates": [
+  "2027-07-04",
+  "2028-07-04"
+ ],
+ "season": "Summer",
+ "status": "published",
+ "date": "2026-11-03",
+ "updated": "2026-11-03",
+ "h1": "Fourth of July Charcuterie Board Ideas",
+ "seo_title": "4th of July Charcuterie Board Ideas (Red, White & Blue)",
+ "description": "Fourth of July charcuterie board ideas: a flag board, a fireworks picnic board, charcuterie cups for the parade, a star-shaped board, how much to buy and how to keep it safe in the heat.",
+ "image": "/images/50-boards-07-summer-backyard.webp",
+ "answer": "Go red, white and blue: strawberries and blueberries, white cheeses, salami and pepperoni, laid out as a flag. Plan about 3 oz each of cheese and meat per guest as party food, and keep it out of the sun, no more than an hour above 90°F.",
+ "ideas": [
+  {
+   "title": "The Flag Board",
+   "for": "Backyard party · 15 guests",
+   "text": "Blueberries in the corner, then stripes of strawberries, pepperoni and salami against fresh mozzarella and white cheddar. Plain crackers around the edge and honey on the side.",
+   "items": [
+    "berries",
+    "fresh-mozzarella",
+    "monterey-jack",
+    "pepperoni",
+    "genoa-salami",
+    "water-crackers",
+    "honey"
+   ],
+   "guests": 15
+  },
+  {
+   "title": "The Fireworks Picnic Board",
+   "for": "Watching the show · 8 guests",
+   "board": "beach-picnic-charcuterie-board",
+   "text": "Everything travels: summer sausage, aged cheddar, meat sticks, pretzel crisps, cherries, pickles and mixed nuts, packed in containers and built on a cutting board on the blanket.",
+   "items": [
+    "summer-sausage",
+    "aged-cheddar",
+    "meat-sticks",
+    "pretzel-crisps",
+    "cherries",
+    "dill-pickles",
+    "mixed-nuts"
+   ],
+   "guests": 8
+  },
+  {
+   "title": "Charcuterie Cups for the Parade",
+   "for": "On the move · 24 cups",
+   "post": "charcuterie-cups",
+   "link_text": "How to make charcuterie cups",
+   "text": "A cheese stick, a folded slice of salami, a pretzel rod, a skewer of berries and a few nuts in a clear cup. Everyone gets their own, and nothing sits out.",
+   "items": [
+    "colby-jack",
+    "genoa-salami",
+    "mini-pretzels",
+    "berries",
+    "honey-roasted-peanuts"
+   ],
+   "guests": 24
+  }
+ ],
+ "boards": [
+  "summer-backyard-board",
+  "beach-picnic-charcuterie-board",
+  "picnic-board-for-two",
+  "camping-charcuterie-board"
+ ],
+ "shapes": [
+  {
+   "name": "Flag Board",
+   "shape": "flag",
+   "steps": [
+    "Fill the top-left corner of a rectangle with blueberries.",
+    "Lay red stripes of strawberries, salami and pepperoni, and white stripes of mozzarella and white cheddar.",
+    "Edge it with crackers so guests can start from any side."
+   ]
+  },
+  {
+   "name": "Star Board",
+   "shape": "star5",
+   "steps": [
+    "Cut a large star from white cheddar slices or mark one with a line of crackers on a round board.",
+    "Fill the star with blueberries and the space around it with strawberries and salami.",
+    "Add small cheese stars (cut with a cookie cutter) around the edge."
+   ]
+  }
+ ],
+ "plan": [
+  {
+   "when": "1 week before",
+   "what": "Buy crackers, chips, nuts and pickles, and a star cookie cutter if you're cutting cheese stars."
+  },
+  {
+   "when": "2 days before",
+   "what": "Buy the cheese, salami and berries. Check the cooler and ice packs."
+  },
+  {
+   "when": "The morning of",
+   "what": "Slice and cube the cheese, cut the stars, wash and dry the berries. Pack it in containers and chill."
+  },
+  {
+   "when": "30 minutes before",
+   "what": "Build the flag in the shade with half the food and keep the rest cold for a refill."
+  }
+ ],
+ "builder": {
+  "items": [
+   "fresh-mozzarella",
+   "monterey-jack",
+   "aged-cheddar",
+   "pepperoni",
+   "genoa-salami",
+   "summer-sausage",
+   "berries",
+   "cherries",
+   "water-crackers",
+   "pretzel-crisps"
+  ],
+  "guests": 15
+ },
+ "book": "main",
+ "blog": [
+  "summer-charcuterie-board",
+  "charcuterie-cups"
+ ],
+ "faq": [
+  {
+   "q": "What goes on a Fourth of July charcuterie board?",
+   "a": "Red, white and blue food: strawberries, cherries and blueberries, fresh mozzarella and white cheddar, salami and pepperoni, plus crackers, pretzels and a little honey. Firm cheese and dry sausage handle the heat best."
+  },
+  {
+   "q": "How do you make a flag charcuterie board?",
+   "a": "On a rectangle, fill the top-left corner with blueberries, then lay alternating red stripes (strawberries, salami, pepperoni) and white stripes (mozzarella, white cheddar) across the rest. Edge it with crackers."
+  },
+  {
+   "q": "How long can a charcuterie board sit out on the Fourth of July?",
+   "a": "No more than 2 hours out, or 1 hour when it's above 90°F, per USDA guidance. Outdoors, set the board in the shade, keep a second tray in the cooler and swap it in halfway."
+  },
+  {
+   "q": "How much should I buy for a Fourth of July party?",
+   "a": "As an appetizer before a meal, plan about 2 oz of cheese and 2 oz of meat per guest, plus 6 to 8 crackers. If the board is the party food, plan 3 oz of each and 10 to 12 crackers; if it's dinner, 4 oz of each. From 20 guests, add 10%."
+  },
+  {
+   "q": "How much does a Fourth of July charcuterie board cost?",
+   "a": "As party food, plan about $4 to $6 per guest on a budget and $6 to $10 for a standard board, so roughly $60 to $90 or $90 to $150 for 15 guests. Berries in season keep it cheaper. Store and region change the total."
+  },
+  {
+   "q": "What's a good charcuterie board to take to the fireworks?",
+   "a": "One that travels: summer sausage, aged cheddar, meat sticks, pretzel crisps, cherries and nuts, packed in containers in a cooler and built on a cutting board when you arrive. Or make charcuterie cups so nothing sits out."
+  },
+  {
+   "q": "Can I make a Fourth of July charcuterie board ahead?",
+   "a": "Cut, cube and pack everything the morning of and keep it chilled. Build the board in the last 30 minutes, add crackers last, and keep half the food in the cooler for a refill."
+  }
+ ],
+ "mistakes": [
+  {
+   "lead": "Wet berries.",
+   "text": "Wash berries early and let them dry, or they make crackers soggy and cheese slippery."
+  },
+  {
+   "lead": "Leaving it in the sun.",
+   "text": "Above 90°F, food can only be out for an hour. Build it in the shade and refill from the cooler."
+  },
+  {
+   "lead": "Only one kind of crunch.",
+   "text": "Mix crackers, pretzels and chips so there's something sturdy for dips and something plain for cheese."
+  }
+ ],
+ "read": [
+  "summer-charcuterie-board",
+  "how-long-charcuterie-board-last",
+  "how-to-transport-charcuterie-board"
+ ],
+ "make_ahead": {
+  "ahead": [
+   "1 week: crackers, chips, nuts and pickles",
+   "The morning of: slice and cube the cheese, cut the stars, wash and dry the berries; pack and chill"
+  ],
+  "last": [
+   "Build the flag in the shade 30 minutes before",
+   "Crackers go on last",
+   "Refill from the cooler after an hour, sooner if it's hot"
+  ]
+ }
+}
