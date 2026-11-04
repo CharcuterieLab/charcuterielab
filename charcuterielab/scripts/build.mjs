@@ -1158,6 +1158,7 @@ function ingredientCategoryPage(category, items) {
 ${ingredientsFinder(items, {
   heading: category,
   intro: `${items.length} ${category.toLowerCase()} ingredients, each with pairings, prep and what to buy.`,
+  note: category === "Cheese" ? `New to cheese? Start with <a href="/blog/types-of-cheese/">types of cheese: 100 cheeses explained, with a chart</a>.` : "",
   showCategoryFilter: false
 })}
 ${labNext(`ingredients_${slugify(category)}`, { skip: ["ingredients"] })}
@@ -1444,6 +1445,7 @@ ${related
         : ""
     }
     ${boardPostLink(item, blogSlugs)}
+    ${item.category === "Cheese" && (!blogSlugs || blogSlugs.has("types-of-cheese")) ? `<p class="ing-boardpost">Comparing cheeses? <a href="/blog/types-of-cheese/">See all 100 types of cheese, with a chart &rarr;</a></p>` : ""}
     ${ingredientReadMore(item, mentions)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>
@@ -1493,7 +1495,7 @@ const NAV_GROUPS = [
   { key: "best", label: "Best buys", href: "/blog/best-charcuterie-brands/", match: /^\/blog\/best-/, links: [
     ["/blog/best-charcuterie-brands/", "All buying guides"], ["/blog/best-charcuterie-brands/?c=cheese#finder", "Best cheese"], ["/blog/best-charcuterie-brands/?c=meat#finder", "Best cured meat"], ["/blog/best-charcuterie-brands/?c=crackers#finder", "Best crackers and chips"], ["/blog/best-charcuterie-brands/?c=spreads#finder", "Best spreads and dips"], ["/blog/best-charcuterie-brands/?c=stores#finder", "Store guides: Costco, Aldi, TJ's"] ] },
   { key: "learn", label: "Learn", href: "/ingredients/", match: /^\/(ingredients|pairings|blog)\//, links: [
-    ["/ingredients/", "Ingredient library"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
+    ["/ingredients/", "Ingredient library"], ["/blog/types-of-cheese/", "Types of cheese: the chart"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
   { key: "shop", label: "Shop", href: "/shop/", match: /^\/(shop|printables|ebook|books)\//, links: [
     ["/shop/", "Start here"], ["/shop/#ebooks", "Books: ebooks and paperbacks"], ["/shop/printables/", "All printables"], ["/ebook/", "50 Boards Built by Science"] ] }
 ];
@@ -2581,8 +2583,10 @@ function addTableOfContents(html, words) {
     if (!m || asideDepth > 0) continue;
     const text = m[2].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
     if (!text || /^(related reading|faq|frequently asked questions)$/i.test(text)) continue;
-    let id = slugify(text).slice(0, 60) || `section-${items.length + 1}`;
-    while (used.has(id)) id += "-2";
+    // Keep an id the heading already has, so the list's links match it.
+    const own = m[1].match(/\bid="([^"]+)"/);
+    let id = own ? own[1] : slugify(text).slice(0, 60) || `section-${items.length + 1}`;
+    while (!own && used.has(id)) id += "-2";
     used.add(id);
     parts[i] = /\bid=/.test(m[1]) ? p : `<h2 id="${id}"${m[1]}>${m[2]}</h2>`;
     items.push([id, text]);

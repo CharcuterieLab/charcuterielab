@@ -123,6 +123,7 @@ The cheese formula is 2 oz per person before a meal, 3 oz when the board is the 
 
 ## Related Reading
 
+- [Types of Cheese: 100 Cheeses Explained, With a Chart](/blog/types-of-cheese/)
 - [How to Cut Cheese for a Charcuterie Board](https://charcuterielab.com/how-to-cut-cheese-charcuterie-board/)
 - [Budget Charcuterie Board](https://charcuterielab.com/blog/budget-charcuterie-board/)
 - [Mini Charcuterie Board](https://charcuterielab.com/mini-charcuterie-board/)

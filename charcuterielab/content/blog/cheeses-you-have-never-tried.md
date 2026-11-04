@@ -81,6 +81,8 @@ Each comes with where it's from, what it tastes like and one pairing.
 
 Swap one familiar cheese for one from this list, not three. Put it next to its pairing so guests know how to eat it, and label it. For pregnant guests, follow CDC guidance and choose pasteurized cheeses; check the label, since some of these are sold both ways.
 
+Want to see where each one fits? Our [types of cheese guide](/blog/types-of-cheese/) puts 100 cheeses into 8 families, with a searchable chart.
+
 ## How many have you tried?
 
 Comment your number, and send this to the friend you would try the boldest one with. When you are ready to build, the [Pairings Hub](/pairings/) shows more matches for every cheese, and the [cheese guide](/blog/best-cheese-charcuterie-board/) helps you balance a board around a new one.

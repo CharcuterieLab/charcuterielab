@@ -89,6 +89,8 @@ Take hard cheese out 45 to 60 minutes before serving and soft cheese 20 to 30 mi
 
 Planning cheese after dinner? [The cheese course](/blog/cheese-course/) shows how to pick three and serve them mild to strong.
 
+Want the whole map? [Types of cheese](/blog/types-of-cheese/) sorts 100 cheeses into 8 families, with a searchable chart.
+
 ## Where do you tap out?
 
 Comment your level, and tag the friend who needs to try level 12. For a full board built around a strong cheese, browse the [Board Library](/boards/).

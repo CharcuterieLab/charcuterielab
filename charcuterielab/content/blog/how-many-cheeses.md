@@ -76,6 +76,7 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 
 ## Related Reading
 
+- [Types of Cheese: 100 Cheeses Explained, With a Chart](/blog/types-of-cheese/)
 - [The Best Cheese for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 - [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)

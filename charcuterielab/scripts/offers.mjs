@@ -32,6 +32,8 @@ export const OFFER_RULES = [
   // Bundles (17 Oct 2026): holiday and party pages get the pack that matches.
   // Advent calendar pages (20 Oct 2026): the DIY kit, live once its Gumroad URL is in products.json.
   [/advent-calendar/, ["diy-cheese-advent-calendar-kit", "cheese-board-field-guide"], "Making your own?"],
+  // Types of Cheese guide (3 Nov 2026): the reader wants to learn cheeses, so the pack of cheese guides.
+  [/types-of-cheese/, ["cheese-lovers-pack", "cheese-board-field-guide"], "Love cheese?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
   [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
@@ -276,6 +278,7 @@ export function makeOffers(h, products, books) {
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
+    if (path === "/blog/types-of-cheese/") return FREEBIES.cheese;
     const sm = path.match(/^\/blog\/([^/]+)\/$/);
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };
