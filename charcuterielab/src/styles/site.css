@@ -6519,3 +6519,22 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .post-body .tc-key-str b { flex: 0 0 58px; font-size: 13.5px; }
   .post-body .tc-key-str small { font-size: 12.5px; }
 }
+.post-body .tc-jump-label { margin: 6px 0 8px; color: var(--green-deep); font: 700 13px/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; }
+.post-body .tc-jump-label::before { content: "↓ "; }
+/* Families lineup photo with numbered labels (Nov 3) */
+.post-body .tc-lineup { margin: 0 0 22px; border-radius: 12px; overflow: hidden; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); box-shadow: 0 12px 28px rgba(55, 35, 25, 0.08); }
+.post-body .tc-lineup img { display: block; width: 100%; height: auto; aspect-ratio: 2.3 / 1; margin: 0; object-fit: cover; object-position: 50% 68%; border-radius: 0; box-shadow: none; }
+.post-body .tc-lineup figcaption { padding: 8px; }
+.post-body .tc-lineup ol { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 4px; margin: 0; padding: 0; list-style: none; }
+.post-body .tc-lineup li { margin: 0; }
+.post-body .tc-lineup a { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 6px 2px; border-radius: 8px; border-top: 4px solid var(--fc); background: color-mix(in srgb, var(--fc) 10%, #fff); color: var(--ink); text-align: center; text-decoration: none; font-family: var(--sans); }
+.post-body .tc-lineup a:hover { background: color-mix(in srgb, var(--fc) 22%, #fff); }
+.post-body .tc-lineup b { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; background: var(--fc); color: #fff; font-size: 11.5px; }
+.post-body .tc-lineup span { font-size: 12.5px; font-weight: 700; line-height: 1.15; }
+.post-body .tc-lineup small { color: var(--muted); font-size: 11.5px; line-height: 1.2; }
+@media (max-width: 640px) {
+  .post-body .tc-lineup img { aspect-ratio: 2 / 1; }
+  .post-body .tc-lineup ol { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .post-body .tc-lineup span { font-size: 11.5px; }
+}
+@media (max-width: 640px) { .post-body .tc-jump-label::after { content: " · swipe →"; color: var(--muted); font-weight: 600; letter-spacing: 0.02em; text-transform: none; } }

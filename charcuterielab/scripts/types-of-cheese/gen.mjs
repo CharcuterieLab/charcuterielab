@@ -70,7 +70,15 @@ const spectrum = `<div class="tc-spec" role="img" aria-label="Cheese families ar
 <p class="tc-spec-df">Dairy-free? Jump to <a href="#plant">plant-based cheese</a>.</p>
 </div>`;
 
-const jump = `<nav class="sk-jump" data-tc-jump aria-label="On this page"><a href="#families">The 8 families</a><a href="#chart">Cheese chart (all 100)</a>${FAMILIES.map((f) => `<a href="#${f.key}">${f.name}</a>`).join("")}<a href="#milk">Cow, goat or sheep?</a><a href="#for-the-job">Best cheese for…</a><a href="#ladder">If you like X, try Y</a><a href="#label">Label words</a><a href="#faq">FAQ</a></nav>`;
+// The families photo, cropped to the cheeses, with a numbered label under each one.
+const famPhoto = manifest.thumbs["/images/types-of-cheese-families.jpg"];
+const LINEUP = [["fresh", "Mozzarella"], ["bloomy", "Brie"], ["semisoft", "Havarti"], ["firm", "Aged cheddar"], ["hard", "Parmigiano"], ["blue", "Stilton"], ["washed", "Taleggio"], ["flavored", "Smoked Gouda"]];
+const lineup = imgExists("/images/types-of-cheese-families.jpg")
+  ? `<figure class="tc-lineup"><img src="${famPhoto && famPhoto.m ? famPhoto.m : "/images/types-of-cheese-families.jpg"}" srcset="${famPhoto && famPhoto.m ? `${famPhoto.m} 640w, ` : ""}/images/types-of-cheese-families.jpg 1024w" sizes="(max-width: 792px) calc(100vw - 32px), 760px" alt="Eight cheeses in a row on a long marble slab, one from each family, left to right: fresh mozzarella, Brie, Havarti, aged cheddar, Parmigiano-Reggiano, blue Stilton, orange-rinded Taleggio and smoked Gouda" width="1024" height="687" loading="lazy" decoding="async">
+<figcaption><ol>${LINEUP.map(([k, c]) => `<li style="--fc:${fam[k].color}"><a href="#${k}"><b>${fam[k].n}</b><span>${esc(fam[k].name.replace(" & specialty", ""))}</span><small>${c}</small></a></li>`).join("")}</ol></figcaption></figure>`
+  : "";
+const jump = `<p class="tc-jump-label" id="jump">Jump to a section</p>
+<nav class="sk-jump" data-tc-jump aria-label="Jump to a section"><a href="#families">The 8 families</a><a href="#chart">Cheese chart (all 100)</a>${FAMILIES.map((f) => `<a href="#${f.key}">${f.name}</a>`).join("")}<a href="#milk">Cow, goat or sheep?</a><a href="#for-the-job">Best cheese for…</a><a href="#ladder">If you like X, try Y</a><a href="#label">Label words</a><a href="#faq">FAQ</a></nav>`;
 
 // ---------- The chart ----------
 const milkOpts = [["", "Any milk"], ["cow", "Cow"], ["goat", "Goat"], ["sheep", "Sheep"], ["mixed", "Mixed / other"], ["plant", "Plant-based"]];
@@ -240,10 +248,12 @@ const md = `${fmText}
 
 :::html
 ${spectrum}
-${jump}
 :::
 
-${imgExists("/images/types-of-cheese-families.jpg") ? "" : "<!--families-photo-->"}![Eight cheeses in a row on a long marble slab, one from each family, left to right: fresh mozzarella, Brie, Havarti, aged cheddar, Parmigiano-Reggiano, blue Stilton, orange-rinded Taleggio and smoked Gouda](/images/types-of-cheese-families.jpg)
+:::html
+${lineup}
+${jump}
+:::
 
 :::html
 <h2 id="families">The 8 types of cheese at a glance</h2>
