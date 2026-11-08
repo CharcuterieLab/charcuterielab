@@ -77,8 +77,37 @@ const lineup = imgExists("/images/types-of-cheese-families.jpg")
   ? `<figure class="tc-lineup"><img src="${famPhoto && famPhoto.m ? famPhoto.m : "/images/types-of-cheese-families.jpg"}" srcset="${famPhoto && famPhoto.m ? `${famPhoto.m} 640w, ` : ""}/images/types-of-cheese-families.jpg 1024w" sizes="(max-width: 792px) calc(100vw - 32px), 760px" alt="Eight cheeses in a row on a long marble slab, one from each family, left to right: fresh mozzarella, Brie, Havarti, aged cheddar, Parmigiano-Reggiano, blue Stilton, orange-rinded Taleggio and smoked Gouda" width="1024" height="687" loading="lazy" decoding="async">
 <figcaption><ol>${LINEUP.map(([k, c]) => `<li style="--fc:${fam[k].color}"><a href="#${k}"><b>${fam[k].n}</b><span>${esc(fam[k].name.replace(" & specialty", ""))}</span><small>${c}</small></a></li>`).join("")}</ol></figcaption></figure>`
   : "";
+// How cheese is made, in 4 steps (Nov 8, 2026). Each step links to the families it explains.
+const famLink = (k, label) => `<a href="#${k}" class="tc-mk-fam" style="--fc:${fam[k].color}">${label || fam[k].name}</a>`;
+const MAKE = [
+  ["Curdle the milk", "Cultures (friendly bacteria) sour the milk, then rennet or acid sets it into a soft gel.", `${famLink("fresh", "Fresh cheeses")} like paneer and ricotta use acid and stop close to here.`],
+  ["Cut and drain", "The gel is cut into curds and the liquid (whey) drains away. Smaller curds, more stirring and more heat make a drier, firmer cheese.", `Big, gently handled curds stay ${famLink("bloomy", "soft")}.`],
+  ["Shape and salt", "The curds go into molds, and firm cheeses are pressed to squeeze out more whey. Salt is rubbed on or the cheese sits in brine, which builds flavor and the rind.", `Mozzarella and provolone are stretched in hot water instead (${famLink("semisoft", "semi-soft")}).`],
+  ["Age it", "From a few weeks to a few years in a cool, damp room. This is where the families split:", `${famLink("bloomy", "white mold outside")}, ${famLink("blue", "blue mold inside")}, ${famLink("washed", "a washed rind")}, or just time (${famLink("firm", "firm")} and ${famLink("hard", "hard")}).`],
+];
+const howMade = `<h2 id="how-made">How cheese is made, in 4 steps</h2>
+<p class="sk-lede">Every cheese starts the same way. Where it stops, and how long it ages, decides which family it lands in.</p>
+<ol class="tc-make">${MAKE.map(([t, d, fx], i) => `<li><span class="tc-mk-n">${i + 1}</span><b>${t}</b><p>${d}</p><p class="tc-mk-fx">${fx}</p></li>`).join("")}</ol>`;
+
+// "Save this chart": the shareable chart image, a Pinterest button, the printable and an embed code.
+const SITE_URL = "https://charcuterielab.com";
+const chartImg = "/images/types-of-cheese-chart.jpg";
+const chartThumb = manifest.thumbs[chartImg];
+const pinUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(`${SITE_URL}/blog/types-of-cheese/`)}&media=${encodeURIComponent(SITE_URL + chartImg)}&description=${encodeURIComponent("Types of cheese chart: the 8 cheese families from mild to bold, with examples of each. All 100 cheeses at Charcuterie Lab.")}`;
+const embedCode = `<a href="${SITE_URL}/blog/types-of-cheese/"><img src="${SITE_URL}${chartImg}" alt="Types of cheese chart: the 8 cheese families from mild to bold" width="500" height="750"></a><br>Chart: <a href="${SITE_URL}/blog/types-of-cheese/">Types of Cheese by Charcuterie Lab</a>`;
+const shareBox = imgExists(chartImg) ? `<div class="tc-share" id="save-chart">
+<a class="tc-share-img" href="${chartImg}"><img src="${chartThumb && chartThumb.m ? chartThumb.m : chartImg}" alt="Types of cheese chart: the 8 cheese families from mild to bold, with examples of each" width="320" height="480" loading="lazy" decoding="async"></a>
+<div class="tc-share-copy">
+<p class="tc-share-kicker">Save this chart</p>
+<p class="tc-share-title">The 8 cheese families on one page</p>
+<p>Pin it for later, or get the free 3-page printable with all 100 cheeses and a box to tick off each one you've tried.</p>
+<div class="tc-share-btns"><a class="button tc-pin" href="${esc(pinUrl)}" target="_blank" rel="noopener">Save to Pinterest</a><a class="button secondary" href="#cheat">Get the free printable</a></div>
+<details class="tc-embed"><summary>Use this chart on your site</summary><p>You're welcome to share it. Copy this code, which includes a credit link:</p><textarea readonly rows="4" aria-label="Embed code for the cheese chart">${esc(embedCode)}</textarea><button type="button" class="tc-copy" data-tc-copy>Copy code</button></details>
+</div></div>
+<script>(function(){var b=document.querySelector('[data-tc-copy]');if(!b)return;b.addEventListener('click',function(){var t=b.parentNode.querySelector('textarea');t.select();try{navigator.clipboard.writeText(t.value).then(function(){b.textContent='Copied';},function(){document.execCommand('copy');b.textContent='Copied';});}catch(e){document.execCommand('copy');b.textContent='Copied';}});})();</script>` : "";
+
 const jump = `<p class="tc-jump-label" id="jump">Jump to a section</p>
-<nav class="sk-jump" data-tc-jump aria-label="Jump to a section"><a href="#families">The 8 families</a><a href="#chart">Cheese chart (all 100)</a>${FAMILIES.map((f) => `<a href="#${f.key}">${f.name}</a>`).join("")}<a href="#milk">Cow, goat or sheep?</a><a href="#for-the-job">Best cheese for…</a><a href="#ladder">If you like X, try Y</a><a href="#label">Label words</a><a href="#faq">FAQ</a></nav>`;
+<nav class="sk-jump" data-tc-jump aria-label="Jump to a section"><a href="#families">The 8 families</a><a href="#how-made">How cheese is made</a><a href="#chart">Cheese chart (all 100)</a>${FAMILIES.map((f) => `<a href="#${f.key}">${f.name}</a>`).join("")}<a href="#milk">Cow, goat or sheep?</a><a href="#for-the-job">Best cheese for…</a><a href="#ladder">If you like X, try Y</a><a href="#label">Label words</a><a href="#faq">FAQ</a></nav>`;
 
 // ---------- The chart ----------
 const milkOpts = [["", "Any milk"], ["cow", "Cow"], ["goat", "Goat"], ["sheep", "Sheep"], ["mixed", "Mixed / other"], ["plant", "Plant-based"]];
@@ -264,10 +293,15 @@ ${jump}
 <div class="tc-glance">${FAMILIES.map((f) => `<a href="#${f.key}" class="tc-gl" style="--fc:${f.color}"><span class="tc-famn">${f.n}</span><span class="tc-gl-main"><b>${esc(f.long)}</b><span class="tc-gl-taste">${{ fresh: "Milky, tangy, mild", bloomy: "Buttery, mushroomy", semisoft: "Mild, buttery", firm: "Nutty, savory, sharper with age", hard: "Salty, savory, intense", blue: "Sharp, salty, peppery", washed: "Rich and meaty; smells strong", flavored: "Whatever's added", plant: "Nutty, tangy" }[f.key]}</span><span class="tc-gl-ex">${famExamples[f.key]}</span></span><span class="tc-gl-aged"><small>Aged</small>${f.aged}</span></a>`).join("")}</div>
 :::
 
+:::html
+${howMade}
+:::
+
 **Building a board?** Pick one cheese from three different families, like a soft one (${mdL("brie")}), a firm one (${mdL("manchego")}) and a blue (${mdL("gorgonzola")}), and every guest finds something they like. See [the best cheeses for a charcuterie board](/blog/best-cheese-charcuterie-board/) and [how many cheeses to serve](/blog/how-many-cheeses/).
 
 :::html
 ${chart}
+${shareBox}
 :::
 
 :::html

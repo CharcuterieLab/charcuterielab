@@ -6576,3 +6576,38 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .post-body .ny-num { width: 28px; height: 28px; font-size: 13px; }
   .post-body .ny-picker .tc-controls { position: static; }
 }
+/* Types of Cheese upgrades (Nov 8): how cheese is made + save this chart */
+.post-body .tc-make { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 22px; padding: 0; list-style: none; counter-reset: none; }
+.post-body .tc-make li { position: relative; margin: 0; padding: 14px 14px 12px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); border-top: 4px solid var(--gold); font-family: var(--sans); }
+.post-body .tc-make li::before { display: none; }
+.post-body .tc-make li:not(:last-child)::after { content: "→"; position: absolute; right: -10px; top: 22px; z-index: 1; color: var(--green-deep); font-weight: 700; }
+.post-body .tc-mk-n { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; margin-bottom: 6px; border-radius: 50%; background: #0a261a; color: #caa652; font-size: 13px; font-weight: 700; }
+.post-body .tc-make b { display: block; font: 700 17px/1.2 var(--serif); }
+.post-body .tc-make p { margin: 6px 0 0; font-size: 14px; line-height: 1.45; }
+.post-body .tc-make p.tc-mk-fx { color: var(--muted); font-size: 13.5px; }
+.post-body .tc-mk-fam { color: var(--ink); font-weight: 700; text-decoration: none; border-bottom: 3px solid var(--fc); }
+.post-body .tc-share { display: grid; grid-template-columns: 170px 1fr; gap: 18px; align-items: center; margin: 18px 0 34px; padding: 16px; border-radius: 14px; background: #0a261a; color: #fff9eb; }
+.post-body .tc-share-img img { display: block; width: 100%; height: auto; margin: 0; border-radius: 8px; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35); }
+.post-body .tc-share-copy p { margin: 0 0 8px; color: #e8dcb8; font: 15px/1.5 var(--sans); }
+.post-body .tc-share-copy .tc-share-kicker { margin: 0 0 2px; color: #caa652; font-size: 12.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.post-body .tc-share-copy .tc-share-title { margin: 0 0 6px; color: #fff9eb; font: 700 22px/1.2 var(--serif); }
+.post-body .tc-share-btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 8px; }
+.post-body .tc-share-btns .button { min-height: 42px; padding: 0 16px; font-size: 13.5px; }
+.post-body .tc-share-btns .tc-pin { background: #e60023; border-color: #e60023; color: #fff; }
+.post-body .tc-embed summary { color: #caa652; font: 700 14px var(--sans); cursor: pointer; }
+.post-body .tc-embed p { margin: 8px 0 6px; font-size: 13.5px; }
+.post-body .tc-embed textarea { width: 100%; padding: 8px; border: 0; border-radius: 6px; background: #fffcf4; color: #17130e; font: 12px/1.4 ui-monospace, Menlo, monospace; resize: vertical; }
+.post-body .tc-copy { margin-top: 6px; padding: 7px 14px; border: 1px solid #caa652; border-radius: 6px; background: transparent; color: #caa652; font: 700 13px var(--sans); cursor: pointer; }
+@media (max-width: 860px) {
+  .post-body .tc-make { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .post-body .tc-make li:nth-child(2)::after { display: none; }
+}
+@media (max-width: 640px) {
+  .post-body .tc-make { grid-template-columns: 1fr; gap: 8px; }
+  .post-body .tc-make li:not(:last-child)::after { content: "↓"; right: auto; left: 50%; top: auto; bottom: -15px; }
+  .post-body .tc-make li:nth-child(2)::after { display: block; }
+  .post-body .tc-share { grid-template-columns: 96px 1fr; gap: 12px; padding: 12px; }
+  .post-body .tc-share-copy .tc-share-title { font-size: 18px; }
+  .post-body .tc-share-btns .button { flex: 1 1 100%; }
+}
+.post-body ol.tc-make { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }

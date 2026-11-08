@@ -266,6 +266,8 @@ export function makeOffers(h, products, books) {
   const FREEBIES = {
     best: { short: "Free: our #1 picks on one printable list", title: "Top Picks: the best brand of everything", line: "Our #1 pick from every buying guide on one printable list to take to the store, plus the cheat sheet and the weekly Lab Report.", img: "/images/leads/best-buys-top-picks.webp", label: "Download the Top Picks list (PDF)", pdf: "/downloads/best-buys-top-picks.pdf" },
     holiday: { short: "Free holiday board countdown plans", title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
+    // Types of Cheese guide (8 Nov 2026): the 3-page Cheese Chart made by scripts/types-of-cheese/printables.mjs.
+    cheesechart: { short: "Free: the printable Cheese Chart", eyebrow: "Free 3-page printable", title: "The Cheese Chart: all 100 cheeses", line: "The 8 families, a strength scale, if-you-like-this-try-that ladders and all 100 cheeses with what to serve them with, plus a box to tick off each one you've tried. Plus the weekly Lab Report.", img: "/images/leads/cheese-chart.webp", label: "Download the Cheese Chart (PDF)", pdf: "/downloads/cheese-chart.pdf" },
     cheese: { short: "Free cheese counter card", title: "The Cheese Counter Card", line: "Take it shopping: how much cheese to buy, one pick from each texture, fridge-out times and what to ask at the counter. Plus the weekly Lab Report.", img: "/images/leads/cheese-counter-card.webp", label: "Download the Cheese Counter Card (PDF)", pdf: "/downloads/cheese-counter-card.pdf" },
     pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
   };
@@ -278,7 +280,7 @@ export function makeOffers(h, products, books) {
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
-    if (path === "/blog/types-of-cheese/") return FREEBIES.cheese;
+    if (path === "/blog/types-of-cheese/") return FREEBIES.cheesechart;
     const sm = path.match(/^\/blog\/([^/]+)\/$/);
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };

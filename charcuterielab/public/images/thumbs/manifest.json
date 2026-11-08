@@ -4388,6 +4388,10 @@
 480,
 621
 ],
+"/images/leads/cheese-chart.webp": [
+480,
+621
+],
 "/images/leads/cheese-counter-card.webp": [
 480,
 621
@@ -14292,6 +14296,10 @@
 240,
 310
 ],
+"/images/thumbs/leads__cheese-chart-webp-s.webp": [
+240,
+310
+],
 "/images/thumbs/leads__cheese-counter-card-webp-s.webp": [
 240,
 310
@@ -16492,6 +16500,14 @@
 240,
 131
 ],
+"/images/thumbs/types-of-cheese-chart-jpg-m.webp": [
+640,
+960
+],
+"/images/thumbs/types-of-cheese-chart-jpg-s.webp": [
+240,
+360
+],
 "/images/thumbs/types-of-cheese-families-jpg-m.webp": [
 640,
 429
@@ -16759,6 +16775,10 @@
 "/images/turkey-charcuterie-board.jpg": [
 1024,
 559
+],
+"/images/types-of-cheese-chart.jpg": [
+1000,
+1500
 ],
 "/images/types-of-cheese-families.jpg": [
 1024,
@@ -21261,6 +21281,9 @@
 "/images/leads/board-shopping-list.webp": {
 "s": "/images/thumbs/leads__board-shopping-list-webp-s.webp"
 },
+"/images/leads/cheese-chart.webp": {
+"s": "/images/thumbs/leads__cheese-chart-webp-s.webp"
+},
 "/images/leads/cheese-counter-card.webp": {
 "s": "/images/thumbs/leads__cheese-counter-card-webp-s.webp"
 },
@@ -22378,6 +22401,10 @@
 "/images/turkey-charcuterie-board.jpg": {
 "m": "/images/thumbs/turkey-charcuterie-board-jpg-m.webp",
 "s": "/images/thumbs/turkey-charcuterie-board-jpg-s.webp"
+},
+"/images/types-of-cheese-chart.jpg": {
+"m": "/images/thumbs/types-of-cheese-chart-jpg-m.webp",
+"s": "/images/thumbs/types-of-cheese-chart-jpg-s.webp"
 },
 "/images/types-of-cheese-families.jpg": {
 "m": "/images/thumbs/types-of-cheese-families-jpg-m.webp",
