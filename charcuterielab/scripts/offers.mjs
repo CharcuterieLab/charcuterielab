@@ -36,7 +36,7 @@ export const OFFER_RULES = [
   [/types-of-cheese/, ["cheese-lovers-pack", "cheese-board-field-guide"], "Love cheese?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
-  [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
+  [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|new-years-eve-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
   [/super-bowl|game-day|football|tailgate|fantasy-draft/, ["game-day-pack", "book:board"], "Hosting game day?"],
   [/baby-shower|pregnan/, ["baby-shower-board-kit", "book:board", "classic-entertaining-board-blueprint"], "Hosting a baby shower?"],
   [/smoked-salmon|lox|brunch|bagel|breakfast/, ["brunch-lox-board-plan", "new-years-eve-blini-bar", "complete-board-builder-bundle"], "Planning a brunch board?"],
@@ -470,7 +470,7 @@ export function makeOffers(h, products, books) {
           {
             const fb = freebieFor(path, ctx);
             if (fb && html.includes('class="lab-news"')) {
-              html = html.replace(/(<section class="lab-news"[\s\S]*?)<img src="[^"]*"([\s\S]*?)<h2>Get the Charcuterie Cheat Sheet<\/h2>\s*<p>[\s\S]*?<\/p>/, (all, a, b) => `${a}<img src="${esc(fb.img)}"${b}<h2>${esc(fb.h2 || `Get the free ${fb.title.replace(/^The /, "")}`)}</h2>\n          <p>${esc(fb.line)}</p>`);
+              html = html.replace(/(<section class="lab-news"[\s\S]*?)<img src="[^"]*"([\s\S]*?)<h2>Get the Charcuterie Cheat Sheet<\/h2>\s*<p>[\s\S]*?<\/p>/, (all, a, b) => `${a}<img src="${esc(fb.img)}"${b}<h2>${esc(fb.h2 || `Get the free ${fb.title.replace(/^(?:The|Free) /, "")}`)}</h2>\n          <p>${esc(fb.line)}</p>`);
             }
           }
           // The mid-page printable card shows the same product as the top card.

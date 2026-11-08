@@ -6538,3 +6538,41 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .post-body .tc-lineup span { font-size: 11.5px; }
 }
 @media (max-width: 640px) { .post-body .tc-jump-label::after { content: " · swipe →"; color: var(--muted); font-weight: 600; letter-spacing: 0.02em; text-transform: none; } }
+/* ===== New Year's Eve appetizers (Nov 8, 2026): ny-* (also uses tc-chips/tc-table from Types of Cheese) ===== */
+.post-body .ny-items { display: grid; gap: 12px; margin: 0 0 30px; }
+.post-body .ny-item { padding: 14px 16px 12px; border: 1px solid rgba(169, 87, 43, 0.14); border-radius: 12px; background: #fff; box-shadow: 0 8px 20px rgba(55, 35, 25, 0.05); scroll-margin-top: 80px; }
+.post-body .ny-item h3 { display: flex; align-items: center; gap: 10px; margin: 0 0 6px; font-size: 20px; line-height: 1.25; }
+.post-body .ny-num { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%; background: #1f2a44; color: #f3d98b; font: 700 14px/1 var(--sans); }
+.post-body .ny-pills { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 8px; }
+.post-body .ny-item > p { margin: 0 0 8px; font-size: 16.5px; line-height: 1.55; }
+.post-body .ny-item > p.ny-pills { margin-bottom: 8px; }
+.post-body .ny-ahead { padding: 8px 12px; border-left: 4px solid #c9a227; border-radius: 0 8px 8px 0; background: #fbf6e6; font-size: 15.5px !important; }
+.post-body .ny-more { color: var(--muted); font-size: 15px !important; }
+.post-body .ny-tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #f1ebdc; color: #4a3420; font: 700 12px/1.5 var(--sans); white-space: nowrap; }
+.post-body .ny-tag.ny-t-freezes { background: #e3edf5; color: #24476b; }
+.post-body .ny-tag.ny-t-ahead { background: #f6ecd2; color: #6b4a0e; }
+.post-body .ny-tag.ny-t-nocook { background: #e6f0e8; color: #2f5a39; }
+.post-body .ny-tag.ny-t-veg, .post-body .ny-tag.ny-t-gf { background: #eef3e2; color: #46591d; }
+.post-body .ny-tag.ny-t-fancy { background: #1f2a44; color: #f3d98b; }
+.post-body .ny-tag.ny-t-kid { background: #f8e5e1; color: #7a2f22; }
+.post-body .ny-tag.ny-t-budget { background: #ece9f3; color: #4b3b70; }
+.post-body .ny-table .ny-n { width: 36px; color: var(--muted); font-weight: 700; text-align: center; background: none; min-width: 0; }
+.post-body .ny-table .ny-name { font-weight: 700; font-size: 15px; min-width: 0; }
+.post-body .ny-table .ny-name a { color: var(--green-deep); }
+.post-body .ny-table .ny-type { white-space: nowrap; color: var(--muted); font-size: 13.5px; }
+.post-body .ny-table .ny-tags { display: table-cell; }
+.post-body .ny-table .ny-tags .ny-tag { margin: 1px 2px 1px 0; }
+.post-body .ny-picker .tc-controls { position: sticky; }
+@media (max-width: 860px) {
+  .post-body .ny-table tr { grid-template-columns: 30px 1fr; }
+  .post-body .ny-table td.ny-n { grid-column: 1; grid-row: 1 / span 2; text-align: left; padding-top: 2px; }
+  .post-body .ny-table td.ny-name { grid-column: 2; }
+  .post-body .ny-table td.ny-type { display: none; }
+  .post-body .ny-table td.ny-tags { display: block; grid-column: 2; }
+}
+@media (max-width: 640px) {
+  .post-body .ny-item { padding: 12px 12px 10px; }
+  .post-body .ny-item h3 { font-size: 18px; }
+  .post-body .ny-num { width: 28px; height: 28px; font-size: 13px; }
+  .post-body .ny-picker .tc-controls { position: static; }
+}

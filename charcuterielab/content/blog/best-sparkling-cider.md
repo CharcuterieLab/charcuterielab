@@ -143,3 +143,5 @@ A 25.4 oz bottle pours about five glasses. For a toast, one bottle covers 6 to 8
 Pouring for the adults too? See [the best cheap Champagne](/blog/best-champagne-under-30/).
 
 Another holiday pour: [the best store-bought eggnog](/blog/best-eggnog/).
+
+Planning the food too? See [40 New Year's Eve appetizers](/blog/new-years-eve-appetizers/), with make-ahead notes and a countdown to midnight.

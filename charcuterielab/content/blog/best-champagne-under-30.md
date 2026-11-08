@@ -120,3 +120,5 @@ A bottle pours about five glasses. Plan on half a bottle per guest for the night
 For Italian bubbles, see [the best prosecco](/blog/best-prosecco/); for still wines, [the best wines under $20](/blog/best-wine-for-charcuterie-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
 Serving caviar with it? See [the best caviar](/blog/best-caviar/).
+
+Planning the food too? See [40 New Year's Eve appetizers](/blog/new-years-eve-appetizers/), with make-ahead notes and a countdown to midnight.

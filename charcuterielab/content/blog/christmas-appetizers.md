@@ -367,6 +367,7 @@ The cheapest crowd-pleasers on this list cost a few dollars a batch: pepper jell
 
 ## Related Reading
 
+- [40 New Year's Eve Appetizers (Easy, Fancy + Make-Ahead)](/blog/new-years-eve-appetizers/)
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)
 - [Christmas Morning Breakfast Board](/blog/christmas-morning-charcuterie-board/)

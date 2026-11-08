@@ -4684,6 +4684,10 @@
 800,
 600
 ],
+"/images/plans/breakfast-in-bed-board-look.webp": [
+800,
+600
+],
 "/images/plans/british-ploughmans-board-look.webp": [
 800,
 600
@@ -4748,6 +4752,10 @@
 800,
 600
 ],
+"/images/plans/game-night-board-for-two-look.webp": [
+800,
+600
+],
 "/images/plans/german-bavarian-charcuterie-board-look.webp": [
 800,
 600
@@ -4793,6 +4801,10 @@
 600
 ],
 "/images/plans/italian-board-for-two-look.webp": [
+800,
+600
+],
+"/images/plans/just-because-charcuterie-board-look.webp": [
 800,
 600
 ],
@@ -4860,7 +4872,23 @@
 800,
 600
 ],
+"/images/plans/lazy-sunday-charcuterie-board-look.webp": [
+800,
+600
+],
 "/images/plans/luxury-charcuterie-board-look.webp": [
+800,
+600
+],
+"/images/plans/mediterranean-board-for-two-look.webp": [
+800,
+600
+],
+"/images/plans/midnight-snack-charcuterie-board-look.webp": [
+800,
+600
+],
+"/images/plans/morning-after-brunch-board-look.webp": [
 800,
 600
 ],
@@ -4889,6 +4917,10 @@
 600
 ],
 "/images/plans/peruvian-charcuterie-board-look.webp": [
+800,
+600
+],
+"/images/plans/picnic-board-for-two-look.webp": [
 800,
 600
 ],
@@ -4981,6 +5013,10 @@
 600
 ],
 "/images/plans/turkish-meze-board-look.webp": [
+800,
+600
+],
+"/images/plans/valentines-day-board-for-two-look.webp": [
 800,
 600
 ],
@@ -14724,6 +14760,14 @@
 240,
 180
 ],
+"/images/thumbs/plans__breakfast-in-bed-board-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__breakfast-in-bed-board-look-webp-s.webp": [
+240,
+180
+],
 "/images/thumbs/plans__british-ploughmans-board-look-webp-m.webp": [
 640,
 480
@@ -14852,6 +14896,14 @@
 240,
 180
 ],
+"/images/thumbs/plans__game-night-board-for-two-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__game-night-board-for-two-look-webp-s.webp": [
+240,
+180
+],
 "/images/thumbs/plans__german-bavarian-charcuterie-board-look-webp-m.webp": [
 640,
 480
@@ -14945,6 +14997,14 @@
 480
 ],
 "/images/thumbs/plans__italian-board-for-two-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__just-because-charcuterie-board-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__just-because-charcuterie-board-look-webp-s.webp": [
 240,
 180
 ],
@@ -15076,11 +15136,43 @@
 240,
 180
 ],
+"/images/thumbs/plans__lazy-sunday-charcuterie-board-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__lazy-sunday-charcuterie-board-look-webp-s.webp": [
+240,
+180
+],
 "/images/thumbs/plans__luxury-charcuterie-board-look-webp-m.webp": [
 640,
 480
 ],
 "/images/thumbs/plans__luxury-charcuterie-board-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__mediterranean-board-for-two-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__mediterranean-board-for-two-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__midnight-snack-charcuterie-board-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__midnight-snack-charcuterie-board-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__morning-after-brunch-board-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__morning-after-brunch-board-look-webp-s.webp": [
 240,
 180
 ],
@@ -15137,6 +15229,14 @@
 480
 ],
 "/images/thumbs/plans__peruvian-charcuterie-board-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__picnic-board-for-two-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__picnic-board-for-two-look-webp-s.webp": [
 240,
 180
 ],
@@ -15321,6 +15421,14 @@
 480
 ],
 "/images/thumbs/plans__turkish-meze-board-look-webp-s.webp": [
+240,
+180
+],
+"/images/thumbs/plans__valentines-day-board-for-two-look-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/plans__valentines-day-board-for-two-look-webp-s.webp": [
 240,
 180
 ],
@@ -21418,6 +21526,10 @@
 "m": "/images/thumbs/plans__brazilian-churrasco-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__brazilian-churrasco-board-look-webp-s.webp"
 },
+"/images/plans/breakfast-in-bed-board-look.webp": {
+"m": "/images/thumbs/plans__breakfast-in-bed-board-look-webp-m.webp",
+"s": "/images/thumbs/plans__breakfast-in-bed-board-look-webp-s.webp"
+},
 "/images/plans/british-ploughmans-board-look.webp": {
 "m": "/images/thumbs/plans__british-ploughmans-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__british-ploughmans-board-look-webp-s.webp"
@@ -21482,6 +21594,10 @@
 "m": "/images/thumbs/plans__game-day-charcuterie-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__game-day-charcuterie-board-look-webp-s.webp"
 },
+"/images/plans/game-night-board-for-two-look.webp": {
+"m": "/images/thumbs/plans__game-night-board-for-two-look-webp-m.webp",
+"s": "/images/thumbs/plans__game-night-board-for-two-look-webp-s.webp"
+},
 "/images/plans/german-bavarian-charcuterie-board-look.webp": {
 "m": "/images/thumbs/plans__german-bavarian-charcuterie-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__german-bavarian-charcuterie-board-look-webp-s.webp"
@@ -21529,6 +21645,10 @@
 "/images/plans/italian-board-for-two-look.webp": {
 "m": "/images/thumbs/plans__italian-board-for-two-look-webp-m.webp",
 "s": "/images/thumbs/plans__italian-board-for-two-look-webp-s.webp"
+},
+"/images/plans/just-because-charcuterie-board-look.webp": {
+"m": "/images/thumbs/plans__just-because-charcuterie-board-look-webp-m.webp",
+"s": "/images/thumbs/plans__just-because-charcuterie-board-look-webp-s.webp"
 },
 "/images/plans/keto-antipasto-board-look.webp": {
 "m": "/images/thumbs/plans__keto-antipasto-board-look-webp-m.webp",
@@ -21594,9 +21714,25 @@
 "m": "/images/thumbs/plans__korean-bbq-charcuterie-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__korean-bbq-charcuterie-board-look-webp-s.webp"
 },
+"/images/plans/lazy-sunday-charcuterie-board-look.webp": {
+"m": "/images/thumbs/plans__lazy-sunday-charcuterie-board-look-webp-m.webp",
+"s": "/images/thumbs/plans__lazy-sunday-charcuterie-board-look-webp-s.webp"
+},
 "/images/plans/luxury-charcuterie-board-look.webp": {
 "m": "/images/thumbs/plans__luxury-charcuterie-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__luxury-charcuterie-board-look-webp-s.webp"
+},
+"/images/plans/mediterranean-board-for-two-look.webp": {
+"m": "/images/thumbs/plans__mediterranean-board-for-two-look-webp-m.webp",
+"s": "/images/thumbs/plans__mediterranean-board-for-two-look-webp-s.webp"
+},
+"/images/plans/midnight-snack-charcuterie-board-look.webp": {
+"m": "/images/thumbs/plans__midnight-snack-charcuterie-board-look-webp-m.webp",
+"s": "/images/thumbs/plans__midnight-snack-charcuterie-board-look-webp-s.webp"
+},
+"/images/plans/morning-after-brunch-board-look.webp": {
+"m": "/images/thumbs/plans__morning-after-brunch-board-look-webp-m.webp",
+"s": "/images/thumbs/plans__morning-after-brunch-board-look-webp-s.webp"
 },
 "/images/plans/moroccan-charcuterie-board-look.webp": {
 "m": "/images/thumbs/plans__moroccan-charcuterie-board-look-webp-m.webp",
@@ -21625,6 +21761,10 @@
 "/images/plans/peruvian-charcuterie-board-look.webp": {
 "m": "/images/thumbs/plans__peruvian-charcuterie-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__peruvian-charcuterie-board-look-webp-s.webp"
+},
+"/images/plans/picnic-board-for-two-look.webp": {
+"m": "/images/thumbs/plans__picnic-board-for-two-look-webp-m.webp",
+"s": "/images/thumbs/plans__picnic-board-for-two-look-webp-s.webp"
 },
 "/images/plans/plant-based-asian-board-look.webp": {
 "m": "/images/thumbs/plans__plant-based-asian-board-look-webp-m.webp",
@@ -21717,6 +21857,10 @@
 "/images/plans/turkish-meze-board-look.webp": {
 "m": "/images/thumbs/plans__turkish-meze-board-look-webp-m.webp",
 "s": "/images/thumbs/plans__turkish-meze-board-look-webp-s.webp"
+},
+"/images/plans/valentines-day-board-for-two-look.webp": {
+"m": "/images/thumbs/plans__valentines-day-board-for-two-look-webp-m.webp",
+"s": "/images/thumbs/plans__valentines-day-board-for-two-look-webp-s.webp"
 },
 "/images/plans/vietnamese-charcuterie-board-look.webp": {
 "m": "/images/thumbs/plans__vietnamese-charcuterie-board-look-webp-m.webp",

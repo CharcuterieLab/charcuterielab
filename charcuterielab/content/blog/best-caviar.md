@@ -109,3 +109,5 @@ Eat it within a day or two of opening, kept very cold.
 :::
 
 For smoked fish on the same board, see [the best smoked salmon](/blog/best-smoked-salmon/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
+
+Planning the food too? See [40 New Year's Eve appetizers](/blog/new-years-eve-appetizers/), with make-ahead notes and a countdown to midnight.

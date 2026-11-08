@@ -419,7 +419,9 @@ function topicTerms(post) {
 // any that aren't published yet - so a link to a queued post costs nothing
 // today and starts working by itself the day that post goes live.
 function relatedFromBody(body = "") {
-  const section = body.match(/^##\s*Related Reading\s*$([\s\S]*?)(?=^##\s|\Z)/mi);
+  // JavaScript has no \Z, so "(?![\s\S])" marks the end of the post. With \Z, a list
+  // that was the last section of a post was never read (41 posts, fixed Nov 8).
+  const section = body.match(/^##\s*Related Reading\s*$([\s\S]*?)(?=^##\s|(?![\s\S]))/mi);
   if (!section) return [];
 
   const slugs = [];
