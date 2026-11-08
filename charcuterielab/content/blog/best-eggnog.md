@@ -16,7 +16,7 @@ tags: "["best eggnog", "best store bought eggnog", "trader joe's eggnog", "best 
 > **Quick Answer:** Best overall: **Trader Joe's Egg Nog** (Daily Meal's #1 of 13). Most consistent: **Lactaid Eggnog**, top four in three separate tests. For a crowd: **Hood Golden** (a half gallon for about $6). Dairy-free: **Chobani Oat Nog**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Egg Nog</a><p class="sk-top-line">#1 of 13 at Daily Meal</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://locations.traderjoes.com/" target="_blank" rel="noopener">Find a Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Most consistent</p><a class="sk-top-name" href="#pick-2">Lactaid Eggnog</a><p class="sk-top-line">Top 4 in three separate tests</p></div><div class="sk-top-buy"><span class="sk-price">About $5 a quart</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Lactaid+eggnog" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dairy-free</p><a class="sk-top-name" href="#pick-7">Chobani Oat Nog</a><p class="sk-top-line">#3 at Tasting Table</p></div><div class="sk-top-buy"><span class="sk-price">About $6 a quart</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Chobani+oat+nog" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Egg Nog</a><p class="sk-top-line">#1 of 13 at Daily Meal</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://locations.traderjoes.com/" target="_blank" rel="noopener">Find a Trader Joe&#x27;s</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Most consistent</p><a class="sk-top-name" href="#pick-2">Lactaid Eggnog</a><p class="sk-top-line">Top 4 in three separate tests</p></div><div class="sk-top-buy"><span class="sk-price">About $5 a quart</span><a class="button sk-buy-sm" href="https://www.lactaid.com/products/lactaid-eggnog" target="_blank" rel="noopener">See it at Lactaid</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dairy-free</p><a class="sk-top-name" href="#pick-7">Chobani Oat Nog</a><p class="sk-top-line">#3 at Tasting Table</p></div><div class="sk-top-buy"><span class="sk-price">About $6 a quart</span><a class="button sk-buy-sm" href="https://www.kroger.com/search?query=chobani%20oat%20nog" target="_blank" rel="noopener">See it at Kroger</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">How to serve it</a><a href="#eggnog-questions">FAQ</a></nav>
 :::
 
@@ -39,7 +39,7 @@ Eggnog tests disagree more than most: one site's winner is another's tenth place
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#2 Daily Meal, #4 Tasting Table</dd></div><div><dt>PureWow</dt><dd>91/100</dd></div><div><dt>Lactose</dt><dd>Lactose-free, still real dairy</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The only eggnog that placed high in three tests: smooth, creamy and spiced, with no corn syrup. Daily Meal ranked it second overall.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains artificial colors, and it&#x27;s dairy: not for vegans or milk allergies.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Lactaid+eggnog" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.lactaid.com/products/lactaid-eggnog" target="_blank" rel="noopener">See it at Lactaid</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.thedailymeal.com/1466771/store-bought-egg-nogs-ranked/" target="_blank" rel="noopener">Daily Meal</a>; <a href="https://www.tastingtable.com/1462701/store-bought-eggnog-brands-ranked/" target="_blank" rel="noopener">Tasting Table</a>; <a href="https://www.purewow.com/food/best-eggnog" target="_blank" rel="noopener">PureWow</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +47,7 @@ Eggnog tests disagree more than most: one site's winner is another's tenth place
 <dl class="sk-facts"><div><dt>Score</dt><dd>94/100 at PureWow</dd></div><div><dt>Size</dt><dd>Half gallon</dd></div><div><dt>Flavor</dt><dd>Like melted vanilla ice cream</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> PureWow&#x27;s top pick: creamy and custardy, with gentle nutmeg, and a half gallon costs under $6, so it&#x27;s the one to fill a punch bowl.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Daily Meal ranked it 10th: too sweet and short on spice. Dust it with fresh nutmeg.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Hood+Golden+Eggnog" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://hood.com/products/golden-eggnog/" target="_blank" rel="noopener">See it at Hood</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.purewow.com/food/best-eggnog" target="_blank" rel="noopener">PureWow</a>; <a href="https://www.thedailymeal.com/1466771/store-bought-egg-nogs-ranked/" target="_blank" rel="noopener">Daily Meal</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +55,7 @@ Eggnog tests disagree more than most: one site's winner is another's tenth place
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#3 of 13 at Daily Meal</dd></div><div><dt>Score</dt><dd>90/100 at PureWow</dd></div><div><dt>Alcohol</dt><dd>None (mix your own)</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick, silky and sweet with vanilla and nutmeg; the extra sweetness smooths out whiskey, rum or brandy in a spiked nog.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Tasting Table ranked it 10th for corn syrup and artificial flavors.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Southern+Comfort+Vanilla+Spice+eggnog" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.kroger.com/search?query=southern%20comfort%20eggnog" target="_blank" rel="noopener">See it at Kroger</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.thedailymeal.com/1466771/store-bought-egg-nogs-ranked/" target="_blank" rel="noopener">Daily Meal</a>; <a href="https://www.purewow.com/food/best-eggnog" target="_blank" rel="noopener">PureWow</a>; <a href="https://www.tastingtable.com/1462701/store-bought-eggnog-brands-ranked/" target="_blank" rel="noopener">Tasting Table</a>.</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -79,7 +79,7 @@ Eggnog tests disagree more than most: one site's winner is another's tenth place
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#3 of 13 at Tasting Table</dd></div><div><dt>Score</dt><dd>91/100 at PureWow</dd></div><div><dt>Free of</dt><dd>Dairy, eggs, nuts</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Creamy, lightly spiced and nut-free; Tasting Table said even dairy drinkers might buy it again.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thinner than real eggnog and tastes a little like sweet oatmeal.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Chobani+oat+nog" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.kroger.com/search?query=chobani%20oat%20nog" target="_blank" rel="noopener">See it at Kroger</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.tastingtable.com/1462701/store-bought-eggnog-brands-ranked/" target="_blank" rel="noopener">Tasting Table</a>; <a href="https://www.purewow.com/food/best-eggnog" target="_blank" rel="noopener">PureWow</a>.</p></details>
 </article>
 </div>

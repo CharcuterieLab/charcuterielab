@@ -2,7 +2,7 @@
 title: "The Best Kielbasa Brands for a Game-Day Board"
 seo_title: "Best Kielbasa Brands (2026): 3 Taste Tests Compared"
 date: "2026-11-03"
-updated: "2026-11-03"
+updated: "2026-11-08"
 image: "/images/best-kielbasa.jpg"
 excerpt: "The best kielbasa brands from three taste tests: Slotkowski (every Allrecipes taster's favorite), Wellshire Farms (America's Test Kitchen's winner), Kroger Polska (Sporked's best), Nature's Rancher, Wisconsin's Klement's for slicing and Hillshire Farm turkey kielbasa, plus how to serve kielbasa on a game-day board."
 description: "The best kielbasa brands from three taste tests: Slotkowski (every Allrecipes taster's favorite), Wellshire Farms (America's Test Kitchen's winner), Kroger Polska (Sporked's best), Nature's Rancher, Wisconsin's Klement's for slicing and Hillshire Farm turkey kielbasa, plus how to serve kielbasa on a game-day board."
@@ -16,7 +16,7 @@ tags: "["best kielbasa", "best kielbasa brand", "best polish sausage", "kroger p
 > **Quick Answer:** Best snap: **Slotkowski** (every taster's favorite at Allrecipes). Test-kitchen winner: **Wellshire Farms Smoked Polska Kielbasa**. Best store brand: **Kroger Polska Kielbasa** (9/10 at Sporked). For a lighter board: **Hillshire Farm Turkey Polska**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Slotkowski Polish Sausage</a><p class="sk-top-line">Every Allrecipes taster&#x27;s #1</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Slotkowski+polish+sausage" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Test-kitchen winner</p><a class="sk-top-name" href="#pick-2">Wellshire Farms Smoked Polska Kielbasa</a><p class="sk-top-line">ATK&#x27;s top pick</p></div><div class="sk-top-buy"><span class="sk-price">About $5 for 14 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Wellshire+Farms+smoked+polska+kielbasa" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best store brand</p><a class="sk-top-name" href="#pick-3">Kroger Polska Kielbasa</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Store-brand prices</span><a class="button sk-buy-sm" href="https://www.kroger.com/search?query=kroger%20polska%20kielbasa" target="_blank" rel="noopener">See it at Kroger</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Slotkowski Polish Sausage</a><p class="sk-top-line">Every Allrecipes taster&#x27;s #1</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.jewelosco.com/shop/product-details.960442787.html" target="_blank" rel="noopener">See it at Jewel-Osco</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Test-kitchen winner</p><a class="sk-top-name" href="#pick-2">Wellshire Farms Smoked Polska Kielbasa</a><p class="sk-top-line">ATK&#x27;s top pick</p></div><div class="sk-top-buy"><span class="sk-price">About $6 for 12 oz</span><a class="button sk-buy-sm" href="https://www.wholefoodsmarket.com/search?text=wellshire%20kielbasa" target="_blank" rel="noopener">See it at Whole Foods</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best store brand</p><a class="sk-top-name" href="#pick-3">Kroger Polska Kielbasa</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Store-brand prices</span><a class="button sk-buy-sm" href="https://www.kroger.com/search?query=kroger%20polska%20kielbasa" target="_blank" rel="noopener">See it at Kroger</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">Kielbasa on a board</a><a href="#kielbasa-questions">FAQ</a></nav>
 :::
 
@@ -31,15 +31,15 @@ Smoked kielbasa is the easiest hot item on a game-day board: slice, sear, add to
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#1 of 7 at Allrecipes</dd></div><div><dt>Texture</dt><dd>Snappy casing, coarse grind</dd></div><div><dt>From</dt><dd>Chicago</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Every taster in Allrecipes&#x27; blind test ranked it first: a crisp, snappy casing, a good coarse grind and mild, well-balanced spice. It held its shape when cooked.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly sold in the Midwest.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Slotkowski+polish+sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.jewelosco.com/shop/product-details.960442787.html" target="_blank" rel="noopener">See it at Jewel-Osco</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Allrecipes' blind tasting (<a href="https://www.aol.com/tried-7-kielbasa-brands-one-100000675.html" target="_blank" rel="noopener">Allrecipes</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Test-kitchen winner</p><h3>Wellshire Farms Smoked Polska Kielbasa</h3></div></div>
-<dl class="sk-facts"><div><dt>Won</dt><dd>ATK, 6 smoked brands</dd></div><div><dt>Meat</dt><dd>All beef</dd></div><div><dt>Flavor</dt><dd>Garlicky, smoky</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> America&#x27;s Test Kitchen&#x27;s winner: a good balance of garlic and salt with real smoke flavor, and the coarse texture and snap ATK looked for.</p>
-<p class="sk-mind"><strong>Watch out:</strong> All beef, so less juicy than pork kielbasa. ATK&#x27;s test is older; prices have risen.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Wellshire+Farms+smoked+polska+kielbasa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<dl class="sk-facts"><div><dt>Won</dt><dd>ATK, 6 smoked brands</dd></div><div><dt>Meat</dt><dd>All pork</dd></div><div><dt>Flavor</dt><dd>Deeply smoked, garlicky</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> America&#x27;s Test Kitchen&#x27;s winner: deeply smoked and garlicky, made from coarsely chopped pork with the snap ATK looked for. It also had the most protein and the least fat and sodium in the test.</p>
+<p class="sk-mind"><strong>Watch out:</strong> The priciest kielbasa in ATK&#x27;s test, and that test is older, so prices have risen.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.wholefoodsmarket.com/search?text=wellshire%20kielbasa" target="_blank" rel="noopener">See it at Whole Foods</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>ATK's taste test and price at testing (<a href="https://cooksillustrated.com/taste_tests/594-kielbasa" target="_blank" rel="noopener">America’s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -55,7 +55,7 @@ Smoked kielbasa is the easiest hot item on a game-day board: slice, sear, add to
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#2 of 7 at Allrecipes</dd></div><div><dt>Heat</dt><dd>A little kick</dd></div><div><dt>Texture</dt><dd>Snappy, coarse grind</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A snappy casing, a chewy coarse grind and a bit of heat that tasters liked, without too much salt.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The most expensive kielbasa in the test.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Nature&#x27;s+Rancher+polska+kielbasa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.wholefoodsmarket.com/grocery/product/nature-s-rancher-natures-rancher-pork-sausage-kielbasa-uncured-smoked-step-1-12-ounce-b099g2xl2x" target="_blank" rel="noopener">See it at Whole Foods</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Allrecipes' blind tasting (<a href="https://www.aol.com/tried-7-kielbasa-brands-one-100000675.html" target="_blank" rel="noopener">Allrecipes</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ Smoked kielbasa is the easiest hot item on a game-day board: slice, sear, add to
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#3 of 7 at Allrecipes</dd></div><div><dt>Shape</dt><dd>Wide diameter</dd></div><div><dt>From</dt><dd>Milwaukee</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A wide sausage that cuts into big, even coins for a board, with a crisp casing and mild seasoning that lets the pork come through.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Slightly spongy inside compared with the top two.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Klement&#x27;s+polish+sausage" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.kroger.com/search?query=klement%27s%20polish%20sausage" target="_blank" rel="noopener">See it at Kroger</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Allrecipes' blind tasting (<a href="https://www.aol.com/tried-7-kielbasa-brands-one-100000675.html" target="_blank" rel="noopener">Allrecipes</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
@@ -71,7 +71,7 @@ Smoked kielbasa is the easiest hot item on a game-day board: slice, sear, add to
 <dl class="sk-facts"><div><dt>Won</dt><dd>Sporked&#x27;s turkey sausage test</dd></div><div><dt>Meat</dt><dd>Turkey</dd></div><div><dt>Where</dt><dd>Nearly every grocery store</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s best of the best among turkey sausages: juicy and supple, a lighter option that&#x27;s easy to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hillshire&#x27;s regular pork kielbasa placed 6th of 7 at Allrecipes as salty and one-note.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Hillshire+Farm+turkey+polska+kielbasa" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.hillshirefarm.com/products/smoked-sausages/00044500341720" target="_blank" rel="noopener">See it at Hillshire Farm</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://sporked.com/article/best-turkey-sausage/" target="_blank" rel="noopener">Sporked</a>; <a href="https://www.aol.com/tried-7-kielbasa-brands-one-100000675.html" target="_blank" rel="noopener">Allrecipes</a>.</p></details>
 </article>
 </div>

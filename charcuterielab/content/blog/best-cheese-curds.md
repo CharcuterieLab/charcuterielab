@@ -2,7 +2,7 @@
 title: "The Best Cheese Curds for a Charcuterie Board"
 seo_title: "Best Cheese Curds (2026): Aldi, Award Winners + Wisconsin Picks"
 date: "2026-11-03"
-updated: "2026-11-03"
+updated: "2026-11-08"
 image: "/images/best-cheese-curds.jpg"
 excerpt: "The best cheese curds to buy: Aldi's Happy Farms white cheddar curds (Sporked's 9/10), World Championship winners Decatur Dairy and Ellsworth Cooperative Creamery, Wisconsin's Arena Cheese, Aldi garlic curds, Beehive Hatch chile curds and Kroger breaded curds, plus how to keep curds squeaky and serve them on a board."
 description: "The best cheese curds to buy: Aldi's Happy Farms white cheddar curds (Sporked's 9/10), World Championship winners Decatur Dairy and Ellsworth Cooperative Creamery, Wisconsin's Arena Cheese, Aldi garlic curds, Beehive Hatch chile curds and Kroger breaded curds, plus how to keep curds squeaky and serve them on a board."
@@ -16,7 +16,7 @@ tags: "["best cheese curds", "cheese curds brand", "wisconsin cheese curds", "al
 > **Quick Answer:** At the supermarket: **Happy Farms White Cheddar Curds** from Aldi (Sporked's 9/10, beat Cabot). World champions: **Decatur Dairy Muenster curds** and **Ellsworth Cooperative Creamery** flavored curds. Hot appetizer: **Kroger Breaded Curds**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best at the supermarket</p><a class="sk-top-name" href="#pick-1">Happy Farms White Cheddar Cheese Curds (Aldi)</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Aldi price</span><a class="button sk-buy-sm" href="https://www.aldi.us/results?q=cheese%20curds" target="_blank" rel="noopener">See it at Aldi</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-2">Decatur Dairy Muenster Cheese Curds</a><p class="sk-top-line">World champion, unflavored curds</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Decatur+Dairy+cheese+curds" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best flavored</p><a class="sk-top-name" href="#pick-3">Ellsworth Cooperative Creamery Curds</a><p class="sk-top-line">World champion, flavored curds</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/s?k=Ellsworth+cheese+curds" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best at the supermarket</p><a class="sk-top-name" href="#pick-1">Happy Farms White Cheddar Cheese Curds (Aldi)</a><p class="sk-top-line">9/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Aldi price</span><a class="button sk-buy-sm" href="https://www.aldi.us/results?q=cheese%20curds" target="_blank" rel="noopener">See it at Aldi</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-2">Decatur Dairy Muenster Cheese Curds</a><p class="sk-top-line">World champion, unflavored curds</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://decaturdairy.com/shop/" target="_blank" rel="noopener">Order from Decatur Dairy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best flavored</p><a class="sk-top-name" href="#pick-3">Ellsworth Cooperative Creamery Curds</a><p class="sk-top-line">World champion, flavored curds</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.ellsworthcheese.com/" target="_blank" rel="noopener">See it at Ellsworth</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7 picks</a><a href="#how-to-choose">Keep them squeaky</a><a href="#cheese-curds-questions">FAQ</a></nav>
 :::
 
@@ -37,17 +37,17 @@ Cheese curds are Wisconsin's board cheese: mild, salty, springy and squeaky when
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best overall</p><h3>Decatur Dairy Muenster Cheese Curds</h3></div></div>
 <dl class="sk-facts"><div><dt>Won</dt><dd>1st, 2022 World Championship</dd></div><div><dt>Style</dt><dd>Muenster curds</dd></div><div><dt>From</dt><dd>Brodhead, Wisconsin</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Won the first-ever unflavored cheese curd class at the 2022 World Championship Cheese Contest: squeaky, salty, clean and mild.</p>
+<p class="sk-why"><strong>Why it's here:</strong> Won the first-ever unflavored cheese curd class at the 2022 World Championship Cheese Contest: squeaky, salty, clean and mild. It won again in 2026, taking Best of Class in the open curd class with its Oaxaca curd and third with the Muenster.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mostly sold in Wisconsin and by mail order.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Decatur+Dairy+cheese+curds" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Contest results (<a href="https://www.aol.com/news/best-cheese-curds-world-made-115042603.html" target="_blank" rel="noopener">Green Bay Press-Gazette</a>).</p></details>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://decaturdairy.com/shop/" target="_blank" rel="noopener">Order from Decatur Dairy</a></div>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Contest results (<a href="https://www.aol.com/news/best-cheese-curds-world-made-115042603.html" target="_blank" rel="noopener">Green Bay Press-Gazette</a>); 2026 results (<a href="https://www.wisconsincheese.com/our-cheese/award-winners" target="_blank" rel="noopener">Wisconsin Cheese</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best flavored</p><h3>Ellsworth Cooperative Creamery Curds</h3></div></div>
 <dl class="sk-facts"><div><dt>Won</dt><dd>1st, flavored class, 2022</dd></div><div><dt>Flavors</dt><dd>Hickory bacon, hot Buffalo</dd></div><div><dt>From</dt><dd>Ellsworth, Wisconsin</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Ellsworth&#x27;s hickory bacon curds won the flavored class at the 2022 World Championship, and its hot Buffalo curds also placed.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Flavored curds compete with the meats; one flavored bowl per board.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Ellsworth+cheese+curds" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.ellsworthcheese.com/" target="_blank" rel="noopener">See it at Ellsworth</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Contest results (<a href="https://www.aol.com/news/best-cheese-curds-world-made-115042603.html" target="_blank" rel="noopener">Green Bay Press-Gazette</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +55,7 @@ Cheese curds are Wisconsin's board cheese: mild, salty, springy and squeaky when
 <dl class="sk-facts"><div><dt>Placed</dt><dd>Top 3, unflavored, 2022</dd></div><div><dt>Style</dt><dd>Cheddar curds</dd></div><div><dt>From</dt><dd>Arena, Wisconsin</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A Wisconsin creamery that placed in the unflavored class alongside Decatur Dairy and Nasonville Dairy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Regional; look in Wisconsin grocery stores or order online.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/s?k=Arena+cheese+curds+Wisconsin" target="_blank" rel="noopener">Check price on Amazon</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.arenacheese.com/" target="_blank" rel="noopener">See it at Arena Cheese</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Contest results (<a href="https://www.aol.com/news/best-cheese-curds-world-made-115042603.html" target="_blank" rel="noopener">Green Bay Press-Gazette</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
