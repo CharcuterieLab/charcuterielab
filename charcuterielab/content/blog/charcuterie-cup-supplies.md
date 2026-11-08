@@ -33,7 +33,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best cups</p><h3>Amazon Basics 9 oz Clear Plastic Cups</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>9 oz</dd></div><div><dt>Count</dt><dd>100</dd></div><div><dt>Rating</dt><dd>4.7 stars, 8,000+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>9 oz</dd></div><div><dt>Count</dt><dd>100</dd></div><div><dt>Reviews</dt><dd>Highly rated, thousands of reviews</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Foxes Love Lemons calls 9 oz clear cups the perfect size, and The Carefree Kitchen says 9 to 12 oz gives skewers enough height. Clear plastic shows off the layers.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Thin cups can tip once skewers go in; weight the bottom with cheese cubes and nuts first.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0D6SJWPHL" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -41,7 +41,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best rustic</p><h3>Kraft Paper Charcuterie Cups (12 oz)</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Count</dt><dd>50</dd></div><div><dt>Rating</dt><dd>4.8 stars, 2,300+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Count</dt><dd>50</dd></div><div><dt>Reviews</dt><dd>Highly rated, thousands of reviews</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Lil&#x27; Luna uses kraft paper cups for a rustic, less-plasticky look that suits weddings and showers.</p>
 <p class="sk-mind"><strong>Watch out:</strong> You can&#x27;t see the layers, so build the top tall and colorful.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09G68MJTK" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -49,7 +49,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best skewers</p><h3>Flat Bamboo Paddle Picks (4.7 in, 300-pack)</h3></div></div>
-<dl class="sk-facts"><div><dt>Length</dt><dd>4.7 in</dd></div><div><dt>Per cup</dt><dd>1 to 3</dd></div><div><dt>Rating</dt><dd>4.8 stars, 1,700+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Length</dt><dd>4.7 in</dd></div><div><dt>Per cup</dt><dd>1 to 3</dd></div><div><dt>Reviews</dt><dd>Highly rated, thousands of reviews</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Flat-topped paddle picks look neat and are easy to grab; Lil&#x27; Luna uses them, and Erhardts Eat says about 4-inch picks fit 9 oz cups.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Match the length to the cup: picks should stand about 2 inches above the rim.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0C5D5CWKH" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -57,7 +57,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best for selling and travel</p><h3>12 oz Clear Cups with Dome Lids (100-pack)</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz with dome lid</dd></div><div><dt>Count</dt><dd>100 sets</dd></div><div><dt>Rating</dt><dd>4.3 stars, 600+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz with dome lid</dd></div><div><dt>Count</dt><dd>100 sets</dd></div><div><dt>Reviews</dt><dd>Highly rated</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Domed lids clear the skewers, so cups can be built ahead, stacked in a cooler and carried to a party, or sold at a market.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Check that the dome is tall enough for your picks before buying in bulk.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0GS1WV7TP" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -65,7 +65,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best for grazing tables</p><h3>Bryco Goods Brown Butcher Paper (24 in x 175 ft)</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>24 in x 175 ft</dd></div><div><dt>Food-safe</dt><dd>Unbleached, uncoated, unwaxed</dd></div><div><dt>Rating</dt><dd>4.7 stars, 6,000+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>24 in x 175 ft</dd></div><div><dt>Food-safe</dt><dd>Unbleached, uncoated, unwaxed</dd></div><div><dt>Reviews</dt><dd>Highly rated, thousands of reviews</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Grazing tables are built straight on paper: roll it down the table, build the spread on top, and roll it up afterward. Kraft brown hides grease best.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Buy food-grade, uncoated butcher paper, not craft paper.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07K4BLZT7" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -73,7 +73,7 @@ Charcuterie cups are the easiest way to serve a board to a crowd: no plates, no 
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best value per cup</p><h3>Paper French Fry Cups (12 oz, 100-pack)</h3></div></div>
-<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Count</dt><dd>100</dd></div><div><dt>Rating</dt><dd>4.8 stars, 700+ ratings</dd></div></dl>
+<dl class="sk-facts"><div><dt>Size</dt><dd>12 oz</dd></div><div><dt>Count</dt><dd>100</dd></div><div><dt>Reviews</dt><dd>Highly rated</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Feast and West builds charcuterie cups in French fry cups: cheap, sturdy and tall enough to hold skewers upright.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The open front shows off the food but spills if tipped; set them in a tray.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09R1386DG" target="_blank" rel="noopener">Check price on Amazon</a></div>
@@ -111,7 +111,7 @@ Food-grade, uncoated butcher paper, white or kraft brown, 18 to 24 inches wide.
 Clear dome cups with lids, labels with ingredients and allergens, and a cooler. Check your local cottage food rules first.
 
 :::html
-<details class="sk-method"><summary>How we picked these, and sources</summary><p>This is an unscored buyer's guide based on the cups, picks and sizes that recipe developers use for charcuterie cups (Foxes Love Lemons, The Carefree Kitchen, Erhardts Eat, Lil' Luna, Feast and West and Spend With Pennies) plus restaurant-supply listings. Where no recipe names a brand, we chose the best-rated, most-reviewed Amazon listing (ratings and prices checked November 3, 2026). Checked November 3, 2026.</p><ul class="sk-src"><li><a href="https://foxeslovelemons.com/charcuterie-party-cups" target="_blank" rel="noopener">Foxes Love Lemons: charcuterie party cups (9 oz cups, skewers per cup)</a></li><li><a href="https://thecarefreekitchen.com/?p=37934" target="_blank" rel="noopener">The Carefree Kitchen: mini charcuterie cups (9 to 12 oz cups)</a></li><li><a href="https://erhardtseat.com/charcuterie-cups/" target="_blank" rel="noopener">Erhardts Eat: individual charcuterie cups (4-inch picks)</a></li><li><a href="https://lilluna.com/charcuterie-cups/" target="_blank" rel="noopener">Lil&#x27; Luna: charcuterie cups (kraft cups, bamboo paddle picks)</a></li><li><a href="https://feastandwest.com/charcuterie-cups/" target="_blank" rel="noopener">Feast and West: charcuterie cups in French fry cups</a></li><li><a href="https://www.spendwithpennies.com/charcuterie-cups/" target="_blank" rel="noopener">Spend With Pennies: charcuterie cups (make up to a day ahead)</a></li><li><a href="https://www.katom.com/cat/charcuterie-board-supplies.html" target="_blank" rel="noopener">KaTom: charcuterie board supplies (ramekins, picks, butcher paper)</a></li></ul><img src="/images/charcuterie-cup-supplies-ranking.webp" alt="The Best Charcuterie Cup and Grazing Table Supplies, buyer&#x27;s guide" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin"></details>
+<details class="sk-method"><summary>How we picked these, and sources</summary><p>This is an unscored buyer's guide based on the cups, picks and sizes that recipe developers use for charcuterie cups (Foxes Love Lemons, The Carefree Kitchen, Erhardts Eat, Lil' Luna, Feast and West and Spend With Pennies) plus restaurant-supply listings. Where no recipe names a brand, we chose the best-rated, most-reviewed Amazon listing (prices checked November 3, 2026). Checked November 3, 2026.</p><ul class="sk-src"><li><a href="https://foxeslovelemons.com/charcuterie-party-cups" target="_blank" rel="noopener">Foxes Love Lemons: charcuterie party cups (9 oz cups, skewers per cup)</a></li><li><a href="https://thecarefreekitchen.com/?p=37934" target="_blank" rel="noopener">The Carefree Kitchen: mini charcuterie cups (9 to 12 oz cups)</a></li><li><a href="https://erhardtseat.com/charcuterie-cups/" target="_blank" rel="noopener">Erhardts Eat: individual charcuterie cups (4-inch picks)</a></li><li><a href="https://lilluna.com/charcuterie-cups/" target="_blank" rel="noopener">Lil&#x27; Luna: charcuterie cups (kraft cups, bamboo paddle picks)</a></li><li><a href="https://feastandwest.com/charcuterie-cups/" target="_blank" rel="noopener">Feast and West: charcuterie cups in French fry cups</a></li><li><a href="https://www.spendwithpennies.com/charcuterie-cups/" target="_blank" rel="noopener">Spend With Pennies: charcuterie cups (make up to a day ahead)</a></li><li><a href="https://www.katom.com/cat/charcuterie-board-supplies.html" target="_blank" rel="noopener">KaTom: charcuterie board supplies (ramekins, picks, butcher paper)</a></li></ul><img src="/images/charcuterie-cup-supplies-ranking.webp" alt="The Best Charcuterie Cup and Grazing Table Supplies, buyer&#x27;s guide" width="1000" height="1500" loading="lazy" decoding="async" class="sk-pin"></details>
 :::
 
 Need ideas for what to put inside? See [mini charcuterie boards](/blog/mini-charcuterie-board/). Every guide is on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.

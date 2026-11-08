@@ -49,11 +49,11 @@ We read the testers and thousands of buyer reviews so you can skip the scroll. S
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best for small parties</p><h3>ChefSofi Round Charcuterie Board Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Wood</dt><dd>Acacia</dd></div><div><dt>Size</dt><dd>13 in round</dd></div><div><dt>Rating</dt><dd>4.8 / 5 from about 6,000 reviews (2022)</dd></div></dl>
+<dl class="sk-facts"><div><dt>Wood</dt><dd>Acacia</dd></div><div><dt>Size</dt><dd>13 in round</dd></div><div><dt>Rating</dt><dd>Highly rated, thousands of reviews</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> A compact acacia round with four knives that swing out from the side and four bowls that nest in the top: tidy for four to six people.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small for a crowd; Reviewed&#x27;s main complaint is the size.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07T73WZS6" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Tasting Table (<a href="https://www.tastingtable.com/1798048/best-charcuterie-boards-reviews" target="_blank" rel="noopener">Tasting Table</a>); rating from a 2022 Scripps roundup (<a href="https://www.news5cleveland.com/cheese-board-set-parties-sale-right-now-amazon" target="_blank" rel="noopener">Scripps</a>); Reviewed (<a href="https://reviewed.com/cooking/best-right-now/best-charcuterie-boards" target="_blank" rel="noopener">Reviewed</a>).</p></details>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Tasting Table (<a href="https://www.tastingtable.com/1798048/best-charcuterie-boards-reviews" target="_blank" rel="noopener">Tasting Table</a>); a 2022 Scripps roundup (<a href="https://www.news5cleveland.com/cheese-board-set-parties-sale-right-now-amazon" target="_blank" rel="noopener">Scripps</a>); Reviewed (<a href="https://reviewed.com/cooking/best-right-now/best-charcuterie-boards" target="_blank" rel="noopener">Reviewed</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best for carrying</p><h3>Farberware Build-a-Board with Locking Lid</h3></div></div>

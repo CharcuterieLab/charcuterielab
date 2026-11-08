@@ -32,7 +32,7 @@ Plastic wrap traps moisture and cheese molds first; cheese needs a wrap that bre
 <p class="sk-why"><strong>Why it's here:</strong> Two-ply paper lets cheese breathe while holding in some moisture, and each bag has a spot to write the cheese and date.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very soft cheeses get messy, and America&#x27;s Test Kitchen found cheese paper added only a few days over parchment and foil.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00BEDW76W" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food Network lists the 15-pack and its 4.5-star Amazon rating (<a href="https://www.foodnetwork.com/fn-dish/shopping/01/these-storage-containers-changed-my-life" target="_blank" rel="noopener">Food Network</a>); sizes from Formaticum (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Food Network lists the 15-pack (<a href="https://www.foodnetwork.com/fn-dish/shopping/01/these-storage-containers-changed-my-life" target="_blank" rel="noopener">Food Network</a>); sizes from Formaticum (<a href="https://www.formaticum.com/pages/faq" target="_blank" rel="noopener">Formaticum</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best for wedges</p><h3>Formaticum Cheese Storage Sheets</h3></div></div>

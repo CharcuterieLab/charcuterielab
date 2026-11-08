@@ -53,15 +53,15 @@ A slicer pays for itself fast if you buy whole salami, soppressata, prosciutto e
 <p class="sk-why"><strong>Why it's here:</strong> The pick if you slice whole salami, holiday hams or big blocks of cheese often: a larger blade, more power and a heavy base that doesn&#x27;t walk across the counter. Food &amp; Wine named it the best splurge.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Big and heavy; it needs a permanent spot on the counter. Hand-wash only.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01AQH636Q" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.yahoo.com/lifestyle/5-best-meat-slicers-safe-143413494.html" target="_blank" rel="noopener">Food &amp; Wine</a>; price from the Amazon listing (4.6 stars, 3,300+ ratings).</p></details>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p><a href="https://www.yahoo.com/lifestyle/5-best-meat-slicers-safe-143413494.html" target="_blank" rel="noopener">Food &amp; Wine</a>; price from the Amazon listing.</p></details>
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Most-reviewed on Amazon</p><h3>OSTBA 200W Electric Meat Slicer</h3></div></div>
 <dl class="sk-facts"><div><dt>Blade</dt><dd>7.5 in stainless</dd></div><div><dt>Motor</dt><dd>200W</dd></div><div><dt>Safety</dt><dd>Two-button start, child lock</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The most-reviewed home slicer on Amazon, with more than 11,000 ratings averaging 4.3 stars. It slices from very thin to about 3/4 inch, and you have to press a safety lock and the power button together to start it.</p>
+<p class="sk-why"><strong>Why it's here:</strong> The most-reviewed home slicer on Amazon. It slices from very thin to about 3/4 inch, and you have to press a safety lock and the power button together to start it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> We haven&#x27;t found an independent test of it; the reviews are from buyers, not testers.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07TSDQB33" target="_blank" rel="noopener">Check price on Amazon</a></div>
-<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Specs, price and ratings from the Amazon listing, checked November 3, 2026.</p></details>
+<details class="sk-more"><summary>Why we picked it (sources)</summary><p>Specs and price from the Amazon listing, checked November 3, 2026.</p></details>
 </article>
 </div>
 :::
