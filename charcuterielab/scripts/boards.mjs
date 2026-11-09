@@ -470,7 +470,9 @@ function bookOffer(h, board) {
   }
   const bb = bookBoardOf(h, board);
   if (bb && h.bookCard) {
-    return h.bookCard(bb, `board_${board.slug}`, { lead: `This board is in the book, with the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` }).replace('<aside class="fx-book"', '<aside id="bl-book-title" class="fx-book"');
+    return h.bookCard(bb, `board_${board.slug}`, { lead: `This board is in the book, with the full plan: the exact shopping list with amounts and prices, the 7-step build with where every item goes and why, and a swap for every ingredient. Plus 49 more boards.` }).replace('<aside class="fx-book"', '<aside id="bl-book-title" class="fx-book"')
+      // Fewer buttons (8 Nov 2026): the $3 plan already has its button at the top and under the list, so the book card sells just the book.
+      .replace(/<p class="fx-single">[\s\S]*?<\/p>/g, "");
   }
   return `<section class="bl-book" aria-labelledby="bl-book-title">
       <img src="${(h.thumb || ((x) => x))("/images/book-cover.jpg", "s")}" alt="" width="160" height="207" loading="lazy" decoding="async">
@@ -605,7 +607,6 @@ function planPoints(b, steps) {
 function planBox(h, b, single) {
   const steps = b.timeline.length;
   const look = h.planLook ? h.planLook(b) : "";
-  const href = h.withTracking ? h.withTracking(single.url, `board_plan_${b.slug}`) : single.url;
   return `<section class="bl-section bl-plan" aria-labelledby="bl-plan-title">
       <div class="bl-plan-inner">
         ${look ? `<img class="bl-plan-look" src="${h.escapeHtml(look)}" alt="A page from the ${h.escapeHtml(b.h1)} plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
@@ -616,7 +617,7 @@ function planBox(h, b, single) {
           <ul class="bl-plan-list">
             ${planPoints(b, steps).map((x) => `<li>${h.escapeHtml(x)}</li>`).join("\n            ")}
           </ul>
-          <p class="bl-cta-row"><a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the plan · ${h.escapeHtml(single.price)}</a><span>Instant download · 30-day refund</span></p>
+          <p class="bl-cta-row bl-cta-quiet"><span>${h.escapeHtml(single.price)} · instant download · 30-day refund</span> ${(b.groups || []).some((g) => g.items && g.items.length) ? `<a href="#bl-on">See everything on the board &darr;</a>` : ""}</p>
         </div>
       </div>
     </section>`;

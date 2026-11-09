@@ -15,6 +15,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bhForm, CHEAT_IMG } from "./funnel.mjs";
+import { CHEAT, QS_JS, qsForm } from "./quick-subscribe.mjs";
 
 const MEAT = /salami|best-pate|pate-de-campagne|rillettes|pepperoni|soppressata|saucisson|prosciutto|coppa|capicola|bresaola|chorizo|nduja|mortadella|finocchiona|speck|pancetta|cured-meat|best-meats|meat-lover|jamon|lomo|fuet|culatello|guanciale|summer-sausage|rosette|landjager|cured meat/;
 const CHEESE = /cheese|pepper-jack|brie|cheddar|gouda|manchego|parmesan|parmigiano|gorgonzola|stilton|chevre|feta|gruyere|camembert|comte|taleggio|burrata|mozzarella|stracciatella|havarti|roquefort|boursin|halloumi|ricotta|mascarpone|epoisses|fontina|pecorino|asiago|raclette|reblochon|mimolette|jarlsberg|emmental|provolone|blue-cheese|bleu|triple-creme|mahon|idiazabal|morbier|muenster|edam|cotija|labneh|grana/;
@@ -297,8 +298,19 @@ export function makeOffers(h, products, books) {
     <p class="fx-hi-title">${esc(fb ? fb.title : "The Charcuterie Cheat Sheet")}</p>
     <p class="fx-hi-line">${esc(fb ? fb.line : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.")}</p>
   </div>
-  ${bhForm("lead-hi", campaign, fb ? { label: fb.label, pdf: fb.pdf } : null)}
-</aside>`;
+  <div class="fx-bh-form fx-qf" id="lead-hi" data-campaign="${esc(campaign)}">
+  ${qsForm({ id: "qs-hi", fb: fb || CHEAT, bookPrice: books.main && books.main.price, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+  </div>
+</aside>
+${QS_JS}`;
+  }
+  // One quiet line under the email box (8 Nov 2026): the page's matched
+  // product, linked to its own page rather than straight to checkout.
+  function productLine(ctx) {
+    const o = pick(ctx);
+    const page = o.type === "printable" ? `/printables/${o.slug}/` : o.type === "ebook" ? o.page : "";
+    if (!page) return "";
+    return `<p class="fx-line"><span>${esc(o.lead)}</span> <a href="${esc(page)}">${esc(o.title)}</a> <em>${esc(o.price)} &middot; ${o.type === "ebook" ? "ebook" : o.bundle ? "printable pack" : "printable PDF"}</em></p>`;
   }
 
   // Where the email box and paid card go: after the quick answer.
@@ -418,13 +430,14 @@ export function makeOffers(h, products, books) {
             // Newsletter first (12 Oct 2026): only the email box goes high. The
             // paid card moves two sections further down; pages whose article
             // already ends with the same product (.fx-print) skip it.
-            const hiBox = emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path, ctx));
+            const line = !isPlan(path) && /^\/(blog|ingredients)\//.test(path) ? productLine(ctx) : "";
+            const hiBox = emailHigh(`cheat_hi_${campaign.slice(4)}`, html.includes("cl-extra") ? null : freebieFor(path, ctx)) + (line ? "\n" + line : "");
             if (isPlan(path)) {
               // Party-planning page: the paid card goes straight under the email box.
               html = html.slice(0, at) + "\n" + hiBox + "\n" + inCard.replace('class="fx-top fx-in"', 'class="fx-top fx-in fx-near"') + "\n" + html.slice(at);
               near++;
             } else html = html.slice(0, at) + "\n" + hiBox + "\n" + html.slice(at);
-            if (!isPlan(path) && !/<aside class="fx-print/.test(html)) {
+            if (!isPlan(path) && !line && !/<aside class="fx-print/.test(html)) {
               const from = at + hiBox.length + 2;
               const h2a = html.indexOf("<h2", from);
               const h2b = h2a >= 0 ? html.indexOf("<h2", h2a + 3) : -1;
@@ -505,6 +518,10 @@ export function makeOffers(h, products, books) {
           const hasSlide = !/^\/(party-planner|board-builder)\//.test(path) && path !== "/";
           if (hasSlide) html = html.replace(/<\/main>/, `${slideIn(`slide_${campaign.slice(4)}`, html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
           if (!hasSlide) html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId), html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
+          {
+            const fb = freebieFor(path, ctx);
+            if (fb && !html.includes('id="lead-hi"')) html = html.replace(/<\/main>/, `<!--qs-fb:${encodeURIComponent(JSON.stringify({ title: fb.title, short: fb.short, label: fb.label, pdf: fb.pdf }))}-->\n</main>`);
+          }
           await writeFile(file, html);
           n++;
           const key = (card.match(/data-offer="([^"]*)"/) || [])[1] || "?";

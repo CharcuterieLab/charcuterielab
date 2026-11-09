@@ -1,0 +1,30 @@
+/* Will subscribe / will buy, calmly (8 Nov 2026) */
+/* The email box under the quick answer: its form and the panel that replaces it. */
+.fx-hi .fx-qf .qs { max-width: none; margin: 4px 0 0; }
+.fx-hi .fx-qf form.qs p.qs-note { color: #5a4636; white-space: normal; }
+.qs-wrap[hidden] { display: none; }
+.qs-done { margin: 8px 0 0; padding: 12px 14px; border-radius: 12px; background: #fff; border: 1px solid rgba(46, 139, 71, 0.35); font-family: var(--sans); color: var(--ink); max-width: 560px; }
+.qs-done[hidden] { display: none; }
+.qs-done p { margin: 0; }
+.qs-done-h { font-weight: 800; font-size: 15px; color: #2e7a42; margin-bottom: 8px !important; }
+.qs-done-sub { display: none; }
+.qs-done.is-sub .qs-done-new { display: none; }
+.qs-done.is-sub .qs-done-sub { display: inline; }
+.qs-done .qs-done-dl { display: inline-block; margin: 0 0 8px; }
+.qs-done-more, .qs-done-next { font-size: 14px; line-height: 1.45; color: #5a4636; }
+.qs-done-next { margin-top: 6px !important; padding-top: 6px; border-top: 1px solid rgba(169, 87, 43, 0.14); }
+.qs-done a:not(.button) { color: var(--green-deep); font-weight: 700; }
+.qs-wrap .qs-done { margin: 10px 0 16px; }
+/* One quiet product line under the email box. */
+p.fx-line { display: block; max-width: 560px; margin: -4px 0 18px; padding: 0 4px; font-family: var(--sans) !important; font-size: 14.5px !important; line-height: 1.5 !important; color: #5a4636; }
+p.fx-line span { font-weight: 700; color: var(--ink); margin-right: 4px; }
+p.fx-line a { font-weight: 700; color: var(--green-deep); }
+p.fx-line em { font-style: normal; font-size: 13px; color: var(--muted); margin-left: 4px; white-space: nowrap; }
+form.qs[data-qs-bar] p.qs-note { white-space: normal; }
+/* Board pages: the plan box points down to the list instead of a second buy button. */
+.bl-cta-quiet { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+.bl-cta-quiet span { font-size: 14px; color: var(--muted); }
+.bl-cta-quiet a { font-weight: 700; }
+@media (max-width: 560px) {
+  .qs-done .qs-done-dl { display: block; text-align: center; }
+}
