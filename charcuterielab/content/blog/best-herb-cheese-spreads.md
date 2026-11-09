@@ -1,11 +1,11 @@
 ---
 title: "The Best Boursin-Style Herb Cheese Spreads for a Charcuterie Board"
-seo_title: "Best Garlic and Herb Cheese Spreads (Boursin and Dupes)"
+seo_title: "Boursin vs Alouette: Best Garlic & Herb Cheese Spreads"
 date: "2026-10-25"
 updated: "2026-10-25"
 image: "/images/ingredients/boursin.jpg"
 excerpt: "The best garlic and herb cheese spreads for a charcuterie board: Boursin is the original, Alouette the closest dupe for less, Aldi's Emporium Selection the cheapest, plus dairy-free picks. How they differ and how much to buy."
-description: "The best garlic and herb cheese spreads for a charcuterie board: Boursin is the original, Alouette the closest dupe for less, Aldi's Emporium Selection the cheapest, plus dairy-free picks. How they differ and how much to buy."
+description: "Boursin Garlic & Fine Herbs is the best garlic and herb cheese spread. Alouette is the closest dupe for less, Aldi's Emporium costs about $3.29, and Boursin Dairy-Free is the vegan pick."
 faq: "[{"question": "What is Boursin?", "answer": "A soft, gournay-style French cheese made from fresh cheese and cream blended with garlic, herbs, salt and pepper. François Boursin started it in Normandy in 1957, and the garlic and herb version came out in 1963. It's creamy but slightly crumbly."}, {"question": "Boursin vs Alouette: what's the difference?", "answer": "Boursin is cultured milk and cream with dried garlic and herbs, and it's slightly crumbly. Alouette is smoother, adds gums and usually costs less per ounce. On a cracker most guests won't notice much difference."}, {"question": "What do you serve with Boursin on a charcuterie board?", "answer": "Crackers, sliced baguette, cucumber, radishes and carrot sticks. It goes well with salami, prosciutto and cherry tomatoes, and with a dry rosé or sauvignon blanc."}, {"question": "How long can Boursin sit out on a board?", "answer": "Treat it like any soft, fresh cheese: no more than 2 hours at room temperature. Put out one tub at a time and refill it from the fridge."}, {"question": "Is there a dairy-free Boursin?", "answer": "Yes. Boursin Dairy-Free Garlic & Herbs is made with coconut oil and is free of dairy, gluten, nuts and soy. Kite Hill's almond-based spread is another vegan option, but it contains tree nuts."}]"
 slug: "best-herb-cheese-spreads"
 tags: "["best boursin cheese", "boursin dupe", "boursin vs alouette", "garlic and herb cheese spread", "herb cheese spread for charcuterie board", "aldi boursin"]"

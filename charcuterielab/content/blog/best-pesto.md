@@ -1,10 +1,10 @@
 ---
 title: "The Best Store-Bought Pesto for a Charcuterie Board, Ranked"
-seo_title: "Best Store-Bought Pesto Brands, Ranked"
+seo_title: "Best Store-Bought Pesto: 7 Brands Ranked (Kirkland Wins)"
 date: "2026-10-11"
 image: "/images/ingredients/pesto.jpg"
 excerpt: "The best pesto for a charcuterie board, ranked: Kirkland Signature Basil Pesto is our top pick. Star ratings, a shelf-stable pick and a budget pick, and why."
-description: "The best pesto for a charcuterie board, ranked: Kirkland Signature Basil Pesto is our top pick. Star ratings, a shelf-stable pick and a budget pick, and why."
+description: "The best store-bought pesto, ranked: Kirkland Signature from Costco wins, DeLallo is the best shelf-stable jar and Target's Good & Gather the budget pick, plus Buitoni and Seggiano."
 faq: "[{"question": "What is the best store-bought pesto?", "answer": "Kirkland Signature Basil Pesto from Costco. Sporked gave it 10 out of 10 and Daily Meal ranked it first of 12."}, {"question": "Is refrigerated pesto better than jarred?", "answer": "Usually. The refrigerated tubs (Kirkland, Buitoni, Nuovo) won most tests. DeLallo is the best jarred pick."}, {"question": "Is pesto nut-free?", "answer": "Not usually. Most contain pine nuts or cashews. Classico Traditional is made without nuts."}, {"question": "What goes with pesto on a charcuterie board?", "answer": "Burrata, fresh mozzarella, cherry tomatoes, prosciutto and crostini."}]"
 slug: "best-pesto"
 tags: "["best store bought pesto", "best pesto brand", "jarred pesto", "pesto for charcuterie board", "kirkland pesto"]"

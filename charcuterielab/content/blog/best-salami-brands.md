@@ -1,10 +1,10 @@
 ---
 title: "The Best Salami Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Salami Brands for Charcuterie, Ranked"
+seo_title: "Best Salami Brands: 7 Grocery Store Picks, Ranked (2026)"
 date: "2026-09-29"
 image: "/images/ingredients/genoa-salami.jpg"
 excerpt: "The best salami for a charcuterie board, ranked: Olli Salumeria is our top pick. Star ratings, a best value and a splurge pick, and why."
-description: "The best salami for a charcuterie board, ranked: Olli Salumeria is our top pick. Star ratings, a best value and a splurge pick, and why."
+description: "The best salami brands, ranked: Olli Salumeria wins, Volpi Genoa is the best value and Fra' Mani the splurge, plus Columbus, Creminelli, Boar's Head and Applegate."
 faq: "[{"question": "What is the best salami brand for a charcuterie board?", "answer": "Olli Salumeria, for its well-reviewed variety pack, with Volpi Genoa as the classic single choice."}, {"question": "Is Genoa or hard salami better for a board?", "answer": "Genoa is softer and more garlicky; hard salami is drier and firmer. Genoa is easier to fold and more versatile."}, {"question": "How much salami per person?", "answer": "Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party food, 4 oz when it is dinner. Salami is usually part of that."}]"
 slug: "best-salami-brands"
 ---
