@@ -5,8 +5,10 @@
 .bp-search { display: flex; gap: 8px; align-items: stretch; }
 .bp-search input { flex: 1 1 auto; min-width: 0; }
 .bp-search .button { flex: 0 0 auto; }
-.bp-topic-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
-.bp-topic-chips a { flex: 0 0 auto; }
+@media (max-width: 700px) {
+  .bp-topic-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+  .bp-topic-chips a { flex: 0 0 auto; }
+}
 .bp-cat-chips { margin: -6px 0 16px; }
 .bp-cat-chips a { min-height: 34px; font-size: 13px; }
 .bp-status { margin: 18px auto 0; font: 600 15px var(--sans); color: var(--muted); }
