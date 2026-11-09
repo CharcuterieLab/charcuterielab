@@ -88,7 +88,7 @@ The spread that makes a board Southern. Three taste tests agree on the winner.
 :::
 
 **Serving it:** pimento cheese is mayo-based, so keep it cold until 15 to 20 minutes before guests arrive and don't leave it out more than 2 hours. Serve it in a bowl with Ritz or butter crackers, celery and pickled okra, and top it with a spoonful of pepper jelly.
-**More:** [Pimento cheese: pairings and serving tips](/ingredients/pimento-cheese/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Pimento cheese: pairings and serving tips](/ingredients/pimento-cheese/) · [The best beer cheese](/blog/best-beer-cheese/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pimento cheese questions</h2>

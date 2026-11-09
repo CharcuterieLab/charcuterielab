@@ -300,6 +300,14 @@
 1024,
 559
 ],
+"/images/best-beer-cheese-ranking.webp": [
+1000,
+1500
+],
+"/images/best-beer-cheese.jpg": [
+1024,
+559
+],
 "/images/best-blue-cheese-brands-ranking.webp": [
 1000,
 1500
@@ -696,6 +704,14 @@
 1000,
 1500
 ],
+"/images/best-port-wine-cheese-ranking.webp": [
+1000,
+1500
+],
+"/images/best-port-wine-cheese.jpg": [
+1024,
+559
+],
 "/images/best-port-wine-ranking.webp": [
 1000,
 1500
@@ -723,6 +739,14 @@
 "/images/best-publix-charcuterie-items-ranking.webp": [
 1000,
 1500
+],
+"/images/best-puff-pastry-ranking.webp": [
+1000,
+1500
+],
+"/images/best-puff-pastry.jpg": [
+1024,
+559
 ],
 "/images/best-queso-ranking.webp": [
 1000,
@@ -760,6 +784,14 @@
 1000,
 1500
 ],
+"/images/best-smoked-oysters-ranking.webp": [
+1000,
+1500
+],
+"/images/best-smoked-oysters.jpg": [
+1024,
+559
+],
 "/images/best-smoked-salmon-ranking.webp": [
 1000,
 1500
@@ -779,6 +811,14 @@
 "/images/best-spinach-dip-ranking.webp": [
 1000,
 1500
+],
+"/images/best-spiral-ham-ranking.webp": [
+1000,
+1500
+],
+"/images/best-spiral-ham.jpg": [
+1024,
+559
 ],
 "/images/best-sprouts-charcuterie-items-ranking.webp": [
 1000,
@@ -6164,6 +6204,22 @@
 240,
 360
 ],
+"/images/thumbs/best-beer-cheese-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-beer-cheese-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-beer-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-beer-cheese-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-blue-cheese-brands-ranking-webp-m.webp": [
 640,
 960
@@ -6972,6 +7028,22 @@
 240,
 360
 ],
+"/images/thumbs/best-port-wine-cheese-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-port-wine-cheese-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-port-wine-cheese-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-port-wine-cheese-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-port-wine-jpg-m.webp": [
 640,
 349
@@ -7025,6 +7097,22 @@
 960
 ],
 "/images/thumbs/best-publix-charcuterie-items-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-puff-pastry-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-puff-pastry-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-puff-pastry-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-puff-pastry-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -7100,6 +7188,22 @@
 240,
 360
 ],
+"/images/thumbs/best-smoked-oysters-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-smoked-oysters-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-smoked-oysters-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-smoked-oysters-ranking-webp-s.webp": [
+240,
+360
+],
 "/images/thumbs/best-smoked-salmon-ranking-webp-m.webp": [
 640,
 960
@@ -7137,6 +7241,22 @@
 960
 ],
 "/images/thumbs/best-spinach-dip-ranking-webp-s.webp": [
+240,
+360
+],
+"/images/thumbs/best-spiral-ham-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-spiral-ham-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-spiral-ham-ranking-webp-m.webp": [
+640,
+960
+],
+"/images/thumbs/best-spiral-ham-ranking-webp-s.webp": [
 240,
 360
 ],
@@ -17277,6 +17397,14 @@
 "m": "/images/thumbs/best-beef-jerky-jpg-m.webp",
 "s": "/images/thumbs/best-beef-jerky-jpg-s.webp"
 },
+"/images/best-beer-cheese-ranking.webp": {
+"m": "/images/thumbs/best-beer-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-beer-cheese-ranking-webp-s.webp"
+},
+"/images/best-beer-cheese.jpg": {
+"m": "/images/thumbs/best-beer-cheese-jpg-m.webp",
+"s": "/images/thumbs/best-beer-cheese-jpg-s.webp"
+},
 "/images/best-blue-cheese-brands-ranking.webp": {
 "m": "/images/thumbs/best-blue-cheese-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-blue-cheese-brands-ranking-webp-s.webp"
@@ -17677,6 +17805,14 @@
 "m": "/images/thumbs/best-pita-chips-ranking-webp-m.webp",
 "s": "/images/thumbs/best-pita-chips-ranking-webp-s.webp"
 },
+"/images/best-port-wine-cheese-ranking.webp": {
+"m": "/images/thumbs/best-port-wine-cheese-ranking-webp-m.webp",
+"s": "/images/thumbs/best-port-wine-cheese-ranking-webp-s.webp"
+},
+"/images/best-port-wine-cheese.jpg": {
+"m": "/images/thumbs/best-port-wine-cheese-jpg-m.webp",
+"s": "/images/thumbs/best-port-wine-cheese-jpg-s.webp"
+},
 "/images/best-port-wine-ranking.webp": {
 "m": "/images/thumbs/best-port-wine-ranking-webp-m.webp",
 "s": "/images/thumbs/best-port-wine-ranking-webp-s.webp"
@@ -17704,6 +17840,14 @@
 "/images/best-publix-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-m.webp",
 "s": "/images/thumbs/best-publix-charcuterie-items-ranking-webp-s.webp"
+},
+"/images/best-puff-pastry-ranking.webp": {
+"m": "/images/thumbs/best-puff-pastry-ranking-webp-m.webp",
+"s": "/images/thumbs/best-puff-pastry-ranking-webp-s.webp"
+},
+"/images/best-puff-pastry.jpg": {
+"m": "/images/thumbs/best-puff-pastry-jpg-m.webp",
+"s": "/images/thumbs/best-puff-pastry-jpg-s.webp"
 },
 "/images/best-queso-ranking.webp": {
 "m": "/images/thumbs/best-queso-ranking-webp-m.webp",
@@ -17741,6 +17885,14 @@
 "m": "/images/thumbs/best-shortbread-ranking-webp-m.webp",
 "s": "/images/thumbs/best-shortbread-ranking-webp-s.webp"
 },
+"/images/best-smoked-oysters-ranking.webp": {
+"m": "/images/thumbs/best-smoked-oysters-ranking-webp-m.webp",
+"s": "/images/thumbs/best-smoked-oysters-ranking-webp-s.webp"
+},
+"/images/best-smoked-oysters.jpg": {
+"m": "/images/thumbs/best-smoked-oysters-jpg-m.webp",
+"s": "/images/thumbs/best-smoked-oysters-jpg-s.webp"
+},
 "/images/best-smoked-salmon-ranking.webp": {
 "m": "/images/thumbs/best-smoked-salmon-ranking-webp-m.webp",
 "s": "/images/thumbs/best-smoked-salmon-ranking-webp-s.webp"
@@ -17760,6 +17912,14 @@
 "/images/best-spinach-dip-ranking.webp": {
 "m": "/images/thumbs/best-spinach-dip-ranking-webp-m.webp",
 "s": "/images/thumbs/best-spinach-dip-ranking-webp-s.webp"
+},
+"/images/best-spiral-ham-ranking.webp": {
+"m": "/images/thumbs/best-spiral-ham-ranking-webp-m.webp",
+"s": "/images/thumbs/best-spiral-ham-ranking-webp-s.webp"
+},
+"/images/best-spiral-ham.jpg": {
+"m": "/images/thumbs/best-spiral-ham-jpg-m.webp",
+"s": "/images/thumbs/best-spiral-ham-jpg-s.webp"
 },
 "/images/best-sprouts-charcuterie-items-ranking.webp": {
 "m": "/images/thumbs/best-sprouts-charcuterie-items-ranking-webp-m.webp",

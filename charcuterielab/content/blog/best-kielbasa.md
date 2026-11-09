@@ -79,7 +79,7 @@ Smoked kielbasa is the easiest hot item on a game-day board: slice, sear, add to
 
 :::html
 <h2 id="how-to-choose">How to serve kielbasa on a game-day board</h2>
-<ul class="sk-checks"><li><strong>Slice it</strong> into &frac12;-inch coins on a slight angle and sear in a hot skillet 2 to 3 minutes per side.</li><li><strong>Serve it warm</strong> with toothpicks, grainy mustard, sauerkraut or pickled onions.</li><li><strong>Round out the board</strong> with cheese curds, sharp cheddar, soft pretzels, beer cheese, dill pickles and jerky.</li><li><strong>Snack board shortcut:</strong> smoked kielbasa is fully cooked, so you can also serve it sliced cold.</li><li><strong>How much:</strong> one 13 to 14 oz rope serves about 6 people as an appetizer.</li></ul>
+<ul class="sk-checks"><li><strong>Slice it</strong> into &frac12;-inch coins on a slight angle and sear in a hot skillet 2 to 3 minutes per side.</li><li><strong>Serve it warm</strong> with toothpicks, grainy mustard, sauerkraut or pickled onions.</li><li><strong>Round out the board</strong> with cheese curds, sharp cheddar, soft pretzels, <a href="/blog/best-beer-cheese/">beer cheese</a>, dill pickles and jerky.</li><li><strong>Snack board shortcut:</strong> smoked kielbasa is fully cooked, so you can also serve it sliced cold.</li><li><strong>How much:</strong> one 13 to 14 oz rope serves about 6 people as an appetizer.</li></ul>
 <p class="sk-note">More for the board: <a href="/blog/best-mustard-for-charcuterie/">the best mustard</a>, <a href="/blog/best-summer-sausage/">the best summer sausage</a> and <a href="/blog/best-cheese-curds/">the best cheese curds</a>.</p>
 :::
 

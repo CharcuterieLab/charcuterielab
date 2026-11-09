@@ -43,7 +43,7 @@ Five minutes of work, and it's the first thing gone at a holiday party. On a col
 This is the showpiece version: a golden pastry dome that you cut open at the table.
 
 - 1 wheel of brie (8 oz), cold from the fridge
-- 1 sheet frozen puff pastry, thawed in the fridge
+- 1 sheet frozen puff pastry, thawed in the fridge ([which brand to buy](/blog/best-puff-pastry/))
 - 3 tablespoons jam (fig, apricot or cranberry)
 - 1 egg, beaten with 1 tablespoon water
 

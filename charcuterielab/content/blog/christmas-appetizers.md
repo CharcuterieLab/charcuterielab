@@ -159,13 +159,13 @@ Frozen cooked meatballs in a sauce of grape jelly and chili sauce (or cranberry 
 
 ### 17. Ham and Swiss Sliders
 
-Split a pack of sweet dinner rolls in one sheet, fill it with ham and Swiss, and brush the tops with melted butter mixed with Dijon and poppy seeds. Bake covered at 350°F for 15 minutes, then uncovered for 5 more.
+Split a pack of sweet dinner rolls in one sheet, fill it with ham ([the best spiral ham](/blog/best-spiral-ham/)) and Swiss, and brush the tops with melted butter mixed with Dijon and poppy seeds. Bake covered at 350°F for 15 minutes, then uncovered for 5 more.
 
 - **Make ahead:** Assemble the night before, cover and chill. Brush with the butter just before baking. This is the filling one that turns appetizers into dinner. A great use for [leftover Christmas ham](/blog/leftover-charcuterie/).
 
 ### 18. Puff Pastry Christmas Tree
 
-Spread pesto on one sheet of puff pastry and cover it with a second sheet. Cut it into a tree shape, slice branches into each side and twist each one. Brush with egg, sprinkle with Parmesan and bake at 400°F for about 15 to 18 minutes.
+Spread pesto on one sheet of puff pastry ([the best brands](/blog/best-puff-pastry/)) and cover it with a second sheet. Cut it into a tree shape, slice branches into each side and twist each one. Brush with egg, sprinkle with Parmesan and bake at 400°F for about 15 to 18 minutes.
 
 - **Make ahead:** Shape it, cover it and chill it the morning of the party. Bake it right before guests arrive. Use the scraps as a star on top.
 
