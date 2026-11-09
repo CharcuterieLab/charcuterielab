@@ -15,7 +15,7 @@ tags: "["best charcuterie gift box", "meat and cheese gift basket", "charcuterie
 > **Quick Answer:** Top pick: **Harry & David Ultimate Meat and Cheese Gift Box** (about $110, 5.5 lb). Arrives already arranged: **Boarderie**. Budget: **Swiss Colony**. Splurge: **Zingerman's**.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">A lot of food for the price, from a brand people recognize.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Ready to serve</p><a class="sk-top-name" href="#pick-2">Boarderie Classic Cheese &amp; Charcuterie Board</a><p class="sk-top-line">No assembly. Open it and put it out.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$$</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For cured-meat lovers</p><a class="sk-top-name" href="#pick-3">Olympia Provisions European Charcuterie Box</a><p class="sk-top-line">Craft salami from a respected Portland salumeria.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$$</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">A lot of food for the price, from a brand people recognize.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.6/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07D19J4J1" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Ready to serve</p><a class="sk-top-name" href="#pick-2">Boarderie Classic Cheese &amp; Charcuterie Board</a><p class="sk-top-line">No assembly. Open it and put it out.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$$</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">For cured-meat lovers</p><a class="sk-top-name" href="#pick-3">Olympia Provisions European Charcuterie Box</a><p class="sk-top-line">Craft salami from a respected Portland salumeria.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$$</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -32,6 +32,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 <p class="sk-why"><strong>Why it's here:</strong> A lot of food for the price, from a brand people recognize.</p>
 <p class="sk-mind"><strong>Watch out:</strong> You arrange it yourself, and the cheeses are crowd-pleasers rather than rare finds.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07D19J4J1" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>About 5.5 lb of food: four sausages, dried salami, 2 lb of cheese, crackers and condiments, for about $110 (<a href="https://www.tastingtable.com/1828381/best-meat-cheese-gift-boxes/" target="_blank" rel="noopener">Tasting Table</a>). <a href="https://www.mashed.com/1232526/the-best-meat-and-cheese-gift-baskets/" target="_blank" rel="noopener">Mashed</a> named Harry &amp; David&#x27;s similar Supreme box its best overall, and a <a href="https://www.forbes.com/sites/forbes-personal-shopper/article/best-gift-basket/" target="_blank" rel="noopener">Forbes</a> editor who has tried the brand&#x27;s meat and cheese basket called its baskets consistently delicious.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -91,10 +92,11 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><h3>Wisconsin Cheese Company Ultimate Man Cave</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>A lot of summer sausage</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Wisconsin Cheese Company online.</dd></div></dl>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A lot of summer sausage</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Wisconsin Cheese Company online, Amazon.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Big portions for the price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Simple: sausage, two cheeses and crackers.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01KF7KFUW" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A pound each of cheddar and pepper Jack, 3 lb of summer sausage and a box of water crackers, for about $80. <a href="https://www.tastingtable.com/1828381/best-meat-cheese-gift-boxes/" target="_blank" rel="noopener">Tasting Table</a> says buyers call it a great value.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 4 · Ingredients 3 · Value 5 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-9">
@@ -104,6 +106,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 <p class="sk-why"><strong>Why it's here:</strong> Cheap, shelf-stable sausage, and easy to mail.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild, familiar flavors, not a gourmet box.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B005NDXU6U" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Three summer sausages (original, garlic and caraway) with Monterey Jack, cheddar, Colby and brick cheese, about $25 to $45 depending on size (<a href="https://www.tastingtable.com/1828381/best-meat-cheese-gift-boxes/" target="_blank" rel="noopener">Tasting Table</a>).</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-10">
@@ -113,6 +116,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 <p class="sk-why"><strong>Why it's here:</strong> Cheap and in many stores in December.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Testers found the quality disappointing.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0C94YG17L" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.mashed.com/1232526/the-best-meat-and-cheese-gift-baskets/" target="_blank" rel="noopener">Mashed</a> named it the best budget box at about $30, but <a href="https://www.reviewed.com/cooking/features/gourmet-food-gifts-review-harry-david-hickory-farms-and-more" target="_blank" rel="noopener">Reviewed</a>&#x27;s testers tried a Hickory Farms summer sausage and cheese box and said skip it: the sausage was dry and the cheeses tasted processed, though they liked the mustards.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
 </article>
 </div>

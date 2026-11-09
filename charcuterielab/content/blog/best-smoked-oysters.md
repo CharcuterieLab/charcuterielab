@@ -16,7 +16,7 @@ tags: "["best smoked oysters", "best canned smoked oysters", "smoked oysters bra
 > **Quick Answer:** The taste-test winner is **Geisha Fancy Smoked Oysters in Sunflower Oil** (9.5/10 at Sporked, sold at Walmart). For the biggest oysters, **Polar Fancy Whole**. For a cleaner label in olive oil, **Crown Prince Natural**. To splurge, Washington-farmed **Ekone** at about $13 a tin.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Geisha Fancy Smoked Oysters in Sunflower Oil</a><p class="sk-top-line">9.5/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=geisha+fancy+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Biggest oysters</p><a class="sk-top-name" href="#pick-2">Polar Fancy Whole Smoked Oysters</a><p class="sk-top-line">8/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.walmart.com/search?q=polar+fancy+whole+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Ekone Original Smoked Oysters</a><p class="sk-top-line">Farmed and smoked in Washington</p></div><div class="sk-top-buy"><span class="sk-price">$13 a tin</span><a class="button sk-buy-sm" href="https://buy.taylorshellfishfarms.com/ekone-canned-products/original-ekone-smoked-oysters/" target="_blank" rel="noopener">See it at Taylor Shellfish</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Geisha Fancy Smoked Oysters in Sunflower Oil</a><p class="sk-top-line">9.5/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0CM82SD7G" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Biggest oysters</p><a class="sk-top-name" href="#pick-2">Polar Fancy Whole Smoked Oysters</a><p class="sk-top-line">8/10 at Sporked</p></div><div class="sk-top-buy"><span class="sk-price">Price varies</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B08KTBGRVY" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Ekone Original Smoked Oysters</a><p class="sk-top-line">Farmed and smoked in Washington</p></div><div class="sk-top-buy"><span class="sk-price">$13 a tin</span><a class="button sk-buy-sm" href="https://buy.taylorshellfishfarms.com/ekone-canned-products/original-ekone-smoked-oysters/" target="_blank" rel="noopener">See it at Taylor Shellfish</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6 picks</a><a href="#how-to-choose">How to serve them</a><a href="#smoked-oyster-questions">FAQ</a></nav>
 :::
 
@@ -31,7 +31,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 <dl class="sk-facts"><div><dt>Score</dt><dd>9.5/10, best of the best</dd></div><div><dt>Size</dt><dd>Small to medium</dd></div><div><dt>Where</dt><dd>Walmart</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s clear winner of nine: savory, not too fishy, with a smoky finish. Small enough to eat in one bite on a saltine.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small oysters, so they look less dramatic than Polar&#x27;s on a platter.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=geisha+fancy+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CM82SD7G" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 9.5/10 and called it the best of the best in its canned oyster test (<a href="https://sporked.com/article/best-canned-oysters/" target="_blank" rel="noopener">Sporked</a>), and kept it as the top smoked oyster in its 2026 tinned fish roundup (<a href="https://sporked.com/article/best-canned-fish/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
@@ -39,7 +39,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 <dl class="sk-facts"><div><dt>Score</dt><dd>8/10 at Sporked</dd></div><div><dt>Size</dt><dd>Very large and meaty</dd></div><div><dt>Smoke</dt><dd>Good, with a slight fishy finish</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Very large, meaty oysters with good smoky flavor, the most impressive looking on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Sporked noted a slight fishy finish, so pair them with lemon or hot sauce.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=polar+fancy+whole+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08KTBGRVY" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored them 8/10 (<a href="https://sporked.com/article/best-canned-oysters/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
@@ -47,7 +47,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 <dl class="sk-facts"><div><dt>Size</dt><dd>3 oz</dd></div><div><dt>Packed in</dt><dd>Cold-pressed olive oil</dd></div><div><dt>Where</dt><dd>Whole Foods, Target, natural grocers</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Naturally wood smoked and hand packed in olive oil, the easiest olive-oil smoked oyster to find.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in Sporked&#x27;s scored results (Sporked only tested the chili pepper version), so this pick rests on the label and availability.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=crown+prince+natural+smoked+oysters+olive+oil" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07BL3VB1J" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Whole Foods lists them as naturally wood smoked, hand packed in pure cold-pressed olive oil and Non-GMO Project Verified (<a href="https://www.wholefoodsmarket.com/grocery/product/3-ounce-pack-of-1-b004xm4lew" target="_blank" rel="noopener">Whole Foods</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -55,7 +55,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 <dl class="sk-facts"><div><dt>Score</dt><dd>7.5/10 at Sporked</dd></div><div><dt>Smoke</dt><dd>Mild, lots of umami</dd></div><div><dt>Where</dt><dd>Walmart</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Milder smoke and lots of umami, the one Sporked suggests blending into smoked oyster dip.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less smoky than Geisha or Reese if you want them on their own.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=pacific+pearl+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000LLKC6A" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored them 7.5/10 and named them best for dip (<a href="https://sporked.com/article/best-canned-oysters/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
@@ -63,7 +63,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 <dl class="sk-facts"><div><dt>Score</dt><dd>7/10 at Sporked</dd></div><div><dt>Smoke</dt><dd>Cherrywood, deep</dd></div><div><dt>Flavor</dt><dd>Smoky and a little sweet</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Smoked over cherrywood for a deep, slightly sweet flavor that stands up to sharp cheddar and pickles.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Strong smoke, so it can overpower milder cheeses.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=reese+large+smoked+oysters" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000FEH73E" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored them 7/10 and called them deeply smoky and a little sweet (<a href="https://sporked.com/article/best-canned-oysters/" target="_blank" rel="noopener">Sporked</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">

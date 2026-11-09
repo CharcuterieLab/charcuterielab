@@ -86,6 +86,7 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <dl class="sk-facts"><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>What it is</dt><dd>1 knife: holes, serrated edge, fork tip</dd></div><div><dt>Dishwasher</dt><dd>Check the listing</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> The cheapest way to cover soft and hard cheese with one knife.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Picked on shopper reviews, not a hands-on test.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CMYB99ZH" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Holes stop soft cheese sticking, a serrated edge handles hard cheese and a forked tip lifts slices. Bustle named it the best all-purpose cheese knife (<a href="https://www.bustle.com/life/best-cheese-knives" target="_blank" rel="noopener">Bustle</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
