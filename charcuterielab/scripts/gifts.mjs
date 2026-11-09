@@ -557,6 +557,7 @@ const GUIDES = [
   },
   {
     slug: "last-minute",
+    calendar: true,
     card: "Last-minute charcuterie gifts",
     cardLine: "10 gifts you can still give tomorrow",
     image: "/images/charcuterie-gift-basket-packing.jpg",
@@ -772,6 +773,184 @@ export function giftPages(h, books) {
     </div>
   </section>`;
 
+
+  // ------------------------------------------------------------ hub tools
+  // Added 8 Nov 2026: gift finder, every-gift comparison, order-by calendar,
+  // food-gift shipping safety. Plan: claude/gift-hub-upgrades-2026-11-08.md
+
+  // Who the finder can shop for -> the guide it draws picks from.
+  const FINDER_PEOPLE = [
+    ["cheese", "Cheese lover", "cheese-lovers"],
+    ["wine", "Wine lover", "wine-and-cheese-lovers"],
+    ["host", "The host", "hostess-gifts"],
+    ["him", "Meat lover / for him", "for-him"],
+    ["beginner", "Beginner", "charcuterie-books"],
+    ["home", "New home", "housewarming"],
+    ["keto", "Keto", "keto-gifts"],
+    ["vegan", "Vegan", "vegan-foodie-gifts"],
+    ["client", "Client or team", "client-gifts"],
+    ["everything", "Has everything", "luxury"],
+    ["elephant", "White elephant", "white-elephant"],
+    ["stocking", "Stocking", "stocking-stuffers"]
+  ];
+  // Personalized items need extra making time.
+  const SLOW = new Set(["engraved"]);
+
+  function pickData(p, guide, n) {
+    const href = `/gifts/${guide.slug}/#pick-${n}`;
+    if (p.book) {
+      const b = B[p.book];
+      const pp = num(b.paperbackUrl ? b.paperbackPrice : b.ebookPrice);
+      return {
+        key: `book:${p.book}`, name: pickName(p), best: p.best, line: pickLine(p), href,
+        lo: pp, hi: pp, price: b.paperbackUrl ? `${b.paperbackPrice} paperback · ${b.ebookPrice} ebook` : `${b.ebookPrice} ebook`,
+        buy: b.paperbackUrl ? [amz(b.paperbackUrl), "Paperback on Amazon", 1] : [T(b.ebookUrl, "gift_finder"), "Get the ebook", 0],
+        ibuy: [T(b.ebookUrl, "gift_finder_instant"), `Instant ebook · ${b.ebookPrice}`, 0],
+        ilo: num(b.ebookPrice), instant: 1, slow: 0, where: pickWhere(p)
+      };
+    }
+    const key = p.item || p.other;
+    const it = p.item ? ITEMS[p.item] : OTHER_BOOKS[p.other];
+    const lo = it.price ? it.price[0] : 40, hi = it.price ? it.price[1] : 400;
+    const instant = it.href && it.href.startsWith("/printables/") ? 1 : key === "club" ? 1 : 0;
+    const buy = it.buy ? [it.buy[1], it.buy[0], 1] : it.href ? [it.href, it.hrefLabel || "See it", 0] : [buyUrl(it), "See it on Amazon", 1];
+    return {
+      key: `${p.item ? "item" : "other"}:${key}`, name: it.name + (it.by ? ` by ${it.by}` : ""), best: p.best, line: pickLine(p), href,
+      lo, hi, price: it.price ? range(it.price) : "Varies by plan", buy, instant, slow: SLOW.has(key) ? 1 : 0, where: pickWhere(p)
+    };
+  }
+
+  function finderSection() {
+    const bySlug = Object.fromEntries(GUIDES.map((g) => [g.slug, g]));
+    const data = { people: {}, instant: [] };
+    for (const [k, label, slug] of FINDER_PEOPLE) {
+      const g = bySlug[slug];
+      if (!g) continue;
+      const picks = g.picks.filter((p) => !p.book || B[p.book]);
+      data.people[k] = { label, guide: `/gifts/${slug}/`, card: g.card, picks: picks.map((p, i) => pickData(p, g, i + 1)) };
+    }
+    const lm = bySlug["last-minute"];
+    if (lm) data.instant = lm.picks.filter((p) => !p.book || B[p.book]).map((p, i) => pickData(p, lm, i + 1)).filter((d) => d.instant);
+    const btns = (name, opts, sel) => opts.map(([v, t]) => `<button type="button" class="gf-fd-opt" data-q="${name}" data-v="${v}" aria-pressed="${v === sel ? "true" : "false"}">${esc(t)}</button>`).join("");
+    return `<section class="gf-finder" id="finder" aria-labelledby="gf-fd-h">
+    <div class="gf-inner">
+      <p class="section-kicker">Gift finder</p>
+      <h2 id="gf-fd-h">Find the right gift in three taps</h2>
+      <div class="gf-fd-q"><p class="gf-fd-label">1. Who is it for?</p><div class="gf-fd-opts" role="group" aria-label="Who is it for">${btns("who", FINDER_PEOPLE.filter(([k]) => data.people[k]).map(([k, t]) => [k, t]), "cheese")}</div></div>
+      <div class="gf-fd-q"><p class="gf-fd-label">2. What's your budget?</p><div class="gf-fd-opts" role="group" aria-label="Budget">${btns("budget", [["any", "Any budget"], ["u25", "Under $25"], ["mid", "$25 to $75"], ["high", "$75 and up"]], "any")}</div></div>
+      <div class="gf-fd-q"><p class="gf-fd-label">3. When do you need it?</p><div class="gf-fd-opts" role="group" aria-label="When do you need it">${btns("when", [["time", "Two weeks or more"], ["week", "Within a week"], ["today", "Today"]], "time")}</div></div>
+      <div class="gf-fd-out" aria-live="polite">
+        <p class="gf-fd-head" data-fd-head>Top gifts for a cheese lover</p>
+        <div class="gf-fd-results" data-fd-results><p class="gf-fine">Loading the picks. If nothing appears, see <a href="/gifts/cheese-lovers/">gifts for cheese lovers</a>.</p></div>
+        <p class="gf-fd-more" data-fd-more></p>
+      </div>
+    </div>
+    <script type="application/json" id="gf-fd-data">${h.jsonForScript(data)}</script>
+    <script>(function(){try{
+var D=JSON.parse(document.getElementById("gf-fd-data").textContent),S={who:"cheese",budget:"any",when:"time"};
+var R=document.querySelector("[data-fd-results]"),H=document.querySelector("[data-fd-head]"),M=document.querySelector("[data-fd-more]");
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function mid(p){var lo=S.when==="today"&&p.ilo?p.ilo:p.lo;return S.when==="today"&&p.ilo?lo:(lo+p.hi)/2}
+function fits(p){var m=mid(p);if(S.budget==="u25")return m<=25;if(S.budget==="mid")return m>25&&m<=75;if(S.budget==="high")return m>75;return true}
+function a(b,cls){return '<a class="'+cls+'" href="'+e(b[0])+'"'+(b[2]?' target="_blank" rel="sponsored nofollow noopener"':"")+'>'+e(b[1])+"</a>"}
+function card(p){var b=S.when==="today"&&p.ibuy?p.ibuy:p.buy;return '<article class="gf-fd-card"><p class="gf-tag">'+e(p.best)+'</p><h3><a href="'+e(p.href)+'">'+e(p.name)+'</a></h3><p class="gf-fd-price">'+e(S.when==="today"&&p.ibuy?p.ibuy[1]:p.price)+'</p><p>'+e(p.line)+'</p><div class="gf-fd-buy">'+a(b,"button sk-buy-sm")+'<a class="gf-fd-why" href="'+e(p.href)+'">Why we picked it</a></div></article>'}
+function run(){var P=D.people[S.who];if(!P)return;var list=P.picks.slice(),note="";
+if(S.when==="week")list=list.filter(function(p){return!p.slow});
+if(S.when==="today")list=list.filter(function(p){return p.instant});
+var f=list.filter(fits);if(S.when==="today"&&f.length<3){D.instant.forEach(function(p){if(f.length<4&&fits(p)&&!f.some(function(q){return q.key===p.key}))f.push(p)})}if(!f.length){f=list.slice(0,3);note='Nothing in this guide fits that budget exactly, so here are its top picks.'}
+f=f.slice(0,4);H.textContent=(S.when==="today"?"Gifts you can give today":"Top gifts")+" for: "+P.label.toLowerCase();
+R.innerHTML=f.map(card).join("")+(note?'<p class="gf-fine">'+note+"</p>":"");
+M.innerHTML='See all '+P.picks.length+' picks in <a href="'+e(P.guide)+'">'+e(P.card)+"</a>"+(S.when==="today"?' or <a href="/gifts/last-minute/">every last-minute gift</a>.':".")}
+document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("click",function(){S[b.dataset.q]=b.dataset.v;document.querySelectorAll('.gf-fd-opt[data-q="'+b.dataset.q+'"]').forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});run()})});run();
+}catch(x){}})();</script>
+  </section>`;
+  }
+
+  function compareSection() {
+    // Every gift across every guide, once, with the guides it appears in.
+    const rows = new Map();
+    for (const g of GUIDES) {
+      g.picks.filter((p) => !p.book || B[p.book]).forEach((p, i) => {
+        const d = pickData(p, g, i + 1);
+        if (!rows.has(d.key)) rows.set(d.key, { ...d, guides: [] });
+        rows.get(d.key).guides.push([g.kicker.replace(/^Gift guide · /, ""), `/gifts/${g.slug}/#pick-${i + 1}`]);
+      });
+    }
+    const list = [...rows.values()].sort((a, b) => (a.lo + a.hi) / 2 - (b.lo + b.hi) / 2);
+    const band = (d) => { const m = (d.lo + d.hi) / 2; return m <= 25 ? "u25" : m <= 75 ? "mid" : "high"; };
+    const tr = (d) => `<tr data-band="${band(d)}" data-instant="${d.instant}">
+          <th scope="row"><a href="${d.guides[0][1]}">${esc(d.name)}</a>${d.instant ? ' <span class="gf-cmp-flag">Instant</span>' : ""}${d.slow ? ' <span class="gf-cmp-flag gf-cmp-slow">Order early</span>' : ""}</th>
+          <td>${esc(d.price)}</td>
+          <td>${d.guides.slice(0, 3).map(([t, u]) => `<a href="${u}">${esc(t)}</a>`).join(", ")}${d.guides.length > 3 ? ` +${d.guides.length - 3} more` : ""}</td>
+          <td><a href="${esc(d.buy[0])}"${d.buy[2] ? ' target="_blank" rel="sponsored nofollow noopener"' : ""}>${esc(d.where)}</a></td>
+        </tr>`;
+    return `<section class="gf-compare" id="compare" aria-labelledby="gf-cmp-h">
+      <p class="section-kicker">Every gift, side by side</p>
+      <h2 id="gf-cmp-h">All ${list.length} gifts from our guides, compared by price</h2>
+      <p>Every gift we recommend across all ${GUIDES.length} guides, cheapest first, with the guides it appears in. Tap a gift for our full write-up.</p>
+      <div class="gf-cmp-filter" role="group" aria-label="Filter gifts">
+        <button type="button" data-f="all" aria-pressed="true">All</button><button type="button" data-f="u25" aria-pressed="false">Under $25</button><button type="button" data-f="mid" aria-pressed="false">$25 to $75</button><button type="button" data-f="high" aria-pressed="false">$75 and up</button><button type="button" data-f="instant" aria-pressed="false">Instant (no shipping)</button>
+      </div>
+      <div class="gf-cmp-wrap"><table class="gf-cmp">
+        <thead><tr><th scope="col">Gift</th><th scope="col">Typical price</th><th scope="col">Best in</th><th scope="col">Where to get it</th></tr></thead>
+        <tbody>
+        ${list.map(tr).join("\n        ")}
+        </tbody>
+      </table></div>
+      <p class="gf-fine">Book prices are our list prices. Other prices are typical ranges, checked ${PRICES_CHECKED}; check the price at checkout. "Instant" means a download or a gift plan with nothing to ship.</p>
+      <script>(function(){try{var bs=document.querySelectorAll(".gf-cmp-filter button"),rs=document.querySelectorAll(".gf-cmp tbody tr");bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;bs.forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});rs.forEach(function(r){r.hidden=!(f==="all"||(f==="instant"?r.dataset.instant==="1":r.dataset.band===f))})})})}catch(x){}})();</script>
+    </section>`;
+  }
+
+  // Christmas 2026. USPS dates: usps.com holiday shipping page, checked 8 Nov 2026.
+  const ORDER_BY = [
+    ["2026-11-25", "Now through Thanksgiving", "Engraved and personalized boards", "Makers need extra time to engrave, so these go first."],
+    ["2026-11-30", "Black Friday (Nov 27) to Cyber Monday (Nov 30)", "Gear: knives, boards, serveware and books", "The biggest sales of the season, with weeks of shipping time left."],
+    ["2026-12-11", "By Friday, Dec 11", "Perishable gift boxes and cheese clubs", "Perishable boxes often ship only Monday to Wednesday, so the last safe shipping week is Dec 14."],
+    ["2026-12-17", "Thursday, Dec 17", "Last day for USPS Ground Advantage and First-Class Mail", "If you're mailing a gift yourself the cheap way, this is the cutoff."],
+    ["2026-12-18", "Friday, Dec 18", "Last day for USPS Priority Mail", "Also the day our shipping note switches to the instant ebook."],
+    ["2026-12-19", "Saturday, Dec 19", "Last day for USPS Priority Mail Express", "The final USPS option. UPS and FedEx post their own dates; check before you buy."],
+    ["2026-12-25", "Dec 20 to Christmas morning", "Instant gifts only", "Ebooks, printables, a club gift or a DIY board kit from the grocery store, plus our free printable gift card."]
+  ];
+  function calendarSection(id = "order-by") {
+    return `<section class="gf-cal" id="${id}" aria-labelledby="${id}-h">
+      <p class="section-kicker">Holiday timeline</p>
+      <h2 id="${id}-h">When to order charcuterie gifts for Christmas 2026</h2>
+      <p class="gf-cal-count" data-cal-count></p>
+      <ol class="gf-cal-list">
+        ${ORDER_BY.map(([by, when, what, why]) => `<li data-by="${by}"><p class="gf-cal-when">${esc(when)}</p><p class="gf-cal-what">${esc(what)}</p><p class="gf-cal-why">${esc(why)}</p></li>`).join("\n        ")}
+      </ol>
+      <p class="gf-fine">USPS dates are its recommended send-by dates for delivery in the lower 48 states by Dec 25 (<a href="https://www.usps.com/holiday/holiday-shipping-dates.htm" target="_blank" rel="noopener">USPS</a>, checked Nov 8, 2026). Amazon and other stores show their own delivery date at checkout.</p>
+      <script>(function(){try{var t=new Date(),d=new Date(t.getFullYear(),t.getMonth(),t.getDate()),x=new Date(2026,11,25),n=Math.round((x-d)/864e5),c=document.querySelector("#${id} [data-cal-count]");if(c){c.textContent=n>1?n+" days until Christmas. The highlighted step is what to order now.":n===1?"Christmas is tomorrow: instant gifts only.":n===0?"Merry Christmas! Instant gifts still work today.":""}var done=false;document.querySelectorAll("#${id} li[data-by]").forEach(function(li){var p=li.dataset.by.split("-"),b=new Date(+p[0],+p[1]-1,+p[2]);if(d>b){li.classList.add("gf-cal-past")}else if(!done){li.classList.add("gf-cal-now");done=true}})}catch(e){}})();</script>
+    </section>`;
+  }
+
+  const safetySection = `<section class="gf-safe" id="food-safety" aria-labelledby="gf-safe-h">
+      <p class="section-kicker">Sending food as a gift</p>
+      <h2 id="gf-safe-h">How to ship and receive cheese and cured meat safely</h2>
+      <p>Food gifts are the easiest to get right and the easiest to get wrong. The difference is whether the box needs to stay cold. These rules come from the USDA's guidance on mail-order food.</p>
+      <div class="gf-safe-grid">
+        <div class="gf-safe-col gf-safe-ok">
+          <h3>Ships without ice</h3>
+          <ul><li>Whole hard salami and summer sausage (unopened)</li><li>Hard, aged cheese such as aged cheddar or Parmigiano-Reggiano</li><li>Country ham</li><li>Crackers, nuts, honey, honeycomb and jams</li><li>Books, knives, boards and printables</li></ul>
+          <p>The USDA names hard salami, hard cheese and country ham as good choices to send, because they don't need a cold source.</p>
+        </div>
+        <div class="gf-safe-col gf-safe-cold">
+          <h3>Needs a cold pack</h3>
+          <ul><li>Soft cheese: brie, burrata, fresh goat cheese</li><li>Sliced or pre-cut deli meat</li><li>Anything marked "Keep Refrigerated", even if it's smoked, cured or vacuum-packed</li></ul>
+          <p>Pack with frozen gel packs or dry ice, label the box "Keep Refrigerated", and ship early in the week so it doesn't sit over a weekend.</p>
+        </div>
+      </div>
+      <h3>When a food gift arrives</h3>
+      <ol class="gf-safe-steps">
+        <li><strong>Open it right away</strong> if it says "Keep Refrigerated".</li>
+        <li><strong>Check the temperature.</strong> It should arrive frozen, partly frozen with ice crystals, or below 40°F on a food thermometer.</li>
+        <li><strong>Above 40°F? Don't eat it or even taste it.</strong> Contact the company and ask for a replacement shipped with a proper cold source.</li>
+        <li><strong>Refrigerate it</strong> as soon as it's checked.</li>
+      </ol>
+      <p class="gf-fine">Source: <a href="https://www.usda.gov/node/17662" target="_blank" rel="noopener">USDA guidance on mail-order and gift food</a>. Questions: USDA Meat and Poultry Hotline, 1-888-674-6854. Also: don't send perishables to an office that may be closed for the holidays.</p>
+    </section>`;
+
   const pages = [];
 
   // --------------------------------------------------------------- spokes
@@ -809,6 +988,7 @@ export function giftPages(h, books) {
     </div>
     ${g.stretch ? `<p class="gf-stretch">${g.stretch}</p>` : ""}
     ${g.extra ? `<section class="gf-extra" id="gift-extra"><h2>${esc(g.extra.title)}</h2>${g.extra.body}</section>` : ""}
+    ${g.calendar ? calendarSection("order-by") : ""}
     ${matcher(campaign, true)}
     <section class="gf-sets gf-sets-one" aria-labelledby="gf-set-h">
       <h2 id="gf-set-h">Or give it as a set</h2>
@@ -841,7 +1021,8 @@ export function giftPages(h, books) {
     const chips = [
       ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"], ["Splurge ($50+)", "/gifts/luxury/"]]],
       ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["For him", "/gifts/for-him/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
-      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"], ["Last minute", "/gifts/last-minute/"]]]
+      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"], ["Last minute", "/gifts/last-minute/"]]],
+      ["Tools", [["Gift finder", "#finder"], ["Compare every gift", "#compare"], ["When to order", "#order-by"], ["Shipping food safely", "#food-safety"]]]
     ];
     const faq = [
       ["What do you get someone who loves charcuterie?", "A board book that tells them exactly what to buy and how much, paired with one tool or one jar: a cheese knife set, fig spread, hot honey or honeycomb. Our top pick is 50 Boards, Built by Science ($25.99 paperback) with a jar of fig spread."],
@@ -849,6 +1030,8 @@ export function giftPages(h, books) {
       ["What is the best charcuterie book for a beginner?", "50 Boards, Built by Science. Every board comes with a shopping list with amounts, a build order and swaps, so a beginner can make a full board without guessing."],
       ["What's a good last-minute charcuterie gift?", "An ebook. Buy the PDF, then forward the download email or print our free \"Your first board is on me\" gift card and write the book's name on it."],
       ["How much should I spend on a charcuterie gift?", "$15 to $35 covers most gifts: a book, a knife set or a jar trio. Our ready-made gift sets run from about $35 to $95."],
+      ["When should I order charcuterie gifts for Christmas 2026?", "Order engraved boards before Thanksgiving and perishable cheese or meat boxes by Dec 11. USPS's last recommended send-by dates for Christmas delivery in the lower 48 are Dec 17 for Ground Advantage, Dec 18 for Priority Mail and Dec 19 for Priority Mail Express. After that, give an ebook, a printable or a club gift."],
+      ["Can you mail cheese and salami as a gift?", "Yes. Whole hard salami and hard aged cheese ship without ice; the USDA suggests them for that reason. Soft cheese and sliced meat need frozen gel packs or dry ice, a Keep Refrigerated label and shipping early in the week. If a perishable gift arrives above 40°F, don't eat it."],
       ["What is a good charcuterie gift for a man?", "A board book with a whole dry salami and a jar of whole-grain mustard, or a tool he'll use every time, like a cheese knife set or the Wüsthof cheese plane. Our gifts for him guide has 12 ideas."]
     ];
     pages.push({
@@ -864,13 +1047,15 @@ export function giftPages(h, books) {
     <div class="gf-inner">
       <p class="section-kicker">Gift guide 2026</p>
       <h1>Charcuterie gift ideas for every board lover and every budget</h1>
-      <div class="quick-answer gf-quick"><p><strong>Quick answer:</strong> Our top gift is <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}) with a jar of fig spread. Under $25: <strong>Around the World in 16 Boards</strong> (${esc(B.world ? B.world.paperbackPrice : "")}) or a cheese knife set.</p></div>
+      <div class="quick-answer gf-quick"><p><strong>Quick answer:</strong> Our top gift is <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}) with a jar of fig spread. Under $25: <strong>Around the World in 16 Boards</strong> (${esc(B.world ? B.world.paperbackPrice : "")}) or a cheese knife set. Not sure? Use the <a href="#finder">gift finder</a>.</p></div>
       ${shipStrip}
       <nav class="gf-chips" aria-label="Shop gifts by">
         ${chips.map(([label, list]) => `<div class="gf-chip-row"><span>${esc(label)}</span>${list.map(([t, u]) => `<a href="${u}">${esc(t)}</a>`).join("")}</div>`).join("\n        ")}
       </nav>
     </div>
   </section>
+
+  ${finderSection()}
 
   <section class="gf-top" aria-labelledby="gf-top-h">
     <div class="gf-inner gf-top-inner">
@@ -899,6 +1084,12 @@ export function giftPages(h, books) {
       <div class="gf-set-grid">${["starter", "host", "cheese"].map((k) => setCard(k, "gift_hub_set")).join("\n      ")}</div>
       <p class="gf-fine">Book prices are our list prices. Other items are typical ranges, checked ${PRICES_CHECKED}; check the price at checkout.</p>
     </section>
+
+    ${compareSection()}
+
+    ${calendarSection()}
+
+    ${safetySection}
 
     <section class="gf-guides" aria-labelledby="gf-guides-h">
       <h2 id="gf-guides-h">Every gift guide</h2>

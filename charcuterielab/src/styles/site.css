@@ -6611,3 +6611,62 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .post-body .tc-share-btns .button { flex: 1 1 100%; }
 }
 .post-body ol.tc-make { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+
+/* Gift hub tools (8 Nov 2026): finder, compare table, order-by calendar, food safety */
+.gf-finder { background: #fff; padding: 28px 0 30px; border-bottom: 1px solid rgba(169, 87, 43, 0.1); scroll-margin-top: 80px; }
+.gf-finder h2 { font-family: var(--serif); font-weight: 500; color: var(--green); font-size: clamp(24px, 3vw, 32px); margin: 4px 0 14px; }
+.gf-fd-q { margin: 0 0 12px; }
+.gf-fd-label { margin: 0 0 6px; font-weight: 700; font-size: 15px; color: var(--ink); }
+.gf-fd-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.gf-fd-opt, .gf-cmp-filter button { min-height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(169, 87, 43, 0.25); background: var(--cream); color: var(--green); font: inherit; font-size: 15px; cursor: pointer; }
+.gf-fd-opt[aria-pressed="true"], .gf-cmp-filter button[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff9eb; }
+.gf-fd-opt:focus-visible, .gf-cmp-filter button:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.gf-fd-out { margin-top: 18px; padding: 18px; border-radius: 12px; background: var(--cream); }
+.gf-fd-head { margin: 0 0 12px; font-family: var(--serif); font-size: 20px; color: var(--green); }
+.gf-fd-results { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.gf-fd-results > .gf-fine { grid-column: 1 / -1; margin: 0; }
+.gf-fd-card { display: flex; flex-direction: column; padding: 16px; background: #fff; border-radius: 10px; border: 1px solid rgba(169, 87, 43, 0.12); box-shadow: 0 8px 18px rgba(55, 35, 25, 0.06); }
+.gf-fd-card h3 { font-family: var(--serif); font-weight: 500; font-size: 18px; line-height: 1.25; margin: 4px 0; }
+.gf-fd-card h3 a { color: var(--ink); text-decoration: none; }
+.gf-fd-card p { margin: 4px 0; font-size: 14px; line-height: 1.5; }
+.gf-fd-price { font-weight: 700; color: var(--green); }
+.gf-fd-buy { margin-top: auto; padding-top: 10px; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.gf-fd-why { font-size: 14px; color: var(--green); }
+.gf-fd-more { margin: 12px 0 0; font-size: 15px; }
+.gf-fd-more a { color: var(--green); }
+.gf-compare, .gf-cal, .gf-safe { scroll-margin-top: 80px; }
+.gf-cmp-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.gf-cmp-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid rgba(169, 87, 43, 0.14); background: #fff; }
+.gf-cmp { width: 100%; border-collapse: collapse; font-size: 15px; min-width: 620px; }
+.gf-cmp th, .gf-cmp td { padding: 10px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(169, 87, 43, 0.1); }
+.gf-cmp thead th { position: sticky; top: 0; background: var(--cream); font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.gf-cmp tbody th { font-weight: 600; }
+.gf-cmp a { color: var(--green); }
+.gf-cmp td:nth-child(2) { white-space: nowrap; font-weight: 700; color: var(--green); }
+.gf-cmp-flag { display: inline-block; margin-left: 4px; padding: 1px 8px; border-radius: 999px; background: #e7efe3; color: #2f5a35; font-size: 12px; font-weight: 700; }
+.gf-cmp-slow { background: #f6e3d6; color: #7a2f22; }
+.gf-cal-count { font-weight: 700; color: var(--green); margin: 0 0 10px; }
+.gf-cal-count:empty { display: none; }
+.gf-cal-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.gf-cal-list li { display: grid; grid-template-columns: 220px 1fr; gap: 4px 18px; padding: 14px 16px; border-radius: 10px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.12); border-left: 5px solid var(--gold); }
+.gf-cal-list p { margin: 0; line-height: 1.5; }
+.gf-cal-when { grid-row: span 2; font-weight: 700; color: var(--green); }
+.gf-cal-what { font-weight: 600; }
+.gf-cal-why { font-size: 14px; color: var(--muted); }
+.gf-cal-list li.gf-cal-past { opacity: .55; border-left-color: rgba(169, 87, 43, 0.25); }
+.gf-cal-list li.gf-cal-now { border-color: var(--green); border-left-color: var(--green); box-shadow: 0 10px 24px rgba(55, 35, 25, 0.1); }
+.gf-cal-list li.gf-cal-now .gf-cal-what::before { content: "Order now: "; color: var(--green); }
+.gf-safe-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 12px 0 8px; }
+.gf-safe-col { padding: 16px 18px; border-radius: 10px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.12); }
+.gf-safe-ok { border-top: 5px solid #4f7a55; }
+.gf-safe-cold { border-top: 5px solid #3d6f8f; }
+.gf-safe-col h3, .gf-safe h3 { font-family: var(--serif); font-weight: 500; font-size: 20px; margin: 4px 0 8px; color: var(--ink); }
+.gf-safe-col ul, .gf-safe-steps { line-height: 1.7; padding-left: 20px; margin: 0 0 6px; }
+.gf-safe-col p { font-size: 14px; color: var(--muted); margin: 6px 0 0; line-height: 1.5; }
+.gf-safe a { color: var(--green); }
+@media (max-width: 900px) { .gf-fd-results { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) {
+  .gf-fd-results, .gf-safe-grid { grid-template-columns: 1fr; }
+  .gf-cal-list li { grid-template-columns: 1fr; }
+  .gf-cal-when { grid-row: auto; }
+}
