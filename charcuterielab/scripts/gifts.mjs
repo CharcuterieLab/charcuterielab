@@ -21,7 +21,7 @@ export { AMAZON_TAG } from "./affiliate.mjs";
 import { AMAZON_TAG } from "./affiliate.mjs";
 const PRICES_CHECKED = "October 2026";
 
-export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/", "/gifts/luxury/", "/gifts/last-minute/"];
+export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/", "/gifts/luxury/", "/gifts/for-her/", "/gifts/ship-well/", "/gifts/under-50/", "/gifts/teacher-coworker/", "/gifts/has-everything/", "/gifts/last-minute/"];
 
 // Seasonal: "Gifts" sits in the top menu from Nov 1 to Dec 25 (build date).
 export function giftsInNav(d = new Date()) {
@@ -75,6 +75,11 @@ const ITEMS = {
   engraved: { name: "Mark & Graham engraved wood and marble cheese board", price: [45, 70], buy: ["See it at Mark & Graham", "https://www.markandgraham.com/"], note: "Acacia and marble, in two sizes, and it can be engraved with initials or a company name. An NBC Select reviewer said it feels heavy and good quality.", guide: ["Best charcuterie boards to buy", "/blog/best-charcuterie-boards/"] },
   harryDavid: { name: "Harry & David Ultimate Meat and Cheese Gift Box", price: [100, 120], buy: ["See it at Harry & David", "https://www.harryanddavid.com/"], note: "About 5.5 lb of sausage, salami, cheese and crackers from a name clients recognize. Our top-ranked gift box.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] },
   boarderie: { name: "Boarderie ready-to-serve board", price: [129, 139], buy: ["See it at Boarderie", "https://www.boarderie.com/"], note: "Arrives already arranged on a wooden board, with free overnight shipping. Nothing to slice or plate, so it can go straight onto a conference table.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] },
+  // Added 9 Nov 2026 for the gap guides: our own printables and the advent calendar roundup (no Amazon links).
+  advent: { name: "A cheese advent calendar", price: [30, 90], href: "/blog/cheese-advent-calendars-2026/", hrefLabel: "See this year's calendars", note: "Twelve to twenty-four small cheeses to open one a day in December. The popular ones sell out, so check which are still in stock before you buy." },
+  cheesePack: { name: "Cheese Lover's Pack (printables)", price: [10, 10], href: "/printables/cheese-lovers-pack/", note: "Two cheese field guides, a pairing card deck and an all-cheese board plan in one download. Print it and tuck it in a card." },
+  cardDeck: { name: "Pairing Card Deck (printable)", price: [5, 5], href: "/printables/pairing-card-deck/", note: "Print it, cut it out, and pull the cards for whatever is in the fridge. A small gift for anyone who builds boards." },
+  softGuide: { name: "Soft Cheese Field Guide (printable)", price: [5, 5], href: "/printables/soft-cheese-field-guide/", note: "The ten soft cheeses at the store, from brie to burrata: what to buy, how long to leave each out and what goes with it." },
   swissColony: { asin: "B0CT2FX47Z", name: "Farmers Market meat and cheese gift box", price: [20, 25], q: "Swiss Colony sausage and cheese gift", note: "Beef summer sausage, Vermont sharp cheddar, crackers and mustard in one shelf-stable box, about $22: under the $25 limit, so it works for a long client list.", guide: ["Best charcuterie gift boxes", "/blog/best-charcuterie-gift-boxes/"] }
 };
 
@@ -555,6 +560,188 @@ const GUIDES = [
     ],
     related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Best cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
   },
+  // ---- Added 9 Nov 2026: five gap guides (for her, ships well, under $50,
+  // teacher and coworker, has everything). Same items and books as the
+  // other guides; no new Amazon links.
+  {
+    slug: "for-her",
+    card: "Charcuterie gifts for her",
+    cardLine: "12 gifts for her, mom or the friend who hosts",
+    image: "/images/mothers-day.webp",
+    seoTitle: "Charcuterie Gifts for Her: 12 Ideas for Women and Mom",
+    h1: "Charcuterie gifts for her: 12 ideas for the cheese-loving woman in your life",
+    kicker: "Gift guide · For her",
+    description: "12 charcuterie gifts for women and moms in 2026: a cheese advent calendar, a glass cheese dome, a slate board with chalk, honeycomb, Boards for Two, a cheese club and our Cheese Lover's Pack.",
+    quick: "For the cheese lover: a <strong>cheese advent calendar</strong> or a <strong>glass cheese dome</strong> ($22–30). For a night in: <strong>Boards for Two</strong> with a <strong>boxed honeycomb</strong>. For the host: a <strong>slate board with chalk</strong> ($25–32). Splurge: a <strong>cheese-of-the-month club</strong>.",
+    intro: "The best charcuterie gift for her depends less on her and more on how she uses a board. Some people build one every Friday for two, some host the whole family, and some just want something lovely on the counter. We've grouped the picks that way, from a few dollars to a club that arrives all year.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books and printables. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "advent", best: "Best for December" },
+      { item: "dome", best: "Best for the counter" },
+      { book: "two", best: "Best for a night in", why: "25 boards sized for two, from a first date to New Year's Eve, each with a shopping list, a prep countdown and a drink to pour. The gift that comes with a plan for Friday night." },
+      { item: "slate", best: "Best for the host" },
+      { item: "honeycomb", best: "Best edible gift" },
+      { item: "cheesePack", best: "Best instant gift" },
+      { item: "chocolate", best: "Best small treat" },
+      { item: "boska", best: "Best knife set" },
+      { item: "glasses", best: "Best for wine nights" },
+      { book: "main", best: "Best for the board builder", why: "Fifty complete boards, from a book club afternoon to a bridal shower, each with the shopping list, amounts and build order." },
+      { item: "markers", best: "Best add-on" },
+      { item: "club", best: "Best splurge" }
+    ],
+    set: "her",
+    faq: [
+      ["What is a good charcuterie gift for a woman?", "Something that makes her board nicer to use or to look at: a glass cheese dome, a slate board with chalk, a Boska knife set, or a boxed honeycomb. In December, a cheese advent calendar is the gift people talk about."],
+      ["What do you get a mom who loves charcuterie?", "A cheese-of-the-month club if she likes to try new cheeses, a board book if she hosts the family, or a slate board and knives if she builds boards often. Add a jar of fig spread or honeycomb so there's something to open and eat."],
+      ["What is a romantic charcuterie gift?", "Boards for Two with a bottle of wine and a boxed honeycomb. Every board in the book is sized for two and comes with a drink to pour."],
+      ["What charcuterie gift can I give her today?", "Our Cheese Lover's Pack is an instant download. Print our free gift card, write the gift inside and give it in person."]
+    ],
+    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Charcuterie gifts for him", "/gifts/for-him/"], ["Date night board for two", "/boards/date-night-board-for-two/"]]
+  },
+  {
+    slug: "ship-well",
+    card: "Charcuterie gifts that ship well",
+    cardLine: "11 gifts that need no ice, even in warm weather",
+    image: "/images/charcuterie-gift-basket-packing.jpg",
+    seoTitle: "Meat and Cheese Gifts That Ship Well (No Ice Needed)",
+    h1: "Charcuterie gifts that ship well: 11 meat and cheese gifts that need no ice",
+    kicker: "Gift guide · Ships well",
+    description: "11 charcuterie gifts that ship without ice: a whole dry salami, a shelf-stable sausage and cheese box, Marcona almonds, fig spread, honeycomb, cheese crisps, books and tools, plus the USDA rules for mailing food.",
+    quick: "Send what the USDA says needs no cold pack: a <strong>whole dry salami</strong> ($12–16), <strong>hard aged cheese</strong>, crackers, nuts and jars. Ready-made: a <strong>shelf-stable sausage and cheese box</strong> ($20–25). Add a <strong>board book</strong> so the box turns into a board.",
+    intro: "Mailing a food gift goes wrong in one way: something that needed to stay cold sat in a warm truck. The fix is choosing food that never needed the cold in the first place. Whole dry salami, hard aged cheese, crackers, nuts, jars and chocolate all travel for days, which matters if the gift is going somewhere warm or sitting on a porch.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". Food safety guidance is from the USDA's advice on mail-order food. We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "salami", best: "Best meat to mail" },
+      { item: "swissColony", best: "Best ready-made box" },
+      { item: "marcona", best: "Best nuts" },
+      { item: "figSpread", best: "Best jar" },
+      { item: "honeycomb", best: "Best for a cheese lover" },
+      { item: "cheeseCrisps", best: "Best crunchy add-on" },
+      { item: "mustard", best: "Best cheap add-on" },
+      { book: "main", best: "Best book to send with it", why: "Fifty complete boards with shopping lists. A salami and a jar are a snack; with the book they're the start of a board." },
+      { item: "knives3", best: "Best tool to add" },
+      { item: "hotHoney", best: "Best for spice lovers" },
+      { item: "giftBox", best: "Best if you want a full box" }
+    ],
+    extra: {
+      title: "What ships without ice, and what doesn't",
+      body: "<ul><li><strong>No ice needed:</strong> whole, unopened hard salami and summer sausage, hard aged cheese such as aged cheddar or Parmigiano-Reggiano, country ham, crackers, nuts, honey, jams and chocolate. The USDA names hard salami, hard cheese and country ham as good choices to mail for this reason.</li><li><strong>Needs a cold pack:</strong> soft cheese (brie, burrata, fresh goat cheese), sliced deli meat, and anything labeled \"Keep Refrigerated\", even if it's smoked or vacuum-packed.</li><li><strong>Warm weather:</strong> chocolate can melt and soft cheese spoils. Send salami, hard cheese, nuts and jars, and ship early in the week so the box doesn't sit over a weekend.</li><li><strong>When it arrives:</strong> anything perishable should be below 40°F. If it isn't, don't eat it; ask the company for a replacement.</li></ul><p>Full rules and the USDA hotline are on our <a href=\"/gifts/#food-safety\">gift guide</a>. Packing it yourself? See <a href=\"/blog/charcuterie-gift-basket/\">how to pack a DIY gift basket</a>.</p>"
+    },
+    set: "ship",
+    faq: [
+      ["What meat and cheese gifts ship well in warm weather?", "Whole, unopened dry salami or summer sausage, hard aged cheese such as aged cheddar or Parmesan, crackers, nuts and jars. Skip soft cheese and sliced meat, and ship early in the week."],
+      ["Does salami need to be refrigerated when shipped?", "A whole, unopened dry salami doesn't. It keeps about 6 weeks in the pantry. Once it's sliced, it needs the fridge."],
+      ["Can you mail cheese without ice?", "Hard aged cheese, yes: aged cheddar, Parmigiano-Reggiano, aged Gouda. Soft cheese like brie or fresh goat cheese needs frozen gel packs or dry ice and a Keep Refrigerated label."],
+      ["What should I do if a food gift arrives warm?", "Check it with a food thermometer. Perishable food should be below 40°F. If it's warmer, don't eat it or taste it; contact the company for a replacement."]
+    ],
+    related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/"], ["Why cured meat doesn't spoil", "/blog/why-cured-meat-doesnt-spoil/"], ["Last-minute charcuterie gifts", "/gifts/last-minute/"]]
+  },
+  {
+    slug: "under-50",
+    card: "Charcuterie gifts under $50",
+    cardLine: "12 gifts between $25 and $50",
+    image: "/images/charcuterie-gift-box-50.jpg",
+    seoTitle: "Charcuterie Gifts Under $50: 12 Ideas That Look Pricier",
+    h1: "Charcuterie gifts under $50: 12 ideas that look like you spent more",
+    kicker: "Gift guide · Under $50",
+    description: "12 charcuterie gifts under $50: the Wüsthof cheese plane, a slate board with chalk, a bamboo board and knife set, a glass cheese dome, a mozzarella-making kit, Glencairn glasses and our board books.",
+    quick: "Best under $50: the <strong>Wüsthof cheese plane</strong> ($40–50) or a <strong>bamboo board with a knife drawer</strong> ($20–30) plus a jar of fig spread. Book lover: <strong>50 Boards, Built by Science</strong> ($25.99) with a <strong>slate board</strong>.",
+    intro: "Between $25 and $50 is where a charcuterie gift stops being a stocking stuffer and starts being something they keep for years. That's enough for a real tool, a good board, or a book with something to eat beside it.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "wusthofPlane", best: "Best tool" },
+      { item: "ctft", best: "Best board and knives" },
+      { book: "main", best: "Best book", why: "Fifty complete boards with the shopping list, amounts and build order for each. At $25.99 it leaves room for a jar of fig spread or a slate board." },
+      { item: "slate", best: "Best board" },
+      { item: "dome", best: "Best for the counter" },
+      { item: "kit", best: "Best hands-on gift" },
+      { item: "glencairn", best: "Best for a whiskey drinker" },
+      { item: "acacia", best: "Best wood board" },
+      { book: "guide", best: "Best for the cheese nerd", why: "76 cheeses and 249 other board ingredients in one book: how each tastes, what pairs with it and why, and how much to buy per person." },
+      { item: "storage", best: "Best for the cheese lover" },
+      { item: "coasters", best: "Best for the home bar" },
+      { item: "honeycomb", best: "Best edible add-on" }
+    ],
+    set: "u50",
+    faq: [
+      ["What is a good charcuterie gift under $50?", "A tool they'll use every time, like the Wüsthof cheese plane, or a board with knives, like a bamboo board with a knife drawer. A board book with a slate board also comes in under $50."],
+      ["What can I put in a $50 charcuterie gift basket?", "A whole dry salami, an aged cheddar, crackers, a jar of fig spread, Marcona almonds and a small knife. Our DIY gift basket guide has a full $50 list."],
+      ["Is a cheese knife set a good gift under $50?", "Yes. A bamboo board with a drawer of four knives runs about $20 to $30, so there's room to add a jar. Boska's Monaco+ set is a step up at about $50 to $65."],
+      ["What charcuterie gift looks expensive but isn't?", "A slate board with chalk and a boxed honeycomb. Both look like they came from a cheese shop, and together they run about $35 to $50."]
+    ],
+    related: [["Charcuterie gifts under $25", "/gifts/under-25/"], ["Luxury charcuterie gifts", "/gifts/luxury/"], ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/"]]
+  },
+  {
+    slug: "teacher-coworker",
+    card: "Teacher and coworker gifts",
+    cardLine: "12 charcuterie gifts under $15",
+    image: "/images/charcuterie-gift-box-25.jpg",
+    seoTitle: "Teacher and Coworker Gifts Under $15: 12 Foodie Ideas",
+    h1: "Teacher and coworker gifts under $15: 12 small charcuterie gifts",
+    kicker: "Gift guide · Teacher and coworker",
+    description: "12 charcuterie gifts under $15 for teachers, coworkers and Secret Santa: hot honey, fig spread, Marcona almonds, a cheese plane, honey dippers, slate cheese markers and instant printables.",
+    quick: "Under $15 and easy to wrap: a jar of <strong>hot honey</strong> or <strong>fig spread</strong>, <strong>Marcona almonds</strong>, or a <strong>cheese plane</strong> ($7–18). Instant and under $10: our <strong>Pairing Card Deck</strong> or <strong>Soft Cheese Field Guide</strong> ($5).",
+    intro: "A good small gift is something useful the person wouldn't buy for themselves, that doesn't need a shelf, and that's easy to tuck into a bag. Food does that best. Every pick here costs about $15 or less, and most of them are shelf-stable, so they can sit on a desk until the break.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab printables. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "hotHoney", best: "Best overall" },
+      { item: "figSpread", best: "Best jar" },
+      { item: "marcona", best: "Best snack" },
+      { item: "plane", best: "Best tool" },
+      { item: "knives3", best: "Best for the board builder" },
+      { item: "markers", best: "Best for the host" },
+      { item: "honeyDipper", best: "Best tiny add-on" },
+      { item: "mustard", best: "Best under $10" },
+      { item: "picks", best: "Best party add-on" },
+      { item: "cardDeck", best: "Best instant gift" },
+      { item: "softGuide", best: "Best for the cheese lover" },
+      { item: "chocolate", best: "Best sweet" }
+    ],
+    extra: {
+      title: "Make it look like more",
+      body: "<p>Pair one jar with one tool, like hot honey and a honey dipper, or fig spread and a cheese plane. Tie them together with twine and a tag that says what goes with what (\"hot honey + sharp cheddar\"). Two small things with a reason to go together look like a planned gift. Need a dozen? A jar of hot honey or Marcona almonds per person keeps the cost under $15 each.</p>"
+    },
+    set: "stocking",
+    faq: [
+      ["What is a good food gift for a teacher under $15?", "A jar of hot honey or fig spread, Marcona almonds, or a dark chocolate bar. They're shelf-stable, so they can wait on a desk until the break."],
+      ["What is a good Secret Santa gift under $15 for a foodie?", "A cheese plane, a jar of hot honey with a honey dipper, or a set of slate cheese markers. All are useful, small and easy to wrap."],
+      ["Can I give a printable as a coworker gift?", "Yes. Print it, fold it into a card, or forward the download. Our Pairing Card Deck and field guides cost $5."],
+      ["Are food gifts OK for teachers?", "Usually, but check for allergies and school rules first. Nut-free picks here are hot honey, fig spread, mustard, the cheese plane and the printables."]
+    ],
+    related: [["Charcuterie stocking stuffers", "/gifts/stocking-stuffers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"]]
+  },
+  {
+    slug: "has-everything",
+    card: "For the person who has everything",
+    cardLine: "10 gifts they won't already own",
+    image: "/images/50-boards-49-showstopper-grand.webp",
+    seoTitle: "Gifts for Someone Who Has Everything: 10 Foodie Ideas",
+    h1: "Charcuterie gifts for someone who has everything: 10 they won't already own",
+    kicker: "Gift guide · Has everything",
+    description: "10 charcuterie gifts for the person who has everything: a cheese-of-the-month club, a cheese advent calendar, a mozzarella-making kit, Impossible Boards, a Laguiole set, an engraved board and a Boarderie board.",
+    quick: "Give an experience, not a thing: a <strong>cheese-of-the-month club</strong>, a <strong>cheese advent calendar</strong> or a <strong>mozzarella-making kit</strong> ($25–32). For the host who has seen it all: <strong>Impossible Boards</strong>, 25 showpiece boards.",
+    intro: "The person who has everything already owns a board, a knife set and a cheese plane. What they don't have is something that keeps arriving, something they make themselves, or a board nobody at their party has seen before. That's where these picks come from.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "club", best: "Best gift that keeps arriving" },
+      { item: "advent", best: "Best for December" },
+      { item: "kit", best: "Best hands-on gift" },
+      { book: "impossible", best: "Best for the host who has seen it all", why: "Twenty-five showpiece boards, from a salami dragon to a cheese cake, each with the trick that makes it work and a shopping list for 12 to 15." },
+      { item: "boarderie", best: "Best ready-to-serve board" },
+      { item: "laguiole", best: "Best knife set" },
+      { item: "engraved", best: "Best keepsake" },
+      { other: "ruhlman", best: "Best for learning to cure meat" },
+      { item: "honeycomb", best: "Best small surprise" },
+      { book: "world", best: "Best for the traveler", why: "Sixteen international boards, from Spain to Korea, with the shopping list for each. A trip they can take from the kitchen." }
+    ],
+    set: "luxury",
+    faq: [
+      ["What do you get a foodie who has everything?", "Something that keeps arriving, like a cheese-of-the-month club, or something they make themselves, like a mozzarella-making kit. A cheese advent calendar works for December."],
+      ["What is a unique charcuterie gift?", "A book of showpiece boards like Impossible Boards, a home cheese-making kit, or a curing book like Ruhlman and Polcyn's Charcuterie for someone who wants to make their own salami."],
+      ["Is an experience gift better than a thing?", "For someone who has everything, usually yes. A club or a kit gives them something new to try instead of something to store."]
+    ],
+    related: [["Luxury charcuterie gifts", "/gifts/luxury/"], ["Best cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Impossible boards", "/books/impossible-boards/"]]
+  },
   {
     slug: "last-minute",
     calendar: true,
@@ -609,6 +796,9 @@ const SETS = {
   home: { name: "The housewarming gift", book: "main", items: ["acacia", "ramekins"], line: "A first board for the new kitchen, the little bowls it needs and fifty boards to fill it." },
   him: { name: "The meat lover's gift", book: "main", items: ["salami", "boska", "mustard"], line: "Fifty boards, a whole salami to start the first one, the knives to cut it and the mustard that finishes it." },
   client: { name: "The client thank-you", book: "world", items: ["marcona", "figSpread"], line: "A book that keeps, plus two shelf-stable jars that can sit in a mailroom. Easy to send down a list." },
+  her: { name: "The night-in gift", book: "two", items: ["honeycomb", "chocolate", "glasses"], line: "Twenty-five boards for two, a honeycomb, a bar of dark chocolate and two glasses to pour into." },
+  ship: { name: "The no-ice gift box", book: "main", items: ["salami", "figSpread", "marcona"], line: "Fifty boards and three things that ship anywhere without a cold pack." },
+  u50: { name: "The under-$50 board kit", book: "world", items: ["ctft"], line: "A bamboo board with a drawer of knives and sixteen boards to build on it." },
   luxury: { name: "The grand board kit", book: "main", items: ["laguiole", "engraved", "honeycomb"], line: "An engraved board, a French knife set, a honeycomb and fifty boards to build on it." }
 };
 
@@ -629,9 +819,7 @@ export function giftPages(h, books) {
     return `<div class="gf-buy">${paper}${ebook}${soon}</div>`;
   }
 
-  // Shipping strip: date logic runs in the browser so it changes without a rebuild.
-  const shipStrip = `<p class="gf-ship" data-gf-ship>Giving a paperback? Amazon shows the delivery date at checkout. For Christmas, aim to order by mid-December.</p>
-  <script>(function(){try{var e=document.querySelector("[data-gf-ship]");if(!e)return;var d=new Date(),m=d.getMonth(),n=d.getDate();if(m===11&&n>=26){e.hidden=true;return}if(m===11&&n>=18){e.classList.add("gf-ship-late");e.innerHTML='Too late to ship a paperback? Give the ebook instead: buy it, then forward the download email or print our <a href="/gifts/#gift-card">free gift card</a>.'}}catch(x){}})();</script>`;
+  // shipStrip (the "order now" line under each quick answer) is defined after ORDER_BY below.
 
   function matcher(campaign, compact = false) {
     const order = ["main", "impossible", "world", "guide", "plant", "keto", "two"].filter((k) => B[k]);
@@ -784,12 +972,14 @@ export function giftPages(h, books) {
     ["wine", "Wine lover", "wine-and-cheese-lovers"],
     ["host", "The host", "hostess-gifts"],
     ["him", "Meat lover / for him", "for-him"],
+    ["her", "For her / mom", "for-her"],
     ["beginner", "Beginner", "charcuterie-books"],
     ["home", "New home", "housewarming"],
     ["keto", "Keto", "keto-gifts"],
     ["vegan", "Vegan", "vegan-foodie-gifts"],
     ["client", "Client or team", "client-gifts"],
-    ["everything", "Has everything", "luxury"],
+    ["everything", "Has everything", "has-everything"],
+    ["teacher", "Teacher or coworker", "teacher-coworker"],
     ["elephant", "White elephant", "white-elephant"],
     ["stocking", "Stocking", "stocking-stuffers"]
   ];
@@ -858,6 +1048,7 @@ function run(){var P=D.people[S.who];if(!P)return;var list=P.picks.slice(),note=
 if(S.when==="week")list=list.filter(function(p){return!p.slow});
 if(S.when==="today")list=list.filter(function(p){return p.instant});
 var f=list.filter(fits);if(S.when==="today"&&f.length<3){D.instant.forEach(function(p){if(f.length<4&&fits(p)&&!f.some(function(q){return q.key===p.key}))f.push(p)})}if(!f.length){f=list.slice(0,3);note='Nothing in this guide fits that budget exactly, so here are its top picks.'}
+if(S.who!=="beginner"){var nb=f.filter(function(p){return p.key.indexOf("book:")!==0}),bk=f.filter(function(p){return p.key.indexOf("book:")===0}),mix=[];while(nb.length||bk.length){if(nb.length)mix.push(nb.shift());if(nb.length)mix.push(nb.shift());if(bk.length)mix.push(bk.shift())}f=mix}
 f=f.slice(0,4);H.textContent=(S.when==="today"?"Gifts you can give today":"Top gifts")+" for: "+P.label.toLowerCase();
 R.innerHTML=f.map(card).join("")+(note?'<p class="gf-fine">'+note+"</p>":"");
 M.innerHTML='See all '+P.picks.length+' picks in <a href="'+e(P.guide)+'">'+e(P.card)+"</a>"+(S.when==="today"?' or <a href="/gifts/last-minute/">every last-minute gift</a>.':".")}
@@ -915,6 +1106,21 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
     ["2026-12-19", "Saturday, Dec 19", "Last day for USPS Priority Mail Express", "The final USPS option. UPS and FedEx post their own dates; check before you buy."],
     ["2026-12-25", "Dec 20 to Christmas morning", "Instant gifts only", "Ebooks, printables, a club gift or a DIY board kit from the grocery store, plus our free printable gift card."]
   ];
+  // "Order now" line under every gift page's quick answer (9 Nov 2026): the
+  // current step of ORDER_BY, worked out on the visitor's clock, so it moves
+  // on without a rebuild. After the last shipping day it switches to the
+  // instant gifts, and after Christmas it hides.
+  const SHIP_LINES = [
+    ["2026-11-25", "Engraved and personalized boards need ordering before Thanksgiving."],
+    ["2026-11-30", "Black Friday to Cyber Monday (Nov 27 to 30) is the time to buy knives, boards and books."],
+    ["2026-12-11", "Order perishable gift boxes and cheese clubs by Friday, Dec 11."],
+    ["2026-12-17", "USPS Ground Advantage ships until Thursday, Dec 17, and Priority Mail until Friday, Dec 18."],
+    ["2026-12-18", "Last day for USPS Priority Mail: Friday, Dec 18."],
+    ["2026-12-19", "Last day for USPS Priority Mail Express: Saturday, Dec 19."]
+  ];
+  const shipStrip = `<p class="gf-ship" data-gf-ship data-steps="${esc(JSON.stringify(SHIP_LINES))}"><strong>Christmas 2026:</strong> ${esc(SHIP_LINES[0][1])} <a href="/gifts/#order-by">Every deadline</a></p>
+  <script>(function(){try{var e=document.querySelector("[data-gf-ship]");if(!e)return;var S=JSON.parse(e.dataset.steps),t=new Date(),d=new Date(t.getFullYear(),t.getMonth(),t.getDate());if(t.getMonth()===11&&t.getDate()>=26||t.getMonth()===0){e.hidden=true;return}var a=' <a href="/gifts/#order-by">Every deadline</a>';for(var i=0;i<S.length;i++){var p=S[i][0].split("-"),b=new Date(+p[0],+p[1]-1,+p[2]);if(d<=b){e.innerHTML="<strong>Christmas 2026:</strong> "+S[i][1]+a;return}}e.classList.add("gf-ship-late");e.innerHTML='<strong>Too late to ship?</strong> Give something instant: an ebook, a printable or a club gift, with our <a href="/gifts/#gift-card">free printable gift card</a>.'+a}catch(x){}})();</script>`;
+
   function calendarSection(id = "order-by") {
     return `<section class="gf-cal" id="${id}" aria-labelledby="${id}-h">
       <p class="section-kicker">Holiday timeline</p>
@@ -1025,16 +1231,25 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
   {
     const path = "/gifts/";
     const main = B.main;
-    const guideCards = [
-      ...GUIDES.map((g) => [g.card, `/gifts/${g.slug}/`, g.cardLine, g.image]),
+    const personCards = GUIDES.map((g) => [g.card, `/gifts/${g.slug}/`, g.cardLine, g.image]);
+    // 9 Nov 2026: the ranked gift posts (where most gift searches land) sit
+    // beside the guides by person, so both halves of the gift content meet here.
+    const giftCards = [
+      ["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/", "Every calendar out this year, and which sell out first", "/images/cheese-advent-calendars-2026.jpg"],
+      ["Meat and cheese gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/", "Ten boxes from $25 to $190, with the one we'd send", "/images/charcuterie-gift-basket.jpg"],
+      ["Charcuterie gift baskets on Amazon", "/blog/best-charcuterie-gift-baskets-amazon/", "The ones worth it, compared", "/images/best-charcuterie-gift-baskets-amazon.jpg"],
+      ["Cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/", "A gift that arrives all year", "/images/charcuterie-gift-basket-packing.jpg"],
       ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/", "What to pack at $25, $50 and $100", "/images/charcuterie-gift-box-50.jpg"],
       ["The best charcuterie boards to buy", "/blog/best-charcuterie-boards/", "8 picks from $20 bamboo to a marble splurge", "/images/best-charcuterie-boards.jpg"],
-      ["The best cheese knife sets", "/blog/best-cheese-knife-sets/", "Which knives you need, from $15 to $100", "/images/best-cheese-knife-sets.jpg"]
+      ["The best cheese knife sets", "/blog/best-cheese-knife-sets/", "Which knives you need, from $15 to $100", "/images/best-cheese-knife-sets.jpg"],
+      ["The best panettone", "/blog/best-panettone/", "The Italian Christmas cake people actually want", "/images/dessert-board.webp"]
     ];
+    const guideCards = [...personCards, ...giftCards];
     const chips = [
-      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"], ["Splurge ($50+)", "/gifts/luxury/"]]],
-      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["For him", "/gifts/for-him/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
-      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"], ["Last minute", "/gifts/last-minute/"]]],
+      ["Budget", [["Under $25", "/gifts/under-25/"], ["Under $50", "/gifts/under-50/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"], ["Splurge ($50+)", "/gifts/luxury/"]]],
+      ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["For him", "/gifts/for-him/"], ["For her", "/gifts/for-her/"], ["Has everything", "/gifts/has-everything/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
+      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"], ["Teacher & coworker", "/gifts/teacher-coworker/"], ["Ships well", "/gifts/ship-well/"], ["Last minute", "/gifts/last-minute/"]]],
+      ["Popular", [["Cheese advent calendars", "/blog/cheese-advent-calendars-2026/"], ["Gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Cheese clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Knife sets", "/blog/best-cheese-knife-sets/"]]],
       ["Tools", [["Gift finder", "#finder"], ["Compare every gift", "#compare"], ["When to order", "#order-by"], ["Shipping food safely", "#food-safety"]]]
     ];
     const faq = [
@@ -1060,7 +1275,7 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
     <div class="gf-inner">
       <p class="section-kicker">Gift guide 2026</p>
       <h1>Charcuterie gift ideas for every board lover and every budget</h1>
-      <div class="quick-answer gf-quick"><p><strong>Quick answer:</strong> Our top gift is <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}) with a jar of fig spread. Under $25: <strong>Around the World in 16 Boards</strong> (${esc(B.world ? B.world.paperbackPrice : "")}) or a cheese knife set. Not sure? Use the <a href="#finder">gift finder</a>.</p></div>
+      <div class="quick-answer gf-quick"><p><strong>Quick answer:</strong> Match the gift to the person. <strong>Cheese lover:</strong> cheese storage bags or a good knife set. <strong>Host:</strong> a jar trio of fig spread, hot honey and mustard. <strong>Builds boards:</strong> our <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}). <strong>Under $25:</strong> a cheese plane or a slate board. <strong>Need it today:</strong> an ebook or printable with our free gift card. Or answer three questions in the <a href="#finder">gift finder</a>.</p></div>
       ${shipStrip}
       <img class="gf-hero-img" src="${esc(h.thumb("/images/charcuterie-gift-basket.jpg", "m"))}" alt="A charcuterie gift basket with cheese, salami, crackers and a jar of fig spread" width="1200" height="800" fetchpriority="high" decoding="async">
       <nav class="gf-chips" aria-label="Shop gifts by">
@@ -1091,7 +1306,10 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
   <div class="gf-inner gf-body">
     <section class="gf-guides gf-guides-top" aria-labelledby="gf-guides-h">
       <h2 id="gf-guides-h">Every gift guide</h2>
-      <div class="gf-guide-grid">${guideCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
+      <h3 class="gf-guides-sub">By person and occasion</h3>
+      <div class="gf-guide-grid">${personCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
+      <h3 class="gf-guides-sub">Ranked gifts and how-tos</h3>
+      <div class="gf-guide-grid">${giftCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
     </section>
 
     ${matcher("gift_hub", true)}

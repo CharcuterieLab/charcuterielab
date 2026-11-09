@@ -1,0 +1,14 @@
+/* Gift hub and gift posts tied together (9 Nov 2026) */
+.gf-guides-sub { margin: 18px 0 10px; font-size: 1.1rem; color: var(--green-deep); }
+.gf-guides-sub:first-of-type { margin-top: 6px; }
+.gift-strip { margin: 26px 0; padding: 14px 16px; border-radius: 14px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.2); font-family: var(--sans); }
+.gift-strip[hidden] { display: none; }
+.gift-strip p { margin: 0; }
+.gift-strip-h { font-size: 15.5px; line-height: 1.45; color: var(--ink); }
+.gift-strip-h span { color: var(--muted); }
+.gift-strip-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px !important; }
+.gift-strip-links a { display: inline-block; padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(169, 87, 43, 0.3); font: 600 13.5px var(--sans); color: var(--green-deep); text-decoration: none; }
+.gift-strip-links a:first-child { background: var(--green-deep); border-color: var(--green-deep); color: #fff; }
+.gift-strip-links a:hover { background: rgba(169, 87, 43, 0.08); }
+.gift-strip-links a:first-child:hover { background: var(--green); }
+.gf-ship strong { font-weight: 800; }

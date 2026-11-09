@@ -50,6 +50,20 @@ async function* pages(dir, rel = "") {
   }
 }
 
+// Gift posts (9 Nov 2026): every post a gift shopper lands on gets a slim
+// "Shopping for a gift?" strip into the gift guide, before its FAQ, so the
+// ranked posts and the /gifts/ guides tie together both ways.
+const GIFT_POSTS = new Set(["cheese-advent-calendars-2026", "cheese-advent-calendar-australia-canada", "best-charcuterie-gift-boxes", "best-charcuterie-gift-baskets-amazon", "charcuterie-gift-basket", "best-cheese-of-the-month-clubs", "best-cheese-knife-sets", "best-charcuterie-boards", "best-charcuterie-board-accessories", "amazon-charcuterie-board-sets-reviewed", "best-panettone", "best-hot-cocoa-mix", "best-store-bought-christmas-cookies"]);
+function giftStrip(slug) {
+  const us = slug !== "cheese-advent-calendar-australia-canada";
+  return `<aside class="gift-strip" data-gift-strip aria-label="Charcuterie gift guide">
+      <p class="gift-strip-h"><strong>Shopping for a gift?</strong>${us ? ` <span data-gs-when>Order perishable gift boxes by Dec 11 and anything sent USPS Priority Mail by Dec 18.</span>` : " Our gift guides cover every budget, and the ebooks and printables arrive instantly anywhere."}</p>
+      <p class="gift-strip-links"><a href="/gifts/#finder">Gift finder</a><a href="/gifts/under-25/">Under $25</a><a href="/gifts/cheese-lovers/">Cheese lovers</a><a href="/gifts/last-minute/">Last-minute</a><a href="/gifts/">All gift guides</a></p>
+      <script>(function(){try{var a=document.currentScript.parentNode,t=new Date();if(t.getMonth()===11&&t.getDate()>=26||t.getMonth()===0){a.hidden=true;return}var w=a.querySelector("[data-gs-when]");if(!w)return;var d=t.getMonth()===11?t.getDate():0;if(d>19)w.innerHTML='Too late to ship? Give an ebook or printable with our <a href="/gifts/#gift-card">free gift card</a>.';else if(d>11)w.textContent="USPS Priority Mail ships for Christmas until Dec 18, Priority Mail Express until Dec 19."}catch(e){}})();</script>
+    </aside>
+    `;
+}
+
 export async function calmHubs(dist) {
   const done = [];
   const n = { holidays: 0, ingredients: 0, guides: 0, refund: 0 };
@@ -107,6 +121,14 @@ export async function calmHubs(dist) {
         html = addOpenJs(html);
         n.holidays++;
       }
+      // ---- Gift posts: a way into the gift guide
+      const gp = /^\/blog\/([^/]+)\/$/.exec(path);
+      if (gp && GIFT_POSTS.has(gp[1]) && !html.includes("data-gift-strip")) {
+        const hm = /<h2[^>]*>(?:[^<]*?(?:questions|FAQ|What to look for|Key dates))[^<]*<\/h2>/i.exec(html);
+        let at = hm ? hm.index : html.indexOf('<section class="lab-next"');
+        if (hm) { const kick = html.lastIndexOf('<p class="section-kicker">', at); if (kick > at - 200 && kick > 0) at = kick; }
+        if (at > 0) { html = html.slice(0, at) + giftStrip(gp[1]) + html.slice(at); n.giftPosts = (n.giftPosts || 0) + 1; }
+      }
       // ---- Ingredient pages: one email ask is enough
       if (/^\/ingredients\/[^/]+\/$/.test(path) && html.includes("ing-detail")) { html = dropClosingPanel(html); n.ingredients++; }
       // ---- Best Buys guides: when last checked, and how they're scored
@@ -128,6 +150,6 @@ export async function calmHubs(dist) {
       return html === before ? before : html;
     });
   }
-  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`);
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`);
   return done;
 }
