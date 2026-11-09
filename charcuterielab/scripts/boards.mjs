@@ -518,6 +518,8 @@ function recipeSchema(h, b) {
     recipeYield: `${b.serves} people`,
     ...(minutes ? { prepTime: `PT${minutes}M`, totalTime: `PT${minutes}M` } : {}),
     keywords: [b.h1.toLowerCase(), "charcuterie board", catOf(b).name.toLowerCase()].join(", "),
+    // Names only, matching the free "What's on the board" list (8 Nov 2026).
+    recipeIngredient: (b.groups || []).flatMap((g) => g.items.map((i) => i.name)),
     recipeInstructions: b.timeline.map((t, k) => ({ "@type": "HowToStep", position: k + 1, name: t.when, text: t.what, url: `${pageUrl}#step-${k + 1}` }))
   })}</script>`;
 }
@@ -620,6 +622,48 @@ function planBox(h, b, single) {
     </section>`;
 }
 
+// "What's on the board" (8 Nov 2026): every item by group, free, linked to
+// its ingredient page and, where a buying guide covers it, our #1 brand. The
+// $3 plan (or the book) keeps the amount and price of each item, where it
+// goes and the full timeline. The free totals table sits under the list.
+// "Our pick" only shows when the Best Buys pick is clearly the same food as the
+// board item (a guide can cover several ingredients, and its top pick is for one).
+const PICK_STOP = new Set("a and or of the for with plus to de di la le board more optional month months about style cubed dry dried aged sharp white orange yellow golden fresh thin sliced small large block round wheel wedge wedges mild smoked extra local pitted plain good whole store brand domestic thick mini log logs ball oz lb".split(" "));
+const PICK_GENERIC = new Set("cheese cracker chip olive mustard honey jam sausage nut".split(" "));
+const PICK_ALIAS = [[/affinois/i, "brie"], [/salumeria/i, "salami"], [/membrillo/i, "quince paste"], [/cochons/i, "pate"], [/chenel/i, "chevre"], [/parmigiano/i, "parmesan"]];
+const pickWords = (t) => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").split(/[^a-z]+/).filter((w) => w.length > 1).map((w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w));
+function pickFits(item, pick) {
+  if (/\bdip\b/i.test(pick) && !/\bdip\b/i.test(item)) return false;
+  if (/vegan|cashew|plant|dairy-free|coconut/i.test(item) && !/vegan|dairy-free|plant/i.test(pick)) return false;
+  const P = new Set(pickWords(pick + " " + PICK_ALIAS.filter(([re]) => re.test(pick)).map(([, w]) => w).join(" ")));
+  const S = pickWords(item).filter((w) => !PICK_STOP.has(w));
+  if (!S.length) return false;
+  const N = S.filter((w) => !PICK_GENERIC.has(w));
+  return N.length ? N.some((w) => P.has(w)) : S.every((w) => P.has(w));
+}
+
+function onBoard(h, b, known, single) {
+  const groups = (b.groups || []).filter((g) => g.items && g.items.length);
+  if (!groups.length) return "";
+  const n = groups.reduce((a, g) => a + g.items.length, 0);
+  const item = (i) => {
+    const name = known.has(i.slug) ? `<a href="/ingredients/${i.slug}/">${h.escapeHtml(i.name)}</a>` : h.escapeHtml(i.name);
+    const bf = h.bestFor && known.has(i.slug) ? h.bestFor(i.slug) : null;
+    const best = bf && pickFits(i.name, bf.pick) ? bf : null;
+    return `<li>${name}${best ? ` <a class="bl-on-pick" href="/blog/${best.slug}/">Our pick: ${h.escapeHtml(best.pick)}</a>` : ""}</li>`;
+  };
+  const href = single ? (h.withTracking ? h.withTracking(single.url, `board_list_${b.slug}`) : single.url) : "";
+  return `<section class="bl-section bl-on" aria-labelledby="bl-on">
+      <h2 id="bl-on">What's on the board</h2>
+      <p class="bl-note">All ${n} items, by group. The full plan adds the amount and price of each one, where it goes on the board, and the build steps.</p>
+      <div class="bl-on-groups">
+        ${groups.map((g) => `<div class="bl-on-g"><h3>${h.escapeHtml(g.name)} <span>${g.items.length}</span></h3><ul>${g.items.map(item).join("")}</ul></div>`).join("\n        ")}
+      </div>
+      ${boardAmounts(h, b)}
+      <p class="bl-on-cta">${single ? `<a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the shopping list with amounts · ${h.escapeHtml(single.price)}</a>` : `<a class="button primary" href="#bl-book-title">Get the full plan</a>`}</p>
+    </section>`;
+}
+
 export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const cat = catOf(b);
   const known = new Set(bySlug.keys());
@@ -638,7 +682,8 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   // Sales layout (26 Oct 2026): the $3 plan (or, with no $3 plan yet, the book)
   // sits right under the hero; the item list, the printable card and the
   // newsletter are gone; the book the board is in closes the page.
-  const jump = [...(planId ? [["The plan", planId]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"], ...(single && offer ? [["The book", "bl-book-title"]] : [])];
+  const onList = onBoard(h, b, known, single);
+  const jump = [...(planId ? [["The plan", planId]] : []), ...(onList ? [["What's on it", "bl-on"]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"], ...(single && offer ? [["The book", "bl-book-title"]] : [])];
   const lead = (t) => { const m = String(t).match(/^(.*?[.!?])(\s+[\s\S]*)?$/); return m ? `<strong>${h.escapeHtml(m[1])}</strong>${h.escapeHtml(m[2] || "")}` : h.escapeHtml(t); };
 
   return h.layout({
@@ -671,6 +716,8 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
     </header>
 <!--no-offers-->
     ${single ? planBox(h, b, single) : offer}
+
+    ${onList}
 
     <section class="bl-section" aria-labelledby="bl-why">
       <h2 id="bl-why">Why it works</h2>

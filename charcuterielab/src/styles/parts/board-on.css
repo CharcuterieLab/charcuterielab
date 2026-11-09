@@ -1,0 +1,18 @@
+/* Board pages: "What's on the board" (8 Nov 2026) */
+.bl-on-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+.bl-on-g { padding: 12px 14px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); }
+.bl-on-g h3 { margin: 0 0 6px; font-size: 1.05rem; color: var(--green-deep); }
+.bl-on-g h3 span { font: 600 13px var(--sans); color: var(--muted); margin-left: 4px; }
+.bl-on-g ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.bl-on-g li { margin: 0; font-size: 15.5px; line-height: 1.35; }
+.bl-on-g li > a:first-child { color: var(--ink); text-decoration-color: rgba(169, 87, 43, 0.4); text-underline-offset: 2px; }
+.bl-on-pick { display: block; width: fit-content; margin-top: 1px; font: 600 12.5px var(--sans); color: var(--green); text-decoration: none; }
+.bl-on-pick:hover { text-decoration: underline; }
+.bl-on .bl-amounts { margin-top: 18px; }
+.bl-on-cta { margin: 16px 0 0; }
+@media (max-width: 560px) {
+  .bl-on-groups { grid-template-columns: 1fr; gap: 8px; }
+  .bl-on-g { padding: 10px 12px; }
+  .bl-on-g ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 12px; }
+  .bl-on-cta .button { width: 100%; justify-content: center; text-align: center; }
+}

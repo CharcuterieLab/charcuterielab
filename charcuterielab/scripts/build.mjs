@@ -3107,6 +3107,19 @@ async function build() {
     const STORE_POSTS = { "best-costco-charcuterie-items": "costco-charcuterie-board", "best-trader-joes-cheeses": "trader-joes-charcuterie-board", "best-aldi-charcuterie-items": "budget-charcuterie-board", "best-walmart-charcuterie-items": "budget-charcuterie-board" };
     const postSet = new Set(posts.map((p) => p.slug));
     const titleOf = new Map(posts.map((p) => [p.slug, p.title]));
+    // Ingredient -> its most specific buying guide and #1 pick, for the
+    // "Our pick" links on board pages (8 Nov 2026). Store and gift guides
+    // are skipped; a guide that covers fewer ingredients wins.
+    {
+      const cardBy = new Map(BEST_CARDS.filter((c) => !["stores", "gifts"].includes(c.cat)).map((c) => [c.slug, c]));
+      const forIng = new Map();
+      for (const [g, ings] of guideIngs) {
+        const c = cardBy.get(g);
+        if (!c) continue;
+        for (const s of ings) { const cur = forIng.get(s); if (!cur || ings.length < cur.n) forIng.set(s, { slug: g, pick: c.pick, n: ings.length }); }
+      }
+      boardHelpers.bestFor = (slug) => forIng.get(slug) || null;
+    }
     // Seasonal/review guides listed on the Best Buys hub without best- in the slug get the block too.
     for (const post of posts.filter((p) => (/^best-/.test(p.slug) || BEST_CARDS.some((c) => c.slug === p.slug)) && p.slug !== "best-charcuterie-brands")) {
       const ings = (guideIngs.get(post.slug) || []).filter((s) => ingBy.has(s));
