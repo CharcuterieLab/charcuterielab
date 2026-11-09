@@ -67,7 +67,7 @@ Shortbread is the cracker of the dessert board: buttery, not too sweet and sturd
 <dl class="sk-facts"><div><dt>Best for</dt><dd>A cheap, classic sleeve</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Easy-open sleeve, low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild flavor.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=keebler+sandies+classic+shortbread" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B09H3GVQKV" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>6th in both <a href="https://www.tastingtable.com/2197875/store-bought-butter-cookies-shortbread-ranked/" target="_blank" rel="noopener">Tasting Table</a> and <a href="https://www.thedailymeal.com/1607985/store-bought-shortbread-cookies-ranked-worst-best/" target="_blank" rel="noopener">Daily Meal</a>: crumbly, with butter in the ingredients and a vanilla note, though the butter flavor is mild.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-6">

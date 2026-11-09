@@ -71,7 +71,7 @@ A tray of shrimp cocktail is the easiest party appetizer there is, and the sauce
 <dl class="sk-facts"><div><dt>Ranked</dt><dd>#3 of 9 at Chowhound</dd></div><div><dt>Made with</dt><dd>Lemon, horseradish, red pepper</dd></div><div><dt>Where</dt><dd>Nearly every grocery store</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Thick and well balanced with lemon, horseradish and red pepper, and it complemented shrimp without a strong aftertaste.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Buy the Original, not Extra Hot: The Daily Meal ranked Extra Hot last of 11, with heat that fades and corn syrup high on the label.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=mccormick+cocktail+sauce+original" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00KOBIGPQ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Third from the top of nine at Chowhound (<a href="https://www.chowhound.com/1840911/store-bought-cocktail-sauces-ranked" target="_blank" rel="noopener">Chowhound</a>). McCormick Extra Hot ranked last at The Daily Meal (<a href="https://www.thedailymeal.com/1590507/ultimate-ranking-store-bought-cocktail-sauces" target="_blank" rel="noopener">The Daily Meal</a>).</p></details>
 </article>
 </div>

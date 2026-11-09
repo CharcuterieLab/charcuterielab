@@ -65,7 +65,7 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Shelf-stable pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Keeps in the pantry.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pizza-sized slices.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=sugardale+pepperoni" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00MX2WQ3W" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1847567/store-bought-pepperoni-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s best shelf-stable pepperoni, with a pronounced paprika note.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 4 · Easy to find 4</span></p></details>
 </article>
 </div>

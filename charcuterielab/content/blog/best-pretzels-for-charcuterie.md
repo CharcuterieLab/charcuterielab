@@ -58,7 +58,7 @@ Flat pretzel crisps carry cheese; thick twists are better for dipping.
 <dl class="sk-facts"><div><dt>Best for</dt><dd>Big, hearty pretzels</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Walmart and most grocery stores.</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Top-ranked flavor at a low price.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Large and thick, so they take up room and don&#x27;t carry toppings.</p>
-<div class="sk-actions"><a class="button primary sk-buy" href="https://www.walmart.com/search?q=utz+sourdough+specials+extra+dark" target="_blank" rel="noopener">Find it at Walmart</a></div>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07RSDHBKJ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://tastingtable.com/1325617/popular-pretzel-brands-ranked-worst-best" target="_blank" rel="noopener">Tasting Table</a> ranked these 1st of 14 for large, hearty pieces, and <a href="https://sporked.com/article/best-pretzels" target="_blank" rel="noopener">Sporked</a> gave Utz Sourdough Specials 7 out of 10 for being light, crunchy and well salted.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
