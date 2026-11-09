@@ -635,6 +635,12 @@ const pickWords = (t) => String(t).toLowerCase().normalize("NFD").replace(/[\u03
 export function pickFits(item, pick) {
   if (/\bdip\b/i.test(pick) && !/\bdip\b/i.test(item)) return false;
   if (/di parma/i.test(item) && !/parma/i.test(pick)) return false; // a protected name needs the real thing
+  // A pick that is a different style of the same food (8 Nov 2026).
+  for (const re of [/praline|candied/i, /crisps?\b/i, /\baged\b|1000 day/i]) if (re.test(pick) && !re.test(item)) { if (re.source.includes("aged") ? /baby|young|mild|fresh/i.test(item) : true) return false; }
+  const CHEESE = /cheddar|parmesan|parmigiano|gouda|swiss|brie|havarti|manchego|provolone|mozzarella|feta|asiago|pecorino|gruy[eè]re|stilton|gorgonzola/gi;
+  const inItem = new Set((item.match(CHEESE) || []).map((w) => w.toLowerCase()));
+  const inPick = (pick.match(CHEESE) || []).map((w) => w.toLowerCase());
+  if (inItem.size && inPick.length && !inPick.some((w) => inItem.has(w) || (w.startsWith("parm") && [...inItem].some((x) => x.startsWith("parm"))))) return false;
   if (/vegan|cashew|plant|dairy-free|coconut/i.test(item) && !/vegan|dairy-free|plant/i.test(pick)) return false;
   const P = new Set(pickWords(pick + " " + PICK_ALIAS.filter(([re]) => re.test(pick)).map(([, w]) => w).join(" ")));
   const S = pickWords(item).filter((w) => !PICK_STOP.has(w));

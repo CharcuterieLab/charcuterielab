@@ -23,7 +23,7 @@ import { bookLandingPages } from "./bookpages.mjs";
 import { giftPages, giftsInNav } from "./gifts.mjs";
 import { bhForm } from "./funnel.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
-import { GUIDE_BOOK, IMPOSSIBLE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, seriesHubBox, worldBanner, worldBookPage, worldOffer } from "./boards.mjs";
+import { GUIDE_BOOK, IMPOSSIBLE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, seriesHubBox, worldBanner, worldBookPage, worldOffer, pickFits } from "./boards.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1338,7 +1338,10 @@ function boardPostLink(item, blogSlugs) {
 function ingredientBodyHtml(html, blogSlugs) {
   let out = html
     .replace(/<p><em>Building a whole board around it\?[\s\S]*?<\/em><\/p>\s*/gi, "")
-    .replace(/\s*<hr[^>]*>\s*$/i, "");
+    .replace(/\s*<hr[^>]*>\s*$/i, "")
+    .replace(/<h2>What to buy<\/h2>/, '<h2 id="ing-buy">What to buy</h2>')
+    .replace(/<h2>Quick FAQ<\/h2>/, '<h2 id="ing-faq">Quick FAQ</h2>')
+    .replace(/<h2>(What it pairs with[^<]*)<\/h2>/, '<h2 id="ing-pairs">$1</h2>');
   if (blogSlugs) {
     out = out.replace(/<a href="\/blog\/([^"/]+)\/?"[^>]*>([\s\S]*?)<\/a>/g, (m, slug, text) =>
       blogSlugs.has(slug) ? m : text
@@ -1354,7 +1357,48 @@ const SINGULAR_S = new Set(["Cabrales", "Candied Citrus", "Époisses", "Hummus",
 function ingredientSeoTitle(item) {
   if (item.seoTitle) return item.seoTitle;
   const verb = /s$/.test(item.title) && !SINGULAR_S.has(item.title) ? "Are" : "Is";
-  return `What ${verb} ${item.title}? How to Serve & Pair It`;
+  // 8 Nov 2026: the old "How to Serve & Pair It" tail drew 0.4% CTR. People
+  // search "what is X", "what does X taste like" and "X pairings", so the tail
+  // now names those, longest version that fits in 60 characters.
+  const base = `What ${verb} ${item.title}?`;
+  const tails = item.category === "Cured Meat & Seafood"
+    ? ["Taste, How It's Made & How to Serve", "Taste, How It's Made & Serving", "Taste & How to Serve It", "Taste & Pairings"]
+    : item.category === "Cheese"
+      ? ["Taste, Pairings & Which to Buy", "Taste, Pairings & What to Buy", "Taste & Pairings"]
+      : ["Taste, Pairings & What to Buy", "Taste, Pairings & Uses", "Taste & Pairings"];
+  for (const t of tails) if (`${base} ${t}`.length <= TITLE_MAX) return `${base} ${t}`;
+  return base;
+}
+
+// "At a glance" box right under the lede (8 Nov 2026): the facts a visitor
+// came for (taste, texture, role, amount, what to pair, which one to buy) in
+// one screen, before the photo. Replaces the old spec grid under the photo.
+const PRICE_WORD = { "$": "$ · budget", "$$": "$$ · mid-range", "$$$": "$$$ · splurge" };
+function ingredientGlance(item, bySlug, { buy = null, pairUrl = "" } = {}) {
+  const dd = (label) => (item.html.match(new RegExp(`<dt>${label}</dt><dd>([\\s\\S]*?)</dd>`)) || [])[1] || "";
+  const top = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean).slice(0, 3);
+  const rows = [
+    ["Tastes", dd("Taste")],
+    ["Texture", dd("Texture")],
+    ["On the board", item.boardRole ? escapeHtml(item.boardRole) : ""],
+    ["Per person", item.serving ? escapeHtml(item.serving) : ""],
+    ["Pairs best with", top.map((r) => `<a href="/ingredients/${r.slug}/">${escapeHtml(r.title)}</a>`).join(", ")],
+    ["The one to buy", buy ? `<a href="/blog/${buy.slug}/">${escapeHtml(buy.pick)}</a> <span class="ing-glance-note">our Best Buys pick</span>` : ""],
+    ["Price", item.priceTier ? escapeHtml(PRICE_WORD[item.priceTier] || item.priceTier) : ""],
+    ["Prep", item.prepTime ? escapeHtml(item.prepTime) : ""],
+    ["Allergens", item.allergens.length ? escapeHtml(item.allergens.join(", ")) : ""]
+  ].filter(([, v]) => v);
+  if (rows.length < 3) return "";
+  const jump = [
+    pairUrl && `<a href="${pairUrl}">All ${escapeHtml(item.title)} pairings</a>`,
+    /id="ing-buy"/.test(item.glanceBody || "") && `<a href="#ing-buy">What to buy</a>`,
+    /id="ing-faq"/.test(item.glanceBody || "") && `<a href="#ing-faq">FAQ</a>`
+  ].filter(Boolean);
+  return `<section class="ing-glance" aria-labelledby="ing-glance-h">
+        <h2 id="ing-glance-h">${escapeHtml(item.title)} at a glance</h2>
+        <dl>${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+        ${jump.length ? `<p class="ing-glance-jump">${jump.join("")}</p>` : ""}
+      </section>`;
 }
 
 // Cheese and cured-meat pages point at the two buying guides that rank for
@@ -1374,8 +1418,10 @@ function ingredientGuideLink(item, blogSlugs) {
   return `<p class="ing-guide">${text}</p>`;
 }
 
-function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "", mentions = null) {
+function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairingBlock = "", mentions = null, glanceOpts = {}) {
   const art = categoryArt(item.category);
+  const bodyHtml = ingredientBodyHtml(item.html, blogSlugs);
+  const glance = ingredientGlance({ ...item, glanceBody: bodyHtml }, bySlug, glanceOpts);
   const related = item.pairsWith.map((s) => bySlug.get(s)).filter(Boolean);
   const spec = [
     item.boardRole && ["role", "Board role", item.boardRole],
@@ -1400,9 +1446,11 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <h1>${escapeHtml(item.title)}</h1>
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
       <p class="ing-byline">${byline(longDate(item.updated || item.date) ? ` · Updated ${longDate(item.updated || item.date)}` : "")}</p>
+      ${glance}
+      <!--aff-note-->
       ${item.image ? heroImg(escapeHtml(item.image), escapeHtml(item.imageAlt || item.title), "ing-hero") : ""}
       ${
-        spec.length
+        !glance && spec.length
           ? `<div class="ing-spec">
         <span class="ing-spec-rule" aria-hidden="true"></span>
         <div class="ing-spec-grid">
@@ -1418,7 +1466,7 @@ ${spec
       }
     </header>
     <div class="post-body ing-body">
-      ${ingredientBodyHtml(item.html, blogSlugs)}
+      ${bodyHtml}
     </div>
     ${ingredientGuideLink(item, blogSlugs)}
     ${FUNNEL.leadBox("ing-lead", `cheat_ing_${item.slug}`, { title: `Serving ${item.title}? Get the free cheat sheet` })}
@@ -3169,11 +3217,18 @@ async function build() {
       })
     );
 
+    const ingGlanceOpts = (item) => {
+      const bf = boardHelpers.bestFor ? boardHelpers.bestFor(item.slug) : null;
+      return {
+        buy: bf && pickFits(item.title, bf.pick) ? bf : null,
+        pairUrl: pairIdx && pairIdx.foodPage && pairIdx.foodPage.has(item.slug) ? `/pairings/food/${item.slug}/` : ""
+      };
+    };
     await Promise.all(
       ingredients.map(async (item) => {
         const dir = join(dist, "ingredients", item.slug);
         await mkdir(dir, { recursive: true });
-        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item) + ingredientDietBlock({ escapeHtml }, dietIdx, item), mentions));
+        await writeFile(join(dir, "index.html"), ingredientPage(item, bySlug, blogSlugs, boardsUsing.get(item.slug) || [], ingredientPairingBlock({ escapeHtml }, pairIdx, item) + ingredientDietBlock({ escapeHtml }, dietIdx, item), mentions, ingGlanceOpts(item)));
       })
     );
 
