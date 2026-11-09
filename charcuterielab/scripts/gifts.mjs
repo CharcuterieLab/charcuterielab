@@ -231,7 +231,7 @@ const GUIDES = [
       ["Is a cheese-of-the-month club a good gift?", "Yes, for a serious cheese lover. It arrives every month and introduces cheeses they wouldn't pick themselves. Check how many months the gift covers and whether it ships to their state."],
       ["What book should I buy a cheese lover?", "The Ingredient Guide for the reference side (what each cheese tastes like and pairs with), or That Cheese Plate Will Change Your Life for styling. 50 Boards, Built by Science if they host."]
     ],
-    related: [["Best charcuterie books", "/gifts/charcuterie-books/"], ["How to store cheese", "/blog/cheese-storage/"], ["Cheese ingredient library", "/ingredients/"]]
+    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Best charcuterie books", "/gifts/charcuterie-books/"], ["How to store cheese", "/blog/cheese-storage/"], ["Cheese ingredient library", "/ingredients/"]]
   },
   {
     slug: "stocking-stuffers",
@@ -336,7 +336,7 @@ const GUIDES = [
       ["What should I put in a wine and cheese gift basket?", "Two or three cheeses of different textures, crackers, fig spread, Marcona almonds, dark chocolate and a bottle. Add the cheese last, right before you hand it over, and tell them to refrigerate it."],
       ["What is a good wine and cheese book?", "50 Boards, Built by Science has a full wine and cheese pairing board and pairing logic on every board. For styling, That Cheese Plate Will Change Your Life is popular."]
     ],
-    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Wine pairings for charcuterie", "/pairings/"], ["Hostess gifts", "/gifts/hostess-gifts/"]]
+    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Cheese and wine advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Wine pairings for charcuterie", "/pairings/"], ["Hostess gifts", "/gifts/hostess-gifts/"]]
   },
   {
     slug: "keto-gifts",

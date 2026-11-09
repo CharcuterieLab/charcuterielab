@@ -153,6 +153,8 @@ In the first week of December. Holiday cut-off dates come early, and perishable 
 
 **Shopping on Amazon?** See [the best charcuterie gift baskets on Amazon, compared](/blog/best-charcuterie-gift-baskets-amazon/).
 
+**Want a countdown instead?** Tillamook's 12-day cheddar calendar ($115) is on sale from Nov 9, and Aldi's $16.99 one is in stores now. See every [cheese advent calendar for 2026](/blog/cheese-advent-calendars-2026/).
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked October 2026, with prices as reported by the sources (they rise before the holidays, so check the seller). We ranked 10 widely sold boxes on what&#x27;s inside, how easy they are to serve, editor and buyer reviews, value and how easy they are to order.</p>

@@ -113,6 +113,8 @@ Small crystals that form as the cheese ages. They are a sign of a well-aged ched
 
 Aged hard cheese needs 45 to 60 minutes.
 
+**Cheddar fan?** The 12 Days of Tillamook advent calendar ($115, 12 full-size cheddars and jacks) is on sale from Nov 9 at 9 a.m. PT. Details in our [cheese advent calendars 2026](/blog/cheese-advent-calendars-2026/) guide.
+
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>
 <p>These are researched picks, not a side-by-side tasting. We scored each product on published taste tests and awards, its ingredient list, price and where you can buy it, plus how that style of product behaves on a board. Sources are listed at the end, and the full method is on our <a href="/blog/best-charcuterie-brands/#how-we-rank">buying guides hub</a>. Prices and stock last checked September 2026. We ranked 7 widely sold options on how they work on a board, published taste tests and awards, ingredients, value and how easy they are to find.</p>
