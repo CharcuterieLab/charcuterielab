@@ -1573,6 +1573,7 @@ function layout({
   body,
   head = "",
   topHead = "",
+  footNote = "",
   canonical = "/",
   image = "/images/book-cover.jpg",
   imageAlt = "",
@@ -1658,7 +1659,7 @@ ${siteNav(canonical)}
       </div>
       <p class="footer-disclosure">${DISCLOSURE} Links to Amazon may earn this site a small commission at no extra cost to you. <a href="/privacy/#affiliate-links">How that works</a>.</p>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
-    </div>
+${footNote ? `      <p class="copyright">${footNote}</p>\n` : ""}    </div>
   </footer>
   <button class="to-top" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   <script>(function(){var b=document.querySelector(".to-top");if(!b)return;var mq=matchMedia("(max-width: 820px)");function on(){b.hidden=!(mq.matches&&scrollY>innerHeight*3)}addEventListener("scroll",on,{passive:true});b.addEventListener("click",function(){scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});var h=document.querySelector(".brand");if(h)h.focus({preventScroll:true})})})();</script>
@@ -1861,6 +1862,7 @@ function homePage(posts, products, { boardStrip = "", worldStrip = "", popular =
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
     topHead: `<meta name='impact-site-verification' value='dd3b06f6-77c3-4e4b-a2ad-7da15a9cf24c'>`,
+    footNote: "Impact-Site-Verification: 05d04477-5ece-41ef-b6fa-24bc38f1739b",
     head: `${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
     description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
     body: `<main>
