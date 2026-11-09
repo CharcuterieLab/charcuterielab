@@ -632,8 +632,9 @@ const PICK_STOP = new Set("a and or of the for with plus to de di la le board mo
 const PICK_GENERIC = new Set("cheese cracker chip olive mustard honey jam sausage nut".split(" "));
 const PICK_ALIAS = [[/affinois/i, "brie"], [/salumeria/i, "salami"], [/membrillo/i, "quince paste"], [/cochons/i, "pate"], [/chenel/i, "chevre"], [/parmigiano/i, "parmesan"]];
 const pickWords = (t) => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").split(/[^a-z]+/).filter((w) => w.length > 1).map((w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w));
-function pickFits(item, pick) {
+export function pickFits(item, pick) {
   if (/\bdip\b/i.test(pick) && !/\bdip\b/i.test(item)) return false;
+  if (/di parma/i.test(item) && !/parma/i.test(pick)) return false; // a protected name needs the real thing
   if (/vegan|cashew|plant|dairy-free|coconut/i.test(item) && !/vegan|dairy-free|plant/i.test(pick)) return false;
   const P = new Set(pickWords(pick + " " + PICK_ALIAS.filter(([re]) => re.test(pick)).map(([, w]) => w).join(" ")));
   const S = pickWords(item).filter((w) => !PICK_STOP.has(w));

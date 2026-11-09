@@ -1,0 +1,25 @@
+/* Pairing pages upgrade (8 Nov 2026) */
+.pr-buy { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; margin: 4px 0 14px; padding: 10px 14px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.18); font-size: 15.5px; width: fit-content; max-width: 100%; }
+.pr-buy span { font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.pr-buy a { font-weight: 700; color: var(--green-deep); }
+.pr-buy em { font-style: normal; font-size: 13px; color: var(--muted); }
+.pr-bottles { list-style: none; margin: 0 0 10px; padding: 0; display: grid; gap: 8px; }
+.pr-bottles li { padding: 10px 12px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.16); line-height: 1.35; }
+.pr-bottle-k { display: block; font: 700 11.5px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.pr-bottles a { font-weight: 700; color: var(--green-deep); }
+.pr-bottle-p { font-size: 14px; color: var(--muted); }
+.pr-sit th[scope="row"] { text-align: left; font-weight: 700; color: var(--green-deep); min-width: 9em; }
+.pr-sit td strong { display: block; }
+.pr-sit-links { display: block; margin-top: 3px; font-size: 13.5px; }
+@media (max-width: 860px) {
+  /* Answer first on phones; the drink photo becomes a short strip under it. */
+  .pr-drink-hero > div:not(.pr-drink-card) { order: -1; }
+  .pr-drink-hero .pr-drink-photo { max-width: none; width: 100%; aspect-ratio: auto; height: 190px; object-position: center 40%; }
+  .pr-drink-hero .pr-drink-card { min-height: 0; padding: 14px 18px; }
+}
+@media (max-width: 640px) {
+  .pr-sit thead { display: none; }
+  .pr-sit tr { display: block; padding: 10px 0; border-bottom: 1px solid rgba(169, 87, 43, 0.14); }
+  .pr-sit th[scope="row"], .pr-sit td { display: block; padding: 2px 0; border: 0; }
+  .pr-table.pr-sit td:nth-child(3) { display: block; color: var(--muted); font-size: 14.5px; }
+}

@@ -11,6 +11,32 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { HOLIDAY_CALENDAR } from "./holidays.mjs";
+import { pickFits } from "./boards.mjs";
+
+// The bottle to buy for a drink page, from the Best Buys wine guides (8 Nov 2026).
+// Names and prices are copied from those posts; update them together.
+const BOTTLES = {
+  "champagne-prosecco": [
+    ["Segura Viudas Brut Reserva Cava", "about $11", "/blog/best-wine-for-charcuterie-board/#pick-1", "Best sparkling under $20"],
+    ["Mionetto Prosecco Brut", "", "/blog/best-prosecco/", "Best prosecco"],
+    ["Kirkland Signature Champagne Brut", "$20 at Costco", "/blog/best-champagne-under-30/", "Real Champagne for less"]
+  ],
+  "sauvignon-blanc": [["Kim Crawford Sauvignon Blanc", "about $14", "/blog/best-wine-for-charcuterie-board/#pick-2", "Best white under $20"]],
+  rose: [["Bieler Père & Fils Sabine Rosé", "", "/blog/best-wine-for-charcuterie-board/#pick-3", "Best rosé under $20"]],
+  "pinot-noir": [["Mark West California Pinot Noir", "about $11", "/blog/best-wine-for-charcuterie-board/#pick-4", "Best light red under $20"]],
+  riesling: [["Dr. Loosen Dr. L Riesling", "about $15", "/blog/best-wine-for-charcuterie-board/#pick-7", "Best off-dry under $20"]],
+  port: [
+    ["Graham's Six Grapes Reserve Port", "about $27, less at Costco", "/blog/best-port-wine/", "Ruby port for Stilton"],
+    ["Kirkland 10 Year Tawny", "$17 at Costco", "/blog/best-port-wine/", "Tawny for aged Gouda and nuts"]
+  ]
+};
+// Titles matched to how people search for drink pairings ("rosé cheese pairing
+// ideas", "port and cheese"). drinks.json seo_title still wins.
+const DRINK_TITLE = {
+  rose: "Rosé Cheese Pairing: 11 Ideas + What to Skip",
+  port: "Port and Cheese Pairing: Stilton First + 10 More",
+  "champagne-prosecco": "Champagne & Prosecco Cheese Pairing: 11 Best Matches"
+};
 
 const UPDATED = "2026-09-24";
 
@@ -309,7 +335,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
   const B = h.escapeHtml;
   const wines = idx.drinks.filter((d) => d.family === "wine");
   const beers = idx.drinks.filter((d) => d.family === "beer");
-  const featured = (kind) => idx.combos.filter((c) => c.kind === kind && c.featured).slice(0, 4);
+  const featured = (kind, n = 4) => idx.combos.filter((c) => c.kind === kind && c.featured).slice(0, n);
   const boardsFor = (slugs, n = 3) => {
     const score = new Map();
     for (const s of slugs) for (const b of boardsUsing.get(s) || []) score.set(b.slug, (score.get(b.slug) || 0) + 1);
@@ -390,7 +416,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
       <p class="bl-note">The most popular and most interesting combinations, each one tested against our ingredient data. Tap one to build a board around it.</p>
       ${COMBO_KINDS.map((k) => `<h3 class="pr-kind">${k.label} <span>${k.blurb}</span></h3>
       <ul class="pr-combos">
-${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
+${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
       </ul>`).join("\n      ")}
       <p><a class="button" href="/pairings/classics/">See all ${idx.combos.length} combinations</a></p>
     </section>
@@ -451,7 +477,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       url: d.url,
       // Optional per-drink overrides in drinks.json, matched to how people search
       // ("best cheese pairing with sauvignon blanc").
-      title: d.seo_title || (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title),
+      title: d.seo_title || DRINK_TITLE[d.slug] || (d.family === "wine" ? (`${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip`.length <= 60 ? `${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip` : `${d.name} Cheese Pairing: ${matches.length} Best Matches`) : (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title)),
       name: `${d.name} pairings`,
       description: d.seo_description || d.answer,
       crumbs: [["Pairings", "/pairings/"], fam, [d.name, d.url]],
@@ -492,9 +518,11 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
         <h2>Skip these with ${B(d.name)}</h2>
         <ul class="pr-avoid">${d.avoid.map((m) => `<li><strong>${ingLink(h, idx, m.s)}</strong> ${B(m.why)}</li>`).join("")}</ul>
       </div>
-      <div>
-        <h2>Budget swap</h2>
-        <p>${B(d.swap)}</p>
+      <div${BOTTLES[d.slug] ? ` class="pr-buy-box"` : ""}>
+        ${BOTTLES[d.slug] ? `<h2>The bottle to buy</h2>
+        <ul class="pr-bottles">${BOTTLES[d.slug].map(([n, p, u, k]) => `<li><span class="pr-bottle-k">${B(k)}</span><a href="${u}">${B(n)}</a>${p ? ` <span class="pr-bottle-p">${B(p)}</span>` : ""}</li>`).join("")}</ul>
+        <p><strong>Budget swap:</strong> ${B(d.swap)}</p>` : `<h2>Budget swap</h2>
+        <p>${B(d.swap)}</p>`}
         ${cheeses.length ? `<p class="bl-note">Cheeses on this page: ${cheeses.map((m) => pairLink(h, idx, m.s)).join(", ")}.</p>` : ""}
       </div>
     </section>
@@ -604,30 +632,79 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
         <a class="pr-more" href="${builderPreset(it.pairs, 6, `pairings_${fam}_${slugify(it.name)}`)}">Build this board &rarr;</a>
       </li>`).join("\n      ")}
     </ul>
-    ${fam === "zero" ? `<p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Please drink responsibly. Looking for alcohol-free options? See <a href="/pairings/zero-proof/">zero-proof pairings</a>.</p>`}
+    ${fam === "zero" ? `<p class="pr-buy"><span>The bottle to buy:</span> <a href="/blog/best-sparkling-cider/">Martinelli's Sparkling Cider</a> <em>Our Best Buys pick</em></p>
+    <p class="bl-note">More ideas for Dry January: <a href="/blog/non-alcoholic-charcuterie-pairings/">zero-proof pairings that actually work</a>, with teas, shrubs and NA wines.</p>
+    <p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Please drink responsibly. Looking for alcohol-free options? See <a href="/pairings/zero-proof/">zero-proof pairings</a>.</p>`}
     <section class="bl-section" id="faq" aria-labelledby="faq-h"><h2 id="faq-h">Questions</h2>${faqHtml(h, pageData.faq)}</section>`
   });
   add("pairings/cocktails/index.html", itemPage("cocktails", idx.data.drinks.cocktails, "/pairings/cocktails/", "Cocktails for a Charcuterie Board: 8 Drinks & Pairings", "pairings-cocktails"));
-  add("pairings/zero-proof/index.html", itemPage("zero", idx.data.drinks.zero, "/pairings/zero-proof/", "Non-Alcoholic Drinks for Charcuterie: 7 Pairings", "pairings-zero-proof"));
+  add("pairings/zero-proof/index.html", itemPage("zero", idx.data.drinks.zero, "/pairings/zero-proof/", "Non-Alcoholic Drinks for a Charcuterie Board: 7 Picks", "pairings-zero-proof"));
 
+  // "What to drink with a charcuterie board": a pick-by-situation table so the
+  // page answers the question itself (8 Nov 2026).
+  const dUrl = (slug) => idx.drinkBySlug.get(slug)?.url || "/pairings/drinks/";
+  const SITUATIONS = [
+    ["A mixed board, one bottle", "Dry sparkling wine: Cava, Prosecco or Champagne", [["Champagne & Prosecco", dUrl("champagne-prosecco")]], "Bubbles and acid suit soft cheese, hard cheese and salty meat alike."],
+    ["Guests who drink red", "Pinot Noir or Beaujolais", [["Pinot Noir", dUrl("pinot-noir")], ["Beaujolais", dUrl("beaujolais")]], "Light reds with low tannin don't clash with soft cheese the way big reds do."],
+    ["Guests who drink white", "Sauvignon Blanc or Chardonnay", [["Sauvignon Blanc", dUrl("sauvignon-blanc")], ["Chardonnay", dUrl("chardonnay")]], "Sauvignon Blanc for goat cheese; buttery Chardonnay for brie."],
+    ["A summer or outdoor board", "Dry rosé", [["Rosé", dUrl("rose")]], "Chilled and fruity, it works with feta, prosciutto, chorizo and fruit."],
+    ["Spicy salami or pepper jack", "Off-dry Riesling or an IPA", [["Riesling", dUrl("riesling")], ["IPA", dUrl("ipa")]], "A little sweetness or hop bitterness calms the heat."],
+    ["Blue cheese or a dessert board", "Port, or a stout for beer drinkers", [["Port", dUrl("port")], ["Stout & Porter", dUrl("stout-porter")]], "Sweet and roasty drinks balance salty blue cheese and dark chocolate."],
+    ["Beer drinkers", "Pilsner, lager or dry hard cider", [["Lager & Pilsner", dUrl("lager-pilsner")], ["Hard Cider", dUrl("hard-cider")]], "Crisp and bubbly, they scrub fat between bites."],
+    ["A cocktail party", "Aperol spritz, dry martini or an old fashioned", [["Cocktails", "/pairings/cocktails/"]], "Bitter, dry and spirit-forward drinks stand up to cured meat."],
+    ["No alcohol", "Sparkling apple cider, black iced tea or kombucha", [["Zero-proof", "/pairings/zero-proof/"]], "Acid, bubbles and tannin do the same job as wine."]
+  ];
+  const drinksFaq = [
+    { q: "What drinks go with a charcuterie board?", a: "Dry sparkling wine goes with almost everything. Pinot Noir and dry rosé are the next safest. For beer, a pilsner or dry cider; without alcohol, sparkling apple cider or iced tea." },
+    { q: "Red or white wine with charcuterie?", a: "Either. A crisp white or sparkling wine for prosciutto and soft cheese, and a light red for salami and aged cheese. One of each covers most boards." },
+    { q: "How much wine do I need for a charcuterie party?", a: "A 750 ml bottle pours five 5 oz glasses. A common rule is one bottle for every two guests over two to three hours, so about 6 bottles for 12 guests." },
+    { q: "What is a good non-alcoholic drink for a charcuterie board?", a: "Sparkling apple cider, unsweetened black iced tea, kombucha or sparkling water with citrus. Bubbles and acid cut through salty meat and rich cheese." }
+  ];
   add("pairings/drinks/index.html", page(h, {
     url: "/pairings/drinks/",
-    title: "Drink Pairings for Charcuterie: Wine, Beer, Cocktails",
-    name: "Drink pairings for charcuterie",
-    description: "Every drink we pair with charcuterie: 12 wines, 5 beers, dry cider, 8 cocktails and 7 zero-proof drinks, with the cheeses and meats that suit each one.",
+    title: "What to Drink With a Charcuterie Board: 9 Easy Picks",
+    name: "What to drink with a charcuterie board",
+    description: "What to drink with a charcuterie board: dry sparkling wine for a mixed board, Pinot Noir for red drinkers, rosé in summer, port with blue cheese, pilsner or cider for beer drinkers, and sparkling cider without alcohol.",
     crumbs: [["Pairings", "/pairings/"], ["Drinks", "/pairings/drinks/"]],
+    faq: drinksFaq,
+    list: SITUATIONS.map(([sit, , links]) => [sit, links[0][1]]),
     script,
     body: `
     <header class="pr-hero">
+      <div>
       <p class="section-kicker">Drinks</p>
-      <h1>What to drink with charcuterie</h1>
-      <p class="pr-answer">For most boards, pour dry sparkling wine, dry rosé or Pinot Noir. Beer drinkers: lager or dry cider. Without alcohol: sparkling apple cider or unsweetened black iced tea.</p>
+      <h1>What to drink with a charcuterie board</h1>
+      <p class="pr-answer">For most boards, pour <strong>dry sparkling wine</strong>, then <strong>dry rosé</strong> or <strong>Pinot Noir</strong>. Beer drinkers: pilsner or dry cider. Without alcohol: sparkling apple cider or unsweetened black iced tea.</p>
+      </div>
     </header>
-    <ul class="pr-tiles">
+
+    <section class="bl-section" aria-labelledby="sit-h">
+      <h2 id="sit-h">Pick by your board and your guests</h2>
+      <div class="pr-drink-table-wrap"><table class="pr-table pr-sit">
+        <thead><tr><th scope="col">If you have…</th><th scope="col">Pour</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+        ${SITUATIONS.map(([sit, pour, links, why]) => `<tr><th scope="row">${B(sit)}</th><td><strong>${B(pour)}</strong><span class="pr-sit-links">${links.map(([t, u]) => `<a href="${u}">${B(t)} pairings</a>`).join(" · ")}</span></td><td>${B(why)}</td></tr>`).join("\n        ")}
+        </tbody>
+      </table></div>
+      <p class="bl-note"><strong>How much:</strong> a 750 ml bottle pours five glasses. Plan on one bottle for every two guests over two to three hours. Two bottles, one sparkling or crisp white and one light red, cover most boards.</p>
+      <p class="bl-cta-row"><a class="button primary" href="/blog/best-wine-for-charcuterie-board/">The 8 best bottles under $20</a> <a class="button" href="/pairings/wine-and-cheese-chart/">Wine and cheese chart</a></p>
+    </section>
+
+    <section class="bl-section" aria-labelledby="all-drinks-h">
+      <h2 id="all-drinks-h">Every drink we pair</h2>
+      <ul class="pr-tiles">
       ${[["wine", "Wine", wines], ["beer", "Beer & Cider", beers]].map(([u, t, list]) => `<li><a href="/pairings/${u}/" style="--t:${list[0].color}"><strong>${t}</strong><span>${list.map((d) => B(d.name)).join(" · ")}</span></a></li>`).join("")}
       <li><a href="/pairings/cocktails/" style="--t:#b5651d"><strong>Cocktails &amp; Spirits</strong><span>${idx.data.drinks.cocktails.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
       <li><a href="/pairings/zero-proof/" style="--t:#c08a4a"><strong>Zero-Proof</strong><span>${idx.data.drinks.zero.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
-    </ul>`
+      </ul>
+      <p class="bl-note">Whiskey drinkers: see <a href="/blog/whiskey-and-cheese-pairing/">whiskey and cheese pairing</a>.</p>
+    </section>
+
+    <section class="bl-section" id="faq" aria-labelledby="faq-h">
+      <h2 id="faq-h">Drink questions</h2>
+      ${faqHtml(h, drinksFaq)}
+    </section>
+    ${h.printCard ? h.printCard("wine-cheese-pairing-guide", "pairings_print_drinks") : ""}`
   }));
 
   // -------------------------------------------------------- food pages ---
@@ -684,6 +761,8 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
     const combos = idx.combos.filter((c) => c.foods.includes(f.slug));
     const boards = (boardsUsing.get(f.slug) || []).slice(0, 3);
     const title = `What Goes With ${it.title}? ${all.length} Pairings & Drinks`;
+    const bf = h.bestFor ? h.bestFor(f.slug) : null;
+    const buy = bf && pickFits(it.title, bf.pick) ? bf : null;
     const SHOW = 4;
     const row = (r, n) => `<li class="pr-rank-row"><span class="pr-rank-n">${n}</span>${thumb(h, r.p, art, " pr-thumb-sm")}<div class="pr-rank-body"><p class="pr-rank-name">${pairLink(h, idx, r.p.slug)} ${stars(r.tier.stars)}<span class="pr-tier">${r.tier.label}</span></p>${r.why ? `<p class="pr-rank-why">${B(r.why)}</p>` : ""}</div></li>`;
     const chip = (r) => `<li><a href="${idx.foodPage.has(r.p.slug) ? `/pairings/food/${r.p.slug}/` : `/ingredients/${r.p.slug}/`}">${thumb(h, r.p, art, " pr-thumb-xs")}<span>${B(r.p.title)}</span>${stars(r.tier.stars)}</a></li>`;
@@ -702,6 +781,7 @@ ${featured(k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="section-kicker">${B(it.category)} pairing guide</p>
       <h1>What goes with ${B(it.title)}?</h1>
       <p class="pr-answer">${B(f.answer)}</p>
+      ${buy ? `<p class="pr-buy"><span>The one to buy:</span> <a href="/blog/${buy.slug}/">${B(buy.pick)}</a> <em>Our Best Buys pick</em></p>` : ""}
       <p class="bl-cta-row"><a class="button primary" href="${builderPreset([f.slug, ...f.top, ...plate.map((x) => x.p.slug)], 6, `pairings_food_${f.slug}`)}">Build a board around ${B(it.title)}</a> <a class="button" href="/ingredients/${f.slug}/">Everything about ${B(it.title)}</a></p>
       <nav class="pr-jump" aria-label="On this page"><a href="#top-h">Top ${topPicks.length}</a><a href="#bite-h">The perfect bite</a>${f.serve && f.serve.length ? `<a href="#serve-h">How to serve</a>` : ""}<a href="#all-h">All ${all.length}, ranked</a>${drinks.length ? `<a href="#drinks-h">Drinks</a>` : ""}${it.avoidWith.length ? `<a href="#skip-h">Skip these</a>` : ""}</nav>
     </header>
