@@ -108,6 +108,7 @@ A hot cocoa board for 12 costs about **$25 to $40** with homemade cocoa and stor
 - [Chocolate on a Charcuterie Board](/blog/charcuterie-board-chocolate/)
 - [Winter Charcuterie Board](/blog/winter-charcuterie-board/)
 - [Candy Charcuterie Board](/blog/candy-charcuterie-board/)
+- [The Best Store-Bought Peppermint Bark](/blog/best-peppermint-bark/)
 
 ## FAQ
 

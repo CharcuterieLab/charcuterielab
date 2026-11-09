@@ -178,3 +178,5 @@ That is enough structure for almost any party, holiday, date night, shower, or m
 - [Charcuterie Board Ideas](https://charcuterielab.com/blog/charcuterie-board-ideas/)
 - [How Much Charcuterie Per Person](https://charcuterielab.com/blog/how-much-charcuterie-per-person/)
 - [Temperature Guide](https://charcuterielab.com/blog/temperature-guide/)
+- [The Best Peppermint Bark to Buy](/blog/best-peppermint-bark/)
+- [The Best Toffee to Buy](/blog/best-toffee/)

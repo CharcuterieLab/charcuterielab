@@ -3,7 +3,7 @@ Until then each post keeps a stand-in photo. Safe to run any number of times."""
 from pathlib import Path
 import re
 ROOT = Path(__file__).resolve().parent.parent
-for slug in ["best-port-wine-cheese", "best-beer-cheese", "best-spiral-ham", "best-smoked-oysters", "best-puff-pastry", "best-crab-dip", "best-cocktail-sauce"]:
+for slug in ["best-port-wine-cheese", "best-beer-cheese", "best-spiral-ham", "best-smoked-oysters", "best-puff-pastry", "best-crab-dip", "best-cocktail-sauce", "best-peppermint-bark", "best-toffee", "best-fruitcake", "best-cheese-straws", "best-bacon-jam"]:
     if (ROOT / "public" / "images" / f"{slug}.jpg").exists():
         p = ROOT / "content" / "blog" / f"{slug}.md"
         s = p.read_text(encoding="utf-8")

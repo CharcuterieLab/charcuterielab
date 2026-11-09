@@ -80,6 +80,8 @@ Bulk and fun-size bags keep a candy board cheap. Expect roughly **$1.50 to $3 pe
 - [Dessert Board](/blog/dessert-board/)
 - [Chocolate on a Charcuterie Board](/blog/charcuterie-board-chocolate/)
 - [Hot Cocoa Board](/blog/hot-cocoa-board/)
+- [The Best Peppermint Bark to Buy](/blog/best-peppermint-bark/)
+- [The Best Toffee to Buy](/blog/best-toffee/)
 - [Halloween Charcuterie Board](/blog/halloween-charcuterie-board/)
 - [Charcuterie Board for Kids](/blog/charcuterie-board-for-kids/)
 - [Charcuterie Board for a Birthday](/blog/charcuterie-board-birthday/)
