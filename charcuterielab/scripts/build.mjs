@@ -1858,7 +1858,7 @@ function homePage(posts, products, { boardStrip = "", worldStrip = "", popular =
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
-    head: `${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
+    head: `  <meta name='impact-site-verification' value='dd3b06f6-77c3-4e4b-a2ad-7da15a9cf24c'>\n${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
     description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
     body: `<main>
   <section class="hero home-intent">
@@ -3711,7 +3711,7 @@ await injectDietaryBooks(dist);
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }
-{ const c = await calmHubs(dist); console.log(`Calm hubs: /dietary/ ${c.join(", ")}`); }
+{ const c = await calmHubs(dist); console.log(`Calm pages: ${c.join(", ")}`); }
 { const x = await injectBoardExtras(dist, root); console.log(`Board extras: holiday countdown on ${x.holiday} boards, Make it your own on ${x.swaps}`); }
 {
   const covers = [

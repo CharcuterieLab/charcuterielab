@@ -29,3 +29,36 @@
 .dt-fold > summary span { font-size: 15px; color: var(--muted); }
 .dt-fold[open] > summary { margin-bottom: 12px; }
 .dt-fold > summary:focus-visible { outline: 3px solid rgba(202, 166, 82, 0.6); outline-offset: 3px; border-radius: 8px; }
+
+/* Shorter pages and trust lines (8 Nov 2026, hub-calm.mjs) */
+.pg-fold > summary { list-style: none; cursor: pointer; position: relative; padding-right: 40px; display: grid; gap: 4px; }
+.pg-fold > summary::-webkit-details-marker { display: none; }
+.pg-fold > summary::after { content: "+"; position: absolute; right: 6px; top: 2px; font: 700 24px var(--sans); color: var(--accent, #a9572b); }
+.pg-fold[open] > summary::after { content: "\2212"; }
+.pg-fold > summary h2 { margin: 0; }
+.pg-fold > summary span { font-size: 15px; color: var(--muted); }
+.pg-fold[open] > summary { margin-bottom: 14px; }
+.pg-fold > summary:focus-visible { outline: 3px solid rgba(202, 166, 82, 0.6); outline-offset: 3px; border-radius: 8px; }
+.pg-more { margin: 16px 0 0; }
+.hol-idea[hidden] { display: none !important; }
+.fx-refund { display: block; flex-basis: 100%; margin-top: 6px; font-family: var(--sans); font-size: 12.5px; font-weight: 600; letter-spacing: 0.01em; color: var(--muted); }
+.aff-note.bb-trust a { white-space: nowrap; }
+.rv-quotes { padding: 28px 0; }
+.rv-inner { max-width: 1120px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.rv-quotes figure { margin: 0; padding: 16px 18px; border-radius: 12px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.16); }
+.rv-quotes blockquote { margin: 0 0 8px; font-family: var(--serif); font-size: 1.05rem; line-height: 1.45; color: var(--ink); }
+.rv-quotes figcaption { font-size: 13.5px; color: var(--muted); }
+@media (max-width: 700px) {
+  /* Ingredient pages: "Pairs well with" as a compact two-column list */
+  .ing-related-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .ing-related-list a { gap: 8px; padding: 6px 8px 6px 6px; }
+  .ing-rel-thumb { width: 36px; height: 36px; }
+  .ing-rel-thumb svg { width: 20px; height: 20px; }
+  .ing-rel-text strong { font-size: 0.95rem; }
+  .ing-rel-role { display: none; }
+  /* The Book: sample boards two across */
+  .ebook-sample-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 20px; }
+  .ebook-sample-grid article { min-height: 0; padding: 12px; }
+  .ebook-sample-grid h3 { font-size: 1rem; }
+  .ebook-sample-grid p { font-size: 13px; }
+}

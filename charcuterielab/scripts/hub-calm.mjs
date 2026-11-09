@@ -1,35 +1,133 @@
-// Calmer hubs (8 Nov 2026, visitor review round 3). Applied to the built
-// pages after the offers and quick-subscribe passes, so the hub generators
-// stay untouched.
+// Calmer, shorter pages (8 Nov 2026, visitor review round 3). Applied to the
+// built pages after the offers and quick-subscribe passes, so the page
+// generators stay untouched.
 //   /dietary/: one email ask. The page-matched "Diet label cards" box moves up
 //   to sit right after the Diet Checker; the quick bar (skipped in
 //   quick-subscribe.mjs) and the closing cheat-sheet panel go. The swap chart
 //   folds behind its heading.
-import { readFile, writeFile } from "node:fs/promises";
+//   Holiday pages: the first 3 board ideas show, the rest behind "Show all";
+//   shapes and mistakes fold; the closing cheat-sheet panel goes (the page
+//   already has its matched email box under the quick answer).
+//   Ingredient pages: the closing panel goes (same reason).
+//   /ebook/: the 50-board list folds (links to #board-NN still open it).
+//   Trust: Best Buys guides say when they were last checked and how they're
+//   scored; every printable and $3 plan button says "Instant PDF · 30-day
+//   refund"; real reader quotes from src/data/reviews.json show on /shop/ and
+//   /ebook/ once there are any.
+import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+
+const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const longDate = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(iso || ""); return m ? `${MONTHS[+m[2] - 1]} ${+m[3]}, ${m[1]}` : ""; };
+
+// Opens a folded section when the page is opened at (or a link jumps to) an
+// id inside it.
+const OPEN_JS = `<script data-fold-js>(function(){function o(id){if(!id)return;var e=document.getElementById(id);if(!e)return;var d=e.tagName==="DETAILS"?e:e.closest("details");if(d&&!d.open){d.open=true;if(e!==d)setTimeout(function(){e.scrollIntoView()},0)}}o(location.hash.slice(1));addEventListener("hashchange",function(){o(location.hash.slice(1))});document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest('a[href*="#"]');if(!a)return;var u=new URL(a.href,location.href);if(u.pathname===location.pathname)o(u.hash.slice(1))})})();</script>`;
+const addOpenJs = (html) => (html.includes("data-fold-js") ? html : html.replace(/<\/main>/, `${OPEN_JS}\n</main>`));
+
+function foldSection(html, id, line) {
+  const re = new RegExp(`<section class="bl-section" id="${id}" aria-labelledby="${id}-h">\\s*<h2 id="${id}-h">([\\s\\S]*?)<\\/h2>([\\s\\S]*?)<\\/section>`);
+  return html.replace(re, (all, title, body) => `<details class="bl-section pg-fold" id="${id}">
+      <summary><h2 id="${id}-h">${title}</h2>${line ? `<span>${esc(line)}</span>` : ""}</summary>${body}</details>`);
+}
+const dropClosingPanel = (html) => html.replace(/<section class="lab-news"[\s\S]*?<\/section>\s*/, "");
+
+async function edit(file, fn) {
+  let html;
+  try { html = await readFile(file, "utf8"); } catch { return false; }
+  const out = fn(html);
+  if (out !== html) { await writeFile(file, out); return true; }
+  return false;
+}
+
+async function* pages(dir, rel = "") {
+  for (const e of await readdir(dir, { withFileTypes: true })) {
+    if (e.isDirectory()) {
+      if (!rel && ["assets", "images", "downloads"].includes(e.name)) continue;
+      yield* pages(join(dir, e.name), `${rel}/${e.name}`);
+    } else if (e.name === "index.html") yield [join(dir, e.name), `${rel}/`];
+  }
+}
 
 export async function calmHubs(dist) {
   const done = [];
-  const file = join(dist, "dietary", "index.html");
-  let html;
-  try { html = await readFile(file, "utf8"); } catch { return done; }
-  // 1. Drop the closing newsletter panel.
-  html = html.replace(/<section class="lab-news"[\s\S]*?<\/section>\s*/, () => { done.push("lab-news"); return ""; });
-  // 2. Move the label-card email box to right after the Diet Checker.
-  const lead = html.match(/<aside class="dt-lead"[\s\S]*?<\/aside>\s*/);
-  const chk = html.indexOf('<section class="dt-checker"');
-  if (lead && chk > 0 && lead.index > chk) {
-    html = html.slice(0, lead.index) + html.slice(lead.index + lead[0].length);
-    const end = html.indexOf("</section>", chk) + "</section>".length;
-    html = html.slice(0, end) + "\n\n    " + lead[0] + html.slice(end);
-    done.push("lead-moved");
-  }
-  // 3. Fold the swap chart.
-  html = html.replace(/<section class="bl-section" aria-labelledby="swaps-h">\s*<h2 id="swaps-h">([^<]*)<\/h2>([\s\S]*?)<\/section>/, (all, title, body) => {
-    done.push("swaps-folded");
-    return `<details class="bl-section dt-fold" id="swaps">
-      <summary><h2 id="swaps-h">${title}</h2><span>The easy swap for each diet, item by item.</span></summary>${body}</details>`;
+  const n = { holidays: 0, ingredients: 0, guides: 0, refund: 0 };
+
+  // ---- Dietary hub
+  await edit(join(dist, "dietary", "index.html"), (html) => {
+    html = dropClosingPanel(html);
+    const lead = html.match(/<aside class="dt-lead"[\s\S]*?<\/aside>\s*/);
+    const chk = html.indexOf('<section class="dt-checker"');
+    if (lead && chk > 0 && lead.index > chk) {
+      html = html.slice(0, lead.index) + html.slice(lead.index + lead[0].length);
+      const end = html.indexOf("</section>", chk) + "</section>".length;
+      html = html.slice(0, end) + "\n\n    " + lead[0] + html.slice(end);
+    }
+    html = html.replace(/<section class="bl-section" aria-labelledby="swaps-h">\s*<h2 id="swaps-h">([^<]*)<\/h2>([\s\S]*?)<\/section>/, (all, title, body) => `<details class="bl-section dt-fold" id="swaps">
+      <summary><h2 id="swaps-h">${title}</h2><span>The easy swap for each diet, item by item.</span></summary>${body}</details>`);
+    done.push("dietary");
+    return html;
   });
-  await writeFile(file, html);
+
+  // ---- The Book: the full 50-board list folds
+  await edit(join(dist, "ebook", "index.html"), (html) => {
+    html = html.replace(/<section class="ebook-section fx-all" id="all-boards">\s*<div class="ebook-section-inner">\s*<p class="section-kicker">[^<]*<\/p>\s*<h2>([^<]*)<\/h2>([\s\S]*?)<\/div>\s*<\/section>/, (all, title, body) => `<section class="ebook-section fx-all" id="all-boards">
+    <div class="ebook-section-inner">
+      <details class="pg-fold pg-fold-plain" id="all-boards-list">
+        <summary><h2>${title}</h2><span>All 50 boards by section, with the ones you can buy on their own for $3.</span></summary>${body}</details>
+    </div>
+  </section>`);
+    if (html.includes("all-boards-list")) { done.push("ebook"); html = addOpenJs(html); }
+    return html;
+  });
+
+  // ---- Reader quotes, once there are real ones
+  let reviews = [];
+  try { reviews = JSON.parse(await readFile(join(dist, "..", "src", "data", "reviews.json"), "utf8")).filter((r) => r && r.quote && r.name); } catch {}
+  if (reviews.length) {
+    const block = (list) => `<section class="rv-quotes" aria-label="What readers say"><div class="rv-inner">${list.slice(0, 3).map((r) => `<figure><blockquote>&ldquo;${esc(r.quote)}&rdquo;</blockquote><figcaption>${esc(r.name)}${r.source ? ` &middot; ${esc(r.source)}` : ""}${r.stars ? ` &middot; ${"&#9733;".repeat(Math.max(1, Math.min(5, +r.stars)))}` : ""}</figcaption></figure>`).join("")}</div></section>`;
+    await edit(join(dist, "ebook", "index.html"), (html) => html.replace('<section class="ebook-section ebook-faq">', `${block(reviews.filter((r) => !r.product || r.product === "book"))}\n<section class="ebook-section ebook-faq">`));
+    await edit(join(dist, "shop", "index.html"), (html) => { const i = html.indexOf("<h2", html.indexOf("<main")); return i > 0 ? html.slice(0, i) + block(reviews) + html.slice(i) : html; });
+    done.push(`reviews:${reviews.length}`);
+  }
+
+  for await (const [file, path] of pages(dist)) {
+    await edit(file, (html) => {
+      const before = html;
+      // ---- Holiday pages
+      if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
+        let k = 0;
+        html = html.replace(/<article class="hol-idea"/g, (m) => (++k > 3 ? '<article class="hol-idea" data-more hidden' : m));
+        if (k > 3) html = html.replace(/(<section class="bl-section" id="ideas"[\s\S]*?<\/div>)(\s*<\/section>)/, (all, a, b) => `${a}\n      <p class="pg-more"><button type="button" class="button" data-show-more>Show all ${k} ideas</button></p>${b}`);
+        html = foldSection(html, "shapes", "Turkey, wreath, tree and other shapes, with how to build each.");
+        html = foldSection(html, "mistakes", "");
+        html = dropClosingPanel(html);
+        if (k > 3) html = html.replace(/<\/main>/, `<script>(function(){var b=document.querySelector("[data-show-more]");if(!b)return;function all(){document.querySelectorAll(".hol-idea[data-more]").forEach(function(a){a.hidden=false});b.parentNode.hidden=true}b.addEventListener("click",all);var h=location.hash.slice(1),e=h&&document.getElementById(h);if(e&&e.closest&&e.closest(".hol-idea[data-more]"))all()})();</script>\n</main>`);
+        html = addOpenJs(html);
+        n.holidays++;
+      }
+      // ---- Ingredient pages: one email ask is enough
+      if (/^\/ingredients\/[^/]+\/$/.test(path) && html.includes("ing-detail")) { html = dropClosingPanel(html); n.ingredients++; }
+      // ---- Best Buys guides: when last checked, and how they're scored
+      if (/^\/blog\/[^/]+\/$/.test(path) && html.includes('class="ing-crumb post-crumb"><a href="/blog/best-charcuterie-brands/">')) {
+        const mod = (html.match(/"dateModified":"([^"]+)"/) || [])[1];
+        const when = longDate(mod);
+        if (when) html = html.replace(/<p class="post-date">[^<·]*·/, `<p class="post-date">Last checked ${when} ·`);
+        html = html.replace(/<p class="aff-note">([^<]*)<a href="\/privacy\/#affiliate-links">How that works<\/a><\/p>/, (all, t) => `<p class="aff-note bb-trust">Scored on published taste tests, reviews and awards, ingredients, value and how easy it is to find. Prices vary by store. <a href="/blog/best-charcuterie-brands/#how-we-rank">How we rank</a> &middot; ${t}<a href="/privacy/#affiliate-links">How that works</a></p>`);
+        n.guides++;
+      }
+      // ---- Refund line beside every printable and $3 plan button (not on the
+      // Shop grids, where one line per card would crowd the page)
+      if (!/^\/shop\//.test(path)) html = html.replace(/(<a class="button[^"]*" href="https:\/\/[^"]*gumroad[^"]*"[^>]*>((?:Get the PDF|Get the full plan|Get the shopping list with amounts|Get the plan|Get the pack|Get it) · \$[\d.]+)<\/a>)/g, (all, a, t, off, s) => {
+        const near = s.slice(Math.max(0, off - 300), off + all.length + 300);
+        if (/refund/i.test(near)) return all;
+        n.refund++;
+        return `${a}<span class="fx-refund">Instant PDF &middot; 30-day refund</span>`;
+      });
+      return html === before ? before : html;
+    });
+  }
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`);
   return done;
 }
