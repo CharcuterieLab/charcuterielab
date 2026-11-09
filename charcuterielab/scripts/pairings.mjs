@@ -761,6 +761,9 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     const combos = idx.combos.filter((c) => c.foods.includes(f.slug));
     const boards = (boardsUsing.get(f.slug) || []).slice(0, 3);
     const title = `What Goes With ${it.title}? ${all.length} Pairings & Drinks`;
+    // "Perfect bite" photo (8 Nov 2026): drop pairings-bite-<slug>.webp into
+    // public/images/pairings/ and it replaces the thumbnail row at the top.
+    const bite = photo(`pairings-bite-${f.slug}`);
     const bf = h.bestFor ? h.bestFor(f.slug) : null;
     const buy = bf && pickFits(it.title, bf.pick) ? bf : null;
     const SHOW = 4;
@@ -776,11 +779,12 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
       list: ranked.slice(0, 12).map((r) => [r.p.title, `/ingredients/${r.p.slug}/`]),
       script,
       body: `
-    <header class="pr-food-hero">
-      ${photoRow(h, idx, art, [f.slug, ...f.top], true)}
+    <header class="pr-food-hero${bite ? " pr-has-bite" : ""}">
+      ${bite ? "" : photoRow(h, idx, art, [f.slug, ...f.top], true)}
       <p class="section-kicker">${B(it.category)} pairing guide</p>
       <h1>What goes with ${B(it.title)}?</h1>
       <p class="pr-answer">${B(f.answer)}</p>
+      ${bite ? `<img class="pr-bite-photo" src="${bite}" alt="${B(`${it.title} with ${plate.map((x) => x.p.title).join(", ")}${drinks[0] ? ` and a glass of ${drinks[0].d.name}` : ""}`)}" width="1024" height="572" fetchpriority="high" decoding="async">` : ""}
       ${buy ? `<p class="pr-buy"><span>The one to buy:</span> <a href="/blog/${buy.slug}/">${B(buy.pick)}</a> <em>Our Best Buys pick</em></p>` : ""}
       <p class="bl-cta-row"><a class="button primary" href="${builderPreset([f.slug, ...f.top, ...plate.map((x) => x.p.slug)], 6, `pairings_food_${f.slug}`)}">Build a board around ${B(it.title)}</a> <a class="button" href="/ingredients/${f.slug}/">Everything about ${B(it.title)}</a></p>
       <nav class="pr-jump" aria-label="On this page"><a href="#top-h">Top ${topPicks.length}</a><a href="#bite-h">The perfect bite</a>${f.serve && f.serve.length ? `<a href="#serve-h">How to serve</a>` : ""}<a href="#all-h">All ${all.length}, ranked</a>${drinks.length ? `<a href="#drinks-h">Drinks</a>` : ""}${it.avoidWith.length ? `<a href="#skip-h">Skip these</a>` : ""}</nav>

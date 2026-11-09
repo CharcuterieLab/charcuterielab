@@ -878,7 +878,9 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
     }
     const list = [...rows.values()].sort((a, b) => (a.lo + a.hi) / 2 - (b.lo + b.hi) / 2);
     const band = (d) => { const m = (d.lo + d.hi) / 2; return m <= 25 ? "u25" : m <= 75 ? "mid" : "high"; };
-    const tr = (d) => `<tr data-band="${band(d)}" data-instant="${d.instant}">
+    // Gift hub, 8 Nov 2026 (visitor review): the cheapest 12 show, the rest wait behind "Show all".
+    const SHOW = 12;
+    const tr = (d, i) => `<tr data-band="${band(d)}" data-instant="${d.instant}"${i >= SHOW ? " data-more hidden" : ""}>
           <th scope="row"><a href="${d.guides[0][1]}">${esc(d.name)}</a>${d.instant ? ' <span class="gf-cmp-flag">Instant</span>' : ""}${d.slow ? ' <span class="gf-cmp-flag gf-cmp-slow">Order early</span>' : ""}</th>
           <td>${esc(d.price)}</td>
           <td>${d.guides.slice(0, 3).map(([t, u]) => `<a href="${u}">${esc(t)}</a>`).join(", ")}${d.guides.length > 3 ? ` +${d.guides.length - 3} more` : ""}</td>
@@ -897,8 +899,9 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
         ${list.map(tr).join("\n        ")}
         </tbody>
       </table></div>
+      ${list.length > SHOW ? `<p class="gf-cmp-all"><button type="button" class="button" data-cmp-all>Show all ${list.length} gifts</button></p>` : ""}
       <p class="gf-fine">Book prices are our list prices. Other prices are typical ranges, checked ${PRICES_CHECKED}; check the price at checkout. "Instant" means a download or a gift plan with nothing to ship.</p>
-      <script>(function(){try{var bs=document.querySelectorAll(".gf-cmp-filter button"),rs=document.querySelectorAll(".gf-cmp tbody tr");bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;bs.forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});rs.forEach(function(r){r.hidden=!(f==="all"||(f==="instant"?r.dataset.instant==="1":r.dataset.band===f))})})})}catch(x){}})();</script>
+      <script>(function(){try{var bs=document.querySelectorAll(".gf-cmp-filter button"),rs=document.querySelectorAll(".gf-cmp tbody tr");bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;bs.forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});var all=document.querySelector("[data-cmp-all]");rs.forEach(function(r){r.hidden=!(f==="all"||(f==="instant"?r.dataset.instant==="1":r.dataset.band===f))});if(all)all.parentNode.hidden=true})});var all=document.querySelector("[data-cmp-all]");if(all)all.addEventListener("click",function(){rs.forEach(function(r){r.hidden=false});all.parentNode.hidden=true})}catch(x){}})();</script>
     </section>`;
   }
 
@@ -950,6 +953,16 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
       </ol>
       <p class="gf-fine">Source: <a href="https://www.usda.gov/node/17662" target="_blank" rel="noopener">USDA guidance on mail-order and gift food</a>. Questions: USDA Meat and Poultry Hotline, 1-888-674-6854. Also: don't send perishables to an office that may be closed for the holidays.</p>
     </section>`;
+
+  // A long reference section folded on the hub: the heading and a one-line
+  // answer stay visible, the detail opens on tap (or from a #link).
+  function fold(id, title, line, inner) {
+    const body = inner.replace(/<p class="section-kicker">[^<]*<\/p>\s*<h2[^>]*>[\s\S]*?<\/h2>/, "").replace(` id="${id}"`, ` id="${id}-body"`).replace(/ aria-labelledby="[^"]*"/, "");
+    return `<details class="gf-fold" id="${id}">
+      <summary><h2>${esc(title)}</h2><span>${esc(line)}</span></summary>
+      ${body}
+    </details>`;
+  }
 
   const pages = [];
 
@@ -1049,6 +1062,7 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
       <h1>Charcuterie gift ideas for every board lover and every budget</h1>
       <div class="quick-answer gf-quick"><p><strong>Quick answer:</strong> Our top gift is <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}) with a jar of fig spread. Under $25: <strong>Around the World in 16 Boards</strong> (${esc(B.world ? B.world.paperbackPrice : "")}) or a cheese knife set. Not sure? Use the <a href="#finder">gift finder</a>.</p></div>
       ${shipStrip}
+      <img class="gf-hero-img" src="${esc(h.thumb("/images/charcuterie-gift-basket.jpg", "m"))}" alt="A charcuterie gift basket with cheese, salami, crackers and a jar of fig spread" width="1200" height="800" fetchpriority="high" decoding="async">
       <nav class="gf-chips" aria-label="Shop gifts by">
         ${chips.map(([label, list]) => `<div class="gf-chip-row"><span>${esc(label)}</span>${list.map(([t, u]) => `<a href="${u}">${esc(t)}</a>`).join("")}</div>`).join("\n        ")}
       </nav>
@@ -1075,7 +1089,12 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
   </section>
 
   <div class="gf-inner gf-body">
-    ${matcher("gift_hub")}
+    <section class="gf-guides gf-guides-top" aria-labelledby="gf-guides-h">
+      <h2 id="gf-guides-h">Every gift guide</h2>
+      <div class="gf-guide-grid">${guideCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
+    </section>
+
+    ${matcher("gift_hub", true)}
 
     <section class="gf-sets" id="sets" aria-labelledby="gf-sets-h">
       <p class="section-kicker">Ready-made gift sets</p>
@@ -1087,14 +1106,10 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
 
     ${compareSection()}
 
-    ${calendarSection()}
+    ${fold("order-by", "When to order charcuterie gifts for Christmas 2026", "Perishable boxes by Dec 11, USPS Priority Mail by Dec 18, instant gifts after that.", calendarSection("order-by-cal"))}
 
-    ${safetySection}
-
-    <section class="gf-guides" aria-labelledby="gf-guides-h">
-      <h2 id="gf-guides-h">Every gift guide</h2>
-      <div class="gf-guide-grid">${guideCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
-    </section>
+    ${fold("food-safety", "How to ship and receive cheese and cured meat safely", "Hard salami and aged cheese ship without ice; soft cheese and sliced meat need cold packs.", safetySection)}
+    <script>(function(){function o(){var h=location.hash.slice(1);if(!h)return;var d=document.getElementById(h);if(d&&d.tagName==="DETAILS")d.open=true}o();addEventListener("hashchange",o);document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener("click",function(){var d=document.getElementById(a.getAttribute("href").slice(1));if(d&&d.tagName==="DETAILS")d.open=true})})})();</script>
   </div>
   ${giftCard}
   ${faqBlock(faq, "Charcuterie gift questions")}

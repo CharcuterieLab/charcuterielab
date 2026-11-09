@@ -1,0 +1,31 @@
+/* Gift hub, shorter (8 Nov 2026): a photo in the first screen, compact guide list, folded reference sections */
+.gf-hero-img { display: block; width: 100%; max-width: 860px; height: auto; aspect-ratio: 16 / 7; object-fit: cover; border-radius: 14px; margin: 14px 0 6px; }
+.gf-cmp-all { margin: 12px 0 0; }
+.gf-cmp tr[hidden] { display: none; }
+.gf-fold { margin: 22px 0; border: 1px solid rgba(169, 87, 43, 0.18); border-radius: 14px; background: #fff; }
+.gf-fold > summary { list-style: none; cursor: pointer; padding: 16px 48px 16px 18px; position: relative; display: grid; gap: 4px; }
+.gf-fold > summary::-webkit-details-marker { display: none; }
+.gf-fold > summary::after { content: "+"; position: absolute; right: 18px; top: 14px; font: 700 22px var(--sans); color: var(--accent, #a9572b); }
+.gf-fold[open] > summary::after { content: "\2212"; }
+.gf-fold > summary h2 { margin: 0; font-size: clamp(1.15rem, 3vw, 1.45rem); }
+.gf-fold > summary span { font-size: 15px; color: var(--muted); }
+.gf-fold > summary:focus-visible { outline: 3px solid rgba(202, 166, 82, 0.6); outline-offset: 2px; border-radius: 14px; }
+.gf-fold > section { margin: 0; padding: 0 18px 18px; border: 0; background: none; }
+@media (max-width: 700px) {
+  .gf-hero-img { aspect-ratio: 16 / 9; margin-top: 12px; }
+  .gf-guides-top .gf-guide-grid { grid-template-columns: 1fr; gap: 8px; }
+  .gf-guides-top .gf-guide { grid-template-columns: 72px minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 12px; row-gap: 0; align-items: center; padding: 8px; }
+  .gf-guides-top .gf-guide img { grid-row: 1 / 3; width: 72px; height: 54px; aspect-ratio: auto; border-radius: 8px; }
+  .gf-guides-top .gf-guide strong { padding: 0; font-size: 17px; align-self: end; }
+  .gf-guides-top .gf-guide span { padding: 0; font-size: 13.5px; align-self: start; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+}
+
+/* Dietary hub: the swap chart folds behind its heading (hub-calm.mjs) */
+.dt-fold > summary { list-style: none; cursor: pointer; position: relative; padding-right: 40px; display: grid; gap: 4px; }
+.dt-fold > summary::-webkit-details-marker { display: none; }
+.dt-fold > summary::after { content: "+"; position: absolute; right: 6px; top: 2px; font: 700 24px var(--sans); color: var(--accent, #a9572b); }
+.dt-fold[open] > summary::after { content: "\2212"; }
+.dt-fold > summary h2 { margin: 0; }
+.dt-fold > summary span { font-size: 15px; color: var(--muted); }
+.dt-fold[open] > summary { margin-bottom: 12px; }
+.dt-fold > summary:focus-visible { outline: 3px solid rgba(202, 166, 82, 0.6); outline-offset: 3px; border-radius: 8px; }

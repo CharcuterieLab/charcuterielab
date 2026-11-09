@@ -9,7 +9,8 @@ import { join } from "node:path";
 // Pages that already open with their own signup, or shouldn't ask.
 // Board Builder and the 151 board plan pages (1 Nov 2026, visitor review):
 // a tool and a sales page, so nothing sits between the H1 and the work.
-const SKIP = /^\/(newsletter|thanks|search|board-builder)\//;
+// /dietary/ (8 Nov 2026): its one email ask is the diet label cards box (hub-calm.mjs).
+const SKIP = /^\/(newsletter|thanks|search|board-builder)\/|^\/dietary\/$/;
 
 const CHECK = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 

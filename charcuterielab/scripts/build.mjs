@@ -19,6 +19,7 @@ import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from 
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
 import { injectQuickSubscribe } from "./quick-subscribe.mjs";
+import { calmHubs } from "./hub-calm.mjs";
 import { bookLandingPages } from "./bookpages.mjs";
 import { giftPages, giftsInNav } from "./gifts.mjs";
 import { bhForm } from "./funnel.mjs";
@@ -3710,6 +3711,7 @@ await injectDietaryBooks(dist);
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }
+{ const c = await calmHubs(dist); console.log(`Calm hubs: /dietary/ ${c.join(", ")}`); }
 { const x = await injectBoardExtras(dist, root); console.log(`Board extras: holiday countdown on ${x.holiday} boards, Make it your own on ${x.swaps}`); }
 {
   const covers = [
