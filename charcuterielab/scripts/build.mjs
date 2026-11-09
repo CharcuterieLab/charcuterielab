@@ -1,4 +1,4 @@
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { injectAffiliate, DISCLOSURE } from "./affiliate.mjs";
 import { injectTools } from "./tools-box.mjs";
 import { injectGuideLinks } from "./guide-links.mjs";
@@ -101,8 +101,11 @@ function heroImg(src, alt, cls) {
 // tells a returning browser to fetch a new stylesheet. It used to be a
 // hand-edited constant, which meant a redesign could ship to a browser that
 // kept using the old CSS. Hashing the file means it can never go stale again.
+// site.css plus any src/styles/parts/*.css (8 Nov 2026), appended in name order.
+const STYLE_PARTS_DIR = join(root, "src", "styles", "parts");
+const styleText = [await readFile(paths.styles, "utf8"), ...await Promise.all((existsSync(STYLE_PARTS_DIR) ? (await readdir(STYLE_PARTS_DIR)).filter((f) => f.endsWith(".css")).sort() : []).map((f) => readFile(join(STYLE_PARTS_DIR, f), "utf8")))].join("\n");
 const assetVersion = createHash("sha1")
-  .update(await readFile(paths.styles))
+  .update(styleText)
   .digest("hex")
   .slice(0, 12);
 
@@ -2369,80 +2372,163 @@ ${newsletterPanel("about-email", "about")}
   });
 }
 
-// Blog hub by topic (3 Nov 2026). The flat list opened on a wall of brand
-// guides (the newest posts), which hid the board ideas, pairing science and
-// ingredient pages. Now: Start here, the newest 6, then one row per content
-// pillar (6 newest each, "Show all" opens the row). Every post sits in exactly
-// one row; the rules below go in order and the first match wins.
+// Blog hub by topic (3 Nov 2026), upgraded 8 Nov 2026:
+// - a compact top (search with its button inline, topic chips in one swipe row)
+// - the search box filters every card on the page as you type
+// - "This week" picks for the next holiday (chosen on the visitor's clock)
+// - "Most read this week" from Search Console (src/data/blog-popular.json)
+// - topic rows lead with posts not already shown above (no repeats)
+// - an "Around the world" row (international posts + the World book's boards)
+// - topic, New and Updated labels on the cards
+// - the Buying guides row leads with seasonal and most-read guides, and has
+//   category buttons into the Best Buys finder
+// Every post sits in exactly one topic row; the rules below go in order and
+// the first match wins.
 const BLOG_START = ["how-to-make-charcuterie-board", "how-much-charcuterie-per-person", "charcuterie-board-ideas"];
 const BLOG_PILLARS = [
-  ["buying", "Buying guides", "The best brand of everything, ranked, plus what to buy at Costco, Trader Joe's and Aldi.", /^best-|reviewed|holiday-charcuterie-items|costco-holiday|price-index|charcuterie-books|^costco-charcuterie|^trader-joes-charcuterie|gift-basket/],
+  ["buying", "Buying guides", "The best brand of everything, ranked, plus what to buy at Costco, Trader Joe's and Aldi.", /^best-|reviewed|holiday-charcuterie-items|costco-holiday|price-index|charcuterie-books|^costco-charcuterie|^trader-joes-charcuterie|gift-basket|supplies|slicer|accessories|knife-set/],
   ["holidays", "Holidays and seasons", "Thanksgiving to New Year's, game day, Valentine's and every season in between.", /thanksgiving|christmas|halloween|jack-o|new-years|easter|valentine|friendsgiving|noche-buena|holiday|^fall-|^winter-|^summer-|hot-cocoa|advent|beaujolais/],
   ["pairing", "Pairing science", "Why some bites work: wine, beer and whiskey, salt and sweet, acid and fat.", /pair|wine|beer|whiskey|acid-rule|salt-sweet|color-and-flavor|contrast|what-to-serve|charcuterie-chart/],
   ["building", "Building a board", "How much to buy, what goes on it, how to cut, arrange, store and carry it.", /^how-|etiquette|mistakes|sizes|presentation|build-sequence|storage|can-you|pregnan|business|captions|pronounce|what-is|leftover|difficult|unhealthy|cost|before-and-after|beginners|night-before|temperature|what-goes-on|what-bread|large-group|which-charcuterie|-vs-cheese-board|grazing-board-vs|smorgasbord-vs|how-many|appetizer|condiments|crackers|dips|-fruit$|-nuts$|-olives$|-chocolate$|safe-during|freeze/],
   ["ingredients", "Ingredient deep dives", "One ingredient at a time, plus the head-to-heads: brie vs camembert, salami vs pepperoni.", /-vs-|deep-dive|types-of|tier-list|mild-to-strong|never-tried|unique-charcuterie-ingredients|aging-caves|crystal/],
   ["ideas", "Board ideas and recipes", "Boards, trays, cups, skewers and grazing tables to copy, from $20 to showstopper.", /board|tray|platter|cups|skewers|grazing|jarcuterie|snackle|salad|river|rose|course|cheese-ball|baked-brie|butter/]
 ];
+const BLOG_SHORT = { buying: "Buying guide", holidays: "Holidays", pairing: "Pairing", building: "How-to", ingredients: "Ingredients", ideas: "Board idea" };
+const BLOG_WORLD = /noche-buena|smorgasbord|halal|nduja|jamon-iberico|mezze|meze|tapas|antipasto|international|around-the-world|world-|-world|cheese-advent-calendar-australia/;
+const BLOG_SEASONAL_BUYING = ["best-panettone", "best-eggnog", "best-cranberry-sauce", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-charcuterie-gift-boxes", "best-hot-cocoa-mix", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-sparkling-cider", "best-stilton"];
 function blogPillarOf(slug) {
   const hit = BLOG_PILLARS.find(([, , , re]) => re.test(slug));
   return hit ? hit[0] : "ingredients";
 }
+const daysSince = (d) => (d ? (Date.now() - new Date(`${String(d).slice(0, 10)}T00:00:00Z`).getTime()) / 864e5 : 9999);
 
-function blogPage(posts) {
+function blogCard(post, { label = true } = {}) {
+  const k = blogPillarOf(post.slug);
+  const fresh = daysSince(post.date) <= 7 ? `<span class="bp-badge is-new">New</span>` : post.updated && post.updated !== post.date && daysSince(post.updated) <= 14 ? `<span class="bp-badge">Updated</span>` : "";
+  const q = `${post.title} ${metaDescription(post)} ${BLOG_SHORT[k]}`.toLowerCase();
+  return `<article class="card" data-q="${escapeHtml(q)}">
+  <a href="/blog/${post.slug}/" tabindex="-1" aria-hidden="true"><img class="blog-preview-image" src="${thumb(post.image)}" alt=""${imageSize(thumb(post.image))} loading="lazy" decoding="async"></a>
+  ${label || fresh ? `<p class="bp-labels">${label ? `<span class="bp-topic">${BLOG_SHORT[k]}</span>` : ""}${fresh}</p>` : ""}
+  <h3><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h3>
+  <p>${escapeHtml(clampText(metaDescription(post), 155))}</p>
+</article>`;
+}
+
+const BLOG_FILTER_JS = `(function(){var q=document.getElementById("blog-q"),main=document.querySelector(".bp-main");if(!q||!main)return;var st=document.getElementById("bp-status");function run(){var v=q.value.trim().toLowerCase(),n=0;main.classList.toggle("bp-searching",!!v);document.querySelectorAll(".bp-topic-row").forEach(function(r){var k=0;r.querySelectorAll(".card").forEach(function(c){var ok=!v||v.split(/\\s+/).every(function(w){return c.dataset.q.indexOf(w)>=0});c.hidden=!ok;if(ok)k++});r.hidden=!!v&&k===0;n+=v?k:0});if(st){if(v){st.hidden=false;st.querySelector("b").textContent=n+(n===1?" article":" articles");var a=st.querySelector("a");a.href="/search/?q="+encodeURIComponent(q.value.trim());}else st.hidden=true}}q.addEventListener("input",run);document.querySelectorAll(".bp-more").forEach(function(b){b.addEventListener("click",function(){var g=document.getElementById(b.dataset.bp);if(g)g.classList.remove("bp-capped");b.parentNode.hidden=true})})})();`;
+
+function blogPage(posts, { boards = [], holidays = [] } = {}) {
   const sorted = [...posts].sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const bySlug = new Map(posts.map((p) => [p.slug, p]));
   const start = BLOG_START.map((s) => bySlug.get(s)).filter(Boolean);
+  const newest = sorted.slice(0, 6);
+  let popular = [];
+  let popWeek = "";
+  let popAll = [];
+  try {
+    const pj = JSON.parse(readFileSync(join(root, "src", "data", "blog-popular.json"), "utf8"));
+    popWeek = pj.week || "";
+    popAll = pj.slugs || [];
+    popular = popAll.map((s) => bySlug.get(s)).filter((p) => p && !newest.includes(p) && !start.includes(p)).slice(0, 6);
+  } catch {}
+  const shown = new Set([...start, ...newest, ...popular].map((p) => p.slug));
+  const lead = (list, first = []) => {
+    const pri = first.map((s) => list.find((p) => p.slug === s)).filter((p) => p && !shown.has(p.slug));
+    const rest = list.filter((p) => !pri.includes(p));
+    return [...pri, ...rest.filter((p) => !shown.has(p.slug)), ...rest.filter((p) => shown.has(p.slug))];
+  };
   const order = ["holidays", "ideas", "building", "pairing", "ingredients", "buying"];
-  const rows = order.map((k) => BLOG_PILLARS.find((x) => x[0] === k)).map(([key, name, sub]) => ({ key, name, sub, list: sorted.filter((p) => blogPillarOf(p.slug) === key) })).filter((r) => r.list.length);
-  const grid = (list, id, cap) => `<div class="grid three blog-preview-grid archive-grid bp-grid${list.length > cap ? " bp-capped" : ""}" id="${id}">
-        ${list.map((post) => articleCard(post)).join("\n        ")}
+  const rows = order.map((k) => BLOG_PILLARS.find((x) => x[0] === k)).map(([key, name, sub]) => {
+    const list = sorted.filter((p) => blogPillarOf(p.slug) === key);
+    return { key, name, sub, list: key === "buying" ? lead(list, [...BLOG_SEASONAL_BUYING, ...popAll]) : lead(list) };
+  }).filter((r) => r.list.length);
+  const grid = (list, id, cap, opts) => `<div class="grid three blog-preview-grid archive-grid bp-grid${list.length > cap ? " bp-capped" : ""}" id="${id}">
+        ${list.map((post) => blogCard(post, opts)).join("\n        ")}
       </div>`;
-  const row = (r) => `<section class="section bp-row" id="topic-${r.key}" aria-labelledby="bp-h-${r.key}">
+  const BB_CATS = [["cheese", "Cheese"], ["meat", "Cured meat"], ["crackers", "Crackers"], ["spreads", "Spreads and dips"], ["sweets", "Sweets"], ["drinks", "Drinks"], ["gifts", "Gifts and gear"], ["stores", "By store"]];
+  const row = (r) => `<section class="section bp-row bp-topic-row" id="topic-${r.key}" aria-labelledby="bp-h-${r.key}">
     <div class="section-inner">
       <div class="bp-head"><h2 id="bp-h-${r.key}">${escapeHtml(r.name)}</h2><span>${r.list.length} articles</span></div>
       <p class="bp-sub">${escapeHtml(r.sub)}</p>
-      ${grid(r.list, `bp-${r.key}`, 6)}
-      ${r.list.length > 6 ? `<p class="bp-more-wrap"><button type="button" class="bp-more" data-bp="bp-${r.key}">Show all ${r.list.length}</button>${r.key === "buying" ? ` <a class="text-link" href="/blog/best-charcuterie-brands/">Browse them by category &rarr;</a>` : ""}</p>` : ""}
+      ${r.key === "buying" ? `<nav class="bp-chips bp-cat-chips" aria-label="Buying guides by category">${BB_CATS.map(([c, l]) => `<a href="/blog/best-charcuterie-brands/?c=${c}#finder">${l}</a>`).join("")}</nav>` : ""}
+      ${grid(r.list, `bp-${r.key}`, 6, { label: false })}
+      ${r.list.length > 6 ? `<p class="bp-more-wrap"><button type="button" class="bp-more" data-bp="bp-${r.key}">Show all ${r.list.length}</button>${r.key === "buying" ? ` <a class="text-link" href="/blog/best-charcuterie-brands/">All buying guides, by category &rarr;</a>` : ""}</p>` : ""}
     </div>
   </section>`;
+  // Around the world: international posts plus the World book's board plans.
+  const worldPosts = sorted.filter((p) => BLOG_WORLD.test(p.slug));
+  const worldBoards = boards.filter((b) => b.book === "world").slice(0, 8);
+  const world = worldPosts.length + worldBoards.length >= 4 ? `<section class="section bp-row bp-extra" id="topic-world" aria-labelledby="bp-h-world">
+    <div class="section-inner">
+      <div class="bp-head"><h2 id="bp-h-world">Around the world</h2><span>${worldPosts.length} articles · ${boards.filter((b) => b.book === "world").length} board plans</span></div>
+      <p class="bp-sub">Boards and traditions from other places: Noche Buena, smorgasbord, mezze, Korean BBQ, Bavarian and more.</p>
+      <ul class="hx-tiles bp-world">${[...worldPosts.map((p) => `<li><a href="/blog/${p.slug}/"><img src="${escapeHtml(thumb(p.image, "s"))}" alt=""${imageSize(thumb(p.image, "s"))} loading="lazy" decoding="async"><span class="hx-k">Article</span><strong>${escapeHtml(p.title.replace(/:.*$/, ""))}</strong></a></li>`), ...worldBoards.map((b) => `<li><a href="/boards/${b.slug}/"><img src="${escapeHtml(thumb(b.image, "s"))}" alt=""${imageSize(thumb(b.image, "s"))} loading="lazy" decoding="async"><span class="hx-k">Board plan</span><strong>${escapeHtml(b.h1 || b.title)}</strong></a></li>`)].join("")}</ul>
+      <p class="bp-more-wrap"><a class="text-link" href="/boards/around-the-world/">All international board plans &rarr;</a></p>
+    </div>
+  </section>` : "";
+  // This week: one strip per holiday with posts; the visitor's clock shows the
+  // next one within 45 days.
+  const today = new Date().toISOString().slice(0, 10);
+  const weekStrips = holidays.map((hol) => {
+    const picks = [...(hol.blog || []), ...(hol.read || [])].map((s) => bySlug.get(s)).filter(Boolean).filter((p, i, a) => a.indexOf(p) === i).slice(0, 5);
+    if (!picks.length || !hol.dates) return "";
+    const next = hol.dates.find((d) => d >= today) || hol.dates[hol.dates.length - 1];
+    return `<div class="bp-week" data-d="${next}" data-name="${escapeHtml(hol.name)}" hidden>
+        <div class="bp-head"><h2>This week: ${escapeHtml(hol.name)}</h2><span class="bp-week-in"></span></div>
+        <ul class="hx-tiles"><li><a href="/holidays/${hol.slug}/"><img src="${escapeHtml(thumb(hol.image, "s"))}" alt=""${imageSize(thumb(hol.image, "s"))} loading="lazy" decoding="async"><span class="hx-k">Holiday plan</span><strong>${escapeHtml(hol.h1 || hol.name)}</strong></a></li>${picks.map((p) => `<li><a href="/blog/${p.slug}/"><img src="${escapeHtml(thumb(p.image, "s"))}" alt=""${imageSize(thumb(p.image, "s"))} loading="lazy" decoding="async"><span class="hx-k">${BLOG_SHORT[blogPillarOf(p.slug)]}</span><strong>${escapeHtml(p.title.replace(/:.*$/, ""))}</strong></a></li>`).join("")}</ul>
+      </div>`;
+  }).filter(Boolean).join("\n      ");
   const firstTwo = rows.slice(0, 2).map(row).join("\n");
   const rest = rows.slice(2).map(row).join("\n");
   return layout({
     title: "Charcuterie Articles by Topic | Charcuterie Lab",
     canonical: "/blog/",
     description: `Every Charcuterie Lab article by topic: ${rows.map((r) => r.name.toLowerCase()).join(", ")}. ${posts.length} articles on building, pairing and buying for a charcuterie board.`,
-    body: `<main class="archive-main">
+    body: `<main class="archive-main bp-main">
   <section class="archive-hero">
     <div class="archive-hero-inner">
       <p class="section-kicker">The Lab Report</p>
       <h1>Charcuterie articles, by topic</h1>
-      <p>${posts.length} articles on building, pairing and buying for a board. Pick a topic, or search.</p>
-      <form class="search-form search-inline" role="search" action="/search/" method="get">
-        <label class="sr-only" for="blog-q">Search articles</label>
-        <input id="blog-q" name="q" type="search" placeholder="Search articles, ingredients and boards" autocomplete="off">
+      <p>${posts.length} articles on building, pairing and buying for a board. Pick a topic, or start typing to filter.</p>
+      <form class="search-form search-inline bp-search" role="search" action="/search/" method="get">
+        <label class="sr-only" for="blog-q">Filter articles</label>
+        <input id="blog-q" name="q" type="search" placeholder="Type to filter: brie, Thanksgiving, wine..." autocomplete="off">
         <button class="button primary" type="submit">Search</button>
       </form>
-      <nav class="bp-chips" aria-label="Topics">${rows.map((r) => `<a href="#topic-${r.key}">${escapeHtml(r.name)} <span>${r.list.length}</span></a>`).join("")}</nav>
+      <nav class="bp-chips bp-topic-chips" aria-label="Topics">${rows.map((r) => `<a href="#topic-${r.key}">${escapeHtml(r.name)} <span>${r.list.length}</span></a>`).join("")}${world ? `<a href="#topic-world">Around the world</a>` : ""}</nav>
     </div>
   </section>
-  ${start.length ? `<section class="section bp-row bp-start" aria-labelledby="bp-h-start">
+  <p class="bp-status section-inner" id="bp-status" aria-live="polite" hidden><b></b> match. <a href="/search/">Search the whole site (boards, ingredients, pairings) &rarr;</a></p>
+  ${weekStrips ? `<section class="section bp-row bp-extra bp-week-wrap" aria-label="This week">
+    <div class="section-inner">
+      ${weekStrips}
+    </div>
+    <script>(function(){var t=new Date();t.setHours(0,0,0,0);var best=null,bn=1e9;document.querySelectorAll(".bp-week").forEach(function(w){var n=Math.round((new Date(w.dataset.d+"T00:00:00")-t)/864e5);if(n>=0&&n<=45&&n<bn){best=w;bn=n}});if(!best){var s=document.querySelector(".bp-week-wrap");if(s)s.hidden=true;return}best.hidden=false;best.querySelector(".bp-week-in").textContent=bn===0?"Today":bn===1?"Tomorrow":bn+" days to go"})();</script>
+  </section>` : ""}
+  ${start.length ? `<section class="section bp-row bp-start bp-extra" aria-labelledby="bp-h-start">
     <div class="section-inner">
       <div class="bp-head"><h2 id="bp-h-start">New here? Start with these</h2></div>
       <div class="grid three blog-preview-grid archive-grid bp-grid bp-start-grid">
-        ${start.map((post) => articleCard(post)).join("\n        ")}
+        ${start.map((post) => blogCard(post)).join("\n        ")}
       </div>
     </div>
   </section>` : ""}
-  <section class="section bp-row" id="topic-new" aria-labelledby="bp-h-new">
+  <section class="section bp-row bp-extra" id="topic-new" aria-labelledby="bp-h-new">
     <div class="section-inner">
-      <div class="bp-head"><h2 id="bp-h-new">Newest</h2><span>Updated daily</span></div>
-      ${grid(sorted.slice(0, 6), "bp-new", 6)}
+      <div class="bp-head"><h2 id="bp-h-new">Newest</h2><span>A new article most days</span></div>
+      ${grid(newest, "bp-new", 6)}
     </div>
   </section>
+  ${popular.length ? `<section class="section bp-row bp-extra" id="topic-popular" aria-labelledby="bp-h-pop">
+    <div class="section-inner">
+      <div class="bp-head"><h2 id="bp-h-pop">Most read this week</h2><span>${escapeHtml(popWeek ? `From Google searches, ${popWeek}` : "From Google searches")}</span></div>
+      ${grid(popular, "bp-pop", 6)}
+    </div>
+  </section>` : ""}
 ${firstTwo}
+${world}
   ${bookBar("blog_index_top")}
 ${rest}
-  <script>(function(){document.querySelectorAll(".bp-more").forEach(function(b){b.addEventListener("click",function(){var g=document.getElementById(b.dataset.bp);if(g)g.classList.remove("bp-capped");b.parentNode.hidden=true})})})();</script>
+  <script>${BLOG_FILTER_JS}</script>
 ${labNext("blog_index")}
 </main>`
   });
@@ -2799,7 +2885,7 @@ async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(join(dist, "assets"), { recursive: true });
   await cp(paths.public, dist, { recursive: true });
-  await cp(paths.styles, join(dist, "assets", "site.css"));
+  await writeFile(join(dist, "assets", "site.css"), styleText);
   await cp(searchSrc, join(dist, "assets", "search.js"));
 
   const [allPosts, allProducts, ingredients, boards, holidays, pairingData, dietData] = await Promise.all([
@@ -2948,7 +3034,7 @@ async function build() {
     await writeFile(join(dist, gp.path, "index.html"), gp.html);
   }
   await mkdir(join(dist, "blog"), { recursive: true });
-  await writeFile(join(dist, "blog", "index.html"), blogPage(posts));
+  await writeFile(join(dist, "blog", "index.html"), blogPage(posts, { boards, holidays }));
   // One Shop (12 Oct 2026): /shop/ is the old printables landing plus a Start
   // here row; /printables/ and /books/ redirect to it (netlify.toml).
   await mkdir(join(dist, "shop"), { recursive: true });

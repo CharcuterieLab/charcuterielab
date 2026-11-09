@@ -1,0 +1,30 @@
+/* Extra stylesheet parts are appended to site.css at build time, in file-name
+   order (scripts/build.mjs). Separate files let changes ship without touching
+   site.css. */
+/* Blog hub upgrade (8 Nov 2026) */
+.bp-search { display: flex; gap: 8px; align-items: stretch; }
+.bp-search input { flex: 1 1 auto; min-width: 0; }
+.bp-search .button { flex: 0 0 auto; }
+.bp-topic-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+.bp-topic-chips a { flex: 0 0 auto; }
+.bp-cat-chips { margin: -6px 0 16px; }
+.bp-cat-chips a { min-height: 34px; font-size: 13px; }
+.bp-status { margin: 18px auto 0; font: 600 15px var(--sans); color: var(--muted); }
+.bp-status b { color: var(--ink); }
+.bp-status[hidden] { display: none; }
+.bp-labels { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 4px !important; }
+.bp-topic, .bp-badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font: 800 11px/1.6 var(--sans); letter-spacing: 0.04em; text-transform: uppercase; }
+.bp-topic { background: var(--cream); color: var(--green-deep); }
+.bp-badge { background: #f3e6c9; color: #6b4a12; }
+.bp-badge.is-new { background: #9b2f22; color: #fff; }
+.bp-week[hidden], .bp-week-wrap[hidden] { display: none; }
+.bp-week .bp-head { margin-bottom: 12px; }
+.bp-week-in { font: 700 14px var(--sans); color: #9b2f22 !important; }
+.bp-searching .bp-extra, .bp-searching .bp-more-wrap, .bp-searching .bp-sub, .bp-searching .bp-cat-chips, .bp-searching .book-bar, .bp-searching .bp-row[hidden] { display: none !important; }
+.bp-searching .bp-grid > .card:not([hidden]) { display: block !important; }
+.bp-searching .bp-grid > .card[hidden] { display: none !important; }
+@media (max-width: 560px) {
+  .archive-hero .bp-search .button { padding-left: 14px; padding-right: 14px; }
+  .bp-labels { gap: 4px; }
+  .bp-topic, .bp-badge { font-size: 10px; padding: 0 6px; }
+}
