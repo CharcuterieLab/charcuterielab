@@ -14,6 +14,10 @@ faq: "[{"question": "Is there a cheese advent calendar in Australia in 2026?", "
 
 > **Quick Answer:** **Australia:** Hunter Valley Cheese Company's 12-day calendar (A$150) is confirmed; watch Woolworths for the Thomas Dux calendar. Aldi Australia has none this year. **Canada:** look for Ilchester at Metro, or Laliberté Cheese in BC. Otherwise, make your own.
 
+:::html
+<div class="sk-top"><p class="sk-top-label">Can't find one near you?</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Works anywhere</p><a class="sk-top-name" href="/printables/diy-cheese-advent-calendar-kit/">DIY Cheese Advent Calendar Kit</a><p class="sk-top-line">Shopping lists at 3 budgets, a 12 or 24-night plan and number tags. Instant download.</p></div><div class="sk-top-buy"><span class="sk-price">US$4 PDF</span><a class="button sk-buy-sm" href="/printables/diy-cheese-advent-calendar-kit/">See the kit</a></div></div></div>
+:::
+
 Most cheese advent calendars are sold in the US and UK, and they ship chilled, so they rarely cross borders. Here's what we could find closer to home. For the full US and UK list, see [every cheese advent calendar announced for 2026](/blog/cheese-advent-calendars-2026/).
 
 ## Australia

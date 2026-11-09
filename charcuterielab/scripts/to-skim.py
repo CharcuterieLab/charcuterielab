@@ -173,11 +173,9 @@ def convert(slug):
     noun = slug.replace("best-", "").replace("-brands", "").replace("-for-charcuterie", "").replace("-for-cheese", "").replace("-", " ")
     # ---------------------------------------------------------------- build
     def buy(it, small=False):
-        if amazon and not STORE_BRANDS.match(it["name"]):
-            q = re.sub(r"\s*\(.*?\)", "", it["name"])
-            url = "https://www.amazon.com/s?k=" + "+".join(q.replace("&", "and").split())
-            cls = "button sk-buy-sm" if small else "button primary sk-buy"
-            return f'<a class="{cls}" href="{esc(url)}" target="_blank" rel="noopener">Check price on Amazon</a>'
+        # No Amazon search links (9 Nov 2026): Associates only pays on the exact
+        # product linked. New guides get "Where to buy" here; exact Amazon or
+        # store links are added afterwards with tmp/wire_from_config.py.
         if small:
             return f'<a class="button sk-buy-sm" href="#pick-{it["n"]}">Where to buy</a>'
         return ""

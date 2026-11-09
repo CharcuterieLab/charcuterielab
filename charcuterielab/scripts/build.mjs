@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from "node:fs";
 import { injectAffiliate, DISCLOSURE } from "./affiliate.mjs";
+import { outboundLinks } from "./outbound.mjs";
 import { injectTools } from "./tools-box.mjs";
 import { injectGuideLinks } from "./guide-links.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
@@ -1571,6 +1572,7 @@ function layout({
   description,
   body,
   head = "",
+  topHead = "",
   canonical = "/",
   image = "/images/book-cover.jpg",
   imageAlt = "",
@@ -1590,7 +1592,7 @@ function layout({
   return `<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+${topHead ? `  ${topHead}\n` : ""}  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(metaSnippet(description))}">
   <title>${escapeHtml(title)}</title>
@@ -1858,7 +1860,8 @@ function homePage(posts, products, { boardStrip = "", worldStrip = "", popular =
   return layout({
     title: "Charcuterie Lab | Boards Built by Science",
     canonical: "/",
-    head: `  <meta name='impact-site-verification' value='dd3b06f6-77c3-4e4b-a2ad-7da15a9cf24c'>\n${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
+    topHead: `<meta name='impact-site-verification' value='dd3b06f6-77c3-4e4b-a2ad-7da15a9cf24c'>`,
+    head: `${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
     description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
     body: `<main>
   <section class="hero home-intent">
@@ -3710,6 +3713,7 @@ console.log(`Search index: ${await buildSearch()} pages`);
 await injectDietaryBooks(dist);
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
+{ const o = await outboundLinks(dist); console.log(`Outbound: ${o.moved} inline citations moved to Sources on ${o.pages} pages; OneLink on ${o.onelink} pages; 0 Amazon search links`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const c = await calmHubs(dist); console.log(`Calm pages: ${c.join(", ")}`); }
 { const x = await injectBoardExtras(dist, root); console.log(`Board extras: holiday countdown on ${x.holiday} boards, Make it your own on ${x.swaps}`); }
