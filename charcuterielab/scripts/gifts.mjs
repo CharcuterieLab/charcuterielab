@@ -21,7 +21,7 @@ export { AMAZON_TAG } from "./affiliate.mjs";
 import { AMAZON_TAG } from "./affiliate.mjs";
 const PRICES_CHECKED = "October 2026";
 
-export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/"];
+export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/", "/gifts/luxury/", "/gifts/last-minute/"];
 
 // Seasonal: "Gifts" sits in the top menu from Nov 1 to Dec 25 (build date).
 export function giftsInNav(d = new Date()) {
@@ -516,6 +516,82 @@ const GUIDES = [
       ["What is a good charcuterie gift for employees?", "A board book they can use at home, or a ready-to-serve board for the team to share in the office. For remote teams, a book or a shelf-stable sausage and cheese set mails easily."]
     ],
     related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Office party charcuterie board", "/boards/office-party-charcuterie-board/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
+  },
+  {
+    slug: "luxury",
+    card: "Luxury charcuterie gifts",
+    cardLine: "10 splurges, from $50 knives to a $139 ready-made board",
+    image: "/images/50-boards-44-truffle-and-luxury.webp",
+    seoTitle: "Luxury Charcuterie Gifts: 10 Splurges Worth It (2026)",
+    h1: "Luxury charcuterie gifts: 10 splurges that are worth the money",
+    kicker: "Gift guide · Luxury",
+    description: "10 luxury charcuterie gifts for 2026: a Boarderie ready-to-serve board, Harry & David's meat and cheese box, a cheese club, Laguiole and Boska knife sets, an engraved board and the Wüsthof cheese plane.",
+    quick: "Best splurge: a <strong>Harry & David meat and cheese box</strong> (about $110) or a <strong>Boarderie board</strong> ($129–139). Best keepsake: an <strong>engraved board</strong> ($45–70) or the <strong>Laguiole cheese set</strong> ($55–70).",
+    intro: "A splurge gift should be something the person would never buy for themselves. For a charcuterie lover that means one of three things: a board that arrives finished, a tool good enough to leave out on the counter, or a club that keeps arriving after the holidays. Everything here is chosen for one of those reasons, not just for the price tag.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { item: "harryDavid", best: "Best overall splurge" },
+      { item: "boarderie", best: "Best ready-to-serve board" },
+      { item: "club", best: "Best gift that keeps arriving" },
+      { item: "laguiole", best: "Best knife set to give" },
+      { item: "boska", best: "Best modern knife set" },
+      { item: "engraved", best: "Best keepsake" },
+      { item: "wusthofPlane", best: "Best single tool" },
+      { item: "giftBox", best: "Best if you want to compare boxes" },
+      { book: "impossible", best: "Best for the host who has everything", why: "Twenty-five showpiece boards, from a salami dragon to a cheese cake, each with the trick that makes it work and a shopping list for 12 to 15. Pair it with the Laguiole set and it's a showpiece gift too." },
+      { book: "main", best: "Best book to tuck in", why: "Fifty complete boards with shopping lists and amounts. Slip it into a gift box so the board they love tonight becomes the board they make next month." }
+    ],
+    extra: {
+      title: "Build a grand board kit (about $150–200)",
+      body: "<p>For the biggest gift under the tree, put the pieces of a full board in one box:</p><ol><li><strong>The board:</strong> an engraved wood and marble board with their initials.</li><li><strong>The knives:</strong> the Laguiole 3-piece set.</li><li><strong>The jars:</strong> honeycomb, fig spread and Marcona almonds, all shelf-stable.</li><li><strong>The meat:</strong> a whole dry salami, which keeps about 6 weeks unopened.</li><li><strong>The plan:</strong> 50 Boards, Built by Science, so the first board has a shopping list.</li></ol><p>Add the cheese the day you hand it over, and tell them to refrigerate it. Our <a href=\"/blog/charcuterie-gift-basket/\">DIY gift basket guide</a> has packing tips, and <a href=\"/blog/best-cheese-of-the-month-clubs/\">our ranked cheese clubs</a> compares plans if you'd rather give months of cheese.</p>"
+    },
+    set: "luxury",
+    faq: [
+      ["What is a luxury gift for a charcuterie lover?", "A ready-to-serve board from Boarderie, Harry & David's Ultimate Meat and Cheese box, a cheese-of-the-month club, or a boxed knife set like the Laguiole 3-piece set. Pick something they'd never buy for themselves."],
+      ["How much should I spend on a luxury charcuterie gift?", "Most splurge gifts run $50 to $150. Knife sets and engraved boards sit around $50 to $70; ready-made boards and boxes run about $110 to $140; clubs vary by plan length."],
+      ["Is a cheese club a good gift?", "Yes, for a cheese lover who likes to try new things. A 3-month plan is the sweet spot: enough boxes to find a favorite without committing them to a year."],
+      ["What is the best ready-made charcuterie board to send?", "Boarderie's boards arrive already arranged on a wooden board with free overnight shipping, so nothing needs slicing or plating. Harry & David's box is the better pick if you want more food for the money."],
+      ["Can I engrave a charcuterie board as a gift?", "Yes. Mark & Graham engraves its acacia and marble board with initials or a name. Order early in December, since personalized items take longer to ship."]
+    ],
+    related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Best cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
+  },
+  {
+    slug: "last-minute",
+    card: "Last-minute charcuterie gifts",
+    cardLine: "10 gifts you can still give tomorrow",
+    image: "/images/charcuterie-gift-basket-packing.jpg",
+    seoTitle: "Last-Minute Charcuterie Gifts: 10 Ideas That Still Arrive",
+    h1: "Last-minute charcuterie gifts: 10 ideas you can still give in time",
+    kicker: "Gift guide · Last minute",
+    description: "10 last-minute charcuterie gifts: instant ebooks and printables, a cheese club, overnight-shipped boards, and a DIY board kit from one grocery run, plus when to order everything.",
+    quick: "Out of time? Give the <strong>50 Boards, Built by Science ebook</strong> and print our free gift card. Two days left: a <strong>Boarderie board</strong> ships overnight. One evening: build a <strong>DIY board kit</strong> from the grocery store.",
+    intro: "A last-minute gift only works if it doesn't look last-minute. The fix is to pick a gift that was never meant to ship: a download, a plan that starts later, or a kit you put together yourself with a handwritten tag. Here's what still works, sorted by how much time you have left.",
+    method: "Prices are typical ranges, checked " + PRICES_CHECKED + ". Shipping times change in December, so check the delivery date at checkout. We have no paid relationship with any brand below. We wrote the Charcuterie Lab books. Links to Amazon are affiliate links.",
+    picks: [
+      { book: "main", best: "Best instant gift", why: "Buy the ebook and the download link arrives by email in minutes. Forward it, or print our free \"Your first board is on me\" gift card and write the book's name inside. Fifty boards with shopping lists means the gift turns into a party." },
+      { book: "world", best: "Best instant gift under $20", why: "Sixteen international boards with shopping lists and prep countdowns. The ebook is the easy add-on to a bottle of wine you're bringing anyway." },
+      { item: "wineGuide", best: "Best printable for a wine lover" },
+      { item: "styling", best: "Best printable for a host" },
+      { item: "club", best: "Best gift that starts later" },
+      { item: "boarderie", best: "Best with two days left" },
+      { item: "salami", best: "Best for a DIY kit", why: "Unopened, a whole dry salami keeps about 6 weeks in the pantry (USDA), so it can sit under the tree. Most grocery stores stock one in the deli case." },
+      { item: "honeycomb", best: "Best jar to grab" },
+      { item: "hotHoney", best: "Best stocking add-on" },
+      { item: "knives3", best: "Best tool to tie on" }
+    ],
+    extra: {
+      title: "How much time do you have?",
+      body: "<ul><li><strong>Two weeks or more:</strong> anything ships, including engraved boards, which take longest. Order paperbacks by mid-December.</li><li><strong>About a week:</strong> order shelf-stable gifts and books now. Perishable boxes with soft cheese need expedited, insulated shipping and someone home to sign.</li><li><strong>Two or three days:</strong> ready-made boards with overnight shipping, or anything your store sells for pickup.</li><li><strong>Tonight:</strong> an ebook, a printable or a club gift, plus our free printable gift card.</li></ul><h3>The one-trip DIY board kit (about $40–60)</h3><p>One grocery run covers it: a wood board, two travel-friendly cheeses such as aged Gouda and Parmigiano-Reggiano, a whole dry salami, one jar of jam or honey, crackers, a bag of nuts and a small cheese knife. Wrap it in cellophane, add a ribbon, and tuck in a printed board plan. Full lists at $25, $50 and $100 are in our <a href=\"/blog/charcuterie-gift-basket/\">DIY gift basket guide</a>.</p>"
+    },
+    set: "starter",
+    faq: [
+      ["What is a good last-minute charcuterie gift?", "An ebook. Buy 50 Boards, Built by Science as a PDF, then forward the download email or print our free gift card and write the book's name on it. It arrives in minutes and looks planned."],
+      ["What charcuterie gifts can I get the same day?", "A downloadable ebook or printable, a cheese club gift, or a DIY board kit from the grocery store: a board, two hard cheeses, a whole salami, a jar of jam, crackers and nuts."],
+      ["How do I give a digital gift in person?", "Print our free \"Your first board is on me\" gift card, write the book or printable's name inside, and put it in an envelope or tie it to a jar of fig spread."],
+      ["Can I still ship cheese a few days before Christmas?", "Hard cheeses and whole salami can ship with expedited shipping. Soft cheeses need insulated, overnight shipping and someone home to refrigerate them. When in doubt, give something shelf-stable."],
+      ["Is a gift subscription a good last-minute gift?", "Yes. A cheese club needs nothing to ship by the holiday: order it, print or forward the confirmation, and the first box arrives later."]
+    ],
+    related: [["DIY charcuterie gift basket ($25, $50, $100)", "/blog/charcuterie-gift-basket/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
   }
 ];
 
@@ -531,7 +607,8 @@ const SETS = {
   vegan: { name: "The plant-based gift", book: "plant", items: ["acacia", "veganCheese", "olives"], line: "A board, a vegan cheese worth serving and fifteen boards to build around it." },
   home: { name: "The housewarming gift", book: "main", items: ["acacia", "ramekins"], line: "A first board for the new kitchen, the little bowls it needs and fifty boards to fill it." },
   him: { name: "The meat lover's gift", book: "main", items: ["salami", "boska", "mustard"], line: "Fifty boards, a whole salami to start the first one, the knives to cut it and the mustard that finishes it." },
-  client: { name: "The client thank-you", book: "world", items: ["marcona", "figSpread"], line: "A book that keeps, plus two shelf-stable jars that can sit in a mailroom. Easy to send down a list." }
+  client: { name: "The client thank-you", book: "world", items: ["marcona", "figSpread"], line: "A book that keeps, plus two shelf-stable jars that can sit in a mailroom. Easy to send down a list." },
+  luxury: { name: "The grand board kit", book: "main", items: ["laguiole", "engraved", "honeycomb"], line: "An engraved board, a French knife set, a honeycomb and fifty boards to build on it." }
 };
 
 // ---------------------------------------------------------------- render
@@ -762,9 +839,9 @@ export function giftPages(h, books) {
       ["The best cheese knife sets", "/blog/best-cheese-knife-sets/", "Which knives you need, from $15 to $100", "/images/best-cheese-knife-sets.jpg"]
     ];
     const chips = [
-      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"]]],
+      ["Budget", [["Under $25", "/gifts/under-25/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Gift sets $35 to $95", "#sets"], ["DIY basket", "/blog/charcuterie-gift-basket/"], ["Splurge ($50+)", "/gifts/luxury/"]]],
       ["Person", [["Cheese lover", "/gifts/cheese-lovers/"], ["Wine lover", "/gifts/wine-and-cheese-lovers/"], ["Host", "/gifts/hostess-gifts/"], ["For him", "/gifts/for-him/"], ["Book lover", "/gifts/charcuterie-books/"], ["Keto", "/gifts/keto-gifts/"], ["Vegan", "/gifts/vegan-foodie-gifts/"]]],
-      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"]]]
+      ["Occasion", [["Hostess gift", "/gifts/hostess-gifts/"], ["White elephant", "/gifts/white-elephant/"], ["Stocking stuffer", "/gifts/stocking-stuffers/"], ["Housewarming", "/gifts/housewarming/"], ["Client gifts", "/gifts/client-gifts/"], ["Last minute", "/gifts/last-minute/"]]]
     ];
     const faq = [
       ["What do you get someone who loves charcuterie?", "A board book that tells them exactly what to buy and how much, paired with one tool or one jar: a cheese knife set, fig spread, hot honey or honeycomb. Our top pick is 50 Boards, Built by Science ($25.99 paperback) with a jar of fig spread."],
