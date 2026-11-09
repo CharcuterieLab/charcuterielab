@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { injectAffiliate, DISCLOSURE } from "./affiliate.mjs";
 import { outboundLinks } from "./outbound.mjs";
+import { injectBookLines } from "./book-lines.mjs";
 import { injectTools } from "./tools-box.mjs";
 import { injectGuideLinks } from "./guide-links.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
@@ -3714,6 +3715,7 @@ console.log(`Search index: ${await buildSearch()} pages`);
 { const g = await injectGuideLinks(dist); console.log(`Guide links: ${g.links} ingredient pages link to their buying guide (${g.mapped} mapped)`); }
 await injectDietaryBooks(dist);
 { const t = await injectTools(dist); console.log(`Tools boxes: ${t.boxes} pages, board tile linked on ${t.tiles}${t.missed.length ? `; missed: ${t.missed.join(", ")}` : ""}`); }
+{ const b = await injectBookLines(dist); console.log(`Book lines: ${b.done.length} posts${b.missed.length ? `; missed: ${b.missed.join(", ")}` : ""}`); }
 { const a = await injectAffiliate(dist); console.log(`Amazon: ${a.tagged} tagged links on ${a.pages} pages, notice under the H1 on ${a.notes}${a.noH1.length ? `; no H1 for the notice: ${a.noH1.slice(0, 5).join(", ")}` : ""}`); }
 { const o = await outboundLinks(dist); console.log(`Outbound: ${o.moved} inline citations moved to Sources on ${o.pages} pages; OneLink on ${o.onelink} pages; 0 Amazon search links`); }
 { const q = await injectQuickSubscribe(dist); console.log(`Quick subscribe bar: under the H1 on ${q.pages} pages${q.noH1.length ? `; no H1: ${q.noH1.slice(0, 5).join(", ")}` : ""}`); }

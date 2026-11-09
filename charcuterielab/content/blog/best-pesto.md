@@ -15,7 +15,7 @@ tags: "["best store bought pesto", "best pesto brand", "jarred pesto", "pesto fo
 > **Quick Answer:** Our top pick for pesto on a charcuterie board is Kirkland Signature Basil Pesto (4.7 out of 5). Shelf-stable: DeLallo Simply Pesto Traditional Basil. Budget: Good & Gather Basil Pesto.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Basil Pesto</a><p class="sk-top-line">Tastes homemade, at a low price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shelf-stable</p><a class="sk-top-name" href="#pick-3">DeLallo Simply Pesto Traditional Basil</a><p class="sk-top-line">The best shelf-stable pesto in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Good &amp; Gather Basil Pesto</a><p class="sk-top-line">Cheap and good.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-4">Where to buy</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Basil Pesto</a><p class="sk-top-line">Tastes homemade, at a low price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.7/5 · $</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best shelf-stable</p><a class="sk-top-name" href="#pick-3">DeLallo Simply Pesto Traditional Basil</a><p class="sk-top-line">The best shelf-stable pesto in a published test.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00I1FCC4I" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best budget</p><a class="sk-top-name" href="#pick-4">Good &amp; Gather Basil Pesto</a><p class="sk-top-line">Cheap and good.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $</span><a class="button sk-buy-sm" href="#pick-4">Where to buy</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -50,6 +50,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 <p class="sk-why"><strong>Why it's here:</strong> The best shelf-stable pesto in a published test.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Jarred pesto is never quite as bright as fresh.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00I1FCC4I" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://tastingtable.com/1548303/store-bought-pesto-brands-ranked" target="_blank" rel="noopener">Tasting Table</a>&#x27;s top jarred pesto, with simple, high-quality ingredients at a fair price.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
@@ -86,6 +87,7 @@ A spoonful turns burrata and crostini into an Italian board. Fresh tubs win most
 <p class="sk-why"><strong>Why it's here:</strong> Pure ingredients, and vegan.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive, and no cheese.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0DYGGVBQ2" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://tastingtable.com/1548303/store-bought-pesto-brands-ranked" target="_blank" rel="noopener">Tasting Table</a>&#x27;s runner-up: unpasteurized, with no stabilizers, and the most expensive brand it tested. It has no cheese, so it&#x27;s vegan. <a href="https://sporked.com/article/best-jarred-pesto/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10 for its cashew-forward flavor.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 </div>

@@ -47,6 +47,7 @@ Open, drain, done: the easiest antipasto to add to a board.
 <dl class="sk-facts"><div><dt>Size</dt><dd>14.75 oz</dd></div><div><dt>Sporked score</dt><dd>9 / 10</dd></div><div><dt>Packed in</dt><dd>Acidified water</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Sporked&#x27;s best in water, &quot;just as tender and fragrant&quot; as the marinated ones.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain out of the jar. Dress it with olive oil, lemon and herbs first.</p>
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0H3QNZX7P" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Sporked scored it 9/10 as Best in Water (<a href="https://sporked.com/article/best-canned-artichokes/" target="_blank" rel="noopener">Sporked</a>). Walmart lists $8.17 for 14.75 oz, halves, rated 4.5 from 65 ratings (<a href="https://www.walmart.com/ip/32638268" target="_blank" rel="noopener">Walmart</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-4">

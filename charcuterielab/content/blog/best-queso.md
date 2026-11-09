@@ -88,6 +88,7 @@ The best one in Sporked's test of nearly 40 isn't in a jar at all.
 <p class="sk-why"><strong>Why it's here:</strong> Real heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Goopy texture.</p>
 
+<div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B008YCD7AQ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1678574/store-bought-queso-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s top jarred queso of 12, with a kick that fades quickly, though the reviewer found the texture goopy.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 </div>

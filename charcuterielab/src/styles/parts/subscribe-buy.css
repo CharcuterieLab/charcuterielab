@@ -20,6 +20,10 @@ p.fx-line { display: block; max-width: 560px; margin: -4px 0 18px; padding: 0 4p
 p.fx-line span { font-weight: 700; color: var(--ink); margin-right: 4px; }
 p.fx-line a { font-weight: 700; color: var(--green-deep); }
 p.fx-line em { font-style: normal; font-size: 13px; color: var(--muted); margin-left: 4px; white-space: nowrap; }
+/* Book lines (9 Nov 2026): a longer description that has to wrap on phones. */
+p.fx-line.fx-book { margin: 4px 0 22px; }
+p.fx-line.fx-book em { white-space: normal; margin-left: 0; }
+p.fx-line.fx-book em::before { content: "· "; }
 form.qs[data-qs-bar] p.qs-note { white-space: normal; }
 /* Board pages: the plan box points down to the list instead of a second buy button. */
 .bl-cta-quiet { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
