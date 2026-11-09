@@ -95,7 +95,7 @@ Slit [Medjool dates](/blog/best-medjool-dates/) lengthwise, pull out the pit, an
 
 ### 8. Shrimp Cocktail Ring
 
-Buy cooked, peeled shrimp. Thaw them overnight in the fridge, pat them dry and lay them in a ring around a bowl of cocktail sauce, with lemon wedges and rosemary sprigs tucked in like a wreath.
+Buy cooked, peeled shrimp. Thaw them overnight in the fridge, pat them dry and lay them in a ring around a bowl of cocktail sauce ([the best store-bought](/blog/best-cocktail-sauce/)), with lemon wedges and rosemary sprigs tucked in like a wreath.
 
 - **Make ahead:** Thaw and arrange in the morning. Serve over a tray of ice.
 
@@ -210,7 +210,7 @@ Cream cheese, sour cream, Parmesan, mozzarella, thawed chopped spinach and chopp
 
 ### 24. Hot Crab Dip
 
-Cream cheese, mayonnaise, lump crab, Old Bay-style seasoning, lemon and cheddar, baked at 375°F for 20 to 25 minutes.
+Cream cheese, mayonnaise, lump crab, Old Bay-style seasoning, lemon and cheddar, baked at 375°F for 20 to 25 minutes. Short on time? Pick up [a good store-bought crab dip](/blog/best-crab-dip/).
 
 - **Make ahead:** Mix it the day before, then bake it as guests arrive.
 
