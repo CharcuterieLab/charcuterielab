@@ -1,0 +1,30 @@
+/* 9 Nov 2026: Shop page easy to sift (scripts/shop-up.mjs) */
+.shop-key { max-width: 1100px; margin: 22px auto 10px; scroll-margin-top: 70px; }
+.shop-key h2 { margin: 0 0 12px; font-size: 1.6rem; color: var(--green-deep); }
+.shop-key-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.shop-key-box { display: grid; gap: 4px; align-content: start; min-width: 0; padding: 12px 14px; border: 1px solid rgba(169, 87, 43, 0.18); border-radius: 12px; background: #fff; color: var(--ink); text-decoration: none; line-height: 1.35; }
+.shop-key-box:hover, .shop-key-box:focus-visible { background: var(--cream); }
+.shop-key-box strong { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; color: var(--green-deep); }
+.shop-key-box span { font-size: 14px; color: var(--muted); }
+.shop-key-box em { font-style: normal; font-size: 13px; font-weight: 700; color: var(--gold-dark, #8a6a1f); }
+.shop-key-fine { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+.shop-filter { position: sticky; top: 0; z-index: 5; background: var(--paper, #fffaf0); padding-top: 8px; }
+.shop-filter a.is-on { background: var(--green-deep); border-color: var(--green-deep); color: #fff; }
+.shop-more { text-align: center; margin: 16px 0 0; }
+.shop2-intent-fold .shop2-intent-grid { align-items: start; }
+.shop2-intent-fold .shop2-intent-card { padding: 0; }
+.shop2-intent-fold summary { display: flex; justify-content: space-between; align-items: center; gap: 8px; min-height: 48px; padding: 10px 14px; cursor: pointer; list-style: none; }
+.shop2-intent-fold summary::-webkit-details-marker { display: none; }
+.shop2-intent-fold summary .eyebrow { margin: 0; font-size: 12.5px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #9b2f22; }
+.shop2-intent-fold .shop2-n { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.shop2-intent-fold .shop2-n::after { content: " +"; color: var(--green-deep); font-weight: 700; }
+.shop2-intent-fold details[open] .shop2-n::after { content: " \2212"; }
+.shop2-intent-fold details ul { padding: 0 8px 10px; }
+@media (min-width: 821px) { .shop2-intent-fold summary { pointer-events: none; } .shop2-intent-fold .shop2-n { display: none; } }
+@media (max-width: 820px) {
+  .shop-key-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .shop-key-free { grid-column: 1 / -1; }
+  .shop2-intent-fold .shop2-intent-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; gap: 8px; }
+  .shop2-intent-fold details[open] { grid-column: 1 / -1; }
+}
+.shop2-book[hidden], .fx-p-card[hidden] { display: none; }
