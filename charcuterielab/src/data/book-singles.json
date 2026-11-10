@@ -536,6 +536,69 @@
     "price": "$3",
     "book": "impossible",
     "n": 23,
-    "pages": 6
+    "pages": 7
+  },
+  "thanksgiving-turkey-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/thanksgiving-turkey-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 24,
+    "pages": 7
+  },
+  "santas-sleigh-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/santas-sleigh-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 25,
+    "pages": 7
+  },
+  "champagne-bottle-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/new-years-champagne-pop-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 19,
+    "pages": 7
+  },
+  "gold-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/midas-touch-gold-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 18,
+    "pages": 7
+  },
+  "football-field-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/game-day-football-field-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 20,
+    "pages": 7
+  },
+  "heart-shaped-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/giant-heart-valentines-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 21,
+    "pages": 7
+  },
+  "fondue-volcano-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/fondue-volcano-island-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 15,
+    "pages": 7
+  },
+  "charcuterie-cake": {
+    "url": "https://charcuterieflavor.gumroad.com/l/cake-that-isnt-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 14,
+    "pages": 7
+  },
+  "dragon-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/dragons-hoard-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 1,
+    "pages": 7
   }
 }
