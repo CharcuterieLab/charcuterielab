@@ -4,6 +4,7 @@ import { outboundLinks } from "./outbound.mjs";
 import { injectBookLines } from "./book-lines.mjs";
 import { injectTools } from "./tools-box.mjs";
 import { injectGuideLinks } from "./guide-links.mjs";
+import { pushLinks } from "./push-links.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -905,6 +906,10 @@ async function loadIngredients() {
         seoTitle: data.seo_title ?? "",
         // Optional meta description; the excerpt is used when it's missing.
         metaDescription: data.meta_description ?? "",
+        // Optional owner URL (10 Nov 2026): when the blog deep dive on the same
+        // food is the page Google ranks, this page points its canonical there,
+        // drops out of the sitemap and links readers to the full guide.
+        canonical: data.canonical ?? "",
         category: data.category ?? "Other",
         categorySlug: slugify(data.category ?? "Other"),
         boardRole: data.board_role ?? "",
@@ -1408,6 +1413,12 @@ function ingredientGlance(item, bySlug, { buy = null, pairUrl = "" } = {}) {
 // "best cheese for charcuterie board" and "charcuterie meats", so those guides
 // get a consistent, keyword-matched internal link from every relevant page.
 const SEAFOOD_SLUGS = new Set(["anchovies", "boquerones", "bottarga", "caviar", "gravlax", "sardines", "smoked-salmon", "smoked-trout", "tinned-mackerel", "tinned-octopus"]);
+// The full deep dive that owns this food in search (item.canonical).
+function ownerGuideLink(item) {
+  if (!item.canonical || !item.canonical.startsWith("/blog/")) return "";
+  return `<p class="ing-guide ing-owner">Want the in-depth version? Read <a href="${escapeHtml(item.canonical)}">our full ${escapeHtml(item.title)} deep dive</a>.</p>`;
+}
+
 function ingredientGuideLink(item, blogSlugs) {
   let slug = "", text = "";
   if (item.category === "Cheese") {
@@ -1436,6 +1447,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
 
   return layout({
     canonical: `/ingredients/${item.slug}/`,
+    ...(item.canonical ? { canonicalHref: item.canonical } : {}),
     ...(item.image ? { image: item.image, imageAlt: item.imageAlt } : {}),
     modified: item.updated || item.date,
     title: pageTitle(ingredientSeoTitle(item)),
@@ -1450,6 +1462,7 @@ function ingredientPage(item, bySlug, blogSlugs = null, boardsUsing = [], pairin
       <p class="ing-lede">${escapeHtml(item.excerpt)}</p>
       <p class="ing-byline">${byline(longDate(item.updated || item.date) ? ` · Updated ${longDate(item.updated || item.date)}` : "")}</p>
       ${glance}
+      ${ownerGuideLink(item)}
       <!--aff-note-->
       ${item.image ? heroImg(escapeHtml(item.image), escapeHtml(item.imageAlt || item.title), "ing-hero") : ""}
       ${
@@ -1576,6 +1589,9 @@ function layout({
   topHead = "",
   footNote = "",
   canonical = "/",
+  // A page whose twin owns the search (10 Nov 2026, one page per food): the
+  // nav still uses canonical, but <link rel=canonical> points at the owner.
+  canonicalHref = "",
   image = "/images/book-cover.jpg",
   imageAlt = "",
   type = "website",
@@ -1583,7 +1599,7 @@ function layout({
   modified = ""
 }) {
   title = fitTitle(title);
-  const pageUrl = absoluteUrl(canonical);
+  const pageUrl = absoluteUrl(canonicalHref || canonical);
   const imageUrl = absoluteUrl(image);
   const shareTitle = title.replace(/\s*\|\s*Charcuterie Lab\s*$/, "");
   const articleTimes = type === "article"
@@ -2897,7 +2913,7 @@ function sitemap(posts, ingredients = [], boards = [], holidays = [], extra = []
       loc: `/ingredients/${slugify(category)}/`,
       priority: "0.7"
     })),
-    ...ingredients.map((item) => ({
+    ...ingredients.filter((item) => !item.canonical).map((item) => ({
       loc: `/ingredients/${item.slug}/`,
       images: item.image ? [item.image] : [],
       lastmod: item.updated || item.date,
@@ -3733,6 +3749,29 @@ await injectDietaryBooks(dist);
   ].filter((c) => c.cover);
   const b = await injectBands(dist, { thumb });
   console.log(`Hub photo bands: ${b.join(", ")}`);
+}
+{ const p = await pushLinks(dist); console.log(`Page-two pushes: ${p.links} body links on ${p.pages} pages (${p.report.filter(([, n]) => n < 3).map(([t, n]) => `${t} ${n}`).join(", ") || "every target 3+"})`); }
+// Links written as raw HTML (:::html blocks, generated hubs) skip resolveSiteLink,
+// so a last pass points every link to a merged post straight at its survivor
+// instead of through a 301 (10 Nov 2026).
+{
+  const merged = linkIndex.merged || {};
+  const target = (v) => (v.startsWith("/") ? v : `/blog/${v}/`);
+  const re = new RegExp(`href="(?:https://charcuterielab\\.com)?/blog/(${Object.keys(merged).map((k) => k.replace(/[-]/g, "\\-")).join("|")})/?(#[^"]*)?"`, "g");
+  let n = 0;
+  async function sweep(dir) {
+    for (const e of await readdir(dir, { withFileTypes: true })) {
+      const f = join(dir, e.name);
+      if (e.isDirectory()) await sweep(f);
+      else if (e.name.endsWith(".html")) {
+        const t = await readFile(f, "utf8");
+        const u = t.replace(re, (m, slug, hash = "") => { n++; return `href="${target(merged[slug])}${hash}"`; });
+        if (u !== t) await writeFile(f, u);
+      }
+    }
+  }
+  if (Object.keys(merged).length) await sweep(dist);
+  console.log(`Merged-post links: ${n} pointed straight at the surviving page`);
 }
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
 console.log("Built Charcuterie Lab into dist/");

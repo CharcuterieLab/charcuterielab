@@ -11,9 +11,20 @@
   "color-contrast": "color-and-flavor",
   "what-cheese-goes-on-charcuterie-board": "best-cheese-charcuterie-board",
   "charcuterie-board-cheese-types": "best-cheese-charcuterie-board",
-  "date-night-charcuterie-board": "charcuterie-board-two",
+  "date-night-charcuterie-board": "/boards/for-two/",
   "christmas-charcuterie-board": "/holidays/christmas/",
   "thanksgiving-charcuterie-board": "/holidays/thanksgiving/",
   "charcuterie-board-new-years-eve": "/holidays/new-years-eve/",
-  "halloween-charcuterie-board": "/holidays/halloween/"
+  "halloween-charcuterie-board": "/holidays/halloween/",
+  "taleggio": "/ingredients/taleggio/",
+  "comte": "/ingredients/comte/",
+  "manchego": "/ingredients/manchego/",
+  "burrata": "/ingredients/burrata/",
+  "soppressata": "/ingredients/soppressata/",
+  "jamon-iberico": "/ingredients/jamon-iberico/",
+  "keto-charcuterie-board": "/boards/keto-charcuterie-board/",
+  "dessert-board": "/boards/dessert-charcuterie-board/",
+  "summer-charcuterie-board": "/boards/summer-backyard-board/",
+  "charcuterie-board-two": "/boards/for-two/",
+  "vegetarian-charcuterie-board": "/dietary/vegetarian/"
 }

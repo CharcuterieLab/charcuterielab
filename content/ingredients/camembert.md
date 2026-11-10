@@ -1,5 +1,6 @@
 ---
 title: "Camembert"
+canonical: "/blog/camembert/"
 slug: "camembert"
 section: "ingredients"
 category: "Cheese"

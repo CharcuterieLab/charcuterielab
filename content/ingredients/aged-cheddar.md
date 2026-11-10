@@ -1,5 +1,6 @@
 ---
 title: "Aged Cheddar"
+canonical: "/blog/aged-cheddar/"
 slug: "aged-cheddar"
 section: "ingredients"
 category: "Cheese"

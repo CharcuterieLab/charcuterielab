@@ -1,6 +1,7 @@
 ---
 title: "Salchichón"
-meta_description: "Salchichón is a Spanish dry-cured salami seasoned with black pepper instead of paprika. Coarsely chopped pork is mixed with whole peppercorns and garlic, cased and air-dried. It's like chorizo without the pimentón: milder, drier and peppery rather than hot."
+seo_title: "Salchichón: What It Is in English, Taste & How to Serve"
+meta_description: "Salchichón is Spain's peppercorn salami: cured pork with whole black pepper instead of paprika. What it's called in English, vs chorizo, and how to serve it."
 slug: "salchichon"
 section: "ingredients"
 category: "Cured Meat & Seafood"
@@ -16,7 +17,7 @@ allergens: []
 tags: ["cured meat", "spanish", "salami", "peppered"]
 pairs_with: ["chorizo", "fuet", "genoa-salami", "manchego", "olive-oil-crackers"]
 avoid_with: ["delicate-fresh-cheese"]
-faq: "[{"question": "How is salchichón different from chorizo?", "answer": "Chorizo is seasoned with smoked paprika; salchichón with black pepper. Same country, same technique, completely different flavour."}, {"question": "Is it spicy?", "answer": "Peppery rather than hot. The whole peppercorns give sharp bursts, not chili heat."}, {"question": "Salchichón or fuet?", "answer": "Fuet is thinner, milder and softer, with a white mould bloom. Salchichón is wider, drier and more peppery."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but chewy. Most people peel it."}]"
+faq: "[{"question": "What is salchichón in English?", "answer": "There's no separate English name. Salchichón comes from salchicha, Spanish for sausage, and in the US it's usually sold as Spanish salami or peppered Spanish salami."}, {"question": "How is salchichón different from chorizo?", "answer": "Chorizo is seasoned with smoked paprika; salchichón with black pepper. Same country, same technique, completely different flavour."}, {"question": "Is it spicy?", "answer": "Peppery rather than hot. The whole peppercorns give sharp bursts, not chili heat."}, {"question": "Salchichón or fuet?", "answer": "Fuet is thinner, milder and softer, with a white mould bloom. Salchichón is wider, drier and more peppery."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but chewy. Most people peel it."}]"
 ---
 
 ## The short version
@@ -100,6 +101,11 @@ ingredients. *Ibérico* means Iberian pork and a noticeably better sausage.
 explicitly Spanish. Two cured sausages is usually enough.
 
 ## Quick FAQ
+
+**What is salchichón in English?**
+There's no separate English name. Salchichón comes from *salchicha*,
+Spanish for sausage, and in the US it's usually sold as Spanish salami
+or peppered Spanish salami.
 
 **How is salchichón different from chorizo?**
 Chorizo is seasoned with smoked paprika; salchichón with black pepper. Same

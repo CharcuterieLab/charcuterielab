@@ -1,6 +1,7 @@
 ---
 title: "Liverwurst"
-meta_description: "Liverwurst is a German liver sausage: pork liver and pork cooked and blended into a smooth, spreadable paste with onion, marjoram and allspice. It's fully cooked and ready to eat. Braunschweiger is the same sausage, smoked."
+seo_title: "What Is Liverwurst? Taste, vs Braunschweiger and Pâté"
+meta_description: "Liverwurst is a cooked German liver sausage you spread, not slice. What it tastes like, how it differs from braunschweiger and pâté, and how to serve it."
 slug: "liverwurst"
 section: "ingredients"
 category: "Cured Meat & Seafood"

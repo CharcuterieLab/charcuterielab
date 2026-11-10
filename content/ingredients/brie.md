@@ -1,5 +1,6 @@
 ---
 title: "Brie"
+canonical: "/blog/brie/"
 slug: "brie"
 section: "ingredients"
 category: "Cheese"

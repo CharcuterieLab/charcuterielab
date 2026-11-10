@@ -771,9 +771,10 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     const chip = (r) => `<li><a href="${idx.foodPage.has(r.p.slug) ? `/pairings/food/${r.p.slug}/` : `/ingredients/${r.p.slug}/`}">${thumb(h, r.p, art, " pr-thumb-xs")}<span>${B(r.p.title)}</span>${stars(r.tier.stars)}</a></li>`;
     return page(h, {
       url: f.url,
-      title: title.length > 60 ? `What Goes With ${it.title}? Best Pairings` : title,
+      // foods.json seo_title / seo_description win when set (CTR round 3, 10 Nov 2026).
+      title: f.seo_title || (title.length > 60 ? `What Goes With ${it.title}? Best Pairings` : title),
       name: `What goes with ${it.title}`,
-      description: f.answer,
+      description: f.seo_description || f.answer,
       crumbs: [["Pairings", "/pairings/"], ["Food", "/pairings/food/"], [it.title, f.url]],
       faq: f.faq,
       list: ranked.slice(0, 12).map((r) => [r.p.title, `/ingredients/${r.p.slug}/`]),

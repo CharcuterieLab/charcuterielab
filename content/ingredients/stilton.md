@@ -1,5 +1,6 @@
 ---
 title: "Stilton"
+canonical: "/blog/stilton/"
 slug: "stilton"
 section: "ingredients"
 category: "Cheese"

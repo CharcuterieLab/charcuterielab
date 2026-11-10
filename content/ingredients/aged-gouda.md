@@ -1,5 +1,6 @@
 ---
 title: "Aged Gouda"
+canonical: "/blog/aged-gouda/"
 slug: "aged-gouda"
 section: "ingredients"
 category: "Cheese"

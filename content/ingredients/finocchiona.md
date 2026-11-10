@@ -1,7 +1,7 @@
 ---
 title: "Finocchiona"
-seo_title: "What Is Finocchiona? Tuscan Fennel Salami, Explained"
-meta_description: "Finocchiona is a soft Tuscan salami seasoned with fennel seed, garlic and red wine. Coarsely ground pork is cured and aged, so it's ready to eat sliced. It tastes gently of aniseed and crumbles at the edges. The protected version is Finocchiona IGP."
+seo_title: "Finocchiona: Tuscan Fennel Salami, How to Say It + Serve It"
+meta_description: "Finocchiona (fee-noh-KYOH-nah) is soft Tuscan salami with fennel seed and red wine. How it tastes, vs Genoa and soppressata, and what to pair it with."
 slug: "finocchiona"
 section: "ingredients"
 category: "Cured Meat & Seafood"

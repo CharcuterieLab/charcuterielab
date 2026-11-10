@@ -1,5 +1,6 @@
 ---
 title: "Pancetta"
+canonical: "/blog/pancetta/"
 slug: "pancetta"
 section: "ingredients"
 category: "Cured Meat & Seafood"

@@ -1,5 +1,6 @@
 ---
 title: "Coppa"
+canonical: "/blog/coppa/"
 slug: "coppa"
 section: "ingredients"
 category: "Cured Meat & Seafood"

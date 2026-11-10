@@ -1,5 +1,6 @@
 ---
 title: "Bresaola"
+canonical: "/blog/bresaola/"
 slug: "bresaola"
 section: "ingredients"
 category: "Cured Meat & Seafood"

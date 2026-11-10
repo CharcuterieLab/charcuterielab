@@ -1,6 +1,7 @@
 ---
 title: "Cream Crackers"
-seo_title: "What Are Cream Crackers? (There's No Cream in Them)"
+meta_description: "Cream crackers are Britain's plain, flaky cheese cracker, and there's no cream in them. What they're made of, how they differ from water crackers, where to buy."
+seo_title: "Cream Crackers: What They Are, Why No Cream, What to Buy"
 slug: "cream-crackers"
 section: "ingredients"
 category: "Crackers & Breads"

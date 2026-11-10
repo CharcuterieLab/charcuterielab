@@ -68,17 +68,17 @@
 
 [[redirects]]
   from = "/charcuterie-board-for-two"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
   from = "/blog/charcuterie-board-for-two"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
   from = "/blog/charcuterie-board-for-two/"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
@@ -706,22 +706,22 @@
 # Merged 18 Oct 2026: date night post folded into the board-for-two post
 [[redirects]]
   from = "/blog/date-night-charcuterie-board/"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
   from = "/blog/date-night-charcuterie-board"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
   from = "/date-night-charcuterie-board/"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
   from = "/date-night-charcuterie-board"
-  to = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
   status = 301
 
 [[redirects]]
@@ -762,4 +762,115 @@
 [[redirects]]
   from = "/pairings/food/burrata"
   to = "/ingredients/burrata/"
+  status = 301
+
+# One page per food + merged dropped posts (10 Nov 2026)
+[[redirects]]
+  from = "/blog/taleggio/"
+  to = "/ingredients/taleggio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/taleggio"
+  to = "/ingredients/taleggio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/comte/"
+  to = "/ingredients/comte/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/comte"
+  to = "/ingredients/comte/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/manchego/"
+  to = "/ingredients/manchego/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/manchego"
+  to = "/ingredients/manchego/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/burrata/"
+  to = "/ingredients/burrata/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/burrata"
+  to = "/ingredients/burrata/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/soppressata/"
+  to = "/ingredients/soppressata/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/soppressata"
+  to = "/ingredients/soppressata/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/jamon-iberico/"
+  to = "/ingredients/jamon-iberico/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/jamon-iberico"
+  to = "/ingredients/jamon-iberico/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/keto-charcuterie-board/"
+  to = "/boards/keto-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/keto-charcuterie-board"
+  to = "/boards/keto-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/dessert-board/"
+  to = "/boards/dessert-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/dessert-board"
+  to = "/boards/dessert-charcuterie-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/summer-charcuterie-board/"
+  to = "/boards/summer-backyard-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/summer-charcuterie-board"
+  to = "/boards/summer-backyard-board/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-two/"
+  to = "/boards/for-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/charcuterie-board-two"
+  to = "/boards/for-two/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/vegetarian-charcuterie-board/"
+  to = "/dietary/vegetarian/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/vegetarian-charcuterie-board"
+  to = "/dietary/vegetarian/"
   status = 301

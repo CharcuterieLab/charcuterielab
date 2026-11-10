@@ -1,9 +1,10 @@
 ---
 title: "How Long Does a Charcuterie Board Last? (By Ingredient)"
+seo_title: "How Long Can a Charcuterie Board Sit Out? (+ Fridge Times)"
 date: "2026-05-10"
 image: "/images/how-long-charcuterie-board-last.webp"
 excerpt: "How Long Does a Charcuterie Board Last? (By Ingredient)"
-description: "A charcuterie board can sit out 2 hours, or 1 hour above 90°F. Hard cheese and dry salami keep their quality longer. Here's the guide for every element."
+description: "2 hours at room temperature, 1 hour above 90°F. Safe times for each meat, cheese and dip, how long leftovers keep in the fridge, and the signs to toss it."
 faq: "[{"question":"Can you refrigerate a half-eaten charcuterie board?","answer":"Yes — provided the board has not been out longer than 2 hours for soft items. Remove soft cheeses, fresh fruits, and cured meats from the board and store separately in covered containers in the refrigerator. Hard cheeses and shelf-stable items (honey, jam, nuts, dried fruit) can stay on the board covered with plastic wrap."},{"question":"How long does a charcuterie board last in the refrigerator?","answer":"Assembled (covered): 24 hours before quality degrades. Individual components stored separately: hard cheeses 5–7 days; soft cheeses 3–5 days; sliced cured meats 3–5 days; fresh fruits 1–2 days (cut fruit browns)."},{"question":"Is it safe to eat cheese that's been out overnight?","answer":"Hard and aged cheeses left out overnight in a cool room may be safe to eat, but the quality has almost certainly degraded. Soft cheeses, fresh cheeses, and any item with high moisture should be discarded after 2 hours at room temperature. ---"}]"
 slug: "how-long-charcuterie-board-last"
 tags: "["charcuterie", "food safety", "how long does charcuterie board last", "charcuterie board tips"]"

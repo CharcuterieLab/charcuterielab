@@ -1,10 +1,10 @@
 ---
 title: "Can You Eat Prosciutto While Pregnant? What the CDC and NHS Say"
-seo_title: "Can You Eat Prosciutto While Pregnant? CDC & NHS Advice"
+seo_title: "Can You Eat Prosciutto While Pregnant? Yes, If You Heat It"
 date: "2026-10-18"
 image: "/images/ingredients/prosciutto-di-parma.jpg"
 excerpt: "Not cold. Both the CDC and the NHS say cured meats like prosciutto should be heated until steaming hot during pregnancy. Here's why, and the easy ways to still enjoy it."
-description: "Can you eat prosciutto while pregnant? Not cold: the CDC and NHS say heat it until steaming hot. Why, safe ways to eat it, and pregnancy-safe board swaps."
+description: "Cold prosciutto is on the CDC and NHS list, but heated until steaming it's fine. The easy ways to eat it safely, and what to put on a board instead."
 faq: "[{"question": "Can you eat prosciutto while pregnant?", "answer": "Not cold. The CDC advises heating deli meats and dry-cured meats to 165°F or until steaming hot during pregnancy, and the NHS says prosciutto should be cooked until steaming hot first."}, {"question": "Is cooked prosciutto safe during pregnancy?", "answer": "Yes, when it's heated until steaming hot all the way through, such as crisped in the oven or baked on a pizza."}, {"question": "Why can't you eat prosciutto when pregnant?", "answer": "Cold cured meats can carry listeria and, rarely, the parasite that causes toxoplasmosis. Both are more dangerous during pregnancy. Heat kills them."}, {"question": "Is prosciutto di Parma safe in pregnancy?", "answer": "Only when cooked until steaming hot, the same as any other prosciutto."}, {"question": "What can I eat instead of prosciutto on a charcuterie board?", "answer": "Prosciutto crisps, cooked ham or roast turkey heated until steaming hot, plus pasteurized hard cheeses."}]"
 slug: "can-you-eat-prosciutto-while-pregnant"
 tags: "["prosciutto pregnant", "can you eat prosciutto while pregnant", "prosciutto pregnancy", "cured meat pregnancy", "pregnancy safe charcuterie"]"
