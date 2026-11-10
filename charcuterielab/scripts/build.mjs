@@ -5,6 +5,7 @@ import { injectBookLines } from "./book-lines.mjs";
 import { injectTools } from "./tools-box.mjs";
 import { injectGuideLinks } from "./guide-links.mjs";
 import { pushLinks } from "./push-links.mjs";
+import { injectGiftLinks } from "./gift-links.mjs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -3750,6 +3751,7 @@ await injectDietaryBooks(dist);
   const b = await injectBands(dist, { thumb });
   console.log(`Hub photo bands: ${b.join(", ")}`);
 }
+{ const g = await injectGiftLinks(dist); console.log(`Gift links: ${g.lines} pages point at their matching gift guides${g.missing.length ? `; missing: ${g.missing.join(", ")}` : ""}`); }
 { const p = await pushLinks(dist); console.log(`Page-two pushes: ${p.links} body links on ${p.pages} pages (${p.report.filter(([, n]) => n < 3).map(([t, n]) => `${t} ${n}`).join(", ") || "every target 3+"})`); }
 // Links written as raw HTML (:::html blocks, generated hubs) skip resolveSiteLink,
 // so a last pass points every link to a merged post straight at its survivor
