@@ -4879,6 +4879,7 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .gf-quick { background: #fff; border-left: 4px solid var(--gold); border-radius: 8px; padding: 14px 18px; max-width: 860px; box-shadow: 0 8px 20px rgba(55, 35, 25, 0.06); }
 .gf-quick p { margin: 0; line-height: 1.6; }
 .gift-line { margin: 18px 0; padding: 10px 14px; border-left: 3px solid var(--accent, #a9572b); background: rgba(169, 87, 43, 0.06); border-radius: 0 6px 6px 0; font-size: 15.5px; }
+.home-season-links { margin: 14px 0 0; font-size: 15.5px; line-height: 1.7; }
 .gf-byline { margin: -6px 0 10px; font-size: 14px; color: var(--muted, #6e5a4b); }
 .gf-byline a { color: inherit; }
 .gf-ship { margin: 14px 0 0; padding: 10px 14px; border-radius: 8px; background: var(--green); color: #fff9eb; font-size: 15px; max-width: 860px; }

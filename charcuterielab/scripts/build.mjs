@@ -284,17 +284,56 @@ function articleSchema(post, description) {
   return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
 }
 
+// Homepage schema (10 Nov 2026, SEO review: the homepage had Organization
+// only). WebSite with the site search as a SearchAction, and the Organization
+// with a square logo, a description and Jimmy as founder, all tied by @id so
+// Google reads them as one entity.
+// Homepage season row (10 Nov 2026): the board cards link board pages only,
+// so the row also links each upcoming holiday's ideas page, and the gift
+// guide from November through December, in plain text the reader can scan.
+function homeSeasonLinks(strip, up) {
+  const m = new Date().getMonth();
+  const links = up.slice(0, 3).map((o) => `<a href="/holidays/${o.x.slug}/">${escapeHtml(o.x.name)} charcuterie board ideas</a>`);
+  if (m === 10 || m === 11) links.push(`<a href="/gifts/">Charcuterie gift ideas</a>`);
+  if (!links.length) return strip;
+  const more = `<p class="home-season-links">${links.join(" · ")}</p>\n      <div class="section-link">`;
+  return strip.replace('<div class="section-link">', more);
+}
+
 function siteSchema() {
+  const orgId = `${siteUrl}/#organization`;
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Charcuterie Lab",
-    url: siteUrl,
-    logo: absoluteUrl("/images/book-cover.jpg"),
-    sameAs: [
-      "https://www.facebook.com/profile.php?id=61586809154604",
-      "https://www.instagram.com/charcuterielabflavor/",
-      "https://www.pinterest.com/charcuterielabflavor/"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        name: "Charcuterie Lab",
+        url: `${siteUrl}/`,
+        description: "Charcuterie board ideas, pairings, buying guides and party planning, worked out with pairing science.",
+        inLanguage: "en-US",
+        publisher: { "@id": orgId },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: { "@type": "EntryPoint", urlTemplate: `${siteUrl}/search/?q={search_term_string}` },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": orgId,
+        name: "Charcuterie Lab",
+        url: `${siteUrl}/`,
+        logo: { "@type": "ImageObject", url: absoluteUrl("/apple-touch-icon.png"), width: 180, height: 180 },
+        image: absoluteUrl("/images/book-cover.jpg"),
+        description: "Charcuterie Lab publishes charcuterie board plans, pairing guides, ranked buying guides and the Charcuterie Lab books, written by Jimmy Wilson.",
+        founder: authorRef,
+        sameAs: [
+          "https://www.facebook.com/profile.php?id=61586809154604",
+          "https://www.instagram.com/charcuterielabflavor/",
+          "https://www.pinterest.com/charcuterielabflavor/"
+        ]
+      }
     ]
   };
 
@@ -1877,12 +1916,12 @@ function homePage(posts, products, { boardStrip = "", worldStrip = "", popular =
     ? `<a href="${hero.href}"><strong>${escapeHtml(hero.name.charAt(0).toUpperCase() + hero.name.slice(1))}:</strong> <span data-countdown='${JSON.stringify(hero.dates)}'>coming up</span> · board ideas and a countdown plan &rarr;</a>`
     : "Board 01 from the book: the Classic American Starter";
   return layout({
-    title: "Charcuterie Lab | Boards Built by Science",
+    title: "Charcuterie Lab: Board Ideas, Pairings & How Much to Buy",
     canonical: "/",
     topHead: `<meta name='impact-site-verification' value='dd3b06f6-77c3-4e4b-a2ad-7da15a9cf24c'>`,
     footNote: "Impact-Site-Verification: 05d04477-5ece-41ef-b6fa-24bc38f1739b",
     head: `${siteSchema()}\n  <link rel="preload" as="image" href="${heroSrc}" fetchpriority="high">`,
-    description: `How much to buy, which brands are worth it and what goes with what, for any charcuterie board. Free Party Planner, ranked buying guides, pairing finder and the 50 Boards book.`,
+    description: `Charcuterie board ideas, how much to buy for any crowd, the brands worth buying and what goes with what. Free Party Planner, pairing finder and board plans.`,
     body: `<main>
   <section class="hero home-intent">
     <div class="home-intent-inner">
@@ -3087,7 +3126,7 @@ async function build() {
     impossible: { title: IMPOSSIBLE_BOOK.title, short: "Impossible Boards", path: "/books/impossible-boards/", cover: IMPOSSIBLE_BOOK.cover, ebookUrl: IMPOSSIBLE_BOOK.ebookUrl, ebookPrice: IMPOSSIBLE_BOOK.ebookPrice, paperbackUrl: IMPOSSIBLE_BOOK.paperbackUrl, paperbackPrice: IMPOSSIBLE_BOOK.paperbackPrice, who: "For the host who loves a showpiece", line: "25 shaped boards, from a salami dragon to a fondue volcano, each with the one trick that makes it work." },
     two: { title: TWO_BOOK.title, short: "Boards for Two", path: "/books/boards-for-two/", cover: TWO_BOOK.cover, ebookUrl: TWO_BOOK.ebookUrl, ebookPrice: TWO_BOOK.ebookPrice, paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice, who: "For a couple", line: "25 boards sized for two, from a first date to New Year's Eve, each with a drink to pour." }
   });
-  await writeFile(join(dist, "index.html"), homePage(posts, products, { hero: seasonHero(holidays), boardStrip: boardsStrip(boardHelpers, boards, upcomingWithBoards(holidays, boards).length ? { kicker: "For this season", title: `Boards for ${seasonTitle(upcomingWithBoards(holidays, boards))}`, picks: seasonBoards(upcomingWithBoards(holidays, boards), boards, 6).map((x) => x.b) } : {}), worldStrip: boards.some((b) => b.book === "world") ? `<div class="home-world">${worldBanner(boardHelpers)}</div>` : "", popular: homePopular(holidays) }));
+  await writeFile(join(dist, "index.html"), homePage(posts, products, { hero: seasonHero(holidays), boardStrip: homeSeasonLinks(boardsStrip(boardHelpers, boards, upcomingWithBoards(holidays, boards).length ? { kicker: "For this season", title: `Boards for ${seasonTitle(upcomingWithBoards(holidays, boards))}`, picks: seasonBoards(upcomingWithBoards(holidays, boards), boards, 6).map((x) => x.b) } : {}), upcomingWithBoards(holidays, boards)), worldStrip: boards.some((b) => b.book === "world") ? `<div class="home-world">${worldBanner(boardHelpers)}</div>` : "", popular: homePopular(holidays) }));
   // Pairings Hub index: built before any page so ingredient and holiday pages
   // can link into it. Throws if the pairing data disagrees with itself.
   const pairIdx = pairingData && ingredients.length ? pairingsIndex(pairingData, ingredients, { blogSlugs: new Set(posts.map((p) => p.slug)) }) : null;
