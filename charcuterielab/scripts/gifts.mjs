@@ -961,7 +961,9 @@ for (const g of GUIDES) {
   g.picks = mix;
 }
 
-// 9 Nov 2026: quick answers read as a short list, one line per kind of person
+// 9 Nov 2026: quick answers read as a short list (no longer rendered: the quick
+// answer box was removed from the hub and guides later the same day; kept for reuse).
+// Original note: one line per kind of person
 // or budget, instead of one paragraph. "Label: text." becomes a labelled row;
 // a sentence with no short label stays a plain row.
 function quickList(html) {
@@ -1388,7 +1390,6 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
       <p class="ing-crumb"><a href="/gifts/">Gift guide</a> <span aria-hidden="true">/</span> ${esc(g.card)}</p>
       <p class="section-kicker">${esc(g.kicker)}</p>
       <h1>${esc(g.h1)}</h1>
-      ${quickList(g.quick)}
       ${g.shipNote ? `<p class="gf-ship"><strong>Order by:</strong> ${esc(g.shipNote)}</p>` : ""}${g.slug === "hanukkah" ? "" : shipStrip}
     </div>
   </section>
@@ -1475,7 +1476,6 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
     <div class="gf-inner">
       <p class="section-kicker">Gift guide 2026</p>
       <h1>Charcuterie gift ideas for every board lover and every budget</h1>
-      ${quickList(`<strong>Cheese lover:</strong> cheese storage bags or a good knife set. <strong>Host:</strong> a jar trio of fig spread, hot honey and mustard. <strong>Builds boards:</strong> our <strong>50 Boards, Built by Science</strong> (paperback ${esc(main.paperbackPrice)}). <strong>Under $25:</strong> a cheese plane or a slate board. <strong>Need it today:</strong> an ebook or a cheese club gift with our free gift card. <strong>Not sure:</strong> answer three questions in the <a href="#finder">gift finder</a>.`)}
       ${shipStrip}
       <img class="gf-hero-img" src="${esc(h.thumb("/images/charcuterie-gift-basket.jpg", "m"))}" alt="A charcuterie gift basket with cheese, salami, crackers and a jar of fig spread" width="1200" height="800" fetchpriority="high" decoding="async">
       <nav class="gf-chips" aria-label="Shop gifts by">
