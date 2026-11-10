@@ -13,6 +13,13 @@ const picker = document.getElementById("bb-picker");
 
 const STORE = "cl-board-builder-v2";
 const SUBSCRIBED = "cl-lab-report-subscribed";
+// 10 Nov 2026: building is open to everyone; the finished list (amounts, prep,
+// layout, why it works, print) opens with a free newsletter subscribe.
+// "cl-sub" is set by the site's quick subscribe forms, so anyone who signed up
+// elsewhere on the site is already unlocked. UNLOCKED covers the rare case
+// where the signup service is down: the reader still gets their list.
+const SITE_SUB = "cl-sub";
+const UNLOCKED = "cl-bb-unlocked";
 const RECS_PAGE = 6;
 
 let B = null;
@@ -393,6 +400,7 @@ function adviceSection() {
       <span>${h(t.text)}${t.category !== undefined ? ` <button type="button" class="bb-link" data-open="${t.category}">${h(B.cats[t.category].add)}</button>` : ""}</span>
     </li>`).join("")}</ul>
     <button type="button" class="bb-btn primary wide bb-done-side" data-view="finish" ${n ? "" : "disabled"}>Done: get my shopping list</button>
+    ${unlocked() ? "" : `<p class="bb-done-note">Free with a quick email subscribe: amounts, prep and layout for your guest count.</p>`}
   </section>`;
 }
 
@@ -417,12 +425,61 @@ function totalsLine() {
 }
 
 function subscribed() {
-  try { return localStorage.getItem(SUBSCRIBED) === "1"; } catch (e) { return false; }
+  try { return localStorage.getItem(SUBSCRIBED) === "1" || !!localStorage.getItem(SITE_SUB); } catch (e) { return false; }
+}
+
+function unlocked() {
+  if (subscribed()) return true;
+  try { return localStorage.getItem(UNLOCKED) === "1"; } catch (e) { return false; }
+}
+
+// The free-subscribe card that opens the finished list.
+function unlockCard() {
+  const list = picks();
+  const t = B.totals(list, state.guests, state.mode);
+  const amounts = [t.cheese && `${t.cheese} of cheese`, t.meat && `${t.meat} of meat`].filter(Boolean).join(" and ");
+  const gets = [
+    `<strong>Exact amounts for ${h(peopleText(state.guests))}</strong>${amounts ? ` (about ${h(amounts)}), so you don't overbuy or run out` : ", so you don't overbuy or run out"}`,
+    `<strong>Sorted by store section</strong>, so you shop in one loop with a checklist`,
+    `<strong>Prep steps for all ${list.length} ${list.length === 1 ? "ingredient" : "ingredients"}</strong>: what to slice, temper, or set out early`,
+    `<strong>Board size and the order to lay it out</strong>, so it looks full and planned`,
+    `<strong>Why your pairings work</strong>, to share with guests`,
+    `<strong>Print it or save it as a PDF</strong>, and send the board to a friend`
+  ];
+  return `<aside class="bb-unlock" aria-labelledby="bb-unlock-title">
+    <div class="bb-unlock-copy">
+      <p class="bb-news-kicker">100% free &middot; takes 10 seconds</p>
+      <h3 id="bb-unlock-title">Your list for ${h(peopleText(state.guests))} is ready. Unlock it free.</h3>
+      <p class="bb-unlock-lede">Enter your email and the full plan opens right here. It costs nothing, now or later. You'll also get <strong>The Charcuterie Lab Report</strong>, our free weekly newsletter of pairings that work and boards worth copying.</p>
+      <ul class="bb-unlock-list">${gets.map((g) => `<li>${g}</li>`).join("")}</ul>
+    </div>
+    <form class="bb-unlock-form" data-unlock action="/newsletter/" method="get" novalidate>
+      <label class="bb-unlock-label" for="bb-unlock-email">Your email</label>
+      <input id="bb-unlock-email" class="bb-input" name="email" type="email" autocomplete="email" inputmode="email" placeholder="name@example.com" required>
+      <input class="bb-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="bb-btn primary" type="submit">Unlock my free list</button>
+      <p class="bb-news-error" role="alert" hidden></p>
+      <p class="bb-unlock-fine">Free forever. No password, no card. One email a week, unsubscribe in one click. Already a subscriber? Enter the same email. <a href="/privacy/">Privacy</a></p>
+    </form>
+  </aside>`;
+}
+
+// What's behind the unlock: the reader's own items with the amounts blurred.
+function lockedPreview() {
+  const groups = B.shoppingList(picks(), state.guests, state.mode);
+  return `<div class="bb-locked" aria-hidden="true" inert>
+    <h3 class="bb-sec-title"><span>1</span>Shopping list</h3>
+    <div class="bb-shop">${groups.map((g) => `<div class="bb-shop-group">
+      <h4>${h(g.section)}</h4>
+      <ul>${g.items.map((i) => `<li><label><input type="checkbox" disabled><span class="bb-shop-name">${h(i.name)}</span><span class="bb-shop-amt bb-blur">${h(i.amount)}</span></label></li>`).join("")}</ul>
+    </div>`).join("")}</div>
+    <p class="bb-locked-more"><span>2</span> How to prepare each item &middot; <span>3</span> How to present it &middot; <span>4</span> Why your pairings work</p>
+  </div>`;
 }
 
 function newsCard(where) {
   if (subscribed()) {
-    return where === "top" ? "" : `<aside class="bb-news is-done"><p><strong>You're on the list.</strong> The next Charcuterie Lab Report will land in your inbox. If you haven't yet, confirm your subscription in the tab that opened.</p></aside>`;
+    return where === "top" ? "" : `<aside class="bb-news is-done"><p><strong>You're on the list.</strong> The next Charcuterie Lab Report will land in your inbox, free. Come back and build another board any time: your list opens straight away now.</p></aside>`;
   }
   const top = where === "top";
   return `<aside class="bb-news${top ? " is-top" : ""}" aria-labelledby="bb-news-${where}">
@@ -495,6 +552,7 @@ function prepStep(step) {
 }
 
 function resultsHtml() {
+  if (!unlocked()) return lockedHtml();
   const list = picks();
   const groups = B.shoppingList(list, state.guests, state.mode);
   const present = B.presentation(list, state.guests);
@@ -557,6 +615,22 @@ function resultsHtml() {
     </div>`;
 }
 
+function lockedHtml() {
+  return `<div class="bb-results-head">
+      <div>
+        <p class="bb-kicker-dark">Your shopping list</p>
+        <h2 class="bb-h2" id="bb-results-title">Your board for ${h(peopleText(state.guests))}</h2>
+        <p class="bb-hint">${h(totalsLine())}</p>
+        <div class="bb-results-actions">
+          <button type="button" class="bb-btn ghost" data-view="build">Edit board</button>
+        </div>
+      </div>
+      <div class="bb-board-art bb-results-art">${boardSvg(picks())}</div>
+    </div>
+    ${unlockCard()}
+    ${lockedPreview()}`;
+}
+
 function viewFinish() {
   return `<section class="bb-finish">
     <button type="button" class="bb-link bb-back" data-view="build">← Back to your board</button>
@@ -594,7 +668,7 @@ function refreshResults() {
   resultsTimer = setTimeout(() => {
     // keep anything typed into the newsletter boxes
     const typed = {};
-    box.querySelectorAll("[data-news] input[type=email]").forEach((i) => { typed[i.id] = i.value; });
+    box.querySelectorAll("[data-news] input[type=email], [data-unlock] input[type=email]").forEach((i) => { typed[i.id] = i.value; });
     box.innerHTML = resultsHtml();
     Object.keys(typed).forEach((id) => {
       const el = document.getElementById(id);
@@ -843,6 +917,67 @@ function onNewsletter(form, e) {
   }, 60);
 }
 
+let unlocking = false;
+function onUnlock(form, e) {
+  e.preventDefault();
+  if (unlocking) return;
+  const input = form.querySelector("input[type=email]");
+  const err = form.querySelector(".bb-news-error");
+  const btn = form.querySelector("button[type=submit]");
+  const email = input.value.trim();
+  const say = (text) => {
+    err.textContent = text;
+    err.hidden = !text;
+    if (text) input.setAttribute("aria-invalid", "true");
+  };
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+    say("Enter a full email address, like name@example.com.");
+    input.focus();
+    return;
+  }
+  say("");
+  unlocking = true;
+  btn.disabled = true;
+  btn.textContent = "Unlocking…";
+  const open = (title, text) => {
+    unlocking = false;
+    render();
+    const head = document.getElementById("bb-results");
+    if (head) scrollToApp(head);
+    toast(title, text);
+  };
+  fetch("/api/subscribe", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ email, page: location.pathname, website: form.website ? form.website.value : "" })
+  })
+    .then((r) => r.json().catch(() => ({ ok: false })).then((j) => Object.assign(j, { status: r.status })))
+    .then((j) => {
+      if (j.ok) {
+        try {
+          localStorage.setItem(SUBSCRIBED, "1");
+          localStorage.setItem(SITE_SUB, "1");
+        } catch (x) { /* ignore */ }
+        open("Unlocked. Welcome to the Lab!", "Your full list is below. Watch your inbox for the free Lab Report.");
+        return;
+      }
+      if (j.error === "invalid_email") {
+        unlocking = false;
+        btn.disabled = false;
+        btn.textContent = "Unlock my free list";
+        say("That email address doesn't look right. Please check it and try again.");
+        input.focus();
+        return;
+      }
+      throw j;
+    })
+    .catch(() => {
+      // our signup service is down: don't make the reader pay for it
+      try { localStorage.setItem(UNLOCKED, "1"); } catch (x) { /* ignore */ }
+      open("Here's your list", "We couldn't add you to the newsletter just now. You can sign up any time on the Newsletter page.");
+    });
+}
+
 async function share(kind) {
   const url = shareUrl();
   if (kind === "native") {
@@ -946,6 +1081,7 @@ app.addEventListener("change", (e) => {
 });
 app.addEventListener("submit", (e) => {
   if (e.target.matches("[data-news]")) onNewsletter(e.target, e);
+  else if (e.target.matches("[data-unlock]")) onUnlock(e.target, e);
 });
 
 window.addEventListener("popstate", (e) => {
@@ -990,6 +1126,11 @@ function fromLink() {
 }
 
 function boot(data) {
+  // this page's one email ask is the free unlock, so drop the site-wide
+  // cheat-sheet slide-in and phone sticky bar (offers.mjs), which would sit
+  // over the unlock box and the builder's own bottom bar
+  document.querySelectorAll("[data-fx-slide], [data-fx-sticky]").forEach((el) => el.remove());
+  document.body.classList.remove("fx-slide-on");
   B_data = data;
   B = createBoard(data);
   const linked = fromLink();

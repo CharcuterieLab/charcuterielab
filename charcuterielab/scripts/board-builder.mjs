@@ -203,7 +203,13 @@ export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, d
     <div class="bb-wrap">
       <p class="bb-kicker">Board Builder</p>
       <h1>Make your own charcuterie board</h1>
-      <p class="bb-lede">Pick what you like. We suggest what pairs with it and why. Then enter your guest count for a free shopping list.</p>
+      <p class="bb-lede">Free to use. Pick what you like, and the builder suggests what goes with it and tells you why. When your board is done, enter your guest count and unlock the full shopping list with a free newsletter subscribe.</p>
+      <ul class="bb-perks">
+        <li><strong>${itemCount} ingredients</strong> with pairing notes from our ingredient guides</li>
+        <li><strong>Ideas that fit your board</strong>, ranked by what you've already picked</li>
+        <li><strong>Diet filters:</strong> gluten-free, nut-free, dairy-free, vegetarian, vegan</li>
+        <li><strong>Amounts for 1 to 200 guests</strong>, sorted by store aisle, with prep and layout</li>
+      </ul>
     </div>
   </section>
 
