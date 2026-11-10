@@ -93,17 +93,13 @@ Avoid pepperoni on a holiday board — the assertive spice and orange grease com
 
 A holiday board rewards planning. Build it in this order:
 
-**1. Establish your anchors first.** Place the Brie wheel at the center or off-center (slightly off-center looks more intentional). Set your condiment bowls in the remaining positions — they're inflexible, so place them before anything else. The bowls define the geography of the board.
+1. **Set the anchors.** Place the Brie wheel at or slightly off center (off center looks more intentional). Then set the condiment bowls: they can't move later, and they define the board's geography.
+2. **Place the other cheeses.** Spread them out so no two touch, ideally one per quadrant. Vary the shapes: Comté as a wedge with a few planks fanned forward, Cheddar in cubes, the blue lightly crumbled.
+3. **Add the charcuterie** between the cheeses. Mix the looks: rosettes in one area, tiled salami rounds in another, cascading bresaola near an edge. Leave gaps.
+4. **Fill with fruit.** Grape clusters anchor the corners, pomegranate arils go around the Brie, and sliced pear or green apple fills the gaps. Dried cranberries or apricots fill the smallest spaces.
+5. **Add crackers last,** within 30–45 minutes of serving. Stand them upright beside the cheeses: water crackers for neutral, seeded for texture, rye crispbread near the smoked or robust meats.
+6. **Garnish with rosemary.** Stand 2–3 sprigs near the Brie, pressed lightly into the rind to stay upright, lay smaller sprigs along the edges, and finish with the last pomegranate arils.
 
-**2. Place the remaining cheeses.** Distribute them across the board so no two cheeses touch, and so each sits in a different quadrant (if the board is large enough). Different shapes: the Brie is round, slice the Comté into a wedge with a few planks fanned forward, cut the Cheddar into cubes, crumble the blue slightly for texture.
-
-**3. Add the charcuterie.** Fill the spaces between cheeses. Vary the presentation: rosettes in one area, tiled salami rounds in another, cascading bresaola near an edge. Leave some gaps — you'll fill them with fruit and garnishes.
-
-**4. Fill with fruit.** Clusters of grapes anchor the corners. Scatter pomegranate arils around the Brie. Tuck sliced pear or green apple into the remaining gaps. Dried cranberries or apricots can fill very small spaces.
-
-**5. Add crackers last** (within 30–45 minutes of serving). Stand them upright in the gaps around cheeses or in dedicated sections. Water crackers for neutral; seeded crackers for texture; rye crispbread near the smoked or robust meats.
-
-**6. Garnish with rosemary.** Plant 2–3 full sprigs vertically in the board near the Brie (press them into the cheese rind slightly to keep them standing). Lay smaller sprigs along edges. Add any remaining pomegranate arils as a final scatter.
 
 ## Temperature and Timing
 

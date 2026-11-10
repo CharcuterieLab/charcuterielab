@@ -124,35 +124,18 @@ Brie is classified as a soft-ripened cheese, meaning its texture and flavor inte
 
 ## Common Mistakes with Brie (And How to Fix Them)
 
-❌ **Serving it straight from the refrigerator**
-Cold fat carries almost no flavor. Brie served cold tastes dense, muted, and chalky — nothing like its room-temperature self.
-**Fix:** Pull brie from the refrigerator 20–30 minutes before serving. You should be able to press it gently and feel it yield slightly before it goes on the board.
-
-❌ **Cutting off the rind**
-The rind is where brie's most complex flavor lives. It's also what holds the wheel's shape as it softens.
-**Fix:** Serve the entire wheel — rind and all. Slice into wedges that include rind so each piece delivers the full flavor spectrum from interior to exterior.
-
-❌ **Cutting the entire wheel in advance**
-Once cut, brie begins to dry out and the interior can oxidize, changing both texture and flavor.
-**Fix:** If serving a full wheel, score a wedge or two but leave the rest intact. Let guests cut their own portions — the cheese stays fresher and the presentation looks better.
-
-❌ **Using it as the only cheese on the board**
-Brie's mild, accommodating character is a strength on a mixed board but creates monotony when it's the sole cheese. Without contrast, there's nothing to play against.
-**Fix:** Pair brie with at least one aged cheese (cheddar, gruyère, or manchego) to give guests a texture and intensity contrast.
-
-❌ **Pairing it with strongly flavored meats**
-Chorizo, highly spiced salamis, and peppery meats overwhelm brie's delicacy. The spice obliterates the subtle earthiness rather than complementing it.
-**Fix:** Keep brie's meat neighbors gentle — prosciutto, bresaola, or a mild salami. Save the bold meats for the sharp cheeses.
-
-❌ **Skipping the honey**
-Brie without a sweet element is a missed opportunity. The fat-sweetness interaction is one of the cleanest examples of pairing science on any board.
-**Fix:** Always serve brie with at least one sweet accompaniment — even if it's only a small dish of honey or a few pieces of fresh fruit alongside.
-
-❌ **Buying brie that's already past peak**
-Over-ripened brie develops an ammonia-like smell from excessive protein breakdown. It's not dangerous, but it's unpleasant and overpowering.
-**Fix:** Before buying, press the wheel gently. It should give but spring back slightly. A wheel that's completely soft with an aggressive ammonia smell is past its prime. At the cheese counter, ask when it was delivered.
+| Mistake | Why it hurts | Fix |
+|---|---|---|
+| Serving it straight from the fridge | Cold fat carries almost no flavor, so it tastes dense, muted and chalky. | Take it out 20–30 minutes before serving. It should yield slightly when pressed. |
+| Cutting off the rind | The rind holds the most complex flavor and keeps the wheel's shape as it softens. | Serve the whole wheel, rind and all, in wedges that include rind. |
+| Cutting the whole wheel in advance | Cut brie dries out and the interior can oxidize. | Score a wedge or two, leave the rest whole, and let guests cut their own. |
+| Making it the only cheese | Its mild character turns monotonous with nothing to contrast it. | Add at least one aged cheese: cheddar, gruyère or manchego. |
+| Pairing it with strong meats | Chorizo and spicy or peppery salami bury its earthiness. | Keep its neighbors gentle: prosciutto, bresaola or a mild salami. |
+| Skipping the honey | Fat plus sweetness is one of the cleanest pairings on any board. | Serve at least one sweet partner: a small dish of honey or fresh fruit. |
+| Buying it past peak | Over-ripe brie smells of ammonia. Not dangerous, but unpleasant. | Press the wheel: it should give, then spring back. Ask the counter when it came in. |
 
 ---
+
 
 ## How to Use Brie on a Charcuterie Board
 

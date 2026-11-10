@@ -43,17 +43,17 @@ The crystalline white deposits that appear in extra-aged cheddar are **tyrosine 
 
 ## Choosing Aged Cheddar for Your Board
 
-**Mild/Medium cheddar (under 12 months):** Smooth texture, mild buttery flavor, minimal sharpness. Not ideal for a charcuterie board — it lacks the flavor complexity to hold its own against cured meats and condiments. Best for cooking.
+| Type | Age | Texture and flavor | On a board |
+|---|---|---|---|
+| Mild or medium | Under 12 months | Smooth, mild and buttery, little sharpness | Not ideal: too simple next to cured meats. Best for cooking. |
+| Sharp | 1–2 years | Firm, slightly crumbly, buttery and tangy | The workhorse. Pleases everyone and pairs with honey, fruit, crackers and bread. |
+| Extra-sharp or vintage | 2–5 years | Crumbly and crystalline, nutty, almost caramel-like, long finish | A featured cheese. Balance it with dark honey or fig jam for mild eaters. |
+| Clothbound | Varies | Earthy, grassy, sometimes mushroomy, from aging in cloth | Serve in larger wedges so guests taste from rind to center. |
 
-**Sharp cheddar (1–2 years):** This is the workhorse. Firm, slightly crumbly, with clear buttery and tangy notes and developing complexity. The best all-purpose choice for a charcuterie board. Accessible to all guests, holds up against medium-intensity cured meats, pairs well with honey, fruit, and both crackers and bread.
-
-**Extra-sharp/Vintage cheddar (2–5 years):** Distinctly crumbly, crystalline, with intense flavor — complex, nutty, almost caramel-like in the best examples. Longer finish on the palate. The best choice when you want cheddar to be a featured element of the board rather than a supporting one. Can overwhelm mild guests unfamiliar with aged cheese; consider pairing with a stronger, more assertive sweet condiment (dark honey, fig jam) to balance.
-
-**Clothbound cheddar:** Aged in cloth wrapping rather than sealed plastic, which allows the rind to breathe and the cheese to interact with its environment. Produces a more complex, terroir-influenced flavor — earthy, grassy, sometimes mushroom-like — that differs markedly from standard vacuum-sealed aged cheddar. Treat it like a featured cheese and serve in larger wedges so guests can explore the flavor gradient from rind to center.
-
-**Origin considerations:** English and Irish clothbound cheddars (particularly those from Somerset, like Montgomery's or Westcombe) represent the tradition at its most complex. American-made aged cheddars (Cabot Clothbound, Grafton Village, Beecher's Flagship) produce excellent, often more approachable expressions. Both are excellent board choices; the selection depends on the overall tone of the board.
+**Where it's from:** English and Irish clothbound cheddars, especially Somerset's Montgomery's and Westcombe, are the tradition at its most complex. American aged cheddars (Cabot Clothbound, Grafton Village, Beecher's Flagship) are excellent and often more approachable. Both work; pick for the tone of the board.
 
 ---
+
 
 ## How to Present Aged Cheddar on a Board
 

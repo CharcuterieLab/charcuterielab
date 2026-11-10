@@ -19,19 +19,15 @@ A board that looks generous gets eaten. One that looks picked over doesn't.
 
 ## The Assembly Sequence
 
-The order in which you build the board determines the final result. Deviating from this sequence produces boards that look unbalanced or chaotic.
+The order you build in decides the result. Skip around and the board looks unbalanced or chaotic.
 
-**Step 1: Cheese anchors.** Place the cheese first — in corners, quadrants, or at intervals across the board depending on the board's shape. These are the structural anchors from which everything else radiates. Use the largest or most visually interesting cheese as a centerpiece if the board is round.
+1. **Cheese anchors.** Place the cheeses first, in corners, quadrants or at intervals. Everything else radiates from them. On a round board, the largest or most striking cheese can be the centerpiece.
+2. **Condiment bowls,** next to the cheese each one pairs with: honey by the blue, mustard by the aged cheddar. The bowls also add height.
+3. **Meats.** Drape, fold and arrange them between and around the cheeses, one cluster per meat rather than scattered: prosciutto loose and draped, salami fanned or shingled, coppa in loose waves.
+4. **Fillers.** Olives, nuts, dried and fresh fruit fill the gaps. They're what make a board look abundant, even when the amounts are right.
+5. **Garnish.** Rosemary, thyme or dill, and edible flowers in season.
+6. **Crackers and bread, last,** right before serving. Stand crackers upright in clusters for height, and fan the sliced bread. Crackers laid flat an hour early go soft and look deflated.
 
-**Step 2: Condiment bowls.** Place small ramekins or bowls adjacent to the cheese they pair with. The condiment bowl's position is a pairing signal — honey next to the blue cheese, mustard near the aged cheddar. The bowls also create height variation.
-
-**Step 3: Meats.** Drape, fold, and arrange meats between and around the cheese anchors. Each meat type should have a cluster, not be scattered across the board. Prosciutto loose and draped; salami fanned or shingled; coppa in loose waves.
-
-**Step 4: Fillers.** Fill the remaining visual gaps with olives, nuts, dried fruit, fresh fruit, and any additional small elements. These are what make the board look dense and abundant — without fillers, the board looks sparse even when the quantities are correct.
-
-**Step 5: Garnish.** Fresh herbs (rosemary sprigs, thyme, fresh dill), edible flowers if seasonal, and any remaining visual elements.
-
-**Step 6: Crackers and bread, last.** Immediately before service. Standing crackers upright in clusters creates height. Bread sliced and fanned. Never lay crackers flat across the board an hour early — they soften and look deflated.
 
 ## Meat Folding Techniques
 

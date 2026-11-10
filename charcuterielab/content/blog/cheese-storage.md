@@ -47,17 +47,16 @@ This construction is semi-permeable: it allows gas exchange and some moisture ev
 
 ## The Alternatives: What Each Wrapping Material Does
 
-**Wax paper or parchment paper:** A meaningful step up from plastic. Wax paper and parchment are breathable in a way plastic is not — they allow gas exchange and don't create the sealed anaerobic environment. They lack cheese paper's structured inner layer, so they don't manage moisture as precisely. For short-term storage (1–3 days), wax paper or parchment work reasonably well. For longer storage, cheese paper performs better.
-
-**Plastic wrap:** The most common default and the worst option for most cheeses. Creates a sealed moisture trap against the surface. Acceptable as a short-term cut-face cover before rewrapping properly — but not as a multi-day storage solution. The exception where plastic performs acceptably: protecting a cut face for transport or a few hours at room temperature on a board (where you actually don't want too much evaporation during service).
-
-**Aluminum foil:** Breathable enough for short periods and useful for one specific category — blue cheeses (Stilton, Gorgonzola, Roquefort). Blues benefit from slightly reduced oxygen exposure, which slows the ongoing development of blue-green mold veining and prevents the cheese from over-ripening too quickly. Wrapping blues in foil is standard cheesemonger practice. For other cheese types, foil is not preferable to paper but is better than plastic.
-
-**Resealable plastic bags (with air removed):** The same problem as plastic wrap but compounded. Avoid.
-
-**Original packaging:** If the cheese came in professional packaging from the producer or specialty retailer, use it until it's gone or until you need to repackage. Producer packaging is often designed specifically for that cheese's needs. Vacuum-sealed commercial packaging is the exception — after you break the seal, transfer to cheese paper.
+| Wrap | Verdict | Use it for |
+|---|---|---|
+| Wax paper or parchment | A real step up from plastic. It breathes, but doesn't manage moisture as well as cheese paper. | Short storage, 1–3 days. For longer, use cheese paper. |
+| Plastic wrap | The worst everyday option: it traps moisture against the surface. | Covering a cut face for a few hours or in transport, then rewrap. |
+| Aluminum foil | Breathes enough for short periods. | Blue cheeses (Stilton, Gorgonzola, Roquefort): less oxygen slows over-ripening, which is standard cheesemonger practice. For other cheeses it beats plastic, not paper. |
+| Resealable plastic bags | Plastic wrap's problem, made worse. | Avoid. |
+| Original packaging | Producer packaging is often made for that cheese. | Keep using it until the cheese is gone. Once a vacuum seal is broken, move to cheese paper. |
 
 ---
+
 
 ## Storage Rules by Cheese Type
 

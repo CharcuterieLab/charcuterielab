@@ -1,0 +1,26 @@
+/* 9 Nov 2026: labelled lists made from packed paragraphs (scripts/read-lists.mjs) */
+.kv-block { margin: 1.1em 0 1.4em; padding: 14px 18px; background: #fff; border: 1px solid rgba(169, 87, 43, 0.14); border-left: 4px solid var(--gold); border-radius: 10px; }
+.kv-block .kv-lead { margin: 0 0 6px; }
+.kv-block .kv-tail { margin: 8px 0 0; color: var(--muted); font-size: 0.95em; }
+.kv-list { list-style: none; margin: 0; padding: 0; }
+.kv-list li { display: grid; grid-template-columns: minmax(6em, 10em) 1fr; gap: 2px 14px; padding: 8px 0; border-top: 1px solid rgba(169, 87, 43, 0.12); line-height: 1.5; margin: 0; }
+.kv-list li:first-child { border-top: 0; }
+.kv-list li::before { content: none; }
+.kv-k { font-weight: 700; color: var(--green); }
+.kv-v { min-width: 0; }
+@media (max-width: 560px) {
+  .kv-list li { grid-template-columns: 1fr; }
+  .kv-k { font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+}
+/* Diet page key: three chips that match the badges */
+.dt-key { list-style: none; margin: 0.8em 0 0.4em; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: var(--muted); }
+.dt-key li { display: flex; align-items: center; gap: 8px; margin: 0; }
+.dt-key li::before { content: none; }
+.dt-key .dt-badge { flex: none; }
+@media (max-width: 560px) { .dt-key { flex-direction: column; gap: 6px; } }
+/* Runs of bold-label paragraphs: one divided list, label on its own line */
+.lead-list { margin: 1em 0 1.4em; border-top: 1px solid rgba(169, 87, 43, 0.16); }
+.lead-list .lead-item { margin: 0; padding: 12px 0; border-bottom: 1px solid rgba(169, 87, 43, 0.16); }
+.lead-list .lead-k { display: block; margin-bottom: 2px; color: var(--green); font-weight: 700; }
+/* Inside a quote box (blog Quick answer), the list sits flat in the box */
+blockquote > .kv-block { margin: 0; padding: 0; background: none; border: 0; border-radius: 0; }

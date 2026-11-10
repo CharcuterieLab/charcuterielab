@@ -140,7 +140,9 @@ const SKIP = /^\/(newsletter|printables|shop|books|gifts|ebook|around-the-world|
 export function foldFaq(html) {
   const head = /<h2[^>]*>[^<]*(?:FAQ|Questions|questions|Frequently)[^<]*<\/h2>/.exec(html);
   if (!head) return html;
-  const start = head.index + head[0].length;
+  // 9 Nov 2026: skip the <!--/nolink--> marker that follows a linked heading
+  // (it stays in place, before the folded list); it stopped 121 posts folding.
+  const start = head.index + head[0].length + /^(?:\s|<!--[\s\S]*?-->)*/.exec(html.slice(head.index + head[0].length))[0].length;
   const plain = (x) => x.replace(/<[^>]+>/g, "").trim();
   const items = [];
   let pos = start;
