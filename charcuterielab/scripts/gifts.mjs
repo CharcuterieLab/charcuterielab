@@ -157,7 +157,7 @@ const GUIDES = [
     card: "Charcuterie gifts under $25",
     cardLine: "11 gifts that look like you spent more",
     image: "/images/charcuterie-gift-box-25.jpg",
-    seoTitle: "Charcuterie Gifts Under $25: 11 Ideas for Board Lovers",
+    seoTitle: "Charcuterie Gifts Under $25: 11 Ideas for 2026",
     h1: "Charcuterie gifts under $25 that look like you spent more",
     kicker: "Gift guide · Under $25",
     description: "11 charcuterie and cheese gifts under $25: a board book, cheese knives, fig spread, hot honey, honeycomb, Marcona almonds, slate markers and more, with what each is for.",
@@ -193,7 +193,7 @@ const GUIDES = [
     card: "Hostess gifts for a board-loving host",
     cardLine: "10 gifts that won't give the host a job",
     image: "/images/charcuterie-gift-basket.jpg",
-    seoTitle: "Hostess Gifts for Foodies: 10 Charcuterie Ideas",
+    seoTitle: "Hostess Gifts for Foodies: 10 Charcuterie Ideas (2026)",
     h1: "Hostess gifts for foodies: 10 charcuterie ideas the host will actually use",
     kicker: "Gift guide · Hostess gifts",
     description: "10 hostess gifts for a host who loves charcuterie: a board book with fig jam, honeycomb, Marcona almonds, a condiment trio, cheese knives and more. Plus what not to bring.",
@@ -268,7 +268,7 @@ const GUIDES = [
     card: "Charcuterie stocking stuffers",
     cardLine: "12 small gifts, most under $15",
     image: "/images/christmas-charcuterie-board.png",
-    seoTitle: "Charcuterie Stocking Stuffers: 12 Small Gifts Under $20",
+    seoTitle: "Charcuterie Stocking Stuffers 2026: 12 Gifts Under $20",
     h1: "Charcuterie stocking stuffers: 12 small gifts for board lovers",
     kicker: "Gift guide · Stocking stuffers",
     description: "12 charcuterie stocking stuffers, most under $15: a cheese plane, fig spread, hot honey, Marcona almonds, slate cheese markers, a small board book and more.",
@@ -304,7 +304,7 @@ const GUIDES = [
     card: "Charcuterie white elephant gifts",
     cardLine: "10 gifts people will actually steal",
     image: "/images/christmas-wreath-charcuterie-board.jpg",
-    seoTitle: "Charcuterie White Elephant Gifts: 10 Ideas People Steal",
+    seoTitle: "White Elephant Gifts 2026: 10 Charcuterie Ideas People Steal",
     h1: "Charcuterie white elephant gifts people will actually steal",
     kicker: "Gift guide · White elephant",
     description: "10 charcuterie white elephant gift ideas for a $25 to $40 limit: a board book with cheese knives, a slate board, honeycomb, a salami and jam kit and more.",
@@ -373,7 +373,7 @@ const GUIDES = [
     card: "Gifts for keto friends",
     cardLine: "10 low-carb gifts that aren't diet food",
     image: "/images/books/keto/board-01.webp",
-    seoTitle: "Gifts for Keto Friends: 10 Low-Carb Ideas (2026)",
+    seoTitle: "Keto Gifts 2026: 10 Low-Carb Gift Ideas (Not Diet Food)",
     h1: "Gifts for keto friends: 10 low-carb ideas that aren't diet food",
     kicker: "Gift guide · Keto",
     description: "10 gifts for someone on keto or low-carb: a keto charcuterie board book, a cheese plane, Parmesan crisps, Marcona almonds, olives, salami and more.",
@@ -407,7 +407,7 @@ const GUIDES = [
     card: "Gifts for vegan foodies",
     cardLine: "10 plant-based gifts for the board lover",
     image: "/images/books/plant/board-01.webp",
-    seoTitle: "Gifts for Vegan Foodies: 10 Plant-Based Ideas (2026)",
+    seoTitle: "Vegan Gifts for Foodies: 10 Plant-Based Ideas (2026)",
     h1: "Gifts for vegan foodies: 10 plant-based ideas for the board lover",
     kicker: "Gift guide · Vegan",
     description: "10 gifts for a vegan foodie: a plant-based charcuterie board book, vegan cheese, olives, fig spread, Marcona almonds, dark chocolate, a serving board and more.",
@@ -441,7 +441,7 @@ const GUIDES = [
     card: "Housewarming gifts for foodies",
     cardLine: "10 gifts for a first party in a new home",
     image: "/images/50-boards-29-book-club-afternoon.webp",
-    seoTitle: "Housewarming Gifts for Foodies: 10 Charcuterie Ideas",
+    seoTitle: "Housewarming Gifts for Foodies: 10 Charcuterie Ideas (2026)",
     h1: "Housewarming gifts for foodies: 10 charcuterie ideas for a new kitchen",
     kicker: "Gift guide · Housewarming",
     description: "10 charcuterie housewarming gifts: a board book, an acacia serving board, a slate board, small bowls, a cheese dome, a Boska knife set and more.",
@@ -475,7 +475,7 @@ const GUIDES = [
     card: "Charcuterie gifts for him",
     cardLine: "12 gifts for the meat lover, griller or whiskey drinker",
     image: "/images/gifts-for-him.jpg",
-    seoTitle: "Charcuterie Gifts for Men: 12 Ideas for the Meat Lover",
+    seoTitle: "Charcuterie Gifts for Men 2026: 12 Ideas for Meat Lovers",
     h1: "Charcuterie gifts for men: 12 ideas for the meat lover in your life",
     kicker: "Gift guide · For him",
     description: "12 charcuterie gifts for men: a board book, a whole dry salami, a cheese knife set, the Wüsthof cheese plane, whisky glasses for a cheese pairing, a curing book for the DIY type and a meat and cheese box.",
@@ -593,7 +593,7 @@ const GUIDES = [
     card: "Charcuterie gifts for her",
     cardLine: "12 gifts for her, mom or the friend who hosts",
     image: "/images/mothers-day.webp",
-    seoTitle: "Charcuterie Gifts for Her: 12 Ideas for Women and Mom",
+    seoTitle: "Charcuterie Gifts for Her 2026: 12 Ideas for Women and Mom",
     h1: "Charcuterie gifts for her: 12 ideas for the cheese-loving woman in your life",
     kicker: "Gift guide · For her",
     description: "12 charcuterie gifts for women and moms in 2026: a cheese advent calendar, a glass cheese dome, a slate board with chalk, honeycomb, Boards for Two, a cheese club and hot honey.",
@@ -628,7 +628,7 @@ const GUIDES = [
     card: "Charcuterie gifts that ship well",
     cardLine: "11 gifts that need no ice, even in warm weather",
     image: "/images/charcuterie-gift-basket-packing.jpg",
-    seoTitle: "Meat and Cheese Gifts That Ship Well (No Ice Needed)",
+    seoTitle: "Meat and Cheese Gifts That Ship Without Ice (2026)",
     h1: "Charcuterie gifts that ship well: 11 meat and cheese gifts that need no ice",
     kicker: "Gift guide · Ships well",
     description: "11 charcuterie gifts that ship without ice: a whole dry salami, a shelf-stable sausage and cheese box, Marcona almonds, fig spread, honeycomb, cheese crisps, books and tools, plus the USDA rules for mailing food.",
@@ -666,7 +666,7 @@ const GUIDES = [
     card: "Charcuterie gifts under $50",
     cardLine: "12 gifts between $25 and $50",
     image: "/images/charcuterie-gift-box-50.jpg",
-    seoTitle: "Charcuterie Gifts Under $50: 12 Ideas That Look Pricier",
+    seoTitle: "Charcuterie Gifts Under $50: 12 Ideas for 2026",
     h1: "Charcuterie gifts under $50: 12 ideas that look like you spent more",
     kicker: "Gift guide · Under $50",
     description: "12 charcuterie gifts under $50: the Wüsthof cheese plane, a slate board with chalk, a bamboo board and knife set, a glass cheese dome, a mozzarella-making kit, Glencairn glasses and our board books.",
@@ -701,7 +701,7 @@ const GUIDES = [
     card: "Teacher and coworker gifts",
     cardLine: "12 charcuterie gifts under $15",
     image: "/images/charcuterie-gift-box-25.jpg",
-    seoTitle: "Teacher and Coworker Gifts Under $15: 12 Foodie Ideas",
+    seoTitle: "Teacher and Coworker Gifts Under $15: 12 Ideas (2026)",
     h1: "Teacher and coworker gifts under $15: 12 small charcuterie gifts",
     kicker: "Gift guide · Teacher and coworker",
     description: "12 charcuterie gifts under $15 for teachers, coworkers and Secret Santa: hot honey, fig spread, Marcona almonds, a cheese plane, honey dippers, slate cheese markers and Parmesan crisps.",
@@ -740,7 +740,7 @@ const GUIDES = [
     card: "For the person who has everything",
     cardLine: "10 gifts they won't already own",
     image: "/images/50-boards-49-showstopper-grand.webp",
-    seoTitle: "Gifts for Someone Who Has Everything: 10 Foodie Ideas",
+    seoTitle: "Gifts for Someone Who Has Everything: 10 Ideas (2026)",
     h1: "Charcuterie gifts for someone who has everything: 10 they won't already own",
     kicker: "Gift guide · Has everything",
     description: "10 charcuterie gifts for the person who has everything: a cheese-of-the-month club, a cheese advent calendar, a mozzarella-making kit, Impossible Boards, a Laguiole set, an engraved board and a Boarderie board.",
@@ -775,7 +775,7 @@ const GUIDES = [
     card: "Secret Santa charcuterie gifts",
     cardLine: "10 gifts at $10, $15, $20, $25 and $30",
     image: "/images/charcuterie-gift-box-25.jpg",
-    seoTitle: "Secret Santa Gifts for Foodies: 10 Ideas from $5 to $30",
+    seoTitle: "Secret Santa Gifts for Foodies 2026: 10 Ideas, $5 to $30",
     h1: "Secret Santa gifts for a foodie: 10 charcuterie gifts that fit the budget",
     kicker: "Gift guide · Secret Santa",
     description: "10 Secret Santa gifts for someone who loves cheese and charcuterie, sorted by budget: a cheese plane, hot honey, slate cheese markers, a 3-piece knife set, a board book and a bamboo board with knives.",
@@ -813,7 +813,7 @@ const GUIDES = [
     cardLine: "10 gifts for eight nights, kosher kitchens included",
     image: "/images/hanukkah-charcuterie-board.jpg",
     shipNote: "Hanukkah 2026 starts the evening of Friday, Dec 4. Order by about Nov 30 so gifts arrive before the first night.",
-    seoTitle: "Hanukkah Gifts for Foodies: 10 Cheese and Board Gift Ideas",
+    seoTitle: "Hanukkah Gifts 2026 for Foodies: 10 Cheese and Board Ideas",
     h1: "Hanukkah gifts for a cheese and board lover: 10 ideas for eight nights",
     kicker: "Gift guide · Hanukkah",
     description: "10 Hanukkah gifts for someone who loves cheese and boards, with kosher kitchens in mind: a plant-based board book, a separate dairy knife set, a glass cheese dome, a latke-bar board, dip cups and cheese storage bags. Hanukkah 2026 starts Dec 4.",
@@ -888,7 +888,7 @@ const GUIDES = [
     card: "Personalized and engraved boards",
     cardLine: "8 boards worth engraving, and when to order",
     image: "/images/best-charcuterie-boards.jpg",
-    seoTitle: "Personalized Charcuterie Boards: 8 Engraved Gift Ideas",
+    seoTitle: "Personalized Charcuterie Boards: 8 Engraved Gifts (2026)",
     h1: "Personalized charcuterie boards: 8 engraved boards worth giving",
     kicker: "Gift guide · Personalized",
     description: "8 personalized and engraved charcuterie boards for 2026: a Mark & Graham wood and marble board, a sleigh board, an oak board and decanter set, and Uncommon Goods' family recipe, map and swivel boards, plus how to order one in time.",
@@ -926,7 +926,7 @@ const GUIDES = [
     card: "Last-minute charcuterie gifts",
     cardLine: "10 gifts you can still give tomorrow",
     image: "/images/charcuterie-gift-basket-packing.jpg",
-    seoTitle: "Last-Minute Charcuterie Gifts: 10 Ideas That Still Arrive",
+    seoTitle: "Last-Minute Charcuterie Gifts 2026: 10 That Still Arrive",
     h1: "Last-minute charcuterie gifts: 10 ideas you can still give in time",
     kicker: "Gift guide · Last minute",
     description: "10 last-minute charcuterie gifts: instant ebooks, a cheese club, overnight-shipped boards, and a DIY board kit from one grocery run, plus when to order everything.",
@@ -1010,6 +1010,15 @@ const SETS = {
 };
 
 // ---------------------------------------------------------------- render
+// Byline and dates (10 Nov 2026, SEO review: gift pages had no author or
+// dateModified). Published = the day each guide first went live; UPDATED is
+// the last full pass over every guide. Bump it when the guides are rechecked.
+const GIFTS_UPDATED = "2026-11-10";
+const GIFT_PUBLISHED = { "charcuterie-books": "2026-10-11", "under-25": "2026-10-11", "hostess-gifts": "2026-10-11", "cheese-lovers": "2026-10-11", "stocking-stuffers": "2026-10-11", "white-elephant": "2026-10-11", "wine-and-cheese-lovers": "2026-10-11", "keto-gifts": "2026-10-11", "vegan-foodie-gifts": "2026-10-11", "housewarming": "2026-10-11", "for-him": "2026-10-19", "client-gifts": "2026-10-19", "luxury": "2026-11-08", "last-minute": "2026-11-08", "for-her": "2026-11-09", "ship-well": "2026-11-09", "under-50": "2026-11-09", "teacher-coworker": "2026-11-09", "has-everything": "2026-11-09", "secret-santa": "2026-11-09", "hanukkah": "2026-11-09", "wine-advent-calendars": "2026-11-09", "personalized-boards": "2026-11-09" };
+const GIFT_AUTHOR = { "@type": "Person", "@id": "https://charcuterielab.com/about/#jimmy-wilson", name: "Jimmy Wilson", url: "https://charcuterielab.com/about/" };
+const giftLongDate = (d) => new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${d}T00:00:00Z`));
+const giftByline = () => `<p class="gf-byline"><span class="byline">By <a href="/about/">Jimmy Wilson</a> · Updated ${giftLongDate(GIFTS_UPDATED)}</span></p>`;
+
 export function giftPages(h, books) {
   const esc = h.escapeHtml;
   const T = (u, c) => h.withTracking(u, c);
@@ -1150,8 +1159,9 @@ export function giftPages(h, books) {
     </div>
   </section>`;
 
-  function schema(list, crumbs, faq) {
+  function schema(list, crumbs, faq, art = null) {
     const s = [
+      ...(art ? [{ "@context": "https://schema.org", "@type": "Article", headline: art.headline, description: art.description, url: h.absoluteUrl(art.url), ...(art.image ? { image: h.absoluteUrl(art.image) } : {}), author: GIFT_AUTHOR, publisher: { "@type": "Organization", name: "Charcuterie Lab", url: "https://charcuterielab.com/" }, datePublished: art.published, dateModified: GIFTS_UPDATED }] : []),
       { "@context": "https://schema.org", "@type": "ItemList", itemListOrder: "https://schema.org/ItemListOrderAscending", numberOfItems: list.length, itemListElement: list.map(([name, url], i) => ({ "@type": "ListItem", position: i + 1, name, url: url.startsWith("http") ? url : h.absoluteUrl(url) })) },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([name, url], i) => ({ "@type": "ListItem", position: i + 1, name, item: h.absoluteUrl(url) })) }
     ];
@@ -1394,13 +1404,17 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
         canonical: path,
         image: g.image,
         description: g.description,
-        head: schema(picks.map((p, i) => [pickName(p), `${path}#pick-${i + 1}`]), [["Home", "/"], ["Gift guide", "/gifts/"], [g.card, path]], g.faq),
+        type: "article",
+        published: GIFT_PUBLISHED[g.slug] || "2026-10-11",
+        modified: GIFTS_UPDATED,
+        head: schema(picks.map((p, i) => [pickName(p), `${path}#pick-${i + 1}`]), [["Home", "/"], ["Gift guide", "/gifts/"], [g.card, path]], g.faq, { headline: g.seoTitle, description: g.description, url: path, image: g.image, published: GIFT_PUBLISHED[g.slug] || "2026-10-11" }),
         body: `<main class="gf-page gf-spoke">
   <section class="gf-hero">
     <div class="gf-inner">
       <p class="ing-crumb"><a href="/gifts/">Gift guide</a> <span aria-hidden="true">/</span> ${esc(g.card)}</p>
       <p class="section-kicker">${esc(g.kicker)}</p>
       <h1>${esc(g.h1)}</h1>
+      ${giftByline()}
       ${g.shipNote ? `<p class="gf-ship"><strong>Order by:</strong> ${esc(g.shipNote)}</p>` : ""}${g.slug === "hanukkah" ? "" : shipStrip}
       <figure class="gf-spoke-fig"><img class="gf-hero-img" src="${esc(h.thumb ? h.thumb(guidePhoto(g), "m") : guidePhoto(g))}" alt="${esc(g.card)}" width="1024" height="683" fetchpriority="high" decoding="async"><figcaption>${esc(g.cardLine)}</figcaption></figure>
     </div>
@@ -1482,12 +1496,16 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
         canonical: path,
         image: "/images/charcuterie-gift-basket.jpg",
         description: "Charcuterie gift ideas for 2026: board books, gifts under $25, stocking stuffers, white elephant, hostess, housewarming and client gifts, gifts for him and for cheese, wine, keto and vegan lovers, plus gift sets.",
-        head: schema(guideCards.map(([t, u]) => [t, u]), [["Home", "/"], ["Gift guide", path]], faq),
+        type: "article",
+        published: "2026-10-11",
+        modified: GIFTS_UPDATED,
+        head: schema(guideCards.map(([t, u]) => [t, u]), [["Home", "/"], ["Gift guide", path]], faq, { headline: "Charcuterie Gift Ideas 2026: For Every Board Lover", description: "Charcuterie gift ideas for 2026 for every board lover and every budget.", url: path, image: "/images/charcuterie-gift-basket.jpg", published: "2026-10-11" }),
         body: `<main class="gf-page gf-hub">
   <section class="gf-hero">
     <div class="gf-inner">
       <p class="section-kicker">Gift guide 2026</p>
       <h1>Charcuterie gift ideas for every board lover and every budget</h1>
+      ${giftByline()}
       ${shipStrip}
       <img class="gf-hero-img" src="${esc(h.thumb("/images/charcuterie-gift-basket.jpg", "m"))}" alt="A charcuterie gift basket with cheese, salami, crackers and a jar of fig spread" width="1200" height="800" fetchpriority="high" decoding="async">
       <nav class="gf-chips" aria-label="Shop gifts by">
