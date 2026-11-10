@@ -2616,9 +2616,41 @@
 1024,
 559
 ],
+"/images/gifts/cheese-lovers.jpg": [
+1024,
+559
+],
 "/images/gifts/gift-card-preview.webp": [
 560,
 362
+],
+"/images/gifts/hostess-gifts.jpg": [
+1024,
+559
+],
+"/images/gifts/personalized-boards.jpg": [
+1024,
+559
+],
+"/images/gifts/secret-santa.jpg": [
+1024,
+559
+],
+"/images/gifts/stocking-stuffers.jpg": [
+1024,
+559
+],
+"/images/gifts/under-25.jpg": [
+1024,
+559
+],
+"/images/gifts/white-elephant.jpg": [
+1024,
+559
+],
+"/images/gifts/wine-advent-calendars.jpg": [
+1024,
+559
 ],
 "/images/gluten-free-board-kit.jpg": [
 791,
@@ -11004,9 +11036,73 @@
 240,
 131
 ],
+"/images/thumbs/gifts__cheese-lovers-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__cheese-lovers-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/gifts__gift-card-preview-webp-s.webp": [
 240,
 155
+],
+"/images/thumbs/gifts__hostess-gifts-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__hostess-gifts-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__personalized-boards-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__personalized-boards-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__secret-santa-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__secret-santa-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__stocking-stuffers-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__stocking-stuffers-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__under-25-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__under-25-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__white-elephant-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__white-elephant-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/gifts__wine-advent-calendars-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/gifts__wine-advent-calendars-jpg-s.webp": [
+240,
+131
 ],
 "/images/thumbs/gluten-free-board-kit-jpg-m.webp": [
 640,
@@ -20365,8 +20461,40 @@
 "m": "/images/thumbs/gifts-for-him-jpg-m.webp",
 "s": "/images/thumbs/gifts-for-him-jpg-s.webp"
 },
+"/images/gifts/cheese-lovers.jpg": {
+"m": "/images/thumbs/gifts__cheese-lovers-jpg-m.webp",
+"s": "/images/thumbs/gifts__cheese-lovers-jpg-s.webp"
+},
 "/images/gifts/gift-card-preview.webp": {
 "s": "/images/thumbs/gifts__gift-card-preview-webp-s.webp"
+},
+"/images/gifts/hostess-gifts.jpg": {
+"m": "/images/thumbs/gifts__hostess-gifts-jpg-m.webp",
+"s": "/images/thumbs/gifts__hostess-gifts-jpg-s.webp"
+},
+"/images/gifts/personalized-boards.jpg": {
+"m": "/images/thumbs/gifts__personalized-boards-jpg-m.webp",
+"s": "/images/thumbs/gifts__personalized-boards-jpg-s.webp"
+},
+"/images/gifts/secret-santa.jpg": {
+"m": "/images/thumbs/gifts__secret-santa-jpg-m.webp",
+"s": "/images/thumbs/gifts__secret-santa-jpg-s.webp"
+},
+"/images/gifts/stocking-stuffers.jpg": {
+"m": "/images/thumbs/gifts__stocking-stuffers-jpg-m.webp",
+"s": "/images/thumbs/gifts__stocking-stuffers-jpg-s.webp"
+},
+"/images/gifts/under-25.jpg": {
+"m": "/images/thumbs/gifts__under-25-jpg-m.webp",
+"s": "/images/thumbs/gifts__under-25-jpg-s.webp"
+},
+"/images/gifts/white-elephant.jpg": {
+"m": "/images/thumbs/gifts__white-elephant-jpg-m.webp",
+"s": "/images/thumbs/gifts__white-elephant-jpg-s.webp"
+},
+"/images/gifts/wine-advent-calendars.jpg": {
+"m": "/images/thumbs/gifts__wine-advent-calendars-jpg-m.webp",
+"s": "/images/thumbs/gifts__wine-advent-calendars-jpg-s.webp"
 },
 "/images/gluten-free-board-kit.jpg": {
 "m": "/images/thumbs/gluten-free-board-kit-jpg-m.webp",
