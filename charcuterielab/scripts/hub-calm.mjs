@@ -16,6 +16,7 @@
 //   /ebook/ once there are any.
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { readLists, foldLongPost, deepDive } from "./read-lists.mjs";
+import { upNewsletter, upThanks } from "./newsletter-up.mjs";
 import { join } from "node:path";
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -130,6 +131,9 @@ export async function calmHubs(dist) {
       { const r = readLists(html, path); if (r.n) { html = r.html; n.lists = (n.lists || 0) + r.n; } }
       { const r = foldLongPost(html, path); if (r.n) { html = addOpenJs(r.html); n.folds = (n.folds || 0) + r.n; } }
       { const r = deepDive(html, path, dist); if (r.n) { html = addOpenJs(r.html); n.deep = (n.deep || 0) + 1; } }
+      // ---- Newsletter page and its thank-you page (9 Nov 2026)
+      if (path === "/newsletter/") { const r = upNewsletter(html); html = r.html; n.nl = r.n; }
+      if (path === "/thanks/cheat-sheet/") { const r = upThanks(html); html = r.html; n.thanks = r.n; }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
         let k = 0;
@@ -176,6 +180,6 @@ export async function calmHubs(dist) {
       return html === before ? before : html;
     });
   }
-  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`);
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`, `newsletter:${n.nl || 0}`, `thanks slot:${n.thanks || 0}`);
   return done;
 }
