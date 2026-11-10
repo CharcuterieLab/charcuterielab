@@ -4,6 +4,7 @@
 import { access, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { plan as partyPlan, COUNTS as PARTY_COUNTS_B, urlFor as partyUrlB } from "./party.mjs";
+import { qsForm, QS_JS, CHEAT } from "./quick-subscribe.mjs";
 
 export const BOARD_CATEGORIES = [
   { slug: "seasonal-holiday", name: "Seasonal & Holiday", intro: "Boards for the dates on the calendar: Thanksgiving, the holidays, New Year's Eve and every season in between." },
@@ -140,7 +141,7 @@ export function builderLink(board, known) {
 // book), and carries the data the hub sorts and filters on.
 const LEVEL_RANK = (d = "") => (/master|5 of 5/i.test(d) ? 5 : /advanced|4 of 5/i.test(d) ? 4 : /intermediate|3 of 5/i.test(d) ? 3 : /mid|2 of 5/i.test(d) ? 2 : 1);
 const MIN_COST = (c = "") => Number((String(c).match(/\d+/) || [0])[0]);
-export function card(b, h) {
+export function card(b, h, { plain = false } = {}) {
   const cat = catOf(b);
   const badges = [b.book === "plant" ? "Plant-based" : "", b.difficulty || ""].filter(Boolean);
   const single = h.bookSingles || h.bookBoards ? singleOf(h, b) : null;
@@ -151,7 +152,7 @@ export function card(b, h) {
         <span class="bl-card-cat">${h.escapeHtml(cat.name)}</span>
         <strong>${h.escapeHtml(b.h1 || b.title)}</strong>
         <span class="bl-card-facts">Serves ${h.escapeHtml(b.serves)} · ${h.escapeHtml(b.cost)}</span>
-        <span class="bl-badges">${single ? `<span class="bl-pill">Full plan · ${h.escapeHtml(single.price)}</span>` : `<span class="bl-pill is-book">Plan in the book</span>`}${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
+        <span class="bl-badges">${plain ? "" : single ? `<span class="bl-pill">Full plan · ${h.escapeHtml(single.price)}</span>` : `<span class="bl-pill is-book">Plan in the book</span>`}${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
       </span>
     </a>
   </li>`;
@@ -617,7 +618,8 @@ function planBox(h, b, single) {
           <ul class="bl-plan-list">
             ${planPoints(b, steps).map((x) => `<li>${h.escapeHtml(x)}</li>`).join("\n            ")}
           </ul>
-          <p class="bl-cta-row bl-cta-quiet"><span>${h.escapeHtml(single.price)} · instant download · 30-day refund</span> ${(b.groups || []).some((g) => g.items && g.items.length) ? `<a href="#bl-on">See everything on the board &darr;</a>` : ""}</p>
+          <p class="bl-cta-row"><a class="button primary" href="${h.escapeHtml(h.withTracking ? h.withTracking(single.url, `board_plan_${b.slug}`) : single.url)}" target="_blank" rel="noopener">Get the full plan · ${h.escapeHtml(single.price)}</a>
+          <span>Instant PDF · 30-day refund. ${(b.groups || []).some((g) => g.items && g.items.length) ? `<a href="#bl-on">See everything on the board &darr;</a>` : ""}</span></p>
         </div>
       </div>
     </section>`;
@@ -656,8 +658,8 @@ function onBoard(h, b, known, single) {
   const n = groups.reduce((a, g) => a + g.items.length, 0);
   const item = (i) => {
     const name = known.has(i.slug) ? `<a href="/ingredients/${i.slug}/">${h.escapeHtml(i.name)}</a>` : h.escapeHtml(i.name);
-    const bf = h.bestFor && known.has(i.slug) ? h.bestFor(i.slug) : null;
-    const best = bf && pickFits(i.name, bf.pick) ? bf : null;
+    // 9 Nov 2026: no "Our pick" shopping links here. A board page sells one thing, its plan.
+    const best = null;
     return `<li>${name}${best ? ` <a class="bl-on-pick" href="/blog/${best.slug}/">Our pick: ${h.escapeHtml(best.pick)}</a>` : ""}</li>`;
   };
   const href = single ? (h.withTracking ? h.withTracking(single.url, `board_list_${b.slug}`) : single.url) : "";
@@ -670,6 +672,37 @@ function onBoard(h, b, known, single) {
       ${boardAmounts(h, b)}
       <p class="bl-on-cta">${single ? `<a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the shopping list with amounts · ${h.escapeHtml(single.price)}</a>` : `<a class="button primary" href="#bl-book-title">Get the full plan</a>`}</p>
     </section>`;
+}
+
+// Board pages sell one thing (9 Nov 2026): the board's own $3 plan, or the
+// book where there is no plan yet. No Amazon buttons, no other products.
+const noAmazon = (html) => html.replace(/<a\b[^>]*href="https?:\/\/(?:www\.)?amazon\.[^"]*"[^>]*>[\s\S]*?<\/a>\s*/g, "");
+
+// Phones: a bar for the plan once the reader is past the hero (9 Nov 2026).
+function planSticky(h, b, single) {
+  const href = h.withTracking ? h.withTracking(single.url, `board_sticky_${b.slug}`) : single.url;
+  return `<div class="fx-sticky bl-sticky" data-bl-sticky hidden>
+    <a href="${h.escapeHtml(href)}" target="_blank" rel="noopener"><strong>Build this exact board</strong><span>Full plan · ${h.escapeHtml(single.price)}</span></a>
+    <button type="button" aria-label="Close" data-fx-close>&times;</button>
+  </div>
+  <script>(function(){var b=document.querySelector("[data-bl-sticky]");if(!b)return;var k="bl-sticky-closed";try{if(sessionStorage.getItem(k))return}catch(e){}var mq=window.matchMedia("(max-width: 760px)");var hero=document.querySelector(".bl-hero .bl-cta-row");function on(){var past=hero?hero.getBoundingClientRect().bottom<0:window.scrollY>600;var more=document.getElementById("bl-signup-title")||document.getElementById("bl-more");var end=more?more.getBoundingClientRect().top<window.innerHeight:false;b.hidden=!(mq.matches&&past&&!end)}window.addEventListener("scroll",on,{passive:true});b.querySelector("[data-fx-close]").addEventListener("click",function(){b.remove();window.removeEventListener("scroll",on);try{sessionStorage.setItem(k,"1")}catch(e){}})})();</script>`;
+}
+
+// For readers who aren't hosting yet (9 Nov 2026): the free Cheat Sheet for an
+// email, on the page, near the end. The plan stays the only thing for sale.
+function boardSignup(h, b) {
+  return `<section class="bl-section bl-signup" aria-labelledby="bl-signup-title">
+      <img class="fx-hi-img" src="${h.escapeHtml((h.thumb || ((x) => x))("/images/charcuterie-cheat-sheet.webp", "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
+      <div class="bl-signup-copy">
+        <p class="eyebrow">Not hosting yet?</p>
+        <h2 id="bl-signup-title">Get the free Charcuterie Cheat Sheet</h2>
+        <p>How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, so this board is in your inbox when the party gets close.</p>
+      </div>
+      <div class="bl-signup-form">
+        ${qsForm({ id: "qs-board", fb: CHEAT, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+      </div>
+    </section>
+${QS_JS}`;
 }
 
 export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
@@ -685,13 +718,13 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const visible = { ...b, timeline: steps };
   const hub = h.categoryPages && h.categoryPages[cat.slug];
   // Scannable format (Oct 20 2026): jump links, compact ingredient rows, bold lead-ins.
-  const offer = bookOffer(h, b);
+  const offer = noAmazon(bookOffer(h, b));
   const planId = single ? "bl-plan-title" : offer.includes('id="bl-book-title"') ? "bl-book-title" : "";
   // Sales layout (26 Oct 2026): the $3 plan (or, with no $3 plan yet, the book)
   // sits right under the hero; the item list, the printable card and the
   // newsletter are gone; the book the board is in closes the page.
   const onList = onBoard(h, b, known, single);
-  const jump = [...(planId ? [["The plan", planId]] : []), ...(onList ? [["What's on it", "bl-on"]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"], ...(single && offer ? [["The book", "bl-book-title"]] : [])];
+  const jump = [...(planId ? [["The plan", planId]] : []), ...(onList ? [["What's on it", "bl-on"]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"]];
   const lead = (t) => { const m = String(t).match(/^(.*?[.!?])(\s+[\s\S]*)?$/); return m ? `<strong>${h.escapeHtml(m[1])}</strong>${h.escapeHtml(m[2] || "")}` : h.escapeHtml(t); };
 
   return h.layout({
@@ -748,19 +781,20 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       </div>
     </section>
 
-    ${single ? offer : ""}
+    ${boardSignup(h, b)}
 
     <section class="bl-section" aria-labelledby="bl-more">
       <h2 id="bl-more">More boards</h2>
       <ul class="bl-grid bl-grid-3">
-${[...related, ...fill].map((x) => card(x, h)).join("\n")}
+${[...related, ...fill].map((x) => card(x, h, { plain: true })).join("\n")}
       </ul>
       ${blogs.length ? `<p class="bl-note">Want more ideas? Read ${blogs.map((s) => `<a href="/blog/${s}/">${h.escapeHtml(blogTitles.get(s))}</a>`).join(" or ")}.</p>` : ""}
       ${hub ? `<p class="bl-note">More ideas: <a href="/boards/${cat.slug}/">${h.escapeHtml(hub.link_text || hub.h1)}</a></p>` : ""}
       <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
     </section>
   </div>
-${bookBoardOf(h, b) && h.stickyBar ? h.stickyBar(`sticky_board_${b.slug}`, bookBoardOf(h, b)) : ""}
+${single ? planSticky(h, b, single) : ""}
+<script src="https://gumroad.com/js/gumroad.js" async></script>
 </main>`
   });
 }
