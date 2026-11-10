@@ -12,3 +12,6 @@
 .gift-strip-links a:hover { background: rgba(169, 87, 43, 0.08); }
 .gift-strip-links a:first-child:hover { background: var(--green); }
 .gf-ship strong { font-weight: 800; }
+
+/* 9 Nov 2026: hub shows 8 guides first */
+.gf-guide[hidden] { display: none; }

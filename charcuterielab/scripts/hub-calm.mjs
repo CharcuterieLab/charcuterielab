@@ -54,11 +54,27 @@ async function* pages(dir, rel = "") {
 // "Shopping for a gift?" strip into the gift guide, before its FAQ, so the
 // ranked posts and the /gifts/ guides tie together both ways.
 const GIFT_POSTS = new Set(["cheese-advent-calendars-2026", "cheese-advent-calendar-australia-canada", "best-charcuterie-gift-boxes", "best-charcuterie-gift-baskets-amazon", "charcuterie-gift-basket", "best-cheese-of-the-month-clubs", "best-cheese-knife-sets", "best-charcuterie-boards", "best-charcuterie-board-accessories", "amazon-charcuterie-board-sets-reviewed", "best-panettone", "best-hot-cocoa-mix", "best-store-bought-christmas-cookies"]);
+// 9 Nov 2026: the newest gift guide that fits each post leads the strip's links.
+const GIFT_LEAD = {
+  "cheese-advent-calendars-2026": ["Wine advent calendars", "/gifts/wine-advent-calendars/"],
+  "best-charcuterie-boards": ["Personalized boards", "/gifts/personalized-boards/"],
+  "amazon-charcuterie-board-sets-reviewed": ["Personalized boards", "/gifts/personalized-boards/"],
+  "best-cheese-knife-sets": ["Secret Santa", "/gifts/secret-santa/"],
+  "best-charcuterie-board-accessories": ["Secret Santa", "/gifts/secret-santa/"],
+  "charcuterie-gift-basket": ["Secret Santa", "/gifts/secret-santa/"],
+  "best-hot-cocoa-mix": ["Secret Santa", "/gifts/secret-santa/"],
+  "best-store-bought-christmas-cookies": ["Secret Santa", "/gifts/secret-santa/"],
+  "best-cheese-of-the-month-clubs": ["Has everything", "/gifts/has-everything/"],
+  "best-charcuterie-gift-boxes": ["Ships well", "/gifts/ship-well/"],
+  "best-charcuterie-gift-baskets-amazon": ["Ships well", "/gifts/ship-well/"],
+  "best-panettone": ["Secret Santa", "/gifts/secret-santa/"]
+};
 function giftStrip(slug) {
   const us = slug !== "cheese-advent-calendar-australia-canada";
+  const lead = GIFT_LEAD[slug];
   return `<aside class="gift-strip" data-gift-strip aria-label="Charcuterie gift guide">
       <p class="gift-strip-h"><strong>Shopping for a gift?</strong>${us ? ` <span data-gs-when>Order perishable gift boxes by Dec 11 and anything sent USPS Priority Mail by Dec 18.</span>` : " Our gift guides cover every budget, and the ebooks and printables arrive instantly anywhere."}</p>
-      <p class="gift-strip-links"><a href="/gifts/#finder">Gift finder</a><a href="/gifts/under-25/">Under $25</a><a href="/gifts/cheese-lovers/">Cheese lovers</a><a href="/gifts/last-minute/">Last-minute</a><a href="/gifts/">All gift guides</a></p>
+      <p class="gift-strip-links">${lead ? `<a href="${lead[1]}"><strong>${lead[0]}</strong></a>` : ""}<a href="/gifts/#finder">Gift finder</a><a href="/gifts/under-25/">Under $25</a><a href="/gifts/cheese-lovers/">Cheese lovers</a><a href="/gifts/last-minute/">Last-minute</a><a href="/gifts/">All gift guides</a></p>
       <script>(function(){try{var a=document.currentScript.parentNode,t=new Date();if(t.getMonth()===11&&t.getDate()>=26||t.getMonth()===0){a.hidden=true;return}var w=a.querySelector("[data-gs-when]");if(!w)return;var d=t.getMonth()===11?t.getDate():0;if(d>19)w.innerHTML='Too late to ship? Give an ebook or printable with our <a href="/gifts/#gift-card">free gift card</a>.';else if(d>11)w.textContent="USPS Priority Mail ships for Christmas until Dec 18, Priority Mail Express until Dec 19."}catch(e){}})();</script>
     </aside>
     `;
@@ -120,6 +136,11 @@ export async function calmHubs(dist) {
         if (k > 3) html = html.replace(/<\/main>/, `<script>(function(){var b=document.querySelector("[data-show-more]");if(!b)return;function all(){document.querySelectorAll(".hol-idea[data-more]").forEach(function(a){a.hidden=false});b.parentNode.hidden=true}b.addEventListener("click",all);var h=location.hash.slice(1),e=h&&document.getElementById(h);if(e&&e.closest&&e.closest(".hol-idea[data-more]"))all()})();</script>\n</main>`);
         html = addOpenJs(html);
         n.holidays++;
+      }
+      // ---- Hanukkah board page: its gift card goes to the Hanukkah gift guide (9 Nov 2026)
+      if (path === "/holidays/hanukkah/") {
+        html = html.replace('<a href="/gifts/"><span class="bn-k">Gift guide</span><strong>Charcuterie gifts</strong><span>Books, sets and gifts under $25</span></a>', '<a href="/gifts/hanukkah/"><span class="bn-k">Gift guide</span><strong>Hanukkah gifts for a cheese lover</strong><span>10 ideas for eight nights, kosher kitchens included</span></a>');
+        n.hanukkahGift = html.includes('href="/gifts/hanukkah/"') ? 1 : 0;
       }
       // ---- Gift posts: a way into the gift guide
       const gp = /^\/blog\/([^/]+)\/$/.exec(path);

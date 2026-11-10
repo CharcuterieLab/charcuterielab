@@ -250,7 +250,7 @@ const GUIDES = [
       ["Is a cheese-of-the-month club a good gift?", "Yes, for a serious cheese lover. It arrives every month and introduces cheeses they wouldn't pick themselves. Check how many months the gift covers and whether it ships to their state."],
       ["What book should I buy a cheese lover?", "The Ingredient Guide for the reference side (what each cheese tastes like and pairs with), or That Cheese Plate Will Change Your Life for styling. 50 Boards, Built by Science if they host."]
     ],
-    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Best charcuterie books", "/gifts/charcuterie-books/"], ["How to store cheese", "/blog/cheese-storage/"], ["Cheese ingredient library", "/ingredients/"]]
+    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Best charcuterie books", "/gifts/charcuterie-books/"], ["How to store cheese", "/blog/cheese-storage/"], ["Cheese ingredient library", "/ingredients/"], ["Hanukkah gifts for a cheese lover", "/gifts/hanukkah/"]]
   },
   {
     slug: "stocking-stuffers",
@@ -286,7 +286,7 @@ const GUIDES = [
       ["What small book makes a good stocking stuffer?", "Little Book of Charcuterie and Cheese by Lynda Balslev is pocket-sized. Around the World in 16 Boards ($16.99) is larger but fits a big stocking."],
       ["Are printables good stocking stuffers?", "As a last-minute add-on, yes. Print one, roll it with a ribbon and tuck it in next to a jar of jam."]
     ],
-    related: [["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"], ["Best charcuterie books", "/gifts/charcuterie-books/"]]
+    related: [["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"], ["Best charcuterie books", "/gifts/charcuterie-books/"], ["Secret Santa gifts by budget", "/gifts/secret-santa/"]]
   },
   {
     slug: "white-elephant",
@@ -320,7 +320,7 @@ const GUIDES = [
       ["What white elephant gifts get stolen most?", "Useful, good-looking things everyone wants: a board with knives, a book with a knife set or a well-packed food kit. Gag gifts get laughs but rarely get stolen."],
       ["How do I wrap a charcuterie kit?", "Use a small wooden crate or a box lined with crinkle paper, stand the jars upright and put the salami on top. A board book underneath doubles as the base."]
     ],
-    related: [["Stocking stuffers", "/gifts/stocking-stuffers/"], ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
+    related: [["Stocking stuffers", "/gifts/stocking-stuffers/"], ["DIY charcuterie gift basket", "/blog/charcuterie-gift-basket/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["Secret Santa gifts by budget", "/gifts/secret-santa/"]]
   },
   {
     slug: "wine-and-cheese-lovers",
@@ -355,7 +355,7 @@ const GUIDES = [
       ["What should I put in a wine and cheese gift basket?", "Two or three cheeses of different textures, crackers, fig spread, Marcona almonds, dark chocolate and a bottle. Add the cheese last, right before you hand it over, and tell them to refrigerate it."],
       ["What is a good wine and cheese book?", "50 Boards, Built by Science has a full wine and cheese pairing board and pairing logic on every board. For styling, That Cheese Plate Will Change Your Life is popular."]
     ],
-    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Cheese and wine advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Wine pairings for charcuterie", "/pairings/"], ["Hostess gifts", "/gifts/hostess-gifts/"]]
+    related: [["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Cheese and wine advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Wine pairings for charcuterie", "/pairings/"], ["Hostess gifts", "/gifts/hostess-gifts/"], ["Wine advent calendars 2026", "/gifts/wine-advent-calendars/"]]
   },
   {
     slug: "keto-gifts",
@@ -457,7 +457,7 @@ const GUIDES = [
       ["How much should I spend on a housewarming gift?", "Most people spend $25 to $60. A board book alone is $25.99; with a serving board it's about $50."],
       ["Is food a good housewarming gift?", "Shelf-stable food is: honeycomb, jars, nuts and a whole dry salami keep for weeks. Avoid fresh cheese, since a new fridge may be empty or not yet set up."]
     ],
-    related: [["Hostess gifts", "/gifts/hostess-gifts/"], ["Which serving board to buy", "/blog/best-charcuterie-boards/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
+    related: [["Hostess gifts", "/gifts/hostess-gifts/"], ["Which serving board to buy", "/blog/best-charcuterie-boards/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Personalized and engraved boards", "/gifts/personalized-boards/"]]
   },
   {
     slug: "for-him",
@@ -572,7 +572,7 @@ const GUIDES = [
       ["What is the best ready-made charcuterie board to send?", "Boarderie's boards arrive already arranged on a wooden board with free overnight shipping, so nothing needs slicing or plating. Harry & David's box is the better pick if you want more food for the money."],
       ["Can I engrave a charcuterie board as a gift?", "Yes. Mark & Graham engraves its acacia and marble board with initials or a name. Order early in December, since personalized items take longer to ship."]
     ],
-    related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Best cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
+    related: [["Best charcuterie gift boxes, ranked", "/blog/best-charcuterie-gift-boxes/"], ["Best cheese-of-the-month clubs", "/blog/best-cheese-of-the-month-clubs/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Personalized and engraved boards", "/gifts/personalized-boards/"]]
   },
   // ---- Added 9 Nov 2026: five gap guides (for her, ships well, under $50,
   // teacher and coworker, has everything). Same items and books as the
@@ -610,7 +610,7 @@ const GUIDES = [
       ["What is a romantic charcuterie gift?", "Boards for Two with a bottle of wine and a boxed honeycomb. Every board in the book is sized for two and comes with a drink to pour."],
       ["What charcuterie gift can I give her today?", "Our Cheese Lover's Pack is an instant download. Print our free gift card, write the gift inside and give it in person."]
     ],
-    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Charcuterie gifts for him", "/gifts/for-him/"], ["Date night board for two", "/boards/date-night-board-for-two/"]]
+    related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"], ["Charcuterie gifts for him", "/gifts/for-him/"], ["Date night board for two", "/boards/date-night-board-for-two/"], ["Wine advent calendars 2026", "/gifts/wine-advent-calendars/"]]
   },
   {
     slug: "ship-well",
@@ -722,7 +722,7 @@ const GUIDES = [
       ["Can I give a printable as a coworker gift?", "Yes. Print it, fold it into a card, or forward the download. Our Pairing Card Deck and field guides cost $5."],
       ["Are food gifts OK for teachers?", "Usually, but check for allergies and school rules first. Nut-free picks here are hot honey, fig spread, mustard, the cheese plane and the printables."]
     ],
-    related: [["Charcuterie stocking stuffers", "/gifts/stocking-stuffers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"]]
+    related: [["Charcuterie stocking stuffers", "/gifts/stocking-stuffers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"], ["White elephant gifts", "/gifts/white-elephant/"], ["Secret Santa gifts by budget", "/gifts/secret-santa/"]]
   },
   {
     slug: "has-everything",
@@ -949,6 +949,17 @@ const GUIDES = [
     related: [["DIY charcuterie gift basket ($25, $50, $100)", "/blog/charcuterie-gift-basket/"], ["Stocking stuffers", "/gifts/stocking-stuffers/"], ["Charcuterie gifts under $25", "/gifts/under-25/"]]
   }
 ];
+
+// 9 Nov 2026: other brands lead every guide, the same mix as the gift finder:
+// two non-book picks, then one of our books, repeated. The books guide and
+// last-minute (whose first pick is the instant ebook) keep their order.
+// Done once here so the #pick-N anchors, the finder and the compare table agree.
+for (const g of GUIDES) {
+  if (g.slug === "charcuterie-books" || g.slug === "last-minute") continue;
+  const nb = g.picks.filter((p) => !p.book), bk = g.picks.filter((p) => p.book), mix = [];
+  while (nb.length || bk.length) { if (nb.length) mix.push(nb.shift()); if (nb.length) mix.push(nb.shift()); if (bk.length) mix.push(bk.shift()); }
+  g.picks = mix;
+}
 
 // Ready-made gift sets, each anchored by a paperback.
 const SETS = {
@@ -1400,7 +1411,11 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
   {
     const path = "/gifts/";
     const main = B.main;
-    const personCards = GUIDES.map((g) => [g.card, `/gifts/${g.slug}/`, g.cardLine, g.image]);
+    // 9 Nov 2026: the eight most-shopped guides first, the rest behind "Show all".
+    const FIRST = ["cheese-lovers", "under-25", "hostess-gifts", "stocking-stuffers", "secret-santa", "white-elephant", "for-her", "for-him"];
+    const rank = (g) => { const i = FIRST.indexOf(g.slug); return i < 0 ? 99 : i; };
+    const personCards = [...GUIDES].sort((a, b) => rank(a) - rank(b)).map((g) => [g.card, `/gifts/${g.slug}/`, g.cardLine, g.image]);
+    const GSHOW = 8;
     // 9 Nov 2026: the ranked gift posts (where most gift searches land) sit
     // beside the guides by person, so both halves of the gift content meet here.
     const giftCards = [
@@ -1476,22 +1491,23 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
     <section class="gf-guides gf-guides-top" aria-labelledby="gf-guides-h">
       <h2 id="gf-guides-h">Every gift guide</h2>
       <h3 class="gf-guides-sub">By person and occasion</h3>
-      <div class="gf-guide-grid">${personCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
+      <div class="gf-guide-grid">${personCards.map(([t, u, line, img], i) => `<a class="gf-guide" href="${u}"${i >= GSHOW ? " data-gmore hidden" : ""}><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
+      ${personCards.length > GSHOW ? `<p class="gf-cmp-all"><button type="button" class="button" data-gall>Show all ${personCards.length} guides</button></p><script>(function(){var b=document.querySelector("[data-gall]");if(b)b.addEventListener("click",function(){b.parentNode.hidden=true;document.querySelectorAll("[data-gmore]").forEach(function(a){a.hidden=false})})})();</script>` : ""}
       <h3 class="gf-guides-sub">Ranked gifts and how-tos</h3>
       <div class="gf-guide-grid">${giftCards.map(([t, u, line, img]) => `<a class="gf-guide" href="${u}"><img src="${esc(h.thumb(img, "m"))}" alt="" width="400" height="268" loading="lazy" decoding="async"><strong>${esc(t)}</strong><span>${esc(line)}</span></a>`).join("\n      ")}</div>
     </section>
 
     ${matcher("gift_hub", true)}
 
-    <section class="gf-sets" id="sets" aria-labelledby="gf-sets-h">
+    ${fold("sets", "Ready-made gift sets, about $35 to $90", "Three sets, each a book with the board, knives or jars to go with it.", `<section class="gf-sets" id="sets" aria-labelledby="gf-sets-h">
       <p class="section-kicker">Ready-made gift sets</p>
       <h2 id="gf-sets-h">Build the gift: three sets, each with a book at the centre</h2>
       <p>A board and knives are a nice gift. A board, knives and a book that tells them exactly what to put on it is a better one.</p>
       <div class="gf-set-grid">${["starter", "host", "cheese"].map((k) => setCard(k, "gift_hub_set")).join("\n      ")}</div>
       <p class="gf-fine">Book prices are our list prices. Other items are typical ranges, checked ${PRICES_CHECKED}; check the price at checkout.</p>
-    </section>
+    </section>`)}
 
-    ${compareSection()}
+    ${fold("compare", "Compare every gift by price", "Every gift from our guides in one table, cheapest first, with a budget filter.", compareSection())}
 
     ${fold("order-by", "When to order charcuterie gifts for Christmas 2026", "Perishable boxes by Dec 11, USPS Priority Mail by Dec 18, instant gifts after that.", calendarSection("order-by-cal"))}
 
