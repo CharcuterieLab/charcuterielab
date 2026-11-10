@@ -12,3 +12,6 @@
   .nl-hero-img { display: none; }
 }
 @media (max-width: 420px) { .nl-more { gap: 10px 8px; } .nl-more img { max-width: 72px; } .nl-more span { display: none; } }
+
+/* 9 Nov 2026: About page, recently updated list */
+.about-updated span { color: var(--muted); font-size: 0.9em; margin-left: 6px; }
