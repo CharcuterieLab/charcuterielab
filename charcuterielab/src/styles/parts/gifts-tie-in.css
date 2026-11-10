@@ -15,3 +15,18 @@
 
 /* 9 Nov 2026: hub shows 8 guides first */
 .gf-guide[hidden] { display: none; }
+
+/* 9 Nov 2026: quick answer as a short labelled list */
+.gf-quick-list { padding: 16px 20px; }
+.gf-quick-list .gf-qh { margin: 0 0 8px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
+.gf-quick-list ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.gf-quick-list li { display: grid; grid-template-columns: 9.5em 1fr; gap: 4px 14px; padding: 9px 0; border-top: 1px solid rgba(169, 87, 43, 0.12); line-height: 1.5; }
+.gf-quick-list li:first-child { border-top: 0; padding-top: 2px; }
+.gf-quick-list li.gf-q-plain { display: block; color: var(--muted); font-size: 0.95em; }
+.gf-quick-list .gf-qk { font-weight: 700; color: var(--ink); }
+.gf-quick-list .gf-qv { min-width: 0; }
+.gf-quick-list .gf-qv strong, .gf-quick-list li.gf-q-plain strong { font-weight: 600; }
+@media (max-width: 560px) {
+  .gf-quick-list li { grid-template-columns: 1fr; gap: 2px; }
+  .gf-quick-list .gf-qk { font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--green); }
+}
