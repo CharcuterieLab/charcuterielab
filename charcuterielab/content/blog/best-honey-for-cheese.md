@@ -85,7 +85,7 @@ Honey on a cheese board works best when you match it to the cheese: light, flora
 <ul class="sk-checks"><li><strong>Look for:</strong> &#x27;pure honey&#x27; tells you little. Look for a single floral source and a named producer, and prefer raw.</li><li class="sk-x"><strong>Skip:</strong> Squeeze-bear honey on a nice board. It works, it just undoes the effort. Decant it into a small bowl.</li></ul>
 :::
 
-**More:** [Honey: pairings and serving tips](/ingredients/honey/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Honey: pairings and serving tips](/ingredients/honey/) · [The best truffle honey](/blog/best-truffle-honey/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Honey questions</h2>

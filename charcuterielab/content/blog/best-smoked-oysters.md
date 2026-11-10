@@ -80,7 +80,7 @@ Smoked oysters on saltines are the retro holiday appetizer that never left, and 
 :::html
 <h2 id="how-to-choose">How to serve smoked oysters on a board</h2>
 <ul class="sk-checks"><li><strong>Drain them</strong> and blot lightly on a paper towel, or serve them in a small dish with a little of their oil.</li><li><strong>Put out toothpicks</strong> and something plain and crisp: saltines, water crackers or thin crostini.</li><li><strong>The classic party bite:</strong> a cracker, a smear of cream cheese, one smoked oyster and a drop of hot sauce or lemon.</li><li><strong>Pair them with</strong> sharp cheddar, pickled onions, cornichons, buttered rye and a glass of dry sparkling wine or a crisp lager.</li><li><strong>How much:</strong> a 3 oz tin is enough for 4 to 6 people to try a couple each.</li></ul>
-<p class="sk-note">Building a tinned fish board? See <a href="/blog/best-smoked-salmon/">the best smoked salmon</a>, <a href="/blog/best-caviar/">the best caviar for a board</a>, <a href="/blog/best-cocktail-sauce/">the best cocktail sauce</a>, <a href="/blog/best-crab-dip/">the best crab dip</a> and <a href="/blog/best-champagne-under-30/">the best Champagne under $30</a>.</p>
+<p class="sk-note">Building a tinned fish board? Start with <a href="/blog/best-tinned-fish/">the best tinned fish</a>, then see <a href="/blog/best-smoked-salmon/">the best smoked salmon</a>, <a href="/blog/best-caviar/">the best caviar for a board</a>, <a href="/blog/best-cocktail-sauce/">the best cocktail sauce</a>, <a href="/blog/best-crab-dip/">the best crab dip</a> and <a href="/blog/best-champagne-under-30/">the best Champagne under $30</a>.</p>
 :::
 
 ## Smoked oyster questions

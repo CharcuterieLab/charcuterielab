@@ -3,15 +3,15 @@ title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
 seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
 date: "2026-09-29"
 image: "/images/charcuterie-board-crackers.png"
-excerpt: "All 139 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
-description: "All 139 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+excerpt: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+description: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---
 
 # The Best Charcuterie Brands: Our Ranked Buying Guides
 
-> **Quick Answer:** We rank the best brands for **121 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
+> **Quick Answer:** We rank the best brands for **127 board ingredients and gifts**, plus top picks at 14 stores. A few winners: **Kerrygold Reserve** cheddar, **Fromager d'Affinois** brie, **Olli** salami and **Dalmatia** fig spread.
 
 Each guide gives you a top pick, a budget pick and a splurge.
 
@@ -73,6 +73,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Smoked Salmon for a Charcuterie Board](/blog/best-smoked-salmon/) | Kirkland Signature Smoked Salmon | 4.7/5 |
 | [Best Caviar, From $20 Roe to a Splurge](/blog/best-caviar/) | Whole Foods Whitefish Caviar (budget) | Buyer's guide (unscored) |
 | [Best Canned Smoked Oysters for a Charcuterie Board](/blog/best-smoked-oysters/) | Geisha Fancy Smoked Oysters | Buyer's guide (unscored) |
+| [Best Tinned Fish for a Conservas Board](/blog/best-tinned-fish/) | Conservas Ortiz Bonito del Norte | Buyer's guide (unscored) |
 | [Best Meat Sticks for a Charcuterie Board](/blog/best-meat-sticks/) | Chomps Original Beef Stick | 4.8/5 |
 | [Best Beef Jerky Brands](/blog/best-beef-jerky/) | Old Trapper Old Fashioned | Buyer's guide (unscored) |
 | [Best Capicola (Coppa) to Buy](/blog/best-capicola-coppa/) | Volpi Sliced Coppa | Buyer's guide (unscored) |
@@ -102,6 +103,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Honey for a Cheese Board](/blog/best-honey-for-cheese/) | Nature Nate's Raw & Unfiltered Honey | 4.6/5 |
 | [Best Mustard for a Charcuterie Board](/blog/best-mustard-for-charcuterie/) | Maille Old Style Whole Grain Mustard | 4.8/5 |
 | [Best Hot Honey for a Charcuterie Board](/blog/best-hot-honey/) | Mike's Hot Honey | 4.5/5 |
+| [Best Truffle Honey (and Truffle Oil) for a Cheese Board](/blog/best-truffle-honey/) | Sabatino Tartufi Truffle Honey | Buyer's guide (unscored) |
 | [Best Pepper Jelly for a Charcuterie Board](/blog/best-pepper-jelly/) | Braswell's Jalapeño Pepper Jelly | 4.8/5 |
 | [Best Balsamic Glaze for a Charcuterie Board](/blog/best-balsamic-glaze/) | Bertolli Balsamic Glaze | 4.7/5 |
 | [Best Store-Bought Hummus for a Charcuterie Board](/blog/best-hummus/) | Cedar's Classic Original Hummus | 4.6/5 |
@@ -145,6 +147,10 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Hot Cocoa Mix for a Hot Cocoa Board](/blog/best-hot-cocoa-mix/) | Land O Lakes Chocolate Supreme | Buyer's guide (unscored) |
 | [Best Store-Bought Peppermint Bark](/blog/best-peppermint-bark/) | The Original Williams Sonoma Peppermint Bark | Buyer's guide (unscored) |
 | [Best Toffee to Buy for a Holiday Board or Gift](/blog/best-toffee/) | Enstrom's Traditional Almond Toffee | Buyer's guide (unscored) |
+| [Best Turrón, Spain's Christmas Almond Nougat](/blog/best-turron/) | 1880 Turrón | Buyer's guide (unscored) |
+| [Best Marrons Glacés (Candied Chestnuts)](/blog/best-marrons-glaces/) | Clément Faugier Marrons Glacés | Buyer's guide (unscored) |
+| [Best Chocolate Gift Boxes for the Holidays](/blog/best-chocolate-gift-boxes/) | Recchiuti Confections Black Box | Buyer's guide (unscored) |
+| [Best Cocktail Cherries for Drinks and a Dessert Board](/blog/best-cocktail-cherries/) | Luxardo Original Maraschino Cherries | Buyer's guide (unscored) |
 | [Best Panettone for a Christmas Board](/blog/best-panettone/) | Olivieri 1882 Classic Panettone | Buyer's guide (unscored) |
 | [Best Fruitcake to Buy for a Christmas Board](/blog/best-fruitcake/) | Collin Street Bakery DeLuxe Fruitcake | Buyer's guide (unscored) |
 | [Best Dried Fruit for a Charcuterie Board](/blog/best-dried-fruit-for-charcuterie/) | Mariani Mediterranean Apricots | Buyer's guide (unscored) |

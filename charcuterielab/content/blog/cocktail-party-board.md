@@ -94,6 +94,7 @@ The cocktail party board rewards the 15 minutes of additional thought it takes o
 - [The Best Cheeses for a Charcuterie Board](https://charcuterielab.com/blog/best-cheese-charcuterie-board/)
 - [Charcuterie Skewers](/blog/charcuterie-skewers/)
 - [Whiskey and Cheese Pairing](/blog/whiskey-and-cheese-pairing/)
+- [The Best Cocktail Cherries](/blog/best-cocktail-cherries/)
 
 ## FAQ
 

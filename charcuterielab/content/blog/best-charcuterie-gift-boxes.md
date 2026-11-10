@@ -132,7 +132,7 @@ Dozens of companies sell these, from $25 to $300. These came out best in editors
 - **How much a box feeds:** plan on about 3 oz of meat and 3 oz of cheese per person when the box is the main snack. A 3 lb box serves about 8.
 - **Rather make one yourself?** Our [DIY charcuterie gift basket guide](/blog/charcuterie-gift-basket/) has three boxes at $25, $50 and $100 with shopping lists, and how to pack and ship it.
 
-For more food gifts, including our cookbooks and boards, see our [charcuterie gift guide](/gifts/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+For more food gifts, including our cookbooks and boards, see our [charcuterie gift guide](/gifts/) and [the best chocolate gift boxes](/blog/best-chocolate-gift-boxes/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 :::html
 <h2 id="faq">Charcuterie gift box questions</h2>

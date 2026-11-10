@@ -96,7 +96,7 @@ A few squares make a board feel finished. Bars between 60% and 75% cacao suit mo
 :::
 
 **Serving it:** break bars into rough 1-inch pieces, or set out wrapped squares, about 1 ounce for every 2 guests. Put the chocolate near aged cheddar, blue cheese, Parmesan or dried fruit, and keep it away from the sun so it doesn't soften.
-**More:** [Dark chocolate: pairings and serving tips](/ingredients/dark-chocolate/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Dark chocolate: pairings and serving tips](/ingredients/dark-chocolate/) · [The best chocolate gift boxes](/blog/best-chocolate-gift-boxes/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Dark chocolate questions</h2>
