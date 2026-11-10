@@ -9,9 +9,9 @@ import { join } from "node:path";
 // Pages that already open with their own signup, or shouldn't ask.
 // Board Builder and the 151 board plan pages (1 Nov 2026, visitor review):
 // a tool and a sales page, so nothing sits between the H1 and the work.
-// /dietary/ (8 Nov 2026): its one email ask is the diet label cards box (hub-calm.mjs).
-// /gifts/ pages (9 Nov 2026): shoppers get one ask, the free gift card, near the end.
-const SKIP = /^\/(newsletter|thanks|search|board-builder|gifts)\/|^\/(dietary|about|shop)\/$/;
+// 10 Nov 2026: /gifts/, /dietary/, /about/ and /shop/ are no longer skipped --
+// taking the bar off them in the 8-9 Nov pushes is what stopped the signups.
+const SKIP = /^\/(newsletter|thanks|search|board-builder)\//;
 
 const CHECK = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
@@ -25,6 +25,10 @@ const NOTE = "Quick subscribe to our free newsletter without leaving this page."
 // (offers.mjs emailHigh) uses the same form, so content pages no longer get
 // this bar as well; hubs keep the bar, offering their own freebie when
 // offers.mjs left one in a <!--qs-fb:...--> note.
+// 10 Nov 2026: the bar is back under the H1 on content pages too. The Nov 8
+// change made the mid-page box a data-qs form, which tripped the old
+// "already has data-qs" guard and silently removed the bar everywhere;
+// signups fell from ~5-6/day to ~0. The guard now only blocks a second BAR.
 export const CHEAT = { title: "The Charcuterie Cheat Sheet", label: "Download the Cheat Sheet (PDF)", pdf: "/downloads/charcuterie-cheat-sheet.pdf" };
 const SAMPLE = "/downloads/charcuterie-lab-free-board-01.pdf";
 const escA = (x) => String(x).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -74,15 +78,14 @@ export async function injectQuickSubscribe(dist) {
         if (path === "/" || SKIP.test(path)) continue;
         const file = join(dir, e.name);
         let html = await readFile(file, "utf8");
-        if (html.includes("data-qs") || html.includes("<!--no-offers-->")) continue;
+        if (/<form[^>]*data-qs-bar/.test(html) || html.includes("<!--no-offers-->")) continue;
         const mainAt = html.indexOf("<main");
         const end = html.indexOf("</h1>", mainAt >= 0 ? mainAt : 0);
         if (end < 0) { noH1.push(path); continue; }
         let fb = CHEAT;
         const m = html.match(/<!--qs-fb:([^>]*?)-->/);
         if (m) { try { fb = JSON.parse(decodeURIComponent(m[1])); } catch {} }
-        const note = fb === CHEAT || !fb.short ? NOTE : `${fb.short}, plus one board idea a week.`;
-        const bar = `<div class="qs-wrap" data-qs-wrap>${qsForm({ fb, bookPrice, bar: true, note })}</div>` + (html.includes("data-qs-js") ? "" : QS_JS);
+        const bar = `<div class="qs-wrap" data-qs-wrap>${qsForm({ fb, bookPrice, bar: true })}</div>` + (html.includes("data-qs-js") ? "" : QS_JS);
         html = html.slice(0, end + 5) + "\n" + bar + html.slice(end + 5);
         await writeFile(file, html);
         pages++;
