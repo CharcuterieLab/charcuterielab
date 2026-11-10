@@ -30,3 +30,10 @@
   .gf-quick-list li { grid-template-columns: 1fr; gap: 2px; }
   .gf-quick-list .gf-qk { font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--green); }
 }
+
+/* 9 Nov 2026: photo at the top of every gift guide */
+.gf-spoke-fig { margin: 14px 0 0; max-width: 860px; }
+.gf-spoke-fig .gf-hero-img { margin: 0 0 6px; aspect-ratio: 16 / 7; }
+.gf-spoke-fig figcaption { font-size: 14px; color: var(--muted); line-height: 1.45; }
+.gf-spoke-fig figcaption a { color: inherit; }
+@media (max-width: 560px) { .gf-spoke-fig .gf-hero-img { aspect-ratio: 16 / 9; } }

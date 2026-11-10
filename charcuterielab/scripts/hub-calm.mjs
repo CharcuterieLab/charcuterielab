@@ -15,7 +15,7 @@
 //   refund"; real reader quotes from src/data/reviews.json show on /shop/ and
 //   /ebook/ once there are any.
 import { readdir, readFile, writeFile } from "node:fs/promises";
-import { readLists } from "./read-lists.mjs";
+import { readLists, foldLongPost, deepDive } from "./read-lists.mjs";
 import { join } from "node:path";
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -128,6 +128,8 @@ export async function calmHubs(dist) {
       const before = html;
       // ---- Labelled paragraphs become short lists; diet key becomes chips (9 Nov 2026)
       { const r = readLists(html, path); if (r.n) { html = r.html; n.lists = (n.lists || 0) + r.n; } }
+      { const r = foldLongPost(html, path); if (r.n) { html = addOpenJs(r.html); n.folds = (n.folds || 0) + r.n; } }
+      { const r = deepDive(html, path, dist); if (r.n) { html = addOpenJs(r.html); n.deep = (n.deep || 0) + 1; } }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
         let k = 0;
@@ -174,6 +176,6 @@ export async function calmHubs(dist) {
       return html === before ? before : html;
     });
   }
-  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`);
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`);
   return done;
 }

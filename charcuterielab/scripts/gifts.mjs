@@ -19,6 +19,17 @@
 
 export { AMAZON_TAG } from "./affiliate.mjs";
 import { AMAZON_TAG } from "./affiliate.mjs";
+import { existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
+// 9 Nov 2026: a photo at the top of every gift guide. A guide-specific photo
+// dropped at public/images/gifts/<slug>.(webp|jpg|png) wins; otherwise the
+// guide's hub-card image is used.
+const GIFT_IMG_DIR = fileURLToPath(new URL("../public/images/gifts/", import.meta.url));
+function guidePhoto(g) {
+  for (const ext of ["webp", "jpg", "png"]) if (existsSync(GIFT_IMG_DIR + `${g.slug}.${ext}`)) return `/images/gifts/${g.slug}.${ext}`;
+  return g.image;
+}
 const PRICES_CHECKED = "October 2026";
 
 export const GIFT_PATHS = ["/gifts/", "/gifts/charcuterie-books/", "/gifts/under-25/", "/gifts/hostess-gifts/", "/gifts/cheese-lovers/", "/gifts/stocking-stuffers/", "/gifts/white-elephant/", "/gifts/wine-and-cheese-lovers/", "/gifts/keto-gifts/", "/gifts/vegan-foodie-gifts/", "/gifts/housewarming/", "/gifts/for-him/", "/gifts/client-gifts/", "/gifts/luxury/", "/gifts/for-her/", "/gifts/ship-well/", "/gifts/under-50/", "/gifts/teacher-coworker/", "/gifts/has-everything/", "/gifts/secret-santa/", "/gifts/hanukkah/", "/gifts/wine-advent-calendars/", "/gifts/personalized-boards/", "/gifts/last-minute/"];
@@ -1391,6 +1402,7 @@ document.querySelectorAll(".gf-fd-opt").forEach(function(b){b.addEventListener("
       <p class="section-kicker">${esc(g.kicker)}</p>
       <h1>${esc(g.h1)}</h1>
       ${g.shipNote ? `<p class="gf-ship"><strong>Order by:</strong> ${esc(g.shipNote)}</p>` : ""}${g.slug === "hanukkah" ? "" : shipStrip}
+      <figure class="gf-spoke-fig"><img class="gf-hero-img" src="${esc(h.thumb ? h.thumb(guidePhoto(g), "m") : guidePhoto(g))}" alt="${esc(g.card)}" width="1024" height="683" fetchpriority="high" decoding="async"><figcaption>${esc(g.cardLine)}</figcaption></figure>
     </div>
   </section>
   <div class="gf-inner gf-body gf-skim">
