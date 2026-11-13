@@ -1,0 +1,6 @@
+/* Hub photos (scripts/hub-photos.mjs) */
+.hub-photo{margin:20px auto 8px;max-width:1100px;width:calc(100% - 32px)}
+.pr-inner .hub-photo,.section-inner .hub-photo{width:100%}
+.hub-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;max-height:min(46vh,420px)}
+@media (max-width:600px){.hub-photo img{aspect-ratio:3/2}}
+@media (min-width:821px){.hub-photo-phone{display:none}}

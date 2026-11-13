@@ -21,6 +21,8 @@ import { upAbout } from "./about-up.mjs";
 import { upShop } from "./shop-up.mjs";
 import { upBest } from "./best-up.mjs";
 import { upIngredient, upIngHub } from "./ing-up.mjs";
+import { twoAsks } from "./asks-up.mjs";
+import { hubPhoto } from "./hub-photos.mjs";
 import { join } from "node:path";
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -141,8 +143,10 @@ export async function calmHubs(dist) {
       if (path === "/about/") { const r = upAbout(html, dist); html = r.html; n.about = r.n; }
       if (path === "/shop/") { const r = upShop(html); html = r.html; n.shop = r.n; }
       if (path.startsWith("/blog/")) { const r = upBest(html, path); if (r.n) { html = r.html; n.best = (n.best || 0) + 1; } }
+      { const r = twoAsks(html, path); if (r.n) { html = r.html; n.asks = (n.asks || 0) + 1; } }
       if (path === "/ingredients/") { const r = upIngHub(html); html = r.html; n.ingHub = r.n; }
       else if (path.startsWith("/ingredients/")) { const r = upIngredient(html, path); if (r.n) { html = r.html; n.ingUp = (n.ingUp || 0) + 1; } }
+      { const r = hubPhoto(html, path, dist); if (r.n) { html = r.html; n.photos = (n.photos || 0) + 1; } }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
         let k = 0;
@@ -192,6 +196,6 @@ export async function calmHubs(dist) {
       return html === before ? before : html;
     });
   }
-  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`, `newsletter:${n.nl || 0}`, `thanks slot:${n.thanks || 0}`, `about:${n.about || 0}`, `shop:${n.shop || 0}`, `best buys:${n.best || 0}`, `ingredient hub:${n.ingHub || 0}`, `ingredient pages:${n.ingUp || 0}`);
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`, `newsletter:${n.nl || 0}`, `thanks slot:${n.thanks || 0}`, `about:${n.about || 0}`, `shop:${n.shop || 0}`, `best buys:${n.best || 0}`, `ingredient hub:${n.ingHub || 0}`, `ingredient pages:${n.ingUp || 0}`, `two asks:${n.asks || 0}`, `hub photos:${n.photos || 0}`);
   return done;
 }
