@@ -18,12 +18,20 @@ import { join } from "node:path";
 const PER_TARGET = 8;
 const PER_PAGE = 2;
 
-// [target URL, phrases to match (first that appears in a paragraph wins)]
+// [target URL, phrases to match (first that appears in a paragraph wins), cap]
+// The cap defaults to PER_TARGET. The Q4 holidays get a bigger one for their
+// season (13 Nov 2026): they are the pages with a deadline, and the site has
+// 62 pages mentioning Christmas, 30 Thanksgiving and 22 New Year's Eve, so 8
+// was leaving most of the relevant copy unlinked. Super Bowl is February, so
+// it stays at the default until the new year.
 const TARGETS = [
   // Holiday pages, before their season
-  ["/holidays/thanksgiving/", ["Thanksgiving charcuterie board", "Thanksgiving board", "Thanksgiving"]],
-  ["/holidays/christmas/", ["Christmas charcuterie board", "Christmas board", "Christmas"]],
-  ["/holidays/new-years-eve/", ["New Year's Eve charcuterie board", "New Year's Eve board", "New Year's Eve"]],
+  ["/holidays/thanksgiving/", ["Thanksgiving charcuterie board", "Thanksgiving board", "Thanksgiving"], 16],
+  ["/holidays/christmas/", ["Christmas charcuterie board", "Christmas board", "Christmas"], 16],
+  ["/holidays/new-years-eve/", ["New Year's Eve charcuterie board", "New Year's Eve board", "New Year's Eve"], 16],
+  // Hanukkah is 4 Dec and ranks 6.1, but it was not a target at all and only
+  // one page on the whole site mentions it. Links alone cannot fix that.
+  ["/holidays/hanukkah/", ["Hanukkah charcuterie board", "Hanukkah board", "Hanukkah"], 12],
   ["/holidays/super-bowl/", ["Super Bowl charcuterie board", "Super Bowl board", "Super Bowl"]],
   // Best Buys guides at positions 10-20
   ["/blog/best-meat-sticks/", ["meat sticks", "beef sticks", "meat stick"]],
@@ -121,7 +129,7 @@ export async function pushLinks(dist) {
   const added = new Map(); // source url -> new links on it
   const report = [], detail = [];
   const rank = new Map(POPULAR.map((u, i) => [u, i]));
-  for (const [target, phrases] of TARGETS) {
+  for (const [target, phrases, cap = PER_TARGET] of TARGETS) {
     const res = phrases.map((p) => new RegExp(`(?<![\\w-])${esc(p)}(?![\\w-])`, "i"));
     const bodyOf = (h) => (h.match(/<main[\s\S]*<\/main>/) || [""])[0];
     const candidates = [];
@@ -136,7 +144,7 @@ export async function pushLinks(dist) {
     candidates.sort((a, b) => (rank.get(a[0]) ?? 1e6) - (rank.get(b[0]) ?? 1e6) || b[1] - a[1] || a[0].localeCompare(b[0]));
     let n = 0;
     for (const [url] of candidates) {
-      if (n >= PER_TARGET) break;
+      if (n >= cap) break;
       if ((added.get(url) || 0) >= PER_PAGE) continue;
       const h = html.get(url);
       const start = h.indexOf("<main"), end = h.lastIndexOf("</main>");

@@ -435,6 +435,19 @@ ${countdownJs()}`
   });
 }
 
+// The next few holidays, for the site-wide footer. It used to hardcode
+// Thanksgiving and Christmas on all 1,035 pages, so the day after Thanksgiving
+// every page linked a dead holiday and Hanukkah (4 Dec) was never in the
+// footer at all (13 Nov 2026).
+export function upcomingHolidayLinks(holidays, count = 2, today = new Date().toISOString().slice(0, 10)) {
+  return holidays
+    .map((x) => ({ x, d: nextDate(x.dates, today) }))
+    .filter((o) => o.d >= today)
+    .sort((a, b) => a.d.localeCompare(b.d))
+    .slice(0, count)
+    .map((o) => [`/holidays/${o.x.slug}/`, `${o.x.name} boards`]);
+}
+
 export function holidayBanner(h, holidays) {
   const today = new Date().toISOString().slice(0, 10);
   const next = holidays.map((x) => ({ x, d: nextDate(x.dates) })).filter((o) => o.d >= today).sort((a, b) => a.d.localeCompare(b.d))[0];

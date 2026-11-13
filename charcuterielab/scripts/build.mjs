@@ -11,7 +11,11 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { boardBuilderData, boardBuilderPage } from "./board-builder.mjs";
-import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays } from "./holidays.mjs";
+import { countdownJs, holidayBanner, holidayPage, holidaysHub, loadHolidays, upcomingHolidayLinks } from "./holidays.mjs";
+
+// Set once holidays are loaded, read by the footer in layout(). Falls back to
+// the holiday hub alone if anything goes wrong, never to a stale holiday.
+let FOOTER_HOLIDAYS = [];
 import { seasonBoards, seasonHero, seasonRow, seasonTitle, upcomingWithBoards } from "./season.mjs";
 import { injectBands } from "./hub-bands.mjs";
 import { injectDietaryBooks } from "./dietary-books.mjs";
@@ -1586,9 +1590,21 @@ function fitTitle(title) {
 
 // Search results cut the description at about 160 characters. Trim at the last
 // sentence or word boundary before that rather than mid-word.
-function metaSnippet(text, limit = 158) {
+// Anything longer than `limit` is cut and shown to Google trailing an ellipsis.
+// 244 pages were doing that unnoticed on 13 Nov 2026, so the build now counts
+// them: see the "Meta descriptions cut" line at the end of a build.
+export const META_LIMIT = 158;
+const metaCut = new Set(); // by description, so one page counts once
+export function metaCutReport() {
+  const n = metaCut.size;
+  metaCut.clear();
+  return n;
+}
+
+function metaSnippet(text, limit = META_LIMIT) {
   const t = String(text).trim();
   if (t.length <= limit) return t;
+  metaCut.add(t.slice(0, 80));
   const head = t.slice(0, limit);
   const sentence = Math.max(head.lastIndexOf(". "), head.lastIndexOf("? "), head.lastIndexOf("! "));
   if (sentence > limit * 0.55) return head.slice(0, sentence + 1);
@@ -1711,7 +1727,7 @@ ${siteNav(canonical)}
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="footer-links footer-cols">
-        <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">50 board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a><a href="/holidays/thanksgiving/">Thanksgiving boards</a><a href="/holidays/christmas/">Christmas boards</a><a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
+        <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">50 board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a>${FOOTER_HOLIDAYS.map(([u, t]) => `<a href="${u}">${escapeHtml(t)}</a>`).join("")}<a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
         <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
         <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
         <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
@@ -3010,6 +3026,7 @@ async function build() {
     loadPairings(root),
     loadDietary(root)
   ]);
+  FOOTER_HOLIDAYS = upcomingHolidayLinks(holidays, 3);
   // Posts merged into another page stay in content/blog but are not built
   // (content/merged/redirects.json; netlify.toml has the 301s).
   let mergedMap = {};
@@ -3817,4 +3834,8 @@ await injectDietaryBooks(dist);
   console.log(`Merged-post links: ${n} pointed straight at the surviving page`);
 }
 if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThumbs.size}), run: py scripts/make-thumbs.py -> ${[...missingThumbs].slice(0, 8).join(", ")}${missingThumbs.size > 8 ? " ..." : ""}`);
+{
+  const n = metaCutReport();
+  if (n) console.log(`Meta descriptions cut: ${n} descriptions run over ${META_LIMIT} characters, so Google is shown an ellipsis mid-sentence`);
+}
 console.log("Built Charcuterie Lab into dist/");
