@@ -9,14 +9,14 @@ import { qsForm, QS_JS, CHEAT } from "./quick-subscribe.mjs";
 export const BOARD_CATEGORIES = [
   { slug: "seasonal-holiday", name: "Seasonal & Holiday", intro: "Boards for the dates on the calendar: Thanksgiving, the holidays, New Year's Eve and every season in between." },
   { slug: "occasions-parties", name: "Occasions & Parties", intro: "Boards sized and styled for the event: game day, the office party, cocktail hour, showers and celebrations." },
-  { slug: "classic-budget-luxury", name: "Classic, Budget & Luxury", title: "Classic, Budget & Luxury Charcuterie Board Plans", intro: "From the first board you'll ever make to the one-night splurge, and a $25 board that doesn't look it." },
+  { slug: "classic-budget-luxury", name: "Classic, Budget & Luxury", title: "Classic, Budget & Luxury Charcuterie Board Ideas", intro: "From the first board you'll ever make to the one-night splurge, and a $25 board that doesn't look it.", seo_description: "Classic, budget and luxury charcuterie board ideas: the starter board, a $25 board that doesn't look it, and the splurge board, with what goes on each." },
   { slug: "around-the-world", name: "Around the World", intro: "Italian antipasto, Spanish tapas, a French brasserie spread and more, each built from its own region's pantry." },
-  { slug: "dietary-kids", name: "Dietary & Kids", title: "Gluten-Free, Vegan & Kid-Friendly Charcuterie Boards", intro: "Gluten-free, keto, vegan and kid-friendly boards that nobody at the table has to work around." },
-  { slug: "pairings-sweet", name: "Pairings & Sweet", title: "Dessert, Wine & Beer Charcuterie Board Plans", intro: "Boards built around a drink or for the sweet end of the evening." },
+  { slug: "dietary-kids", name: "Dietary & Kids", title: "Gluten-Free, Vegan & Kid-Friendly Charcuterie Boards", intro: "Gluten-free, keto, vegan and kid-friendly boards that nobody at the table has to work around.", seo_description: "Gluten-free, keto, vegan and kid-friendly charcuterie board ideas that nobody at the table has to work around, each with what goes on it and what to buy." },
+  { slug: "pairings-sweet", name: "Pairings & Sweet", title: "Wine, Beer & Dessert Charcuterie Board Ideas", intro: "Boards built around a drink or for the sweet end of the evening.", seo_description: "Charcuterie board ideas built around a drink or the sweet end of the night: wine and cheese, beer, cocktails, dessert and chocolate boards, with pairings." },
   { slug: "plant-based", name: "Plant-Based", intro: "Fifteen boards with no meat and no dairy, built on the same pairing science as every other board here." },
   { slug: "for-two", name: "Boards for Two", intro: "Twenty-five boards sized for two: date nights, anniversaries, a cozy night in and a few splurges, each with a drink to pour." },
   { slug: "keto-low-carb", name: "Keto & Low-Carb", intro: "Keto boards at 4 to 9 g net carbs per serving, with low-carb dippers standing in for crackers." },
-  { slug: "showpiece", name: "Showpiece Boards", title: "Shaped Charcuterie Boards: 25 Showpiece Board Plans", intro: "Boards shaped like a dragon, a guitar, a turkey or a pirate ship, each with the one trick that makes it work." }
+  { slug: "showpiece", name: "Showpiece Boards", title: "Shaped Charcuterie Boards: 25 Showpiece Board Ideas", intro: "Boards shaped like a dragon, a guitar, a turkey or a pirate ship, each with the one trick that makes it work.", seo_description: "25 shaped charcuterie board ideas: a salami dragon, a bread pirate ship, a turkey, a unicorn and more, each with the one trick that makes it work." }
 ];
 
 // Book 3 in the series. While "status" is "coming", every world board and the
@@ -354,14 +354,14 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
     </div>
   </section>`;
   return h.layout({
-    title: `${boards.length} Charcuterie Board Plans with Shopping Lists | Charcuterie Lab`,
+    title: `Charcuterie Board Ideas: ${boards.length} Boards for Every Occasion | Charcuterie Lab`,
     canonical: "/boards/",
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${boards.length} charcuterie boards for every occasion, each with what goes on it and why it works. Get any board's printable plan, with the shopping list, amounts and timeline, for $3.`,
+    description: `${boards.length} charcuterie board ideas for every occasion, holiday, diet and budget. Each board shows what goes on it, how much to buy and why it works.`,
     head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
     body: `<main class="bl-main">
-${finder(h, ordered, { heading: "Charcuterie board plans for every occasion", intro: `Browse ${boards.length} boards free. When you find the one, get its printable plan for $3: the exact shopping list with amounts and prices, where everything goes, and the timeline.`, capped: true, books: bookFor, extra: `\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 board ideas</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${finder(h, ordered, { heading: "Charcuterie board ideas for every occasion", intro: `Browse ${boards.length} boards free. When you find the one, get its printable plan for $3: the exact shopping list with amounts and prices, where everything goes, and the timeline.`, capped: true, books: bookFor, extra: `\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 boards by cost and time</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
 ${packHtml}
 ${bookHtml}
 ${sampleHtml}
@@ -372,13 +372,43 @@ ${FILTER_JS}`
   });
 }
 
+// Alt text for the board photo (10 Nov 2026). "<name>: the finished board"
+// said nothing about the picture, and board searches are image-led, so the
+// alt now names the board and the first few things actually on it. Item names
+// keep their own capitalisation (Parmigiano-Reggiano, Époisses) and lose any
+// "or ..." alternative, bracket or pairing note, which belong on the page and
+// not in alt text.
+function boardAlt(b) {
+  if (b.image_alt) return b.image_alt;
+  const items = [];
+  for (const g of b.groups || []) {
+    for (const it of g.items || []) {
+      const n = String(it.name || "")
+        .replace(/\s*[(\u00b7\u2013\u2014].*$/, "")
+        .replace(/\s+\bor\b\s+.*$/i, "")
+        .replace(/,\s*(sliced|cubed|torn|halved|whole|aged|about)\b.*$/i, "")
+        .replace(/\s+\b(plus|mixed with)\b\s+.*$/i, "")
+        .trim();
+      if (n && !items.some((x) => x.toLowerCase() === n.toLowerCase())) items.push(n);
+      if (items.length >= 5) break;
+    }
+    if (items.length >= 5) break;
+  }
+  const name = b.h1 || b.title || "Charcuterie board";
+  if (!items.length) return `${name}, photographed for Charcuterie Lab`;
+  let picked = items;
+  while (picked.length > 2 && `${name}: ${picked.join(", ")}`.length > 125) picked = picked.slice(0, -1);
+  const list = picked.length > 1 ? `${picked.slice(0, -1).join(", ")} and ${picked[picked.length - 1]}` : picked[0];
+  return `${name}: ${list}`;
+}
+
 export function boardCategoryPage(h, cat, boards) {
   if (h.categoryPages && h.categoryPages[cat.slug]) return ideasPage(h, cat, boards, h.categoryPages[cat.slug]);
   return h.layout({
     title: `${cat.title || `${cat.name} Charcuterie Boards`} | Charcuterie Lab`,
     canonical: `/boards/${cat.slug}/`,
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${cat.intro} Each with what goes on it, why it works and a full printable plan.`.slice(0, 300),
+    description: cat.seo_description || `${cat.intro} Each with what goes on it, why it works and a full printable plan.`.slice(0, 300),
     head: `${itemListSchema(h, `${cat.name} charcuterie boards`, `/boards/${cat.slug}/`, boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"], [cat.name, `/boards/${cat.slug}/`]])}`,
     body: `<main class="bl-main">
 ${finder(h, boards, { heading: `${cat.name} boards`, intro: cat.intro, showFilters: false, crumb: `<p class="ing-crumb"><a href="/boards/">Boards</a> <span aria-hidden="true">/</span> ${h.escapeHtml(cat.name)}</p>` })}
@@ -742,7 +772,7 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       <h1>${h.escapeHtml(b.h1)}</h1>
       <p class="bl-lede">${h.escapeHtml(b.hook)}</p>
       ${h.byline ? `<p class="bl-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(b.updated || BOARD_UPDATED)}` : "")}</p>` : ""}
-      <img class="bl-photo" src="${h.escapeHtml(b.image)}" alt="${h.escapeHtml(b.h1)}: the finished board" width="1200" height="800" fetchpriority="high">
+      <img class="bl-photo" src="${h.escapeHtml(b.image)}" alt="${h.escapeHtml(boardAlt(b))}" width="1200" height="800" fetchpriority="high">
       <dl class="bl-glance">
         ${glance.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${h.escapeHtml(v)}</dd></div>`).join("\n        ")}
       </dl>
