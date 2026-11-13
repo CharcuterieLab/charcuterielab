@@ -1,6 +1,6 @@
 ---
 title: "The Best Grazing Table Supplies"
-seo_title: "Best Grazing Table Supplies: Butcher Paper, Risers, Stands and Bowls (2026)"
+seo_title: "Best Grazing Table Supplies (2026): Risers, Stands, Bowls"
 date: "2026-11-13"
 updated: "2026-11-13"
 image: "/images/best-grazing-table-supplies.jpg"

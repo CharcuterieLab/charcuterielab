@@ -1,6 +1,6 @@
 ---
 title: "The Best Home Charcuterie Curing Kits and Supplies"
-seo_title: "Best Home Curing Kits for Salami and Charcuterie (2026): UMAi Dry and More"
+seo_title: "Best Home Curing Kits for Salami (2026): UMAi Dry + More"
 date: "2026-11-13"
 updated: "2026-11-13"
 image: "/images/best-home-curing-kits.jpg"

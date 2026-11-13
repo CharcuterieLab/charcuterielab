@@ -1,6 +1,6 @@
 ---
 title: "The Best Cutting Board Oil and Board Cream"
-seo_title: "Best Cutting Board Oil and Board Cream for Charcuterie Boards (2026)"
+seo_title: "Best Cutting Board Oil & Board Cream (2026), Ranked"
 date: "2026-11-13"
 updated: "2026-11-13"
 image: "/images/best-cutting-board-oil.jpg"
