@@ -1,0 +1,19 @@
+/* 13 Nov 2026: Party Planner calculator (scripts/party.mjs) */
+.pp-occ { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 14px; }
+.pp-occ-k { font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.pp-occ-b { min-height: 36px; padding: 6px 12px; border: 1px solid rgba(169, 87, 43, 0.25); border-radius: 999px; background: #fff; color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.pp-occ-b.is-on { background: var(--green-deep); border-color: var(--green-deep); color: #fff; }
+.pp-occ-line { margin: 12px 0 0; padding: 10px 14px; border-left: 4px solid var(--gold); background: var(--cream); border-radius: 0 10px 10px 0; font-size: 15px; line-height: 1.5; }
+.pp-out-more { list-style: none; margin: 10px 0 0; padding: 0; border-top: 1px solid rgba(169, 87, 43, 0.14); }
+.pp-out-more li { display: grid; grid-template-columns: 9em 1fr; gap: 2px 12px; margin: 0; padding: 8px 0; border-bottom: 1px solid rgba(169, 87, 43, 0.14); font-size: 15px; line-height: 1.4; }
+.pp-out-more li::before { content: none; }
+.pp-out-more span { font-weight: 700; color: var(--muted); font-size: 13.5px; }
+.pp-out-note { margin: 8px 0 0; font-size: 13.5px; color: var(--muted); }
+.pp-send { margin: 16px 0 0; padding: 14px 16px; border: 1px dashed rgba(169, 87, 43, 0.35); border-radius: 12px; background: #fff; }
+.pp-send-h { margin: 0 0 10px; font-size: 15px; line-height: 1.45; }
+.pp-send-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.pp-send-row input[type=email] { flex: 1 1 200px; min-width: 0; min-height: 44px; padding: 8px 12px; border: 1px solid rgba(169, 87, 43, 0.3); border-radius: 8px; font: inherit; }
+.pp-send-note { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
+.pp-send-done p { margin: 0 0 8px; }
+.pp-by-note { margin: 0 0 10px; color: var(--muted); font-size: 14.5px; }
+@media (max-width: 560px) { .pp-out-more li { grid-template-columns: 1fr; } }

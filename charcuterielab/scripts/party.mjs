@@ -260,7 +260,20 @@ export function partyHub(h, { bookBoards }) {
     ["How long can a charcuterie board sit out?", "No more than 2 hours, or 1 hour above 90°F, per USDA guidance for perishable food. For a long party, keep a refill tray in the fridge."]
   ];
   const chart = COUNTS.map((n) => ({ n, p: plan(n, defaultMode(n)), a: plan(n, "app") }));
-  const data = JSON.stringify({ modes: MODES, counts: COUNTS });
+  // 13 Nov 2026: the calculator gives the whole list (nuts and olives too),
+  // how many kinds, the setup and the board to build; an occasion row sets
+  // the serving style; and the list can be sent as the free PDF for the
+  // nearest guest count (site's own /api/subscribe, no page leave).
+  const boardFor = Object.fromEntries(COUNTS.map((n) => { const b = bookBoards.get(BOARD_FOR[n]); return [n, b && b.published && b.slug ? { name: b.name.replace(/^The /, ""), url: `/boards/${b.slug}/` } : null]; }));
+  const OCCASIONS = [
+    ["thanksgiving", "Thanksgiving", "app", 12, "Before the turkey: keep it light so everyone saves room.", "/holidays/thanksgiving/", "Thanksgiving boards"],
+    ["friendsgiving", "Friendsgiving", "main", 10, "Split it: one guest brings the cheeses, one the meats, one the crackers and fruit. You do the board and the spreads.", "/blog/friendsgiving-charcuterie-board/", "Friendsgiving board"],
+    ["christmas", "Christmas party", "main", 20, "The board is the party food, so plan the bigger amounts and a refill tray.", "/holidays/christmas/", "Christmas boards"],
+    ["nye", "New Year's Eve", "main", 16, "A long night: set out half, keep half cold, and refill around 10.", "/boards/new-years-eve-charcuterie-board/", "New Year's Eve board"],
+    ["office", "Office party", "main", 25, "Two stations so the line moves, and label anything with nuts.", "/boards/office-party-charcuterie-board/", "Office party board"],
+    ["gameday", "Game day", "main", 12, "Grazing for 3 hours or more: refill at halftime.", "/boards/game-day-charcuterie-board/", "Game day board"]
+  ];
+  const data = JSON.stringify({ modes: MODES, counts: COUNTS, boards: boardFor, occ: OCCASIONS, pdf: Object.fromEntries(COUNTS.map((n) => [n, pdfFor(n)])) });
   return h.layout({
     title: "How Much Charcuterie Do I Need? Party Planner, 4–200 Guests",
     canonical: "/party-planner/",
@@ -278,6 +291,7 @@ export function partyHub(h, { bookBoards }) {
 
   <section class="pp-section pp-picker" aria-labelledby="pp-pick">
     <h2 id="pp-pick">Work it out for your party</h2>
+    <div class="pp-occ" role="group" aria-label="Pick your occasion"><span class="pp-occ-k">Occasion</span>${OCCASIONS.map(([k, label]) => `<button type="button" class="pp-occ-b" data-occ="${k}" aria-pressed="false">${h.escapeHtml(label)}</button>`).join("")}</div>
     <form class="pp-pick-form" data-pp-picker onsubmit="return false">
       <label for="pp-n">Guests</label>
       <input id="pp-n" type="number" inputmode="numeric" min="1" max="300" value="12">
@@ -285,7 +299,16 @@ export function partyHub(h, { bookBoards }) {
         ${Object.entries(MODES).map(([k, m]) => `<button type="button" class="pp-mode${k === "app" ? " is-on" : ""}" data-pick-mode="${k}" aria-pressed="${k === "app"}">${h.escapeHtml(m.label)}<span>${m.meat} oz each</span></button>`).join("")}
       </div>
     </form>
+    <p class="pp-occ-line" data-pp-occ-line hidden></p>
     <div class="pp-pick-out" data-pp-out aria-live="polite"></div>
+    <div class="pp-send" data-pp-send>
+      <form class="pp-send-form" data-pp-send-form action="/newsletter/" method="get" novalidate>
+        <p class="pp-send-h"><strong>Get this list as a free printable</strong> <span data-pp-send-n>for 12 people</span>, with checkboxes and the make-ahead timeline.</p>
+        <div class="pp-send-row"><label class="sr-only" for="pp-send-email">Email address</label><input id="pp-send-email" type="email" name="email" placeholder="Your email address" autocomplete="email" inputmode="email" required><input class="qs-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"><button type="submit" class="button primary">Send it free</button></div>
+        <p class="pp-send-note" aria-live="polite">Free PDF now, then the weekly Lab Report. Leave any time.</p>
+      </form>
+      <div class="pp-send-done" data-pp-send-done hidden><p><strong>You&rsquo;re in.</strong> Your list:</p><a class="button primary" data-pp-send-dl href="${pdfFor(12)}" download>Download the shopping list (PDF)</a></div>
+    </div>
     <noscript><p>Pick your guest count below for the full plan.</p></noscript>
   </section>
 
@@ -300,7 +323,8 @@ export function partyHub(h, { bookBoards }) {
 
   <section class="pp-section" aria-labelledby="pp-by">
     <h2 id="pp-by">Plan by guest count</h2>
-    <ul class="pp-count-cards">${COUNTS.map((n) => { const b = bookBoards.get(BOARD_FOR[n]); return `<li><a href="${urlFor(n)}"><strong>${n} people</strong><span>${plan(n, defaultMode(n)).meat} meat · ${plan(n, defaultMode(n)).cheese} cheese</span>${b ? `<em>Build: ${h.escapeHtml(b.name.replace(/^The /, ""))}</em>` : ""}</a></li>`; }).join("")}</ul>
+    <p class="pp-by-note">Amounts before a meal, the same as the chart above. Each plan also has the party-food and dinner amounts.</p>
+    <ul class="pp-count-cards">${COUNTS.map((n) => { const b = bookBoards.get(BOARD_FOR[n]); const a = plan(n, "app"); return `<li><a href="${urlFor(n)}"><strong>${n} people</strong><span>${a.meat} meat · ${a.cheese} cheese</span>${b ? `<em>Build: ${h.escapeHtml(b.name.replace(/^The /, ""))}</em>` : ""}</a></li>`; }).join("")}</ul>
     <p class="bl-note">Just two of you? See the <a href="/blog/charcuterie-board-two/">board for two</a>.</p>
   </section>
 
@@ -341,12 +365,21 @@ export function partyHub(h, { bookBoards }) {
   </section>
 </main>
 ${h.newsletterPanel("pp-news", "party_hub")}
-<script>(function(){var D=${data};var f=document.querySelector("[data-pp-picker]");if(!f)return;var n=f.querySelector("#pp-n"),out=document.querySelector("[data-pp-out]"),mode="app";
+<script>(function(){var D=${data};var f=document.querySelector("[data-pp-picker]");if(!f)return;var n=f.querySelector("#pp-n"),out=document.querySelector("[data-pp-out]"),mode="app",occ=null,ol=document.querySelector("[data-pp-occ-line]");
 function lb(oz){if(oz<16)return Math.ceil(oz)+" oz";var q=Math.ceil(oz/16*4)/4,w=Math.floor(q),fr={0.25:"¼",0.5:"½",0.75:"¾"}[q-w]||"";return (w||"")+fr+" lb"}
 function near(g){var best=D.counts[0];D.counts.forEach(function(c){if(Math.abs(c-g)<Math.abs(best-g))best=c});return best}
-function draw(){var g=Math.max(1,Math.min(300,parseInt(n.value,10)||1)),m=D.modes[mode],b=g>=20?1.1:1,c=Math.ceil(g*m.cheese*b/8)*8,s=g<=10?2:g<=25?3:g<=50?4:5,k=near(g);
-out.innerHTML='<ul class="pp-out-list"><li><strong>'+lb(g*m.meat*b)+'</strong> cured meat</li><li><strong>'+lb(c)+'</strong> cheese</li><li><strong>'+g*m.crackers[0]+'–'+g*m.crackers[1]+'</strong> crackers</li><li><strong>'+lb(g*m.fruit*b)+'</strong> fruit</li><li><strong>'+s+'</strong> spreads</li></ul><p class="pp-out-links"><a class="button primary" href="/board-builder/?g='+Math.min(g,200)+'&m='+mode+'">Build it for '+g+'</a> <a class="fx-more" href="/party-planner/charcuterie-board-for-'+k+'-people/">Full plan for '+k+' people &rarr;</a></p>'}
-f.querySelectorAll("[data-pick-mode]").forEach(function(btn){btn.addEventListener("click",function(){mode=btn.dataset.pickMode;f.querySelectorAll("[data-pick-mode]").forEach(function(x){var on=x===btn;x.classList.toggle("is-on",on);x.setAttribute("aria-pressed",on)});draw()})});
-n.addEventListener("input",draw);draw()})();</script>`
+function kinds(g){return g<=8?["3","2"]:g<=15?["3–4","3"]:g<=30?["4–5","3–4"]:["5–6","4–5"]}
+function setup(g){return g<=6?"One 12–14 inch board":g<=10?"One 16–18 inch board":g<=15?"One large 22–28 inch board":g<=30?"Two boards, or two stations on one table":g<=50?"A grazing table, or three stations":"A grazing table in four stations, refilled from the fridge"}
+function setMode(m){mode=m;f.querySelectorAll("[data-pick-mode]").forEach(function(x){var on=x.dataset.pickMode===m;x.classList.toggle("is-on",on);x.setAttribute("aria-pressed",on)})}
+function draw(){var g=Math.max(1,Math.min(300,parseInt(n.value,10)||1)),m=D.modes[mode],b=g>=20?1.1:1,c=Math.ceil(g*m.cheese*b/8)*8,s=g<=10?2:g<=25?3:g<=50?4:5,k=near(g),kd=kinds(g),bd=D.boards[k];
+out.innerHTML='<ul class="pp-out-list"><li><strong>'+lb(g*m.meat*b)+'</strong> cured meat</li><li><strong>'+lb(c)+'</strong> cheese</li><li><strong>'+g*m.crackers[0]+'–'+g*m.crackers[1]+'</strong> crackers</li><li><strong>'+lb(g*m.fruit*b)+'</strong> fruit</li><li><strong>'+lb(g*m.nuts*b)+'</strong> nuts</li><li><strong>'+lb(g*m.briny*b)+'</strong> olives &amp; pickles</li><li><strong>'+s+'</strong> spreads</li></ul><ul class="pp-out-more"><li><span>Kinds</span>'+kd[0]+' cheeses, '+kd[1]+' meats</li><li><span>Setup</span>'+setup(g)+'</li>'+(bd?'<li><span>Board to build</span><a href="'+bd.url+'">'+bd.name+'</a></li>':'')+(g>=20||mode==="meal"?'<li><span>Feeding a crowd?</span>Add 4–6 appetizers: <a href="/blog/christmas-appetizers/">Christmas</a> or <a href="/blog/new-years-eve-appetizers/">New Year&#39;s Eve</a></li>':'')+'</ul>'+(b>1?'<p class="pp-out-note">Includes 10% extra for a crowd.</p>':'')+'<p class="pp-out-links"><a class="button primary" href="/board-builder/?g='+Math.min(g,200)+'&m='+mode+'">Build it for '+g+'</a> <a class="fx-more" href="/party-planner/charcuterie-board-for-'+k+'-people/">Full plan for '+k+' people &rarr;</a></p>';
+var sn=document.querySelector("[data-pp-send-n]"),dl=document.querySelector("[data-pp-send-dl]");if(sn)sn.textContent="for "+k+" people";if(dl){dl.href=D.pdf[k];dl.textContent="Download the shopping list for "+k+" (PDF)"}}
+f.querySelectorAll("[data-pick-mode]").forEach(function(btn){btn.addEventListener("click",function(){setMode(btn.dataset.pickMode);draw()})});
+document.querySelectorAll("[data-occ]").forEach(function(btn){btn.addEventListener("click",function(){var o=D.occ.filter(function(x){return x[0]===btn.dataset.occ})[0];if(!o)return;var on=occ!==o[0];occ=on?o[0]:null;document.querySelectorAll("[data-occ]").forEach(function(x){var a=on&&x===btn;x.classList.toggle("is-on",a);x.setAttribute("aria-pressed",a)});if(on){setMode(o[2]);if(!n.dataset.touched)n.value=o[3];ol.innerHTML="<strong>"+o[1]+":</strong> "+o[4]+' <a href="'+o[5]+'">'+o[6]+" &rarr;</a>";ol.hidden=false}else ol.hidden=true;draw()})});
+n.addEventListener("input",function(){n.dataset.touched="1";draw()});draw();
+var sf=document.querySelector("[data-pp-send-form]"),sd=document.querySelector("[data-pp-send-done]"),sub=false;try{sub=!!localStorage.getItem("cl-sub")}catch(e){}
+if(sf&&sub){sf.hidden=true;sd.hidden=false;sd.querySelector("p").innerHTML="<strong>Your free printable list:</strong>"}
+if(sf)sf.addEventListener("submit",function(e){e.preventDefault();var i=sf.querySelector("input[type=email]"),bt=sf.querySelector("button"),nt=sf.querySelector(".pp-send-note"),v=i.value.trim();if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/.test(v)){nt.textContent="Please enter a full email address, like name@example.com.";i.focus();return}bt.disabled=true;bt.textContent="Sending\\u2026";fetch("/api/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({email:v,page:location.pathname+"#list",website:sf.website.value})}).then(function(r){return r.json().catch(function(){return{ok:false}})}).then(function(j){if(!j.ok)throw j;try{localStorage.setItem("cl-sub","1")}catch(e){}sf.hidden=true;sd.hidden=false}).catch(function(){bt.disabled=false;bt.textContent="Send it free";nt.textContent="That didn't go through. Try again in a moment."})});
+})();</script>`
   });
 }
