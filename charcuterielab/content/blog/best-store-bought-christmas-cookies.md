@@ -2,7 +2,7 @@
 title: "The Best Store-Bought Christmas Cookies for a Cookie Board"
 seo_title: "Best Store-Bought Christmas Cookies (Taste Tests, 2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-09"
 image: "/images/christmas-cookie-charcuterie-board.jpg"
 excerpt: "The best store-bought Christmas cookies for a holiday cookie board, from Sporked, Daily Meal, Tasting Table and Chowhound taste tests: holiday Milanos, Anna's ginger thins, white fudge Oreos, Aldi's Danish butter cookies, Biscoff and Costco's European cookie tin."
 description: "The best store-bought Christmas cookies for a holiday cookie board, from Sporked, Daily Meal, Tasting Table and Chowhound taste tests: holiday Milanos, Anna's ginger thins, white fudge Oreos, Aldi's Danish butter cookies, Biscoff and Costco's European cookie tin."

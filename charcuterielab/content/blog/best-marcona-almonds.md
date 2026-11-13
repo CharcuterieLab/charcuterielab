@@ -1,7 +1,8 @@
 ---
 title: "The Best Marcona Almonds for a Charcuterie Board, Ranked"
-seo_title: "Best Marcona Almonds for a Charcuterie Board"
+seo_title: "Best Marcona Almonds for a Charcuterie Board (2026)"
 date: "2026-09-29"
+updated: "2026-11-10"
 image: "/images/ingredients/marcona-almonds.jpg"
 excerpt: "The best Marcona almonds for a charcuterie board, ranked with stars. Our top pick: Trader Joe's Roasted & Salted Rosemary Marcona Almonds."
 description: "The best Marcona almonds for a charcuterie board, ranked with stars. Our top pick: Trader Joe's Roasted & Salted Rosemary Marcona Almonds."

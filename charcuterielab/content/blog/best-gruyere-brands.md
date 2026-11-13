@@ -1,7 +1,8 @@
 ---
 title: "The Best Gruyère Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Gruyère Brands for a Cheese Board, Ranked"
+seo_title: "Best Gruyère Brands for a Cheese Board, Ranked (2026)"
 date: "2026-10-08"
+updated: "2026-11-02"
 image: "/images/ingredients/gruyere.jpg"
 excerpt: "The best Gruyère for a charcuterie board, ranked: Emmi Kaltbach Le Gruyère AOP is our top pick. Star ratings, a best value and a pasteurized pick, and why."
 description: "The best Gruyère for a charcuterie board, ranked: Emmi Kaltbach Le Gruyère AOP is our top pick. Star ratings, a best value and a pasteurized pick, and why."

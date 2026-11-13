@@ -1,6 +1,6 @@
 ---
 title: "The Best Marrons Glacés (Candied Chestnuts) to Buy"
-seo_title: "Best Marrons Glacés to Buy in the US (2026): Candied Chestnuts"
+seo_title: "Best Marrons Glacés to Buy in the US (2026)"
 date: "2026-11-10"
 updated: "2026-11-10"
 image: "/images/best-marrons-glaces.jpg"

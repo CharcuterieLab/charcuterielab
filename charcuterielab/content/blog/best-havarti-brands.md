@@ -1,7 +1,8 @@
 ---
 title: "The Best Havarti for a Charcuterie Board: What to Buy"
-seo_title: "Best Havarti Cheese Brands to Buy"
+seo_title: "Best Havarti Cheese Brands to Buy (2026)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/havarti.jpg"
 excerpt: "The best Havarti to buy for a charcuterie board: Buholzer Brothers, which swept the 2025 US Championship Havarti class, Castello for easy finding, and the best dill Havarti."
 description: "The best Havarti to buy for a charcuterie board: Buholzer Brothers, which swept the 2025 US Championship Havarti class, Castello for easy finding, and the best dill Havarti."

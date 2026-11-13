@@ -1,7 +1,8 @@
 ---
 title: "The Best Honey for a Cheese Board, Ranked"
-seo_title: "Best Honey for a Cheese Board, Ranked"
+seo_title: "Best Honey for a Cheese Board, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-10"
 image: "/images/ingredients/honey.jpg"
 excerpt: "The best honey for a charcuterie board, ranked: Nature Nate's Raw & Unfiltered Honey is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best honey for a charcuterie board, ranked: Nature Nate's Raw & Unfiltered Honey is our top pick. Star ratings, a best value and a splurge pick, and why."

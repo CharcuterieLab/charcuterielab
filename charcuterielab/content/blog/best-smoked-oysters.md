@@ -2,7 +2,7 @@
 title: "The Best Smoked Oysters for a Charcuterie Board"
 seo_title: "Best Canned Smoked Oysters (2026): Taste-Test Winners"
 date: "2026-11-08"
-updated: "2026-11-08"
+updated: "2026-11-10"
 image: "/images/best-smoked-oysters.jpg"
 excerpt: "The best canned smoked oysters for a charcuterie board: Geisha Fancy Smoked Oysters (9.5/10 at Sporked), Polar, Crown Prince Natural in olive oil, Pacific Pearl, Reese and Washington-farmed Ekone, plus how to serve smoked oysters on crackers."
 description: "The best canned smoked oysters for a charcuterie board: Geisha Fancy Smoked Oysters (9.5/10 at Sporked), Polar, Crown Prince Natural in olive oil, Pacific Pearl, Reese and Washington-farmed Ekone, plus how to serve smoked oysters on crackers."

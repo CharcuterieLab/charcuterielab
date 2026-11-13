@@ -2,6 +2,7 @@
 title: "The Best Target Charcuterie Board Items, Ranked"
 seo_title: "Best Target Charcuterie Items: Good & Gather Picks Ranked"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "/images/ingredients/everything-crackers.jpg"
 excerpt: "The best Target items for a charcuterie board, ranked: Good & Gather onion dip, fig and olive crisps, glazed pecans, everything crackers, the salami and prosciutto tray and double crème brie. Ratings, prices and what to skip."
 description: "The best Target items for a charcuterie board, ranked: Good & Gather onion dip, fig and olive crisps, glazed pecans, everything crackers, the salami and prosciutto tray and double crème brie. Ratings, prices and what to skip."

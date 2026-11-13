@@ -2,7 +2,7 @@
 title: "The Best Store-Bought Tzatziki for a Mezze Board"
 seo_title: "Best Store-Bought Tzatziki (Taste Tests, 2026)"
 date: "2026-10-27"
-updated: "2026-10-27"
+updated: "2026-11-02"
 image: "/images/best-tzatziki.jpg"
 excerpt: "The best store-bought tzatziki from three published taste tests: Boar's Head won The Daily Meal's test, Karoun Tzatziki Labne and Whole Foods 365 topped Sporked's, and Hannah's 2-lb tub won Costco."
 description: "The best store-bought tzatziki from three published taste tests: Boar's Head won The Daily Meal's test, Karoun Tzatziki Labne and Whole Foods 365 topped Sporked's, and Hannah's 2-lb tub won Costco."

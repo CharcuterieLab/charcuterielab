@@ -2,6 +2,7 @@
 title: "The Best Pepperoni for a Charcuterie Board, Ranked"
 seo_title: "Best Pepperoni Brands, Ranked: Boar's Head Wins (2026)"
 date: "2026-09-29"
+updated: "2026-11-09"
 image: "/images/ingredients/pepperoni.jpg"
 excerpt: "The best pepperoni for a charcuterie board, ranked: Boar's Head Pepperoni is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best pepperoni brands, ranked: Boar's Head wins, Trader Joe's is the best value and Vincenza's the splurge, plus Primo Taglio uncured and Sugardale."

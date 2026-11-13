@@ -1,7 +1,8 @@
 ---
 title: "The Best Prosciutto Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Prosciutto Brands for Charcuterie, Ranked"
+seo_title: "Best Prosciutto Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/prosciutto-di-parma.jpg"
 excerpt: "The best prosciutto for a charcuterie board, ranked: Appleton Farms Prosciutto is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best prosciutto for a charcuterie board, ranked: Appleton Farms Prosciutto is our top pick. Star ratings, a best value and a splurge pick, and why."

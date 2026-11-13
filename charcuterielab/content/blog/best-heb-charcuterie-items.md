@@ -2,6 +2,7 @@
 title: "The Best H-E-B Charcuterie Board Items, Ranked"
 seo_title: "Best H-E-B Charcuterie Items: Cheese, Salami + Texas Picks"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "/images/ingredients/pimento-cheese.jpg"
 excerpt: "The best H-E-B items for a charcuterie board, ranked: Kerrygold aged cheddar, H-E-B fresh guacamole, Sartori SarVecchio, H-E-B triple crème brie, Post Oak smoked pimento cheese and deli-sliced salami. Prices, tips and what to skip."
 description: "The best H-E-B items for a charcuterie board, ranked: Kerrygold aged cheddar, H-E-B fresh guacamole, Sartori SarVecchio, H-E-B triple crème brie, Post Oak smoked pimento cheese and deli-sliced salami. Prices, tips and what to skip."

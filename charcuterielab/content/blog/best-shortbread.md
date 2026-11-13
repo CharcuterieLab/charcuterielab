@@ -1,7 +1,8 @@
 ---
 title: "The Best Store-Bought Shortbread for a Dessert Board, Ranked"
-seo_title: "Best Store-Bought Shortbread Cookies, Ranked"
+seo_title: "Best Store-Bought Shortbread Cookies, Ranked (2026)"
 date: "2026-10-12"
+updated: "2026-11-09"
 image: "/images/ingredients/shortbread.jpg"
 excerpt: "The best shortbread for a charcuterie board, ranked: Walkers Pure Butter Shortbread is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best shortbread for a charcuterie board, ranked: Walkers Pure Butter Shortbread is our top pick. Star ratings, a best value and a splurge pick, and why."

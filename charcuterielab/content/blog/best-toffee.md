@@ -1,6 +1,6 @@
 ---
 title: "The Best Toffee to Buy for a Holiday Board or Gift"
-seo_title: "Best Toffee to Buy (2026): Enstrom's, See's, Almond Roca and Heath"
+seo_title: "Best Toffee to Buy (2026): Enstrom's, See's, Almond Roca"
 date: "2026-11-09"
 updated: "2026-11-09"
 image: "/images/best-toffee.jpg"

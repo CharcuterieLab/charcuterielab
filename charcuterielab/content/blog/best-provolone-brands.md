@@ -1,7 +1,8 @@
 ---
 title: "The Best Provolone for a Charcuterie Board, Ranked"
-seo_title: "Best Provolone Cheese Brands, Ranked"
+seo_title: "Best Provolone Cheese Brands, Ranked (2026)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/aged-provolone.jpg"
 excerpt: "The best provolone for a charcuterie board, ranked: Boar's Head Picante Provolone is our top pick. Star ratings, a smoky pick and a value pick, and why."
 description: "The best provolone for a charcuterie board, ranked: Boar's Head Picante Provolone is our top pick. Star ratings, a smoky pick and a value pick, and why."

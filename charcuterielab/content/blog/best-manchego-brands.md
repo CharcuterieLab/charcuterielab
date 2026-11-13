@@ -1,7 +1,8 @@
 ---
 title: "The Best Manchego Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Manchego Brands for Charcuterie, Ranked"
+seo_title: "Best Manchego Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/manchego.jpg"
 excerpt: "The best Manchego for a charcuterie board, ranked with star ratings: Kirkland Signature Manchego DOP (6 months) is our top pick, plus best value and splurge."
 description: "The best Manchego for a charcuterie board, ranked with star ratings: Kirkland Signature Manchego DOP (6 months) is our top pick, plus best value and splurge."

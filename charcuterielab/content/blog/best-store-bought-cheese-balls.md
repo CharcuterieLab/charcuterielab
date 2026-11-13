@@ -2,7 +2,7 @@
 title: "The Best Store-Bought Cheese Balls for a Holiday Board"
 seo_title: "Best Store-Bought Cheese Balls for the Holidays (2026)"
 date: "2026-10-25"
-updated: "2026-10-25"
+updated: "2026-11-08"
 image: "/images/best-store-bought-cheese-balls.jpg"
 excerpt: "The best store-bought cheese balls for a holiday charcuterie board: Kaukauna Port Wine is the classic, Trader Joe's Totally Cheeseball the spreadable twist, Hickory Farms the mail-order pick. What to check on the label and how many guests one ball serves."
 description: "The best store-bought cheese balls for a holiday charcuterie board: Kaukauna Port Wine is the classic, Trader Joe's Totally Cheeseball the spreadable twist, Hickory Farms the mail-order pick. What to check on the label and how many guests one ball serves."

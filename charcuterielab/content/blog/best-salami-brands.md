@@ -2,6 +2,7 @@
 title: "The Best Salami Brands for a Charcuterie Board, Ranked"
 seo_title: "Best Salami Brands: 7 Grocery Store Picks, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-03"
 image: "/images/ingredients/genoa-salami.jpg"
 excerpt: "The best salami for a charcuterie board, ranked: Olli Salumeria is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best salami brands, ranked: Olli Salumeria wins, Volpi Genoa is the best value and Fra' Mani the splurge, plus Columbus, Creminelli, Boar's Head and Applegate."

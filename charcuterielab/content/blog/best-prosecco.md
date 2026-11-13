@@ -1,7 +1,8 @@
 ---
 title: "The Best Prosecco for a Charcuterie Board, Ranked"
-seo_title: "Best Prosecco Under $20 at the Grocery Store, Ranked"
+seo_title: "Best Prosecco to Buy in 2026: 7 Bottles Under $20, Ranked"
 date: "2026-10-13"
+updated: "2026-11-08"
 image: "/images/pairings/pairings-wine-champagne-prosecco.webp"
 excerpt: "The best prosecco for a charcuterie board, ranked: Mionetto Prosecco Brut is our top pick. Star ratings, a value pick and a splurge pick, and why."
 description: "The best prosecco for a charcuterie board, ranked: Mionetto Prosecco Brut is our top pick. Star ratings, a value pick and a splurge pick, and why."

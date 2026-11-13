@@ -1,7 +1,8 @@
 ---
 title: "The Best Sprouts Charcuterie Board Items: What to Buy"
-seo_title: "Best Sprouts Charcuterie Board Items to Buy"
+seo_title: "Best Sprouts Charcuterie Board Items to Buy (2026)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/pita-chips.jpg"
 excerpt: "What to buy at Sprouts for a charcuterie board: store-brand sliced cheeses shoppers love, sea salt pita crackers, grain-free crackers for gluten-free guests, kettle chips and the holiday Wensleydale."
 description: "What to buy at Sprouts for a charcuterie board: store-brand sliced cheeses shoppers love, sea salt pita crackers, grain-free crackers for gluten-free guests, kettle chips and the holiday Wensleydale."

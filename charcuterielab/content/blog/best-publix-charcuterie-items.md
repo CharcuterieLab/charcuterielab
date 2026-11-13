@@ -2,6 +2,7 @@
 title: "The Best Publix Charcuterie Board Items, Ranked"
 seo_title: "Best Publix Charcuterie Items: Deli Cheese, Salami + Picks"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "/images/ingredients/wensleydale-cranberry.jpg"
 excerpt: "The best Publix items for a charcuterie board, ranked: Boar's Head Parmigiano Reggiano, Publix Deli Vintage Gouda, honey goat cheese, French brie, herb-coated salami and Palmetto Cheese. Prices, tips and what to skip."
 description: "The best Publix items for a charcuterie board, ranked: Boar's Head Parmigiano Reggiano, Publix Deli Vintage Gouda, honey goat cheese, French brie, herb-coated salami and Palmetto Cheese. Prices, tips and what to skip."

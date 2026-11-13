@@ -1,6 +1,6 @@
 ---
 title: "The Best Turrón, Spain's Christmas Almond Nougat"
-seo_title: "Best Turrón to Buy (2026): 1880, Vicens, El Almendro and More"
+seo_title: "Best Turrón to Buy (2026): 1880, Vicens, El Almendro, More"
 date: "2026-11-10"
 updated: "2026-11-10"
 image: "/images/best-turron.jpg"

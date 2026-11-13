@@ -2,7 +2,7 @@
 title: "The Best Medjool Dates for a Charcuterie Board"
 seo_title: "Best Medjool Dates to Buy for a Charcuterie Board (2026)"
 date: "2026-10-25"
-updated: "2026-10-25"
+updated: "2026-11-02"
 image: "/images/ingredients/medjool-dates.jpg"
 excerpt: "The best Medjool dates for a charcuterie board: Costco's 2 lb pack for value, Natural Delights for the easiest find, Joolies for organic and pit-free. How to pick fresh dates, and how many to buy."
 description: "The best Medjool dates for a charcuterie board: Costco's 2 lb pack for value, Natural Delights for the easiest find, Joolies for organic and pit-free. How to pick fresh dates, and how many to buy."

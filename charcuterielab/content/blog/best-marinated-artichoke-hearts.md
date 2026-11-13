@@ -2,7 +2,7 @@
 title: "The Best Jarred Marinated Artichoke Hearts for a Charcuterie Board"
 seo_title: "Best Jarred Artichoke Hearts for a Charcuterie Board (2026)"
 date: "2026-10-25"
-updated: "2026-10-25"
+updated: "2026-11-09"
 image: "/images/ingredients/marinated-artichokes.jpg"
 excerpt: "The best jarred marinated artichoke hearts for a charcuterie board: Napoleon Grilled won Sporked's test, Mezzetta was the runner-up, Reese is the cheapest and Kirkland is the pick for a crowd. Marinated vs water-packed, and how much to buy."
 description: "The best jarred marinated artichoke hearts for a charcuterie board: Napoleon Grilled won Sporked's test, Mezzetta was the runner-up, Reese is the cheapest and Kirkland is the pick for a crowd. Marinated vs water-packed, and how much to buy."

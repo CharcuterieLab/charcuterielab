@@ -1,7 +1,8 @@
 ---
 title: "The Best Store-Bought Salsa for a Game Day Board, Ranked"
-seo_title: "Best Store-Bought Salsa, Ranked (Jarred)"
+seo_title: "Best Store-Bought Jarred Salsa, Ranked (2026)"
 date: "2026-10-13"
+updated: "2026-11-02"
 image: "/images/50-boards-08-game-day-party.webp"
 excerpt: "The best salsa for a charcuterie board, ranked: Siete Mild Salsa is our top pick. Star ratings, a value pick and a refrigerated pick, and why."
 description: "The best salsa for a charcuterie board, ranked: Siete Mild Salsa is our top pick. Star ratings, a value pick and a refrigerated pick, and why."

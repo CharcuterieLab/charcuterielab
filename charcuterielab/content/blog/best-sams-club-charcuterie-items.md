@@ -2,6 +2,7 @@
 title: "The Best Sam's Club Charcuterie Board Items, Ranked"
 seo_title: "Best Sam's Club Charcuterie Items: Cheese, Meat, Trays"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "/images/ingredients/aged-gouda.jpg"
 excerpt: "The best Sam's Club items for a charcuterie board, ranked: Member's Mark Manchego and Parmigiano Reggiano lead, plus the Charcuterie Entertainment Tray, Président Brie and Columbus. Ratings, prices and what to skip."
 description: "The best Sam's Club items for a charcuterie board, ranked: Member's Mark Manchego and Parmigiano Reggiano lead, plus the Charcuterie Entertainment Tray, Président Brie and Columbus. Ratings, prices and what to skip."

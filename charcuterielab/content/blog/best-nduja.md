@@ -1,6 +1,6 @@
 ---
 title: "The Best 'Nduja to Buy for a Charcuterie Board"
-seo_title: "Best 'Nduja Brands (2026): Tempesta, La Quercia + Calabrian Jars"
+seo_title: "Best 'Nduja Brands (2026): Tempesta, La Quercia"
 date: "2026-11-02"
 updated: "2026-11-02"
 image: "/images/best-nduja.jpg"

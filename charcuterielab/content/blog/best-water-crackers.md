@@ -1,7 +1,8 @@
 ---
 title: "The Best Water Crackers for a Charcuterie Board, Ranked"
-seo_title: "Best Water Crackers for Charcuterie, Ranked"
+seo_title: "Best Water Crackers for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/water-crackers.jpg"
 excerpt: "The best water crackers for a charcuterie board, ranked with star ratings: Carr's Table Water Crackers, Original is our top pick, plus best value and splurge."
 description: "The best water crackers for a charcuterie board, ranked with star ratings: Carr's Table Water Crackers, Original is our top pick, plus best value and splurge."

@@ -1,10 +1,11 @@
 ---
 title: "The Best Sparkling Cider for a Charcuterie Board, Ranked (Non-Alcoholic)"
-seo_title: "Best Sparkling Cider (Non-Alcoholic), Ranked"
+seo_title: "Best Non-Alcoholic Sparkling Cider, Ranked (2026)"
 date: "2026-10-16"
+updated: "2026-11-09"
 image: "/images/pairings/pairings-zero-proof.webp"
 excerpt: "The best sparkling cider for a charcuterie board, ranked: Martinelli's Sparkling Cider is our top pick. Star ratings, a dry pick and a spiced holiday pick, and why."
-description: "The best sparkling cider for a charcuterie board, ranked: Martinelli's Sparkling Cider is our top pick. Star ratings, a dry pick and a spiced holiday pick, and why."
+description: "The best sparkling cider for a charcuterie board, ranked: Martinelli's Sparkling Cider wins, with 7 more ranked on taste, value and how easy they are to find."
 faq: "[{"question": "What is the best non-alcoholic sparkling cider?", "answer": "Martinelli's Sparkling Cider, which scored a perfect 10 in Sporked's taste test. Welch's Sparkling Apple Cider is the drier pick."}, {"question": "Is sparkling cider alcoholic?", "answer": "No. Grocery-store sparkling cider like Martinelli's is carbonated apple juice. Hard cider is the alcoholic version."}, {"question": "Does sparkling cider go with charcuterie?", "answer": "Yes. Its bubbles and acidity cut through salty meat and rich cheese, and the apple flavor pairs especially well with cheddar and brie."}, {"question": "How much sparkling cider do I need for a party?", "answer": "A 25.4 oz bottle pours about five glasses. For a toast, one bottle covers 6 to 8 people."}]"
 slug: "best-sparkling-cider"
 tags: "["best sparkling cider", "sparkling apple cider", "martinelli's sparkling cider", "non-alcoholic sparkling cider", "zero proof board drink"]"

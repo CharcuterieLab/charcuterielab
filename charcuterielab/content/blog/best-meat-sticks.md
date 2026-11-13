@@ -1,7 +1,8 @@
 ---
 title: "The Best Meat Sticks for a Charcuterie Board, Ranked"
-seo_title: "Best Meat Sticks: 6 Beef Sticks Ranked (Chomps Wins)"
+seo_title: "Best Meat Sticks 2026: 6 Beef Sticks Ranked (Chomps Wins)"
 date: "2026-10-11"
+updated: "2026-11-02"
 image: "/images/50-boards-08-game-day-party.webp"
 excerpt: "The best meat sticks for a charcuterie board, ranked: Chomps Original Beef Stick is our top pick. Star ratings, a spicy pick and a smoked pick, and why."
 description: "The best meat sticks and beef sticks, ranked: Chomps Original wins, Chomps Jalapeño is the spicy pick and Tillamook Teriyaki the smoked one, plus Country Archer, Lorissa's and Wenzel's."

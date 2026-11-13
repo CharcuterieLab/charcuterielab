@@ -2,7 +2,7 @@
 title: "The Best Panettone for a Christmas Board"
 seo_title: "Best Panettone Brands to Buy (2026): Splurge to Budget"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-10"
 image: "/images/dessert-board.webp"
 excerpt: "The best panettone to buy: Olivieri 1882 (Wirecutter's and Food & Wine's favorite), Ferrara and Madi under $30, Bauducco minis for a board, Muzzi limoncello, Ofner chocolate and Giusti balsamic, plus how to serve panettone with cheese."
 description: "The best panettone to buy: Olivieri 1882 (Wirecutter's and Food & Wine's favorite), Ferrara and Madi under $30, Bauducco minis for a board, Muzzi limoncello, Ofner chocolate and Giusti balsamic, plus how to serve panettone with cheese."

@@ -2,7 +2,7 @@
 title: "The Best Stilton for a Christmas Cheese Board"
 seo_title: "Best Stilton Cheese to Buy in the US (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-01"
 image: "/images/ingredients/stilton.jpg"
 excerpt: "The best Stilton to buy in the US: Colston Bassett from Murray's, Stichelton for a raw-milk splurge, Coombe Castle at Costco for value, and white Stilton with cranberry or blueberry, plus the PDO label, port and how much to buy."
 description: "The best Stilton to buy in the US: Colston Bassett from Murray's, Stichelton for a raw-milk splurge, Coombe Castle at Costco for value, and white Stilton with cranberry or blueberry, plus the PDO label, port and how much to buy."

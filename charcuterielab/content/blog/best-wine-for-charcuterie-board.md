@@ -2,7 +2,7 @@
 title: "The Best Wines Under $20 for a Charcuterie Board"
 seo_title: "Best Wine for a Charcuterie Board: 8 Bottles Under $20"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-03"
 image: "/images/wine-and-charcuterie-board.png"
 excerpt: "The best wines under $20 for a charcuterie board, one for every style: Segura Viudas Cava, Kim Crawford Sauvignon Blanc, Bieler Sabine rosé, Mark West Pinot Noir, Borsao Tres Picos Garnacha, Cleto Chiarli Lambrusco, Dr. L Riesling and Graham's Six Grapes Port."
 description: "The best wines under $20 for a charcuterie board, one for every style: Segura Viudas Cava, Kim Crawford Sauvignon Blanc, Bieler Sabine rosé, Mark West Pinot Noir, Borsao Tres Picos Garnacha, Cleto Chiarli Lambrusco, Dr. L Riesling and Graham's Six Grapes Port."

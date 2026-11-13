@@ -1,7 +1,8 @@
 ---
 title: "The Best Hot Honey for a Charcuterie Board, Ranked"
-seo_title: "Best Hot Honey for a Charcuterie Board, Ranked"
+seo_title: "Best Hot Honey for a Charcuterie Board, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/honey.jpg"
 excerpt: "The best hot honey for a charcuterie board, ranked: Mike's Hot Honey is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best hot honey for a charcuterie board, ranked: Mike's Hot Honey is our top pick. Star ratings, a best value and a splurge pick, and why."

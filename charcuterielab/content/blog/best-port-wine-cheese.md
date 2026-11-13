@@ -1,6 +1,6 @@
 ---
 title: "The Best Port Wine Cheese Spreads for a Holiday Board"
-seo_title: "Best Port Wine Cheese Spread (2026): Merkt's, Kaukauna and More"
+seo_title: "Best Port Wine Cheese Spread (2026): Merkt's, Kaukauna, More"
 date: "2026-11-08"
 updated: "2026-11-08"
 image: "/images/best-port-wine-cheese.jpg"

@@ -2,7 +2,7 @@
 title: "The Best Boursin-Style Herb Cheese Spreads for a Charcuterie Board"
 seo_title: "Boursin vs Alouette: Best Garlic & Herb Cheese Spreads"
 date: "2026-10-25"
-updated: "2026-10-25"
+updated: "2026-11-02"
 image: "/images/ingredients/boursin.jpg"
 excerpt: "The best garlic and herb cheese spreads for a charcuterie board: Boursin is the original, Alouette the closest dupe for less, Aldi's Emporium Selection the cheapest, plus dairy-free picks. How they differ and how much to buy."
 description: "Boursin Garlic & Fine Herbs is the best garlic and herb cheese spread. Alouette is the closest dupe for less, Aldi's Emporium costs about $3.29, and Boursin Dairy-Free is the vegan pick."

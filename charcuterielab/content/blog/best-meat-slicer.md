@@ -1,8 +1,8 @@
 ---
 title: "The Best Meat Slicer for Home Charcuterie"
-seo_title: "Best Meat Slicer for Home (2026): Tested Picks for Charcuterie"
+seo_title: "Best Meat Slicer for Home (2026)"
 date: "2026-11-03"
-updated: "2026-11-03"
+updated: "2026-11-08"
 image: "/images/best-meat-slicer.jpg"
 excerpt: "The best meat slicer for home charcuterie: the Cuisinart Kitchen Pro FS-75 (Your Best Digs' test winner), the Chef'sChoice 615A (Food & Wine's best overall), the Beswood 10-inch for serious slicing and the OSTBA, the most-reviewed slicer on Amazon, plus what to look for, how to slice salami paper-thin and how to clean a slicer safely."
 description: "The best meat slicer for home charcuterie: the Cuisinart Kitchen Pro FS-75 (Your Best Digs' test winner), the Chef'sChoice 615A (Food & Wine's best overall), the Beswood 10-inch for serious slicing and the OSTBA, the most-reviewed slicer on Amazon, plus what to look for, how to slice salami paper-thin and how to clean a slicer safely."

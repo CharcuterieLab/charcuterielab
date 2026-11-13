@@ -1,7 +1,8 @@
 ---
 title: "The Best Gouda Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Gouda Brands for Charcuterie, Ranked"
+seo_title: "Best Gouda Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/aged-gouda.jpg"
 excerpt: "The best Gouda for a charcuterie board, ranked: Trader Joe's 1000 Day Gouda is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best Gouda for a charcuterie board, ranked: Trader Joe's 1000 Day Gouda is our top pick. Star ratings, a best value and a splurge pick, and why."

@@ -1,7 +1,8 @@
 ---
 title: "The Best Store-Bought Hummus for a Charcuterie Board, Ranked"
-seo_title: "Best Store-Bought Hummus Brands, Ranked"
+seo_title: "Best Store-Bought Hummus Brands, Ranked (2026)"
 date: "2026-10-11"
+updated: "2026-11-02"
 image: "/images/ingredients/hummus.jpg"
 excerpt: "The best hummus for a charcuterie board, ranked: Cedar's Classic Original Hummus is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best hummus for a charcuterie board, ranked: Cedar's Classic Original Hummus is our top pick. Star ratings, a best value and a splurge pick, and why."

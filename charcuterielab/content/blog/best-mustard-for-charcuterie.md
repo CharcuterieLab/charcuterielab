@@ -1,10 +1,11 @@
 ---
 title: "The Best Mustard for a Charcuterie Board, Ranked"
-seo_title: "Best Mustard for a Charcuterie Board, Ranked"
+seo_title: "Best Mustard for a Charcuterie Board, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-09"
 image: "/images/ingredients/whole-grain-mustard.jpg"
 excerpt: "The best mustard for a charcuterie board, ranked: Maille Old Style Whole Grain Mustard is our top pick. Star ratings, a best value and a splurge pick, and why."
-description: "The best mustard for a charcuterie board, ranked: Maille Old Style Whole Grain Mustard is our top pick. Star ratings, a best value and a splurge pick, and why."
+description: "The best mustard for a charcuterie board, ranked: Maille Old Style Whole Grain Mustard wins, with Maille Dijon Originale close behind. With scores and prices."
 faq: "[{"question": "What is the best mustard for a charcuterie board?", "answer": "Maille Old Style Whole Grain, America's Test Kitchen's top whole-seed mustard."}, {"question": "Dijon or whole-grain for a board?", "answer": "Whole-grain looks better and has texture; Dijon is sharper. Serve one of each on a large board."}, {"question": "What goes with mustard on a board?", "answer": "Salami, summer sausage, pâté, aged cheddar and pretzels."}]"
 slug: "best-mustard-for-charcuterie"
 ---

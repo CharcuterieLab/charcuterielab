@@ -1,7 +1,8 @@
 ---
 title: "The Best Mortadella Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Mortadella Brands for Charcuterie, Ranked"
+seo_title: "Best Mortadella Brands for Charcuterie, Ranked (2026)"
 date: "2026-10-08"
+updated: "2026-11-02"
 image: "/images/ingredients/mortadella.jpg"
 excerpt: "The best mortadella for a charcuterie board, ranked: Columbus Mortadella is our top pick. Star ratings, a pre-sliced pick and a splurge, and why."
 description: "The best mortadella for a charcuterie board, ranked: Columbus Mortadella is our top pick. Star ratings, a pre-sliced pick and a splurge, and why."

@@ -2,6 +2,7 @@
 title: "The Best Store-Bought Pesto for a Charcuterie Board, Ranked"
 seo_title: "Best Store-Bought Pesto: 7 Brands Ranked (Kirkland Wins)"
 date: "2026-10-11"
+updated: "2026-11-09"
 image: "/images/ingredients/pesto.jpg"
 excerpt: "The best pesto for a charcuterie board, ranked: Kirkland Signature Basil Pesto is our top pick. Star ratings, a shelf-stable pick and a budget pick, and why."
 description: "The best store-bought pesto, ranked: Kirkland Signature from Costco wins, DeLallo is the best shelf-stable jar and Target's Good & Gather the budget pick, plus Buitoni and Seggiano."

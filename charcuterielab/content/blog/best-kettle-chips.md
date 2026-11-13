@@ -1,10 +1,11 @@
 ---
 title: "The Best Kettle Chips for a Game Day Board, Ranked"
-seo_title: "Best Kettle Chips Brands, Ranked"
+seo_title: "Best Kettle Chips Brands, Ranked (2026)"
 date: "2026-10-12"
+updated: "2026-11-02"
 image: "/images/50-boards-08-game-day-party.webp"
 excerpt: "The best kettle chips for a charcuterie board, ranked: Cape Cod Original Sea Salt Kettle Cooked Chips is our top pick. Star ratings, a crunchiest pick and a best value, and why."
-description: "The best kettle chips for a charcuterie board, ranked: Cape Cod Original Sea Salt Kettle Cooked Chips is our top pick. Star ratings, a crunchiest pick and a best value, and why."
+description: "The best kettle chips for a charcuterie board, ranked: Cape Cod Sea Salt wins, with Miss Vickie's and Lay's close behind. Scores and prices."
 faq: "[{"question": "What are the best kettle chips?", "answer": "Cape Cod Original Sea Salt won Tasting Table's kettle chip test. Miss Vickie's was Sporked's best of the best."}, {"question": "Are kettle chips better for dip?", "answer": "Yes. They're thicker and crunchier than regular chips, so they don't break in thick dips."}, {"question": "Do potato chips belong on a charcuterie board?", "answer": "On casual and game-day boards, yes. Put them next to the dips so they don't get greasy against the cheese."}, {"question": "Which kettle chips are cooked in peanut oil?", "answer": "Utz Kettle Classics, according to Eat This, Not That. Always check the label for allergy guests."}]"
 slug: "best-kettle-chips"
 tags: "["best kettle chips", "best kettle cooked chips", "potato chip brands ranked", "chips for charcuterie board", "cape cod chips"]"

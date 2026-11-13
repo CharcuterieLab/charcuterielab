@@ -1,7 +1,8 @@
 ---
 title: "The Best Pickles for a Charcuterie Board, Ranked (Plus Cornichons)"
-seo_title: "Best Pickles for a Charcuterie Board, Ranked"
+seo_title: "Best Pickles for a Charcuterie Board, Ranked (2026)"
 date: "2026-10-11"
+updated: "2026-11-02"
 image: "/images/ingredients/dill-pickles.jpg"
 excerpt: "The best pickles for a charcuterie board, ranked: Mt. Olive Kosher Baby Dills is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best pickles for a charcuterie board, ranked: Mt. Olive Kosher Baby Dills is our top pick. Star ratings, a best value and a splurge pick, and why."

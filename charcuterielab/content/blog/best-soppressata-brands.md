@@ -1,10 +1,11 @@
 ---
 title: "The Best Soppressata Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Soppressata Brands for Charcuterie, Ranked"
+seo_title: "Best Soppressata Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-03"
 image: "/images/ingredients/soppressata.jpg"
 excerpt: "The best soppressata for a charcuterie board, ranked: Brooklyn Cured Sweet Soppressata is our top pick. Star ratings, a best value and a splurge pick, and why."
-description: "The best soppressata for a charcuterie board, ranked: Brooklyn Cured Sweet Soppressata is our top pick. Star ratings, a best value and a splurge pick, and why."
+description: "The best soppressata for a charcuterie board, ranked: Brooklyn Cured Sweet Soppressata wins, with Fra' Mani Soppressata close behind. With scores and prices."
 faq: "[{"question": "What is the best soppressata for a charcuterie board?", "answer": "Brooklyn Cured Sweet Soppressata, which topped Tasting Table's salami test."}, {"question": "Is soppressata spicy?", "answer": "Hot soppressata is; sweet (dolce) soppressata is not. The label will say."}, {"question": "What goes with soppressata?", "answer": "Provolone, fresh mozzarella, figs, honey and a red like Barbera or Lambrusco."}]"
 slug: "best-soppressata-brands"
 ---

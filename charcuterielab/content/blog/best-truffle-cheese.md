@@ -1,8 +1,8 @@
 ---
 title: "The Best Truffle Cheese for a Charcuterie Board"
-seo_title: "Best Truffle Cheese to Buy (2026): Sottocenere, Truffle Tremor + More"
+seo_title: "Best Truffle Cheese to Buy (2026): Sottocenere"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-10"
 image: "/images/best-truffle-cheese.jpg"
 excerpt: "The best truffle cheese for a charcuterie board: Sottocenere, Cypress Grove Truffle Tremor, Moliterno al Tartufo, Murray's Pecorino Tartufello, Trader Joe's Italian Truffle Cheese and white-truffle Boschetto, plus how to serve truffle cheese and what to pair with it."
 description: "The best truffle cheese for a charcuterie board: Sottocenere, Cypress Grove Truffle Tremor, Moliterno al Tartufo, Murray's Pecorino Tartufello, Trader Joe's Italian Truffle Cheese and white-truffle Boschetto, plus how to serve truffle cheese and what to pair with it."

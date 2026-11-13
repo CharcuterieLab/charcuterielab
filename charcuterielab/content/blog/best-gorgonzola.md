@@ -1,8 +1,8 @@
 ---
 title: "The Best Gorgonzola Cheese for a Charcuterie Board"
-seo_title: "Best Gorgonzola Cheese Brands (2026): Dolce, Piccante + Crumbles"
+seo_title: "Best Gorgonzola Cheese Brands (2026): Dolce, Piccante"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/best-gorgonzola.jpg"
 excerpt: "The best Gorgonzola for a charcuterie board: creamy Gorgonzola Dolce DOP, Litehouse (Sporked's best Gorgonzola), BelGioioso crumbles for value, Igor Gorgonzola Piccante, Murray's Cremificato and Cambozola, plus dolce vs piccante and what to pair with it."
 description: "The best Gorgonzola for a charcuterie board: creamy Gorgonzola Dolce DOP, Litehouse (Sporked's best Gorgonzola), BelGioioso crumbles for value, Igor Gorgonzola Piccante, Murray's Cremificato and Cambozola, plus dolce vs piccante and what to pair with it."

@@ -1,6 +1,6 @@
 ---
 title: "The Best Store-Bought Peppermint Bark for a Christmas Board"
-seo_title: "Best Peppermint Bark to Buy (2026): Williams Sonoma vs. Costco"
+seo_title: "Best Peppermint Bark to Buy (2026)"
 date: "2026-11-09"
 updated: "2026-11-09"
 image: "/images/best-peppermint-bark.jpg"

@@ -1,7 +1,8 @@
 ---
 title: "The Best Quince Paste (Membrillo) for a Charcuterie Board: What to Buy"
-seo_title: "Best Quince Paste (Membrillo) to Buy"
+seo_title: "Best Quince Paste (Membrillo) to Buy in 2026"
 date: "2026-10-16"
+updated: "2026-11-09"
 image: "/images/ingredients/membrillo.jpg"
 excerpt: "The best quince paste (membrillo) for a charcuterie board: Mitica for easy finding, Murray's Membrillo from Málaga, how to serve it with Manchego and how much to buy."
 description: "The best quince paste (membrillo) for a charcuterie board: Mitica for easy finding, Murray's Membrillo from Málaga, how to serve it with Manchego and how much to buy."

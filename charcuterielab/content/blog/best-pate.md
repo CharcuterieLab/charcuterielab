@@ -1,7 +1,8 @@
 ---
 title: "The Best Pâté for a Charcuterie Board: What to Buy"
-seo_title: "Best Store-Bought Pâté to Buy (US Guide)"
+seo_title: "Best Store-Bought Pâté to Buy in 2026 (US Guide)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/pate-de-campagne.jpg"
 excerpt: "The best store-bought pâté for a charcuterie board: Les Trois Petits Cochons, Alexian pâté de campagne and duck mousse, how much to buy, how to serve it and the pregnancy safety rule."
 description: "The best store-bought pâté for a charcuterie board: Les Trois Petits Cochons, Alexian pâté de campagne and duck mousse, how much to buy, how to serve it and the pregnancy safety rule."

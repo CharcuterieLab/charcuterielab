@@ -1,6 +1,6 @@
 ---
 title: "The Best Pecorino Romano Brands for a Charcuterie Board"
-seo_title: "Best Pecorino Romano Brands (2026): Boar's Head, Locatelli + Costco"
+seo_title: "Best Pecorino Romano Brands (2026): Boar's Head, Locatelli"
 date: "2026-11-02"
 updated: "2026-11-02"
 image: "/images/best-pecorino-romano.jpg"

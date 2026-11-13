@@ -1,7 +1,8 @@
 ---
 title: "The Best Wegmans Charcuterie Board Items, Ranked"
-seo_title: "Best Wegmans Cheese and Charcuterie Items, Ranked"
+seo_title: "Best Wegmans Cheese and Charcuterie Items, Ranked (2026)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/aged-gouda.jpg"
 excerpt: "The best Wegmans items for a charcuterie board, ranked: the 18-month aged Gouda, award-winning cave-aged cheeses like Truffle Shuffle and Professor's Brie, Castelvetrano olives and more."
 description: "The best Wegmans items for a charcuterie board, ranked: the 18-month aged Gouda, award-winning cave-aged cheeses like Truffle Shuffle and Professor's Brie, Castelvetrano olives and more."

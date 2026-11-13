@@ -1,7 +1,8 @@
 ---
 title: "The Best Spanish Chorizo for a Charcuterie Board, Ranked"
-seo_title: "Best Spanish Chorizo for a Charcuterie Board"
+seo_title: "Best Spanish Chorizo for a Charcuterie Board (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/chorizo.jpg"
 excerpt: "The best Spanish chorizo for a charcuterie board, ranked with star ratings: Palacios Chorizo (mild or hot) is our top pick, plus best value and splurge."
 description: "The best Spanish chorizo for a charcuterie board, ranked with star ratings: Palacios Chorizo (mild or hot) is our top pick, plus best value and splurge."

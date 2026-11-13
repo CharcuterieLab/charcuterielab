@@ -1,7 +1,8 @@
 ---
 title: "The Best Kroger Charcuterie Board Items, Ranked"
-seo_title: "Best Kroger Charcuterie Items: Murray's Cheese + Private Selection"
+seo_title: "Best Kroger Charcuterie Items: Murray's Cheese (2026)"
 date: "2026-10-14"
+updated: "2026-11-02"
 image: "/images/ingredients/taleggio.jpg"
 excerpt: "The best Kroger items for a charcuterie board, ranked: Murray's Stockinghall Cheddar, brie, Estate Gouda and Parmigiano lead, plus Private Selection smoked salmon, nuts and crackers. Ratings, prices and what to skip."
 description: "The best Kroger items for a charcuterie board, ranked: Murray's Stockinghall Cheddar, brie, Estate Gouda and Parmigiano lead, plus Private Selection smoked salmon, nuts and crackers. Ratings, prices and what to skip."

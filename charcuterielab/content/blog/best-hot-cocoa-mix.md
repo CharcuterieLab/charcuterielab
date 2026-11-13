@@ -1,8 +1,8 @@
 ---
 title: "The Best Hot Cocoa Mix for a Hot Cocoa Board"
-seo_title: "Best Hot Cocoa Mix to Buy (Taste Tests, 2026)"
+seo_title: "Best Hot Chocolate Mix 2026: Hot Cocoa Taste Tests Compared"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-03"
 image: "/images/hot-cocoa-board.jpg"
 excerpt: "The best hot cocoa mixes for a hot cocoa board, from nine published taste tests: Land O Lakes Chocolate Supreme won two, Ghirardelli Double Chocolate is the rich pick, Swiss Miss packets are the crowd pick, and Lake Champlain is dairy-free."
 description: "The best hot cocoa mixes for a hot cocoa board, from nine published taste tests: Land O Lakes Chocolate Supreme won two, Ghirardelli Double Chocolate is the rich pick, Swiss Miss packets are the crowd pick, and Lake Champlain is dairy-free."

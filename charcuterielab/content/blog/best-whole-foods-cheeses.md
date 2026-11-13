@@ -1,7 +1,8 @@
 ---
 title: "The Best Whole Foods Cheeses for a Charcuterie Board, Ranked"
-seo_title: "Best Whole Foods Cheeses for a Charcuterie Board"
+seo_title: "Best Whole Foods Cheeses for a Charcuterie Board (2026)"
 date: "2026-10-07"
+updated: "2026-11-02"
 image: "/images/ingredients/brie.jpg"
 excerpt: "The best Whole Foods cheeses for a charcuterie board, ranked: Isigny double cream brie, Vermont Creamery Bijou and Pleasant Ridge Reserve lead. Ratings, prices and tips."
 description: "The best Whole Foods cheeses for a charcuterie board, ranked: Isigny double cream brie, Vermont Creamery Bijou and Pleasant Ridge Reserve lead. Ratings, prices and tips."

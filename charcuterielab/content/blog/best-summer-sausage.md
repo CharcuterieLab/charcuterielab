@@ -1,7 +1,8 @@
 ---
 title: "The Best Summer Sausage for a Charcuterie Board, Ranked"
-seo_title: "Best Summer Sausage for a Charcuterie Board"
+seo_title: "Best Summer Sausage for a Charcuterie Board (2026)"
 date: "2026-09-29"
+updated: "2026-11-03"
 image: "/images/50-boards-43-meat-lovers-carnivore.webp"
 excerpt: "The best summer sausage for a charcuterie board, ranked with stars. Our top pick: Cloverdale Original Tangy Summer Sausage."
 description: "The best summer sausage for a charcuterie board, ranked with stars. Our top pick: Cloverdale Original Tangy Summer Sausage."

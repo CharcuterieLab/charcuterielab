@@ -1,7 +1,8 @@
 ---
 title: "The Best Tortilla Chips for a Game Day Board, Ranked"
-seo_title: "Best Tortilla Chips, Ranked (Store-Bought)"
+seo_title: "Best Store-Bought Tortilla Chips, Ranked (2026)"
 date: "2026-10-13"
+updated: "2026-11-02"
 image: "/images/ingredients/tortilla-chips.jpg"
 excerpt: "The best tortilla chips for a charcuterie board, ranked: On The Border Café Style is our top pick. Star ratings, an organic pick and a value pick, and why."
 description: "The best tortilla chips for a charcuterie board, ranked: On The Border Café Style is our top pick. Star ratings, an organic pick and a value pick, and why."

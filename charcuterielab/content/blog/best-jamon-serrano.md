@@ -2,7 +2,7 @@
 title: "The Best Jamón Serrano and Spanish Ham to Buy in the US"
 seo_title: "Best Jamón Serrano and Ibérico Ham to Buy (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/ingredients/jamon-serrano.jpg"
 excerpt: "The best jamón serrano and Ibérico ham to buy in the US: Redondo Iglesias 16-month serrano, Fermín serrano and Ibérico, Costco's Noel bone-in leg for a crowd, and how to read the seal colors from cebo to bellota."
 description: "The best jamón serrano and Ibérico ham to buy in the US: Redondo Iglesias 16-month serrano, Fermín serrano and Ibérico, Costco's Noel bone-in leg for a crowd, and how to read the seal colors from cebo to bellota."

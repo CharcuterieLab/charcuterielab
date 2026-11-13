@@ -2,7 +2,7 @@
 title: "The Best Store-Bought Whipped Feta Dip"
 seo_title: "Best Store-Bought Whipped Feta Dip (2026 Buyer's Guide)"
 date: "2026-10-27"
-updated: "2026-10-27"
+updated: "2026-11-02"
 image: "/images/best-whipped-feta.jpg"
 excerpt: "The best store-bought whipped feta: Trader Joe's Whipped Feta Spread ($3.99) is the fan favorite, Athenos is the easiest to find, and Costco sells two 16-oz tubs, one with toppings. Plus a 5-minute homemade version."
 description: "The best store-bought whipped feta: Trader Joe's Whipped Feta Spread ($3.99) is the fan favorite, Athenos is the easiest to find, and Costco sells two 16-oz tubs, one with toppings. Plus a 5-minute homemade version."

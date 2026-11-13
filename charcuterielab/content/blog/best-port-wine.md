@@ -2,7 +2,7 @@
 title: "The Best Port Wine for a Cheese Board, From $17"
 seo_title: "Best Port Wine Under $40 for a Cheese Board (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-08"
 image: "/images/best-port-wine.jpg"
 excerpt: "The best port wine for a cheese board: Taylor Fladgate 10 Year Tawny, Kirkland's $17 tawny made by Fonseca, Graham's Six Grapes and Fonseca Bin 27 rubies, and Sandeman 10 Year, plus tawny vs ruby, what cheese goes with port and how long an open bottle lasts."
 description: "The best port wine for a cheese board: Taylor Fladgate 10 Year Tawny, Kirkland's $17 tawny made by Fonseca, Graham's Six Grapes and Fonseca Bin 27 rubies, and Sandeman 10 Year, plus tawny vs ruby, what cheese goes with port and how long an open bottle lasts."
