@@ -600,5 +600,54 @@
     "book": "impossible",
     "n": 1,
     "pages": 7
+  },
+  "easter-egg-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/giant-easter-egg-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 22,
+    "pages": 7
+  },
+  "unicorn-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/unicorn-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 5,
+    "pages": 7
+  },
+  "galaxy-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/galaxy-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 11,
+    "pages": 7
+  },
+  "cheese-castle-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/cheese-castle-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 10,
+    "pages": 7
+  },
+  "pirate-ship-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/pirate-ship-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 7,
+    "pages": 7
+  },
+  "octopus-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/giant-octopus-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 2,
+    "pages": 7
+  },
+  "campfire-charcuterie-board": {
+    "url": "https://charcuterieflavor.gumroad.com/l/campfire-board",
+    "price": "$3",
+    "book": "impossible",
+    "n": 13,
+    "pages": 7
   }
 }
