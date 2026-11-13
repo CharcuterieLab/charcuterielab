@@ -178,11 +178,52 @@ export function boardBuilderData(ingredients, { categoryArt }) {
   };
 }
 
+// The builder itself is JavaScript, so Google could only read the 154-word intro.
+// These two sections give it real text to match against the searches next door to
+// "charcuterie board builder" — planner, maker, generator, how much per person.
+// Figures match /party-planner/ (2 oz each before a meal, 3 as the party food, 4 as
+// dinner) so the two pages never disagree.
+function builderFaq(itemCount) {
+  return [
+    [
+      "Is the charcuterie board builder free?",
+      `Yes. Building a board, browsing all ${itemCount} ingredients and reading the pairing notes costs nothing and needs no account. The finished shopping list, with the exact amounts for your guest count, unlocks with a free email subscribe.`
+    ],
+    [
+      "Is this a charcuterie board generator?",
+      "Not quite. A generator hands you a board someone else decided on. This one suggests and you choose: pick one ingredient you already like and it ranks everything else against it, so the board comes out yours. If you would rather start from a board that is already planned, there are 50 of them in the board ideas library."
+    ],
+    [
+      "How much charcuterie do I need per person?",
+      "About 2 oz each of meat and cheese per guest before a meal, 3 oz of each when the board is the party food, and 4 oz of each when it is dinner. Tell the builder which of those you are doing and it works out the amounts for your exact headcount."
+    ],
+    [
+      "Can I use it as a party board planner?",
+      "Yes. It plans for anything from 1 to 200 guests, and the shopping list comes out sorted by store aisle with prep steps and a layout plan for the board itself."
+    ],
+    [
+      "Can I print the shopping list?",
+      "Yes. The finished list has a print button, and it prints clean for the store or saves as a PDF."
+    ],
+    [
+      "Can I save a board and come back to it?",
+      "Yes. Your board stays in your browser as you build, and every board gets its own link you can bookmark or send to whoever is doing the shopping."
+    ],
+    [
+      "What can I put on the board?",
+      `All ${itemCount} ingredients come from our own ingredient guides: cheeses, cured meats, fruit, spreads, pickles, nuts and crackers, each with what it pairs with, why it works, and how to prep it.`
+    ]
+  ];
+}
+
 export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, dataVersion, prepVersion, scriptVersion, styleVersion, newsletterUrl, itemCount }) {
+  // Kept under 155 characters so Google shows the whole line: the old one ran to
+  // 177 and was being cut off mid-sentence in the results (13 Nov 2026).
   const description =
-    "Build your own charcuterie board one ingredient at a time. Get pairing ideas and advice as you go, then a free shopping list with prep and presentation steps for your guest count.";
+    "Free charcuterie board planner. Pick what you like, see what pairs with it and why, then get a shopping list with amounts for 1 to 200 guests.";
+  const FAQ = builderFaq(itemCount);
   return layout({
-    title: "Charcuterie Board Builder: Make Your Own Board | Charcuterie Lab",
+    title: "Charcuterie Board Builder: Free Planner & Shopping List | Charcuterie Lab",
     canonical: "/board-builder/",
     image: "/images/50-boards-01-classic-american-starter.webp",
     description,
@@ -196,6 +237,11 @@ export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, d
     operatingSystem: "Any",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     description
+  }).replaceAll("<", "\\u003c")}</script>
+  <script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } }))
   }).replaceAll("<", "\\u003c")}</script>`,
     body: `<main class="bb-main" id="bb" data-src="/assets/board-builder-data.json?v=${dataVersion}" data-prep="/assets/board-builder-prep.json?v=${prepVersion}" data-newsletter="${escapeHtml(newsletterUrl)}" data-ebook="${escapeHtml(book.ebookUrl)}" data-ebook-price="${escapeHtml(book.ebookPrice)}" data-paperback="${escapeHtml(book.paperbackUrl)}" data-paperback-price="${escapeHtml(book.paperbackPrice)}">
   ${bookBar("board_builder_top", "Want 50 boards already planned?")}
@@ -219,6 +265,27 @@ export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, d
   </div>
   <div class="bb-bar" id="bb-bar" hidden></div>
   <dialog class="bb-picker" id="bb-picker" aria-labelledby="bb-picker-title"></dialog>
+
+  <section class="bb-how" id="how-it-works" aria-labelledby="bb-how-title">
+    <div class="bb-wrap">
+      <h2 id="bb-how-title">How the charcuterie board builder works</h2>
+      <ol class="bb-steps">
+        <li><strong>Start with one thing you like.</strong> A cheese, a cured meat, a jam, whatever you already know you want. You do not need a plan before you begin.</li>
+        <li><strong>Take the suggestions, or ignore them.</strong> Each time you add something, the builder re-ranks all ${itemCount} ingredients against what is already on your board and tells you why each one works.</li>
+        <li><strong>Filter for the table you actually have.</strong> Gluten-free, nut-free, dairy-free, vegetarian and vegan filters hide anything that does not fit.</li>
+        <li><strong>Set your guest count and get the list.</strong> Amounts for 1 to 200 people, sorted by store aisle, with prep steps and a layout plan for the board.</li>
+      </ol>
+      <p class="bb-how-note">Want a board that is already planned? Browse <a href="/boards/">50 board ideas</a>, or work out quantities on their own with the <a href="/party-planner/">party planner</a>.</p>
+    </div>
+  </section>
+
+  <section class="bb-faq" id="faq" aria-labelledby="bb-faq-title">
+    <div class="bb-wrap">
+      <h2 id="bb-faq-title">Questions about the board builder</h2>
+      <div class="ebook-faq-list">${FAQ.map(([q, a], k) => `<details${k === 0 ? " open" : ""}><summary>${escapeHtml(q)}</summary><p>${escapeHtml(a)}</p></details>`).join("")}</div>
+    </div>
+  </section>
+
   ${labNext("board_builder_next", { skip: ["builder"] })}
 </main>
 <script type="module" src="/assets/board-builder.js?v=${scriptVersion}"></script>`

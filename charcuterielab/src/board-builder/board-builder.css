@@ -1739,3 +1739,60 @@
     flex: 1 1 100%;
   }
 }
+
+/* ---- how it works + FAQ (13 Nov 2026) ----
+   The builder is JavaScript, so these two sections are most of what Google can
+   actually read on this page. They sit below the tool and fold away once
+   someone starts building, so they never get between a visitor and the board. */
+
+.bb-how,
+.bb-faq {
+  padding: 34px 0 6px;
+}
+
+.bb-faq {
+  padding-bottom: 34px;
+}
+
+.bb-how h2,
+.bb-faq h2 {
+  max-width: 24ch;
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: clamp(24px, 3.2vw, 32px);
+  font-weight: 500;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.bb-steps {
+  max-width: 68ch;
+  margin: 0;
+  padding-left: 1.1em;
+  line-height: 1.6;
+}
+
+.bb-steps li {
+  margin: 0 0 12px;
+}
+
+.bb-steps strong {
+  font-weight: 700;
+}
+
+.bb-how-note {
+  max-width: 68ch;
+  margin: 18px 0 0;
+  color: var(--ink-soft, #5d5245);
+  line-height: 1.6;
+}
+
+.bb-faq .ebook-faq-list {
+  max-width: 68ch;
+}
+
+/* once there's a board on the screen, the reading matter gets out of the way */
+.bb-main.is-building .bb-how,
+.bb-main.is-building .bb-faq {
+  display: none;
+}
