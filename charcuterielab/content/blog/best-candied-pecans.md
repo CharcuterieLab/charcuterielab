@@ -1,8 +1,8 @@
 ---
 title: "The Best Candied Pecans and Spiced Nuts for a Charcuterie Board"
-seo_title: "Best Candied Pecans and Spiced Nuts for a Charcuterie Board (2026)"
+seo_title: "Best Candied Pecans and Spiced Nuts for a Charcuterie Board"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/ingredients/candied-pecans.jpg"
 excerpt: "The best candied pecans and spiced nuts for a charcuterie board: Kirkland praline pecans, Trader Joe's Maple Spiced Nut Mix, Blue Diamond Smokehouse and honey roasted almonds, and Trader Joe's mesquite smoked almonds, plus which cheese each one goes with."
 description: "The best candied pecans and spiced nuts for a charcuterie board: Kirkland praline pecans, Trader Joe's Maple Spiced Nut Mix, Blue Diamond Smokehouse and honey roasted almonds, and Trader Joe's mesquite smoked almonds, plus which cheese each one goes with."

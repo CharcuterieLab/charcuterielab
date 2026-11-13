@@ -42,6 +42,15 @@ const TARGETS = [
   ["/blog/best-beef-jerky/", ["beef jerky", "jerky"]],
   ["/blog/best-meat-slicer/", ["meat slicer", "deli slicer"]],
   ["/blog/best-caviar/", ["caviar"]],
+  // Best Buys guides sitting at positions 10-26 on their own head term
+  // (Search Console, 28 days to 12 Nov 2026). Only the three below had any
+  // room left: blue cheese, pesto, queso, pepperoni, salami, smoked salmon,
+  // feta, eggnog and dark chocolate already have 15 to 37 internal links each
+  // through guide-links.mjs, so every page that mentions them links them
+  // already. Those need links from other sites, not more of ours.
+  ["/blog/best-french-onion-dip/", ["French onion dip"]],
+  ["/blog/best-pita-chips/", ["pita chips"]],
+  ["/blog/best-prosecco/", ["prosecco"]],
   // Ingredient pages at positions 10-20
   ["/ingredients/black-garlic/", ["black garlic"]],
   ["/ingredients/red-leicester/", ["Red Leicester"]],

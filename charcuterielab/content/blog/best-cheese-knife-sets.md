@@ -1,8 +1,8 @@
 ---
 title: "The Best Cheese Knife Sets for a Charcuterie Board (and to Give as a Gift)"
-seo_title: "Best Cheese Knife Sets for Charcuterie Boards (2026)"
+seo_title: "Best Cheese Knives & Knife Sets for Charcuterie (2026)"
 date: "2026-10-19"
-updated: "2026-10-19"
+updated: "2026-11-09"
 image: "/images/best-cheese-knife-sets.jpg"
 excerpt: "The best cheese knife sets for a charcuterie board: Boska Copenhagen is our everyday pick, Laguiole by Jean Dubost the splurge, and the Wüsthof cheese plane won America's Test Kitchen's test. Which knives you need and what to skip."
 description: "The best cheese knife sets for a charcuterie board: Boska Copenhagen is our everyday pick, Laguiole by Jean Dubost the splurge, and the Wüsthof cheese plane won America's Test Kitchen's test. Which knives you need and what to skip."

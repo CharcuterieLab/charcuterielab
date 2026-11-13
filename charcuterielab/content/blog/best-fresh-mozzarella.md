@@ -1,7 +1,8 @@
 ---
 title: "The Best Fresh Mozzarella for a Charcuterie Board, Ranked"
-seo_title: "Best Fresh Mozzarella for a Charcuterie Board"
+seo_title: "Best Fresh Mozzarella for a Charcuterie Board (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/fresh-mozzarella.jpg"
 excerpt: "The best fresh mozzarella for a charcuterie board, ranked with star ratings: Primo Taglio Fresh Mozzarella is our top pick, plus best value and splurge."
 description: "The best fresh mozzarella for a charcuterie board, ranked with star ratings: Primo Taglio Fresh Mozzarella is our top pick, plus best value and splurge."

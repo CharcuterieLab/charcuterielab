@@ -2,7 +2,7 @@
 title: "The Best Cornichons for a Charcuterie Board"
 seo_title: "Best Cornichons to Buy for a Charcuterie Board (2026)"
 date: "2026-10-25"
-updated: "2026-10-25"
+updated: "2026-11-02"
 image: "/images/ingredients/cornichons.jpg"
 excerpt: "The best cornichons for a charcuterie board: Maille is our pick for most people, Trader Joe's the cheapest, Edmond Fallot the splurge. What to look for on the label, which jars are sweet and how many to buy."
 description: "The best cornichons for a charcuterie board: Maille is our pick for most people, Trader Joe's the cheapest, Edmond Fallot the splurge. What to look for on the label, which jars are sweet and how many to buy."

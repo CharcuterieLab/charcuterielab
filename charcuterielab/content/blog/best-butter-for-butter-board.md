@@ -1,7 +1,8 @@
 ---
 title: "The Best Butter for a Butter Board, Ranked"
-seo_title: "Best Butter Brands for a Butter Board, Ranked"
+seo_title: "Best Butter Brands for a Butter Board, Ranked (2026)"
 date: "2026-10-12"
+updated: "2026-11-02"
 image: "/images/butter-board.jpg"
 excerpt: "The best butter for a charcuterie board, ranked: Kerrygold Pure Irish Butter (Salted) is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best butter for a charcuterie board, ranked: Kerrygold Pure Irish Butter (Salted) is our top pick. Star ratings, a best value and a splurge pick, and why."

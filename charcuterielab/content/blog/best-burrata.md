@@ -1,7 +1,8 @@
 ---
 title: "The Best Burrata at the Grocery Store, Ranked"
-seo_title: "Best Burrata at the Grocery Store, Ranked"
+seo_title: "Best Burrata at the Grocery Store, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/burrata.png"
 excerpt: "The best burrata for a charcuterie board, ranked: BelGioioso Burrata is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best burrata for a charcuterie board, ranked: BelGioioso Burrata is our top pick. Star ratings, a best value and a splurge pick, and why."

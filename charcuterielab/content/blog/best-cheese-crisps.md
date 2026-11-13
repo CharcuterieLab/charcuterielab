@@ -2,7 +2,7 @@
 title: "The Best Cheese Crisps for a Keto or Gluten-Free Charcuterie Board"
 seo_title: "Best Cheese Crisps for Keto and Gluten-Free Boards (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/ingredients/parmesan-crisps.jpg"
 excerpt: "The best cheese crisps for a keto or gluten-free charcuterie board: Whisps Parmesan won Sporked's keto snack test, Sonoma Creamery is the best cracker swap, plus ParmCrisps, Moon Cheese, Trader Joe's cheese bites and Aldi's Savoritz, with carbs and protein for each."
 description: "The best cheese crisps for a keto or gluten-free charcuterie board: Whisps Parmesan won Sporked's keto snack test, Sonoma Creamery is the best cracker swap, plus ParmCrisps, Moon Cheese, Trader Joe's cheese bites and Aldi's Savoritz, with carbs and protein for each."

@@ -1,7 +1,8 @@
 ---
 title: "The Best Gluten-Free Crackers for a Charcuterie Board, Ranked"
-seo_title: "Best Gluten-Free Crackers for Charcuterie, Ranked"
+seo_title: "Best Gluten-Free Crackers for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/50-boards-17-gluten-free.webp"
 excerpt: "The best gluten-free crackers for a charcuterie board, ranked with star ratings: Crunchmaster Multi-Seed Crackers is our top pick, plus best value and splurge."
 description: "The best gluten-free crackers for a charcuterie board, ranked with star ratings: Crunchmaster Multi-Seed Crackers is our top pick, plus best value and splurge."

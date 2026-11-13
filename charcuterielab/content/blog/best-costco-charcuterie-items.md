@@ -1,7 +1,8 @@
 ---
 title: "The Best Costco Charcuterie Board Items, Ranked"
-seo_title: "Best Costco Charcuterie Items: Cheese, Meat, Crackers"
+seo_title: "Best Costco Charcuterie Items: Cheese, Meat, Crackers (2026)"
 date: "2026-10-07"
+updated: "2026-11-02"
 image: "/images/ingredients/manchego.jpg"
 excerpt: "The best Costco items for a charcuterie board, ranked: Kirkland Manchego, Columbus salame, Crunchmaster and Carr's crackers lead. Ratings, prices and what to skip."
 description: "The best Costco items for a charcuterie board, ranked: Kirkland Manchego, Columbus salame, Crunchmaster and Carr's crackers lead. Ratings, prices and what to skip."

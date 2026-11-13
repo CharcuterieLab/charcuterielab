@@ -1,8 +1,8 @@
 ---
 title: "The Best Store-Bought Cocktail Sauce for Shrimp Cocktail"
-seo_title: "Best Store-Bought Cocktail Sauce (2026): 3 Taste Tests Compared"
+seo_title: "Best Store-Bought Cocktail Sauce (2026)"
 date: "2026-11-08"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/images/best-cocktail-sauce.jpg"
 excerpt: "The best store-bought cocktail sauce from three taste tests: Whole Foods 365 (Tasting Table's winner), Louisiana Fish Fry (Chowhound's winner), Waterfront Bistro (The Daily Meal's winner), S&F, Red Duck and McCormick, plus how to serve shrimp cocktail on a board."
 description: "The best store-bought cocktail sauce from three taste tests: Whole Foods 365 (Tasting Table's winner), Louisiana Fish Fry (Chowhound's winner), Waterfront Bistro (The Daily Meal's winner), S&F, Red Duck and McCormick, plus how to serve shrimp cocktail on a board."

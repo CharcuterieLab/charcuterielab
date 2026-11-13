@@ -1,6 +1,6 @@
 ---
 title: "The Best Fontina Cheese for a Charcuterie Board"
-seo_title: "Best Fontina Cheese Brands (2026): Val d'Aosta vs Danish vs Domestic"
+seo_title: "Best Fontina Cheese Brands (2026)"
 date: "2026-11-02"
 updated: "2026-11-02"
 image: "/images/best-fontina-brands.jpg"

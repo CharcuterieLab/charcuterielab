@@ -1,10 +1,11 @@
 ---
 title: "The Best Store-Bought French Onion Dip for a Charcuterie Board, Ranked"
-seo_title: "Best Store-Bought French Onion Dip, Ranked"
+seo_title: "Best Store-Bought French Onion Dip, Ranked (2026)"
 date: "2026-10-11"
+updated: "2026-11-02"
 image: "/images/charcuterie-board-dips.png"
 excerpt: "The best French onion dip for a charcuterie board, ranked: Heluva Good! French Onion Dip is our top pick. Star ratings, a short-ingredient pick and a store-brand pick, and why."
-description: "The best French onion dip for a charcuterie board, ranked: Heluva Good! French Onion Dip is our top pick. Star ratings, a short-ingredient pick and a store-brand pick, and why."
+description: "The best French onion dip for a charcuterie board, ranked: Heluva Good! French Onion Dip wins, with 5 more ranked on taste, value and how easy they are to find."
 faq: "[{"question": "What is the best store-bought French onion dip?", "answer": "Heluva Good! It ranked first at Chowhound, 9.5 out of 10 at Sporked and 2nd at Tasting Table. Daisy won Tasting Table's test."}, {"question": "Which French onion dip has the cleanest ingredients?", "answer": "Daisy Sour Cream French Onion Dip, made with cultured cream and a short ingredient list."}, {"question": "How long can French onion dip sit out?", "answer": "No more than 2 hours, or 1 hour above 90°F."}, {"question": "What goes with French onion dip on a board?", "answer": "Ridged potato chips, pretzels, carrots, celery and cucumber."}]"
 slug: "best-french-onion-dip"
 tags: "["best french onion dip", "best store bought french onion dip", "french onion dip brands", "heluva good dip", "chip dip for charcuterie board"]"

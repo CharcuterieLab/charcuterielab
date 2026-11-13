@@ -2,7 +2,7 @@
 title: "The Best Beef Jerky Brands (and How to Put Jerky on a Board)"
 seo_title: "Best Beef Jerky Brands (2026): Two Taste Tests Compared"
 date: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 image: "/images/best-beef-jerky.jpg"
 excerpt: "The best beef jerky brands from two taste tests: Old Trapper (Sporked's 10/10), Archer Grass-Fed (The Kitchn's winner), Tillamook Country Smoker, Great Value Peppered for budget, EPIC, Old Trapper Hot & Spicy and Aldi's Simms Biltong, plus how to serve jerky on a game-day board."
 description: "The best beef jerky brands from two taste tests: Old Trapper (Sporked's 10/10), Archer Grass-Fed (The Kitchn's winner), Tillamook Country Smoker, Great Value Peppered for budget, EPIC, Old Trapper Hot & Spicy and Aldi's Simms Biltong, plus how to serve jerky on a game-day board."

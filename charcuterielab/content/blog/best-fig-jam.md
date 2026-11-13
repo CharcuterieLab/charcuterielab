@@ -1,7 +1,8 @@
 ---
 title: "The Best Fig Jam for a Cheese Board, Ranked"
-seo_title: "Best Fig Jam for a Cheese Board, Ranked"
+seo_title: "Best Fig Jam for a Cheese Board, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-09"
 image: "/images/ingredients/fig-jam.jpg"
 excerpt: "The best fig jam for a charcuterie board, ranked: Dalmatia Original Fig Spread is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best fig jam for a charcuterie board, ranked: Dalmatia Original Fig Spread is our top pick. Star ratings, a best value and a splurge pick, and why."

@@ -1,8 +1,8 @@
 ---
 title: "The Best Cranberry Cheese for a Holiday Board"
-seo_title: "Best Cranberry Cheese (2026): Wensleydale, Cranberry Goat Cheese + More"
+seo_title: "Best Cranberry Cheese (2026): Wensleydale"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/best-cranberry-cheese.jpg"
 excerpt: "The best cranberry cheese for a Thanksgiving or Christmas board: Wensleydale with cranberries, Aldi's cranberry cinnamon goat cheese, Trader Joe's Cranberry Chèvre, Montchevre's goat log, Aldi cranberry white cheddar and white Stilton, plus where to find each and how to serve them."
 description: "The best cranberry cheese for a Thanksgiving or Christmas board: Wensleydale with cranberries, Aldi's cranberry cinnamon goat cheese, Trader Joe's Cranberry Chèvre, Montchevre's goat log, Aldi cranberry white cheddar and white Stilton, plus where to find each and how to serve them."

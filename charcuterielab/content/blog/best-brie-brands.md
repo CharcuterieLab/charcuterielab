@@ -2,6 +2,7 @@
 title: "The Best Brie Brands at the Grocery Store, Ranked"
 seo_title: "Best Brie Cheese: 7 Grocery Store Brands Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/brie.jpg"
 excerpt: "The best brie for a charcuterie board, ranked: Fromager d'Affinois is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best brie at the grocery store, ranked: Fromager d'Affinois wins, Trader Joe's Brie is the best value, plus Président, Marin French, Supreme and Saint Angel triple crème."

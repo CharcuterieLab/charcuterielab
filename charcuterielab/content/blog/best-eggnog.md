@@ -2,7 +2,7 @@
 title: "The Best Store-Bought Eggnog for the Holidays"
 seo_title: "Best Store-Bought Eggnog (2026): 4 Taste Tests Compared"
 date: "2026-11-03"
-updated: "2026-11-03"
+updated: "2026-11-08"
 image: "/images/best-eggnog.jpg"
 excerpt: "The best store-bought eggnog from four taste tests: Trader Joe's (Daily Meal's #1 of 13), Lactaid (top 4 in three tests), Hood Golden for a crowd, Southern Comfort Vanilla Spice for cocktails, organic GreenWise, extra-thick Ronnybrook and Chobani Oat Nog for dairy-free, plus how to serve eggnog with a Christmas dessert board."
 description: "The best store-bought eggnog from four taste tests: Trader Joe's (Daily Meal's #1 of 13), Lactaid (top 4 in three tests), Hood Golden for a crowd, Southern Comfort Vanilla Spice for cocktails, organic GreenWise, extra-thick Ronnybrook and Chobani Oat Nog for dairy-free, plus how to serve eggnog with a Christmas dessert board."

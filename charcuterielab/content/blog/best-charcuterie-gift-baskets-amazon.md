@@ -2,7 +2,7 @@
 title: "The Best Charcuterie Gift Baskets on Amazon, Compared (2026)"
 seo_title: "Best Charcuterie Gift Baskets on Amazon (2026), Compared"
 date: "2026-10-27"
-updated: "2026-10-27"
+updated: "2026-11-08"
 image: "/images/best-charcuterie-gift-baskets-amazon.jpg"
 excerpt: "The best meat and cheese gift baskets you can order on Amazon, compared side by side: Hickory Farms Signature Beef is the best seller, Harry & David is the biggest box, and California Delicious looks the best."
 description: "The best meat and cheese gift baskets you can order on Amazon, compared side by side: Hickory Farms Signature Beef is the best seller, Harry & David is the biggest box, and California Delicious looks the best."

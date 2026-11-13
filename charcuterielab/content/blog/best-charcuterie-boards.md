@@ -2,7 +2,7 @@
 title: "The Best Charcuterie Boards to Buy: Wood vs. Slate vs. Marble"
 seo_title: "Best Charcuterie Boards to Buy (2026): Wood, Slate, Marble"
 date: "2026-09-10"
-updated: "2026-10-26"
+updated: "2026-11-03"
 image: "/images/best-charcuterie-boards.jpg"
 excerpt: "The best charcuterie boards to buy, from a $20 bamboo board to a marble splurge, and how wood, slate and marble compare: what each material does, what size you need and how to care for it."
 description: "The best charcuterie boards to buy, from a $20 bamboo board to a marble splurge, and how wood, slate and marble compare: what each material does, what size you need and how to care for it."

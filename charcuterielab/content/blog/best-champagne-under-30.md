@@ -2,7 +2,7 @@
 title: "The Best Cheap Champagne and Sparkling Wine for New Year's Eve"
 seo_title: "Best Cheap Champagne Under $30 for New Year's Eve (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-08"
 image: "/images/pairings/pairings-wine-champagne-prosecco.webp"
 excerpt: "The best cheap Champagne for New Year's Eve: Kirkland Signature Champagne Brut for $20, Nicolas Feuillatte for a name brand, and sparkling wine made the Champagne way for less: Gruet, La Burgondie Crémant, Lucien Albrecht rosé and Gloria Ferrer, plus what to pair with a board."
 description: "The best cheap Champagne for New Year's Eve: Kirkland Signature Champagne Brut for $20, Nicolas Feuillatte for a name brand, and sparkling wine made the Champagne way for less: Gruet, La Burgondie Crémant, Lucien Albrecht rosé and Gloria Ferrer, plus what to pair with a board."

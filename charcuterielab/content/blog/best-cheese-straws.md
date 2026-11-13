@@ -1,6 +1,6 @@
 ---
 title: "The Best Store-Bought Cheese Straws for a Southern Board"
-seo_title: "Best Store-Bought Cheese Straws (2026): Mama Geraldine's and More"
+seo_title: "Best Store-Bought Cheese Straws (2026): Mama Geraldine's"
 date: "2026-11-09"
 updated: "2026-11-09"
 image: "/images/best-cheese-straws.jpg"

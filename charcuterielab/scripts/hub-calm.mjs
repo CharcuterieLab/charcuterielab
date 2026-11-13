@@ -174,7 +174,10 @@ export async function calmHubs(dist) {
       if (/^\/blog\/[^/]+\/$/.test(path) && html.includes('class="ing-crumb post-crumb"><a href="/blog/best-charcuterie-brands/">')) {
         const mod = (html.match(/"dateModified":"([^"]+)"/) || [])[1];
         const when = longDate(mod);
-        if (when) html = html.replace(/<p class="post-date">[^<·]*·/, `<p class="post-date">Last checked ${when} ·`);
+        // The post template also appends "· Updated <date>" when a guide has an
+        // `updated` date. Since 13 Nov 2026 every guide has one, so that would
+        // print the same date twice: keep "Last checked" and drop the suffix.
+        if (when) html = html.replace(/<p class="post-date">[^<·]*·/, `<p class="post-date">Last checked ${when} ·`).replace(/(<p class="post-date">[\s\S]*?)\s*·\s*Updated\s+[^<]*(<\/p>)/, "$1$2");
         html = html.replace(/<p class="aff-note">([^<]*)<a href="\/privacy\/#affiliate-links">How that works<\/a><\/p>/, (all, t) => `<p class="aff-note bb-trust">Scored on published taste tests, reviews and awards, ingredients, value and how easy it is to find. Prices vary by store. <a href="/blog/best-charcuterie-brands/#how-we-rank">How we rank</a> &middot; ${t}<a href="/privacy/#affiliate-links">How that works</a></p>`);
         n.guides++;
       }

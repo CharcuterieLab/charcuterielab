@@ -1,8 +1,8 @@
 ---
 title: "The Best Caviar to Buy, From $20 Roe to a New Year's Splurge"
-seo_title: "Best Caviar to Buy for New Year's Eve (2026): Budget to Splurge"
+seo_title: "Best Caviar to Buy for New Year's Eve (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-10"
 image: "/images/best-caviar.jpg"
 excerpt: "The best caviar to buy: Whole Foods whitefish caviar for under $25, Keta salmon roe, Noir hackleback for real sturgeon at $32, Paramount and California Caviar for a party, and Petrossian Ossetra for a splurge, plus how much to buy and what to serve it on."
 description: "The best caviar to buy: Whole Foods whitefish caviar for under $25, Keta salmon roe, Noir hackleback for real sturgeon at $32, Paramount and California Caviar for a party, and Petrossian Ossetra for a splurge, plus how much to buy and what to serve it on."

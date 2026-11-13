@@ -1,7 +1,8 @@
 ---
 title: "The Best Charcuterie and Meat and Cheese Gift Boxes, Ranked"
-seo_title: "Best Charcuterie Gift Boxes and Baskets, Ranked"
+seo_title: "Best Charcuterie Gift Boxes and Baskets, Ranked (2026)"
 date: "2026-10-16"
+updated: "2026-11-10"
 image: "/images/charcuterie-gift-basket.jpg"
 excerpt: "The best charcuterie gift boxes, ranked: Harry & David's meat and cheese box is our top pick, Boarderie is the best ready-to-serve board, and Swiss Colony is the budget pick. Prices, what's inside and what to skip."
 description: "The best charcuterie gift boxes, ranked: Harry & David's meat and cheese box is our top pick, Boarderie is the best ready-to-serve board, and Swiss Colony is the budget pick. Prices, what's inside and what to skip."

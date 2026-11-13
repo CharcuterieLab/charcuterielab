@@ -1,7 +1,8 @@
 ---
 title: "The Best Cheddar Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Cheddar Brands for Charcuterie, Ranked"
+seo_title: "Best Cheddar Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-08"
 image: "/images/ingredients/aged-cheddar.jpg"
 excerpt: "The best cheddar for a charcuterie board, ranked: Kerrygold Reserve Cheddar is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best cheddar for a charcuterie board, ranked: Kerrygold Reserve Cheddar is our top pick. Star ratings, a best value and a splurge pick, and why."

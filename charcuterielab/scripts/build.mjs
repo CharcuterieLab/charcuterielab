@@ -1335,7 +1335,9 @@ function autolinkIngredients(html, index, selfSlug) {
     if (part.startsWith("<")) {
       if (part === "<!--nolink-->") { skipDepth += 1; continue; }
       if (part === "<!--/nolink-->") { skipDepth = Math.max(0, skipDepth - 1); continue; }
-      const m = part.match(/^<(\/?)(a|h1|h2|h3|code|pre)\b/i);
+      // script too (13 Nov 2026): the Best Buys ranking schema is JSON-LD in
+      // the body, and linkifying a product name inside it broke the JSON.
+      const m = part.match(/^<(\/?)(a|h1|h2|h3|code|pre|script)\b/i);
       if (m) skipDepth += m[1] ? -1 : 1;
       if (skipDepth < 0) skipDepth = 0;
       continue;
@@ -2853,7 +2855,7 @@ function funnelPostBody(html, post, bookBoard) {
 
 // Best buys (2 Nov 2026): hub, finder and guide helpers live in best-buys.mjs.
 let BEST_CARDS = [];
-const BEST_H = { escapeHtml: (x) => escapeHtml(x), thumb: (src, size) => thumb(src, size) };
+const BEST_H = { escapeHtml: (x) => escapeHtml(x), thumb: (src, size) => thumb(src, size), jsonForScript: (x) => jsonForScript(x) };
 
 function postPage(post, relatedPosts = [], autolinkIndex = [], board = null, holiday = null, pairPlate = "") {
   const date = new Intl.DateTimeFormat("en", {
@@ -3027,7 +3029,7 @@ async function build() {
     if (BEST_CARDS.length) hub.html = bestHubHtml(hub.html, BEST_CARDS, BEST_H);
     const finder = BEST_CARDS.length ? hub.html : "";
     const bestSet = new Set(BEST_CARDS.map((c) => c.slug));
-    for (const p of posts) if ((/^best-/.test(p.slug) || bestSet.has(p.slug)) && p.slug !== "best-charcuterie-brands") p.html = bestGuideHtml(p.html, BEST_H);
+    for (const p of posts) if ((/^best-/.test(p.slug) || bestSet.has(p.slug)) && p.slug !== "best-charcuterie-brands") p.html = bestGuideHtml(p.html, BEST_H, p.slug);
     if (finder) {
       BEST_COUNT = BEST_CARDS.filter((c) => !["stores", "gifts"].includes(c.cat)).length;
       const want = ["best-brie-brands", "best-salami-brands", "best-fig-jam", "best-crackers-for-charcuterie", "best-costco-charcuterie-items", "best-cheddar-brands"];

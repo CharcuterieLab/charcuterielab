@@ -1,7 +1,8 @@
 ---
 title: "The Best Capicola (Coppa) for a Charcuterie Board: What to Buy"
-seo_title: "Best Capicola and Coppa Brands to Buy"
+seo_title: "Best Capicola and Coppa Brands to Buy (2026)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/coppa.jpg"
 excerpt: "The best capicola and coppa for a charcuterie board: dry-cured Volpi or Columbus coppa, Boar's Head Hot Capocollo at the deli, and how to tell cured coppa from cooked capicola."
 description: "The best capicola and coppa for a charcuterie board: dry-cured Volpi or Columbus coppa, Boar's Head Hot Capocollo at the deli, and how to tell cured coppa from cooked capicola."

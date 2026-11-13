@@ -1,6 +1,6 @@
 ---
 title: "The Best Cheese Curds for a Charcuterie Board"
-seo_title: "Best Cheese Curds (2026): Aldi, Award Winners + Wisconsin Picks"
+seo_title: "Best Cheese Curds (2026): Aldi, Award Winners"
 date: "2026-11-03"
 updated: "2026-11-08"
 image: "/images/best-cheese-curds.jpg"

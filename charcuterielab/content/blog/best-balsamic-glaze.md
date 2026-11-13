@@ -1,7 +1,8 @@
 ---
 title: "The Best Balsamic Glaze for a Charcuterie Board, Ranked"
-seo_title: "Best Balsamic Glaze Brands, Ranked"
+seo_title: "Best Balsamic Glaze Brands, Ranked (2026)"
 date: "2026-10-08"
+updated: "2026-11-02"
 image: "/images/ingredients/balsamic-glaze.jpg"
 excerpt: "The best balsamic glaze for a charcuterie board, ranked: Bertolli Balsamic Glaze is our top pick. Star ratings, a least-sweet pick, and why."
 description: "The best balsamic glaze for a charcuterie board, ranked: Bertolli Balsamic Glaze is our top pick. Star ratings, a least-sweet pick, and why."

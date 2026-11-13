@@ -1,7 +1,8 @@
 ---
 title: "The Best Aldi Charcuterie Board Items, Ranked"
-seo_title: "Best Aldi Charcuterie Items: Cheese, Meat, Crackers"
+seo_title: "Best Aldi Charcuterie Items: Cheese, Meat, Crackers (2026)"
 date: "2026-10-07"
+updated: "2026-11-02"
 image: "/images/blog-budget-board.jpg"
 excerpt: "The best Aldi items for a charcuterie board, ranked: Not Your Average Cheddar, Le Gruyère, Double Crème Brie and Appleton Farms prosciutto lead. Ratings, prices, skips."
 description: "The best Aldi items for a charcuterie board, ranked: Not Your Average Cheddar, Le Gruyère, Double Crème Brie and Appleton Farms prosciutto lead. Ratings, prices, skips."

@@ -1,7 +1,8 @@
 ---
 title: "The Best Camembert for a Charcuterie Board: What to Buy"
-seo_title: "Best Camembert Brands to Buy (US Grocery Guide)"
+seo_title: "Best Camembert Brands to Buy in 2026 (US Grocery Guide)"
 date: "2026-10-16"
+updated: "2026-11-02"
 image: "/images/ingredients/camembert.jpg"
 excerpt: "The best Camembert to buy for a charcuterie board: Marin French Cheese Co. for flavor, Président for easy finding, plus how to pick a ripe wheel and why US Camembert is pasteurized."
 description: "The best Camembert to buy for a charcuterie board: Marin French Cheese Co. for flavor, Président for easy finding, plus how to pick a ripe wheel and why US Camembert is pasteurized."

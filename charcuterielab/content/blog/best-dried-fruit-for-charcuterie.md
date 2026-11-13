@@ -2,7 +2,7 @@
 title: "The Best Dried Fruit for a Charcuterie Board"
 seo_title: "Best Dried Fruit for a Charcuterie Board (2026)"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-02"
 image: "/images/ingredients/dried-apricots.jpg"
 excerpt: "The best dried fruit for a charcuterie board: Mariani Turkish apricots, Sun-Maid Mission figs, Craisins, Kirkland unsweetened mango, tart Montmorency cherries and raisins on the vine, plus Turkish vs California apricots, sulfured vs unsulfured, and which fruit goes with which cheese."
 description: "The best dried fruit for a charcuterie board: Mariani Turkish apricots, Sun-Maid Mission figs, Craisins, Kirkland unsweetened mango, tart Montmorency cherries and raisins on the vine, plus Turkish vs California apricots, sulfured vs unsulfured, and which fruit goes with which cheese."

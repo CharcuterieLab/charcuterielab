@@ -1,7 +1,8 @@
 ---
 title: "The Best Crackers for a Charcuterie Board, Ranked by Brand"
-seo_title: "Crackers for a Charcuterie Board: Best Brands, Ranked"
+seo_title: "Crackers for a Charcuterie Board: Best Brands, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/charcuterie-board-crackers.png"
 excerpt: "The best crackers for a charcuterie board, ranked: Carr's Table Water Crackers is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best crackers for a charcuterie board, ranked: Carr's Table Water Crackers is our top pick. Star ratings, a best value and a splurge pick, and why."

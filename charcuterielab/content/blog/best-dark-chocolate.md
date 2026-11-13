@@ -1,10 +1,11 @@
 ---
 title: "The Best Dark Chocolate for a Charcuterie Board, Ranked"
-seo_title: "Best Dark Chocolate Bars at the Grocery Store, Ranked"
+seo_title: "Best Dark Chocolate Bars at the Grocery Store, Ranked (2026)"
 date: "2026-10-11"
+updated: "2026-11-10"
 image: "/images/ingredients/dark-chocolate.jpg"
 excerpt: "The best dark chocolate for a charcuterie board, ranked: Tony's Chocolonely Dark Chocolate 70% is our top pick. Star ratings, a best value and a splurge pick, and why."
-description: "The best dark chocolate for a charcuterie board, ranked: Tony's Chocolonely Dark Chocolate 70% is our top pick. Star ratings, a best value and a splurge pick, and why."
+description: "The best dark chocolate for a board, ranked: Tony's Chocolonely 70% wins, with Ghirardelli and Choceur close behind. Scores, prices and where to buy."
 faq: "[{"question": "What is the best dark chocolate for a charcuterie board?", "answer": "Tony's Chocolonely 70% ranked at or near the top of two big taste tests. For easy serving, Ghirardelli's 72% squares and Godiva's wrapped sticks are already in bite-size pieces."}, {"question": "What cheese goes with dark chocolate?", "answer": "Aged cheddar, blue cheese, Parmesan, aged Gouda and Manchego. Salty, nutty and sharp cheeses stand up to dark chocolate."}, {"question": "What percentage of dark chocolate is best?", "answer": "60% to 75% cacao suits most guests. Above 85% tastes bitter to many people."}, {"question": "Is dark chocolate vegan?", "answer": "Often, but not always. Some bars, including Aldi's Choceur, contain milk. Check the label."}]"
 slug: "best-dark-chocolate"
 tags: "["best dark chocolate", "best dark chocolate bar", "dark chocolate brands", "dark chocolate for charcuterie board", "chocolate and cheese pairing"]"

@@ -1,7 +1,8 @@
 ---
 title: "The Best Feta Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Feta Cheese Brands at the Grocery Store, Ranked"
+seo_title: "Best Feta Cheese Brands at the Grocery Store, Ranked (2026)"
 date: "2026-10-08"
+updated: "2026-11-02"
 image: "/images/ingredients/feta.jpg"
 excerpt: "The best feta for a charcuterie board, ranked: Mt Vikos Traditional Feta is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best feta for a charcuterie board, ranked: Mt Vikos Traditional Feta is our top pick. Star ratings, a best value and a splurge pick, and why."

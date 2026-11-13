@@ -1,10 +1,11 @@
 ---
 title: "The Best Canned Cranberry Sauce for a Thanksgiving Board, Ranked"
-seo_title: "Best Canned Cranberry Sauce, Ranked"
+seo_title: "Best Canned Cranberry Sauce, Ranked (2026)"
 date: "2026-10-11"
+updated: "2026-11-02"
 image: "/images/ingredients/cranberry-sauce.jpg"
 excerpt: "The best cranberry sauce for a charcuterie board, ranked: Ocean Spray Jellied Cranberry Sauce is our top pick. Star ratings, a best-tasting pick and an organic pick, and why."
-description: "The best cranberry sauce for a charcuterie board, ranked: Ocean Spray Jellied Cranberry Sauce is our top pick. Star ratings, a best-tasting pick and an organic pick, and why."
+description: "The best canned cranberry sauce for a board, ranked: Ocean Spray Jellied wins, with Tiptree and 365 Organic close behind. Scores and prices."
 faq: "[{"question": "What is the best canned cranberry sauce?", "answer": "For a board, Ocean Spray Jellied, which Food & Wine named the best jellied sauce. For flavor, Tiptree Wild Cranberry was Food & Wine's overall winner."}, {"question": "Is jellied or whole berry cranberry sauce better on a charcuterie board?", "answer": "Jellied slices into neat shapes. Whole berry spoons better onto brie and crackers. Many hosts put out both."}, {"question": "What cheese goes with cranberry sauce?", "answer": "Brie, camembert, sharp white cheddar, goat cheese and Wensleydale."}, {"question": "Can I make cranberry sauce shapes for a board?", "answer": "Yes. Chill the jellied sauce, slice it about half an inch thick, and cut it with small cookie cutters."}]"
 slug: "best-cranberry-sauce"
 tags: "["best canned cranberry sauce", "best cranberry sauce brand", "cranberry sauce brands", "cranberry sauce for charcuterie board", "thanksgiving charcuterie board"]"

@@ -1,7 +1,8 @@
 ---
 title: "The Best Blue Cheese Brands for a Charcuterie Board, Ranked"
-seo_title: "Best Blue Cheese Brands for Charcuterie, Ranked"
+seo_title: "Best Blue Cheese Brands for Charcuterie, Ranked (2026)"
 date: "2026-09-29"
+updated: "2026-11-02"
 image: "/images/ingredients/stilton.jpg"
 excerpt: "The best blue cheese for a charcuterie board, ranked: Point Reyes Original Blue is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best blue cheese for a charcuterie board, ranked: Point Reyes Original Blue is our top pick. Star ratings, a best value and a splurge pick, and why."

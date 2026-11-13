@@ -1,8 +1,8 @@
 ---
 title: "The Best Deli Meat Brands for a Charcuterie Board"
-seo_title: "Best Deli Meat Brands (2026): Boar's Head, Creminelli + Budget Picks"
+seo_title: "Best Deli Meat Brands (2026): Boar's Head, Creminelli"
 date: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 image: "/images/best-deli-meat-brands.jpg"
 excerpt: "The best deli meat brands for a charcuterie board: Boar's Head (Tasting Table's #1 of 12), Creminelli for cured meats, Gusto salami, Primo Taglio for budget boards, Applegate for clean labels and Hillshire Farm for roll-ups, plus how much to buy and the brand to skip."
 description: "The best deli meat brands for a charcuterie board: Boar's Head (Tasting Table's #1 of 12), Creminelli for cured meats, Gusto salami, Primo Taglio for budget boards, Applegate for clean labels and Hillshire Farm for roll-ups, plus how much to buy and the brand to skip."

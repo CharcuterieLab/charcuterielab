@@ -247,13 +247,52 @@ export function needBox(html, h) {
 </div>`;
 }
 
-export function guideHtml(html, h) {
+// Ranked-list schema (13 Nov 2026). The guides are ranked lists with a name,
+// a position, a score and a reason for every pick, but they carried only
+// FAQPage and BlogPosting, so nothing told Google the page was a ranking.
+// Built from the cards already on the page, so it can never drift from them.
+export function itemListSchema(html, slug, h) {
+  const strip = (x) => h.escapeHtml(String(x).replace(/<[^>]+>/g, "").replace(/&#x27;/g, "'").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim());
+  const items = [];
+  const re = /<article class="sk-card" id="(pick-(\d+))">([\s\S]*?)<\/article>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const body = m[3];
+    const name = strip((body.match(/<h3>([\s\S]*?)<\/h3>/) || [])[1] || "");
+    if (!name) continue;
+    const why = strip((body.match(/<p class="sk-why">\s*<strong>[^<]*<\/strong>([\s\S]*?)<\/p>/) || [])[1] || "");
+    const forDd = strip((body.match(/<dt>Best for<\/dt><dd>([\s\S]*?)<\/dd>/) || [])[1] || "");
+    const pill = strip((body.match(/<p class="sk-pill">([\s\S]*?)<\/p>/) || [])[1] || "");
+    items.push({
+      "@type": "ListItem",
+      position: Number(m[2]),
+      name,
+      url: `https://charcuterielab.com/blog/${slug}/#${m[1]}`,
+      ...(why || forDd ? { description: (why || `Best for ${forDd}`).slice(0, 300) } : {}),
+      ...(pill ? { alternateName: pill } : {})
+    });
+  }
+  if (items.length < 3) return "";
+  items.sort((a, b) => a.position - b.position);
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `https://charcuterielab.com/blog/${slug}/#ranking`,
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    numberOfItems: items.length,
+    itemListElement: items
+  };
+  return `<script type="application/ld+json">${h.jsonForScript(schema)}</script>`;
+}
+
+export function guideHtml(html, h, slug = "") {
   if (!html.includes('class="sk-cards"')) return html;
   let out = html.replace(/(<p class="sk-lede">Scored out of 5[^<]*?\.)\s*(Tap "Why we ranked it here" for the details\.)/, "$1 A 4.5 or higher is a standout, 4.0 to 4.4 is great, and under 4 is good with a catch. $2");
+  const list = slug ? itemListSchema(out, slug, h) : "";
   const box = needBox(out, h);
-  if (!box) return out;
+  if (!box) return out + list;
   const at = out.search(/<h2\b/i);
-  return at > 0 ? out.slice(0, at) + box + out.slice(at) : out;
+  return (at > 0 ? out.slice(0, at) + box + out.slice(at) : out) + list;
 }
 
 // "More cheese guides" under "Put the winners to work".

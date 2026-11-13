@@ -1,7 +1,8 @@
 ---
 title: "The Best Charcuterie Brands: Our Ranked Buying Guides"
-seo_title: "Best Charcuterie Brands: Ranked Buying Guides"
+seo_title: "Best Charcuterie Brands: Ranked Buying Guides (2026)"
 date: "2026-09-29"
+updated: "2026-11-10"
 image: "/images/charcuterie-board-crackers.png"
 excerpt: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 description: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
