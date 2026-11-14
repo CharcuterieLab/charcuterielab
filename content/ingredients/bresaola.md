@@ -42,6 +42,8 @@ fragility. No intramuscular fat means no melting richness, so bresaola tastes
 light and mineral rather than unctuous — but it also means nothing protects the
 slices from drying. Cut bresaola goes leathery within about fifteen minutes.
 
+Spain's version is [cecina](/ingredients/cecina/), air-dried beef from León, often lightly smoked.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

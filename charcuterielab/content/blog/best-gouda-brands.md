@@ -21,6 +21,8 @@ slug: "best-gouda-brands"
 
 For a board, aged Gouda is the prize: deep caramel flavor and crunchy crystals. Young Gouda is milder and softer. These brands cover both.
 
+Once you've chosen, see [what goes with Gouda](/pairings/food/gouda/) for the best fruit, meats and drinks to serve with it.
+
 :::html
 <h2 id="picks">All 6, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

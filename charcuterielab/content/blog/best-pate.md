@@ -25,6 +25,8 @@ One slab next to cornichons, mustard and baguette makes a board feel like a Fren
 
 *How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
+Like pâté? Try [liverwurst](/ingredients/liverwurst/), its sliceable German cousin.
+
 :::html
 <h2 id="picks">All 4 picks</h2>
 <p class="sk-lede">Not scored: no side-by-side test of these exists yet, so each is picked for a job. Tap "Why we picked it" for the sources.</p>

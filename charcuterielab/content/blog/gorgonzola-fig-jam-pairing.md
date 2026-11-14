@@ -42,6 +42,8 @@ Honey on blue cheese is a classic, and it works because it's sweet. But on an ol
 - **How much:** about 1 oz of Gorgonzola and 1 to 2 teaspoons of jam per person.
 - **Crackers:** plain water crackers, or walnut crackers.
 
+In late summer, swap the jam for [fresh figs](/pairings/food/figs/), halved, with a drizzle of honey.
+
 ## Make it bigger
 
 - **Walnuts** add more tannin and crunch.

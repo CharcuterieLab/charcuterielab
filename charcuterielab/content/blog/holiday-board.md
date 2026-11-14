@@ -36,7 +36,7 @@ When you're building color intentionally, you're also building flavor contrast i
 
 ## Scale: Quantities for Holiday Boards
 
-For a **grazing board** (standalone meal or multi-hour cocktail event):
+For a **[grazing board](/blog/grazing-board-vs-charcuterie-board/)** (standalone meal or multi-hour cocktail event):
 - Cheese: 3 oz per person
 - Charcuterie: 3 oz per person
 - Crackers/bread: 8–12 pieces per person

@@ -42,6 +42,8 @@ stays pink and roast pork turns gray. The brine also holds water in the
 muscle, so wet-cured ham stays far juicier and milder than a dry-cured ham
 like prosciutto.
 
+For a drier, smoky German-style ham, try [Black Forest ham](/ingredients/black-forest-ham/).
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

@@ -22,6 +22,8 @@ tags: "["best prosecco", "best prosecco under 20", "prosecco brands", "prosecco 
 
 Bubbles cut salty meat and rich cheese, and prosecco does it for less than Champagne. Most good bottles are under $20.
 
+Why sparkling wine works so well with cheese: [why bubbles cut fat](/blog/why-bubbles-cut-fat/).
+
 :::html
 <h2 id="picks">All 7, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

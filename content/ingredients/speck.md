@@ -41,6 +41,8 @@ smoking cooks meat and drives smoke hard into the surface; cold smoking below
 20°C only perfumes it. That's why speck tastes of smoke as one note among
 juniper, salt and pork rather than as a coating.
 
+A close cousin from southern Germany is [Black Forest ham](/ingredients/black-forest-ham/), another smoked, cured ham.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

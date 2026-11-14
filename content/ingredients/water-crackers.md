@@ -45,6 +45,8 @@ which is why the two names mean the same thing.
 The near-zero fat is what makes it useful. Butter crackers coat your palate,
 which flattens a delicate cheese; a water cracker gets out of the way.
 
+In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredients/cream-crackers/): plain, but flakier.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

@@ -81,6 +81,7 @@ Ranking the jars? See [the best olives for charcuterie](/blog/best-olives-for-ch
 - [Best Nuts for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-nuts/)
 - [The Salt-Sweet Principle: Why Contrast Works](https://charcuterielab.com/salt-sweet-principle/)
 - [Best Dips for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-dips/)
+- [Marinated Olives Recipe](/blog/marinated-olives-recipe/)
 
 :::html
 <h2 id="faq">FAQ</h2>

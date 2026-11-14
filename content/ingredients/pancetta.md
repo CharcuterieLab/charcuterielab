@@ -42,6 +42,8 @@ roughly half fat, far more than a ham or a salami, so pancetta delivers a much
 bigger hit of richness per slice. That's why an ounce is plenty and why acid
 beside it isn't optional.
 
+It's cured but usually meant to be cooked, unlike prosciutto. [Prosciutto vs pancetta](/blog/prosciutto-vs-pancetta/) explains which to put on a board.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

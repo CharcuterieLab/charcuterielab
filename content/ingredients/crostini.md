@@ -46,6 +46,8 @@ and rubbed with raw garlic. **Melba toast** is sliced thinner and baked twice
 until brittle. **Crackers** were never bread. Crostini sit in the middle, which
 is exactly why they're useful.
 
+To make your own, see our [crostini recipe](/blog/crostini-recipe/).
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

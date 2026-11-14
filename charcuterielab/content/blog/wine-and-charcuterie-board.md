@@ -152,6 +152,7 @@ Already chose the wine? **Light red:** prosciutto or salami, aged Gouda or Manch
 - [What Goes on a Charcuterie Board](https://charcuterielab.com/what-goes-on-a-charcuterie-board/)
 - [Manchego on a Charcuterie Board](https://charcuterielab.com/manchego-charcuterie-board/)
 - [Prosciutto on a Charcuterie Board](https://charcuterielab.com/prosciutto-charcuterie-board/)
+- [Why Bubbles Cut Fat](/blog/why-bubbles-cut-fat/)
 
 :::html
 <h2 id="faq">FAQ</h2>

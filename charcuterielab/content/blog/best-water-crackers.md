@@ -21,6 +21,8 @@ slug: "best-water-crackers"
 
 A water cracker carries the cheese without getting in the way. The differences: thinness, sturdiness and how plain it is.
 
+In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredients/cream-crackers/): plain, but flakier.
+
 :::html
 <h2 id="picks">All 6, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

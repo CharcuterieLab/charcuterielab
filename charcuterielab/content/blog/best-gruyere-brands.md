@@ -22,6 +22,8 @@ tags: "["best gruyere", "best gruyere brand", "gruyere cheese brands", "gruyere 
 
 Check the label: in the US, "gruyere" can mean a 12-month Swiss wheel or a 4-month domestic block.
 
+Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gruyere-vs-comte/) first.
+
 :::html
 <h2 id="picks">All 6, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

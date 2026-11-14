@@ -42,6 +42,8 @@ out golden and floral; winter wheels come from hay-fed cows and are paler and
 nuttier. Two wedges of the same cheese can taste noticeably different, and good
 cheesemongers will tell you which you're getting.
 
+Often confused with its Swiss neighbor: [Gruyère vs Comté](/blog/gruyere-vs-comte/) compares the two side by side.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

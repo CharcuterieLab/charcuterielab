@@ -375,6 +375,8 @@ The cheapest crowd-pleasers on this list cost a few dollars a batch: pepper jell
 - [Baked Brie Recipe](/blog/baked-brie-recipe/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)
 - [All Christmas Boards](/holidays/christmas/)
+- [Cranberry Brie Bites](/blog/cranberry-brie-bites-recipe/)
+- [Marinated Olives Recipe](/blog/marinated-olives-recipe/)
 
 ## Sources
 

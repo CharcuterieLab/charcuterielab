@@ -22,6 +22,8 @@ tags: "["best balsamic glaze", "balsamic glaze brands", "balsamic reduction", "b
 
 A drizzle of glaze makes burrata, strawberries or Parmesan look finished. Rankings lean on Sporked's taste test, ingredients and price.
 
+For an older Italian alternative, try [saba](/ingredients/saba/), a syrup of cooked-down grape must.
+
 :::html
 <h2 id="picks">All 5, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

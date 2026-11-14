@@ -68,6 +68,7 @@ That explains some of the oldest pairings on any board. Parmigiano (glutamate) w
 - **Cut aged cheese into rough chunks.** Breaking Parmigiano with a knife tip shows off the crystals and gives a better bite than thin slices.
 - **Keep fresh cheese for contrast.** A mild burrata or chevre next to savory meat gives the palate a rest.
 - **Pour something with acid or bubbles.** Lambrusco, dry sparkling wine or a crisp lager suits a very savory board. See [why bubbles cut fat](/blog/why-bubbles-cut-fat/).
+- **Try a wildcard.** [Black garlic](/ingredients/black-garlic/) is garlic aged slowly in warm heat until it turns soft, sweet and savory. A few cloves beside aged cheese add depth.
 
 ## Try it in two minutes
 

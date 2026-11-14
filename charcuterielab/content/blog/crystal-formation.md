@@ -68,6 +68,7 @@ Older cheese is more intense because it has lost moisture and built up those sav
 - [The Temperature Guide for Charcuterie and Cheese (Pull Times That Actually Matter)](https://charcuterielab.com/blog/temperature-guide/)
 - [How to Label Cheese on a Charcuterie Board: When to Do It and What to Write](https://charcuterielab.com/cheese-labels/)
 - [Aged Cheddar: The Science Behind the Sharpness (And How to Use It on a Board)](https://charcuterielab.com/blog/aged-cheddar/)
+- [Umami on a Board: Why Aged Cheese Tastes So Savory](/blog/umami-cheese-and-cured-meat/)
 
 :::html
 <h2 id="faq">FAQ</h2>

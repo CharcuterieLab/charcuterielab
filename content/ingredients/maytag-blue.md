@@ -41,6 +41,8 @@ leans acidic and lemony — a brighter, sharper profile that comes from a
 higher-acid curd. It's a genuinely different flavor direction, not an imitation
 of anything.
 
+Another American blue worth a spot: [Rogue River Blue](/ingredients/rogue-river-blue/), wrapped in grape leaves soaked in pear brandy.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

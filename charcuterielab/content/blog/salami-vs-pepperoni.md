@@ -99,6 +99,8 @@ Salami works too; it just lies flat and stays softer. For pepperoni-style heat, 
 
 Want the full list? See [the best meats for a charcuterie board](/blog/best-meats-charcuterie-board/), or look up [what goes with pepperoni](/pairings/?q=pepperoni) in the Pairing Finder.
 
+Weighing salami against Spanish chorizo instead? See [salami vs chorizo](/blog/salami-vs-chorizo/).
+
 ## Why is it called pepperoni?
 
 The name comes from *peperoni*, the Italian word for bell peppers. Ask for a pepperoni pizza in Italy and you'll likely get peppers. The closest Italian equivalent is *salame piccante*, spicy salami.

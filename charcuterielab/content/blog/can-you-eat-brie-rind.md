@@ -67,6 +67,8 @@ A small number of people do react to cheese molds themselves. If you've ever had
 
 Camembert's rind is the same kind of mold as brie's, so the same answer applies. See [brie vs. Camembert](/blog/brie-vs-camembert/) for how the two differ.
 
+For every rind type, from bloomy to washed to wax, see [cheese rinds explained](/blog/cheese-rind-types/).
+
 ## Related Reading
 
 - [Charcuterie Board Etiquette](/blog/charcuterie-board-etiquette/)

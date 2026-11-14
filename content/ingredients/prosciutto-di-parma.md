@@ -41,6 +41,8 @@ That's where the sweetness and the nutty depth come from, and it's why a
 twelve-month ham tastes fundamentally different from a fast-cured one, not just
 saltier.
 
+Not the same as pancetta, which is usually cooked: see [prosciutto vs pancetta](/blog/prosciutto-vs-pancetta/).
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

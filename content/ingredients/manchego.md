@@ -41,6 +41,8 @@ cow's milk, which the tongue reads as nutty and rich rather than sharp. That's
 why Manchego stays approachable at two years where a cow's-milk cheese of the
 same age would be aggressive.
 
+[Manchego vs Pecorino](/blog/manchego-vs-pecorino/) compares it with Italy's best-known sheep's-milk cheese.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

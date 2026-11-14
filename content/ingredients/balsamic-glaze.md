@@ -41,6 +41,8 @@ acetic acid, so a glaze delivers a bigger hit of each than the vinegar it came
 from — and the viscosity keeps it sitting on the surface where you taste it,
 rather than running off into the board.
 
+For an older Italian alternative, try [saba](/ingredients/saba/), a syrup of cooked-down grape must.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

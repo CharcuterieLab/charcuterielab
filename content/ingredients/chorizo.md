@@ -43,6 +43,8 @@ from peppers dried slowly over oak smoke, so it brings smoke, sweetness and
 colour in one ingredient. That's why chorizo tastes smoked without ever seeing
 a smokehouse, and why the fat runs orange.
 
+Choosing between this and an Italian salami? [Salami vs chorizo](/blog/salami-vs-chorizo/) compares spice, texture and how to serve each.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

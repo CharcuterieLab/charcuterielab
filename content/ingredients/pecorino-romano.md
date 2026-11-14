@@ -41,6 +41,8 @@ slightly gamey character. Layer weeks of dry salt on top of that and you get a
 cheese that reads as seasoning rather than as a mild snack — which is why it's
 grated over pasta and eaten in small pieces on a board.
 
+[Manchego vs Pecorino](/blog/manchego-vs-pecorino/) compares it with Spain's best-known sheep's-milk cheese.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

@@ -20,6 +20,8 @@ tags: "["types of salami", "salami types", "kinds of salami", "italian salami", 
 <nav class="sk-jump" aria-label="On this page"><a href="#glance">At a glance</a><a href="#italian">Italian</a><a href="#american">American</a><a href="#spanish-french">Spanish &amp; French</a><a href="#spiciest">Spiciest</a><a href="#pick">How to pick</a><a href="#storage">Storage</a><a href="#faq">FAQ</a></nav>
 :::
 
+Comparing two? See [salami vs chorizo](/blog/salami-vs-chorizo/) and [salami vs pepperoni](/blog/salami-vs-pepperoni/).
+
 ## What makes a salami a salami?
 
 Salami is a method, not a single sausage. Ground meat and fat are seasoned with salt and spices, stuffed into a casing, fermented, then hung to dry until firm enough to slice.

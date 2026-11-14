@@ -93,6 +93,8 @@ Cut a square of [Taleggio](/ingredients/taleggio/) into **small rectangles or tr
 
 Don't cut [burrata](/ingredients/burrata/) until it's on the board: set it whole in a shallow dish and tear it open right before serving so the cream spills out. [Fresh mozzarella](/ingredients/fresh-mozzarella/) pearls go on as they are; a large ball can be torn into rough pieces.
 
+**One exception:** [Tête de Moine](/ingredients/tete-de-moine/) isn't cut at all. It's shaved into ruffled rosettes with a girolle.
+
 ## Which rinds to eat
 
 | Rind | Eat it? | Cheeses |
@@ -101,6 +103,8 @@ Don't cut [burrata](/ingredients/burrata/) until it's on the board: set it whole
 | Washed, orange or sticky rind | Yes, though it's strong | Taleggio, Epoisses |
 | Natural rind on aged cheese | Usually not; it's hard and dry | Parmigiano-Reggiano, Comté, Gruyère |
 | Wax, cloth or plastic coating | No | Waxed gouda, cloth-bound cheddar, coated Manchego |
+
+For what each type of rind is and how it tastes, see [cheese rinds explained](/blog/cheese-rind-types/).
 
 ## How much to cut, and when
 

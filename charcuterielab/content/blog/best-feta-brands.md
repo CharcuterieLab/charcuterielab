@@ -22,6 +22,8 @@ tags: "["best feta", "best feta cheese brand", "feta brands", "feta for charcute
 
 For a board you want a block, not crumbles. Rankings favor blocks, then two taste tests.
 
+Once you've chosen, see [what goes with feta](/pairings/food/feta/) for the best pairings and drinks.
+
 :::html
 <h2 id="picks">All 8, ranked</h2>
 <p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>

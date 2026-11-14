@@ -89,6 +89,8 @@ A $25 board can genuinely impress. Sharp cheddar, dry salami, baguette crostini,
 
 **Which store is cheapest?** We priced the same board for 10 at four stores in the [Charcuterie Price Index](/blog/charcuterie-price-index/): Aldi came in at $33.90, Trader Joe's at $50.20.
 
+Want real numbers? [How much a charcuterie board costs](/blog/how-much-does-a-charcuterie-board-cost/) breaks down the cost per guest at three levels.
+
 ## Related Reading
 
 - [The Best Aldi Charcuterie Board Items, Ranked](/blog/best-aldi-charcuterie-items/)

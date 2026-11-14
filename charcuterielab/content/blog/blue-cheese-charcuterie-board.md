@@ -124,6 +124,7 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 - [How Is Cheese Aged](https://charcuterielab.com/how-is-cheese-aged/)
 - [Fruit for a Charcuterie Board](https://charcuterielab.com/blog/charcuterie-board-fruit/)
 - [White Mold on Cheese](https://charcuterielab.com/white-mold-on-cheese/)
+- [What Goes With Pears](/pairings/food/pears/)
 
 ## FAQ
 

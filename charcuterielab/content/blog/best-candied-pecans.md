@@ -23,6 +23,8 @@ tags: "["best candied pecans", "candied pecans for charcuterie board", "praline 
 
 One sweet nut and one smoky nut beside the cheese do more than a big bowl of plain mixed nuts.
 
+Rather make your own? Our [candied pecans recipe](/blog/candied-pecans-recipe/) takes 10 minutes on the stove.
+
 :::html
 <h2 id="picks">All 6 picks</h2>
 <p class="sk-lede">Prices are store listings and reviews checked October 2026.</p>

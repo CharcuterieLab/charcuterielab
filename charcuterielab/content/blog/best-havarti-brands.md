@@ -25,6 +25,8 @@ Havarti is the mild, buttery cheese almost every guest eats. Put it next to a sh
 
 *How we picked these: no one has taste-tested these side by side, so there are no star scores. We used awards, the few tests that exist and how each one works on a board. Sources are at the end; our method is on the [buying guides hub](/blog/best-charcuterie-brands/#how-we-rank). Checked October 2026.*
 
+Once you've chosen, see [what goes with Havarti](/pairings/food/havarti/) for the best pairings and drinks.
+
 :::html
 <h2 id="picks">All 4 picks</h2>
 <p class="sk-lede">Not scored: no side-by-side test of these exists yet, so each is picked for a job. Tap "Why we picked it" for the sources.</p>

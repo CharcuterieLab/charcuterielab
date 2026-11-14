@@ -60,6 +60,8 @@ Honey's sugar compounds work through a different pathway — they activate sweet
 
 Sourdough's fermentation acids (lactic and acetic) resonate with nduja's own fermentation compounds, creating flavor harmony between the bread and the meat that simple crackers can't produce.
 
+Pouring wine with it? Alcohol makes chili heat feel stronger. See [spicy salami and wine](/blog/spicy-salami-and-wine/) for what to pour instead.
+
 ## Common Mistakes
 
 **Serving nduja cold.** Cold nduja is stiff, waxy, and muted. Allow at least 45 minutes at room temperature before serving. The fat needs to be fluid for the flavor to open up.

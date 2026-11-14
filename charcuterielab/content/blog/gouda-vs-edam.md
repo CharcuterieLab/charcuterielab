@@ -59,6 +59,8 @@ That's also why aged Gouda became famous and aged Edam mostly didn't. Over 18 mo
 
 Take both out of the fridge before serving: young cheeses about 30 minutes ahead, aged Gouda 45 to 60 minutes.
 
+Picked Gouda? See [what goes with Gouda](/pairings/food/gouda/) for the fruit, meats and drinks that suit it.
+
 ## How to read the labels
 
 - **"Gouda" with no age** is young: mild and soft.

@@ -40,6 +40,8 @@ paste and keeping the fat content high produces a spread that never firms up,
 so the sausage stays soft without needing to be cooked or emulsified. Cold
 smoke then flavours it without setting it.
 
+If you like it, try [liverwurst](/ingredients/liverwurst/), the cooked liver sausage from the same German deli counter.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

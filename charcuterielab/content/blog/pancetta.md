@@ -108,6 +108,8 @@ Pancetta occupies a specific niche on a board: it's approachable, familiar to gu
 
 ---
 
+Mixing it up with prosciutto is common: [prosciutto vs pancetta](/blog/prosciutto-vs-pancetta/) sorts out which is which.
+
 ## Where to Find It
 
 Pancetta is one of the more widely available Italian cured meats:

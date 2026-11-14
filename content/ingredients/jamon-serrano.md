@@ -42,6 +42,8 @@ from a slow-growing native breed fattened on acorns and cures for three or
 four. Same technique, different raw material and half the aging — which is why
 serrano is savory and simple where ibérico is sweet and complex.
 
+Two more Spanish cures worth trying beside it: [lomo](/ingredients/lomo/), cured pork loin, and [cecina](/ingredients/cecina/), cured beef.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

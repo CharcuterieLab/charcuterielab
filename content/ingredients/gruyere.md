@@ -44,6 +44,8 @@ gives the cheese its density and its long aging potential — and because that
 structure holds together under heat, Gruyère melts into a smooth sauce instead
 of splitting. Very few cheeses are excellent both raw and melted; this is one.
 
+Often confused with its French neighbor: [Gruyère vs Comté](/blog/gruyere-vs-comte/) compares the two side by side.
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

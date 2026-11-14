@@ -23,6 +23,8 @@ tags: "["best ricotta cheese", "best ricotta brand", "belgioioso ricotta", "whip
 
 On a board, ricotta shows up whipped in a bowl with honey and crostini. The taste tests below disagree in a useful way: some tasters want dense and smooth, others want loose and fresh.
 
+For a 5-minute way to use it, see [whipped ricotta with hot honey](/blog/whipped-ricotta-recipe/).
+
 :::html
 <h2 id="picks">All 6 picks</h2>
 <p class="sk-lede">Prices are store listings checked November 2026; supermarket prices vary by store.</p>

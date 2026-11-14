@@ -80,6 +80,38 @@ const TARGETS = [
   ["/ingredients/cranberry-goat-cheese/", ["cranberry goat cheese"]],
   ["/ingredients/spicy-brown-mustard/", ["spicy brown mustard"]],
   ["/ingredients/blood-oranges/", ["blood oranges", "blood orange"]],
+  // Content coverage pushes (13 Nov 2026, claude/internal-links-2026-11-13.md).
+  // The 10 new science and recipe posts and the new pear and fig pairing
+  // pages, plus page-one and page-two pages with 3 or fewer pages linking to
+  // them in body copy. Phrases are specific on purpose: never a bare food
+  // name the ingredient autolinker already uses, so one anchor never points
+  // at two pages. Hand-written links for the rest are in the source files.
+  ["/blog/why-bubbles-cut-fat/", ["carbonation", "bubbles cut", "the bubbles"]],
+  ["/blog/umami-cheese-and-cured-meat/", ["umami"]],
+  ["/blog/cheese-rind-types/", ["washed-rind", "washed rind", "bloomy-rind", "bloomy rind", "natural-rind", "natural rind", "cheese rinds"]],
+  ["/blog/spicy-salami-and-wine/", ["spicy salami", "spicy meats", "spicy meat", "spicy foods", "spicy food"]],
+  ["/blog/how-to-taste-cheese/", ["cheese tasting", "tasting party", "taste cheese"], 4],
+  ["/blog/crystal-formation/", ["cheese crystals", "crunchy crystals", "crystals"]],
+  ["/blog/candied-pecans-recipe/", ["homemade candied pecans", "candied nuts", "spiced nuts"], 6],
+  ["/blog/marinated-olives-recipe/", ["marinated olives", "warm olives"], 4],
+  ["/blog/whipped-ricotta-recipe/", ["whipped ricotta"], 4],
+  ["/blog/crostini-recipe/", ["homemade crostini", "toasted baguette", "baguette toasts"], 5],
+  ["/blog/cranberry-brie-bites-recipe/", ["brie bites", "cranberry brie"], 4],
+  ["/pairings/food/pears/", ["sliced pears", "pear slices", "fresh pears", "ripe pears", "Bosc pears", "Bosc pear"], 6],
+  ["/pairings/food/figs/", ["fresh figs"], 6],
+  ["/blog/wedding-charcuterie-grazing-table/", ["wedding grazing table", "wedding charcuterie", "wedding reception", "wedding cocktail hour", "wedding shower"], 6],
+  ["/blog/charcuterie-board-baby-shower/", ["baby shower"], 4],
+  ["/blog/cheeses-from-mild-to-strong/", ["mild to strong", "mildest to strongest"], 4],
+  ["/blog/charcuterie-chart/", ["charcuterie chart", "pairing chart"], 4],
+  ["/blog/charcuterie-unhealthy/", ["unhealthy"], 4],
+  ["/boards/classic-budget-luxury/", ["budget board", "luxury board"], 6],
+  ["/boards/seasonal-holiday/", ["seasonal boards", "holiday boards"], 6],
+  ["/boards/occasions-parties/", ["cocktail party boards", "party boards"], 4],
+  ["/boards/dietary-kids/", ["kid-friendly boards", "kids' boards", "boards for kids"], 6],
+  ["/boards/pairings-sweet/", ["dessert boards"], 6],
+  ["/ingredients/pastirma/", ["pastirma", "basturma"]],
+  ["/ingredients/salchichon/", ["salchichón", "salchichon"]],
+  ["/ingredients/lap-cheong/", ["lap cheong", "Chinese sausage"]],
 ];
 
 // Most-clicked pages, Search Console Oct 12 - Nov 8 2026 (5+ clicks), best first.

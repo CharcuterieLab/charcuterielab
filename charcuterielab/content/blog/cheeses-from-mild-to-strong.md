@@ -91,6 +91,8 @@ Planning cheese after dinner? [The cheese course](/blog/cheese-course/) shows ho
 
 Want the whole map? [Types of cheese](/blog/types-of-cheese/) sorts 100 cheeses into 8 families, with a searchable chart.
 
+Tasting your way down the list? See [how to taste cheese like a pro](/blog/how-to-taste-cheese/).
+
 ## Where do you tap out?
 
 Comment your level, and tag the friend who needs to try level 12. For a full board built around a strong cheese, browse the [Board Library](/boards/).

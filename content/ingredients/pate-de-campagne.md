@@ -41,6 +41,8 @@ makes it taste like pâté rather than meatloaf; too much and it turns bitter an
 pasty. Country pâté sits at a modest ratio — usually a fifth to a third — which
 is why it reads as savoury and rustic rather than rich and livery.
 
+For a sliceable German take on a liver spread, try [liverwurst](/ingredients/liverwurst/).
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

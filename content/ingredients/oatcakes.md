@@ -42,6 +42,8 @@ sweetness; blue cheese brings salt, acid and funk. The oatcake absorbs and
 rounds the cheese's sharp edges the way a butter cracker does, but with an
 earthy nuttiness that a butter cracker can't offer.
 
+For a plainer British cracker, try [cream crackers](/ingredients/cream-crackers/).
+
 ## What it pairs with — and why
 
 | Pair it with | Why it works |

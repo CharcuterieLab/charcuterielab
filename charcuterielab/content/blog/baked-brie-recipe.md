@@ -127,6 +127,7 @@ For pregnant guests: the CDC focuses on avoiding raw-milk cheese, and the NHS sa
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Thanksgiving Charcuterie Board](/blog/thanksgiving-charcuterie-board/)
 - [Can You Eat Brie Rind?](/blog/can-you-eat-brie-rind/)
+- [Cranberry Brie Bites](/blog/cranberry-brie-bites-recipe/)
 
 ## FAQ
 

@@ -84,6 +84,7 @@ Eat the same rich, salty food over and over and it starts to taste flatter. That
 - [How to Pair by Contrast: The Five Axes of Charcuterie Board Flavor](https://charcuterielab.com/blog/pairing-by-contrast/)
 - [How to Build a Wine and Cheese Board: Applying Pairing Science to Assembly](https://charcuterielab.com/wine-cheese-board/)
 - [Quince Paste (Membrillo): The Spanish Pairing That Makes Manchego Better](https://charcuterielab.com/quince-paste/)
+- [Why Bubbles Cut Fat](/blog/why-bubbles-cut-fat/)
 
 :::html
 <h2 id="faq">FAQ</h2>

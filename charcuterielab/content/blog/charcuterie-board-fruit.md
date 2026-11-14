@@ -70,6 +70,8 @@ tags: "["charcuterie board fruit", "charcuterie board", "board building"]"
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) covers 50 complete boards — each with specific fruit selections, quantities, and placement logic matched to the cheese and meat selections.
 
+Full pairing guides for two of the best board fruits: [what goes with pears](/pairings/food/pears/) and [what goes with figs](/pairings/food/figs/).
+
 ## Related Reading
 
 - [Fig Jam on a Charcuterie Board](https://charcuterielab.com/fig-jam-charcuterie-board/)
