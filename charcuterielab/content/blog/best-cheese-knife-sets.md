@@ -25,7 +25,7 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 
 :::html
 <h2 id="which-knives">Which knives do you need?</h2>
-<p class="sk-lede">Three shapes cover every cheese on a board.</p>
+<p class="sk-lede">Three shapes cover every cheese on a board. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-tools"><figure class="sk-tool"><svg viewBox="0 0 160 50" width="160" height="50" role="img" aria-label="Soft-cheese knife with holes in the blade" class="sk-knife"><rect x="4" y="20" width="50" height="10" rx="5" fill="currentColor"/><path d="M54 15 H138 Q156 15 152 30 L148 35 H54 Z" fill="#fbf6ea" stroke="currentColor" stroke-width="2.5"/><circle cx="80" cy="25" r="4.5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="102" cy="25" r="4.5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="124" cy="25" r="4.5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg><figcaption><strong>1. Soft-cheese knife</strong><span><b>For:</b> brie, Camembert, goat cheese</span><span><b>Look for:</b> holes in the blade so cheese doesn't stick</span></figcaption></figure><figure class="sk-tool"><svg viewBox="0 0 160 50" width="160" height="50" role="img" aria-label="Knife with a two-pronged fork tip" class="sk-knife"><rect x="4" y="20" width="50" height="10" rx="5" fill="currentColor"/><path d="M54 19 H132 L154 18 L141 25 L154 32 L132 31 H54 Z" fill="#fbf6ea" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg><figcaption><strong>2. Fork-tip knife</strong><span><b>For:</b> cheddar, Gouda, Manchego</span><span><b>Look for:</b> two prongs at the tip to lift slices</span></figcaption></figure><figure class="sk-tool"><svg viewBox="0 0 160 50" width="160" height="50" role="img" aria-label="Short, pointed hard-cheese knife" class="sk-knife"><rect x="4" y="20" width="50" height="10" rx="5" fill="currentColor"/><path d="M54 16 H94 L120 25 L94 34 H54 Z" fill="#fbf6ea" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg><figcaption><strong>3. Hard-cheese knife</strong><span><b>For:</b> Parmesan, aged Gouda</span><span><b>Look for:</b> a short, pointed blade to break off chunks</span></figcaption></figure></div>
 <p class="sk-note"><strong>Nice extras:</strong> a spreader for Boursin and jam, and a cheese plane for thin slices of Gouda. <a href="/blog/how-to-cut-cheese-charcuterie-board/">How to cut each cheese</a></p>
 :::
@@ -36,64 +36,64 @@ A good set does three jobs: slices soft cheese without sticking, lifts semi-hard
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boska Copenhagen Cheese Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>In the box</dt><dd>3 knives: soft, semi-hard, hard</dd></div><div><dt>Dishwasher</dt><dd>Yes</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Covers every cheese on a board for the least money.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $29–35 in the US (€20 from Boska in Europe)</dd></div><div><dt>In the box</dt><dd>3 knives: soft, semi-hard, hard</dd></div><div><dt>Dishwasher</dt><dd>Yes</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Three knives that cover every cheese on a board: a holey blade for brie, a forked knife for semi-hard cheese and a stubby spade for chipping Parmesan. Each is one piece of stainless steel, so there&#x27;s no handle to loosen, and they go in the dishwasher. It&#x27;s the set we&#x27;d buy first.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Plain all-steel look. For a gift, see Monaco+ or Laguiole.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07B5Q337D" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Boska lists the set as dishwasher safe with a lifetime guarantee, at €19.99 on its own store (<a href="https://www.boska.com/en/products/cheese-knife-set-copenhagen" target="_blank" rel="noopener">Boska</a>). Bustle picked a knife from the same Copenhagen line as its best for hard cheese, cast from a single piece of steel (<a href="https://www.bustle.com/life/best-cheese-knives" target="_blank" rel="noopener">Bustle</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best gift set</p><h3>Boska Monaco+ Cheese Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>In the box</dt><dd>Brie, cheese and Parmesan knives</dd></div><div><dt>Dishwasher</dt><dd>Yes, but hand wash advised</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The Copenhagen&#x27;s three jobs with a satin finish that looks like a gift.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About €45 from Boska; US prices vary</dd></div><div><dt>In the box</dt><dd>Brie, cheese and Parmesan knives</dd></div><div><dt>Dishwasher</dt><dd>Yes, but hand wash advised</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The same three jobs as the Copenhagen set with a satin finish and a heavier feel, so it looks like a proper gift. Hand washing keeps the finish looking new.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Costs about twice the Copenhagen set.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B07B5JLMT8" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A brie knife, a cheese knife and a Parmesan knife in satin-finish stainless steel (<a href="https://www.knivesandtools.co.uk/en/pt/-boska-monaco--307095-cheese-knife-set.htm" target="_blank" rel="noopener">Knivesandtools</a>). Boska sells it for €44.99 (<a href="https://www.boska.com/en/collections/cheese-knives" target="_blank" rel="noopener">Boska</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Splurge</p><h3>Laguiole by Jean Dubost 3-Piece Cheese Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>In the box</dt><dd>Cleaver, fork-tip knife, spreader</dd></div><div><dt>Dishwasher</dt><dd>Hand wash recommended</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Beautiful on the counter, and it comes boxed, ready to give.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $100</dd></div><div><dt>In the box</dt><dd>Cleaver, fork-tip knife, spreader</dd></div><div><dt>Dishwasher</dt><dd>Hand wash recommended</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A cleaver for hard cheese, a fork-tipped knife and a spreader with the classic Laguiole bee and handles that look beautiful on the counter. It comes boxed and ready to give, which makes it a strong wedding or hostess gift.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The cleaver makes chunks, not thin slices.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01N3P0S37" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>An 8.5-inch cleaver for hard cheese, a 9-inch fork-tipped knife and a 6-inch spreader, about $100 (<a href="https://cookswarehouse.com/products/jean-dubost-3-piece-cheese-set-in-box-stainless-steel" target="_blank" rel="noopener">Cook&#x27;s Warehouse</a>). Cheese Grotto and Taste of Home both point to Laguiole pieces for a board.</p></details>
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best big-name set</p><h3>Zwilling 3-Piece Stainless Steel Cheese Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>In the box</dt><dd>Soft (with holes), fork-tip, Parmesan</dd></div><div><dt>Made in</dt><dd>China</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Good shapes, including holes in the soft-cheese blade.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $100</dd></div><div><dt>In the box</dt><dd>Soft (with holes), fork-tip, Parmesan</dd></div><div><dt>Made in</dt><dd>China</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Well-designed shapes: a broad soft-cheese blade with holes so brie doesn&#x27;t stick, a fork-tipped knife for cheddar and a pointed Parmesan knife, all in brushed steel. It&#x27;s a sturdy set that will last decades.</p>
 <p class="sk-mind"><strong>Watch out:</strong> About four times the Boska Copenhagen for the same three jobs.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B071XWST82" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>A soft-cheese knife with holes in a broad blade, a fork-tipped knife for cheddar and Jack, and a pointed Parmesan knife in brushed stainless steel. Zwilling lists it at $99.99, made in China (<a href="https://www.zwilling.com/us/zwilling-accessories-3-pc-cheese-knife-set/39432-000.html" target="_blank" rel="noopener">Zwilling</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best cheese plane</p><h3>Wüsthof Gourmet 4¾-Inch Cheese Plane</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK winner (2017)</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Clean, even slices of Gouda, Jarlsberg and Gruyère every time.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $34–45</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK winner (2017)</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> America&#x27;s Test Kitchen&#x27;s winning cheese plane: perfect, even slices of Gouda, Jarlsberg, Havarti and Gruyère every time, thanks to a thin, flexible head. If your boards lean on semi-firm cheese, a plane makes slicing fast and neat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> One job only. ATK&#x27;s test is from 2017.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08XK14FNK" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>America&#x27;s Test Kitchen tested nine planes on cheddar and Manchego. This one &quot;produced perfect, clean-edged, even slices of ideal thickness every time,&quot; thanks to a thin, flexible head (<a href="https://www.americastestkitchen.com/cooksillustrated/articles/525-testing-cheese-planes" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Budget plane</p><h3>OXO Good Grips Cheese Plane</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK recommended</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> A good plane for less, sold almost everywhere.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>About $15</dd></div><div><dt>What it is</dt><dd>1 cheese plane</dd></div><div><dt>Tested</dt><dd>ATK recommended</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Nearly as good as the Wüsthof in America&#x27;s Test Kitchen&#x27;s test for about half the price, with a nonstick head and a soft, grippy handle. It&#x27;s the plane to buy if you just want neat slices for sandwiches and boards.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Cheese edges stuck and broke a little more often than with the Wüsthof.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B079DD92CQ" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Recommended in the same America&#x27;s Test Kitchen test, performing nearly as well as the winner (<a href="https://www.americastestkitchen.com/cooksillustrated/articles/525-testing-cheese-planes" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><p class="sk-pill">Best single knife</p><h3>Prodyne Multi-Use Cheese Knife</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>What it is</dt><dd>1 knife: holes, serrated edge, fork tip</dd></div><div><dt>Dishwasher</dt><dd>Check the listing</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The cheapest way to cover soft and hard cheese with one knife.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>What it is</dt><dd>1 knife: holes, serrated edge, fork tip</dd></div><div><dt>Dishwasher</dt><dd>Check the listing</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> One knife that handles everything: holes so soft cheese doesn&#x27;t stick, a serrated edge for hard cheese and a forked tip to lift slices. Bustle named it the best all-purpose cheese knife. Perfect if you don&#x27;t want a whole set.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Picked on shopper reviews, not a hands-on test.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CMYB99ZH" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Holes stop soft cheese sticking, a serrated edge handles hard cheese and a forked tip lifts slices. Bustle named it the best all-purpose cheese knife (<a href="https://www.bustle.com/life/best-cheese-knives" target="_blank" rel="noopener">Bustle</a>).</p></details>
 </article>
 <article class="sk-card" id="pick-8">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">8</span><div><p class="sk-pill">Best board and knives in one</p><h3>RoyalHouse Bamboo Cheese Board and Knife Set</h3></div></div>
-<dl class="sk-facts"><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>In the box</dt><dd>Bamboo board, 4 knives in a slide-out drawer</dd></div><div><dt>Best for</dt><dd>A new host</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> An easy starter gift: everything arrives together.</p>
+<dl class="sk-facts"><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>In the box</dt><dd>Bamboo board, 4 knives in a slide-out drawer</dd></div><div><dt>Best for</dt><dd>A new host</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A bamboo board with a slide-out drawer holding four cheese knives, so the whole kit arrives together. It&#x27;s the easy starter gift for someone who&#x27;s just getting into boards. The knives are basic, but the board is a good size for 4–6 people.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The knives are basic. Pair a better set with a separate board if you can.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B08HFLNS6T" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>The same design as the CTFT board and knife set that NBC Select&#x27;s editors chose (<a href="https://www.nbcnews.com/select/amp/rcna124654" target="_blank" rel="noopener">NBC Select</a>): a bamboo board with a drawer of four cheese knives. The CTFT set now sells on Amazon for about $80, mostly through other sellers, so we point to this one at about $25. No editor has tested this exact board.</p></details>

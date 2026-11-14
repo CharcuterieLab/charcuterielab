@@ -16,7 +16,7 @@ tags: "["best gruyere", "best gruyere brand", "gruyere cheese brands", "gruyere 
 > **Quick Answer:** Our top pick for Gruyère on a charcuterie board is Emmi Kaltbach Le Gruyère AOP (4.4 out of 5). Value: Emmi Le Gruyère AOP. Pasteurized: Emmi Roth Grand Cru Surchoix.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emmi Kaltbach Le Gruyère AOP</a><p class="sk-top-line">Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$$</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Emmi Le Gruyère AOP</a><p class="sk-top-line">Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pasteurized</p><a class="sk-top-name" href="#pick-5">Emmi Roth Grand Cru Surchoix</a><p class="sk-top-line">The best choice when a guest needs pasteurized cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-5">Where to buy</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Emmi Kaltbach Le Gruyère AOP</a><p class="sk-top-line">Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · about $23 / lb</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Emmi Le Gruyère AOP</a><p class="sk-top-line">Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · about $8 / 6 oz</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best pasteurized</p><a class="sk-top-name" href="#pick-5">Emmi Roth Grand Cru Surchoix</a><p class="sk-top-line">The best choice when a guest needs pasteurized cheese.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $$</span><a class="button sk-buy-sm" href="#pick-5">Where to buy</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -26,13 +26,13 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Emmi Kaltbach Le Gruyère AOP</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The showpiece cheese</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, Kroger and other grocery cheese cases, cheese counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Deep, aged flavor with crunchy crystals. Made for eating, not just melting.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The showpiece cheese</dd></div><div><dt>Price</dt><dd>About $23 a pound (5 oz wedges; BJ&#x27;s sells a 14 oz piece)</dd></div><div><dt>Where</dt><dd>H-E-B, ShopRite, Whole Foods, BJ&#x27;s, Kroger and other grocery cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cave-aged Gruyère with deep, nutty, slightly sweet flavor and crunchy crystals. It&#x27;s the Gruyère made for eating, not just melting. Cut it into thin batons and serve with cornichons, grainy mustard and a slice of ham for a little Swiss corner of the board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> The priciest here, and the brown cave rind is not for eating.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Aged more than 12 months in sandstone caves. Tasters in <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s Gruyère test called it funky, fruity and nutty, and one said it &quot;would be a showstopper on a cheese plate.&quot;</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
@@ -40,8 +40,8 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Emmi Le Gruyère AOP</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>An easy, mild Gruyère</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Walmart, Kroger, Target and most grocery cheese cases.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Real AOP Gruyère in most supermarkets, in a 6 oz piece.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>An easy, mild Gruyère</dd></div><div><dt>Price</dt><dd>About $8 for a 6 oz bar</dd></div><div><dt>Where</dt><dd>Walmart, Target, ShopRite, Kroger stores, most grocery cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Real AOP Gruyère from Switzerland, aged about 5 months, so it&#x27;s mild, smooth and nutty rather than sharp. It&#x27;s the Gruyère you can find nearly anywhere. Great for kids&#x27; boards, fondue nights and cubing.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder and softer than an aged Gruyère, with fewer crystals.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A young Swiss import aged 5 to 6 months that <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a> recommended and one taster called &quot;Gruyère for beginners&quot;: buttery and nutty, softer than the older wheels. Walmart shoppers rate it 4.6 out of 5 across more than 1,700 ratings. (Source: <a href="https://www.walmart.com/reviews/product/37560425" target="_blank" rel="noopener">Walmart</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
@@ -49,8 +49,8 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>1655 Le Gruyère AOP</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The taste-test winner</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters and specialty grocers.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The top score in the only big published Gruyère test.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The taste-test winner</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Cheese counters, specialty grocers.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The winner of America&#x27;s Test Kitchen&#x27;s Gruyère tasting, with layered nutty, fruity flavor. Look for it at a cheese counter that cuts to order. It&#x27;s the Gruyère for a cheese lover&#x27;s board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find than the Emmi cheeses, and the test is from 2017.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The winner of <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s Gruyère test. Aged 12 to 14 months, it had the most fat and one of the lowest moisture levels, with an &quot;excellent crystalline structure&quot; and a &quot;deeply aged, caramel-like&quot; flavor. <a href="https://www.tastingtable.com/1907808/grocery-store-cheese-expensive" target="_blank" rel="noopener">Tasting Table</a> also points to it as the Gruyère to buy.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
@@ -58,8 +58,8 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Mifroma Le Gruyère Cavern AOP</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Nutty and complex</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters and some grocery cheese cases.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Plenty of crystals and a layered flavor.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Nutty and complex</dd></div><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Cheese counters, some grocery cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cave-aged 9 to 11 months, with plenty of crystals and a layered, earthy flavor at a lower price than most aged Gruyère. It&#x27;s a strong middle-ground pick between the mild grocery bar and premium wheels.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less widely stocked than Emmi.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Cave-aged 9 to 11 months. <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s tasters found it nutty and complex, with a fruity tang and a savory onion note. One counted &quot;five visible tyrosine crystals in a single piece.&quot;</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
@@ -67,8 +67,8 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best pasteurized</p><h3>Emmi Roth Grand Cru Surchoix</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>A pasteurized Gruyère</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery cheese cases and deli counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The best choice when a guest needs pasteurized cheese.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A pasteurized Gruyère</dd></div><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Most grocery cheese cases, deli counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A Wisconsin alpine-style cheese made in the Gruyère tradition. It&#x27;s pasteurized, which makes it the safe choice when a pregnant guest wants a nutty, Swiss-style cheese. It tastes close to a young Gruyère.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not Swiss AOP Gruyère, and a little less complex.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Wisconsin alpine-style cheese made with pasteurized milk and aged at least 9 months. <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s tasters noted caramelized sweetness, mushroom and onion notes, and a buttery texture with crunchy crystals.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -76,8 +76,8 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Boar&#x27;s Head Blanc Grue Gruyère</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.2 out of 5"><span class="sk-label">Our score</span><b>3.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:64%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Sandwiches more than boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Boar&#x27;s Head deli counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Sliced to order at the deli counter.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sandwiches more than boards</dd></div><div><dt>Price</dt><dd>Sold by the pound at the deli (price varies)</dd></div><div><dt>Where</dt><dd>Boar&#x27;s Head deli counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A domestic Gruyère-style cheese you can have sliced to order, thin for roll-ups or thick for cubing. It&#x27;s milder than a Swiss import. Handy when you&#x27;re already at the deli for meats.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild and drier than the Swiss cheeses. Not AOP.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A domestic, pasteurized Gruyère-style cheese with no set aging time. <a href="https://www.americastestkitchen.com/cookscountry/taste_tests/1791-gruyere-cheese" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a> recommended it with reservations (&quot;not offensive but no sparkle&quot;), and <a href="https://www.tastingtable.com/1899821/boars-head-cheeses-ranked-best-worst/" target="_blank" rel="noopener">Tasting Table</a> ranked it 8th of 11 Boar&#x27;s Head cheeses, between a good Swiss and provolone.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>

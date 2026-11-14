@@ -16,7 +16,7 @@ slug: "best-salami-brands"
 > **Quick Answer:** Our top pick for salami on a charcuterie board is Olli Salumeria (4.5 out of 5). Best value: Volpi Genoa Salame. Splurge: Fra' Mani.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Olli Salumeria</a><p class="sk-top-line">Four styles in one pack. Well-reviewed.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · about $15–19 / 12 oz</span><a class="button sk-buy-sm" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Volpi Genoa Salame</a><p class="sk-top-line">Classic flavor. Reasonable price.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.3/5 · about $6–7.50 / 4 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Fra&#x27; Mani</a><p class="sk-top-line">Heavily awarded. Traditional methods.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · about $6 / 2.5–3 oz</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -24,13 +24,13 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 
 :::html
 <h2 id="picks">All 7, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Olli Salumeria</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>An easy mixed platter</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Whole Foods, Target, most grocery.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Four styles in one pack. Well-reviewed.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>An easy mixed platter</dd></div><div><dt>Price</dt><dd>About $15–19 for a 12 oz Antipasto tray (4 salami)</dd></div><div><dt>Where</dt><dd>Whole Foods, Target, Kroger stores, H-E-B. Costco sells a 16 oz variety pack.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> One tray gives you Genoa, Napoli, Toscano and Calabrese, so a single purchase covers mild, garlicky and spicy without buying four packs. The slices are thin enough to fold into a salami river, and the spread of flavors means guests can compare. Enough for a board for 6–8 as the only salami.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than basic brands.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.olli.com/" target="_blank" rel="noopener">See it at Olli</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Olli&#x27;s Antipasto pack puts four salami varieties in one package and won <a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a>&#x27;s Best Selection. Olli says it uses vegetarian-fed, antibiotic-free pork, and its Salamini line won a 2023 Mindful Award. (Source: <a href="https://www.provisioneronline.com/articles/115249-olli-salumerias-new-salamini-line-wins-2023-mindful-award-for-overall-food-product-of-the-year" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
@@ -38,8 +38,8 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Volpi Genoa Salame</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The classic Genoa</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Whole Foods, Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Classic flavor. Reasonable price.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The classic Genoa</dd></div><div><dt>Price</dt><dd>About $6–7.50 for a 4 oz pack</dd></div><div><dt>Where</dt><dd>Kroger stores, H-E-B, Target, regional grocers.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The classic Genoa: mild, garlicky, black-pepper flecked and soft enough to fold into roses without cracking. It goes with everything, from sharp cheddar to brie, so it&#x27;s the safe first salami for any board. A 4 oz pack is about 30 slices, enough for 4–6 guests alongside another meat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not as widely stocked as mass brands.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B004YVQ6TK" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A family business making salami in St. Louis since 1902. Its Genoa is mild, garlicky and easy to fold into a salami river. (Source: <a href="https://en.wikipedia.org/wiki/Volpi_Foods" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -47,8 +47,9 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Columbus Salame</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Widely available quality</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Easy to find. Several styles.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Widely available quality</dd></div><div><dt>Price</dt><dd>About $6 for a 5 oz pack</dd></div><div><dt>Where</dt><dd>Walmart, Kroger stores, ShopRite, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The best salami you can find almost anywhere. The Italian Dry is firm and peppery, the Calabrese adds real heat, and the 5 oz packs cost less per ounce than most rivals. Grab one mild and one spicy and the meat side of the board is done.</p>
+<p class="sk-note"><strong>From our delivery kitchen:</strong> I use Columbus Salame all the time as it is quality, easy-to-find, and different helpful variations.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Some varieties are spicy.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01MYXAWVD" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Columbus Calabrese ranked second in <a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s salami test for its nuanced pepper heat, and <a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a> named Columbus Italian Dry its best Italian salami.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
@@ -56,16 +57,16 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Fra&#x27; Mani</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Heavily awarded</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Heavily awarded. Traditional methods.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Heavily awarded</dd></div><div><dt>Price</dt><dd>About $6 for a 2.5–3 oz sliced pack</dd></div><div><dt>Where</dt><dd>Whole Foods, H-E-B, Safeway, specialty grocers (mostly West Coast).</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Small-batch salami from chef Paul Bertolli, with deeper, cleaner pork flavor than grocery brands. The Toscano, with fennel and black pepper, is the one to try. The packs are small and pricey per ounce, so use it as the one standout meat next to a cheaper Genoa.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Founded by chef Paul Bertolli. Fra&#x27; Mani has won 12 Good Food Awards, and its Toscano took Best in Class at the 2023 World Charcuterie Awards. (Source: <a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Creminelli Fine Meats</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Premium flavors</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, specialty grocers.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Distinctive flavors. Good ingredients.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Premium flavors</dd></div><div><dt>Price</dt><dd>About $11–13 for a 5.5 oz whole salami; 2 oz sliced packs about $6</dd></div><div><dt>Where</dt><dd>Whole Foods, Kroger stores, Safeway, H-E-B.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Flavors you won&#x27;t find elsewhere: Barolo (red wine), truffle, and Varzi with nutmeg. A whole stick sliced at home looks great fanned on a board and keeps for weeks unopened. Pick one flavor as a conversation piece rather than building the whole board on it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Smaller packs.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00Z6K4F14" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Salt Lake City salumeria founded in 2007 by Cristiano Creminelli, from a family of Italian salumi makers. It won a Sofi Award in 2013 and makes unusual flavors like Barolo and truffle. (Source: <a href="https://en.wikipedia.org/wiki/Creminelli_Fine_Meats" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
@@ -73,16 +74,16 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Boar&#x27;s Head Hard Salami</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Sliced fresh. Everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>About $12–15 a pound, sliced to order</dd></div><div><dt>Where</dt><dd>Deli counters at Publix, Kroger stores, Harris Teeter, Lowes Foods and most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Buying at the counter lets you choose the thickness: ask for it a little thicker than sandwich slices so it folds without tearing. Hard salami is drier and saltier than Genoa, with a strong pork flavor that stands up to aged cheddar. Ask for a quarter pound per 4 guests if it shares the board with other meats.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard salami is less nuanced than Genoa.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a>&#x27;s best hard salami, with strong pork flavor and good fat content. Buying it sliced at the counter means fresher edges than a tray.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 4 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>
 </article>
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Applegate Naturals Uncured Genoa</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Uncured. Easy to find.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Uncured option</dd></div><div><dt>Price</dt><dd>About $5.50–6 for a 4 oz pack</dd></div><div><dt>Where</dt><dd>Walmart, Kroger stores, ShopRite, Target, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The easy pick when guests ask about nitrates: uncured, with no added nitrites beyond those in celery powder. The flavor is milder and a little sweeter than Volpi or Columbus, which suits kids and cautious eaters. Pair it with something bolder elsewhere on the board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=applegate+naturals+uncured+genoa+salami" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Reviews split: <a href="https://sporked.com/article/best-salami/" target="_blank" rel="noopener">Sporked</a> named it the best Genoa, while <a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked it near the bottom as fatty and chewy. A fair pick if you want uncured.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>

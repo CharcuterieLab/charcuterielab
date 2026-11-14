@@ -1,0 +1,3 @@
+/* Best Buys top 25 (14 Nov 2026): first-hand notes and the price-check line */
+:is(.post-body, .gf-skim) .sk-note { margin: 0 0 8px; padding: 8px 12px; border-left: 3px solid var(--accent, #a0522d); background: color-mix(in srgb, var(--accent, #a0522d) 7%, transparent); border-radius: 0 8px 8px 0; }
+.sk-checked { display: block; margin-top: 4px; font-size: .9em; color: var(--muted); }

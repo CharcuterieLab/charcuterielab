@@ -16,7 +16,7 @@ slug: "best-brie-brands"
 > **Quick Answer:** Our top pick for brie on a charcuterie board is Fromager d'Affinois (4.4 out of 5). Best value: Trader Joe's Brie.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Fromager d&#x27;Affinois</a><p class="sk-top-line">Extremely creamy. Top-ranked.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Trader Joe&#x27;s Brie</a><p class="sk-top-line">Very cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $</span><a class="button sk-buy-sm" href="#pick-5">Where to buy</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Fromager d&#x27;Affinois</a><p class="sk-top-line">Extremely creamy. Top-ranked.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.4/5 · about $21 / lb</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-5">Trader Joe&#x27;s Brie</a><p class="sk-top-line">Very cheap.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · about $8 / lb</span><a class="button sk-buy-sm" href="#pick-5">Where to buy</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 7, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -24,13 +24,13 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 
 :::html
 <h2 id="picks">All 7, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Fromager d&#x27;Affinois</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The crowd-pleaser</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Cheese counters, Whole Foods, most grocery.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Extremely creamy. Top-ranked.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The crowd-pleaser</dd></div><div><dt>Price</dt><dd>About $21 a pound, cut to order (a typical piece is about $8)</dd></div><div><dt>Where</dt><dd>Cheese counters at Kroger stores, H-E-B and Whole Foods; Costco carries the garlic-and-herb version.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The creamiest &#x27;brie&#x27; at the grocery store, buttery and mild with a soft rind that guests actually eat. It&#x27;s made with ultrafiltered milk, so it isn&#x27;t technically brie, but nobody at the party will care. Take it out of the fridge an hour ahead so it slumps and goes glossy.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Very soft, so it spreads when warm.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s top grocery brie, with the most complex flavor and exceptional creaminess. Technically it is not brie: the milk is ultrafiltered, which makes it richer and faster to make. (Source: <a href="https://en.wikipedia.org/wiki/Fromager_d&#x27;Affinois" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
@@ -38,8 +38,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Président Brie</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Reliable everyday brie</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Nearly every grocery store.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Everywhere. Consistent.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Reliable everyday brie</dd></div><div><dt>Price</dt><dd>About $6 for an 8 oz wheel</dd></div><div><dt>Where</dt><dd>Walmart, Target, ShopRite and nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Dependable, cheap and everywhere, with a little more mushroomy flavor than most grocery brie. It&#x27;s the one to bake: it melts evenly without leaking. Score the top, add jam or hot honey, and bake at 350°F for 15 minutes.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Texture not the creamiest.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Slightly more mushroomy than most grocery brie, and <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a>&#x27;s pick for <a href="/blog/baked-brie-recipe/">baked brie</a> because it melts beautifully. (Source: <a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
@@ -47,8 +47,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Marin French Cheese Co. Petite Crème</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Small-wheel boards</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case, West Coast especially.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> American, award-winning. Board-sized wheels.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Small-wheel boards</dd></div><div><dt>Price</dt><dd>About $8–12 for a 4 oz wheel</dd></div><div><dt>Where</dt><dd>Grocery cheese cases (mostly West Coast), specialty shops; Costco sometimes sells a 4-wheel variety pack.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A tiny triple-crème wheel from California&#x27;s oldest cheese company. It&#x27;s rich and buttery, and the whole little wheel looks lovely on a board for 2–4. Set out two or three of these instead of one big wedge for a board that looks abundant.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less common in the East.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A small triple-crème brie from the country&#x27;s oldest cheese company, founded in 1865. It won a bronze medal at the 2025 World Cheese Awards. (Source: <a href="https://californiadairymagazine.com/2025/12/16/northern-california-marin-french-cheese-co-earns-top-honors-at-the-2025-world-cheese-awards/" target="_blank" rel="noopener">California Dairy Magazine</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
@@ -56,8 +56,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Supreme Brie</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Rich and mild</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Very creamy. Mild.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Rich and mild</dd></div><div><dt>Price</dt><dd>About $7.50 for a 7 oz oval</dd></div><div><dt>Where</dt><dd>Kroger stores, H-E-B, Safeway and Albertsons stores, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> An American-made brie that is ultra-rich and very mild, which makes it a crowd-pleaser with kids and cautious eaters. The oval shape slices into neat wedges. Pair it with fig jam or a sweet cracker; it&#x27;s too gentle for strong blue cheese or spicy salami to sit next to it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less complex than French options.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An American-made brie from Savencia that <a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked fourth for its ultra-fresh, mild flavor and ultra-rich texture. (Source: <a href="https://www.savenciacheeseusa.com/2019/05/23/savencia-cheese-usa-launches-supreme-brie/" target="_blank" rel="noopener">Savencia Cheese USA</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -65,8 +65,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Brie</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget brie</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Very cheap.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget brie</dd></div><div><dt>Price</dt><dd>About $8 a pound (Double Cream Brie); priced per piece</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The cheapest decent brie you can buy, which matters for a big party or a baked brie. Reviews split by product: the Brie Log won a perfect score at Sporked, while the Double Cream ranked last at Tasting Table for being bland. Buy the log for the board and the cheaper wedge for baking.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mixed reviews.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Reviews split by product: <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a> scored the Brie Log 10 out of 10, while <a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a> ranked the Double Cream Brie last as mild and less creamy. The price is hard to beat.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
@@ -74,8 +74,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Ile de France Brie</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Mini wheels</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Good value.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Mini wheels</dd></div><div><dt>Price</dt><dd>About $5.50 for a piece (around $14 a pound)</dd></div><div><dt>Where</dt><dd>H-E-B, ShopRite, Publix, Giant, most grocery; Costco sells Brie Bites.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A classic French brie at a lower price than most imports, gooey and a bit funky as it ripens. The mini Brie Bites are a smart buy for kids&#x27; boards and grab-and-go cups. Let it ripen a few days past purchase for more flavor.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Fewer standout reviews.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A dependable French brie; <a href="https://sporked.com/article/best-brie/" target="_blank" rel="noopener">Sporked</a> praised its minis as gooey and funky.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -83,8 +83,8 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <article class="sk-card" id="pick-7">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">7</span><div><h3>Saint Angel Triple Cream</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Triple-crème lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Very rich.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Triple-crème lovers</dd></div><div><dt>Price</dt><dd>About $9 for a 7 oz piece (around $23 a pound)</dd></div><div><dt>Where</dt><dd>H-E-B, Kroger stores (King Soopers), cheese counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A triple-crème so rich it&#x27;s almost like cheesecake, with a tangy edge near the rind. It&#x27;s the brie to buy when you want guests to ask what it is. It&#x27;s very soft, so serve it on a small plate or slate with a spreader rather than slicing it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Triple crème, so richer than classic brie.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1757142/grocery-store-brie-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s runner-up, described as ridiculously creamy with a tangy complexity near the rind.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>

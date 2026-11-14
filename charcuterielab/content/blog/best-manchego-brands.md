@@ -15,7 +15,7 @@ slug: "best-manchego-brands"
 > **Quick Answer:** Our top pick for Manchego on a charcuterie board is Kirkland Signature Manchego DOP (6 months) (4.5 out of 5). Best value: Trader Joe's Manchego. Splurge: Mitica Manchego DOP, 12 months.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP at a low price. Crowd-pleasing 6-month age.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Manchego</a><p class="sk-top-line">Cheap. Easy everyday pick.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Manchego DOP, 12 months</a><p class="sk-top-line">Aged a full year. More complex.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $$$</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Kirkland Signature Manchego DOP (6 months)</a><p class="sk-top-line">Real DOP at a low price. Crowd-pleasing 6-month age.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Manchego</a><p class="sk-top-line">Cheap. Easy everyday pick.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Manchego DOP, 12 months</a><p class="sk-top-line">Aged a full year. More complex.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.9/5 · about $22–25 / lb</span><a class="button sk-buy-sm" href="#pick-2">Where to buy</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -23,13 +23,13 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Kirkland Signature Manchego DOP (6 months)</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Costco shoppers</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Real DOP at a low price. Crowd-pleasing 6-month age.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Costco shoppers</dd></div><div><dt>Price</dt><dd>Low price per pound; sold in wedges of about 2 lb</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Real DOP Manchego aged six months at a price grocery stores can&#x27;t match. It&#x27;s mild, nutty and buttery, a crowd-pleaser rather than a cheese-lover&#x27;s cheese. A 2 lb wedge covers several parties; wrapped well, it keeps for weeks in the fridge.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Costco. Big wedge.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Real DOP Manchego at a low price per pound. <a href="https://www.eatthis.com/costco-cheeses-taste-test/" target="_blank" rel="noopener">Eat This, Not That</a> called it a mild crowd-pleaser, and <a href="https://www.tastingtable.com/1995140/costco-kirkland-cheese-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked it second of ten Kirkland cheeses for its nutty, buttery flavor.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
@@ -37,8 +37,8 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Mitica Manchego DOP, 12 months</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese-focused board</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Aged a full year. More complex.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>A cheese-focused board</dd></div><div><dt>Price</dt><dd>About $22–25 a pound</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Aged a full year and rubbed with olive oil, so it&#x27;s drier, sharper and crunchier than six-month Manchego, with a long, nutty finish. It&#x27;s the Manchego to buy when it&#x27;s the star of a Spanish board. Cut it into thin triangles and serve with quince paste (membrillo) and Marcona almonds.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier. Not in every store.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An aged viejo-style Manchego from Mitica&#x27;s imported line. Drier, sharper and more crystalline than the 6-month versions. (Source: <a href="https://www.gourmetfoodworld.com/mitica-manchego-12-months-11494" target="_blank" rel="noopener">Gourmet Food World</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
@@ -46,8 +46,8 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Manchego</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday Manchego</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Cheap. Easy everyday pick.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Everyday Manchego</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> An inexpensive Spanish Manchego that&#x27;s an easy everyday board cheese. It&#x27;s mild and firm, and slices neatly into the classic triangles. Pair it with quince paste or fig jam for an instant Spanish touch.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s. Few published reviews.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An inexpensive Spanish Manchego that makes an easy everyday board cheese. (Source: <a href="https://www.traderjoes.com/home/products/pdp/manchego-cheese-033331" target="_blank" rel="noopener">Trader Joe&#x27;s</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
@@ -55,8 +55,8 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Don Bernardo Manchego</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Widely available. Properly aged.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>About $9 for a 5.28 oz wedge</dd></div><div><dt>Where</dt><dd>ShopRite, Kroger stores, most grocery cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A PDO Manchego aged 6 to 9 months, with herbal, nutty notes and a firm, dry texture. It&#x27;s the most widely stocked real Manchego at ordinary supermarkets. The small wedge is right for a board for 4–6.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A PDO Manchego aged 6 to 9 months, with herbal, nutty notes and a firm, dry texture. Widely stocked in grocery cheese cases. (Source: <a href="https://www.cheese.com/don-bernardo-manchego/" target="_blank" rel="noopener">cheese.com</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 5 · Value 4 · Easy to find 4</span></p></details>
@@ -64,8 +64,8 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Murray&#x27;s 1 Year Manchego</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Cheesemonger pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Murray&#x27;s, Kroger cheese counters, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Aged a year. Monger-selected.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Cheesemonger pick</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Murray&#x27;s, Kroger cheese counters, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A year-aged Manchego selected by Murray&#x27;s cheesemongers, mild and rich rather than sharp. Kroger-family stores with a Murray&#x27;s counter can cut it to order, so you can buy exactly how much you need.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Limited stores.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A year-aged Manchego selected by <a href="https://www.murrayscheese.com/dp/murray-s-1-year-manchego" target="_blank" rel="noopener">Murray&#x27;s Cheese</a>, described as mild and rich.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
@@ -73,8 +73,8 @@ All real Manchego is made in La Mancha from sheep's milk, so most brands are goo
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Artequeso Manchego Añejo</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Aged and nutty</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Cheese counters, specialty.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Deep, aged flavor.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Aged and nutty</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Cheese counters, specialty stores, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> An añejo (aged) Manchego of 10 to 12 months from a small artisan producer, with deep, toasty flavor and crystals. It&#x27;s the pick when Manchego is the star of the board. Serve thin slices with a glass of Rioja or sherry.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An añejo Manchego aged 10 to 12 months, sold at cheese counters. The pick when Manchego is the star of the board. (Source: <a href="https://cheesestore.com/products/manchego-artequeso-anejo-10-12-months-lbs" target="_blank" rel="noopener">The Cheese Store of Beverly Hills</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>

@@ -16,7 +16,7 @@ slug: "best-pepper-jelly"
 > **Quick Answer:** Our top pick for pepper jelly on a charcuterie board is Braswell's Jalapeño Pepper Jelly (4.8 out of 5). Best value: Tabasco Spicy Pepper Jelly.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Braswell&#x27;s Jalapeño Pepper Jelly</a><p class="sk-top-line">Top-ranked. Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0160ND8JK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Tabasco Spicy Pepper Jelly</a><p class="sk-top-line">Real heat.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="https://shop.tabasco.com/products/tabasco-spicy-pepper-jelly-10oz" target="_blank" rel="noopener">Find it at Tabasco</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Braswell&#x27;s Jalapeño Pepper Jelly</a><p class="sk-top-line">Top-ranked. Cheap and everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · about $4.30 / 10.5 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0160ND8JK" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-2">Tabasco Spicy Pepper Jelly</a><p class="sk-top-line">Real heat.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · about $5.30 / 10 oz</span><a class="button sk-buy-sm" href="https://shop.tabasco.com/products/tabasco-spicy-pepper-jelly-10oz" target="_blank" rel="noopener">Find it at Tabasco</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -24,13 +24,13 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 
 :::html
 <h2 id="picks">All 5, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Braswell&#x27;s Jalapeño Pepper Jelly</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced sweet heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Kroger, Publix, Food Lion, most grocery.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Cheap and everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced sweet heat</dd></div><div><dt>Price</dt><dd>About $4.30 for a 10.5 oz jar</dd></div><div><dt>Where</dt><dd>Kroger stores, Publix, Food Lion, ShopRite, Walmart, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The classic Southern pepper jelly: bright, sweet and just hot enough, at a price that lets you buy two. Pour it over a block of cream cheese and set out crackers, the most-eaten thing on many party tables. It&#x27;s also great next to sharp cheddar and summer sausage.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild for heat lovers.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0160ND8JK" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a>&#x27;s number one pepper jelly, praised as perfectly balanced between sweet, tart and spicy with a pleasant, subtle burn.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 5</span></p></details>
@@ -38,8 +38,8 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best value</p><h3>Tabasco Spicy Pepper Jelly</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>More heat</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Real heat.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>More heat</dd></div><div><dt>Price</dt><dd>About $5.30 for a 10 oz jar</dd></div><div><dt>Where</dt><dd>H-E-B, Walmart, Target, ShopRite, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Made with Tabasco&#x27;s aged pepper mash, so it has more real heat and a slightly vinegary depth than most pepper jellies. It&#x27;s the one for guests who want spice. Try it on goat cheese or as a glaze for cocktail meatballs.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less complex.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://shop.tabasco.com/products/tabasco-spicy-pepper-jelly-10oz" target="_blank" rel="noopener">Find it at Tabasco</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Better heat balance than Tabasco&#x27;s mild version, thanks to aged pepper mash, according to <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a>.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -47,8 +47,8 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>Terrapin Ridge Hot Pepper Berry Bacon Jelly</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Something different</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Unusual sweet-savory flavor.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Something different</dd></div><div><dt>Price</dt><dd>About $10 a jar</dd></div><div><dt>Where</dt><dd>Specialty stores, BBQ shops, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A sweet-savory jam of hot peppers, berries and smoky bacon with a smooth, spreadable texture. It turns a plain cracker and cheddar into a full bite. Use a small dish; a little goes a long way on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Contains bacon. Hard to find.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B06XSJTBZ9" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked second by <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a>, which praised its smooth texture and tender bacon pieces.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 3 · Value 3 · Easy to find 2</span></p></details>
@@ -56,8 +56,8 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Stonewall Kitchen Hot Pepper Jelly</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Smooth and mild</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Smooth.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Smooth and mild</dd></div><div><dt>Price</dt><dd>About $7 for a 13 oz jar</dd></div><div><dt>Where</dt><dd>H-E-B, ShopRite, Lunds &amp; Byerlys, Lowes Foods, specialty stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Smooth and easy to spread, with pleasant caramelized-onion notes. It&#x27;s milder than its name, which makes it a safe pick for a family board. A good glaze for baked brie too.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00QIIRBSC" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Pleasant caramelized onion notes and easy spreading, though <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a> wanted more heat.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
@@ -65,8 +65,8 @@ Pepper jelly over cream cheese is a Southern classic, and it's just as good next
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Bellisari&#x27;s Blistered Jalapeño Fig</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Fig lovers</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Spreadable. Fig and heat.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Fig lovers</dd></div><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Kroger stores (Food 4 Less), Acme, specialty stores, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Blistered jalapeños with figs, so it&#x27;s rich and jammy with medium heat, a cross between fig jam and pepper jelly. It&#x27;s very spreadable and especially good with Manchego, brie and prosciutto.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Third at <a href="https://www.thedailymeal.com/1296153/hot-pepper-jams-and-jellies-ranked-worst-to-first/" target="_blank" rel="noopener">Daily Meal</a>: very spreadable with mid-range heat and a rich fig flavor.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 3 · Easy to find 2</span></p></details>
 </article>

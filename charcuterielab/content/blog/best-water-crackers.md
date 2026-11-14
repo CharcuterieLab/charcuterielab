@@ -15,7 +15,7 @@ slug: "best-water-crackers"
 > **Quick Answer:** Our top pick for water crackers on a charcuterie board is Carr's Table Water Crackers, Original (4.5 out of 5). Best value: 365 by Whole Foods Market Organic Water Crackers. Splurge: Olina's Bakehouse Wafer Crackers.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers, Original</a><p class="sk-top-line">Neutral, lightly toasty flavor. Thin but holds a slice of hard cheese. Sold almost everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">365 by Whole Foods Market Organic Water Crackers</a><p class="sk-top-line">Organic. Low price per box.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Olina&#x27;s Bakehouse Wafer Crackers</a><p class="sk-top-line">Very thin and elegant. Several flavors.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.0/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DMPFJQNV" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Carr&#x27;s Table Water Crackers, Original</a><p class="sk-top-line">Neutral, lightly toasty flavor. Thin but holds a slice of hard cheese. Sold almost everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · about $4.50 / 4.25 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">365 by Whole Foods Market Organic Water Crackers</a><p class="sk-top-line">Organic. Low price per box.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-6">Olina&#x27;s Bakehouse Wafer Crackers</a><p class="sk-top-line">Very thin and elegant. Several flavors.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.0/5 · about $4 / 3.5 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0DMPFJQNV" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 6, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -25,13 +25,13 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Carr&#x27;s Table Water Crackers, Original</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores, cracker or cheese aisle.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Neutral, lightly toasty flavor. Thin but holds a slice of hard cheese. Sold almost everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Every board</dd></div><div><dt>Price</dt><dd>About $4.50 for a 4.25 oz box</dd></div><div><dt>Where</dt><dd>Walmart, Kroger stores, ShopRite, nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The default water cracker: thin, crisp and lightly toasty, so it disappears under the cheese, which is exactly the job. It&#x27;s sturdy enough for a slice of aged cheddar but delicate enough for brie. Plan on one box per 6 guests; the boxes are small.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Small box for the price. Breaks under very firm spreads.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01ASW4GD6" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The default for good reason. The label is short (wheat flour, palm oil, salt, plus added vitamins), the cracker is thin and crisp, and it shows up on nearly every published list of the best crackers for cheese. (Source: <a href="https://smartlabel.kelloggs.com/Product/Index/10059290573302" target="_blank" rel="noopener">Carr&#x27;s Table Water Crackers ingredient label (Kellogg SmartLabel)</a>, <a href="https://www.aol.com/board-basics-15-best-crackers-203000992.html" target="_blank" rel="noopener">Cheapism</a>, <a href="https://stripedspatula.com/best-crackers-for-cheese/" target="_blank" rel="noopener">Striped Spatula</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
@@ -39,8 +39,8 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Carr&#x27;s Table Water Crackers, Cracked Pepper</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Soft and goat cheese</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Adds a little bite to mild cheese. Same sturdiness as the original.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Soft and goat cheese</dd></div><div><dt>Price</dt><dd>About $4.50 for a 4.25 oz box</dd></div><div><dt>Where</dt><dd>Walmart, Kroger stores, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The same cracker with black pepper baked in, which gives mild cheeses like fresh mozzarella, Havarti and young goat cheese a little bite. Put one box of each Carr&#x27;s out side by side and guests can choose.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not neutral, so pair it rather than use it for everything.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00QIIKW4C" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The same cracker with black pepper baked in. It&#x27;s the one flavored water cracker that still works on a mixed board, because pepper suits almost every cheese.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 3 · Easy to find 4</span></p></details>
@@ -48,8 +48,8 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>365 by Whole Foods Market Organic Water Crackers</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Organic on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Whole Foods, Amazon.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Organic. Low price per box.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Organic on a budget</dd></div><div><dt>Price</dt><dd>Budget price per box (varies)</dd></div><div><dt>Where</dt><dd>Whole Foods, Amazon.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> An organic water cracker at a store-brand price, in original and cracked pepper. It does the same quiet job as Carr&#x27;s for less. Stock up if you&#x27;re near a Whole Foods.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods and Amazon. Few published reviews.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>An organic water cracker at a store-brand price. It comes in original and cracked pepper and does the same job as the name brand.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
@@ -57,8 +57,8 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Good &amp; Gather Water Crackers</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Cheapest close match</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Target.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Low price. Easy to find at Target.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Cheapest close match</dd></div><div><dt>Price</dt><dd>About $2.70 for a 4.4 oz box</dd></div><div><dt>Where</dt><dd>Target.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Target&#x27;s store brand is nearly half the price of Carr&#x27;s and hard to tell apart on a board. For a big party, this is where to save money: buy three boxes. There&#x27;s a cracked pepper version too.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews. Plainer toast flavor.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Target&#x27;s store brand makes a plain water cracker that fills the same role for less. Buy two boxes for a party.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 3 · Value 5 · Easy to find 4</span></p></details>
@@ -66,8 +66,8 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Trader Joe&#x27;s Cracker Assortment</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Variety on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Four crackers in one box. Low price.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Variety on a budget</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Four crackers in one box (water crackers plus a few flavored ones), so one buy gives the board some variety. Tasting Table called the water crackers very plain, which is what you want under cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only part of the box is water crackers.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Trader Joe&#x27;s water crackers come in a four-cracker assortment box. <a href="https://www.tastingtable.com/2040326/trader-joes-crackers-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> called them very plain, which it noted makes them a good crunchy base for pretty much anything.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 5 · Easy to find 3</span></p></details>
@@ -75,8 +75,8 @@ In the UK and Ireland, the everyday equivalent is the [cream cracker](/ingredien
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><p class="sk-pill">Best splurge</p><h3>Olina&#x27;s Bakehouse Wafer Crackers</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.0 out of 5"><span class="sk-label">Our score</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Boards you&#x27;ll photograph</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, Walmart, specialty grocers, Amazon.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Very thin and elegant. Several flavors.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Boards you&#x27;ll photograph</dd></div><div><dt>Price</dt><dd>About $4 for a 3.5 oz box</dd></div><div><dt>Where</dt><dd>Whole Foods, Kroger stores, World Market, ShopRite, Target.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Wafer-thin, rectangular and a little more artisan-looking than a standard water cracker. Lay them out in a long, neat line along the board&#x27;s edge for a clean look. The box is small, so pair it with a cheaper cracker.</p>
 <p class="sk-mind"><strong>Watch out:</strong> More fragile. Highest price per ounce here.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0DMPFJQNV" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Thinner and more artisan-looking than a standard water cracker, in natural, cracked pepper and seeded versions. It&#x27;s the pick when the board is going on camera.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 2 · Easy to find 3</span></p></details>

@@ -15,7 +15,7 @@ slug: "best-marcona-almonds"
 > **Quick Answer:** Our top pick for Marcona almonds on a charcuterie board is Trader Joe's Roasted & Salted Rosemary Marcona Almonds (4.5 out of 5). Best value: Kirkland Signature Marcona Almonds. Splurge: Mitica Marcona Almonds with Rosemary.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Roasted &amp; Salted Rosemary Marcona Almonds</a><p class="sk-top-line">Top-ranked. Rosemary and salt.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Marcona Almonds</a><p class="sk-top-line">Great price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Marcona Almonds with Rosemary</a><p class="sk-top-line">Premium quality.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B091VWJL8T" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Trader Joe&#x27;s Roasted &amp; Salted Rosemary Marcona Almonds</a><p class="sk-top-line">Top-ranked. Rosemary and salt.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · about $6 / 6 oz</span><a class="button sk-buy-sm" href="#pick-1">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Kirkland Signature Marcona Almonds</a><p class="sk-top-line">Great price per ounce.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.5/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Mitica Marcona Almonds with Rosemary</a><p class="sk-top-line">Premium quality.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B091VWJL8T" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 3, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -23,13 +23,13 @@ Marcona almonds are the rich, round Spanish almonds fried in oil and salted. The
 
 :::html
 <h2 id="picks">All 3, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Trader Joe&#x27;s Roasted &amp; Salted Rosemary Marcona Almonds</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Rosemary Marconas</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Rosemary and salt.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Rosemary Marconas</dd></div><div><dt>Price</dt><dd>About $6 for a 6 oz bag</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Spanish Marcona almonds roasted with rosemary and salt: rounder, softer and more buttery than regular almonds. Tasting Table ranked them first of 12 Trader Joe&#x27;s nuts. They cost less per ounce than the Whole Foods version, and one bag fills two small bowls.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s. Small bags.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Ranked first of 12 Trader Joe&#x27;s nuts by <a href="https://www.tastingtable.com/1670834/trader-joes-nuts-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>, which also found them cheaper per ounce than a comparable Whole Foods tin. (Source: <a href="https://www.tastingtable.com/2079410/trader-joes-marcona-almonds-great-for-parties/" target="_blank" rel="noopener">Tasting Table</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 3</span></p></details>
@@ -37,8 +37,8 @@ Marcona almonds are the rich, round Spanish almonds fried in oil and salted. The
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Mitica Marcona Almonds with Rosemary</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Specialty pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese shops.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Premium quality.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Specialty pick</dd></div><div><dt>Price</dt><dd>Small tub, premium price (around $2 an ounce)</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese shops.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Premium Spanish almonds with rosemary in a small tub, the kind cheese shops set next to Manchego. They&#x27;re excellent but pricey. Use them when the board is small and Spanish-themed.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B091VWJL8T" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Spanish import sold in small containers at Whole Foods and cheese shops. <a href="https://www.tastingtable.com/2079410/trader-joes-marcona-almonds-great-for-parties/" target="_blank" rel="noopener">Tasting Table</a> noted it costs more per ounce than Trader Joe&#x27;s version.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>
@@ -46,8 +46,8 @@ Marcona almonds are the rich, round Spanish almonds fried in oil and salted. The
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Kirkland Signature Marcona Almonds</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Bulk on a budget</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Great price per ounce.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Bulk on a budget</dd></div><div><dt>Price</dt><dd>Best price per ounce; sold in a large tub (about 20 oz)</dd></div><div><dt>Where</dt><dd>Costco.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Just blanched Marcona almonds, oil and sea salt in a big container, at the best price per ounce by far. Perfect if you make boards often or for a big party. Note that they&#x27;re roasted in peanut oil, so label them for guests with peanut allergies.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Peanut oil: not for peanut allergies. Not always in stock.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Just blanched Marcona almonds, oil and sea salt, in a big container. Note: they are roasted in peanut oil. (Source: <a href="https://www.ewg.org/foodscores/products/096619228188-KirklandSignatureMarconaAlmondsRoastedandSeasonedWithSeaSaltSeaSalt/" target="_blank" rel="noopener">EWG Food Scores</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 2 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>

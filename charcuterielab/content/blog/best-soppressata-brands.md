@@ -15,7 +15,7 @@ slug: "best-soppressata-brands"
 > **Quick Answer:** Our top pick for soppressata on a charcuterie board is Brooklyn Cured Sweet Soppressata (4.2 out of 5). Best value: Volpi Soppressata. Splurge: Fra' Mani Soppressata.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Brooklyn Cured Sweet Soppressata</a><p class="sk-top-line">Top-ranked. Very versatile.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Volpi Soppressata</a><p class="sk-top-line">Available. Reliable.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Soppressata</a><p class="sk-top-line">Award-winning maker.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Brooklyn Cured Sweet Soppressata</a><p class="sk-top-line">Top-ranked. Very versatile.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.2/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Volpi Soppressata</a><p class="sk-top-line">Available. Reliable.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$</span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-2">Fra&#x27; Mani Soppressata</a><p class="sk-top-line">Award-winning maker.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · about $6 / 2.5–3 oz</span></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -23,37 +23,37 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 
 :::html
 <h2 id="picks">All 5, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Brooklyn Cured Sweet Soppressata</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet, buttery soppressata</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, specialty stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Very versatile.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sweet, buttery soppressata</dd></div><div><dt>Price</dt><dd>3 oz sliced pack, mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Whole Foods, World Market, Murray&#x27;s, Haggen, specialty grocers.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Tasting Table&#x27;s number one salami across nine brands: sweet, mildly spiced and very versatile. It&#x27;s uncured and made by a small Brooklyn producer. The slices are wide and thin, so they fold into beautiful roses.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1880891/salami-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s number one salami across nine brands, praised for a buttery texture and a hint of sweetness balancing savory notes.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><p class="sk-pill">Best splurge</p><h3>Fra&#x27; Mani Soppressata</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Award-winning maker</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Award-winning maker.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Award-winning maker</dd></div><div><dt>Price</dt><dd>About $6 for a 2.5–3 oz sliced pack</dd></div><div><dt>Where</dt><dd>Whole Foods, H-E-B, specialty grocers, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> From the heavily awarded salumeria founded by chef Paul Bertolli. The soppressata is coarse-ground, peppery and deeply porky. Small packs, so use it as the one standout meat next to a cheaper salami.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find. Expensive.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>From the heavily awarded Berkeley salumeria founded by chef Paul Bertolli. (Source: <a href="https://framani.com/products/soppressata" target="_blank" rel="noopener">Fra&#x27; Mani</a>, <a href="https://www.provisioneronline.com/articles/118703-fra-mani-champions-traditional-culinary-methods" target="_blank" rel="noopener">The National Provisioner</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Volpi Soppressata</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery, Whole Foods.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Available. Reliable.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Easy to find</dd></div><div><dt>Price</dt><dd>4 oz sliced pack, mid-range price (varies)</dd></div><div><dt>Where</dt><dd>H-E-B, Vons, Price Cutter, Kroger stores, Whole Foods.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> From the St. Louis family salumi maker founded in 1902, with a rich, savory flavor and a coarse grind you can see. It&#x27;s the easiest real soppressata to find at an ordinary grocery store. Volpi also makes a spicy version if you want heat.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Few published reviews.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>From the St. Louis family salumi maker founded in 1902. Widely available and reliable. (Source: <a href="https://en.wikipedia.org/wiki/Volpi_Foods" target="_blank" rel="noopener">Wikipedia</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 3 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
 </article>
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Olympia Provisions Sopressata</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.6 out of 5"><span class="sk-label">Our score</span><b>3.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:72%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Craft pick</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty grocers, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Clean ingredients. Distinctive flavor.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Craft pick</dd></div><div><dt>Price</dt><dd>About $11 for a 5 oz salami</dd></div><div><dt>Where</dt><dd>Specialty grocers, Caputo&#x27;s, Olympia Provisions online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A Portland salami seasoned with clove, oregano and garlic, so it tastes distinctly different from Italian soppressata. Sliced at home from the whole stick, it looks great on a board. A good conversation piece for a food-lover&#x27;s board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Mostly online.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">See it at Olympia Provisions</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Portland salami with clove, oregano, garlic and chili, made with no added nitrates or nitrites and fermented with natural molds. (Source: <a href="https://www.olympiaprovisions.com/products/sopressata" target="_blank" rel="noopener">Olympia Provisions</a>.)</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 3 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
@@ -61,8 +61,8 @@ Soppressata is the coarse-ground, often spicy cousin of Genoa salami. The best o
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Boar&#x27;s Head Sopressata</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.0 out of 5"><span class="sk-label">Our score</span><b>3.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:60%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Sliced to order</dd></div><div><dt>Price</dt><dd>Sold by the pound at the deli (price varies)</dd></div><div><dt>Where</dt><dd>Deli counters at Publix, Kroger stores and most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Cut to order at the deli, so the edges stay fresh and you choose the thickness: ask for it a little thicker than sandwich slices. It&#x27;s a fine everyday soppressata and easy to grab with the rest of your deli order.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less character than craft versions.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.instacart.com/store/s?k=boar%27s+head+sopressata" target="_blank" rel="noopener">Find it on Instacart</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Cut to order at the deli, so the edges stay fresh. A fine everyday option.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 2 · Ingredients 3 · Value 3 · Easy to find 5</span></p></details>

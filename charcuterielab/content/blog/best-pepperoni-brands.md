@@ -15,7 +15,7 @@ slug: "best-pepperoni-brands"
 > **Quick Answer:** Our top pick for pepperoni on a charcuterie board is Boar's Head Pepperoni (4.5 out of 5). Best value: Trader Joe's Ciao Pizza Prima Pepperoni. Splurge: Vincenza's Crafted Charcuterie Pepperoni.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Pepperoni</a><p class="sk-top-line">Top-ranked twice. Big slices.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01MTAZRDI" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Ciao Pizza Prima Pepperoni</a><p class="sk-top-line">Cheap. Bright flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Vincenza&#x27;s Crafted Charcuterie Pepperoni</a><p class="sk-top-line">Big, complex slices.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.wholefoodsmarket.com/search?text=vincenza%27s+pepperoni" target="_blank" rel="noopener">Find it at Whole Foods</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boar&#x27;s Head Pepperoni</a><p class="sk-top-line">Top-ranked twice. Big slices.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · about $5 / 6 oz</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B01MTAZRDI" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Trader Joe&#x27;s Ciao Pizza Prima Pepperoni</a><p class="sk-top-line">Cheap. Bright flavor.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.0/5 · $</span><a class="button sk-buy-sm" href="#pick-3">Where to buy</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Vincenza&#x27;s Crafted Charcuterie Pepperoni</a><p class="sk-top-line">Big, complex slices.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.wholefoodsmarket.com/search?text=vincenza%27s+pepperoni" target="_blank" rel="noopener">Find it at Whole Foods</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -23,13 +23,13 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 
 :::html
 <h2 id="picks">All 5, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Boar&#x27;s Head Pepperoni</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Big, bold slices</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Deli counters, most grocery.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked twice. Big slices.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Big, bold slices</dd></div><div><dt>Price</dt><dd>About $5 for a 6 oz pouch; also sliced to order at the deli</dd></div><div><dt>Where</dt><dd>H-E-B, Target, Kroger stores, Publix, ShopRite, deli counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Big, bold slices with a rich texture, ranked first by Tasting Table and The Kitchn. It&#x27;s a natural-casing pepperoni, so the slices hold their shape and fold neatly. Fan a whole pouch along the edge of the board; kids will find it.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier than supermarket brands.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B01MTAZRDI" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1847567/store-bought-pepperoni-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s winner for bold flavor, larger slices and rich texture, and <a href="https://www.thekitchn.com/best-pepperoni-brands-22932367" target="_blank" rel="noopener">The Kitchn</a> called it satisfying for snacking and stacking on crackers.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 3 · Easy to find 5</span></p></details>
@@ -37,16 +37,16 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Primo Taglio Uncured Pepperoni</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Board-sized slices</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons and sister stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Great on a board.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Board-sized slices</dd></div><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Safeway, Albertsons, Vons, Jewel-Osco and sister stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Larger slices with real richness and peppery complexity, close to a deli-counter pepperoni. Tasting Table ranked it near the top. If you shop at an Albertsons-family store, it&#x27;s the best pepperoni on the shelf.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Albertsons-family stores.</p>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Larger slices with richness, complexity and peppery notes. <a href="https://www.tastingtable.com/1847567/store-bought-pepperoni-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a> ranked it second and called it suitable for charcuterie boards.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
 </article>
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Ciao Pizza Prima Pepperoni</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget pepperoni</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Cheap. Bright flavor.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget pepperoni</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Firm slices with a lemony brightness that cuts the fat, per Tasting Table. It&#x27;s cheap, which makes it great for a big snack board or pizza-themed board. Also good drizzled with hot honey.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smaller slices.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Firm, with a lemony brightness that cuts the fat, according to <a href="https://www.tastingtable.com/1847567/store-bought-pepperoni-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>, which ranked it third.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
@@ -54,8 +54,8 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Vincenza&#x27;s Crafted Charcuterie Pepperoni</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The upgrade</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Big, complex slices.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The upgrade</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Whole Foods.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Oversized slices with a complex, almost salami-like flavor that The Kitchn singled out for antipasto platters. It&#x27;s the pepperoni to put on a grown-up board next to aged provolone and olives.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Whole Foods.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.wholefoodsmarket.com/search?text=vincenza%27s+pepperoni" target="_blank" rel="noopener">Find it at Whole Foods</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Oversized slices with a complex flavor that <a href="https://www.thekitchn.com/best-pepperoni-brands-22932367" target="_blank" rel="noopener">The Kitchn</a> singled out for antipasto platters and charcuterie boards.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 2 · Easy to find 3</span></p></details>
@@ -63,8 +63,8 @@ Pepperoni on a board should have real flavor, not just grease. Larger, sandwich-
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Sugardale Pepperoni</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.3 out of 5"><span class="sk-label">Our score</span><b>3.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:66%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Shelf-stable pick</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Keeps in the pantry.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Shelf-stable pick</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A shelf-stable stick pepperoni with a pronounced paprika note, Tasting Table&#x27;s best of the shelf-stable kind. It keeps in the pantry until opened, so it&#x27;s handy for last-minute boards. Slice it on the diagonal for bigger ovals.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pizza-sized slices.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00MX2WQ3W" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1847567/store-bought-pepperoni-brands-ranked-worst-best/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s best shelf-stable pepperoni, with a pronounced paprika note.</p><p> <span class="sk-subscores">Scores: On the board 3 · Reviews 3 · Ingredients 3 · Value 4 · Easy to find 4</span></p></details>

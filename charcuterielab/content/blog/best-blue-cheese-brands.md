@@ -23,13 +23,13 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 
 :::html
 <h2 id="picks">All 6, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Point Reyes Original Blue</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced, creamy blue</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, most grocery.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Creamy and balanced.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Balanced, creamy blue</dd></div><div><dt>Price</dt><dd>6 oz wedge, premium price (varies); Costco sells it by the pound</dd></div><div><dt>Where</dt><dd>Kroger stores, H-E-B, Hannaford, Target, Costco, Whole Foods.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A California farmstead blue that balances sweet, savory and a little smoky, creamy rather than crumbly. Sporked gave it a perfect 10. Serve it with pear slices and a dark honey, and it converts people who say they hate blue cheese.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Pricier.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a>&#x27;s top blue cheese, scoring 10 out of 10 for a nuanced flavor that balances sweet, savory and smoky notes. Made in California.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 4</span></p></details>
@@ -37,8 +37,8 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Kingston Creamery Breezy Blue</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Creamy and spreadable</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked twice. Spreadable.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Creamy and spreadable</dd></div><div><dt>Price</dt><dd>Mid-range price; Costco has sold a 12 oz half-moon</dd></div><div><dt>Where</dt><dd>H-E-B, Costco, Spec&#x27;s, grocery cheese cases.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Supremely creamy and spreadable, with gentle blue flavor, which is why it won Tasting Table&#x27;s test and scored 9.5 at Sporked. Because it spreads, it&#x27;s easy to eat on crackers. A good first blue for a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Not in every store.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/2151838/store-bought-blue-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s clear winner: supremely creamy, spreadable and balanced. <a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a> scored it 9.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 3 · Easy to find 3</span></p></details>
@@ -46,8 +46,8 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><h3>BelGioioso Gorgonzola</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Blue for beginners</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Gentle. Everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Blue for beginners</dd></div><div><dt>Price</dt><dd>About $5.50 for a 5 oz cup or wedge</dd></div><div><dt>Where</dt><dd>Brookshire&#x27;s, ShopRite, Publix, Kroger stores, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Mild, creamy Italian-style gorgonzola from Wisconsin, an easy introduction to blue cheese. Buy the wedge for the board, not the crumbles. It&#x27;s lovely next to fig jam and walnuts.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Mild for blue lovers.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Mild and creamy. <a href="https://www.tastingtable.com/2151838/store-bought-blue-cheese-ranked/" target="_blank" rel="noopener">Tasting Table</a> called it an excellent introduction to blue cheese.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 5</span></p></details>
@@ -55,8 +55,8 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Cave Aged Blue</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget blue</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Very cheap. Nutty.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget blue</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A raw cow&#x27;s milk blue with a nutty finish at a very low price. Sporked called it exceptional value. It&#x27;s firm enough to cut into neat pieces, which helps on a crowded board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A raw cow&#x27;s milk blue with a nutty finish. <a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10 and called it exceptional value. (Source: <a href="https://sporked.com/article/best-trader-joes-cheese/" target="_blank" rel="noopener">Sporked</a>.)</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 5 · Easy to find 3</span></p></details>
@@ -64,8 +64,8 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><p class="sk-pill">Best splurge</p><h3>Roquefort Société</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.9 out of 5"><span class="sk-label">Our score</span><b>3.9</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:78%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>For blue lovers</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Grocery cheese case.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Bold.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>For blue lovers</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Grocery cheese cases, cheese counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The famous French sheep&#x27;s milk blue: strong, salty and pungent. It&#x27;s for the blue cheese lovers at the party, not for beginners. Balance it with something sweet, like honey or dried figs, and keep it away from mild cheeses on the board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Too strong for many guests.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Strong, salty and pungent. <a href="https://sporked.com/article/best-blue-cheese/" target="_blank" rel="noopener">Sporked</a> scored it 8 out of 10 as the choice for enthusiasts.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 4</span></p></details>
@@ -73,8 +73,8 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <article class="sk-card" id="pick-6">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">6</span><div><h3>Colston Bassett Stilton</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.5 out of 5"><span class="sk-label">Our score</span><b>3.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:70%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Classic English blue</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> The classic.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Classic English blue</dd></div><div><dt>Price</dt><dd>Premium price (varies)</dd></div><div><dt>Where</dt><dd>Whole Foods, cheese counters.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Hand-ladled English Stilton, creamier and more mellow than most, and the one cheesemongers point to as the benchmark. It&#x27;s the blue for a holiday board with port. Serve it at room temperature in a wedge, never crumbled.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive. Few published taste tests.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Hand-ladled and creamier than most Stilton, and widely regarded by cheesemongers as the benchmark.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 2 · Ingredients 5 · Value 2 · Easy to find 3</span></p></details>

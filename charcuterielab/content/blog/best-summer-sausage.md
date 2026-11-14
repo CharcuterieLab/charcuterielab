@@ -23,13 +23,13 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 
 :::html
 <h2 id="picks">All 5, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Cloverdale Original Tangy Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.4 out of 5"><span class="sk-label">Our score</span><b>4.4</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:88%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Classic tangy flavor</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Midwest grocery, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked. Classic tang.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Classic tangy flavor</dd></div><div><dt>Price</dt><dd>Sold in 12 oz to 28 oz chubs (price varies)</dd></div><div><dt>Where</dt><dd>Midwest grocery (Coborns, Kroger stores), Sam&#x27;s Club, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The tangy, very savory Midwest summer sausage that tied for first at Sporked with a perfect 10. It&#x27;s fatty and rich, so slice it thin, about a quarter inch, and pair it with sharp cheddar, mustard and pickles. A 12 oz chub covers a board for 8–10.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Easier to find in the Midwest.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CKW8K2NV" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Tied for first in <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>&#x27;s test with 10 out of 10: very savory, very fatty and with the classic summer sausage tang.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 4 · Value 4 · Easy to find 3</span></p></details>
@@ -37,8 +37,8 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Old Wisconsin Premium Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.3 out of 5"><span class="sk-label">Our score</span><b>4.3</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:86%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Thick slices</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Great on a board. Widely stocked.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Thick slices</dd></div><div><dt>Price</dt><dd>About $8.50 for an 8 oz stick</dd></div><div><dt>Where</dt><dd>Brookshire&#x27;s, H-E-B, Publix, Walmart, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A beef and pork blend, firm enough to cut into neat coins that hold their shape on a board. It&#x27;s shelf-stable until opened, so you can buy it ahead. Sporked called it ideal for a cheese board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Classic, not adventurous.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B006GXQHKW" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A beef and pork blend that <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a> scored 9 out of 10 and called ideal for thick slicing on charcuterie.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 4 · Value 4 · Easy to find 4</span></p></details>
@@ -46,8 +46,8 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Trader Joe&#x27;s Natural Turkey Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.2 out of 5"><span class="sk-label">Our score</span><b>4.2</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:84%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Leaner option</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top score. Leaner.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Leaner option</dd></div><div><dt>Price</dt><dd>Budget price (varies)</dd></div><div><dt>Where</dt><dd>Trader Joe&#x27;s.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A leaner turkey summer sausage with a distinctive pickling-spice flavor, and it also scored a perfect 10 at Sporked. It&#x27;s a good pick for guests who don&#x27;t eat pork or want something lighter. Serve it with spicy mustard.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Only at Trader Joe&#x27;s.</p>
 
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Also 10 out of 10 at <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>, with a distinctive pickling-spice flavor and a leaner profile.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 4 · Value 5 · Easy to find 3</span></p></details>
@@ -55,8 +55,8 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><h3>Johnsonville Jalapeño Cheddar Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.0 out of 5"><span class="sk-label">Our score</span><b>4.0</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:80%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Fun and spicy</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Everywhere. Built-in cheese.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Fun and spicy</dd></div><div><dt>Price</dt><dd>About $5 for a 12 oz chub</dd></div><div><dt>Where</dt><dd>Walmart, Kroger stores, nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> Pork and beef with visible chunks of cheddar and jalapeño, so the cheese and the kick are built in. It&#x27;s cheap and everywhere, and kids love the cheesy coins. Slice it slightly thicker so the cheese pieces don&#x27;t fall out.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Less classic.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0CK9GD35S" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>Visible chunks of cheese and jalapeño; <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a> scored it 8.5 out of 10.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 3 · Value 4 · Easy to find 5</span></p></details>
@@ -64,8 +64,8 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Thousand Hills Hickory Smoked Summer Sausage</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Grass-fed beef</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Natural grocers, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Grass-fed.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Grass-fed beef</dd></div><div><dt>Price</dt><dd>Mid-range price (varies)</dd></div><div><dt>Where</dt><dd>Natural grocers, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A grass-fed beef summer sausage with balanced hickory smoke and a clean ingredient list. It&#x27;s the summer sausage to buy when sourcing matters to you or your guests. Pair it with an aged Gouda or smoked cheddar.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Harder to find.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://thousandhillslifetimegrazed.com/collections/all" target="_blank" rel="noopener">See it at Thousand Hills</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A grass-fed beef summer sausage with balanced smoke, scored 8.5 out of 10 at <a href="https://sporked.com/article/best-summer-sausage/" target="_blank" rel="noopener">Sporked</a>.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>

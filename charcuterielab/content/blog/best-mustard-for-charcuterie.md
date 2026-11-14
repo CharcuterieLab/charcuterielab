@@ -15,7 +15,7 @@ slug: "best-mustard-for-charcuterie"
 > **Quick Answer:** Our top pick for mustard on a charcuterie board is Maille Old Style Whole Grain Mustard (4.8 out of 5). Best value: Grey Poupon Harvest Coarse Ground. Splurge: Pommery Moutarde de Meaux.
 
 :::html
-<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · $</span><a class="button sk-buy-sm" href="https://www.kroger.com/p/grey-poupon-harvest-coarse-ground-dijon-mustard/0005440000179" target="_blank" rel="noopener">Find it at Kroger</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · $$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0001BH5YM" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
+<div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Maille Old Style Whole Grain Mustard</a><p class="sk-top-line">Test-kitchen winner. Everywhere.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.8/5 · $$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Grey Poupon Harvest Coarse Ground</a><p class="sk-top-line">Cheap. Test-kitchen winner.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 4.5/5 · about $4.25 / 8 oz</span><a class="button sk-buy-sm" href="https://www.kroger.com/p/grey-poupon-harvest-coarse-ground-dijon-mustard/0005440000179" target="_blank" rel="noopener">Find it at Kroger</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best splurge</p><a class="sk-top-name" href="#pick-4">Pommery Moutarde de Meaux</a><p class="sk-top-line">Beautiful crock. Classic.</p></div><div class="sk-top-buy"><span class="sk-price">Our score 3.8/5 · about $16</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B0001BH5YM" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 5, ranked</a><a href="#what-to-look-for">What to look for</a><a href="#faq">FAQ</a></nav>
 :::
 
@@ -23,13 +23,13 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 
 :::html
 <h2 id="picks">All 5, ranked</h2>
-<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details.</p>
+<p class="sk-lede">Scored out of 5 on how each works on a board, reviews and awards, ingredients, value and how easy it is to find. Tap "Why we ranked it here" for the details. <span class="sk-checked">Prices and stores checked November 2026; they vary by store and region.</span></p>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Maille Old Style Whole Grain Mustard</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.8 out of 5"><span class="sk-label">Our score</span><b>4.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:96%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Whole-grain crunch</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Test-kitchen winner. Everywhere.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Whole-grain crunch</dd></div><div><dt>Price</dt><dd>7.3 oz jar, mid-range price (marketplace sellers online charge more)</dd></div><div><dt>Where</dt><dd>Kroger stores, Stop &amp; Shop, Lowes Foods, World Market, most grocery.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The whole-grain mustard to buy: plump seeds that pop, bright white-wine acidity and enough heat to cut through fatty salami and pâté. America&#x27;s Test Kitchen&#x27;s best whole-seed mustard. Spoon it into a small bowl; the seeds look great on a board.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Milder than some.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B000SR5VOU" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s best whole-seed mustard, with a nice crunch and pop and bright acidity.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
@@ -37,8 +37,8 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <article class="sk-card" id="pick-2">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">2</span><div><h3>Maille Dijon Originale</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.6 out of 5"><span class="sk-label">Our score</span><b>4.6</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:92%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Best Dijon</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Top-ranked Dijon.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Best Dijon</dd></div><div><dt>Price</dt><dd>7.5 oz jar, mid-range price (check the grocery shelf; online sellers charge more)</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A sharp, smooth Dijon with a fruity edge that Tasting Table ranked first. It&#x27;s the mustard for ham, prosciutto and Gruyère, and it&#x27;s also good stirred into honey for a quick honey-mustard dip. If your board already has whole grain, this is the smooth second mustard.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Smooth, so less visual texture.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B007NJS008" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.tastingtable.com/1704481/store-bought-dijon-mustard-brands-ranked/" target="_blank" rel="noopener">Tasting Table</a>&#x27;s number one Dijon, balancing sharpness with a note of fruitiness.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 4 · Easy to find 5</span></p></details>
@@ -46,8 +46,8 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <article class="sk-card" id="pick-3">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">3</span><div><p class="sk-pill">Best value</p><h3>Grey Poupon Harvest Coarse Ground</h3></div></div>
 <div class="sk-score" aria-label="Our score: 4.5 out of 5"><span class="sk-label">Our score</span><b>4.5</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:90%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget coarse mustard</dd></div><div><dt>Price</dt><dd>$ budget</dd></div><div><dt>Where</dt><dd>Most grocery stores.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Cheap. Test-kitchen winner.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Budget coarse mustard</dd></div><div><dt>Price</dt><dd>About $4.25 for an 8 oz jar</dd></div><div><dt>Where</dt><dd>Walmart, Target, nearly every grocery store.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The cheapest good coarse mustard: cohesive, gently crunchy and mildly spicy, so it doesn&#x27;t overwhelm a board. America&#x27;s Test Kitchen picked it as its best coarse-ground. Buy two jars for a big party; it costs about half as much as the imports.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Coarse, not whole seeds.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.kroger.com/p/grey-poupon-harvest-coarse-ground-dijon-mustard/0005440000179" target="_blank" rel="noopener">Find it at Kroger</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p><a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>&#x27;s best coarse-ground mustard: very cohesive, gently crunchy and mildly spicy.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 5 · Ingredients 5 · Value 5 · Easy to find 4</span></p></details>
@@ -55,8 +55,8 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <article class="sk-card" id="pick-4">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">4</span><div><p class="sk-pill">Best splurge</p><h3>Pommery Moutarde de Meaux</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.8 out of 5"><span class="sk-label">Our score</span><b>3.8</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:76%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>The gift-worthy pot</dd></div><div><dt>Price</dt><dd>$$$ premium</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Beautiful crock. Classic.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>The gift-worthy pot</dd></div><div><dt>Price</dt><dd>About $16 for a 250 g (8.8 oz) crock</dd></div><div><dt>Where</dt><dd>Specialty food stores, cheese shops, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> The classic French whole-grain mustard, made in Meaux since 1632, sold in a stoneware crock sealed with red wax and a cork. The seeds are softer and the flavor saltier than Maille. The crock itself looks good on a board, and it&#x27;s a lovely gift.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Expensive.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B0001BH5YM" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>The classic French whole-grain mustard in a wax-sealed crock. <a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a> recommended it, noting softer seeds and a salty edge.</p><p> <span class="sk-subscores">Scores: On the board 5 · Reviews 4 · Ingredients 5 · Value 2 · Easy to find 2</span></p></details>
@@ -64,8 +64,8 @@ A small bowl of mustard makes cured meat, pâté and sharp cheese taste better. 
 <article class="sk-card" id="pick-5">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">5</span><div><h3>Kozlik&#x27;s Triple Crunch Mustard</h3></div></div>
 <div class="sk-score" aria-label="Our score: 3.7 out of 5"><span class="sk-label">Our score</span><b>3.7</b><span class="sk-of">/ 5</span><span class="sk-bar" aria-hidden="true"><i style="width:74%"></i></span></div>
-<dl class="sk-facts"><div><dt>Best for</dt><dd>Big seeds</dd></div><div><dt>Price</dt><dd>$$ mid-range</dd></div><div><dt>Where</dt><dd>Specialty stores, online.</dd></div></dl>
-<p class="sk-why"><strong>Why it's here:</strong> Striking texture.</p>
+<dl class="sk-facts"><div><dt>Best for</dt><dd>Big seeds</dd></div><div><dt>Price</dt><dd>About $11 a jar</dd></div><div><dt>Where</dt><dd>Specialty stores, Mustard Museum, online.</dd></div></dl>
+<p class="sk-why"><strong>Why it's here:</strong> A Canadian mustard made with whisky and honey, with big, crunchy seeds that burst like caviar. The texture is the point: put a spoonful next to aged cheddar or a smoked sausage and let people discover it. It&#x27;s a fun conversation piece rather than an everyday mustard.</p>
 <p class="sk-mind"><strong>Watch out:</strong> Hard to find.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.amazon.com/dp/B00ND54FIC" target="_blank" rel="noopener">Check price on Amazon</a></div>
 <details class="sk-more"><summary>Why we ranked it here (sources)</summary><p>A Canadian mustard with large seeds and a caviar-like texture, recommended by <a href="https://www.americastestkitchen.com/taste_tests/2409-whole-grain-mustard" target="_blank" rel="noopener">America&#x27;s Test Kitchen</a>.</p><p> <span class="sk-subscores">Scores: On the board 4 · Reviews 4 · Ingredients 5 · Value 3 · Easy to find 2</span></p></details>
