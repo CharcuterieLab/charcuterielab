@@ -1644,6 +1644,7 @@ ${related
     }
     ${boardPostLink(item, blogSlugs)}
     ${item.category === "Cheese" && (!blogSlugs || blogSlugs.has("types-of-cheese")) ? `<p class="ing-boardpost">Comparing cheeses? <a href="/blog/types-of-cheese/">See all 100 types of cheese, with a chart &rarr;</a></p>` : ""}
+    ${item.category === "Cured Meat & Seafood" && (!blogSlugs || blogSlugs.has("types-of-cured-meat")) ? `<p class="ing-boardpost">Comparing cured meats? <a href="/blog/types-of-cured-meat/">See all 100 types of cured meat, with a chart &rarr;</a></p>` : ""}
     ${ingredientReadMore(item, mentions)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>
@@ -1762,7 +1763,7 @@ const NAV_GROUPS = [
   { key: "best", label: "Best buys", href: "/blog/best-charcuterie-brands/", match: /^\/blog\/best-/, links: [
     ["/blog/best-charcuterie-brands/", "All buying guides"], ["/blog/best-charcuterie-brands/?c=cheese#finder", "Best cheese"], ["/blog/best-charcuterie-brands/?c=meat#finder", "Best cured meat"], ["/blog/best-charcuterie-brands/?c=crackers#finder", "Best crackers and chips"], ["/blog/best-charcuterie-brands/?c=spreads#finder", "Best spreads and dips"], ["/blog/best-charcuterie-brands/?c=stores#finder", "Store guides: Costco, Aldi, TJ's"] ] },
   { key: "learn", label: "Learn", href: "/ingredients/", match: /^\/(ingredients|pairings|blog)\//, links: [
-    ["/ingredients/", "Ingredient library"], ["/blog/types-of-cheese/", "Types of cheese: the chart"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
+    ["/ingredients/", "Ingredient library"], ["/blog/types-of-cheese/", "Types of cheese: the chart"], ["/blog/types-of-cured-meat/", "Types of cured meat: the chart"], ["/pairings/", "Pairings: what goes with what"], ["/blog/", "Blog"], ["/about/", "About the Lab"] ] },
   { key: "shop", label: "Shop", href: "/shop/", match: /^\/(shop|printables|ebook|books)\//, links: [
     ["/shop/", "Start here"], ["/shop/#ebooks", "Books: ebooks and paperbacks"], ["/shop/printables/", "All printables"], ["/ebook/", "50 Boards Built by Science"] ] }
 ];
@@ -2755,6 +2756,19 @@ function blogPage(posts, { boards = [], holidays = [] } = {}) {
   return layout({
     title: "Charcuterie Articles by Topic | Charcuterie Lab",
     canonical: "/blog/",
+    // The hub had no JSON-LD at all: 935 impressions at position 5.8 and zero
+    // clicks (14 Nov 2026). It is a directory of topics, so that is what it says.
+    head: [
+      breadcrumbSchema([["Home", "/"], ["Articles", "/blog/"]]),
+      collectionSchema(
+        "/blog/",
+        "Charcuterie articles by topic",
+        `${posts.length} articles on building, pairing and buying for a charcuterie board.`,
+        // Anchors on this page, not ?cat= URLs: those query-string variants are
+        // already sitting in Google's "crawled - currently not indexed" list.
+        rows.map((r) => [r.name, `/blog/#topic-${r.key}`])
+      )
+    ].join("\n"),
     description: `Every Charcuterie Lab article by topic: ${rows.map((r) => r.name.toLowerCase()).join(", ")}. ${posts.length} articles on building, pairing and buying for a charcuterie board.`,
     body: `<main class="archive-main bp-main">
   <section class="archive-hero">
@@ -3741,6 +3755,16 @@ function newsletterPage() {
   return layout({
     title: "Free Charcuterie Printables and the Lab Report Newsletter",
     canonical: "/newsletter/",
+    // Also had no JSON-LD. The page is the free-printables list plus the signup.
+    head: [
+      breadcrumbSchema([["Home", "/"], ["Newsletter", "/newsletter/"]]),
+      collectionSchema(
+        "/newsletter/",
+        "Free charcuterie printables and the Lab Report",
+        "The free Charcuterie Cheat Sheet and a full board plan from the book, plus one board idea, one pairing and one best buy every week.",
+        FREE_PRINTABLES.map(([, title]) => [title, "/newsletter/"])
+      )
+    ].join("\n"),
     image: "/images/charcuterie-cheat-sheet.webp",
     description: "Get the free Charcuterie Cheat Sheet and a full board plan from the book, plus one board idea, one pairing and one best buy every week in the Lab Report.",
     body: `<main class="nl-page">
