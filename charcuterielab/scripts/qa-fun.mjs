@@ -1,7 +1,8 @@
 // Best Buys guides (14 Nov 2026): the Quick Answer becomes a short, playful
 // bullet list built from the guide's own "Our top picks" rows: the #1 pick,
-// best value, splurge (with the checked price when the guide has one) and the
+// best value, splurge (with score, checked price and buy button) and the
 // easiest-to-find pick from the "Best for..." row when it's a different brand.
+// It replaces the "Our top picks" box, which repeated the same picks.
 const POOLS = {
   lead: ["The short version:", "In a hurry? Here's your cheat sheet:", "Standing in the aisle right now? Grab one of these:", "Skip the reading. Here's what to buy:", "The 10-second answer:"],
   top: ["If you only buy one", "The crowd-pleaser", "Our gold medal", "The no-brainer", "Top of the board"],
@@ -31,7 +32,9 @@ export function funQuickAnswer(html, path) {
       href: name[1], name: text(name[2]),
       pill: text((/<p class="sk-pill">([\s\S]*?)<\/p>/.exec(r) || [])[1]),
       line: text((/<p class="sk-top-line">([\s\S]*?)<\/p>/.exec(r) || [])[1]),
-      price: (/· (about [^<]*)<\/span>/.exec(r) || [])[1] || ""
+      price: (/· (about [^<]*)<\/span>/.exec(r) || [])[1] || "",
+      score: (/Our score ([\d.]+)\/5/.exec(r) || [])[1] || "",
+      buy: (/<a class="button sk-buy-sm"[^>]*>[\s\S]*?<\/a>/.exec(r) || [])[0] || ""
     });
   }
   if (!rows.length) return { html, n: 0 };
@@ -50,9 +53,23 @@ export function funQuickAnswer(html, path) {
   }
   const li = items.map((x, i) => {
     const why = x.line ? ` — ${x.line.replace(/\.\s+(\S+)/g, (m, w) => ", " + (KEEP_CAPS.test(w) ? w : w.charAt(0).toLowerCase() + w.slice(1))).replace(/\.$/, "")}` : "";
-    const cost = x.price ? ` <span class="qa-price">(${x.price})</span>` : "";
-    return `<li><span class="qa-ico" aria-hidden="true">${ICON[x.k] || OTHER[(seed + i) % OTHER.length]}</span><span><strong>${x.label}${/\?$/.test(x.label) ? "" : ":"}</strong> <a href="${x.href}">${x.name}</a>${why}${cost}</span></li>`;
+    const facts = [x.score && `<span class="qa-score">★ ${x.score}/5</span>`, x.price && `<span class="qa-price">${x.price}</span>`].filter(Boolean).join(" · ");
+    const buy = x.buy ? x.buy.replace('class="button sk-buy-sm"', 'class="button sk-buy-sm qa-buy"') : "";
+    const meta = facts || buy ? `<span class="qa-meta">${facts ? `<span class="qa-facts">${facts}</span>` : ""}${buy}</span>` : "";
+    return `<li><span class="qa-ico" aria-hidden="true">${ICON[x.k] || OTHER[(seed + i) % OTHER.length]}</span><span class="qa-body"><span><strong>${x.label}${/\?$/.test(x.label) ? "" : ":"}</strong> <a href="${x.href}">${x.name}</a>${why}</span>${meta}</span></li>`;
   }).join("");
   const box = `<blockquote class="qa-fun"><p><strong>Quick Answer:</strong> ${pick(POOLS.lead, seed, 0)}</p><ul class="qa-list">${li}</ul></blockquote>`;
-  return { html: html.replace(qa[0], box), n: 1 };
+  html = html.replace(qa[0], box);
+  // The "Our top picks" box said the same thing right underneath: drop it.
+  const at = html.indexOf('<div class="sk-top">');
+  if (at > -1) {
+    let depth = 0;
+    const tag = /<div\b|<\/div>/g;
+    tag.lastIndex = at;
+    for (let m; (m = tag.exec(html));) {
+      depth += m[0] === "</div>" ? -1 : 1;
+      if (depth === 0) { html = html.slice(0, at) + html.slice(tag.lastIndex); break; }
+    }
+  }
+  return { html, n: 1 };
 }

@@ -1,5 +1,9 @@
-/* Best Buys quick answer as playful bullets (scripts/qa-fun.mjs) */
-.post-body blockquote.qa-fun ul.qa-list { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 8px; }
+/* Best Buys quick answer as playful bullets (scripts/qa-fun.mjs); it replaces "Our top picks" */
+.post-body blockquote.qa-fun ul.qa-list { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 14px; }
 .post-body blockquote.qa-fun ul.qa-list li { display: flex; gap: 10px; align-items: baseline; margin: 0; }
 .post-body blockquote.qa-fun .qa-ico { flex: none; width: 1.4em; text-align: center; }
-.post-body blockquote.qa-fun .qa-price { color: var(--muted); white-space: nowrap; }
+.post-body blockquote.qa-fun .qa-body { display: grid; gap: 6px; min-width: 0; }
+.post-body blockquote.qa-fun .qa-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-size: .92em; color: var(--muted); }
+.post-body blockquote.qa-fun .qa-score { color: var(--accent, #a0522d); font-weight: 700; }
+.post-body blockquote.qa-fun .qa-buy { margin: 0; font-size: .82rem; padding: 6px 12px; min-height: 0; }
+.post-body blockquote.qa-fun .qa-score, .post-body blockquote.qa-fun .qa-price { white-space: nowrap; }
