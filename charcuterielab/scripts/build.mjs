@@ -2035,7 +2035,11 @@ const HOME_SHOP_PICKS = ["holiday-hosting-pack", "classic-entertaining-board-blu
 function homeShop(products) {
   const picks = HOME_SHOP_PICKS.map((slug) => products.find((p) => p.slug === slug)).filter(Boolean);
   const card = (p, kicker) => `<article class="home-pick">
-        <a class="home-pick-img" href="/printables/${p.slug}/"><img src="${thumb(p.image)}" alt=""${imageSize(thumb(p.image))} loading="lazy" decoding="async"></a>
+        <!-- The card's heading already links here, so this thumbnail is a
+             duplicate link: hide it from assistive tech and from the tab order,
+             the same way fx-top-img does. Without this it is announced as an
+             unlabelled link (14 Nov 2026). -->
+        <a class="home-pick-img" href="/printables/${p.slug}/" aria-hidden="true" tabindex="-1"><img src="${thumb(p.image)}" alt=""${imageSize(thumb(p.image))} loading="lazy" decoding="async"></a>
         <p class="home-pick-k">${kicker}</p>
         <h3><a href="/printables/${p.slug}/">${escapeHtml(p.title)}</a></h3>
         <p>${escapeHtml(p.hook || p.description)}</p>
