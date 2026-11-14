@@ -157,7 +157,8 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   }
   for (const d of drinks) for (const m of d.matches) reasons.set(key(`drink:${d.slug}`, m.s), m.why);
 
-  const foods = data.foods.map((f) => ({ ...f, item: bySlug.get(f.slug), url: `/pairings/food/${f.slug}/` }));
+  // foods.json display_name (13 Nov 2026) renames the food on its own guide, e.g. "Gouda" for the ingredient titled "Gouda (Young)".
+  const foods = data.foods.map((f) => ({ ...f, item: f.display_name && bySlug.get(f.slug) ? { ...bySlug.get(f.slug), title: f.display_name } : bySlug.get(f.slug), url: `/pairings/food/${f.slug}/` }));
   const foodPage = new Map(foods.map((f) => [f.slug, f]));
   const combos = COMBO_KINDS.flatMap((k) => data.combos[k.key].map((c) => ({ ...c, kind: k.key, kindLabel: k.label, id: c.foods.join("-") })));
   // combos explain their own pairs when an ingredient page doesn't

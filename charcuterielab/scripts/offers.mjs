@@ -56,7 +56,7 @@ export const OFFER_RULES = [
   [/boquerones|sobrasada|tapas|spanish|chorizo|manchego|membrillo|jamon|serrano|iberico|marcona|piquillo|mahon|idiazabal|lomo|fuet|salchichon|quince/, ["spanish-tapas-board-kit", "book:board"], "Going Spanish?"],
   [/labneh|halloumi|mezze|hummus|za-atar|tzatziki|baba-ganoush|muhammara|dukkah|harissa|feta/, ["mezze-board-plan"], "Building a mezze board?"],
   [/brie|camembert|boursin|triple-creme|humboldt|taleggio|cambozola|soft-cheese|fromager/, ["soft-cheese-field-guide", "cheese-board-field-guide"], "Serving soft cheese?"],
-  [/-pairing\/|pairing-by-contrast|salt-sweet|acid-rule|texture-contrast|umami/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
+  [/-pairing\/|pairing-by-contrast|salt-sweet|acid-rule|texture-contrast|umami|bubbles-cut-fat|cheese-rind-types|how-to-taste-cheese|spicy-salami-and-wine/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
   [/build-sequence|etiquette|rosemary|thyme|garnish|presentation|layout|arrange|salami-river|prosciutto-rose|board-photography|color-and-flavor|edible-flowers|fresh-basil|fresh-mint|board-shapes/, ["board-styling-playbook", "classic-entertaining-board-blueprint"], "Want it to look styled?"],
   [/expensive|budget|cheap|dollar|luxury|splurge|best-charcuterie-brands|board-cost/, ["spend-smart-board-plan", "book:board"], "Spending smart?"],
   [/grazing|large-group|crowd|meat-and-cheese-tray|deli-tray|party-platter|wedding|for-(20|25|30|40|50|100)-people|charcuterie-cups|jarcuterie|charcuterie-skewers/, ["grazing-table-planner", "complete-board-builder-bundle"], "Feeding a crowd?"],
