@@ -7,13 +7,13 @@ board_role: "The default fruit"
 role_group: "Fresh fruit"
 excerpt: "On more boards than any other fruit, and usually served wrong. Snip them into small clusters, never pile them loose, and buy the ones with brown stems."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-14
 price_tier: "$"
 serving_per_person: "2–3 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "everyday", "beginner"]
-pairs_with: ["berries", "apples", "pears", "brie", "manchego", "champagne-grapes"]
+pairs_with: ["berries", "apples", "pears", "brie", "manchego", "champagne-grapes", "aged-cheddar", "prosciutto-di-parma", "walnuts", "almonds", "gorgonzola"]
 avoid_with: []
 faq: "[{"question": "How do I stop grapes rolling everywhere?", "answer": "Snip the bunch into small clusters with kitchen scissors. Never put loose grapes on a board."}, {"question": "Red or green?", "answer": "Red and black look better and taste sweeter on a board. Green are tarter and work well with very rich cheeses."}, {"question": "How much per person?", "answer": "2–3 oz — roughly one small cluster each."}, {"question": "Should they be cold?", "answer": "Yes. Unlike cheese, fruit is better straight from the fridge."}, {"question": "What are champagne grapes?", "answer": "Tiny seedless grapes in dense clusters, also called Zante currants. The most striking grape you can put on a board."}]"
 ---
@@ -50,9 +50,10 @@ which is why one between bites makes the next bite of cheese taste new.
 | **Brie and soft cheeses** | Cool wet fruit against warm soft fat. The most common bite on any board, and it earns it. |
 | **Manchego and aged sheep cheese** | Sweet juice cutting nutty salt. |
 | **Aged cheddar** | Acid and sugar against sharp acid. |
-| **Prosciutto and cured ham** | Salt and fat, water and sugar. The same logic as melon. |
+| **Prosciutto di Parma and cured ham** | Salt and fat, water and sugar. The same logic as melon. |
 | **Walnuts and almonds** | Crunch and tannin against soft juice. |
-| **Blue cheese** | Sweetness blunting salt and funk. |
+| **Blue cheese like Gorgonzola** | Sweetness blunting salt and funk. |
+| **Sparkling wine, Riesling or rosé** | Bright acid and a little fruit, the same jobs grapes do on the board. |
 | **Almost anything** | Grapes are the least fussy thing on a board. That's the point of them. |
 
 **Skip it with:** nothing, really. The only failure is presentation — loose

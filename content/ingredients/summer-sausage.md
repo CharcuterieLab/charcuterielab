@@ -7,13 +7,13 @@ board_role: "Tangy American sausage"
 role_group: "Salami"
 excerpt: "The American semi-dry sausage from the gift basket — tangy, smoky and better than its reputation. The tang is lactic fermentation, not vinegar."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-14
 price_tier: "$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "american", "smoked", "budget"]
-pairs_with: ["landjager", "genoa-salami", "pepperoni", "aged-cheddar", "butter-crackers", "meat-sticks"]
+pairs_with: ["landjager", "genoa-salami", "pepperoni", "aged-cheddar", "butter-crackers", "meat-sticks", "whole-grain-mustard", "spicy-brown-mustard", "dill-pickles", "pickled-red-onions", "pepper-jelly", "baby-swiss", "colby-jack"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is it called summer sausage?", "answer": "It was made to keep without refrigeration through summer — fermented, smoked and partially dried."}, {"question": "Why is it tangy?", "answer": "Lactic fermentation, the same process behind sourdough and yoghurt. Cheap versions fake it with vinegar."}, {"question": "Is it cooked?", "answer": "Most commercial summer sausage is cooked during smoking and is ready to eat."}, {"question": "How much per person?", "answer": "1–2 oz. It's inexpensive, so be generous."}, {"question": "Is it beef or pork?", "answer": "Usually beef, or a beef-and-pork blend. Venison versions are common in the Midwest."}]"
 ---
@@ -46,10 +46,10 @@ Cheap versions add vinegar to fake it — real ones taste rounder.
 |---|---|
 | **Aged cheddar** | The gift-basket pairing, and it's genuinely correct. Sharp cheese, tangy sausage. |
 | **Butter crackers** | The American deli base. Sweet-ish cracker against sour sausage. |
-| **Grainy or yellow mustard** | Mustard seed is already in the sausage. Doubling it works. |
-| **Pickles and pickled onion** | Acid on acid, which works here because both are clean and sharp. |
+| **Whole grain or spicy brown mustard** | Mustard seed is already in the sausage. Doubling it works. |
+| **Dill pickles and pickled red onions** | Acid on acid, which works here because both are clean and sharp. |
 | **Pepper jelly** | Sweet heat against smoke and tang. |
-| **Swiss or Colby** | Mild cheese as a counterweight. |
+| **Baby Swiss or Colby Jack** | Mild cheese as a counterweight. |
 | **Cold lager, cider, bourbon** | Nothing precious required. |
 
 **Skip it with:** delicate fresh cheeses and expensive aged European ones.

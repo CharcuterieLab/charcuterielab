@@ -7,13 +7,13 @@ board_role: "Sweet anchor"
 role_group: "Dried fruit"
 excerpt: "The sweetest thing on the board and the best vehicle for stuffing. Buy them soft and glossy, split them, pit them, and fill them with cheese."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-14
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "dried", "middle-eastern", "crowd-pleaser"]
-pairs_with: ["gorgonzola", "fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "chocolate-covered-almonds", "sea-salt-caramels", "cocoa-nibs", "fresh-mint", "nut-brittle"]
+pairs_with: ["gorgonzola", "fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "chocolate-covered-almonds", "sea-salt-caramels", "cocoa-nibs", "fresh-mint", "nut-brittle", "parmigiano-reggiano", "stilton"]
 avoid_with: []
 faq: "[{"question": "Which dates are best for a charcuterie board?", "answer": "Medjool — large, soft, and sturdy enough to split and stuff."}, {"question": "How do I pit a date?", "answer": "Split it lengthwise along one side and lift the pit out. Don't cut all the way through."}, {"question": "What do you stuff dates with?", "answer": "Goat cheese, blue cheese, or mascarpone, usually topped with a pistachio or almond and sometimes wrapped in prosciutto."}, {"question": "How many per person?", "answer": "One or two. They're very sweet and very rich."}, {"question": "My dates are hard — can I fix them?", "answer": "Steam them for two minutes or soak in warm water for ten, then pat dry."}]"
 ---
@@ -49,6 +49,7 @@ that a date can't cover. It's also why one or two per person is enough.
 | **Prosciutto** | Wrap a stuffed date in a half-slice. Salt, fat, sugar, tang — a complete bite. |
 | **Manchego** | Nutty sheep milk against molasses. A Spanish standard. |
 | **Pistachios and almonds** | Push a nut into the pitted cavity. Crunch is what a date is missing. |
+| **Tawny port, sherry or sparkling wine** | Nutty, raisined wine echoes the date; bubbles cut its stickiness. |
 | **Parmigiano-Reggiano** | Crystalline salt against sticky sweet — the best cheap version of this pairing. |
 
 **Skip it with:** other sweet things. A date beside honey, jam and dried figs

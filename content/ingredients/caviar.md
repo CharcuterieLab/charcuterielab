@@ -7,13 +7,13 @@ board_role: "Luxury board centerpiece"
 role_group: "Smoked & tinned fish"
 excerpt: "Salt-cured sturgeon roe, served cold with a mother-of-pearl spoon. The one ingredient that makes a board an occasion, and the one most people get wrong."
 date: 2026-09-08
-updated: 2026-09-08
+updated: 2026-11-14
 price_tier: "$$$"
 serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["luxury", "seafood", "special-occasion", "roe", "celebration"]
-pairs_with: ["blini", "mascarpone", "smoked-salmon", "brioche-toast-points", "cream-cheese", "boquerones", "finger-limes"]
+pairs_with: ["blini", "mascarpone", "smoked-salmon", "brioche-toast-points", "cream-cheese", "boquerones", "finger-limes", "kettle-chips"]
 avoid_with: []
 faq: "[{"question": "What is the difference between caviar and roe?", "answer": "Strictly, caviar is salt-cured sturgeon roe. Salmon, trout and lumpfish roe are roe, and are a tenth of the price."}, {"question": "Why should you not use a metal spoon?", "answer": "Metal reacts with the roe and adds a faint metallic taste. Mother-of-pearl, bone or plastic does not."}, {"question": "What does malossol mean?", "answer": "Lightly salted, in Russian. It is the standard for good caviar — less salt, shorter shelf life, better flavour."}, {"question": "What is a good caviar to start with?", "answer": "Farmed ossetra is the usual entry point. For a board on a budget, trout or salmon roe delivers most of the effect for a fraction of the cost."}, {"question": "How much per person?", "answer": "Half an ounce is generous. An ounce shared between two people is a real serving."}]"
 ---
@@ -52,6 +52,8 @@ tastes salty.
 | **Smoked salmon** | Two cured fish, one smoked and one salted. A luxury board can hold both. |
 | **Brioche toast points** | Butter and a little sweetness. The classier alternative to a cracker. |
 | **Cream cheese** | The bagel-board version. Less traditional, entirely reasonable. |
+| **Kettle chips** | The famous high-low bite: salty crunch under salty pearls, with a dab of crème fraîche between them. |
+| **Champagne, cava or ice-cold vodka** | Bubbles and acid scrub the palate between spoonfuls; vodka is the Russian tradition. |
 | **Boquerones** | If you are building a seafood board, the vinegar-cured anchovy is the low-cost partner that makes the caviar look deliberate. |
 
 **Skip it with:** anything strong. Cheese, cured meat, pickles and chili all
