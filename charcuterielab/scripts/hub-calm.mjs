@@ -20,7 +20,7 @@ import { upNewsletter, upThanks } from "./newsletter-up.mjs";
 import { upAbout } from "./about-up.mjs";
 import { upShop } from "./shop-up.mjs";
 import { upBest } from "./best-up.mjs";
-import { upIngredient, upIngHub } from "./ing-up.mjs";
+import { upIngCategory, upIngredient, upIngHub } from "./ing-up.mjs";
 import { twoAsks } from "./asks-up.mjs";
 import { hubPhoto } from "./hub-photos.mjs";
 import { funQuickAnswer } from "./qa-fun.mjs";
@@ -147,7 +147,11 @@ export async function calmHubs(dist) {
       if (path.startsWith("/blog/")) { const r = funQuickAnswer(html, path); if (r.n) { html = r.html; n.qa = (n.qa || 0) + 1; } }
       { const r = twoAsks(html, path); if (r.n) { html = r.html; n.asks = (n.asks || 0) + 1; } }
       if (path === "/ingredients/") { const r = upIngHub(html); html = r.html; n.ingHub = r.n; }
-      else if (path.startsWith("/ingredients/")) { const r = upIngredient(html, path); if (r.n) { html = r.html; n.ingUp = (n.ingUp || 0) + 1; } }
+      else if (path.startsWith("/ingredients/")) {
+        const c = upIngCategory(html);
+        if (c.n) { html = c.html; n.ingCat = (n.ingCat || 0) + 1; }
+        else { const r = upIngredient(html, path); if (r.n) { html = r.html; n.ingUp = (n.ingUp || 0) + 1; } }
+      }
       { const r = hubPhoto(html, path, dist); if (r.n) { html = r.html; n.photos = (n.photos || 0) + 1; } }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {

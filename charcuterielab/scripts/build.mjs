@@ -1023,8 +1023,8 @@ function ingredientsFinder(items, { heading, intro, note = "", showCategoryFilte
   const roles = [...new Set(items.map((i) => i.roleGroup).filter(Boolean))].sort();
   const prices = [...new Set(items.map((i) => i.priceTier).filter(Boolean))].sort();
 
-  const chip = (group, value, label) =>
-    `<button type="button" class="ing-chip" data-group="${group}" data-value="${escapeHtml(value)}" data-label="${escapeHtml(label)}" aria-pressed="false">${escapeHtml(label)}</button>`;
+  const chip = (group, value, label, count) =>
+    `<button type="button" class="ing-chip" data-group="${group}" data-value="${escapeHtml(value)}" data-label="${escapeHtml(label)}" aria-pressed="false">${escapeHtml(label)}${count ? `<span class="ing-chip-n">${count}</span>` : ""}</button>`;
 
   return `<section class="ing-finder">
   <div class="section-inner">
@@ -1032,12 +1032,13 @@ function ingredientsFinder(items, { heading, intro, note = "", showCategoryFilte
     <p class="ing-intro">${escapeHtml(intro)}</p>
 ${note ? `    <p class="ing-intro ing-note">${note}</p>
 ` : ""}
-    <div class="ing-controls">
+    <div class="ing-searchbar">
       <label class="ing-search-label" for="ing-search">Search ingredients</label>
       <input id="ing-search" class="ing-search" type="search" placeholder="Search ${items.length} ingredients &mdash; brie, gluten free, blue cheese&hellip;" autocomplete="off">
-
+    </div>
+    <div class="ing-controls">
       <div class="ing-facets">
-        ${showCategoryFilter && categories.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Category</span><div class="ing-chips">${categories.map((c) => chip("cat", slugify(c), c)).join("")}</div></div>` : ""}
+        ${showCategoryFilter && categories.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Category</span><div class="ing-chips">${categories.map((c) => chip("cat", slugify(c), c, items.filter((i) => i.category === c).length)).join("")}</div></div>` : ""}
         <details class="ing-facet ing-facet-more"><summary><span class="ing-facet-label">Type</span><span class="ing-facet-hint">${roles.length} options</span><span class="ing-facet-count" hidden></span></summary><div class="ing-chips">${roles.map((r) => chip("role", r.toLowerCase(), r)).join("")}</div></details>
         ${prices.length > 1 ? `<div class="ing-facet"><span class="ing-facet-label">Price</span><div class="ing-chips">${prices.map((p) => chip("price", p, p)).join("")}</div></div>` : ""}
         <div class="ing-facet"><span class="ing-facet-label">Free from</span><div class="ing-chips">${FREE_FROM.map((f) => chip("free", f.key, f.label)).join("")}</div></div>
@@ -1177,6 +1178,58 @@ ${items.map(ingredientCard).join("\n")}
 </script>`;
 }
 
+// Each ingredient category has a blog guide that already owns its head term:
+// /ingredients/cheese/ drew 0 impressions in the 28 days to 13 Nov while
+// /blog/best-cheese-charcuterie-board/ drew 6,101. Six of the eight category
+// pages drew nothing at all. So they stop competing: the category page is the
+// browse-everything reference, the guide is "which one to buy", and each says
+// so and links to the other (14 Nov 2026).
+// "All 87 Cheese" reads wrong; these are the counted forms used in the
+// category titles and headings.
+const CATEGORY_PLURAL = {
+  "Cheese": "Cheeses",
+  "Cured Meat & Seafood": "Cured Meats & Seafood",
+  "Fruit": "Fruits",
+  "Pickles, Olives & Briny": "Pickles, Olives & Briny Bites"
+};
+const categoryPlural = (c) => CATEGORY_PLURAL[c] || c;
+
+const CATEGORY_GUIDE = {
+  "Cheese": ["/blog/best-cheese-charcuterie-board/", "which cheeses to buy"],
+  "Cured Meat & Seafood": ["/blog/best-meats-charcuterie-board/", "which meats to buy"],
+  "Crackers & Breads": ["/blog/best-crackers-for-charcuterie/", "which crackers to buy"],
+  "Fruit": ["/blog/charcuterie-board-fruit/", "which fruit to use"],
+  "Nuts & Seeds": ["/blog/charcuterie-board-nuts/", "which nuts to use"],
+  "Spreads, Jams & Honey": ["/blog/charcuterie-board-condiments/", "which spreads to choose"],
+  "Pickles, Olives & Briny": ["/blog/best-olives-for-charcuterie/", "which olives to buy"],
+  "Finishing Touches": ["/blog/unique-charcuterie-ingredients/", "25 unusual ones worth trying"]
+};
+
+// A directory page is an ItemList inside a CollectionPage. The hub lists its
+// eight categories rather than all 375 ingredients: the categories are what the
+// page is actually about, and 375 ListItems would add ~40 KB of JSON to a page
+// already carrying 5,000 DOM nodes.
+function collectionSchema(url, name, description, entries) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${absoluteUrl(url)}#collection`,
+    url: absoluteUrl(url),
+    name,
+    description,
+    isPartOf: { "@id": "https://charcuterielab.com/#website" },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: entries.length,
+      itemListOrder: "https://schema.org/ItemListOrderAscending",
+      itemListElement: entries.map(([itemName, path], i) => ({
+        "@type": "ListItem", position: i + 1, name: itemName, url: absoluteUrl(path)
+      }))
+    }
+  };
+  return `  <script type="application/ld+json">${jsonForScript(schema)}</script>`;
+}
+
 function ingredientsHub(items) {
   const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
   return layout({
@@ -1184,6 +1237,15 @@ function ingredientsHub(items) {
     title: `Charcuterie Ingredients: ${items.length} Cheeses, Meats & More`,
     description:
       "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
+    head: [
+      breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"]]),
+      collectionSchema(
+        "/ingredients/",
+        `Charcuterie ingredients: ${items.length} cheeses, meats and more`,
+        `Every charcuterie board ingredient in ${categories.length} categories, one page each.`,
+        categories.map((c) => [c, `/ingredients/${slugify(c)}/`])
+      )
+    ].join("\n"),
     body: `<main class="ing-main">
 ${ingredientsFinder(items, {
   heading: "Charcuterie ingredients, explained",
@@ -1212,17 +1274,31 @@ ${labNext("ingredients_hub", { skip: ["ingredients"] })}
 }
 
 function ingredientCategoryPage(category, items) {
+  const [guideHref, guideLabel] = CATEGORY_GUIDE[category] || [];
+  const low = category.toLowerCase();
   return layout({
     canonical: `/ingredients/${slugify(category)}/`,
-    title: pageTitle(`${category} for Charcuterie: ${items.length} Types Explained`),
-    description: `Every ${category.toLowerCase()} ingredient for a charcuterie board — pairings, prep and what to buy, one page each.`,
-    head: breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"], [category, `/ingredients/${slugify(category)}/`]]),
+    // "All N ... A to Z" rather than "N Types Explained": this is the browse
+    // page, and the guide above keeps the "best / which to buy" phrasing.
+    title: pageTitle(`All ${items.length} ${categoryPlural(category)} for Charcuterie, A to Z`),
+    description: `Browse every ${low} ingredient for a charcuterie board, A to Z. ${items.length} pages, each with pairings, prep and what to buy.`,
+    head: [
+      breadcrumbSchema([["Home", "/"], ["Ingredients", "/ingredients/"], [category, `/ingredients/${slugify(category)}/`]]),
+      collectionSchema(
+        `/ingredients/${slugify(category)}/`,
+        `All ${items.length} ${categoryPlural(category).toLowerCase()} for charcuterie, A to Z`,
+        `Every ${low} ingredient for a charcuterie board, one page each.`,
+        items.map((i) => [i.title, `/ingredients/${i.slug}/`])
+      )
+    ].join("\n"),
     body: `<main class="ing-main">
   <p class="ing-crumb"><a href="/ingredients/">Ingredients</a> <span aria-hidden="true">/</span> ${escapeHtml(category)}</p>
 ${ingredientsFinder(items, {
-  heading: category,
-  intro: `${items.length} ${category.toLowerCase()} ingredients, each with pairings, prep and what to buy.`,
-  note: category === "Cheese" ? `New to cheese? Start with <a href="/blog/types-of-cheese/">types of cheese: 100 cheeses explained, with a chart</a>.` : "",
+  heading: `All ${items.length} ${categoryPlural(category).toLowerCase()} for charcuterie`,
+  intro: `Every ${low} a board can hold, A to Z. Each one has its own page with pairings, prep and what to buy.`,
+  note: guideHref
+    ? `Looking for a recommendation rather than the full list? Read <a href="${guideHref}">${escapeHtml(guideLabel)}</a>.`
+    : "",
   showCategoryFilter: false
 })}
 ${labNext(`ingredients_${slugify(category)}`, { skip: ["ingredients"] })}

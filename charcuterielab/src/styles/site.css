@@ -6674,3 +6674,81 @@ form.qs.qs-dark.is-err p.qs-note { color: #fff3d6; }
   .gf-cal-list li { grid-template-columns: 1fr; }
   .gf-cal-when { grid-row: auto; }
 }
+
+/* ---- ingredient finder: sticky search, jump bar, render cost (14 Nov 2026) ----
+   The search box for 375 ingredients used to sit a full screen below the fold,
+   under the email form. It now comes straight after the intro and stays with
+   you down the A-Z. */
+
+.ing-searchbar {
+  position: sticky;
+  top: 56px;                 /* clears the sticky site header */
+  z-index: 8;
+  margin: 0 0 18px;
+  padding: 10px 0;
+  background: linear-gradient(var(--cream, #faf7f2) 72%, rgba(250, 247, 242, 0));
+}
+
+/* a hairline only once it has lifted off its resting place */
+.ing-searchbar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: rgba(169, 87, 43, 0.16);
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+
+.ing-searchbar.is-stuck::after { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ing-searchbar::after { transition: none; }
+}
+
+.ing-chip-n {
+  margin-left: 6px;
+  font-size: .82em;
+  opacity: .62;
+  font-variant-numeric: tabular-nums;
+}
+
+/* A to Z jump bar */
+.ing-az-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.ing-az-jump li { margin: 0; }
+
+.ing-az-jump button {
+  min-width: 30px;
+  padding: 5px 7px;
+  font: 600 13px/1 inherit;
+  color: var(--ink, #241c14);
+  background: var(--paper, #fff);
+  border: 1px solid rgba(169, 87, 43, 0.16);
+  border-radius: 3px;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+
+.ing-az-jump button:hover,
+.ing-az-jump button:focus-visible {
+  background: rgba(169, 87, 43, 0.09);
+  border-color: rgba(169, 87, 43, 0.38);
+}
+
+/* content-visibility was tried here and removed (14 Nov 2026). It does cut the
+   render cost of 375 cards, but a card's position is only settled once it has
+   painted, so the A-Z jump bar landed several letters off every time. The grid
+   ships collapsed to 24 cards and every image is lazy, so the saving was small
+   and the broken jump was not worth it. */
+
+.ing-card { scroll-margin-top: 124px; }

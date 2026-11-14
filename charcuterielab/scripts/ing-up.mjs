@@ -189,19 +189,92 @@ const ROLES = [
 ];
 const HOLIDAY = ["brie", "stilton", "cranberry-sauce", "pomegranate", "smoked-salmon", "candied-pecans", "dark-chocolate", "rosemary-sprigs", "champagne-grapes", "wensleydale-cranberry"];
 
-const HUB_JS = `<script data-ing-up>(function(){try{var hol=document.querySelector("[data-ing-holiday]");if(hol){var d=new Date(),mo=d.getMonth();if(mo===10||mo===11)hol.hidden=false}}catch(e){}var rows=document.querySelectorAll("[data-ing-rows]"),f=document.querySelector(".ing-finder");function hide(){rows.forEach(function(r){r.hidden=true})}if(f){f.addEventListener("input",function(e){if(e.target.closest(".ing-controls"))hide()});f.addEventListener("click",function(e){if(e.target.closest(".ing-chip"))hide()})}if(location.hash||location.search)hide();var g=document.getElementById("ing-grid"),t=document.querySelectorAll("[data-ing-view]");function view(v){if(!g)return;g.classList.toggle("ing-list-view",v==="list");t.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.ingView===v?"true":"false")});try{localStorage.setItem("ing-view",v)}catch(e){}}t.forEach(function(b){b.addEventListener("click",function(){view(b.dataset.ingView)})});try{var s=localStorage.getItem("ing-view");if(s)view(s)}catch(e){}})();</script>`;
+const HUB_JS = `<script data-ing-up>(function(){try{var hol=document.querySelector("[data-ing-holiday]");if(hol){var d=new Date(),mo=d.getMonth();if(mo===10||mo===11)hol.hidden=false}}catch(e){}var rows=document.querySelectorAll("[data-ing-rows]"),f=document.querySelector(".ing-finder");function hide(){rows.forEach(function(r){r.hidden=true})}if(f){f.addEventListener("input",function(e){if(e.target.closest(".ing-controls,.ing-searchbar"))hide()});f.addEventListener("click",function(e){if(e.target.closest(".ing-chip"))hide()})}if(location.hash||location.search)hide();var g=document.getElementById("ing-grid"),t=document.querySelectorAll("[data-ing-view]");function view(v){if(!g)return;g.classList.toggle("ing-list-view",v==="list");t.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.ingView===v?"true":"false")});try{localStorage.setItem("ing-view",v)}catch(e){}}t.forEach(function(b){b.addEventListener("click",function(){view(b.dataset.ingView)})});try{var s=localStorage.getItem("ing-view");if(s)view(s)}catch(e){}var jb=document.querySelectorAll("[data-ing-jump]");if(jb.length&&g){jb.forEach(function(b){b.addEventListener("click",function(){g.classList.add("show-all");var w=document.querySelector(".ing-more-wrap");if(w)w.hidden=true;hide();var L=b.getAttribute("data-ing-jump"),c=null,i;for(i=0;i<g.children.length;i++){var el=g.children[i];if(!el.hasAttribute("hidden")&&(el.getAttribute("data-name")||"").charAt(0)===L){c=el;break}}if(c){c.scrollIntoView({block:"start"});requestAnimationFrame(function(){c.scrollIntoView({block:"start"});setTimeout(function(){c.scrollIntoView({block:"start",behavior:"smooth"})},160)})}})})}var sb=document.querySelector(".ing-searchbar");if(sb&&"IntersectionObserver" in window){var sent=document.createElement("div");sent.setAttribute("aria-hidden","true");sent.style.cssText="height:1px;margin:0";sb.parentNode.insertBefore(sent,sb);new IntersectionObserver(function(e){sb.classList.toggle("is-stuck",!e[0].isIntersecting)},{rootMargin:"-57px 0px 0px 0px"}).observe(sent)}})();</script>`;
+
+// Pull a balanced <div>...</div> out of the page, starting at `open`.
+// Returns [htmlWithoutIt, theBlock]; the block is "" when not found.
+function cutDiv(html, open) {
+  const start = html.indexOf(open);
+  if (start < 0) return [html, ""];
+  let i = start, depth = 0;
+  const re = /<\/?div\b/gi;
+  re.lastIndex = start;
+  let m;
+  while ((m = re.exec(html))) {
+    depth += m[0][1] === "/" ? -1 : 1;
+    if (depth === 0) { i = m.index + html.slice(m.index).indexOf(">") + 1; break; }
+  }
+  if (depth !== 0) return [html, ""];
+  return [html.slice(0, start) + html.slice(i), html.slice(start, i)];
+}
+
+function cutTag(html, open, close) {
+  const a = html.indexOf(open);
+  if (a < 0) return [html, ""];
+  const b = html.indexOf(close, a);
+  if (b < 0) return [html, ""];
+  const end = b + close.length;
+  return [html.slice(0, a) + html.slice(end), html.slice(a, end)];
+}
+
+// The eight category pages run the same finder as the hub, so they had the same
+// problem: the email form sat between the H1 and the search box for 87 cheeses.
+// Here there is no "start here" block to tuck it behind, so it goes below the
+// filters, just above the A-Z grid (14 Nov 2026).
+export function upIngCategory(html) {
+  if (!html.includes('id="ing-grid"') || !html.includes('<div class="qs-wrap"')) return { html, n: 0 };
+  let email = "", aff = "";
+  [html, email] = cutDiv(html, '<div class="qs-wrap"');
+  [html, aff] = cutTag(html, '<p class="aff-note"', "</p>");
+  if (!email && !aff) return { html, n: 0 };
+
+  const letters = [...new Set((html.match(/data-name="([a-z0-9])/g) || [])
+    .map((x) => x.slice(11).toUpperCase()))].sort();
+  const jump = letters.length > 6
+    ? `<ul class="ing-az-jump">${letters
+        .map((L) => `<li><button type="button" data-ing-jump="${L.toLowerCase()}">${L}</button></li>`)
+        .join("")}</ul>`
+    : "";
+
+  // A function replacer, not a string: the subscribe block contains the price
+  // "$14", and in a replacement string "$1" is a backreference, which spliced
+  // the grid's opening tag into the middle of a link (14 Nov 2026).
+  html = html.replace(/<ul class="ing-grid" id="ing-grid">/,
+    (a) => `<div class="ing-ask">${email}${aff}</div>\n${jump}\n${a}`);
+  html = html.replace(/<\/main>/, `${HUB_JS}\n</main>`);
+  return { html, n: 1 };
+}
 
 export function upIngHub(html) {
   const m = data();
   if (!html.includes('id="ing-grid"')) return { html, n: 0 };
   const card = (s) => { const x = m.get(s); return x ? `<li><a href="/ingredients/${x.slug}/"><img src="${esc(thumbFor(html, x.slug))}" alt="" width="64" height="43" loading="lazy" decoding="async"><span><strong>${esc(x.title)}</strong><span>${esc(x.role)}</span></span></a></li>` : ""; };
   const chip = (s) => { const x = m.get(s); return x ? link(x) : ""; };
+  // Order on the page used to be: h1, email form, affiliate note, intro, "New:"
+  // line, then search - so the search box for 375 ingredients sat a full screen
+  // below the fold. Search now comes straight after the intro; the email form
+  // moves below the 12 most-used tiles and the "New:" line down to the A-Z
+  // (14 Nov 2026).
+  let email = "", aff = "", note = "";
+  [html, email] = cutDiv(html, '<div class="qs-wrap"');
+  [html, aff] = cutTag(html, '<p class="aff-note"', "</p>");
+  [html, note] = cutTag(html, '<p class="ing-intro ing-note"', "</p>");
+  const emailBlock = email || aff ? `    <div class="ing-ask">${email}${aff}</div>\n` : "";
+
+  const letters = [...new Set((html.match(/data-name="([a-z0-9])/g) || [])
+    .map((x) => x.slice(11).toUpperCase()))].sort();
+  const jump = letters.length > 6
+    ? `<ul class="ing-az-jump">${letters
+        .map((L) => `<li><button type="button" data-ing-jump="${L.toLowerCase()}">${L}</button></li>`)
+        .join("")}</ul>`
+    : "";
+
   const rows = `<div class="ing-rows" data-ing-rows>
     <section class="ing-start" aria-labelledby="ing-start-h">
       <h2 id="ing-start-h">Start here: the 12 most-used</h2>
       <ul class="ing-start-grid">${START.map(card).join("")}</ul>
     </section>
-    <section class="ing-role" aria-labelledby="ing-role-h">
+${emailBlock}    <section class="ing-role" aria-labelledby="ing-role-h">
       <h2 id="ing-role-h">Build a board: what you need</h2>
       <p class="ing-role-sub">A classic board for 6 to 10 people, one pick per line. Tap a line for every option in that group.</p>
       <ul class="ing-role-list">${ROLES.map(([label, href, picks]) => `<li><a class="ing-role-k" href="${href}">${esc(label)}</a><span class="ing-role-v">${picks.map(chip).filter(Boolean).join(" · ")}</span></li>`).join("")}</ul>
@@ -212,7 +285,9 @@ export function upIngHub(html) {
       <p class="ing-hol-chips">${HOLIDAY.map(chip).filter(Boolean).join("")}</p>
     </section>
   </div>
-  <div class="ing-az-head"><h2>Every ingredient, A to Z</h2><div class="ing-view" role="group" aria-label="View"><button type="button" data-ing-view="cards" aria-pressed="true">Cards</button><button type="button" data-ing-view="list" aria-pressed="false">List</button></div></div>`;
+  ${note}
+  <div class="ing-az-head"><h2>Every ingredient, A to Z</h2><div class="ing-view" role="group" aria-label="View"><button type="button" data-ing-view="cards" aria-pressed="true">Cards</button><button type="button" data-ing-view="list" aria-pressed="false">List</button></div></div>
+  ${jump}`;
   let n = 0;
   html = html.replace(/(<ul class="ing-grid" id="ing-grid">)/, (a) => { n++; return rows + "\n" + a; });
   if (n) html = html.replace(/<\/main>/, `${HUB_JS}\n</main>`);
