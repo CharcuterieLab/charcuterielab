@@ -15,8 +15,6 @@ function manifest(dist) {
 const HUBS = {
   "/blog/": { src: "/images/50-boards-09-wine-and-cheese-pairing.webp", alt: "Wine and cheese charcuterie board with brie, aged cheddar, grapes, crackers and white wine",
     at: (h) => afterClose(h, '<section class="archive-hero"', "</section>") },
-  "/dietary/": { src: "/images/boards/pb-01.webp", alt: "Round plant-based board with hummus, vegetables, nuts, olives and crackers",
-    at: (h) => afterClose(h, '<header class="pr-hero dt-hero"', "</header>") },
   "/ingredients/": { src: "/images/50-boards-04-french-brasserie.webp", alt: "French brasserie board with a brie wheel, prosciutto, pâté, cornichons and baguette",
     at: (h) => h.indexOf('<div class="ing-controls"') },
   "/party-planner/": { src: "/images/how-much-charcuterie-per-person.webp", alt: "A long party spread of cured meats, cheeses, crackers, figs and olives",

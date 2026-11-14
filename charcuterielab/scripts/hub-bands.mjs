@@ -7,16 +7,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 
 const BANDS = {
-  "/dietary/": {
-    label: "Boards for every diet",
-    after: "</header>",
-    tiles: [
-      ["/images/50-boards-17-gluten-free.webp", "Gluten-free", "/boards/gluten-free-charcuterie-board/"],
-      ["/images/50-boards-16-vegan-plant-based.webp", "Vegan", "/boards/vegan-charcuterie-board/"],
-      ["/images/50-boards-46-low-carb-keto.webp", "Keto", "/boards/keto-charcuterie-board/"],
-      ["/images/50-boards-15-kid-friendly.webp", "Kid-friendly", "/boards/kid-friendly-charcuterie-board/"]
-    ]
-  },
+  // "/dietary/" dropped 14 Nov 2026: its "Pick a diet" photo grid (diet-up.mjs) does this job
   "/party-planner/": {
     label: "Plans by party size",
     beforeH2: 2,

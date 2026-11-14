@@ -24,6 +24,7 @@ import { upIngCategory, upIngredient, upIngHub } from "./ing-up.mjs";
 import { twoAsks } from "./asks-up.mjs";
 import { hubPhoto } from "./hub-photos.mjs";
 import { funQuickAnswer } from "./qa-fun.mjs";
+import { upDiet } from "./diet-up.mjs";
 import { join } from "node:path";
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -153,6 +154,7 @@ export async function calmHubs(dist) {
         else { const r = upIngredient(html, path); if (r.n) { html = r.html; n.ingUp = (n.ingUp || 0) + 1; } }
       }
       { const r = hubPhoto(html, path, dist); if (r.n) { html = r.html; n.photos = (n.photos || 0) + 1; } }
+      { const r = upDiet(html, path, dist); if (r.n) { html = r.html; n.diet = (n.diet || 0) + 1; } }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
         let k = 0;
@@ -202,6 +204,6 @@ export async function calmHubs(dist) {
       return html === before ? before : html;
     });
   }
-  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`, `newsletter:${n.nl || 0}`, `thanks slot:${n.thanks || 0}`, `about:${n.about || 0}`, `shop:${n.shop || 0}`, `best buys:${n.best || 0}`, `ingredient hub:${n.ingHub || 0}`, `ingredient pages:${n.ingUp || 0}`, `two asks:${n.asks || 0}`, `hub photos:${n.photos || 0}`, `fun quick answers:${n.qa || 0}`);
+  done.push(`holidays:${n.holidays}`, `ingredients:${n.ingredients}`, `guides:${n.guides}`, `refund lines:${n.refund}`, `gift posts:${n.giftPosts || 0}`, `label lists:${n.lists || 0}`, `long-post folds:${n.folds || 0}`, `deep dives:${n.deep || 0}`, `newsletter:${n.nl || 0}`, `thanks slot:${n.thanks || 0}`, `about:${n.about || 0}`, `shop:${n.shop || 0}`, `best buys:${n.best || 0}`, `ingredient hub:${n.ingHub || 0}`, `ingredient pages:${n.ingUp || 0}`, `two asks:${n.asks || 0}`, `hub photos:${n.photos || 0}`, `fun quick answers:${n.qa || 0}`, `diet pages:${n.diet || 0}`);
   return done;
 }
