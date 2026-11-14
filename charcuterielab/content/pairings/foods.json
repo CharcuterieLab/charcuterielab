@@ -58,8 +58,8 @@
  },
  {
   "slug": "aged-gouda",
-  "seo_title": "What Goes With Gouda? 52 Pairings for Aged Gouda",
-  "seo_description": "Gouda pairings that work: dark chocolate, apples, smoked almonds and dried fruit lead the list. All 52 ranked, the wines and beers to pour, and what to skip.",
+  "seo_title": "What Goes With Aged Gouda? 52 Pairings & Drinks",
+  "seo_description": "Aged Gouda pairings that work: dark chocolate, apples, smoked almonds and dried fruit lead the list. All 52 ranked, the wines and beers to pour, and what to skip.",
   "top": [
    "dark-chocolate",
    "apples",
@@ -397,6 +397,184 @@
    {
     "q": "What drink goes with dark chocolate?",
     "a": "Port, Cabernet, Malbec or stout."
+   }
+  ]
+ },
+ {
+  "slug": "gouda",
+  "display_name": "Gouda",
+  "seo_title": "What Goes With Gouda? Best Pairings for Young Gouda",
+  "seo_description": "Young Gouda pairings that work: crisp apples, summer sausage, spicy brown mustard and pecans lead the list, plus the beers and wines to pour and what to skip.",
+  "top": [
+   "apples",
+   "summer-sausage",
+   "spicy-brown-mustard"
+  ],
+  "answer": "Young Gouda goes best with crisp apples, summer sausage, spicy brown mustard, pecans and an amber ale. Mild, buttery Gouda needs sharp, salty or crunchy partners to give it some backbone.",
+  "serve": [
+   "Cut young Gouda into thick slices or cubes after trimming off the wax: it is soft enough to slice cleanly and holds its shape on a board. Plan about 1 to 1.5 oz per guest if it shares the board with two other cheeses. Set it near the apples and the mustard, the two partners that help it most.",
+   "To make it a Gouda flight, add aged Gouda and smoked Gouda beside it and let guests taste young to old. To drink, pour an amber or brown ale, a fruity red like Beaujolais or Zinfandel, or a dry cider. Looking for the crunchy, caramel kind? See the aged Gouda pairings instead."
+  ],
+  "guide": [
+   "Which Gouda to buy: our ranking of Gouda brands",
+   "/blog/best-gouda-brands/"
+  ],
+  "faq": [
+   {
+    "q": "What fruit goes with Gouda?",
+    "a": "Crisp apples first, then pears and grapes. Their juice and acid freshen a mild, buttery cheese. Dried apricots and figs work too, especially with aged Gouda."
+   },
+   {
+    "q": "What meat goes with Gouda?",
+    "a": "Summer sausage, honey ham and smoked turkey for young Gouda; prosciutto and salami for aged. Mild, salty, slightly smoky meats suit its buttery flavor."
+   },
+   {
+    "q": "What wine goes with Gouda?",
+    "a": "Fruity, medium-bodied reds like Beaujolais, Pinot Noir or Zinfandel, or a dry Riesling. Amber ales and brown ales are just as good. Save Cabernet and port for aged Gouda."
+   },
+   {
+    "q": "Is young Gouda different from aged Gouda?",
+    "a": "Yes. Young Gouda is aged a few months and is soft, mild and buttery. Aged Gouda spends a year or more aging and turns hard, sweet and crunchy with caramel notes, so it suits different pairings."
+   }
+  ]
+ },
+ {
+  "slug": "feta",
+  "top": [
+   "kalamata-olives",
+   "hot-honey",
+   "pita-chips"
+  ],
+  "answer": "Feta goes best with Kalamata olives, honey or hot honey, pita chips, pomegranate and fresh mint. Its sharp brine needs juicy, sweet or crunchy partners, and a crisp dry rose to drink.",
+  "serve": [
+   "Serve feta as a whole slab, not crumbles: block feta packed in brine is creamier and holds its shape. Pat it dry, set it on a small plate, drizzle with olive oil and dried oregano, and let guests break off pieces. About 1 to 2 oz per guest is plenty, because it's salty.",
+   "Build a Greek corner around it: Kalamata olives, cucumber and cherry tomatoes, pita chips and a small bowl of honey or hot honey for drizzling. In summer, watermelon cubes with mint are the best bite on the board. To drink, pour a dry rose, Assyrtiko or Sauvignon Blanc."
+  ],
+  "guide": [
+   "Which feta to buy: our ranking of feta brands",
+   "/blog/best-feta-brands/"
+  ],
+  "faq": [
+   {
+    "q": "What fruit goes with feta?",
+    "a": "Watermelon is the classic, along with pomegranate, mango, figs and grapes. Juicy, sweet fruit balances feta's salt."
+   },
+   {
+    "q": "What wine goes with feta?",
+    "a": "Crisp, high-acid wines: dry rose, Assyrtiko, Sauvignon Blanc or Pinot Grigio. Avoid big oaky whites and heavy reds, which clash with the brine."
+   },
+   {
+    "q": "Does honey go with feta?",
+    "a": "Yes. Honey's sweetness softens feta's sharp salt, and baked or whipped feta with honey or hot honey is a modern favorite. Add a pinch of chili flakes or thyme on top."
+   },
+   {
+    "q": "Is feta good on a charcuterie board?",
+    "a": "Yes, especially on Mediterranean or mezze boards. Serve a block rather than crumbles, and put olives, pita and fresh vegetables beside it."
+   }
+  ]
+ },
+ {
+  "slug": "havarti",
+  "top": [
+   "apples",
+   "honey-ham",
+   "butter-crackers"
+  ],
+  "answer": "Havarti goes best with apples, grapes, honey ham, butter crackers and a cold lager or dry Riesling. It's mild and creamy, so pair it with fresh fruit and gentle, salty partners, not sharp cheese.",
+  "serve": [
+   "Slice Havarti about a quarter inch thick or cut it into cubes. It's soft, so chill it until 20 minutes before serving to make clean cuts, then let it warm a little so it tastes buttery. About 1 to 2 oz per guest; it's the cheese kids and picky eaters reach for first.",
+   "Keep it away from strong blue cheese and aged cheddar, which drown it out. Put it next to apples, grapes, honey ham or smoked turkey and butter crackers, and add a small bowl of honey or fig jam. Dill Havarti is the one to pick with smoked salmon. To drink, pour a light lager, a dry Riesling or a dry cider."
+  ],
+  "guide": [
+   "Which Havarti to buy: our ranking of Havarti brands",
+   "/blog/best-havarti-brands/"
+  ],
+  "faq": [
+   {
+    "q": "What fruit goes with Havarti?",
+    "a": "Apples, grapes and pears. Fresh, juicy fruit adds the acid that a mild, creamy cheese lacks."
+   },
+   {
+    "q": "What meat goes with Havarti?",
+    "a": "Mild meats: honey ham, smoked turkey and mild salami. Dill Havarti also goes well with smoked salmon."
+   },
+   {
+    "q": "What wine goes with Havarti?",
+    "a": "A dry or off-dry Riesling, Chardonnay without much oak, or a light Pinot Noir. A cold lager or a dry cider works just as well."
+   },
+   {
+    "q": "Is Havarti good on a charcuterie board?",
+    "a": "Yes, as the crowd-pleaser. It's mild, creamy and easy to slice. Balance it with one sharper cheese, like aged cheddar, placed on the other side of the board."
+   }
+  ]
+ },
+ {
+  "slug": "pears",
+  "top": [
+   "gorgonzola",
+   "brie",
+   "walnuts"
+  ],
+  "answer": "Pears go best with blue cheese like Gorgonzola, brie, Parmigiano-Reggiano, walnuts and honey. Their juicy, mellow sweetness softens salt and funk. Firm Bosc pears hold up best on a board.",
+  "serve": [
+   "Use Bosc or Anjou pears that give slightly at the neck. Slice them just before guests arrive, about a quarter inch thick, and toss the slices with a squeeze of lemon juice so they don't brown. One medium pear covers about 4 guests.",
+   "Fan the slices next to the blue cheese and the brie, the two cheeses they help most, with walnuts and a small dish of honey nearby. Pear, Gorgonzola and walnut is one of the best three-part bites there is. To drink, pour a late-harvest Riesling, a tawny port or a dry pear cider."
+  ],
+  "guide": [
+   "More fruit for your board: the best fruit for a charcuterie board",
+   "/blog/charcuterie-board-fruit/"
+  ],
+  "faq": [
+   {
+    "q": "What cheese goes with pears?",
+    "a": "Blue cheeses like Gorgonzola, Stilton and Rogue River Blue first, then brie, Comte, Parmigiano-Reggiano and aged cheddar. Sweet, juicy pear softens salty and funky cheese."
+   },
+   {
+    "q": "Which pear is best for a cheese board?",
+    "a": "Bosc. It's firm, slices cleanly and stays crisp. Anjou is a good second. Very soft Bartletts are delicious but get mushy on a board."
+   },
+   {
+    "q": "How do you keep pears from browning on a board?",
+    "a": "Toss the slices in a little lemon juice, or a mix of water and lemon juice, right after cutting. Slice them as close to serving time as you can."
+   },
+   {
+    "q": "What wine goes with pears and cheese?",
+    "a": "Off-dry or late-harvest Riesling, Sauternes, tawny port or a sparkling wine. A dry pear cider is a great non-wine option."
+   }
+  ]
+ },
+ {
+  "slug": "figs",
+  "top": [
+   "prosciutto-di-parma",
+   "fresh-chevre",
+   "gorgonzola"
+  ],
+  "answer": "Fresh figs go best with prosciutto, goat cheese, Gorgonzola, honey, pistachios and balsamic. Their jammy sweetness balances salty ham and tangy or blue cheese. Halve them just before serving.",
+  "serve": [
+   "Buy figs ripe, the day you serve them: they don't ripen after picking and bruise easily. Rinse gently, trim the stem and cut them in half from top to bottom to show the pink center. One or two figs per guest is plenty, because they're rich.",
+   "Set the halves cut side up next to the prosciutto and the goat cheese. For the best bite, wrap a fig half in prosciutto, or top it with a spoon of chevre, a drizzle of honey and chopped pistachios. Out of season, swap in dried figs or fig jam. To drink, pour Prosecco, a dry rose or a tawny port."
+  ],
+  "guide": [
+   "More fruit for your board: the best fruit for a charcuterie board",
+   "/blog/charcuterie-board-fruit/"
+  ],
+  "faq": [
+   {
+    "q": "What cheese goes with figs?",
+    "a": "Fresh goat cheese, Gorgonzola and other blues, brie, Manchego and burrata. Figs' jammy sweetness suits tangy, salty and creamy cheeses."
+   },
+   {
+    "q": "What meat goes with figs?",
+    "a": "Prosciutto above all, plus jamon serrano, speck and coppa. Salty, silky cured ham against sweet fig is a classic pairing."
+   },
+   {
+    "q": "When are fresh figs in season?",
+    "a": "Roughly June through September in the US. Outside that window, use dried figs or fig jam for the same flavor."
+   },
+   {
+    "q": "What wine goes with figs?",
+    "a": "Prosecco or another sparkling wine, a dry rose, or a tawny port with blue cheese and figs. Their sweetness also suits an off-dry Riesling."
    }
   ]
  }

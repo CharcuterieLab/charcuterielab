@@ -1,6 +1,6 @@
 ---
 title: "Black Garlic"
-meta_description: "Black garlic is regular garlic aged in warm, humid heat for three to six weeks until the cloves turn black, soft and sweet. It isn't fermented: slow browning reactions do the work. It tastes like balsamic, molasses and dried plum, with almost no garlic bite."
+meta_description: "Black garlic is regular garlic aged in warm, humid heat for three to six weeks until the cloves turn black, soft and sweet."
 slug: "black-garlic"
 section: "ingredients"
 category: "Spreads, Jams & Honey"

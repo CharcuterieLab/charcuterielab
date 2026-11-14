@@ -1,5 +1,6 @@
 ---
 title: "Cocktail Shrimp"
+meta_description: "Cold cooked shrimp with tangy cocktail sauce, the party-platter classic. Set it on ice at one end and a cheese spread becomes a real spread."
 slug: "cocktail-shrimp"
 section: "ingredients"
 category: "Cured Meat & Seafood"

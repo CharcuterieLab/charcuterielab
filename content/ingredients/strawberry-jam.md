@@ -1,5 +1,6 @@
 ---
 title: "Strawberry Jam"
+meta_description: "The jam already in your fridge, and better on a cheese board than it gets credit for. Its bright acid is made for brie, goat cheese and cheddar."
 slug: "strawberry-jam"
 section: "ingredients"
 category: "Spreads, Jams & Honey"

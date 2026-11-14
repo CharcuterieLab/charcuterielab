@@ -7,13 +7,13 @@ board_role: "Mild crowd-pleaser"
 role_group: "Semi-soft"
 excerpt: "Danish, buttery and full of tiny holes. The cheese nobody objects to — which makes it useful and, on its own, forgettable."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-13
 price_tier: "$"
 serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "danish", "mild", "beginner"]
-pairs_with: ["fontina", "monterey-jack", "edam", "butter-crackers", "port-salut", "smoked-salmon"]
+pairs_with: ["fontina", "monterey-jack", "edam", "butter-crackers", "port-salut", "smoked-salmon", "apples", "grapes", "honey", "fig-jam", "honey-ham", "smoked-turkey", "cocktail-rye", "pumpernickel"]
 avoid_with: ["blue-cheese", "pecorino-romano"]
 faq: "[{"question": "Why is Havarti so mild?", "answer": "It's a washed-curd cheese — lactic acid is rinsed out during making, so it never develops sharpness."}, {"question": "Is it worth putting on a cheese board?", "answer": "Yes, as the safe option. Every mixed board should have one item nobody hesitates over."}, {"question": "Havarti or Monterey Jack?", "answer": "Very similar role. Havarti is slightly richer and more buttery; Jack is slightly firmer."}, {"question": "Are the flavored versions any good?", "answer": "Unusually, yes. Dill and jalapeño Havarti are among the better flavored cheeses on the market."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---
@@ -47,7 +47,7 @@ deliberate design choice — this cheese was built not to challenge anyone.
 | **Butter crackers** | Mild on mild, but the salt in the cracker gives the bite an edge. |
 | **Apple and grapes** | Fresh acid against a cheese that has almost none of its own. |
 | **Honey and fig jam** | Sweetness gives it somewhere to go. It needs the help. |
-| **Ham and turkey** | The sandwich pairing, and it works on a board. |
+| **Honey ham and smoked turkey** | The sandwich pairing, and it works on a board. |
 | **Cocktail rye and pumpernickel** | Danish cheese, Danish bread. |
 | **Dill Havarti with smoked salmon** | The flavored version has a real use. |
 | **Light lager, dry Riesling, cider** | Nothing assertive required. |

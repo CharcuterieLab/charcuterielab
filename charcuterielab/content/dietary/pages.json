@@ -599,7 +599,7 @@
       "diet": "gluten-free",
       "q": "Which crackers are safe for a guest with celiac disease?",
       "title": "Gluten-Free Crackers for Charcuterie: What's Safe for Celiac",
-      "description": "Which crackers work on a gluten-free charcuterie board, why the gluten-free label matters even on rice crackers, and how to serve them without crumbs from wheat.",
+      "description": "Which crackers are safe on a gluten-free board, why the certified label matters even on rice crackers, and how to keep wheat crumbs off them.",
       "verdict": "Labeled gluten-free only",
       "answer": "Use crackers labeled gluten-free: rice, cassava, chickpea or seed crackers, plantain chips or cheese crisps. A wheat-free recipe isn't enough on its own, because some share a production line with wheat.",
       "body": [
@@ -952,7 +952,7 @@
   ],
   "classify": {
     "title": "How We Classify Ingredients for Each Diet",
-    "description": "How Charcuterie Lab decides whether an ingredient is safe, needs a label check, or should be skipped for gluten-free, nut-free, vegetarian, vegan and dairy-free boards.",
+    "description": "How Charcuterie Lab decides whether an ingredient is safe, needs a label check, or should be skipped, for each of five dietary needs.",
     "intro": "Every ingredient in our library gets one of three verdicts for each diet. They're a starting point for shopping, not a substitute for reading the label in your hand."
   },
   "mixed": {

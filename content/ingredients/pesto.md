@@ -1,5 +1,6 @@
 ---
 title: "Pesto"
+meta_description: "The only bright green thing on most boards, and the one spread that tastes of fresh leaves. Buy it refrigerated, and what to serve it with."
 slug: "pesto"
 section: "ingredients"
 category: "Spreads, Jams & Honey"

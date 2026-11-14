@@ -6,6 +6,7 @@ updated: "2026-11-02"
 image: "/images/50-boards-17-gluten-free.webp"
 excerpt: "The best gluten-free crackers for a charcuterie board, ranked with star ratings: Crunchmaster Multi-Seed Crackers is our top pick, plus best value and splurge."
 description: "The best gluten-free crackers for a charcuterie board, ranked with star ratings: Crunchmaster Multi-Seed Crackers is our top pick, plus best value and splurge."
+meta_description: "The best gluten-free crackers for a charcuterie board, ranked with star ratings: Crunchmaster Multi-Seed Crackers is our top."
 faq: "[{"question": "What is the best gluten-free cracker for a charcuterie board?", "answer": "Crunchmaster Multi-Seed. It is crunchy, inexpensive, easy to find and scored highly in published taste tests."}, {"question": "Are rice crackers gluten-free?", "answer": "Not always. Crackers glazed with regular soy sauce contain wheat. Look for a certified gluten-free label."}, {"question": "How do I keep gluten-free crackers safe on a shared board?", "answer": "Give them their own section or a separate small board, with their own knives, so crumbs from wheat crackers don't cross over."}]"
 slug: "best-gluten-free-crackers"
 ---

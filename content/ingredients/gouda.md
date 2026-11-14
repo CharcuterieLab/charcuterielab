@@ -7,13 +7,13 @@ board_role: "Creamy crowd-pleaser"
 role_group: "Semi-soft"
 excerpt: "The red-waxed wheel from the grocery store. Young Gouda is soft, sweet and buttery, the easy Dutch cheese that nearly everyone likes."
 date: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-13
 price_tier: "$"
 serving_per_person: "1–1.5 oz"
 prep_time: "5 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "dutch", "budget", "crowd-pleaser", "mild", "beginner"]
-pairs_with: ["aged-gouda", "smoked-gouda", "apples", "honey-ham", "spicy-brown-mustard", "pecans"]
+pairs_with: ["aged-gouda", "smoked-gouda", "apples", "honey-ham", "spicy-brown-mustard", "pecans", "walnuts", "pears", "grapes", "summer-sausage", "honey", "fig-jam"]
 avoid_with: ["blue-cheese"]
 faq: "[{"question": "What is young Gouda?", "answer": "Gouda aged about one to six months. It's soft, mild and buttery, unlike aged Gouda, which turns hard, caramel-sweet and crunchy."}, {"question": "Do you eat the wax on Gouda?", "answer": "No. The red or yellow wax is a protective coating. Cut it off before serving."}, {"question": "Is Gouda good on a charcuterie board?", "answer": "Yes. Young Gouda is one of the safest crowd-pleasers. Serve it beside a bolder cheese so the board has contrast."}, {"question": "What does Gouda pair with?", "answer": "Apples, ham, spicy brown mustard, pecans and amber beer. Fruit and mustard both cut its butteriness."}, {"question": "How do you pronounce Gouda?", "answer": "Most Americans say GOO-da. The Dutch say something closer to HOW-da."}]"
 ---
@@ -49,8 +49,11 @@ butter.
 | **Honey ham** | Sweet and salty, soft and soft. |
 | **Spicy brown mustard** | Sharp heat gives a mild cheese some backbone. |
 | **Pecans or walnuts** | Toasty crunch echoes Gouda's nutty notes. |
+| **Pears and grapes** | Juicy, gentle fruit that freshens the butterfat without shouting over a mild cheese. |
+| **Summer sausage** | Smoky, salty meat against creamy cheese: the gift-box classic for a reason. |
+| **Honey or fig jam** | A little sweetness brings out Gouda's faint caramel notes. |
 | **Aged and smoked Gouda** | Serve all three for a Gouda flight. |
-| **Amber ale, brown ale or a fruity red** | Malt and fruit meet the sweetness. |
+| **Amber ale, Beaujolais or dry cider** | Malt, juicy fruit or crisp apple meet the sweetness without burying it. |
 
 **Skip it with:** strong blue cheese in the same bite. Blue buries a young
 Gouda's gentle butteriness. Give them separate sides.

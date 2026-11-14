@@ -1,6 +1,6 @@
 ---
 title: "Pastirma"
-meta_description: "Pastirma (also called basturma) is Armenian and Turkish air-dried beef. A whole muscle is salted, pressed and dried, then coated in çemen, a paste of fenugreek, garlic and paprika. It's eaten raw in thin slices and tastes beefy, garlicky and warmly spiced."
+meta_description: "Pastirma (also called basturma) is Armenian and Turkish air-dried beef. A whole muscle is salted, pressed and dried."
 slug: "pastirma"
 section: "ingredients"
 category: "Cured Meat & Seafood"

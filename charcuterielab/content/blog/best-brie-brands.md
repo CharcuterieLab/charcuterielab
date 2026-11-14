@@ -6,6 +6,7 @@ updated: "2026-11-02"
 image: "/images/ingredients/brie.jpg"
 excerpt: "The best brie for a charcuterie board, ranked: Fromager d'Affinois is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best brie at the grocery store, ranked: Fromager d'Affinois wins, Trader Joe's Brie is the best value, plus Président, Marin French, Supreme and Saint Angel triple crème."
+meta_description: "The best brie at the grocery store, ranked: Fromager d'Affinois wins, Trader Joe's Brie is the best value, plus Président, Marin French."
 faq: "[{"question": "What is the best grocery store brie?", "answer": "Fromager d'Affinois ranked first in Tasting Table's test. For classic brie, Président is the reliable everyday choice."}, {"question": "Is Fromager d'Affinois a brie?", "answer": "Not technically. It is made like a brie but from ultrafiltered milk, which makes it richer and quicker to produce."}, {"question": "How long before serving should brie come out of the fridge?", "answer": "20 to 30 minutes."}]"
 slug: "best-brie-brands"
 ---

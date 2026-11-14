@@ -6,6 +6,7 @@ updated: "2026-11-09"
 image: "/images/charcuterie-board-condiments.png"
 excerpt: "The best pepper jelly for a charcuterie board, ranked: Braswell's Jalapeño Pepper Jelly is our top pick. Star ratings, a best value and a splurge pick, and why."
 description: "The best pepper jelly for a charcuterie board, ranked: Braswell's Jalapeño Pepper Jelly wins, with 4 more ranked on taste, value and how easy they are to find."
+meta_description: "The best pepper jelly for a charcuterie board, ranked: Braswell's Jalapeño Pepper Jelly wins, with 4 more ranked on taste."
 faq: "[{"question": "What is the best pepper jelly?", "answer": "Braswell's Jalapeño Pepper Jelly, Daily Meal's top pick, which is also inexpensive and widely stocked."}, {"question": "What do you serve pepper jelly with?", "answer": "Spoon it over a block of cream cheese, or pair it with goat cheese, sharp cheddar and crackers."}, {"question": "Is pepper jelly spicy?", "answer": "Usually mild to medium. Habanero versions are much hotter."}]"
 slug: "best-pepper-jelly"
 ---

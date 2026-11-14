@@ -1,5 +1,6 @@
 ---
 title: "Kiwi"
+meta_description: "The one bright green fruit you can buy year-round, and a striking cross-section. It has pineapple's protein problem, so keep it off soft cheese."
 slug: "kiwi"
 section: "ingredients"
 category: "Fruit"

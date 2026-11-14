@@ -1,6 +1,6 @@
 ---
 title: "Pili Nuts"
-meta_description: "Pili nuts are the seeds of the pili tree, which grows in the volcanic soil of the Philippines. They're long, ivory and about 70 percent fat, so they taste buttery and melt on the tongue. They're one of the lowest-carb nuts, which makes them popular for keto."
+meta_description: "Pili nuts are the seeds of the pili tree, which grows in the volcanic soil of the Philippines. They're long, ivory and about 70 percent fat."
 slug: "pili-nuts"
 section: "ingredients"
 category: "Nuts & Seeds"

@@ -1,5 +1,6 @@
 ---
 title: "Beef Jerky"
+meta_description: "On a board, pick a tender, peppery jerky and cut it into short strips: it plays the same role as bresaola at a tenth of the price."
 slug: "beef-jerky"
 section: "ingredients"
 category: "Cured Meat & Seafood"

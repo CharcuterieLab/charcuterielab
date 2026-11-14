@@ -732,6 +732,7 @@
   },
   {
    "slug": "merlot",
+   "seo_description": "Merlot goes best with Gouda, mild-to-medium cheddar, Gruyère, Havarti and salami. Plush plum fruit and soft tannin suit medium-aged cheeses.",
    "family": "wine",
    "name": "Merlot",
    "color": "#6d1f33",
@@ -1150,6 +1151,7 @@
   },
   {
    "slug": "beaujolais",
+   "seo_description": "Beaujolais goes best with pâté, saucisson sec, Comté, brie and roast turkey. Juicy fruit, low tannin and a light chill make it an easy red.",
    "family": "wine",
    "name": "Beaujolais",
    "color": "#9b2d4a",

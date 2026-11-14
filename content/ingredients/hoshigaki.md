@@ -1,6 +1,6 @@
 ---
 title: "Hoshigaki"
-meta_description: "Hoshigaki is a Japanese dried persimmon. Whole Hachiya persimmons are peeled, hung on strings and massaged by hand every few days for about a month. The result is soft and jammy inside, deeply sweet, and dusted with a white bloom of natural sugar."
+meta_description: "Hoshigaki is a Japanese dried persimmon. Whole Hachiya persimmons are peeled, hung on strings and massaged by hand every few days for about a month."
 slug: "hoshigaki"
 section: "ingredients"
 category: "Fruit"

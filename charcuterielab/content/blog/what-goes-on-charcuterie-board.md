@@ -4,6 +4,7 @@ date: "2026-05-05"
 image: "/images/what-goes-on-charcuterie-board.webp"
 excerpt: "A practical guide to what goes on a charcuterie board, from cured meats and cheeses to fruit, condiments, nuts, olives, crackers, and bread."
 description: "A complete breakdown of every element that belongs on a charcuterie board — the five core categories, quantities, and how they fit together — so you can build any board from scratch."
+meta_description: "What goes on a charcuterie board: the five core categories, how much of each, and how they fit together, so you can build any board from scratch."
 slug: "what-goes-on-charcuterie-board"
 tags: "["charcuterie board", "what goes on charcuterie board", "charcuterie ingredients", "charcuterie basics", "how to make a charcuterie board"]"
 ---

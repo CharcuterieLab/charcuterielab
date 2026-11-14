@@ -6,6 +6,7 @@ updated: "2026-11-10"
 image: "/images/charcuterie-board-crackers.png"
 excerpt: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
 description: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board, plus gift boxes, each with a top pick, a budget pick and a splurge."
+meta_description: "All 145 Charcuterie Lab buying guides in one place: the best brands of cheese, cured meat, crackers, dips, pickles, nuts, chocolate and prosecco for a board."
 faq: "[{"question": "How does Charcuterie Lab rank brands?", "answer": "Each product is scored 1 to 5 on how it works on a board, published taste tests and awards, ingredients, value and availability, then weighted into one score out of 5."}, {"question": "Did you taste every product?", "answer": "Not side by side. These are researched picks based on published taste tests, awards, ingredient lists and prices. Guides we taste-test ourselves will be marked Tested."}, {"question": "How often are the rankings updated?", "answer": "We recheck prices, stock and new reviews regularly, and each guide shows the month it was last checked."}]"
 slug: "best-charcuterie-brands"
 ---

@@ -4,6 +4,7 @@ date: "2026-05-02"
 image: "/images/bresaola.webp"
 excerpt: "Bresaola: The Lean Beef That Brings Elegance to Any Board"
 description: "Bresaola is air-cured lean beef — and its near-total absence of fat creates different pairing logic than any pork-based charcuterie. Here's the production science, how it differs from prosciutto, and how to use it on a board."
+meta_description: "Bresaola is air-cured lean beef — and its near-total absence of fat creates different pairing logic than any pork-based charcuterie."
 slug: "bresaola"
 tags: "["bresaola", "bresaola charcuterie", "air-cured beef", "Italian charcuterie", "lean charcuterie", "charcuterie board", "cured meat"]"
 ---

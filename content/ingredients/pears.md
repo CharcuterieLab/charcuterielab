@@ -1,5 +1,6 @@
 ---
 title: "Pears"
+meta_description: "Softer and more floral than apples, and the better partner for blue cheese. The catch is ripeness, since pears ripen from the inside out."
 slug: "pears"
 section: "ingredients"
 category: "Fruit"

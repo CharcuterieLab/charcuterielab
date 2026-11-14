@@ -1,6 +1,6 @@
 ---
 title: "Mojama"
-meta_description: "Mojama is salt-cured, air-dried tuna loin from Spain's Andalusian coast. The loin is buried in sea salt, rinsed and dried for two to three weeks until firm and dark red. Sliced paper-thin with olive oil, it tastes like concentrated tuna, often called the jamón of the sea."
+meta_description: "Mojama is salt-cured, air-dried tuna loin from Spain's Andalusian coast. The loin is buried in sea salt, rinsed and dried for two to three weeks until firm."
 slug: "mojama"
 section: "ingredients"
 category: "Cured Meat & Seafood"

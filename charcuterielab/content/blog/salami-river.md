@@ -4,6 +4,7 @@ date: "2026-05-06"
 image: "/images/salami-river.webp"
 excerpt: "How to Make a Salami River on Your Charcuterie Board"
 description: "The salami river is the single most useful presentation technique for cured meats — and the one that makes a board look professional with five minutes of work. Here's exactly how to do it."
+meta_description: "The salami river is the single most useful presentation technique for cured meats — and the one that makes a board look professional with five minutes."
 slug: "salami-river"
 tags: "["charcuterie how-to", "salami river", "charcuterie presentation", "board building technique", "charcuterie tips"]"
 ---

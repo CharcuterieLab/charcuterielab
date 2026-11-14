@@ -1,5 +1,6 @@
 ---
 title: "Midnight Moon"
+meta_description: "Cypress Grove's aged goat gouda: ivory, crunchy with crystals, sweet like brown butter. The goat cheese for people who dislike goat cheese."
 slug: "midnight-moon"
 section: "ingredients"
 category: "Cheese"

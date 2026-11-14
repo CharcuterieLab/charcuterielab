@@ -4,6 +4,7 @@ date: "2026-04-27"
 image: "/images/blog-wine-only.webp"
 excerpt: "Wine Is the Only Drink for a Cheese Board — Busted"
 description: "Wine pairs well with cheese, but it's far from the only drink that works — and for some cheeses, it's not even the best option. Here's the science behind which drinks actually pair best."
+meta_description: "Wine pairs well with cheese, but it's far from the only drink that works — and for some cheeses, it's not even the best option."
 slug: "wine-only"
 tags: "["charcuterie drinks", "cheese pairings", "wine and cheese", "beer and cheese", "spirits and cheese", "charcuterie board drinks"]"
 ---

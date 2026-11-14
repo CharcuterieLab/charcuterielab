@@ -149,6 +149,9 @@ const clampText = (value, limit) =>
 // the author actually wrote, then the excerpt (but only when it is not just a
 // copy of the title), then the first real paragraph of the post.
 function metaDescription(post) {
+  const seo = stripMarkdown(post.metaDescription);
+  if (seo) return clampText(seo, 300);
+
   const written = stripMarkdown(post.description);
   if (written) return clampText(written, 300);
 
@@ -762,6 +765,10 @@ async function loadPosts() {
         image: data.image ?? "/images/layout-reference.jpg",
         excerpt: data.excerpt ?? "",
         description: data.description ?? "",
+        // Optional meta-description override (13 Nov 2026). `description` also
+        // feeds card excerpts and the search index, so many are deliberately
+        // longer than a meta tag can hold; this is the line Google gets.
+        metaDescription: data.meta_description ?? "",
         tags: parseListField(data.tags).map((tag) => tag.toLowerCase()),
         relatedSlugs: (() => {
           const declared = parseListField(data.related)
@@ -1601,14 +1608,71 @@ export function metaCutReport() {
   return n;
 }
 
+// A cut that leaves one of these last has chopped a phrase in half.
+const META_TRAIL = new Set("and plus or with from for the a an in on to at by of its their how what why when where which each both every all that this these those put use make buy serve pick get do go is are was were be been as but so if than then into over under up out off per vs versus you it".split(" "));
+// A trailing clause opening with one of these is a fragment, not a phrase.
+const META_FRAG = new Set("which how what why when where and plus or that who whether so but then because if".split(" "));
+const META_FLOOR = 112;
+
+const metaWord = (w) => w.replace(/[^\w']/g, "").toLowerCase();
+
+function metaTidy(input) {
+  let s = input;
+  for (;;) {
+    s = s.replace(/[\s,;:\u2014-]+$/, "");
+    const w = s.split(" ");
+    if (w.length > 1 && META_TRAIL.has(metaWord(w[w.length - 1]))) { s = w.slice(0, -1).join(" "); continue; }
+    break;
+  }
+  for (const [open, close] of [["(", ")"], ["[", "]"]]) {
+    while (s.split(open).length > s.split(close).length) s = s.slice(0, s.lastIndexOf(open));
+  }
+  if ((s.split('"').length - 1) % 2) s = s.slice(0, s.lastIndexOf('"'));
+  s = s.replace(/[\s,;:\u2014-]+$/, "");
+  // a stranded short final sentence ("... lead. Ratings") is debris
+  const parts = s.split(/(?<=[.!?]) +/);
+  while (parts.length > 1 && parts[parts.length - 1].replace(/\.$/, "").length < 22) parts.pop();
+  s = parts.join(" ").replace(/[\s,;:\u2014-]+$/, "");
+  // a final comma-clause that is a fragment, or too short to say anything
+  for (;;) {
+    const i = s.lastIndexOf(", ");
+    if (i < 0) break;
+    const tail = s.slice(i + 2);
+    const first = metaWord(tail.split(" ")[0] || "");
+    if (META_FRAG.has(first) || tail.length < 12) { s = s.slice(0, i).replace(/[\s,;:\u2014-]+$/, ""); continue; }
+    break;
+  }
+  s = s.replace(/[\s,;:\u2014-]+$/, "");
+  return s && !".!?".includes(s.slice(-1)) ? `${s}.` : s;
+}
+
+// Over the limit, cut at the last clause boundary that still reads as a finished
+// phrase, rather than mid-word with an ellipsis. 243 pages were showing Google a
+// snippet that trailed off (13 Nov 2026). Falls back to the old word-cut when no
+// boundary leaves enough text.
 function metaSnippet(text, limit = META_LIMIT) {
   const t = String(text).trim();
   if (t.length <= limit) return t;
   metaCut.add(t.slice(0, 80));
-  const head = t.slice(0, limit);
-  const sentence = Math.max(head.lastIndexOf(". "), head.lastIndexOf("? "), head.lastIndexOf("! "));
-  if (sentence > limit * 0.55) return head.slice(0, sentence + 1);
-  const word = head.lastIndexOf(" ");
+  const head = t.slice(0, limit + 1);
+  const ends = [];
+  for (const m of head.matchAll(/[.!?] /g)) ends.push([m.index + 1, 0]);
+  for (const m of head.matchAll(/; /g)) ends.push([m.index, 1]);
+  for (const m of head.matchAll(/, /g)) ends.push([m.index, 2]);
+  for (const m of head.matchAll(/ \u2014 /g)) ends.push([m.index, 2]);
+  // Two passes: prefer a cut of a decent length, but a short clean sentence
+  // still beats a long one that trails off.
+  for (const floor of [META_FLOOR, 88]) {
+    let best = null;
+    for (const [end, rank] of ends) {
+      const cut = metaTidy(head.slice(0, end));
+      if (cut.length < floor || cut.length > limit) continue;
+      const score = cut.length + (rank === 0 ? 25 : 0);
+      if (!best || score > best[0]) best = [score, cut];
+    }
+    if (best) return best[1];
+  }
+  const word = head.slice(0, limit).lastIndexOf(" ");
   return `${head.slice(0, word > 0 ? word : limit).trimEnd()}...`;
 }
 
@@ -2517,10 +2581,10 @@ const BLOG_START = ["how-to-make-charcuterie-board", "how-much-charcuterie-per-p
 const BLOG_PILLARS = [
   ["buying", "Buying guides", "The best brand of everything, ranked, plus what to buy at Costco, Trader Joe's and Aldi.", /^best-|reviewed|holiday-charcuterie-items|costco-holiday|price-index|charcuterie-books|^costco-charcuterie|^trader-joes-charcuterie|gift-basket|supplies|slicer|accessories|knife-set/],
   ["holidays", "Holidays and seasons", "Thanksgiving to New Year's, game day, Valentine's and every season in between.", /thanksgiving|christmas|halloween|jack-o|new-years|easter|valentine|friendsgiving|noche-buena|holiday|^fall-|^winter-|^summer-|hot-cocoa|advent|beaujolais/],
-  ["pairing", "Pairing science", "Why some bites work: wine, beer and whiskey, salt and sweet, acid and fat.", /pair|wine|beer|whiskey|acid-rule|salt-sweet|color-and-flavor|contrast|what-to-serve|charcuterie-chart/],
+  ["pairing", "Pairing science", "Why some bites work: wine, beer and whiskey, salt and sweet, acid and fat.", /pair|wine|beer|whiskey|acid-rule|salt-sweet|color-and-flavor|contrast|what-to-serve|charcuterie-chart|bubbles-cut-fat|umami-cheese|cheese-rind-types|how-to-taste-cheese/],
   ["building", "Building a board", "How much to buy, what goes on it, how to cut, arrange, store and carry it.", /^how-|etiquette|mistakes|sizes|presentation|build-sequence|storage|can-you|pregnan|business|captions|pronounce|what-is|leftover|difficult|unhealthy|cost|before-and-after|beginners|night-before|temperature|what-goes-on|what-bread|large-group|which-charcuterie|-vs-cheese-board|grazing-board-vs|smorgasbord-vs|how-many|appetizer|condiments|crackers|dips|-fruit$|-nuts$|-olives$|-chocolate$|safe-during|freeze/],
   ["ingredients", "Ingredient deep dives", "One ingredient at a time, plus the head-to-heads: brie vs camembert, salami vs pepperoni.", /-vs-|deep-dive|types-of|tier-list|mild-to-strong|never-tried|unique-charcuterie-ingredients|aging-caves|crystal/],
-  ["ideas", "Board ideas and recipes", "Boards, trays, cups, skewers and grazing tables to copy, from $20 to showstopper.", /board|tray|platter|cups|skewers|grazing|jarcuterie|snackle|salad|river|rose|course|cheese-ball|baked-brie|butter/]
+  ["ideas", "Board ideas and recipes", "Boards, trays, cups, skewers and grazing tables to copy, from $20 to showstopper.", /board|tray|platter|cups|skewers|grazing|jarcuterie|snackle|salad|river|rose|course|cheese-ball|baked-brie|butter|-recipe$/]
 ];
 const BLOG_SHORT = { buying: "Buying guide", holidays: "Holidays", pairing: "Pairing", building: "How-to", ingredients: "Ingredients", ideas: "Board idea" };
 const BLOG_WORLD = /noche-buena|smorgasbord|halal|nduja|jamon-iberico|mezze|meze|tapas|antipasto|international|around-the-world|world-|-world|cheese-advent-calendar-australia/;
