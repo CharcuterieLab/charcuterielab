@@ -123,7 +123,7 @@ const GUIDES = [
     card: "The best charcuterie books to give",
     cardLine: "9 books, from a $10 stocking stuffer to the full reference",
     image: "/images/book-3d-mockup.webp",
-    seoTitle: "Best Charcuterie Books to Give as a Gift (2026)",
+    seoTitle: "Best Charcuterie Books 2026: 10 to Give as a Gift",
     h1: "The best charcuterie books to give as a gift",
     kicker: "Gift guide · Books",
     description: "The best charcuterie and cheese board books to give in 2026, matched to the person: the host, the beginner, the adventurous eater, the vegan, the keto friend and the cheese nerd.",
@@ -392,13 +392,19 @@ const GUIDES = [
       { item: "mustard", best: "Best zero-sugar condiment", why: "Most whole-grain mustards have little or no sugar, unlike jams and honey. It's the condiment a keto board can keep." },
       { item: "slate", best: "Best board" }
     ],
+    extra: {
+      title: "How to build a keto gift basket",
+      body: "<p>A keto basket is easier to put together than a normal one, because the things that keep on a shelf \u2014 hard cheese, cured meat, olives, nuts \u2014 are the low-carb things. What to leave out is the board's usual sweet half: honey, jam, dried fruit and crackers. Two boxes that work, at the prices we checked in " + PRICES_CHECKED + ":</p><ul><li><strong>About $24 to $33.</strong> The <a href=\"/books/keto-charcuterie-boards/\">Keto &amp; Low-Carb Boards</a> ebook ($9.99), a 4-pack of <a href=\"/blog/best-cheese-crisps/\">Parmesan crisps</a> ($10 to $14) and a jar of <a href=\"/blog/best-mustard-for-charcuterie/\">whole-grain mustard</a> ($4 to $9). All of it keeps in a cupboard.</li><li><strong>About $49 to $61.</strong> The paperback ($16.99), a <a href=\"/blog/best-salami-brands/\">whole dry salami</a> ($12 to $16), <a href=\"/blog/best-olives-for-charcuterie/\">Castelvetrano olives</a> ($12 to $16) and <a href=\"/blog/best-marcona-almonds/\">Marcona almonds</a> ($8 to $12). That is a full board night in a box, and the salami keeps about 6 weeks unopened.</li></ul><p><strong>Mailing it?</strong> Everything above is shelf-stable, so a keto box ships without ice, which a soft-cheese box can't. Our <a href=\"/blog/charcuterie-gift-basket/\">DIY charcuterie gift basket guide</a> has the packing method and boxes at $25, $50 and $100, and <a href=\"/gifts/ship-well/\">meat and cheese gifts that ship without ice</a> covers what survives the trip.</p>"
+    },
     set: "keto",
     faq: [
       ["What do you get someone on keto for Christmas?", "Food they can eat, done well: a keto charcuterie book, good salami, Castelvetrano olives, Marcona almonds, Parmesan crisps or a cheese plane. Skip chocolate boxes and baked goods."],
       ["Is charcuterie keto?", "Mostly. Cured meats, aged cheeses, olives and nuts are low in carbs. The carbs on a normal board come from crackers, bread, honey, jam and dried fruit, so a keto board swaps those out."],
       ["Are Marcona almonds keto?", "In moderation. Almonds have about 2 to 3 g net carbs per ounce, which fits most keto plans."],
       ["What crackers are keto-friendly?", "Crisps made from baked cheese, like Parmesan crisps, have almost no carbs. Pork rinds and cucumber rounds also work."],
-      ["Is the keto board book a paperback?", "Yes, Keto & Low-Carb Boards is a full-color paperback on Amazon at $16.99. The ebook is also available as an instant PDF download, which works as a last-minute gift."]
+      ["Is the keto board book a paperback?", "Yes, Keto & Low-Carb Boards is a full-color paperback on Amazon at $16.99. The ebook is also available as an instant PDF download, which works as a last-minute gift."],
+      ["What do you put in a keto gift basket?", "Hard cheese, cured meat, olives and nuts, and none of the board's sweet half. A box at about $25 is the keto board ebook, a pack of Parmesan crisps and a jar of whole-grain mustard; about $50 adds a whole dry salami, Castelvetrano olives and Marcona almonds. Leave out honey, jam, dried fruit and crackers, which is where a normal board's carbs come from."],
+      ["What are good keto stocking stuffers?", "Small, low-carb and useful: a Norwegian cheese plane ($7 to $18), a jar of whole-grain mustard, a bag of Marcona almonds, Parmesan crisps or pork rinds. The keto board ebook is $9.99 and arrives instantly, so it still works on the 24th."]
     ],
     related: [["Keto & Low-Carb Boards", "/books/keto-charcuterie-boards/"], ["Keto charcuterie board", "/blog/keto-charcuterie-board/"], ["Gifts for cheese lovers", "/gifts/cheese-lovers/"]]
   },

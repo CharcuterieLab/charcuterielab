@@ -83,6 +83,16 @@ const MAP = {
   "/blog/how-to-transport-charcuterie-board/": ["Mailing food as a gift? See our", ["ship"]],
   "/blog/charcuterie-gift-basket/": ["Mailing it? See our", ["ship", "lastmin"]],
   "/blog/unique-charcuterie-books/": ["Giving a book? See", ["books"]],
+  // 14 Nov 2026. /gifts/charcuterie-books/ and /blog/unique-charcuterie-books/
+  // were splitting "charcuterie books" (30 impressions, positions 12.6 and 10.9,
+  // neither on page 1). The gift guide is the better answer for that query --
+  // 10 books including three by other authors, against the post's 7, all ours --
+  // but it had 3 links in from outside /gifts/ against the post's 9. These four
+  // book pages are where a reader is already holding a book, so they point at it.
+  "/books/boards-for-two/": ["Giving it as a gift? See", ["books"]],
+  "/books/keto-charcuterie-boards/": ["Giving it as a gift? See", ["books", "keto"]],
+  "/books/plant-based-charcuterie-boards/": ["Giving it as a gift? See", ["books", "vegan"]],
+  "/blog/how-to-make-charcuterie-board/": ["Giving a book of boards? See", ["books"]],
   "/blog/charcuterie-board-ideas/": ["Giving a book of boards? See", ["books"]],
   "/blog/best-cheese-of-the-month-clubs/": ["Giving a club? See our", ["luxury", "her"]]
 };
