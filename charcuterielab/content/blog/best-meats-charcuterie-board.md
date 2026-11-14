@@ -16,6 +16,8 @@ updated: "2026-11-02"
 
 > **Quick Answer:** The best meats: **prosciutto, Genoa salami, soppressata, coppa and bresaola**. Use one whole cut (prosciutto) and one sausage (salami). Starting out? **Prosciutto and Genoa salami** cover both.
 
+Want to know what each meat is before you buy? See [all 100 types of cured meat](/blog/types-of-cured-meat/), with a chart.
+
 :::html
 <div class="sk-top"><p class="sk-top-label">Which meats to buy</p>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">2 meats</p><span class="sk-top-name">Prosciutto + Genoa salami</span><p class="sk-top-line">One delicate whole-muscle meat, one mild salami. Covers almost any crowd.</p></div><div class="sk-top-buy"><span class="sk-price">Starter</span></div></div>
@@ -131,6 +133,7 @@ Split the total roughly evenly across your meats. More of any one meat doesn't h
 
 ## Related Reading
 
+- [Types of Cured Meat: 100 Kinds Explained](/blog/types-of-cured-meat/)
 - [The Best Deli Meat Brands for a Charcuterie Board](/blog/best-deli-meat-brands/)
 - [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
 - [Party Planner: Exact Amounts for 4 to 200 Guests](/party-planner/)

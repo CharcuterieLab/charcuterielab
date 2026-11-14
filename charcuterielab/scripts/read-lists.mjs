@@ -81,6 +81,7 @@ const FOLD_POSTS = {
   "/blog/christmas-appetizers/": { ids: ["no-cook", "warm", "dips", "boards"] },
   "/blog/new-years-eve-appetizers/": { ids: ["cold", "warm", "dips", "boards", "midnight", "lucky", "bubbly"] },
   "/blog/types-of-cheese/": { ids: ["fresh", "bloomy", "semisoft", "firm", "hard", "blue", "washed", "flavored", "plant", "label"] },
+  "/blog/types-of-cured-meat/": { ids: ["cooked", "semidry", "whole", "salami", "dried", "fat", "spread", "fish", "label"] },
   "/blog/charcuterie-board-ideas/": {
     ids: ["the-five-foundations", "boards-built-around-the-drink", "the-holiday-calendar", "outdoors-backyards-and-game-day", "money-at-both-ends", "who-is-actually-coming", "dietary-boards-built-properly", "a-sense-of-place", "one-idea-taken-all-the-way", "the-showstoppers"],
     groups: true, open: ["the-five-foundations"]

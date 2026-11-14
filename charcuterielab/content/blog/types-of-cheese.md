@@ -333,6 +333,7 @@ Want a slower climb? Our [12 cheeses from mild to strong](/blog/cheeses-from-mil
 
 - [The Best Cheese for a Charcuterie Board](/blog/best-cheese-charcuterie-board/)
 - [12 Cheeses from Mild to Strong](/blog/cheeses-from-mild-to-strong/)
+- [Types of Cured Meat: 100 Kinds Explained](/blog/types-of-cured-meat/)
 - [15 Cheeses Most People Have Never Tried](/blog/cheeses-you-have-never-tried/)
 - [How Much Cheese for a Charcuterie Board](/blog/how-much-cheese-charcuterie-board/)
 - [Wine and Cheese Pairing Chart](/pairings/wine-and-cheese-chart/)

@@ -20,7 +20,7 @@ tags: "["types of salami", "salami types", "kinds of salami", "italian salami", 
 <nav class="sk-jump" aria-label="On this page"><a href="#glance">At a glance</a><a href="#italian">Italian</a><a href="#american">American</a><a href="#spanish-french">Spanish &amp; French</a><a href="#spiciest">Spiciest</a><a href="#pick">How to pick</a><a href="#storage">Storage</a><a href="#faq">FAQ</a></nav>
 :::
 
-Comparing two? See [salami vs chorizo](/blog/salami-vs-chorizo/) and [salami vs pepperoni](/blog/salami-vs-pepperoni/).
+Comparing two? See [salami vs chorizo](/blog/salami-vs-chorizo/) and [salami vs pepperoni](/blog/salami-vs-pepperoni/). Want the bigger picture? Our [types of cured meat guide](/blog/types-of-cured-meat/) charts 100 of them, from prosciutto to jerky.
 
 ## What makes a salami a salami?
 

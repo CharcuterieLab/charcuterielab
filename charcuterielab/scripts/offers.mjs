@@ -35,6 +35,8 @@ export const OFFER_RULES = [
   [/advent-calendar/, ["diy-cheese-advent-calendar-kit", "cheese-board-field-guide"], "Making your own?"],
   // Types of Cheese guide (3 Nov 2026): the reader wants to learn cheeses, so the pack of cheese guides.
   [/types-of-cheese/, ["cheese-lovers-pack", "cheese-board-field-guide"], "Love cheese?"],
+  // Types of Cured Meat guide (14 Nov 2026): the meat field guide, then the salami party kit.
+  [/types-of-cured-meat/, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Love cured meat?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
   [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|new-years-eve-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
@@ -271,6 +273,8 @@ export function makeOffers(h, products, books) {
     holiday: { short: "Free holiday board countdown plans", title: "Holiday board countdown plans", line: "Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report.", img: "/images/leads/holiday-board-countdown.webp", label: "Download the holiday countdown plans (PDF)", pdf: "/downloads/holiday-board-countdown.pdf" },
     // Types of Cheese guide (8 Nov 2026): the 3-page Cheese Chart made by scripts/types-of-cheese/printables.mjs.
     cheesechart: { short: "Free: the printable Cheese Chart", eyebrow: "Free 3-page printable", title: "The Cheese Chart: all 100 cheeses", line: "The 8 families, a strength scale, if-you-like-this-try-that ladders and all 100 cheeses with what to serve them with, plus a box to tick off each one you've tried. Plus the weekly Lab Report.", img: "/images/leads/cheese-chart.webp", label: "Download the Cheese Chart (PDF)", pdf: "/downloads/cheese-chart.pdf" },
+    // Types of Cured Meat guide (14 Nov 2026): the 3-page Cured Meat Chart made by scripts/types-of-cured-meat/printables.mjs.
+    meatchart: { short: "Free: the printable Cured Meat Chart", eyebrow: "Free 3-page printable", title: "The Cured Meat Chart: all 100 meats", line: "The 8 families, a strength scale, which ones to cook first, if-you-like-this-try-that ladders and all 100 meats with what to serve them with, plus a box to tick off each one you've tried. Plus the weekly Lab Report.", img: "/images/leads/meat-chart.webp", label: "Download the Cured Meat Chart (PDF)", pdf: "/downloads/meat-chart.pdf" },
     cheese: { short: "Free cheese counter card", title: "The Cheese Counter Card", line: "Take it shopping: how much cheese to buy, one pick from each texture, fridge-out times and what to ask at the counter. Plus the weekly Lab Report.", img: "/images/leads/cheese-counter-card.webp", label: "Download the Cheese Counter Card (PDF)", pdf: "/downloads/cheese-counter-card.pdf" },
     pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
   };
@@ -284,6 +288,7 @@ export function makeOffers(h, products, books) {
     }
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
     if (path === "/blog/types-of-cheese/") return FREEBIES.cheesechart;
+    if (path === "/blog/types-of-cured-meat/") return FREEBIES.meatchart;
     const sm = path.match(/^\/blog\/([^/]+)\/$/);
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };

@@ -112,6 +112,8 @@ const TARGETS = [
   ["/ingredients/pastirma/", ["pastirma", "basturma"]],
   ["/ingredients/salchichon/", ["salchichón", "salchichon"]],
   ["/ingredients/lap-cheong/", ["lap cheong", "Chinese sausage"]],
+  // Types of Cured Meat guide (14 Nov 2026): specific phrases only.
+  ["/blog/types-of-cured-meat/", ["types of cured meat", "kinds of cured meat", "Italian cured meats", "salumi", "cured meat chart"], 10],
 ];
 
 // Most-clicked pages, Search Console Oct 12 - Nov 8 2026 (5+ clicks), best first.

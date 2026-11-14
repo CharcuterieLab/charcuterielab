@@ -25,6 +25,7 @@ const MORE = [
   ["/images/leads/holiday-board-countdown.webp", "Holiday Board Countdown", "What to buy and prep, day by day"],
   ["/images/leads/cheese-counter-card.webp", "Cheese Counter Card", "How much to buy and what to ask for"],
   ["/images/leads/cheese-chart.webp", "The Cheese Chart", "All 100 cheeses on one page"],
+  ["/images/leads/meat-chart.webp", "The Cured Meat Chart", "All 100 cured meats on one page"],
   ["/images/leads/pairing-cheat-sheet.webp", "Pairing Cheat Sheet", "What goes with what, and why"],
   ["/images/leads/best-buys-top-picks.webp", "Best Buys Top Picks", "Our #1 brand for every board staple"],
   ["/images/leads/board-shopping-list.webp", "Board shopping lists", "Every item and amount for a board"]
