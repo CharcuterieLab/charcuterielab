@@ -8,13 +8,13 @@ board_role: "The default salami"
 role_group: "Salami"
 excerpt: "The salami everyone recognizes — fine-ground, wine-scented, mild. It isn't from Genoa, and that's the least confusing thing about it."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "salami", "budget"]
-pairs_with: ["soppressata", "finocchiona", "pepperoni", "butter-crackers", "aged-provolone", "hard-salami", "cornichons", "pepperoncini", "aged-cheddar"]
+pairs_with: ["soppressata", "finocchiona", "pepperoni", "butter-crackers", "aged-provolone", "hard-salami", "cornichons", "pepperoncini", "aged-cheddar", "fresh-mozzarella"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is Genoa salami actually from Genoa?", "answer": "Not really. It's an Italian-American category named after the city, not a protected Italian product."}, {"question": "Genoa or hard salami?", "answer": "Genoa is softer, fattier and wine-scented. Hard salami is drier, firmer and smokier. Genoa is the better board meat."}, {"question": "Can I eat the casing?", "answer": "Usually not — most commercial Genoa uses inedible casing. Peel it."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Why is mine greasy?", "answer": "It's warm. Genoa has a high fat content and starts to sweat above about 72°F."}, {"question": "Genoa salami vs pepperoni: what's the difference?", "answer": "Genoa is mild, coarser and seasoned with garlic and wine, and it isn't smoked. Pepperoni is finer, smoked and seasoned with paprika and chili, so it's redder and spicier."}]"
 ---
@@ -47,14 +47,15 @@ gently — that's why it reads as mild rather than sharp.
 |---|---|
 | **Butter crackers** | The American deli pairing. Fat and salt on a sweet-ish cracker. |
 | **Aged provolone** | Sharp cheese against a mild salami. The sub-shop combination. |
+| **Fresh mozzarella** | The one fresh cheese that works here: cool and milky against garlicky salami. The antipasto-platter classic. |
 | **Cornichons and pickled onion** | Acid cutting fat, and it's what the salami expects. |
 | **Grainy mustard** | Sharpness a mild salami doesn't supply itself. |
 | **Olives and pepperoncini** | Brine and mild heat cutting a soft, garlicky salami. |
 | **Aged cheddar** | Not traditional, but salt and acid against garlic works well. |
 | **Chianti, Sangiovese, lager** | Nothing precious required. |
 
-**Skip it with:** delicate fresh cheeses — the garlic lingers and mutes
-anything subtle after it. Keep it on the casual half of the board.
+**Skip it with:** delicate fresh cheeses other than mozzarella — the garlic
+lingers and mutes anything subtle after it. Keep it on the casual half of the board.
 
 ## How to prep it for the board
 

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "luxury"]
-pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami", "pink-peppercorns", "champagne-grapes", "berries", "cornichons", "honey", "fig-jam", "marcona-almonds"]
+pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "pink-peppercorns", "champagne-grapes", "berries", "cornichons", "honey", "fig-jam", "marcona-almonds", "duck-prosciutto"]
 avoid_with: ["butter-crackers", "cured-meat"]
 faq: "[{"question": "What makes a cheese triple-crème?", "answer": "Extra cream added to the milk before culturing, bringing it to at least 75% butterfat in the dry matter."}, {"question": "Is it just very rich brie?", "answer": "Related but different. Brie gets its character from rind ripening; triple-crème gets it from added cream. Triple-crème is denser and less mushroomy."}, {"question": "How much per person?", "answer": "About 1 oz — half a normal cheese portion. It's extremely rich."}, {"question": "What wine goes with it?", "answer": "Champagne or any dry sparkling. Acid and bubbles are what make a second bite as good as the first."}, {"question": "Can you eat the rind?", "answer": "Yes, on the bloomy-rind versions. It's thinner and milder than brie's."}]"
 ---
@@ -53,9 +53,12 @@ the next bite lands as clearly as the first.
 | **Cornichons and pickled things** | Straight vinegar as a palate reset between bites. |
 | **Honey and fig jam** | Sweetness balances the salt, though it makes an already-rich bite richer. |
 | **Marcona almonds** | Salt and crunch, and something to break the texture. |
+| **Duck prosciutto** | The one cured meat worth trying: lean, savory duck rather than fatty pork, so rich on rich still works. |
 
 **Skip it with:** butter crackers and other rich bases, and cured meats — fat
-on fat with salt on top, and by the second bite nobody can taste anything. Also
+on fat with salt on top, and by the second bite nobody can taste anything.
+The one exception worth trying is duck prosciutto, which is savory rather
+than fatty. Also
 skip serving two triple-crèmes on one board.
 
 ## How to prep it for the board

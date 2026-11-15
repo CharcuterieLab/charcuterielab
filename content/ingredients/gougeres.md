@@ -7,13 +7,13 @@ board_role: "Warm cheese puff"
 role_group: "Bread"
 excerpt: "Burgundian cheese puffs, served warm. The one board item that turns a spread into an event — and the only thing here made from choux pastry."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "2–3 puffs"
 prep_time: "35 minutes"
 allergens: ["wheat", "gluten", "dairy", "eggs"]
 tags: ["french", "warm", "cheese", "showpiece"]
-pairs_with: ["blini", "brioche-toast-points", "pao-de-queijo", "cornichons"]
+pairs_with: ["blini", "brioche-toast-points", "pao-de-queijo", "cornichons", "brie", "jambon-de-bayonne", "rosette-de-lyon"]
 avoid_with: ["aged-hard-cheese"]
 faq: "[{"question": "What are gougères?", "answer": "Savory choux pastry puffs with cheese in the dough, from Burgundy. Served warm."}, {"question": "Can I make them ahead?", "answer": "Yes — pipe them onto a sheet and freeze raw, then bake from frozen with five extra minutes. That's the standard method for entertaining."}, {"question": "Which cheese should I use?", "answer": "Gruyère or Comté. Both are nutty and melt cleanly. Aged cheddar works but is less traditional."}, {"question": "How many per person?", "answer": "2–3. They're one bite each and people take more than they mean to."}, {"question": "Why did mine collapse?", "answer": "Underbaked, or the oven was opened too early. Take them to a deep gold and leave the door shut for the first fifteen minutes."}]"
 ---
@@ -51,6 +51,9 @@ weightless despite being made of butter, eggs and cheese.
 | **A soft ripened cheese alongside** | Warm cheese puff and cool creamy cheese is a good sequence, not a stacked bite. |
 | **Cornichons and pickled things** | Acid to reset between rich bites. |
 | **Charcuterie generally** | They belong beside the board rather than on it — a warm counterpoint to cold meat. |
+| **Brie** | The cool, creamy cheese to eat between warm puffs. Side by side, never stacked. |
+| **Jambon de Bayonne** | Silky French ham beside a hot puff: cold against warm, salty against buttery. |
+| **Rosette de Lyon** | The salami from Burgundy's neighbor. Peppery cold slices against a warm cheese puff. |
 | **Red Burgundy** | Lighter reds work; big tannic reds don't. |
 
 **Skip it with:** anything stacked on top. These are hollow and delicate and

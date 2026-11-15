@@ -8,7 +8,7 @@ board_role: "Chewy savory strip"
 role_group: "Air-dried whole muscle"
 excerpt: "America's favorite dried meat. On a board, pick a tender, peppery jerky, cut it into short strips and it plays the same role as bresaola at a tenth of the price."
 date: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "0.5–1 oz"
 prep_time: "5 minutes"
@@ -51,7 +51,6 @@ can't grow, and the salt and sugar in the marinade pull more moisture out.
 | **Dill pickles** | Sour juice cuts the salt and resets your palate. |
 | **Trail mix** | Sweet and crunchy against savory and chewy. A hiking board. |
 | **Kettle chips** | Crunch and salt for a game-day board. |
-| **Biltong** | Serve both and taste two ways of drying beef. |
 | **IPA, a brown ale or bourbon** | Bitterness or oak stands up to smoke and pepper. |
 
 **Skip it with:** delicate fresh cheeses. The smoke and pepper drown them.
