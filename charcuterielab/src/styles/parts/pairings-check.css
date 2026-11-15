@@ -1,0 +1,12 @@
+/* Pairing Finder: Check or complete a bite (15 Nov 2026) */
+.pr-named{margin:10px 0;padding:12px 14px;border-radius:12px;background:#f4ead6;border:1px solid rgba(169,87,43,.25);line-height:1.5}
+.pr-named a{color:var(--green);font-weight:700;white-space:nowrap}
+.pr-fixes{list-style:none;padding:0;margin:8px 0 14px;display:grid;gap:8px}
+.pr-fixes li{padding:10px 12px;border-radius:12px;background:#fff;border:1px solid rgba(169,87,43,.15);line-height:1.8}
+.pr-fixes .pr-chip{margin:0 2px}
+.pr-slot{margin:0 0 12px}
+.pr-slot-h{margin:6px 0;font-size:15px}
+.pr-slot-h span{color:var(--muted);font-size:14px}
+.pr-rcombos em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.pr-rgrid-sm .pr-rcard span{font-size:12px}
+.lab-tweak{font-size:14px;font-weight:700;color:var(--muted)}

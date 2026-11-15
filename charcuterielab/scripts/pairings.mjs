@@ -225,7 +225,7 @@ export function pairingsClientData(idx, categoryArt, categories) {
     const [a, b] = k.split("|");
     const code = (s) => (s.startsWith("drink:") ? `d${dpos.get(s.slice(6))}` : pos.has(s) ? `${pos.get(s)}` : null);
     const ca = code(a), cb = code(b);
-    if (ca != null && cb != null && !ca.includes("undefined") && !cb.includes("undefined")) reasons[[ca, cb].sort().join("-")] = v;
+    if (ca != null && cb != null && !ca.includes("undefined") && !cb.includes("undefined")) reasons[[ca, cb].sort().join("-")] = v.replace(/\*\*?([^*]+)\*\*?/g, "$1");
   }
   return JSON.stringify({
     c: cats.map((c) => ({ n: c, t: categoryArt(c).tint, g: categoryArt(c).glyph })),
@@ -233,7 +233,8 @@ export function pairingsClientData(idx, categoryArt, categories) {
     d: drinks.map((d) => [d.slug, d.name, d.familyLabel, d.url, d.color, d.matches.map((m) => pos.get(m.s)).filter((x) => x != null), d.matches.map((m) => m.why), d.family]),
     df: Object.fromEntries([...idx.drinksFor].map(([s, list]) => [pos.get(s), list.map((x) => dpos.get(x.d.slug)).filter((x) => x != null)])),
     r: reasons,
-    k: idx.combos.map((c) => [c.foods.map((s) => pos.get(s)), c.name, c.why, c.kind]),
+    // [foods, name, why, kind, Combination Lab card id]; plates included (15 Nov 2026)
+    k: [...idx.combos, ...idx.plates].map((c) => [c.foods.map((s) => pos.get(s)), c.name, c.why, c.kind, labId(c), [c.drink, c.beer, c.zero && `zero-${slugify(c.zero)}`].map((x) => (x ? dpos.get(x) : null)).filter((x) => x != null)]),
     top: Object.fromEntries(idx.foods.map((f) => [pos.get(f.slug), f.top.map((s) => pos.get(s))]))
   });
 }
@@ -394,7 +395,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     <section class="pr-finder" id="finder" aria-label="Pairing finder">
       <div class="pr-tabs" role="tablist">
         <button type="button" role="tab" class="pr-tab" aria-selected="true" data-mode="find">What goes with…</button>
-        <button type="button" role="tab" class="pr-tab" aria-selected="false" data-mode="check">Do these go together?</button>
+        <button type="button" role="tab" class="pr-tab" aria-selected="false" data-mode="check">Check or complete a bite</button>
       </div>
       <div class="pr-search">
         <label class="sr-only" for="pr-q">Search a cheese, meat, fruit, wine or beer</label>
@@ -1031,7 +1032,7 @@ function labCard(h, idx, art, c) {
       <p class="lab-drinks">${drink ? `<span><b>Pour:</b> <a href="${drink.url}">${B(drink.name)}</a>${c.drink_note ? ` <em>${B(c.drink_note)}</em>` : ""}</span>` : ""}${beer && beer !== drink ? `<span><b>Beer:</b> <a href="${beer.url}">${B(beer.name)}</a></span>` : ""}${zero ? `<span><b>No alcohol:</b> <a href="${zero.url}">${B(zero.name)}</a></span>` : c.zero ? `<span><b>No alcohol:</b> ${B(c.zero)}</span>` : ""}</p>
       <p class="lab-tags">${c.level ? `<span><b>Effort:</b> ${B(LEVELS[c.level] || c.level)}</span>` : ""}${(c.occasion || []).length ? `<span><b>Good for:</b> ${B(c.occasion.map((o) => OCCASIONS.find(([k]) => k === o)?.[1] || o).join(", "))}</span>` : ""}${checks.length ? `<span><b>Check labels for:</b> ${B(checks.join(", "))}</span>` : ""}</p>
     </details>
-    <p class="pr-combo-links"><a class="pr-more" href="${builderPreset(c.foods, 8, `pairings_lab_${labId(c)}`)}">Build a board with this &rarr;</a>${post ? ` <a class="pr-more" href="/blog/${post}/">Why it works</a>` : ""} <button type="button" class="lab-print" data-print="c-${labId(c)}">Print card</button></p>
+    <p class="pr-combo-links"><a class="pr-more" href="${builderPreset(c.foods, 8, `pairings_lab_${labId(c)}`)}">Build a board with this &rarr;</a>${post ? ` <a class="pr-more" href="/blog/${post}/">Why it works</a>` : ""} <a class="lab-tweak" href="/pairings/?check=${c.foods.join(",")}#finder">Swap a food</a> <button type="button" class="lab-print" data-print="c-${labId(c)}">Print card</button></p>
   </li>`;
 }
 
@@ -1132,7 +1133,7 @@ ${all.filter((c) => c.kind === k.key).map((c) => labCard(h, idx, art, c)).join("
       <h2 id="faq-h">Questions</h2>
       ${faqHtml(h, faq)}
     </section>
-    <p class="bl-note">Want to test your own? Use <a href="/pairings/?check=brie,fig-jam">Do these go together?</a> in the Pairing Finder, or read <a href="/pairings/how-pairing-works/">the six rules</a>.</p>`;
+    <p class="bl-note">Want to build your own? Pick a food or two in <a href="/pairings/?check=brie,fig-jam#finder">Check or complete a bite</a> and it suggests what to add, or read <a href="/pairings/how-pairing-works/">the six rules</a>.</p>`;
   return page(h, {
     url: "/pairings/classics/",
     title: `Best Charcuterie Combinations: ${all.length} Pairs, Trios & Plates`,

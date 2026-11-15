@@ -1,5 +1,5 @@
 // Pairings Hub - one small script for every /pairings/ page.
-// Hub: Pairing Finder ("What goes with..." and "Do these go together?").
+// Hub: Pairing Finder ("What goes with..." and "Check or complete a bite").
 // Other pages: filters, the chart's highlight/print, the seasonal strip.
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -168,14 +168,14 @@ async function finder() {
     suggest.hidden = true;
     input.value = "";
     if (mode === "find") show(id);
-    else { if (!picks.includes(id) && picks.length < 4) picks.push(id); renderCheck(); }
+    else { if (!picks.includes(id) && picks.length < 5) picks.push(id); renderCheck(); }
   }
 
   $$(".pr-tab").forEach((t) => t.addEventListener("click", () => setMode(t.dataset.mode)));
   function setMode(m, silent) {
     mode = m;
     $$(".pr-tab").forEach((t) => t.setAttribute("aria-selected", t.dataset.mode === m ? "true" : "false"));
-    input.placeholder = m === "find" ? "Try brie, prosciutto, Pinot Noir, IPA…" : "Add 2 to 4 foods or drinks…";
+    input.placeholder = m === "find" ? "Try brie, prosciutto, Pinot Noir, IPA…" : "Add 1 to 5 foods or drinks…";
     if (!silent) { if (m === "check") renderCheck(); else result.innerHTML = ""; }
     input.focus();
   }
@@ -247,35 +247,112 @@ async function finder() {
     return null;
   }
 
+  // "Check or complete a bite" (15 Nov 2026): verdict, named-combination match,
+  // one step to a named combination, fixes for weak pairs, fill-the-gap picks
+  // by role (sweet, crunch, briny, cheese, meat) that go with every food, and drinks.
+  const ROLE = { "Cheese": "cheese", "Cured Meat & Seafood": "meat", "Fruit": "sweet", "Spreads, Jams & Honey": "sweet", "Crackers & Breads": "crunch", "Nuts & Seeds": "crunch", "Pickles, Olives & Briny": "briny", "Finishing Touches": "finish" };
+  const SLOTS = [
+    ["sweet", "Something sweet", "Fruit, jam or honey rounds off salt."],
+    ["crunch", "Something crunchy", "A cracker or nut adds the texture soft foods lack."],
+    ["briny", "Something briny", "A pickle or olive cuts richness and resets your palate."],
+    ["cheese", "A cheese", "Something creamy or nutty to anchor the bite."],
+    ["meat", "A cured meat", "Salt and savory depth."]
+  ];
+  const roleOf = (x) => ROLE[cats[x.cat]?.n] || "";
+  const topSet = new Map(Object.entries(D.top).map(([k, v]) => [+k, new Set(v)]));
+  const comboIdx = (n) => D.k.filter((k) => k[0].includes(n)).length;
+  const MAXP = 5;
+  function rank(foods, exclude) {
+    // every candidate that pairs with at least all-but-one of the foods
+    const need = foods.length <= 2 ? foods.length : foods.length - 1;
+    const out = [];
+    for (const x of I) {
+      if (exclude.has(x.n)) continue;
+      const hits = foods.filter((f) => f.pairs.includes(x.n));
+      if (hits.length < need) continue;
+      let s = hits.length * 10;
+      for (const f of hits) { if (reason(f.n, x.n)) s += 3; if (topSet.get(f.n)?.has(x.n)) s += 4; }
+      s += Math.min(comboIdx(x.n), 4) + (x.page ? 2 : 0);
+      out.push({ x, hits: hits.length, s });
+    }
+    return out.sort((a, b) => b.s - a.s);
+  }
+  const addBtn = (p, sub) => `<li class="pr-rcard"><button type="button" data-add="${esc(p.slug)}">${thumb(p)}<strong>+ ${esc(p.title)}</strong>${sub ? `<span>${esc(sub)}</span>` : ""}</button></li>`;
+  const labLink = (k) => `/pairings/classics/#c-${k[4]}`;
+
   function renderCheck(combo) {
     url(picks.length ? `?check=${picks.map(encodeURIComponent).join(",")}` : "");
     const chips = picks.map((id) => `<li><span>${esc(label(id))}</span><button type="button" data-remove="${esc(id)}" aria-label="Remove ${esc(label(id))}">&times;</button></li>`).join("");
+    const foods = picks.filter((id) => !id.startsWith("drink:")).map((id) => bySlug.get(id)).filter(Boolean);
+    const drinkPicked = picks.some((id) => id.startsWith("drink:"));
+    const exclude = new Set(foods.map((f) => f.n));
+    const fns = foods.map((f) => f.n).sort((a, b) => a - b).join(",");
+    const named = combo || D.k.find((k) => [...k[0]].sort((a, b) => a - b).join(",") === fns);
+    // one step up: a named combination that has every pick plus one more food
+    const nextUp = foods.length ? D.k.filter((k) => k[0].length === foods.length + 1 && foods.every((f) => k[0].includes(f.n))).slice(0, 4) : [];
+    const nextHtml = nextUp.length && picks.length < MAXP ? `<h3>One step to a named combination</h3><ul class="pr-rcombos">${nextUp.map((k) => { const add = I[k[0].find((n) => !exclude.has(n))]; return `<li><button type="button" data-add="${esc(add.slug)}">${thumb(add, " pr-thumb-xs")}<strong>+ ${esc(add.title)}</strong><em>makes ${esc(k[1])}</em></button></li>`; }).join("")}</ul>` : "";
+
+    // fill the gaps by role
+    const have = new Set(foods.map(roleOf));
+    const ranked = foods.length ? rank(foods, exclude) : [];
+    const slots = SLOTS.filter(([r]) => !have.has(r) && !(r === "meat" && have.has("cheese") && have.has("sweet") && foods.length >= 3))
+      .map(([r, t, why]) => [t, why, ranked.filter((c) => roleOf(c.x) === r).slice(0, 3)])
+      .filter(([, , l]) => l.length).slice(0, 4);
+    const gapHtml = slots.length && picks.length < MAXP ? `<h3>Complete the bite</h3><p class="pr-rhint">Each of these goes with ${foods.length > 2 ? "all or all but one" : foods.length === 2 ? "both" : "it"}. Tap one to add it.</p>${slots.map(([t, why, l]) => `<div class="pr-slot"><p class="pr-slot-h"><strong>${esc(t)}</strong> <span>${esc(why)}</span></p><ul class="pr-rgrid pr-rgrid-sm">${l.map((c) => addBtn(c.x, foods.length > 1 ? (c.hits === foods.length ? `goes with all ${foods.length === 2 ? "both" : foods.length}`.replace("all both", "both") : `goes with ${c.hits} of ${foods.length}`) : reason(foods[0].n, c.x.n))).join("")}</ul></div>`).join("")}` : "";
+
+    // drinks: a named combination's own picks first, then the drinks that match
+    // the most foods, making sure every food is represented (wine/beer, then one no-alcohol)
+    let drinkHtml = "";
+    if (foods.length && !drinkPicked) {
+      const cnt = new Map();
+      for (const f of foods) for (const n of D.df[f.n] || []) cnt.set(n, (cnt.get(n) || 0) + 1);
+      const cardPick = named && named[5] ? named[5].map((n) => K[n]).filter(Boolean) : [];
+      const chosen = [...cardPick];
+      const take = (k) => { if (k && !chosen.includes(k)) chosen.push(k); };
+      const top = Math.max(0, ...cnt.values());
+      [...cnt].filter(([, c]) => c === top && top > 1).forEach(([n]) => take(K[n]));
+      for (let round = 0; round < 3; round++) for (const f of foods) take((D.df[f.n] || []).map((n) => K[n]).filter((k) => k.family === "wine" || k.family === "beer" ? !chosen.includes(k) : false)[0]);
+      const main = chosen.filter((k) => k.family !== "zero").slice(0, cardPick.length ? 4 : 3);
+      const zero = chosen.find((k) => k.family === "zero") || [...cnt].map(([n]) => K[n]).find((k) => k.family === "zero");
+      const shown = [...main, ...(zero ? [zero] : [])];
+      const note = (k) => (cardPick.includes(k) ? "the card's pick" : foods.length > 1 ? `matches ${cnt.get(k.n) || 0} of ${foods.length}` : "");
+      if (shown.length) drinkHtml = `<h3>What to pour</h3><ul class="pr-rdrinks">${shown.map((k) => `<li><button type="button" data-add="drink:${esc(k.slug)}" title="Add ${esc(k.name)} to the check">${swatch(k)}<strong>${esc(k.name)}</strong><em>${esc(k.fam)}${note(k) ? ` · ${note(k)}` : ""}</em></button></li>`).join("")}</ul>`;
+    }
+
     if (picks.length < 2) {
-      result.innerHTML = `<ul class="pr-picks">${chips}</ul><p class="pr-rhint">${picks.length ? "Add one more food or drink to check the pairing." : "Add 2 to 4 foods or drinks with the search box, or hit <strong>Surprise me</strong>."}</p>`;
+      result.innerHTML = `<ul class="pr-picks">${chips}</ul><p class="pr-rhint">${picks.length ? "Add one more food or drink to check it, or pick from the ideas below." : "Add 2 to 5 foods or drinks with the search box, or hit <strong>Surprise me</strong>."}</p>${gapHtml}${nextHtml}`;
       return;
     }
     const pairs = [];
     for (let a = 0; a < picks.length; a++) for (let b = a + 1; b < picks.length; b++) pairs.push([picks[a], picks[b], linked(picks[a], picks[b])]);
     const ok = pairs.filter((p) => p[2]).length;
-    const verdict = ok === pairs.length ? ["yes", "Yes, these all go together."] : ok >= pairs.length / 2 ? ["mostly", `Mostly: ${ok} of ${pairs.length} pairs are proven matches.`] : ok ? ["maybe", `A stretch: only ${ok} of ${pairs.length} pairs are proven matches.`] : ["no", "No proven match here. Try one of the bridges below."];
-    const foods = picks.filter((id) => !id.startsWith("drink:")).map((id) => bySlug.get(id)).filter(Boolean);
-    const count = new Map();
-    for (const f of foods) for (const n of f.pairs) if (!picks.includes(I[n].slug)) count.set(n, (count.get(n) || 0) + 1);
-    const bridges = [...count].filter(([, c]) => c >= Math.max(2, foods.length - 1) || foods.length === 1).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([n]) => I[n]);
+    const verdict = ok === pairs.length ? ["yes", "Yes, these all go together."] : ok >= pairs.length / 2 ? ["mostly", `Mostly: ${ok} of ${pairs.length} pairs are proven matches.`] : ok ? ["maybe", `A stretch: only ${ok} of ${pairs.length} pairs are proven matches.`] : ["no", "No proven match here. See the fixes below."];
+    // fixes: for each food pair that doesn't match, a food that goes with both
+    const fixes = [];
+    for (const [a, b, why] of pairs) {
+      const A = bySlug.get(a), Bf = bySlug.get(b);
+      if (why || !A || !Bf) continue;
+      const bridge = I.filter((x) => !exclude.has(x.n) && A.pairs.includes(x.n) && Bf.pairs.includes(x.n))
+        .sort((x, y) => (reason(A.n, y.n) ? 1 : 0) + (reason(Bf.n, y.n) ? 1 : 0) - (reason(A.n, x.n) ? 1 : 0) - (reason(Bf.n, x.n) ? 1 : 0) || (y.page - x.page))[0];
+      fixes.push([A, Bf, bridge]);
+    }
+    const fixHtml = fixes.length ? `<h3>How to fix it</h3><ul class="pr-fixes">${fixes.slice(0, 3).map(([A, Bf, br]) => `<li><strong>${esc(A.title)} + ${esc(Bf.title)}</strong> ${br ? `has no proven match. <button type="button" class="pr-chip" data-add="${esc(br.slug)}">+ ${esc(br.title)}</button> goes with both and bridges them, or <button type="button" class="pr-chip" data-remove="${esc(Bf.slug)}">drop ${esc(Bf.title)}</button>.` : `has no proven match and nothing bridges them. <button type="button" class="pr-chip" data-remove="${esc(Bf.slug)}">Drop ${esc(Bf.title)}</button>`}</li>`).join("")}</ul>` : "";
     result.innerHTML = `
       <ul class="pr-picks">${chips}</ul>
       <p class="pr-verdict pr-verdict-${verdict[0]}">${verdict[1]}</p>
-      ${combo ? `<p class="pr-rhint"><strong>${esc(combo[1])}:</strong> ${esc(combo[2])}</p>` : ""}
+      ${named ? `<p class="pr-named"><strong>That's ${/^The /.test(named[1]) ? "" : "a named combination: "}${esc(named[1])}.</strong> ${esc(named[2])} <a href="${labLink(named)}">See its card in the Combination Lab &rarr;</a></p>` : ""}
       <ul class="pr-pairs">${pairs.map(([a, b, why]) => `<li class="${why ? "is-yes" : "is-no"}"><strong>${esc(label(a))} + ${esc(label(b))}</strong><span>${why ? esc(why) : "Not a listed pairing. It may still work, but nothing here backs it up."}</span></li>`).join("")}</ul>
-      ${bridges.length && picks.length < 4 ? `<h3>${ok === pairs.length ? "Add a fourth" : "Bridges"}: goes with ${foods.length > 1 ? "most of these" : "this"}</h3><ul class="pr-rgrid pr-rgrid-sm">${bridges.map((p) => `<li class="pr-rcard"><button type="button" data-add="${esc(p.slug)}">${thumb(p)}<strong>+ ${esc(p.title)}</strong></button></li>`).join("")}</ul>` : ""}
-      ${foods.length ? `<p class="pr-ractions"><a class="button primary" href="${builder(foods.map((f) => f.slug), "finder_check")}">Build a board with ${foods.length > 1 ? "these" : "this"}</a></p>` : ""}`;
+      ${fixHtml}${nextHtml}${gapHtml}${drinkHtml}
+      ${foods.length ? `<p class="pr-ractions"><a class="button primary" href="${builder(foods.map((f) => f.slug), "finder_check")}">Build a board with ${foods.length > 1 ? "these" : "this"}</a>${picks.length > 1 ? `<button type="button" class="button" data-copy>Copy link to this bite</button>` : ""}</p>` : ""}`;
   }
 
   result.addEventListener("click", (e) => {
     const go = e.target.closest("[data-go]");
     if (go) { setMode("find", true); return show(go.dataset.go); }
     const add = e.target.closest("[data-add]");
-    if (add) { if (picks.length < 4) picks.push(add.dataset.add); return renderCheck(); }
+    if (add) { if (picks.length < 5 && !picks.includes(add.dataset.add)) picks.push(add.dataset.add); return renderCheck(); }
+    const cp = e.target.closest("[data-copy]");
+    if (cp) { navigator.clipboard?.writeText(location.href).then(() => { cp.textContent = "Link copied"; }, () => {}); return; }
     const rm = e.target.closest("[data-remove]");
     if (rm) { picks = picks.filter((p) => p !== rm.dataset.remove); return renderCheck(); }
     const cb = e.target.closest("[data-combo]");
@@ -292,7 +369,7 @@ async function finder() {
   const p = new URLSearchParams(location.search);
   if (p.get("check")) {
     setMode("check", true);
-    picks = p.get("check").split(",").filter((id) => ent(id).i || ent(id).d).slice(0, 4);
+    picks = p.get("check").split(",").filter((id) => ent(id).i || ent(id).d).slice(0, 5);
     renderCheck();
   } else if (p.get("q") && (ent(p.get("q")).i || ent(p.get("q")).d)) {
     show(p.get("q"));
