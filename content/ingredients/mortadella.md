@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: ["tree nuts"]
 tags: ["cured meat", "italian", "cooked", "crowd-pleaser"]
-pairs_with: ["coppa", "genoa-salami", "grissini", "focaccia", "burrata", "mostarda", "giardiniera", "pepperoncini"]
+pairs_with: ["coppa", "genoa-salami", "grissini", "focaccia", "burrata", "mostarda", "giardiniera", "pepperoncini", "stracciatella", "aged-provolone"]
 avoid_with: ["smoked-cheese"]
 faq: "[{"question": "Is mortadella just fancy bologna?", "answer": "The reverse — American bologna is a cheap descendant of mortadella. The original is finely emulsified pork with whole fat cubes and real spicing."}, {"question": "Why the pistachios?", "answer": "Traditional in many regions, and they add crunch and color to an otherwise uniform sausage. Not all mortadella has them."}, {"question": "Should I slice it thin?", "answer": "No. Thick slices or cubes. Shaved mortadella tears and loses its texture."}, {"question": "Is it cooked?", "answer": "Yes — slow-cooked for hours in dry-air ovens. Unlike salami, it isn't fermented and dried."}, {"question": "Does it contain nuts?", "answer": "The pistachio version does. Worth flagging, since nobody expects nuts in a sausage."}]"
 ---

@@ -1423,6 +1423,119 @@
     "dessert"
    ],
    "level": "easy"
+  },
+  {
+   "foods": [
+    "camembert",
+    "apples"
+   ],
+   "name": "Camembert + Apple",
+   "why": "Normandy's cheese with Normandy's fruit. Tart apple cuts the earthy, mushroomy richness of a ripe wheel.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "A thin slice of tart apple under a wedge of camembert.",
+   "for8": [
+    "1 wheel (8 oz)",
+    "2 crisp apples, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry Normandy cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "picnic",
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "taleggio",
+    "pears"
+   ],
+   "name": "Taleggio + Pear",
+   "why": "Ripe pear's cool sweetness tames Taleggio's funky rind and brings out its milky, fruity middle.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "A slice of ripe pear with a slice of Taleggio, rind on.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "riesling",
+   "drink_note": "Or a light Pinot Noir.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "genoa-salami",
+    "aged-cheddar"
+   ],
+   "name": "Genoa Salami + Aged Cheddar",
+   "why": "Garlicky, fatty salami and sharp, crumbly cheddar. Firm with firm, salt with salt, and both get better.",
+   "rule": "weight",
+   "bite": "Fold a slice of salami over a chunk of cheddar.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz"
+   ],
+   "drink": "merlot",
+   "drink_note": "Or an amber ale.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day",
+    "kids"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "comte",
+    "apples"
+   ],
+   "name": "Comté + Apple",
+   "why": "Comté's brown-butter nuttiness with crisp, tart apple. A fall pairing that also suits kids.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Thin apple slice on a slice of comté.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "kids",
+    "picnic"
+   ],
+   "level": "slice"
   }
  ],
  "trios": [
@@ -2869,6 +2982,155 @@
     "holiday"
    ],
    "level": "slice"
+  },
+  {
+   "foods": [
+    "camembert",
+    "apples",
+    "walnuts"
+   ],
+   "name": "Camembert + Apple + Walnuts",
+   "why": "Walnuts add crunch and a bitter edge that makes the cheese taste deeper.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Apple slice, camembert, a walnut half on top.",
+   "for8": [
+    "1 wheel (8 oz)",
+    "2 crisp apples, sliced",
+    "1 cup halves"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "camembert",
+    "honey",
+    "walnuts"
+   ],
+   "name": "Camembert + Honey + Walnuts",
+   "why": "Honey rounds off the sulphur notes of a very ripe wheel; walnuts add the crunch it lacks.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Spoon camembert onto a walnut half and drizzle honey. Great with a warm, baked wheel.",
+   "for8": [
+    "1 wheel (8 oz)",
+    "1/4 cup",
+    "1 cup halves"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or Beaujolais.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "taleggio",
+    "pears",
+    "honey"
+   ],
+   "name": "Taleggio + Pear + Honey",
+   "why": "A thread of honey softens the washed-rind funk, so even cautious guests try it.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Pear, Taleggio, a little honey.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced",
+    "1/4 cup"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry Riesling.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "genoa-salami",
+    "aged-cheddar",
+    "cornichons"
+   ],
+   "name": "Genoa Salami + Cheddar + Cornichons",
+   "why": "Tiny sour pickles cut the fat of both, so the next bite tastes as good as the first.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Salami, cheddar, half a cornichon on a toothpick.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz",
+    "1 cup"
+   ],
+   "drink": "merlot",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "genoa-salami",
+    "aged-provolone",
+    "pepperoncini"
+   ],
+   "name": "Genoa Salami + Aged Provolone + Pepperoncini",
+   "why": "The Italian deli trio: garlicky salami, sharp provolone and a mild, vinegary pepper to cut the fat.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Roll the salami around a provolone stick; pepperoncini on the side.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz",
+    "1 cup"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
   }
  ],
  "quartets": [
@@ -3666,6 +3928,38 @@
     "game-day"
    ],
    "level": "easy"
+  },
+  {
+   "foods": [
+    "taleggio",
+    "pears",
+    "honey",
+    "walnuts"
+   ],
+   "name": "Taleggio + Pear + Honey + Walnuts",
+   "why": "Add walnuts for crunch and a bitter note. A washed-rind cheese anyone will eat.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Pear slice, Taleggio, walnut, honey drizzle.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced",
+    "1/4 cup",
+    "1 cup halves"
+   ],
+   "drink": "riesling",
+   "drink_note": "Or a Belgian ale.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "holiday"
+   ],
+   "level": "slice"
   }
  ],
  "plates": [
@@ -4570,6 +4864,45 @@
    "steps": [
     "triple-creme-fig-jam",
     "triple-creme-fig-jam-water-crackers"
+   ]
+  },
+  {
+   "id": "camembert-apples",
+   "name": "Camembert & Apple",
+   "steps": [
+    "camembert-apples",
+    "camembert-apples-walnuts"
+   ]
+  },
+  {
+   "id": "camembert-honey-walnuts",
+   "name": "Camembert & Honey",
+   "steps": [
+    "camembert-honey-walnuts"
+   ]
+  },
+  {
+   "id": "taleggio-pears",
+   "name": "Taleggio & Pear",
+   "steps": [
+    "taleggio-pears",
+    "taleggio-pears-honey",
+    "taleggio-pears-honey-walnuts"
+   ]
+  },
+  {
+   "id": "genoa-salami-aged-cheddar",
+   "name": "Genoa Salami & Cheddar",
+   "steps": [
+    "genoa-salami-aged-cheddar",
+    "genoa-salami-aged-cheddar-cornichons"
+   ]
+  },
+  {
+   "id": "genoa-salami-aged-provolone-pepperoncini",
+   "name": "Genoa Salami & Provolone",
+   "steps": [
+    "genoa-salami-aged-provolone-pepperoncini"
    ]
   }
  ]

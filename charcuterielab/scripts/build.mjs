@@ -1740,7 +1740,13 @@ function metaSnippet(text, limit = META_LIMIT) {
   const ends = [];
   for (const m of head.matchAll(/[.!?] /g)) ends.push([m.index + 1, 0]);
   for (const m of head.matchAll(/; /g)) ends.push([m.index, 1]);
-  for (const m of head.matchAll(/, /g)) ends.push([m.index, 2]);
+  // not inside a noun phrase: "give a mild, creamy cheese" cut at the comma left
+  // "give a mild." on the brie guide (15 Nov 2026)
+  for (const m of head.matchAll(/, /g)) {
+    const before = head.slice(0, m.index), next = metaWord(head.slice(m.index + 2).split(" ")[0] || "");
+    if (/\b(a|an|the|very|so|more|most)\s+[\w'-]+$/i.test(before) && next && !META_TRAIL.has(next) && !META_FRAG.has(next)) continue;
+    ends.push([m.index, 2]);
+  }
   for (const m of head.matchAll(/ \u2014 /g)) ends.push([m.index, 2]);
   // Two passes: prefer a cut of a decent length, but a short clean sentence
   // still beats a long one that trails off.
@@ -1754,6 +1760,9 @@ function metaSnippet(text, limit = META_LIMIT) {
     }
     if (best) return best[1];
   }
+  // no clean clause: a whole first sentence beats a word-cut with an ellipsis (15 Nov 2026)
+  const sent = ends.filter(([end, rank]) => rank === 0 && end >= 60 && end <= limit).map(([end]) => end).pop();
+  if (sent) return head.slice(0, sent).trim();
   const word = head.slice(0, limit).lastIndexOf(" ");
   return `${head.slice(0, word > 0 ? word : limit).trimEnd()}...`;
 }

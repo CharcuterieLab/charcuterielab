@@ -1175,7 +1175,7 @@ ${all.filter((c) => c.kind === k.key).map((c) => labCard(h, idx, art, c)).join("
     url: "/pairings/classics/",
     title: `Best Charcuterie Combinations: ${all.length} Pairs, Trios & Plates`,
     name: "The Combination Lab: charcuterie pairs, trios, quartets and plates",
-    description: `${all.length} charcuterie combinations that work, from brie and fig jam to five-food plates. Each with how to build the bite, amounts for 8, wine, beer and no-alcohol picks.`,
+    description: `${all.length} charcuterie combinations that work, from brie and fig jam to five-food plates, with how to build each bite, amounts for 8 and what to pour.`,
     crumbs: [["Pairings", "/pairings/"], ["Combination Lab", "/pairings/classics/"]],
     list: all.map((c) => [c.name, `/pairings/classics/#c-${labId(c)}`]),
     faq,

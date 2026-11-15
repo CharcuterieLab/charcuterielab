@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "fresh", "italian", "budget"]
-pairs_with: ["burrata", "stracciatella", "olive-oil-crackers", "ciabatta", "soppressata", "prosciutto-di-parma", "peaches", "hot-honey", "castelvetrano-olives", "cerignola-olives", "sun-dried-tomatoes", "flaky-sea-salt", "olive-oil", "balsamic-glaze", "cracked-black-pepper", "fresh-basil"]
+pairs_with: ["burrata", "stracciatella", "olive-oil-crackers", "ciabatta", "soppressata", "prosciutto-di-parma", "peaches", "hot-honey", "castelvetrano-olives", "cerignola-olives", "sun-dried-tomatoes", "flaky-sea-salt", "olive-oil", "balsamic-glaze", "cracked-black-pepper", "fresh-basil", "figs", "melon"]
 avoid_with: ["blue-cheese", "strong-cured-meat"]
 faq: "[{"question": "Fresh mozzarella vs. buffalo mozzarella?", "answer": "Buffalo mozzarella uses water buffalo milk — tangier, richer, softer. Fresh mozzarella usually means the cow's milk version."}, {"question": "Why does mine taste like nothing?", "answer": "It's underseasoned. Olive oil, flaky salt and pepper, and it becomes a different cheese."}, {"question": "How long does it keep?", "answer": "A few days in its liquid, refrigerated. It's a fresh cheese, not an aged one."}, {"question": "Can I use the low-moisture kind?", "answer": "Not for a board. That's pizza cheese — firm, rubbery and made for melting."}, {"question": "How much per person?", "answer": "1–2 oz. An 8 oz ball covers four to six on a mixed board."}]"
 ---

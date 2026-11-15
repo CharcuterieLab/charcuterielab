@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "salami", "spicy"]
-pairs_with: ["genoa-salami", "finocchiona", "coppa", "aged-provolone", "olive-oil-crackers", "hot-honey", "giardiniera", "pepperoncini"]
+pairs_with: ["genoa-salami", "finocchiona", "coppa", "aged-provolone", "olive-oil-crackers", "hot-honey", "giardiniera", "pepperoncini", "burrata", "fig-jam", "honey", "taralli"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Soppressata or Genoa salami?", "answer": "Soppressata is coarse-ground, pressed flat and usually spicy. Genoa is fine-ground, round and mild. Soppressata is the more interesting board meat."}, {"question": "Is it always spicy?", "answer": "No — dolce versions exist and are mild. But the chili is what distinguishes the southern style."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but papery, and most people peel it. Plastic casing must come off."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "What cools the heat?", "answer": "Fresh mozzarella, honey, or both. Milk fat and sugar both blunt capsaicin."}]"
 ---

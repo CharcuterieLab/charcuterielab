@@ -13,7 +13,7 @@ serving_per_person: "4–5 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten", "soy"]
 tags: ["crackers", "rich base", "budget", "crowd-pleaser"]
-pairs_with: ["water-crackers", "saltines", "whole-wheat-crackers", "brie", "camembert", "triple-creme", "smoked-salmon", "summer-sausage", "pepper-jelly", "pimento-cheese", "pickled-okra"]
+pairs_with: ["water-crackers", "saltines", "whole-wheat-crackers", "smoked-salmon", "summer-sausage", "pepper-jelly", "pimento-cheese", "pickled-okra"]
 avoid_with: ["delicate-bloomy-cheese", "caviar"]
 image_alt: "A leaning stack of golden scalloped butter crackers beside a wedge of sharp cheddar"
 faq: "[{"question": "Are Ritz crackers okay for a charcuterie board?", "answer": "Yes, for the right board. Put them on a cheddar-and-sausage board and they're perfect. Put them on a brie-and-fig board and they're a mistake."}, {"question": "How many do I need?", "answer": "About 4–5 per person alongside other bases. A sleeve holds roughly 30."}, {"question": "Do butter crackers actually contain butter?", "answer": "Usually not. Most use vegetable oil and are named for the flavor."}, {"question": "Why do mine always go soggy?", "answer": "The fat and the low bake mean they absorb moisture quickly. Keep them away from cut fruit and soft cheese, and set them out last."}]"

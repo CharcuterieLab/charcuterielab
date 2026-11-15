@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "washed-rind", "funky"]
-pairs_with: ["fontina", "epoisses", "reblochon", "crostini", "red-hawk", "speck", "prosciutto-di-parma"]
+pairs_with: ["fontina", "epoisses", "reblochon", "crostini", "red-hawk", "speck", "prosciutto-di-parma", "baguette", "honey", "pears", "walnuts", "fig-jam", "mostarda"]
 avoid_with: ["delicate-fresh-cheese"]
 board_post: "/blog/taleggio/"
 faq: "[{"question": "Does Taleggio taste as strong as it smells?", "answer": "No, and that gap is the point. It smells barnyard and tastes buttery and fruity."}, {"question": "Can you eat the rind?", "answer": "Yes, it's edible. Many people trim it anyway. Both are acceptable."}, {"question": "How do I know if it's gone off?", "answer": "A sharp ammonia smell that doesn't fade after ten minutes out of the fridge."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich."}, {"question": "What if my guests are nervous about stinky cheese?", "answer": "This is the right cheese for that. Tell them it tastes far milder than it smells, and serve it with honey."}]"

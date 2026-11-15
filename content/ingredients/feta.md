@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "15 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "greek", "briny", "mediterranean"]
-pairs_with: ["halloumi", "queso-fresco", "pita-chips", "sesame-crackers", "pumpkin-seeds", "mango", "pomegranate", "hummus", "whipped-feta", "tzatziki", "kalamata-olives", "mixed-marinated-olives", "pepperoncini", "za-atar", "honey", "hot-honey"]
+pairs_with: ["halloumi", "queso-fresco", "pita-chips", "sesame-crackers", "pumpkin-seeds", "mango", "pomegranate", "hummus", "whipped-feta", "tzatziki", "kalamata-olives", "mixed-marinated-olives", "pepperoncini", "za-atar", "honey", "hot-honey", "olive-oil"]
 avoid_with: ["delicate-fresh-cheese", "sweet-jam"]
 faq: "[{"question": "Is all feta made from sheep's milk?", "answer": "Real Greek PDO feta is sheep's milk, or sheep with up to 30% goat. Cow's milk versions exist but can't legally be called feta in the EU."}, {"question": "Block or crumbles?", "answer": "Block, in brine, always. Crumbles are dried and coated."}, {"question": "Why is mine so salty?", "answer": "It's brine-aged — that's correct. Rinse it briefly and pat it dry if it's too much."}, {"question": "How much per person?", "answer": "1–2 oz. An 8 oz block serves five to six."}, {"question": "What's the easiest upgrade?", "answer": "Whip it with olive oil and yogurt, then pour hot honey over the top."}]"
 ---

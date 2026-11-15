@@ -21,9 +21,9 @@
  {
   "slug": "camembert",
   "top": [
+   "apples",
    "baguette",
-   "brie",
-   "smoked-salmon"
+   "walnuts"
   ],
   "answer": "Camembert goes best with baguette, apples, dry cider and other bloomy-rind cheeses. It's stronger and more mushroomy than brie, so pair it with crisp, fresh partners.",
   "faq": [
@@ -34,6 +34,22 @@
    {
     "q": "What drink goes with Camembert?",
     "a": "Dry Normandy cider is the classic; Chardonnay and Beaujolais work too."
+   },
+   {
+    "q": "What fruit goes with Camembert?",
+    "a": "Tart apples first, then pears and grapes. Their acid and juice cut through the rich, earthy cheese. Normandy, where Camembert comes from, is apple country."
+   },
+   {
+    "q": "What crackers go with Camembert?",
+    "a": "Plain ones: baguette slices, water crackers or rosemary crackers. Skip buttery crackers (fat on fat) and everything crackers, which drown the cheese."
+   },
+   {
+    "q": "What meat goes with Camembert?",
+    "a": "Mild cured meats like prosciutto, jambon de Bayonne or saucisson sec. Skip smoked salmon, which gets lost next to a ripe Camembert."
+   },
+   {
+    "q": "Should you bake Camembert for a board?",
+    "a": "You can. Bake it in its wooden box at 350°F for 15 to 20 minutes, then serve with baguette, apple slices and a drizzle of honey."
    }
   ]
  },

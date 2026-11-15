@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "aged", "italian", "umami"]
-pairs_with: ["grana-padano", "pecorino-romano", "grissini", "taralli", "prosciutto-di-parma", "truffle-honey", "mostarda"]
+pairs_with: ["grana-padano", "pecorino-romano", "grissini", "taralli", "prosciutto-di-parma", "truffle-honey", "mostarda", "honey", "walnuts"]
 avoid_with: ["parmesan-crisps", "delicate-fresh-cheese"]
 faq: "[{"question": "Parmesan vs. Parmigiano-Reggiano — is there a difference?", "answer": "Yes. Parmigiano-Reggiano is a protected Italian designation with strict rules. 'Parmesan' in the US is an unregulated name that can mean almost anything."}, {"question": "How do I cut it?", "answer": "Break it with a short parmesan knife into rough shards. Don't slice."}, {"question": "What are the crunchy crystals?", "answer": "Tyrosine crystals from long aging — the same as in aged cheddar and gouda."}, {"question": "Can I eat the rind?", "answer": "It's edible but unpleasantly hard. Save it for soups and stocks instead."}, {"question": "How much per person?", "answer": "About 1 oz. It's intense, and people take small shards."}]"
 ---

@@ -14,7 +14,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "english", "holiday"]
-pairs_with: ["gorgonzola", "roquefort", "bleu-dauvergne", "oatcakes", "cabrales", "maytag-blue", "brazil-nuts", "candied-pecans", "dried-cherries", "honey", "honeycomb", "orange-marmalade", "mango-chutney", "cranberry-sauce"]
+pairs_with: ["gorgonzola", "roquefort", "bleu-dauvergne", "oatcakes", "cabrales", "maytag-blue", "brazil-nuts", "candied-pecans", "dried-cherries", "honey", "honeycomb", "orange-marmalade", "mango-chutney", "cranberry-sauce", "walnut-raisin-bread", "apples", "pears", "fig-jam"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Can Stilton be made in Stilton?", "answer": "No — and it never could under the PDO. The village is in Cambridgeshire, which is outside the protected zone. The cheese was sold there, not made there."}, {"question": "Is Stilton very strong?", "answer": "Moderate. Saltier than Gorgonzola dolce, milder than Roquefort. It's the middle of the blue range."}, {"question": "Why port?", "answer": "Sweet fortified wine against salt and funk — the same principle as honey, with more body. It's also a British Christmas tradition on both sides."}, {"question": "What's white Stilton?", "answer": "The same base cheese without the blue mold, usually sold with dried fruit mixed in. A different product."}, {"question": "How much per person?", "answer": "About 1 oz."}]"
 ---
