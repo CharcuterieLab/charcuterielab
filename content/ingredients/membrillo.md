@@ -7,13 +7,13 @@ board_role: "Sliceable fruit paste"
 role_group: "Sweet preserves"
 excerpt: "Quince paste firm enough to slice like cheese. Cut it into batons, lay it beside manchego, and you have the most famous pairing in Spain."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["spread", "spanish", "preserve", "crowd-pleaser", "year-round"]
-pairs_with: ["manchego", "idiazabal", "marcona-almonds", "jamon-serrano", "aged-gouda", "chorizo", "tortas-de-aceite"]
+pairs_with: ["manchego", "idiazabal", "marcona-almonds", "jamon-serrano", "aged-gouda", "chorizo", "tortas-de-aceite", "cabrales"]
 avoid_with: []
 faq: "[{"question": "What is membrillo?", "answer": "Quince paste — quince cooked with sugar until it sets firm enough to slice. A Spanish cheese-board staple."}, {"question": "What cheese goes with membrillo?", "answer": "Manchego above all, plus other aged sheep cheeses, aged gouda, and blue cheese."}, {"question": "How do I cut membrillo?", "answer": "Into thin slices or batons with a hot dry knife, wiped between cuts."}, {"question": "Is membrillo the same as quince jelly?", "answer": "No — jelly is spoonable, membrillo is firm enough to slice and eat by hand."}, {"question": "How long does it keep?", "answer": "Months in the fridge, wrapped. It's a preserve, and a very stable one."}]"
 ---
@@ -50,7 +50,8 @@ why it appears on almost every Spanish cheese plate.
 | **Marcona almonds** | The full Spanish plate: cheese, quince, almond. Three textures, one region. |
 | **Jamón serrano** | Salt and fat against dense sugar, with the meat's chew matched by the paste's. |
 | **Aged gouda and hard cheeses** | Anything crystalline and salty pairs the same way manchego does. |
-| **Blue cheese** | Firm sweetness handling salt, without the mess of a spoonable jam. |
+| **Cabrales and other blue cheese** | Firm sweetness handling salt, without the mess of a spoonable jam. |
+| **Fino sherry, Cava or Rioja** | Spanish with Spanish: dry sherry's salt and nuttiness, or Cava's bubbles, against the quince's sugar. |
 
 **Skip it with:** soft fresh cheeses. Membrillo is too dense to eat with
 something that has no structure.

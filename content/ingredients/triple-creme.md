@@ -7,13 +7,13 @@ board_role: "Luxury soft cheese"
 role_group: "Soft & fresh"
 excerpt: "Cheese with cream added back in — at least 75% butterfat. The richest thing on a board, and the one that needs the most acid next to it."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$$"
 serving_per_person: "1 oz"
 prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "luxury"]
-pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami", "pink-peppercorns", "champagne-grapes"]
+pairs_with: ["brie", "camembert", "water-crackers", "brioche-toast-points", "genoa-salami", "pink-peppercorns", "champagne-grapes", "berries", "cornichons", "honey", "fig-jam", "marcona-almonds"]
 avoid_with: ["butter-crackers", "cured-meat"]
 faq: "[{"question": "What makes a cheese triple-crème?", "answer": "Extra cream added to the milk before culturing, bringing it to at least 75% butterfat in the dry matter."}, {"question": "Is it just very rich brie?", "answer": "Related but different. Brie gets its character from rind ripening; triple-crème gets it from added cream. Triple-crème is denser and less mushroomy."}, {"question": "How much per person?", "answer": "About 1 oz — half a normal cheese portion. It's extremely rich."}, {"question": "What wine goes with it?", "answer": "Champagne or any dry sparkling. Acid and bubbles are what make a second bite as good as the first."}, {"question": "Can you eat the rind?", "answer": "Yes, on the bloomy-rind versions. It's thinner and milder than brie's."}]"
 ---
@@ -46,7 +46,7 @@ the next bite lands as clearly as the first.
 
 | Pair it with | Why it works |
 |---|---|
-| **Champagne or dry sparkling wine** | Bubbles and acid physically scrub fat off the palate. The classic pairing and not a coincidence. |
+| **Champagne or dry sparkling wine** | Bubbles and acid reset a palate coated in butterfat. The classic pairing and not a coincidence. |
 | **Tart berries — raspberry, blackberry** | Sharp fruit acid against saturated fat. The most effective contrast available. |
 | **Water crackers** | Lean, dry, no fat of their own. A butter cracker here is fat on fat. |
 | **Brioche toast points** | The opposite approach — match the richness instead of cutting it. Reserve for a small, formal board. |

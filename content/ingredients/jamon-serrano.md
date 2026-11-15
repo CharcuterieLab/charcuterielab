@@ -7,13 +7,13 @@ board_role: "Everyday Spanish ham"
 role_group: "Dry-cured ham"
 excerpt: "Spain's everyday cured ham — firmer and saltier than prosciutto, and a fraction of the price of ibérico. The workhorse of a Spanish board."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "ham", "value"]
-pairs_with: ["jamon-iberico", "lomo", "manchego", "mahon", "olive-oil-crackers", "marcona-almonds", "melon", "romesco", "castelvetrano-olives", "manzanilla-olives", "caperberries"]
+pairs_with: ["jamon-iberico", "lomo", "manchego", "mahon", "olive-oil-crackers", "marcona-almonds", "melon", "romesco", "castelvetrano-olives", "manzanilla-olives", "caperberries", "membrillo", "figs"]
 avoid_with: ["everything-crackers", "smoked-cheese"]
 faq: "[{"question": "Serrano or ibérico?", "answer": "Serrano is white-breed pork cured about a year — salty and straightforward. Ibérico is a native breed, often acorn-fed, cured three to four years — sweet, nutty and several times the price."}, {"question": "Serrano or prosciutto?", "answer": "Serrano is firmer, drier and saltier. Prosciutto is softer and sweeter. Both are dry-cured leg; the cure and the climate differ."}, {"question": "How much per person?", "answer": "1–2 oz. It's the affordable ham, so be generous."}, {"question": "Do I trim the fat?", "answer": "No. It carries the flavor."}, {"question": "What's the best cheap Spanish board?", "answer": "Serrano, Manchego, Marcona almonds, membrillo, green olives and olive oil crackers. That's a complete board for very little money."}]"
 ---

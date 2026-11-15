@@ -7,13 +7,13 @@ board_role: "Spicy American salami"
 role_group: "Salami"
 excerpt: "An Italian-American invention, not an Italian one. Buy the whole stick rather than pizza slices, and it earns a place on a real board."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$"
 serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "american", "spicy", "budget"]
-pairs_with: ["soppressata", "genoa-salami", "summer-sausage", "aged-provolone", "butter-crackers"]
+pairs_with: ["soppressata", "genoa-salami", "summer-sausage", "aged-provolone", "butter-crackers", "fresh-mozzarella", "pepperoncini", "hot-honey", "aged-cheddar"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is pepperoni Italian?", "answer": "No — it's Italian-American, invented in New York in the early twentieth century. In Italy, peperoni means bell peppers."}, {"question": "Why does pizza pepperoni cup?", "answer": "Natural casing and a particular fat structure make the edges contract faster than the middle when heated. Cup-and-char pepperoni is made for it."}, {"question": "Is it very spicy?", "answer": "Moderately — paprika-warm rather than chili-hot for most brands."}, {"question": "How much per person?", "answer": "1–1.5 oz."}, {"question": "Should I crisp it?", "answer": "On a casual board, yes. Two minutes in a dry pan makes crisp cups that people finish first."}]"
 ---

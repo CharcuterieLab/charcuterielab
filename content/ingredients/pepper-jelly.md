@@ -7,7 +7,7 @@ board_role: "Sweet-heat jelly"
 role_group: "Savoury condiments"
 excerpt: "Bright, translucent, and hot enough to matter. Spoon it straight over a block of cream cheese and you have the easiest appetizer in the South."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$"
 serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
@@ -50,6 +50,7 @@ the vinegar keeps it from being cloying.
 | **Pimento cheese** | Southern on Southern. Both are already sweet-savoury; the jelly adds the heat. |
 | **Water crackers** | A neutral base is essential; the jelly is the whole flavour. |
 | **Grilled or fried things** | Its wider habitat. Anything hot and crisp. |
+| **Lager, off-dry Riesling or rosé** | Cold, a little sweet and low in alcohol, so the heat stays pleasant instead of building. |
 
 **Skip it with:** delicate aged cheeses. Sweet heat covers subtlety entirely.
 

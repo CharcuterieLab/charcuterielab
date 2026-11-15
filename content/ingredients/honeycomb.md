@@ -7,13 +7,13 @@ board_role: "Centrepiece"
 role_group: "Honey"
 excerpt: "The single most photogenic thing you can put on a board. Cut a square, put it in the middle, and let it do all the visual work."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$$"
 serving_per_person: "0.5 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["spread", "honey", "luxury", "centrepiece", "crowd-pleaser"]
-pairs_with: ["gorgonzola", "manchego", "brie", "aged-cheddar", "walnuts"]
+pairs_with: ["gorgonzola", "manchego", "brie", "aged-cheddar", "walnuts", "fresh-chevre", "ricotta", "pears", "apples"]
 avoid_with: []
 faq: "[{"question": "Can you eat the honeycomb wax?", "answer": "Yes. Beeswax is edible — soft, mildly chewy, and it breaks down as you chew. Some people chew and discard it like gum; both are fine."}, {"question": "What cheese goes with honeycomb?", "answer": "Blue cheese above all, plus manchego, brie and aged cheddar."}, {"question": "How do I serve honeycomb on a board?", "answer": "Cut a two- or three-inch square, set it on a small plate so the drips are contained, and put a knife beside it."}, {"question": "Is comb honey better than regular honey?", "answer": "It doesn't taste dramatically different. What it adds is texture and presentation."}, {"question": "How do I stop it making a mess?", "answer": "Serve it on a small plate or slate rather than directly on the board, and let it come to room temperature so it cuts cleanly."}]"
 ---
@@ -50,6 +50,9 @@ expensive without being complicated.
 | **Aged cheddar** | Sharp and crystalline against sweet and waxy. |
 | **Walnuts and toasted nuts** | Honey, nut, cheese — with the comb replacing the drizzle. |
 | **Warm bread** | The wax softens on warm bread, which is the easiest way to eat it. |
+| **Fresh chèvre and ricotta** | Mild, tangy fresh cheese lets the floral honey lead. |
+| **Pears and apples** | Crisp, juicy fruit against chewy, sticky comb. |
+| **Sparkling wine, tawny port or dessert wine** | Bubbles and acid lift the sweetness; port matches it. |
 
 **Skip it with:** nothing, but don't also put out a pot of honey. One or the
 other.

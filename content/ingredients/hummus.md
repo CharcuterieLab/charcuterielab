@@ -7,13 +7,13 @@ board_role: "Substantial dip"
 role_group: "Dips & spreads"
 excerpt: "The dip that turns a cheese board into a meal, and the one vegan guests will actually eat. Swirl it, pool oil in the middle, and finish it with something."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$"
 serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: ["sesame"]
 tags: ["dip", "middle-eastern", "vegan", "budget", "crowd-pleaser"]
-pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "roasted-red-peppers", "lavash", "kalamata-olives", "chili-flakes", "za-atar", "harissa", "labneh", "preserved-lemons", "tortilla-chips"]
+pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "roasted-red-peppers", "lavash", "kalamata-olives", "chili-flakes", "za-atar", "harissa", "labneh", "preserved-lemons", "tortilla-chips", "dukkah"]
 avoid_with: []
 faq: "[{"question": "How do I make hummus look good on a board?", "answer": "Spread it in a shallow bowl, swirl a hollow into it with a spoon, pool olive oil in the middle, and top with paprika, za'atar or toasted nuts."}, {"question": "Is hummus vegan?", "answer": "Yes — chickpeas, tahini, lemon, garlic, oil. It's usually the safest thing on a mixed board for vegan guests."}, {"question": "Does hummus contain allergens?", "answer": "Sesame, from the tahini. That's a declared allergen in most countries and worth mentioning."}, {"question": "How much hummus per person?", "answer": "About an ounce — more than any other spread, because people eat it in quantity."}, {"question": "Why is my hummus stiff?", "answer": "It's cold, or under-thinned. Bring it to room temperature and beat in a spoonful of cold water or lemon juice."}]"
 ---
@@ -46,10 +46,11 @@ correctly beside salty cheese rather than reading as filler.
 |---|---|
 | **Pita chips and lavash** | The base it was designed for. Sturdy enough to scoop without snapping. |
 | **Feta** | Brine and salt against mild nutty bulk — the standard mezze combination. |
-| **Olives** | Two savoury things from the same table, and the brine cuts the tahini's fat. |
+| **Kalamata olives** | Two savoury things from the same table, and the brine cuts the tahini's fat. |
 | **Roasted red peppers** | Sweetness and smoke against lemon and garlic. Also the best-looking topping for it. |
 | **Dukkah or za'atar** | Sprinkled on top. Turns a plain tub into something that looks made. |
 | **Cucumber and raw vegetables** | The lighter half of a mezze board. |
+| **Crisp white wine, dry rosé or lager** | Light and acidic, so it cuts the tahini and doesn't fight the garlic. |
 
 **Skip it with:** delicate cheeses and sweet jams. Garlic dominates a board's
 neighbourhood.

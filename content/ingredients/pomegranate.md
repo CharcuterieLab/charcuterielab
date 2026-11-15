@@ -7,13 +7,13 @@ board_role: "Jewel scatter"
 role_group: "Fresh fruit"
 excerpt: "The seeds are the point — scattered across a board they look like garnets. Open it underwater and you keep both the seeds and your shirt."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "1–2 tbsp seeds"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "fresh", "winter", "garnish"]
-pairs_with: ["berries", "blood-oranges", "figs", "fresh-chevre", "feta"]
+pairs_with: ["berries", "blood-oranges", "figs", "fresh-chevre", "feta", "whipped-feta", "labneh", "gorgonzola", "walnuts", "pistachios"]
 avoid_with: []
 faq: "[{"question": "How do I open a pomegranate without the mess?", "answer": "Score the skin, submerge it in a bowl of water, and break it apart underwater. The arils sink and the membrane floats."}, {"question": "Do you eat the seeds?", "answer": "Yes. The crunchy seed inside each juice sac is edible and part of the texture."}, {"question": "How long do the arils keep?", "answer": "Three to four days refrigerated in a sealed container, so you can prep ahead."}, {"question": "How much per person?", "answer": "One to two tablespoons, scattered rather than served in a pile."}, {"question": "When are they in season?", "answer": "October through January — which makes them the winter board fruit."}]"
 ---
@@ -48,11 +48,11 @@ up a slot.
 |---|---|
 | **Fresh chèvre and feta** | Tart red beads on stark white cheese. The best-looking pairing in this section. |
 | **Whipped feta or labneh** | Scattered over the top of a dip. Standard in Middle Eastern cooking. |
-| **Blue cheese** | Sharp acid cutting salt and funk. |
+| **Gorgonzola and blue cheese** | Sharp acid cutting salt and funk. |
 | **Walnuts and pistachios** | Persian pairing — pomegranate, walnut and herbs go back centuries. |
 | **Blood oranges** | Two winter fruits, both red, both acidic. |
 | **Roasted vegetables and grain salads** | Worth knowing — the arils are as useful elsewhere on a table. |
-| **Sparkling wine, rosé, Prosecco** | Bubbles scrub fat the way the seeds scrub the palate, and the wine's acid matches the fruit's rather than fighting it. |
+| **Sparkling wine, rosé, Prosecco** | Bubbles and acid refresh the palate the way the tart seeds do, and the wine's acid matches the fruit's rather than fighting it. |
 
 **Skip it with:** nothing on flavour. The scatter is small enough that it never
 dominates.
