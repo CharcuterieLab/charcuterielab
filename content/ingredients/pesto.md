@@ -14,7 +14,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: ["dairy", "tree nuts"]
 tags: ["italian", "herb", "green", "vegetarian", "dips"]
-pairs_with: ["fresh-mozzarella", "burrata", "sun-dried-tomatoes", "focaccia", "prosciutto-di-parma", "pecorino-toscano"]
+pairs_with: ["fresh-mozzarella", "burrata", "sun-dried-tomatoes", "focaccia", "prosciutto-di-parma", "pecorino-toscano", "ciabatta"]
 avoid_with: []
 faq: "[{"question": "Is jarred pesto any good?", "answer": "Shelf-stable jarred pesto is dull and often brown. Refrigerated tub pesto from the deli case is much closer to fresh and is what to buy."}, {"question": "Why does my pesto turn brown on the board?", "answer": "Basil oxidises. Spoon it out just before serving and film the top with olive oil, and it holds its colour for a couple of hours."}, {"question": "What cheese goes with pesto?", "answer": "Fresh mozzarella and burrata above all, then hard sheep cheeses like pecorino. Not blue cheese."}, {"question": "Is pesto vegetarian?", "answer": "Usually not strictly — traditional pesto uses Parmigiano-Reggiano, which is made with animal rennet. Vegetarian versions exist and say so on the label."}, {"question": "How much per person?", "answer": "About half an ounce. It is a condiment, not a dip."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "4–5 crackers"
 prep_time: "1 minute"
 allergens: ["tree nuts"]
 tags: ["gluten-free", "grain-free", "paleo", "nutty"]
-pairs_with: ["nut-thins", "cassava-crackers", "seeded-crackers", "brie", "camembert", "fresh-chevre", "gluten-free-bread", "prosciutto-di-parma"]
+pairs_with: ["nut-thins", "cassava-crackers", "seeded-crackers", "brie", "camembert", "fresh-chevre", "gluten-free-bread", "prosciutto-di-parma", "fig-jam", "honey", "aged-cheddar"]
 avoid_with: ["thick-dips"]
 faq: "[{"question": "Are almond flour crackers gluten-free?", "answer": "Yes, and usually grain-free too. They are not nut-free — that's the catch."}, {"question": "Do they taste gluten-free?", "answer": "No, and that's their selling point. They read as rich and buttery rather than as a substitute."}, {"question": "Can I dip with them?", "answer": "Not really. They crumble. Use cassava crackers or plantain chips for scooping."}, {"question": "How many per person?", "answer": "4–5. They're rich and filling."}, {"question": "Are they keto?", "answer": "Low-carb but not zero — most contain some starch. Check the box if it matters."}]"
 ---

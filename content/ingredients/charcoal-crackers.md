@@ -13,7 +13,7 @@ serving_per_person: "2–3 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["british", "styling", "photogenic", "specialty"]
-pairs_with: ["cream-crackers", "water-crackers", "oatcakes", "brie", "camembert", "burrata", "smoked-salmon"]
+pairs_with: ["cream-crackers", "water-crackers", "oatcakes", "brie", "camembert", "burrata", "smoked-salmon", "fresh-mozzarella", "figs", "honey"]
 avoid_with: []
 faq: "[{"question": "Is activated charcoal safe to eat?", "answer": "In food quantities, yes — it's used as a food coloring. It can bind to some medications, so anyone on prescription medication may want to skip them."}, {"question": "Do charcoal crackers taste like charcoal?", "answer": "No. Activated charcoal is flavorless. They taste like a plain cracker."}, {"question": "Why are they black?", "answer": "Purely visual. British cheesemongers use them because they make pale cheese look better."}, {"question": "How many should I put out?", "answer": "Six to eight on a large board, scattered rather than piled. They're an accent."}, {"question": "Where do I buy them in the US?", "answer": "Cheese counters and specialty shops rather than supermarket cracker aisles. The Fine Cheese Co. version is the most findable."}]"
 ---

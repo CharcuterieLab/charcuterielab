@@ -13,7 +13,7 @@ serving_per_person: "2–3 puffs"
 prep_time: "35 minutes"
 allergens: ["wheat", "gluten", "dairy", "eggs"]
 tags: ["french", "warm", "cheese", "showpiece"]
-pairs_with: ["blini", "brioche-toast-points", "pao-de-queijo"]
+pairs_with: ["blini", "brioche-toast-points", "pao-de-queijo", "cornichons"]
 avoid_with: ["aged-hard-cheese"]
 faq: "[{"question": "What are gougères?", "answer": "Savory choux pastry puffs with cheese in the dough, from Burgundy. Served warm."}, {"question": "Can I make them ahead?", "answer": "Yes — pipe them onto a sheet and freeze raw, then bake from frozen with five extra minutes. That's the standard method for entertaining."}, {"question": "Which cheese should I use?", "answer": "Gruyère or Comté. Both are nutty and melt cleanly. Aged cheddar works but is less traditional."}, {"question": "How many per person?", "answer": "2–3. They're one bite each and people take more than they mean to."}, {"question": "Why did mine collapse?", "answer": "Underbaked, or the oven was opened too early. Take them to a deep gold and leave the door shut for the first fifteen minutes."}]"
 ---

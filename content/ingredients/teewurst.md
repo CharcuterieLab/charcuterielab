@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "german", "spreadable", "smoked"]
-pairs_with: ["liverwurst", "nduja", "sobrasada", "cocktail-rye", "pumpernickel"]
+pairs_with: ["liverwurst", "nduja", "sobrasada", "cocktail-rye", "pumpernickel", "emmental"]
 avoid_with: ["delicate-fresh-cheese", "smoked-gouda"]
 faq: "[{"question": "Why is it called tea sausage?", "answer": "It was traditionally served on bread at the afternoon tea table."}, {"question": "Is it raw?", "answer": "It's cold-smoked and briefly fermented rather than cooked — a raw cured sausage, like a very soft salami."}, {"question": "How is it different from liverwurst?", "answer": "No liver. Teewurst is pork and bacon; liverwurst is liver-based and much more mineral."}, {"question": "How much per person?", "answer": "Three-quarters of an ounce to an ounce."}, {"question": "What do I serve it on?", "answer": "Dark rye or pumpernickel, with pickled onions and mustard alongside."}]"
 ---

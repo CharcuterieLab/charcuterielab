@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "american", "budget", "crowd-pleaser", "mild", "beginner"]
-pairs_with: ["honey-ham", "smoked-turkey", "apples", "pears", "spicy-brown-mustard", "cocktail-rye"]
+pairs_with: ["honey-ham", "smoked-turkey", "apples", "pears", "spicy-brown-mustard", "cocktail-rye", "pumpernickel", "cornichons", "dill-pickles"]
 avoid_with: ["blue-cheese"]
 faq: "[{"question": "What is baby Swiss cheese?", "answer": "An American Swiss-style cheese with small holes and a softer, creamier texture than regular Swiss. It was developed in Ohio by Guggisberg Cheese in the 1960s."}, {"question": "Why is it called baby Swiss?", "answer": "Margaret Guggisberg named it after seeing a small wheel beside a huge wheel of traditional Swiss. The name refers to the wheel size, not the age."}, {"question": "What's the difference between baby Swiss and regular Swiss?", "answer": "Baby Swiss is made in smaller wheels, has smaller holes, more moisture and a milder, sweeter flavor. Regular Swiss is firmer and sharper."}, {"question": "What does baby Swiss pair with?", "answer": "Ham, turkey, apples, pears, spicy brown mustard and rye. It's a natural deli-board cheese."}, {"question": "Is baby Swiss the same as lacy Swiss?", "answer": "No. Lacy Swiss is a reduced-fat version with lots of small holes. Baby Swiss is full fat."}]"
 ---

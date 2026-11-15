@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "smoked", "alpine"]
-pairs_with: ["black-forest-ham", "prosciutto-di-parma", "gruyere", "rye-crispbread", "fontina"]
+pairs_with: ["black-forest-ham", "prosciutto-di-parma", "gruyere", "rye-crispbread", "fontina", "comte", "cornichons", "pears"]
 avoid_with: ["smoked-gouda", "delicate-fresh-cheese"]
 faq: "[{"question": "Is speck the same as prosciutto?", "answer": "Same idea, different treatment. Speck is boned, spiced with juniper and cold- smoked; prosciutto is left on the bone and never smoked."}, {"question": "How smoky is it?", "answer": "Gently. Cold smoke below 20°C perfumes the ham rather than coating it."}, {"question": "Is it Italian or German?", "answer": "Both, in a sense. Alto Adige is an Italian province where German is the majority language, and speck belongs to that culture."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Do I trim the fat?", "answer": "No. The fat carries the smoke and the juniper."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "2–3 crisps"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten", "tree nuts"]
 tags: ["crackers", "artisan", "sweet-savory", "cheese shop"]
-pairs_with: ["seeded-crackers", "water-crackers", "walnut-raisin-bread", "brie", "triple-creme", "burrata"]
+pairs_with: ["seeded-crackers", "water-crackers", "walnut-raisin-bread", "brie", "triple-creme", "burrata", "aged-cheddar", "aged-gouda", "honey"]
 avoid_with: ["jam", "delicate-fresh-cheese"]
 faq: "[{"question": "Why are these so expensive?", "answer": "Two bakes, real nuts and dried fruit, and a slow slicing step. About $7–9 for 20 crisps is normal."}, {"question": "What cheese goes best with Raincoast Crisps?", "answer": "Blue cheese, then fresh goat cheese. Both are on the label's own pairing suggestions for a reason."}, {"question": "Can I make them at home?", "answer": "Yes — a quick bread with fruit and nuts, frozen, sliced thin, baked again at 300°F for 15 minutes a side. It's a project, but a cheap one."}, {"question": "How many per person?", "answer": "2–3. Put out a neutral cracker alongside for volume."}]"
 ---

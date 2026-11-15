@@ -13,7 +13,7 @@ serving_per_person: "1.5 oz"
 prep_time: "2 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "american", "midwest", "budget", "crowd-pleaser", "mild", "beginner"]
-pairs_with: ["summer-sausage", "meat-sticks", "dill-pickles", "ranch-dip", "mini-pretzels", "honey-mustard"]
+pairs_with: ["summer-sausage", "meat-sticks", "dill-pickles", "ranch-dip", "mini-pretzels", "honey-mustard", "pepper-jelly"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What are cheese curds?", "answer": "Fresh pieces of cheddar curd, sold before they're pressed into a block and aged. They're usually a day or two old."}, {"question": "Why do cheese curds squeak?", "answer": "Fresh curds have long, tightly bound protein strands that rub against your teeth. As the curds age, acid loosens the strands and the squeak fades."}, {"question": "How do you bring the squeak back?", "answer": "Microwave a bowl of curds for 5 to 10 seconds. Warming loosens the fat and tightens the bite, and most curds up to two weeks old will squeak again."}, {"question": "Do cheese curds need to be refrigerated?", "answer": "For storage, yes. Wisconsin purists keep same-day curds at room temperature for the squeak, but anything older belongs in the fridge."}, {"question": "What goes with cheese curds on a board?", "answer": "Summer sausage, meat sticks, dill pickles, pretzels and ranch or honey mustard for dipping."}]"
 ---

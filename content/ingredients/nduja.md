@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "spicy", "spreadable"]
-pairs_with: ["sobrasada", "soppressata", "fresh-mozzarella", "crostini", "ricotta"]
+pairs_with: ["sobrasada", "soppressata", "fresh-mozzarella", "crostini", "ricotta", "burrata", "honey", "roasted-red-peppers", "aged-provolone"]
 avoid_with: ["delicate-fresh-cheese", "prosciutto-di-parma"]
 faq: "[{"question": "How hot is 'nduja?", "answer": "Genuinely hot — the chili can be a third of the weight. Not painful for most people, but far beyond a mild soppressata."}, {"question": "Is it a salami or a pâté?", "answer": "Technically a salami — cured, fermented pork in a casing. It's just soft enough to spread."}, {"question": "What stops the heat?", "answer": "Dairy. Ricotta, mozzarella, burrata. Capsaicin dissolves in fat, and milk fat carries it away."}, {"question": "How much per person?", "answer": "Half an ounce to an ounce. It's rich and hot."}, {"question": "Can I cook with it?", "answer": "It's superb in pasta, on pizza, and stirred into eggs. A jar goes a long way."}]"
 ---

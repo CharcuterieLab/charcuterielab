@@ -13,7 +13,7 @@ serving_per_person: "2–3 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "summer", "seasonal"]
-pairs_with: ["berries", "grapes", "brandied-cherries", "fresh-chevre", "duck-prosciutto"]
+pairs_with: ["berries", "grapes", "brandied-cherries", "fresh-chevre", "duck-prosciutto", "almonds", "dark-chocolate", "aged-gouda"]
 avoid_with: []
 faq: "[{"question": "Should I pit cherries for a board?", "answer": "No. Pitted cherries weep and collapse. Leave the stems and pits and put out a small bowl for the pits."}, {"question": "Bing or Rainier?", "answer": "Bing for deep colour and reliability, Rainier for sweetness and a striking gold-and-red look."}, {"question": "When are cherries in season?", "answer": "Roughly May through August in the US. Outside that, use dried or brandied."}, {"question": "How much per person?", "answer": "2–3 oz."}, {"question": "Why do cherry and almond go together?", "answer": "Both contain benzaldehyde — the compound behind almond scent. The link is chemical, not just traditional."}]"
 ---

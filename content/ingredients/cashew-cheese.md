@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
 allergens: ["tree nuts"]
 tags: ["cheese", "plant-based", "vegan", "dairy-free"]
-pairs_with: ["almond-ricotta", "vegan-brie", "vegan-cream-cheese", "seeded-crackers"]
+pairs_with: ["almond-ricotta", "vegan-brie", "vegan-cream-cheese", "seeded-crackers", "fig-jam", "hot-honey", "cornichons", "roasted-red-peppers", "olive-oil"]
 avoid_with: ["dairy-cheese-comparisons"]
 faq: "[{"question": "Is cashew cheese actually cheese?", "answer": "Not by any dairy definition, but the cultured versions use the same bacteria and develop real tang. It's a fermented food in its own right."}, {"question": "Which brand should I buy first?", "answer": "Miyoko's. It's cultured, widely available and the most consistently good."}, {"question": "Does it contain nuts?", "answer": "Yes — cashews, a tree nut. It's dairy-free, not allergen-free."}, {"question": "How do I make it?", "answer": "Soak raw cashews four hours, blend with lemon juice, salt, nutritional yeast and a little water. Culture it with a probiotic capsule if you want tang."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich."}]"
 ---

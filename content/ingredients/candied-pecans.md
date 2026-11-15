@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "15 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "candied", "holiday", "make-ahead", "crowd-pleaser"]
-pairs_with: ["gorgonzola", "stilton", "brie", "aged-cheddar", "pears"]
+pairs_with: ["gorgonzola", "stilton", "brie", "aged-cheddar", "pears", "apples"]
 avoid_with: []
 faq: "[{"question": "How do I make candied pecans?", "answer": "Toss pecan halves in frothy egg white, then in brown sugar and salt, and bake at 300°F for 25 minutes, stirring twice. Cool completely before serving."}, {"question": "Why egg white instead of butter?", "answer": "Egg white sets into a dry crisp shell, which is what you want on a board. Butter caramel is stickier and marks the cheese."}, {"question": "What cheese goes with candied pecans?", "answer": "Blue cheeses above all — gorgonzola and stilton — plus brie and aged cheddar."}, {"question": "How far ahead can I make them?", "answer": "A week in an airtight container. Re-crisp at 275°F for ten minutes if they soften."}, {"question": "How much per person?", "answer": "About half an ounce. They're rich and very sweet."}]"
 ---

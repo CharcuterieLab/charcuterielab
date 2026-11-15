@@ -13,7 +13,7 @@ serving_per_person: "1 sausage"
 prep_time: "0 minutes"
 allergens: []
 tags: ["cured meat", "german", "smoked", "snacking"]
-pairs_with: ["black-forest-ham", "summer-sausage", "kielbasa", "emmental", "rye-crispbread"]
+pairs_with: ["black-forest-ham", "summer-sausage", "kielbasa", "emmental", "rye-crispbread", "gruyere", "cornichons", "apples"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is it flat?", "answer": "It's pressed between boards or weights while curing, which is the traditional method and the shape that identifies it."}, {"question": "Does it need refrigeration?", "answer": "No — it's semi-dry and shelf-stable, which is why it was hiking food. Refrigerate after long storage for best texture."}, {"question": "What does it taste like?", "answer": "Smoky and tangy with caraway, chewier and more fermented than a snack stick."}, {"question": "How much per person?", "answer": "About one sausage each on a mixed board."}, {"question": "Do I slice it?", "answer": "No. Serve whole or snapped in half. The shape is the point."}]"
 ---

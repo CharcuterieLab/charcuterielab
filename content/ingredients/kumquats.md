@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["fruit", "citrus", "winter", "unique", "seasonal"]
-pairs_with: ["gorgonzola", "fresh-chevre", "aged-gouda", "prosciutto-di-parma", "almonds"]
+pairs_with: ["gorgonzola", "fresh-chevre", "aged-gouda", "prosciutto-di-parma", "almonds", "dark-chocolate"]
 avoid_with: []
 faq: "[{"question": "Do you eat kumquat skin?", "answer": "Yes — the skin is the sweet part. The flesh inside is the sour part."}, {"question": "How do I serve kumquats on a board?", "answer": "Sliced into thin wheels, halved, or whole. Whole on the branch looks best."}, {"question": "Are kumquats too sour?", "answer": "The flesh is sharp. Roll them first to release the peel oils, and pair them with something salty like blue cheese or prosciutto."}, {"question": "When are kumquats in season?", "answer": "December through April."}, {"question": "Do they have seeds?", "answer": "Usually two or three small ones. Pick them out if you're slicing."}]"
 ---

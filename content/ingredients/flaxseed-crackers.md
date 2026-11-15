@@ -13,7 +13,7 @@ serving_per_person: "2–3 crackers"
 prep_time: "1 minute"
 allergens: []
 tags: ["crackers", "gluten-free", "keto", "earthy"]
-pairs_with: ["seeded-crackers", "rye-crispbread", "whole-wheat-crackers", "brie", "burrata", "fresh-mozzarella", "smoked-salmon"]
+pairs_with: ["seeded-crackers", "rye-crispbread", "whole-wheat-crackers", "brie", "burrata", "fresh-mozzarella", "smoked-salmon", "baba-ganoush", "hummus", "almonds", "honey"]
 avoid_with: ["delicate-fresh-cheese", "mild-brie"]
 faq: "[{"question": "Are flaxseed crackers gluten-free?", "answer": "Most are, since they contain no flour. Check for a certification if a guest has celiac disease."}, {"question": "Why do they taste bitter?", "answer": "A little bitterness is normal — it's the seed oil. Sharp, harsh bitterness means the box has gone rancid."}, {"question": "Should I refrigerate them?", "answer": "After opening, yes. Flax oil oxidizes quickly, and the fridge roughly doubles how long they stay good."}, {"question": "How many per person?", "answer": "2–3. They're dense, oily and filling."}, {"question": "Are they keto-friendly?", "answer": "Yes — very low net carbs and high fat. It's a large part of why the category exists."}]"
 ---

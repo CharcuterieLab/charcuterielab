@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 minutes"
 allergens: ["tree nuts"]
 tags: ["cheese", "plant-based", "vegan", "dairy-free"]
-pairs_with: ["cashew-cheese", "vegan-cream-cheese", "ricotta", "crostini"]
+pairs_with: ["cashew-cheese", "vegan-cream-cheese", "ricotta", "crostini", "olive-oil", "figs", "peaches", "hot-honey", "almonds", "pistachios"]
 avoid_with: ["dairy-cheese-comparisons"]
 faq: "[{"question": "Is almond ricotta like real ricotta?", "answer": "Closer than most plant-based substitutes, because almonds don't blend completely smooth and the graininess reads as ricotta-like."}, {"question": "Can I make it at home?", "answer": "Yes, easily. Soak blanched almonds, blend with lemon, salt, water and olive oil. Twenty minutes."}, {"question": "Why blanched almonds?", "answer": "The skins make it grey and slightly bitter. Blanched almonds give a white, clean-tasting result."}, {"question": "Does it contain nuts?", "answer": "Yes — almonds. It's dairy-free, not allergen-free."}, {"question": "How much per person?", "answer": "1–2 oz, seasoned and served with crostini."}]"
 ---

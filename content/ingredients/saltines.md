@@ -13,7 +13,7 @@ serving_per_person: "4–6 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "budget", "neutral base", "beginner"]
-pairs_with: ["water-crackers", "butter-crackers", "whole-wheat-crackers", "burrata", "aged-cheddar", "anchovies", "country-ham"]
+pairs_with: ["water-crackers", "butter-crackers", "whole-wheat-crackers", "burrata", "aged-cheddar", "anchovies", "country-ham", "pimento-cheese", "hot-honey"]
 avoid_with: ["thick-dips", "delicate-fresh-cheese"]
 image_alt: "Square saltine crackers overlapping in a row beside sharp cheddar and a tin of sardines"
 faq: "[{"question": "Are saltines good enough for a charcuterie board?", "answer": "Yes. They're the best value on the board, and they're the correct choice for tinned fish, pimento cheese and sharp cheddar."}, {"question": "What's the difference between saltines and water crackers?", "answer": "Saltines are yeast-leavened and salted on top. Water crackers are unleavened and nearly flavorless. Saltines add something; water crackers add nothing."}, {"question": "How long do they last once opened?", "answer": "Two to three days in the sleeve. Longer in an airtight container, but they lose snap fast."}, {"question": "Are saltines vegan?", "answer": "Most are — flour, oil, salt, yeast. Check for butter or whey on flavored ones."}]"

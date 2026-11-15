@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "italian", "puglia", "unique", "crowd-pleaser"]
-pairs_with: ["burrata", "prosciutto-di-parma", "manchego", "fresh-mozzarella", "marcona-almonds"]
+pairs_with: ["burrata", "prosciutto-di-parma", "manchego", "fresh-mozzarella", "marcona-almonds", "ricotta"]
 avoid_with: []
 faq: "[{"question": "Why are Cerignola olives so big?", "answer": "It's the variety — Bella di Cerignola from Puglia grows to plum size naturally."}, {"question": "Are the red ones natural?", "answer": "No. Red Cerignolas are dyed with vegetable colouring. Green and black are natural."}, {"question": "Are they salty?", "answer": "Only mildly. They're cured briefly, so they're crisp and buttery rather than briny."}, {"question": "What cheese goes with Cerignola olives?", "answer": "Burrata, fresh mozzarella, manchego and fresh ricotta — mild cheeses that suit a mild olive."}, {"question": "How many per person?", "answer": "Two or three. They're large enough that an ounce is a small number."}]"
 ---

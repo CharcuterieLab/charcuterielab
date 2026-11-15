@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "spanish", "goat", "underrated"]
-pairs_with: ["ossau-iraty", "manchego", "drunken-goat", "rosemary-crackers", "jamon-serrano"]
+pairs_with: ["ossau-iraty", "manchego", "drunken-goat", "rosemary-crackers", "jamon-serrano", "membrillo", "marcona-almonds", "figs", "grapes", "honey"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "Is the grey rind safe to eat?", "answer": "Yes — it's a natural Penicillium mold rind, deliberately developed. It's edible but chalky, and most people trim it."}, {"question": "What does Garrotxa taste like?", "answer": "Hazelnut, fresh herbs and damp forest floor, with a mild goat tang. Subtler than most goat cheeses."}, {"question": "Is it a rare cheese?", "answer": "It nearly died out and was revived in the 1980s. It's now made by several Catalan producers and reasonably available at good US counters."}, {"question": "How is it different from French goat cheese?", "answer": "Firmer and less acidic, with herbal and nutty notes rather than lemony tang."}, {"question": "How much per person?", "answer": "1–1.5 oz."}]"
 ---

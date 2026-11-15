@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["cured meat", "french", "cajun", "smoked"]
-pairs_with: ["kielbasa", "chorizo", "morcilla", "aged-cheddar", "tostada-rounds", "pickled-okra"]
+pairs_with: ["kielbasa", "chorizo", "morcilla", "aged-cheddar", "tostada-rounds", "pickled-okra", "apples", "cornichons"]
 avoid_with: ["delicate-fresh-cheese", "smoked-gouda"]
 faq: "[{"question": "Why are there two different andouilles?", "answer": "Louisiana andouille descends from the French one via Acadian settlers, but changed completely — losing the offal and gaining smoke, garlic and cayenne."}, {"question": "Is French andouille made from intestines?", "answer": "Yes — layered pork tripe and chitterlings. That's the traditional product and it's why it's pungent."}, {"question": "Do I cook Louisiana andouille?", "answer": "It's fully smoked and safe to eat, but it's much better seared. Cold, it's rubbery."}, {"question": "How much per person?", "answer": "1–1.5 oz."}, {"question": "What's andouillette?", "answer": "A smaller, fresher, even more strongly flavoured French tripe sausage. Not a board item unless you know your crowd very well."}]"
 ---

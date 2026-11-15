@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["spread", "jam", "british", "budget", "year-round"]
-pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "brie", "duck-prosciutto"]
+pairs_with: ["aged-cheddar", "stilton", "fresh-chevre", "brie", "duck-prosciutto", "dark-chocolate"]
 avoid_with: []
 faq: "[{"question": "What cheese goes with marmalade?", "answer": "Aged cheddar above all, plus stilton and blue cheeses, fresh goat cheese, and brie."}, {"question": "Why is marmalade bitter?", "answer": "It's made with the peel and pith, which carry bitter compounds. That bitterness is the point."}, {"question": "Seville or sweet orange marmalade?", "answer": "Seville for a cheese board — it's sharper and more bitter. Sweet orange versions are much milder."}, {"question": "What does thick cut mean?", "answer": "How coarsely the peel is shredded. Thick cut gives more texture and more bitterness."}, {"question": "How much per person?", "answer": "About half an ounce. It's assertive, so people use less of it than fig jam."}]"
 ---

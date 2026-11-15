@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "french", "duck", "specialty"]
-pairs_with: ["bresaola", "bundnerfleisch", "comte", "fruit-and-nut-crisps", "brie", "dried-cherries", "cherry-preserves"]
+pairs_with: ["bresaola", "bundnerfleisch", "comte", "fruit-and-nut-crisps", "brie", "dried-cherries", "cherry-preserves", "fig-jam", "triple-creme", "pomegranate", "pistachios", "walnuts"]
 avoid_with: ["smoked-cheese", "everything-crackers"]
 faq: "[{"question": "Is it actually prosciutto?", "answer": "No — the name is borrowed. It's cured duck breast, called magret séché in France."}, {"question": "Can I make it at home?", "answer": "Yes, and it's the standard first project for home curing. Salt for 24 hours, rinse, season, hang for one to three weeks until it loses about 30% of its weight."}, {"question": "Is it cooked?", "answer": "No, cured — salt and drying, like prosciutto."}, {"question": "How much per person?", "answer": "Three-quarters of an ounce to an ounce. It's rich and expensive."}, {"question": "What's the best pairing?", "answer": "Fig jam or cherry preserve. Duck and dark fruit, as always."}]"
 ---

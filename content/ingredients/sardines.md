@@ -13,7 +13,7 @@ serving_per_person: "2–3 fillets"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["seafood", "tinned", "conservas", "budget luxury"]
-pairs_with: ["anchovies", "smoked-trout", "bottarga", "saltines", "olive-oil-crackers"]
+pairs_with: ["anchovies", "smoked-trout", "bottarga", "saltines", "olive-oil-crackers", "cornichons"]
 avoid_with: ["delicate-fresh-cheese", "blue-cheese"]
 faq: "[{"question": "Do you eat the bones?", "answer": "Yes — they're soft, edible and full of calcium. Skinless-boneless tins exist if you'd rather not."}, {"question": "Why do people age tinned sardines?", "answer": "The oil slowly permeates the flesh, softening texture and marrying flavours. Premium Portuguese tins are dated and laid down like wine."}, {"question": "What crackers go with them?", "answer": "Saltines. It's the traditional and still the best answer — cheap, dry and neutral."}, {"question": "How much per person?", "answer": "Two to three fillets, or roughly a tin per three people."}, {"question": "Olive oil or water packed?", "answer": "Olive oil, for a board. Water-packed is a cooking product."}]"
 ---

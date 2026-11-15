@@ -13,7 +13,7 @@ serving_per_person: "1.5 oz"
 prep_time: "5 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "american", "budget", "crowd-pleaser", "mild", "beginner"]
-pairs_with: ["hard-salami", "summer-sausage", "apples", "grapes", "butter-crackers", "pepper-jelly"]
+pairs_with: ["hard-salami", "summer-sausage", "apples", "grapes", "butter-crackers", "pepper-jelly", "pickled-jalapenos"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What is Colby Jack cheese?", "answer": "Colby and Monterey Jack curds pressed together into one block. The orange comes from Colby, which is colored with annatto, and the white is Jack."}, {"question": "Is Colby Jack a real cheese or processed?", "answer": "It's a real natural cheese. Look for 'Colby Jack cheese' on the label, not 'cheese product' or 'pasteurized process cheese.'"}, {"question": "How do you cut Colby Jack for a board?", "answer": "Cubes about three quarters of an inch, cut cold. It's soft, so a sharp knife wiped between cuts keeps the edges clean."}, {"question": "What does Colby Jack go with?", "answer": "Salami, summer sausage, apples, grapes and butter crackers. Pepper jelly turns it into a sweet-hot party bite."}, {"question": "Is Colby Jack good for kids' boards?", "answer": "It's one of the best. Mild, soft and colorful, it's the cheese most kids already know."}]"
 ---

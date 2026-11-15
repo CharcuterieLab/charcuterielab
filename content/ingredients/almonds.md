@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "budget", "beginner", "year-round"]
-pairs_with: ["manchego", "aged-cheddar", "dried-apricots", "grapes", "prosciutto-di-parma"]
+pairs_with: ["manchego", "aged-cheddar", "dried-apricots", "grapes", "prosciutto-di-parma", "honey"]
 avoid_with: []
 faq: "[{"question": "Raw or roasted almonds for a charcuterie board?", "answer": "Roasted and salted. Raw almonds are chalky and add nothing."}, {"question": "Are marcona almonds better?", "answer": "Softer, sweeter and richer — a real upgrade, at roughly twice the price. Regular almonds are still the reliable default."}, {"question": "How much per person?", "answer": "About an ounce, which is roughly 20 almonds."}, {"question": "Should I toast almonds myself?", "answer": "Only if you bought raw. 350°F for ten minutes, salted while warm."}, {"question": "What cheese goes with almonds?", "answer": "Manchego above all, plus aged cheddar, blue cheese, and aged gouda."}]"
 ---

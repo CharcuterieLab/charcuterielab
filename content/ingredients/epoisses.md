@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "60 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "washed-rind", "pungent"]
-pairs_with: ["taleggio", "langres", "reblochon", "baguette", "limburger", "pont-leveque", "red-hawk"]
+pairs_with: ["taleggio", "langres", "reblochon", "baguette", "limburger", "pont-leveque", "red-hawk", "cornichons", "walnuts", "honey"]
 avoid_with: ["delicate-fresh-cheese", "aged-hard-cheese"]
 faq: "[{"question": "Is Époisses really banned on French public transport?", "answer": "It's widely repeated and not actually a law. It is, however, a cheese that would justify one."}, {"question": "How strong is it?", "answer": "The aroma is among the strongest of any cheese. The taste is much milder than the smell — rich, meaty and faintly sweet."}, {"question": "Can you eat the rind?", "answer": "Yes, though most people spoon the paste out and leave it."}, {"question": "How do I serve it?", "answer": "In its box, top cut off, with a spoon and plain bread."}, {"question": "How much per person?", "answer": "About 1 oz. One small round serves four to six."}]"
 ---

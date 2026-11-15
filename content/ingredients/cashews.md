@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "0 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "fusion", "crowd-pleaser", "year-round"]
-pairs_with: ["dried-mango", "coppa", "aged-gouda", "brie", "fresh-chevre"]
+pairs_with: ["dried-mango", "coppa", "aged-gouda", "brie", "fresh-chevre", "soppressata"]
 avoid_with: []
 faq: "[{"question": "Are cashews good on a charcuterie board?", "answer": "They're a crowd-pleaser but a weak contrast — soft, sweet, and low in bitterness. Best on fusion boards and beside spicy meats."}, {"question": "Why are cashews always sold roasted?", "answer": "The shell contains a caustic oil related to poison ivy, so they're always heat- processed. Even \"raw\" cashews have been steamed."}, {"question": "What goes with cashews?", "answer": "Spicy cured meats, dried mango, aged gouda, and fresh goat cheese."}, {"question": "Whole or pieces?", "answer": "Whole. Pieces are broken, stale faster, and look like a baking ingredient."}, {"question": "How much per person?", "answer": "About an ounce. People eat more cashews than any other nut."}]"
 ---

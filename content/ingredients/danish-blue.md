@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "danish", "budget"]
-pairs_with: ["gorgonzola", "stilton", "cambozola", "rye-crispbread"]
+pairs_with: ["gorgonzola", "stilton", "cambozola", "rye-crispbread", "honey", "apples", "pears", "walnuts", "fig-jam"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Is Danish Blue a good cheese board blue?", "answer": "Yes, as the budget option. It's sharp and direct rather than complex, and it needs honey beside it — but it does the job."}, {"question": "Why is it so white?", "answer": "The milk is homogenized, which breaks up the fat and lightens the paste. It also speeds up flavor development."}, {"question": "Danish Blue or Gorgonzola?", "answer": "Gorgonzola dolce is gentler and creamier. Danish Blue is sharper and cheaper. For a nervous crowd, Gorgonzola."}, {"question": "What's Saint Agur?", "answer": "A French creamy blue, mild and widely liked. A good step up from Danish Blue for a small premium."}, {"question": "How much per person?", "answer": "Under an ounce."}]"
 ---

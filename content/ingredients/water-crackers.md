@@ -14,7 +14,7 @@ serving_per_person: "4–6 crackers"
 prep_time: "2 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "neutral base", "budget", "beginner"]
-pairs_with: ["butter-crackers", "saltines", "crostini", "brie", "camembert", "triple-creme", "burrata", "charcoal-crackers", "smoked-salmon", "prosciutto-di-parma", "fig-jam", "chili-oil"]
+pairs_with: ["butter-crackers", "saltines", "crostini", "brie", "camembert", "triple-creme", "burrata", "charcoal-crackers", "smoked-salmon", "prosciutto-di-parma", "fig-jam", "chili-oil", "gorgonzola", "stilton", "caviar", "honey"]
 pairs_with_planned: ["goat-cheese", "blue-cheese", "smoked-salmon", "fig-jam"]
 avoid_with: ["thick-dips", "wet-marinated-toppings"]
 image_alt: "Thin round water crackers fanned in a curve beside a wedge of brie and a spoon of fig jam"

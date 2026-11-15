@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "french", "intense"]
-pairs_with: ["stilton", "gorgonzola", "bleu-dauvergne", "walnut-raisin-bread", "cabrales", "prunes"]
+pairs_with: ["stilton", "gorgonzola", "bleu-dauvergne", "walnut-raisin-bread", "cabrales", "prunes", "honey", "figs"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Is Roquefort stronger than Stilton?", "answer": "Yes, considerably. Sheep's milk and heavy salting make it roughly twice as intense."}, {"question": "Why is it wrapped in foil?", "answer": "Roquefort has no rind, and foil keeps it from drying while allowing some breathing. Store it that way at home too."}, {"question": "What wine goes with Roquefort?", "answer": "Sauternes. The sweet-against-salt pairing is one of the most famous in food, and it works."}, {"question": "How much per person?", "answer": "Under an ounce. Less than any other cheese on a board."}, {"question": "Is it made from sheep's milk?", "answer": "Yes, always — raw Lacaune sheep's milk, by regulation."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "goat", "aged"]
-pairs_with: ["fresh-chevre", "humboldt-fog", "sainte-maure", "seeded-crackers", "nicoise-olives"]
+pairs_with: ["fresh-chevre", "humboldt-fog", "sainte-maure", "seeded-crackers", "nicoise-olives", "honey", "cherry-preserves", "fig-jam", "pistachios", "walnuts", "fresh-thyme"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "Why is the middle chalky and the outside runny?", "answer": "The bloomy rind ripens the cheese from the outside inward. In a log this thick, the center hasn't broken down yet — and that contrast is the point."}, {"question": "Is the chalky part underripe?", "answer": "No. It's characteristic of the style and it's supposed to be there."}, {"question": "How do I slice it cleanly?", "answer": "Dental floss or thin wire. A knife drags the soft ring into the core."}, {"question": "Can you eat the rind?", "answer": "Yes. It's thin and mild."}, {"question": "How much per person?", "answer": "1–1.5 oz."}]"
 ---

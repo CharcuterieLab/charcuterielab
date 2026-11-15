@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "aged", "italian", "value"]
-pairs_with: ["parmigiano-reggiano", "asiago", "grissini", "taralli", "mortadella", "prosciutto-di-parma", "mostarda"]
+pairs_with: ["parmigiano-reggiano", "asiago", "grissini", "taralli", "mortadella", "prosciutto-di-parma", "mostarda", "apples", "pears", "honey", "walnuts"]
 avoid_with: ["parmesan-crisps"]
 faq: "[{"question": "Grana Padano or Parmigiano-Reggiano?", "answer": "Parmigiano for a showpiece, Grana Padano for volume. Grana is milder, softer and about half the price."}, {"question": "Why is it cheaper?", "answer": "A larger production zone, partially skimmed milk, permitted preservative, and a shorter minimum age."}, {"question": "Is it a lesser cheese?", "answer": "Different rather than lesser — but side by side with Parmigiano it will read as the milder one. Don't serve both unless comparison is the point."}, {"question": "How do I cut it?", "answer": "Break it into shards with a short parmesan knife, same as Parmigiano."}, {"question": "How much per person?", "answer": "About 1 oz."}]"
 ---

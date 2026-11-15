@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "0 minutes"
 allergens: []
 tags: ["fruit", "dried", "budget", "beginner", "holiday"]
-pairs_with: ["aged-cheddar", "fresh-chevre", "brie", "stilton", "pecans"]
+pairs_with: ["aged-cheddar", "fresh-chevre", "brie", "stilton", "pecans", "walnuts"]
 avoid_with: []
 faq: "[{"question": "Are dried cranberries always sweetened?", "answer": "Almost always — raw cranberries are too sour to dry palatably. Apple-juice- sweetened versions are the tartest widely available option."}, {"question": "What's the difference between Craisins and dried cranberries?", "answer": "Craisins is Ocean Spray's brand name for sweetened dried cranberries. Same thing."}, {"question": "How do I use them on a board?", "answer": "Scatter them across gaps for colour, or roll a goat cheese log in them with chopped nuts."}, {"question": "What cheese goes with dried cranberries?", "answer": "Aged cheddar, brie, stilton, and fresh goat cheese."}, {"question": "How much per person?", "answer": "About half an ounce — they're a scatter, not a serving."}]"
 ---

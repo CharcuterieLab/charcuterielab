@@ -13,7 +13,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "15 min to temper"
 allergens: []
 tags: ["cured meat", "swiss", "beef", "alpine"]
-pairs_with: ["bresaola", "duck-prosciutto", "gruyere", "emmental", "rye-crispbread"]
+pairs_with: ["bresaola", "duck-prosciutto", "gruyere", "emmental", "rye-crispbread", "cornichons", "olive-oil", "apples", "pears"]
 avoid_with: ["smoked-cheese", "blue-cheese"]
 faq: "[{"question": "How is it different from bresaola?", "answer": "Bündnerfleisch is Swiss, drier, more concentrated and pressed into a rectangle. Bresaola is Italian, softer and rounder. Same idea, different climate."}, {"question": "Why is it rectangular?", "answer": "It's pressed repeatedly during drying, which flattens the muscle and drives moisture out evenly."}, {"question": "Does it need dressing?", "answer": "It benefits from olive oil and pepper, like bresaola. Lean cured beef has no fat of its own."}, {"question": "How much per person?", "answer": "Three-quarters of an ounce to an ounce. It's dense and intense."}, {"question": "Why does it curl so fast?", "answer": "Almost no fat to protect the cut surface. Slice it late and serve it quickly."}]"
 ---

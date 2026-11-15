@@ -14,7 +14,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "pork belly", "rich"]
-pairs_with: ["guanciale", "lardo", "olive-oil-crackers", "pecorino-romano", "ciabatta"]
+pairs_with: ["guanciale", "lardo", "olive-oil-crackers", "pecorino-romano", "ciabatta", "cornichons", "cracked-black-pepper", "figs", "melon", "marinated-artichokes"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is pancetta just Italian bacon?", "answer": "Same cut, different cure. Bacon is smoked; pancetta is salt-cured and air-dried with spices."}, {"question": "Can I eat pancetta raw?", "answer": "Properly aged arrotolata pancetta, yes — it's a dry cure. Flat tesa pancetta is meant to be cooked."}, {"question": "Rolled or flat?", "answer": "Rolled for a board, flat for the pan."}, {"question": "How much per person?", "answer": "Three-quarters of an ounce to an ounce. It's about half fat."}, {"question": "What cuts the richness?", "answer": "Vinegar — cornichons, pickled onions — and high-acid wine."}]"
 ---

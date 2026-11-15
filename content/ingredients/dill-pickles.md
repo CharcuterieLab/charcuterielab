@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["pickles", "american", "budget", "beginner", "year-round"]
-pairs_with: ["aged-cheddar", "pastrami", "kielbasa", "pretzel-crisps", "smoked-gouda"]
+pairs_with: ["aged-cheddar", "pastrami", "kielbasa", "pretzel-crisps", "smoked-gouda", "pimento-cheese"]
 avoid_with: []
 faq: "[{"question": "What pickles go on a charcuterie board?", "answer": "Dill pickle spears or coins for a heavier American or deli board; cornichons for a French board with pâté."}, {"question": "Why refrigerated instead of shelf-stable?", "answer": "Shelf-stable pickles are heat-processed, which softens them. Crunch is what a pickle is doing on a board."}, {"question": "What's a half-sour pickle?", "answer": "A lightly fermented pickle — still bright green, very crunchy, less sour than a full dill. Excellent on a board."}, {"question": "What cheese goes with dill pickles?", "answer": "Aged cheddar above all, plus smoked gouda and pimento cheese."}, {"question": "Should pickles be served cold?", "answer": "Yes. Unlike olives, they're better straight from the fridge."}]"
 ---

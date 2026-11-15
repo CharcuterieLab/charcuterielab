@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "summer", "seasonal"]
-pairs_with: ["prosciutto-di-parma", "burrata", "fresh-chevre", "fresh-mozzarella", "almonds"]
+pairs_with: ["prosciutto-di-parma", "burrata", "fresh-chevre", "fresh-mozzarella", "almonds", "marcona-almonds"]
 avoid_with: []
 faq: "[{"question": "Freestone or clingstone?", "answer": "Freestone. The pit comes out cleanly and you get proper crescents."}, {"question": "Do I peel peaches for a board?", "answer": "No — the skin holds the slice together and provides all the colour."}, {"question": "How do I stop them browning?", "answer": "Brush with lemon juice and cut them right before serving. They brown faster than apples."}, {"question": "What if peaches aren't in season?", "answer": "Grill or broil them cut-side down for a few minutes, or use dried apricots instead."}, {"question": "Peaches or nectarines?", "answer": "Nectarines are firmer and hold up better on a board that sits out. Peaches are juicier. Both work."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "goat", "loire"]
-pairs_with: ["valencay", "sainte-maure", "fresh-chevre", "crostini"]
+pairs_with: ["valencay", "sainte-maure", "fresh-chevre", "crostini", "honey", "walnuts", "fresh-thyme", "cherry-preserves", "fig-jam"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "What does *crottin* mean?", "answer": "Dung — a description of the small dark shape of an aged one. French cheese naming is not always flattering."}, {"question": "Which age should I buy?", "answer": "Demi-sec for a board, young for grilling, sec if you want intensity."}, {"question": "What is *chèvre chaud*?", "answer": "Grilled goat cheese on toast, usually served over dressed salad. Halve a crottin, put it on crostini, broil three minutes."}, {"question": "Can you eat the rind?", "answer": "Yes, at every age."}, {"question": "How much per person?", "answer": "About 1 oz — roughly one crottin per two people."}]"
 ---

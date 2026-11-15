@@ -13,7 +13,7 @@ serving_per_person: "a pinch"
 prep_time: "0 minutes"
 allergens: []
 tags: ["finishing", "spice", "spicy", "budget", "year-round"]
-pairs_with: ["burrata", "whipped-feta", "hummus", "honey", "fresh-chevre"]
+pairs_with: ["burrata", "whipped-feta", "hummus", "honey", "fresh-chevre", "olive-oil"]
 avoid_with: []
 faq: "[{"question": "What is Aleppo pepper?", "answer": "A mild, fruity Middle Eastern chilli flake, burgundy in colour and slightly oily. The best default finishing flake for a cheese board."}, {"question": "How is it different from crushed red pepper?", "answer": "Crushed red pepper is hotter, sharper and mostly seeds. Aleppo is milder with much more flavour."}, {"question": "Can I make hot honey with chilli flakes?", "answer": "Yes. Stir a teaspoon into a small pot of honey and let it sit for twenty minutes."}, {"question": "What do I sprinkle them on?", "answer": "Burrata, whipped feta, hummus, fresh goat cheese, and olive oil."}, {"question": "Do chilli flakes go stale?", "answer": "They fade within about a year. Buy small quantities from a shop with turnover."}]"
 ---

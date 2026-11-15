@@ -13,7 +13,7 @@ serving_per_person: "1–2 papadums"
 prep_time: "5 minutes"
 allergens: []
 tags: ["indian", "gluten-free", "fusion", "dramatic"]
-pairs_with: ["chickpea-crackers", "prawn-crackers", "mini-naan", "brie", "burrata", "fresh-chevre"]
+pairs_with: ["chickpea-crackers", "prawn-crackers", "mini-naan", "brie", "burrata", "fresh-chevre", "mango-chutney", "labneh", "whipped-feta"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are papadums gluten-free?", "answer": "Usually — most are lentil or chickpea flour. Check the label, as a few blends contain wheat."}, {"question": "Can I cook them in the microwave?", "answer": "Yes, and it's the easiest method. 30–45 seconds on a plate, one at a time, no oil."}, {"question": "How many per person?", "answer": "1–2, broken into shards."}, {"question": "How far ahead can I cook them?", "answer": "Twenty minutes at most. They soften. Cook in batches during the party instead."}, {"question": "What do I serve with them on a cheese board?", "answer": "Mango chutney and whipped feta or goat cheese. That's the bridge between an Indian ingredient and a European board."}]"
 ---

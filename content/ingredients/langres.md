@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "60 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "washed-rind", "showpiece"]
-pairs_with: ["epoisses", "reblochon", "taleggio", "baguette"]
+pairs_with: ["epoisses", "reblochon", "taleggio", "baguette", "cornichons", "walnuts", "honey"]
 avoid_with: ["delicate-fresh-cheese", "aged-hard-cheese"]
 faq: "[{"question": "Do you really pour champagne into it?", "answer": "Yes. It's the traditional service — a splash in the well twenty minutes before serving, left to soak in."}, {"question": "Why does it have a hollow in the top?", "answer": "It's never turned during ripening, so the paste settles and the surface sinks. Most cheeses are flipped; this one isn't."}, {"question": "How strong is it?", "answer": "Moderately — noticeably milder than Époisses, stronger than Taleggio."}, {"question": "Can you eat the rind?", "answer": "Yes, though many people trim it."}, {"question": "How much per person?", "answer": "About 1 oz. One small cheese serves four to six."}]"
 ---

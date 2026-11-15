@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "american", "washed-rind", "californian"]
-pairs_with: ["epoisses", "taleggio", "reblochon", "baguette"]
+pairs_with: ["epoisses", "taleggio", "reblochon", "baguette", "cornichons", "almonds", "walnuts", "honey", "apples", "pears"]
 avoid_with: ["delicate-fresh-cheese", "aged-hard-cheese"]
 faq: "[{"question": "What is Red Hawk?", "answer": "A washed-rind triple-crème cheese from Cowgirl Creamery in Point Reyes, California. Rich, beefy and moderately pungent."}, {"question": "How strong is it?", "answer": "Between Taleggio and Époisses. Aromatic, but the added cream softens the funk considerably."}, {"question": "Can you eat the rind?", "answer": "Yes, and it carries most of the flavor."}, {"question": "What else should be on an American cheese board?", "answer": "Humboldt Fog, Maytag Blue or Rogue Creamery blue, Cabot Clothbound cheddar, and Vella Dry Jack."}, {"question": "How much per person?", "answer": "About 1 oz. One small round serves four to six."}]"
 ---

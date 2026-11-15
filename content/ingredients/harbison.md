@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "1 hour to temper"
 allergens: ["dairy"]
 tags: ["cheese", "american", "unique", "showpiece", "soft"]
-pairs_with: ["baguette", "mostarda", "honey", "pears", "walnuts"]
+pairs_with: ["baguette", "mostarda", "honey", "pears", "walnuts", "apples"]
 avoid_with: ["blue-cheese", "strong-cured-meat"]
 faq: "[{"question": "Do you eat the bark on Harbison?", "answer": "No. The spruce bark holds the cheese together and flavors it, but you scoop the paste out and leave the bark behind."}, {"question": "How do you serve Harbison?", "answer": "Let it sit out for about an hour, slice off the top rind like a lid, and set out spoons. The inside should be soft enough to scoop."}, {"question": "What does Harbison taste like?", "answer": "Sweet cream and mushroom first, then a woodsy, resinous note from the bark and a little mustard at the finish."}, {"question": "How much do I need?", "answer": "One 9 oz wheel serves 8 to 10 people as part of a board."}, {"question": "Is the blue-green mold on the bark safe?", "answer": "Yes. Jasper Hill says the mottling on the bark is a harmless mold they leave on purpose."}]"
 ---

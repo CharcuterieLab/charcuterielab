@@ -13,7 +13,7 @@ serving_per_person: "3–4 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten", "sesame"]
 tags: ["crackers", "texture", "artisan", "crowd-pleaser"]
-pairs_with: ["whole-wheat-crackers", "water-crackers", "rye-crispbread", "brie", "fresh-chevre", "feta", "flaxseed-crackers", "smoked-salmon"]
+pairs_with: ["whole-wheat-crackers", "water-crackers", "rye-crispbread", "brie", "fresh-chevre", "feta", "flaxseed-crackers", "smoked-salmon", "honey", "aged-gouda", "hummus", "whipped-feta", "fig-jam"]
 avoid_with: ["caviar", "delicate-bloomy-cheese"]
 image_alt: "Seeded multigrain crackers studded with sesame and flax beside soft goat cheese and honey"
 faq: "[{"question": "Are seeded crackers gluten-free?", "answer": "Some are — Mary's Gone Crackers, Crunchmaster and Simple Mills are. Most others are wheat-based. Check the box."}, {"question": "How many do I need?", "answer": "3–4 per person. They're larger and heavier than a water cracker."}, {"question": "Do they go stale faster?", "answer": "They go rancid faster, which tastes different from stale — flat and slightly sharp. Buy small boxes and store them airtight."}, {"question": "Which seeded cracker is best for a beginner board?", "answer": "Milton's Original Multi-Grain. It's mild enough to work with almost anything and easy to find."}]"

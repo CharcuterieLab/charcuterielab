@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "french", "value"]
-pairs_with: ["roquefort", "stilton", "gorgonzola", "walnut-raisin-bread", "maytag-blue"]
+pairs_with: ["roquefort", "stilton", "gorgonzola", "walnut-raisin-bread", "maytag-blue", "honey", "apples", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Bleu d'Auvergne or Roquefort?", "answer": "Bleu d'Auvergne is cow's milk, gentler, creamier and about a third of the price. Roquefort is sheep's milk and much more intense. For a general board, Auvergne."}, {"question": "What's Fourme d'Ambert?", "answer": "The other Auvergne blue — a tall cylinder, milder and creamier. Also excellent and worth trying."}, {"question": "Is it good for cooking?", "answer": "It's the best blue for melting — into sauces, dressings and onto steak. That's what most French cooks use it for."}, {"question": "How much per person?", "answer": "About 1 oz."}, {"question": "Can you eat the rind?", "answer": "It's thin and natural. Edible, though most people trim it."}]"
 ---

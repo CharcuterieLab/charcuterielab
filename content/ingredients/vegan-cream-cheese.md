@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "15 minutes"
 allergens: ["tree nuts"]
 tags: ["cheese", "plant-based", "vegan", "spread"]
-pairs_with: ["cashew-cheese", "almond-ricotta", "cream-cheese", "everything-crackers"]
+pairs_with: ["cashew-cheese", "almond-ricotta", "cream-cheese", "everything-crackers", "bagel-chips", "pepper-jelly", "capers"]
 avoid_with: ["dairy-cheese-comparisons"]
 faq: "[{"question": "Which vegan cream cheese is best?", "answer": "Miyoko's for cultured cashew richness, Kite Hill for wide availability and a lighter almond base."}, {"question": "Is it nut-free?", "answer": "Usually not — most are cashew or almond based. Oat-based versions exist and are the nut-free option."}, {"question": "Does it taste like dairy cream cheese?", "answer": "The cultured ones come close, especially once seasoned. Uncultured ones don't."}, {"question": "How do I make it better?", "answer": "Whip it, then season — chives, lemon zest, pepper, or hot pepper jelly poured over. The same treatment you'd give dairy."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

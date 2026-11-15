@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: ["fish"]
 tags: ["dip", "french", "provencal", "savoury", "mediterranean"]
-pairs_with: ["fresh-chevre", "baguette", "burrata", "roasted-red-peppers", "manchego"]
+pairs_with: ["fresh-chevre", "baguette", "burrata", "roasted-red-peppers", "manchego", "crostini"]
 avoid_with: []
 faq: "[{"question": "What is tapenade?", "answer": "A Provençal paste of olives, capers, anchovy and olive oil, served on bread or with fresh cheese."}, {"question": "Is tapenade vegetarian?", "answer": "Usually not — traditional tapenade contains anchovy. Anchovy-free versions exist and are labelled as such."}, {"question": "What cheese goes with tapenade?", "answer": "Fresh goat cheese above all, plus burrata and hard sheep cheeses like manchego."}, {"question": "Why is it called tapenade if it's mostly olives?", "answer": "The name comes from *tapeno*, the Provençal word for caper."}, {"question": "How much per person?", "answer": "About half an ounce. It's very salty and a little goes far."}]"
 ---

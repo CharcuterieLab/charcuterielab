@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "american", "french", "semi-soft"]
-pairs_with: ["havarti", "monterey-jack", "epoisses", "cocktail-rye", "limburger"]
+pairs_with: ["havarti", "monterey-jack", "epoisses", "cocktail-rye", "limburger", "pumpernickel", "apples", "grapes"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are American Muenster and French Munster the same cheese?", "answer": "No, and they're not related in any meaningful way. Same borrowed name, completely different cheeses."}, {"question": "Why is American Muenster orange on the outside?", "answer": "Annatto dusted on the surface. It's decorative and adds no flavor."}, {"question": "How strong is French Munster?", "answer": "Very. It's one of the most pungent washed-rind cheeses in wide production. The taste is milder than the smell, but not by as much as Taleggio's."}, {"question": "What do I serve with French Munster?", "answer": "Caraway or cumin seeds, dark bread, boiled potatoes, and Gewürztraminer."}, {"question": "How much per person?", "answer": "1–2 oz American, about 1 oz French."}]"
 ---

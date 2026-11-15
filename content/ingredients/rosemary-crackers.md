@@ -13,7 +13,7 @@ serving_per_person: "3–4 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "herb", "artisan", "mediterranean"]
-pairs_with: ["olive-oil-crackers", "water-crackers", "seeded-crackers", "brie", "camembert", "fresh-chevre", "smoked-salmon"]
+pairs_with: ["olive-oil-crackers", "water-crackers", "seeded-crackers", "brie", "camembert", "fresh-chevre", "smoked-salmon", "honey", "marcona-almonds", "membrillo", "aged-cheddar"]
 avoid_with: ["smoked-fish", "dessert-boards"]
 faq: "[{"question": "What cheese goes with rosemary crackers?", "answer": "Manchego first, then goat cheese with honey, then brie. Anything sheep's-milk is a safe bet."}, {"question": "How many per person?", "answer": "3–4 alongside a neutral cracker."}, {"question": "Why don't mine smell like rosemary?", "answer": "The box is old. Rosemary's aromatic oils fade long before the cracker stales — warm them briefly to bring some back."}, {"question": "Can I make rosemary crackers?", "answer": "Yes. Flour, olive oil, water, salt and chopped fresh rosemary, rolled very thin, 400°F for 10–12 minutes. One of the easiest crackers to make well."}]"
 ---

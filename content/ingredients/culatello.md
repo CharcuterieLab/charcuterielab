@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "luxury", "rare"]
-pairs_with: ["prosciutto-di-parma", "prosciutto-san-daniele", "parmigiano-reggiano", "grissini", "burrata"]
+pairs_with: ["prosciutto-di-parma", "prosciutto-san-daniele", "parmigiano-reggiano", "grissini", "burrata", "figs"]
 avoid_with: ["everything-crackers", "smoked-cheese", "blue-cheese"]
 faq: "[{"question": "Why is culatello so expensive?", "answer": "It uses only the best muscle of the leg, discards the rest of the ham, is hand-sewn into a bladder, and ages for one to three years. Yields are tiny."}, {"question": "How is it different from prosciutto?", "answer": "Prosciutto is the whole bone-in leg dried in ventilated air. Culatello is one boned muscle aged in a damp cellar inside a bladder — sweeter, softer, more complex."}, {"question": "What's culaccia?", "answer": "The same muscle cured without the bladder. Much cheaper, widely available, and close enough that it's the sensible buy for most boards."}, {"question": "How much per person?", "answer": "About 1 oz. Serve it with very little else."}, {"question": "What do I serve with it?", "answer": "Bread and butter. Genuinely. Anything more competes."}]"
 ---

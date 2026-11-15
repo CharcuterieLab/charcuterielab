@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "2 minutes"
 allergens: ["gluten", "egg", "tree nuts"]
 tags: ["finishing", "dessert", "italian", "make-ahead", "crowd-pleaser"]
-pairs_with: ["mascarpone", "dark-chocolate", "gorgonzola", "brandied-cherries", "ricotta"]
+pairs_with: ["mascarpone", "dark-chocolate", "gorgonzola", "brandied-cherries", "ricotta", "honey"]
 avoid_with: []
 faq: "[{"question": "Why is biscotti so hard?", "answer": "It's baked twice to drive out moisture. The hardness is deliberate — it's designed to be dipped."}, {"question": "What do you dip biscotti in?", "answer": "Traditionally vin santo. On a board, mascarpone, fresh ricotta, coffee, or the syrup from brandied cherries."}, {"question": "What's the difference between biscotti and cantucci?", "answer": "Cantucci are the traditional Tuscan almond version, made without butter. Biscotti is the broader term, and modern versions are often softer."}, {"question": "Do they go with cheese?", "answer": "With sweet cheeses like mascarpone and ricotta, yes — and surprisingly well with gorgonzola."}, {"question": "How long do they keep?", "answer": "Weeks in a sealed container. They're designed to be shelf-stable."}]"
 ---

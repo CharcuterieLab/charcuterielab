@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "moroccan", "italian", "intense", "unique"]
-pairs_with: ["pecorino-romano", "manchego", "aged-provolone", "baguette", "fresh-chevre"]
+pairs_with: ["pecorino-romano", "manchego", "aged-provolone", "baguette", "fresh-chevre", "olive-oil"]
 avoid_with: []
 faq: "[{"question": "What are oil-cured olives?", "answer": "Ripe olives cured in dry salt to draw out their water, then coated in oil. Very wrinkled, chewy, and intensely salty."}, {"question": "Why are they so wrinkled?", "answer": "The salt cure removes most of the water, which shrinks the fruit and concentrates the flavour."}, {"question": "Are they too salty?", "answer": "They're the saltiest olive sold. Soak briefly in warm water and dress with olive oil if it's too much."}, {"question": "What cheese goes with oil-cured olives?", "answer": "Hard salty cheeses — pecorino romano, manchego, aged provolone — and fresh goat cheese."}, {"question": "How much per person?", "answer": "About half an ounce. Far less than a brined olive."}]"
 ---

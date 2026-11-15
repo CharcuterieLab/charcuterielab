@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "aged", "value"]
-pairs_with: ["grana-padano", "aged-provolone", "parmigiano-reggiano", "grissini", "soppressata", "prosciutto-di-parma"]
+pairs_with: ["grana-padano", "aged-provolone", "parmigiano-reggiano", "grissini", "soppressata", "prosciutto-di-parma", "taralli", "fig-jam", "honey", "apples", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What's the difference between fresh and aged Asiago?", "answer": "Fresh (Pressato) is soft, mild and springy. Aged (d'Allevo) is hard, sharp and granular. Same DOP, completely different cheeses."}, {"question": "Which one goes on a charcuterie board?", "answer": "The aged one, broken into shards."}, {"question": "Is it like parmesan?", "answer": "Aged Asiago is in the same family — hard, granular, savory — but less complex and cheaper."}, {"question": "Can you eat the rind?", "answer": "No. Trim it."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

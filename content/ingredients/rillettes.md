@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: []
 tags: ["cured meat", "french", "spreadable", "rustic"]
-pairs_with: ["pate-de-campagne", "liverwurst", "melba-toast", "baguette", "whole-grain-mustard", "cornichons"]
+pairs_with: ["pate-de-campagne", "liverwurst", "melba-toast", "baguette", "whole-grain-mustard", "cornichons", "caperberries", "figs"]
 avoid_with: ["smoked-cheese"]
 faq: "[{"question": "What are rillettes?", "answer": "Meat slow-cooked in fat until it shreds, then packed into a pot under a fat seal. Spreadable, rich and rustic."}, {"question": "Rillettes or pâté?", "answer": "Pâté is ground and baked into a sliceable terrine. Rillettes are shredded and potted, and they spread."}, {"question": "Do I eat the white fat on top?", "answer": "Either stir it in or set it aside. Both are normal; stirring it in is richer."}, {"question": "How long do they keep?", "answer": "Sealed under fat, weeks in the fridge. Once broken into, about a week."}, {"question": "How much per person?", "answer": "1–1.5 oz. Very rich."}]"
 ---

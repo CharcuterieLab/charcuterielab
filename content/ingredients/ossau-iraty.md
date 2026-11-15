@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "basque", "sheep"]
-pairs_with: ["manchego", "roncal", "idiazabal", "olive-oil-crackers"]
+pairs_with: ["manchego", "roncal", "idiazabal", "olive-oil-crackers", "marcona-almonds", "walnuts", "pears"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is Ossau-Iraty like Manchego?", "answer": "Same idea — firm sheep's-milk cheese — but softer, butterier and less crumbly. Ossau-Iraty is the gentler of the two."}, {"question": "What's the traditional pairing?", "answer": "Black cherry jam from Itxassou. It's specific, regional, and much better than a generic honey drizzle."}, {"question": "Can you eat the rind?", "answer": "No, trim it."}, {"question": "Is it strong?", "answer": "No. It's one of the most approachable aged cheeses there is."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

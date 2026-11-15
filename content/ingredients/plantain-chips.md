@@ -14,7 +14,7 @@ serving_per_person: "6–8 chips"
 prep_time: "1 minute"
 allergens: []
 tags: ["gluten-free", "grain-free", "latin", "dips"]
-pairs_with: ["cassava-crackers", "tostada-rounds", "root-vegetable-chips", "brie", "fresh-chevre", "queso-fresco", "chorizo"]
+pairs_with: ["cassava-crackers", "tostada-rounds", "root-vegetable-chips", "brie", "fresh-chevre", "queso-fresco", "chorizo", "mango", "pineapple"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are plantain chips gluten-free?", "answer": "Yes — plantain, oil and salt. They're also grain-free, dairy-free and nut-free, which makes them the most allergen-friendly base here."}, {"question": "What's the difference between plantain chips and banana chips?", "answer": "Plantains are a starchy cooking banana, picked green and fried savory. Banana chips are sweet fruit, usually sugared."}, {"question": "How many per person?", "answer": "6–8. People treat them as chips rather than crackers."}, {"question": "Can I make them?", "answer": "Yes — slice green plantains paper-thin on a mandoline, fry at 350°F for two minutes, salt immediately. Much better than any bag."}, {"question": "Are they healthy?", "answer": "They're fried, so they behave like a chip nutritionally. The advantage is the allergen profile, not the calories."}]"
 ---

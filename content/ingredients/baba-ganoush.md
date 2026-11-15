@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "5 minutes"
 allergens: ["sesame"]
 tags: ["dip", "middle-eastern", "vegan", "smoked", "vegetarian"]
-pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "lavash", "pomegranate"]
+pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "lavash", "pomegranate", "whipped-feta"]
 avoid_with: []
 faq: "[{"question": "What is baba ganoush?", "answer": "Charred aubergine blended with tahini, lemon and garlic. Smokier and lighter than hummus."}, {"question": "Is baba ganoush vegan?", "answer": "Traditionally yes. The Levantine variant *mutabbal* often includes yoghurt, so check if it matters."}, {"question": "Why does mine taste bland?", "answer": "Not charred enough. The aubergine skin should be completely blackened and the flesh fully collapsed before you scoop it."}, {"question": "Why is it watery?", "answer": "Aubergine holds a lot of liquid. Drain the scooped flesh in a sieve for ten minutes before blending."}, {"question": "What do you serve it with?", "answer": "Pita chips, warm flatbread, feta, olives, and raw vegetables."}]"
 ---

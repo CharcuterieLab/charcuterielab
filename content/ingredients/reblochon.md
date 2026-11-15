@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "washed-rind", "alpine"]
-pairs_with: ["taleggio", "epoisses", "tomme-de-savoie", "baguette"]
+pairs_with: ["taleggio", "epoisses", "tomme-de-savoie", "baguette", "cornichons", "apples", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why can't I find real Reblochon in America?", "answer": "It's a raw-milk cheese aged under 60 days, which US regulations prohibit for import. Pasteurized versions and Reblochon-style cheeses are what's available."}, {"question": "What does the name mean?", "answer": "Re-blocher — to milk again. Tenant farmers under-milked in front of the landlord's agent and milked again afterwards, using that richer milk for this cheese."}, {"question": "How strong is it?", "answer": "Mild for a washed-rind. Nutty and buttery with a light barnyard note."}, {"question": "Can you eat the rind?", "answer": "Yes, though it's the funkiest part. Some trim it."}, {"question": "What's tartiflette?", "answer": "The regional dish — potatoes, bacon, onion and a halved Reblochon baked until molten. Worth making."}]"
 ---

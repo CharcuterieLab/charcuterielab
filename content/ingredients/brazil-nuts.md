@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "unique", "holiday", "year-round"]
-pairs_with: ["aged-cheddar", "stilton", "medjool-dates", "aged-gouda", "dried-figs"]
+pairs_with: ["aged-cheddar", "stilton", "medjool-dates", "aged-gouda", "dried-figs", "dark-chocolate"]
 avoid_with: []
 faq: "[{"question": "How do I serve Brazil nuts on a board?", "answer": "Shave them thin over hard cheese with a vegetable peeler, or toast and halve them and serve whole."}, {"question": "Do Brazil nuts need toasting?", "answer": "Not strictly, but 8 minutes at 350°F with salt makes a real difference — raw ones are waxy and flat."}, {"question": "Is it true you shouldn't eat too many?", "answer": "They're extremely high in selenium. A couple a day is a full dose; a large handful daily over time is more than recommended. On a board it's a non-issue."}, {"question": "What cheese goes with Brazil nuts?", "answer": "Aged cheddar, aged gouda, and blue cheeses like stilton."}, {"question": "How do I store them?", "answer": "In the fridge or freezer. High oil content means they go rancid quickly."}]"
 ---

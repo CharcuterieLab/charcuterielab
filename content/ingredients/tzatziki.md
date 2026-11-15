@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "15 minutes"
 allergens: ["dairy"]
 tags: ["dip", "greek", "vegetarian", "budget", "summer"]
-pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "pepperoncini", "lavash"]
+pairs_with: ["pita-chips", "feta", "mixed-marinated-olives", "pepperoncini", "lavash", "hot-honey"]
 avoid_with: []
 faq: "[{"question": "How do I stop tzatziki being watery?", "answer": "Grate the cucumber, salt it, let it sit ten minutes, then wring it out hard in a towel before mixing."}, {"question": "What yoghurt should I use?", "answer": "Full-fat Greek yoghurt. Low-fat versions make it thin and sour."}, {"question": "What do you serve tzatziki with on a board?", "answer": "Pita chips, flatbread, raw vegetables, feta and olives."}, {"question": "Can I make it ahead?", "answer": "Yes, and it's better after an hour. Note that the garlic gets stronger overnight, so go light if you're making it a day early."}, {"question": "Is tzatziki the same as raita?", "answer": "They're related — both are yoghurt-and-cucumber — but raita uses Indian spicing and is usually thinner."}]"
 ---

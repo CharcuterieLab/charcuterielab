@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
 allergens: ["dairy", "eggs"]
 tags: ["cured meat", "french", "pate", "rustic"]
-pairs_with: ["rillettes", "liverwurst", "melba-toast", "melba-toast", "baguette", "whole-grain-mustard", "dijon-mustard", "cornichons"]
+pairs_with: ["rillettes", "liverwurst", "melba-toast", "baguette", "whole-grain-mustard", "dijon-mustard", "cornichons", "caperberries", "cherry-preserves", "fig-jam"]
 avoid_with: ["smoked-cheese"]
 faq: "[{"question": "Is pâté de campagne the same as liver pâté?", "answer": "It contains liver but isn't dominated by it. Coarse pork is the bulk; liver is maybe a fifth to a third."}, {"question": "Is it cooked?", "answer": "Yes — baked in a terrine mould, then chilled. It's ready to eat."}, {"question": "How is it different from rillettes?", "answer": "Pâté is ground and baked into a sliceable loaf. Rillettes are slow-cooked shredded meat packed in fat, and they spread."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich."}, {"question": "Do I need the cornichons?", "answer": "Effectively yes. Acid is what keeps a fatty liver terrine from feeling heavy."}]"
 ---

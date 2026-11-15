@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "5 minutes"
 allergens: ["tree nuts"]
 tags: ["nuts", "mediterranean", "garnish", "luxury"]
-pairs_with: ["manchego", "golden-raisins", "fresh-chevre", "burrata", "ricotta"]
+pairs_with: ["manchego", "golden-raisins", "fresh-chevre", "burrata", "ricotta", "pesto"]
 avoid_with: []
 faq: "[{"question": "Do I need to toast pine nuts?", "answer": "Yes. Two to three minutes in a dry pan, shaking constantly. They burn faster than any other nut."}, {"question": "Why are pine nuts so expensive?", "answer": "They're extracted from pine cones largely by hand, and the trees take decades to produce."}, {"question": "What is \"pine mouth\"?", "answer": "A lingering metallic taste that some people get days after eating certain Chinese pine nut species. Harmless and temporary. Mediterranean pine nuts don't cause it."}, {"question": "How do I use pine nuts on a board?", "answer": "Toasted and scattered over soft cheese — burrata, ricotta, goat cheese — rather than served loose in a bowl."}, {"question": "How should I store them?", "answer": "In the freezer. They're very high in oil and spoil quickly."}]"
 ---

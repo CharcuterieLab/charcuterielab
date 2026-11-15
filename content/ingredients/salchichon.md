@@ -15,7 +15,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "salami", "peppered"]
-pairs_with: ["chorizo", "fuet", "genoa-salami", "manchego", "olive-oil-crackers"]
+pairs_with: ["chorizo", "fuet", "genoa-salami", "manchego", "olive-oil-crackers", "membrillo", "marcona-almonds", "idiazabal", "mahon"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What is salchichón in English?", "answer": "There's no separate English name. Salchichón comes from salchicha, Spanish for sausage, and in the US it's usually sold as Spanish salami or peppered Spanish salami."}, {"question": "How is salchichón different from chorizo?", "answer": "Chorizo is seasoned with smoked paprika; salchichón with black pepper. Same country, same technique, completely different flavour."}, {"question": "Is it spicy?", "answer": "Peppery rather than hot. The whole peppercorns give sharp bursts, not chili heat."}, {"question": "Salchichón or fuet?", "answer": "Fuet is thinner, milder and softer, with a white mould bloom. Salchichón is wider, drier and more peppery."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Can I eat the casing?", "answer": "Natural casing is edible but chewy. Most people peel it."}]"
 ---

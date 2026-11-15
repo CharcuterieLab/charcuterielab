@@ -13,7 +13,7 @@ serving_per_person: "2–3 pieces"
 prep_time: "3 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "italian", "chewy", "everyday"]
-pairs_with: ["focaccia", "baguette", "olive-oil-crackers", "burrata", "parmigiano-reggiano", "aged-provolone", "mortadella", "smoked-salmon"]
+pairs_with: ["focaccia", "baguette", "olive-oil-crackers", "burrata", "parmigiano-reggiano", "aged-provolone", "mortadella", "smoked-salmon", "olive-oil", "pesto", "tapenade"]
 avoid_with: ["thin-delicate-toppings"]
 faq: "[{"question": "Should I slice or tear ciabatta?", "answer": "Tear it. Torn edges are rough and absorbent; cut edges are flat and sealed."}, {"question": "Why does it have such big holes?", "answer": "Very high hydration. More water in the dough means more steam, and more steam means bigger holes."}, {"question": "How much per person?", "answer": "2–3 torn pieces alongside other bases."}, {"question": "Ciabatta or baguette?", "answer": "Baguette for anything delicate that needs a solid surface. Ciabatta for oil, tomato and anything you want soaked up."}, {"question": "Can I use day-old ciabatta?", "answer": "Yes — it makes excellent crostini and even better panzanella. Just don't serve it plain."}]"
 ---

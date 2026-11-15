@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "english", "mellow", "value"]
-pairs_with: ["aged-cheddar", "cotswold", "wensleydale-cranberry", "cream-crackers"]
+pairs_with: ["aged-cheddar", "cotswold", "wensleydale-cranberry", "cream-crackers", "oatcakes", "apples", "pears", "pecans", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is Red Leicester orange?", "answer": "Annatto. It was originally added because a rich orange paste signaled cheese made from good summer milk; it became standard regardless of the milk."}, {"question": "Is it just orange cheddar?", "answer": "No. It's pressed less firmly, keeps more moisture, and ages mellow and nutty rather than sharp and acidic."}, {"question": "What's the best version?", "answer": "Sparkenhoe — a raw-milk, cloth-bound farmhouse Red Leicester. A different class from the supermarket block."}, {"question": "How much per person?", "answer": "1–2 oz."}, {"question": "What goes with it?", "answer": "Chutney, oatcakes and ale. The Ploughman's plate."}]"
 ---

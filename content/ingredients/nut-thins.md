@@ -13,7 +13,7 @@ serving_per_person: "5–6 crackers"
 prep_time: "1 minute"
 allergens: ["tree nuts"]
 tags: ["gluten-free", "everyday", "budget", "widely available"]
-pairs_with: ["rice-crackers", "almond-flour-crackers", "cassava-crackers", "brie", "camembert", "cream-cheese", "smoked-salmon", "prosciutto-di-parma"]
+pairs_with: ["rice-crackers", "almond-flour-crackers", "cassava-crackers", "brie", "camembert", "cream-cheese", "smoked-salmon", "prosciutto-di-parma", "honey", "fig-jam"]
 avoid_with: ["thick-dips"]
 faq: "[{"question": "Are Nut-Thins actually gluten-free?", "answer": "Yes — rice flour and nut meal, no wheat. They're certified on the box."}, {"question": "Are they nut-free?", "answer": "No, the opposite. They're made with almonds or pecans."}, {"question": "Which flavor for a cheese board?", "answer": "Hint of Sea Salt. It's the most neutral and works with everything."}, {"question": "How many per person?", "answer": "5–6. They're thin and disappear quickly."}, {"question": "Can I dip with them?", "answer": "No — they snap. Use plantain or cassava chips for dips."}]"
 ---

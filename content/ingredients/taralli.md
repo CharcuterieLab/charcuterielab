@@ -13,7 +13,7 @@ serving_per_person: "5–6 rings"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["italian", "aperitivo", "wine snack", "puglia"]
-pairs_with: ["grissini", "olive-oil-crackers", "friselle", "burrata", "stracciatella", "parmigiano-reggiano", "mortadella", "prosciutto-di-parma"]
+pairs_with: ["grissini", "olive-oil-crackers", "friselle", "burrata", "stracciatella", "parmigiano-reggiano", "mortadella", "prosciutto-di-parma", "aged-provolone", "figs", "honey"]
 avoid_with: ["thick-dips"]
 faq: "[{"question": "What are taralli?", "answer": "Small savory rings from Puglia, boiled then baked. Think of them as a cracker-sized bagel made with wine and olive oil."}, {"question": "Do they taste like a pretzel?", "answer": "Not quite. The boil is similar, but taralli use olive oil and wine rather than an alkaline bath, so they taste of fennel and oil rather than malt."}, {"question": "How many per person?", "answer": "5–6. They're small and moreish."}, {"question": "Can I dip with them?", "answer": "No — the ring shape and hardness make them poor scoops. Serve them as a snack."}, {"question": "Do they go stale?", "answer": "Very slowly. The boiling step makes them one of the most shelf-stable things on a board."}]"
 ---

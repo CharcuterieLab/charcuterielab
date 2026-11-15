@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "dutch", "mild", "budget"]
-pairs_with: ["aged-gouda", "mimolette", "havarti", "whole-wheat-crackers", "genoa-salami"]
+pairs_with: ["aged-gouda", "mimolette", "havarti", "whole-wheat-crackers", "genoa-salami", "apples", "pears", "dried-apricots"]
 avoid_with: ["blue-cheese", "pecorino-romano"]
 faq: "[{"question": "Edam or gouda?", "answer": "Gouda is made from whole milk and is richer and sweeter. Edam is partly skimmed and firmer and milder. Aged gouda beats aged Edam for most boards."}, {"question": "Why is it in red wax?", "answer": "Preservation. The wax coating let Edam travel and keep, which made it a staple of shipping and trade for centuries."}, {"question": "Can you eat the wax?", "answer": "No. Remove it completely."}, {"question": "Is aged Edam worth seeking out?", "answer": "Yes — it's salty, nutty and crystalline, and a genuinely different cheese from the young version."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

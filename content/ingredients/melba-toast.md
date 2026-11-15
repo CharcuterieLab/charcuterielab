@@ -13,7 +13,7 @@ serving_per_person: "3–4 pieces"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["toast", "neutral base", "budget", "retro"]
-pairs_with: ["water-crackers", "crostini", "saltines", "brie", "camembert", "pate-de-campagne"]
+pairs_with: ["water-crackers", "crostini", "saltines", "brie", "camembert", "pate-de-campagne", "tapenade", "caviar"]
 avoid_with: ["thick-dips"]
 faq: "[{"question": "What is melba toast actually for?", "answer": "Pâté, mousse and soft rich spreads. It's a neutral, very dry base that lets an expensive topping be the thing you taste."}, {"question": "Melba toast or crostini?", "answer": "Crostini taste better on their own; melba toast disappears more completely. For pâté, melba. For anything with tomato, crostini."}, {"question": "Can I make it at home?", "answer": "Yes. Thin-sliced bread, crusts removed, 300°F for about 20 minutes until dry through."}, {"question": "How many per person?", "answer": "3–4. Put a sturdier base out too, for the dips."}, {"question": "Is it healthier than crackers?", "answer": "Slightly lower in fat, since there's no shortening — but it's still bread. Not a meaningful difference on a cheese board."}]"
 ---

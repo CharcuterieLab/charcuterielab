@@ -251,6 +251,51 @@ function thumb(h, item, art, size = "") {
     : `<span class="pr-thumb${size} pr-thumb-art" style="--t:${a.tint}" role="img" aria-label="${h.escapeHtml(item.title)}">${a.glyph}</span>`;
 }
 
+// "Skip these with X" (15 Nov 2026): avoid_with holds ingredient slugs or
+// group words like "delicate-fresh-cheese" (the board builder's GROUPS). The
+// guides printed the group words raw; now each group reads as words with up to
+// three examples, leaving out anything this food is listed as pairing with
+// (pepperoni's "delicate fresh cheeses other than mozzarella").
+const SKIP_GROUPS = {
+  "delicate-fresh-cheese": ["Delicate fresh cheese", (i) => i.category === "Cheese" && i.roleGroup === "Soft & fresh"],
+  "delicate-bloomy-cheese": ["Delicate bloomy-rind cheese", (i) => i.category === "Cheese" && /brie|camembert|triple|coulommiers/.test(i.slug)],
+  "mild-brie": ["Mild brie", (i) => i.category === "Cheese" && /brie/.test(i.slug)],
+  "blue-cheese": ["Blue cheese", (i) => i.category === "Cheese" && i.roleGroup === "Blue"],
+  "smoked-cheese": ["Smoked cheese", (i) => i.category === "Cheese" && (/smoked/.test(i.slug) || (i.tags || []).includes("smoked"))],
+  "aged-hard-cheese": ["Aged hard cheese", (i) => i.category === "Cheese" && i.roleGroup === "Aged & hard"],
+  "dry-aged-cheese": ["Dry aged cheese", (i) => i.category === "Cheese" && i.roleGroup === "Aged & hard"],
+  "strong-aged-cheese": ["Strong aged cheese", (i) => i.category === "Cheese" && i.roleGroup === "Aged & hard"],
+  "delicate-aged-cheese": ["Delicate aged cheese", (i) => i.category === "Cheese" && i.roleGroup === "Aged & hard"],
+  "cured-meat": ["Cured meat", (i) => i.category === "Cured Meat & Seafood" && i.roleGroup !== "Smoked & tinned fish"],
+  "strong-cured-meat": ["Strong cured meat", (i) => i.category === "Cured Meat & Seafood" && (i.roleGroup === "Salami" || i.roleGroup === "Spreadable")],
+  "smoked-fish": ["Smoked fish", (i) => i.category === "Cured Meat & Seafood" && i.roleGroup === "Smoked & tinned fish"]
+};
+// clear examples first: the "Soft & fresh" role group also holds brie and camembert
+const SKIP_EXAMPLES = {
+  "delicate-fresh-cheese": ["burrata", "ricotta", "fresh-chevre", "fresh-mozzarella", "stracciatella", "mascarpone", "feta"],
+  "delicate-bloomy-cheese": ["brie", "camembert", "triple-creme"],
+  "blue-cheese": ["gorgonzola", "stilton", "roquefort"],
+  "smoked-cheese": ["smoked-gouda", "idiazabal", "smoked-mozzarella"],
+  "cured-meat": ["prosciutto-di-parma", "genoa-salami", "soppressata", "chorizo"],
+  "strong-cured-meat": ["soppressata", "pepperoni", "nduja", "chorizo"],
+  "smoked-fish": ["smoked-salmon", "smoked-trout"],
+  "aged-hard-cheese": ["parmigiano-reggiano", "aged-cheddar", "manchego"]
+};
+function skipList(h, idx, slug, avoid) {
+  const B = (t) => h.escapeHtml(t);
+  const partners = idx.graph.get(slug) || new Set();
+  const items = avoid.map((s) => {
+    if (idx.bySlug.has(s)) return `<li>${pairLink(h, idx, s)}</li>`;
+    const g = SKIP_GROUPS[s];
+    const label = g ? g[0] : s.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase());
+    const ok = (i) => i && i.slug !== slug && !partners.has(i.slug) && g[1](i);
+    const pref = (SKIP_EXAMPLES[s] || SKIP_EXAMPLES[s.replace(/^(dry|strong|delicate)-aged/, "aged-hard")] || []).map((x) => idx.bySlug.get(x)).filter(ok);
+    const eg = g ? [...pref, ...[...idx.bySlug.values()].filter((i) => ok(i) && !pref.includes(i)).sort((a, b) => (idx.foodPage.has(b.slug) ? 1 : 0) - (idx.foodPage.has(a.slug) ? 1 : 0) || a.title.localeCompare(b.title))].slice(0, 3) : [];
+    return `<li><strong>${B(label)}</strong>${eg.length ? `, such as ${eg.map((i) => pairLink(h, idx, i.slug)).join(", ")}` : ""}</li>`;
+  });
+  return `<ul class="pr-skip">${items.join("")}</ul>`;
+}
+
 function photoRow(h, idx, art, slugs, big = false) {
   return `<span class="pr-row${big ? " pr-row-big" : ""}">${slugs.map((s) => thumb(h, idx.bySlug.get(s), art, big ? " pr-thumb-big" : "")).join('<span class="pr-plus" aria-hidden="true">+</span>')}</span>`;
 }
@@ -876,7 +921,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <div class="pr-drink-table-wrap"><table class="pr-drink-table"><thead><tr><th scope="col">Drink</th><th scope="col">Why it works</th></tr></thead><tbody>${drinks.map((x) => `<tr style="--d:${x.d.color}"><th scope="row"><a href="${x.d.url}"><span class="pr-drink-swatch" aria-hidden="true"></span>${B(x.d.name)}</a></th><td>${B(x.why)}</td></tr>`).join("")}</tbody></table></div>
     </section>` : ""}
 
-    ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2><p>${it.avoidWith.map((s) => ingLink(h, idx, s)).join(" · ")}</p></section>` : ""}
+    ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2>${skipList(h, idx, f.slug, it.avoidWith)}</section>` : ""}
 
     ${combos.length ? `<section class="bl-section" aria-labelledby="combo-h"><h2 id="combo-h">Combinations with ${B(it.title)}</h2><ul class="pr-combos">${combos.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul>${combosAll.length > combos.length ? `<p><a class="pr-more" href="/pairings/classics/">See all ${combosAll.length} combinations with ${B(it.title)} &rarr;</a></p>` : ""}</section>` : ""}
     ${(() => { const fam = mcFamilyOf(idx, f.slug); if (!fam) return ""; const isMeat = idx.data.mc.meats.includes(fam); return `<p class="mc-food-link">${isMeat ? `Which cheese goes with ${B(it.title)}?` : `Which cured meat goes with ${B(it.title)}?`} See the <a href="/pairings/meat-and-cheese-chart/${isMeat ? `#mc-${fam.id}` : ""}">meat and cheese pairing chart</a>.</p>`; })()}

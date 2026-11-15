@@ -13,7 +13,7 @@ serving_per_person: "1–2 pieces"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten", "dairy"]
 tags: ["indian", "warm", "soft", "easy"]
-pairs_with: ["papadum", "lavash", "focaccia", "burrata", "fresh-chevre", "feta", "genoa-salami"]
+pairs_with: ["papadum", "lavash", "focaccia", "burrata", "fresh-chevre", "feta", "genoa-salami", "hummus", "whipped-feta", "mango-chutney", "labneh", "olive-oil", "za-atar", "halloumi", "honey"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Do I have to warm mini naan?", "answer": "Yes. It's the difference between a good board item and a dense, gluey one. Two minutes at 400°F."}, {"question": "How many per person?", "answer": "1–2 mini naan, torn into pieces."}, {"question": "Naan or pita for a board?", "answer": "Naan is softer, richer and chewier; pita is drier and pocketed. For a soft warm element, naan."}, {"question": "Can I use garlic naan?", "answer": "On a dip board, yes. On a cheese board, no — the garlic overwhelms the cheese."}, {"question": "Where do I find mini naan?", "answer": "The bakery or deli section of most supermarkets, or the freezer. Stonefire is the most common brand."}]"
 ---

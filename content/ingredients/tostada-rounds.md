@@ -13,7 +13,7 @@ serving_per_person: "2–3 rounds"
 prep_time: "3 minutes"
 allergens: []
 tags: ["gluten-free", "latin", "sturdy", "budget"]
-pairs_with: ["plantain-chips", "cassava-crackers", "root-vegetable-chips", "brie", "burrata", "queso-fresco", "vegetable-bases", "chorizo"]
+pairs_with: ["plantain-chips", "cassava-crackers", "root-vegetable-chips", "brie", "burrata", "queso-fresco", "vegetable-bases", "chorizo", "pickled-red-onions", "aged-cheddar", "manchego"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are tostadas gluten-free?", "answer": "Corn tostadas are. Flour tostadas are not — check the package."}, {"question": "Tostadas or tortilla chips?", "answer": "Tostadas are flat and rigid with a big surface, so you can build on them. Tortilla chips are for scooping. Different jobs."}, {"question": "How many per person?", "answer": "2–3 rounds, broken into quarters — about 8 to 12 pieces."}, {"question": "Should I warm them?", "answer": "Yes. Five minutes at 350°F makes a bigger difference here than on any other base in this tier."}, {"question": "Can I make them from tortillas?", "answer": "Yes, and you should. Quarter them, brush with oil, bake at 400°F for 8–10 minutes."}]"
 ---

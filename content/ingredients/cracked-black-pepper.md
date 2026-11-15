@@ -13,7 +13,7 @@ serving_per_person: "a grind"
 prep_time: "0 minutes"
 allergens: []
 tags: ["finishing", "spice", "budget", "essential", "year-round"]
-pairs_with: ["burrata", "pecorino-romano", "fresh-mozzarella", "berries", "olive-oil"]
+pairs_with: ["burrata", "pecorino-romano", "fresh-mozzarella", "berries", "olive-oil", "figs", "honey"]
 avoid_with: []
 faq: "[{"question": "Why use freshly cracked pepper?", "answer": "The aromatic compounds evaporate within days of grinding. Pre-ground pepper has heat but almost no aroma."}, {"question": "What is Tellicherry pepper?", "answer": "A grade of Indian black pepper picked late, so the berries are larger and more aromatic. The best value upgrade in this category."}, {"question": "What do you put pepper on for a cheese board?", "answer": "Burrata, fresh mozzarella, ricotta, pecorino, and — surprisingly — strawberries and figs."}, {"question": "Coarse or fine?", "answer": "Coarse. Fine pepper disappears into the food; coarse cracks give distinct bursts of aroma and heat."}, {"question": "Is pepper on fruit really good?", "answer": "Yes. Pepper's floral aromatics amplify the fruit's own. Try it on strawberries with a little balsamic."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "semi-soft", "mild"]
-pairs_with: ["havarti", "reblochon", "fontina", "baguette"]
+pairs_with: ["havarti", "reblochon", "fontina", "baguette", "apples", "grapes", "cornichons", "walnuts", "fig-jam", "honey"]
 avoid_with: ["blue-cheese", "pecorino-romano"]
 faq: "[{"question": "Does Port Salut smell?", "answer": "Barely. It's a washed-rind cheese sold young, so it never develops the pungency of Munster or Époisses."}, {"question": "Can you eat the orange rind?", "answer": "It's edible but rubbery and artificially colored. Most people trim it."}, {"question": "Is it a monastery cheese?", "answer": "It began as one, at a Trappist abbey in Brittany in the 1800s. The modern version is made commercially."}, {"question": "Port Salut or Havarti?", "answer": "Similar mildness. Port Salut is more savory and has a more interesting look; Havarti is butterier."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

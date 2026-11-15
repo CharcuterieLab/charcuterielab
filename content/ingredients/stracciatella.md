@@ -14,7 +14,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "fresh", "italian", "spoonable"]
-pairs_with: ["burrata", "fresh-mozzarella", "ricotta", "ciabatta", "prosciutto-di-parma"]
+pairs_with: ["burrata", "fresh-mozzarella", "ricotta", "ciabatta", "prosciutto-di-parma", "olive-oil", "figs", "peaches"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "What's the difference between stracciatella and burrata?", "answer": "Burrata is stracciatella sealed inside a mozzarella pouch. Same filling, minus the skin and the cutting moment."}, {"question": "Isn't stracciatella a soup? Or a gelato?", "answer": "All three exist. Stracciatella alla romana is an egg-drop soup, and stracciatella gelato is chocolate-shredded. Same word, different foods."}, {"question": "How long does it keep?", "answer": "Two to four days. Buy it the day you serve it."}, {"question": "How much per person?", "answer": "1–2 oz. An 8 oz tub serves four to six."}, {"question": "Does it need seasoning?", "answer": "Yes — olive oil, salt and pepper after plating. It's deliberately unsalted."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "1 minute"
 allergens: []
 tags: ["crackers", "american", "budget", "crowd-pleaser", "gluten-free", "vegan"]
-pairs_with: ["french-onion-dip", "ranch-dip", "pimento-cheese", "beef-jerky", "smoked-salmon", "caviar"]
+pairs_with: ["french-onion-dip", "ranch-dip", "pimento-cheese", "beef-jerky", "smoked-salmon", "caviar", "dill-pickles"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What makes kettle chips different from regular chips?", "answer": "They're fried in small batches, so the oil temperature drops when the potatoes go in and the chips cook longer. That makes them thicker, harder and crunchier."}, {"question": "Are potato chips okay on a charcuterie board?", "answer": "Yes. Kettle chips are sturdy enough for thick dips and pair especially well with smoked fish, caviar and onion dip."}, {"question": "Are kettle chips gluten-free?", "answer": "Plain kettle chips are usually potatoes, oil and salt. Flavored ones can contain wheat or malt vinegar, so check the label."}, {"question": "Do potato chips go with caviar?", "answer": "Yes. Salty, crisp, plain kettle chips with a spoon of crème fraîche and caviar is a popular high-low pairing."}, {"question": "How do you keep chips crisp on a board?", "answer": "Add them right before serving, keep them away from wet foods, and refill from the bag rather than piling them all out at once."}]"
 ---

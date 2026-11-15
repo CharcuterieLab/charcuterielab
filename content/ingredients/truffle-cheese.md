@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "flavored", "italian", "showpiece"]
-pairs_with: ["fontina", "aged-gouda", "pecorino-toscano", "crostini", "prosciutto-di-parma"]
+pairs_with: ["fontina", "aged-gouda", "pecorino-toscano", "crostini", "prosciutto-di-parma", "honey", "pears", "walnuts"]
 avoid_with: ["blue-cheese", "smoked-cheese"]
 faq: "[{"question": "Is truffle cheese made with real truffles?", "answer": "Usually a small amount, for the visible flecks — but the aroma almost always comes from 2,4-dithiapentane, a synthetic compound. Check the ingredient list."}, {"question": "Does that make it bad?", "answer": "No. It's a legitimate, widely-liked cheese. It just isn't the same thing as fresh truffle, and it shouldn't cost as if it were."}, {"question": "Which truffle cheese should I buy first?", "answer": "Sottocenere al Tartufo, or Truffle Tremor if you prefer goat cheese."}, {"question": "How much per person?", "answer": "About 1 oz. It's strong."}, {"question": "Why does the aroma fade?", "answer": "The aromatic compounds are volatile. Truffle cheese is one of the few cheeses that's best young."}]"
 ---

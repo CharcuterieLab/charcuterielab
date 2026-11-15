@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "french", "basque", "ham"]
-pairs_with: ["prosciutto-di-parma", "jamon-serrano", "ossau-iraty", "baguette", "comte"]
+pairs_with: ["prosciutto-di-parma", "jamon-serrano", "ossau-iraty", "baguette", "comte", "figs", "melon"]
 avoid_with: ["everything-crackers", "smoked-cheese"]
 faq: "[{"question": "How is Bayonne different from prosciutto?", "answer": "Bayonne is drier and more savoury, with a wider fat cap and often a rub of Espelette pepper. Parma is sweeter and silkier."}, {"question": "Is it smoked?", "answer": "No. Some hams from the region are, but Jambon de Bayonne IGP is air-dried only."}, {"question": "What's the red dust on the rind?", "answer": "Espelette pepper — a mild Basque chili — rubbed on before the final drying."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "What's the regional pairing?", "answer": "Ossau-Iraty cheese and black cherry jam from Itxassou. All three come from the same corner of France."}]"
 ---

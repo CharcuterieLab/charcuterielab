@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "washed-rind", "pungent", "american"]
-pairs_with: ["epoisses", "muenster", "taleggio", "cocktail-rye"]
+pairs_with: ["epoisses", "muenster", "taleggio", "cocktail-rye", "pumpernickel", "cornichons", "apples"]
 avoid_with: ["delicate-fresh-cheese", "aged-hard-cheese"]
 faq: "[{"question": "Why does Limburger smell like feet?", "answer": "Because it shares its bacterium. Brevibacterium linens lives on human skin and produces the same compounds — the connection is literal, not a comparison."}, {"question": "Does it taste as bad as it smells?", "answer": "No. It's mild, beefy and faintly sweet. The gap between aroma and flavor is the largest of any cheese."}, {"question": "How is it traditionally eaten?", "answer": "On dark rye with raw onion and mustard, with a dark beer."}, {"question": "Is it still made in America?", "answer": "Yes — the Chalet Cheese Cooperative in Monroe, Wisconsin is the last US producer."}, {"question": "How much per person?", "answer": "About 1 oz, and only for a crowd that's up for it."}]"
 ---

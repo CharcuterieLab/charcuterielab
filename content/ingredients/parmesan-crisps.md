@@ -13,7 +13,7 @@ serving_per_person: "3–4 crisps"
 prep_time: "8 minutes if homemade"
 allergens: ["dairy"]
 tags: ["gluten-free", "keto", "italian", "cheese"]
-pairs_with: ["cheddar-crisps", "olive-oil-crackers", "grissini", "burrata", "fresh-mozzarella", "aged-gouda", "prosciutto-di-parma"]
+pairs_with: ["cheddar-crisps", "olive-oil-crackers", "grissini", "burrata", "fresh-mozzarella", "aged-gouda", "prosciutto-di-parma", "figs", "honey"]
 avoid_with: ["aged-hard-cheese", "blue-cheese"]
 faq: "[{"question": "Are parmesan crisps gluten-free?", "answer": "Yes, if the only ingredient is cheese. Check the label — some brands add flour or starch."}, {"question": "Are they keto?", "answer": "Yes. Essentially zero carbs, all fat and protein. It's why the category grew."}, {"question": "How do I make parmesan crisps?", "answer": "Tablespoon mounds of finely grated parmesan on parchment, 375°F for 5–6 minutes, cool flat. That's the whole recipe."}, {"question": "How many per person?", "answer": "3–4 as an accent. Don't build a board on them."}, {"question": "Do they count as the cracker or the cheese?", "answer": "The cheese. Plan your board accordingly and put out a real base too."}]"
 ---

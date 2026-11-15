@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "english", "flavored", "holiday"]
-pairs_with: ["cranberry-goat-cheese", "red-leicester", "cotswold", "oatcakes", "genoa-salami"]
+pairs_with: ["cranberry-goat-cheese", "red-leicester", "cotswold", "oatcakes", "genoa-salami", "apples", "pears", "walnuts", "cream-crackers"]
 avoid_with: ["blue-cheese", "cured-meat"]
 faq: "[{"question": "Is Wensleydale with cranberries a real cheese?", "answer": "Yes — real Wensleydale with dried cranberries mixed in. The base cheese is centuries old; the fruited version is modern."}, {"question": "Did Wallace and Gromit really save the creamery?", "answer": "The Wensleydale Creamery at Hawes credits the films' popularity with a major sales revival in the 1990s, when the business was struggling. The story is broadly true."}, {"question": "Is plain Wensleydale worth buying?", "answer": "Yes. It's mild, crumbly and faintly honeyed, and almost nobody outside Britain tries it."}, {"question": "Can I put it with cured meat?", "answer": "Better not. Sweet fruited cheese against salami is a poor combination. Keep it on the sweet half."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

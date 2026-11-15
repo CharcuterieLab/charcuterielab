@@ -13,7 +13,7 @@ serving_per_person: "0.5–0.75 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "spanish", "intense"]
-pairs_with: ["roquefort", "stilton", "gorgonzola", "walnut-raisin-bread"]
+pairs_with: ["roquefort", "stilton", "gorgonzola", "walnut-raisin-bread", "honey", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Is Cabrales stronger than Roquefort?", "answer": "Yes. Wild cave mold, near-saturated humidity and a three-milk blend make it noticeably more aggressive."}, {"question": "What are the leaves for?", "answer": "Traditionally sycamore or maple leaves wrapped the cheese during aging. Modern DOP cheese is usually wrapped in foil printed with a leaf pattern."}, {"question": "What do I serve with it?", "answer": "Honey and Asturian cider, at minimum. It's punishing without sweetness."}, {"question": "How much per person?", "answer": "Half an ounce. Genuinely."}, {"question": "Is Valdeón the same thing?", "answer": "No — Valdeón is a related leaf-wrapped Spanish blue from León. Similar look, gentler cheese, easier to find."}]"
 ---

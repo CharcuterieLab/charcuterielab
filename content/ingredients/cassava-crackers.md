@@ -13,7 +13,7 @@ serving_per_person: "5–6 pieces"
 prep_time: "1 minute"
 allergens: []
 tags: ["gluten-free", "grain-free", "nut-free", "paleo"]
-pairs_with: ["rice-crackers", "plantain-chips", "almond-flour-crackers", "fresh-chevre", "aged-cheddar", "vegetable-bases", "smoked-salmon", "prosciutto-di-parma"]
+pairs_with: ["rice-crackers", "plantain-chips", "almond-flour-crackers", "fresh-chevre", "aged-cheddar", "vegetable-bases", "smoked-salmon", "prosciutto-di-parma", "hummus"]
 avoid_with: []
 faq: "[{"question": "Is cassava gluten-free?", "answer": "Yes. It's a root, not a grain, and contains no gluten at all."}, {"question": "Is cassava the same as tapioca?", "answer": "Tapioca is the starch extracted from cassava. Cassava flour is the whole ground root, so it behaves differently in baking."}, {"question": "Are cassava crackers nut-free?", "answer": "The plain ones are, but several grain-free brands blend in almond or coconut flour. Read the box."}, {"question": "How many per person?", "answer": "5–6, and put out extra if it's a guest's only option."}, {"question": "Where do I find actual cassava crackers, not chips?", "answer": "Natural grocers and online. The chip and tortilla formats are far more common in US stores, and they do the same job on a board."}]"
 ---

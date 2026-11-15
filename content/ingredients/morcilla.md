@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["cured meat", "spanish", "cooked", "adventurous"]
-pairs_with: ["chorizo", "salchichon", "manchego", "tostada-rounds", "crostini"]
+pairs_with: ["chorizo", "salchichon", "manchego", "tostada-rounds", "crostini", "apples", "piquillo-peppers"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is morcilla safe to eat without cooking?", "answer": "It's already cooked when sold, so yes — but it's much better crisped, and that's how it's eaten in Spain."}, {"question": "What does it taste like?", "answer": "Mineral and savoury with sweet onion, rather than metallic. Closer to liver than to a regular sausage."}, {"question": "Burgos or León?", "answer": "Burgos has rice and crumbles when cooked. León has more onion and paprika and stays softer."}, {"question": "How much per person?", "answer": "About 1 oz, served hot in small pieces."}, {"question": "Will my guests eat it?", "answer": "More than you'd expect, if you crisp it, put it on toast, and tell them what it is before they taste it rather than after."}]"
 ---

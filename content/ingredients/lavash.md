@@ -13,7 +13,7 @@ serving_per_person: "2–3 pieces"
 prep_time: "8 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["armenian", "middle eastern", "versatile", "flatbread"]
-pairs_with: ["pane-carasau", "matzo", "sesame-crackers", "feta", "prosciutto-di-parma", "hummus", "whipped-feta", "baba-ganoush", "tzatziki", "muhammara"]
+pairs_with: ["pane-carasau", "matzo", "sesame-crackers", "feta", "prosciutto-di-parma", "hummus", "whipped-feta", "baba-ganoush", "tzatziki", "muhammara", "labneh", "olive-oil", "za-atar"]
 avoid_with: []
 faq: "[{"question": "Is lavash the same as pita?", "answer": "No. Pita puffs and forms a pocket; lavash is thinner, flat, and has no pocket."}, {"question": "Soft or crisp — which should I buy?", "answer": "Soft, if you're willing to spend ten minutes. You can crisp half and keep half soft, which gives you two ingredients from one package."}, {"question": "How do I crisp it?", "answer": "Brush with oil, salt it, and bake at 350°F for 6–8 minutes. Break by hand."}, {"question": "How many per person?", "answer": "2–3 pieces of either version."}, {"question": "Why does soft lavash go stiff so fast?", "answer": "It's extremely thin, so it loses moisture in minutes. Keep it sealed until you serve it."}]"
 ---

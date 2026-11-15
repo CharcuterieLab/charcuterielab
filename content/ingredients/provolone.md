@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "american", "budget", "crowd-pleaser", "mild"]
-pairs_with: ["hard-salami", "genoa-salami", "pepperoni", "banana-peppers", "roasted-red-peppers", "aged-provolone"]
+pairs_with: ["hard-salami", "genoa-salami", "pepperoni", "banana-peppers", "roasted-red-peppers", "aged-provolone", "pepperoncini"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What is provolone cheese?", "answer": "A stretched-curd Italian-style cheese, made like mozzarella and then aged. Deli provolone in the US is the mild, young version, often lightly smoked."}, {"question": "What's the difference between provolone and aged provolone?", "answer": "Deli provolone (provolone dolce) is aged a few months and tastes mild and milky. Aged provolone (piccante) is aged a year or more and tastes sharp and peppery."}, {"question": "How do you serve provolone on a charcuterie board?", "answer": "Roll deli slices around salami, or fold them into quarters. Cubes from a chunk work too."}, {"question": "Is provolone smoked?", "answer": "Many deli brands are lightly smoked or smoke flavored. Check the label if you want plain."}, {"question": "What meat goes with provolone?", "answer": "Hard salami, Genoa salami, pepperoni and capicola. Add banana peppers and you have an Italian sub on a board."}]"
 ---

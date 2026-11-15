@@ -14,7 +14,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "5 minutes"
 allergens: ["soy"]
 tags: ["cured meat", "american", "smoked", "crowd-pleaser", "make-ahead"]
-pairs_with: ["biltong", "colby-jack", "pepper-jack", "dill-pickles", "trail-mix", "kettle-chips"]
+pairs_with: ["colby-jack", "pepper-jack", "dill-pickles", "trail-mix", "kettle-chips"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is beef jerky good on a charcuterie board?", "answer": "Yes, if you choose a tender style and cut it into short strips. It's the American cousin of air-dried meats like bresaola and biltong."}, {"question": "What's the difference between jerky and biltong?", "answer": "Jerky is sliced thin, marinated and dried with heat, often with smoke. Biltong is vinegar-cured and air-dried in thicker pieces, then sliced, so it's softer."}, {"question": "How much jerky per person?", "answer": "About half an ounce to an ounce. It's dense and salty, so a little goes a long way."}, {"question": "Is beef jerky gluten-free?", "answer": "Not always. Many marinades use soy sauce made with wheat. Look for a gluten-free label."}, {"question": "How do you cut jerky for a board?", "answer": "Snip it into 2-inch pieces with kitchen scissors, which is easier than a knife."}]"
 ---

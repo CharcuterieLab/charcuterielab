@@ -13,7 +13,7 @@ serving_per_person: "2 slices"
 prep_time: "3 minutes"
 allergens: ["rye", "wheat", "gluten"]
 tags: ["bread", "german", "smoked fish", "hearty"]
-pairs_with: ["cocktail-rye", "rye-crispbread", "walnut-raisin-bread", "cream-cheese", "aged-gouda", "gorgonzola", "liverwurst", "smoked-salmon"]
+pairs_with: ["cocktail-rye", "rye-crispbread", "walnut-raisin-bread", "cream-cheese", "aged-gouda", "gorgonzola", "liverwurst", "smoked-salmon", "capers"]
 avoid_with: ["delicate-fresh-cheese", "sweet-jam"]
 faq: "[{"question": "Does real pumpernickel have molasses in it?", "answer": "No. Traditional Westphalian pumpernickel gets its color from a very long, low bake. Molasses and caramel color are American shortcuts."}, {"question": "Why is it so dense?", "answer": "Coarse whole rye has little gluten, so it never traps much air. The long bake does the rest."}, {"question": "How much per person?", "answer": "2 thin slices, quartered — about 8 small pieces."}, {"question": "What goes on pumpernickel?", "answer": "Smoked salmon and cream cheese first, then blue cheese, then butter and radish."}, {"question": "Is it gluten-free?", "answer": "No. Rye contains gluten, and most versions also contain wheat."}]"
 ---

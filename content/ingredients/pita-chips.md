@@ -13,7 +13,7 @@ serving_per_person: "5–6 chips"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["chips", "sturdy", "dips", "mediterranean"]
-pairs_with: ["water-crackers", "seeded-crackers", "whole-wheat-crackers", "brie", "fresh-chevre", "feta", "dukkah", "hummus", "whipped-feta", "baba-ganoush", "tzatziki", "muhammara", "za-atar"]
+pairs_with: ["water-crackers", "seeded-crackers", "whole-wheat-crackers", "brie", "fresh-chevre", "feta", "dukkah", "hummus", "whipped-feta", "baba-ganoush", "tzatziki", "muhammara", "za-atar", "roasted-red-peppers"]
 avoid_with: ["delicate-bloomy-cheese", "caviar"]
 image_alt: "Triangular baked pita chips fanned beside a bowl of hummus with olive oil"
 faq: "[{"question": "How many pita chips per person?", "answer": "5–6 alongside other bases. Double that if dips are the centerpiece."}, {"question": "Can I make them myself?", "answer": "Yes. Split pitas, cut into wedges, toss with olive oil and salt, bake at 400°F for 10–12 minutes. Better than store-bought and cheaper."}, {"question": "Are pita chips gluten-free?", "answer": "No — they're wheat. For a gluten-free scoop, use tostada rounds or plantain chips."}, {"question": "Do they belong on a cheese board or a dip board?", "answer": "Both, but they're happiest with dips. On a cheese-forward board, put out a few and lean on crackers instead."}]"

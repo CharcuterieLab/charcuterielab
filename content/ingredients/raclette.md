@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz cold, 4–6 oz melted"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "swiss", "melting", "warm"]
-pairs_with: ["gruyere", "fontina", "tomme-de-savoie", "cocktail-rye"]
+pairs_with: ["gruyere", "fontina", "tomme-de-savoie", "cocktail-rye", "cornichons", "cracked-black-pepper"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What does raclette mean?", "answer": "It's from racler, to scrape — the traditional service, where the melted face of a half-wheel is scraped onto plates."}, {"question": "Do I need a raclette grill?", "answer": "No. A cast-iron pan under the broiler works, or slices melted on a sheet and scraped off."}, {"question": "How much per person?", "answer": "1–2 oz on a board. 4–6 oz if you're melting it as a meal."}, {"question": "Why are pickles always served with it?", "answer": "Acid cuts a large quantity of melted fat. Without them the dish is heavy."}, {"question": "Can you eat the rind?", "answer": "Trim it for cold service. For melting, leave it on — it holds the slice together."}]"
 ---

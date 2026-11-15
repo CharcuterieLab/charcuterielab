@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "english", "flavored", "savory"]
-pairs_with: ["red-leicester", "aged-cheddar", "wensleydale-cranberry", "cream-crackers"]
+pairs_with: ["red-leicester", "aged-cheddar", "wensleydale-cranberry", "cream-crackers", "water-crackers", "cornichons", "apples", "grapes"]
 avoid_with: ["delicate-fresh-cheese", "boursin"]
 faq: "[{"question": "What is Cotswold cheese?", "answer": "Double Gloucester — a mild orange English cheese — with dried onion and chives worked through it."}, {"question": "Is it strong?", "answer": "No. Mild and savory, with the onion adding depth rather than heat."}, {"question": "Why is it orange?", "answer": "Annatto, added to the double Gloucester base. It's traditional and adds no flavor."}, {"question": "What's Huntsman?", "answer": "Double Gloucester layered with Stilton. Same family, and a striking cheese on a board."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

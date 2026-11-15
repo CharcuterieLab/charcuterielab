@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["fruit", "preserved", "italian", "dessert", "holiday"]
-pairs_with: ["gorgonzola", "mascarpone", "ricotta", "aged-gouda", "almonds"]
+pairs_with: ["gorgonzola", "mascarpone", "ricotta", "aged-gouda", "almonds", "pistachios"]
 avoid_with: []
 faq: "[{"question": "Is candied citrus the same as fruitcake mix?", "answer": "No. Fruitcake mix is dyed, diced, and mostly flavourless. Good candied peel is translucent amber and tastes strongly of citrus."}, {"question": "What goes with candied orange peel?", "answer": "Blue cheese, mascarpone, ricotta, dark chocolate, and almonds."}, {"question": "Where does it go on a board?", "answer": "The dessert corner, with chocolate and nuts — away from the cured meat."}, {"question": "How much per person?", "answer": "About half an ounce. It's very sweet and very concentrated."}, {"question": "Can I make it myself?", "answer": "Yes — peel simmered in sugar syrup for an hour or two, then dried. It takes time but almost no skill."}]"
 ---

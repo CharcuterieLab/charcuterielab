@@ -13,7 +13,7 @@ serving_per_person: "6–8 chips"
 prep_time: "1 minute"
 allergens: []
 tags: ["gluten-free", "colorful", "dips", "styling"]
-pairs_with: ["plantain-chips", "tostada-rounds", "cassava-crackers", "fresh-chevre", "aged-cheddar", "gorgonzola"]
+pairs_with: ["plantain-chips", "tostada-rounds", "cassava-crackers", "fresh-chevre", "aged-cheddar", "gorgonzola", "hummus"]
 avoid_with: ["delicate-fresh-cheese", "caviar"]
 faq: "[{"question": "Are root vegetable chips gluten-free?", "answer": "Yes — vegetables, oil and salt. Also grain-free and nut-free."}, {"question": "Which brand is best for a board?", "answer": "Terra Sweets & Beets if you want color, Terra Original if you want balance."}, {"question": "How many per person?", "answer": "6–8. People graze on them."}, {"question": "Are they healthier than potato chips?", "answer": "Marginally — more fiber and micronutrients, but they're still fried. Buy them for the color and the allergen profile, not the nutrition."}, {"question": "Why do some bags look uniform?", "answer": "Because they're reconstituted potato with coloring. Real root chips are irregular in shape and shade."}]"
 ---

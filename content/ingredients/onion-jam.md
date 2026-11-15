@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["condiment", "savoury", "french", "make-ahead", "vegetarian"]
-pairs_with: ["aged-cheddar", "gruyere", "comte", "brie", "saucisson-sec"]
+pairs_with: ["aged-cheddar", "gruyere", "comte", "brie", "saucisson-sec", "baguette", "crostini"]
 avoid_with: []
 faq: "[{"question": "What is onion jam?", "answer": "Caramelised onions cooked down with vinegar and sugar into a thick sweet-savoury spread. Also called onion confit or confiture d'oignons."}, {"question": "What cheese goes with onion jam?", "answer": "Aged cheddar above all, plus gruyère, comté, and brie."}, {"question": "Can I make onion jam at home?", "answer": "Yes. Slice four onions, cook slowly in fat for about an hour, then reduce with vinegar and brown sugar until jammy."}, {"question": "How is it different from fig jam?", "answer": "It supplies the same sweetness from the savoury side, so it works next to meat without making the board taste like dessert."}, {"question": "How long does it keep?", "answer": "Two weeks homemade in the fridge; months unopened if bought."}]"
 ---

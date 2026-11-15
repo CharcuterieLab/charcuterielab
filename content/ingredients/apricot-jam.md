@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["spread", "jam", "budget", "beginner", "year-round"]
-pairs_with: ["brie", "manchego", "fresh-chevre", "prosciutto-di-parma", "aged-gouda"]
+pairs_with: ["brie", "manchego", "fresh-chevre", "prosciutto-di-parma", "aged-gouda", "almonds"]
 avoid_with: []
 faq: "[{"question": "Is apricot jam better than fig jam for a cheese board?", "answer": "They do different jobs. Fig jam sweetens and suits blue cheese; apricot jam is tarter and cuts rich soft cheeses better."}, {"question": "What cheese goes with apricot jam?", "answer": "Brie and soft-ripened cheeses, manchego, fresh goat cheese, and aged gouda. Not blue."}, {"question": "What jam do I use for baked brie?", "answer": "Apricot is the traditional choice, usually with almonds."}, {"question": "Jam or preserve — does it matter?", "answer": "Preserve has larger fruit pieces. On a board the extra texture is a small plus."}, {"question": "How much per person?", "answer": "About half an ounce. One small bowl covers a board."}]"
 ---

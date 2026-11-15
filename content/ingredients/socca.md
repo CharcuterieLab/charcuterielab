@@ -13,7 +13,7 @@ serving_per_person: "2–3 wedges"
 prep_time: "40 minutes"
 allergens: []
 tags: ["gluten-free", "french", "warm", "make-it-yourself"]
-pairs_with: ["chickpea-crackers", "cassava-crackers", "focaccia", "fresh-chevre", "feta", "gluten-free-bread", "anchovies"]
+pairs_with: ["chickpea-crackers", "cassava-crackers", "focaccia", "fresh-chevre", "feta", "gluten-free-bread", "anchovies", "tapenade", "olive-oil", "labneh", "whipped-feta"]
 avoid_with: []
 faq: "[{"question": "Is socca gluten-free?", "answer": "Yes, completely. Chickpea flour, water, olive oil, salt."}, {"question": "Socca or farinata — what's the difference?", "answer": "Socca is from Nice, farinata from Liguria. Same batter, same method, different name."}, {"question": "Why does my batter need to rest?", "answer": "Chickpea flour hydrates slowly. Unrested batter tastes raw and gritty; rested batter tastes nutty and smooth. Thirty minutes minimum."}, {"question": "Can I make it ahead?", "answer": "Make the batter ahead — it keeps two days refrigerated. The socca itself is only good for about twenty minutes."}, {"question": "How many per person?", "answer": "2–3 torn wedges. One skillet feeds four to six alongside other bases."}]"
 ---

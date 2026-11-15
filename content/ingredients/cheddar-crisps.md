@@ -13,7 +13,7 @@ serving_per_person: "3–4 crisps"
 prep_time: "10 minutes if homemade"
 allergens: ["dairy"]
 tags: ["gluten-free", "keto", "cheese", "snacky"]
-pairs_with: ["parmesan-crisps", "butter-crackers", "whole-wheat-crackers", "aged-cheddar", "summer-sausage", "genoa-salami"]
+pairs_with: ["parmesan-crisps", "butter-crackers", "whole-wheat-crackers", "summer-sausage", "genoa-salami", "apples", "honey-mustard", "hot-honey", "cornichons"]
 avoid_with: ["aged-cheddar", "delicate-fresh-cheese"]
 faq: "[{"question": "Cheddar crisps or parmesan crisps — which is better for a board?", "answer": "Parmesan is more versatile and more durable. Cheddar is better if the board has apple, mustard or heat on it."}, {"question": "Are they gluten-free and keto?", "answer": "Yes to both, when the only ingredient is cheese."}, {"question": "Why do mine come out chewy at home?", "answer": "Not baked long enough. Wait until the bubbling stops and the edges are deep brown, then cool completely before touching them."}, {"question": "How many per person?", "answer": "3–4 as an accent. They're rich, and they are cheese — count them as cheese when you plan the board."}]"
 ---

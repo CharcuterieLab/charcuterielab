@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "0 minutes"
 allergens: ["sulphites"]
 tags: ["fruit", "dried", "budget", "beginner", "year-round"]
-pairs_with: ["manchego", "aged-gouda", "fresh-chevre", "pine-nuts", "coppa"]
+pairs_with: ["manchego", "aged-gouda", "fresh-chevre", "pine-nuts", "coppa", "soppressata"]
 avoid_with: []
 faq: "[{"question": "What's the difference between golden and regular raisins?", "answer": "Golden raisins are treated with sulphur dioxide instead of sun-dried, so they stay pale, plumper, and tarter."}, {"question": "Are golden raisins the same as sultanas?", "answer": "Effectively yes — both are pale-dried Thompson seedless grapes."}, {"question": "How do I serve raisins on a board?", "answer": "Scatter them into gaps or sprinkle them over a goat cheese log. Don't make a pile."}, {"question": "Do they contain sulphites?", "answer": "Yes — that's what keeps them golden. Worth mentioning if a guest is sensitive."}, {"question": "How do I soften hard raisins?", "answer": "Soak in warm water, sherry or white wine for ten minutes, then pat dry."}]"
 ---

@@ -14,7 +14,7 @@ serving_per_person: "0.75 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["olives", "french", "provencal", "luxury", "unique"]
-pairs_with: ["fresh-chevre", "bucheron", "anchovies", "baguette", "comte"]
+pairs_with: ["fresh-chevre", "bucheron", "anchovies", "baguette", "comte", "tapenade"]
 avoid_with: []
 faq: "[{"question": "What are Niçoise olives?", "answer": "Small dark Provençal olives of the Cailletier variety, brine-cured with herbs. Intensely flavoured and mostly pit by volume."}, {"question": "Why are they so small?", "answer": "It's the variety. The Cailletier tree produces small fruit, which is why they cost more per usable ounce."}, {"question": "What can I use instead?", "answer": "Taggiasca olives from Liguria are very similar and usually cheaper."}, {"question": "What cheese goes with Niçoise olives?", "answer": "Fresh goat cheese and aged goat cheeses like Bucheron, plus comté and alpine cheeses."}, {"question": "How much per person?", "answer": "About three-quarters of an ounce. They're intense, so people take fewer."}]"
 ---

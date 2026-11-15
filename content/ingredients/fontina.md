@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "italian", "alpine", "semi-soft"]
-pairs_with: ["taleggio", "havarti", "tomme-de-savoie", "crostini", "port-salut", "raclette", "speck", "prosciutto-di-parma", "prosciutto-cotto"]
+pairs_with: ["taleggio", "havarti", "tomme-de-savoie", "crostini", "port-salut", "raclette", "speck", "prosciutto-di-parma", "prosciutto-cotto", "baguette", "truffle-honey", "apples", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why does supermarket fontina taste bland?", "answer": "It's probably Danish or Swedish 'fontina,' which is a mild industrial cheese unrelated to the Italian DOP."}, {"question": "What should I look for?", "answer": "'Fontina Val d'Aosta DOP' and a Matterhorn stamp on the rind."}, {"question": "Does it smell?", "answer": "Faintly earthy and mushroomy from the washed rind — nowhere near as strong as Taleggio or Époisses."}, {"question": "Can you eat the rind?", "answer": "Trim it. It's edible but tough."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

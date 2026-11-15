@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "goat", "showpiece"]
-pairs_with: ["sainte-maure", "crottin-de-chavignol", "bucheron", "water-crackers"]
+pairs_with: ["sainte-maure", "crottin-de-chavignol", "bucheron", "water-crackers", "honey", "figs", "grapes", "almonds", "walnuts", "cherry-preserves"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "Why is Valençay shaped like a cut-off pyramid?", "answer": "The traditional shape is protected by the AOP. The Napoleon story about striking off the top is charming and almost certainly apocryphal."}, {"question": "Can you eat the ash?", "answer": "Yes. It's vegetable ash, edible and essentially tasteless, and it helps the rind develop."}, {"question": "How do I cut it?", "answer": "Thin wedges from the apex down, like a small cake. Leave most of the pyramid standing."}, {"question": "Is it strong?", "answer": "No — bright, lemony and tangy. Goat cheese acidity rather than pungency."}, {"question": "How much per person?", "answer": "1–1.5 oz. One pyramid serves four to six."}]"
 ---

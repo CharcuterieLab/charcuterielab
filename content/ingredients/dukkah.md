@@ -13,7 +13,7 @@ serving_per_person: "0.25 oz"
 prep_time: "10 minutes"
 allergens: ["tree nuts", "sesame"]
 tags: ["seeds", "spice", "egyptian", "middle-eastern", "unique"]
-pairs_with: ["burrata", "ricotta", "fresh-chevre", "olive-oil-crackers", "pita-chips"]
+pairs_with: ["burrata", "ricotta", "fresh-chevre", "olive-oil-crackers", "pita-chips", "labneh", "olive-oil"]
 avoid_with: []
 faq: "[{"question": "What is dukkah?", "answer": "An Egyptian blend of toasted nuts, sesame seeds and spices, pounded coarse. It's traditionally eaten by dipping bread in olive oil and then in the dukkah."}, {"question": "How do I serve dukkah on a charcuterie board?", "answer": "A bowl of dukkah beside a bowl of olive oil with bread, or sprinkled directly over burrata, labneh, or a goat cheese log."}, {"question": "Is dukkah the same as za'atar?", "answer": "No. Za'atar is thyme, sumac and sesame with no nuts. Dukkah is nut-based and coarser."}, {"question": "Can I make dukkah at home?", "answer": "Yes, in about ten minutes. Toast the nuts and spices separately, then pound them coarse with salt."}, {"question": "Does dukkah contain allergens?", "answer": "Yes — tree nuts and sesame, both common allergens. Say so when you put it out."}]"
 ---

@@ -15,7 +15,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "lean", "value"]
-pairs_with: ["jamon-serrano", "jamon-iberico", "chorizo", "manchego", "olive-oil-crackers"]
+pairs_with: ["jamon-serrano", "jamon-iberico", "chorizo", "manchego", "olive-oil-crackers", "marcona-almonds", "membrillo", "piquillo-peppers"]
 avoid_with: ["smoked-cheese", "delicate-fresh-cheese"]
 faq: "[{"question": "What cut is lomo?", "answer": "The pork loin — the same lean muscle as a pork chop — cured whole."}, {"question": "What is lomo in English?", "answer": "Cured pork loin. The full Spanish name, lomo embuchado, means encased loin."}, {"question": "Is lomo raw?", "answer": "It isn't cooked, but it is fully dry-cured with salt and air-dried for months, so it's ready to eat as is, like prosciutto or salami."}, {"question": "What's the difference between lomo and prosciutto?", "answer": "Lomo is the lean pork loin, seasoned with paprika and garlic. Prosciutto is the leg, cured with salt only, softer and fattier. Lomo is firmer and more savory; prosciutto is sweeter and melts."}, {"question": "How do you pronounce lomo?", "answer": "LOH-moh."}, {"question": "Is it like jamón?", "answer": "Same curing idea, different cut. Jamón is the leg with a fat cap; lomo is lean loin. Lomo is firmer and much less fatty."}, {"question": "Why is the edge red?", "answer": "It's rubbed with pimentón — Spanish smoked paprika — before curing."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's lean and intense."}, {"question": "Is lomo ibérico worth it?", "answer": "Yes, and it's one of the best-value ways to taste acorn-fed Iberian pork — a fraction of the price of the ham."}]"
 ---

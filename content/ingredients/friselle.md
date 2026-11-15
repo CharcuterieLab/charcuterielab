@@ -13,7 +13,7 @@ serving_per_person: "1 friselle"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["italian", "puglia", "summer", "unusual"]
-pairs_with: ["taralli", "pane-carasau", "ciabatta", "burrata", "fresh-mozzarella", "stracciatella", "anchovies"]
+pairs_with: ["taralli", "pane-carasau", "ciabatta", "burrata", "fresh-mozzarella", "stracciatella", "anchovies", "olive-oil", "capers"]
 avoid_with: ["dry-aged-cheese"]
 faq: "[{"question": "Do I really soak bread in water?", "answer": "Yes, briefly. Five to ten seconds, then rest three minutes. It's how the bread has been eaten in Puglia for centuries."}, {"question": "Why not just use fresh bread?", "answer": "Because fresh bread goes soggy and stays soggy. A friselle absorbs a controlled amount and then holds its chew — that's the whole trick."}, {"question": "How long do they keep dry?", "answer": "Months. They were designed as long-keeping sailors' bread."}, {"question": "How many per person?", "answer": "One, broken into quarters, alongside other bases."}, {"question": "What if I soak it too long?", "answer": "It falls apart and can't be recovered. Always err on the dry side — the topping adds moisture too."}]"
 ---

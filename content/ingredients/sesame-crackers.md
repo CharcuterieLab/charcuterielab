@@ -13,7 +13,7 @@ serving_per_person: "3–4 crackers"
 prep_time: "1 minute"
 allergens: ["sesame", "wheat", "gluten"]
 tags: ["crackers", "mediterranean", "toasty", "everyday"]
-pairs_with: ["seeded-crackers", "whole-wheat-crackers", "olive-oil-crackers", "feta", "halloumi", "aged-gouda", "smoked-salmon"]
+pairs_with: ["seeded-crackers", "whole-wheat-crackers", "olive-oil-crackers", "feta", "halloumi", "aged-gouda", "smoked-salmon", "hummus", "labneh", "olive-oil", "medjool-dates", "honey"]
 avoid_with: []
 faq: "[{"question": "Are sesame crackers a common allergen?", "answer": "Yes. Sesame is now recognized as a major allergen in the US and must be labeled. Set them apart or tell your guests."}, {"question": "What cheese goes with sesame crackers?", "answer": "Feta, halloumi and aged gouda. Anything salty or caramel-noted."}, {"question": "Are they gluten-free?", "answer": "Usually not — most are wheat-based. Rice-based sesame crackers exist and are labeled as such."}, {"question": "How many per person?", "answer": "3–4, and they work as a general-purpose base if you only buy one specialty cracker."}]"
 ---

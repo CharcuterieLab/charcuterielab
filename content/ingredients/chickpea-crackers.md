@@ -13,7 +13,7 @@ serving_per_person: "4–5 crackers"
 prep_time: "1 minute"
 allergens: []
 tags: ["gluten-free", "plant-based", "protein", "mediterranean"]
-pairs_with: ["cassava-crackers", "socca", "sesame-crackers", "brie", "burrata", "fresh-mozzarella"]
+pairs_with: ["cassava-crackers", "socca", "sesame-crackers", "brie", "burrata", "fresh-mozzarella", "hummus", "labneh", "whipped-feta", "baba-ganoush", "muhammara", "sun-dried-tomatoes", "aged-cheddar", "manchego", "harissa"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are chickpea crackers gluten-free?", "answer": "Usually yes, but check — some blends add wheat. Look for a certification."}, {"question": "Do they taste like chickpeas?", "answer": "A little, yes. Earthy and savory rather than neutral. That's why they suit hummus and struggle with mild cheese."}, {"question": "Why is this shelf so inconsistent?", "answer": "It's a young category with a lot of small brands. Buy on what's available rather than seeking one product."}, {"question": "How many per person?", "answer": "4–5. The protein makes them more filling than a wheat cracker."}, {"question": "Cheaper alternative?", "answer": "Make socca from chickpea flour. Same flavor, a fraction of the cost."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["briny", "italian", "vegetarian", "antipasto", "umami"]
-pairs_with: ["fresh-chevre", "gruyere", "prosciutto-di-parma", "baguette", "comte"]
+pairs_with: ["fresh-chevre", "gruyere", "prosciutto-di-parma", "baguette", "comte", "crostini"]
 avoid_with: []
 faq: "[{"question": "Are marinated mushrooms good on a charcuterie board?", "answer": "Yes — they're savoury, substantial and vegetarian, which makes them useful on a board that would otherwise rely on cured meat for depth."}, {"question": "What cheese goes with marinated mushrooms?", "answer": "Fresh goat cheese, gruyère and comté, and brie."}, {"question": "Can I make them at home?", "answer": "Yes. Simmer button mushrooms in vinegar and water for five minutes, drain, then marinate in olive oil with garlic and herbs. Ready the next day."}, {"question": "Should they be served cold?", "answer": "Room temperature. Cold oil goes cloudy and mutes the flavour."}, {"question": "How much per person?", "answer": "About three-quarters of an ounce — three or four small mushrooms."}]"
 ---

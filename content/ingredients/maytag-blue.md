@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "american", "artisan"]
-pairs_with: ["stilton", "bleu-dauvergne", "gorgonzola", "oatcakes"]
+pairs_with: ["stilton", "bleu-dauvergne", "gorgonzola", "oatcakes", "honey", "apples", "pears", "pecans", "walnuts", "hot-honey"]
 avoid_with: ["delicate-fresh-cheese", "smoked-cheese"]
 faq: "[{"question": "Is it made by the washing machine family?", "answer": "Yes. Fritz Maytag II started the cheese operation in 1941 using the family farm's Holstein herd. The two businesses have long been separate."}, {"question": "How does it compare to Roquefort?", "answer": "Drier, crumblier and more acidic. Roquefort is saltier and richer. Maytag is lemony-sharp rather than salt-forward."}, {"question": "What other American blues are worth trying?", "answer": "Rogue River Blue and Oregon Blue from Rogue Creamery, Point Reyes Original Blue, and Jasper Hill's Bayley Hazen."}, {"question": "How do I serve it?", "answer": "Crumbled, with honey beside it. It won't hold a clean wedge."}, {"question": "How much per person?", "answer": "About 1 oz."}]"
 ---

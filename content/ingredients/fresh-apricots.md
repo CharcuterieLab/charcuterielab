@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "summer", "seasonal"]
-pairs_with: ["fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "brie"]
+pairs_with: ["fresh-chevre", "manchego", "prosciutto-di-parma", "pistachios", "brie", "honey"]
 avoid_with: []
 faq: "[{"question": "When are apricots in season?", "answer": "Late May through July. It's a short window, and out-of-season apricots aren't worth buying."}, {"question": "Do apricots brown on a board?", "answer": "Much less than peaches or apples. Cut-side up, they'll hold for a couple of hours."}, {"question": "Do I peel them?", "answer": "No. The skin is thin and keeps the half intact."}, {"question": "What if mine are hard and sour?", "answer": "Ripen in a paper bag for a day, or halve and broil with honey. Otherwise use dried apricots."}, {"question": "How many per person?", "answer": "One apricot serves two people on a mixed board."}]"
 ---

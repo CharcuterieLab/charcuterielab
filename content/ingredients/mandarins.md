@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["fruit", "citrus", "winter", "beginner", "budget"]
-pairs_with: ["brie", "ricotta", "prosciutto-di-parma", "aged-gouda", "almonds"]
+pairs_with: ["brie", "ricotta", "prosciutto-di-parma", "aged-gouda", "almonds", "marcona-almonds", "dark-chocolate"]
 avoid_with: []
 faq: "[{"question": "Clementines or satsumas?", "answer": "Clementines hold their segments better on a board. Satsumas taste sweeter and peel more easily but fall apart faster."}, {"question": "Do I slice mandarins?", "answer": "No — peel and separate into segments. The membranes are too thin to slice."}, {"question": "Are Cuties and Halos different fruit?", "answer": "They're brand names for clementines, and sometimes murcott mandarins later in the season."}, {"question": "When are mandarins in season?", "answer": "November through March, with Sumo Citrus arriving January through April."}, {"question": "How much per person?", "answer": "1–2 oz — one mandarin covers two or three people on a mixed board."}]"
 ---

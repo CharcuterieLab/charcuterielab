@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "ham", "specialty"]
-pairs_with: ["prosciutto-di-parma", "culatello", "burrata", "grissini", "comte", "peaches"]
+pairs_with: ["prosciutto-di-parma", "culatello", "burrata", "grissini", "comte", "peaches", "figs", "melon", "baguette", "pears"]
 avoid_with: ["everything-crackers", "smoked-cheese"]
 faq: "[{"question": "San Daniele or Parma?", "answer": "San Daniele is sweeter and softer; Parma is more savory and slightly firmer. Neither is better — serve both if you can."}, {"question": "Why is the trotter left on?", "answer": "Producers hold that it helps regulate moisture as the leg dries. It's also the visual signature of the DOP."}, {"question": "Why is it flat?", "answer": "The hams are pressed during curing, which shapes them and helps the salt penetrate evenly."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Does it need to be sliced to order?", "answer": "It's noticeably better, but good pre-sliced packs are widely sold."}]"
 ---

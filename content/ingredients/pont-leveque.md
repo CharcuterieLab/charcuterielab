@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "washed-rind", "normandy"]
-pairs_with: ["reblochon", "camembert", "taleggio", "baguette"]
+pairs_with: ["reblochon", "camembert", "taleggio", "baguette", "apples", "walnuts", "cornichons", "honey"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "How old is Pont-l'Évêque?", "answer": "Monks were making a version of it in the 12th century, which makes it one of the oldest French cheeses still produced."}, {"question": "Is it as strong as Époisses?", "answer": "No. It's a gentle washed-rind — aromatic, but supple and mild on the palate."}, {"question": "Why is it square?", "answer": "The traditional wooden molds. The fine ridges on the rind come from the same molds."}, {"question": "Can you eat the rind?", "answer": "Yes, and it's where much of the flavor is. Some people trim it."}, {"question": "What's the traditional pairing?", "answer": "Dry Normandy cider, or Calvados. Apples in any form."}]"
 ---

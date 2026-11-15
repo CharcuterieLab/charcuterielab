@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "french", "salami", "lyonnais"]
-pairs_with: ["saucisson-sec", "genoa-salami", "comte", "baguette", "beaufort"]
+pairs_with: ["saucisson-sec", "genoa-salami", "comte", "baguette", "beaufort", "cornichons", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Why is rosette so much bigger than other salami?", "answer": "It's cured in the wide end section of the intestine, which allows a much fatter sausage and a much longer cure."}, {"question": "Rosette or saucisson sec?", "answer": "Rosette is bigger, cured longer, milder on garlic and nuttier. Saucisson is smaller, tangier and more everyday."}, {"question": "What is Jésus de Lyon?", "answer": "An even larger, longer-cured version from the same tradition. Excellent and harder to find."}, {"question": "How much per person?", "answer": "1–2 oz — only two or three of those large slices."}, {"question": "What's the classic pairing?", "answer": "Baguette, butter, cornichons and Beaujolais. That's a Lyonnais lunch."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["fruit", "dried", "tropical", "fusion"]
-pairs_with: ["manchego", "fresh-chevre", "aged-gouda", "coppa", "cashews", "macadamia-nuts"]
+pairs_with: ["manchego", "fresh-chevre", "aged-gouda", "coppa", "cashews", "macadamia-nuts", "soppressata"]
 avoid_with: []
 faq: "[{"question": "Why is some dried mango bright orange?", "answer": "It's sweetened and usually sulphured. That kind is closer to candy — good, but not what you want beside cheese."}, {"question": "What's the best dried mango for a charcuterie board?", "answer": "Unsweetened, unsulphured — darker in colour and noticeably tarter."}, {"question": "How do I serve it?", "answer": "Snip the long strips into 2-inch pieces with scissors and fan them out."}, {"question": "What cheese goes with dried mango?", "answer": "Manchego, fresh goat cheese, and aged gouda. Skip blue cheese."}, {"question": "Is freeze-dried mango the same?", "answer": "No — it's crisp rather than chewy, and it's a good texture contrast on a board that's otherwise soft."}]"
 ---

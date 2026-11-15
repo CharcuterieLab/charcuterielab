@@ -13,7 +13,7 @@ serving_per_person: "2 tbsp"
 prep_time: "5 minutes"
 allergens: ["dairy", "eggs"]
 tags: ["dip", "spread", "american", "budget", "crowd-pleaser", "beginner"]
-pairs_with: ["vegetable-bases", "kettle-chips", "mini-pretzels", "cheese-curds", "pepperoni", "pickled-okra"]
+pairs_with: ["vegetable-bases", "kettle-chips", "mini-pretzels", "cheese-curds", "pepperoni", "pickled-okra", "dill-pickles"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Can you put ranch on a charcuterie board?", "answer": "Yes. Serve it in a small bowl with vegetables, pretzels and chips. It's the most popular dip in America for a reason."}, {"question": "What's the difference between ranch dip and ranch dressing?", "answer": "Ranch dip is thicker, usually made with sour cream, so it clings to vegetables. Dressing is thinner and made with buttermilk and mayonnaise."}, {"question": "How do you make ranch dip quickly?", "answer": "Stir a 1 oz packet of ranch seasoning into 16 oz of sour cream and chill it for 30 minutes so the herbs hydrate."}, {"question": "How long can ranch dip sit out?", "answer": "Up to 2 hours. Set the bowl in a larger bowl of ice for a long party."}, {"question": "What do you dip in ranch on a board?", "answer": "Carrots, celery, cucumber, mini peppers, pretzels, kettle chips and even cheese curds."}]"
 ---

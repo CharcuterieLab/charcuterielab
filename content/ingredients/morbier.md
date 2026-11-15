@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "semi-soft", "showpiece"]
-pairs_with: ["tomme-de-savoie", "comte", "reblochon", "baguette"]
+pairs_with: ["tomme-de-savoie", "comte", "reblochon", "baguette", "cornichons", "walnuts", "apples", "pears"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What's the black line in Morbier?", "answer": "Vegetable ash. Historically it was soot from the cheese cauldron, used to protect the evening curd overnight before the morning milk was added on top."}, {"question": "Does it taste of anything?", "answer": "The ash itself, no. The cheese is mild, creamy and faintly barnyard from its washed rind."}, {"question": "Can you eat the rind?", "answer": "It's edible but tough. Most people trim it."}, {"question": "Is it a strong cheese?", "answer": "No — mild with a light funk. Far gentler than Époisses or Munster."}, {"question": "How much per person?", "answer": "1–1.5 oz."}]"
 ---

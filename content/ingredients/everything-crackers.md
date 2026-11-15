@@ -13,7 +13,7 @@ serving_per_person: "3–4 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten", "sesame"]
 tags: ["crackers", "savory", "brunch", "crowd-pleaser"]
-pairs_with: ["seeded-crackers", "bagel-chips", "sesame-crackers", "cream-cheese", "smoked-salmon"]
+pairs_with: ["seeded-crackers", "bagel-chips", "sesame-crackers", "cream-cheese", "smoked-salmon", "labneh", "whipped-feta"]
 avoid_with: ["fig-jam", "delicate-fresh-cheese"]
 faq: "[{"question": "What goes on everything crackers?", "answer": "Cream cheese first, then smoked salmon, whipped feta or plain goat cheese. Anything mild and creamy."}, {"question": "Why do they clash with jam?", "answer": "Dried garlic and sugar is an unpleasant combination, and the garlic lingers long enough to affect the next thing you eat."}, {"question": "Are they gluten-free?", "answer": "Most are not. A few almond-flour versions exist — check the box."}, {"question": "How many per person?", "answer": "3–4, always alongside a neutral cracker."}, {"question": "Can I make my own?", "answer": "Yes, and it's better. Brush plain crackers with oil, press on everything seasoning, and warm them for 3 minutes at 300°F."}]"
 ---

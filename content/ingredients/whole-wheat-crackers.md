@@ -13,7 +13,7 @@ serving_per_person: "4–5 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "nutty base", "sturdy", "everyday"]
-pairs_with: ["water-crackers", "seeded-crackers", "rye-crispbread", "brie", "burrata", "fresh-chevre", "smoked-salmon", "soppressata"]
+pairs_with: ["water-crackers", "seeded-crackers", "rye-crispbread", "brie", "burrata", "fresh-chevre", "smoked-salmon", "soppressata", "manchego", "hummus", "honey", "apple-butter", "fig-jam", "hard-salami"]
 avoid_with: ["delicate-fresh-cheese", "caviar"]
 image_alt: "Woven whole wheat crackers stacked beside a wedge of aged cheddar and walnut halves"
 faq: "[{"question": "Are Triscuits good for a charcuterie board?", "answer": "Yes, and specifically for aged cheddar, aged gouda and Manchego. They're a poor choice for soft or fresh cheeses."}, {"question": "Whole wheat crackers vs. water crackers — which do I need?", "answer": "Both, ideally. Water crackers for delicate cheeses, whole wheat for aged ones. If you only buy one for a mixed board, buy water crackers."}, {"question": "Why do they taste stale so fast?", "answer": "The wheat germ's natural oils oxidize. Buy small boxes and check the date."}, {"question": "Are they healthier than other crackers?", "answer": "More fiber and whole grain, yes. On a board loaded with cheese and cured meat, the cracker isn't where the calories are."}]"

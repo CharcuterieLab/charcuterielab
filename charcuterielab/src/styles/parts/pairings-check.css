@@ -10,3 +10,5 @@
 .pr-rcombos em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
 .pr-rgrid-sm .pr-rcard span{font-size:12px}
 .lab-tweak{font-size:14px;font-weight:700;color:var(--muted)}
+.pr-skip{list-style:none;padding:0;margin:6px 0 0;display:grid;gap:6px}
+.pr-skip li{padding:8px 12px;border-radius:10px;background:#f8efec;border:1px solid rgba(138,44,34,.12);line-height:1.5}

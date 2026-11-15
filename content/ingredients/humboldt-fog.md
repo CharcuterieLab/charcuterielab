@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "american", "goat", "showpiece"]
-pairs_with: ["bucheron", "fresh-chevre", "valencay", "fruit-and-nut-crisps"]
+pairs_with: ["bucheron", "fresh-chevre", "valencay", "fruit-and-nut-crisps", "honey", "berries", "figs", "almonds", "pistachios"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "What's the black line in Humboldt Fog?", "answer": "Vegetable ash, added as a layer during making. It's edible, tasteless, and purely visual — inspired by French ash-layered cheeses."}, {"question": "Can you eat the rind?", "answer": "Yes. The bloomy rind and the ash are both edible."}, {"question": "Why is the center chalky?", "answer": "The bloomy rind ripens the cheese from the outside in. The dense center hasn't broken down, and that contrast is the style."}, {"question": "Humboldt Fog or Bucheron?", "answer": "Bucheron is the French relative at about half the price and does a similar job. Humboldt Fog is prettier and more refined."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's expensive and rich."}]"
 ---

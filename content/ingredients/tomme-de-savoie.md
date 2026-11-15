@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "alpine", "rustic"]
-pairs_with: ["morbier", "comte", "fontina", "baguette"]
+pairs_with: ["morbier", "comte", "fontina", "baguette", "cornichons", "apples", "pears", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Can you eat the rind?", "answer": "Yes, technically — it's a natural mold rind and it tastes of cellar and mushroom. It's tough, and most people trim it."}, {"question": "Is Tomme a specific cheese?", "answer": "Tomme is a general term for French mountain cheeses. Tomme de Savoie is a specific IGP-protected one."}, {"question": "Why is it low in fat?", "answer": "It was traditionally made from milk left after cream was skimmed for butter."}, {"question": "Is it strong?", "answer": "No — mild and earthy. The rind smells more assertive than the paste tastes."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

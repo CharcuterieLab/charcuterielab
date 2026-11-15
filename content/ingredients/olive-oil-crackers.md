@@ -13,7 +13,7 @@ serving_per_person: "4–5 crackers"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["crackers", "italian", "mediterranean", "artisan"]
-pairs_with: ["rosemary-crackers", "sesame-crackers", "water-crackers", "burrata", "fresh-mozzarella", "ricotta", "mortadella", "prosciutto-di-parma", "dukkah"]
+pairs_with: ["rosemary-crackers", "sesame-crackers", "water-crackers", "burrata", "fresh-mozzarella", "ricotta", "mortadella", "prosciutto-di-parma", "dukkah", "pesto", "tapenade", "honey"]
 avoid_with: ["blue-cheese", "dessert-boards"]
 faq: "[{"question": "How is this different from a butter cracker?", "answer": "Same idea, different fat. Butter reads creamy and rounds off sharp flavors; olive oil reads fruity and peppery and adds seasoning instead."}, {"question": "What cheese goes best with olive oil crackers?", "answer": "Fresh cheeses — burrata, mozzarella, ricotta — then aged parmesan and pecorino."}, {"question": "How many per person?", "answer": "4–5. They're thin and people take several."}, {"question": "Are croccantini and olive oil crackers the same thing?", "answer": "Croccantini is a brand-style name for the Italian version. Same category."}, {"question": "Can I make them?", "answer": "Yes, and easily — flour, olive oil, water, salt, rolled very thin, 400°F for 10 minutes. One of the best cracker projects for a beginner."}]"
 ---

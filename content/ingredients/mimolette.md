@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "aged", "showpiece"]
-pairs_with: ["aged-gouda", "edam", "aged-cheddar", "whole-wheat-crackers"]
+pairs_with: ["aged-gouda", "edam", "aged-cheddar", "whole-wheat-crackers", "dark-chocolate", "dried-apricots", "hazelnuts", "walnuts"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Are there really mites in the rind?", "answer": "Yes — cheese mites are deliberately introduced to aerate the surface during aging. They're brushed off before sale, and you trim the rind anyway."}, {"question": "Is it safe to eat?", "answer": "Yes. It's been made this way for centuries. Trim the rind and eat the paste."}, {"question": "Why is it orange?", "answer": "Annatto, a natural colouring from achiote seeds — the same thing used in orange cheddar."}, {"question": "What does it taste like?", "answer": "Butterscotch and toasted hazelnut, salty, with crystals in the aged version. Close to a very good aged gouda."}, {"question": "How much per person?", "answer": "About 1 oz. It's dense and rich."}]"
 ---

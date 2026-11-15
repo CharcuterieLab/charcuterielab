@@ -13,7 +13,7 @@ serving_per_person: "3–4 oatcakes"
 prep_time: "1 minute"
 allergens: ["oats", "gluten"]
 tags: ["scottish", "blue cheese", "hearty", "underrated"]
-pairs_with: ["rye-crispbread", "digestive-biscuits", "whole-wheat-crackers", "burrata", "aged-cheddar", "gorgonzola", "smoked-salmon", "mango-chutney"]
+pairs_with: ["rye-crispbread", "digestive-biscuits", "whole-wheat-crackers", "burrata", "aged-cheddar", "gorgonzola", "smoked-salmon", "mango-chutney", "roquefort", "honey"]
 avoid_with: ["delicate-fresh-cheese", "caviar"]
 faq: "[{"question": "Are oatcakes gluten-free?", "answer": "Standard oats are cross-contaminated with wheat, so most aren't. Nairn's makes a certified gluten-free version using pure oats."}, {"question": "What cheese goes best with oatcakes?", "answer": "Blue cheese, and it isn't close. Then aged cheddar."}, {"question": "Rough or fine milled?", "answer": "Rough for blue cheese and strong flavors, fine for smoked salmon and anything delicate."}, {"question": "Are they sweet?", "answer": "Only faintly — the sweetness comes from the oats themselves, not added sugar. They read as savory on a board."}, {"question": "Where do I find them in an American store?", "answer": "The international or world foods aisle, not the cracker aisle. Whole Foods stocks Nairn's most reliably."}]"
 ---

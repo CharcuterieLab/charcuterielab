@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "spanish", "aged", "underrated"]
-pairs_with: ["manchego", "idiazabal", "roncal", "olive-oil-crackers", "chorizo", "jamon-serrano"]
+pairs_with: ["manchego", "idiazabal", "roncal", "olive-oil-crackers", "chorizo", "jamon-serrano", "olive-oil", "membrillo", "marcona-almonds"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is Mahón a sheep cheese like Manchego?", "answer": "No — it's cow's milk. That's the main difference, and it's why it's buttery rather than nutty."}, {"question": "Why is the rind orange?", "answer": "It's rubbed with paprika and olive oil during aging, as protection. The paste isn't spiced."}, {"question": "What does it taste like?", "answer": "Buttery and tangy with a saline edge — somewhere between cheddar and Manchego."}, {"question": "Which age should I buy?", "answer": "Semicurado for a general board, curado if you want more intensity."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

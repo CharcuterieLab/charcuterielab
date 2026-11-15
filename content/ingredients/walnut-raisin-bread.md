@@ -13,7 +13,7 @@ serving_per_person: "2 pieces"
 prep_time: "3 minutes"
 allergens: ["wheat", "gluten", "tree nuts"]
 tags: ["bread", "blue cheese", "cheese shop", "holiday"]
-pairs_with: ["fruit-and-nut-crisps", "pumpernickel", "sourdough", "brie", "triple-creme", "fresh-chevre", "prosciutto-di-parma", "genoa-salami"]
+pairs_with: ["fruit-and-nut-crisps", "pumpernickel", "sourdough", "brie", "triple-creme", "fresh-chevre", "prosciutto-di-parma", "genoa-salami", "aged-cheddar", "honey", "aged-gouda"]
 avoid_with: ["delicate-fresh-cheese", "cured-meat"]
 faq: "[{"question": "What cheese goes with walnut raisin bread?", "answer": "Blue cheese first — Stilton, Roquefort or Gorgonzola. Then aged cheddar and triple-crème."}, {"question": "Why do cheese shops sell this bread?", "answer": "Because it sells blue cheese. The sweet-and-tannic combination is the same thing port does, in a form you can slice."}, {"question": "Should I toast it?", "answer": "Yes, lightly. It releases the walnut oils and makes a noticeable difference."}, {"question": "How much per person?", "answer": "2 small pieces. It's dense and rich."}, {"question": "Can I freeze it?", "answer": "Yes, and it freezes better than any other bread in this section. Slice first, then toast from frozen."}]"
 ---

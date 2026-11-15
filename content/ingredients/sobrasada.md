@@ -14,7 +14,7 @@ serving_per_person: "0.75–1 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "spreadable", "mallorcan"]
-pairs_with: ["nduja", "chorizo", "crostini", "manchego", "mahon"]
+pairs_with: ["nduja", "chorizo", "crostini", "manchego", "mahon", "honey", "membrillo", "piquillo-peppers"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is sobrasada the same as 'nduja?", "answer": "Same idea, different country and heat level. Sobrasada is Mallorcan and paprika-sweet; 'nduja is Calabrian and chili-hot."}, {"question": "Do I have to warm it?", "answer": "It's much better warm. Cold sobrasada is firm and reads as greasy."}, {"question": "What's the traditional pairing?", "answer": "Warm bread with honey drizzled over the sobrasada. It sounds odd and it's excellent."}, {"question": "How much per person?", "answer": "Three-quarters of an ounce to an ounce. It's very rich."}, {"question": "Is it spicy?", "answer": "Usually mild — most sobrasada uses sweet pimentón. Hot versions exist and say so."}]"
 ---

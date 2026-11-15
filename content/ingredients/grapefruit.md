@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "10 minutes"
 allergens: []
 tags: ["fruit", "citrus", "winter", "seasonal"]
-pairs_with: ["burrata", "fresh-chevre", "ricotta", "prosciutto-di-parma", "pistachios"]
+pairs_with: ["burrata", "fresh-chevre", "ricotta", "prosciutto-di-parma", "pistachios", "almonds"]
 avoid_with: []
 faq: "[{"question": "How do I cut grapefruit for a charcuterie board?", "answer": "Supreme it — peel and pith off with a knife, then cut each segment away from its membranes. Wedges with membrane on are too chewy and bitter."}, {"question": "Which grapefruit is sweetest?", "answer": "Ruby Red or Rio Star. White marsh is noticeably more bitter."}, {"question": "What cheese goes with grapefruit?", "answer": "Burrata, fresh ricotta, and fresh goat cheese. Avoid blue and aged cheeses."}, {"question": "How do I make it less bitter?", "answer": "Flaky salt suppresses bitterness, and a little honey brings out the sweetness. Pink varieties are milder to begin with."}, {"question": "Can I use jarred segments?", "answer": "Yes. Drain and blot them well. It's a reasonable shortcut for a big board."}]"
 ---

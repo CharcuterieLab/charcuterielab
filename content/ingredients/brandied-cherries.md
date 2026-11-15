@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "2 minutes"
 allergens: []
 tags: ["fruit", "preserved", "luxury", "alcohol", "unique"]
-pairs_with: ["gorgonzola", "stilton", "mascarpone", "duck-prosciutto", "aged-gouda", "biscotti", "amaretti", "shortbread"]
+pairs_with: ["gorgonzola", "stilton", "mascarpone", "duck-prosciutto", "aged-gouda", "biscotti", "amaretti", "shortbread", "dark-chocolate", "manchego"]
 avoid_with: []
 faq: "[{"question": "Are brandied cherries the same as maraschino cherries?", "answer": "Not the bright red kind. Luxardo maraschino cherries are dark, syrup-preserved and genuinely good; the neon red ones are dyed and firm."}, {"question": "How do I serve them on a board?", "answer": "In a small dish with a spoon and a little of their syrup — never loose on the wood."}, {"question": "Are they alcoholic?", "answer": "Luxardo and Amarena are only lightly so. Home-brandied and kirsch-packed cherries are noticeably boozy."}, {"question": "What cheese goes with brandied cherries?", "answer": "Blue cheeses, mascarpone, and aged gouda. Spoon the syrup over soft cheese."}, {"question": "How long do they keep?", "answer": "Months in the fridge once opened — the sugar and alcohol preserve them."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "2–3 pieces"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "acid", "artisan", "classic"]
-pairs_with: ["baguette", "crostini", "whole-wheat-crackers", "triple-creme", "aged-cheddar", "gorgonzola", "coppa", "smoked-salmon"]
+pairs_with: ["baguette", "crostini", "whole-wheat-crackers", "triple-creme", "aged-cheddar", "gorgonzola", "coppa", "smoked-salmon", "olive-oil", "honey"]
 avoid_with: ["pickled-toppings", "delicate-fresh-cheese"]
 image_alt: "Torn pieces of blistered sourdough with open crumb beside aged cheddar and olive oil"
 faq: "[{"question": "How do I know if supermarket sourdough is real?", "answer": "Read the ingredients. Real sourdough has no commercial yeast and no added acids. A dense, chewy crumb and a thick dark crust are good signs."}, {"question": "Sourdough or baguette — which should I buy?", "answer": "Baguette for soft and delicate cheeses, sourdough for rich and aged ones. If the board leans rich, sourdough."}, {"question": "How much do I need?", "answer": "2–3 torn pieces per person. Half a small loaf covers six people alongside crackers."}, {"question": "Is sourdough easier to digest?", "answer": "Long fermentation breaks down some gluten and phytic acid, and some people find it sits better. It is not gluten-free and is unsafe for celiac disease."}, {"question": "Can I use day-old sourdough?", "answer": "Yes — toast it or turn it into crostini. Day-old sourdough is better toasted than fresh sourdough is."}]"

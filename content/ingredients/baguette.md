@@ -13,7 +13,7 @@ serving_per_person: "3–4 slices"
 prep_time: "5 minutes"
 allergens: ["wheat", "gluten"]
 tags: ["bread", "neutral base", "classic", "french"]
-pairs_with: ["crostini", "sourdough", "water-crackers", "brie", "camembert", "triple-creme", "rillettes", "prosciutto-di-parma", "tapenade", "mixed-marinated-olives", "marinated-artichokes", "sun-dried-tomatoes", "olive-oil", "rosemary-sprigs", "fresh-thyme"]
+pairs_with: ["crostini", "sourdough", "water-crackers", "brie", "camembert", "triple-creme", "rillettes", "prosciutto-di-parma", "tapenade", "mixed-marinated-olives", "marinated-artichokes", "sun-dried-tomatoes", "olive-oil", "rosemary-sprigs", "fresh-thyme", "fresh-chevre"]
 avoid_with: ["wet-marinated-toppings"]
 image_alt: "Diagonally sliced baguette rounds fanned beside a wedge of brie and cultured butter"
 faq: "[{"question": "How much baguette per person?", "answer": "3–4 slices, or roughly half a loaf per six people when crackers are also out."}, {"question": "Should I slice it or tear it?", "answer": "Slice for a clean board, tear for a rustic one. Do both — a few torn pieces among the slices looks intentional."}, {"question": "Can I slice it the night before?", "answer": "No. Slice it the day of and cover with a towel. Cut surfaces stale within hours."}, {"question": "Should I toast it?", "answer": "Only if the toppings are wet or you're making crostini. Otherwise the contrast between crisp crust and soft crumb is the point, and toasting removes it."}, {"question": "Can I freeze a baguette?", "answer": "Yes, wrapped tightly, for about a month. Thaw at room temperature, then 5 minutes at 350°F to bring the crust back."}]"

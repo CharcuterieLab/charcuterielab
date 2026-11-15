@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "15 min to temper"
 allergens: []
 tags: ["cured meat", "spanish", "catalan", "snacking"]
-pairs_with: ["salchichon", "chorizo", "garrotxa", "olive-oil-crackers", "manchego"]
+pairs_with: ["salchichon", "chorizo", "garrotxa", "olive-oil-crackers", "manchego", "marcona-almonds", "fig-jam", "membrillo"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Can you eat the white coating?", "answer": "Yes. It's an edible Penicillium mould, deliberately cultivated, and it adds flavour. Leave it on."}, {"question": "Do I slice fuet or snap it?", "answer": "Traditionally snapped into rough pieces by hand. Thin diagonal slices also work."}, {"question": "Fuet or saucisson sec?", "answer": "Fuet is thinner, milder and Catalan; saucisson is thicker, tangier and French. Fuet is the more casual of the two."}, {"question": "How much per person?", "answer": "1–1.5 oz. People graze on it, so err generous."}, {"question": "Why is it so cheap?", "answer": "It's thin, so it dries in weeks rather than months. Less time means less cost."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "5 minutes"
 allergens: ["lupin"]
 tags: ["briny", "italian", "unique", "vegan", "budget"]
-pairs_with: ["castelvetrano-olives", "pepperoncini", "feta", "taralli", "chili-flakes"]
+pairs_with: ["castelvetrano-olives", "pepperoncini", "feta", "taralli", "chili-flakes", "olive-oil"]
 avoid_with: ["dessert"]
 faq: "[{"question": "What are lupini beans?", "answer": "The seeds of the lupin plant, soaked and brined to remove their natural bitterness. They're a traditional bar snack in Italy, Portugal and the Middle East."}, {"question": "Do you eat the skin?", "answer": "You can. Many people nick the skin with their teeth and pop the bean out, which is half the fun. The skin is edible, just chewy."}, {"question": "Can someone with a peanut allergy eat lupini?", "answer": "Be careful. Lupin is a legume related to peanuts, and some people with peanut allergies react to it. It's a listed allergen in Europe."}, {"question": "Why are they so salty?", "answer": "They're stored in brine. Rinse them and soak for 10 minutes in fresh water if they're too salty."}, {"question": "Are lupini beans keto?", "answer": "They're high in protein and fiber and very low in net carbs, so they fit most keto boards."}]"
 ---

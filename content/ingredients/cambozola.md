@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "german", "beginner"]
-pairs_with: ["gorgonzola", "brie", "danish-blue", "water-crackers", "prosciutto-di-parma"]
+pairs_with: ["gorgonzola", "brie", "danish-blue", "water-crackers", "prosciutto-di-parma", "fig-jam", "honey", "grapes", "pears", "walnuts", "baguette"]
 avoid_with: ["cabrales", "roquefort"]
 faq: "[{"question": "Is Cambozola a real cheese or a brand?", "answer": "Both — it's a genuine German cheese, invented in the 1970s, but the name is a trademark rather than a traditional designation."}, {"question": "Is it actually blue cheese?", "answer": "Yes, with Penicillium roqueforti veining. It's just very mild, because the added cream blunts the sharpness."}, {"question": "Can you eat the rind?", "answer": "Yes, it's a bloomy rind like brie's."}, {"question": "What if my guests don't like blue cheese?", "answer": "This is the cheese for them. Serve it with honey and don't mention the word blue until after they've tried it."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich but people take more of it than of a sharper blue."}]"
 ---

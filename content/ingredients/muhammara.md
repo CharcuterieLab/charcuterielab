@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "5 minutes"
 allergens: ["tree nuts"]
 tags: ["dip", "middle-eastern", "syrian", "vegan", "unique"]
-pairs_with: ["pita-chips", "feta", "fresh-chevre", "lavash", "pomegranate"]
+pairs_with: ["pita-chips", "feta", "fresh-chevre", "lavash", "pomegranate", "baba-ganoush", "hummus"]
 avoid_with: []
 faq: "[{"question": "What is muhammara?", "answer": "A Syrian dip of roasted red peppers and walnuts with pomegranate molasses, breadcrumbs and Aleppo pepper. Sweet, sour, nutty and mildly hot."}, {"question": "Is muhammara spicy?", "answer": "Mildly. Aleppo pepper gives fruity warmth rather than sharp heat."}, {"question": "What's the difference between muhammara and romesco?", "answer": "Both are pepper-and-nut dips, but muhammara uses walnuts and pomegranate molasses and is sweeter and sourer; romesco uses almonds and smoked paprika."}, {"question": "Does it contain nuts?", "answer": "Yes — walnuts. It's a tree nut allergen worth flagging on a board."}, {"question": "What do you serve it with?", "answer": "Pita chips, flatbread, feta, fresh goat cheese, and raw vegetables."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "10 minutes"
 allergens: ["dairy"]
 tags: ["cheese", "flavored", "holiday", "goat"]
-pairs_with: ["fresh-chevre", "wensleydale-cranberry", "bucheron", "water-crackers", "prosciutto-di-parma", "pumpkin-seeds"]
+pairs_with: ["fresh-chevre", "wensleydale-cranberry", "bucheron", "water-crackers", "prosciutto-di-parma", "pumpkin-seeds", "honey", "pistachios", "walnuts"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "Should I just make it myself?", "answer": "Yes, if you have ten minutes. Roll a plain chèvre log in chopped dried cranberries, pistachios and rosemary. It's fresher, cheaper and adjustable."}, {"question": "How do I slice it without wrecking it?", "answer": "Floss or thin wire. A knife drags the coating through the white paste."}, {"question": "Is it a savory or a dessert cheese?", "answer": "Savory, on the sweet end. The cinnamon versions tip into dessert."}, {"question": "How much per person?", "answer": "1–1.5 oz."}, {"question": "What's the best pairing?", "answer": "Water crackers and honey, or prosciutto if you want the salt contrast."}]"
 ---

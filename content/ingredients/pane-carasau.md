@@ -13,7 +13,7 @@ serving_per_person: "2–3 shards"
 prep_time: "1 minute"
 allergens: ["wheat", "gluten"]
 tags: ["italian", "sardinian", "photogenic", "ancient"]
-pairs_with: ["friselle", "taralli", "lavash", "burrata", "ricotta", "bottarga", "prosciutto-di-parma"]
+pairs_with: ["friselle", "taralli", "lavash", "burrata", "ricotta", "bottarga", "prosciutto-di-parma", "olive-oil", "honey"]
 avoid_with: ["thick-dips", "wet-toppings"]
 faq: "[{"question": "Why is it called music paper bread?", "answer": "Because the sheets are as thin as sheet music. Carta da musica is the Italian name; pane carasau is the Sardinian one."}, {"question": "How do I serve it?", "answer": "Break it into large shards by hand and stand a few upright on the board. Don't cut it."}, {"question": "What is pane guttiau?", "answer": "The same bread brushed with olive oil, salted and warmed. Five minutes of work for a large improvement."}, {"question": "How many per person?", "answer": "2–3 shards."}, {"question": "Can I dip with it?", "answer": "No. It's the most fragile base in this whole section and it will snap."}]"
 ---

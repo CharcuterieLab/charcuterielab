@@ -13,7 +13,7 @@ serving_per_person: "garnish"
 prep_time: "2 minutes"
 allergens: []
 tags: ["finishing", "herbs", "garnish", "budget", "essential"]
-pairs_with: ["manchego", "marcona-almonds", "aged-gouda", "spiced-nut-mix", "baguette"]
+pairs_with: ["manchego", "marcona-almonds", "aged-gouda", "spiced-nut-mix", "baguette", "focaccia"]
 avoid_with: []
 faq: "[{"question": "What is a sprig of rosemary?", "answer": "A sprig is one cut stem of the rosemary plant, usually 2 to 4 inches long, with the needle-like leaves still attached. When a recipe calls for one sprig, strip the leaves from a stem that size."}, {"question": "Can you eat rosemary sprigs on a charcuterie board?", "answer": "You can, but they're tough and resinous raw. On a board they're a garnish and an aromatic, not something to eat."}, {"question": "How many sprigs do I need?", "answer": "Two or three on a standard board. Enough to fill gaps, not enough to look like landscaping."}, {"question": "How do I make the board smell of rosemary?", "answer": "Run your fingers firmly along the needles before laying the sprig down. Bruising releases the oils."}, {"question": "Where do I put them?", "answer": "In the gaps between piles, and tucked under the edge of a cheese wedge so they look placed."}, {"question": "How long does fresh rosemary keep?", "answer": "About two weeks in the fridge in its clamshell, or indefinitely on a plant."}]"
 ---

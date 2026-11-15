@@ -13,7 +13,7 @@ serving_per_person: "0.5–1 oz"
 prep_time: "0 minutes"
 allergens: []
 tags: ["fruit", "dried", "french", "budget", "year-round"]
-pairs_with: ["gorgonzola", "roquefort", "aged-gouda", "coppa", "walnuts"]
+pairs_with: ["gorgonzola", "roquefort", "aged-gouda", "coppa", "walnuts", "rillettes"]
 avoid_with: []
 faq: "[{"question": "Are prunes just dried plums?", "answer": "Yes — specifically plum varieties with enough sugar to dry whole. \"Dried plums\" is the marketing name for the same thing."}, {"question": "What cheese goes with prunes?", "answer": "Roquefort, gorgonzola and other blues, plus aged gouda and aged sheep cheeses."}, {"question": "How do I make prunes look better on a board?", "answer": "Halve them and set them cut-side up, or soak them in Armagnac and serve them glossy."}, {"question": "Are Agen prunes worth the extra money?", "answer": "Yes, if the board is the point. They're markedly moister and more complex than supermarket prunes."}, {"question": "How many per person?", "answer": "Two or three. They're rich and dense."}]"
 ---

@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "goat", "showpiece"]
-pairs_with: ["valencay", "crottin-de-chavignol", "bucheron", "water-crackers"]
+pairs_with: ["valencay", "crottin-de-chavignol", "bucheron", "water-crackers", "honey", "cherries", "figs", "walnuts", "fresh-thyme"]
 avoid_with: ["blue-cheese", "everything-crackers"]
 faq: "[{"question": "What's the straw for?", "answer": "Structural support. The log is fragile while it drains and ripens, and the straw holds it together. It's also stamped with the producer's number as a mark of authenticity."}, {"question": "Do I remove the straw?", "answer": "Yes, before slicing. Pull it out at the table — it's a nice moment."}, {"question": "Can you eat the ash?", "answer": "Yes. Vegetable ash is edible, essentially tasteless, and helps the rind develop."}, {"question": "How do I slice it cleanly?", "answer": "Floss or thin wire. A knife drags the black ash through the white paste."}, {"question": "How much per person?", "answer": "1–1.5 oz. One log serves six to eight."}]"
 ---

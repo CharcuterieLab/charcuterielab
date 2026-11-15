@@ -13,7 +13,7 @@ serving_per_person: "1 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "spanish", "smoked", "sheep"]
-pairs_with: ["manchego", "roncal", "mahon", "olive-oil-crackers", "chorizo", "jamon-serrano", "marcona-almonds", "membrillo", "manzanilla-olives"]
+pairs_with: ["manchego", "roncal", "mahon", "olive-oil-crackers", "chorizo", "jamon-serrano", "marcona-almonds", "membrillo", "manzanilla-olives", "honey", "roasted-red-peppers"]
 avoid_with: ["smoked-gouda", "delicate-fresh-cheese"]
 faq: "[{"question": "Is Idiazábal always smoked?", "answer": "No. Both smoked and unsmoked wheels are made. Look for ahumado if you want the smoke."}, {"question": "How smoky is it?", "answer": "Gentle — the smoke sits behind the nutty sheep's-milk flavor rather than in front of it. Far subtler than commercial smoked cheese."}, {"question": "Idiazábal or Manchego?", "answer": "Manchego is the safe, widely-liked one. Idiazábal is more distinctive and more expensive."}, {"question": "Can you eat the rind?", "answer": "No. Trim it."}, {"question": "How much per person?", "answer": "About 1 oz. It's rich and assertive."}]"
 ---

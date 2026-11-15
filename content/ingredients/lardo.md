@@ -13,7 +13,7 @@ serving_per_person: "0.5 oz"
 prep_time: "15 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "tuscan", "specialty"]
-pairs_with: ["guanciale", "pancetta", "crostini", "pecorino-toscano", "taralli"]
+pairs_with: ["guanciale", "pancetta", "crostini", "pecorino-toscano", "taralli", "cracked-black-pepper", "figs", "honey"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is lardo just fat?", "answer": "Yes — cured pork back fat with herbs and salt. What makes it a delicacy is the cure, the age and how thin it's sliced."}, {"question": "Is it the same as lard?", "answer": "No. Lard is rendered fat used for cooking. Lardo is cured and sliced, eaten as charcuterie."}, {"question": "Why marble?", "answer": "The basins in Colonnata are carved from local marble, which stays cool and slightly porous. Producers credit it for the texture."}, {"question": "How much per person?", "answer": "About half an ounce — three or four translucent slices."}, {"question": "How do I serve it?", "answer": "On warm bread, so it melts. That's the only version worth doing."}]"
 ---

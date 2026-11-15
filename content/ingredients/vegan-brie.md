@@ -13,7 +13,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "45 min to temper"
 allergens: ["tree nuts"]
 tags: ["cheese", "plant-based", "vegan", "showpiece"]
-pairs_with: ["cashew-cheese", "almond-ricotta", "vegan-cream-cheese", "water-crackers"]
+pairs_with: ["cashew-cheese", "almond-ricotta", "vegan-cream-cheese", "water-crackers", "fig-jam", "baguette", "grapes", "pears", "marcona-almonds", "walnuts"]
 avoid_with: ["dairy-cheese-comparisons"]
 faq: "[{"question": "Is vegan brie actually made with the same mold?", "answer": "Yes — the better ones use Penicillium candidum, the same surface mold as dairy brie, and it forms a real rind."}, {"question": "Does it taste like brie?", "answer": "Close in character — rich, tangy, faintly mushroomy — but nuttier underneath. It's good on its own terms rather than indistinguishable."}, {"question": "Can you eat the rind?", "answer": "Yes, exactly as with dairy brie."}, {"question": "Why is it so expensive?", "answer": "Cashews are costly, the cultures and aging take weeks, and production is small."}, {"question": "How much per person?", "answer": "1–1.5 oz."}]"
 ---

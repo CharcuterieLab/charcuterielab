@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "spanish", "goat", "showpiece"]
-pairs_with: ["garrotxa", "manchego", "fresh-chevre", "olive-oil-crackers", "jamon-serrano"]
+pairs_with: ["garrotxa", "manchego", "fresh-chevre", "olive-oil-crackers", "jamon-serrano", "membrillo", "marcona-almonds", "figs", "grapes", "honey"]
 avoid_with: ["blue-cheese"]
 faq: "[{"question": "Does it taste like wine?", "answer": "Only faintly, right at the rind. The paste is mild, sweet goat cheese."}, {"question": "Is the purple rind natural?", "answer": "Yes — it's stained by a three-day soak in red wine, not dyed."}, {"question": "Can you eat the rind?", "answer": "It's edible but tastes of dry tannin. Most people trim it."}, {"question": "Is it strong for a goat cheese?", "answer": "No, the opposite. It's one of the mildest goat cheeses available, with almost none of the usual tang."}, {"question": "How much per person?", "answer": "1–2 oz."}]"
 ---

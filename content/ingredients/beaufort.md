@@ -13,7 +13,7 @@ serving_per_person: "1–2 oz"
 prep_time: "30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "french", "alpine", "aged"]
-pairs_with: ["comte", "gruyere", "emmental", "baguette"]
+pairs_with: ["comte", "gruyere", "emmental", "baguette", "hazelnuts", "walnuts", "apples", "pears", "cornichons"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "How is Beaufort different from Comté?", "answer": "Beaufort is made from whole unskimmed milk, so it's denser and richer, with more floral and fruity notes. Comté is more varied and cheaper."}, {"question": "Why is the wheel concave?", "answer": "It's pressed in a beechwood hoop called a cercle à Beaufort, which curves the sides inward. It's the easiest way to identify it."}, {"question": "What is *d'Alpage*?", "answer": "Summer cheese made from a single herd grazing high mountain pasture. Rarer, more expensive, and noticeably more floral."}, {"question": "Can you eat the rind?", "answer": "Trim it — it's natural but tough."}, {"question": "How much per person?", "answer": "1–2 oz. It's rich and expensive, so a small piece is right."}]"
 ---

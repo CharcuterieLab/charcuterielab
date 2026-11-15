@@ -14,7 +14,7 @@ serving_per_person: "0.5 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "roman", "rich"]
-pairs_with: ["pancetta", "lardo", "pecorino-romano", "crostini", "taralli"]
+pairs_with: ["pancetta", "lardo", "pecorino-romano", "crostini", "taralli", "cracked-black-pepper", "cornichons"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "What's the difference between guanciale and pancetta?", "answer": "Guanciale is jowl, pancetta is belly. Guanciale is fattier, softer and more delicate; Romans consider it non-substitutable in carbonara."}, {"question": "Can I eat it raw?", "answer": "Yes, thinly sliced — it's a dry cure. Many people prefer it crisped."}, {"question": "Why is it so expensive?", "answer": "There are only two jowls per pig, and the cure takes months."}, {"question": "How much per person?", "answer": "About half an ounce. It's the richest thing in this category."}, {"question": "Should I crisp it instead?", "answer": "For most boards, yes. A few minutes in a dry pan makes shards that everyone likes."}]"
 ---

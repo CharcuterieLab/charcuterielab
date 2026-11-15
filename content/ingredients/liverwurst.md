@@ -15,7 +15,7 @@ serving_per_person: "1–1.5 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "german", "liver", "budget"]
-pairs_with: ["teewurst", "pate-de-campagne", "rillettes", "cocktail-rye", "pumpernickel"]
+pairs_with: ["teewurst", "pate-de-campagne", "rillettes", "cocktail-rye", "pumpernickel", "cornichons", "apples"]
 avoid_with: ["smoked-cheese", "delicate-fresh-cheese"]
 faq: "[{"question": "Is braunschweiger the same as liverwurst?", "answer": "Effectively yes — braunschweiger is smoked liverwurst, named after the German city. Same product, extra step."}, {"question": "Is it cooked?", "answer": "Yes, fully cooked and ready to eat."}, {"question": "Why does everyone serve it with onion?", "answer": "Sharp raw allium cuts the mineral richness of liver. It's the pairing that makes the sausage work, and skipping it is why people think they dislike it."}, {"question": "How much per person?", "answer": "1–1.5 oz."}, {"question": "Liverwurst or pâté de campagne?", "answer": "Liverwurst is smooth, cheap and German. Pâté is coarse, pricier and French. The pâté has more texture; the liverwurst is milder."}]"
 ---

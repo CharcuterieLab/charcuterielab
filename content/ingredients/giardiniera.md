@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "3 minutes"
 allergens: []
 tags: ["pickles", "italian", "chicago", "budget", "vegetarian"]
-pairs_with: ["soppressata", "fresh-mozzarella", "mortadella", "coppa", "aged-provolone"]
+pairs_with: ["soppressata", "fresh-mozzarella", "mortadella", "coppa", "aged-provolone", "focaccia"]
 avoid_with: []
 faq: "[{"question": "What is giardiniera?", "answer": "Mixed pickled vegetables — usually cauliflower, carrot, celery and pepper. Italian versions are in vinegar; Chicago-style versions are in oil with hot peppers."}, {"question": "What's the difference between Italian and Chicago giardiniera?", "answer": "Italian is vinegar-packed, crisp and mild. Chicago-style is oil-packed, coarser and much spicier."}, {"question": "Which should I buy for a cheese board?", "answer": "Vinegar-packed Italian. The oil-packed version is better on a meat and bread board."}, {"question": "Is it spicy?", "answer": "Chicago-style usually is. Both are sold in mild versions — check the label."}, {"question": "How much per person?", "answer": "About three-quarters of an ounce."}]"
 ---

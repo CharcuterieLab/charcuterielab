@@ -13,7 +13,7 @@ serving_per_person: "2 pieces"
 prep_time: "12 minutes"
 allergens: []
 tags: ["gluten-free", "bread", "make-ahead", "toasted"]
-pairs_with: ["socca", "cassava-crackers", "crostini", "brie", "camembert", "ricotta", "smoked-salmon", "prosciutto-di-parma"]
+pairs_with: ["socca", "cassava-crackers", "crostini", "brie", "camembert", "ricotta", "smoked-salmon", "prosciutto-di-parma", "honey", "olive-oil"]
 avoid_with: []
 faq: "[{"question": "Why is gluten-free bread better toasted?", "answer": "It holds more water than wheat bread. Toasting drives that moisture off, which is what turns a dense, gummy slice into a crisp one."}, {"question": "Which gluten-free bread is best for a charcuterie board?", "answer": "Canyon Bakehouse for availability, Schär for the baguette-style loaves. Both make good crostini."}, {"question": "How do I avoid cross-contamination?", "answer": "Separate knife, separate board, separate toaster tray. Crumbs are the real risk, not the loaf."}, {"question": "How much per person?", "answer": "2 pieces, cut small. Toasted crostini go further than fresh slices."}, {"question": "Can I freeze it?", "answer": "Yes, and you should — most gluten-free bread is sold frozen because it stales within a day or two. Toast straight from frozen."}]"
 ---
