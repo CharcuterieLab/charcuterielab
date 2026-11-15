@@ -1,12 +1,14 @@
 ---
 title: "How to Make a Salami River on Your Charcuterie Board"
 date: "2026-05-06"
+updated: "2026-11-14"
 image: "/images/salami-river.webp"
 excerpt: "How to Make a Salami River on Your Charcuterie Board"
 description: "The salami river is the single most useful presentation technique for cured meats — and the one that makes a board look professional with five minutes of work. Here's exactly how to do it."
 meta_description: "The salami river is the single most useful presentation technique for cured meats — and the one that makes a board look professional with five minutes."
 slug: "salami-river"
 tags: "["charcuterie how-to", "salami river", "charcuterie presentation", "board building technique", "charcuterie tips"]"
+faq: "[{"question": "How much salami do you need for a salami river?", "answer": "About 4–6 oz for a river across a 12×18 inch board, which is one or two standard packs. Wider salami, around 3 inches across, folds best."}, {"question": "Can you make a salami river ahead of time?", "answer": "Yes. Build it up to a day ahead, cover the board tightly and refrigerate. Take it out about 20 minutes before serving so the fat softens and the salami tastes like itself again."}, {"question": "Why won't my salami slices fold?", "answer": "They're either too cold or too thick. Let cold slices sit for 5 minutes. If they still crack, they're thicker than 3 mm; fold them in half only, not into quarters."}, {"question": "What's the difference between a salami river and a salami rose?", "answer": "A river is a line of folded slices across the board; a rose is slices layered in a glass and turned out as a flower. See how to make a salami rose."}]"
 ---
 
 # How to Make a Salami River on Your Charcuterie Board
@@ -91,5 +93,31 @@ The salami river works as either the **dominant organizing structure** of the bo
 ## Why It Works
 
 Beyond aesthetics, the salami river solves a practical problem: thin-sliced salami laid flat in stacks becomes greasy and difficult to pick up cleanly, especially as it warms. The folded, standing presentation keeps each slice partially upright and distinct, making it easy for guests to take individual pieces without disturbing the whole arrangement. The river also stays looking good longer — flat stacks compress and pool oil; rivers maintain their form.
+
+---
+
+## FAQ
+
+**How much salami do you need for a salami river?**
+
+About 4–6 oz for a river across a 12×18 inch board, which is one or two standard packs. Wider salami, around 3 inches across, folds best.
+
+**Can you make a salami river ahead of time?**
+
+Yes. Build it up to a day ahead, cover the board tightly and refrigerate. Take it out about 20 minutes before serving so the fat softens and the salami tastes like itself again.
+
+**Why won't my salami slices fold?**
+
+They're either too cold or too thick. Let cold slices sit for 5 minutes. If they still crack, they're thicker than 3 mm; fold them in half only, not into quarters.
+
+**What's the difference between a salami river and a salami rose?**
+
+A river is a line of folded slices across the board; a rose is slices layered in a glass and turned out as a flower. See [how to make a salami rose](/blog/how-to-make-a-salami-rose/).
+
+## Related Reading
+
+- [How to Make a Prosciutto Rose](/blog/prosciutto-rose/)
+- [Charcuterie Board Presentation](/blog/charcuterie-board-presentation/)
+- [Types of Cured Meat](/blog/types-of-cured-meat/)
 
 > Get weekly techniques in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

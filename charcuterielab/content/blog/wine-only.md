@@ -1,12 +1,14 @@
 ---
 title: "Wine Is the Only Drink for a Cheese Board — Busted"
 date: "2026-04-27"
+updated: "2026-11-14"
 image: "/images/blog-wine-only.webp"
 excerpt: "Wine Is the Only Drink for a Cheese Board — Busted"
 description: "Wine pairs well with cheese, but it's far from the only drink that works — and for some cheeses, it's not even the best option. Here's the science behind which drinks actually pair best."
 meta_description: "Wine pairs well with cheese, but it's far from the only drink that works — and for some cheeses, it's not even the best option."
 slug: "wine-only"
 tags: "["charcuterie drinks", "cheese pairings", "wine and cheese", "beer and cheese", "spirits and cheese", "charcuterie board drinks"]"
+faq: "[{"question": "Is beer or wine better with cheese?", "answer": "Neither wins across the board. Wine is hard to beat with fresh goat cheese and Parmigiano. Beer is often better with aged cheddar, aged Gouda and washed-rind cheeses, because bubbles and malt handle fat and caramel flavors well."}, {"question": "What drink goes with a charcuterie board besides wine?", "answer": "Dry cider, amber ale, saison and wheat beer all work with a mixed board. For a single drink with everything, dry cider is the safest choice."}, {"question": "What spirit goes best with cheese?", "answer": "Bourbon with aged Gouda is the closest flavor match. Tawny Port with blue cheese and Calvados with Camembert are the classic pairings."}, {"question": "Can you serve cocktails with charcuterie?", "answer": "Yes. Pick cocktails with acid or bubbles, like a spritz or a French 75, and skip very sweet ones. See the cocktail pairing guide."}]"
 ---
 
 # Wine Is the Only Drink for a Cheese Board — Busted
@@ -71,7 +73,7 @@ Still and sparkling apple cider is one of the most versatile charcuterie board d
 
 This isn't an argument against wine. There are pairings where wine is clearly the optimal choice:
 
-- **Parmigiano-Reggiano + Lambrusco:** the sparkling, slightly tannic red wine from the same region as Parmigiano is the only beverage that matches the umami intensity, balances the salt, and provides the acid reset in a single glass.
+- **Parmigiano-Reggiano + Lambrusco:** the sparkling, slightly tannic red from the same region as Parmigiano matches the umami, balances the salt and resets the palate in a single glass. Few drinks do all three at once.
 - **Fresh goat cheese + Sauvignon Blanc:** the acid-on-acid complementarity here is difficult to replicate with beer or spirits.
 - **Aged Manchego + Fino Sherry:** the yeasty, oxidative, saline character of Fino echoes Manchego's production and is an essentially unreplicable pairing.
 
@@ -90,5 +92,44 @@ Instead of defaulting to wine, ask: what are the dominant flavor compounds in th
 - **Complex hard aged** cheeses (Parmigiano, Manchego) → specific regional wines, or let the cheese be the drink
 
 ---
+
+## No Alcohol? The Same Rules Apply
+
+The framework works without alcohol too, because it's about bubbles, acid and matching flavors, not about the alcohol itself:
+
+- **Sparkling apple cider or dry sparkling cider-style drinks:** bubbles and apple acidity, the same job as dry cider with Brie, Camembert and aged cheddar
+- **Tart cherry or pomegranate juice cut with soda water:** fruit and acid for blue cheese and aged Gouda
+- **Unsweetened iced tea:** a little tannin, so it works with hard cheese and salami
+
+There's more in the [zero-proof pairing guide](/pairings/zero-proof/).
+
+---
+
+## FAQ
+
+**Is beer or wine better with cheese?**
+
+Neither wins across the board. Wine is hard to beat with fresh goat cheese and Parmigiano. Beer is often better with aged cheddar, aged Gouda and washed-rind cheeses, because bubbles and malt handle fat and caramel flavors well.
+
+**What drink goes with a charcuterie board besides wine?**
+
+Dry cider, amber ale, saison and wheat beer all work with a mixed board. For a single drink with everything, dry cider is the safest choice.
+
+**What spirit goes best with cheese?**
+
+Bourbon with aged Gouda is the closest flavor match. Tawny Port with blue cheese and Calvados with Camembert are the classic pairings.
+
+**Can you serve cocktails with charcuterie?**
+
+Yes. Pick cocktails with acid or bubbles, like a spritz or a French 75, and skip very sweet ones. See the [cocktail pairing guide](/pairings/cocktails/).
+
+---
+
+## Related Reading
+
+- [Beer and Charcuterie: The Style-by-Style Pairing Guide](/blog/beer-pairing/)
+- [Whiskey and Cheese Pairing](/blog/whiskey-and-cheese-pairing/)
+- [Wine and Cheese Pairing Chart](/pairings/wine-and-cheese-chart/)
+- [Beer Pairings by Style](/pairings/beer/)
 
 > Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

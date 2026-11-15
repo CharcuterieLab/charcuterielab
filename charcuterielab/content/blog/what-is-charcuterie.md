@@ -1,12 +1,13 @@
 ---
 title: "What Is Charcuterie? The Complete, Science-Backed Answer"
 date: "2026-05-07"
+updated: "2026-11-14"
 image: "/images/what-is-charcuterie.webp"
 excerpt: "What Is Charcuterie? The Complete, ScienceBacked Answer"
 description: "What charcuterie actually means — the etymology, the history, the food categories it covers, and why the word now means something different than it used to."
-faq: "[{"question":"What does charcuterie mean?","answer":"Charcuterie (pronounced \"shar-KOO-tuh-ree\") is the French culinary art of preparing and preserving meat products through curing, smoking, salting, and fermentation. The word comes from the Old French \"chair cuite\" meaning \"cooked flesh.\" Traditionally, it encompassed pâtés, terrines, rillettes, sausages, and cured whole-muscle meats. In contemporary usage, it typically refers to any board or spread featuring these preserved meat products alongside cheeses and accompaniments."},{"question":"Is charcuterie a French word?","answer":"Yes. Charcuterie is French in origin and refers both to the craft of meat preservation and to the shop where these products are sold. In France, a charcutier (charcuterie artisan) specializes in pork products — sausages, pâtés, rillettes, boudin, and air-dried meats. The tradition has Italian and Spanish equivalents (salumeria, charcutería) with their own distinct products and methods."},{"question":"What is the difference between charcuterie and deli meat?","answer":"Charcuterie involves traditional preservation techniques — specific curing salts, controlled fermentation, extended aging, and artisanal production methods that developed flavor complexity over time. Deli meat is typically processed more quickly using industrial methods, often with more additives and fillers, producing a blander, more uniform product. True charcuterie has distinct terroir and craft character; deli meat is primarily functional."},{"question":"Is charcuterie always pork?","answer":"Traditionally, yes — the craft originated with pork preservation. Today, charcuterie includes cured beef (bresaola), duck (duck prosciutto, duck confit), game meats, and even fish preparations (though fish curing is typically categorized separately). The modern \"charcuterie board\" as a food trend includes all these variations plus cheese and other accompaniments, well beyond the original pork-focused definition."},{"question":"What is an American charcuterie board?","answer":"An American charcuterie board combines European cured meat traditions with American accessibility: grocery store cheddar alongside imported prosciutto, American artisan salamis next to French cornichons, local honey alongside imported fig jam. The American board tends toward abundance and accessibility rather than strict regional authenticity, drawing freely from Italian, French, and Spanish traditions while making it approachable for a broad audience."}]"
 slug: "what-is-charcuterie"
 tags: "["what is charcuterie", "charcuterie definition", "charcuterie history", "charcuterie board", "charcuterie meaning"]"
+faq: "[{"question": "What does charcuterie mean?", "answer": "Charcuterie (pronounced \"shar-KOO-tuh-ree\") is the French culinary art of preparing and preserving meat products through curing, smoking, salting, and fermentation. The word comes from the Old French \"chair cuite\" meaning \"cooked flesh.\" Traditionally, it encompassed pâtés, terrines, rillettes, sausages, and cured whole-muscle meats. In contemporary usage, it typically refers to any board or spread featuring these preserved meat products alongside cheeses and accompaniments."}, {"question": "Is charcuterie a French word?", "answer": "Yes. Charcuterie is French in origin and refers both to the craft of meat preservation and to the shop where these products are sold. In France, a charcutier (charcuterie artisan) specializes in pork products — sausages, pâtés, rillettes, boudin, and air-dried meats. The tradition has Italian and Spanish equivalents (salumeria, charcutería) with their own distinct products and methods."}, {"question": "What is the difference between charcuterie and deli meat?", "answer": "There's overlap: prosciutto and salami are sold at the deli counter too. The difference is mostly in the process. Charcuterie is cured, fermented or slowly aged, which is where its concentrated flavor comes from. Most everyday deli meats, like sliced turkey and boiled ham, are cooked and sold fresh, so they taste milder and keep for days rather than weeks."}, {"question": "Is charcuterie raw?", "answer": "Most of it isn't cooked, but it isn't raw meat either. Salt, drying and, for salami, fermentation make it safe to eat as it is. Pâté, mortadella and rillettes are fully cooked. People who are pregnant are usually advised to ask their doctor about uncooked cured meats."}, {"question": "Is charcuterie always pork?", "answer": "Traditionally, yes — the craft originated with pork preservation. Today, charcuterie includes cured beef (bresaola), duck (duck prosciutto, duck confit), game meats, and even fish preparations (though fish curing is typically categorized separately). The modern \"charcuterie board\" as a food trend includes all these variations plus cheese and other accompaniments, well beyond the original pork-focused definition."}, {"question": "What is an American charcuterie board?", "answer": "An American charcuterie board combines European cured meat traditions with American accessibility: grocery store cheddar alongside imported prosciutto, American artisan salamis next to French cornichons, local honey alongside imported fig jam. The American board tends toward abundance and accessibility rather than strict regional authenticity, drawing freely from Italian, French, and Spanish traditions while making it approachable for a broad audience."}]"
 ---
 
 # What Is Charcuterie? The Complete, Science-Backed Answer
@@ -17,7 +18,7 @@ tags: "["what is charcuterie", "charcuterie definition", "charcuterie history", 
 
 ## The Historical Definition
 
-In classical French culinary tradition, charcuterie is a specific craft with centuries of history. The *charcutier* — the craftsperson who produced charcuterie — was a specialized butcher and artisan, distinct from a regular butcher (*boucher*) who sold fresh meat. Charcutiers were licensed by guild in medieval France to work with cooked pork products, including:
+In classical French culinary tradition, charcuterie is a specific craft with centuries of history. The *charcutier* — the craftsperson who produced charcuterie — was a specialized butcher and artisan, distinct from a regular butcher (*boucher*) who sold fresh meat. Charcutiers were licensed by guild in medieval France to prepare and sell cooked and cured pork products, including:
 
 - **Rillettes** — slow-cooked, shredded pork fat
 - **Pâté** — finely ground meat, often pork liver, cooked and set in a mold
@@ -45,6 +46,19 @@ This usage is technically imprecise but culturally well-established. The "board"
 - **Nuts** — Marcona almonds, walnuts, candied pecans
 - **Crackers and bread** — water crackers, crostini, seeded crackers, baguette
 - **Extras** — olives, cornichons, pickled vegetables, dark chocolate
+
+---
+
+## The Main Types of Charcuterie
+
+Almost everything on a board falls into one of four groups:
+
+- **Whole-muscle cured meats:** a single cut, salted and air-dried, then sliced thin. Prosciutto, coppa, bresaola, Serrano and jamón ibérico.
+- **Dry-cured sausages:** ground meat and fat, fermented and dried. Salami, soppressata, saucisson sec, chorizo and pepperoni.
+- **Cooked and spreadable:** pâté, terrine, rillettes and mortadella.
+- **Soft fermented:** spreadable sausages like 'nduja.
+
+[Types of cured meat](/blog/types-of-cured-meat/) covers each one, with what it tastes like and how to serve it.
 
 ---
 
@@ -91,6 +105,7 @@ Charcuterie Lab is built around the science of why these combinations work. If y
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)
 - [Salami vs. Pepperoni: What's the Actual Difference?](https://charcuterielab.com/blog/salami-vs-pepperoni/)
 - [Easy Charcuterie Board: 15 Minutes, Grocery Store Only, Under $35](https://charcuterielab.com/blog/easy-charcuterie-board/)
+- [How to Pronounce Charcuterie](/blog/pronounce-charcuterie/)
 
 ## FAQ
 
@@ -104,7 +119,11 @@ Yes. Charcuterie is French in origin and refers both to the craft of meat preser
 
 **What is the difference between charcuterie and deli meat?**
 
-Charcuterie involves traditional preservation techniques — specific curing salts, controlled fermentation, extended aging, and artisanal production methods that developed flavor complexity over time. Deli meat is typically processed more quickly using industrial methods, often with more additives and fillers, producing a blander, more uniform product. True charcuterie has distinct terroir and craft character; deli meat is primarily functional.
+There's overlap: prosciutto and salami are sold at the deli counter too. The difference is mostly in the process. Charcuterie is cured, fermented or slowly aged, which is where its concentrated flavor comes from. Most everyday deli meats, like sliced turkey and boiled ham, are cooked and sold fresh, so they taste milder and keep for days rather than weeks.
+
+**Is charcuterie raw?**
+
+Most of it isn't cooked, but it isn't raw meat either. Salt, drying and, for salami, fermentation make it safe to eat as it is. Pâté, mortadella and rillettes are fully cooked. People who are pregnant are usually advised to ask their doctor about uncooked cured meats.
 
 **Is charcuterie always pork?**
 

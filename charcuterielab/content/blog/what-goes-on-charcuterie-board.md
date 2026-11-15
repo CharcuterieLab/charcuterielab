@@ -1,12 +1,14 @@
 ---
 title: "What Goes on a Charcuterie Board?"
 date: "2026-05-05"
+updated: "2026-11-14"
 image: "/images/what-goes-on-charcuterie-board.webp"
 excerpt: "A practical guide to what goes on a charcuterie board, from cured meats and cheeses to fruit, condiments, nuts, olives, crackers, and bread."
 description: "A complete breakdown of every element that belongs on a charcuterie board — the five core categories, quantities, and how they fit together — so you can build any board from scratch."
 meta_description: "What goes on a charcuterie board: the five core categories, how much of each, and how they fit together, so you can build any board from scratch."
 slug: "what-goes-on-charcuterie-board"
 tags: "["charcuterie board", "what goes on charcuterie board", "charcuterie ingredients", "charcuterie basics", "how to make a charcuterie board"]"
+faq: "[{"question": "What are the 5 things on a charcuterie board?", "answer": "Cheese, cured meat, crackers or bread, fruit, and a spread like honey or jam. Nuts, olives and pickles are the usual extras."}, {"question": "What goes on a charcuterie board besides meat and cheese?", "answer": "Crackers or bread, fresh and dried fruit, honey or jam, mustard, nuts, olives and pickles like cornichons."}, {"question": "What should you not put on a charcuterie board?", "answer": "Anything wet next to the crackers (they go soft), anything that can't be eaten, like big decorative branches, and strongly scented foods right next to delicate cheese."}, {"question": "How much do you need for 6 people?", "answer": "As an appetizer, about 12 oz of cured meat and 1 lb of cheese. The Party Planner has the full list."}]"
 ---
 
 # What Goes on a Charcuterie Board?
@@ -31,6 +33,8 @@ Cheese is the anchor of a charcuterie board. Most boards include 2–4 varieties
 
 The standard quantity: 2 oz of cheese per person when a meal follows, 3 oz when the board is the party food, 4 oz when it's dinner.
 
+Not sure which cheese is which? [Types of cheese](/blog/types-of-cheese/) explains 100 of them, with a chart.
+
 ---
 
 ## 2. Cured Meats (2–3 varieties)
@@ -41,7 +45,9 @@ Cured meats are the charcuterie in charcuterie boards. Two to three varieties pr
 
 **Prosciutto or other whole-muscle cured meats:** Thin, delicate, and visually elegant. Prosciutto, coppa, and bresaola all fold, drape, and rose differently and occupy a different flavor register than ground salami.
 
-**A third option:** Spreadable (nduja), smoked (smoked salmon on lighter boards), or something regional and unexpected (mortadella, lardo, 'nduja).
+**A third option:** Spreadable (nduja), smoked (smoked salmon on lighter boards), or something regional and unexpected (mortadella, lardo).
+
+For what each meat is and how it's made, see [types of cured meat](/blog/types-of-cured-meat/).
 
 The standard quantity: the same as the cheese, 2 oz of cured meat per person before a meal, 3 oz as the party food, 4 oz as dinner.
 
@@ -121,8 +127,41 @@ For a standard 4–6 person board:
 
 ---
 
+## What's in Season
+
+The meat and cheese stay the same all year. The fruit is what makes a board feel seasonal:
+
+| Season | Fresh fruit and produce |
+|---|---|
+| Winter | Pears, pomegranate, clementines, persimmons, red grapes |
+| Spring | Strawberries, snap peas, radishes, early apricots |
+| Summer | Peaches, cherries, melon, figs, cherry tomatoes |
+| Fall | Apples, pears, figs, grapes |
+
+---
+
 ## What You Don't Need
 
 No rule requires any specific ingredient. Boards work without meat (for vegetarian guests), without crackers (for gluten-free), and with any combination of the above categories that suits your guests and budget. The framework is a guide, not a law.
+
+---
+
+## FAQ
+
+**What are the 5 things on a charcuterie board?**
+
+Cheese, cured meat, crackers or bread, fruit, and a spread like honey or jam. Nuts, olives and pickles are the usual extras.
+
+**What goes on a charcuterie board besides meat and cheese?**
+
+Crackers or bread, fresh and dried fruit, honey or jam, mustard, nuts, olives and pickles like cornichons.
+
+**What should you not put on a charcuterie board?**
+
+Anything wet next to the crackers (they go soft), anything that can't be eaten, like big decorative branches, and strongly scented foods right next to delicate cheese.
+
+**How much do you need for 6 people?**
+
+As an appetizer, about 12 oz of cured meat and 1 lb of cheese. The [Party Planner](/party-planner/charcuterie-board-for-6-people/) has the full list.
 
 > Get weekly board-building science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).

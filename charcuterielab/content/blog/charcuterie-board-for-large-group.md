@@ -2,12 +2,13 @@
 title: "Charcuterie Board for a Large Group: How to Scale Without the Chaos"
 seo_title: "Charcuterie Board for a Large Group: How to Scale It"
 date: "2026-08-30"
+updated: "2026-11-14"
 image: "/images/charcuterie-board-for-large-group.png"
 excerpt: "Charcuterie Board for a Large Group: How to Scale Without the Chaos"
 description: "Scaling a charcuterie board for 20, 30, or 50 guests requires a different approach than a small board. Here's the formula, layout strategy, and what to buy."
-faq: "[{"question":"How much food do you need for a charcuterie board for 20 people?","answer":"For 20 guests at an appetizer board: about 2¾ lb of meat and 3 lb of cheese, including a 10% buffer. As the party food with no meal: about 4¼ lb of meat and 4½ lb of cheese. Use 2–3 meat varieties and 3–4 cheese varieties — variety matters more than quantity for large boards."},{"question":"How do you set up a charcuterie board for a large group?","answer":"Use multiple boards or a long surface instead of one oversized board. Zone by flavor: put cheeses in the center, meats around them, crackers and bread at the edges. Build 2–3 identical stations rather than one giant spread — guests move faster through multiple points than they do through a single line."},{"question":"What meats are best for a large charcuterie board?","answer":"Prosciutto, salami, and one additional variety (coppa, soppressata, or bresaola) cover the widest range. Buy sliced from the deli counter for large quantities — pre-packaged is fine for 10+ guests when deli slicing isn't practical. Replenish the board rather than over-piling at the start."},{"question":"Can you make a large charcuterie board ahead of time?","answer":"Build the board 30–60 minutes before guests arrive, then cover with plastic wrap and refrigerate. Remove 30 minutes before serving so cheeses reach room temperature. Keep crackers separate and add them at the last moment — they soften quickly on a board."},{"question":"How many types of cheese for a large charcuterie board?","answer":"Three to four varieties covers the range: one soft (brie or triple-crème), one semi-firm (Gruyère or manchego), one aged hard (aged cheddar or aged gouda), and optionally one blue (Gorgonzola or Stilton). More than four varieties at scale creates waste — guests gravitate to 2–3 favorites anyway."}]"
 slug: "charcuterie-board-for-large-group"
 tags: "["charcuterie board for large group", "charcuterie board", "entertaining"]"
+faq: "[{"question": "How much food do you need for a charcuterie board for 20 people?", "answer": "For 20 guests at an appetizer board: about 2¾ lb of meat and 3 lb of cheese, including a 10% buffer. As the party food with no meal: about 4¼ lb of meat and 4½ lb of cheese. Use 2–3 meat varieties and 3–4 cheese varieties — variety matters more than quantity for large boards."}, {"question": "How do you set up a charcuterie board for a large group?", "answer": "Use multiple boards or a long surface instead of one oversized board. Zone by flavor: put cheeses in the center, meats around them, crackers and bread at the edges. Build 2–3 identical stations rather than one giant spread — guests move faster through multiple points than they do through a single line."}, {"question": "What meats are best for a large charcuterie board?", "answer": "Prosciutto, salami, and one additional variety (coppa, soppressata, or bresaola) cover the widest range. Deli-sliced is best for smaller boards; for 25 or more guests, pre-packaged sliced meat saves a lot of time and works fine. Replenish the board rather than over-piling at the start."}, {"question": "Can you make a large charcuterie board ahead of time?", "answer": "Build the board 30–60 minutes before guests arrive, then cover with plastic wrap and refrigerate. Remove 30 minutes before serving so cheeses reach room temperature. Keep crackers separate and add them at the last moment — they soften quickly on a board."}, {"question": "How many types of cheese for a large charcuterie board?", "answer": "Three to four varieties covers the range: one soft (brie or triple-crème), one semi-firm (Gruyère or manchego), one aged hard (aged cheddar or aged gouda), and optionally one blue (Gorgonzola or Stilton). More than four varieties at scale creates waste — guests gravitate to 2–3 favorites anyway."}]"
 ---
 
 # Charcuterie Board for a Large Group: How to Scale Without the Chaos
@@ -82,6 +83,7 @@ Large-group boards graze faster than you expect. The first fifteen minutes are t
 - Remove wrap and let cheeses come to room temperature
 - Add crackers at the last possible moment — they soften fastest
 - Check the board every 20–30 minutes during the event; replenish from your backup supply
+- Swap out soft cheese, meat and cut fruit that have been out for 2 hours (1 hour above 90°F), following the [USDA two-hour rule](/blog/how-long-charcuterie-board-last/)
 
 Keep extra prosciutto, crackers, and one type of cheese in reserve. Replenishing a board mid-party takes two minutes and makes the spread look actively curated rather than slowly depleted.
 
@@ -121,7 +123,7 @@ Use multiple boards or a long surface instead of one oversized board. Zone by fl
 
 **What meats are best for a large charcuterie board?**
 
-Prosciutto, salami, and one additional variety (coppa, soppressata, or bresaola) cover the widest range. Buy sliced from the deli counter for large quantities — pre-packaged is fine for 10+ guests when deli slicing isn't practical. Replenish the board rather than over-piling at the start.
+Prosciutto, salami, and one additional variety (coppa, soppressata, or bresaola) cover the widest range. Deli-sliced is best for smaller boards; for 25 or more guests, pre-packaged sliced meat saves a lot of time and works fine. Replenish the board rather than over-piling at the start.
 
 **Can you make a large charcuterie board ahead of time?**
 

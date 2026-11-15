@@ -3,8 +3,10 @@ title: "Cherry Tomatoes: The Ultimate Ingredient Deep Dive + Pairing Guide"
 
 seo_title: "Cherry Tomatoes on a Charcuterie Board: Pairing Guide"
 date: "2026-04-25"
+updated: "2026-11-14"
 image: "/images/cherrytomatoes.webp"
 excerpt: "Bright, juicy cherry tomatoes bring acidity, color, and freshness to rich charcuterie boards."
+faq: "[{"question": "How long do cherry tomatoes last on a board?", "answer": "They hold well for 2 to 3 hours at room temperature. They may soften slightly, but they stay useful as a fresh board element."}, {"question": "Should I refrigerate cherry tomatoes?", "answer": "Only if they are very ripe. Cold storage dulls their flavor and texture."}, {"question": "Can I use grape tomatoes instead?", "answer": "Yes. Grape tomatoes are meatier and less juicy, which can be helpful if you are worried about moisture."}, {"question": "Do I need to remove the stems?", "answer": "Optional. Stems look rustic and natural; removing them looks cleaner."}]"
 ---
 
 > **Quick Answer:** Cherry tomatoes add **acid, juice and color**. Serve them at room temperature (cold ones taste flat), pat them dry, and cluster them near mozzarella, olives and basil, away from the crackers.
@@ -17,7 +19,7 @@ While they are not the star of the show, cherry tomatoes play a critical support
 
 ## What Are Cherry Tomatoes?
 
-Cherry tomatoes are small, bite-sized tomatoes typically 1 to 2 inches in diameter. They are sweeter and less acidic than full-sized tomatoes, with a satisfying pop when you bite into them.
+Cherry tomatoes are small, bite-sized tomatoes, usually about 1 inch across. They have more sugar than full-sized tomatoes and a more concentrated flavor overall, so they taste sweeter while still bringing plenty of acidity, with a satisfying pop when you bite into them.
 
 **Flavor profile:**
 - Sweet with mild acidity
@@ -86,7 +88,7 @@ Red, orange, and yellow tomatoes add visual contrast to a board dominated by bro
 
 Refrigerated tomatoes taste flat and mealy.
 
-**Fix:** Store them at room temperature. Only refrigerate if they are very ripe.
+**Fix:** Store them at room temperature. Only refrigerate if they are very ripe, and if you do, take them out an hour before serving so some of the flavor comes back.
 
 ### Not drying them
 
@@ -126,6 +128,10 @@ Plain tomatoes can taste muted next to bold cheeses and cured meats.
 - For 6 to 8 people, use 1 pint
 - Choose mixed colors when you want more visual impact
 
+### Out of Season
+
+From late fall to spring, cherry tomatoes sold on the vine or in mixed-color packs are usually the most flavorful choice in the store. In winter, a tomato that isn't ripe tastes flat, so lean on the olive oil and flaky salt, or swap in roasted red peppers for the color.
+
 ## Quick Board Idea: The Mediterranean Corner
 
 Build a mini-section on your board with:
@@ -156,6 +162,12 @@ Yes. Grape tomatoes are meatier and less juicy, which can be helpful if you are 
 ### Do I need to remove the stems?
 
 Optional. Stems look rustic and natural; removing them looks cleaner.
+
+## Related Reading
+
+- [What Goes With Fresh Mozzarella](/pairings/food/fresh-mozzarella/)
+- [Burrata and Prosciutto Pairing: Why It Works](/blog/burrata-prosciutto-pairing/)
+- [How Long Can a Charcuterie Board Sit Out?](/blog/how-long-charcuterie-board-last/)
 
 ## Conclusion
 

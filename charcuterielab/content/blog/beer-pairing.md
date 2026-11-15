@@ -1,13 +1,14 @@
 ---
 title: "Beer and Charcuterie: The Style-by-Style Pairing Guide"
 date: "2026-05-18"
+updated: "2026-11-14"
 image: "/images/beer-pairing.webp"
 excerpt: "Beer and Charcuterie: The StylebyStyle Pairing Guide"
 description: "Beer pairs with charcuterie as well as wine — often better for specific items. Here's the style-by-style pairing guide and the flavor science behind each."
-faq: "[{"question":"Does beer pair with charcuterie as well as wine?","answer":"Beer pairs exceptionally well with charcuterie — often better than wine for certain meats. The carbonation cuts through fat more aggressively than tannins, and bitterness from hops contrasts salt in ways that refresh the palate. The key is matching intensity: delicate meats with lighter beers, bold salamis with assertive ales."},{"question":"What beer goes with prosciutto?","answer":"Prosciutto's delicate sweetness and silky fat pair best with light, effervescent beers: Pilsner, Kölsch, or a dry farmhouse saison. Avoid heavy stouts or IPAs — their bitterness overwhelms the meat's subtle flavor."},{"question":"What beer pairs with aged cheddar or sharp cheese?","answer":"Bold cheeses need bold beer. An IPA's bitterness cuts through aged cheddar's fat, while the citrus hop notes complement the cheese's sharpness. Brown ales and porters also work well, matching the caramel and nutty notes in aged hard cheeses."},{"question":"Can I serve a beer flight with charcuterie?","answer":"A beer flight is an excellent pairing format — it lets guests explore how different styles interact with different board elements. Build the flight from lightest to darkest: Pilsner → wheat beer → pale ale → IPA → porter or stout."},{"question":"Should I avoid any beers on a charcuterie board?","answer":"Very sour beers (Lambic, Gueuze) can clash with acidic pickles and vinegary elements, doubling up on tartness. Extremely sweet fruit beers can make the board feel cloying. Start with clean fermented styles and add complexity from there."}]"
 slug: "beer-pairing"
 tags: "[beer, pairing, entertaining, craft-beer, technique, flavor-science]"
 type: "howto"
+faq: "[{"question": "Does beer pair with charcuterie as well as wine?", "answer": "Beer pairs exceptionally well with charcuterie — often better than wine for certain meats. The carbonation cuts through fat more aggressively than tannins, and bitterness from hops contrasts salt in ways that refresh the palate. The key is matching intensity: delicate meats with lighter beers, bold salamis with assertive ales."}, {"question": "What beer goes with prosciutto?", "answer": "Prosciutto's delicate sweetness and silky fat pair best with light, effervescent beers: Pilsner, Kölsch, or a dry farmhouse saison. Avoid heavy stouts or IPAs — their bitterness overwhelms the meat's subtle flavor."}, {"question": "What beer pairs with aged cheddar or sharp cheese?", "answer": "Bold cheeses need bold beer. An IPA's bitterness cuts through aged cheddar's fat, while the citrus hop notes complement the cheese's sharpness. Brown ales and porters also work well, matching the caramel and nutty notes in aged hard cheeses."}, {"question": "Can I serve a beer flight with charcuterie?", "answer": "A beer flight is an excellent pairing format — it lets guests explore how different styles interact with different board elements. Build the flight from lightest to darkest: Pilsner → wheat beer → pale ale → IPA → porter or stout."}, {"question": "Should I avoid any beers on a charcuterie board?", "answer": "Very sour beers (Lambic, Gueuze) are great with aged cheese and cured meat, but they clash with pickles and vinegary elements, doubling up on tartness, so keep them away from the cornichons. Extremely sweet fruit beers can make the board feel cloying. Start with clean fermented styles and add complexity from there."}]"
 ---
 
 # Beer and Charcuterie: The Style-by-Style Pairing Guide
@@ -42,6 +43,19 @@ Darker malts are roasted, which gives them toasty, caramel and nutty flavors. Ag
 ---
 
 ## Style-by-Style Pairing Guide
+
+### Pilsner / Lager
+
+**Character:** Crisp, clean and light-bodied, with gentle bitterness and plenty of carbonation. German and Czech pilsners have a bit more hop bite than American lagers.
+
+**Pairs with:**
+- **Prosciutto and other delicate cured meats:** the bubbles clear the fat and the light body doesn't drown the meat's sweetness.
+- **Young and semi-firm cheeses (Havarti, young Gouda, Fontina, Monterey Jack):** clean beer for clean cheese.
+- **Pretzels, mustard and mild salami:** the beer-hall classic.
+
+**Skip with:** strong blue cheese and very aged cheese, which overpower it. More in the [lager and pilsner pairing guide](/pairings/beer/lager-pilsner/).
+
+---
 
 ### Saison / Farmhouse Ale
 
@@ -132,6 +146,7 @@ Darker malts are roasted, which gives them toasty, caramel and nutty flavors. Ag
 
 | Beer Style | Best With | Skip With |
 |------------|-----------|-----------|
+| Pilsner / Lager | Prosciutto, young Gouda, Havarti, mild salami | Strong blues, very aged cheese |
 | Saison | Aged alpine, washed-rind, prosciutto | Very delicate fresh cheeses |
 | Wheat beer | Fresh chèvre, bresaola, prosciutto | Strong blues |
 | IPA / Pale Ale | Aged cheddar, spiced salami, Manchego | Blue cheeses |
@@ -172,6 +187,8 @@ Wine isn't the only answer. For certain board items, it's not even the best one.
 - [Salami: The Complete Charcuterie Pairing Guide](https://charcuterielab.com/salami/)
 - [The Best Pretzels for a Charcuterie Board, Ranked](/blog/best-pretzels-for-charcuterie/)
 - [Whiskey and Cheese Pairing](/blog/whiskey-and-cheese-pairing/)
+- [Beer Pairings by Style](/pairings/beer/)
+- [Hard Cider Pairings](/pairings/beer/hard-cider/)
 
 ## FAQ
 
@@ -193,4 +210,4 @@ A beer flight is an excellent pairing format — it lets guests explore how diff
 
 **Should I avoid any beers on a charcuterie board?**
 
-Very sour beers (Lambic, Gueuze) can clash with acidic pickles and vinegary elements, doubling up on tartness. Extremely sweet fruit beers can make the board feel cloying. Start with clean fermented styles and add complexity from there.
+Very sour beers (Lambic, Gueuze) are great with aged cheese and cured meat, but they clash with pickles and vinegary elements, doubling up on tartness, so keep them away from the cornichons. Extremely sweet fruit beers can make the board feel cloying. Start with clean fermented styles and add complexity from there.

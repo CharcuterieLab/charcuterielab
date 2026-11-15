@@ -3,17 +3,18 @@ title: "Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Toget
 
 seo_title: "Fall Charcuterie Board: Seasonal Ingredients That Work"
 date: "2026-05-19"
+updated: "2026-11-14"
 image: "/images/fall-charcuterie-board.webp"
 excerpt: "Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Together"
 description: "A fall charcuterie board uses seasonal ingredients with specific flavor properties — walnut tannin, apple acidity, aged Gouda and cider echoes. Here's how to."
-faq: "[{"question":"What goes on a fall charcuterie board?","answer":"Fall boards build around autumn produce and harvest flavors: aged cheddar, Gruyère, Gorgonzola, and a cranberry-studded goat cheese; prosciutto, salami, or soppressata; sliced pears and apples, figs, pomegranate arils, dried cranberries and apricots; candied walnuts or pecans; fig jam, quince paste, or honey; and rosemary or thyme sprigs as garnish. The color palette — amber, burgundy, rust, and cream — signals the season immediately."},{"question":"What seasonal fruits are best for fall charcuterie?","answer":"Peak fall fruit for charcuterie: Bartlett and Anjou pears (exceptional with aged cheese), honeycrisp apple slices (pairs with cheddar and Manchego), fresh and dried figs (pairs with blue cheese and prosciutto), pomegranate arils (visual impact, tart-sweet contrast), grapes (muscatel varieties if available), persimmon slices, and dried cranberries for color and sweetness."},{"question":"What cheese pairs best with fall flavors?","answer":"Aged cheddar is the definitive fall cheese — its caramel, nutty intensity mirrors the flavors of the season. Gruyère echoes the same register. Gorgonzola dolce with honey and pear is a classic fall pairing. Manchego with quince paste is the Spanish fall pairing equivalent. For maximum seasonal alignment, choose cheeses with caramel, nut, or earth undertones."},{"question":"What wine goes with a fall charcuterie board?","answer":"Fall calls for fuller-bodied wines: aged Chardonnay, Viognier, Pinot Noir, Grenache, or Malbec. Cider — particularly dry, farmhouse-style cider — is an exceptionally seasonal pairing for fall charcuterie. The apple-forward acidity of cider cuts through fat while reinforcing the apple and pear notes already on the board."},{"question":"How do you make a fall board look visually autumnal?","answer":"Color placement is everything: cluster pomegranate arils and red grapes in one zone, amber and brown nuts in another, and use a deep burgundy jam as a visual anchor. Add dried orange slices or cinnamon sticks as garnishes (they're inedible as garnish but visually evocative). Use a dark slate or walnut board to reinforce the warm, rich color palette."}]"
 slug: "fall-charcuterie-board"
 tags: "["fall charcuterie board", "autumn charcuterie board", "fall cheese board", "seasonal charcuterie", "charcuterie board fall ingredients", "thanksgiving charcuterie", "fall entertaining"]"
+faq: "[{"question": "What goes on a fall charcuterie board?", "answer": "Fall boards build around autumn produce and harvest flavors: aged cheddar, Gruyère, Gorgonzola, and a cranberry-studded goat cheese; prosciutto, salami, or soppressata; sliced pears and apples, figs, pomegranate arils, dried cranberries and apricots; candied walnuts or pecans; fig jam, quince paste, or honey; and rosemary or thyme sprigs as garnish. The color palette — amber, burgundy, rust, and cream — signals the season immediately."}, {"question": "What seasonal fruits are best for fall charcuterie?", "answer": "Peak fall fruit for charcuterie: Bartlett and Anjou pears (exceptional with aged cheese), honeycrisp apple slices (pairs with cheddar and Manchego), fresh and dried figs (pairs with blue cheese and prosciutto), pomegranate arils (visual impact, tart-sweet contrast), grapes (muscatel varieties if available), persimmon slices, and dried cranberries for color and sweetness."}, {"question": "What cheese pairs best with fall flavors?", "answer": "Aged cheddar is the definitive fall cheese — its caramel, nutty intensity mirrors the flavors of the season. Gruyère echoes the same register. Gorgonzola dolce with honey and pear is a classic fall pairing. Manchego with quince paste is the Spanish fall pairing equivalent. For maximum seasonal alignment, choose cheeses with caramel, nut, or earth undertones."}, {"question": "What wine goes with a fall charcuterie board?", "answer": "Fall calls for fuller-bodied wines: aged Chardonnay, Viognier, Pinot Noir, Grenache, or Malbec. Cider — particularly dry, farmhouse-style cider — is an exceptionally seasonal pairing for fall charcuterie. The apple-forward acidity of cider cuts through fat while reinforcing the apple and pear notes already on the board."}, {"question": "How do you make a fall board look visually autumnal?", "answer": "Color placement is everything: cluster pomegranate arils and red grapes in one zone, amber and brown nuts in another, and use a deep burgundy jam as a visual anchor. Add dried orange slices or cinnamon sticks as garnishes (they're inedible as garnish but visually evocative). Use a dark slate or walnut board to reinforce the warm, rich color palette."}]"
 ---
 
 # Fall Charcuterie Board: The Seasonal Ingredients and Why They Work Together
 
-> **Quick Answer:** Use fall flavors: **aged cheddar, Gruyère, Gorgonzola; prosciutto; pears, figs, pomegranate and cranberries**; candied walnuts and fig jam. Amber, burgundy and cream colors do the rest.
+> **Quick Answer:** Use fall flavors: **aged Gouda, Gruyère and a blue like Stilton; bresaola, coppa or soppressata; apples, pears, figs and pomegranate**; walnuts and apple butter. Amber, burgundy and cream colors do the rest.
 
 Skip the pinecones. The season is in the food.
 
@@ -54,6 +55,8 @@ The fall flavor framework has four pillars: **aged complexity, dried fruit sweet
 - **Fresh or dried figs:** fresh Black Mission or Brown Turkey figs in early fall; dried figs as the season progresses. Figs' jammy sweetness and seed tannin work with every fall cheese.
 - **Dried cranberries or dried cherries:** concentrated tartness provides acid interest without requiring fresh fruit; holds well on a board without wilting.
 - **Pear:** fresh pear near the Stilton; the pear-Stilton pairing is one of the classic English combinations (the sweetness and delicate texture complement the bold blue).
+- **Pomegranate:** in season from October into winter. A small pile of arils adds tart crunch and the brightest red on the board.
+- **Persimmons:** firm Fuyu persimmons slice like apples and are sweet with a hint of spice. They're in season in November and December.
 - **Grapes:** red or black grapes in fall; the deeper color is seasonally appropriate and the tannin in the skins works with the board's richer elements.
 
 **Nuts:**
@@ -88,6 +91,17 @@ All three share the same flavors: caramel, fruit and a clean tartness. Put them 
 To build this trio: aged Gouda wedge, a small pile of Honeycrisp or Fuji apple slices, a glass of dry hard cider or Calvados alongside. Apple butter in a small bowl as the connector condiment.
 
 ---
+
+## Late Fall: Turning It Into a Thanksgiving Board
+
+By November the same board needs only a few swaps to suit Thanksgiving:
+
+- **Cranberry** in place of apple butter: whole-berry sauce or a cranberry chutney next to the Brie or aged cheddar
+- **Fuyu persimmon and pomegranate** in place of fresh figs, which are over by now
+- **Candied pecans or maple-glazed walnuts** in place of plain walnuts
+- **A sage sprig or two** as the garnish
+
+Keep it light if dinner follows: 2 oz each of meat and cheese per person. There's a full plan on the [Thanksgiving page](/holidays/thanksgiving/).
 
 ## The Fall Board Assembly
 

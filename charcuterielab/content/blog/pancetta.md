@@ -1,6 +1,7 @@
 ---
 title: "Pancetta: Italian Cured Pork Belly — Not Bacon"
 date: "2026-05-05"
+updated: "2026-11-14"
 image: "/images/pancetta.webp"
 excerpt: "Pancetta: Italian Cured Pork Belly — Not Bacon"
 description: "Pancetta and American bacon start from the same cut — pork belly — but diverge in every subsequent step. One is dry-cured and air-dried; one is smoked. The difference matters for flavor, texture, and how you use it on a board."
@@ -8,6 +9,7 @@ meta_description: "Pancetta and American bacon start from the same cut — pork 
 slug: "pancetta"
 tags: "[pancetta, italian, cured-meat, pork-belly, ingredient-guide]"
 type: "ingredient"
+faq: "[{"question": "Can you eat pancetta raw?", "answer": "Yes, if it's labeled ready to eat. Thin-sliced pancetta, especially the rolled kind, is made to be eaten as it is. Cubed pancetta sold for cooking should be cooked."}, {"question": "What cheese goes with pancetta?", "answer": "Mild and medium cheeses that won't drown it out: young Manchego, Fontina, Gruyère and medium-aged Pecorino Toscano."}, {"question": "Can you use bacon instead of pancetta?", "answer": "For cooking, yes, but it will taste smoky. On a board, no: bacon has to be cooked, and the smoke changes the whole pairing."}, {"question": "How long does opened pancetta last?", "answer": "Wrap sliced pancetta tightly and use it within about 5 days. Thin slices dry out and lose their flavor fast. Subscribe to The Charcuterie Lab Report for weekly ingredient guides."}]"
 ---
 
 # Pancetta: Italian Cured Pork Belly — Not Bacon
@@ -18,7 +20,7 @@ type: "ingredient"
 
 ## What Pancetta Is
 
-Pancetta is salt-cured, spiced pork belly that is air-dried rather than smoked. The belly is rubbed with a mixture of salt, pepper, and aromatics (nutmeg, juniper, cloves, bay — varying by producer and region), then cured for 10–14 days, and hung to dry for 2–3 months minimum.
+Pancetta is salt-cured, spiced pork belly that is air-dried rather than smoked. The belly is rubbed with a mixture of salt, pepper, and aromatics (nutmeg, juniper, cloves, bay — varying by producer and region), then cured for 10–14 days and hung to dry. Drying takes anywhere from about three weeks to three months, depending on the producer and the thickness of the belly.
 
 The result is a product with:
 - No smoke character
@@ -95,6 +97,10 @@ Pancetta occupies a specific niche on a board: it's approachable, familiar to gu
 
 ---
 
+### Raw or Cooked? Check the Label
+
+In Italy, thin-sliced pancetta is eaten raw, like prosciutto. In US stores it varies. Most sliced pancetta is fully cured and ready to eat, but some packs, especially cubed or diced pancetta, are sold for cooking and say so on the label. If the pack says to cook it, keep it off the board and use it in pasta instead.
+
 ## Pancetta vs. Guanciale vs. Bacon: Quick Reference
 
 | | Pancetta | Guanciale | American Bacon |
@@ -104,7 +110,7 @@ Pancetta occupies a specific niche on a board: it's approachable, familiar to gu
 | Fat character | Layered (fat + lean striations) | Nearly all fat, very soft | Layered, smoke-infused |
 | Flavor | Sweet, mild, clean pork | Sweet, very delicate, dissolves | Smoky, assertive |
 | Board use | Thin-sliced, draped | Paper-thin on crostini | Usually cooked |
-| Age | 2–3 months | 3–6 months | Minimal (days-weeks) |
+| Age | About 3 weeks–3 months | 3–6 months | Minimal (days-weeks) |
 
 ---
 
@@ -127,5 +133,23 @@ Pancetta is cured pork belly, air-dried without smoke — Italy's answer to the 
 The "Italian bacon" label is a useful introduction. What the label misses is everything the smoke isn't there — the clarity of pork fat and spice without the phenolic overlay of the smokehouse.
 
 ---
+
+## FAQ
+
+**Can you eat pancetta raw?**
+
+Yes, if it's labeled ready to eat. Thin-sliced pancetta, especially the rolled kind, is made to be eaten as it is. Cubed pancetta sold for cooking should be cooked.
+
+**What cheese goes with pancetta?**
+
+Mild and medium cheeses that won't drown it out: young Manchego, Fontina, Gruyère and medium-aged Pecorino Toscano.
+
+**Can you use bacon instead of pancetta?**
+
+For cooking, yes, but it will taste smoky. On a board, no: bacon has to be cooked, and the smoke changes the whole pairing.
+
+**How long does opened pancetta last?**
+
+Wrap sliced pancetta tightly and use it within about 5 days. Thin slices dry out and lose their flavor fast.
 
 *Subscribe to [The Charcuterie Lab Report](https://charcuterie-lab-report.beehiiv.com) for weekly ingredient guides.*

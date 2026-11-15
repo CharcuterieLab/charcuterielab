@@ -1,13 +1,14 @@
 ---
 title: "How Many Cheeses Should Be on a Charcuterie Board?"
 date: "2026-05-09"
+updated: "2026-11-14"
 image: "/images/how-many-cheeses.webp"
 excerpt: "How Many Cheeses Should Be on a Charcuterie Board? Quick Answer"
 description: "Three cheeses is the right number for most charcuterie boards. One soft or fresh, one semi-firm, one aged hard. This combination covers the full range of t..."
 meta_description: "Three cheeses is right for most charcuterie boards: one soft, one semi-firm, one aged hard. When to go up to five, and when two is plenty."
-faq: "[{"question":"How many cheeses should be on a charcuterie board?","answer":"Three to four cheeses is the ideal number for most boards. This number provides sufficient variety — typically one soft, one semi-firm or aged, and one bold or distinctive — without overwhelming guests or creating competition between cheeses. Three cheeses is perfect for boards serving 4–8 people; four cheeses works well for 8–15 people or more formal gatherings."},{"question":"Is two cheeses enough for a charcuterie board?","answer":"Two cheeses can work for a small board (2–4 people) or a budget-constrained board. The key is choosing cheeses with genuine contrast: one soft or mild (brie, chèvre) and one firm or bold (aged cheddar, Manchego). Two cheeses that are too similar in flavor profile will make the board feel incomplete."},{"question":"Can you have too many cheeses on a charcuterie board?","answer":"Yes. More than five cheeses creates diminishing returns — guests can't engage thoughtfully with more than 4–5 options while grazing, and additional cheeses compete for attention rather than adding genuine variety. If you want to offer more cheese, run a formal cheese tasting alongside the board rather than adding more to the board itself."},{"question":"What is the rule for choosing cheeses for a charcuterie board?","answer":"One cheese per register: one soft or fresh (brie, burrata, chèvre), one semi-firm or aged (cheddar, Gouda, Manchego, Gruyère), and one bold or distinctive (blue cheese, washed-rind, or extra-aged hard cheese). Each cheese should offer something the others don't. If two cheeses fill the same flavor role, replace one with something that fills a gap."},{"question":"What order do you arrange cheeses on a charcuterie board?","answer":"Distribute cheeses around the board rather than clustering them together — this creates natural zones for guests to gather around and prevents crowding at one corner. Place the most visually striking cheese (a whole brie, a blue cheese with visible veining) at or near the center. Leave adequate space around each cheese for guests to cut without disturbing neighboring elements."}]"
 slug: "how-many-cheeses"
 tags: "["how many cheeses", "charcuterie board", "charcuterie"]"
+faq: "[{"question": "How many cheeses should be on a charcuterie board?", "answer": "Three is right for most boards: one soft, one semi-firm and one aged. That covers every texture without the cheeses competing. Use two for 2 people, and four or five once you're feeding 12 or more."}, {"question": "Is two cheeses enough for a charcuterie board?", "answer": "Two cheeses can work for a small board (2–4 people) or a budget-constrained board. The key is choosing cheeses with genuine contrast: one soft or mild (brie, chèvre) and one firm or bold (aged cheddar, Manchego). Two cheeses that are too similar in flavor profile will make the board feel incomplete."}, {"question": "Can you have too many cheeses on a charcuterie board?", "answer": "Yes. More than five cheeses creates diminishing returns — guests can't engage thoughtfully with more than 4–5 options while grazing, and additional cheeses compete for attention rather than adding genuine variety. If you want to offer more cheese, run a formal cheese tasting alongside the board rather than adding more to the board itself."}, {"question": "What is the rule for choosing cheeses for a charcuterie board?", "answer": "One cheese per register: one soft or fresh (brie, burrata, chèvre), one semi-firm or aged (cheddar, Gouda, Manchego, Gruyère), and one bold or distinctive (blue cheese, washed-rind, or extra-aged hard cheese). Each cheese should offer something the others don't. If two cheeses fill the same flavor role, replace one with something that fills a gap."}, {"question": "What order do you arrange cheeses on a charcuterie board?", "answer": "Distribute cheeses around the board rather than clustering them together — this creates natural zones for guests to gather around and prevents crowding at one corner. Place the most visually striking cheese (a whole brie, a blue cheese with visible veining) at or near the center. Leave adequate space around each cheese for guests to cut without disturbing neighboring elements."}]"
 ---
 
 # How Many Cheeses Should Be on a Charcuterie Board?
@@ -53,7 +54,7 @@ The 2-cheese board: Brie + aged Cheddar. Or chèvre + aged Comté. The contrast 
 
 ## When to Use 4–5 Cheeses
 
-For 10+ people, a 4th cheese adds variety without redundancy — but only if it falls into a distinct category.
+For 12 or more people, a 4th cheese adds variety without redundancy — but only if it falls into a distinct category.
 
 A good 4th cheese: a blue (Gorgonzola Dolce, Stilton, Roquefort) — this adds a completely new flavor category (pungent, blue-mold complexity) that none of the first three cover. Blue cheese is the logical 4th.
 
@@ -61,14 +62,17 @@ A 5th cheese: an unusual regional variety, or a second soft (like burrata alongs
 
 ## Quantity Per Cheese
 
-| Board size | People | Per cheese | Total cheese |
-|-----------|--------|------------|-------------|
-| Small | 2 | 2–3 oz | 4–6 oz |
-| Standard | 4–6 | 3–4 oz | 9–12 oz |
-| Large | 8–12 | 2–3 oz | 18–24 oz |
-| Grazing | 12+ | 2–3 oz | 24–36 oz |
+Plan about 2 oz of cheese per person in total before a meal, or 3 oz when the board is the party food, then split it across your cheeses.
 
-Note: these are per-person guidelines across all cheeses combined. Divide by the number of cheeses to get per-cheese quantities.
+| People | Cheeses | Total cheese (before a meal) | Each cheese |
+|--------|---------|------------------------------|-------------|
+| 2 | 2 | 4–6 oz | 2–3 oz |
+| 4–6 | 3 | 8 oz–1 lb | 3–5 oz |
+| 8–10 | 3 | 1–1½ lb | 5–8 oz |
+| 12–15 | 4 | 1½–2 lb | 6–8 oz |
+| 20 | 4–5 | 3 lb | 10–12 oz |
+
+For the party-food amounts at any guest count, use the [Party Planner](/party-planner/).
 
 ---
 
@@ -86,7 +90,7 @@ Note: these are per-person guidelines across all cheeses combined. Divide by the
 
 **How many cheeses should be on a charcuterie board?**
 
-Three to four cheeses is the ideal number for most boards. This number provides sufficient variety — typically one soft, one semi-firm or aged, and one bold or distinctive — without overwhelming guests or creating competition between cheeses. Three cheeses is perfect for boards serving 4–8 people; four cheeses works well for 8–15 people or more formal gatherings.
+Three is right for most boards: one soft, one semi-firm and one aged. That covers every texture without the cheeses competing. Use two for 2 people, and four or five once you're feeding 12 or more.
 
 **Is two cheeses enough for a charcuterie board?**
 

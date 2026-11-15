@@ -1,13 +1,14 @@
 ---
 title: "Burrata and Prosciutto Pairing: Why It Works"
 date: "2026-05-19"
+updated: "2026-11-14"
 image: "/images/burrata-prosciutto-pairing.webp"
 excerpt: "Burrata and Prosciutto Pairing: Why It Works"
 description: "Burrata and prosciutto work because prosciutto salt triggers salivary priming, bridges burrata's acidity, and creates salt-sweet contrast, while cured fat and cream fat resonate on a shared lipid axis."
 meta_description: "Burrata and prosciutto work because prosciutto salt triggers salivary priming, bridges burrata's acidity, and creates salt-sweet contrast, while cured fat."
-faq: "[{"question":"Why does prosciutto pair so well with burrata?","answer":"Prosciutto's sodium triggers salivary flow that primes the palate for burrata's cream, bridges residual lactic acid in the fresh cheese shell, and creates a salt-sweet contrast loop with the burrata's mild sweetness. The cured fat and cream fat also resonate on a shared lipid axis, producing aromatic coherence rather than competing richness."},{"question":"Should I use Prosciutto di Parma or San Daniele?","answer":"Both work well. Prosciutto di Parma has a cleaner, more neutral cure that lets burrata's delicate cream flavor lead. San Daniele is slightly sweeter and more delicate, which pairs particularly well with burrata's sweetness. Avoid prosciutto that is overly salty or aggressively dry-aged — it can overpower burrata's subtlety."},{"question":"How should I plate burrata and prosciutto together?","answer":"Serve the burrata whole and allow guests to break it open — the visual of the cream spilling onto the board is part of the experience. Drape prosciutto slices loosely around the burrata rather than underneath it; flat-pressed prosciutto loses texture. Serve at room temperature: burrata 20–30 minutes out of refrigeration, prosciutto at ambient."},{"question":"What temperature should burrata be when served?","answer":"Room temperature — remove from the refrigerator 20–30 minutes before serving. Cold burrata has dense cream that doesn't flow and suppressed fat volatility. At room temperature, the cream loosens to a pourable consistency and the aromatic compounds in the fat become more volatile and accessible."},{"question":"What else can I add to burrata and prosciutto on a board?","answer":"Tomatoes add glutamate that synergizes with the salt amplification mechanism. Basil adds fat-miscible linalool that distributes through burrata's cream for aromatic extension. The full Italian four — burrata, prosciutto, tomato, basil — uses four simultaneous mechanisms and is one of the most complete board pairings available."}]"
 slug: "burrata-prosciutto-pairing"
 tags: "["burrata prosciutto pairing", "burrata and prosciutto", "charcuterie board"]"
+faq: "[{"question": "Why does prosciutto pair so well with burrata?", "answer": "Prosciutto's sodium triggers salivary flow that primes the palate for burrata's cream, bridges residual lactic acid in the fresh cheese shell, and creates a salt-sweet contrast loop with the burrata's mild sweetness. The cured fat and cream fat also resonate on a shared lipid axis, producing aromatic coherence rather than competing richness."}, {"question": "Should I use Prosciutto di Parma or San Daniele?", "answer": "Both work well. Prosciutto di Parma has a cleaner, more neutral cure that lets burrata's delicate cream flavor lead. San Daniele is slightly sweeter and more delicate, which pairs particularly well with burrata's sweetness. Avoid prosciutto that is overly salty or aggressively dry-aged — it can overpower burrata's subtlety."}, {"question": "How should I plate burrata and prosciutto together?", "answer": "Serve the burrata whole and allow guests to break it open — the visual of the cream spilling onto the board is part of the experience. Drape prosciutto slices loosely around the burrata rather than underneath it; flat-pressed prosciutto loses texture. Serve at room temperature: burrata 20–30 minutes out of refrigeration, prosciutto at ambient."}, {"question": "What temperature should burrata be when served?", "answer": "Room temperature — remove from the refrigerator 20–30 minutes before serving. Cold burrata has dense cream that doesn't flow and suppressed fat volatility. At room temperature, the cream loosens to a pourable consistency and the aromatic compounds in the fat become more volatile and accessible."}, {"question": "How long can burrata sit out?", "answer": "No more than 2 hours at room temperature, or 1 hour above 90°F. Its cream filling spoils faster than aged cheese, so put out one ball at a time at a long party."}, {"question": "What wine goes with burrata and prosciutto?", "answer": "Something crisp with bubbles or acid: Prosecco, Lambrusco, a dry rosé or Pinot Grigio."}, {"question": "What else can I add to burrata and prosciutto on a board?", "answer": "Tomatoes add glutamate that synergizes with the salt amplification mechanism. Basil adds fat-miscible linalool that distributes through burrata's cream for aromatic extension. The full Italian four — burrata, prosciutto, tomato, basil — uses four simultaneous mechanisms and is one of the most complete board pairings available."}]"
 ---
 
 # Burrata and Prosciutto Pairing: Why It Works
@@ -30,9 +31,9 @@ Pairing two high-fat ingredients usually risks richness fatigue — the palate g
 
 ## How to Serve This on a Board
 
-**Burrata:** One ball (125–150g) per 3–4 people. Serve whole at room temperature — guests break it open themselves. The visual of cream filling flowing onto the board is expected and part of the experience. Remove from refrigeration 20–30 minutes before serving; the cream needs to loosen.
+**Burrata:** One ball (125–150g) per 3–4 people. Serve whole at room temperature — guests break it open themselves. The visual of cream filling flowing onto the board is expected and part of the experience. Remove from refrigeration 20–30 minutes before serving; the cream needs to loosen. Burrata is the most perishable thing on a board: don't leave it out more than 2 hours (1 hour above 90°F), and eat it the day you open it.
 
-**Prosciutto:** Paper-thin slices draped loosely around or next to the burrata. Prosciutto di Parma for clean, neutral pairing; San Daniele for a sweeter, more delicate profile. 3–4 slices per ball of burrata. Loose draping maintains texture — flat-pressed prosciutto loses its structural character.
+**Prosciutto:** Paper-thin slices draped loosely around or next to the burrata. Prosciutto di Parma for clean, neutral pairing; San Daniele for a sweeter, more delicate profile. 6–8 slices per ball of burrata. Loose draping maintains texture — flat-pressed prosciutto loses its structural character.
 
 **Board placement:** Burrata at center or anchor position; prosciutto immediately adjacent. The pairing works best when both components are reachable in a single reach, making it natural to eat them together.
 
@@ -55,6 +56,8 @@ Burrata and prosciutto are both rich, but the salt keeps them in balance: it mak
 ## Related Reading
 
 - [Burrata vs. Mozzarella](/blog/burrata-vs-mozzarella/)
+- [What Goes With Prosciutto di Parma](/pairings/food/prosciutto-di-parma/)
+- [The Temperature Guide: Pull Times by Cheese](/blog/temperature-guide/)
 - [How Fat Amplifies Aromatics on a Charcuterie Board](https://charcuterielab.com/fat-melting/)
 - [Salt and Sweet: How Sodium Changes What You Taste](https://charcuterielab.com/salt-sweet-principle/)
 - [How to Build a Charcuterie Board Step by Step](https://charcuterielab.com/blog/build-sequence/)
@@ -76,6 +79,14 @@ Serve the burrata whole and allow guests to break it open — the visual of the 
 **What temperature should burrata be when served?**
 
 Room temperature — remove from the refrigerator 20–30 minutes before serving. Cold burrata has dense cream that doesn't flow and suppressed fat volatility. At room temperature, the cream loosens to a pourable consistency and the aromatic compounds in the fat become more volatile and accessible.
+
+**How long can burrata sit out?**
+
+No more than 2 hours at room temperature, or 1 hour above 90°F. Its cream filling spoils faster than aged cheese, so put out one ball at a time at a long party.
+
+**What wine goes with burrata and prosciutto?**
+
+Something crisp with bubbles or acid: Prosecco, Lambrusco, a dry rosé or Pinot Grigio.
 
 **What else can I add to burrata and prosciutto on a board?**
 

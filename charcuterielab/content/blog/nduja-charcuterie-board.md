@@ -3,13 +3,14 @@ title: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes
 
 seo_title: "Nduja on a Charcuterie Board: The Spreadable Salami"
 date: "2026-05-12"
+updated: "2026-11-14"
 image: "/images/nduja-charcuterie-board.webp"
 excerpt: "Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything"
 description: "Nduja is the most underused element in charcuterie. This spicy, spreadable Calabrian salami pairs with mild cheese, honey, and crusty bread in ways that redefine what a board can be."
 meta_description: "Nduja is the most underused element in charcuterie. This spicy, spreadable Calabrian salami pairs with mild cheese."
-faq: "[{"question":"What is nduja and how do you use it on a charcuterie board?","answer":"Nduja is a soft, spreadable Calabrian salami made from pork fat, pork shoulder, and Calabrian chiles. It's intensely spicy, rich, and spreadable at room temperature. On a board, serve it in a small bowl or jar with a spoon, alongside mild cheese and crusty bread. It functions more like a condiment than a sliced meat."},{"question":"What cheese pairs best with nduja on a charcuterie board?","answer":"Mild, creamy cheeses work best — fresh mozzarella, burrata, stracchino, or young Pecorino. The dairy fat suppresses capsaicin's heat and provides a neutral canvas for nduja's spice and smokiness. Avoid aged or pungent cheeses; they compete rather than complement."},{"question":"Is nduja too spicy for a charcuterie board?","answer":"Nduja is very spicy — more than most guests expect from a charcuterie element. Label it clearly. Place it alongside honey and mild cheese so guests who want to moderate the heat can do so. The combination of nduja + honey + fresh mozzarella is how the heat becomes an asset rather than a barrier."},{"question":"Where do you put nduja on a charcuterie board?","answer":"Serve nduja in a small jar, ramekin, or bowl with a spreader. Do not slice it — nduja is too soft to hold a slice. Place it near the mildest cheese on the board and adjacent to honey. Keep it separated from more delicate flavors it would overwhelm."},{"question":"What crackers or bread go with nduja?","answer":"Crusty sourdough or focaccia absorbs nduja's fat without disintegrating, making them the strongest pairing. Thicker crackers work; thin water crackers break under nduja's spreadable texture. Flatbread is a good middle ground. Avoid delicate crackers — nduja will dominate them."}]"
 slug: "nduja-charcuterie-board"
 tags: "["nduja charcuterie board", "ingredient deep dive", "charcuterie board"]"
+faq: "[{"question": "What is nduja and how do you use it on a charcuterie board?", "answer": "Nduja is a soft, spreadable Calabrian salami made from pork fat, pork shoulder, and Calabrian chiles. It's intensely spicy, rich, and spreadable at room temperature. On a board, serve it in a small bowl or jar with a spoon, alongside mild cheese and crusty bread. It functions more like a condiment than a sliced meat."}, {"question": "What cheese pairs best with nduja on a charcuterie board?", "answer": "Mild, creamy cheeses work best — fresh mozzarella, burrata, stracchino, or young Pecorino. The dairy fat suppresses capsaicin's heat and provides a neutral canvas for nduja's spice and smokiness. Avoid aged or pungent cheeses; they compete rather than complement."}, {"question": "Is nduja too spicy for a charcuterie board?", "answer": "Nduja is very spicy — more than most guests expect from a charcuterie element. Label it clearly. Place it alongside honey and mild cheese so guests who want to moderate the heat can do so. The combination of nduja + honey + fresh mozzarella is how the heat becomes an asset rather than a barrier."}, {"question": "Where do you put nduja on a charcuterie board?", "answer": "Serve nduja in a small jar, ramekin, or bowl with a spreader. Do not slice it — nduja is too soft to hold a slice. Place it near the mildest cheese on the board and adjacent to honey. Keep it separated from more delicate flavors it would overwhelm."}, {"question": "What crackers or bread go with nduja?", "answer": "Crusty sourdough or focaccia absorbs nduja's fat without disintegrating, making them the strongest pairing. Thicker crackers work; thin water crackers break under nduja's spreadable texture. Flatbread is a good middle ground. Avoid delicate crackers — nduja will dominate them."}]"
 ---
 
 # Nduja on a Charcuterie Board: The Spreadable Calabrian Meat That Changes Everything
@@ -26,7 +27,7 @@ The meat is made from pork fat, pork shoulder, and Calabrian chiles — fermente
 
 The flavor profile: intensely porky, smoky, spicy, with an underlying fermentation complexity that reveals itself after the initial heat fades. It's not simply spicy salami. The fat carries the chile's capsaicin differently than a dry sausage would — more slowly, longer on the palate, and with more of the chile's underlying fruity notes intact.
 
-Traditional Calabrian nduja is protected under Italian law. What's sold in the US is typically excellent — look for it at Italian delis, specialty food stores, or online.
+Nduja's traditional home is the small town of Spilinga in Calabria. Unlike Parma ham, the name isn't protected by an EU designation, so quality varies; check that the label lists Calabrian chile and pork. Both imported and US-made nduja can be excellent. Look for it at Italian delis, specialty food stores, or online.
 
 ## Best Use on a Charcuterie Board
 
@@ -75,6 +76,10 @@ Pouring wine with it? Alcohol makes chili heat feel stronger. See [spicy salami 
 **Over-serving.** Two to three ounces is enough for a full board. More than that, and guests who don't like heat have nowhere to go.
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) walks through 50 boards across every occasion — each one with exact quantities, a shopping list, and the science behind why it works.
+
+## Leftover Nduja
+
+An opened jar keeps in the fridge, tightly sealed, until the date on the label. It's a cooking ingredient too: stir a spoonful into pasta sauce, spread it under the cheese on pizza, or melt it into scrambled eggs.
 
 ## The Charcuterie Lab Takeaway
 

@@ -1,8 +1,10 @@
 ---
 title: "Apple Slices"
 date: "2026-04-25"
+updated: "2026-11-14"
 image: "/images/apple-slices.webp"
 excerpt: "Apple slices add crunch, sweetness, and acidity to charcuterie boards. Learn which apples to use, how to prevent browning, and what they pair with."
+faq: "[{"question": "How do you keep apple slices from turning brown?", "answer": "Toss them in lemon water (1 tbsp lemon juice per cup of water) immediately after slicing."}, {"question": "What's the best apple for charcuterie boards?", "answer": "Honeycrisp for sweetness, Granny Smith for tartness, or Fuji for balance."}, {"question": "Can you prep apple slices the night before?", "answer": "You can, if you treat them. Soak the slices in salt water or lemon water, pat them dry, and refrigerate them in a sealed container. They'll stay pale overnight but lose a little crunch, so slicing within 2 hours of serving is still best."}, {"question": "How many apples do I need for a board?", "answer": "One to two apples for 6–8 people, about 12–16 slices. Add a second apple for every four extra guests."}]"
 ---
 
 # Apple Slices: Deep Dive
@@ -24,7 +26,9 @@ Apple slices are thin-cut pieces of fresh apple, typically served raw on charcut
 - Juicy with each bite
 - Sturdy enough to hold toppings
 
-The best apple varieties for boards are **Honeycrisp** (sweet and extra crisp), **Granny Smith** (tart and firm), and **Fuji** (balanced sweetness). Avoid Red Delicious — they're mealy and lack the acidity needed for pairing.
+The best apple varieties for boards are **Honeycrisp** (sweet and extra crisp), **Granny Smith** (tart and firm), and **Fuji** (balanced sweetness). **Cosmic Crisp** is worth a look too: it's very firm and slow to brown, so it holds up well on a board. Avoid Red Delicious — they're mealy and lack the acidity needed for pairing.
+
+Apples are at their best from late summer through winter, which makes them the easiest fresh fruit for a fall or holiday board.
 
 ## How They're Prepared
 
@@ -37,7 +41,9 @@ Apples are simple, but preparation matters. Here's why they work:
 
 **Why lemon juice works:**
 
-The citric acid in lemon juice slows enzymatic browning (oxidation) without altering the apple's flavor. A quick toss in lemon water keeps slices looking fresh for 2–3 hours.
+The citric acid in lemon juice slows enzymatic browning (oxidation). A quick toss in lemon water keeps slices looking fresh for 2–3 hours, with a faint lemony note.
+
+**Salt water works too, and tastes of nothing.** Soak slices for 5 minutes in ½ teaspoon of salt per cup of cold water, rinse briefly and pat dry. Use it when the apples sit next to a delicate cheese and you don't want any lemon in the bite.
 
 ## Flavor Profile & What Makes Them Unique
 
@@ -82,7 +88,7 @@ The crisp texture contrasts beautifully with soft cheeses and tender meats, maki
 
 **1. Acid Cuts Fat**
 
-Apples contain malic acid, which breaks down the richness of fatty cheeses and cured meats. This is why apples feel so refreshing after a bite of aged cheddar or salami.
+Apples contain malic acid, which cuts through the richness of fatty cheeses and cured meats. This is why apples feel so refreshing after a bite of aged cheddar or salami.
 
 **2. Sweet Balances Salt**
 
@@ -160,11 +166,21 @@ Honeycrisp for sweetness, Granny Smith for tartness, or Fuji for balance.
 
 **Can you prep apple slices the night before?**
 
-Not recommended. They'll brown and lose crispness. Slice within 2 hours of serving.
+You can, if you treat them. Soak the slices in salt water or lemon water, pat them dry, and refrigerate them in a sealed container. They'll stay pale overnight but lose a little crunch, so slicing within 2 hours of serving is still best.
+
+**How many apples do I need for a board?**
+
+One to two apples for 6–8 people, about 12–16 slices. Add a second apple for every four extra guests.
 
 ## Conclusion
 
 Apple slices are more than just filler — they're a strategic pairing ingredient that brings acidity, sweetness, and crunch to your board. Once you understand how their natural acidity cuts through rich cheeses and how their sweetness balances salty meats, you'll never build a board without them.
+
+## Related Reading
+
+- [What Goes With Apples: Cheese, Meat and Drink Pairings](/pairings/food/apples/)
+- [What Goes With Aged Cheddar](/pairings/food/aged-cheddar/)
+- [Can You Make a Charcuterie Board the Night Before?](/blog/make-charcuterie-board-night-before/)
 
 **Want more Ingredient Lab deep dives?**
 
