@@ -1,0 +1,350 @@
+{
+ "_note": "Meat and cheese pairing chart (15 Nov 2026). Families of cured meat (rows) x families of cheese (cols). score: 3 classic, 2 good, 1 works with a sweet bridge, 0 skip. why: one short line in our own words. Proven pairs come from the ingredient pages at build time.",
+ "meats": [
+  {
+   "id": "ham",
+   "name": "Dry-cured ham",
+   "short": "Prosciutto & jamón",
+   "foods": [
+    "prosciutto-di-parma",
+    "jamon-serrano",
+    "speck",
+    "prosciutto-san-daniele",
+    "jamon-iberico"
+   ],
+   "line": "Silky, sweet and salty. Easy to overpower, so it likes cheeses that are creamy or nutty rather than loud.",
+   "q": "What cheese goes with prosciutto?"
+  },
+  {
+   "id": "salami",
+   "name": "Mild salami",
+   "short": "Genoa, hard salami, saucisson",
+   "foods": [
+    "genoa-salami",
+    "hard-salami",
+    "finocchiona",
+    "saucisson-sec",
+    "rosette-de-lyon",
+    "fuet"
+   ],
+   "line": "Garlicky, fatty and chewy. The most flexible meat on the board.",
+   "q": "What cheese goes with salami?"
+  },
+  {
+   "id": "spicy",
+   "name": "Spicy salami & chorizo",
+   "short": "Pepperoni, soppressata, chorizo",
+   "foods": [
+    "pepperoni",
+    "soppressata",
+    "chorizo",
+    "nduja"
+   ],
+   "line": "Chili heat and paprika. Wants a cool, creamy cheese to calm it, or a firm one that can stand up to it.",
+   "q": "What cheese goes with pepperoni and chorizo?"
+  },
+  {
+   "id": "smoked",
+   "name": "Smoked sausage",
+   "short": "Summer sausage, landjäger",
+   "foods": [
+    "summer-sausage",
+    "landjager",
+    "kielbasa",
+    "meat-sticks"
+   ],
+   "line": "Smoky, tangy and a little sweet. Made for mild, melty cheeses and sharp cheddar.",
+   "q": "What cheese goes with summer sausage?"
+  },
+  {
+   "id": "deli",
+   "name": "Cooked ham & deli",
+   "short": "Ham, mortadella, turkey",
+   "foods": [
+    "honey-ham",
+    "prosciutto-cotto",
+    "mortadella",
+    "smoked-turkey",
+    "black-forest-ham"
+   ],
+   "line": "Tender, mild and sweet. Goes with almost any sliceable cheese, best with Swiss-style ones.",
+   "q": "What cheese goes with ham, mortadella and turkey?"
+  },
+  {
+   "id": "beef",
+   "name": "Air-dried beef",
+   "short": "Bresaola",
+   "foods": [
+    "bresaola",
+    "bundnerfleisch"
+   ],
+   "line": "Lean, deep red and beefy. Needs a cheese that adds the fat it lacks.",
+   "q": "What cheese goes with bresaola?"
+  }
+ ],
+ "cheeses": [
+  {
+   "id": "fresh",
+   "name": "Fresh & milky",
+   "short": "Burrata, mozzarella, ricotta",
+   "foods": [
+    "burrata",
+    "fresh-mozzarella",
+    "ricotta"
+   ]
+  },
+  {
+   "id": "bloomy",
+   "name": "Soft-ripened",
+   "short": "Brie, camembert, triple-crème",
+   "foods": [
+    "brie",
+    "camembert",
+    "triple-creme"
+   ]
+  },
+  {
+   "id": "goat",
+   "name": "Goat cheese",
+   "short": "Fresh chèvre, Humboldt Fog",
+   "foods": [
+    "fresh-chevre",
+    "humboldt-fog",
+    "crottin-de-chavignol",
+    "sainte-maure",
+    "bucheron"
+   ]
+  },
+  {
+   "id": "semi",
+   "name": "Semi-soft & mild",
+   "short": "Havarti, young gouda, provolone",
+   "foods": [
+    "havarti",
+    "gouda",
+    "colby-jack",
+    "fontina",
+    "provolone",
+    "baby-swiss",
+    "pepper-jack",
+    "smoked-gouda"
+   ]
+  },
+  {
+   "id": "alpine",
+   "name": "Alpine & nutty",
+   "short": "Gruyère, comté, emmental",
+   "foods": [
+    "gruyere",
+    "comte",
+    "emmental"
+   ]
+  },
+  {
+   "id": "aged",
+   "name": "Aged & firm",
+   "short": "Manchego, aged cheddar, parm",
+   "foods": [
+    "manchego",
+    "aged-cheddar",
+    "aged-gouda",
+    "parmigiano-reggiano",
+    "pecorino-romano",
+    "aged-provolone",
+    "idiazabal"
+   ]
+  },
+  {
+   "id": "blue",
+   "name": "Blue",
+   "short": "Gorgonzola, stilton",
+   "foods": [
+    "gorgonzola",
+    "stilton",
+    "roquefort"
+   ]
+  }
+ ],
+ "cells": {
+  "ham": {
+   "fresh": [
+    3,
+    "Cool milk against silky salt. Prosciutto with burrata is the Italian summer classic."
+   ],
+   "bloomy": [
+    2,
+    "Two gentle textures. Fine together, better with a fig jam or pear in between."
+   ],
+   "goat": [
+    2,
+    "Chèvre's tang lifts the ham's sweetness. Roll them together for an easy bite."
+   ],
+   "semi": [
+    2,
+    "Mild and melty works, but the cheese can make delicate ham taste flat."
+   ],
+   "alpine": [
+    2,
+    "Nutty and sweet together. Speck with a mountain cheese is a natural match."
+   ],
+   "aged": [
+    3,
+    "Same region, same long ageing: Parma ham with Parmigiano, jamón with manchego."
+   ],
+   "blue": [
+    1,
+    "Blue drowns delicate ham. Use a mild gorgonzola dolce and add honey or melon."
+   ]
+  },
+  "salami": {
+   "fresh": [
+    2,
+    "Fresh mozzarella cools a garlicky salami. The antipasto platter pairing."
+   ],
+   "bloomy": [
+    2,
+    "Salty salami against buttery brie. Rich, so keep the slices thin."
+   ],
+   "goat": [
+    2,
+    "Goat cheese's tang cuts through the salami's fat."
+   ],
+   "semi": [
+    3,
+    "Salami and provolone, salami and havarti: the deli pairing that never misses."
+   ],
+   "alpine": [
+    2,
+    "Gruyère's nuttiness is good with saucisson. The French way to do it."
+   ],
+   "aged": [
+    3,
+    "Firm with firm and salt with salt: aged cheddar, manchego or parm all work."
+   ],
+   "blue": [
+    1,
+    "Two strong, salty things. Works with a sweet bridge like fig jam or honey."
+   ]
+  },
+  "spicy": {
+   "fresh": [
+    3,
+    "Cool, milky cheese puts out the fire. Burrata with nduja, mozzarella with pepperoni."
+   ],
+   "bloomy": [
+    2,
+    "Brie's cream softens chili heat, though the subtle rind gets lost."
+   ],
+   "goat": [
+    2,
+    "Tangy goat cheese cools spice and adds a bright edge."
+   ],
+   "semi": [
+    3,
+    "Provolone, pepper jack or havarti: pizza-shop logic, and it works."
+   ],
+   "alpine": [
+    1,
+    "Chili heat flattens the nutty notes you pay for in good Gruyère."
+   ],
+   "aged": [
+    3,
+    "Chorizo with manchego is Spain's tapas pair; firm cheese stands up to paprika."
+   ],
+   "blue": [
+    1,
+    "Hot salami and a strong blue are too much. Use sweet (mild) soppressata, a creamy blue, and honey or pear between them."
+   ]
+  },
+  "smoked": {
+   "fresh": [
+    1,
+    "Smoke overpowers fresh cheese. Fine on a kids' board, not a standout."
+   ],
+   "bloomy": [
+    1,
+    "Smoke and a mushroomy rind clash a bit. Add pepper jelly to bridge them."
+   ],
+   "goat": [
+    1,
+    "Smoky and tangy pull apart. A sweet jelly helps."
+   ],
+   "semi": [
+    3,
+    "Summer sausage with colby jack or young gouda: the gift-box classic."
+   ],
+   "alpine": [
+    2,
+    "Swiss-style cheese with smoked sausage is a solid tailgate pair."
+   ],
+   "aged": [
+    3,
+    "Sharp cheddar meets tangy, smoky sausage. Add mustard and you're done."
+   ],
+   "blue": [
+    1,
+    "Smoke and blue both shout. A drizzle of honey makes it work."
+   ]
+  },
+  "deli": {
+   "fresh": [
+    2,
+    "Mortadella with burrata or ricotta is a popular Italian pairing. Soft on soft."
+   ],
+   "bloomy": [
+    2,
+    "Ham and brie: the French sandwich, minus the baguette."
+   ],
+   "goat": [
+    1,
+    "Mild meat and tangy cheese don't add much to each other."
+   ],
+   "semi": [
+    3,
+    "Ham and Swiss, turkey and havarti: mild with mild, and always eaten."
+   ],
+   "alpine": [
+    3,
+    "Sweet cooked ham and nutty Gruyère: a croque monsieur on a cracker."
+   ],
+   "aged": [
+    2,
+    "Ham with sharp cheddar works. The cheese leads, the ham supports."
+   ],
+   "blue": [
+    1,
+    "Blue overwhelms mild ham. Works with pear or apple in the bite."
+   ]
+  },
+  "beef": {
+   "fresh": [
+    2,
+    "Lean beef needs fat, and fresh cheese brings it."
+   ],
+   "bloomy": [
+    2,
+    "Creamy brie fills in what lean bresaola lacks."
+   ],
+   "goat": [
+    3,
+    "Bresaola rolled around goat cheese is a common Italian appetizer."
+   ],
+   "semi": [
+    2,
+    "Fine together, if not exciting. Add arugula and lemon."
+   ],
+   "alpine": [
+    2,
+    "Bündnerfleisch with a mountain cheese: same Alpine valleys."
+   ],
+   "aged": [
+    3,
+    "Bresaola with shaved Parmigiano, lemon and olive oil: the Lombardy plate."
+   ],
+   "blue": [
+    2,
+    "Beef and blue is a steakhouse pairing, and it works cured too."
+   ]
+  }
+ }
+}

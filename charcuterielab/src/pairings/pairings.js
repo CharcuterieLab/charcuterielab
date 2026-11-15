@@ -503,8 +503,46 @@ function lab() {
   }
 }
 
+// ------------------------------------------------- meat & cheese chart ---
+// /pairings/meat-and-cheese-chart/ (15 Nov 2026): tap a square for the reason
+// and proven pairs; tap a row or column head to highlight it; print the chart.
+function mcChart() {
+  const t = $("#mc-chart");
+  if (!t) return;
+  let data = {};
+  try { data = JSON.parse($("#mc-data").textContent); } catch {}
+  const panel = $("#mc-panel");
+  const clear = () => $$(".is-hl, .is-on", t).forEach((el) => el.classList.remove("is-hl", "is-on"));
+  t.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-mc]");
+    if (b) {
+      const d = data[b.dataset.mc];
+      clear();
+      b.classList.add("is-on");
+      const [m, c] = b.dataset.mc.split("|");
+      $$(`[data-mcol="${c}"]`, t).forEach((el) => el.classList.add("is-hl"));
+      $(`tr[data-mrow="${m}"]`, t)?.classList.add("is-hl");
+      if (d && panel) {
+        panel.innerHTML = `<p class="mc-panel-h"><span class="mc-chip ${b.className.match(/mc-s\d/)[0]}">${esc(d.s)}</span> <strong>${esc(d.t)}</strong></p><p>${esc(d.w)}</p>${d.p.length ? `<p class="mc-proven">Proven in our ingredient guides: ${d.p.map(esc).join(", ")}${d.q ? ` · <a href="${esc(d.q)}">Check or complete this bite &rarr;</a>` : ""}</p>` : ""}<p><a class="pr-more" href="#mc-${esc(m)}">All cheeses for this meat &darr;</a></p>`;
+        panel.hidden = false;
+      }
+    }
+  });
+  $("[data-mc-print]")?.addEventListener("click", () => {
+    const sheet = document.createElement("div");
+    sheet.id = "mc-print-sheet";
+    sheet.innerHTML = `<h1>Meat and cheese pairing chart</h1>${$(".mc-legend")?.outerHTML || ""}${t.closest(".mc-wrap").outerHTML}<p class="mc-print-foot">charcuterielab.com/pairings/meat-and-cheese-chart/</p>`;
+    document.body.append(sheet);
+    document.body.classList.add("mc-printing");
+    const done = () => { document.body.classList.remove("mc-printing"); sheet.remove(); window.removeEventListener("afterprint", done); };
+    window.addEventListener("afterprint", done);
+    window.print();
+  });
+}
+
 filters();
 lab();
+mcChart();
 chart();
 season();
 finder();

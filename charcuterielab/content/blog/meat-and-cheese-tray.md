@@ -42,7 +42,7 @@ A meat and cheese tray is the workhorse of party food: graduations, office lunch
 | **Fillers** | Grapes, [olives](/blog/best-olives-for-charcuterie/), [pickles](/blog/best-pickles-for-charcuterie/), cherry tomatoes | [Pepperoncini](/blog/best-pickles-for-charcuterie/), marinated artichokes, [candied pecans](/blog/best-candied-pecans/), dried apricots |
 | **Spreads** | Yellow and Dijon [mustard](/blog/best-mustard-for-charcuterie/), mayo | Honey mustard, [pepper jelly](/blog/best-pepper-jelly/), [fig jam](/blog/best-fig-jam/) |
 
-**Picking the cheeses:** choose different colors and textures so the tray looks full. Orange cheddar, white Swiss, flecked pepper jack and pale provolone already look like four different things. More on cheese counts: [how many cheeses for a board](/blog/how-many-cheeses/).
+**Picking the cheeses:** choose different colors and textures so the tray looks full. Orange cheddar, white Swiss, flecked pepper jack and pale provolone already look like four different things. More on cheese counts: [how many cheeses for a board](/blog/how-many-cheeses/). To match each meat with its best cheese, use the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/).
 
 :::html
 <h2 id="how-much">How much meat and cheese to buy</h2>

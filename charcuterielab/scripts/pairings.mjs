@@ -47,7 +47,9 @@ export async function loadPairings(root) {
     const [drinks, foods, combos, rules] = await Promise.all(["drinks.json", "foods.json", "combos.json", "rules.json"].map(read));
     // per-ingredient diet verdicts for the Combination Lab badges (optional)
     const diets = await readFile(join(root, "content", "dietary", "ingredient-diets.json"), "utf8").then(JSON.parse, () => ({}));
-    return { drinks, foods, combos, rules, diets };
+    // meat x cheese families for /pairings/meat-and-cheese-chart/ (optional)
+    const mc = await read("meat-cheese.json").catch(() => null);
+    return { drinks, foods, combos, rules, diets, mc };
   } catch {
     return null;
   }
@@ -210,6 +212,7 @@ function validate(idx) {
   const ids = new Set([...idx.combos.map((c) => c.id), ...idx.plates.map((c) => `plate:${c.id}`)]);
   for (const l of idx.ladders) for (const s of [...l.steps, ...(l.branches || []).flatMap((b) => [b.id, b.from])]) if (!ids.has(s)) errors.push(`ladder ${l.name}: unknown step ${s}`);
   for (const c of [...idx.combos, ...idx.plates]) if (c.drink && !idx.drinkBySlug.has(c.drink)) errors.push(`combo ${c.id}: unknown drink ${c.drink}`);
+  mcValidate(idx, errors);
   if (errors.length) throw new Error(`Pairings data check failed:\n  ${errors.join("\n  ")}`);
 }
 
@@ -309,7 +312,7 @@ function crumbHtml(h, crumbs) {
 }
 
 function hubNav(current) {
-  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/drinks/", "All Drinks"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Combination Lab"], ["/pairings/wine-and-cheese-chart/", "Chart"], ["/pairings/how-pairing-works/", "The Rules"]];
+  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/drinks/", "All Drinks"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Combination Lab"], ["/pairings/wine-and-cheese-chart/", "Wine Chart"], ["/pairings/meat-and-cheese-chart/", "Meat & Cheese"], ["/pairings/how-pairing-works/", "The Rules"]];
   return `<nav class="pr-subnav" aria-label="Pairings sections">${links.map(([u, l]) => `<a href="${u}"${u === current ? ' aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
 }
 
@@ -465,6 +468,14 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
         <a class="button primary" href="/pairings/wine-and-cheese-chart/">Open the chart</a>
       </div>
     </section>
+
+    ${idx.data.mc ? `<section class="bl-section pr-chart-teaser" aria-labelledby="mc-chart-h">
+      <div>
+        <h2 id="mc-chart-h">The meat and cheese pairing chart</h2>
+        <p>Which cheese goes with prosciutto, salami, pepperoni, chorizo, summer sausage, ham and bresaola, rated and explained on one printable chart.</p>
+        <a class="button primary" href="/pairings/meat-and-cheese-chart/">Open the meat and cheese chart</a>
+      </div>
+    </section>` : ""}
 
     ${h.bookBar("pairings_hub", "Every board in the book comes with its pairing science")}
     ${h.printCard ? h.printCard("pairing-card-deck", "pairings_hub_print") : ""}
@@ -855,6 +866,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2><p>${it.avoidWith.map((s) => ingLink(h, idx, s)).join(" · ")}</p></section>` : ""}
 
     ${combos.length ? `<section class="bl-section" aria-labelledby="combo-h"><h2 id="combo-h">Combinations with ${B(it.title)}</h2><ul class="pr-combos">${combos.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul>${combosAll.length > combos.length ? `<p><a class="pr-more" href="/pairings/classics/">See all ${combosAll.length} combinations with ${B(it.title)} &rarr;</a></p>` : ""}</section>` : ""}
+    ${(() => { const fam = mcFamilyOf(idx, f.slug); if (!fam) return ""; const isMeat = idx.data.mc.meats.includes(fam); return `<p class="mc-food-link">${isMeat ? `Which cheese goes with ${B(it.title)}?` : `Which cured meat goes with ${B(it.title)}?`} See the <a href="/pairings/meat-and-cheese-chart/${isMeat ? `#mc-${fam.id}` : ""}">meat and cheese pairing chart</a>.</p>`; })()}
 
     ${boards.length ? `<section class="bl-section" aria-labelledby="boards-h"><h2 id="boards-h">Boards that use ${B(it.title)}</h2>${boardList(boards)}</section>` : ""}
 
@@ -925,6 +937,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
   // ------------------------------------------------------------- chart ---
   const chartCheeses = [...new Set(wines.flatMap((w) => w.matches.map((m) => m.s)))].map((s) => idx.bySlug.get(s)).filter((i) => i.category === "Cheese").sort((a, b) => a.title.localeCompare(b.title));
   const beerCols = beers;
+  if (idx.data.mc) add("pairings/meat-and-cheese-chart/index.html", mcPage(h, idx, script));
   add("pairings/wine-and-cheese-chart/index.html", page(h, {
     url: "/pairings/wine-and-cheese-chart/",
     title: "Wine and Cheese Pairing Chart (Printable)",
@@ -1148,6 +1161,121 @@ ${all.filter((c) => c.kind === k.key).map((c) => labCard(h, idx, art, c)).join("
   });
 }
 
+// ------------------------------------------------- meat & cheese chart ---
+// 15 Nov 2026. /pairings/meat-and-cheese-chart/: 6 cured-meat families x 7
+// cheese families from content/pairings/meat-cheese.json, rated 0-3 with a
+// reason, plus the proven pairs (both foods list each other or one explains
+// the other) from the ingredient pages. Built for "meat and cheese pairing
+// chart", which Google was sending to /blog/charcuterie-chart/.
+const MC_UPDATED = "2026-11-15";
+const MC_SCORE = [
+  { word: "Skip", cls: "mc-s0" },
+  { word: "With a bridge", cls: "mc-s1" },
+  { word: "Good", cls: "mc-s2" },
+  { word: "Classic", cls: "mc-s3" }
+];
+export function mcFamilyOf(idx, slug) {
+  const mc = idx.data.mc;
+  if (!mc) return null;
+  return mc.meats.find((m) => m.foods.includes(slug)) || mc.cheeses.find((c) => c.foods.includes(slug)) || null;
+}
+function mcProven(idx, meat, cheese, max = 3) {
+  const out = [];
+  for (const a of meat.foods) for (const b of cheese.foods) {
+    if (!idx.bySlug.has(a) || !idx.bySlug.has(b) || !idx.graph.get(a).has(b)) continue;
+    out.push({ a, b, why: idx.reasons.get(key(a, b)) || "", s: (idx.explainedBy.has(`${a}>${b}`) ? 2 : 0) + (idx.explainedBy.has(`${b}>${a}`) ? 2 : 0) + (idx.foodPage.has(a) ? 1 : 0) + (idx.foodPage.has(b) ? 1 : 0) });
+  }
+  return out.sort((x, y) => y.s - x.s).slice(0, max);
+}
+function mcValidate(idx, errors) {
+  const mc = idx.data.mc;
+  if (!mc) return;
+  for (const f of [...mc.meats, ...mc.cheeses]) for (const s of f.foods) if (!idx.bySlug.has(s)) errors.push(`meat-cheese ${f.id}: unknown ingredient ${s}`);
+  for (const m of mc.meats) for (const c of mc.cheeses) {
+    const cell = mc.cells[m.id]?.[c.id];
+    if (!cell || !(cell[0] >= 0 && cell[0] <= 3) || !cell[1]) errors.push(`meat-cheese: missing or bad cell ${m.id} x ${c.id}`);
+  }
+}
+function mcPage(h, idx, script) {
+  const B = (t) => h.escapeHtml(t);
+  const mc = idx.data.mc;
+  const title = (s) => idx.bySlug.get(s)?.title || s;
+  const cell = (m, c) => mc.cells[m.id][c.id];
+  const classics = mc.meats.map((m) => [m, mc.cheeses.filter((c) => cell(m, c)[0] === 3)]);
+  const faq = [
+    { q: "What cheese goes best with salami?", a: "Firm and semi-soft cheeses: provolone, havarti, aged cheddar, manchego and Parmigiano. They are salty and firm like the salami, so neither gets lost. Fresh mozzarella works too on an antipasto plate." },
+    { q: "What cheese goes with prosciutto?", a: "Burrata and fresh mozzarella for contrast, or Parmigiano-Reggiano for a same-region match. Goat cheese and brie work with a sweet extra like fig jam or melon. Avoid strong blues, which drown the ham." },
+    { q: "What cheese goes with pepperoni or chorizo?", a: "Something cool and creamy to calm the heat (fresh mozzarella, burrata, havarti, provolone) or something firm enough to stand up to it, like manchego. Go easy on blue cheese with hot salami." },
+    { q: "Which meat and cheese pairings should I avoid?", a: "Hot salami with a strong blue cheese, and delicate prosciutto with a strong blue or a very smoky cheese. When two loud flavors meet, add a sweet bridge such as honey or fig jam, or keep them apart on the board." },
+    { q: "How many meats and cheeses should a charcuterie board have?", a: "Three meats and three cheeses cover most boards: one ham, one salami and one spicy or smoked meat, with one soft, one semi-soft and one aged cheese. That gives every meat at least one classic partner on this chart." }
+  ];
+  const used = new Set(mc.meats.flatMap((m) => mc.cheeses.map((c) => cell(m, c)[0])));
+  const legend = `<ul class="mc-legend">${[3, 2, 1, 0].filter((n) => used.has(n)).map((n) => `<li><span class="mc-chip ${MC_SCORE[n].cls}">${MC_SCORE[n].word}</span> ${["Skip it", "Works with honey, jam or fruit in the bite", "A good match", "A classic: always works"][n]}</li>`).join("")}</ul>`;
+  const table = `<div class="mc-wrap"><table class="mc-chart" id="mc-chart">
+        <caption class="sr-only">Meat and cheese pairing chart: each cell rates a cured meat family with a cheese family</caption>
+        <thead><tr><th scope="col" class="mc-corner">Meat ↓ · Cheese →</th>${mc.cheeses.map((c) => `<th scope="col" data-mcol="${c.id}"><strong>${B(c.name)}</strong><span>${B(c.short)}</span></th>`).join("")}</tr></thead>
+        <tbody>
+        ${mc.meats.map((m) => `<tr data-mrow="${m.id}"><th scope="row"><a href="#mc-${m.id}"><strong>${B(m.name)}</strong><span>${B(m.short)}</span></a></th>${mc.cheeses.map((c) => { const [n, why] = cell(m, c); return `<td data-mcol="${c.id}"><button type="button" class="mc-chip ${MC_SCORE[n].cls}" data-mc="${m.id}|${c.id}" title="${B(why)}">${MC_SCORE[n].word}</button></td>`; }).join("")}</tr>`).join("\n        ")}
+        </tbody>
+      </table></div>`;
+  // per-cell details for the tap panel (script reads this)
+  const detail = Object.fromEntries(mc.meats.flatMap((m) => mc.cheeses.map((c) => [`${m.id}|${c.id}`, { t: `${m.name} + ${c.name}`, s: MC_SCORE[cell(m, c)[0]].word, w: cell(m, c)[1], p: mcProven(idx, m, c).map((x) => `${title(x.a)} + ${title(x.b)}`), q: mcProven(idx, m, c, 1).map((x) => `/pairings/?check=${x.a},${x.b}#finder`)[0] || "" }])));
+  const body = `
+    <header class="pr-hero">
+      <p class="section-kicker">Printable chart</p>
+      <h1>Meat and cheese pairing chart</h1>
+      <p class="pr-answer">Match the meat's style to the cheese's: silky prosciutto with burrata or Parmigiano, salami with provolone or aged cheddar, spicy chorizo with manchego or fresh mozzarella, and smoked sausage with colby jack or sharp cheddar.</p>
+      <p class="pr-chart-tools"><button type="button" class="button primary" data-mc-print>Print the chart</button> <a class="pr-more" href="/pairings/wine-and-cheese-chart/">Wine and cheese chart &rarr;</a></p>
+    </header>
+    ${legend}
+    ${table}
+    <div class="mc-panel" id="mc-panel" aria-live="polite" hidden></div>
+    <p class="bl-note">Tap any square for the reason and the exact pairs our ingredient guides back up. Rows are families of cured meat; columns are families of cheese.</p>
+
+    <section class="bl-section" aria-labelledby="mc-quick-h">
+      <h2 id="mc-quick-h">The classic pairings at a glance</h2>
+      <ul class="mc-quick">${classics.map(([m, cs]) => `<li><a href="#mc-${m.id}"><strong>${B(m.name)}</strong></a>: ${cs.map((c) => B(c.name.toLowerCase())).join(", ")}</li>`).join("")}</ul>
+    </section>
+
+    ${mc.meats.map((m) => {
+      const rows = [...mc.cheeses].sort((a, b) => cell(m, b)[0] - cell(m, a)[0]);
+      const foodLinks = m.foods.filter((s) => idx.bySlug.has(s)).map((s) => pairLink(h, idx, s));
+      return `<section class="bl-section mc-family" id="mc-${m.id}" aria-labelledby="mc-${m.id}-h">
+      <h2 id="mc-${m.id}-h">${B(m.q || `What cheese goes with ${m.name.toLowerCase()}?`)}</h2>
+      <p>${B(m.line)} Includes ${foodLinks.join(", ")}.</p>
+      <ul class="mc-rows">${rows.map((c) => {
+        const [n, why] = cell(m, c);
+        const proven = mcProven(idx, m, c);
+        return `<li class="${MC_SCORE[n].cls}-row"><span class="mc-chip ${MC_SCORE[n].cls}">${MC_SCORE[n].word}</span> <strong>${B(c.name)}</strong> <em>(${B(c.short)})</em>: ${B(why)}${proven.length ? ` <span class="mc-proven">Proven: ${proven.map((x) => `<a href="/pairings/?check=${x.a},${x.b}#finder">${B(title(x.a))} + ${B(title(x.b))}</a>`).join(", ")}</span>` : ""}</li>`;
+      }).join("")}</ul>
+    </section>`;
+    }).join("\n    ")}
+
+    <section class="bl-section" aria-labelledby="mc-how-h">
+      <h2 id="mc-how-h">How the chart works</h2>
+      <p>Two rules do most of the work. <a href="/pairings/how-pairing-works/#weight">Match the weight</a>: delicate ham with gentle cheese, bold salami with firm, aged cheese. And <a href="/pairings/how-pairing-works/#texture">contrast the texture</a>: cool, creamy cheese against chewy or <a href="/blog/spicy-salami-and-wine/">spicy meat</a>. Same-region pairs, like jamón with manchego or Parma ham with Parmigiano, work for a third reason: <a href="/pairings/how-pairing-works/#place">what grows together goes together</a>. When a square says "with a bridge", add a sweet note such as <a href="/ingredients/honey/">honey</a>, <a href="/ingredients/fig-jam/">fig jam</a> or <a href="/ingredients/pears/">pear</a>. Build whole combinations in the <a href="/pairings/classics/">Combination Lab</a>, or test your own in <a href="/pairings/?check=prosciutto-di-parma,burrata#finder">Check or complete a bite</a>.</p>
+    </section>
+
+    <section class="bl-section" id="faq" aria-labelledby="faq-h">
+      <h2 id="faq-h">Questions</h2>
+      ${faqHtml(h, faq)}
+    </section>
+    <script type="application/json" id="mc-data">${h.jsonForScript(detail)}</script>`;
+  return page(h, {
+    url: "/pairings/meat-and-cheese-chart/",
+    title: "Meat and Cheese Pairing Chart (Printable)",
+    name: "Meat and cheese pairing chart",
+    description: "A printable meat and cheese pairing chart: which cheeses go with prosciutto, salami, pepperoni, chorizo, summer sausage, ham and bresaola, with the reason for each.",
+    crumbs: [["Pairings", "/pairings/"], ["Meat & Cheese Chart", "/pairings/meat-and-cheese-chart/"]],
+    image: "/images/meat-and-cheese-chart.png",
+    list: mc.meats.map((m) => [m.q || `What cheese goes with ${m.name.toLowerCase()}`, `/pairings/meat-and-cheese-chart/#mc-${m.id}`]),
+    faq,
+    updated: MC_UPDATED,
+    script,
+    body
+  });
+}
+
 export function ingredientPairingBlock(h, idx, item) {
   if (!idx) return "";
   const drinks = (idx.drinksFor.get(item.slug) || []).filter((x) => x.d.family === "wine" || x.d.family === "beer").slice(0, 6);
@@ -1175,7 +1303,7 @@ export function pairingUrls(idx) {
   if (!idx) return [];
   return [
     { loc: "/pairings/", priority: "0.9" },
-    ...["drinks", "wine", "beer", "cocktails", "zero-proof", "food", "classics", "how-pairing-works", "wine-and-cheese-chart"].map((s) => ({ loc: `/pairings/${s}/`, lastmod: UPDATED, priority: "0.8" })),
+    ...["drinks", "wine", "beer", "cocktails", "zero-proof", "food", "classics", "how-pairing-works", "wine-and-cheese-chart", ...(idx.data.mc ? ["meat-and-cheese-chart"] : [])].map((s) => ({ loc: `/pairings/${s}/`, lastmod: UPDATED, priority: "0.8" })),
     ...idx.drinks.map((d) => ({ loc: d.url, lastmod: UPDATED, priority: "0.8" })),
     ...idx.foods.map((f) => ({ loc: f.url, lastmod: UPDATED, priority: "0.8" }))
   ];

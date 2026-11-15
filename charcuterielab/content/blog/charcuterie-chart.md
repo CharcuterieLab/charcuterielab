@@ -76,7 +76,7 @@ For 20, 50 or 100 guests, the [Party Planner](/party-planner/) builds the list w
 | Blue cheese | Soppressata | Honey or pear | Port |
 | Goat cheese | Bresaola | Apricot | Sauvignon Blanc |
 
-The reason behind each pairing is in the [Pairings Hub](/pairings/), and the [wine and cheese chart](/pairings/wine-and-cheese-chart/) goes deeper on drinks.
+The reason behind each pairing is in the [Pairings Hub](/pairings/). For every meat matched against every style of cheese, see the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/); the [wine and cheese chart](/pairings/wine-and-cheese-chart/) goes deeper on drinks.
 
 ![Five charcuterie pairings of cheese, meat, sweet and drink](/images/charcuterie-chart-pairings.webp)
 
