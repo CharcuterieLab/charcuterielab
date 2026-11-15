@@ -8,8 +8,53 @@
    "name": "Brie + Fig Jam",
    "why": "Sweet, dense jam against mild, salty cream. The pairing most people try first, for good reason.",
    "rule": "salt-sweet",
-   "post": "brie-fig-jam-walnut-pairing",
-   "featured": true
+   "post": "salt-sweet-principle",
+   "featured": true,
+   "bite": "Smear brie on a cracker, then a half-teaspoon of jam on top so you taste both.",
+   "for8": [
+    "8 oz wheel",
+    "1/2 cup"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Bubbles lift the brie's butterfat.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "gorgonzola",
+    "honey"
+   ],
+   "name": "Gorgonzola + Honey",
+   "why": "Honey rounds off blue cheese's salty, peppery bite, and the salt makes the honey taste less sugary.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "A small chunk of gorgonzola with a thin drizzle of honey. Less honey than you think.",
+   "for8": [
+    "6 oz",
+    "1/4 cup"
+   ],
+   "drink": "port",
+   "drink_note": "Sweet wine for a salty blue, the classic match.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "dessert"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -19,8 +64,24 @@
    "name": "Manchego + Membrillo",
    "why": "Spain's nutty sheep's cheese with its own quince paste. Firm and sweet, salty and floral.",
    "rule": "place",
-   "post": "manchego-membrillo-pairing",
-   "featured": true
+   "featured": true,
+   "bite": "A thin slice of membrillo on a thicker slice of manchego. Same shape, stacked.",
+   "for8": [
+    "8 oz wedge",
+    "4 oz, sliced thin"
+   ],
+   "drink": "rose",
+   "drink_note": "A dry Spanish rosado; Rioja also works.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -30,41 +91,189 @@
    "name": "Prosciutto + Melon",
    "why": "Salt makes the melon sweeter; the melon's water makes the ham taste silkier.",
    "rule": "salt-sweet",
-   "post": "prosciutto-melon-pairing",
-   "featured": true
+   "post": "salt-sweet-principle",
+   "featured": true,
+   "bite": "Wrap one slice of prosciutto around a melon wedge. Chill the melon, not the ham.",
+   "for8": [
+    "4 oz (about 16 slices)",
+    "1/2 cantaloupe, in 16 wedges"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé, or Prosecco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "picnic",
+    "brunch",
+    "party"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
-    "parmigiano-reggiano",
-    "balsamic-glaze"
+    "smoked-salmon",
+    "cream-cheese"
    ],
-   "name": "Parmigiano + Balsamic",
-   "why": "Two products of Emilia-Romagna: salty crystals and sweet-tart glaze.",
-   "rule": "place",
-   "post": "",
-   "featured": false
-  },
-  {
-   "foods": [
-    "gorgonzola",
-    "fig-jam"
-   ],
-   "name": "Gorgonzola + Fig Jam",
-   "why": "Sweet jam rounds off blue cheese's sharp, salty edge.",
-   "rule": "salt-sweet",
-   "post": "gorgonzola-fig-jam-pairing",
-   "featured": false
-  },
-  {
-   "foods": [
-    "stilton",
-    "walnuts"
-   ],
-   "name": "Stilton + Walnuts",
-   "why": "Crunchy, slightly bitter walnuts against rich, crumbly blue.",
+   "name": "Smoked Salmon + Cream Cheese",
+   "why": "Cool, tangy cream cheese softens smoke and salt. The bagel-shop pair, made for crackers.",
    "rule": "texture",
-   "post": "stilton-port-walnut-pairing",
-   "featured": false
+   "post": "smoked-salmon-cream-cheese-pairing",
+   "bite": "Cream cheese first so the salmon has something to grip; fold the salmon, don't lay it flat.",
+   "for8": [
+    "6 oz",
+    "8 oz block"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Bubbles scrub the fat from both.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "hummus",
+    "feta"
+   ],
+   "name": "Hummus + Feta",
+   "why": "Smooth, earthy hummus with salty, crumbly feta. The feta does the seasoning for you.",
+   "rule": "place",
+   "bite": "Crumble feta over the hummus and scoop both onto a chip.",
+   "for8": [
+    "2 cups",
+    "8 oz block"
+   ],
+   "drink": "rose",
+   "drink_note": "A dry rosé from Provence or Greece.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-gouda",
+    "dark-chocolate"
+   ],
+   "name": "Aged Gouda + Dark Chocolate",
+   "why": "Aged gouda tastes of butterscotch; dark chocolate brings bitter cocoa. Each makes the other taste richer.",
+   "rule": "weight",
+   "post": "how-to-taste-cheese",
+   "bite": "A shard of gouda and a square of chocolate eaten together, not one after the other.",
+   "for8": [
+    "8 oz, in shards",
+    "4 oz bar, broken up"
+   ],
+   "drink": "port",
+   "drink_note": "Or a cabernet with soft tannin.",
+   "zero": "Cold brew coffee",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "dessert",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "ricotta",
+    "honey"
+   ],
+   "name": "Ricotta + Honey",
+   "why": "Mild, milky ricotta is a blank canvas; honey turns it into something you'd serve for dessert.",
+   "rule": "salt-sweet",
+   "post": "whipped-ricotta-recipe",
+   "bite": "Swoosh ricotta in a shallow bowl, drizzle honey, add a pinch of flaky salt.",
+   "for8": [
+    "2 cups (16 oz)",
+    "1/4 cup"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Prosecco keeps it light.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "dessert"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey"
+   ],
+   "name": "Goat Cheese + Honey",
+   "why": "Honey softens chèvre's tang; the tang keeps honey from tasting cloying.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Slice the log into coins and drizzle honey just before serving.",
+   "for8": [
+    "8 oz log",
+    "1/4 cup"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "The classic goat cheese white.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "brunch"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "summer-sausage",
+    "colby-jack"
+   ],
+   "name": "Summer Sausage + Colby Jack",
+   "why": "Tangy, smoky sausage and a mild, melty-soft cheese. Neither shouts, so both get eaten fast.",
+   "rule": "weight",
+   "bite": "Coins of sausage and cubes of cheese on a toothpick.",
+   "for8": [
+    "1 log (about 10 oz), sliced",
+    "8 oz, cubed"
+   ],
+   "drink": "malbec",
+   "drink_note": "A juicy red that handles smoke.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "kids",
+    "party"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -74,8 +283,107 @@
    "name": "Aged Cheddar + Apple",
    "why": "Crisp, tart apple cuts the fat of a sharp cheddar and resets your palate.",
    "rule": "acid",
-   "post": "aged-cheddar-apple-pairing",
-   "featured": true
+   "post": "acid-rule",
+   "featured": true,
+   "bite": "Thin apple slice, thicker slice of cheddar. Toss the apple in lemon so it doesn't brown.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry hard cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "kids",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "comte",
+    "pears"
+   ],
+   "name": "Comté + Pear",
+   "why": "Comté's brown-butter nuttiness and a juicy pear: sweet, savory and fresh.",
+   "rule": "weight",
+   "bite": "A thin slice of pear on a thicker slice of comté.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "A Jura white if you can find one.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "parmigiano-reggiano",
+    "prosciutto-di-parma"
+   ],
+   "name": "Parmigiano + Prosciutto",
+   "why": "Two products of Parma, both aged for months. Savory crystals meet sweet, silky ham.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Wrap a chunk of parm in half a slice of prosciutto.",
+   "for8": [
+    "8 oz, broken into chunks",
+    "4 oz (about 16 slices)"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or Lambrusco, the local red.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "parmigiano-reggiano",
+    "balsamic-glaze"
+   ],
+   "name": "Parmigiano + Balsamic",
+   "why": "Two products of Emilia-Romagna: salty crystals and sweet-tart glaze.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "One drop of glaze on a chunk of parm. One drop.",
+   "for8": [
+    "8 oz, broken into chunks",
+    "3 tbsp"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or Lambrusco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -86,7 +394,51 @@
    "why": "Cool, milky cream against salty, silky ham.",
    "rule": "texture",
    "post": "burrata-prosciutto-pairing",
-   "featured": false
+   "bite": "Tear the burrata open at the table; drape prosciutto beside it, not on top.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "4 oz (about 16 slices)"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "burrata",
+    "peaches"
+   ],
+   "name": "Burrata + Peaches",
+   "why": "Juicy peach acidity cuts through burrata's cream. Summer's best two-ingredient plate.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Peach wedges around torn burrata, flaky salt and black pepper.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "3 ripe peaches, in wedges"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "picnic"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -97,18 +449,730 @@
    "why": "The Spanish tapas pair: smoky paprika pork and nutty sheep's cheese.",
    "rule": "place",
    "post": "chorizo-manchego-pairing",
-   "featured": false
+   "bite": "One coin of chorizo on a slice of manchego.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz wedge"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or Rioja.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "jamon-serrano",
+    "manchego"
+   ],
+   "name": "Jamón Serrano + Manchego",
+   "why": "Spain's everyday ham with its best-known cheese. Salty, sweet-porky and nutty.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Fold a ribbon of jamón onto a triangle of manchego.",
+   "for8": [
+    "4 oz",
+    "8 oz wedge"
+   ],
+   "drink": "rose",
+   "drink_note": "Rioja or fino sherry.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "idiazabal",
+    "membrillo"
+   ],
+   "name": "Idiazábal + Membrillo",
+   "why": "The Basque smoked sheep's cheese with quince paste. Smoke and fruit, the way a good barbecue sauce works.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "A thin slice of quince on a slice of Idiazábal.",
+   "for8": [
+    "6 oz",
+    "4 oz, sliced thin"
+   ],
+   "drink": "rose",
+   "drink_note": "Or a Basque txakoli.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "tapas-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "stilton",
+    "walnuts"
+   ],
+   "name": "Stilton + Walnuts",
+   "why": "Crunchy, slightly bitter walnuts against rich, crumbly blue.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Crumble stilton onto a walnut half.",
+   "for8": [
+    "6 oz",
+    "1 cup halves"
+   ],
+   "drink": "port",
+   "drink_note": "Port and stilton is the British Christmas classic.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "wine-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "aged-provolone"
+   ],
+   "name": "Pepperoni + Aged Provolone",
+   "why": "Spicy, fatty pepperoni with sharp, salty provolone. Pizza toppings without the pizza.",
+   "rule": "weight",
+   "post": "spicy-salami-and-wine",
+   "bite": "Pepperoni slice folded over a piece of provolone.",
+   "for8": [
+    "4 oz stick, sliced",
+    "8 oz"
+   ],
+   "drink": "malbec",
+   "drink_note": "A juicy red handles the spice.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "hot-honey"
+   ],
+   "name": "Pepperoni + Hot Honey",
+   "why": "Honey's sweetness tames the pepperoni's salt, while the chili adds a second, brighter heat.",
+   "rule": "salt-sweet",
+   "post": "spicy-salami-and-wine",
+   "bite": "A thin drizzle of hot honey over pepperoni slices just before serving.",
+   "for8": [
+    "4 oz stick, sliced",
+    "1/4 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or an IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "hard-salami",
+    "provolone"
+   ],
+   "name": "Hard Salami + Provolone",
+   "why": "The deli-sandwich classic: garlicky salami and mild, smooth provolone.",
+   "rule": "weight",
+   "bite": "Roll a slice of salami inside a slice of provolone.",
+   "for8": [
+    "4 oz",
+    "8 oz, sliced"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "kids",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "honey-ham",
+    "baby-swiss"
+   ],
+   "name": "Honey Ham + Baby Swiss",
+   "why": "Sweet ham and mild, nutty Swiss. The lunchbox pair that works for every age.",
+   "rule": "weight",
+   "bite": "Fold the ham into quarters and tuck it beside a cube of Swiss.",
+   "for8": [
+    "6 oz",
+    "8 oz"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "kids",
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "mascarpone",
+    "berries"
+   ],
+   "name": "Mascarpone + Berries",
+   "why": "Sweet, rich mascarpone needs tart fruit, and berries bring exactly that.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "A spoonful of mascarpone with a few berries pressed into it.",
+   "for8": [
+    "8 oz tub",
+    "2 cups mixed"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Demi-sec or Moscato d'Asti.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "dessert",
+    "brunch"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cheese-curds",
+    "summer-sausage"
+   ],
+   "name": "Cheese Curds + Summer Sausage",
+   "why": "Squeaky fresh curds and smoky sausage. A Wisconsin tailgate in two bites.",
+   "rule": "texture",
+   "bite": "Sausage coin and a curd on a toothpick.",
+   "for8": [
+    "12 oz",
+    "1 log (about 10 oz), sliced"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or a cold lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "kids"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "brie",
+    "honeycomb"
+   ],
+   "name": "Brie + Honeycomb",
+   "why": "Waxy, chewy honeycomb against soft, buttery brie. The texture is the point.",
+   "rule": "texture",
+   "post": "why-bubbles-cut-fat",
+   "bite": "A small piece of honeycomb set right on a wedge of brie.",
+   "for8": [
+    "8 oz wheel",
+    "4 oz piece"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Bubbles cut the cream.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "brie",
+    "pears"
+   ],
+   "name": "Brie + Pear",
+   "why": "Cool, juicy pear against warm, buttery brie. Gentle enough for anyone, and good with every white wine.",
+   "rule": "weight",
+   "post": "cheese-rind-types",
+   "bite": "A thin pear slice on a wedge of brie.",
+   "for8": [
+    "8 oz wheel",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Unoaked or lightly oaked.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "kids",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "caviar",
+    "blini"
+   ],
+   "name": "Caviar + Blini",
+   "why": "A soft, warm blini is the gentle, bready base caviar needs. The salt is the whole show.",
+   "rule": "texture",
+   "post": "why-bubbles-cut-fat",
+   "bite": "Warm the blini, a small dollop of crème fraîche, a half-spoon of caviar. Use a non-metal spoon.",
+   "for8": [
+    "1 oz tin",
+    "24 mini blini"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Brut Champagne, the classic.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "date-night"
+   ],
+   "level": "showpiece"
+  },
+  {
+   "foods": [
+    "labneh",
+    "za-atar"
+   ],
+   "name": "Labneh + Za'atar",
+   "why": "Thick, tangy labneh with herby, nutty za'atar. Breakfast across the Levant.",
+   "rule": "place",
+   "bite": "Swoosh labneh, pool olive oil, dust heavily with za'atar.",
+   "for8": [
+    "1 1/2 cups",
+    "2 tbsp"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
     "fresh-chevre",
-    "honey"
+    "pomegranate"
    ],
-   "name": "Goat Cheese + Honey",
-   "why": "Honey softens chèvre's tang; the tang keeps honey from tasting cloying.",
+   "name": "Goat Cheese + Pomegranate",
+   "why": "Tart, juicy seeds against creamy, tangy cheese. Jewel-bright on a winter board.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Press pomegranate seeds into a chèvre log or onto chèvre-topped crostini.",
+   "for8": [
+    "8 oz log",
+    "1 pomegranate, seeded"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "wheat-beer",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "saucisson-sec",
+    "comte"
+   ],
+   "name": "Saucisson Sec + Comté",
+   "why": "France's everyday dry sausage with its favorite mountain cheese. Peppery pork, nutty cheese.",
+   "rule": "place",
+   "bite": "Thick slice of saucisson on a thin slice of comté.",
+   "for8": [
+    "1 saucisson (about 7 oz)",
+    "8 oz"
+   ],
+   "drink": "beaujolais",
+   "drink_note": "Light, juicy, French.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "gruyere",
+    "prosciutto-cotto"
+   ],
+   "name": "Gruyère + Cooked Ham",
+   "why": "Nutty Gruyère and sweet, tender cooked ham. The croque monsieur's filling.",
+   "rule": "place",
+   "post": "gruyere-ham-cornichon-dijon-pairing",
+   "bite": "Fold a slice of ham over a slice of Gruyère.",
+   "for8": [
+    "8 oz",
+    "6 oz"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "White Burgundy if you're feeling fancy.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cream-cheese",
+    "kimchi"
+   ],
+   "name": "Cream Cheese + Kimchi",
+   "why": "Spicy, sour kimchi on cool cream cheese. The fusion bite that converts people.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Cream cheese on a cracker, a small forkful of drained kimchi on top.",
+   "for8": [
+    "8 oz block",
+    "1 cup, drained"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry Riesling tames the spice.",
+   "zero": "Green tea or jasmine tea",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "happy-hour"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "figs",
+    "prosciutto-di-parma"
+   ],
+   "name": "Figs + Prosciutto",
+   "why": "Jammy figs and salty ham. Like melon and prosciutto, but for late summer.",
    "rule": "salt-sweet",
-   "post": "chevre-honey-pairing",
-   "featured": false
+   "post": "salt-sweet-principle",
+   "bite": "Wrap half a slice of prosciutto around each fig half.",
+   "for8": [
+    "8 fresh figs, halved",
+    "4 oz (about 16 slices)"
+   ],
+   "drink": "pinot-noir",
+   "drink_note": "Light red, or Prosecco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "smoked-trout",
+    "cream-cheese"
+   ],
+   "name": "Smoked Trout + Cream Cheese",
+   "why": "Flaky smoked trout folded into cream cheese makes a spread that tastes far fancier than it is.",
+   "rule": "weight",
+   "bite": "Mash trout into cream cheese with lemon and dill, or layer them.",
+   "for8": [
+    "6 oz, flaked",
+    "8 oz block"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Crisp and citrusy.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-mozzarella",
+    "sun-dried-tomatoes"
+   ],
+   "name": "Mozzarella + Sun-Dried Tomatoes",
+   "why": "Concentrated, tangy tomato gives mild mozzarella the flavor it needs.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Mozzarella pearl and a sun-dried tomato strip on a pick.",
+   "for8": [
+    "8 oz (ciliegine or a ball)",
+    "1/2 cup, oil-packed"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Sangiovese loves tomato.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "grapes",
+    "manchego"
+   ],
+   "name": "Grapes + Manchego",
+   "why": "Crisp, juicy grapes against firm, nutty, salty sheep's cheese.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "A grape and a triangle of manchego, eaten together.",
+   "for8": [
+    "2 cups, in small clusters",
+    "8 oz wedge"
+   ],
+   "drink": "rose",
+   "drink_note": "Rosado or Rioja.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "kids",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "pepper-jelly"
+   ],
+   "name": "Aged Cheddar + Pepper Jelly",
+   "why": "Sweet heat lands perfectly on sharp, salty cheddar.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Cheddar on a cracker, a small spoon of pepper jelly on top.",
+   "for8": [
+    "8 oz",
+    "1/2 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or an IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cream-cheese",
+    "pepper-jelly"
+   ],
+   "name": "Cream Cheese + Pepper Jelly",
+   "why": "The Southern party block: pour pepper jelly over cream cheese and set out crackers.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Unwrap the block, pour the jelly over, set crackers around it.",
+   "for8": [
+    "8 oz block",
+    "1/2 cup"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry Riesling.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "holiday",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "nduja",
+    "ricotta"
+   ],
+   "name": "Nduja + Ricotta",
+   "why": "Spreadable, fiery Calabrian pork against cool ricotta. The ricotta lets you taste the nduja without the burn.",
+   "rule": "texture",
+   "post": "spicy-salami-and-wine",
+   "bite": "Swirl a teaspoon of nduja into a bowl of ricotta. Don't fully mix it.",
+   "for8": [
+    "3 oz",
+    "2 cups (16 oz)"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry wine handles the heat.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "havarti",
+    "smoked-turkey"
+   ],
+   "name": "Havarti + Smoked Turkey",
+   "why": "Buttery havarti and lean, smoky turkey. Gentle enough for kids, good enough for adults.",
+   "rule": "weight",
+   "bite": "Roll turkey around a havarti stick.",
+   "for8": [
+    "8 oz",
+    "6 oz"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a wheat beer.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "kids",
+    "brunch",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "triple-creme",
+    "fig-jam"
+   ],
+   "name": "Triple-Crème + Fig Jam",
+   "why": "Super-rich triple-crème needs a little sweetness, and fig jam has the body to stand up to it.",
+   "rule": "salt-sweet",
+   "post": "why-bubbles-cut-fat",
+   "bite": "A scoop of the cheese, a dot of jam.",
+   "for8": [
+    "8 oz",
+    "1/2 cup"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Bubbles cut the butterfat.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "date-night",
+    "holiday"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -118,8 +1182,23 @@
    "name": "Mortadella + Pistachios",
    "why": "Bologna's silky sausage already has pistachios inside. Serve extra on the side.",
    "rule": "place",
-   "post": "",
-   "featured": false
+   "bite": "Fold mortadella into quarters; scatter pistachios alongside.",
+   "for8": [
+    "4 oz, sliced thin",
+    "3/4 cup shelled"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or Lambrusco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "wine-night"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -129,8 +1208,221 @@
    "name": "Pecorino + Honey",
    "why": "Sharp, salty sheep's cheese with a drizzle of honey. A Roman after-dinner classic.",
    "rule": "salt-sweet",
-   "post": "pecorino-honey-pairing",
-   "featured": false
+   "post": "salt-sweet-principle",
+   "bite": "Shards of pecorino, honey drizzled just before serving.",
+   "for8": [
+    "6 oz, in shards",
+    "1/4 cup"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a sweet Vin Santo.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "belgian-ale",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "dessert",
+    "wine-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-gouda",
+    "membrillo"
+   ],
+   "name": "Aged Gouda + Membrillo",
+   "why": "Quince paste's floral sweetness lifts gouda's caramel notes. A Dutch cheese with a Spanish partner.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Thin slice of quince on a shard of gouda.",
+   "for8": [
+    "8 oz, in shards",
+    "4 oz, sliced thin"
+   ],
+   "drink": "port",
+   "drink_note": "Or a Belgian ale.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "belgian-ale",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "dessert"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "brie",
+    "cranberry-sauce"
+   ],
+   "name": "Brie + Cranberry Sauce",
+   "why": "Tart cranberry cuts through brie's butterfat. The holiday pairing everyone expects, and it works.",
+   "rule": "acid",
+   "post": "cranberry-brie-bites-recipe",
+   "bite": "Brie, a spoonful of cranberry. Use leftover sauce from dinner.",
+   "for8": [
+    "8 oz wheel",
+    "3/4 cup"
+   ],
+   "drink": "beaujolais",
+   "drink_note": "Beaujolais, the Thanksgiving red.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "triple-creme",
+    "berries"
+   ],
+   "name": "Triple-Crème + Berries",
+   "why": "Tart berries are a fresh counterweight to a cheese that is mostly butter.",
+   "rule": "acid",
+   "post": "why-bubbles-cut-fat",
+   "bite": "A spoon of cheese with two or three berries.",
+   "for8": [
+    "8 oz",
+    "2 cups mixed"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Rosé Champagne.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "dessert",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "bresaola",
+    "parmigiano-reggiano"
+   ],
+   "name": "Bresaola + Parmigiano",
+   "why": "Lean, beefy bresaola and nutty parm. Shave both thin and add lemon and olive oil.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Lay bresaola flat, shave parm over it, squeeze of lemon.",
+   "for8": [
+    "3 oz",
+    "8 oz, broken into chunks"
+   ],
+   "drink": "cabernet-sauvignon",
+   "drink_note": "Or a Nebbiolo.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "medjool-dates",
+    "gorgonzola"
+   ],
+   "name": "Medjool Dates + Gorgonzola",
+   "why": "Caramel-sweet dates stuffed with salty blue. Two ingredients, no cooking.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Split the date, press in a nugget of gorgonzola.",
+   "for8": [
+    "12 dates, pitted",
+    "6 oz"
+   ],
+   "drink": "port",
+   "drink_note": "Or a stout.",
+   "zero": "Cold brew coffee",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "party",
+    "dessert"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "gouda",
+    "apples"
+   ],
+   "name": "Gouda + Apple",
+   "why": "Young gouda's mild, buttery sweetness and a crisp apple. A pair every kid will eat.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Apple slices and gouda slices, cut the same size.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "kids",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "gorgonzola",
+    "fig-jam"
+   ],
+   "name": "Gorgonzola + Fig Jam",
+   "why": "Sweet jam rounds off blue cheese's sharp, salty edge.",
+   "rule": "salt-sweet",
+   "post": "gorgonzola-fig-jam-pairing",
+   "bite": "Gorgonzola on a cracker, fig jam on top.",
+   "for8": [
+    "6 oz",
+    "1/2 cup"
+   ],
+   "drink": "port",
+   "drink_note": "Or a stout.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "dessert"
+   ],
+   "level": "easy"
   }
  ],
  "trios": [
@@ -143,20 +1435,86 @@
    "name": "Brie + Fig Jam + Walnuts",
    "why": "Creamy, sweet and crunchy in one bite. The walnut adds the texture brie lacks.",
    "rule": "texture",
-   "post": "brie-fig-jam-walnut-pairing",
-   "featured": true
+   "post": "pairing-by-contrast",
+   "featured": true,
+   "bite": "Brie first, jam second, a walnut half pressed on top so it doesn't roll off.",
+   "for8": [
+    "8 oz wheel",
+    "1/2 cup",
+    "1 cup halves"
+   ],
+   "drink": "pinot-noir",
+   "drink_note": "Light red, soft tannin, no fight with the jam.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
     "gorgonzola",
-    "pears",
+    "honey",
     "walnuts"
    ],
-   "name": "Gorgonzola + Pear + Walnuts",
-   "why": "Juicy pear cools the blue, walnuts add crunch and a bitter edge.",
-   "rule": "salt-sweet",
-   "post": "blue-cheese-pear-walnut-pairing",
-   "featured": true
+   "name": "Gorgonzola + Honey + Walnuts",
+   "why": "Salty blue, sweet honey and a bitter-edged walnut. Three tastes that each soften the one before.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Walnut on the bottom as a tiny plate, blue on top, honey last.",
+   "for8": [
+    "6 oz",
+    "1/4 cup",
+    "1 cup halves"
+   ],
+   "drink": "port",
+   "drink_note": "Port and walnuts share a toasty note.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "dessert"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "manchego",
+    "membrillo",
+    "marcona-almonds"
+   ],
+   "name": "Manchego + Membrillo + Marcona Almonds",
+   "why": "Marconas add a buttery, salty crunch that makes the quince taste even sweeter.",
+   "rule": "place",
+   "post": "salt-sweet-principle",
+   "bite": "Cheese, quince, then one marcona pressed into the quince so it sticks.",
+   "for8": [
+    "8 oz wedge",
+    "4 oz, sliced thin",
+    "1 cup"
+   ],
+   "drink": "rose",
+   "drink_note": "Or a fino sherry for the full tapas-bar effect.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -167,8 +1525,26 @@
    "name": "Prosciutto + Melon + Mint",
    "why": "Mint adds a cool, bright top note to the salt-sweet classic.",
    "rule": "salt-sweet",
-   "post": "prosciutto-melon-pairing",
-   "featured": false
+   "post": "salt-sweet-principle",
+   "bite": "Tuck a small mint leaf between the melon and the ham before wrapping.",
+   "for8": [
+    "4 oz (about 16 slices)",
+    "1/2 cantaloupe, in 16 wedges",
+    "a small bunch"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé keeps it light.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "picnic",
+    "brunch"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -179,44 +1555,84 @@
    "name": "Smoked Salmon + Cream Cheese + Capers",
    "why": "Smoke, cream and brine: the bagel-shop trio.",
    "rule": "acid",
-   "post": "smoked-salmon-cream-cheese-capers-lemon-pairing",
-   "featured": true
+   "post": "smoked-salmon-cream-cheese-pairing",
+   "featured": true,
+   "bite": "Two or three capers on top of the salmon, pressed in so they stay.",
+   "for8": [
+    "6 oz",
+    "8 oz block",
+    "2 tbsp, drained"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Brut cava or Prosecco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
-    "comte",
-    "pears",
-    "walnuts"
+    "hummus",
+    "feta",
+    "kalamata-olives"
    ],
-   "name": "Comté + Pear + Walnuts",
-   "why": "Nutty cheese, nutty walnut, and pear to keep it fresh.",
-   "rule": "weight",
-   "post": "comte-pear-walnut-pairing",
-   "featured": false
+   "name": "Hummus + Feta + Kalamatas",
+   "why": "Kalamatas add a fruity brine that cuts through the creamy hummus.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Hummus, a crumble of feta, half a kalamata on top.",
+   "for8": [
+    "2 cups",
+    "8 oz block",
+    "1 cup"
+   ],
+   "drink": "rose",
+   "drink_note": "Or a crisp Assyrtiko.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
-    "manchego",
-    "chorizo",
-    "marcona-almonds"
+    "aged-gouda",
+    "dark-chocolate",
+    "hazelnuts"
    ],
-   "name": "Manchego + Chorizo + Marcona Almonds",
-   "why": "A tapas bar in three bites: nutty, smoky and salty-crunchy.",
-   "rule": "place",
-   "post": "",
-   "featured": true
-  },
-  {
-   "foods": [
-    "fresh-chevre",
-    "honey",
-    "pistachios"
-   ],
-   "name": "Goat Cheese + Honey + Pistachios",
-   "why": "Tangy, sweet and crunchy, with a green-and-gold look that photographs well.",
+   "name": "Aged Gouda + Dark Chocolate + Hazelnuts",
+   "why": "Toasted hazelnuts add crunch and a roasty note that links the cheese and the cocoa.",
    "rule": "texture",
-   "post": "chevre-honey-pairing",
-   "featured": false
+   "post": "pairing-by-contrast",
+   "bite": "Break the chocolate small, stack it on the gouda, top with a hazelnut.",
+   "for8": [
+    "8 oz, in shards",
+    "4 oz bar, broken up",
+    "1 cup, toasted"
+   ],
+   "drink": "port",
+   "drink_note": "Tawny port or a stout.",
+   "zero": "Cold brew coffee",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "dessert"
+   ],
+   "level": "easy"
   },
   {
    "foods": [
@@ -227,36 +1643,1300 @@
    "name": "Aged Gouda + Dark Chocolate + Sea Salt",
    "why": "Caramel crystals, bitter cocoa and a pinch of salt: a dessert board in one bite.",
    "rule": "salt-sweet",
-   "post": "aged-gouda-dark-chocolate-sea-salt-pairing",
-   "featured": false
-  }
- ],
- "quartets": [
+   "post": "salt-sweet-principle",
+   "bite": "Gouda, chocolate, then two or three flakes of salt on the chocolate.",
+   "for8": [
+    "8 oz, in shards",
+    "4 oz bar, broken up",
+    "a pinch per bite"
+   ],
+   "drink": "port",
+   "drink_note": "Tawny port is the move.",
+   "zero": "Cold brew coffee",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "dessert",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "ricotta",
+    "honey",
+    "figs"
+   ],
+   "name": "Ricotta + Honey + Figs",
+   "why": "Jammy figs add body and seeds-in-every-bite texture to soft ricotta.",
+   "rule": "texture",
+   "post": "whipped-ricotta-recipe",
+   "bite": "Spoon ricotta onto crostini, half a fig on top, honey last.",
+   "for8": [
+    "2 cups (16 oz)",
+    "1/4 cup",
+    "8 fresh figs, halved"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "brunch",
+    "dessert",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey",
+    "pistachios"
+   ],
+   "name": "Goat Cheese + Honey + Pistachios",
+   "why": "Tangy, sweet and crunchy, with a green-and-gold look that photographs well.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Roll the chèvre log in chopped pistachios, then drizzle honey.",
+   "for8": [
+    "8 oz log",
+    "1/4 cup",
+    "3/4 cup shelled"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Crisp, grassy whites love goat cheese.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey",
+    "figs"
+   ],
+   "name": "Goat Cheese + Honey + Figs",
+   "why": "Figs bring a jammy sweetness that sits between the tangy cheese and the honey.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Fig half, a coin of chèvre, a drizzle of honey.",
+   "for8": [
+    "8 oz log",
+    "1/4 cup",
+    "8 fresh figs, halved"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "summer-sausage",
+    "colby-jack",
+    "pepper-jelly"
+   ],
+   "name": "Summer Sausage + Colby Jack + Pepper Jelly",
+   "why": "Sweet heat from the jelly wakes up the mild cheese and loves the sausage's smoke.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Sausage, cheese, a dab of pepper jelly on top.",
+   "for8": [
+    "1 log (about 10 oz), sliced",
+    "8 oz, cubed",
+    "1/2 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or a cold lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "apples",
+    "honeycomb"
+   ],
+   "name": "Aged Cheddar + Apple + Honeycomb",
+   "why": "Honeycomb's waxy chew and floral sweetness bridge the sharp cheese and the tart apple.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Apple slice, cheddar, a small piece of honeycomb on top.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced",
+    "4 oz piece"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Oaky chardonnay matches the honey.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "comte",
+    "pears",
+    "walnuts"
+   ],
+   "name": "Comté + Pear + Walnuts",
+   "why": "Nutty cheese, nutty walnut, and pear to keep it fresh.",
+   "rule": "weight",
+   "bite": "Pear, comté, walnut half. Toast the walnuts for more flavor.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced",
+    "1 cup halves"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a light pinot noir.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "comte",
+    "pears",
+    "hazelnuts"
+   ],
+   "name": "Comté + Pear + Hazelnuts",
+   "why": "Toasted hazelnuts echo the roasted-nut flavor deep in an aged comté.",
+   "rule": "weight",
+   "bite": "Pear, comté, a crushed hazelnut or two.",
+   "for8": [
+    "8 oz",
+    "2 ripe pears, sliced",
+    "1 cup, toasted"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry sherry.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "parmigiano-reggiano",
+    "prosciutto-di-parma",
+    "grissini"
+   ],
+   "name": "Parmigiano + Prosciutto + Grissini",
+   "why": "Wrap the breadstick in ham and it becomes the crunchy carrier; the parm sits alongside.",
+   "rule": "texture",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Wind prosciutto around the top half of each breadstick; serve with parm chunks to nibble between.",
+   "for8": [
+    "8 oz, broken into chunks",
+    "4 oz (about 16 slices)",
+    "1 box (about 20 sticks)"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Prosecco works too.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "wine-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "parmigiano-reggiano",
+    "balsamic-glaze",
+    "prosciutto-di-parma"
+   ],
+   "name": "Parmigiano + Balsamic + Prosciutto",
+   "why": "Add the third Emilia-Romagna classic: sweet ham with the salty cheese and tangy glaze.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Prosciutto ribbon around a parm chunk, a drop of glaze on top.",
+   "for8": [
+    "8 oz, broken into chunks",
+    "3 tbsp",
+    "4 oz (about 16 slices)"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Lambrusco if you can get it.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night",
+    "party"
+   ],
+   "level": "easy"
+  },
   {
    "foods": [
     "burrata",
     "prosciutto-di-parma",
-    "fresh-basil",
     "olive-oil"
    ],
-   "name": "Burrata + Prosciutto + Basil + Olive Oil",
-   "why": "An Italian summer plate: cream, salt, herb and a peppery finish.",
+   "name": "Burrata + Prosciutto + Olive Oil",
+   "why": "A peppery olive oil adds the bitter edge that keeps the cream and ham from tasting flat.",
    "rule": "texture",
-   "post": "prosciutto-burrata-basil-olive-oil-pairing",
-   "featured": true
+   "post": "burrata-prosciutto-pairing",
+   "bite": "Tear the burrata, pool good oil over it, add a pinch of salt; prosciutto alongside.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "4 oz (about 16 slices)",
+    "3 tbsp, good-quality"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or Prosecco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "burrata",
+    "peaches",
+    "prosciutto-di-parma"
+   ],
+   "name": "Burrata + Peaches + Prosciutto",
+   "why": "Ham adds salt to the sweet-and-creamy pair, and suddenly it's a whole course.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Wrap half the peach wedges in prosciutto; serve around the burrata.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "3 ripe peaches, in wedges",
+    "4 oz (about 16 slices)"
+   ],
+   "drink": "rose",
+   "drink_note": "Or Prosecco.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
     "manchego",
     "chorizo",
-    "membrillo",
     "marcona-almonds"
    ],
-   "name": "The Spanish Four",
-   "why": "Nutty cheese, smoky pork, sweet quince and salty almonds. Every Spanish tapas flavor on one cracker.",
+   "name": "Manchego + Chorizo + Marcona Almonds",
+   "why": "A tapas bar in three bites: nutty, smoky and salty-crunchy.",
    "rule": "place",
-   "post": "",
-   "featured": true
+   "post": "chorizo-manchego-pairing",
+   "featured": true,
+   "bite": "Manchego, chorizo, marcona. Eat in one go.",
+   "for8": [
+    "8 oz wedge",
+    "4 oz, sliced",
+    "1 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or a Spanish Garnacha.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "chorizo",
+    "manchego",
+    "manzanilla-olives"
+   ],
+   "name": "Chorizo + Manchego + Manzanilla Olives",
+   "why": "Briny green olives cut the paprika fat and reset you for the next bite of cheese.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "On a toothpick: olive, chorizo coin, manchego cube.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz wedge",
+    "1 cup"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosado.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party",
+    "happy-hour"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "jamon-serrano",
+    "manchego",
+    "membrillo"
+   ],
+   "name": "Jamón + Manchego + Membrillo",
+   "why": "Quince paste adds the sweet note that ham and cheese are missing.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Manchego, quince, jamón draped over the top.",
+   "for8": [
+    "4 oz",
+    "8 oz wedge",
+    "4 oz, sliced thin"
+   ],
+   "drink": "rose",
+   "drink_note": "Or cava.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "stilton",
+    "walnuts",
+    "honey"
+   ],
+   "name": "Stilton + Walnuts + Honey",
+   "why": "A drizzle of honey softens the stilton's salt and glues the walnut on.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Walnut, stilton, honey.",
+   "for8": [
+    "6 oz",
+    "1 cup halves",
+    "1/4 cup"
+   ],
+   "drink": "port",
+   "drink_note": "Tawny or ruby port.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "dessert"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "aged-provolone",
+    "pepperoncini"
+   ],
+   "name": "Pepperoni + Provolone + Pepperoncini",
+   "why": "A pepperoncini's vinegar cuts through the grease and its mild heat matches the pepperoni.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Skewer a pepperoncini ring, pepperoni and a cube of provolone.",
+   "for8": [
+    "4 oz stick, sliced",
+    "8 oz",
+    "1 cup"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Sangiovese's acid suits the pickle.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "hot-honey",
+    "fresh-mozzarella"
+   ],
+   "name": "Pepperoni + Hot Honey + Mozzarella",
+   "why": "Cool fresh mozzarella puts out the fire and lets the honey's sweetness come through.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Mozzarella pearl, pepperoni, a drop of hot honey, all on a toothpick.",
+   "for8": [
+    "4 oz stick, sliced",
+    "1/4 cup",
+    "8 oz (ciliegine or a ball)"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "hard-salami",
+    "provolone",
+    "banana-peppers"
+   ],
+   "name": "Salami + Provolone + Banana Peppers",
+   "why": "Tangy banana peppers add crunch and cut the salami's fat. The sub shop on a toothpick.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Roll-up of salami and provolone, a banana pepper ring on top.",
+   "for8": [
+    "4 oz",
+    "8 oz, sliced",
+    "1/2 cup"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a crisp lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "honey-ham",
+    "baby-swiss",
+    "spicy-brown-mustard"
+   ],
+   "name": "Honey Ham + Swiss + Spicy Brown Mustard",
+   "why": "Mustard's heat and vinegar wake up the sweet ham and mild cheese.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Ham, Swiss, a dab of mustard on a cracker.",
+   "for8": [
+    "6 oz",
+    "8 oz",
+    "1/4 cup"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a pilsner.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "mascarpone",
+    "berries",
+    "shortbread"
+   ],
+   "name": "Mascarpone + Berries + Shortbread",
+   "why": "Buttery shortbread is the spoon. Strawberry shortcake, deconstructed.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Mascarpone on shortbread, berries on top.",
+   "for8": [
+    "8 oz tub",
+    "2 cups mixed",
+    "16 cookies"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Sweet bubbles.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "dessert",
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cheese-curds",
+    "summer-sausage",
+    "dill-pickles"
+   ],
+   "name": "Cheese Curds + Summer Sausage + Pickles",
+   "why": "Dill pickles bring sour crunch to cut the fat.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Toothpick: curd, sausage, a pickle chip.",
+   "for8": [
+    "12 oz",
+    "1 log (about 10 oz), sliced",
+    "1 cup spears"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry Riesling or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "brie",
+    "honeycomb",
+    "pears"
+   ],
+   "name": "Brie + Honeycomb + Pear",
+   "why": "Pear adds cool juice and a gentle sweetness.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Pear slice, brie, honeycomb.",
+   "for8": [
+    "8 oz wheel",
+    "4 oz piece",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or Champagne.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "brie",
+    "pears",
+    "honey"
+   ],
+   "name": "Brie + Pear + Honey",
+   "why": "A thread of honey brings out the pear's sweetness and the brie's mushroomy rind.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Pear, brie, a thin drizzle of honey.",
+   "for8": [
+    "8 oz wheel",
+    "2 ripe pears, sliced",
+    "1/4 cup"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or Champagne.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "caviar",
+    "blini",
+    "smoked-salmon"
+   ],
+   "name": "Caviar + Blini + Smoked Salmon",
+   "why": "Smoked salmon adds silk and smoke under the pop of caviar. A New Year's Eve bite.",
+   "rule": "texture",
+   "post": "why-bubbles-cut-fat",
+   "bite": "Blini, a curl of salmon, a little caviar on top.",
+   "for8": [
+    "1 oz tin",
+    "24 mini blini",
+    "6 oz"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Brut Champagne.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "date-night"
+   ],
+   "level": "showpiece"
+  },
+  {
+   "foods": [
+    "labneh",
+    "za-atar",
+    "hummus"
+   ],
+   "name": "Labneh + Za'atar + Hummus",
+   "why": "Tangy labneh beside earthy hummus, tied together with za'atar.",
+   "rule": "texture",
+   "bite": "Swirl both dips side by side in one bowl, za'atar over the seam.",
+   "for8": [
+    "1 1/2 cups",
+    "2 tbsp",
+    "2 cups"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "brunch"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "pomegranate",
+    "pistachios"
+   ],
+   "name": "Goat Cheese + Pomegranate + Pistachios",
+   "why": "Green pistachios and red seeds make a Christmas-colored bite with crunch.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Roll chèvre in chopped pistachios, then dot with pomegranate seeds.",
+   "for8": [
+    "8 oz log",
+    "1 pomegranate, seeded",
+    "3/4 cup shelled"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or sparkling rosé.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "wheat-beer",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "saucisson-sec",
+    "comte",
+    "cornichons"
+   ],
+   "name": "Saucisson + Comté + Cornichons",
+   "why": "Tiny sour cornichons do what they do on every French plate: cut the fat.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Saucisson, comté, a halved cornichon.",
+   "for8": [
+    "1 saucisson (about 7 oz)",
+    "8 oz",
+    "1 cup"
+   ],
+   "drink": "beaujolais",
+   "drink_note": "Or a Belgian ale.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "wine-night",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "gruyere",
+    "prosciutto-cotto",
+    "dijon-mustard"
+   ],
+   "name": "Gruyère + Ham + Dijon",
+   "why": "Dijon's sharp heat wakes up the mild ham and brings out the cheese's nuttiness.",
+   "rule": "acid",
+   "post": "gruyere-ham-cornichon-dijon-pairing",
+   "bite": "Ham, Gruyère, a dot of Dijon.",
+   "for8": [
+    "8 oz",
+    "6 oz",
+    "1/4 cup"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a pilsner.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cream-cheese",
+    "kimchi",
+    "rice-crackers"
+   ],
+   "name": "Cream Cheese + Kimchi + Rice Crackers",
+   "why": "Light, crisp rice crackers keep the bite airy and add a toasty note.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Rice cracker, cream cheese, kimchi.",
+   "for8": [
+    "8 oz block",
+    "1 cup, drained",
+    "1 box (about 4 oz)"
+   ],
+   "drink": "riesling",
+   "drink_note": "Or a Japanese lager.",
+   "zero": "Green tea or jasmine tea",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "happy-hour"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "figs",
+    "prosciutto-di-parma",
+    "ricotta"
+   ],
+   "name": "Figs + Prosciutto + Ricotta",
+   "why": "Ricotta adds a cool, creamy layer under the sweet fig and salty ham.",
+   "rule": "salt-sweet",
+   "post": "whipped-ricotta-recipe",
+   "bite": "Crostini, ricotta, fig, a ribbon of prosciutto.",
+   "for8": [
+    "8 fresh figs, halved",
+    "4 oz (about 16 slices)",
+    "2 cups (16 oz)"
+   ],
+   "drink": "pinot-noir",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "smoked-trout",
+    "cream-cheese",
+    "rye-crispbread"
+   ],
+   "name": "Smoked Trout + Cream Cheese + Rye Crispbread",
+   "why": "Rye's sour, earthy crunch is the Nordic way to serve smoked fish.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Crispbread, cream cheese, flakes of trout, black pepper.",
+   "for8": [
+    "6 oz, flaked",
+    "8 oz block",
+    "16 crispbreads"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or an aquavit for the brave.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-mozzarella",
+    "sun-dried-tomatoes",
+    "fresh-basil"
+   ],
+   "name": "Mozzarella + Sun-Dried Tomato + Basil",
+   "why": "A winter caprese: sun-dried tomatoes stand in for fresh ones, basil does the rest.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Skewer basil leaf, mozzarella pearl, tomato strip. Drizzle with the tomato oil.",
+   "for8": [
+    "8 oz (ciliegine or a ball)",
+    "1/2 cup, oil-packed",
+    "a handful of leaves"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic",
+    "kids"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "grapes",
+    "manchego",
+    "almonds"
+   ],
+   "name": "Grapes + Manchego + Almonds",
+   "why": "Almonds add crunch and a toasty note. The simplest three-item board there is.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Cluster of grapes, wedge of cheese, pile of almonds. Done.",
+   "for8": [
+    "2 cups, in small clusters",
+    "8 oz wedge",
+    "1 cup"
+   ],
+   "drink": "rose",
+   "drink_note": "Or a Garnacha.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic",
+    "kids"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "pepper-jelly",
+    "summer-sausage"
+   ],
+   "name": "Cheddar + Pepper Jelly + Summer Sausage",
+   "why": "Smoky sausage joins in. Southern hospitality on a cracker.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Cracker, cheddar, sausage coin, jelly.",
+   "for8": [
+    "8 oz",
+    "1/2 cup",
+    "1 log (about 10 oz), sliced"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "nduja",
+    "ricotta",
+    "crostini"
+   ],
+   "name": "Nduja + Ricotta + Crostini",
+   "why": "On crisp toast it becomes a two-second appetizer that tastes like a restaurant's.",
+   "rule": "texture",
+   "post": "crostini-recipe",
+   "bite": "Crostini, ricotta, a small dab of nduja, a drip of honey if you like.",
+   "for8": [
+    "3 oz",
+    "2 cups (16 oz)",
+    "24 crostini"
+   ],
+   "drink": "riesling",
+   "drink_note": "Or an IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "date-night"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "havarti",
+    "smoked-turkey",
+    "apples"
+   ],
+   "name": "Havarti + Smoked Turkey + Apple",
+   "why": "Apple adds tart crunch, like the classic turkey-and-apple sandwich.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Apple slice, havarti, folded turkey.",
+   "for8": [
+    "8 oz",
+    "6 oz",
+    "2 crisp apples, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "kids",
+    "picnic"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "triple-creme",
+    "fig-jam",
+    "water-crackers"
+   ],
+   "name": "Triple-Crème + Fig Jam + Water Crackers",
+   "why": "A plain, crisp water cracker lets the cheese and jam do all the talking.",
+   "rule": "texture",
+   "post": "why-bubbles-cut-fat",
+   "bite": "Cracker, a generous smear of triple-crème, jam.",
+   "for8": [
+    "8 oz",
+    "1/2 cup",
+    "1 box"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Champagne.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "date-night",
+    "holiday"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "feta",
+    "pita-chips",
+    "tzatziki"
+   ],
+   "name": "Feta + Pita Chips + Tzatziki",
+   "why": "Cool cucumber yogurt, salty feta and a crunchy chip. The Greek table on one scoop.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Tzatziki on the chip, a crumble of feta.",
+   "for8": [
+    "8 oz block",
+    "1 bag (about 6 oz)",
+    "1 1/2 cups"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or an Assyrtiko.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "party",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cheese-curds",
+    "mini-pretzels",
+    "ranch-dip"
+   ],
+   "name": "Cheese Curds + Pretzels + Ranch",
+   "why": "Squeaky, salty and dippable. A kid-approved trio adults also finish.",
+   "rule": "texture",
+   "bite": "Ranch in the middle, curds and pretzels around it.",
+   "for8": [
+    "12 oz",
+    "3 cups",
+    "1 cup"
+   ],
+   "drink": "riesling",
+   "drink_note": "Lager for the grown-ups.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "kids",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "gouda",
+    "summer-sausage",
+    "spicy-brown-mustard"
+   ],
+   "name": "Gouda + Summer Sausage + Spicy Brown Mustard",
+   "why": "Mild, creamy gouda and tangy sausage with mustard's kick.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Cracker, gouda, sausage, mustard.",
+   "for8": [
+    "8 oz",
+    "1 log (about 10 oz), sliced",
+    "1/4 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or a lager.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "gorgonzola",
+    "pears",
+    "walnuts"
+   ],
+   "name": "Gorgonzola + Pear + Walnuts",
+   "why": "Juicy pear cools the blue, walnuts add crunch and a bitter edge.",
+   "rule": "salt-sweet",
+   "post": "gorgonzola-fig-jam-pairing",
+   "featured": true,
+   "bite": "Pear slice, gorgonzola, walnut.",
+   "for8": [
+    "6 oz",
+    "2 ripe pears, sliced",
+    "1 cup halves"
+   ],
+   "drink": "port",
+   "drink_note": "Or a Sauternes.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "holiday"
+   ],
+   "level": "slice"
+  }
+ ],
+ "quartets": [
+  {
+   "foods": [
+    "gorgonzola",
+    "honey",
+    "walnuts",
+    "pears"
+   ],
+   "name": "Gorgonzola + Honey + Walnuts + Pear",
+   "why": "Add pear and the blue gets a cool, juicy partner. Salty, sweet, crunchy and fresh in one bite.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "featured": true,
+   "bite": "Pear slice as the base, then blue, a walnut, and a thread of honey.",
+   "for8": [
+    "6 oz",
+    "1/4 cup",
+    "1 cup halves",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "port",
+   "drink_note": "Or a late-harvest Riesling if port feels heavy.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "holiday",
+    "dessert"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "manchego",
+    "membrillo",
+    "marcona-almonds",
+    "jamon-serrano"
+   ],
+   "name": "Manchego + Membrillo + Marconas + Jamón",
+   "why": "Fold in jamón and it's a full tapas plate on one cracker: nutty, sweet, salty and porky.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Fold a ribbon of jamón over the manchego and quince stack; marcona on top.",
+   "for8": [
+    "8 oz wedge",
+    "4 oz, sliced thin",
+    "1 cup",
+    "4 oz"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosado, Rioja or cava.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party",
+    "date-night"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -268,8 +2948,471 @@
    "name": "The Bagel Board Four",
    "why": "Smoke, cream, brine and sharp pickled onion. Put it on a bagel chip.",
    "rule": "acid",
-   "post": "smoked-salmon-cream-cheese-capers-lemon-pairing",
-   "featured": false
+   "post": "smoked-salmon-cream-cheese-pairing",
+   "bite": "Cream cheese, salmon, a sliver of pickled onion, then capers.",
+   "for8": [
+    "6 oz",
+    "8 oz block",
+    "2 tbsp, drained",
+    "1/2 cup"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Sauvignon blanc works too.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "hummus",
+    "feta",
+    "kalamata-olives",
+    "pita-chips"
+   ],
+   "name": "The Mezze Four",
+   "why": "Creamy, salty, briny and crunchy. A mezze platter in one scoop.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Use the pita chip as a scoop: hummus, feta, olive.",
+   "for8": [
+    "2 cups",
+    "8 oz block",
+    "1 cup",
+    "1 bag (about 6 oz)"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé or sauvignon blanc.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic",
+    "game-day"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "ricotta",
+    "honey",
+    "figs",
+    "pistachios"
+   ],
+   "name": "Ricotta + Honey + Figs + Pistachios",
+   "why": "Chopped pistachios add salt, crunch and color. The prettiest crostini you can make in two minutes.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Ricotta, fig half, honey, then a pinch of chopped pistachios.",
+   "for8": [
+    "2 cups (16 oz)",
+    "1/4 cup",
+    "8 fresh figs, halved",
+    "3/4 cup shelled"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Prosecco or Moscato d'Asti.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "brunch",
+    "dessert",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "honey",
+    "figs",
+    "pistachios"
+   ],
+   "name": "Goat Cheese + Fig + Honey + Pistachio",
+   "why": "Tangy, jammy, sweet and crunchy. The prettiest bite on a fall board.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Halve the figs, top each with chèvre, honey and chopped pistachios.",
+   "for8": [
+    "8 oz log",
+    "1/4 cup",
+    "8 fresh figs, halved",
+    "3/4 cup shelled"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a pale rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "party",
+    "date-night",
+    "holiday"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "summer-sausage",
+    "colby-jack",
+    "pepper-jelly",
+    "butter-crackers"
+   ],
+   "name": "The Game Day Four",
+   "why": "A buttery cracker under smoky sausage, mild cheese and sweet-hot jelly. Built to be eaten one-handed.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Cracker, cheese, sausage coin, jelly. Assemble a tray ahead so nobody has to.",
+   "for8": [
+    "1 log (about 10 oz), sliced",
+    "8 oz, cubed",
+    "1/2 cup",
+    "1 sleeve (about 30)"
+   ],
+   "drink": "malbec",
+   "drink_note": "Lager for the crowd.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "apples",
+    "smoked-almonds",
+    "aged-gouda"
+   ],
+   "name": "The Orchard Four",
+   "why": "Two aged cheeses, crisp apple and smoky almonds. Sharp, caramel, tart and savory.",
+   "rule": "weight",
+   "bite": "Alternate cheddar and gouda on apple slices; scatter smoked almonds alongside.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced",
+    "1 cup",
+    "8 oz, in shards"
+   ],
+   "drink": "cabernet-sauvignon",
+   "drink_note": "Or hard cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "burrata",
+    "prosciutto-di-parma",
+    "fresh-basil",
+    "olive-oil"
+   ],
+   "name": "Burrata + Prosciutto + Basil + Olive Oil",
+   "why": "An Italian summer plate: cream, salt, herb and a peppery finish.",
+   "rule": "texture",
+   "post": "burrata-prosciutto-pairing",
+   "featured": true,
+   "bite": "Burrata torn open, oil, torn basil, prosciutto folded around the edge. Serve with bread.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "4 oz (about 16 slices)",
+    "a handful of leaves",
+    "3 tbsp, good-quality"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a chilled rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "manchego",
+    "chorizo",
+    "membrillo",
+    "marcona-almonds"
+   ],
+   "name": "The Spanish Four",
+   "why": "Nutty cheese, smoky pork, sweet quince and salty almonds. Every Spanish tapas flavor on one cracker.",
+   "rule": "place",
+   "post": "chorizo-manchego-pairing",
+   "featured": true,
+   "bite": "Manchego, quince, chorizo, marcona, stacked in that order.",
+   "for8": [
+    "8 oz wedge",
+    "4 oz, sliced",
+    "4 oz, sliced thin",
+    "1 cup"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or Rioja.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "chorizo",
+    "manchego",
+    "manzanilla-olives",
+    "marcona-almonds"
+   ],
+   "name": "Chorizo + Manchego + Olives + Marconas",
+   "why": "Every bar snack Spain has to offer on one plate: pork, cheese, brine and buttery almonds.",
+   "rule": "place",
+   "post": "chorizo-manchego-pairing",
+   "bite": "Skewer olive, chorizo and cheese; pile marconas alongside for grabbing.",
+   "for8": [
+    "4 oz, sliced",
+    "8 oz wedge",
+    "1 cup",
+    "1 cup"
+   ],
+   "drink": "rose",
+   "drink_note": "Rosado or cava.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "happy-hour"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "jamon-serrano",
+    "manchego",
+    "membrillo",
+    "idiazabal"
+   ],
+   "name": "Jamón + Two Spanish Cheeses + Membrillo",
+   "why": "Smoky Idiazábal next to nutty manchego, both with quince and jamón. A tasting lesson in one plate.",
+   "rule": "place",
+   "post": "how-to-taste-cheese",
+   "bite": "Cut both cheeses the same shape so guests can compare; quince and jamón go with both.",
+   "for8": [
+    "4 oz",
+    "8 oz wedge",
+    "4 oz, sliced thin",
+    "6 oz"
+   ],
+   "drink": "rose",
+   "drink_note": "Rioja.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "tapas-night",
+    "wine-night"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "aged-provolone",
+    "pepperoncini",
+    "soppressata"
+   ],
+   "name": "The Italian Deli Four",
+   "why": "Two salamis, one sharp cheese and a pickled pepper. The antipasto tray, in one skewer.",
+   "rule": "weight",
+   "post": "spicy-salami-and-wine",
+   "bite": "Skewer pepperoni, soppressata, provolone and a pepperoncini.",
+   "for8": [
+    "4 oz stick, sliced",
+    "8 oz",
+    "1 cup",
+    "4 oz"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or an IPA for heat.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "pepperoni",
+    "hot-honey",
+    "fresh-mozzarella",
+    "soppressata"
+   ],
+   "name": "The Hot Honey Pizza Bite",
+   "why": "Two salamis, cool mozzarella and hot honey. Everything people love about a hot-honey pizza.",
+   "rule": "salt-sweet",
+   "post": "spicy-salami-and-wine",
+   "bite": "Fold pepperoni and soppressata around mozzarella pearls; drizzle hot honey over the tray.",
+   "for8": [
+    "4 oz stick, sliced",
+    "1/4 cup",
+    "8 oz (ciliegine or a ball)",
+    "4 oz"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Or an IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "mascarpone",
+    "berries",
+    "shortbread",
+    "lemon-curd"
+   ],
+   "name": "Mascarpone + Berries + Shortbread + Lemon Curd",
+   "why": "Lemon curd adds a sharp, sunny tartness that keeps the sweet bites from blurring together.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Shortbread, a swipe of lemon curd, mascarpone, then a berry.",
+   "for8": [
+    "8 oz tub",
+    "2 cups mixed",
+    "16 cookies",
+    "1/2 cup"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Moscato d'Asti.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer"
+   ],
+   "occasion": [
+    "dessert",
+    "brunch"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cheese-curds",
+    "summer-sausage",
+    "dill-pickles",
+    "meat-sticks"
+   ],
+   "name": "The Tailgate Four",
+   "why": "Curds, two kinds of smoked meat and a pickle. Snack food that holds up outside.",
+   "rule": "acid",
+   "bite": "Put everything in a cup per person so the board survives the parking lot.",
+   "for8": [
+    "12 oz",
+    "1 log (about 10 oz), sliced",
+    "1 cup spears",
+    "8 sticks, halved"
+   ],
+   "drink": "malbec",
+   "drink_note": "Or lager, obviously.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "picnic",
+    "kids"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "brie",
+    "honeycomb",
+    "pears",
+    "walnuts"
+   ],
+   "name": "Brie + Honeycomb + Pear + Walnuts",
+   "why": "Four textures in one bite: creamy, chewy, juicy and crunchy.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Pear slice base, brie, honeycomb, walnut on top.",
+   "for8": [
+    "8 oz wheel",
+    "4 oz piece",
+    "2 ripe pears, sliced",
+    "1 cup halves"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -281,8 +3424,123 @@
    "name": "Brie + Pear + Honey + Walnuts",
    "why": "Soft, juicy, sweet and crunchy: four textures that make mild brie taste bigger.",
    "rule": "texture",
-   "post": "brie-pear-honey-walnut-pairing",
-   "featured": true
+   "post": "pairing-by-contrast",
+   "featured": true,
+   "bite": "Pear, brie, walnut, honey drizzle.",
+   "for8": [
+    "8 oz wheel",
+    "2 ripe pears, sliced",
+    "1/4 cup",
+    "1 cup halves"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or Champagne.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "slice"
+  },
+  {
+   "foods": [
+    "caviar",
+    "blini",
+    "smoked-salmon",
+    "finger-limes"
+   ],
+   "name": "Caviar + Blini + Salmon + Finger Lime",
+   "why": "Finger lime pearls burst with citrus, a bright pop that echoes the caviar.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Blini, salmon, caviar, then a few finger-lime pearls squeezed over the top.",
+   "for8": [
+    "1 oz tin",
+    "24 mini blini",
+    "6 oz",
+    "2-3 finger limes"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Blanc de blancs.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "date-night"
+   ],
+   "level": "showpiece"
+  },
+  {
+   "foods": [
+    "labneh",
+    "za-atar",
+    "hummus",
+    "pita-chips"
+   ],
+   "name": "The Levantine Four",
+   "why": "Two dips, one spice and a chip for scooping. Easy, cheap, and gone in minutes.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "One bowl, two dips, za'atar and oil; chips around the outside.",
+   "for8": [
+    "1 1/2 cups",
+    "2 tbsp",
+    "2 cups",
+    "1 bag (about 6 oz)"
+   ],
+   "drink": "rose",
+   "drink_note": "Rosé or a crisp white.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day",
+    "picnic"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "fresh-chevre",
+    "pomegranate",
+    "pistachios",
+    "blood-oranges"
+   ],
+   "name": "Goat Cheese + Pomegranate + Pistachio + Blood Orange",
+   "why": "Blood orange adds a juicy, berry-like citrus note. Winter fruit at its best.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Blood orange wheel, chèvre, pistachios, pomegranate seeds.",
+   "for8": [
+    "8 oz log",
+    "1 pomegranate, seeded",
+    "3/4 cup shelled",
+    "2, peeled and sliced"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a sparkling rosé.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "wheat-beer",
+   "season": [
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "brunch"
+   ],
+   "level": "slice"
   },
   {
    "foods": [
@@ -295,20 +3553,1024 @@
    "why": "Nutty Gruyère, sweet ham, sour cornichons and sharp Dijon: a croque-monsieur without the bread.",
    "rule": "acid",
    "post": "gruyere-ham-cornichon-dijon-pairing",
-   "featured": true
+   "featured": true,
+   "bite": "Ham, Gruyère, Dijon, a cornichon slice on top.",
+   "for8": [
+    "8 oz",
+    "6 oz",
+    "1 cup",
+    "1/4 cup"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a lager.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "cream-cheese",
+    "kimchi",
+    "rice-crackers",
+    "wasabi-peas"
+   ],
+   "name": "The Seoul-to-Tokyo Four",
+   "why": "Wasabi peas add a sinus-clearing crunch on the side. A board for people who like heat.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Assemble the kimchi crackers; serve wasabi peas in a bowl beside them.",
+   "for8": [
+    "8 oz block",
+    "1 cup, drained",
+    "1 box (about 4 oz)",
+    "3/4 cup"
+   ],
+   "drink": "riesling",
+   "drink_note": "Off-dry Riesling.",
+   "zero": "Green tea or jasmine tea",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "happy-hour"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "smoked-trout",
+    "cream-cheese",
+    "rye-crispbread",
+    "smoked-salmon"
+   ],
+   "name": "The Smokehouse Four",
+   "why": "Two smoked fish side by side, one flaky and one silky, on rye with cream cheese.",
+   "rule": "texture",
+   "post": "pairing-by-contrast",
+   "bite": "Half the crispbreads with trout, half with salmon, so guests taste both.",
+   "for8": [
+    "6 oz, flaked",
+    "8 oz block",
+    "16 crispbreads",
+    "6 oz"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Or sauvignon blanc.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "party"
+   ],
+   "level": "easy"
+  },
+  {
+   "foods": [
+    "feta",
+    "harissa",
+    "hummus",
+    "pita-chips"
+   ],
+   "name": "Feta + Harissa + Hummus + Pita Chips",
+   "why": "A swirl of harissa brings chili heat to the cool hummus; feta adds salt.",
+   "rule": "texture",
+   "post": "spicy-salami-and-wine",
+   "bite": "Swirl harissa into the hummus, crumble feta on top, chips to scoop.",
+   "for8": [
+    "8 oz block",
+    "3 tbsp",
+    "2 cups",
+    "1 bag (about 6 oz)"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "game-day"
+   ],
+   "level": "easy"
+  }
+ ],
+ "plates": [
+  {
+   "foods": [
+    "gorgonzola",
+    "honey",
+    "pears",
+    "walnuts",
+    "figs"
+   ],
+   "name": "The Blue Cheese Plate",
+   "why": "One blue, four partners: honey and figs for sweet, pear for juice, walnuts for crunch. Everything on the plate softens the blue a different way.",
+   "rule": "salt-sweet",
+   "post": "salt-sweet-principle",
+   "bite": "Set the blue in the middle and fan pears, figs and walnuts around it; drizzle honey just before serving.",
+   "for8": [
+    "6 oz",
+    "1/4 cup",
+    "2 ripe pears, sliced",
+    "1 cup halves",
+    "8 fresh figs, halved"
+   ],
+   "drink": "port",
+   "drink_note": "Tawny or ruby both work.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "wine-night",
+    "dessert",
+    "holiday"
+   ],
+   "level": "slice",
+   "id": "blue-cheese-plate"
+  },
+  {
+   "foods": [
+    "jamon-serrano",
+    "manchego",
+    "membrillo",
+    "marcona-almonds",
+    "idiazabal"
+   ],
+   "name": "The Spanish Plate",
+   "why": "Two Spanish sheep's cheeses, one smoky and one nutty, with jamón, quince and marconas. Every piece pairs with every other.",
+   "rule": "place",
+   "post": "umami-cheese-and-cured-meat",
+   "bite": "Lay both cheeses side by side so guests can compare; jamón ribbons, quince slabs and a pile of marconas between them.",
+   "for8": [
+    "4 oz",
+    "8 oz wedge",
+    "4 oz, sliced thin",
+    "1 cup",
+    "6 oz"
+   ],
+   "drink": "rose",
+   "drink_note": "Rioja or cava for a crowd.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "tapas-night",
+    "party",
+    "date-night"
+   ],
+   "level": "slice",
+   "id": "spanish-plate"
+  },
+  {
+   "foods": [
+    "smoked-salmon",
+    "cream-cheese",
+    "capers",
+    "pickled-red-onions",
+    "bagel-chips"
+   ],
+   "name": "The Bagel Brunch Plate",
+   "why": "Everything from the bagel shop except the bagel, with crunchy chips standing in. Built for brunch boards.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Set out cream cheese with a spreader, salmon folded in ribbons, little bowls of capers and onions, chips around the edge.",
+   "for8": [
+    "6 oz",
+    "8 oz block",
+    "2 tbsp, drained",
+    "1/2 cup",
+    "1 bag (about 6 oz)"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Mimosas count.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch"
+   ],
+   "level": "easy",
+   "id": "bagel-brunch-plate"
+  },
+  {
+   "foods": [
+    "cream-cheese",
+    "gravlax",
+    "smoked-salmon",
+    "rye-crispbread",
+    "pumpernickel"
+   ],
+   "name": "The Nordic Plate",
+   "why": "Cured gravlax and smoked salmon with cream cheese and two dark breads. A Scandinavian brunch table.",
+   "rule": "texture",
+   "bite": "Fold both fish into rosettes, cream cheese in a bowl, crispbread and pumpernickel stacked on opposite sides.",
+   "for8": [
+    "8 oz block",
+    "6 oz",
+    "6 oz",
+    "16 crispbreads",
+    "16 cocktail slices"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Brut bubbles or a dry Riesling.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "brunch",
+    "holiday"
+   ],
+   "level": "easy",
+   "id": "nordic-plate"
+  },
+  {
+   "foods": [
+    "hummus",
+    "feta",
+    "kalamata-olives",
+    "pita-chips",
+    "za-atar"
+   ],
+   "name": "The Mezze Plate",
+   "why": "Za'atar's thyme, sesame and sumac tie the plate together and add a tart edge.",
+   "rule": "place",
+   "bite": "Swirl the hummus, drizzle with oil, dust with za'atar; feta, olives and chips around it.",
+   "for8": [
+    "2 cups",
+    "8 oz block",
+    "1 cup",
+    "1 bag (about 6 oz)",
+    "2 tbsp"
+   ],
+   "drink": "rose",
+   "drink_note": "Rosé, or a Greek white.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "party",
+    "picnic"
+   ],
+   "level": "easy",
+   "id": "mezze-plate"
+  },
+  {
+   "foods": [
+    "aged-gouda",
+    "dark-chocolate",
+    "hazelnuts",
+    "candied-citrus",
+    "nut-brittle"
+   ],
+   "name": "The Gouda Dessert Plate",
+   "why": "A cheese course and dessert at once: caramel-y gouda, chocolate, toasted nuts, bright candied peel and brittle.",
+   "rule": "weight",
+   "bite": "Shard the gouda, break the chocolate and brittle into bites, scatter hazelnuts and peel between them.",
+   "for8": [
+    "8 oz, in shards",
+    "4 oz bar, broken up",
+    "1 cup, toasted",
+    "1/2 cup",
+    "4 oz, broken up"
+   ],
+   "drink": "port",
+   "drink_note": "Tawny port, or a coffee stout.",
+   "zero": "Cold brew coffee",
+   "beer": "stout-porter",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "dessert",
+    "holiday"
+   ],
+   "level": "easy",
+   "id": "gouda-dessert-plate"
   },
   {
    "foods": [
     "fresh-chevre",
     "honey",
     "figs",
-    "pistachios"
+    "pistachios",
+    "pomegranate"
    ],
-   "name": "Goat Cheese + Fig + Honey + Pistachio",
-   "why": "Tangy, jammy, sweet and crunchy. The prettiest bite on a fall board.",
+   "name": "The Goat Cheese Plate",
+   "why": "Pomegranate seeds add tart pops of juice, so the sweet parts of the plate never take over.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Chèvre in the middle, figs halved around it, then honey, pistachios and pomegranate seeds scattered over everything.",
+   "for8": [
+    "8 oz log",
+    "1/4 cup",
+    "8 fresh figs, halved",
+    "3/4 cup shelled",
+    "1 pomegranate, seeded"
+   ],
+   "drink": "sauvignon-blanc",
+   "drink_note": "Or a dry rosé.",
+   "zero": "Tart cherry or pomegranate spritz",
+   "beer": "wheat-beer",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "slice",
+   "id": "goat-cheese-plate"
+  },
+  {
+   "foods": [
+    "summer-sausage",
+    "colby-jack",
+    "pepper-jelly",
+    "butter-crackers",
+    "aged-cheddar"
+   ],
+   "name": "The Game Day Plate",
+   "why": "Add a sharp cheddar beside the mild colby jack so the plate has one gentle cheese and one with bite.",
+   "rule": "weight",
+   "bite": "Two cheeses cubed in separate piles, sausage coins fanned, crackers in a stack, pepper jelly in a bowl with a spoon.",
+   "for8": [
+    "1 log (about 10 oz), sliced",
+    "8 oz, cubed",
+    "1/2 cup",
+    "1 sleeve (about 30)",
+    "8 oz"
+   ],
+   "drink": "malbec",
+   "drink_note": "Lager or a crisp IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "lager-pilsner",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day"
+   ],
+   "level": "easy",
+   "id": "game-day-plate"
+  },
+  {
+   "foods": [
+    "aged-cheddar",
+    "apples",
+    "honeycomb",
+    "walnuts",
+    "pears"
+   ],
+   "name": "The Orchard Plate",
+   "why": "Cheddar with apples and pears, honeycomb and walnuts. A fall plate that only needs a knife for the fruit.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Cheddar in a block with a knife, apple and pear slices fanned in alternating rows, honeycomb on a small dish, walnuts in the gaps.",
+   "for8": [
+    "8 oz",
+    "2 crisp apples, sliced",
+    "4 oz piece",
+    "1 cup halves",
+    "2 ripe pears, sliced"
+   ],
+   "drink": "chardonnay",
+   "drink_note": "Or a dry cider.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter"
+   ],
+   "occasion": [
+    "party",
+    "holiday"
+   ],
+   "level": "slice",
+   "id": "orchard-plate"
+  },
+  {
+   "foods": [
+    "burrata",
+    "prosciutto-di-parma",
+    "peaches",
+    "olive-oil",
+    "fresh-basil"
+   ],
+   "name": "The Italian Summer Plate",
+   "why": "Ripe peaches join the burrata and ham. Juicy, creamy, salty, with basil and oil pulling it together.",
    "rule": "salt-sweet",
-   "post": "",
-   "featured": false
+   "post": "salt-sweet-principle",
+   "bite": "Burrata in the middle, peach wedges and ham ribbons around it, oil and torn basil over everything.",
+   "for8": [
+    "2 balls (8 oz each)",
+    "4 oz (about 16 slices)",
+    "3 ripe peaches, in wedges",
+    "3 tbsp, good-quality",
+    "a handful of leaves"
+   ],
+   "drink": "rose",
+   "drink_note": "Dry rosé, well chilled.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "summer"
+   ],
+   "occasion": [
+    "date-night",
+    "party",
+    "picnic"
+   ],
+   "level": "slice",
+   "id": "italian-summer-plate"
+  },
+  {
+   "foods": [
+    "soppressata",
+    "aged-provolone",
+    "pepperoni",
+    "pepperoncini",
+    "giardiniera"
+   ],
+   "name": "The Italian Deli Plate",
+   "why": "Two salumi and a sharp cheese with two kinds of pickles. The vinegar keeps a rich plate feeling light.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Fan both salumi, stack provolone slices, and give the pickles their own bowls.",
+   "for8": [
+    "4 oz",
+    "8 oz",
+    "4 oz stick, sliced",
+    "1 cup",
+    "1 cup"
+   ],
+   "drink": "chianti-sangiovese",
+   "drink_note": "Chianti, or a cold IPA.",
+   "zero": "Black iced tea, unsweetened",
+   "beer": "ipa",
+   "season": [
+    "year-round"
+   ],
+   "occasion": [
+    "game-day",
+    "party"
+   ],
+   "level": "slice",
+   "id": "italian-deli-plate"
+  },
+  {
+   "foods": [
+    "mascarpone",
+    "berries",
+    "shortbread",
+    "lemon-curd",
+    "chocolate-covered-strawberries"
+   ],
+   "name": "The Dessert Plate",
+   "why": "A dessert board in miniature: creamy, tart, buttery and chocolate.",
+   "rule": "acid",
+   "bite": "Mascarpone and lemon curd in bowls, shortbread stacked, berries piled, chocolate strawberries as the centerpiece.",
+   "for8": [
+    "8 oz tub",
+    "2 cups mixed",
+    "16 cookies",
+    "1/2 cup",
+    "16"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Demi-sec bubbles.",
+   "zero": "Sparkling water with lemon or lime",
+   "beer": "wheat-beer",
+   "season": [
+    "spring",
+    "summer",
+    "holiday"
+   ],
+   "occasion": [
+    "dessert",
+    "date-night"
+   ],
+   "level": "easy",
+   "id": "dessert-plate"
+  },
+  {
+   "foods": [
+    "brie",
+    "candied-pecans",
+    "pears",
+    "honey",
+    "walnuts"
+   ],
+   "name": "The Holiday Brie Plate",
+   "why": "Brie with pears, honey and two kinds of nuts. The candied pecans make it feel like a holiday.",
+   "rule": "texture",
+   "post": "candied-pecans-recipe",
+   "bite": "Brie in the middle (warm it 5 minutes at 350°F if you like), pears fanned, both nuts piled, honey drizzled at the table.",
+   "for8": [
+    "8 oz wheel",
+    "1 cup",
+    "2 ripe pears, sliced",
+    "1/4 cup",
+    "1 cup halves"
+   ],
+   "drink": "champagne-prosecco",
+   "drink_note": "Champagne for the holidays.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "hard-cider",
+   "season": [
+    "fall",
+    "winter",
+    "holiday"
+   ],
+   "occasion": [
+    "holiday",
+    "party"
+   ],
+   "level": "slice",
+   "id": "holiday-brie-plate"
+  },
+  {
+   "foods": [
+    "comte",
+    "saucisson-sec",
+    "cornichons",
+    "dijon-mustard",
+    "baguette"
+   ],
+   "name": "The French Picnic Plate",
+   "why": "Sausage, cheese, cornichons and mustard with a baguette to hold it all. Pack it for a park.",
+   "rule": "acid",
+   "post": "acid-rule",
+   "bite": "Tear the baguette, smear Dijon, then saucisson, comté and a cornichon on top.",
+   "for8": [
+    "8 oz",
+    "1 saucisson (about 7 oz)",
+    "1 cup",
+    "1/4 cup",
+    "1 baguette, sliced"
+   ],
+   "drink": "beaujolais",
+   "drink_note": "Beaujolais, slightly chilled.",
+   "zero": "Sparkling apple cider (non-alcoholic)",
+   "beer": "belgian-ale",
+   "season": [
+    "spring",
+    "summer",
+    "fall"
+   ],
+   "occasion": [
+    "picnic",
+    "wine-night"
+   ],
+   "level": "slice",
+   "id": "french-picnic-plate"
+  }
+ ],
+ "ladders": [
+  {
+   "id": "brie-fig-jam",
+   "name": "Brie & Fig",
+   "steps": [
+    "brie-fig-jam",
+    "brie-fig-jam-walnuts"
+   ]
+  },
+  {
+   "id": "gorgonzola-honey",
+   "name": "Blue & Honey",
+   "steps": [
+    "gorgonzola-honey",
+    "gorgonzola-honey-walnuts",
+    "gorgonzola-honey-walnuts-pears",
+    "plate:blue-cheese-plate"
+   ]
+  },
+  {
+   "id": "manchego-membrillo",
+   "name": "Manchego & Quince",
+   "steps": [
+    "manchego-membrillo",
+    "manchego-membrillo-marcona-almonds",
+    "manchego-membrillo-marcona-almonds-jamon-serrano",
+    "plate:spanish-plate"
+   ]
+  },
+  {
+   "id": "prosciutto-di-parma-melon",
+   "name": "Ham & Melon",
+   "steps": [
+    "prosciutto-di-parma-melon",
+    "prosciutto-di-parma-melon-fresh-mint"
+   ]
+  },
+  {
+   "id": "smoked-salmon-cream-cheese",
+   "name": "Smoked Salmon & Cream Cheese",
+   "steps": [
+    "smoked-salmon-cream-cheese",
+    "smoked-salmon-cream-cheese-capers",
+    "smoked-salmon-cream-cheese-capers-pickled-red-onions",
+    "plate:bagel-brunch-plate"
+   ],
+   "branches": [
+    {
+     "id": "plate:nordic-plate",
+     "from": "smoked-salmon-cream-cheese"
+    }
+   ]
+  },
+  {
+   "id": "hummus-feta",
+   "name": "Hummus & Feta",
+   "steps": [
+    "hummus-feta",
+    "hummus-feta-kalamata-olives",
+    "hummus-feta-kalamata-olives-pita-chips",
+    "plate:mezze-plate"
+   ]
+  },
+  {
+   "id": "aged-gouda-dark-chocolate",
+   "name": "Gouda & Chocolate",
+   "steps": [
+    "aged-gouda-dark-chocolate",
+    "aged-gouda-dark-chocolate-hazelnuts",
+    "plate:gouda-dessert-plate"
+   ],
+   "branches": [
+    {
+     "id": "aged-gouda-dark-chocolate-flaky-sea-salt",
+     "from": "aged-gouda-dark-chocolate"
+    }
+   ]
+  },
+  {
+   "id": "ricotta-honey",
+   "name": "Ricotta & Honey",
+   "steps": [
+    "ricotta-honey",
+    "ricotta-honey-figs",
+    "ricotta-honey-figs-pistachios"
+   ]
+  },
+  {
+   "id": "fresh-chevre-honey",
+   "name": "Goat Cheese & Honey",
+   "steps": [
+    "fresh-chevre-honey",
+    "fresh-chevre-honey-pistachios",
+    "fresh-chevre-honey-figs-pistachios",
+    "plate:goat-cheese-plate"
+   ],
+   "branches": [
+    {
+     "id": "fresh-chevre-honey-figs",
+     "from": "fresh-chevre-honey"
+    }
+   ]
+  },
+  {
+   "id": "summer-sausage-colby-jack",
+   "name": "Summer Sausage & Colby Jack",
+   "steps": [
+    "summer-sausage-colby-jack",
+    "summer-sausage-colby-jack-pepper-jelly",
+    "summer-sausage-colby-jack-pepper-jelly-butter-crackers",
+    "plate:game-day-plate"
+   ]
+  },
+  {
+   "id": "aged-cheddar-apples",
+   "name": "Cheddar & Apple",
+   "steps": [
+    "aged-cheddar-apples",
+    "aged-cheddar-apples-honeycomb",
+    "plate:orchard-plate"
+   ],
+   "branches": [
+    {
+     "id": "aged-cheddar-apples-smoked-almonds-aged-gouda",
+     "from": "aged-cheddar-apples"
+    }
+   ]
+  },
+  {
+   "id": "comte-pears",
+   "name": "Comté & Pear",
+   "steps": [
+    "comte-pears",
+    "comte-pears-walnuts"
+   ],
+   "branches": [
+    {
+     "id": "comte-pears-hazelnuts",
+     "from": "comte-pears"
+    }
+   ]
+  },
+  {
+   "id": "parmigiano-reggiano-prosciutto-di-parma",
+   "name": "Parmigiano & Prosciutto",
+   "steps": [
+    "parmigiano-reggiano-prosciutto-di-parma",
+    "parmigiano-reggiano-prosciutto-di-parma-grissini"
+   ]
+  },
+  {
+   "id": "parmigiano-reggiano-balsamic-glaze",
+   "name": "Parmigiano & Balsamic",
+   "steps": [
+    "parmigiano-reggiano-balsamic-glaze",
+    "parmigiano-reggiano-balsamic-glaze-prosciutto-di-parma"
+   ]
+  },
+  {
+   "id": "burrata-prosciutto-di-parma",
+   "name": "Burrata & Prosciutto",
+   "steps": [
+    "burrata-prosciutto-di-parma",
+    "burrata-prosciutto-di-parma-olive-oil",
+    "burrata-prosciutto-di-parma-fresh-basil-olive-oil",
+    "plate:italian-summer-plate"
+   ]
+  },
+  {
+   "id": "burrata-peaches",
+   "name": "Burrata & Peaches",
+   "steps": [
+    "burrata-peaches",
+    "burrata-peaches-prosciutto-di-parma"
+   ]
+  },
+  {
+   "id": "chorizo-manchego",
+   "name": "Chorizo & Manchego",
+   "steps": [
+    "chorizo-manchego",
+    "manchego-chorizo-marcona-almonds",
+    "manchego-chorizo-membrillo-marcona-almonds"
+   ],
+   "branches": [
+    {
+     "id": "chorizo-manchego-manzanilla-olives",
+     "from": "chorizo-manchego"
+    },
+    {
+     "id": "chorizo-manchego-manzanilla-olives-marcona-almonds",
+     "from": "manchego-chorizo-marcona-almonds"
+    }
+   ]
+  },
+  {
+   "id": "jamon-serrano-manchego",
+   "name": "Jamón & Manchego",
+   "steps": [
+    "jamon-serrano-manchego",
+    "jamon-serrano-manchego-membrillo",
+    "jamon-serrano-manchego-membrillo-idiazabal"
+   ]
+  },
+  {
+   "id": "idiazabal-membrillo",
+   "name": "Idiazábal & Quince",
+   "steps": [
+    "idiazabal-membrillo"
+   ]
+  },
+  {
+   "id": "stilton-walnuts",
+   "name": "Stilton & Walnuts",
+   "steps": [
+    "stilton-walnuts",
+    "stilton-walnuts-honey"
+   ]
+  },
+  {
+   "id": "pepperoni-aged-provolone",
+   "name": "Pepperoni & Provolone",
+   "steps": [
+    "pepperoni-aged-provolone",
+    "pepperoni-aged-provolone-pepperoncini",
+    "pepperoni-aged-provolone-pepperoncini-soppressata",
+    "plate:italian-deli-plate"
+   ]
+  },
+  {
+   "id": "pepperoni-hot-honey",
+   "name": "Pepperoni & Hot Honey",
+   "steps": [
+    "pepperoni-hot-honey",
+    "pepperoni-hot-honey-fresh-mozzarella",
+    "pepperoni-hot-honey-fresh-mozzarella-soppressata"
+   ]
+  },
+  {
+   "id": "hard-salami-provolone",
+   "name": "Salami & Provolone",
+   "steps": [
+    "hard-salami-provolone",
+    "hard-salami-provolone-banana-peppers"
+   ]
+  },
+  {
+   "id": "honey-ham-baby-swiss",
+   "name": "Ham & Swiss",
+   "steps": [
+    "honey-ham-baby-swiss",
+    "honey-ham-baby-swiss-spicy-brown-mustard"
+   ]
+  },
+  {
+   "id": "mascarpone-berries",
+   "name": "Mascarpone & Berries",
+   "steps": [
+    "mascarpone-berries",
+    "mascarpone-berries-shortbread",
+    "mascarpone-berries-shortbread-lemon-curd",
+    "plate:dessert-plate"
+   ]
+  },
+  {
+   "id": "cheese-curds-summer-sausage",
+   "name": "Cheese Curds & Summer Sausage",
+   "steps": [
+    "cheese-curds-summer-sausage",
+    "cheese-curds-summer-sausage-dill-pickles",
+    "cheese-curds-summer-sausage-dill-pickles-meat-sticks"
+   ]
+  },
+  {
+   "id": "brie-honeycomb",
+   "name": "Brie & Honeycomb",
+   "steps": [
+    "brie-honeycomb",
+    "brie-honeycomb-pears",
+    "brie-honeycomb-pears-walnuts"
+   ]
+  },
+  {
+   "id": "brie-pears",
+   "name": "Brie & Pear",
+   "steps": [
+    "brie-pears",
+    "brie-pears-honey",
+    "brie-pears-honey-walnuts",
+    "plate:holiday-brie-plate"
+   ]
+  },
+  {
+   "id": "caviar-blini",
+   "name": "Caviar & Blini",
+   "steps": [
+    "caviar-blini",
+    "caviar-blini-smoked-salmon",
+    "caviar-blini-smoked-salmon-finger-limes"
+   ]
+  },
+  {
+   "id": "labneh-za-atar",
+   "name": "Labneh & Za'atar",
+   "steps": [
+    "labneh-za-atar",
+    "labneh-za-atar-hummus",
+    "labneh-za-atar-hummus-pita-chips"
+   ]
+  },
+  {
+   "id": "fresh-chevre-pomegranate",
+   "name": "Goat Cheese & Pomegranate",
+   "steps": [
+    "fresh-chevre-pomegranate",
+    "fresh-chevre-pomegranate-pistachios",
+    "fresh-chevre-pomegranate-pistachios-blood-oranges"
+   ]
+  },
+  {
+   "id": "saucisson-sec-comte",
+   "name": "Saucisson & Comté",
+   "steps": [
+    "saucisson-sec-comte",
+    "saucisson-sec-comte-cornichons",
+    "plate:french-picnic-plate"
+   ]
+  },
+  {
+   "id": "gruyere-prosciutto-cotto",
+   "name": "Gruyère & Ham",
+   "steps": [
+    "gruyere-prosciutto-cotto",
+    "gruyere-prosciutto-cotto-dijon-mustard",
+    "gruyere-prosciutto-cotto-cornichons-dijon-mustard"
+   ]
+  },
+  {
+   "id": "cream-cheese-kimchi",
+   "name": "Kimchi & Cream Cheese",
+   "steps": [
+    "cream-cheese-kimchi",
+    "cream-cheese-kimchi-rice-crackers",
+    "cream-cheese-kimchi-rice-crackers-wasabi-peas"
+   ]
+  },
+  {
+   "id": "figs-prosciutto-di-parma",
+   "name": "Ricotta & Figs & Prosciutto",
+   "steps": [
+    "figs-prosciutto-di-parma",
+    "figs-prosciutto-di-parma-ricotta"
+   ]
+  },
+  {
+   "id": "smoked-trout-cream-cheese",
+   "name": "Smoked Trout & Cream Cheese",
+   "steps": [
+    "smoked-trout-cream-cheese",
+    "smoked-trout-cream-cheese-rye-crispbread",
+    "smoked-trout-cream-cheese-rye-crispbread-smoked-salmon"
+   ]
+  },
+  {
+   "id": "fresh-mozzarella-sun-dried-tomatoes",
+   "name": "Mozzarella & Sun-Dried Tomatoes",
+   "steps": [
+    "fresh-mozzarella-sun-dried-tomatoes",
+    "fresh-mozzarella-sun-dried-tomatoes-fresh-basil"
+   ]
+  },
+  {
+   "id": "grapes-manchego",
+   "name": "Grapes & Manchego",
+   "steps": [
+    "grapes-manchego",
+    "grapes-manchego-almonds"
+   ]
+  },
+  {
+   "id": "aged-cheddar-pepper-jelly",
+   "name": "Cheddar & Pepper Jelly",
+   "steps": [
+    "aged-cheddar-pepper-jelly",
+    "aged-cheddar-pepper-jelly-summer-sausage"
+   ]
+  },
+  {
+   "id": "cream-cheese-pepper-jelly",
+   "name": "Cream Cheese & Pepper Jelly",
+   "steps": [
+    "cream-cheese-pepper-jelly"
+   ]
+  },
+  {
+   "id": "nduja-ricotta",
+   "name": "Nduja & Ricotta",
+   "steps": [
+    "nduja-ricotta",
+    "nduja-ricotta-crostini"
+   ]
+  },
+  {
+   "id": "havarti-smoked-turkey",
+   "name": "Havarti & Turkey",
+   "steps": [
+    "havarti-smoked-turkey",
+    "havarti-smoked-turkey-apples"
+   ]
+  },
+  {
+   "id": "triple-creme-fig-jam",
+   "name": "Triple-Crème & Fig",
+   "steps": [
+    "triple-creme-fig-jam",
+    "triple-creme-fig-jam-water-crackers"
+   ]
   }
  ]
 }

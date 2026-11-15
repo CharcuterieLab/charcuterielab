@@ -3,7 +3,7 @@
 // Content lives in content/pairings/:
 //   drinks.json  - 12 wines, 6 beers, cocktails, zero-proof (source: make_drinks.py)
 //   foods.json   - editorial layer for the 25 "What goes with X" pages (make_foods.py)
-//   combos.json  - Perfect Pairs, Trios, Quartets (make_combos.py)
+//   combos.json  - Perfect Pairs, Trios, Quartets, Perfect Plates and Ladders (edit the JSON; make_combos.py is stale since 15 Nov 2026)
 //   rules.json   - the six pairing rules
 // Everything else comes from the ingredient pages: pairs_with, avoid_with and the
 // "What it pairs with - and why" table. The build refuses to run if the data
@@ -161,8 +161,9 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   const foods = data.foods.map((f) => ({ ...f, item: f.display_name && bySlug.get(f.slug) ? { ...bySlug.get(f.slug), title: f.display_name } : bySlug.get(f.slug), url: `/pairings/food/${f.slug}/` }));
   const foodPage = new Map(foods.map((f) => [f.slug, f]));
   const combos = COMBO_KINDS.flatMap((k) => data.combos[k.key].map((c) => ({ ...c, kind: k.key, kindLabel: k.label, id: c.foods.join("-") })));
-  // combos explain their own pairs when an ingredient page doesn't
-  for (const c of combos)
+  // two-food combos explain their own pair when an ingredient page doesn't
+  // (15 Nov 2026: pairs only, since a trio's line talks about all three foods)
+  for (const c of combos.filter((x) => x.kind === "pairs"))
     for (let i = 0; i < c.foods.length; i++)
       for (let j = i + 1; j < c.foods.length; j++)
         if (!reasons.has(key(c.foods[i], c.foods[j]))) reasons.set(key(c.foods[i], c.foods[j]), c.why);
@@ -265,7 +266,7 @@ function comboCard(h, idx, art, c) {
     ${photoRow(h, idx, art, c.foods)}
     <p class="pr-combo-kind">${h.escapeHtml(c.kindLabel.replace(/s$/, ""))}${rule ? ` · ${h.escapeHtml(rule.name)}` : ""}</p>
     <h3>${h.escapeHtml(c.name)}</h3>
-    <p>${h.escapeHtml(c.why)}</p>
+    <p class="pr-combo-why">${h.escapeHtml(c.why)}</p>
     <p class="pr-combo-items">${c.foods.map((s) => pairLink(h, idx, s)).join(" + ")}</p>
     <p class="pr-combo-links"><a class="pr-more" href="${builderPreset(c.foods, 6, `pairings_combo_${c.id}`)}">Build a board with this &rarr;</a>${post ? ` <a class="pr-more" href="/blog/${post}/">Why it works</a>` : ""}</p>
   </li>`;
@@ -762,7 +763,10 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     // one best pick per job: the "perfect bite"
     const pick = (id) => groups.find((g) => g.id === id)?.items[0]?.p;
     const plate = ["sweet", "crunch", "salty"].map((id) => ({ id, p: pick(id), g: ROLE_GROUPS.find((g) => g.id === id) })).filter((x) => x.p);
-    const combos = idx.combos.filter((c) => c.foods.includes(f.slug));
+    // up to 6 combos: featured first, then pairs before trios before quartets (15 Nov 2026, 126 combos)
+    const combosAll = idx.combos.filter((c) => c.foods.includes(f.slug));
+    const kindRank = (c) => COMBO_KINDS.findIndex((k) => k.key === c.kind);
+    const combos = [...combosAll].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || kindRank(a) - kindRank(b)).slice(0, 6);
     const boards = (boardsUsing.get(f.slug) || []).slice(0, 3);
     const title = `What Goes With ${it.title}? ${all.length} Pairings & Drinks`;
     // "Perfect bite" photo (8 Nov 2026): drop pairings-bite-<slug>.webp into
@@ -836,7 +840,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
 
     ${it.avoidWith.length ? `<section class="bl-section" aria-labelledby="skip-h"><h2 id="skip-h">Skip these with ${B(it.title)}</h2><p>${it.avoidWith.map((s) => ingLink(h, idx, s)).join(" · ")}</p></section>` : ""}
 
-    ${combos.length ? `<section class="bl-section" aria-labelledby="combo-h"><h2 id="combo-h">Combinations with ${B(it.title)}</h2><ul class="pr-combos">${combos.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul></section>` : ""}
+    ${combos.length ? `<section class="bl-section" aria-labelledby="combo-h"><h2 id="combo-h">Combinations with ${B(it.title)}</h2><ul class="pr-combos">${combos.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul>${combosAll.length > combos.length ? `<p><a class="pr-more" href="/pairings/classics/">See all ${combosAll.length} combinations with ${B(it.title)} &rarr;</a></p>` : ""}</section>` : ""}
 
     ${boards.length ? `<section class="bl-section" aria-labelledby="boards-h"><h2 id="boards-h">Boards that use ${B(it.title)}</h2>${boardList(boards)}</section>` : ""}
 
