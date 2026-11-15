@@ -48,6 +48,8 @@ export const OFFER_RULES = [
   [/nut-free|nut-allerg|have-nuts|nuts-safe/, ["nut-free-allergy-board-kit", "complete-board-builder-bundle"], "Hosting a nut-free guest?"],
   [/vegan|vegetarian|plant-based|dairy-free/, ["vegetarian-vegan-board-kit", "book:plant", "complete-board-builder-bundle"], "Feeding vegetarian guests?"],
   [/\/dietary\/|mixed-diet|kosher|halal/, ["mixed-diet-party-planner", "complete-board-builder-bundle"], "Mixed diets at the party?"],
+  // Pairing tools (15 Nov 2026): the Combination Lab, the meat and cheese chart and the rules page get the card deck too.
+  [/\/pairings\/(classics|meat-and-cheese-chart|how-pairing-works)\//, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
   [/\/pairings\/food\//, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pairing by hand?"],
   [/stracciatella|burrata/, ["burrata-stracciatella-board-plan", "cheese-board-field-guide"], "Serving burrata?"],
   [/stilton|cream-crackers|bath-olivers|wensleydale|red-leicester|oatcakes|digestive-biscuits|christmas-cheese|cheese-course/, ["british-christmas-cheese-board", "cheese-board-field-guide"], "Hosting Christmas?"],

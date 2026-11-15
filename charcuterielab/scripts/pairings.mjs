@@ -357,6 +357,9 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
   const wines = idx.drinks.filter((d) => d.family === "wine");
   const beers = idx.drinks.filter((d) => d.family === "beer");
   const featured = (kind, n = 4) => idx.combos.filter((c) => c.kind === kind && c.featured).slice(0, n);
+  // hub picks for "Build it up" (15 Nov 2026): ladders that end in a plate
+  const hubLadders = ["gorgonzola-honey", "manchego-membrillo", "summer-sausage-colby-jack"].map((id) => idx.ladders.find((l) => l.id === id)).filter(Boolean);
+  const hubPlates = ["spanish-plate", "italian-summer-plate", "holiday-brie-plate", "game-day-plate"];
   const boardsFor = (slugs, n = 3) => {
     const score = new Map();
     for (const s of slugs) for (const b of boardsUsing.get(s) || []) score.set(b.slug, (score.get(b.slug) || 0) + 1);
@@ -369,7 +372,8 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     { q: "What are the basic rules of charcuterie pairing?", a: "Balance fat with acid or tannin, pair salty with sweet, match light foods with light drinks and bold with bold, and put foods from the same region together." },
     { q: "What drink goes with a charcuterie board?", a: "Sparkling wine is the most versatile, followed by dry rosé and Pinot Noir. For beer, choose a lager or dry cider; without alcohol, sparkling apple cider." },
     { q: "What fruit goes with charcuterie?", a: "Grapes, pears, apples, figs and melon. Juicy, sweet fruit balances salty meat and rich cheese." },
-    { q: "What cheese goes with prosciutto?", a: "Burrata, Parmigiano-Reggiano, fresh mozzarella and mild creamy cheeses. Prosciutto's silky salt suits milky or nutty cheese." },
+    { q: "What cheese goes with prosciutto?", a: "Burrata, Parmigiano-Reggiano, fresh mozzarella and mild creamy cheeses. Prosciutto's silky salt suits milky or nutty cheese. The meat and cheese pairing chart covers every cured meat." },
+    { q: "What are the best charcuterie combinations?", a: "Brie with fig jam, prosciutto with melon, manchego with quince paste, aged cheddar with apple and gorgonzola with honey. Add walnuts, a pickle or a second cheese to turn a pair into a trio or a whole plate." },
     { q: "How many pairings should a board have?", a: "Aim for every cheese to have one sweet partner and one crunchy one, and every meat to have one acidic or briny partner." },
     { q: "Do I need wine for a charcuterie board?", a: "No. Tea, sparkling cider, kombucha and sparkling water with citrus follow the same pairing rules as wine." }
   ];
@@ -416,6 +420,16 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
       </div>
     </section>
 
+    <section class="bl-section hub-tools-sec" aria-labelledby="tools-h">
+      <h2 id="tools-h" class="sr-only">Pairing tools</h2>
+      <ul class="hub-tools">
+        <li><a href="/pairings/classics/"><strong>Combination Lab</strong><span>${idx.combos.length + idx.plates.length} pairs, trios, quartets and plates, with ${idx.ladders.length} ladders, filters and print cards</span></a></li>
+        ${idx.data.mc ? `<li><a href="/pairings/meat-and-cheese-chart/"><strong>Meat &amp; cheese chart</strong><span>Which cheese goes with prosciutto, salami, chorizo and more</span></a></li>` : ""}
+        <li><a href="/pairings/wine-and-cheese-chart/"><strong>Wine &amp; cheese chart</strong><span>${wines.length} wines against every cheese, printable</span></a></li>
+        <li><a href="/pairings/how-pairing-works/"><strong>The six rules</strong><span>Why any pairing works, with examples</span></a></li>
+      </ul>
+    </section>
+
     <section class="bl-section" aria-labelledby="drinks-h">
       <h2 id="drinks-h">Start with your drink</h2>
       <ul class="pr-tiles">
@@ -433,19 +447,26 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     </section>
 
     <section class="bl-section" aria-labelledby="combos-h">
-      <h2 id="combos-h">Pairs, Trios &amp; Quartets</h2>
-      <p class="bl-note">The most popular and most interesting combinations, each one tested against our ingredient data. Tap one to build a board around it.</p>
-      ${COMBO_KINDS.map((k) => `<h3 class="pr-kind">${k.label} <span>${k.blurb}</span></h3>
+      <h2 id="combos-h">Build it up: from a pair to a whole plate</h2>
+      <p class="bl-note">Start with two foods that work, then add one at a time. Every step stays a tested match with everything before it. These are ${hubLadders.length} of our ${idx.ladders.length} ladders.</p>
+      <ul class="lab-ladders">
+${hubLadders.map((l) => ladderRow(h, idx, l, "/pairings/classics/")).join("\n")}
+      </ul>
+      <h3 class="pr-kind">Perfect Plates <span>Five foods on one plate, each one pairing with the others.</span></h3>
       <ul class="pr-combos">
-${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
-      </ul>`).join("\n      ")}
-      <p><a class="button" href="/pairings/classics/">Open the Combination Lab: all ${idx.combos.length + idx.plates.length} combinations</a></p>
+${idx.plates.filter((c) => hubPlates.includes(c.id)).map((c) => comboCard(h, idx, art, c)).join("\n")}
+      </ul>
+      <h3 class="pr-kind">Perfect Pairs <span>Two foods that make each other better.</span></h3>
+      <ul class="pr-combos">
+${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
+      </ul>
+      <p class="bl-cta-row"><a class="button primary" href="/pairings/classics/">Open the Combination Lab: all ${idx.combos.length + idx.plates.length} combinations</a> <a class="button" href="/pairings/?check=brie#finder" data-check-start>Build your own bite</a></p>
     </section>
 
     <section class="bl-section" id="rules" aria-labelledby="rules-h">
       <h2 id="rules-h">The six rules behind every pairing</h2>
       <ol class="pr-rules">
-        ${idx.rules.map((r, n) => `<li id="rule-${r.id}"><span class="pr-rule-n">${n + 1}</span><h3>${B(r.name)}</h3><p>${B(r.line)}</p><a class="pr-more" href="/pairings/how-pairing-works/#${r.id}">Examples &rarr;</a></li>`).join("\n        ")}
+        ${idx.rules.map((r, n) => `<li id="rule-${r.id}"><span class="pr-rule-n">${n + 1}</span><h3>${B(r.name)}</h3><p>${B(r.line)}</p><a class="pr-more" href="/pairings/how-pairing-works/#${r.id}">Examples &rarr;</a> <a class="pr-more" href="/pairings/classics/?rule=${r.id}#lab-find">${[...idx.combos, ...idx.plates].filter((c) => c.rule === r.id).length} combinations &rarr;</a></li>`).join("\n        ")}
       </ol>
     </section>
 
@@ -461,21 +482,13 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
       }).join("\n      ")}
     </section>
 
-    <section class="bl-section pr-chart-teaser" aria-labelledby="chart-h">
-      <div>
-        <h2 id="chart-h">The wine and cheese pairing chart</h2>
-        <p>Twelve wines, thirty cheeses, one chart. Tap a wine to see its cheeses, or print it for the fridge.</p>
-        <a class="button primary" href="/pairings/wine-and-cheese-chart/">Open the chart</a>
-      </div>
+    <section class="bl-section" aria-labelledby="chart-h">
+      <h2 id="chart-h">Printable pairing charts</h2>
+      <ul class="hub-charts">
+        ${idx.data.mc ? `<li><a href="/pairings/meat-and-cheese-chart/"><img src="/images/meat-and-cheese-chart.png" alt="Meat and cheese pairing chart: six cured meat families rated against seven cheese families" width="1200" height="646" loading="lazy"><strong>Meat and cheese pairing chart</strong><span>Which cheese goes with prosciutto, salami, pepperoni, chorizo, summer sausage, ham and bresaola, rated and explained.</span></a></li>` : ""}
+        <li><a href="/pairings/wine-and-cheese-chart/">${photo("pairings-chart") ? `<img src="${photo("pairings-chart")}" alt="Wine and cheese pairing chart" loading="lazy">` : ""}<strong>Wine and cheese pairing chart</strong><span>${wines.length} wines, every cheese on our list. Tap a wine to see its cheeses, or print it for the fridge.</span></a></li>
+      </ul>
     </section>
-
-    ${idx.data.mc ? `<section class="bl-section pr-chart-teaser" aria-labelledby="mc-chart-h">
-      <div>
-        <h2 id="mc-chart-h">The meat and cheese pairing chart</h2>
-        <p>Which cheese goes with prosciutto, salami, pepperoni, chorizo, summer sausage, ham and bresaola, rated and explained on one printable chart.</p>
-        <a class="button primary" href="/pairings/meat-and-cheese-chart/">Open the meat and cheese chart</a>
-      </div>
-    </section>` : ""}
 
     ${h.bookBar("pairings_hub", "Every board in the book comes with its pairing science")}
     ${h.printCard ? h.printCard("pairing-card-deck", "pairings_hub_print") : ""}
@@ -867,6 +880,14 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
 
     ${combos.length ? `<section class="bl-section" aria-labelledby="combo-h"><h2 id="combo-h">Combinations with ${B(it.title)}</h2><ul class="pr-combos">${combos.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul>${combosAll.length > combos.length ? `<p><a class="pr-more" href="/pairings/classics/">See all ${combosAll.length} combinations with ${B(it.title)} &rarr;</a></p>` : ""}</section>` : ""}
     ${(() => { const fam = mcFamilyOf(idx, f.slug); if (!fam) return ""; const isMeat = idx.data.mc.meats.includes(fam); return `<p class="mc-food-link">${isMeat ? `Which cheese goes with ${B(it.title)}?` : `Which cured meat goes with ${B(it.title)}?`} See the <a href="/pairings/meat-and-cheese-chart/${isMeat ? `#mc-${fam.id}` : ""}">meat and cheese pairing chart</a>.</p>`; })()}
+    ${(() => {
+      // ladders that start with (or reach) this food, linked into the Lab (15 Nov 2026)
+      const stepFoods = (st) => (st.startsWith("plate:") ? idx.plates.find((c) => `plate:${c.id}` === st) : idx.combos.find((c) => c.id === st))?.foods || [];
+      const starts = idx.ladders.filter((l) => stepFoods(l.steps[0]).includes(f.slug));
+      const reaches = idx.ladders.filter((l) => !starts.includes(l) && l.steps.some((st) => stepFoods(st).includes(f.slug)));
+      const ls = [...starts, ...reaches].slice(0, 3);
+      return ls.length ? `<section class="bl-section" aria-labelledby="ladder-h"><h2 id="ladder-h">Build it up from ${B(it.title)}</h2><p class="bl-note">Add one food at a time; every step is a tested match. Tap a step for its card in the <a href="/pairings/classics/">Combination Lab</a>.</p><ul class="lab-ladders">${ls.map((l) => ladderRow(h, idx, l, "/pairings/classics/")).join("")}</ul></section>` : "";
+    })()}
 
     ${boards.length ? `<section class="bl-section" aria-labelledby="boards-h"><h2 id="boards-h">Boards that use ${B(it.title)}</h2>${boardList(boards)}</section>` : ""}
 
@@ -904,7 +925,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
   // ------------------------------------------------------------ classics ---
   // The Combination Lab (15 Nov 2026): every pair, trio, quartet and Perfect
   // Plate with filters, ladders, amounts for 8, drinks and print cards.
-  add("pairings/classics/index.html", labPage(h, idx, art, script));
+  add("pairings/classics/index.html", labPage(h, idx, art, script, { image: photo("pairings-lab"), hero: heroImg("pairings-lab", "Charcuterie bites built up from a pair to a full plate") }));
 
   // ------------------------------------------------------------- rules ---
   add("pairings/how-pairing-works/index.html", page(h, {
@@ -929,7 +950,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p>${B(r.line)}</p>
       ${drinkEx.length ? `<ul class="pr-examples">${drinkEx.map(({ d, m }) => `<li><a href="${d.url}">${B(d.name)}</a> + ${pairLink(h, idx, m.s)}: ${B(m.why)}</li>`).join("")}</ul>` : ""}
       ${comboEx.length ? `<ul class="pr-combos pr-combos-sm">${comboEx.map((c) => comboCard(h, idx, art, c)).join("\n")}</ul>` : ""}
-      ${r.post ? `<p><a class="pr-more" href="/blog/${r.post}/">Read the full science &rarr;</a></p>` : ""}
+      <p>${r.post ? `<a class="pr-more" href="/blog/${r.post}/">Read the full science &rarr;</a> ` : ""}<a class="pr-more" href="/pairings/classics/?rule=${r.id}#lab-find">All ${[...idx.combos, ...idx.plates].filter((c) => c.rule === r.id).length} combinations built on this rule &rarr;</a></p>
     </section>`;
     }).join("\n    ")}`
   }));
@@ -1049,7 +1070,7 @@ function labCard(h, idx, art, c) {
   </li>`;
 }
 
-function ladderRow(h, idx, l) {
+function ladderRow(h, idx, l, base = "") {
   const B = (t) => h.escapeHtml(t);
   const byStep = new Map([...idx.combos.map((c) => [c.id, c]), ...idx.plates.map((c) => [`plate:${c.id}`, c])]);
   const title = (s) => idx.bySlug.get(s)?.title || s;
@@ -1059,16 +1080,16 @@ function ladderRow(h, idx, l) {
     const added = c.foods.filter((f) => !prev.includes(f));
     prev = c.foods;
     const label = i === 0 ? c.foods.map(title).join(" + ") : c.kind === "plates" ? c.name.replace(/^The /, "") : `+ ${added.map(title).join(" + ")}`;
-    return `<li><a href="#c-${labAnchor(s)}"><span class="lab-step-n">${c.foods.length}</span> ${B(label)}</a></li>`;
+    return `<li><a href="${base}#c-${labAnchor(s)}"><span class="lab-step-n">${c.foods.length}</span> ${B(label)}</a></li>`;
   });
   const branches = (l.branches || []).map((b) => {
     const c = byStep.get(b.id), from = byStep.get(b.from);
-    return `<a href="#c-${labAnchor(b.id)}">${B(c.name)}</a>`;
+    return `<a href="${base}#c-${labAnchor(b.id)}">${B(c.name)}</a>`;
   });
   return `<li class="lab-ladder"><h3>${B(l.name)}</h3><ol class="lab-steps">${steps.join("")}</ol>${branches.length ? `<p class="lab-branch">Or try: ${branches.join(" · ")}</p>` : ""}</li>`;
 }
 
-function labPage(h, idx, art, script) {
+function labPage(h, idx, art, script, { image = "", hero = "" } = {}) {
   const B = (t) => h.escapeHtml(t);
   const all = [...idx.combos, ...idx.plates];
   const n = (k) => all.filter((c) => c.kind === k).length;
@@ -1083,7 +1104,8 @@ function labPage(h, idx, art, script) {
     { q: "Why do these combinations work?", a: "Six rules explain almost all of them: fat tames tannin, acid cuts richness, salt loves sweet, match the weight, what grows together goes together, and contrast the texture. Each card names the rule it uses." }
   ];
   const body = `
-    <header class="pr-hero lab-hero">
+    <header class="pr-hero lab-hero${hero ? " pr-hero-photo" : ""}">
+      <div>
       <p class="section-kicker">The Combination Lab</p>
       <h1>The best charcuterie combinations: ${all.length} pairs, trios, quartets &amp; plates</h1>
       <p class="pr-answer">The best-loved charcuterie combinations are brie with fig jam, prosciutto with melon, Manchego with membrillo, and aged cheddar with apple. Add walnuts, honey or a pickle to turn a pair into a trio, and keep going to build a whole plate.</p>
@@ -1091,6 +1113,8 @@ function labPage(h, idx, art, script) {
         <li><b>${n("pairs")}</b> pairs</li><li><b>${n("trios")}</b> trios</li><li><b>${n("quartets")}</b> quartets</li><li><b>${n("plates")}</b> Perfect Plates</li><li><b>${idx.ladders.length}</b> ladders</li>
       </ul>
       <p class="bl-note">Every food in every combination is a tested pairing with the others, taken from our ingredient pages. Each card has how to build the bite, amounts for 8, a wine, a beer and a no-alcohol drink.</p>
+      </div>
+      ${hero}
     </header>
 
     <nav class="lab-jump" aria-label="On this page"><a href="#lab-season">In season</a><a href="#lab-ladders">Ladders</a>${LAB_KINDS.map((k) => `<a href="#k-${k.key}">${k.label}</a>`).join("")}<a href="#faq">Questions</a></nav>
@@ -1156,6 +1180,7 @@ ${all.filter((c) => c.kind === k.key).map((c) => labCard(h, idx, art, c)).join("
     list: all.map((c) => [c.name, `/pairings/classics/#c-${labId(c)}`]),
     faq,
     updated: LAB_UPDATED,
+    image,
     script,
     body
   });

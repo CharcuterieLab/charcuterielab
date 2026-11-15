@@ -58,3 +58,14 @@
 }
 .lab-all-ladders{margin-top:12px}
 .lab-all-ladders>summary{cursor:pointer;display:inline-block;padding:8px 16px;border-radius:999px;background:var(--green);color:#fff;font-weight:700;font-size:14px}
+/* Pairings Hub tools strip and charts (15 Nov 2026) */
+.hub-tools{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.hub-tools a{display:flex;flex-direction:column;gap:4px;height:100%;padding:16px 18px;border-radius:16px;background:#fff;border:1px solid rgba(169,87,43,.15);text-decoration:none;box-shadow:0 10px 24px rgba(55,35,25,.06)}
+.hub-tools a:hover{border-color:var(--green)}
+.hub-tools strong{font-family:var(--serif);font-size:1.15rem;color:var(--green-deep)}
+.hub-tools span{font-size:14px;color:var(--muted);line-height:1.45}
+.hub-charts{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.hub-charts a{display:flex;flex-direction:column;gap:6px;height:100%;padding:14px;border-radius:16px;background:#fff;border:1px solid rgba(169,87,43,.15);text-decoration:none}
+.hub-charts img{width:100%;height:auto;border-radius:10px;border:1px solid rgba(169,87,43,.12)}
+.hub-charts strong{font-family:var(--serif);font-size:1.2rem;color:var(--green-deep)}
+.hub-charts span{font-size:14px;color:var(--muted);line-height:1.5}
