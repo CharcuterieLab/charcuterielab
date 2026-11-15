@@ -2,7 +2,7 @@
 title: "Cheese Advent Calendars UK 2026: What's Left and When to Order"
 seo_title: "Cheese Advent Calendar UK 2026: Prices, Stock, Order Dates"
 date: "2026-11-14"
-image: "/images/cheese-advent-calendars-2026.jpg"
+image: "/images/cheese-advent-calendar-uk.webp"
 excerpt: "Seven UK cheese advent calendars, from £12 to £224. Two have already sold out and one is gone, so this is sorted by what you can still buy today, with the order dates you need to hit for cheese on December 1."
 description: "Cheese advent calendar UK 2026: The Crafty Herd £12 at Ocado, The Courtyard Dairy £135, George & Joseph £150, Paxton & Whitfield £175. The Cheese Geek and Chuckling Cheese are sold out. Order dates and stock, checked November 14."
 meta_description: "Cheese advent calendar UK 2026: The Crafty Herd £12 at Ocado, The Courtyard Dairy £135, Paxton & Whitfield £175, plus what's sold out."

@@ -1234,6 +1234,10 @@ function ingredientsHub(items) {
   const categories = CATEGORY_ORDER.filter((c) => items.some((i) => i.category === c));
   return layout({
     canonical: "/ingredients/",
+    // 15 Nov 2026: the hub and its 8 category pages were the last pages still
+    // falling through to book-cover.jpg as their og:image. The photo is a grid
+    // of separate ingredients rather than a built board, to match a browse page.
+    image: "/images/ingredients-hub.webp",
     title: `Charcuterie Ingredients: ${items.length} Cheeses, Meats & More`,
     description:
       "Every charcuterie board ingredient, one page each: what it is, what it pairs with and why, how to prep it, and exactly what to buy.",
@@ -1278,6 +1282,7 @@ function ingredientCategoryPage(category, items) {
   const low = category.toLowerCase();
   return layout({
     canonical: `/ingredients/${slugify(category)}/`,
+    image: "/images/ingredients-hub.webp",
     // "All N ... A to Z" rather than "N Types Explained": this is the browse
     // page, and the guide above keeps the "best / which to buy" phrasing.
     title: pageTitle(`All ${items.length} ${categoryPlural(category)} for Charcuterie, A to Z`),
