@@ -540,9 +540,37 @@ function mcChart() {
   });
 }
 
+// ---------------------------------------------- wine & cheese chart extras ---
+// /pairings/wine-and-cheese-chart/ (15 Nov 2026): tap a dot for its reason
+// (hover only worked on desktop) and "Find a wine for your cheese".
+function wcChart() {
+  const t = $("#pr-chart"), panel = $("#wc-panel");
+  if (!t || !panel) return;
+  t.addEventListener("click", (e) => {
+    const td = e.target.closest("td[data-why]");
+    if (!td) return;
+    panel.innerHTML = `<p class="mc-panel-h"><strong>${esc(td.dataset.tip)}</strong></p><p>${esc(td.dataset.why)}</p><p><a class="pr-more" href="${esc(td.dataset.href)}">Everything that goes with this wine &rarr;</a></p>`;
+    panel.hidden = false;
+  });
+  let data = {};
+  try { data = JSON.parse($("#wc-data").textContent); } catch {}
+  const sel = $("#wc-cheese"), out = $("#wc-result");
+  const show = () => {
+    const d = data[sel.value];
+    if (!d) { out.innerHTML = ""; return; }
+    const wines = d.y.filter((x) => x[3] !== "beer"), beers = d.y.filter((x) => x[3] === "beer");
+    out.innerHTML = `<ul class="mc-rows">${wines.map(([n, u, why]) => `<li><span class="mc-chip mc-s3">Pour</span> <a href="${esc(u)}"><strong>${esc(n)}</strong></a>: ${esc(why)}</li>`).join("")}${beers.map(([n, u, why]) => `<li><span class="mc-chip mc-s2">Beer</span> <a href="${esc(u)}"><strong>${esc(n)}</strong></a>: ${esc(why)}</li>`).join("")}${d.n.map(([n, u, why]) => `<li><span class="mc-chip mc-s0">Skip</span> <a href="${esc(u)}"><strong>${esc(n)}</strong></a>: ${esc(why)}</li>`).join("")}</ul><p><a class="pr-more" href="${esc(d.u)}">Everything that goes with ${esc(d.t)} &rarr;</a></p>`;
+    const p = new URLSearchParams(location.search); p.set("cheese", sel.value); history.replaceState(null, "", `${location.pathname}?${p}`);
+  };
+  sel?.addEventListener("change", show);
+  const q = new URLSearchParams(location.search).get("cheese");
+  if (q && data[q]) { sel.value = q; show(); }
+}
+
 filters();
 lab();
 mcChart();
+wcChart();
 chart();
 season();
 finder();

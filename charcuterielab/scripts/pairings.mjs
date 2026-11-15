@@ -959,14 +959,45 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
   const chartCheeses = [...new Set(wines.flatMap((w) => w.matches.map((m) => m.s)))].map((s) => idx.bySlug.get(s)).filter((i) => i.category === "Cheese").sort((a, b) => a.title.localeCompare(b.title));
   const beerCols = beers;
   if (idx.data.mc) add("pairings/meat-and-cheese-chart/index.html", mcPage(h, idx, script));
+  // Wine chart upgrade (15 Nov 2026): cheese-style sections, a cheese picker,
+  // tap-to-read dots, serving table and FAQ, for "wine and cheese pairing
+  // chart" and the cheese-to-wine searches ("what wine goes with brie").
+  const WC_STYLES = [
+    ["fresh", "Fresh cheese", "What wine goes with fresh cheese like burrata and feta?", "Milky, tangy and light. Crisp whites and dry rosé keep them fresh; tannic reds turn them bitter."],
+    ["goat", "Goat cheese", "What wine goes with goat cheese?", "Tangy and chalky. Sauvignon Blanc is the classic match, because both are bright and grassy."],
+    ["bloomy", "Brie and soft-ripened", "What wine goes with brie and camembert?", "Buttery and mushroomy. Bubbles and Chardonnay cut the richness; light reds work at room temperature. Big tannic reds erase them."],
+    ["semi", "Semi-soft and mild", "What wine goes with mild cheese like havarti and fontina?", "Gentle and creamy. Soft reds and round whites suit them; anything too big takes over."],
+    ["alpine", "Alpine and nutty", "What wine goes with Gruyère and Comté?", "Nutty, sweet and savory. The most wine-friendly cheeses there are: Pinot Noir, Chardonnay and bubbles all shine."],
+    ["aged", "Aged and hard", "What wine goes with aged cheddar, manchego and Parmigiano?", "Salty, firm and full of flavor crystals. They can stand up to big reds like Cabernet and Malbec, and to Chianti for the Italian ones."],
+    ["washed", "Washed-rind", "What wine goes with stinky washed-rind cheese?", "Pungent rind, sweet and meaty inside. Off-dry Riesling is the most reliable match; a light red like Pinot Noir or Beaujolais suits the milder ones."],
+    ["blue", "Blue cheese", "What wine goes with blue cheese?", "Salty and sharp. Sweet wine is the answer: port with Stilton and gorgonzola. Most dry wines taste thin or bitter next to a strong blue."]
+  ];
+  const WC_EXTRA = { epoisses: "washed", limburger: "washed", taleggio: "washed", morbier: "washed", muenster: "washed", cabrales: "blue", mimolette: "aged", "pecorino-toscano": "aged", feta: "fresh", "whipped-feta": "fresh", "crottin-de-chavignol": "goat", "sainte-maure": "goat" };
+  const wcStyleOf = (slug) => WC_EXTRA[slug] || (idx.data.mc ? idx.data.mc.cheeses.find((c) => c.foods.includes(slug))?.id : "") || "";
+  const wcYes = (slug) => [...wines, ...beers].flatMap((w) => w.matches.filter((m) => m.s === slug).map((m) => ({ w, why: m.why })));
+  const wcNo = (slug) => wines.flatMap((w) => (w.avoid || []).filter((a) => a.s === slug).map((a) => ({ w, why: a.why })));
+  const wcPick = Object.fromEntries(chartCheeses.map((c) => [c.slug, { t: c.title, u: idx.foodPage.has(c.slug) ? `/pairings/food/${c.slug}/` : `/ingredients/${c.slug}/`, y: wcYes(c.slug).map(({ w, why }) => [w.name, w.url, why, w.family]), n: wcNo(c.slug).map(({ w, why }) => [w.name, w.url, why]) }]));
+  const wcFaq = [
+    { q: "What wine goes best with cheese?", a: "For one bottle on a mixed board, pour Pinot Noir or a dry sparkling wine. Both have bright acid and gentle tannin, so they suit brie, Comté, Gruyère and Parmigiano without flattening any of them." },
+    { q: "Is red or white wine better with cheese?", a: "White works more often than people expect. Crisp whites and bubbles suit fresh, goat and soft cheeses; light reds suit nutty, firm cheeses; big tannic reds only suit hard, aged cheeses. Tannin clashes with soft and fresh cheese, which is why Cabernet with brie or goat cheese tastes bitter." },
+    { q: "What wine goes with brie?", a: "Champagne or Prosecco, Chardonnay, Pinot Noir or Beaujolais. Skip big reds like Cabernet, Malbec and Chianti: their tannin erases a mild, buttery cheese." },
+    { q: "What wine goes with goat cheese?", a: "Sauvignon Blanc first, then a dry rosé. Both are bright enough for the tang. Avoid Cabernet and Merlot, whose tannin turns metallic and bitter next to fresh goat cheese." },
+    { q: "What wine goes with blue cheese?", a: "Port, or another sweet dessert wine. The sweetness balances the salt. Dry sparkling wine, Chardonnay, rosé and light reds tend to taste thin or bitter next to a strong blue like Roquefort or Stilton." },
+    { q: "What wine goes with aged cheddar?", a: "Cabernet Sauvignon, Merlot or Malbec for a red, oaked Chardonnay for a white, and port for dessert. Aged cheddar is salty and firm enough to stand up to tannin." },
+    { q: "How should I serve wine and cheese?", a: "Take the cheese out of the fridge ahead of time so it reaches room temperature. Chill whites and rosé to about 45–50°F and sparkling wine a little colder, and serve most reds slightly cool, around 60–65°F. Go from mild to strong, and from light wine to heavy." }
+  ];
+  const wcStyles = WC_STYLES.map(([id, name, q, line]) => [id, name, q, line, chartCheeses.filter((c) => wcStyleOf(c.slug) === id)]).filter((x) => x[4].length);
+  const wcOther = chartCheeses.filter((c) => !wcStyles.some((x) => x[4].includes(c)));
   add("pairings/wine-and-cheese-chart/index.html", page(h, {
     url: "/pairings/wine-and-cheese-chart/",
     title: "Wine and Cheese Pairing Chart (Printable)",
     name: "Wine and cheese pairing chart",
-    description: `A wine and cheese pairing chart for ${wines.length} wines and ${chartCheeses.length} cheeses. Tap a wine or a cheese to see its matches, or print it.`,
-    crumbs: [["Pairings", "/pairings/"], ["Chart", "/pairings/wine-and-cheese-chart/"]],
+    description: `A printable wine and cheese pairing chart: ${wines.length} wines against ${chartCheeses.length} cheeses, which wine goes with brie, goat cheese, cheddar and blue, and which pairings to skip.`,
+    crumbs: [["Pairings", "/pairings/"], ["Wine & Cheese Chart", "/pairings/wine-and-cheese-chart/"]],
     image: photo("pairings-chart"),
-    list: wines.map((w) => [`${w.name} pairings`, w.url]),
+    list: wcStyles.map(([id, , q]) => [q, `/pairings/wine-and-cheese-chart/#wc-${id}`]),
+    faq: wcFaq,
+    updated: "2026-11-15",
     script,
     body: `
     <header class="pr-hero">
@@ -975,6 +1006,11 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="pr-answer">The safest matches: Champagne with brie, Sauvignon Blanc with goat cheese, Pinot Noir with Gruyère, Cabernet with aged cheddar, Chianti with Parmigiano and port with Stilton.</p>
       <p class="pr-chart-tools"><button type="button" class="button primary" data-print>Print the chart</button> <label><input type="checkbox" data-beer> Add beer &amp; cider columns</label></p>
     </header>
+    <section class="wc-pick" aria-labelledby="wc-pick-h">
+      <h2 id="wc-pick-h">Find a wine for your cheese</h2>
+      <label class="lab-sel"><span>Pick a cheese</span><select id="wc-cheese"><option value="">Choose…</option>${chartCheeses.map((c) => `<option value="${c.slug}">${B(c.title)}</option>`).join("")}</select></label>
+      <div id="wc-result" aria-live="polite"></div>
+    </section>
     <div class="pr-chart-wrap">
       <table class="pr-chart" id="pr-chart">
         <caption class="sr-only">Wine and cheese pairing chart: a dot marks a recommended pairing</caption>
@@ -982,17 +1018,44 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
         <tbody>
         ${chartCheeses.map((c) => `<tr data-row="${c.slug}"><th scope="row">${pairLink(h, idx, c.slug)}</th>${[...wines, ...beerCols].map((w) => {
           const m = w.matches.find((x) => x.s === c.slug);
-          return `<td class="${w.family === "beer" ? "pr-beer" : ""}" data-col="${w.slug}">${m ? `<span class="pr-dot" style="--d:${w.color}" title="${B(m.why)}" aria-label="Yes: ${B(m.why)}"></span>` : ""}</td>`;
+          return `<td class="${w.family === "beer" ? "pr-beer" : ""}" data-col="${w.slug}"${m ? ` data-tip="${B(w.name)} + ${B(c.title)}" data-why="${B(m.why)}" data-href="${w.url}"` : ""}>${m ? `<span class="pr-dot" style="--d:${w.color}" title="${B(m.why)}" aria-label="Yes: ${B(m.why)}"></span>` : ""}</td>`;
         }).join("")}</tr>`).join("\n        ")}
         </tbody>
       </table>
     </div>
-    <p class="bl-note">Tap a wine or a cheese to highlight its matches. Hover a dot to read why, or open the wine's page for the full reasons.</p>
+    <div class="mc-panel" id="wc-panel" aria-live="polite" hidden></div>
+    <p class="bl-note">Tap a wine or a cheese to highlight its matches, and tap a dot to read why it works. <a href="/images/wine-and-cheese-chart.png">Save the chart as an image</a> for your phone or Pinterest.</p>
     ${h.printCard ? h.printCard("wine-cheese-pairing-guide", "pairings_chart_print", { lead: "The free chart shows which wines match. The 3-page guide adds 20 wine styles, the cheeses to avoid with each, serving temperatures and a craft beer section. Designed to print." }) : ""}
     <section class="bl-section" aria-labelledby="how-h">
       <h2 id="how-h">How to read it</h2>
       <p>Light, fresh cheeses sit best with crisp whites and sparkling wine; nutty, firm cheeses with light reds and Chardonnay; hard, aged cheeses with bigger reds; blue cheese with sweet port. The <a href="/pairings/how-pairing-works/">six pairing rules</a> explain why.</p>
-    </section>`
+    </section>
+
+    ${wcStyles.map(([id, name, q, line, list]) => {
+      const no = list.flatMap((c) => wcNo(c.slug).map(({ w, why }) => ({ w, c, why })));
+      return `<section class="bl-section mc-family" id="wc-${id}" aria-labelledby="wc-${id}-h">
+      <h2 id="wc-${id}-h">${B(q)}</h2>
+      <p>${B(line)}</p>
+      <ul class="mc-rows">${list.map((c) => { const yes = wcYes(c.slug).filter((x) => x.w.family !== "beer"); const best = yes[0]; return `<li><strong>${pairLink(h, idx, c.slug)}</strong>: ${yes.map(({ w }) => `<a href="${w.url}">${B(w.name)}</a>`).join(", ")}${best ? ` <span class="mc-proven">Best bet, ${B(best.w.name)}: ${B(best.why)}</span>` : ""}</li>`; }).join("")}</ul>
+      ${no.length ? `<p class="wc-skip"><strong>Skip:</strong> ${no.slice(0, 4).map(({ w, c, why }) => `${B(w.name)} with ${B(c.title)} (${B(why.replace(/\.$/, "").toLowerCase())})`).join("; ")}.</p>` : ""}
+    </section>`;
+    }).join("\n    ")}
+    ${wcOther.length ? `<section class="bl-section" aria-labelledby="wc-other-h"><h2 id="wc-other-h">More cheeses on the chart</h2><ul class="mc-rows">${wcOther.map((c) => `<li><strong>${pairLink(h, idx, c.slug)}</strong>: ${wcYes(c.slug).filter((x) => x.w.family !== "beer").map(({ w }) => `<a href="${w.url}">${B(w.name)}</a>`).join(", ")}</li>`).join("")}</ul></section>` : ""}
+
+    <section class="bl-section" aria-labelledby="wc-serve-h">
+      <h2 id="wc-serve-h">Serving temperatures and best cheeses for each wine</h2>
+      <div class="mc-wrap"><table class="wc-serve">
+        <thead><tr><th scope="col">Wine</th><th scope="col">Serve at</th><th scope="col">Best cheeses</th></tr></thead>
+        <tbody>${wines.map((w) => `<tr><th scope="row"><a href="${w.url}">${B(w.name)}</a></th><td>${B(w.serve || "")}</td><td>${w.matches.filter((m) => idx.bySlug.get(m.s)?.category === "Cheese").slice(0, 3).map((m) => pairLink(h, idx, m.s)).join(", ")}</td></tr>`).join("")}</tbody>
+      </table></div>
+      <p class="bl-note">Take the cheese out of the fridge ahead of time; our <a href="/blog/temperature-guide/">temperature guide</a> has the timings. For meats, see the <a href="/pairings/meat-and-cheese-chart/">meat and cheese pairing chart</a>. Need a bottle? Our tested picks: <a href="/blog/best-champagne-under-30/">Champagne under $30</a> and <a href="/blog/best-prosecco/">the best Prosecco</a>.</p>
+    </section>
+
+    <section class="bl-section" id="faq" aria-labelledby="faq-h">
+      <h2 id="faq-h">Questions</h2>
+      ${faqHtml(h, wcFaq)}
+    </section>
+    <script type="application/json" id="wc-data">${h.jsonForScript(wcPick)}</script>`
   }));
 
   return out;

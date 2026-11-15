@@ -39,3 +39,14 @@ button.mc-chip{cursor:pointer}
   #mc-print-sheet .mc-chip{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .mc-print-foot{font-size:10px;color:#666}
 }
+/* Wine and cheese chart extras (15 Nov 2026) */
+.wc-pick{margin:14px 0;padding:14px 16px;border-radius:14px;background:#fff;border:1px solid rgba(169,87,43,.15)}
+.wc-pick h2{margin:0 0 8px;font-size:1.2rem}
+.wc-pick .lab-sel{max-width:320px}
+#wc-result .mc-rows{margin-top:10px}
+.wc-skip{font-size:14px;color:var(--muted)}
+.wc-serve{border-collapse:collapse;width:100%;font-size:14px}
+.wc-serve th,.wc-serve td{padding:8px 10px;border-bottom:1px solid rgba(169,87,43,.1);text-align:left}
+.wc-serve thead th{background:var(--cream)}
+.wc-serve a{color:var(--green)}
+#pr-chart td[data-why]{cursor:pointer}
