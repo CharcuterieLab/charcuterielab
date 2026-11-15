@@ -299,7 +299,135 @@ async function finder() {
   }
 }
 
+// ------------------------------------------------------- Combination Lab ---
+// /pairings/classics/ (15 Nov 2026): kind chips, selects, search, Surprise me,
+// in-season row, print one card or every card shown. Filters deep-link:
+// ?kind=trios&season=holiday&occ=brunch&diet=gluten-free&price=$&rule=acid&level=easy&q=honey
+function lab() {
+  const cards = $$(".lab-cards > .lab-card");
+  if (!cards.length) return;
+  const chips = $$("[data-lfilter]");
+  const q = $("#lab-q");
+  const sels = { season: $("#lab-season-f"), occ: $("#lab-occ"), diet: $("#lab-diet"), price: $("#lab-price"), rule: $("#lab-rule"), level: $("#lab-level") };
+  const count = $("#lab-count"), empty = $("#lab-empty");
+  const has = (list, v) => (list || "").split(" ").includes(v);
+  const apply = () => {
+    const kind = chips.find((b) => b.getAttribute("aria-pressed") === "true")?.dataset.lfilter || "all";
+    const words = norm(q?.value || "").split(" ").filter(Boolean);
+    const v = Object.fromEntries(Object.entries(sels).map(([k, el]) => [k, el?.value || ""]));
+    let shown = 0;
+    cards.forEach((li) => {
+      const d = li.dataset;
+      const ok = (kind === "all" || d.kind === kind)
+        && words.every((w) => norm(d.search).includes(w))
+        && (!v.season || has(d.season, v.season))
+        && (!v.occ || has(d.occ, v.occ))
+        && (!v.diet || has(d.diet, v.diet))
+        && (!v.price || d.price.length <= v.price.length)
+        && (!v.rule || d.rule === v.rule)
+        && (!v.level || d.level === v.level);
+      li.hidden = !ok;
+      if (ok) shown++;
+    });
+    $$("[data-kind-section]").forEach((sec) => (sec.hidden = !$$(".lab-card:not([hidden])", sec).length));
+    if (count) count.textContent = shown === cards.length ? `Showing all ${cards.length}` : `Showing ${shown} of ${cards.length}`;
+    if (empty) empty.hidden = shown > 0;
+    const p = new URLSearchParams();
+    if (kind !== "all") p.set("kind", kind);
+    Object.entries(v).forEach(([k, val]) => val && p.set(k, val));
+    if (q?.value) p.set("q", q.value);
+    history.replaceState(null, "", `${location.pathname}${p.toString() ? `?${p}` : ""}${location.hash}`);
+  };
+  chips.forEach((b) => b.addEventListener("click", () => { pressGroup(chips, b); apply(); }));
+  q?.addEventListener("input", apply);
+  Object.values(sels).forEach((el) => el?.addEventListener("change", apply));
+  // deep links
+  const p = new URLSearchParams(location.search);
+  const kc = chips.find((b) => b.dataset.lfilter === p.get("kind"));
+  if (kc) pressGroup(chips, kc);
+  Object.entries(sels).forEach(([k, el]) => { if (el && p.get(k) && [...el.options].some((o) => o.value === p.get(k))) el.value = p.get(k); });
+  if (q && p.get("q")) q.value = p.get("q");
+  if ([...p.keys()].length) apply();
+
+  $("#lab-reset")?.addEventListener("click", () => {
+    pressGroup(chips, chips[0]);
+    Object.values(sels).forEach((el) => el && (el.value = ""));
+    if (q) q.value = "";
+    apply();
+  });
+  const flash = (li) => {
+    $$("details", li).forEach((d) => (d.open = true));
+    li.scrollIntoView({ behavior: "smooth", block: "center" });
+    li.classList.remove("is-flash"); void li.offsetWidth; li.classList.add("is-flash");
+  };
+  $("#lab-surprise")?.addEventListener("click", () => {
+    const pool = cards.filter((li) => !li.hidden);
+    if (pool.length) flash(pool[Math.floor(Math.random() * pool.length)]);
+  });
+  // ladder steps and #c- links open the card they point to
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest('a[href^="#c-"]');
+    if (!a) return;
+    const li = document.getElementById(a.getAttribute("href").slice(1));
+    if (!li) return;
+    e.preventDefault();
+    if (li.hidden) $("#lab-reset")?.click();
+    history.replaceState(null, "", a.getAttribute("href"));
+    flash(li);
+  });
+  if (location.hash.startsWith("#c-")) { const li = document.getElementById(location.hash.slice(1)); if (li) setTimeout(() => flash(li), 300); }
+
+  // print: one card, or every card currently shown
+  const printWith = (mark) => {
+    const sheet = document.createElement("div");
+    sheet.id = "lab-print-sheet";
+    sheet.innerHTML = `<p class="lab-print-head">Charcuterie Lab · Combination Lab · charcuterielab.com/pairings/classics/</p>`;
+    const ul = document.createElement("ul");
+    ul.className = "lab-print-cards";
+    mark.forEach((li) => {
+      const c = li.cloneNode(true);
+      c.removeAttribute("id");
+      $$("details", c).forEach((d) => (d.open = true));
+      $$(".pr-combo-links, .lab-print", c).forEach((x) => x.remove());
+      ul.append(c);
+    });
+    sheet.append(ul);
+    document.body.append(sheet);
+    document.body.classList.add("lab-printing");
+    const done = () => { document.body.classList.remove("lab-printing"); sheet.remove(); window.removeEventListener("afterprint", done); };
+    window.addEventListener("afterprint", done);
+    window.print();
+  };
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-print]");
+    if (b) printWith([document.getElementById(b.dataset.print)].filter(Boolean));
+  });
+  $("#lab-print-all")?.addEventListener("click", () => printWith(cards.filter((li) => !li.hidden)));
+
+  // in season now: up to 8 cards whose season matches today's date
+  const box = $("#lab-season"), list = $("#lab-season-list");
+  if (box && list) {
+    const m = new Date().getMonth() + 1;
+    const now = m === 12 ? ["holiday", "winter"] : m <= 2 ? ["winter"] : m <= 5 ? ["spring"] : m <= 8 ? ["summer"] : m <= 10 ? ["fall"] : ["holiday", "fall"];
+    const score = (li) => now.reduce((n, s, i) => n + (has(li.dataset.season, s) ? (i === 0 ? 3 : 1) : 0), 0) + (li.dataset.kind === "plates" ? 1 : 0) + (li.dataset.featured ? 1 : 0);
+    const picks = cards.filter((li) => score(li) >= 3).sort((a, b) => score(b) - score(a)).slice(0, 8);
+    if (picks.length >= 3) {
+      const names = { holiday: "the holidays", winter: "winter", spring: "spring", summer: "summer", fall: "fall" };
+      $("#lab-season-note").textContent = `Combinations for ${names[now[0]]}, picked by today's date.`;
+      picks.forEach((li) => {
+        const c = li.cloneNode(true);
+        c.removeAttribute("id");
+        c.classList.remove("lab-card");
+        $$("details, .lab-print", c).forEach((x) => x.remove());
+        list.append(c);
+      });
+      box.hidden = false;
+    }
+  }
+}
+
 filters();
+lab();
 chart();
 season();
 finder();

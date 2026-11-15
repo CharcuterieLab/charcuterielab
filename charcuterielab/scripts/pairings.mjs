@@ -45,7 +45,9 @@ export async function loadPairings(root) {
   try {
     const read = async (f) => JSON.parse(await readFile(join(dir, f), "utf8"));
     const [drinks, foods, combos, rules] = await Promise.all(["drinks.json", "foods.json", "combos.json", "rules.json"].map(read));
-    return { drinks, foods, combos, rules };
+    // per-ingredient diet verdicts for the Combination Lab badges (optional)
+    const diets = await readFile(join(root, "content", "dietary", "ingredient-diets.json"), "utf8").then(JSON.parse, () => ({}));
+    return { drinks, foods, combos, rules, diets };
   } catch {
     return null;
   }
@@ -170,7 +172,10 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   const rules = data.rules.map((r) => ({ ...r, post: r.posts.find((p) => blogSlugs.has(p)) || "" }));
   const ruleById = new Map(rules.map((r) => [r.id, r]));
 
-  const idx = { data, bySlug, graph, drinks, extras, drinkBySlug, drinksFor, reasons, explainedBy, foods, foodPage, combos, rules, ruleById, blogSlugs };
+  // Perfect Plates (five foods) and ladders (pair -> trio -> quartet -> plate), 15 Nov 2026
+  const plates = (data.combos.plates || []).map((c) => ({ ...c, kind: "plates", kindLabel: "Perfect Plates" }));
+  const ladders = data.combos.ladders || [];
+  const idx = { data, bySlug, graph, drinks, extras, drinkBySlug, drinksFor, reasons, explainedBy, foods, foodPage, combos, plates, ladders, rules, ruleById, blogSlugs };
   validate(idx);
   return idx;
 }
@@ -197,6 +202,14 @@ function validate(idx) {
         if (idx.bySlug.has(c.foods[i]) && !idx.graph.get(c.foods[i]).has(c.foods[j])) errors.push(`combo ${c.id}: ${c.foods[i]} and ${c.foods[j]} are not paired in the ingredient data`);
     if (!idx.ruleById.has(c.rule)) errors.push(`combo ${c.id}: unknown rule ${c.rule}`);
   }
+  for (const c of idx.plates) {
+    for (const s of c.foods) if (!idx.bySlug.has(s)) errors.push(`plate ${c.id}: unknown ingredient ${s}`);
+    for (const s of c.foods) if (idx.bySlug.has(s) && c.foods.filter((o) => o !== s && idx.graph.get(s).has(o)).length < 2) errors.push(`plate ${c.id}: ${s} pairs with fewer than 2 of the other foods`);
+    if (!idx.ruleById.has(c.rule)) errors.push(`plate ${c.id}: unknown rule ${c.rule}`);
+  }
+  const ids = new Set([...idx.combos.map((c) => c.id), ...idx.plates.map((c) => `plate:${c.id}`)]);
+  for (const l of idx.ladders) for (const s of [...l.steps, ...(l.branches || []).flatMap((b) => [b.id, b.from])]) if (!ids.has(s)) errors.push(`ladder ${l.name}: unknown step ${s}`);
+  for (const c of [...idx.combos, ...idx.plates]) if (c.drink && !idx.drinkBySlug.has(c.drink)) errors.push(`combo ${c.id}: unknown drink ${c.drink}`);
   if (errors.length) throw new Error(`Pairings data check failed:\n  ${errors.join("\n  ")}`);
 }
 
@@ -278,9 +291,9 @@ function faqHtml(h, faq, id = "faq") {
       </div>`;
 }
 
-function schema(h, { name, url, description, crumbs, faq, list }) {
+function schema(h, { name, url, description, crumbs, faq, list, updated = "" }) {
   const out = [
-    { "@context": "https://schema.org", "@type": "Article", headline: name, description, url: h.absoluteUrl(url), dateModified: UPDATED, datePublished: UPDATED, author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab" }, publisher: { "@type": "Organization", name: "Charcuterie Lab" } },
+    { "@context": "https://schema.org", "@type": "Article", headline: name, description, url: h.absoluteUrl(url), dateModified: updated || UPDATED, datePublished: UPDATED, author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab" }, publisher: { "@type": "Organization", name: "Charcuterie Lab" } },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: h.absoluteUrl(u) })) }
   ];
   if (faq?.length) out.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) });
@@ -295,11 +308,11 @@ function crumbHtml(h, crumbs) {
 }
 
 function hubNav(current) {
-  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/drinks/", "All Drinks"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Pairs & Trios"], ["/pairings/wine-and-cheese-chart/", "Chart"], ["/pairings/how-pairing-works/", "The Rules"]];
+  const links = [["/pairings/", "Finder"], ["/pairings/wine/", "Wine"], ["/pairings/beer/", "Beer & Cider"], ["/pairings/cocktails/", "Cocktails"], ["/pairings/zero-proof/", "Zero-Proof"], ["/pairings/drinks/", "All Drinks"], ["/pairings/food/", "Food"], ["/pairings/classics/", "Combination Lab"], ["/pairings/wine-and-cheese-chart/", "Chart"], ["/pairings/how-pairing-works/", "The Rules"]];
   return `<nav class="pr-subnav" aria-label="Pairings sections">${links.map(([u, l]) => `<a href="${u}"${u === current ? ' aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
 }
 
-function page(h, { url, title, description, crumbs, faq = [], list = [], name, body, script = "", image = "" }) {
+function page(h, { url, title, description, crumbs, faq = [], list = [], name, body, script = "", image = "", updated = "" }) {
   return h.layout({
     title,
     description,
@@ -307,7 +320,7 @@ function page(h, { url, title, description, crumbs, faq = [], list = [], name, b
     // 14 Nov 2026: 35 pairing pages were sharing the book cover as their
     // og:image, which told Google Images and every social share nothing.
     image: image || (url.startsWith("/pairings/food/") ? "/images/per-food-pairings.webp" : "/images/pairings-hub.webp"),
-    head: schema(h, { name: name || title, url, description, crumbs, faq, list }),
+    head: schema(h, { name: name || title, url, description, crumbs, faq, list, updated }),
     body: `<main class="bl-main pr-main">
   <div class="bl-inner pr-inner">
     ${crumbHtml(h, crumbs)}
@@ -422,7 +435,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
       <ul class="pr-combos">
 ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
       </ul>`).join("\n      ")}
-      <p><a class="button" href="/pairings/classics/">See all ${idx.combos.length} combinations</a></p>
+      <p><a class="button" href="/pairings/classics/">Open the Combination Lab: all ${idx.combos.length + idx.plates.length} combinations</a></p>
     </section>
 
     <section class="bl-section" id="rules" aria-labelledby="rules-h">
@@ -876,34 +889,9 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
   }));
 
   // ------------------------------------------------------------ classics ---
-  add("pairings/classics/index.html", page(h, {
-    url: "/pairings/classics/",
-    title: "Best Charcuterie Combinations: Pairs, Trios & Quartets",
-    name: "Pairs, trios and quartets",
-    description: `${idx.combos.length} charcuterie combinations that work, from brie and fig jam to the Spanish Four, with why each works and a board to build around it.`,
-    crumbs: [["Pairings", "/pairings/"], ["Pairs & Trios", "/pairings/classics/"]],
-    list: idx.combos.map((c) => [c.name]),
-    script,
-    body: `
-    <header class="pr-hero">
-      <p class="section-kicker">Combinations</p>
-      <h1>The best charcuterie combinations: pairs, trios &amp; quartets</h1>
-      <p class="pr-answer">The best-loved charcuterie combinations are brie with fig jam, prosciutto with melon, Manchego with membrillo, and aged cheddar with apple. Add walnuts, honey or a pickle to turn a pair into a trio.</p>
-    </header>
-    <div class="pr-filter" role="group" aria-label="Show">
-      <button type="button" class="pr-chip" aria-pressed="true" data-kfilter="all">All (${idx.combos.length})</button>
-      ${COMBO_KINDS.map((k) => `<button type="button" class="pr-chip" aria-pressed="false" data-kfilter="${k.key}">${k.label} (${idx.combos.filter((c) => c.kind === k.key).length})</button>`).join("")}
-      <label class="sr-only" for="pr-kq">Search combinations</label><input id="pr-kq" class="pr-kq" type="search" placeholder="Search: honey, prosciutto…">
-    </div>
-    ${COMBO_KINDS.map((k) => `<section class="bl-section" data-kind-section="${k.key}" aria-labelledby="k-${k.key}">
-      <h2 id="k-${k.key}">${k.label}</h2>
-      <p class="bl-note">${k.blurb}</p>
-      <ul class="pr-combos">
-${idx.combos.filter((c) => c.kind === k.key).map((c) => comboCard(h, idx, art, c)).join("\n")}
-      </ul>
-    </section>`).join("\n    ")}
-    <p class="bl-note">Want to test your own? Use <a href="/pairings/?check=brie,fig-jam">Do these go together?</a> in the Pairing Finder.</p>`
-  }));
+  // The Combination Lab (15 Nov 2026): every pair, trio, quartet and Perfect
+  // Plate with filters, ladders, amounts for 8, drinks and print cards.
+  add("pairings/classics/index.html", labPage(h, idx, art, script));
 
   // ------------------------------------------------------------- rules ---
   add("pairings/how-pairing-works/index.html", page(h, {
@@ -976,6 +964,189 @@ ${idx.combos.filter((c) => c.kind === k.key).map((c) => comboCard(h, idx, art, c
 }
 
 // Block for each ingredient page: drinks that match + link to the full guide.
+// ------------------------------------------------------- Combination Lab ---
+// 15 Nov 2026. /pairings/classics/ became the Combination Lab: 126 combos,
+// 14 Perfect Plates and 43 ladders from combos.json, with filters (kind,
+// season, occasion, diet, price, rule, effort), search, Surprise me, an
+// in-season row (filled by pairings.js) and print cards.
+const LAB_UPDATED = "2026-11-15";
+const DIETS = [["vegetarian", "Vegetarian"], ["gluten-free", "Gluten-free"], ["nut-free", "Nut-free"], ["dairy-free", "Dairy-free"], ["vegan", "Vegan"]];
+const SEASONS = [["spring", "Spring"], ["summer", "Summer"], ["fall", "Fall"], ["winter", "Winter"], ["holiday", "Holidays"]];
+const OCCASIONS = [["party", "Party"], ["date-night", "Date night"], ["game-day", "Game day"], ["holiday", "Holiday"], ["brunch", "Brunch"], ["wine-night", "Wine night"], ["tapas-night", "Tapas night"], ["happy-hour", "Happy hour"], ["picnic", "Picnic"], ["dessert", "Dessert"], ["kids", "Kids"]];
+const LEVELS = { easy: "Open and arrange", slice: "A little knife work", showpiece: "Showpiece" };
+const PRICE_LABEL = { "$": "$ · budget", "$$": "$$ · mid-range", "$$$": "$$$ · splurge" };
+const LAB_KINDS = [...COMBO_KINDS, { key: "plates", label: "Perfect Plates", n: 5, blurb: "Five foods for one plate. Every food pairs with at least two others on it." }];
+
+const labId = (c) => (c.kind === "plates" ? `plate-${c.id}` : c.id);
+const labAnchor = (step) => (step.startsWith("plate:") ? `plate-${step.slice(6)}` : step);
+
+// worst verdict across the foods: skip beats check beats safe
+function comboDiets(idx, c) {
+  const all = idx.data.diets || {};
+  const out = [];
+  for (const [key, label] of DIETS) {
+    const vs = c.foods.map((s) => all[s]?.[key]?.v || "check");
+    if (vs.includes("skip")) continue;
+    out.push({ key, label, check: vs.includes("check") });
+  }
+  return out;
+}
+function comboPrice(idx, c) {
+  const tiers = c.foods.map((s) => idx.bySlug.get(s)?.priceTier || "").filter(Boolean);
+  return tiers.length ? tiers.sort((a, b) => b.length - a.length)[0] : "";
+}
+function zeroFor(idx, name) {
+  return idx.extras.find((x) => x.family === "zero" && x.name === name);
+}
+
+function labCard(h, idx, art, c) {
+  const B = (t) => h.escapeHtml(t);
+  const post = c.post && idx.blogSlugs.has(c.post) ? c.post : "";
+  const rule = idx.ruleById.get(c.rule);
+  const diets = comboDiets(idx, c);
+  const price = comboPrice(idx, c);
+  const drink = idx.drinkBySlug.get(c.drink);
+  const beer = idx.drinkBySlug.get(c.beer);
+  const zero = c.zero ? zeroFor(idx, c.zero) : null;
+  const seasons = (c.season || []).filter((x) => x !== "year-round");
+  const kindWord = c.kind === "plates" ? "Perfect Plate" : c.kindLabel.replace(/s$/, "");
+  const search = [c.name, ...c.foods.map((s) => idx.bySlug.get(s)?.title || s), ...(c.occasion || []), ...seasons].join(" ").toLowerCase();
+  const badges = [
+    price ? `<span class="lab-badge lab-badge-price">${B(PRICE_LABEL[price] || price)}</span>` : "",
+    ...diets.filter((d) => !d.check).map((d) => `<span class="lab-badge">${B(d.label)}</span>`),
+    seasons.length ? `<span class="lab-badge lab-badge-season">${B(seasons.map((x) => SEASONS.find(([k]) => k === x)?.[1] || x).join(", "))}</span>` : `<span class="lab-badge lab-badge-season">Year-round</span>`
+  ].join("");
+  const checks = diets.filter((d) => d.check).map((d) => d.label.toLowerCase());
+  return `<li class="pr-combo lab-card" id="c-${labId(c)}" data-kind="${c.kind}" data-season="${(c.season || []).join(" ")}" data-occ="${(c.occasion || []).join(" ")}" data-diet="${diets.map((d) => d.key).join(" ")}" data-price="${B(price)}" data-rule="${c.rule}" data-level="${c.level || ""}"${c.featured ? ' data-featured="1"' : ""} data-search="${B(search)}">
+    ${photoRow(h, idx, art, c.foods)}
+    <p class="pr-combo-kind">${B(kindWord)}${rule ? ` · <a href="/pairings/how-pairing-works/#${rule.id}">${B(rule.name)}</a>` : ""}</p>
+    <h3>${B(c.name)}</h3>
+    <p class="pr-combo-why">${B(c.why)}</p>
+    <p class="pr-combo-items">${c.foods.map((s) => pairLink(h, idx, s)).join(" + ")}</p>
+    ${c.bite ? `<p class="lab-bite"><b>Build the bite:</b> ${B(c.bite)}</p>` : ""}
+    <p class="lab-badges">${badges}</p>
+    <details class="lab-more">
+      <summary>Amounts for 8, drinks &amp; tags</summary>
+      ${c.for8 ? `<ul class="lab-amts">${c.foods.map((s, i) => `<li class="lab-amt"><b>${B(idx.bySlug.get(s)?.title || s)}</b> ${B(c.for8[i] || "")}</li>`).join("")}</ul>` : ""}
+      <p class="lab-drinks">${drink ? `<span><b>Pour:</b> <a href="${drink.url}">${B(drink.name)}</a>${c.drink_note ? ` <em>${B(c.drink_note)}</em>` : ""}</span>` : ""}${beer && beer !== drink ? `<span><b>Beer:</b> <a href="${beer.url}">${B(beer.name)}</a></span>` : ""}${zero ? `<span><b>No alcohol:</b> <a href="${zero.url}">${B(zero.name)}</a></span>` : c.zero ? `<span><b>No alcohol:</b> ${B(c.zero)}</span>` : ""}</p>
+      <p class="lab-tags">${c.level ? `<span><b>Effort:</b> ${B(LEVELS[c.level] || c.level)}</span>` : ""}${(c.occasion || []).length ? `<span><b>Good for:</b> ${B(c.occasion.map((o) => OCCASIONS.find(([k]) => k === o)?.[1] || o).join(", "))}</span>` : ""}${checks.length ? `<span><b>Check labels for:</b> ${B(checks.join(", "))}</span>` : ""}</p>
+    </details>
+    <p class="pr-combo-links"><a class="pr-more" href="${builderPreset(c.foods, 8, `pairings_lab_${labId(c)}`)}">Build a board with this &rarr;</a>${post ? ` <a class="pr-more" href="/blog/${post}/">Why it works</a>` : ""} <button type="button" class="lab-print" data-print="c-${labId(c)}">Print card</button></p>
+  </li>`;
+}
+
+function ladderRow(h, idx, l) {
+  const B = (t) => h.escapeHtml(t);
+  const byStep = new Map([...idx.combos.map((c) => [c.id, c]), ...idx.plates.map((c) => [`plate:${c.id}`, c])]);
+  const title = (s) => idx.bySlug.get(s)?.title || s;
+  let prev = [];
+  const steps = l.steps.map((s, i) => {
+    const c = byStep.get(s);
+    const added = c.foods.filter((f) => !prev.includes(f));
+    prev = c.foods;
+    const label = i === 0 ? c.foods.map(title).join(" + ") : c.kind === "plates" ? c.name.replace(/^The /, "") : `+ ${added.map(title).join(" + ")}`;
+    return `<li><a href="#c-${labAnchor(s)}"><span class="lab-step-n">${c.foods.length}</span> ${B(label)}</a></li>`;
+  });
+  const branches = (l.branches || []).map((b) => {
+    const c = byStep.get(b.id), from = byStep.get(b.from);
+    return `<a href="#c-${labAnchor(b.id)}">${B(c.name)}</a>`;
+  });
+  return `<li class="lab-ladder"><h3>${B(l.name)}</h3><ol class="lab-steps">${steps.join("")}</ol>${branches.length ? `<p class="lab-branch">Or try: ${branches.join(" · ")}</p>` : ""}</li>`;
+}
+
+function labPage(h, idx, art, script) {
+  const B = (t) => h.escapeHtml(t);
+  const all = [...idx.combos, ...idx.plates];
+  const n = (k) => all.filter((c) => c.kind === k).length;
+  const has = (field, key) => all.some((c) => (c[field] || []).includes(key));
+  const dietCount = (key) => all.filter((c) => comboDiets(idx, c).some((d) => d.key === key)).length;
+  const sel = (id, label, opts) => `<label class="lab-sel"><span>${label}</span><select id="${id}"><option value="">Any</option>${opts.map(([v, l]) => `<option value="${v}">${B(l)}</option>`).join("")}</select></label>`;
+  const faq = [
+    { q: "What are the best charcuterie combinations?", a: "The most loved are brie with fig jam, prosciutto with melon, Manchego with membrillo (quince paste), aged cheddar with apple, and gorgonzola with honey. Each one pairs a salty or rich food with something sweet, tart or crunchy." },
+    { q: "What is a charcuterie trio?", a: "A trio is three foods eaten in one bite, where each one pairs with the other two. The third food usually adds what the pair is missing: crunch (walnuts, almonds), sweetness (honey, jam) or acid (a pickle or fruit)." },
+    { q: "How much of each food do I need for 8 people?", a: "Every card in the Combination Lab lists amounts for 8 when the combination is one feature among several on the board. For a whole board, the Party Planner works out cheese and meat by guest count." },
+    { q: "Which charcuterie combinations work without alcohol?", a: "All of them. Every card names a no-alcohol drink, such as sparkling apple cider with brie, tart cherry spritz with blue cheese, or unsweetened iced tea with smoked sausage." },
+    { q: "Why do these combinations work?", a: "Six rules explain almost all of them: fat tames tannin, acid cuts richness, salt loves sweet, match the weight, what grows together goes together, and contrast the texture. Each card names the rule it uses." }
+  ];
+  const body = `
+    <header class="pr-hero lab-hero">
+      <p class="section-kicker">The Combination Lab</p>
+      <h1>The best charcuterie combinations: ${all.length} pairs, trios, quartets &amp; plates</h1>
+      <p class="pr-answer">The best-loved charcuterie combinations are brie with fig jam, prosciutto with melon, Manchego with membrillo, and aged cheddar with apple. Add walnuts, honey or a pickle to turn a pair into a trio, and keep going to build a whole plate.</p>
+      <ul class="lab-stats">
+        <li><b>${n("pairs")}</b> pairs</li><li><b>${n("trios")}</b> trios</li><li><b>${n("quartets")}</b> quartets</li><li><b>${n("plates")}</b> Perfect Plates</li><li><b>${idx.ladders.length}</b> ladders</li>
+      </ul>
+      <p class="bl-note">Every food in every combination is a tested pairing with the others, taken from our ingredient pages. Each card has how to build the bite, amounts for 8, a wine, a beer and a no-alcohol drink.</p>
+    </header>
+
+    <nav class="lab-jump" aria-label="On this page"><a href="#lab-season">In season</a><a href="#lab-ladders">Ladders</a>${LAB_KINDS.map((k) => `<a href="#k-${k.key}">${k.label}</a>`).join("")}<a href="#faq">Questions</a></nav>
+
+    <section class="bl-section lab-season" id="lab-season" aria-labelledby="lab-season-h" hidden>
+      <h2 id="lab-season-h">In season now</h2>
+      <p class="bl-note" id="lab-season-note">Combinations built around what's good right now.</p>
+      <ul class="pr-combos" id="lab-season-list"></ul>
+    </section>
+
+    <section class="bl-section" id="lab-ladders" aria-labelledby="lab-ladders-h">
+      <h2 id="lab-ladders-h">Build it up: ${idx.ladders.length} ladders</h2>
+      <p class="bl-note">Start with a pair, then add one food at a time. Each step stays a tested match with everything before it. Tap a step to jump to its card.</p>
+      <ul class="lab-ladders">
+${idx.ladders.slice(0, 9).map((l) => ladderRow(h, idx, l)).join("\n")}
+      </ul>
+      <details class="lab-all-ladders"><summary>Show all ${idx.ladders.length} ladders</summary>
+      <ul class="lab-ladders">
+${idx.ladders.slice(9).map((l) => ladderRow(h, idx, l)).join("\n")}
+      </ul>
+      </details>
+    </section>
+
+    <section class="bl-section lab-tools" id="lab-find" aria-labelledby="lab-find-h">
+      <h2 id="lab-find-h">Find a combination</h2>
+      <div class="pr-filter" role="group" aria-label="Show">
+        <button type="button" class="pr-chip" aria-pressed="true" data-lfilter="all">All (${all.length})</button>
+        ${LAB_KINDS.map((k) => `<button type="button" class="pr-chip" aria-pressed="false" data-lfilter="${k.key}">${k.label} (${n(k.key)})</button>`).join("")}
+      </div>
+      <div class="lab-filters">
+        <label class="lab-sel lab-q"><span>Search</span><input id="lab-q" type="search" placeholder="honey, prosciutto, brunch…"></label>
+        ${sel("lab-season-f", "Season", SEASONS.filter(([k]) => has("season", k)))}
+        ${sel("lab-occ", "Occasion", OCCASIONS.filter(([k]) => has("occasion", k)))}
+        ${sel("lab-diet", "Diet", DIETS.filter(([k]) => dietCount(k)).map(([k, l]) => [k, `${l} (${dietCount(k)})`]))}
+        ${sel("lab-price", "Price", Object.entries(PRICE_LABEL))}
+        ${sel("lab-rule", "Why it works", idx.rules.map((r) => [r.id, r.name]))}
+        ${sel("lab-level", "Effort", Object.entries(LEVELS))}
+      </div>
+      <p class="lab-bar"><span id="lab-count" aria-live="polite">Showing all ${all.length}</span> <button type="button" class="pr-chip pr-chip-surprise" id="lab-surprise">Surprise me</button> <button type="button" class="pr-chip" id="lab-reset">Reset</button> <button type="button" class="pr-chip" id="lab-print-all">Print the cards shown</button></p>
+      <p class="bl-note lab-dietnote">Diet tags follow our ingredient diet guide: a food marked "check labels" (like cheese rennet for vegetarians) still counts, and the card says what to check.</p>
+    </section>
+
+    ${LAB_KINDS.map((k) => `<section class="bl-section" data-kind-section="${k.key}" id="k-${k.key}" aria-labelledby="k-${k.key}-h">
+      <h2 id="k-${k.key}-h">${k.label} <span class="lab-n">(${n(k.key)})</span></h2>
+      <p class="bl-note">${k.blurb}</p>
+      <ul class="pr-combos lab-cards">
+${all.filter((c) => c.kind === k.key).map((c) => labCard(h, idx, art, c)).join("\n")}
+      </ul>
+    </section>`).join("\n    ")}
+    <p class="lab-empty" id="lab-empty" hidden>Nothing matches all of those. Try removing a filter.</p>
+
+    <section class="bl-section" id="faq" aria-labelledby="faq-h">
+      <h2 id="faq-h">Questions</h2>
+      ${faqHtml(h, faq)}
+    </section>
+    <p class="bl-note">Want to test your own? Use <a href="/pairings/?check=brie,fig-jam">Do these go together?</a> in the Pairing Finder, or read <a href="/pairings/how-pairing-works/">the six rules</a>.</p>`;
+  return page(h, {
+    url: "/pairings/classics/",
+    title: `Best Charcuterie Combinations: ${all.length} Pairs, Trios & Plates`,
+    name: "The Combination Lab: charcuterie pairs, trios, quartets and plates",
+    description: `${all.length} charcuterie combinations that work, from brie and fig jam to five-food plates. Each with how to build the bite, amounts for 8, wine, beer and no-alcohol picks.`,
+    crumbs: [["Pairings", "/pairings/"], ["Combination Lab", "/pairings/classics/"]],
+    list: all.map((c) => [c.name, `/pairings/classics/#c-${labId(c)}`]),
+    faq,
+    updated: LAB_UPDATED,
+    script,
+    body
+  });
+}
+
 export function ingredientPairingBlock(h, idx, item) {
   if (!idx) return "";
   const drinks = (idx.drinksFor.get(item.slug) || []).filter((x) => x.d.family === "wine" || x.d.family === "beer").slice(0, 6);
