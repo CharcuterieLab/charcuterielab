@@ -1,4 +1,6 @@
 // 9 Nov 2026: newsletter page upgrades, applied after the build (hub-calm).
+// (15 Nov 2026: the top form is now our own instant form, so the holiday PDFs
+//    go straight into its download panel; cl-extra stays for the slide-in.)
 // 1. A holiday offer under the intro that changes with the date: Thanksgiving,
 //    then Christmas, then New Year's Eve, hidden from Jan 1. Its PDFs are
 //    handed to the thank-you page (sessionStorage cl-extra / cl-extra2), so
@@ -31,15 +33,16 @@ const MORE = [
   ["/images/leads/board-shopping-list.webp", "Board shopping lists", "Every item and amount for a board"]
 ];
 
-const SEASON_JS = `<script data-nl-season-js>(function(){try{var S=${JSON.stringify(STAGES)},t=new Date(),d=new Date(t.getFullYear(),t.getMonth(),t.getDate()),pad=function(n){return(n<10?"0":"")+n},k=t.getFullYear()+"-"+pad(t.getMonth()+1)+"-"+pad(t.getDate()),s=null;for(var i=0;i<S.length;i++){if(k<=S[i][0]){s=S[i];break}}var box=document.querySelector("[data-nl-season]");if(!s||!box)return;var p=s[2].split("-"),h=new Date(+p[0],+p[1]-1,+p[2]),n=Math.round((h-d)/864e5),when=n>1?s[1]+" is "+n+" days away.":n===1?s[1]+" is tomorrow.":"It's "+s[1]+".";box.querySelector("[data-nl-when]").textContent=when;box.querySelector("[data-nl-what]").textContent=s[3][2]+" and "+s[4][2];box.hidden=false;sessionStorage.setItem("cl-extra",JSON.stringify({u:s[3][0],l:s[3][1]}));sessionStorage.setItem("cl-extra2",JSON.stringify({u:s[4][0],l:s[4][1]}))}catch(e){}})();</script>`;
+const SEASON_JS = `<script data-nl-season-js>(function(){try{var S=${JSON.stringify(STAGES)},t=new Date(),d=new Date(t.getFullYear(),t.getMonth(),t.getDate()),pad=function(n){return(n<10?"0":"")+n},k=t.getFullYear()+"-"+pad(t.getMonth()+1)+"-"+pad(t.getDate()),s=null;for(var i=0;i<S.length;i++){if(k<=S[i][0]){s=S[i];break}}var box=document.querySelector("[data-nl-season]");if(!s||!box)return;var p=s[2].split("-"),h=new Date(+p[0],+p[1]-1,+p[2]),n=Math.round((h-d)/864e5),when=n>1?s[1]+" is "+n+" days away.":n===1?s[1]+" is tomorrow.":"It's "+s[1]+".";box.querySelector("[data-nl-when]").textContent=when;box.querySelector("[data-nl-what]").textContent=s[3][2]+" and "+s[4][2];box.hidden=false;var dm=document.querySelector("#nl-top [data-qs-done] .qs-done-more");if(dm)dm.innerHTML="Also free: <a href=\\"/downloads/charcuterie-lab-free-board-01.pdf\\" download>Board 01 from the book</a>, and this week <a href=\\""+s[3][0]+"\\" download>"+s[3][2]+"</a> and <a href=\\""+s[4][0]+"\\" download>"+s[4][2]+"</a>. The weekly Lab Report starts with the next issue.";sessionStorage.setItem("cl-extra",JSON.stringify({u:s[3][0],l:s[3][1]}));sessionStorage.setItem("cl-extra2",JSON.stringify({u:s[4][0],l:s[4][1]}))}catch(e){}})();</script>`;
 
 export function upNewsletter(html) {
   let n = 0;
   const r = (a, b) => { if (html.includes(a)) { html = html.replace(a, b); n++; } };
+  r("Both are on the thank-you page the moment you join.", "Both download right here the moment you join.");
   r('<p class="section-kicker">Free · weekly · leave any time</p>', '<p class="section-kicker">Free · every Wednesday · leave any time</p>');
   // seasonal offer, between the intro and the form
   html = html.replace(/(<p class="nl-lede">[\s\S]*?<\/p>)/, (m) => { n++; return `${m}
-        <p class="nl-season" data-nl-season hidden><strong data-nl-when></strong> Join this week and the thank-you page also gives you <span data-nl-what></span>, free.</p>`; });
+        <p class="nl-season" data-nl-season hidden><strong data-nl-when></strong> Join this week and you also get <span data-nl-what></span>, free.</p>`; });
   // the other printables
   r('      <ul class="nl-free">', '      <ul class="nl-free">');
   html = html.replace(/(<h2>What you get when you sign up<\/h2>[\s\S]*?<\/ul>)/, (m) => { n++; return `${m}

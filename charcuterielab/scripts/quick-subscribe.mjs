@@ -44,8 +44,26 @@ export function qsDone(fb = CHEAT, { bookPrice = "", keep = false } = {}) {
   </div>`;
 }
 
-export function qsForm({ id = "qs-email", fb = CHEAT, bookPrice = "", keep = false, bar = false, button = "Subscribe", note = NOTE } = {}) {
-  return `<form class="qs${keep ? " qs-in" : ""}" data-qs${keep ? " data-qs-keep" : ""}${bar ? " data-qs-bar" : ""} action="/newsletter/" method="get" novalidate>
+// 15 Nov 2026: the bar names the page's own free download instead of the
+// generic "Quick subscribe to our free newsletter" line, so the first ask on
+// every page gives a reason. Short name from the download label:
+// "Download the Cheese Counter Card (PDF)" -> "the Cheese Counter Card".
+export function freeName(fb = CHEAT) {
+  if (/\/downloads\/boards\//.test(fb.pdf || "")) return "this board's shopping list";
+  const n = String(fb.label || "").replace(/^Download /, "").replace(/ \(PDF\)$/, "").trim();
+  return n || nameOf(fb) || "the Cheat Sheet";
+}
+export function barNote(fb = CHEAT) {
+  const name = freeName(fb);
+  const a = `Free: ${name} + one board idea a week.`;
+  return a.length <= 62 ? a : `Free: ${name} + a weekly board idea.`;
+}
+
+// alt (15 Nov 2026): where the "didn't go through" message and the no-JS
+// fallback send the reader. Defaults to /newsletter/; the newsletter page and
+// home page point at the beehiiv hosted signup page instead, as the backup.
+export function qsForm({ id = "qs-email", fb = CHEAT, bookPrice = "", keep = false, bar = false, button = "Subscribe", note = NOTE, alt = "" } = {}) {
+  return `<form class="qs${keep ? " qs-in" : ""}" data-qs${keep ? " data-qs-keep" : ""}${bar ? " data-qs-bar" : ""}${alt ? ` data-qs-alt="${escA(alt)}"` : ""} action="${escA(alt || "/newsletter/")}" method="get" novalidate>
   <div class="qs-row">
     <label class="sr-only" for="${id}">Email address</label>
     <input id="${id}" class="qs-input" type="email" name="email" placeholder="Your email address" autocomplete="email" inputmode="email" required>
@@ -59,7 +77,7 @@ ${qsDone(fb, { bookPrice, keep })}`;
 }
 
 // One script per page drives every data-qs form on it.
-export const QS_JS = `<script data-qs-js>(function(){var sub=false;try{sub=!!localStorage.getItem("cl-sub")}catch(e){}document.querySelectorAll("[data-qs]").forEach(function(f){var d=f.nextElementSibling&&f.nextElementSibling.hasAttribute("data-qs-done")?f.nextElementSibling:null,w=f.closest("[data-qs-wrap]");if(sub){f.hidden=true;if(d&&f.hasAttribute("data-qs-keep")){d.hidden=false;d.classList.add("is-sub")}else if(w)w.hidden=true;return}if(f.hasAttribute("data-qs-bar"))try{var hc=getComputedStyle(document.querySelector("main h1")||f.parentNode).color.match(/\\d+/g);if(hc&&(.299*hc[0]+.587*hc[1]+.114*hc[2])>160)f.classList.add("qs-dark")}catch(e){}var i=f.querySelector(".qs-input"),b=f.querySelector(".qs-btn"),n=f.querySelector(".qs-note"),n0=n.innerHTML,b0=b.textContent,busy=false;function say(t,bad){n.innerHTML=t;f.classList.toggle("is-err",!!bad)}f.addEventListener("submit",function(e){e.preventDefault();if(busy||f.classList.contains("is-done"))return;var v=i.value.trim();if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/.test(v)){say("Please enter a full email address, like name@example.com.",1);i.focus();return}busy=true;b.disabled=true;b.textContent="Sending\\u2026";say(n0);fetch("/api/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({email:v,page:location.pathname,website:f.website.value})}).then(function(r){return r.json().catch(function(){return{ok:false}}).then(function(j){j.status=r.status;return j})}).then(function(j){if(!j.ok)throw j;f.classList.add("is-done");i.readOnly=true;b.textContent="Subscribed";try{localStorage.setItem("cl-sub","1")}catch(e){}var s=document.querySelector("[data-fx-slide]");if(s)s.remove();document.body.classList.remove("fx-slide-on");if(d){setTimeout(function(){f.hidden=true;d.hidden=false;var a=d.querySelector("a");if(a)a.focus({preventScroll:true})},700)}else say("You\\u2019re in! Watch your inbox for the next newsletter issue.")}).catch(function(j){busy=false;b.disabled=false;b.textContent=b0;if(j&&j.error==="invalid_email")say("That email address doesn\\u2019t look right. Please check it and try again.",1);else say("That didn\\u2019t go through. Please try again, or use our <a href=\\"/newsletter/\\">signup page</a>.",1)})})})})();</script>`;
+export const QS_JS = `<script data-qs-js>(function(){var sub=false;try{sub=!!localStorage.getItem("cl-sub")}catch(e){}document.querySelectorAll("[data-qs]").forEach(function(f){var d=f.nextElementSibling&&f.nextElementSibling.hasAttribute("data-qs-done")?f.nextElementSibling:null,w=f.closest("[data-qs-wrap]");if(sub){f.hidden=true;if(d&&f.hasAttribute("data-qs-keep")){d.hidden=false;d.classList.add("is-sub")}else if(w)w.hidden=true;return}if(f.hasAttribute("data-qs-bar"))try{var hc=getComputedStyle(document.querySelector("main h1")||f.parentNode).color.match(/\\d+/g);if(hc&&(.299*hc[0]+.587*hc[1]+.114*hc[2])>160)f.classList.add("qs-dark")}catch(e){}var i=f.querySelector(".qs-input"),b=f.querySelector(".qs-btn"),n=f.querySelector(".qs-note"),n0=n.innerHTML,b0=b.textContent,busy=false;function say(t,bad){n.innerHTML=t;f.classList.toggle("is-err",!!bad)}f.addEventListener("submit",function(e){e.preventDefault();if(busy||f.classList.contains("is-done"))return;var v=i.value.trim();if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/.test(v)){say("Please enter a full email address, like name@example.com.",1);i.focus();return}busy=true;b.disabled=true;b.textContent="Sending\\u2026";say(n0);fetch("/api/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({email:v,page:location.pathname,website:f.website.value})}).then(function(r){return r.json().catch(function(){return{ok:false}}).then(function(j){j.status=r.status;return j})}).then(function(j){if(!j.ok)throw j;f.classList.add("is-done");i.readOnly=true;b.textContent="Subscribed";try{localStorage.setItem("cl-sub","1")}catch(e){}var s=document.querySelector("[data-fx-slide]");if(s)s.remove();document.body.classList.remove("fx-slide-on");if(d){setTimeout(function(){f.hidden=true;d.hidden=false;var a=d.querySelector("a");if(a)a.focus({preventScroll:true})},700)}else say("You\\u2019re in! Watch your inbox for the next newsletter issue.")}).catch(function(j){busy=false;b.disabled=false;b.textContent=b0;if(j&&j.error==="invalid_email")say("That email address doesn\\u2019t look right. Please check it and try again.",1);else say("That didn\\u2019t go through. Please try again, or use our <a href=\\""+(f.getAttribute("data-qs-alt")||"/newsletter/")+"\\">signup page</a>.",1)})})})})();</script>`;
 
 const BOOK_PRICE_RE = /Get the ebook · (\$\d+(?:\.\d\d)?)/;
 
@@ -85,7 +103,12 @@ export async function injectQuickSubscribe(dist) {
         let fb = CHEAT;
         const m = html.match(/<!--qs-fb:([^>]*?)-->/);
         if (m) { try { fb = JSON.parse(decodeURIComponent(m[1])); } catch {} }
-        const bar = `<div class="qs-wrap" data-qs-wrap>${qsForm({ fb, bookPrice, bar: true })}</div>` + (html.includes("data-qs-js") ? "" : QS_JS);
+        else {
+          // Content pages: the bar offers the same PDF as the page-matched box.
+          const d = html.match(/<a class="button primary qs-done-dl" href="([^"]+)" download>([^<]+)<\/a>/);
+          if (d) fb = { pdf: d[1].replace(/&amp;/g, "&"), label: d[2].replace(/&amp;/g, "&").replace(/&#39;|&rsquo;/g, "'") };
+        }
+        const bar = `<div class="qs-wrap" data-qs-wrap>${qsForm({ fb, bookPrice, bar: true, note: barNote(fb) })}</div>` + (html.includes("data-qs-js") ? "" : QS_JS);
         html = html.slice(0, end + 5) + "\n" + bar + html.slice(end + 5);
         await writeFile(file, html);
         pages++;

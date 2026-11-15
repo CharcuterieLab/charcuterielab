@@ -32,3 +32,12 @@ form.qs[data-qs-bar] p.qs-note { white-space: normal; }
 @media (max-width: 560px) {
   .qs-done .qs-done-dl { display: block; text-align: center; }
 }
+
+/* 15 Nov 2026: our instant form on the home page and the newsletter page. */
+.fx-qf-solo .qs { max-width: none; margin: 0; }
+.fx-qf-solo form.qs p.qs-note { white-space: normal; color: #5a4636; font-size: 13px; }
+.newsletter .fx-qf-solo form.qs { display: block; }
+.newsletter .fx-qf-solo .qs-input { min-height: 46px; border-color: rgba(255, 255, 255, 0.4); }
+.newsletter .fx-qf-solo form.qs p.qs-note { color: #f7ecd2; }
+.newsletter .fx-qf-solo form.qs.is-err p.qs-note { color: #fff3d6; }
+.newsletter .fx-qf-solo .qs-done p { color: #5a4636; }

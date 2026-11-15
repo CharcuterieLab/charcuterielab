@@ -22,6 +22,7 @@ import { upShop } from "./shop-up.mjs";
 import { upBest } from "./best-up.mjs";
 import { upIngCategory, upIngredient, upIngHub } from "./ing-up.mjs";
 import { twoAsks } from "./asks-up.mjs";
+import { holidayOffer, instantForms } from "./signup-up.mjs";
 import { hubPhoto } from "./hub-photos.mjs";
 import { funQuickAnswer } from "./qa-fun.mjs";
 import { upDiet } from "./diet-up.mjs";
@@ -141,6 +142,10 @@ export async function calmHubs(dist) {
       { const r = foldLongPost(html, path); if (r.n) { html = addOpenJs(r.html); n.folds = (n.folds || 0) + r.n; } }
       { const r = deepDive(html, path, dist); if (r.n) { html = addOpenJs(r.html); n.deep = (n.deep || 0) + 1; } }
       // ---- Newsletter page and its thank-you page (9 Nov 2026)
+      // ---- Signup check (15 Nov 2026): our own instant form on the home and
+      // newsletter pages, and holiday pages offer the holiday that's next.
+      { const r = instantForms(html, path, { bookPrice: ((html.match(/Get the ebook · (\$\d+(?:\.\d\d)?)/) || [])[1]) || "" }); if (r.n) { html = r.html; n.instant = (n.instant || 0) + r.n; } }
+      { const r = holidayOffer(html, path); if (r.n) { html = r.html; n.holOffer = (n.holOffer || 0) + 1; } }
       if (path === "/newsletter/") { const r = upNewsletter(html); html = r.html; n.nl = r.n; }
       if (path === "/thanks/cheat-sheet/") { const r = upThanks(html); html = r.html; n.thanks = r.n; }
       if (path === "/about/") { const r = upAbout(html, dist); html = r.html; n.about = r.n; }
