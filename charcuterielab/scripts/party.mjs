@@ -10,6 +10,11 @@ import { bhForm } from "./funnel.mjs";
 // Dates for the byline and schema. Bump UPDATED when the amounts or plans change.
 export const PUBLISHED = "2026-09-25";
 export const UPDATED = "2026-10-25";
+// One photo per guest-count band: 4 | 6-8 | 10-15 | 20-25 | 30-50 | 75-200.
+const PARTY_PHOTOS = [[4, 4], [8, 6], [15, 10], [25, 20], [50, 30], [Infinity, 75]];
+const partyPhoto = (n) =>
+  `/images/charcuterie-board-for-${(PARTY_PHOTOS.find(([max]) => n <= max) || PARTY_PHOTOS[PARTY_PHOTOS.length - 1])[1]}-people.webp`;
+
 const dated = (h) => (h.authorRef ? { author: h.authorRef, datePublished: PUBLISHED, dateModified: UPDATED } : {});
 const bylineHtml = (h) => (h.byline ? `<p class="pp-byline">${h.byline(h.longDate ? ` · Updated ${h.longDate(UPDATED)}` : "")}</p>` : "");
 export const COUNTS = [4, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50, 75, 100, 150, 200];
@@ -170,13 +175,17 @@ export function partyPage(h, n, { bookBoards, libraryByNumber, known, builderLin
   const stations = n < 20 ? 1 : n <= 30 ? 2 : n <= 50 ? 3 : 4;
   const builds = n > 30 ? Math.ceil(n / 25) : 1;
   const T = timeline(n);
+  // Scale photos (14 Nov 2026). Seven of these pages shared one picture and the
+  // 4-person page used a Valentine's board, on the section with the site's best
+  // CTR, whose whole subject is how the spread changes with guest count.
+  // The board photo wins over the linked book's image here for that reason.
   const title = `Charcuterie Board for ${n} People: How Much to Buy`;
   const printCard = h.printCard(n >= 20 ? "grazing-table-planner" : "classic-entertaining-board-blueprint", `party_print_${n}`) || h.printCard("complete-board-builder-bundle", `party_print_${n}`);
 
   return h.layout({
     title: `${title} | Charcuterie Lab`,
     canonical: urlFor(n),
-    image: book ? book.image : "/images/how-much-charcuterie-per-person.webp",
+    image: partyPhoto(n),
     description: `For ${n} people: about ${d.meat} of meat, ${d.cheese} of cheese, ${d.crackers[0]}–${d.crackers[1]} crackers and ${d.spreads} spreads. Full shopping list, cost, board size and timeline.`.slice(0, 158),
     head: `${faqSchema(h, Q)}
 ${crumbs(h, [["Party Planner", "/party-planner/"], [`${n} people`, urlFor(n)]])}

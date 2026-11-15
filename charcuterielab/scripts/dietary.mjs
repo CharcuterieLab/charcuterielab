@@ -162,11 +162,17 @@ function schema(h, idx, { name, url, description, crumbs, faq = [], list = [], h
   return out.map((s) => `  <script type="application/ld+json">${h.jsonForScript(s)}</script>`).join("\n");
 }
 
+// 14 Nov 2026: every dietary page fell through to the book cover, so this
+// takes an image and falls back to the hub photo rather than the book.
+const DIET_PHOTOS = { "/dietary/": "dietary-hub", "/dietary/vegan/": "plant-based", "/dietary/nut-free/": "nut-free" };
+const dietPhoto = (url) => `/images/${DIET_PHOTOS[url] || "dietary-hub"}.webp`;
+
 function page(h, idx, { url, title, description, crumbs, faq, list, howto, name, body, script = "" }) {
   return h.layout({
     title,
     description,
     canonical: url,
+    image: dietPhoto(url),
     type: "article",
     published: idx.pages.updated,
     modified: idx.pages.updated,

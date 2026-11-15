@@ -303,7 +303,9 @@ function page(h, { url, title, description, crumbs, faq = [], list = [], name, b
     title,
     description,
     canonical: url,
-    image: image || "/images/book-cover.jpg",
+    // 14 Nov 2026: 35 pairing pages were sharing the book cover as their
+    // og:image, which told Google Images and every social share nothing.
+    image: image || (url.startsWith("/pairings/food/") ? "/images/per-food-pairings.webp" : "/images/pairings-hub.webp"),
     head: schema(h, { name: name || title, url, description, crumbs, faq, list }),
     body: `<main class="bl-main pr-main">
   <div class="bl-inner pr-inner">
@@ -361,7 +363,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     name: "Charcuterie Pairings: Find What Goes With Anything",
     description: "Find what goes with any cheese, meat, wine or beer. An interactive pairing finder for 375 ingredients and 20 drinks, plus the six rules that explain why pairings work.",
     crumbs: [["Pairings", "/pairings/"]],
-    image: photo("pairings-hero"),
+    image: "/images/pairings-hub.webp",
     faq: hubFaq,
     list: [...wines.map((w) => [`${w.name} pairings`, w.url]), ...idx.foods.map((f) => [`What goes with ${f.item.title}`, f.url])],
     script,
@@ -667,6 +669,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     name: "What to drink with a charcuterie board",
     description: "What to drink with a charcuterie board: dry sparkling wine for a mixed board, Pinot Noir for red drinkers, rosé in summer, port with blue cheese, pilsner or cider for beer drinkers, and sparkling cider without alcohol.",
     crumbs: [["Pairings", "/pairings/"], ["Drinks", "/pairings/drinks/"]],
+    image: "/images/drink-pairings.webp",
     faq: drinksFaq,
     list: SITUATIONS.map(([sit, , links]) => [sit, links[0][1]]),
     script,
@@ -853,6 +856,7 @@ ${featured(k.key, 2).map((c) => comboCard(h, idx, art, c)).join("\n")}
     name: "Food pairings for charcuterie",
     description: `What goes with brie, prosciutto, Manchego and ${idx.foods.length - 3} more favorites, plus a finder for all ${idx.bySlug.size} ingredients.`,
     crumbs: [["Pairings", "/pairings/"], ["Food", "/pairings/food/"]],
+    image: "/images/food-pairings.webp",
     list: idx.foods.map((f) => [`What goes with ${f.item.title}`, f.url]),
     script,
     body: `
