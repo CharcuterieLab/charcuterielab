@@ -19,13 +19,13 @@ faq: "[{"question": "Is there a cheese advent calendar in Australia in 2026?", "
 <div class="sk-top"><p class="sk-top-label">Can't find one near you?</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Works anywhere</p><a class="sk-top-name" href="/printables/diy-cheese-advent-calendar-kit/">DIY Cheese Advent Calendar Kit</a><p class="sk-top-line">Shopping lists at 3 budgets, a 12 or 24-night plan and number tags. Instant download.</p></div><div class="sk-top-buy"><span class="sk-price">US$4 PDF</span><a class="button sk-buy-sm" href="/printables/diy-cheese-advent-calendar-kit/">See the kit</a></div></div></div>
 :::
 
-Most cheese advent calendars are sold in the US and UK, and they ship chilled, so they rarely cross borders. Here's what we could find closer to home. For the full US and UK list, see [every cheese advent calendar announced for 2026](/blog/cheese-advent-calendars-2026/).
+Most cheese advent calendars are sold in the US and UK, and they ship chilled, so they rarely cross borders. Here's what we could find closer to home. For the American calendars see [every cheese advent calendar announced for 2026](/blog/cheese-advent-calendars-2026/), and for the British ones, [cheese advent calendars in the UK](/blog/cheese-advent-calendar-uk/).
 
 ## Australia
 
 | Calendar | Price | What's in it | Status (Nov 1) |
 |---|---|---|---|
-| [Hunter Valley Cheese Company 12 Day Artisan Cheese Advent Calendar](https://huntervalleycheese.com.au/product/artisan-cheese-advent-calendar-12dxay/) | A$150 | 12 daily treats: fresh, soft and hard cheeses (aged brie, vintage cheddar, blue) plus pastes, honey and fruit, in a chilled gift box | 2026 edition listed. Dispatched Monday, December 7 |
+| [Hunter Valley Cheese Company 12 Day Artisan Cheese Advent Calendar](https://huntervalleycheese.com.au/product/artisan-cheese-advent-calendar-12dxay/) | A$150 | 12 daily treats: fresh, soft and hard cheeses (aged brie, vintage cheddar, blue) plus pastes, honey and fruit, in a chilled gift box | Still orderable on 14 Nov. All calendars despatched Monday, 7 December. The shop warns the limited run sells out quickly |
 | [Thomas Dux 12 Days of Cheese](https://www.woolworths.com.au/shop/productdetails/147620/thomas-dux-12-days-of-cheese-advent-calendar) (Woolworths) | A$20 to A$28 in past years | 12 mini portions, two each of six British cheeses | Not confirmed for 2026 yet |
 | Aldi Australia | — | — | No cheese calendar. The 8 advent calendars on sale Nov 4 are chocolate, candy, toys, a candle and a puzzle ([Aldi Australia](https://www.aldi.com.au/products/christmas/advent-calendars/k/1588161425467065)) |
 | Coles | — | — | Nothing found |
@@ -73,6 +73,7 @@ Leftover pieces make a great Christmas Eve board. See [the best cheese for a cha
 ## Related Reading
 
 - [Cheese Advent Calendars 2026: Every One Announced So Far](/blog/cheese-advent-calendars-2026/)
+- [Cheese Advent Calendars UK 2026: What's Left and When to Order](/blog/cheese-advent-calendar-uk/)
 - [The Best Cheese for a Charcuterie Board (16 Picks by Type)](/blog/best-cheese-charcuterie-board/)
 - [Leftover Charcuterie: What to Do With It](/blog/leftover-charcuterie/)
 
@@ -85,7 +86,7 @@ Leftover pieces make a great Christmas Eve board. See [the best cheese for a cha
 - [Laliberté Cheese & Gourmet Pantry: 2026 Cheese Advent Calendar](https://www.lalibertecheese.com/product-page/cheese-advent-calendar)
 - [Metro: Ilchester Cheese Advent Calendar](https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/packaged-cheese/strings-snacks/cheese-advent-calendar/p/5014442016760)
 
-Prices and stock were checked November 1, 2026, and change quickly in November.
+Prices and stock were checked November 1, 2026. The Hunter Valley calendar was rechecked on its own page on November 14, 2026 and was still orderable at A$150. Stock changes quickly in November.
 
 ## FAQ
 
