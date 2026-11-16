@@ -1,0 +1,132 @@
+{
+ "category": "pairings-sweet",
+ "book": "main",
+ "updated": "2026-11-16",
+ "seo_title": "Wine, Beer & Dessert Charcuterie Boards: 4 Plans",
+ "h1": "Drink Pairing & Dessert Charcuterie Boards",
+ "link_text": "4 pairing and dessert boards",
+ "description": "Four boards built around what is in the glass or around dessert: a wine and cheese pairing board, a beer board, a dessert cheese board and a chocolate board with no cheese at all.",
+ "image": "/images/50-boards-09-wine-and-cheese-pairing.webp",
+ "answer": "Build a pairing board around the drink rather than matching a drink to a finished board. Two rules carry most of it: what grows together goes together, and salt goes with sweet, which is why blue cheese wants a sweet wine.",
+ "intro": [
+  "A pairing board is arranged in an order, not scattered. Each cheese sits next to the drink it belongs with, so guests taste the pair rather than guessing.",
+  "Beer and wine do different jobs. Wine matches a cheese on weight and acidity. Beer's carbonation scrubs fat off the tongue, and its hops and roasted malt can stand up to strong flavours that would flatten a delicate wine.",
+  "The dessert boards here go two ways: one keeps cheese and leans on the ones that already taste sweet, and one drops cheese entirely for chocolate and fruit."
+ ],
+ "ideas": [
+  {
+   "id": "drinks",
+   "heading": "Boards built around a drink",
+   "intro": "Arrange these in tasting order, lightest to heaviest, and pour small. Four pairings is plenty; palate fatigue arrives faster than people expect.",
+   "boards": [
+    {
+     "slug": "wine-and-cheese-pairing-board",
+     "name": "Wine & Cheese Pairing Board",
+     "best_for": "A tasting with friends",
+     "blurb": "Each cheese matched to a wine on two rules: what grows together goes together, and sweet wine with salty blue. Sauvignon Blanc with goat, and on from there. $70 to $110."
+    },
+    {
+     "slug": "beer-and-charcuterie-board",
+     "name": "Beer & Charcuterie Board",
+     "best_for": "A more relaxed tasting",
+     "blurb": "Bubbles cut the fat and hops stand up to strong cheese, so a beer board can carry flavours that would bury a delicate wine. $55 to $85."
+    }
+   ]
+  },
+  {
+   "id": "dessert",
+   "heading": "Dessert boards",
+   "intro": "A dessert board works on a gradient: bitter to sweet, so each bite reads as a step rather than the sweetest thing drowning the rest.",
+   "boards": [
+    {
+     "slug": "sweet-and-savory-dessert-board",
+     "name": "Dessert Cheese Board",
+     "best_for": "Ending a dinner party",
+     "blurb": "Built on cheeses that already taste like dessert: aged Gouda with its caramel notes and crunchy crystals, and sweet, milky Gorgonzola dolce, with chocolate and honeycomb. $55 to $90."
+    },
+    {
+     "slug": "dessert-charcuterie-board",
+     "name": "Chocolate & Fruit Dessert Board",
+     "best_for": "A board with no cheese at all",
+     "blurb": "Chocolate from dark through milk to white, so each piece is a step up in sweetness, with fruit and nuts between. $35 to $60."
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "rules",
+   "heading": "The pairing rules that do most of the work",
+   "items": [
+    {
+     "lead": "What grows together goes together.",
+     "text": "A cheese and a wine from the same region usually work, because they developed alongside each other. Sancerre with Crottin, Chianti with Pecorino, Rioja with Manchego."
+    },
+    {
+     "lead": "Salt goes with sweet.",
+     "text": "This is why blue cheese wants Sauternes or port rather than a dry red. The sweetness blunts the salt and the salt stops the wine cloying."
+    },
+    {
+     "lead": "Match the weight.",
+     "text": "A delicate goat cheese is flattened by a big red. Keep light with light and heavy with heavy, and most pairings land on their feet."
+    },
+    {
+     "lead": "Acid cuts fat.",
+     "text": "A high-acid white or a sparkling wine resets the palate after a rich triple-creme, which is why Champagne and brie is a cliche that happens to be right."
+    },
+    {
+     "lead": "Bubbles do what tannin cannot.",
+     "text": "Beer's carbonation physically scrubs fat off the tongue. That is a different mechanism from wine's acidity and it is more forgiving."
+    }
+   ]
+  },
+  {
+   "id": "serving",
+   "heading": "Serving a tasting board",
+   "items": [
+    {
+     "lead": "Arrange in order.",
+     "text": "Lightest to heaviest, left to right, with each cheese beside its drink. People taste the pair you built instead of inventing their own."
+    },
+    {
+     "lead": "Pour small.",
+     "text": "Two ounces per pairing, four pairings at most. Beyond that nobody can taste the difference any more."
+    },
+    {
+     "lead": "Room temperature cheese.",
+     "text": "Out of the fridge 45 minutes ahead. Cold cheese tastes of almost nothing, which undoes the whole exercise."
+    },
+    {
+     "lead": "Water and plain bread between.",
+     "text": "The palate reset is what makes the fourth pairing taste as clear as the first."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What wine goes with a charcuterie board?",
+   "a": "A dry sparkling wine or a high-acid white is the safest single bottle, because the acidity and bubbles cut through fat and salt across the whole board. For a red, keep it light: Pinot Noir or Gamay rather than a big Cabernet."
+  },
+  {
+   "q": "What beer goes with cheese?",
+   "a": "A hoppy pale ale stands up to sharp aged cheese, a wheat beer suits soft and creamy, and a stout works with blue and with chocolate. Carbonation is doing the work, so avoid anything flat or very sweet."
+  },
+  {
+   "q": "How many pairings should a tasting board have?",
+   "a": "Four. Past that, palate fatigue sets in and people stop being able to tell the pairs apart. Pour about two ounces each and give everyone water and plain bread between."
+  },
+  {
+   "q": "What cheese goes on a dessert board?",
+   "a": "The ones that already taste sweet: aged Gouda has caramel and butterscotch notes with crunchy crystals, Gorgonzola dolce is mild and milky, and a triple-creme behaves like cheesecake next to honey and chocolate."
+  },
+  {
+   "q": "Can a dessert board have no cheese?",
+   "a": "Yes, and it is often easier. Chocolate graded dark to milk to white, with berries, dried fruit and nuts between, gives the same gradient without needing anything kept at temperature."
+  },
+  {
+   "q": "Why does blue cheese go with sweet wine?",
+   "a": "Salt and sweetness cancel each other's extremes. The sugar blunts the salt and the salt stops the wine tasting cloying, which is why Sauternes with Roquefort and port with Stilton both work."
+  }
+ ]
+}

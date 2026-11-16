@@ -1,0 +1,181 @@
+{
+ "category": "classic-budget-luxury",
+ "book": "main",
+ "updated": "2026-11-16",
+ "seo_title": "Charcuterie Board Cost: Budget to Luxury, 8 Boards",
+ "h1": "Charcuterie Board Ideas by Budget",
+ "link_text": "8 boards from $25 to $250",
+ "description": "What a charcuterie board costs, from a $25 budget board to a $250 luxury one. Eight boards with real prices, what changes at each level, and where the money is worth spending.",
+ "image": "/images/50-boards-14-luxury-splurge.webp",
+ "answer": "A charcuterie board costs about $4 to $8 per person for an everyday board, and $15 to $25 per person for a luxury one. The difference is almost entirely the cheese and meat: a $25 board uses block cheddar and pepperoni, a $250 board uses aged Comte, jamon and truffle.",
+ "intro": [
+  "Every board on this page is the same shape underneath: a few cheeses, a few cured meats, something sweet, something sharp, something to put it on. What changes with the budget is not the number of things, it is what each one is.",
+  "Spending more buys age. A $6 block of cheddar and a $30 wedge of 24-month Comte are the same cheese at different points in their life, and the older one has the crystals, the depth and the dry crumble people notice. That is the one place extra money reliably shows up on the tongue.",
+  "Spending more does not reliably buy a better-looking board. Arrangement, colour and the number of separate little piles do more for how a board looks than price does, which is why the $25 board below photographs as well as the $150 one."
+ ],
+ "ideas": [
+  {
+   "id": "budget",
+   "heading": "Budget charcuterie boards, $20 to $40",
+   "intro": "Buy blocks, not pre-sliced. Pre-cut cheese costs roughly twice as much per ounce and tastes flatter, because the cut faces dry out. Breaking a block into rough shards also looks hand-made rather than factory-made.",
+   "boards": [
+    {
+     "slug": "25-dollar-budget-charcuterie-board",
+     "name": "$25 Budget Charcuterie Board",
+     "best_for": "Feeding 6 to 8 on a tight budget",
+     "blurb": "Block cheddar broken into shards, pepperoni and summer sausage, grapes and crackers. Serves 6 to 8 for $20 to $25, which is about $3 a head, and takes 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "everyday",
+   "heading": "Everyday boards, $40 to $70",
+   "intro": "This is where most boards sit. Three cheeses and three meats is the point at which a board stops looking like a snack and starts looking like a spread, and it is reached well before the $100 mark.",
+   "boards": [
+    {
+     "slug": "classic-american-starter-board",
+     "name": "Classic American Charcuterie Board",
+     "best_for": "The first board you make",
+     "blurb": "A sharp cheese, a mild melty one and a soft spread, with three salamis. Covers what most guests already like, serves 8 to 12 for $40 to $65."
+    },
+    {
+     "slug": "farm-to-table-charcuterie-board",
+     "name": "Farm-to-Table Local Board",
+     "best_for": "Shopping a farmers market",
+     "blurb": "Not a fixed list but a method: one cheddar, one fresh goat cheese and one adventurous local cheese, with a local salami and ham. $55 to $95."
+    },
+    {
+     "slug": "seafood-charcuterie-board",
+     "name": "Seafood & Smoke Board",
+     "best_for": "Something other than salami",
+     "blurb": "Smoked salmon in long folds as the anchor, flaked smoked trout beside it. Reads as expensive and costs $55 to $85."
+    },
+    {
+     "slug": "meat-lovers-charcuterie-board",
+     "name": "Meat Lover's Board",
+     "best_for": "A crowd that skips the cheese",
+     "blurb": "Six cured meats tasted mild to intense and one cheese, each meat folded or fanned the way its texture needs. $55 to $85."
+    }
+   ]
+  },
+  {
+   "id": "luxury",
+   "heading": "Luxury charcuterie boards, $100 to $250",
+   "intro": "At this level you are buying age and provenance. Keep the showpiece to one or two items rather than making everything expensive: one truffle or one 24-month wedge is what people remember, and it is cheaper than upgrading all six cheeses.",
+   "boards": [
+    {
+     "slug": "all-cheese-board",
+     "name": "All-Cheese Connoisseur Board",
+     "best_for": "A tasting, no meat",
+     "blurb": "Six cheeses as a flight, two soft, two semi-soft and two hard, so guests taste from mild and creamy to sharp and crystalline. $60 to $100."
+    },
+    {
+     "slug": "truffle-charcuterie-board",
+     "name": "Black Truffle & Jamon Board",
+     "best_for": "The moment people photograph",
+     "blurb": "Truffle shaved at the table over Comte and triple-creme, with aged Comte, truffle pecorino and Epoisses underneath. $100 to $180."
+    },
+    {
+     "slug": "luxury-charcuterie-board",
+     "name": "Luxury Charcuterie Board",
+     "best_for": "A milestone party",
+     "blurb": "Five cheeses in five styles, each showing a different thing that ageing does: a hard grana, a washed rind, an ash-lined goat, a blue and an aged Gouda. $150 to $250."
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cost",
+   "heading": "What a charcuterie board costs per person",
+   "items": [
+    {
+     "lead": "Budget, about $3 a head.",
+     "text": "Block cheese, supermarket cured meat, grapes and crackers. Looks generous because the quantities are right, not because the ingredients are rare."
+    },
+    {
+     "lead": "Everyday, $4 to $8 a head.",
+     "text": "Three cheeses and three meats, one jam, one pickle, two kinds of cracker. This is the level most people mean by a charcuterie board."
+    },
+    {
+     "lead": "Luxury, $15 to $25 a head.",
+     "text": "Named cheeses with an age on the label, whole-muscle cured meat like jamon or bresaola, and one showpiece."
+    },
+    {
+     "lead": "The quantities do not change.",
+     "text": "Plan about 2 oz of cheese and 2 oz of meat per person as a side, or 4 oz of each if the board is the meal. Spending more does not mean buying less."
+    }
+   ]
+  },
+  {
+   "id": "where-to-spend",
+   "heading": "Where the money is worth spending",
+   "items": [
+    {
+     "lead": "Spend on one aged cheese.",
+     "text": "A 24-month Comte, Parmigiano or aged Gouda has crystals and depth that no young cheese has. One wedge changes the board more than three mid-priced cheeses do."
+    },
+    {
+     "lead": "Spend on whole-muscle meat.",
+     "text": "Prosciutto di Parma, jamon serrano or bresaola are sliced from a single muscle and taste cleaner than chopped-and-pressed salami. They also drape, which makes a board look better."
+    },
+    {
+     "lead": "Save on the fruit, nuts and crackers.",
+     "text": "Supermarket grapes, a bag of walnuts and a plain water cracker do exactly the same job as expensive versions. Nobody has ever noticed a premium cracker."
+    },
+    {
+     "lead": "Save on the board itself.",
+     "text": "A slate tile, a baking sheet lined with parchment or a wooden chopping board all work. The surface is 5% of what people look at."
+    }
+   ]
+  },
+  {
+   "id": "cheaper",
+   "heading": "How to make any board cheaper without it looking cheap",
+   "items": [
+    {
+     "lead": "Buy blocks and break them.",
+     "text": "Pre-sliced and cubed cheese costs around twice as much per ounce. Snapping a block into rough shards with the point of a knife looks deliberate."
+    },
+    {
+     "lead": "Use one expensive thing, not six.",
+     "text": "A single wedge of something aged, surrounded by honest cheap things, reads as a good board. Six mid-priced things read as a supermarket platter."
+    },
+    {
+     "lead": "Fill with what is already cheap.",
+     "text": "Grapes, carrot sticks, cucumber, olives, pretzels and nuts fill space for very little and add the colour that makes a board look full."
+    },
+    {
+     "lead": "Make fewer, bigger piles.",
+     "text": "Five generous piles look abundant. Twelve small ones look scattered, and cost more because every extra item is another thing to buy."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does a charcuterie board cost?",
+   "a": "About $4 to $8 per person for an everyday board, $3 a head if you shop carefully with block cheese and supermarket meat, and $15 to $25 a head for a luxury board. For 10 people that is roughly $40 to $80 ordinarily, and $150 to $250 at the top end."
+  },
+  {
+   "q": "Why are charcuterie boards so expensive?",
+   "a": "Because aged cheese and whole-muscle cured meat are slow to make. A 24-month Parmigiano has been stored and turned for two years before it is sold. The fruit, crackers and nuts on a board cost very little; almost all of the price is the cheese and the meat."
+  },
+  {
+   "q": "How do I make a cheap charcuterie board look expensive?",
+   "a": "Buy block cheese and break it into rough shards rather than cubing it, fold the meat instead of laying it flat, make five generous piles instead of twelve small ones, and add one thing with a name on it, such as a small wedge of aged Gouda."
+  },
+  {
+   "q": "How much cheese and meat per person?",
+   "a": "Around 2 oz of cheese and 2 oz of cured meat per person if the board sits alongside other food, and about 4 oz of each if the board is the meal. This does not change with the budget."
+  },
+  {
+   "q": "Is an expensive cheese actually worth it?",
+   "a": "For one or two items, yes, and the difference is easy to taste: aged cheese has crystals, a dry crumble and a long finish that young cheese does not. Upgrading every item on the board gives much less back than upgrading one."
+  },
+  {
+   "q": "What is the cheapest charcuterie board that still works?",
+   "a": "Around $20 to $25 for 6 to 8 people: one block of sharp cheddar, pepperoni or summer sausage, grapes, a handful of nuts and a sleeve of crackers. The quantities are what make it feel generous."
+  }
+ ]
+}

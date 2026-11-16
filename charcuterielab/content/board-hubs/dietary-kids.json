@@ -1,0 +1,146 @@
+{
+ "category": "dietary-kids",
+ "book": "main",
+ "updated": "2026-11-16",
+ "seo_title": "Charcuterie Boards for Dietary Needs & Kids: 3 Plans",
+ "h1": "Charcuterie Board Ideas for Dietary Needs",
+ "link_text": "boards for gluten-free, vegan and kids",
+ "description": "Board plans built around a dietary need rather than adapted at the last minute: gluten-free, fully plant-based, and one built for children. What to buy, what to leave off, and how to serve a mixed table.",
+ "image": "/images/50-boards-17-gluten-free.webp",
+ "answer": "Build the board around the restriction rather than removing things at the end. Most of a charcuterie board is already gluten-free and most of it is already safe for children; the problems sit in the crackers, a few processed meats, and anything with a choking risk.",
+ "intro": [
+  "A board that was planned for the restriction looks like a board. A board that had things taken off it at the last minute looks like a board with gaps, and the person it was adapted for notices.",
+  "These three plans each start from the need. If you want the swap lists rather than a whole board, the dietary guides go through the ingredients one at a time and say what is safe, what is not and what to use instead."
+ ],
+ "ideas": [
+  {
+   "id": "gluten-free",
+   "heading": "Gluten-free charcuterie board",
+   "intro": "Aged cheese and prosciutto contain no gluten. The risk sits in the crackers, a few processed meats that use wheat as a binder, and crumbs falling from a shared cracker pile.",
+   "boards": [
+    {
+     "slug": "gluten-free-charcuterie-board",
+     "name": "Gluten-Free Charcuterie Board",
+     "best_for": "A coeliac guest at a mixed table",
+     "blurb": "Natural aged cheese and whole-muscle cured meat, with seed crackers and vegetables instead of wheat crackers. Serves 8 to 12 for $50 to $80."
+    }
+   ]
+  },
+  {
+   "id": "plant-based",
+   "heading": "Vegan and plant-based board",
+   "intro": "Cashew-based cheeses work for the same reason dairy does: cashews are rich and creamy, so a cashew brie spreads and coats the tongue the way the real thing does.",
+   "boards": [
+    {
+     "slug": "vegan-charcuterie-board",
+     "name": "Vegan Plant-Based Board",
+     "best_for": "A fully plant-based table",
+     "blurb": "Cashew brie and other plant cheeses, marinated vegetables, olives, nuts and fruit, with no dairy or meat anywhere on the board. $45 to $70."
+    }
+   ]
+  },
+  {
+   "id": "kids",
+   "heading": "Kid-friendly board",
+   "intro": "Children eat more of what they recognise. Leading with familiar shapes and mild flavours gets more eaten than a board of interesting cheeses does.",
+   "boards": [
+    {
+     "slug": "kid-friendly-charcuterie-board",
+     "name": "Kid-Friendly Charcuterie Board",
+     "best_for": "Parties and lunchboxes",
+     "blurb": "Cheddar sticks, string cheese, pepperoni and rolled turkey, with fruit and simple crackers. Serves 8 to 10 for $35 to $55."
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "gf-safe",
+   "heading": "What is already gluten-free on a board",
+   "items": [
+    {
+     "lead": "Safe.",
+     "text": "Natural aged cheese of any kind, prosciutto, jamon, bresaola and most whole-muscle cured meat, fresh and dried fruit, nuts, olives, honey and most jams."
+    },
+    {
+     "lead": "Check the label.",
+     "text": "Some salami and sausage use wheat as a binder or are dusted with flour, beer-washed cheeses, blue cheese made with bread-grown mould, and anything described as a spread or a dip."
+    },
+    {
+     "lead": "Not safe.",
+     "text": "Wheat crackers, baguette, crostini, pretzels and most biscuits for cheese."
+    },
+    {
+     "lead": "The real risk is crumbs.",
+     "text": "If one guest is coeliac rather than avoiding gluten by choice, keep the wheat crackers on a separate plate with their own knife. Crumbs in a shared bowl of jam are enough to cause a reaction."
+    }
+   ]
+  },
+  {
+   "id": "kids-safe",
+   "heading": "Serving a board to young children",
+   "items": [
+    {
+     "lead": "Choking risks to cut or leave off.",
+     "text": "Whole grapes, whole cherry tomatoes, large olives with stones, round slices of hard sausage and whole nuts. Halve grapes and tomatoes lengthways for under-fives."
+    },
+    {
+     "lead": "Keep the flavours mild.",
+     "text": "Mild cheddar, mozzarella, string cheese and turkey get eaten. Blue cheese, washed rind and strongly spiced salami usually do not."
+    },
+    {
+     "lead": "Give things a shape they know.",
+     "text": "Sticks, cubes and rolled slices get picked up. A wedge broken off a wheel often does not."
+    },
+    {
+     "lead": "Separate the piles.",
+     "text": "Children tend to eat foods they can see individually. A board where everything touches gets eaten less than one with clear little groups."
+    }
+   ]
+  },
+  {
+   "id": "mixed",
+   "heading": "Feeding a mixed table from one board",
+   "items": [
+    {
+     "lead": "Build the restricted board, then add.",
+     "text": "Start with the version everyone can eat, then put the crackers, the dairy or the meat on a second plate beside it. Nobody is eating a lesser board that way."
+    },
+    {
+     "lead": "Label the things that matter.",
+     "text": "A small card in front of the plant cheeses or the gluten-free crackers saves the guest having to ask, which is the part most people dislike."
+    },
+    {
+     "lead": "Give each one its own knife.",
+     "text": "One knife moving between a dairy brie and a cashew brie undoes the point of having both."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is charcuterie gluten-free?",
+   "a": "Most of it is. Natural aged cheese and whole-muscle cured meats like prosciutto contain no gluten. The gluten on a typical board comes from the crackers and bread, and occasionally from a salami that uses wheat as a binder."
+  },
+  {
+   "q": "What crackers can I use for a gluten-free board?",
+   "a": "Seed and nut crackers, rice crackers, corn-based crisps, or no crackers at all: cucumber rounds, endive leaves and sliced apple all carry cheese perfectly well and add colour the crackers would not."
+  },
+  {
+   "q": "How do I stop cross-contamination on a shared board?",
+   "a": "Keep wheat crackers on their own plate rather than on the board, give every soft cheese and jam its own knife or spoon, and serve the gluten-free crackers first before crumbs are in the air."
+  },
+  {
+   "q": "What should I leave off a board for toddlers?",
+   "a": "Whole grapes, whole cherry tomatoes, whole nuts, olives with stones and coin-shaped slices of hard sausage are the common choking risks. Halve round fruit lengthways and cut meat into strips rather than circles."
+  },
+  {
+   "q": "Can one board work for vegans and meat eaters?",
+   "a": "Yes, if you build the plant-based board first and put the cheese and meat on a separate plate beside it. Doing it the other way round leaves the vegan guest eating the gaps."
+  },
+  {
+   "q": "Do plant-based cheeses actually work on a board?",
+   "a": "Cashew-based ones do. Cashews are rich and creamy in the way dairy is, so a cashew brie spreads and coats the tongue similarly. Coconut-oil-based slices behave less like cheese and are better melted than served cold."
+  }
+ ]
+}

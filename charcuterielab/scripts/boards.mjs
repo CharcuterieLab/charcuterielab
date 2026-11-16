@@ -155,7 +155,7 @@ export function card(b, h, { plain = false } = {}) {
         <span class="bl-card-cat">${h.escapeHtml(cat.name)}</span>
         <strong>${h.escapeHtml(b.h1 || b.title)}</strong>
         <span class="bl-card-facts">Serves ${h.escapeHtml(b.serves)} · ${h.escapeHtml(b.cost)}</span>
-        <span class="bl-badges">${plain ? "" : single ? `<span class="bl-pill">Full plan · ${h.escapeHtml(single.price)}</span>` : `<span class="bl-pill is-book">Plan in the book</span>`}${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
+        <span class="bl-badges">${plain ? "" : single ? `<span class="bl-pill">Free printable plan</span>` : `<span class="bl-pill is-book">Plan in the book</span>`}${badges.map((x) => `<span>${h.escapeHtml(x)}</span>`).join("")}</span>
       </span>
     </a>
   </li>`;
@@ -250,7 +250,7 @@ function finder(h, boards, { heading, intro, showFilters = true, crumb = "", ext
     <div class="bl-controls">
       <label>Guests <select id="bl-guests"><option value="0">Any</option><option value="2">2+</option><option value="8">8+</option><option value="12">12+</option><option value="16">16+</option><option value="20">20+</option></select></label>
       <label>Sort <select id="bl-sort"><option value="rec">Recommended</option><option value="cost">Lowest cost</option><option value="big">Most guests</option><option value="small">Fewest guests</option><option value="easy">Easiest first</option></select></label>
-      ${plans ? `<label class="bl-check"><input type="checkbox" id="bl-plan"> $3 plan only</label>` : ""}
+      ${plans ? `<label class="bl-check"><input type="checkbox" id="bl-plan"> With a printable plan</label>` : ""}
       <label class="bl-check"><input type="checkbox" id="bl-plant"> Plant-based only</label>
       <span class="bl-count" aria-live="polite"></span>
     </div>
@@ -293,23 +293,22 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
   }
   const lowest = Math.min(...withPlan.map((b) => money((singleOf(h, b) || {}).price || 3)));
   const faq = [
-    ["What's in a $3 board plan?", "A printable PDF of about 5 pages: the exact shopping list for the board, with an amount and an estimated price for every item, where everything goes on the board step by step, the full timeline from the day before, and a swap for anything your store is out of."],
-    ["How do I get it?", "Tap Get the full plan on any board. Checkout is on Gumroad, and the download link arrives by email straight away. The PDF also stays in your Gumroad library."],
+    ["Is the board plan really free?", "Yes. Every board page has a printable plan behind an email: the shopping list for that board with how much to buy for its guest count, grouped so you can shop it, and the full timeline. You get the Charcuterie Cheat Sheet with it."],
+    ["What is in the printable?", "A checklist of everything on the board, an amount beside each item where we have one, the totals for the board's guest count, and the timeline from the day before through to serving. One page, printed or on a phone at the store."],
+    ["Do I have to subscribe to see the boards?", "No. All " + boards.length + " boards are free to read in full, including what goes on each one, how much to buy and the complete timeline. The email only gets you the printable version."],
+    ["What do the books add?", "A price for every item and a map of where each one goes on the board, which the free printable does not have. " + (byKey.get("main") ? byKey.get("main").title + " is " + byKey.get("main").price + " for 50 boards." : "")],
     ["Can I print it or use it on my phone?", "Both. It prints on any home printer (US Letter) and reads fine on a phone at the store."],
-    ["What if it's not what I expected?", "Reply to your Gumroad receipt within 30 days for a full refund. No forms."],
-    ["Should I buy single plans or a book?", `If you'll make more than four or five boards, a book is cheaper: 50 Boards Built by Science is ${byKey.get("main") ? byKey.get("main").price : "$14"} for 50 plans. A single-plan receipt also includes a code for $3 off the book.`],
-    ["Does every board have a $3 plan?", `${withPlan.length} of the ${boards.length} boards do. The rest, mostly the shaped showpiece boards, are planned in full in their book, and each board page says which.`]
-  ];
-  const promise = `<div class="bl-promise">
-      ${planLook ? `<img class="bl-promise-look" src="${h.escapeHtml(planLook)}" alt="A page from a $3 board plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
+    ["How often do you email?", "Once a week, with one board idea. You can leave at any time from a link at the foot of every issue."]
+  ];  const promise = `<div class="bl-promise">
+      ${planLook ? `<img class="bl-promise-look" src="${h.escapeHtml(planLook)}" alt="A page from a board's printable plan, partly blurred" width="800" height="600" loading="lazy" decoding="async">` : ""}
       <div>
-        <p class="eyebrow">How the plans work</p>
+        <p class="eyebrow">How it works</p>
         <ol class="bl-steps">
           <li><strong>Pick a board.</strong> ${boards.length} boards for 2 to 50 guests, each with a photo, what's on it and why it works.</li>
-          <li><strong>Get its plan for $${lowest || 3}.</strong> A printable PDF with the shopping list, amounts, prices, where everything goes and the timeline.</li>
+          <li><strong>Get its printable plan free.</strong> A checklist with how much to buy for your guest count and the full timeline, in exchange for your email.</li>
           <li><strong>Shop and build.</strong> Print it, or open it on your phone at the store.</li>
         </ol>
-        <p class="bl-promise-fine">Instant download · 30-day refund · The receipt includes $3 off the full book</p>
+        <p class="bl-promise-fine">Instant download · One board idea a week · Leave any time</p>
       </div>
     </div>`;
   const packHtml = packs.length ? `<section class="bl-inner bl-section bl-packs" aria-labelledby="bl-packs-h">
@@ -329,7 +328,7 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
   </section>` : "";
   const bookHtml = books.length ? `<section class="bl-inner bl-section bl-books" aria-labelledby="bl-books-h">
     <h2 id="bl-books-h">Every plan in a book: the cheapest way per board</h2>
-    <p class="bl-note">Single plans are $3 each. Each book holds the full plans for all its boards.</p>
+    <p class="bl-note">Every board page has a free printable checklist. The books add a price for every item and where each one goes on the board.</p>
     <div class="bl-book-grid">
       ${books.map((b) => `<article class="bl-bk">
         <a href="${b.page}"><img src="${h.escapeHtml((h.thumb || ((x) => x))(b.cover, "s"))}" alt="${h.escapeHtml(b.title)} cover" width="240" height="310" loading="lazy" decoding="async"></a>
@@ -345,7 +344,7 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
       <div>
         <p class="eyebrow">Free · see a full plan first</p>
         <h2 id="bl-sample-h">Try one plan free: the Classic American Starter</h2>
-        <p>The complete 11-page plan for Board 01, the same format as every $3 plan: shopping list with amounts and prices, timed build, placement and swaps.</p>
+        <p>The complete 11-page plan for Board 01, the full book format: shopping list with amounts and prices, timed build, placement and swaps.</p>
         ${sample}
       </div>
     </div>
@@ -364,7 +363,7 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
     head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
     body: `<main class="bl-main">
-${finder(h, ordered, { heading: "Charcuterie board ideas for every occasion", intro: `Browse ${boards.length} boards free. When you find the one, get its printable plan for $3: the exact shopping list with amounts and prices, where everything goes, and the timeline.`, capped: true, books: bookFor, extra: `\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 boards by cost and time</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${finder(h, ordered, { heading: "Charcuterie board ideas for every occasion", intro: `Browse ${boards.length} boards free. Every one has a printable plan on its page &mdash; the shopping list with how much to buy and the full timeline &mdash; free for your email.`, capped: true, books: bookFor, extra: `\n    ${hubSignup(h, boards.length)}\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 boards by cost and time</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
 ${packHtml}
 ${bookHtml}
 ${sampleHtml}
@@ -459,7 +458,7 @@ export function seriesHubBox(h, key, campaign) {
       <div>
         <p class="eyebrow">Every board, fully planned</p>
         <h2 id="bl-book-title">Get them all in one book</h2>
-        <p>The boards on this page are in <em>${h.escapeHtml(B.title)}</em>. The book has ${S.what} for each one. Or get a single board's printable plan for $3 from its page.</p>
+        <p>The boards on this page are in <em>${h.escapeHtml(B.title)}</em>. The book has ${S.what} for each one, with a price for every item and a map of where it goes. Each board page has a free printable checklist if that is all you need.</p>
         <div class="book-buy">
           <a class="button primary" href="${h.escapeHtml(url)}" target="_blank" rel="noopener">Get the ebook · ${B.ebookPrice}</a>
           ${B.paperbackUrl ? `<a class="button book-buy-print" href="${B.paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon · ${B.paperbackPrice}</a>` : ""}
@@ -746,6 +745,23 @@ function planSticky(h, b, single) {
 
 // For readers who aren't hosting yet (9 Nov 2026): the free Cheat Sheet for an
 // email, on the page, near the end. The plan stays the only thing for sale.
+// The library hub asks for the email too (16 Nov 2026). It was the only page
+// in the section with no capture at all, and the most linked-to.
+function hubSignup(h, count) {
+  return `<section class="bl-section bl-signup" aria-labelledby="bl-hub-signup">
+      <img class="fx-hi-img" src="${h.escapeHtml((h.thumb || ((x) => x))("/images/charcuterie-cheat-sheet.webp", "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
+      <div class="bl-signup-copy">
+        <p class="eyebrow">Free printable</p>
+        <h2 id="bl-hub-signup">Get the Charcuterie Cheat Sheet, free</h2>
+        <p>How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, and every one of these ${count} boards has its own printable plan waiting on its page.</p>
+      </div>
+      <div class="bl-signup-form">
+        ${qsForm({ id: "qs-hub", fb: CHEAT, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+      </div>
+    </section>
+${QS_JS}`;
+}
+
 function boardSignup(h, b) {
   // The matched offer converts better than a generic one, so a board with its
   // own shopping list offers that: the checklist to shop from and the timeline
