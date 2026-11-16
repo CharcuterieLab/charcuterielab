@@ -139,6 +139,10 @@
   {
    "q": "Is gravlax safe during pregnancy?",
    "a": "Cured, uncooked fish like gravlax is generally advised against during pregnancy. Offer the meatballs and cheeses instead."
+  },
+  {
+   "q": "What if I cannot find rollmops or smoked herring?",
+   "a": "Use good smoked mackerel, which is in most supermarkets and sits in the same place on the board. The gravlax is the harder thing to replace, though cold-smoked salmon is close."
   }
  ],
  "blog": [
@@ -148,5 +152,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -163,6 +163,10 @@
   {
    "q": "How do you avoid cross-contact?",
    "a": "Use a clean board and knives that haven't touched bread, keep gluten-containing crackers off the board entirely, and serve the GF board first."
+  },
+  {
+   "q": "Is a charcuterie board gluten free?",
+   "a": "Most of one already is. Aged cheese, prosciutto, fruit, nuts and olives contain no gluten, so a gluten free charcuterie board is mainly a question of the crackers and of a few salami that use wheat as a binder. Swap in seed crackers or vegetables and check the labels on processed meat."
   }
  ],
  "blog": [
@@ -172,5 +176,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

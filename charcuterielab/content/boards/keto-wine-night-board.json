@@ -128,6 +128,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 5 g net carbs per serving for 6, not counting the wine."
+  },
+  {
+   "q": "Which wines go with this board and stay low-carb?",
+   "a": "Dry reds and whites, roughly 3 to 4 g a glass. A Cabernet or Pinot Noir suits the aged Gouda and blue, and a dry white works with the brie. Avoid anything labelled off-dry, late harvest or dessert."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

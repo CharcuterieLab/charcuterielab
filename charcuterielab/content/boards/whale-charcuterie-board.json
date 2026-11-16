@@ -163,6 +163,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Wash and dry the berries and make the meat roses the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Is this one easy enough for a first attempt?",
+   "a": "Yes, it is rated 2 of 5 and is a single simple outline filled with blue corn chips and grapes, with a mozzarella spout. There is no fine detail to get wrong."
   }
  ],
  "blog": [
@@ -173,5 +177,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

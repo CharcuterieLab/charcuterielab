@@ -151,6 +151,10 @@
   {
    "q": "Is this board OK for pregnant guests?",
    "a": "Skip the refrigerated pâté and the Roquefort, which is made from raw sheep's milk. The CDC suggests shelf-stable pâté and pasteurized cheeses instead."
+  },
+  {
+   "q": "Where do I find real Comte and Roquefort?",
+   "a": "A cheese counter or a good supermarket will have both; Roquefort is protected and always says so on the foil. If the Comte on offer is young, ask for a wedge cut from nearer the rind, where the flavour concentrates."
   }
  ],
  "blog": [
@@ -160,5 +164,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

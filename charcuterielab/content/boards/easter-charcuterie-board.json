@@ -151,6 +151,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Wash the produce and slice the cheese the night before. Build the board on Easter morning. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "How do I make it look like Easter without dyeing anything?",
+   "a": "Pastel comes from the food: Babybel reds, pale Havarti, radishes, blueberries and green grapes, with the herbed goat cheese as the centre. Arranging in a long oval reads as an egg without you having to say so."
   }
  ],
  "blog": [
@@ -160,5 +164,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

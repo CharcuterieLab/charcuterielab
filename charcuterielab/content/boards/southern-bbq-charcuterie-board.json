@@ -147,6 +147,10 @@
   {
    "q": "Can I make pimento cheese ahead?",
    "a": "Yes. It's better made a day ahead so the flavors blend."
+  },
+  {
+   "q": "Should I make the pimento cheese myself?",
+   "a": "It is twenty minutes and considerably better than the tubs: grated sharp cheddar, mayonnaise, diced pimentos and a little cayenne. It also keeps a week, so it can be done well ahead of the pulled pork."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 4,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

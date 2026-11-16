@@ -126,6 +126,10 @@
   {
    "q": "How many people does it serve?",
    "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  },
+  {
+   "q": "Will coconut whipped cream hold?",
+   "a": "If the tin is chilled overnight and you whip only the solid part, yes, for about an hour. Leave the watery liquid behind, and keep the bowl cold. It softens faster than dairy cream, so put it out last."
   }
  ],
  "blog": [
@@ -135,5 +139,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

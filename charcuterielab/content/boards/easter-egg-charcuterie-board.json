@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the cheese and vegetables the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Do the stripes stay neat?",
+   "a": "The pretzel fence is what keeps them neat, so build that oval first and pack the rolled ham and mortadella in tightly. Loose stripes drift into each other within the hour."
   }
  ],
  "blog": [
@@ -168,5 +172,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

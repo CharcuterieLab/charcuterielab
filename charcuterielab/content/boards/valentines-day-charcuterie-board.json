@@ -155,6 +155,10 @@
   {
    "q": "Is this board for two?",
    "a": "It serves 4 to 6. For a board sized for two, see the Valentine's board in Boards for Two."
+  },
+  {
+   "q": "Is four to six servings right for a small gathering?",
+   "a": "It suits two couples comfortably. For just two people, halve it and keep the brie and chevre, which are the two that make the board feel like an occasion rather than a snack."
   }
  ],
  "blog": [
@@ -165,5 +169,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

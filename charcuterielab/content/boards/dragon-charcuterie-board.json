@@ -6,7 +6,7 @@
  "image": "/images/boards/impossible-01.webp",
  "h1": "Dragon Charcuterie Board (The Dragon's Hoard)",
  "seo_title": "Dragon Charcuterie Board: How It's Built & What to Buy",
- "description": "A dragon charcuterie board for 12 to 15: a salami dragon with prosciutto wings curled around a hoard of cheese coins, gold-dusted brie, pomegranates and grapes.",
+ "description": "A dragon charcuterie board for 12–15: a salami dragon with prosciutto wings curled around a hoard of cheese coins, gold-dusted brie, pomegranates and grapes.",
  "hook": "A dragon curled around its treasure: hundreds of salami, pepperoni and soppressata scales coil around the board, guarding a hoard of cheese coins and a gold-dusted brie.",
  "serves": "12–15",
  "guests": 15,
@@ -167,6 +167,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Shape and wrap the head and cut the cheese coins the day before. Lay the body about 2 hours before guests arrive. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Can I carry it to a party?",
+   "a": "Not once it is assembled. Take the shingled meat in a sealed container, the cheese coins in another, and lay the body on site. It takes about 20 minutes to rebuild and is the only safe way to move it."
   }
  ],
  "blog": [
@@ -177,5 +181,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

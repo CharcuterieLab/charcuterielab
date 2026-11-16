@@ -142,6 +142,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the cheese bricks the day before and keep them wrapped. Build the castle on the day. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "How stable is it really?",
+   "a": "Stable, because the walls sit on a hidden box rather than on each other, and cream cheese acts as mortar. It is the most ambitious board here at 5 of 5, and the reason it stands is that nothing is balancing."
   }
  ],
  "blog": [
@@ -152,5 +156,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

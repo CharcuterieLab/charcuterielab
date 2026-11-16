@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Drain the jarred vegetables and cut the hard cheeses up to a day ahead and keep them covered in the fridge. Assemble within an hour of serving and leave it out no more than 2 hours."
+  },
+  {
+   "q": "Does the Parmigiano have to be the real thing?",
+   "a": "For a board where it is eaten in shards, yes. Parmigiano-Reggiano is stamped on the rind and has the crystals and the long finish; domestic parmesan is a different cheese and better kept for grating."
   }
  ],
  "blog": [],
@@ -166,5 +170,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

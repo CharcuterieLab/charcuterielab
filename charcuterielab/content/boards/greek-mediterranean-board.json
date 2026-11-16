@@ -156,6 +156,10 @@
   {
    "q": "How many people does it serve?",
    "a": "8 to 12 people on an 18–22 inch board."
+  },
+  {
+   "q": "Can I use supermarket feta?",
+   "a": "Buy it in brine rather than vacuum-packed and crumbled. Greek feta is sheep's milk and protected by name; the crumbled tubs are usually cow's milk and taste flat beside the halloumi."
   }
  ],
  "blog": [],
@@ -163,5 +167,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

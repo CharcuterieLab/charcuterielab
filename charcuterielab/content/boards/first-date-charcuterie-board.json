@@ -127,6 +127,10 @@
   {
    "q": "What wine goes with a first date board?",
    "a": "Cava or Prosecco. Dry bubbles cut through salty, rich bites and feel festive without being over the top. Sparkling water with lemon or a light rosé work too."
+  },
+  {
+   "q": "How much should we actually buy for two?",
+   "a": "About 4 oz of cheese and 3 oz of meat each if this is dinner, half that if you are eating later. Buying small wedges of three cheeses beats a big piece of one, because the variety is what gives you something to talk about."
   }
  ],
  "blog": [
@@ -136,5 +140,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

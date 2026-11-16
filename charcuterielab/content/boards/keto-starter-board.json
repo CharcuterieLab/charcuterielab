@@ -135,6 +135,10 @@
   {
    "q": "How many carbs are in this board?",
    "a": "About 8 g net carbs per serving, when shared by 8 people. The book lists the net carbs of every item."
+  },
+  {
+   "q": "What is the easiest mistake to make on a first keto board?",
+   "a": "Fruit, and the jam that usually sits beside the brie. Both are habit rather than decision. Take them off, put berries and olives in their place, and the board lands at about 8 g net carbs a serving."
   }
  ],
  "blog": [
@@ -145,5 +149,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

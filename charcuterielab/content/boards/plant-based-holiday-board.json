@@ -147,10 +147,15 @@
   {
    "q": "Can non-vegan guests share it?",
    "a": "That's the point: it's a full holiday board that happens to be plant-based, so it works for the whole table."
+  },
+  {
+   "q": "Will guests who eat dairy notice?",
+   "a": "On a board this size, mostly not, if you buy one good cultured vegan brie and let it come to room temperature. The cranberry walnut spread and the pears do a lot of the work, and nobody questions those."
   }
  ],
  "blog": [],
  "slug": "plant-based-holiday-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

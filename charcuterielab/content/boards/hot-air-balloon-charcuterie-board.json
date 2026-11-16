@@ -163,6 +163,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the cheese wedges and cubes the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Will the concentric stripes blur?",
+   "a": "Not if the fruit is dry. Pat the berries and melon with kitchen paper before laying them, keep wet and dry items in separate bands, and the balloon stays crisp for a few hours."
   }
  ],
  "blog": [
@@ -173,5 +177,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

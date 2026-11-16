@@ -6,7 +6,7 @@
  "image": "/images/50-boards-10-beer-and-charcuterie.webp",
  "h1": "Beer & Charcuterie Board",
  "seo_title": "Beer and Charcuterie Board: What's On It & What to Buy",
- "description": "A beer and charcuterie board for 8–12: sharp cheddar, smoked Gouda, pepper jack, Gruyère, summer sausage, pretzels, pickles and mustard, matched to beer styles.",
+ "description": "A beer and charcuterie board for 8–12: cheddar, smoked Gouda, pepper jack, Gruyère, summer sausage, pretzels, pickles and mustard, matched to beer styles.",
  "hook": "Built for a cooler of beer: sharp cheddar for the IPA, smoked Gouda for the dark beer and pepper jack for the lager, plus pretzels, pickles and two mustards.",
  "serves": "8–12",
  "guests": 12,
@@ -163,6 +163,10 @@
   {
    "q": "How many people does it serve?",
    "a": "8 to 12 people on an 18–22 inch board."
+  },
+  {
+   "q": "What order should the beers be poured in?",
+   "a": "Lightest to darkest, so the pale ale with the cheddar first and the porter with the smoked Gouda last. A dark beer early coats the palate and the lighter pairings afterwards taste of nothing."
   }
  ],
  "blog": [
@@ -172,5 +176,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

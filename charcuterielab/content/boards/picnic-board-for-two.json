@@ -6,7 +6,7 @@
  "image": "/images/boards/two-24.webp",
  "h1": "Summer Picnic Board for Two",
  "seo_title": "Picnic Charcuterie Board for Two: What to Pack & Plan",
- "description": "A summer picnic charcuterie board for two: fresh mozzarella, aged cheddar, prosciutto, Genoa salami, cherry tomatoes, melon, strawberries, snap peas and pesto.",
+ "description": "A summer picnic charcuterie board for two: fresh mozzarella, aged cheddar, prosciutto, Genoa salami, tomatoes, melon, strawberries, snap peas and pesto.",
  "hook": "Packed, carried and eaten outside: a summer board that travels in containers and comes together on a blanket.",
  "serves": "2",
  "guests": 2,
@@ -119,6 +119,10 @@
   {
    "q": "Should I build it at home or at the picnic?",
    "a": "Pack everything in containers and build it on site. It takes about 10 minutes and nothing gets crushed."
+  },
+  {
+   "q": "How do we keep this cold on the way there?",
+   "a": "Pack the mozzarella and prosciutto in a cool bag with a frozen bottle of water, and keep the cherry tomatoes and cheddar in a separate container at the top. Fresh mozzarella is the item that will not forgive a warm car."
   }
  ],
  "blog": [
@@ -129,5 +133,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -143,6 +143,10 @@
   {
    "q": "How do you label a local board?",
    "a": "Small cards with the producer's name, town and one flavor note."
+  },
+  {
+   "q": "What do I ask for at a farmers market?",
+   "a": "Ask what was made most recently and what the maker is proudest of. Cheese stalls will usually let you taste, and the answer gets you a better board than any list written in advance could."
   }
  ],
  "blog": [
@@ -153,5 +157,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

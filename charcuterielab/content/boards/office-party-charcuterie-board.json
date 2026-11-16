@@ -151,6 +151,10 @@
   {
    "q": "Can I set it up the night before?",
    "a": "Cube the cheese and slice the meat the night before and keep them sealed in the fridge. Assemble the board an hour before the party."
+  },
+  {
+   "q": "How do I handle dietary restrictions at the office?",
+   "a": "Keep the crackers and the meat on separate plates from the cheese, label the board, and add a bowl of nuts and one of olives so there is something for most diets. Twenty-five people will include several."
   }
  ],
  "blog": [
@@ -158,5 +162,6 @@
  ],
  "slug": "office-party-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

@@ -150,6 +150,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the template, cut the cucumbers and cube the cheese the day before. Cut and place the salmon koi last and keep the board cool. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Can the salmon koi be laid ahead?",
+   "a": "Lay them within an hour of serving. Smoked salmon dries at the edges and curls once it is exposed, which spoils the fish shapes. The cucumber water underneath can go down well in advance."
   }
  ],
  "blog": [
@@ -160,5 +164,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

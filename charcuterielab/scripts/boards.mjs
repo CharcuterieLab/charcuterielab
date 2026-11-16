@@ -520,7 +520,7 @@ function bookOffer(h, board) {
 
 // Board pages went live 23 Sep; a board file can override with "date" / "updated".
 const BOARD_PUBLISHED = "2026-09-23";
-const BOARD_UPDATED = "2026-09-26";
+const BOARD_UPDATED = "2026-11-16";
 
 // recipeCuisine from the board slug; occasion boards default to American.
 const CUISINES = [
@@ -795,7 +795,13 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const cat = catOf(b);
   const known = new Set(bySlug.keys());
   const pair = firstPairing(b, notes, bySlug);
-  const related = all.filter((x) => x.slug !== b.slug && x.category === b.category).slice(0, 3);
+  // Rotate the three related boards by this board's own position in its
+  // category (16 Nov 2026). Taking the first three meant that in a 28-board
+  // category the same three absorbed 27 links while the rest got none, which
+  // is why internal links in ranged from 6 to 108 across the library.
+  const sibs = all.filter((x) => x.slug !== b.slug && x.category === b.category);
+  const at = Math.max(0, all.filter((x) => x.category === b.category).findIndex((x) => x.slug === b.slug));
+  const related = sibs.length <= 3 ? sibs : Array.from({ length: 3 }, (_, i) => sibs[(at + 1 + i) % sibs.length]);
   const fill = related.length < 3 ? all.filter((x) => x.slug !== b.slug && !related.includes(x)).slice(0, 3 - related.length) : [];
   const blogs = (b.blog || []).filter((s) => blogTitles.has(s));
   const glance = [["Serves", b.serves], ["Board", plain(b.board_size)], ["Prep", b.prep_time], ["Cost", b.cost], ["Level", b.difficulty]];

@@ -143,6 +143,10 @@
   {
    "q": "What's the easiest swap if someone can't have pork?",
    "a": "Swap the three pork salamis for beef summer sausage and thin-sliced smoked turkey."
+  },
+  {
+   "q": "What should I buy first if I have never made a board?",
+   "a": "One sharp cheese, one mild, one soft spread and one cured meat. That is four items and it already reads as a board; everything beyond it is refinement rather than necessity."
   }
  ],
  "blog": [
@@ -150,5 +154,6 @@
  ],
  "slug": "classic-american-starter-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

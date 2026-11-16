@@ -128,6 +128,10 @@
   {
    "q": "How much should I buy?",
    "a": "About 3 oz of cheese and 3 oz of meat per person when the board is the snack, and less before a meal."
+  },
+  {
+   "q": "What if I do not know what their favourite cheese is?",
+   "a": "Then go for a mild bloomy brie and a sharp cheddar, which between them cover most tastes, and buy small pieces of each. The point of this board is the attention rather than the accuracy, and asking beforehand gives the game away."
   }
  ],
  "blog": [
@@ -137,5 +141,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

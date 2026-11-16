@@ -151,6 +151,10 @@
   {
    "q": "What drinks go with it?",
    "a": "Sake, a crisp Japanese lager, a dry Riesling or green tea."
+  },
+  {
+   "q": "Is a Japanese charcuterie board authentic?",
+   "a": "Not traditional, no. It is a fusion idea built on Japanese flavours rather than a Japanese custom, which is worth saying plainly. The wagyu, the smoked Gouda and the pickles work together regardless."
   }
  ],
  "blog": [
@@ -161,5 +165,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

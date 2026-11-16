@@ -132,6 +132,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving for 8."
+  },
+  {
+   "q": "Is hummus allowed?",
+   "a": "Not really: chickpeas put a quarter cup at around 8 g net carbs. Swap it for baba ghanoush, which is aubergine-based and far lower, or a whipped feta dip, which suits this board better anyway."
   }
  ],
  "blog": [
@@ -142,5 +146,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

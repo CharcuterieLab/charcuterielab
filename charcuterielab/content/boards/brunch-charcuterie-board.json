@@ -159,6 +159,10 @@
   {
    "q": "What drinks go with a brunch board?",
    "a": "Mimosas, a light sparkling wine, coffee or fresh juice."
+  },
+  {
+   "q": "What can be done before guests arrive?",
+   "a": "Everything except the smoked salmon. Whip the Boursin and cream cheese, slice the fruit and lay the board an hour ahead, then drape the salmon last so it does not dry at the edges."
   }
  ],
  "blog": [
@@ -169,5 +173,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

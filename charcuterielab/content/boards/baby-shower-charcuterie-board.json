@@ -151,6 +151,10 @@
   {
    "q": "How much food for a baby shower board?",
    "a": "As the main food, about 2 to 3 oz each of cheese and meat per guest."
+  },
+  {
+   "q": "Can I make this the night before?",
+   "a": "Cut the cheddar stars and the Havarti and keep them covered; assemble in the morning. Herbed cream cheese is better made a day ahead, because the herbs need time to come through."
   }
  ],
  "blog": [
@@ -161,5 +165,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

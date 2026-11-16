@@ -6,7 +6,7 @@
  "image": "/images/50-boards-15-kid-friendly.webp",
  "h1": "Kid-Friendly Charcuterie Board",
  "seo_title": "Kid-Friendly Charcuterie Board: Easy Family Shopping List",
- "description": "A kid-friendly charcuterie board for 8–10 families: cheddar sticks, string cheese, pepperoni, rolled turkey, grapes, strawberries, Goldfish, pretzels and dips.",
+ "description": "A kid-friendly charcuterie board for 8–10: cheddar sticks, string cheese, pepperoni, rolled turkey, grapes, strawberries, Goldfish, pretzels and dips.",
  "hook": "No scary flavors, lots of color: a family board of foods kids already know, cut into shapes they can grab.",
  "serves": "8–10",
  "guests": 10,
@@ -151,6 +151,10 @@
   {
    "q": "Is it nut-free?",
    "a": "Use sunflower seed butter instead of peanut butter and check cracker labels for nut warnings."
+  },
+  {
+   "q": "What are the choking risks to watch for?",
+   "a": "Whole grapes, whole cherry tomatoes, round coins of hard sausage, whole nuts and olives with stones. Halve round fruit lengthways for under-fives and cut the pepperoni into strips rather than circles."
   }
  ],
  "blog": [
@@ -160,5 +164,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

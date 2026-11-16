@@ -109,6 +109,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 7 g net carbs per serving for 8."
+  },
+  {
+   "q": "What sweetener works on a dessert board?",
+   "a": "Erythritol and monk fruit both behave well cold and do not raise blood sugar. Sweeten the mascarpone lightly and let the raspberries and blackberries do the rest; they are the lowest-carb fruit you can put out."
   }
  ],
  "blog": [
@@ -119,5 +123,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

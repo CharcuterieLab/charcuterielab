@@ -135,6 +135,10 @@
   {
    "q": "Is there a version for two?",
    "a": "Yes. Boards for Two has a movie night board sized for a couple."
+  },
+  {
+   "q": "Will this survive two hours in a dark room?",
+   "a": "The cheddar, pepper jack, pepperoni and salami will. Put anything that drips or needs a knife on a separate plate, because nobody wants to deal with it once the film starts."
   }
  ],
  "blog": [
@@ -145,5 +149,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

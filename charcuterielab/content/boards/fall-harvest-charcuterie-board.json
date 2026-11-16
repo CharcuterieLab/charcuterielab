@@ -147,6 +147,10 @@
   {
    "q": "What if I can't find pumpkin butter?",
    "a": "Use apple butter. It does the same job next to the cheese."
+  },
+  {
+   "q": "What is actually in season in autumn?",
+   "a": "Pears, apples, figs, grapes, pomegranate, pecans and pumpkin seeds. Aged Gouda and manchego suit the season because their caramel notes sit well with all of them, which is why they anchor this board."
   }
  ],
  "blog": [
@@ -154,5 +158,6 @@
  ],
  "slug": "fall-harvest-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

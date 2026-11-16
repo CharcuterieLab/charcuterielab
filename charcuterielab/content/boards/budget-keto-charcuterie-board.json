@@ -115,6 +115,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 5 g net carbs per serving, shared by 6."
+  },
+  {
+   "q": "Do cheap cured meats add carbs?",
+   "a": "Sometimes. Budget pepperoni and salami often use dextrose or corn syrup solids in the cure, which puts 1 to 2 g on a serving. The ingredients list is short on a good one: pork, salt, spices, culture."
   }
  ],
  "blog": [
@@ -125,5 +129,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

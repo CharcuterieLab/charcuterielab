@@ -172,6 +172,10 @@
   {
    "q": "How do you keep the fondue warm?",
    "a": "Keep the main pot on low heat or in a fondue pot and refill the bread volcano every 15 to 20 minutes."
+  },
+  {
+   "q": "Can the fondue be made ahead?",
+   "a": "Make it ahead and reheat gently just before serving, stirring in a splash of wine if it has tightened. Pour it into the hollowed loaf at the table, because the spill over the edges is the whole trick and it only happens once."
   }
  ],
  "blog": [
@@ -182,5 +186,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

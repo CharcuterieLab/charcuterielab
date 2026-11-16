@@ -139,6 +139,10 @@
   {
    "q": "What wine goes with a cheese flight?",
    "a": "Champagne goes with almost every cheese. Otherwise a dry white for the soft cheeses and a light red for the hard ones."
+  },
+  {
+   "q": "What order should people taste six cheeses in?",
+   "a": "Mildest to strongest, moving clockwise: the triple-creme and Fontina first, then the chevre and Taleggio, and the hardest and bluest last. A strong cheese early flattens everything that follows it."
   }
  ],
  "blog": [
@@ -149,5 +153,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

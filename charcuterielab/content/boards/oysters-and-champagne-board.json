@@ -6,7 +6,7 @@
  "image": "/images/boards/two-16.webp",
  "h1": "Oysters & Champagne Board for Two",
  "seo_title": "Oysters & Champagne Board: Raw Bar at Home",
- "description": "An oysters and Champagne board for two: a dozen fresh oysters on ice, chilled shrimp, Comté, mignonette, cocktail sauce, lemon and baguette with salted butter.",
+ "description": "An oysters and Champagne board for two: a dozen fresh oysters on ice, chilled shrimp, Comté, mignonette, cocktail sauce, lemon and baguette and butter.",
  "hook": "A raw bar for two at home: a dozen oysters on crushed ice, chilled shrimp and one good cheese.",
  "serves": "2",
  "guests": 2,
@@ -114,6 +114,10 @@
   {
    "q": "Who shouldn't eat raw oysters?",
    "a": "Raw oysters can carry Vibrio and other bacteria, so health agencies advise against them for pregnant people, young children, older adults and anyone with a weakened immune system. Keep them on ice and eat them within an hour."
+  },
+  {
+   "q": "How long can shucked oysters sit on the ice?",
+   "a": "About 30 minutes, and they should be shucked as late as you can manage. Buy them live with closed shells, keep them in the fridge under a damp cloth rather than in water, and discard any that stay open when tapped."
   }
  ],
  "blog": [
@@ -124,5 +128,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

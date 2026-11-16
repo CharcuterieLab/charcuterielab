@@ -126,6 +126,10 @@
   {
    "q": "How much should I pack?",
    "a": "About 2 to 3 oz each of meat and cheese per person per snack."
+  },
+  {
+   "q": "How long will this keep without a fridge?",
+   "a": "A full day in a cool bag with a frozen bottle, and the aged cheddar, Parmesan, summer sausage and pepperoni are chosen because they are stable. Eat anything soft on the first evening."
   }
  ],
  "blog": [
@@ -136,5 +140,5 @@
  "status": "published",
  "wave": 4,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

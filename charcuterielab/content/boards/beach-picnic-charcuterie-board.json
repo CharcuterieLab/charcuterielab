@@ -126,6 +126,10 @@
   {
    "q": "How do you keep sand off?",
    "a": "Build it on a board with a lid or in a shallow container, and only open it when you're ready to eat."
+  },
+  {
+   "q": "What holds up in the heat?",
+   "a": "Parmesan, sharp cheddar, pepperoni and hard salami all do. Leave soft cheese at home entirely; it sweats within twenty minutes on a beach and never recovers."
   }
  ],
  "blog": [
@@ -136,5 +140,5 @@
  "status": "published",
  "wave": 4,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

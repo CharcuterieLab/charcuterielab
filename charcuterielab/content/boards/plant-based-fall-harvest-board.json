@@ -139,10 +139,15 @@
   {
    "q": "Where do I find aged cashew cheese?",
    "a": "Well-stocked grocery stores carry cultured cashew cheeses near the specialty cheese. A cashew brie also works."
+  },
+  {
+   "q": "What is vegan labneh, and where is it?",
+   "a": "Strained coconut or cashew yoghurt, thick enough to scoop, sold in the refrigerated vegan section. If you cannot find it, strain plain coconut yoghurt through muslin overnight and you will have the same thing."
   }
  ],
  "blog": [],
  "slug": "plant-based-fall-harvest-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

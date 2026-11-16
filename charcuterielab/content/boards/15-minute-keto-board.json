@@ -111,6 +111,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving for four."
+  },
+  {
+   "q": "What on a quick board secretly adds carbs?",
+   "a": "Deli ham is the usual culprit, because honey-glazed and brown-sugar cures add 2 to 3 g a serving. Buy plain roast ham, and check the mozzarella pearls are packed in water rather than a sweetened marinade."
   }
  ],
  "blog": [
@@ -121,5 +125,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

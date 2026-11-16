@@ -134,6 +134,10 @@
   {
    "q": "How many people does it serve?",
    "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  },
+  {
+   "q": "Which plant cheese should I buy first?",
+   "a": "A cultured cashew brie. It is the one that behaves most like dairy cheese on a board, and it convinces people who have been disappointed by vegan cheese before. Start there and add a harder aged style next."
   }
  ],
  "blog": [
@@ -143,5 +147,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

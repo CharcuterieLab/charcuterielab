@@ -195,6 +195,10 @@
   {
    "q": "How do you keep a big table from getting crowded?",
    "a": "Repeat each cheese and meat at both ends and put crackers in several clusters so guests can approach from every side."
+  },
+  {
+   "q": "How far ahead can a board this size be built?",
+   "a": "Four hours in the fridge, covered. Build it on the serving surface, because nothing this size can be moved once it is laid. Take it out 30 minutes before guests arrive so the brie and Gruyere soften."
   }
  ],
  "blog": [
@@ -205,5 +209,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

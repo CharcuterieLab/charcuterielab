@@ -128,6 +128,10 @@
   {
    "q": "How long can it sit out?",
    "a": "No more than 2 hours, or 1 hour above 90°F, which matters on a balcony in the tropics. Keep the meat in the mini fridge until you're ready."
+  },
+  {
+   "q": "Will the lychees keep if we do not finish them?",
+   "a": "Peeled lychees go soft within a day, so peel only what you will eat and leave the rest in their shells, where they keep about a week. The smoked duck is the other thing to eat promptly; the Gouda and manchego will wait."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

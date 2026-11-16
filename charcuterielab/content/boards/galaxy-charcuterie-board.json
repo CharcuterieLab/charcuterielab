@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the cheese ball planets the day before and keep them covered in the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Do the cheese ball planets need chilling?",
+   "a": "Yes, firm them in the fridge for an hour before they go on the board or they flatten under their own weight. The grated Parmesan rings should go on last, because they absorb moisture and clump."
   }
  ],
  "blog": [
@@ -169,5 +173,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

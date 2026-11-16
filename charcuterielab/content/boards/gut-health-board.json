@@ -126,6 +126,10 @@
   {
    "q": "Do store-bought pickles contain live cultures?",
    "a": "Only refrigerated, fermented ones. Shelf-stable pickles and sauerkraut are usually pasteurized or made with vinegar, so look in the fridge case for labels that say fermented or raw."
+  },
+  {
+   "q": "Does cooking kill the probiotics?",
+   "a": "Heat does, so keep the kimchi and sauerkraut cold and uncooked on the board. Look for them in the refrigerated section rather than on a shelf; shelf-stable versions have been pasteurised and the live cultures are gone."
   }
  ],
  "blog": [],
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

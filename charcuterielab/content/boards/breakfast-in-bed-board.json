@@ -123,6 +123,10 @@
   {
    "q": "Can I prep it the night before?",
    "a": "Wash the berries and portion the yogurt and granola the night before. Build the tray in the morning, about 10 minutes."
+  },
+  {
+   "q": "Can I get this ready the night before?",
+   "a": "Slice the Gruyere and the ham and keep them covered in the fridge, and leave the croissants out in a paper bag. The brie wants 30 minutes out of the fridge before you carry it up, so take it out when the kettle goes on."
   }
  ],
  "blog": [
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -167,6 +167,10 @@
   {
    "q": "What wine goes with a dessert cheese board?",
    "a": "Port, late-harvest white or a sweet sparkling wine like Moscato d'Asti."
+  },
+  {
+   "q": "Should this replace dessert or come after it?",
+   "a": "Instead of it. A cheese and chocolate board after a full pudding is more than anyone wants; served in place of dessert with coffee, the aged Gouda and honeycomb do the same job more lightly."
   }
  ],
  "blog": [
@@ -177,5 +181,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

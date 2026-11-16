@@ -119,6 +119,10 @@
   {
    "q": "Can I swap ingredients?",
    "a": "Yes. Any firm cheese works for the cheddar and any soft one for the brie. Pears work instead of apple."
+  },
+  {
+   "q": "Can I make this even cheaper?",
+   "a": "Buy the cheddar as a block rather than pre-sliced and break it into shards, skip the brie and double the apple and grapes. It lands nearer $10 and still looks like a board rather than a plate."
   }
  ],
  "blog": [
@@ -129,5 +133,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

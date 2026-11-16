@@ -118,6 +118,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 5 g net carbs per serving for 8."
+  },
+  {
+   "q": "Is barbecue sauce off the board?",
+   "a": "Standard sauce is mostly sugar, so yes. Use a no-sugar-added sauce or lean on dry rub and smoke instead, which is where the flavour mostly comes from anyway. The bacon and smoked Gouda carry it without help."
   }
  ],
  "blog": [
@@ -128,5 +132,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

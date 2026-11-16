@@ -155,10 +155,15 @@
   {
    "q": "Can I make it spicier?",
    "a": "Add pickled jalapeños next to the pepper jack and a hot honey drizzle over the cheddar."
+  },
+  {
+   "q": "Should I put it all out at kick-off?",
+   "a": "Put out half and refill at half time. Cheese sweats and pepperoni curls after two hours, and a board that has sat through the whole game stops being appetising by the fourth quarter."
   }
  ],
  "blog": [],
  "slug": "game-day-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

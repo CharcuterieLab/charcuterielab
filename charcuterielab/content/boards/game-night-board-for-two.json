@@ -123,6 +123,10 @@
   {
    "q": "Can I make it less spicy?",
    "a": "Yes. Swap the calabrese for Genoa salami and use plain honey instead of hot honey."
+  },
+  {
+   "q": "Can we build this a few hours before people sit down?",
+   "a": "Yes, and it is one of the better boards for it. Cut the Gouda and pepper jack and keep them covered, the summer sausage and spicy salami hold at room temperature for a couple of hours, and the spicy honey needs no attention at all."
   }
  ],
  "blog": [
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

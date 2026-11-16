@@ -166,6 +166,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the reindeer and cube the cheese presents the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "How far ahead can I build the sleigh?",
+   "a": "Three or four hours covered in the fridge. The breadstick runners soften if they touch anything damp, so sit them on a dry strip of board and keep the fruit away from them."
   }
  ],
  "blog": [
@@ -176,5 +180,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

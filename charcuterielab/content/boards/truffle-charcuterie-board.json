@@ -6,7 +6,7 @@
  "image": "/images/50-boards-44-truffle-and-luxury.webp",
  "h1": "Black Truffle & Jamón Luxury Board",
  "seo_title": "Truffle Charcuterie Board: Luxury Shopping List",
- "description": "A truffle luxury charcuterie board for 6–10: 24-month Comté, truffle pecorino, Époisses, Brillat-Savarin, jamón ibérico, shaved black truffle and truffle honey.",
+ "description": "A truffle luxury charcuterie board for 6–10: 24-month Comté, truffle pecorino, Époisses, Brillat-Savarin, jamón ibérico, shaved truffle and truffle honey.",
  "hook": "The most decadent board in the first book: shaved truffle, jamón ibérico and four serious cheeses.",
  "serves": "6–10",
  "guests": 10,
@@ -147,6 +147,10 @@
   {
    "q": "What wine goes with it?",
    "a": "Nebbiolo, aged Champagne or a white Burgundy."
+  },
+  {
+   "q": "Is fresh truffle worth it over truffle oil?",
+   "a": "For this board, yes, and shaving it at the table is the part people remember. Most truffle oil is synthetic and tastes of one note; a small fresh truffle shaved over the Comte does something oil cannot."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

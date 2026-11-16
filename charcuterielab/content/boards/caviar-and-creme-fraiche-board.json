@@ -109,6 +109,10 @@
   {
    "q": "How do you keep caviar cold?",
    "a": "Set the tin on crushed ice and open it right before serving. Use a bone, mother-of-pearl or plastic spoon; metal can give it a slight off taste."
+  },
+  {
+   "q": "How long does an opened tin of caviar keep?",
+   "a": "Two to three days at the back of the fridge, pressed flat with the lid back on so no air sits over it. It will not freeze well. The smoked salmon keeps about the same, and the creme fraiche considerably longer."
   }
  ],
  "blog": [
@@ -119,5 +123,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

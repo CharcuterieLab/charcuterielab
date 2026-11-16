@@ -143,6 +143,10 @@
   {
    "q": "What wine goes with this board?",
    "a": "A dry white like Sauvignon Blanc for the brie and a light red like Pinot Noir for the Manchego and speck."
+  },
+  {
+   "q": "How much do six to ten people actually eat while talking?",
+   "a": "Less than you would think, because the conversation gets in the way. About 1.5 oz of cheese each is right for a board that sits out for two hours, and the Gorgonzola dolce will be the first thing gone."
   }
  ],
  "blog": [
@@ -153,5 +157,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

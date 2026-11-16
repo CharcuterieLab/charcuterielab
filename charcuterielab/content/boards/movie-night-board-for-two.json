@@ -6,7 +6,7 @@
  "image": "/images/boards/two-12.webp",
  "h1": "Couch Movie Night Board for Two",
  "seo_title": "Movie Night Charcuterie Board for Two: Sweet & Salty Plan",
- "description": "A movie night charcuterie board for two: sharp white cheddar, pepper jack, pepperoni, salami, butter popcorn, chocolate-covered pretzels and mini peanut butter.",
+ "description": "A movie night charcuterie board for two: white cheddar, pepper jack, pepperoni, salami, butter popcorn, chocolate-covered pretzels and peanut butter cups.",
  "hook": "Sweet, salty and made for the couch: everything on it can be eaten in the dark with one hand.",
  "serves": "2",
  "guests": 2,
@@ -119,6 +119,10 @@
   {
    "q": "What should I drink?",
    "a": "A crisp lager or a slightly sparkling red like Lambrusco. Both handle salty and sweet snacks."
+  },
+  {
+   "q": "Does the popcorn go soft next to the cheese?",
+   "a": "Within about an hour, yes. Put it in its own bowl beside the board rather than on it, and the cheddar and pepperoni will not soften it. Everything else here keeps for days."
   }
  ],
  "blog": [
@@ -129,5 +133,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

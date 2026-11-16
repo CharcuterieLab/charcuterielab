@@ -171,6 +171,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the cheese and fan the meats the day before. Slice the apples last and toss them in lemon juice. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Is the fanned tail difficult?",
+   "a": "It is the easiest version of the technique on this page: overlapping slices in an arc, each one covering the last by about half. If a slice sits wrong, lift the ones after it rather than tugging at the middle."
   }
  ],
  "blog": [
@@ -181,5 +185,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -137,6 +137,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving for 6."
+  },
+  {
+   "q": "Can I have fruit on a keto brunch board?",
+   "a": "Berries only, and in small amounts. A quarter cup of raspberries is about 1.5 g net carbs; the same of grapes is nearer 7 g. The smoked salmon and cream cheese are where this board does its work."
   }
  ],
  "blog": [
@@ -147,5 +151,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

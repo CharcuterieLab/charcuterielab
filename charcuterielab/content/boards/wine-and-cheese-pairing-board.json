@@ -142,6 +142,10 @@
   {
    "q": "How many people does it serve?",
    "a": "8 to 12 people on a 20–24 inch board."
+  },
+  {
+   "q": "How much wine do I need per person for a tasting?",
+   "a": "About two ounces a pairing and no more than four pairings, which is one standard glass each in total. Give everyone water and plain bread between, or the fourth pairing tastes like the third."
   }
  ],
  "blog": [
@@ -152,5 +156,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

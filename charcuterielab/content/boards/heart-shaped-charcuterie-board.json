@@ -135,6 +135,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the roses the day before and keep them covered in the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Fifty salami roses sounds like a lot. Is it?",
+   "a": "It is about 40 minutes once you have the rhythm, and every rose is the same move: slices draped over a small glass, then turned out. Make them all at once into a tray, then place them."
   }
  ],
  "blog": [
@@ -145,5 +149,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

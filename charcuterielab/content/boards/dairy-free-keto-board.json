@@ -6,7 +6,7 @@
  "image": "/images/boards/keto-18.webp",
  "h1": "Dairy-Free Keto Board",
  "seo_title": "Dairy-Free Keto Charcuterie Board (No Cheese): Shopping List",
- "description": "A dairy-free keto board for 6 with no cheese: salami, prosciutto, chorizo, smoked salmon, eggs, avocado, olives, pickles, macadamia nuts and crunchy vegetables.",
+ "description": "A dairy-free keto board for 6 with no cheese: salami, prosciutto, chorizo, smoked salmon, eggs, avocado, olives, pickles, macadamia nuts and crisp vegetables.",
  "hook": "All the richness, none of the cheese: a keto board for guests who can't have dairy.",
  "serves": "6",
  "guests": 6,
@@ -140,6 +140,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving for 6."
+  },
+  {
+   "q": "What replaces the fat that cheese usually provides?",
+   "a": "Avocado, macadamia nuts and olives do most of it here, and the dry-cured chorizo carries more fat than lean deli meat would. Without cheese you need those deliberately, or the board leaves people hungry."
   }
  ],
  "blog": [
@@ -150,5 +154,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

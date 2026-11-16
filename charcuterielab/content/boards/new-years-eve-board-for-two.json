@@ -128,6 +128,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Prep the toppings in the afternoon and build the board about 30 minutes before you sit down. Refill from the fridge before midnight so nothing sits out longer than 2 hours."
+  },
+  {
+   "q": "Can we set this up before guests arrive?",
+   "a": "Build it up to four hours ahead and keep it covered in the fridge, then take it out 30 minutes before midnight. Add the smoked salmon last, and keep the grapes dry or they bead and make everything else damp."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

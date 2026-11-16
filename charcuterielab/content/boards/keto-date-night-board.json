@@ -115,6 +115,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving."
+  },
+  {
+   "q": "Is wine keto?",
+   "a": "Dry wine, in moderation. A glass of dry red or white is around 3 to 4 g carbs; sweet wines and most cocktails are far higher. The brie and manchego here both take a dry red without trouble."
   }
  ],
  "blog": [
@@ -125,5 +129,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

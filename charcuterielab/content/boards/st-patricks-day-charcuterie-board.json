@@ -143,6 +143,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Slice the cheese and soda bread a few hours ahead and keep them wrapped. Cut the apple last so it doesn't brown. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "Is Irish cheddar different from ordinary cheddar?",
+   "a": "It is usually made from grass-fed milk, which gives it a deeper yellow colour and a slightly sweeter, grassier flavour. Dubliner and Kerrygold aged are both easy to find and both work here."
   }
  ],
  "blog": [
@@ -152,5 +156,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

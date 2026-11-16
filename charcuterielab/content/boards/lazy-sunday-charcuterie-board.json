@@ -123,6 +123,10 @@
   {
    "q": "What should I drink?",
    "a": "Dry rosé or a sparkling cider."
+  },
+  {
+   "q": "What do we do with the leftover hummus?",
+   "a": "Thin it with a little olive oil and lemon and it becomes a dressing, or spread it on toast under the leftover smoked turkey. The brie and cheddar keep; opened hummus is best inside three days."
   }
  ],
  "blog": [
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -138,6 +138,10 @@
   {
    "q": "How many people does it serve?",
    "a": "8 to 12 people on a 16–20 inch board."
+  },
+  {
+   "q": "How do I stop it wilting outside?",
+   "a": "Keep it in shade, set the board on a tray of ice, and put out half at a time. Fresh mozzarella and Havarti go first in heat, so lay those last and keep the rest in the fridge until needed."
   }
  ],
  "blog": [
@@ -147,5 +151,5 @@
  "status": "published",
  "wave": 4,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

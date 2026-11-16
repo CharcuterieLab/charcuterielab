@@ -139,6 +139,10 @@
   {
    "q": "How many people does it serve?",
    "a": "6 to 8 people as an appetizer, on a 14–18 inch board."
+  },
+  {
+   "q": "Is shop-bought hummus good enough?",
+   "a": "For a board, yes, and it saves the time better spent on the baba ghanoush. Buy plain rather than flavoured, thin it with a little olive oil and lemon, and finish it with a pool of oil and paprika on top."
   }
  ],
  "blog": [],
@@ -146,5 +150,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

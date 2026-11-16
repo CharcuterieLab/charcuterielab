@@ -150,6 +150,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cook the skewers and make the salsa the day before. Keep the shrimp on ice until serving. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Will the cracker sand go soft?",
+   "a": "Yes, within about an hour if it touches the fruit. Crush the crackers and add them just before serving, and keep the blue corn chip sea separated from anything wet by a ridge of cheese."
   }
  ],
  "blog": [
@@ -160,5 +164,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

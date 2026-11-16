@@ -147,6 +147,10 @@
   {
    "q": "What drink goes with it?",
    "a": "A cold lager or a Wisconsin-style brandy old fashioned."
+  },
+  {
+   "q": "What makes a board Midwestern?",
+   "a": "Summer sausage, Colby Jack and a whipped cream cheese spread, all of which are regional staples rather than imports. It is the least fussy board on the site and that is the point of it."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

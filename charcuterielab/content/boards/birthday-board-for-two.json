@@ -128,6 +128,10 @@
   {
    "q": "What should I drink with it?",
    "a": "Champagne or Crémant. The bubbles and acidity work with both the cheese and the sweets."
+  },
+  {
+   "q": "Is this too much food for two people?",
+   "a": "It is a generous board rather than a meal for two, which is the point on a birthday. The gouda and salami keep for a week, and the macarons are the only thing that will not wait, so eat those first."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

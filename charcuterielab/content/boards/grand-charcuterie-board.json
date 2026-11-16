@@ -211,6 +211,10 @@
   {
    "q": "Can I build it ahead?",
    "a": "Cut the hard cheeses and make the bowls the day before. Build it within an hour of guests arriving and refill from the fridge. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "Is one huge board better than several smaller ones?",
+   "a": "Several. Thirty people cannot reach one board, and a queue forms. Build the same contents as two or three mirrored boards down a table and everybody eats at once."
   }
  ],
  "blog": [
@@ -221,5 +225,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

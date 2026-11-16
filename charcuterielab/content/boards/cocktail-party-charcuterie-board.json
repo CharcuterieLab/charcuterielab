@@ -151,6 +151,10 @@
   {
    "q": "How do I make everything one-bite?",
    "a": "Cut the cheese into small triangles, fold the meats in quarters and use crostini instead of a whole baguette."
+  },
+  {
+   "q": "How do I lay this out for people standing up?",
+   "a": "Everything has to be one-handed. Cube the Gruyere and manchego rather than leaving wedges to cut, skip anything that needs a knife, and put the board where people can reach it from both sides."
   }
  ],
  "blog": [
@@ -158,5 +162,6 @@
  ],
  "slug": "cocktail-party-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

@@ -6,7 +6,7 @@
  "image": "/images/boards/impossible-14.webp",
  "h1": "Charcuterie Cake (The Cake That Isn't)",
  "seo_title": "Charcuterie Cake: A Savory Birthday Cake Made of Cheese",
- "description": "A charcuterie cake for 12 to 15: a towering slice of 'birthday cake' with cheese layers, salami jam, cream cheese frosting and sprinkles. Then you cut into it.",
+ "description": "A charcuterie cake for 12 to 15: a towering slice of 'birthday cake' with cheese layers, salami jam, cream cheese frosting and sprinkles. Then you cut it.",
  "hook": "It looks like a towering slice of birthday cake, with frosting, sprinkles and a cherry on top. Then you cut into it.",
  "serves": "12–15",
  "guests": 15,
@@ -138,6 +138,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Build and chill the cake the day before, and frost it on the day. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Will it hold together when we cut it?",
+   "a": "If it has been chilled, yes. An hour in the fridge sets the cheddar layers and the salami between them so a knife goes through cleanly. Cut it cold and let the slices come to room temperature on the plate."
   }
  ],
  "blog": [
@@ -148,5 +152,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

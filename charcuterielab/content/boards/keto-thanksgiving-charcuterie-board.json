@@ -131,6 +131,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 4 g net carbs per serving for 10."
+  },
+  {
+   "q": "How do I make this look like Thanksgiving without the carbs?",
+   "a": "Colour does it: cranberries rather than cranberry sauce, pecans, rosemary sprigs and sliced pear kept to a few pieces. The smoked turkey and Gruyere give the board its holiday weight without any of the usual starch."
   }
  ],
  "blog": [
@@ -141,5 +145,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

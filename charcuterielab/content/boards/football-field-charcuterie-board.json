@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the vegetables and cheese the day before. Refill the sidelines at halftime from the fridge. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Can I set this up before the game?",
+   "a": "Yes, up to three hours ahead covered in the fridge. The cucumber and snap pea rows hold their lines well. Add the string cheese yard markers last so they stay bright white against the green."
   }
  ],
  "blog": [
@@ -168,5 +172,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

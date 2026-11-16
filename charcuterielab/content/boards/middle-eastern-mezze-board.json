@@ -156,6 +156,10 @@
   {
    "q": "Can it be vegetarian?",
    "a": "Yes. Leave out the meatballs and merguez and add falafel or extra halloumi."
+  },
+  {
+   "q": "Where do I buy merguez?",
+   "a": "Halal butchers and Middle Eastern groceries carry it fresh, and some larger supermarkets stock it frozen. It is lamb with harissa, so a spicy lamb sausage is the nearest substitute if you cannot find it."
   }
  ],
  "blog": [
@@ -166,5 +170,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

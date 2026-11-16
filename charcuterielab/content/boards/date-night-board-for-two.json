@@ -143,6 +143,10 @@
   {
    "q": "What wine goes with a date night board?",
    "a": "A dry sparkling wine, Pinot Noir or a light rosé all suit the creamy cheeses and the chocolate."
+  },
+  {
+   "q": "Is a whole board too much for two?",
+   "a": "Two people finish about half of it, which leaves the second night's snack. The chevre and brie should go within four or five days; the aged Gouda and bresaola will outlast the week."
   }
  ],
  "blog": [
@@ -152,5 +156,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -128,6 +128,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 9 g net carbs per serving for 4."
+  },
+  {
+   "q": "What travels and what does not?",
+   "a": "Hard cheese, salami and pepperoni travel well and sit happily at ambient temperature for a couple of hours. Leave soft cheeses at home for a picnic, and pack a frozen bottle of water in with the cheddar and Gouda."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -143,6 +143,10 @@
   {
    "q": "Is smoked salmon safe during pregnancy?",
    "a": "Refrigerated cold-smoked salmon is on the CDC's list to avoid during pregnancy unless it's cooked. Shrimp cocktail (cooked) is fine if it's kept cold."
+  },
+  {
+   "q": "How long can smoked fish sit out?",
+   "a": "About an hour before the edges dry and darken. Keep the smoked salmon and trout in the fridge until the moment people sit down, and lay them over ice if the room is warm."
   }
  ],
  "blog": [
@@ -153,5 +157,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

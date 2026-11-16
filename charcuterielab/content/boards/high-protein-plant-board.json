@@ -143,6 +143,10 @@
   {
    "q": "How many people does it serve?",
    "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  },
+  {
+   "q": "How much protein is actually on this board?",
+   "a": "Around 20 to 25 g a serving, mostly from the edamame, tempeh, lupini beans and chickpeas. Lupini are the quiet hero at about 16 g a half cup, and most people have never tried them."
   }
  ],
  "blog": [],
@@ -150,5 +154,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

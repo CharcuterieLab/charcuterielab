@@ -163,6 +163,10 @@
   {
    "q": "How much dessert per person?",
    "a": "About 3 to 4 oz of sweets and fruit per person after dinner."
+  },
+  {
+   "q": "Does the chocolate need tempering or special handling?",
+   "a": "No, but keep it cool. Chocolate blooms and goes chalky if it warms and re-sets, so lay it last and keep the board away from candles and warm lamps."
   }
  ],
  "blog": [
@@ -173,5 +177,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

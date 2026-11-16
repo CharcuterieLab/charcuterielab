@@ -6,7 +6,7 @@
  "image": "/images/50-boards-46-low-carb-keto.webp",
  "h1": "Keto Party Board: 4 Cheeses, 4 Meats, Zero Crackers",
  "seo_title": "Keto Charcuterie Board: What's On It & Net Carbs per Serving",
- "description": "A low-carb keto board for 6–10: aged cheddar, Gouda, brie, Parmesan, Genoa salami, prosciutto, bresaola, endive, celery, bacon crisps and berries. No crackers.",
+ "description": "A low-carb keto board for 6–10: cheddar, Gouda, brie, Parmesan, Genoa salami, prosciutto, bresaola, endive, celery, bacon crisps and berries. No crackers.",
  "hook": "Zero crackers, fat-forward and full of flavor: four cheeses and four meats with endive, celery and bacon crisps to carry them.",
  "serves": "6–10",
  "guests": 10,
@@ -159,6 +159,10 @@
   {
    "q": "Are there more keto boards?",
    "a": "Yes. Keto & Low-Carb Boards has 20 more, each with net carbs per serving."
+  },
+  {
+   "q": "What do I put out instead of crackers?",
+   "a": "Cheese crisps, pork rinds, cucumber rounds, endive leaves and celery all carry a topping the way a cracker does. Parmesan crisps are the closest in texture and you can make them from the Parmesan already on the board."
   }
  ],
  "blog": [
@@ -169,5 +173,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

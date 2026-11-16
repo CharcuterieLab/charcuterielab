@@ -6,7 +6,7 @@
  "image": "/images/boards/keto-19.webp",
  "h1": "Lean High-Protein Board: Turkey, Shrimp & Bresaola",
  "seo_title": "High-Protein Charcuterie Board: Lean Meats & What to Buy",
- "description": "A high-protein, lower-fat charcuterie board for 6: Swiss, Parmesan, part-skim mozzarella, bresaola, smoked turkey, shrimp, eggs, snap peas and cherry tomatoes.",
+ "description": "A high-protein, lower-fat charcuterie board for 6: Swiss, Parmesan, part-skim mozzarella, bresaola, smoked turkey, shrimp, eggs, snap peas and tomatoes.",
  "hook": "Lean meats, seafood and hard cheeses: the board for people counting protein as well as carbs.",
  "serves": "6",
  "guests": 6,
@@ -132,6 +132,10 @@
   {
    "q": "How much protein per serving?",
    "a": "About 54 g of protein per serving for 6, from the book's nutrition breakdown."
+  },
+  {
+   "q": "How much protein does this board actually give?",
+   "a": "Roughly 30 to 35 g a serving, from the bresaola, turkey, shrimp and part-skim cheeses. It is built lean rather than fatty, which is the opposite of most keto boards and the reason it works for high-protein rather than high-fat eating."
   }
  ],
  "blog": [
@@ -142,5 +146,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

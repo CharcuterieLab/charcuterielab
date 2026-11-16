@@ -115,6 +115,10 @@
   {
    "q": "How long does it take?",
    "a": "About 10 to 15 minutes to slice and arrange."
+  },
+  {
+   "q": "Is this enough food for two?",
+   "a": "As a snack, yes. As dinner it is light, so add a boiled egg each or more prosciutto. Fat is filling, which is why a small keto plate holds two people longer than the same weight of crackers and fruit would."
   }
  ],
  "blog": [
@@ -125,5 +129,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

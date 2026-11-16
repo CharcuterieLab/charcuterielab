@@ -151,6 +151,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the cheese and wash the grapes the day before. Build it within 2 hours of midnight. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Will the salami outline hold its shape?",
+   "a": "Yes, better than most. Folded Genoa salami grips black slate well and the shape is a simple silhouette, so a nudged slice can be pushed straight back without redrawing anything."
   }
  ],
  "blog": [
@@ -161,5 +165,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

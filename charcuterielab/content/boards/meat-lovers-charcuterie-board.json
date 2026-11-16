@@ -155,6 +155,10 @@
   {
    "q": "What cheese goes with a meat-heavy board?",
    "a": "One hard, salty cheese like aged Parmesan or Pecorino. It stands up to the meats without competing."
+  },
+  {
+   "q": "In what order should the meats be laid?",
+   "a": "Mild to intense, left to right: prosciutto and bresaola first, then speck, then soppressata. Each one should be cut and folded the way its texture wants, which is loose folds for the delicate ones and flat fans for the firm."
   }
  ],
  "blog": [
@@ -165,5 +169,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

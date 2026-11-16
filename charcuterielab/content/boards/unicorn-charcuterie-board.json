@@ -146,6 +146,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Mix the cream cheese and feta and cube the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "How do I get the pastel colours without food dye?",
+   "a": "Use the food itself: white cheeses, pink prosciutto and watermelon, pale green grapes and honeydew, purple blackberries. Keeping each colour in its own band of the mane is what makes it read as a rainbow."
   }
  ],
  "blog": [
@@ -156,5 +160,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

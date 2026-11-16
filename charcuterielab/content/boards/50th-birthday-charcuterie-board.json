@@ -207,6 +207,10 @@
   {
    "q": "Can I make it smaller?",
    "a": "Yes. Halve every quantity and use four or five cheeses and four meats for 10 to 15 people."
+  },
+  {
+   "q": "How do I scale this for 40 instead of 30?",
+   "a": "Add a second of each cheese rather than buying bigger wedges, and spread the board over two surfaces. One long table of two boards serves a crowd far better than one enormous board people cannot reach across."
   }
  ],
  "blog": [
@@ -217,5 +221,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

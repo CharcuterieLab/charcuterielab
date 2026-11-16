@@ -147,6 +147,10 @@
   {
    "q": "Can I make the guacamole ahead?",
    "a": "A few hours ahead at most. Press plastic wrap onto the surface and add extra lime to slow browning."
+  },
+  {
+   "q": "What is the difference between queso fresco and cotija?",
+   "a": "Queso fresco is soft, mild and milky and crumbles into damp pieces; cotija is hard, salty and dry and grates like Parmesan. Both are on this board because they do opposite jobs."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

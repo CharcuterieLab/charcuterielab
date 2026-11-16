@@ -127,6 +127,10 @@
   {
    "q": "How do I keep it safe during a long game?",
    "a": "Put out half and refill from the fridge at halftime. Keep meat, cheese and cut produce out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "How do I keep this going for a long game?",
+   "a": "Put out half and refill, rather than laying it all at once. Cheese sweats and pepperoni curls after a couple of hours at room temperature, and a board that has sat through three quarters stops looking appetising."
   }
  ],
  "blog": [
@@ -137,5 +141,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -110,6 +110,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 4 g net carbs per serving for 6."
+  },
+  {
+   "q": "Is cheese allowed on a carnivore board?",
+   "a": "On the relaxed version, yes, which is what this board is. Strict carnivore excludes dairy altogether; if you are following that, drop the cheddar, Gruyere and Parmesan and double the prosciutto and eggs."
   }
  ],
  "blog": [
@@ -120,5 +124,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

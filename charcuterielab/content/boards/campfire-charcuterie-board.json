@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the cheese balls and cut the peppers the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "How long will the pepper flames stand up?",
+   "a": "Three to four hours if the peppers are patted dry and pushed firmly into the cheese base. They lean once the cheese warms, so keep the board out of sun and off a warm counter."
   }
  ],
  "blog": [
@@ -169,5 +173,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

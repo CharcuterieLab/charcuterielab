@@ -147,6 +147,10 @@
   {
    "q": "What wine goes with this board?",
    "a": "Oregon Pinot Noir. It's light enough for salmon and has the fruit for the berries and jam."
+  },
+  {
+   "q": "Can I get Beecher's and Tillamook outside the Northwest?",
+   "a": "Tillamook is national now, and Beecher's Flagship ships from their own site and appears in better cheese counters. If neither is near you, any clothbound cheddar and a good aged white will carry the board."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

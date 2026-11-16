@@ -135,6 +135,10 @@
   {
    "q": "How many people does it serve?",
    "a": "6 to 8 people as an appetizer, on a 14–16 inch board."
+  },
+  {
+   "q": "Does walnut pate taste anything like the real thing?",
+   "a": "It is its own thing rather than an imitation, and better for it: earthy, rich and coarse. Walnuts, mushrooms and thyme give it the savoury depth that makes pate work, and it spreads the same way on baguette."
   }
  ],
  "blog": [],
@@ -142,5 +146,5 @@
  "status": "published",
  "wave": 3,
  "date": "2026-10-06",
- "updated": "2026-10-06"
+ "updated": "2026-11-16"
 }

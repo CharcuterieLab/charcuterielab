@@ -139,6 +139,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cube the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "How far ahead can I lay the face?",
+   "a": "An hour or two. Olives and blackberries bleed a little into pale food, so keep the face on the orange cheddar and carrots where it will not show, and pat everything dry before it goes down."
   }
  ],
  "blog": [
@@ -149,5 +153,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

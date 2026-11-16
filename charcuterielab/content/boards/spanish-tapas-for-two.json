@@ -123,6 +123,10 @@
   {
    "q": "What wine goes with tapas?",
    "a": "Fino sherry, which is dry and nutty, or a Rioja Crianza."
+  },
+  {
+   "q": "What keeps and what does not?",
+   "a": "The manchego, jamon and chorizo all keep for a week or more, and the membrillo keeps for months in the fridge. It is a board with almost no waste, which is part of why it works for two."
   }
  ],
  "blog": [
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -175,6 +175,10 @@
   {
    "q": "How do I stop the apples and pears going brown?",
    "a": "Slice them last and toss the slices in a little lemon juice or lemon-lime soda."
+  },
+  {
+   "q": "Will this spoil people's appetite for dinner?",
+   "a": "Keep it to about 1 oz of cheese a head and lean on the fruit and nuts if dinner is within two hours. It is there to hold people off, not to compete with the turkey."
   }
  ],
  "blog": [
@@ -182,5 +186,6 @@
  ],
  "slug": "thanksgiving-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

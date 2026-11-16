@@ -6,7 +6,7 @@
  "image": "/images/boards/two-02.webp",
  "h1": "Valentine's Day Charcuterie Board for Two",
  "seo_title": "Valentine's Day Charcuterie Board for Two: Shopping List",
- "description": "A Valentine's Day charcuterie board for two: triple-crème brie, aged Gouda, prosciutto roses, strawberries, raspberries and dark chocolate, with sparkling rosé.",
+ "description": "A Valentine's Day charcuterie board for two: triple-crème brie, Gouda, prosciutto roses, strawberries, raspberries and dark chocolate, with sparkling rosé.",
  "hook": "Red, rich and entirely intentional: a small board in reds and pinks that ends on dark chocolate.",
  "serves": "2",
  "guests": 2,
@@ -128,6 +128,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Wash the berries and fold the roses up to a few hours ahead and keep them covered in the fridge. Build the board about 30 minutes before you eat."
+  },
+  {
+   "q": "Can I build it earlier in the day?",
+   "a": "Yes, up to four hours ahead, covered in the fridge. Add the strawberries last, because they weep and the juice runs into the prosciutto. Take the whole board out 30 minutes before you serve it."
   }
  ],
  "blog": [
@@ -138,5 +142,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -171,6 +171,10 @@
   {
    "q": "Can I build it early in the evening?",
    "a": "Yes. Build it about 30 minutes before guests arrive and hold back half the crackers to refill after midnight."
+  },
+  {
+   "q": "What should I pour with it?",
+   "a": "Dry sparkling wine, which cuts through the brie and the Gruyere and suits the Stilton less obviously than port does. Pour the port for the blue later in the evening if people are still eating."
   }
  ],
  "blog": [
@@ -178,5 +182,6 @@
  ],
  "slug": "new-years-eve-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

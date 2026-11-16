@@ -6,7 +6,7 @@
  "image": "/images/boards/impossible-16.webp",
  "h1": "Mandala Charcuterie Board",
  "seo_title": "Mandala Charcuterie Board: Nine Rings & Shopping List",
- "description": "A mandala charcuterie board for 12 to 15: nine perfect rings of salami roses, prosciutto, Manchego, cheddar diamonds, berries and cucumbers around a whole brie.",
+ "description": "A mandala charcuterie board for 12–15: nine perfect rings of salami roses, prosciutto, Manchego, cheddar diamonds, berries and cucumbers around a whole brie.",
  "hook": "Nine perfect rings, one hypnotic circle, built out from a whole brie.",
  "serves": "12–15",
  "guests": 15,
@@ -135,6 +135,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Make the meat roses and cut the cheese the day before. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Does it matter which ring I start with?",
+   "a": "Start at the centre and work out. Each ring hides the inner edge of the one before, so small irregularities disappear as you go, which makes it far more forgiving than it looks."
   }
  ],
  "blog": [
@@ -145,5 +149,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

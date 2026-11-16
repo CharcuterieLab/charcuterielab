@@ -135,6 +135,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cut the template and slice the cheese the day before. Build the wings about 90 minutes before the party. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Can I move it after it is built?",
+   "a": "No. Build it on whatever you are serving it on. The wings are symmetrical, so any slide shows immediately, and there is no fixing it once the halves stop matching."
   }
  ],
  "blog": [
@@ -144,5 +148,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

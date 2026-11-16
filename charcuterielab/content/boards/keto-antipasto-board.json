@@ -122,6 +122,10 @@
   {
    "q": "What can I use instead of bread?",
    "a": "Cucumber rounds, endive leaves or parmesan crisps."
+  },
+  {
+   "q": "Are marinated vegetables keto?",
+   "a": "Usually, but check the jar. Marinated artichokes and peppers are fine in oil; anything in a sweet vinegar or with added sugar in the first three ingredients is not. Drain and pat dry either way."
   }
  ],
  "blog": [
@@ -132,5 +136,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

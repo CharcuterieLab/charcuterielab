@@ -132,6 +132,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 8 g net carbs per serving for 6."
+  },
+  {
+   "q": "Is smoked salmon always keto?",
+   "a": "Cold-smoked is, but check hot-smoked and any glazed or candied salmon, where sugar is part of the cure. The cream cheese and goat cheese beside it add nothing, so the salmon is the only item worth reading the label on."
   }
  ],
  "blog": [
@@ -142,5 +146,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

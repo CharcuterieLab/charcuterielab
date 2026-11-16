@@ -122,6 +122,10 @@
   {
    "q": "How do you cook halloumi?",
    "a": "Slice it about ½ inch thick and cook in a dry nonstick pan over medium-high heat for 1 to 2 minutes a side until golden. Serve right away."
+  },
+  {
+   "q": "Can the halloumi be grilled ahead?",
+   "a": "Grill it just before serving. Halloumi firms up and squeaks when it cools, which is not unpleasant but is not the point of it either. Everything else on this board is better made a few hours ahead."
   }
  ],
  "blog": [
@@ -132,5 +136,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

@@ -6,7 +6,7 @@
  "image": "/images/boards/impossible-18.webp",
  "h1": "Gold Luxury Charcuterie Board (The Midas Touch)",
  "seo_title": "Gold Luxury Charcuterie Board: Caviar, Jamón & Gold Leaf",
- "description": "The Midas Touch board for 12 to 15: jamón serrano, prosciutto di Parma, smoked salmon, caviar, triple-crème and 24-month Parmigiano, finished with edible gold.",
+ "description": "The Midas Touch board for 12–15: jamón serrano, prosciutto di Parma, smoked salmon, caviar, triple-crème and 24-month Parmigiano, finished with edible gold.",
  "hook": "The most luxurious board in the book: everything is ordinary to buy, and the gold is the magic.",
  "serves": "12–15",
  "guests": 15,
@@ -183,6 +183,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Prepare everything except the gold the day before. Apply the gold leaf just before serving. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Is edible gold leaf safe to eat?",
+   "a": "Yes. Edible gold leaf is pure gold, inert, and passes straight through. Apply it with dry tweezers at the very last moment, because it sticks to damp fingers and tears in a draught."
   }
  ],
  "blog": [
@@ -193,5 +197,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

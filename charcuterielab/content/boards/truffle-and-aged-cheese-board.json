@@ -119,6 +119,10 @@
   {
    "q": "Is truffle honey real truffle?",
    "a": "Many are flavored with truffle aroma rather than truffle pieces. Check the label; both taste good, but the ones with real truffle cost more."
+  },
+  {
+   "q": "Does truffle cheese keep?",
+   "a": "Less well than you would hope. The aroma fades within about a week even wrapped, so buy a small piece and eat it promptly. The 24-month Parmigiano beside it will keep for a month without complaint."
   }
  ],
  "blog": [
@@ -129,5 +133,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

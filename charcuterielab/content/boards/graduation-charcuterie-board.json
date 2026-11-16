@@ -147,6 +147,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Cube the cheese and wash the produce the day before. Assemble an hour before the party and refill from the fridge. Leave it out no more than 2 hours, or 1 hour above 90°F."
+  },
+  {
+   "q": "How do I make this go further for 20?",
+   "a": "Lean on the cheap things that fill space: more crackers, grapes, carrot sticks and pretzels, and keep the cheddar and pepper jack cubed so portions stay small. Cubes slow people down; wedges do not."
   }
  ],
  "blog": [
@@ -157,5 +161,5 @@
  "status": "published",
  "wave": 4,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

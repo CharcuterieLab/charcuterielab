@@ -141,6 +141,10 @@
   {
    "q": "How far ahead can I build it?",
    "a": "Prep everything earlier in the day and keep it covered in the fridge. Assemble about 30 minutes before, and keep it out no longer than 2 hours."
+  },
+  {
+   "q": "Is there anything on here I should not make ahead?",
+   "a": "The caviar and the triple-creme both want to be opened at the last moment. Everything else, including the jamon, can be plated an hour before, which is worth doing so you are not in the kitchen at the moment that matters."
   }
  ],
  "blog": [
@@ -151,5 +155,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

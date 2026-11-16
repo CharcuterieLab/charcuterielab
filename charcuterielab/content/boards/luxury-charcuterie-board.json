@@ -171,6 +171,10 @@
   {
    "q": "Why take the cheese out an hour ahead?",
    "a": "Cold mutes aroma and makes soft cheeses firm. Époisses and Humboldt Fog need the full hour to become spoonable."
+  },
+  {
+   "q": "What makes luxury charcuterie boards different from ordinary ones?",
+   "a": "Age, mostly. Luxury charcuterie boards use cheese with a date on the label and whole-muscle cured meat sliced from a single leg, both of which take years rather than weeks to make. The fruit, nuts and crackers are the same as on a $40 board, which is why one aged wedge changes a board more than upgrading everything."
   }
  ],
  "blog": [
@@ -178,5 +182,6 @@
  ],
  "slug": "luxury-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

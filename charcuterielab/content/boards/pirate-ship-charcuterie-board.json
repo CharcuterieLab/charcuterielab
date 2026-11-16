@@ -6,7 +6,7 @@
  "image": "/images/boards/impossible-07.webp",
  "h1": "Pirate Ship Charcuterie Board",
  "seo_title": "Pirate Ship Charcuterie Board: How It's Made & What to Buy",
- "description": "A pirate ship charcuterie board for 12 to 15: a sourdough galleon with prosciutto sails and breadstick masts, carrying salami cargo past a brie treasure island.",
+ "description": "A pirate ship charcuterie board for 12–15: a sourdough galleon with prosciutto sails and breadstick masts, carrying salami cargo past a brie treasure island.",
  "hook": "A bread galleon in full sail, loaded with salami cargo and sailing past a treasure island of brie.",
  "serves": "12–15",
  "guests": 15,
@@ -159,6 +159,10 @@
   {
    "q": "Can I make it ahead?",
    "a": "Hollow the loaf and cube the cheese the day before; keep the loaf wrapped so it doesn't dry out. Keep meat, cheese and cut fruit out no more than 2 hours, or 1 hour above 90°F. For a long party, build half, keep the refill in the fridge and top it up halfway through."
+  },
+  {
+   "q": "Can the ship be built in advance?",
+   "a": "Build the sourdough hull and rig the breadstick masts a few hours ahead, but add the prosciutto sails last. They droop once they warm, and a drooping sail is the one thing that makes it look unfinished."
   }
  ],
  "blog": [
@@ -169,5 +173,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

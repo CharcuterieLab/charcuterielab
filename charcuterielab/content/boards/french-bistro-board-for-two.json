@@ -123,6 +123,10 @@
   {
    "q": "Is pâté safe during pregnancy?",
    "a": "The CDC advises against refrigerated pâté during pregnancy. Shelf-stable canned pâté is the safer choice, or skip it."
+  },
+  {
+   "q": "What happens to the leftover pate and baguette?",
+   "a": "Pate keeps four or five days with a film of butter pressed on the cut face to keep air off it. Day-old baguette is better for toast than fresh, so slice and grill it for the Comte."
   }
  ],
  "blog": [
@@ -133,5 +137,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

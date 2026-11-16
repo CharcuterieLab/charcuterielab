@@ -163,6 +163,10 @@
   {
    "q": "Are crackers vegan?",
    "a": "Many are, but some contain butter, milk or honey. Check the label."
+  },
+  {
+   "q": "What are some vegan charcuterie board ideas beyond this one?",
+   "a": "Build around a theme rather than copying a dairy board: a mezze board of hummus, dolmas and marinated vegetables, an antipasto board with marinated artichokes and olives, or a dessert board of chocolate, nuts and fruit. The plant-based collection has fifteen worked out in full."
   }
  ],
  "blog": [
@@ -173,5 +177,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

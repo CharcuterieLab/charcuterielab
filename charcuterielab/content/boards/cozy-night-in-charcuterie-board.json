@@ -6,7 +6,7 @@
  "image": "/images/boards/two-09.webp",
  "h1": "Cozy Night In Charcuterie Board for Two",
  "seo_title": "Cozy Night In Charcuterie Board: What's On It & What to Buy",
- "description": "A cozy night in charcuterie board for two: Gruyère, smoked Gouda, soppressata, speck, honeycomb, candied walnuts and apple, with a full-bodied red or dry cider.",
+ "description": "A cozy night in charcuterie board for two: Gruyère, smoked Gouda, soppressata, speck, honeycomb, candied walnuts and apple, with a full-bodied red or cider.",
  "hook": "Heavy blanket required: a fall and winter board of nutty, smoky cheeses and warm flavors, made for the couch.",
  "serves": "2",
  "guests": 2,
@@ -127,6 +127,10 @@
   {
    "q": "What drink goes with it?",
    "a": "A full-bodied red such as Côtes du Rhône or Zinfandel, or a dry hard cider, which suits the apple and the smoky flavors."
+  },
+  {
+   "q": "What should we do with the leftovers?",
+   "a": "The Gruyere and smoked Gouda both melt beautifully, so the honest answer is a toasted sandwich the next day with the speck. Keep the honeycomb at room temperature rather than in the fridge, where it goes hard and grainy."
   }
  ],
  "blog": [
@@ -137,5 +141,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

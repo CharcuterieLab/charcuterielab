@@ -131,6 +131,10 @@
   {
    "q": "Where does an extra $10 go furthest?",
    "a": "A small wedge of aged Gouda or Manchego. One good cheese lifts the whole board."
+  },
+  {
+   "q": "Can I get this under $20?",
+   "a": "Drop the Colby Jack and double the cheddar, swap pepperoni for a single summer sausage and lean on grapes and carrot sticks for volume. It lands near $17 and still feeds six to eight."
   }
  ],
  "blog": [
@@ -138,5 +142,6 @@
  ],
  "slug": "25-dollar-budget-charcuterie-board",
  "status": "published",
- "wave": 1
+ "wave": 1,
+ "updated": "2026-11-16"
 }

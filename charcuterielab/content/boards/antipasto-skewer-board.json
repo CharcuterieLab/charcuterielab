@@ -147,6 +147,10 @@
   {
    "q": "How many skewers per person?",
    "a": "About 2 to 3 per person as an appetizer."
+  },
+  {
+   "q": "Can I make the skewers in advance?",
+   "a": "Thread them up to a day ahead and lay them flat in a covered tray. Dress them with oil just before serving, not before storing, or the mozzarella ciliegine go slack."
   }
  ],
  "blog": [
@@ -156,5 +160,5 @@
  "status": "published",
  "wave": 2,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }

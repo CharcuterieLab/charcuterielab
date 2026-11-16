@@ -6,7 +6,7 @@
  "image": "/images/boards/keto-13.webp",
  "h1": "Keto Spanish Tapas Board",
  "seo_title": "Keto Spanish Tapas Board: Manchego & Chorizo (4 g Net Carbs)",
- "description": "A keto Spanish tapas board for 8: Manchego, goat cheese, dry chorizo, jamón serrano, radishes, olives, roasted peppers and Marcona almonds. About 4 g net carbs.",
+ "description": "A keto tapas board for 8: Manchego, goat cheese, dry chorizo, jamón serrano, radishes, olives, roasted peppers and Marcona almonds. About 4 g net carbs.",
  "hook": "Manchego, chorizo and Marcona almonds: Spanish tapas without the bread, and still very Spanish.",
  "serves": "8",
  "guests": 8,
@@ -115,6 +115,10 @@
   {
    "q": "How many carbs per serving?",
    "a": "About 4 g net carbs per serving for 8."
+  },
+  {
+   "q": "Is chorizo keto?",
+   "a": "Spanish dry-cured chorizo is, at close to zero carbs. Fresh Mexican chorizo often is not, because it is usually sold with added sugar and must be cooked. For a board you want the dry-cured kind in any case."
   }
  ],
  "blog": [
@@ -125,5 +129,5 @@
  "status": "published",
  "wave": 5,
  "date": "2026-10-26",
- "updated": "2026-10-26"
+ "updated": "2026-11-16"
 }
