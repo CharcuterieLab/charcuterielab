@@ -517,6 +517,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <ol class="pr-rules">
         ${idx.rules.map((r, n) => `<li id="rule-${r.id}"><span class="pr-rule-n">${n + 1}</span><h3>${B(r.name)}</h3><p>${B(r.line)}</p><a class="pr-more" href="/pairings/how-pairing-works/#${r.id}">Examples &rarr;</a> <a class="pr-more" href="/pairings/classics/?rule=${r.id}#lab-find">${[...idx.combos, ...idx.plates].filter((c) => c.rule === r.id).length} combinations &rarr;</a></li>`).join("\n        ")}
       </ol>
+      <p class="bl-note">The numbers behind the rules: <a href="/blog/charcuterie-pairing-data-study/">we mapped 2,521 charcuterie pairings</a> to find what goes with everything.</p>
     </section>
 
     <section class="bl-section pr-season" aria-labelledby="season-h" hidden>
@@ -1147,6 +1148,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="section-kicker">The science</p>
       <h1>How pairing works: the six rules</h1>
       <p class="pr-answer">Good pairings balance opposites or echo similar flavors. Six rules cover almost all of it: fat tames tannin, acid cuts richness, salt loves sweet, match the weight, what grows together goes together, and contrast the texture.</p>
+      <p class="bl-note">See the rules at scale in our <a href="/blog/charcuterie-pairing-data-study/">charcuterie pairing data study</a>: 2,521 pairings across 375 ingredients.</p>
     </header>
     ${idx.rules.map((r, n) => {
       const drinkEx = idx.drinks.flatMap((d) => d.matches.filter((m) => m.rule === r.id).map((m) => ({ d, m }))).slice(0, 6);
