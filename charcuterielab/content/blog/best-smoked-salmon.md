@@ -101,7 +101,7 @@ For a board you want cold-smoked salmon, the silky thin-sliced kind. The cheapes
 - **Serving it:** keep smoked salmon cold until the last minute and set it out for no more than 2 hours. Drape it in loose ribbons or roll it into rosettes, then put capers, red onion, lemon and dill nearby. Plan on about 1 to 2 ounces per person when it's one of several proteins.
 - **Pregnant guests:** the CDC advises against refrigerated smoked seafood like lox during pregnancy unless it's cooked into a dish, because of the listeria risk. Offer cooked or canned salmon instead.
 
-**More:** [Smoked salmon: pairings and serving tips](/ingredients/smoked-salmon/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Smoked salmon: pairings and serving tips](/ingredients/smoked-salmon/) · [What cheese goes with smoked salmon](/pairings/food/smoked-salmon/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Smoked salmon questions</h2>

@@ -90,6 +90,8 @@ They fill the same spot on a board, so choose one: brie for a milder, easier boa
 
 Calvados is the classic: it's apple brandy from the same region.
 
+For the full ranked list, including the best fruit, meat and wine, see [what goes with Camembert](/pairings/food/camembert/).
+
 :::html
 <h2 id="reference">Quick reference</h2>
 :::

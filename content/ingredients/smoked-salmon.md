@@ -7,13 +7,13 @@ board_role: "Cold-smoked fish"
 role_group: "Smoked & tinned fish"
 excerpt: "Cold-smoked salmon is silky and raw-textured; hot-smoked flakes apart. They are different products and the recipe you're following means one of them."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$$"
 serving_per_person: "1–1.5 oz"
 prep_time: "15 min to temper"
 allergens: ["fish"]
 tags: ["seafood", "smoked", "brunch", "elegant"]
-pairs_with: ["gravlax", "smoked-trout", "cream-cheese", "blini", "pumpernickel", "pickled-red-onions", "capers", "everything-bagel-seasoning", "caviar", "yuzu-kosho", "cocktail-shrimp"]
+pairs_with: ["gravlax", "smoked-trout", "cream-cheese", "blini", "pumpernickel", "pickled-red-onions", "capers", "everything-bagel-seasoning", "caviar", "yuzu-kosho", "cocktail-shrimp", "fresh-chevre", "boursin"]
 avoid_with: ["strong-cured-meat", "blue-cheese"]
 faq: "[{"question": "What's the difference between lox and smoked salmon?", "answer": "True lox is salt-cured and not smoked at all. 'Nova lox' is lightly brined and cold-smoked. In everyday American usage the words have blurred."}, {"question": "Cold-smoked or hot-smoked?", "answer": "Cold-smoked for silky slices on a board. Hot-smoked when you want flakes for a dip or a salad."}, {"question": "Is cold-smoked salmon raw?", "answer": "Technically uncooked, but cured with salt and smoked. It's safe to eat as sold."}, {"question": "How much per person?", "answer": "1–1.5 oz. It's rich and expensive."}, {"question": "What are the three things to serve with it?", "answer": "Lemon, capers and dill. Then dark bread and something creamy."}]"
 ---
@@ -51,6 +51,8 @@ brine, wood, region — is a variation on top.
 | **Pumpernickel or rye crispbread** | Sour dark bread against oily smoked fish. |
 | **Cucumber** | Cool and clean between bites. |
 | **Champagne, Chablis, dry Riesling, aquavit** | High-acid or clean spirits. |
+| **Fresh Chèvre** | Tangy goat cheese does what cream cheese does with more lift. Add dill and lemon. |
+| **Boursin** | Garlic-and-herb cream cheese on rye with salmon: the party-canapé shortcut. |
 
 **Skip it with:** strong cured meats and blue cheese, both of which erase it.
 Smoked salmon is expensive and delicate — give it its own corner.

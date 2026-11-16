@@ -8,13 +8,13 @@ board_role: "Soft anchor cheese"
 role_group: "Soft & fresh"
 excerpt: "Brie's stronger, earthier cousin from Normandy. What makes it mushroomier, how ripe is too ripe, and why it comes in a wooden box."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "earthy"]
-pairs_with: ["brie", "baguette", "water-crackers", "triple-creme", "pont-leveque", "apples", "walnuts", "cornichons", "honey"]
+pairs_with: ["brie", "baguette", "water-crackers", "triple-creme", "pont-leveque", "apples", "walnuts", "cornichons", "honey", "pears", "grapes", "figs", "dried-cranberries", "fig-jam", "apple-butter", "jambon-de-bayonne", "prosciutto-di-parma", "duck-prosciutto", "hazelnuts"]
 avoid_with: ["everything-crackers", "delicate-toppings"]
 board_post: "/blog/camembert/"
 faq: "[{"question": "Is Camembert just stronger brie?", "answer": "Effectively, yes — same mold, smaller wheel, more rind per ounce, so more flavor. Earthier and more mushroomy."}, {"question": "Can you eat the rind?", "answer": "Yes, and here you especially should. The rind is where the mushroom character comes from."}, {"question": "Why does it come in a wooden box?", "answer": "The box lets the cheese breathe while holding its shape as it softens. It's also oven-safe, which is why baked Camembert is served in it."}, {"question": "How do I know if it's gone off?", "answer": "A strong, persistent ammonia smell. A faint whiff on opening that fades is normal ripeness."}, {"question": "How much per person?", "answer": "1–2 oz. One small wheel serves four to six on a mixed board."}]"
@@ -54,6 +54,16 @@ recipe.
 | **Cornichons** | Sharp vinegar resets the palate after a rich, ripe bite. |
 | **Honey** | Sweetness rounds off the sulphur notes in a very ripe wheel. |
 | **Calvados or Normandy cider brandy** | Regional, and strong enough to stand up. |
+| **Pears** | Juicy and floral, a gentler partner than apple that still cuts the fat. |
+| **Grapes** | Cold, sweet pops between rich bites; red grapes suit the earthy rind best. |
+| **Figs** | Honeyed fruit against the mushroomy rind. |
+| **Dried Cranberries** | Tart chew that wakes up a ripe, rich cheese. |
+| **Fig Jam** | Dense sweetness that stands up to a stronger cheese than brie. |
+| **Apple Butter** | Normandy's apple-and-camembert pairing in a spoonable form. |
+| **Jambon de Bayonne** | Sweet French ham beside a French cheese; mild salt that lets the rind lead. |
+| **Prosciutto di Parma** | Thin, silky salt against a soft, rich cheese. |
+| **Duck Prosciutto** | Rich and savory rather than fatty, so it stands beside camembert without crowding it. |
+| **Hazelnuts** | Toasty crunch that echoes the nutty side of the rind. |
 
 **Skip it with:** everything crackers and other loud bases, and delicate
 toppings like smoked salmon, which lose. A ripe Camembert is a much bigger

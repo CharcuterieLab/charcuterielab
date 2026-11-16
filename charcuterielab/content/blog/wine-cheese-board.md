@@ -125,6 +125,8 @@ That's enough. The board does the rest.
 | Champagne / Prosecco | High acid, no tannin | Triple-crème, brie, aged Gouda | Acid and bubbles cut through the fat |
 | Tawny Port | Sweet, low tannin | Stilton, aged Gouda | Sweet against salty; caramel notes in both |
 
+Full lists by bottle: [Sauvignon Blanc cheese pairing](/pairings/wine/sauvignon-blanc/), [Pinot Noir cheese pairing](/pairings/wine/pinot-noir/) and [rosé cheese pairing ideas](/pairings/wine/rose/).
+
 Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
 ## Related Reading

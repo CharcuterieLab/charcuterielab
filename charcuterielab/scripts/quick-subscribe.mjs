@@ -53,8 +53,12 @@ export function freeName(fb = CHEAT) {
   const n = String(fb.label || "").replace(/^Download /, "").replace(/ \(PDF\)$/, "").trim();
   return n || nameOf(fb) || "the Cheat Sheet";
 }
+// Pairing downloads promise a pairing, not a board idea (15 Nov 2026)
+const PAIRING_PDFS = { "/downloads/meat-and-cheese-pairing-chart.pdf": "a star ingredient + pairings every Wednesday", "/downloads/pairing-cheat-sheet.pdf": "a star ingredient + pairings every Wednesday" };
 export function barNote(fb = CHEAT) {
   const name = freeName(fb);
+  const weekly = fb.weekly || PAIRING_PDFS[fb.pdf];
+  if (weekly) return `Free: ${name}, then ${weekly}.`;
   const a = `Free: ${name} + one board idea a week.`;
   return a.length <= 62 ? a : `Free: ${name} + a weekly board idea.`;
 }

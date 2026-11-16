@@ -3693,6 +3693,7 @@ async function buildSearch() {
         await walk(join(dir, e.name), rel ? `${rel}/${e.name}` : e.name);
       } else if (e.name === "index.html" && rel) {
         const html = await readFile(join(dir, e.name), "utf8");
+        if (/<meta name="robots" content="noindex/.test(html)) continue; // e.g. /pairings/list/ (15 Nov 2026)
         const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || "";
         const h1 = ((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]+>/g, "").trim();
         const d = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "";

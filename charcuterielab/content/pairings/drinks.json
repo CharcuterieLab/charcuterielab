@@ -2,8 +2,8 @@
  "wines": [
   {
    "slug": "pinot-noir",
-   "seo_title": "Best Cheese with Pinot Noir: 11 Pairings, Ranked",
-   "seo_description": "The best cheese with Pinot Noir, ranked: why Gruyère and Comté win, 9 more cheeses and bites that work, and 3 to skip because they clash with the wine.",
+   "seo_title": "Pinot Noir Cheese Pairing: 11 Best Matches + 3 to Skip",
+   "seo_description": "Pinot Noir cheese pairing, ranked: Gruyère and Comté first, then brie, aged Gouda and Taleggio, plus prosciutto and pâté, and the 3 cheeses that clash.",
    "family": "wine",
    "name": "Pinot Noir",
    "color": "#8e2c3a",
@@ -104,6 +104,27 @@
     {
      "q": "Should Pinot Noir be chilled?",
      "a": "Slightly. 55–60°F, about 20 minutes in the fridge, keeps the fruit fresh and the alcohol in check."
+    }
+   ],
+   "h1": "Pinot Noir cheese pairing: the best cheeses, charcuterie and what to skip",
+   "qa": [
+    {
+     "q": "What cheese goes with Pinot Grigio?",
+     "a": [
+      "Pinot Grigio is a different wine: a light, crisp white",
+      "Best with fresh, mild cheese: mozzarella, burrata, fresh goat cheese, feta, young Asiago",
+      "Same family as [Sauvignon Blanc](/pairings/wine/sauvignon-blanc/) pairings",
+      "Save aged and blue cheeses for a red or a sweet wine"
+     ]
+    },
+    {
+     "q": "Is Pinot Noir a good wine for a cheese board?",
+     "a": [
+      "Yes: it is the most cheese-friendly red",
+      "Low tannin, so soft cheese never turns bitter",
+      "Bright acid and red fruit cut salt and fat",
+      "Opening one red for a mixed board? Make it Pinot Noir"
+     ]
     }
    ]
   },
@@ -318,8 +339,8 @@
   },
   {
    "slug": "sauvignon-blanc",
-   "seo_title": "Best Cheese with Sauvignon Blanc: 11 Pairings, Ranked",
-   "seo_description": "The best cheese with Sauvignon Blanc, ranked: why goat cheese wins, 10 more cheeses and bites that work, and 3 to skip because they clash with the wine.",
+   "seo_title": "Sauvignon Blanc Cheese Pairing: Goat Cheese Wins + 10 More",
+   "seo_description": "The best cheese with Sauvignon Blanc is fresh goat cheese. Here are 10 more matches, from feta and burrata to prosciutto and olives, plus 3 to skip.",
    "family": "wine",
    "name": "Sauvignon Blanc",
    "color": "#dfe6a0",
@@ -417,6 +438,29 @@
     {
      "q": "Is Sauvignon Blanc good with vegetables?",
      "a": "It's the best wine for them, including hard ones like artichokes and asparagus."
+    }
+   ],
+   "h1": "Sauvignon Blanc cheese pairing: the best cheeses, bites and what to skip",
+   "qa": [
+    {
+     "q": "What food goes with Sauvignon Blanc?",
+     "a": [
+      "Cheese: goat cheese and feta",
+      "Green and herby: pesto, artichokes, asparagus, green olives",
+      "Seafood: smoked trout, shrimp, oysters",
+      "Why: its sharp acid and grassy flavor match food with the same notes and cut salty, creamy bites"
+     ]
+    },
+    {
+     "q": "What snacks go with Sauvignon Blanc?",
+     "a": [
+      "Goat cheese on crackers",
+      "Marinated olives",
+      "Prosciutto-wrapped melon",
+      "Cucumber with whipped feta",
+      "Anything with lemon, herbs or pesto",
+      "Skip: chocolate and smoky foods"
+     ]
     }
    ]
   },
@@ -623,6 +667,21 @@
     {
      "q": "Sweet or dry rosé for a cheese board?",
      "a": "Dry. Sweet pink wines taste sugary next to salty food."
+    }
+   ],
+   "seo_title": "Rosé Cheese Pairing Ideas: 11 Matches + What to Skip",
+   "seo_description": "Rosé cheese pairing ideas: feta, goat cheese, burrata and Manchego, with prosciutto, chorizo, melon and olives. Why dry rosé works, and 3 cheeses to skip.",
+   "h1": "Rosé cheese pairing ideas: cheeses, charcuterie and what to skip",
+   "qa": [
+    {
+     "q": "What goes on a rosé charcuterie board?",
+     "a": [
+      "Cheese: feta or goat cheese, burrata, a wedge of Manchego",
+      "Meat: prosciutto or Serrano ham, a little chorizo",
+      "Fruit: melon and berries",
+      "Extras: Kalamata olives, hummus and pita",
+      "Keep it light, summery and salty; that is where dry rosé shines"
+     ]
     }
    ]
   },
@@ -2093,7 +2152,50 @@
     "q": "What's a good mocktail for a cheese board?",
     "a": "A tart cherry or pomegranate spritz with blue cheese, or sparkling cider with cheddar and brie."
    }
-  ]
+  ],
+  "h1": "Non-alcoholic drinks for a charcuterie board",
+  "qa_h2": "Non-alcoholic charcuterie drinks: quick answers",
+  "qa": [
+   {
+    "q": "What sparkling drink goes with a charcuterie board?",
+    "a": [
+     "Best match: sparkling apple cider — acid and bubbles do what Champagne does, and apple suits brie, cheddar and ham",
+     "Salty boards: [sparkling water with lemon or lime](/pairings/zero-proof/#sparkling-water-with-lemon-or-lime)",
+     "Rich boards: ginger [kombucha](/pairings/zero-proof/#kombucha-ginger-or-plain)",
+     "Blue cheese: a [tart cherry spritz](/pairings/zero-proof/#tart-cherry-or-pomegranate-spritz)",
+     "Bottles we like: [best sparkling cider](/blog/best-sparkling-cider/)"
+    ]
+   },
+   {
+    "q": "What is the best sparkling water for a charcuterie board?",
+    "a": [
+     "Pick: strongly carbonated and unsweetened, with some minerals",
+     "Good styles: mineral-rich German or Mexican sparkling water, or a classic Italian one",
+     "Why: big bubbles and minerals stand up to salt and fat",
+     "Add: a slice of lemon or lime for acid",
+     "Skip: sweetened flavored waters; they make cheese taste flat"
+    ]
+   },
+   {
+    "q": "What non-alcoholic drinks go with cheese?",
+    "a": [
+     "Brie and soft cheese: sparkling apple cider",
+     "Aged cheddar and Gouda: unsweetened black iced tea; its tannin works like red wine",
+     "Goat cheese and feta: sparkling water with lemon, or green tea",
+     "Blue cheese: a tart cherry or pomegranate spritz, the zero-proof port"
+    ]
+   },
+   {
+    "q": "Does ginger ale go with a charcuterie board?",
+    "a": [
+     "Yes, if it is a dry or spicy ginger ale",
+     "Why: ginger and bubbles cut fat and suit salami and aged cheese",
+     "Harder: very sweet sodas like cola or lemon-lime; sugar dulls the cheese",
+     "Fix: cut sweet sodas half and half with sparkling water"
+    ]
+   }
+  ],
+  "seo_description": "The best non-alcoholic drinks for a charcuterie board: sparkling cider, iced tea, kombucha, tart cherry spritz and more, with which cheeses and meats each one suits."
  },
  "spirits": [
   {

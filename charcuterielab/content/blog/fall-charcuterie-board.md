@@ -51,7 +51,7 @@ The fall flavor framework has four pillars: **aged complexity, dried fruit sweet
 
 **Fruits:**
 
-- **Fresh apple slices:** Granny Smith for tartness; Honeycrisp or Fuji for sweetness and crunch. Apple's tartness keeps a rich fall board from feeling heavy, and apple with aged Gouda is a classic: both taste of caramel.
+- **Fresh apple slices:** Granny Smith for tartness; Honeycrisp or Fuji for sweetness and crunch. Apple's tartness keeps a rich fall board from feeling heavy, and apple with aged Gouda is a classic: both taste of caramel. More [apple pairings](/pairings/food/apples/), ranked.
 - **Fresh or dried figs:** fresh Black Mission or Brown Turkey figs in early fall; dried figs as the season progresses. Figs' jammy sweetness and seed tannin work with every fall cheese.
 - **Dried cranberries or dried cherries:** concentrated tartness provides acid interest without requiring fresh fruit; holds well on a board without wilting.
 - **Pear:** fresh pear near the Stilton; the pear-Stilton pairing is one of the classic English combinations (the sweetness and delicate texture complement the bold blue).

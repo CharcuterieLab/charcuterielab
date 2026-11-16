@@ -49,6 +49,8 @@ updated: "2026-10-20"
 
 **Skip** reds sold as "smooth" or "approachable" because they're low in acid. They go flabby next to salt and fat.
 
+The cheeses that suit the safest red, ranked: [Pinot Noir cheese pairing](/pairings/wine/pinot-noir/).
+
 :::html
 <h2 id="whites">White wine: underrated with charcuterie</h2>
 <p class="sk-lede">White wine's acidity does exactly what you want, with no tannin risk.</p>
@@ -85,6 +87,8 @@ On a rich board of triple-crème brie, prosciutto and honeycomb, bubbles do more
 <li><strong>Buy:</strong> Provençal rosé (Grenache, Mourvèdre, Cinsault): dry, pale and crisp. <strong>Skip</strong> off-dry or "blush" rosé.</li>
 </ul>
 :::
+
+Which cheeses and meats to put out with it: [rosé cheese pairing ideas](/pairings/wine/rose/).
 
 :::html
 <h2 id="big-reds">Big reds: only with the right board</h2>

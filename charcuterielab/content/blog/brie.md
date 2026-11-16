@@ -17,6 +17,8 @@ updated: "2026-09-24"
 
 That white rind is a living mold that softens the cheese from the outside in. Here's how to use that when you pair it.
 
+Want every match in one place? Our guide to [what goes with brie](/pairings/food/brie/) ranks 66 pairings by type, from fruit and meat to crackers and wine.
+
 ---
 
 ## What Is Brie?

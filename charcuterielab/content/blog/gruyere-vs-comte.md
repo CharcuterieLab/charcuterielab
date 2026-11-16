@@ -47,7 +47,7 @@ Swiss Gruyère AOP and French Comté AOP are protected names in Europe. In the U
 
 **Both are excellent.** Choose by the rest of the board:
 
-- **Comté** suits a fruit-forward board: apples, pears, grapes, dried apricots and a dry white wine like a Jura Chardonnay or a white Burgundy.
+- **Comté** suits a fruit-forward board: apples, pears, grapes, dried apricots and a dry white wine like a Jura Chardonnay or a white Burgundy. See [what goes with Comté](/pairings/food/comte/).
 - **Gruyère** suits a savory board: cured ham, speck, cornichons and Dijon. See [Gruyère, ham, cornichons and Dijon](/blog/gruyere-ham-cornichon-dijon-pairing/).
 
 Both also love walnuts, a dry Riesling, a Pinot Noir or a Belgian-style ale.

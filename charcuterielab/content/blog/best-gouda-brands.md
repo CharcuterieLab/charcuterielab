@@ -105,7 +105,7 @@ Protein crystals that form as the cheese ages. They are a good sign.
 
 **What goes with aged Gouda?**
 
-Apples, pears, dark chocolate, walnuts and a malty beer or a Merlot.
+Apples, pears, dark chocolate, walnuts and a malty beer or a Merlot. See [what goes with aged Gouda](/pairings/food/aged-gouda/) for the full ranked list.
 
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>

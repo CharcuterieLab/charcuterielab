@@ -60,6 +60,8 @@ Good partners for both:
 
 Use one, not both, on most boards. They play the same role (the soft cheese), so pairing them gives you two of the same thing. Pick one soft cheese and add an aged cheese and a blue or a goat cheese.
 
+Every match for each cheese, ranked: [what goes with Brie](/pairings/food/brie/) and [what goes with Camembert](/pairings/food/camembert/).
+
 ## Which is better for baking?
 
 Both melt beautifully.

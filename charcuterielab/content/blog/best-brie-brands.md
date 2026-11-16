@@ -97,7 +97,7 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 <ul class="sk-checks"><li><strong>Look for:</strong> A soft, giving feel through the wrapper and a white rind with faint reddish-brown flecks, not grey and not shrunken away from the paste.</li><li class="sk-x"><strong>Skip:</strong> Pre-cut brie wedges in plastic. They dry at the cut faces. Buy a small wheel instead.</li></ul>
 :::
 
-**More:** [Brie: pairings and serving tips](/ingredients/brie/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Brie: pairings and serving tips](/ingredients/brie/) · [What goes with brie](/pairings/food/brie/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Brie questions</h2>

@@ -303,6 +303,7 @@ async function finder() {
     // drinks: a named combination's own picks first, then the drinks that match
     // the most foods, making sure every food is represented (wine/beer, then one no-alcohol)
     let drinkHtml = "";
+    let shownDrinks = [];
     if (foods.length && !drinkPicked) {
       const cnt = new Map();
       for (const f of foods) for (const n of D.df[f.n] || []) cnt.set(n, (cnt.get(n) || 0) + 1);
@@ -315,6 +316,7 @@ async function finder() {
       const main = chosen.filter((k) => k.family !== "zero").slice(0, cardPick.length ? 4 : 3);
       const zero = chosen.find((k) => k.family === "zero") || [...cnt].map(([n]) => K[n]).find((k) => k.family === "zero");
       const shown = [...main, ...(zero ? [zero] : [])];
+      shownDrinks = shown;
       const note = (k) => (cardPick.includes(k) ? "the card's pick" : foods.length > 1 ? `matches ${cnt.get(k.n) || 0} of ${foods.length}` : "");
       if (shown.length) drinkHtml = `<h3>What to pour</h3><ul class="pr-rdrinks">${shown.map((k) => `<li><button type="button" data-add="drink:${esc(k.slug)}" title="Add ${esc(k.name)} to the check">${swatch(k)}<strong>${esc(k.name)}</strong><em>${esc(k.fam)}${note(k) ? ` · ${note(k)}` : ""}</em></button></li>`).join("")}</ul>`;
     }
@@ -343,7 +345,7 @@ async function finder() {
       ${named ? `<p class="pr-named"><strong>That's ${/^The /.test(named[1]) ? "" : "a named combination: "}${esc(named[1])}.</strong> ${esc(named[2])} <a href="${labLink(named)}">See its card in the Combination Lab &rarr;</a></p>` : ""}
       <ul class="pr-pairs">${pairs.map(([a, b, why]) => `<li class="${why ? "is-yes" : "is-no"}"><strong>${esc(label(a))} + ${esc(label(b))}</strong><span>${why ? esc(why) : "Not a listed pairing. It may still work, but nothing here backs it up."}</span></li>`).join("")}</ul>
       ${fixHtml}${nextHtml}${gapHtml}${drinkHtml}
-      ${foods.length ? `<p class="pr-ractions"><a class="button primary" href="${builder(foods.map((f) => f.slug), "finder_check")}">Build a board with ${foods.length > 1 ? "these" : "this"}</a>${picks.length > 1 ? `<button type="button" class="button" data-copy>Copy link to this bite</button>` : ""}</p>` : ""}`;
+      ${foods.length ? `<p class="pr-ractions"><a class="button primary" href="${builder(foods.map((f) => f.slug), "finder_check")}">Build a board with ${foods.length > 1 ? "these" : "this"}</a>${picks.length > 1 ? `<button type="button" class="button" data-copy>Copy link to this bite</button>` : ""}${foods.length > 1 ? ` <a class="button" data-plate-list href="/pairings/list/?${named && named[4] ? `c=${encodeURIComponent(named[4])}` : `f=${foods.map((f) => encodeURIComponent(f.slug)).join(",")}${shownDrinks.length ? `&d=${shownDrinks.map((k) => encodeURIComponent(k.slug)).join(",")}` : ""}`}">Shopping list</a>` : ""}</p>` : ""}`;
   }
 
   result.addEventListener("click", (e) => {
@@ -567,7 +569,48 @@ function wcChart() {
   if (q && data[q]) { sel.value = q; show(); }
 }
 
+// ------------------------------------------------- shopping list gate ---
+// "Shopping list" on Lab cards and checked bites (15 Nov 2026): a subscriber
+// goes straight to /pairings/list/; anyone else gets a one-field email form in
+// place, and the list opens as soon as they're signed up. Posts to the same
+// /api/subscribe as every other form on the site.
+function plateList() {
+  let panel = null;
+  const subbed = () => { try { return !!localStorage.getItem("cl-sub"); } catch (e) { return false; } };
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("[data-plate-list]");
+    if (!a || subbed() || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    if (panel) panel.remove();
+    panel = document.createElement("div");
+    panel.className = "pl-gate";
+    panel.innerHTML = `<p class="pl-gate-t"><strong>Get this plate's shopping list</strong> Amounts for 8, what to pour and how to build the bite, ready to print. Free, then a star ingredient and its pairings every Wednesday in the Lab Report.</p>
+      <form class="pl-gate-f" novalidate><label class="sr-only" for="pl-gate-e">Email address</label><input id="pl-gate-e" type="email" name="email" placeholder="Your email address" autocomplete="email" inputmode="email" required><input class="qs-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"><button type="submit" class="button primary">Show my list</button></form>
+      <p class="pl-gate-n" aria-live="polite">Leave any time. <a href="${esc(a.getAttribute("href"))}" data-skip>No thanks, just show the list</a></p>`;
+    (a.closest("p") || a).insertAdjacentElement("afterend", panel);
+    const f = $("form", panel), i = $("input[type=email]", panel), b = $("button", panel), n = $(".pl-gate-n", panel);
+    i.focus({ preventScroll: true });
+    f.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const v = i.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { n.textContent = "Please enter a full email address, like name@example.com."; i.focus(); return; }
+      b.disabled = true; b.textContent = "Sending\u2026";
+      fetch("/api/subscribe", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: v, page: location.pathname, website: f.website.value }) })
+        .then((r) => r.json().catch(() => ({ ok: false })))
+        .then((j) => {
+          if (!j.ok) throw j;
+          try { localStorage.setItem("cl-sub", "1"); } catch (e2) {}
+          n.innerHTML = `You're in. <a class="button primary" href="${esc(a.getAttribute("href"))}">Open my shopping list</a>`;
+          f.hidden = true;
+          location.href = a.getAttribute("href");
+        })
+        .catch(() => { b.disabled = false; b.textContent = "Show my list"; n.innerHTML = `That didn't go through. <a href="${esc(a.getAttribute("href"))}">Open the list anyway</a>.`; });
+    });
+  });
+}
+
 filters();
+plateList();
 lab();
 mcChart();
 wcChart();

@@ -7,13 +7,13 @@ board_role: "Acid and crunch"
 role_group: "Fresh fruit"
 excerpt: "The cheapest way to put acid on a board, and the classic cheddar partner. Variety matters more than you think, and browning is easy to stop."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$"
 serving_per_person: "3–4 slices"
 prep_time: "5 minutes"
 allergens: []
 tags: ["fruit", "fresh", "autumn", "everyday"]
-pairs_with: ["pears", "grapes", "aged-cheddar", "aged-gouda", "walnuts", "jarlsberg", "pepper-jack", "caramel-dip", "camembert", "speck"]
+pairs_with: ["pears", "grapes", "aged-cheddar", "aged-gouda", "walnuts", "jarlsberg", "pepper-jack", "caramel-dip", "camembert", "speck", "pomegranate", "persimmon", "blood-oranges", "dried-cranberries", "medjool-dates"]
 avoid_with: []
 faq: "[{"question": "How do I stop apple slices browning?", "answer": "Soak them for three minutes in salt water — half a teaspoon per cup — then drain and pat dry. It works better than lemon and doesn't change the flavour."}, {"question": "Which variety is best for a cheese board?", "answer": "Honeycrisp for balance, Granny Smith for tartness, Pink Lady for density. Avoid Red Delicious."}, {"question": "Do I peel them?", "answer": "No. The skin is the colour."}, {"question": "How much per person?", "answer": "3–4 thin slices."}, {"question": "Why do apple and cheddar work?", "answer": "Malic acid and sugar against lactic acid, salt and fat. The apple resets your palate while adding the sweetness cheddar doesn't have."}]"
 ---
@@ -51,6 +51,11 @@ adding sweetness the cheese lacks.
 | **Walnuts and pecans** | Tannin, crunch and acid — the whole autumn board. |
 | **Cured ham and speck** | Salt against tart juice. |
 | **Dry cider, Riesling, Calvados** | Apple with apple. It always works. |
+| **Pomegranate** | Jewel-bright, tart seeds scattered over sliced apple. Looks like autumn and tastes sharp and fresh. |
+| **Persimmon** | Honey-sweet and soft against crisp and tart. Two autumn fruits that cover each other's gaps. |
+| **Blood Oranges** | Citrus juice keeps cut apple from browning and adds a second kind of acid. |
+| **Dried Cranberries** | Chewy and tart beside crisp and juicy; the fall-board color pair. |
+| **Medjool Dates** | Caramel sweetness that rounds out a tart green apple. |
 
 **Skip it with:** nothing. Apples are as agreeable as grapes. The only mistake
 is a bland mealy variety.

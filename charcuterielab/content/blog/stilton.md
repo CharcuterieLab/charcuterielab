@@ -71,6 +71,8 @@ Young Stilton (9–10 weeks) is sharper and more simply "blue". As it ages, the 
 
 **Which to buy:** Gorgonzola Dolce for guests unsure about blue cheese; Stilton for guests who want complexity; Roquefort sparingly, on a cheese-focused board.
 
+Every Stilton match ranked, including the best wine: [what goes with Stilton](/pairings/food/stilton/).
+
 :::html
 <h2 id="serve">How to serve Stilton on a board</h2>
 <ul class="sk-checks">

@@ -77,7 +77,7 @@ Camembert is stronger and earthier than brie, and the right size to serve whole.
 - **How to serve it:** take it out of the fridge 45 to 60 minutes before serving, and serve it whole with a small knife so guests can cut wedges. Leave the rind on: it's meant to be eaten.
 - **Baking it:** Camembert bakes as well as brie. Score the top, bake at 350°F for about 15 minutes and serve with crusty bread, like our [baked brie recipe](/blog/baked-brie-recipe/).
 
-**More:** [Camembert: pairings and serving tips](/ingredients/camembert/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Camembert: pairings and serving tips](/ingredients/camembert/) · [What goes with Camembert](/pairings/food/camembert/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 ## How to choose
 

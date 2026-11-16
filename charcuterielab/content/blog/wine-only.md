@@ -74,7 +74,7 @@ Still and sparkling apple cider is one of the most versatile charcuterie board d
 This isn't an argument against wine. There are pairings where wine is clearly the optimal choice:
 
 - **Parmigiano-Reggiano + Lambrusco:** the sparkling, slightly tannic red from the same region as Parmigiano matches the umami, balances the salt and resets the palate in a single glass. Few drinks do all three at once.
-- **Fresh goat cheese + Sauvignon Blanc:** the acid-on-acid complementarity here is difficult to replicate with beer or spirits.
+- **Fresh goat cheese + Sauvignon Blanc:** the acid-on-acid complementarity here is difficult to replicate with beer or spirits. See [Sauvignon Blanc cheese pairing](/pairings/wine/sauvignon-blanc/).
 - **Aged Manchego + Fino Sherry:** the yeasty, oxidative, saline character of Fino echoes Manchego's production and is an essentially unreplicable pairing.
 
 The point isn't that wine is wrong. It's that "wine only" is a limitation that doesn't hold up to examination.

@@ -278,7 +278,11 @@ export function makeOffers(h, products, books) {
     // Types of Cured Meat guide (14 Nov 2026): the 3-page Cured Meat Chart made by scripts/types-of-cured-meat/printables.mjs.
     meatchart: { short: "Free: the printable Cured Meat Chart", eyebrow: "Free 3-page printable", title: "The Cured Meat Chart: all 100 meats", line: "The 8 families, a strength scale, which ones to cook first, if-you-like-this-try-that ladders and all 100 meats with what to serve them with, plus a box to tick off each one you've tried. Plus the weekly Lab Report.", img: "/images/leads/meat-chart.webp", label: "Download the Cured Meat Chart (PDF)", pdf: "/downloads/meat-chart.pdf" },
     cheese: { short: "Free cheese counter card", title: "The Cheese Counter Card", line: "Take it shopping: how much cheese to buy, one pick from each texture, fridge-out times and what to ask at the counter. Plus the weekly Lab Report.", img: "/images/leads/cheese-counter-card.webp", label: "Download the Cheese Counter Card (PDF)", pdf: "/downloads/cheese-counter-card.pdf" },
-    pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf" }
+    // Pairing Hub (15 Nov 2026): the meat and cheese chart as a 2-page PDF made by
+    // scripts/pairings-chart-printable.mjs, with a pairing-specific promise.
+    // "weekly" replaces "one board idea a week" in every line that names the newsletter.
+    mcchart: { short: "Free: the Meat & Cheese Pairing Chart", eyebrow: "Free 2-page printable", title: "The Meat & Cheese Pairing Chart", line: "6 cured meats against 7 cheese families, with the reason for every square, plus the best cheeses for each meat on one page. Then a star ingredient and its pairings every Wednesday in the Lab Report.", img: "/images/leads/meat-and-cheese-pairing-chart.webp", label: "Download the Meat & Cheese Pairing Chart (PDF)", pdf: "/downloads/meat-and-cheese-pairing-chart.pdf", weekly: "a star ingredient + pairings every Wednesday" },
+    pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf", weekly: "a star ingredient + pairings every Wednesday" }
   };
   let DIST = "";
   function freebieFor(path, ctx = {}) {
@@ -296,6 +300,9 @@ export function makeOffers(h, products, books) {
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };
     if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
     if (path === "/holidays/" || /^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
+    // food guides, the Lab, the charts, the hub and the rules get the meat and cheese chart;
+    // drink guides and drink posts keep the Pairing Cheat Sheet (what to pour)
+    if (/^\/pairings\/(food\/|classics\/|meat-and-cheese-chart\/|how-pairing-works\/|$)/.test(path)) return FREEBIES.mcchart;
     if (/^\/pairings\//.test(path) || /^\/blog\/[^/]*(wine|pairing|beer|champagne|prosecco)/.test(path)) return FREEBIES.pairing;
     return null;
   }
@@ -308,7 +315,7 @@ export function makeOffers(h, products, books) {
     <p class="fx-hi-line">${esc(fb ? fb.line : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.")}</p>
   </div>
   <div class="fx-bh-form fx-qf" id="lead-hi" data-campaign="${esc(campaign)}">
-  ${qsForm({ id: "qs-hi", fb: fb || CHEAT, bookPrice: books.main && books.main.price, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+  ${qsForm({ id: "qs-hi", fb: fb || CHEAT, bookPrice: books.main && books.main.price, keep: true, button: "Send it free", note: `Free PDF now, then ${fb && fb.weekly ? fb.weekly : "one board idea a week"}. Leave any time.` })}
   </div>
 </aside>
 ${QS_JS}`;
@@ -392,7 +399,7 @@ ${QS_JS}`;
     <button type="button" class="fx-slide-x" aria-label="Close" data-fx-slide-close>&times;</button>
     <div class="fx-slide-head">
       <img src="${esc(fb ? fb.img : CHEAT_IMG)}" alt="" width="56" height="72" loading="lazy" decoding="async">
-      <div><p class="fx-slide-k">Free printable</p><p class="fx-slide-t">${esc(title)}</p><p class="fx-slide-l">${esc(line.charAt(0).toUpperCase() + line.slice(1))}. Plus one board idea a week.</p></div>
+      <div><p class="fx-slide-k">Free printable</p><p class="fx-slide-t">${esc(title)}</p><p class="fx-slide-l">${esc(line.charAt(0).toUpperCase() + line.slice(1))}. Plus ${esc(fb && fb.weekly ? fb.weekly : "one board idea a week")}.</p></div>
     </div>
     ${bhForm("lead-slide", campaign, fb ? { label: fb.label, pdf: fb.pdf } : null)}
   </aside>
@@ -529,7 +536,7 @@ ${QS_JS}`;
           if (!hasSlide) html = html.replace(/<\/main>/, `${sticky(ctx, `sticky_${campaign.slice(4)}`, formId && (html.includes('id="lead-hi"') ? "cheat" : formId), html.includes("cl-extra") && !html.includes('id="lead-hi"') ? null : freebieFor(path, ctx))}\n</main>`);
           {
             const fb = freebieFor(path, ctx);
-            if (fb && !html.includes('id="lead-hi"')) html = html.replace(/<\/main>/, `<!--qs-fb:${encodeURIComponent(JSON.stringify({ title: fb.title, short: fb.short, label: fb.label, pdf: fb.pdf }))}-->\n</main>`);
+            if (fb && !html.includes('id="lead-hi"')) html = html.replace(/<\/main>/, `<!--qs-fb:${encodeURIComponent(JSON.stringify({ title: fb.title, short: fb.short, label: fb.label, pdf: fb.pdf, ...(fb.weekly ? { weekly: fb.weekly } : {}) }))}-->\n</main>`);
           }
           await writeFile(file, html);
           n++;

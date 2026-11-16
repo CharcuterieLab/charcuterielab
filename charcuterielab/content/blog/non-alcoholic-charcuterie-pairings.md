@@ -16,6 +16,8 @@ updated: "2026-11-08"
 
 > **Quick Answer:** Wine works with charcuterie because of **acid, bubbles and tannin**, not alcohol. Pick drinks that bring at least one of those: **unsweetened black iced tea** for salami and aged cheese, **ginger kombucha** for spicy meats, a **tart cherry spritz** for brie, and **sparkling water with citrus** for everything.
 
+The short list, drink by drink, with the cheeses each one suits: [non-alcoholic drinks for a charcuterie board](/pairings/zero-proof/).
+
 :::html
 <div class="sk-top"><p class="sk-top-label">The four best zero-proof pairings</p>
 <div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Tannin</p><span class="sk-top-name">Unsweetened black iced tea</span><p class="sk-top-line">The closest thing to red wine. Salami, soppressata, aged cheddar.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#tea">Teas</a></span></div></div>

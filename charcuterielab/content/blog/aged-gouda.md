@@ -82,6 +82,8 @@ Dark honey on aged Gouda isn't the usual salty-sweet contrast: it's caramel on c
 
 If you serve spirits, tell guests to try the Gouda with the bourbon. It's the pairing people remember.
 
+Every match ranked, with the best fruit, meat and wine for each: [what goes with aged Gouda](/pairings/food/aged-gouda/).
+
 :::html
 <h2 id="reference">Quick pairing reference</h2>
 :::

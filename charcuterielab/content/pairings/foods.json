@@ -16,7 +16,41 @@
     "q": "What wine goes with brie?",
     "a": "Champagne or sparkling wine first, then oaked Chardonnay or a light red like Pinot Noir or Beaujolais."
    }
-  ]
+  ],
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Best match: Champagne or another dry sparkling wine — bubbles and acid scrub the butterfat off your palate",
+     "Also good: oaked [Chardonnay](/pairings/wine/chardonnay/)",
+     "Light reds: [Pinot Noir](/pairings/wine/pinot-noir/) or [Beaujolais](/pairings/wine/beaujolais/)",
+     "Skip: big reds like [Cabernet Sauvignon](/pairings/wine/cabernet-sauvignon/) and [Malbec](/pairings/wine/malbec/); tannin turns the rind bitter",
+     "More: [Champagne & Prosecco pairings](/pairings/wine/champagne-prosecco/)"
+    ]
+   },
+   {
+    "q": "How do you serve brie on a charcuterie board?",
+    "a": [
+     "Take it out of the fridge 30 minutes early so the center softens",
+     "Leave the rind on; it's edible and holds most of the flavor",
+     "Cut a wedge or two from the center out so guests know it's open",
+     "Give it its own knife",
+     "Set fig jam, pears and sliced baguette right next to it"
+    ]
+   },
+   {
+    "q": "What goes on crackers with brie?",
+    "a": [
+     "Base: a plain water cracker or baguette slice",
+     "Cheese: a sliver of brie",
+     "Sweet: a half-teaspoon of fig jam or a drizzle of honey",
+     "Crunch: a walnut half or a thin slice of pear"
+    ]
+   }
+  ],
+  "bite": {
+   "salty": "duck-prosciutto"
+  }
  },
  {
   "slug": "camembert",
@@ -51,7 +85,32 @@
     "q": "Should you bake Camembert for a board?",
     "a": "You can. Bake it in its wooden box at 350°F for 15 to 20 minutes, then serve with baguette, apple slices and a drizzle of honey."
    }
-  ]
+  ],
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Classic: dry cider or Champagne, the Normandy matches; their acid and bubbles cut a rich, earthy cheese",
+     "Still white: a crisp, lightly oaked [Chardonnay](/pairings/wine/chardonnay/)",
+     "Light red: [Beaujolais](/pairings/wine/beaujolais/) or [Pinot Noir](/pairings/wine/pinot-noir/)",
+     "Skip: tannic reds like [Cabernet Sauvignon](/pairings/wine/cabernet-sauvignon/); they clash with the mushroomy rind",
+     "More: [hard cider pairings](/pairings/beer/hard-cider/)"
+    ]
+   },
+   {
+    "q": "What do you eat with Camembert?",
+    "a": [
+     "Base: crusty baguette or a plain cracker",
+     "Sweet or tart: apple, pear, grapes or fig jam",
+     "Salty: French ham or a few cornichons",
+     "Crunch: walnuts",
+     "Bolder extras: apple butter or cured duck; Camembert is stronger than brie"
+    ]
+   }
+  ],
+  "bite": {
+   "salty": "cornichons"
+  }
  },
  {
   "slug": "aged-cheddar",
@@ -91,7 +150,10 @@
     "q": "What wine goes with aged Gouda?",
     "a": "Cabernet, Merlot or tawny port. Its caramel notes also love stout and Belgian dubbel."
    }
-  ]
+  ],
+  "bite": {
+   "salty": "bread-and-butter-pickles"
+  }
  },
  {
   "slug": "manchego",
@@ -128,6 +190,17 @@
    {
     "q": "What wine goes with Comté?",
     "a": "Chardonnay, Champagne, Pinot Noir or Beaujolais."
+   }
+  ],
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Regional match: a Jura white (Chardonnay, Savagnin or vin jaune) whose nutty notes echo the cheese",
+     "Also good: lightly oaked [Chardonnay](/pairings/wine/chardonnay/) or dry [Champagne](/pairings/wine/champagne-prosecco/)",
+     "Light red: [Pinot Noir](/pairings/wine/pinot-noir/) or [Beaujolais](/pairings/wine/beaujolais/)",
+     "Older, crystal-studded Comté: a fuller white or a glass of dry sherry"
+    ]
    }
   ]
  },
@@ -205,6 +278,18 @@
     "q": "Is Stilton a strong blue?",
     "a": "Medium. It's creamier and milder than Roquefort, stronger than Cambozola."
    }
+  ],
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Best match: [Port](/pairings/wine/port/) — its sweetness and weight soften Stilton's salt and blue bite",
+     "Also good: a sweet white such as Sauternes or a late-harvest Riesling",
+     "Dry red: choose a big, fruity one",
+     "Skip: light reds and crisp whites like [Sauvignon Blanc]({W}sauvignon-blanc/); they get flattened",
+     "Beer: a [stout or porter](/pairings/beer/stout-porter/)"
+    ]
+   }
   ]
  },
  {
@@ -224,7 +309,10 @@
     "q": "How do you serve chèvre on a board?",
     "a": "Roll a log in herbs, nuts or pepper, or drizzle it with honey."
    }
-  ]
+  ],
+  "bite": {
+   "salty": "nicoise-olives"
+  }
  },
  {
   "slug": "taleggio",
@@ -357,6 +445,30 @@
     "q": "What wine goes with smoked salmon?",
     "a": "Champagne, Sauvignon Blanc or unoaked Chardonnay."
    }
+  ],
+  "qa": [
+   {
+    "k": "cheese",
+    "q": "What cheese goes with smoked salmon?",
+    "a": [
+     "Best match: cream cheese — cool, tangy fat cuts the oil and salt in the fish",
+     "Fresh goat cheese (chèvre): the same job with more tang",
+     "Boursin: garlic and herbs for an instant canapé",
+     "Havarti: mild and buttery for a sliced-cheese board",
+     "Skip: blue cheese and strong aged cheeses; they bury the smoke"
+    ]
+   },
+   {
+    "k": "wine",
+    "q": "What to drink with smoked salmon?",
+    "a": [
+     "Best match: dry sparkling wine — crisp acid and bubbles cut the oily fish; the brunch classic",
+     "Also good: unoaked [Chardonnay](/pairings/wine/chardonnay/), [Riesling](/pairings/wine/riesling/) and [Sauvignon Blanc](/pairings/wine/sauvignon-blanc/)",
+     "Beer: a [wheat beer](/pairings/beer/wheat-beer/)",
+     "Skip: tannic reds like [Cabernet Sauvignon](/pairings/wine/cabernet-sauvignon/); tannin and fish oil taste metallic",
+     "More: [Champagne & Prosecco pairings](/pairings/wine/champagne-prosecco/)"
+    ]
+   }
   ]
  },
  {
@@ -394,6 +506,27 @@
    {
     "q": "Which apple is best for cheese?",
     "a": "Crisp, tart apples like Honeycrisp, Pink Lady or Granny Smith."
+   }
+  ],
+  "qa": [
+   {
+    "k": "fruit",
+    "q": "What fruit goes well with apples?",
+    "a": [
+     "Easy partners: pears and grapes; similar crunch, different sweetness",
+     "Autumn board: pomegranate seeds, persimmon slices, blood orange segments",
+     "Dried: cranberries or Medjool dates",
+     "Tip: mix tart and sweet, and toss cut apple in a little citrus juice so it stays white"
+    ]
+   },
+   {
+    "q": "What are the best apples for a charcuterie board?",
+    "a": [
+     "Sweet and crisp: Honeycrisp, Pink Lady (Cripps Pink), Fuji, Gala",
+     "Tart: Granny Smith, best against rich cheese",
+     "Looks best: one red and one green",
+     "Slice them last and brush with lemon juice to slow browning"
+    ]
    }
   ]
  },

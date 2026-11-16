@@ -79,7 +79,7 @@ Goat cheese adds tang and a bright white color to a board. These brands cover th
 <ul class="sk-checks"><li><strong>Look for:</strong> Fresh chèvre should smell clean and tangy, not sour. Check the date: fresh goat cheese is best within a couple of weeks.</li><li class="sk-x"><strong>Skip:</strong> Pre-crumbled goat cheese for a board. It dries out. Buy a log and roll it in herbs or honey yourself.</li></ul>
 :::
 
-**More:** [Goat cheese: pairings and serving tips](/ingredients/fresh-chevre/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Goat cheese: pairings and serving tips](/ingredients/fresh-chevre/) · [Sauvignon Blanc cheese pairing](/pairings/wine/sauvignon-blanc/) · [All buying guides](/blog/best-charcuterie-brands/)
 Shopping at Safeway or Albertsons? Laura Chenel leads our [Safeway and Albertsons charcuterie guide](/blog/best-safeway-albertsons-charcuterie-items/).
 
 :::html

@@ -102,7 +102,7 @@ Cold-smoked salmon (Nova or lox style) is the board standard — it has a silky,
 
 **What else goes with smoked salmon and cream cheese on a board?**
 
-Capers are essential: their briny, sharp bite resets the palate between rich bites. Paper-thin red onion adds a sharp crunch, lemon zest or a squeeze of lemon brightens the whole bite, and fresh dill is the classic herb. Everything crackers or plain bagel chips complete the New York deli format.
+Capers are essential: their briny, sharp bite resets the palate between rich bites. Paper-thin red onion adds a sharp crunch, lemon zest or a squeeze of lemon brightens the whole bite, and fresh dill is the classic herb. Everything crackers or plain bagel chips complete the New York deli format. For the full list, ranked, see [what goes with smoked salmon](/pairings/food/smoked-salmon/).
 
 **How do you serve smoked salmon on a charcuterie board?**
 

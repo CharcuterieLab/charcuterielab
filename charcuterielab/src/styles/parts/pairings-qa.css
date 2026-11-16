@@ -1,0 +1,44 @@
+/* Quick answers on food guides (15 Nov 2026) */
+.pr-qa{display:grid;gap:0}
+.pr-qa h2{margin-bottom:8px}
+.pr-qa-item{padding:14px 0;border-top:1px solid #eadfd3}
+.pr-qa-item:first-of-type{border-top:0}
+.pr-qa-item h3{margin:0 0 4px;font-size:18px;line-height:1.3}
+
+.pr-qa-item strong a{text-decoration-thickness:2px}
+
+/* Shopping list page and its email gate (15 Nov 2026) */
+.lab-list{font:inherit;font-size:14px;font-weight:600;color:#7a3b1c;text-decoration:underline;text-underline-offset:3px}
+.pl-gate{margin:10px 0 4px;padding:14px 16px;border:1px solid #e3cdb4;border-radius:12px;background:#fff8ee}
+.pl-gate-t{margin:0 0 10px;line-height:1.5;font-size:15px;color:#3d332b}
+.pl-gate-t strong{display:block;font-size:16px;color:#4a2512;margin-bottom:2px}
+.pl-gate-f{display:flex;gap:8px;flex-wrap:wrap}
+.pl-gate-f input[type=email]{flex:1 1 200px;min-width:0;padding:11px 12px;border:1px solid #cdb79c;border-radius:9px;font:inherit;font-size:16px;background:#fff}
+.pl-gate-f .button{flex:0 0 auto}
+.pl-gate-n{margin:8px 0 0;font-size:13.5px;color:#6b5d50}
+.pl-gate .qs-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.pl-list h3{margin:16px 0 6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#a9572b}
+.pl-checks{list-style:none;margin:0;padding:0}
+.pl-checks li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #eadfd3}
+.pl-checks label{display:flex;align-items:flex-start;gap:10px;cursor:pointer;line-height:1.4}
+.pl-checks input{width:20px;height:20px;margin-top:1px;accent-color:#7a3b1c;flex:none}
+.pl-checks em{font-style:normal;color:#6b5d50;margin-left:4px}
+.pl-checks a{font-size:13px;color:#7a3b1c;flex:none}
+.pl-checks input:checked+span{text-decoration:line-through;color:#8a7d70}
+.pl-bite p{line-height:1.6}
+.pl-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 10px}
+.pl-print-foot{display:none}
+@media print{
+  .site-header,.site-footer,.pr-subnav,.pl-actions,.pl-page .bl-note,.pl-checks a,.fx-sticky,.fx-slide{display:none!important}
+  .pl-page{max-width:none;padding:0}
+  .pl-hero{padding:0;margin:0 0 6px;background:none}
+  .pl-checks li{padding:6px 0;break-inside:avoid}
+  .pl-print-foot{display:block;margin-top:18px;font-size:11px;color:#6b5d50}
+}
+
+/* Quick answers as bullets (15 Nov 2026) */
+.pr-qa-list{margin:4px 0 0;padding:0;list-style:none}
+.pr-qa-li{position:relative;padding:3px 0 3px 18px;line-height:1.55;color:#3d332b}
+.pr-qa-li::before{content:"";position:absolute;left:3px;top:.8em;width:6px;height:6px;border-radius:50%;background:#a9572b}
+.pr-qa-li b{color:#4a2512}
+.pr-qa-p{margin:0;line-height:1.6;color:#3d332b}

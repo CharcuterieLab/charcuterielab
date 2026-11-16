@@ -8,13 +8,13 @@ board_role: "Soft anchor cheese"
 role_group: "Soft & fresh"
 excerpt: "The bloomy-rind cheese everyone starts with. Why it must come out of the fridge an hour early, whether to eat the rind, and which wheel to buy."
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-11-15
 price_tier: "$$"
 serving_per_person: "1–2 oz"
 prep_time: "20–30 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "soft", "french", "beginner"]
-pairs_with: ["water-crackers", "baguette", "camembert", "triple-creme", "macadamia-nuts", "candied-pecans", "mandarins", "fig-jam", "honeycomb", "apricot-jam", "cranberry-sauce", "marinated-mushrooms", "fresh-thyme", "graham-crackers", "speculoos", "honey", "walnuts", "pears", "marcona-almonds"]
+pairs_with: ["water-crackers", "baguette", "camembert", "triple-creme", "macadamia-nuts", "candied-pecans", "mandarins", "fig-jam", "honeycomb", "apricot-jam", "cranberry-sauce", "marinated-mushrooms", "fresh-thyme", "graham-crackers", "speculoos", "honey", "walnuts", "pears", "marcona-almonds", "apples", "figs", "prosciutto-di-parma", "jambon-de-bayonne", "smoked-turkey"]
 avoid_with: ["everything-crackers", "pretzel-crisps"]
 board_post: "/blog/brie/"
 faq: "[{"question": "Do you eat the rind on brie?", "answer": "Yes. It's edible and it carries most of the flavor. Cutting it off leaves you with plain butterfat."}, {"question": "Brie or Camembert — what's the difference?", "answer": "Camembert is smaller, stronger and more mushroomy; brie is larger, milder and more buttery. Camembert is the one to buy if brie has ever bored you."}, {"question": "How long before serving should I take it out?", "answer": "20 to 30 minutes. It matters more than anything else you do."}, {"question": "How much brie per person?", "answer": "1–2 oz as one of three cheeses. An 8 oz wheel serves six to eight."}, {"question": "How do I cut it?", "answer": "Wedges from the center out, like a pie, so every piece has rind and center."}]"
@@ -56,6 +56,11 @@ mushroomy. Nothing else you do to brie matters as much.
 | **Green grapes and pear** | Acid and water cut the fat and reset the palate between bites. |
 | **Marcona almonds** | Salt and crunch against soft and mild — the texture the cheese can't provide. |
 | **Champagne, dry cider, Chardonnay** | Bubbles and acid slice through butterfat. Big reds bulldoze it. |
+| **Apples** | Crisp, tart slices against soft cream. Apple and brie is the easiest crowd-pleaser on any board. |
+| **Figs** | Fresh figs are jammy and honeyed, a softer, fresher version of the fig jam classic. |
+| **Prosciutto di Parma** | Silky, salty ham against butterfat. Wrap a thin slice around a wedge. |
+| **Jambon de Bayonne** | France's own cured ham: mild, sweet salt that brie never fights. |
+| **Smoked Turkey** | The brie-and-turkey sandwich, taken apart for a board. Add cranberry sauce for the full holiday bite. |
 
 **Skip it with:** everything crackers, pretzel crisps and anything garlicky or
 heavily salted. Brie is quiet, and a loud base wins. Also skip pairing it next

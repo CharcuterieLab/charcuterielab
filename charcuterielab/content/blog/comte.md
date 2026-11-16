@@ -64,6 +64,8 @@ To pair it:
 - **Something sour** (dry white wine, pickled fruit) resets your palate between rich bites.
 - **Tannic red wine** also cuts through its fat.
 
+The full ranked list, with the best wine and the cured meats that suit it: [what goes with Comté](/pairings/food/comte/).
+
 ## How to Use Comté on a Board
 
 **As the primary French cheese:** Comté is the anchor for any French-themed board. It pairs naturally with jambon de Bayonne (French air-cured ham), saucisson sec (French dry salami), cornichons, and Dijon mustard. A Brie or Camembert alongside Comté covers both the soft-ripened and hard-aged categories for a complete French board.
