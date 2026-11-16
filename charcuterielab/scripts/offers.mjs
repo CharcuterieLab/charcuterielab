@@ -112,7 +112,8 @@ const DEFAULT_LEAD = {
   "date-night-pack": "Planning a night in?",
   "every-guest-dietary-pack": "Mixed diets at the party?",
   "cheese-lovers-pack": "Love cheese?",
-  "field-guide-duo": "Shopping the counters?"
+  "field-guide-duo": "Shopping the counters?",
+  "pairing-pack": "Pairing by hand?"
 };
 
 // Party-planning pages (17 Oct 2026): board plans, holidays, store guides and
@@ -203,7 +204,9 @@ export function makeOffers(h, products, books) {
 
   // The packs that include a printable or a single board plan, best value first.
   const packs = [...live.values()].filter((p) => p.bundle);
-  const packFor = (o) => packs.find((p) => (o.type === "single" ? (p.boards || []).includes(o.board.n) : (p.contains || []).includes(o.slug)));
+  // The pairing printables point to the Pairing Pack first (16 Nov 2026), not the Cheese Lover's Pack.
+  const PACK_FIRST = { "pairing-card-deck": "pairing-pack", "wine-cheese-pairing-guide": "pairing-pack" };
+  const packFor = (o) => (o.type !== "single" && PACK_FIRST[o.slug] && packs.find((p) => p.slug === PACK_FIRST[o.slug])) || packs.find((p) => (o.type === "single" ? (p.boards || []).includes(o.board.n) : (p.contains || []).includes(o.slug)));
 
   function pick(ctx) {
     // A board page whose plan is live as a $3 PDF sells exactly that plan.

@@ -1386,6 +1386,56 @@
     "boards": []
   },
   {
+    "title": "The Pairing Pack",
+    "description": "Digital download bundle: 3 printable PDFs for $9 ($14 separately).",
+    "price": "$9.00",
+    "image": "/images/bundles/pairing-pack.webp",
+    "url": "https://charcuterieflavor.gumroad.com/l/pairing-pack",
+    "slug": "pairing-pack",
+    "priceShort": "$9",
+    "pagesLabel": "3 PDFs",
+    "format": "US Letter PDFs",
+    "hook": "Everything for knowing why things go together: 25 pairing cards to pull for what's in your fridge, 20 wine styles matched to their cheeses, and 16 cheese cards for the counter. $5 less than buying them one at a time.",
+    "includes": [
+      "The Pairing Card Deck ($5 on its own)",
+      "The Wine & Cheese Pairing Guide ($4)",
+      "The Cheese Board Field Guide ($5)",
+      "24 printable pages across the three"
+    ],
+    "who": "Anyone who wants to know why a pairing works, not just what to buy, and the wine-and-cheese person on your gift list.",
+    "seoTitle": "The Pairing Pack: Printable Pairing Cards, Wine & Cheese Guide",
+    "metaDescription": "Three printable pairing guides: a 25-card pairing deck, a wine and cheese guide for 20 wine styles, and the Cheese Board Field Guide. $9 ($14 separately).",
+    "free": [
+      [
+        "Charcuterie pairings hub",
+        "/pairings/"
+      ],
+      [
+        "Wine and cheese pairing chart",
+        "/pairings/wine-and-cheese-chart/"
+      ],
+      [
+        "How pairing works",
+        "/pairings/how-pairing-works/"
+      ]
+    ],
+    "previews": [
+      "/images/bundles/pairing-pack-1.webp",
+      "/images/bundles/pairing-pack-2.webp",
+      "/images/bundles/pairing-pack-3.webp"
+    ],
+    "group": "Bundles",
+    "bundle": true,
+    "separately": "$14",
+    "save": "$5",
+    "contains": [
+      "pairing-card-deck",
+      "wine-cheese-pairing-guide",
+      "cheese-board-field-guide"
+    ],
+    "boards": []
+  },
+  {
     "title": "DIY Cheese Advent Calendar Kit",
     "description": "Digital download: plan a 12- or 24-night cheese advent calendar with shopping lists, a pairing schedule and number tags.",
     "price": "$4.00",

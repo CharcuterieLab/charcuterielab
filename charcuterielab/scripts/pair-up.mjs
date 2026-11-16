@@ -58,7 +58,7 @@ export function upPairHub(html, path) {
       <h2>Pairing Card Deck</h2>
       <p>Pairings are easier when they're in your hand. Print the deck, cut it out, and pull the cards for whatever is in your fridge.</p>
       <div class="fx-print-actions"><a class="button primary" href="${u("https://charcuterieflavor.gumroad.com/l/pairing-card-deck")}" target="_blank" rel="noopener">Get the PDF · $5</a><span class="fx-refund">Instant PDF &middot; 30-day refund</span><a class="fx-more" href="/printables/pairing-card-deck/">What's inside &rarr;</a></div>
-      <p class="pr-also">Pouring wine? The <a href="/printables/wine-cheese-pairing-guide/">Wine &amp; Cheese Pairing Guide</a> matches 20 wine styles to their cheeses &middot; $4.</p>
+      <p class="pr-also">Pouring wine? The <a href="/printables/wine-cheese-pairing-guide/">Wine &amp; Cheese Pairing Guide</a> matches 20 wine styles to their cheeses &middot; $4. Or get the deck, the wine guide and the Cheese Board Field Guide together in <a href="/printables/pairing-pack/">The Pairing Pack</a> &middot; $9 <span>($14 separately)</span>.</p>
     </div>
   </aside>`;
   });

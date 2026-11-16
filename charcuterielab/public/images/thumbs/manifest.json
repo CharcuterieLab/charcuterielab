@@ -19355,6 +19355,50 @@
 "/images/winter-charcuterie-board.png": [
 1024,
 687
+],
+"/images/bundles/pairing-pack.webp": [
+600,
+600
+],
+"/images/thumbs/bundles__pairing-pack-webp-s.webp": [
+240,
+240
+],
+"/images/bundles/pairing-pack-1.webp": [
+1000,
+750
+],
+"/images/thumbs/bundles__pairing-pack-1-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/bundles__pairing-pack-1-webp-s.webp": [
+240,
+180
+],
+"/images/bundles/pairing-pack-2.webp": [
+1000,
+750
+],
+"/images/thumbs/bundles__pairing-pack-2-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/bundles__pairing-pack-2-webp-s.webp": [
+240,
+180
+],
+"/images/bundles/pairing-pack-3.webp": [
+1000,
+750
+],
+"/images/thumbs/bundles__pairing-pack-3-webp-m.webp": [
+640,
+480
+],
+"/images/thumbs/bundles__pairing-pack-3-webp-s.webp": [
+240,
+180
 ]
 },
 "thumbs": {
@@ -25804,6 +25848,21 @@
 "/images/winter-charcuterie-board.png": {
 "m": "/images/thumbs/winter-charcuterie-board-png-m.webp",
 "s": "/images/thumbs/winter-charcuterie-board-png-s.webp"
+},
+"/images/bundles/pairing-pack.webp": {
+"s": "/images/thumbs/bundles__pairing-pack-webp-s.webp"
+},
+"/images/bundles/pairing-pack-1.webp": {
+"m": "/images/thumbs/bundles__pairing-pack-1-webp-m.webp",
+"s": "/images/thumbs/bundles__pairing-pack-1-webp-s.webp"
+},
+"/images/bundles/pairing-pack-2.webp": {
+"m": "/images/thumbs/bundles__pairing-pack-2-webp-m.webp",
+"s": "/images/thumbs/bundles__pairing-pack-2-webp-s.webp"
+},
+"/images/bundles/pairing-pack-3.webp": {
+"m": "/images/thumbs/bundles__pairing-pack-3-webp-m.webp",
+"s": "/images/thumbs/bundles__pairing-pack-3-webp-s.webp"
 }
 }
 }
