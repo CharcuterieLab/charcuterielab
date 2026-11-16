@@ -42,3 +42,20 @@
 .pr-qa-li::before{content:"";position:absolute;left:3px;top:.8em;width:6px;height:6px;border-radius:50%;background:#a9572b}
 .pr-qa-li b{color:#4a2512}
 .pr-qa-p{margin:0;line-height:1.6;color:#3d332b}
+
+/* Written guide sections on drink guides (16 Nov 2026) */
+.pr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.pr-guide-table th[scope=row]{font-weight:700;color:#4a2512;white-space:normal;min-width:110px}
+.pr-guide-p{line-height:1.65;color:#3d332b}
+.pr-guide-table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.45;background:#fff;border-radius:12px;overflow:hidden}
+.pr-guide-table th,.pr-guide-table td{padding:10px 12px;border-bottom:1px solid #eadfd3;text-align:left;vertical-align:top}
+.pr-guide-table thead th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#6b5d50;background:#f5ede1}
+.pr-guide-table a{display:inline}
+@media (max-width:640px){
+  .pr-guide-table thead{display:none}
+  .pr-guide-table,.pr-guide-table tbody,.pr-guide-table tr,.pr-guide-table th,.pr-guide-table td{display:block;width:100%}
+  .pr-guide-table tr{border-bottom:1px solid #eadfd3;padding:10px 12px}
+  .pr-guide-table th,.pr-guide-table td{border:0;padding:2px 0}
+  .pr-guide-table th[scope=row]{font-size:17px;padding-bottom:4px}
+  .pr-guide-table td::before{content:attr(data-l) ": ";font-weight:700;color:#4a2512}
+}

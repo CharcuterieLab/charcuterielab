@@ -2,7 +2,7 @@
 title: "The Best Sparkling Cider for a Charcuterie Board, Ranked (Non-Alcoholic)"
 seo_title: "Best Non-Alcoholic Sparkling Cider, Ranked (2026)"
 date: "2026-10-16"
-updated: "2026-11-09"
+updated: "2026-11-16"
 image: "/images/pairings/pairings-zero-proof.webp"
 excerpt: "The best sparkling cider for a charcuterie board, ranked: Martinelli's Sparkling Cider is our top pick. Star ratings, a dry pick and a spiced holiday pick, and why."
 description: "The best sparkling cider for a charcuterie board, ranked: Martinelli's Sparkling Cider wins, with 7 more ranked on taste, value and how easy they are to find."
@@ -108,7 +108,19 @@ The toast for kids, drivers and anyone skipping alcohol. It cuts rich cheese jus
 - **How much to buy:** a 25.4 oz bottle pours about five 5-oz glasses. For a toast, one bottle covers 6 to 8 people.
 - **What it pairs with:** sharp cheddar, brie, Gouda, prosciutto, apples, pears and salted nuts. The drier Welch's suits salty meat best.
 
-See our [zero-proof pairings](/pairings/zero-proof/) for more drinks.
+:::html
+<h2 id="what-to-serve">What to serve with sparkling cider</h2>
+:::
+
+Sparkling cider works like a dry sparkling wine: the bubbles and apple acid cut rich, salty food. Match it like this:
+
+- **Soft cheese:** [brie](/pairings/food/brie/) and [Camembert](/pairings/food/camembert/). Apple and a creamy rind are the Normandy classic.
+- **Aged cheese:** sharp [aged cheddar](/pairings/food/aged-cheddar/) or aged Gouda, the apple-and-cheddar plate in a glass.
+- **Meat:** prosciutto, smoked turkey or a mild ham. The drier bottles suit salty meat best.
+- **Fruit and nuts:** sliced apples and pears, candied pecans and salted almonds.
+- **Skip:** very sweet desserts. Next to cake or candy, cider tastes flat and sugary.
+
+See our [non-alcoholic drinks for a charcuterie board](/pairings/zero-proof/) for more drinks.
 **More:** [Sparkling cider: pairings and serving tips](/pairings/zero-proof/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html

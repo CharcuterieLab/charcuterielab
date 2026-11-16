@@ -1205,6 +1205,91 @@
     {
      "q": "When should you serve port?",
      "a": "At the end, with the blue cheese and dessert items. Small pours, 2–3 oz."
+    },
+    {
+     "q": "What cheese goes with tawny port?",
+     "a": "Hard, aged cheeses with their own caramel and nut notes: aged Gouda, Comté, Gruyère and Parmigiano-Reggiano. Add walnuts or dried figs."
+    },
+    {
+     "q": "Is port wine cheese the same as cheese with port?",
+     "a": "No. Port wine cheese is a red, spreadable cheddar-style cheese flavored with port. Cheese with port means serving a glass of port alongside cheese such as Stilton."
+    }
+   ],
+   "h1": "Port and cheese pairing: which port goes with which cheese",
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which port with which cheese",
+     "p": "Port is not one wine. Young, fruity ruby styles want salty blue cheese; older, nutty tawnies want hard, caramel-noted cheese. Match the style first, then the cheese.",
+     "table": {
+      "head": [
+       "Port style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Ruby and Reserve Ruby",
+        "Young, sweet, red berries and plum",
+        "[Stilton](/pairings/food/stilton/), [Gorgonzola](/pairings/food/gorgonzola/), Roquefort, mature cheddar",
+        "[Dark chocolate](/pairings/food/dark-chocolate/), cherries"
+       ],
+       [
+        "Late Bottled Vintage (LBV)",
+        "A richer ruby: blackberry, a little spice",
+        "Stilton, [aged cheddar](/pairings/food/aged-cheddar/), [Manchego](/pairings/food/manchego/)",
+        "Dark chocolate, walnuts"
+       ],
+       [
+        "10-year tawny",
+        "Caramel, toffee, dried fruit and nuts",
+        "[Aged Gouda](/pairings/food/aged-gouda/), [Comté](/pairings/food/comte/), [Gruyère](/pairings/food/gruyere/), a creamy blue",
+        "Walnuts, pecans, dried figs"
+       ],
+       [
+        "20-year tawny and older",
+        "Lighter and nuttier: toffee, orange peel, almond",
+        "[Parmigiano-Reggiano](/pairings/food/parmigiano-reggiano/), aged Gouda, [triple-crème](/pairings/food/triple-creme/)",
+        "Marcona almonds, Medjool dates"
+       ],
+       [
+        "Vintage port",
+        "The most intense: dark fruit and firm grip",
+        "Stilton (the classic), Cabrales, Roquefort",
+        "Walnuts, plain oatcakes"
+       ],
+       [
+        "White port",
+        "Fresh and citrusy to honeyed; often served with tonic",
+        "[Fresh goat cheese](/pairings/food/fresh-chevre/), young Manchego",
+        "Marcona almonds, green olives"
+       ]
+      ]
+     },
+     "after": "Choosing a bottle? See [the best port wine for a cheese board](/blog/best-port-wine/), from about $17."
+    },
+    {
+     "id": "serve",
+     "h": "How to serve port with cheese",
+     "list": [
+      "Temperature: ruby, LBV and vintage at cool room temperature (60–65°F); tawny and white port a little cooler (55–60°F)",
+      "Pour: 2–3 oz in a small wine glass; port is about 20% alcohol",
+      "When: at the end of the meal, as the cheese course or beside dessert",
+      "Cheese: take it out of the fridge 45–60 minutes ahead; one blue and one aged hard cheese is plenty",
+      "Vintage port: stand the bottle upright for a day and decant it off the sediment",
+      "Once open: keep it corked in the fridge; ruby and LBV last 1–2 weeks, tawny 3–4 weeks, vintage only a day or two"
+     ]
+    },
+    {
+     "id": "tradition",
+     "h": "Why Stilton and port is the classic",
+     "p": "The pairing comes from Britain, where port has been the after-dinner wine for centuries and Stilton the after-dinner cheese. It works because opposites balance: the cheese is salty, sharp and creamy, the wine is sweet, rich and strong, and each one tames the other. The same logic makes port work with any salty blue, and with hard aged cheeses that have their own caramel notes."
+    },
+    {
+     "id": "spread",
+     "h": "Port wine cheese is something else",
+     "p": "\"Port wine cheese\" or \"red port cheese\" is a spreadable, cheddar-style cheese colored red and flavored with port, sold in tubs and cheese balls. It is a party spread, not a pairing. Serve it on crackers with a glass of ruby port or a fruity red. Our picks: [the best port wine cheese spreads](/blog/best-port-wine-cheese/)."
     }
    ]
   },
@@ -2203,8 +2288,8 @@
    "family": "spirits",
    "name": "Whisky",
    "color": "#a8541f",
-   "seo_title": "Whisky and Cheese: 13 Pairings That Work",
-   "seo_description": "Whisky pairs best with aged cheddar, aged gouda, stilton and dark chocolate. 13 matches with the reason behind each, plus what to pour for a smoky malt.",
+   "seo_title": "Whisky Pairing Chart: 13 Cheeses, Meats and Sweets",
+   "seo_description": "A whisky pairing chart: 13 cheeses, meats and sweets that stand up to a 40% spirit, from aged cheddar and Stilton to dark chocolate, plus the 3 to skip.",
    "profile": {
     "body": 5,
     "smoke": 3,
@@ -2321,6 +2406,22 @@
     {
      "q": "How much whisky per person for a tasting?",
      "a": "About half an ounce per pairing, and no more than four pairings. That is two ounces a head in total, which is one standard drink."
+    }
+   ],
+   "h1": "Whisky pairing chart: 13 matches and the 3 to skip",
+   "sections": [
+    {
+     "id": "by-style",
+     "h": "Whisky and cheese by style",
+     "p": "Bourbon, rye, Scotch, Irish and Japanese whisky each suit a different cheese. The full guide, with a tasting board for 4 to 8, is our [whiskey and cheese pairing guide](/blog/whiskey-and-cheese-pairing/).",
+     "list": [
+      "Bourbon: aged cheddar or aged Gouda; caramel meets caramel",
+      "Rye: Gruyère or Comté; their sweetness balances the spice",
+      "Smoky Scotch: Stilton or smoked Gouda; strength against strength",
+      "Unpeated Scotch: aged cheddar, Comté or Manchego",
+      "Irish whiskey: Irish cheddar or Havarti",
+      "Japanese whisky: young Gouda for light blends, aged Gouda for richer malts"
+     ]
     }
    ]
   }

@@ -1,13 +1,13 @@
 ---
 title: "Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Science Behind It"
-seo_title: "Blue Cheese Charcuterie Board: Pairings and Placement"
+seo_title: "What Goes With Blue Cheese on a Charcuterie Board?"
 date: "2026-09-27"
 image: "/images/blue-cheese-charcuterie-board.png"
 excerpt: "Blue Cheese on a Charcuterie Board: Pairings, Placement, and the Science Behind It"
-description: "Use one blue cheese, 3 to 5 oz for 6 to 10 guests, at the board's edge with honey, figs, pear and walnuts. Which blue to buy and why the pairings work."
+description: "What goes with blue cheese: honey, figs, pears, walnuts, prosciutto and port. Which blue to buy for a board, how much, where it goes and why it works."
 faq: "[{"question":"What blue cheese is best for a charcuterie board?","answer":"Gorgonzola dolce is the easiest blue for a board: creamy, mild and spreadable, so it wins over guests who think they don't like blue cheese. Stilton is balanced and crumbles neatly, which makes it the most versatile. Roquefort is sharper, saltier and more complex. Cambozola, a soft German blue with a bloomy rind, is the mildest of all."},{"question":"What pairs best with blue cheese on a charcuterie board?","answer":"Honey is the classic partner, because sweetness tempers blue cheese's salt and sharpness. Figs, fresh or dried, do the same with extra texture. Pear adds juicy sweetness and a little acidity, walnuts add crunch and a slightly bitter edge, and prosciutto adds salty, savory depth. Keep crackers plain so they don't compete."},{"question":"How much blue cheese should you put on a charcuterie board?","answer":"About 3 to 5 oz for a board serving 6 to 10 people when blue is one of three or four cheeses. That works out to roughly half an ounce per guest, out of the 2 oz of cheese per guest a full board needs. Blue is intense, so a little goes a long way. Place it away from mild cheeses like fresh chèvre or triple-crème."},{"question":"Why does honey pair so well with blue cheese?","answer":"Sweetness tempers the saltiness and sharp, slightly bitter notes of blue cheese, so the creamy, savory flavors underneath come forward. Blue cheese gets its bite from fat and protein breaking down as it ages, and its signature aroma from methyl ketones made by the blue mold. Honey softens that intensity without hiding it, which is why the two taste better together than apart."},{"question":"Can you put blue cheese on a board with guests who don't like it?","answer":"Yes. Put it at a corner or edge of the board so it reads as optional, and label it. Choose a mild, creamy blue like Gorgonzola dolce or Cambozola rather than Roquefort. Serve it with honey or honeycomb beside it: that pairing wins over a lot of doubters."}]"
 slug: "blue-cheese-charcuterie-board"
-updated: "2026-10-20"
+updated: "2026-11-16"
 tags: "["blue cheese charcuterie board", "blue cheese pairings", "ingredient deep dive", "charcuterie board"]"
 ---
 
@@ -15,10 +15,23 @@ tags: "["blue cheese charcuterie board", "blue cheese pairings", "ingredient dee
 
 > **Quick Answer:** Use **one blue**, 3 to 5 oz for 6 to 10 guests, at the edge of the board. Mild crowd: **Gorgonzola dolce**. Mixed: **Stilton**. Cheese lovers: **Roquefort**. Put honey right next to it, with figs, pear and walnuts nearby.
 
+
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Which blue</p><span class="sk-top-name">Gorgonzola dolce for a cautious crowd</span><p class="sk-top-line">Stilton for a mixed one, Roquefort for cheese lovers.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#which">All 5 blues</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">How much</p><span class="sk-top-name">3 to 5 oz for 6 to 10 guests</span><p class="sk-top-line">One blue, at the edge of the board, not the center.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#how">How to use it</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Put beside it</p><span class="sk-top-name">Honey or honeycomb</span><p class="sk-top-line">Then figs, pear and walnuts within reach.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#pairs">Pairings</a></span></div></div></div>
-<nav class="sk-jump" aria-label="On this page"><a href="#what">What is blue cheese</a><a href="#which">Which blue</a><a href="#how">How to use it</a><a href="#pairs">Pairings</a><a href="#science">The science</a><a href="#mistakes">Mistakes</a></nav>
+<nav class="sk-jump" aria-label="On this page"><a href="#qa">What goes with it</a><a href="#what">What is blue cheese</a><a href="#which">Which blue</a><a href="#how">How to use it</a><a href="#pairs">Pairings</a><a href="#science">The science</a><a href="#mistakes">Mistakes</a></nav>
 :::
+
+:::html
+<h2 id="qa">What Goes With Blue Cheese: Quick Answers</h2>
+:::
+
+- **Sweet:** [honey or honeycomb](/ingredients/honeycomb/) first, then fig jam or dried figs. Sweet tames the salt.
+- **Fruit:** [pears](/ingredients/pears/) above all, then grapes and apples. Juicy fruit cools the bite.
+- **Nuts:** [walnuts](/ingredients/walnuts/) or candied pecans, for crunch and a bitter edge.
+- **Crackers and bread:** walnut-raisin bread, oatcakes or plain water crackers. Skip strongly seasoned crackers.
+- **Meat:** prosciutto or another silky cured ham. Wrap it around a pear slice with a crumb of blue.
+- **Drinks:** [port](/pairings/wine/port/) with Stilton, Sauternes with Roquefort, or a dry cider. No alcohol: a tart cherry spritz.
+- **Keep it away from:** delicate cheeses like fresh chèvre and brie. Its crumbs and aroma travel.
 
 :::html
 <h2 id="what">What Is Blue Cheese?</h2>
@@ -34,8 +47,13 @@ Two things happen as a blue ages:
 How far those changes go, plus the milk and the salt level, decides whether a blue tastes mild and creamy or bold and pungent.
 
 :::html
-<h2 id="which">Best Blue Cheeses for a Board</h2>
+<h2 id="which">Which Blue Cheese Should You Get for a Board?</h2>
 :::
+
+- **Cautious crowd:** Gorgonzola dolce or Cambozola, both mild and creamy.
+- **Mixed crowd:** Stilton, the most versatile.
+- **Cheese lovers:** Roquefort or Cabrales.
+
 
 **[Gorgonzola dolce](/ingredients/gorgonzola/) (Italy, cow's milk):** Creamy, soft and mildly sweet, with the blue spread gently through a spoonable paste. It sits on a cracker like a soft cheese. Your best bet for guests who are wary of blue.
 
@@ -44,6 +62,8 @@ How far those changes go, plus the milk and the salt level, decides whether a bl
 **[Roquefort](/ingredients/roquefort/) (France, raw sheep's milk):** Aged in the caves of Roquefort-sur-Soulzon. Sharp, salty, tangy and intense. A little goes a long way; choose it when you want the blue to be noticed.
 
 **[Cambozola](/ingredients/cambozola/) (Germany, cow's milk):** A soft, bloomy-rind cheese like brie, with mild blue veining. The gentlest blue you'll find, and a good choice for guests who really don't like strong blue cheese.
+
+**[Rogue River Blue](/pairings/food/rogue-river-blue/) (Oregon, cow's milk):** The blue wrapped in grape leaves soaked in pear spirits. Rich and fruity, with a sweet edge from the leaves; a showpiece for a special board. See [what goes with Rogue River Blue](/pairings/food/rogue-river-blue/).
 
 **[Cabrales](/ingredients/cabrales/) (Spain, cow's or mixed milk):** Cave-aged, very pungent and complex. For adventurous boards and guests who go looking for bold flavor.
 

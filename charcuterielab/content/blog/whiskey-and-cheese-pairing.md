@@ -2,6 +2,7 @@
 title: "Whiskey and Cheese Pairing: Bourbon, Rye, Scotch and Irish Whiskey (With a Tasting Board)"
 seo_title: "Whiskey and Cheese Pairing: Bourbon, Scotch, Rye Guide"
 date: "2026-10-16"
+updated: "2026-11-16"
 image: "/images/whiskey-and-cheese-pairing.jpg"
 excerpt: "Which cheeses go with bourbon, rye, Scotch and Irish whiskey, why the pairings work, what meats and sweets to add, and how to set up a whiskey and cheese tasting board for 4 to 8."
 description: "Whiskey and cheese pairing guide: the best cheeses for bourbon, rye, peated and unpeated Scotch, and Irish whiskey, plus meats, nuts and chocolate to add, how much to pour and buy, and how to set up a whiskey tasting board."
@@ -27,6 +28,14 @@ Whiskey is about three times as strong as wine, so it needs cheese with plenty o
 | Unpeated Scotch (Highland, Speyside) | Honey, fruit, malt | Aged cheddar, Comté, [Manchego](/ingredients/manchego/) | Dried apricots, shortbread, oatcakes |
 | Irish whiskey | Smooth, light, fruity | Irish cheddar, [Havarti](/ingredients/havarti/), [Wensleydale](/ingredients/wensleydale-cranberry/) | Apples, brown bread, butter crackers |
 | Japanese whisky (light styles) | Delicate, floral, clean | Mild semi-firm cheese, young Gouda, [brie](/ingredients/brie/) | Pears, rice crackers |
+
+## Is cheese good with whiskey?
+
+- **Yes, if the cheese is strong enough.** Whiskey (or Scotch-style whisky) is about three times the strength of wine, so it needs cheese with age, salt or crunchy crystals.
+- **Best all-rounder:** aged cheddar, then aged Gouda.
+- **Best with smoky Scotch:** Stilton or smoked Gouda.
+- **Skip:** fresh mozzarella, young goat cheese and mild brie. The spirit flattens them and you taste only alcohol.
+- **Every match ranked, with the reason:** our [whisky pairing chart](/pairings/spirits/whisky/).
 
 ## Why these pairings work
 
@@ -60,6 +69,15 @@ If you only buy one cheese for a mixed Scotch tasting, make it a farmhouse-style
 ## Irish whiskey and cheese
 
 Irish whiskey is usually smoother and lighter, so it doesn't need a powerhouse cheese. **Irish cheddar** is the natural match, plus a buttery **Havarti** or a crumbly **Wensleydale**. Serve with apple slices, brown bread or butter crackers.
+
+## Japanese whisky and cheese
+
+Japanese whisky is usually lighter, cleaner and more delicate than bourbon or Islay Scotch, often with honey, fruit and a little oak spice. Pair it gently:
+
+- **Light, floral blends and highballs:** young Gouda, Havarti or a mild Comté.
+- **Richer single malts:** aged Gouda or Parmigiano-Reggiano, whose crystals and nutty sweetness echo the oak.
+- **Smoky Japanese malts:** smoked Gouda, the same logic as peated Scotch.
+- **On the side:** dried apricots, roasted almonds and a few slices of Asian pear.
 
 ## How to set up a whiskey tasting board (serves 4 to 8)
 

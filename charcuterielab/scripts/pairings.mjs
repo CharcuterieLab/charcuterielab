@@ -603,6 +603,17 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     return false;
   });
 
+  // Extra written sections for a drink guide (16 Nov 2026, port first): drinks.json
+  // "sections": [{ id, h, p, table: { head, rows }, list: ["Label: text"] }]. Text may
+  // carry [label](/internal/) links; lists render as the same bullets as quick answers.
+  const guideSection = (x) => `<section class="bl-section pr-guide" aria-labelledby="${x.id}-h">
+      <h2 id="${x.id}-h">${h.escapeHtml(x.h)}</h2>
+      ${x.p ? `<p class="pr-guide-p">${mdLinks(x.p)}</p>` : ""}
+      ${x.table ? `<div class="pr-table-wrap"><table class="pr-guide-table"><thead><tr>${x.table.head.map((c) => `<th>${h.escapeHtml(c)}</th>`).join("")}</tr></thead><tbody>${x.table.rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${mdLinks(c)}</th>` : `<td data-l="${h.escapeHtml(x.table.head[i])}">${mdLinks(c)}</td>`)).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
+      ${x.list ? qaHtml(x.list) : ""}
+      ${x.after ? `<p class="pr-guide-p">${mdLinks(x.after)}</p>` : ""}
+    </section>`;
+
   const drinkPage = (d) => {
     const matches = d.matches.map((m) => ({ ...m, item: idx.bySlug.get(m.s) }));
     const top = matches.slice(0, 3);
@@ -659,6 +670,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       </table>
       <p class="bl-cta-row"><a class="button primary" href="${builderPreset(d.matches.slice(0, 8).map((m) => m.s), 6, `pairings_${d.slug}`)}">Build a board for this bottle</a> <a class="button" href="/pairings/?q=drink:${d.slug}">Open in the Pairing Finder</a></p>
     </section>
+
+    ${(d.sections || []).map((x) => guideSection(x)).join("\n")}
 
     ${qa.length ? `<section class="bl-section pr-qa" aria-labelledby="qa-h">
       <h2 id="qa-h">${B(d.name)} pairing: quick answers</h2>
