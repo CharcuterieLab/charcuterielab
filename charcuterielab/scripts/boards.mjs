@@ -119,6 +119,9 @@ export async function loadBoards(root) {
       b.placeholder = true;
       b.image = `/images/boards/${b.slug}.svg`;
     }
+    // Its own shopping list is the matched lead magnet where one is built
+    // (15 Nov 2026). Boards without one fall back to the Cheat Sheet.
+    b.hasList = await exists(`/downloads/boards/${b.slug}-shopping-list.pdf`);
   }));
   return all
     .filter((b) => b.status === "published")
@@ -585,8 +588,15 @@ function firstPairing(board, notes, bySlug) {
 // 2/3/4 oz rule as the Party Planner. The book and the $3 plan keep the
 // exact shopping list, prices and placement.
 function boardAmounts(h, b) {
-  const cheeseG = b.groups.filter((g) => /^chees/i.test(g.name));
-  const meatG = b.groups.filter((g) => /meat/i.test(g.name));
+  // The per-person weight rule is about cheese and protein, not about the word
+  // "meat": a seafood, mezze or plant board needs the same arithmetic (15 Nov
+  // 2026). The wider match is a FALLBACK only, used where the original match
+  // found nothing, so no board that already showed amounts changes by a gram.
+  const cheeseStrict = b.groups.filter((g) => /^chees/i.test(g.name));
+  const meatStrict = b.groups.filter((g) => /meat/i.test(g.name));
+  const strict = cheeseStrict.length > 0 && meatStrict.length > 0;
+  const cheeseG = strict ? cheeseStrict : b.groups.filter((g) => /chees/i.test(g.name));
+  const meatG = strict ? meatStrict : b.groups.filter((g) => /meat|protein|seafood/i.test(g.name));
   if (!cheeseG.length || !meatG.length) return "";
   const nums = String(b.serves || "").match(/\d+/g);
   if (!nums) return "";
@@ -595,13 +605,22 @@ function boardAmounts(h, b) {
   const nc = cheeseG.reduce((a, g) => a + g.items.length, 0);
   const nm = meatG.reduce((a, g) => a + g.items.length, 0);
   const each = (oz, k) => (k > 1 ? `, about ${Math.max(2, Math.round(oz / k))} oz of each of the ${k}` : "");
+  // Row labels stay "Cheese" and "Meat" except where that would be wrong:
+  // a seafood board says Seafood, and a board with no animal protein says
+  // Protein, so no plant board is ever told to buy meat.
+  const gnames = (gs) => gs.map((g) => g.name).join(" ");
+  const cheeseLabel = !strict && /plant|nut|vegan/i.test(gnames(cheeseG)) ? "Plant-based cheese" : "Cheese";
+  const meatLabel = strict ? "Meat"
+    : /meat/i.test(gnames(meatG)) ? "Meat"
+    : /seafood/i.test(gnames(meatG)) ? "Seafood"
+    : "Protein";
   const near = PARTY_COUNTS_B.reduce((a, x) => (Math.abs(x - n) < Math.abs(a - n) ? x : a), PARTY_COUNTS_B[0]);
   return `<div class="bl-amounts">
         <h3>How much to buy for ${n} guests</h3>
         <p class="bl-amounts-sub">When the board is the party food. Before a dinner, buy about a third less.</p>
         <table><tbody>
-          <tr><th scope="row">Cheese</th><td>${P.cheese} in total${each(P.cheeseOz, nc)}</td></tr>
-          <tr><th scope="row">Meat</th><td>${P.meat} in total${each(P.meatOz, nm)}</td></tr>
+          <tr><th scope="row">${cheeseLabel}</th><td>${P.cheese} in total${each(P.cheeseOz, nc)}</td></tr>
+          <tr><th scope="row">${meatLabel}</th><td>${P.meat} in total${each(P.meatOz, nm)}</td></tr>
           <tr><th scope="row">Crackers and bread</th><td>${P.crackers[0]}–${P.crackers[1]} pieces</td></tr>
           <tr><th scope="row">Fruit</th><td>${P.fruit}</td></tr>
           <tr><th scope="row">Olives and pickles</th><td>${P.briny}</td></tr>
@@ -614,7 +633,7 @@ function boardAmounts(h, b) {
 // Board pages are the free pitch for the $3 plan (18 Oct 2026). Since the
 // evening of 18 Oct they list every item by name (for search and AI answers),
 // but the amounts, prices, placement and full timeline stay in the plan.
-const TEASE_STEPS = 2;
+const TEASE_STEPS = 5;
 function singleOf(h, b) {
   if (b.book === "main") return (bookBoardOf(h, b) || {}).single || null;
   return (h.bookSingles && h.bookSingles[b.slug]) || null;
@@ -721,15 +740,29 @@ function planSticky(h, b, single) {
 // For readers who aren't hosting yet (9 Nov 2026): the free Cheat Sheet for an
 // email, on the page, near the end. The plan stays the only thing for sale.
 function boardSignup(h, b) {
+  // The matched offer converts better than a generic one, so a board with its
+  // own shopping list offers that: the checklist to shop from and the timeline
+  // to cook to. Per-item amounts, prices and the placement map stay in the
+  // paid plan, so this is a lead magnet rather than the product itself.
+  const name = String(b.title || "this board").replace(/^The /, "");
+  const fb = b.hasList
+    ? { title: `Free shopping list: ${name}`, label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${b.slug}-shopping-list.pdf` }
+    : CHEAT;
+  const img = b.hasList ? "/images/leads/board-shopping-list.webp" : "/images/charcuterie-cheat-sheet.webp";
+  const eyebrow = b.hasList ? "Free printable" : "Not hosting yet?";
+  const head = b.hasList ? `Get this board&rsquo;s shopping list, free` : "Get the free Charcuterie Cheat Sheet";
+  const copy = b.hasList
+    ? `Everything on this board as a printable checklist, how much to buy for ${h.escapeHtml(b.serves || "your guest count")} guests, and the full timeline. Then one board idea a week in the Lab Report.`
+    : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, so this board is in your inbox when the party gets close.";
   return `<section class="bl-section bl-signup" aria-labelledby="bl-signup-title">
-      <img class="fx-hi-img" src="${h.escapeHtml((h.thumb || ((x) => x))("/images/charcuterie-cheat-sheet.webp", "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
+      <img class="fx-hi-img" src="${h.escapeHtml((h.thumb || ((x) => x))(img, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
       <div class="bl-signup-copy">
-        <p class="eyebrow">Not hosting yet?</p>
-        <h2 id="bl-signup-title">Get the free Charcuterie Cheat Sheet</h2>
-        <p>How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, so this board is in your inbox when the party gets close.</p>
+        <p class="eyebrow">${eyebrow}</p>
+        <h2 id="bl-signup-title">${head}</h2>
+        <p>${copy}</p>
       </div>
       <div class="bl-signup-form">
-        ${qsForm({ id: "qs-board", fb: CHEAT, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+        ${qsForm({ id: "qs-board", fb, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
       </div>
     </section>
 ${QS_JS}`;

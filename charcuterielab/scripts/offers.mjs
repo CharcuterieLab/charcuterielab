@@ -287,8 +287,11 @@ export function makeOffers(h, products, books) {
   let DIST = "";
   function freebieFor(path, ctx = {}) {
     const bm = path.match(/^\/boards\/([^/]+)\/$/);
-    // Boards sold as a $3 plan (or soon) no longer give their list away (18 Oct 2026); plant boards still do until their own $3 plan is live.
-    if (bm && ctx.plant && DIST && existsSync(join(DIST, "downloads", "boards", `${bm[1]}-shopping-list.pdf`))) {
+    // Every board offers its own shopping list as the matched magnet (15 Nov 2026).
+    // The 18 Oct gate withheld it to protect $3 plan sales; the newsletter outranks
+    // those (Chris, 12 Oct), and per-item amounts, prices and the placement map stay
+    // in the paid plan, so the free list is a lead magnet and not the product.
+    if (bm && DIST && existsSync(join(DIST, "downloads", "boards", `${bm[1]}-shopping-list.pdf`))) {
       const name = String(ctx.title || "this board").replace(/&amp;/g, "&").replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/^The /, "");
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
