@@ -54,7 +54,7 @@
    "items": [
     {
      "name": "Pineapples",
-     "slug": null
+     "slug": "pineapple"
     },
     {
      "name": "Cantaloupe",
@@ -70,11 +70,11 @@
     },
     {
      "name": "Dragon fruit",
-     "slug": null
+     "slug": "dragon-fruit"
     },
     {
      "name": "Kiwis",
-     "slug": null
+     "slug": "kiwi"
     },
     {
      "name": "Limes",

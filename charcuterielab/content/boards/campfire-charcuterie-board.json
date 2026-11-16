@@ -116,11 +116,11 @@
    "items": [
     {
      "name": "Everything-bagel seasoning",
-     "slug": null
+     "slug": "everything-bagel-seasoning"
     },
     {
      "name": "Trail mix",
-     "slug": null
+     "slug": "trail-mix"
     }
    ]
   }

@@ -49,7 +49,7 @@
     },
     {
      "name": "Hard salami",
-     "slug": null
+     "slug": "hard-salami"
     },
     {
      "name": "Pepperoni",
@@ -62,7 +62,7 @@
    "items": [
     {
      "name": "Mini pretzels",
-     "slug": null
+     "slug": "mini-pretzels"
     },
     {
      "name": "Spiced almonds",
