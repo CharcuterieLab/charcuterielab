@@ -712,7 +712,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
   for (const d of idx.drinks) add(`${d.url.slice(1)}index.html`, drinkPage(d));
 
   // ---------------------------------------------------- family landings ---
-  const familyLanding = (fam, list, { url, title, h1, answer, intro, faq, img }) => page(h, {
+  const familyLanding = (fam, list, { url, title, h1, answer, intro, note, faq, img }) => page(h, {
     url, title, name: h1, description: answer, crumbs: [["Pairings", "/pairings/"], [fam, url]], faq, script, image: photo(img),
     list: list.map((d) => [`${d.name} pairings`, d.url]),
     body: `
@@ -721,7 +721,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="section-kicker">${B(fam)} pairings</p>
       <h1>${B(h1)}</h1>
       <p class="pr-answer">${B(answer)}</p>
-      <p>${B(intro)}</p>
+      <p>${B(intro)}</p>${note ? `
+      <p class="bl-note">${note}</p>` : ""}
       </div>
       ${heroImg(img, `${fam} with cheese`)}
     </header>
@@ -755,6 +756,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     h1: "Wine and cheese pairings, wine by wine",
     answer: "The easiest wines for a cheese board are Champagne, dry rosé and Pinot Noir. Match light wines with fresh, soft cheeses and bold reds with hard, aged cheeses; sweet port belongs with blue cheese.",
     intro: "Pick your bottle to see the cheeses, meats and extras that suit it, and the ones to skip.",
+    // 16 Nov 2026: the full charcuterie guide owns "wine with charcuterie"; this page is the by-bottle index
+    note: `Pouring for a whole charcuterie board? Start with the <a href="/blog/wine-and-charcuterie-board/">charcuterie board wine pairing guide</a>: one, two or three bottles, meat by meat and cheese by cheese.`,
     faq: [
       { q: "What is the best all-round wine for a cheese board?", a: "Dry sparkling wine. Its acid and bubbles suit soft, hard and salty cheeses and cured meats alike." },
       { q: "Red or white wine with cheese?", a: "More cheeses pair well with whites and sparkling wine than with big reds. Choose light reds like Pinot Noir or Beaujolais for mixed boards." },
@@ -1205,6 +1208,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <h1>Wine and cheese pairing chart</h1>
       <p class="pr-answer">The safest matches: Champagne with brie, Sauvignon Blanc with goat cheese, Pinot Noir with Gruyère, Cabernet with aged cheddar, Chianti with Parmigiano and port with Stilton.</p>
       <p class="pr-chart-tools"><button type="button" class="button primary" data-print>Print the chart</button> <label><input type="checkbox" data-beer> Add beer &amp; cider columns</label></p>
+      <p class="bl-note">Cured meat on the board too? See the <a href="/blog/wine-and-charcuterie-board/">charcuterie board wine pairing guide</a>, meat by meat.</p>
     </header>
     <section class="wc-pick" aria-labelledby="wc-pick-h">
       <h2 id="wc-pick-h">Find a wine for your cheese</h2>
