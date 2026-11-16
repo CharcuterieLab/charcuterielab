@@ -14,7 +14,7 @@ serving_per_person: "1–2 oz"
 prep_time: "20 min to temper"
 allergens: []
 tags: ["cured meat", "italian", "whole muscle", "marbled"]
-pairs_with: ["soppressata", "genoa-salami", "prosciutto-di-parma", "olive-oil-crackers", "aged-provolone", "mango", "giardiniera", "focaccia", "figs", "melon"]
+pairs_with: ["soppressata", "genoa-salami", "prosciutto-di-parma", "olive-oil-crackers", "aged-provolone", "mango", "giardiniera", "focaccia", "figs", "melon", "fresh-mozzarella", "taleggio", "parmigiano-reggiano", "provolone", "castelvetrano-olives", "whole-grain-mustard"]
 avoid_with: ["delicate-fresh-cheese"]
 faq: "[{"question": "Is capicola the same as coppa?", "answer": "Yes. Coppa, capocollo, capicola and gabagool are all the same cut and cure — regional and dialect names for one product."}, {"question": "Coppa or prosciutto?", "answer": "Coppa is neck muscle, marbled through with fat, richer and less salty. Prosciutto is lean leg with a fat cap. Both belong on a board."}, {"question": "Sweet or hot?", "answer": "Dolce is mild and versatile. Piccante has chili and needs milder partners."}, {"question": "How much per person?", "answer": "1–2 oz as one of several meats."}, {"question": "Should I trim the fat rim?", "answer": "No. It's part of the flavor and part of the look."}]"
 ---

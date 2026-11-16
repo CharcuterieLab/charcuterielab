@@ -120,6 +120,7 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   const drinks = [];
   for (const w of data.drinks.wines) drinks.push({ ...w, url: `/pairings/wine/${w.slug}/`, familyLabel: "Wine" });
   for (const b of data.drinks.beers) drinks.push({ ...b, url: `/pairings/beer/${b.slug}/`, familyLabel: b.slug === "hard-cider" ? "Cider" : "Beer" });
+  for (const s of data.drinks.spirits || []) drinks.push({ ...s, url: `/pairings/spirits/${s.slug}/`, familyLabel: "Spirits" });
   const drinkBySlug = new Map(drinks.map((d) => [d.slug, d]));
   // cocktail and zero-proof items act as drinks too (anchored on their page)
   const extras = [];
@@ -314,6 +315,8 @@ function profileDots(d) {
   const p = d.profile || {};
   const rows = d.family === "beer"
     ? [["Body", p.body], ["Bitterness", p.bitter], ["Bubbles", p.carb], ["Sweetness", p.sweet]]
+    : d.family === "spirits"
+    ? [["Body", p.body], ["Smoke", p.smoke], ["Sweetness", p.sweet], ["Strength", p.heat]]
     : [["Body", p.body], ["Tannin", p.tannin], ["Acidity", p.acid], ["Sweetness", p.sweet]];
   return `<dl class="pr-profile">${rows
     .filter(([, v]) => v)
@@ -401,6 +404,7 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
   const B = h.escapeHtml;
   const wines = idx.drinks.filter((d) => d.family === "wine");
   const beers = idx.drinks.filter((d) => d.family === "beer");
+  const spirits = idx.drinks.filter((d) => d.family === "spirits");
   const featured = (kind, n = 4) => idx.combos.filter((c) => c.kind === kind && c.featured).slice(0, n);
   // hub picks for "Build it up" (15 Nov 2026): ladders that end in a plate
   const hubLadders = ["gorgonzola-honey", "manchego-membrillo", "summer-sausage-colby-jack"].map((id) => idx.ladders.find((l) => l.id === id)).filter(Boolean);
@@ -478,9 +482,9 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
     <section class="bl-section" aria-labelledby="drinks-h">
       <h2 id="drinks-h">Start with your drink</h2>
       <ul class="pr-tiles">
-        ${[["wine", "Wine", `${wines.length} styles, from Champagne to port`, "#7a2432"], ["beer", "Beer & Cider", `${beers.length} styles, from lager to stout`, "#c9772b"], ["cocktails", "Cocktails & Spirits", "Martinis, spritzes, bourbon, sherry", "#b5651d"], ["zero-proof", "Zero-Proof", "Tea, cider, kombucha and spritzes", "#c08a4a"]].map(([u, t, s, c]) => `<li><a href="/pairings/${u}/" style="--t:${c}"><strong>${t}</strong><span>${s}</span></a></li>`).join("")}
+        ${[["wine", "Wine", `${wines.length} styles, from Champagne to port`, "#7a2432"], ["beer", "Beer & Cider", `${beers.length} styles, from lager to stout`, "#c9772b"], ["cocktails", "Cocktails & Spirits", "Martinis, spritzes, whisky, sherry", "#b5651d"], ["zero-proof", "Zero-Proof", "Tea, cider, kombucha and spritzes", "#c08a4a"]].map(([u, t, s, c]) => `<li><a href="/pairings/${u}/" style="--t:${c}"><strong>${t}</strong><span>${s}</span></a></li>`).join("")}
       </ul>
-      <p class="pr-chips">${wines.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}${beers.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}</p>
+      <p class="pr-chips">${wines.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}${beers.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}${spirits.map((w) => `<a class="pr-chip" href="${w.url}"><i style="background:${w.color}"></i>${B(w.name)}</a>`).join("")}</p>
     </section>
 
     <section class="bl-section" aria-labelledby="food-h">
@@ -557,7 +561,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       .sort((a, b) => b[1] - a[1])
       .slice(0, 4)
       .map(([x]) => x);
-    const fam = d.family === "wine" ? ["Wine", "/pairings/wine/"] : ["Beer & Cider", "/pairings/beer/"];
+    const fam = d.family === "wine" ? ["Wine", "/pairings/wine/"] : d.family === "spirits" ? ["Cocktails & Spirits", "/pairings/cocktails/"] : ["Beer & Cider", "/pairings/beer/"];
     const boards = boardsFor(d.matches.map((m) => m.s));
     const rulesUsed = [...new Set(d.matches.map((m) => m.rule))].map((r) => idx.ruleById.get(r)).filter(Boolean);
     return page(h, {
@@ -721,7 +725,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     </ul>
     ${fam === "zero" ? `<p class="pr-buy"><span>The bottle to buy:</span> <a href="/blog/best-sparkling-cider/">Martinelli's Sparkling Cider</a> <em>Our Best Buys pick</em></p>
     <p class="bl-note">More ideas for Dry January: <a href="/blog/non-alcoholic-charcuterie-pairings/">zero-proof pairings that actually work</a>, with teas, shrubs and NA wines.</p>
-    <p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Please drink responsibly. Looking for alcohol-free options? See <a href="/pairings/zero-proof/">zero-proof pairings</a>.</p>`}
+    <p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Pouring whisky? See the full <a href="/pairings/spirits/whisky/">whisky and cheese pairing guide</a> &mdash; 13 matches with the reason behind each.</p>
+    <p class="bl-note">Please drink responsibly. Looking for alcohol-free options? See <a href="/pairings/zero-proof/">zero-proof pairings</a>.</p>`}
     <section class="bl-section" id="faq" aria-labelledby="faq-h"><h2 id="faq-h">Questions</h2>${faqHtml(h, pageData.faq)}</section>`
   });
   add("pairings/cocktails/index.html", itemPage("cocktails", idx.data.drinks.cocktails, "/pairings/cocktails/", "Cocktails for a Charcuterie Board: 8 Drinks & Pairings", "pairings-cocktails"));
@@ -783,6 +788,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <ul class="pr-tiles">
       ${[["wine", "Wine", wines], ["beer", "Beer & Cider", beers]].map(([u, t, list]) => `<li><a href="/pairings/${u}/" style="--t:${list[0].color}"><strong>${t}</strong><span>${list.map((d) => B(d.name)).join(" · ")}</span></a></li>`).join("")}
       <li><a href="/pairings/cocktails/" style="--t:#b5651d"><strong>Cocktails &amp; Spirits</strong><span>${idx.data.drinks.cocktails.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
+      ${spirits.map((d) => `<li><a href="${d.url}" style="--t:${d.color}"><strong>${B(d.name)}</strong><span>${d.matches.slice(0, 4).map((m) => B(idx.bySlug.get(m.s)?.title || m.s)).join(" · ")}</span></a></li>`).join("")}
       <li><a href="/pairings/zero-proof/" style="--t:#c08a4a"><strong>Zero-Proof</strong><span>${idx.data.drinks.zero.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
       </ul>
       <p class="bl-note">Whiskey drinkers: see <a href="/blog/whiskey-and-cheese-pairing/">whiskey and cheese pairing</a>.</p>
@@ -1411,7 +1417,7 @@ function mcPage(h, idx, script) {
 
 export function ingredientPairingBlock(h, idx, item) {
   if (!idx) return "";
-  const drinks = (idx.drinksFor.get(item.slug) || []).filter((x) => x.d.family === "wine" || x.d.family === "beer").slice(0, 6);
+  const drinks = (idx.drinksFor.get(item.slug) || []).filter((x) => x.d.family === "wine" || x.d.family === "beer" || x.d.family === "spirits").slice(0, 6);
   const full = idx.foodPage.has(item.slug) ? `/pairings/food/${item.slug}/` : `/pairings/?q=${item.slug}`;
   return `<section class="ing-related pr-ing">
       <h2>Drinks that match</h2>

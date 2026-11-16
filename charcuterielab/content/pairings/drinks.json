@@ -2094,5 +2094,133 @@
     "a": "A tart cherry or pomegranate spritz with blue cheese, or sparkling cider with cheddar and brie."
    }
   ]
- }
+ },
+ "spirits": [
+  {
+   "slug": "whisky",
+   "family": "spirits",
+   "name": "Whisky",
+   "color": "#a8541f",
+   "seo_title": "Whisky and Cheese: 13 Pairings That Work",
+   "seo_description": "Whisky pairs best with aged cheddar, aged gouda, stilton and dark chocolate. 13 matches with the reason behind each, plus what to pour for a smoky malt.",
+   "profile": {
+    "body": 5,
+    "smoke": 3,
+    "sweet": 2,
+    "heat": 4
+   },
+   "serve": "Neat or with a few drops of water, in a small pour. Room temperature, never over ice for a pairing.",
+   "answer": "Whisky goes best with aged cheddar, aged gouda, stilton, dark chocolate and candied pecans. Whisky is far stronger than wine, so pair it with cheese that has age, salt and crystal crunch — anything soft or delicate disappears underneath it.",
+   "intro": "Whisky is the hardest drink on a board to get right, because it arrives at roughly three times the strength of wine and most cheese simply surrenders to it. The cheeses that survive have two things in common: age and salt. A two-year cheddar, an aged gouda or a hard alpine wheel all have concentrated flavour and tyrosine crystals that give the palate something to push back with, and the long finish on a good malt then has somewhere to go. Pour small — an ounce is plenty — and give people water alongside, because palate fatigue arrives much faster than it does with wine. If the whisky is peated, treat the smoke as an ingredient in its own right and pair it like you would a smoked meat.",
+   "matches": [
+    {
+     "s": "aged-cheddar",
+     "why": "A two-year cheddar has the salt, the acid and the crystal crunch to meet whisky head-on. The single safest pairing on this list.",
+     "rule": "weight"
+    },
+    {
+     "s": "aged-gouda",
+     "why": "The butterscotch crystals in an aged gouda land on exactly the same note as the vanilla a bourbon picks up from new oak.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "gruyere",
+     "why": "Firm, nutty and salty. A Speyside malt's honeyed fruit sits on top of it without burying it.",
+     "rule": "weight"
+    },
+    {
+     "s": "parmigiano-reggiano",
+     "why": "Salt and umami against alcohol. Break it into shards rather than slicing it, so each piece is a small, intense hit.",
+     "rule": "weight"
+    },
+    {
+     "s": "smoked-gouda",
+     "why": "Smoke with smoke, for an Islay malt. Obvious, and it works — the two smokes are different enough to stay interesting.",
+     "rule": "place"
+    },
+    {
+     "s": "stilton",
+     "why": "The traditional British pairing. Blue salt against whisky sweetness, and the mould handles the alcohol better than any soft cheese.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "rogue-river-blue",
+     "why": "Already carries pear brandy from its wrapper, so it meets a brown spirit halfway.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "dark-chocolate",
+     "why": "70% and up. Bitter cocoa and cask char are the same flavour family, which is why the pairing feels seamless.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "medjool-dates",
+     "why": "Dense caramel sweetness that softens a high-proof pour without diluting it.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "candied-pecans",
+     "why": "Toasted nut and burnt sugar, which is a fair description of bourbon itself.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "walnuts",
+     "why": "A faintly bitter, tannic nut. It gives the palate something dry to land on between sips.",
+     "rule": "texture"
+    },
+    {
+     "s": "speck",
+     "why": "Lightly smoked and air-dried. Enough salt to stand up to the alcohol, not so much fat that it coats the mouth.",
+     "rule": "place"
+    },
+    {
+     "s": "dried-figs",
+     "why": "Concentrated jammy fruit that echoes the sherry-cask side of a malt.",
+     "rule": "salt-sweet"
+    }
+   ],
+   "avoid": [
+    {
+     "s": "fresh-mozzarella",
+     "why": "Milky and delicate. Whisky flattens it completely and you taste nothing but alcohol."
+    },
+    {
+     "s": "fresh-chevre",
+     "why": "The bright acid in young goat cheese turns metallic against a high-proof spirit."
+    },
+    {
+     "s": "melon",
+     "why": "Watery and faint. It gets lost, and the whisky tastes hotter for it."
+    }
+   ],
+   "swap": "No whisky in the house? An aged rum or a cognac pairs almost identically. For something lower in alcohol, a tawny port covers the same sweet-and-nutty ground.",
+   "holidays": [
+    "christmas",
+    "thanksgiving",
+    "new-years-eve"
+   ],
+   "faq": [
+    {
+     "q": "What cheese goes best with whisky?",
+     "a": "Aged cheddar, then aged gouda. Both have the salt, age and crystal texture to stand up to a spirit at 40% and over. Blue cheese is the other reliable answer, especially with a sweeter malt."
+    },
+    {
+     "q": "Does whisky go with cheese at all?",
+     "a": "Yes, but it is less forgiving than wine. Stick to hard, aged cheese, keep the pours to about an ounce, and skip anything soft, fresh or milky — those get obliterated."
+    },
+    {
+     "q": "Scotch or bourbon for a cheese board?",
+     "a": "Bourbon is easier. Its vanilla and caramel from new oak land naturally with aged gouda and candied nuts. Scotch is better if you want a smoky pairing, but a heavily peated Islay malt will dominate most of the board."
+    },
+    {
+     "q": "Should I add water or ice to whisky for a pairing?",
+     "a": "A few drops of water, yes — it opens the aroma. Ice, no. The cold mutes both the whisky and the cheese, which is the opposite of what a pairing needs."
+    },
+    {
+     "q": "How much whisky per person for a tasting?",
+     "a": "About half an ounce per pairing, and no more than four pairings. That is two ounces a head in total, which is one standard drink."
+    }
+   ]
+  }
+ ]
 }

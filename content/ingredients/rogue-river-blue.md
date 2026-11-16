@@ -13,7 +13,7 @@ serving_per_person: "0.75 oz"
 prep_time: "45 min to temper"
 allergens: ["dairy"]
 tags: ["cheese", "blue", "american", "unique", "seasonal", "luxury"]
-pairs_with: ["pears", "honey", "candied-pecans", "dried-figs", "walnut-raisin-bread"]
+pairs_with: ["pears", "honey", "candied-pecans", "dried-figs", "walnut-raisin-bread", "walnuts", "dark-chocolate", "medjool-dates", "apples", "hazelnuts", "shortbread", "gingersnaps"]
 avoid_with: ["delicate-fresh-cheese", "prosciutto-di-parma"]
 faq: "[{"question": "When is Rogue River Blue available?", "answer": "Rogue Creamery releases each new vintage on the autumnal equinox in late September, and it sells through the fall and winter until it's gone."}, {"question": "Why is it wrapped in leaves?", "answer": "Each wheel is wrapped in Syrah grape leaves soaked in pear spirits. The leaves add fruit, herbal and boozy notes as the cheese ages."}, {"question": "Can you eat the leaves?", "answer": "They're edible but tough and boozy. Most people peel them back and use them as a garnish on the board."}, {"question": "Did it really win best cheese in the world?", "answer": "Yes. It was named World Champion at the 2019 World Cheese Awards, the first American cheese to win."}, {"question": "Is it very strong?", "answer": "It's rich and fruity more than sharp. Fans of milder blues usually like it more than they expect."}]"
 ---

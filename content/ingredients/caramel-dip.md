@@ -13,7 +13,7 @@ serving_per_person: "1–2 tbsp"
 prep_time: "2 minutes"
 allergens: ["dairy"]
 tags: ["dip", "dessert", "american", "fall", "budget", "crowd-pleaser"]
-pairs_with: ["apples", "pears", "aged-cheddar", "mini-pretzels", "chocolate-covered-pretzels", "graham-crackers"]
+pairs_with: ["apples", "pears", "aged-cheddar", "mini-pretzels", "chocolate-covered-pretzels", "graham-crackers", "shortbread", "gingersnaps", "candied-pecans", "pecans", "dark-chocolate", "walnuts", "figs"]
 avoid_with: ["blue-cheese", "cured-meat"]
 faq: "[{"question": "What is caramel dip?", "answer": "A thick, spoonable caramel made with sugar, corn syrup and milk or cream, sold in tubs next to the apples. It's thicker than ice cream caramel sauce."}, {"question": "Do you heat caramel dip?", "answer": "You can serve it cold or at room temperature. A few seconds in the microwave makes it silkier, but it gets runny if overheated."}, {"question": "What do you dip in caramel?", "answer": "Apples first, then pears, pretzels, graham crackers, bananas and sharp cheddar."}, {"question": "How do you stop apples from browning?", "answer": "Soak the slices for 5 minutes in water with a squeeze of lemon, or a teaspoon of salt per cup, then pat dry."}, {"question": "Does caramel dip need to be refrigerated?", "answer": "Most tubs from the produce section are refrigerated. Check the label; some shelf-stable jars only need the fridge after opening."}]"
 ---
