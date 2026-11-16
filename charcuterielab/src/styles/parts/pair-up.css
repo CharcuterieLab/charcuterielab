@@ -1,0 +1,17 @@
+/* Pairings hub (scripts/pair-up.mjs) */
+/* 1. The finder shows in the first screen: tablets get a short photo strip, phones skip the photo */
+@media (max-width: 860px) {
+  .pr-hero-photo .pr-hero-img { aspect-ratio: 3/1; height: auto; max-height: 160px; object-fit: cover; border-radius: 14px; }
+}
+@media (max-width: 600px) { .pr-hero-photo .pr-hero-img { display: none; } }
+/* 4. Phones: "Start with your food" as a 2-column grid */
+@media (max-width: 600px) {
+  .pr-foodgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .pr-foodgrid a { grid-template-columns: 1fr; padding: 8px; row-gap: 6px; text-align: left; font-size: 14px; line-height: 1.3; }
+  .pr-foodgrid .pr-thumb { grid-row: auto; }
+  .pr-foodgrid .pr-thumb img { width: 100%; height: auto; aspect-ratio: 16/10; object-fit: cover; }
+}
+.fx-print .pr-also { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+.pr-shelf { display: flex; align-items: center; gap: 10px; margin: 18px 0 8px; padding: 12px 14px; border-radius: 14px; background: #fbf3e4; border: 1px solid rgba(169,87,43,.12); }
+.pr-shelf img { width: 44px; height: auto; border-radius: 3px; box-shadow: 0 4px 10px rgba(60,30,10,.18); flex: none; }
+.pr-shelf p { margin: 0 0 0 4px; font-size: 14.5px; line-height: 1.45; min-width: 0; }
