@@ -68,6 +68,8 @@ For 20, 50 or 100 guests, the [Party Planner](/party-planner/) builds the list w
 <h2 id="pairings">4. Pairings that always work</h2>
 :::
 
+Need every cured meat matched against every cheese? Use the interactive [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/): 6 meat families against 7 cheese families, with the reason for every square, and a printable PDF. The five below are the safe bets.
+
 | Cheese | Meat | Sweet | Drink |
 |---|---|---|---|
 | Brie | Prosciutto | Fig jam | Sparkling wine |

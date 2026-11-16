@@ -230,6 +230,65 @@
      "q": "Does Cabernet go with dark chocolate?",
      "a": "Yes, if the chocolate is 70% cacao or darker. Milk chocolate is too sweet and makes the wine taste sour."
     }
+   ],
+   "h1": "Cabernet Sauvignon cheese pairing: the aged cheeses that tame tannin",
+   "seo_description": "The best cheese for Cabernet Sauvignon: aged cheddar, aged Gouda, Parmigiano and Manchego, plus salami and dark chocolate. Why it works and what to skip.",
+   "sections": [
+    {
+     "id": "why-aged",
+     "h": "Why Cabernet needs aged cheese",
+     "p": "Cabernet has firm tannin, the drying grip you feel on your gums. Fat and protein soften it, and aged cheeses have plenty of both, plus the salt and crunchy crystals to stand up to a big wine. Fresh and soft cheeses do the opposite: the tannin makes them taste bitter and chalky.",
+     "table": {
+      "head": [
+       "Cheese",
+       "How well it works",
+       "Why"
+      ],
+      "rows": [
+       [
+        "[Aged cheddar](/pairings/food/aged-cheddar/), 2 years or older",
+        "Best",
+        "Sharp, salty and fatty enough to soften the tannin"
+       ],
+       [
+        "[Aged Gouda](/pairings/food/aged-gouda/)",
+        "Best",
+        "Caramel and crystals echo the wine's oak"
+       ],
+       [
+        "[Parmigiano-Reggiano](/pairings/food/parmigiano-reggiano/)",
+        "Best",
+        "Salt and savory depth against dark fruit"
+       ],
+       [
+        "Aged [Manchego](/pairings/food/manchego/), Mimolette",
+        "Very good",
+        "Firm, nutty and salty"
+       ],
+       [
+        "Gruyère, Comté",
+        "Good",
+        "Works with older, softer Cabernet"
+       ],
+       [
+        "[Brie](/pairings/food/brie/), [goat cheese](/pairings/food/fresh-chevre/), fresh mozzarella",
+        "Skip",
+        "Tannin turns them bitter and metallic"
+       ]
+      ]
+     },
+     "after": "Building a board around a Cabernet? Go heavy on aged cheese and bold salami, add walnuts, dried figs and dark chocolate, and leave out prosciutto and soft cheese."
+    }
+   ],
+   "qa": [
+    {
+     "q": "Does Cabernet go with charcuterie?",
+     "a": [
+      "Yes, with bold meats: Genoa salami, soppressata and bresaola",
+      "Skip delicate prosciutto; tannin strips it",
+      "Best extras: walnuts, dried figs and dark chocolate"
+     ]
+    }
    ]
   },
   {
@@ -334,6 +393,68 @@
     {
      "q": "Is Prosecco sweeter than Champagne?",
      "a": "Usually a little fruitier. Look for 'Brut' on either label for the driest style."
+    }
+   ],
+   "h1": "Champagne and Prosecco pairings: cheese, charcuterie and which to pour",
+   "seo_description": "Champagne and Prosecco pairings: brie, triple-crème, Parmigiano, prosciutto and smoked salmon. Champagne vs Prosecco vs Cava for a board, and what to skip.",
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Champagne, Prosecco, Cava or Crémant?",
+     "table": {
+      "head": [
+       "Wine",
+       "What it tastes like",
+       "Best on the board",
+       "Price feel"
+      ],
+      "rows": [
+       [
+        "Champagne",
+        "Very crisp, fine bubbles, toasty and bready",
+        "[Brie](/pairings/food/brie/), [triple-crème](/pairings/food/triple-creme/), [Parmigiano](/pairings/food/parmigiano-reggiano/), caviar",
+        "Splurge"
+       ],
+       [
+        "Prosecco",
+        "Lighter, fruitier (pear, apple), softer bubbles",
+        "[Prosciutto](/pairings/food/prosciutto-di-parma/), mild cheese, melon",
+        "Budget"
+       ],
+       [
+        "Cava",
+        "Made like Champagne, a little earthier",
+        "Jamón, Manchego, Marcona almonds",
+        "Budget"
+       ],
+       [
+        "Crémant",
+        "Made like Champagne in other French regions",
+        "Any mixed board; Comté and brie",
+        "Mid-range"
+       ]
+      ]
+     },
+     "after": "Skip with sparkling wine: strong blue cheese like Roquefort, dark chocolate and hot honey. Bitterness, sugar and heat flatten the bubbles. Bottles we like: [best Champagne under $30](/blog/best-champagne-under-30/) and [best Prosecco](/blog/best-prosecco/)."
+    }
+   ],
+   "qa": [
+    {
+     "q": "Which pairs better with food, Champagne or Prosecco?",
+     "a": [
+      "Champagne, for rich and aged food: its higher acid and toasty notes stand up to brie, Parmigiano and fried snacks",
+      "Prosecco, for light and salty food: prosciutto, melon, mild cheese",
+      "Cava or Crémant: Champagne-style results for Prosecco money"
+     ]
+    },
+    {
+     "q": "What goes on a Prosecco charcuterie board?",
+     "a": [
+      "Meat: prosciutto, mortadella, mild salami",
+      "Cheese: burrata, fresh mozzarella, young Parmigiano, brie",
+      "Fruit: melon, figs, berries, green grapes",
+      "Crunch: grissini, Marcona almonds, potato chips"
+     ]
     }
    ]
   },
@@ -566,6 +687,62 @@
      "q": "Does Chardonnay go with cheddar?",
      "a": "Mild and medium cheddar, yes. Very sharp aged cheddar is better with a red."
     }
+   ],
+   "h1": "Chardonnay cheese pairing: oaked vs unoaked, and what to skip",
+   "seo_description": "Chardonnay cheese pairing by style: unoaked with goat cheese and Comté, oaked with brie and Camembert. Plus the charcuterie that works and 3 things to skip.",
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which Chardonnay with which cheese",
+     "p": "Chardonnay changes completely with oak. Crisp, unoaked bottles act like a high-acid white; rich, oaked ones act almost like a light red. Check the label or the price: Chablis and most cool-climate bottles are unoaked, many California bottles are oaked.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Unoaked (Chablis, cool-climate)",
+        "Crisp, green apple, mineral",
+        "[Fresh goat cheese](/pairings/food/fresh-chevre/), young [Comté](/pairings/food/comte/), feta",
+        "[Smoked salmon](/pairings/food/smoked-salmon/), green apples, prosciutto"
+       ],
+       [
+        "Lightly oaked (white Burgundy)",
+        "Citrus, hazelnut, a touch of cream",
+        "[Comté](/pairings/food/comte/), [Gruyère](/pairings/food/gruyere/), [brie](/pairings/food/brie/)",
+        "Prosciutto cotto, Marcona almonds, pears"
+       ],
+       [
+        "Oaked and buttery (many California)",
+        "Ripe fruit, vanilla, butter",
+        "[Brie](/pairings/food/brie/), [Camembert](/pairings/food/camembert/), triple-crème, mild white cheddar",
+        "Smoked turkey, roasted nuts, apples"
+       ]
+      ]
+     },
+     "after": "Skip with any Chardonnay: spicy cured meat like soppressata, pickled jalapeños, and strong blue cheese like Roquefort."
+    }
+   ],
+   "qa": [
+    {
+     "q": "Does Chardonnay go with charcuterie?",
+     "a": [
+      "Yes, with mild meats: prosciutto cotto, ham, smoked turkey, pâté and smoked salmon",
+      "Skip: spicy, peppery salami; heat and oak clash",
+      "Easiest board: brie, Comté, ham, apples, pears and almonds"
+     ]
+    },
+    {
+     "q": "Which Chardonnay is best for a cheese board?",
+     "a": [
+      "Mixed board: a lightly oaked bottle, such as white Burgundy; it suits the widest range",
+      "Mostly soft, creamy cheese: an oaked, buttery California style",
+      "Goat cheese and seafood: an unoaked Chablis"
+     ]
+    }
    ]
   },
   {
@@ -787,11 +964,69 @@
      "q": "Is Riesling always sweet?",
      "a": "No. It ranges from bone dry to dessert-sweet. 'Trocken' means dry; 'Kabinett' is lightly sweet."
     }
+   ],
+   "h1": "Riesling cheese pairing: dry, off-dry or sweet",
+   "seo_description": "Riesling cheese pairing by sweetness: dry with Gruyère and goat cheese, off-dry with Munster and spicy salami, sweet with blue cheese. How to read the label.",
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Match the sweetness to the cheese",
+     "p": "Riesling runs from bone dry to very sweet, and that decides the cheese. The more pungent or salty the cheese, the more sweetness the wine can carry.",
+     "table": {
+      "head": [
+       "Style",
+       "How to spot it",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Dry",
+        "\"Trocken\", Alsace, Clare Valley; usually 12% alcohol or more",
+        "[Gruyère](/pairings/food/gruyere/), [fresh goat cheese](/pairings/food/fresh-chevre/), young Comté",
+        "Smoked trout, prosciutto, apples"
+       ],
+       [
+        "Off-dry",
+        "\"Kabinett\", or \"off-dry\" on the back label; often 8–11% alcohol",
+        "Munster, [Taleggio](/pairings/food/taleggio/), Époisses, [smoked Gouda](/ingredients/smoked-gouda/)",
+        "Black Forest ham, speck, spicy 'nduja, mango chutney"
+       ],
+       [
+        "Sweet (late harvest)",
+        "\"Spätlese\", \"Auslese\" or \"late harvest\"",
+        "Roquefort, Stilton, [Gorgonzola](/pairings/food/gorgonzola/)",
+        "Walnuts, dried apricots, foie gras-style pâté"
+       ]
+      ]
+     },
+     "after": "Skip with Riesling: dark chocolate and bresaola. With blue cheese, only a sweet Riesling works; a dry one tastes thin."
+    },
+    {
+     "id": "food",
+     "h": "Riesling beyond the board",
+     "list": [
+      "Spicy food: Thai, Sichuan and Indian curries; off-dry Riesling cools the heat",
+      "Pork: roast pork, sausages, ham",
+      "Asian takeout: dumplings, sushi, pad thai",
+      "Fruit desserts with a late-harvest bottle"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Is Riesling always sweet?",
+     "a": [
+      "No. Many are fully dry: look for \"trocken\", Alsace or Australian Riesling",
+      "Off-dry ones say \"Kabinett\" or \"off-dry\", and often have lower alcohol",
+      "Rule of thumb: under about 10% alcohol usually means some sweetness"
+     ]
+    }
    ]
   },
   {
    "slug": "merlot",
-   "seo_description": "Merlot goes best with Gouda, mild-to-medium cheddar, Gruyère, Havarti and salami. Plush plum fruit and soft tannin suit medium-aged cheeses.",
+   "seo_description": "Merlot cheese pairing: Gouda, medium cheddar, Gruyère and Havarti, with Genoa salami, coppa and pâté. Merlot vs Cabernet on a board, and 3 things to skip.",
    "family": "wine",
    "name": "Merlot",
    "color": "#6d1f33",
@@ -892,6 +1127,58 @@
     {
      "q": "Merlot or Cabernet for a cheese board?",
      "a": "Merlot for a mixed board of medium cheeses; Cabernet only if the cheeses are hard and well aged."
+    }
+   ],
+   "h1": "Merlot cheese pairing: the easy red for Gouda and salami",
+   "sections": [
+    {
+     "id": "vs-cab",
+     "h": "Merlot or Cabernet on a board?",
+     "table": {
+      "head": [
+       "",
+       "Merlot",
+       "Cabernet Sauvignon"
+      ],
+      "rows": [
+       [
+        "Tannin",
+        "Softer",
+        "Firm"
+       ],
+       [
+        "Fruit",
+        "Plum, cherry, a little chocolate",
+        "Blackcurrant, cedar"
+       ],
+       [
+        "Best cheeses",
+        "[Gouda](/pairings/food/gouda/), medium cheddar, [Gruyère](/pairings/food/gruyere/), [Havarti](/pairings/food/havarti/)",
+        "[Aged cheddar](/pairings/food/aged-cheddar/), [aged Gouda](/pairings/food/aged-gouda/), Parmigiano"
+       ],
+       [
+        "Best meats",
+        "[Genoa salami](/pairings/food/genoa-salami/), [coppa](/pairings/food/coppa/), pâté",
+        "Soppressata, bresaola"
+       ],
+       [
+        "Pick it when",
+        "The board has medium cheeses and a mixed crowd",
+        "The board is mostly aged, hard cheese"
+       ]
+      ]
+     },
+     "after": "Skip with Merlot: fresh goat cheese, smoked salmon and pickled jalapeños."
+    }
+   ],
+   "qa": [
+    {
+     "q": "What goes on a Merlot charcuterie board?",
+     "a": [
+      "Cheese: Gouda, medium cheddar, Gruyère, Havarti or fontina",
+      "Meat: Genoa salami, coppa, pâté de campagne",
+      "Extras: dried figs, candied pecans, dark chocolate"
+     ]
     }
    ]
   },
@@ -996,6 +1283,58 @@
     {
      "q": "Is Malbec good with a charcuterie board?",
      "a": "With a meat-heavy, smoky board, yes. For soft cheeses, choose Pinot Noir instead."
+    }
+   ],
+   "h1": "Malbec cheese pairing: smoky, aged and spicy",
+   "seo_description": "Malbec cheese pairing: smoked Gouda, aged cheddar and Manchego, with chorizo and soppressata. Argentine vs French Malbec, food pairings, and 3 to skip.",
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Argentine or French Malbec?",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Argentine (Mendoza)",
+        "Plush plum and blackberry, soft tannin, a little cocoa",
+        "[Smoked Gouda](/ingredients/smoked-gouda/), [aged cheddar](/pairings/food/aged-cheddar/), [Manchego](/pairings/food/manchego/)",
+        "[Chorizo](/pairings/food/chorizo/), [pepperoni](/pairings/food/pepperoni/), smoked almonds"
+       ],
+       [
+        "French (Cahors)",
+        "Darker, earthier, firmer tannin",
+        "Aged cheddar, aged Gouda, Comté",
+        "[Soppressata](/pairings/food/soppressata/), bresaola, dried figs"
+       ]
+      ]
+     },
+     "after": "Skip with Malbec: brie, fresh mozzarella and smoked salmon. Its dark fruit and tannin swamp anything delicate."
+    },
+    {
+     "id": "food",
+     "h": "Malbec beyond the board",
+     "list": [
+      "Grilled meat: steak, burgers and lamb, especially with chimichurri",
+      "Barbecue: smoky ribs and brisket",
+      "Vegetarian: grilled mushrooms, roasted peppers, black bean dishes",
+      "Snacks: empanadas, chorizo bites, dark chocolate"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "What goes on a Malbec charcuterie board?",
+     "a": [
+      "Cheese: smoked Gouda, aged cheddar and Manchego",
+      "Meat: chorizo, soppressata and pepperoni",
+      "Extras: smoked almonds, romesco, Medjool dates, dark chocolate",
+      "Skip: brie, burrata and anything fishy"
+     ]
     }
    ]
   },

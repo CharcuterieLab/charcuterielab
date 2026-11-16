@@ -54,7 +54,7 @@ Differences in texture and strength matter more than price.
 
 **Best Italian cheeses for charcuterie:** Parmigiano-Reggiano, Gorgonzola Dolce, burrata or fresh mozzarella, Taleggio, Fontina and Pecorino. Add prosciutto, soppressata and olives, and pour a [Chianti](/pairings/wine/chianti-sangiovese/).
 
-Not sure what goes with the cheese you bought? Look it up in the [Pairing Finder](/pairings/).
+Not sure what goes with the cheese you bought? Look it up in the [Pairing Finder](/pairings/), or see which cured meat suits each cheese in the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/).
 
 :::html
 <h2 id="slots">Pick one cheese per slot</h2>

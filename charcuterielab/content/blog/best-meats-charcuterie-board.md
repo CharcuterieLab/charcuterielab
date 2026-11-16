@@ -59,7 +59,7 @@ Mix one or two whole-muscle meats with one or two sausages.
 | [Pâté de campagne](/ingredients/pate-de-campagne/) | Pâté, France | Rustic, herby pork | With baguette, cornichons and mustard |
 | [Duck prosciutto](/ingredients/duck-prosciutto/) | Whole-muscle duck | Rich, gamey, sweet fat | With cherries or fig jam |
 
-See all 50 in our [cured meats guide](/ingredients/cured-meat-and-seafood/), or use the [Pairing Finder](/pairings/) to see what goes with any of them.
+See all 50 in our [cured meats guide](/ingredients/cured-meat-and-seafood/), or use the [Pairing Finder](/pairings/) to see what goes with any of them. For the cheese to match each meat, see the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/).
 
 :::html
 <h2 id="categories">The two kinds: whole-muscle vs. fermented sausage</h2>

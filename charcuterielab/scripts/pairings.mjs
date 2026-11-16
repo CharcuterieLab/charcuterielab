@@ -596,7 +596,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     for (const x of (d.qa || []).filter((y) => !y.k)) out.push({ k: "custom", q: x.q, html: qaHtml(x.a), text: qaText(x.a) });
     return out;
   }
-  const drinkFaqLeft = (faq, qa) => (faq || []).filter((x) => {
+  const sameQ = (a, b) => a.toLowerCase().replace(/[^a-z]/g, "") === b.toLowerCase().replace(/[^a-z]/g, "");
+  const drinkFaqLeft = (faq, qa) => (faq || []).filter((x) => !qa.some((y) => sameQ(y.q, x.q))).filter((x) => {
     const a = qa.find((y) => (y.k === "cheese" && /^what cheese/i.test(x.q)) || (y.k === "meat" && /^what (charcuterie|meat)/i.test(x.q)));
     if (!a) return true;
     if (!a.renamed && !a.own) { a.q = x.q; a.renamed = true; }
@@ -973,7 +974,9 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
   const QA_WORDS = { fruit: /\bfruit/i, meat: /\b(meat|charcuterie|salami|prosciutto)/i, cheese: /\bcheese/i, crackers: /\b(cracker|bread)/i, sweet: /\b(jam|honey|spread)/i, nuts: /\bnut/i, briny: /\b(pickle|olive)/i, wine: /\bwine\b/i };
   // ...and its wording (often mined from Search Console, "sharp cheddar") becomes the quick answer's heading
   const faqLeft = (faq, qa) => (faq || []).filter((x) => {
-    const a = qa.find((y) => y.k !== "custom" && QA_WORDS[y.k] && QA_WORDS[y.k].test(x.q) && /^(what|which)\b/i.test(x.q) && !/\bor\b/i.test(x.q));
+    // test only the part of the question before "go/goes/pair", so "What wine goes with prosciutto?" is a wine question, not a meat one
+    const head = x.q.split(/\b(?:go|goes|pair|pairs)\b/i)[0];
+    const a = qa.find((y) => y.k !== "custom" && QA_WORDS[y.k] && QA_WORDS[y.k].test(head) && /^(what|which)\b/i.test(x.q) && !/\bor\b/i.test(x.q));
     if (!a) return true;
     if (!a.renamed && !a.own) { a.q = x.q; a.renamed = true; }
     return false;

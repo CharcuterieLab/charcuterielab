@@ -294,6 +294,7 @@
  },
  {
   "slug": "fresh-chevre",
+  "display_name": "Goat Cheese",
   "top": [
    "honey",
    "figs",
@@ -312,7 +313,20 @@
   ],
   "bite": {
    "salty": "nicoise-olives"
-  }
+  },
+  "seo_title": "What Goes With Goat Cheese? Best Pairings and Wine",
+  "qa": [
+   {
+    "k": "wine",
+    "q": "What wine goes with goat cheese?",
+    "a": [
+     "Best match: [Sauvignon Blanc](/pairings/wine/sauvignon-blanc/), especially Sancerre from the Loire — tangy meets tangy, and the grassy notes match",
+     "Also good: dry [rosé](/pairings/wine/rose/), Prosecco or Champagne, unoaked [Chardonnay](/pairings/wine/chardonnay/)",
+     "With honey or figs on top: an off-dry Riesling",
+     "Skip: tannic reds like [Cabernet](/pairings/wine/cabernet-sauvignon/) and Merlot; they taste metallic next to fresh goat cheese"
+    ]
+   }
+  ]
  },
  {
   "slug": "taleggio",
@@ -354,6 +368,7 @@
  },
  {
   "slug": "prosciutto-di-parma",
+  "display_name": "Prosciutto",
   "top": [
    "melon",
    "fig-jam",
@@ -368,6 +383,42 @@
    {
     "q": "What wine goes with prosciutto?",
     "a": "Prosecco, dry rosé, Pinot Noir or Chianti."
+   }
+  ],
+  "seo_title": "What Goes With Prosciutto? 80 Pairings, Wine and Cheese",
+  "seo_description": "What goes with prosciutto: melon, figs, burrata, Parmigiano and pears, the best wine (Prosecco first) and cheese, how to serve it, and 80 pairings ranked.",
+  "qa": [
+   {
+    "k": "wine",
+    "q": "What wine goes with prosciutto?",
+    "a": [
+     "Best match: [Prosecco](/pairings/wine/champagne-prosecco/) or Champagne — light bubbles lift the silky fat",
+     "Also good: dry [rosé](/pairings/wine/rose/), [Pinot Noir](/pairings/wine/pinot-noir/), [Sauvignon Blanc](/pairings/wine/sauvignon-blanc/), Lambrusco",
+     "Skip: Cabernet and other big, tannic reds; they make prosciutto taste metallic",
+     "More: [charcuterie board wine pairing](/blog/wine-and-charcuterie-board/)"
+    ]
+   },
+   {
+    "k": "cheese",
+    "q": "What cheese goes with prosciutto?",
+    "a": [
+     "Best match: [burrata](/ingredients/burrata/) or fresh mozzarella — cool, milky cream against salty, silky ham",
+     "Aged and nutty: [Parmigiano-Reggiano](/pairings/food/parmigiano-reggiano/) or Grana Padano",
+     "Soft: [brie](/pairings/food/brie/) or triple-crème, wrapped in a slice",
+     "Spanish twist: [Manchego](/pairings/food/manchego/)",
+     "Skip: strong blue cheese and very smoky cheese; they bury the delicate flavor"
+    ]
+   },
+   {
+    "q": "How do you serve prosciutto on a board?",
+    "a": [
+     "Buy it sliced paper-thin, and separate the slices so they don't stick",
+     "Fold into loose ribbons or roses; never lay it flat in a stack",
+     "Take it out 15 minutes ahead so the fat softens",
+     "Put melon, figs or burrata right beside it",
+     "Plan 1 to 1.5 oz per guest when it's one of several meats",
+     "Ribbons and roses: [how to make a prosciutto rose](/blog/prosciutto-rose/)"
+    ]
    }
   ]
  },
@@ -387,6 +438,29 @@
    {
     "q": "How do you fold salami for a board?",
     "a": "Fold rounds in half, then in half again, and line them up in a 'river'."
+   }
+  ],
+  "qa": [
+   {
+    "k": "wine",
+    "q": "What wine goes with Genoa salami?",
+    "a": [
+     "Best match: [Chianti](/pairings/wine/chianti-sangiovese/) or [Beaujolais](/pairings/wine/beaujolais/) — bright acid and red fruit cut the fat without fighting the garlic",
+     "Also good: Barbera, [Merlot](/pairings/wine/merlot/), [Pinot Noir](/pairings/wine/pinot-noir/), and [Cabernet](/pairings/wine/cabernet-sauvignon/) if the board has aged cheese",
+     "Beer: a crisp [lager](/pairings/beer/lager-pilsner/)",
+     "More: [charcuterie board wine pairing](/blog/wine-and-charcuterie-board/)"
+    ]
+   },
+   {
+    "q": "What goes with salami in general?",
+    "a": [
+     "Mild salami (Genoa, hard salami): provolone, mild cheddar, Gouda, olives and crackers",
+     "Bold salami (soppressata, cacciatore): aged cheddar, Parmigiano, Manchego, mustard",
+     "Spicy salami (pepperoni, chorizo): fresh mozzarella, Monterey Jack, honey, pickles",
+     "Fennel salami (finocchiona): pecorino, figs, fresh fennel",
+     "Wine: [Chianti](/pairings/wine/chianti-sangiovese/), [Beaujolais](/pairings/wine/beaujolais/) or Barbera for most; dry rosé for spicy",
+     "More: [types of salami](/blog/types-of-salami/) and the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/)"
+    ]
    }
   ]
  },
@@ -1374,6 +1448,31 @@
    {
     "q": "Hot or sweet capicola for a board?",
     "a": "Sweet if the board is for a mixed crowd, hot if you are also serving mild cheese that needs waking up. Putting both out, labelled, is the better move on a bigger board."
+   }
+  ]
+ },
+ {
+  "slug": "smoked-gouda",
+  "top": [
+   "apples",
+   "summer-sausage",
+   "smoked-almonds"
+  ],
+  "seo_title": "What Goes With Smoked Gouda? Best Pairings and Wine",
+  "seo_description": "What goes with smoked Gouda: apples, pears, summer sausage, smoked almonds and dill pickles, plus the best wine and beer, and what to skip.",
+  "answer": "Smoked Gouda goes best with apples, pears, summer sausage, smoked almonds and dill pickles. Sweet fruit and sharp pickles balance its smoky, buttery richness.",
+  "faq": [
+   {
+    "q": "What wine goes with smoked Gouda?",
+    "a": "Malbec or Zinfandel for a red, off-dry Riesling for a white. Smoke needs fruit and a little weight; light, crisp wines taste thin next to it."
+   },
+   {
+    "q": "Smoked Gouda or aged Gouda on a board?",
+    "a": "Both work, and they suit different jobs. Smoked Gouda is creamy and campfire-smoky, a crowd-pleaser with sausage and apples. Aged Gouda is crunchy and caramel-sweet, best with dark beer, nuts and bold red wine."
+   },
+   {
+    "q": "Can you eat smoked Gouda while pregnant?",
+    "a": "Most supermarket smoked Gouda is a firm cheese made from pasteurized milk, which health agencies generally treat as safe in pregnancy. Check the label for pasteurized milk and ask your doctor or midwife if unsure."
    }
   ]
  }

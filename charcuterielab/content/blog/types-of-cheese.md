@@ -337,6 +337,7 @@ Want a slower climb? Our [12 cheeses from mild to strong](/blog/cheeses-from-mil
 - [15 Cheeses Most People Have Never Tried](/blog/cheeses-you-have-never-tried/)
 - [How Much Cheese for a Charcuterie Board](/blog/how-much-cheese-charcuterie-board/)
 - [Wine and Cheese Pairing Chart](/pairings/wine-and-cheese-chart/)
+- [Meat and Cheese Pairing Chart](/pairings/meat-and-cheese-chart/)
 - [All Cheese Guides](/ingredients/cheese/)
 
 ## Sources
