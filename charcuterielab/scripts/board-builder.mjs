@@ -216,7 +216,7 @@ function builderFaq(itemCount) {
   ];
 }
 
-export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, dataVersion, prepVersion, scriptVersion, styleVersion, newsletterUrl, itemCount }) {
+export function boardBuilderPage({ breadcrumbSchema, layout, escapeHtml, bookBar, labNext, book, dataVersion, prepVersion, scriptVersion, styleVersion, newsletterUrl, itemCount }) {
   // Kept under 155 characters so Google shows the whole line: the old one ran to
   // 177 and was being cut off mid-sentence in the results (13 Nov 2026).
   const description =
@@ -242,7 +242,8 @@ export function boardBuilderPage({ layout, escapeHtml, bookBar, labNext, book, d
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } }))
-  }).replaceAll("<", "\\u003c")}</script>`,
+  }).replaceAll("<", "\\u003c")}</script>
+${breadcrumbSchema([["Home", "/"], ["Board Builder", "/board-builder/"]])}`,
     body: `<main class="bb-main" id="bb" data-src="/assets/board-builder-data.json?v=${dataVersion}" data-prep="/assets/board-builder-prep.json?v=${prepVersion}" data-newsletter="${escapeHtml(newsletterUrl)}" data-ebook="${escapeHtml(book.ebookUrl)}" data-ebook-price="${escapeHtml(book.ebookPrice)}" data-paperback="${escapeHtml(book.paperbackUrl)}" data-paperback-price="${escapeHtml(book.paperbackPrice)}">
   ${bookBar("board_builder_top", "Want 50 boards already planned?")}
   <section class="bb-intro">

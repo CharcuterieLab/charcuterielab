@@ -2231,7 +2231,9 @@ function ebookPage() {
     canonical: "/ebook/",
     image: "/images/book-cover.jpg",
     description: `Charcuterie Lab: 50 board blueprints with shopping lists, pairing logic, substitutions and build notes. Ebook ${ebookPrice} on Gumroad or paperback ${paperbackPrice} on Amazon.`,
-    head: bookSchema(),
+    // 15 Nov 2026: breadcrumbs. Home, /search/ and the post-signup thanks
+    // page are skipped on purpose; a breadcrumb on the root means nothing.
+    head: `${bookSchema()}\n${breadcrumbSchema([["Home", "/"], ["The Book", "/ebook/"]])}`,
     body: `<main class="ebook-page">
   <section class="ebook-hero">
     <div class="ebook-hero-inner">
@@ -2551,6 +2553,7 @@ function privacyPage() {
     title: "Privacy | Charcuterie Lab",
     canonical: "/privacy/",
     description: "What Charcuterie Lab collects, why, and how to opt out. Analytics, the newsletter, and links to Amazon and Gumroad.",
+    head: breadcrumbSchema([["Home", "/"], ["Privacy", "/privacy/"]]),
     body: `<main class="ebook-page">
   <section class="ebook-section">
     <div class="ebook-section-inner">
@@ -2616,7 +2619,8 @@ function aboutPage({ posts = 0, ingredients = 0, boards = 0 } = {}) {
     canonical: "/about/",
     description: `Charcuterie Lab is written by Jimmy Wilson, author of the Charcuterie Lab books. How the boards, amounts and pairings on this site are put together.`,
     head: `  <script type="application/ld+json">${jsonForScript(person)}</script>
-  <script type="application/ld+json">${jsonForScript(page)}</script>`,
+  <script type="application/ld+json">${jsonForScript(page)}</script>
+${breadcrumbSchema([["Home", "/"], ["About", "/about/"]])}`,
     body: `<main class="ebook-page about-page">
   <section class="ebook-section">
     <div class="ebook-section-inner">
@@ -3238,7 +3242,7 @@ async function build() {
 
   BOOK_BOARDS = await loadBookBoards(root);
   FUNNEL = makeFunnel({ thumb, escapeHtml, ebookHref, ebookPrice, paperbackUrl, paperbackPrice, withTracking, newsletterUrl, bundlesForBoard: (n) => products.filter((p) => p.bundle && (p.boards || []).includes(n)).sort((a, b) => (a.boards || []).length - (b.boards || []).length) });
-  PRINTABLES = makePrintables({ thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, { title: "Impossible Boards", line: "25 shaped showpiece boards, from a salami dragon to a fondue volcano, each with the trick that makes it work and a shopping list for 12 to 15.", cover: IMPOSSIBLE_BOOK.cover, price: IMPOSSIBLE_BOOK.ebookPrice, url: IMPOSSIBLE_BOOK.ebookUrl, page: "/books/impossible-boards/", paperbackUrl: IMPOSSIBLE_BOOK.paperbackUrl, paperbackPrice: IMPOSSIBLE_BOOK.paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(GUIDE_BOOK.ebookUrl ? [{ title: "The Ingredient Guide", line: "325 ingredients in one 224-page PDF: what each tastes like, what pairs with it and why, and how much to buy.", cover: GUIDE_BOOK.cover, price: GUIDE_BOOK.ebookPrice, url: GUIDE_BOOK.ebookUrl, page: "/ingredients/", paperbackUrl: GUIDE_BOOK.paperbackUrl, paperbackPrice: GUIDE_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
+  PRINTABLES = makePrintables({ breadcrumbSchema, thumb, layout, escapeHtml, withTracking, absoluteUrl, jsonForScript, bookCard: FUNNEL.bookCard, sampleForm: FUNNEL.sampleForm, ebooks: [{ title: "50 Boards Built by Science", line: "50 complete boards for every occasion, each with a shopping list, a timed build and a swap for every ingredient.", cover: "/images/book-cover.jpg", price: ebookPrice, url: ebookUrl, page: "/ebook/", paperbackUrl, paperbackPrice }, { title: "Impossible Boards", line: "25 shaped showpiece boards, from a salami dragon to a fondue volcano, each with the trick that makes it work and a shopping list for 12 to 15.", cover: IMPOSSIBLE_BOOK.cover, price: IMPOSSIBLE_BOOK.ebookPrice, url: IMPOSSIBLE_BOOK.ebookUrl, page: "/books/impossible-boards/", paperbackUrl: IMPOSSIBLE_BOOK.paperbackUrl, paperbackPrice: IMPOSSIBLE_BOOK.paperbackPrice }, ...(worldIsLive(WORLD_BOOK) && WORLD_BOOK.ebookUrl ? [{ title: "Around the World in 16 Boards", line: "16 international boards, from Bavaria to Korea to Peru, with shopping lists and prep countdowns.", cover: WORLD_BOOK.cover, price: WORLD_BOOK.ebookPrice, url: WORLD_BOOK.ebookUrl, page: "/around-the-world/", paperbackUrl: WORLD_BOOK.paperbackUrl, paperbackPrice: WORLD_BOOK.paperbackPrice }] : []), ...(TWO_BOOK.ebookUrl ? [{ title: "Boards for Two", line: "25 boards sized for two, from a first date to New Year's Eve, with shopping lists and a drink for every board.", cover: TWO_BOOK.cover, price: TWO_BOOK.ebookPrice, url: TWO_BOOK.ebookUrl, page: "/books/boards-for-two/", paperbackUrl: TWO_BOOK.paperbackUrl, paperbackPrice: TWO_BOOK.paperbackPrice }] : []), ...(GUIDE_BOOK.ebookUrl ? [{ title: "The Ingredient Guide", line: "325 ingredients in one 224-page PDF: what each tastes like, what pairs with it and why, and how much to buy.", cover: GUIDE_BOOK.cover, price: GUIDE_BOOK.ebookPrice, url: GUIDE_BOOK.ebookUrl, page: "/ingredients/", paperbackUrl: GUIDE_BOOK.paperbackUrl, paperbackPrice: GUIDE_BOOK.paperbackPrice }] : []), ...(KETO_BOOK.ebookUrl ? [{ title: "Keto & Low-Carb Boards", line: "20 keto boards at 4–9 g net carbs per serving, with full macros and shopping lists.", cover: KETO_BOOK.cover, price: KETO_BOOK.ebookPrice, url: KETO_BOOK.ebookUrl, page: "/books/keto-charcuterie-boards/", paperbackUrl: KETO_BOOK.paperbackUrl, paperbackPrice: KETO_BOOK.paperbackPrice }] : []), ...(PLANT_BOOK.ebookUrl ? [{ title: "15 Show-Stopping Plant-Based Boards", line: "15 boards with no meat and no dairy, each with a shopping list, a step-by-step build and the pairing science.", cover: PLANT_BOOK.cover, price: PLANT_BOOK.ebookPrice, url: PLANT_BOOK.ebookUrl, page: "/books/plant-based-charcuterie-boards/", paperbackUrl: PLANT_BOOK.paperbackUrl || PLANT_BOOK.kindleUrl, paperbackPrice: PLANT_BOOK.paperbackUrl ? PLANT_BOOK.paperbackPrice : PLANT_BOOK.kindlePrice, altLabel: PLANT_BOOK.paperbackUrl ? "" : "Kindle on Amazon" }] : [])] }, products);
   console.log(`Funnel: ${BOOK_BOARDS.size} book boards, ${products.length} printables`);
 
   // Board Library helpers: boards.mjs gets the site's shared page parts so
@@ -3259,7 +3263,7 @@ async function build() {
       CATEGORY_PAGES[P.category] = P;
     }
   } catch {}
-  const boardHelpers = { categoryPages: CATEGORY_PAGES, authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts), withTracking, bookSingles: BOOK_SINGLES, planLook: (b) => (PLAN_LOOKS.has(b.slug) ? `/images/plans/${b.slug}-look.webp` : "") };
+  const boardHelpers = { breadcrumbSchema, categoryPages: CATEGORY_PAGES, authorRef, byline, longDate, thumb, imageSize, layout, escapeHtml, jsonForScript, absoluteUrl, bookBar, labNext, bookButtons, newsletterPanel, bookTitle, newsletterHref: (campaign) => withTracking(newsletterUrl, campaign), bookCard: FUNNEL.bookCard, stickyBar: FUNNEL.stickyBar, bookBoards: BOOK_BOARDS, printCard: (slug, campaign, opts) => PRINTABLES.card(slug, campaign, opts), withTracking, bookSingles: BOOK_SINGLES, planLook: (b) => (PLAN_LOOKS.has(b.slug) ? `/images/plans/${b.slug}-look.webp` : "") };
   // blog post -> the board plan it overlaps (first board that lists it)
   const holidayForPost = new Map();
   holidays.forEach((x) => (x.blog || []).forEach((s) => holidayForPost.has(s) || holidayForPost.set(s, x)));
@@ -3506,6 +3510,7 @@ async function build() {
     await writeFile(
       join(dist, "board-builder", "index.html"),
       boardBuilderPage({
+        breadcrumbSchema,
         layout,
         escapeHtml,
         bookBar,

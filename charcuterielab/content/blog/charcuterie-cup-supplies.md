@@ -1,6 +1,6 @@
 ---
 title: "The Best Charcuterie Cup and Grazing Table Supplies"
-seo_title: "Charcuterie Cup Supplies (2026): Best Cups, Picks, Lids + Grazing Table Paper"
+seo_title: "Charcuterie Cup Supplies 2026: Cups, Picks, Lids + Paper"
 date: "2026-11-03"
 updated: "2026-11-03"
 image: "/images/charcuterie-cup-supplies.jpg"

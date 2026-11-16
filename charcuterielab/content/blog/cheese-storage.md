@@ -1,5 +1,6 @@
 ---
 title: "How to Store Cheese: Cheese Paper vs. Plastic Wrap vs. Wax Paper"
+seo_title: "How to Store Cheese: Paper vs Plastic vs Wax Wrap"
 date: "2026-09-26"
 image: "/images/cheese-storage.png"
 excerpt: "How to Store Cheese: Cheese Paper vs. Plastic Wrap vs. Wax Paper"

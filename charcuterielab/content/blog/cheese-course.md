@@ -1,6 +1,6 @@
 ---
 title: "The Cheese Course: How to Serve Cheese After Dinner"
-seo_title: "How to Serve a Cheese Course After Dinner (3 Cheeses, Amounts, Wine)"
+seo_title: "How to Serve a Cheese Course: Cheeses, Amounts, Wine"
 date: "2026-10-23"
 image: "/images/cheese-course.jpg"
 excerpt: "A cheese course is three cheeses, a little bread and fruit, served after the main course. Here's which cheeses to pick, how much to buy, what order to eat them in, and what to pour."

@@ -912,7 +912,7 @@ export function worldBookPage(h, boards) {
       "@context": "https://schema.org", "@type": "Book", name: W.title, author: h.authorRef || { "@type": "Organization", name: "Charcuterie Lab" },
       bookFormat: "https://schema.org/Paperback", numberOfPages: 88, inLanguage: "en", datePublished: W.launchIso,
       url: h.absoluteUrl("/around-the-world/"), about: "International charcuterie boards"
-    })}</script>`,
+    })}</script>\n${breadcrumbSchema(h, [["Home", "/"], ["Around the World", "/around-the-world/"]])}`,
     body: `<main class="bl-main">
   <section class="bl-finder">
     <div class="bl-inner">

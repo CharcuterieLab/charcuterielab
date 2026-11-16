@@ -372,7 +372,8 @@ export function holidaysHub(h, holidays, { season = "", posts = [], boards = [],
     head: `  <script type="application/ld+json">${h.jsonForScript({
       "@context": "https://schema.org", "@type": "CollectionPage", name: "Holiday Charcuterie Hub", url: h.absoluteUrl("/holidays/"),
       mainEntity: { "@type": "ItemList", itemListElement: holidays.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/holidays/${x.slug}/`), name: x.h1 })) }
-    })}</script>`,
+    })}</script>
+${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
     body: `<main class="bl-main hol-main">
   <section class="bl-finder">
     <div class="bl-inner">

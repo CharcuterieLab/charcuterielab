@@ -407,7 +407,8 @@ export function makePrintables(h, products) {
       image: p.image,
       description: p.metaDescription,
       head: `  <script type="application/ld+json">${h.jsonForScript(productSchema(p))}</script>
-  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>
+${h.breadcrumbSchema([["Home", "/"], ["Shop", "/shop/"], ["Printables", "/shop/printables/"], [p.title, `/printables/${p.slug}/`]])}`,
       body: `<main class="fx-product">
   <nav class="fx-crumbs" aria-label="Breadcrumb"><a href="/shop/">Shop</a> / <a href="/shop/printables/">Printables</a> / ${esc(p.title)}</nav>
   <section class="fx-product-hero">
@@ -513,7 +514,8 @@ export function makePrintables(h, products) {
       image: main ? main.cover : products[0].image,
       description: `Charcuterie books and printable board plans: 50 Boards Built by Science in paperback and ebook, holiday packs, cheese and pairing guides, and $3 single board plans. Instant PDFs from ${cheapest}.`,
       head: `  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie Lab shop", itemListElement: [...eb.map((b) => ({ url: h.absoluteUrl(b.page), name: b.title })), ...bundles.concat(favs).map((p) => ({ url: h.absoluteUrl(`/printables/${p.slug}/`), name: p.title }))].map((x, i) => ({ "@type": "ListItem", position: i + 1, ...x })) })}</script>
-  ${faqSchema}`,
+  ${faqSchema}
+${h.breadcrumbSchema([["Home", "/"], ["Shop", "/shop/"]])}`,
       body: `<main class="fx-printables shop-v2">
   <header class="fx-p-hero shop2-hero">
     <p class="section-kicker">Shop</p>
@@ -610,7 +612,7 @@ export function makePrintables(h, products) {
     const groups = groupsInOrder().map((g) => [g, paid.filter((p) => (p.group || "More printables") === g)]).filter(([, ps]) => ps.length);
     const id = (g) => g === "Bundles" ? "bundles" : g.toLowerCase().replace(/[^a-z]+/g, "-").replace(/-$/, "");
     return h.layout({
-      title: "All Charcuterie Printables: Board Plans, Guides & Shopping Lists",
+      title: "All Charcuterie Printables: Plans, Guides & Lists",
       canonical: "/shop/printables/",
       image: (paid.find((p) => p.bundle) || paid[0]).image,
       description: `Every Charcuterie Lab printable: ${paid.filter((p) => !p.bundle).length} board plans and guides, ${paid.filter((p) => p.bundle).length} money-saving bundles and ${singles.length} single board plans. Instant PDF downloads with a 30-day refund.`,

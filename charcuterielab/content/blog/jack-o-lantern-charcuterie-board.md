@@ -1,6 +1,6 @@
 ---
 title: "Jack-o'-Lantern Charcuterie Board: The Giant Pumpkin Board for 12 to 15"
-seo_title: "Jack-o'-Lantern Charcuterie Board (Pumpkin Board for a Crowd)"
+seo_title: "Jack-o'-Lantern Charcuterie Board for a Crowd"
 date: "2026-10-19"
 image: "/images/jack-o-lantern-charcuterie-board.jpg"
 excerpt: "How to build a giant jack-o'-lantern charcuterie board: a pumpkin of orange cheese, dried apricots and soppressata with a carved face of black olives and blackberries. What to buy for 12 to 15, the trick that makes it look round, a smaller version and make-ahead tips."

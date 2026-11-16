@@ -289,7 +289,8 @@ export function partyHub(h, { bookBoards }) {
     image: "/images/how-much-charcuterie-per-person.webp",
     description: `How much charcuterie you need: ${MODES.app.meat} oz each of meat and cheese per guest before a meal, ${MODES.main.meat} oz as the party food. Plans for 4 to 200 guests.`,
     head: `${faqSchema(h, hubFaq)}
-  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie board plans by guest count", ...dated(h), itemListElement: COUNTS.map((n, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(urlFor(n)), name: `Charcuterie board for ${n} people` })) })}</script>`,
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "ItemList", name: "Charcuterie board plans by guest count", ...dated(h), itemListElement: COUNTS.map((n, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(urlFor(n)), name: `Charcuterie board for ${n} people` })) })}</script>
+${h.breadcrumbSchema([["Home", "/"], ["Party Planner", "/party-planner/"]])}`,
     body: `<main class="pp-main">
   <header class="pp-hero">
     <p class="section-kicker">Party Planner</p>

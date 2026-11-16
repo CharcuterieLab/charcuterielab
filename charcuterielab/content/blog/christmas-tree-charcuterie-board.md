@@ -1,6 +1,6 @@
 ---
 title: "Christmas Tree Charcuterie Board (and Christmas Tree Veggie Tray): Serves 8 to 20"
-seo_title: "Christmas Tree Charcuterie Board + Veggie Tray: How-To + Amounts"
+seo_title: "Christmas Tree Charcuterie Board: How-To + Amounts"
 date: "2026-10-14"
 image: "/images/christmas-tree-charcuterie-board.jpg"
 excerpt: "How to make a Christmas tree charcuterie board and a Christmas tree veggie tray: the row-by-row tree layout, a cheese star and pretzel trunk, how much to buy for 8, 12 or 20, board sizes and make-ahead timing."

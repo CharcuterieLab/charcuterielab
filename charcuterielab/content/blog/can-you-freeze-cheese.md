@@ -1,6 +1,6 @@
 ---
 title: "Can You Freeze Cheese (and Salami)? What Freezes Well and What Doesn't"
-seo_title: "Can You Freeze Cheese and Salami? What Works and What Doesn't"
+seo_title: "Can You Freeze Cheese and Salami? What Works"
 date: "2026-10-19"
 image: "/images/can-you-freeze-cheese.jpg"
 excerpt: "Yes, you can freeze hard and semi-hard cheese for up to about 6 months and dry salami for 1 to 2 months. Frozen cheese turns crumbly, so cook with it rather than putting it on a board. Which cheeses freeze well, which don't, and how to wrap and thaw them."

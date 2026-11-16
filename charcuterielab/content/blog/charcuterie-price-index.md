@@ -1,6 +1,6 @@
 ---
 title: "Charcuterie Price Index 2026: The Same Board at Aldi, Walmart, Kroger and Trader Joe's"
-seo_title: "Charcuterie Price Index 2026: Aldi vs Walmart vs Kroger vs Trader Joe's"
+seo_title: "Charcuterie Price Index: Aldi, Walmart, Kroger, TJ's 2026"
 date: "2026-10-27"
 image: "/images/charcuterie-price-index.jpg"
 excerpt: "The same 9-item charcuterie board for 10 guests, priced at Aldi, Walmart, Kroger and Trader Joe's. One chart, every price, and the 5 swaps that save the most."
