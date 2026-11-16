@@ -34,6 +34,64 @@ def titles():
     return t
 
 
+# Per-person serving for every ingredient, so a board's shopping list can carry
+# an amount for each item instead of only a category total (15 Nov 2026).
+def servings():
+    s = {}
+    for d in ING_DIRS:
+        if not os.path.isdir(d):
+            continue
+        for f in os.listdir(d):
+            if f.endswith(".md"):
+                m = re.search(r'^serving_per_person:\s*"([^"]*)"', open(os.path.join(d, f), encoding="utf-8").read(), re.M)
+                if m:
+                    s[f[:-3]] = m.group(1)
+    return s
+
+
+FRAC = {0.0: "", 0.25: "\u00bc", 0.5: "\u00bd", 0.75: "\u00be"}
+
+
+def _weight(oz):
+    """Ounces to a shopping-friendly string."""
+    if oz < 16:
+        v = round(oz * 2) / 2 if oz < 4 else round(oz)
+        return f"{v:g} oz"
+    lbs = oz / 16.0
+    whole = int(lbs)
+    frac = round((lbs - whole) * 4) / 4
+    if frac == 1:
+        whole, frac = whole + 1, 0.0
+    return f"{whole}{FRAC[frac]} lb"
+
+
+def item_amount(serving, n):
+    """Scale one ingredient's per-person serving to n guests.
+
+    Weights ("1-2 oz") become a single figure to buy, from the midpoint.
+    Counts ("4-5 olives") keep their range, because a count reads naturally
+    that way. Anything vague ("a pinch", "garnish") gets no amount at all
+    rather than an invented one.
+    """
+    if not serving or not n:
+        return ""
+    s = serving.replace("\u2013", "-").strip()
+    m = re.fullmatch(r"([\d.]+)(?:-([\d.]+))?\s*oz", s)
+    if m:
+        lo = float(m.group(1)); hi = float(m.group(2) or m.group(1))
+        return _weight((lo + hi) / 2 * n)
+    m = re.fullmatch(r"([\d.]+)(?:-([\d.]+))?\s+([A-Za-z]+)", s)
+    if m:
+        lo = float(m.group(1)); hi = float(m.group(2) or m.group(1)); unit = m.group(3)
+        a, b = round(lo * n), round(hi * n)
+        # "1 sausage" for nine guests is nine sausages, not "9 sausage".
+        # Measures and words that are already plural or invariant are left alone.
+        if max(a, b) > 1 and not unit.endswith("s") and unit.lower() not in ("tbsp", "tsp", "shrimp", "blini", "friselle"):
+            unit += "s"
+        return f"{a}–{b} {unit}" if b > a else f"{a} {unit}"
+    return ""
+
+
 def head(c, title, sub, page, total, kicker, url):
     pp.header(c, title, sub, page, total, kicker=kicker)
     c.setFillColor(HexColor("#fffcf4")); c.rect(0, 14, W, 20, stroke=0, fill=1)
@@ -207,6 +265,7 @@ def board_lists():
         nums = [int(x) for x in re.findall(r"\d+", str(b.get("serves") or ""))]
         return max(2, round(sum(nums) / len(nums))) if nums else 0
     P = plans_for([guests(b) for b in boards if guests(b)])
+    SRV = servings()
     out = os.path.join(OUT, "boards")
     os.makedirs(out, exist_ok=True)
     made = []
@@ -234,7 +293,9 @@ def board_lists():
             y -= 20
         y = pp.section(c, y, "Shopping list")
         colw = (W - 2 * M) / 2
+        AMTW = 58  # right-hand strip in each column for the amount
         cols = [y, y]
+        shown = 0
         for g in b["groups"]:
             k = 0 if cols[0] >= cols[1] else 1
             x, yy = M + k * colw, cols[k]
@@ -243,8 +304,14 @@ def board_lists():
             c.setFillColor(GREEN); c.setFont("PopB", 9.5); c.drawString(x, yy, g["name"])
             yy -= 15
             for it in g["items"]:
+                amt = item_amount(SRV.get(it.get("slug") or ""), n)
                 pp.box(c, x, yy - 1, 8)
-                c.setFillColor(INK); c.drawString(x + 14, yy, fit(c, it["name"], "Pop", 9, colw - 24))
+                c.setFillColor(INK); c.setFont("Pop", 9)
+                c.drawString(x + 14, yy, fit(c, it["name"], "Pop", 9, colw - 24 - (AMTW if amt else 0)))
+                if amt:
+                    shown += 1
+                    c.setFillColor(DEEP); c.setFont("PopB", 8.5)
+                    c.drawRightString(x + colw - 12, yy, amt)
                 yy -= 14
             cols[k] = yy - 8
         y = min(cols) - 4
@@ -258,8 +325,8 @@ def board_lists():
                 c.setFillColor(INK); c.setFont("Pop", 9)
                 y = pp.wrap(c, s["what"], M + 80, y, W - 2 * M - 80, 12) - 3
         c.setFillColor(HexColor("#fbeedb")); c.roundRect(M, 44, W - 2 * M, 44, 8, stroke=0, fill=1)
-        c.setFillColor(DEEP); c.setFont("PopB", 9.5); c.drawString(M + 12, 72, "Want exact amounts per item, prices and where everything goes?")
-        c.setFillColor(INK); c.setFont("Pop", 8.5); c.drawString(M + 12, 56, f"The full plan is at charcuterielab.com/boards/{b['slug']}")
+        c.setFillColor(DEEP); c.setFont("PopB", 9.5); c.drawString(M + 12, 72, "Prices for every item and a map of where each one goes are in the book.")
+        c.setFillColor(INK); c.setFont("Pop", 8.5); c.drawString(M + 12, 56, f"This board, step by step: charcuterielab.com/boards/{b['slug']}")
         c.showPage(); c.save()
         made.append(path)
     return made

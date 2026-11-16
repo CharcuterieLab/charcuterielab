@@ -719,13 +719,20 @@ function onBoard(h, b, known, single) {
         ${groups.map((g) => `<div class="bl-on-g"><h3>${h.escapeHtml(g.name)} <span>${g.items.length}</span></h3><ul>${g.items.map(item).join("")}</ul></div>`).join("\n        ")}
       </div>
       ${boardAmounts(h, b)}
-      <p class="bl-on-cta">${single ? `<a class="button primary" href="${h.escapeHtml(href)}" target="_blank" rel="noopener">Get the shopping list with amounts · ${h.escapeHtml(single.price)}</a>` : `<a class="button primary" href="#bl-book-title">Get the full plan</a>`}</p>
+      <p class="bl-on-cta"><a class="button primary" href="#bl-signup-title">Get this board&rsquo;s printable plan, free</a></p>
     </section>`;
 }
 
 // Board pages sell one thing (9 Nov 2026): the board's own $3 plan, or the
 // book where there is no plan yet. No Amazon buttons, no other products.
 const noAmazon = (html) => html.replace(/<a\b[^>]*href="https?:\/\/(?:www\.)?amazon\.[^"]*"[^>]*>[\s\S]*?<\/a>\s*/g, "");
+// Board pages now ask for two things only (15 Nov 2026): the newsletter at the
+// top, in exchange for the board's printable plan, and the paperback at the
+// bottom. Every Gumroad link is stripped from the book box and the Amazon
+// button becomes its primary call to action.
+const amazonOnly = (html) => html
+  .replace(/<a\b[^>]*href="[^"]*gumroad[^"]*"[^>]*>[\s\S]*?<\/a>\s*/g, "")
+  .replace(/class="button book-buy-print"/g, 'class="button primary book-buy-print"');
 
 // Phones: a bar for the plan once the reader is past the hero (9 Nov 2026).
 function planSticky(h, b, single) {
@@ -750,9 +757,9 @@ function boardSignup(h, b) {
     : CHEAT;
   const img = b.hasList ? "/images/leads/board-shopping-list.webp" : "/images/charcuterie-cheat-sheet.webp";
   const eyebrow = b.hasList ? "Free printable" : "Not hosting yet?";
-  const head = b.hasList ? `Get this board&rsquo;s shopping list, free` : "Get the free Charcuterie Cheat Sheet";
+  const head = b.hasList ? `Get this board&rsquo;s printable plan, free` : "Get the free Charcuterie Cheat Sheet";
   const copy = b.hasList
-    ? `Everything on this board as a printable checklist, how much to buy for ${h.escapeHtml(b.serves || "your guest count")} guests, and the full timeline. Then one board idea a week in the Lab Report.`
+    ? `A printable checklist with how much to buy, the totals for ${h.escapeHtml(b.serves || "your guest count")} guests and the full timeline. Then one board idea a week in the Lab Report.`
     : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, so this board is in your inbox when the party gets close.";
   return `<section class="bl-section bl-signup" aria-labelledby="bl-signup-title">
       <img class="fx-hi-img" src="${h.escapeHtml((h.thumb || ((x) => x))(img, "s"))}" alt="" width="64" height="83" loading="lazy" decoding="async">
@@ -781,13 +788,13 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
   const visible = { ...b, timeline: steps };
   const hub = h.categoryPages && h.categoryPages[cat.slug];
   // Scannable format (Oct 20 2026): jump links, compact ingredient rows, bold lead-ins.
-  const offer = noAmazon(bookOffer(h, b));
-  const planId = single ? "bl-plan-title" : offer.includes('id="bl-book-title"') ? "bl-book-title" : "";
+  const bookPitch = amazonOnly(bookOffer(h, b));
+  const planId = "bl-signup-title";
   // Sales layout (26 Oct 2026): the $3 plan (or, with no $3 plan yet, the book)
   // sits right under the hero; the item list, the printable card and the
   // newsletter are gone; the book the board is in closes the page.
   const onList = onBoard(h, b, known, single);
-  const jump = [...(planId ? [["The plan", planId]] : []), ...(onList ? [["What's on it", "bl-on"]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"]];
+  const jump = [...(planId ? [["The free plan", planId]] : []), ...(onList ? [["What's on it", "bl-on"]] : []), ["Why it works", "bl-why"], ["Timeline", "bl-when"], ["Questions", "bl-faq"]];
   const lead = (t) => { const m = String(t).match(/^(.*?[.!?])(\s+[\s\S]*)?$/); return m ? `<strong>${h.escapeHtml(m[1])}</strong>${h.escapeHtml(m[2] || "")}` : h.escapeHtml(t); };
 
   return h.layout({
@@ -810,16 +817,13 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
         ${glance.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${h.escapeHtml(v)}</dd></div>`).join("\n        ")}
       </dl>
       <p class="bl-cta-row">
-        ${single
-          ? `<a class="button primary" href="${h.escapeHtml(h.withTracking ? h.withTracking(single.url, `board_hero_${b.slug}`) : single.url)}" target="_blank" rel="noopener">Get the full plan · ${h.escapeHtml(single.price)}</a>
-        <span>Shopping list with amounts, placement and timeline. <a href="#bl-plan-title">What's inside</a></span>`
-          : `<a class="button primary" href="#bl-book-title">Get the full plan</a>
-        <span>Shopping list with amounts, placement and timeline.</span>`}
+        <a class="button primary" href="#bl-signup-title">Get the printable plan, free</a>
+        <span>The shopping list, how much to buy and the full timeline, for your email.</span>
       </p>
       <nav class="bl-jump" aria-label="On this page">${jump.map(([t, id]) => `<a href="#${id}">${t}</a>`).join("")}</nav>
     </header>
 <!--no-offers-->
-    ${single ? planBox(h, b, single) : offer}
+    ${boardSignup(h, b)}
 
     ${onList}
 
@@ -844,8 +848,6 @@ export function boardPage(h, b, { all, bySlug, notes, blogTitles }) {
       </div>
     </section>
 
-    ${boardSignup(h, b)}
-
     <section class="bl-section" aria-labelledby="bl-more">
       <h2 id="bl-more">More boards</h2>
       <ul class="bl-grid bl-grid-3">
@@ -855,9 +857,9 @@ ${[...related, ...fill].map((x) => card(x, h, { plain: true })).join("\n")}
       ${hub ? `<p class="bl-note">More ideas: <a href="/boards/${cat.slug}/">${h.escapeHtml(hub.link_text || hub.h1)}</a></p>` : ""}
       <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
     </section>
+
+    ${bookPitch}
   </div>
-${single ? planSticky(h, b, single) : ""}
-<script src="https://gumroad.com/js/gumroad.js" async></script>
 </main>`
   });
 }
