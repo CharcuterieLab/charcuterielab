@@ -32,3 +32,11 @@
   .book-shelf .bs-row li { flex: 0 0 116px; scroll-snap-align: start; }
   .book-shelf .bs-cover { max-width: 116px; }
 }
+.book-shelf .bs-singles { max-width: 560px; margin: 8px auto 0; padding: 0 16px; font-family: var(--sans); font-size: 14px; color: var(--muted); }
+.book-shelf .bs-singles p { margin: 4px 0 0; }
+.book-shelf .bs-singles a { color: var(--green-deep); font-weight: 700; }
+/* Article link styles (underlines, bottom borders, backgrounds) never reach the shelf. */
+.book-shelf a, .book-shelf a:hover, .book-shelf a:visited { border: 0 !important; box-shadow: none; background: none; text-decoration: none; }
+.book-shelf .bs-all:hover { text-decoration: underline; }
+.book-shelf .bs-row a > span { line-height: 1.3; }
+.book-shelf .bs-price { white-space: normal; }
