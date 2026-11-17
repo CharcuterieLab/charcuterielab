@@ -15,3 +15,19 @@
 .pr-shelf { display: flex; align-items: center; gap: 10px; margin: 18px 0 8px; padding: 12px 14px; border-radius: 14px; background: #fbf3e4; border: 1px solid rgba(169,87,43,.12); }
 .pr-shelf img { width: 44px; height: auto; border-radius: 3px; box-shadow: 0 4px 10px rgba(60,30,10,.18); flex: none; }
 .pr-shelf p { margin: 0 0 0 4px; font-size: 14.5px; line-height: 1.45; min-width: 0; }
+/* A. Phones: three rules, then "Show all 6 rules" */
+.pr-rules-all { display: none; }
+@media (max-width: 600px) {
+  .pr-rules:not(.is-open) > li:nth-child(n+4) { display: none; }
+  .pr-rules-all { display: block; width: 100%; margin: 12px 0 0; }
+  /* B. Phones: one Perfect Plate; the Lab has the rest */
+  .pr-combos > li[data-kind="plates"] ~ li[data-kind="plates"] { display: none; }
+  /* B. Phones: two Perfect Pairs, smaller photos, no repeat of the names under the title */
+  .pr-combos > li[data-kind="pairs"]:nth-child(n+3) { display: none; }
+  .pr-combo[data-kind="pairs"] .pr-thumb { width: 44px; height: 44px; border-radius: 10px; }
+  .pr-combo[data-kind="pairs"] .pr-combo-items { display: none; }
+}
+/* C. Pairing Pack line under the printable charts */
+.pr-pack-line { margin: 12px 0 0; font-size: 15px; color: var(--muted); }
+.pr-pack-line a { font-weight: 600; }
+.pr-pack-line span { white-space: nowrap; }

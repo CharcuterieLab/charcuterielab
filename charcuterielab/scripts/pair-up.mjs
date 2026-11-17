@@ -69,5 +69,24 @@ export function upPairHub(html, path) {
     html = html.replace(charts[1], charts[1] + shelf);
     n++;
   }
+  // A (17 Nov). Phones: rules 1-3 show, a button opens 4-6 (CSS hides them; a #rule- link opens them)
+  html = html.replace(/(<ol class="pr-rules">[\s\S]*?<\/ol>)/, (ol) => {
+    n++;
+    return `${ol}
+      <button type="button" class="button pr-rules-all" onclick="this.previousElementSibling.classList.add('is-open');this.remove()">Show all 6 rules</button>
+      <script>if(/^#rule-/.test(location.hash)){var o=document.querySelector('.pr-rules');o&&o.classList.add('is-open');var b=document.querySelector('.pr-rules-all');b&&b.remove()}</script>`;
+  });
+  // C (17 Nov). One quiet line for the Pairing Pack under the printable charts
+  html = html.replace(/(<h2 id="chart-h">Printable pairing charts<\/h2>\s*<ul class="hub-charts">[\s\S]*?<\/ul>)/, (m) => {
+    n++;
+    return `${m}
+      <p class="pr-pack-line">Want them on paper? <a href="/printables/pairing-pack/">The Pairing Pack</a>: the pairing card deck, the wine &amp; cheese guide and the cheese field guide &middot; $9 <span>($14 separately)</span></p>`;
+  });
+  // D (17 Nov). New Year's pours link the New Year's Eve board plan too (pairings.js already picks the next occasion by date)
+  html = html.replace(/(<div class="pr-season-card" data-dates='[^']*' data-name="New Year's Eve" hidden>\s*<ul class="pr-chips">[\s\S]*?<\/ul>)(\s*<\/div>)/, (m, a, b) => {
+    n++;
+    return `${a}
+        <p><a class="pr-more" href="/holidays/new-years-eve/">The full New Year's Eve board plan &rarr;</a></p>${b}`;
+  });
   return { html, n };
 }
