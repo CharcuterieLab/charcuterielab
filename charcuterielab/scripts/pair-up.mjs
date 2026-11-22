@@ -69,6 +69,12 @@ export function upPairHub(html, path) {
     html = html.replace(charts[1], charts[1] + shelf);
     n++;
   }
+  // 22 Nov 2026: phones hide the hero photo, so a short strip of five bites sits under the finder
+  if (!html.includes('class="hub-photo pr-strip"')) html = html.replace(/<section class="bl-section hub-tools-sec"/, (m) => {
+    n++;
+    return `<figure class="hub-photo pr-strip"><img src="/images/pairings-strip.webp" srcset="/images/thumbs/pairings-strip-webp-m.webp 640w, /images/pairings-strip.webp 1024w" sizes="calc(100vw - 32px)" alt="Five pairing bites: brie and fig, prosciutto and melon, parmesan and honey, manchego and quince, blue cheese with walnut and pear" width="1024" height="339" decoding="async"></figure>
+    ${m}`;
+  });
   // A (17 Nov). Phones: rules 1-3 show, a button opens 4-6 (CSS hides them; a #rule- link opens them)
   html = html.replace(/(<ol class="pr-rules">[\s\S]*?<\/ol>)/, (ol) => {
     n++;

@@ -1,0 +1,9 @@
+/* 22 Nov 2026: the Ingredients hub on tablets and laptops showed all 375 cards
+   (42 screens). Show the first 48, then the same "Show all" button phones get.
+   Any search, filter, view or A-Z tap still shows everything (build.mjs script). */
+@media (min-width: 561px) {
+  .ing-grid:not(.show-all) > .ing-card:nth-child(n+49) { display: none; }
+  .ing-more-wrap { display: block; margin: 20px 0 8px; text-align: center; }
+  .ing-more-wrap[hidden] { display: none; }
+  .ing-more { min-height: 44px; }
+}

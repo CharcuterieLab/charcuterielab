@@ -28,6 +28,7 @@ import { funQuickAnswer } from "./qa-fun.mjs";
 import { upDiet } from "./diet-up.mjs";
 import { upBook } from "./book-up.mjs";
 import { upPairHub } from "./pair-up.mjs";
+import { phoneMenu, realIssue } from "./nav-news.mjs";
 import { join } from "node:path";
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -164,6 +165,8 @@ export async function calmHubs(dist) {
       { const r = upDiet(html, path, dist); if (r.n) { html = r.html; n.diet = (n.diet || 0) + 1; } }
       { const r = upBook(html, path, dist); if (r.n) { html = r.html; n.book = r.n; } }
       { const r = upPairHub(html, path); if (r.n) { html = r.html; n.pairHub = r.n; } }
+      { const r = phoneMenu(html); if (r.n) { html = r.html; n.menu = (n.menu || 0) + 1; } }
+      if (path === "/newsletter/") { const r = realIssue(html); html = r.html; n.issue = r.n; }
       // ---- Holiday pages
       if (/^\/holidays\/[^/]+\/$/.test(path) && html.includes('id="ideas"')) {
         let k = 0;

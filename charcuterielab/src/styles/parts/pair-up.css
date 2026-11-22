@@ -20,14 +20,18 @@
 @media (max-width: 600px) {
   .pr-rules:not(.is-open) > li:nth-child(n+4) { display: none; }
   .pr-rules-all { display: block; width: 100%; margin: 12px 0 0; }
-  /* B. Phones: one Perfect Plate; the Lab has the rest */
-  .pr-combos > li[data-kind="plates"] ~ li[data-kind="plates"] { display: none; }
+  /* B. Phones: one Perfect Plate on the hub; the Lab has the rest (scoped to the hub 22 Nov: it also hid cards on the Lab and food guides) */
+  section[aria-labelledby="combos-h"] .pr-combos > li[data-kind="plates"] ~ li[data-kind="plates"] { display: none; }
   /* B. Phones: two Perfect Pairs, smaller photos, no repeat of the names under the title */
-  .pr-combos > li[data-kind="pairs"]:nth-child(n+3) { display: none; }
-  .pr-combo[data-kind="pairs"] .pr-thumb { width: 44px; height: 44px; border-radius: 10px; }
-  .pr-combo[data-kind="pairs"] .pr-combo-items { display: none; }
+  section[aria-labelledby="combos-h"] .pr-combos > li[data-kind="pairs"]:nth-child(n+3) { display: none; }
+  section[aria-labelledby="combos-h"] .pr-combo[data-kind="pairs"] .pr-thumb { width: 44px; height: 44px; border-radius: 10px; }
+  section[aria-labelledby="combos-h"] .pr-combo[data-kind="pairs"] .pr-combo-items { display: none; }
 }
 /* C. Pairing Pack line under the printable charts */
 .pr-pack-line { margin: 12px 0 0; font-size: 15px; color: var(--muted); }
 .pr-pack-line a { font-weight: 600; }
 .pr-pack-line span { white-space: nowrap; }
+/* 22 Nov 2026: five-bite strip under the finder, phones only (the hero photo is hidden there) */
+.pr-strip { margin: 14px 0 4px; }
+.pr-strip img { aspect-ratio: 1024 / 339; max-height: none; }
+@media (min-width: 601px) { .pr-strip { display: none; } }

@@ -19,6 +19,11 @@ const HUBS = {
     at: (h) => h.indexOf('<div class="ing-controls"') },
   "/party-planner/": { src: "/images/how-much-charcuterie-per-person.webp", alt: "A long party spread of cured meats, cheeses, crackers, figs and olives",
     at: (h) => afterClose(h, '<header class="pp-hero"', "</header>") },
+  // 22 Nov 2026: Shop and the Dietary hub, photos made for them
+  "/shop/": { src: "/images/shop-hero.webp", alt: "A charcuterie board beside printed shopping lists, a board plan and pairing cards",
+    at: (h) => h.indexOf('<div class="shop2-feature"') },
+  "/dietary/": { src: "/images/dietary-hero.webp", alt: "One board split four ways: gluten-free, vegetarian, vegan and keto",
+    at: (h) => afterClose(h, '<header class="pr-hero dt-hero"', "</header>") },
   "/newsletter/": { src: "/images/50-boards-42-all-cheese-connoisseur.webp", alt: "All-cheese board", cls: "hub-photo-phone",
     at: (h) => afterClose(h, '<section class="nl-hero"', "</section>") },
 };

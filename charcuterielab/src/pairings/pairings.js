@@ -390,6 +390,29 @@ function lab() {
   const sels = { season: $("#lab-season-f"), occ: $("#lab-occ"), diet: $("#lab-diet"), price: $("#lab-price"), rule: $("#lab-rule"), level: $("#lab-level") };
   const count = $("#lab-count"), empty = $("#lab-empty");
   const has = (list, v) => (list || "").split(" ").includes(v);
+  // 22 Nov 2026: each section shows its first 6 matching cards (4 on phones) and a
+  // "Show all" button, so the page opens short instead of listing all 150.
+  const CAP = window.matchMedia("(max-width: 600px)").matches ? 4 : 6, opened = new Set();
+  const cap = () => {
+    $$("[data-kind-section]").forEach((sec) => {
+      const vis = $$(".lab-card:not([hidden])", sec);
+      const open = opened.has(sec.id);
+      vis.forEach((li, i) => li.classList.toggle("is-capped", !open && i >= CAP));
+      $$(".lab-card[hidden]", sec).forEach((li) => li.classList.remove("is-capped"));
+      let btn = $(".lab-showall", sec);
+      if (!btn) {
+        btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "button lab-showall";
+        btn.addEventListener("click", () => { opened.add(sec.id); cap(); });
+        $(".lab-cards", sec).after(btn);
+      }
+      const name = ($("h2", sec)?.firstChild?.textContent || "").trim().replace(/^Perfect /, "").toLowerCase();
+      btn.textContent = `Show all ${vis.length} ${name}`;
+      btn.hidden = open || vis.length <= CAP;
+    });
+  };
+  const uncap = (li) => { const sec = li.closest("[data-kind-section]"); if (sec && li.classList.contains("is-capped")) { opened.add(sec.id); cap(); } };
   const apply = () => {
     const kind = chips.find((b) => b.getAttribute("aria-pressed") === "true")?.dataset.lfilter || "all";
     const words = norm(q?.value || "").split(" ").filter(Boolean);
@@ -411,6 +434,7 @@ function lab() {
     $$("[data-kind-section]").forEach((sec) => (sec.hidden = !$$(".lab-card:not([hidden])", sec).length));
     if (count) count.textContent = shown === cards.length ? `Showing all ${cards.length}` : `Showing ${shown} of ${cards.length}`;
     if (empty) empty.hidden = shown > 0;
+    cap();
     const p = new URLSearchParams();
     if (kind !== "all") p.set("kind", kind);
     Object.entries(v).forEach(([k, val]) => val && p.set(k, val));
@@ -426,7 +450,7 @@ function lab() {
   if (kc) pressGroup(chips, kc);
   Object.entries(sels).forEach(([k, el]) => { if (el && p.get(k) && [...el.options].some((o) => o.value === p.get(k))) el.value = p.get(k); });
   if (q && p.get("q")) q.value = p.get("q");
-  if ([...p.keys()].length) apply();
+  if ([...p.keys()].length) apply(); else cap();
 
   $("#lab-reset")?.addEventListener("click", () => {
     pressGroup(chips, chips[0]);
@@ -435,6 +459,7 @@ function lab() {
     apply();
   });
   const flash = (li) => {
+    uncap(li);
     $$("details", li).forEach((d) => (d.open = true));
     li.scrollIntoView({ behavior: "smooth", block: "center" });
     li.classList.remove("is-flash"); void li.offsetWidth; li.classList.add("is-flash");
@@ -466,6 +491,7 @@ function lab() {
     mark.forEach((li) => {
       const c = li.cloneNode(true);
       c.removeAttribute("id");
+      c.classList.remove("is-capped");
       $$("details", c).forEach((d) => (d.open = true));
       $$(".pr-combo-links, .lab-print", c).forEach((x) => x.remove());
       ul.append(c);

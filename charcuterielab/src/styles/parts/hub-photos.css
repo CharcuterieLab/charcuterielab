@@ -4,3 +4,4 @@
 .hub-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;max-height:min(46vh,420px)}
 @media (max-width:600px){.hub-photo img{aspect-ratio:3/2}}
 @media (min-width:821px){.hub-photo-phone{display:none}}
+.shop2-hero > .hub-photo{width:100%;max-width:900px;margin:16px 0 18px}

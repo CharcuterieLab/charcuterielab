@@ -1,0 +1,11 @@
+/* 22 Nov 2026: the newsletter page shows the real Nov 18 Lab Report as its sample. */
+.nl-real .nl-sample-by { margin: 10px 0 12px; font-size: 14px; color: var(--muted); }
+.nl-real > p + p { margin-top: 10px; }
+.nl-real ul { margin: 6px 0 10px; padding-left: 20px; }
+.nl-real li { margin: 4px 0; }
+.nl-real a { font-weight: 600; }
+.nl-sample-more { margin-top: 16px; border-top: 1px solid rgba(169,87,43,.12); padding-top: 12px; }
+.nl-sample-more summary { cursor: pointer; font-weight: 700; color: var(--green-deep); min-height: 44px; display: flex; align-items: center; }
+.nl-sample-more img { display: block; width: 100%; height: auto; border-radius: 10px; margin: 6px 0 10px; }
+.nl-sample-more p { margin: 0 0 10px; }
+.nl-sample-sig { font-style: italic; color: var(--muted); }

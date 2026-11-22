@@ -19399,6 +19399,42 @@
 "/images/thumbs/bundles__pairing-pack-3-webp-s.webp": [
 240,
 180
+],
+"/images/shop-hero.webp": [
+1024,
+559
+],
+"/images/thumbs/shop-hero-webp-m.webp": [
+640,
+349
+],
+"/images/thumbs/shop-hero-webp-s.webp": [
+240,
+131
+],
+"/images/dietary-hero.webp": [
+1024,
+687
+],
+"/images/thumbs/dietary-hero-webp-m.webp": [
+640,
+429
+],
+"/images/thumbs/dietary-hero-webp-s.webp": [
+240,
+161
+],
+"/images/pairings-strip.webp": [
+1024,
+339
+],
+"/images/thumbs/pairings-strip-webp-m.webp": [
+640,
+212
+],
+"/images/thumbs/pairings-strip-webp-s.webp": [
+240,
+79
 ]
 },
 "thumbs": {
@@ -25863,6 +25899,18 @@
 "/images/bundles/pairing-pack-3.webp": {
 "m": "/images/thumbs/bundles__pairing-pack-3-webp-m.webp",
 "s": "/images/thumbs/bundles__pairing-pack-3-webp-s.webp"
+},
+"/images/shop-hero.webp": {
+"m": "/images/thumbs/shop-hero-webp-m.webp",
+"s": "/images/thumbs/shop-hero-webp-s.webp"
+},
+"/images/dietary-hero.webp": {
+"m": "/images/thumbs/dietary-hero-webp-m.webp",
+"s": "/images/thumbs/dietary-hero-webp-s.webp"
+},
+"/images/pairings-strip.webp": {
+"m": "/images/thumbs/pairings-strip-webp-m.webp",
+"s": "/images/thumbs/pairings-strip-webp-s.webp"
 }
 }
 }
