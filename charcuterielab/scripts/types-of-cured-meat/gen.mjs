@@ -231,7 +231,7 @@ ${MORE[f.key] ? `<p>${MORE[f.key]}</p>` : ""}
 
 // ---------- By country ----------
 const COUNTRIES = [
-  ["Italian cured meats (salumi)", /^Italy/, "Italy has the longest list. <em>Salumi</em> is the Italian word for all of them; salami is just one kind."],
+  ["Italian cured meats (salumi)", /^Italy/, "Italy has the longest list. <em>Salumi</em> is the Italian word for all of them; salami is just one kind. <a href=\"/blog/italian-cured-meats/\">See them region by region &rarr;</a>"],
   ["Spanish cured meats (embutidos and jamón)", /^Spain/, "Paprika (pimentón) is the signature, and jamón is the national treasure."],
   ["French charcuterie", /^France/, "The French gave us the word <em>charcuterie</em>, from <em>chair cuite</em>, \"cooked meat\", and they lead on pâtés and rillettes."],
   ["German & Central European", /Germany|Switzerland|Austria|Poland|Hungary|Croatia|Slovenia|Serbia|Ukraine/, "Smoke, caraway, paprika and garlic: hearty meats made for cold winters."],

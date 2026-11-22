@@ -36,7 +36,7 @@ export const OFFER_RULES = [
   // Types of Cheese guide (3 Nov 2026): the reader wants to learn cheeses, so the pack of cheese guides.
   [/types-of-cheese/, ["cheese-lovers-pack", "cheese-board-field-guide"], "Love cheese?"],
   // Types of Cured Meat guide (14 Nov 2026): the meat field guide, then the salami party kit.
-  [/types-of-cured-meat/, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Love cured meat?"],
+  [/types-of-cured-meat|italian-cured-meats/, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Love cured meat?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
   [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|new-years-eve-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
@@ -300,7 +300,7 @@ export function makeOffers(h, products, books) {
     }
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
     if (path === "/blog/types-of-cheese/") return FREEBIES.cheesechart;
-    if (path === "/blog/types-of-cured-meat/") return FREEBIES.meatchart;
+    if (path === "/blog/types-of-cured-meat/" || path === "/blog/italian-cured-meats/") return FREEBIES.meatchart;
     const sm = path.match(/^\/blog\/([^/]+)\/$/);
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };

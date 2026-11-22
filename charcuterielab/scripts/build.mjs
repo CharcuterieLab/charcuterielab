@@ -41,6 +41,8 @@ const siteUrl = "https://charcuterielab.com";
 const publishTimeZone = "America/Chicago";
 // Today in Chicago; the sitemap's lastmod for pages with no content date
 // (hubs, tools, category pages), which are rebuilt from live data each deploy.
+// Italian Cured Meats guide (22 Nov 2026): the Italian meat ingredient pages link it.
+const ITALIAN_SALUMI = new Set(["speck", "prosciutto-san-daniele", "bresaola", "prosciutto-di-parma", "culatello", "mortadella", "coppa", "pancetta", "finocchiona", "lardo", "guanciale", "nduja", "soppressata", "genoa-salami", "prosciutto-cotto"]);
 const BUILD_DATE = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 // The book is sold in two editions and every book CTA on the site offers both:
 // the ebook (PDF) on Gumroad and the paperback on Amazon. Prices are shown on
@@ -1650,7 +1652,7 @@ ${related
     }
     ${boardPostLink(item, blogSlugs)}
     ${item.category === "Cheese" && (!blogSlugs || blogSlugs.has("types-of-cheese")) ? `<p class="ing-boardpost">Comparing cheeses? <a href="/blog/types-of-cheese/">See all 100 types of cheese, with a chart &rarr;</a></p>` : ""}
-    ${item.category === "Cured Meat & Seafood" && (!blogSlugs || blogSlugs.has("types-of-cured-meat")) ? `<p class="ing-boardpost">Comparing cured meats? <a href="/blog/types-of-cured-meat/">See all 100 types of cured meat, with a chart &rarr;</a></p>` : ""}
+    ${item.category === "Cured Meat & Seafood" && (!blogSlugs || blogSlugs.has("types-of-cured-meat")) ? `<p class="ing-boardpost">Comparing cured meats? <a href="/blog/types-of-cured-meat/">See all 100 types of cured meat, with a chart &rarr;</a></p>` : ""}${ITALIAN_SALUMI.has(item.slug) && (!blogSlugs || blogSlugs.has("italian-cured-meats")) ? `<p class="ing-boardpost">Part of Italy's salumi family. <a href="/blog/italian-cured-meats/">See Italian cured meats, region by region &rarr;</a></p>` : ""}
     ${ingredientReadMore(item, mentions)}
     <p class="ing-back"><a href="/ingredients/${item.categorySlug}/">&larr; All ${escapeHtml(item.category.toLowerCase())}</a></p>
   </article>

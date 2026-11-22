@@ -113,7 +113,9 @@ const TARGETS = [
   ["/ingredients/salchichon/", ["salchichón", "salchichon"]],
   ["/ingredients/lap-cheong/", ["lap cheong", "Chinese sausage"]],
   // Types of Cured Meat guide (14 Nov 2026): specific phrases only.
-  ["/blog/types-of-cured-meat/", ["types of cured meat", "kinds of cured meat", "Italian cured meats", "salumi", "cured meat chart"], 10],
+  ["/blog/types-of-cured-meat/", ["types of cured meat", "kinds of cured meat", "cured meat chart"], 10],
+  // Italian Cured Meats guide (22 Nov 2026): owns the Italy searches the cured meat guide used to carry.
+  ["/blog/italian-cured-meats/", ["Italian cured meats", "Italian cured meat", "Italian salumi", "salumi"], 10],
 ];
 
 // Most-clicked pages, Search Console Oct 12 - Nov 8 2026 (5+ clicks), best first.
