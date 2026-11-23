@@ -616,6 +616,23 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${x.after ? `<p class="pr-guide-p">${mdLinks(x.after)}</p>` : ""}
     </section>`;
 
+  // 23 Nov 2026: a visible byline and updated date on drink pages and the drink hubs.
+  const longDay = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  const drinkByline = (iso) => `<p class="pr-byline">By <a href="/about/">Jimmy Wilson</a> &middot; Updated <time datetime="${iso}">${longDay(iso)}</time></p>`;
+  // The page that owns "a whole board" for each family.
+  const GUIDE_LINE = {
+    wine: `Pouring for a whole board? The <a href="/blog/wine-and-charcuterie-board/">charcuterie board wine pairing guide</a> plans one, two or three bottles, meat by meat and cheese by cheese.`,
+    beer: `Pouring for a whole board? <a href="/blog/beer-pairing/">Beer and charcuterie, style by style</a> covers every beer on one page, with the science behind each match.`
+  };
+  // "Tasted at the Lab": first-hand notes, shown only when drinks.json has a "tasted" entry
+  // ({ pair, note, date, img?, alt? }).
+  const tastedBox = (d) => d.tasted ? `<aside class="pr-tasted" aria-label="Tasted at the Lab">
+      ${d.tasted.img ? `<img src="${B(d.tasted.img)}" alt="${B(d.tasted.alt || d.tasted.pair)}" width="640" height="480" loading="lazy" decoding="async">` : ""}
+      <div><p class="pr-tasted-k">Tasted at the Lab${d.tasted.date ? ` &middot; ${longDay(d.tasted.date)}` : ""}</p>
+      <p class="pr-tasted-pair">${B(d.tasted.pair)}</p>
+      <p>${mdLinks(d.tasted.note)}</p>
+      <p class="pr-tasted-by">&mdash; Jimmy Wilson</p></div>
+    </aside>` : "";
   const drinkPage = (d) => {
     const matches = d.matches.map((m) => ({ ...m, item: idx.bySlug.get(m.s) }));
     const top = matches.slice(0, 3);
@@ -656,6 +673,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
         <p class="pr-answer">${B(d.answer)}</p>
         ${profileDots(d)}
         <p class="pr-serve"><strong>Serve:</strong> ${B(d.serve)}</p>
+        ${drinkByline(d.updated || UPDATED)}
       </div>
     </header>
 
@@ -663,15 +681,18 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${top.map((m, n) => `<a class="pr-pick" href="/ingredients/${m.s}/">${thumb(h, m.item, art, " pr-thumb-big")}<span class="pr-pick-n">#${n + 1}</span><strong>${B(m.item.title)}</strong><span>${B(m.why)}</span></a>`).join("")}
     </section>
     <p class="pr-intro">${B(d.intro)}</p>
+    ${GUIDE_LINE[d.family] ? `<p class="pr-guide-line">${GUIDE_LINE[d.family]}</p>` : ""}
+    ${tastedBox(d)}
 
     <section class="bl-section" aria-labelledby="best-h">
       <h2 id="best-h">The best pairings for ${B(d.name)}</h2>
-      <table class="pr-table">
+      <table class="pr-table${matches.length > 7 ? " pr-table-short" : ""}">
         <thead><tr><th>Pair it with</th><th>Why it works</th><th>Rule</th></tr></thead>
         <tbody>
         ${matches.map((m) => `<tr><td>${thumb(h, m.item, art, " pr-thumb-sm")}${pairLink(h, idx, m.s)}<span class="pr-cat">${B(m.item.category)}</span></td><td>${B(m.why)}</td><td><a href="/pairings/how-pairing-works/#${m.rule}">${B(idx.ruleById.get(m.rule)?.name || "")}</a></td></tr>`).join("\n        ")}
         </tbody>
       </table>
+      ${matches.length > 7 ? `<button type="button" class="button pr-table-all" onclick="this.previousElementSibling.classList.remove('pr-table-short');this.remove()">Show all ${matches.length} pairings</button>` : ""}
       <p class="bl-cta-row"><a class="button primary" href="${builderPreset(d.matches.slice(0, 8).map((m) => m.s), 6, `pairings_${d.slug}`)}">Build a board for this bottle</a> <a class="button" href="/pairings/?q=drink:${d.slug}">Open in the Pairing Finder</a></p>
     </section>
 
@@ -727,6 +748,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       <p class="pr-answer">${B(answer)}</p>
       <p>${B(intro)}</p>${note ? `
       <p class="bl-note">${note}</p>` : ""}
+      ${updated ? drinkByline(updated) : ""}
       </div>
       ${heroImg(img, `${fam} with cheese`)}
     </header>

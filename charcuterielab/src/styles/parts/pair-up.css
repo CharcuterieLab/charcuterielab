@@ -39,3 +39,23 @@
 /* 22 Nov 2026: wine and beer hubs, "How much to buy" links */
 .pr-hub-next { margin: 10px 0 0; padding-left: 20px; }
 .pr-hub-next li { margin: 6px 0; }
+/* 23 Nov 2026: drink pages. Byline with the updated date, the line to the family's main guide,
+   "Tasted at the Lab" notes, and 6 table rows on phones with "Show all" */
+.pr-byline { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+.pr-byline a { color: inherit; font-weight: 600; }
+.pr-guide-line { margin: 10px 0 0; padding: 10px 14px; border-left: 3px solid var(--gold, #c9a24a); background: rgba(201,162,74,.08); border-radius: 0 8px 8px 0; font-size: 15.5px; }
+.pr-tasted { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 16px; align-items: start; margin: 18px 0; padding: 16px; border: 1px solid rgba(169,87,43,.2); border-radius: 12px; background: #fffaf1; }
+.pr-tasted img { width: 100%; height: auto; border-radius: 10px; }
+.pr-tasted p { margin: 0 0 6px; }
+.pr-tasted-k { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--green-deep, #8f4422); }
+.pr-tasted-pair { font-weight: 700; font-size: 17px; }
+.pr-tasted-by { font-style: italic; color: var(--muted); }
+.pr-tasted:not(:has(img)) { grid-template-columns: minmax(0, 1fr); }
+.pr-table-all { display: none; }
+@media (max-width: 600px) {
+  .pr-tasted { grid-template-columns: minmax(0, 1fr); }
+  .pr-table-short tbody tr:nth-child(n+7) { display: none; }
+  .pr-table-all { display: block; margin: 10px auto 4px; }
+}
+/* 23 Nov 2026: in the narrow hub cards the four profile columns ran 1.5px past the page edge at 1280px */
+.pr-profile { grid-template-columns: repeat(4, minmax(0, auto)); column-gap: min(22px, 4%); max-width: 100%; }
