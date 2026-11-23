@@ -162,7 +162,8 @@
      },
      "after": "New Zealand and Chilean Pinot sit between Oregon and California. Whichever you pour, keep blue cheese and spicy salami for another bottle."
     }
-   ]
+   ],
+   "updated": "2026-11-22"
   },
   {
    "slug": "cabernet-sauvignon",
@@ -497,7 +498,7 @@
   {
    "slug": "sauvignon-blanc",
    "seo_title": "Sauvignon Blanc Cheese Pairing: Goat Cheese Wins + 10 More",
-   "seo_description": "The best cheese with Sauvignon Blanc is fresh goat cheese. Here are 10 more matches, from feta and burrata to prosciutto and olives, plus 3 to skip.",
+   "seo_description": "Sancerre or New Zealand? Which Sauvignon Blanc suits goat cheese, feta or burrata, 11 pairings ranked, the 3 cheeses that clash and the bottle to buy.",
    "family": "wine",
    "name": "Sauvignon Blanc",
    "color": "#dfe6a0",
@@ -655,7 +656,8 @@
      },
      "after": "Crottin de Chavignol is made a few miles from Sancerre, which is why goat cheese and Loire Sauvignon Blanc are the classic match."
     }
-   ]
+   ],
+   "updated": "2026-11-22"
   },
   {
    "slug": "chardonnay",
@@ -919,7 +921,7 @@
     }
    ],
    "seo_title": "Rosé Cheese Pairing Ideas: 11 Matches + What to Skip",
-   "seo_description": "Rosé cheese pairing ideas: feta, goat cheese, burrata and Manchego, with prosciutto, chorizo, melon and olives. Why dry rosé works, and 3 cheeses to skip.",
+   "seo_description": "Which rosé for which cheese: Provence-style with feta and chèvre, rosado with Manchego and chorizo, sparkling with brie. 3 to skip, 1 bottle to buy.",
    "h1": "Rosé cheese pairing ideas: cheeses, charcuterie and what to skip",
    "qa": [
     {
@@ -968,7 +970,8 @@
      },
      "after": "Sweet blush wines and white Zinfandel are a different drink. They suit fresh fruit and spicy salami better than salty cheese."
     }
-   ]
+   ],
+   "updated": "2026-11-22"
   },
   {
    "slug": "riesling",
@@ -1134,7 +1137,7 @@
   },
   {
    "slug": "merlot",
-   "seo_description": "Merlot cheese pairing: Gouda, medium cheddar, Gruyère and Havarti, with Genoa salami, coppa and pâté. Merlot vs Cabernet on a board, and 3 things to skip.",
+   "seo_description": "Merlot pairs with Gouda, cheddar, Gruyère and Genoa salami. When to pour Merlot instead of Cabernet, 11 ranked matches and the 3 foods that clash.",
    "family": "wine",
    "name": "Merlot",
    "color": "#6d1f33",
@@ -1288,7 +1291,8 @@
       "Extras: dried figs, candied pecans, dark chocolate"
      ]
     }
-   ]
+   ],
+   "updated": "2026-11-22"
   },
   {
    "slug": "malbec",
@@ -1584,7 +1588,9 @@
      },
      "after": "Skip brie and other soft, bloomy cheeses with any of them: Chianti's acid makes them taste sour."
     }
-   ]
+   ],
+   "seo_description": "Chianti, Classico or Riserva? Which Sangiovese suits Parmigiano, pecorino or finocchiona, 11 ranked pairings, and why brie is the one to skip.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "port",
@@ -1696,6 +1702,18 @@
     {
      "q": "Is port wine cheese the same as cheese with port?",
      "a": "No. Port wine cheese is a red, spreadable cheddar-style cheese flavored with port. Cheese with port means serving a glass of port alongside cheese such as Stilton."
+    },
+    {
+     "q": "How much port do you need for a cheese board?",
+     "a": "One 750 ml bottle gives about twelve 2 oz pours, enough for six people to have two small glasses each."
+    },
+    {
+     "q": "Does port go with brie?",
+     "a": "Tawny port does: its caramel and nut notes suit rich triple-crème and ripe brie. Young ruby port is too sweet and fruity for mild brie; save it for blue cheese."
+    },
+    {
+     "q": "What is a good inexpensive port for cheese?",
+     "a": "Kirkland 10 Year Tawny (about $17 at Costco) for aged Gouda and nuts, or Graham's Six Grapes Reserve ruby (about $27) for Stilton. See our best port wine guide for more."
     }
    ],
    "h1": "Port and cheese pairing: which port goes with which cheese",
@@ -1765,6 +1783,20 @@
      ]
     },
     {
+     "id": "board",
+     "h": "A port and cheese board for 6",
+     "p": "One bottle, two cheeses and a few sweet, crunchy things is all it takes. Set it out after dinner, in place of dessert or beside it.",
+     "list": [
+      "Port: one 750 ml bottle of ruby or 10-year tawny, about twelve 2 oz pours, so two each",
+      "Blue cheese: 6 oz Stilton, about 1 oz per person",
+      "Hard cheese: 6 oz aged cheddar or aged Gouda",
+      "Something soft (optional, best with tawny): 4 oz triple-crème",
+      "Sweet and crunchy: a handful each of walnuts and dried figs, and 3 oz dark chocolate",
+      "Base: oatcakes or plain water crackers, nothing seasoned"
+     ],
+     "after": "Take the cheese out of the fridge an hour ahead, and pour the port into small wine glasses rather than tumblers so the aroma gathers."
+    },
+    {
      "id": "tradition",
      "h": "Why Stilton and port is the classic",
      "p": "The pairing comes from Britain, where port has been the after-dinner wine for centuries and Stilton the after-dinner cheese. It works because opposites balance: the cheese is salty, sharp and creamy, the wine is sweet, rich and strong, and each one tames the other. The same logic makes port work with any salty blue, and with hard aged cheeses that have their own caramel notes."
@@ -1774,7 +1806,9 @@
      "h": "Port wine cheese is something else",
      "p": "\"Port wine cheese\" or \"red port cheese\" is a spreadable, cheddar-style cheese colored red and flavored with port, sold in tubs and cheese balls. It is a party spread, not a pairing. Serve it on crackers with a glass of ruby port or a fruity red. Our picks: [the best port wine cheese spreads](/blog/best-port-wine-cheese/)."
     }
-   ]
+   ],
+   "seo_description": "Which port with which cheese: ruby with Stilton, tawny with aged Gouda, white port with goat cheese. Serving temperatures, pour sizes and a board for 6.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "beaujolais",
@@ -1915,7 +1949,8 @@
      },
      "after": "For a Thanksgiving board, Beaujolais-Villages or a cru stands up to turkey, cranberry and stuffing flavors better than Nouveau. Save Nouveau for the release-week party."
     }
-   ]
+   ],
+   "updated": "2026-11-22"
   }
  ],
  "beers": [
@@ -2058,7 +2093,9 @@
      "after": "Hops make chili heat feel hotter. If your guests don't like spice, pour a hazy IPA with the 'nduja and pepperoni."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "IPA cheese pairing by style: West Coast with sharp cheddar, hazy with Havarti, double IPA with blue. 11 ranked matches, 3 to skip, bottles to look for.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "lager-pilsner",
@@ -2199,7 +2236,9 @@
      "after": "Keep strong washed-rind cheese like Époisses away from light lager; it swamps the beer."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "Lager and pilsner pairings: Havarti, Swiss and Gruyère with sausage, pretzels and mustard. Which lager style for which cheese, plus 3 cheeses to skip.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "stout-porter",
@@ -2348,7 +2387,9 @@
      "after": "Save the sweet and imperial stouts for the dessert end of the board; they overpower fresh cheese and smoked fish."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "Stout and porter with cheese: dry stout with aged cheddar, porter with smoked Gouda, imperial stout with Stilton. 11 matches, 3 to skip, bottles to buy.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "wheat-beer",
@@ -2487,7 +2528,9 @@
      "after": "Skip the lemon wedge if you want the beer's own citrus and spice to meet the cheese."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "Wheat beer pairings: hefeweizen with Havarti and chèvre, witbier with feta and smoked salmon. 11 ranked matches, 3 cheeses to skip, bottles to look for.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "belgian-ale",
@@ -2628,7 +2671,9 @@
      "after": "Port-Salut was first made by Trappist monks in France, and Trappist abbeys in Belgium brew dubbels and tripels: monk beer and monk cheese are an old match."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "Belgian ale and cheese: saison with Gruyère, dubbel with aged Gouda, tripel with Port-Salut and Taleggio. 11 ranked matches, 3 to skip, bottles to buy.",
+   "updated": "2026-11-22"
   },
   {
    "slug": "hard-cider",
@@ -2770,7 +2815,9 @@
      "after": "Normandy makes both Camembert and cidre, so the two are a natural match."
     }
    ],
-   "swap_h": "Bottles to look for"
+   "swap_h": "Bottles to look for",
+   "seo_description": "Hard cider and cheese: dry cider with aged cheddar and Camembert, off-dry with brie, perry with goat cheese. 11 matches, 3 to skip, bottles to look for.",
+   "updated": "2026-11-22"
   }
  ],
  "cocktails": {

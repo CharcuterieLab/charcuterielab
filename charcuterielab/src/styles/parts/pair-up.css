@@ -3,7 +3,8 @@
 @media (max-width: 860px) {
   .pr-hero-photo .pr-hero-img { aspect-ratio: 3/1; height: auto; max-height: 160px; object-fit: cover; border-radius: 14px; }
 }
-@media (max-width: 600px) { .pr-hero-photo .pr-hero-img { display: none; } }
+/* 22 Nov 2026: only the main hub hides its photo on phones (the finder comes first there); the wine and beer hubs keep theirs */
+@media (max-width: 600px) { .pr-inner:has(#finder) > .pr-hero-photo .pr-hero-img { display: none; } }
 /* 4. Phones: "Start with your food" as a 2-column grid */
 @media (max-width: 600px) {
   .pr-foodgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
@@ -35,3 +36,6 @@
 .pr-strip { margin: 14px 0 4px; }
 .pr-strip img { aspect-ratio: 1024 / 339; max-height: none; }
 @media (min-width: 601px) { .pr-strip { display: none; } }
+/* 22 Nov 2026: wine and beer hubs, "How much to buy" links */
+.pr-hub-next { margin: 10px 0 0; padding-left: 20px; }
+.pr-hub-next li { margin: 6px 0; }

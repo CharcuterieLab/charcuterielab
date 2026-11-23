@@ -641,6 +641,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       title: d.seo_title || DRINK_TITLE[d.slug] || (d.family === "wine" || d.family === "beer" ? (`${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip`.length <= 60 ? `${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip` : `${d.name} Cheese Pairing: ${matches.length} Best Matches`) : (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title)),
       name: `${d.name} pairings`,
       description: d.seo_description || d.answer,
+      updated: d.updated || "",
       crumbs: [["Pairings", "/pairings/"], fam, [d.name, d.url]],
       image: photo(`pairings-${d.family}-${d.slug}`),
       faq: [...qa.map((x) => ({ q: x.q, a: x.text })), ...faqRest],
@@ -715,8 +716,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
   for (const d of idx.drinks) add(`${d.url.slice(1)}index.html`, drinkPage(d));
 
   // ---------------------------------------------------- family landings ---
-  const familyLanding = (fam, list, { url, title, h1, answer, intro, note, faq, img }) => page(h, {
-    url, title, name: h1, description: answer, crumbs: [["Pairings", "/pairings/"], [fam, url]], faq, script, image: photo(img),
+  const familyLanding = (fam, list, { url, title, h1, answer, intro, note, faq, img, extra = "", updated = "", description = "" }) => page(h, {
+    url, title, name: h1, description: description || answer, updated, crumbs: [["Pairings", "/pairings/"], [fam, url]], faq, script, image: photo(img),
     list: list.map((d) => [`${d.name} pairings`, d.url]),
     body: `
     <header class="pr-hero${photo(img) ? " pr-hero-photo" : ""}">
@@ -750,8 +751,22 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
         </tbody>
       </table>
     </section>
+    ${extra}
     <section class="bl-section" id="faq" aria-labelledby="faq-h"><h2 id="faq-h">Questions</h2>${faqHtml(h, faq)}</section>`
   });
+  // 22 Nov 2026: the wine and beer hubs were a list, a table and 3 FAQs (472-620 words).
+  // Each now picks a bottle by what's on the board, says how much to buy, and links on.
+  const situationTable = (fam, rows) => `<section class="bl-section" aria-labelledby="sit-h">
+      <h2 id="sit-h">Pick a ${fam === "Wine" ? "wine" : "beer"} by what's on the board</h2>
+      <div class="pr-table-wrap"><table class="pr-guide-table"><thead><tr><th>On the board</th><th>Pour</th><th>Why it works</th></tr></thead><tbody>
+      ${rows.map(([on, pour, why]) => `<tr><th scope="row">${mdLinks(on)}</th><td data-l="Pour">${mdLinks(pour)}</td><td data-l="Why it works">${mdLinks(why)}</td></tr>`).join("\n      ")}
+      </tbody></table></div>
+    </section>`;
+  const moreBlock = (hdr, p, links) => `<section class="bl-section" aria-labelledby="much-h">
+      <h2 id="much-h">${hdr}</h2>
+      <p class="pr-guide-p">${mdLinks(p)}</p>
+      <ul class="pr-hub-next">${links.map((l) => `<li>${mdLinks(l)}</li>`).join("")}</ul>
+    </section>`;
   add("pairings/wine/index.html", familyLanding("Wine", wines, {
     url: "/pairings/wine/",
     img: "pairings-wine",
@@ -761,6 +776,23 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     intro: "Pick your bottle to see the cheeses, meats and extras that suit it, and the ones to skip.",
     // 16 Nov 2026: the full charcuterie guide owns "wine with charcuterie"; this page is the by-bottle index
     note: `Pouring for a whole charcuterie board? Start with the <a href="/blog/wine-and-charcuterie-board/">charcuterie board wine pairing guide</a>: one, two or three bottles, meat by meat and cheese by cheese.`,
+    updated: "2026-11-22",
+    description: "Wine and cheese pairing, wine by wine: 12 bottles from Champagne to port, the cheeses and meats each suits, a pick-by-board table and how much to buy.",
+    extra: situationTable("Wine", [
+      ["A mixed charcuterie board", "[Champagne & Prosecco](/pairings/wine/champagne-prosecco/) or [Pinot Noir](/pairings/wine/pinot-noir/)", "Bubbles and acid handle salt and fat; Pinot is light enough for soft and hard cheese alike"],
+      ["Brie, Camembert, triple-crème", "[Champagne](/pairings/wine/champagne-prosecco/) or an oaked [Chardonnay](/pairings/wine/chardonnay/)", "Acid cuts the cream, or buttery wine matches it"],
+      ["Goat cheese and feta", "[Sauvignon Blanc](/pairings/wine/sauvignon-blanc/) or dry [rosé](/pairings/wine/rose/)", "Tangy wine meets tangy cheese"],
+      ["Aged cheddar, Gouda, Manchego", "[Cabernet Sauvignon](/pairings/wine/cabernet-sauvignon/), [Malbec](/pairings/wine/malbec/) or [Merlot](/pairings/wine/merlot/)", "Fat and protein soften a red's tannin"],
+      ["Parmigiano, pecorino, Italian salumi", "[Chianti & Sangiovese](/pairings/wine/chianti-sangiovese/)", "High acid made for salty Italian food"],
+      ["Blue cheese and dessert", "[Port](/pairings/wine/port/) or a sweet [Riesling](/pairings/wine/riesling/)", "Salt and sweetness balance each other"],
+      ["Spicy salami and chorizo", "Off-dry [Riesling](/pairings/wine/riesling/) or [Beaujolais](/pairings/wine/beaujolais/)", "Low tannin and a touch of sweetness keep the heat in check"],
+      ["A Thanksgiving board", "[Beaujolais](/pairings/wine/beaujolais/) or [Pinot Noir](/pairings/wine/pinot-noir/)", "Light reds that suit turkey, cranberry and stuffing flavors"]
+    ]) + moreBlock("How much wine to buy", "A 750 ml bottle pours about five 5 oz glasses. Plan one bottle for every two guests at a two- to three-hour party; if you pour two wines, split the bottles evenly between them.", [
+      "Every wine on one page: the [wine and cheese pairing chart](/pairings/wine-and-cheese-chart/), free to print",
+      "Bottles under $20 that suit a board: [the best wine for a charcuterie board](/blog/best-wine-for-charcuterie-board/)",
+      "Building the whole board around the wine: [charcuterie board wine pairing guide](/blog/wine-and-charcuterie-board/)",
+      "On paper: [the Pairing Pack](/printables/pairing-pack/), the card deck plus the wine and cheese guide, $9"
+    ]),
     faq: [
       { q: "What is the best all-round wine for a cheese board?", a: "Dry sparkling wine. Its acid and bubbles suit soft, hard and salty cheeses and cured meats alike." },
       { q: "Red or white wine with cheese?", a: "More cheeses pair well with whites and sparkling wine than with big reds. Choose light reds like Pinot Noir or Beaujolais for mixed boards." },
@@ -774,6 +806,21 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     h1: "Beer, cider and cheese pairings",
     answer: "Beer pairs with cheese as well as wine does. Crisp lager suits mild cheese and pretzels, IPA suits sharp cheddar and spicy salami, stout suits blue cheese and chocolate, and dry cider suits brie and cheddar.",
     intro: "Carbonation scrubs fat, malt matches nutty and caramel flavors, and hops cut through rich cheese.",
+    updated: "2026-11-22",
+    description: "Beer and cheese pairing by style: IPA, lager, stout, wheat, Belgian ale and cider, the cheeses each suits, a pick-by-board table and how much to buy.",
+    extra: situationTable("Beer", [
+      ["A mixed charcuterie board", "[Lager & Pilsner](/pairings/beer/lager-pilsner/) or a saison ([Belgian Ale](/pairings/beer/belgian-ale/))", "Cold, fizzy and clean, it resets your palate between rich bites"],
+      ["Aged cheddar, pepper jack, spicy salami", "[IPA](/pairings/beer/ipa/)", "Hop bitterness cuts fat and stands up to salt and spice"],
+      ["Smoked Gouda, blue cheese, dark chocolate", "[Stout & Porter](/pairings/beer/stout-porter/)", "Roasty malt matches rich, sharp and smoky flavors"],
+      ["Goat cheese, feta, smoked salmon", "[Wheat Beer](/pairings/beer/wheat-beer/)", "Light spice and citrus suit fresh, tangy food"],
+      ["Washed-rind cheese and pâté", "[Belgian Ale](/pairings/beer/belgian-ale/)", "Strong, yeasty beers grew up beside abbey cheeses"],
+      ["Brie, Camembert, ham", "Dry [Hard Cider](/pairings/beer/hard-cider/)", "Apple acidity cuts rich cheese and pork, like a slice of apple"],
+      ["Pretzels, mustard, sausage", "[Lager & Pilsner](/pairings/beer/lager-pilsner/)", "The beer-hall classics, for a reason"]
+    ]) + moreBlock("How much beer to buy", "Plan about two beers per guest for a two- to three-hour party when wine is also poured, and three if beer is the only drink. Offer one light style and one darker or hoppier one.", [
+      "Every style with its science: [beer and charcuterie, style by style](/blog/beer-pairing/)",
+      "Whiskey instead? [Whisky and cheese pairing](/pairings/spirits/whisky/)",
+      "On paper: [the Pairing Card Deck](/printables/pairing-card-deck/), 25 pairings to pull for what's in your fridge, $5"
+    ]),
     faq: [
       { q: "What beer goes best with cheese?", a: "Belgian ales and dry cider are the most cheese-friendly. IPA is best with sharp cheddar; stout with blue cheese." },
       { q: "What beer goes with a charcuterie board?", a: "A crisp lager or pilsner for mixed boards; IPA for spicy salami; stout for a dessert board." },
@@ -1669,7 +1716,7 @@ export function pairingUrls(idx) {
   return [
     { loc: "/pairings/", priority: "0.9" },
     ...["drinks", "wine", "beer", "cocktails", "zero-proof", "food", "classics", "how-pairing-works", "wine-and-cheese-chart", ...(idx.data.mc ? ["meat-and-cheese-chart"] : [])].map((s) => ({ loc: `/pairings/${s}/`, lastmod: UPDATED, priority: "0.8" })),
-    ...idx.drinks.map((d) => ({ loc: d.url, lastmod: UPDATED, priority: "0.8" })),
+    ...idx.drinks.map((d) => ({ loc: d.url, lastmod: d.updated || UPDATED, priority: "0.8" })),
     ...idx.foods.map((f) => ({ loc: f.url, lastmod: UPDATED, priority: "0.8" }))
   ];
 }
