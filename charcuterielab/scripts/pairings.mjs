@@ -637,7 +637,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       url: d.url,
       // Optional per-drink overrides in drinks.json, matched to how people search
       // ("best cheese pairing with sauvignon blanc").
-      title: d.seo_title || DRINK_TITLE[d.slug] || (d.family === "wine" ? (`${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip`.length <= 60 ? `${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip` : `${d.name} Cheese Pairing: ${matches.length} Best Matches`) : (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title)),
+      // Beer pages use the wine pattern too (22 Nov 2026): "IPA Cheese Pairing: 11 Matches + What to Skip".
+      title: d.seo_title || DRINK_TITLE[d.slug] || (d.family === "wine" || d.family === "beer" ? (`${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip`.length <= 60 ? `${d.name} Cheese Pairing: ${matches.length} Matches + What to Skip` : `${d.name} Cheese Pairing: ${matches.length} Best Matches`) : (title.length > 60 ? `${d.name} Pairings: ${matches.length} Best Matches` : title)),
       name: `${d.name} pairings`,
       description: d.seo_description || d.answer,
       crumbs: [["Pairings", "/pairings/"], fam, [d.name, d.url]],
@@ -689,7 +690,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
         ${BOTTLES[d.slug] ? `<h2>The bottle to buy</h2>
         <ul class="pr-bottles">${BOTTLES[d.slug].map(([n, p, u, k]) => `<li><span class="pr-bottle-k">${B(k)}</span><a href="${u}">${B(n)}</a>${p ? ` <span class="pr-bottle-p">${B(p)}</span>` : ""}</li>`).join("")}</ul>
         <p><strong>Budget swap:</strong> ${B(d.swap)}</p>` : `<h2>Budget swap</h2>
-        <p>${B(d.swap)}</p>`}
+        <p>${B(d.swap)}</p>`.replace("<h2>Budget swap</h2>", `<h2>${B(d.swap_h || "Budget swap")}</h2>`)}
         ${cheeses.length ? `<p class="bl-note">Cheeses on this page: ${cheeses.map((m) => pairLink(h, idx, m.s)).join(", ")}.</p>` : ""}
       </div>
     </section>
@@ -708,7 +709,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${faqHtml(h, faqRest)}
     </section>
     ${h.bookBar(`pairings_${d.slug}`, "50 boards, each with a drink pairing")}
-    ${h.printCard ? h.printCard("wine-cheese-pairing-guide", `pairings_print_${d.slug}`) : ""}`
+    ${h.printCard ? h.printCard(d.family === "beer" ? "pairing-card-deck" : "wine-cheese-pairing-guide", `pairings_print_${d.slug}`) : ""}`
     });
   };
   for (const d of idx.drinks) add(`${d.url.slice(1)}index.html`, drinkPage(d));

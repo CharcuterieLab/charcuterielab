@@ -126,6 +126,42 @@
       "Opening one red for a mixed board? Make it Pinot Noir"
      ]
     }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Burgundy, Oregon or California Pinot?",
+     "p": "Pinot Noir changes with where it grows. Cooler places make lighter, earthier wine; warmer places make riper, rounder wine. Match the weight of the cheese to the weight of the bottle.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Red Burgundy (Bourgogne)",
+        "Light and earthy: red cherry, mushroom, forest floor",
+        "[Comté](/pairings/food/comte/), Époisses (Burgundy's own washed-rind cheese)",
+        "Pâté de campagne, marinated mushrooms"
+       ],
+       [
+        "Oregon (Willamette Valley)",
+        "Bright red fruit, a little earth, high acid",
+        "[Gruyère](/pairings/food/gruyere/), [brie](/pairings/food/brie/)",
+        "[Prosciutto](/pairings/food/prosciutto-di-parma/), dried cherries"
+       ],
+       [
+        "California (Sonoma, Central Coast)",
+        "Riper and softer: dark cherry, sometimes vanilla from oak",
+        "[Aged Gouda](/pairings/food/aged-gouda/), [Taleggio](/pairings/food/taleggio/)",
+        "Duck prosciutto, walnuts"
+       ]
+      ]
+     },
+     "after": "New Zealand and Chilean Pinot sit between Oregon and California. Whichever you pour, keep blue cheese and spicy salami for another bottle."
+    }
    ]
   },
   {
@@ -583,6 +619,42 @@
       "Skip: chocolate and smoky foods"
      ]
     }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Sancerre, New Zealand or California?",
+     "p": "Sauvignon Blanc always has high acid, but where it grows decides whether it tastes flinty, tropical or round.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Loire (Sancerre, Pouilly-Fumé, Touraine)",
+        "Mineral and citrus, a flinty edge",
+        "Crottin de Chavignol, Sainte-Maure, [fresh chèvre](/pairings/food/fresh-chevre/)",
+        "Green apple, walnuts"
+       ],
+       [
+        "New Zealand (Marlborough)",
+        "Loud: passion fruit, grapefruit, cut grass",
+        "[Feta](/pairings/food/feta/), whipped feta",
+        "Castelvetrano olives, pesto, cucumber"
+       ],
+       [
+        "California and Fumé Blanc",
+        "Rounder and riper, sometimes lightly oaked",
+        "Burrata, young [Gouda](/pairings/food/gouda/)",
+        "Smoked trout, marinated artichokes, [prosciutto](/pairings/food/prosciutto-di-parma/)"
+       ]
+      ]
+     },
+     "after": "Crottin de Chavignol is made a few miles from Sancerre, which is why goat cheese and Loire Sauvignon Blanc are the classic match."
+    }
    ]
   },
   {
@@ -859,6 +931,42 @@
       "Extras: Kalamata olives, hummus and pita",
       "Keep it light, summery and salty; that is where dry rosé shines"
      ]
+    }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which rosé with which cheese",
+     "p": "Rosé runs from pale and bone-dry to deep pink and fruity. The color is a fair guide: paler bottles are usually lighter and crisper, darker ones fuller.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Pale, dry (Provence style)",
+        "Crisp: strawberry, citrus, a mineral finish",
+        "[Feta](/pairings/food/feta/), [fresh chèvre](/pairings/food/fresh-chevre/)",
+        "Melon, [prosciutto](/pairings/food/prosciutto-di-parma/), olives"
+       ],
+       [
+        "Deeper, fruitier (Spanish rosado, Tavel)",
+        "Riper berry, fuller body, a touch of tannin",
+        "[Manchego](/pairings/food/manchego/), young pecorino",
+        "[Chorizo](/pairings/food/chorizo/), [jamón serrano](/pairings/food/jamon-serrano/), almonds"
+       ],
+       [
+        "Sparkling rosé",
+        "Red berries and fine bubbles",
+        "[Triple-crème](/pairings/food/triple-creme/), [brie](/pairings/food/brie/)",
+        "[Smoked salmon](/pairings/food/smoked-salmon/), strawberries"
+       ]
+      ]
+     },
+     "after": "Sweet blush wines and white Zinfandel are a different drink. They suit fresh fruit and spicy salami better than salty cheese."
     }
    ]
   },
@@ -1440,6 +1548,42 @@
      "q": "Is Chianti good for an antipasto board?",
      "a": "It's the best choice: acid for the olives and tomatoes, tannin for the salami."
     }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Chianti, Classico or Riserva?",
+     "p": "All three are Sangiovese from Tuscany. The label tells you how much body and oak to expect: plain Chianti is the lightest, Chianti Classico (the black rooster on the neck) has more structure, and Riserva is aged at least two years before release.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best on the board",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Chianti",
+        "Bright sour cherry, high acid, light tannin",
+        "[Pecorino Romano](/pairings/food/pecorino-romano/), young pecorino",
+        "[Mortadella](/pairings/food/mortadella/), olives, sun-dried tomatoes"
+       ],
+       [
+        "Chianti Classico",
+        "Cherry, dried herbs and a savory edge, firmer tannin",
+        "[Parmigiano-Reggiano](/pairings/food/parmigiano-reggiano/), Pecorino Toscano",
+        "Finocchiona, [prosciutto](/pairings/food/prosciutto-di-parma/)"
+       ],
+       [
+        "Chianti Classico Riserva or Gran Selezione",
+        "Fuller and more oaky: dried cherry, leather, spice",
+        "Long-aged [Parmigiano-Reggiano](/pairings/food/parmigiano-reggiano/), aged pecorino",
+        "[Soppressata](/pairings/food/soppressata/), balsamic glaze, walnuts"
+       ]
+      ]
+     },
+     "after": "Skip brie and other soft, bloomy cheeses with any of them: Chianti's acid makes them taste sour."
+    }
    ]
   },
   {
@@ -1735,6 +1879,42 @@
      "q": "What charcuterie goes with Beaujolais?",
      "a": "Pâté, saucisson sec and rosette de Lyon, all from the same corner of France."
     }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Nouveau, Villages or cru?",
+     "p": "All Beaujolais is Gamay from the hills south of Burgundy, but the three levels drink very differently. Nouveau is released on the third Thursday of November, a few weeks after harvest; the crus come from ten named villages and have more depth.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best on the board",
+       "Serve"
+      ],
+      "rows": [
+       [
+        "Beaujolais Nouveau",
+        "Very light and fruity: red berries, banana and bubblegum, almost no tannin",
+        "[Brie](/pairings/food/brie/), mild salami, [grapes](/pairings/food/grapes/), cranberry sauce",
+        "Chilled, about 50–55°F; drink it by spring"
+       ],
+       [
+        "Beaujolais and Beaujolais-Villages",
+        "Juicy red cherry, light body, soft tannin",
+        "Pâté de campagne, saucisson sec, [Comté](/pairings/food/comte/), cornichons",
+        "Lightly chilled, about 55°F"
+       ],
+       [
+        "Cru (Fleurie, Morgon, Moulin-à-Vent)",
+        "Fleurie is floral and silky; Morgon and Moulin-à-Vent are fuller and earthier",
+        "Morbier, aged [Comté](/pairings/food/comte/), rosette de Lyon, roasted chestnuts",
+        "55–60°F"
+       ]
+      ]
+     },
+     "after": "For a Thanksgiving board, Beaujolais-Villages or a cru stands up to turkey, cranberry and stuffing flavors better than Nouveau. Save Nouveau for the release-week party."
+    }
    ]
   }
  ],
@@ -1824,7 +2004,7 @@
      "why": "Sweet and bitter clash."
     }
    ],
-   "swap": "Hazy IPAs are softer and fruitier; West Coast IPAs are drier and more bitter. Softer styles suit milder cheeses.",
+   "swap": "West Coast: Sierra Nevada Torpedo or Lagunitas IPA. Hazy: your local brewery's, bought fresh. Check the canned-on date and pick anything under three months old.",
    "holidays": [
     "super-bowl"
    ],
@@ -1841,7 +2021,44 @@
      "q": "What charcuterie goes with IPA?",
      "a": "Spicy salami, pepperoni and 'nduja."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which IPA with which cheese",
+     "p": "IPAs split into styles that taste nothing alike. Bitterness is the thing to match: the more bitter the beer, the sharper and saltier the cheese should be.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "West Coast IPA",
+        "Dry and bitter: pine, grapefruit, resin",
+        "[Aged cheddar](/pairings/food/aged-cheddar/), pepper jack",
+        "[Soppressata](/pairings/food/soppressata/), spiced nuts"
+       ],
+       [
+        "Hazy (New England) IPA",
+        "Soft and juicy: mango, citrus, low bitterness",
+        "Young [Gouda](/pairings/food/gouda/), [Havarti](/pairings/food/havarti/)",
+        "Mango chutney, pretzel crisps"
+       ],
+       [
+        "Double or imperial IPA",
+        "Strong (8% and up), sweet malt with big hops",
+        "[Gorgonzola](/pairings/food/gorgonzola/), Maytag Blue, [aged Gouda](/pairings/food/aged-gouda/)",
+        "'Nduja, candied nuts"
+       ]
+      ]
+     },
+     "after": "Hops make chili heat feel hotter. If your guests don't like spice, pour a hazy IPA with the 'nduja and pepperoni."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   },
   {
    "slug": "lager-pilsner",
@@ -1928,7 +2145,7 @@
      "why": "Pungent rind buries a delicate lager."
     }
    ],
-   "swap": "Any good Czech or German pilsner, or a Mexican lager for Tex-Mex boards.",
+   "swap": "Pilsner Urquell (Czech) or Bitburger (German) for cheese boards; Modelo or Pacifico for Tex-Mex boards.",
    "holidays": [
     "super-bowl"
    ],
@@ -1945,7 +2162,44 @@
      "q": "Is lager good with charcuterie?",
      "a": "Yes, especially smoked and garlicky sausages. The bubbles cut the fat."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which lager with which cheese",
+     "p": "Lager's job on a board is to rinse: cold, fizzy and clean, it resets your palate between rich bites. The darker and maltier the lager, the nuttier the cheese can be.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Pilsner (Czech or German)",
+        "Crisp and bready with a floral bitterness",
+        "[Havarti](/pairings/food/havarti/), Emmental",
+        "Landjäger, whole-grain mustard, dill pickles"
+       ],
+       [
+        "Light and Mexican lager",
+        "Very light and clean",
+        "Monterey Jack, pepper jack, queso fresco",
+        "[Chorizo](/pairings/food/chorizo/), salsa, tortilla chips"
+       ],
+       [
+        "Märzen, Oktoberfest and amber lager",
+        "Toasty malt, a little caramel",
+        "[Gruyère](/pairings/food/gruyere/), [smoked Gouda](/pairings/food/smoked-gouda/)",
+        "Kielbasa, soft pretzels, honey-roasted peanuts"
+       ]
+      ]
+     },
+     "after": "Keep strong washed-rind cheese like Époisses away from light lager; it swamps the beer."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   },
   {
    "slug": "stout-porter",
@@ -2032,7 +2286,7 @@
      "why": "Disappears completely."
     }
    ],
-   "swap": "Dry Irish stout is light and roasty; milk and oatmeal stouts are sweeter and richer for dessert boards.",
+   "swap": "Guinness Draught for a dry stout, Left Hand Milk Stout for a sweet one, and North Coast Old Rasputin when you want an imperial stout for dessert.",
    "holidays": [
     "st-patricks-day",
     "christmas",
@@ -2051,7 +2305,50 @@
      "q": "What's the best St. Patrick's Day pairing?",
      "a": "Irish cheddar and dry Irish stout."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which stout or porter with which cheese",
+     "p": "Dark beers range from light-bodied and dry to thick and sweet. Match sweetness to sweetness: dry stouts with sharp cheese, sweet stouts with dessert.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Dry Irish stout",
+        "Light body, roasted coffee, dry finish",
+        "[Aged cheddar](/pairings/food/aged-cheddar/) (Irish cheddar is the pub classic)",
+        "Country ham, oatcakes"
+       ],
+       [
+        "Porter",
+        "Chocolate and toffee, medium body",
+        "[Smoked Gouda](/pairings/food/smoked-gouda/), [aged Gouda](/pairings/food/aged-gouda/)",
+        "Candied pecans, pretzel crisps"
+       ],
+       [
+        "Milk and oatmeal stout",
+        "Sweeter and creamy, mocha",
+        "Mascarpone, young [Gouda](/pairings/food/gouda/)",
+        "[Dark chocolate](/pairings/food/dark-chocolate/), [Medjool dates](/pairings/food/medjool-dates/)"
+       ],
+       [
+        "Imperial stout",
+        "Strong (9% and up): espresso, dark fruit, molasses",
+        "[Stilton](/pairings/food/stilton/), [Gorgonzola](/pairings/food/gorgonzola/)",
+        "[Dark chocolate](/pairings/food/dark-chocolate/), dried figs"
+       ]
+      ]
+     },
+     "after": "Save the sweet and imperial stouts for the dessert end of the board; they overpower fresh cheese and smoked fish."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   },
   {
    "slug": "wheat-beer",
@@ -2138,7 +2435,7 @@
      "why": "Heavy smoke buries the spice."
     }
    ],
-   "swap": "Hefeweizen for banana-clove, witbier for orange and coriander. Both are easy to find.",
+   "swap": "Weihenstephaner Hefeweissbier or Paulaner for hefeweizen; Allagash White or Hoegaarden for witbier.",
    "holidays": [],
    "faq": [
     {
@@ -2153,7 +2450,44 @@
      "q": "Wheat beer for brunch boards?",
      "a": "Yes. It's the beer version of a mimosa: citrusy, soft and light."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Hefeweizen, witbier or American wheat?",
+     "p": "Wheat beers are light, fizzy and a little cloudy. The yeast decides the flavor, so the three styles want different partners.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Hefeweizen (German)",
+        "Banana and clove, soft and very fizzy",
+        "[Havarti](/pairings/food/havarti/), [fresh chèvre](/pairings/food/fresh-chevre/)",
+        "[Prosciutto](/pairings/food/prosciutto-di-parma/), pretzel crisps, honey mustard"
+       ],
+       [
+        "Witbier (Belgian style)",
+        "Orange peel and coriander, light and dry",
+        "[Feta](/pairings/food/feta/), burrata",
+        "[Smoked salmon](/pairings/food/smoked-salmon/), mandarins"
+       ],
+       [
+        "American wheat",
+        "Clean, lightly bready, often a little lemon",
+        "[Fresh mozzarella](/pairings/food/fresh-mozzarella/), mild cheddar",
+        "Berries, pickled beets"
+       ]
+      ]
+     },
+     "after": "Skip the lemon wedge if you want the beer's own citrus and spice to meet the cheese."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   },
   {
    "slug": "belgian-ale",
@@ -2240,7 +2574,7 @@
      "why": "Sweet citrus clashes with spicy yeast."
     }
    ],
-   "swap": "Saison for lighter boards; dubbel for richer, nuttier ones; tripel when you want bubbles and strength.",
+   "swap": "Saison Dupont for saison, Chimay Red for dubbel, Westmalle Tripel or Tripel Karmeliet for tripel.",
    "holidays": [
     "christmas"
    ],
@@ -2257,7 +2591,44 @@
      "q": "Is Belgian beer strong?",
      "a": "Often, 6–10% alcohol. Pour small glasses."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Saison, dubbel or tripel?",
+     "p": "Belgian ales are strong, fizzy and yeasty, and they have a long history with abbey cheeses. Each style suits a different corner of the board.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Saison",
+        "Dry, peppery and very fizzy",
+        "[Gruyère](/pairings/food/gruyere/), aged [Manchego](/pairings/food/manchego/)",
+        "[Prosciutto](/pairings/food/prosciutto-di-parma/), pâté de campagne"
+       ],
+       [
+        "Dubbel",
+        "Dark fruit, caramel, brown bread",
+        "[Aged Gouda](/pairings/food/aged-gouda/), Mimolette",
+        "Saucisson sec, dried apricots"
+       ],
+       [
+        "Tripel",
+        "Golden and strong (about 8–9.5%): honey, spice, fruit",
+        "Port-Salut, [Taleggio](/pairings/food/taleggio/), Reblochon",
+        "Speculoos cookies, whole-grain mustard"
+       ]
+      ]
+     },
+     "after": "Port-Salut was first made by Trappist monks in France, and Trappist abbeys in Belgium brew dubbels and tripels: monk beer and monk cheese are an old match."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   },
   {
    "slug": "hard-cider",
@@ -2344,7 +2715,7 @@
      "why": "Only with sweet ice cider; dry cider tastes thin."
     }
    ],
-   "swap": "French cidre brut or an English dry cider. Avoid very sweet mass-market ciders for cheese.",
+   "swap": "Look for brut or dry on the label: a French cidre brut or an English dry cider such as Aspall. Skip very sweet mass-market ciders for cheese.",
    "holidays": [
     "thanksgiving",
     "halloween"
@@ -2362,7 +2733,44 @@
      "q": "Cider or wine for Thanksgiving?",
      "a": "Both work. Dry cider is a great choice if your guests prefer beer."
     }
-   ]
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Dry, off-dry or perry?",
+     "p": "Cider is mostly about sweetness. Check the label for brut or dry; the drier the cider, the better it cuts rich cheese and pork.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheeses",
+       "Also on the board"
+      ],
+      "rows": [
+       [
+        "Dry and brut (French cidre, English dry)",
+        "Tart apple, a little tannin, dry finish",
+        "[Aged cheddar](/pairings/food/aged-cheddar/), [Camembert](/pairings/food/camembert/)",
+        "Pâté de campagne, country ham, rillettes"
+       ],
+       [
+        "Off-dry and semi-sweet",
+        "Rounder and fruitier",
+        "[Brie](/pairings/food/brie/), [Gruyère](/pairings/food/gruyere/)",
+        "Apple butter, walnuts, oatcakes"
+       ],
+       [
+        "Perry (pear cider)",
+        "Delicate, floral pear",
+        "[Fresh chèvre](/pairings/food/fresh-chevre/), young [Gouda](/pairings/food/gouda/)",
+        "[Pears](/pairings/food/pears/), [honey](/pairings/food/honey/)"
+       ]
+      ]
+     },
+     "after": "Normandy makes both Camembert and cidre, so the two are a natural match."
+    }
+   ],
+   "swap_h": "Bottles to look for"
   }
  ],
  "cocktails": {

@@ -230,7 +230,10 @@ export function placeShelf(html, shelf, { from = 0.4, to = 0.6, aim = 0.48 } = {
   // A heading belongs with the text under it: never split an <h2> from the
   // paragraph after it, so a <p> right after an <h2>/<h3> is not a spot.
   const afterHeading = (at) => /<\/h[23]>\s*$/.test(before(at));
-  const all = candidates(html, b, e).filter((c) => !afterHeading(c.at)).map((c) => ({ ...c, f: frac(c.at) }));
+  // Nor split a table from the paragraph that introduces it (22 Nov 2026: the
+  // drink pages' style tables had the shelf between the intro and the table).
+  const tableAfterIntro = (at) => /^<(table|div[^>]*table-wrap)/.test(html.slice(at, at + 200)) && /<\/p>\s*$/.test(before(at));
+  const all = candidates(html, b, e).filter((c) => !afterHeading(c.at) && !tableAfterIntro(c.at)).map((c) => ({ ...c, f: frac(c.at) }));
   if (!all.length) return null;
   const score = (c) => Math.abs(c.f - aim) + (stacked(c.at) ? 0.2 : 0) + (c.tag === "h2" || c.tag === "section" ? 0 : 0.03);
   const inRange = all.filter((c) => c.f >= from && c.f <= to);

@@ -70,6 +70,8 @@ export const OFFER_RULES = [
   // pairing deck; shoppers comparing staples get the spend-smart plan.
   [/best-(fig-jam|honey-for-cheese|hot-honey|pepper-jelly|mustard|balsamic|dark-chocolate|pesto|cranberry-sauce|pimento-cheese|cream-cheese|strawberry-jam|shortbread|butter-for-butter-board|prosecco)/, ["pairing-card-deck", "wine-cheese-pairing-guide"], "What goes with it?"],
   [/best-(crackers|water-crackers|olives|mixed-nuts|pickles|pretzels|pita-chips|meat-sticks|french-onion-dip|kettle-chips|queso|spinach-dip|string-cheese|tortilla-chips|salsa|guacamole|ranch-dip|aldi|costco|walmart|sams-club|target|kroger|publix|heb|trader-joes-charcuterie|wegmans|safeway|sprouts|lidl)/, ["spend-smart-board-plan", "classic-entertaining-board-blueprint"], "Shopping for a board?"],
+  // Beer and cider pages (22 Nov 2026) were offered the wine guide; the card deck fits.
+  [/\/pairings\/beer\/|\/blog\/beer-pairing\//, ["pairing-card-deck", "wine-cheese-pairing-guide"], "Pouring beer?"],
   [WINE, ["wine-cheese-pairing-guide"], "Pouring wine?"],
   [MEAT, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Building around cured meats?"],
   [CHEESE, ["cheese-board-field-guide", "cheese-pairing-science-card"], "Choosing cheeses?"],
