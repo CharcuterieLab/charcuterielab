@@ -75,6 +75,9 @@ Bread isn't decoration. It carries the cheese and meat, so pick it for what sits
 
 > **Building more boards?** The [Charcuterie Lab ebook](https://charcuterielab.com/ebook/) walks through 50 boards across every occasion — each one with exact quantities, a shopping list, and the science behind why it works.
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Related Reading
 
 - [What Crackers to Use for a Charcuterie Board](https://charcuterielab.com/what-crackers-for-charcuterie-board/)

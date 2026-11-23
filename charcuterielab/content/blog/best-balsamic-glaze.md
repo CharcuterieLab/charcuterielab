@@ -84,6 +84,9 @@ For an older Italian alternative, try [saba](/ingredients/saba/), a syrup of coo
 **Serving it:** drizzle glaze over burrata, fresh mozzarella, strawberries, figs or chunks of Parmesan just before guests arrive, or put it in a small bowl with a spoon so it doesn't run across the board. You can make your own by simmering a cheap balsamic vinegar until it coats a spoon.
 **More:** [Balsamic glaze: pairings and serving tips](/ingredients/balsamic-glaze/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Balsamic glaze questions</h2>
 :::

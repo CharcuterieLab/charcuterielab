@@ -123,6 +123,9 @@ Sparkling cider works like a dry sparkling wine: the bubbles and apple acid cut 
 See our [non-alcoholic drinks for a charcuterie board](/pairings/zero-proof/) for more drinks.
 **More:** [Sparkling cider: pairings and serving tips](/pairings/zero-proof/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Sparkling cider questions</h2>
 :::

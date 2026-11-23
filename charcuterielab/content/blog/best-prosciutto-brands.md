@@ -99,6 +99,9 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 **More:** [Prosciutto: pairings and serving tips](/ingredients/prosciutto-di-parma/) · [All buying guides](/blog/best-charcuterie-brands/)
 Serving guests who don't eat pork? See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/) for the beef alternative.
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Prosciutto questions</h2>
 :::

@@ -128,6 +128,7 @@ Why this order: [the right order to build a charcuterie board](/blog/build-seque
 
 ## Related Reading
 
+- [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/): a no-cook, meatless Christmas Eve spread
 - [The Best Store-Bought Eggnog](/blog/best-eggnog/)
 - [The Best Cranberry Cheese for a Holiday Board](/blog/best-cranberry-cheese/)
 - [40 Christmas Appetizers You Can Make Ahead](/blog/christmas-appetizers/)

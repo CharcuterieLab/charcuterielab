@@ -53,6 +53,25 @@
       "guests": 8
     },
     {
+      "title": "The Feast of the Seven Fishes Board",
+      "for": "Christmas Eve, meatless · 8 guests",
+      "text": "Seven ready-to-eat seafoods on one board: smoked salmon, white anchovies, sardines, shrimp, a salt cod spread, marinated octopus and bottarga, with crusty bread, lemon and Prosecco. The Italian-American Christmas Eve feast, with no frying.",
+      "items": [
+        "smoked-salmon",
+        "boquerones",
+        "sardines",
+        "cocktail-shrimp",
+        "tinned-octopus",
+        "bottarga",
+        "castelvetrano-olives",
+        "crostini"
+      ],
+      "guests": 8,
+      "post": "feast-of-the-seven-fishes-board",
+      "image": "/images/50-boards-34-seafood-and-smoke.webp",
+      "link_text": "Seven Fishes board step by step"
+    },
+    {
       "title": "The Noche Buena Board",
       "for": "Christmas Eve, after midnight · 10–20 guests",
       "post": "noche-buena-charcuterie-board",
@@ -225,6 +244,7 @@
   },
   "book": "world",
   "blog": [
+    "feast-of-the-seven-fishes-board",
     "holiday-board",
     "winter-charcuterie-board",
     "noche-buena-charcuterie-board",
@@ -238,7 +258,9 @@
     "christmas-cookie-charcuterie-board",
     "cheese-course",
     "how-to-transport-charcuterie-board",
-    "leftover-charcuterie"
+    "leftover-charcuterie",
+    "christmas-appetizers",
+    "how-to-make-charcuterie-board"
   ],
   "faq": [
     {
@@ -286,7 +308,7 @@
       "a": "Sparkling wine (Champagne, Prosecco or Cava) goes with nearly everything on the board, because the bubbles and acid cut the fat and salt. For a red, pick a light one like Pinot Noir or Gamay; big tannic reds flatten soft cheese. Off-dry Riesling suits the fruit and spiced meats."
     }
   ],
-  "updated": "2026-10-25",
+  "updated": "2026-11-22",
   "read": [
     "charcuterie-cups"
   ],

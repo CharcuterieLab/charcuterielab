@@ -99,6 +99,9 @@ Brie at the grocery store runs from mild and chalky to rich and mushroomy. These
 
 **More:** [Brie: pairings and serving tips](/ingredients/brie/) · [What goes with brie](/pairings/food/brie/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Brie questions</h2>
 :::

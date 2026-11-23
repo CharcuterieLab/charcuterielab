@@ -1,6 +1,6 @@
 ---
 title: "The Best Pepperoni for a Charcuterie Board, Ranked"
-seo_title: "Best Pepperoni Brands, Ranked: Boar's Head Wins (2026)"
+seo_title: "Best Pepperoni Brands for Pizza and Boards, Ranked (2026)"
 date: "2026-09-29"
 updated: "2026-11-09"
 image: "/images/ingredients/pepperoni.jpg"

@@ -39,7 +39,7 @@ export const OFFER_RULES = [
   [/types-of-cured-meat|italian-cured-meats/, ["cured-meat-field-guide", "salami-tasting-party-kit"], "Love cured meat?"],
   [/thanksgiving/, ["fall-thanksgiving-pack", "holiday-hosting-pack", "book:board"], "Hosting Thanksgiving?"],
   [/friendsgiving|halloween|fall-charcuterie|fall-harvest|autumn/, ["fall-thanksgiving-pack", "book:board"], "Hosting this fall?"],
-  [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|new-years-eve-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
+  [/\/holidays\/(christmas|hanukkah|new-years-eve)\/|christmas-charcuterie|christmas-morning|christmas-appetizers|seven-fishes|new-years-eve-appetizers|christmas-party|holiday-charcuterie|holiday-entertaining|holiday-party|hanukkah|new-years-eve-charcuterie/, ["holiday-hosting-pack", "book:board"], "Hosting the holidays?"],
   [/super-bowl|game-day|football|tailgate|fantasy-draft/, ["game-day-pack", "book:board"], "Hosting game day?"],
   [/baby-shower|pregnan/, ["baby-shower-board-kit", "book:board", "classic-entertaining-board-blueprint"], "Hosting a baby shower?"],
   [/smoked-salmon|lox|brunch|bagel|breakfast/, ["brunch-lox-board-plan", "new-years-eve-blini-bar", "complete-board-builder-bundle"], "Planning a brunch board?"],
@@ -305,7 +305,7 @@ export function makeOffers(h, products, books) {
     const st = sm && STORE_LISTS.find((x) => x.guide === sm[1] || (x.pages || []).includes(sm[1]));
     if (st) return { short: `Free: the ${st.store} shopping list`, title: `Free ${st.store} shopping list`, line: `Our ranked ${st.store} picks as a printable checklist, with amounts for 8, 12 or 20 guests and a timeline. Plus the weekly Lab Report.`, img: `/images/leads/store-${st.key}.webp`, label: `Download the ${st.store} shopping list (PDF)`, pdf: `/downloads/stores/${st.key}-shopping-list.pdf` };
     if (/^\/blog\/best-/.test(path)) return FREEBIES.best;
-    if (path === "/holidays/" || /^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday)/.test(path)) return FREEBIES.holiday;
+    if (path === "/holidays/" || /^\/holidays\/(thanksgiving|christmas|hanukkah|new-years-eve)\//.test(path) || /^\/blog\/[^/]*(thanksgiving|friendsgiving|christmas|hanukkah|new-years|holiday|seven-fishes)/.test(path)) return FREEBIES.holiday;
     // food guides, the Lab, the charts, the hub and the rules get the meat and cheese chart;
     // drink guides and drink posts keep the Pairing Cheat Sheet (what to pour)
     if (/^\/pairings\/(food\/|classics\/|meat-and-cheese-chart\/|how-pairing-works\/|$)/.test(path)) return FREEBIES.mcchart;

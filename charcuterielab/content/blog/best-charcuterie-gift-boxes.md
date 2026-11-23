@@ -160,7 +160,7 @@ In the first week of December. Holiday cut-off dates come early, and perishable 
 
 **Shopping on Amazon?** See [the best charcuterie gift baskets on Amazon, compared](/blog/best-charcuterie-gift-baskets-amazon/).
 
-**Want a countdown instead?** Tillamook's 12-day cheddar calendar ($115) is on sale from Nov 9, and Aldi's $16.99 one is in stores now. See every [cheese advent calendar for 2026](/blog/cheese-advent-calendars-2026/).
+**Want a countdown instead?** Tillamook's 12-day cheddar calendar ($115) has sold out, Cheese Brothers' 12-day box ($109.95) was still shipping in late November, and Aldi's $16.99 one has been in stores since Nov 4 while stock lasts. See every [cheese advent calendar for 2026](/blog/cheese-advent-calendars-2026/).
 
 :::html
 <details class="sk-method"><summary>How we ranked these, full scores and sources</summary>

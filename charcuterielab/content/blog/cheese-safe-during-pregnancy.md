@@ -1,6 +1,6 @@
 ---
 title: "Which Cheeses Are Safe During Pregnancy? A List for Your Cheese Board"
-seo_title: "Pregnancy-Safe Cheese Chart: 30 Cheeses, US vs UK Rules"
+seo_title: "Pregnancy-Safe Cheeses: String Cheese, Boursin + 28 More"
 date: "2026-10-19"
 updated: "2026-11-01"
 image: "/images/cheese-safe-during-pregnancy.jpg"
@@ -13,7 +13,7 @@ tags: "["cheese safe during pregnancy", "pregnancy safe cheese", "can you eat br
 
 # Which Cheeses Are Safe During Pregnancy? A List for Your Cheese Board
 
-> **Quick Answer:** In the US, **pasteurized cheese is generally safe**: cheddar, Parmesan, Swiss, mozzarella, feta and cream cheese. **Avoid raw-milk cheese and queso fresco** unless heated until steaming. Check labels and ask your doctor if unsure.
+> **Quick Answer:** In the US, **pasteurized cheese is generally safe**: cheddar, Parmesan, Swiss, mozzarella, feta and cream cheese. **Avoid raw-milk cheese and queso fresco** unless heated until steaming. **String cheese, Boursin and cream cheese are made with pasteurized milk, so they are generally considered safe.** Check labels and ask your doctor if unsure.
 
 *This is general food-safety information from US and UK health agencies, not medical advice. Your doctor or midwife knows your situation.*
 

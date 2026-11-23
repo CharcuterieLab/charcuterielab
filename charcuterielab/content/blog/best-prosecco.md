@@ -105,6 +105,9 @@ Why sparkling wine works so well with cheese: [why bubbles cut fat](/blog/why-bu
 **More:** [Prosecco: pairings and serving tips](/pairings/wine/champagne-prosecco/) · [All buying guides](/blog/best-charcuterie-brands/)
 **Not drinking?** See our ranking of [the best non-alcoholic sparkling cider](/blog/best-sparkling-cider/) for the toast.
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Prosecco questions</h2>
 :::

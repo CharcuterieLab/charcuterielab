@@ -72,6 +72,9 @@ Fig jam is the spread that ties a board together. The best ones are thick, seedy
 
 **More:** [Fig jam: pairings and serving tips](/ingredients/fig-jam/) · [The best bacon jam](/blog/best-bacon-jam/) What goes with fig jam? See the [fig jam pairing guide](/ingredients/fig-jam/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Fig jam questions</h2>
 :::

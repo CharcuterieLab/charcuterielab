@@ -2,7 +2,7 @@
 title: "Trader Joe's Holiday Charcuterie Items 2026: What to Buy for Your Board"
 seo_title: "Trader Joe's Holiday Charcuterie Items 2026"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-22"
 image: "/images/ingredients/cranberry-goat-cheese.jpg"
 excerpt: "The Trader Joe's holiday items worth putting on a charcuterie board in 2026: Creamy Toscano dusted with cinnamon, White Stilton with cranberries, pink peppercorn fontina, pumpkin cranberry crisps, and the holiday cheeses still to come."
 description: "The Trader Joe's holiday items worth putting on a charcuterie board in 2026: Creamy Toscano dusted with cinnamon, White Stilton with cranberries, pink peppercorn fontina, pumpkin cranberry crisps, and the holiday cheeses still to come."
@@ -21,7 +21,15 @@ tags: "["trader joe's holiday items 2026", "trader joe's holiday cheese", "trade
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 10 picks</a><a href="#how-to-choose">How to build it</a><a href="#trader-joe-s-holiday-questions">FAQ</a></nav>
 :::
 
-Holiday items arrive around November. We'll update as they land.
+**Updated November 22, 2026:** the holiday wave is in stores. New this year and worth a spot on the board:
+
+- **Sticky Toffee Cheddar** ($11.99/lb): mild cheddar with toffee, raisins and dates ([Señora Era](https://senoraera.com/trader-joes-holiday-items-2026/)).
+- **Syrah Soaked Toscano Cheese Spread & Dip** ($4.99) ([Señora Era](https://senoraera.com/trader-joes-holiday-items-2026/)).
+- **Tres Leches Cheese** ($4.99 for 5.29 oz): a Spanish cow, goat and sheep's milk cheese ([Foodie](https://www.foodie.com/2312775/best-new-trader-joes-finds-november-2026/)).
+- **IPA beer-infused salami**, new in the deli case ([SavorNation](https://savornation.tv/news/new-trader-joes-items-november-2026/)).
+- **Candy Cane Joe-Joe's are back** ($4.49 for a 1 lb box), for the sweet end of the board ([Foodie](https://www.foodie.com/2312775/best-new-trader-joes-finds-november-2026/)).
+
+Prices below are from 2026 roundups unless marked. Stock varies by store.
 
 :::html
 <h2 id="picks">All 10 picks</h2>
@@ -103,7 +111,7 @@ Holiday items arrive around November. We'll update as they land.
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">10</span><div><p class="sk-pill">Best sweet</p><h3>Sleigh Ride Cookies</h3></div></div>
 <dl class="sk-facts"><div><dt>Status</dt><dd>Not yet confirmed for 2026</dd></div><div><dt>Size</dt><dd>8.5 oz box</dd></div><div><dt>Flavor</dt><dd>Peppermint</dd></div></dl>
 <p class="sk-why"><strong>Why it's here:</strong> Peppermint for the sweet end of the board.</p>
-<p class="sk-mind"><strong>Watch out:</strong> Its 2026 return isn&#x27;t confirmed; the regular Candy Cane Joe-Joe&#x27;s were pulled in 2025.</p>
+<p class="sk-mind"><strong>Watch out:</strong> Its 2026 return isn&#x27;t confirmed. Candy Cane Joe-Joe&#x27;s are back in 2026 ($4.49 a pound), so grab those if these aren&#x27;t on the shelf.</p>
 <div class="sk-actions"><a class="button primary sk-buy" href="https://www.traderjoes.com/home/search?q=sleigh+ride+cookies&amp;section=products" target="_blank" rel="noopener">Find it at Trader Joe&#x27;s</a></div>
 <details class="sk-more"><summary>Why we picked it (sources)</summary><p>Tasting Table lists $3.99 in December 2025 (<a href="https://www.tastingtable.com/2042450/best-trader-joes-products-december-2025" target="_blank" rel="noopener">Tasting Table</a>). Allrecipes reported the Candy Cane Joe-Joe&#x27;s change (<a href="https://www.aol.com/articles/trader-joes-discontinued-holiday-treat-000000189.html" target="_blank" rel="noopener">Allrecipes via AOL</a>).</p></details>
 </article>

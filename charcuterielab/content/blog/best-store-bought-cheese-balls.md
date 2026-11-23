@@ -97,6 +97,9 @@ No taste test exists, so we picked on shopper ratings, ingredients and price. Se
 <ul class="sk-checks"><li><strong>Check the weight.</strong> Balls run from 6 to 10 oz. A 6 oz ball serves about 6 guests as one of several cheeses, or 3 if it's the only cheese.</li><li><strong>Nut allergy at the party?</strong> Almonds or pecans coat nearly every store-bought ball. Read the label.</li><li><strong>Vegetarian guests?</strong> Port-wine balls are often colored with carmine, which is made from insects.</li><li><strong>Take it out 15 to 20 minutes early</strong> so it spreads, and put it out with a spreader and sturdy crackers.</li></ul><p class="sk-note">Want to make your own? Our <a href="/blog/cheese-ball-recipe/">cheese ball recipe</a> takes 15 minutes plus chilling and can be made up to 3 days ahead.</p>
 :::
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Cheese ball questions
 
 **How many people does a cheese ball serve?**

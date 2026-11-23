@@ -91,6 +91,9 @@ Mortadella is the silky, pistachio-studded Italian pork sausage that folds into 
 **Serving it:** have it sliced very thin, then fold each slice into quarters or ruffle it into a loose rose. Take it out of the fridge about 20 minutes before serving. Meat in total: 2 oz per guest before a meal, 3 oz when the board is the party food, 4 oz when it's dinner. For pregnant guests, the CDC advises heating deli meats until steaming hot, so set some aside for them.
 **More:** [Mortadella: pairings and serving tips](/ingredients/mortadella/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Mortadella questions</h2>
 :::

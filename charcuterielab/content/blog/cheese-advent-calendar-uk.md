@@ -83,6 +83,10 @@ Twenty-four cheeses, each 75 g or more, hand-cut and hand-wrapped, with whole sm
 - **Two people sharing every night:** The Courtyard Dairy, at 80 g a day, is the only one sized for that.
 - **Everything's sold out, or £135 is mad:** make your own, below.
 
+## Too late for 1 December?
+
+A 12-day calendar can start as late as 13 December and still finish on Christmas Eve, or you can run it over the 12 days of Christmas, from Christmas Day to 5 January. Or make your own in one supermarket trip:
+
 ## Make your own
 
 This is the fallback that always works, and in the UK it is easy because every supermarket has a decent cheese counter.

@@ -99,6 +99,9 @@ Panettone is Italy's Christmas bread, and sliced into strips it's the easiest sw
 <p class="sk-note">Building a sweet board? See <a href="/blog/dessert-board/">the dessert board</a> and <a href="/holidays/christmas/">the Christmas charcuterie board</a>.</p>
 :::
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Panettone questions
 
 **What's the best panettone brand?**

@@ -95,6 +95,9 @@ That makes a homemade standard board about **half the price** of a bought one. T
 
 If you're pricing boards to sell, start from your ingredient cost, then add packaging, your time and delivery. In Homegrown's example, a single grazing box cost **about $6 to make and sold for $14**. Check what local makers charge, because prices vary a lot by city, and check your local rules for selling food made at home before you take orders.
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Related Reading
 
 - [Charcuterie Price Index 2026](/blog/charcuterie-price-index/)

@@ -6,6 +6,7 @@ category: "Spreads, Jams & Honey"
 board_role: "Default sweet spread"
 role_group: "Sweet preserves"
 excerpt: "The one jar every board should have. Thick enough to hold its shape on a knife, sweet enough for blue cheese, and it goes with almost every cheese you own."
+meta_description: "Fig jam is a thick spread of cooked figs that suits almost every cheese. What it tastes like, the best pairings, and the brands worth buying for a board."
 date: 2026-09-07
 updated: 2026-11-01
 price_tier: "$$"

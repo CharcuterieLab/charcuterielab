@@ -138,6 +138,9 @@ In [Cheapism](https://www.cheapism.com/trader-joes-most-popular-cheeses/)'s test
 
 For more picks by cheese type, see our rankings of [Gouda](/blog/best-gouda-brands/), [cheddar](/blog/best-cheddar-brands/) and [brie](/blog/best-brie-brands/), or every guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Trader Joe&#x27;s cheese questions</h2>
 :::

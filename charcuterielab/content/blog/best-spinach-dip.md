@@ -101,6 +101,9 @@ Several store brands beat the national names, so check the deli case first.
 **Serving it:** cold dips should stay in the fridge until guests arrive and come off the table after 2 hours. Serve warm dips in a small oven-safe dish or mini slow cooker. Put out sturdy dippers: pita chips, tortilla chips, baguette slices, carrots and bell pepper strips.
 **More:** [Spinach dip: pairings and serving tips](/blog/charcuterie-board-dips/) For the jar itself, see [the best marinated artichoke hearts](/blog/best-marinated-artichoke-hearts/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Spinach dip questions</h2>
 :::

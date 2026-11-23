@@ -1,6 +1,6 @@
 ---
 title: "The White Crystals in Aged Cheese: What They Are and What They Mean"
-seo_title: "White Crystals in Aged Cheese: What They Are and Why"
+seo_title: "Cheese Crystals: The Crunchy White Bits in Aged Cheese"
 date: "2026-09-27"
 image: "/images/crystal-formation.png"
 excerpt: "The White Crystals in Aged Cheese: What They Are and What They Mean"

@@ -1,12 +1,13 @@
 ---
 title: "Genoa Salami"
-seo_title: "Genoa Salami vs Pepperoni & Hard Salami: What It Is"
+seo_title: "What Is Genoa Salami? Taste, Origin and How to Serve It"
 slug: "genoa-salami"
 section: "ingredients"
 category: "Cured Meat & Seafood"
 board_role: "The default salami"
 role_group: "Salami"
 excerpt: "The salami everyone recognizes — fine-ground, wine-scented, mild. It isn't from Genoa, and that's the least confusing thing about it."
+meta_description: "Genoa salami is a mild, fine-grained pork salami with garlic and wine. How it differs from hard salami and pepperoni, and how to serve it on a board."
 date: 2026-09-07
 updated: 2026-11-15
 price_tier: "$"

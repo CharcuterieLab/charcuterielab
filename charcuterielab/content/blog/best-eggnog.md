@@ -92,6 +92,9 @@ Eggnog tests disagree more than most: one site's winner is another's tenth place
 <p class="sk-note">Build the board: <a href="/blog/best-store-bought-christmas-cookies/">the best store-bought Christmas cookies</a>, <a href="/blog/best-panettone/">the best panettone</a> and <a href="/blog/best-hot-cocoa-mix/">the best hot cocoa mix</a>.</p>
 :::
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Eggnog questions
 
 **What is the best store-bought eggnog?**

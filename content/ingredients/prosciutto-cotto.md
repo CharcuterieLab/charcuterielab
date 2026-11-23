@@ -6,6 +6,7 @@ category: "Cured Meat & Seafood"
 board_role: "Mild cooked ham"
 role_group: "Cooked sausage & deli"
 excerpt: "Italian cooked ham — sweet, tender and completely unchallenging. The slice that children and cautious guests will actually eat."
+meta_description: "Prosciutto cotto is Italian cooked ham: mild, juicy and lightly herbed. How it differs from prosciutto crudo, how it is made, and how to serve it on a board."
 date: 2026-09-08
 updated: 2026-09-08
 price_tier: "$$"

@@ -72,6 +72,9 @@ Don't build the whole board tonight: you'll get dry meat and soggy crackers. Abo
 >
 > Get weekly board-building science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Sources
 
 - [USDA FSIS: What is the 2-hour rule for leaving food out?](https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out)

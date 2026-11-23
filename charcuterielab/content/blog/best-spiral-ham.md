@@ -84,6 +84,9 @@ A spiral ham feeds a crowd on Christmas and then becomes the easiest board of th
 <p class="sk-note">Ham loves sharp, salty partners: see <a href="/blog/gruyere-ham-cornichon-dijon-pairing/">the Gruyère, ham, cornichon and Dijon pairing</a>, <a href="/blog/best-mustard-for-charcuterie/">the best mustard</a>, <a href="/blog/best-pepper-jelly/">the best pepper jelly</a> and <a href="/blog/best-pimento-cheese/">the best pimento cheese</a>.</p>
 :::
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 ## Spiral ham questions
 
 **What is the best spiral ham to buy?**

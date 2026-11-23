@@ -1,6 +1,6 @@
 ---
 title: "Salami vs. Pepperoni: Is Pepperoni Salami?"
-seo_title: "Pepperoni vs Salami: Side-by-Side Chart + Which to Buy"
+seo_title: "Is Pepperoni Salami? Pepperoni vs Salami, Side by Side"
 date: "2026-05-05"
 updated: "2026-10-20"
 image: "/images/salami-vs-pepperoni.webp"

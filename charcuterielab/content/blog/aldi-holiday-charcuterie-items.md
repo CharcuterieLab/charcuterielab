@@ -2,7 +2,7 @@
 title: "Aldi Holiday Charcuterie Items 2026: What to Look For"
 seo_title: "Aldi Holiday Charcuterie Items 2026: What to Look For"
 date: "2026-10-26"
-updated: "2026-11-08"
+updated: "2026-11-22"
 image: "/images/ingredients/wensleydale-cranberry.jpg"
 excerpt: "The Aldi holiday finds that make a cheap holiday charcuterie board: the cheese advent calendar, cranberry white cheddar, holiday-shaped cheddars, brie, the panino tray and the cheese pairing spread set, with 2026 advent calendar prices and last year's prices for the rest."
 description: "The Aldi holiday finds that make a cheap holiday charcuterie board: the cheese advent calendar, cranberry white cheddar, holiday-shaped cheddars, brie, the panino tray and the cheese pairing spread set, with 2026 advent calendar prices and last year's prices for the rest."
@@ -26,6 +26,7 @@ Aldi's holiday finds arrive a few at a time from early November. We'll update th
 :::html
 <h2 id="picks">All 10 picks</h2>
 <p class="sk-lede">The advent calendars are 2026 prices; other prices are from 2025 unless marked. Aldi Finds sell out, so buy the week they arrive.</p>
+<div class="sk-note"><p><strong>New Aldi Finds for 2026 (updated Nov 22):</strong> the <strong>Merry Moments Holiday Charcuterie To-Go Board</strong> ($19.99, snowman or Christmas tree shape with a snap-on lid) and a <strong>Christmas Tree Charcuterie Board</strong> (11 x 14 in, $19.99) arrived Nov 11, along with a <strong>Christmas tree serving platter</strong> ($9.99). Sources: <a href="https://www.mashed.com/2319694/best-aldi-kitchen-items-november-2026/" target="_blank" rel="noopener">Mashed</a>, <a href="https://thecottagemarket.com/aldi-finds-november-11/" target="_blank" rel="noopener">The Cottage Market</a>, <a href="https://www.yahoo.com/lifestyle/articles/26-aldi-finds-look-november-015131324.html" target="_blank" rel="noopener">Yahoo</a>.</p></div>
 <div class="sk-cards">
 <article class="sk-card" id="pick-1">
 <div class="sk-card-head"><span class="sk-num" aria-hidden="true">1</span><div><p class="sk-pill">Best overall</p><h3>Emporium Selection Winter Wonderland Cheese Advent Calendar</h3></div></div>

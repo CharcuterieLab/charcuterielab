@@ -368,6 +368,7 @@ The cheapest crowd-pleasers on this list cost a few dollars a batch: pepper jell
 
 ## Related Reading
 
+- [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/): a no-cook, meatless Christmas Eve spread
 - [40 New Year's Eve Appetizers (Easy, Fancy + Make-Ahead)](/blog/new-years-eve-appetizers/)
 - [Christmas Charcuterie Board](/blog/christmas-charcuterie-board/)
 - [Christmas Tree Charcuterie Board](/blog/christmas-tree-charcuterie-board/)

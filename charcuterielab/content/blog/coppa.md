@@ -1,6 +1,6 @@
 ---
-title: "Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board"
-seo_title: "Coppa Meat: What It Is, How It Tastes and How to Serve It"
+title: "What Is Coppa Meat? The Marbled Italian Cured Pork Neck"
+seo_title: "What Is Coppa Meat? Cured Pork Neck, Sweet vs Spicy"
 date: "2026-09-10"
 updated: "2026-10-20"
 image: "/images/coppa.png"
@@ -12,7 +12,7 @@ slug: "coppa"
 tags: "["coppa", "capicola", "Italian cured meat", "charcuterie meat", "charcuterie pairings", "ingredient deep dive"]"
 ---
 
-# Coppa: The Most Visually Striking Cured Meat on a Charcuterie Board
+# What Is Coppa Meat? The Marbled Italian Cured Pork Neck
 
 > **Quick Answer:** Coppa is **cured pork neck**, the same meat as capicola: marbled, sweet and silky. Buy **sweet (dolce)** for most boards or **spicy (piccante)** for heat, sliced very thin.
 

@@ -885,7 +885,7 @@ const GUIDES = [
       ["How much wine is in a wine advent calendar?", "Most hold 24 bottles of 187ml, one glass each, about six standard bottles in total. Vinebox uses 100ml vials instead."],
       ["Can wine advent calendars ship to every state?", "No. Wine shipping depends on state law. In Good Taste doesn't ship to Alaska, Arkansas, Delaware, Hawaii, Mississippi, Rhode Island or Utah, and every calendar needs an adult 21+ to sign for it."],
       ["What cheese goes with a wine advent calendar?", "One small piece a night: a cheese advent calendar does it for you, or our DIY Cheese Advent Calendar Kit plans 12 or 24 nights of cheese from the store."],
-      ["When should I order a wine advent calendar?", "Now. Most ship from early November and the popular ones sell out before December. It needs to arrive by Dec 1."]
+      ["When should I order a wine advent calendar?", "Most ship from early November and the popular ones sell out before December, so a 24-day calendar needs to arrive by Dec 1. Missed it? A 12-day calendar can start as late as Dec 13 and still end on Christmas Eve."]
     ],
     related: [["Cheese advent calendars 2026", "/blog/cheese-advent-calendars-2026/"], ["Gifts for wine and cheese lovers", "/gifts/wine-and-cheese-lovers/"], ["Best wine for a charcuterie board", "/blog/best-wine-for-charcuterie-board/"]]
   },

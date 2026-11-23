@@ -1,6 +1,6 @@
 ---
 title: "Pastirma"
-meta_description: "Pastirma (also called basturma) is Armenian and Turkish air-dried beef. A whole muscle is salted, pressed and dried."
+meta_description: "Pastirma (basturma) is Armenian and Turkish air-dried beef in a spicy fenugreek crust. How it is made, how it differs from pastrami, and how to serve it."
 slug: "pastirma"
 section: "ingredients"
 category: "Cured Meat & Seafood"

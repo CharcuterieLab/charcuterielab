@@ -80,6 +80,9 @@ Summer sausage is the tangy, shelf-stable sausage behind many holiday gift boxes
 
 **More:** [Summer sausage: pairings and serving tips](/ingredients/summer-sausage/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Summer sausage questions</h2>
 :::

@@ -98,6 +98,9 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 
 **More:** [Salami: pairings and serving tips](/ingredients/genoa-salami/) · [All buying guides](/blog/best-charcuterie-brands/)
 
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
+
 :::html
 <h2 id="faq">Salami questions</h2>
 :::

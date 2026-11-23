@@ -120,7 +120,7 @@ The UK has the widest choice anywhere, and the fastest sell-outs. The cheapest i
 
 | Country | Calendar | Price | Good to know |
 |---|---|---|---|
-| Germany | [Fromagerie Geiß](https://kaesebestellen.de/collections/adventskalender), 24 doors | €219 to €269 | Order by Nov 22. The wine version has 4 bottles. |
+| Germany | [Fromagerie Geiß](https://kaesebestellen.de/collections/adventskalender), 24 doors | €219 to €269 | The order deadline (Nov 22) has passed for 2026. The wine version has 4 bottles. |
 | Sweden | [Ilchester Ostkalender](https://www.dindeli.com/delikatesser-online/butik/presenter-och-delikatesskorgar/foretagspresenter/ilchester-ostkalender-2026/) | 379 SEK | Pre-order, ships weeks 46 to 47. Also at Möllans Ost. |
 | Australia | [Thomas Dux 12 Days of Cheese](https://www.woolworths.com.au/shop/productdetails/147620/thomas-dux-12-days-of-cheese-advent-calendar) | A$28 last time | At Woolworths |
 | Canada | Nothing confirmed yet | C$37 last year | Watch Metro for the Ilchester calendar |
@@ -130,6 +130,14 @@ The UK has the widest choice anywhere, and the fastest sell-outs. The cheapest i
 
 
 No 2026 calendar found yet in Norway or Denmark.
+
+## Too late for December 1?
+
+You still have three good options:
+
+- **Switch to a 12-day calendar.** A 12-day countdown can start as late as December 13 and still finish on Christmas Eve. Cheese Brothers' 12 Days of Cheesemas was still shipping in late November.
+- **Do the 12 days of Christmas instead.** Start on December 25 and run to January 5, so a late order still works.
+- **Make your own in one shopping trip.** It takes about 20 minutes to wrap, and it can start any night you like (below).
 
 ## Make your own cheese advent calendar
 
@@ -147,6 +155,9 @@ Each piece is about 3 oz, enough for two. For 24 nights, buy 12 cheeses. Need he
 Save a little from each day and build a full board on Christmas Eve. Start with our [Christmas charcuterie board](/blog/christmas-charcuterie-board/) or the [Christmas hub](/holidays/christmas/).
 
 **Shopping Aldi's holiday aisle?** See [Aldi holiday charcuterie items 2026](/blog/aldi-holiday-charcuterie-items/) for what to grab with the calendar.
+
+
+**Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
 
 ## Related Reading
 

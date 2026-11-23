@@ -1,6 +1,6 @@
 ---
 title: "Lomo"
-seo_title: "What Is Lomo? Spanish Cured Pork Loin vs Jamón (Chart)"
+seo_title: "What Is Lomo Meat? Spanish Cured Pork Loin, Explained"
 meta_description: "Lomo is Spain's whole cured pork loin, rubbed with paprika and garlic. How it tastes, a chart against jamón and prosciutto, and the lomo worth buying."
 slug: "lomo"
 section: "ingredients"
