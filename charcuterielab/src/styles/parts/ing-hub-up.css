@@ -1,0 +1,32 @@
+/* 23 Nov 2026: Ingredients hub tiles (categories, guides, holiday strip), the moved photo and the FAQ */
+.ing-cats-up, .ing-guides-up { margin: 28px 0 0; }
+.ing-tiles { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.ing-tiles li { min-width: 0; }
+.ing-tiles a { display: flex; flex-direction: column; height: 100%; background: #fffaf1; border: 1px solid rgba(169,87,43,.16); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; }
+.ing-tiles img { width: 100%; aspect-ratio: 3 / 2; height: auto; object-fit: cover; display: block; }
+.ing-tiles a > span { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px 10px; }
+.ing-tiles strong { font-size: 15px; line-height: 1.25; color: var(--green-deep, #8f4422); }
+.ing-tiles a > span > span { font-size: 13px; color: var(--muted); line-height: 1.3; }
+.ing-guides-up .ing-tiles { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.ing-hol-tiles { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.ing-photo-moved { margin: 22px auto 0; }
+.ing-faq-up { margin-top: 8px; }
+/* The rows wrapper is a grid: let its children shrink (the moved photo stretched it to 1,029px
+   on phones), and let "hidden" win so a search or filter really hides the rows (it never did). */
+.ing-rows > * { min-width: 0; }
+.ing-rows[hidden], .ing-rows [hidden] { display: none !important; }
+@media (max-width: 860px) {
+  /* Categories: compact rows like "Start here" */
+  .ing-cats-up .ing-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .ing-cats-up .ing-tiles a { flex-direction: row; align-items: center; gap: 10px; padding: 8px 10px; }
+  .ing-cats-up .ing-tiles img { width: 40px; height: 40px; aspect-ratio: auto; border-radius: 8px; flex: none; }
+  .ing-cats-up .ing-tiles a > span { padding: 0; min-width: 0; }
+  .ing-cats-up .ing-tiles strong { font-size: 14px; }
+  /* Guides and the holiday row: swipe strips */
+  .ing-guides-up .ing-tiles, .ing-hol-tiles { display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .ing-guides-up .ing-tiles li, .ing-hol-tiles li { flex: 0 0 44%; scroll-snap-align: start; }
+}
+/* "Start here" names broke mid-word on phones ("Mancheg-o"): smaller, whole words */
+@media (max-width: 600px) {
+  .ing-start-grid strong { font-size: 15px; line-height: 1.2; overflow-wrap: normal; word-break: normal; hyphens: auto; }
+}
