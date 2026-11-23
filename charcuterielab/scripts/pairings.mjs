@@ -489,9 +489,17 @@ export function pairingPages(h, idx, { categoryArt, categories, boardsUsing, boa
 
     <section class="bl-section" aria-labelledby="food-h">
       <h2 id="food-h">Start with your food</h2>
-      <ul class="pr-foodgrid">
-        ${idx.foods.slice(0, 12).map((f) => `<li><a href="${f.url}">${thumb(h, f.item, art)}<span>What goes with <strong>${B(f.item.title)}</strong></span></a></li>`).join("")}
-      </ul>
+      ${(() => {
+        // 23 Nov 2026: tabs for cheese, cured meat & seafood, and fruit & sweet, so the
+        // meat and fruit guides (prosciutto, mortadella, apples) show on the hub too.
+        const tabs = [["cheese", "Cheese", (c) => c === "Cheese"], ["meat", "Meat & seafood", (c) => /Meat|Seafood/.test(c)], ["sweet", "Fruit & sweet", (c) => !/Cheese|Meat|Seafood/.test(c)]]
+          .map(([id, label, test]) => ({ id, label, items: idx.foods.filter((f) => test(f.item.category)) })).filter((t) => t.items.length);
+        const tile = (f) => `<li><a href="${f.url}">${thumb(h, f.item, art)}<span>What goes with <strong>${B(f.item.title)}</strong></span></a></li>`;
+        return `<div class="fp-tabbox" data-fp-tabs>
+      <div class="fp-tabs" role="tablist" aria-label="Food guides by type">${tabs.map((t, i) => `<button type="button" role="tab" id="fpt-${t.id}" aria-controls="fpp-${t.id}" aria-selected="${i === 0}" data-fp-tab="${t.id}">${B(t.label)} <span>${t.items.length}</span></button>`).join("")}</div>
+      ${tabs.map((t) => `<div class="fp-panel" role="tabpanel" id="fpp-${t.id}" aria-labelledby="fpt-${t.id}" data-fp-panel="${t.id}"><h3 class="fp-panel-h">${B(t.label)}</h3><ul class="pr-foodgrid">${t.items.slice(0, 12).map(tile).join("")}</ul></div>`).join("\n      ")}
+      </div>`;
+      })()}
       <p><a class="pr-more" href="/pairings/food/">All ${idx.foods.length} food pairing guides &rarr;</a></p>
     </section>
 
@@ -1092,6 +1100,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       title: f.seo_title || (title.length > 60 ? `What Goes With ${it.title}? Best Pairings` : title),
       name: `What goes with ${it.title}`,
       description: f.seo_description || f.answer,
+      updated: f.updated || "",
       crumbs: [["Pairings", "/pairings/"], ["Food", "/pairings/food/"], [it.title, f.url]],
       faq: [...qa.map((x) => ({ q: x.q, a: x.text })), ...faqRest],
       list: ranked.slice(0, 12).map((r) => [r.p.title, `/ingredients/${r.p.slug}/`]),
@@ -1101,6 +1110,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${bite ? "" : photoRow(h, idx, art, [f.slug, ...f.top], true)}
       <p class="section-kicker">${B(it.category)} pairing guide</p>
       <h1>What goes with ${B(it.title)}?</h1>
+      ${f.updated ? drinkByline(f.updated) : ""}
       <p class="pr-answer">${B(f.answer)}</p>
       ${bite ? `<img class="pr-bite-photo" src="${bite}" alt="${B(`${it.title} with ${plate.map((x) => x.p.title).join(", ")}${drinks[0] ? ` and a glass of ${drinks[0].d.name}` : ""}`)}" width="1024" height="572" fetchpriority="high" decoding="async">` : ""}
       ${buy ? `<p class="pr-buy"><span>The one to buy:</span> <a href="/blog/${buy.slug}/">${B(buy.pick)}</a> <em>Our Best Buys pick</em></p>` : ""}
@@ -1268,14 +1278,14 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
   const wcOther = chartCheeses.filter((c) => !wcStyles.some((x) => x[4].includes(c)));
   add("pairings/wine-and-cheese-chart/index.html", page(h, {
     url: "/pairings/wine-and-cheese-chart/",
-    title: "Wine and Cheese Pairing Chart (Printable)",
+    title: `Wine and Cheese Pairing Chart: ${wines.length} Wines, ${chartCheeses.length} Cheeses (Free)`,
     name: "Wine and cheese pairing chart",
     description: `A printable wine and cheese pairing chart: ${wines.length} wines against ${chartCheeses.length} cheeses, which wine goes with brie, goat cheese, cheddar and blue, and which pairings to skip.`,
     crumbs: [["Pairings", "/pairings/"], ["Wine & Cheese Chart", "/pairings/wine-and-cheese-chart/"]],
     image: photo("pairings-chart"),
     list: wcStyles.map(([id, , q]) => [q, `/pairings/wine-and-cheese-chart/#wc-${id}`]),
     faq: wcFaq,
-    updated: "2026-11-15",
+    updated: "2026-11-23",
     script,
     body: `
     <header class="pr-hero">

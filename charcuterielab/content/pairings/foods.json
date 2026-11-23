@@ -50,7 +50,10 @@
   ],
   "bite": {
    "salty": "duck-prosciutto"
-  }
+  },
+  "seo_title": "What Goes With Brie? The Perfect Bite, Wine & What to Skip",
+  "seo_description": "Brie's perfect bite: fig jam, walnuts and Pinot Noir. The top 5 partners, the wines that work, the 2 crackers to skip and a free printable chart.",
+  "updated": "2026-11-23"
  },
  {
   "slug": "camembert",
@@ -110,7 +113,10 @@
   ],
   "bite": {
    "salty": "cornichons"
-  }
+  },
+  "seo_title": "What Goes With Camembert? Best Bite, Cider & What to Skip",
+  "seo_description": "Camembert's perfect bite: crisp apple on baguette with a cornichon and Chardonnay or cider. Top 5 partners, how it differs from brie, and what to skip.",
+  "updated": "2026-11-23"
  },
  {
   "slug": "aged-cheddar",
@@ -133,8 +139,8 @@
  },
  {
   "slug": "aged-gouda",
-  "seo_title": "What Goes With Aged Gouda? 52 Pairings & Drinks",
-  "seo_description": "Aged Gouda pairings that work: dark chocolate, apples, smoked almonds and dried fruit lead the list. All 52 ranked, the wines and beers to pour, and what to skip.",
+  "seo_title": "What Goes With Aged Gouda? Best Bite, Wine & What to Skip",
+  "seo_description": "Aged Gouda's perfect bite: crisp apple, smoked almonds and Pinot Noir. Why dark chocolate is the #1 match, the beers to pour, and what to leave off.",
   "top": [
    "dark-chocolate",
    "apples",
@@ -153,7 +159,8 @@
   ],
   "bite": {
    "salty": "bread-and-butter-pickles"
-  }
+  },
+  "updated": "2026-11-23"
  },
  {
   "slug": "manchego",
@@ -385,8 +392,8 @@
     "a": "Prosecco, dry rosé, Pinot Noir or Chianti."
    }
   ],
-  "seo_title": "What Goes With Prosciutto? 80 Pairings, Wine and Cheese",
-  "seo_description": "What goes with prosciutto: melon, figs, burrata, Parmigiano and pears, the best wine (Prosecco first) and cheese, how to serve it, and 80 pairings ranked.",
+  "seo_title": "What Goes With Prosciutto? Best Cheese, Wine & What to Skip",
+  "seo_description": "Prosciutto's best partners: melon, figs, burrata and Parmigiano, with Prosecco to pour. The perfect bite with grissini and olives, and the cheese to skip.",
   "qa": [
    {
     "k": "wine",
@@ -420,7 +427,8 @@
      "Ribbons and roses: [how to make a prosciutto rose](/blog/prosciutto-rose/)"
     ]
    }
-  ]
+  ],
+  "updated": "2026-11-23"
  },
  {
   "slug": "genoa-salami",
@@ -500,7 +508,10 @@
     "q": "What wine goes with mortadella?",
     "a": "Lambrusco, Prosecco or Chianti."
    }
-  ]
+  ],
+  "seo_title": "What Goes With Mortadella? Pistachios, Wine & What to Skip",
+  "seo_description": "Mortadella's perfect bite: focaccia, mostarda and giardiniera with a glass of Chianti. Why pistachios and burrata lead the list, and the cheese to skip.",
+  "updated": "2026-11-23"
  },
  {
   "slug": "smoked-salmon",
@@ -602,7 +613,10 @@
      "Slice them last and brush with lemon juice to slow browning"
     ]
    }
-  ]
+  ],
+  "seo_title": "What Goes With Apples? Best Cheeses, Dips & Drinks",
+  "seo_description": "Apples go best with aged cheddar, aged Gouda, Gruyère and Camembert. The perfect bite (caramel dip, walnuts, speck), what to pour, and a free chart.",
+  "updated": "2026-11-23"
  },
  {
   "slug": "dark-chocolate",
@@ -1307,8 +1321,8 @@
    "apples",
    "walnuts"
   ],
-  "seo_title": "What Goes With Gruyère? Best Cheese Board Pairings",
-  "seo_description": "Gruyère pairs best with cornichons, apples, walnuts and whole-grain mustard. See 20+ matches, the wine and beer to pour, and what to leave off.",
+  "seo_title": "What Goes With Gruyère? Best Bite, Wine & What to Skip",
+  "seo_description": "Gruyère's perfect bite: apple, walnuts and a cornichon with Pinot Noir. The top 5 partners, the wine and beer to pour, and the cheeses to skip.",
   "answer": "Gruyère goes best with cornichons, apples, walnuts and whole-grain mustard, on a plain baguette. It is a firm, nutty alpine cheese with a lot of salt, so sharp pickles and crisp fruit are what reset the palate between bites.",
   "faq": [
    {
@@ -1323,7 +1337,8 @@
     "q": "Is Gruyère the same as Comté?",
     "a": "No, though they are close cousins made either side of the French-Swiss border. Comté is usually fruitier and a little softer; Gruyère is saltier and firmer. They are largely interchangeable on a board."
    }
-  ]
+  ],
+  "updated": "2026-11-23"
  },
  {
   "slug": "fig-jam",

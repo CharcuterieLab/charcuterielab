@@ -1,0 +1,18 @@
+/* Food pairing pages + pairings hub: tabs, folded quick answers (23 Nov 2026) */
+.fp-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 16px}
+.fp-tabs button{flex:0 0 auto;font:inherit;font-size:15px;font-weight:600;padding:8px 14px;border-radius:999px;border:1px solid rgba(169,87,43,.25);background:#fff;color:var(--green-deep);cursor:pointer;min-height:40px}
+.fp-tabs button span{font-weight:500;color:var(--muted);margin-left:2px}
+.fp-tabs button[aria-selected="true"]{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+.fp-tabs button[aria-selected="true"] span{color:rgba(255,255,255,.8)}
+.fp-tabs button:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+.fp-tabbox:not(.fp-on) .fp-tabs{display:none}
+.fp-on .fp-panel-h,.fp-on.fp-all .pr-group>h3{display:none}
+.fp-on.fp-all .pr-group{margin-bottom:10px}
+.fp-more{margin:6px 0 0}
+.fp-chart-link{margin:12px 0 0;font-size:15px}
+@media print{.fp-tabs,.fp-more{display:none!important}[data-fp-panel][hidden],.pr-qa-item[hidden]{display:block!important}.fp-on .fp-panel-h,.fp-on.fp-all .pr-group>h3{display:flex!important}}
+.fp-phone-more{display:none;margin:10px 0 0}
+@media (max-width:600px){
+  section[aria-labelledby="combo-h"] .pr-combos>li:nth-child(n+4){display:none}
+  .fp-phone-more{display:block}
+}
