@@ -276,10 +276,10 @@ ${countdownJs()}`
 // guides), the gift guide in gift season, and the matching printable.
 const HOLIDAY_NEXT = {
   thanksgiving: { guides: [["best-cranberry-sauce", "Best canned cranberry sauce"], ["best-brie-brands", "Best brie for baking"], ["best-mixed-nuts", "Best mixed nuts"], ["best-sparkling-cider", "Best sparkling cider"]], print: ["grazing-table-planner", "Grazing Table Planner"], gifts: true },
-  christmas: { guides: [["best-charcuterie-gift-boxes", "Best charcuterie gift boxes"], ["best-shortbread", "Best shortbread"], ["best-cranberry-sauce", "Best cranberry sauce"], ["best-dark-chocolate", "Best dark chocolate"]], print: ["british-christmas-cheese-board", "British Christmas Cheese Board"], gifts: true },
+  christmas: { guides: [["best-charcuterie-gift-boxes", "Best charcuterie gift boxes"], ["best-frozen-appetizers", "Best frozen appetizers"], ["best-mulled-wine", "Best mulled wine"], ["best-shrimp-cocktail", "Best shrimp cocktail"]], print: ["british-christmas-cheese-board", "British Christmas Cheese Board"], gifts: true },
   hanukkah: { guides: [["best-smoked-salmon", "Best smoked salmon"], ["best-cream-cheese", "Best cream cheese"], ["best-hummus", "Best hummus"]], gifts: true },
-  "new-years-eve": { guides: [["best-prosecco", "Best prosecco"], ["best-smoked-salmon", "Best smoked salmon"], ["best-brie-brands", "Best brie"], ["best-sparkling-cider", "Best sparkling cider (non-alcoholic)"]], print: ["new-years-eve-blini-bar", "New Year's Eve Blini Bar"] },
-  "super-bowl": { guides: [["best-salsa", "Best salsa"], ["best-guacamole", "Best guacamole"], ["best-queso", "Best queso"]], print: ["salami-tasting-party-kit", "Salami Tasting Party Kit"] },
+  "new-years-eve": { guides: [["best-prosecco", "Best prosecco"], ["best-frozen-appetizers", "Best frozen appetizers"], ["best-shrimp-cocktail", "Best shrimp cocktail"], ["best-non-alcoholic-wine", "Best non-alcoholic wine"]], print: ["new-years-eve-blini-bar", "New Year's Eve Blini Bar"] },
+  "super-bowl": { guides: [["best-store-bought-dips", "Best store-bought dips"], ["best-salsa", "Best salsa"], ["best-guacamole", "Best guacamole"], ["best-queso", "Best queso"]], print: ["salami-tasting-party-kit", "Salami Tasting Party Kit"] },
   "valentines-day": { guides: [["best-dark-chocolate", "Best dark chocolate"], ["best-strawberry-jam", "Best strawberry jam"], ["best-brie-brands", "Best brie"]] },
   halloween: { guides: [["best-pretzels-for-charcuterie", "Best pretzels"], ["best-cheddar-brands", "Best cheddar"], ["best-meat-sticks", "Best meat sticks"]] },
   easter: { guides: [["best-goat-cheese-brands", "Best goat cheese"], ["best-strawberry-jam", "Best strawberry jam"], ["best-prosciutto-brands", "Best prosciutto"]] },

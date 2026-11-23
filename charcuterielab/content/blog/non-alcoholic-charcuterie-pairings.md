@@ -114,6 +114,9 @@ Toss the fruit with the sugar and refrigerate overnight, then stir in the vinega
 
 > Get weekly pairing science in the [Charcuterie Lab Report newsletter](https://charcuterie-lab-report.beehiiv.com).
 
+
+**The bottles to buy:** [the best non-alcoholic wine](/blog/best-non-alcoholic-wine/) and [the best sparkling cider](/blog/best-sparkling-cider/).
+
 ## Related Reading
 
 - [The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites](https://charcuterielab.com/blog/acid-rule/)

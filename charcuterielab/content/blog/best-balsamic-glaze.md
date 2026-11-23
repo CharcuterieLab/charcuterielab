@@ -85,6 +85,9 @@ For an older Italian alternative, try [saba](/ingredients/saba/), a syrup of coo
 **More:** [Balsamic glaze: pairings and serving tips](/ingredients/balsamic-glaze/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 
+
+**For the dipping plate:** [the best olive oil for dipping bread](/blog/best-olive-oil-for-dipping/).
+
 **Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
 
 :::html

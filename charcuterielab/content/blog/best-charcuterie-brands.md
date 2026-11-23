@@ -126,6 +126,8 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Olive Tapenade to Buy](/blog/best-olive-tapenade/) | DeLallo Black Olive Tapenade | Buyer's guide (unscored) |
 | [Best Store-Bought Buffalo Chicken Dip for Game Day](/blog/best-buffalo-chicken-dip/) | Marketside Buffalo Style Chicken Dip | Buyer's guide (unscored) |
 | [Best Store-Bought Dill Pickle Dip](/blog/best-pickle-dip/) | Taste of the South Fried Pickle & Ranch Dip | Buyer's guide (unscored) |
+| [Best Store-Bought Dips for a Party](/blog/best-store-bought-dips/) | Marketside Spinach & Artichoke Dip | Buyer's guide (unscored) |
+| [Best Olive Oil for Dipping Bread](/blog/best-olive-oil-for-dipping/) | Sciabica's Mediterranean Medley Extra Virgin Olive Oil | Buyer's guide (unscored) |
 
 ## Olives, pickles and nuts
 
@@ -158,6 +160,13 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Dried Fruit for a Charcuterie Board](/blog/best-dried-fruit-for-charcuterie/) | Mariani Mediterranean Apricots | Buyer's guide (unscored) |
 | [Best Medjool Dates for a Charcuterie Board](/blog/best-medjool-dates/) | Costco Medjool Dates (value) | Buyer's guide (unscored) |
 
+## Party food and appetizers
+
+| Guide | Our top pick | Our score |
+|---|---|---|
+| [Best Frozen Appetizers for a Holiday Party](/blog/best-frozen-appetizers/) | Trader Joe's Pastry Bites with Feta & Caramelized Onions | Buyer's guide (unscored) |
+| [Best Store-Bought Shrimp Cocktail for a Party](/blog/best-shrimp-cocktail/) | Kirkland Signature Shrimp Cocktail | Buyer's guide (unscored) |
+
 ## Drinks
 
 | Guide | Our top pick | Our score |
@@ -168,6 +177,8 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Wines Under $20 for a Charcuterie Board](/blog/best-wine-for-charcuterie-board/) | Segura Viudas Brut Reserva Cava | Buyer's guide (unscored) |
 | [Best Sparkling Cider (Non-Alcoholic)](/blog/best-sparkling-cider/) | Martinelli's Sparkling Cider | 4.8/5 |
 | [Best Store-Bought Eggnog for the Holidays](/blog/best-eggnog/) | Trader Joe's Egg Nog | Buyer's guide (unscored) |
+| [Best Mulled Wine to Buy for the Holidays](/blog/best-mulled-wine/) | Gerstacker Nürnberger Glühwein | Buyer's guide (unscored) |
+| [Best Non-Alcoholic Wine for a Cheese Board](/blog/best-non-alcoholic-wine/) | Giesen 0% Sauvignon Blanc | Buyer's guide (unscored) |
 
 ## Gifts
 

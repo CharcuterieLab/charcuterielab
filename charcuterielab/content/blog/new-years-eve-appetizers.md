@@ -497,6 +497,9 @@ Shopping for bottles? See [the best Champagne under $30](/blog/best-champagne-un
 - **Pregnant guests:** skip cold-smoked salmon and anything with raw fish or unpasteurized soft cheese. See [which cheeses are safe during pregnancy](/blog/cheese-safe-during-pregnancy/).
 - **Driving home:** keep sparkling cider and a zero-proof option on the table all night. See [zero-proof pairings](/pairings/zero-proof/).
 
+
+**Short on time?** Fill the gaps with [the best frozen appetizers](/blog/best-frozen-appetizers/) and [store-bought shrimp cocktail](/blog/best-shrimp-cocktail/), and have [a non-alcoholic wine](/blog/best-non-alcoholic-wine/) ready for guests who skip the Champagne.
+
 ## Related Reading
 
 - [New Year's Eve Charcuterie Board Ideas](/holidays/new-years-eve/)

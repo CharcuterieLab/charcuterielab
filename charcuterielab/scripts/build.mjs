@@ -2690,7 +2690,7 @@ const BLOG_PILLARS = [
 ];
 const BLOG_SHORT = { buying: "Buying guide", holidays: "Holidays", pairing: "Pairing", building: "How-to", ingredients: "Ingredients", ideas: "Board idea" };
 const BLOG_WORLD = /noche-buena|smorgasbord|halal|nduja|jamon-iberico|mezze|meze|tapas|antipasto|international|around-the-world|world-|-world|cheese-advent-calendar-australia/;
-const BLOG_SEASONAL_BUYING = ["best-panettone", "best-eggnog", "best-cranberry-sauce", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-charcuterie-gift-boxes", "best-hot-cocoa-mix", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-sparkling-cider", "best-stilton"];
+const BLOG_SEASONAL_BUYING = ["best-frozen-appetizers", "best-mulled-wine", "best-shrimp-cocktail", "best-panettone", "best-eggnog", "best-cranberry-sauce", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-charcuterie-gift-boxes", "best-hot-cocoa-mix", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-sparkling-cider", "best-stilton"];
 function blogPillarOf(slug) {
   const hit = BLOG_PILLARS.find(([, , , re]) => re.test(slug));
   return hit ? hit[0] : "ingredients";

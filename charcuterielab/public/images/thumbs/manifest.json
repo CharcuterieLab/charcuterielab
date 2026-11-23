@@ -556,6 +556,10 @@
 1000,
 1500
 ],
+"/images/best-frozen-appetizers.jpg": [
+1024,
+559
+],
 "/images/best-fruitcake-ranking.webp": [
 1000,
 1500
@@ -716,6 +720,10 @@
 1000,
 1500
 ],
+"/images/best-mulled-wine.jpg": [
+1024,
+559
+],
 "/images/best-mustard-for-charcuterie-ranking.webp": [
 1000,
 1500
@@ -725,6 +733,14 @@
 1500
 ],
 "/images/best-nduja.jpg": [
+1024,
+559
+],
+"/images/best-non-alcoholic-wine.jpg": [
+1024,
+559
+],
+"/images/best-olive-oil-for-dipping.jpg": [
 1024,
 559
 ],
@@ -884,6 +900,10 @@
 1000,
 1500
 ],
+"/images/best-shrimp-cocktail.jpg": [
+1024,
+559
+],
 "/images/best-small-bowls-for-charcuterie.jpg": [
 1024,
 559
@@ -943,6 +963,10 @@
 "/images/best-store-bought-christmas-cookies-ranking.webp": [
 1000,
 1500
+],
+"/images/best-store-bought-dips.jpg": [
+1024,
+559
 ],
 "/images/best-strawberry-jam-ranking.webp": [
 1000,
@@ -1956,9 +1980,65 @@
 1024,
 687
 ],
+"/images/budget-12-spanish-tapas-board.png": [
+1024,
+687
+],
+"/images/budget-13-wine-and-cheese-tasting-board.png": [
+1024,
+687
+],
+"/images/budget-14-french-bistro-board.png": [
+1024,
+687
+],
+"/images/budget-15-smoked-fish-and-seafood-board.png": [
+1024,
+687
+],
+"/images/budget-16-salumi-lovers-board.png": [
+1024,
+687
+],
+"/images/budget-17-caviar-and-champagne-board.png": [
+1024,
+687
+],
+"/images/budget-18-italian-salumeria-board.png": [
+1024,
+687
+],
+"/images/budget-19-award-winning-american-cheese-board.png": [
+1024,
+687
+],
+"/images/budget-20-truffle-and-jamon-iberico-board.png": [
+1024,
+687
+],
+"/images/budget-21-20-guests-for-60.png": [
+1024,
+687
+],
+"/images/budget-22-30-guests-for-90.png": [
+1024,
+687
+],
+"/images/budget-23-50-guests-for-150.png": [
+1024,
+687
+],
+"/images/budget-24-100-guests-for-300.png": [
+1024,
+687
+],
 "/images/budget-charcuterie-board.png": [
 1024,
 687
+],
+"/images/budget-ladder-15-classic.png": [
+1024,
+1024
 ],
 "/images/build-sequence.png": [
 2816,
@@ -7692,6 +7772,14 @@
 240,
 360
 ],
+"/images/thumbs/best-frozen-appetizers-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-frozen-appetizers-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/best-fruitcake-jpg-m.webp": [
 640,
 349
@@ -8020,6 +8108,14 @@
 240,
 360
 ],
+"/images/thumbs/best-mulled-wine-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-mulled-wine-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/best-mustard-for-charcuterie-ranking-webp-m.webp": [
 640,
 960
@@ -8043,6 +8139,22 @@
 "/images/thumbs/best-nduja-ranking-webp-s.webp": [
 240,
 360
+],
+"/images/thumbs/best-non-alcoholic-wine-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-non-alcoholic-wine-jpg-s.webp": [
+240,
+131
+],
+"/images/thumbs/best-olive-oil-for-dipping-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-olive-oil-for-dipping-jpg-s.webp": [
+240,
+131
 ],
 "/images/thumbs/best-olive-tapenade-jpg-m.webp": [
 640,
@@ -8356,6 +8468,14 @@
 240,
 360
 ],
+"/images/thumbs/best-shrimp-cocktail-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-shrimp-cocktail-jpg-s.webp": [
+240,
+131
+],
 "/images/thumbs/best-small-bowls-for-charcuterie-jpg-m.webp": [
 640,
 349
@@ -8475,6 +8595,14 @@
 "/images/thumbs/best-store-bought-christmas-cookies-ranking-webp-s.webp": [
 240,
 360
+],
+"/images/thumbs/best-store-bought-dips-jpg-m.webp": [
+640,
+349
+],
+"/images/thumbs/best-store-bought-dips-jpg-s.webp": [
+240,
+131
 ],
 "/images/thumbs/best-strawberry-jam-ranking-webp-m.webp": [
 640,
@@ -10380,6 +10508,110 @@
 240,
 161
 ],
+"/images/thumbs/budget-12-spanish-tapas-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-12-spanish-tapas-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-13-wine-and-cheese-tasting-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-13-wine-and-cheese-tasting-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-14-french-bistro-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-14-french-bistro-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-15-smoked-fish-and-seafood-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-15-smoked-fish-and-seafood-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-16-salumi-lovers-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-16-salumi-lovers-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-17-caviar-and-champagne-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-17-caviar-and-champagne-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-18-italian-salumeria-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-18-italian-salumeria-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-19-award-winning-american-cheese-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-19-award-winning-american-cheese-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-20-truffle-and-jamon-iberico-board-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-20-truffle-and-jamon-iberico-board-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-21-20-guests-for-60-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-21-20-guests-for-60-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-22-30-guests-for-90-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-22-30-guests-for-90-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-23-50-guests-for-150-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-23-50-guests-for-150-png-s.webp": [
+240,
+161
+],
+"/images/thumbs/budget-24-100-guests-for-300-png-m.webp": [
+640,
+429
+],
+"/images/thumbs/budget-24-100-guests-for-300-png-s.webp": [
+240,
+161
+],
 "/images/thumbs/budget-charcuterie-board-png-m.webp": [
 640,
 429
@@ -10387,6 +10619,14 @@
 "/images/thumbs/budget-charcuterie-board-png-s.webp": [
 240,
 161
+],
+"/images/thumbs/budget-ladder-15-classic-png-m.webp": [
+640,
+640
+],
+"/images/thumbs/budget-ladder-15-classic-png-s.webp": [
+240,
+240
 ],
 "/images/thumbs/build-sequence-png-l.webp": [
 1100,
@@ -20643,6 +20883,10 @@
 "m": "/images/thumbs/best-fresh-mozzarella-ranking-webp-m.webp",
 "s": "/images/thumbs/best-fresh-mozzarella-ranking-webp-s.webp"
 },
+"/images/best-frozen-appetizers.jpg": {
+"m": "/images/thumbs/best-frozen-appetizers-jpg-m.webp",
+"s": "/images/thumbs/best-frozen-appetizers-jpg-s.webp"
+},
 "/images/best-fruitcake-ranking.webp": {
 "m": "/images/thumbs/best-fruitcake-ranking-webp-m.webp",
 "s": "/images/thumbs/best-fruitcake-ranking-webp-s.webp"
@@ -20805,6 +21049,10 @@
 "m": "/images/thumbs/best-mortadella-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-mortadella-brands-ranking-webp-s.webp"
 },
+"/images/best-mulled-wine.jpg": {
+"m": "/images/thumbs/best-mulled-wine-jpg-m.webp",
+"s": "/images/thumbs/best-mulled-wine-jpg-s.webp"
+},
 "/images/best-mustard-for-charcuterie-ranking.webp": {
 "m": "/images/thumbs/best-mustard-for-charcuterie-ranking-webp-m.webp",
 "s": "/images/thumbs/best-mustard-for-charcuterie-ranking-webp-s.webp"
@@ -20816,6 +21064,14 @@
 "/images/best-nduja.jpg": {
 "m": "/images/thumbs/best-nduja-jpg-m.webp",
 "s": "/images/thumbs/best-nduja-jpg-s.webp"
+},
+"/images/best-non-alcoholic-wine.jpg": {
+"m": "/images/thumbs/best-non-alcoholic-wine-jpg-m.webp",
+"s": "/images/thumbs/best-non-alcoholic-wine-jpg-s.webp"
+},
+"/images/best-olive-oil-for-dipping.jpg": {
+"m": "/images/thumbs/best-olive-oil-for-dipping-jpg-m.webp",
+"s": "/images/thumbs/best-olive-oil-for-dipping-jpg-s.webp"
 },
 "/images/best-olive-tapenade-ranking.webp": {
 "m": "/images/thumbs/best-olive-tapenade-ranking-webp-m.webp",
@@ -20973,6 +21229,10 @@
 "m": "/images/thumbs/best-shortbread-ranking-webp-m.webp",
 "s": "/images/thumbs/best-shortbread-ranking-webp-s.webp"
 },
+"/images/best-shrimp-cocktail.jpg": {
+"m": "/images/thumbs/best-shrimp-cocktail-jpg-m.webp",
+"s": "/images/thumbs/best-shrimp-cocktail-jpg-s.webp"
+},
 "/images/best-small-bowls-for-charcuterie.jpg": {
 "m": "/images/thumbs/best-small-bowls-for-charcuterie-jpg-m.webp",
 "s": "/images/thumbs/best-small-bowls-for-charcuterie-jpg-s.webp"
@@ -21032,6 +21292,10 @@
 "/images/best-store-bought-christmas-cookies-ranking.webp": {
 "m": "/images/thumbs/best-store-bought-christmas-cookies-ranking-webp-m.webp",
 "s": "/images/thumbs/best-store-bought-christmas-cookies-ranking-webp-s.webp"
+},
+"/images/best-store-bought-dips.jpg": {
+"m": "/images/thumbs/best-store-bought-dips-jpg-m.webp",
+"s": "/images/thumbs/best-store-bought-dips-jpg-s.webp"
 },
 "/images/best-strawberry-jam-ranking.webp": {
 "m": "/images/thumbs/best-strawberry-jam-ranking-webp-m.webp",
@@ -22009,9 +22273,65 @@
 "m": "/images/thumbs/budget-11-smokehouse-bbq-board-png-m.webp",
 "s": "/images/thumbs/budget-11-smokehouse-bbq-board-png-s.webp"
 },
+"/images/budget-12-spanish-tapas-board.png": {
+"m": "/images/thumbs/budget-12-spanish-tapas-board-png-m.webp",
+"s": "/images/thumbs/budget-12-spanish-tapas-board-png-s.webp"
+},
+"/images/budget-13-wine-and-cheese-tasting-board.png": {
+"m": "/images/thumbs/budget-13-wine-and-cheese-tasting-board-png-m.webp",
+"s": "/images/thumbs/budget-13-wine-and-cheese-tasting-board-png-s.webp"
+},
+"/images/budget-14-french-bistro-board.png": {
+"m": "/images/thumbs/budget-14-french-bistro-board-png-m.webp",
+"s": "/images/thumbs/budget-14-french-bistro-board-png-s.webp"
+},
+"/images/budget-15-smoked-fish-and-seafood-board.png": {
+"m": "/images/thumbs/budget-15-smoked-fish-and-seafood-board-png-m.webp",
+"s": "/images/thumbs/budget-15-smoked-fish-and-seafood-board-png-s.webp"
+},
+"/images/budget-16-salumi-lovers-board.png": {
+"m": "/images/thumbs/budget-16-salumi-lovers-board-png-m.webp",
+"s": "/images/thumbs/budget-16-salumi-lovers-board-png-s.webp"
+},
+"/images/budget-17-caviar-and-champagne-board.png": {
+"m": "/images/thumbs/budget-17-caviar-and-champagne-board-png-m.webp",
+"s": "/images/thumbs/budget-17-caviar-and-champagne-board-png-s.webp"
+},
+"/images/budget-18-italian-salumeria-board.png": {
+"m": "/images/thumbs/budget-18-italian-salumeria-board-png-m.webp",
+"s": "/images/thumbs/budget-18-italian-salumeria-board-png-s.webp"
+},
+"/images/budget-19-award-winning-american-cheese-board.png": {
+"m": "/images/thumbs/budget-19-award-winning-american-cheese-board-png-m.webp",
+"s": "/images/thumbs/budget-19-award-winning-american-cheese-board-png-s.webp"
+},
+"/images/budget-20-truffle-and-jamon-iberico-board.png": {
+"m": "/images/thumbs/budget-20-truffle-and-jamon-iberico-board-png-m.webp",
+"s": "/images/thumbs/budget-20-truffle-and-jamon-iberico-board-png-s.webp"
+},
+"/images/budget-21-20-guests-for-60.png": {
+"m": "/images/thumbs/budget-21-20-guests-for-60-png-m.webp",
+"s": "/images/thumbs/budget-21-20-guests-for-60-png-s.webp"
+},
+"/images/budget-22-30-guests-for-90.png": {
+"m": "/images/thumbs/budget-22-30-guests-for-90-png-m.webp",
+"s": "/images/thumbs/budget-22-30-guests-for-90-png-s.webp"
+},
+"/images/budget-23-50-guests-for-150.png": {
+"m": "/images/thumbs/budget-23-50-guests-for-150-png-m.webp",
+"s": "/images/thumbs/budget-23-50-guests-for-150-png-s.webp"
+},
+"/images/budget-24-100-guests-for-300.png": {
+"m": "/images/thumbs/budget-24-100-guests-for-300-png-m.webp",
+"s": "/images/thumbs/budget-24-100-guests-for-300-png-s.webp"
+},
 "/images/budget-charcuterie-board.png": {
 "m": "/images/thumbs/budget-charcuterie-board-png-m.webp",
 "s": "/images/thumbs/budget-charcuterie-board-png-s.webp"
+},
+"/images/budget-ladder-15-classic.png": {
+"m": "/images/thumbs/budget-ladder-15-classic-png-m.webp",
+"s": "/images/thumbs/budget-ladder-15-classic-png-s.webp"
 },
 "/images/build-sequence.png": {
 "l": "/images/thumbs/build-sequence-png-l.webp",

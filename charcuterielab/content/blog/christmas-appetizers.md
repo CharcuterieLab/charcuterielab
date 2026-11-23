@@ -366,6 +366,9 @@ The cheapest crowd-pleasers on this list cost a few dollars a batch: pepper jell
 - **Non-alcoholic:** [sparkling cider](/blog/best-sparkling-cider/), or a [hot cocoa board](/blog/hot-cocoa-board/) for the kids.
 - **Red wine for the board:** see [wine for a charcuterie board](/blog/best-wine-for-charcuterie-board/).
 
+
+**Short on time?** Fill the gaps with [the best frozen appetizers](/blog/best-frozen-appetizers/) and [store-bought shrimp cocktail](/blog/best-shrimp-cocktail/), and pour [mulled wine](/blog/best-mulled-wine/).
+
 ## Related Reading
 
 - [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/): a no-cook, meatless Christmas Eve spread

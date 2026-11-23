@@ -124,6 +124,9 @@ See our [non-alcoholic drinks for a charcuterie board](/pairings/zero-proof/) fo
 **More:** [Sparkling cider: pairings and serving tips](/pairings/zero-proof/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 
+
+**More drinks without alcohol:** [the best non-alcoholic wine](/blog/best-non-alcoholic-wine/), or warm a bottle with spices for a [mulled cider](/blog/best-mulled-wine/).
+
 **Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
 
 :::html

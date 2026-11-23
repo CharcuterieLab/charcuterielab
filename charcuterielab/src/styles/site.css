@@ -4484,7 +4484,7 @@ main > .bl-banner{width:min(1100px,calc(100% - 32px));margin:22px auto 0}
 .pr-chipgrid{list-style:none;margin:6px 0 8px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
 .pr-chipgrid a{display:flex;align-items:center;gap:8px;padding:6px 10px 6px 6px;border-radius:12px;background:var(--cream);text-decoration:none;color:var(--green-deep);font-size:14px;font-weight:700}
 .pr-chipgrid a span{flex:1}
-@media (max-width:600px){.pr-podium{gap:10px}.pr-podium-card{display:grid;grid-template-columns:64px 1fr;column-gap:14px;row-gap:2px;align-items:start;padding:14px}.pr-podium-card .pr-thumb-big{grid-row:1/span 3;width:64px;height:64px;border-radius:14px}.pr-podium-card h3{margin:0;padding-right:36px}.pr-podium-n{font-size:1.25rem}.pr-bite-item{max-width:96px}.pr-bite .pr-thumb-big,.pr-bite-swatch{width:84px;height:84px}.pr-group{padding:14px 12px 4px}}
+@media (max-width:600px){.pr-podium{gap:10px;grid-template-columns:1fr}.pr-podium-card{display:grid;grid-template-columns:64px minmax(0,1fr);column-gap:14px;row-gap:2px;align-items:start;padding:14px}.pr-podium-card .pr-thumb-big{grid-row:1/span 3;width:64px;height:64px;border-radius:14px}.pr-podium-card h3{margin:0;padding-right:36px}.pr-podium-n{font-size:1.25rem}.pr-bite-item{max-width:96px}.pr-bite .pr-thumb-big,.pr-bite-swatch{width:84px;height:84px}.pr-group{padding:14px 12px 4px}}
 
 /* ==========================================================================
    Dietary Hub (/dietary/), Oct 2026. Verdict badges always carry words, not

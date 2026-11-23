@@ -16,7 +16,7 @@
 
 export const BEST_CATS = [
   [/cheese/i, "cheese", "Cheese"], [/meat|fish/i, "meat", "Cured meat"], [/cracker|chip|pretzel/i, "crackers", "Crackers and chips"],
-  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/drink/i, "drinks", "Drinks"], [/gift/i, "gifts", "Gifts and gear"], [/store/i, "stores", "Store guides"]
+  [/spread|dip|sauce|honey|mustard|glaze/i, "spreads", "Spreads and dips"], [/olive|pickle|nut/i, "extras", "Olives, pickles and nuts"], [/sweet/i, "sweets", "Sweets"], [/party|appetizer/i, "party", "Party food"], [/drink/i, "drinks", "Drinks"], [/gift/i, "gifts", "Gifts and gear"], [/store/i, "stores", "Store guides"]
 ];
 
 const NAME_FIX = {
@@ -68,8 +68,8 @@ const BOARD_SLOTS = [
 
 // What people are buying right now (months 1-12).
 const SEASONS = [
-  { m: [11, 12], h: "Holiday buys right now", s: ["best-panettone", "best-stilton", "best-cranberry-cheese", "best-cranberry-sauce", "best-charcuterie-gift-boxes", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-hot-cocoa-mix", "best-port-wine", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "best-cheese-knife-sets"] },
-  { m: [1, 2], h: "Game day and Valentine's buys", s: ["best-queso", "best-salsa", "best-guacamole", "best-tortilla-chips", "best-kettle-chips", "best-buffalo-chicken-dip", "best-meat-sticks", "best-pickle-dip", "best-dark-chocolate", "best-strawberry-jam", "best-prosecco"] },
+  { m: [11, 12], h: "Holiday buys right now", s: ["best-frozen-appetizers", "best-mulled-wine", "best-shrimp-cocktail", "best-panettone", "best-stilton", "best-cranberry-cheese", "best-cranberry-sauce", "best-charcuterie-gift-boxes", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-hot-cocoa-mix", "best-port-wine", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "best-cheese-knife-sets"] },
+  { m: [1, 2], h: "Game day and Valentine's buys", s: ["best-store-bought-dips", "best-non-alcoholic-wine", "best-queso", "best-salsa", "best-guacamole", "best-tortilla-chips", "best-kettle-chips", "best-buffalo-chicken-dip", "best-meat-sticks", "best-pickle-dip", "best-dark-chocolate", "best-strawberry-jam", "best-prosecco"] },
   { m: [3, 4, 5], h: "Spring and Easter buys", s: ["best-burrata", "best-goat-cheese-brands", "best-fresh-mozzarella", "best-ricotta-brands", "best-prosecco", "best-pesto", "best-hummus", "best-smoked-salmon", "best-strawberry-jam", "best-whipped-feta"] },
   { m: [6, 7, 8], h: "Summer party buys", s: ["best-burrata", "best-fresh-mozzarella", "best-sparkling-cider", "best-prosecco", "best-salsa", "best-guacamole", "best-ranch-dip", "best-hummus", "best-tzatziki", "best-kettle-chips"] },
   { m: [9, 10], h: "Fall and game day buys", s: ["best-cheddar-brands", "best-summer-sausage", "best-pepper-jelly", "best-hot-honey", "best-tortilla-chips", "best-queso", "best-beef-jerky", "best-candied-pecans", "best-fig-jam", "best-kettle-chips"] }

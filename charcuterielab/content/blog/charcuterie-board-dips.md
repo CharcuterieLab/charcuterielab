@@ -77,6 +77,9 @@ Always serve condiments in small bowls or ramekins, not spread directly on the b
 
 Every dip on your board should earn its place by serving a specific pairing function. Honey is the universal bridge; fig jam targets aged and blue cheese; grain mustard handles the meat side. Add one optional condiment that matches your board's profile, keep it to two or three total, use small bowls, and leave the ranch for something else.
 
+
+**Buying instead of making?** See [the best store-bought dips](/blog/best-store-bought-dips/), one winner for every kind.
+
 ## Related Reading
 
 - [The Best Store-Bought Tzatziki](/blog/best-tzatziki/)

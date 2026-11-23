@@ -84,6 +84,9 @@ A tray of shrimp cocktail is the easiest party appetizer there is, and the sauce
 <p class="sk-note">More for a seafood board: <a href="/blog/best-crab-dip/">the best crab dip</a>, <a href="/blog/best-smoked-oysters/">the best smoked oysters</a>, <a href="/blog/best-smoked-salmon/">the best smoked salmon</a> and <a href="/blog/best-caviar/">the best caviar</a>.</p>
 :::
 
+
+**Skip the cooking:** see [the best store-bought shrimp cocktail](/blog/best-shrimp-cocktail/), led by Costco's.
+
 ## Cocktail sauce questions
 
 **What is the best store-bought cocktail sauce?**

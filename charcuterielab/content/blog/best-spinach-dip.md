@@ -102,6 +102,9 @@ Several store brands beat the national names, so check the deli case first.
 **More:** [Spinach dip: pairings and serving tips](/blog/charcuterie-board-dips/) For the jar itself, see [the best marinated artichoke hearts](/blog/best-marinated-artichoke-hearts/). To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
 
 
+
+**Need more than one dip?** See [the best store-bought dips](/blog/best-store-bought-dips/), one winner for every kind.
+
 **Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
 
 :::html
