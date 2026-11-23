@@ -304,6 +304,7 @@ function holidayNext(h, hol) {
 // above Thanksgiving).
 const HUB_SHAPES = [
   ["board", "thanksgiving-turkey-board", "Turkey", "Thanksgiving"],
+  ["holiday", "hanukkah", "Menorah", "Hanukkah"],
   ["post", "christmas-wreath-charcuterie-board", "Wreath", "Christmas"],
   ["post", "christmas-tree-charcuterie-board", "Christmas tree", "Christmas"],
   ["board", "santas-sleigh-charcuterie-board", "Santa's sleigh", "Christmas"],
@@ -313,8 +314,20 @@ const HUB_SHAPES = [
   ["board", "easter-egg-charcuterie-board", "Giant egg", "Easter"],
   ["board", "giant-jack-o-lantern-board", "Jack-o'-lantern", "Halloween"]
 ];
-const HUB_IDEAS = ["friendsgiving-charcuterie-board", "thanksgiving-pie-board", "christmas-cookie-charcuterie-board", "hot-cocoa-board", "christmas-morning-charcuterie-board", "noche-buena-charcuterie-board", "charcuterie-board-new-years-eve", "winter-charcuterie-board", "cheese-advent-calendars-2026", "halloween-to-new-years-charcuterie-boards", "christmas-appetizers", "holiday-board"];
-const HUB_SHOP = ["best-panettone", "best-eggnog", "best-cranberry-sauce", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-charcuterie-gift-boxes", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-hot-cocoa-mix", "best-stilton", "best-cranberry-cheese"];
+const HUB_IDEAS = ["friendsgiving-charcuterie-board", "thanksgiving-pie-board", "feast-of-the-seven-fishes-board", "christmas-cookie-charcuterie-board", "hot-cocoa-board", "christmas-morning-charcuterie-board", "noche-buena-charcuterie-board", "charcuterie-board-new-years-eve", "winter-charcuterie-board", "cheese-advent-calendars-2026", "halloween-to-new-years-charcuterie-boards", "christmas-appetizers", "holiday-board"];
+// 23 Nov 2026: winter picks (cranberry sauce and hot cocoa make way for mulled wine and
+// frozen appetizers), and the three store guides say which store they are.
+const HUB_SHOP = ["best-panettone", "best-eggnog", "best-mulled-wine", "best-champagne-under-30", "best-store-bought-christmas-cookies", "best-frozen-appetizers", "best-charcuterie-gift-boxes", "costco-holiday-charcuterie", "trader-joes-holiday-charcuterie-items", "aldi-holiday-charcuterie-items", "best-stilton", "best-cranberry-cheese"];
+const SHOP_STORE = { "costco-holiday-charcuterie": "At Costco", "trader-joes-holiday-charcuterie-items": "At Trader Joe's", "aldi-holiday-charcuterie-items": "At Aldi" };
+// Lunar New Year: the date moves every year.
+const LUNAR_NEW_YEAR = ["2027-02-06", "2028-01-26", "2029-02-13"];
+const HUB_FAQ = [
+  { q: "How far ahead can I make a holiday charcuterie board?", a: "Do the shopping and the dry prep ahead: crackers, nuts and jams up to a week, a cheese ball up to 3 days. Cut cheese and fold meat the morning of, then build the board within an hour of serving, or up to 4 hours ahead if it's covered and chilled." },
+  { q: "How much charcuterie do I need per guest for a holiday party?", a: "About 2 oz each of cheese and meat per guest when the board comes before a meal, and about 3 oz each when it is the main food at a party. The Party Planner works out exact amounts for any guest count." },
+  { q: "Can I build a charcuterie board the night before?", a: "You can prep it the night before: cut the hard cheeses, fold the meats and wash the fruit, then store each in its own container. Assemble on the day, because crackers go soft and soft cheese loses its shape on a covered board overnight." },
+  { q: "How long can a charcuterie board sit out?", a: "No more than 2 hours at room temperature, or 1 hour in a warm room above 90°F. For a long party, put out half and keep the rest chilled to refill." },
+  { q: "What makes a charcuterie board festive for the holidays?", a: "A shape and two or three seasonal colors. A wreath or tree for Christmas, a menorah for Hanukkah, gold and black for New Year's Eve, using real food for color: pomegranate, rosemary, cranberries, clementines." }
+];
 
 const isoOf = (d) => d.toISOString().slice(0, 10);
 function thirdThursdayNov(y) {
@@ -334,11 +347,13 @@ function seasonCalendar(built, postSet) {
     nd("thanksgiving") && { d: nd("thanksgiving"), name: "Thanksgiving", href: "/holidays/thanksgiving/", todo: "Keep it light so guests still want turkey. Make a cheese ball up to 3 days ahead; set the board out an hour before dinner." },
     nd("hanukkah") && { d: nd("hanukkah"), name: "Hanukkah begins", href: "/holidays/hanukkah/", todo: "Pick a dairy board or a meat board, never both, and check which kosher certifications your guests need." },
     postSet.has("noche-buena-charcuterie-board") && { d: yy("12-24"), name: "Christmas Eve and Noche Buena", href: "/blog/noche-buena-charcuterie-board/", todo: "Queso de bola, glazed ham and warm pan de sal in the center for the after-midnight feast." },
-    nd("christmas") && { d: nd("christmas"), name: "Christmas", href: postSet.has("christmas-morning-charcuterie-board") ? "/blog/christmas-morning-charcuterie-board/" : "/holidays/christmas/", todo: "A Christmas morning board: prep it on Christmas Eve and build it in 20 minutes." },
+    postSet.has("feast-of-the-seven-fishes-board") && { d: yy("12-24"), name: "Feast of the Seven Fishes", href: "/blog/feast-of-the-seven-fishes-board/", todo: "A no-cook Christmas Eve spread: seven seafoods on one board, with nothing to fry." },
+    nd("christmas") && { d: nd("christmas"), name: "Christmas", href: "/holidays/christmas/", todo: "A wreath or tree board for the party, and a Christmas morning board you prep on Christmas Eve and build in 20 minutes." },
     nd("new-years-eve") && { d: nd("new-years-eve"), name: "New Year's Eve", href: "/holidays/new-years-eve/", todo: "It has to last until midnight: about 3 oz each of cheese and meat per guest, and half held back for 10 pm." },
+    { d: LUNAR_NEW_YEAR.find((x) => x >= today) || "", name: "Lunar New Year", href: "/boards/vietnamese-charcuterie-board/", todo: "Mandarin oranges for luck, dumplings and something sweet; our Vietnamese board is a good start for Tết." },
     nd("super-bowl") && { d: nd("super-bowl"), name: "Super Bowl", href: "/holidays/super-bowl/", todo: "Build it in quarters and refill at halftime." },
     nd("valentines-day") && { d: nd("valentines-day"), name: "Valentine's Day", href: "/holidays/valentines-day/", todo: "A small board for two, or a red and pink one for Galentine's." }
-  ].filter(Boolean).sort((a, b) => a.d.localeCompare(b.d));
+  ].filter((r) => r && r.d).sort((a, b) => a.d.localeCompare(b.d));
   return rows;
 }
 
@@ -358,6 +373,7 @@ export function holidaysHub(h, holidays, { season = "", posts = [], boards = [],
   const hero = upcoming[0] && upcoming[0].page && upcoming[0].page.image;
   const calRows = seasonCalendar(built, new Set(posts.map((p) => p.slug)));
   const shapes = HUB_SHAPES.map(([kind, slug, label, hol]) => {
+    if (kind === "holiday") { const x = built.get(slug); return x && x.image ? { href: `/holidays/${slug}/#shapes`, img: x.image, label, hol } : null; }
     const x = kind === "board" ? boardBy.get(slug) : postBy.get(slug);
     return x ? { href: kind === "board" ? `/boards/${slug}/` : `/blog/${slug}/`, img: x.image, label, hol } : null;
   }).filter(Boolean);
@@ -373,6 +389,7 @@ export function holidaysHub(h, holidays, { season = "", posts = [], boards = [],
       "@context": "https://schema.org", "@type": "CollectionPage", name: "Holiday Charcuterie Hub", url: h.absoluteUrl("/holidays/"),
       mainEntity: { "@type": "ItemList", itemListElement: holidays.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: h.absoluteUrl(`/holidays/${x.slug}/`), name: x.h1 })) }
     })}</script>
+  <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: HUB_FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) })}</script>
 ${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
     body: `<main class="bl-main hol-main">
   <section class="bl-finder">
@@ -383,12 +400,7 @@ ${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
       ${hero ? `<a class="hx-hero" href="/holidays/${upcoming[0].slug}/"><img src="${h.escapeHtml(hero)}" alt="${h.escapeHtml(upcoming[0].page.h1 || upcoming[0].name)}" width="1200" height="800" fetchpriority="high"><span class="hx-hero-cap"><span>Next up</span> ${h.escapeHtml(upcoming[0].name)} · <span class="hol-count" data-countdown='${JSON.stringify(upcoming[0].dates)}'></span></span></a>` : ""}
       <ul class="hol-has"><li><strong>3 board ideas</strong> sized for real parties</li><li><strong>A shaped board</strong> with a layout (wreath, menorah, football)</li><li><strong>A countdown plan</strong> from two weeks out</li><li><strong>How much to buy:</strong> about 2 oz each of cheese and meat per guest before a meal, 3 oz as party food</li></ul>
       <p class="hol-safe">Food out no more than 2 hours. Exact amounts for any guest count: <a href="/party-planner/">Party Planner</a>.</p>
-      <div class="hol-next">
-        ${upcoming.map((c) => `<a class="hol-next-card" href="/holidays/${c.slug}/">
-          <img src="${h.escapeHtml((h.thumb || ((x) => x))(c.page.image))}" alt=""${h.imageSize ? h.imageSize((h.thumb || ((x) => x))(c.page.image)) : ""} loading="lazy" decoding="async">
-          <span class="hol-next-body"><span class="hol-next-date">${h.escapeHtml(pretty(c.next))}</span><strong>${h.escapeHtml(c.name)}</strong><span class="hol-count" data-countdown='${JSON.stringify(c.dates)}'></span></span>
-        </a>`).join("\n        ")}
-      </div>
+      <!-- 23 Nov 2026: the three "next up" cards repeated the hero and the calendar below; removed -->
 
       ${calRows.length ? `<section class="hx-cal-wrap" aria-labelledby="hx-cal-h">
         <h2 id="hx-cal-h">This season's calendar</h2>
@@ -399,7 +411,7 @@ ${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
         <script>(function(){var t=new Date();t.setHours(0,0,0,0);var first=true;document.querySelectorAll(".hx-cal li").forEach(function(li){var d=new Date(li.dataset.d+"T00:00:00"),n=Math.round((d-t)/864e5);if(n<0||n>100){li.hidden=true;return}if(first){li.classList.add("is-next");first=false}})})();</script>
       </section>` : ""}
 
-      ${season}
+      ${season.replace(/>Boards for [^<]*</, ">Boards for the holidays ahead<")}
 
       ${shapes.length ? `<section class="hx-row" aria-labelledby="hx-shapes-h">
         <h2 id="hx-shapes-h">Shaped boards</h2>
@@ -415,7 +427,7 @@ ${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
       ${shop.length ? `<section class="hx-row" aria-labelledby="hx-shop-h">
         <h2 id="hx-shop-h">Holiday shopping: what to buy</h2>
         <p class="hx-sub">Our ranked picks for the seasonal extras, and the holiday items at Costco, Trader Joe's and Aldi.</p>
-        <ul class="hx-tiles">${shop.map(({ p, c }) => tile(h, `/blog/${p.slug}/`, p.image, c ? (c.cat === "stores" ? "Store guide" : c.name) : "Buying guide", c ? `${c.pickLabel ? c.pickLabel : "Our #1"}: ${c.pick}` : p.title.replace(/:.*$/, ""), "")).join("")}</ul>
+        <ul class="hx-tiles">${shop.map(({ p, c }) => tile(h, `/blog/${p.slug}/`, p.image, SHOP_STORE[p.slug] || (c ? (c.cat === "stores" ? "Store guide" : c.name) : "Buying guide"), c ? `${c.pickLabel ? c.pickLabel : "Our #1"}: ${c.pick}` : p.title.replace(/:.*$/, ""), "")).join("")}</ul>
         <p class="bl-note"><a href="/blog/best-charcuterie-brands/">All ${bestCards.length || ""} buying guides &rarr;</a></p>
       </section>` : ""}
 
@@ -428,6 +440,12 @@ ${h.breadcrumbSchema([["Home", "/"], ["Holidays", "/holidays/"]])}`,
         <h2>Every holiday, in date order</h2>
         <ul class="hol-cal">${allDated.map((c) => `<li><a href="/holidays/${c.slug}/">${h.escapeHtml(c.name)}</a><small>${h.escapeHtml(pretty(c.next))}</small></li>`).join("")}</ul>
       </div>
+      <section class="bl-section hol-hub-faq" id="faq" aria-labelledby="hol-faq-h">
+        <h2 id="hol-faq-h">Holiday board questions</h2>
+        <div class="ebook-faq-list">
+        ${HUB_FAQ.map((f, i) => `<details${i === 0 ? " open" : ""}><summary>${h.escapeHtml(f.q)}</summary><p>${h.escapeHtml(f.a)}</p></details>`).join("\n        ")}
+        </div>
+      </section>
     </div>
   </section>
 ${h.newsletterPanel("hol-hub-email", "holiday_hub")}
