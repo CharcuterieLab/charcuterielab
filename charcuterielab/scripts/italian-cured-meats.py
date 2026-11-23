@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Writes content/blog/italian-cured-meats.md (Italian cured meats, region by region).
 
-After adding card photos at public/images/cured-meat-types/<id>.jpg (ids in PHOTO below):
+After adding card photos at public/images/<id>.webp (ids in PHOTO below):
   py scripts/make-thumbs.py
   py scripts/italian-cured-meats.py
 """
@@ -70,9 +70,16 @@ REGIONS = [
 
 PHOTO = {"sopressa": "sopressa-vicentina", "milano": "milano-salami", "cacciatora": "cacciatorini", "felino": "salame-felino", "toscano": "prosciutto-toscano", "cinghiale": "wild-boar-salami", "norcia": "prosciutto-di-norcia", "ciauscolo": "ciauscolo", "lonzino": "lonzino", "porchetta": "porchetta", "capocollo": "capocollo-di-calabria", "calabrese": "calabrese-salami"}
 
+MANIFEST = json.load(open(os.path.join(THUMBS, "manifest.json"), encoding="utf-8"))["thumbs"]
+
 def photo_thumb(k):
+    """Card photo for a meat with no ingredient page: /images/<id>.webp (or .jpg, or /images/cured-meat-types/<id>.jpg)."""
     i = PHOTO.get(k)
-    return i and os.path.exists(os.path.join(THUMBS, f"cured-meat-types__{i}-jpg-s.webp")) and f"cured-meat-types__{i}-jpg"
+    for src in (f"/images/{i}.webp", f"/images/{i}.jpg", f"/images/cured-meat-types/{i}.jpg"):
+        t = i and MANIFEST.get(src)
+        if t and t.get("s"):
+            return t["s"].rsplit("/", 1)[1][:-len("-s.webp")]
+    return None
 
 def has_thumb(slug):
     return slug and os.path.exists(os.path.join(THUMBS, f"ingredients__{slug}-jpg-s.webp"))
@@ -127,7 +134,7 @@ w("---")
 w('title: "Italian Cured Meats: A Region-by-Region Guide to Salumi"')
 w('seo_title: "Italian Cured Meats: 25 Salumi, Region by Region"')
 w('date: "2026-11-22"')
-w('image: "/images/50-boards-02-italian-antipasto.webp"')
+w('image: "/images/italian-cured-meats.jpg"')
 w('excerpt: "Italian cured meats are called salumi, and every region has its own. Here are 25 of them, from the Alps to Calabria: what each tastes like, how Italians serve them, what DOP and IGP mean, and how to build an Italian board."')
 w('description: "Italian cured meats (salumi) region by region: 25 from prosciutto and culatello to finocchiona and \'nduja, what DOP means, and how to build an Italian board."')
 w(f'faq: "{faq_json()}"')

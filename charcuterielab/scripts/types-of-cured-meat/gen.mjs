@@ -2,7 +2,7 @@
 // Modeled on scripts/types-of-cheese/gen.mjs and reuses its tc-* styles.
 // Run from the charcuterielab folder:  node scripts/types-of-cured-meat/gen.mjs
 // Re-run it after adding photos: a meat without an ingredient page shows a drawn
-// slice until /images/cured-meat-types/<id>.jpg exists and make-thumbs.py has run.
+// slice until /images/cured-meat-types/<id>.jpg (or /images/<id>.webp) exists and make-thumbs.py has run.
 // The hero, the families photo and the chart image are used once they exist.
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -21,7 +21,7 @@ const fam = Object.fromEntries(FAMILIES.map((f) => [f.key, f]));
 const rows = MEATS.map(([id, name, f, animal, from, str, taste, pair, eat, price]) => {
   const hasPage = pages.has(id);
   const href = hasPage ? `/ingredients/${id}/` : "";
-  const t = hasPage ? manifest.thumbs[`/images/ingredients/${id}.jpg`] : manifest.thumbs[`/images/cured-meat-types/${id}.jpg`];
+  const t = hasPage ? manifest.thumbs[`/images/ingredients/${id}.jpg`] : (manifest.thumbs[`/images/cured-meat-types/${id}.jpg`] || manifest.thumbs[`/images/${id}.webp`]);
   const img = t && t.s ? { s: t.s, m: t.m || t.s } : null;
   return { id, name, f, animal, from, str, taste, pair, eat, price, href, img, ak: animalKey(animal) };
 });
