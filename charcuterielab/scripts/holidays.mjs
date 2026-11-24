@@ -262,6 +262,7 @@ ${boards.map((b) => card(b, h)).join("\n")}
     <section class="bl-section" aria-labelledby="more-h">
       <h2 id="more-h">Keep planning</h2>
       ${blogs.length ? `<p class="bl-note">Read more: ${blogs.map((s) => `<a href="/blog/${s}/">${h.escapeHtml(blogTitles.get(s))}</a>`).join(" · ")}</p>` : ""}
+      <p class="bl-note">Not set on a ${h.escapeHtml(hol.name)} board? See all <a href="/blog/charcuterie-board-ideas/">charcuterie board ideas</a>, sorted by occasion, guests, budget and time.</p>
       <p class="bl-note">Other holidays: ${others.map((x) => `<a href="/holidays/${x.slug}/">${h.escapeHtml(x.name)}</a>`).join(" · ")} · <a href="/holidays/">All holidays</a></p>
     </section>
   </div>

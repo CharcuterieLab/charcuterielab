@@ -156,7 +156,7 @@ Build the foundation with the formula. Fill out the board generously with cracke
 
 - [Meat and Cheese Tray: How to Make One + How Much to Buy](/blog/meat-and-cheese-tray/)
 - [How Much Charcuterie for Thanksgiving?](/blog/how-much-charcuterie-for-thanksgiving/)
-- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
+- [Charcuterie Board Ideas: 170+ Boards for Every Occasion](/blog/charcuterie-board-ideas/)
 - [How Much Cheese for a Charcuterie Board, by Guest Count](/blog/how-much-cheese-charcuterie-board/)
 - [How Many Cheeses Should Be on a Charcuterie Board?](/blog/how-many-cheeses/)
 - [How to Build a Grazing Table for 20+ Guests](/blog/grazing-table/)

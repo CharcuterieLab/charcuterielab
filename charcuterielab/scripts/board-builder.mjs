@@ -276,7 +276,7 @@ ${breadcrumbSchema([["Home", "/"], ["Board Builder", "/board-builder/"]])}`,
         <li><strong>Filter for the table you actually have.</strong> Gluten-free, nut-free, dairy-free, vegetarian and vegan filters hide anything that does not fit.</li>
         <li><strong>Set your guest count and get the list.</strong> Amounts for 1 to 200 people, sorted by store aisle, with prep steps and a layout plan for the board.</li>
       </ol>
-      <p class="bb-how-note">Want a board that is already planned? Browse <a href="/boards/">50 board ideas</a>, or work out quantities on their own with the <a href="/party-planner/">party planner</a>.</p>
+      <p class="bb-how-note">Want a board that is already planned? Browse <a href="/blog/charcuterie-board-ideas/">170+ board ideas</a>, or work out quantities on their own with the <a href="/party-planner/">party planner</a>.</p>
     </div>
   </section>
 

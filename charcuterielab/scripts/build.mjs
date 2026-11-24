@@ -27,6 +27,7 @@ import { dietaryClientData, dietaryIndex, dietaryPages, dietaryUrls, ingredientD
 import { COUNTS as PARTY_COUNTS, partyHub, partyPage, urlFor as partyUrl } from "./party.mjs";
 import { CHEAT_PDF, CHEAT_THANKS, SAMPLE_PDF, bookBoardFor, ebookSections, loadBookBoards, makeFunnel, makePrintables, printableFor } from "./funnel.mjs";
 import { makeOffers } from "./offers.mjs";
+import { boardIdeasHtml, IDEAS_PATH } from "./board-ideas.mjs";
 import { injectQuickSubscribe } from "./quick-subscribe.mjs";
 import { calmHubs } from "./hub-calm.mjs";
 import { bookLandingPages } from "./bookpages.mjs";
@@ -1776,8 +1777,8 @@ function metaSnippet(text, limit = META_LIMIT) {
 // or focus on desktop (the caret button for touch and keyboard) and are listed
 // under their heading in the phone menu. URLs did not change.
 const NAV_GROUPS = [
-  { key: "plan", label: "Plan a board", href: "/boards/", match: /^\/(boards|holidays|party-planner|board-builder|dietary|around-the-world)\//, links: [
-    ["/boards/", "Board Library"], ["/holidays/", "Holiday boards"], ["/party-planner/", "Party Planner: how much to buy"], ["/board-builder/", "Build a Board"], ["/dietary/", "Dietary swaps"] ] },
+  { key: "plan", label: "Plan a board", href: "/boards/", match: /^\/(boards|holidays|party-planner|board-builder|dietary|around-the-world)\/|^\/blog\/charcuterie-board-ideas\//, links: [
+    ["/blog/charcuterie-board-ideas/", "Board ideas: 170+ by occasion"], ["/boards/", "Board Library"], ["/holidays/", "Holiday boards"], ["/party-planner/", "Party Planner: how much to buy"], ["/board-builder/", "Build a Board"], ["/dietary/", "Dietary swaps"] ] },
   { key: "best", label: "Best buys", href: "/blog/best-charcuterie-brands/", match: /^\/blog\/best-/, links: [
     ["/blog/best-charcuterie-brands/", "All buying guides"], ["/blog/best-charcuterie-brands/?c=cheese#finder", "Best cheese"], ["/blog/best-charcuterie-brands/?c=meat#finder", "Best cured meat"], ["/blog/best-charcuterie-brands/?c=crackers#finder", "Best crackers and chips"], ["/blog/best-charcuterie-brands/?c=spreads#finder", "Best spreads and dips"], ["/blog/best-charcuterie-brands/?c=stores#finder", "Store guides: Costco, Aldi, TJ's"] ] },
   { key: "learn", label: "Learn", href: "/ingredients/", match: /^\/(ingredients|pairings|blog)\//, links: [
@@ -1790,7 +1791,7 @@ function siteNav(canonical = "/") {
   const groups = [...NAV_GROUPS];
   if (giftsInNav()) groups.push({ key: "gifts", label: "Gift Guide", href: "/gifts/", match: /^\/gifts\//, links: [] });
   return groups.map((g) => {
-    const cur = g.match.test(canonical) && !(g.key === "learn" && /^\/blog\/best-/.test(canonical));
+    const cur = g.match.test(canonical) && !(g.key === "learn" && /^\/blog\/(best-|charcuterie-board-ideas\/)/.test(canonical));
     const top = `<a class="nav-top${g.key === "shop" ? " nav-book" : ""}${g.key === "gifts" ? " nav-gifts" : ""}" href="${g.href}"${cur ? ' aria-current="true"' : ""}>${g.label}</a>`;
     if (!g.links.length) return `        <div class="nav-group nav-solo">${top}</div>`;
     const id = `nav-sub-${g.key}`;
@@ -1886,7 +1887,7 @@ ${siteNav(canonical)}
         <a href="https://www.pinterest.com/charcuterielabflavor/" target="_blank" rel="noopener" aria-label="Pinterest">${socialIcon("pinterest")}</a>
       </div>
       <div class="footer-links footer-cols">
-        <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">50 board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a>${FOOTER_HOLIDAYS.map(([u, t]) => `<a href="${u}">${escapeHtml(t)}</a>`).join("")}<a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
+        <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">Charcuterie board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a>${FOOTER_HOLIDAYS.map(([u, t]) => `<a href="${u}">${escapeHtml(t)}</a>`).join("")}<a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
         <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
         <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
         <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
@@ -2035,7 +2036,7 @@ function homePopular(holidays = []) {
     d: "Board ideas, shapes and a countdown plan"
   }));
   items.push({ href: "/party-planner/charcuterie-board-for-12-people/", img: "/images/how-much-charcuterie-per-person.webp", k: "Party Planner", t: "How much to buy for 12 people", d: "Meat, cheese and crackers by weight, plus a timeline" });
-  if (items.length < 3) items.push({ href: "/blog/charcuterie-board-ideas/", img: "/images/50-boards-29-book-club-afternoon.webp", k: "Board ideas", t: "50 charcuterie board ideas", d: "Something for every party, with the plan" });
+  if (items.length < 3) items.push({ href: "/blog/charcuterie-board-ideas/", img: "/images/50-boards-29-book-club-afternoon.webp", k: "Board ideas", t: "170+ charcuterie board ideas", d: "Filter by guests, budget and time" });
   return `<section class="section home-popular" aria-labelledby="home-popular-h">
     <div class="section-inner">
       <p class="section-kicker">Popular this week</p>
@@ -3190,6 +3191,10 @@ async function loadRedirectSources() {
   return set;
 }
 
+// Board ideas feature page data, filled in by build() and used after the
+// post-build passes so no later pass rewrites the idea cards.
+let IDEAS_DATA = null;
+
 async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(join(dist, "assets"), { recursive: true });
@@ -3215,6 +3220,7 @@ async function build() {
   // A printable goes live on the site once its Gumroad URL is filled in.
   const products = allProducts.filter((p) => p.url);
   linkIndex.live = new Set(posts.map((post) => post.slug));
+  IDEAS_DATA = { boards, posts, holidays };
   linkIndex.redirects = await loadRedirectSources();
   try { linkIndex.merged = JSON.parse(await readFile(join(root, "content", "merged", "redirects.json"), "utf8")); } catch {}
   posts.forEach((post) => {
@@ -3936,7 +3942,7 @@ function searchPage(count) {
     : m === 0 ? [["/holidays/super-bowl/", "Super Bowl boards"], ["/holidays/valentines-day/", "Valentine's Day"]]
     : m === 1 ? [["/holidays/valentines-day/", "Valentine's Day"], ["/holidays/super-bowl/", "Super Bowl boards"]]
     : m <= 3 ? [["/holidays/easter/", "Easter boards"], ["/boards/", "Board Library"]]
-    : [["/blog/charcuterie-board-ideas/", "50 board ideas"], ["/boards/", "Board Library"]];
+    : [["/blog/charcuterie-board-ideas/", "Charcuterie board ideas"], ["/boards/", "Board Library"]];
   const popular = [...seasonal, ["/blog/how-much-charcuterie-per-person/", "How much per person"], ["/pairings/food/brie/", "What goes with brie"], ["/gifts/under-25/", "Gifts under $25"], ["/boards/for-two/", "Boards for two"], ["/boards/keto-low-carb/", "Keto boards"], ["/blog/best-costco-charcuterie-items/", "Costco picks"]];
   const sections = [
     ["/boards/", "Board Library", "151 boards with shopping lists", "/images/50-boards-01-classic-american-starter.webp"],
@@ -4012,6 +4018,16 @@ await injectDietaryBooks(dist);
 }
 { const g = await injectGiftLinks(dist); console.log(`Gift links: ${g.lines} pages point at their matching gift guides${g.missing.length ? `; missing: ${g.missing.join(", ")}` : ""}`); }
 { const p = await pushLinks(dist); console.log(`Page-two pushes: ${p.links} body links on ${p.pages} pages (${p.report.filter(([, n]) => n < 3).map(([t, n]) => `${t} ${n}`).join(", ") || "every target 3+"})`); }
+// The board ideas page (23 Nov 2026): fill the finder, stats and holiday
+// mounts last, after every pass that rewrites body text.
+if (IDEAS_DATA) {
+  const f = join(dist, ...IDEAS_PATH.split("/").filter(Boolean), "index.html");
+  const t = await readFile(f, "utf8");
+  const u = boardIdeasHtml(t, { thumb }, IDEAS_DATA);
+  if (u === t || /<div data-board-(ideas|stats|holidays|picks)><\/div>/.test(u)) throw new Error("Board ideas page: a mount was not filled");
+  await writeFile(f, u);
+  console.log(`Board ideas page: ${(u.match(/<li class="bi-card/g) || []).length} idea cards`);
+}
 // Links written as raw HTML (:::html blocks, generated hubs) skip resolveSiteLink,
 // so a last pass points every link to a merged post straight at its survivor
 // instead of through a 301 (10 Nov 2026).

@@ -1,0 +1,126 @@
+/* Charcuterie board ideas feature page (23 Nov 2026): quick picks, the finder,
+   idea cards, by-the-numbers table and holiday calendar. Lives inside the
+   760 px post column; .bi-wide breaks out to 1180 px for the card grid. */
+.post-body .bi-wide { position: relative; left: 50%; width: min(1180px, calc(100vw - 32px)); transform: translateX(-50%); }
+.post-body [hidden] { display: none !important; }
+
+/* Quick picks */
+.post-body .bi-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 18px 0 30px; font-family: var(--sans); }
+.post-body .bi-pick { display: flex; align-items: center; gap: 10px; min-width: 0; padding: 8px; color: var(--ink); text-decoration: none; background: #fff; border: 1px solid rgba(143, 68, 34, 0.18); border-radius: 12px; transition: border-color .15s, box-shadow .15s; }
+.post-body .bi-pick:hover { border-color: var(--green); box-shadow: 0 6px 16px rgba(55, 35, 25, 0.1); }
+.post-body .bi-pick img { flex: 0 0 64px; width: 64px; height: 64px; object-fit: cover; border-radius: 8px; margin: 0; }
+.post-body .bi-pick span { display: block; min-width: 0; font-size: 15px; line-height: 1.3; }
+.post-body .bi-pick b { display: block; margin-bottom: 2px; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--green-deep); }
+
+/* Finder bar */
+.post-body .bi-finder { margin: 10px 0 40px; font-family: var(--sans); }
+.post-body .bi-bar { padding: 14px 16px 10px; background: var(--cream); border: 1px solid rgba(143, 68, 34, 0.16); border-radius: 14px; }
+@media (min-width: 761px) { .post-body .bi-finder.is-live .bi-bar { position: sticky; top: 64px; z-index: 15; box-shadow: 0 6px 18px rgba(55, 35, 25, 0.08); } }
+.post-body .bi-finder:not(.is-live) .bi-selects, .post-body .bi-finder:not(.is-live) .bi-count { display: none; }
+.post-body .bi-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.post-body .bi-chip { padding: 7px 12px; font-size: 14.5px; font-weight: 600; line-height: 1.1; color: var(--green-deep); background: #fff; border: 1px solid rgba(143, 68, 34, 0.28); border-radius: 999px; cursor: pointer; white-space: nowrap; }
+.post-body .bi-chip span { font-weight: 500; color: var(--muted); font-size: 13px; }
+.post-body .bi-chip:hover { border-color: var(--green); }
+.post-body .bi-chip.is-on { color: #fff; background: var(--green-deep); border-color: var(--green-deep); }
+.post-body .bi-chip.is-on span { color: #f6e3cf; }
+.post-body .bi-chip:focus-visible, .post-body .bi-selects select:focus-visible, .post-body .bi-selects input:focus-visible, .post-body .bi-more:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.post-body .bi-selects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(0, 1.4fr); gap: 8px; }
+.post-body .bi-selects label { display: block; min-width: 0; margin: 0; }
+.post-body .bi-selects label > span { display: block; margin: 0 0 2px 2px; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.post-body .bi-selects select, .post-body .bi-selects input { width: 100%; height: 40px; padding: 0 10px; font-size: 16px; color: var(--ink); background: #fff; border: 1px solid rgba(143, 68, 34, 0.28); border-radius: 10px; }
+.post-body .bi-count { margin: 8px 2px 0; font-size: 14.5px; color: var(--muted); }
+.post-body .bi-count span { font-weight: 700; color: var(--ink); }
+.post-body .bi-clear, .post-body .bi-none button { padding: 0; margin-left: 8px; font: inherit; font-weight: 600; color: var(--green-deep); text-decoration: underline; background: none; border: 0; cursor: pointer; }
+.post-body .bi-none { margin: 24px 0; padding: 16px; font-size: 17px; text-align: center; background: #fff; border: 1px dashed rgba(143, 68, 34, 0.35); border-radius: 12px; }
+
+/* Sections and cards */
+.post-body .bi-sec { margin: 34px 0 0; scroll-margin-top: 240px; }
+.post-body .bi-sec h2 { margin: 0 0 4px; font-size: clamp(26px, 3.2vw, 34px); line-height: 1.15; }
+.post-body .bi-n { display: inline-block; margin-left: 6px; padding: 2px 9px; vertical-align: middle; font-family: var(--sans); font-size: 14px; font-weight: 700; color: var(--green-deep); background: rgba(202, 166, 82, 0.22); border-radius: 999px; }
+.post-body .bi-lead { max-width: 760px; margin: 0 0 14px; font-size: 17px; line-height: 1.5; color: var(--muted); }
+.post-body .bi-lead a { font-weight: 600; white-space: nowrap; }
+.post-body ul.bi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; border: 0; background: none; box-shadow: none; }
+.post-body ul.bi-grid > li { margin: 0; padding: 0; }
+.post-body ul.bi-grid > li::before { content: none; display: none; }
+.post-body .bi-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; background: #fff; border: 1px solid rgba(143, 68, 34, 0.14); border-radius: 14px; box-shadow: 0 2px 8px rgba(55, 35, 25, 0.05); transition: box-shadow .15s, transform .15s; }
+.post-body .bi-card:hover { box-shadow: 0 10px 24px rgba(55, 35, 25, 0.12); transform: translateY(-2px); }
+.post-body .bi-card-img { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: var(--cream); }
+.post-body .bi-card-img img { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; border-radius: 0; box-shadow: none; }
+.post-body .bi-card-body { display: flex; flex: 1; flex-direction: column; padding: 11px 13px 13px; }
+.post-body .bi-label { order: -1; margin: 0 0 3px; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gold-dark); }
+.post-body .bi-card h3 { margin: 0 0 5px; font-size: 18px; line-height: 1.22; }
+.post-body .bi-card h3 a { color: var(--ink); text-decoration: none; }
+.post-body .bi-card h3 a::after { content: ""; position: absolute; inset: 0; }
+.post-body .bi-card { position: relative; }
+.post-body .bi-card h3 a:hover { color: var(--green-deep); text-decoration: underline; }
+.post-body .bi-facts { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 0 0 7px; font-size: 13.5px; font-weight: 600; color: var(--green-deep); }
+.post-body .bi-facts span + span::before { content: "·"; margin-right: 10px; color: rgba(143, 68, 34, 0.45); }
+.post-body .bi-hook { margin: 0 0 7px; font-size: 15px; line-height: 1.42; color: var(--ink); }
+.post-body .bi-on { margin: auto 0 0; padding-top: 7px; font-size: 13.5px; line-height: 1.4; color: var(--muted); border-top: 1px dashed rgba(143, 68, 34, 0.2); }
+.post-body .bi-on b { color: var(--ink); }
+.post-body ul.bi-grid > li.bi-sub { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 8px 0 -4px; padding: 0 0 4px; font-size: 15px; border-bottom: 2px solid rgba(202, 166, 82, 0.45); }
+.post-body ul.bi-grid > li.bi-sub:first-child { margin-top: 0; }
+.post-body .bi-sub > span { font-family: var(--serif); font-size: 20px; font-weight: 700; color: var(--green-deep); }
+.post-body .bi-sub time { margin-left: 6px; font-family: var(--sans); font-size: 13px; font-weight: 700; color: var(--muted); }
+.post-body .bi-sub a { margin-left: auto; font-size: 14px; font-weight: 600; }
+.post-body .bi-finder.is-live .bi-sec.is-capped:not(.is-open):not(.is-filtered) .bi-x { display: none; }
+.post-body .bi-more { display: none; margin: 14px auto 0; padding: 10px 18px; font-family: var(--sans); font-size: 15.5px; font-weight: 700; color: var(--green-deep); background: #fff; border: 1.5px solid var(--green); border-radius: 999px; cursor: pointer; }
+.post-body .bi-finder.is-live .bi-sec.is-capped:not(.is-filtered) .bi-more { display: block; }
+.post-body .bi-more:hover { color: #fff; background: var(--green-deep); }
+
+/* By the numbers */
+.post-body .bi-stats { margin: 10px 0 30px; font-family: var(--sans); }
+.post-body .bi-stat-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 14px; }
+.post-body .bi-stat-row p { margin: 0; padding: 12px 12px 10px; font-size: 14px; line-height: 1.3; color: var(--muted); text-align: center; background: var(--cream); border-radius: 12px; }
+.post-body .bi-stat-row b { display: block; margin-bottom: 2px; font-family: var(--serif); font-size: 26px; color: var(--green-deep); }
+.post-body .bi-table-wrap { overflow-x: auto; }
+.post-body .bi-table { width: 100%; border-collapse: collapse; font-size: 15.5px; }
+.post-body .bi-table caption { margin: 0 0 6px; font-weight: 700; text-align: left; color: var(--ink); }
+.post-body .bi-table th, .post-body .bi-table td { min-width: 0; width: auto; padding: 8px 10px; text-align: right; vertical-align: middle; border-bottom: 1px solid rgba(143, 68, 34, 0.14); white-space: nowrap; }
+.post-body .bi-table tbody th { font-size: 15.5px; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--green-deep); background: rgba(202, 166, 82, 0.12); }
+.post-body .bi-table tbody th a { color: inherit; }
+.post-body .bi-table td:first-child { width: auto; }
+.post-body .bi-table th:first-child { text-align: left; }
+.post-body .bi-table thead th { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: #fff9eb; }
+.post-body .bi-note { margin: 10px 0 0; font-size: 14.5px; line-height: 1.5; color: var(--muted); }
+
+/* Holiday calendar */
+.post-body ul.bi-hols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 10px 0 30px; padding: 0; list-style: none; font-family: var(--sans); border: 0; background: none; box-shadow: none; }
+.post-body ul.bi-hols li { margin: 0; padding: 0; }
+.post-body ul.bi-hols li::before { content: none; display: none; }
+.post-body .bi-hols a { display: flex; align-items: center; gap: 10px; height: 100%; padding: 9px 11px; font-size: 15px; line-height: 1.25; color: var(--ink); text-decoration: none; background: #fff; border: 1px solid rgba(143, 68, 34, 0.16); border-radius: 10px; }
+.post-body .bi-hols a:hover { border-color: var(--green); }
+.post-body .bi-hols time { flex: 0 0 auto; min-width: 54px; padding: 4px 6px; font-size: 12.5px; font-weight: 700; text-align: center; color: #fff; background: var(--green-deep); border-radius: 6px; }
+
+@media (max-width: 1100px) { .post-body ul.bi-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .post-body ul.bi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .post-body .bi-picks { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .post-body .bi-selects { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .post-body .bi-search { grid-column: 1 / -1; }
+  .post-body .bi-stat-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .post-body ul.bi-hols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .post-body .bi-bar { padding: 10px 10px 8px; border-radius: 12px; }
+  .post-body .bi-chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -10px 8px; padding: 0 10px 2px; scrollbar-width: none; }
+  .post-body .bi-chips::-webkit-scrollbar { display: none; }
+  .post-body .bi-chip { padding: 7px 11px; font-size: 14px; }
+  .post-body .bi-selects { gap: 6px; }
+  .post-body .bi-selects select, .post-body .bi-selects input { height: 38px; padding: 0 6px; font-size: 15px; }
+  .post-body .bi-selects label > span { font-size: 11px; }
+  .post-body .bi-sec { scroll-margin-top: 76px; }
+  .post-body .bi-card-body { padding: 9px 10px 11px; }
+  .post-body .bi-card h3 { font-size: 16px; }
+  .post-body .bi-facts { font-size: 12.5px; gap: 2px 8px; }
+  .post-body .bi-facts span + span::before { margin-right: 8px; }
+  .post-body .bi-hook { font-size: 14px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .post-body .bi-on { font-size: 12.5px; }
+  .post-body .bi-pick img { flex-basis: 52px; width: 52px; height: 52px; }
+  .post-body .bi-pick span { font-size: 14px; }
+  .post-body .bi-lead { font-size: 16px; }
+  .post-body .bi-lead a { white-space: normal; }
+  .post-body ul.bi-hols { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) { .post-body ul.bi-grid { grid-template-columns: 1fr; } }
+@media print { .post-body .bi-bar, .post-body .bi-more { display: none !important; } .post-body .bi-x { display: block !important; } }

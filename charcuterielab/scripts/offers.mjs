@@ -531,8 +531,6 @@ ${QS_JS}`;
             return `<div class="table-wrap t-stack${heads.length >= 3 ? " t-stack-labels" : ""}"><table>${body}</table></div>`;
           });
           html = foldFaq(html);
-          // The 50-board list: photos become thumbnails beside each board on phones.
-          if (path === "/blog/charcuterie-board-ideas/") html = html.replace('<article class="post-body">', '<article class="post-body ideas-list">');
           // One sticky bar per page, always the matched offer.
           html = html.replace(/<div class="fx-sticky"[\s\S]*?<\/script>/, "");
           const formId = (html.match(/class="fx-bh-form" id="([^"]+)"/) || [])[1];

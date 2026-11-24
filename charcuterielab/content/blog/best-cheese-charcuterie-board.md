@@ -143,7 +143,7 @@ Not sure what goes with the cheese you bought? Look it up in the [Pairing Finder
 ## Related Reading
 
 - [Types of Cheese: 100 Cheeses Explained, With a Chart](/blog/types-of-cheese/)
-- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
+- [Charcuterie Board Ideas: 170+ Boards for Every Occasion](/blog/charcuterie-board-ideas/)
 - [Party Planner: Exact Amounts for 4 to 200 Guests](/party-planner/)
 - [How Many Cheeses Should Be on a Charcuterie Board?](https://charcuterielab.com/blog/how-many-cheeses/)
 - [What Goes on a Charcuterie Board?](https://charcuterielab.com/blog/what-goes-on-charcuterie-board/)

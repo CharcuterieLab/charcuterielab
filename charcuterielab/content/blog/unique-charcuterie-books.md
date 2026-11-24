@@ -231,7 +231,7 @@ Walk the cookbook aisle and most charcuterie books look the same: a beautiful bo
 
 ## Related Reading
 
-- [50 Charcuterie Board Ideas for Every Occasion](/blog/charcuterie-board-ideas/)
+- [Charcuterie Board Ideas: 170+ Boards for Every Occasion](/blog/charcuterie-board-ideas/)
 - [Themed Charcuterie Board Ideas: 25 Shaped Boards](/blog/themed-charcuterie-board-ideas/)
 - [25 Unique Charcuterie Board Ingredients](/blog/unique-charcuterie-ingredients/)
 - [The Best Charcuterie Books to Give as a Gift](/gifts/charcuterie-books/)

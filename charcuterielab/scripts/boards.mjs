@@ -1,6 +1,7 @@
 // Board Library: /boards/ hub, one page per category, one page per board.
 // Content lives in content/boards/<slug>.json. Only "status": "published" boards
 // are built, listed and put in the sitemap; drafts wait for their wave.
+import { sectionOf } from "./board-ideas.mjs";
 import { access, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { plan as partyPlan, COUNTS as PARTY_COUNTS_B, urlFor as partyUrlB } from "./party.mjs";
@@ -373,14 +374,14 @@ export function boardsHub(h, boards, { season = "", books = [], packs = [], samp
     </div>
   </section>`;
   return h.layout({
-    title: `Charcuterie Board Ideas: ${boards.length} Boards for Every Occasion | Charcuterie Lab`,
+    title: `Board Library: ${boards.length} Charcuterie Boards with Printable Plans | Charcuterie Lab`,
     canonical: "/boards/",
     image: boards.find((b) => !b.placeholder)?.image,
-    description: `${boards.length} charcuterie board ideas for every occasion, holiday, diet and budget. Each board shows what goes on it, how much to buy and why it works.`,
+    description: `The Board Library: ${boards.length} charcuterie boards, each with what goes on it, how much to buy, a timeline and a free printable plan. Filter by type, guests and budget.`,
     head: `${itemListSchema(h, "Charcuterie Lab Board Library", "/boards/", boards)}\n${breadcrumbSchema(h, [["Boards", "/boards/"]])}
   <script type="application/ld+json">${h.jsonForScript({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) })}</script>`,
     body: `<main class="bl-main">
-${finder(h, ordered, { heading: "Charcuterie board ideas for every occasion", intro: `Browse ${boards.length} boards free. Every one has a printable plan on its page &mdash; the shopping list with how much to buy and the full timeline &mdash; free for your email.`, capped: true, books: bookFor, extra: `\n    ${hubSignup(h, boards.length)}\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">50 boards by cost and time</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
+${finder(h, ordered, { heading: `The Board Library: ${boards.length} charcuterie boards`, intro: `${boards.length} boards with full plans. Looking for inspiration first? See <a href="/blog/charcuterie-board-ideas/">charcuterie board ideas</a>, sorted by occasion. Every board here has a printable plan on its page &mdash; the shopping list with how much to buy and the full timeline &mdash; free for your email.`, capped: true, books: bookFor, extra: `\n    ${hubSignup(h, boards.length)}\n    ${promise}${season ? `\n    ${season}` : ""}\n    <h2 class="bl-all-h">All ${boards.length} boards</h2>\n    <p class="bl-all-sub">Still choosing a theme? See <a href="/blog/charcuterie-board-ideas/">all charcuterie board ideas</a> or the <a href="/holidays/">holiday boards</a>, and size any board with the <a href="/party-planner/">Party Planner</a>.</p>` })}
 ${packHtml}
 ${bookHtml}
 ${sampleHtml}
@@ -895,7 +896,7 @@ ${[...related, ...fill].map((x) => card(x, h, { plain: true })).join("\n")}
       </ul>
       ${blogs.length ? `<p class="bl-note">Want more ideas? Read ${blogs.map((s) => `<a href="/blog/${s}/">${h.escapeHtml(blogTitles.get(s))}</a>`).join(" or ")}.</p>` : ""}
       ${hub ? `<p class="bl-note">More ideas: <a href="/boards/${cat.slug}/">${h.escapeHtml(hub.link_text || hub.h1)}</a></p>` : ""}
-      <p class="bl-note"><a href="/boards/">All boards &rarr;</a></p>
+      <p class="bl-note">More like this in <a href="/blog/charcuterie-board-ideas/#${sectionOf(b)}">charcuterie board ideas</a>, or browse the <a href="/boards/">Board Library</a>.</p>
     </section>
 
     ${bookPitch}
