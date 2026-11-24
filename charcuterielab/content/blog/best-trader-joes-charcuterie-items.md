@@ -149,6 +149,8 @@ For 8 to 10 guests, pick:
 
 Plan on about 3 oz of meat and 3 oz of cheese per guest in total when the board is the party food, or 2 oz each before a meal. Our [Trader Joe's charcuterie board shopping list](/blog/trader-joes-charcuterie-board/) has the full cart for 10 with prices.
 
+**Priced at Trader Joe's:** two boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced at Trader Joe's: a $30 [Mediterranean mezze board](/boards/greek-mediterranean-board/) for ten at about $27.70 and a $50 [cheese lover's board](/boards/all-cheese-board/) with five cheeses at about $47.74. See [every board by price](/boards/by-price/).
+
 ## What to skip
 
 The Spicy Uncured Charcuterie Collection (coppa, sopressa and cooked capocolla) is good, but [Tasting Table](https://www.tastingtable.com/2203603/best-trader-joes-meats-charcuterie-board/) notes some people find it too spicy, so pair it with a mild meat. And check the meat case date: sliced meats go faster once opened, so buy them within a day or two of the party.

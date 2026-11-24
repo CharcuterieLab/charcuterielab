@@ -78,6 +78,23 @@ export const IMPOSSIBLE_BOOK = {
   paperbackPrice: "$24.99"
 };
 
+// Book 9 (23 Nov 2026): Charcuterie on Any Budget. The paperback went to KDP
+// review on 23 Nov; when it's live, paste its Amazon URL into paperbackUrl and
+// every button, the shelf and the schema switch over on the next build.
+// The six $5 packs are one price level each (4 boards, 27 pages) on Gumroad.
+export const BUDGET_BOOK = {
+  title: "Charcuterie Lab: Charcuterie on Any Budget",
+  short: "Charcuterie on Any Budget",
+  ebookUrl: "https://charcuterieflavor.gumroad.com/l/charcuterie-on-any-budget",
+  ebookPrice: "$9.99",
+  cover: "/images/books/budget-cover.jpg",
+  paperbackUrl: "",
+  paperbackPrice: "$18.99",
+  path: "/books/charcuterie-on-any-budget/",
+  packPrice: "$5",
+  packs: { "15": "https://charcuterieflavor.gumroad.com/l/budget-15-boards", "30": "https://charcuterieflavor.gumroad.com/l/budget-30-boards", "50": "https://charcuterieflavor.gumroad.com/l/budget-50-boards", "100": "https://charcuterieflavor.gumroad.com/l/budget-100-boards", "250": "https://charcuterieflavor.gumroad.com/l/budget-250-boards", crowd: "https://charcuterieflavor.gumroad.com/l/budget-crowd-boards" }
+};
+
 export const PLANT_BOOK = {
   title: "Charcuterie Lab: 15 Show-Stopping Plant-Based Boards",
   // Gumroad ebook (PDF) is the main button since 5 Oct 2026; Kindle is the second option.
@@ -110,7 +127,7 @@ export async function loadBoards(root) {
     return [];
   }
   const all = await Promise.all(files.map(async (f) => JSON.parse(await readFile(join(dir, f), "utf8"))));
-  const order = (b) => ({ plant: 100, world: 200, two: 300, keto: 400, impossible: 500 }[b.book] || 0) + Number(b.number.slice(3));
+  const order = (b) => ({ plant: 100, world: 200, two: 300, keto: 400, impossible: 500, budget: 600 }[b.book] || 0) + Number(b.number.slice(3));
   const exists = (p) => access(join(root, "public", p)).then(() => true, () => false);
   // A board whose photo isn't in public/ yet gets a typographic placeholder
   // (written by build.mjs) and no social/schema image until the photo lands.
@@ -445,7 +462,8 @@ function bookBoardOf(h, board) {
 const SERIES = {
   two: { B: TWO_BOOK, what: "the shopping list for two with amounts and prices, the prep countdown, the step-by-step build and the drink to pour", more: "24 more boards for two" },
   keto: { B: KETO_BOOK, what: "the shopping list with the net carbs of every item, full macros per serving, the step-by-step build and the carb traps to avoid", more: "19 more keto boards" },
-  impossible: { B: IMPOSSIBLE_BOOK, what: "the full shopping list, the layout, all eight build steps with the trick that makes the shape work, and easy, budget and luxe versions", more: "24 more showpiece boards" }
+  impossible: { B: IMPOSSIBLE_BOOK, what: "the full shopping list, the layout, all eight build steps with the trick that makes the shape work, and easy, budget and luxe versions", more: "24 more showpiece boards" },
+  budget: { B: BUDGET_BOOK, what: "the shopping receipt with the estimated price of every item, the seven build steps, the prep timeline and the swaps to spend less or more", more: "23 more boards from $15 to $250" }
 };
 // Book box for a category ideas page backed by a series book (two, keto, impossible), 1 Nov 2026
 export function seriesHubBox(h, key, campaign) {

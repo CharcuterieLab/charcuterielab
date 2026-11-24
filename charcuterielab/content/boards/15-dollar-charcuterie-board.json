@@ -1,0 +1,109 @@
+{
+ "number": "BB-01",
+ "book": "budget",
+ "slug": "15-dollar-charcuterie-board",
+ "title": "The $15 Snack Board for Four",
+ "h1": "$15 Charcuterie Board for 4",
+ "seo_title": "$15 Charcuterie Board for 4: What to Buy (Aldi List)",
+ "description": "A $15 charcuterie board for 4 at Aldi: brie, sharp cheddar, Genoa salami, butter crackers and grapes, about $12.81 total or $3.20 a guest, and how to build it.",
+ "category": "classic-budget-luxury",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/budget-01.webp",
+ "hook": "Fifteen dollars buys two cheeses, one salami and the two things every board needs: a cracker and a fruit. At Aldi it comes to about $12.81, with room left for a jar of fig spread.",
+ "serves": "4",
+ "guests": 4,
+ "board_size": "12-inch round board",
+ "prep_time": "15 min",
+ "cost": "About $13",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Double-crème brie, 7 oz",
+     "slug": "brie"
+    },
+    {
+     "name": "Sharp cheddar block, 8 oz",
+     "slug": "aged-cheddar"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Genoa salami, sliced, 8 oz",
+     "slug": "genoa-salami"
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Round butter crackers, 1 box",
+     "slug": "butter-crackers"
+    }
+   ]
+  },
+  {
+   "name": "Fruit",
+   "items": [
+    {
+     "name": "Red seedless grapes, 1 lb",
+     "slug": "grapes"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "A soft cheese next to a sharp one is the oldest pairing trick there is. Creamy brie and tangy cheddar taste like two different boards, so five items feel like more. Genoa salami is the cheapest cured meat with real flavor, and folding it into quarters gives the board height.",
+  "The money goes where guests notice it: about 60 percent on cheese and meat, the rest on one box of crackers and a pound of grapes. Shingling the crackers in a curved row between the cheeses and the salami ties the board together and fills it without buying more food."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Take the brie out of the fridge so it softens."
+  },
+  {
+   "when": "20 min before",
+   "what": "Slice the cheddar and cut the brie into 8 wedges."
+  },
+  {
+   "when": "15 min before",
+   "what": "Fold the salami into quarters."
+  },
+  {
+   "when": "10 min before",
+   "what": "Rinse and dry the grapes; snip into small clusters."
+  },
+  {
+   "when": "When guests arrive",
+   "what": "Build the board and fill the gaps with crackers."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you make a charcuterie board for $15?",
+   "a": "Yes, for four people. A double-crème brie, an 8 oz block of sharp cheddar, a pack of Genoa salami, a box of round butter crackers and a pound of grapes came to about $12.81 at Aldi at regular fall 2026 prices."
+  },
+  {
+   "q": "How much charcuterie do you need for 4 people?",
+   "a": "This board gives each guest about 3.8 oz of cheese and 2 oz of salami, which is plenty as a snack or before dinner. As the main food, add a second meat."
+  },
+  {
+   "q": "What's the cheapest store for a charcuterie board?",
+   "a": "Aldi had the lowest total in the Charcuterie Lab Price Index: $33.90 for a nine-item board for ten, against $42.52 at Walmart, $44.29 at Kroger and $50.20 at Trader Joe's."
+  },
+  {
+   "q": "What would I add with the $2 left over?",
+   "a": "A jar of fig spread next to the brie ($2.99) is the best upgrade; a second pound of grapes is the cheapest way to make the board look fuller."
+  }
+ ],
+ "blog": [],
+ "updated": "2026-11-23",
+ "date": "2026-11-23"
+}

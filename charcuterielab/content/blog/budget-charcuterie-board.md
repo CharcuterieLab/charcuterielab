@@ -94,8 +94,11 @@ A $25 board can genuinely impress. Sharp cheddar, dry salami, baguette crostini,
 
 Want real numbers? [How much a charcuterie board costs](/blog/how-much-does-a-charcuterie-board-cost/) breaks down the cost per guest at three levels.
 
+Working with even less? The [$15 charcuterie board for four](/boards/15-dollar-charcuterie-board/) comes to about $12.81 at Aldi, and [24 boards by price](/boards/by-price/) goes from there up to $250, with a crowd board for 50 at about $145.
+
 ## Related Reading
 
+- [Charcuterie Boards by Price: $15 to $250](/boards/by-price/)
 - [The Best Aldi Charcuterie Board Items, Ranked](/blog/best-aldi-charcuterie-items/)
 - [The Best Walmart Charcuterie Board Items, Ranked](/blog/best-walmart-charcuterie-items/)
 - [The Best Sam's Club Charcuterie Board Items, Ranked](/blog/best-sams-club-charcuterie-items/)

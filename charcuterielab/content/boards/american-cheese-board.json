@@ -1,0 +1,128 @@
+{
+ "number": "BB-19",
+ "book": "budget",
+ "slug": "american-cheese-board",
+ "title": "The Award-Winning American Cheese Board",
+ "h1": "American Cheese Board: Six Award-Winning American Cheeses",
+ "seo_title": "American Cheese Board: 6 Award-Winning American Cheeses for 10",
+ "description": "An American cheese board for 10 with six farmstead styles: alpine, spruce-bark soft cheese, clothbound cheddar, ash-ripened goat, cave-aged blue and washed rind, with honeycomb and pears.",
+ "category": "classic-budget-luxury",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/budget-19.webp",
+ "hook": "This is where $250 goes furthest for cheese lovers: six American farmstead cheeses in six different styles, the kind that win national competitions, from a good cheese shop.",
+ "serves": "10",
+ "guests": 10,
+ "board_size": "Marble slab, about 26 by 16 inches",
+ "prep_time": "40 min",
+ "cost": "About $196",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Alpine-style raw-milk cheese, about 12 oz",
+     "slug": null
+    },
+    {
+     "name": "Spruce-bark-wrapped soft cheese, 9 oz round",
+     "slug": "harbison"
+    },
+    {
+     "name": "Clothbound cheddar, about 12 oz",
+     "slug": "aged-cheddar"
+    },
+    {
+     "name": "Ash-ripened goat cheese pyramid, 6 oz",
+     "slug": null
+    },
+    {
+     "name": "Cave-aged blue, about 8 oz",
+     "slug": null
+    },
+    {
+     "name": "Washed-rind cheese, about 8 oz",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Sweet & nuts",
+   "items": [
+    {
+     "name": "Honeycomb, 8 oz",
+     "slug": "honeycomb"
+    },
+    {
+     "name": "Apple butter, 1 jar",
+     "slug": "apple-butter"
+    },
+    {
+     "name": "Candied walnuts, 8 oz",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Fruit & crackers",
+   "items": [
+    {
+     "name": "Pears, red and green",
+     "slug": "pears"
+    },
+    {
+     "name": "Champagne grapes or red grapes, 1 lb",
+     "slug": "champagne-grapes"
+    },
+    {
+     "name": "Walnut-raisin crisps, 2 boxes",
+     "slug": "fruit-and-nut-crisps"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Six cheeses in six styles means every one tastes different: a nutty alpine, a spoonable spruce-bark round, a craggy clothbound cheddar, a tangy ash-ripened goat, a cave-aged blue and a funky washed rind. Cutting each one its own way tells guests they are six different cheeses.",
+  "Space the strong ones apart so the washed rind and blue don't overpower the alpine and goat. Honeycomb softens the blue and the goat, apple butter goes with the cheddar, and juicy pears are the best palate cleanser between strong cheeses."
+ ],
+ "timeline": [
+  {
+   "when": "60 min before",
+   "what": "Take out all six cheeses."
+  },
+  {
+   "when": "30 min before",
+   "what": "Cut each cheese its own way."
+  },
+  {
+   "when": "20 min before",
+   "what": "Peel back the top rind on the spruce-bark round."
+  },
+  {
+   "when": "10 min before",
+   "what": "Slice the pears; set out the honeycomb."
+  },
+  {
+   "when": "When guests arrive",
+   "what": "Build the board."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the best American cheeses for a cheese board?",
+   "a": "Pick one of each style: an alpine (Gruyère-style) cheese, a spruce-bark soft cheese, a clothbound cheddar, an ash-ripened goat cheese, a cave-aged blue and a washed rind. A good cheese shop can point you to the award winners in each style."
+  },
+  {
+   "q": "How much does an American artisan cheese board cost?",
+   "a": "This one comes to about $196 for 10 from a cheese shop at regular fall 2026 prices, before shipping if you order online. Using 8 oz wedges of the alpine and cheddar saves about $17.50."
+  },
+  {
+   "q": "How do you serve a spruce-bark cheese?",
+   "a": "Peel back the top rind and set a small spoon in it. This style is meant to be spooned, not sliced."
+  }
+ ],
+ "blog": [],
+ "updated": "2026-11-23",
+ "date": "2026-11-23"
+}

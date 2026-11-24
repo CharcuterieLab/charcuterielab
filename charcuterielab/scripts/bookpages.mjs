@@ -12,7 +12,7 @@
 
 const money = (lo, hi) => (lo === hi ? `$${lo}` : `$${lo}–${hi}`);
 
-export function bookLandingPages(h, { keto, two, plant, impossible, books }) {
+export function bookLandingPages(h, { keto, two, plant, impossible, budget, books }) {
   const esc = h.escapeHtml;
   const T = (u, c) => h.withTracking(u, c);
   const pages = [];
@@ -98,6 +98,7 @@ export function bookLandingPages(h, { keto, two, plant, impossible, books }) {
       ${b.listNote ? `<p class="bk-fine">${b.listNote}</p>` : ""}
     </div>
   </section>
+${b.extra || ""}
 
   <section class="ebook-section bk-sample" id="sample" aria-labelledby="bk-sample-h">
     <div class="ebook-section-inner">
@@ -354,6 +355,71 @@ export function bookLandingPages(h, { keto, two, plant, impossible, books }) {
       ],
       finalLine: "Pick a board, follow the trick, and watch everyone reach for their phones.",
       related: [["Themed charcuterie board ideas", "/blog/themed-charcuterie-board-ideas/"], ["Jack-o'-Lantern charcuterie board", "/blog/jack-o-lantern-charcuterie-board/"], ["Charcuterie gift ideas", "/gifts/charcuterie-books/"]]
+    };
+    pages.push({ path: b.path, html: page(b) });
+  }
+
+  // ------------------------------------------------------------ Charcuterie on Any Budget (Book 9, Nov 2026)
+  if (budget && budget.boards && books.find((x) => x.key === "budget")) {
+    const bk = books.find((x) => x.key === "budget");
+    const B = budget.boards;
+    const m = (v) => `$${Number(v).toFixed(2)}`;
+    const s = B.find((x) => x.n === budget.sample.n);
+    const groups = {};
+    for (const [name, size, q, p, line, g] of budget.sample.items) (groups[g] = groups[g] || []).push([name, size, `${q} × ${m(p)}`, m(line)]);
+    const packs = budget.sections.map((sec) => {
+      const first = B.find((x) => x.n === sec.boards[0]);
+      return `<article class="bp-pack"><img src="${esc(first.photo)}" alt="" width="800" height="537" loading="lazy" decoding="async">
+        <h3>${esc(sec.name)}</h3><p class="bp-pack-sub">${esc(sec.sub)}</p>
+        <p>${sec.boards.map((n) => esc(B.find((x) => x.n === n).title)).join(" · ")}</p>
+        <a class="button" href="${esc(T(bk.packs[sec.key], `budget_pack_${sec.key}`))}" target="_blank" rel="noopener">Get the 4 boards · ${esc(bk.packPrice)}</a></article>`;
+    }).join("\n        ");
+    const b = {
+      ...bk,
+      seoTitle: "Charcuterie on Any Budget: 24 Boards from $15 to $250, Each Priced",
+      kicker: "Ebook & paperback · 24 boards · a priced receipt for each",
+      h1: "Charcuterie on Any Budget: 24 boards from $15 to $250, each with a priced shopping list",
+      description: "A 144-page book of 24 charcuterie boards built to a budget: $15 for four, $30, $50, $100 and $250 for ten, and crowd boards for 20 to 100 guests. Every board has a shopping list printed like a store receipt, with the estimated price of each item.",
+      lead: "<strong>Charcuterie on Any Budget</strong> is 24 charcuterie boards built to a set price, from a <strong>$15 snack board for four</strong> to a <strong>$250 caviar board for ten</strong>, plus crowd boards for 20 to 100 guests at under $3 a head. Every board has a receipt-style shopping list with the estimated price of each item, so you know the total before you shop.",
+      metrics: [["24", "boards"], ["$15–$250", "price points"], ["144", "pages"], ["6", "stores priced"]],
+      facts: [["Formats", "PDF ebook (144 pages, instant download) and a full-colour paperback, 8.5 × 11 in"], ["Boards", "24: four each at $15 (for 4), $30, $50, $100 and $250 (for 10), and four crowd boards for 20, 30, 50 and 100 guests"], ["Each board", "Photo and stats, a store-receipt shopping list, 7 build steps, a prep timeline, where the money goes, and swaps to move a rung down or up"], ["Stores", "Aldi, Walmart, Kroger, Trader Joe's, Sam's Club and Whole Foods, plus specialty shops for the $250 boards"], ["Prices", "Estimated regular prices for fall 2026, before tax; the $15 and $30 boards build on the Charcuterie Lab Price Index"], ["Price", `${esc(bk.ebookPrice)} ebook on Gumroad · ${esc(bk.packPrice)} for one price level · paperback ${esc(bk.paperbackPrice)}`]],
+      galleryTitle: "From $15 to $250",
+      gallery: [1, 5, 9, 13, 17, 23].map((n) => [B[n - 1].photo, `${B[n - 1].title} · ${B[n - 1].label}`]),
+      includes: [["A receipt for every board", "Every item with its size, quantity and estimated price, the total, the room left under budget and the cost per guest."], ["Seven build steps", "Where each food goes on the board, in order, and why it goes there."], ["Prep timeline", "What to do 30 minutes out, 15 minutes out and when guests arrive."], ["Where the money goes", "A chart of how much of the bill is meat, cheese, crackers, fruit and extras."], ["Move down, move up", "Three swaps that save money and three upgrades that take the board a rung higher, each with the new total."], ["The same board elsewhere", "What the board costs at other stores, and what to do with the leftovers."]],
+      count: 24,
+      listTitle: "The 24 boards, by price",
+      listHead: ["#", "Board", "Price", "Store", "Estimated total", "Per guest"],
+      rows: B.map((x) => [x.num, `<a href="${esc(x.page)}">${esc(x.title)}</a>`, esc(x.label), esc(x.store), m(x.total), m(x.perGuest)]),
+      listNote: "Estimated regular prices for fall 2026, before tax, at the store named. Every total is at or under its price. The online items on the $250 boards are listed without shipping. <a href=\"/boards/by-price/\">See every board by price, with photos</a>.",
+      extra: `<section class="ebook-section bp-packs-sec" id="packs" aria-labelledby="bp-packs-h">
+    <div class="ebook-section-inner">
+      <p class="section-kicker">Just need one price?</p>
+      <h2 id="bp-packs-h">The four boards at your price, ${esc(bk.packPrice)}</h2>
+      <p>Each pack is one rung of the book as a 27-page printable PDF: four complete boards plus how much to buy per guest, ten ways to spend less and the swap price chart. Your receipt includes $3 off the full ebook.</p>
+      <div class="bp-packs">
+        ${packs}
+      </div>
+    </div>
+  </section>`,
+      sample: {
+        title: s.title,
+        intro: `Board ${s.n} is the classic board for ten, at ${esc(s.store)}: <strong>${m(s.total)}</strong> in total, ${m(s.perGuest)} a guest, with ${m(s.room)} left under its $30 price. Here's its receipt, exactly as it appears in the book.`,
+        cols: ["Item", "Size", "Qty × price", "Total"],
+        groups: Object.entries(groups).map(([name, items]) => ({ name, items })),
+        after: `<strong>Estimated total: ${m(budget.sample.total)}.</strong> Regular prices, before tax. The book also shows what this list costs at Walmart, Kroger and Trader Joe's, and the swaps that move it down to $25 or up to $35.`,
+        upsell: "The book has 23 more, from a $15 snack board for four to a grazing table for 100, each with the same receipt, seven build steps and the swaps to move a rung down or up."
+      },
+      looks: [["/images/books/budget/look-1.webp", "The 24 boards at a glance"], ["/images/books/budget/look-2.webp", "Board 9: the overview page"], ["/images/books/budget/look-3.webp", "Board 9: the receipt"]],
+      faq: [
+        ["How much does a charcuterie board cost?", "In this book, about $3 to $5 a guest for an everyday board, $7 to $9 a guest for a cheese-counter board and $20 to $23 a guest for a splurge. A board for four can cost $15, a board for ten $30 to $250, and a crowd board for 50 about $145."],
+        ["Are the prices real?", "They're estimates of regular shelf prices in fall 2026, before tax, at the store named on each board. The $15 and $30 boards build on the Charcuterie Lab Price Index, which priced the same nine items at Aldi, Walmart, Kroger and Trader Joe's in October 2026. Prices vary by region and season, so treat each total as a close guide."],
+        ["Which stores are the boards priced at?", "Aldi, Walmart, Kroger, Trader Joe's, Sam's Club and Whole Foods. The $250 boards add a cheese shop or specialty importer for items like caviar, jamón ibérico and fresh truffle."],
+        ["Can you really make a charcuterie board for $15?", "Yes, for four people: a double-crème brie, a sharp cheddar, a pack of Genoa salami, round crackers and red grapes came to about $13 at Aldi. The $15 rung has four boards built that way."],
+        ["Is there a paperback?", bk.paperbackUrl ? `Yes, the full-colour paperback is on Amazon at ${esc(bk.paperbackPrice)}. The ebook is an instant PDF download from Gumroad at ${esc(bk.ebookPrice)}.` : `The paperback is in review at Amazon and will be ${esc(bk.paperbackPrice)}. The ebook is available now as an instant PDF download.`],
+        ["Can I buy just one price level?", `Yes. Each rung is a ${esc(bk.packPrice)} printable pack with its four boards. If you later want all 24, the receipt includes $3 off the full ebook.`]
+      ],
+      finalLine: "Pick a budget, check your guest count, and shop the receipt.",
+      related: [["Every board by price", "/boards/by-price/"], ["How much does a charcuterie board cost?", "/blog/how-much-does-a-charcuterie-board-cost/"], ["The Charcuterie Price Index", "/blog/charcuterie-price-index/"], ["Budget charcuterie board", "/blog/budget-charcuterie-board/"]]
     };
     pages.push({ path: b.path, html: page(b) });
   }

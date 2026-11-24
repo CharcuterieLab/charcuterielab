@@ -1,0 +1,2734 @@
+{
+ "sections": [
+  {
+   "key": "15",
+   "name": "The $15 Boards",
+   "sub": "For 4 guests · about $3.75 a guest",
+   "intro": "Small gatherings, a wine night, a movie night, dessert. Two cheeses, one meat, one cracker and one fruit is enough to make a board feel like a board, and these four prove it.",
+   "boards": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "key": "30",
+   "name": "The $30 Boards",
+   "sub": "For 10 guests · about $3 a guest",
+   "intro": "The everyday party board. At $30 for ten you can't buy fancy cheese, but you can buy plenty, and smart arrangement makes plenty look generous.",
+   "boards": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "key": "50",
+   "name": "The $50 Boards",
+   "sub": "For 10 guests · about $5 a guest",
+   "intro": "The step up most hosts notice. Fifty dollars buys a second cured meat, a cheese with real character, or a theme built on real ingredients.",
+   "boards": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "key": "100",
+   "name": "The $100 Boards",
+   "sub": "For 10 guests · about $10 a guest",
+   "intro": "Cheese-counter territory. A hundred dollars buys aged and imported cheeses, French deli foods, or a full pound of smoked salmon and two pounds of shrimp.",
+   "boards": [
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "key": "250",
+   "name": "The $250 Boards",
+   "sub": "For 10 guests · about $25 a guest",
+   "intro": "The splurge. Caviar, long-aged Parmigiano and Prosciutto di Parma, prize-winning American cheese, acorn-fed jamón and fresh truffle: the foods people remember.",
+   "boards": [
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "key": "crowd",
+   "name": "The Crowd Boards",
+   "sub": "For 20 to 100 guests · about $3 a guest",
+   "intro": "Graduations, showers, office parties and reunions. These boards sit beside other food, so they plan a little less per person and lean on cheap, popular foods bought in bulk.",
+   "boards": [
+    21,
+    22,
+    23,
+    24
+   ]
+  }
+ ],
+ "index": {
+  "Aldi": 33.9,
+  "Walmart": 42.52,
+  "Kroger": 44.29,
+  "Trader Joe's": 50.2
+ },
+ "boards": [
+  {
+   "n": 1,
+   "num": "01",
+   "title": "Snack Board for Four",
+   "rung": "15",
+   "cap": 15,
+   "label": "$15 for 4",
+   "serves": 4,
+   "store": "Aldi",
+   "total": 12.81,
+   "perGuest": 3.2,
+   "room": 2.19,
+   "buys": "Fifteen dollars buys two cheeses, one salami and the two things every board needs: a cracker and a fruit. Nothing here is fancy, but a soft cheese next to a sharp one is the oldest pairing trick there is.",
+   "drink": "Pinot Grigio, cider or sparkling water",
+   "prep": "15 min",
+   "level": "Beginner",
+   "board": "12-inch round board",
+   "items": [
+    {
+     "name": "Double-crème brie",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Sharp cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Genoa salami, sliced",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "13.7 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Red seedless grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Take the brie out of the fridge so it softens."
+    },
+    {
+     "when": "T–20",
+     "what": "Slice the cheddar and cut the brie into 8 wedges."
+    },
+    {
+     "when": "T–15",
+     "what": "Fold the salami into quarters."
+    },
+    {
+     "when": "T–10",
+     "what": "Rinse and dry the grapes; snip into small clusters."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board and fill the gaps with crackers."
+    }
+   ],
+   "split": {
+    "Cheese": 45,
+    "Meat and seafood": 25,
+    "Crackers and bread": 17,
+    "Fruit and vegetables": 13
+   },
+   "photo": "/images/books/budget/board-01.webp",
+   "hero": "/images/boards/budget-01.webp",
+   "page": "/boards/15-dollar-charcuterie-board/"
+  },
+  {
+   "n": 2,
+   "num": "02",
+   "title": "Movie Night Snack Board",
+   "rung": "15",
+   "cap": 15,
+   "label": "$15 for 4",
+   "serves": 4,
+   "store": "Walmart",
+   "total": 14.44,
+   "perGuest": 3.61,
+   "room": 0.56,
+   "buys": "A movie board is about grazing for two hours, so fifteen dollars goes to salty, crunchy foods that last: popcorn, pretzels and cheese cubes, with chocolate for the sweet tooth.",
+   "drink": "Root beer, lager or sparkling water",
+   "prep": "15 min",
+   "level": "Beginner",
+   "board": "12-inch round board",
+   "items": [
+    {
+     "name": "Microwave popcorn, butter",
+     "size": "3 bags",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Mild cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepperoni slices",
+     "size": "6 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Mini pretzel twists",
+     "size": "16 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Green seedless grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Milk chocolate bar",
+     "size": "4.4 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–20",
+     "what": "Cut both cheeses into bite-size cubes."
+    },
+    {
+     "when": "T–15",
+     "what": "Pop one bag of popcorn and let it cool for 5 minutes."
+    },
+    {
+     "when": "T–10",
+     "what": "Snip the grapes into small clusters."
+    },
+    {
+     "when": "T–5",
+     "what": "Break the chocolate into squares."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board and press play."
+    }
+   ],
+   "split": {
+    "Spreads, dips and extras": 31,
+    "Cheese": 28,
+    "Meat and seafood": 15,
+    "Crackers and bread": 14,
+    "Fruit and vegetables": 12
+   },
+   "photo": "/images/books/budget/board-02.webp",
+   "hero": "/images/boards/budget-02.webp",
+   "page": "/boards/movie-night-charcuterie-board/"
+  },
+  {
+   "n": 3,
+   "num": "03",
+   "title": "Wine Night for Four",
+   "rung": "15",
+   "cap": 15,
+   "label": "$15 for 4",
+   "serves": 4,
+   "store": "Aldi",
+   "total": 14.95,
+   "perGuest": 3.74,
+   "room": 0.05,
+   "buys": "Fifteen dollars covers one good soft cheese and a little prosciutto, the two things that taste most expensive. Fig spread and dried fruit do the rest of the work for very little money.",
+   "drink": "Pinot Noir, Rosé or a dry Riesling",
+   "prep": "15 min",
+   "level": "Beginner",
+   "board": "12-inch round board",
+   "items": [
+    {
+     "name": "Double-crème brie wedge",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Prosciutto, sliced",
+     "size": "3 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Fig spread",
+     "size": "9 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Fruit-and-nut crisps",
+     "size": "4.5 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Dried apricots",
+     "size": "6 oz",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Take the brie out to soften."
+    },
+    {
+     "when": "T–20",
+     "what": "Cut the brie into 6 slim slices."
+    },
+    {
+     "when": "T–15",
+     "what": "Separate the prosciutto slices so they don't tear."
+    },
+    {
+     "when": "T–10",
+     "what": "Spoon the fig spread into a ramekin."
+    },
+    {
+     "when": "T–0",
+     "what": "Pour the wine and build the board."
+    }
+   ],
+   "split": {
+    "Cheese": 27,
+    "Meat and seafood": 21,
+    "Spreads, dips and extras": 20,
+    "Crackers and bread": 19,
+    "Fruit and vegetables": 13
+   },
+   "photo": "/images/books/budget/board-03.webp",
+   "hero": "/images/boards/budget-03.webp",
+   "page": "/boards/wine-night-board-for-four/"
+  },
+  {
+   "n": 4,
+   "num": "04",
+   "title": "Sweet and Salty Dessert Board",
+   "rung": "15",
+   "cap": 15,
+   "label": "$15 for 4",
+   "serves": 4,
+   "store": "Aldi",
+   "total": 13.45,
+   "perGuest": 3.36,
+   "room": 1.55,
+   "buys": "A dessert board costs less than a cheese board because chocolate and cookies are cheap per bite. Fifteen dollars buys a dip, fresh fruit, two chocolates, two crunchy things and a bag of marshmallows.",
+   "drink": "Coffee, port or cold milk",
+   "prep": "15 min",
+   "level": "Beginner",
+   "board": "12-inch round board",
+   "items": [
+    {
+     "name": "Chocolate hazelnut spread",
+     "size": "13 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Strawberries",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Dark chocolate bar",
+     "size": "3.5 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Milk chocolate bar",
+     "size": "3.5 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Mini pretzel twists",
+     "size": "16 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Vanilla wafers",
+     "size": "11 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Mini marshmallows",
+     "size": "10 oz bag",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–20",
+     "what": "Wash and dry the strawberries; halve a few."
+    },
+    {
+     "when": "T–15",
+     "what": "Spoon the spread into a ramekin."
+    },
+    {
+     "when": "T–10",
+     "what": "Break both chocolate bars into squares."
+    },
+    {
+     "when": "T–5",
+     "what": "Open the pretzels, wafers and marshmallows."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Spreads, dips and extras": 53,
+    "Fruit and vegetables": 19,
+    "Crackers and bread": 28
+   },
+   "photo": "/images/books/budget/board-04.webp",
+   "hero": "/images/boards/budget-04.webp",
+   "page": "/boards/dessert-charcuterie-board/"
+  },
+  {
+   "n": 5,
+   "num": "05",
+   "title": "The Classic for Ten",
+   "rung": "30",
+   "cap": 30,
+   "label": "$30 for 10",
+   "serves": 10,
+   "store": "Aldi",
+   "total": 29.02,
+   "perGuest": 2.9,
+   "room": 0.98,
+   "buys": "This is the Charcuterie Lab Price Index basket turned into a board: the classic board for ten at about $3 a guest. Moving up from $15 buys party amounts, enough salami for a river, and olives, almonds and fig spread for two small dishes.",
+   "drink": "Pinot Noir, Chardonnay or a pale ale",
+   "prep": "25 min",
+   "level": "Beginner",
+   "board": "18 by 12 inch board",
+   "items": [
+    {
+     "name": "Sharp cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Double-crème brie",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Genoa salami, sliced",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "13.7 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Red seedless grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Almonds",
+     "size": "14 oz bag",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Kalamata olives",
+     "size": "6 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Fig spread",
+     "size": "9 oz jar",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Take out the brie. Slice both cheddar blocks."
+    },
+    {
+     "when": "T–20",
+     "what": "Cut the brie into 8 wedges."
+    },
+    {
+     "when": "T–15",
+     "what": "Fold the salami; drain the olives."
+    },
+    {
+     "when": "T–10",
+     "what": "Fill the ramekins. Snip the grapes."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Cheese": 26,
+    "Meat and seafood": 22,
+    "Crackers and bread": 8,
+    "Fruit and vegetables": 6,
+    "Spreads, dips and extras": 39
+   },
+   "photo": "/images/books/budget/board-05.webp",
+   "hero": "/images/boards/budget-05.webp",
+   "page": "/boards/classic-american-starter-board/"
+  },
+  {
+   "n": 6,
+   "num": "06",
+   "title": "Game Day Board",
+   "rung": "30",
+   "cap": 30,
+   "label": "$30 for 10",
+   "serves": 10,
+   "store": "Walmart",
+   "total": 27.18,
+   "perGuest": 2.72,
+   "room": 2.82,
+   "buys": "Game day food has to survive four quarters, so $30 goes to sturdy, salty foods: two sausages, two cheeses, pretzels and pickles, with mustard and ranch for dipping.",
+   "drink": "Lager, amber ale or cola",
+   "prep": "25 min",
+   "level": "Beginner",
+   "board": "18 by 12 inch board",
+   "items": [
+    {
+     "name": "Beef summer sausage",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Pepperoni slices",
+     "size": "6 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Sharp cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Mini pretzel twists",
+     "size": "16 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "13.7 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Dill pickle spears",
+     "size": "24 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Baby carrots",
+     "size": "1 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Yellow mustard",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Ranch dressing",
+     "size": "16 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Slice one summer sausage into thick coins; keep the second for halftime."
+    },
+    {
+     "when": "T–20",
+     "what": "Cube the cheddar and pepper jack."
+    },
+    {
+     "when": "T–15",
+     "what": "Drain the pickles; fill the mustard and ranch ramekins."
+    },
+    {
+     "when": "T–10",
+     "what": "Open the pretzels, crackers and carrots."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board before kickoff."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 37,
+    "Cheese": 22,
+    "Crackers and bread": 17,
+    "Spreads, dips and extras": 24
+   },
+   "photo": "/images/books/budget/board-06.webp",
+   "hero": "/images/boards/budget-06.webp",
+   "page": "/boards/game-day-charcuterie-board/"
+  },
+  {
+   "n": 7,
+   "num": "07",
+   "title": "Mediterranean Mezze Board",
+   "rung": "30",
+   "cap": 30,
+   "label": "$30 for 10",
+   "serves": 10,
+   "store": "Trader Joe's",
+   "total": 27.7,
+   "perGuest": 2.77,
+   "room": 2.3,
+   "buys": "Dips and vegetables cost far less than cured meat, so $30 buys a big, colorful board with no meat at all: two dips, feta, dolmas, two olives and fresh vegetables.",
+   "drink": "Sauvignon Blanc, dry rosé or mint lemonade",
+   "prep": "25 min",
+   "level": "Beginner",
+   "board": "18 by 12 inch board",
+   "items": [
+    {
+     "name": "Hummus",
+     "size": "16 oz tub",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Tzatziki",
+     "size": "12 oz tub",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Feta block in brine",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Dolmas",
+     "size": "15.5 oz can",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Kalamata olives",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Pitted green olives",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "English cucumbers",
+     "size": "2 pack",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "size": "1 pint",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Pita bread",
+     "size": "6 count",
+     "group": "Crackers and bread"
+    }
+   ],
+   "pantry": [
+    "Olive oil",
+    "Dried oregano",
+    "Paprika"
+   ],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Cut the feta into cubes; drizzle with oil and oregano."
+    },
+    {
+     "when": "T–20",
+     "what": "Slice the cucumbers; halve some tomatoes."
+    },
+    {
+     "when": "T–15",
+     "what": "Spoon the dips into bowls; add oil and paprika to the hummus."
+    },
+    {
+     "when": "T–10",
+     "what": "Cut the pita into triangles; drain the dolmas and olives."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Spreads, dips and extras": 56,
+    "Cheese": 13,
+    "Fruit and vegetables": 17,
+    "Crackers and bread": 14
+   },
+   "photo": "/images/books/budget/board-07.webp",
+   "hero": "/images/boards/budget-07.webp",
+   "page": "/boards/greek-mediterranean-board/"
+  },
+  {
+   "n": 8,
+   "num": "08",
+   "title": "Brunch Board",
+   "rung": "30",
+   "cap": 30,
+   "label": "$30 for 10",
+   "serves": 10,
+   "store": "Kroger",
+   "total": 27.22,
+   "perGuest": 2.72,
+   "room": 2.78,
+   "buys": "Brunch is cheaper than cheese hour: bagels, eggs and fruit are filling and inexpensive. $30 buys a full brunch spread for ten with ham, Swiss and two fruits.",
+   "drink": "Orange juice, coffee or mimosas",
+   "prep": "30 min",
+   "level": "Beginner",
+   "board": "18 by 12 inch board",
+   "items": [
+    {
+     "name": "Mini bagels, plain or everything",
+     "size": "10 count",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Whipped cream cheese",
+     "size": "8 oz tub",
+     "group": "Cheese"
+    },
+    {
+     "name": "Deli ham, thin sliced",
+     "size": "16 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Swiss cheese slices",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Large eggs",
+     "size": "1 dozen",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Strawberries",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Clementines",
+     "size": "3 lb bag",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Strawberry jam",
+     "size": "18 oz jar",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [
+    "Black pepper",
+    "Butter for the bagels"
+   ],
+   "timeline": [
+    {
+     "when": "T–40",
+     "what": "Hard-boil 5 eggs (12 minutes), then chill in ice water."
+    },
+    {
+     "when": "T–25",
+     "what": "Halve and toast the bagels."
+    },
+    {
+     "when": "T–20",
+     "what": "Peel and halve the eggs; pepper the yolks."
+    },
+    {
+     "when": "T–15",
+     "what": "Fold the ham and Swiss. Peel the clementines."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Crackers and bread": 11,
+    "Cheese": 21,
+    "Meat and seafood": 18,
+    "Spreads, dips and extras": 20,
+    "Fruit and vegetables": 29
+   },
+   "photo": "/images/books/budget/board-08.webp",
+   "hero": "/images/boards/budget-08.webp",
+   "page": "/boards/brunch-charcuterie-board/"
+  },
+  {
+   "n": 9,
+   "num": "09",
+   "title": "Italian Antipasto Board",
+   "rung": "50",
+   "cap": 50,
+   "label": "$50 for 10",
+   "serves": 10,
+   "store": "Sam's Club",
+   "total": 49.3,
+   "perGuest": 4.93,
+   "room": 0.7,
+   "buys": "At $50 you get two cured meats instead of one and the jarred antipasto classics. A warehouse club's big jars cost less per ounce, and leftovers keep for weeks.",
+   "drink": "Chianti, Pinot Grigio or Italian soda",
+   "prep": "30 min",
+   "level": "Beginner",
+   "board": "20 by 14 inch board",
+   "items": [
+    {
+     "name": "Genoa salami, sliced",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Capicola, sliced",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Fresh mozzarella pearls",
+     "size": "16 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Provolone slices",
+     "size": "1 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Marinated artichoke hearts",
+     "size": "32 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Roasted red peppers",
+     "size": "24 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Mixed olives",
+     "size": "21 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Grissini breadsticks",
+     "size": "8 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Baguettes",
+     "size": "2 count",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [
+    "Olive oil",
+    "Black pepper"
+   ],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Slice and toast one baguette."
+    },
+    {
+     "when": "T–20",
+     "what": "Drain the mozzarella pearls; toss with oil and pepper."
+    },
+    {
+     "when": "T–15",
+     "what": "Drain the artichokes, peppers and olives into bowls."
+    },
+    {
+     "when": "T–10",
+     "what": "Fold the salami, capicola and provolone."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 26,
+    "Cheese": 21,
+    "Spreads, dips and extras": 30,
+    "Crackers and bread": 14,
+    "Fruit and vegetables": 8
+   },
+   "photo": "/images/books/budget/board-09.webp",
+   "hero": "/images/boards/budget-09.webp",
+   "page": "/boards/italian-antipasto-board/"
+  },
+  {
+   "n": 10,
+   "num": "10",
+   "title": "Cheese Lover's Board",
+   "rung": "50",
+   "cap": 50,
+   "label": "$50 for 10",
+   "serves": 10,
+   "store": "Trader Joe's",
+   "total": 47.74,
+   "perGuest": 4.77,
+   "room": 2.26,
+   "buys": "Fifty dollars buys five different cheeses, each a different style: aged, soft, sharp, blue and fresh. No meat at all, which leaves room for nuts, fruit and two crackers.",
+   "drink": "Chardonnay, Pinot Noir or tawny port",
+   "prep": "25 min",
+   "level": "Intermediate",
+   "board": "20 by 14 inch board",
+   "items": [
+    {
+     "name": "Aged gouda",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Double cream brie",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Sharp white cheddar",
+     "size": "about 10 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Blue cheese wedge",
+     "size": "6 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Goat cheese log",
+     "size": "10.5 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Water crackers",
+     "size": "4.4 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Fruit-and-nut crisps",
+     "size": "5.3 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Fig butter",
+     "size": "11 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Walnut halves",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Red and green grapes",
+     "size": "2 lb bag",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Green apple",
+     "size": "1",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [
+    "Honey"
+   ],
+   "timeline": [
+    {
+     "when": "T–45",
+     "what": "Take out every cheese except the goat log."
+    },
+    {
+     "when": "T–25",
+     "what": "Cut each cheese its own way (see step 1)."
+    },
+    {
+     "when": "T–15",
+     "what": "Slice the goat log into rounds; drizzle with honey."
+    },
+    {
+     "when": "T–10",
+     "what": "Slice the apple; snip the grapes."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Cheese": 56,
+    "Crackers and bread": 13,
+    "Spreads, dips and extras": 15,
+    "Fruit and vegetables": 16
+   },
+   "photo": "/images/books/budget/board-10.webp",
+   "hero": "/images/boards/budget-10.webp",
+   "page": "/boards/all-cheese-board/"
+  },
+  {
+   "n": 11,
+   "num": "11",
+   "title": "Smokehouse BBQ Board",
+   "rung": "50",
+   "cap": 50,
+   "label": "$50 for 10",
+   "serves": 10,
+   "store": "Walmart",
+   "total": 46.64,
+   "perGuest": 4.66,
+   "room": 3.36,
+   "buys": "This is the meat-heavy rung: $50 buys two sausages seared hot, summer sausage, jerky and smoked cheese, with cornbread you bake from a cheap mix.",
+   "drink": "Amber ale, bourbon lemonade or sweet tea",
+   "prep": "35 min",
+   "level": "Beginner",
+   "board": "20 by 14 inch board",
+   "items": [
+    {
+     "name": "Smoked sausage",
+     "size": "14 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Beef summer sausage",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Beef jerky",
+     "size": "10 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Smoked gouda wedge",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Sharp cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Dill pickle chips",
+     "size": "24 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Pickled jalapeño slices",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Barbecue sauce",
+     "size": "18 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Honey mustard",
+     "size": "12 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Corn muffin mix",
+     "size": "8.5 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Saltine crackers",
+     "size": "16 oz box",
+     "group": "Crackers and bread"
+    }
+   ],
+   "pantry": [
+    "2 eggs and 2/3 cup milk for the cornbread",
+    "Oil for searing"
+   ],
+   "timeline": [
+    {
+     "when": "T–45",
+     "what": "Bake the cornbread in an 8-inch pan (about 20 min)."
+    },
+    {
+     "when": "T–25",
+     "what": "Slice the smoked sausage on the bias and sear until browned."
+    },
+    {
+     "when": "T–20",
+     "what": "Slice the summer sausage; cut the gouda and cheddar."
+    },
+    {
+     "when": "T–10",
+     "what": "Cut the cornbread into squares; fill the sauce ramekins."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board while the sausage is warm."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 51,
+    "Cheese": 27,
+    "Spreads, dips and extras": 14,
+    "Crackers and bread": 7
+   },
+   "photo": "/images/books/budget/board-11.webp",
+   "hero": "/images/boards/budget-11.webp",
+   "page": "/boards/southern-bbq-charcuterie-board/"
+  },
+  {
+   "n": 12,
+   "num": "12",
+   "title": "Spanish Tapas Board",
+   "rung": "50",
+   "cap": 50,
+   "label": "$50 for 10",
+   "serves": 10,
+   "store": "Kroger",
+   "total": 48.2,
+   "perGuest": 4.82,
+   "room": 1.8,
+   "buys": "At $50 the board can be built around real Spanish foods: Manchego, dry-cured chorizo and quince paste. Tomato bread, a Spanish staple, costs almost nothing to make.",
+   "drink": "Tempranillo, dry sherry or sangria",
+   "prep": "30 min",
+   "level": "Intermediate",
+   "board": "20 by 14 inch board",
+   "items": [
+    {
+     "name": "Manchego wedge",
+     "size": "about 10 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Spanish dry-cured chorizo",
+     "size": "7 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Quince paste",
+     "size": "10 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Spanish green olives",
+     "size": "7 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Roasted red peppers",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Marcona almonds",
+     "size": "4 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Baguette",
+     "size": "1",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Vine tomatoes",
+     "size": "2",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Green seedless grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [
+    "Olive oil",
+    "Garlic clove",
+    "Flaky salt"
+   ],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Slice the Manchego into thin triangles."
+    },
+    {
+     "when": "T–25",
+     "what": "Cut the quince paste into thin squares."
+    },
+    {
+     "when": "T–20",
+     "what": "Slice and toast the baguette; rub with garlic and cut tomato."
+    },
+    {
+     "when": "T–10",
+     "what": "Slice the chorizo; drain the olives and peppers."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Cheese": 23,
+    "Meat and seafood": 29,
+    "Spreads, dips and extras": 34,
+    "Crackers and bread": 5,
+    "Fruit and vegetables": 9
+   },
+   "photo": "/images/books/budget/board-12.webp",
+   "hero": "/images/boards/budget-12.webp",
+   "page": "/boards/spanish-tapas-board/"
+  },
+  {
+   "n": 13,
+   "num": "13",
+   "title": "Wine and Cheese Tasting Board",
+   "rung": "100",
+   "cap": 100,
+   "label": "$100 for 10",
+   "serves": 10,
+   "store": "Whole Foods",
+   "total": 91.82,
+   "perGuest": 9.18,
+   "room": 8.18,
+   "buys": "One hundred dollars moves the board to the cheese counter: five cheeses chosen to taste from mild to strong, plus honeycomb, marcona almonds and fresh pears.",
+   "drink": "A white, a light red and a full red",
+   "prep": "35 min",
+   "level": "Intermediate",
+   "board": "24 by 16 inch board",
+   "items": [
+    {
+     "name": "Fresh goat cheese, peppered log",
+     "size": "4 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Double-cream brie",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Aged Gruyère",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Aged gouda",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Gorgonzola",
+     "size": "about 6 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Fig jam",
+     "size": "8.5 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Honeycomb",
+     "size": "4 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Marcona almonds",
+     "size": "6 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Red grapes",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Red pears",
+     "size": "3",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Dried apricots",
+     "size": "8 oz",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Baguette",
+     "size": "1",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Water crackers",
+     "size": "4.4 oz box",
+     "group": "Crackers and bread"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–60",
+     "what": "Take out the Gruyère, gouda and gorgonzola."
+    },
+    {
+     "when": "T–40",
+     "what": "Take out the brie and goat cheese."
+    },
+    {
+     "when": "T–25",
+     "what": "Cut each cheese (see step 1); slice the baguette."
+    },
+    {
+     "when": "T–10",
+     "what": "Slice the pears so they don't brown; snip the grapes."
+    },
+    {
+     "when": "T–0",
+     "what": "Pour the first wine and build."
+    }
+   ],
+   "split": {
+    "Cheese": 52,
+    "Spreads, dips and extras": 22,
+    "Fruit and vegetables": 17,
+    "Crackers and bread": 9
+   },
+   "photo": "/images/books/budget/board-13.webp",
+   "hero": "/images/boards/budget-13.webp",
+   "page": "/boards/wine-and-cheese-pairing-board/"
+  },
+  {
+   "n": 14,
+   "num": "14",
+   "title": "French Bistro Board",
+   "rung": "100",
+   "cap": 100,
+   "label": "$100 for 10",
+   "serves": 10,
+   "store": "Whole Foods",
+   "total": 92.35,
+   "perGuest": 9.23,
+   "room": 7.65,
+   "buys": "At $100 you can buy French deli foods: country pâté, saucisson sec, a French brie and a wedge of Comté. Radishes with butter and salt are the classic Paris bistro snack.",
+   "drink": "Beaujolais, Côtes du Rhône or Champagne",
+   "prep": "30 min",
+   "level": "Intermediate",
+   "board": "24 by 16 inch board",
+   "items": [
+    {
+     "name": "Country pâté",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Saucisson sec",
+     "size": "7 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "French brie",
+     "size": "about 10 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Comté",
+     "size": "about 10 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Dijon mustard",
+     "size": "7.5 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Cornichons",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Radishes",
+     "size": "bunch",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Cultured butter",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Baguettes",
+     "size": "1",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Green grapes",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Walnut halves",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [
+    "Flaky salt"
+   ],
+   "timeline": [
+    {
+     "when": "T–45",
+     "what": "Take out the brie and the butter."
+    },
+    {
+     "when": "T–25",
+     "what": "Slice the pâté and saucisson."
+    },
+    {
+     "when": "T–20",
+     "what": "Cut the Comté into triangles and the brie into slices."
+    },
+    {
+     "when": "T–10",
+     "what": "Halve the radishes; slice the baguettes."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 32,
+    "Cheese": 26,
+    "Spreads, dips and extras": 26,
+    "Crackers and bread": 9,
+    "Fruit and vegetables": 6
+   },
+   "photo": "/images/books/budget/board-14.webp",
+   "hero": "/images/boards/budget-14.webp",
+   "page": "/boards/french-brasserie-board/"
+  },
+  {
+   "n": 15,
+   "num": "15",
+   "title": "Smoked Fish and Seafood Board",
+   "rung": "100",
+   "cap": 100,
+   "label": "$100 for 10",
+   "serves": 10,
+   "store": "Sam's Club",
+   "total": 74.29,
+   "perGuest": 7.43,
+   "room": 25.71,
+   "buys": "Seafood is where a warehouse club saves the most. $100 buys a pound of smoked salmon and two pounds of cooked shrimp, with all the classic toppings.",
+   "drink": "Dry Riesling, Champagne or a crisp lager",
+   "prep": "30 min",
+   "level": "Intermediate",
+   "board": "24 by 16 inch board",
+   "items": [
+    {
+     "name": "Cold-smoked salmon",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Cooked shrimp, tail on",
+     "size": "2 lb bag",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Cocktail sauce",
+     "size": "12 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Cream cheese",
+     "size": "3 × 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Fresh dill",
+     "size": "bunch",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Capers",
+     "size": "3.5 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Red onions",
+     "size": "3 lb bag",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "English cucumbers",
+     "size": "3 count",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Rye crisps",
+     "size": "8 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Bagel chips",
+     "size": "16 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Lemons",
+     "size": "2 lb bag",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [
+    "Black pepper"
+   ],
+   "timeline": [
+    {
+     "when": "T–8 hrs",
+     "what": "Thaw the shrimp overnight in the fridge."
+    },
+    {
+     "when": "T–30",
+     "what": "Mix one block of cream cheese with chopped dill."
+    },
+    {
+     "when": "T–20",
+     "what": "Finely dice half a red onion; rinse it in cold water."
+    },
+    {
+     "when": "T–15",
+     "what": "Slice the cucumber; cut the lemons into wedges."
+    },
+    {
+     "when": "T–0",
+     "what": "Fill a bowl with ice, add the shrimp and build."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 50,
+    "Spreads, dips and extras": 17,
+    "Cheese": 9,
+    "Fruit and vegetables": 13,
+    "Crackers and bread": 11
+   },
+   "photo": "/images/books/budget/board-15.webp",
+   "hero": "/images/boards/budget-15.webp",
+   "page": "/boards/seafood-charcuterie-board/"
+  },
+  {
+   "n": 16,
+   "num": "16",
+   "title": "Salumi Lover's Board",
+   "rung": "100",
+   "cap": 100,
+   "label": "$100 for 10",
+   "serves": 10,
+   "store": "Sam's Club",
+   "total": 77.78,
+   "perGuest": 7.78,
+   "room": 22.22,
+   "buys": "At $100 the meat takes over: four Italian cured meats, each shown a different way, with Parmigiano chunks, provolone, giardiniera and focaccia.",
+   "drink": "Sangiovese, Barbera or an Italian pilsner",
+   "prep": "30 min",
+   "level": "Intermediate",
+   "board": "24 by 16 inch board",
+   "items": [
+    {
+     "name": "Prosciutto, sliced",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Capicola, sliced",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Soppressata, sliced",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Genoa salami, sliced",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Parmigiano Reggiano",
+     "size": "about 1 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Provolone slices",
+     "size": "1 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Whole-grain mustard",
+     "size": "12 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Mixed olives",
+     "size": "21 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Giardiniera",
+     "size": "32 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Grissini breadsticks",
+     "size": "8 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Rosemary focaccia",
+     "size": "1 slab",
+     "group": "Crackers and bread"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–30",
+     "what": "Break the Parmigiano into chunks with a short knife."
+    },
+    {
+     "when": "T–20",
+     "what": "Wrap 6 breadsticks with prosciutto."
+    },
+    {
+     "when": "T–15",
+     "what": "Fold the capicola, Genoa and provolone."
+    },
+    {
+     "when": "T–10",
+     "what": "Cut the focaccia into squares; drain the giardiniera."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 51,
+    "Cheese": 19,
+    "Spreads, dips and extras": 18,
+    "Crackers and bread": 12
+   },
+   "photo": "/images/books/budget/board-16.webp",
+   "hero": "/images/boards/budget-16.webp",
+   "page": "/boards/meat-lovers-charcuterie-board/"
+  },
+  {
+   "n": 17,
+   "num": "17",
+   "title": "Caviar and Champagne Board",
+   "rung": "250",
+   "cap": 250,
+   "label": "$250 for 10",
+   "serves": 10,
+   "store": "Whole Foods plus online",
+   "total": 215.76,
+   "perGuest": 21.58,
+   "room": 34.24,
+   "buys": "Two hundred fifty dollars buys real caviar, the one luxury that changes a board completely. Everything else on the board is there to serve it: blini, crème fraîche, egg, chives and shallot.",
+   "drink": "Champagne or a dry sparkling wine",
+   "prep": "40 min",
+   "level": "Intermediate",
+   "board": "Marble slab, about 26 by 16 inches",
+   "items": [
+    {
+     "name": "Farmed sturgeon caviar",
+     "size": "2 oz tin",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Blini",
+     "size": "16 count",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Crème fraîche",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Cold-smoked salmon",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Triple-crème cheese",
+     "size": "about 7 oz round",
+     "group": "Cheese"
+    },
+    {
+     "name": "Large eggs",
+     "size": "1 dozen",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Chives",
+     "size": "bunch",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Shallots",
+     "size": "3",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Thick-cut kettle potato chips",
+     "size": "8 oz bag",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Lemons",
+     "size": "3",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [
+    "Butter for warming the blini"
+   ],
+   "timeline": [
+    {
+     "when": "T–40",
+     "what": "Hard-boil 5 eggs; chill, peel and halve."
+    },
+    {
+     "when": "T–25",
+     "what": "Press the yolks through a sieve; chop the chives and shallot."
+    },
+    {
+     "when": "T–15",
+     "what": "Cut the triple-crème into wedges; fold the salmon."
+    },
+    {
+     "when": "T–10",
+     "what": "Warm the blini in a low oven with a little butter."
+    },
+    {
+     "when": "T–0",
+     "what": "Set the caviar on ice last and open the tin at the table."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 67,
+    "Crackers and bread": 10,
+    "Spreads, dips and extras": 8,
+    "Cheese": 14,
+    "Fruit and vegetables": 1
+   },
+   "photo": "/images/books/budget/board-17.webp",
+   "hero": "/images/boards/budget-17.webp",
+   "page": "/boards/caviar-and-creme-fraiche-board/"
+  },
+  {
+   "n": 18,
+   "num": "18",
+   "title": "Italian Salumeria Board",
+   "rung": "250",
+   "cap": 250,
+   "label": "$250 for 10",
+   "serves": 10,
+   "store": "Whole Foods plus online",
+   "total": 232.39,
+   "perGuest": 23.24,
+   "room": 17.61,
+   "buys": "At $250 the board is built on Italy's protected classics: 30-month Parmigiano Reggiano, 24-month Prosciutto di Parma and a traditional aged balsamic poured a few drops at a time, with fresh burrata to tear open at the table.",
+   "drink": "Barolo, Brunello or Franciacorta",
+   "prep": "40 min",
+   "level": "Advanced",
+   "board": "Marble slab, about 26 by 16 inches",
+   "items": [
+    {
+     "name": "Parmigiano Reggiano, 30-month",
+     "size": "1 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Prosciutto di Parma, 24-month, hand-sliced",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Bresaola",
+     "size": "6 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Mortadella with pistachios",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Finocchiona",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Burrata",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Gorgonzola dolce",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Fresh figs",
+     "size": "1 pint",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Castelvetrano olives",
+     "size": "10 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Grissini breadsticks",
+     "size": "4.4 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Traditional balsamic vinegar of Modena, aged",
+     "size": "100 ml",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [
+    "Olive oil",
+    "Black pepper"
+   ],
+   "timeline": [
+    {
+     "when": "T–60",
+     "what": "Take out the Parmigiano and gorgonzola."
+    },
+    {
+     "when": "T–30",
+     "what": "Break the Parmigiano into craggy chunks."
+    },
+    {
+     "when": "T–20",
+     "what": "Separate the prosciutto slices; fold the mortadella."
+    },
+    {
+     "when": "T–10",
+     "what": "Halve the figs; drain the olives."
+    },
+    {
+     "when": "T–0",
+     "what": "Tear the burrata at the table."
+    }
+   ],
+   "split": {
+    "Cheese": 23,
+    "Meat and seafood": 30,
+    "Fruit and vegetables": 3,
+    "Spreads, dips and extras": 42,
+    "Crackers and bread": 2
+   },
+   "photo": "/images/books/budget/board-18.webp",
+   "hero": "/images/boards/budget-18.webp",
+   "page": "/boards/italian-salumeria-board/"
+  },
+  {
+   "n": 19,
+   "num": "19",
+   "title": "Award-Winning American Cheese Board",
+   "rung": "250",
+   "cap": 250,
+   "label": "$250 for 10",
+   "serves": 10,
+   "store": "Specialty cheese shop or online",
+   "total": 196.34,
+   "perGuest": 19.63,
+   "room": 53.66,
+   "buys": "This is where $250 goes furthest for cheese lovers: six American farmstead cheeses in six different styles, the kind that win national competitions, from a good cheese shop.",
+   "drink": "Dry cider, Pinot Noir or a Belgian-style ale",
+   "prep": "40 min",
+   "level": "Advanced",
+   "board": "Marble slab, about 26 by 16 inches",
+   "items": [
+    {
+     "name": "Alpine-style raw-milk cheese",
+     "size": "about 12 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Spruce-bark-wrapped soft cheese",
+     "size": "9 oz round",
+     "group": "Cheese"
+    },
+    {
+     "name": "Clothbound cheddar",
+     "size": "about 12 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Ash-ripened goat cheese pyramid",
+     "size": "6 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Cave-aged blue",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Washed-rind cheese",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Honeycomb",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Apple butter",
+     "size": "12 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Candied walnuts",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Pears, red and green",
+     "size": "4",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Champagne grapes or seedless red grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Walnut-raisin crisps",
+     "size": "5 oz box",
+     "group": "Crackers and bread"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–60",
+     "what": "Take out all six cheeses."
+    },
+    {
+     "when": "T–30",
+     "what": "Cut each cheese (see step 1)."
+    },
+    {
+     "when": "T–20",
+     "what": "Peel back the top rind on the spruce-bark round."
+    },
+    {
+     "when": "T–10",
+     "what": "Slice the pears; set out the honeycomb."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board."
+    }
+   ],
+   "split": {
+    "Cheese": 66,
+    "Spreads, dips and extras": 17,
+    "Fruit and vegetables": 9,
+    "Crackers and bread": 8
+   },
+   "photo": "/images/books/budget/board-19.webp",
+   "hero": "/images/boards/budget-19.webp",
+   "page": "/boards/american-cheese-board/"
+  },
+  {
+   "n": 20,
+   "num": "20",
+   "title": "Truffle and Jamón Ibérico Board",
+   "rung": "250",
+   "cap": 250,
+   "label": "$250 for 10",
+   "serves": 10,
+   "store": "Specialty shop or online",
+   "total": 232.88,
+   "perGuest": 23.29,
+   "room": 17.12,
+   "buys": "Two of the most expensive foods on any board share this one: acorn-fed jamón ibérico and fresh black truffle. Each guest gets a real taste of both, which is the point of a splurge.",
+   "drink": "Fino sherry, aged Rioja or Cava",
+   "prep": "35 min",
+   "level": "Advanced",
+   "board": "Marble slab, about 26 by 16 inches",
+   "items": [
+    {
+     "name": "Jamón ibérico de bellota, hand-carved",
+     "size": "2 oz pack",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Truffle cheese, semi-soft",
+     "size": "about 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Fresh black winter truffle",
+     "size": "about 1 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Truffle honey",
+     "size": "4.2 oz jar",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Aged Manchego",
+     "size": "about 12 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Fried marcona almonds",
+     "size": "8 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Quince paste",
+     "size": "10 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Picos breadsticks",
+     "size": "7 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Dark red grapes",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–60",
+     "what": "Open the jamón packs and let them come to room temperature."
+    },
+    {
+     "when": "T–30",
+     "what": "Cut the truffle cheese into thin slabs and the Manchego into triangles."
+    },
+    {
+     "when": "T–20",
+     "what": "Cut the quince paste into thin squares."
+    },
+    {
+     "when": "T–10",
+     "what": "Brush the truffle clean; shave a few slices over the cheese."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board and shave the rest of the truffle at the table."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 39,
+    "Cheese": 21,
+    "Spreads, dips and extras": 35,
+    "Crackers and bread": 3,
+    "Fruit and vegetables": 3
+   },
+   "photo": "/images/books/budget/board-20.webp",
+   "hero": "/images/boards/budget-20.webp",
+   "page": "/boards/truffle-charcuterie-board/"
+  },
+  {
+   "n": 21,
+   "num": "21",
+   "title": "20 Guests for $60",
+   "rung": "crowd",
+   "cap": 60,
+   "label": "20 guests for $60",
+   "serves": 20,
+   "store": "Aldi",
+   "total": 49.39,
+   "perGuest": 2.47,
+   "room": 10.61,
+   "buys": "For a crowd, two simple boards beat one fancy one. $60 buys the same cheap, popular foods in party quantities, laid out as two mirror-image boards so guests can eat from both sides.",
+   "drink": "Punch, beer or sparkling water",
+   "prep": "40 min",
+   "level": "Beginner",
+   "board": "Two 18 by 12 inch boards, end to end",
+   "items": [
+    {
+     "name": "Sharp cheddar block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Genoa salami, sliced",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Beef summer sausage",
+     "size": "12 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "13.7 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Mini pretzel twists",
+     "size": "16 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Red seedless grapes",
+     "size": "1 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Baby carrots",
+     "size": "1 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Ranch dressing",
+     "size": "16 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–45",
+     "what": "Cube all the cheese."
+    },
+    {
+     "when": "T–35",
+     "what": "Slice both summer sausages into coins."
+    },
+    {
+     "when": "T–25",
+     "what": "Fold the salami."
+    },
+    {
+     "when": "T–15",
+     "what": "Snip the grapes; fill the ranch bowl."
+    },
+    {
+     "when": "T–0",
+     "what": "Build both boards at once, mirror images."
+    }
+   ],
+   "split": {
+    "Cheese": 18,
+    "Meat and seafood": 34,
+    "Crackers and bread": 25,
+    "Fruit and vegetables": 14,
+    "Spreads, dips and extras": 10
+   },
+   "photo": "/images/books/budget/board-21.webp",
+   "hero": "/images/boards/budget-21.webp",
+   "page": "/party-planner/charcuterie-board-for-20-people/"
+  },
+  {
+   "n": 22,
+   "num": "22",
+   "title": "30 Guests for $90",
+   "rung": "crowd",
+   "cap": 90,
+   "label": "30 guests for $90",
+   "serves": 30,
+   "store": "Sam's Club",
+   "total": 81.74,
+   "perGuest": 2.72,
+   "room": 8.26,
+   "buys": "At 30 guests, warehouse-club sizes start to pay off: two-pound cheese blocks and pound packs of meat. $90 buys one big board and two side bowls of vegetables and dip.",
+   "drink": "Lemonade, beer or a big-batch punch",
+   "prep": "45 min",
+   "level": "Beginner",
+   "board": "One 30 by 18 inch board plus two serving bowls",
+   "items": [
+    {
+     "name": "Sharp cheddar block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Colby-Jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Hard salami, sliced",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Pepperoni slices",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "3 box pack",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Mini pretzels",
+     "size": "40 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Strawberries",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Green grapes",
+     "size": "3 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Baby carrots",
+     "size": "3 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Celery hearts",
+     "size": "3 count",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Broccoli florets",
+     "size": "3 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Ranch dressing",
+     "size": "36 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [],
+   "timeline": [
+    {
+     "when": "T–60",
+     "what": "Cube all three cheeses and mix them together."
+    },
+    {
+     "when": "T–40",
+     "what": "Cut the celery into sticks; rinse the broccoli and carrots."
+    },
+    {
+     "when": "T–25",
+     "what": "Fold the salami; fan the pepperoni."
+    },
+    {
+     "when": "T–15",
+     "what": "Rinse the strawberries and grapes."
+    },
+    {
+     "when": "T–0",
+     "what": "Build the board and fill the two side bowls."
+    }
+   ],
+   "split": {
+    "Cheese": 29,
+    "Meat and seafood": 17,
+    "Crackers and bread": 17,
+    "Fruit and vegetables": 14,
+    "Spreads, dips and extras": 23
+   },
+   "photo": "/images/books/budget/board-22.webp",
+   "hero": "/images/boards/budget-22.webp",
+   "page": "/party-planner/charcuterie-board-for-30-people/"
+  },
+  {
+   "n": 23,
+   "num": "23",
+   "title": "50 Guests for $150",
+   "rung": "crowd",
+   "cap": 150,
+   "label": "50 guests for $150",
+   "serves": 50,
+   "store": "Sam's Club",
+   "total": 145.04,
+   "perGuest": 2.9,
+   "room": 4.96,
+   "buys": "At 50 guests the board becomes a grazing table: food laid straight onto brown paper, with three boards set into it. $150 covers three meats, three cheeses, two brie wheels, fruit, vegetables and two dips.",
+   "drink": "Iced tea, lemonade or a beer bucket",
+   "prep": "1 hr 15 min",
+   "level": "Intermediate",
+   "board": "Grazing spread on kraft paper, about 6 feet",
+   "items": [
+    {
+     "name": "Hard salami, sliced",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Pepperoni slices",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Deli ham, sliced",
+     "size": "2 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Flour tortillas",
+     "size": "20 count",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Cream cheese",
+     "size": "3 × 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Sharp cheddar block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Colby-Jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Brie",
+     "size": "2 × 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "3 box pack",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Woven wheat crackers",
+     "size": "2 pack",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Mini pretzels",
+     "size": "28 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Red grapes",
+     "size": "3 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Green grapes",
+     "size": "3 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Strawberries",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Whole pineapples",
+     "size": "1",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Baby carrots",
+     "size": "3 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Celery hearts",
+     "size": "3 count",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "English cucumbers",
+     "size": "3 count",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Ranch dressing",
+     "size": "36 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Hummus",
+     "size": "32 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [
+    "Brown kraft paper roll"
+   ],
+   "timeline": [
+    {
+     "when": "Day before",
+     "what": "Make the ham pinwheels; wrap and chill. Cube the cheese."
+    },
+    {
+     "when": "T–75",
+     "what": "Cover the table with kraft paper; set the three boards."
+    },
+    {
+     "when": "T–60",
+     "what": "Cut the pineapple and vegetables."
+    },
+    {
+     "when": "T–30",
+     "what": "Slice the pinwheels; fold the salami."
+    },
+    {
+     "when": "T–0",
+     "what": "Lay the food in bands and fill every gap."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 21,
+    "Crackers and bread": 16,
+    "Cheese": 29,
+    "Fruit and vegetables": 16,
+    "Spreads, dips and extras": 17
+   },
+   "photo": "/images/books/budget/board-23.webp",
+   "hero": "/images/boards/budget-23.webp",
+   "page": "/party-planner/charcuterie-board-for-50-people/"
+  },
+  {
+   "n": 24,
+   "num": "24",
+   "title": "100 Guests for $300",
+   "rung": "crowd",
+   "cap": 300,
+   "label": "100 guests for $300",
+   "serves": 100,
+   "store": "Sam's Club plus Aldi",
+   "total": 255.52,
+   "perGuest": 2.56,
+   "room": 44.48,
+   "buys": "For a graduation or a wedding party, $300 feeds 100 guests at under $3 each when the board sits beside other food. Buy the bulk items at Sam's Club and the small packs at Aldi, where they're cheapest.",
+   "drink": "Lemonade, iced tea, punch and water",
+   "prep": "2 hrs",
+   "level": "Intermediate",
+   "board": "8-foot grazing table on kraft paper, with two crate risers",
+   "items": [
+    {
+     "name": "Genoa salami, sliced",
+     "size": "8 oz",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Pepperoni slices",
+     "size": "1 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Deli ham, sliced",
+     "size": "2 lb",
+     "group": "Meat and seafood"
+    },
+    {
+     "name": "Flour tortillas",
+     "size": "20 count",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Cream cheese",
+     "size": "3 × 8 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Sharp cheddar block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Colby-Jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Pepper jack block",
+     "size": "2 lb",
+     "group": "Cheese"
+    },
+    {
+     "name": "Brie",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Gouda",
+     "size": "7 oz",
+     "group": "Cheese"
+    },
+    {
+     "name": "Round butter crackers",
+     "size": "13.7 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Wheat crackers",
+     "size": "9 oz box",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Pita chips",
+     "size": "2 lb",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Mini pretzels",
+     "size": "40 oz",
+     "group": "Crackers and bread"
+    },
+    {
+     "name": "Red grapes",
+     "size": "3 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Green grapes",
+     "size": "3 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Strawberries",
+     "size": "2 lb",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Whole pineapples",
+     "size": "1",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Clementines",
+     "size": "3 lb bag",
+     "group": "Fruit and vegetables"
+    },
+    {
+     "name": "Baby carrots",
+     "size": "3 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Celery hearts",
+     "size": "3 count",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "English cucumbers",
+     "size": "3 count",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Cherry tomatoes",
+     "size": "2 lb",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Ranch dressing",
+     "size": "36 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Hummus",
+     "size": "32 oz",
+     "group": "Spreads, dips and extras"
+    },
+    {
+     "name": "Spinach dip",
+     "size": "16 oz",
+     "group": "Spreads, dips and extras"
+    }
+   ],
+   "pantry": [
+    "Brown kraft paper roll",
+    "Two low wooden crates"
+   ],
+   "timeline": [
+    {
+     "when": "Day before",
+     "what": "Make and chill the pinwheels. Cube the cheese. Wash the produce."
+    },
+    {
+     "when": "T–2 hrs",
+     "what": "Paper the table and set the crate risers."
+    },
+    {
+     "when": "T–90",
+     "what": "Cut the pineapple, cucumbers and celery; peel the clementines."
+    },
+    {
+     "when": "T–45",
+     "what": "Slice the pinwheels; cut the brie and gouda."
+    },
+    {
+     "when": "T–0",
+     "what": "Lay the bands from the far end toward the near end."
+    }
+   ],
+   "split": {
+    "Meat and seafood": 21,
+    "Crackers and bread": 16,
+    "Cheese": 28,
+    "Fruit and vegetables": 17,
+    "Spreads, dips and extras": 19
+   },
+   "photo": "/images/books/budget/board-24.webp",
+   "hero": "/images/boards/budget-24.webp",
+   "page": "/party-planner/charcuterie-board-for-100-people/"
+  }
+ ],
+ "sample": {
+  "n": 5,
+  "items": [
+   [
+    "Sharp cheddar block",
+    "8 oz",
+    2,
+    1.75,
+    3.5,
+    "Cheese"
+   ],
+   [
+    "Double-crème brie",
+    "7 oz",
+    1,
+    3.99,
+    3.99,
+    "Cheese"
+   ],
+   [
+    "Genoa salami, sliced",
+    "8 oz",
+    2,
+    3.19,
+    6.38,
+    "Meat and seafood"
+   ],
+   [
+    "Round butter crackers",
+    "13.7 oz box",
+    1,
+    2.19,
+    2.19,
+    "Crackers and bread"
+   ],
+   [
+    "Red seedless grapes",
+    "1 lb",
+    1,
+    1.69,
+    1.69,
+    "Fruit and vegetables"
+   ],
+   [
+    "Almonds",
+    "14 oz bag",
+    1,
+    5.99,
+    5.99,
+    "Spreads, dips and extras"
+   ],
+   [
+    "Kalamata olives",
+    "6 oz jar",
+    1,
+    2.29,
+    2.29,
+    "Spreads, dips and extras"
+   ],
+   [
+    "Fig spread",
+    "9 oz jar",
+    1,
+    2.99,
+    2.99,
+    "Spreads, dips and extras"
+   ]
+  ],
+  "total": 29.02
+ }
+}

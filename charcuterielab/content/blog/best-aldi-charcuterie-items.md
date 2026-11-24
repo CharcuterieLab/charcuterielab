@@ -149,6 +149,8 @@ For 6 to 8 people, well under $40:
 
 Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal. For more cheap boards, see our [budget charcuterie board](/blog/budget-charcuterie-board/) and the [$20 charcuterie board challenge](/blog/20-dollar-charcuterie-board-challenge/).
 
+**Priced at Aldi:** five boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced item by item at Aldi, including a [$15 board for four](/boards/15-dollar-charcuterie-board/) at about $12.81 and a [wine night board for four](/boards/wine-night-board-for-four/) at about $14.95. See [every board by price](/boards/by-price/).
+
 ## What to skip
 
 In [Daily Meal](https://www.thedailymeal.com/2062703/aldi-emporium-selection-cheese-ranked/)'s test of Emporium Selection cheeses, the garlic herb goat cheese tasted mostly of herbs and the Parmesan was too hard and sour. The Applewood smoked Gruyère is very smoky, so save it for a barbecue board.

@@ -126,6 +126,8 @@ For 12 people with the board as the party food, plan about 2½ pounds of cheese 
 
 Short on time? Put the Charcuterie Entertainment Tray on a large wooden board, add a wedge of the Manchego and a bunch of grapes, and it looks homemade. See our [Party Planner](/party-planner/) for exact amounts for your guest count.
 
+**Priced at Sam's Club:** five boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced at Sam's Club, from a $50 [Italian antipasto board](/boards/italian-antipasto-board/) to grazing tables for [50 guests](/party-planner/charcuterie-board-for-50-people/) at about $145 and [100 guests](/party-planner/charcuterie-board-for-100-people/) at about $256. See [every board by price](/boards/by-price/).
+
 ## What to skip
 
 - **Pre-sliced cheese for a nice board.** The Gourmet Selection tray tastes good, but cut slices dry out and curl. Buy wedges for anything you'll photograph.

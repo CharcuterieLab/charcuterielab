@@ -15,7 +15,7 @@
 import { readFile, writeFile, readdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, relative, sep } from "node:path";
-import { GUIDE_BOOK, IMPOSSIBLE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK } from "./boards.mjs";
+import { BUDGET_BOOK, GUIDE_BOOK, IMPOSSIBLE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK } from "./boards.mjs";
 import { tagAmazonUrl } from "./affiliate.mjs";
 
 // The shelf sells the paperbacks only (17 Nov 2026): every cover goes to the
@@ -31,6 +31,10 @@ export const SHELF = [
     head: "Every board, fully planned", sub: "50 Boards, Built by Science has the shopping list, the build order and the pairing logic for 50 boards, from budget to holiday." },
   { key: "impossible", name: "Impossible Boards", full: "Impossible Boards", boards: 25, line: "25 showstopper shapes", cover: IMPOSSIBLE_BOOK.cover, amazon: IMPOSSIBLE_BOOK.paperbackUrl, href: "/books/impossible-boards/", price: IMPOSSIBLE_BOOK.ebookPrice, paperback: IMPOSSIBLE_BOOK.paperbackPrice,
     head: "Make the board everyone photographs", sub: "Impossible Boards shows the one trick behind 25 showpiece boards, from a Thanksgiving turkey to a dragon's hoard." },
+  // Book 9 (23 Nov 2026). Until the paperback clears KDP review there's no
+  // Amazon link, so its cover goes to the book's own page.
+  { key: "budget", name: "On Any Budget", full: "Charcuterie on Any Budget", boards: 24, line: "24 boards, $15 to $250", cover: BUDGET_BOOK.cover, amazon: BUDGET_BOOK.paperbackUrl, href: BUDGET_BOOK.path, price: BUDGET_BOOK.ebookPrice, paperback: BUDGET_BOOK.paperbackPrice,
+    head: "Know the total before you shop", sub: "Charcuterie on Any Budget has 24 boards from $15 to $250, each with a shopping list printed like a store receipt." },
   { key: "guide", name: "Ingredient Guide", full: "The Ingredient Guide", line: "325 ingredients explained", cover: GUIDE_BOOK.cover, amazon: GUIDE_BOOK.paperbackUrl, href: GUIDE_BOOK.ebookUrl, external: true, price: GUIDE_BOOK.ebookPrice, paperback: GUIDE_BOOK.paperbackPrice,
     head: "Every ingredient in one book", sub: "The Ingredient Guide covers 325 cheeses, meats and extras: what each one tastes like, what it pairs with and why, and how much to buy." },
   { key: "world", name: "Around the World", full: "Around the World in 16 Boards", boards: 16, line: "16 countries, 16 boards", cover: WORLD_BOOK.cover, amazon: WORLD_BOOK.paperbackUrl, href: "/around-the-world/", price: WORLD_BOOK.ebookPrice, paperback: WORLD_BOOK.paperbackPrice,
@@ -52,14 +56,17 @@ const RULES = [
   ["plant", /\b(vegan|vegetarian|plant based|dairy free|hummus|meatless)\b/],
   ["keto", /\b(keto|low carb|carb|paleo|healthy|healthier)\b/],
   ["two", /\b(date night|for two|two people|valentine|valentines|anniversary|romantic|couple|galentine|mini charcuterie)\b/],
+  // Price and store questions go to the budget book (23 Nov 2026). Slug and
+  // title only (tags like "cheap" are on many posts); a "best X" guide counts only when it's a store guide.
+  ["budget", (t) => { const h = t.split(" tagsfollow ")[0]; const store = /\b(aldi|lidl|walmart|kroger|sam s club|sams club|whole foods|trader joe s|trader joes|costco)\b/; return /^ best /.test(h) ? store.test(h) : store.test(h) || /\b(budget|cheap|cost|costs|price|prices|priced|price index|dollar|under \d+)\b/.test(h); }],
   ["guide", /\b(vs|versus|types of|difference|deep dive|what is)\b/],
   ["world", /\b(tapas|antipasto (board|platter)|mezze|meze|noche buena|smorgasbord|international|around the world|fusion|grazing around)\b|\b(spanish|italian|french|greek|mexican|japanese|korean|indian|british|german|mediterranean|middle eastern|scandinavian)\b.*\bboard\b/],
   // Holiday and themed words count only in the slug and title: a tag like
   // "christmas skewers" shouldn't send a general party post to Impossible.
   ["impossible", (t) => !/^ best /.test(t) && /\b(turkey|christmas|halloween|jack o|wreath|easter|super bowl|football|game day|new year|new years|nye|themed|unique|shaped|showstopper|showpiece|birthday|santa|pumpkin|candy|hot cocoa)\b/.test(t.split(" tagsfollow ")[0])],
-  // Thanksgiving is Board 20 in 50 Boards, and amount and cost questions are
-  // what its shopping lists answer.
-  ["main", /\b(thanksgiving|friendsgiving|fall|how much|cost|budget|per person)\b/],
+  // Thanksgiving is Board 20 in 50 Boards, and amount questions are what its
+  // shopping lists answer.
+  ["main", /\b(thanksgiving|friendsgiving|fall|how much|per person)\b/],
   ["guide", new RegExp(`\\b(pairing|pairings|pairs|goes with|what goes|ingredient|ingredients|${MEATS_CHEESES}|fig jam|honey|honeycomb|crackers|olives|jam|mustard|nuts|dried fruit|wine|beer)\\b`)]
 ];
 
@@ -79,9 +86,9 @@ export function shelfHtml(first, campaign, thumb = (x) => x, opts = {}) {
   const tag = opts.tag === undefined ? (first !== "main" ? "Fits this page" : "") : opts.tag;
   const items = order.map((b, i) => {
     const href = b.amazon ? tagAmazonUrl(b.amazon, "&amp;") : b.href;
-    const ext = ' target="_blank" rel="noopener sponsored nofollow"';
+    const ext = b.amazon || b.external ? ' target="_blank" rel="noopener sponsored nofollow"' : "";
     const fit = i === 0 && tag ? `<span class="bs-fit">${esc(tag)}</span>` : "";
-    const price = "Paperback on Amazon";
+    const price = b.amazon ? "Paperback on Amazon" : "Ebook, paperback soon";
     return `<li${i === 0 ? ' class="bs-first"' : ""}><a href="${esc(href)}"${ext} data-book="${b.key}">
         <span class="bs-cover">${fit}<img src="${esc(thumb(b.cover))}" alt="${esc(b.name)} cover" width="150" height="196" loading="lazy" decoding="async"></span>
         <span class="bs-name">${esc(b.name)}</span>
@@ -97,7 +104,7 @@ export function shelfHtml(first, campaign, thumb = (x) => x, opts = {}) {
     <ul class="bs-row">
       ${items}
     </ul>
-    <a class="bs-all" href="/shop/#ebooks">See all seven books &rarr;</a>
+    <a class="bs-all" href="/shop/#ebooks">See all eight books &rarr;</a>
   </aside>\n`;
 }
 
@@ -251,7 +258,7 @@ export function placeShelf(html, shelf, { from = 0.4, to = 0.6, aim = 0.48 } = {
 const SKIP = /^(shop|ebook|books|around-the-world|thanks|search|privacy|about|newsletter|404|downloads|assets|images|fonts|gifts\/charcuterie-books)(\/|$)/;
 
 const HOLIDAY = { christmas: "impossible", halloween: "impossible", "new-years-eve": "impossible", "super-bowl": "impossible", easter: "impossible", "valentines-day": "two", thanksgiving: "main" };
-const BOARD_CATS = { "keto-low-carb": "keto", "plant-based": "plant", "around-the-world": "world", "for-two": "two", showpiece: "impossible", "seasonal-holiday": "impossible" };
+const BOARD_CATS = { "by-price": "budget", "keto-low-carb": "keto", "plant-based": "plant", "around-the-world": "world", "for-two": "two", showpiece: "impossible", "seasonal-holiday": "impossible" };
 
 async function frontMatter(root, slug) {
   try {

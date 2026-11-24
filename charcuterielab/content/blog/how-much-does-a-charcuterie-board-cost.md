@@ -29,6 +29,8 @@ Below: a cost chart from 4 to 50 guests, what businesses charge, and where the m
 
 These ranges come from the boards we've priced on this site: the [$20 board for four](/blog/20-dollar-charcuterie-board-challenge/), the [$25 budget board for 6 to 8](/boards/25-dollar-budget-charcuterie-board/), the [Friendsgiving board](/blog/friendsgiving-charcuterie-board/) at $4.50 to $7 a guest, the [Costco board for 20](/blog/costco-charcuterie-board/) at $9.50 to $11.50 a guest as the party food, and the [luxury board](/boards/luxury-charcuterie-board/) at $150 to $250 for 8 to 12.
 
+For a board-by-board version, see [24 charcuterie boards by price](/boards/by-price/): boards from $15 for four to $250 for ten, plus crowd boards for 20 to 100, each with its estimated total, cost per guest and the store it was priced at.
+
 "Before a meal" uses the Lab standard of **2 oz of meat and 2 oz of cheese per guest**. "Party food" uses **3 oz of each**. See [how much charcuterie per person](/blog/how-much-charcuterie-per-person/) for the full formula.
 
 ## Price chart by number of guests
@@ -101,6 +103,7 @@ If you're pricing boards to sell, start from your ingredient cost, then add pack
 ## Related Reading
 
 - [Charcuterie Price Index 2026](/blog/charcuterie-price-index/)
+- [Charcuterie Boards by Price: $15 to $250](/boards/by-price/)
 - [The Myth of the Expensive Charcuterie Board](/blog/expensive-board/)
 - [How to Build a $25 Board That Looks Like It Cost $75](/blog/budget-charcuterie-board/)
 - [How Much Charcuterie Per Person](/blog/how-much-charcuterie-per-person/)

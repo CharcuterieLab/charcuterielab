@@ -135,6 +135,8 @@ For 12 people with the board as the party food, plan about 2½ pounds of cheese 
 
 Use our [Party Planner](/party-planner/) for exact amounts for your guest count.
 
+**Priced at Kroger:** two boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced at Kroger: a $30 [brunch board](/boards/brunch-charcuterie-board/) for ten at about $27.22 and a $50 [Spanish tapas board](/boards/spanish-tapas-board/) at about $48.20. See [every board by price](/boards/by-price/).
+
 ## Shopping tips
 
 - **Find the Murray's counter.** It's usually near the deli, and staff will cut to order and offer tastes. Not every Kroger has one; the Murray's shelf in the dairy case is the fallback.

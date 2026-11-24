@@ -134,6 +134,8 @@ Pick one soft cheese (Isigny brie or Harbison), one firm (Pleasant Ridge Reserve
 
 For pregnant guests, the CDC recommends pasteurized cheeses, so skip the raw-milk truffle Gouda. See every ranked guide on our [charcuterie buying guides](/blog/best-charcuterie-brands/) page.
 
+**Priced at Whole Foods:** two $100 boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced at Whole Foods: a [wine and cheese tasting board](/boards/wine-and-cheese-pairing-board/) with five cheeses at about $91.82 and a [French bistro board](/boards/french-brasserie-board/) at about $92.35. See [every board by price](/boards/by-price/).
+
 :::html
 <h2 id="faq">Whole Foods cheese questions</h2>
 :::

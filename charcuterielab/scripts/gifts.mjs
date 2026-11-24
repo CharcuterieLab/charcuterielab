@@ -121,14 +121,14 @@ const GUIDES = [
   {
     slug: "charcuterie-books",
     card: "The best charcuterie books to give",
-    cardLine: "9 books, from a $10 stocking stuffer to the full reference",
+    cardLine: "11 books, from a $10 stocking stuffer to the full reference",
     image: "/images/book-3d-mockup.webp",
-    seoTitle: "Best Charcuterie Books 2026: 10 to Give as a Gift",
+    seoTitle: "Best Charcuterie Books 2026: 11 to Give as a Gift",
     h1: "The best charcuterie books to give as a gift",
     kicker: "Gift guide · Books",
     description: "The best charcuterie and cheese board books to give in 2026, matched to the person: the host, the beginner, the adventurous eater, the vegan, the keto friend and the cheese nerd.",
     quick: "Best overall: <strong>50 Boards, Built by Science</strong> ($25.99), 50 boards with shopping lists. Adventurous eater: <strong>Around the World in 16 Boards</strong> ($16.99). Wants to cure meat: <em>Charcuterie</em> by Ruhlman and Polcyn.",
-    intro: "A board book is a gift that keeps paying off: the person gets the book, and you get invited to the boards. The best ones tell the reader exactly what to buy and how much, not just what a board looks like in a photo. We wrote seven of the books below, and we've put them where they genuinely fit. The other three are the outside books we'd point a friend to.",
+    intro: "A board book is a gift that keeps paying off: the person gets the book, and you get invited to the boards. The best ones tell the reader exactly what to buy and how much, not just what a board looks like in a photo. We wrote eight of the books below, and we've put them where they genuinely fit. The other three are the outside books we'd point a friend to.",
     method: "We wrote the Charcuterie Lab books, so take our ranking of them with that in mind. The other books are researched picks; we have no connection to their authors or publishers.",
     picks: [
       { book: "main", best: "Best overall · the host or the beginner", why: "Fifty complete boards for every occasion, from a $25 budget board to a 30-person showstopper. Every board has the shopping list with amounts, the order to build it and a swap for every ingredient, so the person can make a board the night they open it." },
@@ -137,6 +137,7 @@ const GUIDES = [
       { book: "guide", best: "Best for the cheese nerd", why: "325 ingredients in one book: what each tastes like, what it pairs with and why, and how much to buy. The reference a serious board builder reaches for before a party." },
       { book: "plant", best: "Best for the vegan or vegetarian", why: "Fifteen boards with no meat and no dairy that still look like a full charcuterie spread, with the pairing science behind each one." },
       { book: "keto", best: "Best for the keto friend", why: "Twenty boards at 4 to 9 g net carbs per serving, with full macros from USDA data. Good timing for someone starting a January diet." },
+      { book: "budget", best: "Best for the practical host", why: "Twenty-four boards built to a set price, from a $15 snack board for four to a $250 caviar board for ten, plus grazing tables for 20 to 100. Every board has a shopping list printed like a store receipt, so the person knows the total before they shop." },
       { book: "two", best: "Best for a couple", why: "Twenty-five boards sized for two, from a first date to New Year's Eve, each with a drink to pour. Lands well as a Valentine's gift too." },
       { other: "mullen", best: "Best for styling" },
       { other: "ruhlman", best: "Best for curing your own meat" },
@@ -1044,7 +1045,7 @@ export function giftPages(h, books) {
   // shipStrip (the "order now" line under each quick answer) is defined after ORDER_BY below.
 
   function matcher(campaign, compact = false) {
-    const order = ["main", "impossible", "world", "guide", "plant", "keto", "two"].filter((k) => B[k]);
+    const order = ["main", "impossible", "budget", "world", "guide", "plant", "keto", "two"].filter((k) => B[k]);
     if (compact) {
       return `<section class="gf-matcher gf-matcher-compact" aria-labelledby="gf-m-h-${campaign}">
     <h2 id="gf-m-h-${campaign}">Which Charcuterie Lab book for which person?</h2>

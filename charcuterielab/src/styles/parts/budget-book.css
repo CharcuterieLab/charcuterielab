@@ -1,0 +1,79 @@
+/* Charcuterie on Any Budget (23 Nov 2026): price box on board and party-planner pages,
+   the /boards/by-price/ hub, the $5 packs on the book page, the line on the Board Library. */
+
+/* ---- price box ---- */
+.bp-box { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 22px; align-items: start; background: var(--paper); border: 1px solid #e6dcc8; border-left: 5px solid var(--green); border-radius: 14px; padding: 20px; margin: 34px auto; max-width: 1080px; }
+.bp-box-photo { position: relative; margin: 0; }
+.bp-box-photo img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.bp-tag { position: absolute; left: 10px; top: 10px; background: #231a12; color: #f6ecd8; font-weight: 700; font-size: 0.9rem; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--gold); }
+.bp-box-body .eyebrow { margin: 0 0 4px; color: var(--gold-dark); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.bp-box-body h2 { margin: 0 0 8px; font-size: clamp(1.25rem, 2.4vw, 1.6rem); line-height: 1.2; }
+.bp-box-body p { margin: 0 0 10px; }
+.bp-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 12px 0; }
+.bp-stats div { background: var(--cream); border-radius: 8px; padding: 8px 10px; min-width: 0; }
+.bp-stats dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; }
+.bp-stats dd { margin: 2px 0 0; font-weight: 700; font-size: 1.05rem; overflow-wrap: anywhere; }
+.bp-items { font-size: 0.95rem; }
+.bp-fine { font-size: 0.85rem; color: var(--muted); }
+.bp-buy { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
+.bp-buy .fx-more { font-weight: 700; }
+@media (max-width: 760px) {
+  .bp-box { grid-template-columns: minmax(0, 1fr); padding: 14px; margin: 26px 12px; }
+  .bp-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bp-buy .button { flex: 1 1 100%; text-align: center; }
+}
+
+/* ---- Board Library line ---- */
+.bp-hub-link { background: var(--paper); border: 1px dashed var(--green); border-radius: 10px; padding: 10px 14px; margin: 10px 0 0; }
+.bp-hub-link a { font-weight: 700; }
+
+/* ---- /boards/by-price/ ---- */
+.bp-main { max-width: 1120px; margin: 0 auto; padding: 0 18px 40px; }
+.bp-hero { padding: 26px 0 10px; }
+.bp-hero h1 { font-size: clamp(1.8rem, 4.2vw, 2.7rem); line-height: 1.12; margin: 8px 0 12px; }
+.bp-lead { font-size: 1.12rem; max-width: 860px; }
+.bp-hero-img { display: block; width: 100%; height: auto; border-radius: 14px; margin: 18px 0 14px; }
+.bp-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.bp-chips a { background: #231a12; color: #f6ecd8; text-decoration: none; font-weight: 700; padding: 8px 16px; border-radius: 999px; }
+.bp-chips a:hover, .bp-chips a:focus-visible { background: var(--green); }
+.bp-rung { margin: 38px 0 0; scroll-margin-top: 80px; }
+.bp-rung-head { display: flex; gap: 18px; align-items: flex-start; border-top: 3px solid #231a12; padding-top: 14px; }
+.bp-rung-price { flex: none; margin: 0; background: #231a12; color: var(--gold); font-family: var(--serif); font-weight: 700; font-size: 1.6rem; padding: 10px 16px; border-radius: 10px; }
+.bp-rung-head h2 { margin: 0 0 6px; font-size: clamp(1.35rem, 2.8vw, 1.8rem); }
+.bp-rung-head h2 span { display: block; font-family: var(--sans); font-size: 0.95rem; color: var(--muted); font-weight: 600; margin-top: 2px; }
+.bp-rung-head p { margin: 0; }
+.bp-cards { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.bp-card { background: var(--paper); border: 1px solid #e6dcc8; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; scroll-margin-top: 80px; }
+.bp-card img { display: block; width: 100%; height: auto; aspect-ratio: 800 / 537; object-fit: cover; }
+.bp-card-body { padding: 12px 14px 14px; }
+.bp-card-k { margin: 0; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold-dark); font-weight: 700; }
+.bp-card h3 { margin: 4px 0 6px; font-size: 1.08rem; line-height: 1.25; }
+.bp-card h3 a { color: inherit; text-decoration: none; }
+.bp-card h3 a:hover { text-decoration: underline; }
+.bp-card-nums { margin: 0 0 6px; }
+.bp-card-nums strong { color: var(--green-deep); font-size: 1.15rem; }
+.bp-card-items { margin: 0; font-size: 0.88rem; color: var(--muted); }
+.bp-rung-buy { margin: 14px 0 0; }
+.bp-section { margin: 44px 0 0; }
+.bp-book { display: flex; gap: 22px; align-items: center; background: var(--paper); border: 1px solid #e6dcc8; border-radius: 14px; padding: 20px; }
+.bp-book img { flex: none; width: 150px; height: auto; border-radius: 6px; box-shadow: var(--shadow); }
+.bp-book h2 { margin: 2px 0 8px; }
+.bp-book .eyebrow { margin: 0; color: var(--gold-dark); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
+@media (max-width: 980px) { .bp-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .bp-cards { grid-template-columns: 1fr; }
+  .bp-rung-head { flex-direction: column; gap: 8px; }
+  .bp-book { flex-direction: column; align-items: flex-start; }
+  .bp-book img { width: 120px; }
+}
+
+/* ---- $5 packs on the book page ---- */
+.bp-packs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.bp-pack { background: var(--paper); border: 1px solid #e6dcc8; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+.bp-pack img { width: 100%; height: auto; border-radius: 8px; }
+.bp-pack h3 { margin: 4px 0 0; font-size: 1.1rem; }
+.bp-pack p { margin: 0; font-size: 0.92rem; }
+.bp-pack-sub { color: var(--muted); font-weight: 600; }
+.bp-pack .button { margin-top: auto; text-align: center; }
+@media (max-width: 860px) { .bp-packs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .bp-packs { grid-template-columns: 1fr; } }

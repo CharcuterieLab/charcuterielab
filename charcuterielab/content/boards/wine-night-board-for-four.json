@@ -1,0 +1,105 @@
+{
+ "number": "BB-03",
+ "book": "budget",
+ "slug": "wine-night-board-for-four",
+ "title": "Wine Night for Four",
+ "h1": "Wine Night Charcuterie Board for 4",
+ "seo_title": "Wine Night Charcuterie Board for 4 Under $15",
+ "description": "A wine night charcuterie board for 4 under $15: double-crème brie, prosciutto, fig spread, fruit-and-nut crisps and dried apricots, with the wines to pour.",
+ "category": "classic-budget-luxury",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/budget-03.webp",
+ "hook": "One good soft cheese and a little prosciutto are the two things that taste most expensive. Fig spread and dried apricots do the rest of the work for very little money, and the whole board comes in under $15.",
+ "serves": "4",
+ "guests": 4,
+ "board_size": "12-inch round board",
+ "prep_time": "15 min",
+ "cost": "About $15",
+ "difficulty": "Beginner",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Double-crème brie wedge, 7 oz",
+     "slug": "brie"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto, sliced, 3 oz",
+     "slug": null
+    }
+   ]
+  },
+  {
+   "name": "Crackers",
+   "items": [
+    {
+     "name": "Fruit-and-nut crisps, 1 box",
+     "slug": "fruit-and-nut-crisps"
+    }
+   ]
+  },
+  {
+   "name": "Fruit & sweet",
+   "items": [
+    {
+     "name": "Dried apricots, 6 oz",
+     "slug": "dried-apricots"
+    },
+    {
+     "name": "Fig spread, 1 jar",
+     "slug": "fig-jam"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Creamy, salty and sweet on one crisp is the whole point of a wine board. Brie brings the cream, prosciutto the salt, and fig spread the sweetness, so every bite tastes finished without a long shopping list.",
+  "Fruit-and-nut crisps already carry sweetness and crunch, so one cracker does two jobs. Tart dried apricots cut through the rich brie, and lighter wines, such as Pinot Noir, a dry rosé or a dry Riesling, let the brie and fig taste like themselves."
+ ],
+ "timeline": [
+  {
+   "when": "30 min before",
+   "what": "Take the brie out to soften."
+  },
+  {
+   "when": "20 min before",
+   "what": "Cut the brie into 6 slim slices."
+  },
+  {
+   "when": "15 min before",
+   "what": "Separate the prosciutto slices so they don't tear."
+  },
+  {
+   "when": "10 min before",
+   "what": "Spoon the fig spread into a ramekin."
+  },
+  {
+   "when": "When guests arrive",
+   "what": "Pour the wine and build the board."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What wine goes with a brie and prosciutto board?",
+   "a": "A light red like Pinot Noir, a dry rosé or a dry Riesling. Lighter wines don't overpower the brie, and their acidity cuts the salt of the prosciutto."
+  },
+  {
+   "q": "How much does a wine night board for 4 cost?",
+   "a": "About $14.95 at Aldi at regular fall 2026 prices, or about $3.74 a guest, not counting the wine."
+  },
+  {
+   "q": "Can I swap the brie?",
+   "a": "A block of sharp cheddar saves about $2.24, but you lose the creamy contrast with the prosciutto. An aged gouda wedge is the best upgrade if you can spend about $4 more."
+  }
+ ],
+ "blog": [],
+ "updated": "2026-11-23",
+ "date": "2026-11-23"
+}

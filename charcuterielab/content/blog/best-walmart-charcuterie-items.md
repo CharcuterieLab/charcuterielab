@@ -133,6 +133,8 @@ For 6 people:
 
 Plan on about 3 oz of cheese and 3 oz of meat per guest when the board is the party food, or 2 oz each before a meal. For more cheap boards, see our [budget charcuterie board](/blog/budget-charcuterie-board/) and the [$20 charcuterie board challenge](/blog/20-dollar-charcuterie-board-challenge/).
 
+**Priced at Walmart:** three boards in [Charcuterie on Any Budget](/books/charcuterie-on-any-budget/) are priced at Walmart: a $15 [movie night board](/boards/movie-night-charcuterie-board/) for four, a $30 [game day board](/boards/game-day-charcuterie-board/) for ten and a $50 [smokehouse BBQ board](/boards/southern-bbq-charcuterie-board/). See [every board by price](/boards/by-price/).
+
 ## Shopping tips
 
 - **Find the specialty case.** In many stores the specialty cheeses are in a case near produce or the deli, separate from the dairy aisle.

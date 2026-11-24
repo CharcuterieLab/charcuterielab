@@ -1,0 +1,124 @@
+{
+ "number": "BB-18",
+ "book": "budget",
+ "slug": "italian-salumeria-board",
+ "title": "The Italian Salumeria Board",
+ "h1": "Italian Salumeria Board: A $250 Luxury Charcuterie Board",
+ "seo_title": "Luxury Italian Charcuterie Board: $250 Salumeria Board for 10",
+ "description": "A $250 luxury Italian charcuterie board for 10: 30-month Parmigiano Reggiano, 24-month Prosciutto di Parma, bresaola, mortadella, finocchiona, burrata and traditional aged balsamic.",
+ "category": "classic-budget-luxury",
+ "wave": 1,
+ "status": "published",
+ "image": "/images/boards/budget-18.webp",
+ "hook": "At $250 the board is built on Italy's protected classics: 30-month Parmigiano Reggiano, hand-sliced Prosciutto di Parma and a traditional aged balsamic poured a few drops at a time, with fresh burrata torn open at the table.",
+ "serves": "10",
+ "guests": 10,
+ "board_size": "Marble slab, about 26 by 16 inches",
+ "prep_time": "40 min",
+ "cost": "About $232",
+ "difficulty": "Advanced",
+ "groups": [
+  {
+   "name": "Cheese",
+   "items": [
+    {
+     "name": "Parmigiano Reggiano, 30-month, 1 lb",
+     "slug": "parmigiano-reggiano"
+    },
+    {
+     "name": "Burrata, two 8 oz",
+     "slug": "burrata"
+    },
+    {
+     "name": "Gorgonzola dolce, 8 oz",
+     "slug": "gorgonzola"
+    }
+   ]
+  },
+  {
+   "name": "Meat",
+   "items": [
+    {
+     "name": "Prosciutto di Parma, 24-month, hand-sliced, 12 oz",
+     "slug": "prosciutto-di-parma"
+    },
+    {
+     "name": "Bresaola, 6 oz",
+     "slug": "bresaola"
+    },
+    {
+     "name": "Mortadella with pistachios, 8 oz",
+     "slug": "mortadella"
+    },
+    {
+     "name": "Finocchiona, 8 oz",
+     "slug": "finocchiona"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "items": [
+    {
+     "name": "Traditional balsamic vinegar of Modena, aged, 100 ml",
+     "slug": null
+    },
+    {
+     "name": "Castelvetrano olives, 10 oz",
+     "slug": "castelvetrano-olives"
+    },
+    {
+     "name": "Fresh figs, 1 pint",
+     "slug": "figs"
+    },
+    {
+     "name": "Grissini breadsticks",
+     "slug": "grissini"
+    }
+   ]
+  }
+ ],
+ "why": [
+  "Breaking long-aged Parmigiano along its grain shows the crunchy crystals that only come with age, and a few drops of thick, traditional balsamic on each chunk is a classic pairing from Emilia-Romagna. That one bottle is a third of the budget, and it is the bite guests remember.",
+  "Four cured meats in four shapes let guests tell them apart: translucent prosciutto in loose folds, lean bresaola in a circle, silky mortadella in quarters and fennel-scented finocchiona in a shingled row. Torn burrata becomes the board's dip, and sweet figs and buttery green olives balance all that salt."
+ ],
+ "timeline": [
+  {
+   "when": "60 min before",
+   "what": "Take out the Parmigiano and gorgonzola."
+  },
+  {
+   "when": "30 min before",
+   "what": "Break the Parmigiano into craggy chunks."
+  },
+  {
+   "when": "20 min before",
+   "what": "Separate the prosciutto slices; fold the mortadella."
+  },
+  {
+   "when": "10 min before",
+   "what": "Halve the figs; drain the olives."
+  },
+  {
+   "when": "When guests arrive",
+   "what": "Tear the burrata at the table."
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes an Italian charcuterie board luxury?",
+   "a": "The protected, long-aged foods: Parmigiano Reggiano aged 30 months, Prosciutto di Parma aged 24 months and hand-sliced, and traditional balsamic vinegar of Modena, which is aged for years and used a few drops at a time."
+  },
+  {
+   "q": "How much does a luxury Italian charcuterie board cost?",
+   "a": "This one comes to about $232 for 10 at Whole Foods plus an online order for the balsamic, at regular fall 2026 prices. Swapping the traditional balsamic for an aged IGP bottle saves about $76."
+  },
+  {
+   "q": "Where do you buy traditional balsamic vinegar?",
+   "a": "Specialty Italian importers and some cheese shops carry it in 100 ml bottles. Look for the words traditional and DOP on the label; the cheaper IGP bottles are a different, younger product."
+  }
+ ],
+ "blog": [],
+ "updated": "2026-11-23",
+ "date": "2026-11-23"
+}
