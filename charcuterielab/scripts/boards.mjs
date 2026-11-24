@@ -79,9 +79,8 @@ export const IMPOSSIBLE_BOOK = {
   paperbackPrice: "$24.99"
 };
 
-// Book 9 (23 Nov 2026): Charcuterie on Any Budget. The paperback went to KDP
-// review on 23 Nov; when it's live, paste its Amazon URL into paperbackUrl and
-// every button, the shelf and the schema switch over on the next build.
+// Book 9 (23 Nov 2026): Charcuterie on Any Budget. The paperback went live on
+// Amazon on 24 Nov (B0HSSBM92X); every button, the shelf and the schema use it.
 // The six $5 packs are one price level each (4 boards, 27 pages) on Gumroad.
 export const BUDGET_BOOK = {
   title: "Charcuterie Lab: Charcuterie on Any Budget",
@@ -89,7 +88,7 @@ export const BUDGET_BOOK = {
   ebookUrl: "https://charcuterieflavor.gumroad.com/l/charcuterie-on-any-budget",
   ebookPrice: "$9.99",
   cover: "/images/books/budget-cover.jpg",
-  paperbackUrl: "",
+  paperbackUrl: "https://www.amazon.com/dp/B0HSSBM92X",
   paperbackPrice: "$18.99",
   path: "/books/charcuterie-on-any-budget/",
   packPrice: "$5",
