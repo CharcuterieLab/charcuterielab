@@ -2,7 +2,8 @@
 title: "Gruyère vs. Comté: What's the Difference?"
 seo_title: "Comté vs Gruyère: Taste Differences and Which to Buy"
 date: "2026-10-13"
-image: "/images/ingredients/comte.jpg"
+updated: "2026-11-23"
+image: "/images/vs/gruyere-vs-comte.jpg"
 excerpt: "Gruyère and Comté are neighboring alpine cheeses made from raw cow's milk in huge wheels. Gruyère is Swiss, saltier and more savory; Comté is French, fruitier and changes with the season. Here's how to choose."
 description: "Comté vs Gruyère: French Comté is fruitier and changes by season; Swiss Gruyère is saltier and more savory. Chart, aging, pairings and which to buy."
 slug: "gruyere-vs-comte"
@@ -13,6 +14,10 @@ faq: "[{"question":"What is the difference between Gruyère and Comté?","answer
 # Gruyère vs. Comté: What's the Difference?
 
 > **Quick Answer:** Close cousins: both are **nutty alpine cheeses** that melt well. **Gruyère** (Swiss) is saltier and more savory. **Comté** (French) is fruitier and sweeter. Swap them one for one in cooking, or serve both on a board.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Gruyère</b> if…</p><ul><li>You want salty, savory and nutty</li><li>You're making fondue, mac and cheese or French onion soup</li><li>You want the easier cheese to find</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Comté</b> if…</p><ul><li>You want fruitier, sweeter and more varied</li><li>It's the star of a cheese board</li><li>You like to try ages: 12, 18 or 24 months</li></ul></div></div><p class="vs-board"><b>On a board:</b> Either works as the firm cheese. Comté is the slightly better board cheese; Gruyère is the better melter.</p><p class="vs-price"><span class="vs-price-h">Price check</span> <span>Emmi Le Gruyère AOP, 6 oz: <b>$7.97</b> ($1.33/oz)</span> · <span>Comté: <b>not sold by Walmart.com</b></span> <span class="vs-src">Regular price on Walmart.com, Nov 23, 2026.</span></p></aside>
+:::
 
 ## Gruyère vs. Comté at a glance
 

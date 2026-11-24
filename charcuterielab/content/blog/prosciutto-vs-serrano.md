@@ -2,7 +2,8 @@
 title: "Prosciutto vs. Serrano Ham (and Ibérico): What's the Difference?"
 seo_title: "Prosciutto vs Serrano Ham: Differences & Which to Buy"
 date: "2026-10-12"
-image: "/images/ingredients/jamon-serrano.jpg"
+updated: "2026-11-23"
+image: "/images/vs/prosciutto-vs-serrano.jpg"
 excerpt: "Prosciutto is Italian, serrano is Spanish, and both are dry-cured ham. Prosciutto is softer and sweeter; serrano is firmer, drier and more savory. Here's how they compare with jamón ibérico."
 description: "Prosciutto vs serrano ham: Italian vs Spanish dry-cured ham, compared on taste, texture, aging and price, plus where jamón ibérico fits and which to put on a board."
 meta_description: "Prosciutto vs serrano ham compared on taste, texture, aging and price, plus where jamón ibérico fits and which one belongs on your board."
@@ -14,6 +15,10 @@ faq: "[{"question":"Is serrano ham the same as prosciutto?","answer":"No. Both a
 # Prosciutto vs. Serrano Ham (and Ibérico): What's the Difference?
 
 > **Quick Answer:** Both are cured pork legs. **Prosciutto** (Italy) is soft, silky and sweet. **Serrano** (Spain) is firmer and more savory. **Jamón ibérico** is Spain's premium, nutty ham. For most boards, use prosciutto.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Prosciutto</b> if…</p><ul><li>You want sweeter, softer and silkier</li><li>You're building an Italian board</li><li>You're wrapping melon or breadsticks</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Serrano ham</b> if…</p><ul><li>You want deeper, drier and nuttier</li><li>You're building a Spanish board with Manchego and olives</li><li>You want a step toward jamón ibérico for less</li></ul></div></div><p class="vs-board"><b>On a board:</b> Match the board: prosciutto for Italian, Serrano for Spanish. Both on one board is a good tasting.</p><p class="vs-price"><span class="vs-price-h">Price check</span> <span>Del Duca prosciutto, 6 oz: <b>$7.94</b> ($1.31/oz)</span> · <span>Sliced Serrano ham: <b>not sold by Walmart.com</b></span> <span class="vs-src">Regular price on Walmart.com, Nov 23, 2026.</span></p></aside>
+:::
 
 ## Are prosciutto and serrano the same thing?
 

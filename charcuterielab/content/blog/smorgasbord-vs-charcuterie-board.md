@@ -2,6 +2,7 @@
 title: "Smorgasbord vs. Charcuterie Board: What's the Difference?"
 seo_title: "Smorgasbord vs Charcuterie Board: What's the Difference?"
 date: "2026-11-01"
+updated: "2026-11-23"
 image: "/images/smorgasbord-vs-charcuterie-board.jpg"
 excerpt: "A smorgasbord is a Swedish buffet: a whole table of cold and hot dishes eaten in courses, starting with herring. A charcuterie board is one board of cured meat, cheese and snacks to graze. Here's how they differ, and how to borrow from both."
 description: "Smorgasbord vs charcuterie board: a smorgasbord is a Swedish buffet of cold and hot dishes eaten in courses; a charcuterie board is one board of cured meat and cheese. Chart, history and a Scandinavian-style board."
@@ -14,6 +15,10 @@ faq: "[{"question": "What is the difference between a smorgasbord and a charcute
 # Smorgasbord vs. Charcuterie Board: What's the Difference?
 
 > **Quick Answer:** A **smorgasbord** is a Swedish buffet: a whole table of cold and hot dishes, eaten in courses and started with herring. A **charcuterie board** is one board of cured meat, cheese and snacks that people graze in any order. In English, "smorgasbord" also just means a big variety.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Charcuterie board</b> if…</p><ul><li>You want one board of meat, cheese and snacks</li><li>Guests graze in any order</li><li>It's a party starter</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Smorgasbord</b> if…</p><ul><li>You're serving a full Swedish-style buffet</li><li>You'll have herring, salads, hot dishes and dessert</li><li>It's a meal in courses, especially at Christmas (julbord)</li></ul></div></div><p class="vs-board"><b>On a board:</b> Hosting a holiday crowd? A charcuterie board is the easy version; a smorgasbord is a whole menu.</p></aside>
+:::
 
 ## Smorgasbord vs. charcuterie board at a glance
 

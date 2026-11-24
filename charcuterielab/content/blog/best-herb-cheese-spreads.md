@@ -2,7 +2,7 @@
 title: "The Best Boursin-Style Herb Cheese Spreads for a Charcuterie Board"
 seo_title: "Boursin vs Alouette: Best Garlic & Herb Cheese Spreads"
 date: "2026-10-25"
-updated: "2026-11-02"
+updated: "2026-11-23"
 image: "/images/ingredients/boursin.jpg"
 excerpt: "The best garlic and herb cheese spreads for a charcuterie board: Boursin is the original, Alouette the closest dupe for less, Aldi's Emporium Selection the cheapest, plus dairy-free picks. How they differ and how much to buy."
 description: "Boursin Garlic & Fine Herbs is the best garlic and herb cheese spread. Alouette is the closest dupe for less, Aldi's Emporium costs about $3.29, and Boursin Dairy-Free is the vegan pick."
@@ -16,9 +16,14 @@ tags: "["best boursin cheese", "boursin dupe", "boursin vs alouette", "garlic an
 
 > **Quick Answer:** Buy **Boursin Garlic & Fine Herbs** (about $5.70). Closest dupe, more for the money: **Alouette**. Aldi: **Emporium Selection** (about $3.29). Dairy-free: **Boursin Dairy-Free**.
 
+
 :::html
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Boursin Garlic &amp; Fine Herbs</a><p class="sk-top-line">The French original: creamy, a little crumbly</p></div><div class="sk-top-buy"><span class="sk-price">About $5.70</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/11046065" target="_blank" rel="noopener">Check price at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best dupe</p><a class="sk-top-name" href="#pick-2">Alouette Garlic &amp; Herbs</a><p class="sk-top-line">Smoother, and more cheese for the money</p></div><div class="sk-top-buy"><span class="sk-price">About $5.50</span><a class="button sk-buy-sm" href="https://www.walmart.com/ip/seort/10293332" target="_blank" rel="noopener">Check price at Walmart</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best value</p><a class="sk-top-name" href="#pick-3">Emporium Selection Garlic &amp; Herb Spread (Aldi)</a><p class="sk-top-line">Cheapest per ounce we found</p></div><div class="sk-top-buy"><span class="sk-price">About $3.29</span><a class="button sk-buy-sm" href="https://new.aldi.us/product/emporium-selection-garlic-herb-cheese-spread-0000000000000069" target="_blank" rel="noopener">See it at Aldi</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#picks">All 8 picks</a><a href="#how-to-choose">How to choose</a><a href="#herb-cheese-spread-questions">FAQ</a></nav>
+:::
+
+:::html
+<aside class="vs-verdict" id="boursin-vs-alouette" aria-label="Boursin vs. Alouette"><p class="vs-h">Boursin vs. Alouette: which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Boursin</b> if…</p><ul><li>You want the original: slightly crumbly, with a fresh garlic bite</li><li>It's going on a board where it will be noticed</li><li>You want the French original, created in Normandy</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Alouette</b> if…</p><ul><li>You want smoother and easier to spread</li><li>You're buying for a crowd: more cheese for less money</li><li>You want more flavors, from spinach artichoke to cheesecake</li></ul></div></div><p class="vs-board"><b>On a board:</b> Boursin, out of the foil and on its own small plate. For a big party, two tubs of Alouette go further.</p><p class="vs-price"><span class="vs-price-h">Price check</span> <span>Boursin Garlic & Fine Herbs, 5.3 oz: <b>$5.72</b> ($1.10/oz)</span> · <span>Alouette Garlic & Herbs, 6.5 oz: <b>$5.46</b> (84¢/oz)</span> · <span>Laughing Cow Garlic & Herb wedges, 5.4 oz: <b>$3.97</b> (74¢/oz)</span> <span class="vs-src">Regular price on Walmart.com, Nov 23, 2026.</span></p></aside>
 :::
 
 No taste test exists, so we picked on texture, ingredients, price per ounce and where to buy.

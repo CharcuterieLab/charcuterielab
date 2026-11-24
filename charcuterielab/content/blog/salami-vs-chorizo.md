@@ -2,17 +2,22 @@
 title: "Salami vs. Chorizo: What's the Difference?"
 seo_title: "Chorizo vs Salami: Spanish vs Mexican Chorizo (Chart)"
 date: "2026-10-13"
-image: "/images/ingredients/chorizo.jpg"
+updated: "2026-11-23"
+image: "/images/vs/salami-vs-chorizo.jpg"
 excerpt: "Salami and Spanish chorizo are both cured sausages you can slice and eat, but chorizo gets its red color and smoky flavor from pimentón. And Mexican chorizo is raw. Here's how to tell them apart."
 description: "Is chorizo a salami? Spanish chorizo is, but Mexican chorizo is raw and must be cooked. A side-by-side chart, which goes on a board, and how much to buy."
 slug: "salami-vs-chorizo"
 tags: "["salami", "chorizo", "spanish chorizo", "mexican chorizo", "salami vs chorizo", "cured meats", "charcuterie meats"]"
-faq: "[{"question":"What is the difference between salami and chorizo?","answer":"Both are cured pork sausages. Salami is the broad Italian family, seasoned mainly with garlic and pepper. Spanish chorizo is seasoned with pimentón (smoked Spanish paprika), which makes it red, smoky and slightly sweet or spicy."},{"question":"Is chorizo a type of salami?","answer":"Spanish chorizo is made the same way as salami, cured and air-dried, so it's a close cousin. It's usually treated as its own category because of the paprika. Mexican chorizo is not salami at all; it's a raw sausage."},{"question":"Can you eat chorizo without cooking it?","answer":"You can eat cured Spanish chorizo sliced straight from the package. Mexican chorizo and Spanish chorizo labeled for cooking are raw and must be cooked."},{"question":"Is chorizo spicier than salami?","answer":"Usually. Chorizo picante is made with hot paprika. Chorizo dulce is mild and sweet. Most salami, like Genoa, has no chili at all, though Calabrese and hot soppressata do."},{"question":"Can pregnant guests eat chorizo or salami?","answer":"The CDC advises pregnant people to heat dry sausages like salami and chorizo until steaming hot before eating."}]"
+faq: "[{"question":"What is the difference between chorizo and pepperoni?","answer":"Spanish chorizo is coarse pork seasoned with smoked paprika and garlic. Pepperoni is a finer, smoked American salami of pork or pork and beef, with paprika and chili. Chorizo tastes smokier; pepperoni suits pizza."},{"question":"What is the difference between salami and chorizo?","answer":"Both are cured pork sausages. Salami is the broad Italian family, seasoned mainly with garlic and pepper. Spanish chorizo is seasoned with pimentón (smoked Spanish paprika), which makes it red, smoky and slightly sweet or spicy."},{"question":"Is chorizo a type of salami?","answer":"Spanish chorizo is made the same way as salami, cured and air-dried, so it's a close cousin. It's usually treated as its own category because of the paprika. Mexican chorizo is not salami at all; it's a raw sausage."},{"question":"Can you eat chorizo without cooking it?","answer":"You can eat cured Spanish chorizo sliced straight from the package. Mexican chorizo and Spanish chorizo labeled for cooking are raw and must be cooked."},{"question":"Is chorizo spicier than salami?","answer":"Usually. Chorizo picante is made with hot paprika. Chorizo dulce is mild and sweet. Most salami, like Genoa, has no chili at all, though Calabrese and hot soppressata do."},{"question":"Can pregnant guests eat chorizo or salami?","answer":"The CDC advises pregnant people to heat dry sausages like salami and chorizo until steaming hot before eating."}]"
 ---
 
 # Salami vs. Chorizo: What's the Difference?
 
 > **Quick Answer:** Both are cured pork sausages eaten cold. **Salami** is seasoned with garlic and pepper. **Spanish chorizo** gets smoked paprika, so it's red and smoky. **Mexican chorizo** is raw and must be cooked: not for a board.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Salami</b> if…</p><ul><li>You want mild and garlicky, for everyone</li><li>You need a meat that goes with any cheese</li><li>You're feeding kids or a big crowd</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Chorizo</b> if…</p><ul><li>You want smoky paprika and color</li><li>You're building a Spanish or tapas board (with Manchego)</li><li>Buy dry-cured Spanish chorizo; Mexican chorizo is raw and must be cooked</li></ul></div></div><p class="vs-board"><b>On a board:</b> Salami as the base, dry Spanish chorizo as the bold second meat. Never put raw Mexican chorizo on a board.</p><p class="vs-price"><span class="vs-price-h">Price check</span> <span>Marketside chorizo salami stick, 7 oz: <b>$6.46</b> (92¢/oz)</span> · <span>Margherita Genoa salami, 16 oz: <b>$8.47</b> (53¢/oz)</span> · <span>Cacique Mexican pork chorizo (raw, cook it), 9 oz: <b>$1.50</b> (17¢/oz)</span> <span class="vs-src">Regular price on Walmart.com, Nov 23, 2026.</span></p></aside>
+:::
 
 ## The chorizo mix-up that ruins boards
 
@@ -42,6 +47,21 @@ If you can squeeze it like a fresh sausage, it needs a pan. If it's firm like sa
 **Pimentón is the whole story.** Spanish paprika is made from peppers dried slowly over oak smoke and then ground. It brings three things at once: color, smoke and either sweetness (*dulce*) or heat (*picante*). The paprika's oils also dissolve into the fat, which is why chorizo's fat looks orange and why it leaves red oil on the board.
 
 **Salami's flavor comes from fermentation.** Good bacteria sour the meat slightly as it cures, and the garlic and pepper sit on top of that tang. It's milder and more savory, with no smoke in most styles. There are dozens of salami styles, from fennel-scented finocchiona to spicy Calabrese. See [our guide to the types of salami](/blog/types-of-salami/).
+
+## Chorizo vs. pepperoni
+
+They look alike, red and spicy, but they're seasoned differently.
+
+| | Spanish chorizo | Pepperoni |
+|---|---|---|
+| Origin | Spain | Italian-American, United States |
+| Meat | Pork | Pork, or pork and beef |
+| Key spice | Pimentón (smoked paprika) and garlic | Paprika, chili, often fennel or anise |
+| Smoke | From the smoked paprika | Usually smoked itself |
+| Texture | Coarse, a little chewy | Fine and dense |
+| Best use | Spanish board, with Manchego | Pizza and casual boards |
+
+Spanish chorizo tastes smokier and more garlicky; pepperoni is finer, saltier and a little sweeter. On pizza, pepperoni cups and crisps, while chorizo lies flat and releases more orange oil. Mexican chorizo is a different thing again: raw, and only for cooking. More: [salami vs. pepperoni](/blog/salami-vs-pepperoni/).
 
 ## Which is better on a charcuterie board?
 

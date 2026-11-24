@@ -5,6 +5,17 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Comparisons (23 Nov 2026): soppressata vs salami folded into soppressata vs pepperoni.
+[[redirects]]
+  from = "/blog/soppressata-vs-salami/"
+  to = "/blog/soppressata-vs-pepperoni/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/soppressata-vs-salami"
+  to = "/blog/soppressata-vs-pepperoni/"
+  status = 301
+
 # Whisky (23 Nov 2026): /pairings/spirits/whisky/ merged into the whiskey and cheese post.
 [[redirects]]
   from = "/pairings/spirits/whisky/"

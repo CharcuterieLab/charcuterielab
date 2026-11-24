@@ -2,7 +2,7 @@
 title: "Salami vs. Pepperoni: Is Pepperoni Salami?"
 seo_title: "Is Pepperoni Salami? Pepperoni vs Salami, Side by Side"
 date: "2026-05-05"
-updated: "2026-10-20"
+updated: "2026-11-23"
 image: "/images/salami-vs-pepperoni.webp"
 excerpt: "Yes, pepperoni is a type of salami: an American one. Here's what makes it different from Italian salami, which is spicier, and which to use on a pizza or a board."
 description: "Pepperoni is a salami, but not the kind on most boards. A side-by-side chart of taste, heat and texture, plus which to buy for pizza and which for a board."
@@ -14,6 +14,10 @@ faq: "[{"question":"Is pepperoni a type of salami?","answer":"Yes. Pepperoni is 
 # Salami vs. Pepperoni: Is Pepperoni Salami?
 
 > **Quick Answer:** **Yes, pepperoni is a salami.** It's finer, spiced with paprika and chili, usually smoked, and often pork and beef, so it's redder and spicier. Most Italian salami is pork-only and milder.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Salami</b> if…</p><ul><li>You're building a charcuterie board</li><li>You want mild, garlicky flavor (Genoa) or a firm deli slice (hard salami)</li><li>Guests include kids or spice-shy eaters</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Pepperoni</b> if…</p><ul><li>You're making pizza: it curls into crisp cups</li><li>You want smoke and paprika heat</li><li>It's a casual, game-day or kids' board</li></ul></div></div><p class="vs-board"><b>On a board:</b> Genoa salami as the main meat, with a few pepperoni slices or a stick for snackers. Pepperoni alone reads as pizza topping.</p><p class="vs-price"><span class="vs-price-h">Price check</span> <span>Margherita Genoa salami, 16 oz: <b>$8.47</b> (53¢/oz)</span> · <span>Great Value hard salami, 6 oz: <b>$2.88</b> (47¢/oz)</span> · <span>Hormel pepperoni, 6 oz: <b>$4.46</b> (73¢/oz)</span> <span class="vs-src">Regular price on Walmart.com, Nov 23, 2026.</span></p></aside>
+:::
 
 :::html
 <div class="sk-top"><p class="sk-top-label">The short version</p>

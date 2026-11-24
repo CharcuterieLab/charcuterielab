@@ -1,0 +1,20 @@
+/* Comparison posts: "Which should you buy?" box (23 Nov 2026) */
+.vs-verdict { margin: 18px 0 26px; padding: 16px 18px 14px; background: var(--paper, #fffcf4); border: 1px solid rgba(143, 68, 34, 0.22); border-top: 4px solid var(--green, #a9572b); border-radius: 12px; font-family: var(--sans); }
+.vs-verdict .vs-h { margin: 0 0 10px; line-height: 1.25; font-family: var(--serif); font-size: 21px; font-weight: 700; color: var(--green-deep, #8f4422); }
+.vs-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.vs-col { min-width: 0; padding: 10px 12px; background: var(--cream, #f7f2e7); border-radius: 10px; }
+.vs-verdict .vs-pick { margin: 0 0 6px; font-size: 16px; color: var(--ink, #17130e); }
+.vs-pick b { color: var(--green-deep, #8f4422); }
+.vs-verdict .vs-col ul { margin: 0; padding: 0 0 0 18px; border: 0; background: none; box-shadow: none; border-radius: 0; }
+.vs-verdict .vs-col li { margin: 0 0 4px; padding-left: 2px; font-size: 15.5px; line-height: 1.4; }
+.vs-verdict .vs-board { margin: 12px 0 0; font-size: 16px; line-height: 1.45; }
+.vs-verdict .vs-price { margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed rgba(143, 68, 34, 0.3); font-size: 14.5px; line-height: 1.55; color: var(--muted, #5e5547); }
+.vs-price > span:not(.vs-price-h):not(.vs-src) { white-space: normal; }
+.vs-price b { color: var(--ink, #17130e); }
+.vs-price-h { display: inline-block; margin-right: 6px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; color: var(--green-deep, #8f4422); }
+.vs-src { display: block; font-size: 12.5px; margin-top: 2px; }
+@media (max-width: 600px) {
+  .vs-cols { grid-template-columns: 1fr; gap: 10px; }
+  .vs-verdict { padding: 14px 14px 12px; }
+}
+@media print { .vs-verdict { break-inside: avoid; } }

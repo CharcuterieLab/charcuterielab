@@ -1,7 +1,7 @@
 ---
 title: "Charcuterie vs. Cheese Board: What's the Actual Difference?"
 date: "2026-05-11"
-updated: "2026-11-14"
+updated: "2026-11-23"
 image: "/images/charcuterie-vs-cheese-board.webp"
 excerpt: "Charcuterie vs. Cheese Board: What's the Actual Difference?"
 description: "Charcuterie and cheese boards aren't the same — but the line is blurrier than most think. Here's the clear, science-backed distinction between the two."
@@ -13,6 +13,10 @@ faq: "[{"question": "What is the difference between a charcuterie board and a ch
 # Charcuterie vs. Cheese Board: What's the Actual Difference?
 
 > **Quick Answer:** A **cheese board** is just 3 to 5 cheeses and a few extras. A **charcuterie board** adds cured meat, crackers, fruit and spreads. Charcuterie is for parties; a cheese board suits a cheese course.
+
+:::html
+<aside class="vs-verdict" aria-label="Which should you buy?"><p class="vs-h">Which should you buy?</p><div class="vs-cols"><div class="vs-col"><p class="vs-pick">Pick <b>Charcuterie board</b> if…</p><ul><li>It's a party or the meal itself</li><li>You want meat, cheese, fruit and crackers</li><li>You're feeding a mixed crowd</li></ul></div><div class="vs-col"><p class="vs-pick">Pick <b>Cheese board</b> if…</p><ul><li>It's a cheese course after dinner</li><li>Someone doesn't eat meat</li><li>You want 3 to 5 good cheeses to shine</li></ul></div></div><p class="vs-board"><b>On a board:</b> For most parties, a charcuterie board. For a dinner party's last course, a cheese board.</p></aside>
+:::
 
 ---
 
