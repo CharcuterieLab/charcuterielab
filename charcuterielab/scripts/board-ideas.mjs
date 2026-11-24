@@ -176,8 +176,11 @@ function onBoard(b, max = 5) {
   const items = [];
   for (const g of b.groups || []) {
     for (const it of (g.items || []).slice(0, 2)) {
+      // "Bosc or red Anjou pears" keeps its noun: "Bosc pears".
       const n = String(it.name || "")
         .replace(/\s*[(\u00b7\u2013\u2014].*$/, "")
+        .replace(/^(\S+)\s+or\s+(?:\S+\s+)+([a-z]+)$/, "$1 $2")
+        .replace(/^Monterey or pepper Jack$/, "Monterey Jack")
         .replace(/\s+\bor\b\s+.*$/i, "")
         .replace(/,\s*.*$/, "")
         .replace(/\s+\b(plus|mixed with)\b\s+.*$/i, "")
