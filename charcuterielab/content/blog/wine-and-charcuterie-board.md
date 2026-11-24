@@ -256,6 +256,8 @@ Already have the wine? Build to it. **Light red:** prosciutto or salami, Gruyèr
 - [Wine and Cheese Pairing Chart](/pairings/wine-and-cheese-chart/)
 - [Wine Pairings by Bottle](/pairings/wine/)
 - [Why Bubbles Cut Fat](/blog/why-bubbles-cut-fat/)
+- [Sparkling Drinks for a Charcuterie Board](/blog/sparkling-drinks-for-charcuterie-board/)
+- [Christmas Wine and Cheese Pairings](/blog/christmas-wine-and-cheese-pairing/)
 
 :::html
 <h2 id="faq">FAQ</h2>

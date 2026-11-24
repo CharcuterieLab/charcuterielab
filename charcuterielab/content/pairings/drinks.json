@@ -1956,6 +1956,450 @@
     }
    ],
    "updated": "2026-11-22"
+  },
+  {
+   "slug": "zinfandel",
+   "family": "wine",
+   "name": "Zinfandel",
+   "color": "#6e1a37",
+   "seo_title": "Zinfandel Cheese Pairing: 10 Best Matches + What to Skip",
+   "seo_description": "Zinfandel goes best with aged cheddar, smoked Gouda, spicy salami, holiday ham and dark chocolate. The 10 best matches, 3 to skip, and which Zin to buy.",
+   "profile": {
+    "body": 4,
+    "tannin": 3,
+    "acid": 3,
+    "sweet": 1
+   },
+   "serve": "60–65°F, slightly cool",
+   "answer": "Zinfandel goes best with aged cheddar, smoked Gouda, spicy salami, glazed ham and dark chocolate. Its ripe, jammy fruit and peppery spice stand up to smoke, salt and holiday food.",
+   "intro": "California's own red: ripe blackberry and raspberry fruit, black pepper, and often 14–16% alcohol. That much fruit lets it handle smoke, spice and sweet glazes that thinner reds can't. Serve it a little cool so the alcohol doesn't run hot.",
+   "matches": [
+    {
+     "s": "aged-cheddar",
+     "why": "Sharp, crumbly cheddar against big, ripe fruit.",
+     "rule": "fat-tannin"
+    },
+    {
+     "s": "smoked-gouda",
+     "why": "One of the few reds with enough fruit to take heavy smoke.",
+     "rule": "weight"
+    },
+    {
+     "s": "aged-gouda",
+     "why": "Butterscotch cheese and jammy fruit.",
+     "rule": "weight"
+    },
+    {
+     "s": "country-ham",
+     "why": "Salty, glazed holiday ham and sweet-ripe fruit.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "smoked-turkey",
+     "why": "Smoke, turkey and a peppery red: the holiday-dinner match.",
+     "rule": "weight"
+    },
+    {
+     "s": "pepperoni",
+     "why": "Spicy salami and pepper-spiced wine.",
+     "rule": "weight"
+    },
+    {
+     "s": "chorizo",
+     "why": "Paprika and garlic need a red this ripe.",
+     "rule": "weight"
+    },
+    {
+     "s": "manchego",
+     "why": "Nutty sheep's cheese with a fruity, warm-climate red.",
+     "rule": "fat-tannin"
+    },
+    {
+     "s": "cranberry-sauce",
+     "why": "Berry sauce and berry-forward wine.",
+     "rule": "acid"
+    },
+    {
+     "s": "dark-chocolate",
+     "why": "Ripe Zin is one of the few dry reds that can take dark chocolate; keep it under 70% cacao.",
+     "rule": "weight"
+    }
+   ],
+   "avoid": [
+    {
+     "s": "fresh-chevre",
+     "why": "Tangy fresh goat cheese makes a 15% red taste hot and bitter."
+    },
+    {
+     "s": "brie",
+     "why": "Big fruit and alcohol swamp a mild, creamy cheese."
+    },
+    {
+     "s": "smoked-salmon",
+     "why": "Oily fish and tannin taste metallic together."
+    }
+   ],
+   "swap": "Italian Primitivo is the same grape and often cheaper. For something lighter, try a Côtes du Rhône.",
+   "holidays": [
+    "christmas",
+    "thanksgiving"
+   ],
+   "faq": [
+    {
+     "q": "Is Zinfandel sweet?",
+     "a": "Red Zinfandel is dry, though ripe fruit can make it taste a little sweet. White Zinfandel is a different wine: a sweet pink one made from the same grape."
+    },
+    {
+     "q": "Are Zinfandel and Primitivo the same?",
+     "a": "Yes. DNA tests showed they are the same grape, which came originally from Croatia. Primitivo from Puglia is usually a little softer and cheaper."
+    },
+    {
+     "q": "What cheese goes with Zinfandel?",
+     "a": "Aged cheddar, smoked Gouda, aged Gouda and Manchego. Skip fresh goat cheese and brie."
+    },
+    {
+     "q": "Is Zinfandel good for Christmas?",
+     "a": "Yes. It suits glazed ham, smoked turkey, cranberry and a dessert board with dark chocolate."
+    }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which Zinfandel? Four styles",
+     "p": "The same grape makes very different wines depending on where it grows and how ripe it's picked.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best on the board",
+       "Serve"
+      ],
+      "rows": [
+       [
+        "Lodi and Paso Robles",
+        "Very ripe and jammy: blackberry jam, vanilla, often 15%+",
+        "[Smoked Gouda](/pairings/food/smoked-gouda/), [aged cheddar](/pairings/food/aged-cheddar/), dark chocolate",
+        "60°F"
+       ],
+       [
+        "Sonoma and Dry Creek Valley",
+        "More balanced: bramble fruit, black pepper, brighter acid",
+        "Country ham, [chorizo](/pairings/food/chorizo/), [Manchego](/pairings/food/manchego/)",
+        "60–62°F"
+       ],
+       [
+        "Primitivo (Puglia, Italy)",
+        "Softer, plummy, often cheaper",
+        "[Salami](/pairings/food/genoa-salami/), [pepperoni](/pairings/food/pepperoni/), provolone",
+        "60–62°F"
+       ],
+       [
+        "White Zinfandel",
+        "Sweet, pink, light, about 10% alcohol",
+        "Fruit, mild cheese, [pepper jack](/pairings/food/pepper-jack/)",
+        "Well chilled, 45°F"
+       ]
+      ]
+     },
+     "after": "For a board, Sonoma Zinfandel or Primitivo is the safest choice: enough fruit for smoke and spice, without the heat of a 16% bottle."
+    }
+   ],
+   "updated": "2026-11-23"
+  },
+  {
+   "slug": "pinot-grigio",
+   "family": "wine",
+   "name": "Pinot Grigio",
+   "color": "#d9cf8a",
+   "seo_title": "Pinot Grigio Cheese Pairing: 11 Best Matches + What to Skip",
+   "seo_description": "Pinot Grigio goes best with fresh mozzarella, burrata, feta, goat cheese, prosciutto and melon. The 11 best matches, 3 to skip, and Grigio vs Gris.",
+   "profile": {
+    "body": 1,
+    "tannin": 1,
+    "acid": 4,
+    "sweet": 1
+   },
+   "serve": "45–50°F, chilled",
+   "answer": "Pinot Grigio goes best with fresh mozzarella, burrata, feta, goat cheese, prosciutto and melon. It's light, crisp and lemony, so pair it with fresh, mild or salty food, never strong aged cheese.",
+   "intro": "Italy's best-selling white: light, dry and crisp, with lemon, green apple and pear. It doesn't have the body for big cheese, but it's the right wine for a summer or seafood board, and for guests who don't like strong flavors.",
+   "matches": [
+    {
+     "s": "fresh-mozzarella",
+     "why": "Light, milky Italian cheese and a light Italian white.",
+     "rule": "place"
+    },
+    {
+     "s": "burrata",
+     "why": "Crisp acid cuts the cream.",
+     "rule": "acid"
+    },
+    {
+     "s": "prosciutto-di-parma",
+     "why": "Northern Italian ham with a northern Italian white.",
+     "rule": "place"
+    },
+    {
+     "s": "melon",
+     "why": "The prosciutto-and-melon wine.",
+     "rule": "weight"
+    },
+    {
+     "s": "feta",
+     "why": "Briny cheese and lemony acid.",
+     "rule": "acid"
+    },
+    {
+     "s": "fresh-chevre",
+     "why": "Tangy goat cheese and a crisp, dry white.",
+     "rule": "acid"
+    },
+    {
+     "s": "ricotta",
+     "why": "Soft, sweet-milky cheese for a soft wine.",
+     "rule": "weight"
+    },
+    {
+     "s": "smoked-salmon",
+     "why": "Acid cuts the oil; nothing heavy to clash with the fish.",
+     "rule": "acid"
+    },
+    {
+     "s": "cocktail-shrimp",
+     "why": "Seafood and a light white: the Christmas Eve match.",
+     "rule": "weight"
+    },
+    {
+     "s": "castelvetrano-olives",
+     "why": "Buttery green olives and a crisp, citrusy wine.",
+     "rule": "acid"
+    },
+    {
+     "s": "havarti",
+     "why": "Mild, buttery cheese that won't overpower a light wine.",
+     "rule": "weight"
+    }
+   ],
+   "avoid": [
+    {
+     "s": "stilton",
+     "why": "Strong blue makes a light white taste like water."
+    },
+    {
+     "s": "aged-cheddar",
+     "why": "Sharp, aged cheese buries the delicate fruit."
+    },
+    {
+     "s": "smoked-gouda",
+     "why": "Smoke flattens a wine this light."
+    }
+   ],
+   "swap": "Want more body? Alsace or Oregon Pinot Gris is the same grape, richer and rounder. Or try a Sauvignon Blanc for more zing.",
+   "holidays": [
+    "christmas"
+   ],
+   "faq": [
+    {
+     "q": "Is Pinot Grigio the same as Pinot Gris?",
+     "a": "Same grape, different style. Italian Pinot Grigio is light and crisp; Pinot Gris from Alsace or Oregon is fuller, rounder and sometimes slightly sweet."
+    },
+    {
+     "q": "Is Pinot Grigio dry?",
+     "a": "Almost always. Most Italian Pinot Grigio is dry and crisp."
+    },
+    {
+     "q": "What cheese goes with Pinot Grigio?",
+     "a": "Fresh mozzarella, burrata, ricotta, feta, fresh goat cheese and mild Havarti. Skip aged, blue and smoked cheese."
+    },
+    {
+     "q": "What charcuterie goes with Pinot Grigio?",
+     "a": "Prosciutto with melon, smoked salmon and shrimp. Skip spicy salami and heavy smoked meats."
+    }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Pinot Grigio or Pinot Gris?",
+     "p": "Same grape, two styles. The label tells you which one you're getting.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best on the board",
+       "Serve"
+      ],
+      "rows": [
+       [
+        "Italian Pinot Grigio (Veneto, Friuli, Alto Adige)",
+        "Light, crisp, lemon and green apple",
+        "[Fresh mozzarella](/pairings/food/fresh-mozzarella/), [burrata](/pairings/food/burrata/), prosciutto and melon",
+        "45°F"
+       ],
+       [
+        "Pinot Gris (Oregon, Alsace)",
+        "Rounder and richer: pear, peach, a little spice",
+        "[Brie](/pairings/food/brie/), [Havarti](/pairings/food/havarti/), [honey ham](/pairings/food/honey-ham/)",
+        "50°F"
+       ]
+      ]
+     },
+     "after": "Alto Adige and Friuli Pinot Grigio usually have more flavor than cheap Veneto bottles for only a few dollars more."
+    }
+   ],
+   "updated": "2026-11-23"
+  },
+  {
+   "slug": "moscato",
+   "family": "wine",
+   "name": "Moscato",
+   "color": "#e9c46a",
+   "seo_title": "Moscato Cheese Pairing: 11 Best Matches + What to Skip",
+   "seo_description": "Moscato goes best with Gorgonzola, brie, goat cheese, prosciutto, fruit and biscotti. The 11 best matches, 3 to skip, and which Moscato to buy.",
+   "profile": {
+    "body": 1,
+    "tannin": 1,
+    "acid": 3,
+    "sweet": 4
+   },
+   "serve": "40–45°F, well chilled",
+   "answer": "Moscato goes best with Gorgonzola, brie, fresh goat cheese, prosciutto, fruit and biscotti. It's sweet, low in alcohol and lightly fizzy, so it loves salty cheese and dessert boards.",
+   "intro": "Sweet, floral and grapey, with peach and orange blossom. Moscato d'Asti from Piedmont is lightly fizzy and only about 5.5% alcohol, so it's easy to sip with a board all evening. Its sweetness is a gift for salty cheese and spicy food.",
+   "matches": [
+    {
+     "s": "gorgonzola",
+     "why": "Sweet, low-alcohol fizz against salty blue: Piedmont's own pairing.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "brie",
+     "why": "Light bubbles lift the cream; the sweetness flatters the rind.",
+     "rule": "texture"
+    },
+    {
+     "s": "fresh-chevre",
+     "why": "Tangy goat cheese and sweet fruit.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "prosciutto-di-parma",
+     "why": "Sweet and salty, like melon and ham.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "pecorino-romano",
+     "why": "Very salty sheep's cheese needs sweetness beside it.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "peaches",
+     "why": "Peachy wine, peachy fruit.",
+     "rule": "weight"
+    },
+    {
+     "s": "melon",
+     "why": "Light fruit for a light wine.",
+     "rule": "weight"
+    },
+    {
+     "s": "biscotti",
+     "why": "Asti's wine with Italian cookies: dunk them.",
+     "rule": "place"
+    },
+    {
+     "s": "chocolate-covered-strawberries",
+     "why": "A sweet wine for a dessert board.",
+     "rule": "weight"
+    },
+    {
+     "s": "chorizo",
+     "why": "Sweetness cools spicy, smoky sausage.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "pepper-jack",
+     "why": "Sugar and low alcohol tame the jalapeño heat.",
+     "rule": "salt-sweet"
+    }
+   ],
+   "avoid": [
+    {
+     "s": "smoked-gouda",
+     "why": "Heavy smoke flattens the floral fruit."
+    },
+    {
+     "s": "dark-chocolate",
+     "why": "Bitter cocoa makes a light sweet wine taste thin and sour."
+    },
+    {
+     "s": "anchovies",
+     "why": "Oily, fishy salt and floral sweetness clash."
+    }
+   ],
+   "swap": "For a fully sparkling version, Asti Spumante. For a drier bubbly, Prosecco. For a dessert board with dark chocolate, pour port instead.",
+   "holidays": [
+    "christmas",
+    "new-years-eve"
+   ],
+   "faq": [
+    {
+     "q": "Is Moscato sweet?",
+     "a": "Yes. Almost all Moscato is sweet, from lightly sweet Moscato d'Asti to very sweet dessert Muscat."
+    },
+    {
+     "q": "How much alcohol is in Moscato d'Asti?",
+     "a": "About 5 to 6.5%, less than half a typical table wine. The rules cap it at 6.5%."
+    },
+    {
+     "q": "What cheese goes with Moscato?",
+     "a": "Gorgonzola, brie, fresh goat cheese and salty Pecorino. Sweet wine loves salty cheese."
+    },
+    {
+     "q": "Does Moscato go with a dessert board?",
+     "a": "Yes, with fruit, biscotti, cookies and chocolate-dipped strawberries. Skip bitter dark chocolate; pour port with that."
+    }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Which Moscato? Four styles",
+     "p": "All are made from Muscat grapes, but the fizz and sweetness vary a lot.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best on the board",
+       "Serve"
+      ],
+      "rows": [
+       [
+        "Moscato d'Asti (Piedmont)",
+        "Lightly fizzy, sweet, peach and orange blossom, about 5.5% alcohol",
+        "[Gorgonzola](/pairings/food/gorgonzola/), prosciutto, biscotti",
+        "40–45°F"
+       ],
+       [
+        "Asti Spumante",
+        "Fully sparkling, sweet, a little stronger",
+        "Fruit, [brie](/pairings/food/brie/), a dessert board",
+        "40°F"
+       ],
+       [
+        "California Moscato",
+        "Still or lightly fizzy, very sweet and grapey",
+        "[Pepper jack](/pairings/food/pepper-jack/), chorizo, [fresh goat cheese](/pairings/food/fresh-chevre/)",
+        "40–45°F"
+       ],
+       [
+        "Pink and red Moscato",
+        "Sweet berry flavors, light fizz",
+        "Chocolate-covered strawberries, mild cheese",
+        "40°F"
+       ]
+      ]
+     },
+     "after": "Moscato d'Asti is the one to buy for a cheese board: lighter, fresher and less syrupy than most cheap California Moscato."
+    }
+   ],
+   "updated": "2026-11-23"
   }
  ],
  "beers": [
@@ -3223,7 +3667,169 @@
      ]
     }
    ],
-   "updated": "2026-11-16"
+   "updated": "2026-11-16",
+   "merged_into": "/blog/whiskey-and-cheese-pairing/"
+  },
+  {
+   "slug": "bourbon",
+   "family": "spirits",
+   "name": "Bourbon",
+   "color": "#a0522d",
+   "seo_title": "Bourbon and Cheese Pairing: 12 Best Matches + What to Skip",
+   "seo_description": "Bourbon goes best with aged cheddar, aged Gouda, Maytag blue, country ham, candied pecans and dark chocolate. 12 matches, what to skip, and how to pour.",
+   "h1": "Bourbon and cheese pairing: 12 matches and the 3 to skip",
+   "profile": {
+    "body": 5,
+    "tannin": 2,
+    "acid": 1,
+    "sweet": 3
+   },
+   "serve": "Neat or with a few drops of water; ½–1 oz pours",
+   "answer": "Bourbon goes best with aged cheddar, aged Gouda, a creamy American blue, country ham, candied pecans and dark chocolate. Its caramel and vanilla want aged, salty cheese with crunch.",
+   "intro": "Bourbon must be made in the United States from at least 51% corn and aged in new charred oak, which gives it caramel, vanilla and baking-spice flavors. Those sweet notes make it the friendliest whiskey for cheese. Pair it like a dessert wine: aged, salty, nutty cheese and something toasted. Pour small, about an ounce, and put water out too.",
+   "matches": [
+    {
+     "s": "aged-cheddar",
+     "why": "Caramel and vanilla against sharp, crystal-crunchy cheddar.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "aged-gouda",
+     "why": "Butterscotch cheese and caramel whiskey.",
+     "rule": "weight"
+    },
+    {
+     "s": "maytag-blue",
+     "why": "Sweet bourbon softens a salty American blue.",
+     "rule": "salt-sweet"
+    },
+    {
+     "s": "smoked-gouda",
+     "why": "Smoke meets charred-oak barrel.",
+     "rule": "weight"
+    },
+    {
+     "s": "parmigiano-reggiano",
+     "why": "Salty, crystalline and strong enough for 45% alcohol.",
+     "rule": "weight"
+    },
+    {
+     "s": "country-ham",
+     "why": "Kentucky ham and Kentucky whiskey.",
+     "rule": "place"
+    },
+    {
+     "s": "beef-jerky",
+     "why": "Smoky, salty meat for a smoky, sweet spirit.",
+     "rule": "weight"
+    },
+    {
+     "s": "candied-pecans",
+     "why": "Southern pecans and bourbon: pecan pie in a bite.",
+     "rule": "place"
+    },
+    {
+     "s": "pimento-cheese",
+     "why": "A Southern spread with a Southern whiskey.",
+     "rule": "place"
+    },
+    {
+     "s": "apple-butter",
+     "why": "Baked-apple sweetness and oak spice.",
+     "rule": "weight"
+    },
+    {
+     "s": "medjool-dates",
+     "why": "Caramel fruit with a caramel spirit.",
+     "rule": "weight"
+    },
+    {
+     "s": "dark-chocolate",
+     "why": "Bitter cocoa against vanilla sweetness.",
+     "rule": "weight"
+    }
+   ],
+   "avoid": [
+    {
+     "s": "fresh-mozzarella",
+     "why": "Mild, milky cheese disappears under 40%+ alcohol."
+    },
+    {
+     "s": "fresh-chevre",
+     "why": "Tangy fresh goat cheese turns sour and harsh against whiskey."
+    },
+    {
+     "s": "brie",
+     "why": "A soft, delicate rind tastes of nothing next to bourbon."
+    }
+   ],
+   "swap": "No bourbon? A rye whiskey is spicier and drier; pair it with Gruyère and aged Gouda. For lower alcohol, a tawny port covers the same caramel-and-nut ground.",
+   "holidays": [
+    "christmas",
+    "thanksgiving",
+    "new-years-eve"
+   ],
+   "faq": [
+    {
+     "q": "What cheese goes best with bourbon?",
+     "a": "Aged cheddar and aged Gouda: their nutty, caramel flavors match the barrel. A creamy American blue like Maytag is the bold choice."
+    },
+    {
+     "q": "Can you put bourbon on a charcuterie board?",
+     "a": "Yes. Serve ½–1 oz pours with water on the side, and build the board around aged cheese, country ham, pecans and dark chocolate."
+    },
+    {
+     "q": "What makes bourbon different from other whiskey?",
+     "a": "It must be made in the US from at least 51% corn and aged in new charred oak containers. That's where the sweetness and vanilla come from."
+    },
+    {
+     "q": "What's the difference between bourbon and Scotch with cheese?",
+     "a": "Bourbon is sweeter, so it suits salty, aged cheese. Smoky Scotch suits blue and smoked cheese. More: [whiskey and cheese pairing](/blog/whiskey-and-cheese-pairing/)."
+    }
+   ],
+   "sections": [
+    {
+     "id": "styles",
+     "h": "Bourbon and cheese by style",
+     "p": "The grain recipe changes the flavor, and the flavor changes the cheese.",
+     "table": {
+      "head": [
+       "Style",
+       "What it tastes like",
+       "Best cheese",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "Wheated",
+        "Soft, sweet, bready, gentle",
+        "[Aged Gouda](/pairings/food/aged-gouda/), Gruyère, even a creamy blue",
+        "Maker's Mark, Weller"
+       ],
+       [
+        "High-rye",
+        "Spicier and drier: pepper, cinnamon",
+        "[Aged cheddar](/pairings/food/aged-cheddar/), [pepper jack](/pairings/food/pepper-jack/), smoked Gouda",
+        "Bulleit, Four Roses"
+       ],
+       [
+        "Traditional (standard recipe)",
+        "Caramel, vanilla, oak",
+        "Aged cheddar, Maytag blue, country ham",
+        "Buffalo Trace, Wild Turkey 101"
+       ],
+       [
+        "Barrel proof",
+        "Very strong and rich; add water",
+        "Parmigiano, aged Gouda, dark chocolate",
+        "Booker's, Stagg"
+       ]
+      ]
+     },
+     "after": "Start with a wheated or traditional bourbon if the board is mixed. Save barrel proof for a small tasting, with water and plain crackers."
+    }
+   ],
+   "updated": "2026-11-23"
   }
  ]
 }

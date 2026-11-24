@@ -1,8 +1,8 @@
 ---
 title: "Whiskey and Cheese Pairing: Bourbon, Rye, Scotch and Irish Whiskey (With a Tasting Board)"
-seo_title: "Whiskey and Cheese Pairing: Bourbon, Scotch, Rye Guide"
+seo_title: "Whisky and Cheese Pairing: Bourbon, Scotch, Rye & Irish"
 date: "2026-10-16"
-updated: "2026-11-16"
+updated: "2026-11-23"
 image: "/images/whiskey-and-cheese-pairing.jpg"
 excerpt: "Which cheeses go with bourbon, rye, Scotch and Irish whiskey, why the pairings work, what meats and sweets to add, and how to set up a whiskey and cheese tasting board for 4 to 8."
 description: "Whiskey and cheese pairing guide: the best cheeses for bourbon, rye, peated and unpeated Scotch, and Irish whiskey, plus meats, nuts and chocolate to add, how much to pour and buy, and how to set up a whiskey tasting board."
@@ -35,7 +35,7 @@ Whiskey is about three times as strong as wine, so it needs cheese with plenty o
 - **Best all-rounder:** aged cheddar, then aged Gouda.
 - **Best with smoky Scotch:** Stilton or smoked Gouda.
 - **Skip:** fresh mozzarella, young goat cheese and mild brie. The spirit flattens them and you taste only alcohol.
-- **Every match ranked, with the reason:** our [whisky pairing chart](/pairings/spirits/whisky/).
+- **Bourbon, match by match:** our [bourbon and cheese pairing](/pairings/spirits/bourbon/), 12 matches with the reason for each.
 
 ## Why these pairings work
 
@@ -52,6 +52,8 @@ Whiskey is about three times as strong as wine, so it needs cheese with plenty o
 Bourbon is the easiest whiskey to pair because it's sweet. Start with an **aged cheddar** (the sharper, the better), add an **aged Gouda** with crunchy crystals, and finish with a **creamy American blue**. Around the cheese, put **toasted pecans**, **dark chocolate**, **dried figs** and **country ham** or a smoky salami. Our [best cheddar brands](/blog/best-cheddar-brands/) and [best Gouda brands](/blog/best-gouda-brands/) guides rank the ones that are easy to find.
 
 **Skip:** very mild fresh cheeses like mozzarella, and very sour goat cheese. They disappear next to bourbon.
+
+The full list, with a reason for each match and bourbon by style (wheated, high-rye, barrel proof): [bourbon and cheese pairing](/pairings/spirits/bourbon/).
 
 ## Rye and cheese
 

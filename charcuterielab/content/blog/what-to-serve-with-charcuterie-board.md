@@ -65,6 +65,8 @@ Sparkling water with citrus is the reliable default — refreshes the palate bet
 
 ---
 
+**Want bubbles for the whole board?** See [sparkling drinks for a charcuterie board](/blog/sparkling-drinks-for-charcuterie-board/), from Champagne and Lambrusco to which sparkling water to pour.
+
 ## Bread and Crackers
 
 The bread/cracker selection alongside a board isn't only a vehicle for cheese and meat — different bread types have flavor profiles that complement or contrast different board elements.

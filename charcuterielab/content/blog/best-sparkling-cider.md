@@ -125,7 +125,7 @@ See our [non-alcoholic drinks for a charcuterie board](/pairings/zero-proof/) fo
 
 
 
-**More drinks without alcohol:** [the best non-alcoholic wine](/blog/best-non-alcoholic-wine/), or warm a bottle with spices for a [mulled cider](/blog/best-mulled-wine/).
+**More drinks without alcohol:** [the best non-alcoholic wine](/blog/best-non-alcoholic-wine/), or warm a bottle with spices for a [mulled cider](/blog/best-mulled-wine/). Every bubbly option for a board, with and without alcohol: [sparkling drinks for a charcuterie board](/blog/sparkling-drinks-for-charcuterie-board/).
 
 **Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).
 

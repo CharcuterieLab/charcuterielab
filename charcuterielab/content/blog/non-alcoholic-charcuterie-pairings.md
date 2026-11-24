@@ -122,6 +122,7 @@ Toss the fruit with the sugar and refrigerate overnight, then stir in the vinega
 - [The Acid Rule: Why Acidic Foods Reset Your Palate Between Bites](https://charcuterielab.com/blog/acid-rule/)
 - [How to Pair by Contrast: The Five Axes of Charcuterie Board Flavor](https://charcuterielab.com/blog/pairing-by-contrast/)
 - [Best Sparkling Cider](https://charcuterielab.com/blog/best-sparkling-cider/)
+- [Sparkling Drinks for a Charcuterie Board](/blog/sparkling-drinks-for-charcuterie-board/)
 - [Beer and Charcuterie Pairing](https://charcuterielab.com/blog/beer-pairing/)
 
 :::html

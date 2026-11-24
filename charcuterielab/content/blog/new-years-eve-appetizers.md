@@ -505,6 +505,7 @@ Shopping for bottles? See [the best Champagne under $30](/blog/best-champagne-un
 - [New Year's Eve Charcuterie Board Ideas](/holidays/new-years-eve/)
 - [The New Year's Eve Board: Shopping List and Build](/boards/new-years-eve-charcuterie-board/)
 - [The Best Champagne Under $30](/blog/best-champagne-under-30/)
+- [Sparkling Drinks for a Charcuterie Board](/blog/sparkling-drinks-for-charcuterie-board/)
 - [The Best Caviar to Buy](/blog/best-caviar/)
 - [The Best Store-Bought Cocktail Sauce](/blog/best-cocktail-sauce/)
 - [The Best Store-Bought Crab Dip](/blog/best-crab-dip/)

@@ -73,7 +73,7 @@ Port is the easiest drink for a cheese board: one bottle covers the blue cheese,
 :::html
 <h2 id="how-to-choose">Tawny vs ruby, and what cheese goes with each</h2>
 <ul class="sk-checks"><li><strong>Ruby</strong> is young, red and fruity: pour it with Stilton, Gorgonzola and dark chocolate.</li><li><strong>Tawny</strong> is aged in wood, amber and nutty: pour it with aged cheddar, aged Gouda, Manchego, nuts and dried fruit.</li><li><strong>Serve it</strong> slightly cool, about 55 to 60°F, in small 2 to 3 oz pours.</li><li><strong>Once open:</strong> ruby keeps about 2 weeks and tawny 1 to 3 months, corked in the fridge.</li></ul>
-<p class="sk-note">Serving it with Stilton? See <a href="/blog/best-stilton/">the best Stilton</a> and <a href="/blog/cheese-course/">the cheese course</a>.</p>
+<p class="sk-note">Serving it with Stilton? See <a href="/blog/best-stilton/">the best Stilton</a> and <a href="/blog/cheese-course/">the cheese course</a>. Pouring for Christmas? <a href="/blog/christmas-wine-and-cheese-pairing/">Christmas wine and cheese pairings</a>.</p>
 :::
 
 ## Port questions

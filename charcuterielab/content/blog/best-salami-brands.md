@@ -96,7 +96,7 @@ Grocery salami ranges from greasy and bland to genuinely great. These are the br
 <ul class="sk-checks"><li><strong>Look for:</strong> Pork (and maybe veal), salt, wine and spices. Long ingredient lists with fillers or corn syrup are worth avoiding.</li><li class="sk-x"><strong>Skip:</strong> Pre-sliced salami that has been sitting in a tray. The edges dry and curl. Buy a chub and slice it, or buy it at the counter.</li></ul>
 :::
 
-**More:** [Salami: pairings and serving tips](/ingredients/genoa-salami/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [What goes with salami](/pairings/food/genoa-salami/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 
 **Hosting Christmas?** Get ideas on our [Christmas charcuterie board](/holidays/christmas/) page, build it with [how to make a charcuterie board](/blog/how-to-make-charcuterie-board/) step by step, or go meatless on Christmas Eve with a [Feast of the Seven Fishes board](/blog/feast-of-the-seven-fishes-board/).

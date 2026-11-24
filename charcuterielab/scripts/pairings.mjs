@@ -9,6 +9,7 @@
 // "What it pairs with - and why" table. The build refuses to run if the data
 // disagrees with itself (see validate()).
 import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { HOLIDAY_CALENDAR } from "./holidays.mjs";
 import { pickFits } from "./boards.mjs";
@@ -80,6 +81,10 @@ const DRINK_WORDS = [
   [/chianti|sangiovese/i, "chianti-sangiovese"],
   [/\bport\b/i, "port"],
   [/beaujolais|gamay/i, "beaujolais"],
+  [/zinfandel|primitivo/i, "zinfandel"],
+  [/pinot grigio|pinot gris/i, "pinot-grigio"],
+  [/moscato|muscat/i, "moscato"],
+  [/bourbon/i, "bourbon"],
   [/\bipa\b|pale ale/i, "ipa"],
   [/lager|pilsner/i, "lager-pilsner"],
   [/stout|porter/i, "stout-porter"],
@@ -120,7 +125,8 @@ export function pairingsIndex(data, ingredients, { blogSlugs = new Set() } = {})
   const drinks = [];
   for (const w of data.drinks.wines) drinks.push({ ...w, url: `/pairings/wine/${w.slug}/`, familyLabel: "Wine" });
   for (const b of data.drinks.beers) drinks.push({ ...b, url: `/pairings/beer/${b.slug}/`, familyLabel: b.slug === "hard-cider" ? "Cider" : "Beer" });
-  for (const s of data.drinks.spirits || []) drinks.push({ ...s, url: `/pairings/spirits/${s.slug}/`, familyLabel: "Spirits" });
+  // merged_into (23 Nov 2026): whisky folded into /blog/whiskey-and-cheese-pairing/; links point there and no page is built
+  for (const s of data.drinks.spirits || []) drinks.push({ ...s, url: s.merged_into || `/pairings/spirits/${s.slug}/`, familyLabel: "Spirits" });
   const drinkBySlug = new Map(drinks.map((d) => [d.slug, d]));
   // cocktail and zero-proof items act as drinks too (anchored on their page)
   const extras = [];
@@ -742,7 +748,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     ${h.printCard ? h.printCard(d.family === "beer" ? "pairing-card-deck" : "wine-cheese-pairing-guide", `pairings_print_${d.slug}`) : ""}`
     });
   };
-  for (const d of idx.drinks) add(`${d.url.slice(1)}index.html`, drinkPage(d));
+  for (const d of idx.drinks) if (!d.merged_into) add(`${d.url.slice(1)}index.html`, drinkPage(d));
 
   // ---------------------------------------------------- family landings ---
   const familyLanding = (fam, list, { url, title, h1, answer, intro, note, faq, img, extra = "", updated = "", description = "" }) => page(h, {
@@ -848,7 +854,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ["Pretzels, mustard, sausage", "[Lager & Pilsner](/pairings/beer/lager-pilsner/)", "The beer-hall classics, for a reason"]
     ]) + moreBlock("How much beer to buy", "Plan about two beers per guest for a two- to three-hour party when wine is also poured, and three if beer is the only drink. Offer one light style and one darker or hoppier one.", [
       "Every style with its science: [beer and charcuterie, style by style](/blog/beer-pairing/)",
-      "Whiskey instead? [Whisky and cheese pairing](/pairings/spirits/whisky/)",
+      "Whiskey instead? [Whiskey and cheese pairing](/blog/whiskey-and-cheese-pairing/) or [bourbon and cheese](/pairings/spirits/bourbon/)",
       "On paper: [the Pairing Card Deck](/printables/pairing-card-deck/), 25 pairings to pull for what's in your fridge, $5"
     ]),
     faq: [
@@ -882,7 +888,8 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
     </ul>
     ${fam === "zero" ? `<p class="pr-buy"><span>The bottle to buy:</span> <a href="/blog/best-sparkling-cider/">Martinelli's Sparkling Cider</a> <em>Our Best Buys pick</em></p>
     <p class="bl-note">More ideas for Dry January: <a href="/blog/non-alcoholic-charcuterie-pairings/">zero-proof pairings that actually work</a>, with teas, shrubs and NA wines.</p>
-    <p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Pouring whisky? See the full <a href="/pairings/spirits/whisky/">whisky and cheese pairing guide</a> &mdash; 13 matches with the reason behind each.</p>
+    <p class="bl-note">Bubbles without alcohol: <a href="/blog/sparkling-drinks-for-charcuterie-board/#sparkling-drinks-without-alcohol">sparkling cider, NA sparkling wine and which sparkling water to pour</a>.</p>
+    <p class="bl-note">Every drink on this page follows the same rules as wine: <a href="/pairings/how-pairing-works/#acid">acid</a>, <a href="/pairings/how-pairing-works/#texture">bubbles</a> and <a href="/pairings/how-pairing-works/#fat-tannin">tannin</a>.</p>` : `<p class="bl-note">Pouring whiskey? See <a href="/pairings/spirits/bourbon/">bourbon and cheese pairing</a> and the full <a href="/blog/whiskey-and-cheese-pairing/">whiskey and cheese pairing guide</a> for Scotch, rye, Irish and Japanese whisky.</p>
     <p class="bl-note">Please drink responsibly. Looking for alcohol-free options? See <a href="/pairings/zero-proof/">zero-proof pairings</a>.</p>`}
     ${(pageData.qa || []).length ? `<section class="bl-section pr-qa" aria-labelledby="qa-h">
       <h2 id="qa-h">${B(pageData.qa_h2 || "Quick answers")}</h2>
@@ -952,7 +959,7 @@ ${featured("pairs", 4).map((c) => comboCard(h, idx, art, c)).join("\n")}
       ${spirits.map((d) => `<li><a href="${d.url}" style="--t:${d.color}"><strong>${B(d.name)}</strong><span>${d.matches.slice(0, 4).map((m) => B(idx.bySlug.get(m.s)?.title || m.s)).join(" · ")}</span></a></li>`).join("")}
       <li><a href="/pairings/zero-proof/" style="--t:#c08a4a"><strong>Zero-Proof</strong><span>${idx.data.drinks.zero.items.map((i) => B(i.name)).join(" · ")}</span></a></li>
       </ul>
-      <p class="bl-note">Whiskey drinkers: see <a href="/blog/whiskey-and-cheese-pairing/">whiskey and cheese pairing</a>.</p>
+      <p class="bl-note">One drink for the whole board? See <a href="/blog/sparkling-drinks-for-charcuterie-board/">sparkling drinks for a charcuterie board</a>, from Champagne and Lambrusco to sparkling water. Hosting Christmas? <a href="/blog/christmas-wine-and-cheese-pairing/">Christmas wine and cheese pairings</a>.</p>
     </section>
 
     <section class="bl-section" id="faq" aria-labelledby="faq-h">
@@ -1748,7 +1755,7 @@ export function pairingUrls(idx) {
   return [
     { loc: "/pairings/", priority: "0.9" },
     ...["drinks", "wine", "beer", "cocktails", "zero-proof", "food", "classics", "how-pairing-works", "wine-and-cheese-chart", ...(idx.data.mc ? ["meat-and-cheese-chart"] : [])].map((s) => ({ loc: `/pairings/${s}/`, lastmod: UPDATED, priority: "0.8" })),
-    ...idx.drinks.map((d) => ({ loc: d.url, lastmod: d.updated || UPDATED, priority: "0.8" })),
+    ...idx.drinks.filter((d) => !d.merged_into).map((d) => ({ loc: d.url, lastmod: d.updated || UPDATED, priority: "0.8" })),
     ...idx.foods.map((f) => ({ loc: f.url, lastmod: UPDATED, priority: "0.8" }))
   ];
 }
@@ -1769,6 +1776,15 @@ const HUB_TOPICS = [
   [/pair|combination|combo|flavor|science|contrast|bridge/i, "/pairings/how-pairing-works/", "How food and wine pairing works", "pairings-hero.webp"],
   [/pair|combination|combo/i, "/pairings/classics/", "Best charcuterie combinations", "pairings-hero.webp"]
 ];
+
+// Card photo for a drink: its own photo when one is saved, else the family photo (23 Nov 2026,
+// so a new drink guide never shows a broken image before its photo lands).
+const PAIR_IMG = new URL("../public/images/pairings/", import.meta.url);
+function drinkCardImage(d) {
+  const own = ["webp", "jpg", "png"].map((e) => `pairings-${d.family}-${d.slug}.${e}`).find((f) => existsSync(new URL(f, PAIR_IMG)));
+  if (own) return `/images/pairings/${own}`;
+  return `/images/pairings/${d.family === "beer" ? "pairings-beer" : d.family === "wine" ? "pairings-wine" : "pairings-cocktails"}.webp`;
+}
 
 export function postPairingLinks(idx, { title, text, mentions }, max = 4) {
   if (!idx) return [];
@@ -1796,7 +1812,7 @@ export function postPairingLinks(idx, { title, text, mentions }, max = 4) {
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .map(([slug]) => idx.drinkBySlug.get(slug))
     .filter(Boolean)
-    .map((d) => ({ url: d.url, label: `${d.name} and cheese`, kicker: d.familyLabel === "Wine" ? "Wine pairing" : "Beer pairing", image: `/images/pairings/pairings-${d.url.split("/")[2]}-${d.slug}.webp` }));
+    .map((d) => ({ url: d.url, label: `${d.name} and cheese`, kicker: d.familyLabel === "Wine" ? "Wine pairing" : d.familyLabel === "Spirits" ? "Spirits pairing" : "Beer pairing", image: drinkCardImage(d) }));
   hubs.slice(0, 2).forEach(add);
   foods.slice(0, 2).forEach(add);
   drinks.slice(0, 1).forEach(add);

@@ -769,6 +769,28 @@
    "why": "No milk in the usual recipe."
   }
  },
+ "blue-cheese": {
+  "gluten-free": {
+   "v": "safe",
+   "why": "Plain cheese is naturally gluten-free."
+  },
+  "nut-free": {
+   "v": "safe",
+   "why": "No nuts in the usual recipe."
+  },
+  "vegetarian": {
+   "v": "check",
+   "why": "Rennet varies by brand. Look for 'vegetarian', 'microbial' or 'vegetable rennet' on the label."
+  },
+  "vegan": {
+   "v": "skip",
+   "why": "Made from milk."
+  },
+  "dairy-free": {
+   "v": "skip",
+   "why": "Made from milk."
+  }
+ },
  "boquerones": {
   "gluten-free": {
    "v": "safe",

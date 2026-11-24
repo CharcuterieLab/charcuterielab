@@ -139,6 +139,7 @@ For more combinations, browse our [Gorgonzola pairings](/pairings/food/gorgonzol
 
 ## Related Reading
 
+- [What Goes With Blue Cheese? Every Pairing, Ranked](/pairings/food/blue-cheese/)
 - [The Best Gorgonzola Cheese for a Charcuterie Board](/blog/best-gorgonzola/)
 - [The Best Stilton for a Christmas Cheese Board](/blog/best-stilton/)
 - [How Is Cheese Aged](https://charcuterielab.com/how-is-cheese-aged/)

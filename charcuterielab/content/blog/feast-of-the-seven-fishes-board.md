@@ -168,6 +168,7 @@ Partly. Make dips and marinated seafood the day before and keep them cold. Slice
 - [Italian cured meats, region by region](/blog/italian-cured-meats/) (for Christmas Day, when the meat comes back)
 - [The best smoked salmon](/blog/best-smoked-salmon/)
 - [The best store-bought shrimp cocktail](/blog/best-shrimp-cocktail/)
+- [What to pour from Christmas Eve to dessert](/blog/christmas-wine-and-cheese-pairing/)
 
 ## Sources
 

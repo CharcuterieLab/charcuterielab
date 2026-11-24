@@ -87,7 +87,7 @@ Blue cheese divides a room, so the brand you buy matters. Creamier, gentler blue
 <ul class="sk-checks"><li><strong>Look for:</strong> Buy a wedge, not crumbles. For Stilton and Gorgonzola, look for the protected name and DOP or PDO mark.</li><li class="sk-x"><strong>Skip:</strong> Pre-crumbled blue cheese for a board. It is often dry and dull.</li></ul>
 :::
 
-**More:** [Blue cheese: pairings and serving tips](/ingredients/gorgonzola/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [What goes with blue cheese](/pairings/food/blue-cheese/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Blue cheese questions</h2>

@@ -433,44 +433,52 @@
  {
   "slug": "genoa-salami",
   "top": [
-   "pepperoni",
-   "soppressata",
-   "pretzel-crisps"
+   "provolone",
+   "aged-cheddar",
+   "cornichons"
   ],
-  "answer": "Genoa salami goes best with provolone, pickles, olives, mustard and crackers. Mild, garlicky salami is a team player that works with nearly every cheese.",
+  "answer": "Salami goes best with provolone, aged cheddar, Gouda, cornichons, olives and crackers. Mild Genoa works with nearly any cheese; spicy or bold salami needs a sharper cheese and a fruity red.",
   "faq": [
    {
     "q": "What cheese goes with Genoa salami?",
-    "a": "Provolone, mild cheddar, Gouda and triple-crème."
+    "a": "Provolone, mild cheddar, Gouda and triple-crème. Genoa is mild and garlicky, so almost any cheese works."
+   },
+   {
+    "q": "What cheese goes with salami in general?",
+    "a": "Provolone and Gouda for mild salami, aged cheddar or Parmigiano for bold, Monterey Jack or fresh mozzarella for spicy, and pecorino for fennel salami."
    },
    {
     "q": "How do you fold salami for a board?",
-    "a": "Fold rounds in half, then in half again, and line them up in a 'river'."
+    "a": "Fold rounds in half, then in half again, and line them up in a 'river'. Or make a [salami rose](/blog/how-to-make-a-salami-rose/)."
    }
   ],
   "qa": [
    {
     "k": "wine",
-    "q": "What wine goes with Genoa salami?",
+    "q": "What wine goes with salami?",
     "a": [
      "Best match: [Chianti](/pairings/wine/chianti-sangiovese/) or [Beaujolais](/pairings/wine/beaujolais/) — bright acid and red fruit cut the fat without fighting the garlic",
-     "Also good: Barbera, [Merlot](/pairings/wine/merlot/), [Pinot Noir](/pairings/wine/pinot-noir/), and [Cabernet](/pairings/wine/cabernet-sauvignon/) if the board has aged cheese",
+     "Also good: Barbera, [Zinfandel](/pairings/wine/zinfandel/) for spicy salami, [Merlot](/pairings/wine/merlot/), [Pinot Noir](/pairings/wine/pinot-noir/), and [Cabernet](/pairings/wine/cabernet-sauvignon/) if the board has aged cheese",
      "Beer: a crisp [lager](/pairings/beer/lager-pilsner/)",
      "More: [charcuterie board wine pairing](/blog/wine-and-charcuterie-board/)"
     ]
    },
    {
-    "q": "What goes with salami in general?",
+    "q": "What goes with each kind of salami?",
     "a": [
      "Mild salami (Genoa, hard salami): provolone, mild cheddar, Gouda, olives and crackers",
      "Bold salami (soppressata, cacciatore): aged cheddar, Parmigiano, Manchego, mustard",
      "Spicy salami (pepperoni, chorizo): fresh mozzarella, Monterey Jack, honey, pickles",
      "Fennel salami (finocchiona): pecorino, figs, fresh fennel",
      "Wine: [Chianti](/pairings/wine/chianti-sangiovese/), [Beaujolais](/pairings/wine/beaujolais/) or Barbera for most; dry rosé for spicy",
-     "More: [types of salami](/blog/types-of-salami/) and the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/)"
+     "More: [types of salami](/blog/types-of-salami/), the [best salami brands](/blog/best-salami-brands/) and the [meat and cheese pairing chart](/pairings/meat-and-cheese-chart/)"
     ]
    }
-  ]
+  ],
+  "display_name": "Salami",
+  "seo_title": "What Goes With Salami? Best Cheese, Wine & Pairings",
+  "seo_description": "What goes with salami: provolone, cheddar, Gouda, pickles, olives and crackers, plus the cheese and wine for Genoa, hard, spicy and fennel salami.",
+  "updated": "2026-11-23"
  },
  {
   "slug": "soppressata",
@@ -1719,5 +1727,167 @@
     "a": "See our [best Swiss cheese guide](/blog/best-swiss-cheese/)."
    }
   ]
+ },
+ {
+  "slug": "blue-cheese",
+  "top": [
+   "honey",
+   "pears",
+   "walnuts"
+  ],
+  "seo_title": "What Goes With Blue Cheese? Best Pairings & What to Skip",
+  "seo_description": "What goes with blue cheese: honey, pears, walnuts, fig jam and dates, the wine and beer to pour, which blue to buy, and what to keep away from it.",
+  "answer": "Blue cheese goes best with honey, pears, walnuts, fig jam and dates. Salty, sharp blue needs something sweet beside it, plus a crunchy nut and a plain cracker.",
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Best match: [Port](/pairings/wine/port/), the classic with Stilton; sweet wine against salty cheese",
+     "Also good: Sauternes or another dessert wine, [Moscato](/pairings/wine/moscato/) with soft Gorgonzola, or off-dry [Riesling](/pairings/wine/riesling/)",
+     "Beer: [stout or porter](/pairings/beer/stout-porter/); roasty malt stands up to the bite",
+     "Spirits: [bourbon](/pairings/spirits/bourbon/) with an American blue like Maytag",
+     "Skip: light, dry whites like [Pinot Grigio](/pairings/wine/pinot-grigio/), which taste thin next to it"
+    ]
+   },
+   {
+    "q": "Which blue cheese should I buy?",
+    "a": [
+     "Mild and creamy, for a mixed crowd: [Gorgonzola dolce](/pairings/food/gorgonzola/) or Cambozola",
+     "Firm and rich, for cheese lovers: [Stilton](/pairings/food/stilton/) or [Rogue River Blue](/pairings/food/rogue-river-blue/)",
+     "Bold and salty: [Roquefort](/ingredients/roquefort/); pour port with it",
+     "On a budget: [Danish Blue](/ingredients/danish-blue/), with plenty of honey",
+     "Brands we'd buy: [best blue cheese brands](/blog/best-blue-cheese-brands/)"
+    ]
+   },
+   {
+    "q": "How do you serve blue cheese on a charcuterie board?",
+    "a": [
+     "Take it out 45 minutes early; cold blue tastes mostly of salt",
+     "Crumble firm blues into chunks; give soft ones a spoon or butter knife",
+     "Put honey or fig jam right beside it, with pear slices and walnuts",
+     "Give it its own knife and keep it away from the mild cheeses",
+     "About ¾ oz per person is enough; a whole board idea: [blue cheese charcuterie board](/blog/blue-cheese-charcuterie-board/)"
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What meat goes with blue cheese?",
+    "a": "Prosciutto is the best: silky, mild and salty without fighting the cheese. Country ham and bresaola work too. Skip spicy salami, which clashes with the mold."
+   },
+   {
+    "q": "What fruit goes with blue cheese?",
+    "a": "Pears first, then apples, figs, dates, grapes and dried cranberries. Sweet, juicy fruit softens the salt."
+   },
+   {
+    "q": "What should you not pair with blue cheese?",
+    "a": "Delicate fresh cheese like mozzarella, heavily smoked cheese, and light dry white wine. All of them taste of nothing next to a strong blue."
+   }
+  ],
+  "updated": "2026-11-23"
+ },
+ {
+  "slug": "dried-cranberries",
+  "display_name": "Cranberries",
+  "top": [
+   "brie",
+   "fresh-chevre",
+   "aged-cheddar"
+  ],
+  "seo_title": "What Goes With Cranberries? Best Cheese, Wine & Board Ideas",
+  "seo_description": "What goes with cranberries: brie, goat cheese, white cheddar, Stilton, pecans and walnuts, plus the wine for cranberry sauce and dried cranberries.",
+  "answer": "Cranberries go best with brie, goat cheese, white cheddar, Stilton and pecans. Their tart, sweet bite cuts rich, creamy cheese, the same way cranberry sauce cuts turkey.",
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Best match: [Beaujolais](/pairings/wine/beaujolais/), juicy and berry-bright like the cranberries",
+     "Also good: [Pinot Noir](/pairings/wine/pinot-noir/) or [Zinfandel](/pairings/wine/zinfandel/) with cheddar and ham",
+     "Bubbles: dry sparkling wine or [sparkling cider](/blog/best-sparkling-cider/) with baked brie",
+     "Skip: big, tannic reds; tart fruit makes them taste bitter"
+    ]
+   },
+   {
+    "q": "What cheese goes with cranberries?",
+    "a": [
+     "Brie or Camembert, baked or plain: the holiday classic (try [cranberry brie bites](/blog/cranberry-brie-bites-recipe/))",
+     "Fresh goat cheese, rolled in dried cranberries and pecans ([cranberry goat cheese](/ingredients/cranberry-goat-cheese/))",
+     "White cheddar, sharp or aged",
+     "[Wensleydale with cranberries](/ingredients/wensleydale-cranberry/), a British Christmas cheese with the fruit already in it",
+     "[Stilton](/pairings/food/stilton/), for a salty-sweet bite",
+     "Ready-made picks: [best cranberry cheese](/blog/best-cranberry-cheese/)"
+    ]
+   },
+   {
+    "q": "Dried cranberries, sauce or fresh?",
+    "a": [
+     "Dried: scatter them over goat cheese and nuts; they keep all day on a board",
+     "Sauce: serve it in a small bowl as a spread for brie and turkey ([cranberry sauce](/ingredients/cranberry-sauce/), and the [best cranberry sauce](/blog/best-cranberry-sauce/))",
+     "Fresh: too sour to eat raw; use a few sugared ones as decoration"
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What meat goes with cranberries?",
+    "a": "Smoked turkey, honey ham and prosciutto. Cranberry's tartness cuts salt and smoke the way it does at Thanksgiving dinner."
+   },
+   {
+    "q": "What nuts go with cranberries?",
+    "a": "Pecans and walnuts. Their toasty crunch balances the chewy, tart fruit."
+   },
+   {
+    "q": "Do cranberries go on a Christmas charcuterie board?",
+    "a": "Yes: dried cranberries for color, cranberry sauce for the brie, and a cranberry cheese like Wensleydale. See our [Christmas boards](/holidays/christmas/)."
+   }
+  ],
+  "updated": "2026-11-23"
+ },
+ {
+  "slug": "pepper-jack",
+  "top": [
+   "pepper-jelly",
+   "chorizo",
+   "tortilla-chips"
+  ],
+  "seo_title": "What Goes With Pepper Jack? Best Pairings, Beer & Wine",
+  "seo_description": "What goes with pepper jack: pepper jelly, chorizo, tortilla chips, apples and honey, plus the beer and wine that tame the heat on a game-day board.",
+  "answer": "Pepper jack goes best with pepper jelly, chorizo, tortilla chips, apples and honey. Sweet things cool the jalapeño heat, and salty, crunchy ones make it a game-day cheese.",
+  "qa": [
+   {
+    "k": "wine",
+    "a": [
+     "Best match: off-dry [Riesling](/pairings/wine/riesling/); a touch of sweetness cools the chili",
+     "Also good: dry [rosé](/pairings/wine/rose/) or [Moscato](/pairings/wine/moscato/)",
+     "Beer: a crisp Mexican-style [lager](/pairings/beer/lager-pilsner/); very hoppy [IPA](/pairings/beer/ipa/) only if you like it hot",
+     "Skip: big, high-alcohol reds, which make the burn worse"
+    ]
+   },
+   {
+    "q": "How do you use pepper jack on a game-day board?",
+    "a": [
+     "Cube it; it's soft and slices badly once warm",
+     "Set it next to pepper jelly and a bowl of tortilla chips",
+     "Add chorizo or beef jerky for the meat, and pickled jalapeños if the crowd likes heat",
+     "Put apple slices or honey on the other side to cool things down",
+     "More ideas: the [game-day charcuterie board](/boards/game-day-charcuterie-board/) and [Super Bowl boards](/holidays/super-bowl/)"
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Is pepper jack spicy?",
+    "a": "Mildly. It's Monterey Jack with bits of jalapeño (and sometimes habanero) mixed in, so the heat comes in small pockets instead of all at once."
+   },
+   {
+    "q": "What cheese is like pepper jack?",
+    "a": "Monterey Jack is the same cheese without the peppers. Colby Jack is milder, and a habanero jack is hotter."
+   },
+   {
+    "q": "What meat goes with pepper jack?",
+    "a": "Chorizo, summer sausage, beef jerky and smoked turkey. Skip delicate ham like prosciutto; the chili hides it."
+   }
+  ],
+  "updated": "2026-11-23"
  }
 ]
