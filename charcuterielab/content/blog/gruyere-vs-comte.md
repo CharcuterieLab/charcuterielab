@@ -74,6 +74,7 @@ Our ranking of [the best Gruyère brands](/blog/best-gruyere-brands/) covers the
 
 ## Related Reading
 
+- [The Best Comté Cheese to Buy](/blog/best-comte/)
 - [Comté on a Charcuterie Board: Copper Vats, Alpine Milk, and the Most Complex Cheese in France](/blog/comte/)
 - [The Best Gruyère Brands for a Charcuterie Board, Ranked](/blog/best-gruyere-brands/)
 - [Parmesan vs. Parmigiano-Reggiano: What's the Difference?](/blog/parmesan-vs-parmigiano-reggiano/)

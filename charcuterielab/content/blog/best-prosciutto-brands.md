@@ -96,7 +96,7 @@ The best prosciutto of all is Prosciutto di Parma or San Daniele sliced to order
 <ul class="sk-checks"><li><strong>Look for:</strong> For Italian prosciutto, a DOP mark and the ingredients pork and salt. Anything labeled only &#x27;prosciutto&#x27; with no origin is usually a quick-cured domestic ham.</li><li class="sk-x"><strong>Skip:</strong> Thick-cut prosciutto for a board. It should be thin enough to drape.</li></ul>
 :::
 
-**More:** [Prosciutto: pairings and serving tips](/ingredients/prosciutto-di-parma/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Prosciutto: pairings and serving tips](/ingredients/prosciutto-di-parma/) · [Best bresaola](/blog/best-bresaola/) · [Best breadsticks for wrapping](/blog/best-breadsticks/) · [All buying guides](/blog/best-charcuterie-brands/)
 Serving guests who don't eat pork? See [bresaola vs. prosciutto](/blog/bresaola-vs-prosciutto/) for the beef alternative.
 
 

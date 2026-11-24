@@ -77,6 +77,7 @@ About 1 oz per guest of each meat when you serve two or three meats. A 3 oz pack
 
 ## Related Reading
 
+- [The Best Bresaola to Buy](/blog/best-bresaola/)
 - [Bresaola: The Lean Beef That Brings Elegance to Any Board](/blog/bresaola/)
 - [Prosciutto vs. Serrano](/blog/prosciutto-vs-serrano/)
 - [Prosciutto vs. Pancetta](/blog/prosciutto-vs-pancetta/)

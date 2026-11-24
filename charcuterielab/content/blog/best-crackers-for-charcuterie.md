@@ -98,7 +98,7 @@ Most boards need two crackers: one plain base that lets the cheese lead, and one
 <ul class="sk-checks"><li><strong>Look for:</strong> For a base cracker, flour and salt should lead the list. For a character cracker, you want to see the seeds, fruit or herbs rather than read them ninth on the list.</li><li class="sk-x"><strong>Skip:</strong> Heavily seasoned snack crackers (ranch, cheese dust, everything-bagel heavy) as the only cracker. They fight the cheese.</li></ul>
 :::
 
-**More:** [Crackers: pairings and serving tips](/ingredients/water-crackers/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Crackers: pairings and serving tips](/ingredients/water-crackers/) · [Best breadsticks](/blog/best-breadsticks/) · [Raincoast Crisps and dupes](/blog/best-fruit-and-nut-crisps/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Crackers questions</h2>

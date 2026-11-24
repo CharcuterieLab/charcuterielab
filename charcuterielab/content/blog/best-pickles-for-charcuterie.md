@@ -88,7 +88,7 @@ Something sour cuts rich salami and cheese. Small pickles work best: baby dills,
 :::
 
 **Serving it:** drain the pickles and pat them dry, then put them in a small bowl so the brine doesn't run into the crackers. Put them next to the salami, pâté or a rich cheese, where the sourness helps most.
-**More:** [Cornichons](/ingredients/cornichons/) and [dill pickles](/ingredients/dill-pickles/): pairings and serving tips · [Best cornichons](/blog/best-cornichons/) · [All buying guides](/blog/best-charcuterie-brands/)
+**More:** [Cornichons](/ingredients/cornichons/) and [dill pickles](/ingredients/dill-pickles/): pairings and serving tips · [Best cornichons](/blog/best-cornichons/) · [Best jarred peppers](/blog/best-jarred-peppers/) · [All buying guides](/blog/best-charcuterie-brands/)
 
 :::html
 <h2 id="faq">Pickle questions</h2>

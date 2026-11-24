@@ -122,6 +122,8 @@ Few sites have tested Walmart's cheese, so we lean on shopper ratings, ingredien
 
 ## Building a board from these
 
+No time to build? The [best store-bought charcuterie trays](/blog/best-charcuterie-trays/) start at $14.97 at Walmart.
+
 For 6 people:
 
 - **Cheese:** the Parmigiano, the triple crème brie and Boursin

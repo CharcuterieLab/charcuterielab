@@ -96,7 +96,7 @@ Frozen appetizers are how you host a party and still talk to your guests. We lin
 :::html
 <h2 id="how-to-choose">How to serve frozen appetizers at a party</h2>
 <ul class="sk-checks"><li><strong>How many:</strong> plan 4 to 6 pieces per guest before a dinner, 8 to 10 for a drop-in party, and 12 to 15 when appetizers are the meal.</li><li><strong>Mix three kinds:</strong> something crisp (wontons, spring rolls), something rich (quiche, pastry bites) and one vegetarian option.</li><li><strong>Bake in waves.</strong> Put out one tray, then the next 20 minutes later, so nothing sits out cold.</li><li><strong>Use the air fryer for small batches;</strong> pastry and tempura come out crisper than in a crowded oven.</li><li><strong>Set them next to a board.</strong> A cold charcuterie board fills the table while the hot trays cycle through.</li><li><strong>Food safety:</strong> hot appetizers shouldn't sit out more than 2 hours.</li></ul>
-<p class="sk-note">Build the spread: <a href="/blog/christmas-appetizers/">40 Christmas appetizers you can make ahead</a>, <a href="/blog/new-years-eve-appetizers/">New Year's Eve appetizers</a> and <a href="/blog/trader-joes-holiday-charcuterie-items/">Trader Joe's holiday finds</a>.</p>
+<p class="sk-note">Build the spread: <a href="/blog/christmas-appetizers/">40 Christmas appetizers you can make ahead</a>, <a href="/blog/new-years-eve-appetizers/">New Year's Eve appetizers</a> and <a href="/blog/trader-joes-holiday-charcuterie-items/">Trader Joe's holiday finds</a>. Game day: <a href="/blog/best-frozen-chicken-wings/">the best frozen wings</a> and <a href="/blog/best-frozen-meatballs/">the best frozen meatballs</a>.</p>
 :::
 
 ## Frozen appetizer questions

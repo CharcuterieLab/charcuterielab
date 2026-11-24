@@ -392,6 +392,10 @@
 1000,
 1500
 ],
+"/images/best-charcuterie-trays.jpg": [
+1024,
+565
+],
 "/images/best-cheddar-brands-ranking.webp": [
 1000,
 1500
@@ -559,6 +563,14 @@
 "/images/best-frozen-appetizers.jpg": [
 1024,
 559
+],
+"/images/best-frozen-chicken-wings.jpg": [
+1024,
+565
+],
+"/images/best-frozen-meatballs.jpg": [
+1024,
+565
 ],
 "/images/best-fruitcake-ranking.webp": [
 1000,
@@ -7692,6 +7704,14 @@
 240,
 360
 ],
+"/images/thumbs/best-charcuterie-trays-jpg-m.webp": [
+640,
+353
+],
+"/images/thumbs/best-charcuterie-trays-jpg-s.webp": [
+240,
+132
+],
 "/images/thumbs/best-cheddar-brands-ranking-webp-m.webp": [
 640,
 960
@@ -8035,6 +8055,22 @@
 "/images/thumbs/best-frozen-appetizers-jpg-s.webp": [
 240,
 131
+],
+"/images/thumbs/best-frozen-chicken-wings-jpg-m.webp": [
+640,
+353
+],
+"/images/thumbs/best-frozen-chicken-wings-jpg-s.webp": [
+240,
+132
+],
+"/images/thumbs/best-frozen-meatballs-jpg-m.webp": [
+640,
+353
+],
+"/images/thumbs/best-frozen-meatballs-jpg-s.webp": [
+240,
+132
 ],
 "/images/thumbs/best-fruitcake-jpg-m.webp": [
 640,
@@ -21589,6 +21625,10 @@
 "m": "/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-m.webp",
 "s": "/images/thumbs/best-charcuterie-gift-boxes-ranking-webp-s.webp"
 },
+"/images/best-charcuterie-trays.jpg": {
+"m": "/images/thumbs/best-charcuterie-trays-jpg-m.webp",
+"s": "/images/thumbs/best-charcuterie-trays-jpg-s.webp"
+},
 "/images/best-cheddar-brands-ranking.webp": {
 "m": "/images/thumbs/best-cheddar-brands-ranking-webp-m.webp",
 "s": "/images/thumbs/best-cheddar-brands-ranking-webp-s.webp"
@@ -21758,6 +21798,14 @@
 "/images/best-frozen-appetizers.jpg": {
 "m": "/images/thumbs/best-frozen-appetizers-jpg-m.webp",
 "s": "/images/thumbs/best-frozen-appetizers-jpg-s.webp"
+},
+"/images/best-frozen-chicken-wings.jpg": {
+"m": "/images/thumbs/best-frozen-chicken-wings-jpg-m.webp",
+"s": "/images/thumbs/best-frozen-chicken-wings-jpg-s.webp"
+},
+"/images/best-frozen-meatballs.jpg": {
+"m": "/images/thumbs/best-frozen-meatballs-jpg-m.webp",
+"s": "/images/thumbs/best-frozen-meatballs-jpg-s.webp"
 },
 "/images/best-fruitcake-ranking.webp": {
 "m": "/images/thumbs/best-fruitcake-ranking-webp-m.webp",

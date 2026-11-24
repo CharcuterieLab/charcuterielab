@@ -91,7 +91,7 @@ Not sure whether you want Gruyère or Comté? Read [Gruyère vs Comté](/blog/gr
 :::
 
 **Serving it:** take Gruyère out of the fridge 30 to 45 minutes before serving. Cut it into thin batons or shards rather than cubes, and plan on about 1 oz per person when it's one of three cheeses.
-**More:** [Gruyère: pairings and serving tips](/ingredients/gruyere/) What goes with Gruyère? See the [Gruyère pairing guide](/ingredients/gruyere/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/).
+**More:** [Gruyère: pairings and serving tips](/ingredients/gruyere/) What goes with Gruyère? See the [Gruyère pairing guide](/ingredients/gruyere/) for the top 5 pairings, drinks and how to serve it. To see every ranked guide, visit our [charcuterie buying guides](/blog/best-charcuterie-brands/). · [Best Comté to buy](/blog/best-comte/)
 
 :::html
 <h2 id="faq">Gruyère questions</h2>

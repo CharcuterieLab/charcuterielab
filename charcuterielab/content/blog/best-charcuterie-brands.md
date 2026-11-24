@@ -55,6 +55,8 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Store-Bought Cheese Balls](/blog/best-store-bought-cheese-balls/) | Kaukauna Port Wine Cheese Ball | Buyer's guide (unscored) |
 | [Best Port Wine Cheese Spreads for a Holiday Board](/blog/best-port-wine-cheese/) | Merkt's Port Wine Cheese Spread | Buyer's guide (unscored) |
 | [Best Store-Bought Beer Cheese for a Game-Day Board](/blog/best-beer-cheese/) | Hall's Original Snappy Beer Cheese | Buyer's guide (unscored) |
+| [Best Triple Crème Cheese for a Charcuterie Board](/blog/best-triple-creme-cheese/) | Trader Joe's Triple Creme Brie | Buyer's guide (unscored) |
+| [Best Comté Cheese to Buy](/blog/best-comte/) | Marcel Petite Comté (Essex) | Buyer's guide (unscored) |
 
 ## Cured meat and smoked fish
 
@@ -80,6 +82,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Beef Jerky Brands](/blog/best-beef-jerky/) | Old Trapper Old Fashioned | Buyer's guide (unscored) |
 | [Best Capicola (Coppa) to Buy](/blog/best-capicola-coppa/) | Volpi Sliced Coppa | Buyer's guide (unscored) |
 | [Best Pâté to Buy](/blog/best-pate/) | Les Trois Petits Cochons | Buyer's guide (unscored) |
+| [Best Bresaola to Buy](/blog/best-bresaola/) | Citterio Bresaola | Buyer's guide (unscored) |
 
 ## Crackers, chips and pretzels
 
@@ -95,6 +98,8 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Pita Chips for a Charcuterie Board](/blog/best-pita-chips/) | Stacy's Simply Naked Pita Chips | 4.7/5 |
 | [Best Kettle Chips for a Game Day Board](/blog/best-kettle-chips/) | Cape Cod Original Sea Salt Kettle Cooked Chips | 4.7/5 |
 | [Best Tortilla Chips for a Game Day Board](/blog/best-tortilla-chips/) | On The Border Café Style | 4.7/5 |
+| [Best Breadsticks (Grissini) for a Charcuterie Board](/blog/best-breadsticks/) | Alessi Sesame Breadsticks | Buyer's guide (unscored) |
+| [Best Fruit and Nut Crisps (Raincoast and Dupes)](/blog/best-fruit-and-nut-crisps/) | Raincoast Crisps Rosemary Raisin Pecan | Buyer's guide (unscored) |
 
 ## Spreads, dips, sauces, honey, mustard and glaze
 
@@ -140,6 +145,7 @@ Each guide gives you a top pick, a budget pick and a splurge.
 | [Best Candied Pecans and Spiced Nuts](/blog/best-candied-pecans/) | Kirkland Signature Praline Pecans | Buyer's guide (unscored) |
 | [Best Cornichons for a Charcuterie Board](/blog/best-cornichons/) | Maille Original Cornichons | Buyer's guide (unscored) |
 | [Best Jarred Marinated Artichoke Hearts](/blog/best-marinated-artichoke-hearts/) | Napoleon Marinated Grilled Artichokes | Buyer's guide (Sporked test) |
+| [Best Jarred Peppers for a Charcuterie Board](/blog/best-jarred-peppers/) | Peppadew Mild Whole Piquanté Peppers | Buyer's guide (unscored) |
 
 ## Sweets
 
@@ -166,6 +172,9 @@ Each guide gives you a top pick, a budget pick and a splurge.
 |---|---|---|
 | [Best Frozen Appetizers for a Holiday Party](/blog/best-frozen-appetizers/) | Trader Joe's Pastry Bites with Feta & Caramelized Onions | Buyer's guide (unscored) |
 | [Best Store-Bought Shrimp Cocktail for a Party](/blog/best-shrimp-cocktail/) | Kirkland Signature Shrimp Cocktail | Buyer's guide (unscored) |
+| [Best Store-Bought Charcuterie Trays](/blog/best-charcuterie-trays/) | Columbus Charcuterie Tasting Board | Buyer's guide (unscored) |
+| [Best Frozen Meatballs for a Party](/blog/best-frozen-meatballs/) | Kirkland Signature Meatballs | Buyer's guide (unscored) |
+| [Best Frozen Chicken Wings for Game Day](/blog/best-frozen-chicken-wings/) | Foster Farms Take Out Crispy Classic Buffalo | Buyer's guide (unscored) |
 
 ## Drinks
 
