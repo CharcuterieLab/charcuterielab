@@ -18,9 +18,10 @@
 @media (min-width: 761px) { .post-body .bi-finder.is-live .bi-bar { position: sticky; top: 64px; z-index: 15; box-shadow: 0 6px 18px rgba(55, 35, 25, 0.08); } }
 .post-body .bi-finder:not(.is-live) .bi-selects, .post-body .bi-finder:not(.is-live) .bi-count { display: none; }
 .post-body .bi-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
-.post-body .bi-chip { padding: 7px 12px; font-size: 14.5px; font-weight: 600; line-height: 1.1; color: var(--green-deep); background: #fff; border: 1px solid rgba(143, 68, 34, 0.28); border-radius: 999px; cursor: pointer; white-space: nowrap; }
+.post-body .bi-chip { display: inline-block; text-decoration: none; padding: 7px 12px; font-size: 14.5px; font-weight: 600; line-height: 1.1; color: var(--green-deep); background: #fff; border: 1px solid rgba(143, 68, 34, 0.28); border-radius: 999px; cursor: pointer; white-space: nowrap; }
 .post-body .bi-chip span { font-weight: 500; color: var(--muted); font-size: 13px; }
 .post-body .bi-chip:hover { border-color: var(--green); }
+.post-body .bi-chip:hover, .post-body .bi-chip:focus { text-decoration: none; }
 .post-body .bi-chip.is-on { color: #fff; background: var(--green-deep); border-color: var(--green-deep); }
 .post-body .bi-chip.is-on span { color: #f6e3cf; }
 .post-body .bi-chip:focus-visible, .post-body .bi-selects select:focus-visible, .post-body .bi-selects input:focus-visible, .post-body .bi-more:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
@@ -44,7 +45,7 @@
 .post-body ul.bi-grid > li::before { content: none; display: none; }
 .post-body .bi-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; background: #fff; border: 1px solid rgba(143, 68, 34, 0.14); border-radius: 14px; box-shadow: 0 2px 8px rgba(55, 35, 25, 0.05); transition: box-shadow .15s, transform .15s; }
 .post-body .bi-card:hover { box-shadow: 0 10px 24px rgba(55, 35, 25, 0.12); transform: translateY(-2px); }
-.post-body .bi-card-img { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: var(--cream); }
+.post-body .bi-card-img { position: relative; display: block; aspect-ratio: 3 / 2; overflow: hidden; background: var(--cream); }
 .post-body .bi-card-img img { display: block; width: 100%; height: 100%; margin: 0; object-fit: cover; border-radius: 0; box-shadow: none; }
 .post-body .bi-card-body { display: flex; flex: 1; flex-direction: column; padding: 11px 13px 13px; }
 .post-body .bi-label { order: -1; margin: 0 0 3px; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gold-dark); }
@@ -67,6 +68,11 @@
 .post-body .bi-more { display: none; margin: 14px auto 0; padding: 10px 18px; font-family: var(--sans); font-size: 15.5px; font-weight: 700; color: var(--green-deep); background: #fff; border: 1.5px solid var(--green); border-radius: 999px; cursor: pointer; }
 .post-body .bi-finder.is-live .bi-sec.is-capped:not(.is-filtered) .bi-more { display: block; }
 .post-body .bi-more:hover { color: #fff; background: var(--green-deep); }
+
+/* Section tip and the free plan tag */
+.post-body .bi-tip { max-width: 820px; margin: -4px 0 16px; padding: 10px 14px; font-family: var(--sans); font-size: 16px; line-height: 1.5; color: var(--ink); background: rgba(202, 166, 82, 0.12); border-left: 3px solid var(--gold); border-radius: 0 10px 10px 0; }
+.post-body .bi-tip b { color: var(--green-deep); }
+.post-body .bi-plan { position: absolute; top: 8px; left: 8px; z-index: 1; padding: 3px 8px; font-family: var(--sans); font-size: 11.5px; font-weight: 700; line-height: 1.3; color: var(--green-deep); background: rgba(255, 249, 235, 0.94); border-radius: 999px; box-shadow: 0 1px 4px rgba(55, 35, 25, 0.18); pointer-events: none; }
 
 /* By the numbers */
 .post-body .bi-stats { margin: 10px 0 30px; font-family: var(--sans); }
@@ -119,6 +125,8 @@
   .post-body .bi-pick img { flex-basis: 52px; width: 52px; height: 52px; }
   .post-body .bi-pick span { font-size: 14px; }
   .post-body .bi-lead { font-size: 16px; }
+  .post-body .bi-tip { font-size: 15px; padding: 9px 11px; }
+  .post-body .bi-plan { top: 6px; left: 6px; font-size: 10.5px; padding: 2px 7px; }
   .post-body .bi-lead a { white-space: normal; }
   .post-body ul.bi-hols { grid-template-columns: 1fr; }
 }

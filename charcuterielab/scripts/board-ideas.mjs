@@ -18,18 +18,18 @@ export const IDEAS_PATH = "/blog/charcuterie-board-ideas/";
 // Sections, in page order. The holiday section always comes first, sorted by
 // the next holiday on the calendar.
 const SECTIONS = [
-  { id: "holiday", chip: "Holiday", h2: "Christmas and holiday charcuterie board ideas", lead: "Every holiday board in one place, in calendar order from today, so the next one on the calendar is always first.", hub: ["/holidays/", "All holiday board pages"] },
-  { id: "easy", chip: "Easy & cheap", h2: "Easy and cheap charcuterie board ideas", lead: "Supermarket boards that take 15 to 20 minutes, starting at about $13 for four people.", hub: ["/boards/by-price/", "Every board by price"] },
-  { id: "party", chip: "Party", h2: "Charcuterie board ideas for a party", lead: "Boards sized for a crowd, from a book club of 8 to a grazing board for 30.", hub: ["/party-planner/", "Party Planner: how much to buy for any number"] },
-  { id: "two", chip: "For two", h2: "Small charcuterie boards for one or two", lead: "Date nights, anniversaries and nights in, sized so nothing goes to waste.", hub: ["/boards/for-two/", "All boards for two"] },
-  { id: "fancy", chip: "Fancy", h2: "Fancy charcuterie board ideas", lead: "The splurge boards: truffle, caviar, aged cheese flights and a gold-leaf showpiece.", hub: ["/boards/classic-budget-luxury/", "Classic, budget and luxury boards"] },
-  { id: "world", chip: "Around the world", h2: "International charcuterie board ideas", lead: "Boards from Spain to Korea to Peru, plus four American regional boards.", hub: ["/boards/around-the-world/", "All international boards"] },
-  { id: "shape", chip: "Shaped", h2: "Unique shaped charcuterie boards", lead: "The showpieces: a salami dragon, an octopus, a fondue volcano. Each one comes down to one trick.", hub: ["/boards/showpiece/", "All showpiece boards"] },
-  { id: "vegan", chip: "Vegan", h2: "Vegan and plant-based board ideas", lead: "No meat and no dairy, and still a full board: nut cheeses, marinated vegetables, bean dips and fruit.", hub: ["/boards/plant-based/", "All plant-based boards"] },
-  { id: "keto", chip: "Keto", h2: "Keto and low-carb board ideas", lead: "Boards at a few grams of net carbs a serving, from a 15-minute weeknight board to a keto Christmas board.", hub: ["/boards/keto-low-carb/", "All keto boards"] },
-  { id: "diet", chip: "Kids & diets", h2: "Kid-friendly, gluten-free and other boards", lead: "Boards for kids, gluten-free and dairy-free guests, halal tables and pregnancy, where a few swaps make the whole board safe for everyone.", hub: ["/dietary/", "Dietary swaps for any board"] },
-  { id: "beyond", chip: "Sweet & more", h2: "Dessert, candy, butter and bagel boards", lead: "Board ideas that go beyond meat and cheese: dessert, candy, a butter board and a brunch bagel board.", hub: ["/boards/pairings-sweet/", "Wine, beer and dessert boards"] },
-  { id: "drinks", chip: "Wine & beer", h2: "Wine, beer and whiskey board ideas", lead: "Boards built around the bottle, with the pairing reasons on each page.", hub: ["/pairings/", "Pairings: what goes with what"] }
+  { id: "holiday", chip: "Holiday", h2: "Christmas and holiday charcuterie board ideas", lead: "Every holiday board in one place, in calendar order from today, so the next one on the calendar is always first.", tip: "Shop a week out and build on the day: hard cheese and cured meat keep, cut fruit and crackers don't. Shaped holiday boards (a wreath, a tree, a sleigh) use the same food as a regular board, just arranged into a picture, and each holiday page has amounts and a make-ahead plan.", hub: ["/holidays/", "All holiday board pages"] },
+  { id: "easy", chip: "Easy & cheap", h2: "Easy and cheap charcuterie board ideas", lead: "Supermarket boards that take 15 to 20 minutes, starting at about $13 for four people.", tip: "Easy boards stick to three cheeses, two or three meats, one fruit, one cracker and one jar. Supermarket staples do the job: sharp cheddar, Colby Jack, pepperoni and summer sausage all slice cleanly, and a block of cheese you cut yourself usually costs less than pre-cut cubes.", hub: ["/boards/by-price/", "Every board by price"] },
+  { id: "party", chip: "Party", h2: "Charcuterie board ideas for a party", lead: "Boards sized for a crowd, from a book club of 8 to a grazing board for 30.", tip: "Plan a crowd by weight: 3 oz of meat and 3 oz of cheese a guest when the board is the party food, plus 10% over 20 guests. Two boards at either end of the table beat one huge board, and refilling from the fridge keeps food inside the two-hour limit.", hub: ["/party-planner/", "Party Planner: how much to buy for any number"] },
+  { id: "two", chip: "For two", h2: "Small charcuterie boards for one or two", lead: "Date nights, anniversaries and nights in, sized so nothing goes to waste.", tip: "For two, plan 2 oz each of meat and cheese a person as a snack and 4 oz each as dinner. Pick two cheeses and two meats you both like, add one special thing like figs, good honey or a bar of dark chocolate, and a cutting board or a large plate is all the board you need.", hub: ["/boards/for-two/", "All boards for two"] },
+  { id: "fancy", chip: "Fancy", h2: "Fancy charcuterie board ideas", lead: "The splurge boards: truffle, caviar, aged cheese flights and a gold-leaf showpiece.", tip: "Fancy comes from fewer, better things: one great aged cheese, a soft cheese served whole, a thin-sliced ham like prosciutto di Parma or jam\u00f3n, and one luxe touch such as truffle honey or caviar. Fold the meat loosely and fill gaps with figs, herbs and honeycomb instead of more crackers.", hub: ["/boards/classic-budget-luxury/", "Classic, budget and luxury boards"] },
+  { id: "world", chip: "Around the world", h2: "International charcuterie board ideas", lead: "Boards from Spain to Korea to Peru, plus four American regional boards.", tip: "Each international board swaps in that cuisine's own cheeses, cured meats and condiments: Manchego and chorizo for Spain, halloumi and hummus for the Middle East, bulgogi and gochujang for Korea. A large supermarket covers most of it; an international grocer covers the rest.", hub: ["/boards/around-the-world/", "All international boards"] },
+  { id: "shape", chip: "Shaped", h2: "Unique shaped charcuterie boards", lead: "The showpieces: a salami dragon, an octopus, a fondue volcano. Each one comes down to one trick.", tip: "Shaped boards use ordinary board food; the shape comes from the layout. Sketch the outline on parchment, build the edges with the sturdiest pieces (cheese blocks, folded salami) and fill the middle last. Most take an hour or more, so slice and fold everything the night before and assemble on the day.", hub: ["/boards/showpiece/", "All showpiece boards"] },
+  { id: "vegan", chip: "Vegan", h2: "Vegan and plant-based board ideas", lead: "No meat and no dairy, and still a full board: nut cheeses, marinated vegetables, bean dips and fruit.", tip: "Plant-based boards lean on nut cheeses like cashew brie, dips like hummus and muhammara, marinated vegetables, olives and fruit. Check crackers and bread for milk, butter and honey, and label the nut cheeses for anyone with a nut allergy.", hub: ["/boards/plant-based/", "All plant-based boards"] },
+  { id: "keto", chip: "Keto", h2: "Keto and low-carb board ideas", lead: "Boards at a few grams of net carbs a serving, from a 15-minute weeknight board to a keto Christmas board.", tip: "Keto boards keep the meat and cheese and swap crackers and sweet fruit for cucumber, celery, endive, pork rinds and a few berries. Aged cheese and cured meat have little or no carbohydrate; honey, jam, dried fruit and candied nuts are where the carbs hide.", hub: ["/boards/keto-low-carb/", "All keto boards"] },
+  { id: "diet", chip: "Kids & diets", h2: "Kid-friendly, gluten-free and other boards", lead: "Boards for kids, gluten-free and dairy-free guests, halal tables and pregnancy, where a few swaps make the whole board safe for everyone.", tip: "For a mixed group, give each need its own zone and its own knife, keep gluten-free crackers on their own side and label anything with nuts. For pregnant guests, use pasteurized cheese and heat cured meat until steaming, as the CDC advises.", hub: ["/dietary/", "Dietary swaps for any board"] },
+  { id: "beyond", chip: "Sweet & more", h2: "Dessert, candy, butter and bagel boards", lead: "Board ideas that go beyond meat and cheese: dessert, candy, a butter board and a brunch bagel board.", tip: "The same rules as a cheese board apply: bowls first, the biggest items next, then fill the gaps by color. A butter board needs soft butter and warm bread; a dessert board works best when something salty, like pretzels or aged Gouda, sits beside the chocolate.", hub: ["/boards/pairings-sweet/", "Wine, beer and dessert boards"] },
+  { id: "drinks", chip: "Wine & beer", h2: "Wine, beer and whiskey board ideas", lead: "Boards built around the bottle, with the pairing reasons on each page.", tip: "Match weight to weight: light wines and lagers with fresh, mild cheeses, big reds and stouts with aged, salty ones. Sparkling wine and crisp whites cut through fat, which is why Champagne works with almost everything on a board.", hub: ["/pairings/", "Pairings: what goes with what"] }
 ];
 
 const CATEGORY_SECTION = {
@@ -242,7 +242,7 @@ function cardHtml(x, h) {
   const q = [x.name, x.hook, x.on.join(" "), x.diet.join(" "), x.holiday ? HOLIDAY_LABEL[x.holiday] : ""].join(" ").toLowerCase().replace(/[^a-z0-9$ ]+/g, " ").replace(/\s+/g, " ").trim();
   const label = x.holiday && x.section === "holiday" ? HOLIDAY_LABEL[x.holiday] : x.kind;
   return `<li class="bi-card" data-s="${tags}" data-g="${x.g[0]}-${x.g[1]}" data-c="${x.c[0]}" data-m="${x.m}" data-q="${esc(q)}">
-  <a class="bi-card-img" href="${x.url}" tabindex="-1" aria-hidden="true"><img src="${esc(m)}"${srcset} alt="${esc(x.alt)}" width="640" height="427" loading="lazy" decoding="async"></a>
+  <a class="bi-card-img" href="${x.url}" tabindex="-1" aria-hidden="true">${x.url.startsWith("/boards/") ? `<span class="bi-plan">Free printable plan</span>` : ""}<img src="${esc(m)}"${srcset} alt="${esc(x.alt)}" width="640" height="427" loading="lazy" decoding="async"></a>
   <div class="bi-card-body">
     ${label ? `<p class="bi-label">${esc(label)}</p>` : ""}
     <h3><a href="${x.url}">${esc(x.name)}</a></h3>
@@ -273,10 +273,10 @@ export function boardIdeasParts(h, { boards, posts, holidays, today = new Date()
   ${PICKS.map(([need, slug]) => bySlug.get(slug)).map((x, i) => x && `<a class="bi-pick" href="${x.url}"><img src="${esc(h.thumb ? h.thumb(x.image, "s") : x.image)}" alt="" width="240" height="160" loading="lazy" decoding="async"><span><b>${esc(PICKS[i][0])}</b>${esc(x.name)}</span></a>`).filter(Boolean).join("\n  ")}
 </div>`;
 
-  const chips = `<div class="bi-chips" role="group" aria-label="What's it for">
-      <button type="button" class="bi-chip is-on" data-chip="" aria-pressed="true">All ${total}</button>
-      ${sections.map(({ S, list }) => `<button type="button" class="bi-chip" data-chip="${S.id}" aria-pressed="false">${esc(S.chip)} <span>${list.length + ideas.filter((x) => x.section !== S.id && x.also.includes(S.id)).length}</span></button>`).join("\n      ")}
-    </div>`;
+  const chips = `<nav class="bi-chips" aria-label="Board ideas by type">
+      <a href="#finder" class="bi-chip is-on" data-chip="" aria-current="true">All ${total}</a>
+      ${sections.map(({ S, list }) => `<a href="#${S.id}" class="bi-chip" data-chip="${S.id}">${esc(S.chip)} <span>${list.length + ideas.filter((x) => x.section !== S.id && x.also.includes(S.id)).length}</span></a>`).join("\n      ")}
+    </nav>`;
   const selects = `<div class="bi-selects">
       <label><span>Guests</span><select data-f="g"><option value="">Any</option><option value="1-2">1–2</option><option value="3-6">3–6</option><option value="7-12">7–12</option><option value="13-999">13+</option></select></label>
       <label><span>Budget</span><select data-f="c"><option value="">Any</option><option value="0-39">Under $40</option><option value="40-79">$40–80</option><option value="80-149">$80–150</option><option value="150-9999">$150+</option></select></label>
@@ -313,6 +313,7 @@ export function boardIdeasParts(h, { boards, posts, holidays, today = new Date()
     return `<section class="bi-sec${capped ? " is-capped" : ""}" id="${S.id}" aria-labelledby="bi-${S.id}-h" data-sec="${S.id}">
     <h2 id="bi-${S.id}-h">${esc(S.h2)} <span class="bi-n">${list.length}</span></h2>
     <p class="bi-lead">${esc(S.lead)} <a href="${S.hub[0]}">${esc(S.hub[1])} &rarr;</a></p>
+    ${S.tip ? `<p class="bi-tip"><b>Tip:</b> ${esc(S.tip)}</p>` : ""}
     <ul class="bi-grid">
 ${lis.join("\n")}
     </ul>
@@ -411,8 +412,9 @@ function run(scroll){
  count.textContent=n+(n===1?" idea":" ideas");none.hidden=n>0;clr.hidden=!active;
  if(scroll){var top=root.getBoundingClientRect().top+window.pageYOffset-72;if(window.pageYOffset>top)window.scrollTo(0,top)}
 }
-chips.forEach(function(b){b.addEventListener("click",function(){
- chip=b.getAttribute("data-chip");chips.forEach(function(x){var on=x===b;x.classList.toggle("is-on",on);x.setAttribute("aria-pressed",on?"true":"false")});
+chips.forEach(function(b){b.addEventListener("click",function(e){
+ if(e)e.preventDefault();
+ chip=b.getAttribute("data-chip");chips.forEach(function(x){var on=x===b;x.classList.toggle("is-on",on);if(on)x.setAttribute("aria-current","true");else x.removeAttribute("aria-current")});
  try{history.replaceState(null,"",chip?"#"+chip:location.pathname+location.search)}catch(e){}
  run(true);
 })});

@@ -2632,6 +2632,10 @@
 1200,
 800
 ],
+"/images/charcuterie-board-ideas-mosaic.webp": [
+1200,
+800
+],
 "/images/charcuterie-board-ideas.png": [
 1262,
 680
@@ -12073,6 +12077,14 @@
 427
 ],
 "/images/thumbs/charcuterie-board-ideas-mosaic-jpg-s.webp": [
+240,
+160
+],
+"/images/thumbs/charcuterie-board-ideas-mosaic-webp-m.webp": [
+640,
+427
+],
+"/images/thumbs/charcuterie-board-ideas-mosaic-webp-s.webp": [
 240,
 160
 ],
@@ -23842,6 +23854,10 @@
 "/images/charcuterie-board-ideas-mosaic.jpg": {
 "m": "/images/thumbs/charcuterie-board-ideas-mosaic-jpg-m.webp",
 "s": "/images/thumbs/charcuterie-board-ideas-mosaic-jpg-s.webp"
+},
+"/images/charcuterie-board-ideas-mosaic.webp": {
+"m": "/images/thumbs/charcuterie-board-ideas-mosaic-webp-m.webp",
+"s": "/images/thumbs/charcuterie-board-ideas-mosaic-webp-s.webp"
 },
 "/images/charcuterie-board-ideas.png": {
 "m": "/images/thumbs/charcuterie-board-ideas-png-m.webp",

@@ -2,7 +2,7 @@
 title: "Charcuterie Board Ideas: 170+ Boards for Every Occasion"
 seo_title: "170+ Charcuterie Board Ideas (With Cost, Size and Time)"
 date: "2026-05-07"
-image: "/images/charcuterie-board-ideas-mosaic.jpg"
+image: "/images/charcuterie-board-ideas-mosaic.webp"
 excerpt: "Over 170 charcuterie board ideas with photos: holiday, party, for two, easy and cheap, fancy, international, shaped, vegan, keto and dessert boards, each with how many it serves, the cost and the time."
 description: "Over 170 charcuterie board ideas with photos: holiday, party, for two, easy and cheap, fancy, international, shaped, vegan, keto and dessert boards. Filter by guests, budget and time."
 meta_description: "170+ charcuterie board ideas with photos: holiday, party, cheap, fancy, for two, vegan and shaped. Filter by guests, budget and build time."
