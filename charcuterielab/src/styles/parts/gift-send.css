@@ -1,0 +1,16 @@
+/* Gift boxes guide: "Which box to send, and when to order it" (24 Nov 2026).
+   Header text light on the brown head; on phones each row becomes a card so
+   the order-by date is never scrolled out of view. */
+.post-body table.sk-table.gb-send { font-size: 14px; }
+.post-body table.sk-table.gb-send thead th { color: #fff9eb; font-size: 12px; letter-spacing: .04em; }
+.post-body table.sk-table.gb-send td:nth-child(2) { white-space: nowrap; }
+.post-body table.sk-table.gb-send td:first-child { width: 30%; }
+@media (max-width: 640px) {
+  .post-body table.sk-table.gb-send { min-width: 0; background: none; }
+  .post-body table.sk-table.gb-send, .post-body table.sk-table.gb-send tbody, .post-body table.sk-table.gb-send tr, .post-body table.sk-table.gb-send td { display: block; width: auto; min-width: 0; }
+  .post-body table.sk-table.gb-send thead { display: none; }
+  .post-body table.sk-table.gb-send tr { margin: 0 0 12px; padding: 10px 12px; background: #fff; border: 1px solid rgba(143, 68, 34, 0.18); border-radius: 12px; }
+  .post-body table.sk-table.gb-send td, .post-body table.sk-table.gb-send tr:nth-child(even) td { padding: 3px 0; border: 0; background: none; white-space: normal; font-size: 15px; }
+  .post-body table.sk-table.gb-send td:first-child { width: auto; padding-bottom: 6px; font-size: 16px; }
+  .post-body table.sk-table.gb-send td:not(:first-child)::before { content: attr(data-label) ": "; font-weight: 700; color: var(--green-deep); }
+}

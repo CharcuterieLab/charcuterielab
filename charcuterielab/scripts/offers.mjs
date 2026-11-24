@@ -287,6 +287,8 @@ export function makeOffers(h, products, books) {
     // scripts/pairings-chart-printable.mjs, with a pairing-specific promise.
     // "weekly" replaces "one board idea a week" in every line that names the newsletter.
     mcchart: { short: "Free: the Meat & Cheese Pairing Chart", eyebrow: "Free 2-page printable", title: "The Meat & Cheese Pairing Chart", line: "6 cured meats against 7 cheese families, with the reason for every square, plus the best cheeses for each meat on one page. Then a star ingredient and its pairings every Wednesday in the Lab Report.", img: "/images/leads/meat-and-cheese-pairing-chart.webp", label: "Download the Meat & Cheese Pairing Chart (PDF)", pdf: "/downloads/meat-and-cheese-pairing-chart.pdf", weekly: "a star ingredient + pairings every Wednesday" },
+    // DIY gift basket post (24 Nov 2026): the three lists, packing, tag and ship-by dates, made by scripts/gift-basket-pdf.py.
+    giftbasket: { short: "Free: all three gift basket shopping lists", eyebrow: "Free 2-page printable", title: "DIY Gift Basket Shopping Lists", line: "The $25, $50 and $100 baskets as printable checklists, plus the packing order, a gift tag to fill in and the Christmas ship-by dates. Plus the weekly Lab Report.", img: "/images/leads/diy-gift-basket-lists.webp", label: "Download the gift basket shopping lists (PDF)", pdf: "/downloads/diy-gift-basket-shopping-lists.pdf" },
     pairing: { short: "Free pairing cheat sheet: what to pour", title: "The Pairing Cheat Sheet", line: "18 wines and beers, each with the cheeses and meats to put out and why the best one works. Plus the weekly Lab Report.", img: "/images/leads/pairing-cheat-sheet.webp", label: "Download the Pairing Cheat Sheet (PDF)", pdf: "/downloads/pairing-cheat-sheet.pdf", weekly: "a star ingredient + pairings every Wednesday" }
   };
   let DIST = "";
@@ -300,6 +302,7 @@ export function makeOffers(h, products, books) {
       const name = String(ctx.title || "this board").replace(/&amp;/g, "&").replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/^The /, "");
       return { short: "Free: this board's shopping list", title: `Free shopping list: ${name}`, line: "Everything on this board as a printable checklist, how much to buy for the guest count, and the timeline. Plus the weekly Lab Report.", img: "/images/leads/board-shopping-list.webp", label: `Download the ${name} shopping list (PDF)`, pdf: `/downloads/boards/${bm[1]}-shopping-list.pdf` };
     }
+    if (path === "/blog/charcuterie-gift-basket/") return FREEBIES.giftbasket;
     if (/^\/ingredients\/$/.test(path) || (/^\/ingredients\//.test(path) && ctx.category === "Cheese") || /^\/ingredients\/cheese\//.test(path)) return FREEBIES.cheese;
     if (path === "/blog/types-of-cheese/") return FREEBIES.cheesechart;
     if (path === "/blog/types-of-cured-meat/" || path === "/blog/italian-cured-meats/") return FREEBIES.meatchart;

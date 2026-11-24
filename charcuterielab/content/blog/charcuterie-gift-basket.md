@@ -1,20 +1,22 @@
 ---
 title: "DIY Charcuterie Gift Basket: 3 Box Ideas ($25, $50, $100) and How to Pack It"
-seo_title: "DIY Charcuterie Gift Basket: 3 Ideas + Shopping Lists"
+seo_title: "DIY Charcuterie Gift Basket: 3 Ideas + Free Printable Lists"
 date: "2026-10-08"
 image: "/images/charcuterie-gift-basket.jpg"
 excerpt: "How to make a DIY charcuterie gift basket: three box ideas at $25, $50 and $100 with shopping lists, what travels without a fridge, how to pack it so nothing breaks, how to ship it, and what to write on the tag."
 description: "DIY charcuterie gift basket ideas for $25, $50 and $100 with full shopping lists, which meats and cheeses are shelf-stable, how to pack and ship it safely, gift tag pairing notes and gluten-free and vegetarian versions."
-meta_description: "DIY charcuterie gift basket ideas for $25, $50 and $100, with shopping lists, which meats and cheeses are shelf-stable, and how to pack and ship one."
-faq: "[{"question": "What do you put in a charcuterie gift basket?", "answer": "A whole dry salami, one or two cheeses, crackers, a jam or honey, nuts, olives or cornichons and a mustard, with dark chocolate as a finish. A cheese knife or a small wooden board makes a gift that lasts after the food is gone."}, {"question": "Does a charcuterie gift basket need to be refrigerated?", "answer": "Most of it does not. Whole, unopened dry salami, crackers, jams, honey, nuts, jarred olives, mustard and chocolate are shelf-stable. Cheese and sliced or opened meat need to stay cold, so add the cheese right before you hand it over and tie on a tag that says to refrigerate it."}, {"question": "How long does a whole salami last unrefrigerated?", "answer": "USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard salami keeps about 6 weeks in the pantry and indefinitely in the refrigerator. Once it is opened or sliced, keep it in the fridge and use it within 3 weeks."}, {"question": "How much does a DIY charcuterie gift basket cost?", "answer": "About $25 to $35 for a small box with one salami, one cheese, crackers, jam and nuts, about $45 to $60 for a classic basket with two of each and extras, and about $95 to $130 for a luxury box that includes a wooden board and cheese knives."}, {"question": "Can you ship a charcuterie gift basket?", "answer": "Ship the shelf-stable items any way you like. If it includes cheese, use an insulated mailer with frozen gel packs, ship overnight early in the week so it does not sit in a warehouse over a weekend, and tell the recipient it is coming. Otherwise send the shelf-stable box with a note to add their favorite cheese."}]"
+meta_description: "DIY charcuterie gift basket ideas at $25, $50 and $100, with free printable shopping lists, what stays shelf-stable and Christmas 2026 ship-by dates."
+faq: "[{"question": "What do you put in a charcuterie gift basket?", "answer": "A whole dry salami, one or two cheeses, crackers, a jam or honey, nuts, olives or cornichons and a mustard, with dark chocolate as a finish. A cheese knife or a small wooden board makes a gift that lasts after the food is gone."}, {"question": "Does a charcuterie gift basket need to be refrigerated?", "answer": "Most of it does not. Whole, unopened dry salami, crackers, jams, honey, nuts, jarred olives, mustard and chocolate are shelf-stable. Cheese and sliced or opened meat need to stay cold, so add the cheese right before you hand it over and tie on a tag that says to refrigerate it."}, {"question": "How long does a whole salami last unrefrigerated?", "answer": "USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard salami keeps about 6 weeks in the pantry and indefinitely in the refrigerator. Once it is opened or sliced, keep it in the fridge and use it within 3 weeks."}, {"question": "How much does a DIY charcuterie gift basket cost?", "answer": "About $25 to $35 for a small box with one salami, one cheese, crackers, jam and nuts, about $45 to $60 for a classic basket with two of each and extras, and about $95 to $130 for a luxury box that includes a wooden board and cheese knives."}, {"question": "When should I ship a charcuterie gift basket for Christmas?", "answer": "For Christmas 2026, USPS recommends sending by Dec 17 with Ground Advantage and Dec 18 with Priority Mail. A basket with cheese should go overnight on a Monday to Wednesday, so the last window is Dec 21 to 23."}, {"question": "Can you ship a charcuterie gift basket?", "answer": "Ship the shelf-stable items any way you like. If it includes cheese, use an insulated mailer with frozen gel packs, ship overnight early in the week so it does not sit in a warehouse over a weekend, and tell the recipient it is coming. Otherwise send the shelf-stable box with a note to add their favorite cheese."}]"
 slug: "charcuterie-gift-basket"
-updated: "2026-10-20"
+updated: "2026-11-24"
 tags: "["charcuterie gift basket", "diy charcuterie gift", "food gift ideas", "christmas gift ideas", "charcuterie box"]"
 ---
 
 # DIY Charcuterie Gift Basket: 3 Box Ideas ($25, $50, $100) and How to Pack It
 
-> **Quick Answer:** Pack things that **don't need a fridge**: a whole unopened dry salami, crackers, jam, nuts, olives, mustard and chocolate. **Add cheese right before you give it**, with a "refrigerate" tag.
+:::html
+<blockquote><p><strong>Quick Answer:</strong> Pack things that <strong>don't need a fridge</strong> and <strong>add the cheese right before you give it</strong>, with a "refrigerate" tag.</p><ul class="qa-list"><li><strong>$25 starter box:</strong> 1 whole salami, 1 cheese, crackers, fig jam, cornichons and nuts</li><li><strong>$50 classic basket:</strong> 2 salamis, 2 cheeses, 2 crackers, jam, mustard, olives, almonds and chocolate</li><li><strong>$100 luxury box:</strong> a wooden board and cheese knives, plus chorizo, Parmigiano-Reggiano and truffle honey</li><li><strong>Shipping for Christmas:</strong> USPS Priority Mail by Dec 18; with cheese, overnight Monday to Wednesday</li></ul></blockquote>
+:::
 
 :::html
 <div class="sk-top"><p class="sk-top-label">Three baskets, three budgets</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$25 to $35</p><span class="sk-top-name">The starter box</span><p class="sk-top-line">1 salami, 1 cheese, crackers, fig jam, cornichons, nuts. A board for 2–4.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-25">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$45 to $60</p><span class="sk-top-name">The classic basket</span><p class="sk-top-line">2 salamis, 2 cheeses, 2 crackers, jam, mustard, olives, almonds, chocolate. Feeds 6.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-50">The list</a></span></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">$95 to $130</p><span class="sk-top-name">The luxury box</span><p class="sk-top-line">Packed on a wooden board with cheese knives, so the gift outlasts the food.</p></div><div class="sk-top-buy"><span class="sk-price"><a href="#box-100">The list</a></span></div></div></div>
@@ -111,6 +113,8 @@ For the board itself, see [wood vs slate vs marble](/blog/best-charcuterie-board
 
 *Prices are typical US grocery prices seen in fall 2026. They vary a lot by store and region, so treat the totals as a guide.*
 
+**Take the lists shopping:** all three baskets are a [free two-page printable](#cheat), with a checkbox for every item, the packing order, a gift tag to fill in and the Christmas ship-by dates.
+
 ## Shopping tips
 
 - **Buy whole meats, not sliced packs.** A whole salami looks like a gift and keeps for weeks; a sliced pack needs a fridge. Our [best salami brands](/blog/best-salami-brands/) and [best summer sausage](/blog/best-summer-sausage/) rankings point to good ones.
@@ -150,6 +154,8 @@ A good tag turns a pile of groceries into a board. Include:
 - **With cheese:** use an insulated mailer with frozen gel packs, ship **overnight**, and ship **Monday to Wednesday** so it doesn't sit in a warehouse over the weekend. Tell the recipient it's coming.
 - **The workaround:** ship the shelf-stable box and add a note to pick up their favorite cheese, or tuck in a gift card for a local cheese shop.
 
+**Christmas 2026 ship-by dates.** For delivery before Dec 25, USPS recommends sending by **Thursday, Dec 17** with Ground Advantage and **Friday, Dec 18** with Priority Mail. With cheese, ship overnight on a Monday to Wednesday; the last window is **Dec 21 to 23**, and UPS Next Day Air's last day for Dec 24 arrival is **Wednesday, Dec 23**. Carriers call these recommendations, not guarantees, so ship earlier if you can.
+
 :::html
 <h2 id="versions">Versions for every guest</h2>
 :::
@@ -164,7 +170,7 @@ A good tag turns a pile of groceries into a board. Include:
 
 - [Amazon Charcuterie Board Sets, Reviewed](/blog/amazon-charcuterie-board-sets-reviewed/)
 - [The Best Charcuterie Gift Baskets on Amazon, Compared](/blog/best-charcuterie-gift-baskets-amazon/)
-- [Rather buy one? The Best Charcuterie Gift Boxes, Ranked](/blog/best-charcuterie-gift-boxes/)
+- [Rather buy one? The best charcuterie gift boxes, with Christmas order-by dates](/blog/best-charcuterie-gift-boxes/)
 - [The Best Charcuterie Boards to Buy](/blog/best-charcuterie-boards/)
 - [The Best Cheese Knife Sets](/blog/best-cheese-knife-sets/)
 - [Charcuterie Gifts for Men](/gifts/for-him/)
@@ -193,6 +199,10 @@ USDA guidance says a whole, unopened hard or dry sausage such as Genoa or hard s
 - **Small box, about $25 to $35:** one salami, one cheese, crackers, jam and nuts
 - **Classic basket, about $45 to $60:** two of each, plus extras
 - **Luxury box, about $95 to $130:** adds a wooden board and cheese knives
+
+**When should I ship a charcuterie gift basket for Christmas?**
+
+For Christmas 2026, USPS recommends sending by Dec 17 with Ground Advantage and Dec 18 with Priority Mail. A basket with cheese should go overnight on a Monday to Wednesday, so the last window is Dec 21 to 23.
 
 **Can you ship a charcuterie gift basket?**
 

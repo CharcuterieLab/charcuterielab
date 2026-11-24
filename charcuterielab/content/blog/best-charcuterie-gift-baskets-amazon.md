@@ -2,7 +2,7 @@
 title: "The Best Charcuterie Gift Baskets on Amazon, Compared (2026)"
 seo_title: "Best Charcuterie Gift Baskets on Amazon (2026), Compared"
 date: "2026-10-27"
-updated: "2026-11-08"
+updated: "2026-11-24"
 image: "/images/best-charcuterie-gift-baskets-amazon.jpg"
 excerpt: "The best meat and cheese gift baskets you can order on Amazon, compared side by side: Hickory Farms Signature Beef is the best seller, Harry & David is the biggest box, and California Delicious looks the best."
 description: "The best meat and cheese gift baskets you can order on Amazon, compared side by side: Hickory Farms Signature Beef is the best seller, Harry & David is the biggest box, and California Delicious looks the best."
@@ -20,6 +20,8 @@ tags: "["charcuterie gift basket amazon", "meat and cheese gift basket", "best c
 <div class="sk-top"><p class="sk-top-label">Our top picks</p><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best overall</p><a class="sk-top-name" href="#pick-1">Hickory Farms Signature Beef Meat &amp; Cheese Gift Basket</a><p class="sk-top-line">The classic, and the one with the most ratings</p></div><div class="sk-top-buy"><span class="sk-price">$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B071GCYG42" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Biggest box</p><a class="sk-top-name" href="#pick-2">Harry &amp; David Ultimate Meat and Cheese Gift Box</a><p class="sk-top-line">Over 6 pounds of sausage, cheese and crackers</p></div><div class="sk-top-buy"><span class="sk-price">$$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B07D19J4J1" target="_blank" rel="noopener">Check price on Amazon</a></div></div><div class="sk-top-row"><div class="sk-top-text"><p class="sk-pill">Best presentation</p><a class="sk-top-name" href="#pick-5">California Delicious Ultimate Meat and Cheese Gift Crate</a><p class="sk-top-line">A wooden crate you&#x27;ll keep, with oil and balsamic</p></div><div class="sk-top-buy"><span class="sk-price">$$</span><a class="button sk-buy-sm" href="https://www.amazon.com/dp/B00FQ534TI" target="_blank" rel="noopener">Check price on Amazon</a></div></div></div>
 <nav class="sk-jump" aria-label="On this page"><a href="#compare">Side by side</a><a href="#picks">All 10 picks</a><a href="#how-to-choose">How to pick one</a><a href="#gift-basket-questions">FAQ</a></nav>
 :::
+
+**Sending it for Christmas?** Each Amazon listing shows its delivery date at checkout. Buying direct from the brand instead? See every brand's [Christmas order-by date](/blog/best-charcuterie-gift-boxes/#send). Or [make your own basket](/blog/charcuterie-gift-basket/) with our free printable shopping lists.
 
 Amazon sells hundreds of meat and cheese baskets, and many are the same summer sausage in different boxes. We compared the ones with the most ratings and the clearest contents lists, using the listings plus three published roundups, and noted what buyers complain about.
 
