@@ -14,9 +14,15 @@ updated: "2026-11-23"
 
 # Charcuterie Board Ideas: 170+ Boards for Every Occasion
 
-> **Quick Answer:** **170+ boards with photos**, grouped by occasion: holiday, party, for two, easy and cheap, fancy, international, shaped, vegan, keto and dessert. Each idea shows **how many it serves, the cost and the time**. Pick a type, or filter by guests, budget and time.
+:::html
+<blockquote><p><strong>Quick Answer:</strong> <strong>170+ board ideas with photos</strong>, each showing how many it serves, the cost and the time.</p><ul class="qa-list"><li><strong>By occasion:</strong> holiday, party, for two, easy and cheap, fancy</li><li><strong>By style:</strong> international, shaped, dessert, wine and beer</li><li><strong>By diet:</strong> vegan, keto, kids, gluten-free and more</li><li><strong>Narrow it down:</strong> filter by guests, budget and build time, or search by ingredient</li></ul></blockquote>
+:::
 
-Every idea links to its full page, with the shopping list and how to build it. Not sure where to start? These six answer the usual questions.
+Three ways to use this page:
+
+- **Tap a type** below to see just those boards, or use the guest, budget and time filters.
+- **Open any idea** for the full shopping list and how to build it. Board pages have a free printable plan.
+- **Not sure where to start?** These six picks answer the usual questions:
 
 :::html
 <div data-board-picks></div>
