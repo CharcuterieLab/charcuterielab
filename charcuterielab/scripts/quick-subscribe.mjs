@@ -62,7 +62,7 @@ export function barNote(fb = CHEAT) {
   // 25 Nov 2026: say plainly that this is the weekly newsletter; "Free: X +
   // a weekly board idea" read like a download with no newsletter attached.
   // Two lines (CSS pre-line): what it is and that they stay on the page, then the freebie.
-  return `Quick subscribe to our free weekly newsletter without leaving this page.\nYou also get ${name} free.`;
+  return `Quick subscribe: free weekly newsletter w/out leaving page\nYou also get ${name} free.`;
 }
 
 // alt (15 Nov 2026): where the "didn't go through" message and the no-JS
