@@ -326,7 +326,7 @@ export function makeOffers(h, products, books) {
     <p class="fx-hi-line">${esc(fb ? fb.line : "How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Plus the weekly Lab Report.")}</p>
   </div>
   <div class="fx-bh-form fx-qf" id="lead-hi" data-campaign="${esc(campaign)}">
-  ${qsForm({ id: "qs-hi", fb: fb || CHEAT, bookPrice: books.main && books.main.price, keep: true, button: "Send it free", note: `Free PDF now, then ${fb && fb.weekly ? fb.weekly : "one board idea a week"}. Leave any time.` })}
+  ${qsForm({ id: "qs-hi", fb: fb || CHEAT, bookPrice: books.main && books.main.price, keep: true, button: "Send it free", note: `Free PDF now, then ${fb && fb.weekly ? fb.weekly : "our weekly newsletter"}. Leave any time.` })}
   </div>
 </aside>
 ${QS_JS}`;

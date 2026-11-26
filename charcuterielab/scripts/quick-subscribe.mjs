@@ -59,8 +59,10 @@ export function barNote(fb = CHEAT) {
   const name = freeName(fb);
   const weekly = fb.weekly || PAIRING_PDFS[fb.pdf];
   if (weekly) return `Free: ${name}, then ${weekly}.`;
-  const a = `Free: ${name} + one board idea a week.`;
-  return a.length <= 62 ? a : `Free: ${name} + a weekly board idea.`;
+  // 25 Nov 2026: say plainly that this is the weekly newsletter; "Free: X +
+  // a weekly board idea" read like a download with no newsletter attached.
+  // Two lines (CSS pre-line): what it is and that they stay on the page, then the freebie.
+  return `Quick subscribe to our free weekly newsletter without leaving this page.\nYou also get ${name} free.`;
 }
 
 // alt (15 Nov 2026): where the "didn't go through" message and the no-JS

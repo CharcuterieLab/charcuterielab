@@ -45,8 +45,7 @@ function holWhen(o, key) {
   return n > 1 ? o.hol + " is " + n + " days away" : n === 1 ? o.hol + " is tomorrow" : o.hol + " is today";
 }
 function holNote(o) {
-  var a = "Free: " + o.a[2] + " + one board idea a week.";
-  return a.length <= 62 ? a : "Free: " + o.a[2] + " + a weekly board idea.";
+  return "Quick subscribe to our free weekly newsletter without leaving this page.\nYou also get " + o.a[2] + " free.";
 }
 
 export function holKind(path) {
@@ -60,7 +59,7 @@ export function holKind(path) {
 const esc = (x) => String(x).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const more = (o) => `Also free: <a href="${esc(o.b[0])}" download>${esc(o.b[2])}</a> and <a href="${CHEAT.pdf}" download>the Cheat Sheet</a>. The weekly Lab Report starts with the next issue.`;
 
-const HOL_JS = (kind) => `<script data-hol-js>(function(){try{${holOffer.toString()}${holWhen.toString()}${holNote.toString()}var t=new Date(),z=function(n){return(n<10?"0":"")+n},key=t.getFullYear()+"-"+z(t.getMonth()+1)+"-"+z(t.getDate()),o=holOffer(${JSON.stringify(kind)},key),m=document.querySelector("main");if(!m||m.getAttribute("data-hol")===(o?o.a[0]:"")&&(!o||m.getAttribute("data-hol-key")===key))return;var e=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;")};var A=o?o.a:["${COUNTDOWN}","Download the holiday countdown plans (PDF)","the holiday countdown plans"];document.querySelectorAll("[data-hol-box]").forEach(function(x){var q=function(s){return x.querySelector(s)};if(o){q(".fx-hi-eyebrow").textContent=holWhen(o,key);q(".fx-hi-title").textContent=o.title;q(".fx-hi-line").textContent=o.line}else{q(".fx-hi-eyebrow").textContent="Free printable";q(".fx-hi-title").textContent="Holiday board countdown plans";q(".fx-hi-line").textContent="Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report."}});document.querySelectorAll("form[data-hol-bar] .qs-note").forEach(function(n){n.textContent=o?holNote(o):"Free: the holiday countdown plans + one board idea a week."});document.querySelectorAll("[data-hol-done]").forEach(function(d){var a=d.querySelector(".qs-done-dl"),r=d.querySelector(".qs-done-more");if(a){a.setAttribute("href",A[0]);a.textContent=A[1]}if(r)r.innerHTML=o?'Also free: <a href="'+e(o.b[0])+'" download>'+e(o.b[2])+'</a> and <a href="${CHEAT.pdf}" download>the Cheat Sheet</a>. The weekly Lab Report starts with the next issue.':'Also free: <a href="${CHEAT.pdf}" download>the Cheat Sheet</a> and <a href="/downloads/charcuterie-lab-free-board-01.pdf" download>Board 01 from the book</a>. The weekly Lab Report starts with the next issue.'})}catch(e){}})();</script>`;
+const HOL_JS = (kind) => `<script data-hol-js>(function(){try{${holOffer.toString()}${holWhen.toString()}${holNote.toString()}var t=new Date(),z=function(n){return(n<10?"0":"")+n},key=t.getFullYear()+"-"+z(t.getMonth()+1)+"-"+z(t.getDate()),o=holOffer(${JSON.stringify(kind)},key),m=document.querySelector("main");if(!m||m.getAttribute("data-hol")===(o?o.a[0]:"")&&(!o||m.getAttribute("data-hol-key")===key))return;var e=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;")};var A=o?o.a:["${COUNTDOWN}","Download the holiday countdown plans (PDF)","the holiday countdown plans"];document.querySelectorAll("[data-hol-box]").forEach(function(x){var q=function(s){return x.querySelector(s)};if(o){q(".fx-hi-eyebrow").textContent=holWhen(o,key);q(".fx-hi-title").textContent=o.title;q(".fx-hi-line").textContent=o.line}else{q(".fx-hi-eyebrow").textContent="Free printable";q(".fx-hi-title").textContent="Holiday board countdown plans";q(".fx-hi-line").textContent="Thanksgiving, Hanukkah, Christmas and New Year's Eve: when to shop, prep and build, how much to buy and a shopping list for each. Plus the weekly Lab Report."}});document.querySelectorAll("form[data-hol-bar] .qs-note").forEach(function(n){n.textContent=o?holNote(o):"Quick subscribe to our free weekly newsletter without leaving this page.\\nYou also get the holiday countdown plans free."});document.querySelectorAll("[data-hol-done]").forEach(function(d){var a=d.querySelector(".qs-done-dl"),r=d.querySelector(".qs-done-more");if(a){a.setAttribute("href",A[0]);a.textContent=A[1]}if(r)r.innerHTML=o?'Also free: <a href="'+e(o.b[0])+'" download>'+e(o.b[2])+'</a> and <a href="${CHEAT.pdf}" download>the Cheat Sheet</a>. The weekly Lab Report starts with the next issue.':'Also free: <a href="${CHEAT.pdf}" download>the Cheat Sheet</a> and <a href="/downloads/charcuterie-lab-free-board-01.pdf" download>Board 01 from the book</a>. The weekly Lab Report starts with the next issue.'})}catch(e){}})();</script>`;
 
 // The build date as the visitor in the US sees it (the build runs in UTC).
 export function todayKey(d = new Date()) {
@@ -98,7 +97,7 @@ export function holidayOffer(html, path, key = todayKey()) {
   // The bar under the H1.
   html = html.replace(/<form class="qs" data-qs data-qs-bar([^>]*)>([\s\S]*?)<p class="qs-note" aria-live="polite">[^<]*<\/p>/, (all, attrs, mid) => {
     n++;
-    return `<form class="qs" data-qs data-qs-bar data-hol-bar${attrs}>${mid}<p class="qs-note" aria-live="polite">${esc(o ? holNote(o) : "Free: the holiday countdown plans + one board idea a week.")}</p>`;
+    return `<form class="qs" data-qs data-qs-bar data-hol-bar${attrs}>${mid}<p class="qs-note" aria-live="polite">${esc(o ? holNote(o) : "Quick subscribe to our free weekly newsletter without leaving this page.\nYou also get the holiday countdown plans free.")}</p>`;
   });
   html = html.replace(/<main([^>]*)>/, (m, a) => `<main${a} data-hol="${o ? esc(o.a[0]) : ""}" data-hol-key="${key}">`);
   html = html.replace(/<\/main>/, `${HOL_JS(kind)}\n</main>`);
@@ -116,7 +115,7 @@ export function instantForms(html, path, { bookPrice = "" } = {}) {
     html = html.replace(EMBED(id), () => {
       n++;
       return `<div class="fx-bh-form fx-qf fx-qf-solo" id="${id}">
-  ${qsForm({ id: `qs-${id}`, fb: CHEAT, bookPrice, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time.", alt: BEEHIIV_PAGE })}
+  ${qsForm({ id: `qs-${id}`, fb: CHEAT, bookPrice, keep: true, button: "Send it free", note: "Free PDF now, then our weekly newsletter. Leave any time.", alt: BEEHIIV_PAGE })}
   </div>`;
     });
   }

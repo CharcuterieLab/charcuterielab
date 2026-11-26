@@ -24,7 +24,7 @@ p.fx-line em { font-style: normal; font-size: 13px; color: var(--muted); margin-
 p.fx-line.fx-book { margin: 4px 0 22px; }
 p.fx-line.fx-book em { white-space: normal; margin-left: 0; }
 p.fx-line.fx-book em::before { content: "· "; }
-form.qs[data-qs-bar] p.qs-note { white-space: normal; }
+form.qs[data-qs-bar] p.qs-note { white-space: pre-line; }
 /* Board pages: the plan box points down to the list instead of a second buy button. */
 .bl-cta-quiet { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
 .bl-cta-quiet span { font-size: 14px; color: var(--muted); }

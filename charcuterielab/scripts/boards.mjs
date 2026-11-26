@@ -774,7 +774,7 @@ function hubSignup(h, count) {
         <p>How much to buy for 4 to 50 guests, the build order and four pairing rules, on two pages. Then one board idea a week in the Lab Report, and every one of these ${count} boards has its own printable plan waiting on its page.</p>
       </div>
       <div class="bl-signup-form">
-        ${qsForm({ id: "qs-hub", fb: CHEAT, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+        ${qsForm({ id: "qs-hub", fb: CHEAT, keep: true, button: "Send it free", note: "Free PDF now, then our weekly newsletter. Leave any time." })}
       </div>
     </section>
 ${QS_JS}`;
@@ -803,7 +803,7 @@ function boardSignup(h, b) {
         <p>${copy}</p>
       </div>
       <div class="bl-signup-form">
-        ${qsForm({ id: "qs-board", fb, keep: true, button: "Send it free", note: "Free PDF now, then one board idea a week. Leave any time." })}
+        ${qsForm({ id: "qs-board", fb, keep: true, button: "Send it free", note: "Free PDF now, then our weekly newsletter. Leave any time." })}
       </div>
     </section>
 ${QS_JS}`;
