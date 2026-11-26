@@ -36,6 +36,7 @@ import { bhForm } from "./funnel.mjs";
 import { HOLIDAY_BOOK_BOARD } from "./holidays.mjs";
 import { loadBudget, writeByPriceHub, injectBudgetBoxes } from "./budget-book.mjs";
 import { BUDGET_BOOK, GUIDE_BOOK, IMPOSSIBLE_BOOK, KETO_BOOK, PLANT_BOOK, TWO_BOOK, WORLD_BOOK, worldIsLive, BOARD_CATEGORIES, builderLink, boardCategoryPage, boardPage, boardSlugsFor, boardsHub, boardsStrip, loadBoards, placeholderSvg, plantBookBox, seriesHubBox, worldBanner, worldBookPage, worldOffer, pickFits } from "./boards.mjs";
+import { injectGumroadOff } from "./gumroad-off.mjs";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = join(root, "dist");
@@ -1890,7 +1891,7 @@ ${siteNav(canonical)}
         <div><p class="footer-h">Plan a board</p><a href="/blog/charcuterie-board-ideas/">Charcuterie board ideas</a><a href="/boards/">Board Library</a><a href="/holidays/">Holiday boards</a>${FOOTER_HOLIDAYS.map(([u, t]) => `<a href="${u}">${escapeHtml(t)}</a>`).join("")}<a href="/party-planner/">Party Planner</a><a href="/board-builder/">Board Builder</a><a href="/dietary/">Dietary swaps</a></div>
         <div><p class="footer-h">Best buys</p><a href="/blog/best-charcuterie-brands/">All buying guides</a><a href="/blog/best-costco-charcuterie-items/">Costco picks</a><a href="/blog/best-trader-joes-cheeses/">Trader Joe's picks</a><a href="/blog/best-aldi-charcuterie-items/">Aldi picks</a><a href="/gifts/">Gift Guide</a></div>
         <div><p class="footer-h">Learn</p><a href="/ingredients/">Ingredients</a><a href="/pairings/">Pairings</a><a href="/blog/">Blog</a><a href="/newsletter/">Free printables</a><a href="/about/">About</a></div>
-        <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="${ebookHref("footer")}" target="_blank" rel="noopener">Ebook on Gumroad</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
+        <div><p class="footer-h">Shop</p><a href="/shop/">Shop all</a><a href="/ebook/">The Book</a><a href="/newsletter/">Free printables</a><a href="${paperbackUrl}" target="_blank" rel="noopener">Paperback on Amazon</a><a href="/privacy/">Privacy</a></div>
       </div>
       <p class="footer-disclosure">${DISCLOSURE} Links to Amazon may earn this site a small commission at no extra cost to you. <a href="/privacy/#affiliate-links">How that works</a>.</p>
       <div class="copyright">© 2026 Charcuterie Lab. All rights reserved.</div>
@@ -4054,5 +4055,11 @@ if (missingThumbs.size) console.log(`Images with no thumbnail yet (${missingThum
 {
   const n = metaCutReport();
   if (n) console.log(`Meta descriptions cut: ${n} descriptions run over ${META_LIMIT} characters, so Google is shown an ellipsis mid-sentence`);
+}
+// Gumroad off the content pages (25 Nov 2026): printables stay on the shop,
+// Party Planner, holiday and book pages only. Runs last, after every offer pass.
+{
+  const g = await injectGumroadOff(dist);
+  console.log(`Gumroad off: ${g.pages} pages (${Object.entries(g.totals).map(([k, v]) => `${k} ${v}`).join(", ")})${g.left.length ? `; still linking Gumroad in the body: ${g.left.slice(0, 10).join(", ")}${g.left.length > 10 ? ` +${g.left.length - 10}` : ""}` : ""}`);
 }
 console.log("Built Charcuterie Lab into dist/");
